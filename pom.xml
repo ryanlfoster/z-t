@@ -73,10 +73,10 @@
 			</properties>
 		</profile>
 		<profile>
-			<id>dev</id>
+			<id>ci</id>
 			<activation>
 				<property>
-					<name>dev</name>
+					<name>ci</name>
 				</property>
 			</activation>
 			<properties>

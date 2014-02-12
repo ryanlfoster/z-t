@@ -9,7 +9,7 @@
 	</parent>
 
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>au.com.australia</groupId>
+	<groupId>com.australia</groupId>
 	<artifactId>tourismaustralia</artifactId>
 	<packaging>pom</packaging>
 	<version>1.0.0-SNAPSHOT</version>
@@ -42,6 +42,8 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<maven.junit.usefile>false</maven.junit.usefile>
+		<brightcove-version>2.1.0</brightcove-version>
+		<skip-publish>true</skip-publish>
 	</properties>
 
 	<profiles>
@@ -51,9 +53,19 @@
 				<activeByDefault>true</activeByDefault>
 			</activation>
 			<properties>
-				<crx.skip>true</crx.skip>
-				<osgi.bundle.status.skip>true</osgi.bundle.status.skip>
-				<cq.username>admin</cq.username>
+				<skip>true</skip>
+				<sling.user>admin</sling.user>
+			</properties>
+		</profile>
+		<profile>
+			<id>activate</id>
+			<activation>
+				<property>
+					<name>activate</name>
+				</property>
+			</activation>
+			<properties>
+				<skip-publish>false</skip-publish>
 			</properties>
 		</profile>
 		<profile>
@@ -66,8 +78,9 @@
 			<properties>
 				<crx.skip>false</crx.skip>
 				<osgi.bundle.status.skip>false</osgi.bundle.status.skip>
-				<cq.host.author>localhost</cq.host.author>
-				<cq.port.author>4502</cq.port.author>
+				<cq.protocol>http</cq.protocol>
+				<cq.host>localhost</cq.host>
+				<cq.port>4502</cq.port>
 				<cq.username>admin</cq.username>
 				<cq.password>admin</cq.password>
 			</properties>
@@ -82,8 +95,9 @@
 			<properties>
 				<crx.skip>false</crx.skip>
 				<osgi.bundle.status.skip>false</osgi.bundle.status.skip>
-				<cq.host.author>54.206.72.64</cq.host.author>
-				<cq.port.author>4502</cq.port.author>
+				<cq.protocol>http</cq.protocol>
+				<cq.host>54.206.72.64</cq.host>
+				<cq.port>4502</cq.port>
 				<cq.username>admin</cq.username>
 				<cq.password>1xrQ3,_I'(</cq.password>
 			</properties>
@@ -112,7 +126,6 @@
 								<providerSelection>2.0</providerSelection>
 							</configuration>
 							<goals>
-								<!-- <goal>generateStubs</goal> <goal>compile</goal> -->
 								<goal>generateTestStubs</goal>
 								<goal>testCompile</goal>
 							</goals>
@@ -150,6 +163,12 @@
 				<groupId>org.apache.felix</groupId>
 				<artifactId>org.apache.felix.scr.annotations</artifactId>
 				<version>1.7.0</version>
+			</dependency>
+			<dependency>
+				<groupId>com.brightcove</groupId>
+				<artifactId>brightcove_allinone</artifactId>
+				<version>${brightcove-version}</version>
+				<type>zip</type>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>

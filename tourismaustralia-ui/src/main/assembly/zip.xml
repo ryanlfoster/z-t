@@ -13,6 +13,8 @@
             <directory>${basedir}/src/main/content/jcr_root</directory>
             <outputDirectory>jcr_root</outputDirectory>
             <excludes>
+                <exclude>**/.vlt</exclude>
+                <exclude>**/.vltignore</exclude>
                 <exclude>**/.DS_Store</exclude>
                 <exclude>/etc/designs/tourismaustralia/**</exclude>
             </excludes>
@@ -22,6 +24,8 @@
             <directory>${basedir}/src/main/content/jcr_root/etc/designs/tourismaustralia</directory>
             <outputDirectory>jcr_root/etc/designs/tourismaustralia</outputDirectory>
             <excludes>
+                <exclude>**/.vlt</exclude>
+                <exclude>**/.vltignore</exclude>
                 <exclude>**/.DS_Store</exclude>
             </excludes>
         </fileSet>
@@ -29,6 +33,8 @@
             <directory>${basedir}/src/main/content/META-INF</directory>
             <outputDirectory>META-INF</outputDirectory>
             <excludes>
+                <exclude>**/.vlt</exclude>
+                <exclude>**/.vltignore</exclude>
                 <exclude>**/.DS_Store</exclude>
             </excludes>
             <filtered>true</filtered>
@@ -38,11 +44,22 @@
         <dependencySet>
             <outputDirectory>jcr_root/apps/tourismaustralia/install</outputDirectory>
             <useProjectArtifact>false</useProjectArtifact>
-            <scope>compile</scope>
+            <useTransitiveDependencies>false</useTransitiveDependencies>
+            <scope>provided</scope>
             <includes>
-                <include>au.com.australia:tourismaustralia-core</include>
+                <include>com.australia:tourismaustralia-core</include>
             </includes>
             <useStrictFiltering>true</useStrictFiltering>
         </dependencySet>
+        <dependencySet>
+			<outputDirectory>jcr_root/etc/packages/brightcove</outputDirectory>
+			<useProjectArtifact>false</useProjectArtifact>
+			<outputFileNameMapping>${artifact.artifactId}-${artifact.version}.${artifact.extension}</outputFileNameMapping>
+			<scope>provided</scope>
+			<includes>
+				<include>com.brightcove:brightcove_allinone</include>
+			</includes>
+			<useStrictFiltering>true</useStrictFiltering>
+		</dependencySet>
     </dependencySets>
 </assembly>

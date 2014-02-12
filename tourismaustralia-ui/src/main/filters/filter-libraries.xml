@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<workspaceFilter version="1.0">
-    <filter root="/apps/tourismaustralia" />
-    <filter root="/etc/designs/tourismaustralia">
-        <exclude pattern="/etc/designs/tourismaustralia/jcr:content(/.*)?"/>
-    </filter>
-</workspaceFilter>

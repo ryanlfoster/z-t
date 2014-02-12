@@ -8,20 +8,20 @@
             Defines an aggregate that handles nt:file and nt:resource nodes.
         -->
         <aggregate type="file" title="File Aggregate"/>
-
+ 
         <!--
             Defines an aggregate that handles file/folder like nodes. It matches
             all nt:hierarchyNode nodes that have or define a jcr:content
             child node and excludes child nodes that are nt:hierarchyNodes.
         -->
         <aggregate type="filefolder" title="File/Folder Aggregate"/>
-
+ 
         <!--
             Defines an aggregate that handles nt:nodeType nodes and serializes
             them into .cnd notation.
         -->
         <aggregate type="nodetype" title="Node Type Aggregate" />
-
+ 
         <!--
             Defines an aggregate that defines full coverage for certain node
             types that cannot be covered by the default aggregator.
@@ -34,7 +34,7 @@
                 <include nodeType="vlt:FullCoverage" respectSupertype="true" />
             </matches>
         </aggregate>
-
+ 
         <!--
             Defines an aggregate that handles nt:folder like nodes.
         -->
@@ -48,7 +48,7 @@
                 <exclude isNode="true" />
             </contains>
         </aggregate>
-
+ 
         <!--
             Defines the default aggregate
         -->
@@ -60,9 +60,9 @@
                 <exclude nodeType="nt:hierarchyNode" respectSupertype="true" />
             </contains>
         </aggregate>
-
+ 
     </aggregates>
-
+ 
     <!--
       defines the input handlers
     -->

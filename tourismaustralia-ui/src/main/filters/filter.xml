@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<workspaceFilter version="1.0">
-    <filter root="/apps/tourismaustralia/components" />
-    <filter root="/apps/tourismaustralia/templates" />
-    <filter root="/apps/tourismaustralia/install/${core.name}-${project.parent.version}.jar" />
-    <filter root="/etc/designs/tourismaustralia">
-        <exclude pattern="/etc/designs/tourismaustralia/jcr:content(/.*)?"/>
-    </filter>
-</workspaceFilter>

@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
-    <filter root="/apps/cq-library/components" />
-    <filter root="/apps/cq-library/config" />
-    <filter root="/apps/cq-library/install" />
     <filter root="/apps/tourismaustralia/components" />
     <filter root="/apps/tourismaustralia/templates" />
-    <filter root="/apps/tourismaustralia/install" />
-    <filter root="/etc/clientlibs/cq-library" />
+    <filter root="/apps/tourismaustralia/install/${core.name}-${project.parent.version}.jar" />
     <filter root="/etc/designs/tourismaustralia">
         <exclude pattern="/etc/designs/tourismaustralia/jcr:content(/.*)?"/>
     </filter>
+    <filter root="/etc/packages/brightcove/brightcove_allinone-${brightcove-version}.zip" />
 </workspaceFilter>

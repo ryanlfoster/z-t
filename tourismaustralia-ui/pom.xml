@@ -138,27 +138,6 @@
 					</execution>
 				</executions>
 			</plugin>
-			<plugin>
-				<groupId>com.citytechinc.maven.plugins</groupId>
-				<artifactId>osgi-bundle-status-maven-plugin</artifactId>
-				<executions>
-					<execution>
-						<id>status-author</id>
-						<goals>
-							<goal>status</goal>
-						</goals>
-						<configuration>
-							<bundleNames>
-								<bundleName>${core.name}</bundleName>
-							</bundleNames>
-							<host>${cq.host.author}</host>
-							<port>${cq.port.author}</port>
-							<username>${cq.username}</username>
-							<password>${cq.password}</password>
-						</configuration>
-					</execution>
-				</executions>
-			</plugin>
 		</plugins>
 	</build>
 

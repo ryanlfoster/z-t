@@ -21,17 +21,16 @@
 			<plugin>
 				<groupId>org.apache.felix</groupId>
 				<artifactId>maven-bundle-plugin</artifactId>
-                <extensions>true</extensions>
-                <configuration>
-                    <instructions>
-                        <Bundle-SymbolicName>${project.artifactId}</Bundle-SymbolicName>
-                        <Bundle-Name>${project.name}</Bundle-Name>
-                        <Bundle-Vendor>${project.parent.organization.name}</Bundle-Vendor>
-                        <Export-Package>!*.impl,au.com.australia.*</Export-Package>
-                        <Import-Package>!com.citytechinc.cq.component.*,!javassist</Import-Package>
-                        <DynamicImport-Package>*</DynamicImport-Package>
-                    </instructions>
-                </configuration>
+				<extensions>true</extensions>
+				<configuration>
+					<instructions>
+						<Bundle-SymbolicName>${project.artifactId}</Bundle-SymbolicName>
+						<Bundle-Name>${project.name}</Bundle-Name>
+						<Bundle-Vendor>${project.parent.organization.name}</Bundle-Vendor>
+						<Export-Package>!*.impl,com.australia.*</Export-Package>
+						<DynamicImport-Package>*</DynamicImport-Package>
+					</instructions>
+				</configuration>
 			</plugin>
 			<plugin>
 				<groupId>org.apache.felix</groupId>
@@ -144,6 +143,14 @@
 		<dependency>
 			<groupId>org.apache.sling</groupId>
 			<artifactId>org.apache.sling.settings</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.citytechinc.cq.cq-component-plugin</groupId>
+			<artifactId>cq-component-annotations</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.brightcove.proserve.mediaapi</groupId>
+			<artifactId>wrapper</artifactId>
 		</dependency>
 	</dependencies>
 </project>

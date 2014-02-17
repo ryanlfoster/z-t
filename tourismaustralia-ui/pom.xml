@@ -72,6 +72,25 @@
 				</executions>
 			</plugin>
 			<plugin>
+				<groupId>com.citytechinc.cq.cq-component-plugin</groupId>
+				<artifactId>cq-component-maven-plugin</artifactId>
+				<version>${cq-component-plugin.version}</version>
+				<extensions>true</extensions>
+				<executions>
+					<execution>
+						<goals>
+							<goal>component</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<componentPathBase>jcr_root/apps/tourismaustralia/components</componentPathBase>
+					<componentPathSuffix>content</componentPathSuffix>
+					<defaultComponentGroup>Australia.com</defaultComponentGroup>
+					<transformerName>camel-case</transformerName>
+				</configuration>
+			</plugin>
+			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>exec-maven-plugin</artifactId>
 				<version>1.2.1</version>

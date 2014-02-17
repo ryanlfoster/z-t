@@ -3,13 +3,14 @@
 
 <c:set var="brightcove" value="<%=new Brightcove(slingRequest) %>"/>
 
-<div style="overflow-x: hidden;overflow-y: hidden;text-align: center;width: 100%;text-align:center;">
+<div class="cq-dd-brightcovevideo" style="overflow-x: hidden;overflow-y: hidden;text-align: center;width: 100%;text-align:center;">
     <div id="${brightcove.videoRandomId}">
 
    </div>
 
     
-    <cq:includeClientLib js="brc.BrightcoveExperiences-custom"/>
+    <cq:includeClientLib js="ta-brightcove"/>
+    
     <script type="text/javascript">
     
         

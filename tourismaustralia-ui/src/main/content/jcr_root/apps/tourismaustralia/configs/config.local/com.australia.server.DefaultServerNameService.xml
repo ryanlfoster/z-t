@@ -2,5 +2,5 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
 		jcr:primaryType="sling:OsgiConfig"
 		authorServerName="http://localhost:4502"
-		foodAndWineServerName="http://localhost:4503"
-		australiaComServerName="http://localhost:4503"/>
+		foodAndWineServerName="http://foodandwine.local:4503"
+		australiaComServerName="http://australia.local:4503"/>

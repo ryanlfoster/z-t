@@ -41,20 +41,6 @@
 	</profiles>
 
 	<build>
-		<pluginManagement>
-			<plugins>
-				<plugin>
-					<groupId>com.cognifide.maven.plugins</groupId>
-					<artifactId>maven-crx-plugin</artifactId>
-					<version>1.0.3</version>
-					<configuration>
-						<url>http://${cq.host.author}:${cq.port.author}</url>
-						<user>${cq.username}</user>
-						<password>${cq.password}</password>
-					</configuration>
-				</plugin>
-			</plugins>
-		</pluginManagement>
 		<plugins>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>

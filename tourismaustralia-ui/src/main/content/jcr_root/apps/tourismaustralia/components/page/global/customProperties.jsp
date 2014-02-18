@@ -8,7 +8,7 @@
 			"handler": function() {
 				var contentWindow = CQ.utils.WCM.getContentWindow();
 				var sidekick = CQ.wcm.Sidekick.findSidekick(this);
-				var dialogPath = '/apps/tourismaustralia/components/page/global/extra_dialog.xml';
+				var dialogPath = '/apps/tourismaustralia/components/page/global/extra_dialog';
 				var propsDialogConfig = contentWindow.CQ.WCM.getDialogConfig(dialogPath);
 				propsDialogConfig.success = function(form, action) {
 					CQ.Util.reload(CQ.WCM.getContentWindow());

@@ -37,19 +37,19 @@ public class SiteMapGenerator {
         ResourceResolver resourceResolver = request.getResourceResolver();
         Page resRootPage = resourceResolver.adaptTo(PageManager.class).getPage(path);
         writePageUrls(writer, resourceResolver, resRootPage);
-        writer.write("</urlset>");
+        writer.write("</urlset>");  // site map closing tag
     }
 
-    private static void writePageUrls(Writer writer, ResourceResolver resourceResolver, Page resRootPage) throws IOException {
+    private static void writePageUrls(Writer writer, ResourceResolver resourceResolver, Page parent) throws IOException {
         Externalizer externalizer = resourceResolver.adaptTo(Externalizer.class);
-        Iterator<Page> children = resRootPage.listChildren();
-        while (children.hasNext())  {
-            Page resourcePage = children.next();
+        Iterator<Page> children = parent.listChildren();
+        while (children.hasNext()) {
+            Page child = children.next();
             writer.write("<url><loc>");
-            writer.write(externalizer.publishLink(resourceResolver, resourcePage.getPath()) + ".html");
+            writer.write(externalizer.publishLink(resourceResolver, child.getPath()) + ".html");
             writer.write("</loc></url>");
-            if (resourcePage.getDepth()>1) {
-                writePageUrls(writer, resourceResolver, resourcePage);
+            if (child.getDepth()>1) {
+                writePageUrls(writer, resourceResolver, child);
             }
         }
     }

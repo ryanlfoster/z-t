@@ -6,6 +6,7 @@ import org.apache.felix.scr.annotations.Reference;
 import org.apache.felix.scr.annotations.sling.SlingServlet;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.SlingHttpServletResponse;
+import org.apache.sling.api.servlets.OptingServlet;
 import org.apache.sling.api.servlets.SlingAllMethodsServlet;
 
 import javax.servlet.ServletException;
@@ -25,12 +26,8 @@ public class GenericSiteMapServlet extends SlingAllMethodsServlet {
             IOException {
 
         if(serverNameService.getAustraliaComServerName().contains(request.getServerName())){
-            //SiteMapGenerator.generateParent(request, response, ServerUtils.SITE_NAME_OZCOM);
-            SiteMapGenerator.generate(request, response, PathUtils.SITE_NAME_OZCOM);
+            SiteMapGenerator.generateParent(request, response, PathUtils.SITE_NAME_OZCOM);
         }else if(serverNameService.getFoodAndWineServerName().contains(request.getServerName())){
-            SiteMapGenerator.generate(request, response, PathUtils.SITE_NAME_FOODWINE);
-        } else {
-            // for testing only in author instance
             SiteMapGenerator.generate(request, response, PathUtils.SITE_NAME_FOODWINE);
         }
     }

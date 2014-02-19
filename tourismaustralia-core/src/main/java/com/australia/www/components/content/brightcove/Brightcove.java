@@ -9,18 +9,22 @@ import com.brightcove.proserve.mediaapi.webservices.BrcService;
 import com.brightcove.proserve.mediaapi.webservices.BrcUtils;
 import com.citytechinc.cq.component.annotations.Component;
 import com.citytechinc.cq.component.annotations.DialogField;
+import com.citytechinc.cq.component.annotations.FieldProperty;
 import com.citytechinc.cq.component.annotations.Listener;
 import com.citytechinc.cq.component.annotations.Tab;
+import com.citytechinc.cq.component.annotations.editconfig.DropTarget;
 
-@Component(value = "Brightcove Video", tabs = { @Tab(title = "General"), @Tab(title = "Account Settings") })
+@Component(value = "Brightcove Video", tabs = { @Tab(title = "General"), @Tab(title = "Account Settings") }, dropTargets = @DropTarget(propertyName = "./videoPlayer", groups = "media", nodeName = "brightcovevideo", accept = "[.*]"), listeners = {
+	@Listener(name = "aftercopy", value = "REFRESH_PAGE"), @Listener(name = "afterdelete", value = "REFRESH_PAGE"),
+	@Listener(name = "afteredit", value = "REFRESH_PAGE"), @Listener(name = "afterinsert", value = "REFRESH_PAGE") })
 public class Brightcove {
-	@DialogField(fieldLabel = "Player Id", listeners = @Listener(name = "loadcontent", value = "function(field,record,path){ var loadDate = new CQ.Ext.data.JsonStore({ url: '/bin/brightcove/players?group=video', method: 'GET', root: 'items', fields: [{name:'playerId',type:'string'}] }); loadDate.load({ callback: function(r,options,success) { if (typeof field.value === 'undefined' || field.value.trim() == '') field.setValue(loadDate.data.itemAt(0).data.playerId); } }); }"))
+	@DialogField(fieldLabel = "Player Id", tab = 2, listeners = @Listener(name = "loadcontent", value = "function(field,record,path){ var loadDate = new CQ.Ext.data.JsonStore({ url: '/bin/brightcove/players?group=video', method: 'GET', root: 'items', fields: [{name:'playerId',type:'string'}] }); loadDate.load({ callback: function(r,options,success) { if (typeof field.value === 'undefined' || field.value.trim() == '') field.setValue(loadDate.data.itemAt(0).data.playerId); } }); }"))
 	private final String playerId;
-	
-	@DialogField(fieldLabel = "Player Key",listeners = @Listener(name = "loadcontent", value = "function(field,record,path){ var loadDate = new CQ.Ext.data.JsonStore({ url: '/bin/brightcove/players?group=video', method: 'GET', root: 'items', fields: [{name:'playerKey',type:'string'}] }); loadDate.load({ callback: function(r,options,success) { if (typeof field.value === 'undefined' || field.value.trim() == '') field.setValue(loadDate.data.itemAt(0).data.playerKey); } }); }"))
+
+	@DialogField(fieldLabel = "Player Key", tab = 2, listeners = @Listener(name = "loadcontent", value = "function(field,record,path){ var loadDate = new CQ.Ext.data.JsonStore({ url: '/bin/brightcove/players?group=video', method: 'GET', root: 'items', fields: [{name:'playerKey',type:'string'}] }); loadDate.load({ callback: function(r,options,success) { if (typeof field.value === 'undefined' || field.value.trim() == '') field.setValue(loadDate.data.itemAt(0).data.playerKey); } }); }"))
 	private final String playerKey;
 
-	@DialogField(required = true, xtype = "BrightcoveCombo", fieldLabel = "Video")
+	@DialogField(required = true, tab = 1, xtype = "BrightcoveCombo", fieldLabel = "Video", name = "./video", additionalProperties = @FieldProperty(name = "hiddenName", value = "./videoPlayer"))
 	private final String videoPlayer;
 	private final String videoRandomId;
 
@@ -31,7 +35,7 @@ public class Brightcove {
 		videoRandomId = new String(UUID.randomUUID().toString().replaceAll("-", ""));
 		playerId = properties.get("playerId", brcService.getDefVideoPlayerID());
 		playerKey = properties.get("playerKey", brcService.getDefVideoPlayerKey());
-		videoPlayer = properties.get("video", "");
+		videoPlayer = properties.get("videoPlayer", "");
 	}
 
 	public String getPlayerId() {

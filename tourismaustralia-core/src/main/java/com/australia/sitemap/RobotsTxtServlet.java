@@ -19,14 +19,15 @@ import org.apache.sling.settings.SlingSettingsService;
 
 import com.australia.server.ServerNameService;
 import com.australia.utils.ServerUtils;
+import com.australia.utils.Site;
 
 @SlingServlet(paths = "/robots", label = "Robots Servlet", description = "Servlet to Generate Robots.txt", extensions = "txt", resourceTypes = "sling/servlet/default", metatype = true)
 public class RobotsTxtServlet extends SlingAllMethodsServlet {
 	private static final long serialVersionUID = 1L;
-	
+
 	@Reference
 	private SlingSettingsService slingSettings;
-	
+
 	@Reference
 	private ServerNameService serverNameService;
 
@@ -42,20 +43,24 @@ public class RobotsTxtServlet extends SlingAllMethodsServlet {
 		Writer writer = response.getWriter();
 		writer.write("User-agent: * \n");
 		if (on) {
-			StringBuilder sitemapBuilder=new StringBuilder();
+			StringBuilder sitemapBuilder = new StringBuilder();
 			sitemapBuilder.append("Sitemap:");
-			String server="";
-			if(slingSettings.getRunModes().contains(ServerUtils.AUTHOR)){
-				server=serverNameService.getAuthorServerName();
-			}else{
-				if(serverNameService.getAustraliaComServerName().contains(request.getServerName())){
-					server=serverNameService.getAustraliaComServerName();
-				}else if(serverNameService.getFoodAndWineServerName().contains(request.getServerName())){
-					server=serverNameService.getFoodAndWineServerName();
+			String server = "";
+			if (slingSettings.getRunModes().contains(ServerUtils.AUTHOR)) {
+				server = serverNameService.getAuthorServerName();
+			} else {
+				Site site = ServerUtils.getSite(slingSettings, serverNameService, request);
+				switch (site) {
+				case OZCOM:
+					server = serverNameService.getAustraliaComServerName();
+					break;
+				case FOOD_AND_WINE:
+					server = serverNameService.getFoodAndWineServerName();
+					break;
 				}
 			}
 			sitemapBuilder.append(server).append("/sitemap.xml");
-			
+
 			writer.write(sitemapBuilder.toString());
 		} else {
 			writer.write("Disallow: /");

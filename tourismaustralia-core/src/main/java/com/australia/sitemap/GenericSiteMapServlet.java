@@ -15,7 +15,7 @@ import java.io.IOException;
 /**
  * Created by cchin on 17/02/14.
  */
-@SlingServlet(paths = "/bin/sitemap.xml", label = "Generic Sitemap Servlet", methods="GET", description = "Servlet to Generate sitemap.xml", extensions = "xml")
+@SlingServlet(paths = "/bin/sitemap.xml", label = "Generic Sitemap Servlet", methods="GET", description = "Servlet to Generate sitemap.xml", extensions = "xml", resourceTypes = "sling/servlet/default", metatype = true)
 public class GenericSiteMapServlet extends SlingAllMethodsServlet {
 
     @Reference

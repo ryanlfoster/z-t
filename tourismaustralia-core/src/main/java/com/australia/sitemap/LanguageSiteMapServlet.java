@@ -24,7 +24,7 @@ public class LanguageSiteMapServlet extends SlingAllMethodsServlet implements Op
     protected void doGet(SlingHttpServletRequest request, SlingHttpServletResponse response)
             throws ServletException, IOException {
         String lang = "en";
-        SiteMapGenerator.generate(request, response, PathUtils.SITE_NAME_OZCOM + "/" + lang);
+        SiteMapGenerator.generate(request, response, PathUtils.OZCOM_ROOT_PATH + "/" + lang);
     }
 
     @Override

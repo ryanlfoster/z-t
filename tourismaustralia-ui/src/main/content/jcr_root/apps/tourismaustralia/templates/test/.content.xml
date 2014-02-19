@@ -7,6 +7,7 @@
 
 	<jcr:content jcr:primaryType="cq:PageContent"
 		sling:resourceType="tourismaustralia/components/page/global"
+		cq:designPath="/etc/designs/tourismaustralia"
 	/>
 
 </jcr:root>

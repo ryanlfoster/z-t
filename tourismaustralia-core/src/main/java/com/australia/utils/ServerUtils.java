@@ -26,4 +26,15 @@ public class ServerUtils {
 			}
 		}
 	}
+
+	public static Site getSite(SlingSettingsService slingSettings, ServerNameService serverNameService,
+		SlingHttpServletRequest request) {
+		if (serverNameService.getAustraliaComServerName().contains(request.getServerName())) {
+			return Site.OZCOM;
+		} else if (serverNameService.getFoodAndWineServerName().contains(request.getServerName())) {
+			return Site.FOOD_AND_WINE;
+		} else {
+			return null;
+		}
+	}
 }

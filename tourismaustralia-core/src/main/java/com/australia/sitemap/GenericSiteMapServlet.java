@@ -26,9 +26,9 @@ public class GenericSiteMapServlet extends SlingAllMethodsServlet {
             IOException {
 
         if(serverNameService.getAustraliaComServerName().contains(request.getServerName())){
-            SiteMapGenerator.generateParent(request, response, PathUtils.SITE_NAME_OZCOM);
+            SiteMapGenerator.generateParent(request, response, PathUtils.OZCOM_ROOT_PATH);
         }else if(serverNameService.getFoodAndWineServerName().contains(request.getServerName())){
-            SiteMapGenerator.generate(request, response, PathUtils.SITE_NAME_FOODWINE);
+            SiteMapGenerator.generate(request, response, PathUtils.FOOD_AND_WINE_ROOT_PATH);
         }
     }
 

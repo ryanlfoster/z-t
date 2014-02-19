@@ -1,9 +1,14 @@
 package com.australia.utils;
 
 import org.apache.sling.api.SlingHttpServletRequest;
+import org.apache.sling.api.resource.NonExistingResource;
+import org.apache.sling.api.resource.Resource;
 import org.apache.sling.settings.SlingSettingsService;
 
 import com.australia.server.ServerNameService;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class ServerUtils {
 	private ServerUtils() {
@@ -37,4 +42,18 @@ public class ServerUtils {
 			return null;
 		}
 	}
+
+    public static String getLanguageCode(SlingHttpServletRequest request) {
+        Pattern p = Pattern.compile("/([a-z]{2})/.*");
+        Matcher m = p.matcher(request.getPathInfo());
+        if (m.find()) {
+            String tempLang = m.group(1);
+            if (!request.getResourceResolver().resolve(PathUtils.OZCOM_ROOT_PATH.concat("/" + tempLang))
+                    .getResourceType().equals(Resource.RESOURCE_TYPE_NON_EXISTING)) {
+                return tempLang;
+            }
+        }
+        return "";
+    }
+
 }

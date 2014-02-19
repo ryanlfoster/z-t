@@ -1,7 +1,10 @@
 package com.australia.sitemap;
 
+import com.australia.errorhandler.Sling404ErrorHandler;
 import com.australia.server.ServerNameService;
 import com.australia.utils.PathUtils;
+import com.australia.utils.ServerUtils;
+import org.apache.commons.lang.StringUtils;
 import org.apache.felix.scr.annotations.Reference;
 import org.apache.felix.scr.annotations.sling.SlingServlet;
 import org.apache.sling.api.SlingHttpServletRequest;
@@ -21,10 +24,13 @@ public class LanguageSiteMapServlet extends SlingAllMethodsServlet implements Op
     private ServerNameService serverNameService;
 
     @Override
-    protected void doGet(SlingHttpServletRequest request, SlingHttpServletResponse response)
-            throws ServletException, IOException {
-        String lang = "en";
-        SiteMapGenerator.generate(request, response, PathUtils.OZCOM_ROOT_PATH + "/" + lang);
+    protected void doGet(SlingHttpServletRequest request, SlingHttpServletResponse response) throws ServletException, IOException {
+        String lang = ServerUtils.getLanguageCode(request);
+        if (StringUtils.isNotEmpty(lang)) {
+            SiteMapGenerator.generate(request, response, PathUtils.OZCOM_ROOT_PATH + "/" + lang);
+        } else {
+            response.sendRedirect(new Sling404ErrorHandler(request).getPageLocation());
+        }
     }
 
     @Override

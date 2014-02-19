@@ -32,12 +32,11 @@ public class SiteMapGenerator {
     }
 
     private static void writePageUrls(Writer writer, ResourceResolver resourceResolver, Page parent) throws IOException {
-        Externalizer externalizer = resourceResolver.adaptTo(Externalizer.class);
         Iterator<Page> children = parent.listChildren();
         while (children.hasNext()) {
             Page child = children.next();
             writer.write("<url><loc>");
-            writer.write(externalizer.publishLink(resourceResolver, child.getPath()) + ".html");
+            writer.write(resourceResolver.map(child.getPath()) + ".html");
             writer.write("</loc></url>");
             if (child.getDepth()>1) {
                 writePageUrls(writer, resourceResolver, child);
@@ -46,12 +45,11 @@ public class SiteMapGenerator {
     }
 
     private static void writeSiteMaps(Writer writer, ResourceResolver resourceResolver, Page parent) throws IOException {
-        Externalizer externalizer = resourceResolver.adaptTo(Externalizer.class);
         Iterator<Page> children = parent.listChildren();
         while (children.hasNext()) {
             Page child = children.next();
             writer.write("<sitemap><loc>");
-            writer.write(externalizer.publishLink(resourceResolver, child.getPath()) + "/sitemap.xml");
+            writer.write(resourceResolver.map(child.getPath()) + "/sitemap.xml");
             writer.write("</loc></sitemap>");
         }
     }

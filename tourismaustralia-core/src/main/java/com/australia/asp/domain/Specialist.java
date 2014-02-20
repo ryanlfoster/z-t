@@ -1,6 +1,9 @@
 package com.australia.asp.domain;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 public class Specialist {
+	@JsonIgnore
 	private final AussieSpecialistType aussieSpecialist;
 	private final String uniqueId;
 	private final String category;

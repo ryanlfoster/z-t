@@ -4,6 +4,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import org.apache.sling.api.SlingHttpServletRequest;
+import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.scripting.SlingBindings;
 import org.apache.sling.api.scripting.SlingScriptHelper;
 import org.apache.sling.settings.SlingSettingsService;
@@ -32,7 +33,8 @@ public class Sling404ErrorHandler {
 			Matcher m = p.matcher(request.getPathInfo());
 			if (m.find()) {
 				String tempLang = m.group(1);
-				if (request.getResourceResolver().resolve(String.format(tempLoc, tempLang)) != null) {
+                if (!request.getResourceResolver().resolve(String.format(tempLoc, tempLang))
+                        .isResourceType(Resource.RESOURCE_TYPE_NON_EXISTING)) {
 					lang = tempLang;
 				}
 			}

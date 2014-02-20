@@ -48,8 +48,9 @@ public class ServerUtils {
         Matcher m = p.matcher(request.getPathInfo());
         if (m.find()) {
             String tempLang = m.group(1);
-            if (!request.getResourceResolver().resolve(PathUtils.OZCOM_ROOT_PATH.concat("/" + tempLang))
-                    .getResourceType().equals(Resource.RESOURCE_TYPE_NON_EXISTING)) {
+            if (!request.getResourceResolver()
+                    .resolve(PathUtils.OZCOM_ROOT_PATH.concat("/" + tempLang))
+                    .isResourceType(Resource.RESOURCE_TYPE_NON_EXISTING)) {
                 return tempLang;
             }
         }

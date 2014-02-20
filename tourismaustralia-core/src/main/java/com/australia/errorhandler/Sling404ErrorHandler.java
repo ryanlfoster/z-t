@@ -34,7 +34,7 @@ public class Sling404ErrorHandler {
 			if (m.find()) {
 				String tempLang = m.group(1);
                 if (!request.getResourceResolver().resolve(String.format(tempLoc, tempLang))
-                        .getResourceType().equals(Resource.RESOURCE_TYPE_NON_EXISTING)) {
+                        .isResourceType(Resource.RESOURCE_TYPE_NON_EXISTING)) {
 					lang = tempLang;
 				}
 			}

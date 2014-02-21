@@ -125,7 +125,7 @@ public class DefaultAspRepository implements AspRepository, Runnable {
 	@Modified
 	protected void activate(final Map<String, Object> properties) throws Exception {
 		aspXMLLocation = PropertiesUtil.toString(properties.get(ASP_XML_LOCATION), DEFAULT_ASP_XML_LOCATION);
-		setSpecialists();
+		new Thread(this).start();
 	}
 
 	@Override

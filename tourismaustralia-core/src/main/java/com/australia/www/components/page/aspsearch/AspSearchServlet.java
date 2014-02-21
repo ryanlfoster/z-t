@@ -46,6 +46,7 @@ public class AspSearchServlet extends SlingAllMethodsServlet {
 			specialists = aspService.getSpecialists();
 		}
 		response.setContentType("application/json");
+		response.setCharacterEncoding("UTF-8");
 		JsonGenerator generator = FACTORY.createGenerator(response.getWriter());
 		MAPPER.writeValue(generator, specialists);
 	}

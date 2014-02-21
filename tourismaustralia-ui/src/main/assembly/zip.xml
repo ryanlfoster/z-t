@@ -48,6 +48,9 @@
             <scope>provided</scope>
             <includes>
                 <include>com.australia:tourismaustralia-core</include>
+                <include>com.fasterxml.jackson.core:jackson-core</include>
+                <include>com.fasterxml.jackson.core:jackson-databind</include>
+                <include>com.fasterxml.jackson.core:jackson-annotations</include>
             </includes>
             <useStrictFiltering>true</useStrictFiltering>
         </dependencySet>

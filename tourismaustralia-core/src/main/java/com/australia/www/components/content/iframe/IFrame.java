@@ -51,11 +51,11 @@ public class IFrame {
         return height;
     }
 
-    public Boolean isExcludeFromMobile() {
+    public boolean isExcludeFromMobile() {
         return excludeFromMobile;
     }
 
-    public Boolean isExcludeFromTablet() {
+    public boolean isExcludeFromTablet() {
         return excludeFromTablet;
     }
 

@@ -1,6 +1,8 @@
 package com.australia.asp.repository;
 
 import java.io.IOException;
+import java.io.InputStream;
+import java.net.URISyntaxException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -33,10 +35,10 @@ import com.australia.asp.domain.Specialist;
 	@Property(name = "scheduler.concurrent", propertyPrivate = true, boolValue = false) })
 public class DefaultAspRepository implements AspRepository, Runnable {
 	private static final Logger LOG = LoggerFactory.getLogger(DefaultAspRepository.class);
-	private static final String DEFAULT_ASP_XML_LOCATION = "http://www.aussiespecialist.com/auscomprofiles/auscomxml/aussiespecialists.xml";
+	public static final String DEFAULT_ASP_XML_LOCATION = "http://www.aussiespecialist.com/auscomprofiles/auscomxml/aussiespecialists.xml";
 	private static final String SEPERATOR = "~";
 	@Property(label = "ASP XML File Location", description = "The external location ASP XML file")
-	protected static final String ASP_XML_LOCATION = "aspXMLLocation";
+	private static final String ASP_XML_LOCATION = "aspXMLLocation";
 	private String aspXMLLocation;
 
 	private List<Specialist> specialists = new ArrayList<Specialist>();
@@ -65,43 +67,57 @@ public class DefaultAspRepository implements AspRepository, Runnable {
 		return specialists != null ? specialists : new ArrayList<Specialist>();
 	}
 
-	protected void setSpecialists() {
+	private void setSpecialistsFromFile() throws JAXBException, URISyntaxException {
+		InputStream file = this.getClass().getClassLoader().getResourceAsStream("aussiespecialists.xml");
+		JAXBContext jaxbContext = JAXBContext.newInstance(AussieSpecialistsType.class);
+
+		Unmarshaller jaxbUnmarshaller = jaxbContext.createUnmarshaller();
+		specialists = convertAussieSpecialistsDataToSpecialists((AussieSpecialistsType) jaxbUnmarshaller
+			.unmarshal(file));
+		updateMaps();
+	}
+
+	private void setSpecialists() {
 		try {
 			specialists = convertAussieSpecialistsDataToSpecialists(getAussieSpecialistsData());
-			for (Specialist specialist : specialists) {
-				String country = specialist.getCountry();
-				String state = specialist.getState();
-				String city = specialist.getCity();
-
-				List<Specialist> countryList = specialistsByCountry.get(country);
-				if (countryList == null) {
-					countryList = new ArrayList<Specialist>();
-				}
-				countryList.add(specialist);
-				specialistsByCountry.put(country, countryList);
-
-				String stateKey = country + SEPERATOR + state;
-				List<Specialist> countryandStateList = specialistsByCountryAndState.get(stateKey);
-				if (countryandStateList == null) {
-					countryandStateList = new ArrayList<Specialist>();
-				}
-				countryandStateList.add(specialist);
-				specialistsByCountryAndState.put(stateKey, countryandStateList);
-
-				String cityKey = stateKey + SEPERATOR + city;
-				List<Specialist> countryandStateandCityList = specialistsByCountryAndStateAndCity.get(cityKey);
-				if (countryandStateandCityList == null) {
-					countryandStateandCityList = new ArrayList<Specialist>();
-				}
-				countryandStateandCityList.add(specialist);
-				specialistsByCountryAndStateAndCity.put(cityKey, countryandStateandCityList);
-			}
+			updateMaps();
 		} catch (Exception e) {
 			LOG.error("Error getting ASP XML data", e);
 		}
 	}
 
-	protected AussieSpecialistsType getAussieSpecialistsData() throws JAXBException, IllegalStateException, IOException {
+	private void updateMaps() {
+		for (Specialist specialist : specialists) {
+			String country = specialist.getCountry();
+			String state = specialist.getState();
+			String city = specialist.getCity();
+
+			List<Specialist> countryList = specialistsByCountry.get(country);
+			if (countryList == null) {
+				countryList = new ArrayList<Specialist>();
+			}
+			countryList.add(specialist);
+			specialistsByCountry.put(country, countryList);
+
+			String stateKey = country + SEPERATOR + state;
+			List<Specialist> countryandStateList = specialistsByCountryAndState.get(stateKey);
+			if (countryandStateList == null) {
+				countryandStateList = new ArrayList<Specialist>();
+			}
+			countryandStateList.add(specialist);
+			specialistsByCountryAndState.put(stateKey, countryandStateList);
+
+			String cityKey = stateKey + SEPERATOR + city;
+			List<Specialist> countryandStateandCityList = specialistsByCountryAndStateAndCity.get(cityKey);
+			if (countryandStateandCityList == null) {
+				countryandStateandCityList = new ArrayList<Specialist>();
+			}
+			countryandStateandCityList.add(specialist);
+			specialistsByCountryAndStateAndCity.put(cityKey, countryandStateandCityList);
+		}
+	}
+
+	private AussieSpecialistsType getAussieSpecialistsData() throws JAXBException, IllegalStateException, IOException {
 		DefaultHttpClient client = new DefaultHttpClient();
 		HttpGet aspGet = new HttpGet(aspXMLLocation);
 		HttpResponse response = client.execute(aspGet);
@@ -111,7 +127,7 @@ public class DefaultAspRepository implements AspRepository, Runnable {
 		return (AussieSpecialistsType) jaxbUnmarshaller.unmarshal(response.getEntity().getContent());
 	}
 
-	protected List<Specialist> convertAussieSpecialistsDataToSpecialists(AussieSpecialistsType aussieSpecialists) {
+	private List<Specialist> convertAussieSpecialistsDataToSpecialists(AussieSpecialistsType aussieSpecialists) {
 		List<Specialist> specialists = new ArrayList<Specialist>();
 		if (aussieSpecialists != null && aussieSpecialists.getAussieSpecialists() != null) {
 			for (AussieSpecialistType aussie : aussieSpecialists.getAussieSpecialists()) {
@@ -125,6 +141,7 @@ public class DefaultAspRepository implements AspRepository, Runnable {
 	@Modified
 	protected void activate(final Map<String, Object> properties) throws Exception {
 		aspXMLLocation = PropertiesUtil.toString(properties.get(ASP_XML_LOCATION), DEFAULT_ASP_XML_LOCATION);
+		setSpecialistsFromFile();
 		new Thread(this).start();
 	}
 

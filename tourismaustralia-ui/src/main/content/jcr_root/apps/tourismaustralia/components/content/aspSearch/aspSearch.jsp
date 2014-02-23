@@ -2,8 +2,8 @@
 
 <cq:includeClientLib js="ta-asp-search"/>
 
-<div class="appSearchHolder">
-	<form action="${resource.path}.aspsearch.json">
+<div class="aspSearchHolder">
+	<form name="aspSearch" action="${resource.path}.aspsearch.json">
 		<label for="country">Country</label>
 		<input name="country">
 		<label for="state">State</label>

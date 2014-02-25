@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:osgi="http://www.eclipse.org/gemini/blueprint/schema/blueprint"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+                        http://www.eclipse.org/gemini/blueprint/schema/blueprint http://www.eclipse.org/gemini/blueprint/schema/blueprint/gemini-blueprint.xsd">
+    
+    <osgi:reference id="dataSourceFactory" interface="com.australia.datasource.DataSourceFactory"/>
+    
+    <bean id="dataSource" factory-bean="dataSourceFactory" factory-method="getDataSourceFromPool"/>
+    
+    <bean id="sessionFactory" class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+        <property name="dataSource" ref="dataSource" />
+        <property name="hibernateProperties">
+            <props>
+                <prop key="hibernate.format_sql">true</prop>
+                <prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
+                <prop key="hibernate.current_session_context_class">com.australia.hibernate4.spring.fix.SpringSessionContext</prop>
+            </props>
+        </property>
+        <property name="packagesToScan">
+            <list>
+                <value>com.australia.favorite.*</value>
+            </list>
+        </property>
+    </bean>
+</beans>

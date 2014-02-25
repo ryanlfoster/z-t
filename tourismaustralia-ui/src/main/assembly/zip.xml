@@ -1,60 +1,90 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <assembly
-    xmlns="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.0 http://maven.apache.org/xsd/assembly-1.1.0.xsd">
-    <id>zip</id>
-    <formats>
-        <format>zip</format>
-    </formats>
-    <includeBaseDirectory>false</includeBaseDirectory>
-    <fileSets>
-        <fileSet>
-            <directory>${basedir}/src/main/content/jcr_root</directory>
-            <outputDirectory>jcr_root</outputDirectory>
-            <excludes>
-                <exclude>**/.vlt</exclude>
-                <exclude>**/.vltignore</exclude>
-                <exclude>**/.DS_Store</exclude>
-                <exclude>/etc/designs/tourismaustralia/**</exclude>
-            </excludes>
-            <filtered>true</filtered>
-        </fileSet>
-        <fileSet>
-            <directory>${basedir}/src/main/content/jcr_root/etc/designs/tourismaustralia</directory>
-            <outputDirectory>jcr_root/etc/designs/tourismaustralia</outputDirectory>
-            <excludes>
-                <exclude>**/.vlt</exclude>
-                <exclude>**/.vltignore</exclude>
-                <exclude>**/.DS_Store</exclude>
-            </excludes>
-        </fileSet>
-        <fileSet>
-            <directory>${basedir}/src/main/content/META-INF</directory>
-            <outputDirectory>META-INF</outputDirectory>
-            <excludes>
-                <exclude>**/.vlt</exclude>
-                <exclude>**/.vltignore</exclude>
-                <exclude>**/.DS_Store</exclude>
-            </excludes>
-            <filtered>true</filtered>
-        </fileSet>
-    </fileSets>
-    <dependencySets>
-        <dependencySet>
-            <outputDirectory>jcr_root/apps/tourismaustralia/install</outputDirectory>
-            <useProjectArtifact>false</useProjectArtifact>
-            <useTransitiveDependencies>false</useTransitiveDependencies>
-            <scope>provided</scope>
-            <includes>
-                <include>com.australia:tourismaustralia-core</include>
-                <include>com.fasterxml.jackson.core:jackson-core</include>
-                <include>com.fasterxml.jackson.core:jackson-databind</include>
-                <include>com.fasterxml.jackson.core:jackson-annotations</include>
-            </includes>
-            <useStrictFiltering>true</useStrictFiltering>
-        </dependencySet>
-        <dependencySet>
+	xmlns="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.0 http://maven.apache.org/xsd/assembly-1.1.0.xsd">
+	<id>zip</id>
+	<formats>
+		<format>zip</format>
+	</formats>
+	<includeBaseDirectory>false</includeBaseDirectory>
+	<fileSets>
+		<fileSet>
+			<directory>${basedir}/src/main/content/jcr_root</directory>
+			<outputDirectory>jcr_root</outputDirectory>
+			<excludes>
+				<exclude>**/.vlt</exclude>
+				<exclude>**/.vltignore</exclude>
+				<exclude>**/.DS_Store</exclude>
+				<exclude>/etc/designs/tourismaustralia/**</exclude>
+			</excludes>
+			<filtered>true</filtered>
+		</fileSet>
+		<fileSet>
+			<directory>${basedir}/src/main/content/jcr_root/etc/designs/tourismaustralia</directory>
+			<outputDirectory>jcr_root/etc/designs/tourismaustralia</outputDirectory>
+			<excludes>
+				<exclude>**/.vlt</exclude>
+				<exclude>**/.vltignore</exclude>
+				<exclude>**/.DS_Store</exclude>
+			</excludes>
+		</fileSet>
+		<fileSet>
+			<directory>${basedir}/src/main/content/META-INF</directory>
+			<outputDirectory>META-INF</outputDirectory>
+			<excludes>
+				<exclude>**/.vlt</exclude>
+				<exclude>**/.vltignore</exclude>
+				<exclude>**/.DS_Store</exclude>
+			</excludes>
+			<filtered>true</filtered>
+		</fileSet>
+	</fileSets>
+	<dependencySets>
+		<dependencySet>
+			<outputDirectory>jcr_root/apps/tourismaustralia/install</outputDirectory>
+			<useProjectArtifact>false</useProjectArtifact>
+			<useTransitiveDependencies>false</useTransitiveDependencies>
+			<scope>provided</scope>
+			<includes>
+				<include>com.australia:tourismaustralia-core</include>
+				<include>com.fasterxml.jackson.core:jackson-core</include>
+				<include>com.fasterxml.jackson.core:jackson-databind</include>
+				<include>com.fasterxml.jackson.core:jackson-annotations</include>
+				<include>mysql:mysql-connector-java</include>
+				<include>com.google.guava:guava</include>
+				<!-- Hibernate -->
+				<include>org.hibernate:hibernate-core</include>
+				<include>org.hibernate:hibernate-entitymanager</include>
+				<include>org.hibernate.common:hibernate-commons-annotations</include>
+				<include>org.hibernate.javax.persistence:hibernate-jpa-2.1-api</include>
+				<include>org.antlr:com.springsource.antlr</include>
+				<include>org.javassist:javassist</include>
+				<include>com.fasterxml:com.springsource.com.fasterxml.classmate</include>
+				<include>org.apache.servicemix.bundles:org.apache.servicemix.bundles.dom4j</include>
+				<include>org.jboss:com.springsource.org.jboss.jandex</include>
+				<include>org.jboss.logging:jboss-logging</include>
+				<include>org.xmlpull:com.springsource.org.xmlpull</include>
+				<include>org.apache.ant:com.springsource.org.apache.tools.ant</include>
+				<!-- Gemini Blueprint -->
+				<include>org.eclipse.gemini:org.eclipse.gemini.blueprint.core</include>
+				<include>org.eclipse.gemini:org.eclipse.gemini.blueprint.io</include>
+				<include>org.eclipse.gemini:org.eclipse.gemini.blueprint.extender</include>
+				<!-- Gemini Spring Dependencies -->
+				<include>org.springframework:org.springframework.context</include>
+				<include>org.springframework:org.springframework.core</include>
+				<include>org.springframework:org.springframework.aop</include>
+				<include>org.springframework:org.springframework.beans</include>
+				<include>org.springframework:org.springframework.expression</include>
+				<include>org.aopalliance:com.springsource.org.aopalliance</include>
+				<!-- Hibernate Spring Dependencies -->
+				<include>org.springframework:org.springframework.orm</include>
+				<include>org.springframework:org.springframework.transaction</include>
+				<include>org.springframework:org.springframework.jdbc</include>
+			</includes>
+			<useStrictFiltering>true</useStrictFiltering>
+		</dependencySet>
+		<dependencySet>
 			<outputDirectory>jcr_root/etc/packages/brightcove</outputDirectory>
 			<useProjectArtifact>false</useProjectArtifact>
 			<outputFileNameMapping>${artifact.artifactId}-${artifact.version}.${artifact.extension}</outputFileNameMapping>
@@ -64,5 +94,5 @@
 			</includes>
 			<useStrictFiltering>true</useStrictFiltering>
 		</dependencySet>
-    </dependencySets>
+	</dependencySets>
 </assembly>

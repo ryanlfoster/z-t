@@ -35,6 +35,5 @@ public class DefaultFavoriteRepositoryTest {
 		favRepo.save(userFav);
 		UserFavorites userFavFromRepo = favRepo.getUserFavoritesByUserId(userFav.getUserId());
 		assertEquals(userFav, userFavFromRepo);
-		assertNotNull(userFavFromRepo.getShareId());
 	}
 }

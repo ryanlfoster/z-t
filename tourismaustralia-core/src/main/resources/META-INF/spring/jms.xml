@@ -1,0 +1,75 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:int="http://www.springframework.org/schema/integration"
+	xmlns:int-xml="http://www.springframework.org/schema/integration/xml"
+	xmlns:jms="http://www.springframework.org/schema/integration/jms"
+	xmlns:stream="http://www.springframework.org/schema/integration/stream"
+	xmlns:amq="http://activemq.apache.org/schema/core" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:task="http://www.springframework.org/schema/task" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:osgi="http://www.eclipse.org/gemini/blueprint/schema/blueprint"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+			http://www.springframework.org/schema/beans/spring-beans.xsd
+			http://www.springframework.org/schema/integration
+			http://www.springframework.org/schema/integration/spring-integration.xsd
+			http://www.springframework.org/schema/integration/jms
+			http://www.springframework.org/schema/integration/jms/spring-integration-jms.xsd
+			http://www.springframework.org/schema/integration/xml
+			http://www.springframework.org/schema/integration/jms/spring-integration-xml.xsd
+			http://www.springframework.org/schema/integration/stream
+			http://www.springframework.org/schema/integration/stream/spring-integration-stream.xsd
+			http://activemq.apache.org/schema/core
+			http://activemq.apache.org/schema/core/activemq-core.xsd
+			http://www.springframework.org/schema/tx 
+			http://www.springframework.org/schema/tx/spring-tx.xsd
+			http://www.springframework.org/schema/task
+			http://www.springframework.org/schema/task/spring-task.xsd
+			http://www.springframework.org/schema/context
+			http://www.springframework.org/schema/context/spring-context.xsd
+			http://www.eclipse.org/gemini/blueprint/schema/blueprint http://www.eclipse.org/gemini/blueprint/schema/blueprint/gemini-blueprint.xsd"
+	profile="author">
+
+	<context:component-scan base-package="com.australia.atdw" />
+
+	<amq:broker id="activeMq" useJmx="true" persistent="true">
+		<amq:transportConnectors>
+			<amq:transportConnector uri="tcp://localhost:0" />
+		</amq:transportConnectors>
+	</amq:broker>
+
+	<bean id="connectionFactory"
+		class="org.springframework.jms.connection.CachingConnectionFactory">
+		<property name="targetConnectionFactory">
+			<bean class="org.apache.activemq.ActiveMQConnectionFactory">
+				<property name="brokerURL" value="vm://localhost" />
+			</bean>
+		</property>
+		<property name="sessionCacheSize" value="10" />
+		<property name="cacheProducers" value="false" />
+	</bean>
+
+	<amq:queue id="atdwQueue" physicalName="com.australia.atdw" />
+
+	<!-- Out Bound Messages -->
+	<int:channel id="toAtdwQueueChannel" />
+
+	<jms:outbound-channel-adapter id="atdwOut"
+		channel="toAtdwQueueChannel" destination="atdwQueue"
+		connection-factory="connectionFactory" />
+
+	<int:gateway id="atdwGateWay" service-interface="com.australia.atdw.jms.AtdwGateway"
+		default-request-channel="toAtdwQueueChannel" />
+
+	<!-- Out Bound Message Service -->
+	<bean id="atdwQueueService" class="com.australia.atdw.jms.DefaultAtdwQueueService" />
+
+	<!-- In Bound Messages <bean id="atdwMessageConsumer" class="com.pga.pgatour.atdw.jms.AtdwMessageConsumer"/> 
+		<bean id="feedsThumbnailCreator" class="com.pga.pgatour.feeds.rendition.FeedsThumbnailCreator" 
+		factory-method="getInstance"> <property name="replicator" ref="replicator"/> 
+		</bean> <int:channel id="fromAtdwQueueChannel"/> <jms:message-driven-channel-adapter 
+		acknowledge="transacted" channel="fromAtdwQueueChannel" connection-factory="connectionFactory" 
+		destination="atdwQueue" concurrent-consumers="100"/> <int:service-activator 
+		input-channel="fromAtdwQueueChannel" ref="atdwMessageConsumer" method="saveImage"/> -->
+
+	<osgi:service id="defaultAtdwQueueService" ref="atdwQueueService"
+		interface="com.australia.atdw.jms.AtdwQueueService"
+		context-class-loader="service-provider" />
+</beans>

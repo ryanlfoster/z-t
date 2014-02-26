@@ -53,6 +53,7 @@
 				<include>com.fasterxml.jackson.core:jackson-annotations</include>
 				<include>mysql:mysql-connector-java</include>
 				<include>com.google.guava:guava</include>
+				<include>org.springframework:org.springframework.web</include>
 				<!-- Hibernate -->
 				<include>org.hibernate:hibernate-core</include>
 				<include>org.hibernate:hibernate-entitymanager</include>
@@ -81,6 +82,30 @@
 				<include>org.springframework:org.springframework.orm</include>
 				<include>org.springframework:org.springframework.transaction</include>
 				<include>org.springframework:org.springframework.jdbc</include>
+				<!-- Active MQ -->
+				<include>org.apache.activemq:activemq-core</include>
+				<include>org.apache.activemq:activemq-spring</include>
+				<include>org.apache.activemq:activemq-ra</include>
+				<include>org.apache.geronimo.specs:geronimo-jms_1.1_spec</include>
+				<include>org.apache.activemq:kahadb</include>
+				<include>org.apache.activemq.protobuf:activemq-protobuf</include>
+				<include>org.fusesource.fuse-extra:fusemq-leveldb</include>
+				<include>org.fusesource.mqtt-client:mqtt-client</include>
+				<include>org.fusesource.hawtbuf:hawtbuf</include>
+				<include>org.fusesource.hawtdispatch:hawtdispatch-transport</include>
+				<include>org.fusesource.hawtdispatch:hawtdispatch</include>
+				<include>org.apache.xbean:xbean-spring</include>
+				<include>commons-pool:commons-pool</include>
+				<include>org.apache.geronimo.specs:geronimo-j2ee-management_1.1_spec</include>
+				<include>org.apache.geronimo.specs:geronimo-annotation_1.0_spec</include>		
+				<!-- Spring Integration JMS -->
+				<include>org.springframework.integration:spring-integration-jms</include>
+				<include>org.springframework.integration:spring-integration-core</include>
+				<include>org.springframework:org.springframework.jms</include>
+				<include>net.sourceforge.cglib:com.springsource.net.sf.cglib</include>
+				<include>org.codehaus.jackson:jackson-core-asl</include>
+				<include>org.codehaus.jackson:jackson-mapper-asl</include>
+				<include>org.springframework.retry:spring-retry</include>
 			</includes>
 			<useStrictFiltering>true</useStrictFiltering>
 		</dependencySet>

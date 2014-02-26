@@ -33,8 +33,8 @@ public class Sling404ErrorHandler {
 			Matcher m = p.matcher(request.getPathInfo());
 			if (m.find()) {
 				String tempLang = m.group(1);
-                if (!request.getResourceResolver().resolve(String.format(tempLoc, tempLang))
-                        .isResourceType(Resource.RESOURCE_TYPE_NON_EXISTING)) {
+				if (!request.getResourceResolver().resolve(String.format(tempLoc, tempLang))
+					.isResourceType(Resource.RESOURCE_TYPE_NON_EXISTING)) {
 					lang = tempLang;
 				}
 			}

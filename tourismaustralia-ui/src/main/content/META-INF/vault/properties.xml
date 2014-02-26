@@ -8,11 +8,11 @@
     <entry key="lastModifiedBy">${cq.username}</entry>
     <entry key="created">${timestamp}</entry>
     <entry key="buildCount">1</entry>
-    <entry key="version" />
-    <entry key="dependencies" />
+    <entry key="version"/>
+    <entry key="dependencies"/>
     <entry key="packageFormatVersion">2</entry>
     <entry key="lastWrapped">${timestamp}</entry>
-    <entry key="group" />
+    <entry key="group"/>
     <entry key="lastWrappedBy">${cq.username}</entry>
     <entry key="path">/etc/packages/${project.artifactId}-${project.parent.version}</entry>
 </properties>

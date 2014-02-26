@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <assembly
-    xmlns="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.0 http://maven.apache.org/xsd/assembly-1.1.0.xsd">
+        xmlns="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.0"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.0 http://maven.apache.org/xsd/assembly-1.1.0.xsd">
     <id>zip</id>
     <formats>
         <format>zip</format>
@@ -55,14 +55,15 @@
             <useStrictFiltering>true</useStrictFiltering>
         </dependencySet>
         <dependencySet>
-			<outputDirectory>jcr_root/etc/packages/brightcove</outputDirectory>
-			<useProjectArtifact>false</useProjectArtifact>
-			<outputFileNameMapping>${artifact.artifactId}-${artifact.version}.${artifact.extension}</outputFileNameMapping>
-			<scope>provided</scope>
-			<includes>
-				<include>com.brightcove:brightcove_allinone</include>
-			</includes>
-			<useStrictFiltering>true</useStrictFiltering>
-		</dependencySet>
+            <outputDirectory>jcr_root/etc/packages/brightcove</outputDirectory>
+            <useProjectArtifact>false</useProjectArtifact>
+            <outputFileNameMapping>${artifact.artifactId}-${artifact.version}.${artifact.extension}
+            </outputFileNameMapping>
+            <scope>provided</scope>
+            <includes>
+                <include>com.brightcove:brightcove_allinone</include>
+            </includes>
+            <useStrictFiltering>true</useStrictFiltering>
+        </dependencySet>
     </dependencySets>
 </assembly>

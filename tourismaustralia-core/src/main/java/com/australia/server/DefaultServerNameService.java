@@ -20,7 +20,7 @@ public class DefaultServerNameService implements ServerNameService {
 	@Property(label = "Food And Wine Server Name", description = "The external location of the food and wine publish server")
 	protected static final String FOOD_AND_WINE_SERVER_NAME = "foodAndWineServerName";
 	private String foodAndWineServerName;
-	
+
 	@Property(label = "Australia.com Server Name", description = "The external location of the australia.com publish server")
 	protected static final String AUSTRALIA_SERVER_NAME = "australiaComServerName";
 	private String australiaComServerName;
@@ -38,8 +38,8 @@ public class DefaultServerNameService implements ServerNameService {
 	@Override
 	public String getFoodAndWineServerName() {
 		return foodAndWineServerName;
-	}	
-	
+	}
+
 	@Activate
 	@Modified
 	protected void activate(final Map<String, Object> properties) throws Exception {

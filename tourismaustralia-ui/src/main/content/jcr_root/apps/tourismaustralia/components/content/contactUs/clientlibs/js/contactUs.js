@@ -1,7 +1,7 @@
 /**
  * Created by cchin on 24/02/14.
  */
-$(function(){
+$(function () {
     $('form[name="contactUs"]').submit(function (event) {
         event.preventDefault();
         $this = $(this);

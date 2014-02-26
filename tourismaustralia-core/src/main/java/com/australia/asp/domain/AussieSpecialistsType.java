@@ -17,13 +17,13 @@ import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
 /**
- * <p>
+ * <p/>
  * Java class for aussie-specialistsType complex type.
- * 
- * <p>
+ * <p/>
+ * <p/>
  * The following schema fragment specifies the expected content contained within
  * this class.
- * 
+ * <p/>
  * <pre>
  * &lt;complexType name="aussie-specialistsType">
  *   &lt;complexContent>
@@ -35,8 +35,6 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
  */
 @XmlRootElement(name = "aussie-specialists")
 @XmlAccessorType(XmlAccessType.FIELD)
@@ -48,26 +46,24 @@ public class AussieSpecialistsType {
 
 	/**
 	 * Gets the value of the aussieSpecialist property.
-	 * 
-	 * <p>
+	 * <p/>
+	 * <p/>
 	 * This accessor method returns a reference to the live list, not a
 	 * snapshot. Therefore any modification you make to the returned list will
 	 * be present inside the JAXB object. This is why there is not a
 	 * <CODE>set</CODE> method for the aussieSpecialist property.
-	 * 
-	 * <p>
+	 * <p/>
+	 * <p/>
 	 * For example, to add a new item, do as follows:
-	 * 
+	 * <p/>
 	 * <pre>
 	 * getAussieSpecialist().add(newItem);
 	 * </pre>
-	 * 
-	 * 
-	 * <p>
+	 * <p/>
+	 * <p/>
+	 * <p/>
 	 * Objects of the following type(s) are allowed in the list
 	 * {@link AussieSpecialistType }
-	 * 
-	 * 
 	 */
 	public List<AussieSpecialistType> getAussieSpecialists() {
 		if (aussieSpecialists == null) {

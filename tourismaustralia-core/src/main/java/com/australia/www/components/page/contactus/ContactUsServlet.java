@@ -42,7 +42,6 @@ public class ContactUsServlet extends SlingAllMethodsServlet {
 	@MultiField
 	private List<String> recipientEmails;
 
-
 	protected void doPost(SlingHttpServletRequest request, SlingHttpServletResponse response)
 		throws ServletException, IOException {
 		Map<String, String> properties = new HashMap<String, String>();

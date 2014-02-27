@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jdbc="http://www.springframework.org/schema/jdbc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+						http://www.springframework.org/schema/jdbc http://www.springframework.org/schema/jdbc/spring-jdbc.xsd">
+
+    <import resource="classpath:META-INF/spring/dataaccess.xml"/>
+
+    <jdbc:embedded-database id="dataSource" type="HSQL">
+        <jdbc:script location="classpath:sql/ta-test.sql"/>
+    </jdbc:embedded-database>
+
+    <bean id="sessionFactory" class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+        <property name="hibernateProperties">
+            <props>
+                <prop key="hibernate.format_sql">true</prop>
+                <prop key="hibernate.dialect">org.hibernate.dialect.HSQLDialect</prop>
+                <prop key="hibernate.current_session_context_class">
+                    com.australia.hibernate4.spring.fix.SpringSessionContext
+                </prop>
+            </props>
+        </property>
+        <property name="packagesToScan">
+            <list>
+                <value>com.australia.favorite.*</value>
+            </list>
+        </property>
+    </bean>
+</beans>

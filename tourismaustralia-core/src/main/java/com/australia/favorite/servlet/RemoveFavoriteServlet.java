@@ -14,16 +14,16 @@ import org.apache.sling.api.servlets.SlingAllMethodsServlet;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.australia.errorhandler.Sling404ErrorHandler;
 import com.australia.favorite.domain.Favorite;
 import com.australia.favorite.domain.UserFavorites;
 import com.australia.favorite.service.FavoriteService;
 import com.australia.utils.ServletUtils;
 
-@SlingServlet(paths = "/bin/favorites/add", label = "Add Favorites Servlet", methods = "GET",
-	description = "Servlet to Add Favorite", extensions = "json")
-public class AddFavoriteServlet extends SlingAllMethodsServlet {
-	private static final Logger LOG = LoggerFactory.getLogger(AddFavoriteServlet.class);
+@SlingServlet(paths = "/bin/favorites/remove", label = "Remove Favorite Servlet", methods = "GET",
+	description = "Servlet to Remove Favorite", extensions = "json")
+public class RemoveFavoriteServlet extends SlingAllMethodsServlet {
+	private static final Logger LOG = LoggerFactory.getLogger(RemoveFavoriteServlet.class);
+	private final String REMOVE_ALL = "*";
 
 	@Reference
 	private FavoriteService favoriteService;
@@ -41,28 +41,22 @@ public class AddFavoriteServlet extends SlingAllMethodsServlet {
 		if (StringUtils.isNotEmpty(userId)) {
 			userFavorites = favoriteService.getByUserId(userId);
 		}
-		persistFavorite(page);
-		ServletUtils.addCookie(response, ServletUtils.FAVORITES_COOKIE, userId);
-		response.getWriter().write("Favorite saved!");
+		removeFavorite(page);
+		response.getWriter().write("Favorite removed!");
 	}
 
 	/**
-	 * Saves the favorite by adding it to the userFavorites list.
-	 * Checks first if it exists to avoid duplicates.
-	 * @param page - the uri of the favorites page
+	 * Removes the page favourite from the favourites list.
+	 * If asterix(*) is specified, remove all favourites.
+	 * @param page - uri of page to remove or asterix to remove all
 	 */
-	private void persistFavorite(String page) {
-		// if userFavorites not found via cookie create new one
-		if (userFavorites == null) {
-			userFavorites = new UserFavorites();
-			favoriteService.save(userFavorites);
+	private void removeFavorite(String page) {
+		if (REMOVE_ALL.equals(page)) {
+			userFavorites.getFavorites().clear();
+		} else {
+			userFavorites.removeFavorite(new Favorite(page));
 		}
-		// now create the Favorite and save it
-		Favorite favorite = new Favorite(page);
-		if (!userFavorites.findFavorite(favorite)) {
-			userFavorites.addFavorite(favorite);
-			favoriteService.save(userFavorites);
-		}
+		favoriteService.save(userFavorites);
 	}
 
 }

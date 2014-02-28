@@ -32,7 +32,7 @@ public class LanguageSiteMapServlet extends SlingAllMethodsServlet implements Op
 		if (StringUtils.isNotEmpty(lang)) {
 			SiteMapGenerator.generate(request, response, PathUtils.OZCOM_ROOT_PATH + "/" + lang);
 		} else {
-			response.sendRedirect(new Sling404ErrorHandler(request).getPageLocation());
+			response.sendError(SlingHttpServletResponse.SC_NOT_FOUND);
 		}
 	}
 

@@ -19,6 +19,13 @@ public class DefaultFavoriteRepository implements FavoriteRepository {
 	}
 
 	@Override
+	public UserFavorites getUserFavoritesByShareId(String shareId) {
+		final String query = "From UserFavorites where shareId=:shareId";
+		return (UserFavorites) sessionFactory.getCurrentSession().createQuery(query).setString("shareId", shareId)
+			.uniqueResult();
+	}
+
+	@Override
 	public void save(UserFavorites userFavorites) {
 		sessionFactory.getCurrentSession().saveOrUpdate(userFavorites);
 	}

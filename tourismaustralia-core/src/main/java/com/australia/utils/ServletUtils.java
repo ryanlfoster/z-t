@@ -1,13 +1,16 @@
 package com.australia.utils;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
+
 import javax.servlet.http.Cookie;
 
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.SlingHttpServletResponse;
+import org.apache.sling.commons.json.JSONArray;
 
-/**
- * Created by cchin on 26/02/14.
- */
 public class ServletUtils {
 
 	public static final String FAVORITES_COOKIE = "userFavoritesUserId";

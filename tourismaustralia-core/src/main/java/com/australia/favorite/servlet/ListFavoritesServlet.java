@@ -34,7 +34,7 @@ public class ListFavoritesServlet extends SlingAllMethodsServlet {
 	private UserFavorites userFavorites = new UserFavorites();
 
 	protected void doGet(SlingHttpServletRequest request, SlingHttpServletResponse response)
-			throws ServletException, IOException {
+		throws ServletException, IOException {
 		String shareId = request.getParameter("shareId");
 		Cookie cookie = ServletUtils.getCookieByName(request, ServletUtils.FAVORITES_COOKIE);
 		String userId = (cookie != null ? cookie.getValue() : "");

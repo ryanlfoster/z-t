@@ -1,8 +1,5 @@
 package com.australia.utils;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
 import java.util.List;
 
 import javax.servlet.http.Cookie;
@@ -10,6 +7,10 @@ import javax.servlet.http.Cookie;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.SlingHttpServletResponse;
 import org.apache.sling.commons.json.JSONArray;
+import org.apache.sling.commons.json.JSONException;
+import org.apache.sling.commons.json.JSONObject;
+
+import com.australia.favorite.domain.Favorite;
 
 public class ServletUtils {
 
@@ -29,6 +30,19 @@ public class ServletUtils {
 	public static void addCookie(SlingHttpServletResponse response, String name, String value) {
 		Cookie cookie = new Cookie(name, value);
 		response.addCookie(cookie);
+	}
+	public static JSONObject toSimpleJson(String name, String value) {
+		JSONObject json = new JSONObject();
+		try {
+			json.putOpt(name, value);
+		} catch (JSONException e) {
+			//	e.printStackTrace();
+		}
+		return json;
+	}
+
+	public static JSONObject toSimpleJson(String name, Integer value) {
+		return toSimpleJson(name, value.toString());
 	}
 
 }

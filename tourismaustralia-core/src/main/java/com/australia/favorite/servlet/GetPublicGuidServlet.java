@@ -11,8 +11,6 @@ import org.apache.felix.scr.annotations.sling.SlingServlet;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.SlingHttpServletResponse;
 import org.apache.sling.api.servlets.SlingAllMethodsServlet;
-import org.apache.sling.commons.json.JSONException;
-import org.apache.sling.commons.json.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -37,14 +35,9 @@ public class GetPublicGuidServlet extends SlingAllMethodsServlet {
 		if (StringUtils.isNotEmpty(userId)) {
 			userFavorites = favoriteService.getByUserId(userId);
 		}
-		try {
-			JSONObject json = new JSONObject();
-			json.putOpt("shareId", userFavorites.getShareId());
-			response.setContentType("application/json");
-			response.getWriter().write(json.toString());
-		} catch (JSONException e) {
-//			e.printStackTrace();
-		}
+		response.setContentType("application/json");
+		response.getWriter().write(
+			ServletUtils.toSimpleJson("shareId", userFavorites.getShareId()).toString());
 	}
 
 }

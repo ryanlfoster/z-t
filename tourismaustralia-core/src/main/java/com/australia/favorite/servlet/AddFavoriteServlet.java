@@ -14,7 +14,6 @@ import org.apache.sling.api.servlets.SlingAllMethodsServlet;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.australia.errorhandler.Sling404ErrorHandler;
 import com.australia.favorite.domain.Favorite;
 import com.australia.favorite.domain.UserFavorites;
 import com.australia.favorite.service.FavoriteService;
@@ -43,7 +42,9 @@ public class AddFavoriteServlet extends SlingAllMethodsServlet {
 		}
 		persistFavorite(page);
 		ServletUtils.addCookie(response, ServletUtils.FAVORITES_COOKIE, userId);
-		response.getWriter().write("Favorite saved!");
+		response.setContentType("application/json");
+		response.getWriter().write(ServletUtils.toSimpleJson(
+			"favoritesCount", userFavorites.getFavorites().size()).toString());
 	}
 
 	/**

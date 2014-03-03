@@ -35,18 +35,11 @@ public class ListFavoritesServlet extends SlingAllMethodsServlet {
 
 	protected void doGet(SlingHttpServletRequest request, SlingHttpServletResponse response)
 		throws ServletException, IOException {
-		String shareId = request.getParameter("shareId");
 		Cookie cookie = ServletUtils.getCookieByName(request, ServletUtils.FAVORITES_COOKIE);
 		String userId = (cookie != null ? cookie.getValue() : "");
-
 		if (StringUtils.isNotEmpty(userId)) {
 			userFavorites = favoriteService.getByUserId(userId);
-		} else
-		if (StringUtils.isNotEmpty(shareId)) {
-			userFavorites = favoriteService.getByShareId(shareId);
-			ServletUtils.addCookie(response, ServletUtils.FAVORITES_COOKIE, userFavorites.getUserId());
 		}
-
 		JSONObject favoritesList = generateFavoritesList();
 		response.setContentType("application/json");
 		response.getWriter().write(favoritesList.toString());

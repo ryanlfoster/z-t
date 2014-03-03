@@ -23,7 +23,6 @@ import com.australia.utils.ServletUtils;
 	description = "Servlet to Remove Favorite", extensions = "json")
 public class RemoveFavoriteServlet extends SlingAllMethodsServlet {
 	private static final Logger LOG = LoggerFactory.getLogger(RemoveFavoriteServlet.class);
-	private final String REMOVE_ALL_FAVORITES = "*";
 
 	@Reference
 	private FavoriteService favoriteService;
@@ -49,15 +48,11 @@ public class RemoveFavoriteServlet extends SlingAllMethodsServlet {
 
 	/**
 	 * Removes the page favourite from the favourites list.
-	 * If asterix(*) is specified, remove all favourites.
+	 *
 	 * @param page - uri of page to remove or asterix to remove all
 	 */
 	private void removeFavorite(String page) {
-		if (REMOVE_ALL_FAVORITES.equals(page)) {
-			userFavorites.getFavorites().clear();
-		} else {
-			userFavorites.removeFavorite(new Favorite(page));
-		}
+		userFavorites.removeFavorite(new Favorite(page));
 		favoriteService.save(userFavorites);
 	}
 

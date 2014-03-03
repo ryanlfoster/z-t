@@ -41,7 +41,7 @@ public class AddFavoriteServlet extends SlingAllMethodsServlet {
 			userFavorites = favoriteService.getByUserId(userId);
 		}
 		persistFavorite(page);
-		ServletUtils.addCookie(response, ServletUtils.FAVORITES_COOKIE, userId);
+		ServletUtils.addCookie(response, ServletUtils.FAVORITES_COOKIE, userFavorites.getUserId());
 		response.setContentType("application/json");
 		response.getWriter().write(ServletUtils.toSimpleJson(
 			"favoritesCount", userFavorites.getFavorites().size()).toString());

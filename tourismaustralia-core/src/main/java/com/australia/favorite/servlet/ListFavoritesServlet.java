@@ -27,8 +27,7 @@ import com.fasterxml.jackson.core.JsonFactory;
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-@SlingServlet(paths = "/bin/favorites/list", label = "List Favorites Servlet", methods = "GET",
-	description = "Servlet to List Favorites", extensions = "json")
+@SlingServlet(paths = "/bin/favorites/list", label = "List Favorites Servlet", methods = "GET", description = "Servlet to List Favorites", extensions = "json")
 public class ListFavoritesServlet extends SlingAllMethodsServlet {
 	private static final Logger LOG = LoggerFactory.getLogger(ListFavoritesServlet.class);
 	private static final JsonFactory FACTORY = new JsonFactory();
@@ -37,18 +36,17 @@ public class ListFavoritesServlet extends SlingAllMethodsServlet {
 	@Reference
 	private FavoriteService favoriteService;
 
-
 	@Override
-	protected void doGet(SlingHttpServletRequest request, SlingHttpServletResponse response)
-		throws ServletException, IOException {
+	protected void doGet(SlingHttpServletRequest request, SlingHttpServletResponse response) throws ServletException,
+		IOException {
 		String shareId = request.getParameter("shareId");
 		UserFavorites userFavorites = new UserFavorites();
 		Cookie cookie = ServletUtils.getCookieByName(request, ServletUtils.FAVORITES_COOKIE);
 		if (StringUtils.isNotEmpty(shareId)) {
 			userFavorites = favoriteService.getByShareId(shareId);
-		} else if (cookie!=null) {
+		} else if (cookie != null) {
 			userFavorites = favoriteService.getByUserId(cookie.getValue());
-		}else {
+		} else {
 			response.sendError(SlingHttpServletResponse.SC_BAD_REQUEST);
 			return;
 		}
@@ -57,6 +55,5 @@ public class ListFavoritesServlet extends SlingAllMethodsServlet {
 		JsonGenerator generator = FACTORY.createGenerator(response.getWriter());
 		MAPPER.writeValue(generator, userFavorites.getFavorites());
 	}
-
 
 }

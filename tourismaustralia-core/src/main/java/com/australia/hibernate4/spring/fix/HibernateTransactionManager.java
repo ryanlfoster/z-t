@@ -101,7 +101,7 @@ import org.springframework.transaction.support.TransactionSynchronizationManager
  * Savepoints). <i>Note that Hibernate itself does not support nested
  * transactions! Hence, do not expect Hibernate access code to semantically
  * participate in a nested transaction.</i>
- *
+ * 
  * @author Juergen Hoeller
  * @see #setSessionFactory
  * @see #setDataSource
@@ -131,7 +131,7 @@ public class HibernateTransactionManager extends AbstractPlatformTransactionMana
 
 	/**
 	 * Just needed for entityInterceptorBeanName.
-	 *
+	 * 
 	 * @see #setEntityInterceptorBeanName
 	 */
 	private BeanFactory beanFactory;
@@ -139,7 +139,7 @@ public class HibernateTransactionManager extends AbstractPlatformTransactionMana
 	/**
 	 * Create a new HibernateTransactionManager instance. A SessionFactory has
 	 * to be set to be able to use it.
-	 *
+	 * 
 	 * @see #setSessionFactory
 	 */
 	public HibernateTransactionManager() {
@@ -147,7 +147,7 @@ public class HibernateTransactionManager extends AbstractPlatformTransactionMana
 
 	/**
 	 * Create a new HibernateTransactionManager instance.
-	 *
+	 * 
 	 * @param sessionFactory SessionFactory to manage transactions for
 	 */
 	public HibernateTransactionManager(SessionFactory sessionFactory) {
@@ -192,7 +192,7 @@ public class HibernateTransactionManager extends AbstractPlatformTransactionMana
 	 * manager needs to work on the underlying target DataSource. If there's
 	 * nevertheless a TransactionAwareDataSourceProxy passed in, it will be
 	 * unwrapped to extract its target DataSource.
-	 *
+	 * 
 	 * @see #setAutodetectDataSource
 	 * @see org.springframework.jdbc.datasource.TransactionAwareDataSourceProxy
 	 * @see org.springframework.jdbc.datasource.DataSourceUtils
@@ -227,7 +227,7 @@ public class HibernateTransactionManager extends AbstractPlatformTransactionMana
 	 * Can be turned off to deliberately ignore an available DataSource, in
 	 * order to not expose Hibernate transactions as JDBC transactions for that
 	 * DataSource.
-	 *
+	 * 
 	 * @see #setDataSource
 	 */
 	public void setAutodetectDataSource(boolean autodetectDataSource) {
@@ -246,7 +246,7 @@ public class HibernateTransactionManager extends AbstractPlatformTransactionMana
 	 * anymore either. If this flag is turned off, no cleanup of a JDBC
 	 * Connection is required after a transaction, since no Connection settings
 	 * will get modified.
-	 *
+	 * 
 	 * @see java.sql.Connection#setTransactionIsolation
 	 * @see java.sql.Connection#setReadOnly
 	 */
@@ -302,9 +302,9 @@ public class HibernateTransactionManager extends AbstractPlatformTransactionMana
 	 * <p/>
 	 * Can also be used for shared interceptor instances, but it is recommended
 	 * to set the interceptor reference directly in such a scenario.
-	 *
+	 * 
 	 * @param entityInterceptorBeanName the name of the entity interceptor in
-	 *                                  the bean factory
+	 *            the bean factory
 	 * @see #setBeanFactory
 	 * @see #setEntityInterceptor
 	 */
@@ -323,7 +323,7 @@ public class HibernateTransactionManager extends AbstractPlatformTransactionMana
 	 * It's preferable to set it on LocalSessionFactoryBean or
 	 * HibernateTransactionManager to avoid repeated configuration and guarantee
 	 * consistent behavior in transactions.
-	 *
+	 * 
 	 * @see LocalSessionFactoryBean#setEntityInterceptor
 	 */
 	public void setEntityInterceptor(Interceptor entityInterceptor) {
@@ -334,11 +334,11 @@ public class HibernateTransactionManager extends AbstractPlatformTransactionMana
 	 * Return the current Hibernate entity interceptor, or {@code null} if none.
 	 * Resolves an entity interceptor bean name via the bean factory, if
 	 * necessary.
-	 *
+	 * 
 	 * @throws IllegalStateException if bean name specified but no bean factory
-	 *                               set
-	 * @throws BeansException        if bean name resolution via the bean factory
-	 *                               failed
+	 *             set
+	 * @throws BeansException if bean name resolution via the bean factory
+	 *             failed
 	 * @see #setEntityInterceptor
 	 * @see #setEntityInterceptorBeanName
 	 * @see #setBeanFactory
@@ -360,7 +360,7 @@ public class HibernateTransactionManager extends AbstractPlatformTransactionMana
 	/**
 	 * The bean factory just needs to be known for resolving entity interceptor
 	 * bean names. It does not need to be set for any other mode of operation.
-	 *
+	 * 
 	 * @see #setEntityInterceptorBeanName
 	 */
 	public void setBeanFactory(BeanFactory beanFactory) {
@@ -697,7 +697,7 @@ public class HibernateTransactionManager extends AbstractPlatformTransactionMana
 	 * <p/>
 	 * The default implementation checks the Session's connection release mode
 	 * to be "on_close".
-	 *
+	 * 
 	 * @param session the Hibernate Session to check
 	 * @see org.hibernate.engine.transaction.spi.TransactionContext#getConnectionReleaseMode()
 	 * @see org.hibernate.ConnectionReleaseMode#ON_CLOSE
@@ -717,7 +717,7 @@ public class HibernateTransactionManager extends AbstractPlatformTransactionMana
 	 * <p/>
 	 * Will automatically apply a specified SQLExceptionTranslator to a
 	 * Hibernate JDBCException, else rely on Hibernate's default translation.
-	 *
+	 * 
 	 * @param ex HibernateException that occurred
 	 * @return a corresponding DataAccessException
 	 * @see SessionFactoryUtils#convertHibernateAccessException

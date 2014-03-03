@@ -14,7 +14,8 @@ public class ServletUtils {
 	public static final String FAVORITES_COOKIE = "userFavoritesUserId";
 	public static final int EXPIRY_FIVE_YEARS = 5 * 365 * 24 * 60 * 60;
 
-	private ServletUtils() {}
+	private ServletUtils() {
+	}
 
 	public static Cookie getCookieByName(SlingHttpServletRequest request, String name) {
 		// look for the favorites cookie and if found get the userId

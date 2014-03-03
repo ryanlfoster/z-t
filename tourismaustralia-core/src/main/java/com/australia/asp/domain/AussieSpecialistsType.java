@@ -24,6 +24,7 @@ import javax.xml.bind.annotation.XmlType;
  * The following schema fragment specifies the expected content contained within
  * this class.
  * <p/>
+ * 
  * <pre>
  * &lt;complexType name="aussie-specialistsType">
  *   &lt;complexContent>
@@ -56,6 +57,7 @@ public class AussieSpecialistsType {
 	 * <p/>
 	 * For example, to add a new item, do as follows:
 	 * <p/>
+	 * 
 	 * <pre>
 	 * getAussieSpecialist().add(newItem);
 	 * </pre>

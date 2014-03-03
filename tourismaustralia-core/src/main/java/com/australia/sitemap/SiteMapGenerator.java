@@ -11,7 +11,6 @@ import org.apache.sling.api.resource.ResourceResolver;
 import com.day.cq.wcm.api.Page;
 import com.day.cq.wcm.api.PageManager;
 
-
 /**
  * Created by cchin on 17/02/14.
  */
@@ -19,7 +18,7 @@ public class SiteMapGenerator {
 
 	/**
 	 * Writes the sitemap xml file header.
-	 *
+	 * 
 	 * @param response
 	 * @return
 	 * @throws IOException
@@ -55,22 +54,24 @@ public class SiteMapGenerator {
 		}
 	}
 
-	public static void generate(SlingHttpServletRequest request, SlingHttpServletResponse response, String rootpath) throws IOException {
+	public static void generate(SlingHttpServletRequest request, SlingHttpServletResponse response, String rootpath)
+		throws IOException {
 		Writer writer = writeXmlHeader(response);
 		writer.write("<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">");
 		ResourceResolver resourceResolver = request.getResourceResolver();
 		Page resRootPage = resourceResolver.adaptTo(PageManager.class).getPage(rootpath);
 		writePageUrls(writer, resourceResolver, resRootPage);
-		writer.write("</urlset>");  // site map closing tag
+		writer.write("</urlset>"); // site map closing tag
 	}
 
-	public static void generateParent(SlingHttpServletRequest request, SlingHttpServletResponse response, String rootpath) throws IOException {
+	public static void generateParent(SlingHttpServletRequest request, SlingHttpServletResponse response,
+		String rootpath) throws IOException {
 		Writer writer = writeXmlHeader(response);
 		writer.write("<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">");
 		ResourceResolver resourceResolver = request.getResourceResolver();
 		Page resRootPage = resourceResolver.adaptTo(PageManager.class).getPage(rootpath);
 		writeSiteMaps(writer, resourceResolver, resRootPage);
-		writer.write("</sitemapindex>");  // site map closing tag
+		writer.write("</sitemapindex>"); // site map closing tag
 	}
 
 }

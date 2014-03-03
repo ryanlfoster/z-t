@@ -20,21 +20,20 @@ import com.australia.favorite.domain.UserFavorites;
 import com.australia.favorite.service.FavoriteService;
 import com.australia.utils.ServletUtils;
 
-@SlingServlet(paths = "/bin/favorites/add", label = "Add Favorites Servlet", methods = "POST",
-	description = "Servlet to Add Favorite", extensions = "json")
+@SlingServlet(paths = "/bin/favorites/add", label = "Add Favorites Servlet", methods = "POST", description = "Servlet to Add Favorite", extensions = "json")
 public class AddFavoriteServlet extends SlingAllMethodsServlet {
 	private static final Logger LOG = LoggerFactory.getLogger(AddFavoriteServlet.class);
 
 	@Reference
 	private FavoriteService favoriteService;
 
-
 	@Override
-	protected void doPost(SlingHttpServletRequest request, SlingHttpServletResponse response)
-		throws ServletException, IOException {
+	protected void doPost(SlingHttpServletRequest request, SlingHttpServletResponse response) throws ServletException,
+		IOException {
 		String page = request.getParameter("page");
 		UserFavorites userFavorites = null;
-		if (StringUtils.isEmpty(page) && !request.getResourceResolver().resolve(page).isResourceType(Resource.RESOURCE_TYPE_NON_EXISTING)) {
+		if (StringUtils.isEmpty(page)
+			&& !request.getResourceResolver().resolve(page).isResourceType(Resource.RESOURCE_TYPE_NON_EXISTING)) {
 			response.sendError(SlingHttpServletResponse.SC_BAD_REQUEST);
 			return;
 		}
@@ -46,14 +45,14 @@ public class AddFavoriteServlet extends SlingAllMethodsServlet {
 		persistFavorite(userFavorites, page);
 		ServletUtils.addCookie(response, ServletUtils.FAVORITES_COOKIE, userFavorites.getUserId());
 		response.setContentType("application/json");
-		response.getWriter().write(ServletUtils.toSimpleJson(
-			"favoritesCount", userFavorites.getFavorites().size()).toString());
+		response.getWriter().write(
+			ServletUtils.toSimpleJson("favoritesCount", userFavorites.getFavorites().size()).toString());
 	}
 
 	/**
-	 * Saves the favorite by adding it to the userFavorites list.
-	 * Checks first if it exists to avoid duplicates.
-	 *
+	 * Saves the favorite by adding it to the userFavorites list. Checks first
+	 * if it exists to avoid duplicates.
+	 * 
 	 * @param page - the uri of the favorites page
 	 */
 	private void persistFavorite(UserFavorites userFavorites, String page) {

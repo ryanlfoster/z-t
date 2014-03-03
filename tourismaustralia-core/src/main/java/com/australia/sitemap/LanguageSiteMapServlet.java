@@ -27,7 +27,8 @@ public class LanguageSiteMapServlet extends SlingAllMethodsServlet implements Op
 	private ServerNameService serverNameService;
 
 	@Override
-	protected void doGet(SlingHttpServletRequest request, SlingHttpServletResponse response) throws ServletException, IOException {
+	protected void doGet(SlingHttpServletRequest request, SlingHttpServletResponse response) throws ServletException,
+		IOException {
 		String lang = ServerUtils.getLanguageCode(request);
 		if (StringUtils.isNotEmpty(lang)) {
 			SiteMapGenerator.generate(request, response, PathUtils.OZCOM_ROOT_PATH + "/" + lang);

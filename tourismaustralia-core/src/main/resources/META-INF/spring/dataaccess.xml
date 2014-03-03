@@ -1,25 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xmlns:context="http://www.springframework.org/schema/context"
-	xmlns:tx="http://www.springframework.org/schema/tx"
-	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
-						http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd
-						http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.0.xsd">
-	
-	<tx:annotation-driven/>
-	
-	<bean id="transactionManager" class="com.australia.hibernate4.spring.fix.HibernateTransactionManager">
-		<property name="sessionFactory" ref="sessionFactory"/>
-	</bean>
-	
-	<bean class="org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor"/>
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
 
-	<bean id="favoriteRepository" class="com.australia.favorite.repository.DefaultFavoriteRepository">
-		<constructor-arg name="sessionFactory" ref="sessionFactory"/>
-	</bean>
-	
-	<bean id="favoriteService" class=" com.australia.favorite.service.DefaultFavoriteService">
-		<constructor-arg name="favoriteRepository" ref="favoriteRepository"/>
-	</bean>
+						http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.0.xsd">
+
+    <tx:annotation-driven/>
+
+    <bean id="transactionManager" class="com.australia.hibernate4.spring.fix.HibernateTransactionManager">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+
+    <bean class="org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor"/>
+
+    <bean id="favoriteRepository" class="com.australia.favorite.repository.DefaultFavoriteRepository">
+        <constructor-arg name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+
+    <bean id="favoriteService" class=" com.australia.favorite.service.DefaultFavoriteService">
+        <constructor-arg name="favoriteRepository" ref="favoriteRepository"/>
+    </bean>
 </beans>

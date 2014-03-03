@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
-    <filter root="/apps/tourismaustralia" />
-    <filter root="/apps/tourismaustralia/install/${core.name}-${project.parent.version}.jar" />
-    <filter root="/apps/cq/personalization/components/contextstores" />
+    <filter root="/apps/tourismaustralia"/>
+    <filter root="/apps/tourismaustralia/install/${core.name}-${project.parent.version}.jar"/>
+    <filter root="/apps/cq/personalization/components/contextstores"/>
     <filter root="/apps/sling/servlet/errorhandler"/>
     <filter root="/etc/clientcontext/tourismaustralia"/>
     <filter root="/etc/designs/tourismaustralia">
         <exclude pattern="/etc/designs/tourismaustralia/jcr:content(/.*)?"/>
     </filter>
     <filter root="/etc/designs/tourismaustralia/jcr:content/global/clientcontext"/>
-    <filter root="/etc/packages/brightcove/brightcove_allinone-${brightcove-version}.zip" />
+    <filter root="/etc/packages/brightcove/brightcove_allinone-${brightcove-version}.zip"/>
 </workspaceFilter>

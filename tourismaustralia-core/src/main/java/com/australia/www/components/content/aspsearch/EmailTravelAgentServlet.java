@@ -44,7 +44,7 @@ public class EmailTravelAgentServlet extends SlingAllMethodsServlet {
 
 		final MailTemplate mailTemplate = MailTemplate.create(
 			"/content/dam/australia/emails/travelAgent/en.txt/jcr:content/renditions/original", request
-				.getResourceResolver().adaptTo(Session.class));
+			.getResourceResolver().adaptTo(Session.class));
 		try {
 			final HtmlEmail email = mailTemplate.getEmail(StrLookup.mapLookup(properties), HtmlEmail.class);
 			email.setSubject("Aus.com Email to Agent");

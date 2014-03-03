@@ -60,15 +60,15 @@ import org.springframework.orm.hibernate4.HibernateSystemException;
 /**
  * Helper class featuring methods for Hibernate Session handling. Also provides
  * support for exception translation.
- * 
- * <p>
+ * <p/>
+ * <p/>
  * Used internally by {@link HibernateTransactionManager}. Can also be used
  * directly in application code.
- * 
+ *
  * @author Juergen Hoeller
- * @since 3.1
  * @see HibernateExceptionTranslator
  * @see HibernateTransactionManager
+ * @since 3.1
  */
 public abstract class SessionFactoryUtils {
 
@@ -77,7 +77,7 @@ public abstract class SessionFactoryUtils {
 	 * Hibernate Sessions. Returns
 	 * {@code DataSourceUtils.CONNECTION_SYNCHRONIZATION_ORDER - 100} to execute
 	 * Session cleanup before JDBC Connection cleanup, if any.
-	 * 
+	 *
 	 * @see org.springframework.jdbc.datasource.DataSourceUtils#CONNECTION_SYNCHRONIZATION_ORDER
 	 */
 	public static final int SESSION_SYNCHRONIZATION_ORDER = DataSourceUtils.CONNECTION_SYNCHRONIZATION_ORDER - 100;
@@ -86,7 +86,7 @@ public abstract class SessionFactoryUtils {
 
 	/**
 	 * Determine the DataSource of the given SessionFactory.
-	 * 
+	 *
 	 * @param sessionFactory the SessionFactory to check
 	 * @return the DataSource, or {@code null} if none found
 	 * @see org.hibernate.engine.spi.SessionFactoryImplementor#getConnectionProvider
@@ -102,7 +102,7 @@ public abstract class SessionFactoryUtils {
 	/**
 	 * Perform actual closing of the Hibernate Session, catching and logging any
 	 * cleanup exceptions thrown.
-	 * 
+	 *
 	 * @param session the Hibernate Session to close (may be {@code null})
 	 * @see org.hibernate.Session#close()
 	 */
@@ -121,7 +121,7 @@ public abstract class SessionFactoryUtils {
 	/**
 	 * Convert the given HibernateException to an appropriate exception from the
 	 * {@code org.springframework.dao} hierarchy.
-	 * 
+	 *
 	 * @param ex HibernateException that occured
 	 * @return the corresponding DataAccessException instance
 	 * @see HibernateExceptionTranslator#convertHibernateAccessException

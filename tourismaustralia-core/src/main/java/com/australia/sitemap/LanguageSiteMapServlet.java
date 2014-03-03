@@ -22,19 +22,17 @@ import com.australia.utils.ServerUtils;
  */
 @SlingServlet(label = "Internationalization Sitemap Servlet", methods = "GET", description = "Servlet to Generate language specific sitemap.xml", extensions = "xml", resourceTypes = "sling/servlet/default")
 public class LanguageSiteMapServlet extends SlingAllMethodsServlet implements OptingServlet {
-	private static final long serialVersionUID = 1028386054383669211L;
 
 	@Reference
 	private ServerNameService serverNameService;
 
 	@Override
-	protected void doGet(SlingHttpServletRequest request, SlingHttpServletResponse response) throws ServletException,
-		IOException {
+	protected void doGet(SlingHttpServletRequest request, SlingHttpServletResponse response) throws ServletException, IOException {
 		String lang = ServerUtils.getLanguageCode(request);
 		if (StringUtils.isNotEmpty(lang)) {
 			SiteMapGenerator.generate(request, response, PathUtils.OZCOM_ROOT_PATH + "/" + lang);
 		} else {
-			response.sendRedirect(new Sling404ErrorHandler(request).getPageLocation());
+			response.sendError(SlingHttpServletResponse.SC_NOT_FOUND);
 		}
 	}
 

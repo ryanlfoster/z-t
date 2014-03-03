@@ -1,5 +1,6 @@
 package com.australia.favorite.domain;
 
+import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -14,6 +15,7 @@ import javax.persistence.OneToMany;
 import javax.persistence.OrderColumn;
 import javax.persistence.Table;
 
+import org.apache.commons.lang.StringUtils;
 import org.hibernate.annotations.GenericGenerator;
 
 @Entity
@@ -61,10 +63,29 @@ public class UserFavorites {
 		favorite.setUserId(userId);
 	}
 
+	public boolean findFavorite(Favorite favorite) {
+		for (Favorite fav : favorites) {
+			if (fav.getPage().equalsIgnoreCase(favorite.getPage())) {
+				return true;
+			}
+		}
+		return false;
+	}
+
 	public void moveFavorite(int from, int to) {
 		Favorite favorite = favorites.get(from);
 		favorites.remove(from);
 		favorites.add(to, favorite);
 	}
 
+	public void removeFavorite(Favorite favorite) {
+		Iterator<Favorite> iter = favorites.iterator();
+		while (iter.hasNext()) {
+			Favorite fav = (Favorite) iter.next();
+			if (StringUtils.equalsIgnoreCase(fav.getPage(), favorite.getPage())) {
+				iter.remove();
+				break;
+			}
+		}
+	}
 }

@@ -24,10 +24,10 @@
 
 %>
 
-var store = CQ_Analytics.StoreRegistry.getStore("<%= xssAPI.getValidJSToken(store, "") %>");
+        var store = CQ_Analytics.StoreRegistry.getStore("<%= xssAPI.getValidJSToken(store, "") %>");
 
-if (!store) {
-    CQ_Analytics.JSONPStore.registerNewInstance("<%= xssAPI.getValidJSToken(store, "") %>", "<%= serviceURL %>", {});
-}
+        if (!store) {
+            CQ_Analytics.JSONPStore.registerNewInstance("<%= xssAPI.getValidJSToken(store, "") %>", "<%= serviceURL %>", {});
+        }
 
 

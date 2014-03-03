@@ -29,7 +29,7 @@ import org.springframework.transaction.support.TransactionSynchronizationManager
 /**
  * Callback for resource cleanup at the end of a Spring-managed transaction for
  * a pre-bound Hibernate Session.
- * 
+ *
  * @author Juergen Hoeller
  * @since 3.1
  */

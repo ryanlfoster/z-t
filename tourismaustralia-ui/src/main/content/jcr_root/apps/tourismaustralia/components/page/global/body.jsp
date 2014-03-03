@@ -1,4 +1,4 @@
-<%@include file="/apps/tourismaustralia/components/global.jsp"%>
+<%@include file="/apps/tourismaustralia/components/global.jsp" %>
 
 
 <body>

@@ -10,6 +10,7 @@ import org.apache.felix.scr.annotations.Reference;
 import org.apache.felix.scr.annotations.sling.SlingServlet;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.SlingHttpServletResponse;
+import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.servlets.SlingAllMethodsServlet;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -27,21 +28,22 @@ public class AddFavoriteServlet extends SlingAllMethodsServlet {
 	@Reference
 	private FavoriteService favoriteService;
 
-	private UserFavorites userFavorites;
 
 	@Override
 	protected void doPost(SlingHttpServletRequest request, SlingHttpServletResponse response)
 		throws ServletException, IOException {
 		String page = request.getParameter("page");
-		if (StringUtils.isEmpty(page)) {
-			response.sendError(SlingHttpServletResponse.SC_NOT_FOUND);
+		UserFavorites userFavorites = null;
+		if (StringUtils.isEmpty(page) && !request.getResourceResolver().resolve(page).isResourceType(Resource.RESOURCE_TYPE_NON_EXISTING)) {
+			response.sendError(SlingHttpServletResponse.SC_BAD_REQUEST);
+			return;
 		}
+
 		Cookie cookie = ServletUtils.getCookieByName(request, ServletUtils.FAVORITES_COOKIE);
-		String userId = (cookie != null ? cookie.getValue() : "");
-		if (StringUtils.isNotEmpty(userId)) {
-			userFavorites = favoriteService.getByUserId(userId);
+		if (cookie != null) {
+			userFavorites = favoriteService.getByUserId(cookie.getValue());
 		}
-		persistFavorite(page);
+		persistFavorite(userFavorites, page);
 		ServletUtils.addCookie(response, ServletUtils.FAVORITES_COOKIE, userFavorites.getUserId());
 		response.setContentType("application/json");
 		response.getWriter().write(ServletUtils.toSimpleJson(
@@ -51,9 +53,10 @@ public class AddFavoriteServlet extends SlingAllMethodsServlet {
 	/**
 	 * Saves the favorite by adding it to the userFavorites list.
 	 * Checks first if it exists to avoid duplicates.
+	 *
 	 * @param page - the uri of the favorites page
 	 */
-	private void persistFavorite(String page) {
+	private void persistFavorite(UserFavorites userFavorites, String page) {
 		// if userFavorites not found via cookie create new one
 		if (userFavorites == null) {
 			userFavorites = new UserFavorites();

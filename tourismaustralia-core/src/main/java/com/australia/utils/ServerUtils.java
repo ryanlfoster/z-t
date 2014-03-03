@@ -16,6 +16,7 @@ public class ServerUtils {
 	public static final String AUTHOR = "author";
 	public static final String PUBLISH = "publish";
 
+
 	public static String getServerURL(SlingSettingsService slingSettings, ServerNameService serverNameService,
 		SlingHttpServletRequest request) {
 		if (slingSettings.getRunModes().contains(AUTHOR)) {

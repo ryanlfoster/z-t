@@ -26,19 +26,19 @@ public class GetPublicGuidServlet extends SlingAllMethodsServlet {
 	@Reference
 	private FavoriteService favoriteService;
 
-	private UserFavorites userFavorites = new UserFavorites();
 
 	@Override
 	protected void doGet(SlingHttpServletRequest request, SlingHttpServletResponse response)
 			throws ServletException, IOException {
 		Cookie cookie = ServletUtils.getCookieByName(request, ServletUtils.FAVORITES_COOKIE);
-		String userId = (cookie != null ? cookie.getValue() : "");
-		if (StringUtils.isNotEmpty(userId)) {
-			userFavorites = favoriteService.getByUserId(userId);
+		if (cookie!=null) {
+			UserFavorites  userFavorites = favoriteService.getByUserId(cookie.getValue());
+			response.setContentType("application/json");
+			response.getWriter().write(
+				ServletUtils.toSimpleJson("shareId", userFavorites.getShareId()).toString());
+		} else {
+			response.sendError(SlingHttpServletResponse.SC_BAD_REQUEST);
 		}
-		response.setContentType("application/json");
-		response.getWriter().write(
-			ServletUtils.toSimpleJson("shareId", userFavorites.getShareId()).toString());
 	}
 
 }

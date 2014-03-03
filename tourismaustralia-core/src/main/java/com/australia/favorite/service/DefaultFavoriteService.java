@@ -22,6 +22,12 @@ public class DefaultFavoriteService implements FavoriteService {
 	}
 
 	@Override
+	@Transactional(readOnly = true)
+	public UserFavorites getByShareId(String shareId) {
+		return favoriteRepository.getUserFavoritesByShareId(shareId);
+	}
+
+	@Override
 	@Transactional
 	public void save(UserFavorites userFavorites) {
 		if (userFavorites.getShareId() == null) {

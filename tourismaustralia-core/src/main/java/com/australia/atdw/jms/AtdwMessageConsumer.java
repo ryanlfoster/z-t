@@ -19,6 +19,7 @@ import org.springframework.transaction.annotation.Transactional;
 import com.australia.atdw.domain.products.Product;
 import com.australia.atdw.service.AtdwService;
 import com.australia.utils.PathUtils;
+import com.day.cq.replication.ReplicationActionType;
 import com.day.cq.replication.Replicator;
 import com.day.cq.wcm.api.Page;
 import com.day.cq.wcm.api.PageManager;
@@ -124,8 +125,7 @@ public class AtdwMessageConsumer {
 					jcrContentProperties.put("website", website);
 				}
 				resourceResolver.commit();
-				// replicator.replicate(session, ReplicationActionType.ACTIVATE,
-				// productPage.getPath());
+				replicator.replicate(session, ReplicationActionType.ACTIVATE, productPage.getPath());
 			}
 		} catch (Exception e) {
 			LOG.error("There was an error creating/updating the product", e);

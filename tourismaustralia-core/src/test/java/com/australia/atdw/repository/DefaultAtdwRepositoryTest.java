@@ -2,7 +2,10 @@ package com.australia.atdw.repository;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertTrue;
 
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.HashMap;
 
 import org.junit.Before;
@@ -27,5 +30,12 @@ public class DefaultAtdwRepositoryTest {
 		assertNotNull(response.getProducts());
 		assertNotNull(response.getProducts().getProducts());
 		assertEquals(100, response.getProducts().getProducts().size());
+	}
+
+	@Test
+	public void getProductXml() throws IOException {
+		InputStream xml = atdw.getProductXml("9198512");
+		assertNotNull(xml);
+		assertTrue(xml.available() > 0);
 	}
 }

@@ -61,15 +61,38 @@
 	<!-- Out Bound Message Service -->
 	<bean id="atdwQueueService" class="com.australia.atdw.jms.DefaultAtdwQueueService" />
 
-	<!-- In Bound Messages <bean id="atdwMessageConsumer" class="com.pga.pgatour.atdw.jms.AtdwMessageConsumer"/> 
-		<bean id="feedsThumbnailCreator" class="com.pga.pgatour.feeds.rendition.FeedsThumbnailCreator" 
-		factory-method="getInstance"> <property name="replicator" ref="replicator"/> 
-		</bean> <int:channel id="fromAtdwQueueChannel"/> <jms:message-driven-channel-adapter 
-		acknowledge="transacted" channel="fromAtdwQueueChannel" connection-factory="connectionFactory" 
-		destination="atdwQueue" concurrent-consumers="100"/> <int:service-activator 
-		input-channel="fromAtdwQueueChannel" ref="atdwMessageConsumer" method="saveImage"/> -->
+	<!-- In Bound Messages -->
+	<bean id="atdwMessageConsumer" class="com.australia.atdw.jms.AtdwMessageConsumer" />
 
+	<int:channel id="fromAtdwQueueChannel" />
+
+	<bean id="jmsTransactionManager"
+		class="org.springframework.jms.connection.JmsTransactionManager">
+		<property name="connectionFactory" ref="connectionFactory" />
+	</bean>
+
+	<jms:message-driven-channel-adapter
+		acknowledge="transacted" channel="fromAtdwQueueChannel"
+		connection-factory="connectionFactory" destination="atdwQueue"
+		concurrent-consumers="#{atdwProductMessageConsumerConfigurationService.messageConsumersCount}"
+		transaction-manager="jmsTransactionManager" />
+
+	<int:service-activator input-channel="fromAtdwQueueChannel"
+		ref="atdwMessageConsumer" method="saveProduct" />
+
+	<!-- OSGI References -->
 	<osgi:service id="defaultAtdwQueueService" ref="atdwQueueService"
 		interface="com.australia.atdw.jms.AtdwQueueService"
 		context-class-loader="service-provider" />
+
+	<osgi:reference id="resourceResolverFactory"
+		interface="org.apache.sling.api.resource.ResourceResolverFactory" />
+
+	<osgi:reference id="atdwService"
+		interface="com.australia.atdw.service.AtdwService" />
+
+	<osgi:reference id="replicator" interface="com.day.cq.replication.Replicator" />
+
+	<osgi:reference id="atdwProductMessageConsumerConfigurationService"
+		interface=" com.australia.atdw.jms.service.AtdwProductMessageConsumerConfigurationService" />
 </beans>

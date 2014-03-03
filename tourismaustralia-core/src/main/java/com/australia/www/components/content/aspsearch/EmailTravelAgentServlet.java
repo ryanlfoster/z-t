@@ -1,4 +1,4 @@
-package com.australia.www.components.page.aspsearch;
+package com.australia.www.components.content.aspsearch;
 
 import java.io.IOException;
 import java.util.HashMap;

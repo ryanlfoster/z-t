@@ -1,5 +1,7 @@
 package com.australia.atdw.service;
 
+import java.io.InputStream;
+
 import org.apache.felix.scr.annotations.Component;
 import org.apache.felix.scr.annotations.Reference;
 import org.apache.felix.scr.annotations.Service;
@@ -17,6 +19,11 @@ public class DefaultAtdwService implements AtdwService {
 	@Override
 	public AtdwProductsResponse getProducts(int count, int page) {
 		return atdwRepo.getProducts(count, page);
+	}
+
+	@Override
+	public InputStream getProductXml(String productId) {
+		return atdwRepo.getProductXml(productId);
 	}
 
 }

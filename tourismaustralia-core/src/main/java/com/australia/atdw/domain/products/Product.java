@@ -12,6 +12,8 @@ import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 /**
  * <p>
  * Java class for product_recordType complex type.
@@ -195,6 +197,7 @@ public class Product {
 		this.tqual = value;
 	}
 
+	@JsonIgnore
 	public String getRealProductId() {
 		return productId.split("\\$")[0];
 	}

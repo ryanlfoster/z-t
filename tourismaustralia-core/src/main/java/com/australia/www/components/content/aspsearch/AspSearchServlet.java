@@ -1,4 +1,4 @@
-package com.australia.www.components.page.aspsearch;
+package com.australia.www.components.content.aspsearch;
 
 import java.io.IOException;
 import java.util.List;
@@ -15,12 +15,15 @@ import org.apache.sling.api.servlets.SlingAllMethodsServlet;
 import com.australia.asp.domain.Specialist;
 import com.australia.asp.service.AspService;
 import com.citytechinc.cq.component.annotations.Component;
+import com.citytechinc.cq.component.annotations.Listener;
 import com.fasterxml.jackson.core.JsonFactory;
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 @SlingServlet(resourceTypes = "tourismaustralia/components/content/aspSearch", selectors = "aspsearch", extensions = "json")
-@Component(name = "aspSearch", value = "Asp Search")
+@Component(name = "aspSearch", value = "Asp Search", listeners = {
+	@Listener(name = "aftercopy", value = "REFRESH_PAGE"), @Listener(name = "afterdelete", value = "REFRESH_PAGE"),
+	@Listener(name = "afteredit", value = "REFRESH_PAGE"), @Listener(name = "afterinsert", value = "REFRESH_PAGE") })
 public class AspSearchServlet extends SlingAllMethodsServlet {
 	private static final long serialVersionUID = 2961282167685862613L;
 	private static final JsonFactory FACTORY = new JsonFactory();

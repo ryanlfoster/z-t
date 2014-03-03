@@ -1,4 +1,4 @@
-package com.australia.www.components.page.aspsearch;
+package com.australia.www.components.content.aspsearch;
 
 import java.io.IOException;
 import java.util.HashMap;
@@ -28,6 +28,7 @@ public class EmailTravelAgentServlet extends SlingAllMethodsServlet {
 	@Reference
 	private MailService mailService;
 
+	@Override
 	protected void doPost(SlingHttpServletRequest request, SlingHttpServletResponse response) throws ServletException,
 		IOException {
 		Map<String, String> properties = new HashMap<String, String>();
@@ -44,7 +45,7 @@ public class EmailTravelAgentServlet extends SlingAllMethodsServlet {
 
 		final MailTemplate mailTemplate = MailTemplate.create(
 			"/content/dam/australia/emails/travelAgent/en.txt/jcr:content/renditions/original", request
-			.getResourceResolver().adaptTo(Session.class));
+				.getResourceResolver().adaptTo(Session.class));
 		try {
 			final HtmlEmail email = mailTemplate.getEmail(StrLookup.mapLookup(properties), HtmlEmail.class);
 			email.setSubject("Aus.com Email to Agent");

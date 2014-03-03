@@ -48,6 +48,8 @@
 		<jpa.version>2.1.0</jpa.version>
 		<blueprint.version>1.0.2.RELEASE</blueprint.version>
 		<spring.version>3.2.4.RELEASE</spring.version>
+		<spring.integration.version>2.2.6.RELEASE</spring.integration.version>
+		<activemq.version>5.7.0</activemq.version>
 		<skip-publish>true</skip-publish>
 	</properties>
 
@@ -223,9 +225,19 @@
 				<version>5.1.29</version>
 			</dependency>
 			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>org.springframework.web</artifactId>
+				<version>${spring.version}</version>
+			</dependency>
+			<dependency>
 				<groupId>com.google.guava</groupId>
 				<artifactId>guava</artifactId>
 				<version>16.0.1</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.httpcomponents</groupId>
+				<artifactId>httpclient-osgi</artifactId>
+				<version>4.1.2</version>
 			</dependency>
 			<!-- Hibernate -->
 			<dependency>
@@ -350,6 +362,123 @@
 				<groupId>org.springframework</groupId>
 				<artifactId>org.springframework.transaction</artifactId>
 				<version>${spring.version}</version>
+			</dependency>
+			<!-- Active MQ -->
+			<dependency>
+				<groupId>org.apache.activemq</groupId>
+				<artifactId>activemq-core</artifactId>
+				<version>${activemq.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.activemq</groupId>
+				<artifactId>activemq-spring</artifactId>
+				<version>${activemq.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.activemq</groupId>
+				<artifactId>activemq-ra</artifactId>
+				<version>${activemq.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.activemq</groupId>
+				<artifactId>kahadb</artifactId>
+				<version>${activemq.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.geronimo.specs</groupId>
+				<artifactId>geronimo-jms_1.1_spec</artifactId>
+				<version>1.1.1</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.activemq.protobuf</groupId>
+				<artifactId>activemq-protobuf</artifactId>
+				<version>1.1</version>
+			</dependency>
+			<dependency>
+				<groupId>org.fusesource.fuse-extra</groupId>
+				<artifactId>fusemq-leveldb</artifactId>
+				<version>1.1</version>
+			</dependency>
+			<dependency>
+				<groupId>org.fusesource.mqtt-client</groupId>
+				<artifactId>mqtt-client</artifactId>
+				<version>1.1</version>
+			</dependency>
+			<dependency>
+				<groupId>org.fusesource.hawtbuf</groupId>
+				<artifactId>hawtbuf</artifactId>
+				<version>1.9</version>
+			</dependency>
+			<dependency>
+				<groupId>org.fusesource.hawtdispatch</groupId>
+				<artifactId>hawtdispatch-transport</artifactId>
+				<version>1.10</version>
+			</dependency>
+			<dependency>
+				<groupId>org.fusesource.hawtdispatch</groupId>
+				<artifactId>hawtdispatch</artifactId>
+				<version>1.10</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.xbean</groupId>
+				<artifactId>xbean-spring</artifactId>
+				<version>3.9</version>
+			</dependency>
+			<dependency>
+				<groupId>commons-pool</groupId>
+				<artifactId>commons-pool</artifactId>
+				<version>1.6</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.geronimo.specs</groupId>
+				<artifactId>geronimo-j2ee-management_1.1_spec</artifactId>
+				<version>1.0.1</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.geronimo.specs</groupId>
+				<artifactId>geronimo-annotation_1.0_spec</artifactId>
+				<version>1.1.1</version>
+			</dependency>
+			<!-- Spring Integration JMS -->
+			<dependency>
+				<groupId>org.springframework.integration</groupId>
+				<artifactId>spring-integration-jms</artifactId>
+				<version>${spring.integration.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework.integration</groupId>
+				<artifactId>spring-integration-core</artifactId>
+				<version>${spring.integration.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-tx</artifactId>
+				<version>${spring.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>org.springframework.jms</artifactId>
+				<version>${spring.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>net.sourceforge.cglib</groupId>
+				<artifactId>com.springsource.net.sf.cglib</artifactId>
+				<version>2.2.0</version>
+			</dependency>
+			<dependency>
+				<groupId>org.codehaus.jackson</groupId>
+				<artifactId>jackson-core-asl</artifactId>
+				<version>1.9.13</version>
+			</dependency>
+			<dependency>
+				<groupId>org.codehaus.jackson</groupId>
+				<artifactId>jackson-mapper-asl</artifactId>
+				<version>1.9.13</version>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework.retry</groupId>
+				<artifactId>spring-retry</artifactId>
+				<version>1.0.2.RELEASE</version>
 			</dependency>
 			<!-- Test -->
 			<dependency>

@@ -21,7 +21,7 @@ import com.australia.server.ServerNameService;
 import com.australia.utils.ServerUtils;
 import com.australia.utils.Site;
 
-@SlingServlet(paths = "/robots", label = "Robots Servlet", description = "Servlet to Generate Robots.txt", extensions = "txt", resourceTypes = "sling/servlet/default", metatype = true)
+@SlingServlet(paths = "/robots", label = "Robots Servlet", description = "Servlet to Generate Robots.txt", extensions = "txt", metatype = true)
 public class RobotsTxtServlet extends SlingAllMethodsServlet {
 	private static final long serialVersionUID = 1L;
 

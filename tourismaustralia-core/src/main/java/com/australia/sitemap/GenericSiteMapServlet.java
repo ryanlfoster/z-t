@@ -13,11 +13,9 @@ import org.apache.sling.api.servlets.SlingAllMethodsServlet;
 import com.australia.server.ServerNameService;
 import com.australia.utils.PathUtils;
 
-/**
- * Created by cchin on 17/02/14.
- */
-@SlingServlet(paths = "/bin/sitemap.xml", label = "Generic Sitemap Servlet", methods = "GET", description = "Servlet to Generate sitemap.xml", extensions = "xml", resourceTypes = "sling/servlet/default", metatype = true)
+@SlingServlet(paths = "/sitemap.xml", label = "Generic Sitemap Servlet", methods = "GET", description = "Servlet to Generate sitemap.xml", extensions = "xml", metatype = true)
 public class GenericSiteMapServlet extends SlingAllMethodsServlet {
+	private static final long serialVersionUID = 8454228227434152487L;
 
 	@Reference
 	private ServerNameService serverNameService;

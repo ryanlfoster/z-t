@@ -33,6 +33,7 @@ public class ListFavoritesServlet extends SlingAllMethodsServlet {
 
 	private UserFavorites userFavorites = new UserFavorites();
 
+	@Override
 	protected void doGet(SlingHttpServletRequest request, SlingHttpServletResponse response)
 		throws ServletException, IOException {
 		Cookie cookie = ServletUtils.getCookieByName(request, ServletUtils.FAVORITES_COOKIE);

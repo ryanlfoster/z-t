@@ -19,7 +19,7 @@ import com.australia.favorite.domain.UserFavorites;
 import com.australia.favorite.service.FavoriteService;
 import com.australia.utils.ServletUtils;
 
-@SlingServlet(paths = "/bin/favorites/remove", label = "Remove Favorite Servlet", methods = "GET",
+@SlingServlet(paths = "/bin/favorites/remove", label = "Remove Favorite Servlet", methods = "POST",
 	description = "Servlet to Remove Favorite", extensions = "json")
 public class RemoveFavoriteServlet extends SlingAllMethodsServlet {
 	private static final Logger LOG = LoggerFactory.getLogger(RemoveFavoriteServlet.class);
@@ -29,7 +29,7 @@ public class RemoveFavoriteServlet extends SlingAllMethodsServlet {
 
 	private UserFavorites userFavorites;
 
-	protected void doGet(SlingHttpServletRequest request, SlingHttpServletResponse response)
+	protected void doPost(SlingHttpServletRequest request, SlingHttpServletResponse response)
 		throws ServletException, IOException {
 		String page = request.getParameter("page");
 		if (StringUtils.isEmpty(page)) {

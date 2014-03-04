@@ -29,8 +29,7 @@ import com.day.cq.mailer.MailService;
 /**
  * Created by cchin on 24/02/14.
  */
-@SlingServlet(resourceTypes = "tourismaustralia/components/content/contactUs",
-	selectors = "contactemail", extensions = "json", methods = "POST")
+@SlingServlet(resourceTypes = "tourismaustralia/components/content/contactUs", selectors = "contactemail", extensions = "json", methods = "POST")
 @Component(name = "contactUs", value = "Contact Us Form")
 public class ContactUsServlet extends SlingAllMethodsServlet {
 	private static final Logger LOG = LoggerFactory.getLogger(ContactUsServlet.class);
@@ -42,8 +41,8 @@ public class ContactUsServlet extends SlingAllMethodsServlet {
 	@MultiField
 	private List<String> recipientEmails;
 
-	protected void doPost(SlingHttpServletRequest request, SlingHttpServletResponse response)
-		throws ServletException, IOException {
+	protected void doPost(SlingHttpServletRequest request, SlingHttpServletResponse response) throws ServletException,
+		IOException {
 		Map<String, String> properties = new HashMap<String, String>();
 		String userName = request.getParameter("userName");
 		String userEmail = request.getParameter("userEmail");
@@ -57,9 +56,8 @@ public class ContactUsServlet extends SlingAllMethodsServlet {
 		ValueMap props = request.getResource().adaptTo(ValueMap.class);
 		this.recipientEmails = Arrays.asList(props.get("recipientEmails", defaultRecipient));
 
-		final MailTemplate mailTemplate = MailTemplate.create(
-			"/content/dam/australia/emails/contactUs/en.txt",
-			request.getResourceResolver().adaptTo(Session.class));
+		final MailTemplate mailTemplate = MailTemplate.create("/content/dam/australia/emails/contactUs/en.txt", request
+			.getResourceResolver().adaptTo(Session.class));
 
 		try {
 			final HtmlEmail email = mailTemplate.getEmail(StrLookup.mapLookup(properties), HtmlEmail.class);

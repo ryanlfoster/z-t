@@ -37,7 +37,7 @@ import org.springframework.transaction.support.TransactionSynchronizationManager
  * This CurrentSessionContext implementation can also be specified in custom
  * SessionFactory setup through the "hibernate.current_session_context_class"
  * property, with the fully qualified name of this class as value.
- *
+ * 
  * @author Juergen Hoeller
  * @since 3.1
  */
@@ -50,7 +50,7 @@ public class SpringSessionContext implements CurrentSessionContext {
 
 	/**
 	 * Create a new SpringSessionContext for the given Hibernate SessionFactory.
-	 *
+	 * 
 	 * @param sessionFactory the SessionFactory to provide current Sessions for
 	 */
 	public SpringSessionContext(SessionFactoryImplementor sessionFactory) {

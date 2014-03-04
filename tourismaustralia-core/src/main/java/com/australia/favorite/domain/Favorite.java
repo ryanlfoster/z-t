@@ -21,7 +21,8 @@ public class Favorite {
 	@Column
 	private String page;
 
-	public Favorite() {}
+	public Favorite() {
+	}
 
 	public Favorite(String page) {
 		this.page = page;

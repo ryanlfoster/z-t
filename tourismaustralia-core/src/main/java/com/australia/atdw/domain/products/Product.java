@@ -7,6 +7,8 @@
 
 package com.australia.atdw.domain.products;
 
+import java.io.Serializable;
+
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
@@ -45,7 +47,8 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "product_recordType", propOrder = { "productId", "productName", "productDescription",
 	"productCategoryId", "boundary", "productImage", "tqual" })
-public class Product {
+public class Product implements Serializable {
+	private static final long serialVersionUID = -8842827423934257076L;
 
 	@XmlElement(name = "product_id", required = true)
 	protected String productId;

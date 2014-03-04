@@ -11,7 +11,7 @@
 			http://www.springframework.org/schema/integration
 			http://www.springframework.org/schema/integration/spring-integration.xsd
 			http://www.springframework.org/schema/integration/jms
-			http://www.springframework.org/schema/integration/jms/spring-integration-jms.xsd
+			http://www.springframework.org/schema/integration/jms/spring-integration-jms-2.2.xsd
 			http://www.springframework.org/schema/integration/xml
 			http://www.springframework.org/schema/integration/jms/spring-integration-xml.xsd
 			http://www.springframework.org/schema/integration/stream
@@ -57,6 +57,10 @@
 
 	<int:gateway id="atdwGateWay" service-interface="com.australia.atdw.jms.AtdwGateway"
 		default-request-channel="toAtdwQueueChannel" />
+
+	<jms:outbound-gateway id="jmsAtdwGateWay"
+		request-channel="toAtdwQueueChannel" delivery-persistent="true"
+		request-destination="atdwQueue" extract-request-payload="true" />
 
 	<!-- Out Bound Message Service -->
 	<bean id="atdwQueueService" class="com.australia.atdw.jms.DefaultAtdwQueueService" />

@@ -5,7 +5,6 @@ import java.io.IOException;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import com.australia.atdw.domain.products.Product;
-import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class DefaultAtdwQueueService implements AtdwQueueService {
 	@Autowired
@@ -13,9 +12,7 @@ public class DefaultAtdwQueueService implements AtdwQueueService {
 
 	@Override
 	public void addToQueue(Product product) throws IOException {
-		ObjectMapper objectMapper = new ObjectMapper();
-		String jsonString = objectMapper.writeValueAsString(product);
-		gateway.send(jsonString);
+		gateway.send(product);
 	}
 
 }

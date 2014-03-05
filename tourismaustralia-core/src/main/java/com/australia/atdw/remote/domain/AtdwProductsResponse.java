@@ -5,7 +5,7 @@
 // Generated on: 2014.02.26 at 10:24:01 AM EST 
 //
 
-package com.australia.atdw.domain.products;
+package com.australia.atdw.remote.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;

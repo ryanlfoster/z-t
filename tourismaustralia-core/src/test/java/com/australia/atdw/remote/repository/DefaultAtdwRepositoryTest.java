@@ -1,4 +1,4 @@
-package com.australia.atdw.repository;
+package com.australia.atdw.remote.repository;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
@@ -11,7 +11,9 @@ import java.util.HashMap;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.australia.atdw.domain.products.AtdwProductsResponse;
+import com.australia.atdw.remote.domain.AtdwProductsResponse;
+import com.australia.atdw.remote.repository.AtdwRepository;
+import com.australia.atdw.remote.repository.DefaultAtdwRepository;
 
 public class DefaultAtdwRepositoryTest {
 	private AtdwRepository atdw;

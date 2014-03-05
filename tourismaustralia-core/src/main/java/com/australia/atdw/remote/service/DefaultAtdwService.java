@@ -1,4 +1,4 @@
-package com.australia.atdw.service;
+package com.australia.atdw.remote.service;
 
 import java.io.InputStream;
 
@@ -6,8 +6,8 @@ import org.apache.felix.scr.annotations.Component;
 import org.apache.felix.scr.annotations.Reference;
 import org.apache.felix.scr.annotations.Service;
 
-import com.australia.atdw.domain.products.AtdwProductsResponse;
-import com.australia.atdw.repository.AtdwRepository;
+import com.australia.atdw.remote.domain.AtdwProductsResponse;
+import com.australia.atdw.remote.repository.AtdwRepository;
 
 @Component(label = "Default ATDW Service", description = "Default ATDW Service", immediate = true)
 @Service

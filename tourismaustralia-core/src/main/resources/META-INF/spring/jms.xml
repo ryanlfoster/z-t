@@ -93,7 +93,7 @@
 		interface="org.apache.sling.api.resource.ResourceResolverFactory" />
 
 	<osgi:reference id="atdwService"
-		interface="com.australia.atdw.service.AtdwService" />
+		interface="com.australia.atdw.remote.service.AtdwService" />
 
 	<osgi:reference id="replicator" interface="com.day.cq.replication.Replicator" />
 

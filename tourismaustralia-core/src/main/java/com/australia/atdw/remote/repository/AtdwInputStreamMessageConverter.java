@@ -1,4 +1,4 @@
-package com.australia.atdw.repository;
+package com.australia.atdw.remote.repository;
 
 import java.io.IOException;
 import java.io.InputStream;

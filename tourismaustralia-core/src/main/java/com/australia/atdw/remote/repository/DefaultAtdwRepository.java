@@ -1,4 +1,4 @@
-package com.australia.atdw.repository;
+package com.australia.atdw.remote.repository;
 
 import java.io.InputStream;
 import java.util.ArrayList;
@@ -18,7 +18,7 @@ import org.springframework.http.client.HttpComponentsClientHttpRequestFactory;
 import org.springframework.http.converter.HttpMessageConverter;
 import org.springframework.web.client.RestTemplate;
 
-import com.australia.atdw.domain.products.AtdwProductsResponse;
+import com.australia.atdw.remote.domain.AtdwProductsResponse;
 
 @Component(label = "Default ATDW Repository", description = "Default ATDW Repository", immediate = true, metatype = true)
 @Service

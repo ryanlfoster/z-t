@@ -1,8 +1,8 @@
-package com.australia.atdw.repository;
+package com.australia.atdw.remote.repository;
 
 import java.io.InputStream;
 
-import com.australia.atdw.domain.products.AtdwProductsResponse;
+import com.australia.atdw.remote.domain.AtdwProductsResponse;
 
 public interface AtdwRepository {
 	public AtdwProductsResponse getProducts(int count, int page);

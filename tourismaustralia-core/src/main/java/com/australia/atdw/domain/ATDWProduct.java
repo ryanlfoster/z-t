@@ -20,7 +20,7 @@ public class ATDWProduct {
 		title = properties.get("jcr:title", String.class);
 		description = properties.get("jcr:description", String.class);
 		category = properties.get("category", String.class);
-		image = properties.get("image", String.class);
+		image = properties.get("atdwImage", String.class);
 		tqual = properties.get("tqual", false);
 		city = properties.get("city", String.class);
 		state = properties.get("state", String.class);

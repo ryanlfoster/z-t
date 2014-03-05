@@ -16,8 +16,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.australia.atdw.domain.products.Product;
-import com.australia.atdw.service.AtdwService;
+import com.australia.atdw.remote.domain.Product;
+import com.australia.atdw.remote.service.AtdwService;
 import com.australia.utils.PathUtils;
 import com.day.cq.replication.ReplicationActionType;
 import com.day.cq.replication.Replicator;
@@ -67,7 +67,7 @@ public class AtdwMessageConsumer {
 					jcrContentProperties.put("jcr:description", product.getProductDescription());
 				}
 				if (StringUtils.isNotEmpty(product.getProductImage())) {
-					jcrContentProperties.put("image", product.getProductImage());
+					jcrContentProperties.put("atdwImage", product.getProductImage());
 				}
 				jcrContentProperties.put("tqual", product.isTqual());
 				resourceResolver.commit();

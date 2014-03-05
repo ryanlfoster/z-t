@@ -24,12 +24,10 @@ import com.day.cq.replication.Replicator;
 import com.day.cq.wcm.api.Page;
 import com.day.cq.wcm.api.PageManager;
 import com.day.cq.wcm.api.WCMException;
-import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class AtdwMessageConsumer {
 	private static final Logger LOG = LoggerFactory.getLogger(AtdwMessageConsumer.class);
 	private static final String ATDW_TEMPLATE = "/apps/tourismaustralia/templates/atdw";
-	private final ObjectMapper objectMapper = new ObjectMapper();
 	@Autowired
 	private AtdwService atdwService;
 
@@ -40,10 +38,9 @@ public class AtdwMessageConsumer {
 	private ResourceResolverFactory resourceResolverFactory;
 
 	@Transactional("jmsTransactionManager")
-	public void saveProduct(String jsonProduct) throws Exception {
+	public void saveProduct(Product product) throws Exception {
 		ResourceResolver resourceResolver = null;
 		try {
-			Product product = objectMapper.readValue(jsonProduct, Product.class);
 			InputStream productXML = atdwService.getProductXml(product.getRealProductId());
 			if (productXML != null && productXML.available() > 0) {
 				LOG.debug("Starting Product Save Of Product: {}", product.getRealProductId());

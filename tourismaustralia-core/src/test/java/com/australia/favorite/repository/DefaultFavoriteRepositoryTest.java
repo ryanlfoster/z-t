@@ -2,6 +2,7 @@ package com.australia.favorite.repository;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNull;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -37,6 +38,20 @@ public class DefaultFavoriteRepositoryTest {
 		assertNotNull(userFavs);
 		assertEquals(4, userFavs.getFavorites().size());
 		assertEquals("/content/australia/page3", userFavs.getFavorites().get(1).getPage());
+	}
+
+	@Test
+	@Transactional
+	public void delete() {
+		String shareId = "share-id-to-test-delete";
+		UserFavorites userFav = new UserFavorites();
+		userFav.setShareId(shareId);
+		favRepo.save(userFav);
+		UserFavorites userFavFromRepo = favRepo.getUserFavoritesByShareId(shareId);
+		assertEquals(userFav, userFavFromRepo);
+		favRepo.delete(userFav);
+		userFavFromRepo = favRepo.getUserFavoritesByShareId(shareId);
+		assertNull(userFavFromRepo);
 	}
 
 	@Test

@@ -1,8 +1,6 @@
 package com.australia.favorite.servlet;
 
 import java.io.IOException;
-import java.nio.charset.Charset;
-import java.util.Comparator;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.Cookie;
@@ -13,13 +11,9 @@ import org.apache.felix.scr.annotations.sling.SlingServlet;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.SlingHttpServletResponse;
 import org.apache.sling.api.servlets.SlingAllMethodsServlet;
-import org.apache.sling.commons.json.JSONArray;
-import org.apache.sling.commons.json.JSONException;
-import org.apache.sling.commons.json.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.australia.favorite.domain.Favorite;
 import com.australia.favorite.domain.UserFavorites;
 import com.australia.favorite.service.FavoriteService;
 import com.australia.utils.ServletUtils;

@@ -16,6 +16,8 @@ import com.australia.favorite.domain.UserFavorites;
 @ContextConfiguration(locations = { "classpath:spring/datasource.xml" })
 public class DefaultFavoriteRepositoryTest {
 	private static final String USER_ID = "206563d4-34c3-4368-a586-31032416173f";
+	private static final String SHARE_ID = "713z63d4-34c3-4368-a586-310qpa16173f";
+
 	@Autowired
 	private FavoriteRepository favRepo;
 
@@ -30,10 +32,20 @@ public class DefaultFavoriteRepositoryTest {
 
 	@Test
 	@Transactional
+	public void getByShareId() {
+		UserFavorites userFavs = favRepo.getUserFavoritesByShareId(SHARE_ID);
+		assertNotNull(userFavs);
+		assertEquals(4, userFavs.getFavorites().size());
+		assertEquals("/content/australia/page3", userFavs.getFavorites().get(1).getPage());
+	}
+
+	@Test
+	@Transactional
 	public void save() {
 		UserFavorites userFav = new UserFavorites();
 		favRepo.save(userFav);
 		UserFavorites userFavFromRepo = favRepo.getUserFavoritesByUserId(userFav.getUserId());
 		assertEquals(userFav, userFavFromRepo);
 	}
+
 }

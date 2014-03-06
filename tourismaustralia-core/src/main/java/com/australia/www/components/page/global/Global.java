@@ -45,6 +45,7 @@ public class Global {
 	private final String imagePath;
 	private final String url;
 	private final String favIcon;
+	private final String lastModified;
 
 	public Global(SlingHttpServletRequest request) {
 		SlingScriptHelper sling = ((SlingBindings) request.getAttribute(SlingBindings.class.getName())).getSling();
@@ -63,6 +64,7 @@ public class Global {
 			.encodeForHTML(currentPage.getTitle());
 		description = xssAPI.encodeForHTMLAttr(properties.get("jcr:description", ""));
 		keywords = xssAPI.encodeForHTMLAttr(WCMUtils.getKeywords(currentPage, false));
+		lastModified = StringUtils.left(xssAPI.encodeForHTMLAttr(properties.get("cq:lastModified", "")), 10);
 
 		Resource imageResource = currentPage.getContentResource();
 		Image image = new Image(imageResource, "image");
@@ -125,4 +127,9 @@ public class Global {
 	public String getFavIcon() {
 		return favIcon;
 	}
+
+	public String getLastModified() {
+		return lastModified;
+	}
+
 }

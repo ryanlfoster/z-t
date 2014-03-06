@@ -54,6 +54,7 @@
 				<include>mysql:mysql-connector-java</include>
 				<include>com.google.guava:guava</include>
 				<include>org.springframework:org.springframework.web</include>
+				<include>com.citytechinc.cq:felix-extension-sun-xml</include>
 				<!-- Hibernate -->
 				<include>org.hibernate:hibernate-core</include>
 				<include>org.hibernate:hibernate-entitymanager</include>

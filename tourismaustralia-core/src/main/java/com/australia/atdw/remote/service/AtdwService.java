@@ -1,11 +1,10 @@
 package com.australia.atdw.remote.service;
 
-import java.io.InputStream;
-
-import com.australia.atdw.remote.domain.AtdwProductsResponse;
+import com.australia.atdw.remote.domain.product.AtdwDataResultsType;
+import com.australia.atdw.remote.domain.products.AtdwProductsResponse;
 
 public interface AtdwService {
 	public AtdwProductsResponse getProducts(int count, int page);
 
-	public InputStream getProductXml(String productId);
+	public AtdwDataResultsType getProduct(String productId);
 }

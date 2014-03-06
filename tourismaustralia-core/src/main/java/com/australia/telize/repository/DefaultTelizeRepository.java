@@ -1,7 +1,5 @@
 package com.australia.telize.repository;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Map;
 
 import org.apache.felix.scr.annotations.Activate;
@@ -13,10 +11,8 @@ import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager;
 import org.apache.sling.commons.osgi.PropertiesUtil;
 import org.springframework.http.client.HttpComponentsClientHttpRequestFactory;
-import org.springframework.http.converter.HttpMessageConverter;
 import org.springframework.web.client.RestTemplate;
 
-import com.australia.atdw.repository.AtdwInputStreamMessageConverter;
 import com.australia.telize.domain.GeoLocation;
 
 @Component(label = "Default Telize Repository", description = "Default Telize Repository", immediate = true, metatype = true)
@@ -43,10 +39,6 @@ public class DefaultTelizeRepository implements TelizeRepository {
 		cm.setMaxTotal(50);
 		cm.setDefaultMaxPerRoute(50);
 		rest = new RestTemplate(new HttpComponentsClientHttpRequestFactory(new DefaultHttpClient(cm, null)));
-		List<HttpMessageConverter<?>> messageConverters = new ArrayList<HttpMessageConverter<?>>();
-		messageConverters.add(new AtdwInputStreamMessageConverter());
-		messageConverters.addAll(rest.getMessageConverters());
-		rest.setMessageConverters(messageConverters);
 	}
 
 }

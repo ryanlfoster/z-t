@@ -14,6 +14,7 @@ public class ATDWProduct {
 	private final String state;
 	private final String region;
 	private final String website;
+	private final String[] phoneNumbers;
 
 	public ATDWProduct(Page page) {
 		ValueMap properties = page.getProperties();
@@ -26,6 +27,7 @@ public class ATDWProduct {
 		state = properties.get("state", String.class);
 		region = properties.get("region", String.class);
 		website = properties.get("website", String.class);
+		phoneNumbers = properties.get("phoneNumbers", String[].class);
 	}
 
 	public String getTitle() {
@@ -62,5 +64,9 @@ public class ATDWProduct {
 
 	public String getWebsite() {
 		return website;
+	}
+
+	public String[] getPhoneNumbers() {
+		return phoneNumbers;
 	}
 }

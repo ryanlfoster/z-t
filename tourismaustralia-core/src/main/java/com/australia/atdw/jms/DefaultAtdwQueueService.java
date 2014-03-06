@@ -4,7 +4,7 @@ import java.io.IOException;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
-import com.australia.atdw.remote.domain.Product;
+import com.australia.atdw.remote.domain.products.Product;
 
 public class DefaultAtdwQueueService implements AtdwQueueService {
 	@Autowired

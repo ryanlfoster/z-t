@@ -12,8 +12,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.australia.atdw.jms.AtdwQueueService;
-import com.australia.atdw.remote.domain.AtdwProductsResponse;
-import com.australia.atdw.remote.domain.Product;
+import com.australia.atdw.remote.domain.products.AtdwProductsResponse;
+import com.australia.atdw.remote.domain.products.Product;
 import com.australia.atdw.remote.service.AtdwService;
 import com.google.common.base.Stopwatch;
 

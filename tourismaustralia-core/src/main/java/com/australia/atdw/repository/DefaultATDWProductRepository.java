@@ -14,6 +14,7 @@ import org.apache.felix.scr.annotations.Reference;
 import org.apache.felix.scr.annotations.Service;
 import org.apache.sling.api.resource.ResourceResolver;
 import org.apache.sling.api.resource.ResourceResolverFactory;
+import org.apache.sling.jcr.resource.JcrResourceConstants;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -55,8 +56,11 @@ public class DefaultATDWProductRepository implements ATDWProductRepository {
 			Session session = resourceResolver.adaptTo(Session.class);
 			Map<String, String> queryMap = new TreeMap<String, String>();
 			queryMap.put(QueryUtils.TYPE, NameConstants.NT_PAGE);
-			queryMap.put(propertyCount++ + QueryUtils.SEPERATOR + QueryUtils.PATH, PathUtils.ATDW_DATA_PATH);
-
+			QueryUtils.addProperty(queryMap, propertyCount, JCR_PREFIX
+				+ JcrResourceConstants.SLING_RESOURCE_TYPE_PROPERTY, "tourismaustralia/components/page/atdw");
+			propertyCount++;
+			queryMap.put(propertyCount + QueryUtils.SEPERATOR + QueryUtils.PATH, PathUtils.ATDW_DATA_PATH);
+			propertyCount++;
 			if (StringUtils.isNotEmpty(parameters.getText())) {
 				QueryUtils.addFullText(queryMap, propertyCount, parameters.getText());
 				propertyCount++;

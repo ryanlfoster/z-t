@@ -238,5 +238,9 @@
 			<groupId>commons-io</groupId>
 			<artifactId>commons-io</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>com.day.cq</groupId>
+			<artifactId>cq-search</artifactId>
+		</dependency>
 	</dependencies>
 </project>

@@ -1,6 +1,5 @@
-package com.australia.atdw.repository;
+package com.australia.atdw.remote.repository;
 
-import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -18,7 +17,8 @@ import org.springframework.http.client.HttpComponentsClientHttpRequestFactory;
 import org.springframework.http.converter.HttpMessageConverter;
 import org.springframework.web.client.RestTemplate;
 
-import com.australia.atdw.domain.products.AtdwProductsResponse;
+import com.australia.atdw.remote.domain.product.AtdwDataResultsType;
+import com.australia.atdw.remote.domain.products.AtdwProductsResponse;
 
 @Component(label = "Default ATDW Repository", description = "Default ATDW Repository", immediate = true, metatype = true)
 @Service
@@ -47,10 +47,10 @@ public class DefaultAtdwRepository implements AtdwRepository {
 	}
 
 	@Override
-	public InputStream getProductXml(String productId) {
+	public AtdwDataResultsType getProduct(String productId) {
 		Map<String, Object> parameters = getBaseParameters();
 		parameters.put("productId", productId);
-		return getAtdwData(PRODUCT_PATH, parameters, InputStream.class);
+		return getAtdwData(PRODUCT_PATH, parameters, AtdwDataResultsType.class);
 	}
 
 	private <T> T getAtdwData(String path, Map<String, Object> parameters, Class<T> clazz) {
@@ -75,8 +75,8 @@ public class DefaultAtdwRepository implements AtdwRepository {
 		atdwLocation = PropertiesUtil.toString(properties.get(ATDW_LOCATION), DEFAULT_ATDW_LOCATION);
 		atdwKey = PropertiesUtil.toString(properties.get(ATDW_KEY), DEFAULT_ATDW_KEY);
 		ThreadSafeClientConnManager cm = new ThreadSafeClientConnManager();
-		cm.setMaxTotal(50);
-		cm.setDefaultMaxPerRoute(50);
+		cm.setMaxTotal(1000);
+		cm.setDefaultMaxPerRoute(1000);
 		rest = new RestTemplate(new HttpComponentsClientHttpRequestFactory(new DefaultHttpClient(cm, null)));
 		List<HttpMessageConverter<?>> messageConverters = new ArrayList<HttpMessageConverter<?>>();
 		messageConverters.add(new AtdwInputStreamMessageConverter());

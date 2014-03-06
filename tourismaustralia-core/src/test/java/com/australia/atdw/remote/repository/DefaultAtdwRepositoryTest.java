@@ -1,17 +1,16 @@
-package com.australia.atdw.repository;
+package com.australia.atdw.remote.repository;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
-import static org.junit.Assert.assertTrue;
 
 import java.io.IOException;
-import java.io.InputStream;
 import java.util.HashMap;
 
 import org.junit.Before;
 import org.junit.Test;
 
-import com.australia.atdw.domain.products.AtdwProductsResponse;
+import com.australia.atdw.remote.domain.product.AtdwDataResultsType;
+import com.australia.atdw.remote.domain.products.AtdwProductsResponse;
 
 public class DefaultAtdwRepositoryTest {
 	private AtdwRepository atdw;
@@ -33,9 +32,8 @@ public class DefaultAtdwRepositoryTest {
 	}
 
 	@Test
-	public void getProductXml() throws IOException {
-		InputStream xml = atdw.getProductXml("9198512");
-		assertNotNull(xml);
-		assertTrue(xml.available() > 0);
+	public void getProduct() throws IOException {
+		AtdwDataResultsType product = atdw.getProduct("9135995");
+		assertNotNull(product);
 	}
 }

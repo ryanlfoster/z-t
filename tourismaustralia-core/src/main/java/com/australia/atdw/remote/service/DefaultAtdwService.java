@@ -1,13 +1,12 @@
-package com.australia.atdw.service;
-
-import java.io.InputStream;
+package com.australia.atdw.remote.service;
 
 import org.apache.felix.scr.annotations.Component;
 import org.apache.felix.scr.annotations.Reference;
 import org.apache.felix.scr.annotations.Service;
 
-import com.australia.atdw.domain.products.AtdwProductsResponse;
-import com.australia.atdw.repository.AtdwRepository;
+import com.australia.atdw.remote.domain.product.AtdwDataResultsType;
+import com.australia.atdw.remote.domain.products.AtdwProductsResponse;
+import com.australia.atdw.remote.repository.AtdwRepository;
 
 @Component(label = "Default ATDW Service", description = "Default ATDW Service", immediate = true)
 @Service
@@ -22,8 +21,8 @@ public class DefaultAtdwService implements AtdwService {
 	}
 
 	@Override
-	public InputStream getProductXml(String productId) {
-		return atdwRepo.getProductXml(productId);
+	public AtdwDataResultsType getProduct(String productId) {
+		return atdwRepo.getProduct(productId);
 	}
 
 }

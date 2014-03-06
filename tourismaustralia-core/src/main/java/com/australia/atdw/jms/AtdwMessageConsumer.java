@@ -1,8 +1,8 @@
 package com.australia.atdw.jms;
 
-import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.List;
 
-import javax.jcr.ImportUUIDBehavior;
 import javax.jcr.Session;
 
 import org.apache.commons.lang3.StringUtils;
@@ -10,14 +10,17 @@ import org.apache.sling.api.resource.ModifiableValueMap;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ResourceResolver;
 import org.apache.sling.api.resource.ResourceResolverFactory;
-import org.apache.sling.api.resource.ValueMap;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.australia.atdw.domain.products.Product;
-import com.australia.atdw.service.AtdwService;
+import com.australia.atdw.remote.domain.product.AtdwDataResultsType;
+import com.australia.atdw.remote.domain.product.ProductCommunicationType;
+import com.australia.atdw.remote.domain.product.ProductCommunicationTypeRowType;
+import com.australia.atdw.remote.domain.product.ProductRecordType;
+import com.australia.atdw.remote.domain.products.Product;
+import com.australia.atdw.remote.service.AtdwService;
 import com.australia.utils.PathUtils;
 import com.day.cq.replication.ReplicationActionType;
 import com.day.cq.replication.Replicator;
@@ -41,8 +44,8 @@ public class AtdwMessageConsumer {
 	public void saveProduct(Product product) throws Exception {
 		ResourceResolver resourceResolver = null;
 		try {
-			InputStream productXML = atdwService.getProductXml(product.getRealProductId());
-			if (productXML != null && productXML.available() > 0) {
+			AtdwDataResultsType productDetails = atdwService.getProduct(product.getRealProductId());
+			if (productDetails != null) {
 				LOG.debug("Starting Product Save Of Product: {}", product.getRealProductId());
 				resourceResolver = resourceResolverFactory.getAdministrativeResourceResolver(null);
 				PageManager pageManager = resourceResolver.adaptTo(PageManager.class);
@@ -67,65 +70,65 @@ public class AtdwMessageConsumer {
 					jcrContentProperties.put("jcr:description", product.getProductDescription());
 				}
 				if (StringUtils.isNotEmpty(product.getProductImage())) {
-					jcrContentProperties.put("image", product.getProductImage());
+					jcrContentProperties.put("atdwImage", product.getProductImage());
 				}
 				jcrContentProperties.put("tqual", product.isTqual());
-				resourceResolver.commit();
+				if (productDetails.getProductDistribution() != null
+					&& productDetails.getProductDistribution().getProductRecord() != null) {
 
-				Session session = resourceResolver.adaptTo(Session.class);
-				session.importXML(jcrContent.getPath(), productXML,
-					ImportUUIDBehavior.IMPORT_UUID_COLLISION_REMOVE_EXISTING);
-				session.save();
+					ProductRecordType productRecord = productDetails.getProductDistribution().getProductRecord();
+					if (StringUtils.isNotEmpty(productRecord.getCityName())) {
+						jcrContentProperties.put("city", productRecord.getCityName());
+					}
 
-				Resource productRecord = jcrContent.getChild("atdw_data_results/product_distribution/product_record");
-				Resource city = productRecord.getChild("city_name/jcr:xmltext");
-				if (city != null) {
-					jcrContentProperties.put("city", city.adaptTo(ValueMap.class).get("jcr:xmlcharacters"));
-				}
+					if (StringUtils.isNotEmpty(productRecord.getStateName())) {
+						jcrContentProperties.put("state", productRecord.getStateName());
+					}
 
-				Resource state = productRecord.getChild("state_name/jcr:xmltext");
-				if (state != null) {
-					jcrContentProperties.put("state", state.adaptTo(ValueMap.class).get("jcr:xmlcharacters"));
-				}
+					if (StringUtils.isNotEmpty(productRecord.getAreaName())) {
+						jcrContentProperties.put("region", productRecord.getAreaName());
+					}
 
-				Resource region = productRecord.getChild("area_name/jcr:xmltext");
-				if (region != null) {
-					jcrContentProperties.put("region", region.adaptTo(ValueMap.class).get("jcr:xmlcharacters"));
-				}
-				Resource category = productRecord.getChild("product_category_description/jcr:xmltext");
-				if (category != null) {
-					jcrContentProperties.put("category", category.adaptTo(ValueMap.class).get("jcr:xmlcharacters"));
-				}
-				String website = null;
-				Resource productCommunication = jcrContent
-					.getChild("atdw_data_results/product_distribution/product_communication");
-				if (productCommunication != null) {
-					for (Resource resource : productCommunication.getChildren()) {
-						Resource communicationIdXML = resource.getChild("attribute_id_communication/jcr:xmltext");
-						if (communicationIdXML != null) {
-							ValueMap idProps = communicationIdXML.adaptTo(ValueMap.class);
-							if (idProps.get("jcr:xmlcharacters", String.class) != null
-								&& idProps.get("jcr:xmlcharacters", String.class).equals("CAURENQUIR")) {
-								Resource communicationDetail = resource.getChild("communication_detail/jcr:xmltext");
-								if (communicationDetail != null) {
-									ValueMap detailProps = communicationDetail.adaptTo(ValueMap.class);
-									if (detailProps.get("jcr:xmlcharacters") != null) {
-										website = detailProps.get("jcr:xmlcharacters", String.class);
-										break;
-									}
+					if (StringUtils.isNotEmpty(productRecord.getProductCategoryDescription())) {
+						jcrContentProperties.put("category", productRecord.getProductCategoryDescription());
+					}
+
+					String website = null;
+					List<String> phoneNumbers = new ArrayList<String>();
+					if (productDetails.getProductDistribution() != null
+						&& productDetails.getProductDistribution().getProductCommunication() != null) {
+						ProductCommunicationType productCommunication = productDetails.getProductDistribution()
+							.getProductCommunication();
+						for (ProductCommunicationTypeRowType row : productCommunication.getRow()) {
+
+							if (row.getAttributeIdCommunication() != null) {
+								if (row.getAttributeIdCommunication().equals("CAURENQUIR")
+									&& StringUtils.isNotEmpty(row.getCommunicationDetail())) {
+
+									website = row.getCommunicationDetail();
+								}
+								if ((row.getAttributeIdCommunication().equals("CAPHENQUIR") || row
+									.getAttributeIdCommunication().equals("CAMBENQUIR"))
+									&& StringUtils.isNotEmpty(row.getCommunicationDetail())) {
+
+									phoneNumbers.add(row.getCommunicationDetail());
 								}
 							}
 						}
 					}
-				}
-				if (website != null) {
-					jcrContentProperties.put("website", website);
+					if (website != null) {
+						jcrContentProperties.put("website", website);
+					}
+					if (phoneNumbers.size() > 0) {
+						jcrContentProperties.put("phoneNumbers", phoneNumbers.toArray(new String[0]));
+					}
 				}
 				resourceResolver.commit();
-				replicator.replicate(session, ReplicationActionType.ACTIVATE, productPage.getPath());
+				replicator.replicate(resourceResolver.adaptTo(Session.class), ReplicationActionType.ACTIVATE,
+					productPage.getPath());
 			}
 		} catch (Exception e) {
-			LOG.error("There was an error creating/updating the product", e);
+			LOG.error("There was an error creating/updating the product:" + product.getRealProductId(), e);
 			throw e;
 		} finally {
 			if (resourceResolver != null && resourceResolver.isLive()) {

@@ -27,9 +27,9 @@
 						<Bundle-SymbolicName>${project.artifactId}</Bundle-SymbolicName>
 						<Bundle-Name>${project.name}</Bundle-Name>
 						<Bundle-Vendor>${project.parent.organization.name}</Bundle-Vendor>
-						<Export-Package>!*.impl,com.australia.*</Export-Package>
+						<Export-Package>!*.impl,com.australia.*,!com.australia.widgets.multicomposite</Export-Package>
 						<DynamicImport-Package>*</DynamicImport-Package>
-						<Import-Package>javax.transaction*;version="[1.1,1.1]</Import-Package>
+						<Import-Package>javax.transaction*;version="[1.1,1.1],!com.citytechinc.cq.component.*</Import-Package>
 					</instructions>
 				</configuration>
 			</plugin>
@@ -212,6 +212,18 @@
 			<groupId>com.google.guava</groupId>
 			<artifactId>guava</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.day.cq</groupId>
+			<artifactId>cq-search</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.citytechinc.cq.cq-component-plugin</groupId>
+			<artifactId>cq-component-maven-plugin</artifactId>
+		</dependency>
 		<!-- TESTING -->
 		<dependency>
 			<groupId>org.slf4j</groupId>
@@ -233,14 +245,6 @@
 			<groupId>org.springframework</groupId>
 			<artifactId>org.springframework.expression</artifactId>
 			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>commons-io</groupId>
-			<artifactId>commons-io</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.day.cq</groupId>
-			<artifactId>cq-search</artifactId>
 		</dependency>
 	</dependencies>
 </project>

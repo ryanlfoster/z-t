@@ -7,7 +7,7 @@ CQ_Analytics.ClientContextMgr.addListener("storesinitialize", function (e) {
         if (country === "United States") {
             country = "United States Of America";
         }
-        var state = data.region;
+        var state = data.state;
         var city = data.city;
     }
     $('.aspSearchHolder').each(function () {

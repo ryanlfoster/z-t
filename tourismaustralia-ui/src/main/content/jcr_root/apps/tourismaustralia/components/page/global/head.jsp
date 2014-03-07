@@ -14,6 +14,12 @@
         <meta property="og:image" content="${global.imagePath}"/>
     </c:if>
 
+	<meta name="DC.Creator" content="Tourism Australia" />		 
+ 	<meta name="DC.Title" content="${global.title}"/> 
+ 	<meta name="DC.Description" content="${global.description}"/>
+  	<meta name="DC.Date" content="${global.lastModified}"/> 
+ 	<meta name="DC.Type" content="text"/>
+ 
     <cq:include script="headlibs.jsp"/>
     <cq:include script="/libs/wcm/core/components/init/init.jsp"/>
     <cq:include script="stats.jsp"/>

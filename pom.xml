@@ -200,6 +200,11 @@
 				<version>${cq-component-plugin.version}</version>
 			</dependency>
 			<dependency>
+				<groupId>com.citytechinc.cq.cq-component-plugin</groupId>
+				<artifactId>cq-component-maven-plugin</artifactId>
+				<version>${cq-component-plugin.version}</version>
+			</dependency>
+			<dependency>
 				<groupId>com.brightcove.proserve.mediaapi</groupId>
 				<artifactId>wrapper</artifactId>
 				<version>${brightcove-version}</version>

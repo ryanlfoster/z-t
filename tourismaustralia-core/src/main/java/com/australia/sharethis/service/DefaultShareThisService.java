@@ -11,8 +11,7 @@ import org.apache.sling.commons.osgi.PropertiesUtil;
 
 @Component(label = "Default ShareThis Service", description = "Default ShareThis Service", immediate = true)
 @Service
-public class DefaultShareThisService {
-
+public class DefaultShareThisService implements ShareThisService {
 	public static final String DEFAULT_SHARETHIS_ACCOUNT_ID = "publisher";
 
 	@Property(label = "ShareThis Account ID", description = "The account identifier for ShareThis")
@@ -25,6 +24,7 @@ public class DefaultShareThisService {
 		accountId = PropertiesUtil.toString(properties.get(SHARETHIS_ACCOUNT_ID), DEFAULT_SHARETHIS_ACCOUNT_ID);
 	}
 
+	@Override
 	public String getAccountId() {
 		return accountId;
 	}

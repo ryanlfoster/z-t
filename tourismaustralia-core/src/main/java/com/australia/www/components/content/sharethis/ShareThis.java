@@ -17,12 +17,14 @@ import com.day.cq.wcm.api.PageManager;
 @Component(value = "Share This")
 public class ShareThis {
 
+	// @DialogField(fieldLabel = "Share URL", listeners = { @Listener(name =
+	// "afteredit", value = "REFRESH_PAGE") })
 	@DialogField(fieldLabel = "Share URL")
 	@Selection(type = Selection.RADIO, options = { @Option(value = "current", text = "Current Page"),
 		@Option(value = "share", text = "Share URL"), @Option(value = "custom", text = "Custom URL") })
 	private final String shareType;
 
-	@DialogField(fieldLabel = "")
+	@DialogField(fieldLabel = "", fieldDescription = "A custom URL to share")
 	@PathField
 	private String customUrl;
 

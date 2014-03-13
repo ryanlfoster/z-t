@@ -59,7 +59,11 @@ public class DefaultATDWProductRepository implements ATDWProductRepository {
 			QueryUtils.addProperty(queryMap, propertyCount, JCR_PREFIX
 				+ JcrResourceConstants.SLING_RESOURCE_TYPE_PROPERTY, "tourismaustralia/components/page/atdw");
 			propertyCount++;
-			queryMap.put(propertyCount + QueryUtils.SEPERATOR + QueryUtils.PATH, PathUtils.ATDW_DATA_PATH);
+			String path = PathUtils.ATDW_DATA_PATH;
+			if (parameters.getCategory() != null) {
+				path = path + "/" + parameters.getCategory().getCategory();
+			}
+			queryMap.put(propertyCount + QueryUtils.SEPERATOR + QueryUtils.PATH, path);
 			propertyCount++;
 			if (StringUtils.isNotEmpty(parameters.getText())) {
 				QueryUtils.addFullText(queryMap, propertyCount, parameters.getText());

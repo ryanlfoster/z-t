@@ -6,7 +6,13 @@ import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ValueMap;
 import org.apache.sling.api.scripting.SlingBindings;
 import org.apache.sling.api.scripting.SlingScriptHelper;
+import org.apache.sling.commons.json.JSONArray;
+import org.apache.sling.commons.json.JSONException;
+import org.apache.sling.commons.json.JSONObject;
+import org.apache.sling.commons.osgi.PropertiesUtil;
 import org.apache.sling.settings.SlingSettingsService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import com.adobe.granite.xss.XSSAPI;
 import com.australia.server.ServerNameService;
@@ -25,6 +31,9 @@ import com.day.cq.wcm.foundation.Image;
 
 @Component(value = "Global", path = "page", group = ".hidden", editConfig = false, fileName = "extra_dialog")
 public class Global {
+	private static final Logger LOG = LoggerFactory.getLogger(Global.class);
+	private final int OZCOM_CONTENT_ROOT = 1;
+
 	@DialogField(fieldLabel = "Hide from Search", fieldDescription = "Removes the page from the site search")
 	@Selection(type = Selection.CHECKBOX, options = @Option(value = "true"))
 	private final boolean removeFromSearch;
@@ -46,6 +55,7 @@ public class Global {
 	private final String url;
 	private final String favIcon;
 	private final String lastModified;
+	private final String socialNetworks;
 
 	public Global(SlingHttpServletRequest request) {
 		SlingScriptHelper sling = ((SlingBindings) request.getAttribute(SlingBindings.class.getName())).getSling();
@@ -65,6 +75,7 @@ public class Global {
 		description = xssAPI.encodeForHTMLAttr(properties.get("jcr:description", ""));
 		keywords = xssAPI.encodeForHTMLAttr(WCMUtils.getKeywords(currentPage, false));
 		lastModified = StringUtils.left(xssAPI.encodeForHTMLAttr(properties.get("cq:lastModified", "")), 10);
+		socialNetworks = this.getSocialNetworks(request, currentPage).toString();
 
 		Resource imageResource = currentPage.getContentResource();
 		Image image = new Image(imageResource, "image");
@@ -90,6 +101,39 @@ public class Global {
 			favIcon = tempFavIcon;
 		}
 
+	}
+
+	/**
+	 * Gets the social networks to be used by ShareThis. The list of social
+	 * networks is available by country, but if the country code is not found a
+	 * default set is used.
+	 * 
+	 * @param request - used to get the resolve resolver
+	 * @param currentPage - used to get the parent path
+	 * @return the social networks as a json array
+	 */
+	private JSONArray getSocialNetworks(SlingHttpServletRequest request, Page currentPage) {
+		JSONArray jsonarray = new JSONArray();
+		JSONObject json = new JSONObject();
+		try {
+			// write the DEFAULT social networks to the json array
+			json.accumulate("country", "default");
+			json.accumulate("types", StringUtils.join(
+				PropertiesUtil.toStringArray(currentPage.getProperties().get("socialNetworks"), new String[0]), ","));
+			jsonarray.put(json);
+			// now write the CUSTOM social networks (by country)
+			String stPageURL = currentPage.getAbsoluteParent(OZCOM_CONTENT_ROOT).getPath() + "/jcr:content/shareThis";
+			for (Resource res : request.getResourceResolver().getResource(stPageURL).getChildren()) {
+				ValueMap jcrProp = res.adaptTo(ValueMap.class);
+				json = new JSONObject();
+				json.accumulate("country", jcrProp.get("country"));
+				json.accumulate("types", jcrProp.get("socialNetworks"));
+				jsonarray.put(json);
+			}
+		} catch (JSONException e) {
+			LOG.error("There was an error generating the json for SocialNetworks", e);
+		}
+		return jsonarray;
 	}
 
 	public boolean getRemoveFromSearch() {
@@ -130,6 +174,10 @@ public class Global {
 
 	public String getLastModified() {
 		return lastModified;
+	}
+
+	public String getSocialNetworks() {
+		return socialNetworks;
 	}
 
 }

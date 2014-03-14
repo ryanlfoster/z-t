@@ -8,23 +8,21 @@ import org.apache.sling.api.scripting.SlingScriptHelper;
 import com.australia.sharethis.service.ShareThisService;
 import com.citytechinc.cq.component.annotations.Component;
 import com.citytechinc.cq.component.annotations.DialogField;
+import com.citytechinc.cq.component.annotations.Listener;
 import com.citytechinc.cq.component.annotations.Option;
 import com.citytechinc.cq.component.annotations.widgets.PathField;
 import com.citytechinc.cq.component.annotations.widgets.Selection;
 import com.day.cq.wcm.api.Page;
 import com.day.cq.wcm.api.PageManager;
 
-@Component(value = "Share This")
+@Component(value = "ShareThis")
 public class ShareThis {
-
-	// @DialogField(fieldLabel = "Share URL", listeners = { @Listener(name =
-	// "afteredit", value = "REFRESH_PAGE") })
-	@DialogField(fieldLabel = "Share URL")
+	@DialogField(fieldLabel = "Share URL", listeners = { @Listener(name = "selectionchanged", value = "function(){var customurl = this.findParentByType('dialog').getField('./customUrl'); this.getValue()=='custom'?customurl.show():customurl.hide()}") })
 	@Selection(type = Selection.RADIO, options = { @Option(value = "current", text = "Current Page"),
 		@Option(value = "share", text = "Share URL"), @Option(value = "custom", text = "Custom URL") })
 	private final String shareType;
 
-	@DialogField(fieldLabel = "", fieldDescription = "A custom URL to share")
+	@DialogField(fieldLabel = "")
 	@PathField
 	private String customUrl;
 

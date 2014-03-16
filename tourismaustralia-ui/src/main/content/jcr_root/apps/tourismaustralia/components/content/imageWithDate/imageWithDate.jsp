@@ -6,12 +6,8 @@
 <c:set var="imageWithDate" value="<%=new ImageWithDate(slingRequest) %>"/>
 
 <% if (WCMMode.fromRequest(slingRequest) == WCMMode.EDIT) {%>
-    <c:if test="${not empty imageWithDate.image }">
-        <div><img src='${imageWithDate.image}' alt="" /></div>
-    </c:if>
-
-    <c:if test="${not empty imageWithDate.altText}">
-        <p>${imageWithDate.altText}</p>
+    <c:if test="${not empty imageWithDate.image && not empty imageWithDate.altText }">
+        <div><img src='${imageWithDate.image}' alt="${imageWithDate.altText}" /></div>
     </c:if>
 
     <c:if test="${not empty imageWithDate.date}">

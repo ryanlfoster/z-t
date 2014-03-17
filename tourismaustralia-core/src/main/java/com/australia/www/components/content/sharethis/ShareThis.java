@@ -6,6 +6,7 @@ import org.apache.sling.api.scripting.SlingBindings;
 import org.apache.sling.api.scripting.SlingScriptHelper;
 
 import com.australia.sharethis.service.ShareThisService;
+import com.australia.utils.PathUtils;
 import com.citytechinc.cq.component.annotations.Component;
 import com.citytechinc.cq.component.annotations.DialogField;
 import com.citytechinc.cq.component.annotations.Listener;
@@ -15,7 +16,9 @@ import com.citytechinc.cq.component.annotations.widgets.Selection;
 import com.day.cq.wcm.api.Page;
 import com.day.cq.wcm.api.PageManager;
 
-@Component(value = "ShareThis")
+@Component(value = "ShareThis", listeners = { @Listener(name = "aftercopy", value = "REFRESH_PAGE"),
+	@Listener(name = "afterdelete", value = "REFRESH_PAGE"), @Listener(name = "afteredit", value = "REFRESH_PAGE"),
+	@Listener(name = "afterinsert", value = "REFRESH_PAGE") })
 public class ShareThis {
 	@DialogField(fieldLabel = "Share URL", listeners = { @Listener(name = "selectionchanged", value = "function(){var customurl = this.findParentByType('dialog').getField('./customUrl'); this.getValue()=='custom'?customurl.show():customurl.hide()}") })
 	@Selection(type = Selection.RADIO, options = { @Option(value = "current", text = "Current Page"),
@@ -38,7 +41,7 @@ public class ShareThis {
 		ValueMap properties = request.getResource().adaptTo(ValueMap.class);
 		shareType = properties.get("shareType", "current");
 		if ("share".equals(shareType)) {
-			shareUrl = "???";
+			shareUrl = PathUtils.SHARE_ID_URL;
 		} else if ("custom".equals(shareType)) {
 			shareUrl = properties.get("customUrl", "");
 		} else {

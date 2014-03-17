@@ -13,4 +13,6 @@ public final class PathUtils {
 
 	public static final String ATDW_DATA_PATH = OZCOM_ROOT_PATH + "/atdw";
 
+	public static final String SHARE_ID_URL = OZCOM_ROOT_PATH + "/{lang}/share.html?id={id}";
+
 }

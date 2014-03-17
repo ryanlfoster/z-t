@@ -8,7 +8,7 @@ import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.ValueMap;
 
 /**
- * Created by vpushpanayagam on 17/03/14.
+ * Created by Viren Pushpanayagam on 17/03/14.
  */
 
 @Component(value = "Special Offer", tabs = { @Tab(title = "Image"), @Tab(title = "Extra Information") })

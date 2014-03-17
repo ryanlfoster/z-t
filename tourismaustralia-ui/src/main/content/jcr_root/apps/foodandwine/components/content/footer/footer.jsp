@@ -1,7 +1,6 @@
 <%@include file="/apps/foodandwine/components/global.jsp" %>
 
-<cq:includeClientLib js="ta-foodandwine-footer"/>
-
+<cq:includeClientLib css="ta-foodandwine-footer"/>
 
 <div class="footer-container">
     <div class="footer">

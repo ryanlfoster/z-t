@@ -14,7 +14,7 @@
         <meta property="og:image" content="${global.imagePath}"/>
     </c:if>
 
-	<meta name="DC.Creator" content="Tourism Australia" />		 
+	<meta name="DC.Creator" content="Tourism Australia-Food and Wine" />		 
  	<meta name="DC.Title" content="${global.title}"/> 
  	<meta name="DC.Description" content="${global.description}"/>
   	<meta name="DC.Date" content="${global.lastModified}"/> 

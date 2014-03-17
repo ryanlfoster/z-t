@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" ?>
+<BEBaseFoundation pageID="20377" isTemplate="1">
+	<breadcrumb>
+		<element level="1">
+			<headline><![CDATA[홈]]></headline>
+			<href><![CDATA[/ko/index.xml]]></href>
+		</element>
+		<element level="2">
+			<headline><![CDATA[Business Events]]></headline>
+			<href><![CDATA[/ko/21974.ignore]]></href>
+		</element>
+		<element level="4">
+			<headline><![CDATA[Where to go]]></headline>
+			<href><![CDATA[/businessevents/kor/where-to-go.xml]]></href>
+		</element>
+		<element level="5">
+			<headline><![CDATA[Tasmania]]></headline>
+			<href><![CDATA[/businessevents/kor/where-to-go/tasmania.xml]]></href>
+		</element>
+		<element level="6">
+			<headline><![CDATA[Accommodation]]></headline>
+			<href><![CDATA[/businessevents/kor/where-to-go/tasmania/accommodation.xml]]></href>
+		</element>
+
+	</breadcrumb>
+	<hdlPageTitle><![CDATA[Accommodation]]></hdlPageTitle>
+	<img_background><![CDATA[/contentimages/business-events/STO_TTAS_Gordon_River_cruise.jpg]]></img_background>
+	<opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+	<opt_not_in_sitemap><![CDATA[No]]></opt_not_in_sitemap>
+	<opt_show_in_navigation><![CDATA[Show]]></opt_show_in_navigation>
+	<stf_MetaKeywords><![CDATA[]]>
+	</stf_MetaKeywords>
+	<stf_meta_keywords><![CDATA[여행일정, 사진, 호텔, 행사, 사례 연구, 행사장, 이벤트, 태즈매니아]]></stf_meta_keywords>
+	<stf_meta_description><![CDATA[태즈매니아에서 비즈니스 이벤트 행사 개최에 대한 정보를 알아보십시오. 행사 계획에 필요한 여행 일정, 사례 연구, 이미지 및 기타 유용한 툴도 참고하세요.]]></stf_meta_description>
+	<stf_NavSubHeader><![CDATA[]]>
+	</stf_NavSubHeader>
+	<stf_NavTitle><![CDATA[숙박시설]]></stf_NavTitle>
+	<stf_PageTitle><![CDATA[태즈매니아 - 숙박시설]]></stf_PageTitle>
+	<conMainContent>
+		<BELayoutT4 isTemplate="1">
+			<stf_Header><![CDATA[Tasmania]]></stf_Header>
+			<stf_SubHeader><![CDATA[숙박시설]]></stf_SubHeader>
+			<con_rightcontent>
+				<BEGenericHeaderAndConentBody
+					isTemplate="1">
+					<hdl_headline><![CDATA[Header and Content Body 2811 - Tas accom]]></hdl_headline>
+					<img_DateIcon><![CDATA[]]>
+					</img_DateIcon>
+					<img_DestinationIcon><![CDATA[]]>
+					</img_DestinationIcon>
+					<img_EventTypeIcon><![CDATA[]]>
+					</img_EventTypeIcon>
+					<img_DurationIcon><![CDATA[]]>
+					</img_DurationIcon>
+					<opt_CaseStudy><![CDATA[0]]></opt_CaseStudy>
+					<stf_author><![CDATA[]]>
+					</stf_author>
+					<stf_DateText><![CDATA[]]>
+					</stf_DateText>
+					<stf_DelegatesText><![CDATA[]]>
+					</stf_DelegatesText>
+					<stf_DestinationText><![CDATA[]]>
+					</stf_DestinationText>
+					<stf_EventTypeText><![CDATA[]]>
+					</stf_EventTypeText>
+					<stf_Header><![CDATA[]]>
+					</stf_Header>
+					<stf_quote><![CDATA[]]>
+					</stf_quote>
+					<stf_Title><![CDATA[숙박시설]]></stf_Title>
+					<txt_HTML><![CDATA[귀하의 그룹에 적합한 숙박시설을 찾으시려면 검색 기능을 사용하십시오. 
+        <p>이 리스트는 태즈매니아에 있는 모든 숙박시설 옵션을 포함한 것은 아니라는 점을 유의하시기 바랍니다. 여기에 기재되지 않은 더 자세한 정보를 원하시면 <a href="/businessevents/kor/how-we-can-help/Find-your-local-contact.xml" target="_blank">지역 호주관광청 담당자에게 문의하십시오</a>.[검색 결과는 영어로만 표시됩니다]</p>]]></txt_HTML>
+				</BEGenericHeaderAndConentBody>
+				<BEAccommodationSearchResults
+					isTemplate="1">
+					<!-- no user content -->
+				</BEAccommodationSearchResults>
+			</con_rightcontent>
+			<con_sidebar>
+				<BEAccommodationSearchFilter isTemplate="1">
+					<!-- no user content -->
+				</BEAccommodationSearchFilter>
+			</con_sidebar>
+		</BELayoutT4>
+	</conMainContent>
+	<lstNavigation>
+	</lstNavigation>
+</BEBaseFoundation>

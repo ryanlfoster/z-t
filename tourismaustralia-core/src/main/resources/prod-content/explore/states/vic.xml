@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="624" isTemplate="1">
+	<breadcrumb>
+		<element level="1">
+			<headline><![CDATA[Homepage ]]></headline>
+			<href><![CDATA[/index.xml]]></href>
+		</element>
+		<element level="2">
+			<headline><![CDATA[Explore ]]></headline>
+			<href><![CDATA[/explore.xml]]></href>
+		</element>
+		<element level="4">
+			<headline><![CDATA[Victoria]]></headline>
+			<href><![CDATA[/explore/states/vic.xml]]></href>
+		</element>
+
+	</breadcrumb>
+	<img_background><![CDATA[/contentimages/explore-states-vic.jpg]]></img_background>
+	<hdl_Title><![CDATA[Victoria]]></hdl_Title>
+	<img_Banner><![CDATA[]]>
+	</img_Banner>
+	<img_SearchThumbnail><![CDATA[/thumbnails/explore-states-vic-search.jpg]]></img_SearchThumbnail>
+	<img_Thumbnail><![CDATA[/contentimages/explore-states-victoria-th.jpg]]></img_Thumbnail>
+	<opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+	<opt_HidePage><![CDATA[no]]></opt_HidePage>
+	<opt_hideTitle><![CDATA[0]]></opt_hideTitle>
+	<opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+	<opt_IncludeVideo><![CDATA[0]]></opt_IncludeVideo>
+	<opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+	<opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+	<opt_PageLayout><![CDATA[]]>
+	</opt_PageLayout>
+	<opt_PartnerLead><![CDATA[no]]></opt_PartnerLead>
+	<stf_description><![CDATA[Discover VIC. Find holiday information on Melbourne, Yarra Valley, Dandenong Ranges, Mornington Peninsula, Daylesford, Phillip Island and more.  ]]></stf_description>
+	<stf_ExcludedCountries><![CDATA[]]>
+	</stf_ExcludedCountries>
+	<stf_hideInXmlSitemap><![CDATA[]]>
+	</stf_hideInXmlSitemap>
+	<stf_ImageLocation><![CDATA[Brighton Beach, VIC]]></stf_ImageLocation>
+	<stf_intro_title><![CDATA[]]>
+	</stf_intro_title>
+	<stf_IsExternalSiteArticle><![CDATA[]]>
+	</stf_IsExternalSiteArticle>
+	<stf_IsMobile><![CDATA[y]]></stf_IsMobile>
+	<stf_keywords><![CDATA[VIC, Victoria]]></stf_keywords>
+	<stf_LinkLearnMore><![CDATA[Learn More]]></stf_LinkLearnMore>
+	<stf_NavigationTagLine><![CDATA[]]>
+	</stf_NavigationTagLine>
+	<stf_PageHeading><![CDATA[]]>
+	</stf_PageHeading>
+	<stf_TargetedCountries><![CDATA[]]>
+	</stf_TargetedCountries>
+	<stf_TrackingTitle><![CDATA[]]>
+	</stf_TrackingTitle>
+	<TA_Title><![CDATA[Holiday In Victoria]]></TA_Title>
+	<txt_Intro>
+        <![CDATA[]]>
+	</txt_Intro>
+	<txt_MobileContentOnly>
+        <![CDATA[]]>
+	</txt_MobileContentOnly>
+	<txt_SpotlightTag>
+        <![CDATA[]]>
+	</txt_SpotlightTag>
+	<txt_Teaser>
+        <![CDATA[Whether you adore the arts or love the great outdoors, Victoria has something for you. ]]>
+	</txt_Teaser>
+	<con_Body>
+		<SubPageLayout isTemplate="1">
+			<con_Banner>
+
+			</con_Banner>
+			<con_RHSModules>
+				<IntegratedMiniMap isTemplate="1">
+					<!-- no user content -->
+				</IntegratedMiniMap>
+				<TravellersStoryWidget isTemplate="1">
+					<anc_link><![CDATA[/explore/map.aspx?filters=states,experiences&zoom=7&centre=-39.300286,142.434252]]></anc_link>
+					<img_image><![CDATA[/contentimages/states-VIC.jpg]]></img_image>
+				</TravellersStoryWidget>
+				<Listing isTemplate="1">
+					<anc_List1><![CDATA[/explore/cities/melbourne/melbourne-surrounds.xml]]></anc_List1>
+					<anc_MoreLink><![CDATA[]]>
+					</anc_MoreLink>
+					<hdl_Title><![CDATA[More Australian Ideas]]></hdl_Title>
+					<img_Thumbnail><![CDATA[]]>
+					</img_Thumbnail>
+					<med_File><![CDATA[]]>
+					</med_File>
+					<opt_isNewWindow><![CDATA[]]>
+					</opt_isNewWindow>
+					<stf_externalLink><![CDATA[]]>
+					</stf_externalLink>
+					<stf_ExternalLinkTitle><![CDATA[]]>
+					</stf_ExternalLinkTitle>
+					<stf_IsExternalSiteArticle><![CDATA[]]>
+					</stf_IsExternalSiteArticle>
+					<stf_LinkLearnMore><![CDATA[]]>
+					</stf_LinkLearnMore>
+					<txt_Teaser><![CDATA[]]>
+					</txt_Teaser>
+					<opt_national_landscapes_id><![CDATA[]]>
+					</opt_national_landscapes_id>
+					<stf_hideInXmlSitemap><![CDATA[]]>
+					</stf_hideInXmlSitemap>
+					<stf_TargetedCountry><![CDATA[]]>
+					</stf_TargetedCountry>
+					<con_Banner></con_Banner>
+					<con_Body></con_Body>
+					<con_RHSModules></con_RHSModules>
+					<con_Category></con_Category>
+					<lst_Subpages></lst_Subpages>
+				</Listing>
+				<PlanYourVisit isTemplate="1">
+					<anc_AccommodationSearch><![CDATA[/AccommodationSearch.ignore]]></anc_AccommodationSearch>
+					<anc_ASPSearch><![CDATA[/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+					<anc_Attraction><![CDATA[/AttractionSearchResults.ignore]]></anc_Attraction>
+					<anc_Destinfo><![CDATA[/DestinfoSearchResults.ignore]]></anc_Destinfo>
+					<anc_EventsSearch><![CDATA[/EventsSearch.xml]]></anc_EventsSearch>
+					<anc_GeneralSearch><![CDATA[/GeneralSearch.ignore]]></anc_GeneralSearch>
+					<anc_Hire><![CDATA[/Hire.ignore]]></anc_Hire>
+					<anc_Info><![CDATA[/InfoSearchResults.ignore]]></anc_Info>
+					<anc_More><![CDATA[]]>
+					</anc_More>
+					<anc_RestaurantSearch><![CDATA[/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+					<anc_Tour><![CDATA[/TourSearchResults.ignore]]></anc_Tour>
+					<anc_Transport><![CDATA[/Transport.ignore]]></anc_Transport>
+					<hdl_Title><![CDATA[Plan your visit to Victoria]]></hdl_Title>
+					<language><![CDATA[ENA]]></language>
+					<stf_Accomodation><![CDATA[Accommodation]]></stf_Accomodation>
+					<stf_AreaFilter><![CDATA[]]>
+					</stf_AreaFilter>
+					<stf_Attractions><![CDATA[Attractions]]></stf_Attractions>
+					<stf_AussieSpecialist><![CDATA[Find a travel agent near you]]></stf_AussieSpecialist>
+					<stf_Destinationinfo><![CDATA[Destination Information]]></stf_Destinationinfo>
+					<stf_DomesticRegion><![CDATA[]]>
+					</stf_DomesticRegion>
+					<stf_Events><![CDATA[Events]]></stf_Events>
+					<stf_Hire><![CDATA[Hire]]></stf_Hire>
+					<stf_Informationservices><![CDATA[Information Services]]></stf_Informationservices>
+					<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+					<stf_StateFilter><![CDATA[Victoria]]></stf_StateFilter>
+					<stf_Tours><![CDATA[Tours]]></stf_Tours>
+					<stf_Transport><![CDATA[Transport]]></stf_Transport>
+				</PlanYourVisit>
+				<MoreInformation isTemplate="1">
+					<hdl_Title><![CDATA[More information on Victoria]]></hdl_Title>
+					<anc_Link><![CDATA[]]>
+					</anc_Link>
+					<anc_MoreLink><![CDATA[]]>
+					</anc_MoreLink>
+					<img_Content><![CDATA[<img src="/contentimages/more_info_vic_thumb.jpg" border="0" align="left" class="imgLeft">]]></img_Content>
+					<stf_LinkTitle><![CDATA[]]>
+					</stf_LinkTitle>
+					<stf_MoreLink><![CDATA[http://visitmelbourne.com]]></stf_MoreLink>
+					<stf_MoreLinkText><![CDATA[More...]]></stf_MoreLinkText>
+					<stf_Teaser><![CDATA[Visit the Tourism Victoria website.]]></stf_Teaser>
+				</MoreInformation>
+			</con_RHSModules>
+			<con_Video>
+
+			</con_Video>
+			<con_Body>
+				<TopCategoryHighlights isTemplate="1">
+					<stf_Heading><![CDATA[Victoria]]></stf_Heading>
+					<stf_InformationTitle><![CDATA[]]>
+					</stf_InformationTitle>
+					<txt_Information><![CDATA[
+        Whether you adore the arts or love the great outdoors, Victoria has something for you.  The state is packed with both scenic and cultural attractions – from striking public spaces and state-of-the-art museums to heritage sites and rare wildlife.  Discover the cafes and bars of Melbourne’s gothic laneways and drive the Great Ocean Road. Wind your way through the wineries of the Yarra Valley and chug down the Murray in a paddle-steamer. Swim with dolphins on Mornington Peninsula and see fairy penguins on Phillip Island. Trek the rugged Grampians then relax in a Daylesford health spa. Bushwalk Gippsland’s coastal wilderness, hit the High Country slopes or explore the grand architecture of a Goldfields town.
+        <br />
+        <br />
+    ]]></txt_Information>
+					<con_CenterContent>
+						<CenterContent isTemplate="1">
+							<hdl_Title><![CDATA[Melbourne]]></hdl_Title>
+							<img_MainImage><![CDATA[<img src="/contentimages/explore-cities-melbourne-hl.jpg" alt="Melbourne, VIC">]]></img_MainImage>
+							<stf_Caption><![CDATA[Melbourne, VIC]]></stf_Caption>
+							<anc_link><![CDATA[/explore/cities/melbourne.xml]]></anc_link>
+							<txt_Information>
+                        <![CDATA[
+        Sitting on the Yarra River at Port Phillip Bay, this stylish, vibrant city is a maze of <a href="/explore/cities/melbourne/melbourne-hidden-laneways.xml" target="_self">hidden laneways</a>, opulent bars, exclusive restaurants and off-the-beaten-track boutiques. Visit Federation Square, the city’s landmark cultural space, and enjoy a sunset beer on the St Kilda promenade. Shop till you drop on funky <a href="/explore/cities/melbourne/vic-brunswick.xml" target="_self">Brunswick Street</a> or upmarket Chapel Street. Wander Southbank’s cafes, bistros and bars and get a world tour of cuisines in Carlton, Richmond and Fitzroy. Take an Aboriginal Heritage Walk through the Royal Botanic Gardens and cheer with a capacity crowd at the <a href="http://www.australia.com/campaigns/nothinglike/au/melbourne-product6.htm" target="_blank">Melbourne Cricket Ground</a>.
+    ]]>
+							</txt_Information>
+						</CenterContent>
+						<CenterContent isTemplate="1">
+							<hdl_Title><![CDATA[Yarra Valley and Dandenong Ranges]]></hdl_Title>
+							<img_MainImage><![CDATA[<img src="/contentimages/about-australias-landscapes-wine-regions-vic-escape-to-yarra-valley-hl.jpg" alt="Yarra Valley, VIC">]]></img_MainImage>
+							<stf_Caption><![CDATA[Yarra Valley, VIC]]></stf_Caption>
+							<anc_link><![CDATA[/about/australias-landscapes/wine-regions/yarra-valley.xml]]></anc_link>
+							<txt_Information>
+                        <![CDATA[
+        Stay in Yarra Glen, the heart of the food and wine region and tour the acclaimed wineries of the <a href="/about/australias-landscapes/wine-regions/yarra-valley.xml" target="_self">Yarra Valley</a>. Trek through the tall forests of the Dandenong Ranges National Park. You can stop amidst the fairytale mists of Sherbrooke Forest or take the Puffing Billy Steam Railway through the villages of Belgrave, Gembrook and Emerald. Visit the famous Healesville wildlife sanctuary and wander the gardens, waterfalls and forest of Marysville, also a gateway to the Lake Mountain ski fields. 
+    ]]>
+							</txt_Information>
+						</CenterContent>
+						<CenterContent isTemplate="1">
+							<hdl_Title><![CDATA[Mornington Peninsula]]></hdl_Title>
+							<img_MainImage><![CDATA[<img src="/contentimages/explore-cities-melbourne-mornington-peninsula-hl.jpg" alt="Mornington Peninsula, VIC">]]></img_MainImage>
+							<stf_Caption><![CDATA[Mornington Peninsula, VIC]]></stf_Caption>
+							<anc_link><![CDATA[/explore/cities/melbourne/mornington-peninsula.xml]]></anc_link>
+							<txt_Information>
+                        <![CDATA[
+        Swim with dolphins and stroll the bay and surf beaches of the historic seaside village of Sorrento. Take in the cliff-top walks, stunning views and million-dollar mansions of Portsea at the tip of <a href="/explore/cities/melbourne/mornington-peninsula.xml" target="_self">the Mornington Peninsula</a>. Pick your own berries and visit wineries and galleries in Red Hill and Main Ridge. In Flinders, you’ll find great beaches, wineries and golf courses. 
+    ]]>
+							</txt_Information>
+						</CenterContent>
+						<CenterContent isTemplate="1">
+							<hdl_Title><![CDATA[Daylesford and the Macedon Ranges]]></hdl_Title>
+							<img_MainImage><![CDATA[<img src="/contentimages/4.1.3.4_highlight.jpg" alt="Lake Daylesford, VIC">]]></img_MainImage>
+							<stf_Caption><![CDATA[Lake Daylesford, VIC]]></stf_Caption>
+							<anc_link><![CDATA[]]>
+							</anc_link>
+							<txt_Information>
+                        <![CDATA[Sample the health-giving mineral waters of Hepburn Springs and explore Kyneton’s antique shops. Bushwalk past gardens and hillside estates at Mount Macedon and picnic at legendary Hanging Rock. This region is a fairytale at the end of a fast highway from Melbourne, filled with galleries, boutique accommodation and fine places to eat. ]]>
+							</txt_Information>
+						</CenterContent>
+						<CenterContent isTemplate="1">
+							<hdl_Title><![CDATA[Phillip Island]]></hdl_Title>
+							<img_MainImage><![CDATA[<img src="/contentimages/4.1.3.5_highlight.jpg" alt="Phillip Island, VIC">]]></img_MainImage>
+							<stf_Caption><![CDATA[Phillip Island, VIC]]></stf_Caption>
+							<anc_link><![CDATA[]]>
+							</anc_link>
+							<txt_Information>
+                        <![CDATA[
+        See koalas and waterbirds in the wild at Rhyll and witness little penguins as they parade home at dusk on Summerland Beach. Marvel at Australia’s largest fur seal colony as you cruise amongst Seal Rocks and stay overnight in an array of beachside accommodation. For a different kind of wild life, visit the Phillip Island Grand Prix Circuit, home to the <a href="/explore/events/australias-motorsport-events.xml" target="_self">Australian Motor Cycle Grand Prix</a> and V8 Supercar 500. Just 90 minutes drive from Melbourne arrive in the gateway of San Remo – also a fishing and pelican haven- drive across the spectacular bridge and begin your Phillip Island adventure. 
+    ]]>
+							</txt_Information>
+						</CenterContent>
+						<CenterContent isTemplate="1">
+							<hdl_Title><![CDATA[The Murray]]></hdl_Title>
+							<img_MainImage><![CDATA[<img src="/contentimages/4.1.3.12_highlight.jpg" alt="Echuca-Moama, Murray River, VIC">]]></img_MainImage>
+							<stf_Caption><![CDATA[Murray River, VIC]]></stf_Caption>
+							<anc_link><![CDATA[/explore/things-to-do/australian-adventure/houseboating-murray-river.xml]]></anc_link>
+							<txt_Information>
+                        <![CDATA[Visit the home of paddle-steamers in Echuca-Moama and explore the pioneer history of Swan Hill. Indulge in fine food and wine amongst the citrus groves and vineyards of the vibrant outback oasis of Mildura. In the twin river towns of Yarrawonga-Mulwala, you can camp, bushwalk, play a round of golf, or fish and water ski on the local lakes and rivers.]]>
+							</txt_Information>
+						</CenterContent>
+						<CenterContent isTemplate="1">
+							<hdl_Title><![CDATA[Great Ocean Road]]></hdl_Title>
+							<img_MainImage><![CDATA[<img src="/contentimages/explore-icons-great-ocean-road-hl.jpg" alt="Great Ocean Road, VIC">]]></img_MainImage>
+							<stf_Caption><![CDATA[Great Ocean Road, VIC]]></stf_Caption>
+							<anc_link><![CDATA[/explore/icons/great-ocean-road.xml]]></anc_link>
+							<txt_Information>
+                        <![CDATA[
+        Discover beaches, bushland and kangaroos at Anglesea and see epic waves crash on Bells Beach, near the surfing town of <a href="/explore/states/vic/vic-torquay.xml" target="_self">Torquay</a>. Swim, surf and fish in Lorne and walk through the waterfalls and lush rainforest of the nearby Otway Ranges. You can stand on Shipwreck Coast and marvel at the craggy limestone stacks of the <a href="/explore/states/vic/vic-12-apostles.xml" target="_self">Twelve Apostles</a> in Port Campbell National Park. Sea kayak and surf in idyllic Apollo Bay and watch whales from Warrnambool. You’ll find fishing and an annual folk festival in historic Port Fairy.
+    ]]>
+							</txt_Information>
+						</CenterContent>
+						<CenterContent isTemplate="1">
+							<hdl_Title><![CDATA[Grampians]]></hdl_Title>
+							<img_MainImage><![CDATA[<img src="/contentimages/explore-states-vic-grampians-hl.jpg" alt="The Grampians, VIC">]]></img_MainImage>
+							<stf_Caption><![CDATA[The Grampians, VIC]]></stf_Caption>
+							<anc_link><![CDATA[/explore/states/vic/vic-grampians.xml]]></anc_link>
+							<txt_Information>
+                        <![CDATA[
+        Stay in Halls Gap and trek the spectacular ridges of the <a href="/explore/states/vic/vic-grampians.xml" target="_self">Grampians</a>, which rise dramatically from the flat expanse of Victoria's west. Go bushwalking, rock climbing, fishing and canoeing in the rugged Grampians National Park. It’s also a haven for wildlife, wildflowers and Aboriginal art sites, such as the famous Bunjil’s shelter. You can fish on the banks of the Wimmera River in the tranquil rural town of Horsham. Visit the beautiful village of Dunkeld at the Grampian’s southern end and bustling, historic Stawell at the north. 
+    ]]>
+							</txt_Information>
+						</CenterContent>
+						<CenterContent isTemplate="1">
+							<hdl_Title><![CDATA[High Country]]></hdl_Title>
+							<img_MainImage><![CDATA[<img src="/contentimages/4.1.3.8_highlight.jpg" alt="Mount Hotham, VIC">]]></img_MainImage>
+							<stf_Caption><![CDATA[Mount Hotham, VIC]]></stf_Caption>
+							<anc_link><![CDATA[]]>
+							</anc_link>
+							<txt_Information>
+                        <![CDATA[Ski or snowboard at Mount Hotham, Australia’s powder capital, or on the steep slopes of the winter playground of Falls Creek. Tackle winter sports, biking or four wheel driving at Mount Buller and marvel at Mount Buffalo’s unique granite beauty. Visit wineries fringed by gum trees in Rutherglen and see the courthouse where Ned Kelly stood trial in the historic gold rush town of Beechworth. Go fishing, houseboating and waterskiing at Lake Eildon. Or base yourself in Bright for walking, cycling and easy access to snowfields and gourmet delights.]]>
+							</txt_Information>
+						</CenterContent>
+						<CenterContent isTemplate="1">
+							<hdl_Title><![CDATA[Gippsland]]></hdl_Title>
+							<img_MainImage><![CDATA[<img src="/contentimages/explore-icons-gippsland-hl.jpg" alt="Gippsland, VIC">]]></img_MainImage>
+							<stf_Caption><![CDATA[Gippsland, VIC]]></stf_Caption>
+							<anc_link><![CDATA[/explore/icons/gippsland.xml]]></anc_link>
+							<txt_Information>
+                        <![CDATA[
+        Trek the pristine coastal wilderness of Wilsons Promontory National Park and dive and snorkel with brightly coloured marine life in Wilsons Promontory Marine National Park. From Bairnsdale and the holiday haven of Lakes Entrance you can explore <a href="/explore/icons/gippsland.xml" target="_self">Gippsland Lakes</a> and <a href="/explore/icons/gippsland/vic-90-mile-beach.xml" target="_self">Ninety Mile Beach</a>, where fine sands shelter the planet’s highest diversity of species. Stay in the pretty coastal town of Mallacoota and lose yourself in nearby Croajingolong National Park, which has eco-systems so precious they are protected by a World Biosphere Reserve. Explore an ancient honeycomb of caves at Buchan Caves Reserves and four wheel drive <a href="/explore/icons/alps.xml" target="_self">the Australian Alps</a> in Alpine National Park. Enjoy fine wine and dining in Traralgon and fish and boat in the historic port of Sale.
+    ]]>
+							</txt_Information>
+						</CenterContent>
+						<CenterContent isTemplate="1">
+							<hdl_Title><![CDATA[Goldfields]]></hdl_Title>
+							<img_MainImage><![CDATA[<img src="/contentimages/4.1.3.11_highlight.jpg" alt="Sovereign Hill, Balllarat, VIC">]]></img_MainImage>
+							<stf_Caption><![CDATA[Sovereign Hill, Ballarat, VIC]]></stf_Caption>
+							<anc_link><![CDATA[/explore/states/vic/vic-bendigo.xml]]></anc_link>
+							<txt_Information>
+                        <![CDATA[
+        Walk the Eureka Trail, pan for gold at Sovereign Hill and see the grand architecture of the gold rush boom in and around Ballarat. In <a href="/explore/states/vic/vic-bendigo.xml" target="_self">Bendigo</a>, another boom town, you can see opulent buildings, explore a rich Chinese heritage and drop the equivalent of thirty-storeys in the Central Deborah Gold Mine. Discover antiques, wineries and Aboriginal rock water wells in Maryborough. Experience Castlemaine’s wide streets, fine public buildings and historic homes on a heritage trail.
+    ]]>
+							</txt_Information>
+						</CenterContent>
+					</con_CenterContent>
+				</TopCategoryHighlights>
+			</con_Body>
+		</SubPageLayout>
+	</con_Body>
+	<lst_Subpages>
+		<lst_Subpage><![CDATA[<a href="/explore/states/vic/vic-bendigo.xml">Strike It Rich in Bendigo</a>]]></lst_Subpage>
+		<lst_Subpage><![CDATA[<a href="/explore/states/vic/vic-torquay.xml">Bells Beach</a>]]></lst_Subpage>
+		<lst_Subpage><![CDATA[<a href="/explore/states/vic/vic-grampians.xml">Go Back in Time in the Majestic Grampians</a>]]></lst_Subpage>
+		<lst_Subpage><![CDATA[<a href="/explore/states/vic/vic-12-apostles.xml">Get swept away by the Twelve Apostles</a>]]></lst_Subpage>
+		<lst_Subpage><![CDATA[<a href="/explore/states/vic/vic-snow-play.xml">Snow Play on Victoria’s Slopes</a>]]></lst_Subpage>
+	</lst_Subpages>
+</ConsumerBaseFoundation>

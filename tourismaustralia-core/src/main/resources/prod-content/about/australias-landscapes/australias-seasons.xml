@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="9756" isTemplate="1">
+	<breadcrumb>
+		<element level="1">
+			<headline><![CDATA[Homepage ]]></headline>
+			<href><![CDATA[/index.xml]]></href>
+		</element>
+		<element level="2">
+			<headline><![CDATA[About]]></headline>
+			<href><![CDATA[/about.xml]]></href>
+		</element>
+		<element level="4">
+			<headline><![CDATA[Australia's Seasons]]></headline>
+			<href><![CDATA[/about/australias-landscapes/australias-seasons.xml]]></href>
+		</element>
+
+	</breadcrumb>
+	<img_background><![CDATA[/contentimages/about-landscapes-seasonal-australia.jpg]]></img_background>
+	<hdl_Title><![CDATA[Australia's Seasons]]></hdl_Title>
+	<img_Banner><![CDATA[]]>
+	</img_Banner>
+	<img_SearchThumbnail><![CDATA[/thumbnails/about-landscapes-seasonal-australia-search.jpg]]></img_SearchThumbnail>
+	<img_Thumbnail><![CDATA[/contentimages/about-landscapes-seasonal-australia-th.jpg]]></img_Thumbnail>
+	<opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+	<opt_HidePage><![CDATA[no]]></opt_HidePage>
+	<opt_hideTitle><![CDATA[0]]></opt_hideTitle>
+	<opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+	<opt_IncludeVideo><![CDATA[0]]></opt_IncludeVideo>
+	<opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+	<opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+	<opt_PageLayout><![CDATA[]]>
+	</opt_PageLayout>
+	<opt_PartnerLead><![CDATA[no]]></opt_PartnerLead>
+	<stf_description><![CDATA[Discover Australia’s seasonal showcase!]]></stf_description>
+	<stf_ExcludedCountries><![CDATA[]]>
+	</stf_ExcludedCountries>
+	<stf_hideInXmlSitemap><![CDATA[]]>
+	</stf_hideInXmlSitemap>
+	<stf_ImageLocation><![CDATA[Lorne, VIC. &copy; Tourism Victoria &amp; Andrew Paoli]]></stf_ImageLocation>
+	<stf_intro_title><![CDATA[]]>
+	</stf_intro_title>
+	<stf_IsExternalSiteArticle><![CDATA[]]>
+	</stf_IsExternalSiteArticle>
+	<stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+	<stf_keywords><![CDATA[Summer in Australia, Autumn foliage, Spring in Australia, Winter in Australia, Snow in Australia, winter sun holiday, winter ski holiday]]></stf_keywords>
+	<stf_LinkLearnMore><![CDATA[Learn More]]></stf_LinkLearnMore>
+	<stf_NavigationTagLine><![CDATA[]]>
+	</stf_NavigationTagLine>
+	<stf_PageHeading><![CDATA[]]>
+	</stf_PageHeading>
+	<stf_TargetedCountries><![CDATA[]]>
+	</stf_TargetedCountries>
+	<stf_TrackingTitle><![CDATA[]]>
+	</stf_TrackingTitle>
+	<TA_Title><![CDATA[Australia's Seasons]]></TA_Title>
+	<txt_Intro>
+        <![CDATA[]]>
+	</txt_Intro>
+	<txt_MobileContentOnly>
+        <![CDATA[]]>
+	</txt_MobileContentOnly>
+	<txt_SpotlightTag>
+        <![CDATA[]]>
+	</txt_SpotlightTag>
+	<txt_Teaser>
+        <![CDATA[Discover Australia’s seasonal showcase!]]>
+	</txt_Teaser>
+	<con_Body>
+		<SubPageLayout isTemplate="1">
+			<con_Banner>
+
+			</con_Banner>
+			<con_RHSModules>
+				<PlanYourHolidayBox isTemplate="1">
+					<anc_MoreLink><![CDATA[/plan.xml]]></anc_MoreLink>
+					<hdl_Headline><![CDATA[Plan your holiday]]></hdl_Headline>
+					<language><![CDATA[ENA]]></language>
+					<opt_IsOnHomepage><![CDATA[]]>
+					</opt_IsOnHomepage>
+					<stf_MenuIconClass><![CDATA[]]>
+					</stf_MenuIconClass>
+					<stf_More><![CDATA[More]]></stf_More>
+					<stf_PlanYourHolidayTitle><![CDATA[Plan your holiday]]></stf_PlanYourHolidayTitle>
+					<lst_PageLinks>
+						<lst_PageLink>
+							<url><![CDATA[/plan/plan-your-trip/find-travel-agent.xml]]></url>
+							<hdl_Title><![CDATA[Find a Travel Specialist]]></hdl_Title>
+							<opt_MenuIconClass><![CDATA[]]>
+							</opt_MenuIconClass>
+						</lst_PageLink>
+						<lst_PageLink>
+							<url><![CDATA[/plan/plan-your-trip/getting-there.xml]]></url>
+							<hdl_Title><![CDATA[Find Flights]]></hdl_Title>
+							<opt_MenuIconClass><![CDATA[]]>
+							</opt_MenuIconClass>
+						</lst_PageLink>
+						<lst_PageLink>
+							<url><![CDATA[/plan/plan-your-trip/accommodation.xml]]></url>
+							<hdl_Title><![CDATA[Accommodation]]></hdl_Title>
+							<opt_MenuIconClass><![CDATA[]]>
+							</opt_MenuIconClass>
+						</lst_PageLink>
+						<lst_PageLink>
+							<url><![CDATA[/plan/plan-your-trip/tours.xml]]></url>
+							<hdl_Title><![CDATA[Find Tours]]></hdl_Title>
+							<opt_MenuIconClass><![CDATA[]]>
+							</opt_MenuIconClass>
+						</lst_PageLink>
+						<lst_PageLink>
+							<url><![CDATA[/plan/plan-your-trip/specialoffers.xml]]></url>
+							<hdl_Title><![CDATA[Special Offers*]]></hdl_Title>
+							<opt_MenuIconClass><![CDATA[]]>
+							</opt_MenuIconClass>
+						</lst_PageLink>
+					</lst_PageLinks>
+				</PlanYourHolidayBox>
+			</con_RHSModules>
+			<con_Video>
+
+			</con_Video>
+			<con_Body>
+				<TopCategoryHighlights isTemplate="1">
+					<stf_Heading><![CDATA[Australia's Seasons]]></stf_Heading>
+					<stf_InformationTitle><![CDATA[]]>
+					</stf_InformationTitle>
+					<txt_Information><![CDATA[Australia is a country for all seasons. You can do practically anything here, at any time of year.&nbsp; There are four seasons across most of the country and a wet and dry season in our tropical north.&nbsp;&nbsp; 
+<P>Summer in Australia, from December to February, is a great time to get outdoors. Swim Sydney’s beaches or hike Tasmania’s Overland Track.&nbsp; March to May heralds Australia’s autumn, a season of fiery foliage in Canberra and the Formula 1 Grand Prix in Melbourne.&nbsp; Australia’s winter, from June to August, offers snow skiing in the Australian Alps. Alternatively, take a winter sun holiday. Snorkel in the temperate Great Barrier Reef or 4WD through South Australia’s Simpson Desert. Spring in Australia, from September to November is the time to watch for whales and wildflowers as you explore the wineries of Western Australia’s Margaret River region.&nbsp; </P>
+<P>In tropical Australia, the dry season from May to October has clear blue skies and sunny days. It’s the time to experience Darwin’s vibrant outdoor markets, movies and festivals.&nbsp; December to March is the wet season, which is hot and humid with daily rainstorms. See waterfalls thunder through Litchfield and Kakadu National Parks or fly over Katherine Gorge when its water levels are highest.</P>]]></txt_Information>
+					<con_CenterContent>
+						<CenterContent isTemplate="1">
+							<hdl_Title><![CDATA[Discover Australia’s Summer]]></hdl_Title>
+							<img_MainImage><![CDATA[<img src="/contentimages/about-australias-landscapes-australias-seasons-summer-hl.jpg" alt="Discover Australia’s Summer">]]></img_MainImage>
+							<stf_Caption><![CDATA[Discover Australia’s Summer]]></stf_Caption>
+							<anc_link><![CDATA[/about/australias-landscapes/australias-seasons/summer.xml]]></anc_link>
+							<txt_Information>
+                        <![CDATA[
+        Experience Australia’s glorious <a href="/about/australias-landscapes/australias-seasons/summer.xml" target="_self">summer</a> from December to February.Walk along spectacular coastal cliffs from Sydney’s <a href="/explore/cities/sydney/nsw-bondi-bronte.xml" target="_self">Bondi Beach to Bronte</a>. Day trip from <a href="/explore/cities/melbourne.xml" target="_self">Melbourne</a> to the vineyards, beaches, national parks, golf courses and day spas of the <a href="/explore/cities/melbourne/mornington-peninsula.xml" target="_self">Mornington Peninsula</a>. Taste Tasmania’s finest food and wine on the historic <a href="/explore/cities/hobart.xml" target="_self">Hobart</a> waterfront or explore food, wine and history in the Swan Valley, near <a href="/explore/cities/perth.xml" target="_self">Perth</a>. Follow fresh seafood around the pristine coastline of South Australia’s <a href="/explore/states/sa/sa-eyre-peninsula.xml" target="_self">Eyre Peninsula</a> or watch coral spawning en-masse on Queensland’s <a href="/explore/icons/great-barrier-reef.xml" target="_self">Great Barrier Reef</a>. Experience dazzling thunderstorms and blossoming vegetation in the tropical Top End. Or get up close to native Australian animals and ancient Aboriginal history in <a href="/explore/states/act/act-nature-reserve.xml" target="_self">Tidbinbilla Nature Reserve</a>, near <a href="/explore/cities/canberra.xml" target="_self">Canberra</a>. Summer in Australia is also the season for world class cricket, <a href="/explore/events/australian-open.xml" target="_self">grand slam tennis</a>, vibrant <a href="/explore/australian-events/music-festivals-events.xml" target="_self">music festivals</a>, <a href="/explore/events/nat-new-years-fireworks.xml" target="_self">NYE celebrations</a> and outdoor <a href="/explore/australian-events/culture-events.xml" target="_self">cultural events</a>.
+    ]]>
+							</txt_Information>
+						</CenterContent>
+						<CenterContent isTemplate="1">
+							<hdl_Title><![CDATA[See Australia in Autumn]]></hdl_Title>
+							<img_MainImage><![CDATA[<img src="/contentimages/about-australias-landscapes-australias-seasons-autumn-hl.jpg" alt="See Australia in Autumn">]]></img_MainImage>
+							<stf_Caption><![CDATA[See Australia in Autumn]]></stf_Caption>
+							<anc_link><![CDATA[/about/australias-landscapes/australias-seasons/autumn.xml]]></anc_link>
+							<txt_Information>
+                        <![CDATA[
+        Discover the magical diversity of <a href="/about/australias-landscapes/australias-seasons/autumn.xml" target="_self">Australia’s autumn</a>, lasting from March to May across most of the country. See red-gold trees in Orange, a rural food and wine hub west of <a href="/explore/cities/sydney.xml" target="_self">Sydney</a>. Explore vineyards, villages and mist-cloaked forests in Victoria’s <a href="/about/australias-landscapes/wine-regions/yarra-valley.xml" target="_self">Yarra Valley</a>. Take on adventure along the scenic <a href="/explore/cities/brisbane/qld-adventure-on-brisbane-river.xml" target="_self">Brisbane River</a>. Experience life as a drover on a cattle drive along South Australia’s historic <a href="/explore/events/sa-outback-cattle-drive.xml" target="_self">Oodnadatta Track</a>. Head to lush <a href="/explore/states/nt/nt-litchfield-nat-park.xml" target="_self">Litchfield National Park</a> in the Northern Territory or to Western Australia’s <a href="/explore/states/wa/wa-kununurra.xml" target="_self">Kununurra</a> for the huge <a href="/explore/events/wa-ord-valley-muster.xml" target="_self">Ord Valley Muster</a>. White water raft on Tasmania’s wild west coast or fish and camp along the <a href="/explore/states/act/act-murrumbidgee-corridor.xml" target="_self">Murrumbidgee River Corridor</a>, near Canberra. Autumn is also jam-packed with events, from <a href="/explore/australian-events/food-wine-events.xml" target="_self">food and wine festivals</a> to fashion weeks and <a href="/explore/events/vic-australian-grand-prix.xml" target="_self">Melbourne’s Grand Prix</a>.
+    ]]>
+							</txt_Information>
+						</CenterContent>
+						<CenterContent isTemplate="1">
+							<hdl_Title><![CDATA[Discover Australia in Winter]]></hdl_Title>
+							<img_MainImage><![CDATA[<img src="/contentimages/about-australias-landscapes-australias-seasons-winter-hl.jpg" alt="Discover Australia in Winter">]]></img_MainImage>
+							<stf_Caption><![CDATA[Discover Australia in Winter]]></stf_Caption>
+							<anc_link><![CDATA[/about/australias-landscapes/australias-seasons/winter.xml]]></anc_link>
+							<txt_Information>
+                        <![CDATA[
+        Welcome to <a href="/about/australias-landscapes/australias-seasons/winter.xml" target="_self">winter in Australia</a>, which lasts from June to August for most of the country. These months fall in the dry season in our tropical north. You can ski and snowboard down <a href="/explore/states/vic/vic-snow-play.xml" target="_self">Victoria’s powdered slopes</a> or snorkel and dive the balmy waters of Queensland’s Great Barrier Reef. Four wheel drive South Australia’s Simpson Desert or head to the <a href="/explore/icons/blue-mountains.xml" target="_self">Blue Mountains</a> for Christmas festivities.
+        <p>Follow <a href="/explore/states/wa/wa-wildflowers.xml" target="_self">Western Australia’s wildflower trail</a> or embrace the Northern Territory’s unique festival culture. Snuggle next to a roaring fire at <a href="/explore/cities/canberra/act-fireside-festival.xml" target="_self">Canberra’s Fireside Festival</a> or celebrate the winter solstice in Hobart’s cobblestone streets. Winter is also a great season to discover our coastline, where you can <a href="/explore/things-to-do/australian-adventure/nat-whalewatching.xml" target="_self">spot migrating whales</a> and <a href="/explore/things-to-do/australian-adventure/nat-diving.xml" target="_self">dive</a> with a dazzling array of marine life.</p>
+    ]]>
+							</txt_Information>
+						</CenterContent>
+						<CenterContent isTemplate="1">
+							<hdl_Title><![CDATA[Discover Australia’s Spring]]></hdl_Title>
+							<img_MainImage><![CDATA[<img src="/contentimages/about-australias-landscapes-australias-season-spring-hl.jpg" alt="Discover Australia’s Spring">]]></img_MainImage>
+							<stf_Caption><![CDATA[Discover Australia’s Spring]]></stf_Caption>
+							<anc_link><![CDATA[/about/australias-landscapes/australias-seasons/spring.xml]]></anc_link>
+							<txt_Information>
+                        <![CDATA[
+        Discover <a href="/about/australias-landscapes/australias-seasons/spring.xml" target="_self">Australia’s spring season</a>, which lasts from September to November for most of the country. In our tropical north, this is the ‘build-up’ or pre-monsoonal season.
+        <p>Watch Melbourne dress up for the nation-stopping Melbourne Cup. Enjoy opera, jazz, blues and sculpture amongst the wineries of the <a href="/explore/states/nsw/hunter-valley.xml" target="_self">Hunter Valley</a>, near Sydney. Combine food, wine, diving and surfing in Western Australia’s <a href="/explore/states/wa/margaret-river.xml" target="_self">Margaret River</a>. Trek through the primeval treetops in Queensland’s World Heritage-listed <a href="/explore/states/qld/qld-spring-daintree-forest.xml" target="_self">Daintree Rainforest</a>. Experience the wildlife and wildflower show on South Australia’s <a href="/explore/icons/kangaroo-island.xml" target="_self">Kangaroo Island</a> or snare a prize barramundi during the Northern Territory’s ‘build-up’. See Canberra come alive with a million spring blooms at <a href="/explore/events/floriade.xml" target="_self">Floriade</a> or follow Tasmania’s blooming gardens to natural and historic attractions. In Australia, spring is also a great season to surf, sea kayak and canoe.</p>
+    ]]>
+							</txt_Information>
+						</CenterContent>
+					</con_CenterContent>
+				</TopCategoryHighlights>
+			</con_Body>
+		</SubPageLayout>
+	</con_Body>
+	<lst_Subpages>
+		<lst_Subpage><![CDATA[<a href="/about/australias-landscapes/australias-seasons/spring.xml">Discover Australia's Spring</a>]]></lst_Subpage>
+		<lst_Subpage><![CDATA[<a href="/about/australias-landscapes/australias-seasons/summer.xml">Discover Australia’s Summer</a>]]></lst_Subpage>
+		<lst_Subpage><![CDATA[<a href="/about/australias-landscapes/australias-seasons/winter.xml">Discover Australia in Winter</a>]]></lst_Subpage>
+		<lst_Subpage><![CDATA[<a href="/about/australias-landscapes/australias-seasons/autumn.xml">See Australia in Autumn</a>]]></lst_Subpage>
+	</lst_Subpages>
+</ConsumerBaseFoundation>

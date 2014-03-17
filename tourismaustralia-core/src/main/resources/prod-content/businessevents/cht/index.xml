@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" ?>
+<BEBaseFoundation pageID="18951" isTemplate="1">
+	<breadcrumb>
+		<element level="1">
+			<headline><![CDATA[首頁]]></headline>
+			<href><![CDATA[/zht/index.xml]]></href>
+		</element>
+		<element level="2">
+			<headline><![CDATA[Business Events]]></headline>
+			<href><![CDATA[/zht/21974.ignore]]></href>
+		</element>
+
+	</breadcrumb>
+	<hdlPageTitle><![CDATA[Business Events]]></hdlPageTitle>
+	<img_background><![CDATA[/contentimages/business-events/explore-states-vic.jpg]]></img_background>
+	<opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+	<opt_not_in_sitemap><![CDATA[No]]></opt_not_in_sitemap>
+	<opt_show_in_navigation><![CDATA[Show]]></opt_show_in_navigation>
+	<stf_MetaKeywords><![CDATA[]]>
+	</stf_MetaKeywords>
+	<stf_meta_keywords><![CDATA[活動場地、活動規劃、澳洲活動、澳洲獎勵旅遊、澳洲 MICE、澳洲商業、會議籌劃人員、大會、會議、澳洲的協會活動、最新消息]]></stf_meta_keywords>
+	<stf_meta_description><![CDATA[尋找在澳洲舉辦商務活動的資訊。 適用於活動規劃者的行程、個案研究、圖片和其他實用工具。]]></stf_meta_description>
+	<stf_NavSubHeader><![CDATA[Sub header test for main page - Peter]]></stf_NavSubHeader>
+	<stf_NavTitle><![CDATA[主頁]]></stf_NavTitle>
+	<stf_PageTitle><![CDATA[主頁]]></stf_PageTitle>
+	<conMainContent>
+		<BELayoutT1 isTemplate="1">
+			<img_HeroTaglineImage><![CDATA[/contentimages/business-events/H1Home-TC.png]]></img_HeroTaglineImage>
+			<stf_bodyHeader><![CDATA[]]>
+			</stf_bodyHeader>
+			<stf_subbodyheader><![CDATA[]]>
+			</stf_subbodyheader>
+			<con_featureContent>
+				<!-- BEHomeMap template - No user content -->
+				<BEHomeStoriesContainer isTemplate="1">
+					<hdl_headline><![CDATA[SUCCESS STORIES]]></hdl_headline>
+					<stf_linkText><![CDATA[這裡有更多成功故事]]></stf_linkText>
+					<stf_Title><![CDATA[成功故事]]></stf_Title>
+					<con_stories>
+						<BEHomeFeaturedOverlayText isTemplate="1">
+							<anc_fullstory><![CDATA[http://bcove.me/ven6e6o4]]></anc_fullstory>
+							<hdl_headline><![CDATA[NT / QLD homepage case study]]></hdl_headline>
+							<img_background><![CDATA[<img src="/contentimages/business-events/Thumb-med-Whitsundays/IND_Hayman_Island_pools.jpg" alt="Uluru" width="316" height="120" />]]></img_background>
+							<img_overlayIcon1><![CDATA[<img src="/contentimages/business-events/iconFlag.png" alt="Flag" />]]></img_overlayIcon1>
+							<img_overlayIcon2><![CDATA[<img src="/contentimages/business-events/iconPax_rdax_17x17.png" alt="Pax" />]]></img_overlayIcon2>
+							<stf_overlayText1><![CDATA[獎勵]]></stf_overlayText1>
+							<stf_overlayText2><![CDATA[42位代表]]></stf_overlayText2>
+							<stf_overlayText3><![CDATA[]]>
+							</stf_overlayText3>
+							<stf_subheader><![CDATA[澳洲奢華之旅]]></stf_subheader>
+							<stf_Title><![CDATA[悉尼、海曼島、塔斯曼尼亞和墨爾本 ]]></stf_Title>
+							<stf_ViewFullStory><![CDATA[閱讀更多]]></stf_ViewFullStory>
+						</BEHomeFeaturedOverlayText>
+						<BEHomeFeaturedOverlayText isTemplate="1">
+							<anc_fullstory><![CDATA[/businessevents/cht/plan-your-event/adelaide-as-a-natural-extension.xml]]></anc_fullstory>
+							<hdl_headline><![CDATA[Featured Overlay List - Home 801]]></hdl_headline>
+							<img_background><![CDATA[<img src="/contentimages/business-events/Thumb-med-Adelaide/AAP_AdelaideCC_dusk.jpg" alt="Adelaide at dusk" width="316" height="120" />]]></img_background>
+							<img_overlayIcon1><![CDATA[<img src="/contentimages/business-events/iconFlag.png" alt="icon" />]]></img_overlayIcon1>
+							<img_overlayIcon2><![CDATA[<img src="/contentimages/business-events/iconPlane.png" alt="icon" />]]></img_overlayIcon2>
+							<stf_overlayText1><![CDATA[獎勵]]></stf_overlayText1>
+							<stf_overlayText2><![CDATA[阿得萊德（Adelaide）和巴羅莎谷（Barossa Valley）]]></stf_overlayText2>
+							<stf_overlayText3><![CDATA[2011 年 2 月]]></stf_overlayText3>
+							<stf_subheader><![CDATA[阿得萊德 – 全新獎勵旅遊地點]]></stf_subheader>
+							<stf_Title><![CDATA[阿得萊德（Adelaide）]]></stf_Title>
+							<stf_ViewFullStory><![CDATA[閱讀更多]]></stf_ViewFullStory>
+						</BEHomeFeaturedOverlayText>
+					</con_stories>
+				</BEHomeStoriesContainer>
+			</con_featureContent>
+			<con_carousel>
+				<BEHomeCarousel isTemplate="1">
+					<img_CarouselItem><![CDATA[/contentimages/business-events/Hero-homepage/TABE_111108-TABE-Harbour-DCC77B.jpg]]></img_CarouselItem>
+					<stf_CarouselItemLinkText><![CDATA[在悉尼海港（Sydney Harbour）航海]]></stf_CarouselItemLinkText>
+					<stf_ScrollerLabel><![CDATA[嘗試一下]]></stf_ScrollerLabel>
+					<anc_CarouselItemLink><![CDATA[/businessevents/cht/where-to-go/sydney.xml]]></anc_CarouselItemLink>
+				</BEHomeCarousel>
+				<BEHomeCarousel isTemplate="1">
+					<img_CarouselItem><![CDATA[/contentimages/business-events/Hero-homepage/TABE_106029_Kangaroo_experience_Rev.jpg]]></img_CarouselItem>
+					<stf_CarouselItemLinkText><![CDATA[遇見袋鼠]]></stf_CarouselItemLinkText>
+					<stf_ScrollerLabel><![CDATA[您可以]]></stf_ScrollerLabel>
+					<anc_CarouselItemLink><![CDATA[/businessevents/cht/why-australia.xml]]></anc_CarouselItemLink>
+				</BEHomeCarousel>
+				<BEHomeCarousel isTemplate="1">
+					<img_CarouselItem><![CDATA[/contentimages/business-events/Hero-homepage/TABE_103816_Sydney_NYE_fireworks.jpg]]></img_CarouselItem>
+					<stf_CarouselItemLinkText><![CDATA[悉尼海港（Sydney Harbour）除夕夜]]></stf_CarouselItemLinkText>
+					<stf_ScrollerLabel><![CDATA[全城驚喜！]]></stf_ScrollerLabel>
+					<anc_CarouselItemLink><![CDATA[/businessevents/cht/where-to-go/sydney.xml]]></anc_CarouselItemLink>
+				</BEHomeCarousel>
+			</con_carousel>
+
+		</BELayoutT1>
+	</conMainContent>
+	<lstNavigation>
+		<url><![CDATA[<a href="/businessevents/cht/businesseventssearch.xml">BE search using BE foundation</a>]]></url>
+		<url><![CDATA[<a href="/businessevents/cht/where-to-go.xml">Where to go</a>]]></url>
+		<url><![CDATA[<a href="/businessevents/cht/plan-your-event.xml">Plan your event</a>]]></url>
+		<url><![CDATA[<a href="/businessevents/cht/why-australia.xml">Why Australia</a>]]></url>
+		<url><![CDATA[<a href="/businessevents/cht/associations.xml">Associations</a>]]></url>
+		<url><![CDATA[<a href="/businessevents/cht/how-we-can-help.xml">How we can help</a>]]></url>
+		<url><![CDATA[<a href="/businessevents/cht/sitemap.xml">Sitemap</a>]]></url>
+	</lstNavigation>
+</BEBaseFoundation>

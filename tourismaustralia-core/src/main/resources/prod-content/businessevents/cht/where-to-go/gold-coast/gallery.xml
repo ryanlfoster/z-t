@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" ?>
+<BEBaseFoundation pageID="20368" isTemplate="1">
+	<breadcrumb>
+		<element level="1">
+			<headline><![CDATA[首頁]]></headline>
+			<href><![CDATA[/zht/index.xml]]></href>
+		</element>
+		<element level="2">
+			<headline><![CDATA[Business Events]]></headline>
+			<href><![CDATA[/zht/21974.ignore]]></href>
+		</element>
+		<element level="4">
+			<headline><![CDATA[Where to go]]></headline>
+			<href><![CDATA[/businessevents/cht/where-to-go.xml]]></href>
+		</element>
+		<element level="5">
+			<headline><![CDATA[Gold Coast]]></headline>
+			<href><![CDATA[/businessevents/cht/where-to-go/gold-coast.xml]]></href>
+		</element>
+		<element level="6">
+			<headline><![CDATA[Gallery]]></headline>
+			<href><![CDATA[/businessevents/cht/where-to-go/gold-coast/gallery.xml]]></href>
+		</element>
+
+	</breadcrumb>
+	<hdlPageTitle><![CDATA[Gallery]]></hdlPageTitle>
+	<img_background><![CDATA[]]>
+	</img_background>
+	<opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+	<opt_not_in_sitemap><![CDATA[No]]></opt_not_in_sitemap>
+	<opt_show_in_navigation><![CDATA[Show]]></opt_show_in_navigation>
+	<stf_MetaKeywords><![CDATA[]]>
+	</stf_MetaKeywords>
+	<stf_meta_keywords><![CDATA[行程、相片、飯店、活動、個案研究、場地、新活動、黃金海岸（Gold Coast）]]></stf_meta_keywords>
+	<stf_meta_description><![CDATA[尋找在黃金海舉辦商務活動的資訊。 適用於活動規劃者的行程、個案研究、圖片和其他實用工具。]]></stf_meta_description>
+	<stf_NavSubHeader><![CDATA[]]>
+	</stf_NavSubHeader>
+	<stf_NavTitle><![CDATA[相簿]]></stf_NavTitle>
+	<stf_PageTitle><![CDATA[黃金海岸 - 相簿]]></stf_PageTitle>
+	<conMainContent>
+		<BELayoutT6 isTemplate="1">
+			<stf_Header><![CDATA[黃金海岸]]></stf_Header>
+			<con_sidebar>
+				<BEGallerySidebarDynamicLinks
+					isTemplate="1">
+					<stf_Header><![CDATA[圖片類別]]></stf_Header>
+					<stf_SubHeader><![CDATA[目的地]]></stf_SubHeader>
+					<dyn_ancs>
+						<dyn_anc><![CDATA[<a href="/businessevents/cht/where-to-go/adelaide/gallery.xml" target="_self">阿得萊德</a>]]></dyn_anc>
+						<dyn_anc><![CDATA[<a href="/businessevents/cht/where-to-go/perth/gallery.xml" target="_self">柏斯</a>]]></dyn_anc>
+						<dyn_anc><![CDATA[<a href="/businessevents/cht/where-to-go/brisbane/gallery.xml" target="_self">布里斯本</a>]]></dyn_anc>
+						<dyn_anc><![CDATA[<a href="/businessevents/cht/where-to-go/sunshine-coast/gallery.xml" target="_self">陽光海岸</a>]]></dyn_anc>
+						<dyn_anc><![CDATA[<a href="/businessevents/cht/where-to-go/cairns/gallery.xml" target="_self">凱恩斯</a>]]></dyn_anc>
+						<dyn_anc><![CDATA[<a href="/businessevents/cht/where-to-go/sydney/gallery.xml" target="_self">悉尼</a>]]></dyn_anc>
+						<dyn_anc><![CDATA[<a href="/businessevents/cht/where-to-go/canberra/gallery.xml" target="_self">坎培拉</a>]]></dyn_anc>
+						<dyn_anc><![CDATA[<a href="/businessevents/cht/where-to-go/tasmania/gallery.xml" target="_self">塔斯曼尼亞</a>]]></dyn_anc>
+						<dyn_anc><![CDATA[<a href="/businessevents/cht/where-to-go/gold-coast/gallery.xml" target="_self">黃金海岸</a>]]></dyn_anc>
+						<dyn_anc><![CDATA[<a href="/businessevents/cht/where-to-go/townsville/gallery.xml" target="_self">湯斯維爾</a>]]></dyn_anc>
+						<dyn_anc><![CDATA[<a href="/businessevents/cht/where-to-go/melbourne/gallery.xml" target="_self">墨爾本</a>]]></dyn_anc>
+						<dyn_anc><![CDATA[<a href="/businessevents/cht/where-to-go/whitsundays/gallery.xml" target="_self">降靈島</a>]]></dyn_anc>
+						<dyn_anc><![CDATA[<a href="/businessevents/cht/where-to-go/northern-territory/gallery.xml" target="_self">北領地</a>]]></dyn_anc>
+					</dyn_ancs>
+				</BEGallerySidebarDynamicLinks>
+				<BEGallerySidebarDynamicLinks
+					isTemplate="1">
+					<stf_Header><![CDATA[]]>
+					</stf_Header>
+					<stf_SubHeader><![CDATA[體驗]]></stf_SubHeader>
+					<dyn_ancs>
+						<dyn_anc><![CDATA[<a href="/businessevents/cht/why-australia/gallery/dining-gallery.xml" target="_self">用餐</a>]]></dyn_anc>
+						<dyn_anc><![CDATA[<a href="/businessevents/cht/why-australia/gallery/team-building-gallery.xml" target="_self">團隊活動</a>]]></dyn_anc>
+						<dyn_anc><![CDATA[<a href="/businessevents/cht/why-australia/gallery/venues-gallery.xml" target="_self">場地</a>]]></dyn_anc>
+						<dyn_anc><![CDATA[<a href="/businessevents/cht/why-australia/gallery/events-gallery.xml" target="_self">活動</a>]]></dyn_anc>
+					</dyn_ancs>
+				</BEGallerySidebarDynamicLinks>
+			</con_sidebar>
+			<con_gallery>
+				<BEGallerygallery isTemplate="1">
+					<lst_images>
+						<lst_image>
+							<url>/businessevents/cht/why-australia/20024.xml</url>
+							<img_photo><![CDATA[/contentimages/business-events/Light-box-GoldCoast/CVB_GCT-0270_Gday.jpg]]></img_photo>
+							<stf_title><![CDATA[歡迎來到黃金海岸]]></stf_title>
+							<img_thumbnail><![CDATA[/contentimages/business-events/Thumb-sml-GoldCoast/CVB_GCT-0270_Gday.jpg]]></img_thumbnail>
+							<img_NewTab><![CDATA[]]>
+							</img_NewTab>
+							<img_NewTabRight><![CDATA[]]>
+							</img_NewTabRight>
+						</lst_image>
+						<lst_image>
+							<url>/businessevents/cht/why-australia/20023.xml</url>
+							<img_photo><![CDATA[/contentimages/business-events/Light-box-GoldCoast/CVB_GCT_Learn_to_Surf.jpg]]></img_photo>
+							<stf_title><![CDATA[學習滑浪，黃金海岸]]></stf_title>
+							<img_thumbnail><![CDATA[/contentimages/business-events/Thumb-sml-GoldCoast/CVB_GCT_Learn_to_Surf.jpg]]></img_thumbnail>
+							<img_NewTab><![CDATA[]]>
+							</img_NewTab>
+							<img_NewTabRight><![CDATA[]]>
+							</img_NewTabRight>
+						</lst_image>
+						<lst_image>
+							<url>/businessevents/cht/why-australia/20028.xml</url>
+							<img_photo><![CDATA[/contentimages/business-events/Light-box-Brisbane/STO_TQ_103012_Mount_Tamborine.jpg]]></img_photo>
+							<stf_title><![CDATA[丹百林山，黃金海岸腹地（Gold Coast Hinterland）]]></stf_title>
+							<img_thumbnail><![CDATA[/contentimages/business-events/Thumb-sml-GoldCoast/STO_TQ_103012_Mount_Tamborine.jpg]]></img_thumbnail>
+							<img_NewTab><![CDATA[]]>
+							</img_NewTab>
+							<img_NewTabRight><![CDATA[]]>
+							</img_NewTabRight>
+						</lst_image>
+						<lst_image>
+							<url>/businessevents/cht/why-australia/20030.xml</url>
+							<img_photo><![CDATA[/contentimages/business-events/Light-box-GoldCoast/AAP_GCCEC_daytime.jpg]]></img_photo>
+							<stf_title><![CDATA[黃金海岸會展中心（Gold Coast Convention and Exhibition Centre）]]></stf_title>
+							<img_thumbnail><![CDATA[/contentimages/business-events/Thumb-sml-GoldCoast/AAP_GCCEC_daytime.jpg]]></img_thumbnail>
+							<img_NewTab><![CDATA[]]>
+							</img_NewTab>
+							<img_NewTabRight><![CDATA[]]>
+							</img_NewTabRight>
+						</lst_image>
+						<lst_image>
+							<url>/businessevents/cht/why-australia/20029.xml</url>
+							<img_photo><![CDATA[/contentimages/business-events/Light-box-GoldCoast/STO_TQ_107437_SeaWorld_dolphins.jpg]]></img_photo>
+							<stf_title><![CDATA[到海洋世界餵海豚，黃金海岸]]></stf_title>
+							<img_thumbnail><![CDATA[/contentimages/business-events/Thumb-sml-GoldCoast/STO_TQ_107437_SeaWorld_dolphins.jpg]]></img_thumbnail>
+							<img_NewTab><![CDATA[]]>
+							</img_NewTab>
+							<img_NewTabRight><![CDATA[]]>
+							</img_NewTabRight>
+						</lst_image>
+						<lst_image>
+							<url>/businessevents/cht/why-australia/20025.xml</url>
+							<img_photo><![CDATA[/contentimages/business-events/Light-box-GoldCoast/STO_TQ_105798_barrel.jpg]]></img_photo>
+							<stf_title><![CDATA[黃金海岸滑浪]]></stf_title>
+							<img_thumbnail><![CDATA[/contentimages/business-events/Thumb-sml-GoldCoast/STO_TQ_105798_barrel.jpg]]></img_thumbnail>
+							<img_NewTab><![CDATA[]]>
+							</img_NewTab>
+							<img_NewTabRight><![CDATA[]]>
+							</img_NewTabRight>
+						</lst_image>
+						<lst_image>
+							<url>/businessevents/cht/why-australia/20031.xml</url>
+							<img_photo><![CDATA[/contentimages/business-events/Light-box-GoldCoast/CVB_GCT-2704_Jetboat.jpg]]></img_photo>
+							<stf_title><![CDATA[黃金海岸快艇活動]]></stf_title>
+							<img_thumbnail><![CDATA[/contentimages/business-events/Thumb-sml-GoldCoast/CVB_GCT-2704_Jetboat.jpg]]></img_thumbnail>
+							<img_NewTab><![CDATA[]]>
+							</img_NewTab>
+							<img_NewTabRight><![CDATA[]]>
+							</img_NewTabRight>
+						</lst_image>
+						<lst_image>
+							<url>/businessevents/cht/why-australia/20027.xml</url>
+							<img_photo><![CDATA[/contentimages/business-events/Light-box-GoldCoast/TABE_005RET_GC_skyline.jpg]]></img_photo>
+							<stf_title><![CDATA[黃金海岸天際線]]></stf_title>
+							<img_thumbnail><![CDATA[/contentimages/business-events/Thumb-sml-GoldCoast/TABE_005RET_GC_skyline.jpg]]></img_thumbnail>
+							<img_NewTab><![CDATA[]]>
+							</img_NewTab>
+							<img_NewTabRight><![CDATA[]]>
+							</img_NewTabRight>
+						</lst_image>
+						<lst_image>
+							<url>/businessevents/cht/why-australia/20026.xml</url>
+							<img_photo><![CDATA[/contentimages/business-events/Light-box-GoldCoast/STO_TQ_030692_Surfers_Paradise.jpg]]></img_photo>
+							<stf_title><![CDATA[日出時的黃金海岸滑浪者天堂（Surfers Paradise）]]></stf_title>
+							<img_thumbnail><![CDATA[/contentimages/business-events/Thumb-sml-GoldCoast/STO_TQ_030692_Surfers_Paradise.jpg]]></img_thumbnail>
+							<img_NewTab><![CDATA[]]>
+							</img_NewTab>
+							<img_NewTabRight><![CDATA[]]>
+							</img_NewTabRight>
+						</lst_image>
+						<lst_image>
+							<url>/businessevents/cht/why-australia/20021.xml</url>
+							<img_photo><![CDATA[/contentimages/business-events/Light-box-GoldCoast/TABE_105014_GC_golf_course.jpg]]></img_photo>
+							<stf_title><![CDATA[在黃金海岸打高爾夫]]></stf_title>
+							<img_thumbnail><![CDATA[/contentimages/business-events/Thumb-sml-GoldCoast/TABE_105014_GC_golf_course.jpg]]></img_thumbnail>
+							<img_NewTab><![CDATA[]]>
+							</img_NewTab>
+							<img_NewTabRight><![CDATA[]]>
+							</img_NewTabRight>
+						</lst_image>
+						<lst_image>
+							<url>/businessevents/cht/why-australia/20022.xml</url>
+							<img_photo><![CDATA[/contentimages/business-events/Light-box-GoldCoast/STO_TQ_107035_GC_ballooning.jpg]]></img_photo>
+							<stf_title><![CDATA[黃金海岸熱氣球]]></stf_title>
+							<img_thumbnail><![CDATA[/contentimages/business-events/Thumb-sml-GoldCoast/STO_TQ_107035_GC_ballooning.jpg]]></img_thumbnail>
+							<img_NewTab><![CDATA[]]>
+							</img_NewTab>
+							<img_NewTabRight><![CDATA[]]>
+							</img_NewTabRight>
+						</lst_image>
+						<lst_image>
+							<url>/businessevents/cht/why-australia/19486.xml</url>
+							<img_photo><![CDATA[/contentimages/business-events/Light-box-GoldCoast/STO_TQ_005036_Broadbeach.jpg]]></img_photo>
+							<stf_title><![CDATA[寬闊海灘，黃金海岸]]></stf_title>
+							<img_thumbnail><![CDATA[/contentimages/business-events/Thumb-sml-GoldCoast/STO_TQ_005036_Broadbeach.jpg]]></img_thumbnail>
+							<img_NewTab><![CDATA[]]>
+							</img_NewTab>
+							<img_NewTabRight><![CDATA[]]>
+							</img_NewTabRight>
+						</lst_image>
+					</lst_images>
+				</BEGallerygallery>
+			</con_gallery>
+		</BELayoutT6>
+	</conMainContent>
+	<lstNavigation>
+	</lstNavigation>
+</BEBaseFoundation>

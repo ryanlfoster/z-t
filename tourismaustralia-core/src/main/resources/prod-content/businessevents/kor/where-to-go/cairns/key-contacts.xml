@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" ?>
+<BEBaseFoundation pageID="20339" isTemplate="1">
+	<breadcrumb>
+		<element level="1">
+			<headline><![CDATA[홈]]></headline>
+			<href><![CDATA[/ko/index.xml]]></href>
+		</element>
+		<element level="2">
+			<headline><![CDATA[Business Events]]></headline>
+			<href><![CDATA[/ko/21974.ignore]]></href>
+		</element>
+		<element level="4">
+			<headline><![CDATA[Where to go]]></headline>
+			<href><![CDATA[/businessevents/kor/where-to-go.xml]]></href>
+		</element>
+		<element level="5">
+			<headline><![CDATA[Cairns]]></headline>
+			<href><![CDATA[/businessevents/kor/where-to-go/cairns.xml]]></href>
+		</element>
+		<element level="6">
+			<headline><![CDATA[Key Contacts]]></headline>
+			<href><![CDATA[/businessevents/kor/where-to-go/cairns/key-contacts.xml]]></href>
+		</element>
+
+	</breadcrumb>
+	<hdlPageTitle><![CDATA[Key Contacts]]></hdlPageTitle>
+	<img_background><![CDATA[]]>
+	</img_background>
+	<opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+	<opt_not_in_sitemap><![CDATA[No]]></opt_not_in_sitemap>
+	<opt_show_in_navigation><![CDATA[Show]]></opt_show_in_navigation>
+	<stf_MetaKeywords><![CDATA[]]>
+	</stf_MetaKeywords>
+	<stf_meta_keywords><![CDATA[여행 일정, 사진, 호텔, 행사, 사례 연구, 행사장, 이벤트, 케언즈]]></stf_meta_keywords>
+	<stf_meta_description><![CDATA[비즈니스 행사 개최를 위한 케언즈 정보를 찾아보세요. 행사 계획에 필요한 여행 일정, 사례 연구, 이미지 및 기타 유용한 툴도 참고하세요.]]></stf_meta_description>
+	<stf_NavSubHeader><![CDATA[]]>
+	</stf_NavSubHeader>
+	<stf_NavTitle><![CDATA[주요 연락처]]></stf_NavTitle>
+	<stf_PageTitle><![CDATA[케언즈 – 주요 연락처]]></stf_PageTitle>
+	<conMainContent>
+		<BELayoutT8 isTemplate="1">
+			<hdl_headline><![CDATA[Key Contacts ]]></hdl_headline>
+			<stf_Title><![CDATA[케언즈 주요 연락처]]></stf_Title>
+			<opt_display_content_full_width><![CDATA[]]>
+			</opt_display_content_full_width>
+			<con_sidebar>
+
+			</con_sidebar>
+			<con_content>
+				<BEGenericHeaderAndConentBody
+					isTemplate="1">
+					<hdl_headline><![CDATA[Generic - Header and Content Body 2628]]></hdl_headline>
+					<img_DateIcon><![CDATA[]]>
+					</img_DateIcon>
+					<img_DestinationIcon><![CDATA[]]>
+					</img_DestinationIcon>
+					<img_EventTypeIcon><![CDATA[]]>
+					</img_EventTypeIcon>
+					<img_DurationIcon><![CDATA[]]>
+					</img_DurationIcon>
+					<opt_CaseStudy><![CDATA[0]]></opt_CaseStudy>
+					<stf_author><![CDATA[]]>
+					</stf_author>
+					<stf_DateText><![CDATA[]]>
+					</stf_DateText>
+					<stf_DelegatesText><![CDATA[]]>
+					</stf_DelegatesText>
+					<stf_DestinationText><![CDATA[]]>
+					</stf_DestinationText>
+					<stf_EventTypeText><![CDATA[]]>
+					</stf_EventTypeText>
+					<stf_Header><![CDATA[]]>
+					</stf_Header>
+					<stf_quote><![CDATA[]]>
+					</stf_quote>
+					<stf_Title><![CDATA[]]>
+					</stf_Title>
+					<txt_HTML><![CDATA[<strong>Business Events Cairns &amp; Great Barrier Reef <br />
+        </strong>전화: +61 7 4015 1239 <br />
+        팩스: +61 7 4051 0127 <br />
+        이메일: <a href="mailto:rosie.douglas@ttnq.org.au " target="_blank">rosie.douglas@ttnq.org.au <br />
+        </a>홈페이지: <a href="http://businesseventscairns.org.au" target="_blank">businesseventscairns.org.au</a>
+        <p><strong>케언즈 컨벤션 &amp; 전시 센터(Cairns Convention &amp; Exhibition Centre) <br />
+        </strong>전화: +61 7 4042 4200 <br />
+        팩스: +61 7 4052 1152 <br />
+        이메일: <a href="mailto:sales@cairnsconvention.com.au " target="_blank">sales@cairnsconvention.com.au <br />
+        </a>홈페이지: <a href="http://cairnsconvention.com.au" target="_blank">cairnsconvention.com.au</a></p>
+        <p><strong>이벤트 NQ(Events NQ) <br />
+        </strong>전화: +61 7 4053 4577 <br />
+        이메일: <a href="mailto:info@eventsnq.com.au " target="_blank">info@eventsnq.com.au <br />
+        </a>홈페이지: <a href="http://www.eventsnq.com.au" title="eventsnq.com.au" target="_blank">eventsnq.com.au</a></p>
+        <p><strong>오프사이트 커넥션즈(Offsite Connections) <br />
+        </strong>전화: +61 7 4041 2511 <br />
+        이메일: <a href="mailto:info@offsiteconnections.com " target="_blank">info@offsiteconnections.com <br />
+        </a>홈페이지: <a href="http://offsiteconnections.com" target="_blank">offsiteconnections.com</a> </p>]]></txt_HTML>
+				</BEGenericHeaderAndConentBody>
+			</con_content>
+		</BELayoutT8>
+	</conMainContent>
+	<lstNavigation>
+	</lstNavigation>
+</BEBaseFoundation>

@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" ?>
+<BEBaseFoundation pageID="20392" isTemplate="1">
+	<breadcrumb>
+		<element level="1">
+			<headline><![CDATA[홈]]></headline>
+			<href><![CDATA[/ko/index.xml]]></href>
+		</element>
+		<element level="2">
+			<headline><![CDATA[Business Events]]></headline>
+			<href><![CDATA[/ko/21974.ignore]]></href>
+		</element>
+		<element level="4">
+			<headline><![CDATA[Where to go]]></headline>
+			<href><![CDATA[/businessevents/kor/where-to-go.xml]]></href>
+		</element>
+		<element level="5">
+			<headline><![CDATA[Melbourne]]></headline>
+			<href><![CDATA[/businessevents/kor/where-to-go/melbourne.xml]]></href>
+		</element>
+		<element level="6">
+			<headline><![CDATA[Gallery]]></headline>
+			<href><![CDATA[/businessevents/kor/where-to-go/melbourne/gallery.xml]]></href>
+		</element>
+
+	</breadcrumb>
+	<hdlPageTitle><![CDATA[Gallery]]></hdlPageTitle>
+	<img_background><![CDATA[]]>
+	</img_background>
+	<opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+	<opt_not_in_sitemap><![CDATA[No]]></opt_not_in_sitemap>
+	<opt_show_in_navigation><![CDATA[Show]]></opt_show_in_navigation>
+	<stf_MetaKeywords><![CDATA[]]>
+	</stf_MetaKeywords>
+	<stf_meta_keywords><![CDATA[여행 일정, 사진, 호텔, 행사, 사례 연구, 행사장, 이벤트, 멜버른]]></stf_meta_keywords>
+	<stf_meta_description><![CDATA[비즈니스 행사 개최를 위한 멜버른 정보를 찾아보세요. 행사 계획에 필요한 여행 일정, 사례 연구, 이미지 및 기타 유용한 툴도 참고하세요.]]></stf_meta_description>
+	<stf_NavSubHeader><![CDATA[]]>
+	</stf_NavSubHeader>
+	<stf_NavTitle><![CDATA[갤러리]]></stf_NavTitle>
+	<stf_PageTitle><![CDATA[멜버른 - 갤러리]]></stf_PageTitle>
+	<conMainContent>
+		<BELayoutT6 isTemplate="1">
+			<stf_Header><![CDATA[멜번 ]]></stf_Header>
+			<con_sidebar>
+				<BEGallerySidebarDynamicLinks
+					isTemplate="1">
+					<stf_Header><![CDATA[이미지 카테고리]]></stf_Header>
+					<stf_SubHeader><![CDATA[장소]]></stf_SubHeader>
+					<dyn_ancs>
+						<dyn_anc><![CDATA[<a href="/businessevents/kor/where-to-go/adelaide/gallery.xml" target="_self">Adelaide</a>]]></dyn_anc>
+						<dyn_anc><![CDATA[<a href="/businessevents/kor/where-to-go/perth/gallery.xml" target="_self">Perth</a>]]></dyn_anc>
+						<dyn_anc><![CDATA[<a href="/businessevents/kor/where-to-go/brisbane/gallery.xml" target="_self">Brisbane</a>]]></dyn_anc>
+						<dyn_anc><![CDATA[<a href="/businessevents/kor/where-to-go/sunshine-coast/gallery.xml" target="_self">Sunshine Coast</a>]]></dyn_anc>
+						<dyn_anc><![CDATA[<a href="/businessevents/kor/where-to-go/cairns/gallery.xml" target="_self">Cairns</a>]]></dyn_anc>
+						<dyn_anc><![CDATA[<a href="/businessevents/kor/where-to-go/sydney/gallery.xml" target="_self">Sydney</a>]]></dyn_anc>
+						<dyn_anc><![CDATA[<a href="/businessevents/kor/where-to-go/canberra/gallery.xml" target="_self">Canberra</a>]]></dyn_anc>
+						<dyn_anc><![CDATA[<a href="/businessevents/kor/where-to-go/tasmania/gallery.xml" target="_self">Tasmania</a>]]></dyn_anc>
+						<dyn_anc><![CDATA[<a href="/businessevents/kor/where-to-go/gold-coast/gallery.xml" target="_self">Gold Coast</a>]]></dyn_anc>
+						<dyn_anc><![CDATA[<a href="/businessevents/kor/where-to-go/townsville/gallery.xml" target="_self">Townsville</a>]]></dyn_anc>
+						<dyn_anc><![CDATA[<a href="/businessevents/kor/where-to-go/melbourne/gallery.xml" target="_self">Melbourne</a>]]></dyn_anc>
+						<dyn_anc><![CDATA[<a href="/businessevents/kor/where-to-go/whitsundays/gallery.xml" target="_self">Whitsundays</a>]]></dyn_anc>
+						<dyn_anc><![CDATA[<a href="/businessevents/kor/where-to-go/northern-territory/gallery.xml" target="_self">Northern Territory</a>]]></dyn_anc>
+					</dyn_ancs>
+				</BEGallerySidebarDynamicLinks>
+				<BEGallerySidebarDynamicLinks
+					isTemplate="1">
+					<stf_Header><![CDATA[]]>
+					</stf_Header>
+					<stf_SubHeader><![CDATA[체험]]></stf_SubHeader>
+					<dyn_ancs>
+						<dyn_anc><![CDATA[<a href="/businessevents/kor/why-australia/gallery/dining-gallery.xml" target="_self">Dining</a>]]></dyn_anc>
+						<dyn_anc><![CDATA[<a href="/businessevents/kor/why-australia/gallery/team-building-gallery.xml" target="_self">Team Building</a>]]></dyn_anc>
+						<dyn_anc><![CDATA[<a href="/businessevents/kor/why-australia/gallery/venues-gallery.xml" target="_self">Venues</a>]]></dyn_anc>
+						<dyn_anc><![CDATA[<a href="/businessevents/kor/why-australia/gallery/events-gallery.xml" target="_self">Events</a>]]></dyn_anc>
+					</dyn_ancs>
+				</BEGallerySidebarDynamicLinks>
+			</con_sidebar>
+			<con_gallery>
+				<BEGallerygallery isTemplate="1">
+					<lst_images>
+						<lst_image>
+							<url>/businessevents/kor/where-to-go/melbourne/21764.xml</url>
+							<img_photo><![CDATA[/contentimages/business-events/Light-box-Melbourne/CVB_MCVB_Flinders_St_Station.jpg]]></img_photo>
+							<stf_title><![CDATA[멜번 다운타운, 플린더스 스트리트 역]]></stf_title>
+							<img_thumbnail><![CDATA[/contentimages/business-events/Thumb-sml-Melbourne/CVB_MCVB_Flinders_St_Station.jpg]]></img_thumbnail>
+							<img_NewTab><![CDATA[]]>
+							</img_NewTab>
+							<img_NewTabRight><![CDATA[]]>
+							</img_NewTabRight>
+						</lst_image>
+						<lst_image>
+							<url>/businessevents/kor/where-to-go/melbourne/21760.xml</url>
+							<img_photo><![CDATA[/contentimages/business-events/Light-box-Melbourne/STO_TVIC_1069482_Regional_Victoria.jpg]]></img_photo>
+							<stf_title><![CDATA[야라 밸리 상공의 열기구, 빅토리아 외곽]]></stf_title>
+							<img_thumbnail><![CDATA[/contentimages/business-events/Thumb-sml-Melbourne/STO_TVIC_1069482_Regional_Victoria.jpg]]></img_thumbnail>
+							<img_NewTab><![CDATA[]]>
+							</img_NewTab>
+							<img_NewTabRight><![CDATA[]]>
+							</img_NewTabRight>
+						</lst_image>
+						<lst_image>
+							<url>/businessevents/kor/where-to-go/melbourne/21761.xml</url>
+							<img_photo><![CDATA[/contentimages/business-events/Light-box-Melbourne/STO_TVIC_923267_Fed-Square.jpg]]></img_photo>
+							<stf_title><![CDATA[멜번의 '만남의 장소', 페더레이션 광장]]></stf_title>
+							<img_thumbnail><![CDATA[/contentimages/business-events/Thumb-sml-Melbourne/STO_TVIC_923267_Fed-Square.jpg]]></img_thumbnail>
+							<img_NewTab><![CDATA[]]>
+							</img_NewTab>
+							<img_NewTabRight><![CDATA[]]>
+							</img_NewTabRight>
+						</lst_image>
+						<lst_image>
+							<url>/businessevents/kor/where-to-go/melbourne/21765.xml</url>
+							<img_photo><![CDATA[/contentimages/business-events/Light-box-Melbourne/TABE_111554_Melb_Laneways.jpg]]></img_photo>
+							<stf_title><![CDATA[멜번의 유명한 골목길]]></stf_title>
+							<img_thumbnail><![CDATA[/contentimages/business-events/Thumb-sml-Melbourne/TABE_111554_Melb_Laneways.jpg]]></img_thumbnail>
+							<img_NewTab><![CDATA[]]>
+							</img_NewTab>
+							<img_NewTabRight><![CDATA[]]>
+							</img_NewTabRight>
+						</lst_image>
+						<lst_image>
+							<url>/businessevents/kor/where-to-go/melbourne/21766.xml</url>
+							<img_photo><![CDATA[/contentimages/business-events/Light-box-Melbourne/TABE_109531_Great_Ocean_Rd.jpg]]></img_photo>
+							<stf_title><![CDATA[12사도상, 그레이트 오션 로드, 빅토리아]]></stf_title>
+							<img_thumbnail><![CDATA[/contentimages/business-events/Thumb-sml-Melbourne/TABE_109531_Great_Ocean_Rd.jpg]]></img_thumbnail>
+							<img_NewTab><![CDATA[]]>
+							</img_NewTab>
+							<img_NewTabRight><![CDATA[]]>
+							</img_NewTabRight>
+						</lst_image>
+						<lst_image>
+							<url>/businessevents/kor/where-to-go/melbourne/21762.xml</url>
+							<img_photo><![CDATA[/contentimages/business-events/Light-box-Melbourne/TABE_104197_Melbourne.jpg]]></img_photo>
+							<stf_title><![CDATA[야라 강(Yarra River)의 다리, 멜번]]></stf_title>
+							<img_thumbnail><![CDATA[/contentimages/business-events/Thumb-sml-Melbourne/TABE_104197_Melbourne.jpg]]></img_thumbnail>
+							<img_NewTab><![CDATA[]]>
+							</img_NewTab>
+							<img_NewTabRight><![CDATA[]]>
+							</img_NewTabRight>
+						</lst_image>
+						<lst_image>
+							<url>/businessevents/kor/where-to-go/melbourne/21769.xml</url>
+							<img_photo><![CDATA[/contentimages/business-events/Light-box-Melbourne/TABE_105129_StKilda.jpg]]></img_photo>
+							<stf_title><![CDATA[세인트 킬다 비치, 멜번]]></stf_title>
+							<img_thumbnail><![CDATA[/contentimages/business-events/Thumb-sml-Melbourne/TABE_105129_StKilda.jpg]]></img_thumbnail>
+							<img_NewTab><![CDATA[]]>
+							</img_NewTab>
+							<img_NewTabRight><![CDATA[]]>
+							</img_NewTabRight>
+						</lst_image>
+						<lst_image>
+							<url>/businessevents/kor/where-to-go/melbourne/20929.xml</url>
+							<img_photo><![CDATA[/contentimages/business-events/Light-box-Melbourne/AAP_MCEC_foyer.jpg]]></img_photo>
+							<stf_title><![CDATA[멜번 컨벤션 센터 홀]]></stf_title>
+							<img_thumbnail><![CDATA[/contentimages/business-events/Thumb-sml-Melbourne/AAP_MCEC_foyer.jpg]]></img_thumbnail>
+							<img_NewTab><![CDATA[]]>
+							</img_NewTab>
+							<img_NewTabRight><![CDATA[]]>
+							</img_NewTabRight>
+						</lst_image>
+						<lst_image>
+							<url>/businessevents/kor/where-to-go/melbourne/21763.xml</url>
+							<img_photo><![CDATA[/contentimages/business-events/Light-box-Melbourne/TABE_1032365_National_Gallery_of_Vic.jpg]]></img_photo>
+							<stf_title><![CDATA[빅토리아 국립 미술관, 멜번]]></stf_title>
+							<img_thumbnail><![CDATA[/contentimages/business-events/Thumb-sml-Melbourne/TABE_1032365_National_Gallery_of_Vic.jpg]]></img_thumbnail>
+							<img_NewTab><![CDATA[]]>
+							</img_NewTab>
+							<img_NewTabRight><![CDATA[]]>
+							</img_NewTabRight>
+						</lst_image>
+						<lst_image>
+							<url>/businessevents/kor/where-to-go/melbourne/21767.xml</url>
+							<img_photo><![CDATA[/contentimages/business-events/Light-box-Melbourne/STO_TVIC_Daylesford_Lake_House.jpg]]></img_photo>
+							<stf_title><![CDATA[데일즈포드의 레이크 하우스, 빅토리아 외곽]]></stf_title>
+							<img_thumbnail><![CDATA[/contentimages/business-events/Thumb-sml-Melbourne/STO_TVIC_Daylesford_Lake_House.jpg]]></img_thumbnail>
+							<img_NewTab><![CDATA[]]>
+							</img_NewTab>
+							<img_NewTabRight><![CDATA[]]>
+							</img_NewTabRight>
+						</lst_image>
+						<lst_image>
+							<url>/businessevents/kor/where-to-go/melbourne/21770.xml</url>
+							<img_photo><![CDATA[/contentimages/business-events/Light-box-Melbourne/TABE_Fedsq02_Federation-Square.jpg]]></img_photo>
+							<stf_title><![CDATA[페더레이션 광장의 야경, 멜번]]></stf_title>
+							<img_thumbnail><![CDATA[/contentimages/business-events/Thumb-sml-Melbourne/TABE_Fedsq02_Federation-Square.jpg]]></img_thumbnail>
+							<img_NewTab><![CDATA[]]>
+							</img_NewTab>
+							<img_NewTabRight><![CDATA[]]>
+							</img_NewTabRight>
+						</lst_image>
+						<lst_image>
+							<url>/businessevents/kor/where-to-go/melbourne/21768.xml</url>
+							<img_photo><![CDATA[/contentimages/business-events/Light-box-Melbourne/STO_TVIC_Phillip_Island.jpg]]></img_photo>
+							<stf_title><![CDATA[필립 아일랜드의 펭귄, 빅토리아]]></stf_title>
+							<img_thumbnail><![CDATA[/contentimages/business-events/Thumb-sml-Melbourne/STO_TVIC_Phillip_Island.jpg]]></img_thumbnail>
+							<img_NewTab><![CDATA[]]>
+							</img_NewTab>
+							<img_NewTabRight><![CDATA[]]>
+							</img_NewTabRight>
+						</lst_image>
+					</lst_images>
+				</BEGallerygallery>
+			</con_gallery>
+		</BELayoutT6>
+	</conMainContent>
+	<lstNavigation>
+	</lstNavigation>
+</BEBaseFoundation>

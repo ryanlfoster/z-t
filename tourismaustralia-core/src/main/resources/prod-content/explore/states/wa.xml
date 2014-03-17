@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="666" isTemplate="1">
+	<breadcrumb>
+		<element level="1">
+			<headline><![CDATA[Homepage ]]></headline>
+			<href><![CDATA[/index.xml]]></href>
+		</element>
+		<element level="2">
+			<headline><![CDATA[Explore ]]></headline>
+			<href><![CDATA[/explore.xml]]></href>
+		</element>
+		<element level="4">
+			<headline><![CDATA[Western Australia]]></headline>
+			<href><![CDATA[/explore/states/wa.xml]]></href>
+		</element>
+
+	</breadcrumb>
+	<img_background><![CDATA[/contentimages/explore-states-wa.jpg]]></img_background>
+	<hdl_Title><![CDATA[Western Australia]]></hdl_Title>
+	<img_Banner><![CDATA[]]>
+	</img_Banner>
+	<img_SearchThumbnail><![CDATA[/thumbnails/explore-states-wa-search.jpg]]></img_SearchThumbnail>
+	<img_Thumbnail><![CDATA[/contentimages/explore-states-wa-th.jpg]]></img_Thumbnail>
+	<opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+	<opt_HidePage><![CDATA[no]]></opt_HidePage>
+	<opt_hideTitle><![CDATA[0]]></opt_hideTitle>
+	<opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+	<opt_IncludeVideo><![CDATA[0]]></opt_IncludeVideo>
+	<opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+	<opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+	<opt_PageLayout><![CDATA[]]>
+	</opt_PageLayout>
+	<opt_PartnerLead><![CDATA[no]]></opt_PartnerLead>
+	<stf_description><![CDATA[Discover WA. Find holiday information on Perth, Swan River, Freemantle, Coral Coast, Golden Outback, North West and more.]]></stf_description>
+	<stf_ExcludedCountries><![CDATA[]]>
+	</stf_ExcludedCountries>
+	<stf_hideInXmlSitemap><![CDATA[]]>
+	</stf_hideInXmlSitemap>
+	<stf_ImageLocation><![CDATA[Wooleen Station, Australia's Golden Outback, WA. &copy; Tourism Western Australia]]></stf_ImageLocation>
+	<stf_intro_title><![CDATA[]]>
+	</stf_intro_title>
+	<stf_IsExternalSiteArticle><![CDATA[]]>
+	</stf_IsExternalSiteArticle>
+	<stf_IsMobile><![CDATA[y]]></stf_IsMobile>
+	<stf_keywords><![CDATA[WA, Western Australia ]]></stf_keywords>
+	<stf_LinkLearnMore><![CDATA[Learn More]]></stf_LinkLearnMore>
+	<stf_NavigationTagLine><![CDATA[]]>
+	</stf_NavigationTagLine>
+	<stf_PageHeading><![CDATA[]]>
+	</stf_PageHeading>
+	<stf_TargetedCountries><![CDATA[]]>
+	</stf_TargetedCountries>
+	<stf_TrackingTitle><![CDATA[]]>
+	</stf_TrackingTitle>
+	<TA_Title><![CDATA[Holiday In Western Australia]]></TA_Title>
+	<txt_Intro>
+        <![CDATA[]]>
+	</txt_Intro>
+	<txt_MobileContentOnly>
+        <![CDATA[]]>
+	</txt_MobileContentOnly>
+	<txt_SpotlightTag>
+        <![CDATA[]]>
+	</txt_SpotlightTag>
+	<txt_Teaser>
+        <![CDATA[Western Australia is famous for long days of sunshine and diverse landscapes and climates.]]>
+	</txt_Teaser>
+	<con_Body>
+		<SubPageLayout isTemplate="1">
+			<con_Banner>
+
+			</con_Banner>
+			<con_RHSModules>
+				<IntegratedMiniMap isTemplate="1">
+					<!-- no user content -->
+				</IntegratedMiniMap>
+				<TravellersStoryWidget isTemplate="1">
+					<anc_link><![CDATA[/explore/map.aspx?filters=states,experiences&zoom=5&centre=-31.858883,122.516039]]></anc_link>
+					<img_image><![CDATA[/contentimages/states-WA.jpg]]></img_image>
+				</TravellersStoryWidget>
+				<Listing isTemplate="1">
+					<anc_List1><![CDATA[/explore/cities/perth/perth-surrounds.xml]]></anc_List1>
+					<anc_MoreLink><![CDATA[]]>
+					</anc_MoreLink>
+					<hdl_Title><![CDATA[More Australian Ideas]]></hdl_Title>
+					<img_Thumbnail><![CDATA[]]>
+					</img_Thumbnail>
+					<med_File><![CDATA[]]>
+					</med_File>
+					<opt_isNewWindow><![CDATA[]]>
+					</opt_isNewWindow>
+					<stf_externalLink><![CDATA[]]>
+					</stf_externalLink>
+					<stf_ExternalLinkTitle><![CDATA[]]>
+					</stf_ExternalLinkTitle>
+					<stf_IsExternalSiteArticle><![CDATA[]]>
+					</stf_IsExternalSiteArticle>
+					<stf_LinkLearnMore><![CDATA[]]>
+					</stf_LinkLearnMore>
+					<txt_Teaser><![CDATA[]]>
+					</txt_Teaser>
+					<opt_national_landscapes_id><![CDATA[]]>
+					</opt_national_landscapes_id>
+					<stf_hideInXmlSitemap><![CDATA[]]>
+					</stf_hideInXmlSitemap>
+					<stf_TargetedCountry><![CDATA[]]>
+					</stf_TargetedCountry>
+					<con_Banner></con_Banner>
+					<con_Body></con_Body>
+					<con_RHSModules></con_RHSModules>
+					<con_Category></con_Category>
+					<lst_Subpages></lst_Subpages>
+				</Listing>
+				<PlanYourVisit isTemplate="1">
+					<anc_AccommodationSearch><![CDATA[/AccommodationSearch.ignore]]></anc_AccommodationSearch>
+					<anc_ASPSearch><![CDATA[/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+					<anc_Attraction><![CDATA[/AttractionSearchResults.ignore]]></anc_Attraction>
+					<anc_Destinfo><![CDATA[/DestinfoSearchResults.ignore]]></anc_Destinfo>
+					<anc_EventsSearch><![CDATA[/EventsSearch.xml]]></anc_EventsSearch>
+					<anc_GeneralSearch><![CDATA[/GeneralSearch.ignore]]></anc_GeneralSearch>
+					<anc_Hire><![CDATA[/Hire.ignore]]></anc_Hire>
+					<anc_Info><![CDATA[/InfoSearchResults.ignore]]></anc_Info>
+					<anc_More><![CDATA[]]>
+					</anc_More>
+					<anc_RestaurantSearch><![CDATA[/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+					<anc_Tour><![CDATA[/TourSearchResults.ignore]]></anc_Tour>
+					<anc_Transport><![CDATA[/Transport.ignore]]></anc_Transport>
+					<hdl_Title><![CDATA[Plan Your Visit to Western Australia]]></hdl_Title>
+					<language><![CDATA[ENA]]></language>
+					<stf_Accomodation><![CDATA[Accommodation]]></stf_Accomodation>
+					<stf_AreaFilter><![CDATA[]]>
+					</stf_AreaFilter>
+					<stf_Attractions><![CDATA[Attractions]]></stf_Attractions>
+					<stf_AussieSpecialist><![CDATA[Find a travel agent near you]]></stf_AussieSpecialist>
+					<stf_Destinationinfo><![CDATA[Destination Information]]></stf_Destinationinfo>
+					<stf_DomesticRegion><![CDATA[]]>
+					</stf_DomesticRegion>
+					<stf_Events><![CDATA[Events]]></stf_Events>
+					<stf_Hire><![CDATA[Hire]]></stf_Hire>
+					<stf_Informationservices><![CDATA[Information Services]]></stf_Informationservices>
+					<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+					<stf_StateFilter><![CDATA[Western Australia]]></stf_StateFilter>
+					<stf_Tours><![CDATA[Tours]]></stf_Tours>
+					<stf_Transport><![CDATA[Transport]]></stf_Transport>
+				</PlanYourVisit>
+				<MoreInformation isTemplate="1">
+					<hdl_Title><![CDATA[More information on Western Australia]]></hdl_Title>
+					<anc_Link><![CDATA[]]>
+					</anc_Link>
+					<anc_MoreLink><![CDATA[]]>
+					</anc_MoreLink>
+					<img_Content><![CDATA[<img src="/contentimages/more_info_wa_thumb.jpg" border="0" align="left" class="imgLeft">]]></img_Content>
+					<stf_LinkTitle><![CDATA[]]>
+					</stf_LinkTitle>
+					<stf_MoreLink><![CDATA[http://www.westernaustralia.com ]]></stf_MoreLink>
+					<stf_MoreLinkText><![CDATA[More...]]></stf_MoreLinkText>
+					<stf_Teaser><![CDATA[Find out more on the Tourism Western Australia website.]]></stf_Teaser>
+				</MoreInformation>
+			</con_RHSModules>
+			<con_Video>
+
+			</con_Video>
+			<con_Body>
+				<TopCategoryHighlights isTemplate="1">
+					<stf_Heading><![CDATA[Western Australia]]></stf_Heading>
+					<stf_InformationTitle><![CDATA[]]>
+					</stf_InformationTitle>
+					<txt_Information><![CDATA[
+        Western Australia is famous for long days of sunshine and diverse landscapes and climates. Cruise down Perth’s Swan River to Fremantle or the Swan Valley vineyards. Or visit wineries fringed by tall forests and crashing surf in the Margaret River. Dive with the huge whale shark on Ningaloo Reef and feed wild bottlenose dolphins at Monkey Mia. Ride a camel down Broome’s Cable Beach at sunset and four wheel drive along the remote, beautiful Dampier Peninusla. Fly over the Bungle Bungle ranges and boat down huge, man-made Lake Argyle in Kununurra. Get gold rush fever in Kalgoorlie or swim from the snow-white beaches of Esperance.  Don’t miss Western Australia’s huge spaces and unique natural beauty.
+        <br />
+        <br />
+    ]]></txt_Information>
+					<con_CenterContent>
+						<CenterContent isTemplate="1">
+							<hdl_Title><![CDATA[Perth]]></hdl_Title>
+							<img_MainImage><![CDATA[<img src="/contentimages/explore-cities-perth-hl.jpg" alt="Perth, WA">]]></img_MainImage>
+							<stf_Caption><![CDATA[Perth, WA]]></stf_Caption>
+							<anc_link><![CDATA[/explore/cities/perth.xml]]></anc_link>
+							<txt_Information>
+                        <![CDATA[
+        You’ll love Australia’s westernmost capital city, which sits on the Swan River, framed by Indian Ocean beaches and Swan Valley vineyards. Get a quick overview of Perth alongside snapshots of other Australian cities. Find out more about the places to visit in the city and surrounds. From lush Kings Park and the uncrowded beaches to the charming port of Fremantle and nearby Rottnest Island, Perth has it all. Our three-day itinerary offers ideas of what you can fit in to your Perth holiday.
+    ]]>
+							</txt_Information>
+						</CenterContent>
+						<CenterContent isTemplate="1">
+							<hdl_Title><![CDATA[Perth and surrounds]]></hdl_Title>
+							<img_MainImage><![CDATA[<img src="/contentimages/explore-cities-perth-perth-hl.jpg" alt="Perth, WA">]]></img_MainImage>
+							<stf_Caption><![CDATA[Perth, WA]]></stf_Caption>
+							<anc_link><![CDATA[/explore/cities/perth/perth-surrounds.xml]]></anc_link>
+							<txt_Information>
+                        <![CDATA[
+        Cruise the Swan River past parks and skyscrapers to 40 vineyards in the <a href="/explore/states/wa/swan-valley.xml" target="_self">Swan Valley</a> or the Perth Zoo. Visit Rottnest Island, where you can explore history, bike ride to secret beaches and kayak to secluded bays. Feast on seafood and soak up the carnival atmosphere in historic <a href="/explore/cities/perth/wa-fremantle.xml" target="_self">Fremantle</a>. Discover the lookouts, landscaped gardens and Aboriginal heritage of huge Kings Park. Swim, surf, fish, windsurf and sail on clean and uncrowded beaches such as Cottlesloe or Scarborough. Then skip between the sunny boardwalks, beaches and marinas of the Sunset Coast.
+    ]]>
+							</txt_Information>
+						</CenterContent>
+						<CenterContent isTemplate="1">
+							<hdl_Title><![CDATA[Coral Coast]]></hdl_Title>
+							<img_MainImage><![CDATA[<img src="/contentimages/4.1.5.2_highlight.jpg" alt="Ningaloo Reef, WA">]]></img_MainImage>
+							<stf_Caption><![CDATA[Ningaloo Reef, WA]]></stf_Caption>
+							<anc_link><![CDATA[]]>
+							</anc_link>
+							<txt_Information>
+                        <![CDATA[
+        This coastal paradise stretches from Cervantes and the moonscape <a href="/explore/states/wa/wa-pinnacles-nambung-national-park.xml" target="_self">Pinnacles Desert</a> in the south to <a href="/explore/itineraries/wa-indian-ocean-drive.xml" target="_self">Exmouth</a> and <a href="/explore/icons/ningaloo.xml" target="_self">Ningaloo Reef</a> in the north.  Bushwalk past gorges, cliffs, winding river and white beaches in Kalbarri National Park. Four wheel drive in Cape Range National Park, where spectacular gorges, carved by ancient rivers, meet Ningaloo’s coral reefs, clear blue seas and sandy beaches. Swim with the docile whale sharks, the world’s largest fish, at Ningaloo Reef between April and June.  In the Shark Bay World Heritage Area you can feed wild bottlenose dolphins at Monkey Mia and get up close to sea lions, manta rays, dugongs and humpback whales. 
+    ]]>
+							</txt_Information>
+						</CenterContent>
+						<CenterContent isTemplate="1">
+							<hdl_Title><![CDATA[Golden Outback]]></hdl_Title>
+							<img_MainImage><![CDATA[<img src="/contentimages/4.1.5.3_highlight.jpg" alt="Gascoyne Murchison outback, WA">]]></img_MainImage>
+							<stf_Caption><![CDATA[Gascoyne Murchison, WA]]></stf_Caption>
+							<anc_link><![CDATA[]]>
+							</anc_link>
+							<txt_Information>
+                        <![CDATA[
+        Tackle adventure on the rich red earth of the Gascoyne Murchison outback. Discover the national parks and snow-white beaches of Esperance and the South Coast.  See the rugged outback come alive with the colour of <a href="/explore/states/wa/wa-wildflowers.xml" target="_self">wildflowers</a> in winter and early spring. Learn about the Aboriginal history of Mount Augustus and the Kennedy Range. Escape to the Wheatbelt’s small, friendly towns and geological wonders such as Wave Rock. Head to <a href="/explore/states/wa/wa-kalgoorlie.xml" target="_self">Kalgoorlie</a> and the goldfields for goldrush history and unique flora and fauna.  From the sparkling Southern Ocean to Western Australia’s red outback heart, you won’t forget these diverse and theatrical landscapes.
+    ]]>
+							</txt_Information>
+						</CenterContent>
+						<CenterContent isTemplate="1">
+							<hdl_Title><![CDATA[North West]]></hdl_Title>
+							<img_MainImage><![CDATA[<img src="/contentimages/4.1.5.4_highlight.jpg" alt="Cable Beach, WA">]]></img_MainImage>
+							<stf_Caption><![CDATA[Cable Beach, WA]]></stf_Caption>
+							<anc_link><![CDATA[]]>
+							</anc_link>
+							<txt_Information>
+                        <![CDATA[
+        Ride a camel on Broome’s breathtaking <a href="/explore/cities/broome/wa-cable-beach.xml" target="_self">Cable Beach</a> and see dinosaur footprints preserved in rock. Four wheel drive the red-dirt road <a href="/explore/itineraries/wa-3days-broome.xml" target="_self">from Broome along the Dampier Peninsula</a>, where you can stay in an Aboriginal wilderness camp and see the church with a mother-of-pearl altar.  Further north in Derby, watch the sun set over the King Sound and fly over the Horizontal Waterfalls on the islands of Buccaneer Archipelago.  From <a href="/explore/states/wa/wa-kununurra.xml" target="_self">Kununurra</a>, you can explore the beehive-shaped domes of the <a href="http://www.australia.com/campaigns/nothinglike/au/bungle-bungles.htm" target="_blank">Bungle Bungle Range</a> and boat down the Ord River and vast Lake Argyle. Get up close to a huge treasure trove of ancient Aboriginal rock on the Burrup Peninsula, near Dampier. Further south, don’t miss the spectacular red gorges, waterfalls and emerald swimming holes of <a href="/explore/states/wa/wa-karijini-national-park.xml" target="_self">Karijini National Park</a>.
+    ]]>
+							</txt_Information>
+						</CenterContent>
+						<CenterContent isTemplate="1">
+							<hdl_Title><![CDATA[South West]]></hdl_Title>
+							<img_MainImage><![CDATA[<img src="/contentimages/4.1.5.5_highlight.jpg" alt="Margaret River, WA">]]></img_MainImage>
+							<stf_Caption><![CDATA[Margaret River, WA]]></stf_Caption>
+							<anc_link><![CDATA[]]>
+							</anc_link>
+							<txt_Information>
+                        <![CDATA[
+        Dive the Southern Hemisphere’s largest accessible dive wreck – the HMAS Swan – from <a href="/explore/itineraries/wa-south-west-beaches-goldfields.xml" target="_self">Dunsborough</a>. Visit world-class wineries, swim in the crystal-clear waters of Bunker and ride the waves of Surfers Point in the lush <a href="/explore/states/wa/wa-margaret-river.xml" target="_self">Margaret River region</a>.  Here you can canoe through sun-speckled woodlands and relax on 75 spellbinding beaches.  See fossils in Mammoth Caves, mirrored underwater lakes in Lake Cave and straw stalactites in Jewel Cave.  Follow a fairytale drive through towering karri forests to Hamelin Bay, where you can snorkel with stingrays and walk the idyllic sands of Boranup Beach. Visit romantic Augusta, where lighthouse-tipped Cape Leeuwin parts the Indian and Southern Oceans. Swim with dolphins in Mandurah and Bunbury and <a href="/explore/things-to-do/australian-adventure/nat-whalewatching.xml" target="_self">spot whales</a> from the towns of Augusta, <a href="/explore/cities/regional-cities/wa-albany.xml" target="_self">Albany</a> and Dunsborough from June to October.
+    ]]>
+							</txt_Information>
+						</CenterContent>
+						<CenterContent isTemplate="1">
+							<hdl_Title><![CDATA[Pink Lake]]></hdl_Title>
+							<img_MainImage><![CDATA[<img src="/contentimages/explore-states-wa-pink-lake-hl.jpg" alt="Pink Lake, WA">]]></img_MainImage>
+							<stf_Caption><![CDATA[Pink Lake, WA]]></stf_Caption>
+							<anc_link><![CDATA[/explore/states/wa/pink-lake.xml]]></anc_link>
+							<txt_Information>
+                        <![CDATA[
+        Western Australia is home to a number of extraordinary ‘pink lakes’. Lake Hillier is a pink-coloured lake on Middle Island, the largest of the islands that make up the Recherche Archipelago off the coast of Esperance.
+        <p>From above the lake appears a solid bubble gum pink. The lake is about 600 meters long, and is surrounded by a rim of sand and dense woodland of paperbark and eucalyptus trees. A narrow strip of sand dunes covered by vegetation separates it from the blue Southern Ocean.</p>
+    ]]>
+							</txt_Information>
+						</CenterContent>
+					</con_CenterContent>
+				</TopCategoryHighlights>
+			</con_Body>
+		</SubPageLayout>
+	</con_Body>
+	<lst_Subpages>
+		<lst_Subpage><![CDATA[<a href="/explore/states/wa/pink-lake.xml">Pink Lake, Western Australia</a>]]></lst_Subpage>
+		<lst_Subpage><![CDATA[<a href="/explore/states/wa/wa-valley-of-the-giants-story.xml">Valley of the Giants</a>]]></lst_Subpage>
+		<lst_Subpage><![CDATA[<a href="/explore/states/wa/wa-karijini-national-park.xml">Karijini National Park, Western Australia</a>]]></lst_Subpage>
+		<lst_Subpage><![CDATA[<a href="/explore/states/wa/wa-pinnacles-nambung-national-park.xml">The Pinnacles, Nambung National Park, Western Australia</a>]]></lst_Subpage>
+		<lst_Subpage><![CDATA[<a href="/explore/states/wa/wa-valley-of-the-giants.xml">Valley of the Giants, Walpole, Western Australia</a>]]></lst_Subpage>
+		<lst_Subpage><![CDATA[<a href="/explore/states/wa/wa-margaret-river.xml">Margaret River: Wine, Waves and Caves</a>]]></lst_Subpage>
+		<lst_Subpage><![CDATA[<a href="/explore/states/wa/wa-kununurra.xml">Enliven your senses in Kununurra</a>]]></lst_Subpage>
+		<lst_Subpage><![CDATA[<a href="/explore/states/wa/wa-kalgoorlie.xml">Get Gold Fever in Kalgoorlie</a>]]></lst_Subpage>
+		<lst_Subpage><![CDATA[<a href="/explore/states/wa/wa-wildflowers.xml">Western Australia's Wildflowers</a>]]></lst_Subpage>
+		<lst_Subpage><![CDATA[<a href="/explore/states/wa/margaret-river.xml">Margaret River</a>]]></lst_Subpage>
+		<lst_Subpage><![CDATA[<a href="/explore/states/wa/swan-valley.xml">Swan Valley</a>]]></lst_Subpage>
+		<lst_Subpage><![CDATA[<a href="/explore/states/wa/wa-karijini-story.xml">Karijini's Geological Wonders</a>]]></lst_Subpage>
+		<lst_Subpage><![CDATA[<a href="/explore/states/wa/margaret-river-story.xml">Family Fun in the Margaret River</a>]]></lst_Subpage>
+		<lst_Subpage><![CDATA[<a href="/explore/states/wa/wa-pinnacles-travel-story.xml">From Perth to the Pinnacles</a>]]></lst_Subpage>
+		<lst_Subpage><![CDATA[<a href="/explore/states/wa/wa-wave-rock-story.xml">Wave Rock: a Western Australian wonder</a>]]></lst_Subpage>
+	</lst_Subpages>
+</ConsumerBaseFoundation>

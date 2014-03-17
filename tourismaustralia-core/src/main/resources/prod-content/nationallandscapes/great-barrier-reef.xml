@@ -1,0 +1,423 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="22238"
+	isTemplate="1">
+	<breadcrumb>
+		<element level="1">
+			<headline><![CDATA[Homepage ]]></headline>
+			<href><![CDATA[/index.xml]]></href>
+		</element>
+		<element level="2">
+			<headline><![CDATA[Tools and Campaigns]]></headline>
+			<href><![CDATA[/tools-campaigns.xml]]></href>
+		</element>
+		<element level="4">
+			<headline><![CDATA[National Landscapes]]></headline>
+			<href><![CDATA[/nationallandscapes.xml]]></href>
+		</element>
+		<element level="5">
+			<headline><![CDATA[Great Barrier Reef]]></headline>
+			<href><![CDATA[/nationallandscapes/great-barrier-reef.xml]]></href>
+		</element>
+
+	</breadcrumb>
+	<img_background><![CDATA[/contentimages/Campaigns/national-landscapes-great-barrier-reef.jpg]]></img_background>
+	<hdl_Title><![CDATA[Great Barrier Reef]]></hdl_Title>
+	<img_Banner><![CDATA[]]>
+	</img_Banner>
+	<img_SearchThumbnail><![CDATA[/thumbnails/national-landscapes-great-barrier-reef-search.jpg]]></img_SearchThumbnail>
+	<img_Thumbnail><![CDATA[/contentimages/Campaigns/national-landscapes-great-barrier-reef-th.jpg]]></img_Thumbnail>
+	<opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+	<opt_HidePage><![CDATA[no]]></opt_HidePage>
+	<opt_hideTitle><![CDATA[0]]></opt_hideTitle>
+	<opt_hide_in_sitemap><![CDATA[yes]]></opt_hide_in_sitemap>
+	<opt_IncludeVideo><![CDATA[0]]></opt_IncludeVideo>
+	<opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+	<opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+	<opt_PageLayout><![CDATA[]]>
+	</opt_PageLayout>
+	<opt_PartnerLead><![CDATA[no]]></opt_PartnerLead>
+	<stf_description><![CDATA[Enliven your senses and inspire your soul with a visit to the World Heritage-listed Great Barrier Reef, the largest coral reef system on the planet and one of the Seven Wonders of the Natural World.]]></stf_description>
+	<stf_ExcludedCountries><![CDATA[]]>
+	</stf_ExcludedCountries>
+	<stf_hideInXmlSitemap><![CDATA[]]>
+	</stf_hideInXmlSitemap>
+	<stf_ImageLocation><![CDATA[]]>
+	</stf_ImageLocation>
+	<stf_intro_title><![CDATA[]]>
+	</stf_intro_title>
+	<stf_IsExternalSiteArticle><![CDATA[]]>
+	</stf_IsExternalSiteArticle>
+	<stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+	<stf_keywords><![CDATA[Great Barrier Reef, Airlie Beach, Whitsundays, Daintree Rainforest, World Heritage-listed, Diving, Snorkelling, Port Douglas, Mon Repos, Coral, Townsville, Mackay, Mission Beach, Sailing, Cairns]]></stf_keywords>
+	<stf_LinkLearnMore><![CDATA[Learn More]]></stf_LinkLearnMore>
+	<stf_NavigationTagLine><![CDATA[]]>
+	</stf_NavigationTagLine>
+	<stf_PageHeading><![CDATA[]]>
+	</stf_PageHeading>
+	<stf_TargetedCountries><![CDATA[]]>
+	</stf_TargetedCountries>
+	<stf_TrackingTitle><![CDATA[]]>
+	</stf_TrackingTitle>
+	<TA_Title><![CDATA[Australia's National Landscapes: Great Barrier Reef - Tourism Australia]]></TA_Title>
+	<txt_Intro>
+        <![CDATA[]]>
+	</txt_Intro>
+	<txt_MobileContentOnly>
+        <![CDATA[]]>
+	</txt_MobileContentOnly>
+	<txt_SpotlightTag>
+        <![CDATA[]]>
+	</txt_SpotlightTag>
+	<txt_Teaser>
+        <![CDATA[
+        Enliven your senses and inspire your soul with a visit to the World Heritage-listed Great Barrier Reef, the largest coral reef system on the planet and one of the Seven Wonders of the Natural World.
+    ]]>
+	</txt_Teaser>
+	<con_Body>
+		<StandardCampaignLayout isTemplate="1">
+			<opt_national_landscapes_id><![CDATA[NationalLandscapes]]></opt_national_landscapes_id>
+			<hdl_Title><![CDATA[]]>
+			</hdl_Title>
+			<stf_hideInXmlSitemap><![CDATA[]]>
+			</stf_hideInXmlSitemap>
+			<stf_TargetedCountry><![CDATA[]]>
+			</stf_TargetedCountry>
+			<con_Banner>
+				<RichTextModule isTemplate="1">
+					<txt_rhs_content><![CDATA[<DIV id=headerimage>
+<SCRIPT type=text/javascript src="../static/js/jquery.cycle.all.latest.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+jQuery(document).ready(function() {
+jQuery('#headersliderwrapper').cycle({
+        fx:'fade',
+        slideExpr: '.headerslide'
+    });
+});
+</SCRIPT>
+
+<DIV id=headersliderwrapper>
+<DIV class=headerslide><IMG alt="" src="../contentimages/campaigns/header-gbr-01.jpg"> 
+<DIV class=headerslideinfo>Low Isles, QLD</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../contentimages/campaigns/header-gbr-02.jpg"> 
+<DIV class=headerslideinfo>Lizard Island, QLD</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../contentimages/campaigns/header-gbr-03.jpg"> 
+<DIV class=headerslideinfo>Clownfish in Anemone</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../contentimages/campaigns/header-gbr-04.jpg"> 
+<DIV class=headerslideinfo>Pixies Garden, QLD</DIV></DIV></DIV></DIV>
+<DIV id=subpage-header-overlay></DIV>]]></txt_rhs_content>
+					<txt_custom_styling><![CDATA[]]>
+					</txt_custom_styling>
+					<txt_main><![CDATA[]]>
+					</txt_main>
+				</RichTextModule>
+			</con_Banner>
+			<con_Body>
+				<TopCategoryHighlights isTemplate="1">
+					<stf_Heading><![CDATA[Great Barrier Reef]]></stf_Heading>
+					<stf_InformationTitle><![CDATA[]]>
+					</stf_InformationTitle>
+					<txt_Information><![CDATA[One of the Seven Wonders of the Natural World and World Heritage-listed, the Great Barrier Reef is the largest coral reef system on the planet. Beginning just north of Bundaberg and extending to Cape York, the Reef is made up of 2,900 coral reefs, more than 900 islands and 300 coral cays. In total it is an astonishing 2,300km long. It is so big it can be seen from space. The well preserved ecosystem of the Reef is home to some of the oceans most fascinating marine life, including more than 20 species considered vulnerable or endangered. The Great Barrier Reef offers an, with sights that will enliven your senses and inspire your soul.
+<p><strong>Four reasons to visit the Great Barrier Reef</strong></p>]]></txt_Information>
+					<con_CenterContent>
+						<CenterContent isTemplate="1">
+							<hdl_Title><![CDATA[1. Spectacular Islands]]></hdl_Title>
+							<img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-great-barrier-reef-hl01.jpg" alt="Vlassof Cay, QLD">]]></img_MainImage>
+							<stf_Caption><![CDATA[Vlassof Cay, QLD]]></stf_Caption>
+							<anc_link><![CDATA[]]>
+							</anc_link>
+							<txt_Information>
+                        <![CDATA[
+        For an authentic Robinson Crusoe experience stay at Haggerstone Island at the far northern end of the reef. Guest numbers here are limited and you can even hire the whole island for yourself. Here you will find the Green Turtle rookery and turtles are abundant in the surrounding waters. Also in the north is the romantic and luxurious adults only Lizard Island. Between Port Douglas and Townsville are the beautiful Green, Bedarra, Orpheus and Magnetic Islands, as well as Australia's largest island National Park – Hinchinbrook Island. Further south off Airlie Beach are the world renowned Whitsunday Islands, and at the very southern end of the Great Barrier Reef is the ecologically stunning Lady Elliot Island.
+    ]]>
+							</txt_Information>
+						</CenterContent>
+						<CenterContent isTemplate="1">
+							<hdl_Title><![CDATA[2. Coral Reef and Marine Life]]></hdl_Title>
+							<img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-great-barrier-reef-hl02.jpg" alt="Clownfish, QLD">]]></img_MainImage>
+							<stf_Caption><![CDATA[Clownfish, QLD]]></stf_Caption>
+							<anc_link><![CDATA[]]>
+							</anc_link>
+							<txt_Information>
+                        <![CDATA[
+        The Great Barrier Reef is home to many magnificent and diverse marine animals including whales, turtles, sharks, clownfish, giant clams, and rays. The water is warm all year round and there are many underwater experiences to be enjoyed including coral canyons, underwater caves and tunnels, and shipwrecks. Whether you are an experienced diver or snorkeller, or just a beginner, there is something for everyone. In October and November around the full moon, the sea turns a light shade of pink a different shade as the amazing natural phenomena of coral spawning occurs. It has been likened to thousands of champagne bubbles coming to the surface. Between November and March head to the beach at Mon Repos, east of Bundaberg or to Lady Elliot Island, to witness female turtles coming ashore to lay their eggs. Hatchlings usually emerge from the nest from mid January.
+    ]]>
+							</txt_Information>
+						</CenterContent>
+						<CenterContent isTemplate="1">
+							<hdl_Title><![CDATA[3. Sailing]]></hdl_Title>
+							<img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-great-barrier-reef-hl03.jpg" alt="Hamilton Island Sailing, QLD">]]></img_MainImage>
+							<stf_Caption><![CDATA[Hamilton Island Sailing, QLD]]></stf_Caption>
+							<anc_link><![CDATA[]]>
+							</anc_link>
+							<txt_Information>
+                        <![CDATA[
+        Mission Beach, Townsville, Airlie Beach, Mackay, Rockhampton and Bundaberg are thriving coastal centres that offer easy access to different regions of the Great Barrier Reef. Sailing is one of the most popular ways of exploring the reef. The seas are calm, the water is a sparkling turquoise and you can safely stop and soak up the scenery where there are moorings. You can sail yourself, or charter a vessel that includes a skipper with full catering.
+    ]]>
+							</txt_Information>
+						</CenterContent>
+						<CenterContent isTemplate="1">
+							<hdl_Title><![CDATA[4. Unique experiences]]></hdl_Title>
+							<img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-great-barrier-reef-hl04.jpg" alt="Ribbon Reef, QLD">]]></img_MainImage>
+							<stf_Caption><![CDATA[Ribbon Reef, QLD]]></stf_Caption>
+							<anc_link><![CDATA[]]>
+							</anc_link>
+							<txt_Information>
+                        <![CDATA[
+        From Port Douglas or Cairns, you can snorkel the Northern Ribbon Reefs, trek through the world's oldest rainforest, the World Heritage-listed Daintree, or bask on the pristine beaches of Cape Tribulation, where the rainforest meets the coral reef . For those that desire a truly unique in-water experience, Port Douglas offers swimming and diving with Dwarf Minke whales in June and July, If being on top of the water is more to your liking there are also plenty of whale watching cruises available during the whale's annual migration. Further south, you can head to Airlie Beach, the gateway to the Whitsundays, where you can explore the 74 idyllic islands. Or you could take to the air and view the whole panorama on a scenic flight.
+    ]]>
+							</txt_Information>
+						</CenterContent>
+					</con_CenterContent>
+				</TopCategoryHighlights>
+			</con_Body>
+			<con_RHSModules>
+				<RichTextModule isTemplate="1">
+					<txt_rhs_content><![CDATA[<TABLE cellSpacing=0 cellPadding=0 width=298 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top align=center><!-- Google Map Start -->
+<SCRIPT type=text/javascript>
+function fireEvent(obj,evt){
+ var fireOnThis = obj;
+ if( document.createEvent ) {
+   var evObj = document.createEvent('MouseEvents');
+   evObj.initEvent( evt, true, false );
+   fireOnThis.dispatchEvent(evObj);
+ } else if( document.createEventObject ) {
+   fireOnThis.fireEvent('on'+evt);
+ }
+}
+function clickLink(linkobj) {
+if (linkobj.getAttribute('onclick') == null) {
+if (linkobj.getAttribute('href')) document.location = linkobj.getAttribute('href');
+     }
+     else linkobj.onclick();
+}
+function loadjscssfile(filename, filetype){
+ if (filetype=="js"){ //if filename is a external JavaScript file
+  var fileref=document.createElement('script')
+  fileref.setAttribute("type","text/javascript")
+  fileref.setAttribute("src", filename)
+ }
+ else if (filetype=="css"){ //if filename is an external CSS file
+  var fileref=document.createElement("link")
+  fileref.setAttribute("rel", "stylesheet")
+  fileref.setAttribute("type", "text/css")
+  fileref.setAttribute("href", filename)
+  fileref.setAttribute("media", "print")
+ }
+if (typeof fileref!="undefined")
+document.getElementsByTagName("head")[0].appendChild(fileref)
+}
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+var icheckk=0;
+jQuery.each(jQuery.browser, function(i, val) {
+if(i=="msie" && jQuery.browser.version.substr(0,3)=="7.0")
+icheckk=1;
+});
+function myfun()
+{
+loadjscssfile("../../static/css/thickbox.css", "css");
+if(icheckk==1)
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='../../static/maps/en/greatbarrierreef/bigmap.html'  target='_blank'>&nbsp;Print</a></b>","../../static/maps/en/greatbarrierreef/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+else
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='javascript:window.print()' >&nbsp;Print</a></b>","../../static/maps/en/greatbarrierreef/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+}
+         </SCRIPT>
+<IFRAME style="MARGIN-BOTTOM: 20px; BORDER-TOP: black 1px solid; HEIGHT: 355px; BORDER-RIGHT: black 1px solid; BORDER-BOTTOM: black 1px solid; FLOAT: left; PADDING-BOTTOM: 5px; BORDER-LEFT: black 1px solid; BACKGROUND-COLOR: #333333" height=380 src="../../static/maps/en/greatbarrierreef/index.html" frameBorder=0 width=249 name=FRAMENAME scrolling=no></IFRAME><!-- Google Map end -->
+<DIV class=subpage-video-thumb style="TEXT-ALIGN: left"><A onclick="moduleTrackingWithTitle('lightbox-video','',false,'nationallandscapes-greatbarrierreefen');" href="#" data-reveal-id="modalVideo"><IMG alt="" src="/contentimages/Campaigns/national-landscapes-video-en.jpg"></A> </DIV>
+<DIV id=modalVideo class="reveal-modal video" style-="z-index: 103;"><A class=close-reveal-modal><SPAN class=icon></SPAN></A>
+<DIV class=video style="VISIBILITY: visible !important"><IFRAME height=315 src="//www.youtube.com/v/EjGZ3MaX9pE?version=3&amp;hl=en_GB" frameBorder=0 width=560></IFRAME></DIV></DIV></TD></TR></TBODY></TABLE>]]></txt_rhs_content>
+					<txt_custom_styling><![CDATA[]]>
+					</txt_custom_styling>
+					<txt_main><![CDATA[]]>
+					</txt_main>
+				</RichTextModule>
+				<Listing isTemplate="1">
+					<anc_List1><![CDATA[/explore/states/qld/qld-diving.xml]]></anc_List1>
+					<anc_MoreLink><![CDATA[]]>
+					</anc_MoreLink>
+					<hdl_Title><![CDATA[Australian Ideas]]></hdl_Title>
+					<img_Thumbnail><![CDATA[]]>
+					</img_Thumbnail>
+					<med_File><![CDATA[]]>
+					</med_File>
+					<opt_isNewWindow><![CDATA[]]>
+					</opt_isNewWindow>
+					<stf_externalLink><![CDATA[]]>
+					</stf_externalLink>
+					<stf_ExternalLinkTitle><![CDATA[]]>
+					</stf_ExternalLinkTitle>
+					<stf_IsExternalSiteArticle><![CDATA[]]>
+					</stf_IsExternalSiteArticle>
+					<stf_LinkLearnMore><![CDATA[]]>
+					</stf_LinkLearnMore>
+					<txt_Teaser><![CDATA[]]>
+					</txt_Teaser>
+					<opt_national_landscapes_id><![CDATA[]]>
+					</opt_national_landscapes_id>
+					<stf_hideInXmlSitemap><![CDATA[]]>
+					</stf_hideInXmlSitemap>
+					<stf_TargetedCountry><![CDATA[]]>
+					</stf_TargetedCountry>
+					<con_Banner></con_Banner>
+					<con_Body></con_Body>
+					<con_RHSModules></con_RHSModules>
+					<con_Category></con_Category>
+					<lst_Subpages></lst_Subpages>
+				</Listing>
+				<PlanYourVisit isTemplate="1">
+					<anc_AccommodationSearch><![CDATA[/AccommodationSearch.ignore]]></anc_AccommodationSearch>
+					<anc_ASPSearch><![CDATA[/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+					<anc_Attraction><![CDATA[/AttractionSearchResults.ignore]]></anc_Attraction>
+					<anc_Destinfo><![CDATA[/DestinfoSearchResults.ignore]]></anc_Destinfo>
+					<anc_EventsSearch><![CDATA[/EventsSearch.xml]]></anc_EventsSearch>
+					<anc_GeneralSearch><![CDATA[/GeneralSearch.ignore]]></anc_GeneralSearch>
+					<anc_Hire><![CDATA[/Hire.ignore]]></anc_Hire>
+					<anc_Info><![CDATA[/InfoSearchResults.ignore]]></anc_Info>
+					<anc_More><![CDATA[]]>
+					</anc_More>
+					<anc_RestaurantSearch><![CDATA[/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+					<anc_Tour><![CDATA[/TourSearchResults.ignore]]></anc_Tour>
+					<anc_Transport><![CDATA[/Transport.ignore]]></anc_Transport>
+					<hdl_Title><![CDATA[Plan Your Visit to the Great Barrier Reef]]></hdl_Title>
+					<language><![CDATA[ENA]]></language>
+					<stf_Accomodation><![CDATA[Accommodation]]></stf_Accomodation>
+					<stf_AreaFilter><![CDATA[]]>
+					</stf_AreaFilter>
+					<stf_Attractions><![CDATA[Attractions]]></stf_Attractions>
+					<stf_AussieSpecialist><![CDATA[Find a Travel Agent near you]]></stf_AussieSpecialist>
+					<stf_Destinationinfo><![CDATA[Destination Information]]></stf_Destinationinfo>
+					<stf_DomesticRegion><![CDATA[Whitsunday Region]]></stf_DomesticRegion>
+					<stf_Events><![CDATA[Events]]></stf_Events>
+					<stf_Hire><![CDATA[Hire ]]></stf_Hire>
+					<stf_Informationservices><![CDATA[Information Services]]></stf_Informationservices>
+					<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+					<stf_StateFilter><![CDATA[Queensland]]></stf_StateFilter>
+					<stf_Tours><![CDATA[Tours]]></stf_Tours>
+					<stf_Transport><![CDATA[Transport]]></stf_Transport>
+				</PlanYourVisit>
+				<AtaGlance isTemplate="1">
+					<hdl_Title><![CDATA[Great Barrier Reef Facts Sheets]]></hdl_Title>
+					<img_Map><![CDATA[]]>
+					</img_Map>
+					<stf_Title1><![CDATA[]]>
+					</stf_Title1>
+					<stf_Title2><![CDATA[]]>
+					</stf_Title2>
+					<stf_Title3><![CDATA[]]>
+					</stf_Title3>
+					<stf_Title4><![CDATA[]]>
+					</stf_Title4>
+					<stf_Title5><![CDATA[]]>
+					</stf_Title5>
+					<txt_Description1><![CDATA[
+        <table width="100%" border="0" cellspacing="0" cellpadding="4">
+            <tbody>
+                <tr>
+                    <td align="left" valign="top" style="width: 5px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td align="left" valign="top">
+                    <p><a href="/docs/national-landscapes-great-barrier-reef-conservation-factsheet.pdf" target="_blank">Conservation fact sheet</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td align="left" valign="top">
+                    <p><a href="/docs/national-landscapes-great-barrier-reef-destination-factsheet.pdf" target="_blank">Destination fact sheet</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td align="left" valign="top">
+                    <p><a href="/docs/national-landscapes-great-barrier-reef-suggested-itinerary.pdf" target="_blank">Suggested itinerary</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td align="left" valign="top">
+                    <p><a href="/docs/national-landscapes-great-barrier-reef-calendar.pdf" target="_blank">Wildlife &amp; natural events calendar</a></p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <br />
+    ]]></txt_Description1>
+					<txt_Description2><![CDATA[]]>
+					</txt_Description2>
+					<txt_Description3><![CDATA[]]>
+					</txt_Description3>
+					<txt_Description4><![CDATA[]]>
+					</txt_Description4>
+					<txt_Description5><![CDATA[]]>
+					</txt_Description5>
+				</AtaGlance>
+				<AtaGlance isTemplate="1">
+					<hdl_Title><![CDATA[Useful Links]]></hdl_Title>
+					<img_Map><![CDATA[]]>
+					</img_Map>
+					<stf_Title1><![CDATA[]]>
+					</stf_Title1>
+					<stf_Title2><![CDATA[]]>
+					</stf_Title2>
+					<stf_Title3><![CDATA[]]>
+					</stf_Title3>
+					<stf_Title4><![CDATA[]]>
+					</stf_Title4>
+					<stf_Title5><![CDATA[]]>
+					</stf_Title5>
+					<txt_Description1><![CDATA[
+        <table width="100%" border="0" cellspacing="0" cellpadding="4">
+            <tbody>
+                <tr>
+                    <td align="left" valign="top" style="width: 5px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td align="left" valign="top">
+                    <p><a href="http://www.greatbarrierreef.org/" onclick="ntptEventTag('ev=PartnerLead&amp;PartnerId=greatbarrierreef');" target="_blank">The Great Barrier Reef</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="width: 5px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td align="left" valign="top">
+                    <p><a href="http://www.queenslandholidays.com.au/experiences/great-barrier-reef/great-barrier-reef_home.cfm" onclick="ntptEventTag('ev=PartnerLead&amp;PartnerId=queenslandholidays');" target="_blank">Queensland Holidays – Great Barrier Reef</a></p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <br />
+    ]]></txt_Description1>
+					<txt_Description2><![CDATA[]]>
+					</txt_Description2>
+					<txt_Description3><![CDATA[]]>
+					</txt_Description3>
+					<txt_Description4><![CDATA[]]>
+					</txt_Description4>
+					<txt_Description5><![CDATA[]]>
+					</txt_Description5>
+				</AtaGlance>
+			</con_RHSModules>
+			<con_Category></con_Category>
+			<lst_Subpages>
+			</lst_Subpages>
+		</StandardCampaignLayout>
+	</con_Body>
+	<lst_Subpages>
+	</lst_Subpages>
+</ConsumerBaseFoundation>

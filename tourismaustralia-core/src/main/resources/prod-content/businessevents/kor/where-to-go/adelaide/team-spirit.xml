@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" ?>
+<BEBaseFoundation pageID="20553" isTemplate="1">
+	<breadcrumb>
+		<element level="1">
+			<headline><![CDATA[홈]]></headline>
+			<href><![CDATA[/ko/index.xml]]></href>
+		</element>
+		<element level="2">
+			<headline><![CDATA[Business Events]]></headline>
+			<href><![CDATA[/ko/21974.ignore]]></href>
+		</element>
+		<element level="4">
+			<headline><![CDATA[Where to go]]></headline>
+			<href><![CDATA[/businessevents/kor/where-to-go.xml]]></href>
+		</element>
+		<element level="5">
+			<headline><![CDATA[adelaide]]></headline>
+			<href><![CDATA[/businessevents/kor/where-to-go/adelaide.xml]]></href>
+		</element>
+		<element level="6">
+			<headline><![CDATA[Itineraries-Adelaide]]></headline>
+			<href><![CDATA[/businessevents/kor/where-to-go/adelaide/itineraries.xml]]></href>
+		</element>
+		<element level="7">
+			<headline><![CDATA[Team Spirit ]]></headline>
+			<href><![CDATA[/businessevents/kor/where-to-go/adelaide/team-spirit.xml]]></href>
+		</element>
+
+	</breadcrumb>
+	<hdlPageTitle><![CDATA[Team Spirit ]]></hdlPageTitle>
+	<img_background><![CDATA[]]>
+	</img_background>
+	<opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+	<opt_not_in_sitemap><![CDATA[No]]></opt_not_in_sitemap>
+	<opt_show_in_navigation><![CDATA[Show]]></opt_show_in_navigation>
+	<stf_MetaKeywords><![CDATA[]]>
+	</stf_MetaKeywords>
+	<stf_meta_keywords><![CDATA[여행 일정, 사진, 호텔, 행사, 사례 연구, 행사장, 이벤트, 애들레이드]]></stf_meta_keywords>
+	<stf_meta_description><![CDATA[비즈니스 행사 개최를 위한 애들레이드 정보를 찾아보세요. 행사 계획에 필요한 여행 일정, 사례 연구, 이미지 및 기타 유용한 툴도 참고하세요.]]></stf_meta_description>
+	<stf_NavSubHeader><![CDATA[]]>
+	</stf_NavSubHeader>
+	<stf_NavTitle><![CDATA[팀 단합]]></stf_NavTitle>
+	<stf_PageTitle><![CDATA[팀 단합]]></stf_PageTitle>
+	<conMainContent>
+		<BELayoutT8 isTemplate="1">
+			<hdl_headline><![CDATA[Layout - T8 2507]]></hdl_headline>
+			<stf_Title><![CDATA[팀 단합]]></stf_Title>
+			<opt_display_content_full_width><![CDATA[]]>
+			</opt_display_content_full_width>
+			<con_sidebar>
+
+			</con_sidebar>
+			<con_content>
+				<BEGenericHeaderAndConentBody
+					isTemplate="1">
+					<hdl_headline><![CDATA[Generic - Header and Content Body 2508]]></hdl_headline>
+					<img_DateIcon><![CDATA[]]>
+					</img_DateIcon>
+					<img_DestinationIcon><![CDATA[]]>
+					</img_DestinationIcon>
+					<img_EventTypeIcon><![CDATA[]]>
+					</img_EventTypeIcon>
+					<img_DurationIcon><![CDATA[]]>
+					</img_DurationIcon>
+					<opt_CaseStudy><![CDATA[0]]></opt_CaseStudy>
+					<stf_author><![CDATA[]]>
+					</stf_author>
+					<stf_DateText><![CDATA[]]>
+					</stf_DateText>
+					<stf_DelegatesText><![CDATA[]]>
+					</stf_DelegatesText>
+					<stf_DestinationText><![CDATA[]]>
+					</stf_DestinationText>
+					<stf_EventTypeText><![CDATA[]]>
+					</stf_EventTypeText>
+					<stf_Header><![CDATA[]]>
+					</stf_Header>
+					<stf_quote><![CDATA[]]>
+					</stf_quote>
+					<stf_Title><![CDATA[]]>
+					</stf_Title>
+					<txt_HTML><![CDATA[<strong>제1일</strong>: 애들레이드가 내려다보이는 마운트 로프티 정상(Mount Lofty Summit)에서 전체 환영 및 팀 브리핑을 마친 후 팀과 함께 경주용 자전거를 타고 도심까지 나갑니다.
+        <p><strong>제2일</strong>: 남호주의 세계적 와인 산지로 이동하여 현지 전문 가이드의 안내에 따라 지역 와이너리들을 자전거로 달린 후, 하일라이트로 와이너리 야외에서 단체 오찬을 가집니다.</p>
+        <p><strong>제3~4일</strong>: 캥거루 아일랜드의 때묻지 않은 야생지대로 이동하여 4륜구동, 쿼드 바이크, 제트 보트, 낚시 등 팀 어드벤처를 합니다. 정통 양털 깎기 농장에서 캥거루들이 노니는 가운데 바베큐 석식을 하고 럭셔리 숙박시설에 하룻밤 머문 후 다음 날 오전 섬 투어를 끝으로 여정을 마칩니다.</p>]]></txt_HTML>
+				</BEGenericHeaderAndConentBody>
+			</con_content>
+		</BELayoutT8>
+	</conMainContent>
+	<lstNavigation>
+	</lstNavigation>
+</BEBaseFoundation>

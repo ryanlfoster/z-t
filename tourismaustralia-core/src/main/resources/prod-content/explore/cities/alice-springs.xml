@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="11995"
+	isTemplate="1">
+	<breadcrumb>
+		<element level="1">
+			<headline><![CDATA[Homepage ]]></headline>
+			<href><![CDATA[/index.xml]]></href>
+		</element>
+		<element level="2">
+			<headline><![CDATA[Explore ]]></headline>
+			<href><![CDATA[/explore.xml]]></href>
+		</element>
+		<element level="4">
+			<headline><![CDATA[Alice Springs]]></headline>
+			<href><![CDATA[/explore/cities/alice-springs.xml]]></href>
+		</element>
+
+	</breadcrumb>
+	<img_background><![CDATA[/contentimages/explore-cities-alice-springs.jpg]]></img_background>
+	<hdl_Title><![CDATA[Alice Springs]]></hdl_Title>
+	<img_Banner><![CDATA[]]>
+	</img_Banner>
+	<img_SearchThumbnail><![CDATA[/thumbnails/explore-cities-alice-springs-search.jpg]]></img_SearchThumbnail>
+	<img_Thumbnail><![CDATA[/contentimages/explore-cities-alice-springs-th.jpg]]></img_Thumbnail>
+	<opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+	<opt_HidePage><![CDATA[no]]></opt_HidePage>
+	<opt_hideTitle><![CDATA[0]]></opt_hideTitle>
+	<opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+	<opt_IncludeVideo><![CDATA[0]]></opt_IncludeVideo>
+	<opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+	<opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+	<opt_PageLayout><![CDATA[]]>
+	</opt_PageLayout>
+	<opt_PartnerLead><![CDATA[no]]></opt_PartnerLead>
+	<stf_description><![CDATA[Discover Alice Springs, one of Australia’s most famous outback towns, surrounded by hundreds of kilometres of red desert; experience Aboriginal Australia.]]></stf_description>
+	<stf_ExcludedCountries><![CDATA[]]>
+	</stf_ExcludedCountries>
+	<stf_hideInXmlSitemap><![CDATA[]]>
+	</stf_hideInXmlSitemap>
+	<stf_ImageLocation><![CDATA[Aerial view of Alice Springs, NT. &copy; Tourism NT]]></stf_ImageLocation>
+	<stf_intro_title><![CDATA[]]>
+	</stf_intro_title>
+	<stf_IsExternalSiteArticle><![CDATA[]]>
+	</stf_IsExternalSiteArticle>
+	<stf_IsMobile><![CDATA[y]]></stf_IsMobile>
+	<stf_keywords><![CDATA[Alice Springs Australia, Things to do in Alice Springs]]></stf_keywords>
+	<stf_LinkLearnMore><![CDATA[Learn More]]></stf_LinkLearnMore>
+	<stf_NavigationTagLine><![CDATA[]]>
+	</stf_NavigationTagLine>
+	<stf_PageHeading><![CDATA[]]>
+	</stf_PageHeading>
+	<stf_TargetedCountries><![CDATA[]]>
+	</stf_TargetedCountries>
+	<stf_TrackingTitle><![CDATA[]]>
+	</stf_TrackingTitle>
+	<TA_Title><![CDATA[Alice Springs, Australia - Things To Do - Tourism Australia]]></TA_Title>
+	<txt_Intro>
+        <![CDATA[]]>
+	</txt_Intro>
+	<txt_MobileContentOnly>
+        <![CDATA[]]>
+	</txt_MobileContentOnly>
+	<txt_SpotlightTag>
+        <![CDATA[]]>
+	</txt_SpotlightTag>
+	<txt_Teaser>
+        <![CDATA[
+        Surrounded by a red sand desert which stretches for hundreds of kilometres in all directions, Alice Springs is one of Australia’s most famous outback towns.
+    ]]>
+	</txt_Teaser>
+	<con_Body>
+		<SubPageLayout isTemplate="1">
+			<con_Banner>
+
+			</con_Banner>
+			<con_RHSModules>
+				<IntegratedMiniMap isTemplate="1">
+					<!-- no user content -->
+				</IntegratedMiniMap>
+				<TravellersStoryWidget isTemplate="1">
+					<anc_link><![CDATA[/explore/map.aspx?filters=cities,experiences&zoom=8&centre=-24.661979,134.175280]]></anc_link>
+					<img_image><![CDATA[/contentimages/cities-Alice-Springs.jpg]]></img_image>
+				</TravellersStoryWidget>
+				<AtaGlance isTemplate="1">
+					<hdl_Title><![CDATA[Australia's Cities]]></hdl_Title>
+					<img_Map><![CDATA[]]>
+					</img_Map>
+					<stf_Title1><![CDATA[]]>
+					</stf_Title1>
+					<stf_Title2><![CDATA[]]>
+					</stf_Title2>
+					<stf_Title3><![CDATA[]]>
+					</stf_Title3>
+					<stf_Title4><![CDATA[]]>
+					</stf_Title4>
+					<stf_Title5><![CDATA[]]>
+					</stf_Title5>
+					<txt_Description1><![CDATA[
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tbody>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/explore/cities/cities.xml" target="_self">Australia's Cities</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/explore/cities/sydney.xml" target="_self">Sydney</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/explore/cities/melbourne.xml" target="_self">Melbourne</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/explore/cities/brisbane.xml" target="_self">Brisbane</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/explore/cities/perth.xml" target="_self">Perth</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/explore/cities/darwin.xml" target="_self">Darwin</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/explore/cities/adelaide.xml" target="_self">Adelaide</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/explore/cities/hobart.xml" target="_self">Hobart</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/explore/cities/canberra.xml" target="_self">Canberra</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/explore/cities/gold-coast.xml" target="_self">Gold Coast</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/explore/cities/cairns.xml" target="_self">Cairns</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/explore/cities/alice-springs.xml" target="_self">Alice Springs</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/explore/cities/broome.xml" target="_self">Broome</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/explore/cities/regional-cities.xml" target="_self">Australia's Regional Cities</a></p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <br />
+    ]]></txt_Description1>
+					<txt_Description2><![CDATA[]]>
+					</txt_Description2>
+					<txt_Description3><![CDATA[]]>
+					</txt_Description3>
+					<txt_Description4><![CDATA[]]>
+					</txt_Description4>
+					<txt_Description5><![CDATA[]]>
+					</txt_Description5>
+				</AtaGlance>
+				<Listing isTemplate="1">
+					<anc_List1><![CDATA[/explore/states/nt.xml]]></anc_List1>
+					<anc_MoreLink><![CDATA[]]>
+					</anc_MoreLink>
+					<hdl_Title><![CDATA[More Australian Ideas]]></hdl_Title>
+					<img_Thumbnail><![CDATA[]]>
+					</img_Thumbnail>
+					<med_File><![CDATA[]]>
+					</med_File>
+					<opt_isNewWindow><![CDATA[]]>
+					</opt_isNewWindow>
+					<stf_externalLink><![CDATA[]]>
+					</stf_externalLink>
+					<stf_ExternalLinkTitle><![CDATA[]]>
+					</stf_ExternalLinkTitle>
+					<stf_IsExternalSiteArticle><![CDATA[]]>
+					</stf_IsExternalSiteArticle>
+					<stf_LinkLearnMore><![CDATA[]]>
+					</stf_LinkLearnMore>
+					<txt_Teaser><![CDATA[]]>
+					</txt_Teaser>
+					<opt_national_landscapes_id><![CDATA[]]>
+					</opt_national_landscapes_id>
+					<stf_hideInXmlSitemap><![CDATA[]]>
+					</stf_hideInXmlSitemap>
+					<stf_TargetedCountry><![CDATA[]]>
+					</stf_TargetedCountry>
+					<con_Banner></con_Banner>
+					<con_Body></con_Body>
+					<con_RHSModules></con_RHSModules>
+					<con_Category></con_Category>
+					<lst_Subpages></lst_Subpages>
+				</Listing>
+				<PlanYourVisit isTemplate="1">
+					<anc_AccommodationSearch><![CDATA[/AccommodationSearch.ignore]]></anc_AccommodationSearch>
+					<anc_ASPSearch><![CDATA[/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+					<anc_Attraction><![CDATA[/AttractionSearchResults.ignore]]></anc_Attraction>
+					<anc_Destinfo><![CDATA[/DestinfoSearchResults.ignore]]></anc_Destinfo>
+					<anc_EventsSearch><![CDATA[/EventsSearch.xml]]></anc_EventsSearch>
+					<anc_GeneralSearch><![CDATA[/GeneralSearch.ignore]]></anc_GeneralSearch>
+					<anc_Hire><![CDATA[/Hire.ignore]]></anc_Hire>
+					<anc_Info><![CDATA[/InfoSearchResults.ignore]]></anc_Info>
+					<anc_More><![CDATA[]]>
+					</anc_More>
+					<anc_RestaurantSearch><![CDATA[/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+					<anc_Tour><![CDATA[/TourSearchResults.ignore]]></anc_Tour>
+					<anc_Transport><![CDATA[/Transport.ignore]]></anc_Transport>
+					<hdl_Title><![CDATA[Plan your visit to Alice Springs]]></hdl_Title>
+					<language><![CDATA[ENA]]></language>
+					<stf_Accomodation><![CDATA[Accommodation]]></stf_Accomodation>
+					<stf_AreaFilter><![CDATA[Alice Springs Area]]></stf_AreaFilter>
+					<stf_Attractions><![CDATA[Attractions]]></stf_Attractions>
+					<stf_AussieSpecialist><![CDATA[Find a travel agent near you]]></stf_AussieSpecialist>
+					<stf_Destinationinfo><![CDATA[Destination Information]]></stf_Destinationinfo>
+					<stf_DomesticRegion><![CDATA[]]>
+					</stf_DomesticRegion>
+					<stf_Events><![CDATA[Events]]></stf_Events>
+					<stf_Hire><![CDATA[Hire]]></stf_Hire>
+					<stf_Informationservices><![CDATA[Information Services]]></stf_Informationservices>
+					<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+					<stf_StateFilter><![CDATA[Northern Territory]]></stf_StateFilter>
+					<stf_Tours><![CDATA[Tours]]></stf_Tours>
+					<stf_Transport><![CDATA[Transport]]></stf_Transport>
+				</PlanYourVisit>
+			</con_RHSModules>
+			<con_Video>
+
+			</con_Video>
+			<con_Body>
+				<TopCategoryHighlights isTemplate="1">
+					<stf_Heading><![CDATA[Alice Springs]]></stf_Heading>
+					<stf_InformationTitle><![CDATA[]]>
+					</stf_InformationTitle>
+					<txt_Information><![CDATA[
+        Surrounded by a red sand desert which stretches for hundreds of kilometres in all directions, Alice Springs is one of Australia’s most famous outback towns. It is the gateway to the iconic natural features of Uluṟu (Ayers Rock) and Kata Tjuṯa National Park.
+        <p>Here, stories of Australia’s history and heritage are told through a colourful cast of characters and events that include camel races, gold-diggers and outback pioneers.</p>
+        <p>Alice Springs lies in the physical and spiritual heart of Australia’s Red Centre. It is surrounded on all sides by the jagged MacDonnell Ranges, which according to the traditional owners, the Arrernte people, was formed during the Dreamtime by giant caterpillars. The Royal Geographic Society of Australia has calculated the geographical and gravitational centre of the continent at the Lambert Centre, approximately 200 kilometres south of town.</p>
+        <p>Today, the town’s upmarket hotels, restaurants, and 20000 inhabitants, continue to uphold its vibrant history. It’s also an excellent place to pick up an authentic piece of unique Aboriginal art.</p>
+        <p>From here, you can join one of Australia’s most challenging walks, the Larapinta Trail; and it is the ideal place to connect with Australia’s rich Aboriginal traditions and awe-inspiring landscapes.</p>
+        <p>Australia’s classic outback drive, the Red Centre Way, from Alice Springs to Kings Canyon, is one of the best ways to experience the natural wonders of this vast ancient red landscape.</p>
+        <p><strong>Seven things to do in Alice Springs:</strong></p>
+    ]]></txt_Information>
+					<con_CenterContent>
+						<CenterContent isTemplate="1">
+							<hdl_Title><![CDATA[Alice Springs and Surrounds]]></hdl_Title>
+							<img_MainImage><![CDATA[<img src="/contentimages/explore-cities-alice-springs-alice-springs-hl.jpg" alt="Alice Springs and Surrounds, NT">]]></img_MainImage>
+							<stf_Caption><![CDATA[Alice Springs and Surrounds, NT]]></stf_Caption>
+							<anc_link><![CDATA[/explore/cities/alice-springs/alice-springs-surrounds.xml]]></anc_link>
+							<txt_Information>
+                        <![CDATA[
+        Start your outback adventure in Alice Springs, in the heart of Australia’s Red Centre. Sail over the spinifex plains in a hot air balloon or bike ride to Simpsons Gap. Join a safari of quad bikes across the desert or fly over the MacDonnell Ranges. Peer into the traditions of the Aboriginal Arrernte people who have lived here for 20,000 years and browse contemporary Aboriginal art along Todd Mall. Connect to stories of Afghan cameleers, flying doctors and plucky pioneers in the many heritage sites around the town.  This rollicking, modern town is also a day trip from the iconic attractions of Uluṟu-Kata Tjuṯa and Kings Canyon. 
+    ]]>
+							</txt_Information>
+						</CenterContent>
+						<CenterContent isTemplate="1">
+							<hdl_Title><![CDATA[Three Great Days in Alice Springs]]></hdl_Title>
+							<img_MainImage><![CDATA[<img src="/contentimages/explore-itineraries-nt-3days-alice-springs-hl.jpg" alt="Three Great Days in Alice Springs, NT">]]></img_MainImage>
+							<stf_Caption><![CDATA[Three Days in Alice Springs, NT]]></stf_Caption>
+							<anc_link><![CDATA[/explore/itineraries/nt-3days-alice-springs.xml]]></anc_link>
+							<txt_Information>
+                        <![CDATA[
+        Connect to rich Aboriginal traditions, awe-inspiring landscapes and pioneer history in Alice Springs, which sits just south of Australia’s geographic centre. Learn about the area’s first inhabitants - the Western Arrernte Aboriginal people - in the Araluen Cultural Precinct and in the vibrant art lining Todd Mall. Find out how plucky pioneers shaped the modern town in the Telegraph Station Historical Reserve, Royal Flying Doctor Service and School of the Air.
+    ]]>
+							</txt_Information>
+						</CenterContent>
+						<CenterContent isTemplate="1">
+							<hdl_Title><![CDATA[Australia's Red Centre]]></hdl_Title>
+							<img_MainImage><![CDATA[<img src="/contentimages/explore-icons-red-centre-hl.jpg" alt="Australia's Red Centre, NT">]]></img_MainImage>
+							<stf_Caption><![CDATA[Australia's Red Centre, NT]]></stf_Caption>
+							<anc_link><![CDATA[/explore/icons/red-centre.xml]]></anc_link>
+							<txt_Information>
+                        <![CDATA[
+        You probably know about the <a href="http://www.australia.com/campaigns/nothinglike/au/uluru.htm" target="_blank">red monolith</a> in Australia’s Red Centre.
+        <p>You may know it’s sacred to the Aboriginal people here, and that it turns some spectacular colours at sunrise and sunset. You might not know that you can experience it through Aboriginal eyes, or that there are many other sacred and breathtaking sites here in <a href="/explore/icons/red-centre.xml" target="_self">Australia’s vast centre</a>. Uluṟu’s cousin Kata Tjuṯa is just 40 kilometres away and you’ll find the awe-inspiring Kings Canyon not far from Alice Springs.</p>
+    ]]>
+							</txt_Information>
+						</CenterContent>
+						<CenterContent isTemplate="1">
+							<hdl_Title><![CDATA[Red Centre Way]]></hdl_Title>
+							<img_MainImage><![CDATA[<img src="/contentimages/explore-itineraries-red-centre-way-hl.jpg" alt="Red Centre Way, NT">]]></img_MainImage>
+							<stf_Caption><![CDATA[Red Centre Way, NT]]></stf_Caption>
+							<anc_link><![CDATA[/explore/itineraries/nt-red-centre-way.xml]]></anc_link>
+							<txt_Information>
+                        <![CDATA[
+        Swim in Glen Helen Gorge and spot rock wallabies at Simpsons Gap, both in the West MacDonnell Ranges. Listen to the Dreamtime legend surrounding the comet crater of Gosse Bluff. Climb to the rim of Kings Canyon and swim in the tropical pools of the Garden of Eden. Do a dawn camel trek around Uluṟu and wander between the steep russet domes of nearby Kata Tjuṯa.
+    ]]>
+							</txt_Information>
+						</CenterContent>
+						<CenterContent isTemplate="1">
+							<hdl_Title><![CDATA[Larapinta Trail]]></hdl_Title>
+							<img_MainImage><![CDATA[<img src="/contentimages/explore-itineraries-larapinta-trail-hl.jpg" alt="Larapinta Trail, NT">]]></img_MainImage>
+							<stf_Caption><![CDATA[Larapinta Trail, NT]]></stf_Caption>
+							<anc_link><![CDATA[/explore/itineraries/nt-larapinta-trail.xml]]></anc_link>
+							<txt_Information>
+                        <![CDATA[
+        Trek along the backbone of the West MacDonnell Ranges to attractions such as Simpsons Gap, Ellery Creek Big Hole, Ormiston Gorge and Glen Helen Gorge. This epic chain of day walks stretches more than 223km from the old Alice Springs Telegraph Station to Mount Sonder and Mount Razorback. Stand on ancient escarpments and look out over vast ochre-colored landscapes. Visit sites sacred to the Arrernte Aboriginal people. Scramble down sheltered gorges, swim in cool waterholes and sleep under a sea of stars.
+    ]]>
+							</txt_Information>
+						</CenterContent>
+						<CenterContent isTemplate="1">
+							<hdl_Title><![CDATA[Henley-on-Todd Regatta]]></hdl_Title>
+							<img_MainImage><![CDATA[<img src="/contentimages/explore-events-nt-henley-on-todd-hl.jpg" alt="Henley-on-Todd Regatta, NT">]]></img_MainImage>
+							<stf_Caption><![CDATA[Henley-on-Todd Regatta, NT]]></stf_Caption>
+							<anc_link><![CDATA[/explore/events/nt-henley-on-todd.xml]]></anc_link>
+							<txt_Information>
+                        <![CDATA[
+        The outback makes you bonkers. How else can you explain the <a href="/explore/events/nt-henley-on-todd.xml" target="_self">Henley-on-Todd</a> – an annual sailing and rowing regatta held on a dry river bed in Alice Springs?
+        <p>With pirate ships firing flour bombs, people paddling canoes with sand shovels and bathtubs on legs, you do wonder if there’s more heat and dust than sense in this iconic outback town.</p>
+    ]]>
+							</txt_Information>
+						</CenterContent>
+						<CenterContent isTemplate="1">
+							<hdl_Title><![CDATA[Aboriginal Australia]]></hdl_Title>
+							<img_MainImage><![CDATA[<img src="/contentimages/explore-things-to-see-do-aboriginal-hl.jpg" alt="Aboriginal Australia">]]></img_MainImage>
+							<stf_Caption><![CDATA[Aboriginal Australia]]></stf_Caption>
+							<anc_link><![CDATA[/explore/things-to-do/aboriginal-australia.xml]]></anc_link>
+							<txt_Information>
+                        <![CDATA[
+        Immerse yourself in Australia’s Aboriginal experiences, places and journeys.
+        <p>Aboriginal people of Australia have a rich, living culture stretching back at least 50,000 years. Get a snapshot of the diverse experiences on offer when you immerse yourself in <a href="/explore/things-to-do/aboriginal-australia.xml" target="_self">Aboriginal Australia</a>.</p>
+    ]]>
+							</txt_Information>
+						</CenterContent>
+					</con_CenterContent>
+				</TopCategoryHighlights>
+			</con_Body>
+		</SubPageLayout>
+	</con_Body>
+	<lst_Subpages>
+		<lst_Subpage><![CDATA[<a href="/explore/cities/alice-springs/alice-springs-surrounds.xml">Alice Springs and Surrounds</a>]]></lst_Subpage>
+	</lst_Subpages>
+</ConsumerBaseFoundation>

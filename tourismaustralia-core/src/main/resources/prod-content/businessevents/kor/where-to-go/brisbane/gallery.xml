@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" ?>
+<BEBaseFoundation pageID="20357" isTemplate="1">
+	<breadcrumb>
+		<element level="1">
+			<headline><![CDATA[홈]]></headline>
+			<href><![CDATA[/ko/index.xml]]></href>
+		</element>
+		<element level="2">
+			<headline><![CDATA[Business Events]]></headline>
+			<href><![CDATA[/ko/21974.ignore]]></href>
+		</element>
+		<element level="4">
+			<headline><![CDATA[Where to go]]></headline>
+			<href><![CDATA[/businessevents/kor/where-to-go.xml]]></href>
+		</element>
+		<element level="5">
+			<headline><![CDATA[Brisbane]]></headline>
+			<href><![CDATA[/businessevents/kor/where-to-go/brisbane.xml]]></href>
+		</element>
+		<element level="6">
+			<headline><![CDATA[Gallery]]></headline>
+			<href><![CDATA[/businessevents/kor/where-to-go/brisbane/gallery.xml]]></href>
+		</element>
+
+	</breadcrumb>
+	<hdlPageTitle><![CDATA[Gallery]]></hdlPageTitle>
+	<img_background><![CDATA[]]>
+	</img_background>
+	<opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+	<opt_not_in_sitemap><![CDATA[No]]></opt_not_in_sitemap>
+	<opt_show_in_navigation><![CDATA[Show]]></opt_show_in_navigation>
+	<stf_MetaKeywords><![CDATA[]]>
+	</stf_MetaKeywords>
+	<stf_meta_keywords><![CDATA[여행 일정, 사진, 호텔, 행사, 사례 연구, 행사장, 이벤트, 브리즈번]]></stf_meta_keywords>
+	<stf_meta_description><![CDATA[비즈니스 행사 개최를 위한 브리즈번 정보를 찾아보세요. 행사 계획에 필요한 여행 일정, 사례 연구, 이미지 및 기타 유용한 툴도 참고하세요.]]></stf_meta_description>
+	<stf_NavSubHeader><![CDATA[]]>
+	</stf_NavSubHeader>
+	<stf_NavTitle><![CDATA[갤러리]]></stf_NavTitle>
+	<stf_PageTitle><![CDATA[브리즈번 - 갤러리]]></stf_PageTitle>
+	<conMainContent>
+		<BELayoutT6 isTemplate="1">
+			<stf_Header><![CDATA[브리스번(Brisbane)]]></stf_Header>
+			<con_sidebar>
+				<BEGallerySidebarDynamicLinks
+					isTemplate="1">
+					<stf_Header><![CDATA[이미지 카테고리]]></stf_Header>
+					<stf_SubHeader><![CDATA[장소]]></stf_SubHeader>
+					<dyn_ancs>
+						<dyn_anc><![CDATA[<a href="/businessevents/kor/where-to-go/adelaide/gallery.xml" target="_self">Adelaide</a>]]></dyn_anc>
+						<dyn_anc><![CDATA[<a href="/businessevents/kor/where-to-go/perth/gallery.xml" target="_self">Perth</a>]]></dyn_anc>
+						<dyn_anc><![CDATA[<a href="/businessevents/kor/where-to-go/brisbane/gallery.xml" target="_self">Brisbane</a>]]></dyn_anc>
+						<dyn_anc><![CDATA[<a href="/businessevents/kor/where-to-go/sunshine-coast/gallery.xml" target="_self">Sunshine Coast</a>]]></dyn_anc>
+						<dyn_anc><![CDATA[<a href="/businessevents/kor/where-to-go/cairns/gallery.xml" target="_self">Cairns</a>]]></dyn_anc>
+						<dyn_anc><![CDATA[<a href="/businessevents/kor/where-to-go/sydney/gallery.xml" target="_self">Sydney</a>]]></dyn_anc>
+						<dyn_anc><![CDATA[<a href="/businessevents/kor/where-to-go/canberra/gallery.xml" target="_self">Canberra</a>]]></dyn_anc>
+						<dyn_anc><![CDATA[<a href="/businessevents/kor/where-to-go/tasmania/gallery.xml" target="_self">Tasmania</a>]]></dyn_anc>
+						<dyn_anc><![CDATA[<a href="/businessevents/kor/where-to-go/gold-coast/gallery.xml" target="_self">Gold Coast</a>]]></dyn_anc>
+						<dyn_anc><![CDATA[<a href="/businessevents/kor/where-to-go/townsville/gallery.xml" target="_self">Townsville</a>]]></dyn_anc>
+						<dyn_anc><![CDATA[<a href="/businessevents/kor/where-to-go/melbourne/gallery.xml" target="_self">Melbourne</a>]]></dyn_anc>
+						<dyn_anc><![CDATA[<a href="/businessevents/kor/where-to-go/whitsundays/gallery.xml" target="_self">Whitsundays</a>]]></dyn_anc>
+						<dyn_anc><![CDATA[<a href="/businessevents/kor/where-to-go/northern-territory/gallery.xml" target="_self">Northern Territory</a>]]></dyn_anc>
+					</dyn_ancs>
+				</BEGallerySidebarDynamicLinks>
+				<BEGallerySidebarDynamicLinks
+					isTemplate="1">
+					<stf_Header><![CDATA[]]>
+					</stf_Header>
+					<stf_SubHeader><![CDATA[체험]]></stf_SubHeader>
+					<dyn_ancs>
+						<dyn_anc><![CDATA[<a href="/businessevents/kor/why-australia/gallery/dining-gallery.xml" target="_self">Dining</a>]]></dyn_anc>
+						<dyn_anc><![CDATA[<a href="/businessevents/kor/why-australia/gallery/team-building-gallery.xml" target="_self">Team Building</a>]]></dyn_anc>
+						<dyn_anc><![CDATA[<a href="/businessevents/kor/why-australia/gallery/venues-gallery.xml" target="_self">Venues</a>]]></dyn_anc>
+						<dyn_anc><![CDATA[<a href="/businessevents/kor/why-australia/gallery/events-gallery.xml" target="_self">Events</a>]]></dyn_anc>
+					</dyn_ancs>
+				</BEGallerySidebarDynamicLinks>
+			</con_sidebar>
+			<con_gallery>
+				<BEGallerygallery isTemplate="1">
+					<lst_images>
+						<lst_image>
+							<url>/businessevents/kor/where-to-go/brisbane/21665.xml</url>
+							<img_photo><![CDATA[/contentimages/business-events/Light-box-Brisbane/CVB_BM_00007881_Ariel.jpg]]></img_photo>
+							<stf_title><![CDATA[상공에서 본 브리즈번, 퀸즈랜드]]></stf_title>
+							<img_thumbnail><![CDATA[/contentimages/business-events/Thumb-sml-Brisbane/CVB_BM_00007881_Ariel.jpg]]></img_thumbnail>
+							<img_NewTab><![CDATA[]]>
+							</img_NewTab>
+							<img_NewTabRight><![CDATA[]]>
+							</img_NewTabRight>
+						</lst_image>
+						<lst_image>
+							<url>/businessevents/kor/where-to-go/brisbane/21666.xml</url>
+							<img_photo><![CDATA[/contentimages/business-events/Light-box-Brisbane/AAP_BCEC-Exterior_Mid.jpg]]></img_photo>
+							<stf_title><![CDATA[브리즈번 컨벤션 &amp; 전시 센터(Brisbane Convention &amp; Exhibition Centre)]]></stf_title>
+							<img_thumbnail><![CDATA[/contentimages/business-events/Thumb-sml-Brisbane/AAP_BCEC-Exterior_Mid.jpg]]></img_thumbnail>
+							<img_NewTab><![CDATA[]]>
+							</img_NewTab>
+							<img_NewTabRight><![CDATA[]]>
+							</img_NewTabRight>
+						</lst_image>
+						<lst_image>
+							<url>/businessevents/kor/where-to-go/brisbane/21670.xml</url>
+							<img_photo><![CDATA[/contentimages/business-events/Light-box-Brisbane/TABE_Brisbane_Kangaroo_Point.jpg]]></img_photo>
+							<stf_title><![CDATA[캥거루 포인트(Kangaroo Point)에서 바라 본 도시 전경, 브리즈번]]></stf_title>
+							<img_thumbnail><![CDATA[/contentimages/business-events/Thumb-sml-Brisbane/TABE_Brisbane_Kangaroo_Point.jpg]]></img_thumbnail>
+							<img_NewTab><![CDATA[]]>
+							</img_NewTab>
+							<img_NewTabRight><![CDATA[]]>
+							</img_NewTabRight>
+						</lst_image>
+						<lst_image>
+							<url>/businessevents/kor/where-to-go/brisbane/21667.xml</url>
+							<img_photo><![CDATA[/contentimages/business-events/Light-box-Brisbane/STO_TQ_106421_Bris_Storey_bridgeclimb.jpg]]></img_photo>
+							<stf_title><![CDATA[스토리 브릿지 어드벤처 클라임, 브리즈번]]></stf_title>
+							<img_thumbnail><![CDATA[/contentimages/business-events/Thumb-sml-Brisbane/STO_TQ_106421_Bris_Storey_bridgeclimb.jpg]]></img_thumbnail>
+							<img_NewTab><![CDATA[]]>
+							</img_NewTab>
+							<img_NewTabRight><![CDATA[]]>
+							</img_NewTabRight>
+						</lst_image>
+						<lst_image>
+							<url>/businessevents/kor/where-to-go/brisbane/21672.xml</url>
+							<img_photo><![CDATA[/contentimages/business-events/Light-box-Brisbane/TABE_Famil_Tangalooma.jpg]]></img_photo>
+							<stf_title><![CDATA[탕갈루마 아일랜드 리조트의 고래 먹이주기, 모튼 아일랜드]]></stf_title>
+							<img_thumbnail><![CDATA[/contentimages/business-events/Thumb-sml-Brisbane/TABE_Famil_Tangalooma.jpg]]></img_thumbnail>
+							<img_NewTab><![CDATA[]]>
+							</img_NewTab>
+							<img_NewTabRight><![CDATA[]]>
+							</img_NewTabRight>
+						</lst_image>
+						<lst_image>
+							<url>/businessevents/kor/where-to-go/brisbane/20927.xml</url>
+							<img_photo><![CDATA[/contentimages/business-events/Light-box-Brisbane/TABE_00002641_Storey_Bridge.jpg]]></img_photo>
+							<stf_title><![CDATA[스토리 브릿지, 브리즈번]]></stf_title>
+							<img_thumbnail><![CDATA[/contentimages/business-events/Thumb-sml-Brisbane/TABE_00002641_Storey_Bridge.jpg]]></img_thumbnail>
+							<img_NewTab><![CDATA[]]>
+							</img_NewTab>
+							<img_NewTabRight><![CDATA[]]>
+							</img_NewTabRight>
+						</lst_image>
+						<lst_image>
+							<url>/businessevents/kor/where-to-go/brisbane/21668.xml</url>
+							<img_photo><![CDATA[/contentimages/business-events/Light-box-Brisbane/STO_TQ_102852_Brisbane_cycling.jpg]]></img_photo>
+							<stf_title><![CDATA[브리즈번 강변의 자전거 달리기, 퀸즈랜드]]></stf_title>
+							<img_thumbnail><![CDATA[/contentimages/business-events/Thumb-sml-Brisbane/STO_TQ_102852_Brisbane_cycling.jpg]]></img_thumbnail>
+							<img_NewTab><![CDATA[]]>
+							</img_NewTab>
+							<img_NewTabRight><![CDATA[]]>
+							</img_NewTabRight>
+						</lst_image>
+						<lst_image>
+							<url>/businessevents/kor/where-to-go/brisbane/21669.xml</url>
+							<img_photo><![CDATA[/contentimages/business-events/Light-box-Brisbane/STO_TQ_101177_Moreton_Island.jpg]]></img_photo>
+							<stf_title><![CDATA[모튼 아일랜드(Moreton Island), 퀸즈랜드]]></stf_title>
+							<img_thumbnail><![CDATA[/contentimages/business-events/Thumb-sml-Brisbane/STO_TQ_101177_Moreton_Island.jpg]]></img_thumbnail>
+							<img_NewTab><![CDATA[]]>
+							</img_NewTab>
+							<img_NewTabRight><![CDATA[]]>
+							</img_NewTabRight>
+						</lst_image>
+					</lst_images>
+				</BEGallerygallery>
+			</con_gallery>
+		</BELayoutT6>
+	</conMainContent>
+	<lstNavigation>
+	</lstNavigation>
+</BEBaseFoundation>

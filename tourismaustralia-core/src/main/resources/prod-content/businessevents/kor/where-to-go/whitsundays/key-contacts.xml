@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" ?>
+<BEBaseFoundation pageID="20330" isTemplate="1">
+	<breadcrumb>
+		<element level="1">
+			<headline><![CDATA[홈]]></headline>
+			<href><![CDATA[/ko/index.xml]]></href>
+		</element>
+		<element level="2">
+			<headline><![CDATA[Business Events]]></headline>
+			<href><![CDATA[/ko/21974.ignore]]></href>
+		</element>
+		<element level="4">
+			<headline><![CDATA[Where to go]]></headline>
+			<href><![CDATA[/businessevents/kor/where-to-go.xml]]></href>
+		</element>
+		<element level="5">
+			<headline><![CDATA[Whitsundays]]></headline>
+			<href><![CDATA[/businessevents/kor/where-to-go/whitsundays.xml]]></href>
+		</element>
+		<element level="6">
+			<headline><![CDATA[Key Contacts]]></headline>
+			<href><![CDATA[/businessevents/kor/where-to-go/whitsundays/key-contacts.xml]]></href>
+		</element>
+
+	</breadcrumb>
+	<hdlPageTitle><![CDATA[Key Contacts]]></hdlPageTitle>
+	<img_background><![CDATA[]]>
+	</img_background>
+	<opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+	<opt_not_in_sitemap><![CDATA[No]]></opt_not_in_sitemap>
+	<opt_show_in_navigation><![CDATA[Show]]></opt_show_in_navigation>
+	<stf_MetaKeywords><![CDATA[]]>
+	</stf_MetaKeywords>
+	<stf_meta_keywords><![CDATA[여행일정, 사진, 호텔, 행사, 사례 연구, 행사장, 이벤트, 휘트선데이즈]]></stf_meta_keywords>
+	<stf_meta_description><![CDATA[휘트선데이즈에서 비즈니스 이벤트 행사 개최에 대한 정보를 알아보십시오. 행사 계획에 필요한 여행 일정, 사례 연구, 이미지 및 기타 유용한 툴도 참고하세요.]]></stf_meta_description>
+	<stf_NavSubHeader><![CDATA[]]>
+	</stf_NavSubHeader>
+	<stf_NavTitle><![CDATA[주요 연락처]]></stf_NavTitle>
+	<stf_PageTitle><![CDATA[휘트선데이즈 - 주요 연락처]]></stf_PageTitle>
+	<conMainContent>
+		<BELayoutT8 isTemplate="1">
+			<hdl_headline><![CDATA[Layout - T8 2340]]></hdl_headline>
+			<stf_Title><![CDATA[휘트선데이즈 주요 연락처]]></stf_Title>
+			<opt_display_content_full_width><![CDATA[]]>
+			</opt_display_content_full_width>
+			<con_sidebar>
+
+			</con_sidebar>
+			<con_content>
+				<BEGenericHeaderAndConentBody
+					isTemplate="1">
+					<hdl_headline><![CDATA[Generic - Header and Content Body 2341]]></hdl_headline>
+					<img_DateIcon><![CDATA[]]>
+					</img_DateIcon>
+					<img_DestinationIcon><![CDATA[]]>
+					</img_DestinationIcon>
+					<img_EventTypeIcon><![CDATA[]]>
+					</img_EventTypeIcon>
+					<img_DurationIcon><![CDATA[]]>
+					</img_DurationIcon>
+					<opt_CaseStudy><![CDATA[0]]></opt_CaseStudy>
+					<stf_author><![CDATA[]]>
+					</stf_author>
+					<stf_DateText><![CDATA[]]>
+					</stf_DateText>
+					<stf_DelegatesText><![CDATA[]]>
+					</stf_DelegatesText>
+					<stf_DestinationText><![CDATA[]]>
+					</stf_DestinationText>
+					<stf_EventTypeText><![CDATA[]]>
+					</stf_EventTypeText>
+					<stf_Header><![CDATA[]]>
+					</stf_Header>
+					<stf_quote><![CDATA[]]>
+					</stf_quote>
+					<stf_Title><![CDATA[]]>
+					</stf_Title>
+					<txt_HTML><![CDATA[<strong>휘트선데이즈 비즈니스 이벤트(Whitsundays Business Events) </strong><br />
+        <strong>전화:</strong> +61 7 4948 5908 <br />
+        <strong>이메일</strong>: <a href="mailto:business@tourismwhitsundays.com.au" target="_blank">business@tourismwhitsundays.com.au <br />
+        </a><strong>홈페이지:</strong> <a href="http://whitsundaysbusinessevents.com.au" target="_blank">whitsundaysbusinessevents.com.au</a>
+        <p><strong>퀄리아(qualia) <br />
+        전화: </strong>+61 2 9433 3333 <br />
+        <strong>팩스: </strong>+61 2 9433 0488 <br />
+        <strong>이메일:</strong> <a href="mailto:jford@hamiltonisland.com.au " target="_blank">jford@hamiltonisland.com.au <br />
+        </a><strong>홈페이지:</strong> <a href="http://qualia.com.au" target="_blank">qualia.com.au</a></p>
+        <p><strong>헤이만 아일랜드(Hayman Island) <br />
+        전화: </strong>+61 7 4940 1838 <br />
+        <strong>팩스: </strong>+61 2 8272 7008 <br />
+        <strong>이메일:</strong> <a href="mailto:wanderson@hayman.com.au " target="_blank">wanderson@hayman.com.au <br />
+        </a><strong>홈페이지:</strong> <a href="http://hayman.com.au" target="_blank">hayman.com.au</a></p>]]></txt_HTML>
+				</BEGenericHeaderAndConentBody>
+			</con_content>
+		</BELayoutT8>
+	</conMainContent>
+	<lstNavigation>
+	</lstNavigation>
+</BEBaseFoundation>

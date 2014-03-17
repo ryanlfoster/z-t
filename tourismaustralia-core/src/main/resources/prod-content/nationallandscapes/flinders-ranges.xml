@@ -1,0 +1,422 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="22232"
+	isTemplate="1">
+	<breadcrumb>
+		<element level="1">
+			<headline><![CDATA[Homepage ]]></headline>
+			<href><![CDATA[/index.xml]]></href>
+		</element>
+		<element level="2">
+			<headline><![CDATA[Tools and Campaigns]]></headline>
+			<href><![CDATA[/tools-campaigns.xml]]></href>
+		</element>
+		<element level="4">
+			<headline><![CDATA[National Landscapes]]></headline>
+			<href><![CDATA[/nationallandscapes.xml]]></href>
+		</element>
+		<element level="5">
+			<headline><![CDATA[Flinders Ranges]]></headline>
+			<href><![CDATA[/nationallandscapes/flinders-ranges.xml]]></href>
+		</element>
+
+	</breadcrumb>
+	<img_background><![CDATA[/contentimages/Campaigns/national-landscapes-flinders-ranges.jpg]]></img_background>
+	<hdl_Title><![CDATA[Flinders Ranges]]></hdl_Title>
+	<img_Banner><![CDATA[]]>
+	</img_Banner>
+	<img_SearchThumbnail><![CDATA[/thumbnails/national-landscapes-flinders-ranges-search.jpg]]></img_SearchThumbnail>
+	<img_Thumbnail><![CDATA[/contentimages/Campaigns/national-landscapes-flinders-ranges-th.jpg]]></img_Thumbnail>
+	<opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+	<opt_HidePage><![CDATA[no]]></opt_HidePage>
+	<opt_hideTitle><![CDATA[0]]></opt_hideTitle>
+	<opt_hide_in_sitemap><![CDATA[yes]]></opt_hide_in_sitemap>
+	<opt_IncludeVideo><![CDATA[0]]></opt_IncludeVideo>
+	<opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+	<opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+	<opt_PageLayout><![CDATA[]]>
+	</opt_PageLayout>
+	<opt_PartnerLead><![CDATA[no]]></opt_PartnerLead>
+	<stf_description><![CDATA[Trace a story as old as the earth in South Australia's largest mountain range. The majestic Flinders Ranges sprawl 430km across three national parks.]]></stf_description>
+	<stf_ExcludedCountries><![CDATA[]]>
+	</stf_ExcludedCountries>
+	<stf_hideInXmlSitemap><![CDATA[]]>
+	</stf_hideInXmlSitemap>
+	<stf_ImageLocation><![CDATA[]]>
+	</stf_ImageLocation>
+	<stf_intro_title><![CDATA[]]>
+	</stf_intro_title>
+	<stf_IsExternalSiteArticle><![CDATA[]]>
+	</stf_IsExternalSiteArticle>
+	<stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+	<stf_keywords><![CDATA[Flinders Ranges, flinders rangers, flinders ranges Australia, flinders range, flinders Australia, flinders park, Wilpena Pound, Mount Remarkable,  Arkaroola Wilderness Sanctuary,  Brachina Gorge,  Heysen Trail,  Fleurieu Peninsula,  Pichi Richi Railway]]></stf_keywords>
+	<stf_LinkLearnMore><![CDATA[Learn More]]></stf_LinkLearnMore>
+	<stf_NavigationTagLine><![CDATA[]]>
+	</stf_NavigationTagLine>
+	<stf_PageHeading><![CDATA[]]>
+	</stf_PageHeading>
+	<stf_TargetedCountries><![CDATA[]]>
+	</stf_TargetedCountries>
+	<stf_TrackingTitle><![CDATA[]]>
+	</stf_TrackingTitle>
+	<TA_Title><![CDATA[Australia's National Landscapes: Flinders Ranges - Tourism Australia]]></TA_Title>
+	<txt_Intro>
+        <![CDATA[]]>
+	</txt_Intro>
+	<txt_MobileContentOnly>
+        <![CDATA[]]>
+	</txt_MobileContentOnly>
+	<txt_SpotlightTag>
+        <![CDATA[]]>
+	</txt_SpotlightTag>
+	<txt_Teaser>
+        <![CDATA[
+        Trace a story as old as the earth in South Australia's largest mountain range. The majestic Flinders Ranges sprawl 430km across three national parks.
+    ]]>
+	</txt_Teaser>
+	<con_Body>
+		<StandardCampaignLayout isTemplate="1">
+			<opt_national_landscapes_id><![CDATA[NationalLandscapes]]></opt_national_landscapes_id>
+			<hdl_Title><![CDATA[]]>
+			</hdl_Title>
+			<stf_hideInXmlSitemap><![CDATA[]]>
+			</stf_hideInXmlSitemap>
+			<stf_TargetedCountry><![CDATA[]]>
+			</stf_TargetedCountry>
+			<con_Banner>
+				<RichTextModule isTemplate="1">
+					<txt_rhs_content><![CDATA[<DIV id=headerimage>
+<SCRIPT type=text/javascript src="../static/js/jquery.cycle.all.latest.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+jQuery(document).ready(function() {
+jQuery('#headersliderwrapper').cycle({
+        fx:'fade',
+        slideExpr: '.headerslide'
+    });
+});
+</SCRIPT>
+
+<DIV id=headersliderwrapper>
+<DIV class=headerslide><IMG alt="" src="../contentimages/campaigns/header-fli-01.jpg"> 
+<DIV class=headerslideinfo>Wilpena Pound, SA</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../contentimages/campaigns/header-fli-02.jpg"> 
+<DIV class=headerslideinfo>Mt Ohlssen Bagge, SA</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../contentimages/campaigns/header-fli-03.jpg"> 
+<DIV class=headerslideinfo>Cycling, Flinders Ranges, SA</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../contentimages/campaigns/header-fli-04.jpg"> 
+<DIV class=headerslideinfo>Yellow-footed Rock Wallaby</DIV></DIV></DIV></DIV>
+<DIV id=subpage-header-overlay></DIV>]]></txt_rhs_content>
+					<txt_custom_styling><![CDATA[]]>
+					</txt_custom_styling>
+					<txt_main><![CDATA[]]>
+					</txt_main>
+				</RichTextModule>
+			</con_Banner>
+			<con_Body>
+				<TopCategoryHighlights isTemplate="1">
+					<stf_Heading><![CDATA[Flinders Ranges]]></stf_Heading>
+					<stf_InformationTitle><![CDATA[]]>
+					</stf_InformationTitle>
+					<txt_Information><![CDATA[Trace a story as old as the earth in South Australia's largest mountain range. The majestic, timeworn Flinders Ranges sprawl across three national parks and stretch more than 430km from Crystal Brook to Lake Callabonna. Climb Mt Remarkable in the southern Flinders Ranges and the huge, natural amphitheatre of Wilpena Pound in the centre. In the arid north, there's a wilderness sanctuary and an observatory to explore. Find yourself in this ancient outback story, where adventure, tranquility and spirituality co-exist.
+<p><strong>Four things to do in the Flinders Ranges</strong></p>]]></txt_Information>
+					<con_CenterContent>
+						<CenterContent isTemplate="1">
+							<hdl_Title><![CDATA[1. Find your own adventure]]></hdl_Title>
+							<img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-flinders-ranges-hl01.jpg" alt="Mt Ohlssen Bagge, SA">]]></img_MainImage>
+							<stf_Caption><![CDATA[Mt Ohlssen Bagge, SA]]></stf_Caption>
+							<anc_link><![CDATA[]]>
+							</anc_link>
+							<txt_Information>
+                        <![CDATA[
+        Trek to the rim of Wilpena Pound or soar over it on a scenic flight. From the sky it looks like a lost world where dinosaurs still roam. In the southern Flinders Ranges, you can trek through Wirrabara and Bundaleer forests or do some serious mountain biking. Hike to the top of Mount Remarkable or ride a camel to a candlelight dinner at Quorn. Four wheel on tracks from Melrose to Arkaroola Wilderness Sanctuary in the rugged north. Scale the Gammon Ranges or stare into space from one of Arkaroola's three observatories.
+    ]]>
+							</txt_Information>
+						</CenterContent>
+						<CenterContent isTemplate="1">
+							<hdl_Title><![CDATA[2. Uncover stories as old as the earth]]></hdl_Title>
+							<img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-flinders-ranges-hl02.jpg" alt="Campfire storytelling">]]></img_MainImage>
+							<stf_Caption><![CDATA[Campfire storytelling]]></stf_Caption>
+							<anc_link><![CDATA[]]>
+							</anc_link>
+							<txt_Information>
+                        <![CDATA[
+        Explore these timeworn ranges with an Adnyamathanha guide, learning about bush tucker and listening to Yura Muda stories of the land's Dreaming beginnings. Hear how the giant snake Arkaroo shaped many of the Flinders Range's features. See ancient cave paintings and rock carvings at Yourambulla Caves, Arkaroo Rock, Sacred Canyon and Chambers Gorge. Drive the Aboriginal Dreaming Trail to the Nepabunna community and hang out with the locals. You can trace 600 million years of evolution on the Brachina Gorge Geological Trail or visit Old Wilpena Station, where Aboriginal and European histories meet.
+    ]]>
+							</txt_Information>
+						</CenterContent>
+						<CenterContent isTemplate="1">
+							<hdl_Title><![CDATA[3. Get up close to nature]]></hdl_Title>
+							<img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-flinders-ranges-hl03.jpg" alt="Emus crossing the road">]]></img_MainImage>
+							<stf_Caption><![CDATA[Emus crossing the road]]></stf_Caption>
+							<anc_link><![CDATA[]]>
+							</anc_link>
+							<txt_Information>
+                        <![CDATA[
+        Walk to the rim of Wilpena Pound past a huge diversity of native plants. Spot rare yellow-footed rock wallabies at Brachina Gorge and the occasional kangaroo hopping across Arkaroola's red earth. Meet resident echidnas and emus and hear the song of more than 100 bird species. Wind through caves, gorges and forests in the southern Flinders Ranges and past Lake Frome's shimmering saltpan in the north. Camp beneath the stars and visit the wildlife havens of Italowie and Weetootla gorges in Vulkathunha–Gammon Ranges National Park.
+    ]]>
+							</txt_Information>
+						</CenterContent>
+						<CenterContent isTemplate="1">
+							<hdl_Title><![CDATA[4. Lose yourself on epic journeys]]></hdl_Title>
+							<img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-flinders-ranges-hl04.jpg" alt="Great Australian Cattle Drive, SA">]]></img_MainImage>
+							<stf_Caption><![CDATA[Great Australian Cattle Drive, SA]]></stf_Caption>
+							<anc_link><![CDATA[]]>
+							</anc_link>
+							<txt_Information>
+                        <![CDATA[
+        You can walk, cycle, 4WD and even muster cattle through the Flinders Ranges. Hike sections of the Heysen Trail, which stretches 1,200km from Parachilna Gorge to the beaches of Fleurieu Peninsula. Cyclists can tackle some of the 900km Mawson Trail, which connects the Adelaide Hills with the Flinders Ranges town of Blinman. Take the Pichi Richi Railway from Quorn to Port Augusta or immerse yourself in the region's rich railway story at the Steamtown Peterborough sound and light show. However you travel, you'll discover old mining towns, charming country pubs, rare wildlife and stunning outback vistas.
+    ]]>
+							</txt_Information>
+						</CenterContent>
+					</con_CenterContent>
+				</TopCategoryHighlights>
+			</con_Body>
+			<con_RHSModules>
+				<RichTextModule isTemplate="1">
+					<txt_rhs_content><![CDATA[<TABLE cellSpacing=0 cellPadding=0 width=298 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top align=center><!-- Google Map Start -->
+<SCRIPT type=text/javascript>
+function fireEvent(obj,evt){
+var fireOnThis = obj;
+if( document.createEvent ) {
+var evObj = document.createEvent('MouseEvents');
+evObj.initEvent( evt, true, false );
+fireOnThis.dispatchEvent(evObj);
+ } else if( document.createEventObject ) {
+fireOnThis.fireEvent('on'+evt);
+}
+}
+function clickLink(linkobj) {
+if (linkobj.getAttribute('onclick') == null) {
+if (linkobj.getAttribute('href')) document.location = linkobj.getAttribute('href');
+}
+else linkobj.onclick();
+}
+function loadjscssfile(filename, filetype){
+if (filetype=="js"){ //if filename is a external JavaScript file
+var fileref=document.createElement('script')
+fileref.setAttribute("type","text/javascript")
+fileref.setAttribute("src", filename)
+}
+else if (filetype=="css"){ //if filename is an external CSS file
+var fileref=document.createElement("link")
+fileref.setAttribute("rel", "stylesheet")
+fileref.setAttribute("type", "text/css")
+fileref.setAttribute("href", filename)
+fileref.setAttribute("media", "print")
+}
+if (typeof fileref!="undefined")
+document.getElementsByTagName("head")[0].appendChild(fileref)
+}
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+var icheckk=0;
+jQuery.each(jQuery.browser, function(i, val) {
+if(i=="msie" && jQuery.browser.version.substr(0,3)=="7.0")
+icheckk=1;
+});
+function myfun()
+{
+loadjscssfile("../../static/css/thickbox.css", "css");
+if(icheckk==1)
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='../../static/maps/en/flindersranges/bigmap.html'  target='_blank'>&nbsp;Print</a></b>","../../static/maps/en/flindersranges/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+else
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='javascript:window.print()' >&nbsp;Print</a></b>","../../static/maps/en/flindersranges/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+}
+         </SCRIPT>
+<IFRAME style="MARGIN-BOTTOM: 20px; BORDER-TOP: black 1px solid; HEIGHT: 355px; BORDER-RIGHT: black 1px solid; BORDER-BOTTOM: black 1px solid; FLOAT: left; PADDING-BOTTOM: 5px; BORDER-LEFT: black 1px solid; BACKGROUND-COLOR: #333333" height=380 src="../../static/maps/en/flindersranges/index.html" frameBorder=0 width=249 name=FRAMENAME scrolling=no></IFRAME><!-- Google Map end -->
+<DIV class=subpage-video-thumb style="TEXT-ALIGN: left"><A onclick="moduleTrackingWithTitle('lightbox-video','',false,'nationallandscapes-flindersrangesen');" href="#" data-reveal-id="modalVideo"><IMG alt="" src="/contentimages/Campaigns/national-landscapes-video-en.jpg"></A> </DIV>
+<DIV id=modalVideo class="reveal-modal video" style-="z-index: 103;"><A class=close-reveal-modal><SPAN class=icon></SPAN></A>
+<DIV class=video style="VISIBILITY: visible !important"><IFRAME height=315 src="//www.youtube.com/v/EjGZ3MaX9pE?version=3&amp;hl=en_GB" frameBorder=0 width=560></IFRAME></DIV></DIV></TD></TR></TBODY></TABLE>]]></txt_rhs_content>
+					<txt_custom_styling><![CDATA[]]>
+					</txt_custom_styling>
+					<txt_main><![CDATA[]]>
+					</txt_main>
+				</RichTextModule>
+				<Listing isTemplate="1">
+					<anc_List1><![CDATA[/explore/states/sa/sa-coober-pedy.xml]]></anc_List1>
+					<anc_MoreLink><![CDATA[]]>
+					</anc_MoreLink>
+					<hdl_Title><![CDATA[Australian Ideas]]></hdl_Title>
+					<img_Thumbnail><![CDATA[]]>
+					</img_Thumbnail>
+					<med_File><![CDATA[]]>
+					</med_File>
+					<opt_isNewWindow><![CDATA[]]>
+					</opt_isNewWindow>
+					<stf_externalLink><![CDATA[]]>
+					</stf_externalLink>
+					<stf_ExternalLinkTitle><![CDATA[]]>
+					</stf_ExternalLinkTitle>
+					<stf_IsExternalSiteArticle><![CDATA[]]>
+					</stf_IsExternalSiteArticle>
+					<stf_LinkLearnMore><![CDATA[]]>
+					</stf_LinkLearnMore>
+					<txt_Teaser><![CDATA[]]>
+					</txt_Teaser>
+					<opt_national_landscapes_id><![CDATA[]]>
+					</opt_national_landscapes_id>
+					<stf_hideInXmlSitemap><![CDATA[]]>
+					</stf_hideInXmlSitemap>
+					<stf_TargetedCountry><![CDATA[]]>
+					</stf_TargetedCountry>
+					<con_Banner></con_Banner>
+					<con_Body></con_Body>
+					<con_RHSModules></con_RHSModules>
+					<con_Category></con_Category>
+					<lst_Subpages></lst_Subpages>
+				</Listing>
+				<PlanYourVisit isTemplate="1">
+					<anc_AccommodationSearch><![CDATA[/AccommodationSearch.ignore]]></anc_AccommodationSearch>
+					<anc_ASPSearch><![CDATA[/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+					<anc_Attraction><![CDATA[/AttractionSearchResults.ignore]]></anc_Attraction>
+					<anc_Destinfo><![CDATA[/DestinfoSearchResults.ignore]]></anc_Destinfo>
+					<anc_EventsSearch><![CDATA[/EventsSearch.xml]]></anc_EventsSearch>
+					<anc_GeneralSearch><![CDATA[/GeneralSearch.ignore]]></anc_GeneralSearch>
+					<anc_Hire><![CDATA[/Hire.ignore]]></anc_Hire>
+					<anc_Info><![CDATA[/InfoSearchResults.ignore]]></anc_Info>
+					<anc_More><![CDATA[]]>
+					</anc_More>
+					<anc_RestaurantSearch><![CDATA[/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+					<anc_Tour><![CDATA[/TourSearchResults.ignore]]></anc_Tour>
+					<anc_Transport><![CDATA[/Transport.ignore]]></anc_Transport>
+					<hdl_Title><![CDATA[Plan Your Visit to Flinders Ranges]]></hdl_Title>
+					<language><![CDATA[ENA]]></language>
+					<stf_Accomodation><![CDATA[Accommodation]]></stf_Accomodation>
+					<stf_AreaFilter><![CDATA[]]>
+					</stf_AreaFilter>
+					<stf_Attractions><![CDATA[Attractions]]></stf_Attractions>
+					<stf_AussieSpecialist><![CDATA[Find a Travel Agent near you]]></stf_AussieSpecialist>
+					<stf_Destinationinfo><![CDATA[Destination Information]]></stf_Destinationinfo>
+					<stf_DomesticRegion><![CDATA[Flinders Ranges and Outback]]></stf_DomesticRegion>
+					<stf_Events><![CDATA[Events]]></stf_Events>
+					<stf_Hire><![CDATA[Hire ]]></stf_Hire>
+					<stf_Informationservices><![CDATA[Information Services]]></stf_Informationservices>
+					<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+					<stf_StateFilter><![CDATA[South Australia]]></stf_StateFilter>
+					<stf_Tours><![CDATA[Tours]]></stf_Tours>
+					<stf_Transport><![CDATA[Transport]]></stf_Transport>
+				</PlanYourVisit>
+				<AtaGlance isTemplate="1">
+					<hdl_Title><![CDATA[Flinders Ranges Facts Sheets]]></hdl_Title>
+					<img_Map><![CDATA[]]>
+					</img_Map>
+					<stf_Title1><![CDATA[]]>
+					</stf_Title1>
+					<stf_Title2><![CDATA[]]>
+					</stf_Title2>
+					<stf_Title3><![CDATA[]]>
+					</stf_Title3>
+					<stf_Title4><![CDATA[]]>
+					</stf_Title4>
+					<stf_Title5><![CDATA[]]>
+					</stf_Title5>
+					<txt_Description1><![CDATA[
+        <table width="100%" border="0" cellspacing="0" cellpadding="4">
+            <tbody>
+                <tr>
+                    <td align="left" valign="top" style="width: 5px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td align="left" valign="top">
+                    <p><a href="/docs/national-landscapes-flinders-ranges-conservation-factsheet.pdf" target="_blank">Conservation fact sheet</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td align="left" valign="top">
+                    <p><a href="/docs/national-landscapes-flinders-ranges-destination-factsheet.pdf" target="_blank">Destination fact sheet</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td align="left" valign="top">
+                    <p><a href="/docs/national-landscapes-flinders-ranges-suggested-itinerary.pdf" target="_blank">Suggested itinerary</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td align="left" valign="top">
+                    <p><a href="/docs/national-landscapes-flinders-ranges-calendar.PDF" target="_blank">Wildlife &amp; natural events calendar</a></p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <br />
+    ]]></txt_Description1>
+					<txt_Description2><![CDATA[]]>
+					</txt_Description2>
+					<txt_Description3><![CDATA[]]>
+					</txt_Description3>
+					<txt_Description4><![CDATA[]]>
+					</txt_Description4>
+					<txt_Description5><![CDATA[]]>
+					</txt_Description5>
+				</AtaGlance>
+				<AtaGlance isTemplate="1">
+					<hdl_Title><![CDATA[Useful Links]]></hdl_Title>
+					<img_Map><![CDATA[]]>
+					</img_Map>
+					<stf_Title1><![CDATA[]]>
+					</stf_Title1>
+					<stf_Title2><![CDATA[]]>
+					</stf_Title2>
+					<stf_Title3><![CDATA[]]>
+					</stf_Title3>
+					<stf_Title4><![CDATA[]]>
+					</stf_Title4>
+					<stf_Title5><![CDATA[]]>
+					</stf_Title5>
+					<txt_Description1><![CDATA[
+        <table width="100%" border="0" cellspacing="0" cellpadding="4">
+            <tbody>
+                <tr>
+                    <td align="left" valign="top">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td align="left" valign="top">
+                    <p><a href="http://www.southaustralia.com/regions/flinders-ranges-outback.aspx" onclick="ntptEventTag('ev=PartnerLead&amp;PartnerId=southaustralia');" target="_blank">Find out more on the Flinders Ranges, South Australia</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="width: 5px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td align="left" valign="top">
+                    <p><a href="http://www.environment.sa.gov.au/parks/Find_a_Park/Browse_by_region/Flinders_Ranges_and_Outback/Flinders_Ranges_National_Park" onclick="ntptEventTag('ev=PartnerLead&amp;PartnerId=environment');" target="_blank">Find out more on the Flinders Ranges National Park</a></p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    ]]></txt_Description1>
+					<txt_Description2><![CDATA[]]>
+					</txt_Description2>
+					<txt_Description3><![CDATA[]]>
+					</txt_Description3>
+					<txt_Description4><![CDATA[]]>
+					</txt_Description4>
+					<txt_Description5><![CDATA[]]>
+					</txt_Description5>
+				</AtaGlance>
+			</con_RHSModules>
+			<con_Category></con_Category>
+			<lst_Subpages>
+			</lst_Subpages>
+		</StandardCampaignLayout>
+	</con_Body>
+	<lst_Subpages>
+	</lst_Subpages>
+</ConsumerBaseFoundation>

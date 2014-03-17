@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" ?>
+<BEBaseFoundation pageID="20552" isTemplate="1">
+	<breadcrumb>
+		<element level="1">
+			<headline><![CDATA[首頁]]></headline>
+			<href><![CDATA[/zht/index.xml]]></href>
+		</element>
+		<element level="2">
+			<headline><![CDATA[Business Events]]></headline>
+			<href><![CDATA[/zht/21974.ignore]]></href>
+		</element>
+		<element level="4">
+			<headline><![CDATA[Where to go]]></headline>
+			<href><![CDATA[/businessevents/cht/where-to-go.xml]]></href>
+		</element>
+		<element level="5">
+			<headline><![CDATA[Adelaide]]></headline>
+			<href><![CDATA[/businessevents/cht/where-to-go/adelaide.xml]]></href>
+		</element>
+		<element level="6">
+			<headline><![CDATA[Itineraries]]></headline>
+			<href><![CDATA[/businessevents/cht/where-to-go/adelaide/itineraries.xml]]></href>
+		</element>
+		<element level="7">
+			<headline><![CDATA[From Outback to River ]]></headline>
+			<href><![CDATA[/businessevents/cht/where-to-go/adelaide/from-outback-to-river.xml]]></href>
+		</element>
+
+	</breadcrumb>
+	<hdlPageTitle><![CDATA[From Outback to River ]]></hdlPageTitle>
+	<img_background><![CDATA[]]>
+	</img_background>
+	<opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+	<opt_not_in_sitemap><![CDATA[No]]></opt_not_in_sitemap>
+	<opt_show_in_navigation><![CDATA[Show]]></opt_show_in_navigation>
+	<stf_MetaKeywords><![CDATA[]]>
+	</stf_MetaKeywords>
+	<stf_meta_keywords><![CDATA[行程、相片、飯店、活動、個案研究、場地、新活動、阿得萊德（Adelaide）]]></stf_meta_keywords>
+	<stf_meta_description><![CDATA[尋找在阿得萊德舉辦商務活動的資訊。 適用於活動規劃者的行程、個案研究、圖片和其他實用工具。]]></stf_meta_description>
+	<stf_NavSubHeader><![CDATA[]]>
+	</stf_NavSubHeader>
+	<stf_NavTitle><![CDATA[從內陸至河流]]></stf_NavTitle>
+	<stf_PageTitle><![CDATA[從內陸至河流]]></stf_PageTitle>
+	<conMainContent>
+		<BELayoutT8 isTemplate="1">
+			<hdl_headline><![CDATA[Layout - T8 2490]]></hdl_headline>
+			<stf_Title><![CDATA[從內陸至河流]]></stf_Title>
+			<opt_display_content_full_width><![CDATA[]]>
+			</opt_display_content_full_width>
+			<con_sidebar>
+
+			</con_sidebar>
+			<con_content>
+				<BEGenericHeaderAndConentBody
+					isTemplate="1">
+					<hdl_headline><![CDATA[Generic - Header and Content Body 2492]]></hdl_headline>
+					<img_DateIcon><![CDATA[<img src="/contentimages/business-events/iconStar.png" width="18" height="15">]]></img_DateIcon>
+					<img_DestinationIcon><![CDATA[<img src="/contentimages/business-events/iconWorld.png" width="18" height="15">]]></img_DestinationIcon>
+					<img_EventTypeIcon><![CDATA[<img src="/contentimages/business-events/iconStar.png" width="18" height="15">]]></img_EventTypeIcon>
+					<img_DurationIcon><![CDATA[<img src="/contentimages/business-events/iconPax.png" width="18" height="15">]]></img_DurationIcon>
+					<opt_CaseStudy><![CDATA[0]]></opt_CaseStudy>
+					<stf_author><![CDATA[]]>
+					</stf_author>
+					<stf_DateText><![CDATA[]]>
+					</stf_DateText>
+					<stf_DelegatesText><![CDATA[]]>
+					</stf_DelegatesText>
+					<stf_DestinationText><![CDATA[]]>
+					</stf_DestinationText>
+					<stf_EventTypeText><![CDATA[]]>
+					</stf_EventTypeText>
+					<stf_Header><![CDATA[]]>
+					</stf_Header>
+					<stf_quote><![CDATA[]]>
+					</stf_quote>
+					<stf_Title><![CDATA[]]>
+					</stf_Title>
+					<txt_HTML><![CDATA[<strong>第 1 天</strong>：搭專機前往弗林德斯山脈，探訪這個令人驚嘆的澳洲內陸，並入住阿卡巴牧場（Arkaba Station）。 在星空下用餐，然後在薄暮中出發，體驗澳洲野生動物的大冒險。
+        <p><strong>第 2 天</strong>：搭乘刺激的熱氣球，飛躍知名的維憑拿龐。 在地上享用香檳草餐後，返回阿卡巴牧場展開內陸團隊體驗，一起圍捕牛隻，然後品嚐特別晚餐。</p>
+        <p><strong>第 3 天</strong>：早上搭專機飛躍彩繪沙漠（Painted Desert）和艾爾湖（Lake Eyre），然後在內陸採礦小鎮庫伯佩地（Cooper Pedy）降落。 探索美麗澳洲澳寶背後的祕密，並到澳洲唯一一座地下沙漠洞飯店（Desert Cave Hotel）過夜。</p>
+        <p><strong>第 4 天</strong>：最後一天，搭另一班飛機前往河地及知名的穆理河（Murray River），您可以獨享貴賓船屋，還有私人主廚。 一邊享用澳洲燒烤，一邊觀察當地野生動物。 在這裡過夜，隔天離開前往阿得萊德。</p>]]></txt_HTML>
+				</BEGenericHeaderAndConentBody>
+			</con_content>
+		</BELayoutT8>
+	</conMainContent>
+	<lstNavigation>
+	</lstNavigation>
+</BEBaseFoundation>

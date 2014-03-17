@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" ?>
+<BEBaseFoundation pageID="20574" isTemplate="1">
+	<breadcrumb>
+		<element level="1">
+			<headline><![CDATA[Homepage ]]></headline>
+			<href><![CDATA[/index.xml]]></href>
+		</element>
+		<element level="2">
+			<headline><![CDATA[Business Events]]></headline>
+			<href><![CDATA[/21974.ignore]]></href>
+		</element>
+		<element level="4">
+			<headline><![CDATA[Where to go]]></headline>
+			<href><![CDATA[/businessevents/where-to-go.xml]]></href>
+		</element>
+		<element level="5">
+			<headline><![CDATA[Sunshine Coast]]></headline>
+			<href><![CDATA[/businessevents/where-to-go/sunshine-coast.xml]]></href>
+		</element>
+		<element level="6">
+			<headline><![CDATA[Itineraries ]]></headline>
+			<href><![CDATA[/businessevents/where-to-go/sunshine-coast/itineraries.xml]]></href>
+		</element>
+		<element level="7">
+			<headline><![CDATA[Island Paradise]]></headline>
+			<href><![CDATA[/businessevents/where-to-go/sunshine-coast/island-paradise.xml]]></href>
+		</element>
+
+	</breadcrumb>
+	<hdlPageTitle><![CDATA[Island Paradise]]></hdlPageTitle>
+	<img_background><![CDATA[]]>
+	</img_background>
+	<opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+	<opt_not_in_sitemap><![CDATA[No]]></opt_not_in_sitemap>
+	<opt_show_in_navigation><![CDATA[Show]]></opt_show_in_navigation>
+	<stf_MetaKeywords><![CDATA[]]>
+	</stf_MetaKeywords>
+	<stf_meta_keywords><![CDATA[]]>
+	</stf_meta_keywords>
+	<stf_meta_description><![CDATA[]]>
+	</stf_meta_description>
+	<stf_NavSubHeader><![CDATA[]]>
+	</stf_NavSubHeader>
+	<stf_NavTitle><![CDATA[Case study - Island Paradise]]></stf_NavTitle>
+	<stf_PageTitle><![CDATA[Case study - Island Paradise]]></stf_PageTitle>
+	<conMainContent>
+		<BELayoutT8 isTemplate="1">
+			<hdl_headline><![CDATA[Layout - T8 2008]]></hdl_headline>
+			<stf_Title><![CDATA[Island Paradise]]></stf_Title>
+			<opt_display_content_full_width><![CDATA[]]>
+			</opt_display_content_full_width>
+			<con_sidebar>
+
+			</con_sidebar>
+			<con_content>
+				<BEGenericHeaderAndConentBody
+					isTemplate="1">
+					<hdl_headline><![CDATA[Generic - Header and Content Body 2009]]></hdl_headline>
+					<img_DateIcon><![CDATA[<img src="/contentimages/business-events/iconStar.png" width="18" height="15">]]></img_DateIcon>
+					<img_DestinationIcon><![CDATA[<img src="/contentimages/business-events/iconWorld.png" width="18" height="15">]]></img_DestinationIcon>
+					<img_EventTypeIcon><![CDATA[<img src="/contentimages/business-events/iconStar.png" width="18" height="15">]]></img_EventTypeIcon>
+					<img_DurationIcon><![CDATA[<img src="/contentimages/business-events/iconPax.png" width="18" height="15">]]></img_DurationIcon>
+					<opt_CaseStudy><![CDATA[0]]></opt_CaseStudy>
+					<stf_author><![CDATA[]]>
+					</stf_author>
+					<stf_DateText><![CDATA[]]>
+					</stf_DateText>
+					<stf_DelegatesText><![CDATA[]]>
+					</stf_DelegatesText>
+					<stf_DestinationText><![CDATA[]]>
+					</stf_DestinationText>
+					<stf_EventTypeText><![CDATA[]]>
+					</stf_EventTypeText>
+					<stf_Header><![CDATA[]]>
+					</stf_Header>
+					<stf_quote><![CDATA[]]>
+					</stf_quote>
+					<stf_Title><![CDATA[]]>
+					</stf_Title>
+					<txt_HTML><![CDATA[
+        <strong>Day 1:</strong> Head straight to the world-renowned Australia Zoo, a sanctuary for all types of reptiles as well as koalas, kangaroos, cheetahs, tigers, birds, several endangered species and other wild animals. Following lunch you’ll be transferred to you resort before dinner tonight at fun carnival-themed event.
+        <p><strong><br />
+        Day 2:</strong> Visit an award-winning day spa for a morning of rejuvenating, relaxing and reflecting. Take lunch at the beautiful Mary Cairncross Reserve with breathtaking views over the hinterland. Go shopping this afternoon in Montville, before three course progressive dinner at your resort.</p>
+        <p><strong>Day 3:</strong> Following a light breakfast, a helicopter will fly you to Kingfisher Bay Resort on the World Heritage-listed Fraser Island. The Island is the world’s largest sand island and a paradise of crystal clear lakes with white sandy bottoms, pristine rainforests and wetlands. After a guided tour and lunch, relax and soak up the atmosphere before a beachside BBQ for dinner.</p>
+        <p><strong>Day 4:</strong> Relax this morning before taking part in various beachside team activities with your group, then take a quick lunch before transferring to the ferry back to the Sunshine Coast. Dinner is under the stars at your resort.</p>
+        <p><strong>Day 5:</strong> After breakfast, head to Mooloolaba for yachting across the clear blue waters of the Sunshine Coast. Dolphin and whale spotting is likely, depending on the time of the year. After returning to dry land, you are transferred to Brisbane or Sunshine Coast airport for your departure.</p>
+    ]]></txt_HTML>
+				</BEGenericHeaderAndConentBody>
+			</con_content>
+		</BELayoutT8>
+	</conMainContent>
+	<lstNavigation>
+	</lstNavigation>
+</BEBaseFoundation>

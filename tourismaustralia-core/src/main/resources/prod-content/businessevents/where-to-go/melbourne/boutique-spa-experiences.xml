@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" ?>
+<BEBaseFoundation pageID="20766" isTemplate="1">
+	<breadcrumb>
+		<element level="1">
+			<headline><![CDATA[Homepage ]]></headline>
+			<href><![CDATA[/index.xml]]></href>
+		</element>
+		<element level="2">
+			<headline><![CDATA[Business Events]]></headline>
+			<href><![CDATA[/21974.ignore]]></href>
+		</element>
+		<element level="4">
+			<headline><![CDATA[Where to go]]></headline>
+			<href><![CDATA[/businessevents/where-to-go.xml]]></href>
+		</element>
+		<element level="5">
+			<headline><![CDATA[Melbourne]]></headline>
+			<href><![CDATA[/businessevents/where-to-go/melbourne.xml]]></href>
+		</element>
+		<element level="6">
+			<headline><![CDATA[Itineraries]]></headline>
+			<href><![CDATA[/businessevents/where-to-go/melbourne/itineraries.xml]]></href>
+		</element>
+		<element level="7">
+			<headline><![CDATA[Boutique Spa Experiences]]></headline>
+			<href><![CDATA[/businessevents/where-to-go/melbourne/boutique-spa-experiences.xml]]></href>
+		</element>
+
+	</breadcrumb>
+	<hdlPageTitle><![CDATA[Boutique Spa Experiences]]></hdlPageTitle>
+	<img_background><![CDATA[]]>
+	</img_background>
+	<opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+	<opt_not_in_sitemap><![CDATA[No]]></opt_not_in_sitemap>
+	<opt_show_in_navigation><![CDATA[Show]]></opt_show_in_navigation>
+	<stf_MetaKeywords><![CDATA[]]>
+	</stf_MetaKeywords>
+	<stf_meta_keywords><![CDATA[]]>
+	</stf_meta_keywords>
+	<stf_meta_description><![CDATA[]]>
+	</stf_meta_description>
+	<stf_NavSubHeader><![CDATA[]]>
+	</stf_NavSubHeader>
+	<stf_NavTitle><![CDATA[Boutique Spa Experiences]]></stf_NavTitle>
+	<stf_PageTitle><![CDATA[Boutique Spa Experiences]]></stf_PageTitle>
+	<conMainContent>
+		<BELayoutT8 isTemplate="1">
+			<hdl_headline><![CDATA[Layout - T8 2240]]></hdl_headline>
+			<stf_Title><![CDATA[]]>
+			</stf_Title>
+			<opt_display_content_full_width><![CDATA[]]>
+			</opt_display_content_full_width>
+			<con_sidebar>
+
+			</con_sidebar>
+			<con_content>
+				<BEGenericHeaderAndConentBody
+					isTemplate="1">
+					<hdl_headline><![CDATA[Boutique Spa Experiences]]></hdl_headline>
+					<img_DateIcon><![CDATA[<img src="/contentimages/business-events/iconStar.png" width="18" height="15">]]></img_DateIcon>
+					<img_DestinationIcon><![CDATA[<img src="/contentimages/business-events/iconWorld.png" width="18" height="15">]]></img_DestinationIcon>
+					<img_EventTypeIcon><![CDATA[<img src="/contentimages/business-events/iconStar.png" width="18" height="15">]]></img_EventTypeIcon>
+					<img_DurationIcon><![CDATA[<img src="/contentimages/business-events/iconPax.png" width="18" height="15">]]></img_DurationIcon>
+					<opt_CaseStudy><![CDATA[0]]></opt_CaseStudy>
+					<stf_author><![CDATA[]]>
+					</stf_author>
+					<stf_DateText><![CDATA[]]>
+					</stf_DateText>
+					<stf_DelegatesText><![CDATA[]]>
+					</stf_DelegatesText>
+					<stf_DestinationText><![CDATA[]]>
+					</stf_DestinationText>
+					<stf_EventTypeText><![CDATA[]]>
+					</stf_EventTypeText>
+					<stf_Header><![CDATA[]]>
+					</stf_Header>
+					<stf_quote><![CDATA[]]>
+					</stf_quote>
+					<stf_Title><![CDATA[Boutique Spa Experiences]]></stf_Title>
+					<txt_HTML><![CDATA[<strong>Day 1</strong>: Explore the beauty of the Macedon Ranges and indulge your palate with some of Victoria’s finest boutique wineries. After a scenic bushwalk in Mt Macedon National Park, stop off at the farm gates for mouth-watering delights, then explore the mysterious Hanging Rock. End the day at Bendigo, the centre of Victoria’s gold heritage.
+        <p><strong>Day 2</strong>: Wander in the footsteps of miners past and descend 60 metres on the fascinating Central Deborah gold mine tour before heading off through the quaint towns of Maldon and Castlemaine and some fabulous wineries. Arrive at Daylesford to soak up the natural beauty and historic buildings - or indulge in the highest concentration of natural mineral springs in Australia.</p>
+        <p><strong>Day 3</strong>: You’re in the heart of spa country, the perfect destination for relaxation and rejuvenation. Take to the waters, experience head-to-toe pampering or walk or hike to national parks, lakes and historic villages, galleries, markets, boutique shops or cosy caf&eacute;s.</p>
+        <p><strong>Day 4</strong>: Relax by the picturesque lake or in the streets of Daylesford before heading back to Melbourne.</p>]]></txt_HTML>
+				</BEGenericHeaderAndConentBody>
+			</con_content>
+		</BELayoutT8>
+	</conMainContent>
+	<lstNavigation>
+	</lstNavigation>
+</BEBaseFoundation>

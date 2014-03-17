@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="23337"
+	isTemplate="1">
+
+	<img_background><![CDATA[/contentimages/default.jpg]]></img_background>
+	<hdl_Title><![CDATA[Brightcove Video Test]]></hdl_Title>
+	<img_Banner><![CDATA[]]>
+	</img_Banner>
+	<img_SearchThumbnail><![CDATA[/thumbnails/about-key-facts-weather-sydney-search.jpg]]></img_SearchThumbnail>
+	<img_Thumbnail><![CDATA[/contentimages/about-key-facts-weather-sydney-th.jpg]]></img_Thumbnail>
+	<opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+	<opt_HidePage><![CDATA[no]]></opt_HidePage>
+	<opt_hideTitle><![CDATA[0]]></opt_hideTitle>
+	<opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+	<opt_IncludeVideo><![CDATA[0]]></opt_IncludeVideo>
+	<opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+	<opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+	<opt_PageLayout><![CDATA[]]>
+	</opt_PageLayout>
+	<opt_PartnerLead><![CDATA[no]]></opt_PartnerLead>
+	<stf_description><![CDATA[]]>
+	</stf_description>
+	<stf_ExcludedCountries><![CDATA[]]>
+	</stf_ExcludedCountries>
+	<stf_hideInXmlSitemap><![CDATA[]]>
+	</stf_hideInXmlSitemap>
+	<stf_ImageLocation><![CDATA[]]>
+	</stf_ImageLocation>
+	<stf_intro_title><![CDATA[]]>
+	</stf_intro_title>
+	<stf_IsExternalSiteArticle><![CDATA[]]>
+	</stf_IsExternalSiteArticle>
+	<stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+	<stf_keywords><![CDATA[]]>
+	</stf_keywords>
+	<stf_LinkLearnMore><![CDATA[Learn More]]></stf_LinkLearnMore>
+	<stf_NavigationTagLine><![CDATA[]]>
+	</stf_NavigationTagLine>
+	<stf_PageHeading><![CDATA[]]>
+	</stf_PageHeading>
+	<stf_TargetedCountries><![CDATA[]]>
+	</stf_TargetedCountries>
+	<stf_TrackingTitle><![CDATA[]]>
+	</stf_TrackingTitle>
+	<TA_Title><![CDATA[]]>
+	</TA_Title>
+	<txt_Intro>
+        <![CDATA[]]>
+	</txt_Intro>
+	<txt_MobileContentOnly>
+        <![CDATA[]]>
+	</txt_MobileContentOnly>
+	<txt_SpotlightTag>
+        <![CDATA[]]>
+	</txt_SpotlightTag>
+	<txt_Teaser>
+        <![CDATA[]]>
+	</txt_Teaser>
+	<con_Body>
+		<StandardCampaignLayout isTemplate="1">
+			<opt_national_landscapes_id><![CDATA[]]>
+			</opt_national_landscapes_id>
+			<hdl_Title><![CDATA[]]>
+			</hdl_Title>
+			<stf_hideInXmlSitemap><![CDATA[]]>
+			</stf_hideInXmlSitemap>
+			<stf_TargetedCountry><![CDATA[]]>
+			</stf_TargetedCountry>
+			<con_Banner></con_Banner>
+			<con_Body>
+				<TopCategoryHighlights isTemplate="1">
+					<stf_Heading><![CDATA[Brightcove Video Test]]></stf_Heading>
+					<stf_InformationTitle><![CDATA[]]>
+					</stf_InformationTitle>
+					<txt_Information><![CDATA[]]>
+					</txt_Information>
+					<con_CenterContent>
+						<BET8VideoGalleryPage isTemplate="1">
+							<!-- no user content -->
+						</BET8VideoGalleryPage>
+						<Video isTemplate="1">
+							<anc_Link><![CDATA[]]>
+							</anc_Link>
+							<opt_BrightCovePlayerType><![CDATA[1635977582001]]></opt_BrightCovePlayerType>
+							<opt_isEmbeded><![CDATA[true]]></opt_isEmbeded>
+							<opt_videoOption><![CDATA[brightCove]]></opt_videoOption>
+							<stf_BrightcoveHeight><![CDATA[224]]></stf_BrightcoveHeight>
+							<stf_BrightCoveWidth><![CDATA[400]]></stf_BrightCoveWidth>
+							<stf_CaptionTitle><![CDATA[]]>
+							</stf_CaptionTitle>
+							<stf_LinkText><![CDATA[]]>
+							</stf_LinkText>
+							<stf_MediaID><![CDATA[2443156450001]]></stf_MediaID>
+							<stf_TargetedCountry><![CDATA[]]>
+							</stf_TargetedCountry>
+							<txt_embedCode><![CDATA[<div style="display:none"></div>
+
+<script language="JavaScript" type="text/javascript" src="http://admin.brightcove.com/js/BrightcoveExperiences.js"></script>
+
+<object id="myExperience2443156450001" class="BrightcoveExperience">
+ <param name="bgcolor" value="#FFFFFF" />
+ <param name="width" value="480" />
+ <param name="height" value="270" />
+ <param name="playerID" value="1635977582001" />
+ <param name="playerKey" value="AQ~~,AAABfJkxEHE~,20THWYuqpxyNRaRbWupLtIJ6CQCa0UAb" />
+ <param name="isVid" value="true" />
+ <param name="isUI" value="true" />
+ <param name="dynamicStreaming" value="true" />
+
+<param name="@videoPlayer" value="2443156450001" />
+</object>
+
+<script type="text/javascript">brightcove.createExperiences();</script>]]></txt_embedCode>
+							<txt_VideoDescription><![CDATA[]]>
+							</txt_VideoDescription>
+						</Video>
+					</con_CenterContent>
+				</TopCategoryHighlights>
+			</con_Body>
+			<con_RHSModules></con_RHSModules>
+			<con_Category></con_Category>
+			<lst_Subpages>
+			</lst_Subpages>
+		</StandardCampaignLayout>
+	</con_Body>
+	<lst_Subpages>
+	</lst_Subpages>
+</ConsumerBaseFoundation>

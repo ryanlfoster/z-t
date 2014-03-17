@@ -21,10 +21,35 @@ public class SpecialOffer {
 	@DialogField(fieldLabel = "Alt Text", required = true, tab = 2)
 	private String altText;
 
+	@DialogField(fieldLabel = "Title", required = false, tab = 2)
+	private String title;
+
+	@DialogField(fieldLabel = "Text", required = false, tab = 2)
+	private String text;
+
+	@DialogField(fieldLabel = "Price", required = false, tab = 2)
+	private String price;
+
+	@DialogField(fieldLabel = "Price per text", required = false, tab = 2)
+	private String pricePerText;
+
+	@DialogField(fieldLabel = "View More Information Link", required = false, tab = 2)
+	private String viewMoreInformationLink;
+
+	@DialogField(fieldLabel = "View Terms and condition Link", required = false, tab = 2)
+	private String viewTermsAndConditionLink;
+
 	public SpecialOffer(SlingHttpServletRequest request) {
 		ValueMap properties = request.getResource().adaptTo(ValueMap.class);
-		altText = properties.get("image", "");
+		image = properties.get("image", "");
 		altText = properties.get("altText", "");
+		title = properties.get("title", "");
+		text = properties.get("text", "");
+		price = properties.get("price", "");
+		pricePerText = properties.get("pricePerText", "");
+		viewMoreInformationLink = properties.get("viewMoreInformationLink", "");
+		viewTermsAndConditionLink = properties.get("viewTermsAndConditionLink", "");
+
 	}
 
 	public String getImage() {
@@ -33,5 +58,29 @@ public class SpecialOffer {
 
 	public String getAltText() {
 		return altText;
+	}
+
+	public String getTitle() {
+		return title;
+	}
+
+	public String getText() {
+		return text;
+	}
+
+	public String getPrice() {
+		return price;
+	}
+
+	public String getPricePerText() {
+		return pricePerText;
+	}
+
+	public String getViewMoreInformationLink() {
+		return viewMoreInformationLink;
+	}
+
+	public String getViewTermsAndConditionLink() {
+		return viewTermsAndConditionLink;
 	}
 }

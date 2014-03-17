@@ -5,4 +5,10 @@
 
 <c:set var="specialOffer" value="<%=new SpecialOffer(slingRequest) %>"/>
 
-${specialOffer.altText}
+altText = ${specialOffer.altText}
+price = ${specialOffer.price}
+pricePerText = ${specialOffer.pricePerText}
+text = ${specialOffer.text}
+title = ${specialOffer.title}
+viewMoreInformationLink = ${specialOffer.viewMoreInformationLink}
+viewTermsAndConditionLink = ${specialOffer.viewTermsAndConditionLink}

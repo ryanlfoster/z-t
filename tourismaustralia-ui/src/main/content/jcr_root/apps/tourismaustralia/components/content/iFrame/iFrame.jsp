@@ -3,7 +3,7 @@
 <%@ page import="com.australia.www.components.content.iframe.IFrame" %>
 <%@ page import="com.day.cq.wcm.api.WCMMode" %>
 
-<c:set var="iframe" value="<%=new IFrame(slingRequest) %>"/>
+<c:set var="header" value="<%=new IFrame(slingRequest) %>"/>
 
 <% if (WCMMode.fromRequest(slingRequest) == WCMMode.EDIT) {%>
 <c:choose>

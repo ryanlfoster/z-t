@@ -1,0 +1,26 @@
+package com.australia.foodandwine.components.content.header;
+
+import com.citytechinc.cq.component.annotations.DialogField;
+import com.citytechinc.cq.component.annotations.widgets.PathField;
+
+public class HeaderBean {
+	@DialogField(fieldLabel="Title",name="linkText")
+	private String linkText;
+	@DialogField(fieldLabel="Path",name="pagePath")
+	@PathField
+	private String pagePath;
+	public String getLinkText() {
+		return linkText;
+	}
+	public void setLinkText(String linkText) {
+		this.linkText = linkText;
+	}
+	public String getPagePath() {
+		return pagePath;
+	}
+	public void setPagePath(String pagePath) {
+		this.pagePath = pagePath;
+	}
+	
+
+}

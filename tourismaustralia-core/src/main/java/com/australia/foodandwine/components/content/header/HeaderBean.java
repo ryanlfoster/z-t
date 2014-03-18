@@ -4,9 +4,9 @@ import com.citytechinc.cq.component.annotations.DialogField;
 import com.citytechinc.cq.component.annotations.widgets.PathField;
 
 public class HeaderBean {
-	@DialogField(fieldLabel="Title",name="linkText")
+	@DialogField(fieldLabel="Header Link Text",name="headerLinkText")
 	private String linkText;
-	@DialogField(fieldLabel="Path",name="pagePath")
+	@DialogField(fieldLabel="Header Link Path",name="headerLinkPath")
 	@PathField
 	private String pagePath;
 	public String getLinkText() {

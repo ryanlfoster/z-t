@@ -10,7 +10,13 @@ public enum SocialNetworkType {
 	@Option(text = "Facebook")
 	FACEBOOK("st_facebook_large"),
 	@Option(text = "Twitter")
-	TWITTER("st_twitter_large");
+	TWITTER("st_twitter_large"),
+	@Option(text = "LinkedIn")
+	LINKEDIN("st_linkedin_large"),
+	@Option(text = "GooglePlus")
+	GOOGLEPLUS("st_googleplus_large"),
+	@Option(text = "Email")
+	EMAIL("st_email_large");
 
 	private String site;
 	private static final Map<String, SocialNetworkType> lookup = new HashMap<String, SocialNetworkType>();

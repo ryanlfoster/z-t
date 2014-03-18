@@ -30,20 +30,22 @@ CQ_Analytics.ClientContextMgr.addListener("storesinitialize", function (e) {
 		$.each(socnet_json, function(idx, obj) {
 			if(obj.country == country)  {
 				country_found = true;
-				addShareThisButton(obj);
+				addShareThisButton(obj, share_url, page_title, page_desc);
 				return false;
 			}
 		});
 		// use the default set if country specific is not found
-		$.each(socnet_json, function(idx, obj) {
-			if(!country_found && obj.country == "default")  {
-				addShareThisButton(obj);
-				return false;
-			}
-		});
+		if (!country_found) {
+			$.each(socnet_json, function(idx, obj) {
+				if(obj.country == "default")  {
+					addShareThisButton(obj, share_url, page_title, page_desc);
+					return false;
+				}
+			});
+		}
 	});    	
 	
-	function addShareThisButton(obj) { 
+	function addShareThisButton(obj,url,title,desc) { 
 		var socnet = obj.types.split(',');
 		for(var i = 0; i < socnet.length; i++) { 
 			var social_network = socnet[i].toLowerCase();
@@ -51,12 +53,12 @@ CQ_Analytics.ClientContextMgr.addListener("storesinitialize", function (e) {
 			stWidget.addEntry({
 				"service": social_network,
 				"element": document.getElementById('st-btn-' + social_network),
-				"url":"http://sharethis.com",
-				"title":"sharethis",
+				"url": url,
+				"title": title,
 				"type":"large",
 				"text":"ShareThis" ,
 				"image":"http://www.softicons.com/download/internet-icons/social-superheros-icons-by-iconshock/png/256/sharethis_hulk.png", // image TO BE SHARED
-				"summary":"this is the share button for " + social_network 
+				"summary": desc
 			});		
 		}
 	}

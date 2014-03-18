@@ -100,7 +100,6 @@ public class Global {
 		} else {
 			favIcon = tempFavIcon;
 		}
-
 	}
 
 	/**
@@ -116,7 +115,7 @@ public class Global {
 		JSONArray jsonarray = new JSONArray();
 		JSONObject json = new JSONObject();
 		try {
-			// now write the DEFAULT social networks
+			// write the DEFAULT social networks
 			json.accumulate("country", "default");
 			json.accumulate(
 				"types",

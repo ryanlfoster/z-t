@@ -10,6 +10,8 @@
 	data-type="${sharethis.shareType}" data-accountId="${sharethis.accountId}"> 
 	    <script type="text/javascript">
  			  var sharethis_json = '${global.socialNetworks}';
+ 			  var page_title = '${global.title}';
+ 			  var page_desc = '${global.description}';
        	</script>
 		<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
 </div>

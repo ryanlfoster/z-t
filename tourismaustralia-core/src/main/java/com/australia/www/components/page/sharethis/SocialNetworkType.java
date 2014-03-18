@@ -10,6 +10,9 @@ public enum SocialNetworkType {
 	@Option(text = "Facebook")
 	FACEBOOK("st_facebook_large"),
 
+	@Option(text = "Facebook Like")
+	FBLIKE("st_fblike_large"),
+
 	@Option(text = "Twitter")
 	TWITTER("st_twitter_large"),
 

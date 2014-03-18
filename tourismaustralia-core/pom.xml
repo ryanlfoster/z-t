@@ -224,6 +224,8 @@
 			<groupId>com.citytechinc.cq.cq-component-plugin</groupId>
 			<artifactId>cq-component-maven-plugin</artifactId>
 		</dependency>
+		
+		
 		<!-- TESTING -->
 		<dependency>
 			<groupId>org.slf4j</groupId>

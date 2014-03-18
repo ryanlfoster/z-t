@@ -10,7 +10,7 @@ import com.citytechinc.cq.component.annotations.Listener;
 /**
  *
  */
-@Component(group="Food and Wine",value = "Footer", listeners = {
+@Component(group="Food and Wine", basePath="foodandwine/components/content/Footer",value = "Footer", listeners = {
 	@Listener(name = "aftercopy", value = "REFRESH_PAGE"), @Listener(name = "afterdelete", value = "REFRESH_PAGE"),
 	@Listener(name = "afteredit", value = "REFRESH_PAGE"), @Listener(name = "afterinsert", value = "REFRESH_PAGE") })
 public class Footer {

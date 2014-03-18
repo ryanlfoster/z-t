@@ -116,14 +116,14 @@ public class Global {
 		JSONArray jsonarray = new JSONArray();
 		JSONObject json = new JSONObject();
 		try {
-			// write the DEFAULT social networks to the json array
+			// now write the DEFAULT social networks
 			json.accumulate("country", "default");
 			json.accumulate(
 				"types",
 				StringUtils.join(
 					PropertiesUtil.toStringArray(parent.getProperties().get("socialNetworks"), new String[0]), ","));
 			jsonarray.put(json);
-			// now write the CUSTOM social networks (by country)
+			// now write the CUSTOM social networks - by country
 			String stPageURL = parent.getPath() + "/jcr:content/shareThis";
 			Resource sharethisPage = request.getResourceResolver().getResource(stPageURL);
 			if (sharethisPage != null) {

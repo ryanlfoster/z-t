@@ -1,6 +1,6 @@
 CQ_Analytics.ClientContextMgr.addListener("storesinitialize", function (e) {
     var telize = CQ_Analytics.StoreRegistry.getStores().telize;
-    var country = "en"; 
+    var country = ""; 
     if (telize && telize.data) {
         var data = telize.data;
         country = data.country;
@@ -24,28 +24,43 @@ CQ_Analytics.ClientContextMgr.addListener("storesinitialize", function (e) {
 		
 		stLight.options({ publisher: share_key });
 		var socnet_json = $.parseJSON(sharethis_json);
+		var country_found = false;
 		
-		alert('country' + country);
-		
+		// try to find a country specific list of social networks
 		$.each(socnet_json, function(idx, obj) {
-			if (obj.country == 'default') {
-				var socnet = obj.types.split(',');
-				for(var i = 0; i < socnet.length; i++) { 
-					var social_network = socnet[i].toLowerCase();
-					$this.append("<span id='st-btn-" + social_network + "'/>");
-					stWidget.addEntry({
-						"service": social_network,
-						"element": document.getElementById('st-btn-' + social_network),
-						"url":"http://sharethis.com",
-						"title":"sharethis",
-						"type":"large",
-						"text":"ShareThis" ,
-						"image":"http://www.softicons.com/download/internet-icons/social-superheros-icons-by-iconshock/png/256/sharethis_hulk.png", // image TO BE SHARED
-						"summary":"this is the share button for " + social_network 
-					});		
-				}
+			if(obj.country == country)  {
+				country_found = true;
+				addShareThisButton(obj);
+				return false;
+			}
+		});
+		// use the default set if country specific is not found
+		$.each(socnet_json, function(idx, obj) {
+			if(!country_found && obj.country == "default")  {
+				addShareThisButton(obj);
+				return false;
 			}
 		});
 	});    	
+	
+	function addShareThisButton(obj) { 
+		var socnet = obj.types.split(',');
+		for(var i = 0; i < socnet.length; i++) { 
+			var social_network = socnet[i].toLowerCase();
+			$this.append("<span id='st-btn-" + social_network + "'/>");
+			stWidget.addEntry({
+				"service": social_network,
+				"element": document.getElementById('st-btn-' + social_network),
+				"url":"http://sharethis.com",
+				"title":"sharethis",
+				"type":"large",
+				"text":"ShareThis" ,
+				"image":"http://www.softicons.com/download/internet-icons/social-superheros-icons-by-iconshock/png/256/sharethis_hulk.png", // image TO BE SHARED
+				"summary":"this is the share button for " + social_network 
+			});		
+		}
+	}
+	
+	
 });
 

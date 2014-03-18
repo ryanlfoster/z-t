@@ -9,12 +9,16 @@ import com.citytechinc.cq.component.annotations.Option;
 public enum SocialNetworkType {
 	@Option(text = "Facebook")
 	FACEBOOK("st_facebook_large"),
+
 	@Option(text = "Twitter")
 	TWITTER("st_twitter_large"),
+
 	@Option(text = "LinkedIn")
 	LINKEDIN("st_linkedin_large"),
+
 	@Option(text = "GooglePlus")
 	GOOGLEPLUS("st_googleplus_large"),
+
 	@Option(text = "Email")
 	EMAIL("st_email_large");
 

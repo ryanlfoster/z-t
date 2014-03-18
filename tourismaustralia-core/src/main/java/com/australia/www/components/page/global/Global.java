@@ -130,7 +130,8 @@ public class Global {
 					ValueMap jcrProp = res.adaptTo(ValueMap.class);
 					json = new JSONObject();
 					json.accumulate("country", jcrProp.get("country"));
-					json.accumulate("types", jcrProp.get("socialNetworks"));
+					json.accumulate("types", StringUtils.join(
+						PropertiesUtil.toStringArray(jcrProp.get("socialNetworks"), new String[0]), ","));
 					jsonarray.put(json);
 				}
 			}

@@ -23,6 +23,7 @@
     <cq:include script="headlibs.jsp"/>
     <cq:include script="/libs/wcm/core/components/init/init.jsp"/>
     <cq:include script="stats.jsp"/>
+    <cq:includeClientLib categories="ta-foodandwine"/> 
     <c:if test="${not empty global.favIcon}">
         <link rel="icon" type="image/vnd.microsoft.icon" href="${global.favIcon}"/>
         <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="${global.favIcon}"/>

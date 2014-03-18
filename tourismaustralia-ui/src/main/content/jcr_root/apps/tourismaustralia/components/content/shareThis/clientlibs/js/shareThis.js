@@ -1,7 +1,6 @@
 CQ_Analytics.ClientContextMgr.addListener("storesinitialize", function (e) {
     var telize = CQ_Analytics.StoreRegistry.getStores().telize;
-
-    var country = "NZ";
+    var country = "en"; 
     if (telize && telize.data) {
         var data = telize.data;
         country = data.country;
@@ -12,11 +11,41 @@ CQ_Analytics.ClientContextMgr.addListener("storesinitialize", function (e) {
         var city = data.city;
     }
 	$('.shareThisHolder').each(function () { 
-	    $.getJSON("/bin/favorites/share/guid", function (data) {
-	    	$('#showdata').html("<p>shareId=" + data.shareId+"</p>");
-	    	$(this).attr('data-shareUrl', data.shareId);
-	    });
+		$this = $(this);
+		var share_url = $this.attr('data-shareUrl');
+		var share_type = $this.attr('data-type');
+		var share_key = $this.attr('data-accountId');
+		
+		if (share_type=='share') {
+		    $.getJSON("/bin/favorites/share/guid", function (data) {
+		     	$this.attr('data-shareUrl', share_url.replace("{lang}", country).replace("{id}", data.shareId));
+		    });
+		}
+		
+		stLight.options({ publisher: share_key });
+		var socnet_json = $.parseJSON(sharethis_json);
+		
+		alert('country' + country);
+		
+		$.each(socnet_json, function(idx, obj) {
+			if (obj.country == 'default') {
+				var socnet = obj.types.split(',');
+				for(var i = 0; i < socnet.length; i++) { 
+					var social_network = socnet[i].toLowerCase();
+					$this.append("<span id='st-btn-" + social_network + "'/>");
+					stWidget.addEntry({
+						"service": social_network,
+						"element": document.getElementById('st-btn-' + social_network),
+						"url":"http://sharethis.com",
+						"title":"sharethis",
+						"type":"large",
+						"text":"ShareThis" ,
+						"image":"http://www.softicons.com/download/internet-icons/social-superheros-icons-by-iconshock/png/256/sharethis_hulk.png", // image TO BE SHARED
+						"summary":"this is the share button for " + social_network 
+					});		
+				}
+			}
+		});
 	});    	
-    
 });
 

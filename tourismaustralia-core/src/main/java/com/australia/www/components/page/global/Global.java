@@ -65,6 +65,7 @@ public class Global {
 
 		Page currentPage = request.getResourceResolver().adaptTo(PageManager.class)
 			.getContainingPage(request.getResource());
+
 		ValueMap properties = currentPage.getProperties();
 		removeFromSearch = properties.get("removeFromSearch", false);
 		latitude = properties.get("latitude", Double.class);
@@ -75,7 +76,7 @@ public class Global {
 		description = xssAPI.encodeForHTMLAttr(properties.get("jcr:description", ""));
 		keywords = xssAPI.encodeForHTMLAttr(WCMUtils.getKeywords(currentPage, false));
 		lastModified = StringUtils.left(xssAPI.encodeForHTMLAttr(properties.get("cq:lastModified", "")), 10);
-		socialNetworks = this.getSocialNetworks(request, currentPage).toString();
+		socialNetworks = this.getSocialNetworks(request, currentPage.getAbsoluteParent(OZCOM_CONTENT_ROOT)).toString();
 
 		Resource imageResource = currentPage.getContentResource();
 		Image image = new Image(imageResource, "image");
@@ -93,7 +94,6 @@ public class Global {
 		}
 
 		url = serverName + currentPage.getPath() + ".html";
-
 		String tempFavIcon = currentPage.adaptTo(Design.class).getPath() + "/favicon.ico";
 		if (request.getResourceResolver().getResource(tempFavIcon) == null) {
 			favIcon = null;
@@ -109,26 +109,31 @@ public class Global {
 	 * default set is used.
 	 * 
 	 * @param request - used to get the resolve resolver
-	 * @param currentPage - used to get the parent path
+	 * @param parent - the content root page i.e. content/australia
 	 * @return the social networks as a json array
 	 */
-	private JSONArray getSocialNetworks(SlingHttpServletRequest request, Page currentPage) {
+	private JSONArray getSocialNetworks(SlingHttpServletRequest request, Page parent) {
 		JSONArray jsonarray = new JSONArray();
 		JSONObject json = new JSONObject();
 		try {
 			// write the DEFAULT social networks to the json array
 			json.accumulate("country", "default");
-			json.accumulate("types", StringUtils.join(
-				PropertiesUtil.toStringArray(currentPage.getProperties().get("socialNetworks"), new String[0]), ","));
+			json.accumulate(
+				"types",
+				StringUtils.join(
+					PropertiesUtil.toStringArray(parent.getProperties().get("socialNetworks"), new String[0]), ","));
 			jsonarray.put(json);
 			// now write the CUSTOM social networks (by country)
-			String stPageURL = currentPage.getAbsoluteParent(OZCOM_CONTENT_ROOT).getPath() + "/jcr:content/shareThis";
-			for (Resource res : request.getResourceResolver().getResource(stPageURL).getChildren()) {
-				ValueMap jcrProp = res.adaptTo(ValueMap.class);
-				json = new JSONObject();
-				json.accumulate("country", jcrProp.get("country"));
-				json.accumulate("types", jcrProp.get("socialNetworks"));
-				jsonarray.put(json);
+			String stPageURL = parent.getPath() + "/jcr:content/shareThis";
+			Resource sharethisPage = request.getResourceResolver().getResource(stPageURL);
+			if (sharethisPage != null) {
+				for (Resource res : sharethisPage.getChildren()) {
+					ValueMap jcrProp = res.adaptTo(ValueMap.class);
+					json = new JSONObject();
+					json.accumulate("country", jcrProp.get("country"));
+					json.accumulate("types", jcrProp.get("socialNetworks"));
+					jsonarray.put(json);
+				}
 			}
 		} catch (JSONException e) {
 			LOG.error("There was an error generating the json for SocialNetworks", e);

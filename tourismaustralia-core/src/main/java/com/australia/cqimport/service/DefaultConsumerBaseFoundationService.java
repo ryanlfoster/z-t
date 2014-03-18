@@ -18,6 +18,7 @@ import com.australia.cqimport.domain.ConsumerBaseFoundationType;
 public class DefaultConsumerBaseFoundationService implements ConsumerBaseFoundationService {
 	private static final Logger LOG = LoggerFactory.getLogger(DefaultConsumerBaseFoundationService.class);
 
+	@SuppressWarnings("unchecked")
 	@Override
 	public ConsumerBaseFoundationType getByPath(String path) {
 		try {

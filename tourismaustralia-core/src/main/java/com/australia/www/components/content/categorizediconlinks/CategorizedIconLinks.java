@@ -2,22 +2,24 @@ package com.australia.www.components.content.categorizediconlinks;
 
 import com.citytechinc.cq.component.annotations.Component;
 import com.citytechinc.cq.component.annotations.DialogField;
+import com.citytechinc.cq.component.annotations.Tab;
 import com.citytechinc.cq.component.annotations.widgets.DialogFieldSet;
 import org.apache.commons.lang.StringUtils;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.ValueMap;
 
-@Component(value = "Categorized Icon Links")
+@Component(value = "Categorized Icon Links", tabs = {@Tab(title = "Category 1"), @Tab(title = "Category 2"),
+        @Tab(title = "Category 3")})
 public class CategorizedIconLinks {
-    @DialogField (fieldLabel = "Category 1")
+    @DialogField(tab = 1)
     @DialogFieldSet(namePrefix = "title1/")
     private TitleText titleText1;
 
-    @DialogField
+    @DialogField(tab = 2)
     @DialogFieldSet(namePrefix = "title2/")
     private TitleText titleText2;
 
-    @DialogField
+    @DialogField(tab = 3)
     @DialogFieldSet(namePrefix = "title3/")
     private TitleText titleText3;
 

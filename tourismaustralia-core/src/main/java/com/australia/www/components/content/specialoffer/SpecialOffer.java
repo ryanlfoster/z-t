@@ -4,12 +4,9 @@ import com.citytechinc.cq.component.annotations.Component;
 import com.citytechinc.cq.component.annotations.DialogField;
 import com.citytechinc.cq.component.annotations.Tab;
 import com.citytechinc.cq.component.annotations.widgets.Html5SmartImage;
+import org.apache.commons.lang.StringUtils;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.ValueMap;
-
-/**
- * Created by Viren Pushpanayagam on 17/03/14.
- */
 
 @Component(value = "Special Offer", tabs = { @Tab(title = "Image"), @Tab(title = "Extra Information") })
 public class SpecialOffer {
@@ -41,14 +38,14 @@ public class SpecialOffer {
 
 	public SpecialOffer(SlingHttpServletRequest request) {
 		ValueMap properties = request.getResource().adaptTo(ValueMap.class);
-		image = properties.get("image", "");
-		altText = properties.get("altText", "");
-		title = properties.get("title", "");
-		text = properties.get("text", "");
-		price = properties.get("price", "");
-		pricePerText = properties.get("pricePerText", "");
-		viewMoreInformationLink = properties.get("viewMoreInformationLink", "");
-		viewTermsAndConditionLink = properties.get("viewTermsAndConditionLink", "");
+		image = properties.get("image", StringUtils.EMPTY);
+		altText = properties.get("altText", StringUtils.EMPTY);
+		title = properties.get("title", StringUtils.EMPTY);
+		text = properties.get("text", StringUtils.EMPTY);
+		price = properties.get("price", StringUtils.EMPTY);
+		pricePerText = properties.get("pricePerText", StringUtils.EMPTY);
+		viewMoreInformationLink = properties.get("viewMoreInformationLink", StringUtils.EMPTY);
+		viewTermsAndConditionLink = properties.get("viewTermsAndConditionLink", StringUtils.EMPTY);
 
 	}
 

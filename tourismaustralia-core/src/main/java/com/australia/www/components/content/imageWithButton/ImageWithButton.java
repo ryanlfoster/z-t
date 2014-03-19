@@ -12,99 +12,80 @@ import com.day.cq.wcm.foundation.Image;
 
 /**
  * Created by myeasmin on 18/03/14.
- * This component is composed of 2 tabs - Image, and Text and Button.
- */
-@Component(value="Image With Button", tabs = {@Tab(title="Image"), @Tab(title="Text and Button")})
+ *
+ * This component is composed of 2 tabs - Image, and Additional Properties.
+  */
+@Component(value="Image With Button", tabs = {@Tab(title="Image"), @Tab(title="Additional Properties")})
 public class ImageWithButton {
 
-    @DialogField(required = true, tab =1, fieldLabel = "Image Src", name = "./imageSrc")
-    @Html5SmartImage(height = 400)
-    private String imageSrc;
+    @DialogField(required = true, tab = 1, hideLabel = true)
+    @Html5SmartImage(height = 400, tab = true, name="imageSrc")
+    private final String imageSrc;
 
-    @DialogField(required = true, tab = 1, fieldLabel = "Image ALt Text", name ="./imageAltText")
-    private String imgAltText;
+    @DialogField(required = true, tab = 2, fieldLabel = "Image Alt Text")
+    private final String imgAltText;
 
-    @DialogField(required = true, tab = 2, fieldLabel = "Text", name = "./text")
-    private String text;
+    @DialogField(required = true, tab = 2, fieldLabel = "Text")
+    private final String text;
 
-    @DialogField(tab = 2, fieldLabel = "Author Text", name = "./authorText")
-    private String authorText;
+    @DialogField(tab = 2, fieldLabel = "Author Text")
+    private final String authorText;
 
-    @DialogField(tab = 2, fieldLabel = "Sub Text", name = "./subText")
-    private String subText;
+    @DialogField(tab = 2, fieldLabel = "Sub Text")
+    private final String subText;
 
-    @DialogField(required = true,  tab = 2, fieldLabel = "Button Text", name = "./buttonText")
-    private String buttonText;
+    @DialogField(required = true,  tab = 2, fieldLabel = "Button Text")
+    private final String buttonText;
 
-    @DialogField(required = true,  tab = 2, fieldLabel = "Button Path", name = "./buttonPath")
+    @DialogField(required = true,  tab = 2, fieldLabel = "Button Path")
     @PathField
-    private String buttonPath;
+    private final String buttonPath;
+
 
     public String getImageSrc() {
         return imageSrc;
-    }
-
-    public void setImageSrc(String imageSrc) {
-        this.imageSrc = imageSrc;
     }
 
     public String getImgAltText() {
         return imgAltText;
     }
 
-    public void setImgAltText(String imgAltText) {
-        this.imgAltText = imgAltText;
-    }
-
     public String getText() {
         return text;
-    }
-
-    public void setText(String text) {
-        this.text = text;
     }
 
     public String getAuthorText() {
         return authorText;
     }
 
-    public void setAuthorText(String authorText) {
-        this.authorText = authorText;
-    }
-
     public String getSubText() {
         return subText;
-    }
-
-    public void setSubText(String subText) {
-        this.subText = subText;
     }
 
     public String getButtonText() {
         return buttonText;
     }
 
-    public void setButtonText(String buttonText) {
-        this.buttonText = buttonText;
-    }
+    public String getButtonPath() { return buttonPath; }
 
-    public String getButtonPath() {
-        return buttonPath;
-    }
-
-    public void setButtonPath(String buttonPath) {
-        this.buttonPath = buttonPath;
-    }
 
     public ImageWithButton(SlingHttpServletRequest slingRequest) {
         ValueMap properties = slingRequest.getResource().adaptTo(ValueMap.class);
-        setImgAltText(properties.get("imageAltText", ""));
-        Image image = new Image(slingRequest.getResource(), "image");
-        setImageSrc(image.getSrc());
-        setText(properties.get("text", ""));
-        setAuthorText(properties.get("authorText", ""));
-        setSubText(properties.get("subText", ""));
-        setButtonPath(properties.get("buttonPath", ""));
-        setButtonText(properties.get("buttonText", ""));
+        Image image = new Image(slingRequest.getResource(),"imageSrc");
+        if (checkImage(image)) {
+            this.imageSrc = image.getSrc();
+        } else {
+            this.imageSrc = "Image not found" ;
+        }
+        this.imgAltText = properties.get("imageAltText", "");
+        this.text = properties.get("text", "");
+        this.authorText = properties.get("authorText", "");
+        this.subText = properties.get("subText", "");
+        this.buttonPath = properties.get("buttonPath", "");
+        this.buttonText = properties.get("buttonText", "");
+    }
+
+    private boolean checkImage (Image img) {
+        return (img != null && img.hasContent());
     }
 }

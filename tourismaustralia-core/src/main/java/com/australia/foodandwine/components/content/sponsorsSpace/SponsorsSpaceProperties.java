@@ -1,7 +1,6 @@
 package com.australia.foodandwine.components.content.sponsorsSpace;
 
 import com.citytechinc.cq.component.annotations.DialogField;
-import com.citytechinc.cq.component.annotations.FieldProperty;
 import com.citytechinc.cq.component.annotations.widgets.PathField;
 /**
  *

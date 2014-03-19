@@ -1,8 +1,10 @@
 package com.australia.foodandwine.components.content.herohome;
 
 import org.apache.sling.api.SlingHttpServletRequest;
+import org.apache.sling.api.resource.ValueMap;
 
 import com.citytechinc.cq.component.annotations.Component;
+import com.citytechinc.cq.component.annotations.DialogField;
 import com.citytechinc.cq.component.annotations.Listener;
 
 
@@ -13,12 +15,6 @@ public class HeroHome {
 
 	
 	
-	public HeroHome(SlingHttpServletRequest request) {
-
-		
-		
-		
-	}
 
 	
 }

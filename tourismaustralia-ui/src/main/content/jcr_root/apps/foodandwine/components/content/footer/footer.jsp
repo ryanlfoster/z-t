@@ -10,7 +10,7 @@
     <img class="type-spacing-30" src="imgs/logo/logo-restaurant-australia-clear.png">
     <a class="footer-restaurant-australia-elements-link type-spacing-15">restaurantAUS.COM</a>
     <div class="footer-restaurant-australia-elements-biline-container type-spacing-60">
-        <div class="footer-restaurant-australia-elements-biline">proudly brought to you by tourism australia</div>
+        <div class="footer-restaurant-australia-elements-biline">proudly brought to you by Tourism Australia</div>
         <hr>
     </div>
 </div>
@@ -30,11 +30,11 @@
 <div class="footer-col">
     <p class="footer-heading">About this site</p>
     <ul class="footer-text-list l-list-clean">
-        <li><a href="#">Send feedback</a></li>
+        <li><a href="#">Send Feedback</a></li>
         <li><a href="#">Sitemap</a></li>
-        <li><a href="#">Special offers disclaimer</a></li>
-        <li><a href="#">Privacy policy</a></li>
-        <li><a href="#">Terms & conditions</a></li>
+        <li><a href="#">Special Offers disclaimer</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms & Conditions</a></li>
     </ul>
 </div>
             </div>
@@ -45,7 +45,7 @@
         <li><a href="#" class="btn-share icon-font-facebook icon-colour-grey"><span>Facebook</span></a></li>
         <li><a href="#" class="btn-share icon-font-twitter icon-colour-grey type-spacing-15"><span>Twitter</span></a></li>
         <li><a href="#" class="btn-share icon-font-googleplus icon-colour-grey"><span>Google +</span></a></li>
-        <li><a href="#" class="btn-share icon-font-youtube icon-colour-grey type-spacing-15"><span>Youtube</span></a></li>
+        <li><a href="#" class="btn-share icon-font-youtube icon-colour-grey type-spacing-15"><span>YouTube</span></a></li>
         <li><a href="#" class="btn-share icon-font-pinterest icon-colour-grey"><span>Pinterest</span></a></li>
         <li><a href="#" class="btn-share icon-font-instagram icon-colour-grey"><span>Instagram</span></a></li>
     </ul>

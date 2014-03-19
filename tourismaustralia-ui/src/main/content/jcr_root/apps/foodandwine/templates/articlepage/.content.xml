@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
           xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
-          jcr:primaryType="cq:Template" jcr:title="TA Test Template (Food And Wine)"
-          jcr:description="Test template for TA (Food and Wine)"
+          jcr:primaryType="cq:Template" jcr:title="TA Article Template (Food And Wine)"
+          jcr:description="Artcle template for TA (Food and Wine)"
           allowedPaths="[/content(/.*)?]">
 
     <jcr:content jcr:primaryType="cq:PageContent"
-                 sling:resourceType="foodandwine/components/page/foodandwinesinglecol"
+                 sling:resourceType="foodandwine/components/page/articlepage"
                  cq:designPath="/etc/designs/foodandwine"
             />
 

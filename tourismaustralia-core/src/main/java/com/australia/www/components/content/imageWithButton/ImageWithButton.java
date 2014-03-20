@@ -1,11 +1,11 @@
-package com.australia.www.components.content.imageWithButton;
+package com.australia.www.components.content.imagewithbutton;
 
 import com.citytechinc.cq.component.annotations.Component;
 import com.citytechinc.cq.component.annotations.DialogField;
 import com.citytechinc.cq.component.annotations.Tab;
-import com.citytechinc.cq.component.annotations.widgets.DialogFieldSet;
 import com.citytechinc.cq.component.annotations.widgets.Html5SmartImage;
 import com.citytechinc.cq.component.annotations.widgets.PathField;
+import org.apache.commons.lang.StringUtils;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.ValueMap;
 import com.day.cq.wcm.foundation.Image;
@@ -41,8 +41,19 @@ public class ImageWithButton {
     @PathField
     private final String buttonPath;
 
+	public ImageWithButton(SlingHttpServletRequest slingRequest) {
+		ValueMap properties = slingRequest.getResource().adaptTo(ValueMap.class);
+		Image image = new Image(slingRequest.getResource(),"imageSrc");
+		this.imageSrc = image.getSrc();
+		this.imgAltText = properties.get("imageAltText", StringUtils.EMPTY);
+		this.text = properties.get("text", StringUtils.EMPTY);
+		this.authorText = properties.get("authorText", StringUtils.EMPTY);
+		this.subText = properties.get("subText", StringUtils.EMPTY);
+		this.buttonPath = properties.get("buttonPath", StringUtils.EMPTY);
+		this.buttonText = properties.get("buttonText", StringUtils.EMPTY);
+	}
 
-    public String getImageSrc() {
+	public String getImageSrc() {
         return imageSrc;
     }
 
@@ -69,23 +80,4 @@ public class ImageWithButton {
     public String getButtonPath() { return buttonPath; }
 
 
-    public ImageWithButton(SlingHttpServletRequest slingRequest) {
-        ValueMap properties = slingRequest.getResource().adaptTo(ValueMap.class);
-        Image image = new Image(slingRequest.getResource(),"imageSrc");
-        if (checkImage(image)) {
-            this.imageSrc = image.getSrc();
-        } else {
-            this.imageSrc = "Image not found" ;
-        }
-        this.imgAltText = properties.get("imageAltText", "");
-        this.text = properties.get("text", "");
-        this.authorText = properties.get("authorText", "");
-        this.subText = properties.get("subText", "");
-        this.buttonPath = properties.get("buttonPath", "");
-        this.buttonText = properties.get("buttonText", "");
-    }
-
-    private boolean checkImage (Image img) {
-        return (img != null && img.hasContent());
-    }
 }

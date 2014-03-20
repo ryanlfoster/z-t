@@ -94,7 +94,7 @@
 						</div>
 					</div>
 
-					<h5 class='experiences-headline'>Other Experienvces in</h5>
+					<h5 class='experiences-headline'>Other Experiences in</h5>
 					<h2>Victoria</h2>
 					<hr class="divider-small">
 

@@ -1,11 +1,14 @@
 package com.australia.foodandwine.components.content.hero;
 
+import java.util.UUID;
+
 import org.apache.commons.lang3.StringUtils;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.ValueMap;
 
 import com.citytechinc.cq.component.annotations.Component;
 import com.citytechinc.cq.component.annotations.DialogField;
+import com.citytechinc.cq.component.annotations.FieldProperty;
 import com.citytechinc.cq.component.annotations.Listener;
 import com.citytechinc.cq.component.annotations.Tab;
 import com.citytechinc.cq.component.annotations.widgets.PathField;
@@ -41,6 +44,10 @@ public class Hero {
 
 	@DialogField(fieldLabel = "Overlay Text for Video",fieldDescription="Text after play button", tab = 3)
 	private final String textAfterPlayButton;
+	
+	@DialogField(required = true, tab = 3, xtype = "BrightcoveCombo", fieldLabel = "Video", name = "./video", additionalProperties = @FieldProperty(name = "hiddenName", value = "./videoPlayer"))
+	private final String videoPlayer;
+	private final String videoRandomId;
 
 	/**
 	 * Constants
@@ -62,7 +69,13 @@ public class Hero {
 		byLineText = properties.get("byLineText", StringUtils.EMPTY);
 		textBeforePlayButton = properties.get("textBeforePlayButton", StringUtils.EMPTY);
 		textAfterPlayButton = properties.get("textAfterPlayButton", StringUtils.EMPTY);
+		videoRandomId = new String(UUID.randomUUID().toString().replaceAll("-", ""));
+		videoPlayer=properties.get("videoPlayer","");
 
+	}
+
+	public String getVideoPlayer() {
+		return videoPlayer;
 	}
 
 	public String getImagePath() {

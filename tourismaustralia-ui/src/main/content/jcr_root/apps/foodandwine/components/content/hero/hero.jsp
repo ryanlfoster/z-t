@@ -44,7 +44,7 @@
     <a class="video-close-btn icon-font-cross" href="#"></a>
     <div class="video-table">
         <div class="video-table-cell">
-            PLACE VIDEO HERE!
+            <iframe src="${Hero.videoPlayer }"></iframe>
         </div>
     </div>
 </div>

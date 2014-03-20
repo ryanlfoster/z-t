@@ -36,10 +36,10 @@ public class Hero {
 	@DialogField(fieldLabel = "Byline", tab = 2)
 	private final String byLineText;
 
-	@DialogField(fieldLabel = "Overlay Text for Video", tab = 3)
+	@DialogField(fieldLabel = "Overlay Text for Video", fieldDescription="Text before play button",tab = 3)
 	private final String textBeforePlayButton;
 
-	@DialogField(fieldLabel = "Overlay Text for Video", tab = 3)
+	@DialogField(fieldLabel = "Overlay Text for Video",fieldDescription="Text after play button", tab = 3)
 	private final String textAfterPlayButton;
 
 	/**

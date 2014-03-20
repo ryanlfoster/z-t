@@ -2,8 +2,10 @@ package com.australia.foodandwine.components.content.form;
 
 import java.io.IOException;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
+import javax.jcr.Node;
 import javax.jcr.Session;
 import javax.servlet.ServletException;
 
@@ -36,55 +38,64 @@ public class FormEmailServlet extends SlingAllMethodsServlet {
 	protected void doPost(SlingHttpServletRequest request, SlingHttpServletResponse response) throws ServletException,
 		IOException {
 		boolean emailCheck = false;
-
-		String emailTemplatePath = request.getRequestParameter("emailTemplate").toString();
-
-		Map<String, String> properties = new HashMap<String, String>();
-		String businessName = request.getParameter("businessName");
-		String location = request.getParameter("location");
-		String selectTerritory = request.getParameter("selectTerritory");
-		String mail = request.getParameter("mail");
-		String verifymail = request.getParameter("verifymail");
-		if (verifymail.equals(mail)) {
-			emailCheck = true;
-		}
-		String businessWebsite = request.getParameter("businessWebsite");
-		String businessDescription = request.getParameter("businessDescription");
-		// String photo = request.getParameter("verifymail");
-		String photoDescription = request.getParameter("photoDescription");
-		String categoryRestaurants = request.getParameter("category-restaurants");
-		String categoryWine = request.getParameter("category-wine");
-		String categoryProduce = request.getParameter("category-produce");
-		String categoryEvents = request.getParameter("category-events");
-		String categoryPeople = request.getParameter("category-people");
-		String categorExperiences = request.getParameter("category-experiences");
-		String categorySeafood = request.getParameter("category-seafood");
-
-		properties.put("businessName", businessName);
-		properties.put("location", location);
-		properties.put("selectTerritory", selectTerritory);
-		properties.put("mail", mail);
-		properties.put("businessWebsite", businessWebsite);
-		properties.put("businessDescription", businessDescription);
-		properties.put("photoDescription", photoDescription);
-		properties.put("categoryRestaurants", categoryRestaurants);
-		properties.put("categoryWine", categoryWine);
-		properties.put("categoryProduce", categoryProduce);
-		properties.put("categoryEvents", categoryEvents);
-		properties.put("categoryPeople", categoryPeople);
-		properties.put("categorExperiences", categorExperiences);
-		properties.put("categorySeafood", categorySeafood);
-		if (emailCheck) {
-			final MailTemplate mailTemplate = MailTemplate.create(emailTemplatePath, request.getResourceResolver()
-				.adaptTo(Session.class));
-			try {
-				final HtmlEmail email = mailTemplate.getEmail(StrLookup.mapLookup(properties), HtmlEmail.class);
-				email.setSubject("Testing Mail");
-				email.addTo(mail);
-				mailService.send(email);
-			} catch (Exception e) {
-				LOG.error("Error sending an email", e);
+		try {
+			Map<String, String> properties = new HashMap<String, String>();
+			String businessName = request.getParameter("businessName");
+			String location = request.getParameter("location");
+			String selectTerritory = request.getParameter("selectTerritory");
+			String mail = request.getParameter("mail");
+			String verifymail = request.getParameter("verifymail");
+			if (verifymail.equals(mail)) {
+				emailCheck = true;
 			}
+			String businessWebsite = request.getParameter("businessWebsite");
+			String businessDescription = request.getParameter("businessDescription");
+			// String photo = request.getParameter("verifymail");
+			String photoDescription = request.getParameter("photoDescription");
+			String categoryRestaurants = request.getParameter("category-restaurants");
+			String categoryWine = request.getParameter("category-wine");
+			String categoryProduce = request.getParameter("category-produce");
+			String categoryEvents = request.getParameter("category-events");
+			String categoryPeople = request.getParameter("category-people");
+			String categorExperiences = request.getParameter("category-experiences");
+			String categorySeafood = request.getParameter("category-seafood");
+
+			properties.put("businessName", businessName);
+			properties.put("location", location);
+			properties.put("selectTerritory", selectTerritory);
+			properties.put("mail", mail);
+			properties.put("businessWebsite", businessWebsite);
+			properties.put("businessDescription", businessDescription);
+			properties.put("photoDescription", photoDescription);
+			properties.put("categoryRestaurants", categoryRestaurants);
+			properties.put("categoryWine", categoryWine);
+			properties.put("categoryProduce", categoryProduce);
+			properties.put("categoryEvents", categoryEvents);
+			properties.put("categoryPeople", categoryPeople);
+			properties.put("categorExperiences", categorExperiences);
+			properties.put("categorySeafood", categorySeafood);
+
+			Form form = new Form(request);
+			List<String> emailIdsList = form.getEmailIdsList();
+			String emailTemplatePath = form.getEmailTemplate();
+			String emailSubject = form.getEmailSubject();
+
+			for (String emailIds : emailIdsList) {
+				if (emailCheck) {
+					final MailTemplate mailTemplate = MailTemplate.create(emailTemplatePath
+						+ "/jcr:content/renditions/original", request.getResourceResolver().adaptTo(Session.class));
+					try {
+						final HtmlEmail email = mailTemplate.getEmail(StrLookup.mapLookup(properties), HtmlEmail.class);
+						email.setSubject(emailSubject);
+						email.addTo(emailIds);
+						mailService.send(email);
+					} catch (Exception e) {
+						LOG.error("Error sending an email", e);
+					}
+				}
+			}
+		} catch (Exception e) {
+			LOG.error(e.getMessage());
 		}
 	}
 }

@@ -45,6 +45,7 @@
     <div class="video-table">
         <div class="video-table-cell">
             <iframe src="${Hero.videoPlayer }"></iframe>
+            
         </div>
     </div>
 </div>

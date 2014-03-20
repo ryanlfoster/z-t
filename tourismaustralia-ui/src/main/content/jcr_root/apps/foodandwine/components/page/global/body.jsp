@@ -75,14 +75,12 @@
 			</header>
 		</div>
 	</header>
-
-	<div class="site-wrapper">
-
 		<!-- End #main-header -->
 
-		<div id="main-content">
-			<cq:include script="content.jsp" />
-		</div>
-		<cq:include path="footer"
-			resourceType="foodandwine/components/content/footer" />
+	<div class="site-wrapper">
+	
+		<div id="main-content"><cq:include script="content.jsp" /></div>
+		<cq:include path="footer" resourceType="foodandwine/components/content/footer" />
+		
+	</div>
 </body>

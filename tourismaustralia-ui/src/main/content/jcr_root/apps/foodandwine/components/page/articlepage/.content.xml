@@ -4,4 +4,4 @@
           cq:isContainer="{Boolean}false"
           jcr:primaryType="cq:Component"
           jcr:title="Article Page"
-          sling:resourceType="foodandwine/components/page/global"/>
+          sling:resourceSuperType="foodandwine/components/page/global"/>

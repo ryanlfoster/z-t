@@ -8028,8 +8028,8 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   text-align: center;
   text-transform: uppercase;
   border: 1px solid #c9c9c9;
-  width: 88px;
-  height: 88px;
+  width: 100px;
+  height: 100px;
   background: white;
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
@@ -8037,18 +8037,22 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   -o-border-radius: 100%;
   border-radius: 100%;
 }
-
 /* line 156, ../../assets/scss/site/modules/_btn.scss */
+.btn-round img {
+  margin-top: 0.1em;
+}
+
+/* line 160, ../../assets/scss/site/modules/_btn.scss */
 .btn-round:hover, .btn-round:focus {
   text-decoration: none;
   color: #606060;
 }
 
-/* line 160, ../../assets/scss/site/modules/_btn.scss */
+/* line 164, ../../assets/scss/site/modules/_btn.scss */
 .btn-round.is-active {
   color: #FFF;
-  width: 88px;
-  height: 88px;
+  width: 100px;
+  height: 100px;
   background: #393939;
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
@@ -8056,13 +8060,13 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   -o-border-radius: 100%;
   border-radius: 100%;
 }
-/* line 163, ../../assets/scss/site/modules/_btn.scss */
+/* line 167, ../../assets/scss/site/modules/_btn.scss */
 .btn-round.is-active:hover, .btn-round.is-active:focus {
   text-decoration: none;
   color: #FFF;
 }
 
-/* line 186, ../../assets/scss/site/modules/_btn.scss */
+/* line 190, ../../assets/scss/site/modules/_btn.scss */
 .btn-round-share {
   display: inline-block;
   width: 60px;
@@ -8085,12 +8089,12 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   border-radius: 100%;
 }
 
-/* line 200, ../../assets/scss/site/modules/_btn.scss */
+/* line 204, ../../assets/scss/site/modules/_btn.scss */
 .btn-round-share:hover, .btn-round-share:focus {
   text-decoration: none;
 }
 
-/* line 204, ../../assets/scss/site/modules/_btn.scss */
+/* line 208, ../../assets/scss/site/modules/_btn.scss */
 .btn-share {
   display: inline-block;
   line-height: 1em;
@@ -8102,7 +8106,7 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   margin-left: -0.3em;
   margin-right: 0.5em;
 }
-/* line 215, ../../assets/scss/site/modules/_btn.scss */
+/* line 219, ../../assets/scss/site/modules/_btn.scss */
 .btn-share img {
   opacity: 0.6;
   margin: 0;
@@ -8111,21 +8115,21 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   padding-bottom: 0.2em;
 }
 
-/* line 223, ../../assets/scss/site/modules/_btn.scss */
+/* line 227, ../../assets/scss/site/modules/_btn.scss */
 .btn-share:hover {
   text-decoration: none;
   color: #FFF;
 }
-/* line 226, ../../assets/scss/site/modules/_btn.scss */
+/* line 230, ../../assets/scss/site/modules/_btn.scss */
 .btn-share:hover span {
   color: #FFF;
 }
-/* line 230, ../../assets/scss/site/modules/_btn.scss */
+/* line 234, ../../assets/scss/site/modules/_btn.scss */
 .btn-share:hover img {
   opacity: 1;
 }
 
-/* line 234, ../../assets/scss/site/modules/_btn.scss */
+/* line 238, ../../assets/scss/site/modules/_btn.scss */
 .btn-share span {
   padding-left: 0.625em;
   font-family: Helvetica, Arial, sans-serif;
@@ -8135,7 +8139,7 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   color: #787474;
 }
 
-/* line 244, ../../assets/scss/site/modules/_btn.scss */
+/* line 248, ../../assets/scss/site/modules/_btn.scss */
 .btn-round-video {
   line-height: 4em;
   font-size: 1.3125em;
@@ -8155,7 +8159,7 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   color: #FFF;
 }
 
-/* line 255, ../../assets/scss/site/modules/_btn.scss */
+/* line 259, ../../assets/scss/site/modules/_btn.scss */
 .btn-round-video:hover, .btn-round-video:focus {
   text-decoration: none;
   color: #040000;
@@ -8164,26 +8168,26 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   border: 2px solid #FFF;
 }
 @media (min-width: 768px) {
-  /* line 255, ../../assets/scss/site/modules/_btn.scss */
+  /* line 259, ../../assets/scss/site/modules/_btn.scss */
   .btn-round-video:hover, .btn-round-video:focus {
     border: 1px solid #FFF;
   }
 }
 
-/* line 269, ../../assets/scss/site/modules/_btn.scss */
+/* line 273, ../../assets/scss/site/modules/_btn.scss */
 .btn-restaurant-australia-logo {
   font-size: 4.25em;
   text-decoration: none;
   color: #000;
 }
 
-/* line 274, ../../assets/scss/site/modules/_btn.scss */
+/* line 278, ../../assets/scss/site/modules/_btn.scss */
 .btn-restaurant-australia-logo:hover, .btn-restaurant-australia-logo:focus {
   text-decoration: none;
   color: #000;
 }
 
-/* line 278, ../../assets/scss/site/modules/_btn.scss */
+/* line 282, ../../assets/scss/site/modules/_btn.scss */
 .btn-restaurant-australia-logo-box {
   display: inline-block;
   width: 255px;
@@ -8196,19 +8200,19 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   text-align: center;
 }
 
-/* line 289, ../../assets/scss/site/modules/_btn.scss */
+/* line 293, ../../assets/scss/site/modules/_btn.scss */
 .btn-restaurant-australia-logo-box:hover, .btn-restaurant-australia-logo-box:focus {
   text-decoration: none;
   color: #FFF;
 }
 
-/* line 294, ../../assets/scss/site/modules/_btn.scss */
+/* line 298, ../../assets/scss/site/modules/_btn.scss */
 .btn-white-black {
   border: 1px solid #040000;
   text-decoration: none;
   color: #393939;
 }
-/* line 298, ../../assets/scss/site/modules/_btn.scss */
+/* line 302, ../../assets/scss/site/modules/_btn.scss */
 .btn-white-black:hover, .btn-white-black:focus {
   border: 1px solid #FFF;
   text-decoration: none;
@@ -8216,14 +8220,14 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   color: #FFF !important;
 }
 
-/* line 306, ../../assets/scss/site/modules/_btn.scss */
+/* line 310, ../../assets/scss/site/modules/_btn.scss */
 .btn-black-white {
   border: 1px solid #FFF !important;
   text-decoration: none;
   background: #040000 !important;
   color: #FFF;
 }
-/* line 311, ../../assets/scss/site/modules/_btn.scss */
+/* line 315, ../../assets/scss/site/modules/_btn.scss */
 .btn-black-white:hover, .btn-black-white:focus {
   border: 1px solid #393939 !important;
   text-decoration: none;
@@ -9167,7 +9171,6 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
 }
 /* line 49, ../../assets/scss/site/modules/_categories.scss */
 .category-item .icon-round {
-  padding: .2em;
   display: inline-block;
   font-size: 3.5em;
   border: 1px solid #c9c9c9;
@@ -9177,12 +9180,10 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   -ms-border-radius: 100%;
   -o-border-radius: 100%;
   border-radius: 100%;
-}
-@media (min-width: 768px) {
-  /* line 49, ../../assets/scss/site/modules/_categories.scss */
-  .category-item .icon-round {
-    padding: .3em;
-  }
+  width: 100px;
+  height: 100px;
+  padding: 18px;
+  padding-left: 10px;
 }
 
 /*
@@ -9196,37 +9197,53 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
                  that don't support that selector from
                  applying rules they shouldn't
 */
-/* line 74, ../../assets/scss/site/modules/_categories.scss */
+/* line 73, ../../assets/scss/site/modules/_categories.scss */
 .category-input:not(#foo) {
   display: none;
 }
 
-/* line 79, ../../assets/scss/site/modules/_categories.scss */
+/* line 78, ../../assets/scss/site/modules/_categories.scss */
 .category-input[type=checkbox] + label {
   cursor: pointer;
   min-width: 7em;
   vertical-align: top;
 }
-/* line 83, ../../assets/scss/site/modules/_categories.scss */
+/* line 84, ../../assets/scss/site/modules/_categories.scss */
 .category-input[type=checkbox] + label .category-title {
   display: block;
   font-family: "ProximaNova Regular", Helvetica, Arial, sans-serif;
   line-height: 2.5em;
 }
+/* line 90, ../../assets/scss/site/modules/_categories.scss */
+.category-input[type=checkbox] + label .category-image-dark {
+  display: block;
+}
+/* line 93, ../../assets/scss/site/modules/_categories.scss */
+.category-input[type=checkbox] + label .category-image-light {
+  display: none;
+}
 @media (min-width: 768px) {
-  /* line 79, ../../assets/scss/site/modules/_categories.scss */
+  /* line 78, ../../assets/scss/site/modules/_categories.scss */
   .category-input[type=checkbox] + label {
     min-width: 11.25em;
   }
 }
 
-/* line 95, ../../assets/scss/site/modules/_categories.scss */
+/* line 104, ../../assets/scss/site/modules/_categories.scss */
 .category-input[type=checkbox]:checked + label .icon-round {
   color: #FFF;
   border: 1px solid #393939;
   background: #393939;
 }
-/* line 101, ../../assets/scss/site/modules/_categories.scss */
+/* line 110, ../../assets/scss/site/modules/_categories.scss */
+.category-input[type=checkbox]:checked + label .category-image-dark {
+  display: none;
+}
+/* line 113, ../../assets/scss/site/modules/_categories.scss */
+.category-input[type=checkbox]:checked + label .category-image-light {
+  display: block;
+}
+/* line 117, ../../assets/scss/site/modules/_categories.scss */
 .category-input[type=checkbox]:checked + label .category-title {
   display: block;
   font-family: "ProximaNova Bold", Helvetica, Arial, sans-serif;
@@ -9577,7 +9594,7 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   color: #040000;
   cursor: inherit;
 }
-/* line 179, ../../assets/scss/site/modules/_btn.scss */
+/* line 183, ../../assets/scss/site/modules/_btn.scss */
 .form-number-container .form-number:hover, .form-number-container .form-number:focus {
   text-decoration: none;
   color: #606060;
@@ -9809,83 +9826,91 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   padding-top: 0.2em !important;
   font-size: 2.6em !important;
 }
+/* line 14, ../../assets/scss/site/modules/_article.scss */
+.faw-article .btn-round.is-active img {
+  width: 40px;
+}
 @media (min-width: 768px) {
   /* line 10, ../../assets/scss/site/modules/_article.scss */
   .faw-article .btn-round.is-active {
-    width: 80px !important;
-    height: 80px !important;
+    width: 100px !important;
+    height: 100px !important;
     padding-top: 12px !important;
     font-size: 3.5em !important;
   }
+  /* line 27, ../../assets/scss/site/modules/_article.scss */
+  .faw-article .btn-round.is-active img {
+    width: 80px;
+  }
 }
-/* line 24, ../../assets/scss/site/modules/_article.scss */
+/* line 33, ../../assets/scss/site/modules/_article.scss */
 .faw-article .category-title {
   font-size: 0.9em !important;
 }
 @media (min-width: 768px) {
-  /* line 24, ../../assets/scss/site/modules/_article.scss */
+  /* line 33, ../../assets/scss/site/modules/_article.scss */
   .faw-article .category-title {
     font-size: 1em !important;
   }
 }
-/* line 32, ../../assets/scss/site/modules/_article.scss */
+/* line 41, ../../assets/scss/site/modules/_article.scss */
 .faw-article .form-biline-container {
   margin-bottom: 1em !important;
 }
 @media (min-width: 768px) {
-  /* line 32, ../../assets/scss/site/modules/_article.scss */
+  /* line 41, ../../assets/scss/site/modules/_article.scss */
   .faw-article .form-biline-container {
     margin-bottom: 3em !important;
   }
 }
 
-/* line 40, ../../assets/scss/site/modules/_article.scss */
+/* line 49, ../../assets/scss/site/modules/_article.scss */
 .faw-article-quotes {
   font-size: 2em;
   line-height: 1em;
   margin-top: 0.5em;
 }
 @media (min-width: 768px) {
-  /* line 40, ../../assets/scss/site/modules/_article.scss */
+  /* line 49, ../../assets/scss/site/modules/_article.scss */
   .faw-article-quotes {
     margin-top: 1.5em;
     font-size: 2.5em;
   }
 }
 
-/* line 51, ../../assets/scss/site/modules/_article.scss */
+/* line 60, ../../assets/scss/site/modules/_article.scss */
 .faw-article-share-icons {
   margin-top: 1em;
 }
 @media (min-width: 768px) {
-  /* line 51, ../../assets/scss/site/modules/_article.scss */
+  /* line 60, ../../assets/scss/site/modules/_article.scss */
   .faw-article-share-icons {
     margin-bottom: 3em;
   }
 }
-/* line 58, ../../assets/scss/site/modules/_article.scss */
+/* line 67, ../../assets/scss/site/modules/_article.scss */
 .faw-article-share-icons a {
   margin: 0.1em;
 }
 
-/* line 63, ../../assets/scss/site/modules/_article.scss */
+/* line 72, ../../assets/scss/site/modules/_article.scss */
 .faw-article-share-label {
   font-size: 1.1em;
 }
 
-/* line 67, ../../assets/scss/site/modules/_article.scss */
+/* line 76, ../../assets/scss/site/modules/_article.scss */
 .faw-article-copyright {
   margin-top: 1;
   color: #737373;
 }
 @media (min-width: 768px) {
-  /* line 67, ../../assets/scss/site/modules/_article.scss */
+  /* line 76, ../../assets/scss/site/modules/_article.scss */
   .faw-article-copyright {
     margin-top: 0em;
   }
 }
 
-/* line 76, ../../assets/scss/site/modules/_article.scss */
+/* line 85, ../../assets/scss/site/modules/_article.scss */
 .faw-article-divider {
   width: 1px;
   border-left: 1px #bebebe solid;
@@ -9895,14 +9920,14 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   padding-right: 0.5em;
 }
 
-/* line 85, ../../assets/scss/site/modules/_article.scss */
+/* line 94, ../../assets/scss/site/modules/_article.scss */
 .faw-article-healdine {
   max-width: 750px;
   display: inline-block;
   line-height: 1.3em;
 }
 
-/* line 91, ../../assets/scss/site/modules/_article.scss */
+/* line 100, ../../assets/scss/site/modules/_article.scss */
 .faw-article-copy {
   max-width: 750px;
   display: inline-block;
@@ -9912,7 +9937,7 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   font-size: 1.1em;
 }
 
-/* line 100, ../../assets/scss/site/modules/_article.scss */
+/* line 109, ../../assets/scss/site/modules/_article.scss */
 .divider-small {
   max-width: 220px;
 }
@@ -10416,7 +10441,7 @@ input[type=checkbox].checkbox:checked + label.checkbox-label {
   margin-top: 0;
   text-decoration: none;
 }
-/* line 179, ../../assets/scss/site/modules/_btn.scss */
+/* line 183, ../../assets/scss/site/modules/_btn.scss */
 .hint-icon-icon:hover, .hint-icon-icon:focus {
   text-decoration: none;
   color: #606060;
@@ -11448,40 +11473,49 @@ input[type=checkbox].checkbox:checked + label.checkbox-label {
   width: 100%;
 }
 
-/* line 58, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/*
+ Fix for when displaying within styleguide
+ Image sits over all other elements due to position being fixed
+*/
+/* line 61, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+.sg-pattern .faw-hero-home-bg {
+  position: absolute;
+}
+
+/* line 69, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .skrollr-desktop .faw-hero-home-bg {
   z-index: inherit;
 }
 
-/* line 64, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 75, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .faw-hero-home-container .icon-logo-withlines-container {
   margin: 0;
   height: 140px;
   overflow: hidden;
 }
 
-/* line 71, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 82, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .faw-hero-home.make-black .faw-hero-home-container .icon-logo-withlines-logo {
   color: #040000;
 }
-/* line 74, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 85, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .faw-hero-home.make-black hr {
   border-top: 1px solid #040000;
 }
-/* line 77, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 88, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .faw-hero-home.make-black h1 {
   color: #040000;
 }
 
-/* line 83, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 94, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .faw-hero-home.make-white .faw-hero-home-container .icon-logo-withlines-logo {
   color: #FFF;
 }
-/* line 86, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 97, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .faw-hero-home.make-white hr {
   border-top: 1px solid #FFF;
 }
-/* line 89, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 100, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .faw-hero-home.make-white h1 {
   color: #FFF;
 }
@@ -11501,25 +11535,25 @@ input[type=checkbox].checkbox:checked + label.checkbox-label {
   }
 }
 */
-/* line 108, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 119, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .faw-hero-home-hr {
   margin: 0 auto;
   width: 230px;
 }
 @media (min-width: 768px) {
-  /* line 108, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+  /* line 119, ../../assets/scss/site/modules/_foodandwineherohome.scss */
   .faw-hero-home-hr {
     width: 230px;
   }
 }
 
-/* line 116, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 127, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .form-hero {
   padding-left: 1em;
   padding-right: 1em;
 }
 
-/* line 121, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 132, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .form-hero-register {
   color: #040000;
   font-size: 0.875em;
@@ -11527,7 +11561,7 @@ input[type=checkbox].checkbox:checked + label.checkbox-label {
   max-width: 480px;
 }
 @media (min-width: 480px) {
-  /* line 121, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+  /* line 132, ../../assets/scss/site/modules/_foodandwineherohome.scss */
   .form-hero-register {
     font-size: 1.125em;
     padding: 0 1.4em;
@@ -11535,7 +11569,7 @@ input[type=checkbox].checkbox:checked + label.checkbox-label {
   }
 }
 @media (min-width: 768px) {
-  /* line 121, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+  /* line 132, ../../assets/scss/site/modules/_foodandwineherohome.scss */
   .form-hero-register {
     max-width: 520px;
   }

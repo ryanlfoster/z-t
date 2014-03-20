@@ -8,13 +8,15 @@
 --%>
 
 <%@include file="/apps/tourismaustralia/components/global.jsp"%>
-<%@ page import="com.australia.www.components.content.imageWithButton.ImageWithButton" %>
+<%@ page import="com.australia.www.components.content.imagewithbutton.ImageWithButton" %>
 <%@ page import="com.day.cq.wcm.api.WCMMode" %>
 
 <c:set var="imageButton" value="<%=new ImageWithButton(slingRequest) %>"/>
 
 <% if (WCMMode.fromRequest(slingRequest) == WCMMode.EDIT) {%>
-    <div><img src='${imageButton.imageSrc}' alt="${imageButton.imgAltText}" /></div>
+    <c:if test="${not empty (imageButton.imageSrc and imageButton.imgAltText)}">
+        <div><img src="${imageButton.imageSrc}" alt="${imageButton.imgAltText}" /></div>
+    </c:if>
 
     <c:if test="${not empty imageButton.text}">
         <div>Text: ${imageButton.text}</div>

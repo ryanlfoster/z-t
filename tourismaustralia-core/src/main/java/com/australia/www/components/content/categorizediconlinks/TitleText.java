@@ -12,7 +12,7 @@ public class TitleText {
     private String text;
 
     @DialogField(fieldLabel = "Icon image 1")
-    @Html5SmartImage(name="image",disableZoom = true, allowUpload = false, tab = false, height = 100 )
+    @Html5SmartImage(name="iconImage1",disableZoom = true, allowUpload = false, tab = false, height = 100 )
     private String iconImage1;
 
     @DialogField(fieldLabel = "Icon Alt Text 1")
@@ -25,7 +25,7 @@ public class TitleText {
     private String linkText1;
 
     @DialogField(fieldLabel = "Icon image 2")
-    @Html5SmartImage(name="image",disableZoom = true, allowUpload = false, tab = false, height = 100 )
+    @Html5SmartImage(name="iconImage2",disableZoom = true, allowUpload = false, tab = false, height = 100 )
     private String iconImage2;
 
     @DialogField(fieldLabel = "Icon Alt Text 2")
@@ -38,7 +38,7 @@ public class TitleText {
     private String linkText2;
 
     @DialogField(fieldLabel = "Icon image 3")
-    @Html5SmartImage(name="image",disableZoom = true, allowUpload = false, tab = false, height = 100 )
+    @Html5SmartImage(name="iconImage3",disableZoom = true, allowUpload = false, tab = false, height = 100 )
     private String iconImage3;
 
     @DialogField(fieldLabel = "Icon Alt Text 3")

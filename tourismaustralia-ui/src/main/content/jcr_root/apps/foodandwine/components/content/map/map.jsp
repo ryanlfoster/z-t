@@ -38,7 +38,7 @@
     <div id="map_canvas"></div>
     
 
-<p class="faw-article-quotes"><em>${map.phone} </em></p>
+<p class="faw-article-quotes"><b>Phone: </b><em>${map.phone} </em></p>
 <br/>
 
   </body>

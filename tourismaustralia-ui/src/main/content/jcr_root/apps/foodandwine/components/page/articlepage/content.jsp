@@ -57,27 +57,10 @@
 						located in Bright at the foot of the alpine resorts in the heart
 						of the north east of Victoria.</h3>
 
-					<p class='faw-article-share-icons'>
-
-						<!--
-    		<a href="#" class="btn-round-share icon-font-mail-outline"></a>
-    		<a href="#" class="btn-round-share icon-font-twitter-outline"></a>
-    		<a href="#" class="btn-round-share icon-font-twitter-outline"></a>
-    		-->
-
-						<span class='st_email_large' displayText='Email'></span> <span
-							class='st_facebook_large' displayText='Facebook'></span> <span
-							class='st_twitter_large' displayText='Tweet'></span> <a
-							class="faw-article-divider"></a> <a href="#"
-							class="btn-round-share icon-font-star"></a>
-					</p>
-					<p class='faw-article-share-label l-color-black'>Share or
-						bookmark this page</p>
-					<hr class='divider-small'></hr>
 				</div>
 			</div>
 
-
+			<cq:include path="shareThis" resourceType="foodandwine/components/content/shareThis" />
 
 			<cq:include path="mainparsys" resourceType="foundation/components/parsys" />
 

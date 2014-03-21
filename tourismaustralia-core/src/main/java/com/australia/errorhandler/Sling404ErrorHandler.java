@@ -47,6 +47,7 @@ public class Sling404ErrorHandler {
 			pageLocation = DEFAULT_ERROR_HANDLER_PATH;
 			break;
 		}
+
 	}
 
 	public String getPageLocation() {

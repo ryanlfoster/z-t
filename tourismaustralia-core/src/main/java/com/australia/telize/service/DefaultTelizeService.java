@@ -24,5 +24,4 @@ public class DefaultTelizeService implements TelizeService {
 		return telizeRepo.getGeoLocation(xForwardedIP);
 	}
 
-
 }

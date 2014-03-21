@@ -9,7 +9,7 @@ public class TextLink {
 	private String linkText;
 
 	@DialogField(fieldLabel = "Link Path")
-	@PathField
+	@PathField(rootPath = "/content")
 	private String pagePath;
 
 	public String getLinkText() {

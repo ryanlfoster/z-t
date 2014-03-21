@@ -45,15 +45,15 @@ public class Footer {
 	@DialogField(fieldLabel = "Heading", tab = 4, required = true)
 	private String headingRight;
 
-	@DialogField(tab = 2, fieldLabel = "Links")
+	@DialogField(fieldLabel = "Links", tab = 2)
 	@MultiCompositeField
 	private List<TextLink> linksLeft;
 
-	@DialogField(tab = 3, fieldLabel = "Links")
+	@DialogField(fieldLabel = "Links", tab = 3)
 	@MultiCompositeField
 	private List<TextLink> linksMiddle;
 
-	@DialogField(tab = 4, fieldLabel = "Links")
+	@DialogField(fieldLabel = "Links", tab = 4)
 	@MultiCompositeField
 	private List<IconTextLink> linksRight;
 

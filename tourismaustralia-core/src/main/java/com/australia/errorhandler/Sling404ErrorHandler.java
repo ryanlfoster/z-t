@@ -29,7 +29,7 @@ public class Sling404ErrorHandler {
 		case OZCOM:
 			String tempLoc = PathUtils.OZCOM_404;
 			String lang = DEFAULT_LANGAUGE;
-			Pattern p = Pattern.compile("/(([a-z]{2})(-)?([a-z]{2}))/.*");
+			Pattern p = Pattern.compile("/(([a-z]{2})((-)([a-z]{2}))?)/.*");
 			Matcher m = p.matcher(request.getPathInfo());
 			if (m.find()) {
 				String tempLang = m.group(1);

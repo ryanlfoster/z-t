@@ -15,7 +15,8 @@
   			  var page_desc = '${global.description}';
         </script>
 
- 		<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script> 
+ 		<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+ 		<br/> 
 </div> 
 
 <p class='faw-article-share-label l-color-black'>Share or bookmark this page</p>

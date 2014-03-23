@@ -2,6 +2,8 @@ package com.australia.geolocation;
 
 import java.io.IOException;
 import java.util.Enumeration;
+import java.util.Hashtable;
+import java.util.Iterator;
 import java.util.Map;
 
 import javax.servlet.ServletException;
@@ -31,6 +33,7 @@ public class GetLocationServlet extends SlingAllMethodsServlet {
 	private static final ObjectMapper MAPPER = new ObjectMapper();
 
 	private final String AKAMAI_HEADER = "X-Akamai-Edgescape";
+	private final String X_FORWARDED_FOR_HEADER = "X-Forwarded-For";
 
 	@Reference
 	private TelizeService telizeService;
@@ -44,12 +47,23 @@ public class GetLocationServlet extends SlingAllMethodsServlet {
 			return;
 		}
 
-		Location location;
-		String akamaiHeader = getAkamaiHeader(request);
-		if (StringUtils.isNotEmpty(akamaiHeader)) {
-			location = getLocationFromAkamai(akamaiHeader);
-		} else {
-			location = getLocationFromTelize();
+		Location location = new Location();
+		Map<String, String> specHeader = getHeader(request);
+
+		if (specHeader != null) {
+			Iterator specHeaderIterator= specHeader.entrySet().iterator();
+			if (specHeaderIterator.hasNext()) {
+				Map.Entry<String, String> pairs = (Map.Entry)specHeaderIterator.next();
+				System.out.println(pairs.getKey() + " = " + pairs.getValue());
+				if (StringUtils.equalsIgnoreCase(pairs.getKey(), AKAMAI_HEADER)) {
+					location = getLocationFromAkamai(pairs.getValue());
+				}
+				if (StringUtils.equalsIgnoreCase(pairs.getKey(), X_FORWARDED_FOR_HEADER)) {
+					location = getLocationFromTelize(pairs.getValue());
+				}
+			} else {
+				location = getLocationFromTelize();
+			}
 		}
 
 		response.setContentType("application/javascript");
@@ -59,22 +73,40 @@ public class GetLocationServlet extends SlingAllMethodsServlet {
 		response.getWriter().write(")");
 	}
 
-	private String getAkamaiHeader(SlingHttpServletRequest request) {
+	private Map<String, String> getHeader(SlingHttpServletRequest request) {
 		String header = "";
+		Map<String, String> headerMap = new Hashtable<String, String>();
 		Enumeration<String> headerNames = request.getHeaderNames();
 		while (headerNames.hasMoreElements()) {
 			String key = headerNames.nextElement();
 			if (StringUtils.equalsIgnoreCase(AKAMAI_HEADER, key)) {
 				header = request.getHeader(key);
+				headerMap.put(key, header);
 				break;
 			}
+
+			if (StringUtils.equalsIgnoreCase(X_FORWARDED_FOR_HEADER, key)) {
+				header = request.getHeader(key);
+				headerMap.put(key, header);
+				break;
+			}
+
 		}
-		return header;
+		return headerMap;
 	}
 
 	private Location getLocationFromTelize() {
 		Location location = new Location();
 		GeoLocation geoloc = telizeService.getLocation();
+		location.setCity(geoloc.getCity());
+		location.setState(geoloc.getRegion());
+		location.setCountry(geoloc.getCountry());
+		return location;
+	}
+
+	private Location getLocationFromTelize(String header) {
+		Location location = new Location();
+		GeoLocation geoloc = telizeService.getLocation(header);
 		location.setCity(geoloc.getCity());
 		location.setState(geoloc.getRegion());
 		location.setCountry(geoloc.getCountry());

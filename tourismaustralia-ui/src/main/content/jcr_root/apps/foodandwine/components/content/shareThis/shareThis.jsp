@@ -6,18 +6,24 @@
 <c:set var="sharethis" value="<%=new ShareThis(slingRequest) %>"/>
 <c:set var="global" value="<%=new Global(slingRequest) %>"/>
 
-<cq:includeClientLib js="faw-share-this"/>
-
 <div class="shareThisFawHolder" data-shareUrl="${sharethis.shareUrl}" 
  	data-type="${sharethis.shareType}" data-accountId="${sharethis.accountId}">  
  	    <script type="text/javascript">
-  			  var page_title = '${global.title}';
-  			  var page_desc = '${global.description}';
+		  	var sharethis_json = '${sharethis.socialNetworks}';
+	 	    var page_title = '${global.title}';
+  			var page_desc = '${global.description}';
         </script>
-
  		<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
- 		<br/> 
+ 		<br/>
+ 		
+ 		<a class='faw-article-divider'></a>
+ 		<a href="#" class="faw-bookmark-icon">
+ 			<img class="faw-article-share-round faw-bookmark-icon-light" src="imgs/base/share/share-round-bookmark.png" alt="">
+ 			<img class="faw-article-share-round faw-bookmark-icon-black" src="imgs/base/share/share-round-bookmark-black.png" alt="">
+ 		</a>
 </div> 
+
+<cq:includeClientLib js="faw-share-this"/>
 
 <p class='faw-article-share-label l-color-black'>Share or bookmark this page</p>
 <hr class='divider-small'></hr> 		

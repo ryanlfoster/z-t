@@ -7,56 +7,30 @@ CQ_Analytics.ClientContextMgr.addListener("storesinitialize", function (e) {
 		var share_key = $this.attr('data-accountId');
 		
 		stLight.options({ publisher: share_key });
-		// var socnet_json = $.parseJSON(sharethis_json);
-		var social_network = 'facebook';
-		
-		$this.append("<span id='st-btn-" + social_network + "'/>");
-		stWidget.addEntry({
-			"service": social_network,
-			"element": document.getElementById('st-btn-' + social_network),
-			"url": share_url,
-			"title": "title",
-			"type":"large",
-			"text":"ShareThis",
-			"image":"http://www.softicons.com/download/internet-icons/social-superheros-icons-by-iconshock/png/256/sharethis_hulk.png", // image TO BE SHARED
-			"summary": "desc"
-		});		
-		
-		var social_network = 'twitter';
-		
-		$this.append("<span id='st-btn-" + social_network + "'/>");
-		stWidget.addEntry({
-			"service": social_network,
-			"element": document.getElementById('st-btn-' + social_network),
-			"url": share_url,
-			"title": "title",
-			"type":"large",
-			"text":"ShareThis",
-			"image":"http://www.softicons.com/download/internet-icons/social-superheros-icons-by-iconshock/png/256/sharethis_hulk.png", // image TO BE SHARED
-			"summary": "desc"
-		});		
+		var socnet_json = $.parseJSON(sharethis_json);
 
-		
+		$.each(socnet_json, function(idx, obj) {
+			addShareThisButton(obj, share_url, page_title, page_desc);
+		});
 	});    	
 	
-//	function addShareThisButton(obj,url,title,desc) { 
-//		var socnet = obj.types.split(',');
-//		for(var i = 0; i < socnet.length; i++) { 
-//			var social_network = socnet[i].toLowerCase();
-//			$this.append("<span id='st-btn-" + social_network + "'/>");
-//			stWidget.addEntry({
-//				"service": social_network,
-//				"element": document.getElementById('st-btn-' + social_network),
-//				"url": url,
-//				"title": title,
-//				"type":"large",
-//				"text":"ShareThis" ,
-//				"image":"http://www.softicons.com/download/internet-icons/social-superheros-icons-by-iconshock/png/256/sharethis_hulk.png", // image TO BE SHARED
-//				"summary": desc
-//			});		
-//		}
-//	}
-	
+	function addShareThisButton(obj,url,title,desc) { 
+		var socnet = obj.types.split(',');
+		for(var i = 0; i < socnet.length; i++) { 
+			var social_network = socnet[i].toLowerCase();
+			$("<span class='st_" + social_network + "_large'/>").insertBefore('.faw-article-divider');
+			stWidget.addEntry({
+				"service": social_network,
+				"element": $('.st_' + social_network + '_large').get(1),
+				"url": url,
+				"title": title,
+				"type":"large",
+				"text":"ShareThis" ,
+				"image":"http://www.softicons.com/download/internet-icons/social-superheros-icons-by-iconshock/png/256/sharethis_hulk.png", // image TO BE SHARED
+				"summary": desc
+			});		
+		}
+	}
 	
 });
 

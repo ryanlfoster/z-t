@@ -7,10 +7,8 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
-import org.apache.commons.lang3.StringUtils;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.Resource;
-import org.apache.sling.api.resource.ValueMap;
 
 import com.australia.widgets.multicomposite.MultiCompositeField;
 import com.citytechinc.cq.component.annotations.Component;
@@ -25,7 +23,6 @@ public class Other {
 	@MultiCompositeField
 	private final List<Article> articles;
 	public Other(SlingHttpServletRequest request) {
-		ValueMap properties = request.getResource().adaptTo(ValueMap.class);
 		String myPath = request.getResource().getPath();
 		String itemPath = myPath + "/articles";
 		Resource articlesResource = request.getResourceResolver().resolve(itemPath);
@@ -36,7 +33,6 @@ public class Other {
 			Iterator<Resource> myIter = children.iterator();
 			while (myIter.hasNext()) { 
 				Resource child = myIter.next();
-				ValueMap vm = child.adaptTo(ValueMap.class);
 				myArticles.add(new Article(child));
 			}
 		}

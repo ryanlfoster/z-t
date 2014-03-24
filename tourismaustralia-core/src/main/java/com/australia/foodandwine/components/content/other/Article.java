@@ -1,13 +1,10 @@
 package com.australia.foodandwine.components.content.other;
 import org.apache.commons.lang3.StringUtils;
-import org.apache.sling.api.SlingHttpServletRequest;
+import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ValueMap;
 
-import com.citytechinc.cq.component.annotations.Component;
 import com.citytechinc.cq.component.annotations.DialogField;
-import com.citytechinc.cq.component.annotations.Listener;
 import com.citytechinc.cq.component.annotations.widgets.PathField;
-import org.apache.sling.api.resource.Resource;
 
 public class Article {
 	@DialogField(fieldLabel = "Image Path", required = true, name = "./imagePath")

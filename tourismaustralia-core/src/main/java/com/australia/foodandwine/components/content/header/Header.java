@@ -3,6 +3,8 @@ package com.australia.foodandwine.components.content.header;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.jcr.Node;
+
 import org.apache.commons.lang3.StringUtils;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.Resource;
@@ -15,7 +17,10 @@ import com.australia.widgets.multicomposite.MultiCompositeField;
 import com.citytechinc.cq.component.annotations.Component;
 import com.citytechinc.cq.component.annotations.DialogField;
 import com.citytechinc.cq.component.annotations.Listener;
+import com.citytechinc.cq.component.annotations.editconfig.ActionConfig;
+import com.citytechinc.cq.component.annotations.editconfig.ActionConfigProperty;
 import com.citytechinc.cq.component.annotations.widgets.PathField;
+
 
 @Component(group = "Food and Wine", basePath = "jcr_root/apps/foodandwine/components", value = "Header", listeners = {
 	@Listener(name = "aftercopy", value = "REFRESH_PAGE"), @Listener(name = "afterdelete", value = "REFRESH_PAGE"),
@@ -24,6 +29,8 @@ public class Header {
 	@DialogField(fieldLabel = "Logo Image Path" ,name="./imagePath")
 	@PathField
 	private final String imagePath;
+	
+	
 
 	@DialogField(fieldLabel = "Logo Link Path",name="./logoLinkPath")
 	@PathField
@@ -32,6 +39,7 @@ public class Header {
 	@DialogField(fieldLabel="Header Text and Links")
 	@MultiCompositeField
 	private final List<HeaderBean> headerDataList;
+	
 	
 	@DialogField(fieldLabel="Search Icon Path")
 	@PathField
@@ -52,12 +60,16 @@ public class Header {
 	 * 
 	 * @param request
 	 */
+	
 	public Header(SlingHttpServletRequest request) {
 		ValueMap properties = request.getResource().adaptTo(ValueMap.class);
 		imagePath = properties.get(IMAGEPATH,StringUtils.EMPTY);
 		linkPath = properties.get(LOGOLINKPATH, StringUtils.EMPTY)+HTML_EXTENSION;
-
 		headerDataList = new ArrayList<HeaderBean>();
+		
+		//Node node=request.getResourceResolver().adaptTo(Node.class);
+		
+			
 		try {
 			Iterable<Resource> resources = request.getResource().getChild(HEADERDATALIST).getChildren();
 			for (Resource r : resources) {

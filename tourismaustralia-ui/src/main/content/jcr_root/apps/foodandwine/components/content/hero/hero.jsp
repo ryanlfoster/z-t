@@ -14,7 +14,7 @@
     		<span href="#" class="icon-logo-withlines-logo btn-restaurant-australia-logo icon-font-logo"></span>
     		<hr class="icon-logo-withlines-hr">
 		</div>
-		<h1>${Hero.bigTitle}</h1>
+		<h1  class='faw-hero-home-headline'>${Hero.bigTitle}</h1>
      	<hr class="faw-hero-home-hr">
  		<div class='calltoaction'>
     		<div class="calltoaction-title-container is-mobile">

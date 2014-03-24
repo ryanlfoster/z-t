@@ -22,11 +22,11 @@ import com.citytechinc.cq.component.annotations.widgets.PathField;
 	@Listener(name = "afteredit", value = "REFRESH_PAGE"), @Listener(name = "afterinsert", value = "REFRESH_PAGE") })
 public class Form {
 
-	@DialogField(fieldLabel = "Email Template", name = "./emailTemplate")
+	@DialogField(fieldLabel = "Email Template", name = "./emailTemplate" ,required=true)
 	@PathField
 	private final String emailTemplate;
 
-	@DialogField(fieldLabel = "Email Subject", name = "./emailSubject")
+	@DialogField(fieldLabel = "Email Subject", name = "./emailSubject" ,required=true)
 	private String emailSubject;
 
 	@DialogField(fieldLabel = "Email Id's")

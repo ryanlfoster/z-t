@@ -26,7 +26,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.day.cq.commons.mail.MailTemplate;
-import com.day.cq.dam.api.Asset;
 import com.day.cq.mailer.MailService;
 
 @SlingServlet(resourceTypes = "foodandwine/components/content/form", selectors = "formemail", extensions = "json", methods = "POST")
@@ -52,6 +51,7 @@ public class FormEmailServlet extends SlingAllMethodsServlet {
 		IOException {
 		boolean emailCheck = false;
 		try {
+			Form form = new Form(request);
 			Map<String, String> properties = new HashMap<String, String>();
 			String businessName = request.getParameter("businessName");
 			String location = request.getParameter("location");
@@ -63,7 +63,6 @@ public class FormEmailServlet extends SlingAllMethodsServlet {
 			}
 			String businessWebsite = request.getParameter("businessWebsite");
 			String businessDescription = request.getParameter("businessDescription");
-			// String photo = request.getParameter("verifymail");
 			String photoDescription = request.getParameter("photoDescription");
 			String categoryRestaurants = request.getParameter("category-restaurants");
 			String categoryWine = request.getParameter("category-wine");
@@ -75,8 +74,8 @@ public class FormEmailServlet extends SlingAllMethodsServlet {
 
 			Node node = request.getResourceResolver().resolve("/content/usergenerated/").adaptTo(Node.class);
 			session = request.getResourceResolver().adaptTo(Session.class);
-			Node formArticleNode = node.addNode("formArticleContent" + new Date().getTime());
-
+			Node formArticleNode = node.addNode("formNode" + new Date().getTime());
+			formArticleNode.setPrimaryType("nt:unstructured");
 			formArticleNode.setProperty("businessName", businessName);
 			formArticleNode.setProperty("location", location);
 			formArticleNode.setProperty("selectTerritory", selectTerritory);
@@ -125,7 +124,8 @@ public class FormEmailServlet extends SlingAllMethodsServlet {
 			properties.put("categorExperiences", categorExperiences);
 			properties.put("categorySeafood", categorySeafood);
 
-			sendEmail(request, emailCheck, properties);
+			sendEmail(request, emailCheck, properties,form);
+			response.sendRedirect(form.getRedirectUrl());
 		} catch (Exception e) {
 			LOG.error(e.getMessage());
 		}
@@ -133,7 +133,6 @@ public class FormEmailServlet extends SlingAllMethodsServlet {
 
 	private void imageUpload(SlingHttpServletRequest request, Node formArticleNode) throws IOException {
 		Map<String, RequestParameter[]> params = request.getRequestParameterMap();
-		MimetypesFileTypeMap mimeTypesMap = new MimetypesFileTypeMap();
 		for (Map.Entry<String, RequestParameter[]> pairs : params.entrySet()) {
 			key = pairs.getKey();
 			RequestParameter[] pArr = pairs.getValue();
@@ -141,11 +140,11 @@ public class FormEmailServlet extends SlingAllMethodsServlet {
 
 			if ((key.equalsIgnoreCase("upload-photo"))) {
 				try {
-				InputStream stream = param.getInputStream();
-				fileName = param.getFileName();
-				contentType = param.getContentType();
-				ValueFactory valueFactory = session.getValueFactory();
-				contentValue = valueFactory.createBinary(stream);
+					InputStream stream = param.getInputStream();
+					fileName = param.getFileName();
+					contentType = param.getContentType();
+					ValueFactory valueFactory = session.getValueFactory();
+					contentValue = valueFactory.createBinary(stream);
 					Node fileNode = formArticleNode.addNode("file", "nt:file");
 					fileNode.addMixin("mix:referenceable");
 					Node resourceNode = fileNode.addNode("jcr:content", "nt:resource");
@@ -159,8 +158,8 @@ public class FormEmailServlet extends SlingAllMethodsServlet {
 		}
 	}
 
-	private void sendEmail(SlingHttpServletRequest request, boolean emailCheck, Map<String, String> properties) {
-		Form form = new Form(request);
+	private void sendEmail(SlingHttpServletRequest request, boolean emailCheck, Map<String, String> properties,Form form) {
+		
 		List<String> emailIdsList = form.getEmailIdsList();
 		String emailTemplatePath = form.getEmailTemplate();
 		String emailSubject = form.getEmailSubject();

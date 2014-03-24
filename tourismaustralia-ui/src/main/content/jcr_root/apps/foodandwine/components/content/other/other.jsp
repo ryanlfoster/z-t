@@ -27,9 +27,9 @@
 </style>
 </head>
 <body>
+		<c:forEach items="${other.tagArticles}" var="tagArticle">
 	<div class="video-table">
 			<table>
-		<c:forEach items="${other.tagArticles}" var="tagArticle">
 			<tr>
     			<h3 class="faw-article-quotes">${tagArticle.tag}</h3>
 			</tr>
@@ -50,9 +50,9 @@
 				</td>
 				</c:forEach>		
 			</tr>			
-		</c:forEach>
 		</table>				
 	</div>
+		</c:forEach>
 </body>
 </html>
 

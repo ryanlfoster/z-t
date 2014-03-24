@@ -1,9 +1,21 @@
 <%@include file="/apps/foodandwine/components/global.jsp"%>
 
+<style>
+#upload-photo {
+    display:none;
+}
+</style>
 <script>
 	$(document).ready(function() {
 		$(".categories-box").formcategory();
+
+		$("#upload").click(function(){
+		    $("#upload-photo").trigger('click');
+		});
 	});
+	
+	
+
 </script>
 
 <form action="${resource.path}.formemail.json" method="post">
@@ -148,7 +160,8 @@
 
 				<p>
 					<strong>Drag &amp; drop to upload <br>
-					</strong> or <a href="" target="_self"><strong>select files</strong></a>
+					</strong> or <a href="javascript:void(0)" id="upload" target="_self"><strong>select files</strong></a>
+					<input id="upload-photo" name="upload-photo" type="file" accept="image/*" />
 				</p>
 				<progress class="image-upload-progressbar" min="0" max="100"
 					value="0">0</progress>

@@ -20,12 +20,13 @@
     		<div class="calltoaction-title-container is-mobile">
         		<div class="calltoaction-type-sml1">add your business to our venues list</div>
     		</div>
-   			<%--<div class="calltoaction-title-container is-desktop">
+    		
+   			<div class="calltoaction-title-container is-desktop">
         		<div class="calltoaction-type-sml1">${Hero.smallFontText }</div>
-        		<div class="calltoaction-type-lrg">${Hero.largeFontText }</div>
-        		<div class="calltoaction-type-sml1">${Hero.smallFont }</div>
+        		<div class ="calltoaction-type-small">${Hero.largeFontText}</div>
+        		 <div class="calltoaction-type-sml1">${Hero.smallFont }</div>
        			<hr class="calltoaction-hr">
-    		</div> --%>
+    		</div> 
     		<a href="#" class="btn-secondary btn-register">${Hero.buttonText }</a>
     		<p>${Hero.byLineText }</p>
     		<div class="is-mobile">

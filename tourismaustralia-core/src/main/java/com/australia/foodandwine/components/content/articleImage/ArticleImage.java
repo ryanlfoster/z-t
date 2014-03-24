@@ -7,7 +7,6 @@ import org.apache.sling.api.resource.ValueMap;
 import com.citytechinc.cq.component.annotations.Component;
 import com.citytechinc.cq.component.annotations.DialogField;
 import com.citytechinc.cq.component.annotations.Listener;
-import com.citytechinc.cq.component.annotations.widgets.DateField;
 import com.citytechinc.cq.component.annotations.widgets.PathField;
 
 @Component(group = "Food and Wine", basePath = "jcr_root/apps/foodandwine/components", value = "Article Image with Caption", listeners = {

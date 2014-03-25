@@ -31,7 +31,7 @@ listeners = {
 	@Listener(name = "afteredit", value = "REFRESH_PAGE"), @Listener(name = "afterinsert", value = "REFRESH_PAGE") })
 public class Header {
 	@DialogField(fieldLabel = "Logo Image Path" ,name="./imagePath",required=true)
-	@PathField
+	@PathField(rootPath = "/content/dam")
 	private  String imagePath;
 
 	@DialogField(fieldLabel = "Logo Link Path",name="./logoLinkPath")

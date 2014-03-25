@@ -13,6 +13,7 @@ import com.australia.utils.PathUtils;
 import com.australia.widgets.multicomposite.MultiCompositeField;
 import com.citytechinc.cq.component.annotations.Component;
 import com.citytechinc.cq.component.annotations.DialogField;
+import com.citytechinc.cq.component.annotations.FieldProperty;
 import com.citytechinc.cq.component.annotations.Listener;
 import com.citytechinc.cq.component.annotations.Tab;
 import com.citytechinc.cq.component.annotations.widgets.PathField;
@@ -45,7 +46,7 @@ public class Footer {
 	@DialogField(fieldLabel = "Heading", tab = 4, required = true)
 	private String headingRight;
 
-	@DialogField(fieldLabel = "Links", tab = 2)
+	@DialogField(fieldLabel = "Links", tab = 2, additionalProperties = @FieldProperty(name = "anchor", value = "100%"))
 	@MultiCompositeField
 	private List<TextLink> linksLeft;
 

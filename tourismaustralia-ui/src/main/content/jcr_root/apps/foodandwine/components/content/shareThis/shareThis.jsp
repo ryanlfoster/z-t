@@ -18,8 +18,8 @@
  		
  		<a class='faw-article-divider'></a>
  		<a href="#" class="faw-bookmark-icon">
- 			<img class="faw-article-share-round faw-bookmark-icon-light" src="imgs/base/share/share-round-bookmark.png" alt="">
- 			<img class="faw-article-share-round faw-bookmark-icon-black" src="imgs/base/share/share-round-bookmark-black.png" alt="">
+ 			<img class="faw-article-share-round faw-bookmark-icon-light" src="/etc/designs/foodandwine/clientlibs/imgs/base/share/share-round-bookmark.png" alt="">
+ 			<img class="faw-article-share-round faw-bookmark-icon-black" src="/etc/designs/foodandwine/clientlibs/imgs/base/share/share-round-bookmark-black.png" alt="">
  		</a>
 </div> 
 

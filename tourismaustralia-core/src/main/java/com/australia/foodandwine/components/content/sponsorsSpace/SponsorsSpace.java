@@ -10,6 +10,7 @@ import org.apache.sling.api.resource.ValueMap;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import com.australia.foodandwine.components.constants.CQJCRConstants;
 import com.australia.widgets.multicomposite.MultiCompositeField;
 import com.citytechinc.cq.component.annotations.Component;
 import com.citytechinc.cq.component.annotations.DialogField;
@@ -24,10 +25,11 @@ import com.citytechinc.cq.component.annotations.Listener;
 	@Listener(name = "afteredit", value = "REFRESH_PAGE"), @Listener(name = "afterinsert", value = "REFRESH_PAGE") })
 public class SponsorsSpace {
 
-	@DialogField(fieldLabel = "Sponsor's Configuration")
+	@DialogField(fieldLabel = "Sponsor's Configuration (Only top 3 configurations are listed in the component)")
 	@MultiCompositeField
 	private final List<SponsorsSpaceProperties> sponsorsList;
 	private static final Logger LOG = LoggerFactory.getLogger(SponsorsSpace.class);
+	private String externalLink = null;
 
 	/**
 	 * constants
@@ -39,7 +41,6 @@ public class SponsorsSpace {
 	private static final String SPONSORS_LINK_TEXT = "linkText";
 	private static final String SPONSORS_LINK_TEXT_PATH = "linkTextPath";
 	private static final String NULL_POINTER_MESSAGE = "Null Pointer in SponsorsSpace.java";
-	private static final String HTML_EXTENSION = ".html";
 
 	/**
 	 * 
@@ -57,21 +58,36 @@ public class SponsorsSpace {
 				String imagePath = linkProps.get(SPONSORS_IMAGE_PATH, StringUtils.EMPTY);
 				String imageTitle = linkProps.get(SPONSORS_IMAGE_TITLE, StringUtils.EMPTY);
 				String linkText = linkProps.get(SPONSORS_LINK_TEXT, StringUtils.EMPTY);
-				String linkTextPath = linkProps.get(SPONSORS_LINK_TEXT_PATH, StringUtils.EMPTY) + HTML_EXTENSION;
-
+				String linkTextPath = linkProps.get(SPONSORS_LINK_TEXT_PATH, StringUtils.EMPTY);
+				if ((linkTextPath.contains("http://")) || (linkTextPath.contains("https://"))) {
+					externalLink = linkTextPath + "";
+				} else {
+					linkTextPath = linkTextPath + CQJCRConstants.HTML_EXTENSION;
+				}
 				sponsorsSpaceProperties.setBigTitle(bigTitle);
 				sponsorsSpaceProperties.setImagePath(imagePath);
 				sponsorsSpaceProperties.setImageTitle(imageTitle);
 				sponsorsSpaceProperties.setLinkText(linkText);
 				sponsorsSpaceProperties.setLinkTextPath(linkTextPath);
-
-				sponsorsList.add(sponsorsSpaceProperties);
+				sponsorsSpaceProperties.setExternalLink(externalLink);
+				int size = sponsorsList.size();
+				if(!(size >2)){
+					sponsorsList.add(sponsorsSpaceProperties);
+				}
 
 			}
 		} catch (NullPointerException e) {
 			LOG.error(NULL_POINTER_MESSAGE, e.getMessage());
 		}
 
+	}
+
+	/**
+	 * 
+	 * @return
+	 */
+	public String getExternalLink() {
+		return externalLink;
 	}
 
 	/**

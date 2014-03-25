@@ -24,11 +24,13 @@ import com.citytechinc.cq.component.annotations.editconfig.ActionConfigProperty;
 import com.citytechinc.cq.component.annotations.widgets.PathField;
 
 
-@Component(group = ".hidden", basePath = "jcr_root/apps/foodandwine/components",actions = { "text:Header", "-", "Edit" }, disableTargeting = true, value = "Header", listeners = {
+
+@Component(group = ".hidden", basePath = "jcr_root/apps/foodandwine/components",actions = { "text:Header", "-", "Edit" },disableTargeting = true, value = "Header", 
+listeners = {
 	@Listener(name = "aftercopy", value = "REFRESH_PAGE"), @Listener(name = "afterdelete", value = "REFRESH_PAGE"),
 	@Listener(name = "afteredit", value = "REFRESH_PAGE"), @Listener(name = "afterinsert", value = "REFRESH_PAGE") })
 public class Header {
-	@DialogField(fieldLabel = "Logo Image Path" ,name="./imagePath")
+	@DialogField(fieldLabel = "Logo Image Path" ,name="./imagePath",required=true)
 	@PathField
 	private  String imagePath;
 
@@ -50,13 +52,13 @@ public class Header {
 	private static final String HEADERLINKPATH="headerLinkPath";
 	private static final String HEADERLINKTEXT="headerLinkText"; 
 	private static final String HTML_EXTENSION = ".html";
-	private static final String EXCEPTION="Exception in Header.java";
 	/**
 	 * 
 	 * @param request
 	 */
 	
 	public Header(SlingHttpServletRequest request) {
+		
 		
 		String headerPath = PathUtils.FOOD_AND_WINE_ROOT_PATH + "/jcr:content/header";
 		Resource headerResource = request.getResourceResolver().getResource(headerPath);
@@ -68,7 +70,7 @@ public class Header {
 		
 		LOG.info(" imagepath on heade "+imagePath);
 		//linksLeft = new ArrayList<TextLink>();
-		headerData(headerDataList, headerResource, "headerDataList");
+		headerData(headerDataList, headerResource, HEADERDATALIST);
 		
 		}
 		

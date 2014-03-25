@@ -5,6 +5,7 @@ package com.australia.foodandwine.components.content.hero;
 import java.util.UUID;
 
 import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.logging.Log;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.ValueMap;
 
@@ -22,44 +23,44 @@ import com.citytechinc.cq.component.annotations.widgets.PathField;
 	@Listener(name = "aftercopy", value = "REFRESH_PAGE"), @Listener(name = "afterdelete", value = "REFRESH_PAGE"),
 	@Listener(name = "afteredit", value = "REFRESH_PAGE"), @Listener(name = "afterinsert", value = "REFRESH_PAGE") })
 public class Hero {
-	@DialogField(fieldLabel = "Image Path", fieldDescription = "Image for the background(optional)")
+	@DialogField(fieldLabel = "Image Path", fieldDescription = "Image for the background(optional)" ,name="./imagePath")
 	@PathField(rootPath = "/content/dam")
-	private final String imagePath;
+	private  String imagePath;
 	@DialogField(fieldLabel = "Big Title", required = true)
-	private final String bigTitle;
+	private  String bigTitle;
 
 	@DialogField(fieldLabel = "Ovaerlay Small Text", fieldDescription = "Text to be displayed in small font", tab = 2)
-	private final String smallFontText;
+	private  String smallFontText;
 
 	@DialogField(fieldLabel = "Ovaerlay Large Text", fieldDescription = "Text to be displayed in large font", tab = 2)
-	private final String largeFontText;
+	private  String largeFontText;
 
 	@DialogField(fieldLabel = "Ovaerlay Small Text", fieldDescription = "Text to be displayed after large font", tab = 2)
-	private final String smallFont;
+	private  String smallFont;
 
 	@DialogField(fieldLabel = "Register Button Text ", tab = 2)
-	private final String buttonText;
+	private  String buttonText;
 
-	@DialogField(fieldLabel = "Register Button Text ", tab = 2)
+	@DialogField(fieldLabel = "Register Button Link ", tab = 2)
 	@PathField
-	private final String buttonLink;
+	private  String buttonLink;
 
 	@DialogField(fieldLabel = "Byline", tab = 2)
-	private final String byLineText;
+	private  String byLineText;
 
 	@DialogField(fieldLabel = "Overlay Text for Video", fieldDescription = "Text before play button", tab = 3)
-	private final String textBeforePlayButton;
+	private  String textBeforePlayButton;
 
 	@DialogField(fieldLabel = "Overlay Text for Video", fieldDescription = "Text after play button", tab = 3)
-	private final String textAfterPlayButton;
+	private  String textAfterPlayButton;
 	@DialogField(fieldLabel = "Player Id", tab = 3, listeners = @Listener(name = "loadcontent", value = "function(field,record,path){ var loadDate = new CQ.Ext.data.JsonStore({ url: '/bin/brightcove/players?group=video', method: 'GET', root: 'items', fields: [{name:'playerId',type:'string'}] }); loadDate.load({ callback: function(r,options,success) { if (typeof field.value === 'undefined' || field.value.trim() == '') field.setValue(loadDate.data.itemAt(0).data.playerId); } }); }"))
-	private final String playerId;
+	private  String playerId;
 
 	@DialogField(fieldLabel = "Player Key", tab = 3, listeners = @Listener(name = "loadcontent", value = "function(field,record,path){ var loadDate = new CQ.Ext.data.JsonStore({ url: '/bin/brightcove/players?group=video', method: 'GET', root: 'items', fields: [{name:'playerKey',type:'string'}] }); loadDate.load({ callback: function(r,options,success) { if (typeof field.value === 'undefined' || field.value.trim() == '') field.setValue(loadDate.data.itemAt(0).data.playerKey); } }); }"))
-	private final String playerKey;
+	private  String playerKey;
 	@DialogField(required = true, tab = 3, xtype = "BrightcoveCombo", fieldLabel = "Video", name = "./video", additionalProperties = @FieldProperty(name = "hiddenName", value = "./videoPlayer"))
-	private final String videoPlayer;
-	private final String videoRandomId;
+	private  String videoPlayer;
+	private  String videoRandomId;
 
 	/**
 	 * Constants
@@ -83,7 +84,10 @@ public class Hero {
 	 * @param request
 	 */
 	public Hero(SlingHttpServletRequest request) {
+
 		ValueMap properties = request.getResource().adaptTo(ValueMap.class);
+		if(properties!=null)
+		{
 		imagePath = properties.get(IMAGEPATH, StringUtils.EMPTY);
 		bigTitle = properties.get(BIGTITLE, StringUtils.EMPTY);
 		smallFontText = properties.get(SMALLFONTTEXT, StringUtils.EMPTY);
@@ -99,6 +103,9 @@ public class Hero {
 		playerId = properties.get(PLAYERID, brcService.getDefVideoPlayerID());
 		playerKey = properties.get(PLAYERKEY, brcService.getDefVideoPlayerKey());
 		videoPlayer = properties.get(VIDEOPLAYER, StringUtils.EMPTY);
+		}
+		
+		
 	}
 	/**
 	 * 

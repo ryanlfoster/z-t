@@ -14,7 +14,7 @@ import com.citytechinc.cq.component.annotations.widgets.PathField;
 	@Listener(name = "afteredit", value = "REFRESH_PAGE"), @Listener(name = "afterinsert", value = "REFRESH_PAGE") })
 public class ArticleImage {
 
-	@DialogField(fieldLabel = "Articl Image", required = true, name = "./imagePath")
+	@DialogField(fieldLabel = "Article Image", required = true, name = "./imagePath")
 	@PathField(rootPath = "/content/dam")
 	private final String imagePath;
 

@@ -21,37 +21,8 @@
 						<div class="form-elements-biline">
 							www.simonesofbright.com.au</div>
 					</div>
-					<!-- category items -->
-					<div class="category-items">
-						<div class="category-item category-item-center">
-							<p>
-								<span class="btn-round is-active"><img
-									src="clientlibs/imgs/base/categories/category-icon-wine-white.png" alt="" /></span>
-								<span class="category-title l-color-black">Wine Story</span>
-							</p>
-						</div>
-						<div class="category-item category-item-center">
-							<p>
-								<span class="btn-round is-active"><img
-									src="imgs/base/categories/category-icon-people-white.png"
-									alt="" /></span> <span class="category-title l-color-black">People</span>
-							</p>
-						</div>
-						<div class="category-item category-item-center">
-							<p>
-								<span class="btn-round is-active"><img
-									src="imgs/base/categories/category-icon-produce-white.png"
-									alt="" /></span> <span class="category-title l-color-black">Produce</span>
-							</p>
-						</div>
-						<div class="category-item category-item-center">
-							<p>
-								<span class="btn-round is-active"><img
-									src="imgs/base/categories/category-icon-restaurants-white.png"
-									alt="" /></span> <span class="category-title l-color-black">Restaurants</span>
-							</p>
-						</div>
-					</div>
+	
+					<cq:include path="category" resourceType="foodandwine/components/content/category" />
 
 					<h3 class="faw-article-healdine">Simone’s Restaurant is
 						located in Bright at the foot of the alpine resorts in the heart
@@ -64,7 +35,6 @@
 
 			<cq:include path="mainparsys" resourceType="foundation/components/parsys" />
 
-
 			<div class="l-center">
 				<div class="experiences">
 					<div class="head-divider experiences-head-divider">
@@ -73,6 +43,7 @@
 							<h5>
 								<img src="imgs/base/header-map-icon.png" />
 							</h5>
+
 							<hr class="icon-logo-withlines-hr icon-logo-withlines-hr-small">
 						</div>
 					</div>
@@ -81,66 +52,8 @@
 					<h2>Victoria</h2>
 					<hr class="divider-small">
 
+					<cq:include path="otherExperiences" resourceType="foodandwine/components/content/other" />
 
-
-					<div class="faw-experience">
-						<div class='faw-experience-outer'>
-							<div class='faw-experience-wrapper'>
-								<ul class="carousel-wrapper faw-experience-carousel"
-									data-mobilemaxresolution="1200" data-startindex="0"
-									data-disablecarouselondesktop="true" data-showsingleitem='true'>
-									<li class="item">
-
-										<div class="imagecarousel-item">
-											<img src="imgs/pages/article/faw-gallery-icon.jpg" />
-
-											<div class="imagecarousel-description">
-												<h3 class="imagecarousel-headline type-font-feature">Rockpool
-													Bar & Grill Melbourne</h3>
-												<p>Victoria</p>
-											</div>
-										</div>
-									</li>
-									<li class="item">
-
-										<div class="imagecarousel-item">
-											<img src="imgs/pages/article/faw-gallery-icon.jpg" />
-
-											<div class="imagecarousel-description">
-												<h3 class="imagecarousel-headline type-font-feature">Rockpool
-													Bar & Grill Melbourne</h3>
-												<p>Victoria</p>
-											</div>
-										</div>
-									</li>
-									<li class="item">
-
-										<div class="imagecarousel-item">
-											<img src="imgs/pages/article/faw-gallery-icon.jpg" />
-
-											<div class="imagecarousel-description">
-												<h3 class="imagecarousel-headline type-font-feature">Rockpool
-													Bar & Grill Melbourne</h3>
-												<p>Victoria</p>
-											</div>
-										</div>
-									</li>
-									<li class="item">
-
-										<div class="imagecarousel-item">
-											<img src="imgs/pages/article/faw-gallery-icon.jpg" />
-
-											<div class="imagecarousel-description">
-												<h3 class="imagecarousel-headline type-font-feature">Rockpool
-													Bar & Grill Melbourne</h3>
-												<p>Victoria</p>
-											</div>
-										</div>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
 				</div>
 			</div>
 

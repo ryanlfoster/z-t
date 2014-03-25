@@ -1,14 +1,9 @@
 <%@include file="/apps/foodandwine/components/global.jsp"%>
 
-
 		<div class="faw-article">
-
-
 			<!-- test background for testing, whow the transparent menu respons -->
 			<div class='form-hero'>
 				<div class="faw-hero-home-container">
-
-
 					<div class="icon-logo-withlines-container">
 						<hr class="icon-logo-withlines-hr">
 						<span href="#"
@@ -23,30 +18,23 @@
 					</div>
 	
 					<cq:include path="category" resourceType="foodandwine/components/content/category" />
-
-					<h3 class="faw-article-healdine">Simone’s Restaurant is
-						located in Bright at the foot of the alpine resorts in the heart
-						of the north east of Victoria.</h3>
+					<cq:include path="text" resourceType="foodandwine/components/content/text" />
 
 				</div>
 			</div>
 
 			<cq:include path="shareThis" resourceType="foodandwine/components/content/shareThis" />
-
 			<cq:include path="mainparsys" resourceType="foundation/components/parsys" />
+			<cq:include path="map" resourceType="foodandwine/components/content/map" />
 
 			<div class="l-center">
 				<div class="experiences">
-					<div class="head-divider experiences-head-divider">
-						<div class="head-divider-inner">
-							<hr class="icon-logo-withlines-hr icon-logo-withlines-hr-small">
-							<h5>
-								<img src="imgs/base/header-map-icon.png" />
-							</h5>
-
-							<hr class="icon-logo-withlines-hr icon-logo-withlines-hr-small">
-						</div>
-					</div>
+<!-- 					<div class="head-divider experiences-head-divider"> -->
+<!-- 						<div class="head-divider-inner"> -->
+<!-- 							<hr class="icon-logo-withlines-hr icon-logo-withlines-hr-small"> -->
+<!-- 							<hr class="icon-logo-withlines-hr icon-logo-withlines-hr-small"> -->
+<!-- 						</div> -->
+<!-- 					</div> -->
 
 					<h5 class='experiences-headline'>Other Experiences in</h5>
 					<h2>Victoria</h2>

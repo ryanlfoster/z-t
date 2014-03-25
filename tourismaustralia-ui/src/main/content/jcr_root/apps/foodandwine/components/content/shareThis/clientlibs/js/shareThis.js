@@ -13,7 +13,9 @@ CQ_Analytics.ClientContextMgr.addListener("storesinitialize", function (e) {
 			addShareThisButton(obj, share_url, page_title, page_desc);
 		});
 
-		if (navigator.userAgent.search("Chrome") >= 0) {
+		var is_firefox = navigator.userAgent.toLowerCase().indexOf('firefox') > -1;
+		var is_chrome = navigator.userAgent.toLowerCase().indexOf('chrome') > -1;
+		if (is_firefox || is_chrome) {
 			$(".faw-article-divider").hide();
 			$(".faw-bookmark-icon").hide();
 		}

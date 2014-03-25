@@ -66,7 +66,7 @@ public class Global {
 		description = xssAPI.encodeForHTMLAttr(properties.get("jcr:description", ""));
 		keywords = xssAPI.encodeForHTMLAttr(WCMUtils.getKeywords(currentPage, false));
 		lastModified = StringUtils.left(xssAPI.encodeForHTMLAttr(properties.get("cq:lastModified", "")), 10);
-		isHomePage = (currentPage.equals(currentPage.getAbsoluteParent(1)));
+		isHomePage = currentPage.equals(currentPage.getAbsoluteParent(1));
 
 		Resource imageResource = currentPage.getContentResource();
 		Image image = new Image(imageResource, "image");
@@ -90,7 +90,6 @@ public class Global {
 		} else {
 			favIcon = tempFavIcon;
 		}
-
 	}
 
 	public boolean getRemoveFromSearch() {

@@ -5,6 +5,7 @@ import com.australia.telize.domain.GeoLocation;
 public interface TelizeService {
 
 	GeoLocation getLocation();
+
 	GeoLocation getLocation(String xForwardedIP);
 
 }

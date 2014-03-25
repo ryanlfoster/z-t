@@ -2,54 +2,77 @@
 <%@include file="/apps/foodandwine/components/global.jsp"%>
 <%@ page import="com.australia.foodandwine.components.content.hero.Hero"%>
 
-<c:set var="Hero" value="<%=new Hero(slingRequest) %>" /> 
+<c:set var="hero" value="<%=new Hero(slingRequest) %>" />
+
+
 <!-- test background for testing, whow the transparent menu respons -->
-<div class='faw-hero-home faw-bg-full-container faw-hero-home make-black'>
-	<div class='faw-hero-home-bg'>
-		<img data-width='1580' data-height='1153' class='faw-bg-full' src="${Hero.imagePath}" alt=""/>
-	</div>
+<div class='faw-hero-home make-black'>
+	<div class="faw-hero-home-bg fullwidth-bg">
+		<div class="responsive-image" data-picture="" data-alt="">
+			<div data-src="{"
+				data-media="(min-width: 1px)"></div>
+			<div data-src="${hero.imagePath }"
+				data-media="(min-width: 481px)"></div>
+			<div data-src="${hero.imagePath }"
+				data-media="(min-width: 769px)"></div>
+			<div data-src="${hero.imagePath }"
+				data-media="(min-width: 993px)"></div>
+			<noscript>&lt;img src='${hero.imagePath }'
+				alt=''&gt;</noscript>
+			<img alt="" src="${hero.imagePath }"
+				style="width: 1152px; margin-left: 0px;">
+		</div>
+	<%-- 	[if (lt IE 9) & (!IEMobile)]
+            <img src='${hero.imagePath }' alt=''>
+        [endif]
+ --%>	</div>
 	<div class="faw-hero-home-container">
 		<div class="icon-logo-withlines-container">
-    		<hr class="icon-logo-withlines-hr">
-    		<span href="#" class="icon-logo-withlines-logo btn-restaurant-australia-logo icon-font-logo"></span>
-    		<hr class="icon-logo-withlines-hr">
+			<hr class="icon-logo-withlines-hr">
+			<span href="#"
+				class="icon-logo-withlines-logo btn-restaurant-australia-logo icon-font-logo"></span>
+			<hr class="icon-logo-withlines-hr">
 		</div>
-		<h1>${Hero.bigTitle}</h1>
-     	<hr class="faw-hero-home-hr">
- 		<div class='calltoaction'>
-    		<div class="calltoaction-title-container is-mobile">
-        		<div class="calltoaction-type-sml1">add your business to our venues list</div>
-    		</div>
-   			<%--<div class="calltoaction-title-container is-desktop">
-        		<div class="calltoaction-type-sml1">${Hero.smallFontText }</div>
-        		<div class="calltoaction-type-lrg">${Hero.largeFontText }</div>
-        		<div class="calltoaction-type-sml1">${Hero.smallFont }</div>
-       			<hr class="calltoaction-hr">
-    		</div> --%>
-    		<a href="#" class="btn-secondary btn-register">${Hero.buttonText }</a>
-    		<p>${Hero.byLineText }</p>
-    		<div class="is-mobile">
-        		<hr class="calltoaction-hr">
-   		 	</div>
+		<h1 class='faw-hero-home-headline'>${hero.bigTitle}</h1>
+		<hr class="faw-hero-home-hr">
+		<div class='calltoaction'>
+			<div class="calltoaction-title-container is-mobile">
+				<div class="calltoaction-type-sml1">add your business to our
+					venues list</div>
+			</div>
+			<div class="calltoaction-title-container is-desktop">
+				<div class="calltoaction-type-sml1">${hero.smallFontText }</div>
+				<div class="calltoaction-type-lrg">${hero.largeFontText}</div>
+				<div class="calltoaction-type-sml1">${hero.smallFont}</div>
+				<hr class="calltoaction-hr">
+			</div>
+			<a href="#" class="btn-secondary btn-register">${hero.buttonText}</a>
+			<p>${hero.byLineText}</p>
+			<div class="is-mobile">
+				<hr class="calltoaction-hr">
+			</div>
 		</div>
 	</div>
 	<div class="faw-video-teaser-wrapper l-position-normal">
 		<div class="faw-video-teaser">
-			<h5 class="faw-video-teaser-label is-mobile">what is restaurant australia?</h5>
-			<h5 class="faw-video-teaser-label is-desktop">${Hero.textBeforePlayButton }</h5>
-			<a href="#" class="faw-video-teaser-icon btn-round-video icon-font-video-play" data-video-button="home-video"></a>
-			<h5 class="faw-video-teaser-label is-desktop">${Hero.textAfterPlayButton }</h5>
+			<h5 class="faw-video-teaser-label is-mobile">what is restaurant
+				australia?</h5>
+			<h5 class="faw-video-teaser-label is-desktop">${hero.textBeforePlayButton}</h5>
+			<a href="#"
+				class="faw-video-teaser-icon btn-round-video icon-font-video-play"
+				data-video-button="home-video"></a>
+			<h5 class="faw-video-teaser-label is-desktop">${hero.textAfterPlayButton}</h5>
 		</div>
 	</div>
 	<!-- video container -->
 	<div id='home-video' class="video-container">
-    	<a class="video-close-btn icon-font-cross" href="#"></a>
-    	<div class="video-table">
-        	<div class="video-table-cell"> 
-	       	 	<div class="cq-dd-brightcovevideo"
-	     			 style="overflow-x: hidden;overflow-y: hidden;text-align: center;width: 100%;text-align:center;">
-	    			<div id="${Hero.videoRandomId}"></div>
-		   		 	<script type="text/javascript">
+		<a class="video-close-btn icon-font-cross" href="#"></a>
+		<div class="video-table">
+			<div class="video-table-cell">
+				<div class="cq-dd-brightcovevideo"
+					style="overflow-x: hidden; overflow-y: hidden; text-align: center; width: 100%; text-align: center;">
+					<div id="${hero.videoRandomId}"></div>
+					<script type="text/javascript">
 		        	// listener for media change events
 			        	function onMediaBegin(event) {
 			            	var BCLcurrentVideoID;
@@ -81,12 +104,13 @@
 			        	}
 		
 		    		</script>
-				    <script>
-				        customBC.createVideo("100%", "100%", "${Hero.playerId}", "${Hero.playerKey}", "${Hero.videoPlayer}", "${Hero.videoRandomId}");
+					<script>
+				        customBC.createVideo("100%", "100%", "${hero.playerId}", "${hero.playerKey}", "${hero.videoPlayer}", "${hero.videoRandomId}");
 				    </script>
-		        </div>
-        	</div>
-    	</div>
+				</div>
+
+			</div>
+		</div>
 	</div>
 	<script>
     	$(document).ready(function() {
@@ -94,4 +118,3 @@
     	});
 	</script>
 </div>
-

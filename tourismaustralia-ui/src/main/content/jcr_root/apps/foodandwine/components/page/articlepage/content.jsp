@@ -26,7 +26,7 @@
 						<div class="category-item category-item-center">
 							<p>
 								<span class="btn-round is-active"><img
-									src="imgs/base/categories/category-icon-wine-white.png" alt="" /></span>
+									src="clientlibs/imgs/base/categories/category-icon-wine-white.png" alt="" /></span>
 								<span class="category-title l-color-black">Wine Story</span>
 							</p>
 						</div>

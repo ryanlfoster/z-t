@@ -19,8 +19,8 @@ public enum SocialNetworkType {
 	@Option(text = "LinkedIn")
 	LINKEDIN("st_linkedin_large"),
 
-	@Option(text = "Google Bookmarks")
-	GOOGLE_BMARKS("st_google_bmarks"),
+	@Option(text = "Instagram")
+	INSTAGRAM("st_instagram_large"),
 
 	@Option(text = "GooglePlus")
 	GOOGLEPLUS("st_googleplus_large"),

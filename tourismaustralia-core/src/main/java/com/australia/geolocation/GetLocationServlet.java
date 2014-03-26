@@ -54,11 +54,14 @@ public class GetLocationServlet extends SlingAllMethodsServlet {
 			Iterator specHeaderIterator= specHeader.entrySet().iterator();
 			if (specHeaderIterator.hasNext()) {
 				Map.Entry<String, String> pairs = (Map.Entry)specHeaderIterator.next();
+				LOG.debug("Header Key = " + pairs.getKey());
 				if (StringUtils.equalsIgnoreCase(pairs.getKey(), AKAMAI_HEADER)) {
 					location = getLocationFromAkamai(pairs.getValue());
 				}
-				if (StringUtils.equalsIgnoreCase(pairs.getKey(), X_FORWARDED_FOR_HEADER)) {
+				else if (StringUtils.equalsIgnoreCase(pairs.getKey(), X_FORWARDED_FOR_HEADER)) {
 					location = getLocationFromTelize(pairs.getValue());
+				} else {
+					location = getLocationFromTelize();
 				}
 			} else {
 				location = getLocationFromTelize();
@@ -81,13 +84,11 @@ public class GetLocationServlet extends SlingAllMethodsServlet {
 			if (StringUtils.equalsIgnoreCase(AKAMAI_HEADER, key)) {
 				header = request.getHeader(key);
 				headerMap.put(key, header);
-				break;
 			}
 
 			if (StringUtils.equalsIgnoreCase(X_FORWARDED_FOR_HEADER, key)) {
 				header = request.getHeader(key);
 				headerMap.put(key, header);
-				break;
 			}
 
 		}

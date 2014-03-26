@@ -14,7 +14,9 @@
 			<p>${map.address1}</p>
 			<p>${map.suburb}, ${map.state} ${map.postcode}</p>
 			<br/>
-			<a href="http://${map.website}" target="_blank"><strong>${map.website}</strong></a>
+			<c:if test="${not empty map.website}">
+				<a href="http://${map.website}" target="_blank"><strong>${map.website}</strong></a>
+			</c:if>	
 		</div>
 	</div>
 </div>

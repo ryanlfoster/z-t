@@ -28,4 +28,7 @@
         <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="${global.favIcon}"/>
     </c:if>
     <title>${global.title}</title>
+
+    <cq:includeClientLib css="ta"/>
+
 </head>

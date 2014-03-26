@@ -19,7 +19,7 @@ import com.citytechinc.cq.component.annotations.Tab;
 import com.citytechinc.cq.component.annotations.widgets.PathField;
 
 @Component(group = ".hidden", basePath = "jcr_root/apps/foodandwine/components", actions = { "text:Footer", "-", "Edit" }, disableTargeting = true, value = "Footer", dialogWidth = 700, tabs = {
-	@Tab(title = "Top & Bottom"), @Tab(title = "Left"), @Tab(title = "Middle"), @Tab(title = "Right") }, listeners = {
+	@Tab(title = "Top & Bottom"), @Tab(title = "Left"), @Tab(title = "Middle"), @Tab(title = "Social Links") }, listeners = {
 	@Listener(name = "aftercopy", value = "REFRESH_PAGE"), @Listener(name = "afterdelete", value = "REFRESH_PAGE"),
 	@Listener(name = "afteredit", value = "REFRESH_PAGE"), @Listener(name = "afterinsert", value = "REFRESH_PAGE") })
 public class Footer {

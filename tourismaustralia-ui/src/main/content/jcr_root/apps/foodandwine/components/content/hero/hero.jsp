@@ -8,7 +8,7 @@
 <!-- test background for testing, whow the transparent menu respons -->
 <div class='faw-hero-home make-black'>
 	<div class="faw-hero-home-bg fullwidth-bg">
-		<div class="responsive-image" data-picture="" data-alt="" style="width:1663px">
+		<div class="responsive-image" data-picture="" data-alt="">
 			<div data-src="${hero.imagePath}.adapt.1663.low.jpg" data-media="(min-width: 1px)"></div>
 			<div data-src="${hero.imagePath}.adapt.1663.medium.jpg" data-media="(min-width: 481px)"></div>
 			<div data-src="${hero.imagePath}.adapt.1663.high.jpg" data-media="(min-width: 769px)"></div>

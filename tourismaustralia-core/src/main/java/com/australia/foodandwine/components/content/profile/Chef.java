@@ -7,7 +7,6 @@ import org.apache.sling.api.resource.ValueMap;
 import com.citytechinc.cq.component.annotations.Component;
 import com.citytechinc.cq.component.annotations.DialogField;
 import com.citytechinc.cq.component.annotations.Listener;
-import com.citytechinc.cq.component.annotations.widgets.DateField;
 import com.citytechinc.cq.component.annotations.widgets.PathField;
 
 @Component(group = "Food and Wine", basePath = "jcr_root/apps/foodandwine/components", value = "Chef Profile", listeners = {
@@ -15,26 +14,27 @@ import com.citytechinc.cq.component.annotations.widgets.PathField;
 	@Listener(name = "afteredit", value = "REFRESH_PAGE"), @Listener(name = "afterinsert", value = "REFRESH_PAGE") })
 public class Chef {
 
-
 	@DialogField(fieldLabel = "Title", required = true)
-	private final String title;
+	private String title;
 
-	@DialogField(fieldLabel = "Chef Profile Image Path" ,name="./imagePath")
+	@DialogField(fieldLabel = "Chef Profile Image Path", name = "./imagePath")
 	@PathField
-	private final String imagePath;
-	
+	private String imagePath;
+
 	@DialogField(fieldLabel = "Text for image caption")
-	private final String imageText;
+	private String imageText;
 
 	@DialogField(fieldLabel = "Content", required = true)
-	private final String content;
+	private String content;
 
 	public Chef(SlingHttpServletRequest request) {
 		ValueMap properties = request.getResource().adaptTo(ValueMap.class);
-		title = properties.get("title", "");
-		imageText = properties.get("imageText", "");
-		imagePath = properties.get("imagePath",StringUtils.EMPTY);
-		content = properties.get("content", "");
+		if (properties != null) {
+			title = properties.get("title", "");
+			imageText = properties.get("imageText", "");
+			imagePath = properties.get("imagePath", StringUtils.EMPTY);
+			content = properties.get("content", "");
+		}
 	}
 
 	public String getTitle() {
@@ -44,9 +44,11 @@ public class Chef {
 	public String getImageText() {
 		return imageText;
 	}
+
 	public String getImagePath() {
 		return imagePath;
 	}
+
 	public String getContent() {
 		return content;
 	}

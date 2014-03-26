@@ -7,7 +7,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import javax.activation.MimetypesFileTypeMap;
 import javax.jcr.Binary;
 import javax.jcr.Node;
 import javax.jcr.Session;
@@ -42,7 +41,7 @@ public class FormEmailServlet extends SlingAllMethodsServlet {
 	private Session session;
 	private String key;
 	private RequestParameter param;
-	private String fileName;
+	
 	private String contentType;
 	private Binary contentValue;
 
@@ -132,6 +131,7 @@ public class FormEmailServlet extends SlingAllMethodsServlet {
 	}
 
 	private void imageUpload(SlingHttpServletRequest request, Node formArticleNode) throws IOException {
+		
 		Map<String, RequestParameter[]> params = request.getRequestParameterMap();
 		for (Map.Entry<String, RequestParameter[]> pairs : params.entrySet()) {
 			key = pairs.getKey();
@@ -141,7 +141,6 @@ public class FormEmailServlet extends SlingAllMethodsServlet {
 			if ((key.equalsIgnoreCase("upload-photo"))) {
 				try {
 					InputStream stream = param.getInputStream();
-					fileName = param.getFileName();
 					contentType = param.getContentType();
 					ValueFactory valueFactory = session.getValueFactory();
 					contentValue = valueFactory.createBinary(stream);

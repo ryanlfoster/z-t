@@ -49,6 +49,12 @@ var inputfields = [];
 		$(scope.element).find('.checkbox').blur(function() {
 			scope.validateField(scope);
 		});
+		
+		//disable paste function
+		var verifyField = document.getElementById('verifymail');
+		 verifyField.onpaste = function(e) {
+		   e.preventDefault();
+		 };
 	};
 	
 	Plugin.prototype.initInputBoxes = function(scope){
@@ -87,7 +93,7 @@ var inputfields = [];
 				isValid = scope.isValidSelect(selectBox);
 				break;
 			case "number":
-				isValid = scope.isValidNumber(inputFieldVal);
+				isValid = scope.isValidPhoneNumber(inputFieldVal);
 				break;
 			case "checkbox":
 				isValid = scope.isValidCheckbox(checkBox);
@@ -158,6 +164,11 @@ var inputfields = [];
 		var filter = /^[0-9-+]+$/;
 		return filter.test(inputValue);
 	};
+	Plugin.prototype.isValidPhoneNumber = function(inputValue){ 
+	  	var phoneno = /^\+?([0-9]{2})\)?[-. ]?([0-9]{1})[-. ]?([0-9]{4})[-. ]?([0-9]{4})$/; 
+	  	return phoneno.test(inputValue);
+	};
+	
 	// A really lightweight plugin wrapper around the constructor,
 	// preventing against multiple instantiations
 	$.fn[pluginName] = function(options) {
@@ -203,6 +214,15 @@ function validateForm() {
 	$(inputfields).each(function(index, element){
 		if($(element).attr('data-isValid') !== "true"){
 			errorObjects.push(element);
+			errors++;
+		}
+		
+		//check categories box
+		if($('.categories-box').attr('isValid') === 'true'){
+			$('.categories-box-validation-alert').css("display","none");
+		}else{
+			$('.categories-box-validation-alert').css("display","block");
+			
 			errors++;
 		}
 		

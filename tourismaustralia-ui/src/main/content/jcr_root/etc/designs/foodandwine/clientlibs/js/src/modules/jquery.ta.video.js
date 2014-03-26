@@ -86,5 +86,10 @@
             }
         });
     };
+    
+    //init all carousel objects on page automatically -> TBR
+	$(window).load(function() {
+		$(".video-container").video();
+	});
 
 })( jQuery, window, document );

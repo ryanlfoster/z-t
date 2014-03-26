@@ -17,8 +17,6 @@
 	</div>
 
 	<cq:include path="shareThis" resourceType="foodandwine/components/content/shareThis" />
-	<cq:include path="quote" resourceType="foodandwine/components/content/quote" />
-	<cq:include path="chef" resourceType="foodandwine/components/content/chef" />
 	<cq:include path="mainparsys" resourceType="foundation/components/parsys" />
 	<cq:include path="map" resourceType="foodandwine/components/content/map" />
 

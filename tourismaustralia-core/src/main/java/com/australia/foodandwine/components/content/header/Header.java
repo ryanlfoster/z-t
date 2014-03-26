@@ -12,6 +12,7 @@ import org.apache.sling.api.resource.ValueMap;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import com.australia.foodandwine.components.constants.CQJCRConstants;
 import com.australia.foodandwine.components.content.footer.TextLink;
 import com.australia.foodandwine.components.content.sponsorsSpace.SponsorsSpace;
 import com.australia.utils.PathUtils;
@@ -34,15 +35,19 @@ public class Header {
 	@PathField(rootPath = "/content/dam")
 	private  String imagePath;
 
-	@DialogField(fieldLabel = "Logo Link Path",name="./logoLinkPath")
+	@DialogField(fieldLabel = "Logo Link Path")
 	@PathField
-	private  String linkPath;
+	private  String logoLinkPath;
 
 	@DialogField(fieldLabel="Header Text and Links")
 	@MultiCompositeField
 	private  List<HeaderBean> headerDataList;
 	
-	private static  Logger LOG = LoggerFactory.getLogger(SponsorsSpace.class);
+	private static  Logger LOG = LoggerFactory.getLogger(Header.class);
+	private String externalLink=null;
+	private String titleExternalLink=null;
+	
+	
 	/**
 	 * Constants
 	 */
@@ -65,11 +70,13 @@ public class Header {
 		if (headerResource != null) {
 		ValueMap properties = headerResource.adaptTo(ValueMap.class);
 		imagePath = properties.get(IMAGEPATH,StringUtils.EMPTY);
-		linkPath = properties.get(LOGOLINKPATH, StringUtils.EMPTY)+HTML_EXTENSION;
+		logoLinkPath = properties.get(LOGOLINKPATH, StringUtils.EMPTY);
+		if ((logoLinkPath.contains("http://")) || (logoLinkPath.contains("https://"))) {
+			externalLink = logoLinkPath + "";
+		} else {
+			logoLinkPath = logoLinkPath + CQJCRConstants.HTML_EXTENSION;
+		}
 		headerDataList = new ArrayList<HeaderBean>();
-		
-		LOG.info(" imagepath on heade "+imagePath);
-		//linksLeft = new ArrayList<TextLink>();
 		headerData(headerDataList, headerResource, HEADERDATALIST);
 		
 		}
@@ -81,6 +88,12 @@ public class Header {
 			for (Resource r : resources) {
 				ValueMap linkProps = r.adaptTo(ValueMap.class);
 				String pagePath = linkProps.get(HEADERLINKPATH, StringUtils.EMPTY);
+				if ((pagePath.contains("http://")) || (pagePath.contains("https://"))) {
+					titleExternalLink = pagePath + "";
+				} else {
+					if(!pagePath.equals(""))
+						pagePath = pagePath + CQJCRConstants.HTML_EXTENSION;
+				}
 				String linkText = linkProps.get(HEADERLINKTEXT, StringUtils.EMPTY);
 				HeaderBean headerBean = new HeaderBean();
 				headerBean.setPagePath(pagePath);
@@ -98,11 +111,17 @@ public class Header {
 		return imagePath;
 	}
 
-	public String getLinkPath() {
-		return linkPath;
+	public String getLogoLinkPath() {
+		return logoLinkPath;
 	}
 	public List<HeaderBean> getHeaderDataList() {
 		return headerDataList;
+	}
+	public String getExternalLink() {
+		return externalLink;
+	}
+	public String getTitleExternalLink() {
+		return titleExternalLink;
 	}
 
 }

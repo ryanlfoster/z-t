@@ -7,7 +7,7 @@ import com.citytechinc.cq.component.annotations.DialogField;
 import com.citytechinc.cq.component.annotations.widgets.PathField;
 
 public class Item {	
-	@DialogField(fieldLabel = "Image Path", required = true, name = "./imagePath")
+	@DialogField(fieldLabel = "Image Path", required = true)
 	@PathField(rootPath = "/content/dam")
 	private final String imagePath;
 

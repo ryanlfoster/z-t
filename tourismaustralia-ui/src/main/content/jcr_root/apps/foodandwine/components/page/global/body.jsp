@@ -6,18 +6,23 @@
 <c:set var="global" value="<%=new Global(slingRequest) %>"/>
 
 <body>
-	<cq:include path="header" resourceType="foodandwine/components/content/header" />		<!-- End #main-header -->
-
+	<% WCMMode modeBefore = WCMMode.fromRequest(slingRequest); %>
+	
+   	<c:if test="${not global.isHomePage}"> 
+   		<% WCMMode.DISABLED.toRequest(slingRequest); %>
+	</c:if>		
+	<cq:include path="header" resourceType="foodandwine/components/content/header" />		
+   	<% modeBefore.toRequest(slingRequest); %>	
+	<!-- End #main-header -->
+	
 	<div class="site-wrapper">
 
 		<div id="main-content"><cq:include script="content.jsp" /></div>
-
-   		<% WCMMode modeBefore = WCMMode.fromRequest(slingRequest); %>
 	   	<c:if test="${not global.isHomePage}"> 
 	   		<% WCMMode.DISABLED.toRequest(slingRequest); %>
 		</c:if>		
-			
 		<cq:include path="footer" resourceType="foodandwine/components/content/footer" />
 	   	<% modeBefore.toRequest(slingRequest); %>	
+
 	</div>
 </body>

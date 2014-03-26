@@ -4,5 +4,5 @@
 
 <c:set var="quote" value="<%=new Quote(slingRequest) %>"/>
 
-<h3 class="faw-article-quotes">"${quote.quoteText}"</h3>
+<h3 class="faw-article-quotes">&#8220;${quote.quoteText}&#8221;</h3>
 <p class="faw-article-copyright"><em>${quote.byline} ${quote.quoteDate}</em></p>

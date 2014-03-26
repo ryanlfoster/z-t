@@ -14,20 +14,22 @@ import com.citytechinc.cq.component.annotations.widgets.DateField;
 public class Quote {
 
 	@DialogField(fieldLabel = "Quote Text", required = true)
-	private final String quoteText;
+	private String quoteText;
 
 	@DialogField(fieldLabel = "Byline", required = true)
-	private final String byline;
+	private String byline;
 
 	@DialogField(fieldLabel = "Quote Date", required = true)
 	@DateField(format = "M Y")
-	private final String quoteDate;
+	private String quoteDate;
 
 	public Quote(SlingHttpServletRequest request) {
 		ValueMap properties = request.getResource().adaptTo(ValueMap.class);
-		quoteText = properties.get("quoteText", "");
-		byline = properties.get("byline", "");
-		quoteDate = properties.get("quoteDate", "");
+		if (properties != null) {
+			quoteText = properties.get("quoteText", "");
+			byline = properties.get("byline", "");
+			quoteDate = properties.get("quoteDate", "");
+		}
 	}
 
 	public String getQuoteText() {

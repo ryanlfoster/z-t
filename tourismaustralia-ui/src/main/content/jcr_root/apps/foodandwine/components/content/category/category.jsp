@@ -8,28 +8,43 @@
 <head>
 </head>
 <body>
-	<h3 class="faw-article-quotes">Category Component with Text</h3>
-	<br />
-	<div class="video-table">
-		<table>
-			<tr>
-				<c:forEach items="${category.items}" var="item">
-					<td>
-						<div class="video-table-cell">
-							<div class="imagewithdescription-inner">
-								<img src="${item.imagePath}" alt="">
-								<div class="imagewithdescription-description">
-									<p class="imagewithdescription-description-head">
-										<strong><em>${item.caption}</em></strong>
-									</p>
-								</div>
-							</div>
-						</div>
-					</td>
-				</c:forEach>
-			</tr>
-		</table>
-	</div>
+	<table>
+	<tr>
+		<c:forEach items="${category.items}" var="item">
+				   <td>
+			<input id="category-restaurants" type="checkbox"
+				class="category-input">
+				   </td>
+		</c:forEach>
+	</tr>
+	<tr>
+		<c:forEach items="${category.items}" var="item">
+				   <td>
+			<label for="category-restaurants">
+				<div class="category-item">
+					<span class="icon-round is-active"> <img
+						class="category-image-light" src="${item.imagePath}" alt="">
+				</span>
+				</div>
+				</label>
+				   </td>
+		</c:forEach>
+	</tr>
+
+
+	<tr>
+		<c:forEach items="${category.items}" var="item">
+				   <td>
+					<span class="category-title"> ${item.caption} </span>
+				   </td>
+		</c:forEach>
+	</tr>
+
+
+</table>
+
 </body>
 </html>
+
+
 

@@ -7,6 +7,8 @@ import org.apache.sling.api.resource.ValueMap;
 import com.citytechinc.cq.component.annotations.Component;
 import com.citytechinc.cq.component.annotations.DialogField;
 import com.citytechinc.cq.component.annotations.Listener;
+import com.citytechinc.cq.component.annotations.Option;
+import com.citytechinc.cq.component.annotations.widgets.Selection;
 
 @Component(group = "Food and Wine", basePath = "jcr_root/apps/foodandwine/components", value = "Google Map", listeners = {
 	@Listener(name = "aftercopy", value = "REFRESH_PAGE"), @Listener(name = "afterdelete", value = "REFRESH_PAGE"),
@@ -24,6 +26,10 @@ public class Map {
 	private String suburb;
 
 	@DialogField(fieldLabel = "State", required = true)
+	@Selection(type = Selection.SELECT, options = { @Option(value = "Victoria"), @Option(value = "New South Wales"),
+		@Option(value = "Queensland"), @Option(value = "South Australia"), @Option(value = "Northern Territory"),
+		@Option(value = "Western Australia"), @Option(value = "Australian Capital Territory"),
+		@Option(value = "Tasmania") })
 	private String state;
 
 	@DialogField(fieldLabel = "Postcode", required = true)
@@ -59,8 +65,6 @@ public class Map {
 		address.append(suburb);
 		address.append(" ");
 		address.append(state);
-		address.append(" ");
-		address.append(postcode);
 		return StringUtils.trim(address.toString());
 	}
 

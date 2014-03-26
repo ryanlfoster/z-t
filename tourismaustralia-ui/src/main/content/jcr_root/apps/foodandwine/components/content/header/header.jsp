@@ -1,29 +1,25 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@include file="/apps/foodandwine/components/global.jsp"%>
-<%@ page
-	import="com.australia.foodandwine.components.content.header.Header"%>
-<c:set var="Header" value="<%=new Header(slingRequest) %>" />
-
+<%@ page import="com.australia.foodandwine.components.content.header.Header"%>
+<c:set var="Header" value="<%=new Header(slingRequest) %>" />	
+		
+<header id="main-header">
 <div class="navbar-outer">
 	<!-- navbar module -->
 	<header class="navbar make-black">
 		<div class="navbar-container">
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="navbar-header">
-				<c:choose>
-					<c:when test="${not empty item.externalLink }">
-						<a class="navbar-brand l-display-none-md black_logo"
-							href="${Header.externalLink}" target="_blank"> <img
-							src="${Header.imagePath}" alt="Australia" title="Australia" />
-						</a>
-					</c:when>
-					<c:otherwise>
+					<c:if test="${not empty Header.logoLinkPath }">
 						<a class="navbar-brand l-display-none-md black_logo"
 							href="${Header.logoLinkPath}" target="_blank"> <img
 							src="${Header.imagePath}" alt="Australia" title="Australia" />
 						</a>
-					</c:otherwise>
-				</c:choose>
+					</c:if>
+					<c:if test="${Header.logoLinkPath eq ''}">
+						<img src="${Header.imagePath}" alt="Australia" title="Australia" />
+					</c:if>
+				
 			</div>
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<nav class="navbar-nav">
@@ -43,14 +39,22 @@
 										<a href="${headerData.pagePath }" target="_blank">${headerData.linkText}</a>
 									</c:when>
 									<c:otherwise>
-										<a >${headerData.linkText}</a>
+										<a>${headerData.linkText}</a>
 									</c:otherwise>
 							</c:choose>
 							</li>
 						</c:if>
 
 						<c:if test="${loop.index eq 1 }">
-							<li><a href="${headerData.pagePath }" target="_blank">${headerData.linkText}</a>
+							<li>
+							<c:choose>
+									<c:when test="${not empty headerData.pagePath }">
+										<a href="${headerData.pagePath }" target="_blank">${headerData.linkText}</a>
+									</c:when>
+									<c:otherwise>
+										<a>${headerData.linkText}</a>
+									</c:otherwise>
+							</c:choose>
 							</li>
 						</c:if>
 
@@ -62,3 +66,5 @@
 		</div>
 	</header>
 </div>
+</header>
+

@@ -1,4 +1,4 @@
-package com.australia.foodandwine.components.content.footer;
+package com.australia.foodandwine.link;
 
 import com.citytechinc.cq.component.annotations.DialogField;
 import com.citytechinc.cq.component.annotations.FieldProperty;

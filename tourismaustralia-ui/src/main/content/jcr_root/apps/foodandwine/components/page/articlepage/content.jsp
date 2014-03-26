@@ -3,13 +3,21 @@
 <div class="faw-article">
 	<!-- test background for testing, whow the transparent menu respons -->
 	<div class='form-hero'>
-		<div class="faw-hero-home-container">
-			<h1 class="form-h1">Simone's bright</h1>
-			<div class="form-biline-container type-spacing-60">
-				<hr>
-				<div class="form-elements-biline">
-					www.simonesofbright.com.au</div>
-			</div>
+	<div class="faw-hero-home-container">
+		
+
+	<div class="icon-logo-withlines-container">
+    	<hr class="icon-logo-withlines-hr">
+    	<span href="#" class="icon-logo-withlines-logo btn-restaurant-australia-logo icon-font-logo"></span>
+    	<hr class="icon-logo-withlines-hr">
+	</div>
+	<h1 class="form-h1">&#60;Article name&#62;</h1>
+	<div class="form-biline-container type-spacing-60">
+		<hr>
+		<div class="form-elements-biline">
+			www.simonesofbright.com.au
+		</div>
+	</div>
 
 			<cq:include path="category" resourceType="foodandwine/components/content/category" />
 			<cq:include path="text" resourceType="foodandwine/components/content/text" />

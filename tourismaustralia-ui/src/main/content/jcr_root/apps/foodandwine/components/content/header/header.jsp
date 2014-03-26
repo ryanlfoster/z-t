@@ -32,11 +32,12 @@
 				<ul class="navbar-items">
 					<c:forEach items="${Header.headerDataList}" var="headerData"
 						varStatus="loop">
-						<c:if test="${loop.index eq 0 }">
-							<li class="navbar-item-active">
+						<c:if test="${loop.index < 2 }">
+							<c:set var="pageLink" value="${currentPage.path}.html"/>
+							<li class="navbar-item${headerData.pagePath == pageLink?'-active':''}">
 							<c:choose>
 									<c:when test="${not empty headerData.pagePath }">
-										<a href="${headerData.pagePath }" target="_blank">${headerData.linkText}</a>
+										<a href="${headerData.pagePath }">${headerData.linkText}</a>
 									</c:when>
 									<c:otherwise>
 										<a>${headerData.linkText}</a>
@@ -44,20 +45,6 @@
 							</c:choose>
 							</li>
 						</c:if>
-
-						<c:if test="${loop.index eq 1 }">
-							<li>
-							<c:choose>
-									<c:when test="${not empty headerData.pagePath }">
-										<a href="${headerData.pagePath }" target="_blank">${headerData.linkText}</a>
-									</c:when>
-									<c:otherwise>
-										<a>${headerData.linkText}</a>
-									</c:otherwise>
-							</c:choose>
-							</li>
-						</c:if>
-
 					</c:forEach>
 
 				</ul>

@@ -9,6 +9,7 @@ import org.apache.commons.lang3.StringUtils;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.ValueMap;
 
+import com.australia.utils.LinkUtils;
 import com.brightcove.proserve.mediaapi.webservices.BrcService;
 import com.brightcove.proserve.mediaapi.webservices.BrcUtils;
 import com.citytechinc.cq.component.annotations.Component;
@@ -69,7 +70,6 @@ public class Hero {
 	/**
 	 * Constants
 	 */
-	private static final String IMAGEPATH = "imagePath";
 	private static final String BIGTITLE = "bigTitle";
 	private static final String SMALLFONTTEXT = "smallFontText";
 	private static final String LARGEFONTTEXT = "largeFontText";
@@ -100,7 +100,7 @@ public class Hero {
 		largeFontText = properties.get(LARGEFONTTEXT, StringUtils.EMPTY);
 		smallFont = properties.get(SMALLFONT, StringUtils.EMPTY);
 		buttonText = properties.get(BUTTONTEXT, StringUtils.EMPTY);
-		buttonLink = properties.get(BUTTONLINK, StringUtils.EMPTY);
+		buttonLink = LinkUtils.getHrefFromPath(properties.get(BUTTONLINK, StringUtils.EMPTY));
 		byLineText = properties.get(BYLINETEXT, StringUtils.EMPTY);
 		textBeforePlayButton = properties.get(TEXTBEFOREPLAYBUTTON, StringUtils.EMPTY);
 		textAfterPlayButton = properties.get(TEXTAFTERPLAYBUTTON, StringUtils.EMPTY);

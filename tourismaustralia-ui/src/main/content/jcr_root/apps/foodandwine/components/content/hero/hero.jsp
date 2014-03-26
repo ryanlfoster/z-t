@@ -8,10 +8,10 @@
 <!-- test background for testing, whow the transparent menu respons -->
 <div class='faw-hero-home make-black'>
 	<div class="faw-hero-home-bg fullwidth-bg">
-		<div class="responsive-image" data-picture="" data-alt="">
-			<div data-src="${hero.imagePath}.adapt.480.low.jpg" data-media="(min-width: 1px)"></div>
-			<div data-src="${hero.imagePath}.adapt.768.medium.jpg" data-media="(min-width: 481px)"></div>
-			<div data-src="${hero.imagePath}.adapt.992.high.jpg" data-media="(min-width: 769px)"></div>
+		<div class="responsive-image" data-picture="" data-alt="" style="width:1663px">
+			<div data-src="${hero.imagePath}.adapt.1663.low.jpg" data-media="(min-width: 1px)"></div>
+			<div data-src="${hero.imagePath}.adapt.1663.medium.jpg" data-media="(min-width: 481px)"></div>
+			<div data-src="${hero.imagePath}.adapt.1663.high.jpg" data-media="(min-width: 769px)"></div>
 			<div data-src="${hero.imagePath}.adapt.1663.high.jpg" data-media="(min-width: 993px)"></div>
 			<noscript>
 				<img src='${hero.imagePath}.adapt.1663.high.jpg'>
@@ -32,8 +32,7 @@
 		<hr class="faw-hero-home-hr">
 		<div class='calltoaction'>
 			<div class="calltoaction-title-container is-mobile">
-				<div class="calltoaction-type-sml1">add your business to our
-					venues list</div>
+				<div class="calltoaction-type-sml1">${hero.smallFontText} ${hero.largeFontText} ${hero.smallFont}</div>
 			</div>
 			<div class="calltoaction-title-container is-desktop">
 				<div class="calltoaction-type-sml1">${hero.smallFontText }</div>
@@ -41,7 +40,7 @@
 				<div class="calltoaction-type-sml1">${hero.smallFont}</div>
 				<hr class="calltoaction-hr">
 			</div>
-			<a href="#" class="btn-secondary btn-register">${hero.buttonText}</a>
+			<a href="${hero.buttonLink}" class="btn-secondary btn-register">${hero.buttonText}</a>
 			<p>${hero.byLineText}</p>
 			<div class="is-mobile">
 				<hr class="calltoaction-hr">
@@ -50,8 +49,7 @@
 	</div>
 	<div class="faw-video-teaser-wrapper l-position-normal">
 		<div class="faw-video-teaser">
-			<h5 class="faw-video-teaser-label is-mobile">what is restaurant
-				australia?</h5>
+			<h5 class="faw-video-teaser-label is-mobile">${hero.textBeforePlayButton} ${hero.textAfterPlayButton}</h5>
 			<h5 class="faw-video-teaser-label is-desktop">${hero.textBeforePlayButton}</h5>
 			<a href="#"
 				class="faw-video-teaser-icon btn-round-video icon-font-video-play"
@@ -107,9 +105,4 @@
 			</div>
 		</div>
 	</div>
-	<script>
-    	$(document).ready(function() {
-        	$(".video-container").video();
-    	});
-	</script>
 </div>

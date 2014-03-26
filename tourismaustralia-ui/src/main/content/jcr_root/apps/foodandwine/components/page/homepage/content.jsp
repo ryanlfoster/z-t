@@ -1,9 +1,6 @@
 <%@include file="/apps/foodandwine/components/global.jsp"%>
 
-
-<cq:include path="hero" resourceType="foodandwine/components/content/hero" />
-
+<div id="main-content">
 	<cq:include path="mainparsys" resourceType="foundation/components/parsys" />
+</div>
 	
-	
-	<cq:include path="sponsersSpace" resourceType="foodandwine/components/content/sponsorsSpace" />

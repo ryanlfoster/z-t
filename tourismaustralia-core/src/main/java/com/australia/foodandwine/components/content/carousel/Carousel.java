@@ -21,16 +21,15 @@ import com.citytechinc.cq.component.annotations.widgets.PathField;
 	@Listener(name = "aftercopy", value = "REFRESH_PAGE"), @Listener(name = "afterdelete", value = "REFRESH_PAGE"),
 	@Listener(name = "afteredit", value = "REFRESH_PAGE"), @Listener(name = "afterinsert", value = "REFRESH_PAGE") })
 public class Carousel {
+	private static final Logger LOG = LoggerFactory.getLogger(Carousel.class);
 
 	@DialogField(fieldLabel = "Carousel Background Image Path ", required = true, name = "./carouselBackgroundImagePath")
 	@PathField(rootPath = "/content/dam")
-	private final String carouselBackgroundImagePath;
+	private String carouselBackgroundImagePath;
 
 	@DialogField(fieldLabel = "Carousel Data ")
 	@MultiCompositeField
 	private final List<CarouselProperties> carouselList;
-
-	private static final Logger LOG = LoggerFactory.getLogger(Carousel.class);
 
 	/**
 	 * Constants
@@ -47,7 +46,9 @@ public class Carousel {
 	public Carousel(SlingHttpServletRequest request) {
 		ValueMap properties = request.getResource().adaptTo(ValueMap.class);
 		carouselList = new ArrayList<CarouselProperties>();
-		carouselBackgroundImagePath = properties.get(CAROUSEL_BACKGROUND_IMAGE_PATH, StringUtils.EMPTY);
+		if (properties != null) {
+			carouselBackgroundImagePath = properties.get(CAROUSEL_BACKGROUND_IMAGE_PATH, StringUtils.EMPTY);
+		}
 		try {
 			Iterable<Resource> resources = request.getResource().getChild(CAROUSEL_LIST).getChildren();
 			for (Resource resource : resources) {
@@ -66,7 +67,6 @@ public class Carousel {
 				carouselProperties.setCarouselButtonText(carouselButtonText);
 				carouselProperties.setCarouselButtonTextLink(carouselButtonTextLink);
 				carouselList.add(carouselProperties);
-
 			}
 		} catch (Exception e) {
 			LOG.error(e.getMessage());

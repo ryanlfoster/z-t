@@ -1,0 +1,63 @@
+$dropdownWidth: 250px!default;
+
+// IE Fix
+select::-ms-expand {
+  display: none;
+}
+
+.dropdown-select p {
+  display: inline-block;
+  font-weight: bold;
+}
+.dropdown-select-style {
+  margin: -10px auto -10px;
+  width: $dropdownWidth;
+  overflow: hidden;
+  font-family: "ProximaNova Bold", Helvetica, Arial, sans-serif;
+  background: url("../imgs/ui/drop-down-arrow.png") no-repeat;  /*Adds background-image*/
+  background-position: 90% 50%;  /*Position of the background-image*/
+  text-shadow:0 0 1px #eee;
+}
+
+.dropdown-select-style select {
+  padding: 5px 8px;
+  width: 130%;
+  height: 30px;
+  line-height: pxtoem(20px);
+  border: 0 !important;  /*Removes border*/
+  box-shadow: none;
+  background: transparent;
+  background-image: none;
+  -webkit-appearance: none;  /*Removes default chrome and safari style*/
+  -moz-appearance: none; /* Removes Default Firefox style*/
+  text-indent: 0.01px; /* Removes default arrow from firefox*/
+  text-overflow: "";  /*Removes default arrow from firefox*/
+}
+
+.dropdown-select-style select:focus {
+  outline: none;
+}
+
+
+.select-style {
+  width: 250px;
+  overflow: hidden;
+  font-family: "ProximaNova Bold", Helvetica, Arial, sans-serif;
+  background: url("../imgs/ui/drop-down-arrow.png") no-repeat;  /*Adds background-image*/
+  background-position: 90% 50%;  /*Position of the background-image*/
+
+}
+
+.select-style select {
+  padding: 5px 8px;
+  width: 130%;
+  border: none;
+  box-shadow: none;
+  background: transparent;
+  background-image: none;
+  -webkit-appearance: none;
+}
+
+.select-style select:focus {
+  outline: none;
+}

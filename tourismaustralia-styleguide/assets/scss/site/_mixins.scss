@@ -1,0 +1,171 @@
+///*
+// * Project Mixins:
+// * ---------------------------------------------------------------------------------------------------------------- */
+
+/*! Circle */
+@mixin circle($w:100px, $h:100px, $bg: #000) {
+  width: $w;
+  height: $h;
+  background: $bg;
+  @include border-radius(100%);
+}
+
+/*! Circle Standard around icon */
+// params:
+//    $fs - font-size
+//    $pt - padding top
+//    $c - text and border colour
+// Example @include circle_standard(2em, 6px, #26617f)
+@mixin circle_standard($fs, $pt, $c) {
+  font-size: $fs;
+  vertical-align: middle;
+  text-align: center;
+  display: inline-block;
+  border: 1px solid $c;
+  width: 50px;
+  height: 48px;
+  padding-top: $pt;
+  color: $c;
+
+  @include border-radius(100%);
+}
+
+/*! Diamond Standard icon */
+// params:
+//    $name - name of class such as nature
+//    $diamond_colour - colour of diamond
+//    $c - colour of icon
+// Example @include diamond_standard("nature", red, #FFF);
+//      Generates:  <div class="icon-diamond-container nature">
+//                  <span class="icon-diamond-diamond icon-font-Diamond"></span>
+//                  <span class="icon-diamond-icon icon-font-Nature_icon"></span>
+//                  </div>
+// Note: <div class="icon-diamond-container nature outline">
+//      Will be black and white at this stage
+@mixin diamond_standard($name, $diamond_colour, $icon_colour, $left:0) {
+
+  .icon-diamond-container.#{$name} {
+    position: relative;
+    display: inline-block;
+    .icon-diamond-diamond {
+      font-size: 50px;
+      line-height: 1em;
+      position: relative;
+      color: $diamond_colour;
+    }
+    .icon-diamond-icon {
+      color: $icon_colour;
+      font-size: 50px;
+      position: absolute;
+      left: $left;
+      top: 0;
+      // text-shadow: 1px 1px 1px rgba(255,255,255,.6);
+    }
+  }
+  .icon-diamond-container.#{$name}.outline {
+    .icon-diamond-diamond {
+      color: #000;
+    }
+    .icon-diamond-icon {
+      color: $diamond_colour;
+      color: #000;
+    }
+    .icon-diamond-diamond:before {
+      content: "\e622";
+    }
+  }
+
+  .icon-diamond-container.#{$name}.outline-white {
+    .icon-diamond-diamond {
+      color: #fff;
+    }
+    .icon-diamond-icon {
+      color: $diamond_colour;
+      color: #fff;
+    }
+    .icon-diamond-diamond:before {
+      content: "\e622";
+    }
+  }
+}
+
+/*! Mirror Text / Element */
+@mixin mirror {
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+
+/*! Transition
+    Example usage:
+    @include transition(width height, 4s, linear, 1s)
+ */
+@mixin transition ($property, $duration: 1s, $timing:linear, $delay:0) {
+  /* For Safari 3.1 to 6.0 */
+  -webkit-transition-property: $property;
+  -webkit-transition-duration: $duration;
+  -webkit-transition-timing-function: $timing;
+  -webkit-transition-delay: $delay;
+  /* Standard syntax */
+  transition-property: $property;
+  transition-duration: $duration;
+  transition-timing-function: $timing;
+  transition-delay: $delay;
+}
+
+/*! Animation
+    Example usage:
+    @include animation(changecolour, 4s, 1s, infinite)
+ */
+@mixin animation ($animation, $duration, $timing:ease, $delay:0, $fillMode: forwards) {
+  /* -webkit-animation-fill-mode: forwards; /* this prevents the animation from restarting! */
+  /* none 0 ease 0 1 normal none running
+  animation-name
+  animation-duration
+  animation-timing-function
+  animation-delay
+  animation-iteration-count
+  animation-direction.
+  */
+  /*@if $delay {
+    -webkit-animation-delay: $delay;
+    -moz-animation-delay: $delay;
+    -o-animation-delay: $delay;
+    animation-delay: $delay;
+  }*/
+  -webkit-animation: $animation $duration $timing $delay $fillMode; /* Safari 4+ */
+  -moz-animation:    $animation $duration $timing $delay $fillMode; /* Fx 5+ */
+  -o-animation:      $animation $duration $timing $delay $fillMode; /* Opera 12+ */
+  animation:         $animation $duration $timing $delay $fillMode; /* IE 10+ */
+}
+
+// keyframes mixin
+/* Example usage:
+@include keyframes(bgcolor) {
+  0% {
+    background-color: #ffccf2;
+  }
+  50% {
+    background-color: #ccffcc;
+  }
+  100% {
+    background-color: #ccffff;
+  }
+}
+*/
+@mixin keyframes($name) {
+  @-webkit-keyframes #{$name} {
+    @content;
+  }
+  @-moz-keyframes #{$name} {
+    @content;
+  }
+  @-ms-keyframes #{$name} {
+    @content;
+  }
+  @keyframes #{$name} {
+    @content;
+  }
+}

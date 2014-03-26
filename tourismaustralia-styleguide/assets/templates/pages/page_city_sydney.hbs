@@ -1,0 +1,67 @@
+---
+layout: layout-base.hbs
+---
+
+{{#parseJSON '{
+    "hero_image" : "herohome_sydney",
+    "hero_title" : "Sydney",
+    "hero_subtitle" : "The harbour city"
+}'}}
+    {{> page_hero }}
+{{/parseJSON}}
+
+<div class="row l-padding-between-item-fill-white">
+    {{#parseJSON '{
+        "page_title" : "New South Wales",
+        "map_summary" : [
+            {"para" : "Discover Sydney, Australia’s famous harbour city and the capital of New South Wales."},
+            {"para" : "Plan your Sydney holiday using our three-day itinerary, which takes in the attractions around Sydney Harbour, beaches and inner-city precincts. Read up on the World Heritage-listed Blue Mountains and the Six Foot Track bushwalk."}
+        ],
+        "map_text" : [
+            {"para" : "Learn about other places to visit in New South Wales and scenic journeys you can take from Sydney. Drive the Pacific Coast Touring Route north to Brisbane past the Hunter Valley, Port Stephens and bohemian Byron Bay. Or head south to Melbourne via the pure white beaches of Jervis Bay."},
+            {"para" : "Check out Australia’s other cities and get ideas for the rest of your Australian holiday. Melbourne, the Great Ocean Road and Australia’s Red Centre are all possible in a three-week holiday from Sydney."},
+            {"para" : "For more Sydney holiday ideas, read our articles on the Hunter Valley, Sydney’s sparkling beaches, the Bondi to Bronte walk and the annual Sydney to Hobart yacht race."}
+        ],
+        "map_image" : "intro-map-australia-nsw",
+        "map_main_title" : "Capital of New South Wales",
+        "map_pin_button" : "Sydney"
+    }'}}
+        {{> page_explore_summary_map }}
+    {{/parseJSON}}
+</div>
+
+<div class="l-padding-between-item-fill-white">
+    {{> whatyoucansee_city}}
+</div>
+
+{{> page_image_with_date }}
+
+<div class="l-padding-between-item-fill-white">
+    {{> mapwithlinkcity }}
+</div>
+
+<div class="l-padding-between-item-fill-white">
+    {{> explore }}
+</div>
+
+<div class="l-padding-between-item-fill-white">
+    {{#parseJSON '{
+        "promo_image" : "promo",
+        "promo_title" : "Novotel Sydney On Darling Harbour",
+        "promo_text" : [
+            {"para" : "In the heart of the Darling Harbour precinct. The hotel rooms present panoramic views of Darling Harbour."}
+        ],
+        "promo_value" : "299",
+        "promo_per" : "/night"
+    }'}}
+        {{> page_specialoffer }}
+    {{/parseJSON}}
+</div>
+
+<div class="l-padding-between-item-fill-white">
+    {{> makeyourtriphappen}}
+</div>
+
+<div class="l-padding-between-item-fill-white">
+    {{> categorylinks_city_sydney }}
+</div>

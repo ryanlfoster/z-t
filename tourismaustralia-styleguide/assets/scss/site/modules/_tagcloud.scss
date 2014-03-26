@@ -1,0 +1,36 @@
+
+.tagcloud {
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  li {
+    margin-right: .2em;
+    margin-bottom: .2em;
+    display: inline-block;
+  }
+  margin-top: 1em;
+  @include breakpoint(sm){
+    margin-top: 0.5em;
+    text-align: center;
+  }
+  @include breakpoint(md) {
+    text-align: left;
+  }
+}
+
+.tagcloud-explore-by {
+  color: $type-main-heading-colour;
+  @include type_TAheadline();
+  font-size: pxtoem(24px);
+  display: block;
+  margin-bottom: .7em;
+
+  text-align: center;
+  @include breakpoint(sm) {
+    text-align: center;
+  }
+  @include breakpoint(md) {
+    text-align: left;
+  }
+}

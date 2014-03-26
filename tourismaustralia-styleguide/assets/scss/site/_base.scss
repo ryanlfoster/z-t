@@ -1,0 +1,107 @@
+/**
+* Base styles, top level only
+*/
+
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	//height:100%; // Issue with IE8 not scrolling
+}
+
+body {
+  font-family: $font-family-base;
+  color:$body-colour;
+  line-height: 1;
+  /*@include breakpoint(xs) {
+    height:pxtoem(500px);
+    min-width: 320px;
+  };*/
+
+  // IE8 Better Text
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=hIEfix.png,sizingMethod=crop);
+  zoom: 1;
+}
+
+h1, h2, h3, h4  {
+  font-family: $font-family-secondary;
+  font-weight: normal;
+  color: $type-heading-colour;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h1 {
+  font-size: pxtoem($h1-size);
+  color: #8d896f;
+  margin-bottom: .1em;
+}
+
+h2 {
+  font-size: pxtoem($h2-size);
+}
+
+h3 {
+  font-size: pxtoem($h3-size);
+}
+
+h4 {
+  font-size: pxtoem($h4-size);
+}
+
+p {
+  line-height: pxtolineheightem(16px, 26px);
+}
+
+a {
+  color: $type-hover-colour;
+  text-decoration: underline;
+}
+a:visited {
+  color: type-hover-colour;
+}
+a:hover {
+  cursor: pointer;
+
+  // using colour instead of font weight for now
+  color: #1e4b62;
+
+  // font-weight not working for this font, may need to revisit
+  // text-shadow: .9px .9px rgba(0,0,0,.8);
+  // font-family: $font-family-base-b;
+  // letter-spacing: pxtoletterspacingem(-24.5);
+}
+
+hr.full {
+  margin: 0 -15px;
+}
+/*
+strong {
+  font-weight: bold;
+}
+em{
+  font-style: italic;
+}
+*/
+
+//**********************
+// Hacks
+//**********************
+
+/**
+ Quick hack to remove styling in chrome on buttons
+**/
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance:none;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+
+  &:focus {
+    outline: none;
+  }
+
+}

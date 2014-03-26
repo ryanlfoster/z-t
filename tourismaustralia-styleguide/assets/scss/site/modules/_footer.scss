@@ -1,0 +1,173 @@
+
+// Container
+.footer-container {
+  position: relative;
+  margin: 0 auto;
+  background: $footer_bg;
+}
+.footer {
+  //background-color: #000;
+  max-width: pxtoem(1200px);
+  margin: 0 auto;
+  padding: 0 .5em;
+}
+
+.footer-logo {
+  margin: 0 auto;
+  text-align: center;
+  padding: 2.5em 0 2em;
+}
+
+.footer-copyright {
+  
+}
+
+// Generic
+.footer-col {
+  width:pxtoem(300px);
+  position: relative;
+  @extend .type-spacing-30;
+  text-align: left;
+  display: inline-block;
+
+  @include breakpoint(sm){
+    text-align: center;
+    width: inherit;
+    li {
+      display: inline-block;
+      margin-right: 1em;
+    }
+  }
+
+  @include breakpoint(md){
+    width:pxtoem(300px);
+    text-align: left;
+    li {
+      display: block;
+    }
+    .footer-social-list li {
+      display: inline-block;
+    }
+  }
+
+  @include breakpoint(lg){
+    margin-left: 12%;
+  }
+}
+.footer-heading{
+  margin: 0 0 pxtoem(15px) 0;
+  font-family: "TheSanB5Pla", Helvetica, Arial, sans-serif;
+  font-size: pxtoem(16px);
+  padding: 0;
+  color: #FFF;
+}
+.footer-text-list li {
+  padding: pxtoem(8.8px) 0;
+  color: #787474;
+  font-family: $font-family-base;
+  font-size: pxtoem(14px);
+}
+.footer-text-list li a {
+  cursor: pointer;
+  color: #70c3f3;
+  text-decoration: none;
+}
+.footer-text-list li a {
+  &:hover, &:focus {
+    color: #FFF;
+    text-decoration: none;
+  }
+}
+.footer-type-light {
+  font-family: $font-family-base-l;
+}
+
+
+// Restaurant Australia Header
+.footer-restaurant-australia-elements{
+  text-align: center;
+  padding-top: 4em;
+  height: 100%;
+  margin: 0 auto;
+}
+.footer-restaurant-australia-elements-link{
+  display: block;
+  font-family: "TheSanB5Pla", Helvetica, Arial, sans-serif;
+  font-size: pxtoem(16px);
+  text-transform: uppercase;
+  color: #787474;
+  text-decoration: none;
+}
+.footer-restaurant-australia-elements-link:hover, .restaurant-australia-elements-link:focus {
+  color: #787474;
+  text-decoration: none;
+}
+.footer-restaurant-australia-elements-biline-container {
+  height: 100%;
+  text-align:center;
+}
+.footer-restaurant-australia-elements-biline-container hr {
+  margin-top: pxtoem(-10px);
+  border-top: 1px solid #504d4d;
+  margin: pxtoem(-10px) pxtoem(15px) 0;
+  @include breakpoint(xs){
+    visibility: hidden;
+  }
+}
+.footer-restaurant-australia-elements-biline {
+  @include type_TAheadline();
+  font-size: pxtoem(18px);
+  color: #FFF;
+  background-color: #000;
+  display: inline-block;
+  padding: 0 pxtoem(14px);
+}
+
+// TA Logo
+.footer-logo-fixed-height {
+  min-height: pxtoem(110px);
+  width: pxtoem(300px);
+  @include breakpoint(lg){
+    min-height: pxtoem(204px);
+  }
+}
+.footer-ta-logo-container {
+  bottom: 1.6em;
+  position: absolute;
+  left: pxtoem(50px);
+  @include breakpoint(lg){
+    left: 5.6em;
+  }
+}
+.footer-ta-logo-copyright {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: pxtoem(14px);
+  color: #787474;
+  text-align: right;
+  padding-right: pxtoem(2px);
+}
+
+// Social
+.footer-social {
+  background: #000;
+}
+.footer-social-heading {
+  font-family: "TheSanB5Pla", Helvetica, Arial, sans-serif;
+  font-size: pxtoem(16px);
+  padding: 0;
+  color: #FFF;
+}
+
+.footer-social-list {
+  @extend .l-list-clean;
+  @extend .l-list-inline;
+  
+  li{
+      margin: 0;
+  }
+
+  & > li:nth-child(odd) {
+    width: 150px;
+  }
+
+}

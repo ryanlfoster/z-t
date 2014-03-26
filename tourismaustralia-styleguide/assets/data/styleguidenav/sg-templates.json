@@ -1,0 +1,34 @@
+{
+    "navigation": [
+        {
+            "text": "City/State",
+            "item": [
+                {
+                    "text": "page_city_sydney",
+                    "name": "City Page - Sydney"
+                },
+                {
+                    "text": "page_state_victoria",
+                    "name": "State Page - Victoria"
+                },
+                {
+                    "text": "page_state_victoria",
+                    "name": "State Page - Victoria"
+                }
+            ]
+        },
+        {
+            "text": "General Content",
+            "item": [
+                {
+                    "text": "home",
+                    "name": "Home Page"
+                },
+                {
+                    "text": "homeheropage",
+                    "name": "Home Hero"
+                }
+            ]
+        }
+    ]
+}

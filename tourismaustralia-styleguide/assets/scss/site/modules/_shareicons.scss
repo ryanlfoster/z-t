@@ -1,0 +1,73 @@
+
+.shareicons {
+  min-width: 200px;
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  li {
+    margin-right: .3em;
+    margin-bottom: .2em;
+    display: inline-block;
+  }
+
+    li.social-fblike {
+        display:block;
+        padding-top: 0.5em;
+    }
+
+  margin-top: 1em;
+  @include breakpoint(sm){
+    margin-top: 0.5em
+  }
+}
+
+.shareicons-container {
+  text-align: center;
+  margin-top: 1.5em;
+  margin-bottom: 4em;
+  @include breakpoint(md){
+    text-align: left;
+    margin-bottom: inherit;
+  }
+}
+
+.shareicons-icon {
+  @include circle_standard(2em, 6px, #297c9a);
+}
+
+.shareicons-email-btn {
+  text-decoration: none;
+  &:hover, &:focus {
+    background: #297c9a;
+    color: #FFF;
+    &:before {
+      content: "\e60d";
+    }
+    text-decoration: none;
+  }
+}
+
+.shareicons-facebook-btn {
+  text-decoration: none;
+  &:hover, &:focus {
+    background: #297c9a;
+    color: #FFF;
+    &:before {
+      content: "\e608";
+    }
+    text-decoration: none;
+  }
+}
+
+.shareicons-twitter-btn {
+  text-decoration: none;
+  &:hover, &:focus {
+    background: #297c9a;
+    color: #FFF;
+    &:before {
+      content: "\e60a";
+    }
+    text-decoration: none;
+  }
+}

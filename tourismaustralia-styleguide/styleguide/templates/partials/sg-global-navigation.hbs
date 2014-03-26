@@ -1,0 +1,27 @@
+
+<a href="#sg-nav-container" class="sg-nav-toggle">Menu</a>
+
+<div class="sg-nav-container" id="sg-nav-container">
+    <ol class="sg-nav">
+        {{#each sg-navigation.navigation}}
+            <li class="sg-nav-{{this.text}}">
+                {{#if this.category}}
+                    <a href="#" class="sg-acc-handle">{{this.text}}</a>
+                    <ol class="sg-acc-panel">
+                        {{#each this.category}}
+                            <a href="#" class="sg-acc-handle">{{this.text}}</a>
+                            <ol class="sg-acc-panel">
+                                {{#each this.item}}
+                                    <li><a href="#{{this.text}}">{{partialTitle this.text}}</a></li>
+                                {{/each}}
+                            </ol>
+                        {{/each}}
+                    </ol>
+
+                {{else}}
+                    <a href="">{{this.text}}</a>
+                {{/if}}
+            </li>
+        {{/each}}
+    </ol>
+</div><!-- End .sg-nav-container -->

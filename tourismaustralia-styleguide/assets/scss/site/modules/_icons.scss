@@ -1,0 +1,263 @@
+///*
+// * Font Based Icons:
+// * ---------------------------------------------------------------------------------------------------------------- */
+[class^="icon-font-"], [class*=" icon-font-"] {
+  font-family: 'TAIcons';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-font-Sports_icon:before {
+  content: "\e61c";
+}
+.icon-font-Outback_icon:before {
+  content: "\e61d";
+}
+.icon-font-Nature_icon:before {
+  content: "\e61e";
+}
+.icon-font-Islands_icon:before {
+  content: "\e61f";
+}
+.icon-font-FoodWine_icon:before {
+  content: "\e620";
+}
+.icon-font-Diamond:before {
+  content: "\e621";
+}
+.icon-font-Diamond_OUTLINE:before {
+  content: "\e622";
+}
+.icon-font-Beaches_icon:before {
+  content: "\e623";
+}
+.icon-font-ArtsCulture_icon:before {
+  content: "\e624";
+}
+.icon-font-Adventure_icon:before {
+  content: "\e625";
+}
+.icon-font-Aboriginal_icon:before {
+  content: "\e626";
+}
+.icon-font-Hire_Icon:before {
+  content: "\e61b";
+}
+.icon-font-WhatsComingUp_Icon:before {
+  content: "\e60e";
+}
+.icon-font-TripsAroundSydney_Icon:before {
+  content: "\e60f";
+}
+.icon-font-Transport_Icon:before {
+  content: "\e610";
+}
+.icon-font-Tours_Icon:before {
+  content: "\e611";
+}
+.icon-font-ThingsToDo_Icon:before {
+  content: "\e612";
+}
+.icon-font-Search_Icon:before {
+  content: "\e613";
+}
+.icon-font-Resturants_Icon:before {
+  content: "\e614";
+}
+.icon-font-Highlights_Icon:before {
+  content: "\e615";
+}
+.icon-font-Australia_Icon:before {
+  content: "\e616";
+}
+.icon-font-AttractionsAroundSydney_Icon:before {
+  content: "\e617";
+}
+.icon-font-ArrivingBySea_Icon:before {
+  content: "\e618";
+}
+.icon-font-ArrivingByAir_Icon:before {
+  content: "\e619";
+}
+.icon-font-Accommodation_Icon:before {
+  content: "\e61a";
+}
+.icon-font-mail:before {
+  content: "\e60d";
+}
+.icon-font-mail-outline:before {
+  content: "\e60c";
+}
+.icon-font-twitter-outline:before {
+  content: "\e60b";
+}
+.icon-font-twitter:before {
+  content: "\e60a";
+}
+.icon-font-facebook-outline:before {
+  content: "\e609";
+}
+.icon-font-facebook:before {
+  content: "\e608";
+}
+.icon-font-mappin:before {
+  content: "\e607";
+}
+.icon-font-favourite-heart-outline:before {
+  content: "\e606";
+}
+.icon-font-favourite-heart-solid:before {
+  content: "\e602";
+}
+.icon-font-favourite-circle:before {
+  content: "\e600";
+}
+.icon-font-favourite-circle-solid:before {
+  content: "\e601";
+}
+.icon-font-highlights:before {
+  content: "\e603";
+}
+.icon-font-todo:before {
+  content: "\e604";
+}
+.icon-font-whatscoming:before {
+  content: "\e605";
+}
+
+
+.icon-colour-white {
+  color: #FFF;
+}
+.icon-colour-black {
+  color: #000;
+}
+.icon-colour-grey {
+  color: #504d4d;
+}
+
+.icon-logo-withlines-container {
+  position: relative;
+  width: 244px;
+  display: inline-block;
+  text-align: center;
+  @include breakpoint(md) {
+    width: 220px;
+  }
+}
+.icon-logo-withlines-hr {
+  width: 36px;
+  border-top: 1px solid #040000;
+  float: left;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 5px;
+  &:last-child{
+    right: 0px;
+  }
+  @include breakpoint(md) {
+    width: 26px;
+  }
+}
+.icon-logo-withlines-logo {
+  font-size: 3.8em;
+}
+
+
+///*
+// * Sprite Based Icons:
+// * ---------------------------------------------------------------------------------------------------------------- */
+.icon {
+  font-weight: normal !important;
+  vertical-align: middle;
+  display: inline-block;
+  background-image: url(../imgs/icon-sprite.png);
+  background-repeat: no-repeat;
+  background-position: 0 0; // top left corner should contain a 68x68 pixel transparent square...
+}
+
+///*
+// * Icon size presets:
+// * ---------------------------------------------------------------------------------------------------------------- */
+.icon-32 {
+  margin:-16px 0; // reduce the line height
+  @include icon-sprite-size(32px);
+}
+
+.icon-52 {
+  margin:-26px 0; // reduce the line height
+  @include icon-sprite-size(52px);
+}
+
+///*
+// * Icon positions:
+// * ---------------------------------------------------------------------------------------------------------------- */
+.icon-red-heart {
+  background-position: -10px -10px;
+}
+
+.icon-green-search {
+  background-position: -56px -10px;
+}
+
+.icon-diamond-koalas {
+  background-position: -10px -58px;
+}
+
+.icon-diamond-camping {
+  background-position: -82px -58px;
+}
+
+.icon-diamond-aboriginal {
+  background-position: -154px -58px;
+}
+
+
+
+///*
+// * Icon positions:
+// * ---------------------------------------------------------------------------------------------------------------- */
+.icon-circle {
+  position: relative;
+  display: block;
+  border-radius: 50%;
+  color:#fff;
+  border:pxtoem(1px) solid #fff;
+  min-height: 4.2em;
+  min-width: 4.2em;
+}
+
+//Todo - migrate over to the video scss
+
+.icon-play {
+  position: absolute;
+  top: 50%;
+  margin-top: -0.48em;
+  left: 50%;
+  margin-left: -0.55em;
+  font-size: 0.7em;
+}
+
+
+///*
+// * Category Icons:
+// * ---------------------------------------------------------------------------------------------------------------- */
+
+@include diamond_standard("nature", $category-colour-nature, #FFF);
+@include diamond_standard("outback", $category-colour-outback, #231f20);
+@include diamond_standard("aboriginal", $category-colour-aboriginal, #FFF);
+@include diamond_standard("food", $category-colour-food, #FFF);
+@include diamond_standard("arts", $category-colour-arts, #FFF);
+@include diamond_standard("islands", $category-colour-islands, #231f20);
+@include diamond_standard("beaches", $category-colour-beaches, #231f20);
+@include diamond_standard("sports", $category-colour-sports, #231f20);
+@include diamond_standard("adventure", $category-colour-adventure, #231f20, 2px);

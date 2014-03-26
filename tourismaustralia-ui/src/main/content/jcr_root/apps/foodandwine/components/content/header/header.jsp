@@ -9,10 +9,12 @@
         <div class="navbar-container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <a class="navbar-brand l-display-none-md black_logo" href="http://www.australia.com/">
+            <c:if test="${not empty Header.linkPath}">
+                <a class="navbar-brand l-display-none-md black_logo" href="${Header.linkPath}" target="_blank">
+              
                     <img src="${Header.imagePath}" alt="Australia" title="Australia" />
                 </a>
-               
+                </c:if> 
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <nav class="navbar-nav">
@@ -23,10 +25,18 @@
                     <span class="navbar-mobile-back-icon"></span>
                 </div> -->
                 <ul class="navbar-items">
-                    <c:forEach items="${Header.headerDataList}" var="headerData">
+                    <c:forEach items="${Header.headerDataList}" var="headerData" varStatus="loop">
+                    <c:if test="${loop.index eq 0 }">
 						<li class="navbar-item-active">
-							<a href="${headerData.pagePath }" target="_self">${headerData.linkText}</a>
+							<a href="${headerData.pagePath }" target="_blank">${headerData.linkText}</a>
 						</li>
+					</c:if>
+					<c:if test="${loop.index eq 1 }">
+						<li >
+							<a href="${headerData.pagePath }" target="_blank">${headerData.linkText}</a>
+						</li>
+					</c:if>
+						
 					</c:forEach>
                     <!--
                     <li class="navbar-item-active-subitem">

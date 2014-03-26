@@ -10,11 +10,11 @@
 	<div class="l-display-none-md l-position-absolute fullwidth-bg">
 		<div class="responsive-image l-display-none-md l-position-absolute" data-picture="" data-alt="" >
 			<div data-src="${carousel.carouselBackgroundImagePath}.adapt.480.low.jpg" data-media="(min-width: 1px)"></div>
-			<div data-src="${carousel.carouselBackgroundImagePath}.adapt.768.med.jpg" data-media="(min-width: 481px)"></div>
+			<div data-src="${carousel.carouselBackgroundImagePath}.adapt.768.medium.jpg" data-media="(min-width: 481px)"></div>
 			<div data-src="${carousel.carouselBackgroundImagePath}.adapt.992.high.jpg" data-media="(min-width: 769px)"></div>
 			<div data-src="${carousel.carouselBackgroundImagePath}.adapt.1663.high.jpg" data-media="(min-width: 993px)"></div>
 			<noscript>
-				<img src='imgs/base/faw-carousel-bg.jpg' alt=''>
+				<img src='${carousel.carouselBackgroundImagePath}.adapt.1663.high.jpg'>
 			</noscript>
 		</div>
 		<!--[if (lt IE 9) & (!IEMobile)]>

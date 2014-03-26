@@ -26,11 +26,11 @@ import com.citytechinc.cq.component.annotations.widgets.PathField;
 	@Listener(name = "afteredit", value = "REFRESH_PAGE"), @Listener(name = "afterinsert", value = "REFRESH_PAGE") })
 public class Footer {
 	@DialogField(fieldLabel = "Top Image Path", tab = 1)
-	@PathField(rootPath = "/content/dam")
+	@PathField(rootPath = "/content/dam", rootTitle = "Assets")
 	private String imageTopLogoPath;
 
 	@DialogField(fieldLabel = "Bottom Image Path", tab = 1)
-	@PathField(rootPath = "/content/dam")
+	@PathField(rootPath = "/content/dam", rootTitle = "Assets")
 	private String imageBottomLogoPath;
 
 	@DialogField(fieldLabel = "URL Title", tab = 1, required = false)

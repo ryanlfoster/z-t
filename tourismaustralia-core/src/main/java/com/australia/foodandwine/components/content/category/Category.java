@@ -62,34 +62,52 @@ public class Category {
 	private final String caption5;
 
 	
-	private final ValueMap valueMap;
-	public Category(SlingHttpServletRequest request) {
-		String myPath = request.getResource().getPath();
-		Resource itemResource = request.getResourceResolver().resolve(myPath);
-		valueMap = itemResource.adaptTo(ValueMap.class);
+	public Category(SlingHttpServletRequest request) {		
+		ValueMap properties = request.getResource().adaptTo(ValueMap.class);
+		items=new ArrayList<Item>();
+		if (properties != null) {
+			imagePath1 = properties.get("imagePath1", StringUtils.EMPTY);
+			caption1 = properties.get("caption1", StringUtils.EMPTY);
+
+			imagePath2 = properties.get("imagePath2", StringUtils.EMPTY);
+			caption2 = properties.get("caption2", StringUtils.EMPTY);
+
+			imagePath3 = properties.get("imagePath3", StringUtils.EMPTY);
+			caption3 = properties.get("caption3", StringUtils.EMPTY);
+
+			imagePath4 = properties.get("imagePath4", StringUtils.EMPTY);
+			caption4 = properties.get("caption4", StringUtils.EMPTY);
+
+			imagePath5 = properties.get("imagePath5", StringUtils.EMPTY);
+			caption5 = properties.get("caption5", StringUtils.EMPTY);
+
+			add(imagePath1,caption1,items);
+			add(imagePath2,caption2,items);
+			add(imagePath3,caption3,items);
+			add(imagePath4,caption4,items);
+			add(imagePath5,caption5,items);
+
+		} else {
+			imagePath1 = StringUtils.EMPTY;
+			caption1 = StringUtils.EMPTY;
+
+			imagePath2 = StringUtils.EMPTY;
+			caption2 = StringUtils.EMPTY;
+
+			imagePath3 = StringUtils.EMPTY;
+			caption3 = StringUtils.EMPTY;
+
+			imagePath4 = StringUtils.EMPTY;
+			caption4 = StringUtils.EMPTY;
+
+			imagePath5 = StringUtils.EMPTY;
+			caption5 = StringUtils.EMPTY;
+		}
 		
-		imagePath1 = valueMap.get("imagePath1", StringUtils.EMPTY);
-		caption1 = valueMap.get("caption1", StringUtils.EMPTY);
-
-		imagePath2 = valueMap.get("imagePath2", StringUtils.EMPTY);
-		caption2 = valueMap.get("caption2", StringUtils.EMPTY);
-
-		imagePath3 = valueMap.get("imagePath3", StringUtils.EMPTY);
-		caption3 = valueMap.get("caption3", StringUtils.EMPTY);
-
-		imagePath4 = valueMap.get("imagePath4", StringUtils.EMPTY);
-		caption4 = valueMap.get("caption4", StringUtils.EMPTY);
-
-		imagePath5 = valueMap.get("imagePath5", StringUtils.EMPTY);
-		caption5 = valueMap.get("caption5", StringUtils.EMPTY);
+		
+		
 
 
-		items=Collections.synchronizedList(new ArrayList<Item>());
-		add(imagePath1,caption1,items);
-		add(imagePath2,caption2,items);
-		add(imagePath3,caption3,items);
-		add(imagePath4,caption4,items);
-		add(imagePath5,caption5,items);
 		
 	}
 	private void add(String imagePath, String caption, List<Item> myItems) {

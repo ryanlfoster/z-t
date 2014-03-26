@@ -3,7 +3,8 @@
           xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
           jcr:primaryType="cq:Template" jcr:title="Food and Wine Generic Template"
           jcr:description="Food and Wine Generic Template"
-          allowedPaths="[/content(/.*)?]">
+          allowedPaths="[/content/food-and-wine(/.*)?]"
+          ranking="3">
 
     <jcr:content jcr:primaryType="cq:PageContent"
                  sling:resourceType="foodandwine/components/page/genericpage"

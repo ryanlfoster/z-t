@@ -9,7 +9,7 @@
 <div class='faw-hero-home make-black'>
 	<div class="faw-hero-home-bg fullwidth-bg">
 		<div class="responsive-image" data-picture="" data-alt="">
-			<div data-src="{"
+			<div data-src="${hero.imagePath }"
 				data-media="(min-width: 1px)"></div>
 			<div data-src="${hero.imagePath }"
 				data-media="(min-width: 481px)"></div>

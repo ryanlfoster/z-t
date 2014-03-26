@@ -41,6 +41,8 @@
 
     Plugin.prototype.init = function () {
         var scope = this;
+        scope.valueIsSet = false;
+        
         //init category inputs
         scope.setupCategoryEvents(scope);
     };
@@ -71,10 +73,20 @@
     Plugin.prototype.updatePrimarySecondary = function (scope, $el, categories_selected) {
         if (categories_selected === 0){
             scope.flushPrimary(scope, "", "");
+             scope.valueIsSet = false;
+             $(scope.element).attr('isValid','false');
+             $('.categories-box-validation-alert').css("display","block");
+             
         }else if (categories_selected === 1){
             scope.setPrimary(scope, $el, $el.attr("id"));
+            scope.valueIsSet = true;
+            $(scope.element).attr('isValid','true');
+            $('.categories-box-validation-alert').css("display","none");
         }else if (categories_selected === 2){
             scope.setSecondary(scope, $el, $el.attr("id"));
+             scope.valueIsSet = true;
+             $(scope.element).attr('isValid','true');
+             $('.categories-box-validation-alert').css("display","none");
         }
     };
 

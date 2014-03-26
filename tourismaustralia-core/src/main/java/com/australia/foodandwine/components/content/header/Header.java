@@ -3,33 +3,18 @@ package com.australia.foodandwine.components.content.header;
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.jcr.Node;
-import javax.jcr.PathNotFoundException;
-import javax.jcr.RepositoryException;
-
 import org.apache.commons.lang3.StringUtils;
-import org.apache.commons.logging.Log;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ValueMap;
-import org.jboss.logging.annotations.ValidIdRange;
-import org.jboss.logging.annotations.ValidIdRanges;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.validation.annotation.Validated;
-
-import com.australia.foodandwine.components.constants.CQJCRConstants;
-import com.australia.foodandwine.components.content.footer.TextLink;
-import com.australia.foodandwine.components.content.sponsorsSpace.SponsorsSpace;
 import com.australia.utils.LinkUtils;
 import com.australia.utils.PathUtils;
 import com.australia.widgets.multicomposite.MultiCompositeField;
 import com.citytechinc.cq.component.annotations.Component;
 import com.citytechinc.cq.component.annotations.DialogField;
-import com.citytechinc.cq.component.annotations.FieldProperty;
 import com.citytechinc.cq.component.annotations.Listener;
-import com.citytechinc.cq.component.annotations.editconfig.ActionConfig;
-import com.citytechinc.cq.component.annotations.editconfig.ActionConfigProperty;
 import com.citytechinc.cq.component.annotations.widgets.PathField;
 
 

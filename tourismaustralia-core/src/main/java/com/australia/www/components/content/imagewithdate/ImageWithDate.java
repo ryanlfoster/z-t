@@ -1,9 +1,11 @@
 package com.australia.www.components.content.imagewithdate;
 
+import com.citytechinc.cq.component.annotations.Option;
 import com.citytechinc.cq.component.annotations.Tab;
 import com.citytechinc.cq.component.annotations.widgets.DateField;
 import com.citytechinc.cq.component.annotations.widgets.Html5SmartImage;
 import com.citytechinc.cq.component.annotations.widgets.RichTextEditor;
+import com.citytechinc.cq.component.annotations.widgets.Selection;
 import com.day.cq.wcm.foundation.Image;
 import org.apache.commons.lang.StringUtils;
 import org.apache.sling.api.SlingHttpServletRequest;
@@ -24,6 +26,10 @@ public class ImageWithDate {
     @DialogField(fieldLabel = "Alt Text", required = true, tab = 2)
     private String altText;
 
+    @DialogField(fieldLabel = "Make text white", required = false, tab = 2)
+    @Selection(type = Selection.CHECKBOX, options = @Option(value = "false"))
+    private boolean makeTextWhite;
+
     @DialogField(fieldLabel = "Date", required = false, tab = 2)
     @DateField(format = "M d", showToday = true)
     private String date;
@@ -38,6 +44,7 @@ public class ImageWithDate {
     public ImageWithDate(SlingHttpServletRequest request) {
         ValueMap properties = request.getResource().adaptTo(ValueMap.class);
         altText = properties.get("altText", StringUtils.EMPTY);
+        makeTextWhite = properties.get("makeTextWhite", false);
         date = properties.get("date", StringUtils.EMPTY);
         title = properties.get("title", StringUtils.EMPTY);
         text = properties.get("text", StringUtils.EMPTY);
@@ -47,6 +54,10 @@ public class ImageWithDate {
 
     public String getImage() {
         return image;
+    }
+
+    public Boolean getMakeTextWhite() {
+        return makeTextWhite;
     }
 
     public String getAltText() {

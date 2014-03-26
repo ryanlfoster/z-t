@@ -124,6 +124,10 @@ public class Footer {
 		return imageTopLogoPath;
 	}
 
+	public String getImageTopLogoLink() {
+		return PathUtils.FOOD_AND_WINE_ROOT_PATH + ".html";
+	}
+
 	public String getUrlTitle() {
 		return urlTitle;
 	}
@@ -146,6 +150,10 @@ public class Footer {
 
 	public String getImageBottomLogoPath() {
 		return imageBottomLogoPath;
+	}
+
+	public String getImageBottomLogoLink() {
+		return PathUtils.OZCOM_ROOT_PATH + ".html";
 	}
 
 	public String getCopyrightYear() {

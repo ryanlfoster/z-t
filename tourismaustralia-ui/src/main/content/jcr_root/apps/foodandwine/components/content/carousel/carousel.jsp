@@ -6,11 +6,21 @@
 <c:set var="carousel" value="<%=new Carousel(slingRequest) %>" />
 
 <!-- FOOD AND WINE CAROUSEL -->
-<div class='carousel faw-carousel faw-bg-full-container'
-	data-autoslidetime="0">
-	<img data-width='1228' data-height='565'
-		class='faw-bg-full l-display-none-md l-position-absolute'
-		src='${carousel.carouselBackgroundImagePath}' alt='' />
+<div class='carousel faw-carousel faw-bg-full-container' data-autoslidetime="0">
+	<div class="l-display-none-md l-position-absolute fullwidth-bg">
+		<div class="responsive-image l-display-none-md l-position-absolute" data-picture="" data-alt="" >
+			<div data-src="${carousel.carouselBackgroundImagePath}.adapt.480.low.jpg" data-media="(min-width: 1px)"></div>
+			<div data-src="${carousel.carouselBackgroundImagePath}.adapt.768.medium.jpg" data-media="(min-width: 481px)"></div>
+			<div data-src="${carousel.carouselBackgroundImagePath}.adapt.992.high.jpg" data-media="(min-width: 769px)"></div>
+			<div data-src="${carousel.carouselBackgroundImagePath}.adapt.1663.high.jpg" data-media="(min-width: 993px)"></div>
+			<noscript>
+				<img src='${carousel.carouselBackgroundImagePath}.adapt.1663.high.jpg'>
+			</noscript>
+		</div>
+		<!--[if (lt IE 9) & (!IEMobile)]>
+            <img src='imgs/base/faw-carousel-bg.jpg' alt=''>
+        <![endif]-->
+	</div>	
 	<div class='faw-carousel-outer'>
 		<div class='faw-carousel-wrapper'>
 			<ul class="carousel-wrapper">
@@ -38,4 +48,3 @@
 		</div>
 	</div>
 </div>
-<!-- END: FOOD AND WINE CAROUSEL -->

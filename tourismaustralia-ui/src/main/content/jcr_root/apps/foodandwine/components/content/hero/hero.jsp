@@ -9,18 +9,13 @@
 <div class='faw-hero-home make-black'>
 	<div class="faw-hero-home-bg fullwidth-bg">
 		<div class="responsive-image" data-picture="" data-alt="">
-			<div data-src="{"
-				data-media="(min-width: 1px)"></div>
-			<div data-src="${hero.imagePath }"
-				data-media="(min-width: 481px)"></div>
-			<div data-src="${hero.imagePath }"
-				data-media="(min-width: 769px)"></div>
-			<div data-src="${hero.imagePath }"
-				data-media="(min-width: 993px)"></div>
-			<noscript>&lt;img src='${hero.imagePath }'
-				alt=''&gt;</noscript>
-			<img alt="" src="${hero.imagePath }"
-				style="width: 1152px; margin-left: 0px;">
+			<div data-src="${hero.imagePath}.adapt.480.low.jpg" data-media="(min-width: 1px)"></div>
+			<div data-src="${hero.imagePath}.adapt.768.medium.jpg" data-media="(min-width: 481px)"></div>
+			<div data-src="${hero.imagePath}.adapt.992.high.jpg" data-media="(min-width: 769px)"></div>
+			<div data-src="${hero.imagePath}.adapt.1663.high.jpg" data-media="(min-width: 993px)"></div>
+			<noscript>
+				<img src='${hero.imagePath}.adapt.1663.high.jpg'>
+			</noscript>
 		</div>
 	<%-- 	[if (lt IE 9) & (!IEMobile)]
             <img src='${hero.imagePath }' alt=''>

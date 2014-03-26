@@ -1,8 +1,5 @@
 package com.australia.foodandwine.components.content.category;
 
-import org.apache.commons.lang3.StringUtils;
-import org.apache.sling.api.resource.ValueMap;
-
 import com.citytechinc.cq.component.annotations.DialogField;
 import com.citytechinc.cq.component.annotations.widgets.PathField;
 
@@ -14,13 +11,11 @@ public class Item {
 	@DialogField(fieldLabel = "Caption text", required = true)
 	private final String caption;
 	
-	private final static String IMAGE_PATH = "imagePath";
-
-	public Item(ValueMap properties) { 
-		caption = properties.get("caption", StringUtils.EMPTY);
-		imagePath = properties.get(IMAGE_PATH, StringUtils.EMPTY);		
+	public Item(String imagePath, String caption) {
+		this.imagePath=imagePath;
+		this.caption=caption;
 	}
-	
+
 	public String getCaption() {
 		return caption;
 	}

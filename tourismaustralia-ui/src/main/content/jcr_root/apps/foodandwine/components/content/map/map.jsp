@@ -4,43 +4,19 @@
 
 <c:set var="map" value="<%=new Map(slingRequest) %>"/>
 
-
-<html>
-  <head>
-  <input type="hidden" name="latitude" id="latitude" value="${map.latitude}">
-  <input type="hidden" name="longitude" id="longitude" value="${map.longitude}">
-    <style>
-      #map_canvas {
-        width: 500px;
-        height: 400px;
-      }
-    </style>
-    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
-    <script>
-      function initialize() {
-        var map_canvas = document.getElementById('map_canvas');
-        var latitude=document.getElementById('latitude').value;
-        var longitude=document.getElementById('longitude').value;
-//        console.log('latitude = ' + latitude + ' longitude = ' + longitude);
-        var map_options = {
-          center: new google.maps.LatLng(latitude, longitude),
-          zoom: 8,
-          mapTypeId: google.maps.MapTypeId.ROADMAP
-        }
-        var map = new google.maps.Map(map_canvas, map_options)
-      }
-      google.maps.event.addDomListener(window, 'load', initialize);
-    </script>
-  </head>
-  <body>
-<h3 class="faw-article-quotes">${map.title}</h3>
-
-    <div id="map_canvas"></div>
-    
-
-<p class="faw-article-quotes"><b>Phone: </b><em>${map.phone} </em></p>
-<br/>
-
-  </body>
-</html>
-
+<div class="l-center">
+	<div class="custommap">
+	    <img src="${map.googleMapUrl}" />
+	    <div class="custommap-description">
+			<p class="custommap-description-head"><strong>Phone</strong></p>
+			<p>${map.phone}</p>
+			<p class="custommap-description-head"><strong>Address</strong></p>
+			<p>${map.address1}</p>
+			<p>${map.suburb}, ${map.state} ${map.postcode}</p>
+			<br/>
+			<c:if test="${not empty map.website}">
+				<a href="http://${map.website}" target="_blank"><strong>${map.website}</strong></a>
+			</c:if>	
+		</div>
+	</div>
+</div>

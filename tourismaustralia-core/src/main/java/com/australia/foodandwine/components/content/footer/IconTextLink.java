@@ -1,17 +1,18 @@
 package com.australia.foodandwine.components.content.footer;
 
 import com.citytechinc.cq.component.annotations.DialogField;
+import com.citytechinc.cq.component.annotations.FieldProperty;
 import com.citytechinc.cq.component.annotations.widgets.PathField;
 
 public class IconTextLink {
 
-	@DialogField(fieldLabel = "Description")
+	@DialogField(fieldLabel = "Description", additionalProperties = @FieldProperty(name = "anchor", value = "100%"))
 	private String linkText;
 
-	@DialogField(fieldLabel = "Link Path")
+	@DialogField(fieldLabel = "Link Path", additionalProperties = @FieldProperty(name = "anchor", value = "100%"))
 	private String pagePath;
 
-	@DialogField(fieldLabel = "Icon Image")
+	@DialogField(fieldLabel = "Icon Image", additionalProperties = @FieldProperty(name = "anchor", value = "100%"))
 	@PathField(rootPath = "/content/dam")
 	private String iconImage;
 

@@ -3,24 +3,18 @@ package com.australia.foodandwine.components.content.header;
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.jcr.Node;
-
 import org.apache.commons.lang3.StringUtils;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ValueMap;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import com.australia.foodandwine.components.content.footer.TextLink;
-import com.australia.foodandwine.components.content.sponsorsSpace.SponsorsSpace;
+import com.australia.utils.LinkUtils;
 import com.australia.utils.PathUtils;
 import com.australia.widgets.multicomposite.MultiCompositeField;
 import com.citytechinc.cq.component.annotations.Component;
 import com.citytechinc.cq.component.annotations.DialogField;
 import com.citytechinc.cq.component.annotations.Listener;
-import com.citytechinc.cq.component.annotations.editconfig.ActionConfig;
-import com.citytechinc.cq.component.annotations.editconfig.ActionConfigProperty;
 import com.citytechinc.cq.component.annotations.widgets.PathField;
 
 
@@ -34,15 +28,16 @@ public class Header {
 	@PathField(rootPath = "/content/dam")
 	private  String imagePath;
 
-	@DialogField(fieldLabel = "Logo Link Path",name="./logoLinkPath")
-	@PathField
-	private  String linkPath;
+	@DialogField(fieldLabel = "Logo Link Path", required=true)
+	@PathField()
+	private  String logoLinkPath;
 
-	@DialogField(fieldLabel="Header Text and Links")
+	@DialogField(fieldLabel="Header Text and Links" , fieldDescription="Only top 2 fields will be selected ")
 	@MultiCompositeField
 	private  List<HeaderBean> headerDataList;
 	
-	private static  Logger LOG = LoggerFactory.getLogger(SponsorsSpace.class);
+	private static  Logger LOG = LoggerFactory.getLogger(Header.class);
+	
 	/**
 	 * Constants
 	 */
@@ -51,7 +46,6 @@ public class Header {
 	private static final String LOGOLINKPATH="logoLinkPath";
 	private static final String HEADERLINKPATH="headerLinkPath";
 	private static final String HEADERLINKTEXT="headerLinkText"; 
-	private static final String HTML_EXTENSION = ".html";
 	/**
 	 * 
 	 * @param request
@@ -59,17 +53,14 @@ public class Header {
 	
 	public Header(SlingHttpServletRequest request) {
 		
-		
 		String headerPath = PathUtils.FOOD_AND_WINE_ROOT_PATH + "/jcr:content/header";
 		Resource headerResource = request.getResourceResolver().getResource(headerPath);
 		if (headerResource != null) {
 		ValueMap properties = headerResource.adaptTo(ValueMap.class);
 		imagePath = properties.get(IMAGEPATH,StringUtils.EMPTY);
-		linkPath = properties.get(LOGOLINKPATH, StringUtils.EMPTY)+HTML_EXTENSION;
+		logoLinkPath = properties.get(LOGOLINKPATH, StringUtils.EMPTY);
+		logoLinkPath=LinkUtils.getHrefFromPath(logoLinkPath);
 		headerDataList = new ArrayList<HeaderBean>();
-		
-		LOG.info(" imagepath on heade "+imagePath);
-		//linksLeft = new ArrayList<TextLink>();
 		headerData(headerDataList, headerResource, HEADERDATALIST);
 		
 		}
@@ -81,11 +72,13 @@ public class Header {
 			for (Resource r : resources) {
 				ValueMap linkProps = r.adaptTo(ValueMap.class);
 				String pagePath = linkProps.get(HEADERLINKPATH, StringUtils.EMPTY);
+				pagePath=LinkUtils.getHrefFromPath(pagePath);
 				String linkText = linkProps.get(HEADERLINKTEXT, StringUtils.EMPTY);
 				HeaderBean headerBean = new HeaderBean();
 				headerBean.setPagePath(pagePath);
 				headerBean.setLinkText(linkText);
-				headerDataList.add(headerBean);
+				if(headerDataList.size()<2)
+					headerDataList.add(headerBean);
 			}
 		}
 		
@@ -98,8 +91,8 @@ public class Header {
 		return imagePath;
 	}
 
-	public String getLinkPath() {
-		return linkPath;
+	public String getLogoLinkPath() {
+		return logoLinkPath;
 	}
 	public List<HeaderBean> getHeaderDataList() {
 		return headerDataList;

@@ -95,7 +95,7 @@ public class Footer {
 			Iterable<Resource> resources = footerResource.getChild(linksColumn).getChildren();
 			for (Resource r : resources) {
 				ValueMap linkProps = r.adaptTo(ValueMap.class);
-				String pagePath = linkProps.get("pagePath", StringUtils.EMPTY);
+				String pagePath = LinkUtils.getHrefFromPath(linkProps.get("pagePath", StringUtils.EMPTY));
 				String linkText = linkProps.get("linkText", StringUtils.EMPTY);
 				TextLink link = new TextLink();
 				link.setPagePath(pagePath);

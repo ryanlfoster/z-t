@@ -30,9 +30,7 @@
         itemsMobile : [450,1], //1 items between 450 and 0
         navigation: false, // Display "next" and "prev" buttons.
         pagination: true, // Show pagination.
-        itemsScaleUp : true, //Option to not stretch items when it is less than the supplied items
-        mouseDrag : false,  // Turn off/on mouse events.
-        touchDrag: true    // Turn off/on touch events.
+        itemsScaleUp : true //Option to not stretch items when it is less than the supplied items
 	};
 
 	// The actual plugin constructor

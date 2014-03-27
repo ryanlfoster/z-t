@@ -49,24 +49,15 @@
     Plugin.prototype.setupEvents = function(scope) {
         //add click events for navigation buttons
 
-        /*$(scope.element).find(scope.options.explore_flip_btn).click(function(e){
+        $(scope.element).find(scope.options.explore_flip_btn).click(function(e){
         //$("." + $(scope.element).attr('class') + " " + scope.options.explore_flip_btn).click(function(e){
-            scope.frontClicked(scope, e);
-            $(e.target).trigger('touchstart');
-            e.preventDefault();
-        });*/
-
-
-        var clickEventType = ((document.ontouchstart!==null)?'click':'touchstart');
-        //$(scope.element).find(scope.options.explore_flip_btn).click(function(e){
-        $(scope.element).find(scope.options.explore_flip_btn).on(clickEventType, function(e){
             scope.frontClicked(scope, e);
         });
 
-
         $(scope.element).find(scope.options.explore_flip_back_btn).click(function(e){
         //$("." + $(scope.element).attr('class') + " " + scope.options.explore_flip_back_btn).click(function(e){
-            scope.backClicked(scope, e);
+
+                scope.backClicked(scope, e);
         });
 
     };

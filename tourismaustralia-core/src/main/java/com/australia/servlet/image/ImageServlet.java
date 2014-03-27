@@ -1,4 +1,4 @@
-package com.australia.servlet;
+package com.australia.servlet.image;
 
 import java.io.IOException;
 import java.io.InputStream;

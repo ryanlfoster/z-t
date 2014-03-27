@@ -13,17 +13,16 @@
              data--200-top="-webkit-transform: translate(0,10%);"
              data-200-bottom="-webkit-transform: translate(0,-10%);">
             <div class="responsive-image" data-picture="" data-alt="${imageWithDate.altText}">
-                <div data-src="${imageWithDate.image}" data-media="(min-width: 1px)"></div>
-                <div data-src="${imageWithDate.image}" data-media="(min-width: 481px)"></div>
-                <div data-src="${imageWithDate.image}" data-media="(min-width: 769px)"></div>
-                <div data-src="${imageWithDate.image}" data-media="(min-width: 993px)"></div>
-
+                <div data-src="${imageWithDate.image}.adapt.480.low.jpg" data-media="(min-width: 1px)"></div>
+                <div data-src="${imageWithDate.image}.adapt.768.medium.jpg" data-media="(min-width: 481px)"></div>
+                <div data-src="${imageWithDate.image}.adapt.992.high.jpg" data-media="(min-width: 769px)"></div>
+                <div data-src="${imageWithDate.image}.adapt.1663.high.jpg" data-media="(min-width: 993px)"></div>
                 <noscript>
-                    <img src="${imageWithDate.image}" alt="${imageWithDate.altText}">
+                    <img src="${imageWithDate.image}.adapt.1663.high.jpg" alt="${imageWithDate.altText}">
                 </noscript>
             </div>
             <!--[if (lt IE 9) & (!IEMobile)]>
-            <img src="${imageWithDate.image}" alt="${imageWithDate.altText}">
+            <img src="${imageWithDate.image}.adapt.1663.high.jpg" alt="${imageWithDate.altText}">
             <![endif]-->
         </div>
     </c:if>

@@ -49,17 +49,10 @@
 
     // add events to items
     Plugin.prototype.setupEvents = function(scope) {
-        var $mosaic = $(scope.element).parents(scope.options.mosaic);
         var $mosaic_container = $(scope.element).find(scope.options.mosaic_container);
         var $mosaic_item = $(scope.element);
         var $mosaic_content = $(scope.element).find(scope.options.mosaic_content);
-
         $mosaic_container.click(function(e){
-
-            // turn other items opacity on
-            $mosaic.find(scope.options.mosaic_item).addClass("is-opacity");
-            $mosaic_item.removeClass("is-opacity");
-
             // copy content for mosaic_grid2
             var $mosaic_grid2_content = $(scope.element).parents(scope.options.mosaic_grid2).find(scope.options.mosaic_grid_content).find(scope.options.mosaic_content);
             if ($mosaic_grid2_content.length){
@@ -68,13 +61,10 @@
 
             if ($mosaic_item.hasClass('is-trigger-content')){
                 scope.removeClass($mosaic_item, $mosaic_content, $mosaic_grid2_content);
-                // turn other items opacity on
-                $mosaic.find(scope.options.mosaic_item).removeClass("is-opacity");
             }else{
                 // disable any open tiles before showing next tile
                 scope.disableTiles(scope, $mosaic_item, $mosaic_content, $mosaic_grid2_content);
             }
-            $mosaic_item.removeClass('is-flip')
 
             e.preventDefault();
         });
@@ -133,13 +123,6 @@
     //init all flipcard objects on page automatically -> TBR
     $(window).load(function() {
         $(".mosaic-item").mosaic();
-        $(".mosaic-3column-item-option").mosaic({
-            mosaic : ".mosaic",
-            mosaic_item : ".mosaic-3column-item-option",
-            mosaic_container : ".mosaic-3column-container",
-            mosaic_front: ".mosaic-3column-front",
-            mosaic_back: ".mosaic-3column-back",
-            mosaic_content: ".mosaic-item-detail-container"});
     });
 
 })( jQuery, window, document );

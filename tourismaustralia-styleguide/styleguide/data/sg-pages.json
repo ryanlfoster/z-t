@@ -21,6 +21,39 @@
     
         
             
+                "2columnvideo" : {
+                     "data" : {
+                        "title" : "2columnvideo",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section '2columnvideo'}}"
+                }
+                
+                    ,
+                
+            
+                "text2columnvideo" : {
+                     "data" : {
+                        "title" : "text2columnvideo",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'text2columnvideo'}}"
+                }
+                
+                    ,
+                
+            
+                "videoitem" : {
+                     "data" : {
+                        "title" : "videoitem",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'videoitem'}}"
+                }
+                
+                    ,
+                
+            
                 "footer" : {
                      "data" : {
                         "title" : "footer",

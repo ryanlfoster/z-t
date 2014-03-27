@@ -73,7 +73,8 @@ public class Map {
 		Resource markerImage = request.getResourceResolver().getResource(MARKER_IMAGE);
 		Externalizer externalizer = request.getResourceResolver().adaptTo(Externalizer.class);
 		googleMapUrl = GOOGLE_MAP_URL.concat(this.buildAustralianAddress());
-		if (ServerUtils.isPublisher(slingSettings)) {
+		// cannot use marker image if in author mode (so use Google default)
+		if (!ServerUtils.isAuthor(slingSettings)) {
 			String markerImgUrl = externalizer.absoluteLink(request, request.getScheme(), markerImage.getPath());
 			googleMapUrl = StringUtils.replace(googleMapUrl, "{marker_image_url}", "icon:" + markerImgUrl);
 		}

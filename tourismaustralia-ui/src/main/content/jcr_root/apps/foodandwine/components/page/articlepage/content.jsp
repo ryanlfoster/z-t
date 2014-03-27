@@ -18,6 +18,7 @@
 
 	<cq:include path="shareThis" resourceType="foodandwine/components/content/shareThis" />
 	<cq:include path="mainparsys" resourceType="foundation/components/parsys" />
+	<cq:include path="accolade" resourceType="foundation/components/content/accolade" />
 	<cq:include path="map" resourceType="foodandwine/components/content/map" />
 
 	<div class="l-center">

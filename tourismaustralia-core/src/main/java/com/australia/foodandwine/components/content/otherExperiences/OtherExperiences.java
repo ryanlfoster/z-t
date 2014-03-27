@@ -21,6 +21,7 @@ import com.australia.foodandwine.components.constants.CQJCRConstants;
 import com.australia.utils.LinkUtils;
 import com.citytechinc.cq.component.annotations.Component;
 import com.citytechinc.cq.component.annotations.DialogField;
+import com.citytechinc.cq.component.annotations.FieldProperty;
 import com.citytechinc.cq.component.annotations.Listener;
 import com.citytechinc.cq.component.annotations.widgets.PathField;
 
@@ -30,13 +31,13 @@ import com.citytechinc.cq.component.annotations.widgets.PathField;
 public class OtherExperiences {
 
 	@DialogField(fieldLabel = "Heading Logo Path", name = "./logoPath")
-	@PathField(rootPath = "/content/dam")
+	@PathField(rootPath = "/content/dam/")
 	private final String logoPath;
 
-	@DialogField(fieldLabel = "Small Text Title", name = "./smallTextTitle")
+	@DialogField(fieldLabel = "Small Text Title", name = "./smallTextTitle", fieldDescription = " The Maximum characters for this field is 200", additionalProperties = @FieldProperty(name = "maxLength", value = "200"))
 	private final String smallTextTitle;
 
-	@DialogField(fieldLabel = "Large Text Title", name = "./largeTextTitle")
+	@DialogField(fieldLabel = "Large Text Title", name = "./largeTextTitle", fieldDescription = " The Maximum characters for this field is 200", additionalProperties = @FieldProperty(name = "maxLength", value = "200"))
 	private final String largeTextTitle;
 
 	@DialogField(fieldLabel = "List Articles Based on Tags", name = "./articleTagBasedList", xtype = "tags")
@@ -114,12 +115,12 @@ public class OtherExperiences {
 						articleDescription = nextNode.getProperty(CQJCRConstants.JCRDESCRIPTION).getValue().getString();
 						articlesPropertiesList.setArticleDescription(articleDescription);
 					}
-					if(nextNode.hasProperty("categoryLogoPath")){
-						categoryLogoPath=nextNode.getProperty("categoryLogoPath").getValue().getString();	
+					if (nextNode.hasProperty("categoryLogoPath")) {
+						categoryLogoPath = nextNode.getProperty("categoryLogoPath").getValue().getString();
 						articlesPropertiesList.setArticleOverLayLogoPath(categoryLogoPath);
 					}
-					if(nextNode.hasProperty("overlayCategoryInfo")){
-						overlayCategoryInfo=nextNode.getProperty("overlayCategoryInfo").getValue().getString();	
+					if (nextNode.hasProperty("overlayCategoryInfo")) {
+						overlayCategoryInfo = nextNode.getProperty("overlayCategoryInfo").getValue().getString();
 						articlesPropertiesList.setArticleOverLayLogoPath(overlayCategoryInfo);
 					}
 

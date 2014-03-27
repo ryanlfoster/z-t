@@ -270,9 +270,41 @@
 			</div>
 		</div>
 	</div>
-	<!--checkbox -->
-
 	
+<div class="field-container">
+                <div class="input-field" data-type="text">
+                    <div class="col-xs-4">
+                        <label class="input-field-label" for="text">
+                            <p>
+                                <strong>Video URL</strong>
+                            </p></label>
+                    </div>
+                    <div class="col-xs-8">
+                        <input class="input-field-input" type="text" name="videoUrl" id="videoUrl" placeholder="E.g. www.youtube.com/myvideo">
+                    </div>
+                </div>
+            </div>
+	<!--checkbox -->
+	<div class="field-container terms-conditions">
+                <div class="input-field input-field-checkbox form-agree-container" data-type="checkbox">
+
+                        <fieldset class="options">
+                            <input id="checkbox" class="checkbox" type="checkbox">
+                            <label for="checkbox" name="demo_lbl_1" class="checkbox-label">I agree to lorem ipsum terms &amp; conditions<sup>*</sup></label>
+                            <!-- Checkbox powered by CssCheckbox.com -->
+                            <p class="checkbox-description">
+                                Tourism Australia may need to contact you to complete or edit your listing. By ticking you accept the <a href="http://www.australia.com/privacypolicy.aspx" target="_blank">Privacy Policy</a> and <a href="http://www.australia.com/terms-conditions.aspx" target="_blank">Terms &amp; Conditions</a>
+                            </p>
+                        </fieldset>
+
+                    <span class="input-field-validation-icon"></span>
+                    <div class="col-xs-12">
+                        <p class="input-field-validation-alert">
+                            Please accept the terms and conditions
+                        </p>
+                    </div>
+                </div>
+            </div>
 
 <!--  -->
 	<hr class="form-clear">

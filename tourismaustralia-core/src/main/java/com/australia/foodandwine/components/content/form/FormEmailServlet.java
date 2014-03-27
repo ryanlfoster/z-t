@@ -4,9 +4,11 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Date;
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
+import javax.activation.MimetypesFileTypeMap;
 import javax.jcr.Binary;
 import javax.jcr.Node;
 import javax.jcr.Session;
@@ -25,6 +27,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.day.cq.commons.mail.MailTemplate;
+import com.day.cq.dam.api.Asset;
+import com.day.cq.dam.api.AssetManager;
 import com.day.cq.mailer.MailService;
 
 @SlingServlet(resourceTypes = "foodandwine/components/content/form", selectors = "formemail", extensions = "json", methods = "POST")
@@ -41,9 +45,11 @@ public class FormEmailServlet extends SlingAllMethodsServlet {
 	private Session session;
 	private String key;
 	private RequestParameter param;
-	
+
 	private String contentType;
 	private Binary contentValue;
+	private Asset asset;
+	private AssetManager assetManager;
 
 	@Override
 	protected void doPost(SlingHttpServletRequest request, SlingHttpServletResponse response) throws ServletException,
@@ -51,7 +57,7 @@ public class FormEmailServlet extends SlingAllMethodsServlet {
 		boolean emailCheck = false;
 		try {
 			Form form = new Form(request);
-			Map<String, String> properties = new HashMap<String, String>();
+			Map<String, String> properties = new LinkedHashMap<String, String>();
 			String businessName = request.getParameter("businessName");
 			String location = request.getParameter("location");
 			String selectTerritory = request.getParameter("selectTerritory");
@@ -70,6 +76,7 @@ public class FormEmailServlet extends SlingAllMethodsServlet {
 			String categoryPeople = request.getParameter("category-people");
 			String categorExperiences = request.getParameter("category-experiences");
 			String categorySeafood = request.getParameter("category-seafood");
+			String videoUrl = request.getParameter("videoUrl");
 
 			Node node = request.getResourceResolver().resolve("/content/usergenerated/").adaptTo(Node.class);
 			session = request.getResourceResolver().adaptTo(Session.class);
@@ -83,56 +90,68 @@ public class FormEmailServlet extends SlingAllMethodsServlet {
 			formArticleNode.setProperty("businessDescription", businessDescription);
 			formArticleNode.setProperty("photoDescription", photoDescription);
 
-			if (null != categoryRestaurants || !"".equals(categoryRestaurants)) {
-				formArticleNode.setProperty("categoryRestaurants", categoryRestaurants);
-			}
-			if (null != categoryRestaurants || !"".equals(categoryRestaurants)) {
-				formArticleNode.setProperty("categoryWine", categoryWine);
-			}
-			if (null != categoryProduce || !"".equals(categoryProduce)) {
-				formArticleNode.setProperty("categoryProduce", categoryProduce);
-			}
-			if (null != categoryEvents || !"".equals(categoryEvents)) {
-				formArticleNode.setProperty("categoryEvents", categoryEvents);
-			}
-			if (null != categoryPeople || !"".equals(categoryPeople)) {
-				formArticleNode.setProperty("categoryPeople", categoryPeople);
-			}
-			if (null != categorExperiences || !"".equals(categorExperiences)) {
-				formArticleNode.setProperty("categorExperiences", categorExperiences);
-			}
-			if (null != categorySeafood || !"".equals(categorySeafood)) {
-				formArticleNode.setProperty("categorySeafood", categorySeafood);
-			}
+			properties.put("Business Name ", businessName);
+			properties.put("Location ", location);
+			properties.put("Territory ", selectTerritory);
+			properties.put("Email ", mail);
+			properties.put("Business Website ", businessWebsite);
+			properties.put("Business Description ", businessDescription);
+			properties.put("Photo Description ", photoDescription);
 
-			imageUpload(request, formArticleNode);
+			if (categoryRestaurants != null) {
+				formArticleNode.setProperty("categoryRestaurants", categoryRestaurants);
+				properties.put("Category Restaurants", categoryRestaurants);
+			}
+			if (categoryWine != null) {
+				formArticleNode.setProperty("categoryWine", categoryWine);
+				properties.put("Category Wine ", categoryWine);
+			}
+			if (categoryProduce != null) {
+				formArticleNode.setProperty("categoryProduce", categoryProduce);
+				properties.put("Category Produce ", categoryProduce);
+			}
+			if (categoryEvents != null) {
+				formArticleNode.setProperty("categoryEvents", categoryEvents);
+				properties.put("Category Events ", categoryEvents);
+			}
+			if (categoryPeople != null) {
+				formArticleNode.setProperty("categoryPeople", categoryPeople);
+				properties.put("Category People ", categoryPeople);
+			}
+			if (categorExperiences != null) {
+				formArticleNode.setProperty("categorExperiences", categorExperiences);
+				properties.put("Categor Experiences ", categorExperiences);
+			}
+			if (categorySeafood != null) {
+				formArticleNode.setProperty("categorySeafood", categorySeafood);
+				properties.put("Category Seafood ", categorySeafood);
+			}
+			properties.put("Video Url", videoUrl);
+
+			imageUpload(request, formArticleNode,session);
 			session.save();
 
-			properties.put("businessName", businessName);
-			properties.put("location", location);
-			properties.put("selectTerritory", selectTerritory);
-			properties.put("mail", mail);
-			properties.put("businessWebsite", businessWebsite);
-			properties.put("businessDescription", businessDescription);
-			properties.put("photoDescription", photoDescription);
-			properties.put("categoryRestaurants", categoryRestaurants);
-			properties.put("categoryWine", categoryWine);
-			properties.put("categoryProduce", categoryProduce);
-			properties.put("categoryEvents", categoryEvents);
-			properties.put("categoryPeople", categoryPeople);
-			properties.put("categorExperiences", categorExperiences);
-			properties.put("categorySeafood", categorySeafood);
-
-			sendEmail(request, emailCheck, properties,form);
+			StringBuilder mapBuilder = new StringBuilder();
+			mapBuilder.append(form.getEmailBody());
+			mapBuilder.append("<html><body>");
+			mapBuilder.append("<br>=============Form Data =============<br>");
+			for (Map.Entry<String, String> entry : properties.entrySet()) {
+				mapBuilder.append("<b>" + entry.getKey() + "</b> : " + entry.getValue() + "<br>");
+			}
+			mapBuilder.append("</body></html>");
+			LOG.info("mapBuilder : " + mapBuilder.toString());
+			sendEmail(request, emailCheck, mapBuilder, form);
 			response.sendRedirect(form.getRedirectUrl());
 		} catch (Exception e) {
 			LOG.error(e.getMessage());
 		}
 	}
 
-	private void imageUpload(SlingHttpServletRequest request, Node formArticleNode) throws IOException {
-		
+	private void imageUpload(SlingHttpServletRequest request, Node formArticleNode,Session session) throws IOException {
+
 		Map<String, RequestParameter[]> params = request.getRequestParameterMap();
+		assetManager = request.getResourceResolver().adaptTo(AssetManager.class);
+
 		for (Map.Entry<String, RequestParameter[]> pairs : params.entrySet()) {
 			key = pairs.getKey();
 			RequestParameter[] pArr = pairs.getValue();
@@ -141,35 +160,41 @@ public class FormEmailServlet extends SlingAllMethodsServlet {
 			if ((key.equalsIgnoreCase("upload-photo"))) {
 				try {
 					InputStream stream = param.getInputStream();
-					contentType = param.getContentType();
+					if(param.getFileName().endsWith(".jpeg")){
+						contentType="image/jpeg";
+					}
+					if(param.getFileName().endsWith(".png")){
+						contentType="image/png";
+					}
+					if(param.getFileName().endsWith(".jpg")){
+						contentType="image/jpg";
+					}
+					
 					ValueFactory valueFactory = session.getValueFactory();
 					contentValue = valueFactory.createBinary(stream);
-					Node fileNode = formArticleNode.addNode("file", "nt:file");
+					Node fileNode = formArticleNode.addNode("file","nt:file");
 					fileNode.addMixin("mix:referenceable");
 					Node resourceNode = fileNode.addNode("jcr:content", "nt:resource");
 					resourceNode.setProperty("jcr:mimeType", contentType);
 					resourceNode.setProperty("jcr:data", contentValue);
+
 				} catch (Exception e) {
 					LOG.error(e.getMessage());
-
 				}
 			}
 		}
 	}
 
-	private void sendEmail(SlingHttpServletRequest request, boolean emailCheck, Map<String, String> properties,Form form) {
-		
-		List<String> emailIdsList = form.getEmailIdsList();
-		String emailTemplatePath = form.getEmailTemplate();
-		String emailSubject = form.getEmailSubject();
+	private void sendEmail(SlingHttpServletRequest request, boolean emailCheck, StringBuilder mapBuilder, Form form) {
 
+		List<String> emailIdsList = form.getEmailIdsList();
+		String emailSubject = form.getEmailSubject();
 		for (String emailIds : emailIdsList) {
 			if (emailCheck) {
-				final MailTemplate mailTemplate = MailTemplate.create(emailTemplatePath
-					+ "/jcr:content/renditions/original", request.getResourceResolver().adaptTo(Session.class));
 				try {
-					final HtmlEmail email = mailTemplate.getEmail(StrLookup.mapLookup(properties), HtmlEmail.class);
+					final HtmlEmail email = new HtmlEmail();
 					email.setSubject(emailSubject);
+					email.setContent(mapBuilder.toString(), "text/html; charset=utf-8");
 					email.addTo(emailIds);
 					mailService.send(email);
 				} catch (Exception e) {

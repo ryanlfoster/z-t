@@ -8,11 +8,13 @@ import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.ValueMap;
 
 import com.australia.foodandwine.components.constants.CQJCRConstants;
+import com.australia.utils.LinkUtils;
 import com.citytechinc.cq.component.annotations.Component;
 import com.citytechinc.cq.component.annotations.DialogField;
 import com.citytechinc.cq.component.annotations.Listener;
 import com.citytechinc.cq.component.annotations.widgets.MultiField;
 import com.citytechinc.cq.component.annotations.widgets.PathField;
+import com.citytechinc.cq.component.annotations.widgets.TextArea;
 
 /**
  *
@@ -23,12 +25,12 @@ import com.citytechinc.cq.component.annotations.widgets.PathField;
 	@Listener(name = "afteredit", value = "REFRESH_PAGE"), @Listener(name = "afterinsert", value = "REFRESH_PAGE") })
 public class Form {
 
-	@DialogField(fieldLabel = "Email Template", name = "./emailTemplate", required = true)
-	@PathField
-	private final String emailTemplate;
-
 	@DialogField(fieldLabel = "Email Subject", name = "./emailSubject", required = true)
 	private String emailSubject;
+
+	@DialogField(fieldLabel = "Email Body", name = "./emailBody", required = true)
+	@TextArea
+	private String emailBody;
 
 	@DialogField(fieldLabel = "Email Id's")
 	@MultiField
@@ -41,28 +43,21 @@ public class Form {
 	/**
 	 * Constants
 	 */
-	private final static String EMAIL_TEMPLATE = "emailTemplate";
 	private final static String EMAIL_SUBJECT = "emailSubject";
+	private final static String EMAIL_BODY = "emailBody";
 	private final static String EMAIL_IDS_LIST = "emailIdsList";
 	private final static String THAMK_YOU_PAGE_REDIRECT_URL = "redirectUrl";
 
 	public Form(SlingHttpServletRequest request) {
 		ValueMap properties = request.getResource().adaptTo(ValueMap.class);
-		emailTemplate = properties.get(EMAIL_TEMPLATE, StringUtils.EMPTY);
 		emailSubject = properties.get(EMAIL_SUBJECT, StringUtils.EMPTY);
+		emailBody = properties.get(EMAIL_BODY, StringUtils.EMPTY);
 		this.emailIdsList = Arrays.asList(properties.get(EMAIL_IDS_LIST, new String[0]));
-		redirectUrl = properties.get(THAMK_YOU_PAGE_REDIRECT_URL, StringUtils.EMPTY) + CQJCRConstants.HTML_EXTENSION;
+		redirectUrl = LinkUtils.getHrefFromPath(properties.get(THAMK_YOU_PAGE_REDIRECT_URL, StringUtils.EMPTY));
 
 	}
 
-	/**
-	 * 
-	 * @return
-	 */
-	public String getEmailTemplate() {
-		return emailTemplate;
-	}
-
+	
 	/**
 	 * 
 	 * @return
@@ -85,6 +80,14 @@ public class Form {
 	 */
 	public String getEmailSubject() {
 		return emailSubject;
+	}
+
+	/**
+	 * 
+	 * @return
+	 */
+	public String getEmailBody() {
+		return emailBody;
 	}
 
 }

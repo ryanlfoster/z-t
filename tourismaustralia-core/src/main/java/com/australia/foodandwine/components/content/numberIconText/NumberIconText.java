@@ -1,6 +1,7 @@
 package com.australia.foodandwine.components.content.numberIconText;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 import org.apache.commons.lang.StringUtils;
@@ -31,10 +32,10 @@ public class NumberIconText {
 				ValueMap properties = r.adaptTo(ValueMap.class);
 				if (properties != null) {
 					counter++;
-					String iconImage = properties.get("iconImage", StringUtils.EMPTY);
+					List<String> iconImages = Arrays.asList(properties.get("iconImages", new String[0]));
 					String richText = properties.get("richText", StringUtils.EMPTY);
 					IconText iconText = new IconText();
-					iconText.setIconImage(iconImage);
+					iconText.setIconImages(iconImages);
 					iconText.setRichText(richText);
 					iconText.setNumber(counter);
 					iconTextList.add(iconText);

@@ -1,29 +1,25 @@
 package com.australia.foodandwine.components.content.numberIconText;
 
+import java.util.List;
+
 import com.citytechinc.cq.component.annotations.DialogField;
 import com.citytechinc.cq.component.annotations.FieldProperty;
+import com.citytechinc.cq.component.annotations.widgets.MultiField;
 import com.citytechinc.cq.component.annotations.widgets.PathField;
 import com.citytechinc.cq.component.annotations.widgets.RichTextEditor;
 
 public class IconText {
 
-	@DialogField(fieldLabel = "Icon Image", required = true, additionalProperties = @FieldProperty(name = "anchor", value = "100%"))
+	@DialogField(fieldLabel = "Icon Images", additionalProperties = @FieldProperty(name = "anchor", value = "100%"))
 	@PathField(rootPath = "/content/dam")
-	private String iconImage;
+	@MultiField
+	private List<String> iconImages;
 
-	@DialogField(fieldLabel = "Description", required = true, additionalProperties = @FieldProperty(name = "anchor", value = "100%"))
+	@DialogField(fieldLabel = "Description", additionalProperties = @FieldProperty(name = "anchor", value = "100%"))
 	@RichTextEditor
 	private String richText;
 
 	private Integer number;
-
-	public String getIconImage() {
-		return iconImage;
-	}
-
-	public void setIconImage(String iconImage) {
-		this.iconImage = iconImage;
-	}
 
 	public String getRichText() {
 		return richText;
@@ -39,6 +35,14 @@ public class IconText {
 
 	public void setNumber(Integer number) {
 		this.number = number;
+	}
+
+	public List<String> getIconImages() {
+		return iconImages;
+	}
+
+	public void setIconImages(List<String> iconImages) {
+		this.iconImages = iconImages;
 	}
 
 }

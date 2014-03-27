@@ -2,6 +2,7 @@ package com.australia.servlets;
 
 import com.australia.cqimport.service.PageBuilder;
 import com.australia.cqimport.service.StateBuilder;
+import com.australia.cqimport.vo.MappingVO;
 import com.day.cq.wcm.api.WCMException;
 import org.apache.felix.scr.annotations.Properties;
 import org.apache.felix.scr.annotations.Property;
@@ -15,12 +16,11 @@ import org.apache.sling.api.resource.ResourceResolverFactory;
 import org.apache.sling.api.servlets.SlingAllMethodsServlet;
 
 
-import javax.jcr.Node;
-import javax.jcr.RepositoryException;
-import javax.jcr.Session;
 import javax.servlet.ServletException;
-import java.io.IOException;
-import java.io.PrintWriter;
+import java.io.*;
+import java.util.ArrayList;
+import java.util.Hashtable;
+import java.util.Map;
 
 /**
  * Created by Viren Pushpanayagam on 27/03/2014.
@@ -44,23 +44,77 @@ public class ContentImporter extends SlingAllMethodsServlet {
     protected void doPost(SlingHttpServletRequest request, SlingHttpServletResponse response) throws ServletException,
             IOException {
         ResourceResolver resourceResolver = null;
+        Map<String,PageBuilder> templates = new Hashtable<String,PageBuilder>();
+
+        templates.put("states",new StateBuilder());
+
         try {
             resourceResolver= resourceResolverFactory.getAdministrativeResourceResolver(null);
         } catch (LoginException e) {
             e.printStackTrace();
         }
-        System.out.println("Inside Servlet viren11");
-        PageBuilder pageBuilder = new StateBuilder();
+        System.out.println("*************************");
+
+        PageBuilder pageBuilder;
         System.out.println("before");
-        try {
-            pageBuilder.createPage("/content/australia/explore/states/nsw", "/content/australia/explore/states/nsw",
-                    resourceResolver);
-            System.out.println("After");
-        } catch (WCMException e) {
-            System.out.println(e);
-            e.printStackTrace();
+
+        MappingVO[] mappingVO = getMappings();
+        for(MappingVO map: mappingVO){
+
+            pageBuilder = templates.get(map.getTemplate());
+
+            try {
+                pageBuilder.createPage(map.getOldPath(), map.getNewPath(),
+                        resourceResolver);
+                System.out.println("After");
+            } catch (WCMException e) {
+                System.out.println(e);
+                e.printStackTrace();
+            }
         }
 
+
         System.out.println("End");
+    }
+
+    private MappingVO[] getMappings(){
+        // Start
+
+        InputStream file = this.getClass().getClassLoader().getResourceAsStream("prod-content/mapping.csv");
+        BufferedReader br = null;
+        String line = "";
+        String cvsSplitBy = ",";
+        ArrayList<MappingVO> mappingsList = new ArrayList<MappingVO>();
+        try {
+
+            br = new BufferedReader(new InputStreamReader(file));
+            while ((line = br.readLine()) != null) {
+                MappingVO mappingVO = new MappingVO();
+                // use comma as separator
+                String[] items = line.split(cvsSplitBy);
+                mappingVO.setOldPath(items[0]);
+                mappingVO.setNewPath(items[1]);
+                mappingVO.setTemplate(items[2]);
+
+                mappingsList.add(mappingVO);
+            }
+
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            if (br != null) {
+                try {
+                    br.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+
+        return mappingsList.toArray(new MappingVO[mappingsList.size()]);
+
+        // end
     }
 }

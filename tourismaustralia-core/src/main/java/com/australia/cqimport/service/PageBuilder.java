@@ -8,6 +8,8 @@ import org.apache.sling.api.resource.ResourceResolver;
  * Created by Viren Pushpanayagam on 27/03/2014.
  */
 public abstract class PageBuilder {
+
+    public static final String CRX_ROOT_PATH = "/content/australia/";
     public abstract void createPage(String oldPath, String newPath, ResourceResolver resourceResolver)
             throws WCMException;
 
@@ -18,7 +20,6 @@ public abstract class PageBuilder {
         } else {
             value = path.substring(0,path.lastIndexOf("/")+1);
         }
-        System.out.println("Value=="+value);
         return value;
     }
 

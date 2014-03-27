@@ -25,7 +25,7 @@
 							<p class="footer-heading">${footer.headingLeft}</p>
 							<ul class="footer-text-list l-list-clean">
 								<c:forEach items="${footer.linksLeft}" var="link">
-									<li><a href="${link.pagePath}">${link.linkText}</a></li>
+									<li><a href="${link.pagePath}" target="${link.external ? '_BLANK' : '_self'}">${link.linkText}</a></li>
 								</c:forEach>
 							</ul>
 						</div>
@@ -35,7 +35,7 @@
 							<p class="footer-heading">${footer.headingMiddle}</p>
 							<ul class="footer-text-list l-list-clean">
 								<c:forEach items="${footer.linksMiddle}" var="link">
-									<li><a href="${link.pagePath}">${link.linkText}</a></li>
+									<li><a href="${link.pagePath}" target="${link.external ? '_BLANK' : '_self'}">${link.linkText}</a></li>
 								</c:forEach>
 							</ul>
 						</div>
@@ -45,7 +45,7 @@
 							<p class="footer-heading">${footer.headingRight}</p>
 							<ul class="footer-social-list type-spacing-15">
 								<c:forEach items="${footer.linksRight}" var="link">
-									<li><a href="${link.pagePath}" class="btn-share"><span>
+									<li><a href="${link.pagePath}" class="btn-share" target="${link.external ? '_BLANK' : '_self'}"><span>
 									<c:if test="${not empty link.iconImage}">
 										<img src="${link.iconImage}" alt="" />
 									</c:if>${link.linkText}</span></a></li>

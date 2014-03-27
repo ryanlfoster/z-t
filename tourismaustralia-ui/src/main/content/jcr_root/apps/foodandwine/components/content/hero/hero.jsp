@@ -17,10 +17,10 @@
 				<img src='${hero.imagePath}.adapt.1663.high.jpg'>
 			</noscript>
 		</div>
-	<%-- 	[if (lt IE 9) & (!IEMobile)]
-            <img src='${hero.imagePath}.adapt.1663.high.jpg' alt=''>
-        [endif]
- --%>	</div>
+		<!--[if (lt IE 9) & (!IEMobile)]>
+            <img src='{hero.imagePath}.adapt.1663.high.jpg' alt=''>
+        <![endif]-->
+		</div>
 	<div class="faw-hero-home-container">
 		<div class="icon-logo-withlines-container">
 			<hr class="icon-logo-withlines-hr">

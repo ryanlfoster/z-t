@@ -30,7 +30,7 @@
     <title>${global.title}</title>
 
     <cq:includeClientLib css="ta"/>
-    
+
     <!--[if lte IE 8]>
     <cq:includeClientLib css="ta.ie8"/>
     <![endif]-->

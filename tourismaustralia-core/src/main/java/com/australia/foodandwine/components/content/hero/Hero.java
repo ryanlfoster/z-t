@@ -34,13 +34,13 @@ public class Hero {
 	@DialogField(fieldLabel = "Big Title", required = true, tab = 2)
 	private final String bigTitle;
 
-	@DialogField(fieldLabel = "Ovaerlay Small Text", fieldDescription = "Text to be displayed in small font", tab = 3)
+	@DialogField(fieldLabel = "Overlay Small Text", fieldDescription = "Text to be displayed in small font", tab = 3)
 	private final String smallFontText;
 
-	@DialogField(fieldLabel = "Ovaerlay Large Text", fieldDescription = "Text to be displayed in large font", tab = 3)
+	@DialogField(fieldLabel = "Overlay Large Text", fieldDescription = "Text to be displayed in large font", tab = 3)
 	private final String largeFontText;
 
-	@DialogField(fieldLabel = "Ovaerlay Small Text", fieldDescription = "Text to be displayed after large font", tab = 3)
+	@DialogField(fieldLabel = "Overlay Small Text", fieldDescription = "Text to be displayed after large font", tab = 3)
 	private final String smallFont;
 
 	@DialogField(fieldLabel = "Register Button Text ", tab = 3)

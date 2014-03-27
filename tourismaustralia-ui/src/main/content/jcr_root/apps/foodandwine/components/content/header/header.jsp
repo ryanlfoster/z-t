@@ -10,25 +10,18 @@
 		<div class="navbar-container">
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="navbar-header">
-					<c:if test="${not empty Header.logoLinkPath }">
-						<a class="navbar-brand l-display-none-md black_logo"
-							href="${Header.logoLinkPath}" target="_blank"> <img
-							src="${Header.imagePath}" alt="Australia" title="Australia" />
-						</a>
-					</c:if>
-					<c:if test="${Header.logoLinkPath eq ''}">
-						<img src="${Header.imagePath}" alt="Australia" title="Australia" />
-					</c:if>
-				
+				<a class="navbar-brand l-display-none-md black_logo" href="${Header.logoLinkPath}" target="_blank"> 
+					<img src="${Header.imagePath}" alt="Australia" title="Australia" />
+				</a>
 			</div>
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<nav class="navbar-nav">
-				<!-- <div class="navbar-mobile-head l-display-md">
+				<div class="navbar-mobile-head l-display-md">
                     <h2 class="navbar-mobile-head-label">Menu</h2>
                     <span class="navbar-mobile-close-icon"></span>
                     <span class="navbar-mobile-open-icon"></span>
                     <span class="navbar-mobile-back-icon"></span>
-                </div> -->
+                </div>
 				<ul class="navbar-items">
 					<c:forEach items="${Header.headerDataList}" var="headerData"
 						varStatus="loop">

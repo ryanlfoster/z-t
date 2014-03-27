@@ -6740,43 +6740,44 @@ h1, h2, h3, h4, h5 {
   color: #393939;
   margin-top: 0;
   margin-bottom: 0;
+  font-weight: normal;
 }
 
-/* line 30, ../../assets/scss/site/_base.scss */
+/* line 31, ../../assets/scss/site/_base.scss */
 h1 {
   font-family: "GearedSlab-Thin", Helvetica, Arial, sans-serif;
   font-size: 4.5em;
   text-transform: uppercase;
 }
 
-/* line 36, ../../assets/scss/site/_base.scss */
+/* line 37, ../../assets/scss/site/_base.scss */
 h2 {
   font-family: "GearedSlab-Thin", Helvetica, Arial, sans-serif;
   font-size: 3em;
   text-transform: uppercase;
 }
 
-/* line 42, ../../assets/scss/site/_base.scss */
+/* line 43, ../../assets/scss/site/_base.scss */
 h3 {
   font-family: "ProximaNova Regular", Helvetica, Arial, sans-serif;
   font-size: 1.875em;
   line-height: 1.56522em;
 }
 
-/* line 48, ../../assets/scss/site/_base.scss */
+/* line 49, ../../assets/scss/site/_base.scss */
 h4 {
   font-family: "ProximaNova Semi Bold", Helvetica, Arial, sans-serif;
   font-size: 1.875em;
   line-height: 1.56522em;
 }
 
-/* line 54, ../../assets/scss/site/_base.scss */
+/* line 55, ../../assets/scss/site/_base.scss */
 h5 {
   font-family: "TAheadline", Helvetica, Arial, sans-serif;
   font-size: 1.5em;
 }
 
-/* line 59, ../../assets/scss/site/_base.scss */
+/* line 60, ../../assets/scss/site/_base.scss */
 h6 {
   display: block;
   padding: 0;
@@ -6786,18 +6787,18 @@ h6 {
   line-height: 1.41176em;
 }
 
-/* line 68, ../../assets/scss/site/_base.scss */
+/* line 69, ../../assets/scss/site/_base.scss */
 p {
   line-height: 1.5em;
 }
 
-/* line 72, ../../assets/scss/site/_base.scss */
+/* line 73, ../../assets/scss/site/_base.scss */
 a {
   color: #393939;
   text-decoration: underline;
 }
 
-/* line 77, ../../assets/scss/site/_base.scss */
+/* line 78, ../../assets/scss/site/_base.scss */
 a:hover, a:focus {
   color: #393939;
   cursor: pointer;
@@ -6806,21 +6807,24 @@ a:hover, a:focus {
 /*a:visited {
   color: $type-link-hover-colour;
 }*/
-/* line 85, ../../assets/scss/site/_base.scss */
+/* line 86, ../../assets/scss/site/_base.scss */
 strong {
   font-family: "ProximaNova Bold", Helvetica, Arial, sans-serif;
+  font-weight: normal;
 }
-/* line 87, ../../assets/scss/site/_base.scss */
+/* line 88, ../../assets/scss/site/_base.scss */
 strong em {
   font-family: "ProximaNova Bold Italic", Helvetica, Arial, sans-serif;
+  font-weight: normal;
 }
 
-/* line 91, ../../assets/scss/site/_base.scss */
+/* line 94, ../../assets/scss/site/_base.scss */
 em {
   font-family: "ProximaNova Regular Italic", Helvetica, Arial, sans-serif;
+  font-weight: normal;
 }
 
-/* line 95, ../../assets/scss/site/_base.scss */
+/* line 99, ../../assets/scss/site/_base.scss */
 hr {
   border-top: 1px solid #bbbbbb;
 }
@@ -6828,7 +6832,7 @@ hr {
 /**
  Quick hack to remove styling in chrome on buttons
 **/
-/* line 110, ../../assets/scss/site/_base.scss */
+/* line 114, ../../assets/scss/site/_base.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -6838,7 +6842,7 @@ input[type="submit"] {
   background: transparent;
   cursor: pointer;
 }
-/* line 116, ../../assets/scss/site/_base.scss */
+/* line 120, ../../assets/scss/site/_base.scss */
 button:focus,
 html input[type="button"]:focus,
 input[type="reset"]:focus,
@@ -7800,26 +7804,31 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   text-align: center;
 }
 
-/* line 4, ../../assets/scss/site/modules/_headerlockup.scss */
+/* line 5, ../../assets/scss/site/modules/_headerlockup.scss */
+.headerlockup-single h2 {
+  padding-top: 0.4em;
+}
+
+/* line 9, ../../assets/scss/site/modules/_headerlockup.scss */
 .headerlockup-hr {
   margin-bottom: 14px;
   width: 100%;
 }
 @media (min-width: 768px) {
-  /* line 4, ../../assets/scss/site/modules/_headerlockup.scss */
+  /* line 9, ../../assets/scss/site/modules/_headerlockup.scss */
   .headerlockup-hr {
     width: 14.125em;
   }
 }
 
-/* line 11, ../../assets/scss/site/modules/_headerlockup.scss */
+/* line 16, ../../assets/scss/site/modules/_headerlockup.scss */
 .headerlockup-type-sml1 {
   font-family: "TAheadline", Helvetica, Arial, sans-serif;
   font-size: 1.5em;
   line-height: 1.9em;
 }
 
-/* line 17, ../../assets/scss/site/modules/_headerlockup.scss */
+/* line 22, ../../assets/scss/site/modules/_headerlockup.scss */
 .headerlockup-type-lrg {
   font-family: "GearedSlab-Thin", Helvetica, Arial, sans-serif;
   font-size: 3em;
@@ -7827,7 +7836,7 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   text-transform: uppercase;
 }
 
-/* line 24, ../../assets/scss/site/modules/_headerlockup.scss */
+/* line 29, ../../assets/scss/site/modules/_headerlockup.scss */
 .headerlockup-type-sml2 {
   font-family: "TAheadline", Helvetica, Arial, sans-serif;
   font-size: 1.5em;
@@ -7962,8 +7971,10 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
 .btn-auto-size {
   width: auto;
   height: 59px;
-  padding-left: 1em;
-  padding-right: 1em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
 }
 @media (min-width: 768px) {
   /* line 75, ../../assets/scss/site/modules/_btn.scss */
@@ -7972,21 +7983,21 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   }
 }
 
-/* line 87, ../../assets/scss/site/modules/_btn.scss */
+/* line 89, ../../assets/scss/site/modules/_btn.scss */
 .btn-transparent {
   background-color: transparent;
   color: #fff;
   border: 1px solid #fff;
 }
 
-/* line 93, ../../assets/scss/site/modules/_btn.scss */
+/* line 95, ../../assets/scss/site/modules/_btn.scss */
 .btn-transparent:hover, .btn-transparent:focus {
   background-color: #fff;
   border: 1px solid #000;
   color: #000;
 }
 
-/* line 101, ../../assets/scss/site/modules/_btn.scss */
+/* line 103, ../../assets/scss/site/modules/_btn.scss */
 .btn-arrow {
   display: inline-block;
   width: 280px;
@@ -8002,7 +8013,7 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   border: 1px solid #040000;
 }
 
-/* line 117, ../../assets/scss/site/modules/_btn.scss */
+/* line 119, ../../assets/scss/site/modules/_btn.scss */
 .btn-square {
   display: inline-block;
   width: 60px;
@@ -8019,19 +8030,19 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   border: 1px solid #c9c9c9;
 }
 
-/* line 132, ../../assets/scss/site/modules/_btn.scss */
+/* line 134, ../../assets/scss/site/modules/_btn.scss */
 .btn-square:hover, .btn-square:focus {
   background: #ebebeb;
   text-decoration: none;
 }
 
-/* line 136, ../../assets/scss/site/modules/_btn.scss */
+/* line 138, ../../assets/scss/site/modules/_btn.scss */
 .btn-square.is-active {
   background: #393939;
   color: #FFF;
 }
 
-/* line 142, ../../assets/scss/site/modules/_btn.scss */
+/* line 144, ../../assets/scss/site/modules/_btn.scss */
 .btn-round {
   display: inline-block;
   width: 60px;
@@ -8053,18 +8064,18 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   -o-border-radius: 100%;
   border-radius: 100%;
 }
-/* line 156, ../../assets/scss/site/modules/_btn.scss */
+/* line 158, ../../assets/scss/site/modules/_btn.scss */
 .btn-round img {
   margin-top: 0.1em;
 }
 
-/* line 160, ../../assets/scss/site/modules/_btn.scss */
+/* line 162, ../../assets/scss/site/modules/_btn.scss */
 .btn-round:hover, .btn-round:focus {
   text-decoration: none;
   color: #606060;
 }
 
-/* line 164, ../../assets/scss/site/modules/_btn.scss */
+/* line 166, ../../assets/scss/site/modules/_btn.scss */
 .btn-round.is-active {
   color: #FFF;
   width: 100px;
@@ -8076,13 +8087,13 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   -o-border-radius: 100%;
   border-radius: 100%;
 }
-/* line 167, ../../assets/scss/site/modules/_btn.scss */
+/* line 169, ../../assets/scss/site/modules/_btn.scss */
 .btn-round.is-active:hover, .btn-round.is-active:focus {
   text-decoration: none;
   color: #FFF;
 }
 
-/* line 190, ../../assets/scss/site/modules/_btn.scss */
+/* line 192, ../../assets/scss/site/modules/_btn.scss */
 .btn-round-share {
   display: inline-block;
   width: 60px;
@@ -8105,12 +8116,12 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   border-radius: 100%;
 }
 
-/* line 204, ../../assets/scss/site/modules/_btn.scss */
+/* line 206, ../../assets/scss/site/modules/_btn.scss */
 .btn-round-share:hover, .btn-round-share:focus {
   text-decoration: none;
 }
 
-/* line 208, ../../assets/scss/site/modules/_btn.scss */
+/* line 210, ../../assets/scss/site/modules/_btn.scss */
 .btn-share {
   display: inline-block;
   line-height: 1em;
@@ -8122,7 +8133,7 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   margin-left: -0.3em;
   margin-right: 0.5em;
 }
-/* line 219, ../../assets/scss/site/modules/_btn.scss */
+/* line 221, ../../assets/scss/site/modules/_btn.scss */
 .btn-share img {
   opacity: 0.6;
   margin: 0;
@@ -8131,21 +8142,21 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   padding-bottom: 0.2em;
 }
 
-/* line 227, ../../assets/scss/site/modules/_btn.scss */
+/* line 229, ../../assets/scss/site/modules/_btn.scss */
 .btn-share:hover {
   text-decoration: none;
   color: #FFF;
 }
-/* line 230, ../../assets/scss/site/modules/_btn.scss */
+/* line 232, ../../assets/scss/site/modules/_btn.scss */
 .btn-share:hover span {
   color: #FFF;
 }
-/* line 234, ../../assets/scss/site/modules/_btn.scss */
+/* line 236, ../../assets/scss/site/modules/_btn.scss */
 .btn-share:hover img {
   opacity: 1;
 }
 
-/* line 238, ../../assets/scss/site/modules/_btn.scss */
+/* line 240, ../../assets/scss/site/modules/_btn.scss */
 .btn-share span {
   padding-left: 0.625em;
   font-family: Helvetica, Arial, sans-serif;
@@ -8155,7 +8166,7 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   color: #787474;
 }
 
-/* line 248, ../../assets/scss/site/modules/_btn.scss */
+/* line 250, ../../assets/scss/site/modules/_btn.scss */
 .btn-round-video {
   line-height: 4em;
   font-size: 1.3125em;
@@ -8175,7 +8186,7 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   color: #FFF;
 }
 
-/* line 259, ../../assets/scss/site/modules/_btn.scss */
+/* line 261, ../../assets/scss/site/modules/_btn.scss */
 .btn-round-video:hover, .btn-round-video:focus {
   text-decoration: none;
   color: #040000;
@@ -8184,26 +8195,26 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   border: 2px solid #FFF;
 }
 @media (min-width: 768px) {
-  /* line 259, ../../assets/scss/site/modules/_btn.scss */
+  /* line 261, ../../assets/scss/site/modules/_btn.scss */
   .btn-round-video:hover, .btn-round-video:focus {
     border: 1px solid #FFF;
   }
 }
 
-/* line 273, ../../assets/scss/site/modules/_btn.scss */
+/* line 275, ../../assets/scss/site/modules/_btn.scss */
 .btn-restaurant-australia-logo {
   font-size: 4.25em;
   text-decoration: none;
   color: #000;
 }
 
-/* line 278, ../../assets/scss/site/modules/_btn.scss */
+/* line 280, ../../assets/scss/site/modules/_btn.scss */
 .btn-restaurant-australia-logo:hover, .btn-restaurant-australia-logo:focus {
   text-decoration: none;
   color: #000;
 }
 
-/* line 282, ../../assets/scss/site/modules/_btn.scss */
+/* line 284, ../../assets/scss/site/modules/_btn.scss */
 .btn-restaurant-australia-logo-box {
   display: inline-block;
   width: 255px;
@@ -8216,19 +8227,19 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   text-align: center;
 }
 
-/* line 293, ../../assets/scss/site/modules/_btn.scss */
+/* line 295, ../../assets/scss/site/modules/_btn.scss */
 .btn-restaurant-australia-logo-box:hover, .btn-restaurant-australia-logo-box:focus {
   text-decoration: none;
   color: #FFF;
 }
 
-/* line 298, ../../assets/scss/site/modules/_btn.scss */
+/* line 300, ../../assets/scss/site/modules/_btn.scss */
 .btn-white-black {
   border: 1px solid #040000;
   text-decoration: none;
   color: #393939;
 }
-/* line 302, ../../assets/scss/site/modules/_btn.scss */
+/* line 304, ../../assets/scss/site/modules/_btn.scss */
 .btn-white-black:hover, .btn-white-black:focus {
   border: 1px solid #FFF;
   text-decoration: none;
@@ -8236,14 +8247,14 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   color: #FFF !important;
 }
 
-/* line 310, ../../assets/scss/site/modules/_btn.scss */
+/* line 312, ../../assets/scss/site/modules/_btn.scss */
 .btn-black-white {
   border: 1px solid #FFF !important;
   text-decoration: none;
   background: #040000 !important;
   color: #FFF;
 }
-/* line 315, ../../assets/scss/site/modules/_btn.scss */
+/* line 317, ../../assets/scss/site/modules/_btn.scss */
 .btn-black-white:hover, .btn-black-white:focus {
   border: 1px solid #393939 !important;
   text-decoration: none;
@@ -8607,96 +8618,198 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
 
 /* line 280, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-white {
-  background-position-y: 0px;
   border: 1px white solid;
 }
-/* line 284, ../../assets/scss/site/modules/_icon.scss */
+/* line 283, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-white:hover {
-  background-position-y: -113px;
-  background-color: white;
+  background-color: #393939;
+  border: 1px #393939 solid;
 }
-/* line 289, ../../assets/scss/site/modules/_icon.scss */
+/* line 288, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-white span {
   color: white;
 }
 
-/* line 293, ../../assets/scss/site/modules/_icon.scss */
+/* line 292, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-white-active {
-  background-position-y: -113px;
+  background-position: 0px -113px;
   background-color: white;
 }
-/* line 297, ../../assets/scss/site/modules/_icon.scss */
+/* line 295, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-white-active span {
   font-family: "ProximaNova Bold", Helvetica, Arial, sans-serif;
 }
 
-/* line 302, ../../assets/scss/site/modules/_icon.scss */
+/* line 300, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-black {
-  background-position-y: -113px;
+  background-position: 0px -113px;
   border: 1px #393939 solid;
 }
-/* line 306, ../../assets/scss/site/modules/_icon.scss */
+/* line 304, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-black:hover {
-  background-position-y: 0px;
   background-color: #393939;
 }
-/* line 311, ../../assets/scss/site/modules/_icon.scss */
+/* line 308, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-black span {
   color: #393939;
 }
 
-/* line 315, ../../assets/scss/site/modules/_icon.scss */
+/* line 313, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-black-active {
-  background-position-y: 0px;
   background-color: #393939;
 }
-/* line 319, ../../assets/scss/site/modules/_icon.scss */
+/* line 315, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-black-active span {
   font-family: "ProximaNova Bold", Helvetica, Arial, sans-serif;
 }
 
-/* line 325, ../../assets/scss/site/modules/_icon.scss */
-.icon-map-nsw {
-  background-position-x: -111px;
+/*! ROLLOVER AND ACTIVE STATES FOR CATEGORY ITEMS
+    Example usage:
+    @include itemstate(bgXpos, bgYpos)
+ */
+/* line 339, ../../assets/scss/site/modules/_icon.scss */
+.icon-map-capital {
+  background-position: 0px -113px;
 }
-
-/* line 328, ../../assets/scss/site/modules/_icon.scss */
-.icon-map-northern {
-  background-position-x: -222px;
+/* line 326, ../../assets/scss/site/modules/_icon.scss */
+.icon-map-capital:hover {
+  background-position: 0px 0px;
 }
-
-/* line 331, ../../assets/scss/site/modules/_icon.scss */
-.icon-map-queensland {
-  background-position-x: -333px;
+/* line 330, ../../assets/scss/site/modules/_icon.scss */
+.icon-map-capital.icon-map-black-active {
+  background-position: 0px 0px;
 }
-
 /* line 334, ../../assets/scss/site/modules/_icon.scss */
-.icon-map-south {
-  background-position-x: -444px;
+.icon-map-capital.icon-map-white {
+  background-position: 0px 0px;
 }
 
-/* line 337, ../../assets/scss/site/modules/_icon.scss */
-.icon-map-tasmania {
-  background-position-x: -555px;
+/* line 342, ../../assets/scss/site/modules/_icon.scss */
+.icon-map-nsw {
+  background-position: -111px -113px;
+}
+/* line 326, ../../assets/scss/site/modules/_icon.scss */
+.icon-map-nsw:hover {
+  background-position: -111px 0px;
+}
+/* line 330, ../../assets/scss/site/modules/_icon.scss */
+.icon-map-nsw.icon-map-black-active {
+  background-position: -111px 0px;
+}
+/* line 334, ../../assets/scss/site/modules/_icon.scss */
+.icon-map-nsw.icon-map-white {
+  background-position: 0px 0px;
 }
 
-/* line 340, ../../assets/scss/site/modules/_icon.scss */
-.icon-map-victoria {
-  background-position-x: -666px;
+/* line 345, ../../assets/scss/site/modules/_icon.scss */
+.icon-map-northern {
+  background-position: -222px -113px;
 }
-
-/* line 343, ../../assets/scss/site/modules/_icon.scss */
-.icon-map-western {
-  background-position-x: -777px;
+/* line 326, ../../assets/scss/site/modules/_icon.scss */
+.icon-map-northern:hover {
+  background-position: -222px 0px;
+}
+/* line 330, ../../assets/scss/site/modules/_icon.scss */
+.icon-map-northern.icon-map-black-active {
+  background-position: -222px 0px;
+}
+/* line 334, ../../assets/scss/site/modules/_icon.scss */
+.icon-map-northern.icon-map-white {
+  background-position: 0px 0px;
 }
 
 /* line 348, ../../assets/scss/site/modules/_icon.scss */
+.icon-map-queensland {
+  background-position: -333px -113px;
+}
+/* line 326, ../../assets/scss/site/modules/_icon.scss */
+.icon-map-queensland:hover {
+  background-position: -333px 0px;
+}
+/* line 330, ../../assets/scss/site/modules/_icon.scss */
+.icon-map-queensland.icon-map-black-active {
+  background-position: -333px 0px;
+}
+/* line 334, ../../assets/scss/site/modules/_icon.scss */
+.icon-map-queensland.icon-map-white {
+  background-position: 0px 0px;
+}
+
+/* line 351, ../../assets/scss/site/modules/_icon.scss */
+.icon-map-south {
+  background-position: -444px -113px;
+}
+/* line 326, ../../assets/scss/site/modules/_icon.scss */
+.icon-map-south:hover {
+  background-position: -444px 0px;
+}
+/* line 330, ../../assets/scss/site/modules/_icon.scss */
+.icon-map-south.icon-map-black-active {
+  background-position: -444px 0px;
+}
+/* line 334, ../../assets/scss/site/modules/_icon.scss */
+.icon-map-south.icon-map-white {
+  background-position: 0px 0px;
+}
+
+/* line 354, ../../assets/scss/site/modules/_icon.scss */
+.icon-map-tasmania {
+  background-position: -555px -113px;
+}
+/* line 326, ../../assets/scss/site/modules/_icon.scss */
+.icon-map-tasmania:hover {
+  background-position: -555px 0px;
+}
+/* line 330, ../../assets/scss/site/modules/_icon.scss */
+.icon-map-tasmania.icon-map-black-active {
+  background-position: -555px 0px;
+}
+/* line 334, ../../assets/scss/site/modules/_icon.scss */
+.icon-map-tasmania.icon-map-white {
+  background-position: 0px 0px;
+}
+
+/* line 357, ../../assets/scss/site/modules/_icon.scss */
+.icon-map-victoria {
+  background-position: -666px -113px;
+}
+/* line 326, ../../assets/scss/site/modules/_icon.scss */
+.icon-map-victoria:hover {
+  background-position: -666px 0px;
+}
+/* line 330, ../../assets/scss/site/modules/_icon.scss */
+.icon-map-victoria.icon-map-black-active {
+  background-position: -666px 0px;
+}
+/* line 334, ../../assets/scss/site/modules/_icon.scss */
+.icon-map-victoria.icon-map-white {
+  background-position: 0px 0px;
+}
+
+/* line 360, ../../assets/scss/site/modules/_icon.scss */
+.icon-map-western {
+  background-position: -777px -113px;
+}
+/* line 326, ../../assets/scss/site/modules/_icon.scss */
+.icon-map-western:hover {
+  background-position: -777px 0px;
+}
+/* line 330, ../../assets/scss/site/modules/_icon.scss */
+.icon-map-western.icon-map-black-active {
+  background-position: -777px 0px;
+}
+/* line 334, ../../assets/scss/site/modules/_icon.scss */
+.icon-map-western.icon-map-white {
+  background-position: 0px 0px;
+}
+
+/* line 365, ../../assets/scss/site/modules/_icon.scss */
 .icon-google-color {
   background-repeat: no-repeat;
   display: inline-block;
 }
 
-/* line 353, ../../assets/scss/site/modules/_icon.scss */
+/* line 370, ../../assets/scss/site/modules/_icon.scss */
 .icon-atdw-color {
   background-repeat: no-repeat;
   display: inline-block;
@@ -8997,7 +9110,7 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
 @media (min-width: 768px) {
   /* line 3, ../../assets/scss/site/modules/_calltoaction.scss */
   .calltoaction {
-    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.8);
     margin-top: 6em;
     border-radius: 50%;
     padding: 3.5em;
@@ -9683,7 +9796,7 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   color: #040000;
   cursor: inherit;
 }
-/* line 183, ../../assets/scss/site/modules/_btn.scss */
+/* line 185, ../../assets/scss/site/modules/_btn.scss */
 .form-number-container .form-number:hover, .form-number-container .form-number:focus {
   text-decoration: none;
   color: #606060;
@@ -10722,7 +10835,7 @@ progress[value]::-webkit-progress-value {
   margin-top: 0;
   text-decoration: none;
 }
-/* line 183, ../../assets/scss/site/modules/_btn.scss */
+/* line 185, ../../assets/scss/site/modules/_btn.scss */
 .hint-icon-icon:hover, .hint-icon-icon:focus {
   text-decoration: none;
   color: #606060;
@@ -11724,19 +11837,25 @@ progress[value]::-webkit-progress-value {
   }
 }
 
-/* line 28, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 29, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+.faw-hero-home-container .btn-auto-size {
+  margin-left: 0em;
+  margin-right: 0em;
+}
+
+/* line 35, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .faw-hero-home-headline {
   font-family: "TAheadline", Helvetica, Arial, sans-serif;
   padding-bottom: 0.5em;
 }
 
-/* line 33, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 40, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .fullwidth-bg {
   width: 100%;
   height: 100%;
 }
 
-/* line 39, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 46, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .faw-hero-home-container {
   position: relative;
   text-align: center;
@@ -11747,13 +11866,13 @@ progress[value]::-webkit-progress-value {
   margin: 0;
 }
 @media (min-width: 768px) {
-  /* line 39, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+  /* line 46, ../../assets/scss/site/modules/_foodandwineherohome.scss */
   .faw-hero-home-container {
     padding-top: 5em;
   }
 }
 
-/* line 52, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 59, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .faw-hero-home-bg {
   width: 100%;
   height: 100%;
@@ -11765,12 +11884,12 @@ progress[value]::-webkit-progress-value {
   /* IE 10 fix */
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  /* line 52, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+  /* line 59, ../../assets/scss/site/modules/_foodandwineherohome.scss */
   .faw-hero-home-bg {
     z-index: 0;
   }
 }
-/* line 67, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 74, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .faw-hero-home-bg img {
   width: 100%;
 }
@@ -11779,45 +11898,45 @@ progress[value]::-webkit-progress-value {
  Fix for when displaying within styleguide
  Image sits over all other elements due to position being fixed
 */
-/* line 77, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 84, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .sg-pattern .faw-hero-home-bg {
   position: absolute;
 }
 
-/* line 85, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 92, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .skrollr-desktop .faw-hero-home-bg {
   z-index: inherit;
 }
 
-/* line 91, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 98, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .faw-hero-home-container .icon-logo-withlines-container {
   margin: 0;
   height: 140px;
   overflow: hidden;
 }
 
-/* line 98, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 105, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .faw-hero-home.make-black .faw-hero-home-container .icon-logo-withlines-logo {
   color: #040000;
 }
-/* line 101, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 108, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .faw-hero-home.make-black hr {
   border-top: 1px solid #040000;
 }
-/* line 104, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 111, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .faw-hero-home.make-black h1 {
   color: #040000;
 }
 
-/* line 110, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 117, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .faw-hero-home.make-white .faw-hero-home-container .icon-logo-withlines-logo {
   color: #FFF;
 }
-/* line 113, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 120, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .faw-hero-home.make-white hr {
   border-top: 1px solid #FFF;
 }
-/* line 116, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 123, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .faw-hero-home.make-white h1 {
   color: #FFF;
 }
@@ -11837,35 +11956,35 @@ progress[value]::-webkit-progress-value {
   }
 }
 */
-/* line 135, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 142, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .faw-hero-home-hr {
   margin: 0 auto;
   width: 230px;
 }
 @media (min-width: 768px) {
-  /* line 135, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+  /* line 142, ../../assets/scss/site/modules/_foodandwineherohome.scss */
   .faw-hero-home-hr {
     width: 230px;
   }
 }
 
-/* line 143, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 150, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .form-hero {
   padding-left: 1em;
   padding-right: 1em;
 }
-/* line 147, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 154, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .form-hero .btn-auto-size {
   width: 100%;
 }
 @media (min-width: 768px) {
-  /* line 147, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+  /* line 154, ../../assets/scss/site/modules/_foodandwineherohome.scss */
   .form-hero .btn-auto-size {
     width: auto;
   }
 }
 
-/* line 155, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 162, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .form-hero-register {
   color: #040000;
   font-size: 0.875em;
@@ -11873,7 +11992,7 @@ progress[value]::-webkit-progress-value {
   max-width: 480px;
 }
 @media (min-width: 480px) {
-  /* line 155, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+  /* line 162, ../../assets/scss/site/modules/_foodandwineherohome.scss */
   .form-hero-register {
     font-size: 1.125em;
     padding: 0 1.4em;
@@ -11881,7 +12000,7 @@ progress[value]::-webkit-progress-value {
   }
 }
 @media (min-width: 768px) {
-  /* line 155, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+  /* line 162, ../../assets/scss/site/modules/_foodandwineherohome.scss */
   .form-hero-register {
     max-width: 520px;
   }
@@ -12435,16 +12554,17 @@ progress[value]::-webkit-progress-value {
   margin: 1em;
   padding: 1em;
   text-align: left;
+  padding-top: 0.2em;
 }
 
-/* line 26, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 27, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-description-copy {
   display: none;
   line-height: 1.3em;
   margin-bottom: 0;
 }
 
-/* line 32, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 33, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-description-head {
   color: white;
   font-size: 1.5em;
@@ -12455,8 +12575,9 @@ progress[value]::-webkit-progress-value {
   text-transform: uppercase;
 }
 
-/* line 42, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 43, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-description-sub {
+  font-family: "ProximaNova Regular Italic";
   color: white;
   padding: 0;
   margin: 0;
@@ -12464,7 +12585,7 @@ progress[value]::-webkit-progress-value {
   line-height: 0.7em;
 }
 
-/* line 50, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 52, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-description-share {
   font-size: 2em;
   position: absolute;
@@ -12472,17 +12593,17 @@ progress[value]::-webkit-progress-value {
   bottom: 0.4em;
   color: white;
 }
-/* line 57, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 59, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-description-share img {
   width: 35px;
 }
 
-/* line 62, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 64, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-description-share-dark {
   display: none;
 }
 
-/* line 66, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 68, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-overlay {
   position: absolute;
   top: 0;
@@ -12497,7 +12618,7 @@ progress[value]::-webkit-progress-value {
   opacity: 0;
   text-align: left;
 }
-/* line 80, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 82, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-overlay:hover {
   opacity: 0.9;
   transition: opacity .5s ease-out;
@@ -12506,29 +12627,29 @@ progress[value]::-webkit-progress-value {
   -o-transition: opacity .5s ease-out;
 }
 
-/* line 89, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 91, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-overlay-share {
   background-color: #036c86;
 }
-/* line 92, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 94, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-overlay-share p {
   font-size: 0.9em;
   line-height: 1.5em;
 }
 
-/* line 98, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 100, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-overlay-info {
   background-color: #393939;
   text-align: center;
   opacity: 0;
 }
-/* line 103, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 105, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-overlay-info p {
-  font-size: 0.9em;
+  font-size: 0.8em;
   line-height: 1.5em;
 }
 
-/* line 109, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 111, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-overlay-info-icon {
   width: 175px;
   height: 117px;
@@ -12543,7 +12664,7 @@ progress[value]::-webkit-progress-value {
   margin-left: -87px;
 }
 
-/* line 123, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 125, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-overlay-info-head {
   position: absolute;
   top: -40px;
@@ -12555,7 +12676,7 @@ progress[value]::-webkit-progress-value {
   text-transform: uppercase;
 }
 
-/* line 134, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 136, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-overlay-info-desciption {
   position: absolute;
   top: 100px;
@@ -12565,13 +12686,13 @@ progress[value]::-webkit-progress-value {
   line-height: 1em !important;
   text-align: center;
 }
-/* line 143, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 145, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-overlay-info-desciption a {
   color: white;
   text-decoration: none;
 }
 
-/* line 149, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 151, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-overlay-info-icon-item {
   position: absolute;
   top: 50%;
@@ -12580,12 +12701,12 @@ progress[value]::-webkit-progress-value {
   margin-top: -0.5em;
   margin-left: -0.6em;
 }
-/* line 157, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 159, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-overlay-info-icon-item img {
   width: 70px;
 }
 
-/* line 162, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 164, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-overlay-info-categories {
   width: 100%;
   position: absolute;
@@ -12598,22 +12719,22 @@ progress[value]::-webkit-progress-value {
   padding-bottom: 0;
 }
 
-/* line 174, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 176, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-register {
   width: 100%;
   height: 100%;
   background-color: white;
 }
-/* line 179, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 181, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-register img {
   opacity: 0;
 }
-/* line 183, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 185, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-register .mosaic-item-register-inner {
   border: 1px #bbbbbb solid;
 }
 
-/* line 187, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 189, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-register-content {
   position: absolute;
   top: 50%;
@@ -12626,25 +12747,52 @@ progress[value]::-webkit-progress-value {
   margin-top: -7.5em;
   text-align: center;
 }
-/* line 199, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 201, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-register-content .faw-register-teaser-subline {
   color: black;
   font-size: 0.8em;
 }
-/* line 204, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 206, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-register-content p {
   margin-top: 0.5em;
 }
 
+/* line 211, ../../assets/scss/site/modules/_mosaic-item.scss */
+.mosaic-item-description-categories {
+  position: absolute;
+  top: 0;
+  right: 0.5em;
+  display: none;
+}
+@media (min-width: 768px) {
+  /* line 211, ../../assets/scss/site/modules/_mosaic-item.scss */
+  .mosaic-item-description-categories {
+    display: block;
+  }
+}
+
+/* line 222, ../../assets/scss/site/modules/_mosaic-item.scss */
+.mosaic-item-location .mosaic-item-description {
+  padding-left: 2.2em;
+  z-index: 2;
+}
+/* line 227, ../../assets/scss/site/modules/_mosaic-item.scss */
+.mosaic-item-location .mosaic-item-location-icon {
+  position: absolute;
+  left: 2em;
+  bottom: 3em;
+}
+
 /*-----------------------grid changer-------------------------*/
-/* line 213, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 238, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list {
   cursor: pointer;
   text-align: left;
   border-bottom: 1px #ebebeb solid;
   margin-right: 1em;
+  min-height: 8em;
 }
-/* line 219, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 245, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list .mosaic-item-description {
   top: 0;
   bottom: 0;
@@ -12653,55 +12801,77 @@ progress[value]::-webkit-progress-value {
   margin-bottom: 0;
   padding-bottom: 0;
 }
-/* line 229, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 255, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list .mosaic-item-description-head {
   font-size: 2em;
   line-height: 1em;
 }
-/* line 234, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 260, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list .mosaic-item-description-copy {
-  display: block;
+  display: none;
 }
-/* line 238, ../../assets/scss/site/modules/_mosaic-item.scss */
+@media (min-width: 768px) {
+  /* line 260, ../../assets/scss/site/modules/_mosaic-item.scss */
+  .mosaic-item-list .mosaic-item-description-copy {
+    display: block;
+  }
+}
+/* line 268, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list p {
   color: #393939;
   margin-left: 100px;
 }
-/* line 243, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 273, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list .mosaic-item-image {
   width: 100px;
+  /* For Safari 3.1 to 6.0 */
+  -webkit-transition-property: width;
+  -webkit-transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  -webkit-transition-delay: 0s;
+  /* Standard syntax */
+  transition-property: width;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+  transition-delay: 0s;
 }
-/* line 247, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 278, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list .mosaic-item-overlay {
   display: none;
 }
-/* line 251, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 282, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list:hover {
   background-color: #ebebeb;
 }
-/* line 255, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 286, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list .mosaic-item-description-share {
   color: #393939;
   right: 0em;
   top: 0em;
 }
-/* line 261, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 292, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list .mosaic-item-description-share-dark {
-  display: block;
+  display: none;
 }
-/* line 265, ../../assets/scss/site/modules/_mosaic-item.scss */
+@media (min-width: 768px) {
+  /* line 292, ../../assets/scss/site/modules/_mosaic-item.scss */
+  .mosaic-item-list .mosaic-item-description-share-dark {
+    display: block;
+  }
+}
+/* line 300, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list .mosaic-item-description-share-white {
   display: none;
 }
 
-/* line 269, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 304, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid {
   text-align: center;
   border-bottom: 0px #ebebeb solid;
   margin-left: 0;
   margin-right: 0;
 }
-/* line 275, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 310, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid .mosaic-item-description {
   top: none;
   bottom: 0;
@@ -12710,44 +12880,54 @@ progress[value]::-webkit-progress-value {
   margin-bottom: 1em;
   padding-bottom: 1em;
 }
-/* line 284, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 319, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid .mosaic-item-description-copy {
   display: none;
 }
-/* line 288, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 323, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid .mosaic-item-image {
   width: 100%;
+  /* For Safari 3.1 to 6.0 */
+  -webkit-transition-property: width;
+  -webkit-transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  -webkit-transition-delay: 0s;
+  /* Standard syntax */
+  transition-property: width;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+  transition-delay: 0s;
 }
-/* line 292, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 328, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid .mosaic-item-description-head {
   font-size: 1.5em;
   line-height: 1em;
 }
-/* line 297, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 333, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid p {
   color: white;
   margin-left: 0;
 }
-/* line 302, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 338, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid .mosaic-item-overlay {
   display: block;
 }
-/* line 306, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 342, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid:hover {
   background-color: white;
 }
-/* line 310, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 346, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid .mosaic-item-description-share {
   color: white;
   top: none;
   right: 0.4em;
   bottom: 0.4em;
 }
-/* line 317, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 353, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid .mosaic-item-description-share-dark {
   display: none;
 }
-/* line 321, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 357, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid .mosaic-item-description-share-white {
   display: block;
 }
@@ -12815,6 +12995,21 @@ progress[value]::-webkit-progress-value {
 /* line 27, ../../assets/scss/site/modules/_explore.scss */
 .faw-explore-teaser-inner {
   position: relative;
+}
+
+/* line 31, ../../assets/scss/site/modules/_explore.scss */
+.fawexploremosaic {
+  margin-top: 4em;
+  margin-bottom: 2em;
+  text-align: center;
+}
+/* line 36, ../../assets/scss/site/modules/_explore.scss */
+.fawexploremosaic .fawexploremosaictext {
+  font-size: 1.2em;
+  text-align: center;
+  max-width: 600px;
+  padding: 0.5em;
+  display: inline-block;
 }
 
 /* line 1, ../../assets/scss/site/modules/_mosaicgridchanger.scss */
@@ -12932,37 +13127,74 @@ progress[value]::-webkit-progress-value {
 @media (min-width: 768px) {
   /* line 12, ../../assets/scss/site/modules/_foodandwinerestaurantslist.scss */
   .faw-restaurants-list ul li {
+    width: 40%;
+    height: 40%;
+    overflow: hidden;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 12, ../../assets/scss/site/modules/_foodandwinerestaurantslist.scss */
+  .faw-restaurants-list ul li {
     width: 280px;
     height: 280px;
     overflow: hidden;
   }
 }
-/* line 25, ../../assets/scss/site/modules/_foodandwinerestaurantslist.scss */
+/* line 31, ../../assets/scss/site/modules/_foodandwinerestaurantslist.scss */
 .faw-restaurants-list ul li .mosaic-item {
   padding: 0.5em;
 }
-/* line 28, ../../assets/scss/site/modules/_foodandwinerestaurantslist.scss */
+/* line 34, ../../assets/scss/site/modules/_foodandwinerestaurantslist.scss */
 .faw-restaurants-list ul li .mosaic-item .mosaic-item-overlay {
   margin: 0.5em;
 }
 
-/* line 36, ../../assets/scss/site/modules/_foodandwinerestaurantslist.scss */
+/* line 42, ../../assets/scss/site/modules/_foodandwinerestaurantslist.scss */
 .faw-restaurants-list-desciption {
+  position: relative;
   text-align: center;
   padding: 1em;
 }
+/* line 47, ../../assets/scss/site/modules/_foodandwinerestaurantslist.scss */
+.faw-restaurants-list-desciption img {
+  visibility: hidden;
+  display: none;
+}
 @media (min-width: 768px) {
-  /* line 36, ../../assets/scss/site/modules/_foodandwinerestaurantslist.scss */
+  /* line 47, ../../assets/scss/site/modules/_foodandwinerestaurantslist.scss */
+  .faw-restaurants-list-desciption img {
+    display: block;
+  }
+}
+@media (min-width: 768px) {
+  /* line 42, ../../assets/scss/site/modules/_foodandwinerestaurantslist.scss */
   .faw-restaurants-list-desciption {
     text-align: left;
   }
 }
-/* line 44, ../../assets/scss/site/modules/_foodandwinerestaurantslist.scss */
-.faw-restaurants-list-desciption h2 {
-  line-height: 0.9em;
+
+/* line 61, ../../assets/scss/site/modules/_foodandwinerestaurantslist.scss */
+.faw-restaurants-list-desciption-inner {
+  position: relative;
+  top: 0;
+  left: 0;
 }
-/* line 47, ../../assets/scss/site/modules/_foodandwinerestaurantslist.scss */
-.faw-restaurants-list-desciption p {
+@media (min-width: 768px) {
+  /* line 61, ../../assets/scss/site/modules/_foodandwinerestaurantslist.scss */
+  .faw-restaurants-list-desciption-inner {
+    position: absolute;
+    top: 0.8em;
+    left: 0.8em;
+  }
+}
+/* line 72, ../../assets/scss/site/modules/_foodandwinerestaurantslist.scss */
+.faw-restaurants-list-desciption-inner h2 {
+  line-height: 0.9em;
+  padding-right: 0.5em;
+}
+/* line 76, ../../assets/scss/site/modules/_foodandwinerestaurantslist.scss */
+.faw-restaurants-list-desciption-inner p {
   margin: 0;
   line-height: 1.5em;
+  padding-right: 0.5em;
 }

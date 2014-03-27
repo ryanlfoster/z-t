@@ -27,10 +27,10 @@ public class Accolade {
 		Resource accoladeResource = request.getResource().getChild("accoladeList");
 		if (accoladeResource != null) {
 			for (Resource r : accoladeResource.getChildren()) {
-				ValueMap linkProps = r.adaptTo(ValueMap.class);
-				if (linkProps != null) {
-					String year = linkProps.get("year", StringUtils.EMPTY);
-					String title = linkProps.get("title", StringUtils.EMPTY);
+				ValueMap properties = r.adaptTo(ValueMap.class);
+				if (properties != null) {
+					String year = properties.get("year", StringUtils.EMPTY);
+					String title = properties.get("title", StringUtils.EMPTY);
 					AccoladeItem accolade = new AccoladeItem();
 					accolade.setYear(year);
 					accolade.setTitle(title);

@@ -1,0 +1,8 @@
+
+.makeyourtriphappen-container {
+  background: #FFF;
+  margin: 0 auto;
+    @include breakpoint(lg) {
+        padding-top: pxtoem(60px);
+    }
+}

@@ -1,0 +1,37 @@
+
+.line-through-container {
+  text-align: center;
+  display: table;
+  padding: 0 2em;
+  margin: 0 auto;
+}
+.line-through {
+  display: table-cell;
+  vertical-align: middle;
+}
+.line-through-hr {
+  border-top: 1px solid #4a3c31;
+  display: block;
+  position: relative;
+  width: 16px;
+}
+.line-through-container .line-through-container-biline {
+  font-family: "TAheadline", Helvetica, Arial, sans-serif;
+  letter-spacing: .015em;
+  font-size: 1.75em;
+  color: #4a3c31;
+  display: table-cell;
+  padding: 0 8px;
+}
+
+
+.text-line-wrapper {
+  &:before {
+    content: '\2014';
+    margin-right: pxtoem(16px);
+  }
+  &:after {
+    content: '\2014';
+    margin-left: pxtoem(16px);
+  }
+}

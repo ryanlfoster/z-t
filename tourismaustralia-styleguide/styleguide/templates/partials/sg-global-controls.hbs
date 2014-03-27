@@ -1,0 +1,59 @@
+<!--Begin Controls-->
+<div class="sg-controls" id="sg-controls">
+    <div class="sg-control-content">
+        <ul class="sg-control">
+
+            {{#if sg-templates}}
+                <li class="sg-nav-phases">
+                    <a href="#" class="sg-acc-handle sg-template-trigger">Templates</a>
+                    <ol class="sg-acc-panel">
+                        {{#each sg-templates.navigation}}
+                            <li class="sg-nav">
+
+                                {{#if this.item}}
+
+                                    <a href="#" class="sg-acc-handle">{{this.text}}</a>
+                                    <ol class="sg-acc-panel">
+                                        {{#each this.item}}
+                                            <li><a href="#{{this.text}}">{{this.name}}</a></li>
+                                        {{/each}}
+                                    </ol>
+
+                                {{else}}
+                                    <a href="#{{this.text}}">{{this.text}}</a>
+                                {{/if}}
+                            </li>
+                        {{/each}}
+                    </ol>
+                </li>
+            {{/if}}
+
+            <li class="sg-view">
+                <a href="#" class="sg-acc-handle sg-control-trigger" id="sg-t-toggle">View</a>
+                <ul class="sg-view sg-acc-panel" id="sg-view">
+                    <li><a href="#" id="sg-t-annotations">Annotations</a></li>
+                    <li><a href="#" id="sg-t-code">Code</a></li>
+                    <li><a href="#" id="sg-t-clean">Clean</a></li>
+                </ul>
+            </li>
+
+            <li class="sg-size">
+                <div class="sg-current-size"><form id="sg-form">Size <input type="text" class="sg-input sg-size-px" value="320">px / <input type="text" class="sg-input sg-size-em" value="20">em</form></div>
+                <ul class="sg-acc-panel sg-size-options">
+                    <li class="sg-quarter"><a href="#" id="sg-size-s">S</a></li>
+                    <li class="sg-quarter"><a href="#" id="sg-size-m">M</a></li>
+                    <li class="sg-quarter"><a href="#" id="sg-size-l">L</a></li>
+                    <li class="sg-quarter"><a href="#" id="sg-size-xl">XL</a></li>
+                    <li class="sg-half"><a href="#" id="sg-size-full">Full</a></li>
+                    <li class="sg-half"><a href="#" id="sg-size-random">Random</a></li>
+                    <li class="sg-half"><a href="#" class="mode-link" id="sg-size-disco">Disco</a></li>
+                    <li class="sg-half"><a href="#" class="mode-link" id="sg-size-hay">Hay!</a></li>
+                </ul>
+            </li>
+
+
+
+        </ul>
+    </div>
+</div>
+<!-- End Controls -->

@@ -1,0 +1,141 @@
+{
+    "navigation": [
+        {
+            "text" : "All"
+        },
+        {
+            "text": "Base",
+            "category": [
+                {
+                    "text": "Global",
+                    "item": [
+                        { "text": "colours" },
+                        { "text": "fonts"},
+                        { "text": "animations"},
+                        { "text": "visibility"}
+                    ]
+                },
+
+                {
+                    "text": "Text",
+                    "item": [
+                        { "text": "headings" },
+                        { "text": "paragraph"},
+                        { "text": "blockquote"},
+                        { "text": "module"},
+                        { "text": "inlineelements"},
+                        { "text": "time"},
+                        { "text": "preformattedtext"},
+                        { "text": "emphasiscolors"},
+                        { "text": "hr"},
+                        { "text": "caption"}
+                    ]
+                },
+                {
+                    "text": "Lists",
+                    "item": [
+                        { "text": "unorderedlist" },
+                        { "text": "orderedlist"},
+                        { "text": "definitionlist"}
+                    ]
+                },
+                {
+                    "text": "Images",
+                    "item": [
+                        { "text": "icon" },
+                        { "text": "logo" },
+                        { "text": "landscape_4x3"},
+                        { "text": "landscape_16x9"},
+                        { "text": "square"},
+                        { "text": "avatar"},
+                        { "text": "loadericon"},
+                        { "text": "favicon"}
+                    ]
+                },
+                {
+                    "text": "Forms",
+                    "item": [
+                        { "text": "textfields" },
+                        { "text": "selectmenu"},
+                        { "text": "checkbox"},
+                        { "text": "radiobuttons"},
+                        { "text": "html5inputs"}
+                    ]
+                },
+                {
+                    "text": "Buttons",
+                    "item": [
+                        { "text": "buttons" }
+                    ]
+                },
+                {
+                    "text": "Tables",
+                    "item": [
+                        { "text": "table" }
+                    ]
+                }
+            ]
+        },
+        {
+            "text": "Partials",
+            "category": [
+                {
+                    "text" : "General",
+                    "item": [
+                        { "text": "tagclouditem" },
+                        { "text": "home_explore_summary_map" },
+                        { "text": "mosaicitem" },
+                        { "text": "linethroughtext" },
+                        { "text": "dropdown" },
+                        { "text": "sectionintro" },
+                        { "text": "whatyoucansee" }
+                    ]
+                }
+            ]
+        },
+        {
+            "text": "Components",
+            "category": [
+                {
+                    "text" : "Layout",
+                    "item": [
+                        { "text": "mosaic_whatscomingup" },
+                        { "text": "carousel_standard" },
+                        { "text": "carousel_mobile" }
+                    ]
+                }
+            ]
+        },
+        {
+            "text": "Modules",
+            "category": [
+                {
+                    "text" : "All",
+                    "item": [
+                        { "text": "nojs" },
+                        { "text": "makeyourtriphappen" },
+                        { "text": "footer" },
+                        { "text": "breadcrumbs"},
+                        { "text": "categorylinks" },
+                        { "text": "explore" },
+                        { "text": "favourite" },
+                        { "text": "homehero" },
+                        { "text": "mapcitylink" },
+                        { "text": "image_with_button" },
+                        { "text": "image_with_date" },
+                        { "text": "mapwithlinkstate" },
+                        { "text": "mapwithlinkcity" },
+                        { "text": "hr" },
+                        { "text": "shareicons"},
+                        { "text": "specialoffer" },
+                        { "text": "summary" },
+                        { "text": "tagcloud" },
+                        { "text": "text" },
+                        { "text": "whatyoucansee_city" },
+                        { "text": "whatyoucansee_state" }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+---
+title: Mosaic Item Detail
+---
+
+<div class="mosaic-item-detail-container">
+    <div class="mosaic-item-container">
+
+        <div class="l-h-center type-spacing-20">
+            <img src="imgs/icons/art_culture.png">
+        </div>
+
+        {{#parseJSON '{"copy": "Virgin Australia Fashion Festival"}'}}
+            {{> linethroughtext }}
+        {{/parseJSON}}
+
+        <div class="l-h-center l-padding-tb-30-lr-15">
+
+            <p>You’ll love the blue-hazed beauty of the Blue Mountains World Heritage Area – one million hectares of tall forests, sandstone cliffs, canyons, waterfalls and bushland. Take in the breathtaking panoramas...</p>
+            <p><a href="#">View more information</a></p>
+
+            <a href="#" class="btn-bubble bubble-colour-favourite">
+                <span class="btn-bubble-tooltip">
+                    <span class="btn-bubble-tooltip-container">
+                        Add to your dream trip
+                    </span>
+                </span>
+                <span class="btn-bubble-button">
+                    <img class="btn-bubble-std" src="imgs/icons/favourite_outline.png" alt=""/>
+                    <img class="btn-bubble-active" src="imgs/icons/favourite.png" alt=""/>
+                </span>
+            </a>
+
+        </div>
+    </div>
+</div>

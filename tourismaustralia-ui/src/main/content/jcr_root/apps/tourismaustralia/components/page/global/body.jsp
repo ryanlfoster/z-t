@@ -5,4 +5,7 @@
 	<cq:include path="clientcontext" resourceType="cq/personalization/components/clientcontext"/>
 	<cq:include script="customProperties.jsp"/>
 	<cq:include script="content.jsp"/>
+
+    <cq:includeClientLib js="ta"/>
+
 </body>

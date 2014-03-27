@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+    <title>{{title}}</title>
+
+    <!-- Owl Carousel Assets -->
+    <link href="js/vendor/owl-carousel/owl.carousel.css" rel="stylesheet">
+    <link href="js/vendor/owl-carousel/owl.theme.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styleguide.css" />
+
+    <!--[if lte IE 8]>
+    <link href="css/screen-ie8.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <![endif]-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <script src="js/vendor/modernizr-2.7.1.js"></script>
+
+    <script type="application/javascript">
+        // IE console.log disable errors
+        if ( typeof console === "undefined" || typeof console.log === "undefined") {
+            console = {};
+            console.log = function() {
+            };
+        }
+    </script>
+
+    <script type="text/javascript" src="js/vendor/jquery.js"></script>
+
+    <!--
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-iPvGM74PMdaT4Rot4m5VnW5UnPSBnag&sensor=true"></script>
+    -->
+
+</head>
+<body class="sg-nav-wrapper">
+<!--[if lt IE 9]>
+    <link rel="stylesheet" type="text/css" href="js/vendor/respond.js" />
+<![endif]-->
+
+<!--Style Guide Header-->
+<header class="sg-header" role="banner">
+       {{> sg-global-navigation }}
+       {{> sg-global-controls }}
+</header>
+<!-- //Style Guide Header-->
+
+    {{> body}}
+
+<!-- Iframe -->
+<div id="sg-vp-wrap">
+    <div id="sg-cover"></div>
+    <div id="sg-gen-container">
+        <iframe id="sg-viewport" src="all.html"></iframe>
+        <div id="sg-rightpull-container">
+            <div id="sg-rightpull"></div>
+        </div>
+    </div>
+</div>
+<!--end iFrame-->
+
+    <script type="text/javascript" src="js/src/data-saver.js"></script>
+    <script type="text/javascript" src="js/src/styleguide.js"></script>
+    <script type="text/javascript" src="js/vendor/jquery.swipe.js"></script>
+    
+    <!--module js imports
+    <script src="js/src/helper/dataTags.js"></script>
+    <script src="js/src/helper/stacticMapUrlConverter.js"></script>
+    <script src="js/src/modules/jquery.ta.carousel.js"></script>
+    <script src="js/src/modules/jquery.ta.custommap.js"></script>
+    -->
+
+    <script type="text/javascript" src="js/vendor/owl-carousel/owl.carousel.js"></script>
+    <script src="js/src/modules/jquery.ta.carousel.js"></script>
+
+    <script src="js/src/modules/jquery.ta.flipcard.js"></script>
+    <script src="js/src/modules/jquery.ta.mosaic.js"></script>
+
+</body>
+</html>

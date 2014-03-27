@@ -11,6 +11,7 @@ import org.apache.sling.api.resource.ValueMap;
 
 import com.australia.foodandwine.link.IconTextLink;
 import com.australia.foodandwine.link.TextLink;
+import com.australia.utils.LinkUtils;
 import com.australia.utils.PathUtils;
 import com.australia.widgets.multicomposite.MultiCompositeField;
 import com.citytechinc.cq.component.annotations.Component;
@@ -109,7 +110,7 @@ public class Footer {
 			Iterable<Resource> resources = footerResource.getChild(linksColumn).getChildren();
 			for (Resource r : resources) {
 				ValueMap linkProps = r.adaptTo(ValueMap.class);
-				String pagePath = linkProps.get("pagePath", StringUtils.EMPTY);
+				String pagePath = LinkUtils.getHrefFromPath(linkProps.get("pagePath", StringUtils.EMPTY));
 				String linkText = linkProps.get("linkText", StringUtils.EMPTY);
 				String iconImage = linkProps.get("iconImage", StringUtils.EMPTY);
 				IconTextLink link = new IconTextLink();

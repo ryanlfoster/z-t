@@ -24,16 +24,18 @@ public class Accolade {
 
 	public Accolade(SlingHttpServletRequest request) {
 		accoladeList = new ArrayList<AccoladeItem>();
-		Iterable<Resource> resources = request.getResource().getChild("accoladeList").getChildren();
-		for (Resource r : resources) {
-			ValueMap linkProps = r.adaptTo(ValueMap.class);
-			if (linkProps != null) {
-				String year = linkProps.get("year", StringUtils.EMPTY);
-				String title = linkProps.get("title", StringUtils.EMPTY);
-				AccoladeItem accolade = new AccoladeItem();
-				accolade.setYear(year);
-				accolade.setTitle(title);
-				accoladeList.add(accolade);
+		Resource accoladeResource = request.getResource().getChild("accoladeList");
+		if (accoladeResource != null) {
+			for (Resource r : accoladeResource.getChildren()) {
+				ValueMap linkProps = r.adaptTo(ValueMap.class);
+				if (linkProps != null) {
+					String year = linkProps.get("year", StringUtils.EMPTY);
+					String title = linkProps.get("title", StringUtils.EMPTY);
+					AccoladeItem accolade = new AccoladeItem();
+					accolade.setYear(year);
+					accolade.setTitle(title);
+					accoladeList.add(accolade);
+				}
 			}
 		}
 	}

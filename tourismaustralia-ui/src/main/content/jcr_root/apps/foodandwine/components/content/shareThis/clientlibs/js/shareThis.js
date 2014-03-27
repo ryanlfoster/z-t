@@ -1,4 +1,4 @@
-CQ_Analytics.ClientContextMgr.addListener("storesinitialize", function (e) {
+
 
 	$('.shareThisFawHolder').each(function () { 
 		$this = $(this);
@@ -57,6 +57,5 @@ CQ_Analytics.ClientContextMgr.addListener("storesinitialize", function (e) {
 			});		
 		}
 	}
-	
-});
+
 

@@ -12,14 +12,14 @@
 			<div class="head-divider-inner">
 				<hr class="icon-logo-withlines-hr icon-logo-withlines-hr-small">
 				<h5>
-					<img src="${otherExperiences.logoPath}"
+					<img src="/etc/designs/foodandwine/clientlibs/imgs/base/header-map-icon.png"
 						style="width: 60px; height: 59px" />
 				</h5>
 				<hr class="icon-logo-withlines-hr icon-logo-withlines-hr-small">
 			</div>
 		</div>
-		<h5 class='experiences-headline'>${otherExperiences.smallTextTitle }</h5>
-		<h2>${otherExperiences.largeTextTitle }</h2>
+		<h5 class='experiences-headline'>Other Experiences in</h5>
+		<h2>${otherExperiences.stateTitle }</h2>
 		<hr class="divider-small">
 		<div class="faw-experience">
 			<div class='faw-experience-outer'>
@@ -30,33 +30,29 @@
 						<c:forEach items="${otherExperiences.articlesList}" var="item">
 							<li class="item">
 								<ul class="imagecarousel-item">
-									<li><a href="#">
+									<li><a href="${item.path }">
 											<div class='mosaic-item'>
-												<img src="${item.articleImage }"
+												<img src="${item.image }"
 													style="width: 268px; height: 268px" />
 												<div class='mosaic-item-description'>
 													<p class="mosaic-item-description-head type-font-feature">
-														${item.articleTitle }</p>
-													<p class="mosaic-item-description-sub">${item.articleSubTitle }</p>
-													<p class="mosaic-item-description-copy">
-														${item.articleDescription }<br> <br> <a
-															href="${item.articlePath}"><strong>Read more</strong></a>
-													</p>
+														${item.title }</p>
+													<p class="mosaic-item-description-sub">${item.state}</p>
 												</div>
 												<div class='mosaic-item-overlay mosaic-item-overlay-info'>
 													<div class='mosaic-item-overlay-info-icon'>
 														<span class="mosaic-item-overlay-info-icon-item"><img
-															src="${item.articleOverLayLogoPath }"
+															src="${item.icon }"
 															style="width: 80px; height: 56px" alt=""></span>
 														<p class="mosaic-item-overlay-info-head type-font-feature">
-															${item.articleTitle }</p>
-														<p class="mosaic-item-overlay-info-desciption">${item.articleSubTitle }<br>
-															<br> <a href='${item.articlePath}'><strong>Find
+															${item.title }</p>
+														<p class="mosaic-item-overlay-info-desciption">${item.city }, ${item.state }<br>
+															<br> <a href='${item.path}'><strong>Find
 																	out more</strong></a>
 														</p>
 													</div>
 													<p class="mosaic-item-overlay-info-categories">
-														<strong>${item.articleOverlayText }</strong>
+														<strong>${fn:join(item.tags,',')}...</strong>
 													</p>
 												</div>
 											</div>

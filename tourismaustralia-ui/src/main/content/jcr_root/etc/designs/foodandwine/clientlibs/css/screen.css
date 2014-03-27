@@ -9017,72 +9017,88 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
 }
 
 /* line 7, ../../assets/scss/site/modules/_sponsors.scss */
+.sponsors-wrapper {
+  text-decoration: none;
+}
+/* line 10, ../../assets/scss/site/modules/_sponsors.scss */
+.sponsors-wrapper:hover {
+  text-decoration: none;
+}
+
+/* line 15, ../../assets/scss/site/modules/_sponsors.scss */
 .sponsors-item {
   text-align: center;
 }
 
-/* line 10, ../../assets/scss/site/modules/_sponsors.scss */
+/* line 18, ../../assets/scss/site/modules/_sponsors.scss */
 .sponsors-item-video {
   text-align: center;
 }
 
-/* line 13, ../../assets/scss/site/modules/_sponsors.scss */
+/* line 21, ../../assets/scss/site/modules/_sponsors.scss */
 .sponsors-item a {
   font-family: "ProximaNova Bold", Helvetica, Arial, sans-serif;
   color: #040000;
 }
-/* line 16, ../../assets/scss/site/modules/_sponsors.scss */
+/* line 24, ../../assets/scss/site/modules/_sponsors.scss */
 .sponsors-item a:hover, .sponsors-item a:focus {
   color: #333333;
 }
 
-/* line 20, ../../assets/scss/site/modules/_sponsors.scss */
+/* line 28, ../../assets/scss/site/modules/_sponsors.scss */
 .video-play-icon a {
   font-family: 'foodWineIcons';
 }
 
-/* line 23, ../../assets/scss/site/modules/_sponsors.scss */
+/* line 31, ../../assets/scss/site/modules/_sponsors.scss */
 .sponsors-item p {
   font-size: 1.125em;
   line-height: 1.17647em;
   padding: 0 3.5em;
 }
 
-/* line 28, ../../assets/scss/site/modules/_sponsors.scss */
+/* line 36, ../../assets/scss/site/modules/_sponsors.scss */
 .sponsors-row-1 {
   line-height: 6.25em;
 }
 
-/* line 31, ../../assets/scss/site/modules/_sponsors.scss */
+/* line 39, ../../assets/scss/site/modules/_sponsors.scss */
 .sponsors-row-2 {
   margin: 0 auto;
   text-align: center;
   max-width: 23.75em;
 }
 
-/* line 36, ../../assets/scss/site/modules/_sponsors.scss */
+/* line 44, ../../assets/scss/site/modules/_sponsors.scss */
 .sponsors-image {
   max-width: 100%;
 }
 
-/* line 39, ../../assets/scss/site/modules/_sponsors.scss */
+/* line 47, ../../assets/scss/site/modules/_sponsors.scss */
 .sponsors-hr {
   margin: 0 auto;
   width: 14.125em;
 }
 
-/* line 43, ../../assets/scss/site/modules/_sponsors.scss */
+/* line 51, ../../assets/scss/site/modules/_sponsors.scss */
 .sponsors-type-title {
   font-family: "TAheadline", Helvetica, Arial, sans-serif;
   font-size: 2.25em;
   line-height: 1em;
   vertical-align: bottom;
   display: inline-block;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
 
-/* line 50, ../../assets/scss/site/modules/_sponsors.scss */
+/* line 60, ../../assets/scss/site/modules/_sponsors.scss */
 .sponsors-image-link-container {
   min-height: 13.2em;
+}
+
+/* line 63, ../../assets/scss/site/modules/_sponsors.scss */
+.sponsors-description {
+  text-decoration: none !important;
 }
 
 /* line 3, ../../assets/scss/site/modules/_calltoaction.scss */
@@ -10021,78 +10037,78 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   text-align: center;
   overflow: hidden;
 }
-/* line 6, ../../assets/scss/site/modules/_article.scss */
+/* line 5, ../../assets/scss/site/modules/_article.scss */
 .faw-article .category-item {
   min-width: 60px !important;
 }
-/* line 10, ../../assets/scss/site/modules/_article.scss */
+/* line 9, ../../assets/scss/site/modules/_article.scss */
 .faw-article .btn-round.is-active {
   width: 60px !important;
   height: 60px !important;
   padding-top: 0.2em !important;
   font-size: 2.6em !important;
 }
-/* line 14, ../../assets/scss/site/modules/_article.scss */
+/* line 13, ../../assets/scss/site/modules/_article.scss */
 .faw-article .btn-round.is-active img {
   width: 40px;
 }
 @media (min-width: 768px) {
-  /* line 10, ../../assets/scss/site/modules/_article.scss */
+  /* line 9, ../../assets/scss/site/modules/_article.scss */
   .faw-article .btn-round.is-active {
     width: 100px !important;
     height: 100px !important;
     padding-top: 12px !important;
     font-size: 3.5em !important;
   }
-  /* line 27, ../../assets/scss/site/modules/_article.scss */
+  /* line 26, ../../assets/scss/site/modules/_article.scss */
   .faw-article .btn-round.is-active img {
     width: 80px;
   }
 }
-/* line 33, ../../assets/scss/site/modules/_article.scss */
+/* line 32, ../../assets/scss/site/modules/_article.scss */
 .faw-article .category-title {
   font-size: 0.9em !important;
 }
 @media (min-width: 768px) {
-  /* line 33, ../../assets/scss/site/modules/_article.scss */
+  /* line 32, ../../assets/scss/site/modules/_article.scss */
   .faw-article .category-title {
     font-size: 1em !important;
   }
 }
-/* line 41, ../../assets/scss/site/modules/_article.scss */
+/* line 40, ../../assets/scss/site/modules/_article.scss */
 .faw-article .form-biline-container {
   margin-bottom: 1em !important;
 }
 @media (min-width: 768px) {
-  /* line 41, ../../assets/scss/site/modules/_article.scss */
+  /* line 40, ../../assets/scss/site/modules/_article.scss */
   .faw-article .form-biline-container {
     margin-bottom: 3em !important;
   }
 }
 
-/* line 49, ../../assets/scss/site/modules/_article.scss */
+/* line 48, ../../assets/scss/site/modules/_article.scss */
+.faw-article-text-container {
+  max-width: 750px;
+  display: inline-block;
+}
+
+/* line 53, ../../assets/scss/site/modules/_article.scss */
 .faw-article-quotes {
   font-size: 2em;
   line-height: 1em;
   margin-top: 0.5em;
 }
 @media (min-width: 768px) {
-  /* line 49, ../../assets/scss/site/modules/_article.scss */
+  /* line 53, ../../assets/scss/site/modules/_article.scss */
   .faw-article-quotes {
     margin-top: 1.5em;
     font-size: 2.5em;
   }
 }
 
-/* line 60, ../../assets/scss/site/modules/_article.scss */
+/* line 64, ../../assets/scss/site/modules/_article.scss */
 .faw-article-share-icons {
   margin-top: 1em;
-}
-@media (min-width: 768px) {
-  /* line 60, ../../assets/scss/site/modules/_article.scss */
-  .faw-article-share-icons {
-    margin-bottom: 3em;
-  }
 }
 /* line 67, ../../assets/scss/site/modules/_article.scss */
 .faw-article-share-icons a {
@@ -10134,75 +10150,65 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
 }
 
 /* line 100, ../../assets/scss/site/modules/_article.scss */
-.faw-article-copy {
-  max-width: 750px;
-  display: inline-block;
-  padding: 0.5em;
-  padding-top: 0;
-  margin-top: 0;
-  font-size: 1.1em;
-}
-
-/* line 109, ../../assets/scss/site/modules/_article.scss */
 .divider-small {
   max-width: 220px;
 }
 
-/* line 113, ../../assets/scss/site/modules/_article.scss */
+/* line 104, ../../assets/scss/site/modules/_article.scss */
 .faw-article-share-round {
   margin-top: -2.4em;
 }
 
 /* SHARE OVERRIDES */
-/* line 120, ../../assets/scss/site/modules/_article.scss */
+/* line 111, ../../assets/scss/site/modules/_article.scss */
 .st_email_large .stButton .stLarge {
   background-image: url("../imgs/base/share/share-round-mail.png") !important;
   width: 52px;
   height: 52px;
 }
-/* line 125, ../../assets/scss/site/modules/_article.scss */
+/* line 116, ../../assets/scss/site/modules/_article.scss */
 .st_email_large .stButton .stLarge:hover {
   background-position: 0 0 !important;
   background-image: url("../imgs/base/share/share-round-mail-black.png") !important;
 }
 
-/* line 135, ../../assets/scss/site/modules/_article.scss */
+/* line 126, ../../assets/scss/site/modules/_article.scss */
 .st_facebook_large .stButton .stLarge {
   background-image: url("../imgs/base/share/share-round-fb.png") !important;
   width: 52px;
   height: 52px;
 }
-/* line 140, ../../assets/scss/site/modules/_article.scss */
+/* line 131, ../../assets/scss/site/modules/_article.scss */
 .st_facebook_large .stButton .stLarge:hover {
   background-position: 0 0 !important;
   background-image: url("../imgs/base/share/share-round-fb-black.png") !important;
 }
 
-/* line 150, ../../assets/scss/site/modules/_article.scss */
+/* line 141, ../../assets/scss/site/modules/_article.scss */
 .st_twitter_large .stButton .stLarge {
   background-image: url("../imgs/base/share/share-round-twitter.png") !important;
   width: 52px;
   height: 52px;
 }
-/* line 155, ../../assets/scss/site/modules/_article.scss */
+/* line 146, ../../assets/scss/site/modules/_article.scss */
 .st_twitter_large .stButton .stLarge:hover {
   background-position: 0 0 !important;
   background-image: url("../imgs/base/share/share-round-twitter-black.png") !important;
 }
 
-/* line 164, ../../assets/scss/site/modules/_article.scss */
+/* line 155, ../../assets/scss/site/modules/_article.scss */
 .faw-bookmark-icon .faw-bookmark-icon-black {
   display: none;
 }
-/* line 167, ../../assets/scss/site/modules/_article.scss */
+/* line 158, ../../assets/scss/site/modules/_article.scss */
 .faw-bookmark-icon .faw-bookmark-icon-light {
   display: inline-block;
 }
-/* line 173, ../../assets/scss/site/modules/_article.scss */
+/* line 164, ../../assets/scss/site/modules/_article.scss */
 .faw-bookmark-icon:hover .faw-bookmark-icon-black {
   display: inline-block;
 }
-/* line 176, ../../assets/scss/site/modules/_article.scss */
+/* line 167, ../../assets/scss/site/modules/_article.scss */
 .faw-bookmark-icon:hover .faw-bookmark-icon-light {
   display: none;
 }
@@ -11010,37 +11016,36 @@ progress[value]::-webkit-progress-value {
 /* line 1, ../../assets/scss/site/modules/_custommap.scss */
 .custommap {
   width: 100%;
-  height: 400px;
 }
-/* line 5, ../../assets/scss/site/modules/_custommap.scss */
+/* line 4, ../../assets/scss/site/modules/_custommap.scss */
 .custommap img {
   width: 100%;
   max-width: 500px;
   padding: 0.5em;
 }
 @media (min-width: 768px) {
-  /* line 5, ../../assets/scss/site/modules/_custommap.scss */
+  /* line 4, ../../assets/scss/site/modules/_custommap.scss */
   .custommap img {
     width: auto;
   }
 }
 
-/* line 16, ../../assets/scss/site/modules/_custommap.scss */
+/* line 15, ../../assets/scss/site/modules/_custommap.scss */
 .custommap-description {
   margin-top: -4em;
   margin-left: 0;
 }
-/* line 21, ../../assets/scss/site/modules/_custommap.scss */
+/* line 20, ../../assets/scss/site/modules/_custommap.scss */
 .custommap-description p {
   font-size: 1.1em;
   margin: 0;
   padding: 0;
 }
-/* line 26, ../../assets/scss/site/modules/_custommap.scss */
+/* line 25, ../../assets/scss/site/modules/_custommap.scss */
 .custommap-description a {
   font-size: 1.1em;
 }
-/* line 30, ../../assets/scss/site/modules/_custommap.scss */
+/* line 29, ../../assets/scss/site/modules/_custommap.scss */
 .custommap-description .custommap-description-head {
   margin-top: 1em !important;
 }

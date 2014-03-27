@@ -37,8 +37,7 @@
 								</div>
 								<p class='faw-carousel-copy'>${item.carouselHeaderLockupDescription }</p>
 								<p>
-									<a href="${item.carouselButtonTextLink }"
-										class="btn-secondary btn-small">${item.carouselButtonText }</a>
+									<a href="${item.carouselButtonTextLink }" class="btn-secondary btn-small" ${item.external? 'target=\"_BLANK"\"' : ''}>${item.carouselButtonText }</a>
 								</p>
 							</div> <!-- END: FOOD AND WINE CAROUSEL ITEM -->
 						</li>

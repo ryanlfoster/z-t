@@ -12,14 +12,14 @@ import com.citytechinc.cq.component.annotations.widgets.PathField;
  */
 public class SponsorsSpaceProperties {
 
-	@DialogField(fieldLabel = "Sponsor's Big Title", name = "bigTitle", required = true, fieldDescription = " The Maximum characters for this field is 300", additionalProperties = @FieldProperty(name = "maxLength", value = "300"))
+	@DialogField(fieldLabel = "Sponsor's Big Title", name = "bigTitle", required = true, additionalProperties = @FieldProperty(name = "maxLength", value = "300"))
 	private final String bigTitle;
 	@DialogField(fieldLabel = "Sponsor's Image/Video Image", required = true, name = "imagePath")
 	@PathField(rootPath = "/content/dam")
 	private final String imagePath;
-	@DialogField(fieldLabel = "Image Caption", name = "imageTitle", fieldDescription = " The Maximum characters for this field is 200", additionalProperties = @FieldProperty(name = "maxLength", value = "200"))
+	@DialogField(fieldLabel = "Image Caption", name = "imageTitle", additionalProperties = @FieldProperty(name = "maxLength", value = "200"))
 	private final String imageTitle;
-	@DialogField(fieldLabel = "Link Text", name = "linkText", fieldDescription = " The Maximum characters for this field is 50", additionalProperties = @FieldProperty(name = "maxLength", value = "50"))
+	@DialogField(fieldLabel = "Link Text", name = "linkText", additionalProperties = @FieldProperty(name = "maxLength", value = "50"))
 	private final String linkText;
 	@DialogField(fieldLabel = "Link Text Path", name = "linkTextPath", fieldDescription = "For external links please use prefix http:// or https:// (eg. http://www.google.com)")
 	@PathField

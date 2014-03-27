@@ -19,12 +19,14 @@ public class CarouselProperties {
 	@TextArea
 	private String carouselHeaderLockupDescription;
 
-	@DialogField(fieldLabel = "Courosel Button Text", name = "buttonText",fieldDescription="If empty Default text is set to 'Find Out More'")
+	@DialogField(fieldLabel = "Courosel Button Text", name = "buttonText", fieldDescription = "If empty Default text is set to 'Find Out More'")
 	private String carouselButtonText;
 
 	@DialogField(fieldLabel = "Courosel Button Text Link", name = "buttonTextLink")
 	@PathField
 	private String carouselButtonTextLink;
+
+	private boolean external;
 
 	public String getCarouselHeaderLockupSmallTitle() {
 		return carouselHeaderLockupSmallTitle;
@@ -66,4 +68,11 @@ public class CarouselProperties {
 		this.carouselButtonTextLink = carouselButtonTextLink;
 	}
 
+	public void setExternal(boolean external) {
+		this.external = external;
+	}
+
+	public boolean isExtenral() {
+		return external;
+	}
 }

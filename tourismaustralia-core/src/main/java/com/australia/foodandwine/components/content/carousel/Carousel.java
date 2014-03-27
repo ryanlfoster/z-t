@@ -10,7 +10,7 @@ import org.apache.sling.api.resource.ValueMap;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.australia.foodandwine.components.constants.CQJCRConstants;
+import com.australia.utils.LinkUtils;
 import com.australia.widgets.multicomposite.MultiCompositeField;
 import com.citytechinc.cq.component.annotations.Component;
 import com.citytechinc.cq.component.annotations.DialogField;
@@ -60,14 +60,15 @@ public class Carousel {
 				String carouselHeaderLockupLargeTitle = carouselProps.get(LARGE_TEXT, StringUtils.EMPTY);
 				String carouselHeaderLockupDescription = carouselProps.get(DESCRIPTION, StringUtils.EMPTY);
 				String carouselButtonText = carouselProps.get(BUTTON_TEXT, DEFAULT_BUTTON_TEXT);
-				String carouselButtonTextLink = carouselProps.get(BUTTON_TEXT_LINK, StringUtils.EMPTY)
-					+ CQJCRConstants.HTML_EXTENSION;
+				String carouselButtonTextLink = LinkUtils.getHrefFromPath(carouselProps.get(BUTTON_TEXT_LINK,
+					StringUtils.EMPTY));
 
 				carouselProperties.setCarouselHeaderLockupSmallTitle(carouselHeaderLockupSmallTitle);
 				carouselProperties.setCarouselHeaderLockupLargeTitle(carouselHeaderLockupLargeTitle);
 				carouselProperties.setCarouselHeaderLockupDescription(carouselHeaderLockupDescription);
 				carouselProperties.setCarouselButtonText(carouselButtonText);
 				carouselProperties.setCarouselButtonTextLink(carouselButtonTextLink);
+				carouselProperties.setExternal(LinkUtils.isExternal(carouselButtonTextLink));
 				carouselList.add(carouselProperties);
 			}
 		} catch (Exception e) {

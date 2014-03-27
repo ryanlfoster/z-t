@@ -7,13 +7,13 @@ import com.citytechinc.cq.component.annotations.widgets.PathField;
 
 public class IconTextLink {
 
-	@DialogField(fieldLabel = "Description", additionalProperties = @FieldProperty(name = "anchor", value = "100%"))
+	@DialogField(fieldLabel = "Description", required = true, additionalProperties = @FieldProperty(name = "anchor", value = "100%"))
 	private String linkText;
 
-	@DialogField(fieldLabel = "Link Path", additionalProperties = @FieldProperty(name = "anchor", value = "100%"))
+	@DialogField(fieldLabel = "Link Path", required = true, additionalProperties = @FieldProperty(name = "anchor", value = "100%"))
 	private String pagePath;
 
-	@DialogField(fieldLabel = "Icon Image", additionalProperties = @FieldProperty(name = "anchor", value = "100%"))
+	@DialogField(fieldLabel = "Icon Image", required = true, additionalProperties = @FieldProperty(name = "anchor", value = "100%"))
 	@PathField(rootPath = "/content/dam")
 	private String iconImage;
 

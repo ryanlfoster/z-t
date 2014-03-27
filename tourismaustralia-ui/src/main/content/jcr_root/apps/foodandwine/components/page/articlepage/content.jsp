@@ -4,12 +4,6 @@
 		<!-- test background for testing, whow the transparent menu respons -->
 		<div class='form-hero'>
 		<div class="faw-hero-home-container">
-			<div class="icon-logo-withlines-container">
-		    	<hr class="icon-logo-withlines-hr">
-		    	<span href="#" class="icon-logo-withlines-logo btn-restaurant-australia-logo icon-font-logo"></span>
-		    	<hr class="icon-logo-withlines-hr">
-			</div>
-	
 			<cq:include path="articleTitle" resourceType="foodandwine/components/content/articleTitle" />
 			<cq:include path="category" resourceType="foodandwine/components/content/category" />
 			<h3 class="faw-article-healdine">${currentPage.description}</h3>

@@ -15,6 +15,7 @@ public class ServerUtils {
 
 	public static final String AUTHOR = "author";
 	public static final String PUBLISH = "publish";
+	public static final String LOCAL = "local";
 
 	public static String getServerURL(SlingSettingsService slingSettings, ServerNameService serverNameService,
 		SlingHttpServletRequest request) {
@@ -57,6 +58,10 @@ public class ServerUtils {
 
 	public static boolean isAuthor(SlingSettingsService slingSettings) {
 		return slingSettings.getRunModes().contains(AUTHOR);
+	}
+
+	public static boolean isLocal(SlingSettingsService slingSettings) {
+		return slingSettings.getRunModes().contains(LOCAL);
 	}
 
 }

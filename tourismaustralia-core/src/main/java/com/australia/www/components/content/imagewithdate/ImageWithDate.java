@@ -27,7 +27,7 @@ public class ImageWithDate {
     private String altText;
 
     @DialogField(fieldLabel = "Make text white", required = false, tab = 2)
-    @Selection(type = Selection.CHECKBOX, options = @Option(value = "false"))
+    @Selection(type = Selection.CHECKBOX, options = @Option(value = "true"))
     private boolean makeTextWhite;
 
     @DialogField(fieldLabel = "Date", required = false, tab = 2)
@@ -56,7 +56,7 @@ public class ImageWithDate {
         return image;
     }
 
-    public Boolean getMakeTextWhite() {
+    public boolean isMakeTextWhite() {
         return makeTextWhite;
     }
 

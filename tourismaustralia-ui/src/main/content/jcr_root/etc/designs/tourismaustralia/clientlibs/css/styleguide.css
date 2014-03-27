@@ -1,0 +1,7909 @@
+/*------------------------------------*\
+    $STYLE GUIDE CONTAINER STYLES
+\*------------------------------------*/
+/**
+ * NOTE: These styles are specific to the style guide container and should not be modified.
+ * Use style.scss for all content styles that don't pertain to the style guide container.
+ *
+ * Second note: Any important declarations are to prevent brand styles from overriding style guide
+ */
+/*------------------------------------*\
+    $CONTENTS
+\*------------------------------------*/
+/**
+ * STYLE GUIDE VARIABLES------------------Declarations of Sass variables
+ * -----Font
+ * -----Colors
+ * -----Typography
+ * -----Defaults
+ * -----Breakpoints
+ * MIXINS---------------------------------Sass mixins
+ * RESET----------------------------------Set reset defaults
+ * GLOBAL ELEMENTS------------------------Establish global styles
+ * -----Main
+ * -----Headings
+ * -----Text-related elements (p, blockquote, lists)
+ * -----Defaults
+ * -----Breakpoints
+ * STYLE GUIDE INTERFACE------------------CSS for the Style Guide Container. Should not influence the containing styles at all.
+ * -----Header
+ * -----Navigation
+ * -----Controls
+ * -----Main Container
+ * -----Viewport
+ * -----Section Headers
+ * -----Code View
+ */
+/*------------------------------------*\
+    $STYLE GUIDE VARIABLES
+\*------------------------------------*/
+/*Fonts*/
+/* Style Guide Interface Colors */
+/* Typography */
+/* Defaults */
+/* Dimensions */
+/* Breakpoints */
+/*------------------------------------*\
+    $STYLE GUIDE MIXINS
+\*------------------------------------*/
+/*------------------------------------*\
+    $STYLE GUIDE INTERFACE
+\*------------------------------------*/
+/* line 108, ../../styleguide/scss/site/_styleguide.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* line 114, ../../styleguide/scss/site/_styleguide.scss */
+.sg-nav-wrapper {
+  overflow: hidden;
+  background: #dddddd;
+}
+
+/*------------------------------------*\
+    $STYLE GUIDE HEADER
+\*------------------------------------*/
+/* Header */
+/* line 127, ../../styleguide/scss/site/_styleguide.scss */
+.sg-header {
+  background: #222222;
+  color: white;
+  font-family: "HelveticaNeue", "Helvetica", "Arial", sans-serif;
+  text-transform: uppercase;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  -webkit-box-shadow: inset 0 1px 0 #5f6164, inset 0 -1px 0 #2e2f2f, 0 1px 3px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: inset 0 1px 0 #5f6164, inset 0 -1px 0 #2e2f2f, 0 1px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 1px 0 #5f6164, inset 0 -1px 0 #2e2f2f, 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+/* line 142, ../../styleguide/scss/site/_styleguide.scss */
+.sg-header * {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 148, ../../styleguide/scss/site/_styleguide.scss */
+.sg-header ul, .sg-header ol {
+  padding: 0;
+  margin: 0;
+}
+/* line 153, ../../styleguide/scss/site/_styleguide.scss */
+.sg-header li {
+  list-style: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+/* line 157, ../../styleguide/scss/site/_styleguide.scss */
+.sg-header a {
+  font-size: 70%;
+  color: gray;
+  text-decoration: none;
+  display: block;
+  line-height: 1;
+  padding: 1em;
+  -webkit-transition: background 0.15s ease-out;
+  -moz-transition: background 0.15s ease-out;
+  -ms-transition: background 0.15s ease-out;
+  -o-transition: background 0.15s ease-out;
+  transition: background 0.15s ease-out;
+  -webkit-transition: color 0.15s ease-out;
+  -moz-transition: color 0.15s ease-out;
+  -ms-transition: color 0.15s ease-out;
+  -o-transition: color 0.15s ease-out;
+  transition: color 0.15s ease-out;
+}
+/* line 167, ../../styleguide/scss/site/_styleguide.scss */
+.sg-header a:hover, .sg-header a:focus, .sg-header a.active {
+  color: white;
+  background: rgba(255, 255, 255, 0.05);
+}
+/* line 174, ../../styleguide/scss/site/_styleguide.scss */
+.sg-header ol ol ol a {
+  text-transform: none;
+  padding-left: 2em;
+}
+
+/* Navigation */
+/* line 184, ../../styleguide/scss/site/_styleguide.scss */
+.sg-header .sg-nav-toggle {
+  padding: 1em;
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+  position: relative;
+  z-index: 2;
+}
+@media all and (min-width: 44em) {
+  /* line 184, ../../styleguide/scss/site/_styleguide.scss */
+  .sg-header .sg-nav-toggle {
+    display: none;
+  }
+}
+
+@media all and (max-width: 44em) {
+  /* line 194, ../../styleguide/scss/site/_styleguide.scss */
+  .sg-nav-container {
+    overflow: hidden;
+    max-height: 0;
+    -webkit-transition: max-height 0.5s ease-out;
+    -moz-transition: max-height 0.5s ease-out;
+    -ms-transition: max-height 0.5s ease-out;
+    -o-transition: max-height 0.5s ease-out;
+    transition: max-height 0.5s ease-out;
+  }
+  /* line 200, ../../styleguide/scss/site/_styleguide.scss */
+  .sg-nav-container.active {
+    max-height: 50em;
+  }
+}
+
+/* line 206, ../../styleguide/scss/site/_styleguide.scss */
+.sg-nav {
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+@media all and (min-width: 44em) {
+  /* line 212, ../../styleguide/scss/site/_styleguide.scss */
+  .sg-nav > li {
+    border-bottom: 0;
+    border-right: 1px solid rgba(255, 255, 255, 0.05);
+    float: left;
+    position: relative;
+  }
+  /* line 220, ../../styleguide/scss/site/_styleguide.scss */
+  .sg-nav > li > ol {
+    position: absolute;
+    top: 2em;
+    left: 0;
+  }
+}
+
+/* line 231, ../../styleguide/scss/site/_styleguide.scss */
+.sg-nav-Pages ol {
+  width: 24em;
+}
+/* line 234, ../../styleguide/scss/site/_styleguide.scss */
+.sg-nav-Pages li {
+  float: left;
+  width: 50%;
+}
+
+/* Accordion */
+/* line 242, ../../styleguide/scss/site/_styleguide.scss */
+.sg-acc-handle:after {
+  content: ' +';
+  float: right;
+  font-size: 70%;
+}
+@media all and (min-width: 44em) {
+  /* line 242, ../../styleguide/scss/site/_styleguide.scss */
+  .sg-acc-handle:after {
+    float: none;
+  }
+}
+/* line 252, ../../styleguide/scss/site/_styleguide.scss */
+.sg-acc-handle.active {
+  color: white;
+  background: rgba(255, 255, 255, 0.05);
+}
+/* line 255, ../../styleguide/scss/site/_styleguide.scss */
+.sg-acc-handle.active:after {
+  content: ' -';
+}
+
+/* line 262, ../../styleguide/scss/site/_styleguide.scss */
+.sg-acc-panel {
+  overflow: hidden;
+  max-height: 0;
+  min-width: 10em;
+  background: #222222;
+  -webkit-transition: max-height 0.5s ease-out;
+  -moz-transition: max-height 0.5s ease-out;
+  -ms-transition: max-height 0.5s ease-out;
+  -o-transition: max-height 0.5s ease-out;
+  transition: max-height 0.5s ease-out;
+}
+/* line 268, ../../styleguide/scss/site/_styleguide.scss */
+.sg-acc-panel.active {
+  max-height: 50em;
+}
+
+/* Controls (sizing, view mode) */
+/* line 274, ../../styleguide/scss/site/_styleguide.scss */
+.sg-controls {
+  border: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+}
+/* line 281, ../../styleguide/scss/site/_styleguide.scss */
+.sg-controls .sg-acc-panel.active {
+  max-height: 17em;
+}
+/* line 285, ../../styleguide/scss/site/_styleguide.scss */
+.sg-controls .sg-nav-phases .sg-acc-panel {
+  min-width: 0;
+}
+/* line 288, ../../styleguide/scss/site/_styleguide.scss */
+.sg-controls .sg-nav-phases .sg-acc-panel.active {
+  max-height: none;
+}
+
+/* line 294, ../../styleguide/scss/site/_styleguide.scss */
+.sg-control-trigger {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+@media all and (min-width: 44em) {
+  /* line 294, ../../styleguide/scss/site/_styleguide.scss */
+  .sg-control-trigger {
+    border: 0;
+  }
+}
+@media all and (min-width: 65em) {
+  /* line 294, ../../styleguide/scss/site/_styleguide.scss */
+  .sg-control-trigger {
+    float: left;
+    width: 6em;
+  }
+}
+
+@media all and (min-width: 44em) {
+  /* line 308, ../../styleguide/scss/site/_styleguide.scss */
+  .sg-control > li {
+    float: left;
+    border-bottom: 0;
+    border-left: 1px solid rgba(255, 255, 255, 0.05);
+  }
+}
+
+/* line 321, ../../styleguide/scss/site/_styleguide.scss */
+.sg-control > li {
+  float: left;
+}
+/* line 325, ../../styleguide/scss/site/_styleguide.scss */
+.sg-control .sg-input {
+  padding: 0.1em;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+/* line 333, ../../styleguide/scss/site/_styleguide.scss */
+.sg-control .sg-input:active, .sg-control .sg-input:focus {
+  outline: 0;
+  background: #f7f7f7;
+  color: #000;
+}
+
+@media all and (max-width: 65em) {
+  /* line 341, ../../styleguide/scss/site/_styleguide.scss */
+  .sg-quarter {
+    float: left;
+    width: 25%;
+    border-left: 1px solid rgba(255, 255, 255, 0.05);
+    text-align: center;
+  }
+  /* line 348, ../../styleguide/scss/site/_styleguide.scss */
+  .sg-quarter:first-child {
+    border-left: 0;
+  }
+}
+
+@media all and (max-width: 65em) {
+  /* line 354, ../../styleguide/scss/site/_styleguide.scss */
+  .sg-half {
+    float: left;
+    width: 50%;
+    border-left: 1px solid rgba(255, 255, 255, 0.05);
+    text-align: center;
+  }
+  /* line 361, ../../styleguide/scss/site/_styleguide.scss */
+  .sg-half:nth-child(odd) {
+    border-left: 0;
+  }
+}
+
+/* line 367, ../../styleguide/scss/site/_styleguide.scss */
+.sg-current-size {
+  font-size: 70%;
+  color: gray;
+  padding: 0.8em 0.95em;
+}
+/* line 373, ../../styleguide/scss/site/_styleguide.scss */
+.sg-current-size:hover .sg-input {
+  background: #f7f7f7;
+  color: #000;
+}
+@media all and (min-width: 65em) {
+  /* line 367, ../../styleguide/scss/site/_styleguide.scss */
+  .sg-current-size {
+    float: left;
+  }
+}
+
+/* line 384, ../../styleguide/scss/site/_styleguide.scss */
+.sg-size-options {
+  max-width: 10em;
+}
+@media all and (min-width: 65em) {
+  /* line 384, ../../styleguide/scss/site/_styleguide.scss */
+  .sg-size-options {
+    position: static;
+    max-height: none;
+    max-width: none;
+  }
+  /* line 392, ../../styleguide/scss/site/_styleguide.scss */
+  .sg-size-options li {
+    float: left;
+    border: 0;
+    border-left: 1px solid rgba(255, 255, 255, 0.05);
+  }
+}
+
+/* line 400, ../../styleguide/scss/site/_styleguide.scss */
+#sg-form {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+/* line 405, ../../styleguide/scss/site/_styleguide.scss */
+.sg-input {
+  margin: -2px 0 0 0;
+  padding: 0;
+  border: 1px solid #222;
+  background-color: #222;
+  color: gray;
+  width: 35px;
+  text-align: right;
+}
+
+/* line 415, ../../styleguide/scss/site/_styleguide.scss */
+.sg-input-active {
+  background-color: #fff;
+  color: #000;
+}
+
+/* line 420, ../../styleguide/scss/site/_styleguide.scss */
+.sg-view {
+  position: relative;
+}
+/* line 423, ../../styleguide/scss/site/_styleguide.scss */
+.sg-view > ul {
+  position: absolute;
+  top: 2em;
+  left: 0;
+}
+
+/*------------------------------------*\
+    $STYLE GUIDE VIEWPORT
+\*------------------------------------*/
+/* Viewport */
+/* line 437, ../../styleguide/scss/site/_styleguide.scss */
+#sg-vp-wrap {
+  text-align: center;
+  width: 100%;
+}
+@media all and (min-width: 44em) {
+  /* line 437, ../../styleguide/scss/site/_styleguide.scss */
+  #sg-vp-wrap {
+    position: fixed;
+    top: 2em;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+  }
+}
+/* line 450, ../../styleguide/scss/site/_styleguide.scss */
+#sg-vp-wrap.wrap-animate {
+  -webkit-transition: left 0.3s ease-out;
+  -moz-transition: left 0.3s ease-out;
+  -ms-transition: left 0.3s ease-out;
+  -o-transition: left 0.3s ease-out;
+  transition: left 0.3s ease-out;
+}
+
+/* line 460, ../../styleguide/scss/site/_styleguide.scss */
+#sg-viewport {
+  border: 0;
+  height: 100%;
+  width: 100%;
+}
+/* line 466, ../../styleguide/scss/site/_styleguide.scss */
+#sg-viewport.hay-mode {
+  -webkit-transition: all 40s linear;
+  -moz-transition: all 40s linear;
+  -ms-transition: all 40s linear;
+  -o-transition: all 40s linear;
+  transition: all 40s linear;
+}
+
+/* line 475, ../../styleguide/scss/site/_styleguide.scss */
+#sg-cover {
+  width: 100%;
+  height: 100%;
+  display: none;
+  position: absolute;
+  z-index: 20;
+  cursor: col-resize;
+}
+
+/* line 484, ../../styleguide/scss/site/_styleguide.scss */
+#sg-gen-container {
+  height: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+/* line 489, ../../styleguide/scss/site/_styleguide.scss */
+#sg-gen-container.hay-mode {
+  -webkit-transition: all 40s linear;
+  -moz-transition: all 40s linear;
+  -ms-transition: all 40s linear;
+  -o-transition: all 40s linear;
+  transition: all 40s linear;
+}
+
+/* line 498, ../../styleguide/scss/site/_styleguide.scss */
+#sg-rightpull-container {
+  width: 10px;
+  float: right;
+  margin: 0;
+  height: 100%;
+  cursor: col-resize;
+}
+
+/* line 506, ../../styleguide/scss/site/_styleguide.scss */
+#sg-rightpull {
+  margin: 0;
+  width: 10px;
+  height: 100%;
+  background: #999;
+  -webkit-transition: background 0.2s ease-out;
+  -moz-transition: background 0.2s ease-out;
+  -ms-transition: background 0.2s ease-out;
+  -o-transition: background 0.2s ease-out;
+  transition: background 0.2s ease-out;
+}
+/* line 517, ../../styleguide/scss/site/_styleguide.scss */
+#sg-rightpull:hover {
+  background: #666;
+}
+/* line 521, ../../styleguide/scss/site/_styleguide.scss */
+#sg-rightpull:active {
+  cursor: col-resize;
+  background: #444;
+}
+
+/* line 527, ../../styleguide/scss/site/_styleguide.scss */
+.vp-animate {
+  -webkit-transition: width 0.8s ease-out;
+  -moz-transition: width 0.8s ease-out;
+  -ms-transition: width 0.8s ease-out;
+  -o-transition: width 0.8s ease-out;
+  transition: width 0.8s ease-out;
+}
+
+/*------------------------------------*\
+    $STYLE GUIDE CONTENT
+\*------------------------------------*/
+/* Section Head */
+/* line 544, ../../styleguide/scss/site/_styleguide.scss */
+.sg-head {
+  margin: 2em 0;
+  font-family: "HelveticaNeue", "Helvetica", "Arial", sans-serif;
+  font-size: 70%;
+  font-weight: normal;
+  padding: 1em;
+}
+/* line 550, ../../styleguide/scss/site/_styleguide.scss */
+.sg-head a {
+  display: block;
+  border-bottom: 1px solid #222222;
+  color: #222;
+  text-decoration: none;
+}
+/* line 555, ../../styleguide/scss/site/_styleguide.scss */
+.sg-head a:hover {
+  color: gray;
+  border-bottom-color: gray;
+}
+
+/* Section Pattern */
+/* line 563, ../../styleguide/scss/site/_styleguide.scss */
+.sg-pattern {
+  margin-bottom: 2em;
+  padding: 2em 1em;
+  overflow: hidden;
+}
+
+/* line 570, ../../styleguide/scss/site/_styleguide.scss */
+.sg-annotation-container {
+  margin-bottom: 2em;
+  padding: 0 1em;
+  overflow: hidden;
+}
+
+/* Section Sub-head */
+/* line 578, ../../styleguide/scss/site/_styleguide.scss */
+.sg-sub a:link {
+  color: gray;
+  border-bottom-color: gray;
+}
+/* line 581, ../../styleguide/scss/site/_styleguide.scss */
+.sg-sub a:link:hover {
+  color: #222222;
+  border-bottom-color: #222222;
+}
+
+/* Clean View */
+/* line 588, ../../styleguide/scss/site/_styleguide.scss */
+.sg-clean .sg-main {
+  padding: 0;
+}
+
+/* line 594, ../../styleguide/scss/site/_styleguide.scss */
+.sg-code, .sg-annotations {
+  clear: both;
+  background: #dddddd;
+  color: #222222;
+  padding: 1em;
+  margin: 1em 0;
+}
+
+/* line 602, ../../styleguide/scss/site/_styleguide.scss */
+.sg-code {
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+}
+
+/* line 611, ../../styleguide/scss/site/_styleguide.scss */
+.demo {
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+/* line 615, ../../styleguide/scss/site/_styleguide.scss */
+.demo .gi, .demo .demo-block {
+  background: #dddddd;
+  color: gray;
+  text-align: center;
+  margin-bottom: 0.5em;
+  padding: 1em !important;
+}
+/* line 622, ../../styleguide/scss/site/_styleguide.scss */
+.demo .gi:nth-of-type(2n), .demo .demo-block:nth-of-type(2n) {
+  color: #dddddd;
+  background: gray;
+}
+/* line 627, ../../styleguide/scss/site/_styleguide.scss */
+.demo .gi .gi, .demo .demo-block .gi {
+  background: rgba(0, 0, 0, 0.1);
+  color: #dddddd;
+}
+/* line 631, ../../styleguide/scss/site/_styleguide.scss */
+.demo .gi .gi:nth-of-type(2n), .demo .demo-block .gi:nth-of-type(2n) {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+/* line 638, ../../styleguide/scss/site/_styleguide.scss */
+.demo-animate {
+  background: #dddddd;
+  padding: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+/* line 645, ../../styleguide/scss/site/_styleguide.scss */
+.animate-move {
+  position: relative;
+}
+/* line 648, ../../styleguide/scss/site/_styleguide.scss */
+.animate-move .demo-shape {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 20px;
+  background: gray;
+}
+/* line 658, ../../styleguide/scss/site/_styleguide.scss */
+.animate-move:hover > .demo-shape {
+  left: 100%;
+  margin-left: -20px;
+}
+
+/* line 666, ../../styleguide/scss/site/_styleguide.scss */
+.sg-colors {
+  overflow: hidden;
+}
+/* line 669, ../../styleguide/scss/site/_styleguide.scss */
+.sg-colors li {
+  overflow: hidden;
+  border: 1px solid #dddddd;
+  padding: 0.3em;
+  margin: 0 0.2em 0.2em 0;
+}
+@media all and (min-width: 30em) {
+  /* line 669, ../../styleguide/scss/site/_styleguide.scss */
+  .sg-colors li {
+    float: left;
+    width: 5em;
+  }
+}
+
+/* line 682, ../../styleguide/scss/site/_styleguide.scss */
+.sg-swatch {
+  display: block;
+  height: 1.5em;
+  width: 50%;
+}
+@media all and (max-width: 30em) {
+  /* line 682, ../../styleguide/scss/site/_styleguide.scss */
+  .sg-swatch {
+    float: left;
+    margin-right: 0.3em;
+  }
+}
+@media all and (min-width: 30em) {
+  /* line 682, ../../styleguide/scss/site/_styleguide.scss */
+  .sg-swatch {
+    width: 100%;
+    height: 4em;
+    margin-bottom: 0.2em;
+  }
+}
+
+/* line 701, ../../styleguide/scss/site/_styleguide.scss */
+.sg-grid-row {
+  margin-top: 1em !important;
+  margin-bottom: 1em !important;
+}
+
+/* line 706, ../../styleguide/scss/site/_styleguide.scss */
+.sg-grid-cell {
+  background: rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: #666;
+  padding: 1em 0;
+  outline: 1px solid #fff;
+}
+
+/* line 715, ../../styleguide/scss/site/_styleguide.scss */
+.sg-label {
+  line-height: 1;
+}
+
+/* line 720, ../../styleguide/scss/site/_styleguide.scss */
+#comment-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+  width: 100%;
+  padding: 1em;
+  background: red;
+}
+
+/* line 731, ../../styleguide/scss/site/_styleguide.scss */
+.sg-pattern .l-fixed {
+  position: absolute !important;
+}
+
+/* line 2, ../../styleguide/scss/site/_overrides.scss */
+.sg-main {
+  background-color: #fff;
+}
+
+/* line 6, ../../styleguide/scss/site/_overrides.scss */
+.sg-controls .sg-nav-phases {
+  overflow: visible;
+  width: 6em;
+}
+
+/* line 14, ../../styleguide/scss/site/_overrides.scss */
+.sg-nav-container .sg-acc-panel,
+.sg-controls .sg-nav-phases .sg-acc-panel {
+  overflow: hidden;
+  max-height: 0;
+  min-width: 15em;
+}
+/* line 18, ../../styleguide/scss/site/_overrides.scss */
+.sg-nav-container .sg-acc-panel.active,
+.sg-controls .sg-nav-phases .sg-acc-panel.active {
+  max-height: 30em;
+  overflow-y: auto;
+}
+/* line 24, ../../styleguide/scss/site/_overrides.scss */
+.sg-nav-container .sg-acc-panel.active > .sg-acc-panel.active,
+.sg-controls .sg-nav-phases .sg-acc-panel.active > .sg-acc-panel.active {
+  overflow-y: visible;
+  height: auto;
+  max-height: none;
+}
+
+/* line 32, ../../styleguide/scss/site/_overrides.scss */
+.sg-header ul ol ol a {
+  text-transform: none;
+  padding-left: 2em;
+}
+
+/* line 1, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_acid {
+  background: none;
+  padding: 0;
+  margin: 0;
+  border: 0 none;
+}
+
+/* line 1, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_acid .sh_sourceCode {
+  background-color: #eee;
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 1, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_acid .sh_sourceCode .sh_keyword {
+  color: #bb7977;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 1, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_acid .sh_sourceCode .sh_type {
+  color: #8080c0;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 1, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_acid .sh_sourceCode .sh_string {
+  color: #a68500;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 1, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_acid .sh_sourceCode .sh_regexp {
+  color: #a68500;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 1, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_acid .sh_sourceCode .sh_specialchar {
+  color: #f0f;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 1, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_acid .sh_sourceCode .sh_comment {
+  color: #ff8000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 1, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_acid .sh_sourceCode .sh_number {
+  color: #800080;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 1, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_acid .sh_sourceCode .sh_preproc {
+  color: #0080c0;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 1, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_acid .sh_sourceCode .sh_symbol {
+  color: #ff0080;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 1, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_acid .sh_sourceCode .sh_function {
+  color: #046;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 1, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_acid .sh_sourceCode .sh_cbracket {
+  color: #ff0080;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 1, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_acid .sh_sourceCode .sh_url {
+  color: #a68500;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 1, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_acid .sh_sourceCode .sh_date {
+  color: #bb7977;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 1, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_acid .sh_sourceCode .sh_time {
+  color: #bb7977;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 1, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_acid .sh_sourceCode .sh_file {
+  color: #bb7977;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 1, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_acid .sh_sourceCode .sh_ip {
+  color: #a68500;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 1, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_acid .sh_sourceCode .sh_name {
+  color: #a68500;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 1, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_acid .sh_sourceCode .sh_variable {
+  color: #0080c0;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 1, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_acid .sh_sourceCode .sh_oldfile {
+  color: #f0f;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 1, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_acid .sh_sourceCode .sh_newfile {
+  color: #a68500;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 1, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_acid .sh_sourceCode .sh_difflines {
+  color: #bb7977;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 1, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_acid .sh_sourceCode .sh_selector {
+  color: #0080c0;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 1, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_acid .sh_sourceCode .sh_property {
+  color: #bb7977;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 1, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_acid .sh_sourceCode .sh_value {
+  color: #a68500;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 3, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_berries-dark {
+  background: none;
+  padding: 0;
+  margin: 0;
+  border: 0 none;
+}
+
+/* line 3, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_berries-dark .sh_sourceCode {
+  background-color: #80bfff;
+  color: #400080;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 3, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_berries-dark .sh_sourceCode .sh_keyword {
+  color: #3f2bf0;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 3, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_berries-dark .sh_sourceCode .sh_type {
+  color: #3f2bf0;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 3, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_berries-dark .sh_sourceCode .sh_string {
+  color: #c40000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 3, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_berries-dark .sh_sourceCode .sh_regexp {
+  color: #c40000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 3, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_berries-dark .sh_sourceCode .sh_specialchar {
+  color: #77379a;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 3, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_berries-dark .sh_sourceCode .sh_comment {
+  color: #df0959;
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* line 3, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_berries-dark .sh_sourceCode .sh_number {
+  color: #20755a;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 3, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_berries-dark .sh_sourceCode .sh_preproc {
+  color: #0628cb;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 3, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_berries-dark .sh_sourceCode .sh_symbol {
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 3, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_berries-dark .sh_sourceCode .sh_function {
+  color: #901164;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 3, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_berries-dark .sh_sourceCode .sh_cbracket {
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 3, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_berries-dark .sh_sourceCode .sh_url {
+  color: #c40000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 3, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_berries-dark .sh_sourceCode .sh_date {
+  color: #3f2bf0;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 3, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_berries-dark .sh_sourceCode .sh_time {
+  color: #3f2bf0;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 3, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_berries-dark .sh_sourceCode .sh_file {
+  color: #3f2bf0;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 3, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_berries-dark .sh_sourceCode .sh_ip {
+  color: #c40000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 3, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_berries-dark .sh_sourceCode .sh_name {
+  color: #c40000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 3, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_berries-dark .sh_sourceCode .sh_variable {
+  color: #a91ea7;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 3, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_berries-dark .sh_sourceCode .sh_oldfile {
+  color: #77379a;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 3, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_berries-dark .sh_sourceCode .sh_newfile {
+  color: #c40000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 3, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_berries-dark .sh_sourceCode .sh_difflines {
+  color: #3f2bf0;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 3, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_berries-dark .sh_sourceCode .sh_selector {
+  color: #a91ea7;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 3, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_berries-dark .sh_sourceCode .sh_property {
+  color: #3f2bf0;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 3, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_berries-dark .sh_sourceCode .sh_value {
+  color: #c40000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 5, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_berries-light {
+  background: none;
+  padding: 0;
+  margin: 0;
+  border: 0 none;
+}
+
+/* line 5, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_berries-light .sh_sourceCode {
+  background-color: #d7ffff;
+  color: #47406d;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 5, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_berries-light .sh_sourceCode .sh_keyword {
+  color: #2cae1e;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 5, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_berries-light .sh_sourceCode .sh_type {
+  color: #8b51c0;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 5, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_berries-light .sh_sourceCode .sh_string {
+  color: #5f81b3;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 5, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_berries-light .sh_sourceCode .sh_regexp {
+  color: #5f81b3;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 5, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_berries-light .sh_sourceCode .sh_specialchar {
+  color: #5f81b3;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 5, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_berries-light .sh_sourceCode .sh_comment {
+  color: #9c3caf;
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* line 5, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_berries-light .sh_sourceCode .sh_number {
+  color: #20755a;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 5, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_berries-light .sh_sourceCode .sh_preproc {
+  color: #0628cb;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 5, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_berries-light .sh_sourceCode .sh_symbol {
+  color: #d2073b;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 5, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_berries-light .sh_sourceCode .sh_function {
+  color: #901164;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 5, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_berries-light .sh_sourceCode .sh_cbracket {
+  color: #d2073b;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 5, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_berries-light .sh_sourceCode .sh_url {
+  color: #5f81b3;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 5, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_berries-light .sh_sourceCode .sh_date {
+  color: #2cae1e;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 5, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_berries-light .sh_sourceCode .sh_time {
+  color: #2cae1e;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 5, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_berries-light .sh_sourceCode .sh_file {
+  color: #2cae1e;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 5, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_berries-light .sh_sourceCode .sh_ip {
+  color: #5f81b3;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 5, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_berries-light .sh_sourceCode .sh_name {
+  color: #5f81b3;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 5, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_berries-light .sh_sourceCode .sh_variable {
+  color: #0628cb;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 5, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_berries-light .sh_sourceCode .sh_oldfile {
+  color: #5f81b3;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 5, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_berries-light .sh_sourceCode .sh_newfile {
+  color: #5f81b3;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 5, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_berries-light .sh_sourceCode .sh_difflines {
+  color: #2cae1e;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 5, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_berries-light .sh_sourceCode .sh_selector {
+  color: #0628cb;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 5, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_berries-light .sh_sourceCode .sh_property {
+  color: #2cae1e;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 5, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_berries-light .sh_sourceCode .sh_value {
+  color: #5f81b3;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 7, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_bipolar {
+  background: none;
+  padding: 0;
+  margin: 0;
+  border: 0 none;
+}
+
+/* line 7, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_bipolar .sh_sourceCode {
+  background-color: #000;
+  color: #d149a6;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 7, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_bipolar .sh_sourceCode .sh_keyword {
+  color: #ee85e2;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 7, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_bipolar .sh_sourceCode .sh_type {
+  color: #aadd8b;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 7, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_bipolar .sh_sourceCode .sh_string {
+  color: #9ef457;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 7, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_bipolar .sh_sourceCode .sh_regexp {
+  color: #9ef457;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 7, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_bipolar .sh_sourceCode .sh_specialchar {
+  color: #9ef457;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 7, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_bipolar .sh_sourceCode .sh_comment {
+  color: #35d6e5;
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* line 7, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_bipolar .sh_sourceCode .sh_number {
+  color: #fff;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 7, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_bipolar .sh_sourceCode .sh_preproc {
+  color: #07f6bf;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 7, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_bipolar .sh_sourceCode .sh_symbol {
+  color: #348fef;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 7, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_bipolar .sh_sourceCode .sh_function {
+  color: #d51993;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 7, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_bipolar .sh_sourceCode .sh_cbracket {
+  color: #348fef;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 7, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_bipolar .sh_sourceCode .sh_url {
+  color: #9ef457;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 7, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_bipolar .sh_sourceCode .sh_date {
+  color: #ee85e2;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 7, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_bipolar .sh_sourceCode .sh_time {
+  color: #ee85e2;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 7, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_bipolar .sh_sourceCode .sh_file {
+  color: #ee85e2;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 7, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_bipolar .sh_sourceCode .sh_ip {
+  color: #9ef457;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 7, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_bipolar .sh_sourceCode .sh_name {
+  color: #9ef457;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 7, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_bipolar .sh_sourceCode .sh_variable {
+  color: #72d42c;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 7, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_bipolar .sh_sourceCode .sh_oldfile {
+  color: #9ef457;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 7, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_bipolar .sh_sourceCode .sh_newfile {
+  color: #9ef457;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 7, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_bipolar .sh_sourceCode .sh_difflines {
+  color: #ee85e2;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 7, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_bipolar .sh_sourceCode .sh_selector {
+  color: #72d42c;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 7, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_bipolar .sh_sourceCode .sh_property {
+  color: #ee85e2;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 7, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_bipolar .sh_sourceCode .sh_value {
+  color: #9ef457;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 9, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_blacknblue {
+  background: none;
+  padding: 0;
+  margin: 0;
+  border: 0 none;
+}
+
+/* line 9, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_blacknblue .sh_sourceCode {
+  background-color: #000;
+  color: #2346d5;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 9, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_blacknblue .sh_sourceCode .sh_keyword {
+  color: #1ededc;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 9, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_blacknblue .sh_sourceCode .sh_type {
+  color: #c06cf8;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 9, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_blacknblue .sh_sourceCode .sh_string {
+  color: #cfc631;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 9, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_blacknblue .sh_sourceCode .sh_regexp {
+  color: #cfc631;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 9, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_blacknblue .sh_sourceCode .sh_specialchar {
+  color: #ccc6c6;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 9, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_blacknblue .sh_sourceCode .sh_comment {
+  color: #6fb2c4;
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* line 9, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_blacknblue .sh_sourceCode .sh_number {
+  color: #c4ac60;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 9, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_blacknblue .sh_sourceCode .sh_preproc {
+  color: #8080ff;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 9, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_blacknblue .sh_sourceCode .sh_symbol {
+  color: #ccc6c6;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 9, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_blacknblue .sh_sourceCode .sh_function {
+  color: #1c96ed;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 9, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_blacknblue .sh_sourceCode .sh_cbracket {
+  color: #ccc6c6;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 9, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_blacknblue .sh_sourceCode .sh_url {
+  color: #cfc631;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 9, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_blacknblue .sh_sourceCode .sh_date {
+  color: #1ededc;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 9, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_blacknblue .sh_sourceCode .sh_time {
+  color: #1ededc;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 9, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_blacknblue .sh_sourceCode .sh_file {
+  color: #1ededc;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 9, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_blacknblue .sh_sourceCode .sh_ip {
+  color: #cfc631;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 9, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_blacknblue .sh_sourceCode .sh_name {
+  color: #cfc631;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 9, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_blacknblue .sh_sourceCode .sh_variable {
+  color: #ecea26;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 9, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_blacknblue .sh_sourceCode .sh_oldfile {
+  color: #ccc6c6;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 9, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_blacknblue .sh_sourceCode .sh_newfile {
+  color: #cfc631;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 9, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_blacknblue .sh_sourceCode .sh_difflines {
+  color: #1ededc;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 9, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_blacknblue .sh_sourceCode .sh_selector {
+  color: #ecea26;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 9, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_blacknblue .sh_sourceCode .sh_property {
+  color: #1ededc;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 9, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_blacknblue .sh_sourceCode .sh_value {
+  color: #cfc631;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 11, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_bright {
+  background: none;
+  padding: 0;
+  margin: 0;
+  border: 0 none;
+}
+
+/* line 11, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_bright .sh_sourceCode {
+  background-color: #fff;
+  color: #401e7a;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 11, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_bright .sh_sourceCode .sh_keyword {
+  color: #ff3030;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 11, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_bright .sh_sourceCode .sh_type {
+  color: #f7b92c;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 11, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_bright .sh_sourceCode .sh_string {
+  color: #1861a7;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 11, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_bright .sh_sourceCode .sh_regexp {
+  color: #1861a7;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 11, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_bright .sh_sourceCode .sh_specialchar {
+  color: #1861a7;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 11, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_bright .sh_sourceCode .sh_comment {
+  color: #38ad24;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 11, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_bright .sh_sourceCode .sh_number {
+  color: #32ba06;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 11, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_bright .sh_sourceCode .sh_preproc {
+  color: #5374b0;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 11, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_bright .sh_sourceCode .sh_symbol {
+  color: #3030ee;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 11, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_bright .sh_sourceCode .sh_function {
+  color: #d11ced;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 11, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_bright .sh_sourceCode .sh_cbracket {
+  color: #3030ee;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 11, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_bright .sh_sourceCode .sh_url {
+  color: #1861a7;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 11, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_bright .sh_sourceCode .sh_date {
+  color: #ff3030;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 11, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_bright .sh_sourceCode .sh_time {
+  color: #ff3030;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 11, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_bright .sh_sourceCode .sh_file {
+  color: #ff3030;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 11, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_bright .sh_sourceCode .sh_ip {
+  color: #1861a7;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 11, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_bright .sh_sourceCode .sh_name {
+  color: #1861a7;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 11, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_bright .sh_sourceCode .sh_variable {
+  color: #00f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 11, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_bright .sh_sourceCode .sh_oldfile {
+  color: #1861a7;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 11, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_bright .sh_sourceCode .sh_newfile {
+  color: #1861a7;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 11, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_bright .sh_sourceCode .sh_difflines {
+  color: #ff3030;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 11, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_bright .sh_sourceCode .sh_selector {
+  color: #00f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 11, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_bright .sh_sourceCode .sh_property {
+  color: #ff3030;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 11, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_bright .sh_sourceCode .sh_value {
+  color: #1861a7;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 13, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_contrast {
+  background: none;
+  padding: 0;
+  margin: 0;
+  border: 0 none;
+}
+
+/* line 13, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_contrast .sh_sourceCode {
+  background-color: #ed6104;
+  color: #00f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 13, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_contrast .sh_sourceCode .sh_keyword {
+  color: #fff;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 13, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_contrast .sh_sourceCode .sh_type {
+  color: #fff;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 13, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_contrast .sh_sourceCode .sh_string {
+  color: #11f80c;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 13, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_contrast .sh_sourceCode .sh_regexp {
+  color: #11f80c;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 13, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_contrast .sh_sourceCode .sh_specialchar {
+  color: #11f80c;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 13, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_contrast .sh_sourceCode .sh_comment {
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 13, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_contrast .sh_sourceCode .sh_number {
+  color: #971ad8;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 13, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_contrast .sh_sourceCode .sh_preproc {
+  color: #7b44e0;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 13, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_contrast .sh_sourceCode .sh_symbol {
+  color: #dedede;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 13, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_contrast .sh_sourceCode .sh_function {
+  color: #fff700;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 13, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_contrast .sh_sourceCode .sh_cbracket {
+  color: #dedede;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 13, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_contrast .sh_sourceCode .sh_url {
+  color: #11f80c;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 13, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_contrast .sh_sourceCode .sh_date {
+  color: #fff;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 13, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_contrast .sh_sourceCode .sh_time {
+  color: #fff;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 13, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_contrast .sh_sourceCode .sh_file {
+  color: #fff;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 13, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_contrast .sh_sourceCode .sh_ip {
+  color: #11f80c;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 13, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_contrast .sh_sourceCode .sh_name {
+  color: #11f80c;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 13, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_contrast .sh_sourceCode .sh_variable {
+  color: #11f80c;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 13, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_contrast .sh_sourceCode .sh_oldfile {
+  color: #11f80c;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 13, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_contrast .sh_sourceCode .sh_newfile {
+  color: #11f80c;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 13, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_contrast .sh_sourceCode .sh_difflines {
+  color: #fff;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 13, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_contrast .sh_sourceCode .sh_selector {
+  color: #11f80c;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 13, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_contrast .sh_sourceCode .sh_property {
+  color: #fff;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 13, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_contrast .sh_sourceCode .sh_value {
+  color: #11f80c;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 15, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_darkblue {
+  background: none;
+  padding: 0;
+  margin: 0;
+  border: 0 none;
+}
+
+/* line 15, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_darkblue .sh_sourceCode {
+  background-color: #000040;
+  color: #C7C7C7;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 15, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_darkblue .sh_sourceCode .sh_keyword {
+  color: #ffff60;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 15, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_darkblue .sh_sourceCode .sh_type {
+  color: #60ff60;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 15, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_darkblue .sh_sourceCode .sh_string {
+  color: #ffa0a0;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 15, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_darkblue .sh_sourceCode .sh_regexp {
+  color: #ffa0a0;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 15, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_darkblue .sh_sourceCode .sh_specialchar {
+  color: #ffa500;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 15, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_darkblue .sh_sourceCode .sh_comment {
+  color: #80a0ff;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 15, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_darkblue .sh_sourceCode .sh_number {
+  color: #42cad9;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 15, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_darkblue .sh_sourceCode .sh_preproc {
+  color: #ff80ff;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 15, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_darkblue .sh_sourceCode .sh_symbol {
+  color: #d8e91b;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 15, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_darkblue .sh_sourceCode .sh_function {
+  color: #fff;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 15, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_darkblue .sh_sourceCode .sh_cbracket {
+  color: #d8e91b;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 15, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_darkblue .sh_sourceCode .sh_url {
+  color: #ffa0a0;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 15, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_darkblue .sh_sourceCode .sh_date {
+  color: #ffff60;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 15, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_darkblue .sh_sourceCode .sh_time {
+  color: #ffff60;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 15, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_darkblue .sh_sourceCode .sh_file {
+  color: #ffff60;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 15, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_darkblue .sh_sourceCode .sh_ip {
+  color: #ffa0a0;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 15, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_darkblue .sh_sourceCode .sh_name {
+  color: #ffa0a0;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 15, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_darkblue .sh_sourceCode .sh_variable {
+  color: #26e0e7;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 15, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_darkblue .sh_sourceCode .sh_oldfile {
+  color: #ffa500;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 15, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_darkblue .sh_sourceCode .sh_newfile {
+  color: #ffa0a0;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 15, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_darkblue .sh_sourceCode .sh_difflines {
+  color: #ffff60;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 15, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_darkblue .sh_sourceCode .sh_selector {
+  color: #26e0e7;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 15, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_darkblue .sh_sourceCode .sh_property {
+  color: #ffff60;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 15, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_darkblue .sh_sourceCode .sh_value {
+  color: #ffa0a0;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 17, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_darkness {
+  background: none;
+  padding: 0;
+  margin: 0;
+  border: 0 none;
+}
+
+/* line 17, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_darkness .sh_sourceCode {
+  background-color: #000;
+  color: #fff;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 17, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_darkness .sh_sourceCode .sh_keyword {
+  color: #ff0;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 17, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_darkness .sh_sourceCode .sh_type {
+  color: #0f0;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 17, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_darkness .sh_sourceCode .sh_string {
+  color: #abab00;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 17, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_darkness .sh_sourceCode .sh_regexp {
+  color: #abab00;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 17, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_darkness .sh_sourceCode .sh_specialchar {
+  color: #bfbfbf;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 17, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_darkness .sh_sourceCode .sh_comment {
+  color: #888;
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* line 17, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_darkness .sh_sourceCode .sh_number {
+  color: #619de7;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 17, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_darkness .sh_sourceCode .sh_preproc {
+  color: #1da3cf;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 17, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_darkness .sh_sourceCode .sh_symbol {
+  color: #f0f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 17, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_darkness .sh_sourceCode .sh_function {
+  color: #f34627;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 17, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_darkness .sh_sourceCode .sh_cbracket {
+  color: #f0f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 17, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_darkness .sh_sourceCode .sh_url {
+  color: #abab00;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 17, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_darkness .sh_sourceCode .sh_date {
+  color: #ff0;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 17, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_darkness .sh_sourceCode .sh_time {
+  color: #ff0;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 17, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_darkness .sh_sourceCode .sh_file {
+  color: #ff0;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 17, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_darkness .sh_sourceCode .sh_ip {
+  color: #abab00;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 17, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_darkness .sh_sourceCode .sh_name {
+  color: #abab00;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 17, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_darkness .sh_sourceCode .sh_variable {
+  color: #26e0e7;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 17, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_darkness .sh_sourceCode .sh_oldfile {
+  color: #bfbfbf;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 17, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_darkness .sh_sourceCode .sh_newfile {
+  color: #abab00;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 17, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_darkness .sh_sourceCode .sh_difflines {
+  color: #ff0;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 17, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_darkness .sh_sourceCode .sh_selector {
+  color: #26e0e7;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 17, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_darkness .sh_sourceCode .sh_property {
+  color: #ff0;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 17, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_darkness .sh_sourceCode .sh_value {
+  color: #abab00;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 19, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_desert {
+  background: none;
+  padding: 0;
+  margin: 0;
+  border: 0 none;
+}
+
+/* line 19, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_desert .sh_sourceCode {
+  background-color: #af947e;
+  color: #fffdec;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 19, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_desert .sh_sourceCode .sh_keyword {
+  color: #fef8bc;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 19, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_desert .sh_sourceCode .sh_type {
+  color: #fef8bc;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 19, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_desert .sh_sourceCode .sh_string {
+  color: #f6f647;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 19, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_desert .sh_sourceCode .sh_regexp {
+  color: #f6f647;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 19, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_desert .sh_sourceCode .sh_specialchar {
+  color: #f6f647;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 19, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_desert .sh_sourceCode .sh_comment {
+  color: #a00000;
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* line 19, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_desert .sh_sourceCode .sh_number {
+  color: #3e3f25;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 19, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_desert .sh_sourceCode .sh_preproc {
+  color: #833914;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 19, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_desert .sh_sourceCode .sh_symbol {
+  color: #66574f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 19, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_desert .sh_sourceCode .sh_function {
+  color: #f3d266;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 19, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_desert .sh_sourceCode .sh_cbracket {
+  color: #66574f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 19, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_desert .sh_sourceCode .sh_url {
+  color: #f6f647;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 19, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_desert .sh_sourceCode .sh_date {
+  color: #fef8bc;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 19, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_desert .sh_sourceCode .sh_time {
+  color: #fef8bc;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 19, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_desert .sh_sourceCode .sh_file {
+  color: #fef8bc;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 19, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_desert .sh_sourceCode .sh_ip {
+  color: #f6f647;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 19, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_desert .sh_sourceCode .sh_name {
+  color: #f6f647;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 19, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_desert .sh_sourceCode .sh_variable {
+  color: #000;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 19, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_desert .sh_sourceCode .sh_oldfile {
+  color: #f6f647;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 19, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_desert .sh_sourceCode .sh_newfile {
+  color: #f6f647;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 19, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_desert .sh_sourceCode .sh_difflines {
+  color: #fef8bc;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 19, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_desert .sh_sourceCode .sh_selector {
+  color: #000;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 19, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_desert .sh_sourceCode .sh_property {
+  color: #fef8bc;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 19, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_desert .sh_sourceCode .sh_value {
+  color: #f6f647;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 21, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_dull {
+  background: none;
+  padding: 0;
+  margin: 0;
+  border: 0 none;
+}
+
+/* line 21, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_dull .sh_sourceCode {
+  background-color: #bfbfbf;
+  color: #656565;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 21, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_dull .sh_sourceCode .sh_keyword {
+  color: #353535;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 21, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_dull .sh_sourceCode .sh_type {
+  color: #3241c6;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 21, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_dull .sh_sourceCode .sh_string {
+  color: #059;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 21, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_dull .sh_sourceCode .sh_regexp {
+  color: #059;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 21, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_dull .sh_sourceCode .sh_specialchar {
+  color: #059;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 21, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_dull .sh_sourceCode .sh_comment {
+  color: #d11d20;
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* line 21, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_dull .sh_sourceCode .sh_number {
+  color: #16930d;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 21, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_dull .sh_sourceCode .sh_preproc {
+  color: #003;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 21, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_dull .sh_sourceCode .sh_symbol {
+  color: #222;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 21, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_dull .sh_sourceCode .sh_function {
+  color: #38255c;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 21, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_dull .sh_sourceCode .sh_cbracket {
+  color: #222;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 21, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_dull .sh_sourceCode .sh_url {
+  color: #059;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 21, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_dull .sh_sourceCode .sh_date {
+  color: #353535;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 21, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_dull .sh_sourceCode .sh_time {
+  color: #353535;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 21, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_dull .sh_sourceCode .sh_file {
+  color: #353535;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 21, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_dull .sh_sourceCode .sh_ip {
+  color: #059;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 21, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_dull .sh_sourceCode .sh_name {
+  color: #059;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 21, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_dull .sh_sourceCode .sh_variable {
+  color: #ae5a16;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 21, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_dull .sh_sourceCode .sh_oldfile {
+  color: #059;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 21, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_dull .sh_sourceCode .sh_newfile {
+  color: #059;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 21, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_dull .sh_sourceCode .sh_difflines {
+  color: #353535;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 21, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_dull .sh_sourceCode .sh_selector {
+  color: #ae5a16;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 21, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_dull .sh_sourceCode .sh_property {
+  color: #353535;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 21, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_dull .sh_sourceCode .sh_value {
+  color: #059;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 23, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_easter {
+  background: none;
+  padding: 0;
+  margin: 0;
+  border: 0 none;
+}
+
+/* line 23, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_easter .sh_sourceCode {
+  background-color: #ffff80;
+  color: #2C7B34;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 23, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_easter .sh_sourceCode .sh_keyword {
+  color: #1d45d6;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 23, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_easter .sh_sourceCode .sh_type {
+  color: #ed0f55;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 23, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_easter .sh_sourceCode .sh_string {
+  color: #ca4be3;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 23, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_easter .sh_sourceCode .sh_regexp {
+  color: #ca4be3;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 23, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_easter .sh_sourceCode .sh_specialchar {
+  color: #ca4be3;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 23, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_easter .sh_sourceCode .sh_comment {
+  color: #24c815;
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* line 23, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_easter .sh_sourceCode .sh_number {
+  color: #e11a70;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 23, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_easter .sh_sourceCode .sh_preproc {
+  color: #1583b1;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 23, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_easter .sh_sourceCode .sh_symbol {
+  color: #fa4700;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 23, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_easter .sh_sourceCode .sh_function {
+  color: #1d45d6;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 23, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_easter .sh_sourceCode .sh_cbracket {
+  color: #fa4700;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 23, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_easter .sh_sourceCode .sh_url {
+  color: #ca4be3;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 23, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_easter .sh_sourceCode .sh_date {
+  color: #1d45d6;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 23, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_easter .sh_sourceCode .sh_time {
+  color: #1d45d6;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 23, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_easter .sh_sourceCode .sh_file {
+  color: #1d45d6;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 23, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_easter .sh_sourceCode .sh_ip {
+  color: #ca4be3;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 23, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_easter .sh_sourceCode .sh_name {
+  color: #ca4be3;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 23, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_easter .sh_sourceCode .sh_variable {
+  color: #26aae7;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 23, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_easter .sh_sourceCode .sh_oldfile {
+  color: #ca4be3;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 23, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_easter .sh_sourceCode .sh_newfile {
+  color: #ca4be3;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 23, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_easter .sh_sourceCode .sh_difflines {
+  color: #1d45d6;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 23, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_easter .sh_sourceCode .sh_selector {
+  color: #26aae7;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 23, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_easter .sh_sourceCode .sh_property {
+  color: #1d45d6;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 23, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_easter .sh_sourceCode .sh_value {
+  color: #ca4be3;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 25, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_emacs {
+  background: none;
+  padding: 0;
+  margin: 0;
+  border: 0 none;
+}
+
+/* line 25, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_emacs .sh_sourceCode {
+  background-color: #fff;
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 25, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_emacs .sh_sourceCode .sh_keyword {
+  color: #9c20ee;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 25, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_emacs .sh_sourceCode .sh_type {
+  color: #208920;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 25, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_emacs .sh_sourceCode .sh_string {
+  color: #bd8d8b;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 25, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_emacs .sh_sourceCode .sh_regexp {
+  color: #bd8d8b;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 25, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_emacs .sh_sourceCode .sh_specialchar {
+  color: #bd8d8b;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 25, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_emacs .sh_sourceCode .sh_comment {
+  color: #ac2020;
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* line 25, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_emacs .sh_sourceCode .sh_number {
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 25, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_emacs .sh_sourceCode .sh_preproc {
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 25, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_emacs .sh_sourceCode .sh_function {
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 25, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_emacs .sh_sourceCode .sh_url {
+  color: #bd8d8b;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 25, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_emacs .sh_sourceCode .sh_date {
+  color: #9c20ee;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 25, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_emacs .sh_sourceCode .sh_time {
+  color: #9c20ee;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 25, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_emacs .sh_sourceCode .sh_file {
+  color: #9c20ee;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 25, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_emacs .sh_sourceCode .sh_ip {
+  color: #bd8d8b;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 25, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_emacs .sh_sourceCode .sh_name {
+  color: #bd8d8b;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 25, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_emacs .sh_sourceCode .sh_variable {
+  color: #00f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 25, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_emacs .sh_sourceCode .sh_oldfile {
+  color: #bd8d8b;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 25, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_emacs .sh_sourceCode .sh_newfile {
+  color: #bd8d8b;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 25, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_emacs .sh_sourceCode .sh_difflines {
+  color: #9c20ee;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 25, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_emacs .sh_sourceCode .sh_selector {
+  color: #00f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 25, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_emacs .sh_sourceCode .sh_property {
+  color: #9c20ee;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 25, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_emacs .sh_sourceCode .sh_value {
+  color: #bd8d8b;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 27, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_golden {
+  background: none;
+  padding: 0;
+  margin: 0;
+  border: 0 none;
+}
+
+/* line 27, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_golden .sh_sourceCode {
+  background-color: #000;
+  color: #db0;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 27, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_golden .sh_sourceCode .sh_keyword {
+  color: #ffed8a;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 27, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_golden .sh_sourceCode .sh_type {
+  color: #ffed8a;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 27, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_golden .sh_sourceCode .sh_string {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 27, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_golden .sh_sourceCode .sh_regexp {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 27, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_golden .sh_sourceCode .sh_specialchar {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 27, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_golden .sh_sourceCode .sh_comment {
+  color: #978345;
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* line 27, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_golden .sh_sourceCode .sh_number {
+  color: #fff;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 27, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_golden .sh_sourceCode .sh_preproc {
+  color: #fda;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 27, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_golden .sh_sourceCode .sh_symbol {
+  color: #ababab;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 27, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_golden .sh_sourceCode .sh_function {
+  color: #db0;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 27, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_golden .sh_sourceCode .sh_cbracket {
+  color: #ababab;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 27, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_golden .sh_sourceCode .sh_url {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 27, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_golden .sh_sourceCode .sh_date {
+  color: #ffed8a;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 27, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_golden .sh_sourceCode .sh_time {
+  color: #ffed8a;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 27, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_golden .sh_sourceCode .sh_file {
+  color: #ffed8a;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 27, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_golden .sh_sourceCode .sh_ip {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 27, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_golden .sh_sourceCode .sh_name {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 27, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_golden .sh_sourceCode .sh_variable {
+  color: #dedede;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 27, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_golden .sh_sourceCode .sh_oldfile {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 27, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_golden .sh_sourceCode .sh_newfile {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 27, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_golden .sh_sourceCode .sh_difflines {
+  color: #ffed8a;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 27, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_golden .sh_sourceCode .sh_selector {
+  color: #dedede;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 27, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_golden .sh_sourceCode .sh_property {
+  color: #ffed8a;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 27, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_golden .sh_sourceCode .sh_value {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 29, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_greenlcd {
+  background: none;
+  padding: 0;
+  margin: 0;
+  border: 0 none;
+}
+
+/* line 29, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_greenlcd .sh_sourceCode {
+  background-color: #003400;
+  color: #0b0;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 29, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_greenlcd .sh_sourceCode .sh_keyword {
+  color: #00ed00;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 29, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_greenlcd .sh_sourceCode .sh_type {
+  color: #00ed00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 29, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_greenlcd .sh_sourceCode .sh_string {
+  color: #dfdfdf;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 29, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_greenlcd .sh_sourceCode .sh_regexp {
+  color: #dfdfdf;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 29, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_greenlcd .sh_sourceCode .sh_specialchar {
+  color: #dfdfdf;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 29, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_greenlcd .sh_sourceCode .sh_comment {
+  color: #888;
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* line 29, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_greenlcd .sh_sourceCode .sh_number {
+  color: #fff;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 29, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_greenlcd .sh_sourceCode .sh_preproc {
+  color: #bfbfbf;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 29, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_greenlcd .sh_sourceCode .sh_symbol {
+  color: #2fe7a9;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 29, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_greenlcd .sh_sourceCode .sh_function {
+  color: #c0ff73;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 29, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_greenlcd .sh_sourceCode .sh_cbracket {
+  color: #2fe7a9;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 29, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_greenlcd .sh_sourceCode .sh_url {
+  color: #dfdfdf;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 29, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_greenlcd .sh_sourceCode .sh_date {
+  color: #00ed00;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 29, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_greenlcd .sh_sourceCode .sh_time {
+  color: #00ed00;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 29, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_greenlcd .sh_sourceCode .sh_file {
+  color: #00ed00;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 29, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_greenlcd .sh_sourceCode .sh_ip {
+  color: #dfdfdf;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 29, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_greenlcd .sh_sourceCode .sh_name {
+  color: #dfdfdf;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 29, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_greenlcd .sh_sourceCode .sh_variable {
+  color: #beef13;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 29, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_greenlcd .sh_sourceCode .sh_oldfile {
+  color: #dfdfdf;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 29, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_greenlcd .sh_sourceCode .sh_newfile {
+  color: #dfdfdf;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 29, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_greenlcd .sh_sourceCode .sh_difflines {
+  color: #00ed00;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 29, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_greenlcd .sh_sourceCode .sh_selector {
+  color: #beef13;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 29, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_greenlcd .sh_sourceCode .sh_property {
+  color: #00ed00;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 29, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_greenlcd .sh_sourceCode .sh_value {
+  color: #dfdfdf;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 31, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-anjuta {
+  background: none;
+  padding: 0;
+  margin: 0;
+  border: 0 none;
+}
+
+/* line 31, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-anjuta .sh_sourceCode {
+  background-color: #fff;
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 31, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-anjuta .sh_sourceCode .sh_keyword {
+  color: #000080;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 31, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-anjuta .sh_sourceCode .sh_type {
+  color: #000080;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 31, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-anjuta .sh_sourceCode .sh_string {
+  color: #db0;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 31, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-anjuta .sh_sourceCode .sh_regexp {
+  color: #db0;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 31, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-anjuta .sh_sourceCode .sh_specialchar {
+  color: #db0;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 31, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-anjuta .sh_sourceCode .sh_comment {
+  color: #f00;
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* line 31, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-anjuta .sh_sourceCode .sh_number {
+  color: #080;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 31, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-anjuta .sh_sourceCode .sh_preproc {
+  color: #678000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 31, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-anjuta .sh_sourceCode .sh_function {
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 31, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-anjuta .sh_sourceCode .sh_url {
+  color: #db0;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 31, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-anjuta .sh_sourceCode .sh_date {
+  color: #000080;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 31, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-anjuta .sh_sourceCode .sh_time {
+  color: #000080;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 31, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-anjuta .sh_sourceCode .sh_file {
+  color: #000080;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 31, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-anjuta .sh_sourceCode .sh_ip {
+  color: #db0;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 31, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-anjuta .sh_sourceCode .sh_name {
+  color: #db0;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 31, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-anjuta .sh_sourceCode .sh_variable {
+  color: #00f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 31, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-anjuta .sh_sourceCode .sh_oldfile {
+  color: #db0;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 31, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-anjuta .sh_sourceCode .sh_newfile {
+  color: #db0;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 31, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-anjuta .sh_sourceCode .sh_difflines {
+  color: #000080;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 31, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-anjuta .sh_sourceCode .sh_selector {
+  color: #00f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 31, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-anjuta .sh_sourceCode .sh_property {
+  color: #000080;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 31, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-anjuta .sh_sourceCode .sh_value {
+  color: #db0;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 33, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-codewarrior {
+  background: none;
+  padding: 0;
+  margin: 0;
+  border: 0 none;
+}
+
+/* line 33, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-codewarrior .sh_sourceCode {
+  background-color: #fff;
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 33, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-codewarrior .sh_sourceCode .sh_keyword {
+  color: #0000b3;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 33, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-codewarrior .sh_sourceCode .sh_type {
+  color: #4c73a6;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 33, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-codewarrior .sh_sourceCode .sh_string {
+  color: #666;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 33, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-codewarrior .sh_sourceCode .sh_regexp {
+  color: #666;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 33, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-codewarrior .sh_sourceCode .sh_specialchar {
+  color: #666;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 33, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-codewarrior .sh_sourceCode .sh_comment {
+  color: #b30000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 33, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-codewarrior .sh_sourceCode .sh_number {
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 33, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-codewarrior .sh_sourceCode .sh_preproc {
+  color: #0000b3;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 33, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-codewarrior .sh_sourceCode .sh_function {
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 33, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-codewarrior .sh_sourceCode .sh_url {
+  color: #666;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 33, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-codewarrior .sh_sourceCode .sh_date {
+  color: #0000b3;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 33, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-codewarrior .sh_sourceCode .sh_time {
+  color: #0000b3;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 33, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-codewarrior .sh_sourceCode .sh_file {
+  color: #0000b3;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 33, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-codewarrior .sh_sourceCode .sh_ip {
+  color: #666;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 33, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-codewarrior .sh_sourceCode .sh_name {
+  color: #666;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 33, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-codewarrior .sh_sourceCode .sh_variable {
+  color: #0000b3;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 33, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-codewarrior .sh_sourceCode .sh_oldfile {
+  color: #666;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 33, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-codewarrior .sh_sourceCode .sh_newfile {
+  color: #666;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 33, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-codewarrior .sh_sourceCode .sh_difflines {
+  color: #0000b3;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 33, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-codewarrior .sh_sourceCode .sh_selector {
+  color: #0000b3;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 33, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-codewarrior .sh_sourceCode .sh_property {
+  color: #0000b3;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 33, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-codewarrior .sh_sourceCode .sh_value {
+  color: #666;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 35, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-devcpp {
+  background: none;
+  padding: 0;
+  margin: 0;
+  border: 0 none;
+}
+
+/* line 35, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-devcpp .sh_sourceCode {
+  background-color: #fff;
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 35, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-devcpp .sh_sourceCode .sh_keyword {
+  color: #000;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 35, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-devcpp .sh_sourceCode .sh_type {
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 35, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-devcpp .sh_sourceCode .sh_string {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 35, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-devcpp .sh_sourceCode .sh_regexp {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 35, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-devcpp .sh_sourceCode .sh_specialchar {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 35, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-devcpp .sh_sourceCode .sh_comment {
+  color: #000080;
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* line 35, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-devcpp .sh_sourceCode .sh_number {
+  color: #00f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 35, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-devcpp .sh_sourceCode .sh_preproc {
+  color: #008000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 35, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-devcpp .sh_sourceCode .sh_function {
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 35, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-devcpp .sh_sourceCode .sh_url {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 35, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-devcpp .sh_sourceCode .sh_date {
+  color: #000;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 35, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-devcpp .sh_sourceCode .sh_time {
+  color: #000;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 35, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-devcpp .sh_sourceCode .sh_file {
+  color: #000;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 35, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-devcpp .sh_sourceCode .sh_ip {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 35, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-devcpp .sh_sourceCode .sh_name {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 35, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-devcpp .sh_sourceCode .sh_variable {
+  color: #000;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 35, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-devcpp .sh_sourceCode .sh_oldfile {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 35, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-devcpp .sh_sourceCode .sh_newfile {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 35, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-devcpp .sh_sourceCode .sh_difflines {
+  color: #000;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 35, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-devcpp .sh_sourceCode .sh_selector {
+  color: #000;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 35, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-devcpp .sh_sourceCode .sh_property {
+  color: #000;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 35, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-devcpp .sh_sourceCode .sh_value {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 37, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-eclipse {
+  background: none;
+  padding: 0;
+  margin: 0;
+  border: 0 none;
+}
+
+/* line 37, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-eclipse .sh_sourceCode {
+  background-color: #fff;
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 37, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-eclipse .sh_sourceCode .sh_keyword {
+  color: #7f0055;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 37, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-eclipse .sh_sourceCode .sh_type {
+  color: #7f0055;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 37, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-eclipse .sh_sourceCode .sh_string {
+  color: #00f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 37, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-eclipse .sh_sourceCode .sh_regexp {
+  color: #00f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 37, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-eclipse .sh_sourceCode .sh_specialchar {
+  color: #00f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 37, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-eclipse .sh_sourceCode .sh_comment {
+  color: #717ab3;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 37, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-eclipse .sh_sourceCode .sh_number {
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 37, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-eclipse .sh_sourceCode .sh_preproc {
+  color: #3f5fbf;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 37, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-eclipse .sh_sourceCode .sh_function {
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 37, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-eclipse .sh_sourceCode .sh_url {
+  color: #00f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 37, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-eclipse .sh_sourceCode .sh_date {
+  color: #7f0055;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 37, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-eclipse .sh_sourceCode .sh_time {
+  color: #7f0055;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 37, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-eclipse .sh_sourceCode .sh_file {
+  color: #7f0055;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 37, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-eclipse .sh_sourceCode .sh_ip {
+  color: #00f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 37, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-eclipse .sh_sourceCode .sh_name {
+  color: #00f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 37, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-eclipse .sh_sourceCode .sh_variable {
+  color: #7f0055;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 37, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-eclipse .sh_sourceCode .sh_oldfile {
+  color: #00f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 37, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-eclipse .sh_sourceCode .sh_newfile {
+  color: #00f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 37, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-eclipse .sh_sourceCode .sh_difflines {
+  color: #7f0055;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 37, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-eclipse .sh_sourceCode .sh_selector {
+  color: #7f0055;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 37, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-eclipse .sh_sourceCode .sh_property {
+  color: #7f0055;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 37, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-eclipse .sh_sourceCode .sh_value {
+  color: #00f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 39, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-kdev {
+  background: none;
+  padding: 0;
+  margin: 0;
+  border: 0 none;
+}
+
+/* line 39, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-kdev .sh_sourceCode {
+  background-color: #fff;
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 39, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-kdev .sh_sourceCode .sh_keyword {
+  color: #600000;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 39, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-kdev .sh_sourceCode .sh_type {
+  color: #600000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 39, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-kdev .sh_sourceCode .sh_string {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 39, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-kdev .sh_sourceCode .sh_regexp {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 39, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-kdev .sh_sourceCode .sh_specialchar {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 39, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-kdev .sh_sourceCode .sh_comment {
+  color: #bfbfbf;
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* line 39, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-kdev .sh_sourceCode .sh_number {
+  color: #00f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 39, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-kdev .sh_sourceCode .sh_preproc {
+  color: #008000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 39, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-kdev .sh_sourceCode .sh_function {
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 39, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-kdev .sh_sourceCode .sh_url {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 39, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-kdev .sh_sourceCode .sh_date {
+  color: #600000;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 39, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-kdev .sh_sourceCode .sh_time {
+  color: #600000;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 39, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-kdev .sh_sourceCode .sh_file {
+  color: #600000;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 39, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-kdev .sh_sourceCode .sh_ip {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 39, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-kdev .sh_sourceCode .sh_name {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 39, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-kdev .sh_sourceCode .sh_variable {
+  color: #600000;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 39, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-kdev .sh_sourceCode .sh_oldfile {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 39, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-kdev .sh_sourceCode .sh_newfile {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 39, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-kdev .sh_sourceCode .sh_difflines {
+  color: #600000;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 39, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-kdev .sh_sourceCode .sh_selector {
+  color: #600000;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 39, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-kdev .sh_sourceCode .sh_property {
+  color: #600000;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 39, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-kdev .sh_sourceCode .sh_value {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 41, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-msvcpp {
+  background: none;
+  padding: 0;
+  margin: 0;
+  border: 0 none;
+}
+
+/* line 41, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-msvcpp .sh_sourceCode {
+  background-color: #fff;
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 41, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-msvcpp .sh_sourceCode .sh_keyword {
+  color: #00f;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 41, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-msvcpp .sh_sourceCode .sh_type {
+  color: #00f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 41, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-msvcpp .sh_sourceCode .sh_string {
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 41, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-msvcpp .sh_sourceCode .sh_regexp {
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 41, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-msvcpp .sh_sourceCode .sh_specialchar {
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 41, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-msvcpp .sh_sourceCode .sh_comment {
+  color: #008000;
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* line 41, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-msvcpp .sh_sourceCode .sh_number {
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 41, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-msvcpp .sh_sourceCode .sh_preproc {
+  color: #00f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 41, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-msvcpp .sh_sourceCode .sh_function {
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 41, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-msvcpp .sh_sourceCode .sh_url {
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 41, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-msvcpp .sh_sourceCode .sh_date {
+  color: #00f;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 41, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-msvcpp .sh_sourceCode .sh_time {
+  color: #00f;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 41, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-msvcpp .sh_sourceCode .sh_file {
+  color: #00f;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 41, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-msvcpp .sh_sourceCode .sh_ip {
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 41, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-msvcpp .sh_sourceCode .sh_name {
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 41, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-msvcpp .sh_sourceCode .sh_variable {
+  color: #00f;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 41, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-msvcpp .sh_sourceCode .sh_oldfile {
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 41, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-msvcpp .sh_sourceCode .sh_newfile {
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 41, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-msvcpp .sh_sourceCode .sh_difflines {
+  color: #00f;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 41, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-msvcpp .sh_sourceCode .sh_selector {
+  color: #00f;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 41, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-msvcpp .sh_sourceCode .sh_property {
+  color: #00f;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 41, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_ide-msvcpp .sh_sourceCode .sh_value {
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 43, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_kwrite {
+  background: none;
+  padding: 0;
+  margin: 0;
+  border: 0 none;
+}
+
+/* line 43, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_kwrite .sh_sourceCode {
+  background-color: #fff;
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 43, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_kwrite .sh_sourceCode .sh_keyword {
+  color: #000;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 43, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_kwrite .sh_sourceCode .sh_type {
+  color: #830000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 43, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_kwrite .sh_sourceCode .sh_string {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 43, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_kwrite .sh_sourceCode .sh_regexp {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 43, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_kwrite .sh_sourceCode .sh_specialchar {
+  color: #f0f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 43, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_kwrite .sh_sourceCode .sh_comment {
+  color: #838183;
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* line 43, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_kwrite .sh_sourceCode .sh_number {
+  color: #2928ff;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 43, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_kwrite .sh_sourceCode .sh_preproc {
+  color: #008200;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 43, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_kwrite .sh_sourceCode .sh_function {
+  color: #010181;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 43, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_kwrite .sh_sourceCode .sh_url {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 43, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_kwrite .sh_sourceCode .sh_date {
+  color: #000;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 43, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_kwrite .sh_sourceCode .sh_time {
+  color: #000;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 43, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_kwrite .sh_sourceCode .sh_file {
+  color: #000;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 43, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_kwrite .sh_sourceCode .sh_ip {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 43, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_kwrite .sh_sourceCode .sh_name {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 43, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_kwrite .sh_sourceCode .sh_variable {
+  color: #000;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 43, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_kwrite .sh_sourceCode .sh_oldfile {
+  color: #f0f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 43, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_kwrite .sh_sourceCode .sh_newfile {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 43, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_kwrite .sh_sourceCode .sh_difflines {
+  color: #000;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 43, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_kwrite .sh_sourceCode .sh_selector {
+  color: #000;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 43, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_kwrite .sh_sourceCode .sh_property {
+  color: #000;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 43, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_kwrite .sh_sourceCode .sh_value {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 45, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_matlab {
+  background: none;
+  padding: 0;
+  margin: 0;
+  border: 0 none;
+}
+
+/* line 45, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_matlab .sh_sourceCode {
+  background-color: #fff;
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 45, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_matlab .sh_sourceCode .sh_keyword {
+  color: #00f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 45, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_matlab .sh_sourceCode .sh_type {
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 45, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_matlab .sh_sourceCode .sh_string {
+  color: #800000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 45, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_matlab .sh_sourceCode .sh_regexp {
+  color: #800000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 45, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_matlab .sh_sourceCode .sh_specialchar {
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 45, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_matlab .sh_sourceCode .sh_number {
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 45, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_matlab .sh_sourceCode .sh_function {
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 45, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_matlab .sh_sourceCode .sh_url {
+  color: #800000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 45, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_matlab .sh_sourceCode .sh_date {
+  color: #00f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 45, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_matlab .sh_sourceCode .sh_time {
+  color: #00f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 45, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_matlab .sh_sourceCode .sh_file {
+  color: #00f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 45, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_matlab .sh_sourceCode .sh_ip {
+  color: #800000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 45, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_matlab .sh_sourceCode .sh_name {
+  color: #800000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 45, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_matlab .sh_sourceCode .sh_variable {
+  color: #00f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 45, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_matlab .sh_sourceCode .sh_oldfile {
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 45, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_matlab .sh_sourceCode .sh_newfile {
+  color: #800000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 45, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_matlab .sh_sourceCode .sh_difflines {
+  color: #00f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 45, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_matlab .sh_sourceCode .sh_selector {
+  color: #00f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 45, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_matlab .sh_sourceCode .sh_property {
+  color: #00f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 45, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_matlab .sh_sourceCode .sh_value {
+  color: #800000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 47, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_navy {
+  background: none;
+  padding: 0;
+  margin: 0;
+  border: 0 none;
+}
+
+/* line 47, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_navy .sh_sourceCode {
+  background-color: #000035;
+  color: #008bff;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 47, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_navy .sh_sourceCode .sh_keyword {
+  color: #f8c50b;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 47, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_navy .sh_sourceCode .sh_type {
+  color: #e1e72f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 47, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_navy .sh_sourceCode .sh_string {
+  color: #fff;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 47, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_navy .sh_sourceCode .sh_regexp {
+  color: #fff;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 47, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_navy .sh_sourceCode .sh_specialchar {
+  color: #fff;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 47, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_navy .sh_sourceCode .sh_comment {
+  color: #fb0;
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* line 47, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_navy .sh_sourceCode .sh_number {
+  color: #f87ff4;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 47, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_navy .sh_sourceCode .sh_preproc {
+  color: #b0f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 47, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_navy .sh_sourceCode .sh_symbol {
+  color: #fff;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 47, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_navy .sh_sourceCode .sh_function {
+  color: #fff;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 47, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_navy .sh_sourceCode .sh_cbracket {
+  color: #fff;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 47, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_navy .sh_sourceCode .sh_url {
+  color: #fff;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 47, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_navy .sh_sourceCode .sh_date {
+  color: #f8c50b;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 47, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_navy .sh_sourceCode .sh_time {
+  color: #f8c50b;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 47, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_navy .sh_sourceCode .sh_file {
+  color: #f8c50b;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 47, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_navy .sh_sourceCode .sh_ip {
+  color: #fff;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 47, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_navy .sh_sourceCode .sh_name {
+  color: #fff;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 47, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_navy .sh_sourceCode .sh_variable {
+  color: #13d8ef;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 47, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_navy .sh_sourceCode .sh_oldfile {
+  color: #fff;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 47, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_navy .sh_sourceCode .sh_newfile {
+  color: #fff;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 47, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_navy .sh_sourceCode .sh_difflines {
+  color: #f8c50b;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 47, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_navy .sh_sourceCode .sh_selector {
+  color: #13d8ef;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 47, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_navy .sh_sourceCode .sh_property {
+  color: #f8c50b;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 47, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_navy .sh_sourceCode .sh_value {
+  color: #fff;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 49, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_nedit {
+  background: none;
+  padding: 0;
+  margin: 0;
+  border: 0 none;
+}
+
+/* line 49, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_nedit .sh_sourceCode {
+  background-color: #fff;
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 49, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_nedit .sh_sourceCode .sh_keyword {
+  color: #000;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 49, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_nedit .sh_sourceCode .sh_type {
+  color: #a52a2a;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 49, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_nedit .sh_sourceCode .sh_string {
+  color: #006400;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 49, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_nedit .sh_sourceCode .sh_regexp {
+  color: #006400;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 49, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_nedit .sh_sourceCode .sh_specialchar {
+  color: #2e8b57;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 49, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_nedit .sh_sourceCode .sh_comment {
+  color: #000;
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* line 49, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_nedit .sh_sourceCode .sh_number {
+  color: #006400;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 49, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_nedit .sh_sourceCode .sh_preproc {
+  color: #27408b;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 49, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_nedit .sh_sourceCode .sh_symbol {
+  color: #000;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 49, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_nedit .sh_sourceCode .sh_function {
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 49, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_nedit .sh_sourceCode .sh_cbracket {
+  color: #000;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 49, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_nedit .sh_sourceCode .sh_url {
+  color: #006400;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 49, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_nedit .sh_sourceCode .sh_date {
+  color: #000;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 49, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_nedit .sh_sourceCode .sh_time {
+  color: #000;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 49, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_nedit .sh_sourceCode .sh_file {
+  color: #000;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 49, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_nedit .sh_sourceCode .sh_ip {
+  color: #006400;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 49, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_nedit .sh_sourceCode .sh_name {
+  color: #006400;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 49, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_nedit .sh_sourceCode .sh_variable {
+  color: #dda0dd;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 49, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_nedit .sh_sourceCode .sh_oldfile {
+  color: #2e8b57;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 49, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_nedit .sh_sourceCode .sh_newfile {
+  color: #006400;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 49, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_nedit .sh_sourceCode .sh_difflines {
+  color: #000;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 49, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_nedit .sh_sourceCode .sh_selector {
+  color: #dda0dd;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 49, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_nedit .sh_sourceCode .sh_property {
+  color: #000;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 49, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_nedit .sh_sourceCode .sh_value {
+  color: #006400;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 51, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_neon {
+  background: none;
+  padding: 0;
+  margin: 0;
+  border: 0 none;
+}
+
+/* line 51, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_neon .sh_sourceCode {
+  background-color: #000;
+  color: #fff;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 51, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_neon .sh_sourceCode .sh_keyword {
+  color: #0ff;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 51, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_neon .sh_sourceCode .sh_type {
+  color: #ff0;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 51, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_neon .sh_sourceCode .sh_string {
+  color: #cd00ff;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 51, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_neon .sh_sourceCode .sh_regexp {
+  color: #cd00ff;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 51, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_neon .sh_sourceCode .sh_specialchar {
+  color: #cd00ff;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 51, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_neon .sh_sourceCode .sh_comment {
+  color: #0f0;
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* line 51, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_neon .sh_sourceCode .sh_number {
+  color: #f0f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 51, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_neon .sh_sourceCode .sh_preproc {
+  color: #fb0;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 51, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_neon .sh_sourceCode .sh_symbol {
+  color: #ee5896;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 51, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_neon .sh_sourceCode .sh_function {
+  color: #fff;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 51, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_neon .sh_sourceCode .sh_cbracket {
+  color: #ee5896;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 51, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_neon .sh_sourceCode .sh_url {
+  color: #cd00ff;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 51, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_neon .sh_sourceCode .sh_date {
+  color: #0ff;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 51, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_neon .sh_sourceCode .sh_time {
+  color: #0ff;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 51, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_neon .sh_sourceCode .sh_file {
+  color: #0ff;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 51, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_neon .sh_sourceCode .sh_ip {
+  color: #cd00ff;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 51, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_neon .sh_sourceCode .sh_name {
+  color: #cd00ff;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 51, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_neon .sh_sourceCode .sh_variable {
+  color: #ef1347;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 51, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_neon .sh_sourceCode .sh_oldfile {
+  color: #cd00ff;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 51, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_neon .sh_sourceCode .sh_newfile {
+  color: #cd00ff;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 51, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_neon .sh_sourceCode .sh_difflines {
+  color: #0ff;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 51, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_neon .sh_sourceCode .sh_selector {
+  color: #ef1347;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 51, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_neon .sh_sourceCode .sh_property {
+  color: #0ff;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 51, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_neon .sh_sourceCode .sh_value {
+  color: #cd00ff;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 53, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_night {
+  background: none;
+  padding: 0;
+  margin: 0;
+  border: 0 none;
+}
+
+/* line 53, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_night .sh_sourceCode {
+  background-color: #004;
+  color: #d0f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 53, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_night .sh_sourceCode .sh_keyword {
+  color: #fff;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 53, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_night .sh_sourceCode .sh_type {
+  color: #f1157c;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 53, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_night .sh_sourceCode .sh_string {
+  color: #fff;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 53, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_night .sh_sourceCode .sh_regexp {
+  color: #fff;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 53, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_night .sh_sourceCode .sh_specialchar {
+  color: #82d66d;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 53, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_night .sh_sourceCode .sh_comment {
+  color: #bfbfbf;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 53, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_night .sh_sourceCode .sh_number {
+  color: #8ee119;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 53, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_night .sh_sourceCode .sh_preproc {
+  color: #0b0;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 53, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_night .sh_sourceCode .sh_symbol {
+  color: #e7ee5c;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 53, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_night .sh_sourceCode .sh_function {
+  color: #ff06cd;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 53, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_night .sh_sourceCode .sh_cbracket {
+  color: #e7ee5c;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 53, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_night .sh_sourceCode .sh_url {
+  color: #fff;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 53, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_night .sh_sourceCode .sh_date {
+  color: #fff;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 53, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_night .sh_sourceCode .sh_time {
+  color: #fff;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 53, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_night .sh_sourceCode .sh_file {
+  color: #fff;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 53, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_night .sh_sourceCode .sh_ip {
+  color: #fff;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 53, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_night .sh_sourceCode .sh_name {
+  color: #fff;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 53, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_night .sh_sourceCode .sh_variable {
+  color: #7aec27;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 53, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_night .sh_sourceCode .sh_oldfile {
+  color: #82d66d;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 53, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_night .sh_sourceCode .sh_newfile {
+  color: #fff;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 53, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_night .sh_sourceCode .sh_difflines {
+  color: #fff;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 53, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_night .sh_sourceCode .sh_selector {
+  color: #7aec27;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 53, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_night .sh_sourceCode .sh_property {
+  color: #fff;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 53, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_night .sh_sourceCode .sh_value {
+  color: #fff;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 55, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_pablo {
+  background: none;
+  padding: 0;
+  margin: 0;
+  border: 0 none;
+}
+
+/* line 55, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_pablo .sh_sourceCode {
+  background-color: #000;
+  color: #fff;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 55, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_pablo .sh_sourceCode .sh_keyword {
+  color: #c0c000;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 55, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_pablo .sh_sourceCode .sh_type {
+  color: #00c000;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 55, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_pablo .sh_sourceCode .sh_string {
+  color: #0ff;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 55, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_pablo .sh_sourceCode .sh_regexp {
+  color: #0ff;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 55, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_pablo .sh_sourceCode .sh_specialchar {
+  color: #00f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 55, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_pablo .sh_sourceCode .sh_comment {
+  color: #808080;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 55, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_pablo .sh_sourceCode .sh_number {
+  color: #0ff;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 55, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_pablo .sh_sourceCode .sh_preproc {
+  color: #0f0;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 55, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_pablo .sh_sourceCode .sh_symbol {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 55, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_pablo .sh_sourceCode .sh_function {
+  color: #ff22b9;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 55, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_pablo .sh_sourceCode .sh_cbracket {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 55, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_pablo .sh_sourceCode .sh_url {
+  color: #0ff;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 55, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_pablo .sh_sourceCode .sh_date {
+  color: #c0c000;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 55, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_pablo .sh_sourceCode .sh_time {
+  color: #c0c000;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 55, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_pablo .sh_sourceCode .sh_file {
+  color: #c0c000;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 55, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_pablo .sh_sourceCode .sh_ip {
+  color: #0ff;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 55, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_pablo .sh_sourceCode .sh_name {
+  color: #0ff;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 55, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_pablo .sh_sourceCode .sh_variable {
+  color: #0000c0;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 55, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_pablo .sh_sourceCode .sh_oldfile {
+  color: #00f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 55, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_pablo .sh_sourceCode .sh_newfile {
+  color: #0ff;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 55, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_pablo .sh_sourceCode .sh_difflines {
+  color: #c0c000;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 55, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_pablo .sh_sourceCode .sh_selector {
+  color: #0000c0;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 55, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_pablo .sh_sourceCode .sh_property {
+  color: #c0c000;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 55, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_pablo .sh_sourceCode .sh_value {
+  color: #0ff;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 57, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_peachpuff {
+  background: none;
+  padding: 0;
+  margin: 0;
+  border: 0 none;
+}
+
+/* line 57, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_peachpuff .sh_sourceCode {
+  background-color: #ffdab9;
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 57, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_peachpuff .sh_sourceCode .sh_keyword {
+  color: #a52a2a;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 57, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_peachpuff .sh_sourceCode .sh_type {
+  color: #2e8b57;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 57, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_peachpuff .sh_sourceCode .sh_string {
+  color: #c00058;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 57, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_peachpuff .sh_sourceCode .sh_regexp {
+  color: #c00058;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 57, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_peachpuff .sh_sourceCode .sh_specialchar {
+  color: #6a5acd;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 57, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_peachpuff .sh_sourceCode .sh_comment {
+  color: #406090;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 57, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_peachpuff .sh_sourceCode .sh_number {
+  color: #c00058;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 57, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_peachpuff .sh_sourceCode .sh_preproc {
+  color: #cd00cd;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 57, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_peachpuff .sh_sourceCode .sh_function {
+  color: #521cc7;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 57, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_peachpuff .sh_sourceCode .sh_url {
+  color: #c00058;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 57, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_peachpuff .sh_sourceCode .sh_date {
+  color: #a52a2a;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 57, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_peachpuff .sh_sourceCode .sh_time {
+  color: #a52a2a;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 57, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_peachpuff .sh_sourceCode .sh_file {
+  color: #a52a2a;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 57, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_peachpuff .sh_sourceCode .sh_ip {
+  color: #c00058;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 57, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_peachpuff .sh_sourceCode .sh_name {
+  color: #c00058;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 57, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_peachpuff .sh_sourceCode .sh_variable {
+  color: #275fec;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 57, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_peachpuff .sh_sourceCode .sh_oldfile {
+  color: #6a5acd;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 57, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_peachpuff .sh_sourceCode .sh_newfile {
+  color: #c00058;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 57, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_peachpuff .sh_sourceCode .sh_difflines {
+  color: #a52a2a;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 57, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_peachpuff .sh_sourceCode .sh_selector {
+  color: #275fec;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 57, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_peachpuff .sh_sourceCode .sh_property {
+  color: #a52a2a;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 57, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_peachpuff .sh_sourceCode .sh_value {
+  color: #c00058;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 59, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_print {
+  background: none;
+  padding: 0;
+  margin: 0;
+  border: 0 none;
+}
+
+/* line 59, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_print .sh_sourceCode {
+  background-color: #fff;
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 59, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_print .sh_sourceCode .sh_keyword {
+  color: #000;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 59, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_print .sh_sourceCode .sh_type {
+  color: #000;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 59, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_print .sh_sourceCode .sh_string {
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 59, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_print .sh_sourceCode .sh_regexp {
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 59, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_print .sh_sourceCode .sh_specialchar {
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 59, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_print .sh_sourceCode .sh_comment {
+  color: #666;
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* line 59, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_print .sh_sourceCode .sh_number {
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 59, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_print .sh_sourceCode .sh_preproc {
+  color: #000;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 59, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_print .sh_sourceCode .sh_symbol {
+  color: #000;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 59, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_print .sh_sourceCode .sh_cbracket {
+  color: #000;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 59, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_print .sh_sourceCode .sh_url {
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 59, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_print .sh_sourceCode .sh_date {
+  color: #000;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 59, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_print .sh_sourceCode .sh_time {
+  color: #000;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 59, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_print .sh_sourceCode .sh_file {
+  color: #000;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 59, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_print .sh_sourceCode .sh_ip {
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 59, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_print .sh_sourceCode .sh_name {
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 59, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_print .sh_sourceCode .sh_variable {
+  color: #000;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 59, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_print .sh_sourceCode .sh_oldfile {
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 59, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_print .sh_sourceCode .sh_newfile {
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 59, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_print .sh_sourceCode .sh_difflines {
+  color: #000;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 59, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_print .sh_sourceCode .sh_selector {
+  color: #000;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 59, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_print .sh_sourceCode .sh_property {
+  color: #000;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 59, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_print .sh_sourceCode .sh_value {
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 61, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_rand01 {
+  background: none;
+  padding: 0;
+  margin: 0;
+  border: 0 none;
+}
+
+/* line 61, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_rand01 .sh_sourceCode {
+  background-color: #fff;
+  color: #121b28;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 61, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_rand01 .sh_sourceCode .sh_keyword {
+  color: #0a7f6d;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 61, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_rand01 .sh_sourceCode .sh_type {
+  color: #c42638;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 61, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_rand01 .sh_sourceCode .sh_string {
+  color: #2b83ba;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 61, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_rand01 .sh_sourceCode .sh_regexp {
+  color: #2b83ba;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 61, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_rand01 .sh_sourceCode .sh_specialchar {
+  color: #a764cb;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 61, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_rand01 .sh_sourceCode .sh_comment {
+  color: #ababab;
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* line 61, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_rand01 .sh_sourceCode .sh_number {
+  color: #0da344;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 61, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_rand01 .sh_sourceCode .sh_preproc {
+  color: #620ac6;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 61, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_rand01 .sh_sourceCode .sh_symbol {
+  color: #0000de;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 61, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_rand01 .sh_sourceCode .sh_function {
+  color: #000;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 61, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_rand01 .sh_sourceCode .sh_cbracket {
+  color: #0000de;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 61, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_rand01 .sh_sourceCode .sh_url {
+  color: #2b83ba;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 61, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_rand01 .sh_sourceCode .sh_date {
+  color: #0a7f6d;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 61, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_rand01 .sh_sourceCode .sh_time {
+  color: #0a7f6d;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 61, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_rand01 .sh_sourceCode .sh_file {
+  color: #0a7f6d;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 61, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_rand01 .sh_sourceCode .sh_ip {
+  color: #2b83ba;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 61, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_rand01 .sh_sourceCode .sh_name {
+  color: #2b83ba;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 61, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_rand01 .sh_sourceCode .sh_variable {
+  color: #e12f76;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 61, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_rand01 .sh_sourceCode .sh_oldfile {
+  color: #a764cb;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 61, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_rand01 .sh_sourceCode .sh_newfile {
+  color: #2b83ba;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 61, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_rand01 .sh_sourceCode .sh_difflines {
+  color: #0a7f6d;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 61, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_rand01 .sh_sourceCode .sh_selector {
+  color: #e12f76;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 61, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_rand01 .sh_sourceCode .sh_property {
+  color: #0a7f6d;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 61, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_rand01 .sh_sourceCode .sh_value {
+  color: #2b83ba;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 63, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_the {
+  background: none;
+  padding: 0;
+  margin: 0;
+  border: 0 none;
+}
+
+/* line 63, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_the .sh_sourceCode {
+  background-color: #fff;
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 63, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_the .sh_sourceCode .sh_keyword {
+  color: #00f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 63, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_the .sh_sourceCode .sh_type {
+  color: #808;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 63, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_the .sh_sourceCode .sh_string {
+  color: #008;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 63, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_the .sh_sourceCode .sh_regexp {
+  color: #008;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 63, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_the .sh_sourceCode .sh_specialchar {
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 63, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_the .sh_sourceCode .sh_comment {
+  color: #0f0;
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* line 63, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_the .sh_sourceCode .sh_number {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 63, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_the .sh_sourceCode .sh_preproc {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 63, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_the .sh_sourceCode .sh_function {
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 63, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_the .sh_sourceCode .sh_url {
+  color: #008;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 63, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_the .sh_sourceCode .sh_date {
+  color: #00f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 63, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_the .sh_sourceCode .sh_time {
+  color: #00f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 63, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_the .sh_sourceCode .sh_file {
+  color: #00f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 63, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_the .sh_sourceCode .sh_ip {
+  color: #008;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 63, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_the .sh_sourceCode .sh_name {
+  color: #008;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 63, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_the .sh_sourceCode .sh_variable {
+  color: #00f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 63, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_the .sh_sourceCode .sh_oldfile {
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 63, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_the .sh_sourceCode .sh_newfile {
+  color: #008;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 63, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_the .sh_sourceCode .sh_difflines {
+  color: #00f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 63, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_the .sh_sourceCode .sh_selector {
+  color: #00f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 63, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_the .sh_sourceCode .sh_property {
+  color: #00f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 63, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_the .sh_sourceCode .sh_value {
+  color: #008;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 65, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_typical {
+  background: none;
+  padding: 0;
+  margin: 0;
+  border: 0 none;
+}
+
+/* line 65, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_typical .sh_sourceCode {
+  background-color: #fff;
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 65, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_typical .sh_sourceCode .sh_keyword {
+  color: #00f;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 65, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_typical .sh_sourceCode .sh_type {
+  color: #00f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 65, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_typical .sh_sourceCode .sh_string {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 65, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_typical .sh_sourceCode .sh_regexp {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 65, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_typical .sh_sourceCode .sh_specialchar {
+  color: #C42DA8;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 65, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_typical .sh_sourceCode .sh_comment {
+  color: #666;
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* line 65, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_typical .sh_sourceCode .sh_number {
+  color: #a900a9;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 65, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_typical .sh_sourceCode .sh_preproc {
+  color: #00b800;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 65, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_typical .sh_sourceCode .sh_symbol {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 65, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_typical .sh_sourceCode .sh_function {
+  color: #000;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 65, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_typical .sh_sourceCode .sh_cbracket {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 65, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_typical .sh_sourceCode .sh_url {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 65, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_typical .sh_sourceCode .sh_date {
+  color: #00f;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 65, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_typical .sh_sourceCode .sh_time {
+  color: #00f;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 65, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_typical .sh_sourceCode .sh_file {
+  color: #00f;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 65, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_typical .sh_sourceCode .sh_ip {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 65, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_typical .sh_sourceCode .sh_name {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 65, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_typical .sh_sourceCode .sh_variable {
+  color: #ec7f15;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 65, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_typical .sh_sourceCode .sh_oldfile {
+  color: #C42DA8;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 65, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_typical .sh_sourceCode .sh_newfile {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 65, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_typical .sh_sourceCode .sh_difflines {
+  color: #00f;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 65, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_typical .sh_sourceCode .sh_selector {
+  color: #ec7f15;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 65, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_typical .sh_sourceCode .sh_property {
+  color: #00f;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 65, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_typical .sh_sourceCode .sh_value {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 67, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vampire {
+  background: none;
+  padding: 0;
+  margin: 0;
+  border: 0 none;
+}
+
+/* line 67, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vampire .sh_sourceCode {
+  background-color: #000;
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 67, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vampire .sh_sourceCode .sh_keyword {
+  color: #fff;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 67, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vampire .sh_sourceCode .sh_type {
+  color: #F35E1E;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 67, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vampire .sh_sourceCode .sh_string {
+  color: #b0f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 67, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vampire .sh_sourceCode .sh_regexp {
+  color: #b0f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 67, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vampire .sh_sourceCode .sh_specialchar {
+  color: #fff;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 67, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vampire .sh_sourceCode .sh_comment {
+  color: #ababab;
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* line 67, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vampire .sh_sourceCode .sh_number {
+  color: #b0f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 67, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vampire .sh_sourceCode .sh_preproc {
+  color: #ababab;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 67, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vampire .sh_sourceCode .sh_symbol {
+  color: #F3E651;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 67, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vampire .sh_sourceCode .sh_function {
+  color: #7bc710;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 67, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vampire .sh_sourceCode .sh_cbracket {
+  color: #F3E651;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 67, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vampire .sh_sourceCode .sh_url {
+  color: #b0f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 67, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vampire .sh_sourceCode .sh_date {
+  color: #fff;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 67, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vampire .sh_sourceCode .sh_time {
+  color: #fff;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 67, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vampire .sh_sourceCode .sh_file {
+  color: #fff;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 67, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vampire .sh_sourceCode .sh_ip {
+  color: #b0f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 67, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vampire .sh_sourceCode .sh_name {
+  color: #b0f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 67, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vampire .sh_sourceCode .sh_variable {
+  color: #fff;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 67, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vampire .sh_sourceCode .sh_oldfile {
+  color: #fff;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 67, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vampire .sh_sourceCode .sh_newfile {
+  color: #b0f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 67, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vampire .sh_sourceCode .sh_difflines {
+  color: #fff;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 67, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vampire .sh_sourceCode .sh_selector {
+  color: #fff;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 67, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vampire .sh_sourceCode .sh_property {
+  color: #fff;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 67, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vampire .sh_sourceCode .sh_value {
+  color: #b0f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 69, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vim-dark {
+  background: none;
+  padding: 0;
+  margin: 0;
+  border: 0 none;
+}
+
+/* line 69, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vim-dark .sh_sourceCode {
+  background-color: #000;
+  color: #fff;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 69, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vim-dark .sh_sourceCode .sh_keyword {
+  color: #B26818;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 69, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vim-dark .sh_sourceCode .sh_type {
+  color: #0f0;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 69, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vim-dark .sh_sourceCode .sh_string {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 69, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vim-dark .sh_sourceCode .sh_regexp {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 69, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vim-dark .sh_sourceCode .sh_specialchar {
+  color: #f2f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 69, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vim-dark .sh_sourceCode .sh_comment {
+  color: #00f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 69, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vim-dark .sh_sourceCode .sh_number {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 69, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vim-dark .sh_sourceCode .sh_preproc {
+  color: #f2f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 69, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vim-dark .sh_sourceCode .sh_function {
+  color: #fff;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 69, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vim-dark .sh_sourceCode .sh_url {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 69, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vim-dark .sh_sourceCode .sh_date {
+  color: #B26818;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 69, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vim-dark .sh_sourceCode .sh_time {
+  color: #B26818;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 69, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vim-dark .sh_sourceCode .sh_file {
+  color: #B26818;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 69, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vim-dark .sh_sourceCode .sh_ip {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 69, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vim-dark .sh_sourceCode .sh_name {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 69, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vim-dark .sh_sourceCode .sh_variable {
+  color: #B26818;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 69, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vim-dark .sh_sourceCode .sh_oldfile {
+  color: #f2f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 69, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vim-dark .sh_sourceCode .sh_newfile {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 69, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vim-dark .sh_sourceCode .sh_difflines {
+  color: #B26818;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 69, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vim-dark .sh_sourceCode .sh_selector {
+  color: #B26818;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 69, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vim-dark .sh_sourceCode .sh_property {
+  color: #B26818;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 69, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vim-dark .sh_sourceCode .sh_value {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 71, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vim {
+  background: none;
+  padding: 0;
+  margin: 0;
+  border: 0 none;
+}
+
+/* line 71, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vim .sh_sourceCode {
+  background-color: #fff;
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 71, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vim .sh_sourceCode .sh_keyword {
+  color: #B26818;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 71, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vim .sh_sourceCode .sh_type {
+  color: #0f0;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 71, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vim .sh_sourceCode .sh_string {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 71, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vim .sh_sourceCode .sh_regexp {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 71, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vim .sh_sourceCode .sh_specialchar {
+  color: #f2f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 71, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vim .sh_sourceCode .sh_comment {
+  color: #00f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 71, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vim .sh_sourceCode .sh_number {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 71, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vim .sh_sourceCode .sh_preproc {
+  color: #f2f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 71, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vim .sh_sourceCode .sh_function {
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 71, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vim .sh_sourceCode .sh_url {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 71, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vim .sh_sourceCode .sh_date {
+  color: #B26818;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 71, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vim .sh_sourceCode .sh_time {
+  color: #B26818;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 71, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vim .sh_sourceCode .sh_file {
+  color: #B26818;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 71, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vim .sh_sourceCode .sh_ip {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 71, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vim .sh_sourceCode .sh_name {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 71, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vim .sh_sourceCode .sh_variable {
+  color: #B26818;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 71, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vim .sh_sourceCode .sh_oldfile {
+  color: #f2f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 71, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vim .sh_sourceCode .sh_newfile {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 71, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vim .sh_sourceCode .sh_difflines {
+  color: #B26818;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 71, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vim .sh_sourceCode .sh_selector {
+  color: #B26818;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 71, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vim .sh_sourceCode .sh_property {
+  color: #B26818;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 71, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_vim .sh_sourceCode .sh_value {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 73, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_whatis {
+  background: none;
+  padding: 0;
+  margin: 0;
+  border: 0 none;
+}
+
+/* line 73, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_whatis .sh_sourceCode {
+  background-color: #000;
+  color: #0f0;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 73, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_whatis .sh_sourceCode .sh_keyword {
+  color: #fa5a03;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 73, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_whatis .sh_sourceCode .sh_type {
+  color: #fff;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 73, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_whatis .sh_sourceCode .sh_string {
+  color: #fb0;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 73, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_whatis .sh_sourceCode .sh_regexp {
+  color: #fb0;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 73, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_whatis .sh_sourceCode .sh_specialchar {
+  color: #fb0;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 73, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_whatis .sh_sourceCode .sh_comment {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 73, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_whatis .sh_sourceCode .sh_number {
+  color: #ff0;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 73, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_whatis .sh_sourceCode .sh_preproc {
+  color: #bfbfbf;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 73, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_whatis .sh_sourceCode .sh_symbol {
+  color: #0ff;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 73, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_whatis .sh_sourceCode .sh_function {
+  color: #e721d3;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 73, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_whatis .sh_sourceCode .sh_cbracket {
+  color: #0ff;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 73, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_whatis .sh_sourceCode .sh_url {
+  color: #fb0;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 73, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_whatis .sh_sourceCode .sh_date {
+  color: #fa5a03;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 73, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_whatis .sh_sourceCode .sh_time {
+  color: #fa5a03;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 73, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_whatis .sh_sourceCode .sh_file {
+  color: #fa5a03;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 73, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_whatis .sh_sourceCode .sh_ip {
+  color: #fb0;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 73, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_whatis .sh_sourceCode .sh_name {
+  color: #fb0;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 73, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_whatis .sh_sourceCode .sh_variable {
+  color: #efe219;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 73, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_whatis .sh_sourceCode .sh_oldfile {
+  color: #fb0;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 73, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_whatis .sh_sourceCode .sh_newfile {
+  color: #fb0;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 73, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_whatis .sh_sourceCode .sh_difflines {
+  color: #fa5a03;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 73, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_whatis .sh_sourceCode .sh_selector {
+  color: #efe219;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 73, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_whatis .sh_sourceCode .sh_property {
+  color: #fa5a03;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 73, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_whatis .sh_sourceCode .sh_value {
+  color: #fb0;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 75, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_whitengrey {
+  background: none;
+  padding: 0;
+  margin: 0;
+  border: 0 none;
+}
+
+/* line 75, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_whitengrey .sh_sourceCode {
+  background-color: #fff;
+  color: #696969;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 75, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_whitengrey .sh_sourceCode .sh_keyword {
+  color: #696969;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 75, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_whitengrey .sh_sourceCode .sh_type {
+  color: #696969;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 75, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_whitengrey .sh_sourceCode .sh_string {
+  color: #080;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 75, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_whitengrey .sh_sourceCode .sh_regexp {
+  color: #080;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 75, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_whitengrey .sh_sourceCode .sh_specialchar {
+  color: #080;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 75, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_whitengrey .sh_sourceCode .sh_comment {
+  color: #1326a2;
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* line 75, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_whitengrey .sh_sourceCode .sh_number {
+  color: #b0f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 75, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_whitengrey .sh_sourceCode .sh_preproc {
+  color: #470000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 75, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_whitengrey .sh_sourceCode .sh_function {
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 75, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_whitengrey .sh_sourceCode .sh_url {
+  color: #080;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 75, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_whitengrey .sh_sourceCode .sh_date {
+  color: #696969;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 75, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_whitengrey .sh_sourceCode .sh_time {
+  color: #696969;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 75, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_whitengrey .sh_sourceCode .sh_file {
+  color: #696969;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 75, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_whitengrey .sh_sourceCode .sh_ip {
+  color: #080;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 75, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_whitengrey .sh_sourceCode .sh_name {
+  color: #080;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 75, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_whitengrey .sh_sourceCode .sh_variable {
+  color: #696969;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 75, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_whitengrey .sh_sourceCode .sh_oldfile {
+  color: #080;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 75, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_whitengrey .sh_sourceCode .sh_newfile {
+  color: #080;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 75, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_whitengrey .sh_sourceCode .sh_difflines {
+  color: #696969;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 75, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_whitengrey .sh_sourceCode .sh_selector {
+  color: #696969;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 75, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_whitengrey .sh_sourceCode .sh_property {
+  color: #696969;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 75, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_whitengrey .sh_sourceCode .sh_value {
+  color: #080;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 77, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_zellner {
+  background: none;
+  padding: 0;
+  margin: 0;
+  border: 0 none;
+}
+
+/* line 77, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_zellner .sh_sourceCode {
+  background-color: #fff;
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 77, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_zellner .sh_sourceCode .sh_keyword {
+  color: #a52a2a;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 77, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_zellner .sh_sourceCode .sh_type {
+  color: #00f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 77, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_zellner .sh_sourceCode .sh_string {
+  color: #f0f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 77, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_zellner .sh_sourceCode .sh_regexp {
+  color: #f0f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 77, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_zellner .sh_sourceCode .sh_specialchar {
+  color: #f0f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 77, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_zellner .sh_sourceCode .sh_comment {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 77, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_zellner .sh_sourceCode .sh_number {
+  color: #f0f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 77, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_zellner .sh_sourceCode .sh_preproc {
+  color: #a020f0;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 77, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_zellner .sh_sourceCode .sh_function {
+  color: #000;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 77, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_zellner .sh_sourceCode .sh_url {
+  color: #f0f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 77, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_zellner .sh_sourceCode .sh_date {
+  color: #a52a2a;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 77, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_zellner .sh_sourceCode .sh_time {
+  color: #a52a2a;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 77, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_zellner .sh_sourceCode .sh_file {
+  color: #a52a2a;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 77, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_zellner .sh_sourceCode .sh_ip {
+  color: #f0f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 77, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_zellner .sh_sourceCode .sh_name {
+  color: #f0f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 77, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_zellner .sh_sourceCode .sh_variable {
+  color: #225f2d;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 77, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_zellner .sh_sourceCode .sh_oldfile {
+  color: #f0f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 77, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_zellner .sh_sourceCode .sh_newfile {
+  color: #f0f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 77, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_zellner .sh_sourceCode .sh_difflines {
+  color: #a52a2a;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 77, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_zellner .sh_sourceCode .sh_selector {
+  color: #225f2d;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 77, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_zellner .sh_sourceCode .sh_property {
+  color: #a52a2a;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 77, ../../styleguide/scss/_jquery.snippet.scss */
+.sh_zellner .sh_sourceCode .sh_value {
+  color: #f0f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 79, ../../styleguide/scss/_jquery.snippet.scss */
+.snippet-wrap {
+  position: relative;
+}
+
+/* line 80, ../../styleguide/scss/_jquery.snippet.scss */
+*:first-child + html .snippet-wrap {
+  display: inline-block;
+}
+
+/* line 81, ../../styleguide/scss/_jquery.snippet.scss */
+* html .snippet-wrap {
+  display: inline-block;
+}
+
+/* line 82, ../../styleguide/scss/_jquery.snippet.scss */
+.snippet-reveal {
+  text-decoration: underline;
+}
+
+/* line 83, ../../styleguide/scss/_jquery.snippet.scss */
+.snippet-wrap .snippet-menu, .snippet-wrap .snippet-hide {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: .9em;
+  z-index: 1;
+  background-color: transparent;
+}
+
+/* line 84, ../../styleguide/scss/_jquery.snippet.scss */
+.snippet-wrap .snippet-hide {
+  top: auto;
+  bottom: 10px;
+}
+
+/* line 85, ../../styleguide/scss/_jquery.snippet.scss */
+*:first-child + html .snippet-wrap .snippet-hide {
+  bottom: 25px;
+}
+
+/* line 86, ../../styleguide/scss/_jquery.snippet.scss */
+* html .snippet-wrap .snippet-hide {
+  bottom: 25px;
+}
+
+/* line 87, ../../styleguide/scss/_jquery.snippet.scss */
+.snippet-wrap .snippet-menu pre, .snippet-wrap .snippet-hide pre {
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 88, ../../styleguide/scss/_jquery.snippet.scss */
+.snippet-wrap .snippet-menu a, .snippet-wrap .snippet-hide a {
+  padding: 0 5px;
+  text-decoration: underline;
+}
+
+/* line 89, ../../styleguide/scss/_jquery.snippet.scss */
+.snippet-wrap pre.sh_sourceCode {
+  padding: 1em;
+  line-height: 1.8em;
+  overflow: auto;
+  position: relative;
+  border: 1px solid #ccc;
+  /*
+    -moz-border-radius:15px;
+  -webkit-border-radius:15px;
+  border-radius:15px;
+  box-shadow: 2px 2px 5px #000;
+  -moz-box-shadow: 2px 2px 5px #000;
+  -webkit-box-shadow: 2px 2px 5px #000;
+  */
+}
+
+/* line 105, ../../styleguide/scss/_jquery.snippet.scss */
+.snippet-container {
+  font-size: 0.9em;
+}
+
+/* line 109, ../../styleguide/scss/_jquery.snippet.scss */
+.snippet-wrap pre.snippet-textonly {
+  padding: 2em;
+}
+
+/* line 110, ../../styleguide/scss/_jquery.snippet.scss */
+*:first-child + html .snippet-wrap pre.snippet-formatted {
+  padding: 2em 1em;
+}
+
+/* line 111, ../../styleguide/scss/_jquery.snippet.scss */
+* html .snippet-wrap pre.snippet-formatted {
+  padding: 2em 1em;
+}
+
+/* line 112, ../../styleguide/scss/_jquery.snippet.scss */
+.snippet-reveal pre.sh_sourceCode {
+  padding: .5em 1em;
+  text-align: right;
+}
+
+/* line 113, ../../styleguide/scss/_jquery.snippet.scss */
+.snippet-wrap .snippet-num li {
+  padding-left: 1.5em;
+}
+
+/* line 114, ../../styleguide/scss/_jquery.snippet.scss */
+.snippet-wrap .snippet-no-num {
+  list-style: none;
+  padding: .6em 1em;
+  margin: 0;
+}
+
+/* line 115, ../../styleguide/scss/_jquery.snippet.scss */
+.snippet-wrap .snippet-no-num li {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* line 116, ../../styleguide/scss/_jquery.snippet.scss */
+.snippet-wrap .snippet-num {
+  margin: 1em 0 1em 1em;
+  padding-left: 3em;
+}
+
+/* line 117, ../../styleguide/scss/_jquery.snippet.scss */
+.snippet-wrap .snippet-num li {
+  list-style: decimal-leading-zero outside none;
+}
+
+/* line 118, ../../styleguide/scss/_jquery.snippet.scss */
+.snippet-wrap .snippet-no-num li.box {
+  padding: 0 6px;
+  margin-left: -6px;
+}
+
+/* line 119, ../../styleguide/scss/_jquery.snippet.scss */
+.snippet-wrap .snippet-num li.box {
+  border: 1px solid;
+  list-style-position: inside;
+  margin-left: -3em;
+  padding-left: 6px;
+}
+
+/* line 121, ../../styleguide/scss/_jquery.snippet.scss */
+.snippet-wrap .snippet-num li:nth-child(odd) {
+  background: rgba(0, 0, 0, 0.03);
+}
+
+/* line 126, ../../styleguide/scss/_jquery.snippet.scss */
+.snippet-wrap .snippet-num li:nth-child(even) {
+  background: rgba(0, 0, 0, 0.06);
+}
+
+/* line 132, ../../styleguide/scss/_jquery.snippet.scss */
+*:first-child + html .snippet-wrap .snippet-num li.box {
+  margin-left: -2.4em;
+}
+
+/* line 133, ../../styleguide/scss/_jquery.snippet.scss */
+* html .snippet-wrap .snippet-num li.box {
+  margin-left: -2.4em;
+}
+
+/* line 134, ../../styleguide/scss/_jquery.snippet.scss */
+.snippet-wrap li.box-top {
+  border-width: 1px 1px 0 !important;
+}
+
+/* line 135, ../../styleguide/scss/_jquery.snippet.scss */
+.snippet-wrap li.box-bot {
+  border-width: 0 1px 1px !important;
+}
+
+/* line 136, ../../styleguide/scss/_jquery.snippet.scss */
+.snippet-wrap li.box-mid {
+  border-width: 0 1px !important;
+}
+
+/* line 137, ../../styleguide/scss/_jquery.snippet.scss */
+.snippet-wrap .snippet-num li .box-sp {
+  width: 18px;
+  display: inline-block;
+}
+
+/* line 138, ../../styleguide/scss/_jquery.snippet.scss */
+*:first-child + html .snippet-wrap .snippet-num li .box-sp {
+  width: 27px;
+}
+
+/* line 139, ../../styleguide/scss/_jquery.snippet.scss */
+* html .snippet-wrap .snippet-num li .box-sp {
+  width: 27px;
+}
+
+/* line 140, ../../styleguide/scss/_jquery.snippet.scss */
+.snippet-wrap .snippet-no-num li.box {
+  border: 1px solid;
+}
+
+/* line 141, ../../styleguide/scss/_jquery.snippet.scss */
+.snippet-wrap .snippet-no-num li .box-sp {
+  display: none;
+}

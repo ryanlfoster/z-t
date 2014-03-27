@@ -7,7 +7,7 @@
 
 <% if (WCMMode.fromRequest(slingRequest) == WCMMode.EDIT) {%>
 
-<div class="image-ugc image-with-date ${imageWithDate.makeTextWhite == true ? 'make-black': 'make-white'}">
+<div class="image-ugc image-with-date ${imageWithDate.makeTextWhite == true ? 'make-white': 'make-black'}">
     <c:if test="${not empty imageWithDate.image && not empty imageWithDate.altText }">
         <div class="image-bg fullwidth-bg" data-image-vertical-alignment="bottom"
              data--200-top="-webkit-transform: translate(0,10%);"

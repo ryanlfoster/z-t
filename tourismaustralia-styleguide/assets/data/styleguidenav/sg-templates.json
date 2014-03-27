@@ -1,15 +1,23 @@
 {
     "navigation": [
         {
-            "text": "City/State",
+            "text": "Pages",
             "item": [
+                {
+                    "text": "page_home",
+                    "name": "Home "
+                },
+                {
+                    "text": "page_article",
+                    "name": "Article "
+                },
+                {
+                    "text": "page_icon",
+                    "name": "Icon "
+                },
                 {
                     "text": "page_city_sydney",
                     "name": "City Page - Sydney"
-                },
-                {
-                    "text": "page_state_victoria",
-                    "name": "State Page - Victoria"
                 },
                 {
                     "text": "page_state_victoria",

@@ -12,7 +12,8 @@
 			<div class="head-divider-inner">
 				<hr class="icon-logo-withlines-hr icon-logo-withlines-hr-small">
 				<h5>
-					<img src="${otherExperiences.logoPath}" style="width:60px;height:59px"/>
+					<img src="${otherExperiences.logoPath}"
+						style="width: 60px; height: 59px" />
 				</h5>
 				<hr class="icon-logo-withlines-hr icon-logo-withlines-hr-small">
 			</div>
@@ -31,7 +32,8 @@
 								<ul class="imagecarousel-item">
 									<li><a href="#">
 											<div class='mosaic-item'>
-												<img src="${item.articleImage }" style="width:268px;height:268px"/>
+												<img src="${item.articleImage }"
+													style="width: 268px; height: 268px" />
 												<div class='mosaic-item-description'>
 													<p class="mosaic-item-description-head type-font-feature">
 														${item.articleTitle }</p>
@@ -44,7 +46,8 @@
 												<div class='mosaic-item-overlay mosaic-item-overlay-info'>
 													<div class='mosaic-item-overlay-info-icon'>
 														<span class="mosaic-item-overlay-info-icon-item"><img
-															src="${item.articleOverLayLogoPath }" style="width:80px;height:56px" alt=""></span>
+															src="${item.articleOverLayLogoPath }"
+															style="width: 80px; height: 56px" alt=""></span>
 														<p class="mosaic-item-overlay-info-head type-font-feature">
 															${item.articleTitle }</p>
 														<p class="mosaic-item-overlay-info-desciption">${item.articleSubTitle }<br>

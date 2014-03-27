@@ -1,6 +1,7 @@
 package com.australia.foodandwine.components.content.carousel;
 
 import com.citytechinc.cq.component.annotations.DialogField;
+import com.citytechinc.cq.component.annotations.FieldProperty;
 import com.citytechinc.cq.component.annotations.widgets.PathField;
 import com.citytechinc.cq.component.annotations.widgets.TextArea;
 
@@ -22,7 +23,7 @@ public class CarouselProperties {
 	@DialogField(fieldLabel = "Courosel Button Text", name = "buttonText", fieldDescription = "If empty Default text is set to 'Find Out More'")
 	private String carouselButtonText;
 
-	@DialogField(fieldLabel = "Courosel Button Text Link", name = "buttonTextLink")
+	@DialogField(fieldLabel = "Courosel Button Text Link", name = "buttonTextLink", additionalProperties = @FieldProperty(name = "anchor", value = "100%"))
 	@PathField
 	private String carouselButtonTextLink;
 
@@ -72,7 +73,7 @@ public class CarouselProperties {
 		this.external = external;
 	}
 
-	public boolean isExtenral() {
+	public boolean isExternal() {
 		return external;
 	}
 }

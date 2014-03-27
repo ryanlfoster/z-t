@@ -12,7 +12,7 @@
 	
 			<cq:include path="articleTitle" resourceType="foodandwine/components/content/articleTitle" />
 			<cq:include path="category" resourceType="foodandwine/components/content/category" />
-			<cq:include path="text" resourceType="foodandwine/components/content/text" />
+			<h3 class="faw-article-healdine">${currentPage.description}</h3>
 		</div>
 	</div>
 

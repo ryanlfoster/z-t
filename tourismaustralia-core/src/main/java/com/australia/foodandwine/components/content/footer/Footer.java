@@ -60,7 +60,7 @@ public class Footer {
 	@MultiCompositeField
 	private List<IconTextLink> linksRight;
 
-	private String copyrightYear;
+	private final String copyrightYear;
 
 	public Footer(SlingHttpServletRequest request) {
 		Calendar now = Calendar.getInstance();
@@ -77,7 +77,6 @@ public class Footer {
 			headingLeft = properties.get("headingLeft", "");
 			headingMiddle = properties.get("headingMiddle", "");
 			headingRight = properties.get("headingRight", "");
-			copyrightYear = properties.get("copyrightYear", "");
 
 			linksLeft = new ArrayList<TextLink>();
 			buildTextLinks(linksLeft, footerResource, "linksLeft");

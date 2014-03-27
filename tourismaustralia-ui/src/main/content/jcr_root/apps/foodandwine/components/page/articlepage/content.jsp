@@ -2,7 +2,7 @@
 
 <div class="faw-article">
 		<!-- test background for testing, whow the transparent menu respons -->
-		<div class='form-hero'>
+	<div class='form-hero'>
 		<div class="faw-hero-home-container">
 			<cq:include path="articleTitle" resourceType="foodandwine/components/content/articleTitle" />
 			<cq:include path="category" resourceType="foodandwine/components/content/category" />

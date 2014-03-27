@@ -18,7 +18,7 @@
 			</noscript>
 		</div>
 		<!--[if (lt IE 9) & (!IEMobile)]>
-            <img src='imgs/base/faw-carousel-bg.jpg' alt=''>
+            <img src='${carousel.carouselBackgroundImagePath}.adapt.1663.high.jpg' alt=''>
         <![endif]-->
 	</div>	
 	<div class='faw-carousel-outer'>
@@ -37,7 +37,7 @@
 								</div>
 								<p class='faw-carousel-copy'>${item.carouselHeaderLockupDescription }</p>
 								<p>
-									<a href="${item.carouselButtonTextLink }" class="btn-secondary btn-small" ${item.external? 'target=\"_BLANK"\"' : ''}>${item.carouselButtonText }</a>
+									<a href="${item.carouselButtonTextLink }" class="btn-secondary btn-small" target="${item.external ? '_BLANK' : '_self'}">${item.carouselButtonText }</a>
 								</p>
 							</div> <!-- END: FOOD AND WINE CAROUSEL ITEM -->
 						</li>

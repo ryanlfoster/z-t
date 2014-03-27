@@ -55,4 +55,12 @@ public class ServerUtils {
 		return "";
 	}
 
+	public static boolean isAuthor(SlingSettingsService slingSettings) {
+		return slingSettings.getRunModes().contains(AUTHOR);
+	}
+
+	public static boolean isPublisher(SlingSettingsService slingSettings) {
+		return slingSettings.getRunModes().contains(PUBLISH);
+	}
+
 }

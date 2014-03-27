@@ -7,6 +7,12 @@
             "text": "Base",
             "category": [
                 {
+                    "text": "Working Partials",
+                    "item": [
+                        { "text": "footer" }
+                    ]
+                },
+                {
                     "text": "Global",
                     "item": [
                         { "text": "colours" },
@@ -15,7 +21,6 @@
                         { "text": "visibility"}
                     ]
                 },
-
                 {
                     "text": "Text",
                     "item": [
@@ -132,7 +137,8 @@
                         { "text": "tagcloud" },
                         { "text": "text" },
                         { "text": "whatyoucansee_city" },
-                        { "text": "whatyoucansee_state" }
+                        { "text": "whatyoucansee_state" },
+                        { "text": "footer" }
                     ]
                 }
             ]

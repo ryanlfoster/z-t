@@ -21,6 +21,20 @@
     
         
             
+                "footer" : {
+                     "data" : {
+                        "title" : "footer",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'footer'}}"
+                }
+                
+            
+            
+                ,
+            
+        
+            
                 "colours" : {
                      "data" : {
                         "title" : "colours",
@@ -745,6 +759,17 @@
                         "layout" : "styleguide-preview.hbs"
                     },
                     "content" : "{{section 'whatyoucansee_state'}}"
+                }
+                
+                    ,
+                
+            
+                "footer" : {
+                     "data" : {
+                        "title" : "footer",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'footer'}}"
                 }
                 
             

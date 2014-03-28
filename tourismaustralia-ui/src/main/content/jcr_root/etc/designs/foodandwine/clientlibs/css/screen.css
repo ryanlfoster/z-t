@@ -10135,13 +10135,13 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
 
 /* line 89, ../../assets/scss/site/modules/_article.scss */
 .faw-article-copyright {
-  margin-top: 1;
+  margin-top: 0em;
   color: #737373;
 }
 @media (min-width: 768px) {
   /* line 89, ../../assets/scss/site/modules/_article.scss */
   .faw-article-copyright {
-    margin-top: 0em;
+    margin-top: 1em;
   }
 }
 

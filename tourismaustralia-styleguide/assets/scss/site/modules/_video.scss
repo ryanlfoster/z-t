@@ -1,9 +1,23 @@
 .video-container {
-  display: inline-block;
+  text-align: center;
+  //display: inline-block;
+  position: inherit;
+  //@include breakpoint(md){
+    //position: relative;
+  //}
+  margin: 0 -15px;
+  @include breakpoint(sm){
+    margin: inherit;
+  }
+}
+.video-container-table {
+
   position: relative;
 }
 .video-play-icon {
   width: 23.33%;
+  max-width: 164px;
+  max-height: 165px;
 }
 .video-title {
   margin-bottom: -.5em;
@@ -11,4 +25,32 @@
 .video-link {
   display: block;
   margin-top: .8em;
+}
+.video-copy {
+
+  padding: 10px 0;
+
+  @include breakpoint(sm) {
+    padding: 10px 0 0 10px;
+  }
+  @include breakpoint(md) {
+    bottom: -20px;
+    margin-right: -240px;
+    position: absolute;
+    right: 0;
+    width: 220px;
+  }
+}
+
+.video-2column-container {
+  //padding: 0;
+  @include breakpoint(md) {
+    //padding: inherit;
+    //padding-left: 0;
+    padding-right: 220px;
+  }
+}
+.video-2column-position {
+  //display: fixed;
+  position: relative;
 }

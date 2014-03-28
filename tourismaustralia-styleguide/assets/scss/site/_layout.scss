@@ -271,13 +271,42 @@ $footerBackgroundColour: #0a334c;
   }
 }
 
-
+.l-push-up-sm--1 {
+  @include breakpoint(sm) {
+    margin-top: -1em;
+  }
+}
+.l-push-up-sm--2 {
+  @include breakpoint(sm) {
+    margin-top: -2em;
+  }
+}
+.l-push-up-sm--3 {
+  @include breakpoint(sm) {
+    margin-top: -3em;
+  }
+}
 .l-push-up-sm--10 {
   @include breakpoint(sm) {
     margin-top: -10em;
   }
 }
 
+.l-push-up-xs--1 {
+  @include breakpoint(xs) {
+    margin-top: -1em;
+  }
+}
+.l-push-up-xs--2 {
+  @include breakpoint(xs) {
+    margin-top: -2em;
+  }
+}
+.l-push-up-xs--3 {
+  @include breakpoint(xs) {
+    margin-top: -3em;
+  }
+}
 
 
 
@@ -610,15 +639,97 @@ $footerBackgroundColour: #0a334c;
 
 //////////////////////////////////////////
 // Bootstrap Row/Column Adjusters
-.row-equal-height {
+
+
+.l-equal-height {
   display: table;
 }
-.row-equal-height [class*="col-"] {
+.l-equal-height [class*="col-"] {
   float: none;
   display: table-cell;
   vertical-align: middle;
 }
+.l-equal-height-bottom {
+  display: table;
+}
+.l-equal-height-bottom [class*="col-"] {
+  float: none;
+  display: table-cell;
+  vertical-align: bottom;
+}
 
+.l-vertically-center {
+  float: none;
+  display: table-cell;
+  vertical-align: bottom;
+}
+.l-equal-height-bottom-sm {
+  @include breakpoint(lg) {
+    display: table;
+    /*> [class*="col-"] {
+      @extend .l-vertically-center;
+    }*/
+  }
+}
+.l-equal-height-bottom-sm [class*="col-"] {
+  @include breakpoint(lg){
+    float: none;
+    display: table-cell;
+    vertical-align: bottom;
+  }
+}
+
+//@extend %button;
+
+/*
+// create equal height columns
+.l-equal-height {
+  display: table;
+}
+.l-equal-height [class*="col-"] {
+  @extend .l-equal-height-extend;
+}
+
+.l-equal-height-sm {
+  //@include breakpoint(sm){
+    display: table;
+  //}
+}
+.l-equal-height-sm [class*="col-"] {
+  //@include breakpoint(sm){
+    @extend .l-equal-height-extend;
+  //}
+}
+.l-equal-height-md {
+  @include breakpoint(md){
+    display: table;
+  }
+}
+.l-equal-height-md [class*="col-"] {
+  @include breakpoint(md){
+    @extend .l-equal-height-extend;
+  }
+}
+.l-vertically-center {
+  float: none;
+  display: table-cell;
+  vertical-align: middle;
+}
+.row-equal-height-sm {
+  display: table;
+}
+.l-equal-height-extend {
+  float: none;
+  display: table-cell;
+  vertical-align: middle;
+}
+*/
+
+.l-col-remove-width {
+  width: 100%;
+  min-width: 240px;
+}
+// remove default bootstrap column padding
 .l-strip-col-padding {
   padding: 0;// remove padding from all column
 }

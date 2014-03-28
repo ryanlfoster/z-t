@@ -3,19 +3,16 @@ package com.australia.foodandwine.components.content.form;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Date;
-import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-import javax.activation.MimetypesFileTypeMap;
 import javax.jcr.Binary;
 import javax.jcr.Node;
 import javax.jcr.Session;
 import javax.jcr.ValueFactory;
 import javax.servlet.ServletException;
 
-import org.apache.commons.lang.text.StrLookup;
 import org.apache.commons.mail.HtmlEmail;
 import org.apache.felix.scr.annotations.Reference;
 import org.apache.felix.scr.annotations.sling.SlingServlet;
@@ -26,9 +23,6 @@ import org.apache.sling.api.servlets.SlingAllMethodsServlet;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.day.cq.commons.mail.MailTemplate;
-import com.day.cq.dam.api.Asset;
-import com.day.cq.dam.api.AssetManager;
 import com.day.cq.mailer.MailService;
 
 @SlingServlet(resourceTypes = "foodandwine/components/content/form", selectors = "formemail", extensions = "json", methods = "POST")
@@ -48,8 +42,6 @@ public class FormEmailServlet extends SlingAllMethodsServlet {
 
 	private String contentType;
 	private Binary contentValue;
-	private Asset asset;
-	private AssetManager assetManager;
 
 	@Override
 	protected void doPost(SlingHttpServletRequest request, SlingHttpServletResponse response) throws ServletException,
@@ -128,7 +120,7 @@ public class FormEmailServlet extends SlingAllMethodsServlet {
 			}
 			properties.put("Video Url", videoUrl);
 
-			imageUpload(request, formArticleNode,session);
+			imageUpload(request, formArticleNode, session);
 			session.save();
 
 			StringBuilder mapBuilder = new StringBuilder();
@@ -147,11 +139,9 @@ public class FormEmailServlet extends SlingAllMethodsServlet {
 		}
 	}
 
-	private void imageUpload(SlingHttpServletRequest request, Node formArticleNode,Session session) throws IOException {
+	private void imageUpload(SlingHttpServletRequest request, Node formArticleNode, Session session) throws IOException {
 
 		Map<String, RequestParameter[]> params = request.getRequestParameterMap();
-		assetManager = request.getResourceResolver().adaptTo(AssetManager.class);
-
 		for (Map.Entry<String, RequestParameter[]> pairs : params.entrySet()) {
 			key = pairs.getKey();
 			RequestParameter[] pArr = pairs.getValue();
@@ -160,23 +150,24 @@ public class FormEmailServlet extends SlingAllMethodsServlet {
 			if ((key.equalsIgnoreCase("upload-photo"))) {
 				try {
 					InputStream stream = param.getInputStream();
-					if(param.getFileName().endsWith(".jpeg")){
-						contentType="image/jpeg";
+					if (param.getFileName().endsWith(".jpeg")) {
+						contentType = "image/jpeg";
 					}
-					if(param.getFileName().endsWith(".png")){
-						contentType="image/png";
+					if (param.getFileName().endsWith(".png")) {
+						contentType = "image/png";
 					}
-					if(param.getFileName().endsWith(".jpg")){
-						contentType="image/jpg";
+					if (param.getFileName().endsWith(".jpg")) {
+						contentType = "image/jpg";
 					}
-					
+
 					ValueFactory valueFactory = session.getValueFactory();
 					contentValue = valueFactory.createBinary(stream);
-					Node fileNode = formArticleNode.addNode("file","nt:file");
+					Node fileNode = formArticleNode.addNode("file", "nt:file");
 					fileNode.addMixin("mix:referenceable");
 					Node resourceNode = fileNode.addNode("jcr:content", "nt:resource");
 					resourceNode.setProperty("jcr:mimeType", contentType);
 					resourceNode.setProperty("jcr:data", contentValue);
+					resourceNode.setProperty("cq:distribute", true);
 
 				} catch (Exception e) {
 					LOG.error(e.getMessage());

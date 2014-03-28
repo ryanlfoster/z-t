@@ -84,7 +84,7 @@ public class Header {
 	}
 
 	public String getLogoLinkPath() {
-		return PathUtils.FOOD_AND_WINE_ROOT_PATH + ".html";
+		return PathUtils.OZCOM_ROOT_PATH + ".html";
 	}
 
 	public List<TextLink> getHeaderDataList() {

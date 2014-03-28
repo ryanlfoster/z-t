@@ -58,7 +58,7 @@
 						<div class="footer-col footer-logo-fixed-height">
 							<div class="footer-ta-logo-container">
 								<c:if test="${not empty footer.imageBottomLogoPath}">
-									<a href="${footer.imageBottomLogoLink}">
+									<a href="${footer.imageBottomLogoLink}" target="_blank">
 										<img class="type-spacing-15" src="${footer.imageBottomLogoPath}" alt="">
 									</a>
 								</c:if>

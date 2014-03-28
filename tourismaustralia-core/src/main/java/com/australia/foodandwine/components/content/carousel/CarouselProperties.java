@@ -24,7 +24,7 @@ public class CarouselProperties {
 	private String carouselButtonText;
 
 	@DialogField(fieldLabel = "Courosel Button Text Link", name = "buttonTextLink", additionalProperties = @FieldProperty(name = "anchor", value = "100%"))
-	@PathField
+	@PathField(rootPath = "/content")
 	private String carouselButtonTextLink;
 
 	private boolean external;

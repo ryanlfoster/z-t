@@ -24,11 +24,14 @@
 								</div>
 								<div class="row sponsors-row-2">
 									<div class="sponsors-image-link-container">
-										<c:if test="${not empty sponsorsSpace.sponsor1.imagePath}">
-											<img src="${sponsorsSpace.sponsor1.imagePath }" class="sponsors-image" alt="">
+										<c:if test="${empty sponsorsSpace.sponsor1.imageTitle}">
+											<div class="video-link-container">
 										</c:if>
-										<c:if test="${not empty sponsorsSpace.sponsor1.imageTitle }">
-											<p>${sponsorsSpace.sponsor1.imageTitle }</p>
+										<c:if test="${not empty sponsorsSpace.sponsor1.imagePath}">
+											<img src="${sponsorsSpace.sponsor1.imagePath }" class="sponsors-image ${empty sponsorsSpace.sponsor1.imageTitle ? 'type-spacing-15' : '' }" alt="">
+										</c:if>
+										<c:if test="${empty sponsorsSpace.sponsor1.imageTitle }">
+											</div>
 										</c:if>
 									</div>
 								</div>
@@ -60,11 +63,17 @@
 								</div>
 								<div class="row sponsors-row-2">
 									<div class="sponsors-image-link-container">
+										<c:if test="${empty sponsorsSpace.sponsor2.imageTitle}">
+											<div class="video-link-container">
+										</c:if>
 										<c:if test="${not empty sponsorsSpace.sponsor2.imagePath}">
-											<img src="${sponsorsSpace.sponsor2.imagePath }" class="sponsors-image" alt="">
+											<img src="${sponsorsSpace.sponsor2.imagePath }" class="sponsors-image ${empty sponsorsSpace.sponsor2.imageTitle ? 'type-spacing-15' : '' }" alt="">
 										</c:if>
 										<c:if test="${not empty sponsorsSpace.sponsor2.imageTitle }">
 											<p>${sponsorsSpace.sponsor2.imageTitle }</p>
+										</c:if>
+										<c:if test="${empty sponsorsSpace.sponsor2.imageTitle }">
+											</div>
 										</c:if>
 									</div>
 								</div>
@@ -96,11 +105,17 @@
 								</div>
 								<div class="row sponsors-row-2">
 									<div class="sponsors-image-link-container">
+										<c:if test="${empty sponsorsSpace.sponsor3.imageTitle}">
+											<div class="video-link-container">
+										</c:if>
 										<c:if test="${not empty sponsorsSpace.sponsor3.imagePath}">
-											<img src="${sponsorsSpace.sponsor3.imagePath }" class="sponsors-image" alt="">
+											<img src="${sponsorsSpace.sponsor3.imagePath }" class="sponsors-image ${empty sponsorsSpace.sponsor3.imageTitle ? 'type-spacing-15' : '' }" alt="">
 										</c:if>
 										<c:if test="${not empty sponsorsSpace.sponsor3.imageTitle }">
 											<p>${sponsorsSpace.sponsor3.imageTitle }</p>
+										</c:if>
+										<c:if test="${empty sponsorsSpace.sponsor3.imageTitle }">
+											</div>
 										</c:if>
 									</div>
 								</div>

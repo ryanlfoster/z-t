@@ -30,6 +30,9 @@
 										<c:if test="${not empty sponsorsSpace.sponsor1.imagePath}">
 											<img src="${sponsorsSpace.sponsor1.imagePath }" class="sponsors-image ${empty sponsorsSpace.sponsor1.imageTitle ? 'type-spacing-15' : '' }" alt="">
 										</c:if>
+										<c:if test="${not empty sponsorsSpace.sponsor1.imageTitle }">
+											<p>${sponsorsSpace.sponsor1.imageTitle }</p>
+										</c:if>
 										<c:if test="${empty sponsorsSpace.sponsor1.imageTitle }">
 											</div>
 										</c:if>

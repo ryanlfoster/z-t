@@ -71,8 +71,7 @@ public class OtherExperiences {
 					}
 					String[] tags = pageProperties.get("cq:tags", new String[0]);
 					List<String> tagTitles = new ArrayList<String>();
-					for (String tagString : tags) {
-						Tag tag = tagManager.resolve(tagString);
+					for (Tag tag : TagUtils.getFoodAndWineCategoryTags(tagManager, tags)) {
 						tagTitles.add(tag.getTitle());
 					}
 					String city = null;

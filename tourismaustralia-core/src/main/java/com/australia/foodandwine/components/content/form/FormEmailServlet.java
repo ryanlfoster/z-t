@@ -42,11 +42,11 @@ public class FormEmailServlet extends SlingAllMethodsServlet {
 
 	private String contentType;
 	private Binary contentValue;
+	final HtmlEmail email = new HtmlEmail();
 
 	@Override
 	protected void doPost(SlingHttpServletRequest request, SlingHttpServletResponse response) throws ServletException,
 		IOException {
-		boolean emailCheck = false;
 		try {
 			Form form = new Form(request);
 			Map<String, String> properties = new LinkedHashMap<String, String>();
@@ -54,10 +54,7 @@ public class FormEmailServlet extends SlingAllMethodsServlet {
 			String location = request.getParameter("location");
 			String selectTerritory = request.getParameter("selectTerritory");
 			String mail = request.getParameter("mail");
-			String verifymail = request.getParameter("verifymail");
-			if (verifymail.equals(mail)) {
-				emailCheck = true;
-			}
+
 			String businessWebsite = request.getParameter("businessWebsite");
 			String businessDescription = request.getParameter("businessDescription");
 			String photoDescription = request.getParameter("photoDescription");
@@ -132,7 +129,11 @@ public class FormEmailServlet extends SlingAllMethodsServlet {
 			}
 			mapBuilder.append("</body></html>");
 			LOG.info("mapBuilder : " + mapBuilder.toString());
-			sendEmail(request, emailCheck, mapBuilder, form);
+
+			sendEmail(request, mapBuilder, form);
+			// Zendesk
+			sendZendeskEmail(request, mapBuilder, form);
+
 			response.sendRedirect(form.getRedirectUrl());
 		} catch (Exception e) {
 			LOG.error(e.getMessage());
@@ -150,16 +151,7 @@ public class FormEmailServlet extends SlingAllMethodsServlet {
 			if ((key.equalsIgnoreCase("upload-photo"))) {
 				try {
 					InputStream stream = param.getInputStream();
-					if (param.getFileName().endsWith(".jpeg")) {
-						contentType = "image/jpeg";
-					}
-					if (param.getFileName().endsWith(".png")) {
-						contentType = "image/png";
-					}
-					if (param.getFileName().endsWith(".jpg")) {
-						contentType = "image/jpg";
-					}
-
+					contentType = param.getContentType();
 					ValueFactory valueFactory = session.getValueFactory();
 					contentValue = valueFactory.createBinary(stream);
 					Node fileNode = formArticleNode.addNode("file", "nt:file");
@@ -176,22 +168,39 @@ public class FormEmailServlet extends SlingAllMethodsServlet {
 		}
 	}
 
-	private void sendEmail(SlingHttpServletRequest request, boolean emailCheck, StringBuilder mapBuilder, Form form) {
+	private void sendEmail(SlingHttpServletRequest request, StringBuilder mapBuilder, Form form) {
 
 		List<String> emailIdsList = form.getEmailIdsList();
 		String emailSubject = form.getEmailSubject();
 		for (String emailIds : emailIdsList) {
-			if (emailCheck) {
-				try {
-					final HtmlEmail email = new HtmlEmail();
-					email.setSubject(emailSubject);
-					email.setContent(mapBuilder.toString(), "text/html; charset=utf-8");
-					email.addTo(emailIds);
-					mailService.send(email);
-				} catch (Exception e) {
-					LOG.error("Error sending an email", e);
-				}
+
+			try {
+				email.setSubject(emailSubject);
+				email.setContent(mapBuilder.toString(), "text/html; charset=utf-8");
+				email.addTo(emailIds);
+				mailService.send(email);
+			} catch (Exception e) {
+				LOG.error("Error sending an email", e);
 			}
+
 		}
 	}
+
+	private void sendZendeskEmail(SlingHttpServletRequest request, StringBuilder mapBuilder, Form form) {
+
+		String emailSubject = form.getEmailSubject();
+		String zendeskId = form.getZendeskId();
+		String zendeskTags = form.getZendeskTags();
+		String mailContent = zendeskTags + mapBuilder.toString();
+		try {
+			email.setSubject(emailSubject);
+			email.setContent(mailContent, "text/html; charset=utf-8");
+			email.addTo(zendeskId);
+			mailService.send(email);
+		} catch (Exception e) {
+			LOG.error("Error sending an email", e);
+		}
+
+	}
+
 }

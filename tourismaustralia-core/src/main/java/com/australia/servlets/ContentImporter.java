@@ -1,7 +1,7 @@
 package com.australia.servlets;
 
 import com.australia.cqimport.service.PageBuilder;
-import com.australia.cqimport.service.StateBuilder;
+import com.australia.cqimport.service.StateCityBuilder;
 import com.australia.cqimport.vo.MappingVO;
 import com.day.cq.wcm.api.WCMException;
 import org.apache.felix.scr.annotations.Properties;
@@ -41,12 +41,19 @@ public class ContentImporter extends SlingAllMethodsServlet {
     private ResourceResolverFactory resourceResolverFactory;
 
     @Override
+    protected void doGet(SlingHttpServletRequest request, SlingHttpServletResponse response) throws ServletException,
+            IOException {
+        doPost(request,response);
+    }
+
+    @Override
     protected void doPost(SlingHttpServletRequest request, SlingHttpServletResponse response) throws ServletException,
             IOException {
         ResourceResolver resourceResolver = null;
         Map<String,PageBuilder> templates = new Hashtable<String,PageBuilder>();
 
-        templates.put("states",new StateBuilder());
+        templates.put("states",new StateCityBuilder());
+        templates.put("cities",new StateCityBuilder());
 
         try {
             resourceResolver= resourceResolverFactory.getAdministrativeResourceResolver(null);

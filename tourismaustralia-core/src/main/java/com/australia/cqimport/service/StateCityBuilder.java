@@ -15,7 +15,7 @@ import java.util.Map;
 /**
  * Created by Viren Pushpanayagam on 27/03/2014.
  */
-public class StateBuilder extends PageBuilder {
+public class StateCityBuilder extends PageBuilder {
 
     @Override
     public void createPage(String oldPath, String newPath, ResourceResolver resourceResolver) throws WCMException {
@@ -30,7 +30,8 @@ public class StateBuilder extends PageBuilder {
                             + newPath, true), null, null, true);
 
             createHero(page,resourceResolver,cbf);
-            System.out.println(cbf.getHdlTitle());
+            createSummery(page,resourceResolver,cbf);
+            //System.out.println(cbf.getHdlTitle());
 
         }
     }
@@ -43,8 +44,26 @@ public class StateBuilder extends PageBuilder {
             Map params = new HashMap<String,String>();
             params.put("title",cbf.getHdlTitle());
             params.put("image",cbf.getImgBackground());
-            //params.put("imageBanner",cbf.getStfIntroTitle());
+            params.put("sling:resourceType","tourismaustralia/components/content/hero");
+
             resourceResolver.create(jcrContentResource, "hero", params);
+            resourceResolver.commit();
+        } catch (PersistenceException e) {
+            e.printStackTrace();
+        }
+
+    }
+
+    private void createSummery(Page page, ResourceResolver resourceResolver, ConsumerBaseFoundationType cbf) {
+        Resource pageResource = page.adaptTo(Resource.class);
+        Resource jcrContentResource = pageResource.getChild(JcrConstants.JCR_CONTENT);
+        try {
+
+            Map params = new HashMap<String,String>();
+            params.put("text",cbf.getStfDescription());
+            params.put("sling:resourceType","tourismaustralia/components/content/summery");
+
+            resourceResolver.create(jcrContentResource, "summery", params);
             resourceResolver.commit();
         } catch (PersistenceException e) {
             e.printStackTrace();

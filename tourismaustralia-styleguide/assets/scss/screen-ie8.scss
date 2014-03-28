@@ -1,8 +1,4 @@
 /*breakpoint disabler for IE8*/
 $breakpoint-no-queries: true;
 
-@import "compass/css3/font-face";
-@import "variables";
-@import "vendor/bootsrap/all";
-@import "site/all";
 @import "site/ie8-overrides.scss";

@@ -5,8 +5,6 @@
 
 <c:set var="imageWithDate" value="<%=new ImageWithDate(slingRequest) %>"/>
 
-<% if (WCMMode.fromRequest(slingRequest) == WCMMode.EDIT) {%>
-
 <div class="image-ugc image-with-date ${imageWithDate.makeTextWhite == true ? 'make-white': 'make-black'}">
     <c:if test="${not empty imageWithDate.image && not empty imageWithDate.altText }">
         <div class="image-bg fullwidth-bg" data-image-vertical-alignment="bottom"
@@ -50,4 +48,4 @@
         </div>
     </c:if>
 </div>
-<% } %>
+

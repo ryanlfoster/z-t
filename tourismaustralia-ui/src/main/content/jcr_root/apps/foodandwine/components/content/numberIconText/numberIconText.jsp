@@ -15,7 +15,6 @@
 				</div>
 			</div>
 		</div>	
-		
 		<c:choose>
 		    <c:when test="${fn:length(item.iconImages) eq 1}">
 				<p class="type-spacing-30">
@@ -30,7 +29,6 @@
 				</ul>	
 		    </c:when>
 		</c:choose>		
-		
 		<p class="type-spacing-50">${item.richText}</p>
 	</c:forEach>
 </div>

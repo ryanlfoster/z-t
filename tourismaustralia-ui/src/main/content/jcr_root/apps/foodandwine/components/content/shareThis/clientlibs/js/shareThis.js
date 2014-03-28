@@ -15,9 +15,9 @@
 
 		var is_firefox = navigator.userAgent.toLowerCase().indexOf('firefox') > -1;
 		var is_chrome = navigator.userAgent.toLowerCase().indexOf('chrome') > -1;
-		if (is_firefox || is_chrome) {
-			$(".faw-article-divider").hide();
-			$(".faw-bookmark-icon").hide();
+		if (!is_firefox && !is_chrome) {
+			$(".faw-article-divider").show();
+			$(".faw-bookmark-icon").show();
 		}
 	});    	
 	

@@ -3,7 +3,7 @@
 <%@ page import="com.australia.foodandwine.components.content.text.Text" %>
 
 <c:set var="text" value="<%=new Text(slingRequest) %>"/>
-<p>${text.textContent}<p>
+${text.textContent}
 
 
 

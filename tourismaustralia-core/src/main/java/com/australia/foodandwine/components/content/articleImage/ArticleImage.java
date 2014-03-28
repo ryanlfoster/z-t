@@ -29,7 +29,7 @@ public class ArticleImage {
 	@DialogField(fieldLabel = "Image Caption", name = "./imageCaption", tab = 2)
 	private final String imageCaption;
 
-	@DialogField(fieldLabel = "Link Image To a Page", name = "./articleImageLinkPage", fieldDescription = "For external links please use prefix http:// or https:// (eg. http://www.google.com)", required = true, tab = 2)
+	@DialogField(fieldLabel = "Link Image To a Page", name = "./articleImageLinkPage", fieldDescription = "For external links please use prefix http:// or https:// (eg. http://www.google.com)", tab = 2)
 	@PathField(rootPath = "/content")
 	private final String articleImageLinkPage;
 	private final boolean external;

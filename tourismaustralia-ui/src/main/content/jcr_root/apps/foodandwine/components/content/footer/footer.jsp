@@ -8,9 +8,7 @@
 			<div class="footer">
 				<div class="row">
 					<div class="footer-restaurant-australia-elements">
-						<c:if test="${not empty footer.imageTopLogoPath}">
-							<img class="type-spacing-30" src="${footer.imageTopLogoPath}" alt=""> 	
-						</c:if>
+						<img class="type-spacing-30" src="/etc/designs/foodandwine/clientlibs/imgs/logo/logo-restaurant-australia-clear.png" alt=""> 	
 						<a href="${footer.imageTopLogoLink}" class="footer-restaurant-australia-elements-link type-spacing-15">${footer.urlTitle}</a>
 						<div
 							class="footer-restaurant-australia-elements-biline-container type-spacing-60">

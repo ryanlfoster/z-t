@@ -26,10 +26,6 @@ import com.citytechinc.cq.component.annotations.widgets.PathField;
 	@Listener(name = "aftercopy", value = "REFRESH_PAGE"), @Listener(name = "afterdelete", value = "REFRESH_PAGE"),
 	@Listener(name = "afteredit", value = "REFRESH_PAGE"), @Listener(name = "afterinsert", value = "REFRESH_PAGE") })
 public class Footer {
-	@DialogField(fieldLabel = "Top Image Path", tab = 1)
-	@PathField(rootPath = "/content/dam", rootTitle = "Assets")
-	private String imageTopLogoPath;
-
 	@DialogField(fieldLabel = "Bottom Image Path", tab = 1)
 	@PathField(rootPath = "/content/dam", rootTitle = "Assets")
 	private String imageBottomLogoPath;
@@ -71,7 +67,6 @@ public class Footer {
 		Resource footerResource = request.getResourceResolver().getResource(footerPath);
 		if (footerResource != null) {
 			ValueMap properties = footerResource.adaptTo(ValueMap.class);
-			imageTopLogoPath = properties.get("imageTopLogoPath", "");
 			imageBottomLogoPath = properties.get("imageBottomLogoPath", "");
 			urlTitle = properties.get("urlTitle", "restaurantAUS.COM");
 			byline = properties.get("byline", "proudly brought to you by Tourism Australia");
@@ -120,10 +115,6 @@ public class Footer {
 				links.add(link);
 			}
 		}
-	}
-
-	public String getImageTopLogoPath() {
-		return imageTopLogoPath;
 	}
 
 	public String getImageTopLogoLink() {

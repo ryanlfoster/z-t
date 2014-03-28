@@ -29,7 +29,7 @@ import com.day.cq.wcm.api.Page;
 import com.day.cq.wcm.api.PageManager;
 import com.day.cq.wcm.foundation.Image;
 
-@Component(actions = { "Other Experiences" }, group = ".hidden", basePath = "jcr_root/apps/foodandwine/components", value = "Other Experiences", listeners = {
+@Component(actions = { "text:Other Experiences", "-" }, group = ".hidden", basePath = "jcr_root/apps/foodandwine/components", value = "Other Experiences", listeners = {
 	@Listener(name = "aftercopy", value = "REFRESH_PAGE"), @Listener(name = "afterdelete", value = "REFRESH_PAGE"),
 	@Listener(name = "afteredit", value = "REFRESH_PAGE"), @Listener(name = "afterinsert", value = "REFRESH_PAGE") })
 public class OtherExperiences {

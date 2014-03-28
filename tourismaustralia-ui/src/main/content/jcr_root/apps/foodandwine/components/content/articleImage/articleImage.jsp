@@ -5,7 +5,7 @@
 <c:set var="articleImage" value="<%=new ArticleImage(slingRequest) %>" />
 
 <div class='imagewithdescription'>
-	<div class='imagewidthdescription-inner'>
+	<div class='imagewithdescription-inner'>
 		<c:if test="${not empty articleImage.articleImageLinkPage}">
 			<a href="${articleImage.articleImageLinkPage}" target="${articleImageLinkPage.external ? '_blank' : '_self' }" class="imagewithdescription-inner">
 		</c:if>

@@ -52,6 +52,20 @@ h4 {
 
 p {
   line-height: pxtolineheightem(16px, 26px);
+  font-family: $font-family-base;
+  strong, b{
+    font-family: $font-family-base-b;
+    em{
+      font-family: $font-family-base-bi;
+    }
+  }
+  em{
+    font-family: $font-family-base-i;
+  }
+}
+
+em{
+  font-family: $font-family-base-i;
 }
 
 a {

@@ -69,16 +69,6 @@
     }
 }
 
-.row-equal-height {
-  display: table;
-}
-
-.row-equal-height [class*="col-"] {
-  float: none;
-  display: table-cell;
-  vertical-align: middle;
-}
-
 /* Destination */
 .mosaic-overlay {
   width: 100%;

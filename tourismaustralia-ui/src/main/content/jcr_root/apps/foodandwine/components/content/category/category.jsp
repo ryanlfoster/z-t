@@ -9,7 +9,7 @@
  			<div class="category-item category-item-center">
  				<p>
  					<span class="btn-round is-active"><img src="${item.imagePath}" alt=""></span>
- 					<span class="category-title l-color-black">${item.caption}</span>
+ 					<span class="category-title l-color-black">${not empty item.caption ? item.caption : "&nbsp;"}</span>
  				</p>
  			</div> 		
  		</c:forEach> 

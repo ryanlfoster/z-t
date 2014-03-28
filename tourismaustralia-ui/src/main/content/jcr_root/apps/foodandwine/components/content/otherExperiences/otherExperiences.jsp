@@ -39,7 +39,9 @@
 										<div class='mosaic-item-overlay mosaic-item-overlay-info'>
 											<div class='mosaic-item-overlay-info-icon'>
 												<span class="mosaic-item-overlay-info-icon-item">
-													<img src="${item.icon }" style="width: 80px; height: 56px" alt="">
+													<c:if test="${not empty item.icon }">
+														<img src="${item.icon }" alt="">
+													</c:if>
 												</span>
 												<p class="mosaic-item-overlay-info-head type-font-feature">
 													${item.title }

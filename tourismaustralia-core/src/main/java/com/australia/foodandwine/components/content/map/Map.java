@@ -2,7 +2,6 @@ package com.australia.foodandwine.components.content.map;
 
 import org.apache.commons.lang.StringUtils;
 import org.apache.sling.api.SlingHttpServletRequest;
-import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ValueMap;
 import org.apache.sling.api.scripting.SlingBindings;
 import org.apache.sling.api.scripting.SlingScriptHelper;
@@ -80,13 +79,11 @@ public class Map {
 	private void prepareGoogleMapsUrl(SlingHttpServletRequest request, SlingSettingsService slingSettings,
 		GoogleService googleService) {
 		String markerImgUrl = "";
-		// externalize the url for the marker image
-		Resource markerImage = request.getResourceResolver().getResource(MARKER_IMAGE);
 		Externalizer externalizer = request.getResourceResolver().adaptTo(Externalizer.class);
 		googleMapUrl = GOOGLE_MAP_URL.concat(this.buildAustralianAddress());
 		// cannot use marker image if in author mode (so use Google default)
 		if (!ServerUtils.isAuthor(slingSettings) && !ServerUtils.isLocal(slingSettings)) {
-			markerImgUrl = externalizer.absoluteLink(request, request.getScheme(), "icon:" + markerImage.getPath());
+			markerImgUrl = externalizer.absoluteLink(request, request.getScheme(), "icon:" + MARKER_IMAGE);
 		}
 		// TODO: refactor better way to replace parameters
 		googleMapUrl = StringUtils.replace(googleMapUrl, "{marker_image_url}", markerImgUrl);

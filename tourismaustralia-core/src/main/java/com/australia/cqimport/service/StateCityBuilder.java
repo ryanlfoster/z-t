@@ -23,6 +23,7 @@ public class StateCityBuilder extends PageBuilder {
         Page page = pageManager.getPage(PageBuilder.CRX_ROOT_PATH + newPath);
 
         if (page == null) {
+            System.out.println("Importing: "+ PageBuilder.CRX_ROOT_PATH + oldPath);
             DefaultConsumerBaseFoundationService service = new DefaultConsumerBaseFoundationService();
             ConsumerBaseFoundationType cbf = service.getByPath(oldPath);
 

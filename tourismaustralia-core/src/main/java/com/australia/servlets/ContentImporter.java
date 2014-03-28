@@ -35,10 +35,10 @@ import java.util.Map;
         @Property(name = "service.vendor", value = "DT Digital", propertyPrivate = false)})
 
 public class ContentImporter extends SlingAllMethodsServlet {
-    private static final String emailSubscriptionsRootPath = "/content/ta/emailSubscriptions";
 
     @Reference
     private ResourceResolverFactory resourceResolverFactory;
+    Map<String,PageBuilder> templates = new Hashtable<String,PageBuilder>();
 
     @Override
     protected void doGet(SlingHttpServletRequest request, SlingHttpServletResponse response) throws ServletException,
@@ -50,8 +50,8 @@ public class ContentImporter extends SlingAllMethodsServlet {
     protected void doPost(SlingHttpServletRequest request, SlingHttpServletResponse response) throws ServletException,
             IOException {
         ResourceResolver resourceResolver = null;
-        Map<String,PageBuilder> templates = new Hashtable<String,PageBuilder>();
 
+        // Add templates and builders
         templates.put("states",new StateCityBuilder());
         templates.put("cities",new StateCityBuilder());
 
@@ -60,10 +60,9 @@ public class ContentImporter extends SlingAllMethodsServlet {
         } catch (LoginException e) {
             e.printStackTrace();
         }
-        System.out.println("*************************");
+        System.out.println("Start Importing *************************");
 
         PageBuilder pageBuilder;
-        System.out.println("before");
 
         MappingVO[] mappingVO = getMappings();
         for(MappingVO map: mappingVO){
@@ -73,7 +72,7 @@ public class ContentImporter extends SlingAllMethodsServlet {
             try {
                 pageBuilder.createPage(map.getOldPath(), map.getNewPath(),
                         resourceResolver);
-                System.out.println("After");
+
             } catch (WCMException e) {
                 System.out.println(e);
                 e.printStackTrace();
@@ -81,11 +80,10 @@ public class ContentImporter extends SlingAllMethodsServlet {
         }
 
 
-        System.out.println("End");
+        System.out.println("Importing Finished *************************");
     }
 
     private MappingVO[] getMappings(){
-        // Start
 
         InputStream file = this.getClass().getClassLoader().getResourceAsStream("prod-content/mapping.csv");
         BufferedReader br = null;
@@ -119,9 +117,7 @@ public class ContentImporter extends SlingAllMethodsServlet {
                 }
             }
         }
-
         return mappingsList.toArray(new MappingVO[mappingsList.size()]);
 
-        // end
     }
 }

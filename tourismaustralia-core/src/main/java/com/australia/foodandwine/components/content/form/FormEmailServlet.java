@@ -13,6 +13,7 @@ import javax.jcr.Session;
 import javax.jcr.ValueFactory;
 import javax.servlet.ServletException;
 
+import org.apache.commons.mail.Email;
 import org.apache.commons.mail.HtmlEmail;
 import org.apache.felix.scr.annotations.Reference;
 import org.apache.felix.scr.annotations.sling.SlingServlet;
@@ -42,7 +43,6 @@ public class FormEmailServlet extends SlingAllMethodsServlet {
 
 	private String contentType;
 	private Binary contentValue;
-	final HtmlEmail email = new HtmlEmail();
 
 	@Override
 	protected void doPost(SlingHttpServletRequest request, SlingHttpServletResponse response) throws ServletException,
@@ -58,13 +58,8 @@ public class FormEmailServlet extends SlingAllMethodsServlet {
 			String businessWebsite = request.getParameter("businessWebsite");
 			String businessDescription = request.getParameter("businessDescription");
 			String photoDescription = request.getParameter("photoDescription");
-			String categoryRestaurants = request.getParameter("category-restaurants");
-			String categoryWine = request.getParameter("category-wine");
-			String categoryProduce = request.getParameter("category-produce");
-			String categoryEvents = request.getParameter("category-events");
-			String categoryPeople = request.getParameter("category-people");
-			String categorExperiences = request.getParameter("category-experiences");
-			String categorySeafood = request.getParameter("category-seafood");
+			String primaryCategory = request.getParameter("category-primary");
+			String secondaryCategory = request.getParameter("category-secondary");
 			String videoUrl = request.getParameter("videoUrl");
 
 			Node node = request.getResourceResolver().resolve("/content/usergenerated/").adaptTo(Node.class);
@@ -78,6 +73,8 @@ public class FormEmailServlet extends SlingAllMethodsServlet {
 			formArticleNode.setProperty("businessWebsite", businessWebsite);
 			formArticleNode.setProperty("businessDescription", businessDescription);
 			formArticleNode.setProperty("photoDescription", photoDescription);
+			formArticleNode.setProperty("primaryCategory", primaryCategory);
+			formArticleNode.setProperty("secondaryCategory", secondaryCategory);
 
 			properties.put("Business Name ", businessName);
 			properties.put("Location ", location);
@@ -86,35 +83,8 @@ public class FormEmailServlet extends SlingAllMethodsServlet {
 			properties.put("Business Website ", businessWebsite);
 			properties.put("Business Description ", businessDescription);
 			properties.put("Photo Description ", photoDescription);
-
-			if (categoryRestaurants != null) {
-				formArticleNode.setProperty("categoryRestaurants", categoryRestaurants);
-				properties.put("Category Restaurants", categoryRestaurants);
-			}
-			if (categoryWine != null) {
-				formArticleNode.setProperty("categoryWine", categoryWine);
-				properties.put("Category Wine ", categoryWine);
-			}
-			if (categoryProduce != null) {
-				formArticleNode.setProperty("categoryProduce", categoryProduce);
-				properties.put("Category Produce ", categoryProduce);
-			}
-			if (categoryEvents != null) {
-				formArticleNode.setProperty("categoryEvents", categoryEvents);
-				properties.put("Category Events ", categoryEvents);
-			}
-			if (categoryPeople != null) {
-				formArticleNode.setProperty("categoryPeople", categoryPeople);
-				properties.put("Category People ", categoryPeople);
-			}
-			if (categorExperiences != null) {
-				formArticleNode.setProperty("categorExperiences", categorExperiences);
-				properties.put("Categor Experiences ", categorExperiences);
-			}
-			if (categorySeafood != null) {
-				formArticleNode.setProperty("categorySeafood", categorySeafood);
-				properties.put("Category Seafood ", categorySeafood);
-			}
+			properties.put("Primary Category", primaryCategory);
+			properties.put("Secondary Category", secondaryCategory);
 			properties.put("Video Url", videoUrl);
 
 			imageUpload(request, formArticleNode, session);
@@ -132,7 +102,7 @@ public class FormEmailServlet extends SlingAllMethodsServlet {
 
 			sendEmail(request, mapBuilder, form);
 			// Zendesk
-			sendZendeskEmail(request, mapBuilder, form);
+			sendZendeskEmail(request, mapBuilder, form, mail);
 
 			response.sendRedirect(form.getRedirectUrl());
 		} catch (Exception e) {
@@ -151,7 +121,7 @@ public class FormEmailServlet extends SlingAllMethodsServlet {
 			if ((key.equalsIgnoreCase("upload-photo"))) {
 				try {
 					InputStream stream = param.getInputStream();
-					contentType = param.getContentType();
+					contentType = getServletContext().getMimeType(param.getString());
 					ValueFactory valueFactory = session.getValueFactory();
 					contentValue = valueFactory.createBinary(stream);
 					Node fileNode = formArticleNode.addNode("file", "nt:file");
@@ -173,7 +143,7 @@ public class FormEmailServlet extends SlingAllMethodsServlet {
 		List<String> emailIdsList = form.getEmailIdsList();
 		String emailSubject = form.getEmailSubject();
 		for (String emailIds : emailIdsList) {
-
+			Email email = new HtmlEmail();
 			try {
 				email.setSubject(emailSubject);
 				email.setContent(mapBuilder.toString(), "text/html; charset=utf-8");
@@ -186,21 +156,21 @@ public class FormEmailServlet extends SlingAllMethodsServlet {
 		}
 	}
 
-	private void sendZendeskEmail(SlingHttpServletRequest request, StringBuilder mapBuilder, Form form) {
-
+	private void sendZendeskEmail(SlingHttpServletRequest request, StringBuilder mapBuilder, Form form,
+		String emailAddress) {
+		Email email = new HtmlEmail();
 		String emailSubject = form.getEmailSubject();
-		String zendeskId = form.getZendeskId();
-		String zendeskTags = form.getZendeskTags();
-		String mailContent = zendeskTags + mapBuilder.toString();
+		String zenDesk = form.getZenDeskEmail();
+		StringBuilder zenDeskEmail = new StringBuilder();
+		zenDeskEmail.append("#requester ").append(emailAddress).append("<br/>").append(mapBuilder.toString());
 		try {
 			email.setSubject(emailSubject);
-			email.setContent(mailContent, "text/html; charset=utf-8");
-			email.addTo(zendeskId);
+			email.setContent(zenDeskEmail.toString(), "text/html; charset=utf-8");
+			email.addTo(zenDesk);
 			mailService.send(email);
 		} catch (Exception e) {
 			LOG.error("Error sending an email", e);
 		}
 
 	}
-
 }

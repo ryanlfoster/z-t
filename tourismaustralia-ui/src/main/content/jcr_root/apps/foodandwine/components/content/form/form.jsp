@@ -66,9 +66,14 @@
 					<select class="input-select" name="selectTerritory" id="selectTerritory">
 						<option selected="selected" disabled="disabled">Select a
 							state or territory*</option>
-						<option value="nsw">NSW</option>
-						<option value="southernaustralia">Southern Australia</option>
-						<option value="victoria">Victoria</option>
+						<option>Australian Capital Territory</option>  
+						<option>New South Wales</option> 
+						<option>Northern Territory</option>  
+						<option>Queensland</option>
+						<option>South Australia</option>  
+						<option>Tasmania</option> 
+						<option>Victoria</option>  
+						<option>Western Australia</option>
 					</select> <span class="input-field-validation-icon"></span>
 					<div class="col-xs-12">
 						<p class="input-field-validation-alert">Please enter a valid
@@ -156,7 +161,7 @@
 					<div class="image-uploader">
 						<div class="image-uploader-holder">
 							<img class="image-uploader-sample"
-								src="imgs/base/image-upload-icon.png" alt="">
+								src="/etc/designs/foodandwine/clientlibs/imgs/base/image-upload-icon.png" alt="">
 						</div>
 		
 						<p>
@@ -273,7 +278,7 @@
 			</div>
 			
 		<div class="field-container">
-		                <div class="input-field" data-type="text">
+		                <div class="input-field" data-type="optional">
 		                    <div class="col-xs-4">
 		                        <label class="input-field-label" for="text">
 		                            <p>

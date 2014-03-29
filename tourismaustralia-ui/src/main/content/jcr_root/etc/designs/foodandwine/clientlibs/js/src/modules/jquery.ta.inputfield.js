@@ -98,6 +98,9 @@ var inputfields = [];
 			case "checkbox":
 				isValid = scope.isValidCheckbox(checkBox);
 				break;
+			case "optional":
+				isValid=true;
+				break;
 		}
 
 		scope.setValidation(scope, isValid);
@@ -195,7 +198,6 @@ $(window).load(function() {
 
 //external validation function for submit buttons
 function validateForm() {
-	$('input[type=submit]', this).attr('disabled', 'disabled');
 	//check all input fields an call validation form
 	$(inputfields).each(function(index, element){
 		//for input fields
@@ -217,24 +219,23 @@ function validateForm() {
 			errorObjects.push(element);
 			errors++;
 		}
-		
-		//check categories box
-		if($('.categories-box').attr('isValid') === 'true'){
-			$('.categories-box-validation-alert').css("display","none");
-		}else{
-			$('.categories-box-validation-alert').css("display","block");
-			
-			errors++;
-		}
-		
-		if(errors > 0)
-		{
-			//scroll to first error
-			$("html, body").animate({ scrollTop: $(errorObjects[0]).offset().top }, 500);	
-			$('input[type=submit]', this).removeAttr('disabled');
-			return false;
-		}else{
-			return true;
-		}
 	});
+		
+	//check categories box
+	if($('.categories-box').attr('isValid') === 'true'){
+		$('.categories-box-validation-alert').css("display","none");
+	}else{
+		$('.categories-box-validation-alert').css("display","block");
+		
+		errors++;
+	}
+	
+	if(errors > 0)
+	{
+		//scroll to first error
+		$("html, body").animate({ scrollTop: $(errorObjects[0]).offset().top }, 500);
+		return false;
+	}else{
+		return true;
+	}
 }

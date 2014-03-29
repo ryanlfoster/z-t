@@ -19,7 +19,7 @@
 </script>
 <div class="row form-conatiner form-container-padding">
 	<div class="col-xs-12 form-container-inner">
-		<form action="${resource.path}.formemail.json" method="post">
+		<form action="${resource.path}.formemail.json" method="post" class="add-experience-form">
 			<!-- input fields -->
 			<div class="field-container">
 				<div class="input-field" data-type="text">
@@ -310,7 +310,7 @@
 		<!--  -->
 			<hr class="form-clear">
 			<p class="form-submit-button">
-				<input type="submit" onclick="validateForm();"
+				<input type="submit"
 					value="I'm done, submit" class="btn-secondary">
 			</p>
 		</form>

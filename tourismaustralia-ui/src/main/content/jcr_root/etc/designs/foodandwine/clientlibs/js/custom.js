@@ -22,3 +22,14 @@ $(function(){
 		});
 	});
 });
+
+$(function(){
+	$("form.add-experience-form").submit(function(e){
+		if(validateForm()){
+			return true;
+		}else{
+			e.preventDefault();
+			return false;
+		}
+	});
+});

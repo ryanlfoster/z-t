@@ -195,6 +195,7 @@ $(window).load(function() {
 
 //external validation function for submit buttons
 function validateForm() {
+	$('input[type=submit]', this).attr('disabled', 'disabled');
 	//check all input fields an call validation form
 	$(inputfields).each(function(index, element){
 		//for input fields
@@ -230,7 +231,7 @@ function validateForm() {
 		{
 			//scroll to first error
 			$("html, body").animate({ scrollTop: $(errorObjects[0]).offset().top }, 500);	
-					
+			$('input[type=submit]', this).removeAttr('disabled');
 			return false;
 		}else{
 			return true;

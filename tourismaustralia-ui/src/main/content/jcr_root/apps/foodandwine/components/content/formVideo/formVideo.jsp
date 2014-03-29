@@ -1,8 +1,7 @@
+<%@include file="/apps/foodandwine/components/global.jsp"%>
 <%@ page import="com.australia.foodandwine.components.content.formvideo.FormVideo" %>
 
 <c:set var="video" value="<%=new FormVideo(slingRequest) %>" />
-
-
 		        
 <div class="hint-icon-wrapper">
 	<div class="hint-icon">
@@ -18,7 +17,7 @@
 <!-- video container -->
 
 
-<div id='home-video' class="video-container">
+<div id='video-holder-${video.videoRandomId}' class="video-container">
     <a class="video-close-btn icon-font-cross" href="#"></a>
     <div class="video-table">
         <div class="video-table-cell">

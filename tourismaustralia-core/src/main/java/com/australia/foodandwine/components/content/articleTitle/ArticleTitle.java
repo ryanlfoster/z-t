@@ -16,7 +16,7 @@ public class ArticleTitle {
 	@DialogField(fieldLabel = "Article Name", required = true)
 	private String name;
 
-	@DialogField(fieldLabel = "Byline", required = true)
+	@DialogField(fieldLabel = "Byline")
 	private String byline;
 
 	public ArticleTitle(SlingHttpServletRequest request) {

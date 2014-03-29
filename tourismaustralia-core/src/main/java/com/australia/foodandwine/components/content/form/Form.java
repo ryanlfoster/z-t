@@ -15,36 +15,32 @@ import com.citytechinc.cq.component.annotations.widgets.MultiField;
 import com.citytechinc.cq.component.annotations.widgets.PathField;
 import com.citytechinc.cq.component.annotations.widgets.TextArea;
 
-/**
- *
- */
-
-@Component(group = "Food and Wine", basePath = "jcr_root/apps/foodandwine/components", value = "Form", listeners = {
+@Component(disableTargeting = true, group = "Food and Wine", basePath = "jcr_root/apps/foodandwine/components", value = "Form", listeners = {
 	@Listener(name = "aftercopy", value = "REFRESH_PAGE"), @Listener(name = "afterdelete", value = "REFRESH_PAGE"),
 	@Listener(name = "afteredit", value = "REFRESH_PAGE"), @Listener(name = "afterinsert", value = "REFRESH_PAGE") })
 public class Form {
 
 	@DialogField(fieldLabel = "Email Subject", name = "./emailSubject", required = true)
-	private String emailSubject;
+	private final String emailSubject;
 
 	@DialogField(fieldLabel = "Email Body", name = "./emailBody", required = true)
 	@TextArea
-	private String emailBody;
+	private final String emailBody;
 
 	@DialogField(fieldLabel = "Email Id's")
 	@MultiField
 	private final List<String> emailIdsList;
 
-	@DialogField(fieldLabel = "Zendesk Id", name = "./zendeskId", required = true, fieldDescription="Zendesk email id (eg. support@zendesk.com)")
-	private String zendeskId;
+	@DialogField(fieldLabel = "Zendesk Id", name = "./zendeskId", required = true, fieldDescription = "Zendesk email id (eg. support@zendesk.com)")
+	private final String zendeskId;
 
-	@DialogField(fieldLabel = "Zendesk Tags", name = "./zendeskTags", required = true, fieldDescription="Add ZenDesk tags here to create Zendesk Tickets (Eg. #status open)")
+	@DialogField(fieldLabel = "Zendesk Tags", name = "./zendeskTags", required = true, fieldDescription = "Add ZenDesk tags here to create Zendesk Tickets (Eg. #status open)")
 	@TextArea
-	private String zendeskTags;
+	private final String zendeskTags;
 
 	@DialogField(fieldLabel = "Thank You Page Redirect", name = "./redirectUrl", required = true)
 	@PathField
-	private String redirectUrl;
+	private final String redirectUrl;
 
 	/**
 	 * Constants

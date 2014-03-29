@@ -8,13 +8,13 @@ import org.apache.sling.api.scripting.SlingScriptHelper;
 import org.apache.sling.settings.SlingSettingsService;
 
 import com.australia.google.service.GoogleService;
+import com.australia.server.ServerNameService;
 import com.australia.utils.ServerUtils;
 import com.citytechinc.cq.component.annotations.Component;
 import com.citytechinc.cq.component.annotations.DialogField;
 import com.citytechinc.cq.component.annotations.Listener;
 import com.citytechinc.cq.component.annotations.Option;
 import com.citytechinc.cq.component.annotations.widgets.Selection;
-import com.day.cq.commons.Externalizer;
 
 @Component(group = "Food and Wine", basePath = "jcr_root/apps/foodandwine/components", value = "Google Map", listeners = {
 	@Listener(name = "aftercopy", value = "REFRESH_PAGE"), @Listener(name = "afterdelete", value = "REFRESH_PAGE"),
@@ -51,6 +51,7 @@ public class Map {
 		SlingScriptHelper sling = ((SlingBindings) request.getAttribute(SlingBindings.class.getName())).getSling();
 		GoogleService googleService = sling.getService(GoogleService.class);
 		SlingSettingsService slingSettings = sling.getService(SlingSettingsService.class);
+		ServerNameService serverNameService = sling.getService(ServerNameService.class);
 		ValueMap properties = request.getResource().adaptTo(ValueMap.class);
 		if (properties != null) {
 			phone = properties.get("phone", StringUtils.EMPTY);
@@ -65,7 +66,7 @@ public class Map {
 			state = "";
 			postcode = "";
 		}
-		prepareGoogleMapsUrl(request, slingSettings, googleService);
+		prepareGoogleMapsUrl(request, slingSettings, googleService, serverNameService);
 	}
 
 	/**
@@ -77,13 +78,12 @@ public class Map {
 	 * @parm googleService - Google Service used to retrieve the API key
 	 */
 	private void prepareGoogleMapsUrl(SlingHttpServletRequest request, SlingSettingsService slingSettings,
-		GoogleService googleService) {
+		GoogleService googleService, ServerNameService serverNameService) {
 		String markerImgUrl = "";
-		Externalizer externalizer = request.getResourceResolver().adaptTo(Externalizer.class);
 		googleMapUrl = GOOGLE_MAP_URL.concat(this.buildAustralianAddress());
 		// cannot use marker image if in author mode (so use Google default)
-		if (!ServerUtils.isAuthor(slingSettings) && !ServerUtils.isLocal(slingSettings)) {
-			markerImgUrl = "icon:" + externalizer.absoluteLink(request, request.getScheme(), MARKER_IMAGE);
+		if (!ServerUtils.isLocal(slingSettings)) {
+			markerImgUrl = "icon:" + serverNameService.getFoodAndWineServerName() + MARKER_IMAGE;
 		}
 		// TODO: refactor better way to replace parameters
 		googleMapUrl = StringUtils.replace(googleMapUrl, "{marker_image_url}", markerImgUrl);

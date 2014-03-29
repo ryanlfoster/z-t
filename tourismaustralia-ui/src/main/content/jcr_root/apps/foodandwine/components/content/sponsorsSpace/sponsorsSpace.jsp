@@ -14,7 +14,7 @@
 				data-disablecarouselondesktop="true">
 				<c:if test="${not empty sponsorsSpace.sponsor1.bigTitle }">
 					<li class="faw-sponsors-carousel-item">
-						<a class="sponsors-wrapper" href="${sponsorsSpace.sponsor1.linkTextPath}" target="${sponsorsSpace.sponsor1.external? '_blank':'self'}">
+						<div class="sponsors-wrapper">
 							<div class="row sponsors-item type-spacing-30">
 								<div class="sponsors-row-1 type-spacing-15">
 									<c:if test="${not empty sponsorsSpace.sponsor1.bigTitle}">
@@ -28,7 +28,9 @@
 											<div class="video-link-container">
 										</c:if>
 										<c:if test="${not empty sponsorsSpace.sponsor1.imagePath}">
-											<img src="${sponsorsSpace.sponsor1.imagePath }" class="sponsors-image ${empty sponsorsSpace.sponsor1.imageTitle ? 'type-spacing-15' : '' }" alt="">
+											<a href="${sponsorsSpace.sponsor1.linkTextPath}" target="${sponsorsSpace.sponsor1.external? '_blank':'self'}">
+												<img src="${sponsorsSpace.sponsor1.imagePath }" class="sponsors-image ${empty sponsorsSpace.sponsor1.imageTitle ? 'type-spacing-15' : '' }" alt="">
+											</a>
 										</c:if>
 										<c:if test="${not empty sponsorsSpace.sponsor1.imageTitle }">
 											<p>${sponsorsSpace.sponsor1.imageTitle }</p>
@@ -50,13 +52,13 @@
 									</c:choose>
 								</div>
 							</div>
-						</a>
+						</div>
 					</li>
 				</c:if>
 				
 				<c:if test="${not empty sponsorsSpace.sponsor2.bigTitle }">
 					<li class="faw-sponsors-carousel-item">
-						<a class="sponsors-wrapper" href="${sponsorsSpace.sponsor2.linkTextPath}" target="${sponsorsSpace.sponsor2.external? '_blank':'self'}">
+						<div class="sponsors-wrapper">
 							<div class="row sponsors-item type-spacing-30">
 								<div class="sponsors-row-1 type-spacing-15">
 									<c:if test="${not empty sponsorsSpace.sponsor2.bigTitle}">
@@ -70,7 +72,9 @@
 											<div class="video-link-container">
 										</c:if>
 										<c:if test="${not empty sponsorsSpace.sponsor2.imagePath}">
-											<img src="${sponsorsSpace.sponsor2.imagePath }" class="sponsors-image ${empty sponsorsSpace.sponsor2.imageTitle ? 'type-spacing-15' : '' }" alt="">
+											<a href="${sponsorsSpace.sponsor2.linkTextPath}" target="${sponsorsSpace.sponsor2.external? '_blank':'self'}">
+												<img src="${sponsorsSpace.sponsor2.imagePath }" class="sponsors-image ${empty sponsorsSpace.sponsor2.imageTitle ? 'type-spacing-15' : '' }" alt="">
+											</a>
 										</c:if>
 										<c:if test="${not empty sponsorsSpace.sponsor2.imageTitle }">
 											<p>${sponsorsSpace.sponsor2.imageTitle }</p>
@@ -92,13 +96,13 @@
 									</c:choose>
 								</div>
 							</div>
-						</a>
+						</div>
 					</li>
 				</c:if>
 				
 				<c:if test="${not empty sponsorsSpace.sponsor3.bigTitle }">
 					<li class="faw-sponsors-carousel-item">
-						<a class="sponsors-wrapper" href="${sponsorsSpace.sponsor3.linkTextPath}" target="${sponsorsSpace.sponsor3.external? '_blank':'self'}">
+						<div class="sponsors-wrapper">
 							<div class="row sponsors-item type-spacing-30">
 								<div class="sponsors-row-1 type-spacing-15">
 									<c:if test="${not empty sponsorsSpace.sponsor3.bigTitle}">
@@ -112,7 +116,9 @@
 											<div class="video-link-container">
 										</c:if>
 										<c:if test="${not empty sponsorsSpace.sponsor3.imagePath}">
-											<img src="${sponsorsSpace.sponsor3.imagePath }" class="sponsors-image ${empty sponsorsSpace.sponsor3.imageTitle ? 'type-spacing-15' : '' }" alt="">
+											<a href="${sponsorsSpace.sponsor3.linkTextPath}" target="${sponsorsSpace.sponsor3.external? '_blank':'self'}">
+												<img src="${sponsorsSpace.sponsor3.imagePath }" class="sponsors-image ${empty sponsorsSpace.sponsor3.imageTitle ? 'type-spacing-15' : '' }" alt="">
+											</a>
 										</c:if>
 										<c:if test="${not empty sponsorsSpace.sponsor3.imageTitle }">
 											<p>${sponsorsSpace.sponsor3.imageTitle }</p>
@@ -134,7 +140,7 @@
 									</c:choose>
 								</div>
 							</div>
-						</a>
+						</div>
 					</li>
 				</c:if>
 			</ul>

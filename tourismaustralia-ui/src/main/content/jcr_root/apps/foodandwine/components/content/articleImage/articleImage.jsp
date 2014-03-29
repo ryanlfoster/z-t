@@ -7,7 +7,7 @@
 <div class='imagewithdescription'>
 	<div class='imagewithdescription-inner'>
 		<c:if test="${not empty articleImage.articleImageLinkPage}">
-			<a href="${articleImage.articleImageLinkPage}" target="${articleImageLinkPage.external ? '_blank' : '_self' }" class="imagewithdescription-inner">
+			<a href="${articleImage.articleImageLinkPage}" target="${articleImage.external ? '_blank' : '_self' }" class="imagewithdescription-inner">
 		</c:if>
 			<div class="responsive-image" data-picture="" data-alt="" >
 				<div data-src="${articleImage.imagePath}.adapt.480.low.jpg" data-media="(min-width: 1px)"></div>

@@ -6790,15 +6790,16 @@ h6 {
 /* line 69, ../../assets/scss/site/_base.scss */
 p {
   line-height: 1.5em;
+  text-align: center;
 }
 
-/* line 73, ../../assets/scss/site/_base.scss */
+/* line 74, ../../assets/scss/site/_base.scss */
 a {
   color: #393939;
   text-decoration: underline;
 }
 
-/* line 78, ../../assets/scss/site/_base.scss */
+/* line 79, ../../assets/scss/site/_base.scss */
 a:hover, a:focus {
   color: #393939;
   cursor: pointer;
@@ -6807,24 +6808,24 @@ a:hover, a:focus {
 /*a:visited {
   color: $type-link-hover-colour;
 }*/
-/* line 86, ../../assets/scss/site/_base.scss */
-strong {
+/* line 87, ../../assets/scss/site/_base.scss */
+strong, b {
   font-family: "ProximaNova Bold", Helvetica, Arial, sans-serif;
   font-weight: normal;
 }
-/* line 88, ../../assets/scss/site/_base.scss */
-strong em {
+/* line 89, ../../assets/scss/site/_base.scss */
+strong em, b em {
   font-family: "ProximaNova Bold Italic", Helvetica, Arial, sans-serif;
   font-weight: normal;
 }
 
-/* line 94, ../../assets/scss/site/_base.scss */
+/* line 95, ../../assets/scss/site/_base.scss */
 em {
   font-family: "ProximaNova Regular Italic", Helvetica, Arial, sans-serif;
   font-weight: normal;
 }
 
-/* line 99, ../../assets/scss/site/_base.scss */
+/* line 100, ../../assets/scss/site/_base.scss */
 hr {
   border-top: 1px solid #bbbbbb;
 }
@@ -6832,7 +6833,7 @@ hr {
 /**
  Quick hack to remove styling in chrome on buttons
 **/
-/* line 114, ../../assets/scss/site/_base.scss */
+/* line 115, ../../assets/scss/site/_base.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -6842,7 +6843,7 @@ input[type="submit"] {
   background: transparent;
   cursor: pointer;
 }
-/* line 120, ../../assets/scss/site/_base.scss */
+/* line 121, ../../assets/scss/site/_base.scss */
 button:focus,
 html input[type="button"]:focus,
 input[type="reset"]:focus,
@@ -8822,7 +8823,7 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   background: #000;
 }
 
-/* line 7, ../../assets/scss/site/modules/_footer.scss */
+/* line 9, ../../assets/scss/site/modules/_footer.scss */
 .footer {
   background-color: #000;
   max-width: 75em;
@@ -8830,7 +8831,7 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   padding: 0 .5em;
 }
 
-/* line 15, ../../assets/scss/site/modules/_footer.scss */
+/* line 17, ../../assets/scss/site/modules/_footer.scss */
 .footer-col {
   width: 18.75em;
   position: relative;
@@ -8838,49 +8839,50 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   display: inline-block;
 }
 @media (min-width: 480px) {
-  /* line 15, ../../assets/scss/site/modules/_footer.scss */
+  /* line 17, ../../assets/scss/site/modules/_footer.scss */
   .footer-col {
     text-align: center;
     width: inherit;
   }
-  /* line 25, ../../assets/scss/site/modules/_footer.scss */
+  /* line 27, ../../assets/scss/site/modules/_footer.scss */
   .footer-col li {
     display: inline-block;
     margin-right: 1em;
   }
 }
 @media (min-width: 768px) {
-  /* line 15, ../../assets/scss/site/modules/_footer.scss */
+  /* line 17, ../../assets/scss/site/modules/_footer.scss */
   .footer-col {
     width: 18.75em;
     text-align: left;
   }
-  /* line 34, ../../assets/scss/site/modules/_footer.scss */
+  /* line 36, ../../assets/scss/site/modules/_footer.scss */
   .footer-col li {
     display: block;
   }
-  /* line 37, ../../assets/scss/site/modules/_footer.scss */
+  /* line 39, ../../assets/scss/site/modules/_footer.scss */
   .footer-col .footer-social-list li {
     display: inline-block;
   }
 }
 @media (min-width: 1200px) {
-  /* line 15, ../../assets/scss/site/modules/_footer.scss */
+  /* line 17, ../../assets/scss/site/modules/_footer.scss */
   .footer-col {
     margin-left: 12%;
   }
 }
 
-/* line 46, ../../assets/scss/site/modules/_footer.scss */
+/* line 48, ../../assets/scss/site/modules/_footer.scss */
 .footer-heading {
   margin: 0 0 0.9375em 0;
   font-family: "TheSanB5Pla", Helvetica, Arial, sans-serif;
   font-size: 1em;
+  text-align: inherit;
   padding: 0;
   color: #FFF;
 }
 
-/* line 53, ../../assets/scss/site/modules/_footer.scss */
+/* line 56, ../../assets/scss/site/modules/_footer.scss */
 .footer-text-list li {
   padding: 0.55em 0;
   color: #787474;
@@ -8888,18 +8890,18 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   font-size: 0.875em;
 }
 
-/* line 59, ../../assets/scss/site/modules/_footer.scss */
+/* line 62, ../../assets/scss/site/modules/_footer.scss */
 .footer-text-list li a {
   color: #787474;
   text-decoration: none;
 }
 
-/* line 64, ../../assets/scss/site/modules/_footer.scss */
+/* line 67, ../../assets/scss/site/modules/_footer.scss */
 .footer-text-list li a:hover, .footer-text-list li a:focus {
   color: #FFF;
 }
 
-/* line 70, ../../assets/scss/site/modules/_footer.scss */
+/* line 73, ../../assets/scss/site/modules/_footer.scss */
 .footer-restaurant-australia-elements {
   text-align: center;
   padding-top: 4em;
@@ -8907,7 +8909,7 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   margin: 0 auto;
 }
 
-/* line 76, ../../assets/scss/site/modules/_footer.scss */
+/* line 79, ../../assets/scss/site/modules/_footer.scss */
 .footer-restaurant-australia-elements-link {
   display: block;
   font-family: "TheSanB5Pla", Helvetica, Arial, sans-serif;
@@ -8917,32 +8919,32 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   text-decoration: none;
 }
 
-/* line 84, ../../assets/scss/site/modules/_footer.scss */
+/* line 87, ../../assets/scss/site/modules/_footer.scss */
 .footer-restaurant-australia-elements-link:hover, .restaurant-australia-elements-link:focus {
   color: #787474;
   text-decoration: none;
 }
 
-/* line 88, ../../assets/scss/site/modules/_footer.scss */
+/* line 91, ../../assets/scss/site/modules/_footer.scss */
 .footer-restaurant-australia-elements-biline-container {
   height: 100%;
   text-align: center;
 }
 
-/* line 92, ../../assets/scss/site/modules/_footer.scss */
+/* line 95, ../../assets/scss/site/modules/_footer.scss */
 .footer-restaurant-australia-elements-biline-container hr {
   margin-top: -0.625em;
   border-top: 1px solid #504d4d;
   margin: -0.625em 0.9375em 0;
 }
 @media (max-width: 480px) {
-  /* line 92, ../../assets/scss/site/modules/_footer.scss */
+  /* line 95, ../../assets/scss/site/modules/_footer.scss */
   .footer-restaurant-australia-elements-biline-container hr {
     visibility: hidden;
   }
 }
 
-/* line 100, ../../assets/scss/site/modules/_footer.scss */
+/* line 103, ../../assets/scss/site/modules/_footer.scss */
 .footer-restaurant-australia-elements-biline {
   font-family: "TAheadline", Helvetica, Arial, sans-serif;
   letter-spacing: .015em;
@@ -8953,32 +8955,32 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   padding: 0 0.875em;
 }
 
-/* line 110, ../../assets/scss/site/modules/_footer.scss */
+/* line 113, ../../assets/scss/site/modules/_footer.scss */
 .footer-logo-fixed-height {
   min-height: 6.875em;
   width: 18.75em;
 }
 @media (min-width: 1200px) {
-  /* line 110, ../../assets/scss/site/modules/_footer.scss */
+  /* line 113, ../../assets/scss/site/modules/_footer.scss */
   .footer-logo-fixed-height {
     min-height: 12.75em;
   }
 }
 
-/* line 117, ../../assets/scss/site/modules/_footer.scss */
+/* line 120, ../../assets/scss/site/modules/_footer.scss */
 .footer-ta-logo-container {
   bottom: 1.6em;
   position: absolute;
   left: 3.125em;
 }
 @media (min-width: 1200px) {
-  /* line 117, ../../assets/scss/site/modules/_footer.scss */
+  /* line 120, ../../assets/scss/site/modules/_footer.scss */
   .footer-ta-logo-container {
     left: 5.6em;
   }
 }
 
-/* line 125, ../../assets/scss/site/modules/_footer.scss */
+/* line 128, ../../assets/scss/site/modules/_footer.scss */
 .footer-ta-logo-copyright {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 0.875em;
@@ -8987,12 +8989,12 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   padding-right: 0.125em;
 }
 
-/* line 134, ../../assets/scss/site/modules/_footer.scss */
+/* line 137, ../../assets/scss/site/modules/_footer.scss */
 .footer-social {
   background: #000;
 }
 
-/* line 137, ../../assets/scss/site/modules/_footer.scss */
+/* line 140, ../../assets/scss/site/modules/_footer.scss */
 .footer-social-heading {
   font-family: "TheSanB5Pla", Helvetica, Arial, sans-serif;
   font-size: 1em;
@@ -9000,11 +9002,11 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   color: #FFF;
 }
 
-/* line 148, ../../assets/scss/site/modules/_footer.scss */
+/* line 151, ../../assets/scss/site/modules/_footer.scss */
 .footer-social-list li {
   margin: 0;
 }
-/* line 152, ../../assets/scss/site/modules/_footer.scss */
+/* line 155, ../../assets/scss/site/modules/_footer.scss */
 .footer-social-list > li:nth-child(odd) {
   width: 150px;
 }
@@ -10390,16 +10392,17 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   line-height: 1.2em;
   height: 54px;
   vertical-align: middle;
+  text-align: left;
 }
 
 /* Description box */
-/* line 125, ../../assets/scss/site/modules/_inputfield.scss */
+/* line 126, ../../assets/scss/site/modules/_inputfield.scss */
 .description-box {
   border: 1px #e0e0e0 solid;
   padding: 1em;
 }
 
-/* line 129, ../../assets/scss/site/modules/_inputfield.scss */
+/* line 130, ../../assets/scss/site/modules/_inputfield.scss */
 .description-box-headline {
   font-size: 1.1em;
   font-weight: bold;
@@ -10407,38 +10410,39 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   padding: 0;
 }
 
-/* line 135, ../../assets/scss/site/modules/_inputfield.scss */
+/* line 136, ../../assets/scss/site/modules/_inputfield.scss */
 .description-box-copy {
   font-size: 0.9em;
   margin: 0;
   padding: 0;
+  text-align: left;
 }
 
-/* line 140, ../../assets/scss/site/modules/_inputfield.scss */
+/* line 142, ../../assets/scss/site/modules/_inputfield.scss */
 .description-box-input-field {
   border: 1px #e0e0e0 solid;
   width: 100%;
 }
-/* line 143, ../../assets/scss/site/modules/_inputfield.scss */
+/* line 145, ../../assets/scss/site/modules/_inputfield.scss */
 .description-box-input-field:focus {
   outline: none;
   border: 1px #e0e0e0 solid;
 }
 
-/* line 151, ../../assets/scss/site/modules/_inputfield.scss */
+/* line 153, ../../assets/scss/site/modules/_inputfield.scss */
 .form-conatiner .input-field-select .input-field-validation-icon {
   right: 50px;
 }
 
 /* Categories box */
-/* line 156, ../../assets/scss/site/modules/_inputfield.scss */
+/* line 158, ../../assets/scss/site/modules/_inputfield.scss */
 .categories-box {
   border: 1px #e0e0e0 solid;
   padding: 1em;
   margin-bottom: 2em;
 }
 
-/* line 161, ../../assets/scss/site/modules/_inputfield.scss */
+/* line 163, ../../assets/scss/site/modules/_inputfield.scss */
 .categories-box-headline {
   font-size: 1.1em;
   font-weight: bold;
@@ -10446,19 +10450,25 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   padding: 0;
 }
 
-/* line 167, ../../assets/scss/site/modules/_inputfield.scss */
+/* line 169, ../../assets/scss/site/modules/_inputfield.scss */
 .categories-box-copy {
   font-size: 0.9em;
   margin: 0;
   padding: 0;
+  text-align: left;
+}
+
+/* line 176, ../../assets/scss/site/modules/_inputfield.scss */
+.checkbox-description {
+  text-align: left;
 }
 
 /* Input submit button */
-/* line 174, ../../assets/scss/site/modules/_inputfield.scss */
+/* line 181, ../../assets/scss/site/modules/_inputfield.scss */
 .form-submit-button {
   text-align: center;
 }
-/* line 177, ../../assets/scss/site/modules/_inputfield.scss */
+/* line 184, ../../assets/scss/site/modules/_inputfield.scss */
 .form-submit-button input {
   width: 60%;
   height: 60px;
@@ -10469,93 +10479,93 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   margin: 0.5em;
   cursor: pointer;
 }
-/* line 187, ../../assets/scss/site/modules/_inputfield.scss */
+/* line 194, ../../assets/scss/site/modules/_inputfield.scss */
 .form-submit-button input:hover {
   color: #fff;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
-  /* line 195, ../../assets/scss/site/modules/_inputfield.scss */
+  /* line 202, ../../assets/scss/site/modules/_inputfield.scss */
   .field-container.terms-conditions {
     height: 14%;
   }
 
-  /* line 196, ../../assets/scss/site/modules/_inputfield.scss */
+  /* line 203, ../../assets/scss/site/modules/_inputfield.scss */
   .input-field-input {
     font-size: 0.875em;
     height: auto;
   }
 
-  /* line 197, ../../assets/scss/site/modules/_inputfield.scss */
+  /* line 204, ../../assets/scss/site/modules/_inputfield.scss */
   .input-field-label p {
     height: auto;
     padding-top: 1.0em;
   }
 
-  /* line 198, ../../assets/scss/site/modules/_inputfield.scss */
+  /* line 205, ../../assets/scss/site/modules/_inputfield.scss */
   .input-field {
     height: auto;
   }
-  /* line 200, ../../assets/scss/site/modules/_inputfield.scss */
+  /* line 207, ../../assets/scss/site/modules/_inputfield.scss */
   .input-field .col-xs-4, .input-field .col-xs-8, .input-field .col-xs-12 {
     float: none;
     display: block;
   }
-  /* line 201, ../../assets/scss/site/modules/_inputfield.scss */
+  /* line 208, ../../assets/scss/site/modules/_inputfield.scss */
   .input-field .col-xs-4 {
     width: 100%;
     padding-right: 0;
   }
-  /* line 202, ../../assets/scss/site/modules/_inputfield.scss */
+  /* line 209, ../../assets/scss/site/modules/_inputfield.scss */
   .input-field .col-xs-8 {
     width: 100%;
     padding-bottom: 0.5em;
   }
-  /* line 203, ../../assets/scss/site/modules/_inputfield.scss */
+  /* line 210, ../../assets/scss/site/modules/_inputfield.scss */
   .input-field .col-xs-12 {
     position: "";
     width: 100%;
   }
 
-  /* line 205, ../../assets/scss/site/modules/_inputfield.scss */
+  /* line 212, ../../assets/scss/site/modules/_inputfield.scss */
   .input-field-validation-alert {
     text-align: left;
   }
 
-  /* line 210, ../../assets/scss/site/modules/_inputfield.scss */
+  /* line 219, ../../assets/scss/site/modules/_inputfield.scss */
   .form-conatiner .input-field-select .input-field-validation-icon {
     right: 42px;
     top: 0.7em;
   }
-  /* line 212, ../../assets/scss/site/modules/_inputfield.scss */
+  /* line 225, ../../assets/scss/site/modules/_inputfield.scss */
   .form-conatiner .input-field-validation-icon {
     top: -0.8em;
   }
 
-  /* line 215, ../../assets/scss/site/modules/_inputfield.scss */
+  /* line 230, ../../assets/scss/site/modules/_inputfield.scss */
   .field-container .input-select {
     font-size: 0.875em;
   }
 
-  /* line 221, ../../assets/scss/site/modules/_inputfield.scss */
+  /* line 237, ../../assets/scss/site/modules/_inputfield.scss */
   .form-submit-button input {
     font-size: 0.875em;
   }
 
-  /* line 226, ../../assets/scss/site/modules/_inputfield.scss */
-  .terms-conditions p.checkbox-description {
-    padding-top: 1.0em;
+  /* line 244, ../../assets/scss/site/modules/_inputfield.scss */
+  .terms-conditions .checkbox-description {
+    padding-top: 1em;
   }
-  /* line 228, ../../assets/scss/site/modules/_inputfield.scss */
+  /* line 248, ../../assets/scss/site/modules/_inputfield.scss */
   .terms-conditions .input-field-validation-icon {
     top: 0.6em;
   }
-  /* line 230, ../../assets/scss/site/modules/_inputfield.scss */
+  /* line 252, ../../assets/scss/site/modules/_inputfield.scss */
   .terms-conditions .checkbox-label {
     padding-right: 2.5em;
   }
 
-  /* line 235, ../../assets/scss/site/modules/_inputfield.scss */
+  /* line 259, ../../assets/scss/site/modules/_inputfield.scss */
   label.input-field-label p {
     font-size: 0.875em;
   }
@@ -10891,16 +10901,24 @@ progress[value]::-webkit-progress-value {
   margin-bottom: 2em;
   margin-top: 4em;
 }
+/* line 18, ../../assets/scss/site/modules/_sortedlist.scss */
+.sorted-list-head p {
+  text-align: left;
+}
 
-/* line 20, ../../assets/scss/site/modules/_sortedlist.scss */
+/* line 24, ../../assets/scss/site/modules/_sortedlist.scss */
 .sorted-list-category h2 {
   border-bottom: 1px #bbbbbb solid;
   width: 1em;
   margin-top: 0.5em;
   margin-bottom: 0.2em;
 }
+/* line 31, ../../assets/scss/site/modules/_sortedlist.scss */
+.sorted-list-category p {
+  text-align: left;
+}
 
-/* line 28, ../../assets/scss/site/modules/_sortedlist.scss */
+/* line 36, ../../assets/scss/site/modules/_sortedlist.scss */
 .sorted-list-sort-button {
   font-size: 1.1em;
   margin: 0;
@@ -10911,45 +10929,45 @@ progress[value]::-webkit-progress-value {
   text-decoration: none;
 }
 
-/* line 38, ../../assets/scss/site/modules/_sortedlist.scss */
+/* line 46, ../../assets/scss/site/modules/_sortedlist.scss */
 .sorted-list-sort-active {
   background-image: url("../imgs/base/list-icon-active.png");
   background-repeat: no-repeat;
   background-position: center right;
 }
 
-/* line 44, ../../assets/scss/site/modules/_sortedlist.scss */
+/* line 52, ../../assets/scss/site/modules/_sortedlist.scss */
 .sorted-list-sort-inactive {
   background-image: url("../imgs/base/list-icon-inactive.png");
   background-repeat: no-repeat;
   background-position: center right;
 }
 
-/* line 50, ../../assets/scss/site/modules/_sortedlist.scss */
+/* line 58, ../../assets/scss/site/modules/_sortedlist.scss */
 .sorted-list-item {
   cursor: pointer;
   padding: 0.5em;
   padding-left: 0.5em;
   margin-left: 0em;
 }
-/* line 56, ../../assets/scss/site/modules/_sortedlist.scss */
+/* line 64, ../../assets/scss/site/modules/_sortedlist.scss */
 .sorted-list-item:hover {
   background-color: #ebebeb;
 }
-/* line 60, ../../assets/scss/site/modules/_sortedlist.scss */
+/* line 68, ../../assets/scss/site/modules/_sortedlist.scss */
 .sorted-list-item p {
   font-size: 1.1em;
   margin: 0em;
   line-height: 1.3em;
 }
-/* line 65, ../../assets/scss/site/modules/_sortedlist.scss */
+/* line 73, ../../assets/scss/site/modules/_sortedlist.scss */
 .sorted-list-item a {
   font-size: 1.1em;
   font-family: "ProximaNova Bold";
   line-height: 1.3em;
 }
 @media (min-width: 768px) {
-  /* line 50, ../../assets/scss/site/modules/_sortedlist.scss */
+  /* line 58, ../../assets/scss/site/modules/_sortedlist.scss */
   .sorted-list-item {
     padding: 0.5em;
     padding-left: 1.5em;
@@ -10957,7 +10975,7 @@ progress[value]::-webkit-progress-value {
   }
 }
 
-/* line 78, ../../assets/scss/site/modules/_sortedlist.scss */
+/* line 86, ../../assets/scss/site/modules/_sortedlist.scss */
 .sorted-list-pagination {
   position: relative;
   text-align: center;
@@ -10967,7 +10985,7 @@ progress[value]::-webkit-progress-value {
   padding-right: 0;
 }
 
-/* line 87, ../../assets/scss/site/modules/_sortedlist.scss */
+/* line 95, ../../assets/scss/site/modules/_sortedlist.scss */
 .sorted-list-results-label {
   font-size: 0.9em;
   position: relative;
@@ -10975,7 +10993,7 @@ progress[value]::-webkit-progress-value {
   top: 0;
 }
 @media (min-width: 1200px) {
-  /* line 87, ../../assets/scss/site/modules/_sortedlist.scss */
+  /* line 95, ../../assets/scss/site/modules/_sortedlist.scss */
   .sorted-list-results-label {
     position: absolute;
     left: 0;
@@ -10983,7 +11001,7 @@ progress[value]::-webkit-progress-value {
   }
 }
 
-/* line 101, ../../assets/scss/site/modules/_sortedlist.scss */
+/* line 109, ../../assets/scss/site/modules/_sortedlist.scss */
 .sorted-list-pagination-buttons .btn-square {
   width: 40px;
   height: 40px;
@@ -10991,7 +11009,7 @@ progress[value]::-webkit-progress-value {
   font-size: 1.2em;
 }
 @media (min-width: 1200px) {
-  /* line 101, ../../assets/scss/site/modules/_sortedlist.scss */
+  /* line 109, ../../assets/scss/site/modules/_sortedlist.scss */
   .sorted-list-pagination-buttons .btn-square {
     width: 60px;
     height: 60px;
@@ -11000,7 +11018,7 @@ progress[value]::-webkit-progress-value {
   }
 }
 
-/* line 116, ../../assets/scss/site/modules/_sortedlist.scss */
+/* line 124, ../../assets/scss/site/modules/_sortedlist.scss */
 .sorted-list-head-mobile {
   border-top: 1px #bbbbbb solid;
   margin-top: 2em;
@@ -12591,23 +12609,25 @@ progress[value]::-webkit-progress-value {
   color: white;
   font-size: 1.5em;
   line-height: 1em;
+  text-align: left;
   padding: 0 !important;
   margin: 0;
   padding-right: 1.5em;
   text-transform: uppercase;
 }
 
-/* line 43, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 44, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-description-sub {
   font-family: "ProximaNova Regular Italic";
   color: white;
   padding: 0 !important;
+  text-align: left;
   margin: 0;
   padding-right: 1.5em !important;
   line-height: 0.7em;
 }
 
-/* line 52, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 54, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-description-share {
   font-size: 2em;
   position: absolute;
@@ -12615,17 +12635,17 @@ progress[value]::-webkit-progress-value {
   bottom: 0.4em;
   color: white;
 }
-/* line 59, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 61, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-description-share img {
   width: 35px;
 }
 
-/* line 64, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 66, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-description-share-dark {
   display: none;
 }
 
-/* line 68, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 70, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-overlay {
   position: absolute;
   top: 0;
@@ -12640,7 +12660,7 @@ progress[value]::-webkit-progress-value {
   opacity: 0;
   text-align: left;
 }
-/* line 82, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 84, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-overlay:hover {
   opacity: 0.9;
   transition: opacity .5s ease-out;
@@ -12649,29 +12669,29 @@ progress[value]::-webkit-progress-value {
   -o-transition: opacity .5s ease-out;
 }
 
-/* line 91, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 93, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-overlay-share {
   background-color: #036c86;
 }
-/* line 94, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 96, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-overlay-share p {
   font-size: 0.9em;
   line-height: 1.5em;
 }
 
-/* line 100, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 102, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-overlay-info {
   background-color: #393939;
   text-align: center;
   opacity: 0;
 }
-/* line 105, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 107, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-overlay-info p {
   font-size: 0.8em;
   line-height: 1.5em;
 }
 
-/* line 111, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 113, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-overlay-info-icon {
   width: 175px;
   height: 117px;
@@ -12686,7 +12706,7 @@ progress[value]::-webkit-progress-value {
   margin-left: -87px;
 }
 
-/* line 125, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 127, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-overlay-info-head {
   position: absolute;
   top: -40px;
@@ -12698,7 +12718,7 @@ progress[value]::-webkit-progress-value {
   text-transform: uppercase;
 }
 
-/* line 136, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 138, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-overlay-info-desciption {
   position: absolute;
   top: 100px;
@@ -12708,13 +12728,13 @@ progress[value]::-webkit-progress-value {
   line-height: 1em !important;
   text-align: center;
 }
-/* line 145, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 147, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-overlay-info-desciption a {
   color: white;
   text-decoration: none;
 }
 
-/* line 151, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 153, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-overlay-info-icon-item {
   position: absolute;
   top: 50%;
@@ -12723,12 +12743,12 @@ progress[value]::-webkit-progress-value {
   margin-top: -0.5em;
   margin-left: -0.6em;
 }
-/* line 159, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 161, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-overlay-info-icon-item img {
   width: 70px;
 }
 
-/* line 164, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 166, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-overlay-info-categories {
   width: 100%;
   position: absolute;
@@ -12741,22 +12761,22 @@ progress[value]::-webkit-progress-value {
   padding-bottom: 0 !important;
 }
 
-/* line 176, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 178, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-register {
   width: 100%;
   height: 100%;
   background-color: white;
 }
-/* line 181, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 183, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-register img {
   opacity: 0;
 }
-/* line 185, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 187, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-register .mosaic-item-register-inner {
   border: 1px #bbbbbb solid;
 }
 
-/* line 189, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 191, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-register-content {
   position: absolute;
   top: 50%;
@@ -12769,17 +12789,17 @@ progress[value]::-webkit-progress-value {
   margin-top: -7.5em;
   text-align: center;
 }
-/* line 201, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 203, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-register-content .faw-register-teaser-subline {
   color: black;
   font-size: 0.8em;
 }
-/* line 206, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 208, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-register-content p {
   margin-top: 0.5em;
 }
 
-/* line 211, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 213, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-description-categories {
   position: absolute;
   top: 0;
@@ -12787,18 +12807,18 @@ progress[value]::-webkit-progress-value {
   display: none;
 }
 @media (min-width: 768px) {
-  /* line 211, ../../assets/scss/site/modules/_mosaic-item.scss */
+  /* line 213, ../../assets/scss/site/modules/_mosaic-item.scss */
   .mosaic-item-description-categories {
     display: block;
   }
 }
 
-/* line 222, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 224, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-location .mosaic-item-description {
   padding-left: 2.2em;
   z-index: 2;
 }
-/* line 227, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 229, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-location .mosaic-item-location-icon {
   position: absolute;
   left: 2em;
@@ -12806,7 +12826,7 @@ progress[value]::-webkit-progress-value {
 }
 
 /*-----------------------grid changer-------------------------*/
-/* line 238, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 240, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list {
   cursor: pointer;
   text-align: left;
@@ -12814,7 +12834,7 @@ progress[value]::-webkit-progress-value {
   margin-right: 1em;
   min-height: 8em;
 }
-/* line 245, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 247, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list .mosaic-item-description {
   top: 0;
   bottom: 0;
@@ -12823,27 +12843,28 @@ progress[value]::-webkit-progress-value {
   margin-bottom: 0;
   padding-bottom: 0;
 }
-/* line 255, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 257, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list .mosaic-item-description-head {
   font-size: 2em;
   line-height: 1em;
 }
-/* line 260, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 262, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list .mosaic-item-description-copy {
   display: none !important;
+  text-align: left;
 }
 @media (min-width: 768px) {
-  /* line 260, ../../assets/scss/site/modules/_mosaic-item.scss */
+  /* line 262, ../../assets/scss/site/modules/_mosaic-item.scss */
   .mosaic-item-list .mosaic-item-description-copy {
     display: block !important;
   }
 }
-/* line 268, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 270, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list p {
   color: #393939;
   margin-left: 100px;
 }
-/* line 273, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 275, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list .mosaic-item-image {
   width: 100px;
   /* For Safari 3.1 to 6.0 */
@@ -12857,43 +12878,43 @@ progress[value]::-webkit-progress-value {
   transition-timing-function: ease-out;
   transition-delay: 0s;
 }
-/* line 278, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 280, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list .mosaic-item-overlay {
   display: none;
 }
-/* line 282, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 284, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list:hover {
   background-color: #ebebeb;
 }
-/* line 286, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 288, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list .mosaic-item-description-share {
   color: #393939;
   right: 0em;
   top: 0em;
 }
-/* line 292, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 294, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list .mosaic-item-description-share-dark {
   display: none;
 }
 @media (min-width: 768px) {
-  /* line 292, ../../assets/scss/site/modules/_mosaic-item.scss */
+  /* line 294, ../../assets/scss/site/modules/_mosaic-item.scss */
   .mosaic-item-list .mosaic-item-description-share-dark {
     display: block;
   }
 }
-/* line 300, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 302, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list .mosaic-item-description-share-white {
   display: none;
 }
 
-/* line 304, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 306, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid {
   text-align: center;
   border-bottom: 0px #ebebeb solid;
   margin-left: 0;
   margin-right: 0;
 }
-/* line 310, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 312, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid .mosaic-item-description {
   top: none;
   bottom: 0;
@@ -12902,11 +12923,11 @@ progress[value]::-webkit-progress-value {
   margin-bottom: 1em;
   padding-bottom: 1em;
 }
-/* line 319, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 321, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid .mosaic-item-description-copy {
   display: none !important;
 }
-/* line 323, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 325, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid .mosaic-item-image {
   width: 100%;
   /* For Safari 3.1 to 6.0 */
@@ -12920,36 +12941,36 @@ progress[value]::-webkit-progress-value {
   transition-timing-function: ease-out;
   transition-delay: 0s;
 }
-/* line 328, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 330, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid .mosaic-item-description-head {
   font-size: 1.5em;
   line-height: 1em;
 }
-/* line 333, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 335, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid p {
   color: white;
   margin-left: 0;
 }
-/* line 338, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 340, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid .mosaic-item-overlay {
   display: block;
 }
-/* line 342, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 344, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid:hover {
   background-color: white;
 }
-/* line 346, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 348, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid .mosaic-item-description-share {
   color: white;
   top: none;
   right: 0.4em;
   bottom: 0.4em;
 }
-/* line 353, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 355, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid .mosaic-item-description-share-dark {
   display: none;
 }
-/* line 357, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 359, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid .mosaic-item-description-share-white {
   display: block;
 }

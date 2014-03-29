@@ -58,7 +58,6 @@
 										</div>
 									</div>
 								</li>
-								<li class="item"></li>
 							</c:forEach>
 						</ul>
 					</div>

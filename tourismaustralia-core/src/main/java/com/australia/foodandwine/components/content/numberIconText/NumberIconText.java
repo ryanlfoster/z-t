@@ -17,6 +17,11 @@ import com.citytechinc.cq.component.annotations.FieldProperty;
 import com.citytechinc.cq.component.annotations.Listener;
 import com.citytechinc.cq.component.annotations.widgets.NumberField;
 import com.citytechinc.cq.component.annotations.widgets.RichTextEditor;
+import com.citytechinc.cq.component.annotations.widgets.rte.Format;
+import com.citytechinc.cq.component.annotations.widgets.rte.Justify;
+import com.citytechinc.cq.component.annotations.widgets.rte.Lists;
+import com.citytechinc.cq.component.annotations.widgets.rte.Style;
+import com.citytechinc.cq.component.annotations.widgets.rte.Styles;
 
 @Component(disableTargeting = true, group = "Food and Wine", basePath = "jcr_root/apps/foodandwine/components", value = "Number with Icon & Text", dialogWidth = 850, dialogHeight = 500, listeners = {
 	@Listener(name = "aftercopy", value = "REFRESH_PAGE"), @Listener(name = "afterdelete", value = "REFRESH_PAGE"),
@@ -32,7 +37,7 @@ public class NumberIconText {
 	private final List<IconLink> icons = new ArrayList<IconLink>();
 
 	@DialogField(fieldLabel = "Text", additionalProperties = @FieldProperty(name = "anchor", value = "100%"))
-	@RichTextEditor
+	@RichTextEditor(lists = @Lists(indent = false, ordered = false, outdent = false, unordered = false), justify = @Justify(justifycenter = false, justifyleft = false, justifyright = false), styles = @Styles(styles = @Style(cssName = "form-thank-you-small-print", text = "Small print")), format = @Format(bold = true, underline = true, italic = false))
 	private final String text;
 
 	public NumberIconText(SlingHttpServletRequest request) {

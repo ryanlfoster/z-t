@@ -7,8 +7,11 @@ import com.citytechinc.cq.component.annotations.Component;
 import com.citytechinc.cq.component.annotations.DialogField;
 import com.citytechinc.cq.component.annotations.Listener;
 import com.citytechinc.cq.component.annotations.widgets.RichTextEditor;
+import com.citytechinc.cq.component.annotations.widgets.rte.Format;
 import com.citytechinc.cq.component.annotations.widgets.rte.Justify;
 import com.citytechinc.cq.component.annotations.widgets.rte.Lists;
+import com.citytechinc.cq.component.annotations.widgets.rte.ParaFormat;
+import com.citytechinc.cq.component.annotations.widgets.rte.ParaFormatFormat;
 import com.citytechinc.cq.component.annotations.widgets.rte.Style;
 import com.citytechinc.cq.component.annotations.widgets.rte.Styles;
 
@@ -17,7 +20,9 @@ import com.citytechinc.cq.component.annotations.widgets.rte.Styles;
 	@Listener(name = "afteredit", value = "REFRESH_PAGE"), @Listener(name = "afterinsert", value = "REFRESH_PAGE") })
 public class Text {
 	@DialogField(fieldLabel = "Text content")
-	@RichTextEditor(lists = @Lists(indent = false, ordered = false, outdent = false, unordered = false), justify = @Justify(justifycenter = false, justifyleft = false, justifyright = false), styles = @Styles(styles = @Style(cssName = "form-thank-you-small-print", text = "Small print")))
+	@RichTextEditor(lists = @Lists(indent = false, ordered = false, outdent = false, unordered = false), justify = @Justify(justifycenter = false, justifyleft = false, justifyright = false), styles = @Styles(styles = @Style(cssName = "form-thank-you-small-print", text = "Small print")), format = @Format(bold = true, underline = true, italic = false), paraformat = @ParaFormat(formats = {
+		@ParaFormatFormat(description = "Paragraph", tag = "p"),
+		@ParaFormatFormat(description = "Heading 3", tag = "h3") }))
 	private String textContent;
 
 	public Text(SlingHttpServletRequest request) {

@@ -6791,15 +6791,21 @@ h6 {
 p {
   line-height: 1.5em;
   text-align: center;
+  /**
+   All quick fixes for integration
+  **/
+  max-width: 46.875em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* line 74, ../../assets/scss/site/_base.scss */
+/* line 81, ../../assets/scss/site/_base.scss */
 a {
   color: #393939;
   text-decoration: underline;
 }
 
-/* line 79, ../../assets/scss/site/_base.scss */
+/* line 86, ../../assets/scss/site/_base.scss */
 a:hover, a:focus {
   color: #393939;
   cursor: pointer;
@@ -6808,24 +6814,24 @@ a:hover, a:focus {
 /*a:visited {
   color: $type-link-hover-colour;
 }*/
-/* line 87, ../../assets/scss/site/_base.scss */
+/* line 94, ../../assets/scss/site/_base.scss */
 strong, b {
   font-family: "ProximaNova Bold", Helvetica, Arial, sans-serif;
   font-weight: normal;
 }
-/* line 89, ../../assets/scss/site/_base.scss */
+/* line 96, ../../assets/scss/site/_base.scss */
 strong em, b em {
   font-family: "ProximaNova Bold Italic", Helvetica, Arial, sans-serif;
   font-weight: normal;
 }
 
-/* line 95, ../../assets/scss/site/_base.scss */
+/* line 102, ../../assets/scss/site/_base.scss */
 em {
   font-family: "ProximaNova Regular Italic", Helvetica, Arial, sans-serif;
   font-weight: normal;
 }
 
-/* line 100, ../../assets/scss/site/_base.scss */
+/* line 107, ../../assets/scss/site/_base.scss */
 hr {
   border-top: 1px solid #bbbbbb;
 }
@@ -6833,7 +6839,7 @@ hr {
 /**
  Quick hack to remove styling in chrome on buttons
 **/
-/* line 115, ../../assets/scss/site/_base.scss */
+/* line 122, ../../assets/scss/site/_base.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -6843,7 +6849,7 @@ input[type="submit"] {
   background: transparent;
   cursor: pointer;
 }
-/* line 121, ../../assets/scss/site/_base.scss */
+/* line 128, ../../assets/scss/site/_base.scss */
 button:focus,
 html input[type="button"]:focus,
 input[type="reset"]:focus,
@@ -7351,13 +7357,20 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   display: inline;
 }
 
-/* line 526, ../../assets/scss/site/_layout.scss */
+/* line 523, ../../assets/scss/site/_layout.scss */
+.l-inline-block {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+/* line 531, ../../assets/scss/site/_layout.scss */
 .l-sm-100 {
   position: relative;
   width: 100%;
 }
 
-/* line 533, ../../assets/scss/site/_layout.scss */
+/* line 538, ../../assets/scss/site/_layout.scss */
 .l-md-50 {
   /*
   @include breakpoint(md) {
@@ -7368,163 +7381,163 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
 }
 
 @media (min-width: 1200px) {
-  /* line 543, ../../assets/scss/site/_layout.scss */
+  /* line 548, ../../assets/scss/site/_layout.scss */
   .l-lg-50 {
     position: relative;
     width: 50%;
   }
 }
 
-/* line 550, ../../assets/scss/site/_layout.scss */
+/* line 555, ../../assets/scss/site/_layout.scss */
 .l-display-md {
   display: block;
 }
 @media (min-width: 768px) {
-  /* line 550, ../../assets/scss/site/_layout.scss */
+  /* line 555, ../../assets/scss/site/_layout.scss */
   .l-display-md {
     display: none;
   }
 }
 
-/* line 557, ../../assets/scss/site/_layout.scss */
+/* line 562, ../../assets/scss/site/_layout.scss */
 .l-display-none-md {
   display: none;
 }
 @media (min-width: 768px) {
-  /* line 557, ../../assets/scss/site/_layout.scss */
+  /* line 562, ../../assets/scss/site/_layout.scss */
   .l-display-none-md {
     display: block;
   }
 }
 
-/* line 564, ../../assets/scss/site/_layout.scss */
+/* line 569, ../../assets/scss/site/_layout.scss */
 .l-display-lg {
   display: block;
 }
 @media (min-width: 1200px) {
-  /* line 564, ../../assets/scss/site/_layout.scss */
+  /* line 569, ../../assets/scss/site/_layout.scss */
   .l-display-lg {
     display: none;
   }
 }
 
-/* line 571, ../../assets/scss/site/_layout.scss */
+/* line 576, ../../assets/scss/site/_layout.scss */
 .l-display-none-lg {
   display: none;
 }
 @media (min-width: 1200px) {
-  /* line 571, ../../assets/scss/site/_layout.scss */
+  /* line 576, ../../assets/scss/site/_layout.scss */
   .l-display-none-lg {
     display: block;
   }
 }
 
-/* line 578, ../../assets/scss/site/_layout.scss */
+/* line 583, ../../assets/scss/site/_layout.scss */
 .l-display-sm {
   display: block;
 }
 @media (min-width: 480px) {
-  /* line 578, ../../assets/scss/site/_layout.scss */
+  /* line 583, ../../assets/scss/site/_layout.scss */
   .l-display-sm {
     display: none;
   }
 }
 
-/* line 585, ../../assets/scss/site/_layout.scss */
+/* line 590, ../../assets/scss/site/_layout.scss */
 .l-display-none-sm {
   display: none;
 }
 @media (min-width: 480px) {
-  /* line 585, ../../assets/scss/site/_layout.scss */
+  /* line 590, ../../assets/scss/site/_layout.scss */
   .l-display-none-sm {
     display: block;
   }
 }
 
-/* line 593, ../../assets/scss/site/_layout.scss */
+/* line 598, ../../assets/scss/site/_layout.scss */
 .l-padding-lr-10 {
   padding: 0 10px;
 }
 
-/* line 597, ../../assets/scss/site/_layout.scss */
+/* line 602, ../../assets/scss/site/_layout.scss */
 .l-center {
   text-align: center;
 }
 
-/* line 601, ../../assets/scss/site/_layout.scss */
+/* line 606, ../../assets/scss/site/_layout.scss */
 .l-page-width-640 {
   max-width: 640px;
   margin: 0 auto;
 }
 
-/* line 605, ../../assets/scss/site/_layout.scss */
+/* line 610, ../../assets/scss/site/_layout.scss */
 .l-page-width-600 {
   max-width: 600px;
   margin: 0 auto;
 }
 
-/* line 609, ../../assets/scss/site/_layout.scss */
+/* line 614, ../../assets/scss/site/_layout.scss */
 .l-page-width-576 {
   max-width: 576px;
   margin: 0 auto;
 }
 
-/* line 613, ../../assets/scss/site/_layout.scss */
+/* line 618, ../../assets/scss/site/_layout.scss */
 .l-page-width-400 {
   max-width: 400px;
   margin: 0 auto;
 }
 
-/* line 619, ../../assets/scss/site/_layout.scss */
+/* line 624, ../../assets/scss/site/_layout.scss */
 .col-reset {
   width: 100%;
 }
 
-/* line 622, ../../assets/scss/site/_layout.scss */
+/* line 627, ../../assets/scss/site/_layout.scss */
 .col-reset-sm-6 {
   width: 100%;
 }
 
-/* line 625, ../../assets/scss/site/_layout.scss */
+/* line 630, ../../assets/scss/site/_layout.scss */
 .col-reset-md-6 {
   width: 100%;
 }
 
-/* line 628, ../../assets/scss/site/_layout.scss */
+/* line 633, ../../assets/scss/site/_layout.scss */
 .col-reset-md-3 {
   width: 100%;
 }
 
-/* line 634, ../../assets/scss/site/_layout.scss */
+/* line 639, ../../assets/scss/site/_layout.scss */
 .l-footer-align {
   text-align: center;
 }
 @media (min-width: 768px) {
-  /* line 634, ../../assets/scss/site/_layout.scss */
+  /* line 639, ../../assets/scss/site/_layout.scss */
   .l-footer-align {
     margin-left: 4.2%;
   }
 }
 @media (min-width: 1200px) {
-  /* line 634, ../../assets/scss/site/_layout.scss */
+  /* line 639, ../../assets/scss/site/_layout.scss */
   .l-footer-align {
     margin-left: inherit;
   }
 }
 
-/* line 644, ../../assets/scss/site/_layout.scss */
+/* line 649, ../../assets/scss/site/_layout.scss */
 #main-header {
   position: relative;
 }
 
-/* line 648, ../../assets/scss/site/_layout.scss */
+/* line 653, ../../assets/scss/site/_layout.scss */
 #main-content {
   position: relative;
   background: #fff;
   display: initial;
 }
 
-/* line 654, ../../assets/scss/site/_layout.scss */
+/* line 659, ../../assets/scss/site/_layout.scss */
 #main-footer {
   position: relative;
   background: #0a334c;
@@ -8837,6 +8850,8 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   position: relative;
   text-align: left;
   display: inline-block;
+  *display: inline;
+  *zoom: 1;
 }
 @media (min-width: 480px) {
   /* line 17, ../../assets/scss/site/modules/_footer.scss */
@@ -8844,9 +8859,11 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
     text-align: center;
     width: inherit;
   }
-  /* line 27, ../../assets/scss/site/modules/_footer.scss */
+  /* line 31, ../../assets/scss/site/modules/_footer.scss */
   .footer-col li {
     display: inline-block;
+    *display: inline;
+    *zoom: 1;
     margin-right: 1em;
   }
 }
@@ -8856,13 +8873,15 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
     width: 18.75em;
     text-align: left;
   }
-  /* line 36, ../../assets/scss/site/modules/_footer.scss */
+  /* line 45, ../../assets/scss/site/modules/_footer.scss */
   .footer-col li {
     display: block;
   }
-  /* line 39, ../../assets/scss/site/modules/_footer.scss */
+  /* line 48, ../../assets/scss/site/modules/_footer.scss */
   .footer-col .footer-social-list li {
     display: inline-block;
+    *display: inline;
+    *zoom: 1;
   }
 }
 @media (min-width: 1200px) {
@@ -8872,7 +8891,7 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   }
 }
 
-/* line 48, ../../assets/scss/site/modules/_footer.scss */
+/* line 63, ../../assets/scss/site/modules/_footer.scss */
 .footer-heading {
   margin: 0 0 0.9375em 0;
   font-family: "TheSanB5Pla", Helvetica, Arial, sans-serif;
@@ -8882,7 +8901,7 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   color: #FFF;
 }
 
-/* line 56, ../../assets/scss/site/modules/_footer.scss */
+/* line 71, ../../assets/scss/site/modules/_footer.scss */
 .footer-text-list li {
   padding: 0.55em 0;
   color: #787474;
@@ -8890,18 +8909,18 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   font-size: 0.875em;
 }
 
-/* line 62, ../../assets/scss/site/modules/_footer.scss */
+/* line 77, ../../assets/scss/site/modules/_footer.scss */
 .footer-text-list li a {
   color: #787474;
   text-decoration: none;
 }
 
-/* line 67, ../../assets/scss/site/modules/_footer.scss */
+/* line 82, ../../assets/scss/site/modules/_footer.scss */
 .footer-text-list li a:hover, .footer-text-list li a:focus {
   color: #FFF;
 }
 
-/* line 73, ../../assets/scss/site/modules/_footer.scss */
+/* line 88, ../../assets/scss/site/modules/_footer.scss */
 .footer-restaurant-australia-elements {
   text-align: center;
   padding-top: 4em;
@@ -8909,7 +8928,7 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   margin: 0 auto;
 }
 
-/* line 79, ../../assets/scss/site/modules/_footer.scss */
+/* line 94, ../../assets/scss/site/modules/_footer.scss */
 .footer-restaurant-australia-elements-link {
   display: block;
   font-family: "TheSanB5Pla", Helvetica, Arial, sans-serif;
@@ -8919,32 +8938,32 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   text-decoration: none;
 }
 
-/* line 87, ../../assets/scss/site/modules/_footer.scss */
+/* line 102, ../../assets/scss/site/modules/_footer.scss */
 .footer-restaurant-australia-elements-link:hover, .restaurant-australia-elements-link:focus {
   color: #787474;
   text-decoration: none;
 }
 
-/* line 91, ../../assets/scss/site/modules/_footer.scss */
+/* line 106, ../../assets/scss/site/modules/_footer.scss */
 .footer-restaurant-australia-elements-biline-container {
   height: 100%;
   text-align: center;
 }
 
-/* line 95, ../../assets/scss/site/modules/_footer.scss */
+/* line 110, ../../assets/scss/site/modules/_footer.scss */
 .footer-restaurant-australia-elements-biline-container hr {
   margin-top: -0.625em;
   border-top: 1px solid #504d4d;
   margin: -0.625em 0.9375em 0;
 }
 @media (max-width: 480px) {
-  /* line 95, ../../assets/scss/site/modules/_footer.scss */
+  /* line 110, ../../assets/scss/site/modules/_footer.scss */
   .footer-restaurant-australia-elements-biline-container hr {
     visibility: hidden;
   }
 }
 
-/* line 103, ../../assets/scss/site/modules/_footer.scss */
+/* line 118, ../../assets/scss/site/modules/_footer.scss */
 .footer-restaurant-australia-elements-biline {
   font-family: "TAheadline", Helvetica, Arial, sans-serif;
   letter-spacing: .015em;
@@ -8952,35 +8971,37 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   color: #FFF;
   background-color: #000;
   display: inline-block;
+  *display: inline;
+  *zoom: 1;
   padding: 0 0.875em;
 }
 
-/* line 113, ../../assets/scss/site/modules/_footer.scss */
+/* line 130, ../../assets/scss/site/modules/_footer.scss */
 .footer-logo-fixed-height {
   min-height: 6.875em;
   width: 18.75em;
 }
 @media (min-width: 1200px) {
-  /* line 113, ../../assets/scss/site/modules/_footer.scss */
+  /* line 130, ../../assets/scss/site/modules/_footer.scss */
   .footer-logo-fixed-height {
     min-height: 12.75em;
   }
 }
 
-/* line 120, ../../assets/scss/site/modules/_footer.scss */
+/* line 137, ../../assets/scss/site/modules/_footer.scss */
 .footer-ta-logo-container {
   bottom: 1.6em;
   position: absolute;
   left: 3.125em;
 }
 @media (min-width: 1200px) {
-  /* line 120, ../../assets/scss/site/modules/_footer.scss */
+  /* line 137, ../../assets/scss/site/modules/_footer.scss */
   .footer-ta-logo-container {
     left: 5.6em;
   }
 }
 
-/* line 128, ../../assets/scss/site/modules/_footer.scss */
+/* line 145, ../../assets/scss/site/modules/_footer.scss */
 .footer-ta-logo-copyright {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 0.875em;
@@ -8989,12 +9010,12 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   padding-right: 0.125em;
 }
 
-/* line 137, ../../assets/scss/site/modules/_footer.scss */
+/* line 154, ../../assets/scss/site/modules/_footer.scss */
 .footer-social {
   background: #000;
 }
 
-/* line 140, ../../assets/scss/site/modules/_footer.scss */
+/* line 157, ../../assets/scss/site/modules/_footer.scss */
 .footer-social-heading {
   font-family: "TheSanB5Pla", Helvetica, Arial, sans-serif;
   font-size: 1em;
@@ -9002,11 +9023,11 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   color: #FFF;
 }
 
-/* line 151, ../../assets/scss/site/modules/_footer.scss */
+/* line 168, ../../assets/scss/site/modules/_footer.scss */
 .footer-social-list li {
   margin: 0;
 }
-/* line 155, ../../assets/scss/site/modules/_footer.scss */
+/* line 172, ../../assets/scss/site/modules/_footer.scss */
 .footer-social-list > li:nth-child(odd) {
   width: 150px;
 }
@@ -9108,7 +9129,7 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   width: 100%;
   height: auto;
   border-radius: 0;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: black;
   display: inline-block;
   padding: 1em 1em 0;
   text-align: center;
@@ -9146,13 +9167,18 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
 }
 
 /* line 38, ../../assets/scss/site/modules/_calltoaction.scss */
+.rgba .calltoaction {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* line 43, ../../assets/scss/site/modules/_calltoaction.scss */
 .calltoaction-title-container {
   text-align: center;
   padding-top: 18px;
   padding-bottom: 9px;
 }
 
-/* line 43, ../../assets/scss/site/modules/_calltoaction.scss */
+/* line 48, ../../assets/scss/site/modules/_calltoaction.scss */
 .calltoaction-type-sml1 {
   font-family: "TAheadline", Helvetica, Arial, sans-serif;
   letter-spacing: .015em;
@@ -9162,19 +9188,19 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   max-width: 240px;
 }
 @media (min-width: 480px) {
-  /* line 43, ../../assets/scss/site/modules/_calltoaction.scss */
+  /* line 48, ../../assets/scss/site/modules/_calltoaction.scss */
   .calltoaction-type-sml1 {
     max-width: inherit;
   }
 }
 @media (min-width: 768px) {
-  /* line 43, ../../assets/scss/site/modules/_calltoaction.scss */
+  /* line 48, ../../assets/scss/site/modules/_calltoaction.scss */
   .calltoaction-type-sml1 {
     font-size: 1.5em;
   }
 }
 
-/* line 57, ../../assets/scss/site/modules/_calltoaction.scss */
+/* line 62, ../../assets/scss/site/modules/_calltoaction.scss */
 .calltoaction-type-lrg {
   font-family: "GearedSlab-Thin", Helvetica, Arial, sans-serif;
   font-size: 3em;
@@ -9182,59 +9208,59 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   text-transform: uppercase;
 }
 
-/* line 64, ../../assets/scss/site/modules/_calltoaction.scss */
+/* line 69, ../../assets/scss/site/modules/_calltoaction.scss */
 .calltoaction-hr {
   border-top: 1px solid #FFF !important;
   width: 240px;
   margin-top: 15px;
 }
 @media (min-width: 768px) {
-  /* line 64, ../../assets/scss/site/modules/_calltoaction.scss */
+  /* line 69, ../../assets/scss/site/modules/_calltoaction.scss */
   .calltoaction-hr {
     width: 286px;
   }
 }
 
-/* line 73, ../../assets/scss/site/modules/_calltoaction.scss */
+/* line 78, ../../assets/scss/site/modules/_calltoaction.scss */
 .calltoaction p {
   text-transform: uppercase;
   font-size: .9em;
   padding: 10px 0;
 }
 @media (min-width: 768px) {
-  /* line 73, ../../assets/scss/site/modules/_calltoaction.scss */
+  /* line 78, ../../assets/scss/site/modules/_calltoaction.scss */
   .calltoaction p {
     padding: 0;
   }
 }
 
-/* line 83, ../../assets/scss/site/modules/_calltoaction.scss */
+/* line 88, ../../assets/scss/site/modules/_calltoaction.scss */
 .calltoactionvideo .head-divider-inner {
   position: relative;
   margin-top: 2em;
 }
-/* line 88, ../../assets/scss/site/modules/_calltoaction.scss */
+/* line 93, ../../assets/scss/site/modules/_calltoaction.scss */
 .calltoactionvideo .icon-logo-withlines-hr-small {
   border-top: 1px solid white !important;
   bottom: 43px !important;
 }
-/* line 93, ../../assets/scss/site/modules/_calltoaction.scss */
+/* line 98, ../../assets/scss/site/modules/_calltoaction.scss */
 .calltoactionvideo .faw-video-teaser-icon {
   margin: 2em !important;
 }
 
-/* line 99, ../../assets/scss/site/modules/_calltoaction.scss */
+/* line 104, ../../assets/scss/site/modules/_calltoaction.scss */
 .head-divider-inner .icon-logo-withlines-hr-small {
   bottom: -4px;
 }
 
-/* line 105, ../../assets/scss/site/modules/_calltoaction.scss */
+/* line 110, ../../assets/scss/site/modules/_calltoaction.scss */
 .calltoactionbubble h5 {
   color: white;
   padding-left: 1em;
   padding-right: 1em;
 }
-/* line 110, ../../assets/scss/site/modules/_calltoaction.scss */
+/* line 115, ../../assets/scss/site/modules/_calltoaction.scss */
 .calltoactionbubble h2 {
   color: white;
   margin-top: 0.2em;
@@ -9242,7 +9268,7 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   padding-right: 1em;
 }
 
-/* line 118, ../../assets/scss/site/modules/_calltoaction.scss */
+/* line 123, ../../assets/scss/site/modules/_calltoaction.scss */
 .calltoactionbubblebig {
   width: 100%;
   height: auto;
@@ -9253,7 +9279,7 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   background-color: black;
 }
 @media (min-width: 768px) {
-  /* line 118, ../../assets/scss/site/modules/_calltoaction.scss */
+  /* line 123, ../../assets/scss/site/modules/_calltoaction.scss */
   .calltoactionbubblebig {
     width: 620px;
     height: 620px;
@@ -9264,7 +9290,7 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
     background-color: rgba(0, 0, 0, 0.8);
   }
 }
-/* line 139, ../../assets/scss/site/modules/_calltoaction.scss */
+/* line 144, ../../assets/scss/site/modules/_calltoaction.scss */
 .calltoactionbubblebig p {
   max-width: 420px;
   font-size: 1.1em;
@@ -9860,48 +9886,54 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
 .form-thank-you-states {
   margin-bottom: 60px;
 }
-/* line 348, ../../assets/scss/site/modules/_form.scss */
+/* line 347, ../../assets/scss/site/modules/_form.scss */
 .form-thank-you-states > li {
   padding-bottom: 28px;
   display: block;
   text-align: center;
 }
+
+/**
+ Fix due to using repsondjs there is partial
+ support, detecting for rgba to enable this breakpoint to work
+ else just center align for all screen sizes
+**/
 @media (min-width: 768px) {
-  /* line 342, ../../assets/scss/site/modules/_form.scss */
-  .form-thank-you-states {
+  /* line 360, ../../assets/scss/site/modules/_form.scss */
+  .rgba .form-thank-you-states {
     margin-bottom: 80px;
     text-align: left;
   }
-  /* line 365, ../../assets/scss/site/modules/_form.scss */
-  .form-thank-you-states > li {
+  /* line 369, ../../assets/scss/site/modules/_form.scss */
+  .rgba .form-thank-you-states > li {
     display: inline-block;
     text-align: left;
   }
-  /* line 370, ../../assets/scss/site/modules/_form.scss */
-  .form-thank-you-states > li:nth-child(odd) {
+  /* line 375, ../../assets/scss/site/modules/_form.scss */
+  .rgba .form-thank-you-states > li:nth-child(odd) {
     width: 238px;
     margin-left: 100px;
   }
 }
 
-/* line 378, ../../assets/scss/site/modules/_form.scss */
+/* line 386, ../../assets/scss/site/modules/_form.scss */
 .form-thank-you-contact-icon-size {
   font-size: 1.8em;
 }
 
-/* line 381, ../../assets/scss/site/modules/_form.scss */
+/* line 389, ../../assets/scss/site/modules/_form.scss */
 .form-thank-you-small-print {
   font-size: .8em;
   line-height: 0em;
 }
 
-/* line 387, ../../assets/scss/site/modules/_form.scss */
+/* line 395, ../../assets/scss/site/modules/_form.scss */
 .form-contact-icon img {
   margin-bottom: 0.5em;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
-  /* line 393, ../../assets/scss/site/modules/_form.scss */
+  /* line 401, ../../assets/scss/site/modules/_form.scss */
   .form-agree-container fieldset.options {
     padding-bottom: 0;
   }
@@ -11696,7 +11728,7 @@ progress[value]::-webkit-progress-value {
   right: 0;
   top: auto;
   bottom: 0;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: #fff;
   width: 100%;
   text-align: left;
   padding: 1em;
@@ -11711,13 +11743,18 @@ progress[value]::-webkit-progress-value {
 }
 
 /* line 49, ../../assets/scss/site/modules/_imagewithdescription.scss */
+.rgba .imagewithdescription-description {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+/* line 54, ../../assets/scss/site/modules/_imagewithdescription.scss */
 .imagewithdescription-description-head {
   margin: 0;
   padding: 0;
   font-size: 0.9em;
 }
 
-/* line 55, ../../assets/scss/site/modules/_imagewithdescription.scss */
+/* line 60, ../../assets/scss/site/modules/_imagewithdescription.scss */
 .imagewithdescription-description-copy {
   margin: 0;
   padding: 0;
@@ -11800,34 +11837,34 @@ progress[value]::-webkit-progress-value {
   }
 }
 
-/* line 66, ../../assets/scss/site/modules/_foodandwinecarousel.scss */
+/* line 67, ../../assets/scss/site/modules/_foodandwinecarousel.scss */
 .faw-carousel-copy {
   margin-top: 2em;
   margin-bottom: 2em;
 }
 
-/* line 71, ../../assets/scss/site/modules/_foodandwinecarousel.scss */
+/* line 72, ../../assets/scss/site/modules/_foodandwinecarousel.scss */
 .faw-carousel-bullets {
   background-color: #FFF;
 }
 @media (min-width: 768px) {
-  /* line 71, ../../assets/scss/site/modules/_foodandwinecarousel.scss */
+  /* line 72, ../../assets/scss/site/modules/_foodandwinecarousel.scss */
   .faw-carousel-bullets {
     background-color: transparent;
   }
 }
-/* line 77, ../../assets/scss/site/modules/_foodandwinecarousel.scss */
+/* line 78, ../../assets/scss/site/modules/_foodandwinecarousel.scss */
 .faw-carousel-bullets .carousel-bullets-item-active {
   background: #000;
 }
 @media (min-width: 768px) {
-  /* line 77, ../../assets/scss/site/modules/_foodandwinecarousel.scss */
+  /* line 78, ../../assets/scss/site/modules/_foodandwinecarousel.scss */
   .faw-carousel-bullets .carousel-bullets-item-active {
     background: #FFF;
   }
 }
 
-/* line 85, ../../assets/scss/site/modules/_foodandwinecarousel.scss */
+/* line 86, ../../assets/scss/site/modules/_foodandwinecarousel.scss */
 .faw-carousel-bullets li {
   margin: 0.3em;
   margin-top: 1em;
@@ -11836,7 +11873,7 @@ progress[value]::-webkit-progress-value {
   border: 1px #000 solid;
 }
 @media (min-width: 768px) {
-  /* line 85, ../../assets/scss/site/modules/_foodandwinecarousel.scss */
+  /* line 86, ../../assets/scss/site/modules/_foodandwinecarousel.scss */
   .faw-carousel-bullets li {
     margin-top: 5em;
     border: 1px #FFF solid;
@@ -12058,8 +12095,12 @@ progress[value]::-webkit-progress-value {
     border-top: 0px rgba(0, 0, 0, 0.6) solid;
   }
 }
-
 /* line 10, ../../assets/scss/site/modules/_foodandwinevideoteaser.scss */
+.faw-video-teaser-wrapper > img {
+  position: absolute;
+}
+
+/* line 15, ../../assets/scss/site/modules/_foodandwinevideoteaser.scss */
 .faw-video-teaser {
   text-align: center;
   background: black;
@@ -12071,39 +12112,39 @@ progress[value]::-webkit-progress-value {
   width: 100%;
   padding: .5em 1em 1.8em;
 }
-/* line 21, ../../assets/scss/site/modules/_foodandwinevideoteaser.scss */
+/* line 26, ../../assets/scss/site/modules/_foodandwinevideoteaser.scss */
 .faw-video-teaser .is-desktop {
   display: none;
 }
-/* line 25, ../../assets/scss/site/modules/_foodandwinevideoteaser.scss */
+/* line 30, ../../assets/scss/site/modules/_foodandwinevideoteaser.scss */
 .faw-video-teaser h5 {
   font-family: "ProximaNova Regular", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-size: 0.875em;
 }
 @media (min-width: 768px) {
-  /* line 10, ../../assets/scss/site/modules/_foodandwinevideoteaser.scss */
+  /* line 15, ../../assets/scss/site/modules/_foodandwinevideoteaser.scss */
   .faw-video-teaser {
     position: absolute;
     padding: 5em 3em 5em 3em;
   }
-  /* line 32, ../../assets/scss/site/modules/_foodandwinevideoteaser.scss */
+  /* line 37, ../../assets/scss/site/modules/_foodandwinevideoteaser.scss */
   .faw-video-teaser h5 {
     font-family: "TAheadline", Helvetica, Arial, sans-serif;
     letter-spacing: .015em;
     font-size: 1.5em;
   }
-  /* line 40, ../../assets/scss/site/modules/_foodandwinevideoteaser.scss */
+  /* line 45, ../../assets/scss/site/modules/_foodandwinevideoteaser.scss */
   .faw-video-teaser .is-mobile {
     display: none;
   }
-  /* line 43, ../../assets/scss/site/modules/_foodandwinevideoteaser.scss */
+  /* line 48, ../../assets/scss/site/modules/_foodandwinevideoteaser.scss */
   .faw-video-teaser .is-desktop {
     display: inline-block;
   }
 }
 
-/* line 49, ../../assets/scss/site/modules/_foodandwinevideoteaser.scss */
+/* line 54, ../../assets/scss/site/modules/_foodandwinevideoteaser.scss */
 .faw-video-teaser-with-bg {
   position: relative !important;
   background-color: transparent !important;
@@ -12112,31 +12153,31 @@ progress[value]::-webkit-progress-value {
   margin-bottom: 3em;
 }
 @media (min-width: 768px) {
-  /* line 49, ../../assets/scss/site/modules/_foodandwinevideoteaser.scss */
+  /* line 54, ../../assets/scss/site/modules/_foodandwinevideoteaser.scss */
   .faw-video-teaser-with-bg {
     padding: 2em 3em 2em 3em;
   }
 }
 
-/* line 62, ../../assets/scss/site/modules/_foodandwinevideoteaser.scss */
+/* line 67, ../../assets/scss/site/modules/_foodandwinevideoteaser.scss */
 .faw-video-teaser-with-bg-wrapper {
   border-top: 0px rgba(0, 0, 0, 0.6) solid !important;
 }
 
-/* line 66, ../../assets/scss/site/modules/_foodandwinevideoteaser.scss */
+/* line 71, ../../assets/scss/site/modules/_foodandwinevideoteaser.scss */
 .faw-video-teaser-label {
   display: block;
   color: white;
   padding-bottom: 0.9375em;
 }
 @media (min-width: 768px) {
-  /* line 66, ../../assets/scss/site/modules/_foodandwinevideoteaser.scss */
+  /* line 71, ../../assets/scss/site/modules/_foodandwinevideoteaser.scss */
   .faw-video-teaser-label {
     display: inline-block;
   }
 }
 
-/* line 75, ../../assets/scss/site/modules/_foodandwinevideoteaser.scss */
+/* line 80, ../../assets/scss/site/modules/_foodandwinevideoteaser.scss */
 .faw-video-teaser-icon {
   padding: .85em;
   border: 2px solid #c9c9c9;
@@ -12154,7 +12195,7 @@ progress[value]::-webkit-progress-value {
   */
 }
 @media (min-width: 768px) {
-  /* line 75, ../../assets/scss/site/modules/_foodandwinevideoteaser.scss */
+  /* line 80, ../../assets/scss/site/modules/_foodandwinevideoteaser.scss */
   .faw-video-teaser-icon {
     padding: 2.1em;
     border: 1px solid #fff;
@@ -12657,41 +12698,59 @@ progress[value]::-webkit-progress-value {
   padding-top: 3em;
   cursor: pointer;
   color: white;
-  opacity: 0;
+  display: none;
   text-align: left;
 }
-/* line 84, ../../assets/scss/site/modules/_mosaic-item.scss */
-.mosaic-item-overlay:hover {
-  opacity: 0.9;
+
+/* line 88, ../../assets/scss/site/modules/_mosaic-item.scss */
+.mosaic-item:hover .mosaic-item-overlay, .mosaic-item:focus .mosaic-item-overlay {
+  display: block;
+}
+
+/**
+ Provide transition based on feature being available.
+**/
+/* line 103, ../../assets/scss/site/modules/_mosaic-item.scss */
+.opacity .mosaic-item-overlay {
+  display: block;
+  opacity: 0;
   transition: opacity .5s ease-out;
   -moz-transition: opacity .5s ease-out;
   -webkit-transition: opacity .5s ease-out;
   -o-transition: opacity .5s ease-out;
 }
+/* line 114, ../../assets/scss/site/modules/_mosaic-item.scss */
+.opacity .mosaic-item:hover .mosaic-item-overlay, .opacity .mosaic-item:focus .mosaic-item-overlay {
+  opacity: 0.9;
+  transition: opacity .2s ease-out;
+  -moz-transition: opacity .2s ease-out;
+  -webkit-transition: opacity .2s ease-out;
+  -o-transition: opacity .2s ease-out;
+}
 
-/* line 93, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 126, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-overlay-share {
   background-color: #036c86;
 }
-/* line 96, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 129, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-overlay-share p {
   font-size: 0.9em;
   line-height: 1.5em;
 }
 
-/* line 102, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 135, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-overlay-info {
   background-color: #393939;
   text-align: center;
   opacity: 0;
 }
-/* line 107, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 140, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-overlay-info p {
   font-size: 0.8em;
   line-height: 1.5em;
 }
 
-/* line 113, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 146, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-overlay-info-icon {
   width: 175px;
   height: 117px;
@@ -12706,7 +12765,7 @@ progress[value]::-webkit-progress-value {
   margin-left: -87px;
 }
 
-/* line 127, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 160, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-overlay-info-head {
   position: absolute;
   top: -40px;
@@ -12718,23 +12777,23 @@ progress[value]::-webkit-progress-value {
   text-transform: uppercase;
 }
 
-/* line 138, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 171, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-overlay-info-desciption {
   position: absolute;
-  top: 100px;
+  top: 85px;
   left: 30px;
   width: 120px !important;
   font-size: 0.9em !important;
   line-height: 1em !important;
   text-align: center;
 }
-/* line 147, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 180, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-overlay-info-desciption a {
   color: white;
   text-decoration: none;
 }
 
-/* line 153, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 186, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-overlay-info-icon-item {
   position: absolute;
   top: 50%;
@@ -12743,12 +12802,12 @@ progress[value]::-webkit-progress-value {
   margin-top: -0.5em;
   margin-left: -0.6em;
 }
-/* line 161, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 194, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-overlay-info-icon-item img {
   width: 70px;
 }
 
-/* line 166, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 199, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-overlay-info-categories {
   width: 100%;
   position: absolute;
@@ -12761,22 +12820,22 @@ progress[value]::-webkit-progress-value {
   padding-bottom: 0 !important;
 }
 
-/* line 178, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 211, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-register {
   width: 100%;
   height: 100%;
   background-color: white;
 }
-/* line 183, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 216, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-register img {
   opacity: 0;
 }
-/* line 187, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 220, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-register .mosaic-item-register-inner {
   border: 1px #bbbbbb solid;
 }
 
-/* line 191, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 224, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-register-content {
   position: absolute;
   top: 50%;
@@ -12789,17 +12848,17 @@ progress[value]::-webkit-progress-value {
   margin-top: -7.5em;
   text-align: center;
 }
-/* line 203, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 236, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-register-content .faw-register-teaser-subline {
   color: black;
   font-size: 0.8em;
 }
-/* line 208, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 241, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-register-content p {
   margin-top: 0.5em;
 }
 
-/* line 213, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 246, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-description-categories {
   position: absolute;
   top: 0;
@@ -12807,18 +12866,18 @@ progress[value]::-webkit-progress-value {
   display: none;
 }
 @media (min-width: 768px) {
-  /* line 213, ../../assets/scss/site/modules/_mosaic-item.scss */
+  /* line 246, ../../assets/scss/site/modules/_mosaic-item.scss */
   .mosaic-item-description-categories {
     display: block;
   }
 }
 
-/* line 224, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 257, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-location .mosaic-item-description {
   padding-left: 2.2em;
   z-index: 2;
 }
-/* line 229, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 262, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-location .mosaic-item-location-icon {
   position: absolute;
   left: 2em;
@@ -12826,7 +12885,7 @@ progress[value]::-webkit-progress-value {
 }
 
 /*-----------------------grid changer-------------------------*/
-/* line 240, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 273, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list {
   cursor: pointer;
   text-align: left;
@@ -12834,7 +12893,7 @@ progress[value]::-webkit-progress-value {
   margin-right: 1em;
   min-height: 8em;
 }
-/* line 247, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 280, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list .mosaic-item-description {
   top: 0;
   bottom: 0;
@@ -12843,28 +12902,29 @@ progress[value]::-webkit-progress-value {
   margin-bottom: 0;
   padding-bottom: 0;
 }
-/* line 257, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 290, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list .mosaic-item-description-head {
   font-size: 2em;
   line-height: 1em;
 }
-/* line 262, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 295, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list .mosaic-item-description-copy {
   display: none !important;
   text-align: left;
+  max-width: inherit;
 }
 @media (min-width: 768px) {
-  /* line 262, ../../assets/scss/site/modules/_mosaic-item.scss */
+  /* line 295, ../../assets/scss/site/modules/_mosaic-item.scss */
   .mosaic-item-list .mosaic-item-description-copy {
     display: block !important;
   }
 }
-/* line 270, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 304, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list p {
   color: #393939;
   margin-left: 100px;
 }
-/* line 275, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 309, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list .mosaic-item-image {
   width: 100px;
   /* For Safari 3.1 to 6.0 */
@@ -12878,43 +12938,43 @@ progress[value]::-webkit-progress-value {
   transition-timing-function: ease-out;
   transition-delay: 0s;
 }
-/* line 280, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 314, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list .mosaic-item-overlay {
   display: none;
 }
-/* line 284, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 318, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list:hover {
   background-color: #ebebeb;
 }
-/* line 288, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 322, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list .mosaic-item-description-share {
   color: #393939;
   right: 0em;
   top: 0em;
 }
-/* line 294, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 328, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list .mosaic-item-description-share-dark {
   display: none;
 }
 @media (min-width: 768px) {
-  /* line 294, ../../assets/scss/site/modules/_mosaic-item.scss */
+  /* line 328, ../../assets/scss/site/modules/_mosaic-item.scss */
   .mosaic-item-list .mosaic-item-description-share-dark {
     display: block;
   }
 }
-/* line 302, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 336, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list .mosaic-item-description-share-white {
   display: none;
 }
 
-/* line 306, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 340, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid {
   text-align: center;
   border-bottom: 0px #ebebeb solid;
   margin-left: 0;
   margin-right: 0;
 }
-/* line 312, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 346, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid .mosaic-item-description {
   top: none;
   bottom: 0;
@@ -12923,11 +12983,11 @@ progress[value]::-webkit-progress-value {
   margin-bottom: 1em;
   padding-bottom: 1em;
 }
-/* line 321, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 355, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid .mosaic-item-description-copy {
   display: none !important;
 }
-/* line 325, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 359, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid .mosaic-item-image {
   width: 100%;
   /* For Safari 3.1 to 6.0 */
@@ -12941,36 +13001,36 @@ progress[value]::-webkit-progress-value {
   transition-timing-function: ease-out;
   transition-delay: 0s;
 }
-/* line 330, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 364, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid .mosaic-item-description-head {
   font-size: 1.5em;
   line-height: 1em;
 }
-/* line 335, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 369, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid p {
   color: white;
   margin-left: 0;
 }
-/* line 340, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 374, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid .mosaic-item-overlay {
   display: block;
 }
-/* line 344, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 378, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid:hover {
   background-color: white;
 }
-/* line 348, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 382, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid .mosaic-item-description-share {
   color: white;
   top: none;
   right: 0.4em;
   bottom: 0.4em;
 }
-/* line 355, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 389, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid .mosaic-item-description-share-dark {
   display: none;
 }
-/* line 359, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 393, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid .mosaic-item-description-share-white {
   display: block;
 }
@@ -13014,39 +13074,44 @@ progress[value]::-webkit-progress-value {
 /* line 4, ../../assets/scss/site/modules/_explore.scss */
 .explore-hero .icon-map-wrapper {
   background-color: white;
+  max-width: inherit;
 }
-/* line 8, ../../assets/scss/site/modules/_explore.scss */
+/* line 9, ../../assets/scss/site/modules/_explore.scss */
 .explore-hero .select-state-label {
   color: black;
   font-size: 1.5em;
 }
-/* line 13, ../../assets/scss/site/modules/_explore.scss */
+/* line 14, ../../assets/scss/site/modules/_explore.scss */
 .explore-hero .explore-h3 {
   max-width: 780px;
   font-size: 2em;
   display: inline-block;
   line-height: 1.4em;
 }
-
 /* line 21, ../../assets/scss/site/modules/_explore.scss */
+.explore-hero p {
+  max-width: inherit;
+}
+
+/* line 26, ../../assets/scss/site/modules/_explore.scss */
 .faw-explore-teaser {
   text-align: center;
   position: relative;
   overflow: hidden;
 }
 
-/* line 27, ../../assets/scss/site/modules/_explore.scss */
+/* line 32, ../../assets/scss/site/modules/_explore.scss */
 .faw-explore-teaser-inner {
   position: relative;
 }
 
-/* line 31, ../../assets/scss/site/modules/_explore.scss */
+/* line 36, ../../assets/scss/site/modules/_explore.scss */
 .fawexploremosaic {
   margin-top: 4em;
   margin-bottom: 2em;
   text-align: center;
 }
-/* line 36, ../../assets/scss/site/modules/_explore.scss */
+/* line 41, ../../assets/scss/site/modules/_explore.scss */
 .fawexploremosaic .fawexploremosaictext {
   font-size: 1.2em;
   text-align: center;

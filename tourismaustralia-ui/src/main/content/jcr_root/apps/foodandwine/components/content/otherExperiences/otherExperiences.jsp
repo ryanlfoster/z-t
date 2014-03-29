@@ -12,7 +12,7 @@
 				<div class="head-divider-inner">
 					<hr class="icon-logo-withlines-hr icon-logo-withlines-hr-small">
 					<h5>
-						<img src="/etc/designs/foodandwine/clientlibs/imgs/base/header-map-icon.png"
+						<img src="/etc/designs/foodandwine/clientlibs/imgs/base/header-icon-map.png"
 							style="width: 60px; height: 59px" />
 					</h5>
 					<hr class="icon-logo-withlines-hr icon-logo-withlines-hr-small">

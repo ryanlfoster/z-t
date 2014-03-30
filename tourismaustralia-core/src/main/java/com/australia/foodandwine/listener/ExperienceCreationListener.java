@@ -43,8 +43,9 @@ public class ExperienceCreationListener implements EventListener {
 			PageManager pageManager = resourceResolver.adaptTo(PageManager.class);
 			while (eventIterator.hasNext()) {
 				Event event = eventIterator.nextEvent();
-				Resource formResource = resourceResolver.getResource(event.getPath());
-				if (formResource.getName().startsWith("experienceFormNode")) {
+				Page page = pageManager.getPage(event.getPath());
+				if (page != null) {
+					Resource formResource = page.getContentResource();
 					ValueMap formProperties = formResource.adaptTo(ValueMap.class);
 					String businessName = formProperties.get("businessName", String.class);
 					String parentPath = PathUtils.FOOD_AND_WINE_EXPERIENCES + "/"
@@ -105,6 +106,7 @@ public class ExperienceCreationListener implements EventListener {
 						resourceResolver.commit();
 					}
 				}
+
 			}
 		} catch (Exception e) {
 			LOG.error("Error creating page from form");

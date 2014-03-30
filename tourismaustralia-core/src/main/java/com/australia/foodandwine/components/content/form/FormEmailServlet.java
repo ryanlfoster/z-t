@@ -20,13 +20,18 @@ import org.apache.felix.scr.annotations.sling.SlingServlet;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.SlingHttpServletResponse;
 import org.apache.sling.api.request.RequestParameter;
+import org.apache.sling.api.resource.ModifiableValueMap;
+import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ResourceResolver;
 import org.apache.sling.api.resource.ResourceResolverFactory;
 import org.apache.sling.api.servlets.SlingAllMethodsServlet;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import com.australia.utils.PathUtils;
 import com.day.cq.mailer.MailService;
+import com.day.cq.wcm.api.Page;
+import com.day.cq.wcm.api.PageManager;
 
 @SlingServlet(resourceTypes = "foodandwine/components/content/form", selectors = "formemail", extensions = "json", methods = "POST")
 public class FormEmailServlet extends SlingAllMethodsServlet {
@@ -43,19 +48,13 @@ public class FormEmailServlet extends SlingAllMethodsServlet {
 	@Reference
 	private ResourceResolverFactory resourceResovlerFactory;
 
-	private Session session;
-	private String key;
-	private RequestParameter param;
-
-	private String contentType;
-	private Binary contentValue;
-
 	@Override
 	protected void doPost(SlingHttpServletRequest request, SlingHttpServletResponse response) throws ServletException,
 		IOException {
 		ResourceResolver resourceResolver = null;
 		try {
 			resourceResolver = resourceResovlerFactory.getAdministrativeResourceResolver(null);
+			PageManager pageManager = resourceResolver.adaptTo(PageManager.class);
 			Form form = new Form(request);
 			Map<String, String> properties = new LinkedHashMap<String, String>();
 			String businessName = request.getParameter("businessName");
@@ -70,19 +69,22 @@ public class FormEmailServlet extends SlingAllMethodsServlet {
 			String secondaryCategory = request.getParameter("category-secondary");
 			String videoUrl = request.getParameter("videoUrl");
 
-			Node node = resourceResolver.resolve("/content/usergenerated/").adaptTo(Node.class);
-			session = resourceResolver.adaptTo(Session.class);
-			Node formArticleNode = node.addNode("experienceFormNode" + UUID.randomUUID().toString());
-			formArticleNode.setPrimaryType("nt:unstructured");
-			formArticleNode.setProperty("businessName", businessName);
-			formArticleNode.setProperty("location", location);
-			formArticleNode.setProperty("selectTerritory", selectTerritory);
-			formArticleNode.setProperty("mail", mail);
-			formArticleNode.setProperty("businessWebsite", businessWebsite);
-			formArticleNode.setProperty("businessDescription", businessDescription);
-			formArticleNode.setProperty("photoDescription", photoDescription);
-			formArticleNode.setProperty("primaryCategory", primaryCategory);
-			formArticleNode.setProperty("secondaryCategory", secondaryCategory);
+			Page userGeneratedPage = pageManager.create(PathUtils.FOOD_AND_WINE_USER_GENERATED, null, null,
+				"experience-" + UUID.randomUUID().toString(), true);
+
+			Resource userGeneratedPageContentResource = userGeneratedPage.getContentResource();
+			ModifiableValueMap contentProperties = userGeneratedPageContentResource.adaptTo(ModifiableValueMap.class);
+
+			contentProperties.put("businessName", businessName);
+			contentProperties.put("location", location);
+			contentProperties.put("selectTerritory", selectTerritory);
+			contentProperties.put("mail", mail);
+			contentProperties.put("businessWebsite", businessWebsite);
+			contentProperties.put("businessDescription", businessDescription);
+			contentProperties.put("photoDescription", photoDescription);
+			contentProperties.put("primaryCategory", primaryCategory);
+			contentProperties.put("secondaryCategory", secondaryCategory);
+			contentProperties.put("cq:distribute", true);
 
 			properties.put("Business Name ", businessName);
 			properties.put("Location ", location);
@@ -95,8 +97,8 @@ public class FormEmailServlet extends SlingAllMethodsServlet {
 			properties.put("Secondary Category", secondaryCategory);
 			properties.put("Video Url", videoUrl);
 
-			imageUpload(request, formArticleNode, session);
-			session.save();
+			imageUpload(request, userGeneratedPageContentResource, resourceResolver.adaptTo(Session.class));
+			resourceResolver.commit();
 
 			StringBuilder mapBuilder = new StringBuilder();
 			mapBuilder.append(form.getEmailBody());
@@ -112,7 +114,7 @@ public class FormEmailServlet extends SlingAllMethodsServlet {
 			// Zendesk
 			sendZendeskEmail(request, mapBuilder, form, mail);
 
-			response.sendRedirect(form.getRedirectUrl());
+			response.sendRedirect(resourceResolver.map(form.getRedirectUrl()));
 		} catch (Exception e) {
 			LOG.error(e.getMessage());
 		} finally {
@@ -122,20 +124,21 @@ public class FormEmailServlet extends SlingAllMethodsServlet {
 		}
 	}
 
-	private void imageUpload(SlingHttpServletRequest request, Node formArticleNode, Session session) throws IOException {
+	private void imageUpload(SlingHttpServletRequest request, Resource contentResource, Session session)
+		throws IOException {
 
 		Map<String, RequestParameter[]> params = request.getRequestParameterMap();
 		for (Map.Entry<String, RequestParameter[]> pairs : params.entrySet()) {
-			key = pairs.getKey();
+			String key = pairs.getKey();
 			RequestParameter[] pArr = pairs.getValue();
-			param = pArr[0];
-
+			RequestParameter param = pArr[0];
+			Node formArticleNode = contentResource.adaptTo(Node.class);
 			if ((key.equalsIgnoreCase("upload-photo"))) {
 				try {
 					InputStream stream = param.getInputStream();
-					contentType = getServletContext().getMimeType(param.getFileName());
+					String contentType = getServletContext().getMimeType(param.getFileName());
 					ValueFactory valueFactory = session.getValueFactory();
-					contentValue = valueFactory.createBinary(stream);
+					Binary contentValue = valueFactory.createBinary(stream);
 					Node fileNode = formArticleNode.addNode("file", "nt:file");
 					fileNode.addMixin("mix:referenceable");
 					Node resourceNode = fileNode.addNode("jcr:content", "nt:resource");

@@ -54,7 +54,8 @@ public final class ObservationService {
 		throws RepositoryException {
 		if (slingSettings.getRunModes().contains(ServerUtils.AUTHOR)) {
 			observationManager.addEventListener(new ExperienceCreationListener(resourceResolverFactory),
-				ExperienceCreationListener.EVENTS, PathUtils.USER_GENERATED_PATH, true, null, null, false);
+				ExperienceCreationListener.EVENTS, PathUtils.FOOD_AND_WINE_USER_GENERATED, true, null,
+				new String[] { "cq:Page" }, false);
 		}
 	}
 

@@ -6762,22 +6762,29 @@ h3 {
   font-family: "ProximaNova Regular", Helvetica, Arial, sans-serif;
   font-size: 1.875em;
   line-height: 1.56522em;
+  /**
+   All quick fixes for integration
+  **/
+  text-align: center;
+  max-width: 46.875em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* line 49, ../../assets/scss/site/_base.scss */
+/* line 61, ../../assets/scss/site/_base.scss */
 h4 {
   font-family: "ProximaNova Semi Bold", Helvetica, Arial, sans-serif;
   font-size: 1.875em;
   line-height: 1.56522em;
 }
 
-/* line 55, ../../assets/scss/site/_base.scss */
+/* line 67, ../../assets/scss/site/_base.scss */
 h5 {
   font-family: "TAheadline", Helvetica, Arial, sans-serif;
   font-size: 1.5em;
 }
 
-/* line 60, ../../assets/scss/site/_base.scss */
+/* line 72, ../../assets/scss/site/_base.scss */
 h6 {
   display: block;
   padding: 0;
@@ -6787,25 +6794,25 @@ h6 {
   line-height: 1.41176em;
 }
 
-/* line 69, ../../assets/scss/site/_base.scss */
+/* line 81, ../../assets/scss/site/_base.scss */
 p {
   line-height: 1.5em;
-  text-align: center;
   /**
    All quick fixes for integration
   **/
   max-width: 46.875em;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
 }
 
-/* line 81, ../../assets/scss/site/_base.scss */
+/* line 94, ../../assets/scss/site/_base.scss */
 a {
   color: #393939;
   text-decoration: underline;
 }
 
-/* line 86, ../../assets/scss/site/_base.scss */
+/* line 99, ../../assets/scss/site/_base.scss */
 a:hover, a:focus {
   color: #393939;
   cursor: pointer;
@@ -6814,24 +6821,24 @@ a:hover, a:focus {
 /*a:visited {
   color: $type-link-hover-colour;
 }*/
-/* line 94, ../../assets/scss/site/_base.scss */
+/* line 107, ../../assets/scss/site/_base.scss */
 strong, b {
   font-family: "ProximaNova Bold", Helvetica, Arial, sans-serif;
   font-weight: normal;
 }
-/* line 96, ../../assets/scss/site/_base.scss */
+/* line 109, ../../assets/scss/site/_base.scss */
 strong em, b em {
   font-family: "ProximaNova Bold Italic", Helvetica, Arial, sans-serif;
   font-weight: normal;
 }
 
-/* line 102, ../../assets/scss/site/_base.scss */
+/* line 115, ../../assets/scss/site/_base.scss */
 em {
   font-family: "ProximaNova Regular Italic", Helvetica, Arial, sans-serif;
   font-weight: normal;
 }
 
-/* line 107, ../../assets/scss/site/_base.scss */
+/* line 120, ../../assets/scss/site/_base.scss */
 hr {
   border-top: 1px solid #bbbbbb;
 }
@@ -6839,7 +6846,7 @@ hr {
 /**
  Quick hack to remove styling in chrome on buttons
 **/
-/* line 122, ../../assets/scss/site/_base.scss */
+/* line 135, ../../assets/scss/site/_base.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -6849,7 +6856,7 @@ input[type="submit"] {
   background: transparent;
   cursor: pointer;
 }
-/* line 128, ../../assets/scss/site/_base.scss */
+/* line 141, ../../assets/scss/site/_base.scss */
 button:focus,
 html input[type="button"]:focus,
 input[type="reset"]:focus,
@@ -11095,7 +11102,7 @@ progress[value]::-webkit-progress-value {
 
 /* line 15, ../../assets/scss/site/modules/_custommap.scss */
 .custommap-description {
-  margin-top: -4em;
+  margin-top: -6em;
   margin-left: 0;
   text-align: center;
 }
@@ -11723,7 +11730,6 @@ progress[value]::-webkit-progress-value {
 
 /* line 31, ../../assets/scss/site/modules/_imagewithdescription.scss */
 .imagewithdescription-description {
-  cursor: pointer;
   position: absolute;
   right: 0;
   top: auto;
@@ -11742,19 +11748,19 @@ progress[value]::-webkit-progress-value {
   }
 }
 
-/* line 49, ../../assets/scss/site/modules/_imagewithdescription.scss */
+/* line 48, ../../assets/scss/site/modules/_imagewithdescription.scss */
 .rgba .imagewithdescription-description {
   background-color: rgba(255, 255, 255, 0.9);
 }
 
-/* line 54, ../../assets/scss/site/modules/_imagewithdescription.scss */
+/* line 53, ../../assets/scss/site/modules/_imagewithdescription.scss */
 .imagewithdescription-description-head {
   margin: 0;
   padding: 0;
   font-size: 0.9em;
 }
 
-/* line 60, ../../assets/scss/site/modules/_imagewithdescription.scss */
+/* line 59, ../../assets/scss/site/modules/_imagewithdescription.scss */
 .imagewithdescription-description-copy {
   margin: 0;
   padding: 0;

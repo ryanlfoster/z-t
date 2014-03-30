@@ -64,8 +64,7 @@
 			<div class="field-container">
 				<div class="input-field input-field-select" data-type="select">
 					<select class="input-select" name="selectTerritory" id="selectTerritory">
-						<option selected="selected" disabled="disabled">Select a
-							state or territory*</option>
+						<option selected="selected" disabled="disabled">Select a state or territory*</option>
 						<option>Australian Capital Territory</option>  
 						<option>New South Wales</option> 
 						<option>Northern Territory</option>  

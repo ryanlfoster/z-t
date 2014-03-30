@@ -1,4 +1,6 @@
 #base=js
+vendor/modernizr.js
+vendor/respond.js
 src/helper/staticMapUrlConverter.js
 vendor/jquery.placeholder.js
 vendor/owl-carousel/owl.carousel.js

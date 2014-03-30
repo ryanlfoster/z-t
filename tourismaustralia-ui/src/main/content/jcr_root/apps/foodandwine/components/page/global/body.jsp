@@ -6,6 +6,15 @@
 <c:set var="global" value="<%=new Global(slingRequest) %>"/>
 
 <body>
+	<script type="application/javascript">
+		// IE console.log disable errors
+		if ( typeof console === "undefined" || typeof console.log === "undefined") {
+			console = {};
+			console.log = function() {
+			};
+		}
+	</script>
+	
 	<% WCMMode modeBefore = WCMMode.fromRequest(slingRequest); %>
 	
    	<c:if test="${not global.isHomePage}"> 

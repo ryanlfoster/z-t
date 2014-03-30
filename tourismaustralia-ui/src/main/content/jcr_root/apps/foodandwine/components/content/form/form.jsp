@@ -1,5 +1,9 @@
 <%@include file="/apps/foodandwine/components/global.jsp"%>
 
+<%@ page import="com.australia.foodandwine.components.content.form.Form" %>
+
+<c:set var="form" value="<%=new Form(slingRequest) %>"/>
+
 <style>
 #upload-photo {
     display:none;
@@ -19,7 +23,7 @@
 </script>
 <div class="row form-conatiner form-container-padding">
 	<div class="col-xs-12 form-container-inner">
-		<form action="${resource.path}.formemail.json" method="post" class="add-experience-form" enctype="multipart/form-data">
+		<form action="${form.formPath}" method="post" class="add-experience-form" enctype="multipart/form-data">
 			<!-- input fields -->
 			<div class="field-container">
 				<div class="input-field" data-type="text">

@@ -37,6 +37,7 @@ public class Form {
 	@DialogField(fieldLabel = "Thank You Page Redirect", name = "./redirectUrl", required = true)
 	@PathField
 	private final String redirectUrl;
+	private final String formPath;
 
 	/**
 	 * Constants
@@ -53,7 +54,7 @@ public class Form {
 		zenDeskEmail = properties.get("zenDeskEmail", StringUtils.EMPTY);
 		this.emailIdsList = Arrays.asList(properties.get(EMAIL_IDS_LIST, new String[0]));
 		redirectUrl = LinkUtils.getHrefFromPath(properties.get(THAMK_YOU_PAGE_REDIRECT_URL, StringUtils.EMPTY));
-
+		formPath = request.getResourceResolver().map(request.getResource().getPath() + ".formemail.json");
 	}
 
 	/**
@@ -94,6 +95,10 @@ public class Form {
 	 */
 	public String getZenDeskEmail() {
 		return zenDeskEmail;
+	}
+
+	public String getFormPath() {
+		return formPath;
 	}
 
 }

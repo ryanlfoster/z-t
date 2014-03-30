@@ -20,6 +20,8 @@ import org.apache.felix.scr.annotations.sling.SlingServlet;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.SlingHttpServletResponse;
 import org.apache.sling.api.request.RequestParameter;
+import org.apache.sling.api.resource.ResourceResolver;
+import org.apache.sling.api.resource.ResourceResolverFactory;
 import org.apache.sling.api.servlets.SlingAllMethodsServlet;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -37,6 +39,10 @@ public class FormEmailServlet extends SlingAllMethodsServlet {
 
 	@Reference
 	private MailService mailService;
+
+	@Reference
+	private ResourceResolverFactory resourceResovlerFactory;
+
 	private Session session;
 	private String key;
 	private RequestParameter param;
@@ -47,7 +53,9 @@ public class FormEmailServlet extends SlingAllMethodsServlet {
 	@Override
 	protected void doPost(SlingHttpServletRequest request, SlingHttpServletResponse response) throws ServletException,
 		IOException {
+		ResourceResolver resourceResolver = null;
 		try {
+			resourceResolver = resourceResovlerFactory.getAdministrativeResourceResolver(null);
 			Form form = new Form(request);
 			Map<String, String> properties = new LinkedHashMap<String, String>();
 			String businessName = request.getParameter("businessName");
@@ -62,10 +70,11 @@ public class FormEmailServlet extends SlingAllMethodsServlet {
 			String secondaryCategory = request.getParameter("category-secondary");
 			String videoUrl = request.getParameter("videoUrl");
 
-			Node node = request.getResourceResolver().resolve("/content/usergenerated/").adaptTo(Node.class);
-			session = request.getResourceResolver().adaptTo(Session.class);
+			Node node = resourceResolver.resolve("/content/usergenerated/").adaptTo(Node.class);
+			session = resourceResolver.adaptTo(Session.class);
 			Node formArticleNode = node.addNode("experienceFormNode" + UUID.randomUUID().toString());
 			formArticleNode.setPrimaryType("nt:unstructured");
+			formArticleNode.setProperty("cq:distribute", true);
 			formArticleNode.setProperty("businessName", businessName);
 			formArticleNode.setProperty("location", location);
 			formArticleNode.setProperty("selectTerritory", selectTerritory);
@@ -107,6 +116,10 @@ public class FormEmailServlet extends SlingAllMethodsServlet {
 			response.sendRedirect(form.getRedirectUrl());
 		} catch (Exception e) {
 			LOG.error(e.getMessage());
+		} finally {
+			if (resourceResolver != null && resourceResolver.isLive()) {
+				resourceResolver.close();
+			}
 		}
 	}
 

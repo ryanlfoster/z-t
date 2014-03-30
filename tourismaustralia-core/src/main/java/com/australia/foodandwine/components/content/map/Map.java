@@ -93,9 +93,9 @@ public class Map {
 	private String buildAustralianAddress() {
 		StringBuilder address = new StringBuilder();
 		address.append(address1);
-		address.append(" ");
+		address.append(", ");
 		address.append(suburb);
-		address.append(" ");
+		address.append(", ");
 		address.append(state);
 		return StringUtils.trim(address.toString());
 	}

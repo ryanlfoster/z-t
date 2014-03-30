@@ -2,10 +2,10 @@ package com.australia.foodandwine.components.content.form;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.Date;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.UUID;
 
 import javax.jcr.Binary;
 import javax.jcr.Node;
@@ -64,7 +64,7 @@ public class FormEmailServlet extends SlingAllMethodsServlet {
 
 			Node node = request.getResourceResolver().resolve("/content/usergenerated/").adaptTo(Node.class);
 			session = request.getResourceResolver().adaptTo(Session.class);
-			Node formArticleNode = node.addNode("formNode" + new Date().getTime());
+			Node formArticleNode = node.addNode("experienceFormNode" + UUID.randomUUID().toString());
 			formArticleNode.setPrimaryType("nt:unstructured");
 			formArticleNode.setProperty("businessName", businessName);
 			formArticleNode.setProperty("location", location);
@@ -121,7 +121,7 @@ public class FormEmailServlet extends SlingAllMethodsServlet {
 			if ((key.equalsIgnoreCase("upload-photo"))) {
 				try {
 					InputStream stream = param.getInputStream();
-					contentType = getServletContext().getMimeType(param.getString());
+					contentType = getServletContext().getMimeType(param.getFileName());
 					ValueFactory valueFactory = session.getValueFactory();
 					contentValue = valueFactory.createBinary(stream);
 					Node fileNode = formArticleNode.addNode("file", "nt:file");

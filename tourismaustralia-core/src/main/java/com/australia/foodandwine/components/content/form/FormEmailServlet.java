@@ -74,7 +74,6 @@ public class FormEmailServlet extends SlingAllMethodsServlet {
 			session = resourceResolver.adaptTo(Session.class);
 			Node formArticleNode = node.addNode("experienceFormNode" + UUID.randomUUID().toString());
 			formArticleNode.setPrimaryType("nt:unstructured");
-			formArticleNode.setProperty("cq:distribute", true);
 			formArticleNode.setProperty("businessName", businessName);
 			formArticleNode.setProperty("location", location);
 			formArticleNode.setProperty("selectTerritory", selectTerritory);

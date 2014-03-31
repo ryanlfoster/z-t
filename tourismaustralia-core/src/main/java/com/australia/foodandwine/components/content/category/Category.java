@@ -26,7 +26,7 @@ public class Category {
 	@DialogField(fieldLabel = "Caption 1", required = true)
 	private final String caption1;
 
-	@DialogField(fieldLabel = "Alt Tag 1")
+	@DialogField(fieldLabel = "Alt Tag 1", required = true)
 	private final String imageAltTag1;
 
 	@DialogField(fieldLabel = "Image2")

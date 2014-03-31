@@ -26,7 +26,7 @@ public class Header {
 	@PathField(rootPath = "/content/dam", rootTitle = "Assets")
 	private String imagePath;
 
-	@DialogField(fieldLabel = "Logo Image Alt")
+	@DialogField(fieldLabel = "Logo Image Alt", required = true)
 	private String imageAltTag;
 
 	@DialogField(fieldLabel = "Header Text and Links", fieldDescription = "Only top 2 fields will be selected ", additionalProperties = @FieldProperty(name = "width", value = "400"))

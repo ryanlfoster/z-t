@@ -45,7 +45,7 @@ public class Map {
 	@DialogField(fieldLabel = "Website")
 	private String website;
 
-	@DialogField(fieldLabel = "Image Alt Tag", fieldDescription = "Image Alt Tag for map image")
+	@DialogField(fieldLabel = "Image Alt Tag", fieldDescription = "Image Alt Tag for map image", required = true)
 	private String imageAltTag;
 
 	private String googleMapUrl;

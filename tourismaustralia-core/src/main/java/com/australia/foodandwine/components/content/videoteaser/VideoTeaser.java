@@ -40,7 +40,7 @@ public class VideoTeaser {
 	@DialogField(required = true, tab = 2, xtype = "BrightcoveCombo", fieldLabel = "Video", name = "./video", additionalProperties = @FieldProperty(name = "hiddenName", value = "./videoPlayer"))
 	private final String videoPlayer;
 
-	@DialogField(fieldLabel = "Image Alt Tag", tab = 2, fieldDescription = "Alt Tag for the background image")
+	@DialogField(fieldLabel = "Image Alt Tag", tab = 2, fieldDescription = "Alt Tag for the background image", required = true)
 	private final String imageAltTag;
 
 	private final String videoRandomId;

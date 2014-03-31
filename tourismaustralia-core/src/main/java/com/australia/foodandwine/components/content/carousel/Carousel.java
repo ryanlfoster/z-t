@@ -30,7 +30,7 @@ public class Carousel {
 	@Html5SmartImage(allowUpload = false, name = "backgroundImage")
 	private String carouselBackgroundImagePath;
 
-	@DialogField(fieldLabel = "Background Image Alt Tag", tab = 2)
+	@DialogField(fieldLabel = "Background Image Alt Tag", tab = 2, required = true)
 	private String backgroundImageAltTag;
 
 	@DialogField(fieldLabel = "Carousel Data ", tab = 3)

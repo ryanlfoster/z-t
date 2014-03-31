@@ -34,7 +34,7 @@ public class Hero {
 	@DialogField(fieldLabel = "Big Title", required = true, tab = 2)
 	private final String bigTitle;
 
-	@DialogField(fieldLabel = "Image Alt Tag", tab = 2, fieldDescription = "Image Alt tag for the Background Image")
+	@DialogField(fieldLabel = "Image Alt Tag", tab = 2, fieldDescription = "Image Alt tag for the Background Image", required = true)
 	private final String imageAltTag;
 
 	@DialogField(fieldLabel = "Overlay Small Text", fieldDescription = "Text to be displayed in small font", tab = 3)

@@ -19,7 +19,7 @@ public class SponsorsSpaceProperties {
 	private final String imagePath;
 	@DialogField(fieldLabel = "Image Caption", name = "imageTitle", additionalProperties = @FieldProperty(name = "maxLength", value = "200"))
 	private final String imageTitle;
-	@DialogField(fieldLabel = "Image Alt Tag")
+	@DialogField(fieldLabel = "Image Alt Tag", required = true)
 	private final String imageAltTag;
 	@DialogField(fieldLabel = "Link Text", name = "linkText", additionalProperties = @FieldProperty(name = "maxLength", value = "50"))
 	private final String linkText;

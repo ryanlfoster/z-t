@@ -24,18 +24,18 @@ body{
 
 // footer centering
 .footer-col {
-  width: 100%;
-  text-align: center;
+  width: 100% !important;
+  text-align: center !important;
   li {
-    display: inline-block;
-    margin-right: 1em;
+    display: inline-block !important;
+    margin-right: 1em !important;
   }
   .dropdown-select-countrylanguage{
-    margin: 0 auto;
+    margin: 0 auto !important;
   }
   .footer-copyright {
-    width: 100%;
-    text-align: center;
+    width: 100% !important;
+    text-align: center !important;
   }
 }
 

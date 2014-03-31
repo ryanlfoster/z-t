@@ -28,7 +28,7 @@
 											<div class="video-link-container">
 										</c:if>
 										<c:if test="${not empty sponsorsSpace.sponsor1.imagePath}">
-											<img src="${sponsorsSpace.sponsor1.imagePath }" class="sponsors-image ${empty sponsorsSpace.sponsor1.imageTitle ? 'type-spacing-15' : '' }" alt="">
+											<img src="${sponsorsSpace.sponsor1.imagePath }" class="sponsors-image ${empty sponsorsSpace.sponsor1.imageTitle ? 'type-spacing-15' : '' }" alt="${sponsorsSpace.sponsor1.imageAltTag}">
 										</c:if>
 										<c:if test="${not empty sponsorsSpace.sponsor1.imageTitle }">
 											<p>${sponsorsSpace.sponsor1.imageTitle }</p>
@@ -70,7 +70,7 @@
 											<div class="video-link-container">
 										</c:if>
 										<c:if test="${not empty sponsorsSpace.sponsor2.imagePath}">
-											<img src="${sponsorsSpace.sponsor2.imagePath }" class="sponsors-image ${empty sponsorsSpace.sponsor2.imageTitle ? 'type-spacing-15' : '' }" alt="">
+											<img src="${sponsorsSpace.sponsor2.imagePath }" class="sponsors-image ${empty sponsorsSpace.sponsor2.imageTitle ? 'type-spacing-15' : '' }" alt="${sponsorsSpace.sponsor2.imageAltTag}">
 										</c:if>
 										<c:if test="${not empty sponsorsSpace.sponsor2.imageTitle }">
 											<p>${sponsorsSpace.sponsor2.imageTitle }</p>
@@ -112,7 +112,7 @@
 											<div class="video-link-container">
 										</c:if>
 										<c:if test="${not empty sponsorsSpace.sponsor3.imagePath}">
-											<img src="${sponsorsSpace.sponsor3.imagePath }" class="sponsors-image ${empty sponsorsSpace.sponsor3.imageTitle ? 'type-spacing-15' : '' }" alt="">
+											<img src="${sponsorsSpace.sponsor3.imagePath }" class="sponsors-image ${empty sponsorsSpace.sponsor3.imageTitle ? 'type-spacing-15' : '' }" alt="${sponsorsSpace.sponsor3.imageAltTag}">
 										</c:if>
 										<c:if test="${not empty sponsorsSpace.sponsor3.imageTitle }">
 											<p>${sponsorsSpace.sponsor3.imageTitle }</p>

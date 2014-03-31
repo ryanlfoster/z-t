@@ -16,7 +16,7 @@ import com.citytechinc.cq.component.annotations.widgets.DialogFieldSet;
  * This class sets the values obtained in the dialog , adds it to the list.
  * 
  */
-@Component(group = "Food and Wine", basePath = "jcr_root/apps/foodandwine/components", value = "Sponsors Space", tabs = {
+@Component(group = "Food and Wine", basePath = "jcr_root/apps/foodandwine/components", value = "Sponsors Space", dialogHeight = 400, tabs = {
 	@Tab(title = "Sponsor 1"), @Tab(title = "Sponsor 2"), @Tab(title = "Sponsor 3") }, listeners = {
 	@Listener(name = "aftercopy", value = "REFRESH_PAGE"), @Listener(name = "afterdelete", value = "REFRESH_PAGE"),
 	@Listener(name = "afteredit", value = "REFRESH_PAGE"), @Listener(name = "afterinsert", value = "REFRESH_PAGE") })
@@ -39,6 +39,7 @@ public class SponsorsSpace {
 	private static final String SPONSORS_BIG_TITLE = "bigTitle";
 	private static final String SPONSORS_IMAGE_PATH = "imagePath";
 	private static final String SPONSORS_IMAGE_TITLE = "imageTitle";
+	private static final String SPONSORS_IMAGE_ALTTAG = "imageAltTag";
 	private static final String SPONSORS_LINK_TEXT = "linkText";
 	private static final String SPONSORS_LINK_TEXT_PATH = "linkTextPath";
 
@@ -59,10 +60,11 @@ public class SponsorsSpace {
 			String bigTitle = linkProps.get(SPONSORS_BIG_TITLE, StringUtils.EMPTY);
 			String imagePath = linkProps.get(SPONSORS_IMAGE_PATH, StringUtils.EMPTY);
 			String imageTitle = linkProps.get(SPONSORS_IMAGE_TITLE, StringUtils.EMPTY);
+			String imageAltTag = linkProps.get(SPONSORS_IMAGE_ALTTAG, StringUtils.EMPTY);
 			String linkText = linkProps.get(SPONSORS_LINK_TEXT, StringUtils.EMPTY);
 			String linkTextPath = LinkUtils.getHrefFromPath(linkProps.get(SPONSORS_LINK_TEXT_PATH, StringUtils.EMPTY));
 			SponsorsSpaceProperties sponsorsSpaceProperties = new SponsorsSpaceProperties(bigTitle, imagePath,
-				imageTitle, linkText, linkTextPath);
+				imageTitle, linkText, linkTextPath, imageAltTag);
 			return sponsorsSpaceProperties;
 		}
 		return null;

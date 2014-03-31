@@ -13,9 +13,6 @@
 		    $("#upload-photo").trigger('click');
 		});
 	});
-	
-	
-
 </script>
 
 <form action="${resource.path}.formemail.json" method="post">
@@ -155,7 +152,7 @@
 			<div class="image-uploader">
 				<div class="image-uploader-holder">
 					<img class="image-uploader-sample"
-						src="imgs/base/image-upload-icon.png" alt="">
+						src="imgs/base/image-upload-icon.png" alt="Image Upload icon">
 				</div>
 
 				<p>

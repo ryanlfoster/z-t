@@ -29,6 +29,9 @@ public class ArticleImage {
 	@DialogField(fieldLabel = "Image Caption", name = "./imageCaption", tab = 2)
 	private final String imageCaption;
 
+	@DialogField(fieldLabel = "Image Alt Tag", name = "./imageAltTag", tab = 2)
+	private final String imageAltTag;
+
 	@DialogField(fieldLabel = "Link Image To a Page", name = "./articleImageLinkPage", fieldDescription = "For external links please use prefix http:// or https:// (eg. http://www.google.com)", tab = 2)
 	@PathField(rootPath = "/content")
 	private final String articleImageLinkPage;
@@ -40,6 +43,7 @@ public class ArticleImage {
 	private final static String CAPTION_BOLD = "captionBold";
 	private final static String IMAGE_CAPTION = "imageCaption";
 	private final static String ARTICLE_IMAGE_LINK_PAGE = "articleImageLinkPage";
+	private final static String IMAGE_ALT_TAG = "imageAltTag";
 
 	public ArticleImage(SlingHttpServletRequest request) {
 		ValueMap properties = request.getResource().adaptTo(ValueMap.class);
@@ -51,6 +55,7 @@ public class ArticleImage {
 		imageCaption = properties.get(IMAGE_CAPTION, StringUtils.EMPTY);
 		articleImageLinkPage = LinkUtils.getHrefFromPath(properties.get(ARTICLE_IMAGE_LINK_PAGE, StringUtils.EMPTY));
 		external = LinkUtils.isExternal(articleImageLinkPage);
+		imageAltTag = properties.get(IMAGE_ALT_TAG, StringUtils.EMPTY);
 	}
 
 	public String getArticleImageLinkPage() {
@@ -71,6 +76,10 @@ public class ArticleImage {
 
 	public boolean isExternal() {
 		return external;
+	}
+
+	public String getImageAltTag() {
+		return imageAltTag;
 	}
 
 }

@@ -8,7 +8,7 @@
 	<c:if test="${not empty articleImage.articleImageLinkPage}">
 		<a href="${articleImage.articleImageLinkPage}" target="${articleImageLinkPage.external ? '_blank' : '_self' }" class="imagewithdescription-inner">
 	</c:if>
-		<div class="responsive-image" data-picture="" data-alt="" >
+		<div class="responsive-image" data-picture="" data-alt="${articleImage.imageAltTag}" >
 			<div data-src="${articleImage.imagePath}.adapt.480.low.jpg" data-media="(min-width: 1px)"></div>
 			<div data-src="${articleImage.imagePath}.adapt.720.medium.jpg" data-media="(min-width: 481px)"></div>
 			<div data-src="${articleImage.imagePath}.adapt.683.high.jpg" data-media="(min-width: 769px)"></div>
@@ -18,7 +18,7 @@
 			</noscript>
 			
 			<noscript>
-				<img src='${articleImage.imagePath}.adapt.1663.high.jpg' alt=''>
+				<img src='${articleImage.imagePath}.adapt.1663.high.jpg'>
 			</noscript>
 		</div>
 		<!--[if (lt IE 9) & (!IEMobile)]>

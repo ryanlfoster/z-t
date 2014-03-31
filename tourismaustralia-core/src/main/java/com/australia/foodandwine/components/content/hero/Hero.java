@@ -34,6 +34,9 @@ public class Hero {
 	@DialogField(fieldLabel = "Big Title", required = true, tab = 2)
 	private final String bigTitle;
 
+	@DialogField(fieldLabel = "Background Image Alt Tag", tab = 2)
+	private final String imageAltTag;
+
 	@DialogField(fieldLabel = "Overlay Small Text", fieldDescription = "Text to be displayed in small font", tab = 3)
 	private final String smallFontText;
 
@@ -83,6 +86,7 @@ public class Hero {
 	private static final String PLAYERKEY = "playerKey";
 	private static final String VIDEOPLAYER = "videoPlayer";
 	private static final String CHARACTERHYPHEN = "-";
+	private final static String IMAGE_ALT_TAG = "imageAltTag";
 
 	/**
 	 * 
@@ -109,7 +113,7 @@ public class Hero {
 		playerId = properties.get(PLAYERID, brcService.getDefVideoPlayerID());
 		playerKey = properties.get(PLAYERKEY, brcService.getDefVideoPlayerKey());
 		videoPlayer = properties.get(VIDEOPLAYER, StringUtils.EMPTY);
-
+		imageAltTag = properties.get(IMAGE_ALT_TAG, StringUtils.EMPTY);
 	}
 
 	/**
@@ -170,6 +174,10 @@ public class Hero {
 
 	public String getVideoRandomId() {
 		return videoRandomId;
+	}
+
+	public String getImageAltTag() {
+		return imageAltTag;
 	}
 
 }

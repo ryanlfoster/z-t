@@ -17,14 +17,20 @@
 		</div>	
 		<c:choose>
 		    <c:when test="${fn:length(item.iconImages) eq 1}">
+				<c:set var="pathparts" value="${fn:split(item.iconImages[0], '/')}" />               
+				<c:set var="filename" value="${pathparts[fn:length(pathparts) - 1]}" /> 
+				<c:set var="basename" value="${fn:split(filename, '.')[0]}" />    
 				<p class="type-spacing-30">
-		 			<a href="#" class="icon-google-color"><img src="${item.iconImages[0]}" alt=""></a> 
+		 			<a href="#" class="icon-google-color"><img src="${item.iconImages[0]}" alt="${basename} logo image"></a> 
 		 		</p>	
 		    </c:when>
 		    <c:when test="${fn:length(item.iconImages) gt 1}">
 				<ul class="form-social-list type-spacing-40">
 					<c:forEach items="${item.iconImages}" var="icon">
-						<li><a href="#" class="icon-google-color"><img src="${icon}" alt=""></a></li>
+						<c:set var="pathparts" value="${fn:split(icon, '/')}" />         
+						<c:set var="filename" value="${pathparts[fn:length(pathparts) - 1]}" /> 
+						<c:set var="basename" value="${fn:split(filename, '.')[0]}" />    
+						<li><a href="#" class="icon-google-color"><img src="${icon}" alt="${basename} logo image"></a></li>
 					</c:forEach>
 				</ul>	
 		    </c:when>

@@ -17,7 +17,7 @@ import com.citytechinc.cq.component.annotations.Option;
 import com.citytechinc.cq.component.annotations.widgets.Selection;
 import com.day.cq.commons.Externalizer;
 
-@Component(group = "Food and Wine", basePath = "jcr_root/apps/foodandwine/components", value = "Google Map", listeners = {
+@Component(group = "Food and Wine", basePath = "jcr_root/apps/foodandwine/components", value = "Google Map", dialogHeight = 400, listeners = {
 	@Listener(name = "aftercopy", value = "REFRESH_PAGE"), @Listener(name = "afterdelete", value = "REFRESH_PAGE"),
 	@Listener(name = "afteredit", value = "REFRESH_PAGE"), @Listener(name = "afterinsert", value = "REFRESH_PAGE") })
 public class Map {
@@ -46,6 +46,9 @@ public class Map {
 	@DialogField(fieldLabel = "Website")
 	private String website;
 
+	@DialogField(fieldLabel = "Image Alt Tag", fieldDescription = "Image Alt Tag for map image")
+	private String imageAltTag;
+
 	private String googleMapUrl;
 
 	public Map(SlingHttpServletRequest request) {
@@ -60,6 +63,7 @@ public class Map {
 			state = properties.get("state", StringUtils.EMPTY);
 			postcode = properties.get("postcode", StringUtils.EMPTY);
 			website = properties.get("website", StringUtils.EMPTY);
+			imageAltTag = properties.get("imageAltTag", StringUtils.EMPTY);
 		} else {
 			address1 = "";
 			suburb = "";
@@ -129,6 +133,10 @@ public class Map {
 
 	public String getPostcode() {
 		return postcode;
+	}
+
+	public String getImageAltTag() {
+		return imageAltTag;
 	}
 
 }

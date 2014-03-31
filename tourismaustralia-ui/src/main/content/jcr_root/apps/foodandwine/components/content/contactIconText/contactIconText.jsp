@@ -11,7 +11,7 @@
 	<p class="type-spacing-30">${cit.description}</p>
 	<c:forEach items="${cit.ittList}" var="item">
 		<p class="type-spacing-30">
-			<span class="form-contact-icon"><img src="${item.iconImage}" alt=""></span>
+			<span class="form-contact-icon"><img src="${item.iconImage}" alt="${item.iconTitle} image"></span>
 			<br>
 			<strong>${item.iconTitle}</strong>
 			<br>${item.iconText}

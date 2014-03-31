@@ -9,7 +9,7 @@
 				<div class="row">
 					<div class="footer-restaurant-australia-elements">
 						<c:if test="${not empty footer.imageTopLogoPath}">
-							<img class="type-spacing-30" src="${footer.imageTopLogoPath}" alt=""> 	
+							<img class="type-spacing-30" src="${footer.imageTopLogoPath}" alt="${footer.imageTopAltTag}" /> 	
 						</c:if>
 						<a href="${footer.imageTopLogoLink}" class="footer-restaurant-australia-elements-link type-spacing-15">${footer.urlTitle}</a>
 						<div
@@ -59,7 +59,7 @@
 							<div class="footer-ta-logo-container">
 								<c:if test="${not empty footer.imageBottomLogoPath}">
 									<a href="${footer.imageBottomLogoLink}" target="_blank">
-										<img class="type-spacing-15" src="${footer.imageBottomLogoPath}" alt="">
+										<img class="type-spacing-15" src="${footer.imageBottomLogoPath}" alt="${footer.imageBottomAltTag}" />
 									</a>
 								</c:if>
 								<div class="footer-ta-logo-copyright">&copy; Tourism Australia

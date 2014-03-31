@@ -1,0 +1,14 @@
+
+.paragraph-article .paragraph-position-apply {
+  p {
+    padding: 0 15px;
+
+  }
+  @include breakpoint(md) {
+    p {
+      width: 460px;
+      margin-left: 25%;
+      padding-left: 15px;
+    }
+  }
+}

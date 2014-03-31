@@ -62,6 +62,50 @@
 }
 
 //**********************
+// Font styles:
+//**********************
+
+.type-font-base {
+  font-family: $font-family-base;
+  strong{
+    font-family: $font-family-base-b;
+    em{
+      font-family: $font-family-base-bi;
+    }
+  }
+  em{
+    font-family: $font-family-base-i;
+  }
+}
+.type-font-primary {
+  font-family: $font-family-primary;
+  strong{
+    font-family: $font-family-base-b;
+  }
+  em{
+    font-family: $font-family-base-bi;
+  }
+}
+.type-font-secondary {
+  font-family: $font-family-secondary;
+  strong{
+    font-weight: bold;
+  }
+  em{
+    font-style: italic;
+  }
+}
+.type-font-feature {
+  font-family: $font-family-feature;
+  strong{
+    font-weight: bold;
+  }
+  em{
+    font-style: italic;
+  }
+}
+
+//**********************
 // Type styles:
 //**********************
 .type-article {

@@ -2,16 +2,18 @@
 layout: layout-base.hbs
 ---
 
-{{#parseJSON '{
+<div class="paragraph-article">
+
+    {{#parseJSON '{
     "hero_image" : "herohome_sydney",
     "hero_title" : "Sydney",
     "hero_subtitle" : "The harbour city"
 }'}}
-    {{> page_hero }}
-{{/parseJSON}}
+        {{> page_hero }}
+    {{/parseJSON}}
 
-<div class="row l-padding-between-item-fill-white">
-    {{#parseJSON '{
+    <div class="row l-padding-between-item-fill-white">
+        {{#parseJSON '{
         "page_title" : "New South Wales",
         "map_summary" : [
             {"para" : "Discover Sydney, Australia’s famous harbour city and the capital of New South Wales."},
@@ -26,12 +28,21 @@ layout: layout-base.hbs
         "map_main_title" : "Capital of New South Wales",
         "map_pin_button" : "Sydney"
     }'}}
-        {{> page_explore_summary_map }}
-    {{/parseJSON}}
-</div>
+            {{> page_explore_summary_map }}
+        {{/parseJSON}}
+    </div>
 
-<div class="row l-padding-between-item-fill-white">
-    {{> 2columnvideo }}
-</div>
+    <div class="row l-padding-between-item-fill-white">
+        <div class="l-padding-between-item-remove-30">
+            {{> 2columnvideo }}
+        </div>
 
-{{> paragraph_standard}}
+    </div>
+
+    <div class="row l-padding-between-item-fill-white">
+        <div class="paragraph-position-apply l-center-1200">
+            {{> paragraph_standard}}
+        </div>
+    </div>
+
+</div>

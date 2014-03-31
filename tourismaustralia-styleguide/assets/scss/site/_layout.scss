@@ -603,7 +603,14 @@ $footerBackgroundColour: #0a334c;
   background-color: #FFF;
   position: relative;
 }
-
+.l-padding-between-item-remove-30 {
+  margin-top: -30px;
+  margin-bottom: -30px;
+}
+.l-padding-between-item-remove-15 {
+  margin-top: -15px;
+  margin-bottom: -15px;
+}
 .l-padding-lr-15 {
   padding: 0 15px;
 }

@@ -668,6 +668,11 @@ $footerBackgroundColour: #0a334c;
 .l-vertically-center {
   float: none;
   display: table-cell;
+  vertical-align: middle;
+}
+.l-vertically-bottom {
+  float: none;
+  display: table-cell;
   vertical-align: bottom;
 }
 .l-equal-height-bottom-sm {
@@ -777,6 +782,20 @@ $footerBackgroundColour: #0a334c;
   height: 100%;
   text-align: center;
   vertical-align: middle;
+  width: 100%;
+}
+.l-table-cell-vertically-centered {
+  display: table-cell;
+  height: 100%;
+  text-align: left;
+  vertical-align: middle;
+  width: 100%;
+}
+.l-table-cell-bottom {
+  display: table-cell;
+  height: 100%;
+  text-align: left;
+  vertical-align: bottom;
   width: 100%;
 }
 //////////////////////////////////////////

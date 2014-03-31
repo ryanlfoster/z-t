@@ -7,15 +7,11 @@
             "text": "Base",
             "category": [
                 {
-                    "text": "Working Partials",
+                    "text": "Working Components",
                     "item": [
-                        { "text" : "2columnvideo"},
-                        { "text" : "text2columnvideo"},
                         { "text": "videoitem" },
-                        { "text": "footer" },
                         { "text": "paragraph_standard" },
                         { "text": "socialimage" },
-                        { "text": "bylinewithshare" },
                         { "text": "byline" }
                     ]
                 },
@@ -115,6 +111,8 @@
                     "text" : "All",
                     "item": [
                         { "text": "nojs" },
+                        { "text" : "2columnvideo"},
+                        { "text": "bylinewithshare" },
                         { "text": "makeyourtriphappen" },
                         { "text": "footer" },
                         { "text": "breadcrumbs"},
@@ -134,8 +132,7 @@
                         { "text": "tagcloud" },
                         { "text": "text" },
                         { "text": "whatyoucansee_city" },
-                        { "text": "whatyoucansee_state" },
-                        { "text": "footer" }
+                        { "text": "whatyoucansee_state" }
                     ]
                 }
             ]

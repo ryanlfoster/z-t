@@ -89,10 +89,10 @@
             ]
         },
         {
-            "text": "Partials",
+            "text": "Components",
             "category": [
                 {
-                    "text" : "General",
+                    "text" : "Layout",
                     "item": [
                         { "text": "tagclouditem" },
                         { "text": "home_explore_summary_map" },
@@ -100,17 +100,7 @@
                         { "text": "linethroughtext" },
                         { "text": "dropdown" },
                         { "text": "sectionintro" },
-                        { "text": "whatyoucansee" }
-                    ]
-                }
-            ]
-        },
-        {
-            "text": "Components",
-            "category": [
-                {
-                    "text" : "Layout",
-                    "item": [
+                        { "text": "whatyoucansee" },
                         { "text": "mosaic_whatscomingup" },
                         { "text": "carousel_standard" },
                         { "text": "carousel_mobile" }

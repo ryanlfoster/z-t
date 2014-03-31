@@ -1,10 +1,10 @@
+/////////////////
+// 2 COLUMN VIDEO
+/////////////////
 .video-container {
   text-align: center;
-  //display: inline-block;
   position: inherit;
-  //@include breakpoint(md){
-    //position: relative;
-  //}
+  background-color: #000;
   margin: 0 -15px;
   @include breakpoint(sm){
     margin: inherit;
@@ -43,14 +43,34 @@
 }
 
 .video-2column-container {
-  //padding: 0;
   @include breakpoint(md) {
-    //padding: inherit;
-    //padding-left: 0;
     padding-right: 220px;
   }
 }
-.video-2column-position {
-  //display: fixed;
+.video-position {
   position: relative;
+}
+
+///////////////
+// LARGE VIDEO
+///////////////
+.video-large-container {
+  max-width: 1194px;
+}
+.video-title-large-video {
+  font-family: $font-family-secondary;
+  font-size: pxtoem(28px);
+}
+.video-text-large {
+  padding: .4em 0;
+  display: block;
+  line-height: pxtolineheightem(16px, 24px);
+}
+.video-copy-large-container {
+  background-color: $video_large_copy_bg;
+  margin: 0 -15px;
+  padding: 1em;
+  @include breakpoint(sm){
+    margin: inherit;
+  }
 }

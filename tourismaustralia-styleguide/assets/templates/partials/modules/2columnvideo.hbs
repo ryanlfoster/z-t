@@ -6,22 +6,10 @@ title: 2 Column Brightcove Video
     <div class="col-xs-12 col-sm-3"></div>
 
     <div class="video-2column-container col-xs-12 col-sm-9">
-        <div class="video-2column-position">
-            <div class="video-container">
-                <div class="placeholder">
-                    <img src="../../../imgs/placeholders/video_2colum.jpg" alt="" class="l-image-full">
-                </div>
-                <div class="l-table-container">
-                    <div class="l-table">
-                        <div class="l-table-cell-centered">
-                            <img class="video-play-icon" src="../../../imgs/icons/video_play_large.png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="video-position">
+            {{> videoitem }}
             <div class="video-copy"><div>
-                <h4 class="video-title">Discover the Daintree</h4>
-                <p>There’s nothing like finding your own waterfall in the middle of the Rainforest.<a href="#" class="video-link" alt="">View more videos</a></p>
+                {{> text2columnvideo}}
             </div></div>
         </div>
     </div>

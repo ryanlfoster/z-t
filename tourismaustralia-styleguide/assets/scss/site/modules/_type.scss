@@ -130,7 +130,7 @@
  }
 
 .type-hero-image {
-  @extend .font-feature;
+  @extend .type-font-feature;
   letter-spacing: pxtoletterspacingem(-10);
 }
 .type-intro-copy{

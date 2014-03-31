@@ -63,6 +63,7 @@ public class ExperienceCreationListener implements EventListener {
 
 					Map<String, Object> mapProperties = new HashMap<String, Object>();
 					mapProperties.put("sling:resourceType", "foodandwine/components/content/map");
+					mapProperties.put("phone", formProperties.get("phoneNumber", String.class));
 					mapProperties.put("suburb", formProperties.get("location", String.class));
 					mapProperties.put("state", formProperties.get("selectTerritory", String.class));
 					mapProperties.put("website", formProperties.get("businessWebsite", String.class));

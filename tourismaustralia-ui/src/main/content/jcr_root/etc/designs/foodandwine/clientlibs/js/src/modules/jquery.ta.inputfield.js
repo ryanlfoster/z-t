@@ -168,8 +168,9 @@ var inputfields = [];
 		return filter.test(inputValue);
 	};
 	Plugin.prototype.isValidPhoneNumber = function(inputValue){ 
-	  	var phoneno = /^\+?([0-9]{2})\)?[-. ]?([0-9]{1})[-. ]?([0-9]{4})[-. ]?([0-9]{4})$/; 
-	  	return phoneno.test(inputValue);
+	  	var phoneno = /^\+?([0-9]{2})\)?[-. ]?([0-9]{1})[-. ]?([0-9]{4})[-. ]?([0-9]{4})$/;
+	  	var phoneno2 = /^\+?([0-9]{2})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{3})[-. ]?([0-9]{3})$/; 
+	  	return phoneno.test(inputValue) || phoneno2.test(inputValue);
 	};
 	
 	// A really lightweight plugin wrapper around the constructor,

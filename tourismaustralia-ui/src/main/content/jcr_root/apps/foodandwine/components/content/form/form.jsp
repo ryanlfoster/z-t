@@ -85,6 +85,25 @@
 				</div>
 			</div>
 			<div class="field-container">
+				<div class="input-field" data-type="number">
+					<div class="col-xs-4">
+						<label class="input-field-label" for="text">
+							<p>
+								<strong>Phone number*</strong>
+							</p>
+						</label>
+					</div>
+					<div class="col-xs-8">
+						<input class="input-field-input" name="phone-number" id="phone-number" type="text"
+							placeholder="E.g. +61 422 942 771"> <span
+							class="input-field-validation-icon"></span>
+					</div>
+					<div class="col-xs-12">
+						<p class="input-field-validation-alert">Please enter a valid phone number</p>
+					</div>
+				</div>
+			</div>
+			<div class="field-container">
 				<div class="input-field" data-type="mail">
 					<div class="col-xs-4">
 						<label class="input-field-label" for="text">
@@ -287,7 +306,7 @@
 		
 		                        <fieldset class="options">
 		                            <input id="checkbox" class="checkbox" type="checkbox">
-		                            <label for="checkbox" name="demo_lbl_1" class="checkbox-label">I agree to lorem ipsum terms &amp; conditions<sup>*</sup></label>
+		                            <label for="checkbox" name="demo_lbl_1" class="checkbox-label">I agree to the terms &amp; conditions<sup>*</sup></label>
 		                            <!-- Checkbox powered by CssCheckbox.com -->
 		                            <p class="checkbox-description">
 		                                Tourism Australia may need to contact you to complete or edit your listing. By ticking you accept the <a href="${form.privacyPolicyLink}" target="_blank">Privacy Policy</a> and <a href="${form.termsLink }" target="_blank">Terms &amp; Conditions</a>

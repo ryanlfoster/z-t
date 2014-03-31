@@ -68,6 +68,7 @@ public class FormEmailServlet extends SlingAllMethodsServlet {
 			String primaryCategory = request.getParameter("category-primary");
 			String secondaryCategory = request.getParameter("category-secondary");
 			String videoUrl = request.getParameter("videoUrl");
+			String phoneNumber = request.getParameter("phone-number");
 
 			Page userGeneratedPage = pageManager.create(PathUtils.FOOD_AND_WINE_USER_GENERATED, null, null,
 				"experience-" + UUID.randomUUID().toString(), true);
@@ -85,6 +86,7 @@ public class FormEmailServlet extends SlingAllMethodsServlet {
 			contentProperties.put("primaryCategory", primaryCategory);
 			contentProperties.put("secondaryCategory", secondaryCategory);
 			contentProperties.put("cq:distribute", true);
+			contentProperties.put("phoneNumber", phoneNumber);
 
 			properties.put("Business Name ", businessName);
 			properties.put("Location ", location);
@@ -96,6 +98,7 @@ public class FormEmailServlet extends SlingAllMethodsServlet {
 			properties.put("Primary Category", primaryCategory);
 			properties.put("Secondary Category", secondaryCategory);
 			properties.put("Video Url", videoUrl);
+			properties.put("Phone Number", phoneNumber);
 
 			imageUpload(request, userGeneratedPageContentResource, resourceResolver.adaptTo(Session.class));
 			resourceResolver.commit();

@@ -18,7 +18,7 @@
 			</noscript>
 			
 			<noscript>
-				<img src='${articleImage.imagePath}.adapt.1663.high.jpg'>
+				<img src='${articleImage.imagePath}.adapt.1663.high.jpg' alt=''>
 			</noscript>
 		</div>
 		<!--[if (lt IE 9) & (!IEMobile)]>

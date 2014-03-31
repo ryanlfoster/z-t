@@ -13,6 +13,9 @@
 		    $("#upload-photo").trigger('click');
 		});
 	});
+	
+	
+
 </script>
 
 <form action="${resource.path}.formemail.json" method="post">

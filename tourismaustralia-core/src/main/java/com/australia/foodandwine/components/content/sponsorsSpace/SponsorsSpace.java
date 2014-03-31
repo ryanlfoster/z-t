@@ -16,7 +16,7 @@ import com.citytechinc.cq.component.annotations.widgets.DialogFieldSet;
  * This class sets the values obtained in the dialog , adds it to the list.
  * 
  */
-@Component(group = "Food and Wine", basePath = "jcr_root/apps/foodandwine/components", value = "Sponsors Space", dialogHeight = 400, tabs = {
+@Component(disableTargeting = true, group = "Food and Wine", basePath = "jcr_root/apps/foodandwine/components", value = "Sponsors Space", tabs = {
 	@Tab(title = "Sponsor 1"), @Tab(title = "Sponsor 2"), @Tab(title = "Sponsor 3") }, listeners = {
 	@Listener(name = "aftercopy", value = "REFRESH_PAGE"), @Listener(name = "afterdelete", value = "REFRESH_PAGE"),
 	@Listener(name = "afteredit", value = "REFRESH_PAGE"), @Listener(name = "afterinsert", value = "REFRESH_PAGE") })

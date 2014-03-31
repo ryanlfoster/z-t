@@ -29,13 +29,14 @@ import com.day.cq.wcm.api.Page;
 import com.day.cq.wcm.api.PageManager;
 import com.day.cq.wcm.foundation.Image;
 
-@Component(actions = { "text:Other Experiences", "-" }, group = ".hidden", basePath = "jcr_root/apps/foodandwine/components", value = "Other Experiences", listeners = {
+@Component(disableTargeting = true, actions = { "text:Other Experiences", "-" }, group = ".hidden", basePath = "jcr_root/apps/foodandwine/components", value = "Other Experiences", listeners = {
 	@Listener(name = "aftercopy", value = "REFRESH_PAGE"), @Listener(name = "afterdelete", value = "REFRESH_PAGE"),
 	@Listener(name = "afteredit", value = "REFRESH_PAGE"), @Listener(name = "afterinsert", value = "REFRESH_PAGE") })
 public class OtherExperiences {
 	private static final Logger LOG = LoggerFactory.getLogger(OtherExperiences.class);
 	private static final String QUERY_STRING = "SELECT * FROM [cq:Page] AS page INNER JOIN [nt:unstructured] AS pageContent ON ISCHILDNODE(pageContent,page) WHERE ISDESCENDANTNODE(page,["
-		+ PathUtils.FOOD_AND_WINE_ROOT_PATH + "]) and pageContent.[cq:tags] like '%s%%' and not issamenode(page,'%s')";
+		+ PathUtils.FOOD_AND_WINE_ROOT_PATH
+		+ "]) and pageContent.[cq:tags] like '%s%%' and not issamenode(page,'%s') order by pageContent.[cq:lastModified] DESC";
 
 	private final List<OtherExperiencesArticleListProperties> articlesList = new ArrayList<OtherExperiencesArticleListProperties>();
 	private String stateTitle;
@@ -54,11 +55,12 @@ public class OtherExperiences {
 
 				Query query = queryManager.createQuery(
 					String.format(QUERY_STRING, stateTag.getTagID(), currentPage.getPath()), Query.JCR_SQL2);
+				query.setLimit(4);
 				QueryResult result = query.execute();
 
 				RowIterator rowIterator = result.getRows();
 
-				while (rowIterator != null && rowIterator.hasNext() && articlesList.size() < 4) {
+				while (rowIterator != null && rowIterator.hasNext()) {
 					Row row = rowIterator.nextRow();
 					Page articlePage = pageManager.getPage(row.getPath("page"));
 					ValueMap pageProperties = articlePage.getProperties();

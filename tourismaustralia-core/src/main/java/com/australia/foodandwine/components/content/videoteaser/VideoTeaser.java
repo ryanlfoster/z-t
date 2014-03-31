@@ -16,7 +16,7 @@ import com.citytechinc.cq.component.annotations.Tab;
 import com.citytechinc.cq.component.annotations.widgets.Html5SmartImage;
 import com.day.cq.wcm.foundation.Image;
 
-@Component(group = "Food and Wine", basePath = "jcr_root/apps/foodandwine/components", value = "Video with Teaser", tabs = {
+@Component(disableTargeting = true, group = "Food and Wine", basePath = "jcr_root/apps/foodandwine/components", value = "Video with Teaser", tabs = {
 	@Tab(title = "Background Image"), @Tab(title = "Other Properties") }, listeners = {
 	@Listener(name = "aftercopy", value = "REFRESH_PAGE"), @Listener(name = "afterdelete", value = "REFRESH_PAGE"),
 	@Listener(name = "afteredit", value = "REFRESH_PAGE"), @Listener(name = "afterinsert", value = "REFRESH_PAGE") })

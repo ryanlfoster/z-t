@@ -3,7 +3,7 @@ $(document).ready(function() {
 });
 
 $(function(){
-	$('.faw-video-teaser-icon').click(function(){
+	$('.faw-video-teaser-icon,.form-video-button').click(function(){
 		var id=$(this).data('video-button')
 		$('#'+id).find('.BrightcoveExperience').each(function(){
 			 adjustHeightAndWidth(this);
@@ -20,5 +20,16 @@ $(function(){
 			var videoPlayer = videoPlayerHolder.getModule(brightcove.api.modules.APIModules.VIDEO_PLAYER);
 			videoPlayer.pause();
 		});
+	});
+});
+
+$(function(){
+	$("form.add-experience-form").submit(function(e){
+		if(validateForm()){
+			return true;
+		}else{
+			e.preventDefault();
+			return false;
+		}
 	});
 });

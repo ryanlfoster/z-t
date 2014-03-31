@@ -130,10 +130,6 @@ public class Footer {
 		}
 	}
 
-	public String getImageTopLogoPath() {
-		return imageTopLogoPath;
-	}
-
 	public String getImageTopLogoLink() {
 		return PathUtils.FOOD_AND_WINE_ROOT_PATH + ".html";
 	}
@@ -188,6 +184,10 @@ public class Footer {
 
 	public String getImageBottomAltTag() {
 		return imageBottomAltTag;
+	}
+
+	public String getImageTopLogoPath() {
+		return imageTopLogoPath;
 	}
 
 }

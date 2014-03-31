@@ -150,7 +150,7 @@ var inputfields = [];
 		}
 	};
 	Plugin.prototype.isValidSelect = function(element){
-		if($(element).val() === null){
+		if($(element).val() === null || $(element).val()==''){
 			return false;
 		}else{
 			return true;

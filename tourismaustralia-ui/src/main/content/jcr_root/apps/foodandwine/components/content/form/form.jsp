@@ -68,8 +68,8 @@
 			<div class="field-container">
 				<div class="input-field input-field-select" data-type="select">
 					<select class="input-select" name="selectTerritory" id="selectTerritory">
-						<option selected="selected" disabled="disabled">Select a state or territory*</option>
-						<option>Australian Capital Territory</option>  
+						<option selected="selected" disabled="disabled" value="">Select a state or territory*</option>
+						<option >Australian Capital Territory</option>  
 						<option>New South Wales</option> 
 						<option>Northern Territory</option>  
 						<option>Queensland</option>
@@ -161,24 +161,12 @@
 						<em>Jpeg, Gif or PNG - 5mb file limit. Your image should be at
 							least 600 x 600px</em>
 					</p>
-					<div class="image-uploader">
-						<div class="image-uploader-holder">
-							<img class="image-uploader-sample"
-								src="/etc/designs/foodandwine/clientlibs/imgs/base/image-upload-icon.png" alt="">
-						</div>
-		
+					<div>
+	
 						<p>
-							<strong>Drag &amp; drop to upload <br>
-							</strong> or <a href="javascript:void(0)" id="upload" target="_self"><strong>select files</strong></a>
+							</strong><a href="javascript:void(0)" id="upload" target="_self"><strong>select a file</strong></a>
 							<input id="upload-photo" name="upload-photo" type="file" accept="image/*" />
 						</p>
-						<progress class="image-upload-progressbar" min="0" max="100"
-							value="0">0</progress>
-						<p class="image-uploader-upload hidden">Drag &amp; drop not
-							supported, but you can still upload via the upload link</p>
-						<p class="hidden">File API &amp; FileReader API not supported</p>
-						<p class="hidden">XHR2's FormData is not supported</p>
-						<p class="hidden">XHR2's upload progress isn't supported</p>
 					</div>
 		
 					<div class="description-box">
@@ -302,7 +290,7 @@
 		                            <label for="checkbox" name="demo_lbl_1" class="checkbox-label">I agree to lorem ipsum terms &amp; conditions<sup>*</sup></label>
 		                            <!-- Checkbox powered by CssCheckbox.com -->
 		                            <p class="checkbox-description">
-		                                Tourism Australia may need to contact you to complete or edit your listing. By ticking you accept the <a href="http://www.australia.com/privacypolicy.aspx" target="_blank">Privacy Policy</a> and <a href="http://www.australia.com/terms-conditions.aspx" target="_blank">Terms &amp; Conditions</a>
+		                                Tourism Australia may need to contact you to complete or edit your listing. By ticking you accept the <a href="${form.privacyPolicyLink}" target="_blank">Privacy Policy</a> and <a href="${form.termsLink }" target="_blank">Terms &amp; Conditions</a>
 		                            </p>
 		                        </fieldset>
 		

@@ -34,9 +34,18 @@ public class Form {
 	@MultiField
 	private final List<String> emailIdsList;
 
-	@DialogField(fieldLabel = "Thank You Page Redirect", name = "./redirectUrl", required = true)
+	@DialogField(fieldLabel = "Thank You Page Redirect", required = true)
 	@PathField
 	private final String redirectUrl;
+
+	@DialogField(fieldLabel = "Privacy Policy Link", required = true)
+	@PathField(rootPath = "/content")
+	private final String privacyPolicyLink;
+
+	@DialogField(fieldLabel = "Terms and Condition Link", required = true)
+	@PathField(rootPath = "/content")
+	private final String termsLink;
+
 	private final String formPath;
 
 	/**
@@ -55,6 +64,8 @@ public class Form {
 		this.emailIdsList = Arrays.asList(properties.get(EMAIL_IDS_LIST, new String[0]));
 		redirectUrl = LinkUtils.getHrefFromPath(properties.get(THAMK_YOU_PAGE_REDIRECT_URL, StringUtils.EMPTY));
 		formPath = request.getResourceResolver().map(request.getResource().getPath() + ".formemail.json");
+		privacyPolicyLink = properties.get("privacyPolicyLink", StringUtils.EMPTY);
+		termsLink = properties.get("termsLink", StringUtils.EMPTY);
 	}
 
 	/**
@@ -99,6 +110,14 @@ public class Form {
 
 	public String getFormPath() {
 		return formPath;
+	}
+
+	public String getPrivacyPolicyLink() {
+		return privacyPolicyLink;
+	}
+
+	public String getTermsLink() {
+		return termsLink;
 	}
 
 }

@@ -14,7 +14,7 @@
 
 	// Create the defaults once
 	var pluginName = 'favourite', defaults = {
-        currentPage: ""
+        currentPagePath: ""
 	};
 
 	// The actual plugin constructor
@@ -35,16 +35,18 @@
 
     Plugin.prototype.setupEvents = function(scope) {
         $(scope.element).click(function(e) {
-            scope.favouriteBtnClicked(scope, e);
+            scope.createFavourite(scope, e);
         });
     }
 
-
     // item selected
-    Plugin.prototype.favouriteBtnClicked = function (scope, e) {
+    Plugin.prototype.createFavourite = function (scope, e) {
         e.preventDefault();
-        var currentPagePath = window.location.pathname;
+
+        var currentPagePath = $(scope.element).data('pagepath');
         //console.log(currentPagePath);
+
+        // AJAX post currentPagePath to favourites
         $.ajax({
             type:"POST",
             url: "/bin/favorites/add.json?page="+currentPagePath,

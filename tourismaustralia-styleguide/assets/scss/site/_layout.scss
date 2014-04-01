@@ -641,7 +641,8 @@ $footerBackgroundColour: #0a334c;
 #main-footer {
 	position: relative;
 	padding: pxtoem(1px) 0;
-     background: $footerBackgroundColour;
+    background: $footerBackgroundColour;
+    overflow-x: hidden;
 }
 
 //////////////////////////////////////////

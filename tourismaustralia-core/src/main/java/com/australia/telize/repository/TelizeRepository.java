@@ -6,4 +6,7 @@ public interface TelizeRepository {
 
 	GeoLocation getGeoLocation();
 
+	// Overloaded method
+	GeoLocation getGeoLocation(String xForwardedIP);
+
 }

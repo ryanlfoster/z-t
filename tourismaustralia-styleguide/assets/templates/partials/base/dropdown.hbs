@@ -1,0 +1,20 @@
+---
+title: DropDown
+---
+
+<div class="dropdown-select">
+    <hr>
+    <div class="dropdown-select-style">
+        <select>
+            {{#if data}}
+                {{#each data}}
+                    <option>{{option}}</option>
+                {{/each}}
+            {{else}}
+                <option>Option 1</option>
+                <option>Option 2</option>
+            {{/if}}
+        </select>
+    </div>
+    <hr>
+</div>

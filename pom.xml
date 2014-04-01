@@ -17,8 +17,9 @@
 
 	<modules>
 		<module>tourismaustralia-core</module>
+        <module>tourismaustralia-styleguide</module>
 		<module>tourismaustralia-ui</module>
-	</modules>
+    </modules>
 
 	<repositories>
 		<repository>

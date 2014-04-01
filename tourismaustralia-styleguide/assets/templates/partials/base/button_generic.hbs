@@ -1,0 +1,11 @@
+---
+title: Button Generic
+---
+
+<a href="#" class="btn-bubble btn-bubble-min-width {{#if active}}is-active{{/if}} {{#if extraspace}}btn-category-extra-space{{/if}}">
+        <span class="btn-bubble-button">
+              <img class="btn-bubble-std" src="imgs/icons/{{#if button_outline}}{{button_outline}}{{else}}attraction_outline.png{{/if}}" alt=""/>
+              <img class="btn-bubble-active" src="imgs/icons/{{#if button}}{{button}}{{else}}attraction.png{{/if}}" alt=""/>
+        </span>
+    <span class="type-below-btn">{{#if label}}{{label}}{{else}}Attractions around Sydney{{/if}}</span>
+</a>

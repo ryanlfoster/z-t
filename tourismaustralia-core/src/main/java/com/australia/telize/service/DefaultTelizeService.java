@@ -19,4 +19,9 @@ public class DefaultTelizeService implements TelizeService {
 		return telizeRepo.getGeoLocation();
 	}
 
+	@Override
+	public GeoLocation getLocation(String xForwardedIP) {
+		return telizeRepo.getGeoLocation(xForwardedIP);
+	}
+
 }

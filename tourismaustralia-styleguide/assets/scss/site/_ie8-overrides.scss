@@ -1,0 +1,22 @@
+/*IE8 Overrides*/
+body{
+    width: 1580px!important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+// mosaic flip to reveal on rollover
+.mosaic {
+  .flip-front-fade {
+    z-index: 3;
+  }
+  .is-flip {
+    .flip-front {
+      z-index: 1;
+    }
+    .flip-front-fade {
+      z-index: 1;
+    }
+
+  }
+}

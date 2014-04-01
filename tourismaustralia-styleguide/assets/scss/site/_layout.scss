@@ -1,0 +1,604 @@
+
+.l-constrained {
+    max-width: 1180px;
+    margin:0 auto;
+    padding:0 10px;
+}
+
+.l-image-full {
+  max-width: 100%;
+}
+
+
+
+.l-fixed {
+  position: fixed!important;
+}
+
+.l-v-center {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+.l-h-center {
+  text-align: center;
+}
+
+
+
+.l-padding-0{
+    padding: 0;
+}
+
+.l-margin-0{
+    margin: 0;
+}
+
+
+
+
+
+
+.l-row-collapse {
+  margin-left: 0;
+  margin-right: 0;
+
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  [class^="col-"] {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+.l-v-push-xs-0-5 {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+
+
+.l-v-push-xs-1 {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+
+
+.l-v-push-sm-1 {
+  @include breakpoint(sm) {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+}
+
+.l-v-push-sm-1-5 {
+  @include breakpoint(sm) {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+  }
+}
+
+
+
+.l-v-push-md-1 {
+  @include breakpoint(md) {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+}
+
+.l-v-push-lg-1 {
+  @include breakpoint(lg) {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+}
+
+
+$footerBackgroundColour: #0a334c;
+
+.l-list-clean {
+	margin: 0;
+    padding: 0;
+	list-style: none;
+}
+
+
+.l-list-inline {
+  & > li {
+    display:inline-block;
+  }
+}
+
+.l-list-float {
+  & > li {
+    float: left;
+    position: relative;
+  }
+}
+
+
+
+.l-push-down-xs-1 {
+  margin-bottom: 1em;
+}
+
+
+
+.l-push-down-xs-2 {
+  margin-bottom: 2em;
+}
+
+
+
+
+.l-push-down-xs-0-5 {
+  margin-bottom: 0.5em;
+}
+
+
+
+.l-push-down-sm-3 {
+  @include breakpoint(sm) {
+    margin-bottom: 3em;
+  }
+}
+
+
+.l-push-down-sm-2 {
+  @include breakpoint(sm) {
+    margin-bottom: 2em;
+  }
+}
+
+.l-push-down-sm-0 {
+  @include breakpoint(sm) {
+    margin-bottom: 0em;
+  }
+}
+
+
+
+.l-push-down-md-0 {
+  @include breakpoint(md) {
+    margin-bottom: 0em;
+  }
+}
+
+
+.l-push-down-md--10 {
+  @include breakpoint(md) {
+    margin-bottom: -10em;
+  }
+}
+
+
+
+
+
+
+
+.l-push-up-xs--5 {
+  margin-top: -5em;
+}
+
+
+.l-push-up-xs-1 {
+  margin-top: 1em;
+}
+
+.l-push-up-xs-1-5 {
+  margin-top: 1.5em;
+}
+
+.l-push-up-xs-2 {
+  margin-top: 2em;
+}
+
+.l-push-up-xs-3 {
+  margin-top: 3em;
+}
+
+
+
+
+.l-push-up-sm-6 {
+  @include breakpoint(sm) {
+    margin-top: 6em;
+  }
+}
+
+
+
+.l-push-up-sm-5 {
+  @include breakpoint(sm) {
+    margin-top: 5em;
+  }
+}
+
+
+.l-push-up-sm-4 {
+  @include breakpoint(sm) {
+    margin-top: 4em;
+  }
+}
+
+
+.l-push-up-sm-3 {
+  @include breakpoint(sm) {
+    margin-top: 3em;
+  }
+}
+
+
+.l-push-up-sm-2 {
+  @include breakpoint(sm) {
+    margin-top: 2em;
+  }
+}
+
+
+.l-push-up-sm-1-5 {
+  @include breakpoint(sm) {
+    margin-top: 1.5em;
+  }
+}
+
+
+
+
+.l-push-up-sm-1 {
+  @include breakpoint(sm) {
+    margin-top: 1em;
+  }
+}
+
+.l-push-up-sm-0 {
+  @include breakpoint(sm) {
+    margin-top: 0em;
+  }
+}
+
+
+.l-push-up-sm--10 {
+  @include breakpoint(sm) {
+    margin-top: -10em;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.l-push-up-md-7 {
+  @include breakpoint(md) {
+    margin-top: 7em;
+  }
+}
+
+
+
+.l-push-up-md-5 {
+  @include breakpoint(md) {
+    margin-top: 5em;
+  }
+}
+
+
+
+.l-push-up-md-4 {
+  @include breakpoint(md) {
+    margin-top: 4em;
+  }
+}
+
+
+.l-push-up-md-3 {
+  @include breakpoint(md) {
+    margin-top: 3em;
+  }
+}
+
+
+
+
+.l-push-up-md-2 {
+  @include breakpoint(md) {
+    margin-top: 2em;
+  }
+}
+
+
+
+.l-push-up-md-0 {
+  @include breakpoint(md) {
+    margin-top: 0em;
+  }
+}
+
+
+.l-push-up-md--1 {
+  @include breakpoint(md) {
+    margin-top: -1em;
+  }
+}
+
+.l-push-up-md--2 {
+    @include breakpoint(md) {
+     margin-top: -2em;
+  }
+}
+
+.l-push-up-md--3 {
+  @include breakpoint(md) {
+    margin-top: -3em;
+  }
+}
+
+.l-push-up-md--4 {
+  @include breakpoint(md) {
+    margin-top: -4em;
+  }
+}
+
+
+
+.l-push-up-md--13 {
+  @include breakpoint(md) {
+    margin-top: -13em;
+  }
+}
+
+
+
+.l-push-up-md--14 {
+  @include breakpoint(md) {
+    margin-top: -14em;
+  }
+}
+
+
+
+.l-push-up-md--15 {
+  @include breakpoint(md) {
+    margin-top: -15em;
+  }
+}
+
+
+
+
+
+
+.l-pull-right-sm {
+  @include breakpoint(sm) {
+    float: right;
+  }
+}
+
+
+.l-pull-right-md {
+  @include breakpoint(md) {
+    float: right;
+  }
+}
+
+
+
+
+
+
+
+
+.l-xs-text-align-center {
+  text-align: center;
+}
+
+.l-sm-text-align-center {
+  @include breakpoint(sm) {
+    text-align: center;
+  }
+}
+
+
+
+.l-right-xs--1 {
+  right:-1em;
+}
+
+.l-right-sm--1 {
+  @include breakpoint(sm) {
+    right:-1em;
+  }
+}
+
+.l-right-md--1 {
+  @include breakpoint(md) {
+    right:-1em;
+  }
+}
+
+
+.l-right-md-1 {
+  @include breakpoint(md) {
+    right:0em;
+  }
+}
+
+
+
+
+
+.l-left-xs--1 {
+  left:-1em;
+}
+
+
+
+.l-left-sm--1 {
+  @include breakpoint(sm) {
+    left:-1em;
+  }
+}
+
+.l-left-md--1 {
+  @include breakpoint(md) {
+    left:-1em;
+  }
+}
+
+.l-left-md-0 {
+  @include breakpoint(md) {
+    left:0em;
+  }
+}
+
+
+.l-left-md-auto {
+  @include breakpoint(md) {
+    left: auto;
+  }
+}
+
+
+.l-z-index-1 {
+  z-index: 1;
+}
+
+.l-z-index-2 {
+  z-index: 2;
+}
+
+
+
+.l-small-align-centered {
+  text-align: center;
+}
+
+
+
+.l-v-align-container {
+  display: table;
+}
+
+.l-v-align {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+
+.l-inline {
+  display: inline;
+}
+
+
+
+
+.l-sm-100 {
+  position: relative;
+  width: 100%;
+}
+
+
+
+.l-md-50 {
+  /*
+  @include breakpoint(md) {
+    position: relative;
+    width: 50%;
+  }
+  */
+}
+
+
+.l-lg-50 {
+  @include breakpoint(lg) {
+    position: relative;
+    width: 50%;
+  }
+}
+
+.l-center {
+  margin: 0 auto;
+  display: table;
+}
+
+.l-center-1200 {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.l-center-640 {
+  max-width: 640px;
+  margin: 0 auto;
+}
+.l-center-900 {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+.l-center-1100 {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.l-padding-between-item-fill-white {
+  padding: 30px 15px;
+  background-color: #FFF;
+  position: relative;
+}
+
+.l-padding-lr-15 {
+  padding: 0 15px;
+}
+.l-padding-tb-30-lr-15 {
+  padding: 30px 15px;
+}
+.l-padding-t-15 {
+  padding-top: 15px;
+}
+
+
+.l-overflow-x-hidden {
+  overflow-x: hidden;
+}
+
+#main-header {
+	position: relative;
+	//padding: pxtoem(1px) 0;
+}
+
+#main-content {
+	position: relative;
+	padding: pxtoem(1px) 0;
+    background: #fff;
+    display: initial;
+}
+
+#main-footer {
+	position: relative;
+	padding: pxtoem(1px) 0;
+     background: $footerBackgroundColour;
+}
+

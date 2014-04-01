@@ -1,0 +1,35 @@
+// modify menu behaviour to allow for more items...
+.sg-main {
+    background-color: #fff;
+}
+
+.sg-controls .sg-nav-phases {
+    overflow: visible;
+    width: 6em;
+}
+
+.sg-nav-container,
+.sg-controls .sg-nav-phases {
+
+    .sg-acc-panel {
+        overflow: hidden;
+        max-height: 0;
+        min-width: 15em;
+        &.active {
+            max-height: 30em;
+            overflow-y: auto;
+        }
+    }
+
+    .sg-acc-panel.active > .sg-acc-panel.active {
+        overflow-y: visible;
+        height:auto;
+        max-height:none;
+    }
+
+}
+
+.sg-header ul ol ol a {
+    text-transform: none;
+    padding-left: 2em;
+}

@@ -43,7 +43,7 @@ public class ServerUtils {
 	}
 
 	public static String getLanguageCode(SlingHttpServletRequest request) {
-		Pattern p = Pattern.compile("/([a-z]{2})/.*");
+		Pattern p = Pattern.compile("/(([a-z]{2})((-)([a-z]{2}))?)/.*");
 		Matcher m = p.matcher(request.getPathInfo());
 		if (m.find()) {
 			String tempLang = m.group(1);
@@ -53,6 +53,14 @@ public class ServerUtils {
 			}
 		}
 		return "";
+	}
+
+	public static boolean isAuthor(SlingSettingsService slingSettings) {
+		return slingSettings.getRunModes().contains(AUTHOR);
+	}
+
+	public static boolean isPublisher(SlingSettingsService slingSettings) {
+		return slingSettings.getRunModes().contains(PUBLISH);
 	}
 
 }

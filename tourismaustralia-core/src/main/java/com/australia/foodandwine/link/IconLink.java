@@ -19,22 +19,11 @@ public class IconLink {
 
 	private final boolean external;
 
-	private int number;
-
-	public IconLink(int number, String icon, String alt, String link, boolean external) {
-		this.number = number;
+	public IconLink(String icon, String alt, String link, boolean external) {
 		this.icon = icon;
 		this.alt = alt;
 		this.link = link;
 		this.external = external;
-	}
-
-	public int getNumber() {
-		return number;
-	}
-
-	public void setNumber(int number) {
-		this.number = number;
 	}
 
 	public String getIcon() {

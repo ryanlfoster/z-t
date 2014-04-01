@@ -11,13 +11,9 @@ public class Item {
 	@DialogField(fieldLabel = "Caption text", required = true)
 	private final String caption;
 
-	@DialogField(fieldLabel = "Image Alt Tag")
-	private final String imageAltTag;
-
-	public Item(String imagePath, String caption, String imageAltTag) {
+	public Item(String imagePath, String caption) {
 		this.imagePath = imagePath;
 		this.caption = caption;
-		this.imageAltTag = imageAltTag;
 	}
 
 	public String getCaption() {
@@ -26,10 +22,6 @@ public class Item {
 
 	public String getImagePath() {
 		return imagePath;
-	}
-
-	public String getImageAltTag() {
-		return imageAltTag;
 	}
 
 }

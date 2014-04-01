@@ -49,10 +49,10 @@ CQ_Analytics.ClientContextMgr.addListener("storesinitialize", function (e) {
 		var socnet = obj.types.split(',');
 		for(var i = 0; i < socnet.length; i++) { 
 			var social_network = socnet[i].toLowerCase();
-			$this.append("<span id='st-btn-" + social_network + "'/>");
+			$this.append("<span class='btn-bubble-button st_" + social_network + "_large' displaytext='" + social_network + "'/>");
 			stWidget.addEntry({
 				"service": social_network,
-				"element": document.getElementById('st-btn-' + social_network),
+				"element": $('.st_' + social_network + '_large').get(1),
 				"url": url,
 				"title": title,
 				"type":"large",
@@ -62,7 +62,6 @@ CQ_Analytics.ClientContextMgr.addListener("storesinitialize", function (e) {
 			});		
 		}
 	}
-	
 	
 });
 

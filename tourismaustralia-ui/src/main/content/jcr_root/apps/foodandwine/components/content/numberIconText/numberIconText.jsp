@@ -11,7 +11,7 @@
 			<hr/>
 			<div class="form-number-square-box">
 				<div class="form-number-square-box">
-					<div class="form-number">${nit.number}</div>
+					<div class="form-number">${item.number}</div>
 				</div>
 			</div>
 		</div>	

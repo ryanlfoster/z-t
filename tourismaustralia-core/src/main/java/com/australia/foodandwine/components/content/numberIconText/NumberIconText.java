@@ -15,7 +15,6 @@ import com.citytechinc.cq.component.annotations.Component;
 import com.citytechinc.cq.component.annotations.DialogField;
 import com.citytechinc.cq.component.annotations.FieldProperty;
 import com.citytechinc.cq.component.annotations.Listener;
-import com.citytechinc.cq.component.annotations.widgets.NumberField;
 import com.citytechinc.cq.component.annotations.widgets.RichTextEditor;
 import com.citytechinc.cq.component.annotations.widgets.rte.Format;
 import com.citytechinc.cq.component.annotations.widgets.rte.Justify;
@@ -28,9 +27,6 @@ import com.citytechinc.cq.component.annotations.widgets.rte.Styles;
 	@Listener(name = "afteredit", value = "REFRESH_PAGE"), @Listener(name = "afterinsert", value = "REFRESH_PAGE") })
 public class NumberIconText {
 
-	@DialogField(fieldLabel = "Number", required = true)
-	@NumberField(allowDecimals = false, allowNegative = false)
-	private final int number;
 
 	@DialogField(fieldLabel = "Icons", additionalProperties = @FieldProperty(name = "anchor", value = "100%"))
 	@MultiCompositeField
@@ -42,7 +38,6 @@ public class NumberIconText {
 
 	public NumberIconText(SlingHttpServletRequest request) {
 		ValueMap props = request.getResource().adaptTo(ValueMap.class);
-		number = props.get("number", 1);
 		text = props.get("text", StringUtils.EMPTY);
 		Resource iconResource = request.getResource().getChild("icons");
 		if (iconResource != null) {
@@ -52,14 +47,11 @@ public class NumberIconText {
 					String icon = properties.get("icon", StringUtils.EMPTY);
 					String alt = properties.get("alt", StringUtils.EMPTY);
 					String link = properties.get("link", StringUtils.EMPTY);
-					icons.add(new IconLink(icon, alt, LinkUtils.getHrefFromPath(link), LinkUtils.isExternal(link)));
+					int lastIndexOf = icons.size() + 1;
+					icons.add(new IconLink(lastIndexOf,icon, alt, LinkUtils.getHrefFromPath(link), LinkUtils.isExternal(link)));
 				}
 			}
 		}
-	}
-
-	public int getNumber() {
-		return number;
 	}
 
 	public List<IconLink> getIcons() {

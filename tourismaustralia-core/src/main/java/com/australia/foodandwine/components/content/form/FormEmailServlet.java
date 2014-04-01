@@ -23,6 +23,8 @@ import org.apache.sling.api.servlets.SlingAllMethodsServlet;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import com.day.cq.dam.api.Asset;
+import com.day.cq.dam.api.AssetManager;
 import com.day.cq.mailer.MailService;
 
 @SlingServlet(resourceTypes = "foodandwine/components/content/form", selectors = "formemail", extensions = "json", methods = "POST")
@@ -142,6 +144,13 @@ public class FormEmailServlet extends SlingAllMethodsServlet {
 	private void imageUpload(SlingHttpServletRequest request, Node formArticleNode, Session session) throws IOException {
 
 		Map<String, RequestParameter[]> params = request.getRequestParameterMap();
+		String imageNodePath=null;
+		try{
+		imageNodePath = formArticleNode.addNode("image","sling:OrderedFolder").getPath();
+		}catch(Exception e){
+			
+			
+		}
 		for (Map.Entry<String, RequestParameter[]> pairs : params.entrySet()) {
 			key = pairs.getKey();
 			RequestParameter[] pArr = pairs.getValue();
@@ -150,25 +159,33 @@ public class FormEmailServlet extends SlingAllMethodsServlet {
 			if ((key.equalsIgnoreCase("upload-photo"))) {
 				try {
 					InputStream stream = param.getInputStream();
-					if (param.getFileName().endsWith(".jpeg")) {
-						contentType = "image/jpeg";
-					}
-					if (param.getFileName().endsWith(".png")) {
-						contentType = "image/png";
-					}
-					if (param.getFileName().endsWith(".jpg")) {
-						contentType = "image/jpg";
-					}
+					LOG.info("Stream  form servlet "+stream);
+					//contentType=param.getFileName().toString();
+					LOG.info("Contet type of form servlet "+contentType);
+//					if (param.getFileName().endsWith(".jpeg")) {
+//						contentType = "image/jpeg";
+//					}
+//					if (param.getFileName().endsWith(".png")) {
+//						contentType = "image/png";
+//					}
+//					if (param.getFileName().endsWith(".jpg")) {
+//						contentType = "image/jpg";
+//					}
 
-					ValueFactory valueFactory = session.getValueFactory();
-					contentValue = valueFactory.createBinary(stream);
-					Node fileNode = formArticleNode.addNode("file", "nt:file");
-					fileNode.addMixin("mix:referenceable");
-					Node resourceNode = fileNode.addNode("jcr:content", "nt:resource");
-					resourceNode.setProperty("jcr:mimeType", contentType);
-					resourceNode.setProperty("jcr:data", contentValue);
-					resourceNode.setProperty("cq:distribute", true);
-
+//					ValueFactory valueFactory = session.getValueFactory();
+//					contentValue = valueFactory.createBinary(stream);
+//					Node fileNode = formArticleNode.addNode("file", "nt:file");
+//					fileNode.addMixin("mix:referenceable");
+//					Node resourceNode = fileNode.addNode("jcr:content", "nt:resource");
+//					resourceNode.setProperty("jcr:mimeType", "image/png");
+//					resourceNode.setProperty("jcr:data", contentValue);
+//					resourceNode.setProperty("cq:distribute", true);
+					
+					AssetManager assetManager = request.getResourceResolver().adaptTo(AssetManager.class);
+					Asset asset = assetManager.createAsset(imageNodePath+"/imageFile", stream, "image/png", true);
+					
+					String path = asset.getOriginal().getPath();
+					LOG.info("path : : " + path);
 				} catch (Exception e) {
 					LOG.error(e.getMessage());
 				}

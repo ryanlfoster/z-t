@@ -46,12 +46,12 @@
 									    <span class="mosaic-item-overlay mosaic-item-overlay-info">
 									         <span class="mosaic-item-overlay-info-icon">
 									
-									             <span class="mosaic-item-overlay-info-head type-font-feature">${item.title }</span>
+									             <span class="mosaic-item-overlay-info-head type-font-feature">${item.title}</span>
 									              <span class="mosaic-item-overlay-info-icon-item">
-									                 <img src="${item.icon }">
+									                 <img src="${item.icon}" alt="${item.title}">
 									             </span>
 									             <span class="mosaic-item-overlay-info-desciption">
-									                 ${item.city }, ${item.state }
+									                 ${item.city}, ${item.state}
 									                 <br>
 									                 <br>
 									                  <span class="mosaic-item-description-copy-link"><strong>Find out more</strong></span>

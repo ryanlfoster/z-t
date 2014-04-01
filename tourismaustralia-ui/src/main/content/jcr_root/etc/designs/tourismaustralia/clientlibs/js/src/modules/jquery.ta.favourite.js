@@ -43,8 +43,7 @@
     // item selected
     Plugin.prototype.favouriteBtnClicked = function (scope, e) {
         e.preventDefault();
-        var $el = $(e.currentTarget),
-            currentPagePath = window.location.pathname;
+        var currentPagePath = window.location.pathname;
         //console.log(currentPagePath);
         $.ajax({
             type:"POST",

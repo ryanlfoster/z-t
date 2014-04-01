@@ -53,7 +53,7 @@
 								<li><a href="${link.pagePath}" class="btn-share"
 									target="${link.external ? '_BLANK' : '_self'}"><span>
 											<c:if test="${not empty link.iconImage}">
-												<img src="${link.iconImage}" alt="" />
+												<img src="${link.iconImage}" alt="${link.linkText}" />
 											</c:if>${link.linkText}</span></a></li>
 							</c:forEach>
 						</ul>

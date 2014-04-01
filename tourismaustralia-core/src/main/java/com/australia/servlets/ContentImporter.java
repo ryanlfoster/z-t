@@ -20,13 +20,22 @@ import org.apache.sling.api.servlets.SlingAllMethodsServlet;
 
 import javax.servlet.ServletException;
 import java.io.*;
-import java.util.ArrayList;
-import java.util.Hashtable;
-import java.util.Map;
+import java.util.*;
 
 /**
  * Created by Viren Pushpanayagam on 27/03/2014.
  */
+
+/**
+ * Paths to be created before you can call this servlet
+ * /content/australia/places
+ * /content/australia/articles
+ * /content/australia/facts
+ * /content/australia/facts/australias-seasons
+ * /content/australia/planning
+ *
+  */
+
 
 @SlingServlet(methods = {"POST"}, paths = "/apps/ta/servlets/ContentImporter")
 
@@ -54,10 +63,10 @@ public class ContentImporter extends SlingAllMethodsServlet {
         ResourceResolver resourceResolver = null;
 
         // Add templates and builders
-        templates.put("states",new StateCityBuilder());
-        templates.put("cities",new StateCityBuilder());
-        templates.put("articles", new ArticleBuilder());
-        templates.put("icons", new IconBuilder());
+        templates.put("state",new StateCityBuilder());
+        templates.put("city",new StateCityBuilder());
+        templates.put("article", new ArticleBuilder());
+        templates.put("icon", new IconBuilder());
 
         try {
             resourceResolver= resourceResolverFactory.getAdministrativeResourceResolver(null);
@@ -68,10 +77,23 @@ public class ContentImporter extends SlingAllMethodsServlet {
 
         PageBuilder pageBuilder;
 
-        MappingVO[] mappingVO = getMappings();
+        ArrayList<MappingVO> mappingVO = getMappings();
+
+        Collections.sort(mappingVO,
+                new Comparator<MappingVO>() {
+                    public int compare(MappingVO obj1, MappingVO obj2) {
+                        return obj1.getNewPath().compareTo(obj2.getNewPath());
+                    }
+                }
+        );
+
         for(MappingVO map: mappingVO){
 
             pageBuilder = templates.get(map.getTemplate());
+
+            if(pageBuilder == null){
+                continue;
+            }
 
             try {
                 pageBuilder.createPage(map.getOldPath(), map.getNewPath(),
@@ -87,7 +109,7 @@ public class ContentImporter extends SlingAllMethodsServlet {
         System.out.println("Importing Finished *************************");
     }
 
-    private MappingVO[] getMappings(){
+    private ArrayList<MappingVO> getMappings(){
 
         InputStream file = this.getClass().getClassLoader().getResourceAsStream("prod-content/mapping.csv");
         BufferedReader br = null;
@@ -101,9 +123,9 @@ public class ContentImporter extends SlingAllMethodsServlet {
                 MappingVO mappingVO = new MappingVO();
                 // use comma as separator
                 String[] items = line.split(cvsSplitBy);
-                mappingVO.setOldPath(items[0]);
+                mappingVO.setOldPath(items[2]);
                 mappingVO.setNewPath(items[1]);
-                mappingVO.setTemplate(items[2]);
+                mappingVO.setTemplate(items[0]);
 
                 mappingsList.add(mappingVO);
             }
@@ -121,7 +143,7 @@ public class ContentImporter extends SlingAllMethodsServlet {
                 }
             }
         }
-        return mappingsList.toArray(new MappingVO[mappingsList.size()]);
+        return mappingsList;
 
     }
 }

@@ -27,6 +27,6 @@ public class MappingVO {
     }
 
     public void setTemplate(String template) {
-        this.template = template;
+        this.template = template.toLowerCase();
     }
 }

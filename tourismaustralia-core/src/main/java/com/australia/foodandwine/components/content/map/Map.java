@@ -45,6 +45,9 @@ public class Map {
 	@DialogField(fieldLabel = "Website")
 	private String website;
 
+	@DialogField(fieldLabel = "Image Alt Tag", fieldDescription = "Image Alt Tag for map image", required = true)
+	private String imageAltTag;
+
 	private String googleMapUrl;
 
 	public Map(SlingHttpServletRequest request) {
@@ -60,6 +63,7 @@ public class Map {
 			state = properties.get("state", StringUtils.EMPTY);
 			postcode = properties.get("postcode", StringUtils.EMPTY);
 			website = properties.get("website", StringUtils.EMPTY);
+			imageAltTag = properties.get("imageAltTag", StringUtils.EMPTY);
 		} else {
 			address1 = "";
 			suburb = "";
@@ -126,6 +130,10 @@ public class Map {
 
 	public String getPostcode() {
 		return postcode;
+	}
+
+	public String getImageAltTag() {
+		return imageAltTag;
 	}
 
 }

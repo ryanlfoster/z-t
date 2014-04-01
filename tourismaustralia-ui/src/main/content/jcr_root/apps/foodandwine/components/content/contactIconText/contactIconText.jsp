@@ -6,7 +6,7 @@
 
 <div class="l-center">
 		<p class="type-spacing-30">
-			<span class="form-contact-icon"><img src="${cit.icon}" alt="${item.title}"></span>
+			<span class="form-contact-icon"><img src="${cit.icon}" alt="${cit.title}"></span>
 			<br>
 			<strong>${cit.title}</strong>
 			<br>${cit.text}

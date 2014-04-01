@@ -19,7 +19,7 @@ import com.citytechinc.cq.component.annotations.Listener;
 	@Listener(name = "afteredit", value = "REFRESH_PAGE"), @Listener(name = "afterinsert", value = "REFRESH_PAGE") })
 public class LinksList {
 
-	@DialogField(fieldLabel = "Links", additionalProperties = @FieldProperty(name = "anchor", value = "100%"))
+	@DialogField(fieldLabel = "Links", additionalProperties = @FieldProperty(name = "anchor", value = "100%"), fieldDescription = "For external links please use prefix http:// or https:// (eg. http://www.google.com)")
 	@MultiCompositeField
 	private final List<AnchorLink> links;
 

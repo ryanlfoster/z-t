@@ -18,7 +18,7 @@ import com.citytechinc.cq.component.annotations.FieldProperty;
 import com.citytechinc.cq.component.annotations.Listener;
 import com.citytechinc.cq.component.annotations.widgets.PathField;
 
-@Component(group = ".hidden", basePath = "jcr_root/apps/foodandwine/components", actions = { "text:Header", "-", "Edit" }, disableTargeting = true, value = "Header", dialogWidth = 700, listeners = {
+@Component(group = ".hidden", basePath = "jcr_root/apps/foodandwine/components", actions = { "text:Header", "-", "Edit" }, disableTargeting = true, value = "Header", dialogHeight = 400, dialogWidth = 700, listeners = {
 	@Listener(name = "aftercopy", value = "REFRESH_PAGE"), @Listener(name = "afterdelete", value = "REFRESH_PAGE"),
 	@Listener(name = "afteredit", value = "REFRESH_PAGE"), @Listener(name = "afterinsert", value = "REFRESH_PAGE") })
 public class Header {
@@ -26,35 +26,29 @@ public class Header {
 	@PathField(rootPath = "/content/dam", rootTitle = "Assets")
 	private String imagePath;
 
+	@DialogField(fieldLabel = "Logo Image Alt", required = true)
+	private String imageAltTag;
+
 	@DialogField(fieldLabel = "Header Text and Links", fieldDescription = "Only top 2 fields will be selected ", additionalProperties = @FieldProperty(name = "width", value = "400"))
 	@MultiCompositeField
 	private List<TextLink> headerDataList;
 
-	/**
-	 * Constants
-	 */
 	private static final String HEADERDATALIST = "headerDataList";
 	private static final String IMAGEPATH = "imagePath";
+	private static final String IMAGE_ALTTAG = "imageAltTag";
 	private static final String HEADERLINKPATH = "pagePath";
 	private static final String HEADERLINKTEXT = "linkText";
 
-	/**
-	 * 
-	 * @param request
-	 */
-
 	public Header(SlingHttpServletRequest request) {
-
 		String headerPath = PathUtils.FOOD_AND_WINE_ROOT_PATH + "/jcr:content/header";
 		Resource headerResource = request.getResourceResolver().getResource(headerPath);
 		if (headerResource != null) {
 			ValueMap properties = headerResource.adaptTo(ValueMap.class);
 			imagePath = properties.get(IMAGEPATH, StringUtils.EMPTY);
+			imageAltTag = properties.get(IMAGE_ALTTAG, StringUtils.EMPTY);
 			headerDataList = new ArrayList<TextLink>();
 			headerData(headerDataList, headerResource, HEADERDATALIST);
-
 		}
-
 	}
 
 	private void headerData(List<TextLink> headerDataList, Resource headerResource, String headrString) {
@@ -72,13 +66,8 @@ public class Header {
 					headerDataList.add(headerBean);
 			}
 		}
-
 	}
 
-	/**
-	 * 
-	 * @return
-	 */
 	public String getImagePath() {
 		return imagePath;
 	}
@@ -89,6 +78,10 @@ public class Header {
 
 	public List<TextLink> getHeaderDataList() {
 		return headerDataList;
+	}
+
+	public String getImageAltTag() {
+		return imageAltTag;
 	}
 
 }

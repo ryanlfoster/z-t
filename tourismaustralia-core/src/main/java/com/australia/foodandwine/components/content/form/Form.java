@@ -48,9 +48,6 @@ public class Form {
 
 	private final String formPath;
 
-	/**
-	 * Constants
-	 */
 	private final static String EMAIL_SUBJECT = "emailSubject";
 	private final static String EMAIL_BODY = "emailBody";
 	private final static String EMAIL_IDS_LIST = "emailIdsList";
@@ -68,42 +65,22 @@ public class Form {
 		termsLink = properties.get("termsLink", StringUtils.EMPTY);
 	}
 
-	/**
-	 * 
-	 * @return
-	 */
 	public String getRedirectUrl() {
 		return redirectUrl;
 	}
 
-	/**
-	 * 
-	 * @return
-	 */
 	public List<String> getEmailIdsList() {
 		return emailIdsList;
 	}
 
-	/**
-	 * 
-	 * @return
-	 */
 	public String getEmailSubject() {
 		return emailSubject;
 	}
 
-	/**
-	 * 
-	 * @return
-	 */
 	public String getEmailBody() {
 		return emailBody;
 	}
 
-	/**
-	 * 
-	 * @return
-	 */
 	public String getZenDeskEmail() {
 		return zenDeskEmail;
 	}

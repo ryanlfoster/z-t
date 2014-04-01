@@ -26,9 +26,19 @@ import com.citytechinc.cq.component.annotations.widgets.PathField;
 	@Listener(name = "aftercopy", value = "REFRESH_PAGE"), @Listener(name = "afterdelete", value = "REFRESH_PAGE"),
 	@Listener(name = "afteredit", value = "REFRESH_PAGE"), @Listener(name = "afterinsert", value = "REFRESH_PAGE") })
 public class Footer {
+	@DialogField(fieldLabel = "Top Image Path", tab = 1)
+	@PathField(rootPath = "/content/dam", rootTitle = "Assets")
+	private String imageTopLogoPath;
+
+	@DialogField(fieldLabel = "Top Image Alt", tab = 1)
+	private String imageTopAltTag;
+
 	@DialogField(fieldLabel = "Bottom Image Path", tab = 1)
 	@PathField(rootPath = "/content/dam", rootTitle = "Assets")
 	private String imageBottomLogoPath;
+
+	@DialogField(fieldLabel = "Bottom Image Alt", tab = 1)
+	private String imageBottomAltTag;
 
 	@DialogField(fieldLabel = "URL Title", tab = 1, required = false)
 	private String urlTitle;
@@ -67,7 +77,10 @@ public class Footer {
 		Resource footerResource = request.getResourceResolver().getResource(footerPath);
 		if (footerResource != null) {
 			ValueMap properties = footerResource.adaptTo(ValueMap.class);
+			imageTopLogoPath = properties.get("imageTopLogoPath", "");
+			imageTopAltTag = properties.get("imageTopAltTag", "");
 			imageBottomLogoPath = properties.get("imageBottomLogoPath", "");
+			imageBottomAltTag = properties.get("imageBottomAltTag", "");
 			urlTitle = properties.get("urlTitle", "restaurantAUS.COM");
 			byline = properties.get("byline", "proudly brought to you by Tourism Australia");
 			headingLeft = properties.get("headingLeft", "");
@@ -163,6 +176,18 @@ public class Footer {
 
 	public List<IconTextLink> getLinksRight() {
 		return linksRight;
+	}
+
+	public String getImageTopAltTag() {
+		return imageTopAltTag;
+	}
+
+	public String getImageBottomAltTag() {
+		return imageBottomAltTag;
+	}
+
+	public String getImageTopLogoPath() {
+		return imageTopLogoPath;
 	}
 
 }

@@ -39,6 +39,7 @@ public class SponsorsSpace {
 	private static final String SPONSORS_BIG_TITLE = "bigTitle";
 	private static final String SPONSORS_IMAGE_PATH = "imagePath";
 	private static final String SPONSORS_IMAGE_TITLE = "imageTitle";
+	private static final String SPONSORS_IMAGE_ALTTAG = "imageAltTag";
 	private static final String SPONSORS_LINK_TEXT = "linkText";
 	private static final String SPONSORS_LINK_TEXT_PATH = "linkTextPath";
 
@@ -59,10 +60,11 @@ public class SponsorsSpace {
 			String bigTitle = linkProps.get(SPONSORS_BIG_TITLE, StringUtils.EMPTY);
 			String imagePath = linkProps.get(SPONSORS_IMAGE_PATH, StringUtils.EMPTY);
 			String imageTitle = linkProps.get(SPONSORS_IMAGE_TITLE, StringUtils.EMPTY);
+			String imageAltTag = linkProps.get(SPONSORS_IMAGE_ALTTAG, StringUtils.EMPTY);
 			String linkText = linkProps.get(SPONSORS_LINK_TEXT, StringUtils.EMPTY);
 			String linkTextPath = LinkUtils.getHrefFromPath(linkProps.get(SPONSORS_LINK_TEXT_PATH, StringUtils.EMPTY));
 			SponsorsSpaceProperties sponsorsSpaceProperties = new SponsorsSpaceProperties(bigTitle, imagePath,
-				imageTitle, linkText, linkTextPath);
+				imageTitle, linkText, linkTextPath, imageAltTag);
 			return sponsorsSpaceProperties;
 		}
 		return null;

@@ -6,7 +6,7 @@
 
 <div class="l-center">
 	<div class="custommap">
-	    <img src="${map.googleMapUrl}" />
+	    <img src="${map.googleMapUrl}" alt="${map.imageAltTag}" />
 	    <div class="custommap-description">
 			<p class="custommap-description-head"><strong>Phone</strong></p>
 			<p>${map.phone}</p>

@@ -1,0 +1,1 @@
+### To display columns in vertical rows we are using csscloumns which is only supported by modern browsers. IE8 and IE9 will use horizontal floats to display data for the maps.

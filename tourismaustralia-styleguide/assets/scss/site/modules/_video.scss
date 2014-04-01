@@ -1,0 +1,67 @@
+.video {
+  position: relative;
+
+  max-width: pxtoem(730px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.video-ui {
+  position: absolute;
+  width: 100%;
+}
+
+.video-ui-btn {
+  position: absolute;
+  top:50%;
+  left:50%;
+  margin-top: -2.1625em;
+  margin-left: -2.3em;
+  display: block;
+  color:#fff;
+  font-family: "TAheadline";
+  font-size: 1.475em;
+
+
+  @include breakpoint(sm) {
+    font-size: pxtoem(30px);
+  }
+
+}
+
+
+/*
+.video-ui-btn:hover, .video-ui-btn:focus {
+   .icon-circle {
+      background: #fff;
+   }
+  .icon-dash {
+    background: #000;
+  }
+  .icon-play {
+    color:#000;
+  }
+}
+*/
+
+
+.video-ui-btn-left, .video-ui-btn-right  {
+  position: absolute;
+  top: 50%;
+  margin-top: -0.6em;
+}
+
+.video-ui-btn-right {
+  right:-1.9em;
+}
+.video-ui-btn-left {
+  left: -1.9em;
+}
+
+.video-image {
+  
+}
+
+.video-media {
+  
+}

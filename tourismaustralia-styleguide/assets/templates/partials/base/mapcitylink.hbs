@@ -1,0 +1,15 @@
+---
+title: Map City Link
+---
+
+<div class="map-main">
+    <img class="map-main-image" src="imgs/placeholders/{{map_image}}.png" alt="Map">
+    <div class="map-main-link">
+        <div class="map-main-title">{{map_main_title}}</div>
+        {{#if map_pin_has_link}}
+            <span class="map-main-pin icon-font-mappin"></span><a href="#" class="map-pin-btn">{{map_pin_button}}</a>
+        {{else}}
+            <span class="map-main-pin icon-font-mappin"></span><span class="map-pin-btn">{{map_pin_button}}</span>
+        {{/if}}
+    </div>
+</div>

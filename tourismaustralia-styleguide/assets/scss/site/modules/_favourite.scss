@@ -1,0 +1,51 @@
+
+.favourite {
+    min-width: pxtoem(280px);
+    background-color: #de3831;
+    border-bottom: 6px solid #981e32;
+    padding: 1.4em 0.7em;
+    display: inline-block;
+}
+
+.favourite-text {
+    @include type_TAheadline();
+    font-size: pxtoem(24px);
+    color: #FFF;
+    position: relative;
+    margin-left: 64px;
+    display: inline-block;
+}
+
+.favourite-icon {
+    @include circle_standard(1.5em, 13px, #FFF);
+
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    margin-top: -24px;
+}
+
+.favourite-btn {
+  text-decoration: none;
+  position: relative;
+  &:hover, &:focus {
+    .icon-font-favourite-heart-outline {
+        background: #FFF;
+        color: #de3831;
+    }
+    .icon-font-favourite-heart-outline:before {
+        content: "\e602";
+    }
+    text-decoration: none;
+    .btn-bubble-std {
+      display: none;
+    }
+    .btn-bubble-active {
+      display: inline-block;
+    }
+  }
+  .btn-bubble {
+    position: absolute;
+    top: 10px;
+  }
+}

@@ -4,10 +4,10 @@
 <c:set var="tagCloud" value="<%=new TagCloud(slingRequest)%>"/>
 
 <div class="tagcloud">
-<span class="tagcloud-explore-by">Explore by type</span>
-<ul>
-<c:forEach items="${tagCloud.tags}" var="tag">
-		<li><a href="${tag.href}">${tag.title}</a></li>
-</c:forEach>
-</ul>
+	<span class="tagcloud-explore-by">Explore by type</span>
+	<ul>
+		<c:forEach items="${tagCloud.tags}" var="tag">
+			<li><span class="btn-tag-item"><a href="${tag.href}">${tag.title}</a></span></li>
+		</c:forEach>
+	</ul>
 </div>

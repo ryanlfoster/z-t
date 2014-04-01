@@ -1,5 +1,7 @@
 package com.australia.servlets;
 
+import com.australia.cqimport.service.ArticleBuilder;
+import com.australia.cqimport.service.IconBuilder;
 import com.australia.cqimport.service.PageBuilder;
 import com.australia.cqimport.service.StateCityBuilder;
 import com.australia.cqimport.vo.MappingVO;
@@ -54,6 +56,8 @@ public class ContentImporter extends SlingAllMethodsServlet {
         // Add templates and builders
         templates.put("states",new StateCityBuilder());
         templates.put("cities",new StateCityBuilder());
+        templates.put("articles", new ArticleBuilder());
+        templates.put("icons", new IconBuilder());
 
         try {
             resourceResolver= resourceResolverFactory.getAdministrativeResourceResolver(null);

@@ -1,0 +1,19 @@
+///*
+// * Main site header and navigation:
+// * ---------------------------------------------------------------------------------------------------------------- */
+$header-colour-bg: $category-colour-islands;
+$header-colour-bg-dark: rgba(0, 83, 94, 0.9);
+
+$header-height: pxtoem(91px);
+
+.header-container {
+
+    height: $header-height;
+    background-color: $header-colour-bg;
+
+    .navbar-brand {
+        float: left;
+        padding: pxtoem(12px) pxtoem(10px);
+    }
+
+}

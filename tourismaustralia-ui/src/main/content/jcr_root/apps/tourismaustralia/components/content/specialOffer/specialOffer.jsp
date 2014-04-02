@@ -35,13 +35,13 @@
                         </c:if>
                     </div>
                     </c:if>
-                    <c:if test="${not empty specialOffer.price || not empty specialOffer.pricePerText}">
+                    <c:if test="${not empty specialOffer.viewMoreInformationLink || not empty specialOffer.viewTermsAndConditionLink}">
                     <div class="specialoffer-links">
                         <c:if test="${not empty specialOffer.viewMoreInformationLink}">
-                        <a href="#">View More Information</a>
+                        <a href="${specialOffer.viewMoreInformationLink}">View More Information</a>
                         </c:if>
-                        <c:if test="${not empty specialOffer.viewMoreInformationLink}">
-                        <a href="#">View Terms and condition</a>
+                        <c:if test="${not empty specialOffer.viewTermsAndConditionLink}">
+                        <a href="${specialOffer.viewTermsAndConditionLink}">View Terms and condition</a>
                         </c:if>
                     </div>
                     </c:if>

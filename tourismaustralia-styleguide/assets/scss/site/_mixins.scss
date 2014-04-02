@@ -1,6 +1,14 @@
 ///*
 // * Project Mixins:
 // * ---------------------------------------------------------------------------------------------------------------- */
+@mixin vis-focusable() {
+    position: static;
+    clip: auto;
+    width: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+}
 
 /*! Circle */
 @mixin circle($w:100px, $h:100px, $bg: #000) {

@@ -35,3 +35,30 @@
     margin-left: pxtoem(16px);
   }
 }
+
+.line-through-container.line-categorylink-theme {
+  width: 100%;
+}
+
+// Category Links Colour for biline
+.line-through-container.line-categorylink-theme {
+  position: relative;
+  margin-bottom: 2em;
+}
+.line-categorylink-theme .line-through-container-biline {
+  color: $type-main-heading-colour;
+  padding: 0 1em;
+  background: #FFF;
+  z-index: 2;
+  position: relative;
+  display: inline-block;
+}
+.line-through-categorylink-theme {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 50%;
+  width: 100%;
+  border-bottom: 1px solid $type-main-heading-colour;;
+  z-index: 1;
+}

@@ -10,12 +10,24 @@
                     "text": "Working Components",
                     "item": [
                         { "text": "videoitem" },
+                        { "text": "page_image_with_date" },
+                        { "text": "page_image_with_quote" },
+                        { "text": "page_image_with_button" },
+                        { "text": "page_image_with_button_social" },
+                        { "text": "image_copyright" },
                         { "text": "paragraph_standard" },
                         { "text": "socialimage" },
                         { "text": "byline" },
                         { "text": "paragraph_dynamic" },
                         { "text": "fullsizevideo" },
-                        { "text": "textlargevideo" }
+                        { "text": "textlargevideo" },
+                        { "text": "whatyoucansee_nobuttons" },
+                        { "text": "mosaic_highlights_grid_1" },
+                        { "text": "mosaic_highlights_grid_4" },
+                        { "text": "mosaic_highlights_grid_4_1" },
+                        { "text": "mosaic_whatscomingup_grid_1" },
+                        { "text": "mosaic_whatscomingup_grid_4" },
+                        { "text": "linethroughtextfullhr" }
                     ]
                 },
                 {
@@ -103,7 +115,8 @@
                         { "text": "mosaic_whatscomingup" },
                         { "text": "text2columnvideo" },
                         { "text": "carousel_standard" },
-                        { "text": "carousel_mobile" }
+                        { "text": "carousel_mobile" },
+                        { "text": "twoimage_item" }
                     ]
                 }
             ]

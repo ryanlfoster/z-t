@@ -17,7 +17,7 @@ import com.day.cq.wcm.api.Page;
 import com.day.cq.wcm.api.PageManager;
 
 
-@Component(value = "Tag Cloud")
+@Component(disableTargeting = true, value = "Tag Cloud")
 public class TagCloud {
 
 	private static final Logger LOG = LoggerFactory.getLogger(TagCloud.class);

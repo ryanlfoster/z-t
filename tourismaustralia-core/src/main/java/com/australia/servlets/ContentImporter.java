@@ -88,7 +88,7 @@ public class ContentImporter extends SlingAllMethodsServlet {
         );
 
         for(MappingVO map: mappingVO){
-
+            //System.out.println(map.getNewPath());
             pageBuilder = templates.get(map.getTemplate());
 
             if(pageBuilder == null){
@@ -107,13 +107,14 @@ public class ContentImporter extends SlingAllMethodsServlet {
 
 
         System.out.println("Importing Finished *************************");
+
     }
 
     private ArrayList<MappingVO> getMappings(){
 
         InputStream file = this.getClass().getClassLoader().getResourceAsStream("prod-content/mapping.csv");
         BufferedReader br = null;
-        String line = "";
+        String line;
         String cvsSplitBy = ",";
         ArrayList<MappingVO> mappingsList = new ArrayList<MappingVO>();
         try {

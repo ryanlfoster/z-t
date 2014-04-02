@@ -8,6 +8,7 @@ import com.day.cq.wcm.api.WCMException;
 import org.apache.sling.api.resource.PersistenceException;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ResourceResolver;
+import org.apache.sling.jcr.resource.JcrResourceConstants;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -45,7 +46,7 @@ public class StateCityBuilder extends PageBuilder {
             Map params = new HashMap<String,String>();
             params.put("title",cbf.getHdlTitle());
             params.put("image",cbf.getImgBackground());
-            params.put("sling:resourceType","tourismaustralia/components/content/hero");
+            params.put(JcrResourceConstants.SLING_RESOURCE_TYPE_PROPERTY,"tourismaustralia/components/content/hero");
 
             resourceResolver.create(jcrContentResource, "hero", params);
             resourceResolver.commit();
@@ -62,7 +63,7 @@ public class StateCityBuilder extends PageBuilder {
 
             Map params = new HashMap<String,String>();
             params.put("text",cbf.getStfDescription());
-            params.put("sling:resourceType","tourismaustralia/components/content/summery");
+            params.put(JcrResourceConstants.SLING_RESOURCE_TYPE_PROPERTY,"tourismaustralia/components/content/summery");
 
             resourceResolver.create(jcrContentResource, "summery", params);
             resourceResolver.commit();

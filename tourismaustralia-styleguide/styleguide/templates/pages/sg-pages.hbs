@@ -1,0 +1,38 @@
+{
+    "index": {
+         "data" : {
+            "title" : "Styleguide",
+            "layout" : "styleguide.hbs"
+        },
+        "content" : ""
+    },
+    "all": {
+        "data" : {
+            "title" : "All",
+            "layout" : "styleguide-preview.hbs"
+        },
+        "content" : "{{allPartials}}"
+    }
+    {{#each sg-navigation.navigation}}
+        {{#each this.category}}
+            {{#each this.item}}
+                "{{toLowerCase this.text}}" : {
+                     "data" : {
+                        "title" : "{{toLowerCase this.text}}",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{escape this.text}}"
+                }
+                {{#unless @last}}
+                    ,
+                {{/unless}}
+            {{/each}}
+            {{#unless @last}}
+                ,
+            {{/unless}}
+        {{/each}}
+        {{#unless @last}}
+            ,
+        {{/unless}}
+    {{/each}}
+}

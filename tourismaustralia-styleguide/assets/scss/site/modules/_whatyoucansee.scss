@@ -1,0 +1,9 @@
+///*
+// * What you can see:
+// * ---------------------------------------------------------------------------------------------------------------- */
+.whatyoucansee-container {
+    @include breakpoint(lg) {
+        padding-top: pxtoem(45px);
+        padding-bottom: pxtoem(55px);
+    }
+}

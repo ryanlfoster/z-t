@@ -164,6 +164,10 @@
 			<artifactId>cq-component-annotations</artifactId>
 		</dependency>
 		<dependency>
+			<groupId>com.day.commons</groupId>
+			<artifactId>day-commons-gfx</artifactId>
+		</dependency>
+		<dependency>
 			<groupId>com.brightcove.proserve.mediaapi</groupId>
 			<artifactId>wrapper</artifactId>
 		</dependency>

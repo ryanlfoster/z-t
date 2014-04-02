@@ -1,0 +1,18 @@
+.social {
+
+}
+
+.social-list {
+  @extend .l-list-clean;
+  @extend .l-list-inline;
+
+  & > li {
+    margin-right: 1em;
+  }
+
+  & > li:last-child {
+    margin-right: 0;
+  }
+}
+
+

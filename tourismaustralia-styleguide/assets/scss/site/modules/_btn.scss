@@ -1,0 +1,338 @@
+.btn {
+  font-family: $font-family-primary;
+}
+
+.btn-success {
+  border-bottom:pxtoem(3px) solid #a63626;
+}
+.btn-success {
+  &:hover, &:focus {
+    background: #bd3e2d;
+    border-bottom-color: #7c291d;
+  }
+}
+
+a {
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.btn-primary {
+  padding: pxtoem(7px) pxtoem(20px);
+  @include type_TAheadline();
+  font-size: pxtoem(24px);
+  display: inline-block;
+  color: #00535e;
+  border: 1px solid #00535e;
+  background: #FFF;
+  text-decoration: none;
+  //position: relative;
+  //top: -48px;
+  &:visited, &:link, &:visited, &:active, &:focus  {
+    color: #00535e;
+    border: 1px solid #00535e;
+    background: #FFF;
+    text-decoration: none;
+  }
+  &:hover {
+    color: #00535e;
+    color: #FFF;
+    background: #00535e;
+    text-decoration: none;
+  }
+
+
+}
+
+.btn-primary.alt {
+  color: #FFF;
+  background: #00535e;
+  border: 1px solid #FFF;
+  &:hover, &:focus {
+    color: #00535e;
+    background: #FFF;
+    border: 1px solid #00535e;
+  }
+}
+.btn-primary.disabled {
+  color: #FFF;
+}
+
+
+
+
+
+.btn-default {
+  border-bottom:pxtoem(3px) solid #528a97;
+}
+.btn-default {
+  &:hover, &:focus {
+    background: #4792a4;
+    border-bottom-color: #397583;
+  }
+}
+
+
+/*
+.btn-info {
+  font-family: "ProximaNova RegularIt";
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 17px;
+  padding-right: 17px;
+}
+
+.btn-info {
+  &:hover, &:focus {
+    background: #efc031;
+  }
+}
+*/
+
+.btn-tag-item {
+  padding: pxtoem(10px) pxtoem(20px);
+  border: 1px solid #e6e8e2;
+  font-family: "ProximaNova Regular", Helvetica, Arial, sans-serif;
+  font-size: pxtoem(14px);
+  color: #231f20;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.btn-tag-item {
+    &:hover, &:focus {
+        background: #efc032;
+        border: 1px solid #efc032;
+        text-decoration: none;
+    }
+}
+
+.btn-round-video {
+  text-align: center;
+  display: inline-block;
+  padding: .45em;
+  border: 1px solid #FFF;
+  width: 50px;
+  height: 48px;
+  padding-top: 13px;
+  padding-left: 5px;
+  @include border-radius(100%);
+  color: #FFF;
+  font-size: 1.5em !important;
+}
+
+
+.btn-category {
+  text-decoration: none;
+  text-align: center;
+  color: #00535e;
+  display: inline-block;
+  min-width: 120px;
+  margin-bottom: 1em;
+  @include breakpoint(sm){
+    margin-bottom: 0;
+  }
+  &:hover, &:focus {
+    text-decoration: none;
+    .btn-icon {
+      background: #00535e;
+      color: #FFF;
+    }
+  }
+  .btn-icon {
+    @include circle_standard(2em, 6px, #00535e);
+  }
+  .type-below-btn {
+    margin-top: 5px;
+    display: block;
+      color: $type-base-black;
+  }
+}
+.btn-category-extra-space {
+  min-width: 240px !important;
+}
+
+.btn-category.is-active {
+  .btn-icon {
+    background: #00535e;
+    color: #FFF;
+  }
+  .type-below-btn {
+    font-family: "ProximaNova Bold", Helvetica, Arial, sans-serif;
+    font-weight:bold;
+  }
+}
+
+
+///////////////////////
+// SHARE
+///////////////////////
+.btn-share {
+  display: inline-block;
+  line-height: 1em;
+  font-size: pxtoem(30px);
+  text-decoration: none;
+  text-align: center;
+  color: #70c3f3;
+  margin-bottom: 0.7em;
+  margin-left: -0.3em;
+  margin-right: 0.5em;
+
+  img{
+    opacity: 0.8;
+    margin: 0;
+    padding: 0;
+    margin-right: 0.5em;
+    padding-bottom: 0.2em;
+  }
+}
+.btn-share:hover { //, .btn-share:focus
+  text-decoration: none;
+  color: #FFF;
+  span {
+    color: #FFF;
+  }
+
+  img{
+    opacity: 1;
+  }
+}
+.btn-share span{
+  padding-left: pxtoem(10px);
+  font-family: $font-family-base;
+  font-size: 14px;
+  position: relative;
+  bottom: 4px;
+  color: #70c3f3;
+}
+
+///////////////////////
+// SPEECH BUBBLE BUTTON
+///////////////////////
+.btn-bubble-min-width {
+  min-width: 120px;
+}
+.btn-bubble {
+  display: inline-block;
+  width: auto;
+  margin: 0 auto;
+  text-decoration: none;
+  text-align: center;
+
+  img{ margin:0 auto;}
+  
+  .btn-bubble-tooltip {
+    //visibility: hidden;
+    display: none;
+  }
+
+  .btn-bubble-std {
+    display: inline-block;
+  }
+  .btn-bubble-active {
+    display: none;
+  }
+
+  &:hover, &:focus {
+    text-decoration: none;
+    .btn-bubble-tooltip {
+      //visibility: visible;
+      display: block;
+    }
+    .btn-bubble-std {
+      display: none;
+    }
+    .btn-bubble-active {
+      display: inline-block;
+    }
+  }
+
+  .type-below-btn {
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    display: block;
+    color: $type-base-black;
+    text-decoration: none;
+  }
+
+  span{text-decoration: none;}
+
+  &.is-active{
+    .type-below-btn {
+      display: block;
+      text-align: center;
+      text-decoration: none;
+      font-family: "ProximaNova Bold", Helvetica, Arial, sans-serif;
+      font-weight:bold;
+    }
+  }
+
+}
+.btn-bubble.is-active {
+  text-decoration: none;
+  .btn-bubble-std {
+    display: none;
+  }
+  .btn-bubble-active {
+    display: inline-block;
+  }
+}
+.btn-bubble-tooltip-container{
+  position: relative;
+  padding: .6em 1.4em;
+  margin: 0 auto;
+  box-shadow: 1px 1px 1px rgba(0,0,0,.5);
+  color: #FFF;
+  background: #004165;
+  border-color: #004165;
+  display: inline-block;
+  @include border-radius(4px);
+
+  &:after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 48%;
+    border-top: 7px solid blue;
+    border-top-color: inherit;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+  }
+}
+.btn-bubble-tooltip {
+  position: absolute;
+  padding: 0.5em;
+  display: block;
+  margin-top: -3.4em;
+  width: 30em;
+  margin-left: -13.5em;
+}
+.btn-bubble-button {
+  display: block;
+  position: relative;
+  min-height: 3em;
+
+    cursor: pointer;
+
+    // undo sharethis defaults
+    .stButton {
+        margin: 0!important;
+        font-size: 1px;
+        line-height: 1px;
+        span {
+            display:none;
+        }
+    }
+
+}
+
+.btn-bubble.bubble-colour-favourite {
+  .btn-bubble-tooltip-container {
+    color: #FFF;
+    background: $favourite-button-colour;
+    border-color: $favourite-button-colour;
+  }
+}
+
+///////////////////////

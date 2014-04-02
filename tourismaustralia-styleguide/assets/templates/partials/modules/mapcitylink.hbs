@@ -1,0 +1,15 @@
+---
+title: Image Map w/ City Link
+---
+
+<div class="map-main">
+    <img class="map-main-image" src="imgs/placeholders/{{#if map_image}}{{map_image}}{{else}}intro-map-australia-nsw{{/if}}.png" alt="Map">
+    <div class="map-main-link">
+        <div class="map-main-title">{{#if map_main_title}}{{map_main_title}}{{else}}Capital of New South Wales{{/if}}</div>
+        {{#if map_pin_has_link}}
+            <span class="map-main-pin icon-font-mappin"></span><a href="#" class="map-pin-btn">{{#if map_pin_button}}{{map_pin_button}}{{else}}Sydney{{/if}}</a>
+        {{else}}
+            <span class="map-main-pin icon-font-mappin"></span><span class="map-pin-btn">{{#if map_pin_button}}{{map_pin_button}}{{else}}Sydney{{/if}}</span>
+        {{/if}}
+    </div>
+</div>

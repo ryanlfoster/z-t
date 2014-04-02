@@ -1,42 +1,22 @@
 package com.australia.www.components.page.sharethis;
 
-import org.apache.sling.api.SlingHttpServletRequest;
+import java.util.List;
 
+import com.australia.widgets.multicomposite.MultiCompositeField;
 import com.citytechinc.cq.component.annotations.Component;
 import com.citytechinc.cq.component.annotations.DialogField;
-import com.citytechinc.cq.component.annotations.FieldProperty;
 import com.citytechinc.cq.component.annotations.Tab;
-import com.citytechinc.cq.component.annotations.widgets.NumberField;
+import com.citytechinc.cq.component.annotations.widgets.DialogFieldSet;
 
-@Component(value = "ShareThis", path = "page", group = ".hidden", editConfig = false, fileName = "share_dialog", tabs = {
+@Component(value = "ShareThis", dialogWidth = 600, path = "page", group = ".hidden", editConfig = false, fileName = "share_dialog", tabs = {
 	@Tab(title = "Default"), @Tab(title = "Custom") })
 public class ShareThis {
+	@DialogField(tab = 1, hideLabel = true)
+	@DialogFieldSet(border = false, collapsible = false)
+	private DefaultShareThisConfig defaultConfig;
 
-	@DialogField(fieldLabel = "Test Field1", tab = 1, additionalProperties = {
-		@FieldProperty(name = "minValue", value = "-90"), @FieldProperty(name = "maxValue", value = "90") })
-	@NumberField(decimalPrecision = 4)
-	private final Double testfield1;
-
-	// @DialogField
-	// @MultiCompositeField
-	// private final List links;
-
-	@DialogField(fieldLabel = "Test Field2", tab = 2, additionalProperties = {
-		@FieldProperty(name = "minValue", value = "-90"), @FieldProperty(name = "maxValue", value = "90") })
-	@NumberField(decimalPrecision = 4)
-	private final Double testfield2;
-
-	public ShareThis(SlingHttpServletRequest request) {
-		testfield1 = new Double(0);
-		testfield2 = new Double(0);
-	}
-
-	public Double getTestfield1() {
-		return testfield1;
-	}
-
-	public Double getTestfield2() {
-		return testfield2;
-	}
+	@DialogField(tab = 2, fieldLabel = "Social Networks By Country")
+	@MultiCompositeField
+	private List<LanguageShareThisConfig> shareThis;
 
 }

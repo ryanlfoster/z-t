@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<jslint>
+<file name="assets/js/src/main.js">
+  
+</file>
+<file name="assets/js/src/modules/jquery.ta.carousel.js">
+  
+</file>
+<file name="assets/js/src/modules/jquery.ta.flipcard.js">
+  
+</file>
+<file name="assets/js/src/modules/jquery.ta.fullwidthbg.js">
+  
+  <issue
+    line="79"
+    char="&lt;anonymous&gt;.setImageAlignment"
+    evidence="&lt;anonymous&gt;.setImageAlignment is too complicated"
+    reason="Cyclomatic: 3,
+    Halstead: 9.8214
+    | Effort: 2143.6
+    | Volume: 218.26
+    | Vocabulary: 25" />
+  
+</file>
+<file name="assets/js/src/modules/jquery.ta.mosaic.js">
+  
+</file>
+<file name="assets/js/src/modules/jquery.ta.mosaic3column.js">
+  
+</file>
+</jslint>

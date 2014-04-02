@@ -5,11 +5,13 @@ import java.util.List;
 
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.ResourceResolver;
+import org.apache.sling.api.resource.ValueMap;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.australia.www.components.domain.Link;
 import com.citytechinc.cq.component.annotations.Component;
+import com.citytechinc.cq.component.annotations.DialogField;
 import com.day.cq.tagging.Tag;
 import com.day.cq.wcm.api.Page;
 import com.day.cq.wcm.api.PageManager;
@@ -22,9 +24,13 @@ public class TagCloud {
 	
 	private List<Link> tagList;
 	
+	@DialogField(fieldLabel = "Title", required = true)
+	private String title;
+	
 	public TagCloud(SlingHttpServletRequest request) {
 		
 		final ResourceResolver resourceResolver	 = request.getResourceResolver();
+        final ValueMap properties = request.getResource().adaptTo(ValueMap.class);
 		
 		//Get the current page
 		final PageManager pageManager = resourceResolver.adaptTo(PageManager.class);
@@ -40,18 +46,15 @@ public class TagCloud {
 			tagList.add(new Link("#",title));
 		}
 		
+		title = properties.get("title", "");
 		
-		
-//		ValueMap properties = request.getResource().adaptTo(ValueMap.class);
-//		BrcService brcService = BrcUtils.getSlingSettingService();
-
-//		videoRandomId = new String(UUID.randomUUID().toString().replaceAll("-", ""));
-//		playerId = properties.get("playerId", brcService.getDefVideoPlayerID());
-//		playerKey = properties.get("playerKey", brcService.getDefVideoPlayerKey());
-//		videoPlayer = properties.get("videoPlayer", "");
 	}
 	
 	public List<Link> getTags() {
 		return tagList;
+	}
+	
+	public String getTitle() {
+		return title;
 	}
 }

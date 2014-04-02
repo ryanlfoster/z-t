@@ -22,7 +22,6 @@ CQ_Analytics.ClientContextMgr.addListener("storesinitialize", function (e) {
 		    });
 		}
 		
-//		stLight.options({ publisher: share_key });
 		var socnet_json = $.parseJSON(sharethis_json);
 		var country_found = false;
 
@@ -47,16 +46,24 @@ CQ_Analytics.ClientContextMgr.addListener("storesinitialize", function (e) {
 	
 	function addShareThisButton(obj,url,title,desc) { 
 		var socnet = obj.types.split(',');
+		var facebook_like_found = false;
 		for(var i = 0; i < socnet.length; i++) { 
 			var social_network = socnet[i].toLowerCase();
+			if (social_network == 'fblike') {
+				facebook_like_found = true;
+				continue;
+			}
 			$(".shareicons ul").append("<li class='btn-bubble'>" + 
-				"<span class='btn-bubble-button st_" + social_network + "_large' displayText='" + social_network + "'>" +
+				"<span class='btn-bubble-button st_" + social_network + "_large' displayText='" 
+					+ social_network + "' st_url='" + url + "' st_title='" + title + "' st_summary='" + desc + "'>" +
 	            "<img class='btn-bubble-std' src='/etc/designs/tourismaustralia/clientlibs/img/icons/" + social_network + "_outline.png' alt='ShareThis icon'>" +
 	            "<img class='btn-bubble-active' src='/etc/designs/tourismaustralia/clientlibs/img/icons/" + social_network + ".png' alt='ShareThis icon'>" +
-//				"<span style='text-decoration:none;color:#000000;display:inline-block;cursor:pointer;' class='stButton'>" +
-//				"<span class='stLarge' style='background-image: url(http://w.sharethis.com/images/" + social_network + "_32.png);'></span>" +
-//				"<img src='http://w.sharethis.com/images/check-big.png' style='position: absolute; top: -7px; right: -7px; width: 19px; height: 19px; max-width: 19px; max-height: 19px; display: none;'>" +					
 				"</span></li>");
+		}
+		// add the Facebook Like button last as it is rendered differently and on a different row
+		if (facebook_like_found) {
+			$(".shareicons ul").append("<li class='social-fblike'>" +
+				"<span class='st_fblike_large' displayText='Facebook Like' st_url='" + url +"'></span></li>");
 		}
 	}
 	

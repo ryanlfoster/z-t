@@ -17,8 +17,29 @@ public enum SocialNetworkType {
 	@Option(text = "Twitter")
 	TWITTER("st_twitter_large"),
 
+	@Option(text = "LinkedIn")
+	LINKEDIN("st_linkedin_large"),
+
 	@Option(text = "ShareThis")
 	SHARETHIS("st_sharethis_large"),
+
+	@Option(text = "Google+")
+	GOOGLEPLUS("st_googleplus_large"),
+
+	@Option(text = "Orkut")
+	ORKUT("st_orkut_large"),
+
+	@Option(text = "MySpace")
+	MYSPACE("st_myspace_large"),
+
+	@Option(text = "Xing")
+	XING("st_xing_large"),
+
+	@Option(text = "Reddit")
+	REDDIT("st_reddit_large"),
+
+	@Option(text = "Tumblr")
+	TUMBLR("st_tumblr_large"),
 
 	@Option(text = "Facebook Like")
 	FBLIKE("st_fblike_large");

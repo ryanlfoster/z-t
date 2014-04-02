@@ -122,6 +122,7 @@ public class Global {
 				"types",
 				StringUtils.join(
 					PropertiesUtil.toStringArray(parent.getProperties().get("socialNetworks"), new String[0]), ","));
+
 			jsonarray.put(json);
 			// now write the CUSTOM social networks - by country
 			String stPageURL = parent.getPath() + "/jcr:content/shareThis";

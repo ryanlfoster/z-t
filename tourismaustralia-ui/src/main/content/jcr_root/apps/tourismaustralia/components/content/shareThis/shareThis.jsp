@@ -16,14 +16,9 @@
        	<script type="text/javascript">var switchTo5x=true;</script>
 		<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
 		<script type="text/javascript">stLight.options({publisher: "${sharethis.accountId}", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
-		
-		
 		<div class="shareicons">
-		    <ul>
-					<!-- ShareThis icons inserted via javascript  -->
-			</ul>
+		    <ul> <!-- ShareThis icons inserted via javascript (see shareThis.js) --> </ul>
 		</div>
-
 </div>
 
 <cq:includeClientLib js="ta-share-this"/>

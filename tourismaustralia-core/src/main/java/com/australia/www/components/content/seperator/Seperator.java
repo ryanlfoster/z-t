@@ -6,6 +6,6 @@ import com.citytechinc.cq.component.annotations.Component;
  * Created by wma on 25/03/14.
  */
 
-@Component(value = "Seperator")
+@Component(value = "Seperator", disableTargeting = true, actions = { "text:Seperator", "-", "copymove", "delete" })
 public class Seperator {
 }

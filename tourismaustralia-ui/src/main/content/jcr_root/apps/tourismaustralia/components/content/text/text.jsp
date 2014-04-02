@@ -6,8 +6,6 @@
 <c:set var="text" value="<%=new Text(slingRequest) %>"/>
 
 <c:if test="${not empty text.text}">
-    <div class="row">
-        ${text.text}
-    </div>
+    ${text.text}
 </c:if>
 

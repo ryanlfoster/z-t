@@ -12,6 +12,8 @@ import org.apache.commons.lang.StringUtils;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.ValueMap;
 
+import java.util.Locale;
+
 @Component(value = "Special Offer", tabs = {@Tab(title = "Image"), @Tab(title = "Extra Information")}, listeners = {@Listener(name = "aftercopy", value = "REFRESH_PAGE"),
         @Listener(name = "afterdelete", value = "REFRESH_PAGE"), @Listener(name = "afteredit", value = "REFRESH_PAGE"),
         @Listener(name = "afterinsert", value = "REFRESH_PAGE")})
@@ -34,6 +36,8 @@ public class SpecialOffer {
     @NumberField(allowDecimals = false, allowNegative = false)
     private int price;
 
+    private String formattedPrice;
+
     @DialogField(fieldLabel = "Price per text", required = false, tab = 2)
     private String pricePerText;
 
@@ -55,6 +59,7 @@ public class SpecialOffer {
         title = properties.get("title", StringUtils.EMPTY);
         text = properties.get("text", StringUtils.EMPTY);
         price = properties.get("price", 0);
+        formattedPrice = java.text.NumberFormat.getNumberInstance(Locale.US).format(price);
         pricePerText = properties.get("pricePerText", StringUtils.EMPTY);
         viewMoreInformationLink = properties.get("viewMoreInformationLink", StringUtils.EMPTY);
         viewTermsAndConditionLink = properties.get("viewTermsAndConditionLink", StringUtils.EMPTY);
@@ -77,8 +82,11 @@ public class SpecialOffer {
     }
 
     public int getPrice() {
+
         return price;
     }
+
+    public String getFormattedPrice() { return formattedPrice; }
 
     public String getPricePerText() {
         return pricePerText;

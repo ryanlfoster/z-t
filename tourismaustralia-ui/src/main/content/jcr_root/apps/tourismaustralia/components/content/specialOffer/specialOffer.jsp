@@ -24,11 +24,11 @@
                         <p>${spacialOffer.text}</p>
                     </div>
                     </c:if>
-                    <c:if test="${not empty specialOffer.price && specialOffer.price != 0 && not empty specialOffer.pricePerText}">
+                    <c:if test="${not empty specialOffer.formattedPrice && specialOffer.formattedPrice != 0 && not empty specialOffer.pricePerText}">
                     <div class="specialoffer-price">
-                        <c:if test="${not empty specialOffer.price && specialOffer.price != 0}">
+                        <c:if test="${not empty specialOffer.formattedPrice && specialOffer.formattedPrice != 0}">
                             <span class="specialoffer-currency">$</span>
-                            <span class="specialoffer-value">${specialOffer.price}</span>
+                            <span class="specialoffer-value">${specialOffer.formattedPrice}</span>
                         </c:if>
                         <c:if test="${not empty specialOffer.pricePerText}">
                             <span class="specialoffer-per">/${specialOffer.pricePerText}</span>

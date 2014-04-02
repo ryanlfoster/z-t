@@ -41,16 +41,13 @@
 }
 
 // Category Links Colour for biline
-
 .line-through-container.line-categorylink-theme {
   position: relative;
   margin-bottom: 2em;
 }
 .line-categorylink-theme .line-through-container-biline {
   color: $type-main-heading-colour;
-  padding: 1em;
-  color: #8d896f;
-  padding: 1em;
+  padding: 0 1em;
   background: #FFF;
   z-index: 2;
   position: relative;

@@ -95,6 +95,72 @@
                     "content" : "{{section 'textlargevideo'}}"
                 }
                 
+                    ,
+                
+            
+                "whatyoucansee_nobuttons" : {
+                     "data" : {
+                        "title" : "whatyoucansee_nobuttons",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'whatyoucansee_nobuttons'}}"
+                }
+                
+                    ,
+                
+            
+                "mosaic_highlights_grid_1" : {
+                     "data" : {
+                        "title" : "mosaic_highlights_grid_1",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'mosaic_highlights_grid_1'}}"
+                }
+                
+                    ,
+                
+            
+                "mosaic_highlights_grid_4" : {
+                     "data" : {
+                        "title" : "mosaic_highlights_grid_4",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'mosaic_highlights_grid_4'}}"
+                }
+                
+                    ,
+                
+            
+                "mosaic_highlights_grid_4_1" : {
+                     "data" : {
+                        "title" : "mosaic_highlights_grid_4_1",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'mosaic_highlights_grid_4_1'}}"
+                }
+                
+                    ,
+                
+            
+                "mosaic_whatscomingup_grid_1" : {
+                     "data" : {
+                        "title" : "mosaic_whatscomingup_grid_1",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'mosaic_whatscomingup_grid_1'}}"
+                }
+                
+                    ,
+                
+            
+                "mosaic_whatscomingup_grid_4" : {
+                     "data" : {
+                        "title" : "mosaic_whatscomingup_grid_4",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'mosaic_whatscomingup_grid_4'}}"
+                }
+                
             
             
                 ,

@@ -32,14 +32,58 @@ layout: layout-base.hbs
         {{/parseJSON}}
     </div>
 
+    <div class="row l-padding-between-item-fill-white">
+        <div class="row l-center-1200">
+            {{> whatyoucansee_nobuttons}}
+        </div>
+    </div>
+
+    <div class="row l-padding-between-item-fill-white">
+        <div class="row l-center-1200">
+            SOCIAL UGC FULL SCREEN
+        </div>
+    </div>
+
     <div class="l-padding-between-item-fill-white">
-        ICON1
+        {{> mapwithlinkstate }}
+    </div>
+
+    <div class="l-padding-between-item-fill-white">
+        {{#parseJSON '{
+        "promo_image" : "promo2",
+        "promo_title" : "Island hop from the top",
+        "promo_text" : [
+            {"para" : "Fly to in Airlie Beach and stay 3 nights for the price of 2."}
+        ],
+        "promo_value" : "299",
+        "promo_per" : "/night"
+    }'}}
+            {{> page_specialoffer }}
+        {{/parseJSON}}
     </div>
 
     <div class="row l-padding-between-item-fill-white">
         <div class="row l-center-1200">
             {{> fullsizevideo}}
         </div>
+    </div>
+
+    <div class="l-padding-between-item-fill-white">
+        {{#parseJSON '{
+        "promo_image" : "promo3",
+        "promo_title" : "Pinnacles Resort & Spa",
+        "promo_text" : [
+            {"para" : "Pinnacles Resort and Spa Whitsundays is located in the heart of Airlie Beach, Queensland, Australia. Located approximately 1125km north of Brisbane (12 hour drive) and 725km south of Cairns (8 hour drive)."}
+        ],
+        "promo_value" : "",
+        "promo_per" : ""
+    }'}}
+            {{> page_specialoffer }}
+        {{/parseJSON}}
+    </div>
+
+    <div class="l-padding-between-item-fill-white">
+        {{> categorylinks_city_sydney }}
     </div>
 
 </div>

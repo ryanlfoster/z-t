@@ -26,12 +26,13 @@ title: Special Offer - Sydney
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
                     {{/if}}
                 </div>
-
-                <div class="specialoffer-price">
-                    <span class="specialoffer-currency">$</span>
-                    <span class="specialoffer-value">{{promo_value}}</span>
-                    <span class="specialoffer-per">{{promo_per}}</span>
-                </div>
+                {{#if promo_value }}
+                    <div class="specialoffer-price">
+                        <span class="specialoffer-currency">$</span>
+                        <span class="specialoffer-value">{{promo_value}}</span>
+                        <span class="specialoffer-per">{{promo_per}}</span>
+                    </div>
+                {{/if}}
 
                 <div class="specialoffer-links">
                     <a href="#">View More Information</a>

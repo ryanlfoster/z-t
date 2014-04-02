@@ -22,10 +22,10 @@ CQ_Analytics.ClientContextMgr.addListener("storesinitialize", function (e) {
 		    });
 		}
 		
-		stLight.options({ publisher: share_key });
+//		stLight.options({ publisher: share_key });
 		var socnet_json = $.parseJSON(sharethis_json);
 		var country_found = false;
-		
+
 		// try to find a country specific list of social networks
 		$.each(socnet_json, function(idx, obj) {
 			if(obj.country == country)  {
@@ -49,17 +49,14 @@ CQ_Analytics.ClientContextMgr.addListener("storesinitialize", function (e) {
 		var socnet = obj.types.split(',');
 		for(var i = 0; i < socnet.length; i++) { 
 			var social_network = socnet[i].toLowerCase();
-			$this.append("<span class='btn-bubble-button st_" + social_network + "_large' displaytext='" + social_network + "'/>");
-			stWidget.addEntry({
-				"service": social_network,
-				"element": $('.st_' + social_network + '_large').get(1),
-				"url": url,
-				"title": title,
-				"type":"large",
-				"text":"ShareThis" ,
-				"image":"http://www.softicons.com/download/internet-icons/social-superheros-icons-by-iconshock/png/256/sharethis_hulk.png", // image TO BE SHARED
-				"summary": desc
-			});		
+			$(".shareicons ul").append("<li class='btn-bubble'>" + 
+				"<span class='btn-bubble-button st_" + social_network + "_large' displayText='" + social_network + "'>" +
+	            "<img class='btn-bubble-std' src='/etc/designs/tourismaustralia/clientlibs/img/icons/" + social_network + "_outline.png' alt='ShareThis icon'>" +
+	            "<img class='btn-bubble-active' src='/etc/designs/tourismaustralia/clientlibs/img/icons/" + social_network + ".png' alt='ShareThis icon'>" +
+//				"<span style='text-decoration:none;color:#000000;display:inline-block;cursor:pointer;' class='stButton'>" +
+//				"<span class='stLarge' style='background-image: url(http://w.sharethis.com/images/" + social_network + "_32.png);'></span>" +
+//				"<img src='http://w.sharethis.com/images/check-big.png' style='position: absolute; top: -7px; right: -7px; width: 19px; height: 19px; max-width: 19px; max-height: 19px; display: none;'>" +					
+				"</span></li>");
 		}
 	}
 	

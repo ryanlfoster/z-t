@@ -3,6 +3,7 @@ package com.australia.www.components.content.categorizediconlinks;
 import com.citytechinc.cq.component.annotations.DialogField;
 import com.citytechinc.cq.component.annotations.widgets.DialogFieldSet;
 import com.citytechinc.cq.component.annotations.widgets.Html5SmartImage;
+import com.day.cq.wcm.foundation.Image;
 
 public class TitleText {
     @DialogField(fieldLabel = "Title")
@@ -12,7 +13,7 @@ public class TitleText {
     private String text;
 
     @DialogField(fieldLabel = "Icon image 1")
-    @Html5SmartImage(name="iconImage1",disableZoom = true, allowUpload = false, tab = false, height = 100 )
+    @Html5SmartImage(name = "iconImage1", disableZoom = true, allowUpload = false, tab = false, height = 100)
     private String iconImage1;
 
     @DialogField(fieldLabel = "Icon Alt Text 1")
@@ -21,11 +22,13 @@ public class TitleText {
     @DialogField(fieldLabel = "Link 1")
     private String iconLink1;
 
+    private boolean iconLink1IsExternal;
+
     @DialogField(fieldLabel = "Link Text 1")
     private String linkText1;
 
     @DialogField(fieldLabel = "Icon image 2")
-    @Html5SmartImage(name="iconImage2",disableZoom = true, allowUpload = false, tab = false, height = 100 )
+    @Html5SmartImage(name = "iconImage2", disableZoom = true, allowUpload = false, tab = false, height = 100)
     private String iconImage2;
 
     @DialogField(fieldLabel = "Icon Alt Text 2")
@@ -34,11 +37,13 @@ public class TitleText {
     @DialogField(fieldLabel = "Link 2")
     private String iconLink2;
 
+    private boolean iconLink2IsExternal;
+
     @DialogField(fieldLabel = "Link Text 2")
     private String linkText2;
 
     @DialogField(fieldLabel = "Icon image 3")
-    @Html5SmartImage(name="iconImage3",disableZoom = true, allowUpload = false, tab = false, height = 100 )
+    @Html5SmartImage(name = "iconImage3", disableZoom = true, allowUpload = false, tab = false, height = 100)
     private String iconImage3;
 
     @DialogField(fieldLabel = "Icon Alt Text 3")
@@ -46,6 +51,8 @@ public class TitleText {
 
     @DialogField(fieldLabel = "Link 3")
     private String iconLink3;
+
+    private boolean iconLink3IsExternal;
 
     @DialogField(fieldLabel = "Link Text 3")
     private String linkText3;
@@ -90,6 +97,14 @@ public class TitleText {
         this.iconLink1 = iconLink1;
     }
 
+    public boolean getIconLink1IsExternal() {
+        return iconLink1IsExternal;
+    }
+
+    public void setIconLink1IsExternal(boolean iconLink1IsExternal) {
+        this.iconLink1IsExternal = iconLink1IsExternal;
+    }
+
     public String getLinkText1() {
         return linkText1;
     }
@@ -122,6 +137,14 @@ public class TitleText {
         this.iconLink2 = iconLink2;
     }
 
+    public boolean getIconLink2IsExternal() {
+        return iconLink2IsExternal;
+    }
+
+    public void setIconLink2IsExternal(boolean iconLink2IsExternal) {
+        this.iconLink2IsExternal = iconLink2IsExternal;
+    }
+
     public String getLinkText2() {
         return linkText2;
     }
@@ -152,6 +175,14 @@ public class TitleText {
 
     public void setIconLink3(String iconLink3) {
         this.iconLink3 = iconLink3;
+    }
+
+    public boolean getIconLink3IsExternal() {
+        return iconLink3IsExternal;
+    }
+
+    public void setIconLink3IsExternal(boolean iconLink3IsExternal) {
+        this.iconLink3IsExternal = iconLink3IsExternal;
     }
 
     public String getLinkText3() {

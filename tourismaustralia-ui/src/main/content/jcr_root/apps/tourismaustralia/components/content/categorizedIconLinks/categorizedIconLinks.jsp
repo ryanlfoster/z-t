@@ -4,7 +4,7 @@
 <%@ page import="com.australia.www.components.content.categorizediconlinks.CategorizedIconLinks" %>
 
 <c:set var="categorizedIconLinks" value="<%= new CategorizedIconLinks(slingRequest) %>"/>
-
+<p>
 Cat 1 title: ${categorizedIconLinks.titleText1.title} <br>
 Cat 1 text: ${categorizedIconLinks.titleText1.text} <br>
 Cat 1 image1: ${categorizedIconLinks.titleText1.iconImage1} <br>
@@ -19,8 +19,9 @@ Cat 1 image3: ${categorizedIconLinks.titleText1.iconImage3} <br>
 Cat 1 Icon Link3: ${categorizedIconLinks.titleText1.iconLink3} <br>
 Cat 1 Link Text3: ${categorizedIconLinks.titleText1.linkText3} <br>
 Cat 1 Icon Alt Text3: ${categorizedIconLinks.titleText1.iconAltText3} <br>
-<p>
+</p>
 
+<p>
 Cat 2 title: ${categorizedIconLinks.titleText2.title} <br>
 Cat 2 text: ${categorizedIconLinks.titleText2.text} <br>
 Cat 2 image1: ${categorizedIconLinks.titleText2.iconImage1} <br>
@@ -35,8 +36,9 @@ Cat 2 image3: ${categorizedIconLinks.titleText2.iconImage3} <br>
 Cat 2 Icon Link3: ${categorizedIconLinks.titleText2.iconLink3} <br>
 Cat 2 Link Text3: ${categorizedIconLinks.titleText2.linkText3} <br>
 Cat 2 Icon Alt Text3: ${categorizedIconLinks.titleText2.iconAltText3} <br>
-<p>
+</p>
 
+<p>
 Cat 3 title: ${categorizedIconLinks.titleText3.title} <br>
 Cat 3 text: ${categorizedIconLinks.titleText3.text} <br>
 Cat 3 image1: ${categorizedIconLinks.titleText3.iconImage1} <br>
@@ -51,3 +53,4 @@ Cat 3 image3: ${categorizedIconLinks.titleText3.iconImage3} <br>
 Cat 3 Icon Link3: ${categorizedIconLinks.titleText3.iconLink3} <br>
 Cat 3 Link Text3: ${categorizedIconLinks.titleText3.linkText3} <br>
 Cat 3 Icon Alt Text3: ${categorizedIconLinks.titleText3.iconAltText3} <br>
+</p>

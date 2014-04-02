@@ -64,7 +64,25 @@ layout: layout-base.hbs
         </div>
     </div>
 
+    <div class="l-padding-between-item-fill-white">
+        {{#parseJSON '{
+        "promo_image" : "promo4",
+        "promo_title" : "Le Cher du Monde",
+        "promo_text" : [
+            {"para" : "Le Cher Du Monde offers luxury self contained one bedroom holiday apartments."}
+        ],
+        "promo_value" : "299",
+        "promo_per" : "/night"
+    }'}}
+            {{> page_specialoffer }}
+        {{/parseJSON}}
+    </div>
 
+    <div class="row l-padding-between-item-fill-white">
+        <div class="row l-center-1200">
+            {{> whatyoucansee_nobuttons1row}}
+        </div>
+    </div>
 
 
 </div>

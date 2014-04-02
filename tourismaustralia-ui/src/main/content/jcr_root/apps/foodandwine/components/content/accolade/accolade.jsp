@@ -16,8 +16,7 @@
 	<ul class="historylist">
 		<c:forEach items="${accolade.accoladeList}" var="item">
 			<li>
-				<p><strong>${item.year}</strong></p>
-				<p>${item.title}</p>
+				<p><strong>${item.year}</strong> ${item.title}</p>
 				<hr/>
 			</li>
 		</c:forEach>

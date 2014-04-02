@@ -236,7 +236,7 @@
 										src="/etc/designs/foodandwine/clientlibs/imgs/base/categories/category-icon-restaurants-dark.png"
 										alt="" />
 									</span> <span class="category-title"> Restaurants </span> <span
-										class="category-description"> Restaurants, desc... </span>
+										class="category-description">${form.restaurantDescription } </span>
 								</div>
 							</label> <input id="category-wine" type="checkbox" class="category-input">
 							<label for="category-wine">
@@ -247,8 +247,7 @@
 										<img class='category-image-dark'
 										src="/etc/designs/foodandwine/clientlibs/imgs/base/categories/category-icon-wine-dark.png" alt="" />
 									</span> <span class="category-title"> Wine </span> <span
-										class="category-description"> Winery, Wine Producers,
-										Wine Family, Vinyards </span>
+										class="category-description"> ${form.wineStoryDescription } </span>
 								</div>
 							</label> <input id="category-produce" type="checkbox"
 								class="category-input"> <label for="category-produce">
@@ -260,7 +259,7 @@
 										src="/etc/designs/foodandwine/clientlibs/imgs/base/categories/category-icon-produce-dark.png"
 										alt="" />
 									</span> <span class="category-title"> Produce </span> <span
-										class="category-description"> Produce, desc... </span>
+										class="category-description"> ${form.produceDescription } </span>
 								</div>
 							</label> <input id="category-events" type="checkbox"
 								class="category-input"> <label for="category-events">
@@ -272,7 +271,7 @@
 										src="/etc/designs/foodandwine/clientlibs/imgs/base/categories/category-icon-events-dark.png"
 										alt="" />
 									</span> <span class="category-title"> Festivals </span> <span
-										class="category-description"> Festivals, desc... </span>
+										class="category-description"> ${form.eventsDescription }</span>
 								</div>
 							</label> <input id="category-people" type="checkbox"
 								class="category-input"> <label for="category-people">
@@ -284,7 +283,7 @@
 										src="/etc/designs/foodandwine/clientlibs/imgs/base/categories/category-icon-people-dark.png"
 										alt="" />
 									</span> <span class="category-title"> People </span> <span
-										class="category-description"> People, desc... </span>
+										class="category-description"> ${form.peopleDescription } </span>
 								</div>
 							</label> <input id="category-experiences" type="checkbox"
 								class="category-input"> <label
@@ -297,7 +296,7 @@
 										src="/etc/designs/foodandwine/clientlibs/imgs/base/categories/category-icon-experiences-dark.png"
 										alt="" />
 									</span> <span class="category-title"> Experiences </span> <span
-										class="category-description"> Experiences, desc... </span>
+										class="category-description"> ${form.experiencesDescription } </span>
 								</div>
 							</label> <input id="category-seafood" type="checkbox"
 								class="category-input"> <label for="category-seafood">
@@ -309,7 +308,7 @@
 										src="/etc/designs/foodandwine/clientlibs/imgs/base/categories/category-icon-seafood-dark.png"
 										alt="" />
 									</span> <span class="category-title"> Seafood </span> <span
-										class="category-description"> Seafood, desc... </span>
+										class="category-description">${form.seafoodDescription } </span>
 								</div>
 							</label>
 						</div>

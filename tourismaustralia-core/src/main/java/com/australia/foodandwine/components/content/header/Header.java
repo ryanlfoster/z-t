@@ -17,6 +17,7 @@ import com.citytechinc.cq.component.annotations.DialogField;
 import com.citytechinc.cq.component.annotations.FieldProperty;
 import com.citytechinc.cq.component.annotations.Listener;
 import com.citytechinc.cq.component.annotations.widgets.PathField;
+import com.day.cq.wcm.api.WCMMode;
 
 @Component(group = ".hidden", basePath = "jcr_root/apps/foodandwine/components", actions = { "text:Header", "-", "Edit" }, disableTargeting = true, value = "Header", dialogHeight = 400, dialogWidth = 700, listeners = {
 	@Listener(name = "aftercopy", value = "REFRESH_PAGE"), @Listener(name = "afterdelete", value = "REFRESH_PAGE"),
@@ -33,6 +34,8 @@ public class Header {
 	@MultiCompositeField
 	private List<TextLink> headerDataList;
 
+	private String instanceModeName;
+
 	private static final String HEADERDATALIST = "headerDataList";
 	private static final String IMAGEPATH = "imagePath";
 	private static final String IMAGE_ALTTAG = "imageAltTag";
@@ -40,6 +43,10 @@ public class Header {
 	private static final String HEADERLINKTEXT = "linkText";
 
 	public Header(SlingHttpServletRequest request) {
+		WCMMode wcmMode = WCMMode.fromRequest(request);
+		String name = wcmMode.name();
+		instanceModeName=name.toLowerCase();
+
 		String headerPath = PathUtils.FOOD_AND_WINE_ROOT_PATH + "/jcr:content/header";
 		Resource headerResource = request.getResourceResolver().getResource(headerPath);
 		if (headerResource != null) {
@@ -82,6 +89,10 @@ public class Header {
 
 	public String getImageAltTag() {
 		return imageAltTag;
+	}
+
+	public String getInstanceModeName() {
+		return instanceModeName;
 	}
 
 }

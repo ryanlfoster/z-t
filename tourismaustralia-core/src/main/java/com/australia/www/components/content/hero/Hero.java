@@ -8,8 +8,11 @@ import com.day.cq.wcm.foundation.Image;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.ValueMap;
 
+import java.util.HashMap;
+import java.util.Map;
 
-@Component(value = "Hero Banner", tabs = {@Tab(title = "General"),@Tab(title = "Image")})
+
+@Component(value = "Hero Banner", tabs = {@Tab(title = "Settings"),@Tab(title = "Image")})
 public class Hero {
 
 	@DialogField(fieldLabel = "Title", required = true, tab = 1)
@@ -36,7 +39,7 @@ public class Hero {
 		altText = properties.get("altText", "");
 		Image imageObj = new Image(request.getResource(), "image");
 		if (imageObj != null && imageObj.hasContent()) {
-			imageSelection = imageObj.getPath();
+			imageSelection = imageObj.getFileReference();
 		}
 	}
 

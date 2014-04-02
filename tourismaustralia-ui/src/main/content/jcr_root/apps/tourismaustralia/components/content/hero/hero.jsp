@@ -33,6 +33,7 @@
 		<div class="col-xs-12 col-sm-3">
 			<div class="hero-home-favourite">
 				<a href="#" class="favourite favourite-btn">
+					<!-- TODO: Embed 'Favorite' component here -->
     <span class="btn-bubble">
     <span class="btn-bubble-button">
     <img class="btn-bubble-std" src="imgs/icons/favourite_white_outline.png" alt=""/>

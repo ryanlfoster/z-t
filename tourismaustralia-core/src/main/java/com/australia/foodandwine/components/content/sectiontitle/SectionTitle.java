@@ -7,7 +7,7 @@ import org.apache.sling.api.resource.ValueMap;
 import com.citytechinc.cq.component.annotations.Component;
 import com.citytechinc.cq.component.annotations.DialogField;
 
-@Component(group = "Food and Wine", basePath = "jcr_root/apps/foodandwine/components", value = "Section Title")
+@Component(disableTargeting = true, group = "Food and Wine", basePath = "jcr_root/apps/foodandwine/components", value = "Section Title")
 public class SectionTitle {
 	@DialogField(fieldLabel = "Title")
 	private final String title;

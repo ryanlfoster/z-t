@@ -6,29 +6,21 @@
 <c:set var="nit" value="<%=new NumberIconText(slingRequest) %>"/>
 
 <div class="l-page-width-600 l-center">
-	<c:forEach items="${nit.iconTextList}" var="item">
+	<c:forEach items="${nit.icons}" var="item">
 		<div class="form-number-container type-spacing-40">
 			<hr/>
 			<div class="form-number-square-box">
 				<div class="form-number-square-box">
-					<div class="form-number">${item.number}</div>
+					<div class="form-number">${nit.number}</div>
 				</div>
 			</div>
 		</div>	
-		<c:choose>
-		    <c:when test="${fn:length(item.iconImages) eq 1}">
-				<p class="type-spacing-30">
-		 			<a href="#" class="icon-google-color"><img src="${item.iconImages[0]}" alt=""></a> 
-		 		</p>	
-		    </c:when>
-		    <c:when test="${fn:length(item.iconImages) gt 1}">
-				<ul class="form-social-list type-spacing-40">
-					<c:forEach items="${item.iconImages}" var="icon">
-						<li><a href="#" class="icon-google-color"><img src="${icon}" alt=""></a></li>
-					</c:forEach>
-				</ul>	
-		    </c:when>
-		</c:choose>		
-		<p class="type-spacing-50">${item.richText}</p>
+		<p class="type-spacing-30">
+			<c:set var="pathparts" value="${fn:split(item.icon, '/')}" />               
+			<c:set var="filename" value="${pathparts[fn:length(pathparts) - 1]}" /> 
+			<c:set var="basename" value="${fn:split(filename, '.')[0]}" />    
+				<a href="#" class="icon-google-color"><img src="${item.icon}" alt="${basename} logo image"></a> 
+		</p>	
 	</c:forEach>
+	<p class="type-spacing-50">${nit.text}</p>
 </div>

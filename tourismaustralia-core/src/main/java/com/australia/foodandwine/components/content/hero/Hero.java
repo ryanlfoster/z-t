@@ -21,7 +21,7 @@ import com.citytechinc.cq.component.annotations.widgets.Html5SmartImage;
 import com.citytechinc.cq.component.annotations.widgets.PathField;
 import com.day.cq.wcm.foundation.Image;
 
-@Component(group = "Food and Wine", basePath = "jcr_root/apps/foodandwine/components", value = "Hero Home", tabs = {
+@Component(disableTargeting = true, group = "Food and Wine", basePath = "jcr_root/apps/foodandwine/components", value = "Hero Home", tabs = {
 	@Tab(title = "Background Image"), @Tab(title = "Big Title"), @Tab(title = "Register Text"),
 	@Tab(title = "Video Path") }, listeners = { @Listener(name = "aftercopy", value = "REFRESH_PAGE"),
 	@Listener(name = "afterdelete", value = "REFRESH_PAGE"), @Listener(name = "afteredit", value = "REFRESH_PAGE"),
@@ -33,6 +33,9 @@ public class Hero {
 
 	@DialogField(fieldLabel = "Big Title", required = true, tab = 2)
 	private final String bigTitle;
+
+	@DialogField(fieldLabel = "Image Alt Tag", tab = 2, fieldDescription = "Image Alt tag for the Background Image", required = true)
+	private final String imageAltTag;
 
 	@DialogField(fieldLabel = "Overlay Small Text", fieldDescription = "Text to be displayed in small font", tab = 3)
 	private final String smallFontText;
@@ -83,6 +86,7 @@ public class Hero {
 	private static final String PLAYERKEY = "playerKey";
 	private static final String VIDEOPLAYER = "videoPlayer";
 	private static final String CHARACTERHYPHEN = "-";
+	private final static String IMAGE_ALT_TAG = "imageAltTag";
 
 	/**
 	 * 
@@ -109,7 +113,7 @@ public class Hero {
 		playerId = properties.get(PLAYERID, brcService.getDefVideoPlayerID());
 		playerKey = properties.get(PLAYERKEY, brcService.getDefVideoPlayerKey());
 		videoPlayer = properties.get(VIDEOPLAYER, StringUtils.EMPTY);
-
+		imageAltTag = properties.get(IMAGE_ALT_TAG, StringUtils.EMPTY);
 	}
 
 	/**
@@ -170,6 +174,10 @@ public class Hero {
 
 	public String getVideoRandomId() {
 		return videoRandomId;
+	}
+
+	public String getImageAltTag() {
+		return imageAltTag;
 	}
 
 }

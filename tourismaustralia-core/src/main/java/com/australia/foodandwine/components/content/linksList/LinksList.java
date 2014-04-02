@@ -14,12 +14,12 @@ import com.citytechinc.cq.component.annotations.DialogField;
 import com.citytechinc.cq.component.annotations.FieldProperty;
 import com.citytechinc.cq.component.annotations.Listener;
 
-@Component(group = "Food and Wine", basePath = "jcr_root/apps/foodandwine/components", value = "Links List", dialogHeight = 400, dialogWidth = 700, listeners = {
+@Component(disableTargeting = true, group = "Food and Wine", basePath = "jcr_root/apps/foodandwine/components", value = "Links List", dialogHeight = 400, dialogWidth = 700, listeners = {
 	@Listener(name = "aftercopy", value = "REFRESH_PAGE"), @Listener(name = "afterdelete", value = "REFRESH_PAGE"),
 	@Listener(name = "afteredit", value = "REFRESH_PAGE"), @Listener(name = "afterinsert", value = "REFRESH_PAGE") })
 public class LinksList {
 
-	@DialogField(fieldLabel = "Links", additionalProperties = @FieldProperty(name = "anchor", value = "100%"))
+	@DialogField(fieldLabel = "Links", additionalProperties = @FieldProperty(name = "anchor", value = "100%"), fieldDescription = "For external links please use prefix http:// or https:// (eg. http://www.google.com)")
 	@MultiCompositeField
 	private final List<AnchorLink> links;
 

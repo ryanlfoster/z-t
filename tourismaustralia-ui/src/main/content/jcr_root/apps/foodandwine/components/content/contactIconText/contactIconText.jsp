@@ -5,17 +5,10 @@
 <c:set var="cit" value="<%=new ContactIconText(slingRequest) %>"/>
 
 <div class="l-center">
-	<div class="form-biline-container type-spacing-30">
-		<hr><div class="form-elements-biline">${cit.title}</div>
-	</div>
-	<p class="type-spacing-30">${cit.description}</p>
-	<c:forEach items="${cit.ittList}" var="item">
 		<p class="type-spacing-30">
-			<span class="form-contact-icon"><img src="${item.iconImage}" alt=""></span>
+			<span class="form-contact-icon"><img src="${cit.icon}" alt="${cit.title}"></span>
 			<br>
-			<strong>${item.iconTitle}</strong>
-			<br>${item.iconText}
+			<strong>${cit.title}</strong>
+			<br>${cit.text}
 		</p>
-	</c:forEach>
-	<em class="form-thank-you-small-print">${cit.smallPrint}</em>
 </div>

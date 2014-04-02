@@ -5,7 +5,7 @@
 
 <div class="faw-video-teaser-wrapper faw-video-teaser-with-bg-wrapper fullwidth-bg">
 	
-		<div class="responsive-image l-position-absolute" data-picture="" data-alt="">
+		<div class="responsive-image l-position-absolute" data-picture="" data-alt="${video.imageAltTag}">
 			<div data-src="${video.imagePath}.adapt.1663.low.jpg" data-media="(min-width: 1px)"></div>
 			<div data-src="${video.imagePath}.adapt.1663.medium.jpg" data-media="(min-width: 481px)"></div>
 			<div data-src="${video.imagePath}.adapt.1663.high.jpg" data-media="(min-width: 769px)"></div>

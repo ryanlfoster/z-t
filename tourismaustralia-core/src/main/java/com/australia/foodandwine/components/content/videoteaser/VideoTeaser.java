@@ -16,7 +16,7 @@ import com.citytechinc.cq.component.annotations.Tab;
 import com.citytechinc.cq.component.annotations.widgets.Html5SmartImage;
 import com.day.cq.wcm.foundation.Image;
 
-@Component(group = "Food and Wine", basePath = "jcr_root/apps/foodandwine/components", value = "Video with Teaser", tabs = {
+@Component(disableTargeting = true, group = "Food and Wine", basePath = "jcr_root/apps/foodandwine/components", value = "Video with Teaser", tabs = {
 	@Tab(title = "Background Image"), @Tab(title = "Other Properties") }, listeners = {
 	@Listener(name = "aftercopy", value = "REFRESH_PAGE"), @Listener(name = "afterdelete", value = "REFRESH_PAGE"),
 	@Listener(name = "afteredit", value = "REFRESH_PAGE"), @Listener(name = "afterinsert", value = "REFRESH_PAGE") })
@@ -30,13 +30,19 @@ public class VideoTeaser {
 
 	@DialogField(fieldLabel = "Overlay Text for Video", fieldDescription = "Text after play button", tab = 2)
 	private final String textAfterPlayButton;
+
 	@DialogField(fieldLabel = "Player Id", tab = 2, listeners = @Listener(name = "loadcontent", value = "function(field,record,path){ var loadDate = new CQ.Ext.data.JsonStore({ url: '/bin/brightcove/players?group=video', method: 'GET', root: 'items', fields: [{name:'playerId',type:'string'}] }); loadDate.load({ callback: function(r,options,success) { if (typeof field.value === 'undefined' || field.value.trim() == '') field.setValue(loadDate.data.itemAt(0).data.playerId); } }); }"))
 	private final String playerId;
 
 	@DialogField(fieldLabel = "Player Key", tab = 2, listeners = @Listener(name = "loadcontent", value = "function(field,record,path){ var loadDate = new CQ.Ext.data.JsonStore({ url: '/bin/brightcove/players?group=video', method: 'GET', root: 'items', fields: [{name:'playerKey',type:'string'}] }); loadDate.load({ callback: function(r,options,success) { if (typeof field.value === 'undefined' || field.value.trim() == '') field.setValue(loadDate.data.itemAt(0).data.playerKey); } }); }"))
 	private final String playerKey;
+
 	@DialogField(required = true, tab = 2, xtype = "BrightcoveCombo", fieldLabel = "Video", name = "./video", additionalProperties = @FieldProperty(name = "hiddenName", value = "./videoPlayer"))
 	private final String videoPlayer;
+
+	@DialogField(fieldLabel = "Image Alt Tag", tab = 2, fieldDescription = "Alt Tag for the background image", required = true)
+	private final String imageAltTag;
+
 	private final String videoRandomId;
 
 	public VideoTeaser(SlingHttpServletRequest request) {
@@ -52,6 +58,8 @@ public class VideoTeaser {
 		playerId = properties.get("playerId", brcService.getDefVideoPlayerID());
 		playerKey = properties.get("playerKey", brcService.getDefVideoPlayerKey());
 		videoPlayer = properties.get("videoPlayer", StringUtils.EMPTY);
+		imageAltTag = properties.get("imageAltTag", StringUtils.EMPTY);
+
 	}
 
 	public String getImagePath() {
@@ -80,5 +88,9 @@ public class VideoTeaser {
 
 	public String getVideoRandomId() {
 		return videoRandomId;
+	}
+
+	public String getImageAltTag() {
+		return imageAltTag;
 	}
 }

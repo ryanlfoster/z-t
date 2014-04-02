@@ -4,7 +4,7 @@
 
 <c:set var="linksList" value="<%=new LinksList(slingRequest) %>"/>
 
-<ul class="form-thank-you-states">
+<ul class="form-thank-you-states l-page-width-600 l-center">
 	<c:forEach items="${linksList.links}" var="link">
 		<li>
 			<strong><a href="${link.url}">${link.displayText}</a></strong>

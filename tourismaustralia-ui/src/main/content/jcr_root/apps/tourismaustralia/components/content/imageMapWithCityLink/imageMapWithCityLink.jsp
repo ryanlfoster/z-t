@@ -1,4 +1,3 @@
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@include file="/apps/tourismaustralia/components/global.jsp" %>
 <%@ page import="com.australia.www.components.content.imagemapwithcitylink.ImageMapWithCityLink" %>
 <%@ page import="com.day.cq.wcm.api.WCMMode" %>
@@ -18,7 +17,7 @@
                 <span class="map-main-pin icon-font-mappin"></span>
                 <c:choose>
                     <c:when test="${not empty imageMapWithCityLink.link}">
-                        <a href="${imageMapWithCityLink.link}" class="map-pin-btn">${imageMapWithCityLink.linkText}</a>
+                        <a href="${imageMapWithCityLink.link}" class="map-pin-btn" ${imageMapWithCityLink.linkIsExternal == true ? 'target="_blank"': ''}>${imageMapWithCityLink.linkText}</a>
                     </c:when>
                     <c:otherwise>
                        <span class="map-pin-btn">${imageMapWithCityLink.linkText}</span>

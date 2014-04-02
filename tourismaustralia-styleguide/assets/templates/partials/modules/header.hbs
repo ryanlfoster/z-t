@@ -1,124 +1,35 @@
 ---
 title: Header
 ---
-<div class="header bar-fixed-top">
-    <div class="header-container">
+<div class="header-container">
+    <header class="navbar top-bar navbar-fixed-top" role="navigation">
 
-        <div class="accessibility-links">
-            <a tabindex="1" class="sr-only vis-focusable" href="#main-content">Skip to content</a>
-            <a tabindex="2" class="sr-only vis-focusable" href="#main-footer">Skip to footer navigation</a>
+        <div class="row l-center-1200">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".bs-navbar-collapse">
+                    <span class="sr-only">Toggle Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="imgs/logo/logo-tourism-australia.png" alt="Australia" title="Australia">
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <nav class="navbar-collapse bs-navbar-collapse collapse" role="navigation">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Things to do</a></li>
+                    <li><a href="#">Where to go</a></li>
+                    <li><a href="#">Plan your trip</a></li>
+                    <li class="toggle-search"><a href="#"><span class="icon icon-32 icon-green-search" aria-hidden="true"></span><span class="text-hidden-narrow"> </span></a></li>
+                    <li class="like-this"><a href="#"><span class="icon icon-32 icon-red-heart" aria-hidden="true"></span><span class="text-hidden-narrow">  + 3</span></a></li>
+                </ul>
+            </nav>
         </div>
 
-        <div id="main-navigation">
-            {{! These bars have been set up for development purposes only at this point, they were needed to get some idea of how things might work together... }}
+    </header>
 
-            {{! NOTICE-BAR: this bar will only be visible when a notice is available... }
-            <div class="nav-bar notice-bar bar-scroll-top">
-                <div class="row l-center-1200">
-                    <p class="notice-text notice-title">News alert</p>
-                    <p class="notice-text notice-summary">Lorem ipsum dolor sit amet consecuter. Ut enim ad minim. <a href="#">View the announcement</a></p>
-                    <button class="notice-close"><span class="icon icon-16 icon-close" aria-hidden="true"></span></button>
-                </div>
-            </div>
-
-            {{! ARRIVAL-BAR: this bar will only be visible on arrival, scrolling will move it out of view and fix the header to the top... }}
-            <div class="nav-bar arrival-bar bar-scroll-top">
-                <div class="row l-center-1200">
-                    <ul class="nav-bar-nav">
-                        <li class="is-current"><a href="#">Holiday in Australia</a></li>
-                        <li><a href="#">Plan a Business Event</a></li>
-                        <li class="header-byline"><span>The official Australian tourism website</span></li>
-                    </ul>
-                </div>
-            </div>
-
-            {{! TOP_BAR: this bar will always be visiable, it will remain fixed to the top of the viewport at all times except on arrival... }}
-            <div class="nav-bar navigation-bar">
-                <div class="row l-center-1200">
-
-                    {{! BEGIN: MASTHEAD }}
-                    <div class="header-masthead">
-                        {{!
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".bs-navbar-collapse">
-                            <span class="sr-only">Toggle Navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        }}
-                        <a class="nav-bar-toggle" href="#main-navigation">
-                            <span class="sr-only">Toggle Navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </a>
-
-                        <a class="logo-masthead" href="#" tabindex="-1">
-                            <img src="imgs/logo/logo_australia_com.png" alt="Australia" title="Australia">
-                        </a>
-                    </div>
-                    {{! END: MASTHEAD }}
-
-                    <div class="main-nav-panel">
-                        {{! BEGIN: SUPLIMENTRY NAV }}
-                        <ul class="nav-bar-nav nav-bar-right">
-                            <li class="toggle-home">
-                                <a href="#" tabindex="-1"><span class="icon icon-32 icon-home" aria-hidden="true"></span></a>
-                            </li>
-                            <li class="toggle-search has-children">
-                                <a href="#"><span class="icon icon-32 icon-search" aria-hidden="true"></span></a>
-                                <ul class="nav-bar-panel">
-                                    <li class="nav-bar-panel-content">
-                                        Mega menu content for "Search"
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="toggle-map has-children">
-                                <a href="#"><span class="icon icon-32 icon-map" aria-hidden="true"></span></a>
-                                <ul class="nav-bar-panel">
-                                    <li class="nav-bar-panel-content">
-                                        Mega menu content for "Map"
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="toggle-my-trip">
-                                <a href="#" tabindex="-1"><span class="icon icon-32 icon-heart circle" aria-hidden="true"></span><span class="type-plus"> +</span> 30</a>
-                            </li>
-                        </ul>
-                        {{! END: SUPLIMENTRY NAV }}
-
-                        {{! BEGIN: MAIN NAV }}
-                        <ul class="nav-bar-nav nav-bar-left">
-                            <li class="has-children">
-                                <a href="#">Things to do</a>
-                                <ul class="nav-bar-panel">
-                                    <li class="nav-bar-panel-content">
-                                        Mega menu content for "Thing to do"
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="has-children">
-                                <a href="#">Where to go</a>
-                                <ul class="nav-bar-panel">
-                                    <li class="nav-bar-panel-content">
-                                        Mega menu content for "Where to go"
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="has-children">
-                                <a href="#">Plan your trip</a>
-                                <ul class="nav-bar-panel">
-                                    <li class="nav-bar-panel-content">
-                                        Mega menu content for "Plan your trip"
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                        {{! END: MAIN NAV }}
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
 </div>

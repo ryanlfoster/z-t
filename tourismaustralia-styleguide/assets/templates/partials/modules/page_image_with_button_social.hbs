@@ -17,13 +17,15 @@ title: Image With Button
 
             </div>
             <!--[if (lt IE 9) & (!IEMobile)]>
-                <img src='imgs/placeholders/image_with_buttons.jpg' alt=''>
+            <img src='imgs/placeholders/image_with_buttons.jpg' alt=''>
             <![endif]-->
         </div>
 
         <div class="image-content-container">
 
             <div class="image-content">
+
+                {{> socialimage}}
 
                 <hr>
                 {{#parseJSON '{"quote_copy": "“It was amazing that a running two year old could stop to stare at the great vastness of Australia, and it gave me this beautiful photo.”"}'}}
@@ -38,7 +40,7 @@ title: Image With Button
     </div>
     <div class="image-ugc-copyright">
         <div class="image-ugc-copyright-container">
-            {{#parseJSON '{"copyright_by_copy": "Tiat Yen Obi,", "copyright_detail_copy": "Petaling Jaya, Selangor, Twelve Apostles, Port Ca"}'}}
+            {{#parseJSON '{"copyright_by_copy": "Tiat Yen Obi,", "copyright_detail_copy": " Petaling Jaya, Selangor, Twelve Apostles, Port Ca"}'}}
                 {{> image_copyright}}
             {{/parseJSON}}
 

@@ -22,15 +22,15 @@ import com.citytechinc.cq.component.annotations.widgets.DialogFieldSet;
 	@Listener(name = "afteredit", value = "REFRESH_PAGE"), @Listener(name = "afterinsert", value = "REFRESH_PAGE") })
 public class SponsorsSpace {
 	@DialogField(tab = 1)
-	@DialogFieldSet(border = false, collapsible = false, namePrefix = "./sponsor1/")
+	@DialogFieldSet(border = false, collapsible = false, namePrefix = "sponsor1/")
 	private final SponsorsSpaceProperties sponsor1;
 
 	@DialogField(tab = 2)
-	@DialogFieldSet(border = false, collapsible = false, namePrefix = "./sponsor2/")
+	@DialogFieldSet(border = false, collapsible = false, namePrefix = "sponsor2/")
 	private final SponsorsSpaceProperties sponsor2;
 
 	@DialogField(tab = 3)
-	@DialogFieldSet(border = false, collapsible = false, namePrefix = "./sponsor3/")
+	@DialogFieldSet(border = false, collapsible = false, namePrefix = "sponsor3/")
 	private final SponsorsSpaceProperties sponsor3;
 
 	/**

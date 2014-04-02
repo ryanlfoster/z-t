@@ -178,7 +178,7 @@
 			</div>
 			<div class="field-container">
 				<div class="description-box description-box-outer">
-					<h4 class="description-box-headline">Photos</h4>
+					<h4 class="description-box-headline">Photo</h4>
 					<p class="description-box-copy">
 						<em>Jpeg, Gif or PNG - 5mb file limit. Your image should be
 							at least 600 x 600px</em>

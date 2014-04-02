@@ -148,7 +148,6 @@ public class FormEmailServlet extends SlingAllMethodsServlet {
 					resourceNode.setProperty("jcr:mimeType", contentType);
 					resourceNode.setProperty("jcr:data", contentValue);
 					resourceNode.setProperty("cq:distribute", true);
-
 				} catch (Exception e) {
 					LOG.error(e.getMessage());
 				}

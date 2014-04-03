@@ -25,7 +25,8 @@
             mosaic_back: ".mosaic-column-back", // reference to back
             mosaic_content: ".mosaic-item-detail-container", // reference to content
             mosaic_grid2: ".mosaic-grid-2", // parent grid 2 row container
-            mosaic_grid_content: ".mosaic-grid-2-content" // reference to content block for 2 grid
+            mosaic_grid_content: ".mosaic-grid-2-content", // reference to content block for 2 grid
+            mosaic_detail_close_btn: ".mosaic-detail-close-btn" // close button on detail panel
     };
 
     // The actual plugin constructor
@@ -53,6 +54,7 @@
         var $mosaic_container = $(scope.element).find(scope.options.mosaic_container);
         var $mosaic_item = $(scope.element);
         var $mosaic_content = $(scope.element).find(scope.options.mosaic_content);
+        var $mosaic_detail_close_btn = $(scope.element).find(scope.options.mosaic_detail_close_btn);
 
         $mosaic_container.click(function(e){
 
@@ -84,6 +86,11 @@
         });
         $mosaic_container.mouseleave(function(e){
             $mosaic_item.removeClass("is-flip");
+            e.preventDefault();
+        });
+
+        $mosaic_detail_close_btn.click(function(e){
+            $mosaic_container.trigger("click");
             e.preventDefault();
         });
     };

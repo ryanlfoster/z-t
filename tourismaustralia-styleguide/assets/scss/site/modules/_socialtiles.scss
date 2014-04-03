@@ -7,6 +7,11 @@
         padding-bottom: pxtoem(55px);
     }
 }
+.theme-mosaic-social-back a{
+  color: #FFF;
+  text-decoration: initial;
+  border-bottom: 1px solid #fff;
+}
 
 .socialtiles-linethrough {
   margin: 1em 0;
@@ -14,4 +19,21 @@
 
 .socialtiles-linethrough .line-through-container-biline {
   color: $type-main-heading-colour;
+}
+
+.mosaic-socialtiles-icon {
+  position: absolute;
+  bottom: .6em;
+  right: .6em;
+}
+.mosaic-socialtiles-close-icon {
+  position: absolute;
+  top: .6em;
+  right: .6em;
+}
+
+// STATIC TILE, only shows front of card and does not flip or expand
+// used to show twitter or facebook quote/comment
+.socialtiles-static-front {
+  background-color: $mosaic_social_tile_static_bg;
 }

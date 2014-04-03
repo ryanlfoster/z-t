@@ -20,6 +20,13 @@
     color: #00535e;
   }
 }
+.theme-mosaic-social-detail {
+  background-color: $mosaic_social_tile_static_bg;
+  color: $mosaic_social_tile_static_text_color;
+  font-size: .95em;
+  padding: 4em 3em 3em;
+}
+
 .theme-mosaic-social-back {
   background-color: #297c9a;
   color: #FFF;

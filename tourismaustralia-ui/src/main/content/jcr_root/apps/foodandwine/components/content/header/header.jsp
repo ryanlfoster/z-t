@@ -4,15 +4,6 @@
 	import="com.australia.foodandwine.components.content.header.Header"%>
 
 <c:set var="Header" value="<%=new Header(slingRequest) %>" />
-<c:if test="${Header.instanceModeName ne 'prod' }">
-	<script
-		src="//assets.adobedtm.com/6fb6e65091abb6d979e09e86ef9f60bfab63fe46/satelliteLib-a7cbeb25ca5db5731606b57a50a7f7440e287963-staging.js"></script>
-</c:if>
-
-<c:if test="${Header.instanceModeName eq 'prod' }">
-	<script
-		src="//assets.adobedtm.com/6fb6e65091abb6d979e09e86ef9f60bfab63fe46/satelliteLib-7fd9882a28dbbd42607f18b62a0ecd9666e033fe.js"></script>
-</c:if>
 <div class="navbar-outer">
 	<header class="navbar make-black">
 		<div class="navbar-container">

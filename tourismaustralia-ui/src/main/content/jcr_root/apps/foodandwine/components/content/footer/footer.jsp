@@ -7,8 +7,6 @@
 
 <c:set var="footer" value="<%=new Footer(slingRequest) %>" />
 
-<script type="text/javascript">_satellite.pageBottom();</script>
-
 <footer id="main-footer">
 	<div class="footer-container">
 		<div class="footer">

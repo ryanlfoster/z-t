@@ -68,7 +68,7 @@
 					<select class="input-select" name="selectTerritory"
 						id="selectTerritory">
 						<option selected="selected" disabled="disabled" value="">Select
-							a state or territory*</option>
+							a state*</option>
 						<option>Australian Capital Territory</option>
 						<option>New South Wales</option>
 						<option>Northern Territory</option>

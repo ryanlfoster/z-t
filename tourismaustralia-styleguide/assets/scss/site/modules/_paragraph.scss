@@ -15,7 +15,7 @@
 
   @include breakpoint(md) {
     & > .text >  p {
-      padding-left: 26.3%;
+      padding-left: 26.8%;
     }
   }
 
@@ -29,7 +29,7 @@
 
     & > .text >  p {
       padding-right: 28em;
-      padding-left: 19.5em;
+      padding-left: 19.7em;
       max-width: pxtoem(1200px);
       margin-left: auto;
       margin-right: auto;
@@ -38,6 +38,8 @@
   }
 
 }
+
+// same styles applied for testing with styleguide
 .styleguide .paragraph-article {
   background: #fff;
 
@@ -45,12 +47,11 @@
   & >  p {
     padding-left: pxtoem(15px);
     padding-right: pxtoem(15px);
-    color: red;
   }
 
   @include breakpoint(md) {
     & >  p {
-      padding-left: 26.3%;
+      padding-left: 26.8%;
     }
   }
 
@@ -64,7 +65,7 @@
 
     & >  p {
       padding-right: 28em;
-      padding-left: 19.5em;
+      padding-left: 19.7em;
       max-width: pxtoem(1200px);
       margin-left: auto;
       margin-right: auto;

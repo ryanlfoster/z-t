@@ -13,4 +13,9 @@ public final class PathUtils {
 
 	public static final String ATDW_DATA_PATH = OZCOM_ROOT_PATH + "/atdw";
 
+	public static final String USER_GENERATED_PATH = "/content/usergenerated/";
+
+	public static final String FOOD_AND_WINE_EXPERIENCES = FOOD_AND_WINE_ROOT_PATH + "/experiences";
+
+	public static final String FOOD_AND_WINE_USER_GENERATED = "/content/usergenerated/food-and-wine";
 }

@@ -2,69 +2,51 @@ package com.australia.foodandwine.components.content.otherExperiences;
 
 public class OtherExperiencesArticleListProperties {
 
-	private String articleTitle;
-	private String articleSubTitle;
+	private final String title;
+	private final String path;
+	private final String image;
+	private final String city;
+	private final String state;
+	private final String[] tags;
+	private final String icon;
 
-	private String articleImage;
-	private String articlePath;
-	private String articleDescription;
-	private String articleOverLayLogoPath;
-	private String articleOverlayText;
-
-	public String getArticleOverLayLogoPath() {
-		return articleOverLayLogoPath;
+	public OtherExperiencesArticleListProperties(String title, String path, String image, String city, String state,
+		String[] tags, String icon) {
+		this.title = title;
+		this.path = path;
+		this.image = image;
+		this.city = city;
+		this.state = state;
+		this.tags = tags;
+		this.icon = icon;
 	}
 
-	public void setArticleOverLayLogoPath(String articleOverLayLogoPath) {
-		this.articleOverLayLogoPath = articleOverLayLogoPath;
+	public String getTitle() {
+		return title;
 	}
 
-	public String getArticleOverlayText() {
-		return articleOverlayText;
+	public String getPath() {
+		return path;
 	}
 
-	public void setArticleOverlayText(String articleOverlayText) {
-		this.articleOverlayText = articleOverlayText;
+	public String getImage() {
+		return image;
 	}
 
-	public String getArticleSubTitle() {
-		return articleSubTitle;
+	public String getCity() {
+		return city;
 	}
 
-	public void setArticleSubTitle(String articleSubTitle) {
-		this.articleSubTitle = articleSubTitle;
+	public String getState() {
+		return state;
 	}
 
-	public String getArticlePath() {
-		return articlePath;
+	public String[] getTags() {
+		return tags;
 	}
 
-	public void setArticlePath(String articlePath) {
-		this.articlePath = articlePath;
-	}
-
-	public String getArticleDescription() {
-		return articleDescription;
-	}
-
-	public void setArticleDescription(String articleDescription) {
-		this.articleDescription = articleDescription;
-	}
-
-	public String getArticleTitle() {
-		return articleTitle;
-	}
-
-	public void setArticleTitle(String articleTitle) {
-		this.articleTitle = articleTitle;
-	}
-
-	public String getArticleImage() {
-		return articleImage;
-	}
-
-	public void setArticleImage(String articleImage) {
-		this.articleImage = articleImage;
+	public String getIcon() {
+		return icon;
 	}
 
 }

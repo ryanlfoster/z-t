@@ -1,5 +1,5 @@
 .small-image-text {
-	margin-bottom: 30px;
+	margin-bottom: 1em;
 	position: relative;
 
 	@extend .clearfix;
@@ -29,7 +29,7 @@
 
 	@include breakpoint(sm){
 		bottom : 0;
-		padding: 0 0 0 20px;
+		padding: 0 0 0 1em;
 		right: 0;
 		width: 40%;
 	    position: absolute;

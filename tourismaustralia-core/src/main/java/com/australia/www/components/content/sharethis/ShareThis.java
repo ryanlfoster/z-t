@@ -23,7 +23,7 @@ public class ShareThis {
 	@DialogField(fieldLabel = "Share URL", listeners = { @Listener(name = "selectionchanged", value = "function(){var customurl = this.findParentByType('dialog').getField('./customUrl'); this.getValue()=='custom'?customurl.show():customurl.hide()}") })
 	@Selection(type = Selection.RADIO, options = { @Option(value = "current", text = "Current Page"),
 		@Option(value = "share", text = "Share URL"), @Option(value = "custom", text = "Custom URL") })
-	private final String shareType;
+	private String shareType;
 
 	@DialogField(fieldLabel = "")
 	@PathField
@@ -37,9 +37,11 @@ public class ShareThis {
 		SlingScriptHelper sling = ((SlingBindings) request.getAttribute(SlingBindings.class.getName())).getSling();
 		ShareThisService shareThisService = sling.getService(ShareThisService.class);
 		accountId = shareThisService.getAccountId();
-
+		shareType = "current"; // default
 		ValueMap properties = request.getResource().adaptTo(ValueMap.class);
-		shareType = properties.get("shareType", "current");
+		if (properties != null) {
+			shareType = properties.get("shareType", "current");
+		}
 		if ("share".equals(shareType)) {
 			shareUrl = PathUtils.SHARE_ID_URL;
 		} else if ("custom".equals(shareType)) {

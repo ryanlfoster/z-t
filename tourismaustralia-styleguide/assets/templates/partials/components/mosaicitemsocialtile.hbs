@@ -1,5 +1,5 @@
 ---
-title: Mosaic Item Option
+title: Mosaic Item - Social Tile
 ---
 
 <div class="mosaic-item">
@@ -8,7 +8,7 @@ title: Mosaic Item Option
 
             <div class="mosaic-column-front flip-front">
                 <div class="mosaic-media mosaic-primary">
-                    <img src="imgs/mosaic/img10.jpg" alt=""/>
+                    <img src="../../../imgs/mosaic/img10.jpg" alt=""/>
                 </div>
                 <div class="mosaic-overlay">
                     <div class="vertical-container">
@@ -24,9 +24,10 @@ title: Mosaic Item Option
             <div class="mosaic-column-back mosaic-content flip-back mosaic-back theme-arts">
                 <div class="vertical-container">
                     <div class="vertical-content text-center">
-                        {{#parseJSON '{"src": "imgs/icons/art_culture_white_outline.png"}'}}
-                            {{> icon_generic }}
-                        {{/parseJSON}}
+                        <div class="icon-diamond-container arts outline-white">
+                            <span class="icon-diamond-diamond icon-font-Diamond"></span>
+                            <span class="icon-diamond-icon icon-font-ArtsCulture_icon"></span>
+                        </div>
                         <p class="type-destination text-line-wrapper">Sydney Festival</p>
                         <p class="type-date">January 5 - 27</p>
                     </div>

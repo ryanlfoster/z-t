@@ -20,12 +20,6 @@
                         { "text": "paragraph_dynamic" },
                         { "text": "fullsizevideo" },
                         { "text": "textlargevideo" },
-                        { "text": "whatyoucansee_nobuttons" },
-                        { "text": "mosaic_highlights_grid_1" },
-                        { "text": "mosaic_highlights_grid_4" },
-                        { "text": "mosaic_highlights_grid_4_1" },
-                        { "text": "mosaic_whatscomingup_grid_1" },
-                        { "text": "mosaic_whatscomingup_grid_4" },
                         { "text": "linethroughtextfullhr" }
                     ]
                 },
@@ -106,15 +100,34 @@
                     "item": [
                         { "text": "tagclouditem" },
                         { "text": "home_explore_summary_map" },
-                        { "text": "mosaicitem" },
                         { "text": "linethroughtext" },
                         { "text": "dropdown" },
                         { "text": "sectionintro" },
+                        { "text": "text2columnvideo" }
+                    ]
+                },
+                {
+                    "text" : "Mosaic",
+                    "item": [
+                        { "text": "mosaicitemhighlights" },
+                        { "text": "mosaicitemevent" },
+                        { "text": "mosaicitemsocialtile" },
+                        { "text": "mosaicitem_detail" },
                         { "text": "whatyoucansee" },
                         { "text": "mosaic_whatscomingup" },
-                        { "text": "text2columnvideo" },
-                        { "text": "carousel_standard" },
-                        { "text": "carousel_mobile" }
+                        { "text": "whatyoucansee_nobuttons" },
+                        { "text": "mosaic_highlights_grid_1" },
+                        { "text": "mosaic_highlights_grid_4" },
+                        { "text": "mosaic_highlights_grid_4_1" },
+                        { "text": "mosaic_whatscomingup_grid_1" },
+                        { "text": "mosaic_whatscomingup_grid_4" }
+                    ]
+                },
+                {
+                    "text" : "Carousel",
+                    "item": [
+                        { "text": "carousel_mobile" },
+                        { "text": "carousel_standard" }
                     ]
                 }
             ]

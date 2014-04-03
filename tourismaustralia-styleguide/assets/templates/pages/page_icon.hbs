@@ -38,11 +38,7 @@ layout: layout-base.hbs
         </div>
     </div>
 
-    <div class="row l-padding-between-item-fill-white">
-        <div class="row l-center-1200">
-            SOCIAL UGC FULL SCREEN
-        </div>
-    </div>
+    {{> page_image_with_date }}
 
     <div class="l-padding-between-item-fill-white">
         {{> mapwithlinkstate }}
@@ -62,8 +58,10 @@ layout: layout-base.hbs
         {{/parseJSON}}
     </div>
 
-    <div class="l-padding-between-item-fill-white">
-        {{> makeyourtriphappen}}
+    <div class="row l-padding-between-item-fill-white">
+        <div class="row l-center-1200">
+            {{> whatyoucansee_nobuttons}}
+        </div>
     </div>
 
     <div class="row l-padding-between-item-fill-white">

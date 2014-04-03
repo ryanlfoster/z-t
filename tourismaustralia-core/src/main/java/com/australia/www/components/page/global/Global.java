@@ -19,7 +19,6 @@ import com.citytechinc.cq.component.annotations.widgets.NumberField;
 import com.citytechinc.cq.component.annotations.widgets.Selection;
 import com.day.cq.wcm.api.Page;
 import com.day.cq.wcm.api.PageManager;
-import com.day.cq.wcm.api.designer.Design;
 import com.day.cq.wcm.commons.WCMUtils;
 import com.day.cq.wcm.foundation.Image;
 
@@ -85,7 +84,7 @@ public class Global {
 
 		url = serverName + currentPage.getPath() + ".html";
 
-		String tempFavIcon = currentPage.adaptTo(Design.class).getPath() + "/favicon.ico";
+		String tempFavIcon = properties.get("cq:designPath", StringUtils.EMPTY) + "/favicon.ico";
 		if (request.getResourceResolver().getResource(tempFavIcon) == null) {
 			favIcon = null;
 		} else {

@@ -102,7 +102,7 @@ public class AtdwHighlights {
     private final ATDWProductSearchParametersBuilder baseBuilder;
 
     /** The path segment corresponding to locale.  Will be passed to product service to obtain results in correct language */
-    private final String localeSegment;
+    private final Resource localeResource;
 
     private ValueMap properties;
 
@@ -125,7 +125,7 @@ public class AtdwHighlights {
         type = properties.get(Constants.NAME_TYPE, "");
         typeArgument = properties.get(Constants.NAME_TYPE_ARGUMENT, "");
 
-        localeSegment = PathUtils.getLocaleSegmentFromOzcomContentPath(request.getResource().getPath());
+        localeResource = PathUtils.getLanguageResource(resource);
 
         showAccommodation = properties.get(Constants.NAME_SHOW_ACCOMMODATIONS, false);
         showAttraction = properties.get(Constants.NAME_SHOW_ATTRACTIONS, false);
@@ -229,7 +229,7 @@ public class AtdwHighlights {
         }
 
         public String getAllProductsPath() {
-            return PathUtils.getAllAtdwProductsForCategoryPath(localeSegment, category.toString());
+            return PathUtils.getAllAtdwProductsForCategoryPath(localeResource, category.toString());
         }
 
         public List<ATDWProduct> getProducts() {

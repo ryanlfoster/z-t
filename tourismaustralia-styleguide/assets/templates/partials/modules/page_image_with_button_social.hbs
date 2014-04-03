@@ -38,14 +38,12 @@ title: Image With Button
 
         </div>
     </div>
-    <div class="image-ugc-copyright">
-        <div class="image-ugc-copyright-container">
-            {{#parseJSON '{"copyright_by_copy": "Tiat Yen Obi,", "copyright_detail_copy": " Petaling Jaya, Selangor, Twelve Apostles, Port Ca"}'}}
-                {{> image_copyright}}
+        <div class="large-image-social-mention make-white">
+            {{#parseJSON '{"social_mention_bold_text": "Tiat Yen Obi,", "social_mention_regular_text": "Petaling Jaya, Selangor, Twelve Apostles, Port Ca"}'}}
+                {{> socialmention}}
             {{/parseJSON}}
 
         </div>
-    </div>
 </div>
 
 

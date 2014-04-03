@@ -1,0 +1,39 @@
+
+.social-mention{
+  padding: 1em;
+  display: table;
+  margin: 0 auto;
+  @include breakpoint(md) {
+    margin: 0 10% 0 auto;
+  }
+}
+
+.social-mention-container{
+  min-width: pxtoem(180px);
+}
+
+.social-mention-image {
+  margin-bottom: .5em;
+  display: table-cell;
+  padding:0;
+  @include breakpoint(md) {
+    margin-bottom: 0;
+    width: pxtoem(28px);
+  }
+}
+
+.social-mention-details {
+  padding: 0;
+  font-size: .88em;
+  padding-left: .4em;
+  display: table-cell;
+  text-align: left;
+  height: 100%;
+  vertical-align: middle;
+  width: 100%;
+  p{
+    line-height: 1.3em;
+    padding-top: pxtoem(4px);
+    margin:0;
+  }
+}

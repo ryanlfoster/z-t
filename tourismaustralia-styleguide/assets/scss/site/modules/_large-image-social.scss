@@ -1,0 +1,55 @@
+.large-image-social {
+position: relative;
+}
+
+.large-image-social-frame-height{
+  @include breakpoint(lg) {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    line-height: pxtoem(570px);
+  }
+}
+
+.large-image-social-content{
+  background: #fff;
+  padding: 1em;
+  text-align: center;
+  @include breakpoint(md) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 63%;
+    overflow: visible;
+    margin: auto;
+    background: inherit;
+    padding: 0;
+
+  }
+}
+.large-image-social-content .blockquote-quote-pull{
+  margin-left:auto ;
+  margin-right:auto ;
+}
+.large-image-social-content hr {
+  max-width: pxtoem(282px);
+}
+
+.large-image-social-media img{
+  width:100%;
+  height:auto;
+  min-width: 100%;
+  @include breakpoint(lg) {
+    vertical-align:middle;
+    margin:-50% -100%;
+  }
+}
+
+.large-image-social-mention {
+  width:100%;
+  background: #fff;
+ }

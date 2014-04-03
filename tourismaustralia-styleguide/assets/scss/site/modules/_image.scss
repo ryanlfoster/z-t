@@ -238,55 +238,8 @@
 }
 
 .fullwidth-bg{
-    overflow: hidden;
-}
+   overflow: hidden;
+ }
 
-.image-ugc-copyright
-{
-  background: inherit;
-  position: absolute;
-  top: 190px;
-  @include breakpoint(sm) {
-    position: relative;
-    top: 0px;
-  }
-}
-.image-ugc-copyright-container
-{
-  padding: 10px 15px;
-  display: table;
-  margin: 0 0 0 auto;
-  @include breakpoint(sm) {
-    margin: 0 10% 0 auto;
-  }
-}
-.image-copyright-container {
-  min-width: 180px;
-  .image-copyright-image {
-    padding: 0;
-  }
-}
 
-.image-copyright-image {
-  margin-bottom: .5em;
-  @include breakpoint(sm) {
-    margin-bottom: 0;
-    width: 28px;
-  }
-}
-.image-copyright-details {
-  padding: 0;
-  font-size: .88em;
-  padding-left: .4em;
-  display: table-cell;
-  text-align: left;
-  height: 100%;
-  vertical-align: middle;
-  width: 100%;
-  p{
-    line-height: 1.3em;
-    padding-top: 4px;
-    margin:0;
-  }
-}
 

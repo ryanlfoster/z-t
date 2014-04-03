@@ -17,7 +17,7 @@ public enum SocialNetworkType {
 	@Option(text = "LinkedIn")
 	LINKEDIN("linkedin"),
 
-	@Option(text = "Google+")
+	@Option(text = "GooglePlus")
 	GOOGLEPLUS("googleplus"),
 
 	@Option(text = "Orkut")

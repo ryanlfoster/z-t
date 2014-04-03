@@ -24,7 +24,6 @@ CQ_Analytics.ClientContextMgr.addListener("storesinitialize", function (e) {
 		
 		var socnet_json = $.parseJSON(sharethis_json);
 		var country_found = false;
-		
 		// try to find a country specific list of social networks
 		$.each(socnet_json.shareThis, function(idx, obj) {
 			if(obj.country == country)  {
@@ -32,7 +31,6 @@ CQ_Analytics.ClientContextMgr.addListener("storesinitialize", function (e) {
 				addShareThisButtons(obj, share_url, page_title, page_desc);
 				return false;
 			}
-			
 		});
 		// use the default set if country specific is not found
 		if (!country_found) {
@@ -57,7 +55,6 @@ CQ_Analytics.ClientContextMgr.addListener("storesinitialize", function (e) {
 				"<img class='btn-bubble-std' src='/etc/designs/tourismaustralia/clientlibs/img/icons/" + socnet2 + "_outline.png' alt=" + obj.socialNetwork2 + ">" +
 				"<img class='btn-bubble-active' src='/etc/designs/tourismaustralia/clientlibs/img/icons/" + socnet2 + ".png' alt=" + obj.socialNetwork2 + ">" +
 		"</span></li>");
-
 	}
 	
 });

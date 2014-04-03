@@ -1,30 +1,70 @@
 $(document).ready(function(){
+
+    var button_selector = "a[data-atdw-category]";
+    var content_selector = "[data-atdw-show-cat]";
+    var select_selector = "select[data-atdw-select]";
+
     // Find each highlights container
-    $("div[data-atdw-path]").each(function(index, element){
+    $(".makeyourtriphappen-container").each(function(index, element){
 
-        var $elem = $(element);
+        var $component = $(element);
 
-        //TODO find the target div
-        var target = $elem.find("div[data-atdw-content]");
+        var $select = $component.find(select_selector);
 
-        var path = $elem.attr("data-atdw-path");
+        $select.change(function() {
+            selectCategory(this.value, $component);
+        });
 
         // Find each contained category selector
-        $elem.find("a[data-atdw-category]").each(function(index, element){
+        $component.find(button_selector).each(function(index, element){
 
-            var $elem = $(element);
+            var $button = $(element);
 
-            var category = $elem.attr("data-atdw-category");
+            var category = $button.attr("data-atdw-category");
 
-            $elem.bind("click", function(){
-                populateContent(path, category, target);
+            $button.bind("click", function(){
+                // We use the drop-down as the main selection mechanism to keep both select mechanisms in-sync
+                $select.val(category);
+                $select.change();
             });
+
+            if(index === 0) {
+                $select.val(category);
+                $select.change();
+            }
 
         });
     });
 
 
-    function populateContent(path, category, target){
+    function selectCategory(category, $component){
+
+        var categoryText;
+
+        $component.find(button_selector).each(function(index, element) {
+
+            var $elem = $(element);
+
+            if(category === $elem.attr("data-atdw-category")) {
+                $elem.addClass("is-active");
+                categoryText = $elem.find(".type-below-btn").text();
+            } else {
+                $elem.removeClass("is-active");
+            }
+
+        });
+
+        $component.find(content_selector).each(function(index, element) {
+
+            var $elem = $(element);
+
+            if(category === $elem.attr("data-atdw-show-cat")) {
+                $elem.show();
+            } else {
+                $elem.hide();
+            }
+
+        });
 
     }
 

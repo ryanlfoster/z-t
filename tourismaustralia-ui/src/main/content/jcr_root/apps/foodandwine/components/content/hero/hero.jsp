@@ -8,7 +8,7 @@
 <!-- test background for testing, whow the transparent menu respons -->
 <div class='faw-hero-home make-black'>
 	<div class="faw-hero-home-bg fullwidth-bg">
-		<div class="responsive-image" data-picture="" data-alt="">
+		<div class="responsive-image" data-picture="" data-alt="${hero.imageAltTag}">
 			<div data-src="${hero.imagePath}.adapt.1663.low.jpg" data-media="(min-width: 1px)"></div>
 			<div data-src="${hero.imagePath}.adapt.1663.medium.jpg" data-media="(min-width: 481px)"></div>
 			<div data-src="${hero.imagePath}.adapt.1663.high.jpg" data-media="(min-width: 769px)"></div>
@@ -17,10 +17,10 @@
 				<img src='${hero.imagePath}.adapt.1663.high.jpg'>
 			</noscript>
 		</div>
-	<%-- 	[if (lt IE 9) & (!IEMobile)]
-            <img src='${hero.imagePath }' alt=''>
-        [endif]
- --%>	</div>
+		<!--[if (lt IE 9) & (!IEMobile)]>
+            <img src='{hero.imagePath}.adapt.1663.high.jpg' alt=''>
+        <![endif]-->
+		</div>
 	<div class="faw-hero-home-container">
 		<div class="icon-logo-withlines-container">
 			<hr class="icon-logo-withlines-hr">

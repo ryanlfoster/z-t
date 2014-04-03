@@ -51,11 +51,11 @@ class Constants {
     public static final int MOSAIC_COLUMN_COUNT = 3;
 
     public static String getStandardIconPath(ATDWCategory category) {
-        return ICON_BASE_PATH + category.name().toLowerCase() + "_outline.png";
+        return ICON_BASE_PATH + getImageString(category) + "_outline.png";
     }
 
     public static String getActiveIconPath(ATDWCategory category) {
-        return ICON_BASE_PATH + category.name().toLowerCase() + ".png";
+        return ICON_BASE_PATH + getImageString(category) + ".png";
     }
 
     public static String getShowPropertyName(ATDWCategory category) {
@@ -69,6 +69,30 @@ class Constants {
             case TRANSPORT: return NAME_SHOW_TRANSPORT;
             default:
                 return "";
+        }
+    }
+
+    public static String getDisplayString(ATDWCategory category) {
+        switch (category) {
+            case ACCOMEDATIONS: return "Accommodation";
+            case ATTRACTION: return "Attractions";
+            case RESTAURANT: return "Restaurants";
+            case TOUR: return "Tours";
+            case HIRE: return "Hire";
+            case EVENT: return "Events";
+            case TRANSPORT: return "Transport";
+            default:
+                return "";
+        }
+    }
+
+    public static String getImageString(ATDWCategory category) {
+        switch (category) {
+            case ACCOMEDATIONS: return "accommodation";
+            case TOUR: return "tours";
+            case EVENT: return "events";
+            default:
+                return category.name().toLowerCase();
         }
     }
 

@@ -5,15 +5,13 @@ import com.australia.atdw.domain.ATDWProduct;
 import com.australia.atdw.domain.ATDWProductSearchParameters;
 import com.australia.atdw.domain.ATDWProductSearchParametersBuilder;
 import com.australia.atdw.service.ATDWProductService;
-import com.citytechinc.cq.component.annotations.Component;
-import com.citytechinc.cq.component.annotations.DialogField;
-import com.citytechinc.cq.component.annotations.Option;
-import com.citytechinc.cq.component.annotations.Tab;
+import com.australia.utils.PathUtils;
+import com.citytechinc.cq.component.annotations.*;
 import com.citytechinc.cq.component.annotations.widgets.Selection;
 import com.day.cq.tagging.Tag;
 import com.day.cq.tagging.TagManager;
+import com.day.cq.wcm.api.PageManager;
 import com.day.cq.wcm.foundation.forms.MergedValueMap;
-import org.apache.felix.scr.annotations.Reference;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ValueMap;
@@ -21,13 +19,15 @@ import org.apache.sling.api.scripting.SlingBindings;
 import org.apache.sling.api.scripting.SlingScriptHelper;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 /**
+ * Backing-bean for the ATDW Highlights ("make your trip happen") component.
+ *
  * Created by gsnyder on 4/1/14.
  */
-@Component(value="ATDW Highlights", tabs={@Tab(title=Constants.TAB_GENERAL), @Tab(title=Constants.TAB_CATEGORIES)})
+@Component(value="ATDW Highlights", tabs={@Tab(title=Constants.TAB_GENERAL), @Tab(title=Constants.TAB_CATEGORIES)},
+        listeners = @Listener(name="afteredit", value="REFRESH_PAGE"))
 public class AtdwHighlights {
 
     private static Tag selectPageTagForSearch(TagManager tagManager, Resource resource) {
@@ -41,13 +41,10 @@ public class AtdwHighlights {
                 firstStateTag = tag;
             }
         }
-        return firstStateTag; // No city tag found -- return the first state tag (which may be null)
+        return firstStateTag; // No city tag found -- return the first state tag (which may itself be null)
     }
 
-    @Reference
-    private ATDWProductService productService;
-
-    private final String path;
+    private final ATDWProductService productService;
 
     @DialogField(fieldLabel="Component Title", name="./"+Constants.NAME_TITLE, tab = 1)
     private final String title;
@@ -101,21 +98,24 @@ public class AtdwHighlights {
     @Selection(type=Selection.CHECKBOX, options=@Option(value="true"))
     private final boolean showTransport;
 
+    /** Builder to be further configured with category information in order to populate each category tab */
     private final ATDWProductSearchParametersBuilder baseBuilder;
+
+    /** The path segment corresponding to locale.  Will be passed to product service to obtain results in correct language */
+    private final String localeSegment;
 
     private ValueMap properties;
 
+    private Tag selectedTag;
+
     public AtdwHighlights(SlingHttpServletRequest request) {
 
-        if(productService == null) {
-            SlingBindings bindings = (SlingBindings) request.getAttribute(SlingBindings.class.getName());
-            SlingScriptHelper slingScriptHelper = bindings.getSling();
-            productService = slingScriptHelper.getService(ATDWProductService.class);
-        }
+        SlingBindings bindings = (SlingBindings) request.getAttribute(SlingBindings.class.getName());
+        SlingScriptHelper slingScriptHelper = bindings.getSling();
+        productService = slingScriptHelper.getService(ATDWProductService.class);
 
-        path = request.getResource().getPath();
-
-        properties = request.getResource().adaptTo(ValueMap.class);
+        Resource resource = request.getResource();
+        properties = resource.adaptTo(ValueMap.class);
 
         // properties will be null when creating a new node in author, use a blank map for initial display
         properties = properties == null ? new MergedValueMap(new ArrayList<Resource>()) : properties;
@@ -125,6 +125,8 @@ public class AtdwHighlights {
         type = properties.get(Constants.NAME_TYPE, "");
         typeArgument = properties.get(Constants.NAME_TYPE_ARGUMENT, "");
 
+        localeSegment = PathUtils.getLocaleSegmentFromOzcomContentPath(request.getResource().getPath());
+
         showAccommodation = properties.get(Constants.NAME_SHOW_ACCOMMODATIONS, false);
         showAttraction = properties.get(Constants.NAME_SHOW_ATTRACTIONS, false);
         showRestaurants = properties.get(Constants.NAME_SHOW_RESTAURANTS, false);
@@ -133,26 +135,9 @@ public class AtdwHighlights {
         showEvents = properties.get(Constants.NAME_SHOW_EVENTS, false);
         showTransport = properties.get(Constants.NAME_SHOW_TRANSPORT, false);
 
-        // Initialize the base search parameters builder to be used for category searches
-        baseBuilder = new ATDWProductSearchParametersBuilder();
-        if(Constants.TYPE_TAG.equals(type)) {
-            Resource resource = request.getResource();
-            TagManager tagManager = resource.getResourceResolver().adaptTo(TagManager.class);
-            Tag selectedTag = selectPageTagForSearch(tagManager, resource);
-            if(selectedTag != null) {
-                baseBuilder.setTags(Arrays.asList(selectedTag.getTagID()));
-            }
-        } else if(Constants.TYPE_STATE.equals(type)) {
-            baseBuilder.setTags(Arrays.asList(Constants.PLACE_TAG_PREFIX + typeArgument));
-        } else if(Constants.TYPE_CITY.equals(type)) {
-            baseBuilder.setText(typeArgument);
-        } else if(Constants.TYPE_TERM.equals(type)) {
-            baseBuilder.setText(typeArgument);
-        }
-    }
-
-    public String getPath() {
-        return path;
+        PageManager pageManager = resource.getResourceResolver().adaptTo(PageManager.class);
+        Resource pageResource = pageManager.getContainingPage(resource).getContentResource();
+        baseBuilder = getBaseBuilder(type, typeArgument, pageResource);
     }
 
     public String getTitle() {
@@ -163,12 +148,12 @@ public class AtdwHighlights {
         return text;
     }
 
-    public String getType() {
-        return type;
+    public boolean isTagBased() {
+        return Constants.TYPE_TAG.equals(type);
     }
 
-    public String getTypeArgument() {
-        return typeArgument;
+    public String getSelectedTagId() {
+        return selectedTag == null ? "NONE" : selectedTag.getTagID();
     }
 
     public List<Category> getActiveCategories() {
@@ -182,17 +167,49 @@ public class AtdwHighlights {
         return activeCategories;
     }
 
-    private List<ATDWProduct> getProducts(ATDWCategory category) {
-        ATDWProductSearchParameters params = baseBuilder.setCategory(category).build();
-        return productService.search(params);
+    private ATDWProductSearchParametersBuilder getBaseBuilder(String type, String typeArgument, Resource resource) {
+        // Initialize the base search parameters builder to be used for category searches
+        ATDWProductSearchParametersBuilder baseBuilder = new ATDWProductSearchParametersBuilder();
+        if(Constants.TYPE_TAG.equals(type)) {
+            TagManager tagManager = resource.getResourceResolver().adaptTo(TagManager.class);
+            Tag selectedTag = selectPageTagForSearch(tagManager, resource);
+            this.selectedTag = selectedTag;  // Save the selected tag to display to author
+            if(selectedTag != null) {
+                // remove segments beyond 'ta:places/{state}/{city}"
+                while(selectedTag.getTagID().split("/").length > 3) {
+                    selectedTag = selectedTag.getParent();
+                }
+                // get the city title if present and switch pointer to the state tag parent
+                if(selectedTag.getTagID().split("/").length == 3) {
+                    baseBuilder.setCity(selectedTag.getTitle());
+                    selectedTag = selectedTag.getParent();
+                }
+                // get the state title if present
+                if(selectedTag.getTagID().split("/").length == 2) {
+                    baseBuilder.setState(selectedTag.getTitle());
+                }
+            }
+        } else if(Constants.TYPE_STATE.equals(type)) {
+            baseBuilder.setState(typeArgument);
+        } else if(Constants.TYPE_CITY.equals(type)) {
+            baseBuilder.setCity(typeArgument);
+        } else if(Constants.TYPE_TERM.equals(type)) {
+            baseBuilder.setText(typeArgument);
+        }
+        return baseBuilder;
     }
 
     public class Category {
 
         private final ATDWCategory category;
+        private final List<ATDWProduct> products;
 
         public Category(ATDWCategory category) {
             this.category = category;
+
+            ATDWProductSearchParameters params = baseBuilder.setCategory(category).build();
+            List<ATDWProduct> out = productService.search(params);
+            products = out == null ? new ArrayList<ATDWProduct>() : out;
         }
 
         public String getId() {
@@ -200,7 +217,7 @@ public class AtdwHighlights {
         }
 
         public String getDisplay() {
-            return category.toString();
+            return Constants.getDisplayString(category);
         }
 
         public String getStandardIconPath() {
@@ -211,9 +228,12 @@ public class AtdwHighlights {
             return Constants.getActiveIconPath(category);
         }
 
+        public String getAllProductsPath() {
+            return PathUtils.getAllAtdwProductsForCategoryPath(localeSegment, category.toString());
+        }
+
         public List<ATDWProduct> getProducts() {
-            ATDWProductSearchParameters params = baseBuilder.setCategory(category).build();
-            return productService.search(params);
+            return products;
         }
 
     }

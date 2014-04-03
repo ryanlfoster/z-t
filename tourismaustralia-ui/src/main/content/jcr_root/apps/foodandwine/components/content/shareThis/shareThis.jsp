@@ -16,10 +16,10 @@
  		<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
  		<br/>
  		
- 		<a class='faw-article-divider'></a>
- 		<a href="#" class="faw-bookmark-icon">
- 			<img class="faw-article-share-round faw-bookmark-icon-light" src="/etc/designs/foodandwine/clientlibs/imgs/base/share/share-round-bookmark.png" alt="">
- 			<img class="faw-article-share-round faw-bookmark-icon-black" src="/etc/designs/foodandwine/clientlibs/imgs/base/share/share-round-bookmark-black.png" alt="">
+ 		<a class='faw-article-divider' hidden="true"></a>
+ 		<a href="#" class="faw-bookmark-icon" hidden="true">
+ 			<img class="faw-article-share-round faw-bookmark-icon-light" src="/etc/designs/foodandwine/clientlibs/imgs/base/share/share-round-bookmark.png" alt="Bookmark icon image">
+ 			<img class="faw-article-share-round faw-bookmark-icon-black" src="/etc/designs/foodandwine/clientlibs/imgs/base/share/share-round-bookmark-black.png" alt="Bookmark icon image">
  		</a>
 </div> 
 

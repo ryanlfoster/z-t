@@ -8,7 +8,7 @@
 <!-- FOOD AND WINE CAROUSEL -->
 <div class='carousel faw-carousel faw-bg-full-container' data-autoslidetime="0">
 	<div class="l-display-none-md l-position-absolute fullwidth-bg">
-		<div class="responsive-image l-display-none-md l-position-absolute" data-picture="" data-alt="" style="width:1663px">
+		<div class="responsive-image l-display-none-md l-position-absolute" data-picture="" data-alt="${carousel.backgroundImageAltTag}" style="width:1663px">
 			<div data-src="${carousel.carouselBackgroundImagePath}.adapt.480.low.jpg" data-media="(min-width: 1px)"></div>
 			<div data-src="${carousel.carouselBackgroundImagePath}.adapt.768.medium.jpg" data-media="(min-width: 481px)"></div>
 			<div data-src="${carousel.carouselBackgroundImagePath}.adapt.992.high.jpg" data-media="(min-width: 769px)"></div>
@@ -18,7 +18,7 @@
 			</noscript>
 		</div>
 		<!--[if (lt IE 9) & (!IEMobile)]>
-            <img src='imgs/base/faw-carousel-bg.jpg' alt=''>
+            <img src='${carousel.carouselBackgroundImagePath}.adapt.1663.high.jpg' alt=''>
         <![endif]-->
 	</div>	
 	<div class='faw-carousel-outer'>
@@ -37,8 +37,7 @@
 								</div>
 								<p class='faw-carousel-copy'>${item.carouselHeaderLockupDescription }</p>
 								<p>
-									<a href="${item.carouselButtonTextLink }"
-										class="btn-secondary btn-small">${item.carouselButtonText }</a>
+									<a href="${item.carouselButtonTextLink }" class="btn-secondary btn-small" target="${item.external ? '_BLANK' : '_self'}">${item.carouselButtonText }</a>
 								</p>
 							</div> <!-- END: FOOD AND WINE CAROUSEL ITEM -->
 						</li>

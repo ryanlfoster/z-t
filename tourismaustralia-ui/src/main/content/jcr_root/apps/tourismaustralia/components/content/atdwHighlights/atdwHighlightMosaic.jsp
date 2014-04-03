@@ -7,7 +7,11 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@include file="/apps/tourismaustralia/components/global.jsp" %>
 
-<c:forEach items="${param.products}" var="product" varStatus="status">
+<c:if test="${empty products}">
+    <div class="l-h-center">No results -- This category will be hidden in Publish</div>
+</c:if>
+
+<c:forEach items="${products}" var="product" varStatus="status">
 
     <c:if test="${status.index % 3 == 0}">
         <div class="row l-row-collapse">
@@ -21,7 +25,7 @@
                     <div class="col-xs-6">
                         <div>
                             <div class="mosaic-media">
-                                <img src="imgs/mosaic/img11.jpg" alt=""/>
+                                <img src="${product.image}" alt=""/>
                             </div>
                         </div>
                     </div>
@@ -30,14 +34,14 @@
 
                         <div class="mosaic-3column-front flip-front-fade">
                             <div class="mosaic-3column-media theme-mosaic-3column-front l-padding-t-15">
-                                <img src="imgs/logo/logo_tqual_black.png" alt=""/>
+                                <img src="/etc/designs/tourismaustralia/clientlibs/img/logo/logo_tqual_black.png" alt=""/>
                                 <p>front</p>
                             </div>
                         </div>
 
                         <div class="mosaic-3column-back flip-back-fade">
                             <div class="mosaic-3column-media theme-mosaic-3column-back l-padding-t-15">
-                                <img src="imgs/logo/logo_tqual_white.png" alt=""/>
+                                <img src="/etc/designs/tourismaustralia/clientlibs/img/logo/logo_tqual_white.png" alt=""/>
                                 <p>back</p>
                             </div>
                         </div>
@@ -47,7 +51,41 @@
                 </div>
 
                 <div class="row mosaic-3column-item-content">
-                    {{> mosaic3columnitem_detail }}
+
+                    <div class="mosaic-item-detail-container">
+                        <div class="mosaic-item-container">
+
+                            <div class="l-h-center type-spacing-20">
+                                <img src="/etc/designs/tourismaustralia/clientlibs/img/icons/art_culture.png">
+                            </div>
+
+                            <div class="line-through-container">
+                                <div class="line-through"><span class="line-through-hr"></span></div>
+                                <div class="line-through-container-biline">
+                                        ${product.title}
+                                </div>
+                                <div class="line-through"><span class="line-through-hr"></span></div>
+                            </div>
+
+                            <div class="l-h-center l-padding-tb-30-lr-15">
+
+                                <p>${product.description}</p>
+
+                                <a href="#" class="btn-bubble bubble-colour-favourite">
+                <span class="btn-bubble-tooltip">
+                    <span class="btn-bubble-tooltip-container">
+                        <fmt:message key="Add to your dream trip" />
+                    </span>
+                </span>
+                <span class="btn-bubble-button">
+                    <img class="btn-bubble-std" src="/etc/designs/tourismaustralia/clientlibs/img/icons/favourite_outline.png" alt=""/>
+                    <img class="btn-bubble-active" src="/etc/designs/tourismaustralia/clientlibs/img/icons/favourite.png" alt=""/>
+                </span>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
             </div>
@@ -55,7 +93,7 @@
 
     </div>
 
-    <c:if test="${status.index % 3 == 2}">
+    <c:if test="${status.index % 3 == 2 || status.last}">
         </div>
     </c:if>
 

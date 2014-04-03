@@ -4,7 +4,11 @@ title: Categorized Icon Links
 
 <div class="categorylinks">
     <div class="row l-center-1200">
-        <hr class="full">
+
+        {{#parseJSON '{"copy": "TRAVEL HERE WITH HELP FROM OUR PARTNERS"}'}}
+            {{> linethroughtextfullhr}}
+        {{/parseJSON}}
+
         <div class="col-xs-12 col-sm-4">
             <div class="categorylinks-item">
                 <div class="categorylink-header">

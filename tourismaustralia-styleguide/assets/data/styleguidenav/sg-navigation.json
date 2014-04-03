@@ -9,7 +9,6 @@
                 {
                     "text": "Working Components",
                     "item": [
-                        { "text": "videoitem" },
                         { "text": "page_image_with_date" },
                         { "text": "page_image_with_quote" },
                         { "text": "page_image_with_button" },
@@ -18,8 +17,6 @@
                         { "text": "socialimage" },
                         { "text": "byline" },
                         { "text": "paragraph_dynamic" },
-                        { "text": "fullsizevideo" },
-                        { "text": "textlargevideo" },
                         { "text": "linethroughtextfullhr" }
                     ]
                 },
@@ -102,8 +99,16 @@
                         { "text": "home_explore_summary_map" },
                         { "text": "linethroughtext" },
                         { "text": "dropdown" },
-                        { "text": "sectionintro" },
-                        { "text": "text2columnvideo" }
+                        { "text": "sectionintro" }
+                    ]
+                },
+                {
+                    "text" : "Video",
+                    "item": [
+                        { "text": "text2columnvideo" },
+                        { "text": "videoitem" },
+                        { "text": "fullsizevideo" },
+                        { "text": "textlargevideo" }
                     ]
                 },
                 {
@@ -113,14 +118,17 @@
                         { "text": "mosaicitemevent" },
                         { "text": "mosaicitemsocialtile" },
                         { "text": "mosaicitem_detail" },
-                        { "text": "whatyoucansee" },
-                        { "text": "mosaic_whatscomingup" },
-                        { "text": "whatyoucansee_nobuttons" },
+                        { "text": "mosaic_highlights" },
                         { "text": "mosaic_highlights_grid_1" },
                         { "text": "mosaic_highlights_grid_4" },
                         { "text": "mosaic_highlights_grid_4_1" },
+                        { "text": "mosaic_whatscomingup" },
                         { "text": "mosaic_whatscomingup_grid_1" },
-                        { "text": "mosaic_whatscomingup_grid_4" }
+                        { "text": "mosaic_whatscomingup_grid_4" },
+                        { "text": "whatyoucansee" },
+                        { "text": "whatyoucansee_nobuttons" },
+                        { "text": "socialtiles" }
+
                     ]
                 },
                 {

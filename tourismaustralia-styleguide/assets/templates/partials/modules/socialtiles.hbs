@@ -2,7 +2,7 @@
 title: Social Tiles
 ---
 
-<div class="whatyoucansee-container">
+<div class="socialtiles">
 
     {{#parseJSON '{"title": "#Australia"}'}}
         {{> sectionintro }}
@@ -10,9 +10,11 @@ title: Social Tiles
 
     {{> mosaic_socialtiles }}
 
-    {{#parseJSON '{"copy": "Want to join the conversation?"}'}}
-        {{> linethroughtext}}
-    {{/parseJSON}}
+    <div class="socialtiles-linethrough">
+        {{#parseJSON '{"copy": "Want to join the conversation?"}'}}
+            {{> linethroughtext}}
+        {{/parseJSON}}
+    </div>
 
     <div class="l-h-center">
         <a href="#" class="btn-primary">Find out how</a>

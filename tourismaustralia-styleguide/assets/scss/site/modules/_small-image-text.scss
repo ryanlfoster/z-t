@@ -1,8 +1,8 @@
 .small-image-text {
-	position: relative;
 	margin-bottom: 30px;
+	position: relative;
 
-	 @extend .clearfix;
+	@extend .clearfix;
 }
 
 .small-image-text-img {
@@ -14,22 +14,21 @@
 }
 
 .small-image-text-content {
-   	position: static;
-	width: 100%;
-	padding: 0;
 	font-size: pxtoem($font-size-base / 1.2);
+	padding: 0;
+	width: 100%;
+   	position: static;
 
 	& > p:last-child {
 		margin-bottom: 0;
 	}
 
 	@include breakpoint(md){
-	    position: absolute;
-		right: 0;
 		bottom : 0;
-		width: 33.3%;
-		padding: 0 0 0 20px;
-
 		font-size: pxtoem($font-size-base);
+		padding: 0 0 0 20px;
+		right: 0;
+		width: 33.3%;
+	    position: absolute;
   	}
 }

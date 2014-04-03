@@ -1036,6 +1036,17 @@
                     "content" : "{{section 'smallimagetext'}}"
                 }
                 
+                    ,
+                
+            
+                "largeimagetext" : {
+                     "data" : {
+                        "title" : "largeimagetext",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'largeimagetext'}}"
+                }
+                
             
             
         

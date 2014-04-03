@@ -1,19 +1,19 @@
-.small-image-text {
+.large-image-text {
 	margin-bottom: 30px;
 	position: relative;
 
 	@extend .clearfix;
 }
 
-.small-image-text-img {
+.large-image-text-img {
 	width: 100%;
 
 	@include breakpoint(sm){
-		width: 60%;
+		width: 70%;
 	}
 }
 
-.small-image-text-content {
+.large-image-text-content {
 	font-size: pxtoem($font-size-base / 1.3);
 	padding: 0;
 	width: 100%;
@@ -23,7 +23,7 @@
 		margin-bottom: 0;
 	}
 
-	@include breakpoint(md){
+  	@include breakpoint(md){
 		font-size: pxtoem($font-size-base);
 	}
 
@@ -31,7 +31,7 @@
 		bottom : 0;
 		padding: 0 0 0 20px;
 		right: 0;
-		width: 40%;
+		width: 30%;
 	    position: absolute;
   	}
 }

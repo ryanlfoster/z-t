@@ -811,23 +811,23 @@
                     ,
                 
             
+                "atdwhighlights" : {
+                     "data" : {
+                        "title" : "atdwhighlights",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'atdwhighlights'}}"
+                }
+                
+                    ,
+                
+            
                 "bylinewithshare" : {
                      "data" : {
                         "title" : "bylinewithshare",
                         "layout" : "styleguide-preview.hbs"
                     },
                     "content" : "{{section 'bylinewithshare'}}"
-                }
-                
-                    ,
-                
-            
-                "makeyourtriphappen" : {
-                     "data" : {
-                        "title" : "makeyourtriphappen",
-                        "layout" : "styleguide-preview.hbs"
-                    },
-                    "content" : "{{section 'makeyourtriphappen'}}"
                 }
                 
                     ,
@@ -921,23 +921,45 @@
                     ,
                 
             
-                "image_with_button" : {
+                "page_image_with_button" : {
                      "data" : {
-                        "title" : "image_with_button",
+                        "title" : "page_image_with_button",
                         "layout" : "styleguide-preview.hbs"
                     },
-                    "content" : "{{section 'image_with_button'}}"
+                    "content" : "{{section 'page_image_with_button'}}"
                 }
                 
                     ,
                 
             
-                "image_with_date" : {
+                "page_image_with_date" : {
                      "data" : {
-                        "title" : "image_with_date",
+                        "title" : "page_image_with_date",
                         "layout" : "styleguide-preview.hbs"
                     },
-                    "content" : "{{section 'image_with_date'}}"
+                    "content" : "{{section 'page_image_with_date'}}"
+                }
+                
+                    ,
+                
+            
+                "page_image_with_quote" : {
+                     "data" : {
+                        "title" : "page_image_with_quote",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'page_image_with_quote'}}"
+                }
+                
+                    ,
+                
+            
+                "page_image_with_button_social" : {
+                     "data" : {
+                        "title" : "page_image_with_button_social",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'page_image_with_button_social'}}"
                 }
                 
                     ,
@@ -1081,6 +1103,17 @@
                         "layout" : "styleguide-preview.hbs"
                     },
                     "content" : "{{section 'twoimages'}}"
+                }
+                
+                    ,
+                
+            
+                "socialtiles" : {
+                     "data" : {
+                        "title" : "socialtiles",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'socialtiles'}}"
                 }
                 
             

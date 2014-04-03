@@ -43,7 +43,6 @@ public class Breadcrumb {
 		return predecessorListIterator;
 	}
 
-
 	/*public boolean isHomePage() {
 		return homePage;
 	}

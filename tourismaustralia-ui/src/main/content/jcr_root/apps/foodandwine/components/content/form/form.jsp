@@ -205,7 +205,7 @@
 			</div>
 			<div class="field-container">
 				<div class="categories-box">
-					<h4 class="categories-box-headline">Categories</h4>
+					<h4 class="categories-box-headline">Categories*</h4>
 					<p class="categories-box-copy">
 						<em>Select <strong>one</strong> or <strong>two</strong>
 							categories that best reflect your business:

@@ -2,6 +2,7 @@
 <%@include file="/apps/foodandwine/components/global.jsp"%>
 <%@ page
 	import="com.australia.foodandwine.components.content.header.Header"%>
+
 <c:set var="Header" value="<%=new Header(slingRequest) %>" />
 <div class="navbar-outer">
 	<header class="navbar make-black">
@@ -49,5 +50,3 @@
 		</div>
 	</header>
 </div>
-
-

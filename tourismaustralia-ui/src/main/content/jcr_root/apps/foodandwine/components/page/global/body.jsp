@@ -34,4 +34,5 @@
 	   	<% modeBefore.toRequest(slingRequest); %>	
 
 	</div>
+	<script type="text/javascript">_satellite.pageBottom();</script>
 </body>

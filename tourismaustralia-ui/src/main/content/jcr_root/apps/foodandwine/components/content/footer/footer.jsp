@@ -3,7 +3,10 @@
 <%@ page
 	import="com.australia.foodandwine.components.content.footer.Footer"%>
 
+
+
 <c:set var="footer" value="<%=new Footer(slingRequest) %>" />
+
 <footer id="main-footer">
 	<div class="footer-container">
 		<div class="footer">

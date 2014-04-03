@@ -510,12 +510,12 @@
                     ,
                 
             
-                "home_explore_summary_map" : {
+                "explore_summary_map" : {
                      "data" : {
-                        "title" : "home_explore_summary_map",
+                        "title" : "explore_summary_map",
                         "layout" : "styleguide-preview.hbs"
                     },
-                    "content" : "{{section 'home_explore_summary_map'}}"
+                    "content" : "{{section 'explore_summary_map'}}"
                 }
                 
                     ,
@@ -822,28 +822,6 @@
                     ,
                 
             
-                "bylinewithshare" : {
-                     "data" : {
-                        "title" : "bylinewithshare",
-                        "layout" : "styleguide-preview.hbs"
-                    },
-                    "content" : "{{section 'bylinewithshare'}}"
-                }
-                
-                    ,
-                
-            
-                "header" : {
-                     "data" : {
-                        "title" : "header",
-                        "layout" : "styleguide-preview.hbs"
-                    },
-                    "content" : "{{section 'header'}}"
-                }
-                
-                    ,
-                
-            
                 "footer" : {
                      "data" : {
                         "title" : "footer",
@@ -866,12 +844,12 @@
                     ,
                 
             
-                "categorylinks" : {
+                "bylinewithshare" : {
                      "data" : {
-                        "title" : "categorylinks",
+                        "title" : "bylinewithshare",
                         "layout" : "styleguide-preview.hbs"
                     },
-                    "content" : "{{section 'categorylinks'}}"
+                    "content" : "{{section 'bylinewithshare'}}"
                 }
                 
                     ,
@@ -899,6 +877,17 @@
                     ,
                 
             
+                "fullsizevideo" : {
+                     "data" : {
+                        "title" : "fullsizevideo",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'fullsizevideo'}}"
+                }
+                
+                    ,
+                
+            
                 "homehero" : {
                      "data" : {
                         "title" : "homehero",
@@ -910,12 +899,34 @@
                     ,
                 
             
-                "mapcitylink" : {
+                "imagemapcitylink" : {
                      "data" : {
-                        "title" : "mapcitylink",
+                        "title" : "imagemapcitylink",
                         "layout" : "styleguide-preview.hbs"
                     },
-                    "content" : "{{section 'mapcitylink'}}"
+                    "content" : "{{section 'imagemapcitylink'}}"
+                }
+                
+                    ,
+                
+            
+                "header" : {
+                     "data" : {
+                        "title" : "header",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'header'}}"
+                }
+                
+                    ,
+                
+            
+                "categorylinks" : {
+                     "data" : {
+                        "title" : "categorylinks",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'categorylinks'}}"
                 }
                 
                     ,

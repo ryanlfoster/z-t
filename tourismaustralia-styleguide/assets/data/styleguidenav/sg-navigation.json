@@ -96,7 +96,7 @@
                     "text" : "Layout",
                     "item": [
                         { "text": "tagclouditem" },
-                        { "text": "home_explore_summary_map" },
+                        { "text": "explore_summary_map" },
                         { "text": "linethroughtext" },
                         { "text": "dropdown" },
                         { "text": "sectionintro" }
@@ -149,15 +149,19 @@
                         { "text": "nojs" },
                         { "text" : "2columnvideo"},
                         { "text": "atdwhighlights" },
-                        { "text": "bylinewithshare" },
-                        { "text": "header" },
                         { "text": "footer" },
                         { "text": "breadcrumbs"},
-                        { "text": "categorylinks" },
+                        { "text": "bylinewithshare" },
                         { "text": "explore" },
                         { "text": "favourite" },
+                        { "text": "fullsizevideo" },
                         { "text": "homehero" },
-                        { "text": "mapcitylink" },
+                        { "text": "imagemapcitylink" },
+
+
+
+                        { "text": "header" },
+                        { "text": "categorylinks" },
                         { "text": "page_image_with_button" },
                         { "text": "page_image_with_date" },
                         { "text": "page_image_with_quote" },

@@ -225,9 +225,10 @@
 
 					<div class="row categories-row">
 						<div class="col-xs-12">
+						<div class="category-item-container">
 							<input id="category-restaurants" type="checkbox"
-								class="category-input"> <label
-								for="category-restaurants">
+								class="category-input"> 
+							<label for="category-restaurants">
 								<div class="category-item">
 									<span class="icon-round"> <img
 										class='category-image-light'
@@ -235,10 +236,12 @@
 										alt="" /> <img class='category-image-dark'
 										src="/etc/designs/foodandwine/clientlibs/imgs/base/categories/category-icon-restaurants-dark.png"
 										alt="" />
-									</span> <span class="category-title"> Restaurants </span> <span
-										class="category-description">${form.restaurantDescription } </span>
+									</span> 
+									<span class="category-title"> Restaurants </span> 
+									<span class="category-description">${form.restaurantDescription } </span>
 								</div>
-							</label> <input id="category-wine" type="checkbox" class="category-input">
+							</label>
+							<input id="category-wine" type="checkbox" class="category-input">
 							<label for="category-wine">
 								<div class="category-item">
 									<span class="icon-round"> <img
@@ -249,7 +252,8 @@
 									</span> <span class="category-title"> Wine </span> <span
 										class="category-description"> ${form.wineStoryDescription } </span>
 								</div>
-							</label> <input id="category-produce" type="checkbox"
+							</label> 
+							<input id="category-produce" type="checkbox"
 								class="category-input"> <label for="category-produce">
 								<div class="category-item">
 									<span class="icon-round"> <img
@@ -261,7 +265,8 @@
 									</span> <span class="category-title"> Produce </span> <span
 										class="category-description"> ${form.produceDescription } </span>
 								</div>
-							</label> <input id="category-events" type="checkbox"
+							</label> 
+							<input id="category-events" type="checkbox"
 								class="category-input"> <label for="category-events">
 								<div class="category-item">
 									<span class="icon-round"> <img
@@ -273,7 +278,8 @@
 									</span> <span class="category-title"> Festivals </span> <span
 										class="category-description"> ${form.eventsDescription }</span>
 								</div>
-							</label> <input id="category-people" type="checkbox"
+							</label>
+							 <input id="category-people" type="checkbox"
 								class="category-input"> <label for="category-people">
 								<div class="category-item">
 									<span class="icon-round"> <img
@@ -285,7 +291,8 @@
 									</span> <span class="category-title"> People </span> <span
 										class="category-description"> ${form.peopleDescription } </span>
 								</div>
-							</label> <input id="category-experiences" type="checkbox"
+							</label> 
+							<input id="category-experiences" type="checkbox"
 								class="category-input"> <label
 								for="category-experiences">
 								<div class="category-item">
@@ -298,7 +305,10 @@
 									</span> <span class="category-title"> Experiences </span> <span
 										class="category-description"> ${form.experiencesDescription } </span>
 								</div>
-							</label> <input id="category-seafood" type="checkbox"
+							</label>
+							
+							
+							 <input id="category-seafood" type="checkbox"
 								class="category-input"> <label for="category-seafood">
 								<div class="category-item">
 									<span class="icon-round"> <img
@@ -311,6 +321,7 @@
 										class="category-description">${form.seafoodDescription } </span>
 								</div>
 							</label>
+							</div>
 						</div>
 						<p
 							class="input-field-validation-alert categories-box-validation-alert">

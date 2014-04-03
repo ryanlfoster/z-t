@@ -66,8 +66,12 @@
 	};
 
 	Plugin.prototype.initDragEvents = function(scope) {
-		"filereader formdata progress".split(' ').forEach(function(api) {
-			if (scope.reader[api] === false) {
+
+        var sApi = "filereader formdata progress";
+
+        sApi.split(' ').forEach(function(api) {
+			if(typeof scope.support[api] !== "undefined")
+        	if (scope.reader[api] === false) {
 				scope.support[api].className = 'fail';
 			} else {
 				scope.support[api].className = 'hidden';
@@ -142,35 +146,12 @@
 			//preview file
 			scope.previewfile(scope, element);
 		});
-		//post file to server
-		scope.postFile(scope);
 	};
 	
 	Plugin.prototype.getFormData = function(scope){
 		return scope.reader.formdata ? new FormData() : null;
 	};
-	
-	Plugin.prototype.postFile = function(scope){
-		// now post a new XHR request
-		if (scope.reader.formdata) {
-			var xhr = new XMLHttpRequest();
-			xhr.open('POST', scope.options.uploadPath);
-			xhr.onload = function() {
-				scope.progress.value = scope.progress.innerHTML = 100;
-			};
 
-			if (scope.reader.progress) {
-				xhr.upload.onprogress = function(event) {
-					if (event.lengthComputable) {
-						var complete = (event.loaded / event.total * 100 | 0);
-						scope.progress.value = scope.progress.innerHTML = complete;
-					}
-				};
-			}
-
-			xhr.send(scope.reader.formdata);
-		}
-	};
 
 	// A really lightweight plugin wrapper around the constructor,
 	// preventing against multiple instantiations

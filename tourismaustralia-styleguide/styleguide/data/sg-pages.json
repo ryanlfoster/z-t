@@ -855,6 +855,17 @@
                     ,
                 
             
+                "categorylinks" : {
+                     "data" : {
+                        "title" : "categorylinks",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'categorylinks'}}"
+                }
+                
+                    ,
+                
+            
                 "explore" : {
                      "data" : {
                         "title" : "explore",
@@ -910,28 +921,6 @@
                     ,
                 
             
-                "header" : {
-                     "data" : {
-                        "title" : "header",
-                        "layout" : "styleguide-preview.hbs"
-                    },
-                    "content" : "{{section 'header'}}"
-                }
-                
-                    ,
-                
-            
-                "categorylinks" : {
-                     "data" : {
-                        "title" : "categorylinks",
-                        "layout" : "styleguide-preview.hbs"
-                    },
-                    "content" : "{{section 'categorylinks'}}"
-                }
-                
-                    ,
-                
-            
                 "page_image_with_button" : {
                      "data" : {
                         "title" : "page_image_with_button",
@@ -976,23 +965,45 @@
                     ,
                 
             
-                "mapwithlinkstate" : {
+                "largeimagetext" : {
                      "data" : {
-                        "title" : "mapwithlinkstate",
+                        "title" : "largeimagetext",
                         "layout" : "styleguide-preview.hbs"
                     },
-                    "content" : "{{section 'mapwithlinkstate'}}"
+                    "content" : "{{section 'largeimagetext'}}"
                 }
                 
                     ,
                 
             
-                "mapwithlinkcity" : {
+                "mapimagewithbuttons" : {
                      "data" : {
-                        "title" : "mapwithlinkcity",
+                        "title" : "mapimagewithbuttons",
                         "layout" : "styleguide-preview.hbs"
                     },
-                    "content" : "{{section 'mapwithlinkcity'}}"
+                    "content" : "{{section 'mapimagewithbuttons'}}"
+                }
+                
+                    ,
+                
+            
+                "mapimagewithlinks" : {
+                     "data" : {
+                        "title" : "mapimagewithlinks",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'mapimagewithlinks'}}"
+                }
+                
+                    ,
+                
+            
+                "header" : {
+                     "data" : {
+                        "title" : "header",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'header'}}"
                 }
                 
                     ,
@@ -1092,17 +1103,6 @@
                         "layout" : "styleguide-preview.hbs"
                     },
                     "content" : "{{section 'smallimagetext'}}"
-                }
-                
-                    ,
-                
-            
-                "largeimagetext" : {
-                     "data" : {
-                        "title" : "largeimagetext",
-                        "layout" : "styleguide-preview.hbs"
-                    },
-                    "content" : "{{section 'largeimagetext'}}"
                 }
                 
                     ,

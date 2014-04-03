@@ -15,12 +15,7 @@
 							<items jcr:primaryType="cq:WidgetCollection">
 								<categoryLogoPath jcr:primaryType="nt:unstructured"
 									fieldLabel="Category Logo Path" fieldDescription="Select The Article Category Logo Path for other experiences(overlay)"
-									name="./categoryLogoPath" xtype="pathfield" rootPath="/content/dam/"/>
-								<overlayCategoryInfo jcr:primaryType="nt:unstructured"
-									fieldLabel="Overlay Category Information" fieldDescription="Enter Overlay Categories Information that appears on hover of articles in other experiences component "
-									name="./overlayCategoryInfo" xtype="textfield" />
-									
-								
+									name="./categoryLogoPath" xtype="pathfield" rootPath="/content/dam"/>									
 							</items>
 						</basic>
 					</items>

@@ -98,6 +98,9 @@ var inputfields = [];
 			case "checkbox":
 				isValid = scope.isValidCheckbox(checkBox);
 				break;
+			case "optional":
+				isValid=true;
+				break;
 		}
 
 		scope.setValidation(scope, isValid);
@@ -147,7 +150,7 @@ var inputfields = [];
 		}
 	};
 	Plugin.prototype.isValidSelect = function(element){
-		if($(element).val() === null){
+		if($(element).val() === null || $(element).val()==''){
 			return false;
 		}else{
 			return true;
@@ -165,8 +168,9 @@ var inputfields = [];
 		return filter.test(inputValue);
 	};
 	Plugin.prototype.isValidPhoneNumber = function(inputValue){ 
-	  	var phoneno = /^\+?([0-9]{2})\)?[-. ]?([0-9]{1})[-. ]?([0-9]{4})[-. ]?([0-9]{4})$/; 
-	  	return phoneno.test(inputValue);
+	  	var phoneno = /^\+?([0-9]{2})\)?[-. ]?([0-9]{1})[-. ]?([0-9]{4})[-. ]?([0-9]{4})$/;
+	  	var phoneno2 = /^\+?([0-9]{2})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{3})[-. ]?([0-9]{3})$/; 
+	  	return phoneno.test(inputValue) || phoneno2.test(inputValue);
 	};
 	
 	// A really lightweight plugin wrapper around the constructor,
@@ -216,24 +220,23 @@ function validateForm() {
 			errorObjects.push(element);
 			errors++;
 		}
-		
-		//check categories box
-		if($('.categories-box').attr('isValid') === 'true'){
-			$('.categories-box-validation-alert').css("display","none");
-		}else{
-			$('.categories-box-validation-alert').css("display","block");
-			
-			errors++;
-		}
-		
-		if(errors > 0)
-		{
-			//scroll to first error
-			$("html, body").animate({ scrollTop: $(errorObjects[0]).offset().top }, 500);	
-					
-			return false;
-		}else{
-			return true;
-		}
 	});
+		
+	//check categories box
+	if($('.categories-box').attr('isValid') === 'true'){
+		$('.categories-box-validation-alert').css("display","none");
+	}else{
+		$('.categories-box-validation-alert').css("display","block");
+		
+		errors++;
+	}
+	
+	if(errors > 0)
+	{
+		//scroll to first error
+		$("html, body").animate({ scrollTop: $(errorObjects[0]).offset().top }, 500);
+		return false;
+	}else{
+		return true;
+	}
 }

@@ -76,17 +76,6 @@
                     ,
                 
             
-                "image_copyright" : {
-                     "data" : {
-                        "title" : "image_copyright",
-                        "layout" : "styleguide-preview.hbs"
-                    },
-                    "content" : "{{section 'image_copyright'}}"
-                }
-                
-                    ,
-                
-            
                 "paragraph_standard" : {
                      "data" : {
                         "title" : "paragraph_standard",
@@ -148,72 +137,6 @@
                         "layout" : "styleguide-preview.hbs"
                     },
                     "content" : "{{section 'textlargevideo'}}"
-                }
-                
-                    ,
-                
-            
-                "whatyoucansee_nobuttons" : {
-                     "data" : {
-                        "title" : "whatyoucansee_nobuttons",
-                        "layout" : "styleguide-preview.hbs"
-                    },
-                    "content" : "{{section 'whatyoucansee_nobuttons'}}"
-                }
-                
-                    ,
-                
-            
-                "mosaic_highlights_grid_1" : {
-                     "data" : {
-                        "title" : "mosaic_highlights_grid_1",
-                        "layout" : "styleguide-preview.hbs"
-                    },
-                    "content" : "{{section 'mosaic_highlights_grid_1'}}"
-                }
-                
-                    ,
-                
-            
-                "mosaic_highlights_grid_4" : {
-                     "data" : {
-                        "title" : "mosaic_highlights_grid_4",
-                        "layout" : "styleguide-preview.hbs"
-                    },
-                    "content" : "{{section 'mosaic_highlights_grid_4'}}"
-                }
-                
-                    ,
-                
-            
-                "mosaic_highlights_grid_4_1" : {
-                     "data" : {
-                        "title" : "mosaic_highlights_grid_4_1",
-                        "layout" : "styleguide-preview.hbs"
-                    },
-                    "content" : "{{section 'mosaic_highlights_grid_4_1'}}"
-                }
-                
-                    ,
-                
-            
-                "mosaic_whatscomingup_grid_1" : {
-                     "data" : {
-                        "title" : "mosaic_whatscomingup_grid_1",
-                        "layout" : "styleguide-preview.hbs"
-                    },
-                    "content" : "{{section 'mosaic_whatscomingup_grid_1'}}"
-                }
-                
-                    ,
-                
-            
-                "mosaic_whatscomingup_grid_4" : {
-                     "data" : {
-                        "title" : "mosaic_whatscomingup_grid_4",
-                        "layout" : "styleguide-preview.hbs"
-                    },
-                    "content" : "{{section 'mosaic_whatscomingup_grid_4'}}"
                 }
                 
                     ,
@@ -631,17 +554,6 @@
                     ,
                 
             
-                "mosaicitem" : {
-                     "data" : {
-                        "title" : "mosaicitem",
-                        "layout" : "styleguide-preview.hbs"
-                    },
-                    "content" : "{{section 'mosaicitem'}}"
-                }
-                
-                    ,
-                
-            
                 "linethroughtext" : {
                      "data" : {
                         "title" : "linethroughtext",
@@ -675,6 +587,64 @@
                     ,
                 
             
+                "text2columnvideo" : {
+                     "data" : {
+                        "title" : "text2columnvideo",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'text2columnvideo'}}"
+                }
+                
+            
+            
+                ,
+            
+        
+            
+                "mosaicitemhighlights" : {
+                     "data" : {
+                        "title" : "mosaicitemhighlights",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'mosaicitemhighlights'}}"
+                }
+                
+                    ,
+                
+            
+                "mosaicitemevent" : {
+                     "data" : {
+                        "title" : "mosaicitemevent",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'mosaicitemevent'}}"
+                }
+                
+                    ,
+                
+            
+                "mosaicitemsocialtile" : {
+                     "data" : {
+                        "title" : "mosaicitemsocialtile",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'mosaicitemsocialtile'}}"
+                }
+                
+                    ,
+                
+            
+                "mosaicitem_detail" : {
+                     "data" : {
+                        "title" : "mosaicitem_detail",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'mosaicitem_detail'}}"
+                }
+                
+                    ,
+                
+            
                 "whatyoucansee" : {
                      "data" : {
                         "title" : "whatyoucansee",
@@ -697,12 +667,81 @@
                     ,
                 
             
-                "text2columnvideo" : {
+                "whatyoucansee_nobuttons" : {
                      "data" : {
-                        "title" : "text2columnvideo",
+                        "title" : "whatyoucansee_nobuttons",
                         "layout" : "styleguide-preview.hbs"
                     },
-                    "content" : "{{section 'text2columnvideo'}}"
+                    "content" : "{{section 'whatyoucansee_nobuttons'}}"
+                }
+                
+                    ,
+                
+            
+                "mosaic_highlights_grid_1" : {
+                     "data" : {
+                        "title" : "mosaic_highlights_grid_1",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'mosaic_highlights_grid_1'}}"
+                }
+                
+                    ,
+                
+            
+                "mosaic_highlights_grid_4" : {
+                     "data" : {
+                        "title" : "mosaic_highlights_grid_4",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'mosaic_highlights_grid_4'}}"
+                }
+                
+                    ,
+                
+            
+                "mosaic_highlights_grid_4_1" : {
+                     "data" : {
+                        "title" : "mosaic_highlights_grid_4_1",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'mosaic_highlights_grid_4_1'}}"
+                }
+                
+                    ,
+                
+            
+                "mosaic_whatscomingup_grid_1" : {
+                     "data" : {
+                        "title" : "mosaic_whatscomingup_grid_1",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'mosaic_whatscomingup_grid_1'}}"
+                }
+                
+                    ,
+                
+            
+                "mosaic_whatscomingup_grid_4" : {
+                     "data" : {
+                        "title" : "mosaic_whatscomingup_grid_4",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'mosaic_whatscomingup_grid_4'}}"
+                }
+                
+            
+            
+                ,
+            
+        
+            
+                "carousel_mobile" : {
+                     "data" : {
+                        "title" : "carousel_mobile",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'carousel_mobile'}}"
                 }
                 
                     ,
@@ -714,17 +753,6 @@
                         "layout" : "styleguide-preview.hbs"
                     },
                     "content" : "{{section 'carousel_standard'}}"
-                }
-                
-                    ,
-                
-            
-                "carousel_mobile" : {
-                     "data" : {
-                        "title" : "carousel_mobile",
-                        "layout" : "styleguide-preview.hbs"
-                    },
-                    "content" : "{{section 'carousel_mobile'}}"
                 }
                 
             
@@ -995,6 +1023,28 @@
                         "layout" : "styleguide-preview.hbs"
                     },
                     "content" : "{{section 'whatyoucansee_state'}}"
+                }
+                
+                    ,
+                
+            
+                "smallimagetext" : {
+                     "data" : {
+                        "title" : "smallimagetext",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'smallimagetext'}}"
+                }
+                
+                    ,
+                
+            
+                "largeimagetext" : {
+                     "data" : {
+                        "title" : "largeimagetext",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'largeimagetext'}}"
                 }
                 
             

@@ -76,17 +76,6 @@
                     ,
                 
             
-                "image_copyright" : {
-                     "data" : {
-                        "title" : "image_copyright",
-                        "layout" : "styleguide-preview.hbs"
-                    },
-                    "content" : "{{section 'image_copyright'}}"
-                }
-                
-                    ,
-                
-            
                 "paragraph_standard" : {
                      "data" : {
                         "title" : "paragraph_standard",
@@ -995,6 +984,17 @@
                         "layout" : "styleguide-preview.hbs"
                     },
                     "content" : "{{section 'whatyoucansee_state'}}"
+                }
+                
+                    ,
+                
+            
+                "smallimagetext" : {
+                     "data" : {
+                        "title" : "smallimagetext",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'smallimagetext'}}"
                 }
                 
             

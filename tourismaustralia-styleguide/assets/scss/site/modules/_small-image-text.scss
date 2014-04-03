@@ -1,0 +1,35 @@
+.small-image-text {
+	position: relative;
+	margin-bottom: 30px;
+
+	 @extend .clearfix;
+}
+
+.small-image-text-img {
+	width: 100%;
+
+	@include breakpoint(md){
+		width: 66.6%;
+	}
+}
+
+.small-image-text-content {
+   	position: static;
+	width: 100%;
+	padding: 0;
+	font-size: pxtoem($font-size-base / 1.2);
+
+	& > p:last-child {
+		margin-bottom: 0;
+	}
+
+	@include breakpoint(md){
+	    position: absolute;
+		right: 0;
+		bottom : 0;
+		width: 33.3%;
+		padding: 0 0 0 20px;
+
+		font-size: pxtoem($font-size-base);
+  	}
+}

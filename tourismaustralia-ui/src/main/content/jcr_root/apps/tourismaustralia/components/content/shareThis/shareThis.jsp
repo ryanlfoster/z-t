@@ -30,7 +30,7 @@
 		    	<!-- ShareThis icons inserted here via javascript (see shareThis.js) --> 
 
 		    	<!-- ShareThis icon always shows -->
-			    <li class="btn-bubble">
+			    <li class="btn-bubble sharethis-bubble">
 					<span class="btn-bubble-button st_sharethis_large" displayText="ShareThis" st_url="${sharethis.shareUrl}" st_title="${global.title}" st_summary="${global.description}">
 			            <img class="btn-bubble-std" src="/etc/designs/tourismaustralia/clientlibs/img/icons/sharethis_outline.png" alt="ShareThis icon">
 			            <img class="btn-bubble-active" src="/etc/designs/tourismaustralia/clientlibs/img/icons/sharethis.png" alt="ShareThis icon">

@@ -1,25 +1,26 @@
 package com.australia.www.components.content.categorizediconlinks;
 
 import com.citytechinc.cq.component.annotations.DialogField;
-import com.citytechinc.cq.component.annotations.widgets.DialogFieldSet;
-import com.citytechinc.cq.component.annotations.widgets.Html5SmartImage;
-import com.day.cq.wcm.foundation.Image;
+import com.citytechinc.cq.component.annotations.widgets.PathField;
+import com.citytechinc.cq.component.annotations.widgets.RichTextEditor;
 
 public class TitleText {
     @DialogField(fieldLabel = "Title")
     private String title;
 
     @DialogField(fieldLabel = "Text")
+    @RichTextEditor
     private String text;
 
     @DialogField(fieldLabel = "Icon image 1")
-    @Html5SmartImage(name = "iconImage1", disableZoom = true, allowUpload = false, tab = false, height = 100)
+    @PathField(rootPath = "/content/dam", rootTitle = "Assets")
     private String iconImage1;
 
     @DialogField(fieldLabel = "Icon Alt Text 1")
     private String iconAltText1;
 
-    @DialogField(fieldLabel = "Link 1")
+    @DialogField(fieldLabel = "Link 1", fieldDescription = "For external links please use prefix http:// or https:// (eg. http://www.google.com)")
+    @PathField
     private String iconLink1;
 
     private boolean iconLink1IsExternal;
@@ -28,13 +29,14 @@ public class TitleText {
     private String linkText1;
 
     @DialogField(fieldLabel = "Icon image 2")
-    @Html5SmartImage(name = "iconImage2", disableZoom = true, allowUpload = false, tab = false, height = 100)
+    @PathField(rootPath = "/content/dam", rootTitle = "Assets")
     private String iconImage2;
 
     @DialogField(fieldLabel = "Icon Alt Text 2")
     private String iconAltText2;
 
-    @DialogField(fieldLabel = "Link 2")
+    @DialogField(fieldLabel = "Link 2", fieldDescription = "For external links please use prefix http:// or https:// (eg. http://www.google.com)")
+    @PathField
     private String iconLink2;
 
     private boolean iconLink2IsExternal;
@@ -43,13 +45,14 @@ public class TitleText {
     private String linkText2;
 
     @DialogField(fieldLabel = "Icon image 3")
-    @Html5SmartImage(name = "iconImage3", disableZoom = true, allowUpload = false, tab = false, height = 100)
+    @PathField(rootPath = "/content/dam", rootTitle = "Assets")
     private String iconImage3;
 
     @DialogField(fieldLabel = "Icon Alt Text 3")
     private String iconAltText3;
 
-    @DialogField(fieldLabel = "Link 3")
+    @DialogField(fieldLabel = "Link 3", fieldDescription = "For external links please use prefix http:// or https:// (eg. http://www.google.com)")
+    @PathField
     private String iconLink3;
 
     private boolean iconLink3IsExternal;

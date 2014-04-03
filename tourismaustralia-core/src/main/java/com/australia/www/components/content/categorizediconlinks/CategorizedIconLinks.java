@@ -3,14 +3,18 @@ package com.australia.www.components.content.categorizediconlinks;
 import com.australia.utils.LinkUtils;
 import com.citytechinc.cq.component.annotations.Component;
 import com.citytechinc.cq.component.annotations.DialogField;
+import com.citytechinc.cq.component.annotations.Listener;
 import com.citytechinc.cq.component.annotations.Tab;
 import com.citytechinc.cq.component.annotations.widgets.DialogFieldSet;
 import org.apache.commons.lang.StringUtils;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.ValueMap;
 
-@Component(value = "Categorized Icon Links", tabs = {@Tab(title = "Category 1"), @Tab(title = "Category 2"),
-        @Tab(title = "Category 3")})
+
+@Component(value = "Categorized Icon Links", disableTargeting = true, tabs = {@Tab(title = "Category 1"), @Tab(title = "Category 2"),
+        @Tab(title = "Category 3")}, listeners = {@Listener(name = "aftercopy", value = "REFRESH_PAGE"),
+        @Listener(name = "afterdelete", value = "REFRESH_PAGE"), @Listener(name = "afteredit", value = "REFRESH_PAGE"),
+        @Listener(name = "afterinsert", value = "REFRESH_PAGE")})
 public class CategorizedIconLinks {
     @DialogField(tab = 1)
     @DialogFieldSet(namePrefix = "title1/")

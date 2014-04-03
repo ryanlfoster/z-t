@@ -21,17 +21,6 @@
     
         
             
-                "videoitem" : {
-                     "data" : {
-                        "title" : "videoitem",
-                        "layout" : "styleguide-preview.hbs"
-                    },
-                    "content" : "{{section 'videoitem'}}"
-                }
-                
-                    ,
-                
-            
                 "page_image_with_date" : {
                      "data" : {
                         "title" : "page_image_with_date",
@@ -115,28 +104,6 @@
                         "layout" : "styleguide-preview.hbs"
                     },
                     "content" : "{{section 'paragraph_dynamic'}}"
-                }
-                
-                    ,
-                
-            
-                "fullsizevideo" : {
-                     "data" : {
-                        "title" : "fullsizevideo",
-                        "layout" : "styleguide-preview.hbs"
-                    },
-                    "content" : "{{section 'fullsizevideo'}}"
-                }
-                
-                    ,
-                
-            
-                "textlargevideo" : {
-                     "data" : {
-                        "title" : "textlargevideo",
-                        "layout" : "styleguide-preview.hbs"
-                    },
-                    "content" : "{{section 'textlargevideo'}}"
                 }
                 
                     ,
@@ -584,8 +551,11 @@
                     "content" : "{{section 'sectionintro'}}"
                 }
                 
-                    ,
-                
+            
+            
+                ,
+            
+        
             
                 "text2columnvideo" : {
                      "data" : {
@@ -593,6 +563,39 @@
                         "layout" : "styleguide-preview.hbs"
                     },
                     "content" : "{{section 'text2columnvideo'}}"
+                }
+                
+                    ,
+                
+            
+                "videoitem" : {
+                     "data" : {
+                        "title" : "videoitem",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'videoitem'}}"
+                }
+                
+                    ,
+                
+            
+                "fullsizevideo" : {
+                     "data" : {
+                        "title" : "fullsizevideo",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'fullsizevideo'}}"
+                }
+                
+                    ,
+                
+            
+                "textlargevideo" : {
+                     "data" : {
+                        "title" : "textlargevideo",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'textlargevideo'}}"
                 }
                 
             
@@ -645,34 +648,12 @@
                     ,
                 
             
-                "whatyoucansee" : {
+                "mosaic_highlights" : {
                      "data" : {
-                        "title" : "whatyoucansee",
+                        "title" : "mosaic_highlights",
                         "layout" : "styleguide-preview.hbs"
                     },
-                    "content" : "{{section 'whatyoucansee'}}"
-                }
-                
-                    ,
-                
-            
-                "mosaic_whatscomingup" : {
-                     "data" : {
-                        "title" : "mosaic_whatscomingup",
-                        "layout" : "styleguide-preview.hbs"
-                    },
-                    "content" : "{{section 'mosaic_whatscomingup'}}"
-                }
-                
-                    ,
-                
-            
-                "whatyoucansee_nobuttons" : {
-                     "data" : {
-                        "title" : "whatyoucansee_nobuttons",
-                        "layout" : "styleguide-preview.hbs"
-                    },
-                    "content" : "{{section 'whatyoucansee_nobuttons'}}"
+                    "content" : "{{section 'mosaic_highlights'}}"
                 }
                 
                     ,
@@ -711,6 +692,17 @@
                     ,
                 
             
+                "mosaic_whatscomingup" : {
+                     "data" : {
+                        "title" : "mosaic_whatscomingup",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'mosaic_whatscomingup'}}"
+                }
+                
+                    ,
+                
+            
                 "mosaic_whatscomingup_grid_1" : {
                      "data" : {
                         "title" : "mosaic_whatscomingup_grid_1",
@@ -728,6 +720,39 @@
                         "layout" : "styleguide-preview.hbs"
                     },
                     "content" : "{{section 'mosaic_whatscomingup_grid_4'}}"
+                }
+                
+                    ,
+                
+            
+                "whatyoucansee" : {
+                     "data" : {
+                        "title" : "whatyoucansee",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'whatyoucansee'}}"
+                }
+                
+                    ,
+                
+            
+                "whatyoucansee_nobuttons" : {
+                     "data" : {
+                        "title" : "whatyoucansee_nobuttons",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'whatyoucansee_nobuttons'}}"
+                }
+                
+                    ,
+                
+            
+                "socialtiles" : {
+                     "data" : {
+                        "title" : "socialtiles",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'socialtiles'}}"
                 }
                 
             

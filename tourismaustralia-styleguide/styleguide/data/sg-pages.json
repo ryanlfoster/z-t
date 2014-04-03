@@ -1009,23 +1009,34 @@
                     ,
                 
             
-                "header" : {
-                     "data" : {
-                        "title" : "header",
-                        "layout" : "styleguide-preview.hbs"
-                    },
-                    "content" : "{{section 'header'}}"
-                }
-                
-                    ,
-                
-            
                 "shareicons" : {
                      "data" : {
                         "title" : "shareicons",
                         "layout" : "styleguide-preview.hbs"
                     },
                     "content" : "{{section 'shareicons'}}"
+                }
+                
+                    ,
+                
+            
+                "smallimagetext" : {
+                     "data" : {
+                        "title" : "smallimagetext",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'smallimagetext'}}"
+                }
+                
+                    ,
+                
+            
+                "socialtiles" : {
+                     "data" : {
+                        "title" : "socialtiles",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'socialtiles'}}"
                 }
                 
                     ,
@@ -1075,6 +1086,17 @@
                     ,
                 
             
+                "twoimages" : {
+                     "data" : {
+                        "title" : "twoimages",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'twoimages'}}"
+                }
+                
+                    ,
+                
+            
                 "whatyoucansee_city" : {
                      "data" : {
                         "title" : "whatyoucansee_city",
@@ -1097,34 +1119,12 @@
                     ,
                 
             
-                "smallimagetext" : {
+                "header" : {
                      "data" : {
-                        "title" : "smallimagetext",
+                        "title" : "header",
                         "layout" : "styleguide-preview.hbs"
                     },
-                    "content" : "{{section 'smallimagetext'}}"
-                }
-                
-                    ,
-                
-            
-                "twoimages" : {
-                     "data" : {
-                        "title" : "twoimages",
-                        "layout" : "styleguide-preview.hbs"
-                    },
-                    "content" : "{{section 'twoimages'}}"
-                }
-                
-                    ,
-                
-            
-                "socialtiles" : {
-                     "data" : {
-                        "title" : "socialtiles",
-                        "layout" : "styleguide-preview.hbs"
-                    },
-                    "content" : "{{section 'socialtiles'}}"
+                    "content" : "{{section 'header'}}"
                 }
                 
             

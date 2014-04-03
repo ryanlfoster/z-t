@@ -998,23 +998,23 @@
                     ,
                 
             
+                "seperator" : {
+                     "data" : {
+                        "title" : "seperator",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'seperator'}}"
+                }
+                
+                    ,
+                
+            
                 "header" : {
                      "data" : {
                         "title" : "header",
                         "layout" : "styleguide-preview.hbs"
                     },
                     "content" : "{{section 'header'}}"
-                }
-                
-                    ,
-                
-            
-                "hr" : {
-                     "data" : {
-                        "title" : "hr",
-                        "layout" : "styleguide-preview.hbs"
-                    },
-                    "content" : "{{section 'hr'}}"
                 }
                 
                     ,

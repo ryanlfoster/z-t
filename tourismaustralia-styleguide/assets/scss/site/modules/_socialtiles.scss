@@ -1,9 +1,17 @@
 ///*
 // * What you can see:
 // * ---------------------------------------------------------------------------------------------------------------- */
-.whatyoucansee {
+.socialtiles {
     @include breakpoint(lg) {
         padding-top: pxtoem(45px);
         padding-bottom: pxtoem(55px);
     }
+}
+
+.socialtiles-linethrough {
+  margin: 1em 0;
+}
+
+.socialtiles-linethrough .line-through-container-biline {
+  color: $type-main-heading-colour;
 }

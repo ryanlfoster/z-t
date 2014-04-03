@@ -24,8 +24,8 @@
   padding: 0 8px;
 }
 
-
-.text-line-wrapper {
+// May need to revisit this if text is long
+.line-through-line-wrapper {
   &:before {
     content: '\2014';
     margin-right: pxtoem(16px);

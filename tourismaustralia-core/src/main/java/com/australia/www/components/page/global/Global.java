@@ -6,10 +6,6 @@ import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ValueMap;
 import org.apache.sling.api.scripting.SlingBindings;
 import org.apache.sling.api.scripting.SlingScriptHelper;
-import org.apache.sling.commons.json.JSONArray;
-import org.apache.sling.commons.json.JSONException;
-import org.apache.sling.commons.json.JSONObject;
-import org.apache.sling.commons.osgi.PropertiesUtil;
 import org.apache.sling.settings.SlingSettingsService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -17,6 +13,7 @@ import org.slf4j.LoggerFactory;
 import com.adobe.granite.xss.XSSAPI;
 import com.australia.server.ServerNameService;
 import com.australia.utils.ServerUtils;
+import com.australia.www.components.page.sharethis.ShareThis;
 import com.citytechinc.cq.component.annotations.Component;
 import com.citytechinc.cq.component.annotations.DialogField;
 import com.citytechinc.cq.component.annotations.FieldProperty;
@@ -28,6 +25,8 @@ import com.day.cq.wcm.api.PageManager;
 import com.day.cq.wcm.api.designer.Design;
 import com.day.cq.wcm.commons.WCMUtils;
 import com.day.cq.wcm.foundation.Image;
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 
 @Component(value = "Global", path = "page", group = ".hidden", editConfig = false, fileName = "extra_dialog")
 public class Global {
@@ -77,7 +76,7 @@ public class Global {
 		description = xssAPI.encodeForHTMLAttr(properties.get("jcr:description", ""));
 		keywords = xssAPI.encodeForHTMLAttr(WCMUtils.getKeywords(currentPage, false));
 		lastModified = StringUtils.left(xssAPI.encodeForHTMLAttr(properties.get("cq:lastModified", "")), 10);
-		socialNetworks = this.getSocialNetworks(request, currentPage.getAbsoluteParent(OZCOM_CONTENT_ROOT)).toString();
+		socialNetworks = this.getSocialNetworks(request, currentPage.getAbsoluteParent(OZCOM_CONTENT_ROOT));
 		isHomePage = currentPage.equals(currentPage.getAbsoluteParent(1));
 
 		Resource imageResource = currentPage.getContentResource();
@@ -103,44 +102,18 @@ public class Global {
 		}
 	}
 
-	/**
-	 * Gets the social networks to be used by ShareThis. The list of social
-	 * networks is available by country, but if the country code is not found a
-	 * default set is used.
-	 * 
-	 * @param request - used to get the resolve resolver
-	 * @param parent - the content root page i.e. content/australia
-	 * @return the social networks as a json array
-	 */
-	private JSONArray getSocialNetworks(SlingHttpServletRequest request, Page parent) {
-		JSONArray jsonarray = new JSONArray();
-		JSONObject json = new JSONObject();
+	private String getSocialNetworks(SlingHttpServletRequest request, Page parent) {
+		String stPageURL = parent.getPath() + "/jcr:content/shareThis";
+		Resource sharethisPage = request.getResourceResolver().getResource(stPageURL);
+		ShareThis shareobj = new ShareThis(parent, sharethisPage);
+		String json = "";
 		try {
-			// write the DEFAULT social networks
-			json.accumulate("country", "default");
-			json.accumulate(
-				"types",
-				StringUtils.join(
-					PropertiesUtil.toStringArray(parent.getProperties().get("socialNetworks"), new String[0]), ","));
-
-			jsonarray.put(json);
-			// now write the CUSTOM social networks - by country
-			String stPageURL = parent.getPath() + "/jcr:content/shareThis";
-			Resource sharethisPage = request.getResourceResolver().getResource(stPageURL);
-			if (sharethisPage != null) {
-				for (Resource res : sharethisPage.getChildren()) {
-					ValueMap jcrProp = res.adaptTo(ValueMap.class);
-					json = new JSONObject();
-					json.accumulate("country", jcrProp.get("country"));
-					json.accumulate("types", StringUtils.join(
-						PropertiesUtil.toStringArray(jcrProp.get("socialNetworks"), new String[0]), ","));
-					jsonarray.put(json);
-				}
-			}
-		} catch (JSONException e) {
+			ObjectMapper mapper = new ObjectMapper();
+			json = mapper.writeValueAsString(shareobj);
+		} catch (JsonProcessingException e) {
 			LOG.error("There was an error generating the json for SocialNetworks", e);
 		}
-		return jsonarray;
+		return json;
 	}
 
 	public boolean getRemoveFromSearch() {

@@ -16,8 +16,31 @@
        	<script type="text/javascript">var switchTo5x=true;</script>
 		<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
 		<script type="text/javascript">stLight.options({publisher: "${sharethis.accountId}", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+
 		<div class="shareicons">
-		    <ul> <!-- ShareThis icons inserted via javascript (see shareThis.js) --> </ul>
+		    <ul> 
+		    	<!-- Email icon always shows -->
+			    <li class="btn-bubble email-bubble">
+					<span class="btn-bubble-button st_email_large" displayText="Email" st_url="${sharethis.shareUrl}" st_title="${global.title}" st_summary="${global.description}">
+			            <img class="btn-bubble-std" src="/etc/designs/tourismaustralia/clientlibs/img/icons/email_outline.png" alt="Email icon">
+			            <img class="btn-bubble-active" src="/etc/designs/tourismaustralia/clientlibs/img/icons/email.png" alt="Email icon">
+					</span>
+				</li>
+		    
+		    	<!-- ShareThis icons inserted here via javascript (see shareThis.js) --> 
+
+		    	<!-- ShareThis icon always shows -->
+			    <li class="btn-bubble">
+					<span class="btn-bubble-button st_sharethis_large" displayText="ShareThis" st_url="${sharethis.shareUrl}" st_title="${global.title}" st_summary="${global.description}">
+			            <img class="btn-bubble-std" src="/etc/designs/tourismaustralia/clientlibs/img/icons/sharethis_outline.png" alt="ShareThis icon">
+			            <img class="btn-bubble-active" src="/etc/designs/tourismaustralia/clientlibs/img/icons/sharethis.png" alt="ShareThis icon">
+					</span>
+				</li>
+		    	<!-- Facebok Like always shows -->
+				<li class="social-fblike">
+					<span class="st_fblike_large" displayText="Facebook Like" st_url="${sharethis.shareUrl}"></span>
+				</li>
+			</ul>		    
 		</div>
 </div>
 

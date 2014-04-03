@@ -8,41 +8,32 @@ import com.citytechinc.cq.component.annotations.Option;
 
 public enum SocialNetworkType {
 
-	@Option(text = "Email")
-	EMAIL("st_email_large"),
-
 	@Option(text = "Facebook")
-	FACEBOOK("st_facebook_large"),
+	FACEBOOK("facebook"),
 
 	@Option(text = "Twitter")
-	TWITTER("st_twitter_large"),
+	TWITTER("twitter"),
 
 	@Option(text = "LinkedIn")
-	LINKEDIN("st_linkedin_large"),
-
-	@Option(text = "ShareThis")
-	SHARETHIS("st_sharethis_large"),
+	LINKEDIN("linkedin"),
 
 	@Option(text = "Google+")
-	GOOGLEPLUS("st_googleplus_large"),
+	GOOGLEPLUS("googleplus"),
 
 	@Option(text = "Orkut")
-	ORKUT("st_orkut_large"),
+	ORKUT("orkut"),
 
 	@Option(text = "MySpace")
-	MYSPACE("st_myspace_large"),
+	MYSPACE("myspace"),
 
 	@Option(text = "Xing")
-	XING("st_xing_large"),
+	XING("xing"),
 
 	@Option(text = "Reddit")
-	REDDIT("st_reddit_large"),
+	REDDIT("reddit"),
 
 	@Option(text = "Tumblr")
-	TUMBLR("st_tumblr_large"),
-
-	@Option(text = "Facebook Like")
-	FBLIKE("st_fblike_large");
+	TUMBLR("tumblr");
 
 	private String site;
 	private static final Map<String, SocialNetworkType> lookup = new HashMap<String, SocialNetworkType>();

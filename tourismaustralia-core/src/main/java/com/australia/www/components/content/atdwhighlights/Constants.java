@@ -32,8 +32,7 @@ class Constants {
 
     public static final String NAME_TITLE = "title";
     public static final String NAME_TEXT = "text";
-    public static final String NAME_TYPE = "type";
-    public static final String NAME_TYPE_ARGUMENT = "typeArgument";
+    public static final String NAME_STRATEGY = "strategy";
 
     public static final String TYPE_TAG = "Tag";
     public static final String TYPE_CITY = "City";

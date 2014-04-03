@@ -4,7 +4,11 @@
 <%
 //To allow other JSPs to provide translation
 final I18n i18n = new I18n(slingRequest);
-// To allow JSPs to determine if currently in edit mode
+%>
+
+
+<%
+// Allows JSPs to determine if currently in edit mode
 boolean isEdit = WCMMode.fromRequest(request) == WCMMode.EDIT;
 %>
 <c:set var="isEdit" value="<%= isEdit %>" />

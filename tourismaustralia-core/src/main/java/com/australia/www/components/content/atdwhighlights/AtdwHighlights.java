@@ -52,15 +52,10 @@ public class AtdwHighlights {
     @DialogField(fieldLabel="Component Text", name="./"+Constants.NAME_TEXT, tab = 1)
     private final String text;
 
-    @DialogField(fieldLabel="Component Type", name="./"+Constants.NAME_TYPE, defaultValue = Constants.TYPE_CITY, tab = 1)
-    @Selection(type=Selection.SELECT, options={
-            @Option(value=Constants.TYPE_TAG, text=Constants.TYPE_TAG),
-            @Option(value=Constants.TYPE_CITY, text=Constants.TYPE_CITY),
-            @Option(value=Constants.TYPE_STATE, text=Constants.TYPE_STATE),
-            @Option(value=Constants.TYPE_TERM, text=Constants.TYPE_TERM)})
-    private final String type;
+    @DialogField(fieldLabel="Product Population  Strategy", name="./strategy", tab = 1, xtype = "highlightstrategy")
+    private final String strategy;
 
-    @DialogField(fieldLabel="Component Type Argument", name="./"+Constants.NAME_TYPE_ARGUMENT, tab = 1)
+    private final String type;
     private final String typeArgument;
 
     @DialogField(fieldLabel="Accommodation", name="./"+Constants.NAME_SHOW_ACCOMMODATIONS,
@@ -122,8 +117,10 @@ public class AtdwHighlights {
 
         title = properties.get(Constants.NAME_TITLE, "");
         text = properties.get(Constants.NAME_TEXT, "");
-        type = properties.get(Constants.NAME_TYPE, "");
-        typeArgument = properties.get(Constants.NAME_TYPE_ARGUMENT, "");
+        strategy = properties.get(Constants.NAME_STRATEGY, "Tag|");
+        String[] strategyComponents = strategy.split("\\|");
+        type = strategyComponents.length > 0 ? strategyComponents[0] : "Tag";
+        typeArgument = strategyComponents.length > 1 ? strategyComponents[1] : "";
 
         localeResource = PathUtils.getLanguageResource(resource);
 

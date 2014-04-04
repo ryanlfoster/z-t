@@ -17,10 +17,6 @@ $type-specialoffer-colour: #00535e;
         }
     }
 
-    @include breakpoint(lg) {
-        padding-top: pxtoem(60px);
-    }
-
     .specialoffer-image {
 
         margin-left: -15px;

@@ -202,11 +202,14 @@
                     <p class="description-box-copy">
                         <em>Jpeg, Gif or PNG - 5mb file limit. Your image should be at least 600 x 600px</em>
                     </p>
-
-					<div class="image-uploader btn-primary btn-small">
-					    <input type="file" class="image-uploader-control" id="upload-photo" name="upload-photo">
+					
+					<div class="image-uploader">
+					    <label class="image-uploader-label" for="imageupload">Upload Image</label>
+					    <div class="image-uploader-container btn-primary btn-small">
+					        <input type="file" id="imageupload" name="imageupload" class="image-uploader-control" accept="image/*">
+					    </div>
+					    <span class="image-uploader-filename">No File</span>
 					</div>
-
                     <div class="description-box">
                         <h4 class="description-box-headline"><strong>Image Caption</strong></h4>
                         <p class="description-box-copy">

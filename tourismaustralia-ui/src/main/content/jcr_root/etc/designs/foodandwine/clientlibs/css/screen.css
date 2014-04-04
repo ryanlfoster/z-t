@@ -10809,16 +10809,16 @@ input[type=checkbox].checkbox + label.checkbox-label {
 }
 
 /* Image uploader */
-/* line 2, ../../assets/scss/site/modules/_imageuploader.scss */
-.image-uploader {
+/* line 3, ../../assets/scss/site/modules/_imageuploader.scss */
+.image-uploader-container {
   margin: 1em 0;
   position: relative;
   padding-top: 0;
   z-index: 9;
 }
 
-/* line 8, ../../assets/scss/site/modules/_imageuploader.scss */
-.image-uploader:after {
+/* line 9, ../../assets/scss/site/modules/_imageuploader.scss */
+.image-uploader-container:after {
   Content: "Upload";
   position: absolute;
   top: 0;
@@ -10831,7 +10831,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
   text-align: center;
 }
 
-/* line 21, ../../assets/scss/site/modules/_imageuploader.scss */
+/* line 22, ../../assets/scss/site/modules/_imageuploader.scss */
 .image-uploader-control {
   width: 180px;
   height: 46px;
@@ -10841,86 +10841,19 @@ input[type=checkbox].checkbox + label.checkbox-label {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
 }
 
-/*
-.image-uploader{
-    background-color: $color-grey;
-    border: 1px #737373 solid;
-    border-style:dashed;
-    text-align: center;
-    padding: 1em;
-    margin-top: 2em;
-    margin-bottom: 2em;
-
-
-
-    p{
-        margin: 0;
-        padding: 0;
-        font-size: 0.9em;
-        color: #737373;
-        line-height: 1.3em;
-        background-color: $color-grey;
-    }
+/* line 31, ../../assets/scss/site/modules/_imageuploader.scss */
+.image-uploader-label {
+  display: none;
 }
 
-.image-uploader-holder{
-    border: 2px dashed #ccc;
-    margin-bottom: 0.5em;
-    margin-top: 1em;
-    width: 100px;
-    display: inline-block;
-    
-    img{
-        padding: 1em; 
-    }
+/* line 35, ../../assets/scss/site/modules/_imageuploader.scss */
+.image-uploader-filename {
+  margin: 0 0 1em 0;
+  display: block;
+  font-size: 0.9em;
+  line-height: 1.5em;
 }
 
-.image-uploader-holder-hover{
-    border: 2px solid #000;
-    margin-bottom: 0.5em;
-    margin-top: 1em;
-    width: 100px;
-    display: inline-block;
-    
-    img{
-        padding: 1em; 
-    }
-}
-
-.image-upload-progressbar{
-    margin-top:0.5em;
-    width: 100%; 
-    display: none;
-}
-
-
-.fail { 
-    padding: 2px; 
-    color: #fff; 
-}
-
-.hidden { 
-    display: none !important;
-}
-
-.image-uploader-input{
-  padding-top:0.5em;
-  display: inline-block;
-}
-
-progress {background-color:white}
-
-progress::-webkit-progress-bar-value, progress::-webkit-progress-value,
-progress::-moz-progress-bar {background-color:black}
-
-progress::-webkit-progress-bar-value {
-    background-color:black;
-}
-
-progress[value]::-webkit-progress-value {
-    background-color:black;
-}
-*/
 /* line 1, ../../assets/scss/site/modules/_hintwithicon.scss */
 .hint-icon-wrapper {
   width: 100%;
@@ -11198,7 +11131,6 @@ progress[value]::-webkit-progress-value {
 
 /* line 15, ../../assets/scss/site/modules/_custommap.scss */
 .custommap-description {
-  margin-top: -6em;
   margin-left: 0;
   text-align: center;
 }

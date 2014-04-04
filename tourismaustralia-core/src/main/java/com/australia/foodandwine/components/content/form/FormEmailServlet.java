@@ -139,7 +139,7 @@ public class FormEmailServlet extends SlingAllMethodsServlet {
 			RequestParameter[] pArr = pairs.getValue();
 			RequestParameter param = pArr[0];
 			Node formArticleNode = contentResource.adaptTo(Node.class);
-			if ((key.equalsIgnoreCase("upload-photo"))) {
+			if ((key.equalsIgnoreCase("imageupload"))) {
 				try {
 					InputStream stream = param.getInputStream();
 					String contentType = getServletContext().getMimeType(param.getFileName());

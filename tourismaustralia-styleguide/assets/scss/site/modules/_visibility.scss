@@ -6,3 +6,9 @@
         @include vis-focusable();
     }
 }
+
+.vis-hidden-sm {
+    @media (min-width: $screen-sm-min) {
+        display: none!important;
+    }
+}

@@ -21,7 +21,7 @@ title: Header
                 </div>
             </div>
 
-            {{! ARRIVAL-BAR: this bar will only be visible on arrival, scrolling will move it out of view and fix the header to the top... }}
+            {{! ARRIVAL-BAR: this bar will only be visible on arrival, scrolling will move it out of view and fix the header to the top... }
             <div class="nav-bar arrival-bar bar-scroll-top">
                 <div class="row l-center-1200">
                     <ul class="nav-bar-nav">
@@ -62,11 +62,11 @@ title: Header
                     <div class="main-nav-panel">
                         {{! BEGIN: SUPLIMENTRY NAV }}
                         <ul class="nav-bar-nav nav-bar-right">
-                            <li class="toggle-home">
-                                <a href="#" tabindex="-1"><span class="icon icon-32 icon-home" aria-hidden="true"></span></a>
+                            <li class="toggle-home vis-hidden-sm">
+                                <a href="#" tabindex="-1"><span class="icon icon-32 icon-home" aria-hidden="true"></span><span> Home</span></a>
                             </li>
                             <li class="toggle-search has-children">
-                                <a href="#"><span class="icon icon-32 icon-search" aria-hidden="true"></span></a>
+                                <a href="#"><span class="icon icon-32 icon-search" aria-hidden="true"></span><span class="vis-hidden-sm"> Search</span></a>
                                 <ul class="nav-bar-panel">
                                     <li class="nav-bar-panel-content">
                                         Mega menu content for "Search"
@@ -74,7 +74,7 @@ title: Header
                                 </ul>
                             </li>
                             <li class="toggle-map has-children">
-                                <a href="#"><span class="icon icon-32 icon-map" aria-hidden="true"></span></a>
+                                <a href="#"><span class="icon icon-32 icon-map" aria-hidden="true"></span><span class="vis-hidden-sm"> Map</span></a>
                                 <ul class="nav-bar-panel">
                                     <li class="nav-bar-panel-content">
                                         Mega menu content for "Map"
@@ -82,7 +82,13 @@ title: Header
                                 </ul>
                             </li>
                             <li class="toggle-my-trip">
-                                <a href="#" tabindex="-1"><span class="icon icon-32 icon-heart circle" aria-hidden="true"></span><span class="type-plus"> +</span> 30</a>
+                                <a href="#" tabindex="-1">
+                                    <span class="icon icon-32 icon-heart circle" aria-hidden="true"></span>
+                                    <span class="vis-hidden-sm">My Trip</span>
+                                    <span class="my-trip-count">
+                                        <span class="type-plus" aria-hidden="true"> +</span> 30
+                                    </span>
+                                </a>
                             </li>
                         </ul>
                         {{! END: SUPLIMENTRY NAV }}

@@ -3,12 +3,23 @@
 // * ---------------------------------------------------------------------------------------------------------------- */
 
 // colours...
-$notice-bar-bg: #303133;
-$arrival-bar-bg: $footer_bg;
-$navigation-bar-bg: $category-colour-islands;
-$arrival-bar-active-link-bdr: $category-colour-beaches;
-$navigation-bar-dropdown-bg: rgba(0, 83, 94, 0.9);
-$type-header: $type-footer-copyright-colour;
+$notice-bar-bg: #303133;                                // notice bar background colour
+$arrival-bar-bg: $footer_bg;                            // arrival navigation bar background colour (desktop)
+$navigation-bar-bg: $category-colour-islands;           // main navigation background colour (desktop)
+$arrival-bar-active-link-bdr: $category-colour-beaches; // link border for active links in arrival bar
+$navigation-bar-dropdown-bg: rgba(0, 83, 94, 0.9);      // main navigation drop down background colour (transparent)
+$navigation-bar-dropdown-bg-solid: rgba(0, 83, 94, 1);  // main navigation drop down background colour (opaque)
+$type-header: $type-footer-copyright-colour;            // header font colour
+
+// mobile nav
+$nav-mobile-top-links-bdr: #003b43;                     // top link set (.nav-bar-right items border colour
+$nav-mobile-top-links-bg: #00535e;                      // top link set (.nav-bar-right) background colour
+//$nav-mobile-top-links-hvr-bg: #00535e;                  // top link set (.nav-bar-right) background hover colour
+
+$nav-mobile-bot-links-bdr: #00282e;                     // bottom link set (.nav-bar-left) items border colour
+$nav-mobile-bot-links-bg: #003b43;                      // bottom link set (.nav-bar-left) background colour
+//$nav-mobile-bot-links-dd-bg: #00333a;                   // bottom link set (.nav-bar-left) background hover colour
+
 
 // element dimensions...
 $navigation-bar-height: pxtoem(90px);
@@ -46,7 +57,16 @@ $navigation-bar-height: pxtoem(90px);
     left: 0;
     width: 100%;
     z-index: 999;
-    position: fixed;
+    //position: absolute;
+
+    //@media (min-width: $screen-sm-min) {
+        position: fixed;
+    //}
+}
+
+// don't fix in style guide...
+.sg-section .bar-fixed-top {
+    position: absolute;
 }
 
 .notice-bar,
@@ -90,7 +110,7 @@ $navigation-bar-height: pxtoem(90px);
 // * ---------------------------------------------------------------------------------------------------------------- */
 .notice-bar {
 
-    // Mobile...
+    // Mobile & Defaults...
     background-color: $notice-bar-bg;
 
     .notice-text {
@@ -140,7 +160,7 @@ $navigation-bar-height: pxtoem(90px);
 // * ---------------------------------------------------------------------------------------------------------------- */
 .arrival-bar {
 
-    // Mobile...
+    // Mobile & Defaults...
     background-color: $arrival-bar-bg;
 
     .nav-bar-nav li {
@@ -186,9 +206,10 @@ $navigation-bar-height: pxtoem(90px);
 // * ---------------------------------------------------------------------------------------------------------------- */
 .navigation-bar {
 
-    // Mobile...
+    // Mobile & Defaults...
     position: relative;
-    background-color: $navigation-bar-dropdown-bg;
+    //background-color: $navigation-bar-dropdown-bg-solid;
+    background-color: transparent;
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAABbCAMAAAB9PuTdAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo0M0JBMTRENkI5RjMxMUUzOEVENkQ4QTM5MzAwRUE2NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo0M0JBMTREN0I5RjMxMUUzOEVENkQ4QTM5MzAwRUE2NyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjQzQkExNEQ0QjlGMzExRTM4RUQ2RDhBMzkzMDBFQTY3IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjQzQkExNEQ1QjlGMzExRTM4RUQ2RDhBMzkzMDBFQTY3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+sMqgOAAAAAZQTFRFAKCvAAAAwEgvCgAAABNJREFUeNpiYBgFo2AUDHsAEGAAA+kAAR4aTUIAAAAASUVORK5CYII=);
     background-repeat: repeat-x;
     background-position: 0 -33px;
@@ -200,7 +221,7 @@ $navigation-bar-height: pxtoem(90px);
         padding: 18px 16px;
     }
 
-    .icon-bar {
+    .nav-bar-toggle .icon-bar {
         width: 24px;
         height: 3px;
         display: block;
@@ -226,7 +247,7 @@ $navigation-bar-height: pxtoem(90px);
 
     // Left Nav...
     .nav-bar-left > li > a {
-        padding: pxtoem(34px) pxtoem(16px);
+        padding: pxtoem(37px) pxtoem(16px);
         font-size: pxtoem(16px);
     }
 
@@ -235,26 +256,68 @@ $navigation-bar-height: pxtoem(90px);
         padding: pxtoem(21px) pxtoem(5px);
     }
 
-    .nav-bar-right > .toggle-home {
-        @extend .sr-only;
-    }
+    // Mobile Only...
+    @media (max-width: $screen-sm-min) {
 
-    @media (max-width: $screen-sm) {
-        .type-plus,
-        .nav-bar-left,
-        .nav-bar-right > .toggle-map {
-            display: none;
+        .l-center-1200 {
+            max-width: none;
+            margin:0;
+            padding: 0;
         }
 
+        // show the navbar toggle...
         .nav-bar-toggle {
             display: inline-block;
         }
+
+        .main-nav-panel {
+            margin-right: pxtoem(48px);
+        }
+
+        .nav-bar-left,
+        .nav-bar-right,
+        .nav-bar-nav > li {
+            display: block;
+        }
+
+        .nav-bar-nav > li a {
+            padding: pxtoem(22px) pxtoem(16px);
+        }
+
+        .nav-bar-left > li a {
+            background-color: $nav-mobile-bot-links-bg;
+            border-bottom: 1px solid $nav-mobile-bot-links-bdr;
+        }
+
+        .nav-bar-right {
+            float: none;
+        }
+
+        .nav-bar-right > li a {
+            background-color: $nav-mobile-top-links-bg;
+            border-bottom: 1px solid $nav-mobile-top-links-bdr;
+        }
+
+        // this icon changes size a few times...
+        .icon-heart.icon.circle {
+            padding:0;
+            border: none;
+            border-radius: 0;
+            background-position: -106px -58px;
+        }
+
+        .my-trip-count {
+            float: right;
+            display: inline-block;
+        }
+
     }
 
     // Tablet...
     @media (min-width: $screen-sm-min) {
 
         background-position: 0 0;
+        background-color: $navigation-bar-dropdown-bg;
 
         .nav-bar-right > li > a {
             padding: pxtoem(27px) pxtoem(10px);
@@ -274,7 +337,6 @@ $navigation-bar-height: pxtoem(90px);
             padding: pxtoem(27px) pxtoem(30px);
             font-size: pxtoem(20px);
         }
-
 
     }
 
@@ -334,8 +396,8 @@ $navigation-bar-height: pxtoem(90px);
 @media (max-width: $screen-sm) {
     //.no-js:not(#foo) {
 
-        #main-navigation .main-nav-panel {
-            display:block;
+        #main-navigation:target .main-nav-panel {
+            display: block;
         }
 
         #main-navigation:not(:target) .main-nav-panel {
@@ -350,7 +412,7 @@ $navigation-bar-height: pxtoem(90px);
 // * ---------------------------------------------------------------------------------------------------------------- */
 .header-masthead {
 
-    // Mobile...
+    // Mobile & Defaults...
     padding-right: pxtoem(16px);
     display: inline-block;
     vertical-align: top;
@@ -369,6 +431,8 @@ $navigation-bar-height: pxtoem(90px);
 
     // Tablet...
     @media (min-width: $screen-sm-min) {
+
+        float: left;
 
         .logo-masthead {
             width: 150px;

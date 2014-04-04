@@ -8,8 +8,8 @@
 	width: 100%;
 
 	@include breakpoint(md){
-		width: 60%;
 		float: left;
+		width: 60%;
 	}
 }
 

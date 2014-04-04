@@ -43,6 +43,7 @@ position: relative;
   width:100%;
   height:auto;
   min-width: 100%;
+
   @include breakpoint(lg) {
     vertical-align:middle;
     margin:-50% -100%;

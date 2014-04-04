@@ -59,7 +59,7 @@ select {
   //width: $dropdownCountryLanguageWidth;
   height: $dropdownCountryLanguageHeight;
   overflow: hidden;
-  font-family: "ProximaNova Bold", Helvetica, Arial, sans-serif;
+  font-family: $font-family-base;
   background: url("../imgs/ui/footer_select_bg.png") no-repeat;  /*Adds background-image*/
   text-shadow:0 0 1px #eee;
 }
@@ -72,6 +72,7 @@ select {
   border: 0 !important;  /*Removes border*/
   box-shadow: none;
   background: transparent;
+  font-size: pxtoem(14px);
   background-image: none;
   -webkit-appearance: none;  /*Removes default chrome and safari style*/
   -moz-appearance: none; /* Removes Default Firefox style*/

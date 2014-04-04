@@ -7,9 +7,9 @@
 .small-image-text-img {
 	width: 100%;
 
-	@include breakpoint(sm){
-		width: 60%;
+	@include breakpoint(md){
 		float: left;
+		width: 60%;
 	}
 }
 
@@ -27,7 +27,7 @@
 		font-size: pxtoem($font-size-base / 1.1 );
 	}
 
-	@include breakpoint(sm){
+	@include breakpoint(md){
 		bottom : 0;
 		padding: 0 0 0 1em;
 		right: 0;

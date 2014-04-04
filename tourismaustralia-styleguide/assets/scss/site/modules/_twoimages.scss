@@ -3,7 +3,8 @@
 
 .two-images-column {
 
-	@include breakpoint(xs){
+	// Need that flexibility to fall back to original column widths
+	@media (max-width: $screen-sm){
 		float: none;
 		margin-bottom: 1em;
 		width: 100%;

@@ -36,13 +36,7 @@ note: note-specialoffer
                 {{#if promo_value }}
                     <div class="specialoffer-price">
                         <span class="specialoffer-currency">$</span>
-                        <span class="specialoffer-value">
-                            {{#if promo_value}}
-                                {{{promo_value}}}
-                            {{else}}
-                                30
-                            {{/if}}
-                        </span>
+                        <span class="specialoffer-value">{{#if promo_value}}{{{promo_value}}}{{else}}30{{/if}}</span>
                         <span class="specialoffer-per">
                             {{#if promo_per}}
                                 {{{promo_per}}}

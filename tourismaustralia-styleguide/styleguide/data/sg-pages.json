@@ -998,6 +998,17 @@
                     ,
                 
             
+                "quote" : {
+                     "data" : {
+                        "title" : "quote",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'quote'}}"
+                }
+                
+                    ,
+                
+            
                 "seperator" : {
                      "data" : {
                         "title" : "seperator",
@@ -1114,6 +1125,17 @@
                         "layout" : "styleguide-preview.hbs"
                     },
                     "content" : "{{section 'whatyoucansee_state'}}"
+                }
+                
+                    ,
+                
+            
+                "largeimagesocial" : {
+                     "data" : {
+                        "title" : "largeimagesocial",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'largeimagesocial'}}"
                 }
                 
                     ,

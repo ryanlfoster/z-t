@@ -175,9 +175,19 @@
   text-align: center;
 }
 
+//**********************
+// Added type-destination styling here for mosaic-grid-4 as it needs to be scaled
+//**********************
 .type-destination { 
   font-size: pxtoem(18px);
 }
+.mosaic-grid-4 .type-destination {
+  @include breakpoint(sm){
+    font-size: pxtoem(18px / 1.3);
+  }
+}
+////////////////////////////
+
 .type-date { 
   font-family: "ProximaNova Bold", Helvetica, Arial, sans-serif;
   font-size: pxtoem(18px);

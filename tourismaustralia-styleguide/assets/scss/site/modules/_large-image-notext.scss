@@ -1,0 +1,25 @@
+.large-image-notext {
+  position: relative;
+}
+
+.large-image-notext-frame-height{
+
+  @include breakpoint(lg) {
+    display: block;
+    line-height: pxtoem(570px);
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+  }
+}
+
+.large-image-notext-media img{
+  height:auto;
+  min-width: 100%;
+  width:100%;
+
+  @include breakpoint(lg) {
+    vertical-align:middle;
+    margin:-50% -100%;
+  }
+}

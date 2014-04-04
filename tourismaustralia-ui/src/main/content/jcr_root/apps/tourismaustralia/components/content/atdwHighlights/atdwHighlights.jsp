@@ -46,7 +46,7 @@
                         <c:forEach items="${h.activeCategories}" var="cat">
                             <c:if test="${not empty cat.products || isEdit}">
                                 <option value="${cat.id}">
-                                    <%= i18n.get(((AtdwHighlights.Category) pageContext.getAttribute("cat")).getDisplay()) %>
+                                    <fmt:message key="${cat.display}" />
                                 </option>
                             </c:if>
                         </c:forEach>
@@ -71,7 +71,7 @@
                             <img class="btn-bubble-active" src="${cat.activeIconPath}" alt="">
                         </span>
                         <span class="type-below-btn">
-                            <%= i18n.get(((AtdwHighlights.Category) pageContext.getAttribute("cat")).getDisplay()) %>
+                            <fmt:message key="${cat.display}" />
                         </span>
                     </a>
                 </c:if>
@@ -99,7 +99,7 @@
 
         <c:forEach items="${h.activeCategories}" var="cat">
             <a href="#" class="btn-primary" data-atdw-show-cat="${cat.id}">
-                <%= i18n.get("View all " + ((AtdwHighlights.Category) pageContext.getAttribute("cat")).getDisplay()) %>
+                <fmt:message key="${cat.display}" />
             </a>
         </c:forEach>
 

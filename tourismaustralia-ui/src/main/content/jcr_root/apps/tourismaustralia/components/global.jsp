@@ -12,3 +12,5 @@ final I18n i18n = new I18n(slingRequest);
 boolean isEdit = WCMMode.fromRequest(request) == WCMMode.EDIT;
 %>
 <c:set var="isEdit" value="<%= isEdit %>" />
+
+<cq:setContentBundle source="request" />

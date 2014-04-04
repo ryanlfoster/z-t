@@ -15,7 +15,7 @@
 .large-image-text-img {
 	width: 100%;
 
-	@include breakpoint(sm){
+	@include breakpoint(md){
 		width: 70%;
 	}
 }

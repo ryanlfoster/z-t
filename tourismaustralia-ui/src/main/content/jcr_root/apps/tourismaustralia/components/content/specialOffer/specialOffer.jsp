@@ -21,7 +21,7 @@
                     </c:if>
                     <c:if test="${not empty specialOffer.text}">
                     <div class="specialoffer-text">
-                        <p>${spacialOffer.text}</p>
+                        <p>${specialOffer.text}</p>
                     </div>
                     </c:if>
                     <c:if test="${not empty specialOffer.formattedPrice && specialOffer.formattedPrice != 0 && not empty specialOffer.pricePerText}">

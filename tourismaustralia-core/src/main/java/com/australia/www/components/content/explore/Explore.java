@@ -1,12 +1,10 @@
 package com.australia.www.components.content.explore;
 
-import com.citytechinc.cq.component.annotations.Tab;
 import com.citytechinc.cq.component.annotations.Component;
 import com.citytechinc.cq.component.annotations.DialogField;
+import com.citytechinc.cq.component.annotations.Tab;
 import com.citytechinc.cq.component.annotations.widgets.DialogFieldSet;
-import com.citytechinc.cq.component.annotations.widgets.PathField;
 import org.apache.sling.api.SlingHttpServletRequest;
-import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ValueMap;
 
 import java.util.ArrayList;

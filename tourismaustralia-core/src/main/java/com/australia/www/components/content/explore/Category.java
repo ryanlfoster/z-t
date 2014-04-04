@@ -1,11 +1,12 @@
 package com.australia.www.components.content.explore;
 
-
 import com.citytechinc.cq.component.annotations.DialogField;
+import com.citytechinc.cq.component.annotations.widgets.DialogFieldSet;
 import com.citytechinc.cq.component.annotations.widgets.PathField;
+import org.apache.sling.api.SlingHttpServletRequest;
+import org.apache.sling.api.resource.ValueMap;
 
-public class Tab {
-
+public class Category {
 	@DialogField(fieldLabel = "Icon Image Path")
 	@PathField
 	private String iconImagePath;
@@ -17,26 +18,23 @@ public class Tab {
 	@DialogField(fieldLabel = "Tab Title")
 	private String title;
 
+	public Category(){
+	}
+
 	public String getIconImagePath() {
 		return iconImagePath;
 	}
-
 	public String getSelectedImagePath() {
 		return selectedImagePath;
 	}
-
+	public String getTitle() { return title; }
 	public void setIconImagePath(String path) {
 		this.iconImagePath = path;
 	}
-
 	public void setSelectedImagePath(String path) {
 		this.selectedImagePath = path;
 	}
-
-	public String getTitle() { return title; }
-
 	public void setTitle(String text) {
 		this.title = text;
 	}
-
 }

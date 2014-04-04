@@ -40,7 +40,7 @@
     <img class="btn-bubble-active" src="imgs/icons/favourite_white.png" alt=""/>
     </span>
     </span>
-					<span class="favourite-text">add to your dream trip</span>
+    <span class="favourite-text">add to your dream trip</span>
 				</a>
 			</div>
 		</div>

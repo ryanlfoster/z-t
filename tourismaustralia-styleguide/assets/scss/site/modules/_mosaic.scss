@@ -155,6 +155,20 @@
 }
 
 ///////////////////
+// mosaic close social icons
+///////////////////
+.mosaic-socialtiles-icon {
+  position: absolute;
+  bottom: .6em;
+  right: .6em;
+}
+.mosaic-close-icon {
+  position: absolute;
+  top: -.5em;
+  right: -.5em;
+}
+
+///////////////////
 // mosaic events
 ///////////////////
 .mosaic-front-back-container {
@@ -408,3 +422,4 @@
   -moz-transition: opacity .25s ease-in-out;
   -webkit-transition: opacity .25s ease-in-out;
 }
+

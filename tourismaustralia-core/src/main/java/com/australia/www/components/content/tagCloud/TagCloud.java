@@ -39,8 +39,9 @@ public class TagCloud {
 			String title = tag.getTitle(request.getLocale());
 			tagList.add(title);
 		}
-		
-		title = properties.get("title", "");
+		if (properties != null) {
+			title = properties.get("title", "");
+		}
 		
 	}
 	

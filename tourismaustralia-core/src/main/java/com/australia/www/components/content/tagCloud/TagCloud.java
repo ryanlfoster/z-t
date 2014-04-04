@@ -6,8 +6,6 @@ import java.util.List;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.ResourceResolver;
 import org.apache.sling.api.resource.ValueMap;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 import com.citytechinc.cq.component.annotations.Component;
 import com.citytechinc.cq.component.annotations.DialogField;
@@ -18,8 +16,6 @@ import com.day.cq.wcm.api.PageManager;
 
 @Component(disableTargeting = true, value = "Tag Cloud")
 public class TagCloud {
-
-	private static final Logger LOG = LoggerFactory.getLogger(TagCloud.class);
 	
 	private List<String> tagList;
 	
@@ -34,7 +30,6 @@ public class TagCloud {
 		//Get the current page
 		final PageManager pageManager = resourceResolver.adaptTo(PageManager.class);
 		final Page page = pageManager.getContainingPage(request.getResource());
-		LOG.debug("The containing page is " + page.getPath());
 		
 		//Get the tags off the current page
 		Tag[] tags = page.getTags();

@@ -85,6 +85,25 @@
 				</div>
 			</div>
 			<div class="field-container">
+                <div class="input-field" data-type="text">
+                    <div class="col-xs-4">
+                        <label class="input-field-label" for="text">
+                            <p>
+                                <strong>Contact name*</strong>
+                            </p></label>
+                    </div>
+                    <div class="col-xs-8">
+                        <input class="input-field-input" type="text" placeholder="E.g. John Smith" id="contact" name="contact">
+                        <span class="input-field-validation-icon"></span>
+                    </div>
+                    <div class="col-xs-12">
+                        <p class="input-field-validation-alert">
+                            Please enter a valid Contact name
+                        </p>
+                    </div>
+                </div>
+            </div>
+			<div class="field-container">
 				<div class="input-field" data-type="number">
 					<div class="col-xs-4">
 						<label class="input-field-label" for="text">
@@ -176,33 +195,28 @@
 						placeholder="..."></textarea>
 				</div>
 			</div>
+			
 			<div class="field-container">
-				<div class="description-box description-box-outer">
-					<h4 class="description-box-headline">Photo</h4>
-					<p class="description-box-copy">
-						<em>Jpeg, Gif or PNG - 5mb file limit. Your image should be
-							at least 600 x 600px</em>
-					</p>
-					<div>
+                <div class="description-box description-box-outer" data-isvalid="false">
+                    <h4 class="description-box-headline"><strong>Upload an Image</strong></h4>
+                    <p class="description-box-copy">
+                        <em>Jpeg, Gif or PNG - 5mb file limit. Your image should be at least 600 x 600px</em>
+                    </p>
 
-						<p>
-							</strong><a href="javascript:void(0)" id="upload" target="_self"><strong>select
-									a file</strong></a> <input id="upload-photo" name="upload-photo" type="file"
-								accept="image/*" />
-						</p>
+					<div class="image-uploader btn-primary btn-small">
+					    <input type="file" class="image-uploader-control" id="upload-photo" name="upload-photo">
 					</div>
 
-					<div class="description-box">
-						<h4 class="description-box-headline">Optional Description</h4>
-						<p class="description-box-copy">
-							<em>Write a short description about your photo</em>
-						</p>
-						<textarea class="description-box-input-field"
-							name="photoDescription" id="photoDescription" rows="4"
-							placeholder="..."></textarea>
-					</div>
-				</div>
-			</div>
+                    <div class="description-box">
+                        <h4 class="description-box-headline"><strong>Image Caption</strong></h4>
+                        <p class="description-box-copy">
+                            <em>Write a short description about your photo</em>
+                        </p>
+                        <textarea class="description-box-input-field" rows="4" placeholder="..." name="photoDescription" id="photoDescription"></textarea>
+                    </div>
+                </div>
+            </div>
+			
 			<div class="field-container">
 				<div class="categories-box">
 					<h4 class="categories-box-headline">Categories*</h4>
@@ -220,7 +234,6 @@
 						<span id="category-secondary"
 							class="form-category-tick checkbox-label">Secondary
 							category</span>
-
 					</div>
 
 					<div class="row categories-row">

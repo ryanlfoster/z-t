@@ -55,6 +55,10 @@ CQ_Analytics.ClientContextMgr.addListener("storesinitialize", function (e) {
 				"<img class='btn-bubble-std' src='/etc/designs/tourismaustralia/clientlibs/img/icons/" + socnet2 + "_outline.png' alt=" + obj.socialNetwork2 + ">" +
 				"<img class='btn-bubble-active' src='/etc/designs/tourismaustralia/clientlibs/img/icons/" + socnet2 + ".png' alt=" + obj.socialNetwork2 + ">" +
 		"</span></li>");
+		
+		if (socnet1 == 'twitter' || socnet2 == 'twitter') {
+			$(".st_twitter_large").attr('st_via', 'Australia');
+		}
 	}
 	
 });

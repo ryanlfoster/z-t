@@ -66,7 +66,7 @@ $navigation-bar-height: pxtoem(90px);
 
 // don't fix in style guide...
 .sg-section .bar-fixed-top {
-    position: absolute;
+    position: relative;
 }
 
 .notice-bar,

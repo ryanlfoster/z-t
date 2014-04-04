@@ -196,7 +196,12 @@
     line-height: 0.9em;
   }
 }
+
 .type-h1-responsive {
+
+  // most of these are now h2's for semantics
+  color: #8d896f;
+
   font-size: pxtoem(30px);
   margin-bottom: .5em;
   @include breakpoint(sm){

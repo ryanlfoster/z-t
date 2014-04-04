@@ -1,8 +1,15 @@
-.large-image-text {
-	margin-bottom: 1em;
+.large-image-text { 
 	position: relative;
 
 	@extend .clearfix;
+
+	&.col-xs-9 {
+		width: 100%;
+
+		@include breakpoint(md){
+			width: 75%;
+		}
+	}	
 }
 
 .large-image-text-img {

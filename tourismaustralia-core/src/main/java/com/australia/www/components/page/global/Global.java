@@ -19,7 +19,6 @@ import com.citytechinc.cq.component.annotations.widgets.NumberField;
 import com.citytechinc.cq.component.annotations.widgets.Selection;
 import com.day.cq.wcm.api.Page;
 import com.day.cq.wcm.api.PageManager;
-import com.day.cq.wcm.api.designer.Design;
 import com.day.cq.wcm.commons.WCMUtils;
 import com.day.cq.wcm.foundation.Image;
 
@@ -47,6 +46,7 @@ public class Global {
 	private final String favIcon;
 	private final String lastModified;
 	private final Boolean isHomePage;
+	private final boolean prodPublish;
 
 	public Global(SlingHttpServletRequest request) {
 		SlingScriptHelper sling = ((SlingBindings) request.getAttribute(SlingBindings.class.getName())).getSling();
@@ -84,11 +84,18 @@ public class Global {
 
 		url = serverName + currentPage.getPath() + ".html";
 
-		String tempFavIcon = currentPage.adaptTo(Design.class).getPath() + "/favicon.ico";
+		String tempFavIcon = properties.get("cq:designPath", StringUtils.EMPTY) + "/favicon.ico";
 		if (request.getResourceResolver().getResource(tempFavIcon) == null) {
 			favIcon = null;
 		} else {
 			favIcon = tempFavIcon;
+		}
+
+		if (slingSettings.getRunModes().contains(ServerUtils.PUBLISH)
+			&& slingSettings.getRunModes().contains(ServerUtils.PROD)) {
+			prodPublish = true;
+		} else {
+			prodPublish = false;
 		}
 	}
 
@@ -134,6 +141,10 @@ public class Global {
 
 	public Boolean getIsHomePage() {
 		return isHomePage;
+	}
+
+	public boolean isProdPublish() {
+		return prodPublish;
 	}
 
 }

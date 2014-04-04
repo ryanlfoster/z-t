@@ -69,7 +69,14 @@ public class DefaultATDWProductRepository implements ATDWProductRepository {
 				QueryUtils.addFullText(queryMap, propertyCount, parameters.getText());
 				propertyCount++;
 			}
-
+			if (StringUtils.isNotEmpty(parameters.getCity())) {
+				QueryUtils.addProperty(queryMap, propertyCount, JCR_PREFIX + "city", parameters.getCity());
+				propertyCount++;
+			}
+			if (StringUtils.isNotEmpty(parameters.getState())) {
+				QueryUtils.addProperty(queryMap, propertyCount, JCR_PREFIX + "state", parameters.getState());
+				propertyCount++;
+			}
 			if (parameters.getTags() != null && parameters.getTags().size() > 0) {
 				List<Tag> tags = new ArrayList<Tag>();
 				TagManager tagManager = resourceResolver.adaptTo(TagManager.class);

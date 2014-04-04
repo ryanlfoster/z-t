@@ -1,4 +1,4 @@
-CQ_Analytics.ClientContextMgr.addListener("storesinitialize", function (e) {
+
 
 	$('.shareThisFawHolder').each(function () { 
 		$this = $(this);
@@ -15,9 +15,9 @@ CQ_Analytics.ClientContextMgr.addListener("storesinitialize", function (e) {
 
 		var is_firefox = navigator.userAgent.toLowerCase().indexOf('firefox') > -1;
 		var is_chrome = navigator.userAgent.toLowerCase().indexOf('chrome') > -1;
-		if (is_firefox || is_chrome) {
-			$(".faw-article-divider").hide();
-			$(".faw-bookmark-icon").hide();
+		if (!is_firefox && !is_chrome) {
+			$(".faw-article-divider").show();
+			$(".faw-bookmark-icon").show();
 		}
 	});    	
 	
@@ -57,6 +57,5 @@ CQ_Analytics.ClientContextMgr.addListener("storesinitialize", function (e) {
 			});		
 		}
 	}
-	
-});
+
 

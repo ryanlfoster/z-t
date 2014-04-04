@@ -7,7 +7,7 @@
 	<span class="tagcloud-explore-by">${tagCloud.title}</span>
 	<ul>
 		<c:forEach items="${tagCloud.tags}" var="tag">
-			<li><span class="btn-tag-item"><a href="${tag.href}">${tag.title}</a></span></li>
+			<li><span class="btn-tag-item"><c:out value="${tag}"/></span></li>
 		</c:forEach>
 	</ul>
 </div>

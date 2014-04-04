@@ -72,7 +72,7 @@
                                 <a href="${product.productPath}.html" class="btn-bubble bubble-colour-favourite">
                 <span class="btn-bubble-tooltip">
                     <span class="btn-bubble-tooltip-container">
-                        <%= i18n.get("Add to your dream trip") %>
+                        <fmt:message key="Add to your dream trip" />
                     </span>
                 </span>
                 <span class="btn-bubble-button">

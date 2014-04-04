@@ -13,10 +13,6 @@ body {
   font-family: $font-family-base;
   color:$body-colour;
   line-height: 1;
-  /*@include breakpoint(xs) {
-    height:pxtoem(500px);
-    min-width: 320px;
-  };*/
 
   // IE8 Better Text
   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=hIEfix.png,sizingMethod=crop);

@@ -48,9 +48,7 @@
 }
 .home-hero-text-table-cell {
 
-    // this now uses a H1 so we need to fix it
     font-size: 16px; // return to base
-    color: #fff;
 
   display: table-cell;
   vertical-align: middle;
@@ -62,8 +60,8 @@
 }
 .home-hero-title{
 
-    // this now uses a span so we need to fix it
-    display: block;
+    color: #fff;
+    margin-bottom: 0;
 
   @include type_TAheadline();
   font-size: pxtoem(60px);
@@ -79,8 +77,7 @@
 }
 .home-hero-sub-title {
 
-    // this now uses a span so we need to fix it
-    display: block;
+    color: #fff;
 
   @include type_TAheadline();
   font-size: pxtoem(30px);

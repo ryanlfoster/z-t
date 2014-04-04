@@ -114,6 +114,16 @@ layout: layout-base.hbs
     </div>
 
     <div class="row l-padding-between-item-fill-white">
+        <div class="row l-center-1200">
+            <div class="col-xs-7 col-sm-7 col-sm-offset-3">
+                {{> seperator }}
+                {{> favourite }}
+                {{> seperator }}
+            </div>
+        </div>
+    </div>
+
+    <div class="row l-padding-between-item-fill-white">
         {{#parseJSON '{
         "promo_image" : "promo4",
         "promo_title" : "Le Cher du Monde",

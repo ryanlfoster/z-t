@@ -27,7 +27,11 @@ import java.util.List;
  * Created by gsnyder on 4/1/14.
  */
 @Component(value="ATDW Highlights", tabs={@Tab(title=Constants.TAB_GENERAL), @Tab(title=Constants.TAB_CATEGORIES)},
-        listeners = @Listener(name="afteredit", value="REFRESH_PAGE"))
+        listeners = {
+                @Listener(name="afteredit", value="REFRESH_PAGE"),
+                @Listener(name="afterinsert", value="REFRESH_PAGE")
+        }
+)
 public class AtdwHighlights {
 
     private static Tag selectPageTagForSearch(TagManager tagManager, Resource resource) {
@@ -49,10 +53,12 @@ public class AtdwHighlights {
     @DialogField(fieldLabel="Component Title", name="./"+Constants.NAME_TITLE, tab = 1)
     private final String title;
 
-    @DialogField(fieldLabel="Component Text", name="./"+Constants.NAME_TEXT, tab = 1)
+    @DialogField(fieldLabel="Component Text", name="./"+Constants.NAME_TEXT, tab = 1, xtype="textarea", additionalProperties={@FieldProperty(name="grow", value="true")})
     private final String text;
 
-    @DialogField(fieldLabel="Product Population  Strategy", name="./strategy", tab = 1, xtype = "highlightstrategy")
+    @DialogField(fieldLabel="Product Population  Strategy", name="./strategy", tab = 1, xtype = "highlightstrategy",
+        fieldDescription="Choose to populate by City, State, Search Term, or Tag.  If tag is selected, the containing" +
+                " page should have a \"ta:places\" tag associated with it.", defaultValue = "Tag|")
     private final String strategy;
 
     private final String type;
@@ -149,15 +155,30 @@ public class AtdwHighlights {
         return Constants.TYPE_TAG.equals(type);
     }
 
+    public String getType() {
+        return type;
+    }
+
+    public String getTypeArgument() {
+        return typeArgument;
+    }
+
     public String getSelectedTagId() {
-        return selectedTag == null ? "NONE" : selectedTag.getTagID();
+        return selectedTag == null ? "NONE (Add a ta:places tag to the page to allow for proper population of products)" :
+                selectedTag.getTagID();
     }
 
     public List<Category> getActiveCategories() {
+        boolean overrideHidden = false;
+        // If all categories are hidden, turn them all on.  Fixes an issue when the component is first added to a page.
+        if (!showAccommodation && !showAttraction && !showRestaurants && !showTours && !showHire && !showEvents &&
+                !showTransport) {
+            overrideHidden = true;
+        }
         List<Category> activeCategories = new ArrayList<Category>();
         for(ATDWCategory category: Constants.CATEGORY_ORDERING) {
             String showCategoryName = Constants.getShowPropertyName(category);
-            if(properties.get(showCategoryName, false)) {
+            if(properties.get(showCategoryName, false) || overrideHidden) {
                 activeCategories.add(new Category(category));
             }
         }

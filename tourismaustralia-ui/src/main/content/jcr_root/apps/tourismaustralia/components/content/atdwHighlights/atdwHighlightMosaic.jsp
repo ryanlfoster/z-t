@@ -8,7 +8,7 @@
 <%@include file="/apps/tourismaustralia/components/global.jsp" %>
 
 <c:if test="${empty products}">
-    <div class="l-h-center">No results -- This category will be hidden in Publish</div>
+    <div class="l-h-center"style="color:#833">No results -- This category will be hidden in Publish</div>
 </c:if>
 
 <c:forEach items="${products}" var="product" varStatus="status">
@@ -34,15 +34,17 @@
 
                         <div class="mosaic-3column-front flip-front-fade">
                             <div class="mosaic-3column-media theme-mosaic-3column-front l-padding-t-15">
-                                <img src="/etc/designs/tourismaustralia/clientlibs/img/logo/logo_tqual_black.png" alt=""/>
-                                <p>front</p>
+                                <%-- Use visibility:hidden to hide in order to maintain layout and prevent text from shifting --%>
+                                <img src="/etc/designs/tourismaustralia/clientlibs/img/logo/logo_tqual_black.png" <c:if test="${!product.tqual}">style="visibility: hidden"</c:if> alt=""/>
+                                <p>${product.title}</p>
                             </div>
                         </div>
 
                         <div class="mosaic-3column-back flip-back-fade">
                             <div class="mosaic-3column-media theme-mosaic-3column-back l-padding-t-15">
-                                <img src="/etc/designs/tourismaustralia/clientlibs/img/logo/logo_tqual_white.png" alt=""/>
-                                <p>back</p>
+                                    <%-- Use visibility:hidden to hide in order to maintain layout and prevent text from shifting --%>
+                                <img src="/etc/designs/tourismaustralia/clientlibs/img/logo/logo_tqual_white.png" <c:if test="${!product.tqual}">style="visibility: hidden"</c:if> alt=""/>
+                                <p>${product.title}</p>
                             </div>
                         </div>
 
@@ -54,10 +56,6 @@
 
                     <div class="mosaic-item-detail-container">
                         <div class="mosaic-item-container">
-
-                            <div class="l-h-center type-spacing-20">
-                                <img src="/etc/designs/tourismaustralia/clientlibs/img/icons/art_culture.png">
-                            </div>
 
                             <div class="line-through-container">
                                 <div class="line-through"><span class="line-through-hr"></span></div>
@@ -71,10 +69,10 @@
 
                                 <p>${product.description}</p>
 
-                                <a href="#" class="btn-bubble bubble-colour-favourite">
+                                <a href="${product.productPath}.html" class="btn-bubble bubble-colour-favourite">
                 <span class="btn-bubble-tooltip">
                     <span class="btn-bubble-tooltip-container">
-                        <fmt:message key="Add to your dream trip" />
+                        <%= i18n.get("Add to your dream trip") %>
                     </span>
                 </span>
                 <span class="btn-bubble-button">

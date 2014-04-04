@@ -57,24 +57,22 @@ CQ.CustomWidget = CQ.Ext.extend(CQ.form.CompositeField, {
             listeners: {
                 selectionchanged: {
                     scope:this,
-                    fn: this.updateHidden
+                    fn: this.clearTextAndUpdateHidden
                 }
             },
-            optionsProvider: function() {
-                return [{
-                    text:"City",
-                    value:"City"
-                },{
-                    text:"State",
-                    value:"State"
-                },{
-                    text:"Term",
-                    value:"Term"
-                },{
-                    text:"Tag",
-                    value:"Tag"
-                }];
-            }
+            options: [{
+                text:"City",
+                value:"City"
+            },{
+                text:"State",
+                value:"State"
+            },{
+                text:"Term",
+                value:"Term"
+            },{
+                text:"Tag",
+                value:"Tag"
+            }]
         });
         this.add(this.typeSelector);
 
@@ -94,24 +92,12 @@ CQ.CustomWidget = CQ.Ext.extend(CQ.form.CompositeField, {
 
     },
 
-    // overriding CQ.form.CompositeField#processPath
-    processPath: function(path) {
-        this.typeSelector.processPath(path);
-        this.typeSelector.processPath(path);
-    },
-
-    // overriding CQ.form.CompositeField#processRecord
-    processRecord: function(record, path) {
-        this.typeSelector.processRecord(record, path);
-        this.typeSelector.processRecord(record, path);
-    },
-
     // overriding CQ.form.CompositeField#setValue
     setValue: function(value) {
-        var parts = value.split("[\\|]");
+        var parts = value.split("|");
         this.typeSelector.setValue(parts[0]);
         this.valuetext.setValue(parts[1]);
-        this.hiddenField.setValue(value);
+        this.updateHidden();
     },
 
     // overriding CQ.form.CompositeField#getValue
@@ -127,6 +113,12 @@ CQ.CustomWidget = CQ.Ext.extend(CQ.form.CompositeField, {
     },
 
     // private
+
+    clearTextAndUpdateHidden: function() {
+        this.valuetext.setValue("");
+        this.updateHidden();
+    },
+
     updateHidden: function() {
 
         var type = this.typeSelector.getValue();

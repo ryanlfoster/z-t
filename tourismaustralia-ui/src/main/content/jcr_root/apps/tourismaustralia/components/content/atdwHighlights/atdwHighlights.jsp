@@ -23,7 +23,10 @@
 
             <%-- Display the selected page tag to authors in edit mode --%>
             <c:if test="${isEdit && h.tagBased}">
-                <p>Tag selected: ${h.selectedTagId}</p>
+                <p style="color:#833">{Tag selected: ${h.selectedTagId}}</p>
+            </c:if>
+            <c:if test="${isEdit && !h.tagBased}">
+                <p style="color:#833">{${h.type}: ${h.typeArgument}}</p>
             </c:if>
         </div>
     </div>
@@ -43,7 +46,7 @@
                         <c:forEach items="${h.activeCategories}" var="cat">
                             <c:if test="${not empty cat.products || isEdit}">
                                 <option value="${cat.id}">
-                                    <%= i18n.get("${cat.display}") %>
+                                    <%= i18n.get(((AtdwHighlights.Category) pageContext.getAttribute("cat")).getDisplay()) %>
                                 </option>
                             </c:if>
                         </c:forEach>
@@ -68,7 +71,7 @@
                             <img class="btn-bubble-active" src="${cat.activeIconPath}" alt="">
                         </span>
                         <span class="type-below-btn">
-                            <%= i18n.get("${cat.display}") %>
+                            <%= i18n.get(((AtdwHighlights.Category) pageContext.getAttribute("cat")).getDisplay()) %>
                         </span>
                     </a>
                 </c:if>

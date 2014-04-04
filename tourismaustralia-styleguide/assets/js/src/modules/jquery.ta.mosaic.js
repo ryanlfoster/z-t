@@ -93,6 +93,19 @@
             $mosaic_container.trigger("click");
             e.preventDefault();
         });
+
+
+
+
+        var $mosaic_grid2 = $mosaic_item.parents(".mosaic-grid-2");
+        if ($mosaic_grid2.length){
+            console.log($mosaic_grid2);
+            $mosaic_grid2.find(scope.options.mosaic_detail_close_btn).click(function(e){
+                //$mosaic_container.trigger("click");
+                alert("click");
+                e.preventDefault();
+            });
+        }
     };
 
     Plugin.prototype.disableTiles = function(scope, $mosaic_item, $mosaic_content, $mosaic_grid2_content) {

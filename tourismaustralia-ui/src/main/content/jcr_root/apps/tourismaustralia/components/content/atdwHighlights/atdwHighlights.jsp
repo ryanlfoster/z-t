@@ -7,7 +7,6 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@include file="/apps/tourismaustralia/components/global.jsp" %>
-<cq:includeClientLib categories="ta.atdwHighlights" />
 
 <%@ page import="com.australia.www.components.content.atdwhighlights.*" %>
 <c:set var="h" value="<%=new AtdwHighlights(slingRequest) %>"/>

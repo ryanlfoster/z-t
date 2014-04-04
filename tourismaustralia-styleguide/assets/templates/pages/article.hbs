@@ -33,10 +33,7 @@ layout: layout-base.hbs
 <div class="paragraph-article">
 
     <div class="row l-padding-between-item-fill-white">
-        <div class="l-padding-between-item-remove-30">
-            {{> 2columnvideo }}
-        </div>
-
+        {{> 2columnvideo }}
     </div>
 
     {{#parseJSON '{"copy": "You can access the Daintree from Cairns, Port Douglas, Cape Tribulation and Cooktown. Do a day trip, or stay in an eco lodge nestled in the rainforest or picturesque Daintree Village on the Daintree River. Then get up close to the Daintree’s diversity of life on an aerial walkway or one of the many hiking trails."}'}}
@@ -51,7 +48,7 @@ layout: layout-base.hbs
         {{> paragraph_dynamic}}
     {{/parseJSON}}
 
-    <div class="l-padding-between-item-fill-white">
+    <div class="row l-padding-between-item-fill-white">
         {{#parseJSON '{
         "promo_image" : "promo3",
         "promo_title" : "Take a bike ride to Donovan&#769;s Beach",
@@ -69,28 +66,37 @@ layout: layout-base.hbs
         {{> paragraph_dynamic}}
     {{/parseJSON}}
 
-    {{> largeimagenotext }}
+    <div class="row l-padding-between-item-fill-white">
+        {{> largeimagenotext }}
+    </div>
 
     {{#parseJSON '{"copy": "Beyond the trees, the Daintree also offers pristine beaches with shallow, warm, tropical seas.  You’ll find them clustered in the north near Cape Tribulation, where the rainforest meets the Great Barrier Reef. It’s the only place in the world where two World Heritage sites meet. Chill out on Coconut Beach, bike ride to Donovans Beach or camp near the sand on Noahs Beach. For a truly rugged adventure, four wheel drive the Bloomfield Track to or from Cape Tribulation."}'}}
         {{> paragraph_dynamic}}
     {{/parseJSON}}
 
-    {{> quote }}
+    <div class="row l-padding-between-item-fill-white">
+        {{> quote }}
+    </div>
 
-    {{> largeimagetext }}
-
-    {{#parseJSON '{"copy": "Chill out on Coconut Beach, bike ride to Donovans Beach or camp near the sand on Noahs Beach. For a truly rugged adventure, four wheel drive the Bloomfield Track to or from Cape Tribulation."}'}}
-        {{> paragraph_dynamic}}
-    {{/parseJSON}}
-
-
-    {{> twoimages }}
+    <div class="row l-padding-between-item-fill-white">
+        {{> largeimagetext }}
+    </div>
 
     {{#parseJSON '{"copy": "Chill out on Coconut Beach, bike ride to Donovans Beach or camp near the sand on Noahs Beach. For a truly rugged adventure, four wheel drive the Bloomfield Track to or from Cape Tribulation."}'}}
         {{> paragraph_dynamic}}
     {{/parseJSON}}
 
-    {{> smallimagetext }}
+    <div class="row l-padding-between-item-fill-white">
+        {{> twoimages }}
+    </div>
+
+    {{#parseJSON '{"copy": "Chill out on Coconut Beach, bike ride to Donovans Beach or camp near the sand on Noahs Beach. For a truly rugged adventure, four wheel drive the Bloomfield Track to or from Cape Tribulation."}'}}
+        {{> paragraph_dynamic}}
+    {{/parseJSON}}
+
+    <div class="row l-padding-between-item-fill-white">
+        {{> smallimagetext }}
+    </div>
 
     {{#parseJSON '{"copy": "To really appreciate this magical, primeval landscape, do a tour with traditional owners, the Kuku Yalanji people. Take a guided walk on traditional tracks alongside Mossman Gorge. Learn how they have used the rainforest for food, medicine, shelter and spiritual sustenance for more than 9,000 years. Fish for barramundi and snack on traditional food. Visit a waterfall with sacred healing powers and learn about the Kuku Yalanji’s five distinct seasons. Spring begins at the end of the Buluriji cold season in September and lasts throughout the Wungariji hot season in November."}'}}
         {{> paragraph_dynamic}}
@@ -107,7 +113,7 @@ layout: layout-base.hbs
         </div>
     </div>
 
-    <div class="l-padding-between-item-fill-white">
+    <div class="row l-padding-between-item-fill-white">
         {{#parseJSON '{
         "promo_image" : "promo4",
         "promo_title" : "Le Cher du Monde",

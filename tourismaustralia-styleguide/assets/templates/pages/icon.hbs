@@ -40,11 +40,11 @@ layout: layout-base.hbs
 
     {{> page_image_with_date }}
 
-    <div class="l-padding-between-item-fill-white">
+    <div class="row l-padding-between-item-fill-white">
         {{> mapimagewithlinks }}
     </div>
 
-    <div class="l-padding-between-item-fill-white">
+    <div class="row l-padding-between-item-fill-white">
         {{#parseJSON '{
         "promo_image" : "promo2",
         "promo_title" : "Island hop from the top",
@@ -70,7 +70,7 @@ layout: layout-base.hbs
         </div>
     </div>
 
-    <div class="l-padding-between-item-fill-white">
+    <div class="row l-padding-between-item-fill-white">
         {{#parseJSON '{
         "promo_image" : "promo3",
         "promo_title" : "Pinnacles Resort & Spa",
@@ -84,7 +84,7 @@ layout: layout-base.hbs
         {{/parseJSON}}
     </div>
 
-    <div class="l-padding-between-item-fill-white">
+    <div class="row l-padding-between-item-fill-white">
         {{> categorylinks_city_sydney }}
     </div>
 

@@ -26,7 +26,7 @@ layout: layout-base.hbs
     "map_main_title" : "Capital of New South Wales",
     "map_pin_button" : "Sydney"
 }'}}
-        {{> page_explore_summary_map }}
+        {{> explore_summary_map }}
     {{/parseJSON}}
 </div>
 
@@ -39,7 +39,53 @@ layout: layout-base.hbs
 
     </div>
 
-    {{> paragraph_standard}}
+    {{#parseJSON '{"copy": "You can access the Daintree from Cairns, Port Douglas, Cape Tribulation and Cooktown. Do a day trip, or stay in an eco lodge nestled in the rainforest or picturesque Daintree Village on the Daintree River. Then get up close to the Daintree’s diversity of life on an aerial walkway or one of the many hiking trails."}'}}
+        {{> paragraph_dynamic}}
+    {{/parseJSON}}
+
+    {{#parseJSON '{"copy": "See bright butterflies, musky-rat kangaroos and the shy, endangered cassowary, with its blue neck and regal head dress. Marvel at the 600 million year old zamia fern, with an underground trunk system that evolved in defense against browsing dinosaurs. Cruise the mangrove-lined Daintree River past crocodiles and see turtles in clear, sparkling streams. A third of Australia’s frog, marsupial and reptile species and almost two-thirds of its bat and butterfly species can be found beneath the Daintree’s dense canopy."}'}}
+        {{> paragraph_dynamic}}
+    {{/parseJSON}}
+
+    {{#parseJSON '{"copy": "<a>Link Sample</a> consequat. Duis aute irure dolor in <a><strong>Link Strong</strong></a> in voluptate velit <b>bold</b> dolore eu <strong>Strong</strong>  sint occaecat cupidatat non proident, sunt in culpa qui <em>italic</em> deserunt <strong><em>bold italic</em></strong> id est laborum."}'}}
+        {{> paragraph_dynamic}}
+    {{/parseJSON}}
+
+    <div class="l-padding-between-item-fill-white">
+        {{#parseJSON '{
+        "promo_image" : "promo3",
+        "promo_title" : "Take a bike ride to Donovan&#769;s Beach",
+        "promo_text" : [
+            {"para" : "12KM to the north (For the intrepid explorer - you need a 4WD or a mountain bike. Another 4 km north from Emmagen. There is a slight track from the road into the beach following the creek for about 200 metres."}
+        ],
+        "promo_value" : "",
+        "promo_per" : ""
+    }'}}
+            {{> page_specialoffer }}
+        {{/parseJSON}}
+    </div>
+
+    {{#parseJSON '{"copy": "This vast chunk of rainforest is also home to around 430 species of birds, including 13 found nowhere else in the world. Wake to their morning chorus from a tree-house or hear it gliding down the river at dawn. During springtime, their song becomes more rousing to protect their breeding territory or attract a mate. Listen for the tenor-like song of the wompoo fruit-dove, the haunting call of the spotted catbird and the Kermit croak of the large-tailed nightjar. From September, you can spot glamorous brown-backed honeyeaters and Australia’s kingfishers. The cuckoos arrive in November with the thunderstorms, adding their raucous call to the morning din."}'}}
+        {{> paragraph_dynamic}}
+    {{/parseJSON}}
+
+    {{#parseJSON '{"copy": "Beyond the trees, the Daintree also offers pristine beaches with shallow, warm, tropical seas.  You’ll find them clustered in the north near Cape Tribulation, where the rainforest meets the Great Barrier Reef. It’s the only place in the world where two World Heritage sites meet. Chill out on Coconut Beach, bike ride to Donovans Beach or camp near the sand on Noahs Beach. For a truly rugged adventure, four wheel drive the Bloomfield Track to or from Cape Tribulation."}'}}
+        {{> paragraph_dynamic}}
+    {{/parseJSON}}
+
+    {{> largeimagetext }}
+
+    {{#parseJSON '{"copy": "Seperator text to pad between elements..."}'}}
+        {{> paragraph_dynamic}}
+    {{/parseJSON}}
+
+    {{> twoimages }}
+
+    {{#parseJSON '{"copy": "Seperator text to pad between elements..."}'}}
+        {{> paragraph_dynamic}}
+    {{/parseJSON}}
+
+    {{> smallimagetext }}
 
     {{#parseJSON '{"copy": "To really appreciate this magical, primeval landscape, do a tour with traditional owners, the Kuku Yalanji people. Take a guided walk on traditional tracks alongside Mossman Gorge. Learn how they have used the rainforest for food, medicine, shelter and spiritual sustenance for more than 9,000 years. Fish for barramundi and snack on traditional food. Visit a waterfall with sacred healing powers and learn about the Kuku Yalanji’s five distinct seasons. Spring begins at the end of the Buluriji cold season in September and lasts throughout the Wungariji hot season in November."}'}}
         {{> paragraph_dynamic}}

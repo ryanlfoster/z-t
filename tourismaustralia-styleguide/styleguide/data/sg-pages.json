@@ -510,12 +510,12 @@
                     ,
                 
             
-                "home_explore_summary_map" : {
+                "explore_summary_map" : {
                      "data" : {
-                        "title" : "home_explore_summary_map",
+                        "title" : "explore_summary_map",
                         "layout" : "styleguide-preview.hbs"
                     },
-                    "content" : "{{section 'home_explore_summary_map'}}"
+                    "content" : "{{section 'explore_summary_map'}}"
                 }
                 
                     ,
@@ -822,28 +822,6 @@
                     ,
                 
             
-                "bylinewithshare" : {
-                     "data" : {
-                        "title" : "bylinewithshare",
-                        "layout" : "styleguide-preview.hbs"
-                    },
-                    "content" : "{{section 'bylinewithshare'}}"
-                }
-                
-                    ,
-                
-            
-                "header" : {
-                     "data" : {
-                        "title" : "header",
-                        "layout" : "styleguide-preview.hbs"
-                    },
-                    "content" : "{{section 'header'}}"
-                }
-                
-                    ,
-                
-            
                 "footer" : {
                      "data" : {
                         "title" : "footer",
@@ -861,6 +839,17 @@
                         "layout" : "styleguide-preview.hbs"
                     },
                     "content" : "{{section 'breadcrumbs'}}"
+                }
+                
+                    ,
+                
+            
+                "bylinewithshare" : {
+                     "data" : {
+                        "title" : "bylinewithshare",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'bylinewithshare'}}"
                 }
                 
                     ,
@@ -899,6 +888,17 @@
                     ,
                 
             
+                "fullsizevideo" : {
+                     "data" : {
+                        "title" : "fullsizevideo",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'fullsizevideo'}}"
+                }
+                
+                    ,
+                
+            
                 "homehero" : {
                      "data" : {
                         "title" : "homehero",
@@ -910,12 +910,12 @@
                     ,
                 
             
-                "mapcitylink" : {
+                "imagemapcitylink" : {
                      "data" : {
-                        "title" : "mapcitylink",
+                        "title" : "imagemapcitylink",
                         "layout" : "styleguide-preview.hbs"
                     },
-                    "content" : "{{section 'mapcitylink'}}"
+                    "content" : "{{section 'imagemapcitylink'}}"
                 }
                 
                     ,
@@ -965,34 +965,45 @@
                     ,
                 
             
-                "mapwithlinkstate" : {
+                "largeimagetext" : {
                      "data" : {
-                        "title" : "mapwithlinkstate",
+                        "title" : "largeimagetext",
                         "layout" : "styleguide-preview.hbs"
                     },
-                    "content" : "{{section 'mapwithlinkstate'}}"
+                    "content" : "{{section 'largeimagetext'}}"
                 }
                 
                     ,
                 
             
-                "mapwithlinkcity" : {
+                "mapimagewithbuttons" : {
                      "data" : {
-                        "title" : "mapwithlinkcity",
+                        "title" : "mapimagewithbuttons",
                         "layout" : "styleguide-preview.hbs"
                     },
-                    "content" : "{{section 'mapwithlinkcity'}}"
+                    "content" : "{{section 'mapimagewithbuttons'}}"
                 }
                 
                     ,
                 
             
-                "hr" : {
+                "mapimagewithlinks" : {
                      "data" : {
-                        "title" : "hr",
+                        "title" : "mapimagewithlinks",
                         "layout" : "styleguide-preview.hbs"
                     },
-                    "content" : "{{section 'hr'}}"
+                    "content" : "{{section 'mapimagewithlinks'}}"
+                }
+                
+                    ,
+                
+            
+                "seperator" : {
+                     "data" : {
+                        "title" : "seperator",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'seperator'}}"
                 }
                 
                     ,
@@ -1004,6 +1015,28 @@
                         "layout" : "styleguide-preview.hbs"
                     },
                     "content" : "{{section 'shareicons'}}"
+                }
+                
+                    ,
+                
+            
+                "smallimagetext" : {
+                     "data" : {
+                        "title" : "smallimagetext",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'smallimagetext'}}"
+                }
+                
+                    ,
+                
+            
+                "socialtiles" : {
+                     "data" : {
+                        "title" : "socialtiles",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'socialtiles'}}"
                 }
                 
                     ,
@@ -1053,6 +1086,17 @@
                     ,
                 
             
+                "twoimages" : {
+                     "data" : {
+                        "title" : "twoimages",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'twoimages'}}"
+                }
+                
+                    ,
+                
+            
                 "whatyoucansee_city" : {
                      "data" : {
                         "title" : "whatyoucansee_city",
@@ -1075,45 +1119,12 @@
                     ,
                 
             
-                "smallimagetext" : {
+                "header" : {
                      "data" : {
-                        "title" : "smallimagetext",
+                        "title" : "header",
                         "layout" : "styleguide-preview.hbs"
                     },
-                    "content" : "{{section 'smallimagetext'}}"
-                }
-                
-                    ,
-                
-            
-                "largeimagetext" : {
-                     "data" : {
-                        "title" : "largeimagetext",
-                        "layout" : "styleguide-preview.hbs"
-                    },
-                    "content" : "{{section 'largeimagetext'}}"
-                }
-                
-                    ,
-                
-            
-                "twoimages" : {
-                     "data" : {
-                        "title" : "twoimages",
-                        "layout" : "styleguide-preview.hbs"
-                    },
-                    "content" : "{{section 'twoimages'}}"
-                }
-                
-                    ,
-                
-            
-                "socialtiles" : {
-                     "data" : {
-                        "title" : "socialtiles",
-                        "layout" : "styleguide-preview.hbs"
-                    },
-                    "content" : "{{section 'socialtiles'}}"
+                    "content" : "{{section 'header'}}"
                 }
                 
             

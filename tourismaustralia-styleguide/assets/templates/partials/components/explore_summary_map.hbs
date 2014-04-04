@@ -29,18 +29,7 @@ title: Intro Section (includes breadcrumb, explore, share, summary, text, map)
         <div class="col-xs-12 col-sm-9">
             <div>
                 <div class="col-xs-12 col-sm-12 col-md-6 col-md-push-6 home-summary-map-container">
-                    <div class="map-main">
-                        <img class="map-main-image" src="imgs/placeholders/{{map_image}}.png" alt="Map">
-                        <div class="map-main-link">
-                            <div class="map-main-title">{{map_main_title}}</div>
-
-                            {{#if map_pin_has_link}}
-                                <img src="imgs/icons/pin_sml.png" class="map-pin"><a href="#" class="map-pin-btn">{{map_pin_button}}</a>
-                            {{else}}
-                                <img src="imgs/icons/pin_sml.png" class="map-pin"><span class="map-pin-btn">{{map_pin_button}}</span>
-                            {{/if}}
-                        </div>
-                    </div>
+                    {{> imagemapcitylink}}
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-6 col-md-pull-6">
                     <div class="row">

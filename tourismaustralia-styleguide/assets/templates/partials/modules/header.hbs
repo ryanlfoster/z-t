@@ -1,7 +1,9 @@
 ---
 title: Header
 ---
-<div class="header bar-fixed-top">
+<div id="nav-main-header" class="header bar-fixed-top">
+
+    {{! consider adding some target wrappers here? }}
 
     <div class="accessibility-links">
         <a tabindex="1" class="sr-only vis-focusable" href="#main-content">Skip to content</a>
@@ -31,20 +33,12 @@ title: Header
         </div>
 
         {{! TOP_BAR: this bar will always be visiable, it will remain fixed to the top of the viewport at all times except on arrival... }}
-        <div id="main-navigation" class="nav-bar navigation-bar">
+        <div class="nav-bar navigation-bar">
             <div class="row l-center-1200">
 
                 {{! BEGIN: MASTHEAD }}
                 <div class="header-masthead">
-                    {{!
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".bs-navbar-collapse">
-                        <span class="sr-only">Toggle Navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    }}
-                    <a class="nav-bar-toggle" href="#main-navigation">
+                    <a class="nav-bar-toggle" href="#nav-main-header">
                         <span class="sr-only">Toggle Navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -63,16 +57,16 @@ title: Header
                         <li class="toggle-home vis-hidden-sm">
                             <a href="#" tabindex="-1"><span class="icon icon-32 icon-home" aria-hidden="true"></span><span> Home</span></a>
                         </li>
-                        <li class="toggle-search has-children">
-                            <a href="#"><span class="icon icon-32 icon-search" aria-hidden="true"></span><span class="vis-hidden-sm"> Search</span></a>
+                        <li id="nav-search-panel" class="toggle-search has-children">
+                            <a href="#nav-search-panel"><span class="icon icon-32 icon-search" aria-hidden="true"></span><span class="vis-hidden-sm"> Search</span></a>
                             <ul class="nav-bar-panel">
                                 <li class="nav-bar-panel-content">
                                     Mega menu content for "Search"
                                 </li>
                             </ul>
                         </li>
-                        <li class="toggle-map has-children">
-                            <a href="#"><span class="icon icon-32 icon-map" aria-hidden="true"></span><span class="vis-hidden-sm"> Map</span></a>
+                        <li id="nav-map-panel" class="toggle-map has-children">
+                            <a href="#nav-map-panel"><span class="icon icon-32 icon-map" aria-hidden="true"></span><span class="vis-hidden-sm"> Map</span></a>
                             <ul class="nav-bar-panel">
                                 <li class="nav-bar-panel-content">
                                     Mega menu content for "Map"
@@ -93,24 +87,24 @@ title: Header
 
                     {{! BEGIN: MAIN NAV }}
                     <ul class="nav-bar-nav nav-bar-left">
-                        <li class="has-children">
-                            <a href="#">Things to do</a>
+                        <li id="nav-things-to-do-panel" class="has-children">
+                            <a href="#nav-things-to-do-panel">Things to do</a>
                             <ul class="nav-bar-panel">
                                 <li class="nav-bar-panel-content">
                                     Mega menu content for "Thing to do"
                                 </li>
                             </ul>
                         </li>
-                        <li class="has-children">
-                            <a href="#">Where to go</a>
+                        <li id="nav-where-to-go-panel" class="has-children">
+                            <a href="#nav-where-to-go-panel">Where to go</a>
                             <ul class="nav-bar-panel">
                                 <li class="nav-bar-panel-content">
                                     Mega menu content for "Where to go"
                                 </li>
                             </ul>
                         </li>
-                        <li class="has-children">
-                            <a href="#">Plan your trip</a>
+                        <li id="nav-plan-your-trip-panel" class="has-children">
+                            <a href="#nav-plan-your-trip-panel">Plan your trip</a>
                             <ul class="nav-bar-panel">
                                 <li class="nav-bar-panel-content">
                                     Mega menu content for "Plan your trip"

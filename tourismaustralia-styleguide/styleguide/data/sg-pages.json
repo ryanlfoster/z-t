@@ -319,12 +319,12 @@
             
         
             
-                "icon" : {
+                "icons" : {
                      "data" : {
-                        "title" : "icon",
+                        "title" : "icons",
                         "layout" : "styleguide-preview.hbs"
                     },
-                    "content" : "{{section 'icon'}}"
+                    "content" : "{{section 'icons'}}"
                 }
                 
                     ,

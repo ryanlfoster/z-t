@@ -1,5 +1,8 @@
 
 .explore-container {
+
+    overflow: hidden;
+    
     @include breakpoint(lg) {
         padding-top: pxtoem(55px);
     }

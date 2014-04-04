@@ -1119,6 +1119,17 @@
                     ,
                 
             
+                "largeimagesocial" : {
+                     "data" : {
+                        "title" : "largeimagesocial",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'largeimagesocial'}}"
+                }
+                
+                    ,
+                
+            
                 "header" : {
                      "data" : {
                         "title" : "header",

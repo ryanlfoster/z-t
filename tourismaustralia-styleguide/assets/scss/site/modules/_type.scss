@@ -222,3 +222,22 @@
     margin-bottom: .1em;
   }
 }
+
+.type-h3 {
+  font-family: $font-family-secondary;
+  font-size: pxtoem($h3-size);
+  font-weight: normal;
+  color: $type-heading-colour;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.type-h4 {
+  font-family: $font-family-base-b;
+  font-size: pxtoem($h4-size);
+  font-weight: normal;
+  color: $type-heading-colour;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+

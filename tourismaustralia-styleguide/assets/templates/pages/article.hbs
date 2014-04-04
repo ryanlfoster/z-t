@@ -73,7 +73,19 @@ layout: layout-base.hbs
         {{> paragraph_dynamic}}
     {{/parseJSON}}
 
+    {{> largeimagetext }}
+
+    {{#parseJSON '{"copy": "Seperator text to pad between elements..."}'}}
+        {{> paragraph_dynamic}}
+    {{/parseJSON}}
+
     {{> twoimages }}
+
+    {{#parseJSON '{"copy": "Seperator text to pad between elements..."}'}}
+        {{> paragraph_dynamic}}
+    {{/parseJSON}}
+
+    {{> smallimagetext }}
 
     {{#parseJSON '{"copy": "To really appreciate this magical, primeval landscape, do a tour with traditional owners, the Kuku Yalanji people. Take a guided walk on traditional tracks alongside Mossman Gorge. Learn how they have used the rainforest for food, medicine, shelter and spiritual sustenance for more than 9,000 years. Fish for barramundi and snack on traditional food. Visit a waterfall with sacred healing powers and learn about the Kuku Yalanji’s five distinct seasons. Spring begins at the end of the Buluriji cold season in September and lasts throughout the Wungariji hot season in November."}'}}
         {{> paragraph_dynamic}}

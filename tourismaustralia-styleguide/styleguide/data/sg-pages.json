@@ -998,6 +998,17 @@
                     ,
                 
             
+                "quote" : {
+                     "data" : {
+                        "title" : "quote",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'quote'}}"
+                }
+                
+                    ,
+                
+            
                 "seperator" : {
                      "data" : {
                         "title" : "seperator",

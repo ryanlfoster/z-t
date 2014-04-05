@@ -42,6 +42,7 @@
 // same styles applied for testing with styleguide
 .styleguide .paragraph-article {
   background: #fff;
+  z-index: 200;
 
   //CMS implementation
   & >  p {

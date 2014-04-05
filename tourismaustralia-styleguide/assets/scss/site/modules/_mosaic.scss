@@ -26,9 +26,11 @@
   width: 100%;
   overflow: visible;
   opacity: 1;
+  margin-bottom: pxtoem(20px);
 
   @include breakpoint(md) {
     padding: pxtoem(3px);
+    margin-bottom: 0;
   }
 
   &:hover {

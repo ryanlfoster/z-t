@@ -34,7 +34,7 @@
 		font-size: pxtoem($font-size-base);
 	}
 
-	@include breakpoint(sm){
+	@include breakpoint(md){
 		bottom : 0;
 		padding: 0 0 0 1em;
 		right: 0;

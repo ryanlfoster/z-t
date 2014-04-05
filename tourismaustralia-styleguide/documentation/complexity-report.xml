@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <jslint>
-<file name="assets/js/src/main.js">
+<file name="assets/js/src/modules/jquery.ta.mosaic.js">
+  
+  <issue
+    line="52"
+    char="&lt;anonymous&gt;.setupEvents"
+    evidence="&lt;anonymous&gt;.setupEvents is too complicated"
+    reason="Cyclomatic: 2,
+    Halstead: 8.1250
+    | Effort: 5103.2
+    | Volume: 628.08
+    | Vocabulary: 30" />
   
 </file>
 <file name="assets/js/src/modules/jquery.ta.carousel.js">
-  
-</file>
-<file name="assets/js/src/modules/jquery.ta.flipcard.js">
   
 </file>
 <file name="assets/js/src/modules/jquery.ta.fullwidthbg.js">
@@ -22,20 +29,13 @@
     | Vocabulary: 25" />
   
 </file>
-<file name="assets/js/src/modules/jquery.ta.mosaic.js">
-  
-  <issue
-    line="52"
-    char="&lt;anonymous&gt;.setupEvents"
-    evidence="&lt;anonymous&gt;.setupEvents is too complicated"
-    reason="Cyclomatic: 2,
-    Halstead: 8.1250
-    | Effort: 5103.2
-    | Volume: 628.08
-    | Vocabulary: 30" />
+<file name="assets/js/src/modules/jquery.ta.parallax.js">
   
 </file>
-<file name="assets/js/src/modules/jquery.ta.parallax.js">
+<file name="assets/js/src/modules/jquery.ta.flipcard.js">
+  
+</file>
+<file name="assets/js/src/main.js">
   
 </file>
 </jslint>

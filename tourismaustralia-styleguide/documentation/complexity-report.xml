@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <jslint>
+<file name="assets/js/src/modules/jquery.ta.parallax.js">
+  
+  <issue
+    line="62"
+    char="window.onscroll"
+    evidence="window.onscroll is too complicated"
+    reason="Cyclomatic: 7,
+    Halstead: 49.500
+    | Effort: 1.0284e+5
+    | Volume: 2077.6
+    | Vocabulary: 48" />
+  
+</file>
 <file name="assets/js/src/modules/jquery.ta.mosaic.js">
   
 </file>
@@ -7,9 +20,6 @@
   
 </file>
 <file name="assets/js/src/modules/jquery.ta.fullwidthbg.js">
-  
-</file>
-<file name="assets/js/src/modules/jquery.ta.parallax.js">
   
 </file>
 <file name="assets/js/src/modules/jquery.ta.flipcard.js">

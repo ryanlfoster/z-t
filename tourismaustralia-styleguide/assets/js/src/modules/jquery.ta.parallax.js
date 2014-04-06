@@ -10,7 +10,8 @@
  *
  */
 
-
+// scope.options.heightOfWindow
+// scope.options.containerOffset
 
 
 
@@ -27,15 +28,8 @@
     // Create the defaults once
     var pluginName = 'parallaxImages',
         defaults = {
-            parallaxImages : ".parallaxImages", // reference to parallaxImages container
-            parallaxImages_item : ".parallaxImages-item",  // reference to the parallaxImages item container
-            parallaxImages_container: ".flip-container", // reference item that should trigger a click
-            parallaxImages_front: ".parallaxImages-column-front", // reference to front
-            parallaxImages_back: ".parallaxImages-column-back", // reference to back
-            parallaxImages_content: ".parallaxImages-item-detail-container", // reference to content
-            parallaxImages_grid2: ".parallaxImages-grid-2", // parent grid 2 row container
-            parallaxImages_grid_content: ".parallaxImages-grid-2-content", // reference to content block for 2 grid
-            parallaxImages_detail_close_btn: ".parallaxImages-detail-close-btn" // close button on detail panel
+            lastScrollPosition : 0,
+            parallaxInView : false
     };
 
     // The actual plugin constructor
@@ -54,13 +48,119 @@
         var scope = this;
         //init events
         //scope.setupparallaxImages(scope);
-        scope.setupEvents(scope);
+        scope.setupParallax(scope);
     };
 
     // add events to items
-    Plugin.prototype.setupEvents = function(scope) {
-        
+    Plugin.prototype.setupParallax = function(scope) {
+
+        // Set stuff up
+        scope.setHeightOfWindow(scope); 
+        scope.options.containerOffset = $(scope.element).offset().top;
+        scope.options.parallaxPosition = 0;
+
+        window.onscroll = function(){
+
+            scope.options.windowPositionTop = $(window).scrollTop();
+
+            // check if we are before the image
+            if((scope.options.containerOffset - scope.options.heightOfWindow) >= scope.options.windowPositionTop){
+                // if we are, set the transform to 0
+                $(scope.element).find('img').css({
+                        '-moz-transform': 'translate3d(0px, 0px, 0px)',
+                        '-webkit-transform': 'translate3d(0px, 0px, 0px)',
+                        '-moz-transform': 'translate3d(0px, 0px, 0px)',
+                        '-ms-transform': 'translate3d(0px, 0px, 0px)',
+                        '-o-transform': 'translate3d(0px, 0px, 0px)',
+                        'transform': 'translate3d(0px, 0px, 0px)'
+                });
+
+                scope.options.parallaxPosition = 0;
+
+                // Trigger bool for in view
+                scope.options.parallaxInView = false;
+            } else if((scope.options.containerOffset + (scope.options.heightOfWindow / 2)) <= scope.options.windowPositionTop) {
+                
+                $(scope.element).find('img').css({
+                        '-moz-transform': 'translate3d(0px, -40px, 0px)',
+                        '-webkit-transform': 'translate3d(0px, -40px, 0px)',
+                        '-moz-transform': 'translate3d(0px, -40px, 0px)',
+                        '-ms-transform': 'translate3d(0px, -40px, 0px)',
+                        '-o-transform': 'translate3d(0px, -40px, 0px)',
+                        'transform': 'translate3d(0px, -40px, 0px)'
+                });
+
+                scope.options.parallaxPosition = -40;
+
+
+                scope.options.parallaxInView = false;
+            } else {
+                scope.options.parallaxInView = true; 
+            }
+
+            if(scope.options.parallaxInView){
+                // check if we are scrolling up or down
+                if(scope.options.lastScrollPosition < scope.options.windowPositionTop){
+
+                    if(scope.options.parallaxPosition >= -39){
+                        scope.options.parallaxPosition--;
+                    }
+
+                    $(scope.element).find('img').css({
+                            '-moz-transform': 'translate3d(0px, ' + scope.options.parallaxPosition + 'px, 0px)',
+                            '-webkit-transform': 'translate3d(0px, ' + scope.options.parallaxPosition + 'px, 0px)',
+                            '-moz-transform': 'translate3d(0px, ' + scope.options.parallaxPosition + 'px, 0px)',
+                            '-ms-transform': 'translate3d(0px, ' + scope.options.parallaxPosition + 'px, 0px)',
+                            '-o-transform': 'translate3d(0px, ' + scope.options.parallaxPosition + 'px, 0px)',
+                            'transform': 'translate3d(0px, ' + scope.options.parallaxPosition + 'px, 0px)'
+                    });
+                } else {
+                    if(scope.options.parallaxPosition <= -1){
+                        scope.options.parallaxPosition++;
+                    }
+
+                    $(scope.element).find('img').css({
+                            '-moz-transform': 'translate3d(0px, ' + scope.options.parallaxPosition + 'px, 0px)',
+                            '-webkit-transform': 'translate3d(0px, ' + scope.options.parallaxPosition + 'px, 0px)',
+                            '-moz-transform': 'translate3d(0px, ' + scope.options.parallaxPosition + 'px, 0px)',
+                            '-ms-transform': 'translate3d(0px, ' + scope.options.parallaxPosition + 'px, 0px)',
+                            '-o-transform': 'translate3d(0px, ' + scope.options.parallaxPosition + 'px, 0px)',
+                            'transform': 'translate3d(0px, ' + scope.options.parallaxPosition + 'px, 0px)'
+                    });
+                }
+            }
+
+            // set last scroll position
+            scope.options.lastScrollPosition = scope.options.windowPositionTop;
+
+
+        }
+
+        // set height of window on resize & orientation change
+        window.addEventListener("resize", function() {
+            scope.setupParallax(scope);
+            scope.setHeightOfWindow(scope);  
+        }, false);
+
+        window.addEventListener("orientationchange", function() {
+            scope.setupParallax(scope);
+            scope.heightOfWindow(scope);
+        }, false);
+
     };
+
+    // update parallax on image
+    Plugin.prototype.updateParallax = function(scope){
+
+    }    
+
+    // set height of window
+    Plugin.prototype.setHeightOfWindow = function(scope){
+
+        // get height of window, and devide by half. So parallax initiates in center of screen.        
+        scope.options.heightOfWindow = $(window).height();
+
+    }
 
     // A really lightweight plugin wrapper around the constructor,
     // preventing against multiple instantiations
@@ -75,14 +175,7 @@
 
     //init all flipcard objects on page automatically -> TBR
     $(window).load(function() {
-        $(".parallaxImages-item").parallaxImages();
-        $(".parallaxImages-3column-item-option").parallaxImages({
-            parallaxImages : ".parallaxImages",
-            parallaxImages_item : ".parallaxImages-3column-item-option",
-            parallaxImages_container : ".parallaxImages-3column-container",
-            parallaxImages_front: ".parallaxImages-3column-front",
-            parallaxImages_back: ".parallaxImages-3column-back",
-            parallaxImages_content: ".parallaxImages-item-detail-container"});
+        $('.parallax').parallaxImages();
     });
 
 })( jQuery, window, document );

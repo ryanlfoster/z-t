@@ -9,7 +9,7 @@
 		<div class="navbar-container">
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="navbar-header">
-				<a class="navbar-brand black_logo" href="${Header.logoLinkPath}"
+				<a class="navbar-brand l-display-none-md black_logo" href="${Header.logoLinkPath}"
 					target="_blank"> <img src="${Header.imagePath}"
 					alt="${Header.imageAltTag}" title="Australia" />
 				</a> <a class="navbar-brand l-display-none-md white_logo" href="#">

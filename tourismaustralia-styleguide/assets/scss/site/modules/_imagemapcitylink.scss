@@ -81,7 +81,7 @@ a.map-pin-btn {
 }
 .map-with-links-list {
   list-style-type: decimal;
-  list-style-position:inside;
+  list-style-position:outside;
   display: inline-block;
   padding-left: 20px;
 
@@ -116,11 +116,10 @@ a.map-pin-btn {
 // Modern Browser Support for columns
 .csscolumns .map-with-links-list {
   padding: 0;
-
   display: block;
   margin: 0 auto;
-
   max-width: 300px;
+  position: relative;
 
   @include breakpoint(md){
     max-width: 1000px;
@@ -150,6 +149,8 @@ a.map-pin-btn {
     width: inherit;
     margin-right: inherit;
     float: inherit;
+    position: relative;
+
     @include breakpoint(sm){
       width: inherit;
       margin-left: inherit;
@@ -161,6 +162,11 @@ a.map-pin-btn {
     }
     @include breakpoint(lg){
       margin-right: inherit;
+    }
+
+    a {
+      position: absolute;
+      left: 20px;
     }
 
   }

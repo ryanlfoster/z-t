@@ -6,7 +6,7 @@
 <head>
 	<c:choose>
 		<c:when test="${global.prodPublish}">
-			<script src="//assets.adobedtm.com/6fb6e65091abb6d979e09e86ef9f60bfab63fe46/satelliteLib-7fd9882a28dbbd42607f18b62a0ecd9666e033fe.js"></script>
+			<script src="//assets.adobedtm.com/6fb6e65091abb6d979e09e86ef9f60bfab63fe46/satelliteLib-a7cbeb25ca5db5731606b57a50a7f7440e287963.js"></script>
 		</c:when>
 		<c:otherwise>
 			<script src="//assets.adobedtm.com/6fb6e65091abb6d979e09e86ef9f60bfab63fe46/satelliteLib-a7cbeb25ca5db5731606b57a50a7f7440e287963-staging.js"></script>

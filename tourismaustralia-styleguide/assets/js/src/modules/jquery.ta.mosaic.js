@@ -89,7 +89,7 @@
                 // disable any open tiles before showing next tile
                 scope.disableTiles(scope, $mosaic_item, $mosaic_content, $mosaic_grid2_content);
             }
-            $mosaic_item.removeClass('is-flip')
+            $mosaic_item.removeClass('is-flip');
 
             e.preventDefault();
         });

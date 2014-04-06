@@ -12,7 +12,7 @@
 
 	// Create the defaults once
 	var pluginName = 'fullwidthbg', defaults = {
-
+        largeScreenCenter : 1200 // for bottom alignment adjust for screens over 1200 width
 	};
 
 	// The actual plugin constructor
@@ -35,7 +35,7 @@
 		scope.imageObject = $(scope.element).find('img');
 
 		//check alignment of image by data-tag
-		scope.alignemnt = $(scope.element).attr('data-image-vertical-alignment');
+		scope.alignment = $(scope.element).attr('data-image-vertical-alignment');
 
 		$(window).resize(function() {
 			scope.checkBgImages(scope);
@@ -48,43 +48,53 @@
 		scope.containerWidth = $(scope.element).width();
 		scope.containerHeight = $(scope.element).height();
 
-		//set width of imafge to 100%
+		//set width of image to 100%
 		scope.imageObject.width(scope.containerWidth);
-		scope.imageHeigth = scope.imageObject.height();
+		scope.imageHeight = scope.imageObject.height();
 
 		scope.checkImageAttributes(scope);
 	};
 
 	Plugin.prototype.checkImageAttributes = function(scope) {
 		//check if image covers the whole container
-		if (scope.imageHeigth < scope.containerHeight) {
+		if (scope.imageHeight < scope.containerHeight) {
 			scope.resizeBgImageHeight(scope);
-			scope.imageObject.css('margin-top', '0px');
 		} else {
-			scope.setImageAlignment(scope);
-			scope.imageObject.css('margin-left', '0px');
+            if (scope.alignment === 'bottom') {
+                scope.setImageAlignmentBottom(scope);
+            }else{
+                scope.setImageAlignment(scope);
+            }
+            scope.imageObject.css('margin-left', '0px');
 		}
-	}
+	};
 
 	Plugin.prototype.resizeBgImageHeight = function(scope) {
-		var imageHeigth = $(scope.element).height();
-		var imageWidth = imageHeigth * scope.imageFactor;
+		var imageHeight = $(scope.element).height();
+		var imageWidth = imageHeight * scope.imageFactor;
 		scope.imageObject.width(imageWidth);
 		
 		//set image to align horizontal in center
 		var marginRight = Math.abs(scope.containerWidth - imageWidth)/2;
 		scope.imageObject.css('margin-left', -marginRight + 'px');
+
+        scope.imageObject.css('margin-top', '0px');
 	};
 
+    Plugin.prototype.setImageAlignmentBottom = function(scope) {
+        //var marginTop = 0;
+        var diff = scope.containerHeight - scope.imageHeight;
+
+        var marginTop = diff;
+        if (scope.containerWidth > scope.options.largeScreenCenter){
+            marginTop = diff/2;
+        }
+        scope.imageObject.css('margin-top', - Math.abs(marginTop) + 'px');
+    };
+
 	Plugin.prototype.setImageAlignment = function(scope) {
-		if (scope.alignemnt !== undefined) {
-			if (scope.alignemnt === 'bottom') {
-				var marginTop = Math.abs(scope.containerHeight - scope.imageHeigth);
-				scope.imageObject.css('margin-top', -marginTop + 'px');
-			} else {
-				scope.imageObject.css('margin-top', '0px');
-			}
-		}
+        var marginTop = 0;
+        scope.imageObject.css('margin-top', marginTop + 'px');
 	};
 
 	// A really lightweight plugin wrapper around the constructor,
@@ -97,7 +107,7 @@
 		});
 	};
 
-	//init all carousel objects on page automatically -> TBR
+	//init all fullwidth objects on page automatically
 	$(window).load(function() {
 		$(".fullwidth-bg").each(function(index, element) {
 			$(this).fullwidthbg();

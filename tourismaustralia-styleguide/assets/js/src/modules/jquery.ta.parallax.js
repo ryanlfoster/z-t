@@ -67,12 +67,11 @@
             if((scope.options.containerOffset - scope.options.heightOfWindow) >= scope.options.windowPositionTop){
                 // if we are, set the transform to 0
                 $(scope.element).find('img').css({
+                        'transform': 'translate3d(0px, 0px, 0px)',
                         '-moz-transform': 'translate3d(0px, 0px, 0px)',
                         '-webkit-transform': 'translate3d(0px, 0px, 0px)',
-                        '-moz-transform': 'translate3d(0px, 0px, 0px)',
                         '-ms-transform': 'translate3d(0px, 0px, 0px)',
-                        '-o-transform': 'translate3d(0px, 0px, 0px)',
-                        'transform': 'translate3d(0px, 0px, 0px)'
+                        '-o-transform': 'translate3d(0px, 0px, 0px)'
                 });
 
                 scope.options.parallaxPosition = 0;
@@ -82,12 +81,11 @@
             } else if((scope.options.containerOffset + (scope.options.heightOfWindow / 2)) <= scope.options.windowPositionTop) {
                 
                 $(scope.element).find('img').css({
-                        '-moz-transform': 'translate3d(0px, -40px, 0px)',
+                        'transform': 'translate3d(0px, -40px, 0px)',
                         '-webkit-transform': 'translate3d(0px, -40px, 0px)',
                         '-moz-transform': 'translate3d(0px, -40px, 0px)',
                         '-ms-transform': 'translate3d(0px, -40px, 0px)',
-                        '-o-transform': 'translate3d(0px, -40px, 0px)',
-                        'transform': 'translate3d(0px, -40px, 0px)'
+                        '-o-transform': 'translate3d(0px, -40px, 0px)'
                 });
 
                 scope.options.parallaxPosition = -40;
@@ -107,12 +105,11 @@
                     }
 
                     $(scope.element).find('img').css({
-                            '-moz-transform': 'translate3d(0px, ' + scope.options.parallaxPosition + 'px, 0px)',
+                            'transform': 'translate3d(0px, ' + scope.options.parallaxPosition + 'px, 0px)',
                             '-webkit-transform': 'translate3d(0px, ' + scope.options.parallaxPosition + 'px, 0px)',
                             '-moz-transform': 'translate3d(0px, ' + scope.options.parallaxPosition + 'px, 0px)',
                             '-ms-transform': 'translate3d(0px, ' + scope.options.parallaxPosition + 'px, 0px)',
-                            '-o-transform': 'translate3d(0px, ' + scope.options.parallaxPosition + 'px, 0px)',
-                            'transform': 'translate3d(0px, ' + scope.options.parallaxPosition + 'px, 0px)'
+                            '-o-transform': 'translate3d(0px, ' + scope.options.parallaxPosition + 'px, 0px)'
                     });
                 } else {
                     if(scope.options.parallaxPosition <= -1){
@@ -120,12 +117,11 @@
                     }
 
                     $(scope.element).find('img').css({
-                            '-moz-transform': 'translate3d(0px, ' + scope.options.parallaxPosition + 'px, 0px)',
+                            'transform': 'translate3d(0px, ' + scope.options.parallaxPosition + 'px, 0px)',
                             '-webkit-transform': 'translate3d(0px, ' + scope.options.parallaxPosition + 'px, 0px)',
                             '-moz-transform': 'translate3d(0px, ' + scope.options.parallaxPosition + 'px, 0px)',
                             '-ms-transform': 'translate3d(0px, ' + scope.options.parallaxPosition + 'px, 0px)',
                             '-o-transform': 'translate3d(0px, ' + scope.options.parallaxPosition + 'px, 0px)',
-                            'transform': 'translate3d(0px, ' + scope.options.parallaxPosition + 'px, 0px)'
                     });
                 }
             }

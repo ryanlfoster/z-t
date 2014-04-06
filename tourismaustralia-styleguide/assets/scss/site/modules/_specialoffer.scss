@@ -70,6 +70,10 @@ $type-specialoffer-colour: #00535e;
             color: $type-specialoffer-colour;
         }
 
+        .specialoffer-price {
+            margin-bottom: 15px;
+        }
+
         .specialoffer-currency {
             font-size: pxtoem(30px);
             vertical-align: top;
@@ -91,14 +95,17 @@ $type-specialoffer-colour: #00535e;
     }
 
     .specialoffer-links {
+        padding: 15px 0 0;
 
-        padding: 15px 0 0 0;
+        @include breakpoint(md) {
+            padding: 0;
+        }
 
         a {
 
             font-size: pxtoem(14px);
             display: block;
-            margin-bottom: pxtoem(10px);
+            margin-bottom: pxtoem(20px);
 
             @include breakpoint(md) {
                 display: inline-block;

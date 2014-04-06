@@ -504,6 +504,17 @@
                     "content" : "{{section 'byline'}}"
                 }
                 
+                    ,
+                
+            
+                "bylinewithshareitem" : {
+                     "data" : {
+                        "title" : "bylinewithshareitem",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'bylinewithshareitem'}}"
+                }
+                
             
             
                 ,

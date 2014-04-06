@@ -66,7 +66,9 @@ layout: layout-base.hbs
         {{> paragraph_dynamic}}
     {{/parseJSON}}
 
-    {{> largeimagenotext }}
+    <div class="l-padding-between-item-fill-white">
+        {{> largeimagenotext }}
+    </div>
 
     {{#parseJSON '{"copy": "Beyond the trees, the Daintree also offers pristine beaches with shallow, warm, tropical seas.  You’ll find them clustered in the north near Cape Tribulation, where the rainforest meets the Great Barrier Reef. It’s the only place in the world where two World Heritage sites meet. Chill out on Coconut Beach, bike ride to Donovans Beach or camp near the sand on Noahs Beach. For a truly rugged adventure, four wheel drive the Bloomfield Track to or from Cape Tribulation."}'}}
         {{> paragraph_dynamic}}
@@ -101,14 +103,7 @@ layout: layout-base.hbs
     {{/parseJSON}}
 
     <div class="l-padding-between-item-fill-white">
-        <div class="row l-center-1200">
-            <div class="col-xs-12 col-sm-3">
-
-            </div>
-            <div class="col-xs-12 col-sm-9">
-                {{> bylinewithshare}}
-            </div>
-        </div>
+        {{> bylinewithshare}}
     </div>
 
     <div class="l-padding-between-item-fill-white">
@@ -130,8 +125,7 @@ layout: layout-base.hbs
     </div>
 
     <div class="l-padding-between-item-fill-white">
-            {{> whatyoucansee_nobuttons1row}}
+        {{> whatyoucansee_nobuttons1row}}
     </div>
-
 
 </div>

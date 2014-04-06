@@ -2,14 +2,18 @@
 title: What You Can See - No Buttons
 ---
 
-<div class="whatyoucansee">
+<div class="row l-center-1200">
 
-    {{#parseJSON '{
-        "title": "Things to do in the Great Barrier Reef",
-        "copy" : "What more is there to do in The great barrier reef besides scrunching your toes into the sands at one of 70 beaches? Only anything and everything."}'}}
-        {{> sectionintro }}
-    {{/parseJSON}}
+    <div class="whatyoucansee">
 
-    {{> mosaic_highlights_grid_4_1 }}
+        {{#parseJSON '{
+    "title": "Things to do in the Great Barrier Reef",
+    "copy" : "What more is there to do in The great barrier reef besides scrunching your toes into the sands at one of 70 beaches? Only anything and everything."}'}}
+            {{> sectionintro }}
+        {{/parseJSON}}
+
+        {{> mosaic_highlights_grid_4_1 }}
+
+    </div>
 
 </div>

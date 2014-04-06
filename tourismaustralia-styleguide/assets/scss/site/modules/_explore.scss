@@ -1,19 +1,18 @@
 
 .explore-container {
 
-    overflow: hidden;
+  overflow: hidden;
 
-    @include breakpoint(lg) {
-        padding-top: pxtoem(55px);
-    }
+  @include breakpoint(lg) {
+    //padding-top: pxtoem(55px);
+    padding: pxtoem(15px) 0;
+  }
 
+  /*
   .col-xs-4 {
     padding: .3em;
   }
-
-    .carousel-center-container {
-        margin-top: 0.25em;
-    }
+  */
 
 }
 

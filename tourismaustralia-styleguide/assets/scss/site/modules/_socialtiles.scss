@@ -3,14 +3,10 @@
 // * ---------------------------------------------------------------------------------------------------------------- */
 .socialtiles {
     @include breakpoint(lg) {
-        padding-top: pxtoem(45px);
-        padding-bottom: pxtoem(55px);
+      //padding-top: pxtoem(45px);
+      //padding-bottom: pxtoem(55px);
+      padding: pxtoem(15px) 0;
     }
-}
-.theme-mosaic-social-back a{
-  color: #FFF;
-  text-decoration: initial;
-  border-bottom: 1px solid #fff;
 }
 
 .socialtiles-linethrough {

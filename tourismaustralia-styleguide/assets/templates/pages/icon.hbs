@@ -33,12 +33,12 @@ layout: layout-base.hbs
 <div class="paragraph-icon">
 
     <div class="l-padding-between-item-fill-white">
-        <div class="row l-center-1200">
-            {{> whatyoucansee_nobuttons}}
-        </div>
+        {{> whatyoucansee_nobuttons}}
     </div>
 
-    {{> image_with_date }}
+    <div class="l-padding-between-item-fill-white">
+        {{> image_with_date }}
+    </div>
 
     <div class="l-padding-between-item-fill-white">
         {{> mapimagewithlinks }}
@@ -59,12 +59,12 @@ layout: layout-base.hbs
     </div>
 
     <div class="l-padding-between-item-fill-white">
-        <div class="row l-center-1200">
-            {{> socialtiles}}
-        </div>
+        {{> socialtiles}}
     </div>
-    
-    {{> fullsizevideo}}
+
+    <div class="l-padding-between-item-fill-white">
+        {{> fullsizevideo}}
+    </div>
 
     <div class="l-padding-between-item-fill-white">
         {{#parseJSON '{

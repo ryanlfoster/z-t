@@ -2,14 +2,18 @@
 title: What You Can See - No Buttons, One Row
 ---
 
-<div class="whatyoucansee">
+<div class="row l-center-1200">
 
-    {{#parseJSON '{
-        "title": "What you can see near the Daintree rainforest",
-        "copy" : "What more is there to do in the Daintree Rainforest besides trekking through a pure ecosystem? Only anything and everything."}'}}
-        {{> sectionintro }}
-    {{/parseJSON}}
+    <div class="whatyoucansee">
 
-    {{> mosaic_highlights_grid_4_1_single }}
+        {{#parseJSON '{
+            "title": "What you can see near the Daintree rainforest",
+            "copy" : "What more is there to do in the Daintree Rainforest besides trekking through a pure ecosystem? Only anything and everything."}'}}
+            {{> sectionintro }}
+        {{/parseJSON}}
+
+        {{> mosaic_highlights_grid_4_1_single }}
+
+    </div>
 
 </div>

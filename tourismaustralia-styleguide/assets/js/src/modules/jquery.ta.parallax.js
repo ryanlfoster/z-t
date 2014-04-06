@@ -132,23 +132,23 @@
 
         }
 
-        // set height of window on resize & orientation change
-        window.addEventListener("resize", function() {
-            scope.setupParallax(scope);
-            scope.setHeightOfWindow(scope);  
-        }, false);
+        if (!window.addEventListener) {                      
+            window.attachEvent('resize', scope.setupParallax(scope), scope.setHeightOfWindow(scope));
+            window.attachEvent('orientationchange', scope.setupParallax(scope), scope.setHeightOfWindow(scope));
+        } else {
+            // set height of window on resize & orientation change
+            window.addEventListener('resize', function() {
+                scope.setupParallax(scope);
+                scope.setHeightOfWindow(scope);  
+            }, false);
 
-        window.addEventListener("orientationchange", function() {
-            scope.setupParallax(scope);
-            scope.heightOfWindow(scope);
-        }, false);
+            window.addEventListener('orientationchange', function() {
+                scope.setupParallax(scope);
+                scope.heightOfWindow(scope);
+            }, false);
+        };
 
     };
-
-    // update parallax on image
-    Plugin.prototype.updateParallax = function(scope){
-
-    }    
 
     // set height of window
     Plugin.prototype.setHeightOfWindow = function(scope){

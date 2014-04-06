@@ -16,6 +16,24 @@
 		top: 50%;
 		margin-top: -35%;
 		left: 0;
-		min-height: 300px;
+	}
+}
+
+.lt-ie9 {
+
+	.largeimage {
+		height: 400px;
+		overflow: hidden;
+		position: relative;
+
+		img {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+		}
+	}
+
+	.largeimage-container {
+		display: none;
 	}
 }

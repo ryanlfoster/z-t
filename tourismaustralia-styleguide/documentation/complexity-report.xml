@@ -3,6 +3,16 @@
 <file name="assets/js/src/modules/jquery.ta.parallax.js">
   
   <issue
+    line="55"
+    char="&lt;anonymous&gt;.setupParallax"
+    evidence="&lt;anonymous&gt;.setupParallax is too complicated"
+    reason="Cyclomatic: 2,
+    Halstead: 9.0263
+    | Effort: 3691.2
+    | Volume: 408.94
+    | Vocabulary: 26" />
+  
+  <issue
     line="62"
     char="window.onscroll"
     evidence="window.onscroll is too complicated"

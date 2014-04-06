@@ -8,9 +8,20 @@
  *
  * Mosaic Jquery Plugin
  *
- * mosaic_item : reference to the mosaic item container
- * mosaic_detail_close_btn : mosaic detail close button
- * mosaic_item_detail_container : reference to the mosaic item detail container
+  * Flips tile when rolled over/off, sets to front view when clicked and reveals content
+  * changes other tiles opacity
+  * when clicked again or close btn clicked, retracts and resets all tiles opacity
+ *
+ * mosaic : ".mosaic", // reference to mosaic container
+ * mosaic_item : ".mosaic-item",  // reference to the mosaic item container
+ * mosaic_container: ".flip-container", // reference item that should trigger a click
+ * mosaic_front: ".mosaic-column-front", // reference to front
+ * mosaic_back: ".mosaic-column-back", // reference to back
+ * mosaic_content: ".mosaic-item-detail-container", // reference to content
+ * mosaic_grid2: ".mosaic-grid-2", // parent grid 2 row container
+ * mosaic_grid2_content: ".mosaic-grid-2-content", // reference to content block for 2 grid
+ * mosaic_detail_close_btn: ".mosaic-detail-close-btn", // close button on detail panel
+ * mosaic_close_btn: "<span class='mosaic-close-icon'><a class='mosaic-detail-close-btn' href='#'><img src='imgs/icons/close_outline.png' alt=''/></a></span>" // html for button to close mosaic tile
  */
 
 ;(function ( $, window, document, undefined ) {
@@ -25,8 +36,9 @@
             mosaic_back: ".mosaic-column-back", // reference to back
             mosaic_content: ".mosaic-item-detail-container", // reference to content
             mosaic_grid2: ".mosaic-grid-2", // parent grid 2 row container
-            mosaic_grid_content: ".mosaic-grid-2-content", // reference to content block for 2 grid
-            mosaic_detail_close_btn: ".mosaic-detail-close-btn" // close button on detail panel
+            mosaic_grid2_content: ".mosaic-grid-2-content", // reference to content block for 2 grid
+            mosaic_detail_close_btn: ".mosaic-detail-close-btn", // close button on detail panel
+            mosaic_close_btn: "<span class='mosaic-close-icon'><a class='mosaic-detail-close-btn' href='#'><img src='imgs/icons/close_outline.png' alt=''/></a></span>" // html for button to close mosaic tile
     };
 
     // The actual plugin constructor
@@ -50,10 +62,13 @@
 
     // add events to items
     Plugin.prototype.setupEvents = function(scope) {
+        var $mosaic_item = $(scope.element);
         var $mosaic = $(scope.element).parents(scope.options.mosaic);
         var $mosaic_container = $(scope.element).find(scope.options.mosaic_container);
-        var $mosaic_item = $(scope.element);
         var $mosaic_content = $(scope.element).find(scope.options.mosaic_content);
+
+        $mosaic_content.prepend(scope.options.mosaic_close_btn);
+
         var $mosaic_detail_close_btn = $(scope.element).find(scope.options.mosaic_detail_close_btn);
 
         $mosaic_container.click(function(e){
@@ -62,11 +77,9 @@
             $mosaic.find(scope.options.mosaic_item).addClass("is-opacity");
             $mosaic_item.removeClass("is-opacity");
 
-            // copy content for mosaic_grid2
-            var $mosaic_grid2_content = $(scope.element).parents(scope.options.mosaic_grid2).find(scope.options.mosaic_grid_content).find(scope.options.mosaic_content);
-            if ($mosaic_grid2_content.length){
-                $mosaic_grid2_content.html($mosaic_content.html());
-            }
+            // copy content for mosaic_grid2 and setup events
+            var $mosaic_grid2_content = $(scope.element).parents(scope.options.mosaic_grid2).find(scope.options.mosaic_grid2_content).find(scope.options.mosaic_content);
+            scope.setupGrid2Content(scope, $mosaic, $mosaic_content, $mosaic_grid2_content);
 
             if ($mosaic_item.hasClass('is-trigger-content')){
                 scope.removeClass($mosaic_item, $mosaic_content, $mosaic_grid2_content);
@@ -94,18 +107,6 @@
             e.preventDefault();
         });
 
-
-
-
-        var $mosaic_grid2 = $mosaic_item.parents(".mosaic-grid-2");
-        if ($mosaic_grid2.length){
-            console.log($mosaic_grid2);
-            $mosaic_grid2.find(scope.options.mosaic_detail_close_btn).click(function(e){
-                //$mosaic_container.trigger("click");
-                alert("click");
-                e.preventDefault();
-            });
-        }
     };
 
     Plugin.prototype.disableTiles = function(scope, $mosaic_item, $mosaic_content, $mosaic_grid2_content) {
@@ -115,7 +116,7 @@
             $triggered.each(function(i, mosaic_item1){
                 $mosaic_item1 = $(mosaic_item1);
                 var $mosaic_content1 = $mosaic_item1.find(scope.options.mosaic_content);
-                var $mosaic_grid2_content1 = $mosaic_item1.parents(scope.options.mosaic_grid2).find(scope.options.mosaic_grid_content).find(scope.options.mosaic_content);
+                var $mosaic_grid2_content1 = $mosaic_item1.parents(scope.options.mosaic_grid2).find(scope.options.mosaic_grid2_content).find(scope.options.mosaic_content);
                 scope.removeClass($mosaic_item1, $mosaic_content1, $mosaic_grid2_content1);
             });
             setTimeout(function(){
@@ -137,6 +138,40 @@
         //$(scope.element).find(scope.options.mosaic_content).slideUp({duration: 400, easing: 'swing'});
         $mosaic_content.removeClass("active");
         $mosaic_grid2_content.removeClass("active");
+    };
+
+    // close all tiles, remove opacity and fold up
+    Plugin.prototype.closeAllTiles = function(scope, $mosaic) {
+
+        // all mosaic its unselect and show
+        var $mosaic_items = $mosaic.find(scope.options.mosaic_item);
+        $mosaic_items.removeClass("is-opacity");
+        $mosaic_items.removeClass('is-trigger-content');
+
+        // clear content as active
+        var $mosaic_content = $mosaic.find(scope.options.mosaic_content);
+        $mosaic_content.removeClass("active");
+
+        // clear grid2 content as active
+        var $mosaic_grid2_content = $mosaic.find(scope.options.mosaic_grid2_content);
+        $mosaic_grid2_content.removeClass("active");
+
+    };
+
+    // copy content for mosaic_grid2 and setup events
+    Plugin.prototype.setupGrid2Content = function(scope, $mosaic, $mosaic_content, $mosaic_grid2_content) {
+        if ($mosaic_grid2_content.length){
+            // replicate content
+            $mosaic_grid2_content.html($mosaic_content.html());
+            // add close btn
+            // $mosaic_grid2_content.prepend(scope.options.mosaic_close_btn);
+            // setup close btn events
+            var $mosaic_grid2_detail_close_btn = $mosaic_grid2_content.find(scope.options.mosaic_detail_close_btn);
+            $mosaic_grid2_detail_close_btn.click(function(e){
+                scope.closeAllTiles(scope, $mosaic);
+                e.preventDefault();
+            });
+        }
     };
 
     // A really lightweight plugin wrapper around the constructor,

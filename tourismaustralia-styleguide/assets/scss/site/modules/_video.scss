@@ -56,6 +56,11 @@
 ///////////////
 .video-large-container {
   max-width: 1194px;
+  padding: 0;
+
+  @include breakpoint(lg){
+    padding: 0 15px;
+  }
 }
 .video-title-large-video {
   font-family: $font-family-secondary;

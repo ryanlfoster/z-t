@@ -99,7 +99,7 @@
                 if(scope.options.lastScrollPosition < scope.options.windowPositionTop){
 
                     if(scope.options.parallaxPosition >= -39){
-                        scope.options.parallaxPosition -= 0.2;
+                        scope.options.parallaxPosition -= 0.3;
                     }
 
                     $(scope.element).find('img').css({
@@ -111,7 +111,7 @@
                     });
                 } else {
                     if(scope.options.parallaxPosition <= -1){
-                        scope.options.parallaxPosition += 0.2;
+                        scope.options.parallaxPosition += 0.3;
                     }
 
                     $(scope.element).find('img').css({

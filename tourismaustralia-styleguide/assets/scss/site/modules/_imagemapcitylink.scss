@@ -4,6 +4,12 @@
   position: relative;
   display: inline-block;
   text-align: left;
+  padding-bottom: pxtoem(20px);
+
+  @include breakpoint(md){
+    padding-bottom: 0;
+  }
+
   @include breakpoint(lg){
     top: -124px;
   }
@@ -13,7 +19,7 @@
 }
 .map-main-link {
   position: absolute;
-  bottom: pxtoem(2px);
+  bottom: 0;
   @include breakpoint(sm){
     bottom: pxtoem(10px);
   }

@@ -3,7 +3,13 @@ title: home
 layout: layout-base.hbs
 ---
 
-{{> homehero }}
+{{#parseJSON '{
+"hero_image" : "herohome_sydney",
+"hero_title" : "Sydney",
+"hero_subtitle" : "The harbour city"
+}'}}
+    {{> hero }}
+{{/parseJSON}}
 
 <div class="l-padding-between-item-fill-white">
     {{#parseJSON '{

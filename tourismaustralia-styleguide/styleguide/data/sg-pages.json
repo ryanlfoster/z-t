@@ -874,12 +874,12 @@
                     ,
                 
             
-                "homehero" : {
+                "hero" : {
                      "data" : {
-                        "title" : "homehero",
+                        "title" : "hero",
                         "layout" : "styleguide-preview.hbs"
                     },
-                    "content" : "{{section 'homehero'}}"
+                    "content" : "{{section 'hero'}}"
                 }
                 
                     ,

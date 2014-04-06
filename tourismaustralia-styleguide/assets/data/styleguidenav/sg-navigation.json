@@ -6,17 +6,7 @@
         {
             "text": "Base",
             "category": [
-                {
-                    "text": "Working Components",
-                    "item": [
-                        { "text": "paragraph_standard" },
-                        { "text": "socialimage" },
-                        { "text": "byline" },
-                        { "text": "paragraph_dynamic" },
-                        { "text": "linethroughtextfullhr" }
-                    ]
-                },
-                {
+                 {
                     "text": "Global",
                     "item": [
                         { "text": "colours" },
@@ -94,8 +84,14 @@
                         { "text": "tagclouditem" },
                         { "text": "explore_summary_map" },
                         { "text": "linethroughtext" },
+                        { "text": "linethroughtextfullhr" },
                         { "text": "dropdown" },
-                        { "text": "sectionintro" }
+                        { "text": "sectionintro" },
+                        { "text": "paragraph_standard" },
+                        { "text": "paragraph_dynamic" },
+                        { "text": "socialimage" },
+                        { "text": "byline" }
+
                     ]
                 },
                 {
@@ -103,28 +99,29 @@
                     "item": [
                         { "text": "text2columnvideo" },
                         { "text": "videoitem" },
-                        { "text": "fullsizevideo" },
                         { "text": "textlargevideo" }
                     ]
                 },
                 {
                     "text" : "Mosaic",
                     "item": [
-                        { "text": "mosaicitemhighlights" },
-                        { "text": "mosaicitemevent" },
-                        { "text": "mosaicitemsocialtile" },
-                        { "text": "mosaicitem_detail" },
                         { "text": "mosaic_highlights" },
+                        { "text": "mosaicitemhighlights" },
                         { "text": "mosaic_highlights_grid_1" },
                         { "text": "mosaic_highlights_grid_4" },
                         { "text": "mosaic_highlights_grid_4_1" },
                         { "text": "mosaic_whatscomingup" },
+                        { "text": "mosaicitemevent" },
                         { "text": "mosaic_whatscomingup_grid_1" },
                         { "text": "mosaic_whatscomingup_grid_4" },
+                        { "text": "mosaicitem_detail" },
+                        { "text": "mosaicitemsocialtile" },
+                        { "text": "mosaic_socialtiles_grid_1" },
+                        { "text": "mosaic_socialtiles_static_grid_1" },
+                        { "text": "mosaic_socialtiles_grid_4" },
+                        { "text": "mosaicitemsocial_detail" },
                         { "text": "whatyoucansee" },
-                        { "text": "whatyoucansee_nobuttons" },
-                        { "text": "socialtiles" }
-
+                        { "text": "whatyoucansee_nobuttons" }
                     ]
                 },
                 {
@@ -159,6 +156,7 @@
                         { "text": "image_with_quote" },
                         { "text": "image_with_button_social" },
                         { "text": "largeimagetext" },
+                        { "text": "largeimagesocial" },
                         { "text": "mapimagewithbuttons" },
                         { "text": "mapimagewithlinks" },
                         { "text": "quote" },
@@ -173,7 +171,6 @@
                         { "text": "twoimages" },
                         { "text": "whatyoucansee_city" },
                         { "text": "whatyoucansee_state" },
-                        { "text": "largeimagesocial" },
 
                         { "text": "header" }
 

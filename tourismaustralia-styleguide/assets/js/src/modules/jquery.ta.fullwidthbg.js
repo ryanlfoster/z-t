@@ -8,7 +8,7 @@
  * data-image-vertical-alignment (bottom, top)
  *
  * Images bottom aligned are centered on large monitors over 1200
- * 
+ *
  */
 
 ;(function($, window, document, undefined) {

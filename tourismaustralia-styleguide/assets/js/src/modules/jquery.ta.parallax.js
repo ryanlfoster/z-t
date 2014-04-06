@@ -39,7 +39,6 @@
 
         this._defaults = defaults;
         this._name = pluginName;
-        //console.log("init-parallaxImages");
 
         this.init();
     }
@@ -47,7 +46,6 @@
     Plugin.prototype.init = function () {
         var scope = this;
         //init events
-        //scope.setupparallaxImages(scope);
         scope.setupParallax(scope);
     };
 
@@ -67,11 +65,11 @@
             if((scope.options.containerOffset - scope.options.heightOfWindow) >= scope.options.windowPositionTop){
                 // if we are, set the transform to 0
                 $(scope.element).find('img').css({
-                        'transform': 'translate3d(0px, 0px, 0px)',
-                        '-moz-transform': 'translate3d(0px, 0px, 0px)',
-                        '-webkit-transform': 'translate3d(0px, 0px, 0px)',
-                        '-ms-transform': 'translate3d(0px, 0px, 0px)',
-                        '-o-transform': 'translate3d(0px, 0px, 0px)'
+                        'transform': 'translate(0px, 0px)',
+                        '-moz-transform': 'translate(0px, 0px)',
+                        '-webkit-transform': 'translate(0px, 0px)',
+                        '-ms-transform': 'translate(0px, 0px)',
+                        '-o-transform': 'translate(0px, 0px)'
                 });
 
                 scope.options.parallaxPosition = 0;
@@ -81,11 +79,11 @@
             } else if((scope.options.containerOffset + (scope.options.heightOfWindow / 2)) <= scope.options.windowPositionTop) {
                 
                 $(scope.element).find('img').css({
-                        'transform': 'translate3d(0px, -40px, 0px)',
-                        '-webkit-transform': 'translate3d(0px, -40px, 0px)',
-                        '-moz-transform': 'translate3d(0px, -40px, 0px)',
-                        '-ms-transform': 'translate3d(0px, -40px, 0px)',
-                        '-o-transform': 'translate3d(0px, -40px, 0px)'
+                        'transform': 'translate(0px, -40px)',
+                        '-webkit-transform': 'translate(0px, -40px)',
+                        '-moz-transform': 'translate(0px, -40px)',
+                        '-ms-transform': 'translate(0px, -40px)',
+                        '-o-transform': 'translate(0px, -40px)'
                 });
 
                 scope.options.parallaxPosition = -40;
@@ -101,27 +99,27 @@
                 if(scope.options.lastScrollPosition < scope.options.windowPositionTop){
 
                     if(scope.options.parallaxPosition >= -39){
-                        scope.options.parallaxPosition--;
+                        scope.options.parallaxPosition -= 0.2;
                     }
 
                     $(scope.element).find('img').css({
-                            'transform': 'translate3d(0px, ' + scope.options.parallaxPosition + 'px, 0px)',
-                            '-webkit-transform': 'translate3d(0px, ' + scope.options.parallaxPosition + 'px, 0px)',
-                            '-moz-transform': 'translate3d(0px, ' + scope.options.parallaxPosition + 'px, 0px)',
-                            '-ms-transform': 'translate3d(0px, ' + scope.options.parallaxPosition + 'px, 0px)',
-                            '-o-transform': 'translate3d(0px, ' + scope.options.parallaxPosition + 'px, 0px)'
+                            'transform': 'translate(0px, ' + scope.options.parallaxPosition + 'px)',
+                            '-webkit-transform': 'translate(0px, ' + scope.options.parallaxPosition + 'px)',
+                            '-moz-transform': 'translate(0px, ' + scope.options.parallaxPosition + 'px)',
+                            '-ms-transform': 'translate(0px, ' + scope.options.parallaxPosition + 'px)',
+                            '-o-transform': 'translate(0px, ' + scope.options.parallaxPosition + 'px)'
                     });
                 } else {
                     if(scope.options.parallaxPosition <= -1){
-                        scope.options.parallaxPosition++;
+                        scope.options.parallaxPosition += 0.2;
                     }
 
                     $(scope.element).find('img').css({
-                            'transform': 'translate3d(0px, ' + scope.options.parallaxPosition + 'px, 0px)',
-                            '-webkit-transform': 'translate3d(0px, ' + scope.options.parallaxPosition + 'px, 0px)',
-                            '-moz-transform': 'translate3d(0px, ' + scope.options.parallaxPosition + 'px, 0px)',
-                            '-ms-transform': 'translate3d(0px, ' + scope.options.parallaxPosition + 'px, 0px)',
-                            '-o-transform': 'translate3d(0px, ' + scope.options.parallaxPosition + 'px, 0px)',
+                            'transform': 'translate(0px, ' + scope.options.parallaxPosition + 'px)',
+                            '-webkit-transform': 'translate(0px, ' + scope.options.parallaxPosition + 'px)',
+                            '-moz-transform': 'translate(0px, ' + scope.options.parallaxPosition + 'px)',
+                            '-ms-transform': 'translate(0px, ' + scope.options.parallaxPosition + 'px)',
+                            '-o-transform': 'translate(0px, ' + scope.options.parallaxPosition + 'px)',
                     });
                 }
             }

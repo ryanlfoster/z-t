@@ -1,23 +1,5 @@
 package com.australia.atdw.repository;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-import java.util.TreeMap;
-
-import javax.jcr.RepositoryException;
-import javax.jcr.Session;
-
-import org.apache.commons.lang3.StringUtils;
-import org.apache.felix.scr.annotations.Component;
-import org.apache.felix.scr.annotations.Reference;
-import org.apache.felix.scr.annotations.Service;
-import org.apache.sling.api.resource.ResourceResolver;
-import org.apache.sling.api.resource.ResourceResolverFactory;
-import org.apache.sling.jcr.resource.JcrResourceConstants;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import com.australia.atdw.domain.ATDWProduct;
 import com.australia.atdw.domain.ATDWProductSearchParameters;
 import com.australia.utils.PathUtils;
@@ -32,6 +14,23 @@ import com.day.cq.tagging.TagManager;
 import com.day.cq.wcm.api.NameConstants;
 import com.day.cq.wcm.api.Page;
 import com.day.cq.wcm.api.PageManager;
+import org.apache.commons.lang3.StringUtils;
+import org.apache.felix.scr.annotations.Component;
+import org.apache.felix.scr.annotations.Reference;
+import org.apache.felix.scr.annotations.Service;
+import org.apache.sling.api.resource.LoginException;
+import org.apache.sling.api.resource.ResourceResolver;
+import org.apache.sling.api.resource.ResourceResolverFactory;
+import org.apache.sling.jcr.resource.JcrResourceConstants;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import javax.jcr.*;
+import javax.jcr.lock.LockException;
+import javax.jcr.nodetype.ConstraintViolationException;
+import javax.jcr.nodetype.NoSuchNodeTypeException;
+import javax.jcr.version.VersionException;
+import java.util.*;
 
 @Component(label = "ATDW Product Repository", description = "ATDW Product Repository", immediate = true)
 @Service
@@ -118,4 +117,60 @@ public class DefaultATDWProductRepository implements ATDWProductRepository {
 		}
 		return atdwProducts;
 	}
+
+    @Override
+    public void deleteOldProducts(Date updatedBefore) {
+        ResourceResolver resourceResolver = null;
+        try {
+            resourceResolver = resourceResolverFactory.getAdministrativeResourceResolver(null);
+            Session session = resourceResolver.adaptTo(Session.class);
+            int propertyCount = 1;
+            Map<String, String> queryMap = new TreeMap<String, String>();
+            queryMap.put(QueryUtils.TYPE, NameConstants.NT_PAGE);
+            QueryUtils.addProperty(queryMap, propertyCount, JCR_PREFIX
+                    + JcrResourceConstants.SLING_RESOURCE_TYPE_PROPERTY, "tourismaustralia/components/page/atdw");
+            propertyCount++;
+            String path = PathUtils.ATDW_DATA_PATH;
+            queryMap.put(propertyCount + QueryUtils.SEPERATOR + QueryUtils.PATH, path);
+            queryMap.put("daterange.property","@jcr:content/cq:lastModified");
+            queryMap.put("daterange.upperBound", updatedBefore.toString());
+            Query query = builder.createQuery(PredicateGroup.create(queryMap), session);
+            query.setHitsPerPage(0);
+            SearchResult result = query.getResult();
+            for(Hit hit: result.getHits()) {
+                try {
+                    Node node = hit.getNode();
+                    node.remove();
+                } catch (RepositoryException e) {
+                    LOG.error("Removal of stale product node failed", e);
+                }
+            }
+            session.save();
+        } catch (LoginException e) {
+            LOG.error("JCR login failed", e);
+        } catch (InvalidItemStateException e) {
+            LOG.error("JCR session save failed", e);
+        } catch (NoSuchNodeTypeException e) {
+            LOG.error("JCR session save failed", e);
+        } catch (LockException e) {
+            LOG.error("JCR session save failed", e);
+        } catch (VersionException e) {
+            LOG.error("JCR session save failed", e);
+        } catch (ReferentialIntegrityException e) {
+            LOG.error("JCR session save failed", e);
+        } catch (ConstraintViolationException e) {
+            LOG.error("JCR session save failed", e);
+        } catch (ItemExistsException e) {
+            LOG.error("JCR session save failed", e);
+        } catch (AccessDeniedException e) {
+            LOG.error("JCR session save failed", e);
+        } catch (RepositoryException e) {
+            LOG.error("JCR session save failed", e);
+        } finally {
+            if (resourceResolver != null && resourceResolver.isLive()) {
+                resourceResolver.close();
+            }
+        }
+
+    }
 }

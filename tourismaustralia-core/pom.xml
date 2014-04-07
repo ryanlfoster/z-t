@@ -227,7 +227,11 @@
 			<groupId>com.citytechinc.cq.cq-component-plugin</groupId>
 			<artifactId>cq-component-maven-plugin</artifactId>
 		</dependency>
-		
+        <dependency>
+            <groupId>org.quartz-scheduler</groupId>
+            <artifactId>quartz</artifactId>
+            <version>2.2.1</version>
+        </dependency>
 		
 		<!-- TESTING -->
 		<dependency>

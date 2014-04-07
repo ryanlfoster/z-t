@@ -50,6 +50,12 @@
 
 </div>
 <div>
-<h3>${brightcove.title}</h3>
-${brightcove.desciption}
+    <c:if test="${not empty brightcove.title}">
+        ${brightcove.title}
+    </c:if>
+
+    <c:if test="${not empty brightcove.description}">
+        ${brightcove.description}
+    </c:if>
+
 </div>

@@ -3,6 +3,7 @@ package com.australia.www.components.content.buttons;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.commons.lang.StringUtils;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ResourceUtil;
@@ -47,23 +48,27 @@ public class Buttons {
         
         ValueMap properties = request.getResource().adaptTo(ValueMap.class);
         tab1 = new ButtonField();
-        tab1.setTitle(properties.get("tab1/title", ""));
-        tab1.setText(properties.get("tab1/text", ""));
+        tab1.setTitle(properties.get("tab1/title", StringUtils.EMPTY));
+        tab1.setText(properties.get("tab1/text", StringUtils.EMPTY));
+		tab1.setImagePath(properties.get("tab1/imagePath", StringUtils.EMPTY));
         buttonsList.add(tab1);
         
         tab2 = new ButtonField();
-        tab2.setTitle(properties.get("tab2/title", ""));
-        tab2.setText(properties.get("tab2/text", ""));
+        tab2.setTitle(properties.get("tab2/title", StringUtils.EMPTY));
+        tab2.setText(properties.get("tab2/text", StringUtils.EMPTY));
+		tab2.setImagePath(properties.get("tab2/imagePath", StringUtils.EMPTY));
         buttonsList.add(tab2);
         
         tab3 = new ButtonField();
-        tab3.setTitle(properties.get("tab3/title", ""));
-        tab3.setText(properties.get("tab3/text", ""));
+        tab3.setTitle(properties.get("tab3/title", StringUtils.EMPTY));
+        tab3.setText(properties.get("tab3/text", StringUtils.EMPTY));
+		tab3.setImagePath(properties.get("tab3/imagePath", StringUtils.EMPTY));
         buttonsList.add(tab3);
         
         tab4 = new ButtonField();
-        tab4.setTitle(properties.get("tab4/title", ""));
-        tab4.setText(properties.get("tab4/text", ""));
+        tab4.setTitle(properties.get("tab4/title", StringUtils.EMPTY));
+        tab4.setText(properties.get("tab4/text", StringUtils.EMPTY));
+		tab4.setImagePath(properties.get("tab4/imagePath", StringUtils.EMPTY));
         buttonsList.add(tab4);
         
 	}

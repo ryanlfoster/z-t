@@ -8,7 +8,7 @@
 	<div class="map-btn-container">
 		<div class="map-btn-content">
 			<div class="map-image-icon">
-	    		<img src="/etc/designs/tourismaustralia/clientlibs/img/placeholders/airplane_sml.png">
+	    		<img src=${button.imagePath }>
 			</div>
 			<div>
 	    		<span class="map-btn-heading">${button.title}</span>

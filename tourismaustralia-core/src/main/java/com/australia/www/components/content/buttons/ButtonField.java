@@ -6,7 +6,7 @@ import com.citytechinc.cq.component.annotations.widgets.PathField;
 public class ButtonField {
 
 	@DialogField(fieldLabel = "Image")
-	@PathField
+	@PathField(rootPath = "/", rootTitle = "Assets")
 	private String imagePath;
 	
 	@DialogField(fieldLabel = "Title")

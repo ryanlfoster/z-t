@@ -1,5 +1,11 @@
 <!doctype html>
+<!--[if lt IE 7]>      <html lang="en" class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" class="no-js lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" class="no-js lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]>         <html lang="en" class="no-js lt-ie10"> <![endif]-->
+<!--[if gt IE 9]><!-->
 <html lang="en" class="no-js">
+<!--<![endif]-->
 <head>
     <meta charset="UTF-8">
     <title>{{title}}</title>
@@ -15,10 +21,6 @@
     <!--[if lte IE 8]>
     <link href="css/screen-ie8.css" media="screen, projection" rel="stylesheet" type="text/css" />
     <![endif]-->
-    
-    <!--[if IE]>
-	<link href="css/screen-ie.css" rel="stylesheet"/>
-	<![endif]-->
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -35,20 +37,19 @@
     </script>
 
     <script type="text/javascript" src="js/vendor/jquery.js"></script>
-
+    <!--[if lt IE 9]>
+        <script type="text/javascript" src="js/vendor/respond.js"></script>
+    <![endif]-->
 </head>
 
-<body>
-<!--[if lt IE 9]>
-    <link rel="stylesheet" type="text/css" href="js/vendor/respond.js" />
-<![endif]-->
+<body class="styleguide">
 
 <div class="site-wrapper l-overflow-x-hidden">
 
     {{> nojs }}
 
     <header id="main-header">
-        HEADER - NAV
+        {{> header}}
     </header>
     <!-- End #main-header -->
 
@@ -60,7 +61,7 @@
 </div>
 
 <footer id="main-footer" class="site-footer">
-    <div style="color: #FFF">FOOTER</div>
+    {{> footer}}
 </footer>
 <!-- End #main-footer -->
 
@@ -72,6 +73,8 @@
 <script src="js/src/modules/jquery.ta.flipcard.js"></script>
 <script src="js/src/modules/jquery.ta.mosaic.js"></script>
 <script src="js/src/modules/jquery.ta.fullwidthbg.js"></script>
+<script src="js/src/modules/jquery.ta.parallax.js"></script>
+<script src="js/src/helper/responsive.image.helper.js"></script>
 
 <script>
     //Hack for mobile detection

@@ -1,0 +1,46 @@
+---
+title: Image With Quote Only (bg only in template)
+note: note-image-with-button
+---
+<div class="image-ugc-container">
+    <div class="image-ugc image-with-button make-white">
+
+        <div class="image-bg fullwidth-bg" data-image-vertical-alignment="bottom" data--200-top="-webkit-transform: translate(0,10%);" data-200-bottom="-webkit-transform: translate(0,-10%);">
+            <div class="responsive-image" data-picture="" data-alt="" >
+                <div data-src="imgs/placeholders/image_with_buttons.jpg" data-media="(min-width: 1px)"></div>
+                <div data-src="imgs/placeholders/image_with_buttons.jpg" data-media="(min-width: 481px)"></div>
+                <div data-src="imgs/placeholders/image_with_buttons.jpg" data-media="(min-width: 769px)"></div>
+                <div data-src="imgs/placeholders/image_with_buttons.jpg" data-media="(min-width: 993px)"></div>
+
+                <noscript>
+                    <img src='imgs/placeholders/image_with_buttons.jpg' alt=''>
+                </noscript>
+
+            </div>
+            <!--[if (lt IE 9) & (!IEMobile)]>
+            <img src='imgs/placeholders/image_with_buttons.jpg' alt=''>
+            <![endif]-->
+        </div>
+
+        <div class="image-content-container">
+
+            <div class="image-content">
+
+                <hr>
+                {{#parseJSON '{"quote_copy": "“It was amazing that a running two year old could stop to stare at the great vastness of Australia, and it gave me this beautiful photo.”"}'}}
+                    {{> blockquote_pullquote}}
+                {{/parseJSON}}
+                <hr>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="image-ugc-copyright">
+        {{#parseJSON '{"social_mention_bold_text": "Tiat Yen Obi,", "social_mention_regular_text": "Petaling Jaya, Selangor, Twelve Apostles, Port Ca"}'}}
+            {{> socialmention}}
+        {{/parseJSON}}
+    </div>
+</div>
+
+

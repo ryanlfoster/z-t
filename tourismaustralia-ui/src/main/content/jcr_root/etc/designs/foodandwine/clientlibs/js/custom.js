@@ -33,3 +33,14 @@ $(function(){
 		}
 	});
 });
+
+$(function(){
+	$('#imageupload').change(function(){
+		var val=$(this).val();
+		if(val && val != ""){
+			$(this).parent().next().text(val);
+		}else{
+			$(this).parent().next().text("No File");
+		}
+	});
+});

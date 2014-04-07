@@ -1,0 +1,24 @@
+---
+title: Image Map w/ City Link
+---
+
+<div class="map-main">
+    <img class="map-main-image" src="imgs/placeholders/{{#if map_image}}{{map_image}}{{else}}intro-map-australia-nsw{{/if}}.png" alt="">
+    <div class="map-main-link">
+        <div class="map-main-title">
+            <!-- map title start -->
+            {{#if map_main_title}}{{map_main_title}}{{else}}Map Title{{/if}}
+            <!-- map title end -->
+        </div>
+
+        <img src="imgs/icons/pin_sml.png" class="map-pin" alt="" />
+
+        <!-- map link or text start -->
+        {{#if map_pin_has_link}}
+            <a href="#" class="map-pin-btn">{{#if map_pin_button}}{{map_pin_button}}{{else}}Location Name{{/if}}</a>
+        {{else}}
+            <span class="map-pin-btn">{{#if map_pin_button}}{{map_pin_button}}{{else}}Location Name{{/if}}</span>
+        {{/if}}
+        <!-- map link or text end -->
+    </div>
+</div>

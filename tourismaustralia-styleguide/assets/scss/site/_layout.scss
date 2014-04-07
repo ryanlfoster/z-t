@@ -271,13 +271,42 @@ $footerBackgroundColour: #0a334c;
   }
 }
 
-
+.l-push-up-sm--1 {
+  @include breakpoint(sm) {
+    margin-top: -1em;
+  }
+}
+.l-push-up-sm--2 {
+  @include breakpoint(sm) {
+    margin-top: -2em;
+  }
+}
+.l-push-up-sm--3 {
+  @include breakpoint(sm) {
+    margin-top: -3em;
+  }
+}
 .l-push-up-sm--10 {
   @include breakpoint(sm) {
     margin-top: -10em;
   }
 }
 
+.l-push-up-xs--1 {
+  @include breakpoint(xs) {
+    margin-top: -1em;
+  }
+}
+.l-push-up-xs--2 {
+  @include breakpoint(xs) {
+    margin-top: -2em;
+  }
+}
+.l-push-up-xs--3 {
+  @include breakpoint(xs) {
+    margin-top: -3em;
+  }
+}
 
 
 
@@ -480,6 +509,9 @@ $footerBackgroundColour: #0a334c;
   }
 }
 
+.l-push-up--1 {
+  margin-top: -1em;
+}
 
 .l-z-index-1 {
   z-index: 1;
@@ -538,6 +570,9 @@ $footerBackgroundColour: #0a334c;
   }
 }
 
+.l-clear-padding {
+  padding: 0;
+}
 .l-center {
   margin: 0 auto;
   display: table;
@@ -568,7 +603,14 @@ $footerBackgroundColour: #0a334c;
   background-color: #FFF;
   position: relative;
 }
-
+.l-padding-between-item-remove-30 {
+  margin-top: -30px;
+  margin-bottom: -30px;
+}
+.l-padding-between-item-remove-15 {
+  margin-top: -15px;
+  margin-bottom: -15px;
+}
 .l-padding-lr-15 {
   padding: 0 15px;
 }
@@ -585,20 +627,178 @@ $footerBackgroundColour: #0a334c;
 }
 
 #main-header {
-	position: relative;
+	//position: relative;
 	//padding: pxtoem(1px) 0;
 }
 
 #main-content {
 	position: relative;
-	padding: pxtoem(1px) 0;
-    background: #fff;
-    display: initial;
+  overflow: hidden;
+    // background: #fff; removed because of parallaxxxxx
 }
 
 #main-footer {
 	position: relative;
 	padding: pxtoem(1px) 0;
-     background: $footerBackgroundColour;
+    background: $footerBackgroundColour;
+    overflow-x: hidden;
 }
 
+.l-hidden {
+  display: none;
+}
+//////////////////////////////////////////
+// Bootstrap Row/Column Adjusters
+
+
+.l-equal-height {
+  display: table;
+}
+.l-equal-height [class*="col-"] {
+  float: none;
+  display: table-cell;
+  vertical-align: middle;
+}
+.l-equal-height-bottom {
+  display: table;
+}
+.l-equal-height-bottom [class*="col-"] {
+  float: none;
+  display: table-cell;
+  vertical-align: bottom;
+}
+
+.l-vertically-center {
+  float: none;
+  display: table-cell;
+  vertical-align: middle;
+}
+.l-vertically-bottom {
+  float: none;
+  display: table-cell;
+  vertical-align: bottom;
+}
+.l-equal-height-bottom-sm {
+  @include breakpoint(lg) {
+    display: table;
+    /*> [class*="col-"] {
+      @extend .l-vertically-center;
+    }*/
+  }
+}
+.l-equal-height-bottom-sm [class*="col-"] {
+  @include breakpoint(lg){
+    float: none;
+    display: table-cell;
+    vertical-align: bottom;
+  }
+}
+
+//@extend %button;
+
+/*
+// create equal height columns
+.l-equal-height {
+  display: table;
+}
+.l-equal-height [class*="col-"] {
+  @extend .l-equal-height-extend;
+}
+
+.l-equal-height-sm {
+  //@include breakpoint(sm){
+    display: table;
+  //}
+}
+.l-equal-height-sm [class*="col-"] {
+  //@include breakpoint(sm){
+    @extend .l-equal-height-extend;
+  //}
+}
+.l-equal-height-md {
+  @include breakpoint(md){
+    display: table;
+  }
+}
+.l-equal-height-md [class*="col-"] {
+  @include breakpoint(md){
+    @extend .l-equal-height-extend;
+  }
+}
+.l-vertically-center {
+  float: none;
+  display: table-cell;
+  vertical-align: middle;
+}
+.row-equal-height-sm {
+  display: table;
+}
+.l-equal-height-extend {
+  float: none;
+  display: table-cell;
+  vertical-align: middle;
+}
+*/
+
+.l-col-remove-width {
+  width: 100%;
+  min-width: 240px;
+}
+// remove default bootstrap column padding
+.l-strip-col-padding {
+  padding: 0;// remove padding from all column
+}
+.l-strip-col-padding-all {
+  padding: 0; // remove padding from all child elements of a column
+  > [class*="col-"] {
+    padding: 0;
+  }
+}
+
+//////////////////////////////////////////
+// Debug Shortcuts
+.l-border {
+  border: 1px solid #000;
+}
+.l-border-red {
+  border: 1px solid red;
+}
+.l-border-blue {
+  border: 1px solid blue;
+}
+//////////////////////////////////////////
+// Table vertically/horizontally centered
+// <div class="l-table-container"><div class="l-table"><div class="l-table-cell-centered"></div></div></div>
+.l-table-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+.l-table {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+.l-table-cell-centered {
+  display: table-cell;
+  height: 100%;
+  text-align: center;
+  vertical-align: middle;
+  width: 100%;
+}
+.l-table-cell-vertically-centered {
+  display: table-cell;
+  height: 100%;
+  text-align: left;
+  vertical-align: middle;
+  width: 100%;
+}
+.l-table-cell-bottom {
+  display: table-cell;
+  height: 100%;
+  text-align: left;
+  vertical-align: bottom;
+  width: 100%;
+}
+//////////////////////////////////////////

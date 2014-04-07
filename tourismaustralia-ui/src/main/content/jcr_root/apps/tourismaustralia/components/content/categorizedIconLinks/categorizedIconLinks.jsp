@@ -8,12 +8,20 @@
 <div class="l-padding-between-item-fill-white">
     <div class="categorylinks">
         <div class="row l-center-1200">
-            <hr>
+            <div class="line-through-container line-categorylink-theme">
+                <div class="line-through-categorylink-theme"></div>
+                <c:if test="${not empty categorizedIconLinks.title}">
+                <h4 class="line-through-container-biline">
+                    ${categorizedIconLinks.title}
+                </h4>
+                </c:if>
+            </div>
+
             <div class="col-xs-12 col-sm-4">
                 <div class="categorylinks-item">
                     <c:if test="${not empty categorizedIconLinks.titleText1.title}">
                     <div class="categorylink-header">
-                        <h3 class="categorylink-title">${categorizedIconLinks.titleText1.title}</h3>
+                        <h5 class="categorylink-title">${categorizedIconLinks.titleText1.title}</h5>
                     </div>
                     </c:if>
                     <c:if test="${not empty categorizedIconLinks.titleText1.text}">
@@ -61,7 +69,7 @@
                 <div class="categorylinks-item">
                     <c:if test="${not empty categorizedIconLinks.titleText2.title}">
                         <div class="categorylink-header">
-                            <h3 class="categorylink-title">${categorizedIconLinks.titleText2.title}</h3>
+                            <h5 class="categorylink-title">${categorizedIconLinks.titleText2.title}</h5>
                         </div>
                     </c:if>
                     <c:if test="${not empty categorizedIconLinks.titleText2.text}">
@@ -109,7 +117,7 @@
                 <div class="categorylinks-item">
                     <c:if test="${not empty categorizedIconLinks.titleText3.title}">
                         <div class="categorylink-header">
-                            <h3 class="categorylink-title">${categorizedIconLinks.titleText3.title}</h3>
+                            <h5 class="categorylink-title">${categorizedIconLinks.titleText3.title}</h5>
                         </div>
                     </c:if>
                     <c:if test="${not empty categorizedIconLinks.titleText3.text}">

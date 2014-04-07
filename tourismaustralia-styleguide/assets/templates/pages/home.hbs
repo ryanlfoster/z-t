@@ -3,11 +3,30 @@ title: home
 layout: layout-base.hbs
 ---
 
+{{#parseJSON '{
+"hero_image" : "herohome_sydney",
+"hero_title" : "Sydney",
+"hero_subtitle" : "The harbour city"
+}'}}
+    {{> hero }}
+{{/parseJSON}}
 
-{{> homehero }}
-
-<div class="row l-padding-between-item-fill-white">
-    {{> home_explore_summary_map }}
+<div class="l-padding-between-item-fill-white">
+    {{#parseJSON '{
+    "page_title" : "New South Wales",
+    "map_summary" : [
+        {"para" : "Whether you adore the arts or love the great outdoors, Victoria has something for you."},
+        {"para" : "The state is packed with both scenic and cultural attractions – from striking public spaces and state-of-the-art museums to heritage sites and rare wildlife."}
+    ],
+    "map_text" : [
+        {"para" : "Discover the cafes and bars of Melbourne’s gothic laneways and drive the Great Ocean Road. Wind your way through the wineries of the Yarra Valley and chug down the Murray in a paddle-steamer. Swim with dolphins on Mornington Peninsula and see fairy penguins on Phillip Island. Trek the rugged Grampians then relax in a Daylesford health spa. Bushwalk Gippsland’s coastal wilderness, hit the High Country slopes or explore the grand architecture of a Goldfields town."}
+    ],
+    "map_image" : "intro-map-australia-nsw",
+    "map_main_title" : "Capital of Victoria",
+    "map_pin_button" : "Melbourne"
+}'}}
+        {{> explore_summary_map }}
+    {{/parseJSON}}
 </div>
 
 {{> image_with_date }}
@@ -15,7 +34,7 @@ layout: layout-base.hbs
 {{> image_with_button }}
 
 <div class="l-padding-between-item-fill-white">
-    {{> mapwithlinkstate }}
+    {{> mapimagewithlinks }}
 </div>
 
 <div class="l-padding-between-item-fill-white">

@@ -41,6 +41,11 @@ public class ButtonField {
 		return text;
 	}
 	
-	
+	public boolean getIsEmpty() {
+		if (title.isEmpty() && text.isEmpty() && imagePath.isEmpty())
+			return false;
+		else
+			return true;
+	}
 	
 }

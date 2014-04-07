@@ -108,6 +108,9 @@ public class AtdwHighlights {
     private ValueMap properties;
 
     private Tag selectedTag;
+    private String city;
+    private String state;
+    private String term;
 
     public AtdwHighlights(SlingHttpServletRequest request) {
 
@@ -199,20 +202,25 @@ public class AtdwHighlights {
                 }
                 // get the city title if present and switch pointer to the state tag parent
                 if(selectedTag.getTagID().split("/").length == 3) {
-                    baseBuilder.setCity(selectedTag.getTitle());
+                    city = selectedTag.getTitle();
+                    baseBuilder.setCity(city);
                     selectedTag = selectedTag.getParent();
                 }
                 // get the state title if present
                 if(selectedTag.getTagID().split("/").length == 2) {
-                    baseBuilder.setState(selectedTag.getTitle());
+                    state = selectedTag.getTitle();
+                    baseBuilder.setState(state);
                 }
             }
         } else if(Constants.TYPE_STATE.equals(type)) {
             baseBuilder.setState(typeArgument);
+            state = typeArgument;
         } else if(Constants.TYPE_CITY.equals(type)) {
             baseBuilder.setCity(typeArgument);
+            city = typeArgument;
         } else if(Constants.TYPE_TERM.equals(type)) {
             baseBuilder.setText(typeArgument);
+            term = typeArgument;
         }
         return baseBuilder;
     }
@@ -247,7 +255,7 @@ public class AtdwHighlights {
         }
 
         public String getAllProductsPath() {
-            return PathUtils.getAllAtdwProductsForCategoryPath(localeResource, category.toString());
+            return PathUtils.getAllAtdwProductsForCategoryPath(localeResource, category.toString(), state, city, term);
         }
 
         public List<ATDWProduct> getProducts() {

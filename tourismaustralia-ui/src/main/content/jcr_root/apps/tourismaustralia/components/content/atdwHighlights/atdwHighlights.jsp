@@ -97,7 +97,7 @@
     <div class="l-h-center">
 
         <c:forEach items="${h.activeCategories}" var="cat">
-            <a href="#" class="btn-primary" data-atdw-show-cat="${cat.id}">
+            <a href="${cat.allProductsPath}" class="btn-primary" data-atdw-show-cat="${cat.id}">
                 <fmt:message key="${cat.display}" />
             </a>
         </c:forEach>

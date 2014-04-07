@@ -22,6 +22,13 @@ public final class PathUtils {
 
 	public static final String FOOD_AND_WINE_USER_GENERATED = "/content/usergenerated/food-and-wine";
 
+    public static final String PRODUCTS_PAGE_LOCALE_REL_PATH = "/products.html";
+    public static final String CATEGORY_PARAM = "category";
+    public static final String STATE_PARAM = "state";
+    public static final String CITY_PARAM = "city";
+    public static final String TERM_PARAM = "term";
+
+
     
     /**
      * Will get the language resource for the resource passed in. For example,
@@ -44,7 +51,23 @@ public final class PathUtils {
         return null;
     }
 
-    public static  String getAllAtdwProductsForCategoryPath(Resource locale, String category){
-        return locale.getPath() + "/products.html?cat=" + category;
+    public static String getAllAtdwProductsForCategoryPath(Resource locale, String category, String state, String city,
+            String term){
+        StringBuilder sb = new StringBuilder();
+        sb.append(locale.getPath());
+        sb.append(PRODUCTS_PAGE_LOCALE_REL_PATH).append("?");
+        if(category != null) {
+            sb.append(CATEGORY_PARAM).append("=").append(category);
+        }
+        if(state != null) {
+            sb.append("&").append(STATE_PARAM).append("=").append(state);
+        }
+        if(city != null) {
+            sb.append("&").append(CITY_PARAM).append("=").append(city);
+        }
+        if(term != null) {
+            sb.append("&").append(TERM_PARAM).append("=").append(term);
+        }
+        return sb.toString();
     }
 }

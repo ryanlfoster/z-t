@@ -213,6 +213,26 @@
 				</plugin>
 			</plugins>
 		</pluginManagement>
+		<plugins>
+			<plugin>
+				<groupId>com.atlassian.maven.plugins</groupId>
+				<artifactId>maven-jgitflow-plugin</artifactId>
+				<version>1.0-alpha21.1</version>
+				<configuration>
+					<autoVersionSubmodules>true</autoVersionSubmodules>
+					<enableFeatureVersions>false</enableFeatureVersions>
+					<noFeatureBuild>true</noFeatureBuild>
+					<noReleaseBuild>true</noReleaseBuild>
+					<noDeploy>true</noDeploy>
+					<flowInitContext>
+						<featureBranchPrefix>feature/</featureBranchPrefix>
+						<releaseBranchPrefix>release/</releaseBranchPrefix>
+						<hotfixBranchPrefix>hotfix/</hotfixBranchPrefix>
+					</flowInitContext>
+				</configuration>
+			</plugin>
+			
+		</plugins>
 	</build>
 
 	<dependencyManagement>

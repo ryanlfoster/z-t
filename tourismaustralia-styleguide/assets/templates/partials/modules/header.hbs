@@ -10,119 +10,192 @@ title: Header
         <a tabindex="2" class="sr-only vis-focusable" href="#main-footer">Skip to footer navigation</a>
     </div>
 
-        {{! These bars have been set up for development purposes only at this point, they were needed to get some idea of how things might work together... }}
+    {{! These bars have been set up for development purposes only at this point, they were needed to get some idea of how things might work together... }}
 
-        {{! NOTICE-BAR: this bar will only be visible when a notice is available... }
-        <div class="nav-bar notice-bar bar-scroll-top">
-            <div class="row l-center-1200">
-                <p class="notice-text notice-title">News alert</p>
-                <p class="notice-text notice-summary">Lorem ipsum dolor sit amet consecuter. Ut enim ad minim. <a href="#">View the announcement</a></p>
-                <button class="notice-close"><span class="icon icon-16 icon-close" aria-hidden="true"></span></button>
-            </div>
+    {{! NOTICE-BAR: this bar will only be visible when a notice is available... }
+    <div class="nav-bar notice-bar bar-scroll-top">
+        <div class="row l-center-1200">
+            <p class="notice-text notice-title">News alert</p>
+            <p class="notice-text notice-summary">Lorem ipsum dolor sit amet consecuter. Ut enim ad minim. <a href="#">View the announcement</a></p>
+            <button class="notice-close"><span class="icon icon-16 icon-close" aria-hidden="true"></span></button>
         </div>
+    </div>
 
-        {{! ARRIVAL-BAR: this bar will only be visible on arrival, scrolling will move it out of view and fix the header to the top... }
-        <div class="nav-bar arrival-bar bar-scroll-top">
-            <div class="row l-center-1200">
-                <ul class="nav-bar-nav">
-                    <li class="is-current"><a href="#">Holiday in Australia</a></li>
-                    <li><a href="#">Plan a Business Event</a></li>
-                    <li class="header-byline"><span>The official Australian tourism website</span></li>
-                </ul>
-            </div>
+    {{! ARRIVAL-BAR: this bar will only be visible on arrival, scrolling will move it out of view and fix the header to the top... }}
+    <div class="nav-bar arrival-bar bar-scroll-top">
+        <div class="row l-center-1200">
+            <ul class="nav-bar-nav nav-bar-right">
+                <li class="header-byline"><span>The official Australian tourism website. The site uses cookies. <a href="#">Find out more</a>.</span></li>
+            </ul>
+            <ul class="nav-bar-nav nav-bar-left">
+                <li class="is-current"><a href="#">Holiday in Australia</a></li>
+                <li><a href="#">Plan a Business Event</a></li>
+            </ul>
         </div>
+    </div>
 
-        {{! TOP_BAR: this bar will always be visiable, it will remain fixed to the top of the viewport at all times except on arrival... }}
-        <div class="nav-bar navigation-bar">
-            <div class="row l-center-1200">
+    {{! TOP_BAR: this bar will always be visiable, it will remain fixed to the top of the viewport at all times except on arrival... }}
+    <div class="nav-bar navigation-bar">
+        <div class="row l-center-1200">
 
-                {{! BEGIN: MASTHEAD }}
-                <div class="header-masthead">
-                    <a class="nav-bar-toggle" href="#nav-main-header">
-                        <span class="sr-only">Open Navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </a>
+            {{! BEGIN: MASTHEAD }}
+            <div class="header-masthead">
+                <a class="nav-bar-toggle" href="#nav-main-header">
+                    <span class="sr-only">Open Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
 
-                    <a class="logo-masthead" href="#" tabindex="-1">
-                        <img src="imgs/logo/logo_australia_com.png" alt=""/>
-                    </a>
-                </div>
-                {{! END: MASTHEAD }}
+                <a class="logo-masthead" href="#" tabindex="-1">
+                    <img src="imgs/logo/logo_australia_com.png" alt=""/>
+                </a>
+            </div>
+            {{! END: MASTHEAD }}
 
-                <div class="main-nav-panel">
-                    {{! BEGIN: SUPLIMENTRY NAV }}
-                    <ul class="nav-bar-nav nav-bar-right">
-                        <li class="toggle-home vis-hidden-sm">
-                            <a href="#" tabindex="-1"><span class="icon icon-32 icon-home" aria-hidden="true"></span><span> Home</span></a>
-                        </li>
-                        <li id="nav-search-panel" class="toggle-search has-children">
-                            <a href="#nav-search-panel"><span class="icon icon-32 icon-search" aria-hidden="true"></span><span class="vis-hidden-sm"> Search</span></a>
-                            <ul class="nav-bar-panel">
-                                <li class="nav-bar-panel-content">
-                                    Mega menu content for "Search"
-                                </li>
-                            </ul>
-                        </li>
-                        <li id="nav-map-panel" class="toggle-map has-children">
-                            <a href="#nav-map-panel"><span class="icon icon-32 icon-map" aria-hidden="true"></span><span class="vis-hidden-sm"> Map</span></a>
-                            <ul class="nav-bar-panel">
-                                <li class="nav-bar-panel-content">
-                                    Mega menu content for "Map"
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="toggle-my-trip">
-                            <a href="#" tabindex="-1">
-                                <span class="icon icon-32 icon-heart circle" aria-hidden="true"></span>
-                                <span class="vis-hidden-sm">My Trip</span>
+            <div class="main-nav-panel">
+                {{! BEGIN: SUPLIMENTRY NAV }}
+                <ul class="nav-bar-nav nav-bar-right">
+                    <li class="toggle-home vis-hidden-sm">
+                        <a href="#" tabindex="-1"><span class="icon icon-32 icon-home" aria-hidden="true"></span><span> Home</span></a>
+                    </li>
+                    <li id="nav-search-panel" class="toggle-search has-children">
+                        <a href="#nav-search-panel"><span class="icon icon-32 icon-search" aria-hidden="true"></span><span class="vis-hidden-sm"> Search</span></a>
+                        <ul class="nav-bar-panel">
+                            <li class="nav-bar-panel-container">
+                                <div class="nav-bar-panel-content">
+                                    <form class="nav-search-form" method="" action="#">
+                                        <fieldset class="nav-search-fieldset">
+                                            <label class="nav-search-label" for="nav-search-field">What would you like to explore in Australia?</label>
+                                            <input class="nav-search-text" id="nav-search-field" type="text" name="" value="" placeholder="What would you like to explore in Australia?"/>
+                                            <button class="biutton nav-search-button" type="submit" name="submit" value="submit">
+                                                <span class="icon icon-32 icon-search" aria-hidden="true"></span><span class="vis-hidden-sm"> Search</span>
+                                            </button>
+                                        </fieldset>
+                                    </form>
+                                </div>
+
+                                <a tabindex="-1" class="nav-bar-panel-close" href="#"><span class="icon icon-16 icon-close" aria-hidden="true"></span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li id="nav-map-panel" class="toggle-map has-children">
+                        <a href="#nav-map-panel"><span class="icon icon-32 icon-map" aria-hidden="true"></span><span class="vis-hidden-sm"> Map</span></a>
+                        <ul class="nav-bar-panel">
+                            <li class="nav-bar-panel-container">
+                                <a class="sr-only vis-focusable" href="#nav-things-to-do-panel">Skip to "Things to do"</a>
+
+                                <div class="nav-bar-panel-content">
+                                    <p>Mega menu content for "Map" (is this even a mega menu?)</p>
+                                    <div class="nav-bar-panel-content">
+                                        <ul class="nav-bar-panel-nav">
+                                            <li><a href="#">Link Text</a></li>
+                                            <li><a href="#">Link Text</a></li>
+                                            <li><a href="#">Link Text</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <a tabindex="-1" class="nav-bar-panel-close" href="#"><span class="icon icon-16 icon-close" aria-hidden="true"></span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="toggle-my-trip" class="toggle-my-trip">
+                        <a href="#" tabindex="-1">
+                            <span class="icon icon-32 icon-heart circle" aria-hidden="true"></span>
+                            <span class="vis-hidden-sm">My Trip</span>
                                     <span class="my-trip-count">
                                         <span class="type-plus" aria-hidden="true"> +</span> 30
                                     </span>
-                            </a>
-                        </li>
-                    </ul>
-                    {{! END: SUPLIMENTRY NAV }}
+                        </a>
+                    </li>
+                </ul>
+                {{! END: SUPLIMENTRY NAV }}
 
-                    {{! BEGIN: MAIN NAV }}
-                    <ul class="nav-bar-nav nav-bar-left">
-                        <li id="nav-things-to-do-panel" class="has-children">
-                            <a href="#nav-things-to-do-panel">Things to do</a>
-                            <ul class="nav-bar-panel">
-                                <li class="nav-bar-panel-content">
-                                    Mega menu content for "Thing to do"
-                                </li>
-                            </ul>
-                        </li>
-                        <li id="nav-where-to-go-panel" class="has-children">
-                            <a href="#nav-where-to-go-panel">Where to go</a>
-                            <ul class="nav-bar-panel">
-                                <li class="nav-bar-panel-content">
-                                    Mega menu content for "Where to go"
-                                </li>
-                            </ul>
-                        </li>
-                        <li id="nav-plan-your-trip-panel" class="has-children">
-                            <a href="#nav-plan-your-trip-panel">Plan your trip</a>
-                            <ul class="nav-bar-panel">
-                                <li class="nav-bar-panel-content">
-                                    Mega menu content for "Plan your trip"
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                    {{! END: MAIN NAV }}
+                {{! BEGIN: MAIN NAV }}
+                <ul class="nav-bar-nav nav-bar-left">
+                    <li id="nav-things-to-do-panel" class="has-children">
+                        <a href="#nav-things-to-do-panel">Things to do <span class="icon icon-16 icon-arrow-down" aria-hidden="true"></span></a>
+                        <ul class="nav-bar-panel">
+                            <li class="nav-bar-panel-container">
+                                <a class="sr-only vis-focusable" href="#nav-where-to-go-panel">Skip to "Where to go"</a>
 
-                    {{! START: MOBILE TOP BAR IN OPEN STATE }}
-                    <ul class="tool-bar mobile-open-bar bar-fixed-top">
+                                <div class="nav-bar-panel-content">
+                                    <ul class="nav-bar-panel-nav">
+                                        <li><a href="#">Link Text</a></li>
+                                        <li><a href="#">Link Text</a></li>
+                                        <li><a href="#">Link Text</a></li>
+                                        <li><a href="#">Link Text</a></li>
+                                        <li><a href="#">Link Text</a></li>
+                                        <li><a href="#">Link Text</a></li>
+                                    </ul>
+                                </div>
+
+                                <a tabindex="-1" class="nav-bar-panel-close" href="#"><span class="icon icon-16 icon-close" aria-hidden="true"></span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li id="nav-where-to-go-panel" class="has-children">
+                        <a href="#nav-where-to-go-panel">Where to go <span class="icon icon-16 icon-arrow-down" aria-hidden="true"></span></a>
+                        <ul class="nav-bar-panel">
+                            <li class="nav-bar-panel-container">
+                                <a class="sr-only vis-focusable" href="#nav-plan-your-trip-panel">Skip to "Plan your trip"</a>
+
+                                <div class="nav-bar-panel-content">
+                                    <ul class="nav-bar-panel-nav">
+                                        <li><a href="#">Link Text</a></li>
+                                        <li><a href="#">Link Text</a></li>
+                                        <li><a href="#">Link Text</a></li>
+                                        <li><a href="#">Link Text</a></li>
+                                    </ul>
+                                </div>
+
+                                <a tabindex="-1" class="nav-bar-panel-close" href="#"><span class="icon icon-16 icon-close" aria-hidden="true"></span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li id="nav-plan-your-trip-panel" class="has-children">
+                        <a href="#nav-plan-your-trip-panel">Plan your trip <span class="icon icon-16 icon-arrow-down" aria-hidden="true"></span></a>
+                        <ul class="nav-bar-panel">
+                            <li class="nav-bar-panel-container">
+                                <a class="sr-only vis-focusable" href="#main-content">Skip to content</a>
+
+                                <div class="nav-bar-panel-content">
+                                    <ul class="nav-bar-panel-nav">
+                                        <li><a href="#">Link Text</a></li>
+                                        <li><a href="#">Link Text</a></li>
+                                        <li><a href="#">Link Text</a></li>
+                                        <li><a href="#">Link Text</a></li>
+                                        <li><a href="#">Link Text</a></li>
+                                        <li><a href="#">Link Text</a></li>
+                                        <li><a href="#">Link Text</a></li>
+                                        <li><a href="#">Link Text</a></li>
+                                        <li><a href="#">Link Text</a></li>
+                                        <li><a href="#">Link Text</a></li>
+                                        <li><a href="#">Link Text</a></li>
+                                        <li><a href="#">Link Text</a></li>
+                                    </ul>
+                                </div>
+
+                                <a tabindex="-1" class="nav-bar-panel-close" href="#"><span class="icon icon-16 icon-close" aria-hidden="true"></span></a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                {{! END: MAIN NAV }}
+
+                {{! START: MOBILE TOP BAR IN OPEN STATE }}
+                <div class="mobile-open-bar bar-fixed-top">
+                    <ul class="tool-bar">
                         <li class="is-current"><a href="#">Holiday</a></li>
                         <li><a href="#">Business</a></li>
-                        <li class="nav-bar-toggle"><a href="#"><span class="icon icon-close icon-32" aria-hidden="true"></span> <span class="sr-only">Close Navigation</span></a></li>
+                        <li class="nav-bar-toggle">
+                            <a href="#"><span class="icon icon-close icon-32" aria-hidden="true"></span>
+                                <span class="sr-only">Close Navigation</span></a></li>
                     </ul>
-                    {{! END: MOBILE TOP BAR IN OPEN STATE }}
-
                 </div>
+                {{! END: MOBILE TOP BAR IN OPEN STATE }}
+
             </div>
         </div>
     </div>

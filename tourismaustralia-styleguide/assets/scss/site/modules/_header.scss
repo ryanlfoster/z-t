@@ -3,36 +3,33 @@
 // * ---------------------------------------------------------------------------------------------------------------- */
 
 // colours...
-$notice-bar-bg: #303133;
-// notice bar background colour
-$arrival-bar-bg: $footer_bg;
-// arrival navigation bar background colour (desktop)
-$navigation-bar-bg: $category-colour-islands;
-// main navigation background colour (desktop)
-$arrival-bar-active-link-bdr: $category-colour-beaches;
-// link border for active links in arrival bar
-$navigation-bar-dropdown-bg: rgba(0, 83, 94, 0.9);
-// main navigation drop down background colour (transparent)
-$navigation-bar-dropdown-bg-solid: rgba(0, 83, 94, 1);
-// main navigation drop down background colour (opaque)
-$type-header: $type-footer-copyright-colour;
-// header font colour
+$notice-bar-bg: #303133;                                            // notice bar background colour
+$arrival-bar-bg: $footer_bg;                                        // arrival navigation bar background colour (desktop)
+$navigation-bar-bg: $category-colour-islands;                       // main navigation background colour (desktop)
+$arrival-bar-active-link-bdr: $category-colour-beaches;             // link border for active links in arrival bar
+$navigation-bar-active-link-colour: $arrival-bar-active-link-bdr;   // includes search placeholder text
+$navigation-bar-dropdown-bg: rgba(0, 83, 94, 0.9);                  // main navigation drop down background colour (transparent)
+$navigation-bar-dropdown-bg-solid: rgba(0, 83, 94, 1);              // main navigation drop down background colour (opaque)
+$type-header: $type-footer-copyright-colour;                        // header font colour
 
 // mobile nav
-$nav-mobile-top-links-bdr: #003b43;
-// top link set (.nav-bar-right items border colour
-$nav-mobile-top-links-bg: #00535e;
-// top link set (.nav-bar-right) background colour
-//$nav-mobile-top-links-hvr-bg: #00535e;                  // top link set (.nav-bar-right) background hover colour
+$nav-mobile-top-links-bdr: #003b43;                                 // top link set (.nav-bar-right items border colour
+$nav-mobile-top-links-bg: #00535e;                                  // top link set (.nav-bar-right) background colour
+$nav-mobile-top-links-hvr-bg: #00535e;                            // top link set (.nav-bar-right) background hover colour
 
-$nav-mobile-bot-links-bdr: #00282e;
-// bottom link set (.nav-bar-left) items border colour
-$nav-mobile-bot-links-bg: #003b43;
-// bottom link set (.nav-bar-left) background colour
-//$nav-mobile-bot-links-dd-bg: #00333a;                   // bottom link set (.nav-bar-left) background hover colour
+$nav-mobile-bot-links-bdr: #00282e;                                 // bottom link set (.nav-bar-left) items border colour
+$nav-mobile-bot-links-bg: #003b43;                                  // bottom link set (.nav-bar-left) background colour
+$nav-mobile-bot-links-dd-bg: #00333a;                             // bottom link set (.nav-bar-left) background hover colour
 
 // element dimensions...
 $navigation-bar-height: pxtoem(90px);
+
+///*
+// * Helpers:
+// * ---------------------------------------------------------------------------------------------------------------- */
+.gpu-render {
+    @include gpu-render();
+}
 
 ///*
 // * Main header element:
@@ -49,7 +46,15 @@ $navigation-bar-height: pxtoem(90px);
         color: $type-navigation;
 
         &:focus {
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 99999;
             padding: 3px;
+            text-align: center;
+            position: absolute;
+            font-size: x-small;
+            font-weight: bold;
             border: 1px dotted $type-navigation;
         }
     }
@@ -63,11 +68,7 @@ $navigation-bar-height: pxtoem(90px);
     left: 0;
     width: 100%;
     z-index: 999;
-    //position: absolute;
-
-    //@media (min-width: $screen-sm-min) {
     position: fixed;
-    //}
 }
 
 // don't fix in style guide...
@@ -193,6 +194,11 @@ $navigation-bar-height: pxtoem(90px);
             margin: pxtoem(12px) 0 0 0;
             text-align: right;
             padding-right: 0;
+            font-size: pxtoem(14px);
+
+            a {
+                display: inline;
+            }
         }
     }
 
@@ -217,24 +223,28 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
 
 .mobile-open-bar {
 
+    @extend .gpu-render;
+
     // Mobile Only...
     background-color: transparent;
     background-image: $nav-tool-bar-bg-image;
     background-repeat: repeat-x;
     background-position: 0 -33px;
 
-    min-width: pxtoem(320px);
+    ul {
+        min-width: pxtoem(320px);
+    }
 
     li {
         display: inline-block;
 
-        width:33.3%;
+        width: 33.3%;
 
         a {
             color: $type-navigation;
             display: block;
             padding: pxtoem(20px) pxtoem(19px) pxtoem(19px) pxtoem(19px);
-            text-align:center;
+            text-align: center;
             text-decoration: none;
             border-bottom: pxtoem(3px) solid transparent;
         }
@@ -246,7 +256,7 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
         }
 
         &.nav-bar-toggle {
-            width:auto;
+            width: auto;
             padding: 0;
             float: right;
         }
@@ -254,8 +264,15 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
 
     // Tablet & Larger...
     @media (min-width: $screen-sm-min) {
-        display:none;
+        display: none;
     }
+}
+
+///*
+// * (IE8) Tool Bar:
+// * ---------------------------------------------------------------------------------------------------------------- */
+.lt-ie9 .mobile-open-bar {
+    display: none;
 }
 
 ///*
@@ -264,7 +281,6 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
 .navigation-bar {
 
     // Mobile & Defaults...
-    position: relative;
     background-color: transparent;
     background-image: $nav-tool-bar-bg-image;
     background-repeat: repeat-x;
@@ -275,7 +291,7 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
     // Mobile Nav Toggle...
     .nav-bar-toggle {
         display: none;
-        margin-left: -0.003em  -0.003em  -0.003em -10px; // fix inline block
+        margin: -0.003em; // fix inline block
         padding: 18px 16px;
     }
 
@@ -301,9 +317,14 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
         text-decoration: none;
     }
 
+    .nav-bar-nav > li > a .icon-arrow-down {
+        float: right;
+        margin: 0;
+    }
+
     // Left Nav...
     .nav-bar-left > li > a {
-        padding: pxtoem(37px) pxtoem(16px);
+        padding: pxtoem(35px) pxtoem(16px);
         font-size: pxtoem(16px);
     }
 
@@ -328,35 +349,27 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
         }
 
         .main-nav-panel {
+            @extend .gpu-render;
             height: 100%;
             background-color: $nav-mobile-top-links-bg;
-            margin-right: pxtoem(48px);
         }
 
         .nav-bar-left,
         .nav-bar-right,
         .nav-bar-nav > li {
+            min-width: pxtoem(272px);
             display: block;
         }
 
-        .nav-bar-nav > li a {
+        .nav-bar-nav > li > a {
+            max-height: 98px;
             padding: pxtoem(22px) pxtoem(16px);
             background-color: $nav-mobile-top-links-bg;
             border-bottom: 1px solid $nav-mobile-top-links-bdr;
         }
 
-        .nav-bar-left > li a {
-            //background-color: $nav-mobile-bot-links-bg;
-            //border-bottom: 1px solid $nav-mobile-bot-links-bdr;
-        }
-
         .nav-bar-right {
             float: none;
-        }
-
-        .nav-bar-right > li a {
-            //background-color: $nav-mobile-top-links-bg;
-            //border-bottom: 1px solid $nav-mobile-top-links-bdr;
         }
 
         // this icon changes size a few times...
@@ -380,8 +393,17 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
         background-position: 0 0;
         background-color: $navigation-bar-dropdown-bg;
 
+        .nav-bar-nav > li > a {
+            height: 91px;
+            border-bottom: 5px solid transparent;
+        }
+
+        .nav-bar-nav > li > a .icon-arrow-down {
+            display: none;
+        }
+
         .nav-bar-right > li > a {
-            padding: pxtoem(27px) pxtoem(10px);
+            padding: pxtoem(25px) pxtoem(10px);
             line-height: pxtoem(34px);
         }
 
@@ -395,7 +417,7 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
     @media (min-width: $screen-md-min) {
 
         .nav-bar-left > li > a {
-            padding: pxtoem(27px) pxtoem(30px);
+            padding: pxtoem(25.5px) pxtoem(30px);
             font-size: pxtoem(20px);
         }
 
@@ -403,84 +425,366 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
 
 }
 
-///*
-// * Main Navigation Bar - JavaScript Enabled:
-// * ---------------------------------------------------------------------------------------------------------------- */
-.js .navigation-bar {
-
-    .nav-bar-left > .has-children {
-        //display: none;
-    }
-
-    .nav-bar-panel {
-        display: none;
-    }
+.js .nav-bar-panel-close {
+    display: none;
 }
 
 ///*
-// * Main Navigation Bar - JavaScript Disabled:
+// * (IE8) Main Navigation Bar - Common Properties:
 // * ---------------------------------------------------------------------------------------------------------------- */
-.no-js .navigation-bar {
+.lt-ie9 .navigation-bar {
+
+    min-width: 1024px;
+
+    background-position: 0 0;
+    background-color: $navigation-bar-dropdown-bg;
+
+    .vis-hidden-sm {
+        @extend .vis-hidden;
+    }
+
+    .type-plus {
+        font-family: Arial, sans-serif; // otherwise IE8 thinks it's a hyphen :(
+    }
+
+    .icon-heart.icon.circle {
+        border: none;
+    }
+
+    .nav-bar-nav > li > a {
+        height: 91px;
+        border-bottom: 5px solid transparent;
+    }
+
+    .nav-bar-left > li > a {
+        padding: pxtoem(25.5px) pxtoem(30px);
+        font-size: pxtoem(20px);
+    }
+
+    .nav-bar-right > li > a {
+        padding: pxtoem(25px) pxtoem(10px);
+        line-height: pxtoem(34px);
+    }
+
+    .nav-bar-nav > li > a .icon-arrow-down {
+        display: none;
+    }
+
+}
+
+///*
+// * Main Navigation Bar - Desktop/Tablet Drop Down Panels:
+// * ---------------------------------------------------------------------------------------------------------------- */
+.navigation-bar {
 
     .has-children > .nav-bar-panel {
+
+        @extend .gpu-render;
+
+        // Mobile Only...
+        @media (max-width: $screen-sm-min) {
+            position: relative;
+            background-color: $navigation-bar-dropdown-bg-solid;
+        }
+
+        // Tablet & >...
+        @media (min-width: $screen-sm-min) {
+            position: absolute;
+            background-color: $navigation-bar-dropdown-bg;
+        }
+
         left: 0;
         top: auto;
         width: 100%;
-        position: absolute;
-        background-color: $navigation-bar-dropdown-bg;
+    }
 
-        // transition it...
-        height: 0;
-        overflow: hidden;
-        @include transition(height, 200ms, ease-in-out, 100ms);
+    .nav-bar-panel-container {
+        // Transition - Slide Down...
+        max-height: 0;
+        overflow:hidden;
+        @extend .gpu-render;
+        @include transition(max-height, 0.15s, ease-out, 0);
 
+        .nav-bar-panel-close {
+            top: 20px;
+            right: 24px;
+            z-index: 1;
+            position:absolute;
+        }
     }
 
     .nav-bar-panel-content {
         max-width: 1200px;
         margin: 0 auto;
-        padding: 30px 15px;
+        position: relative;
+    }
+
+    // Targeted Nav Bar Panels Defaults...
+    .has-children a:focus + .nav-bar-panel > .nav-bar-panel-container,
+    .has-children:hover > .nav-bar-panel > .nav-bar-panel-container {
+        max-height: 1000px;
+        @include transition(max-height, 0.25s, ease-in, 0);
+    }
+
+    // Targeted Nav Bar Panels Mobile Only...
+    @media (max-width: $screen-sm) {
+
+        .nav-bar-panel .vis-focusable {
+            display:none; // disable focus on skip links for small screen devices...
+        }
+
+        .nav-bar-nav > li > a:focus,
+        .nav-bar-nav > li:hover > a {
+            background-color: $nav-mobile-bot-links-bg;
+
+            .icon-arrow-down {
+                background-position: -100px -4px; // icon-arrow-up
+            }
+        }
+
+        .nav-bar-nav {
+            .has-children a:focus + .nav-bar-panel,
+            .has-children:hover > .nav-bar-panel {
+                background-color: $nav-mobile-bot-links-dd-bg;
+            }
+        }
+
+        // TODO: find out how we're meant to handle the map and search in mobile nav!!!
+        .nav-bar-right {
+            .has-children a:focus + .nav-bar-panel > .nav-bar-panel-container,
+            .has-children:hover > .nav-bar-panel > .nav-bar-panel-container {
+                max-height: 0;
+            }
+        }
+    }
+
+    // Targeted Nav Bar Panels Large Tablet & >...
+    @media (min-width: $screen-sm-min) {
+        .has-children:hover > .nav-bar-panel > .nav-bar-panel-container {
+            max-height: 0;
+        }
+
+        #nav-search-panel:target .nav-bar-panel-container,
+        #nav-map-panel:target .nav-bar-panel-container,
+        #nav-things-to-do-panel:target .nav-bar-panel-container,
+        #nav-where-to-go-panel:target .nav-bar-panel-container,
+        #nav-plan-your-trip-panel:target .nav-bar-panel-container,
+        .has-children a:focus + .nav-bar-panel-container {
+            max-height: 1000px;
+            @include transition(max-height, 0.25s, ease-in, 0);
+        }
+
+        #nav-search-panel:target > a,
+        #nav-map-panel:target > a,
+        #nav-things-to-do-panel:target > a,
+        #nav-where-to-go-panel:target > a,
+        #nav-plan-your-trip-panel:target > a,
+        .has-children a:focus {
+            font-weight: bold;
+            font-family: $font-family-base-b;
+            border-bottom-color: $arrival-bar-active-link-bdr;
+        }
     }
 }
 
-// For IE8...
-.ie-lt8 .navigation-bar {
-    // TODO: these might be usable elsewhere too...
-    .has-children a:focus + .nav-bar-panel,
-    .has-children:hover > .nav-bar-panel {
-        // transition it...
-        height: 100%;
+///*
+// * (IE8) Main Navigation Bar - Desktop/Tablet Drop Down Panels:
+// * ---------------------------------------------------------------------------------------------------------------- */
+.lt-ie9 .navigation-bar {
+
+    .has-children > .nav-bar-panel {
+        position: absolute;
+        background-color: $navigation-bar-dropdown-bg-solid;
     }
+
+    .nav-bar-panel-close {
+        display:none;
+    }
+
 }
 
-// All but IE8...
+///*
+// * Main Navigation Bar - Small Tablet/Mobile Slide Out Panel with Internal Drop Down Panels:
+// * ---------------------------------------------------------------------------------------------------------------- */
+@mixin nav-main-header-close() {
+    -webkit-transition: height 0s ease-in 0.35s;
+    -moz-transition: height 0s ease-in 0.35s;
+    -o-transition: height 0s ease-in 0.35s;
+    transition: height 0s ease-in 0.35s;
+}
+
+@mixin nav-main-header-open() {
+    -webkit-transition: height 0s ease-out 0s;
+    -moz-transition: height 0s ease-out 0s;
+    -o-transition: height 0s ease-out 0s;
+    transition: height 0s ease-out 0s;
+}
+
+@mixin nav-main-nav-bar-close() {
+    -webkit-transition: background-color 0.25s ease-in 0s, height 0s linear 0.35s, padding 0.25s ease-in 0s;
+    -moz-transition: background-color 0.25s ease-in 0s, height 0s linear 0.35s, padding 0.25s ease-in 0s;
+    -o-transition: background-color 0.25s ease-in 0s, height 0s linear 0.35s, padding 0.25s ease-in 0s;
+    transition: background-color 0.25s ease-in 0s, height 0s linear 0.35s, padding 0.25s ease-in 0s;
+}
+
+@mixin nav-main-nav-bar-open() {
+    -webkit-transition: background-color 0.25s ease-out 0s, height 0s linear 0s, padding 0.25s ease-out 0s;
+    -moz-transition: background-color 0.25s ease-out 0s, height 0s linear 0s, padding 0.25s ease-out 0s;
+    -o-transition: background-color 0.25s ease-out 0s, height 0s linear 0s, padding 0.25s ease-out 0s;
+    transition: background-color 0.25s ease-out 0s, height 0s linear 0s, padding 0.25s ease-out 0s;
+}
+
 @media (max-width: $screen-sm) {
 
+    #nav-main-header {
+
+        height: 58px;
+        @include nav-main-header-close();
+
+        .nav-bar-panel-close {
+            display: none;
+        }
+
+        .navigation-bar {
+            height: 58px;
+            overflow: hidden;
+            padding-right: 0;
+            background-color: rgba(0, 0, 0, 0);
+            @include nav-main-nav-bar-close();
+        }
+
+        .navigation-bar .l-center-1200 {
+            width: auto;
+            height: 58px;
+            @include nav-main-header-close();
+        }
+
+        .mobile-open-bar,
+        .main-nav-panel {
+            width: 0;
+            overflow: hidden;
+            @include transition(width, 0.25s, ease-in, 0);
+        }
+    }
+
+    // Main Header Targeted (Mobile Nav Open)
+    #nav-main-header.is-open,
     #nav-main-header:target {
 
         height: 100%;
-        position: absolute;
+        @include nav-main-header-open();
+
+        .navigation-bar .l-center-1200 {
+            height: 100%;
+            @include nav-main-header-open();
+        }
 
         .navigation-bar {
             height: 100%;
+            padding-right: pxtoem(48px);
             background-color: rgba(0, 0, 0, 0.5);
+            @include nav-main-nav-bar-open();
         }
 
         .main-nav-panel {
-            // this will need to be width
-            display: block;
-            //width: auto;
+            overflow-y: auto;
+        }
+
+        .mobile-open-bar,
+        .main-nav-panel {
+            width: 100%;
+            @include transition(width, 0.25s, ease-out, 0);
+        }
+    }
+}
+
+///*
+// * Main Navigation Mega Menu Panel Content:
+// * ---------------------------------------------------------------------------------------------------------------- */
+.placeholder-text-colour {
+    &::-webkit-input-placeholder {
+        color: $navigation-bar-active-link-colour;
+    }
+
+    &:-moz-placeholder {
+        color: $navigation-bar-active-link-colour;
+    }
+
+    &::-moz-placeholder {
+        color: $navigation-bar-active-link-colour;
+    }
+
+    &:-ms-input-placeholder {
+        color: $navigation-bar-active-link-colour;
+    }
+}
+
+.nav-bar-panel-container {
+
+    // Search Panel...
+    .nav-search-form {
+        text-align: center;
+        padding: 55px 0 60px 0;
+    }
+
+    .nav-search-fieldset {
+        position:relative;
+    }
+
+    .nav-search-label {
+        width: 100%;
+        color: $navigation-bar-active-link-colour;
+        font-weight: normal;
+        padding-bottom: 10px;
+        font-size: pxtoem(28px);
+        margin-left: -30px;
+        // hide the label from everything but IE8
+        &:not(#foo) {
+            display:none;
         }
     }
 
-    #nav-main-header:not(:target) .main-nav-panel {
+    // Search Panel...
+    .nav-search-text {
+        width: 100%;
+        margin-right: 10px;
+        max-width: 560px;
+        background: none;
+        border: none;
+        border-bottom: 1px solid #fff;
+        font-size: pxtoem(28px);
+        color: $navigation-bar-active-link-colour;
+        @extend .placeholder-text-colour;
 
-        // this will need to be width
-        //width: 0;
-        //overflow: hidden;
-
-        display: none;
+        &:focus {
+            outline: none;
+        }
     }
+
+    .nav-search-button {
+        padding: 8px 0;
+        vertical-align: top;
+    }
+
+    // Standard Navigation List Panel...
+    .nav-bar-panel-nav > li {
+        border-bottom: 1px solid $nav-mobile-bot-links-bdr;
+
+
+    }
+
+    .nav-bar-panel-nav > li > a {
+        padding: pxtoem(16px) pxtoem(15px) pxtoem(16px) pxtoem(30px);
+        text-decoration: none;
+        display: block;
+        font-size: 15px;
+    }
+}
+
+///*
+// * (IE8) Main Navigation Mega Menu Panel Content:
+// * ---------------------------------------------------------------------------------------------------------------- */
+.lt-ie9 .nav-bar-panel-container {
 
 }
 
@@ -521,8 +825,20 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
     // Desktop...
     @media (min-width: $screen-md-min) {
 
-        //padding-right: pxtoem(20px);
-
     }
 
+}
+
+///*
+// * (IE8) Header Masthead:
+// * ---------------------------------------------------------------------------------------------------------------- */
+.header-masthead {
+
+    float: left;
+
+    .logo-masthead {
+        width: 150px;
+        margin: pxtoem(16px) 0;
+        background: transparent url("../imgs/logo/logo-tourism-australia.png") no-repeat 0 50%;
+    }
 }

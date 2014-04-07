@@ -5,6 +5,8 @@ import com.citytechinc.cq.component.annotations.DialogField;
 import com.citytechinc.cq.component.annotations.Tab;
 import com.citytechinc.cq.component.annotations.widgets.DialogFieldSet;
 import org.apache.sling.api.SlingHttpServletRequest;
+import org.apache.sling.api.resource.Resource;
+import org.apache.sling.api.resource.ResourceUtil;
 import org.apache.sling.api.resource.ValueMap;
 import java.util.ArrayList;
 import java.util.List;
@@ -62,9 +64,8 @@ public class Explore {
 	private final List<Category> tabs;
 
 	public Explore(SlingHttpServletRequest request) {
-		ValueMap properties = request.getResource().adaptTo(ValueMap.class);
 		tabs = new ArrayList<Category>();
-
+		ValueMap properties = request.getResource().adaptTo(ValueMap.class);
 		tab1 = initTab(1,properties);
 		tab1card1 = initCard(1,1,properties);
 		tab1card2 = initCard(1,2,properties);

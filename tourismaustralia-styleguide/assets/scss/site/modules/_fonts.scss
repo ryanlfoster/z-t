@@ -9,7 +9,6 @@
 //@include font-face("ProximaNova Bold Italic", font-files("ProximaNova-BoldIt.svg", "ProximaNova-BoldIt.woff", "ProximaNova-BoldIt.otf"), "ProximaNova-BoldIt.eot");
 @include font-face("ProximaNova Semi Bold Italic", font-files("ProximaNova-SemiboldIt.svg", "ProximaNova-SemiboldIt.woff", "ProximaNova-SemiboldIt.otf"), "ProximaNova-SemiboldIt.eot");
 
-
 @include font-face("TheSanB5Pla", font-files("TheSanB5Pla.svg", "TheSanB5Pla.woff", "TheSanB5Pla.otf"), "TheSanB5Pla.eot");
 
 @include font-face("Mission Gothic Light Italic", font-files("Mission Gothic Light Italic.svg", "Mission Gothic Light Italic.woff", "Mission Gothic Light Italic.otf"), "Mission Gothic Light Italic.eot");
@@ -17,63 +16,3 @@
 @include font-face("TAheadline", font-files("TAheadline.svg", "TAheadline.woff", "TAheadline.otf"), "TAheadline.eot");
 
 @include font-face("GearedSlab-Light", font-files("GearedSlab-Light.svg", "GearedSlab-Light.woff", "GearedSlab-Light.otf"), "GearedSlab-Light.eot");
-
-
-@include font-face("TAIcons", font-files("TAIcons.svg", "TAIcons.woff", "TAIcons.otf"), "TAIcons.eot");
-
-/*
-@font-face {
-  font-family: 'TAIcons';
-  src:url('fonts/TAIcons.eot?-c6mubv');
-  src:url('fonts/TAIcons.eot?#iefix-c6mubv') format('embedded-opentype'),
-  url('fonts/TAIcons.woff?-c6mubv') format('woff'),
-  url('fonts/TAIcons.ttf?-c6mubv') format('truetype'),
-  url('fonts/TAIcons.svg?-c6mubv#TAIcons') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-*/
-
-//**********************
-// Font styles:
-//**********************
-
-.font-base {
-  font-family: $font-family-base;
-  strong{
-    font-family: $font-family-base-b;
-    em{
-      font-family: $font-family-base-bi;
-    }
-  }
-  em{
-    font-family: $font-family-base-i;
-  }
-}
-.font-primary {
-  font-family: $font-family-primary;
-  strong{
-    font-family: $font-family-base-b;
-  }
-  em{
-    font-family: $font-family-base-bi;
-  }
-}
-.font-secondary {
-  font-family: $font-family-secondary;
-  strong{
-    font-weight: bold;
-  }
-  em{
-    font-style: italic;
-  }
-}
-.font-feature {
-  font-family: $font-family-feature;
-  strong{
-    font-weight: bold;
-  }
-  em{
-    font-style: italic;
-  }
-}

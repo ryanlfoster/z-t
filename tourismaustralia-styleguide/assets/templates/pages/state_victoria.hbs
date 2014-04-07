@@ -1,0 +1,72 @@
+---
+layout: layout-base.hbs
+---
+
+{{#parseJSON '{
+    "hero_image" : "herohome_grampains",
+    "hero_title" : "Victoria",
+    "hero_subtitle" : "A state of inspiration"
+}'}}
+    {{> hero }}
+{{/parseJSON}}
+
+<div class="l-padding-between-item-fill-white">
+    {{#parseJSON '{
+        "page_title" : "Victoria",
+        "map_summary" : [
+            {"para" : "Whether you adore the arts or love the great outdoors, Victoria has something for you."},
+            {"para" : "The state is packed with both scenic and cultural attractions – from striking public spaces and state-of-the-art museums to heritage sites and rare wildlife."}
+        ],
+        "map_text" : [
+            {"para" : "Discover the cafes and bars of Melbourne’s gothic laneways and drive the Great Ocean Road. Wind your way through the wineries of the Yarra Valley and chug down the Murray in a paddle-steamer. Swim with dolphins on Mornington Peninsula and see fairy penguins on Phillip Island. Trek the rugged Grampians then relax in a Daylesford health spa. Bushwalk Gippsland’s coastal wilderness, hit the High Country slopes or explore the grand architecture of a Goldfields town."}
+        ],
+        "map_image" : "intro-map-australia",
+        "map_main_title" : "Capital of Victoria",
+        "map_pin_has_link" : "true",
+        "map_pin_button" : "Melbourne"
+    }'}}
+        {{> explore_summary_map }}
+    {{/parseJSON}}
+</div>
+
+<div class="paragraph-state">
+
+    <div class="l-padding-between-item-fill-white">
+        {{> whatyoucansee_state}}
+    </div>
+
+    <div class="l-padding-between-item-fill-white">
+        {{> image_with_button_social }}
+    </div>
+
+    <div class="l-padding-between-item-fill-white">
+        {{> mapimagewithlinks }}
+    </div>
+
+    <div class="l-padding-between-item-fill-white">
+        {{> explore }}
+    </div>
+
+    <div class="l-padding-between-item-fill-white">
+        {{#parseJSON '{
+            "promo_image" : "specialoffer",
+            "promo_title" : "The old bar",
+            "promo_text" : [
+                {"para" : "Stay in Melbourne and come down to The Old Bar to watch bands play live music 7 nights a week."}
+            ],
+            "promo_value" : "30",
+            "promo_per" : "/per person"
+        }'}}
+            {{> specialoffer }}
+        {{/parseJSON}}
+    </div>
+
+    <div class="l-padding-between-item-fill-white">
+        {{> atdwhighlights}}
+    </div>
+
+    <div class="l-padding-between-item-fill-white">
+        {{> categorylinks_state_victoria }}
+    </div>
+
+</div>

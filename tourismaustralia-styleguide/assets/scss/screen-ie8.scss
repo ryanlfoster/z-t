@@ -1,4 +1,4 @@
 /*breakpoint disabler for IE8*/
-$breakpoint-no-queries: true;
+$breakpoint-no-queries: false;
 
 @import "site/ie8-overrides.scss";

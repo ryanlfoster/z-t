@@ -1,3 +1,8 @@
+.image-ugc-container{
+  position: relative;
+  background: #FFF;
+  margin: 0 -15px;
+}
 
 .image-ugc {
 
@@ -76,7 +81,7 @@
 .image-content-container {
 
   position: initial;
-  margin-top: 178px;
+  margin-top: 220px;
   text-align: center;
   color: #231f20;
   padding: 15px;
@@ -234,5 +239,8 @@
 }
 
 .fullwidth-bg{
-    overflow: hidden;
-}
+   overflow: hidden;
+ }
+
+
+

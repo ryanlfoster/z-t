@@ -1,6 +1,123 @@
 <%@include file="/apps/tourismaustralia/components/global.jsp"%>
 
-<%-- Header --%>
+<div class="site-wrapper l-overflow-x-hidden">
+
+    
+<div class="no-js-message">Site Requires Javascript - turn on javascript!<br></div>
+
+    <header id="main-header">
+        
+<div id="nav-main-header" class="header bar-fixed-top">
+
+    
+
+    <div class="accessibility-links">
+        <a tabindex="1" class="sr-only vis-focusable" href="#main-content">Skip to content</a>
+        <a tabindex="2" class="sr-only vis-focusable" href="#main-footer">Skip to footer navigation</a>
+    </div>
+
+        
+
+        
+        <div class="nav-bar navigation-bar">
+            <div class="row l-center-1200">
+
+                
+                <div class="header-masthead">
+                    <a class="nav-bar-toggle" href="#nav-main-header">
+                        <span class="sr-only">Open Navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+
+                    <a class="logo-masthead" href="#" tabindex="-1">
+                        <img src="/etc/designs/tourismaustralia/clientlibs/img/logo/logo_australia_com.png" alt=""/>
+                    </a>
+                </div>
+                
+
+                <div class="main-nav-panel">
+                    
+                    <ul class="nav-bar-nav nav-bar-right">
+                        <li class="toggle-home vis-hidden-sm">
+                            <a href="#" tabindex="-1"><span class="icon icon-32 icon-home" aria-hidden="true"></span><span> Home</span></a>
+                        </li>
+                        <li id="nav-search-panel" class="toggle-search has-children">
+                            <a href="#nav-search-panel"><span class="icon icon-32 icon-search" aria-hidden="true"></span><span class="vis-hidden-sm"> Search</span></a>
+                            <ul class="nav-bar-panel">
+                                <li class="nav-bar-panel-content">
+                                    Mega menu content for "Search"
+                                </li>
+                            </ul>
+                        </li>
+                        <li id="nav-map-panel" class="toggle-map has-children">
+                            <a href="#nav-map-panel"><span class="icon icon-32 icon-map" aria-hidden="true"></span><span class="vis-hidden-sm"> Map</span></a>
+                            <ul class="nav-bar-panel">
+                                <li class="nav-bar-panel-content">
+                                    Mega menu content for "Map"
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="toggle-my-trip">
+                            <a href="#" tabindex="-1">
+                                <span class="icon icon-32 icon-heart circle" aria-hidden="true"></span>
+                                <span class="vis-hidden-sm">My Trip</span>
+                                    <span class="my-trip-count">
+                                        <span class="type-plus" aria-hidden="true"> +</span> 30
+                                    </span>
+                            </a>
+                        </li>
+                    </ul>
+                    
+
+                    
+                    <ul class="nav-bar-nav nav-bar-left">
+                        <li id="nav-things-to-do-panel" class="has-children">
+                            <a href="#nav-things-to-do-panel">Things to do</a>
+                            <ul class="nav-bar-panel">
+                                <li class="nav-bar-panel-content">
+                                    Mega menu content for "Thing to do"
+                                </li>
+                            </ul>
+                        </li>
+                        <li id="nav-where-to-go-panel" class="has-children">
+                            <a href="#nav-where-to-go-panel">Where to go</a>
+                            <ul class="nav-bar-panel">
+                                <li class="nav-bar-panel-content">
+                                    Mega menu content for "Where to go"
+                                </li>
+                            </ul>
+                        </li>
+                        <li id="nav-plan-your-trip-panel" class="has-children">
+                            <a href="#nav-plan-your-trip-panel">Plan your trip</a>
+                            <ul class="nav-bar-panel">
+                                <li class="nav-bar-panel-content">
+                                    Mega menu content for "Plan your trip"
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    
+
+                    
+                    <ul class="tool-bar mobile-open-bar bar-fixed-top">
+                        <li class="is-current"><a href="#">Holiday</a></li>
+                        <li><a href="#">Business</a></li>
+                        <li class="nav-bar-toggle"><a href="#"><span class="icon icon-close icon-32" aria-hidden="true"></span> <span class="sr-only">Close Navigation</span></a></li>
+                    </ul>
+                    
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    </header>
+    <!-- End #main-header -->
+
+    <div id="main-content">
 
 <%-- Hero --%>
 <cq:include path="hero" resourceType="tourismaustralia/components/content/hero"/>
@@ -102,771 +219,7 @@
 
 <%-- ATDW TEMPLATE --%>
 <div class="l-padding-between-item-fill-white">
-<div class="makeyourtriphappen-container">
-
-	<div class="section-intro">
-	    <div class="l-center-900">
-	        <h1 class="type-h1-responsive">
-	            MAKE YOUR TRIP HAPPEN
-	        </h1>
-	    </div>
-	    <div class="l-center-640 type-center">
-	        <p class="type-intro">
-	            You've come this far. Now let us help make your dream trip a reality. Choose from the options below and let your holiday take shape.
-	        </p>
-	    </div>
-	</div>
-    <div class="l-h-center section-buttons">
-
-        <!-- Select List For Mobile -->
-        <div class="section-buttons-mobile">
-            <div class="dropdown-select">
-			    <hr>
-			    <div class="dropdown-select-style">
-			        <select>
-	                    <option>Accommodation</option>
-	                    <option>Attractions</option>
-	                    <option>Restaurants</option>
-	                    <option>Tours</option>
-	                    <option>Hire</option>
-	                    <option>Events</option>
-	                    <option>Transport</option>
-			        </select>
-			    </div>
-			    <hr>
-			</div>
-        </div>
-
-
-        <!-- Buttons -->
-        <div class="section-buttons-desktop">
-
-            <a href="#" class="btn-bubble btn-bubble-min-width is-active">
-			        <span class="btn-bubble-button">
-			              <img class="btn-bubble-std" src="/etc/designs/tourismaustralia/clientlibs/img/icons/accommodation_outline.png" alt=""/>
-			              <img class="btn-bubble-active" src="/etc/designs/tourismaustralia/clientlibs/img/icons/accommodation.png" alt=""/>
-			        </span>
-			    <span class="type-below-btn">Accommodation</span>
-			</a>
-
-            <a href="#" class="btn-bubble btn-bubble-min-width">
-			        <span class="btn-bubble-button">
-			              <img class="btn-bubble-std" src="/etc/designs/tourismaustralia/clientlibs/img/icons/accommodation_outline.png" alt=""/>
-			              <img class="btn-bubble-active" src="/etc/designs/tourismaustralia/clientlibs/img/icons/attraction.png" alt=""/>
-			        </span>
-			    <span class="type-below-btn">Attractions</span>
-			</a>
-            <a href="#" class="btn-bubble btn-bubble-min-width">
-			        <span class="btn-bubble-button">
-			              <img class="btn-bubble-std" src="/etc/designs/tourismaustralia/clientlibs/img/icons/restaurant_outline.png" alt=""/>
-			              <img class="btn-bubble-active" src="/etc/designs/tourismaustralia/clientlibs/img/icons/restaurant.png" alt=""/>
-			        </span>
-			    <span class="type-below-btn">Restaurants</span>
-			</a>
-            <a href="#" class="btn-bubble btn-bubble-min-width">
-			        <span class="btn-bubble-button">
-			              <img class="btn-bubble-std" src="/etc/designs/tourismaustralia/clientlibs/img/icons/tours_outline.png" alt=""/>
-			              <img class="btn-bubble-active" src="/etc/designs/tourismaustralia/clientlibs/img/icons/tours.png" alt=""/>
-			        </span>
-			    <span class="type-below-btn">Tours</span>
-			</a>
-            <a href="#" class="btn-bubble btn-bubble-min-width">
-			        <span class="btn-bubble-button">
-			              <img class="btn-bubble-std" src="/etc/designs/tourismaustralia/clientlibs/img/icons/hire_outline.png" alt=""/>
-			              <img class="btn-bubble-active" src="/etc/designs/tourismaustralia/clientlibs/img/icons/hire.png" alt=""/>
-			        </span>
-			    <span class="type-below-btn">Hire</span>
-			</a>
-            <a href="#" class="btn-bubble btn-bubble-min-width">
-			        <span class="btn-bubble-button">
-			              <img class="btn-bubble-std" src="/etc/designs/tourismaustralia/clientlibs/img/icons/events_outline.png" alt=""/>
-			              <img class="btn-bubble-active" src="/etc/designs/tourismaustralia/clientlibs/img/icons/events.png" alt=""/>
-			        </span>
-			    <span class="type-below-btn">Events</span>
-			</a>
-            <a href="#" class="btn-bubble btn-bubble-min-width">
-			        <span class="btn-bubble-button">
-			              <img class="btn-bubble-std" src="/etc/designs/tourismaustralia/clientlibs/img/icons/transport_outline.png" alt=""/>
-			              <img class="btn-bubble-active" src="/etc/designs/tourismaustralia/clientlibs/img/icons/transport.png" alt=""/>
-			        </span>
-			    <span class="type-below-btn">Transport</span>
-			</a>
-        </div>
-
-    </div>
-
-    <div class="mosaic">
-    <div class="row l-row-collapse">
-        <div class="col-xs-12 col-sm-4">
-            <div class="row mosaic-3column-item-option">
-                <div class="mosaic-3column-item-container">
-				    <div class="row mosaic-3column-container">
-				        <div class="col-xs-6">
-				            <div>
-				                <div class="mosaic-media">
-				                    <img src="/etc/designs/tourismaustralia/clientlibs/img/mosaic/img11.jpg" alt=""/>
-				                </div>
-				            </div>
-				        </div>
-				
-				        <div class="col-xs-6 mosaic-3column-front-back-container flip-container">
-				
-				            <div class="mosaic-3column-front flip-front-fade">
-				                <div class="mosaic-3column-media theme-mosaic-3column-front l-padding-t-15">
-				                    <img src="/etc/designs/tourismaustralia/clientlibs/img/logo/logo_tqual_black.png" alt=""/>
-				                    <p>front</p>
-				                </div>
-				            </div>
-				
-				            <div class="mosaic-3column-back flip-back-fade">
-				                <div class="mosaic-3column-media theme-mosaic-3column-back l-padding-t-15">
-				                    <img src="/etc/designs/tourismaustralia/clientlibs/img/logo/logo_tqual_white.png" alt=""/>
-				                    <p>back</p>
-				                </div>
-				            </div>
-				
-				        </div>
-				
-				    </div>
-				
-				    <div class="row mosaic-3column-item-content">
-				        <div class="mosaic-item-detail-container">
-						    <div class="mosaic-item-container">
-						
-						        <div class="l-h-center type-spacing-20">
-						            <img src="/etc/designs/tourismaustralia/clientlibs/img/icons/art_culture.png">
-						        </div>
-						
-						        <div class="line-through-container">
-								    <div class="line-through"><span class="line-through-hr"></span></div>
-								    <div class="line-through-container-biline">
-										Virgin Australia Fashion Festival
-								    </div>
-								    <div class="line-through"><span class="line-through-hr"></span></div>
-								</div>
-						
-						        <div class="l-h-center l-padding-tb-30-lr-15">
-						
-						            <p>You'll love the blue-hazed beauty of the Blue Mountains World Heritage Area - one million hectares of tall forests, sandstone cliffs, canyons, waterfalls and bushland. Take in the breathtaking panoramas...</p>
-						
-						            <a href="#" class="btn-bubble bubble-colour-favourite">
-						                <span class="btn-bubble-tooltip">
-						                    <span class="btn-bubble-tooltip-container">
-						                        Add to your dream trip
-						                    </span>
-						                </span>
-						                <span class="btn-bubble-button">
-						                    <img class="btn-bubble-std" src="/etc/designs/tourismaustralia/clientlibs/img/icons/favourite_outline.png" alt=""/>
-						                    <img class="btn-bubble-active" src="/etc/designs/tourismaustralia/clientlibs/img/icons/favourite.png" alt=""/>
-						                </span>
-						            </a>
-						
-						        </div>
-						    </div>
-						</div>
-				    </div>
-				
-				</div>
-            </div>
-        </div>
-
-        <div class="col-xs-12 col-sm-4">
-            <div class="row mosaic-3column-item-option">
-                <div class="mosaic-3column-item-container">
-				    <div class="row mosaic-3column-container">
-				        <div class="col-xs-6">
-				            <div>
-				                <div class="mosaic-media">
-				                    <img src="/etc/designs/tourismaustralia/clientlibs/img/mosaic/img11.jpg" alt=""/>
-				                </div>
-				            </div>
-				        </div>
-				
-				        <div class="col-xs-6 mosaic-3column-front-back-container flip-container">
-				
-				            <div class="mosaic-3column-front flip-front-fade">
-				                <div class="mosaic-3column-media theme-mosaic-3column-front l-padding-t-15">
-				                    <img src="/etc/designs/tourismaustralia/clientlibs/img/logo/logo_tqual_black.png" alt=""/>
-				                    <p>front</p>
-				                </div>
-				            </div>
-				
-				            <div class="mosaic-3column-back flip-back-fade">
-				                <div class="mosaic-3column-media theme-mosaic-3column-back l-padding-t-15">
-				                    <img src="/etc/designs/tourismaustralia/clientlibs/img/logo/logo_tqual_white.png" alt=""/>
-				                    <p>back</p>
-				                </div>
-				            </div>
-				
-				        </div>
-				
-				    </div>
-				
-				    <div class="row mosaic-3column-item-content">
-				        <div class="mosaic-item-detail-container">
-						    <div class="mosaic-item-container">
-						
-						        <div class="l-h-center type-spacing-20">
-						            <img src="/etc/designs/tourismaustralia/clientlibs/img/icons/art_culture.png">
-						        </div>
-						
-						        <div class="line-through-container">
-								    <div class="line-through"><span class="line-through-hr"></span></div>
-								    <div class="line-through-container-biline">
-										Virgin Australia Fashion Festival
-								    </div>
-								    <div class="line-through"><span class="line-through-hr"></span></div>
-								</div>
-						
-						        <div class="l-h-center l-padding-tb-30-lr-15">
-						
-						            <p>You'll love the blue-hazed beauty of the Blue Mountains World Heritage Area - one million hectares of tall forests, sandstone cliffs, canyons, waterfalls and bushland. Take in the breathtaking panoramas...</p>
-						
-						            <a href="#" class="btn-bubble bubble-colour-favourite">
-						                <span class="btn-bubble-tooltip">
-						                    <span class="btn-bubble-tooltip-container">
-						                        Add to your dream trip
-						                    </span>
-						                </span>
-						                <span class="btn-bubble-button">
-						                    <img class="btn-bubble-std" src="/etc/designs/tourismaustralia/clientlibs/img/icons/favourite_outline.png" alt=""/>
-						                    <img class="btn-bubble-active" src="/etc/designs/tourismaustralia/clientlibs/img/icons/favourite.png" alt=""/>
-						                </span>
-						            </a>
-						
-						        </div>
-						    </div>
-						</div>
-				    </div>
-				
-				</div>
-            </div>
-        </div>
-
-        <div class="col-xs-12 col-sm-4">
-            <div class="row mosaic-3column-item-option">
-                <div class="mosaic-3column-item-container">
-				    <div class="row mosaic-3column-container">
-				        <div class="col-xs-6">
-				            <div>
-				                <div class="mosaic-media">
-				                    <img src="/etc/designs/tourismaustralia/clientlibs/img/mosaic/img11.jpg" alt=""/>
-				                </div>
-				            </div>
-				        </div>
-				
-				        <div class="col-xs-6 mosaic-3column-front-back-container flip-container">
-				
-				            <div class="mosaic-3column-front flip-front-fade">
-				                <div class="mosaic-3column-media theme-mosaic-3column-front l-padding-t-15">
-				                    <img src="/etc/designs/tourismaustralia/clientlibs/img/logo/logo_tqual_black.png" alt=""/>
-				                    <p>front</p>
-				                </div>
-				            </div>
-				
-				            <div class="mosaic-3column-back flip-back-fade">
-				                <div class="mosaic-3column-media theme-mosaic-3column-back l-padding-t-15">
-				                    <img src="/etc/designs/tourismaustralia/clientlibs/img/logo/logo_tqual_white.png" alt=""/>
-				                    <p>back</p>
-				                </div>
-				            </div>
-				
-				        </div>
-				
-				    </div>
-				
-				    <div class="row mosaic-3column-item-content">
-				        <div class="mosaic-item-detail-container">
-						    <div class="mosaic-item-container">
-						
-						        <div class="l-h-center type-spacing-20">
-						            <img src="/etc/designs/tourismaustralia/clientlibs/img/icons/art_culture.png">
-						        </div>
-						
-						        <div class="line-through-container">
-								    <div class="line-through"><span class="line-through-hr"></span></div>
-								    <div class="line-through-container-biline">
-										Virgin Australia Fashion Festival
-								    </div>
-								    <div class="line-through"><span class="line-through-hr"></span></div>
-								</div>
-						
-						        <div class="l-h-center l-padding-tb-30-lr-15">
-						
-						            <p>You'll love the blue-hazed beauty of the Blue Mountains World Heritage Area - one million hectares of tall forests, sandstone cliffs, canyons, waterfalls and bushland. Take in the breathtaking panoramas...</p>
-						
-						            <a href="#" class="btn-bubble bubble-colour-favourite">
-						                <span class="btn-bubble-tooltip">
-						                    <span class="btn-bubble-tooltip-container">
-						                        Add to your dream trip
-						                    </span>
-						                </span>
-						                <span class="btn-bubble-button">
-						                    <img class="btn-bubble-std" src="/etc/designs/tourismaustralia/clientlibs/img/icons/favourite_outline.png" alt=""/>
-						                    <img class="btn-bubble-active" src="/etc/designs/tourismaustralia/clientlibs/img/icons/favourite.png" alt=""/>
-						                </span>
-						            </a>
-						
-						        </div>
-						    </div>
-						</div>
-				    </div>
-				
-				</div>
-            </div>
-        </div>
-    </div>
-
-    <div class="row l-row-collapse">
-        <div class="col-xs-12 col-sm-4">
-            <div class="row mosaic-3column-item-option">
-                <div class="mosaic-3column-item-container">
-				    <div class="row mosaic-3column-container">
-				        <div class="col-xs-6">
-				            <div>
-				                <div class="mosaic-media">
-				                    <img src="/etc/designs/tourismaustralia/clientlibs/img/mosaic/img11.jpg" alt=""/>
-				                </div>
-				            </div>
-				        </div>
-				
-				        <div class="col-xs-6 mosaic-3column-front-back-container flip-container">
-				
-				            <div class="mosaic-3column-front flip-front-fade">
-				                <div class="mosaic-3column-media theme-mosaic-3column-front l-padding-t-15">
-				                    <img src="/etc/designs/tourismaustralia/clientlibs/img/logo/logo_tqual_black.png" alt=""/>
-				                    <p>front</p>
-				                </div>
-				            </div>
-				
-				            <div class="mosaic-3column-back flip-back-fade">
-				                <div class="mosaic-3column-media theme-mosaic-3column-back l-padding-t-15">
-				                    <img src="/etc/designs/tourismaustralia/clientlibs/img/logo/logo_tqual_white.png" alt=""/>
-				                    <p>back</p>
-				                </div>
-				            </div>
-				
-				        </div>
-				
-				    </div>
-				
-				    <div class="row mosaic-3column-item-content">
-				        <div class="mosaic-item-detail-container">
-						    <div class="mosaic-item-container">
-						
-						        <div class="l-h-center type-spacing-20">
-						            <img src="/etc/designs/tourismaustralia/clientlibs/img/icons/art_culture.png">
-						        </div>
-						
-						        <div class="line-through-container">
-								    <div class="line-through"><span class="line-through-hr"></span></div>
-								    <div class="line-through-container-biline">
-										Virgin Australia Fashion Festival
-								    </div>
-								    <div class="line-through"><span class="line-through-hr"></span></div>
-								</div>
-						
-						        <div class="l-h-center l-padding-tb-30-lr-15">
-						
-						            <p>You'll love the blue-hazed beauty of the Blue Mountains World Heritage Area - one million hectares of tall forests, sandstone cliffs, canyons, waterfalls and bushland. Take in the breathtaking panoramas...</p>
-						
-						            <a href="#" class="btn-bubble bubble-colour-favourite">
-						                <span class="btn-bubble-tooltip">
-						                    <span class="btn-bubble-tooltip-container">
-						                        Add to your dream trip
-						                    </span>
-						                </span>
-						                <span class="btn-bubble-button">
-						                    <img class="btn-bubble-std" src="/etc/designs/tourismaustralia/clientlibs/img/icons/favourite_outline.png" alt=""/>
-						                    <img class="btn-bubble-active" src="/etc/designs/tourismaustralia/clientlibs/img/icons/favourite.png" alt=""/>
-						                </span>
-						            </a>
-						
-						        </div>
-						    </div>
-						</div>
-				    </div>
-				
-				</div>
-            </div>
-        </div>
-
-        <div class="col-xs-12 col-sm-4">
-            <div class="row mosaic-3column-item-option">
-                <div class="mosaic-3column-item-container">
-				    <div class="row mosaic-3column-container">
-				        <div class="col-xs-6">
-				            <div>
-				                <div class="mosaic-media">
-				                    <img src="/etc/designs/tourismaustralia/clientlibs/img/mosaic/img11.jpg" alt=""/>
-				                </div>
-				            </div>
-				        </div>
-				
-				        <div class="col-xs-6 mosaic-3column-front-back-container flip-container">
-				
-				            <div class="mosaic-3column-front flip-front-fade">
-				                <div class="mosaic-3column-media theme-mosaic-3column-front l-padding-t-15">
-				                    <img src="/etc/designs/tourismaustralia/clientlibs/img/logo/logo_tqual_black.png" alt=""/>
-				                    <p>front</p>
-				                </div>
-				            </div>
-				
-				            <div class="mosaic-3column-back flip-back-fade">
-				                <div class="mosaic-3column-media theme-mosaic-3column-back l-padding-t-15">
-				                    <img src="/etc/designs/tourismaustralia/clientlibs/img/logo/logo_tqual_white.png" alt=""/>
-				                    <p>back</p>
-				                </div>
-				            </div>
-				
-				        </div>
-				
-				    </div>
-				
-				    <div class="row mosaic-3column-item-content">
-				        <div class="mosaic-item-detail-container">
-						    <div class="mosaic-item-container">
-						
-						        <div class="l-h-center type-spacing-20">
-						            <img src="/etc/designs/tourismaustralia/clientlibs/img/icons/art_culture.png">
-						        </div>
-						
-						        <div class="line-through-container">
-								    <div class="line-through"><span class="line-through-hr"></span></div>
-								    <div class="line-through-container-biline">
-										Virgin Australia Fashion Festival
-								    </div>
-								    <div class="line-through"><span class="line-through-hr"></span></div>
-								</div>
-						
-						        <div class="l-h-center l-padding-tb-30-lr-15">
-						
-						            <p>You'll love the blue-hazed beauty of the Blue Mountains World Heritage Area - one million hectares of tall forests, sandstone cliffs, canyons, waterfalls and bushland. Take in the breathtaking panoramas...</p>
-						
-						            <a href="#" class="btn-bubble bubble-colour-favourite">
-						                <span class="btn-bubble-tooltip">
-						                    <span class="btn-bubble-tooltip-container">
-						                        Add to your dream trip
-						                    </span>
-						                </span>
-						                <span class="btn-bubble-button">
-						                    <img class="btn-bubble-std" src="/etc/designs/tourismaustralia/clientlibs/img/icons/favourite_outline.png" alt=""/>
-						                    <img class="btn-bubble-active" src="/etc/designs/tourismaustralia/clientlibs/img/icons/favourite.png" alt=""/>
-						                </span>
-						            </a>
-						
-						        </div>
-						    </div>
-						</div>
-				    </div>
-				
-				</div>
-            </div>
-        </div>
-
-        <div class="col-xs-12 col-sm-4">
-            <div class="row mosaic-3column-item-option">
-                <div class="mosaic-3column-item-container">
-				    <div class="row mosaic-3column-container">
-				        <div class="col-xs-6">
-				            <div>
-				                <div class="mosaic-media">
-				                    <img src="/etc/designs/tourismaustralia/clientlibs/img/mosaic/img11.jpg" alt=""/>
-				                </div>
-				            </div>
-				        </div>
-				
-				        <div class="col-xs-6 mosaic-3column-front-back-container flip-container">
-				
-				            <div class="mosaic-3column-front flip-front-fade">
-				                <div class="mosaic-3column-media theme-mosaic-3column-front l-padding-t-15">
-				                    <img src="/etc/designs/tourismaustralia/clientlibs/img/logo/logo_tqual_black.png" alt=""/>
-				                    <p>front</p>
-				                </div>
-				            </div>
-				
-				            <div class="mosaic-3column-back flip-back-fade">
-				                <div class="mosaic-3column-media theme-mosaic-3column-back l-padding-t-15">
-				                    <img src="/etc/designs/tourismaustralia/clientlibs/img/logo/logo_tqual_white.png" alt=""/>
-				                    <p>back</p>
-				                </div>
-				            </div>
-				
-				        </div>
-				
-				    </div>
-				
-				    <div class="row mosaic-3column-item-content">
-						<div class="mosaic-item-detail-container">
-						    <div class="mosaic-item-container">
-						
-						        <div class="l-h-center type-spacing-20">
-						            <img src="/etc/designs/tourismaustralia/clientlibs/img/icons/art_culture.png">
-						        </div>
-						
-						        <div class="line-through-container">
-								    <div class="line-through"><span class="line-through-hr"></span></div>
-								    <div class="line-through-container-biline">
-										Virgin Australia Fashion Festival
-								    </div>
-								    <div class="line-through"><span class="line-through-hr"></span></div>
-								</div>
-						
-						        <div class="l-h-center l-padding-tb-30-lr-15">
-						
-						            <p>You'll love the blue-hazed beauty of the Blue Mountains World Heritage Area - one million hectares of tall forests, sandstone cliffs, canyons, waterfalls and bushland. Take in the breathtaking panoramas...</p>
-						
-						            <a href="#" class="btn-bubble bubble-colour-favourite">
-						                <span class="btn-bubble-tooltip">
-						                    <span class="btn-bubble-tooltip-container">
-						                        Add to your dream trip
-						                    </span>
-						                </span>
-						                <span class="btn-bubble-button">
-						                    <img class="btn-bubble-std" src="/etc/designs/tourismaustralia/clientlibs/img/icons/favourite_outline.png" alt=""/>
-						                    <img class="btn-bubble-active" src="/etc/designs/tourismaustralia/clientlibs/img/icons/favourite.png" alt=""/>
-						                </span>
-						            </a>
-						
-						        </div>
-						    </div>
-						</div>
-				    </div>
-				
-				</div>
-            </div>
-        </div>
-    </div>
-
-    <div class="row l-row-collapse">
-        <div class="col-xs-12 col-sm-4">
-            <div class="row mosaic-3column-item-option">
-                <div class="mosaic-3column-item-container">
-				    <div class="row mosaic-3column-container">
-				        <div class="col-xs-6">
-				            <div>
-				                <div class="mosaic-media">
-				                    <img src="/etc/designs/tourismaustralia/clientlibs/img/mosaic/img11.jpg" alt=""/>
-				                </div>
-				            </div>
-				        </div>
-				
-				        <div class="col-xs-6 mosaic-3column-front-back-container flip-container">
-				
-				            <div class="mosaic-3column-front flip-front-fade">
-				                <div class="mosaic-3column-media theme-mosaic-3column-front l-padding-t-15">
-				                    <img src="/etc/designs/tourismaustralia/clientlibs/img/logo/logo_tqual_black.png" alt=""/>
-				                    <p>front</p>
-				                </div>
-				            </div>
-				
-				            <div class="mosaic-3column-back flip-back-fade">
-				                <div class="mosaic-3column-media theme-mosaic-3column-back l-padding-t-15">
-				                    <img src="/etc/designs/tourismaustralia/clientlibs/img/logo/logo_tqual_white.png" alt=""/>
-				                    <p>back</p>
-				                </div>
-				            </div>
-				
-				        </div>
-				
-				    </div>
-				
-				    <div class="row mosaic-3column-item-content">
-				        <div class="mosaic-item-detail-container">
-						    <div class="mosaic-item-container">
-						
-						        <div class="l-h-center type-spacing-20">
-						            <img src="/etc/designs/tourismaustralia/clientlibs/img/icons/art_culture.png">
-						        </div>
-						
-						        <div class="line-through-container">
-								    <div class="line-through"><span class="line-through-hr"></span></div>
-								    <div class="line-through-container-biline">
-										Virgin Australia Fashion Festival
-								    </div>
-								    <div class="line-through"><span class="line-through-hr"></span></div>
-								</div>
-						
-						        <div class="l-h-center l-padding-tb-30-lr-15">
-						
-						            <p>You'll love the blue-hazed beauty of the Blue Mountains World Heritage Area - one million hectares of tall forests, sandstone cliffs, canyons, waterfalls and bushland. Take in the breathtaking panoramas...</p>
-						
-						            <a href="#" class="btn-bubble bubble-colour-favourite">
-						                <span class="btn-bubble-tooltip">
-						                    <span class="btn-bubble-tooltip-container">
-						                        Add to your dream trip
-						                    </span>
-						                </span>
-						                <span class="btn-bubble-button">
-						                    <img class="btn-bubble-std" src="/etc/designs/tourismaustralia/clientlibs/img/icons/favourite_outline.png" alt=""/>
-						                    <img class="btn-bubble-active" src="/etc/designs/tourismaustralia/clientlibs/img/icons/favourite.png" alt=""/>
-						                </span>
-						            </a>
-						
-						        </div>
-						    </div>
-						</div>
-				    </div>
-				
-				</div>
-            </div>
-        </div>
-
-        <div class="col-xs-12 col-sm-4">
-            <div class="row mosaic-3column-item-option">
-                <div class="row mosaic-3column-container">
-				    <div class="row mosaic-3column-container">
-				        <div class="col-xs-6">
-				            <div>
-				                <div class="mosaic-media">
-				                    <img src="/etc/designs/tourismaustralia/clientlibs/img/mosaic/img11.jpg" alt=""/>
-				                </div>
-				            </div>
-				        </div>
-				
-				        <div class="col-xs-6 mosaic-3column-front-back-container flip-container">
-				
-				            <div class="mosaic-3column-front flip-front-fade">
-				                <div class="mosaic-3column-media theme-mosaic-3column-front l-padding-t-15">
-				                    <img src="/etc/designs/tourismaustralia/clientlibs/img/logo/logo_tqual_black.png" alt=""/>
-				                    <p>front</p>
-				                </div>
-				            </div>
-				
-				            <div class="mosaic-3column-back flip-back-fade">
-				                <div class="mosaic-3column-media theme-mosaic-3column-back l-padding-t-15">
-				                    <img src="/etc/designs/tourismaustralia/clientlibs/img/logo/logo_tqual_white.png" alt=""/>
-				                    <p>back</p>
-				                </div>
-				            </div>
-				
-				        </div>
-				
-				    </div>
-				
-				    <div class="row mosaic-3column-item-content">
-						<div class="mosaic-item-detail-container">
-						    <div class="mosaic-item-container">
-						
-						        <div class="l-h-center type-spacing-20">
-						            <img src="/etc/designs/tourismaustralia/clientlibs/img/icons/art_culture.png">
-						        </div>
-						
-						        <div class="line-through-container">
-								    <div class="line-through"><span class="line-through-hr"></span></div>
-								    <div class="line-through-container-biline">
-										Virgin Australia Fashion Festival
-								    </div>
-								    <div class="line-through"><span class="line-through-hr"></span></div>
-								</div>
-						
-						        <div class="l-h-center l-padding-tb-30-lr-15">
-						
-						            <p>You'll love the blue-hazed beauty of the Blue Mountains World Heritage Area - one million hectares of tall forests, sandstone cliffs, canyons, waterfalls and bushland. Take in the breathtaking panoramas...</p>
-						
-						            <a href="#" class="btn-bubble bubble-colour-favourite">
-						                <span class="btn-bubble-tooltip">
-						                    <span class="btn-bubble-tooltip-container">
-						                        Add to your dream trip
-						                    </span>
-						                </span>
-						                <span class="btn-bubble-button">
-						                    <img class="btn-bubble-std" src="/etc/designs/tourismaustralia/clientlibs/img/icons/favourite_outline.png" alt=""/>
-						                    <img class="btn-bubble-active" src="/etc/designs/tourismaustralia/clientlibs/img/icons/favourite.png" alt=""/>
-						                </span>
-						            </a>
-						
-						        </div>
-						    </div>
-						</div>
-				    </div>
-				
-				</div>
-            </div>
-        </div>
-
-        <div class="col-xs-12 col-sm-4">
-            <div class="row mosaic-3column-item-option">
-                <div class="row mosaic-3column-container">
-				    <div class="row mosaic-3column-container">
-				        <div class="col-xs-6">
-				            <div>
-				                <div class="mosaic-media">
-				                    <img src="/etc/designs/tourismaustralia/clientlibs/img/mosaic/img11.jpg" alt=""/>
-				                </div>
-				            </div>
-				        </div>
-				
-				        <div class="col-xs-6 mosaic-3column-front-back-container flip-container">
-				
-				            <div class="mosaic-3column-front flip-front-fade">
-				                <div class="mosaic-3column-media theme-mosaic-3column-front l-padding-t-15">
-				                    <img src="/etc/designs/tourismaustralia/clientlibs/img/logo/logo_tqual_black.png" alt=""/>
-				                    <p>front</p>
-				                </div>
-				            </div>
-				
-				            <div class="mosaic-3column-back flip-back-fade">
-				                <div class="mosaic-3column-media theme-mosaic-3column-back l-padding-t-15">
-				                    <img src="/etc/designs/tourismaustralia/clientlibs/img/logo/logo_tqual_white.png" alt=""/>
-				                    <p>back</p>
-				                </div>
-				            </div>
-				
-				        </div>
-				
-				    </div>
-				
-				    <div class="row mosaic-3column-item-content">
-						<div class="mosaic-item-detail-container">
-						    <div class="mosaic-item-container">
-						
-						        <div class="l-h-center type-spacing-20">
-						            <img src="/etc/designs/tourismaustralia/clientlibs/img/icons/art_culture.png">
-						        </div>
-						
-						        <div class="line-through-container">
-								    <div class="line-through"><span class="line-through-hr"></span></div>
-								    <div class="line-through-container-biline">
-										Virgin Australia Fashion Festival
-								    </div>
-								    <div class="line-through"><span class="line-through-hr"></span></div>
-								</div>
-						
-						        <div class="l-h-center l-padding-tb-30-lr-15">
-						
-						            <p>You'll love the blue-hazed beauty of the Blue Mountains World Heritage Area - one million hectares of tall forests, sandstone cliffs, canyons, waterfalls and bushland. Take in the breathtaking panoramas...</p>
-						
-						            <a href="#" class="btn-bubble bubble-colour-favourite">
-						                <span class="btn-bubble-tooltip">
-						                    <span class="btn-bubble-tooltip-container">
-						                        Add to your dream trip
-						                    </span>
-						                </span>
-						                <span class="btn-bubble-button">
-						                    <img class="btn-bubble-std" src="/etc/designs/tourismaustralia/clientlibs/img/icons/favourite_outline.png" alt=""/>
-						                    <img class="btn-bubble-active" src="/etc/designs/tourismaustralia/clientlibs/img/icons/favourite.png" alt=""/>
-						                </span>
-						            </a>
-						
-						        </div>
-						    </div>
-						</div>
-				    </div>
-				
-				</div>
-            </div>
-        </div>
-    </div>
-
-</div>
-
-    <div class="l-h-center">
-        <a href="#" class="btn-primary">View all accommodation</a>
-    </div>
-
-
-</div>
+	<cq:include path="AtdwHighlights" resourceType="tourismaustralia/components/content/atdwHighlights"/>
 </div>
 
 <%-- Category Links --%>
@@ -934,8 +287,11 @@
 </div>
 </div>
 
+</div>
+
 
 <%-- FOOTER --%>
+<footer id="main-footer" class="site-footer">
 <div class="footer-container">
     <div class="footer">
 
@@ -993,5 +349,31 @@
 
     </div>
 </div>
+</footer>
+<!-- End #main-footer -->
+
+<script type="text/javascript" src="etc/designs/tourismaustralia/clientlibs/js/vendor/owl-carousel/owl.carousel.js"></script>
+<script src="etc/designs/tourismaustralia/clientlibs/js/src/modules/jquery.ta.carousel.js"></script>
+<script src="etc/designs/tourismaustralia/clientlibs/js/vendor/skrollr.js"></script>
+<script src="etc/designs/tourismaustralia/clientlibs/js/vendor/responsive-images/jquery.picturefill.js"></script>
+<script src="etc/designs/tourismaustralia/clientlibs/js/vendor/responsive-images/mediamatch.js"></script>
+<script src="etc/designs/tourismaustralia/clientlibs/js/src/modules/jquery.ta.flipcard.js"></script>
+<script src="etc/designs/tourismaustralia/clientlibs/js/src/modules/jquery.ta.mosaic.js"></script>
+<script src="etc/designs/tourismaustralia/clientlibs/js/src/modules/jquery.ta.fullwidthbg.js"></script>
+<script src="etc/designs/tourismaustralia/clientlibs/js/src/modules/jquery.ta.parallax.js"></script>
+<script src="etc/designs/tourismaustralia/clientlibs/js/src/helper/responsive.image.helper.js"></script>
+
+<script>
+    //Hack for mobile detection
+    function checkPlatform() {
+        return (/Android|iPhone|iPad|iPod|BlackBerry/i).test(navigator.userAgent || navigator.vendor || window.opera);
+    }
+    
+    $(window).load(function(){
+    	if(!checkPlatform()) {
+    		var s = skrollr.init();
+    	 }
+    });
+</script>
 
 

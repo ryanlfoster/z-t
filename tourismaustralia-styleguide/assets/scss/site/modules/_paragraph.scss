@@ -4,8 +4,11 @@
 //Unable to apply class directly to paragraph this needs to be targeted specifically without impacting other modules
 //Todo - May need to target the AEM "CQ" div that gets wrapped around the p target to ensure there is minimal implact.
 
-.paragraph-article {
+.paragraph-icon, .paragraph-city, .paragraph-state, .paragraph-article {
   background: #fff;
+}
+
+.paragraph-article {
 
   //CMS implementation
   & > .text >  p {
@@ -41,7 +44,6 @@
 
 // same styles applied for testing with styleguide
 .styleguide .paragraph-article {
-  background: #fff;
   z-index: 200;
 
   //CMS implementation
@@ -74,8 +76,4 @@
 
   }
 
-}
-
-.paragraph-icon {
-  background: #fff;
 }

@@ -29,38 +29,44 @@ layout: layout-base.hbs
     {{/parseJSON}}
 </div>
 
-<div class="l-padding-between-item-fill-white">
-    {{> whatyoucansee_state}}
-</div>
+<div class="paragraph-state">
 
-{{> image_with_button_social }}
+    <div class="l-padding-between-item-fill-white">
+        {{> whatyoucansee_state}}
+    </div>
 
-<div class="l-padding-between-item-fill-white">
-    {{> mapimagewithlinks }}
-</div>
+    <div class="l-padding-between-item-fill-white">
+        {{> image_with_button_social }}
+    </div>
 
-<div class="l-padding-between-item-fill-white">
-    {{> explore }}
-</div>
+    <div class="l-padding-between-item-fill-white">
+        {{> mapimagewithlinks }}
+    </div>
 
-<div class="l-padding-between-item-fill-white">
-    {{#parseJSON '{
-        "promo_image" : "specialoffer",
-        "promo_title" : "The old bar",
-        "promo_text" : [
-            {"para" : "Stay in Melbourne and come down to The Old Bar to watch bands play live music 7 nights a week."}
-        ],
-        "promo_value" : "30",
-        "promo_per" : "/per person"
-    }'}}
-        {{> specialoffer }}
-    {{/parseJSON}}
-</div>
+    <div class="l-padding-between-item-fill-white">
+        {{> explore }}
+    </div>
 
-<div class="l-padding-between-item-fill-white">
-    {{> atdwhighlights}}
-</div>
+    <div class="l-padding-between-item-fill-white">
+        {{#parseJSON '{
+            "promo_image" : "specialoffer",
+            "promo_title" : "The old bar",
+            "promo_text" : [
+                {"para" : "Stay in Melbourne and come down to The Old Bar to watch bands play live music 7 nights a week."}
+            ],
+            "promo_value" : "30",
+            "promo_per" : "/per person"
+        }'}}
+            {{> specialoffer }}
+        {{/parseJSON}}
+    </div>
 
-<div class="l-padding-between-item-fill-white">
-    {{> categorylinks_state_victoria }}
+    <div class="l-padding-between-item-fill-white">
+        {{> atdwhighlights}}
+    </div>
+
+    <div class="l-padding-between-item-fill-white">
+        {{> categorylinks_state_victoria }}
+    </div>
+
 </div>

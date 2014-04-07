@@ -12,11 +12,6 @@
   }
 }
 
-a {
-  -webkit-user-select: none;
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
-}
-
 .btn-primary {
   padding: pxtoem(7px) pxtoem(20px);
   @include type_TAheadline();
@@ -26,8 +21,6 @@ a {
   border: 1px solid #00535e;
   background: #FFF;
   text-decoration: none;
-  //position: relative;
-  //top: -48px;
   &:visited, &:link, &:visited, &:active, &:focus  {
     color: #00535e;
     border: 1px solid #00535e;
@@ -40,8 +33,6 @@ a {
     background: #00535e;
     text-decoration: none;
   }
-
-
 }
 
 .btn-primary.alt {
@@ -56,14 +47,11 @@ a {
 }
 .btn-primary.disabled {
   color: #FFF;
+  background: #7B9CA0;
 }
 
-
-
-
-
 .btn-default {
-  border-bottom:pxtoem(3px) solid #528a97;
+  border-bottom: pxtoem(3px) solid #528a97;
 }
 .btn-default {
   &:hover, &:focus {
@@ -71,23 +59,6 @@ a {
     border-bottom-color: #397583;
   }
 }
-
-
-/*
-.btn-info {
-  font-family: "ProximaNova RegularIt";
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 17px;
-  padding-right: 17px;
-}
-
-.btn-info {
-  &:hover, &:focus {
-    background: #efc031;
-  }
-}
-*/
 
 .btn-tag-item {
   padding: pxtoem(10px) pxtoem(20px);
@@ -100,11 +71,11 @@ a {
 }
 
 a.btn-tag-item {
-    &:hover, &:focus {
-        background: #efc032;
-        border: 1px solid #efc032;
-        text-decoration: none;
-    }
+  &:hover, &:focus {
+    background: #efc032;
+    border: 1px solid #efc032;
+    text-decoration: none;
+  }
 }
 
 .btn-round-video {
@@ -145,7 +116,7 @@ a.btn-tag-item {
   .type-below-btn {
     margin-top: 5px;
     display: block;
-      color: $type-base-black;
+    color: $type-base-black;
   }
 }
 .btn-category-extra-space {
@@ -220,7 +191,7 @@ a.btn-tag-item {
   text-align: center;
 
   img{ margin:0 auto;}
-  
+
   .btn-bubble-tooltip {
     //visibility: hidden;
     display: none;
@@ -313,17 +284,17 @@ a.btn-tag-item {
   position: relative;
   min-height: 3em;
 
-    cursor: pointer;
+  cursor: pointer;
 
-    // undo sharethis defaults
-    .stButton {
-        margin: 0!important;
-        font-size: 1px;
-        line-height: 1px;
-        span {
-            display:none;
-        }
+  // undo sharethis defaults
+  .stButton {
+    margin: 0!important;
+    font-size: 1px;
+    line-height: 1px;
+    span {
+      display:none;
     }
+  }
 
 }
 

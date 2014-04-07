@@ -1,0 +1,41 @@
+---
+title: Mosaic Item - Events
+---
+
+<div class="mosaic-item">
+    <div class="mosaic-front-back-container flip-container">
+        <div class="flipper">
+
+            <div class="mosaic-column-front flip-front">
+                <div class="mosaic-media mosaic-primary">
+                    <img src="imgs/mosaic/img10.jpg" alt=""/>
+                </div>
+                <div class="mosaic-overlay">
+                    <div class="vertical-container">
+                        <div class="vertical-content text-center">
+                            <div class="type-date-mosaic">
+                                <span class="month">January</span> <span class="day">30</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mosaic-column-back mosaic-content flip-back mosaic-back theme-arts">
+                <div class="vertical-container">
+                    <div class="vertical-content text-center">
+                        {{#parseJSON '{"src": "imgs/icons/art_culture_white_outline.png"}'}}
+                            {{> icon_generic }}
+                        {{/parseJSON}}
+                        <p class="type-destination line-through-line-wrapper">Sydney Festival</p>
+                        <p class="type-date">January 5 - 27</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    {{> mosaicitem_detail }}
+
+</div>

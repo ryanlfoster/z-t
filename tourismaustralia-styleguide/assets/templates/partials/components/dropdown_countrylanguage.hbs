@@ -1,0 +1,18 @@
+---
+title: DropDown Country Language
+---
+
+<div class="dropdown-select-countrylanguage">
+    <div class="dropdown-select-countrylanguage-style">
+        <select>
+            {{#if data}}
+                {{#each data}}
+                    <option>{{option}}</option>
+                {{/each}}
+            {{else}}
+                <option>Option 1</option>
+                <option>Option 2</option>
+            {{/if}}
+        </select>
+    </div>
+</div>

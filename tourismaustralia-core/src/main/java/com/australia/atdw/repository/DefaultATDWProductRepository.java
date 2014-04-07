@@ -25,11 +25,9 @@ import org.apache.sling.jcr.resource.JcrResourceConstants;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import javax.jcr.*;
-import javax.jcr.lock.LockException;
-import javax.jcr.nodetype.ConstraintViolationException;
-import javax.jcr.nodetype.NoSuchNodeTypeException;
-import javax.jcr.version.VersionException;
+import javax.jcr.Node;
+import javax.jcr.RepositoryException;
+import javax.jcr.Session;
 import java.util.*;
 
 @Component(label = "ATDW Product Repository", description = "ATDW Product Repository", immediate = true)
@@ -148,23 +146,7 @@ public class DefaultATDWProductRepository implements ATDWProductRepository {
             session.save();
         } catch (LoginException e) {
             LOG.error("JCR login failed", e);
-        } catch (InvalidItemStateException e) {
-            LOG.error("JCR session save failed", e);
-        } catch (NoSuchNodeTypeException e) {
-            LOG.error("JCR session save failed", e);
-        } catch (LockException e) {
-            LOG.error("JCR session save failed", e);
-        } catch (VersionException e) {
-            LOG.error("JCR session save failed", e);
-        } catch (ReferentialIntegrityException e) {
-            LOG.error("JCR session save failed", e);
-        } catch (ConstraintViolationException e) {
-            LOG.error("JCR session save failed", e);
-        } catch (ItemExistsException e) {
-            LOG.error("JCR session save failed", e);
-        } catch (AccessDeniedException e) {
-            LOG.error("JCR session save failed", e);
-        } catch (RepositoryException e) {
+        } catch (Exception e) {
             LOG.error("JCR session save failed", e);
         } finally {
             if (resourceResolver != null && resourceResolver.isLive()) {

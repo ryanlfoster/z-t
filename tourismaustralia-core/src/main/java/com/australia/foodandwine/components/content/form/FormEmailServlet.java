@@ -69,6 +69,7 @@ public class FormEmailServlet extends SlingAllMethodsServlet {
 			String secondaryCategory = request.getParameter("category-secondary");
 			String videoUrl = request.getParameter("videoUrl");
 			String phoneNumber = request.getParameter("phone-number");
+			String contact = request.getParameter("contact");
 
 			Page userGeneratedPage = pageManager.create(PathUtils.FOOD_AND_WINE_USER_GENERATED, null, null,
 				"experience-" + UUID.randomUUID().toString(), true);
@@ -87,11 +88,13 @@ public class FormEmailServlet extends SlingAllMethodsServlet {
 			contentProperties.put("secondaryCategory", secondaryCategory);
 			contentProperties.put("cq:distribute", true);
 			contentProperties.put("phoneNumber", phoneNumber);
+			contentProperties.put("contact", contact);
 
 			properties.put("Business Name ", businessName);
 			properties.put("Location ", location);
 			properties.put("Territory ", selectTerritory);
 			properties.put("Email ", mail);
+			properties.put("Contact", contact);
 			properties.put("Business Website ", businessWebsite);
 			properties.put("Business Description ", businessDescription);
 			properties.put("Photo Description ", photoDescription);
@@ -136,7 +139,7 @@ public class FormEmailServlet extends SlingAllMethodsServlet {
 			RequestParameter[] pArr = pairs.getValue();
 			RequestParameter param = pArr[0];
 			Node formArticleNode = contentResource.adaptTo(Node.class);
-			if ((key.equalsIgnoreCase("upload-photo"))) {
+			if ((key.equalsIgnoreCase("imageupload"))) {
 				try {
 					InputStream stream = param.getInputStream();
 					String contentType = getServletContext().getMimeType(param.getFileName());

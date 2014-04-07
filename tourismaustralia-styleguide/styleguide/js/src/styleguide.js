@@ -66,12 +66,20 @@
 	
 	//Size View Events
 
+    //Click Extra Size Small Button
+    $('#sg-size-xs').on("click", function(e){
+        e.preventDefault();
+        killDisco();
+        killHay();
+        sizeiframe(320);
+    });
+
 	//Click Size Small Button
 	$('#sg-size-s').on("click", function(e){
 		e.preventDefault();
 		killDisco();
 		killHay();
-		sizeiframe(getRandom(minViewportWidth,500));
+		sizeiframe(500);
 	});
 	
 	//Click Size Medium Button
@@ -79,7 +87,7 @@
 		e.preventDefault();
 		killDisco();
 		killHay();
-		sizeiframe(getRandom(500,800));
+		sizeiframe(800);
 	});
 	
 	//Click Size Large Button
@@ -87,7 +95,7 @@
 		e.preventDefault();
 		killDisco();
 		killHay();
-		sizeiframe(getRandom(800,1200));
+		sizeiframe(1200);
 	});
 	
 	//Click Size Extra Large Button
@@ -95,7 +103,7 @@
 		e.preventDefault();
 		killDisco();
 		killHay();
-		sizeiframe(getRandom(1200,maxViewportWidth));
+		sizeiframe(maxViewportWidth);
 	});
 
 	//Click Full Width Button

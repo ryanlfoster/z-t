@@ -31,7 +31,7 @@
   
   /* IE 10 fix */
   @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-      z-index: 0; 
+      z-index: -1; 
   }
 
   @include breakpoint(sm) {
@@ -47,6 +47,9 @@
   position: relative;
 }
 .home-hero-text-table-cell {
+
+    font-size: 16px; // return to base
+
   display: table-cell;
   vertical-align: middle;
   padding-bottom: 60px;
@@ -56,6 +59,10 @@
   }
 }
 .home-hero-title{
+
+    color: #fff;
+    margin-bottom: 0;
+
   @include type_TAheadline();
   font-size: pxtoem(60px);
   @include breakpoint(sm) {
@@ -69,6 +76,9 @@
   }
 }
 .home-hero-sub-title {
+
+    color: #fff;
+
   @include type_TAheadline();
   font-size: pxtoem(30px);
   @include breakpoint(sm) {

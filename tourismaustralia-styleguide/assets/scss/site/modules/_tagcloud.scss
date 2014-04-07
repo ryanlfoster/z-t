@@ -5,14 +5,20 @@
     padding: 0;
   }
   li {
-    margin-right: .2em;
-    margin-bottom: .2em;
+    
     display: inline-block;
+
+    @include breakpoint(md){
+      margin-right: .2em;
+      margin-bottom: .2em;
+    }
   }
+
   margin-top: 1em;
+  text-align: center;
+
   @include breakpoint(sm){
     margin-top: 0.5em;
-    text-align: center;
   }
   @include breakpoint(md) {
     text-align: left;

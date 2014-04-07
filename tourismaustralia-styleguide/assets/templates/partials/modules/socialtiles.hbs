@@ -1,0 +1,27 @@
+---
+title: Social Tiles
+---
+
+<div class="row l-center-1200">
+
+    <div class="socialtiles">
+
+        {{#parseJSON '{"title": "#Australia"}'}}
+            {{> sectionintro }}
+        {{/parseJSON}}
+
+        {{> mosaic_socialtiles }}
+
+        <div class="socialtiles-linethrough">
+            {{#parseJSON '{"copy": "Want to join the conversation?"}'}}
+                {{> linethroughtext}}
+            {{/parseJSON}}
+        </div>
+
+        <div class="l-h-center">
+            <a href="#" class="btn-primary">Find out how</a>
+        </div>
+
+    </div>
+
+</div>

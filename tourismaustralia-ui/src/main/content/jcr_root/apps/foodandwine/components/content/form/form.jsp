@@ -18,10 +18,10 @@
 		});
 	});
 </script>
-<div class="row form-conatiner form-container-padding">
-	<div class="col-xs-12 form-container-inner">
+<div class="row form-container">
+	<div class="col-xs-12 col-sm-8 col-sm-offset-2">
 		<form action="${form.formPath}" method="post"
-			class="add-experience-form" enctype="multipart/form-data">
+			class="form-container-inner add-experience-form" enctype="multipart/form-data">
 			<!-- input fields -->
 			<div class="field-container">
 				<div class="input-field" data-type="text">
@@ -68,7 +68,7 @@
 					<select class="input-select" name="selectTerritory"
 						id="selectTerritory">
 						<option selected="selected" disabled="disabled" value="">Select
-							a state or territory*</option>
+							a state*</option>
 						<option>Australian Capital Territory</option>
 						<option>New South Wales</option>
 						<option>Northern Territory</option>
@@ -84,6 +84,25 @@
 					</div>
 				</div>
 			</div>
+			<div class="field-container">
+                <div class="input-field" data-type="text">
+                    <div class="col-xs-4">
+                        <label class="input-field-label" for="text">
+                            <p>
+                                <strong>Contact name*</strong>
+                            </p></label>
+                    </div>
+                    <div class="col-xs-8">
+                        <input class="input-field-input" type="text" placeholder="E.g. John Smith" id="contact" name="contact">
+                        <span class="input-field-validation-icon"></span>
+                    </div>
+                    <div class="col-xs-12">
+                        <p class="input-field-validation-alert">
+                            Please enter a valid Contact name
+                        </p>
+                    </div>
+                </div>
+            </div>
 			<div class="field-container">
 				<div class="input-field" data-type="number">
 					<div class="col-xs-4">
@@ -176,33 +195,31 @@
 						placeholder="..."></textarea>
 				</div>
 			</div>
+			
 			<div class="field-container">
-				<div class="description-box description-box-outer">
-					<h4 class="description-box-headline">Photo</h4>
-					<p class="description-box-copy">
-						<em>Jpeg, Gif or PNG - 5mb file limit. Your image should be
-							at least 600 x 600px</em>
-					</p>
-					<div>
-
-						<p>
-							</strong><a href="javascript:void(0)" id="upload" target="_self"><strong>select
-									a file</strong></a> <input id="upload-photo" name="upload-photo" type="file"
-								accept="image/*" />
-						</p>
+                <div class="description-box description-box-outer" data-isvalid="false">
+                    <h4 class="description-box-headline"><strong>Upload an Image</strong></h4>
+                    <p class="description-box-copy">
+                        <em>Jpeg, Gif or PNG - 5mb file limit. Your image should be at least 600 x 600px</em>
+                    </p>
+					
+					<div class="image-uploader">
+					    <label class="image-uploader-label" for="imageupload">Upload Image</label>
+					    <div class="image-uploader-container btn-primary btn-small">
+					        <input type="file" id="imageupload" name="imageupload" class="image-uploader-control" accept="image/*">
+					    </div>
+					    <span class="image-uploader-filename">No File</span>
 					</div>
-
-					<div class="description-box">
-						<h4 class="description-box-headline">Optional Description</h4>
-						<p class="description-box-copy">
-							<em>Write a short description about your photo</em>
-						</p>
-						<textarea class="description-box-input-field"
-							name="photoDescription" id="photoDescription" rows="4"
-							placeholder="..."></textarea>
-					</div>
-				</div>
-			</div>
+                    <div class="description-box">
+                        <h4 class="description-box-headline"><strong>Image Caption</strong></h4>
+                        <p class="description-box-copy">
+                            <em>Write a short description about your photo</em>
+                        </p>
+                        <textarea class="description-box-input-field" rows="4" placeholder="..." name="photoDescription" id="photoDescription"></textarea>
+                    </div>
+                </div>
+            </div>
+			
 			<div class="field-container">
 				<div class="categories-box">
 					<h4 class="categories-box-headline">Categories*</h4>
@@ -220,14 +237,14 @@
 						<span id="category-secondary"
 							class="form-category-tick checkbox-label">Secondary
 							category</span>
-
 					</div>
 
 					<div class="row categories-row">
 						<div class="col-xs-12">
+						<div class="category-item-container">
 							<input id="category-restaurants" type="checkbox"
-								class="category-input"> <label
-								for="category-restaurants">
+								class="category-input"> 
+							<label for="category-restaurants">
 								<div class="category-item">
 									<span class="icon-round"> <img
 										class='category-image-light'
@@ -235,10 +252,12 @@
 										alt="" /> <img class='category-image-dark'
 										src="/etc/designs/foodandwine/clientlibs/imgs/base/categories/category-icon-restaurants-dark.png"
 										alt="" />
-									</span> <span class="category-title"> Restaurants </span> <span
-										class="category-description">${form.restaurantDescription } </span>
+									</span> 
+									<span class="category-title"> Restaurants </span> 
+									<span class="category-description">${form.restaurantDescription } </span>
 								</div>
-							</label> <input id="category-wine" type="checkbox" class="category-input">
+							</label>
+							<input id="category-wine" type="checkbox" class="category-input">
 							<label for="category-wine">
 								<div class="category-item">
 									<span class="icon-round"> <img
@@ -249,7 +268,8 @@
 									</span> <span class="category-title"> Wine </span> <span
 										class="category-description"> ${form.wineStoryDescription } </span>
 								</div>
-							</label> <input id="category-produce" type="checkbox"
+							</label> 
+							<input id="category-produce" type="checkbox"
 								class="category-input"> <label for="category-produce">
 								<div class="category-item">
 									<span class="icon-round"> <img
@@ -261,7 +281,8 @@
 									</span> <span class="category-title"> Produce </span> <span
 										class="category-description"> ${form.produceDescription } </span>
 								</div>
-							</label> <input id="category-events" type="checkbox"
+							</label> 
+							<input id="category-events" type="checkbox"
 								class="category-input"> <label for="category-events">
 								<div class="category-item">
 									<span class="icon-round"> <img
@@ -273,7 +294,8 @@
 									</span> <span class="category-title"> Festivals </span> <span
 										class="category-description"> ${form.eventsDescription }</span>
 								</div>
-							</label> <input id="category-people" type="checkbox"
+							</label>
+							 <input id="category-people" type="checkbox"
 								class="category-input"> <label for="category-people">
 								<div class="category-item">
 									<span class="icon-round"> <img
@@ -285,7 +307,8 @@
 									</span> <span class="category-title"> People </span> <span
 										class="category-description"> ${form.peopleDescription } </span>
 								</div>
-							</label> <input id="category-experiences" type="checkbox"
+							</label> 
+							<input id="category-experiences" type="checkbox"
 								class="category-input"> <label
 								for="category-experiences">
 								<div class="category-item">
@@ -298,7 +321,10 @@
 									</span> <span class="category-title"> Experiences </span> <span
 										class="category-description"> ${form.experiencesDescription } </span>
 								</div>
-							</label> <input id="category-seafood" type="checkbox"
+							</label>
+							
+							
+							 <input id="category-seafood" type="checkbox"
 								class="category-input"> <label for="category-seafood">
 								<div class="category-item">
 									<span class="icon-round"> <img
@@ -311,6 +337,7 @@
 										class="category-description">${form.seafoodDescription } </span>
 								</div>
 							</label>
+							</div>
 						</div>
 						<p
 							class="input-field-validation-alert categories-box-validation-alert">

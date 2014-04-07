@@ -8,15 +8,14 @@
 	<header class="navbar make-black">
 		<div class="navbar-container">
 			<!-- Brand and toggle get grouped for better mobile display -->
-			<div class="navbar-header">
-				<a class="navbar-brand black_logo" href="${Header.logoLinkPath}"
-					target="_blank"> <img src="${Header.imagePath}"
-					alt="${Header.imageAltTag}" title="Australia" />
-				</a> <a class="navbar-brand l-display-none-md white_logo" href="#">
-					<img src="${Header.imagePath}" alt="${Header.imageAltTag}"
-					title="Australia" />
-				</a>
-			</div>
+			<div class="navbar-header navbar-show-icon-inline">
+                <a class="navbar-brand black_logo" href="http://www.australia.com/">
+                    <img src="${Header.imagePath}" alt="${Header.imageAltTag}" title="Australia">
+                </a>
+                <a class="navbar-brand white_logo" href="#">
+                    <img src="${Header.imagePath}" alt="${Header.imageAltTag}" title="Australia">
+                </a>
+            </div>
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<nav class="navbar-nav">
 				<div class="navbar-mobile-head l-display-md">

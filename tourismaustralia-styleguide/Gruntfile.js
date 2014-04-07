@@ -127,7 +127,7 @@ module.exports = function( grunt ) {
          */
         complexity : {
             build : {
-                src: ['<%= ASSETS %>/js/src/**/*.js', '!<%= ASSETS %>/js/src/helper/**', '!<%= ASSETS %>/js/src/matt/**'],
+                src: ['<%= ASSETS %>/js/src/**/*.js', '!<%= ASSETS %>/js/src/helper/**', '!<%= ASSETS %>/js/src/unused/**'],
                 options: {
                     jsLintXML: '<%= DOCUMENTATION %>/complexity-report.xml', // create XML JSLint-like report
                     errorsOnly: false, // show only maintainability errors
@@ -315,7 +315,7 @@ module.exports = function( grunt ) {
         connect : {
             options: {
                 port : 9000,
-                hostname : 'localhost'
+                hostname : '0.0.0.0'
             },
             livereload: {
                 options: {

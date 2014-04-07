@@ -4,7 +4,7 @@
 <c:set var="hero" value="<%=new Hero(slingRequest) %>"/>
 
 <div class="home-hero make-white">
-	<div class="home-bg fullwidth-bg">
+	<div class="home-bg fullwidth-bg" data-image-vertical-alignment="bottom">
 		<div class="responsive-image" data-picture="" data-alt="${hero.altText}" >
 			<div data-src="${hero.imageSelection}" data-media="(min-width: 1px)"></div>
 			<div data-src="${hero.imageSelection}" data-media="(min-width: 481px)"></div>
@@ -21,12 +21,12 @@
 
 	<div class="home-hero-text-table-container">
 		<div class="home-hero-text-table-cell">
-			<div class="home-hero-title">
+            <h1 class="home-hero-title">
 				<c:out value="${hero.title}" />
-			</div>
-			<div class="home-hero-sub-title">
+			</h1>
+            <h2 class="home-hero-sub-title">
 				<c:out value="${hero.subTitle}" />
-			</div>
+			</h2>
 		</div>
 	</div>
 	<div class="row l-center-1200 home-hero-favourite-container">
@@ -34,13 +34,13 @@
 			<div class="hero-home-favourite">
 				<a href="#" class="favourite favourite-btn">
 					<!-- TODO: Embed 'Favorite' component here -->
-    <span class="btn-bubble">
-    <span class="btn-bubble-button">
-    <img class="btn-bubble-std" src="/etc/designs/tourismaustralia/clientlibs/img/placeholders/icons/favourite_outline.png" alt=""/>
-    <img class="btn-bubble-active" src="/etc/designs/tourismaustralia/clientlibs/img/placeholders/icons/favourite.png" alt=""/>
-    </span>
-    </span>
-    <span class="favourite-text">add to your dream trip</span>
+                    <span class="btn-bubble">
+                        <span class="btn-bubble-button">
+                            <img class="btn-bubble-std" src="/etc/designs/tourismaustralia/clientlibs/img/placeholders/icons/favourite_outline.png" alt=""/>
+                            <img class="btn-bubble-active" src="/etc/designs/tourismaustralia/clientlibs/img/placeholders/icons/favourite.png" alt=""/>
+                        </span>
+                    </span>
+					<span class="favourite-text">add to your dream trip</span>
 				</a>
 			</div>
 		</div>

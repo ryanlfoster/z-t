@@ -62,6 +62,50 @@
 }
 
 //**********************
+// Font styles:
+//**********************
+
+.type-font-base {
+  font-family: $font-family-base;
+  strong{
+    font-family: $font-family-base-b;
+    em{
+      font-family: $font-family-base-bi;
+    }
+  }
+  em{
+    font-family: $font-family-base-i;
+  }
+}
+.type-font-primary {
+  font-family: $font-family-primary;
+  strong{
+    font-family: $font-family-base-b;
+  }
+  em{
+    font-family: $font-family-base-bi;
+  }
+}
+.type-font-secondary {
+  font-family: $font-family-secondary;
+  strong{
+    font-weight: bold;
+  }
+  em{
+    font-style: italic;
+  }
+}
+.type-font-feature {
+  font-family: $font-family-feature;
+  strong{
+    font-weight: bold;
+  }
+  em{
+    font-style: italic;
+  }
+}
+
+//**********************
 // Type styles:
 //**********************
 .type-article {
@@ -69,7 +113,7 @@
   margin-bottom: pxtoem(5px);
 }
 .type-secondary {
-  font-family: $font-family-base;
+  //font-family: $font-family-base;
   //line-height:  pxtolineheightem(28px, 38px);
   letter-spacing: pxtoletterspacingem(-20);
   margin-bottom: pxtoem(4px);
@@ -86,7 +130,7 @@
  }
 
 .type-hero-image {
-  @extend .font-feature;
+  @extend .type-font-feature;
   letter-spacing: pxtoletterspacingem(-10);
 }
 .type-intro-copy{
@@ -131,9 +175,15 @@
   text-align: center;
 }
 
+//**********************
+// Added type-destination styling here for mosaic-grid-4 as it needs to be scaled
+//**********************
 .type-destination { 
   font-size: pxtoem(18px);
 }
+
+////////////////////////////
+
 .type-date { 
   font-family: "ProximaNova Bold", Helvetica, Arial, sans-serif;
   font-size: pxtoem(18px);
@@ -154,8 +204,12 @@
 }
 
 .type-h1-responsive {
+
+  // most of these are now h2's for semantics
+  color: #8d896f;
+
   font-size: pxtoem(30px);
-  margin-bottom: .5em;
+  margin-bottom: 1em;
   @include breakpoint(sm){
     font-size: pxtoem(50px);
   }
@@ -165,71 +219,21 @@
   }
 }
 
-/*
-.type-lead {
-  font-family: $font-family-lead;
-  font-size: pxtoem(22px);
-}
-
-.type-feature {
-  font-family: $font-family-feature;
-}
-
-.type-subheader {
+.type-h3 {
   font-family: $font-family-secondary;
-}
-*/
-
-/*
-
-
-
-.type-dash {
-  display: inline-block;
-  width: 3.6%;
-  background: #FFF;
-  height: 1px;
-  position: relative;
-  top: -0.4em;
-  margin: 0 0.8em;
+  font-size: pxtoem($h3-size);
+  font-weight: normal;
+  color: $type-heading-colour;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-.type-dash-inverse {
-  background:#333;
+.type-h4 {
+  font-family: $font-family-base-b;
+  font-size: pxtoem($h4-size);
+  font-weight: normal;
+  color: $type-heading-colour;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-.type-border {
-  display: block;
-  position: relative;
-  background: #d6e9ed;
-  width:35%;
-  margin: 1.3em auto;
-  height: 1px;
-}
-
-.type-border-full {
-  background: #e7e5d7;
-  width: 100%;
-}
-
-
-.type-emdash {
-    display: inline-block;
-    position: relative;
-    background: #d6e9ed;
-    width:16px;
-    margin: .25em 0;
-    height: 1px;
-}
-*/

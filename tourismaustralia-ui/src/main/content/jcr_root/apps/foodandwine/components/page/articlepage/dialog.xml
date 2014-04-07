@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+	jcr:primaryType="cq:Dialog" height="400" stateful="false" xtype="dialog">
+	<items jcr:primaryType="cq:WidgetCollection">
+		<tabs jcr:primaryType="cq:TabPanel">
+			<items jcr:primaryType="cq:WidgetCollection">
+				<basic jcr:primaryType="cq:Widget"
+					path="/libs/foundation/components/page/tab_basic.infinity.json"
+					xtype="cqinclude" />
+				<articleProperties jcr:primaryType="cq:Panel"
+					title="Article Properties">
+					<items jcr:primaryType="cq:WidgetCollection">
+						<basic jcr:primaryType="cq:Widget" collapsed="{Boolean}false"
+							collapsible="{Boolean}false" xtype="dialogfieldset">
+							<items jcr:primaryType="cq:WidgetCollection">
+								<categoryLogoPath jcr:primaryType="nt:unstructured"
+									fieldLabel="Category Logo Path" fieldDescription="Select The Article Category Logo Path for other experiences(overlay)"
+									name="./categoryLogoPath" xtype="pathfield" rootPath="/content/dam"/>									
+							</items>
+						</basic>
+					</items>
+				</articleProperties>
+
+				<advanced jcr:primaryType="cq:Widget"
+					path="/libs/foundation/components/page/tab_advanced.infinity.json"
+					xtype="cqinclude" />
+				<image jcr:primaryType="cq:Widget"
+					path="/libs/foundation/components/page/tab_image.infinity.json"
+					xtype="cqinclude" />
+				<cloudservices jcr:primaryType="cq:Widget"
+					path="/libs/foundation/components/page/tab_cloudservices.infinity.json"
+					xtype="cqinclude" />
+				<blueprint jcr:primaryType="cq:Widget"
+					path="/libs/foundation/components/page/tab_blueprint.infinity.json"
+					xtype="cqinclude" />
+				<livecopy jcr:primaryType="cq:Widget"
+					path="/libs/foundation/components/page/tab_livecopy.infinity.json"
+					xtype="cqinclude" />
+			</items>
+		</tabs>
+	</items>
+</jcr:root>

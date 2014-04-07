@@ -1,0 +1,24 @@
+///*
+// * What you can see:
+// * ---------------------------------------------------------------------------------------------------------------- */
+.socialtiles {
+    @include breakpoint(lg) {
+      //padding-top: pxtoem(45px);
+      //padding-bottom: pxtoem(55px);
+      padding: pxtoem(15px) 0;
+    }
+}
+
+.socialtiles-linethrough {
+  margin: 1em 0;
+}
+
+.socialtiles-linethrough .line-through-container-biline {
+  color: $type-main-heading-colour;
+}
+
+// STATIC TILE, only shows front of card and does not flip or expand
+// used to show twitter or facebook quote/comment
+.socialtiles-static-front {
+  background-color: $mosaic_social_tile_static_bg;
+}

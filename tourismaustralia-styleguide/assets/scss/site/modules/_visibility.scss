@@ -1,0 +1,21 @@
+///*
+// * Visibility:
+// * ---------------------------------------------------------------------------------------------------------------- */
+.vis-focusable {
+    &:focus {
+        @include vis-focusable();
+    }
+}
+
+.vis-hidden-sm {
+    @media (min-width: $screen-sm-min) {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        padding: 0;
+        overflow: hidden;
+        clip: rect(0,0,0,0);
+        border: 0;
+    }
+}

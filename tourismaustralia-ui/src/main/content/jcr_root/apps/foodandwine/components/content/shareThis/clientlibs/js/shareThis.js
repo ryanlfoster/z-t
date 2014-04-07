@@ -13,6 +13,9 @@
 			addShareThisButton(obj, share_url, page_title, page_desc);
 		});
 
+		// change to custom Twitter handler @Australia
+		$(".st_twitter_large").attr('st_via', 'Australia');
+		
 		var is_firefox = navigator.userAgent.toLowerCase().indexOf('firefox') > -1;
 		var is_chrome = navigator.userAgent.toLowerCase().indexOf('chrome') > -1;
 		if (!is_firefox && !is_chrome) {
@@ -55,6 +58,7 @@
 				"image":"http://www.softicons.com/download/internet-icons/social-superheros-icons-by-iconshock/png/256/sharethis_hulk.png", // image TO BE SHARED
 				"summary": desc
 			});		
+			
 		}
 	}
 

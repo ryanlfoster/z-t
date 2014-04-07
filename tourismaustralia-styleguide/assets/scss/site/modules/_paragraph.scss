@@ -1,0 +1,79 @@
+
+//Fix for Article / AEM "CQ" integration issues.
+//Need to target the default paragraph tag directly to ensure it works consistent with the grid
+//Unable to apply class directly to paragraph this needs to be targeted specifically without impacting other modules
+//Todo - May need to target the AEM "CQ" div that gets wrapped around the p target to ensure there is minimal implact.
+
+.paragraph-icon, .paragraph-city, .paragraph-state, .paragraph-article {
+  background: #fff;
+}
+
+.paragraph-article {
+
+  //CMS implementation
+  & > .text >  p {
+    padding-left: pxtoem(15px);
+    padding-right: pxtoem(15px);
+  }
+
+  @include breakpoint(md) {
+    & > .text >  p {
+      padding-left: 26.8%;
+    }
+  }
+
+  @include breakpoint(lg) {
+    & > .text >  p {
+      padding-right: 37.1%;
+    }
+  }
+
+  @include breakpoint(mx) {
+
+    & > .text >  p {
+      padding-right: 28em;
+      padding-left: 19.7em;
+      max-width: pxtoem(1200px);
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+  }
+
+}
+
+// same styles applied for testing with styleguide
+.styleguide .paragraph-article {
+  z-index: 200;
+
+  //CMS implementation
+  & >  p {
+    padding-left: pxtoem(15px);
+    padding-right: pxtoem(15px);
+  }
+
+  @include breakpoint(md) {
+    & >  p {
+      padding-left: 26.8%;
+    }
+  }
+
+  @include breakpoint(lg) {
+    & >  p {
+      padding-right: 37.1%;
+    }
+  }
+
+  @include breakpoint(mx) {
+
+    & >  p {
+      padding-right: 28em;
+      padding-left: 19.7em;
+      max-width: pxtoem(1200px);
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+  }
+
+}

@@ -11,6 +11,7 @@
 //Partials
 @import "modules/_type";
 @import "partials/icon";
+@import "modules/visibility";
 
 //Modules
 @import "modules/_icons";
@@ -21,56 +22,43 @@
 @import "modules/_caption";
 @import "modules/_themes";
 @import "modules/_footer";
-@import "modules/mosaic";
-@import "modules/carousel";
-@import "modules/custommap";
-
+@import "modules/_mosaic";
+@import "modules/_carousel";
 @import "modules/_nojs";
 @import "modules/_home";
 @import "modules/_favourite";
 @import "modules/_tagcloud";
-@import "modules/_mapcitylink";
+@import "modules/_imagemapcitylink";
 @import "modules/_shareicons";
 @import "modules/_image";
 @import "modules/_explore";
 @import "modules/_specialoffer";
 @import "modules/_categorylinks";
 @import "modules/_whatyoucansee";
-@import "modules/_makeyourtriphappen";
+@import "modules/_atdwhighlights";
 @import "modules/_section";
-
+@import "modules/_social-mention";
+@import "modules/_large-image-social";
+@import "modules/_small-image-text";
+@import "modules/_large-image-text";
+@import "modules/_largeimage";
+@import "modules/_twoimages";
 @import "modules/_linethroughtext";
 @import "modules/_dropdown";
+@import "modules/_video";
+@import "modules/_paragraph";
+@import "modules/_byline";
+@import "modules/_socialtiles";
+@import "modules/_quote";
+@import "modules/_header";
+
+@import "modules/_owl";
 
 
 /*
 @import "modules/navbar";
-@import "modules/fonts";
-@import "modules/icon-sprite";
-@import "modules/type";
+@import "modules/custommap";
 @import "modules/site";
-@import "modules/hero";
-@import "modules/featureFull";
-@import "modules/container";
-@import "modules/content";
-@import "modules/img";
-@import "modules/social-recommendation";
-@import "modules/related";
-@import "modules/caption";
-@import "modules/video";
-@import "modules/video-caption";
-@import "modules/btn";
-@import "modules/glyphicon";
-@import "modules/tag";
 @import "modules/sprite";
-@import "modules/social";
-@import "modules/preview";
-@import "modules/copyrightlogo";
-@import "modules/footer";     //Review
-@import "modules/sharebox";   //Review
-@import "modules/sitemap";    //
-@import "modules/dropdown";
-@import "modules/languageselect";
-//@import "modules/mosaic-item";
-@import "modules/mosaic";
+@import "modules/sitemap";
 */

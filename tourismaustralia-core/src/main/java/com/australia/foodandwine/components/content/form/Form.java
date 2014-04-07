@@ -16,8 +16,8 @@ import com.citytechinc.cq.component.annotations.widgets.MultiField;
 import com.citytechinc.cq.component.annotations.widgets.PathField;
 import com.citytechinc.cq.component.annotations.widgets.TextArea;
 
-@Component(disableTargeting = true, group = "Food and Wine", basePath = "jcr_root/apps/foodandwine/components", value = "Form", tabs={
-	@Tab(title="Email configuration"), @Tab(title="Category Description")},listeners = {
+@Component(disableTargeting = true, group = "Food and Wine", basePath = "jcr_root/apps/foodandwine/components", value = "Form", tabs = {
+	@Tab(title = "Email configuration"), @Tab(title = "Category Description") }, listeners = {
 	@Listener(name = "aftercopy", value = "REFRESH_PAGE"), @Listener(name = "afterdelete", value = "REFRESH_PAGE"),
 	@Listener(name = "afteredit", value = "REFRESH_PAGE"), @Listener(name = "afterinsert", value = "REFRESH_PAGE") })
 public class Form {
@@ -47,26 +47,26 @@ public class Form {
 	@DialogField(fieldLabel = "Terms and Condition Link", required = true, tab = 1)
 	@PathField(rootPath = "/content")
 	private final String termsLink;
-	
-	@DialogField(fieldLabel="Restaurants Description", tab=2)
+
+	@DialogField(fieldLabel = "Restaurants Description", tab = 2)
 	private final String restaurantDescription;
-	
-	@DialogField(fieldLabel="WineStory Description", tab=2)
+
+	@DialogField(fieldLabel = "WineStory Description", tab = 2)
 	private final String wineStoryDescription;
-	
-	@DialogField(fieldLabel="Produce Description", tab=2)
+
+	@DialogField(fieldLabel = "Produce Description", tab = 2)
 	private final String produceDescription;
-	
-	@DialogField(fieldLabel="Events Description", tab=2)
+
+	@DialogField(fieldLabel = "Events Description", tab = 2)
 	private final String eventsDescription;
-	
-	@DialogField(fieldLabel="People Description", tab=2)
+
+	@DialogField(fieldLabel = "People Description", tab = 2)
 	private final String peopleDescription;
-	
-	@DialogField(fieldLabel="Experiences Description", tab=2)
+
+	@DialogField(fieldLabel = "Experiences Description", tab = 2)
 	private final String experiencesDescription;
-	
-	@DialogField(fieldLabel="Seafood Description", tab=2)
+
+	@DialogField(fieldLabel = "Seafood Description", tab = 2)
 	private final String seafoodDescription;
 
 	private final String formPath;
@@ -84,16 +84,16 @@ public class Form {
 		this.emailIdsList = Arrays.asList(properties.get(EMAIL_IDS_LIST, new String[0]));
 		redirectUrl = LinkUtils.getHrefFromPath(properties.get(THAMK_YOU_PAGE_REDIRECT_URL, StringUtils.EMPTY));
 		formPath = request.getResourceResolver().map(request.getResource().getPath() + ".formemail.json");
-		privacyPolicyLink = properties.get("privacyPolicyLink", StringUtils.EMPTY);
-		termsLink = properties.get("termsLink", StringUtils.EMPTY);
-		
-		restaurantDescription=properties.get("restaurantDescription","Restautants");
-		wineStoryDescription=properties.get("wineStoryDescription","Winery");
-		produceDescription=properties.get("produceDescription","Produce");
-		eventsDescription=properties.get("eventsDescription","Festivals");
-		peopleDescription=properties.get("peopleDescription","People");
-		experiencesDescription=properties.get("experiencesDescription","Experiences");
-		seafoodDescription=properties.get("seafoodDescription","Seafood");
+		privacyPolicyLink = LinkUtils.getHrefFromPath(properties.get("privacyPolicyLink", StringUtils.EMPTY));
+		termsLink = LinkUtils.getHrefFromPath(properties.get("termsLink", StringUtils.EMPTY));
+
+		restaurantDescription = properties.get("restaurantDescription", "Restautants");
+		wineStoryDescription = properties.get("wineStoryDescription", "Winery");
+		produceDescription = properties.get("produceDescription", "Produce");
+		eventsDescription = properties.get("eventsDescription", "Festivals");
+		peopleDescription = properties.get("peopleDescription", "People");
+		experiencesDescription = properties.get("experiencesDescription", "Experiences");
+		seafoodDescription = properties.get("seafoodDescription", "Seafood");
 	}
 
 	public String getRestaurantDescription() {

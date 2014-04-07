@@ -25,7 +25,7 @@
 	<!-- End #main-header -->
 	
 	<div class="site-wrapper">
-
+		<cq:include script="customProperties.jsp"/>
 		<div id="main-content"><cq:include script="content.jsp" /></div>
 	   	<c:if test="${not global.isHomePage}"> 
 	   		<% WCMMode.DISABLED.toRequest(slingRequest); %>

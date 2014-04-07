@@ -7,8 +7,8 @@ var responsiveImageHelper = {};
 responsiveImageHelper.bindEvents = function(){
 
 	if (!window.addEventListener) {		
-		window.attachEvent('resize', responsiveImageHelper.setContainerHeight());
-		window.attachEvent('orientationchange', responsiveImageHelper.setContainerHeight());
+		window.attachEvent('resize', responsiveImageHelper.setContainerHeight);
+		window.attachEvent('orientationchange', responsiveImageHelper.setContainerHeight);
 	} else {
 		window.addEventListener('resize', function() {
 		// Get screen size (inner/outerWidth, inner/outerHeight)
@@ -34,8 +34,7 @@ responsiveImageHelper.setContainerHeight = function(){
 		heightOfImage = ( heightOfImage <= maxImageHeight ) ? heightOfImage : maxImageHeight;
 
 		$(this).css('height', heightOfImage);
-		$(this).find('img').css('margin-top', -($(this).find('img').height() / 2));	
-		
+		$(this).find('img').css('margin-top', -($(this).find('img').height() / 2));
 	});
 };
 

@@ -131,8 +131,14 @@
         }
 
         if (!window.addEventListener) {                      
-            window.attachEvent('resize', scope.setupParallax(scope), scope.setHeightOfWindow(scope));
-            window.attachEvent('orientationchange', scope.setupParallax(scope), scope.setHeightOfWindow(scope));
+            window.attachEvent('resize', function() {
+                scope.setupParallax(scope);
+                scope.setHeightOfWindow(scope);
+            });
+            window.attachEvent('orientationchange', function() {
+                scope.setupParallax(scope);
+                scope.setHeightOfWindow(scope);
+            });
         } else {
             // set height of window on resize & orientation change
             window.addEventListener('resize', function() {
@@ -147,8 +153,7 @@
         };
 
     };
-
-    // set height of window
+        // set height of window
     Plugin.prototype.setHeightOfWindow = function(scope){
 
         // get height of window, and devide by half. So parallax initiates in center of screen.        

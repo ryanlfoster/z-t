@@ -18,6 +18,8 @@ public class Breadcrumb {
 
 	private final Page currentPage;
 
+	//private boolean homePage;
+
 	public Breadcrumb(SlingHttpServletRequest slingRequest) {
 		currentPage = slingRequest.getResourceResolver().adaptTo(PageManager.class)
 			.getContainingPage(slingRequest.getResource());
@@ -29,18 +31,32 @@ public class Breadcrumb {
 
 	public Iterator<Page> getPredecessorPages() {
 		List<Page> predecessorList = new ArrayList<Page>();
-		int level = 1;
-		while ((currentPage.getDepth() > 2) && (level < (currentPage.getParent().getDepth()))) {
-			predecessorList.add(level-1, currentPage.getAbsoluteParent(level));
-			level++;
+		int localLevel = 3;
+
+		while ((currentPage.getDepth() > localLevel) && (localLevel <= (currentPage.getParent().getDepth()))) {
+			predecessorList.add(localLevel-3 , currentPage.getAbsoluteParent(localLevel-1));
+			localLevel++;
 		}
 
 		Iterator<Page> predecessorListIterator = predecessorList.listIterator();
+
 		return predecessorListIterator;
 	}
 
+	/*public boolean isHomePage() {
+		return homePage;
+	}
 
-
-
+	public void setHomePage(Page thisPage) {
+		if (StringUtils.equalsIgnoreCase(thisPage.getNavigationTitle(), "Australia")) {
+			this.homePage = true;
+		} else if (StringUtils.equalsIgnoreCase(thisPage.getTitle(), "Australia")) {
+			this.homePage = true;
+		} else if (StringUtils.equalsIgnoreCase(thisPage.getName(), "Australia")) {
+			this.homePage = true;
+		} else {
+			this.homePage = false;
+		}
+	} */
 
 }

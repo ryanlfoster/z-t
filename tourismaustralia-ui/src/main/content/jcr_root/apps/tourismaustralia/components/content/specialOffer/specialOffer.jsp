@@ -17,7 +17,7 @@
             <div class="col-xs-12 col-sm-5">
                 <div class="specialoffer-content">
                     <c:if test="${not empty specialOffer.title}">
-                    <h3 class="specialoffer-title">${specialOffer.title}</h3>
+                    <span class="specialoffer-title type-h3">${specialOffer.title}</span>
                     </c:if>
                     <c:if test="${not empty specialOffer.text}">
                     <div class="specialoffer-text">

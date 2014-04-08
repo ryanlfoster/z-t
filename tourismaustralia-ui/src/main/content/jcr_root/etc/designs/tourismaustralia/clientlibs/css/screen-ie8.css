@@ -2,7 +2,6 @@
 /*IE8 Overrides*/
 /* line 2, ../../assets/scss/site/_ie8-overrides.scss */
 body {
-  width: 1580px !important;
   margin-left: auto;
   margin-right: auto;
 }
@@ -18,4 +17,24 @@ body {
 /* line 17, ../../assets/scss/site/_ie8-overrides.scss */
 .mosaic .is-flip .flip-front-fade {
   z-index: 1;
+}
+
+/* line 26, ../../assets/scss/site/_ie8-overrides.scss */
+.footer-col {
+  width: 100% !important;
+  text-align: center !important;
+}
+/* line 29, ../../assets/scss/site/_ie8-overrides.scss */
+.footer-col li {
+  display: inline-block !important;
+  margin-right: 1em !important;
+}
+/* line 33, ../../assets/scss/site/_ie8-overrides.scss */
+.footer-col .dropdown-select-countrylanguage {
+  margin: 0 auto !important;
+}
+/* line 36, ../../assets/scss/site/_ie8-overrides.scss */
+.footer-col .footer-copyright {
+  width: 100% !important;
+  text-align: center !important;
 }

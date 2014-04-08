@@ -21,6 +21,7 @@ public final class PathUtils {
 	public static final String FOOD_AND_WINE_EXPERIENCES = FOOD_AND_WINE_ROOT_PATH + "/experiences";
 
 	public static final String FOOD_AND_WINE_USER_GENERATED = "/content/usergenerated/food-and-wine";
+
     
     /**
      * Will get the language resource for the resource passed in. For example,
@@ -41,5 +42,9 @@ public final class PathUtils {
             }
         }
         return null;
+    }
+
+    public static  String getAllAtdwProductsForCategoryPath(Resource locale, String category){
+        return locale.getPath() + "/products.html?cat=" + category;
     }
 }

@@ -13,6 +13,30 @@
   background-color: $mosaic-colour-back-3column;
   color: #FFF;
 }
+.theme-mosaic-social-front {
+  background-color: #f2f1e9;
+  color: #FFF;
+  a {
+    color: #00535e;
+  }
+}
+.theme-mosaic-social-detail {
+  background-color: $mosaic_social_tile_static_bg;
+  color: $mosaic_social_tile_static_text_color;
+  font-size: .95em;
+  padding: 6em 3em 5em;
+}
+
+.theme-mosaic-social-back {
+  background-color: #297c9a;
+  color: #FFF;
+  padding: 1em;
+}
+.theme-mosaic-social-back a{
+  color: #FFF;
+  text-decoration: initial;
+  border-bottom: 1px solid #fff;
+}
 
 .theme-nature      {
   background: $category-colour-nature;

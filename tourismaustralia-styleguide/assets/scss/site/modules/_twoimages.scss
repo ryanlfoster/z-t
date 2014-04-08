@@ -1,0 +1,44 @@
+.two-images {
+}
+
+.two-images-column {
+
+	// Need that flexibility to fall back to original column widths
+	@media (max-width: $screen-sm){
+		float: none;
+		margin-bottom: 1em;
+		width: 100%;
+	}
+}
+
+.two-images-large-img {
+	width: 100%;
+}
+
+.two-images-large-content {
+	font-size: pxtoem($font-size-base / 1.3);
+
+	& > p:last-child {
+		margin-bottom: 0;
+	}
+
+	@include breakpoint(md){
+		font-size: pxtoem($font-size-base);
+	}
+}
+
+.two-images-small-img {
+	width: 100%;
+}
+
+.two-images-small-content {
+	font-size: pxtoem($font-size-base / 1.3);
+
+	& > p:last-child {
+		margin-bottom: 0;
+	}
+
+	@include breakpoint(md){
+		font-size: pxtoem($font-size-base);
+	}
+}

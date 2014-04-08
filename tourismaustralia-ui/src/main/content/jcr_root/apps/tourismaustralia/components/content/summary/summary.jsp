@@ -13,4 +13,3 @@
     </div>
     <hr class="full">
 </c:if>
-

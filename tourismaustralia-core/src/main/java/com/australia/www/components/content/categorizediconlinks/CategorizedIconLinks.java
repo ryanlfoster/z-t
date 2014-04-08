@@ -10,26 +10,30 @@ import org.apache.commons.lang.StringUtils;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.ValueMap;
 
-
-@Component(value = "Categorized Icon Links", disableTargeting = true, tabs = {@Tab(title = "Category 1"), @Tab(title = "Category 2"),
+@Component(value = "Categorized Icon Links", disableTargeting = true, tabs = {@Tab(title = "General"), @Tab(title = "Category 1"), @Tab(title = "Category 2"),
         @Tab(title = "Category 3")}, listeners = {@Listener(name = "aftercopy", value = "REFRESH_PAGE"),
         @Listener(name = "afterdelete", value = "REFRESH_PAGE"), @Listener(name = "afteredit", value = "REFRESH_PAGE"),
         @Listener(name = "afterinsert", value = "REFRESH_PAGE")})
 public class CategorizedIconLinks {
-    @DialogField(tab = 1)
+
+    @DialogField(fieldLabel = "Title", tab = 1)
+    private String title;
+
+    @DialogField(tab = 2)
     @DialogFieldSet(namePrefix = "title1/")
     private TitleText titleText1;
 
-    @DialogField(tab = 2)
+    @DialogField(tab = 3)
     @DialogFieldSet(namePrefix = "title2/")
     private TitleText titleText2;
 
-    @DialogField(tab = 3)
+    @DialogField(tab = 4)
     @DialogFieldSet(namePrefix = "title3/")
     private TitleText titleText3;
 
     public CategorizedIconLinks(SlingHttpServletRequest request) {
         ValueMap properties = request.getResource().adaptTo(ValueMap.class);
+        title = properties.get("title", StringUtils.EMPTY);
         titleText1 = new TitleText();
         titleText1.setTitle(properties.get("title1/title", StringUtils.EMPTY));
         titleText1.setText(properties.get("title1/text", StringUtils.EMPTY));
@@ -86,6 +90,10 @@ public class CategorizedIconLinks {
         titleText3.setIconLink3IsExternal(LinkUtils.isExternal(properties.get("title3/iconLink3", StringUtils.EMPTY)));
 		titleText3.setLinkText3(properties.get("title3/linkText3", StringUtils.EMPTY));
 		titleText3.setIconAltText3(properties.get("title3/iconAltText3", StringUtils.EMPTY));
+    }
+
+    public String getTitle() {
+        return title;
     }
 
     public TitleText getTitleText1() {

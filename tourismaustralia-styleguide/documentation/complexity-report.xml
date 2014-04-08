@@ -1,31 +1,41 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <jslint>
-<file name="assets/js/src/main.js">
-  
-</file>
-<file name="assets/js/src/modules/jquery.ta.carousel.js">
-  
-</file>
-<file name="assets/js/src/modules/jquery.ta.flipcard.js">
-  
-</file>
-<file name="assets/js/src/modules/jquery.ta.fullwidthbg.js">
+<file name="assets/js/src/modules/jquery.ta.parallax.js">
   
   <issue
-    line="79"
-    char="&lt;anonymous&gt;.setImageAlignment"
-    evidence="&lt;anonymous&gt;.setImageAlignment is too complicated"
-    reason="Cyclomatic: 3,
-    Halstead: 9.8214
-    | Effort: 2143.6
-    | Volume: 218.26
-    | Vocabulary: 25" />
+    line="53"
+    char="&lt;anonymous&gt;.setupParallax"
+    evidence="&lt;anonymous&gt;.setupParallax is too complicated"
+    reason="Cyclomatic: 2,
+    Halstead: 9.0263
+    | Effort: 3691.2
+    | Volume: 408.94
+    | Vocabulary: 26" />
+  
+  <issue
+    line="60"
+    char="window.onscroll"
+    evidence="window.onscroll is too complicated"
+    reason="Cyclomatic: 7,
+    Halstead: 44.606
+    | Effort: 86656
+    | Volume: 1942.7
+    | Vocabulary: 49" />
   
 </file>
 <file name="assets/js/src/modules/jquery.ta.mosaic.js">
   
 </file>
-<file name="assets/js/src/modules/jquery.ta.mosaic3column.js">
+<file name="assets/js/src/modules/jquery.ta.carousel.js">
+  
+</file>
+<file name="assets/js/src/modules/jquery.ta.fullwidthbg.js">
+  
+</file>
+<file name="assets/js/src/modules/jquery.ta.flipcard.js">
+  
+</file>
+<file name="assets/js/src/main.js">
   
 </file>
 </jslint>

@@ -4,6 +4,7 @@
 
 <c:set var="mapWithParsys" value="<%=new MapWithParsys(slingRequest) %>"/>
 
+<div class="l-padding-between-item-fill-white">
 <div class="map-with-links-container">
 
     <c:if test="${not empty mapWithParsys.title }">
@@ -30,4 +31,5 @@
     
     <cq:include script="bottom.jsp"/>
 
+</div>
 </div>

@@ -6,9 +6,8 @@
 
 <div class="l-padding-between-item-fill-white">
     <div class="row l-center-1200">
-        <div class="col-xs-12 col-sm-3"></div>
 
-        <div class="video-2column-container col-xs-12 col-sm-9">
+        <div class="video-2column-container col-xs-12 col-sm-9 col-sm-push-3">
             <div class="video-position">
                 <c:if test="${not empty twoColumnBrightcoveVideo.videoRandomId}">
                     <div class="video-container">

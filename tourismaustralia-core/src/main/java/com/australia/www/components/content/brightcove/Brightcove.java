@@ -34,7 +34,6 @@ public class Brightcove {
     private String title;
 
     @DialogField(fieldLabel = "Description", required = false, tab = 3)
-    @RichTextEditor
     private String description;
 
     public Brightcove(SlingHttpServletRequest request) {

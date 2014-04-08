@@ -203,13 +203,32 @@
   }
 }
 
+.type-main-heading-colour {
+  color: $type-main-heading-colour;
+}
+
 .type-h1-responsive {
 
   // most of these are now h2's for semantics
-  color: #8d896f;
+  color: $type-main-heading-colour;
 
   font-size: pxtoem(30px);
   margin-bottom: 1em;
+  @include breakpoint(sm){
+    font-size: pxtoem(50px);
+  }
+  @include breakpoint(md){
+    font-size: pxtoem(80px);
+    margin-bottom: .1em;
+  }
+}
+
+.type-h3-responsive {
+
+  color: $type-main-heading-colour;
+
+  font-size: pxtoem(30px);
+  margin-bottom: 0em;
   @include breakpoint(sm){
     font-size: pxtoem(50px);
   }

@@ -110,7 +110,7 @@ public class ExperienceCreationListener implements EventListener {
 
 			}
 		} catch (Exception e) {
-			LOG.error("Error creating page from form");
+			LOG.error("Error creating page from form", e);
 		} finally {
 			if (resourceResolver != null && resourceResolver.isLive()) {
 				resourceResolver.close();

@@ -3,16 +3,6 @@
 <file name="assets/js/src/modules/jquery.ta.parallax.js">
   
   <issue
-    line="53"
-    char="&lt;anonymous&gt;.setupParallax"
-    evidence="&lt;anonymous&gt;.setupParallax is too complicated"
-    reason="Cyclomatic: 2,
-    Halstead: 9.0263
-    | Effort: 3691.2
-    | Volume: 408.94
-    | Vocabulary: 26" />
-  
-  <issue
     line="60"
     char="window.onscroll"
     evidence="window.onscroll is too complicated"
@@ -33,6 +23,19 @@
   
 </file>
 <file name="assets/js/src/modules/jquery.ta.flipcard.js">
+  
+</file>
+<file name="assets/js/src/modules/jquery.ta.megamenu.js">
+  
+  <issue
+    line="43"
+    char="&lt;anonymous&gt;.delegateEvents"
+    evidence="&lt;anonymous&gt;.delegateEvents is too complicated"
+    reason="Cyclomatic: 2,
+    Halstead: 8.0938
+    | Effort: 2526.3
+    | Volume: 312.13
+    | Vocabulary: 23" />
   
 </file>
 <file name="assets/js/src/main.js">

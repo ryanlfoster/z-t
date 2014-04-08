@@ -46,11 +46,13 @@ public class ImageMapWithCityLink {
         if (imageObj != null && imageObj.hasContent()) {
             image = imageObj.getPath();
         }
-        altText = properties.get("altText", StringUtils.EMPTY);
-        title = properties.get("title", StringUtils.EMPTY);
-        linkText = properties.get("linkText", StringUtils.EMPTY);
-        link = LinkUtils.getHrefFromPath(properties.get("link", StringUtils.EMPTY));
-        linkIsExternal = LinkUtils.isExternal(properties.get("link", StringUtils.EMPTY));
+        if (properties != null) {
+            altText = properties.get("altText", StringUtils.EMPTY);
+            title = properties.get("title", StringUtils.EMPTY);
+            linkText = properties.get("linkText", StringUtils.EMPTY);
+            link = LinkUtils.getHrefFromPath(properties.get("link", StringUtils.EMPTY));
+            linkIsExternal = LinkUtils.isExternal(properties.get("link", StringUtils.EMPTY));
+        }
     }
 
     public String getImage() {

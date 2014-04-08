@@ -65,13 +65,7 @@
         <div class="col-xs-12 col-sm-9">
             <div>
                 <div class="col-xs-12 col-sm-12 col-md-6 col-md-push-6 home-summary-map-container"> <%-- MAP WITH CITY COMPONENT --%>
-                    <div class="map-main">
-                        <img class="map-main-image" src="/etc/designs/tourismaustralia/clientlibs/img/placeholders/intro-map-australia-nsw.png" alt="Map">
-                        <div class="map-main-link">
-                            <div class="map-main-title">Capital of New South Wales</div>
-                            <img src="/etc/designs/tourismaustralia/clientlibs/img/icons/pin_sml.png" class="map-pin"><span class="map-pin-btn">Sydney</span>
-                        </div>
-                    </div>
+                    <cq:include path="imageMapWithCityLink" resourceType="tourismaustralia/components/content/imageMapWithCityLink"/>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-6 col-md-pull-6">
                     <div class="row">
@@ -80,11 +74,8 @@
                     </div>
                     <hr class="full">
                     <div class="row">
-                        <div class="type-body"> <%-- TEXT COMPONENT --%>
-							<p>Learn about other places to visit in New South Wales and scenic journeys you can take from Sydney. Drive the Pacific Coast Touring Route north to Brisbane past the Hunter Valley, Port Stephens and bohemian Byron Bay. Or head south to Melbourne via the pure white beaches of Jervis Bay.</p>
-							<p>Check out Australia's other cities and get ideas for the rest of your Australian holiday. Melbourne, the Great Ocean Road and Australia's Red Centre are all possible in a three-week holiday from Sydney.</p>
-							<p>For more Sydney holiday ideas, read our articles on the Hunter Valley, Sydney's sparkling beaches, the Bondi to Bronte walk and the annual Sydney to Hobart yacht race.</p>
-                        </div>
+                        <%-- TEXT COMPONENT --%>
+                        <cq:include path="text" resourceType="tourismaustralia/components/content/text"/>
                     </div>
                 </div>
             </div>
@@ -868,70 +859,7 @@
 </div>
 
 <%-- Category Links --%>
-<div class="l-padding-between-item-fill-white">
-    <div class="categorylinks">
-    <div class="row l-center-1200">
-        <hr>
-        <div class="col-xs-12 col-sm-4">
-            <div class="categorylinks-item">
-                <div class="categorylink-header">
-                    <h3 class="categorylink-title">Getting here,<br />getting around</h3>
-                </div>
-                <div class="categorylink-body">
-                    <p>Copy to include transport and local airport options. Lorem ipsum dolor sit amet.</p>
-                </div>
-                <div class="categorylink-links">
-                    <a herf="#">
-                        <span class="categorylink-arrive-by-air-icon icon-font-ArrivingByAir_Icon"></span>
-                        <span class="categorylink-linktext">See airlines that fly to this destination</span>
-                    </a>
-                    <br />
-                    <a herf="#">
-                        <img src="/etc/designs/tourismaustralia/clientlibs/img/placeholders/footer_promo_transport_nsw.jpg" alt="Transport" />
-                        <span class="categorylink-linktext">www.nswtrainlink.info</span>
-                    </a>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-xs-12 col-sm-4">
-            <div class="categorylinks-item">
-                <div class="categorylink-header">
-                    <h3 class="categorylink-title">find your nearest<br />travel specialist</h3>
-                </div>
-                <div class="categorylink-body">
-                    <p>Copy to include how to find a travel specailist Lorem ipsum dolor sit amet.</p>
-                </div>
-                <div class="categorylink-links">
-                    <a herf="#">
-                        <img src="/etc/designs/tourismaustralia/clientlibs/img/placeholders/footer_promo_aussiespecialist.jpg" alt="Aussie Specialist" />
-                        <span class="categorylink-linktext">Find a travel specialist</span>
-                    </a>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-xs-12 col-sm-4">
-            <div class="categorylinks-item">
-                <div class="categorylink-header">
-                    <h3 class="categorylink-title">Visit new south wales<br />tourism site</h3>
-                </div>
-                <div class="categorylink-body">
-                    <p>Visit <a href="http://visitnsw.com">visitnsw.com</a> for more information on destinations and things to do!</p>
-                </div>
-                <div class="categorylink-links">
-                    <a herf="#">
-                        <img src="/etc/designs/tourismaustralia/clientlibs/img/placeholders/footer-promo-visit-nsw.jpg" alt="visitnsw.com" />
-                        <span class="categorylink-linktext">Go to visitnsw.com</span>
-                    </a>
-                </div>
-            </div>
-        </div>
-
-    </div>
-</div>
-</div>
-
+<cq:include path="categorizedIconLinks" resourceType="tourismaustralia/components/content/categorizedIconLinks"/>
 
 <%-- FOOTER --%>
 <div class="footer-container">

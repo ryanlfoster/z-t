@@ -8,14 +8,12 @@
 	<c:if test="${button.isEmpty}">
 		<div class="map-btn-container">
 			<div class="map-btn-content">         
-				<c:if test="${not empty button.imagePath}">
-					<div class="map-image-icon">                   
+				<div class="map-image-icon">                   
 			    		<img src=${button.imagePath }>
-					</div>
-		    	</c:if>
+				</div>
 				<div>
 		    		<span class="map-btn-heading">${button.title}</span>
-					<p>${button.text}</p>
+					${button.text}
 				</div>
 			</div>
 		</div>

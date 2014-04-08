@@ -59,7 +59,7 @@
     <!-- video container -->
 <div id='home-video' class="video-container">
     <a class="video-close-btn icon-font-cross" href="#"></a>
-    <div class="video-table">
+    <div class="video-table" style="width:80%;">
         <div class="video-table-cell">
 			<div class="cq-dd-brightcovevideo"
 					style="overflow-x: hidden; overflow-y: hidden; text-align: center; width: 100%; text-align: center;">
@@ -104,5 +104,3 @@
     </div>
 </div>
 </div>
-
-  --%>

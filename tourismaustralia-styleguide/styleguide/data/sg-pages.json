@@ -408,6 +408,17 @@
                     ,
                 
             
+                "video_add_tags_share" : {
+                     "data" : {
+                        "title" : "video_add_tags_share",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'video_add_tags_share'}}"
+                }
+                
+                    ,
+                
+            
                 "tagclouditem" : {
                      "data" : {
                         "title" : "tagclouditem",

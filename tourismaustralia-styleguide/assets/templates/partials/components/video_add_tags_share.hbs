@@ -1,0 +1,34 @@
+---
+title: Large Title with sub-description
+---
+
+<div class="largetitlewithsubdescription">
+    <div class="l-center-1200">
+
+        <div class="col-xs-12 col-sm-7 largetitlewithsubdescription-fav-tags">
+
+            <div class="largetitlewithsubdescription-favourite">
+                <!-- Favourite Start -->
+                {{> favourite }}
+                <!-- Favourite Start -->
+            </div>
+
+            <div class="largetitlewithsubdescription-tags">
+                <!-- Tags Start -->
+                {{#parseJSON '{"data" : [{"tag_has_link": "true", "tag_title": "Eco adventure"}, {"tag_has_link": "true", "tag_title": "Diving"}, {"tag_has_link": "true", "tag_title": "Sailing"}, {"tag_has_link": "true", "tag_title": "Shopping"}, {"tag_has_link": "true", "tag_title": "Snorkelling"}]}'}}
+                    {{> tagcloudnotitle }}
+                {{/parseJSON}}
+                <!-- Tags Start -->
+            </div>
+
+        </div>
+
+        <div class="largetitlewithsubdescription-social col-xs-12 col-sm-5">
+            <!-- ShareIcons Start -->
+            {{> shareicons }}
+            <!-- ShareIcons End -->
+        </div>
+
+    </div>
+</div>
+

@@ -6,7 +6,7 @@
     allowedPaths="[/content(/.*)?]" >
 
 	<jcr:content jcr:primaryType="cq:PageContent"
-		sling:resourceType="foodandwine/components/page/facebook"
+		sling:resourceType="foodandwine/components/page/facebookpage"
 		cq:designPath="/etc/designs/tourismaustralia"
 	/>
 

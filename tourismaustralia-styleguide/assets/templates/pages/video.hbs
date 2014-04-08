@@ -4,19 +4,15 @@ layout: layout-base.hbs
 
 <div class="paragraph-video">
 
-    <br><br><br><br><br><br><br><br><br><br><br>
-
     {{#parseJSON '{
     "page_title" : "Back"
 }'}}
         {{> breadcrumbsdynamic }}
     {{/parseJSON}}
 
-
-
     <div class="l-padding-between-item-fill-white">
         {{> largetitlewithsubdescription }}
-        {{> fullsizevideo }}
+        {{> fullsizevideoonly }}
         {{> video_add_tags_share }}
     </div>
 

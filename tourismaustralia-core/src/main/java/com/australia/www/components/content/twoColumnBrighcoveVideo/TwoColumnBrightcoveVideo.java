@@ -36,7 +36,6 @@ public class TwoColumnBrightcoveVideo {
     private String title;
 
     @DialogField(fieldLabel = "Description", required = false, tab = 3)
-    @RichTextEditor
     private String description;
 
     @DialogField(fieldLabel = "View more videos link path", fieldDescription = "For external links please use prefix http:// or https:// (eg. http://www.google.com)", required = false, tab = 3)

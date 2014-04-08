@@ -8,15 +8,14 @@
 <div class="l-padding-between-item-fill-white">
     <div class="categorylinks">
         <div class="row l-center-1200">
+            <c:if test="${not empty categorizedIconLinks.title}">
             <div class="line-through-container line-categorylink-theme">
                 <div class="line-through-categorylink-theme"></div>
-                <c:if test="${not empty categorizedIconLinks.title}">
                 <h4 class="line-through-container-biline">
                     ${categorizedIconLinks.title}
                 </h4>
-                </c:if>
             </div>
-
+            </c:if>
             <div class="col-xs-12 col-sm-4">
                 <div class="categorylinks-item">
                     <c:if test="${not empty categorizedIconLinks.titleText1.title}">

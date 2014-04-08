@@ -1,21 +1,25 @@
 ---
-title: Category Links - Sydney
+title: Categorized Icon Links - Sydney
 ---
 
 <div class="categorylinks">
     <div class="row l-center-1200">
-        <hr>
+
+        {{#parseJSON '{"copy": "TRAVEL HERE WITH HELP FROM OUR PARTNERS"}'}}
+            {{> linethroughtextfullhr}}
+        {{/parseJSON}}
+
         <div class="col-xs-12 col-sm-4">
             <div class="categorylinks-item">
                 <div class="categorylink-header">
-                    <h3 class="categorylink-title">Getting here,<br />getting around</h3>
+                    <h5 class="categorylink-title">Getting here,<br />getting around</h5>
                 </div>
                 <div class="categorylink-body">
                     <p>Copy to include transport and local airport options. Lorem ipsum dolor sit amet.</p>
                 </div>
                 <div class="categorylink-links">
                     <a herf="#">
-                        <span class="categorylink-arrive-by-air-icon icon-font-ArrivingByAir_Icon"></span>
+                        <img src="imgs/placeholders/airplane.png" alt="" />
                         <span class="categorylink-linktext">See airlines that fly to this destination</span>
                     </a>
                     <br />
@@ -30,7 +34,7 @@ title: Category Links - Sydney
         <div class="col-xs-12 col-sm-4">
             <div class="categorylinks-item">
                 <div class="categorylink-header">
-                    <h3 class="categorylink-title">find your nearest<br />travel specialist</h3>
+                    <h5 class="categorylink-title">find your nearest<br />travel specialist</h5>
                 </div>
                 <div class="categorylink-body">
                     <p>Copy to include how to find a travel specailist Lorem ipsum dolor sit amet.</p>
@@ -47,7 +51,7 @@ title: Category Links - Sydney
         <div class="col-xs-12 col-sm-4">
             <div class="categorylinks-item">
                 <div class="categorylink-header">
-                    <h3 class="categorylink-title">Visit new south wales<br />tourism site</h3>
+                    <h5 class="categorylink-title">Visit new south wales<br />tourism site</h5>
                 </div>
                 <div class="categorylink-body">
                     <p>Visit <a href="http://visitnsw.com">visitnsw.com</a> for more information on destinations and things to do!</p>

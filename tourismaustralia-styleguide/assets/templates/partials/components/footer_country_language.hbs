@@ -1,0 +1,22 @@
+---
+title: Country Language
+---
+
+<div class="footer-col">
+    <p class="footer-heading">Change your country and language</p>
+
+    <div class="row">
+        <div class="col-xs-12 type-spacing-20">
+            {{#parseJSON '{"data" : [{"option": "United States of America"}, {"option": "Australia"}]}'}}
+                {{> dropdown_countrylanguage }}
+            {{/parseJSON}}
+        </div>
+
+        <div class="col-xs-12">
+            {{#parseJSON '{"data" : [{"option": "International English"}, {"option": "German"}]}'}}
+                {{> dropdown_countrylanguage }}
+            {{/parseJSON}}
+        </div>
+    </div>
+
+</div>

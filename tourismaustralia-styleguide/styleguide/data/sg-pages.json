@@ -217,12 +217,12 @@
             
         
             
-                "icon" : {
+                "icons" : {
                      "data" : {
-                        "title" : "icon",
+                        "title" : "icons",
                         "layout" : "styleguide-preview.hbs"
                     },
-                    "content" : "{{section 'icon'}}"
+                    "content" : "{{section 'icons'}}"
                 }
                 
                     ,
@@ -408,23 +408,12 @@
                     ,
                 
             
-                "home_explore_summary_map" : {
+                "explore_summary_map" : {
                      "data" : {
-                        "title" : "home_explore_summary_map",
+                        "title" : "explore_summary_map",
                         "layout" : "styleguide-preview.hbs"
                     },
-                    "content" : "{{section 'home_explore_summary_map'}}"
-                }
-                
-                    ,
-                
-            
-                "mosaicitem" : {
-                     "data" : {
-                        "title" : "mosaicitem",
-                        "layout" : "styleguide-preview.hbs"
-                    },
-                    "content" : "{{section 'mosaicitem'}}"
+                    "content" : "{{section 'explore_summary_map'}}"
                 }
                 
                     ,
@@ -436,6 +425,17 @@
                         "layout" : "styleguide-preview.hbs"
                     },
                     "content" : "{{section 'linethroughtext'}}"
+                }
+                
+                    ,
+                
+            
+                "linethroughtextfullhr" : {
+                     "data" : {
+                        "title" : "linethroughtextfullhr",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'linethroughtextfullhr'}}"
                 }
                 
                     ,
@@ -463,22 +463,154 @@
                     ,
                 
             
-                "whatyoucansee" : {
+                "paragraph_standard" : {
                      "data" : {
-                        "title" : "whatyoucansee",
+                        "title" : "paragraph_standard",
                         "layout" : "styleguide-preview.hbs"
                     },
-                    "content" : "{{section 'whatyoucansee'}}"
+                    "content" : "{{section 'paragraph_standard'}}"
+                }
+                
+                    ,
+                
+            
+                "paragraph_dynamic" : {
+                     "data" : {
+                        "title" : "paragraph_dynamic",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'paragraph_dynamic'}}"
+                }
+                
+                    ,
+                
+            
+                "socialimage" : {
+                     "data" : {
+                        "title" : "socialimage",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'socialimage'}}"
+                }
+                
+                    ,
+                
+            
+                "byline" : {
+                     "data" : {
+                        "title" : "byline",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'byline'}}"
+                }
+                
+                    ,
+                
+            
+                "bylinewithshareitem" : {
+                     "data" : {
+                        "title" : "bylinewithshareitem",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'bylinewithshareitem'}}"
                 }
                 
             
             
+                ,
+            
         
+            
+                "text2columnvideo" : {
+                     "data" : {
+                        "title" : "text2columnvideo",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'text2columnvideo'}}"
+                }
+                
+                    ,
+                
+            
+                "videoitem" : {
+                     "data" : {
+                        "title" : "videoitem",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'videoitem'}}"
+                }
+                
+                    ,
+                
+            
+                "textlargevideo" : {
+                     "data" : {
+                        "title" : "textlargevideo",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'textlargevideo'}}"
+                }
+                
+            
+            
+                ,
+            
         
-            ,
-        
-    
-        
+            
+                "mosaic_highlights" : {
+                     "data" : {
+                        "title" : "mosaic_highlights",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'mosaic_highlights'}}"
+                }
+                
+                    ,
+                
+            
+                "mosaicitemhighlights" : {
+                     "data" : {
+                        "title" : "mosaicitemhighlights",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'mosaicitemhighlights'}}"
+                }
+                
+                    ,
+                
+            
+                "mosaic_highlights_grid_1" : {
+                     "data" : {
+                        "title" : "mosaic_highlights_grid_1",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'mosaic_highlights_grid_1'}}"
+                }
+                
+                    ,
+                
+            
+                "mosaic_highlights_grid_4" : {
+                     "data" : {
+                        "title" : "mosaic_highlights_grid_4",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'mosaic_highlights_grid_4'}}"
+                }
+                
+                    ,
+                
+            
+                "mosaic_highlights_grid_4_1" : {
+                     "data" : {
+                        "title" : "mosaic_highlights_grid_4_1",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'mosaic_highlights_grid_4_1'}}"
+                }
+                
+                    ,
+                
             
                 "mosaic_whatscomingup" : {
                      "data" : {
@@ -491,16 +623,129 @@
                     ,
                 
             
-                "carousel_standard" : {
+                "mosaicitemevent" : {
                      "data" : {
-                        "title" : "carousel_standard",
+                        "title" : "mosaicitemevent",
                         "layout" : "styleguide-preview.hbs"
                     },
-                    "content" : "{{section 'carousel_standard'}}"
+                    "content" : "{{section 'mosaicitemevent'}}"
                 }
                 
                     ,
                 
+            
+                "mosaic_whatscomingup_grid_1" : {
+                     "data" : {
+                        "title" : "mosaic_whatscomingup_grid_1",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'mosaic_whatscomingup_grid_1'}}"
+                }
+                
+                    ,
+                
+            
+                "mosaic_whatscomingup_grid_4" : {
+                     "data" : {
+                        "title" : "mosaic_whatscomingup_grid_4",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'mosaic_whatscomingup_grid_4'}}"
+                }
+                
+                    ,
+                
+            
+                "mosaicitem_detail" : {
+                     "data" : {
+                        "title" : "mosaicitem_detail",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'mosaicitem_detail'}}"
+                }
+                
+                    ,
+                
+            
+                "mosaicitemsocialtile" : {
+                     "data" : {
+                        "title" : "mosaicitemsocialtile",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'mosaicitemsocialtile'}}"
+                }
+                
+                    ,
+                
+            
+                "mosaic_socialtiles_grid_1" : {
+                     "data" : {
+                        "title" : "mosaic_socialtiles_grid_1",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'mosaic_socialtiles_grid_1'}}"
+                }
+                
+                    ,
+                
+            
+                "mosaic_socialtiles_static_grid_1" : {
+                     "data" : {
+                        "title" : "mosaic_socialtiles_static_grid_1",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'mosaic_socialtiles_static_grid_1'}}"
+                }
+                
+                    ,
+                
+            
+                "mosaic_socialtiles_grid_4" : {
+                     "data" : {
+                        "title" : "mosaic_socialtiles_grid_4",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'mosaic_socialtiles_grid_4'}}"
+                }
+                
+                    ,
+                
+            
+                "mosaicitemsocial_detail" : {
+                     "data" : {
+                        "title" : "mosaicitemsocial_detail",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'mosaicitemsocial_detail'}}"
+                }
+                
+                    ,
+                
+            
+                "whatyoucansee" : {
+                     "data" : {
+                        "title" : "whatyoucansee",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'whatyoucansee'}}"
+                }
+                
+                    ,
+                
+            
+                "whatyoucansee_nobuttons" : {
+                     "data" : {
+                        "title" : "whatyoucansee_nobuttons",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'whatyoucansee_nobuttons'}}"
+                }
+                
+            
+            
+                ,
+            
+        
             
                 "carousel_mobile" : {
                      "data" : {
@@ -508,6 +753,17 @@
                         "layout" : "styleguide-preview.hbs"
                     },
                     "content" : "{{section 'carousel_mobile'}}"
+                }
+                
+                    ,
+                
+            
+                "carousel_standard" : {
+                     "data" : {
+                        "title" : "carousel_standard",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'carousel_standard'}}"
                 }
                 
             
@@ -530,12 +786,23 @@
                     ,
                 
             
-                "makeyourtriphappen" : {
+                "2columnvideo" : {
                      "data" : {
-                        "title" : "makeyourtriphappen",
+                        "title" : "2columnvideo",
                         "layout" : "styleguide-preview.hbs"
                     },
-                    "content" : "{{section 'makeyourtriphappen'}}"
+                    "content" : "{{section '2columnvideo'}}"
+                }
+                
+                    ,
+                
+            
+                "atdwhighlights" : {
+                     "data" : {
+                        "title" : "atdwhighlights",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'atdwhighlights'}}"
                 }
                 
                     ,
@@ -558,6 +825,17 @@
                         "layout" : "styleguide-preview.hbs"
                     },
                     "content" : "{{section 'breadcrumbs'}}"
+                }
+                
+                    ,
+                
+            
+                "bylinewithshare" : {
+                     "data" : {
+                        "title" : "bylinewithshare",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'bylinewithshare'}}"
                 }
                 
                     ,
@@ -596,23 +874,34 @@
                     ,
                 
             
-                "homehero" : {
+                "fullsizevideo" : {
                      "data" : {
-                        "title" : "homehero",
+                        "title" : "fullsizevideo",
                         "layout" : "styleguide-preview.hbs"
                     },
-                    "content" : "{{section 'homehero'}}"
+                    "content" : "{{section 'fullsizevideo'}}"
                 }
                 
                     ,
                 
             
-                "mapcitylink" : {
+                "hero" : {
                      "data" : {
-                        "title" : "mapcitylink",
+                        "title" : "hero",
                         "layout" : "styleguide-preview.hbs"
                     },
-                    "content" : "{{section 'mapcitylink'}}"
+                    "content" : "{{section 'hero'}}"
+                }
+                
+                    ,
+                
+            
+                "imagemapcitylink" : {
+                     "data" : {
+                        "title" : "imagemapcitylink",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'imagemapcitylink'}}"
                 }
                 
                     ,
@@ -640,34 +929,89 @@
                     ,
                 
             
-                "mapwithlinkstate" : {
+                "image_with_quote" : {
                      "data" : {
-                        "title" : "mapwithlinkstate",
+                        "title" : "image_with_quote",
                         "layout" : "styleguide-preview.hbs"
                     },
-                    "content" : "{{section 'mapwithlinkstate'}}"
+                    "content" : "{{section 'image_with_quote'}}"
                 }
                 
                     ,
                 
             
-                "mapwithlinkcity" : {
+                "image_with_button_social" : {
                      "data" : {
-                        "title" : "mapwithlinkcity",
+                        "title" : "image_with_button_social",
                         "layout" : "styleguide-preview.hbs"
                     },
-                    "content" : "{{section 'mapwithlinkcity'}}"
+                    "content" : "{{section 'image_with_button_social'}}"
                 }
                 
                     ,
                 
             
-                "hr" : {
+                "largeimagetext" : {
                      "data" : {
-                        "title" : "hr",
+                        "title" : "largeimagetext",
                         "layout" : "styleguide-preview.hbs"
                     },
-                    "content" : "{{section 'hr'}}"
+                    "content" : "{{section 'largeimagetext'}}"
+                }
+                
+                    ,
+                
+            
+                "largeimagesocial" : {
+                     "data" : {
+                        "title" : "largeimagesocial",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'largeimagesocial'}}"
+                }
+                
+                    ,
+                
+            
+                "mapimagewithbuttons" : {
+                     "data" : {
+                        "title" : "mapimagewithbuttons",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'mapimagewithbuttons'}}"
+                }
+                
+                    ,
+                
+            
+                "mapimagewithlinks" : {
+                     "data" : {
+                        "title" : "mapimagewithlinks",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'mapimagewithlinks'}}"
+                }
+                
+                    ,
+                
+            
+                "quote" : {
+                     "data" : {
+                        "title" : "quote",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'quote'}}"
+                }
+                
+                    ,
+                
+            
+                "seperator" : {
+                     "data" : {
+                        "title" : "seperator",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'seperator'}}"
                 }
                 
                     ,
@@ -679,6 +1023,28 @@
                         "layout" : "styleguide-preview.hbs"
                     },
                     "content" : "{{section 'shareicons'}}"
+                }
+                
+                    ,
+                
+            
+                "smallimagetext" : {
+                     "data" : {
+                        "title" : "smallimagetext",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'smallimagetext'}}"
+                }
+                
+                    ,
+                
+            
+                "socialtiles" : {
+                     "data" : {
+                        "title" : "socialtiles",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'socialtiles'}}"
                 }
                 
                     ,
@@ -728,6 +1094,17 @@
                     ,
                 
             
+                "twoimages" : {
+                     "data" : {
+                        "title" : "twoimages",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'twoimages'}}"
+                }
+                
+                    ,
+                
+            
                 "whatyoucansee_city" : {
                      "data" : {
                         "title" : "whatyoucansee_city",
@@ -745,6 +1122,17 @@
                         "layout" : "styleguide-preview.hbs"
                     },
                     "content" : "{{section 'whatyoucansee_state'}}"
+                }
+                
+                    ,
+                
+            
+                "header" : {
+                     "data" : {
+                        "title" : "header",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'header'}}"
                 }
                 
             

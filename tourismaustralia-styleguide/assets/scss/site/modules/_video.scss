@@ -1,67 +1,81 @@
-.video {
+/////////////////
+// 2 COLUMN VIDEO
+/////////////////
+.video-container {
+  text-align: center;
+  position: inherit;
+  background-color: #000;
+  margin: 0 -15px;
+  @include breakpoint(sm){
+    margin: inherit;
+  }
+}
+.video-container-table {
+
   position: relative;
-
-  max-width: pxtoem(730px);
-  margin-left: auto;
-  margin-right: auto;
 }
-
-.video-ui {
-  position: absolute;
-  width: 100%;
+.video-play-icon {
+  width: 23.33%;
+  max-width: 164px;
+  max-height: 165px;
 }
-
-.video-ui-btn {
-  position: absolute;
-  top:50%;
-  left:50%;
-  margin-top: -2.1625em;
-  margin-left: -2.3em;
+.video-title {
+  margin-bottom: -.5em;
+}
+.video-link {
   display: block;
-  color:#fff;
-  font-family: "TAheadline";
-  font-size: 1.475em;
+  margin-top: .8em;
+}
+.video-copy {
 
+  padding: 10px 0;
 
   @include breakpoint(sm) {
-    font-size: pxtoem(30px);
+    padding: 10px 0 0 10px;
   }
-
-}
-
-
-/*
-.video-ui-btn:hover, .video-ui-btn:focus {
-   .icon-circle {
-      background: #fff;
-   }
-  .icon-dash {
-    background: #000;
-  }
-  .icon-play {
-    color:#000;
+  @include breakpoint(md) {
+    bottom: -20px;
+    margin-right: -240px;
+    position: absolute;
+    right: 0;
+    width: 220px;
   }
 }
-*/
 
-
-.video-ui-btn-left, .video-ui-btn-right  {
-  position: absolute;
-  top: 50%;
-  margin-top: -0.6em;
+.video-2column-container {
+  @include breakpoint(md) {
+    padding-right: 220px;
+  }
+}
+.video-position {
+  position: relative;
 }
 
-.video-ui-btn-right {
-  right:-1.9em;
-}
-.video-ui-btn-left {
-  left: -1.9em;
-}
+///////////////
+// LARGE VIDEO
+///////////////
+.video-large-container {
+  max-width: 1194px;
+  padding: 0;
 
-.video-image {
-  
+  @include breakpoint(lg){
+    //padding: 0 15px;
+  }
 }
-
-.video-media {
-  
+.video-title-large-video {
+  font-family: $font-family-secondary;
+  font-size: pxtoem(28px);
+}
+.video-text-large {
+  padding: .4em 0;
+  display: block;
+  line-height: pxtolineheightem(16px, 24px);
+}
+.video-copy-large-container {
+  background-color: $video_large_copy_bg;
+  margin: 0 -15px;
+  padding: 1em;
+  @include breakpoint(sm){
+    margin: inherit;
+  }
 }

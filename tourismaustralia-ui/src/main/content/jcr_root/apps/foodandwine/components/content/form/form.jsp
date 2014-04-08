@@ -18,10 +18,10 @@
 		});
 	});
 </script>
-<div class="row form-conatiner form-container-padding">
-	<div class="col-xs-12 form-container-inner">
+<div class="row form-container">
+	<div class="col-xs-12 col-sm-8 col-sm-offset-2">
 		<form action="${form.formPath}" method="post"
-			class="add-experience-form" enctype="multipart/form-data">
+			class="form-container-inner add-experience-form" enctype="multipart/form-data">
 			<!-- input fields -->
 			<div class="field-container">
 				<div class="input-field" data-type="text">

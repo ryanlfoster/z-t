@@ -1,19 +1,31 @@
 {
     "navigation": [
         {
-            "text": "City/State",
+            "text": "Pages",
             "item": [
                 {
-                    "text": "page_city_sydney",
+                    "text": "home",
+                    "name": "Home "
+                },
+                {
+                    "text": "article",
+                    "name": "Article "
+                },
+                {
+                    "text": "icon",
+                    "name": "Icon "
+                },
+                {
+                    "text": "city_sydney",
                     "name": "City Page - Sydney"
                 },
                 {
-                    "text": "page_state_victoria",
+                    "text": "state_victoria",
                     "name": "State Page - Victoria"
                 },
                 {
-                    "text": "page_state_victoria",
-                    "name": "State Page - Victoria"
+                    "text": "test_page",
+                    "name": "Test Page"
                 }
             ]
         },
@@ -25,8 +37,8 @@
                     "name": "Home Page"
                 },
                 {
-                    "text": "homeheropage",
-                    "name": "Home Hero"
+                    "text": "hero",
+                    "name": "Hero"
                 }
             ]
         }

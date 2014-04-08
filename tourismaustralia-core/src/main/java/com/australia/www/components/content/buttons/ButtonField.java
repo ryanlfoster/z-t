@@ -1,11 +1,14 @@
 package com.australia.www.components.content.buttons;
 
+import org.apache.commons.lang3.StringUtils;
+
 import com.citytechinc.cq.component.annotations.DialogField;
 import com.citytechinc.cq.component.annotations.widgets.PathField;
+import com.citytechinc.cq.component.annotations.widgets.RichTextEditor;
 
 public class ButtonField {
 
-	@DialogField(fieldLabel = "Image")
+	@DialogField(fieldLabel = "Image", fieldDescription = "All fields are required to show button")
 	@PathField(rootPath = "/", rootTitle = "Assets")
 	private String imagePath;
 	
@@ -13,6 +16,7 @@ public class ButtonField {
 	private String title;
 
 	@DialogField(fieldLabel = "Text")
+    @RichTextEditor
 	private String text;
 
 	
@@ -42,7 +46,7 @@ public class ButtonField {
 	}
 	
 	public boolean getIsEmpty() {
-		if (title.isEmpty() && text.isEmpty() && imagePath.isEmpty())
+		if (StringUtils.isBlank(title) || StringUtils.isBlank(text) || StringUtils.isBlank(imagePath))
 			return false;
 		else
 			return true;

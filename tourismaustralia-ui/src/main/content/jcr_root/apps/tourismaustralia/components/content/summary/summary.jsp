@@ -6,10 +6,7 @@
 <c:set var="summary" value="<%=new Summary(slingRequest) %>"/>
 
 <c:if test="${not empty summary.text}">
-    <div class="row">
-        <div class="type-summary">
-            ${summary.text}
-        </div>
+    <div class="type-summary">
+        ${summary.text}
     </div>
-    <hr class="full">
 </c:if>

@@ -10,10 +10,10 @@ responsiveImageHelper.bindEvents = function(){
 		window.attachEvent('resize', responsiveImageHelper.setContainerHeight);
 		window.attachEvent('orientationchange', responsiveImageHelper.setContainerHeight);
 	} else {
-		window.addEventListener('resize', function() {
+		$(window).resize(function(){
 		// Get screen size (inner/outerWidth, inner/outerHeight)
 			responsiveImageHelper.setContainerHeight();
-		}, false);
+		});
 
 		window.addEventListener('orientationchange', function() {
 			// Announce the new orientation number
@@ -23,11 +23,16 @@ responsiveImageHelper.bindEvents = function(){
 
 	responsiveImageHelper.setContainerHeight();
 
+	// Initiate parallax
+	$('.parallax').parallaxImages({
+	    parallaxSpeed : 1
+	});
+
 };
 
 responsiveImageHelper.setContainerHeight = function(){
 	$('.largeimage-container').each(function(){
-		var offSet = 80,
+		var offSet = $(this).find('img').height() * parseFloat(20) / 100,
 			maxImageHeight = 600, // Max height of responsive images
 			heightOfImage = $(this).find('img').height() - offSet;
 

@@ -3,13 +3,23 @@
 <file name="assets/js/src/modules/jquery.ta.parallax.js">
   
   <issue
-    line="60"
+    line="46"
+    char="&lt;anonymous&gt;.setupParallax"
+    evidence="&lt;anonymous&gt;.setupParallax is too complicated"
+    reason="Cyclomatic: 3,
+    Halstead: 11.607
+    | Effort: 7553.3
+    | Volume: 650.74
+    | Vocabulary: 38" />
+  
+  <issue
+    line="61"
     char="window.onscroll"
     evidence="window.onscroll is too complicated"
-    reason="Cyclomatic: 7,
-    Halstead: 44.606
-    | Effort: 86656
-    | Volume: 1942.7
+    reason="Cyclomatic: 8,
+    Halstead: 48.609
+    | Effort: 95252
+    | Volume: 1959.5
     | Vocabulary: 49" />
   
 </file>

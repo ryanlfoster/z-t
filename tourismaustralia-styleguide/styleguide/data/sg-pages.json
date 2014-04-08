@@ -397,6 +397,17 @@
     
         
             
+                "largetitlewithsubdescription" : {
+                     "data" : {
+                        "title" : "largetitlewithsubdescription",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'largetitlewithsubdescription'}}"
+                }
+                
+                    ,
+                
+            
                 "tagclouditem" : {
                      "data" : {
                         "title" : "tagclouditem",

@@ -75,10 +75,7 @@
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-6 col-md-pull-6">
                     <div class="row">
-                        <div class="type-summary"> <%-- TEXT COMPONENT --%>
-							<p>Discover Sydney, Australia's famous harbour city and the capital of New South Wales.</p>
-							<p>Plan your Sydney holiday using our three-day itinerary, which takes in the attractions around Sydney Harbour, beaches and inner-city precincts. Read up on the World Heritage-listed Blue Mountains and the Six Foot Track bushwalk.</p>
-                        </div>
+                        <cq:include path="summary" resourceType="tourismaustralia/components/content/summary"/>
                     </div>
                     <hr class="full">
                     <div class="row">
@@ -985,7 +982,7 @@
 					        <li><a href="#">Media & industry</a></li>
 					        <li><a href="#">Business events</a></li>
 					    </ul>
-					    <div class="footer-copyright">© Tourism Australia 2014</div>
+					    <div class="footer-copyright">ï¿½ Tourism Australia 2014</div>
 					</div>
                 </div>
             </div>

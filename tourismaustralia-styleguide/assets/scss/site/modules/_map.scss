@@ -8,30 +8,6 @@
     display: block;
   }
 }
-.map_wrapper {
- width:100%;
-  line-height:0;
-  display: none;
-  @include breakpoint(lg){
-    display: block;
-  }
-}
-
-.map_wrapper_iframe{
-  border:0;
-}
-.map_notsupported{
-  background: #fff;
-  margin-top: pxtoem(107px);
-  display: block;
-  @include breakpoint(lg){
-    display: none;
-  }
-}
-
-.map_notsupported h1{
-  padding-top: .6em;
-}
 
 .map_shown_ontablet{
 
@@ -41,21 +17,6 @@
       display: block;
     }
   }
-
-  .map_wrapper{
-    display: none;
-    @include breakpoint(md){
-      display: block;
-    }
-  }
-
-  .map_notsupported{
-    display: block;
-    @include breakpoint(md){
-      display: none;
-    }
-  }
-
 }
 
 .map_shown_onmobile{
@@ -66,19 +27,4 @@
       display: block;
     }
   }
-
-  .map_wrapper{
-    display: none;
-    @include breakpoint(sm){
-      display: block;
-    }
-  }
-
-  .map_notsupported{
-    display: block;
-    @include breakpoint(sm){
-      display: none;
-    }
-  }
-
 }

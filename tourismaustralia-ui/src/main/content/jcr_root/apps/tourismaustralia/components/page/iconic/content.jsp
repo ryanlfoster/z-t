@@ -5,6 +5,7 @@
     
 <div class="no-js-message">Site Requires Javascript - turn on javascript!<br></div>
 
+<%-- Header --%>
     <header id="main-header">
         
 <div id="nav-main-header" class="header megamenu">
@@ -265,15 +266,6 @@
 
 <%-- main parsys --%>
 <cq:include path="mainparsys" resourceType="foundation/components/parsys" />
-
-<%-- ATDW TEMPLATE --%>
-<div class="l-padding-between-item-fill-white">
-	<cq:include path="AtdwHighlights" resourceType="tourismaustralia/components/content/atdwHighlights"/>
-</div>
-
-<%-- Category Links --%>
-<cq:include path="categorizedIconLinks" resourceType="tourismaustralia/components/content/categorizedIconLinks"/>
-
 
 <%-- FOOTER --%>
 <footer id="main-footer" class="site-footer">

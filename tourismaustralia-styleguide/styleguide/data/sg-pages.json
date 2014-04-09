@@ -548,6 +548,28 @@
                     "content" : "{{section 'bylinewithshareitem'}}"
                 }
                 
+                    ,
+                
+            
+                "largetitle" : {
+                     "data" : {
+                        "title" : "largetitle",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'largetitle'}}"
+                }
+                
+                    ,
+                
+            
+                "iframe" : {
+                     "data" : {
+                        "title" : "iframe",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'iframe'}}"
+                }
+                
             
             
                 ,

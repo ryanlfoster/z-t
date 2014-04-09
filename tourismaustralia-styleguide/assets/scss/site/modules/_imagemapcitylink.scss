@@ -54,7 +54,7 @@ a.map-pin-btn {
         padding-top: pxtoem(90px);
     }
   text-align: center;
-  padding-bottom: pxtoem(60px);
+  padding-bottom: pxtoem($bottom-spacing);
 }
 
 .map-with-links-intro {

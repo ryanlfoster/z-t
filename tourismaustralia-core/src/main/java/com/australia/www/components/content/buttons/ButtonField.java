@@ -15,7 +15,7 @@ public class ButtonField {
 	@DialogField(fieldLabel = "Title")
 	private String title;
 
-	@DialogField(fieldLabel = "Text")
+	@DialogField(fieldLabel = "Text", xtype="textarea")
 	private String text;
 
 	

@@ -1,0 +1,63 @@
+.hero-video {
+	display: table;
+	height: 290px;
+	margin-bottom: .8em;
+	position: relative;
+	width:  100%;
+
+	background-size: cover;
+	background-position: top center;
+	background-repeat: no-repeat;
+
+	//@include transition (height, 1s, cubic-bezier(0.455, 0.030, 0.515, 0.955), .1s);
+
+	@include breakpoint(sm) {
+	height: 650px;
+	}
+}
+
+
+.hero-video-image {
+	height: 100%;
+	left: 0;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 0;
+
+	@include breakpoint(sm) {
+		height: 678px;
+	}
+}
+
+.hero-video-media-video #bgvid {
+	position: fixed;
+	min-width: 100%; 
+	min-height: 100%;
+	height: auto;
+	width: auto;
+	object-fit: cover;
+}
+
+.hero-video-media-overlay {
+	background: url(../imgs/spacer.gif) repeat left top; 
+	height: 310px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 20;
+
+	@include breakpoint(sm) {
+		height: 670px;
+	}
+}
+
+.hero-video-copy {
+	display: table-cell;
+	position: relative;	
+	vertical-align: middle;
+	z-index: 30;
+  	text-align: center;
+}

@@ -37,16 +37,6 @@
 </file>
 <file name="assets/js/src/modules/jquery.ta.megamenu.js">
   
-  <issue
-    line="43"
-    char="&lt;anonymous&gt;.delegateEvents"
-    evidence="&lt;anonymous&gt;.delegateEvents is too complicated"
-    reason="Cyclomatic: 2,
-    Halstead: 8.0938
-    | Effort: 2526.3
-    | Volume: 312.13
-    | Vocabulary: 23" />
-  
 </file>
 <file name="assets/js/src/main.js">
   

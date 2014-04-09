@@ -1,31 +1,25 @@
 ---
 title: Header
 ---
-<div id="nav-main-header" class="header megamenu bar-fixed-top">
+<div id="nav-main-header" class="header megamenu">
 
-    {{! consider adding some target wrappers here? }}
+{{! consider adding some target wrappers here? }}
 
     <div class="accessibility-links">
         <a tabindex="1" class="sr-only vis-focusable" href="#main-content">Skip to content</a>
         <a tabindex="2" class="sr-only vis-focusable" href="#main-footer">Skip to footer navigation</a>
     </div>
 
-    {{! These bars have been set up for development purposes only at this point, they were needed to get some idea of how things might work together... }}
-
-    {{! NOTICE-BAR: this bar will only be visible when a notice is available... }
-    <div class="nav-bar notice-bar bar-scroll-top">
-        <div class="row l-center-1200">
-            <p class="notice-text notice-title">News alert</p>
-            <p class="notice-text notice-summary">Lorem ipsum dolor sit amet consecuter. Ut enim ad minim. <a href="#">View the announcement</a></p>
-            <button class="notice-close"><span class="icon icon-16 icon-close" aria-hidden="true"></span></button>
-        </div>
-    </div>
+    {{> header_notice_bar}}
 
     {{! ARRIVAL-BAR: this bar will only be visible on arrival, scrolling will move it out of view and fix the header to the top... }}
     <div class="nav-bar arrival-bar bar-scroll-top">
         <div class="row l-center-1200">
             <ul class="nav-bar-nav nav-bar-right">
-                <li class="header-byline"><span>The official Australian tourism website.<br />The site uses cookies. <a href="#">Find out more</a>.</span></li>
+                <li class="header-byline">
+                    <span class="l-nowrap">The official Australian tourism website.</span>
+                    <span class="l-nowrap">The site uses cookies. <a href="#">Find out more</a>.</span>
+                </li>
             </ul>
             <ul class="nav-bar-nav nav-bar-left">
                 <li class="is-current"><a href="#">Holiday in Australia</a></li>
@@ -35,7 +29,7 @@ title: Header
     </div>
 
     {{! TOP_BAR: this bar will always be visiable, it will remain fixed to the top of the viewport at all times except on arrival... }}
-    <div class="nav-bar navigation-bar">
+    <div id="nav-bar-top" class="nav-bar navigation-bar bar-fixed-scroll">
         <div class="row l-center-1200">
 
             {{! BEGIN: MASTHEAD }}
@@ -74,7 +68,7 @@ title: Header
                                         </fieldset>
                                     </form>
 
-                                    <a tabindex="-1" class="nav-bar-panel-close" href="#"><span class="icon icon-16 icon-close" aria-hidden="true"></span></a>
+                                    <a tabindex="-1" class="nav-bar-panel-close" href="#nav-bar-top"><span class="icon icon-16 icon-close" aria-hidden="true"></span></a>
                                 </div>
                             </li>
                         </ul>
@@ -93,7 +87,7 @@ title: Header
                                         <li><a href="#">Link Text</a></li>
                                     </ul>
 
-                                    <a tabindex="-1" class="nav-bar-panel-close" href="#"><span class="icon icon-16 icon-close" aria-hidden="true"></span></a>
+                                    <a tabindex="-1" class="nav-bar-panel-close" href="#nav-bar-top"><span class="icon icon-16 icon-close" aria-hidden="true"></span></a>
                                 </div>
                             </li>
                         </ul>
@@ -128,7 +122,7 @@ title: Header
                                         <li><a href="#">Link Text</a></li>
                                     </ul>
 
-                                    <a tabindex="-1" class="nav-bar-panel-close" href="#"><span class="icon icon-16 icon-close" aria-hidden="true"></span></a>
+                                    <a tabindex="-1" class="nav-bar-panel-close" href="#nav-bar-top"><span class="icon icon-16 icon-close" aria-hidden="true"></span></a>
                                 </div>
                             </li>
                         </ul>
@@ -147,7 +141,7 @@ title: Header
                                         <li><a href="#">Link Text</a></li>
                                     </ul>
 
-                                    <a tabindex="-1" class="nav-bar-panel-close" href="#"><span class="icon icon-16 icon-close" aria-hidden="true"></span></a>
+                                    <a tabindex="-1" class="nav-bar-panel-close" href="#nav-bar-top"><span class="icon icon-16 icon-close" aria-hidden="true"></span></a>
                                 </div>
                             </li>
                         </ul>
@@ -174,7 +168,7 @@ title: Header
                                         <li><a href="#">Link Text</a></li>
                                     </ul>
 
-                                    <a tabindex="-1" class="nav-bar-panel-close" href="#"><span class="icon icon-16 icon-close" aria-hidden="true"></span></a>
+                                    <a tabindex="-1" class="nav-bar-panel-close" href="#nav-bar-top"><span class="icon icon-16 icon-close" aria-hidden="true"></span></a>
                                 </div>
                             </li>
                         </ul>
@@ -183,12 +177,12 @@ title: Header
                 {{! END: MAIN NAV }}
 
                 {{! START: MOBILE TOP BAR IN OPEN STATE }}
-                <div class="mobile-open-bar bar-fixed-top">
+                <div class="mobile-open-bar bar-fixed-scroll">
                     <ul class="tool-bar">
                         <li class="is-current"><a href="#">Holiday</a></li>
                         <li><a href="#">Business</a></li>
                         <li class="nav-bar-toggle">
-                            <a class="nav-toggle-close" href="#"><span class="icon icon-close icon-32" aria-hidden="true"></span>
+                            <a class="nav-toggle-close" href="#nav-bar-top"><span class="icon icon-close icon-32" aria-hidden="true"></span>
                                 <span class="sr-only">Close Navigation</span></a></li>
                     </ul>
                 </div>

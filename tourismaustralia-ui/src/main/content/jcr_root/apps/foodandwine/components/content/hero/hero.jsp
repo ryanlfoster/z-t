@@ -9,11 +9,11 @@
     <div class="faw-hero-home-bg fullwidth-bg">
         <div class="responsive-image" data-picture="" data-alt="" >
             <div data-src="${hero.imagePath}.adapt.1663.low.jpg" data-media="(min-width: 1px)"></div>
-            <div data-src="${hero.imagePath}.adapt.1663.low.jpg" data-media="(min-width: 481px)"></div>
-            <div data-src="${hero.imagePath}.adapt.1663.low.jpg" data-media="(min-width: 769px)"></div>
-            <div data-src="${hero.imagePath}.adapt.1663.low.jpg" data-media="(min-width: 993px)"></div>
+            <div data-src="${hero.imagePath}.adapt.1663.medium.jpg" data-media="(min-width: 481px)"></div>
+            <div data-src="${hero.imagePath}.adapt.1663.high.jpg" data-media="(min-width: 769px)"></div>
+            <div data-src="${hero.imagePath}.adapt.1663.high.jpg" data-media="(min-width: 993px)"></div>
             <noscript>
-                <img src='${hero.imagePath}.adapt.1663.low.jpg' alt=''>
+                <img src='${hero.imagePath}.adapt.1663.high.jpg' alt=''>
             </noscript>
         </div>
         <!--[if (lt IE 9) & (!IEMobile)]>

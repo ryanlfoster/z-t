@@ -13,7 +13,7 @@
 	//@include transition (height, 1s, cubic-bezier(0.455, 0.030, 0.515, 0.955), .1s);
 
 	@include breakpoint(sm) {
-	height: 650px;
+	height: 489px;
 	}
 }
 
@@ -30,6 +30,12 @@
 	@include breakpoint(sm) {
 		height: 678px;
 	}
+}
+
+.hero-video-media {
+	position: fixed;
+	top: 0;
+	left: 0;
 }
 
 .hero-video-media-video #bgvid {

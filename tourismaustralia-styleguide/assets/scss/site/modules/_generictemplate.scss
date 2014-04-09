@@ -1,7 +1,7 @@
 ///*
-// * What you can see:
+// * Generic Template:
 // * ---------------------------------------------------------------------------------------------------------------- */
-.map{
+.generictemplate{
   padding-top: pxtoem(107px);
   @include breakpoint(md){
     padding-top: pxtoem(159px);
@@ -10,16 +10,16 @@
     padding-top: pxtoem(130px);
   }
 }
-.map_title{
+.generictemplate_title{
   display: none;
   @include breakpoint(lg){
     display: block;
   }
 }
 
-.map_shown_ontablet{
+.generictemplate_shown_ontablet{
 
-  .map_title{
+  .generictemplate_title{
     display: none;
     @include breakpoint(md){
       display: block;
@@ -27,9 +27,9 @@
   }
 }
 
-.map_shown_onmobile{
+.generictemplate_shown_onmobile{
 
-  .map_title{
+  .generictemplate_title{
       display: block;
   }
 }

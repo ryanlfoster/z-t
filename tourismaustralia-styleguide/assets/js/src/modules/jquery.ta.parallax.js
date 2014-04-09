@@ -66,14 +66,14 @@
             if((scope.options.containerOffset - scope.options.heightOfWindow) >= scope.options.windowPositionTop){
                 // if we are, set the transform to 0
                 $(scope.element).find('img').css({
-                        'transform': 'translate3d(0px, 0px, 0px)',
-                        '-moz-transform': 'translate3d(0px, 0px, 0px)',
-                        '-webkit-transform': 'translate3d(0px, 0px, 0px)',
-                        '-ms-transform': 'translate3d(0px, 0px, 0px)',
-                        '-o-transform': 'translate3d(0px, 0px, 0px)'
+                        'transform': 'translate3d(0px, -' + scope.options.parallaxOffset + 'px, 0px)',
+                        '-moz-transform': 'translate3d(0px, -' + scope.options.parallaxOffset + 'px, 0px)',
+                        '-webkit-transform': 'translate3d(0px, -' + scope.options.parallaxOffset + 'px, 0px)',
+                        '-ms-transform': 'translate3d(0px, -' + scope.options.parallaxOffset + 'px, 0px)',
+                        '-o-transform': 'translate3d(0px, -' + scope.options.parallaxOffset + 'px, 0px)'
                 });
 
-                scope.options.parallaxPosition = 0;
+                scope.options.parallaxPosition = -scope.options.parallaxOffset;
 
                 // Trigger bool for in view
                 scope.options.parallaxInView = false;
@@ -92,10 +92,10 @@
             if(scope.options.parallaxInView){
                 // check if we are scrolling down or up
                 if(scope.options.lastScrollPosition < scope.options.windowPositionTop){
-                    // Scrolling Down
+                    // Scrolling down
 
-                    if(scope.options.parallaxPosition > -scope.options.parallaxOffset){
-                        scope.options.parallaxPosition -= scope.options._parallaxSpeed;
+                    if(scope.options.parallaxPosition < scope.options.parallaxOffset){
+                        scope.options.parallaxPosition += scope.options._parallaxSpeed;
                     }
 
                     $(scope.element).find('img').css({
@@ -109,7 +109,7 @@
                     // Scrolling Up
 
                     if(scope.options.parallaxPosition < -1){
-                        scope.options.parallaxPosition += scope.options._parallaxSpeed;
+                        scope.options.parallaxPosition -= scope.options._parallaxSpeed;
                     }
 
                     $(scope.element).find('img').css({

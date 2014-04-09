@@ -637,7 +637,8 @@ $footerBackgroundColour: #0a334c;
 }
 
 #main-header {
-	//position: relative;
+	position: relative;
+  z-index: 5;
 	//padding: pxtoem(1px) 0;
 }
 

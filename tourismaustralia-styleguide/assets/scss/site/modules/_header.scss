@@ -188,12 +188,13 @@ $navigation-bar-height: pxtoem(90px);
 }
 
 .notice-bar.is-active + #main-header + #main-content {
-
+/*
     // these were the defaults...
     margin-top: 2em;
     @include breakpoint(sm) {
         margin-top: 9em;
     }
+    */
 }
 
 ///*
@@ -585,6 +586,7 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
 
         // Tablet & >...
         @media (min-width: $screen-sm-min) {
+            z-index: 1;
             position: absolute;
             background-color: $navigation-bar-dropdown-bg;
         }
@@ -796,20 +798,21 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
 
     .header {
 
-        height: 58px;
+        //height: 58px;
         @include nav-main-header-close();
 
         .nav-bar-panel-close {
             display: none;
         }
 
-
+        /*
+        .notice-bar,
         .arrival-bar {
             overflow: hidden;
-            max-height: 200px;
+            max-height: 500px;
             @include transition(max-height, 0.15s, ease-out, 0.25s);
         }
-
+        */
 
         .navigation-bar {
             height: 58px;
@@ -840,12 +843,13 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
         height: 100%;
         @include nav-main-header-open();
 
-
+        /*
+        .notice-bar,
         .arrival-bar {
             max-height: 0;
             @include transition(max-height, 0.15s, ease-in, 0);
         }
-
+        */
 
         .navigation-bar .l-center-1200 {
             height: 100%;

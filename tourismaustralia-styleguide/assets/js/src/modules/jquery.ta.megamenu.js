@@ -53,82 +53,79 @@
     Plugin.prototype.initStickyNavBars = function (scope) {
         scope.options.offsetTop = $(window).scrollTop();
         scope.options.heightAbove = 0;
-
-        $(scope.element).find('.bar-scroll-top').each(function (elm) {
+        $(scope.element).find('.bar-scroll-top').each(function () {
             scope.options.heightAbove += $(this).height();
-            console.log($(this).height());
         });
-
         scope.stickyNavBars(scope);
     };
 
     // Sticky Nav Bars
     Plugin.prototype.stickyNavBars = function (scope) {
-        window.onscroll = function () {
+        $(window).on('scroll', function () {
             scope.options.offsetTop = $(window).scrollTop();
             if (scope.options.offsetTop > scope.options.heightAbove) {
                 $('.bar-fixed-scroll').addClass('bar-fixed-top');
             }
-
             if (scope.options.offsetTop <= 0) {
                 $('.bar-fixed-scroll').removeClass('bar-fixed-top');
             }
-        }
+        });
     };
 
     // Setup Notice Events
     Plugin.prototype.noticeEvents = function (scope, event) {
         $(scope.element).find(scope.options.mm_notice_close_button).on(event, function (e) {
+            e.preventDefault();
             scope.closeNotice(scope, e);
         });
     };
 
     // Setup Mobile Events
     Plugin.prototype.mobileEvents = function (scope, event) {
-
         $(scope.element).find(scope.options.mm_mobile_open_main_nav).on(event, function (e) {
-            scope.openMainNav(scope, e);
+            e.preventDefault();
+            scope.openMainNav(scope);
         });
 
         $(scope.element).find(scope.options.mm_mobile_close_main_nav).on(event, function (e) {
-            scope.closeMainNav(scope, e);
+            e.preventDefault();
+            scope.closeMainNav(scope);
         });
     };
 
     // Setup Desktop Events
     Plugin.prototype.desktopEvents = function (scope, event) {
         $(scope.element).find(scope.options.mm_all_toggle_panel_nav).on(event, function (e) {
+            e.preventDefault();
             scope.toggleNavPanel(scope, e);
         });
     };
 
     // Open Main Nav Mobile
-    Plugin.prototype.closeNotice = function (scope, e) {
-        e.preventDefault();
-        var $el = $(e.currentTarget).closest('.notice-bar');
-        $el.slideUp(function() {
+    Plugin.prototype.closeNotice = function (scope) {
+        var $el = $(scope.element).find('.notice-bar');
+        $el.slideUp(function () {
             $(this).remove();
-
-            //recalc
             scope.initStickyNavBars(scope);
         });
     };
 
     // Open Main Nav Mobile
-    Plugin.prototype.openMainNav = function (scope, e) {
-        e.preventDefault();
+    Plugin.prototype.openMainNav = function (scope) {
+        scope.closeNotice(scope);
+        $('html, body').animate({
+            scrollTop: scope.options.heightAbove
+        }, 150);
         $(scope.element).addClass('is-open');
     };
 
     // Close Main Nav Mobile
-    Plugin.prototype.closeMainNav = function (scope, e) {
-        e.preventDefault();
+    Plugin.prototype.closeMainNav = function (scope) {
         $(scope.element).removeClass('is-open');
     };
 
     // toggle Nav Panel
     Plugin.prototype.toggleNavPanel = function (scope, e) {
-        e.preventDefault();
         var $el = $(e.currentTarget);
 
         if ($el.closest('.has-children').hasClass('is-open')) {

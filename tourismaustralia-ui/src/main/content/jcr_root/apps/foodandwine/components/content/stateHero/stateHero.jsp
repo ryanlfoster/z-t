@@ -1,6 +1,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@include file="/apps/foodandwine/components/global.jsp" %>
 <%@ page import="com.australia.foodandwine.components.content.statehero.StateHero" %>
+
 <c:set var="stateHero" value="<%=new StateHero(slingRequest) %>"/>
 
 <div class='faw-places faw-bg-full-container'>
@@ -20,17 +21,6 @@
     </div>
     <div class='faw-places-inner'>
 <div class="calltoaction calltoactionbubble">
-    <!--
-    <div class="head-divider experiences-head-divider">
-        <div class="head-divider-inner">
-            <hr class="icon-logo-withlines-hr icon-logo-withlines-hr-small">
-            <h5>
-                <img src="imgs/base/headline-map-icon.png">
-            </h5>
-            <hr class="icon-logo-withlines-hr icon-logo-withlines-hr-small">
-        </div>
-    </div>
-    -->
     <div class="head-divider">
         <div class="head-divider-inner">
             <hr class="icon-logo-withlines-hr icon-logo-withlines-hr-small experiences-head-divider-hr">
@@ -40,7 +30,7 @@
             <hr class="icon-logo-withlines-hr icon-logo-withlines-hr-small experiences-head-divider-hr">
         </div>
     </div>
-    <h5>${stateHero.topText}</h5>
+     <h5>${stateHero.topText}</h5>
     <h2>${stateHero.centerText}</h2>
     <h5>${stateHero.bottomText}</h5>
     <hr class="divider-small">
@@ -79,5 +69,3 @@
         <!-- END: selection -->
     </div>
 </div>
-
-

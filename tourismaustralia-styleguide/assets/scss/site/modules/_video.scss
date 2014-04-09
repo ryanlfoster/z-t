@@ -43,6 +43,8 @@
 }
 
 .video-2column-container {
+  padding-bottom: pxtoem($bottom-spacing);
+
   @include breakpoint(md) {
     padding-right: 220px;
   }

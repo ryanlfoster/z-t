@@ -621,6 +621,10 @@ $footerBackgroundColour: #0a334c;
   padding-top: 15px;
 }
 
+.l-padding-b {
+  padding-bottom: pxtoem($bottom-spacing);
+}
+
 .l-float-left {
   float: left;
 }

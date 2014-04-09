@@ -91,11 +91,14 @@
     font-size: pxtoem(80px);
   }
 }
-.hero-home-favourite {
+.home-hero-favourite {
   position: relative;
   margin: 0 auto;
   display: table;
   left: 0;
+  @include breakpoint(md) {
+    margin: inherit;
+  }
 }
 .home-explore-summary-map {
   text-align: left;

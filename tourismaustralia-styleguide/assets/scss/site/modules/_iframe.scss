@@ -17,7 +17,6 @@
 }
 .iframe_notsupported{
   background: #fff;
-  margin-top: pxtoem(107px);
   display: block;
   @include breakpoint(lg){
     display: none;

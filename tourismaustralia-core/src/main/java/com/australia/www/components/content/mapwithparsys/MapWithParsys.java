@@ -34,7 +34,6 @@ public class MapWithParsys {
     private String title;
 
     @DialogField(fieldLabel = "Text", required = false, tab = 2)
-    @RichTextEditor
     private String text;
 
     public MapWithParsys(SlingHttpServletRequest request) {

@@ -1,21 +1,22 @@
 package com.australia.atdw.cron;
 
-import java.io.IOException;
-import java.util.concurrent.TimeUnit;
-
-import org.apache.felix.scr.annotations.Component;
-import org.apache.felix.scr.annotations.Properties;
-import org.apache.felix.scr.annotations.Property;
-import org.apache.felix.scr.annotations.Reference;
-import org.apache.felix.scr.annotations.Service;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import com.australia.atdw.jms.AtdwQueueService;
 import com.australia.atdw.remote.domain.products.AtdwProductsResponse;
 import com.australia.atdw.remote.domain.products.Product;
 import com.australia.atdw.remote.service.AtdwService;
+import com.australia.atdw.service.ATDWProductService;
 import com.google.common.base.Stopwatch;
+import org.apache.felix.scr.annotations.*;
+import org.osgi.framework.BundleContext;
+import org.quartz.CronExpression;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import java.io.IOException;
+import java.text.ParseException;
+import java.util.Date;
+import java.util.Map;
+import java.util.concurrent.TimeUnit;
 
 @Component(label = "Atdw Sync Cron Service", metatype = true)
 @Service
@@ -30,12 +31,18 @@ public class AtdwSyncCron implements Runnable {
 	@Reference
 	private AtdwService atdwService;
 
+    @Reference
+    private ATDWProductService adtwProductService;
+
+    private String schedulerExpression;
+
 	@Override
 	public void run() {
 		LOG.debug("Starting Sync from ATDW");
 		Stopwatch stopwatch = Stopwatch.createStarted();
 		try {
 			loadProductsFromAtdw(1);
+            removeStaleProducts();
 		} catch (IOException e) {
 			LOG.error("Error syncing products from ATDW", e);
 		}
@@ -54,5 +61,34 @@ public class AtdwSyncCron implements Runnable {
 			}
 		}
 	}
+
+    private void removeStaleProducts() {
+        if(schedulerExpression != null) {
+            try {
+                CronExpression expression = new CronExpression(schedulerExpression);
+                Date now = new Date();
+                Date thisExecution = expression.getTimeBefore(now);
+                Date previousExecution = expression.getTimeBefore(thisExecution);
+                Date twicePreviousExecution = expression.getTimeBefore(previousExecution);
+                adtwProductService.deleteOldProducts(twicePreviousExecution);
+            } catch (ParseException e) {
+                LOG.error("Removal of stale products failed: Unable to parse Cron expression", e);
+            }
+        } else {
+            LOG.error("Removal of stale products failed: Scheduler expression not found");
+        }
+    }
+
+    @Modified
+    void modified(Map<String, Object> values) {
+        Object expressionObject = values.get("scheduler.expression");
+        schedulerExpression = (expressionObject instanceof String) ? (String) expressionObject : schedulerExpression;
+    }
+
+    @Activate
+    void activate(BundleContext context, Map<String, Object> values) {
+        Object expressionObject = values.get("scheduler.expression");
+        schedulerExpression = (expressionObject instanceof String) ? (String) expressionObject : schedulerExpression;
+    }
 
 }

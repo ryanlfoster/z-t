@@ -50,52 +50,52 @@ public class AtdwHighlights {
 
     private final ATDWProductService productService;
 
-    @DialogField(fieldLabel="Component Title", name="./"+Constants.NAME_TITLE, tab = 1)
+    @DialogField(fieldLabel="Component Title", tab = 1)
     private final String title;
 
-    @DialogField(fieldLabel="Component Text", name="./"+Constants.NAME_TEXT, tab = 1, xtype="textarea", additionalProperties={@FieldProperty(name="grow", value="true")})
+    @DialogField(fieldLabel="Component Text",  tab = 1, xtype="textarea",
+            additionalProperties={@FieldProperty(name="grow", value="true")})
     private final String text;
 
-    @DialogField(fieldLabel="Product Population  Strategy", name="./strategy", tab = 1, xtype = "highlightstrategy",
+    @DialogField(fieldLabel="Product Population  Strategy", tab = 1, xtype = "highlightstrategy",
         fieldDescription="Choose to populate by City, State, Search Term, or Tag.  If tag is selected, the containing" +
                 " page should have a \"ta:places\" tag associated with it.", defaultValue = "Tag|")
     private final String strategy;
-
     private final String type;
     private final String typeArgument;
 
-    @DialogField(fieldLabel="Accommodation", name="./"+Constants.NAME_SHOW_ACCOMMODATIONS,
-            fieldDescription="When checked, 'Accommodation' will be displayed", defaultValue="true", tab = 2)
+    @DialogField(fieldLabel="Accommodation", fieldDescription="When checked, 'Accommodation' will be displayed",
+            defaultValue="true", tab = 2)
     @Selection(type=Selection.CHECKBOX, options=@Option(value="true"))
-    private final boolean showAccommodation;
+    private final boolean showAccommodations;
 
-    @DialogField(fieldLabel="Attractions", name="./"+Constants.NAME_SHOW_ATTRACTIONS,
-            fieldDescription="When checked, 'Attractions' will be displayed", defaultValue="true", tab = 2)
+    @DialogField(fieldLabel="Attractions", fieldDescription="When checked, 'Attractions' will be displayed",
+            defaultValue="true", tab = 2)
     @Selection(type=Selection.CHECKBOX, options=@Option(value="true"))
-    private final boolean showAttraction;
+    private final boolean showAttractions;
 
-    @DialogField(fieldLabel="Restaurants", name="./"+Constants.NAME_SHOW_RESTAURANTS,
-            fieldDescription="When checked, 'Restaurants' will be displayed", defaultValue="true", tab = 2)
+    @DialogField(fieldLabel="Restaurants", fieldDescription="When checked, 'Restaurants' will be displayed",
+            defaultValue="true", tab = 2)
     @Selection(type=Selection.CHECKBOX, options=@Option(value="true"))
     private final boolean showRestaurants;
 
-    @DialogField(fieldLabel="Tours", name="./"+Constants.NAME_SHOW_TOURS,
-            fieldDescription="When checked, 'Tours' will be displayed", defaultValue="true", tab = 2)
+    @DialogField(fieldLabel="Tours", fieldDescription="When checked, 'Tours' will be displayed",
+            defaultValue="true", tab = 2)
     @Selection(type=Selection.CHECKBOX, options=@Option(value="true"))
     private final boolean showTours;
 
-    @DialogField(fieldLabel="Hire", name="./"+Constants.NAME_SHOW_HIRE,
-            fieldDescription="When checked, 'Hire' will be displayed", defaultValue="true", tab = 2)
+    @DialogField(fieldLabel="Hire", fieldDescription="When checked, 'Hire' will be displayed",
+            defaultValue="true", tab = 2)
     @Selection(type=Selection.CHECKBOX, options=@Option(value="true"))
     private final boolean showHire;
 
-    @DialogField(fieldLabel="Events", name="./"+Constants.NAME_SHOW_EVENTS,
-            fieldDescription="When checked, 'Events' will be displayed", defaultValue="true", tab = 2)
+    @DialogField(fieldLabel="Events", fieldDescription="When checked, 'Events' will be displayed",
+            defaultValue="true", tab = 2)
     @Selection(type=Selection.CHECKBOX, options=@Option(value="true"))
     private final boolean showEvents;
 
-    @DialogField(fieldLabel="Transport", name="./"+Constants.NAME_SHOW_TRANSPORT,
-            fieldDescription="When checked, 'Transport' will be displayed", defaultValue="true", tab = 2)
+    @DialogField(fieldLabel="Transport", fieldDescription="When checked, 'Transport' will be displayed",
+            defaultValue="true", tab = 2)
     @Selection(type=Selection.CHECKBOX, options=@Option(value="true"))
     private final boolean showTransport;
 
@@ -133,8 +133,8 @@ public class AtdwHighlights {
 
         localeResource = PathUtils.getLanguageResource(resource);
 
-        showAccommodation = properties.get(Constants.NAME_SHOW_ACCOMMODATIONS, false);
-        showAttraction = properties.get(Constants.NAME_SHOW_ATTRACTIONS, false);
+        showAccommodations = properties.get(Constants.NAME_SHOW_ACCOMMODATIONS, false);
+        showAttractions = properties.get(Constants.NAME_SHOW_ATTRACTIONS, false);
         showRestaurants = properties.get(Constants.NAME_SHOW_RESTAURANTS, false);
         showTours = properties.get(Constants.NAME_SHOW_TOURS, false);
         showHire = properties.get(Constants.NAME_SHOW_HIRE, false);
@@ -174,7 +174,7 @@ public class AtdwHighlights {
     public List<Category> getActiveCategories() {
         boolean overrideHidden = false;
         // If all categories are hidden, turn them all on.  Fixes an issue when the component is first added to a page.
-        if (!showAccommodation && !showAttraction && !showRestaurants && !showTours && !showHire && !showEvents &&
+        if (!showAccommodations && !showAttractions && !showRestaurants && !showTours && !showHire && !showEvents &&
                 !showTransport) {
             overrideHidden = true;
         }

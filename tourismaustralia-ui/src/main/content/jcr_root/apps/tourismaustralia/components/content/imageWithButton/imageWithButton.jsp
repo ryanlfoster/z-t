@@ -59,10 +59,8 @@
                                     </div>
                                 <hr>
                             </c:if>
-                            <c:if test="${not empty imageButton.imageButtonText}">
-                                <c:if test = "${not empty imageButton.imageButtonPath}">
-                                    <a href="${imageButton.imageButtonPath}" class="image-btn">${imageButton.imageButtonText}</a>
-                                </c:if>
+                            <c:if test="${not empty imageButton.imageButtonText and not empty imageButton.imageButtonPath}">
+                                <a href="${imageButton.imageButtonPath}" class="image-btn">${imageButton.imageButtonText}</a>
                             </c:if>
                         </div>
                     </div>
@@ -72,21 +70,29 @@
             <div class="large-image-social-mention make-white}">
                 <div class="social-mention">
                     <div class="social-mention-container">
-                        <div class="social-mention-image">
-                                <c:choose>
-                                    <c:when test="${not empty imageButton.refIconImageAlt}">
+                        <c:choose>
+                            <c:when test="${not empty imageButton.refIconImageAlt}">
+                                <c:if test = "${not empty imageButton.refBoldText and not empty imageButton.refRegularText}">
+                                    <div class="social-mention-image">
                                         <img src="${imageButton.refIconImageSrc}" alt="${imageButton.refIconImageAlt}">
-                                    </c:when>
-                                    <c:otherwise>
+                                    </div>
+                                    <div class="social-mention-details">
+                                        <p><strong>${imageButton.refBoldText}, </strong>${imageButton.refRegularText}</p>
+                                    </div>
+
+                                </c:if>
+                            </c:when>
+                            <c:otherwise>
+                                <c:if test = "${not empty imageButton.refBoldText and not empty imageButton.refRegularText}">
+                                    <div class="social-mention-image">
                                         <img src="${imageButton.refIconImageSrc}" alt="">
-                                    </c:otherwise>
-                                </c:choose>
-                        </div>
-                        <c:if test = "${not empty (imageButton.refBoldText and imageButton.refRegularText)}">
-                            <div class="social-mention-details">
-                                <p><strong>${imageButton.refBoldText},</strong>${imageButton.refRegularText}</p>
-                            </div>
-                        </c:if>
+                                    </div>
+                                    <div class="social-mention-details">
+                                        <p><strong>${imageButton.refBoldText}, </strong>${imageButton.refRegularText}</p>
+                                    </div>
+                                </c:if>
+                            </c:otherwise>
+                        </c:choose>
                     </div>
                 </div>
 

@@ -1,0 +1,19 @@
+///*
+// * What you can see:
+// * ---------------------------------------------------------------------------------------------------------------- */
+
+.largetitle {
+  background:$largetitle_bg ;
+  margin-top: pxtoem(107px);
+  @include breakpoint(md){
+    margin-top: pxtoem(159px);
+  }
+  @include breakpoint(lg){
+    margin-top: pxtoem(130px);
+  }
+}
+.largetitle h1{
+  text-align: center;
+  color:#fff;
+  margin:.4em auto;
+}

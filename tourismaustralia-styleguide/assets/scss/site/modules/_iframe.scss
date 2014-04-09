@@ -17,15 +17,15 @@
 }
 .iframe_notsupported{
   background: #fff;
-  margin-top: pxtoem(107px);
   display: block;
+  padding-bottom: 2.75em;
   @include breakpoint(lg){
     display: none;
   }
 }
 
 .iframe_notsupported h1{
-  padding-top: .6em;
+  margin-top: .25em;
 }
 
 .map_shown_ontablet{
@@ -49,17 +49,11 @@
 .map_shown_onmobile{
 
   .iframe_wrapper{
-    display: none;
-    @include breakpoint(sm){
       display: block;
-    }
   }
 
   .iframe_notsupported{
-    display: block;
-    @include breakpoint(sm){
       display: none;
-    }
   }
 
 }

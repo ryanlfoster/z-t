@@ -67,7 +67,7 @@
                 // if we are, set the transform to 0
                 $(scope.element).find('img').css({
                         'transform': 'translate3d(0px, 0px, 0px)',
-                        '-moz-transform': 'translate3d(0px, 0px)',
+                        '-moz-transform': 'translate3d(0px, 0px, 0px)',
                         '-webkit-transform': 'translate3d(0px, 0px, 0px)',
                         '-ms-transform': 'translate3d(0px, 0px, 0px)',
                         '-o-transform': 'translate3d(0px, 0px, 0px)'

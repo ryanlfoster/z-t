@@ -43,6 +43,8 @@
 }
 
 .video-2column-container {
+  padding-bottom: pxtoem($bottom-spacing);
+
   @include breakpoint(md) {
     padding-right: 220px;
   }
@@ -55,12 +57,7 @@
 // LARGE VIDEO
 ///////////////
 .video-large-container {
-  max-width: 1200px;
-  padding: 0;
-
-  @include breakpoint(lg){
-    //padding: 0 15px;
-  }
+  padding-bottom: pxtoem($bottom-spacing);
 }
 .video-title-large-video {
   font-family: $font-family-secondary;

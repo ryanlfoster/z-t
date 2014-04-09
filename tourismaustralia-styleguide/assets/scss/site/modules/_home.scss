@@ -1,6 +1,6 @@
 
 .home-hero {
-  margin-bottom: .8em;
+  margin-bottom: pxtoem(43px);
   position: relative;
   width:  auto;
   height: 290px;
@@ -27,11 +27,11 @@
   overflow: hidden;
   top: 0;
   left: 0;
-  z-index: -1;
+  z-index: 0;
   
   /* IE 10 fix */
   @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-      z-index: -1; 
+      // z-index: 0; 
   }
 
   @include breakpoint(sm) {
@@ -105,7 +105,7 @@
   background: rgba(255,255,255,1);
   position: relative;
   margin-top: -30px;
-  padding-top: 15px;
+  padding: 15px 0 pxtoem($bottom-spacing);
   z-index: 1;
 }
 .home-summary-map-container {

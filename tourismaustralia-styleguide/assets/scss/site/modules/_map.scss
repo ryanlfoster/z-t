@@ -1,7 +1,15 @@
 ///*
 // * What you can see:
 // * ---------------------------------------------------------------------------------------------------------------- */
-
+.map{
+  padding-top: pxtoem(107px);
+  @include breakpoint(md){
+    padding-top: pxtoem(159px);
+  }
+  @include breakpoint(lg){
+    padding-top: pxtoem(130px);
+  }
+}
 .map_title{
   display: none;
   @include breakpoint(lg){
@@ -22,9 +30,6 @@
 .map_shown_onmobile{
 
   .map_title{
-    display: none;
-    @include breakpoint(sm){
       display: block;
-    }
   }
 }

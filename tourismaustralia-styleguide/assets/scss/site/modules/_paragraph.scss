@@ -6,10 +6,10 @@
 
 .paragraph-icon, .paragraph-city, .paragraph-state, .paragraph-article, .paragraph-video {
   background: #fff;
+  position: relative;
 }
 
 .paragraph-article {
-  position: relative;
 
   //CMS implementation
   & > .text >  p {
@@ -51,6 +51,8 @@
   & >  p {
     padding-left: pxtoem(15px);
     padding-right: pxtoem(15px);
+    margin: 0;
+    padding-bottom: pxtoem($bottom-spacing);
   }
 
   @include breakpoint(md) {
@@ -71,8 +73,7 @@
       padding-right: 28em;
       padding-left: 19.7em;
       max-width: pxtoem(1200px);
-      margin-left: auto;
-      margin-right: auto;
+      margin: 0 auto;
     }
 
   }

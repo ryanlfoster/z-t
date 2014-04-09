@@ -4,7 +4,7 @@
 //Unable to apply class directly to paragraph this needs to be targeted specifically without impacting other modules
 //Todo - May need to target the AEM "CQ" div that gets wrapped around the p target to ensure there is minimal implact.
 
-.paragraph-icon, .paragraph-city, .paragraph-state, .paragraph-article {
+.paragraph-icon, .paragraph-city, .paragraph-state, .paragraph-article, .paragraph-video {
   background: #fff;
 }
 
@@ -77,4 +77,12 @@
 
   }
 
+}
+
+/* TEMP SOLUTION FOR PAGE ALIGNMENT */
+.paragraph-video {
+  margin-top: 2em;
+  @include breakpoint(sm) {
+    margin-top: 9em;
+  }
 }

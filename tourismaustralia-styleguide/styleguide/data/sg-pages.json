@@ -408,6 +408,28 @@
                     ,
                 
             
+                "video_add_tags_share" : {
+                     "data" : {
+                        "title" : "video_add_tags_share",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'video_add_tags_share'}}"
+                }
+                
+                    ,
+                
+            
+                "featuredproducts" : {
+                     "data" : {
+                        "title" : "featuredproducts",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'featuredproducts'}}"
+                }
+                
+                    ,
+                
+            
                 "tagclouditem" : {
                      "data" : {
                         "title" : "tagclouditem",
@@ -728,6 +750,28 @@
                         "layout" : "styleguide-preview.hbs"
                     },
                     "content" : "{{section 'mosaicitemsocial_detail'}}"
+                }
+                
+                    ,
+                
+            
+                "mosaicitemoption" : {
+                     "data" : {
+                        "title" : "mosaicitemoption",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'mosaicitemoption'}}"
+                }
+                
+                    ,
+                
+            
+                "mosaic3columnitem_detail" : {
+                     "data" : {
+                        "title" : "mosaic3columnitem_detail",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'mosaic3columnitem_detail'}}"
                 }
                 
                     ,

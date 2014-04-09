@@ -2,10 +2,11 @@
 .explore-container {
 
   overflow: hidden;
+  padding-bottom: pxtoem($bottom-spacing);
 
   @include breakpoint(lg) {
     //padding-top: pxtoem(55px);
-    padding: pxtoem(15px) 0;
+    padding: pxtoem(15px) 0 pxtoem($bottom-spacing);
   }
 
   /*

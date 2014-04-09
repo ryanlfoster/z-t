@@ -6,10 +6,10 @@
 
 .paragraph-icon, .paragraph-city, .paragraph-state, .paragraph-article, .paragraph-video {
   background: #fff;
+  position: relative;
 }
 
 .paragraph-article {
-  position: relative;
 
   //CMS implementation
   & > .text >  p {

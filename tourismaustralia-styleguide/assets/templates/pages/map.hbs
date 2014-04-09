@@ -4,11 +4,13 @@ Title: Map
 note: note-map
 ---
 <div class="map map_shown_ontablet">
-    {{#parseJSON '{
-    "largetitle_text" : "explore australia by map"
-    }'}}
-        {{> largetitle }}
-    {{/parseJSON}}
+    <div class="map_title">
+        {{#parseJSON '{
+        "largetitle_text" : "explore australia by map"
+        }'}}
+            {{> largetitle }}
+        {{/parseJSON}}
+    </div>
 
     {{> iframe }}
 

@@ -6,6 +6,15 @@
 <c:set var="global" value="<%=new Global(slingRequest) %>"/>
 
 <body>
+	<script type="application/javascript">
+		// IE console.log disable errors
+		if ( typeof console === "undefined" || typeof console.log === "undefined") {
+			console = {};
+			console.log = function() {
+			};
+		}
+	</script>
+	
 	<% WCMMode modeBefore = WCMMode.fromRequest(slingRequest); %>
 	
    	<c:if test="${not global.isHomePage}"> 
@@ -16,7 +25,7 @@
 	<!-- End #main-header -->
 	
 	<div class="site-wrapper">
-
+		<cq:include script="customProperties.jsp"/>
 		<div id="main-content"><cq:include script="content.jsp" /></div>
 	   	<c:if test="${not global.isHomePage}"> 
 	   		<% WCMMode.DISABLED.toRequest(slingRequest); %>
@@ -25,4 +34,5 @@
 	   	<% modeBefore.toRequest(slingRequest); %>	
 
 	</div>
+	<script type="text/javascript">_satellite.pageBottom();</script>
 </body>

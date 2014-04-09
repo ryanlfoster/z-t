@@ -1,8 +1,9 @@
+
+
 package com.australia.foodandwine.components.content.hero;
 
-/**
- * 
- */
+ 
+ 
 import java.util.UUID;
 
 import org.apache.commons.lang3.StringUtils;
@@ -21,7 +22,7 @@ import com.citytechinc.cq.component.annotations.widgets.Html5SmartImage;
 import com.citytechinc.cq.component.annotations.widgets.PathField;
 import com.day.cq.wcm.foundation.Image;
 
-@Component(group = "Food and Wine", basePath = "jcr_root/apps/foodandwine/components", value = "Hero Home", tabs = {
+@Component(disableTargeting = true, group = "Food and Wine", basePath = "jcr_root/apps/foodandwine/components", value = "Hero Home", tabs = {
 	@Tab(title = "Background Image"), @Tab(title = "Big Title"), @Tab(title = "Register Text"),
 	@Tab(title = "Video Path") }, listeners = { @Listener(name = "aftercopy", value = "REFRESH_PAGE"),
 	@Listener(name = "afterdelete", value = "REFRESH_PAGE"), @Listener(name = "afteredit", value = "REFRESH_PAGE"),
@@ -31,63 +32,59 @@ public class Hero {
 	@Html5SmartImage(allowUpload = false, name = "backgroundImage")
 	private String imagePath;
 
-	@DialogField(fieldLabel = "Big Title", required = true, tab = 2)
-	private final String bigTitle;
+	@DialogField(fieldLabel = "Image Alt Tag", tab = 2, fieldDescription = "Image Alt tag for the Background Image", required = true)
+	private final String imageAltTag;
+	
+	@DialogField(fieldLabel = "Title", required = true, tab = 2)
+	private final String title;
 
-	@DialogField(fieldLabel = "Ovaerlay Small Text", fieldDescription = "Text to be displayed in small font", tab = 3)
-	private final String smallFontText;
+	@DialogField(fieldLabel = "Small Text in Circle",  tab = 3)
+	private final String smallText;
 
-	@DialogField(fieldLabel = "Ovaerlay Large Text", fieldDescription = "Text to be displayed in large font", tab = 3)
-	private final String largeFontText;
+	@DialogField(fieldLabel = "Large Text in Circle",  tab = 3)
+	private final String largeText;
 
-	@DialogField(fieldLabel = "Ovaerlay Small Text", fieldDescription = "Text to be displayed after large font", tab = 3)
-	private final String smallFont;
-
-	@DialogField(fieldLabel = "Register Button Text ", tab = 3)
+	@DialogField(fieldLabel = "Text above Button", tab = 3)
+	private final String aboveButtonText;
+	
+	@DialogField(fieldLabel = "Button Text ", tab = 3)
 	private final String buttonText;
 
-	@DialogField(fieldLabel = "Register Button Link ", tab = 3)
+	@DialogField(fieldLabel = "Button Link ", tab = 3)
 	@PathField
 	private final String buttonLink;
 
-	@DialogField(fieldLabel = "Byline", tab = 3)
-	private final String byLineText;
+	@DialogField(fieldLabel = "Text below Button", tab = 3)
+	private final String belowButtonText;
 
-	@DialogField(fieldLabel = "Overlay Text for Video", fieldDescription = "Text before play button", tab = 4)
-	private final String textBeforePlayButton;
-
-	@DialogField(fieldLabel = "Overlay Text for Video", fieldDescription = "Text after play button", tab = 4)
-	private final String textAfterPlayButton;
 	@DialogField(fieldLabel = "Player Id", tab = 4, listeners = @Listener(name = "loadcontent", value = "function(field,record,path){ var loadDate = new CQ.Ext.data.JsonStore({ url: '/bin/brightcove/players?group=video', method: 'GET', root: 'items', fields: [{name:'playerId',type:'string'}] }); loadDate.load({ callback: function(r,options,success) { if (typeof field.value === 'undefined' || field.value.trim() == '') field.setValue(loadDate.data.itemAt(0).data.playerId); } }); }"))
 	private final String playerId;
 
 	@DialogField(fieldLabel = "Player Key", tab = 4, listeners = @Listener(name = "loadcontent", value = "function(field,record,path){ var loadDate = new CQ.Ext.data.JsonStore({ url: '/bin/brightcove/players?group=video', method: 'GET', root: 'items', fields: [{name:'playerKey',type:'string'}] }); loadDate.load({ callback: function(r,options,success) { if (typeof field.value === 'undefined' || field.value.trim() == '') field.setValue(loadDate.data.itemAt(0).data.playerKey); } }); }"))
 	private final String playerKey;
+	
 	@DialogField(required = true, tab = 4, xtype = "BrightcoveCombo", fieldLabel = "Video", name = "./video", additionalProperties = @FieldProperty(name = "hiddenName", value = "./videoPlayer"))
 	private final String videoPlayer;
 	private final String videoRandomId;
 
-	/**
-	 * Constants
-	 */
-	private static final String BIGTITLE = "bigTitle";
-	private static final String SMALLFONTTEXT = "smallFontText";
-	private static final String LARGEFONTTEXT = "largeFontText";
-	private static final String SMALLFONT = "smallFont";
-	private static final String BUTTONTEXT = "buttonText";
-	private static final String BUTTONLINK = "buttonLink";
-	private static final String BYLINETEXT = "byLineText";
-	private static final String TEXTBEFOREPLAYBUTTON = "textBeforePlayButton";
-	private static final String TEXTAFTERPLAYBUTTON = "textAfterPlayButton";
-	private static final String PLAYERID = "playerId";
-	private static final String PLAYERKEY = "playerKey";
-	private static final String VIDEOPLAYER = "videoPlayer";
-	private static final String CHARACTERHYPHEN = "-";
+	
+	 
+	private static final String TITLE = "title";
+	private static final String SMALL_TEXT = "smallText";
+	private static final String LARGE_TEXT = "largeText";
+	private static final String BUTTON_TEXT = "buttonText";
+	private static final String BUTTON_LINK = "buttonLink";
+	//private static final String BYLINETEXT = "byLineText";
+	private static final String ABOVE_BUTTON_TEXT = "aboveButtonText";
+	private static final String BELOW_BUTTON_TEXT = "belowButtonText";
+	private static final String PLAYER_ID = "playerId";
+	private static final String PLAYER_KEY = "playerKey";
+	private static final String VIDEO_PLAYER = "videoPlayer";
+	private static final String CHARACTER_HYPHEN = "-";
+	private final static String IMAGE_ALT_TAG = "imageAltTag";
 
-	/**
-	 * 
-	 * @param request
-	 */
+	
+	 
 	public Hero(SlingHttpServletRequest request) {
 
 		ValueMap properties = request.getResource().adaptTo(ValueMap.class);
@@ -95,69 +92,58 @@ public class Hero {
 		if (backgroundImage != null && backgroundImage.hasContent()) {
 			imagePath = backgroundImage.getPath();
 		}
-		bigTitle = properties.get(BIGTITLE, StringUtils.EMPTY);
-		smallFontText = properties.get(SMALLFONTTEXT, StringUtils.EMPTY);
-		largeFontText = properties.get(LARGEFONTTEXT, StringUtils.EMPTY);
-		smallFont = properties.get(SMALLFONT, StringUtils.EMPTY);
-		buttonText = properties.get(BUTTONTEXT, StringUtils.EMPTY);
-		buttonLink = LinkUtils.getHrefFromPath(properties.get(BUTTONLINK, StringUtils.EMPTY));
-		byLineText = properties.get(BYLINETEXT, StringUtils.EMPTY);
-		textBeforePlayButton = properties.get(TEXTBEFOREPLAYBUTTON, StringUtils.EMPTY);
-		textAfterPlayButton = properties.get(TEXTAFTERPLAYBUTTON, StringUtils.EMPTY);
+		title = properties.get(TITLE, StringUtils.EMPTY);
+		smallText = properties.get(SMALL_TEXT, StringUtils.EMPTY);
+		largeText = properties.get(LARGE_TEXT, StringUtils.EMPTY);
+		aboveButtonText = properties.get(ABOVE_BUTTON_TEXT, StringUtils.EMPTY);
+		buttonText = properties.get(BUTTON_TEXT, StringUtils.EMPTY);
+		buttonLink = LinkUtils.getHrefFromPath(properties.get(BUTTON_LINK, StringUtils.EMPTY));
+		belowButtonText = properties.get(BELOW_BUTTON_TEXT, StringUtils.EMPTY);
+		
 		BrcService brcService = BrcUtils.getSlingSettingService();
-		videoRandomId = new String(UUID.randomUUID().toString().replaceAll(CHARACTERHYPHEN, StringUtils.EMPTY));
-		playerId = properties.get(PLAYERID, brcService.getDefVideoPlayerID());
-		playerKey = properties.get(PLAYERKEY, brcService.getDefVideoPlayerKey());
-		videoPlayer = properties.get(VIDEOPLAYER, StringUtils.EMPTY);
-
+		videoRandomId = new String(UUID.randomUUID().toString().replaceAll(CHARACTER_HYPHEN, StringUtils.EMPTY));
+		playerId = properties.get(PLAYER_ID, brcService.getDefVideoPlayerID());
+		playerKey = properties.get(PLAYER_KEY, brcService.getDefVideoPlayerKey());
+		videoPlayer = properties.get(VIDEO_PLAYER, StringUtils.EMPTY);
+		imageAltTag = properties.get(IMAGE_ALT_TAG, StringUtils.EMPTY);
 	}
-
-	/**
-	 * 
-	 * @return
-	 */
-	public String getButtonLink() {
-		return buttonLink;
-	}
-
-	public String getVideoPlayer() {
-		return videoPlayer;
-	}
+	
+	 
 
 	public String getImagePath() {
 		return imagePath;
 	}
 
-	public String getBigTitle() {
-		return bigTitle;
+	public String getImageAltTag() {
+		return imageAltTag;
 	}
 
-	public String getSmallFontText() {
-		return smallFontText;
+	public String getTitle() {
+		return title;
 	}
 
-	public String getLargeFontText() {
-		return largeFontText;
+	public String getSmallText() {
+		return smallText;
 	}
 
-	public String getSmallFont() {
-		return smallFont;
+	public String getLargeText() {
+		return largeText;
+	}
+
+	public String getAboveButtonText() {
+		return aboveButtonText;
 	}
 
 	public String getButtonText() {
 		return buttonText;
 	}
 
-	public String getByLineText() {
-		return byLineText;
+	public String getButtonLink() {
+		return buttonLink;
 	}
 
-	public String getTextBeforePlayButton() {
-		return textBeforePlayButton;
-	}
-
-	public String getTextAfterPlayButton() {
-		return textAfterPlayButton;
+	public String getBelowButtonText() {
+		return belowButtonText;
 	}
 
 	public String getPlayerId() {
@@ -168,8 +154,13 @@ public class Hero {
 		return playerKey;
 	}
 
+	public String getVideoPlayer() {
+		return videoPlayer;
+	}
+
 	public String getVideoRandomId() {
 		return videoRandomId;
 	}
 
+	
 }

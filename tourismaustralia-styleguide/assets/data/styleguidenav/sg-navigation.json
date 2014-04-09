@@ -6,7 +6,7 @@
         {
             "text": "Base",
             "category": [
-                {
+                 {
                     "text": "Global",
                     "item": [
                         { "text": "colours" },
@@ -15,7 +15,6 @@
                         { "text": "visibility"}
                     ]
                 },
-
                 {
                     "text": "Text",
                     "item": [
@@ -42,7 +41,7 @@
                 {
                     "text": "Images",
                     "item": [
-                        { "text": "icon" },
+                        { "text": "icons" },
                         { "text": "logo" },
                         { "text": "landscape_4x3"},
                         { "text": "landscape_16x9"},
@@ -77,31 +76,60 @@
             ]
         },
         {
-            "text": "Partials",
-            "category": [
-                {
-                    "text" : "General",
-                    "item": [
-                        { "text": "tagclouditem" },
-                        { "text": "home_explore_summary_map" },
-                        { "text": "mosaicitem" },
-                        { "text": "linethroughtext" },
-                        { "text": "dropdown" },
-                        { "text": "sectionintro" },
-                        { "text": "whatyoucansee" }
-                    ]
-                }
-            ]
-        },
-        {
             "text": "Components",
             "category": [
                 {
                     "text" : "Layout",
                     "item": [
+                        { "text": "tagclouditem" },
+                        { "text": "explore_summary_map" },
+                        { "text": "linethroughtext" },
+                        { "text": "linethroughtextfullhr" },
+                        { "text": "dropdown" },
+                        { "text": "sectionintro" },
+                        { "text": "paragraph_standard" },
+                        { "text": "paragraph_dynamic" },
+                        { "text": "socialimage" },
+                        { "text": "byline" },
+                        { "text": "bylinewithshareitem" }
+
+                    ]
+                },
+                {
+                    "text" : "Video",
+                    "item": [
+                        { "text": "text2columnvideo" },
+                        { "text": "videoitem" },
+                        { "text": "textlargevideo" }
+                    ]
+                },
+                {
+                    "text" : "Mosaic",
+                    "item": [
+                        { "text": "mosaic_highlights" },
+                        { "text": "mosaicitemhighlights" },
+                        { "text": "mosaic_highlights_grid_1" },
+                        { "text": "mosaic_highlights_grid_4" },
+                        { "text": "mosaic_highlights_grid_4_1" },
                         { "text": "mosaic_whatscomingup" },
-                        { "text": "carousel_standard" },
-                        { "text": "carousel_mobile" }
+                        { "text": "mosaicitemevent" },
+                        { "text": "mosaic_whatscomingup_grid_1" },
+                        { "text": "mosaic_whatscomingup_grid_4" },
+                        { "text": "mosaicitem_detail" },
+                        { "text": "mosaicitemsocialtile" },
+                        { "text": "mosaic_socialtiles_grid_1" },
+                        { "text": "mosaic_socialtiles_static_grid_1" },
+                        { "text": "mosaic_socialtiles_grid_4" },
+                        { "text": "mosaicitemsocial_detail" },
+                        { "text": "whatyoucansee" },
+                        { "text": "whatyoucansee_nobuttons" }
+                    ]
+                },
+                {
+                    "text" : "Carousel",
+                    "item": [
+                        { "text": "carousel_mobile" },
+                        { "text": "carousel_standard" }
                     ]
                 }
             ]
@@ -113,26 +141,40 @@
                     "text" : "All",
                     "item": [
                         { "text": "nojs" },
-                        { "text": "makeyourtriphappen" },
+                        { "text" : "2columnvideo"},
+                        { "text": "atdwhighlights" },
                         { "text": "footer" },
                         { "text": "breadcrumbs"},
+                        { "text": "bylinewithshare" },
                         { "text": "categorylinks" },
                         { "text": "explore" },
                         { "text": "favourite" },
-                        { "text": "homehero" },
-                        { "text": "mapcitylink" },
+                        { "text": "fullsizevideo" },
+                        { "text": "hero" },
+                        { "text": "imagemapcitylink" },
                         { "text": "image_with_button" },
                         { "text": "image_with_date" },
-                        { "text": "mapwithlinkstate" },
-                        { "text": "mapwithlinkcity" },
-                        { "text": "hr" },
+                        { "text": "image_with_quote" },
+                        { "text": "image_with_button_social" },
+                        { "text": "largeimagetext" },
+                        { "text": "largeimagesocial" },
+                        { "text": "mapimagewithbuttons" },
+                        { "text": "mapimagewithlinks" },
+                        { "text": "quote" },
+                        { "text": "seperator" },
                         { "text": "shareicons"},
+                        { "text": "smallimagetext" },
+                        { "text": "socialtiles" },
                         { "text": "specialoffer" },
                         { "text": "summary" },
                         { "text": "tagcloud" },
                         { "text": "text" },
+                        { "text": "twoimages" },
                         { "text": "whatyoucansee_city" },
-                        { "text": "whatyoucansee_state" }
+                        { "text": "whatyoucansee_state" },
+
+                        { "text": "header" }
+
                     ]
                 }
             ]

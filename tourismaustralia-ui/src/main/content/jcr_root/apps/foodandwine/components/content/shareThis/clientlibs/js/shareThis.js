@@ -1,4 +1,4 @@
-CQ_Analytics.ClientContextMgr.addListener("storesinitialize", function (e) {
+
 
 	$('.shareThisFawHolder').each(function () { 
 		$this = $(this);
@@ -13,11 +13,14 @@ CQ_Analytics.ClientContextMgr.addListener("storesinitialize", function (e) {
 			addShareThisButton(obj, share_url, page_title, page_desc);
 		});
 
+		// change to custom Twitter handler @Australia
+		$(".st_twitter_large").attr('st_via', 'Australia');
+		
 		var is_firefox = navigator.userAgent.toLowerCase().indexOf('firefox') > -1;
 		var is_chrome = navigator.userAgent.toLowerCase().indexOf('chrome') > -1;
-		if (is_firefox || is_chrome) {
-			$(".faw-article-divider").hide();
-			$(".faw-bookmark-icon").hide();
+		if (!is_firefox && !is_chrome) {
+			$(".faw-article-divider").show();
+			$(".faw-bookmark-icon").show();
 		}
 	});    	
 	
@@ -55,8 +58,8 @@ CQ_Analytics.ClientContextMgr.addListener("storesinitialize", function (e) {
 				"image":"http://www.softicons.com/download/internet-icons/social-superheros-icons-by-iconshock/png/256/sharethis_hulk.png", // image TO BE SHARED
 				"summary": desc
 			});		
+			
 		}
 	}
-	
-});
+
 

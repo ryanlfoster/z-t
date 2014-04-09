@@ -18,7 +18,9 @@ public class Text {
 
     public Text(SlingHttpServletRequest request) {
         ValueMap properties = request.getResource().adaptTo(ValueMap.class);
-        text = properties.get("text", StringUtils.EMPTY);
+        if (properties != null) {
+            text = properties.get("text", StringUtils.EMPTY);
+        }
     }
 
     public String getText() {

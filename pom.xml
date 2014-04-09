@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
 	<parent>
 		<groupId>com.citytechinc.cq</groupId>
@@ -12,7 +11,7 @@
 	<groupId>com.australia</groupId>
 	<artifactId>tourismaustralia</artifactId>
 	<packaging>pom</packaging>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.1.0-SNAPSHOT</version>
 	<name>Tourism Australia CQ5 Website</name>
 
 	<modules>
@@ -44,7 +43,7 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<maven.junit.usefile>false</maven.junit.usefile>
 		<brightcove-version>2.1.0</brightcove-version>
-		<cq-component-plugin.version>2.3.2</cq-component-plugin.version>
+		<cq-component-plugin.version>2.3.4</cq-component-plugin.version>
 		<hibernate.version>4.3.1.Final</hibernate.version>
 		<jpa.version>2.1.0</jpa.version>
 		<blueprint.version>1.0.2.RELEASE</blueprint.version>
@@ -127,6 +126,40 @@
 				<cq.password>1xrQ3,_I'(</cq.password>
 			</properties>
 		</profile>
+		<profile>
+			<id>stage</id>
+			<activation>
+				<property>
+					<name>stage</name>
+				</property>
+			</activation>
+			<properties>
+				<crx.skip>false</crx.skip>
+				<osgi.bundle.status.skip>false</osgi.bundle.status.skip>
+				<cq.protocol>http</cq.protocol>
+				<cq.host>54.206.19.49</cq.host>
+				<cq.port>4502</cq.port>
+				<cq.username>admin</cq.username>
+				<cq.password>admin</cq.password>
+			</properties>
+		</profile>
+		<profile>
+			<id>prod</id>
+			<activation>
+				<property>
+					<name>prod</name>
+				</property>
+			</activation>
+			<properties>
+				<crx.skip>false</crx.skip>
+				<osgi.bundle.status.skip>false</osgi.bundle.status.skip>
+				<cq.protocol>http</cq.protocol>
+				<cq.host>54.206.102.127</cq.host>
+				<cq.port>4502</cq.port>
+				<cq.username>admin</cq.username>
+				<cq.password>t7jefaQu</cq.password>
+			</properties>
+		</profile>
 	</profiles>
 
 	<build>
@@ -180,6 +213,26 @@
 				</plugin>
 			</plugins>
 		</pluginManagement>
+		<plugins>
+			<plugin>
+				<groupId>com.atlassian.maven.plugins</groupId>
+				<artifactId>maven-jgitflow-plugin</artifactId>
+				<version>1.0-alpha21.1</version>
+				<configuration>
+					<autoVersionSubmodules>true</autoVersionSubmodules>
+					<enableFeatureVersions>false</enableFeatureVersions>
+					<noFeatureBuild>true</noFeatureBuild>
+					<noReleaseBuild>true</noReleaseBuild>
+					<noDeploy>true</noDeploy>
+					<flowInitContext>
+						<featureBranchPrefix>feature/</featureBranchPrefix>
+						<releaseBranchPrefix>release/</releaseBranchPrefix>
+						<hotfixBranchPrefix>hotfix/</hotfixBranchPrefix>
+					</flowInitContext>
+				</configuration>
+			</plugin>
+			
+		</plugins>
 	</build>
 
 	<dependencyManagement>

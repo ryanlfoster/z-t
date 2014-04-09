@@ -11,6 +11,7 @@ import org.apache.sling.api.resource.ValueMap;
 
 import com.australia.foodandwine.link.IconTextLink;
 import com.australia.foodandwine.link.TextLink;
+import com.australia.utils.LinkUtils;
 import com.australia.utils.PathUtils;
 import com.australia.widgets.multicomposite.MultiCompositeField;
 import com.citytechinc.cq.component.annotations.Component;
@@ -29,9 +30,15 @@ public class Footer {
 	@PathField(rootPath = "/content/dam", rootTitle = "Assets")
 	private String imageTopLogoPath;
 
+	@DialogField(fieldLabel = "Top Image Alt", tab = 1)
+	private String imageTopAltTag;
+
 	@DialogField(fieldLabel = "Bottom Image Path", tab = 1)
 	@PathField(rootPath = "/content/dam", rootTitle = "Assets")
 	private String imageBottomLogoPath;
+
+	@DialogField(fieldLabel = "Bottom Image Alt", tab = 1)
+	private String imageBottomAltTag;
 
 	@DialogField(fieldLabel = "URL Title", tab = 1, required = false)
 	private String urlTitle;
@@ -60,7 +67,7 @@ public class Footer {
 	@MultiCompositeField
 	private List<IconTextLink> linksRight;
 
-	private String copyrightYear;
+	private final String copyrightYear;
 
 	public Footer(SlingHttpServletRequest request) {
 		Calendar now = Calendar.getInstance();
@@ -71,13 +78,14 @@ public class Footer {
 		if (footerResource != null) {
 			ValueMap properties = footerResource.adaptTo(ValueMap.class);
 			imageTopLogoPath = properties.get("imageTopLogoPath", "");
+			imageTopAltTag = properties.get("imageTopAltTag", "");
 			imageBottomLogoPath = properties.get("imageBottomLogoPath", "");
+			imageBottomAltTag = properties.get("imageBottomAltTag", "");
 			urlTitle = properties.get("urlTitle", "restaurantAUS.COM");
 			byline = properties.get("byline", "proudly brought to you by Tourism Australia");
 			headingLeft = properties.get("headingLeft", "");
 			headingMiddle = properties.get("headingMiddle", "");
 			headingRight = properties.get("headingRight", "");
-			copyrightYear = properties.get("copyrightYear", "");
 
 			linksLeft = new ArrayList<TextLink>();
 			buildTextLinks(linksLeft, footerResource, "linksLeft");
@@ -95,7 +103,7 @@ public class Footer {
 			Iterable<Resource> resources = footerResource.getChild(linksColumn).getChildren();
 			for (Resource r : resources) {
 				ValueMap linkProps = r.adaptTo(ValueMap.class);
-				String pagePath = linkProps.get("pagePath", StringUtils.EMPTY);
+				String pagePath = LinkUtils.getHrefFromPath(linkProps.get("pagePath", StringUtils.EMPTY));
 				String linkText = linkProps.get("linkText", StringUtils.EMPTY);
 				TextLink link = new TextLink();
 				link.setPagePath(pagePath);
@@ -110,7 +118,7 @@ public class Footer {
 			Iterable<Resource> resources = footerResource.getChild(linksColumn).getChildren();
 			for (Resource r : resources) {
 				ValueMap linkProps = r.adaptTo(ValueMap.class);
-				String pagePath = linkProps.get("pagePath", StringUtils.EMPTY);
+				String pagePath = LinkUtils.getHrefFromPath(linkProps.get("pagePath", StringUtils.EMPTY));
 				String linkText = linkProps.get("linkText", StringUtils.EMPTY);
 				String iconImage = linkProps.get("iconImage", StringUtils.EMPTY);
 				IconTextLink link = new IconTextLink();
@@ -120,10 +128,6 @@ public class Footer {
 				links.add(link);
 			}
 		}
-	}
-
-	public String getImageTopLogoPath() {
-		return imageTopLogoPath;
 	}
 
 	public String getImageTopLogoLink() {
@@ -172,6 +176,18 @@ public class Footer {
 
 	public List<IconTextLink> getLinksRight() {
 		return linksRight;
+	}
+
+	public String getImageTopAltTag() {
+		return imageTopAltTag;
+	}
+
+	public String getImageBottomAltTag() {
+		return imageBottomAltTag;
+	}
+
+	public String getImageTopLogoPath() {
+		return imageTopLogoPath;
 	}
 
 }

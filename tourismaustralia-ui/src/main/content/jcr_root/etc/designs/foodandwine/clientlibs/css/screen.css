@@ -6829,10 +6829,15 @@ hr {
   border-top: 1px solid #bbbbbb;
 }
 
+/* line 103, ../../assets/scss/site/_base.scss */
+textarea {
+  resize: vertical;
+}
+
 /**
  Quick hack to remove styling in chrome on buttons
 **/
-/* line 114, ../../assets/scss/site/_base.scss */
+/* line 118, ../../assets/scss/site/_base.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -6842,7 +6847,7 @@ input[type="submit"] {
   background: transparent;
   cursor: pointer;
 }
-/* line 120, ../../assets/scss/site/_base.scss */
+/* line 124, ../../assets/scss/site/_base.scss */
 button:focus,
 html input[type="button"]:focus,
 input[type="reset"]:focus,
@@ -8834,16 +8839,15 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
 .footer-col {
   width: 18.75em;
   position: relative;
-  text-align: left;
+  text-align: center;
   display: inline-block;
 }
 @media (min-width: 480px) {
   /* line 15, ../../assets/scss/site/modules/_footer.scss */
   .footer-col {
-    text-align: center;
     width: inherit;
   }
-  /* line 25, ../../assets/scss/site/modules/_footer.scss */
+  /* line 24, ../../assets/scss/site/modules/_footer.scss */
   .footer-col li {
     display: inline-block;
     margin-right: 1em;
@@ -8855,11 +8859,11 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
     width: 18.75em;
     text-align: left;
   }
-  /* line 34, ../../assets/scss/site/modules/_footer.scss */
+  /* line 33, ../../assets/scss/site/modules/_footer.scss */
   .footer-col li {
     display: block;
   }
-  /* line 37, ../../assets/scss/site/modules/_footer.scss */
+  /* line 36, ../../assets/scss/site/modules/_footer.scss */
   .footer-col .footer-social-list li {
     display: inline-block;
   }
@@ -8871,7 +8875,7 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   }
 }
 
-/* line 46, ../../assets/scss/site/modules/_footer.scss */
+/* line 45, ../../assets/scss/site/modules/_footer.scss */
 .footer-heading {
   margin: 0 0 0.9375em 0;
   font-family: "TheSanB5Pla", Helvetica, Arial, sans-serif;
@@ -8880,7 +8884,7 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   color: #FFF;
 }
 
-/* line 53, ../../assets/scss/site/modules/_footer.scss */
+/* line 52, ../../assets/scss/site/modules/_footer.scss */
 .footer-text-list li {
   padding: 0.55em 0;
   color: #787474;
@@ -8888,18 +8892,18 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   font-size: 0.875em;
 }
 
-/* line 59, ../../assets/scss/site/modules/_footer.scss */
+/* line 58, ../../assets/scss/site/modules/_footer.scss */
 .footer-text-list li a {
   color: #787474;
   text-decoration: none;
 }
 
-/* line 64, ../../assets/scss/site/modules/_footer.scss */
+/* line 63, ../../assets/scss/site/modules/_footer.scss */
 .footer-text-list li a:hover, .footer-text-list li a:focus {
   color: #FFF;
 }
 
-/* line 70, ../../assets/scss/site/modules/_footer.scss */
+/* line 69, ../../assets/scss/site/modules/_footer.scss */
 .footer-restaurant-australia-elements {
   text-align: center;
   padding-top: 4em;
@@ -8907,7 +8911,7 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   margin: 0 auto;
 }
 
-/* line 76, ../../assets/scss/site/modules/_footer.scss */
+/* line 75, ../../assets/scss/site/modules/_footer.scss */
 .footer-restaurant-australia-elements-link {
   display: block;
   font-family: "TheSanB5Pla", Helvetica, Arial, sans-serif;
@@ -8917,32 +8921,32 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   text-decoration: none;
 }
 
-/* line 84, ../../assets/scss/site/modules/_footer.scss */
+/* line 83, ../../assets/scss/site/modules/_footer.scss */
 .footer-restaurant-australia-elements-link:hover, .restaurant-australia-elements-link:focus {
   color: #787474;
   text-decoration: none;
 }
 
-/* line 88, ../../assets/scss/site/modules/_footer.scss */
+/* line 87, ../../assets/scss/site/modules/_footer.scss */
 .footer-restaurant-australia-elements-biline-container {
   height: 100%;
   text-align: center;
 }
 
-/* line 92, ../../assets/scss/site/modules/_footer.scss */
+/* line 91, ../../assets/scss/site/modules/_footer.scss */
 .footer-restaurant-australia-elements-biline-container hr {
   margin-top: -0.625em;
   border-top: 1px solid #504d4d;
   margin: -0.625em 0.9375em 0;
 }
 @media (max-width: 480px) {
-  /* line 92, ../../assets/scss/site/modules/_footer.scss */
+  /* line 91, ../../assets/scss/site/modules/_footer.scss */
   .footer-restaurant-australia-elements-biline-container hr {
     visibility: hidden;
   }
 }
 
-/* line 100, ../../assets/scss/site/modules/_footer.scss */
+/* line 99, ../../assets/scss/site/modules/_footer.scss */
 .footer-restaurant-australia-elements-biline {
   font-family: "TAheadline", Helvetica, Arial, sans-serif;
   letter-spacing: .015em;
@@ -8953,32 +8957,32 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   padding: 0 0.875em;
 }
 
-/* line 110, ../../assets/scss/site/modules/_footer.scss */
+/* line 109, ../../assets/scss/site/modules/_footer.scss */
 .footer-logo-fixed-height {
   min-height: 6.875em;
   width: 18.75em;
 }
 @media (min-width: 1200px) {
-  /* line 110, ../../assets/scss/site/modules/_footer.scss */
+  /* line 109, ../../assets/scss/site/modules/_footer.scss */
   .footer-logo-fixed-height {
     min-height: 12.75em;
   }
 }
 
-/* line 117, ../../assets/scss/site/modules/_footer.scss */
+/* line 116, ../../assets/scss/site/modules/_footer.scss */
 .footer-ta-logo-container {
   bottom: 1.6em;
   position: absolute;
   left: 3.125em;
 }
 @media (min-width: 1200px) {
-  /* line 117, ../../assets/scss/site/modules/_footer.scss */
+  /* line 116, ../../assets/scss/site/modules/_footer.scss */
   .footer-ta-logo-container {
     left: 5.6em;
   }
 }
 
-/* line 125, ../../assets/scss/site/modules/_footer.scss */
+/* line 124, ../../assets/scss/site/modules/_footer.scss */
 .footer-ta-logo-copyright {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 0.875em;
@@ -8987,12 +8991,12 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   padding-right: 0.125em;
 }
 
-/* line 134, ../../assets/scss/site/modules/_footer.scss */
+/* line 133, ../../assets/scss/site/modules/_footer.scss */
 .footer-social {
   background: #000;
 }
 
-/* line 137, ../../assets/scss/site/modules/_footer.scss */
+/* line 136, ../../assets/scss/site/modules/_footer.scss */
 .footer-social-heading {
   font-family: "TheSanB5Pla", Helvetica, Arial, sans-serif;
   font-size: 1em;
@@ -9000,11 +9004,11 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   color: #FFF;
 }
 
-/* line 148, ../../assets/scss/site/modules/_footer.scss */
+/* line 147, ../../assets/scss/site/modules/_footer.scss */
 .footer-social-list li {
   margin: 0;
 }
-/* line 152, ../../assets/scss/site/modules/_footer.scss */
+/* line 151, ../../assets/scss/site/modules/_footer.scss */
 .footer-social-list > li:nth-child(odd) {
   width: 150px;
 }
@@ -9017,70 +9021,82 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
 }
 
 /* line 7, ../../assets/scss/site/modules/_sponsors.scss */
+.sponsors-wrapper {
+  text-decoration: none;
+}
+/* line 10, ../../assets/scss/site/modules/_sponsors.scss */
+.sponsors-wrapper:hover {
+  text-decoration: none;
+}
+
+/* line 15, ../../assets/scss/site/modules/_sponsors.scss */
 .sponsors-item {
   text-align: center;
 }
 
-/* line 10, ../../assets/scss/site/modules/_sponsors.scss */
+/* line 18, ../../assets/scss/site/modules/_sponsors.scss */
 .sponsors-item-video {
   text-align: center;
 }
 
-/* line 13, ../../assets/scss/site/modules/_sponsors.scss */
+/* line 21, ../../assets/scss/site/modules/_sponsors.scss */
 .sponsors-item a {
   font-family: "ProximaNova Bold", Helvetica, Arial, sans-serif;
   color: #040000;
 }
-/* line 16, ../../assets/scss/site/modules/_sponsors.scss */
+/* line 24, ../../assets/scss/site/modules/_sponsors.scss */
 .sponsors-item a:hover, .sponsors-item a:focus {
   color: #333333;
 }
 
-/* line 20, ../../assets/scss/site/modules/_sponsors.scss */
+/* line 28, ../../assets/scss/site/modules/_sponsors.scss */
 .video-play-icon a {
   font-family: 'foodWineIcons';
 }
 
-/* line 23, ../../assets/scss/site/modules/_sponsors.scss */
+/* line 31, ../../assets/scss/site/modules/_sponsors.scss */
 .sponsors-item p {
   font-size: 1.125em;
   line-height: 1.17647em;
   padding: 0 3.5em;
 }
 
-/* line 28, ../../assets/scss/site/modules/_sponsors.scss */
+/* line 36, ../../assets/scss/site/modules/_sponsors.scss */
 .sponsors-row-1 {
   line-height: 6.25em;
 }
 
-/* line 31, ../../assets/scss/site/modules/_sponsors.scss */
+/* line 39, ../../assets/scss/site/modules/_sponsors.scss */
 .sponsors-row-2 {
   margin: 0 auto;
   text-align: center;
   max-width: 23.75em;
 }
 
-/* line 36, ../../assets/scss/site/modules/_sponsors.scss */
+/* line 44, ../../assets/scss/site/modules/_sponsors.scss */
 .sponsors-image {
   max-width: 100%;
 }
 
-/* line 39, ../../assets/scss/site/modules/_sponsors.scss */
+/* line 47, ../../assets/scss/site/modules/_sponsors.scss */
 .sponsors-hr {
   margin: 0 auto;
   width: 14.125em;
 }
 
-/* line 43, ../../assets/scss/site/modules/_sponsors.scss */
+/* line 51, ../../assets/scss/site/modules/_sponsors.scss */
 .sponsors-type-title {
   font-family: "TAheadline", Helvetica, Arial, sans-serif;
-  font-size: 2.25em;
+  font-size: 1.6em;
   line-height: 1em;
   vertical-align: bottom;
   display: inline-block;
+  padding-bottom: 0.5em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
 
-/* line 50, ../../assets/scss/site/modules/_sponsors.scss */
+/* line 61, ../../assets/scss/site/modules/_sponsors.scss */
 .sponsors-image-link-container {
   min-height: 13.2em;
 }
@@ -9432,30 +9448,38 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
 
 /* line 5, ../../assets/scss/site/modules/_form.scss */
 .form-h1 {
-  font-size: 3em;
+  font-size: 2.625em;
 }
 @media (min-width: 768px) {
   /* line 5, ../../assets/scss/site/modules/_form.scss */
   .form-h1 {
-    font-size: 4.375em;
+    font-size: 3.5em;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 5, ../../assets/scss/site/modules/_form.scss */
+  .form-h1 {
+    font-size: 4.5em;
   }
 }
 
-/* line 12, ../../assets/scss/site/modules/_form.scss */
+/* line 14, ../../assets/scss/site/modules/_form.scss */
 .form-h3 {
   max-width: 640px;
   margin: 0 auto;
   line-height: 1.23em;
+  padding-top: 0;
   font-size: 1.5em;
 }
 @media (min-width: 768px) {
-  /* line 12, ../../assets/scss/site/modules/_form.scss */
+  /* line 14, ../../assets/scss/site/modules/_form.scss */
   .form-h3 {
     font-size: 1.875em;
+    padding-top: 2em;
   }
 }
 
-/* line 21, ../../assets/scss/site/modules/_form.scss */
+/* line 26, ../../assets/scss/site/modules/_form.scss */
 .form-faw fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
@@ -9463,20 +9487,20 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   position: relative;
 }
 
-/* line 27, ../../assets/scss/site/modules/_form.scss */
+/* line 32, ../../assets/scss/site/modules/_form.scss */
 .form-legend {
   display: block;
   padding: 0 0 .5em 0;
   font-family: "ProximaNova Bold", Helvetica, Arial, sans-serif;
 }
 
-/* line 32, ../../assets/scss/site/modules/_form.scss */
+/* line 37, ../../assets/scss/site/modules/_form.scss */
 .form-description {
   font-family: "ProximaNova Regular Italic", Helvetica, Arial, sans-serif;
   margin-bottom: 1em;
 }
 
-/* line 37, ../../assets/scss/site/modules/_form.scss */
+/* line 42, ../../assets/scss/site/modules/_form.scss */
 .form-category-radios {
   margin-bottom: 2em;
 }
@@ -9492,45 +9516,45 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
                  that don't support that selector from
                  applying rules they shouldn't
 */
-/* line 52, ../../assets/scss/site/modules/_form.scss */
+/* line 57, ../../assets/scss/site/modules/_form.scss */
 .form-faw INPUT[type=radio]:not(#foo) {
   display: none;
 }
 
-/* line 57, ../../assets/scss/site/modules/_form.scss */
+/* line 62, ../../assets/scss/site/modules/_form.scss */
 .form-faw INPUT[type=radio] + label {
   cursor: pointer;
   min-width: 10em;
   vertical-align: top;
 }
 
-/* line 65, ../../assets/scss/site/modules/_form.scss */
+/* line 70, ../../assets/scss/site/modules/_form.scss */
 .form-faw INPUT[type=radio]:checked + label .form-faw-icon-square {
   color: #FFF;
   border: 1px solid #393939;
   background: #393939;
 }
-/* line 69, ../../assets/scss/site/modules/_form.scss */
+/* line 74, ../../assets/scss/site/modules/_form.scss */
 .form-faw INPUT[type=radio]:checked + label .form-faw-icon-square:before {
   visibility: visible;
 }
 
-/* line 75, ../../assets/scss/site/modules/_form.scss */
+/* line 80, ../../assets/scss/site/modules/_form.scss */
 .form-faw-icon-square {
   font-size: 1.6em;
   border: 1px solid #000;
 }
-/* line 78, ../../assets/scss/site/modules/_form.scss */
+/* line 83, ../../assets/scss/site/modules/_form.scss */
 .form-faw-icon-square:before {
   visibility: hidden;
 }
 
-/* line 82, ../../assets/scss/site/modules/_form.scss */
+/* line 87, ../../assets/scss/site/modules/_form.scss */
 .form-faw-label-text {
   vertical-align: SUPER;
 }
 
-/* line 86, ../../assets/scss/site/modules/_form.scss */
+/* line 91, ../../assets/scss/site/modules/_form.scss */
 .form-container-inner {
   width: 100%;
   left: 0;
@@ -9538,7 +9562,7 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   padding: 0;
 }
 @media (min-width: 480px) {
-  /* line 86, ../../assets/scss/site/modules/_form.scss */
+  /* line 91, ../../assets/scss/site/modules/_form.scss */
   .form-container-inner {
     padding: 15px 10%;
     padding-left: 0em;
@@ -9546,7 +9570,7 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   }
 }
 @media (min-width: 768px) {
-  /* line 86, ../../assets/scss/site/modules/_form.scss */
+  /* line 91, ../../assets/scss/site/modules/_form.scss */
   .form-container-inner {
     padding: 15px;
     width: 620px;
@@ -9555,12 +9579,12 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   }
 }
 
-/* line 104, ../../assets/scss/site/modules/_form.scss */
+/* line 109, ../../assets/scss/site/modules/_form.scss */
 .form-container-padding {
   padding: 0 2em 2em;
 }
 
-/* line 108, ../../assets/scss/site/modules/_form.scss */
+/* line 113, ../../assets/scss/site/modules/_form.scss */
 .form-category-tick {
   margin: 1em 5em 0 0;
   padding-left: 2.6em;
@@ -9577,7 +9601,7 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   padding-top: 3px;
 }
 @media (min-width: 768px) {
-  /* line 108, ../../assets/scss/site/modules/_form.scss */
+  /* line 113, ../../assets/scss/site/modules/_form.scss */
   .form-category-tick {
     line-height: 2.3em;
     width: inherit;
@@ -9587,13 +9611,13 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   }
 }
 
-/* line 132, ../../assets/scss/site/modules/_form.scss */
+/* line 137, ../../assets/scss/site/modules/_form.scss */
 .form-category-tick.checked {
   background-image: url("../imgs/base/checkbox-checked.png");
   opacity: 1;
 }
 
-/* line 137, ../../assets/scss/site/modules/_form.scss */
+/* line 142, ../../assets/scss/site/modules/_form.scss */
 .form-biline-container {
   height: 100%;
   text-align: center;
@@ -9601,7 +9625,7 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   line-height: .8em;
 }
 
-/* line 143, ../../assets/scss/site/modules/_form.scss */
+/* line 148, ../../assets/scss/site/modules/_form.scss */
 .form-biline-container hr {
   border-top: 1px solid #504d4d;
   width: 280px;
@@ -9611,13 +9635,13 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   position: relative;
 }
 @media (min-width: 768px) {
-  /* line 143, ../../assets/scss/site/modules/_form.scss */
+  /* line 148, ../../assets/scss/site/modules/_form.scss */
   .form-biline-container hr {
     width: 300px;
   }
 }
 
-/* line 154, ../../assets/scss/site/modules/_form.scss */
+/* line 159, ../../assets/scss/site/modules/_form.scss */
 .form-elements-biline {
   font-family: "TAheadline", Helvetica, Arial, sans-serif;
   letter-spacing: .015em;
@@ -9630,125 +9654,130 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   position: relative;
 }
 
-/* line 166, ../../assets/scss/site/modules/_form.scss */
+/* line 171, ../../assets/scss/site/modules/_form.scss */
 .form-agree-container {
   font-size: .9em;
 }
-/* line 169, ../../assets/scss/site/modules/_form.scss */
+/* line 174, ../../assets/scss/site/modules/_form.scss */
 .form-agree-container input[type=checkbox].checkbox + label.checkbox-label {
   line-height: 1.1em;
   display: table-cell;
   height: 36px;
   padding-top: 2px;
 }
-/* line 176, ../../assets/scss/site/modules/_form.scss */
+/* line 181, ../../assets/scss/site/modules/_form.scss */
 .form-agree-container .input-field-checkbox {
   font-size: .9em;
 }
-/* line 180, ../../assets/scss/site/modules/_form.scss */
+/* line 185, ../../assets/scss/site/modules/_form.scss */
 .form-agree-container .checkbox-description {
   margin-bottom: 2em;
 }
-/* line 184, ../../assets/scss/site/modules/_form.scss */
+/* line 189, ../../assets/scss/site/modules/_form.scss */
 .form-agree-container .input-field-validation-icon {
   margin-top: 0 !important;
 }
 @media (min-width: 480px) {
-  /* line 166, ../../assets/scss/site/modules/_form.scss */
+  /* line 171, ../../assets/scss/site/modules/_form.scss */
   .form-agree-container {
     font-size: inherit;
     padding-top: 1em;
   }
-  /* line 191, ../../assets/scss/site/modules/_form.scss */
+  /* line 196, ../../assets/scss/site/modules/_form.scss */
   .form-agree-container input[type=checkbox].checkbox + label.checkbox-label {
     line-height: inherit;
   }
-  /* line 195, ../../assets/scss/site/modules/_form.scss */
+  /* line 200, ../../assets/scss/site/modules/_form.scss */
   .form-agree-container .input-field-checkbox {
     font-size: inherit;
   }
-  /* line 199, ../../assets/scss/site/modules/_form.scss */
+  /* line 204, ../../assets/scss/site/modules/_form.scss */
   .form-agree-container .checkbox-description {
     margin-bottom: inherit;
   }
-  /* line 202, ../../assets/scss/site/modules/_form.scss */
+  /* line 207, ../../assets/scss/site/modules/_form.scss */
   .form-agree-container .col-xs-12 {
     float: none;
-    bottom: 0em;
+    bottom: -18px;
     width: 100%;
     position: absolute;
     text-align: left;
   }
 }
-/* line 212, ../../assets/scss/site/modules/_form.scss */
+/* line 217, ../../assets/scss/site/modules/_form.scss */
 .form-agree-container fieldset.options {
   display: block;
-  padding-bottom: 3em;
+  padding-bottom: 0em;
 }
 
-/* line 224, ../../assets/scss/site/modules/_form.scss */
+/* line 229, ../../assets/scss/site/modules/_form.scss */
 .field-container.terms-conditions {
-  height: 25%;
+  margin-bottom: 0;
 }
-/* line 227, ../../assets/scss/site/modules/_form.scss */
+/* line 232, ../../assets/scss/site/modules/_form.scss */
 .field-container.terms-conditions .input-field-validation-alert.input-field-validation-show {
   margin: 0;
 }
 
-/* line 233, ../../assets/scss/site/modules/_form.scss */
+/* line 238, ../../assets/scss/site/modules/_form.scss */
 .form-clear {
   clear: both;
   display: none;
 }
 @media (min-width: 480px) {
-  /* line 233, ../../assets/scss/site/modules/_form.scss */
+  /* line 238, ../../assets/scss/site/modules/_form.scss */
   .form-clear {
     display: block;
   }
 }
 
-/* line 243, ../../assets/scss/site/modules/_form.scss */
+/* line 248, ../../assets/scss/site/modules/_form.scss */
 .form-hero-thankyou .faw-hero-home-container .icon-logo-withlines-container {
   margin: 3.125em 0 .7em;
 }
 
-/* line 248, ../../assets/scss/site/modules/_form.scss */
+/* line 253, ../../assets/scss/site/modules/_form.scss */
 .form-thankyou-h1 {
-  font-size: 3em;
-  line-height: .93em;
+  font-size: 2.625em;
   margin-bottom: .55em;
 }
 @media (min-width: 768px) {
-  /* line 248, ../../assets/scss/site/modules/_form.scss */
+  /* line 253, ../../assets/scss/site/modules/_form.scss */
   .form-thankyou-h1 {
-    font-size: 4.625em;
+    font-size: 3.5em;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 253, ../../assets/scss/site/modules/_form.scss */
+  .form-thankyou-h1 {
+    font-size: 4.5em;
   }
 }
 
-/* line 258, ../../assets/scss/site/modules/_form.scss */
+/* line 264, ../../assets/scss/site/modules/_form.scss */
 .form-thank-you p {
   font-size: 1em;
   line-height: 1.2em;
   padding: 0 1em;
 }
-/* line 263, ../../assets/scss/site/modules/_form.scss */
+/* line 269, ../../assets/scss/site/modules/_form.scss */
 .form-thank-you p strong a {
   text-decoration: none;
   border-bottom: 1px solid #bbbbbb;
 }
 @media (min-width: 768px) {
-  /* line 258, ../../assets/scss/site/modules/_form.scss */
+  /* line 264, ../../assets/scss/site/modules/_form.scss */
   .form-thank-you p {
     font-size: 1.125em;
   }
 }
-/* line 272, ../../assets/scss/site/modules/_form.scss */
+/* line 278, ../../assets/scss/site/modules/_form.scss */
 .form-thank-you .form-biline-container hr {
   width: 225px;
   top: 0.5em;
 }
 
-/* line 278, ../../assets/scss/site/modules/_form.scss */
+/* line 284, ../../assets/scss/site/modules/_form.scss */
 .form-number-container {
   height: 100%;
   text-align: center;
@@ -9756,7 +9785,7 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   line-height: .8em;
 }
 
-/* line 284, ../../assets/scss/site/modules/_form.scss */
+/* line 290, ../../assets/scss/site/modules/_form.scss */
 .form-number-container hr {
   border-top: 1px solid #bbbbbb;
   width: 280px;
@@ -9766,13 +9795,13 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   position: relative;
 }
 @media (min-width: 768px) {
-  /* line 284, ../../assets/scss/site/modules/_form.scss */
+  /* line 290, ../../assets/scss/site/modules/_form.scss */
   .form-number-container hr {
     width: 300px;
   }
 }
 
-/* line 295, ../../assets/scss/site/modules/_form.scss */
+/* line 301, ../../assets/scss/site/modules/_form.scss */
 .form-number-container .form-number {
   font-family: "GearedSlab-Bold", Helvetica, Arial, sans-serif;
   font-size: 1.5em;
@@ -9795,18 +9824,22 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   border: 1px solid #bbbbbb;
   color: #040000;
   cursor: inherit;
+  padding: 0;
+  padding-top: 0.9em;
+  width: 45px;
+  height: 45px;
 }
 /* line 185, ../../assets/scss/site/modules/_btn.scss */
 .form-number-container .form-number:hover, .form-number-container .form-number:focus {
   text-decoration: none;
   color: #606060;
 }
-/* line 310, ../../assets/scss/site/modules/_form.scss */
+/* line 317, ../../assets/scss/site/modules/_form.scss */
 .form-number-container .form-number:hover, .form-number-container .form-number:focus {
   color: #040000;
 }
 
-/* line 314, ../../assets/scss/site/modules/_form.scss */
+/* line 321, ../../assets/scss/site/modules/_form.scss */
 .form-number-square-box {
   background: #FFF;
   padding: .3em;
@@ -9814,76 +9847,76 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   position: relative;
 }
 
-/* line 320, ../../assets/scss/site/modules/_form.scss */
+/* line 327, ../../assets/scss/site/modules/_form.scss */
 .form-thanks-google-logo {
   font-size: 3.4em;
 }
 
-/* line 324, ../../assets/scss/site/modules/_form.scss */
+/* line 331, ../../assets/scss/site/modules/_form.scss */
 .form-social-list {
   font-size: 1.6em;
 }
-/* line 329, ../../assets/scss/site/modules/_form.scss */
+/* line 336, ../../assets/scss/site/modules/_form.scss */
 .form-social-list > li:nth-child(odd) {
   width: 95px;
 }
-/* line 332, ../../assets/scss/site/modules/_form.scss */
+/* line 339, ../../assets/scss/site/modules/_form.scss */
 .form-social-list li:last-child {
   font-size: .9em;
   bottom: 2px;
   position: relative;
 }
-/* line 337, ../../assets/scss/site/modules/_form.scss */
+/* line 344, ../../assets/scss/site/modules/_form.scss */
 .form-social-list a, .form-social-list a:hover, .form-social-list a:focus {
   color: #3b5997;
 }
 
-/* line 342, ../../assets/scss/site/modules/_form.scss */
+/* line 349, ../../assets/scss/site/modules/_form.scss */
 .form-thank-you-states {
   margin-bottom: 60px;
 }
-/* line 348, ../../assets/scss/site/modules/_form.scss */
+/* line 355, ../../assets/scss/site/modules/_form.scss */
 .form-thank-you-states > li {
   padding-bottom: 28px;
   display: block;
   text-align: center;
 }
 @media (min-width: 768px) {
-  /* line 342, ../../assets/scss/site/modules/_form.scss */
+  /* line 349, ../../assets/scss/site/modules/_form.scss */
   .form-thank-you-states {
     margin-bottom: 80px;
     text-align: left;
   }
-  /* line 365, ../../assets/scss/site/modules/_form.scss */
+  /* line 372, ../../assets/scss/site/modules/_form.scss */
   .form-thank-you-states > li {
     display: inline-block;
     text-align: left;
   }
-  /* line 370, ../../assets/scss/site/modules/_form.scss */
+  /* line 377, ../../assets/scss/site/modules/_form.scss */
   .form-thank-you-states > li:nth-child(odd) {
     width: 238px;
     margin-left: 100px;
   }
 }
 
-/* line 378, ../../assets/scss/site/modules/_form.scss */
+/* line 385, ../../assets/scss/site/modules/_form.scss */
 .form-thank-you-contact-icon-size {
   font-size: 1.8em;
 }
 
-/* line 381, ../../assets/scss/site/modules/_form.scss */
+/* line 388, ../../assets/scss/site/modules/_form.scss */
 .form-thank-you-small-print {
   font-size: .8em;
   line-height: 0em;
 }
 
-/* line 387, ../../assets/scss/site/modules/_form.scss */
+/* line 394, ../../assets/scss/site/modules/_form.scss */
 .form-contact-icon img {
   margin-bottom: 0.5em;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
-  /* line 393, ../../assets/scss/site/modules/_form.scss */
+  /* line 400, ../../assets/scss/site/modules/_form.scss */
   .form-agree-container fieldset.options {
     padding-bottom: 0;
   }
@@ -9898,7 +9931,7 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   left: 0;
   opacity: 0;
   display: none;
-  z-index: 100;
+  z-index: 100 !important;
   transition: opacity 1s ease-out;
   -moz-transition: opacity 1s ease-out;
   -webkit-transition: opacity 1s ease-out;
@@ -9921,13 +9954,14 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
 /* line 30, ../../assets/scss/site/modules/_video.scss */
 .video-close-btn {
   position: absolute;
+  z-index: 100 !important;
   top: 6px;
   right: 10px;
   font-size: 2em;
   color: #FFF;
   text-decoration: none;
 }
-/* line 37, ../../assets/scss/site/modules/_video.scss */
+/* line 38, ../../assets/scss/site/modules/_video.scss */
 .video-close-btn:hover, .video-close-btn:focus {
   border: 1px solid #FFF;
   text-decoration: none;
@@ -9935,14 +9969,14 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   color: #000;
 }
 
-/* line 44, ../../assets/scss/site/modules/_video.scss */
+/* line 45, ../../assets/scss/site/modules/_video.scss */
 .video-table {
   display: table;
   height: 100%;
   margin: 0 auto;
 }
 
-/* line 50, ../../assets/scss/site/modules/_video.scss */
+/* line 51, ../../assets/scss/site/modules/_video.scss */
 .video-table-cell {
   display: table-cell;
   vertical-align: middle;
@@ -10021,102 +10055,115 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   text-align: center;
   overflow: hidden;
 }
-/* line 6, ../../assets/scss/site/modules/_article.scss */
+/* line 5, ../../assets/scss/site/modules/_article.scss */
+.faw-article p {
+  max-width: 750px;
+  display: inline-block;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+/* line 12, ../../assets/scss/site/modules/_article.scss */
 .faw-article .category-item {
   min-width: 60px !important;
 }
-/* line 10, ../../assets/scss/site/modules/_article.scss */
+/* line 16, ../../assets/scss/site/modules/_article.scss */
 .faw-article .btn-round.is-active {
   width: 60px !important;
   height: 60px !important;
   padding-top: 0.2em !important;
   font-size: 2.6em !important;
 }
-/* line 14, ../../assets/scss/site/modules/_article.scss */
+/* line 20, ../../assets/scss/site/modules/_article.scss */
 .faw-article .btn-round.is-active img {
   width: 40px;
 }
 @media (min-width: 768px) {
-  /* line 10, ../../assets/scss/site/modules/_article.scss */
+  /* line 16, ../../assets/scss/site/modules/_article.scss */
   .faw-article .btn-round.is-active {
     width: 100px !important;
     height: 100px !important;
     padding-top: 12px !important;
     font-size: 3.5em !important;
   }
-  /* line 27, ../../assets/scss/site/modules/_article.scss */
+  /* line 33, ../../assets/scss/site/modules/_article.scss */
   .faw-article .btn-round.is-active img {
     width: 80px;
   }
 }
-/* line 33, ../../assets/scss/site/modules/_article.scss */
+/* line 39, ../../assets/scss/site/modules/_article.scss */
 .faw-article .category-title {
   font-size: 0.9em !important;
 }
 @media (min-width: 768px) {
-  /* line 33, ../../assets/scss/site/modules/_article.scss */
+  /* line 39, ../../assets/scss/site/modules/_article.scss */
   .faw-article .category-title {
     font-size: 1em !important;
   }
 }
-/* line 41, ../../assets/scss/site/modules/_article.scss */
+/* line 47, ../../assets/scss/site/modules/_article.scss */
 .faw-article .form-biline-container {
   margin-bottom: 1em !important;
 }
 @media (min-width: 768px) {
-  /* line 41, ../../assets/scss/site/modules/_article.scss */
+  /* line 47, ../../assets/scss/site/modules/_article.scss */
   .faw-article .form-biline-container {
     margin-bottom: 3em !important;
   }
 }
 
-/* line 49, ../../assets/scss/site/modules/_article.scss */
+/* line 55, ../../assets/scss/site/modules/_article.scss */
 .faw-article-quotes {
   font-size: 2em;
   line-height: 1em;
   margin-top: 0.5em;
 }
 @media (min-width: 768px) {
-  /* line 49, ../../assets/scss/site/modules/_article.scss */
+  /* line 55, ../../assets/scss/site/modules/_article.scss */
   .faw-article-quotes {
     margin-top: 1.5em;
     font-size: 2.5em;
   }
 }
 
-/* line 60, ../../assets/scss/site/modules/_article.scss */
+/* line 66, ../../assets/scss/site/modules/_article.scss */
+.avatar-label {
+  display: block !important;
+  max-width: 100% !important;
+}
+
+/* line 71, ../../assets/scss/site/modules/_article.scss */
 .faw-article-share-icons {
   margin-top: 1em;
+  display: block !important;
+  max-width: 100% !important;
+  margin-top: 0.5 !important;
+  margin-bottom: 0.5 !important;
 }
-@media (min-width: 768px) {
-  /* line 60, ../../assets/scss/site/modules/_article.scss */
-  .faw-article-share-icons {
-    margin-bottom: 3em;
-  }
-}
-/* line 67, ../../assets/scss/site/modules/_article.scss */
+/* line 78, ../../assets/scss/site/modules/_article.scss */
 .faw-article-share-icons a {
   margin: 0.1em;
 }
 
-/* line 72, ../../assets/scss/site/modules/_article.scss */
+/* line 83, ../../assets/scss/site/modules/_article.scss */
 .faw-article-share-label {
   font-size: 1.1em;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
 }
 
-/* line 76, ../../assets/scss/site/modules/_article.scss */
+/* line 89, ../../assets/scss/site/modules/_article.scss */
 .faw-article-copyright {
   margin-top: 1;
   color: #737373;
 }
 @media (min-width: 768px) {
-  /* line 76, ../../assets/scss/site/modules/_article.scss */
+  /* line 89, ../../assets/scss/site/modules/_article.scss */
   .faw-article-copyright {
     margin-top: 0em;
   }
 }
 
-/* line 85, ../../assets/scss/site/modules/_article.scss */
+/* line 98, ../../assets/scss/site/modules/_article.scss */
 .faw-article-divider {
   width: 1px;
   border-left: 1px #bebebe solid;
@@ -10126,83 +10173,73 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   padding-right: 0.5em;
 }
 
-/* line 94, ../../assets/scss/site/modules/_article.scss */
+/* line 107, ../../assets/scss/site/modules/_article.scss */
 .faw-article-healdine {
   max-width: 750px;
   display: inline-block;
   line-height: 1.3em;
 }
 
-/* line 100, ../../assets/scss/site/modules/_article.scss */
-.faw-article-copy {
-  max-width: 750px;
-  display: inline-block;
-  padding: 0.5em;
-  padding-top: 0;
-  margin-top: 0;
-  font-size: 1.1em;
-}
-
-/* line 109, ../../assets/scss/site/modules/_article.scss */
+/* line 113, ../../assets/scss/site/modules/_article.scss */
 .divider-small {
   max-width: 220px;
 }
 
-/* line 113, ../../assets/scss/site/modules/_article.scss */
+/* line 117, ../../assets/scss/site/modules/_article.scss */
 .faw-article-share-round {
-  margin-top: -2.4em;
+  margin-top: -2.6em;
 }
 
 /* SHARE OVERRIDES */
-/* line 120, ../../assets/scss/site/modules/_article.scss */
+/* line 124, ../../assets/scss/site/modules/_article.scss */
 .st_email_large .stButton .stLarge {
   background-image: url("../imgs/base/share/share-round-mail.png") !important;
   width: 52px;
   height: 52px;
 }
-/* line 125, ../../assets/scss/site/modules/_article.scss */
+/* line 129, ../../assets/scss/site/modules/_article.scss */
 .st_email_large .stButton .stLarge:hover {
   background-position: 0 0 !important;
   background-image: url("../imgs/base/share/share-round-mail-black.png") !important;
 }
 
-/* line 135, ../../assets/scss/site/modules/_article.scss */
+/* line 139, ../../assets/scss/site/modules/_article.scss */
 .st_facebook_large .stButton .stLarge {
   background-image: url("../imgs/base/share/share-round-fb.png") !important;
   width: 52px;
   height: 52px;
 }
-/* line 140, ../../assets/scss/site/modules/_article.scss */
+/* line 144, ../../assets/scss/site/modules/_article.scss */
 .st_facebook_large .stButton .stLarge:hover {
   background-position: 0 0 !important;
   background-image: url("../imgs/base/share/share-round-fb-black.png") !important;
 }
 
-/* line 150, ../../assets/scss/site/modules/_article.scss */
+/* line 154, ../../assets/scss/site/modules/_article.scss */
 .st_twitter_large .stButton .stLarge {
   background-image: url("../imgs/base/share/share-round-twitter.png") !important;
   width: 52px;
   height: 52px;
 }
-/* line 155, ../../assets/scss/site/modules/_article.scss */
+/* line 159, ../../assets/scss/site/modules/_article.scss */
 .st_twitter_large .stButton .stLarge:hover {
   background-position: 0 0 !important;
   background-image: url("../imgs/base/share/share-round-twitter-black.png") !important;
 }
 
-/* line 164, ../../assets/scss/site/modules/_article.scss */
+/* line 168, ../../assets/scss/site/modules/_article.scss */
 .faw-bookmark-icon .faw-bookmark-icon-black {
   display: none;
 }
-/* line 167, ../../assets/scss/site/modules/_article.scss */
+/* line 171, ../../assets/scss/site/modules/_article.scss */
 .faw-bookmark-icon .faw-bookmark-icon-light {
   display: inline-block;
 }
-/* line 173, ../../assets/scss/site/modules/_article.scss */
+/* line 177, ../../assets/scss/site/modules/_article.scss */
 .faw-bookmark-icon:hover .faw-bookmark-icon-black {
   display: inline-block;
 }
-/* line 176, ../../assets/scss/site/modules/_article.scss */
+/* line 180, ../../assets/scss/site/modules/_article.scss */
 .faw-bookmark-icon:hover .faw-bookmark-icon-light {
   display: none;
 }
@@ -11010,37 +11047,40 @@ progress[value]::-webkit-progress-value {
 /* line 1, ../../assets/scss/site/modules/_custommap.scss */
 .custommap {
   width: 100%;
-  height: 400px;
 }
-/* line 5, ../../assets/scss/site/modules/_custommap.scss */
+/* line 4, ../../assets/scss/site/modules/_custommap.scss */
 .custommap img {
   width: 100%;
   max-width: 500px;
   padding: 0.5em;
 }
 @media (min-width: 768px) {
-  /* line 5, ../../assets/scss/site/modules/_custommap.scss */
+  /* line 4, ../../assets/scss/site/modules/_custommap.scss */
   .custommap img {
     width: auto;
   }
 }
 
-/* line 16, ../../assets/scss/site/modules/_custommap.scss */
+/* line 15, ../../assets/scss/site/modules/_custommap.scss */
 .custommap-description {
   margin-top: -4em;
   margin-left: 0;
+  text-align: center;
 }
 /* line 21, ../../assets/scss/site/modules/_custommap.scss */
 .custommap-description p {
-  font-size: 1.1em;
-  margin: 0;
-  padding: 0;
+  font-size: 1.1em !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: block !important;
+  min-width: 100% !important;
 }
-/* line 26, ../../assets/scss/site/modules/_custommap.scss */
+/* line 28, ../../assets/scss/site/modules/_custommap.scss */
 .custommap-description a {
   font-size: 1.1em;
+  display: block !important;
 }
-/* line 30, ../../assets/scss/site/modules/_custommap.scss */
+/* line 33, ../../assets/scss/site/modules/_custommap.scss */
 .custommap-description .custommap-description-head {
   margin-top: 1em !important;
 }
@@ -11366,15 +11406,34 @@ progress[value]::-webkit-progress-value {
   }
 }
 
+/* line 174, ../../assets/scss/site/modules/_navbar.scss */
+.navbar-brand {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 0.5em;
+  left: 50%;
+  margin-left: -70px;
+}
+@media (min-width: 768px) {
+  /* line 174, ../../assets/scss/site/modules/_navbar.scss */
+  .navbar-brand {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-left: 0;
+  }
+}
+
 /*------------------ NAVBAR MOBILE HEAD STYLES ----------------------*/
-/* line 176, ../../assets/scss/site/modules/_navbar.scss */
+/* line 192, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-mobile-head {
   height: 50px !important;
   text-align: center;
   padding: 0 !important;
   position: relative;
 }
-/* line 182, ../../assets/scss/site/modules/_navbar.scss */
+/* line 198, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-mobile-head .navbar-mobile-head-label {
   font-size: 1.5em;
   color: #000;
@@ -11382,7 +11441,7 @@ progress[value]::-webkit-progress-value {
   display: none;
 }
 
-/* line 190, ../../assets/scss/site/modules/_navbar.scss */
+/* line 206, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-mobile-close-icon {
   display: inline-block;
   background-image: url("../imgs/base/nav-close-icon.png");
@@ -11396,7 +11455,7 @@ progress[value]::-webkit-progress-value {
   display: none;
 }
 
-/* line 202, ../../assets/scss/site/modules/_navbar.scss */
+/* line 218, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-mobile-open-icon {
   display: inline-block;
   background-image: url("../imgs/base/nav-toggle-icon.png");
@@ -11409,7 +11468,7 @@ progress[value]::-webkit-progress-value {
   cursor: pointer;
 }
 
-/* line 213, ../../assets/scss/site/modules/_navbar.scss */
+/* line 229, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-mobile-back-icon {
   display: inline-block;
   background-image: url("../imgs/base/nav-back-icon.png");
@@ -11424,7 +11483,7 @@ progress[value]::-webkit-progress-value {
 }
 
 /*------------------ NAVBAR SUBITEMS STYLES ----------------------*/
-/* line 228, ../../assets/scss/site/modules/_navbar.scss */
+/* line 244, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-subitems {
   position: absolute;
   top: 0;
@@ -11434,7 +11493,7 @@ progress[value]::-webkit-progress-value {
   min-width: 275px;
 }
 @media (min-width: 768px) {
-  /* line 228, ../../assets/scss/site/modules/_navbar.scss */
+  /* line 244, ../../assets/scss/site/modules/_navbar.scss */
   .navbar-subitems {
     width: 100%;
     left: 0;
@@ -11442,28 +11501,28 @@ progress[value]::-webkit-progress-value {
     height: 0;
   }
 }
-/* line 243, ../../assets/scss/site/modules/_navbar.scss */
+/* line 259, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-subitems li {
   background-color: white;
   cursor: pointer;
 }
-/* line 247, ../../assets/scss/site/modules/_navbar.scss */
+/* line 263, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-subitems li a {
   color: black;
 }
 @media (min-width: 768px) {
-  /* line 247, ../../assets/scss/site/modules/_navbar.scss */
+  /* line 263, ../../assets/scss/site/modules/_navbar.scss */
   .navbar-subitems li a {
     color: #FFFFFF;
   }
 }
-/* line 253, ../../assets/scss/site/modules/_navbar.scss */
+/* line 269, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-subitems li a p {
   padding: 0;
   margin: 0;
 }
 @media (min-width: 768px) {
-  /* line 243, ../../assets/scss/site/modules/_navbar.scss */
+  /* line 259, ../../assets/scss/site/modules/_navbar.scss */
   .navbar-subitems li {
     float: left;
     width: 100%;
@@ -11475,11 +11534,11 @@ progress[value]::-webkit-progress-value {
   }
 }
 @media (min-width: 768px) {
-  /* line 268, ../../assets/scss/site/modules/_navbar.scss */
+  /* line 284, ../../assets/scss/site/modules/_navbar.scss */
   .navbar-subitems li:hover {
     background-color: white;
   }
-  /* line 270, ../../assets/scss/site/modules/_navbar.scss */
+  /* line 286, ../../assets/scss/site/modules/_navbar.scss */
   .navbar-subitems li:hover a {
     color: black;
   }
@@ -11487,122 +11546,127 @@ progress[value]::-webkit-progress-value {
 
 /*------------------ STATES ----------------------*/
 @media (min-width: 768px) {
-  /* line 280, ../../assets/scss/site/modules/_navbar.scss */
+  /* line 296, ../../assets/scss/site/modules/_navbar.scss */
   .navbar-item-active {
     border-bottom: 1px black solid !important;
   }
 }
-/* line 284, ../../assets/scss/site/modules/_navbar.scss */
+/* line 300, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-item-active a {
   font-family: "ProximaNova Bold";
 }
 
-/* line 289, ../../assets/scss/site/modules/_navbar.scss */
+/* line 305, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-item-dropdown-icon-active {
   background-position: 0 0;
 }
 
-/* line 293, ../../assets/scss/site/modules/_navbar.scss */
+/* line 309, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-item-dropdown-icon-inactive {
   background-position: 0 0;
 }
 @media (min-width: 768px) {
-  /* line 293, ../../assets/scss/site/modules/_navbar.scss */
+  /* line 309, ../../assets/scss/site/modules/_navbar.scss */
   .navbar-item-dropdown-icon-inactive {
     background-position: 0 -7px;
   }
 }
 
-/* line 300, ../../assets/scss/site/modules/_navbar.scss */
+/* line 316, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-hide-icon {
   display: none !important;
 }
 
-/* line 303, ../../assets/scss/site/modules/_navbar.scss */
+/* line 319, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-show-icon {
   display: block !important;
 }
 
+/* line 322, ../../assets/scss/site/modules/_navbar.scss */
+.navbar-show-icon-inline {
+  display: inline-block !important;
+}
+
 /*------------------ ANIMTAIONS ----------------------*/
-/* line 308, ../../assets/scss/site/modules/_navbar.scss */
+/* line 327, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-items-hide {
   left: -100%;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-/* line 313, ../../assets/scss/site/modules/_navbar.scss */
+/* line 332, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-items-show {
   left: 0px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-/* line 318, ../../assets/scss/site/modules/_navbar.scss */
+/* line 337, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-subitems-hide {
   left: -100%;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 @media (min-width: 768px) {
-  /* line 318, ../../assets/scss/site/modules/_navbar.scss */
+  /* line 337, ../../assets/scss/site/modules/_navbar.scss */
   .navbar-subitems-hide {
     height: 0px;
     left: 0px;
   }
 }
 
-/* line 327, ../../assets/scss/site/modules/_navbar.scss */
+/* line 346, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-subitems-show {
   left: 100%;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 @media (min-width: 768px) {
-  /* line 327, ../../assets/scss/site/modules/_navbar.scss */
+  /* line 346, ../../assets/scss/site/modules/_navbar.scss */
   .navbar-subitems-show {
     height: 400px;
   }
 }
 
-/* line 336, ../../assets/scss/site/modules/_navbar.scss */
+/* line 355, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-head-show-border {
   border-bottom: 1px #bbbbbb solid;
 }
 
-/* line 339, ../../assets/scss/site/modules/_navbar.scss */
+/* line 358, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-head-hide-border {
   border-bottom: none;
 }
 
-/* line 343, ../../assets/scss/site/modules/_navbar.scss */
+/* line 362, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-active {
   background-color: white;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-/* line 349, ../../assets/scss/site/modules/_navbar.scss */
+/* line 368, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-inactive {
   background-color: none;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-/* line 354, ../../assets/scss/site/modules/_navbar.scss */
+/* line 373, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-removeanimations {
   -webkit-transition: none;
   transition: none;
 }
 
-/* line 359, ../../assets/scss/site/modules/_navbar.scss */
+/* line 378, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-search-icon {
   position: absolute;
   right: 1em;
   top: 1em;
 }
 @media (min-width: 768px) {
-  /* line 359, ../../assets/scss/site/modules/_navbar.scss */
+  /* line 378, ../../assets/scss/site/modules/_navbar.scss */
   .navbar-search-icon {
     position: relative;
     right: 0;
@@ -11651,8 +11715,8 @@ progress[value]::-webkit-progress-value {
 
 /* line 31, ../../assets/scss/site/modules/_imagewithdescription.scss */
 .imagewithdescription-description {
+  position: relative;
   cursor: pointer;
-  position: absolute;
   right: 0;
   top: auto;
   bottom: 0;
@@ -11664,20 +11728,26 @@ progress[value]::-webkit-progress-value {
 @media (min-width: 768px) {
   /* line 31, ../../assets/scss/site/modules/_imagewithdescription.scss */
   .imagewithdescription-description {
+    position: absolute;
+  }
+}
+@media (min-width: 768px) {
+  /* line 31, ../../assets/scss/site/modules/_imagewithdescription.scss */
+  .imagewithdescription-description {
     width: 155px;
     top: 8em;
     bottom: auto;
   }
 }
 
-/* line 49, ../../assets/scss/site/modules/_imagewithdescription.scss */
+/* line 53, ../../assets/scss/site/modules/_imagewithdescription.scss */
 .imagewithdescription-description-head {
   margin: 0;
   padding: 0;
   font-size: 0.9em;
 }
 
-/* line 55, ../../assets/scss/site/modules/_imagewithdescription.scss */
+/* line 59, ../../assets/scss/site/modules/_imagewithdescription.scss */
 .imagewithdescription-description-copy {
   margin: 0;
   padding: 0;
@@ -11847,15 +11917,18 @@ progress[value]::-webkit-progress-value {
 .faw-hero-home-headline {
   font-family: "TAheadline", Helvetica, Arial, sans-serif;
   padding-bottom: 0.5em;
+  line-height: 1em;
+  margin-top: -0.3em;
+  margin-bottom: -0.3em;
 }
 
-/* line 40, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 43, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .fullwidth-bg {
   width: 100%;
   height: 100%;
 }
 
-/* line 46, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 49, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .faw-hero-home-container {
   position: relative;
   text-align: center;
@@ -11866,13 +11939,13 @@ progress[value]::-webkit-progress-value {
   margin: 0;
 }
 @media (min-width: 768px) {
-  /* line 46, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+  /* line 49, ../../assets/scss/site/modules/_foodandwineherohome.scss */
   .faw-hero-home-container {
     padding-top: 5em;
   }
 }
 
-/* line 59, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 62, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .faw-hero-home-bg {
   width: 100%;
   height: 100%;
@@ -11884,12 +11957,12 @@ progress[value]::-webkit-progress-value {
   /* IE 10 fix */
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  /* line 59, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+  /* line 62, ../../assets/scss/site/modules/_foodandwineherohome.scss */
   .faw-hero-home-bg {
     z-index: 0;
   }
 }
-/* line 74, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 77, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .faw-hero-home-bg img {
   width: 100%;
 }
@@ -11898,45 +11971,45 @@ progress[value]::-webkit-progress-value {
  Fix for when displaying within styleguide
  Image sits over all other elements due to position being fixed
 */
-/* line 84, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 87, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .sg-pattern .faw-hero-home-bg {
   position: absolute;
 }
 
-/* line 92, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 95, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .skrollr-desktop .faw-hero-home-bg {
   z-index: inherit;
 }
 
-/* line 98, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 101, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .faw-hero-home-container .icon-logo-withlines-container {
   margin: 0;
   height: 140px;
   overflow: hidden;
 }
 
-/* line 105, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 108, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .faw-hero-home.make-black .faw-hero-home-container .icon-logo-withlines-logo {
   color: #040000;
 }
-/* line 108, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 111, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .faw-hero-home.make-black hr {
   border-top: 1px solid #040000;
 }
-/* line 111, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 114, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .faw-hero-home.make-black h1 {
   color: #040000;
 }
 
-/* line 117, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 120, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .faw-hero-home.make-white .faw-hero-home-container .icon-logo-withlines-logo {
   color: #FFF;
 }
-/* line 120, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 123, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .faw-hero-home.make-white hr {
   border-top: 1px solid #FFF;
 }
-/* line 123, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 126, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .faw-hero-home.make-white h1 {
   color: #FFF;
 }
@@ -11956,35 +12029,35 @@ progress[value]::-webkit-progress-value {
   }
 }
 */
-/* line 142, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 145, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .faw-hero-home-hr {
   margin: 0 auto;
   width: 230px;
 }
 @media (min-width: 768px) {
-  /* line 142, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+  /* line 145, ../../assets/scss/site/modules/_foodandwineherohome.scss */
   .faw-hero-home-hr {
     width: 230px;
   }
 }
 
-/* line 150, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 153, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .form-hero {
   padding-left: 1em;
   padding-right: 1em;
 }
-/* line 154, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 157, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .form-hero .btn-auto-size {
   width: 100%;
 }
 @media (min-width: 768px) {
-  /* line 154, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+  /* line 157, ../../assets/scss/site/modules/_foodandwineherohome.scss */
   .form-hero .btn-auto-size {
     width: auto;
   }
 }
 
-/* line 162, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 165, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .form-hero-register {
   color: #040000;
   font-size: 0.875em;
@@ -11992,7 +12065,7 @@ progress[value]::-webkit-progress-value {
   max-width: 480px;
 }
 @media (min-width: 480px) {
-  /* line 162, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+  /* line 165, ../../assets/scss/site/modules/_foodandwineherohome.scss */
   .form-hero-register {
     font-size: 1.125em;
     padding: 0 1.4em;
@@ -12000,7 +12073,7 @@ progress[value]::-webkit-progress-value {
   }
 }
 @media (min-width: 768px) {
-  /* line 162, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+  /* line 165, ../../assets/scss/site/modules/_foodandwineherohome.scss */
   .form-hero-register {
     max-width: 520px;
   }
@@ -12010,7 +12083,6 @@ progress[value]::-webkit-progress-value {
 .faw-video-teaser-wrapper {
   position: relative;
   overflow: hidden;
-  border-top: 3px rgba(0, 0, 0, 0.6) solid;
 }
 @media (min-width: 768px) {
   /* line 1, ../../assets/scss/site/modules/_foodandwinevideoteaser.scss */
@@ -12019,7 +12091,7 @@ progress[value]::-webkit-progress-value {
   }
 }
 
-/* line 10, ../../assets/scss/site/modules/_foodandwinevideoteaser.scss */
+/* line 9, ../../assets/scss/site/modules/_foodandwinevideoteaser.scss */
 .faw-video-teaser {
   text-align: center;
   background: black;
@@ -12031,39 +12103,39 @@ progress[value]::-webkit-progress-value {
   width: 100%;
   padding: .5em 1em 1.8em;
 }
-/* line 21, ../../assets/scss/site/modules/_foodandwinevideoteaser.scss */
+/* line 20, ../../assets/scss/site/modules/_foodandwinevideoteaser.scss */
 .faw-video-teaser .is-desktop {
   display: none;
 }
-/* line 25, ../../assets/scss/site/modules/_foodandwinevideoteaser.scss */
+/* line 24, ../../assets/scss/site/modules/_foodandwinevideoteaser.scss */
 .faw-video-teaser h5 {
   font-family: "ProximaNova Regular", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-size: 0.875em;
 }
 @media (min-width: 768px) {
-  /* line 10, ../../assets/scss/site/modules/_foodandwinevideoteaser.scss */
+  /* line 9, ../../assets/scss/site/modules/_foodandwinevideoteaser.scss */
   .faw-video-teaser {
     position: absolute;
     padding: 5em 3em 5em 3em;
   }
-  /* line 32, ../../assets/scss/site/modules/_foodandwinevideoteaser.scss */
+  /* line 31, ../../assets/scss/site/modules/_foodandwinevideoteaser.scss */
   .faw-video-teaser h5 {
     font-family: "TAheadline", Helvetica, Arial, sans-serif;
     letter-spacing: .015em;
     font-size: 1.5em;
   }
-  /* line 40, ../../assets/scss/site/modules/_foodandwinevideoteaser.scss */
+  /* line 39, ../../assets/scss/site/modules/_foodandwinevideoteaser.scss */
   .faw-video-teaser .is-mobile {
     display: none;
   }
-  /* line 43, ../../assets/scss/site/modules/_foodandwinevideoteaser.scss */
+  /* line 42, ../../assets/scss/site/modules/_foodandwinevideoteaser.scss */
   .faw-video-teaser .is-desktop {
     display: inline-block;
   }
 }
 
-/* line 49, ../../assets/scss/site/modules/_foodandwinevideoteaser.scss */
+/* line 48, ../../assets/scss/site/modules/_foodandwinevideoteaser.scss */
 .faw-video-teaser-with-bg {
   position: relative !important;
   background-color: transparent !important;
@@ -12072,31 +12144,31 @@ progress[value]::-webkit-progress-value {
   margin-bottom: 3em;
 }
 @media (min-width: 768px) {
-  /* line 49, ../../assets/scss/site/modules/_foodandwinevideoteaser.scss */
+  /* line 48, ../../assets/scss/site/modules/_foodandwinevideoteaser.scss */
   .faw-video-teaser-with-bg {
     padding: 2em 3em 2em 3em;
   }
 }
 
-/* line 62, ../../assets/scss/site/modules/_foodandwinevideoteaser.scss */
+/* line 61, ../../assets/scss/site/modules/_foodandwinevideoteaser.scss */
 .faw-video-teaser-with-bg-wrapper {
   border-top: 0px rgba(0, 0, 0, 0.6) solid !important;
 }
 
-/* line 66, ../../assets/scss/site/modules/_foodandwinevideoteaser.scss */
+/* line 65, ../../assets/scss/site/modules/_foodandwinevideoteaser.scss */
 .faw-video-teaser-label {
   display: block;
   color: white;
   padding-bottom: 0.9375em;
 }
 @media (min-width: 768px) {
-  /* line 66, ../../assets/scss/site/modules/_foodandwinevideoteaser.scss */
+  /* line 65, ../../assets/scss/site/modules/_foodandwinevideoteaser.scss */
   .faw-video-teaser-label {
     display: inline-block;
   }
 }
 
-/* line 75, ../../assets/scss/site/modules/_foodandwinevideoteaser.scss */
+/* line 74, ../../assets/scss/site/modules/_foodandwinevideoteaser.scss */
 .faw-video-teaser-icon {
   padding: .85em;
   border: 2px solid #c9c9c9;
@@ -12114,7 +12186,7 @@ progress[value]::-webkit-progress-value {
   */
 }
 @media (min-width: 768px) {
-  /* line 75, ../../assets/scss/site/modules/_foodandwinevideoteaser.scss */
+  /* line 74, ../../assets/scss/site/modules/_foodandwinevideoteaser.scss */
   .faw-video-teaser-icon {
     padding: 2.1em;
     border: 1px solid #fff;
@@ -12482,17 +12554,27 @@ progress[value]::-webkit-progress-value {
   padding-bottom: 2em;
   text-align: center;
 }
+/* line 9, ../../assets/scss/site/modules/_foodandwinecategorymosiac.scss */
+.faw-category-mosaic .btn-secondary {
+  margin-top: 0.5em;
+}
+@media (min-width: 768px) {
+  /* line 9, ../../assets/scss/site/modules/_foodandwinecategorymosiac.scss */
+  .faw-category-mosaic .btn-secondary {
+    margin-top: 2em;
+  }
+}
 
-/* line 10, ../../assets/scss/site/modules/_foodandwinecategorymosiac.scss */
+/* line 18, ../../assets/scss/site/modules/_foodandwinecategorymosiac.scss */
 .faw-category-mosaci-items {
   margin-top: 2em;
 }
-/* line 13, ../../assets/scss/site/modules/_foodandwinecategorymosiac.scss */
+/* line 21, ../../assets/scss/site/modules/_foodandwinecategorymosiac.scss */
 .faw-category-mosaci-items .category-input[type=checkbox] + label {
   min-width: 5em;
 }
 
-/* line 18, ../../assets/scss/site/modules/_foodandwinecategorymosiac.scss */
+/* line 26, ../../assets/scss/site/modules/_foodandwinecategorymosiac.scss */
 .faw-category-mosaic-drop-downs {
   position: relative;
   z-index: 2;
@@ -12500,7 +12582,7 @@ progress[value]::-webkit-progress-value {
   margin-bottom: 1em;
 }
 @media (min-width: 768px) {
-  /* line 18, ../../assets/scss/site/modules/_foodandwinecategorymosiac.scss */
+  /* line 26, ../../assets/scss/site/modules/_foodandwinecategorymosiac.scss */
   .faw-category-mosaic-drop-downs {
     position: absolute;
     top: 2.2em;
@@ -12509,12 +12591,12 @@ progress[value]::-webkit-progress-value {
   }
 }
 
-/* line 32, ../../assets/scss/site/modules/_foodandwinecategorymosiac.scss */
+/* line 40, ../../assets/scss/site/modules/_foodandwinecategorymosiac.scss */
 .faw-category-mosaic-drop-down {
   display: inline-block;
   margin-left: 0.5em;
 }
-/* line 36, ../../assets/scss/site/modules/_foodandwinecategorymosiac.scss */
+/* line 44, ../../assets/scss/site/modules/_foodandwinecategorymosiac.scss */
 .faw-category-mosaic-drop-down .input-select {
   height: 40px;
   padding: 0.5em;
@@ -12522,7 +12604,7 @@ progress[value]::-webkit-progress-value {
   margin-bottom: 1em;
 }
 @media (min-width: 768px) {
-  /* line 36, ../../assets/scss/site/modules/_foodandwinecategorymosiac.scss */
+  /* line 44, ../../assets/scss/site/modules/_foodandwinecategorymosiac.scss */
   .faw-category-mosaic-drop-down .input-select {
     margin-bottom: 0;
   }
@@ -12552,14 +12634,14 @@ progress[value]::-webkit-progress-value {
   left: 0;
   right: 0;
   margin: 1em;
-  padding: 1em;
+  padding: 1em !important;
   text-align: left;
   padding-top: 0.2em;
 }
 
 /* line 27, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-description-copy {
-  display: none;
+  display: none !important;
   line-height: 1.3em;
   margin-bottom: 0;
 }
@@ -12569,7 +12651,7 @@ progress[value]::-webkit-progress-value {
   color: white;
   font-size: 1.5em;
   line-height: 1em;
-  padding: 0;
+  padding: 0 !important;
   margin: 0;
   padding-right: 1.5em;
   text-transform: uppercase;
@@ -12579,9 +12661,9 @@ progress[value]::-webkit-progress-value {
 .mosaic-item-description-sub {
   font-family: "ProximaNova Regular Italic";
   color: white;
-  padding: 0;
+  padding: 0 !important;
   margin: 0;
-  padding-right: 1.5em;
+  padding-right: 1.5em !important;
   line-height: 0.7em;
 }
 
@@ -12681,7 +12763,7 @@ progress[value]::-webkit-progress-value {
   position: absolute;
   top: 100px;
   left: 30px;
-  width: 120px;
+  width: 120px !important;
   font-size: 0.9em !important;
   line-height: 1em !important;
   text-align: center;
@@ -12715,8 +12797,8 @@ progress[value]::-webkit-progress-value {
   font-size: 0.9em;
   text-align: left;
   color: white;
-  padding: 1em;
-  padding-bottom: 0;
+  padding: 1em !important;
+  padding-bottom: 0 !important;
 }
 
 /* line 176, ../../assets/scss/site/modules/_mosaic-item.scss */
@@ -12808,12 +12890,12 @@ progress[value]::-webkit-progress-value {
 }
 /* line 260, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list .mosaic-item-description-copy {
-  display: none;
+  display: none !important;
 }
 @media (min-width: 768px) {
   /* line 260, ../../assets/scss/site/modules/_mosaic-item.scss */
   .mosaic-item-list .mosaic-item-description-copy {
-    display: block;
+    display: block !important;
   }
 }
 /* line 268, ../../assets/scss/site/modules/_mosaic-item.scss */
@@ -12882,7 +12964,7 @@ progress[value]::-webkit-progress-value {
 }
 /* line 319, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid .mosaic-item-description-copy {
-  display: none;
+  display: none !important;
 }
 /* line 323, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid .mosaic-item-image {
@@ -13018,11 +13100,11 @@ progress[value]::-webkit-progress-value {
   position: relative;
   z-index: 1;
   width: 100%;
-  max-width: 73.75em;
-  margin: 0 auto;
+  max-width: 1145px;
   margin-top: 1em;
   border-top: 1px #bbbbbb solid;
   padding-top: 2em;
+  display: inline-block;
 }
 @media (min-width: 768px) {
   /* line 1, ../../assets/scss/site/modules/_mosaicgridchanger.scss */
@@ -13071,17 +13153,24 @@ progress[value]::-webkit-progress-value {
 .faw-search-tag-cloud {
   text-align: center;
   padding: 1em;
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
+  margin-top: 0em;
+  margin-bottom: 0em;
 }
-/* line 7, ../../assets/scss/site/modules/_foodandwinesearchtagcloud.scss */
+@media (min-width: 768px) {
+  /* line 1, ../../assets/scss/site/modules/_foodandwinesearchtagcloud.scss */
+  .faw-search-tag-cloud {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+  }
+}
+/* line 12, ../../assets/scss/site/modules/_foodandwinesearchtagcloud.scss */
 .faw-search-tag-cloud ul {
   text-align: center;
   list-style: none;
   margin: 0;
   padding: 0;
 }
-/* line 13, ../../assets/scss/site/modules/_foodandwinesearchtagcloud.scss */
+/* line 18, ../../assets/scss/site/modules/_foodandwinesearchtagcloud.scss */
 .faw-search-tag-cloud ul li {
   display: inline-block;
   background-color: #040000;
@@ -13092,13 +13181,13 @@ progress[value]::-webkit-progress-value {
   margin: 0.2em;
   font-size: 0.9em;
 }
-/* line 23, ../../assets/scss/site/modules/_foodandwinesearchtagcloud.scss */
+/* line 28, ../../assets/scss/site/modules/_foodandwinesearchtagcloud.scss */
 .faw-search-tag-cloud ul li a {
   text-decoration: none;
   color: #FFF;
 }
 
-/* line 31, ../../assets/scss/site/modules/_foodandwinesearchtagcloud.scss */
+/* line 36, ../../assets/scss/site/modules/_foodandwinesearchtagcloud.scss */
 .faw-search-tag-cloud-headline {
   font-size: 1.2em;
   margin-bottom: 0.4em;

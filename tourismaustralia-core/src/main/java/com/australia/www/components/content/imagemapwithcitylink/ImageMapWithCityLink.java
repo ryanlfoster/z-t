@@ -1,5 +1,6 @@
 package com.australia.www.components.content.imagemapwithcitylink;
 
+import com.australia.utils.LinkUtils;
 import com.citytechinc.cq.component.annotations.Component;
 import com.citytechinc.cq.component.annotations.DialogField;
 import com.citytechinc.cq.component.annotations.Listener;
@@ -15,7 +16,7 @@ import org.apache.sling.api.resource.ValueMap;
  * Created by wma on 28/03/2014.
  */
 
-@Component(value = "Image Map with City Link", tabs = {@Tab(title = "Image"), @Tab(title = "Map Information")}, listeners = {@Listener(name = "aftercopy", value = "REFRESH_PAGE"),
+@Component(value = "Image Map with City Link", disableTargeting = true, tabs = {@Tab(title = "Image"), @Tab(title = "Map Information")}, listeners = {@Listener(name = "aftercopy", value = "REFRESH_PAGE"),
         @Listener(name = "afterdelete", value = "REFRESH_PAGE"), @Listener(name = "afteredit", value = "REFRESH_PAGE"),
         @Listener(name = "afterinsert", value = "REFRESH_PAGE")})
 
@@ -33,9 +34,11 @@ public class ImageMapWithCityLink {
     @DialogField(fieldLabel = "Link Text", required = false, tab = 2)
     private String linkText;
 
-    @DialogField(required = false, tab = 2, fieldLabel = "Link")
+    @DialogField(fieldLabel = "Link", fieldDescription = "For external links please use prefix http:// or https:// (eg. http://www.google.com)", required = false, tab = 2)
     @PathField
-    private final String link;
+    private String link;
+
+    private boolean linkIsExternal;
 
     public ImageMapWithCityLink(SlingHttpServletRequest request) {
         ValueMap properties = request.getResource().adaptTo(ValueMap.class);
@@ -43,10 +46,13 @@ public class ImageMapWithCityLink {
         if (imageObj != null && imageObj.hasContent()) {
             image = imageObj.getPath();
         }
-        altText = properties.get("altText", StringUtils.EMPTY);
-        title = properties.get("title", StringUtils.EMPTY);
-        linkText = properties.get("linkText", StringUtils.EMPTY);
-        link = properties.get("link", StringUtils.EMPTY);
+        if (properties != null) {
+            altText = properties.get("altText", StringUtils.EMPTY);
+            title = properties.get("title", StringUtils.EMPTY);
+            linkText = properties.get("linkText", StringUtils.EMPTY);
+            link = LinkUtils.getHrefFromPath(properties.get("link", StringUtils.EMPTY));
+            linkIsExternal = LinkUtils.isExternal(properties.get("link", StringUtils.EMPTY));
+        }
     }
 
     public String getImage() {
@@ -68,4 +74,6 @@ public class ImageMapWithCityLink {
     public String getLink() {
         return link;
     }
+
+    public boolean getLinkIsExternal() { return linkIsExternal; }
 }

@@ -96,6 +96,10 @@
 		//hide search icon
 		$(scope.element).find('.navbar-search-icon').removeClass('navbar-show-icon');
 		$(scope.element).find('.navbar-search-icon').addClass('navbar-hide-icon');
+		
+		//hide brand icon
+		$(scope.element).find('.navbar-header').removeClass('navbar-show-icon-inline');
+		$(scope.element).find('.navbar-header').addClass('navbar-hide-icon');
 
 		//show close icon
 		$(scope.element).find('.navbar-mobile-close-icon').removeClass('navbar-hide-icon');
@@ -124,6 +128,10 @@
 		//hide search icon
 		$(scope.element).find('.navbar-search-icon').removeClass('navbar-hide-icon');
 		$(scope.element).find('.navbar-search-icon').addClass('navbar-show-icon');
+		
+		//hide brand icon
+		$(scope.element).find('.navbar-header').removeClass('navbar-hide-icon');
+		$(scope.element).find('.navbar-header').addClass('navbar-show-icon-inline');
 		//hide back icon
 		$(scope.element).find('.navbar-mobile-back-icon').removeClass('navbar-show-icon');
 		$(scope.element).find('.navbar-mobile-back-icon').addClass('navbar-hide-icon');

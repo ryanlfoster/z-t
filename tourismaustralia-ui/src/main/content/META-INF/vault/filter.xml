@@ -12,6 +12,10 @@
     <filter root="/etc/designs/foodandwine">
         <exclude pattern="/etc/designs/foodandwine/jcr:content(/.*)?"/>
     </filter>
+     <filter root="/content/usergenerated/food-and-wine">
+        <exclude pattern="/content/usergenerated/food-and-wine/experience-.*"/>
+    </filter>
+    <filter root="/etc/workflow/launcher/config/food-and-wine-experience-launcher"/>
     <filter root="/etc/designs/tourismaustralia/jcr:content/global/clientcontext"/>
     <filter root="/etc/packages/brightcove/brightcove_allinone-${brightcove-version}.zip"/>
 </workspaceFilter>

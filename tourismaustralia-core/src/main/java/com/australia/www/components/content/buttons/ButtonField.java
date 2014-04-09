@@ -16,7 +16,6 @@ public class ButtonField {
 	private String title;
 
 	@DialogField(fieldLabel = "Text")
-    @RichTextEditor
 	private String text;
 
 	

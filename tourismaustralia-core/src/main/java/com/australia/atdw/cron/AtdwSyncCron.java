@@ -42,6 +42,7 @@ public class AtdwSyncCron implements Runnable {
 		Stopwatch stopwatch = Stopwatch.createStarted();
 		try {
 			loadProductsFromAtdw(1);
+            removeStaleProducts();
 		} catch (IOException e) {
 			LOG.error("Error syncing products from ATDW", e);
 		}
@@ -61,7 +62,7 @@ public class AtdwSyncCron implements Runnable {
 		}
 	}
 
-    private void removeStaleProducts(){
+    private void removeStaleProducts() {
         if(schedulerExpression != null) {
             try {
                 CronExpression expression = new CronExpression(schedulerExpression);
@@ -79,15 +80,13 @@ public class AtdwSyncCron implements Runnable {
     }
 
     @Modified
-    void modified(Map<String, Object> values)
-    {
+    void modified(Map<String, Object> values) {
         Object expressionObject = values.get("scheduler.expression");
         schedulerExpression = (expressionObject instanceof String) ? (String) expressionObject : schedulerExpression;
     }
 
     @Activate
-    void activate(BundleContext context, Map<String, Object> values)
-    {
+    void activate(BundleContext context, Map<String, Object> values) {
         Object expressionObject = values.get("scheduler.expression");
         schedulerExpression = (expressionObject instanceof String) ? (String) expressionObject : schedulerExpression;
     }

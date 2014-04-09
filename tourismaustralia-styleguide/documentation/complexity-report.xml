@@ -17,10 +17,10 @@
     char="window.onscroll"
     evidence="window.onscroll is too complicated"
     reason="Cyclomatic: 8,
-    Halstead: 48.609
-    | Effort: 95252
-    | Volume: 1959.5
-    | Vocabulary: 49" />
+    Halstead: 50.177
+    | Effort: 97803
+    | Volume: 1949.2
+    | Vocabulary: 48" />
   
 </file>
 <file name="assets/js/src/modules/jquery.ta.mosaic.js">
@@ -36,16 +36,6 @@
   
 </file>
 <file name="assets/js/src/modules/jquery.ta.megamenu.js">
-  
-  <issue
-    line="43"
-    char="&lt;anonymous&gt;.delegateEvents"
-    evidence="&lt;anonymous&gt;.delegateEvents is too complicated"
-    reason="Cyclomatic: 2,
-    Halstead: 8.0938
-    | Effort: 2526.3
-    | Volume: 312.13
-    | Vocabulary: 23" />
   
 </file>
 <file name="assets/js/src/main.js">

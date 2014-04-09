@@ -3,7 +3,7 @@
 // * ---------------------------------------------------------------------------------------------------------------- */
 
 // colours...
-$notice-bar-bg: #303133;                                            // notice bar background colour
+$notice-bar-bg: #6d727b;                                            // notice bar background colour
 $arrival-bar-bg: $footer_bg;                                        // arrival navigation bar background colour (desktop)
 $navigation-bar-bg: $category-colour-islands;                       // main navigation background colour (desktop)
 $arrival-bar-active-link-bdr: $category-colour-beaches;             // link border for active links in arrival bar
@@ -119,23 +119,29 @@ $navigation-bar-height: pxtoem(90px);
 .notice-bar {
 
     // Mobile & Defaults...
+    color: $type-navigation;
     background-color: $notice-bar-bg;
 
+    .row {
+        position:relative;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
     .notice-text {
-        display: inline-block;
-        color: $type-navigation;
+        margin: 0;
     }
 
     .notice-title {
         font-weight: bold;
         font-family: $font-family-base-b;
-        margin-right: pxtoem(30px);
     }
 
     .notice-close {
-        float: right;
+        top: 15px;
+        right: 15px;
+        position: absolute;
         padding: 0;
-        margin: pxtoem(18px) 0;
         color: $type-navigation;
     }
 
@@ -148,7 +154,13 @@ $navigation-bar-height: pxtoem(90px);
 
     // Tablet...
     @media (min-width: $screen-sm-min) {
+        .notice-title {
+            margin-right: pxtoem(30px);
+        }
 
+        .notice-text {
+            display: inline-block;
+        }
     }
 
     // Desktop...
@@ -160,7 +172,28 @@ $navigation-bar-height: pxtoem(90px);
 
 // don't show the close button unless we can set a cookie if it's clicked...
 .no-js .notice-close {
-    display: none;
+    //display: none;
+}
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// TESTING NOTICE BAR ADJACENT SIBLING SELECTOR... May not be needed...
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+.notice-bar.is-active {
+    //margin-top:2em;
+}
+
+.notice-bar.is-active + #main-header .nav-bar.bar-fixed-top {
+
+}
+
+.notice-bar.is-active + #main-header + #main-content {
+
+    // these were the defaults...
+    margin-top: 2em;
+    @include breakpoint(sm) {
+        margin-top: 9em;
+    }
 }
 
 ///*
@@ -202,6 +235,10 @@ $navigation-bar-height: pxtoem(90px);
         margin: pxtoem(12px) 0;
         text-align: center;
         font-size: pxtoem(14px);
+
+        .l-nowrap {
+            white-space: nowrap;
+        }
 
         a {
             display: inline;
@@ -273,6 +310,9 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
 
 .mobile-open-bar {
 
+    // TODO:
+    //position: absolute;
+
     @extend .gpu-render;
 
     // Mobile Only...
@@ -329,6 +369,9 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
 // * Main Navigation Bar - Common Properties:
 // * ---------------------------------------------------------------------------------------------------------------- */
 .navigation-bar {
+
+    //TODO:
+    //position: relative;
 
     // Mobile & Defaults...
     background-color: transparent;
@@ -760,11 +803,13 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
             display: none;
         }
 
+
         .arrival-bar {
             overflow: hidden;
             max-height: 200px;
             @include transition(max-height, 0.15s, ease-out, 0.25s);
         }
+
 
         .navigation-bar {
             height: 58px;
@@ -795,10 +840,12 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
         height: 100%;
         @include nav-main-header-open();
 
+
         .arrival-bar {
             max-height: 0;
             @include transition(max-height, 0.15s, ease-in, 0);
         }
+
 
         .navigation-bar .l-center-1200 {
             height: 100%;
@@ -825,6 +872,8 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
 
     // JavaScript Enabled...
     // Adjust the delays because the arrival bar should be scrolled out of view...
+
+    /*
     .js .header {
         .arrival-bar {
             @include transition(max-height, 0.15s, ease-out, 0);
@@ -837,6 +886,7 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
             @include transition(width, 0.25s, ease-out, 0);
         }
     }
+    */
 }
 
 ///*

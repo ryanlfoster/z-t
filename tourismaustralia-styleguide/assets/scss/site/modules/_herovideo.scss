@@ -1,11 +1,10 @@
 .hero-video {
 	display: table;
 	height: 290px;
-	margin-bottom: .8em;
 	position: relative;
 	width:  100%;
 
-	padding-bottom: pxtoem($bottom-spacing);
+  	margin-bottom: pxtoem(43px);
 
 	background-size: cover;
 	background-position: top center;

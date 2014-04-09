@@ -9,30 +9,27 @@ import com.citytechinc.cq.component.annotations.Option;
 import com.citytechinc.cq.component.annotations.widgets.NumberField;
 import com.citytechinc.cq.component.annotations.widgets.Selection;
 
-/**
- * Created by cchin on 20/02/14.
- */
 @Component(value = "iFrame Control")
 public class IFrame {
 
 	@DialogField(fieldLabel = "Target Application", required = true)
-	private String applicationUrl;
+	private final String applicationUrl;
 
 	@DialogField(fieldLabel = "Max Width (px)", required = true)
 	@NumberField(allowNegative = false)
-	private int maxWidth;
+	private final int maxWidth;
 
 	@DialogField(fieldLabel = "Height (px)", required = true)
 	@NumberField(allowNegative = false)
-	private int height;
+	private final int height;
 
 	@DialogField(fieldLabel = "Exclude from Mobile")
 	@Selection(type = Selection.CHECKBOX, options = @Option(value = "true"))
-	private boolean excludeFromMobile;
+	private final boolean excludeFromMobile;
 
 	@DialogField(fieldLabel = "Exclude from Tablet")
 	@Selection(type = Selection.CHECKBOX, options = @Option(value = "true"))
-	private boolean excludeFromTablet;
+	private final boolean excludeFromTablet;
 
 	public IFrame(SlingHttpServletRequest request) {
 		ValueMap properties = request.getResource().adaptTo(ValueMap.class);

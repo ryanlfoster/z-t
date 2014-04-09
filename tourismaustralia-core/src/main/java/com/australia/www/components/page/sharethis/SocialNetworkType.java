@@ -7,26 +7,33 @@ import java.util.Map;
 import com.citytechinc.cq.component.annotations.Option;
 
 public enum SocialNetworkType {
-	@Option(text = "Facebook")
-	FACEBOOK("st_facebook_large"),
 
-	@Option(text = "Facebook Like")
-	FBLIKE("st_fblike_large"),
+	@Option(text = "Facebook")
+	FACEBOOK("facebook"),
 
 	@Option(text = "Twitter")
-	TWITTER("st_twitter_large"),
+	TWITTER("twitter"),
 
 	@Option(text = "LinkedIn")
-	LINKEDIN("st_linkedin_large"),
-
-	@Option(text = "Instagram")
-	INSTAGRAM("st_instagram_large"),
+	LINKEDIN("linkedin"),
 
 	@Option(text = "GooglePlus")
-	GOOGLEPLUS("st_googleplus_large"),
+	GOOGLEPLUS("googleplus"),
 
-	@Option(text = "Email")
-	EMAIL("st_email_large");
+	@Option(text = "Orkut")
+	ORKUT("orkut"),
+
+	@Option(text = "MySpace")
+	MYSPACE("myspace"),
+
+	@Option(text = "Xing")
+	XING("xing"),
+
+	@Option(text = "Reddit")
+	REDDIT("reddit"),
+
+	@Option(text = "Tumblr")
+	TUMBLR("tumblr");
 
 	private String site;
 	private static final Map<String, SocialNetworkType> lookup = new HashMap<String, SocialNetworkType>();

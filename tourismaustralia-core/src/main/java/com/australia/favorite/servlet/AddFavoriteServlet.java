@@ -42,7 +42,7 @@ public class AddFavoriteServlet extends SlingAllMethodsServlet {
 		if (cookie != null) {
 			userFavorites = favoriteService.getByUserId(cookie.getValue());
 		}
-		persistFavorite(userFavorites, page);
+		userFavorites = persistFavorite(userFavorites, page);
 		ServletUtils.addCookie(response, ServletUtils.FAVORITES_COOKIE, userFavorites.getUserId());
 		response.setContentType("application/json");
 		response.getWriter().write(
@@ -55,7 +55,7 @@ public class AddFavoriteServlet extends SlingAllMethodsServlet {
 	 * 
 	 * @param page - the uri of the favorites page
 	 */
-	private void persistFavorite(UserFavorites userFavorites, String page) {
+	private UserFavorites persistFavorite(UserFavorites userFavorites, String page) {
 		// if userFavorites not found via cookie create new one
 		if (userFavorites == null) {
 			userFavorites = new UserFavorites();
@@ -67,6 +67,7 @@ public class AddFavoriteServlet extends SlingAllMethodsServlet {
 			userFavorites.addFavorite(favorite);
 			favoriteService.save(userFavorites);
 		}
+		return userFavorites;
 	}
 
 }

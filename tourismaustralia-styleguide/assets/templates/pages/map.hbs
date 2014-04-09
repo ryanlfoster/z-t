@@ -1,0 +1,17 @@
+---
+layout: layout-base.hbs
+Title: Map
+note: note-map
+---
+<div class="map map_shown_ontablet">
+    <div class="map_title">
+        {{#parseJSON '{
+        "largetitle_text" : "explore australia by map"
+        }'}}
+            {{> largetitle }}
+        {{/parseJSON}}
+    </div>
+
+    {{> iframe }}
+
+</div>

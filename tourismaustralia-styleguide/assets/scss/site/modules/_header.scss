@@ -399,7 +399,6 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
         }
 
         .main-nav-panel {
-            @extend .gpu-render;
             height: 100%;
             background-color: $nav-mobile-top-links-bg;
         }

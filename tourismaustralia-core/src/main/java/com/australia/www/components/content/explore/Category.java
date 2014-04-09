@@ -1,11 +1,8 @@
 package com.australia.www.components.content.explore;
 
 import com.citytechinc.cq.component.annotations.DialogField;
-import com.citytechinc.cq.component.annotations.widgets.DialogFieldSet;
 import com.citytechinc.cq.component.annotations.widgets.PathField;
-import org.apache.sling.api.SlingHttpServletRequest;
-import org.apache.sling.api.resource.ValueMap;
-
+import org.apache.commons.lang.StringUtils;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -14,7 +11,7 @@ public class Category {
 	@PathField
 	private String iconImagePath;
 
-	@DialogField(fieldLabel = "Icon Selected Image Path")
+	@DialogField(fieldLabel = "Selected Icon Image Path")
 	@PathField
 	private String selectedImagePath;
 
@@ -36,6 +33,9 @@ public class Category {
 	public String getTitle() { return title; }
 	public List<TabProperties> getCards(){
 		return new ArrayList<TabProperties>(cards);
+	}
+	public boolean getHasTitle(){
+		return StringUtils.isNotBlank(title);
 	}
 
 	public void setIconImagePath(String path) {

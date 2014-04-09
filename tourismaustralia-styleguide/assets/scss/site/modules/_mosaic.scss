@@ -20,6 +20,24 @@
 
 }
 
+/* Mosaic ATDW Square Image */
+.mosaic-square-item-7 {
+  width: 56.345177664975%;
+}
+.mosaic-square-item-5 {
+  width: 43.654822335025%;
+  left: 56.345177664975% !important;
+}
+.mosaic-square-item.mosaic-3column-item-option {
+  padding: 0;
+  margin-bottom: pxtoem(20px);
+  @include breakpoint(md) {
+    padding: 0.1875em 0 0.1875em 0.1875em;
+    margin-bottom: 0;
+  }
+}
+/**********************************************/
+
 .mosaic-item {
   position: relative;
   //padding: 0px 0px pxtoem(3px) 0px;

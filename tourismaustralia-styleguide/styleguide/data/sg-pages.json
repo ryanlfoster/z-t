@@ -755,6 +755,17 @@
                     ,
                 
             
+                "atdwhighlights" : {
+                     "data" : {
+                        "title" : "atdwhighlights",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'atdwhighlights'}}"
+                }
+                
+                    ,
+                
+            
                 "mosaicitemoption" : {
                      "data" : {
                         "title" : "mosaicitemoption",

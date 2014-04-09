@@ -1,0 +1,46 @@
+---
+title: Featured Products
+---
+
+<div class="featuredproducts">
+    <div class="l-center-1200 l-h-center">
+
+        <div class="row">
+            <h4 class="type-gallery-section-title wow">Featured in this video</h4>
+        </div>
+
+        <div class="row">
+
+            <div class="mosaic">
+                <!-- single item highlight start -->
+                <div class="col-xs-12 col-md-4 mosaic-grid-1 l-row-collapse">
+                    {{> mosaicitemhighlights }}
+                </div>
+                <!-- single item highlight end -->
+
+                <!-- single item event start -->
+                <div class="col-xs-12 col-md-4 mosaic-grid-1 l-row-collapse">
+                    {{> mosaicitematdwsquare }}
+                </div>
+                <!-- single item event end -->
+
+                <!-- single item atdw square start -->
+                <div class="col-xs-12 col-md-4 mosaic-grid-1 l-row-collapse">
+                    {{> mosaicitematdwsquare }}
+                </div>
+                <!-- single item atdw square end -->
+            </div>
+
+        </div>
+
+        <div class="row l-padding-t-15">
+            <!-- Favourite Start -->
+            {{#parseJSON '{"title_text" : "Add to all your dream list"}'}}
+                {{> favourite }}
+            {{/parseJSON}}
+            <!-- Favourite Start -->
+        </div>
+
+    </div>
+</div>
+

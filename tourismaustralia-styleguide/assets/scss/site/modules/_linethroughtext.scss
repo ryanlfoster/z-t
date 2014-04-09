@@ -16,8 +16,7 @@
   width: 16px;
 }
 .line-through-container .line-through-container-biline {
-  font-family: "TAheadline", Helvetica, Arial, sans-serif;
-  letter-spacing: .015em;
+  @include type_TAheadline();
   font-size: 1.75em;
   color: #4a3c31;
   display: table-cell;

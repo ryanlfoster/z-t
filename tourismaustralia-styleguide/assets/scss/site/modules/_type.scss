@@ -207,6 +207,16 @@
   color: $type-main-heading-colour;
 }
 
+.type-gallery-section-title {
+  @include type_TAheadline();
+  font-size: 1.75em;
+  color: $gallery-section-title-colour;
+  display: table-cell;
+  padding: 0 pxtoem(8px);
+  display: inline-block;
+  padding-bottom: .8em;
+}
+
 .type-h1-responsive {
 
   // most of these are now h2's for semantics

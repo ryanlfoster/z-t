@@ -7,7 +7,6 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@include file="/apps/tourismaustralia/components/global.jsp" %>
-<cq:includeClientLib categories="ta.atdwHighlights" />
 
 <%@ page import="com.australia.www.components.content.atdwhighlights.*" %>
 <c:set var="h" value="<%=new AtdwHighlights(slingRequest) %>"/>
@@ -98,7 +97,7 @@
     <div class="l-h-center">
 
         <c:forEach items="${h.activeCategories}" var="cat">
-            <a href="#" class="btn-primary" data-atdw-show-cat="${cat.id}">
+            <a href="${cat.allProductsPath}" class="btn-primary" data-atdw-show-cat="${cat.id}">
                 <fmt:message key="${cat.display}" />
             </a>
         </c:forEach>

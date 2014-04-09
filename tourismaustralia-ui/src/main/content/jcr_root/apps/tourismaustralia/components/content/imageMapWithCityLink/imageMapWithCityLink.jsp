@@ -14,7 +14,7 @@
                 <div class="map-main-title">${imageMapWithCityLink.title}</div>
             </c:if>
             <c:if test="${not empty imageMapWithCityLink.linkText}">
-                <span class="map-main-pin icon-font-mappin"></span>
+                <img src="/etc/designs/tourismaustralia/clientlibs/img/icons/pin_sml.png" class="map-pin" alt="">
                 <c:choose>
                     <c:when test="${not empty imageMapWithCityLink.link}">
                         <a href="${imageMapWithCityLink.link}"

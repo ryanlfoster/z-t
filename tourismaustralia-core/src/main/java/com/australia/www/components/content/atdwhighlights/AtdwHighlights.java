@@ -195,6 +195,7 @@ public class AtdwHighlights {
 		// Initialize the base search parameters builder to be used for category
 		// searches
 		ATDWProductSearchParametersBuilder baseBuilder = new ATDWProductSearchParametersBuilder();
+		baseBuilder.setCount(9);
 		if (Constants.TYPE_TAG.equals(type)) {
 			TagManager tagManager = resource.getResourceResolver().adaptTo(TagManager.class);
 			Tag selectedTag = selectPageTagForSearch(tagManager, resource);

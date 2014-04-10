@@ -23,7 +23,7 @@
             <img class="map-highlights-image" src="${mapWithLinks.image}.img.png" alt="${mapWithLinks.altText}" />
        
             <div class="map-image-view-btn-container">
-                <a href="${mapWithLinks.href}" class="btn-primary"><fmt:message key="view detailed map"/></a>
+                <a href="#" class="btn-primary"><fmt:message key="view detailed map"/></a>
             </div>
         </c:if>
 

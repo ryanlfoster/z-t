@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by: Marjia Yeasmin
   Date: 18/03/2014
@@ -13,69 +14,66 @@
 
 <c:set var="imageButton" value="<%=new ImageWithButton(slingRequest) %>"/>
 
-<div class="image-ugc image-with-button ${imageButton.textWhite == true ? 'make-white': 'make-black'}">
+<c:if test="${not empty imageButton.mainImageSrc}">
+    <div class="large-image-social make-white">
+            <c:if test="${not empty (imageButton.mainImageSrc and imageButton.mainImageAlt)}">
+                <div class="large-image-social-media">
+                    <div class="responsive-image large-image-social-frame-height" data-picture="" data-alt="" >
+                        <div data-src="${imageButton.mainImageSrc}.adapt.480.low.jpg" data-media="(min-width: 1px)"></div>
+                        <div data-src="${imageButton.mainImageSrc}.adapt.768.medium.jpg" data-media="(min-width: 481px)"></div>
+                        <div data-src="${imageButton.mainImageSrc}.adapt.992.high.jpg" data-media="(min-width: 769px)"></div>
+                        <div data-src="${imageButton.mainImageSrc}.adapt.1663.high.jpg" data-media="(min-width: 993px)"></div>
 
-        <div class="image-bg fullwidth-bg" data-image-vertical-alignment="bottom" data-image-vertical-alignment="bottom" data--200-top="-webkit-transform: translate(0,10%);" data-200-bottom="-webkit-transform: translate(0,-10%);">
-            <c:if test="${not empty (imageButton.backgroundImageSrc and imageButton.imgAltText)}">
-                <div class="responsive-image" data-picture="" data-alt="${imageButton.imgAltText}" >
-                    <div data-src="${imageButton.backgroundImageSrc}.adapt.480.low.jpg" data-media="(min-width: 1px)"></div>
-                    <div data-src="${imageButton.backgroundImageSrc}.adapt.768.medium.jpg" data-media="(min-width: 481px)"></div>
-                    <div data-src="${imageButton.backgroundImageSrc}.adapt.992.high.jpg" data-media="(min-width: 769px)"></div>
-                    <div data-src="${imageButton.backgroundImageSrc}.adapt.1663.high.jpg" data-media="(min-width: 993px)"></div>
-
-                    <noscript>
-                        <img src="${imageButton.backgroundImageSrc}.adapt.1663.high.jpg" alt="${imageButton.imgAltText}">
-                    </noscript>
-
+                        <noscript>
+                            <img src="${imageButton.mainImageSrc}.adapt.1663.high.jpg" alt="${imageButton.mainImageAlt}">
+                        </noscript>
+                    </div>
+                    <!--[if (lt IE 9) & (!IEMobile)]>
+                        <img src="${imageButton.mainImageSrc}" alt="${imageButton.mainImageAlt}">
+                    <![endif]-->
                 </div>
-                <!--[if (lt IE 9) & (!IEMobile)]>
-                <img src="${imageButton.backgroundImageSrc}" alt="${imageButton.imgAltText}">
-                <![endif]-->
             </c:if>
-        </div>
 
-        <c:if test="${not empty imageButton.quoteText}">
-            <div class="image-content-container">
-                <div class="image-content">
-                    <c:if test="${not empty imageButton.iconImageSrc}">
-                        <div class="image-social-image">
-                            <img src="${imageButton.iconImageSrc}" alt="Icon Image">
-                        </div>
-                    </c:if>
-                    <hr>
-                    <c:if test="${not empty imageButton.quoteText}">
-                        <div class="blockquote-quote-pull">
-                            <p>&ldquo;${imageButton.quoteText}&rdquo;</p>
-                        </div>
-                    </c:if>
-
-                    <hr>
-
-                    <c:if test="${not empty imageButton.quoteAuthorText or imageButton.quoteSubText or imageButton.quoteSourceText}">
-                        <div class="image-quote">
-
-                            <c:if test="${not empty imageButton.quoteAuthorText}">
-                                <span class="image-quote-title">${imageButton.quoteAuthorText}</span>
-                            </c:if>
-
-                            <c:if test="${not empty imageButton.quoteSubText}">
-                                <span class="image-quote-description">${imageButton.quoteSubText}</span>
-                            </c:if>
-
-                            <c:if test="${not empty imageButton.quoteSourceText}">
-                                <span class="image-quote-source">${imageButton.quoteSourceText}</span>
-                            </c:if>
-                        </div>
-                    </c:if>
-
-                    <c:if test="${not empty (imageButton.imageButtonPath and imageButtonText)}">
-                        <a href="${imageButton.imageButtonPath}" class="image-btn">${imageButton.imageButtonText}</a>
-                    </c:if>
-
+            <c:if test="${not empty imageButton.overlayIconImageSrc or not empty imageButton.quoteText or not empty imageButton.imageButtonText}">
+                    <div class="large-image-social-content">
+                        <c:if test="${not empty imageButton.overlayIconImageSrc}">
+                            <div class="image-social-image">
+                                <img src="${imageButton.overlayIconImageSrc}" alt="${(not empty imageButton.overlayIconImageAlt) ? imageButton.overlayIconImageAlt : ""}">
+                            </div>
+                        </c:if>
+                        <c:if test="${not empty imageButton.quoteText}">
+                                <hr>
+                                    <div class="blockquote-quote-pull">
+                                        <p>&ldquo;${imageButton.quoteText}&rdquo;</p>
+                                    </div>
+                                <hr>
+                        </c:if>
+                        <c:if test="${not empty imageButton.imageButtonText and not empty imageButton.imageButtonPath}">
+                                <a href="${imageButton.imageButtonPath}" class="image-btn" ${imageButton.buttonPathExternal == true ? 'target="_blank"': ''}>${imageButton.imageButtonText}</a>
+                        </c:if>
+                    </div>
+            </c:if>
+            <c:if test="${not empty imageButton.refIconImageSrc or not empty imageButton.refBoldText or not empty imageButton.refRegularText}">
+                    <div class="large-image-social-mention make-white">
+                        <div class="social-mention">
+                            <div class="social-mention-container">
+                                <c:if test = "${not empty imageButton.refIconImageSrc}">
+                                    <div class="social-mention-image">
+                                        <img src="${imageButton.refIconImageSrc}" alt="${(not empty imageButton.refIconImageAlt) ? imageButton.refIconImageAlt : ""}">
+                                    </div>
+                                </c:if>
+                                <c:if test = "${not empty imageButton.refBoldText or not empty imageButton.refRegularText}">
+                                    <div class="social-mention-details">
+                                        <p><strong>${(not empty imageButton.refBoldText) ? imageButton.refBoldText : ""}${(not empty imageButton.refBoldText and not empty imageButton.refRegularText) ? ", " : ""}</strong>${(not empty imageButton.refRegularText) ? imageButton.refRegularText : ""}</p>
+                                    </div>
+                                </c:if>
+                            </div>
+                    </div>
                 </div>
-            </div>
         </c:if>
-</div>
+    </div>
+</c:if>
+
 
 
 

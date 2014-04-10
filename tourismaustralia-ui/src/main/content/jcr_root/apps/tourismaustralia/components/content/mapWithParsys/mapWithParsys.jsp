@@ -4,6 +4,7 @@
 
 <c:set var="mapWithParsys" value="<%=new MapWithParsys(slingRequest) %>"/>
 
+<div class="l-padding-between-item-fill-white">
 <div class="map-with-links-container">
 
     <c:if test="${not empty mapWithParsys.title }">
@@ -22,7 +23,7 @@
             <img class="map-highlights-image" src="${mapWithParsys.image}.img.png" alt="${mapWithParsys.altText}" />
        
             <div class="map-image-view-btn-container">
-                <a href="#" class="btn-primary"><%= i18n.get("view detailed map") %></a>
+                <a href="#" class="btn-primary"><fmt:message key="view detailed map"/></a>
             </div>
         </c:if>
 
@@ -30,4 +31,5 @@
     
     <cq:include script="bottom.jsp"/>
 
+</div>
 </div>

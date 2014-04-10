@@ -1,7 +1,8 @@
 #base=js
 
 vendor/modernizr-2.7.1.js
-vendor/jquery.js
+vendor/respond.js
+
 vendor/owl-carousel/owl.carousel.js
 src/modules/jquery.ta.carousel.js
 vendor/skrollr.js
@@ -9,6 +10,8 @@ vendor/responsive-images/jquery.picturefill.js
 vendor/responsive-images/mediamatch.js
 src/modules/jquery.ta.flipcard.js
 src/modules/jquery.ta.mosaic.js
+src/modules/jquery.ta.megamenu.js
 src/modules/jquery.ta.fullwidthbg.js
-src/atdw/atdw_highlights.js
-src/atdw/highlightstrategy.js
+src/modules/jquery.ta.parallax.js
+src/helper/responsive.image.helper.js
+src/modules/jquery.ta.favourite.js

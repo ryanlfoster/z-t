@@ -26,7 +26,7 @@
 						<Bundle-SymbolicName>${project.artifactId}</Bundle-SymbolicName>
 						<Bundle-Name>${project.name}</Bundle-Name>
 						<Bundle-Vendor>${project.parent.organization.name}</Bundle-Vendor>
-						<Export-Package>!*.impl,com.australia.*,!com.australia.widgets.multicomposite</Export-Package>
+						<Export-Package>!*.impl,com.australia.*,!com.australia.widgets.multicomposite,org.quartz.CronExpression,org.quartz</Export-Package>
 						<DynamicImport-Package>*</DynamicImport-Package>
 						<Import-Package>javax.transaction*;version="[1.1,1.1]",!com.citytechinc.cq.component.*</Import-Package>
 					</instructions>
@@ -227,7 +227,11 @@
 			<groupId>com.citytechinc.cq.cq-component-plugin</groupId>
 			<artifactId>cq-component-maven-plugin</artifactId>
 		</dependency>
-		
+        <dependency>
+            <groupId>org.quartz-scheduler</groupId>
+            <artifactId>quartz</artifactId>
+            <version>2.2.1</version>
+        </dependency>
 		
 		<!-- TESTING -->
 		<dependency>

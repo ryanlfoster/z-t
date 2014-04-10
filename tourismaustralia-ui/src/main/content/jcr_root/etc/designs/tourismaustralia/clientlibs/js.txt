@@ -1,5 +1,8 @@
 #base=js
 
+vendor/modernizr-2.7.1.js
+js/vendor/respond.js
+
 vendor/owl-carousel/owl.carousel.js
 src/modules/jquery.ta.carousel.js
 vendor/skrollr.js

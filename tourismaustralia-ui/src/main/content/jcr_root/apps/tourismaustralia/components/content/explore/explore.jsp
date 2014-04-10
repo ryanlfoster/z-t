@@ -52,7 +52,8 @@
     <img class="btn-bubble-std" src="${explore.tabs[0].iconImagePath}" alt=""/>
     <img class="btn-bubble-active" src="${explore.tabs[0].iconImagePath}" alt=""/>
     </span>
-			<span class="type-below-btn"><c:out value="${explore.tabs[0].title}"/></span>
+			<span class="type-below-btn"><c:out value="${explore.tabs[0].title}"/>
+			</span>
 		</a>
 		</c:if>
 		<c:if test="${explore.tabs[1].hasTitle}">
@@ -96,6 +97,8 @@
 <div class="carousel-center-container">
 <div class="carousel-owl-mobile-fill">
 <div id="carousel" class="owl-carousel owl-theme">
+
+<%-- Tab 1 Carousel card 1 --%>
 <div class="carousel-item">
 	<div class="explore-item-container flip-container">
 		<div class="flipper">
@@ -106,7 +109,7 @@
 					<div class="explore-item-diamond">
 						<!-- icons, aboriginal_australia, adventure, art_culture, beaches,
 						food_wine, island, nature_wildlife, outback, sports -->
-						<img src="imgs/icons/nature_wildlife.png" alt="" />
+						<img src="/etc/designs/tourismaustralia/clientlibs/img/icons/nature_wildlife.png" alt="" />
 					</div>
 				</div>
 				<div class="line-through-container">
@@ -124,12 +127,12 @@
     </span>
     </span>
     <span class="btn-bubble-button">
-    <img class="btn-bubble-std" src="imgs/icons/mappin_outline.png" alt=""/>
-    <img class="btn-bubble-active" src="imgs/icons/mappin.png" alt=""/>
+    <img class="btn-bubble-std" src="/etc/designs/tourismaustralia/clientlibs/img/icons/mappin_outline.png" alt=""/>
+    <img class="btn-bubble-active" src="/etc/designs/tourismaustralia/clientlibs/img/icons/mappin.png" alt=""/>
     </span>
 					</a>
 					<p><c:out value="${explore.tabs[0].cards[0].pageDescription}"/></p>
-					<p><a href="#">View more information</a></p>
+					<p><a href="${explore.tabs[0].cards[0].pagePath}">View more information</a></p>
 					<a href="#" class="btn-bubble bubble-colour-favourite">
     <span class="btn-bubble-tooltip">
     <span class="btn-bubble-tooltip-container">
@@ -137,14 +140,14 @@
     </span>
     </span>
     <span class="btn-bubble-button">
-    <img class="btn-bubble-std" src="imgs/icons/favourite_outline.png" alt=""/>
-    <img class="btn-bubble-active" src="imgs/icons/favourite.png" alt=""/>
+    <img class="btn-bubble-std" src="/etc/designs/tourismaustralia/clientlibs/img/icons/favourite_outline.png" alt=""/>
+    <img class="btn-bubble-active" src="/etc/designs/tourismaustralia/clientlibs/img/icons/favourite.png" alt=""/>
     </span>
 					</a>
 				</div>
 			</div>
 			<div class="explore-card-back flip-back ieAntialias">
-				<img class="l-image-full explore-image-back" src="imgs/placeholders/explore_map.jpg" alt="" />
+				<img class="l-image-full explore-image-back" src="${explore.tabs[0].cards[0].imageBack}" alt="" />
 				<div class="l-h-center l-padding-tb-30-lr-15">
 					<ul class="explore-trip">
 						<li>
@@ -162,56 +165,59 @@
 				</div>
 			</div>
 		</div>
-	</div></div>
+	</div>
+</div>
+
+<%-- Tab 1 Carousel card 2 --%>
 <div class="carousel-item">
 	<div class="explore-item-container flip-container">
 		<div class="flipper">
 			<div class="explore-card-front flip-front theme-mosaic-3column-front ieAntialias">
 				<!-- include category type "nature" to class to use that colour base -->
 				<div class="explore-image-container nature type-spacing-40">
-					<img class="l-image-full explore-image" src="imgs/placeholders/explore.jpg" alt="" />
+					<img class="l-image-full explore-image" src="${explore.tabs[0].cards[1].pageImagePath}" alt="" />
 					<div class="explore-item-diamond">
 						<!-- icons, aboriginal_australia, adventure, art_culture, beaches,
 						food_wine, island, nature_wildlife, outback, sports -->
-						<img src="imgs/icons/nature_wildlife.png" alt="" />
+						<img src="/etc/designs/tourismaustralia/clientlibs/img/icons/nature_wildlife.png" alt="" />
 					</div>
 				</div>
 				<div class="line-through-container">
 					<div class="line-through"><span class="line-through-hr"></span></div>
 					<div class="line-through-container-biline">
-						Blue mountains
+						<c:out value="${explore.tabs[0].cards[1].pageTitle}"/>
 					</div>
 					<div class="line-through"><span class="line-through-hr"></span></div>
 				</div>
 				<div class="l-h-center l-padding-tb-30-lr-15">
 					<a id="explore-flip-btn" href="" class="btn-bubble">
-    <span class="btn-bubble-tooltip">
-    <span class="btn-bubble-tooltip-container">
-    Show map
-    </span>
-    </span>
-    <span class="btn-bubble-button">
-    <img class="btn-bubble-std" src="imgs/icons/mappin_outline.png" alt=""/>
-    <img class="btn-bubble-active" src="imgs/icons/mappin.png" alt=""/>
-    </span>
+<span class="btn-bubble-tooltip">
+<span class="btn-bubble-tooltip-container">
+Show map
+</span>
+</span>
+<span class="btn-bubble-button">
+<img class="btn-bubble-std" src="/etc/designs/tourismaustralia/clientlibs/img/icons/mappin_outline.png" alt=""/>
+<img class="btn-bubble-active" src="/etc/designs/tourismaustralia/clientlibs/img/icons/mappin.png" alt=""/>
+</span>
 					</a>
-					<p>You’ll love the blue-hazed beauty of the Blue Mountains World Heritage Area – one million hectares of tall forests, sandstone cliffs, canyons, waterfalls and bushland. Take in the breathtaking panoramas...</p>
-					<p><a href="#">View more information</a></p>
+					<p><c:out value="${explore.tabs[0].cards[1].pageDescription}"/></p>
+					<p><a href="${explore.tabs[0].cards[1].pagePath}">View more information</a></p>
 					<a href="#" class="btn-bubble bubble-colour-favourite">
-    <span class="btn-bubble-tooltip">
-    <span class="btn-bubble-tooltip-container">
-    Add to your dream trip
-    </span>
-    </span>
-    <span class="btn-bubble-button">
-    <img class="btn-bubble-std" src="imgs/icons/favourite_outline.png" alt=""/>
-    <img class="btn-bubble-active" src="imgs/icons/favourite.png" alt=""/>
-    </span>
+<span class="btn-bubble-tooltip">
+<span class="btn-bubble-tooltip-container">
+Add to your dream trip
+</span>
+</span>
+<span class="btn-bubble-button">
+<img class="btn-bubble-std" src="/etc/designs/tourismaustralia/clientlibs/img/icons/favourite_outline.png" alt=""/>
+<img class="btn-bubble-active" src="/etc/designs/tourismaustralia/clientlibs/img/icons/favourite.png" alt=""/>
+</span>
 					</a>
 				</div>
 			</div>
 			<div class="explore-card-back flip-back ieAntialias">
-				<img class="l-image-full explore-image-back" src="imgs/placeholders/explore_map.jpg" alt="" />
+				<img class="l-image-full explore-image-back" src="${explore.tabs[0].cards[1].imageBack}" alt="" />
 				<div class="l-h-center l-padding-tb-30-lr-15">
 					<ul class="explore-trip">
 						<li>
@@ -229,56 +235,59 @@
 				</div>
 			</div>
 		</div>
-	</div></div>
+	</div>
+</div>
+
+<%-- Tab 1 Carousel card 3 --%>
 <div class="carousel-item">
 	<div class="explore-item-container flip-container">
 		<div class="flipper">
 			<div class="explore-card-front flip-front theme-mosaic-3column-front ieAntialias">
 				<!-- include category type "nature" to class to use that colour base -->
 				<div class="explore-image-container nature type-spacing-40">
-					<img class="l-image-full explore-image" src="imgs/placeholders/explore.jpg" alt="" />
+					<img class="l-image-full explore-image" src="${explore.tabs[0].cards[2].pageImagePath}" alt="" />
 					<div class="explore-item-diamond">
 						<!-- icons, aboriginal_australia, adventure, art_culture, beaches,
 						food_wine, island, nature_wildlife, outback, sports -->
-						<img src="imgs/icons/nature_wildlife.png" alt="" />
+						<img src="/etc/designs/tourismaustralia/clientlibs/img/icons/nature_wildlife.png" alt="" />
 					</div>
 				</div>
 				<div class="line-through-container">
 					<div class="line-through"><span class="line-through-hr"></span></div>
 					<div class="line-through-container-biline">
-						Blue mountains
+						<c:out value="${explore.tabs[0].cards[2].pageTitle}"/>
 					</div>
 					<div class="line-through"><span class="line-through-hr"></span></div>
 				</div>
 				<div class="l-h-center l-padding-tb-30-lr-15">
 					<a id="explore-flip-btn" href="" class="btn-bubble">
-    <span class="btn-bubble-tooltip">
-    <span class="btn-bubble-tooltip-container">
-    Show map
-    </span>
-    </span>
-    <span class="btn-bubble-button">
-    <img class="btn-bubble-std" src="imgs/icons/mappin_outline.png" alt=""/>
-    <img class="btn-bubble-active" src="imgs/icons/mappin.png" alt=""/>
-    </span>
+<span class="btn-bubble-tooltip">
+<span class="btn-bubble-tooltip-container">
+Show map
+</span>
+</span>
+<span class="btn-bubble-button">
+<img class="btn-bubble-std" src="/etc/designs/tourismaustralia/clientlibs/img/icons/mappin_outline.png" alt=""/>
+<img class="btn-bubble-active" src="/etc/designs/tourismaustralia/clientlibs/img/icons/mappin.png" alt=""/>
+</span>
 					</a>
-					<p>You’ll love the blue-hazed beauty of the Blue Mountains World Heritage Area – one million hectares of tall forests, sandstone cliffs, canyons, waterfalls and bushland. Take in the breathtaking panoramas...</p>
-					<p><a href="#">View more information</a></p>
+					<p><c:out value="${explore.tabs[0].cards[2].pageDescription}"/></p>
+					<p><a href="${explore.tabs[0].cards[2].pagePath}">View more information</a></p>
 					<a href="#" class="btn-bubble bubble-colour-favourite">
-    <span class="btn-bubble-tooltip">
-    <span class="btn-bubble-tooltip-container">
-    Add to your dream trip
-    </span>
-    </span>
-    <span class="btn-bubble-button">
-    <img class="btn-bubble-std" src="imgs/icons/favourite_outline.png" alt=""/>
-    <img class="btn-bubble-active" src="imgs/icons/favourite.png" alt=""/>
-    </span>
+<span class="btn-bubble-tooltip">
+<span class="btn-bubble-tooltip-container">
+Add to your dream trip
+</span>
+</span>
+<span class="btn-bubble-button">
+<img class="btn-bubble-std" src="/etc/designs/tourismaustralia/clientlibs/img/icons/favourite_outline.png" alt=""/>
+<img class="btn-bubble-active" src="/etc/designs/tourismaustralia/clientlibs/img/icons/favourite.png" alt=""/>
+</span>
 					</a>
 				</div>
 			</div>
 			<div class="explore-card-back flip-back ieAntialias">
-				<img class="l-image-full explore-image-back" src="imgs/placeholders/explore_map.jpg" alt="" />
+				<img class="l-image-full explore-image-back" src="${explore.tabs[0].cards[2].imageBack}" alt="" />
 				<div class="l-h-center l-padding-tb-30-lr-15">
 					<ul class="explore-trip">
 						<li>
@@ -296,7 +305,9 @@
 				</div>
 			</div>
 		</div>
-	</div></div>
+	</div>
+</div>
+
 </div>
 </div>
 </div>

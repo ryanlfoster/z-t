@@ -1,10 +1,11 @@
 package com.australia.www.components.content.explore;
 
-import com.citytechinc.cq.component.annotations.DialogField;
-import com.citytechinc.cq.component.annotations.widgets.PathField;
 import org.apache.commons.lang.StringUtils;
 import java.util.ArrayList;
 import java.util.List;
+
+import com.citytechinc.cq.component.annotations.DialogField;
+import com.citytechinc.cq.component.annotations.widgets.PathField;
 
 public class Category {
 	@DialogField(fieldLabel = "Icon Image Path")
@@ -25,18 +26,14 @@ public class Category {
 	}
 
 	public String getIconImagePath() {
-		return iconImagePath;
+		return iconImagePath.replaceAll(" ","%20");
 	}
 	public String getSelectedImagePath() {
-		return selectedImagePath;
+		return selectedImagePath.replaceAll(" ","%20");
 	}
 	public String getTitle() { return title; }
-	public List<TabProperties> getCards(){
-		return new ArrayList<TabProperties>(cards);
-	}
-	public boolean getHasTitle(){
-		return StringUtils.isNotBlank(title);
-	}
+	public List<TabProperties> getCards(){ return new ArrayList<TabProperties>(cards); }
+	public boolean getHasTitle(){ return StringUtils.isNotBlank(title); }
 
 	public void setIconImagePath(String path) {
 		this.iconImagePath = path;
@@ -48,12 +45,10 @@ public class Category {
 		this.title = text;
 	}
 	public void setCards(TabProperties card1, TabProperties card2, TabProperties card3){
-		if(!cards.isEmpty()){
+		if(cards.isEmpty()){
 			cards.add(card1);
 			cards.add(card2);
 			cards.add(card3);
 		}
 	}
-
-
 }

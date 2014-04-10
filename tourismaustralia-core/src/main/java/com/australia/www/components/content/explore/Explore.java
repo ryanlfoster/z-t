@@ -1,13 +1,14 @@
 package com.australia.www.components.content.explore;
 
-import com.citytechinc.cq.component.annotations.Component;
-import com.citytechinc.cq.component.annotations.DialogField;
-import com.citytechinc.cq.component.annotations.Tab;
-import com.citytechinc.cq.component.annotations.widgets.DialogFieldSet;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.ValueMap;
 import java.util.ArrayList;
 import java.util.List;
+
+import com.citytechinc.cq.component.annotations.Component;
+import com.citytechinc.cq.component.annotations.DialogField;
+import com.citytechinc.cq.component.annotations.Tab;
+import com.citytechinc.cq.component.annotations.widgets.DialogFieldSet;
 
 @Component(value = "Explore" , disableTargeting = true,
 		tabs = {@Tab(title = "Tab 1"),@Tab(title = "Tab 2"),@Tab(title = "Tab 3"),@Tab(title = "Tab 4"),@Tab(title = "Tab 5")})
@@ -129,6 +130,7 @@ public class Explore {
 		TabProperties returnProp = new TabProperties();
 		String pathPrefix = String.format(TAB+"%d/"+CARD+"%d-", tabNum, cardNum);
 		returnProp.setAltTextBack(properties.get(pathPrefix + "altTextBack", ""));
+		returnProp.setImageBack(properties.get(pathPrefix + "imageBack", ""));
 		returnProp.setPage(properties.get(pathPrefix+"pagePath",""),request.getResource());
 		return returnProp;
 	}

@@ -1,15 +1,13 @@
 package com.australia.www.components.content.explore;
 
+import org.apache.commons.lang.StringUtils;
+import org.apache.sling.api.resource.Resource;
 
 import com.citytechinc.cq.component.annotations.DialogField;
 import com.citytechinc.cq.component.annotations.widgets.PathField;
-import com.citytechinc.cq.component.annotations.widgets.RichTextEditor;
 import com.day.cq.wcm.foundation.Image;
 import com.day.cq.wcm.api.Page;
 import com.day.cq.wcm.api.PageManager;
-import org.apache.sling.api.resource.Resource;
-import com.day.cq.wcm.api.PageManagerFactory;
-import org.apache.sling.api.resource.ResourceResolver;
 
 public class TabProperties {
 	@DialogField(fieldDescription = "Back alt text")
@@ -23,32 +21,39 @@ public class TabProperties {
 	@PathField
 	private String imageBack;
 
-	private Page page;
+	private String pageDescription;
+	private String pageTitle;
+	private String pageImagePath;
 
-	public String getAltTextBack() {
-		return altTextBack;
+	public String getAltTextBack() { return altTextBack; }
+	public String getImageBack(){ return imageBack; }
+	public String getPageTitle(){ return pageTitle; }
+	public String getPageImagePath(){ return pageImagePath.replaceAll(" ","%20"); }
+	public String getPageDescription(){ return pageDescription; }
+	public String getPagePath(){ return pagePath.replaceAll(" ","%20"); }
+
+	public void setImageBack(final String path) {
+		imageBack = path;
 	}
 	public void setAltTextBack(final String text) {
 		altTextBack = text;
 	}
 	public void setPage(String path, Resource resource){
-		PageManager pageManager = resource.getResourceResolver().adaptTo(PageManager.class);
-		pagePath = path;
-		page = pageManager.getContainingPage(path);
-	}
-
-
-	public String getPageTitle(){
-		return page.getTitle();
-	}
-
-	public String getPageImagePath(){
-		Image imageObj = new Image(page.getContentResource("image"));
-		return imageObj.getFileReference();
-	}
-
-	public String getPageDescription(){
-		return page.getDescription();
+		if(StringUtils.isNotBlank(path)){
+			PageManager pageManager = resource.getResourceResolver().adaptTo(PageManager.class);
+			pagePath = path;
+			Page page = pageManager.getContainingPage(path);
+			pageDescription = page.getDescription();
+			pageTitle = page.getTitle();
+			Resource imageRes = page.getContentResource("image");
+			Image imageObj = new Image(page.getContentResource("image"));
+			pageImagePath = imageObj.getFileReference();
+		}else{
+			pageDescription = "";
+			pageTitle = "";
+			pageImagePath = "";
+			pagePath = "";
+		}
 	}
 }
 

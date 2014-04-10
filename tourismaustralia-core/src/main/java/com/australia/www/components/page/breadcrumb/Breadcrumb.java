@@ -1,24 +1,27 @@
 package com.australia.www.components.page.breadcrumb;
 
-import com.citytechinc.cq.component.annotations.Component;
-import com.day.cq.wcm.api.Page;
-import com.day.cq.wcm.api.PageManager;
-import org.apache.sling.api.SlingHttpServletRequest;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+import org.apache.sling.api.SlingHttpServletRequest;
+
+import com.citytechinc.cq.component.annotations.Component;
+import com.day.cq.wcm.api.Page;
+import com.day.cq.wcm.api.PageManager;
+
 /**
  * Created by myeasmin on 25/03/14.
- *
- * This component is responsible for constructing the breadcrumb for the current page.
+ * 
+ * This component is responsible for constructing the breadcrumb for the current
+ * page.
  */
 @Component(value = "Breadcrumb", path = "page", group = ".hidden", editConfig = false)
 public class Breadcrumb {
 
 	private final Page currentPage;
 
-	//private boolean homePage;
+	// private boolean homePage;
 
 	public Breadcrumb(SlingHttpServletRequest slingRequest) {
 		currentPage = slingRequest.getResourceResolver().adaptTo(PageManager.class)
@@ -26,15 +29,15 @@ public class Breadcrumb {
 	}
 
 	public Page getCurrentPage() {
-			return currentPage;
-		}
+		return currentPage;
+	}
 
 	public Iterator<Page> getPredecessorPages() {
 		List<Page> predecessorList = new ArrayList<Page>();
 		int localLevel = 3;
 
 		while ((currentPage.getDepth() > localLevel) && (localLevel <= (currentPage.getParent().getDepth()))) {
-			predecessorList.add(localLevel-3 , currentPage.getAbsoluteParent(localLevel-1));
+			predecessorList.add(localLevel - 3, currentPage.getAbsoluteParent(localLevel - 1));
 			localLevel++;
 		}
 
@@ -43,20 +46,16 @@ public class Breadcrumb {
 		return predecessorListIterator;
 	}
 
-	/*public boolean isHomePage() {
-		return homePage;
-	}
-
-	public void setHomePage(Page thisPage) {
-		if (StringUtils.equalsIgnoreCase(thisPage.getNavigationTitle(), "Australia")) {
-			this.homePage = true;
-		} else if (StringUtils.equalsIgnoreCase(thisPage.getTitle(), "Australia")) {
-			this.homePage = true;
-		} else if (StringUtils.equalsIgnoreCase(thisPage.getName(), "Australia")) {
-			this.homePage = true;
-		} else {
-			this.homePage = false;
-		}
-	} */
+	/*
+	 * public boolean isHomePage() { return homePage; }
+	 * 
+	 * public void setHomePage(Page thisPage) { if
+	 * (StringUtils.equalsIgnoreCase(thisPage.getNavigationTitle(),
+	 * "Australia")) { this.homePage = true; } else if
+	 * (StringUtils.equalsIgnoreCase(thisPage.getTitle(), "Australia")) {
+	 * this.homePage = true; } else if
+	 * (StringUtils.equalsIgnoreCase(thisPage.getName(), "Australia")) {
+	 * this.homePage = true; } else { this.homePage = false; } }
+	 */
 
 }

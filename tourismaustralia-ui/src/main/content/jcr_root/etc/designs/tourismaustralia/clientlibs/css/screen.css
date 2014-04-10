@@ -10319,13 +10319,14 @@ a.map-pin-btn {
 /* line 175, ../../assets/scss/site/modules/_imagemapcitylink.scss */
 .map-btn-container {
   display: inline-block;
-  width: 200px;
+  max-width: 200px;
   text-align: left;
   margin: 0px 40px;
   position: relative;
+  vertical-align: top;
 }
 
-/* line 182, ../../assets/scss/site/modules/_imagemapcitylink.scss */
+/* line 183, ../../assets/scss/site/modules/_imagemapcitylink.scss */
 .map-btn-content {
   text-align: left;
   margin-bottom: 1em;
@@ -10334,20 +10335,20 @@ a.map-pin-btn {
   line-height: 1.5em;
 }
 @media (min-width: 992px) {
-  /* line 182, ../../assets/scss/site/modules/_imagemapcitylink.scss */
+  /* line 183, ../../assets/scss/site/modules/_imagemapcitylink.scss */
   .map-btn-content {
     margin-bottom: 0;
   }
 }
 
-/* line 193, ../../assets/scss/site/modules/_imagemapcitylink.scss */
+/* line 194, ../../assets/scss/site/modules/_imagemapcitylink.scss */
 .map-image-icon {
   left: -30px;
   position: absolute;
   top: -6px;
 }
 
-/* line 199, ../../assets/scss/site/modules/_imagemapcitylink.scss */
+/* line 200, ../../assets/scss/site/modules/_imagemapcitylink.scss */
 .map-btn-heading {
   font-family: "ProximaNova Regular", Helvetica, Arial, sans-serif;
   font-size: 1.125em;
@@ -10608,7 +10609,7 @@ a.map-pin-btn {
 /* line 129, ../../assets/scss/site/modules/_image.scss */
 .image-content-container .blockquote-quote-pull {
   margin: 0 auto;
-  text-align: left;
+  text-align: center;
   max-width: 900px;
   padding: 0 10px;
 }

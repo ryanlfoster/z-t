@@ -5,7 +5,6 @@
 
 <c:set var="categorizedIconLinks" value="<%= new CategorizedIconLinks(slingRequest) %>"/>
 
-<div class="l-padding-between-item-fill-white">
     <div class="categorylinks">
         <div class="row l-center-1200">
             <c:if test="${not empty categorizedIconLinks.title}">
@@ -171,5 +170,5 @@
 
         </div>
     </div>
-</div>
+
 

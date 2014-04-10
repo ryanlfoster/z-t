@@ -33,7 +33,7 @@
     </c:if>
     <title>${global.title}</title>
 
-    <cq:includeClientLib css="ta"/>
+    <cq:includeClientLib categories="ta"/>
 
     <!--[if lte IE 8]>
     <cq:includeClientLib css="ta.ie8"/>

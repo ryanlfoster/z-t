@@ -12,7 +12,6 @@ import org.apache.sling.api.SlingHttpServletResponse;
 import org.apache.sling.api.servlets.OptingServlet;
 import org.apache.sling.api.servlets.SlingAllMethodsServlet;
 
-import com.australia.errorhandler.Sling404ErrorHandler;
 import com.australia.server.ServerNameService;
 import com.australia.utils.PathUtils;
 import com.australia.utils.ServerUtils;

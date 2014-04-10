@@ -16,13 +16,13 @@ import java.util.List;
  */
 @Component(value = "Itinerary Day",
         tabs = {
-            @Tab(title = Constants.TAB_GENERAL),
-            @Tab(title = Constants.TAB_HERO),
-            @Tab(title = Constants.TAB_IMAGE_1),
-            @Tab(title = Constants.TAB_IMAGE_2),
-            @Tab(title = Constants.TAB_IMAGE_3),
-            @Tab(title = Constants.TAB_IMAGE_4),
-            @Tab(title = Constants.TAB_MAP)
+            @Tab(title = Constants.TAB_TEXT_NAME),
+            @Tab(title = Constants.TAB_HERO_NAME),
+            @Tab(title = Constants.TAB_IMAGE_1_NAME),
+            @Tab(title = Constants.TAB_IMAGE_2_NAME),
+            @Tab(title = Constants.TAB_IMAGE_3_NAME),
+            @Tab(title = Constants.TAB_IMAGE_4_NAME),
+            @Tab(title = Constants.TAB_MAP_NAME)
         },
         listeners = {
             @Listener(name = "afteredit", value = "REFRESH_PAGE"),
@@ -60,62 +60,74 @@ public final class ItineraryDay {
 
 		public static ItineraryDayLink fromResource(final Resource day, final Resource currentDay) {
 			final ValueMap properties = day.adaptTo(ValueMap.class);
-			return new ItineraryDayLink(day.getName(), properties.get(Constants.NAME_HERO_TITLE, ""), day.equals(currentDay));
+			return new ItineraryDayLink(day.getName(), properties.get(Constants.NAME_HERO_TITLE, ""),
+				day.equals(currentDay));
 		}
     }
 
-    @DialogField(fieldLabel = "Text Title", tab = 1)
+    @DialogField(fieldLabel = "Text Title", tab = Constants.TAB_TEXT_INDEX)
     private final String textTitle;
 
-    @DialogField(fieldLabel = "Text", tab = 1)
+    @DialogField(fieldLabel = "Text", tab = Constants.TAB_TEXT_INDEX)
     @RichTextEditor
     private final String text;
 
-    @DialogField(fieldLabel = "Hero Image", tab = 2, required = true)
-    @Html5SmartImage(tab = false, name = Constants.NAME_HERO_IMAGE, height = 400)
+    @DialogField(fieldLabel = "Hero Image", tab = Constants.TAB_HERO_INDEX, required = true)
+    @Html5SmartImage(tab = false, name = Constants.NAME_HERO_IMAGE, height = Constants.IMAGE_WIDGET_HEIGHT)
     private final String heroImage;
 
-    @DialogField(fieldLabel = "Hero Image Title", tab = 2, required = true)
+    @DialogField(fieldLabel = "Hero Image Title", tab = Constants.TAB_HERO_INDEX, required = true)
     private final String heroTitle;
 
-    @DialogField(fieldLabel = "Hero Image Alt Text", tab = 2, required = true, xtype = "textarea",
-            additionalProperties = {@FieldProperty(name = "grow", value = "true")})
+    @DialogField(fieldLabel = "Hero Image Alt Text", tab = Constants.TAB_HERO_INDEX, required = true,
+		xtype = "textarea",
+		additionalProperties = {@FieldProperty(name = "grow", value = "true")
+		}
+	)
     private final String heroImageAltText;
 
-    @DialogField(fieldLabel = "Image 1 (16:9)", tab = 3)
-    @Html5SmartImage(tab = false, name = Constants.NAME_IMAGE_1, height = 400)
+    @DialogField(fieldLabel = "Image 1 (16:9)", tab = Constants.TAB_IMAGE_1_INDEX)
+    @Html5SmartImage(tab = false, name = Constants.NAME_IMAGE_1, height = Constants.IMAGE_WIDGET_HEIGHT)
     private final String image1;
 
-    @DialogField(fieldLabel = "Image 1 Alt Text", tab = 3, xtype = "textarea",
-            additionalProperties = {@FieldProperty(name = "grow", value = "true")})
+    @DialogField(fieldLabel = "Image 1 Alt Text", tab = Constants.TAB_IMAGE_1_INDEX, xtype = "textarea",
+            additionalProperties = {@FieldProperty(name = "grow", value = "true")
+			}
+	)
     private final String image1AltText;
 
-    @DialogField(fieldLabel = "Image 2 (16:9)", tab = 4)
-    @Html5SmartImage(tab = false, name = Constants.NAME_IMAGE_2, height = 400)
+    @DialogField(fieldLabel = "Image 2 (16:9)", tab = Constants.TAB_IMAGE_2_INDEX)
+    @Html5SmartImage(tab = false, name = Constants.NAME_IMAGE_2, height = Constants.IMAGE_WIDGET_HEIGHT)
     private final String image2;
 
-    @DialogField(fieldLabel = "Image 2 Alt Text", tab = 4, xtype = "textarea",
-            additionalProperties = {@FieldProperty(name = "grow", value = "true")})
+    @DialogField(fieldLabel = "Image 2 Alt Text", tab = Constants.TAB_IMAGE_2_INDEX, xtype = "textarea",
+            additionalProperties = {@FieldProperty(name = "grow", value = "true")
+			}
+	)
     private final String image2AltText;
     
-    @DialogField(fieldLabel = "Image 3 (1:1)", tab = 5)
-    @Html5SmartImage(tab = false, name = Constants.NAME_IMAGE_3, height = 400)
+    @DialogField(fieldLabel = "Image 3 (1:1)", tab = Constants.TAB_IMAGE_3_INDEX)
+    @Html5SmartImage(tab = false, name = Constants.NAME_IMAGE_3, height = Constants.IMAGE_WIDGET_HEIGHT)
     private final String image3;
 
-    @DialogField(fieldLabel = "Image 3 Alt Text", tab = 5, xtype = "textarea",
-            additionalProperties = {@FieldProperty(name = "grow", value = "true")})
+    @DialogField(fieldLabel = "Image 3 Alt Text", tab = Constants.TAB_IMAGE_3_INDEX, xtype = "textarea",
+            additionalProperties = {@FieldProperty(name = "grow", value = "true")
+			}
+	)
     private final String image3AltText;
 
-    @DialogField(fieldLabel = "Image 4 ", tab = 6)
-    @Html5SmartImage(tab = false, name = Constants.NAME_IMAGE_4, height = 400)
+    @DialogField(fieldLabel = "Image 4 ", tab = Constants.TAB_IMAGE_4_INDEX)
+    @Html5SmartImage(tab = false, name = Constants.NAME_IMAGE_4, height = Constants.IMAGE_WIDGET_HEIGHT)
     private final String image4;
 
-    @DialogField(fieldLabel = "Image 4 Alt Text", tab = 6, xtype = "textarea",
-            additionalProperties = {@FieldProperty(name = "grow", value = "true")})
+    @DialogField(fieldLabel = "Image 4 Alt Text", tab = Constants.TAB_IMAGE_4_INDEX, xtype = "textarea",
+            additionalProperties = {@FieldProperty(name = "grow", value = "true")
+			}
+	)
     private final String image4AltText;
 
-    @DialogField(fieldLabel = "Map Image", tab = 7)
-    @Html5SmartImage(tab = false, name = Constants.NAME_MAP_IMAGE, height = 400)
+    @DialogField(fieldLabel = "Map Image", tab = Constants.TAB_MAP_INDEX)
+    @Html5SmartImage(tab = false, name = Constants.NAME_MAP_IMAGE, height = Constants.IMAGE_WIDGET_HEIGHT)
     private final String mapImage;
 
     private final String anchorId;

@@ -4,13 +4,21 @@ final class Constants {
 
     public static final String RESOURCE_TYPE = "tourismaustralia/components/content/itineraryDay";
 
-    public static final String TAB_GENERAL = "General";
-    public static final String TAB_HERO = "Hero";
-    public static final String TAB_IMAGE_1 = "Image 1";
-    public static final String TAB_IMAGE_2 = "Image 2";
-    public static final String TAB_IMAGE_3 = "Image 3";
-    public static final String TAB_IMAGE_4 = "Image 4";
-    public static final String TAB_MAP = "Map";
+	public static final String TAB_TEXT_NAME = "Text";
+	public static final String TAB_HERO_NAME = "Hero";
+	public static final String TAB_IMAGE_1_NAME = "Image 1";
+	public static final String TAB_IMAGE_2_NAME = "Image 2";
+	public static final String TAB_IMAGE_3_NAME = "Image 3";
+	public static final String TAB_IMAGE_4_NAME = "Image 4";
+	public static final String TAB_MAP_NAME = "Map";
+
+	public static final int TAB_TEXT_INDEX = 1;
+	public static final int TAB_HERO_INDEX = 2;
+	public static final int TAB_IMAGE_1_INDEX = 3;
+	public static final int TAB_IMAGE_2_INDEX = 4;
+	public static final int TAB_IMAGE_3_INDEX = 5;
+	public static final int TAB_IMAGE_4_INDEX = 6;
+	public static final int TAB_MAP_INDEX = 7;
 
     public static final String NAME_HERO_IMAGE = "heroImage";
     public static final String NAME_HERO_IMAGE_ALT_TEXT = "heroImageAltText";
@@ -26,6 +34,8 @@ final class Constants {
     public static final String NAME_MAP_IMAGE = "mapImage";
     public static final String NAME_TEXT_TITLE = "textTitle";
     public static final String NAME_TEXT = "text";
+
+	public static final int IMAGE_WIDGET_HEIGHT = 400;
 
 	// Disallow instantiation of utility class
 	private Constants() { }

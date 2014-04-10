@@ -1,14 +1,15 @@
 package com.australia.www.components.content.categorizediconlinks;
 
+import org.apache.commons.lang.StringUtils;
+import org.apache.sling.api.SlingHttpServletRequest;
+import org.apache.sling.api.resource.ValueMap;
+
 import com.australia.utils.LinkUtils;
 import com.citytechinc.cq.component.annotations.Component;
 import com.citytechinc.cq.component.annotations.DialogField;
 import com.citytechinc.cq.component.annotations.Listener;
 import com.citytechinc.cq.component.annotations.Tab;
 import com.citytechinc.cq.component.annotations.widgets.DialogFieldSet;
-import org.apache.commons.lang.StringUtils;
-import org.apache.sling.api.SlingHttpServletRequest;
-import org.apache.sling.api.resource.ValueMap;
 
 @Component(value = "Categorized Icon Links", disableTargeting = true, tabs = { @Tab(title = "General"),
 	@Tab(title = "Category 1"), @Tab(title = "Category 2"), @Tab(title = "Category 3") }, listeners = {

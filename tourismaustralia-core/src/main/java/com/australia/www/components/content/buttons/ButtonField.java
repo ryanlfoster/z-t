@@ -4,7 +4,6 @@ import org.apache.commons.lang3.StringUtils;
 
 import com.citytechinc.cq.component.annotations.DialogField;
 import com.citytechinc.cq.component.annotations.widgets.PathField;
-import com.citytechinc.cq.component.annotations.widgets.RichTextEditor;
 
 public class ButtonField {
 

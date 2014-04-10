@@ -1,5 +1,11 @@
 package com.australia.www.components.content.specialoffer;
 
+import java.util.Locale;
+
+import org.apache.commons.lang.StringUtils;
+import org.apache.sling.api.SlingHttpServletRequest;
+import org.apache.sling.api.resource.ValueMap;
+
 import com.australia.utils.LinkUtils;
 import com.citytechinc.cq.component.annotations.Component;
 import com.citytechinc.cq.component.annotations.DialogField;
@@ -9,11 +15,6 @@ import com.citytechinc.cq.component.annotations.widgets.Html5SmartImage;
 import com.citytechinc.cq.component.annotations.widgets.NumberField;
 import com.citytechinc.cq.component.annotations.widgets.PathField;
 import com.day.cq.wcm.foundation.Image;
-import org.apache.commons.lang.StringUtils;
-import org.apache.sling.api.SlingHttpServletRequest;
-import org.apache.sling.api.resource.ValueMap;
-
-import java.util.Locale;
 
 @Component(value = "Special Offer", disableTargeting = true, tabs = { @Tab(title = "Image"),
 	@Tab(title = "Extra Information") }, listeners = { @Listener(name = "aftercopy", value = "REFRESH_PAGE"),

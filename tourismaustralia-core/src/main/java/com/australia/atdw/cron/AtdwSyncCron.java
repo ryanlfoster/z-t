@@ -1,22 +1,29 @@
 package com.australia.atdw.cron;
 
+import java.io.IOException;
+import java.text.ParseException;
+import java.util.Date;
+import java.util.Map;
+import java.util.concurrent.TimeUnit;
+
+import org.apache.felix.scr.annotations.Activate;
+import org.apache.felix.scr.annotations.Component;
+import org.apache.felix.scr.annotations.Modified;
+import org.apache.felix.scr.annotations.Properties;
+import org.apache.felix.scr.annotations.Property;
+import org.apache.felix.scr.annotations.Reference;
+import org.apache.felix.scr.annotations.Service;
+import org.osgi.framework.BundleContext;
+import org.quartz.CronExpression;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import com.australia.atdw.jms.AtdwQueueService;
 import com.australia.atdw.remote.domain.products.AtdwProductsResponse;
 import com.australia.atdw.remote.domain.products.Product;
 import com.australia.atdw.remote.service.AtdwService;
 import com.australia.atdw.service.ATDWProductService;
 import com.google.common.base.Stopwatch;
-import org.apache.felix.scr.annotations.*;
-import org.osgi.framework.BundleContext;
-import org.quartz.CronExpression;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
-import java.io.IOException;
-import java.text.ParseException;
-import java.util.Date;
-import java.util.Map;
-import java.util.concurrent.TimeUnit;
 
 @Component(label = "Atdw Sync Cron Service", metatype = true)
 @Service

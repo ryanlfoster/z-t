@@ -1,10 +1,10 @@
 package com.australia.www.components.content.atdwhighlights;
 
-import com.australia.atdw.domain.ATDWCategory;
-
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
+
+import com.australia.atdw.domain.ATDWCategory;
 
 /**
  * Created by gsnyder on 4/1/14.

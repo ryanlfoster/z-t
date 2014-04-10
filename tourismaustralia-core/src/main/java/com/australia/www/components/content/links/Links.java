@@ -1,5 +1,12 @@
 package com.australia.www.components.content.links;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import org.apache.sling.api.SlingHttpServletRequest;
+import org.apache.sling.api.resource.Resource;
+import org.apache.sling.api.resource.ResourceUtil;
+
 import com.australia.utils.LinkUtils;
 import com.australia.widgets.multicomposite.MultiCompositeField;
 import com.australia.www.components.domain.Link;
@@ -7,11 +14,6 @@ import com.citytechinc.cq.component.annotations.Component;
 import com.citytechinc.cq.component.annotations.DialogField;
 import com.citytechinc.cq.component.annotations.FieldProperty;
 import com.citytechinc.cq.component.annotations.Tab;
-import java.util.ArrayList;
-import java.util.List;
-import org.apache.sling.api.SlingHttpServletRequest;
-import org.apache.sling.api.resource.Resource;
-import org.apache.sling.api.resource.ResourceUtil;
 
 /**
  * Backing Bean for CQ Component responsible Created by Lance Dolan 4/02/14.

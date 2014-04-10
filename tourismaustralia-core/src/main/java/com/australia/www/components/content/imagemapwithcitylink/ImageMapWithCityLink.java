@@ -1,5 +1,9 @@
 package com.australia.www.components.content.imagemapwithcitylink;
 
+import org.apache.commons.lang.StringUtils;
+import org.apache.sling.api.SlingHttpServletRequest;
+import org.apache.sling.api.resource.ValueMap;
+
 import com.australia.utils.LinkUtils;
 import com.citytechinc.cq.component.annotations.Component;
 import com.citytechinc.cq.component.annotations.DialogField;
@@ -8,9 +12,6 @@ import com.citytechinc.cq.component.annotations.Tab;
 import com.citytechinc.cq.component.annotations.widgets.Html5SmartImage;
 import com.citytechinc.cq.component.annotations.widgets.PathField;
 import com.day.cq.wcm.foundation.Image;
-import org.apache.commons.lang.StringUtils;
-import org.apache.sling.api.SlingHttpServletRequest;
-import org.apache.sling.api.resource.ValueMap;
 
 /**
  * Created by wma on 28/03/2014.

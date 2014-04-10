@@ -1,5 +1,27 @@
 package com.australia.atdw.repository;
 
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+import java.util.Map;
+import java.util.TreeMap;
+import java.util.concurrent.TimeUnit;
+
+import javax.jcr.Node;
+import javax.jcr.RepositoryException;
+import javax.jcr.Session;
+
+import org.apache.commons.lang3.StringUtils;
+import org.apache.felix.scr.annotations.Component;
+import org.apache.felix.scr.annotations.Reference;
+import org.apache.felix.scr.annotations.Service;
+import org.apache.sling.api.resource.LoginException;
+import org.apache.sling.api.resource.ResourceResolver;
+import org.apache.sling.api.resource.ResourceResolverFactory;
+import org.apache.sling.jcr.resource.JcrResourceConstants;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import com.australia.atdw.domain.ATDWProduct;
 import com.australia.atdw.domain.ATDWProductSearchParameters;
 import com.australia.utils.PathUtils;
@@ -15,22 +37,6 @@ import com.day.cq.wcm.api.NameConstants;
 import com.day.cq.wcm.api.Page;
 import com.day.cq.wcm.api.PageManager;
 import com.google.common.base.Stopwatch;
-import org.apache.commons.lang3.StringUtils;
-import org.apache.felix.scr.annotations.Component;
-import org.apache.felix.scr.annotations.Reference;
-import org.apache.felix.scr.annotations.Service;
-import org.apache.sling.api.resource.LoginException;
-import org.apache.sling.api.resource.ResourceResolver;
-import org.apache.sling.api.resource.ResourceResolverFactory;
-import org.apache.sling.jcr.resource.JcrResourceConstants;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
-import javax.jcr.Node;
-import javax.jcr.RepositoryException;
-import javax.jcr.Session;
-import java.util.*;
-import java.util.concurrent.TimeUnit;
 
 @Component(label = "ATDW Product Repository", description = "ATDW Product Repository", immediate = true)
 @Service

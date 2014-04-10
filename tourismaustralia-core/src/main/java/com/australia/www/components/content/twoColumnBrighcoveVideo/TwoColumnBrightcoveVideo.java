@@ -1,17 +1,21 @@
 package com.australia.www.components.content.twoColumnBrighcoveVideo;
 
-import com.australia.utils.LinkUtils;
-import com.brightcove.proserve.mediaapi.webservices.BrcService;
-import com.brightcove.proserve.mediaapi.webservices.BrcUtils;
-import com.citytechinc.cq.component.annotations.*;
-import com.citytechinc.cq.component.annotations.editconfig.DropTarget;
-import com.citytechinc.cq.component.annotations.widgets.PathField;
-import com.citytechinc.cq.component.annotations.widgets.RichTextEditor;
+import java.util.UUID;
+
 import org.apache.commons.lang.StringUtils;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.ValueMap;
 
-import java.util.UUID;
+import com.australia.utils.LinkUtils;
+import com.brightcove.proserve.mediaapi.webservices.BrcService;
+import com.brightcove.proserve.mediaapi.webservices.BrcUtils;
+import com.citytechinc.cq.component.annotations.Component;
+import com.citytechinc.cq.component.annotations.DialogField;
+import com.citytechinc.cq.component.annotations.FieldProperty;
+import com.citytechinc.cq.component.annotations.Listener;
+import com.citytechinc.cq.component.annotations.Tab;
+import com.citytechinc.cq.component.annotations.editconfig.DropTarget;
+import com.citytechinc.cq.component.annotations.widgets.PathField;
 
 /**
  * Created by wma on 4/04/2014.

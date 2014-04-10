@@ -1,15 +1,14 @@
 package com.australia.www.components.content.imagewithbutton;
 
-import com.citytechinc.cq.component.annotations.Component;
-import com.citytechinc.cq.component.annotations.DialogField;
-import com.citytechinc.cq.component.annotations.Option;
-import com.citytechinc.cq.component.annotations.Tab;
-import com.citytechinc.cq.component.annotations.widgets.Html5SmartImage;
-import com.citytechinc.cq.component.annotations.widgets.PathField;
-import com.citytechinc.cq.component.annotations.widgets.Selection;
 import org.apache.commons.lang.StringUtils;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.ValueMap;
+
+import com.citytechinc.cq.component.annotations.Component;
+import com.citytechinc.cq.component.annotations.DialogField;
+import com.citytechinc.cq.component.annotations.Tab;
+import com.citytechinc.cq.component.annotations.widgets.Html5SmartImage;
+import com.citytechinc.cq.component.annotations.widgets.PathField;
 import com.day.cq.wcm.foundation.Image;
 
 /**

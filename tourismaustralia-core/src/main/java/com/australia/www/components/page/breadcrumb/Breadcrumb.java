@@ -1,12 +1,14 @@
 package com.australia.www.components.page.breadcrumb;
 
-import com.citytechinc.cq.component.annotations.Component;
-import com.day.cq.wcm.api.Page;
-import com.day.cq.wcm.api.PageManager;
-import org.apache.sling.api.SlingHttpServletRequest;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+
+import org.apache.sling.api.SlingHttpServletRequest;
+
+import com.citytechinc.cq.component.annotations.Component;
+import com.day.cq.wcm.api.Page;
+import com.day.cq.wcm.api.PageManager;
 
 /**
  * Created by myeasmin on 25/03/14.

@@ -1,12 +1,13 @@
 package com.australia.utils;
 
-import com.australia.foodandwine.link.TextLink;
-import com.australia.www.components.domain.Link;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.apache.commons.lang3.StringUtils;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ValueMap;
+
+import com.australia.www.components.domain.Link;
 
 public class LinkUtils {
 

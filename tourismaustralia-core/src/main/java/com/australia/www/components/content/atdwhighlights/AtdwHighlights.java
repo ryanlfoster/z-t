@@ -1,25 +1,31 @@
 package com.australia.www.components.content.atdwhighlights;
 
-import com.australia.atdw.domain.ATDWCategory;
-import com.australia.atdw.domain.ATDWProduct;
-import com.australia.atdw.domain.ATDWProductSearchParameters;
-import com.australia.atdw.domain.ATDWProductSearchParametersBuilder;
-import com.australia.atdw.service.ATDWProductService;
-import com.australia.utils.PathUtils;
-import com.citytechinc.cq.component.annotations.*;
-import com.citytechinc.cq.component.annotations.widgets.Selection;
-import com.day.cq.tagging.Tag;
-import com.day.cq.tagging.TagManager;
-import com.day.cq.wcm.api.PageManager;
-import com.day.cq.wcm.foundation.forms.MergedValueMap;
+import java.util.ArrayList;
+import java.util.List;
+
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ValueMap;
 import org.apache.sling.api.scripting.SlingBindings;
 import org.apache.sling.api.scripting.SlingScriptHelper;
 
-import java.util.ArrayList;
-import java.util.List;
+import com.australia.atdw.domain.ATDWCategory;
+import com.australia.atdw.domain.ATDWProduct;
+import com.australia.atdw.domain.ATDWProductSearchParameters;
+import com.australia.atdw.domain.ATDWProductSearchParametersBuilder;
+import com.australia.atdw.service.ATDWProductService;
+import com.australia.utils.PathUtils;
+import com.citytechinc.cq.component.annotations.Component;
+import com.citytechinc.cq.component.annotations.DialogField;
+import com.citytechinc.cq.component.annotations.FieldProperty;
+import com.citytechinc.cq.component.annotations.Listener;
+import com.citytechinc.cq.component.annotations.Option;
+import com.citytechinc.cq.component.annotations.Tab;
+import com.citytechinc.cq.component.annotations.widgets.Selection;
+import com.day.cq.tagging.Tag;
+import com.day.cq.tagging.TagManager;
+import com.day.cq.wcm.api.PageManager;
+import com.day.cq.wcm.foundation.forms.MergedValueMap;
 
 /**
  * Backing-bean for the ATDW Highlights ("make your trip happen") component.

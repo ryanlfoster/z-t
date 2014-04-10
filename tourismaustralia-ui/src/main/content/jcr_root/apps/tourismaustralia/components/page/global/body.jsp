@@ -226,7 +226,7 @@
         <div class="row footer-logo">
             
 
-<img id="logo" src="imgs/logo/logo_australia_com_whitetext.png" alt="" />
+<img id="logo" src="/etc/designs/tourismaustralia/clientlibs/img/logo/logo_australia_com_whitetext.png" alt="" />
         </div>
 
         <div class="row l-padding-lr-10">
@@ -289,11 +289,11 @@
 <div class="footer-col">
     <p class="footer-heading">Find us on</p>
     <ul class="footer-social-list">
-        <li><a href="https://www.facebook.com/seeaustralia" class="btn-share"><span><img src="imgs/icons/footer/footer-fb-icon.png" alt=""/>Facebook</span></a></li>
-        <li><a href="https://plus.google.com/+australia/posts" class="btn-share"><span><img src="imgs/icons/footer/footer-gplus-icon.png" alt=""/>Google +</span></a></li>
-        <li><a href="http://instagram.com/australia" class="btn-share"><span><img src="imgs/icons/footer/footer-instagram-icon.png" alt=""/>Instagram</span></a></li>
-        <li><a href="https://twitter.com/australia" class="btn-share"><span><img src="imgs/icons/footer/footer-twitter-icon.png" alt=""/>Twitter</span></a></li>
-        <li><a href="https://www.youtube.com/user/australia" class="btn-share"><span><img src="imgs/icons/footer/footer-yt-icon.png" alt=""/>Youtube</span></a></li>
+        <li><a href="https://www.facebook.com/seeaustralia" class="btn-share"><span><img src="/etc/designs/tourismaustralia/clientlibs/img/icons/footer/footer-fb-icon.png" alt=""/>Facebook</span></a></li>
+        <li><a href="https://plus.google.com/+australia/posts" class="btn-share"><span><img src="/etc/designs/tourismaustralia/clientlibs/img/icons/footer/footer-gplus-icon.png" alt=""/>Google +</span></a></li>
+        <li><a href="http://instagram.com/australia" class="btn-share"><span><img src="/etc/designs/tourismaustralia/clientlibs/img/icons/footer/footer-instagram-icon.png" alt=""/>Instagram</span></a></li>
+        <li><a href="https://twitter.com/australia" class="btn-share"><span><img src="/etc/designs/tourismaustralia/clientlibs/img/icons/footer/footer-twitter-icon.png" alt=""/>Twitter</span></a></li>
+        <li><a href="https://www.youtube.com/user/australia" class="btn-share"><span><img src="/etc/designs/tourismaustralia/clientlibs/img/icons/footer/footer-yt-icon.png" alt=""/>Youtube</span></a></li>
     </ul>
 </div>
 

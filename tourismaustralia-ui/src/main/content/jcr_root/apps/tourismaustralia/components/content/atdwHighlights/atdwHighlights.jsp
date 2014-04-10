@@ -19,14 +19,6 @@
         </div>
         <div class="l-center-640 type-center">
             <p class="type-intro"> ${h.text}</p>
-
-            <%-- Display the selected page tag to authors in edit mode --%>
-            <c:if test="${isEdit && h.tagBased}">
-                <p style="color:#833">{Tag selected: ${h.selectedTagId}}</p>
-            </c:if>
-            <c:if test="${isEdit && !h.tagBased}">
-                <p style="color:#833">{${h.type}: ${h.typeArgument}}</p>
-            </c:if>
         </div>
     </div>
 
@@ -64,7 +56,7 @@
 
             <c:forEach items="${h.activeCategories}" var="cat">
                 <c:if test="${not empty cat.products || isEdit}">
-                    <a href="#" class="btn-bubble btn-bubble-min-width is-active " data-atdw-category="${cat.id}">
+                    <a class="btn-bubble btn-bubble-min-width is-active " data-atdw-category="${cat.id}">
                         <span class="btn-bubble-button">
                             <img class="btn-bubble-std" src="${cat.standardIconPath}" alt="">
                             <img class="btn-bubble-active" src="${cat.activeIconPath}" alt="">
@@ -98,7 +90,7 @@
 
         <c:forEach items="${h.activeCategories}" var="cat">
             <a href="${cat.allProductsPath}" class="btn-primary" data-atdw-show-cat="${cat.id}">
-                <fmt:message key="${cat.display}" />
+                <fmt:message key="View All ${cat.display}" />
             </a>
         </c:forEach>
 

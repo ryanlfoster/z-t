@@ -17,6 +17,9 @@ import java.util.Map;
  * Created by Viren Pushpanayagam on 1/04/2014.
  */
 public class IconBuilder extends PageBuilder {
+
+    private static final String TEMPLATE = "/apps/tourismaustralia/templates/cityState";
+
     @Override
     public void createPage(String oldPath, String newPath, ResourceResolver resourceResolver) throws WCMException {
         PageManager pageManager = resourceResolver.adaptTo(PageManager.class);
@@ -28,7 +31,7 @@ public class IconBuilder extends PageBuilder {
             ConsumerBaseFoundationType cbf = service.getByPath(oldPath);
 
             page = pageManager.create(getPath(PageBuilder.CRX_ROOT_PATH + newPath, false), getPath(PageBuilder.CRX_ROOT_PATH
-                    + newPath, true), null, null, true);
+                    + newPath, true), TEMPLATE, null, true);
 
             createHero(page,resourceResolver,cbf);
             createSummery(page,resourceResolver,cbf);
@@ -64,7 +67,7 @@ public class IconBuilder extends PageBuilder {
             params.put("text",cbf.getStfDescription());
             params.put(JcrResourceConstants.SLING_RESOURCE_TYPE_PROPERTY,"tourismaustralia/components/content/summery");
 
-            resourceResolver.create(jcrContentResource, "summery", params);
+            resourceResolver.create(jcrContentResource, "summary", params);
             resourceResolver.commit();
         } catch (PersistenceException e) {
             e.printStackTrace();

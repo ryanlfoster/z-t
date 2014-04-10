@@ -31,10 +31,10 @@ public class AtdwSyncCron implements Runnable {
 	@Reference
 	private AtdwService atdwService;
 
-    @Reference
-    private ATDWProductService adtwProductService;
+	@Reference
+	private ATDWProductService adtwProductService;
 
-    private String schedulerExpression;
+	private String schedulerExpression;
 
 	@Override
 	public void run() {
@@ -42,7 +42,7 @@ public class AtdwSyncCron implements Runnable {
 		Stopwatch stopwatch = Stopwatch.createStarted();
 		try {
 			loadProductsFromAtdw(1);
-            removeStaleProducts();
+			removeStaleProducts();
 		} catch (IOException e) {
 			LOG.error("Error syncing products from ATDW", e);
 		}
@@ -62,33 +62,33 @@ public class AtdwSyncCron implements Runnable {
 		}
 	}
 
-    private void removeStaleProducts() {
-        if(schedulerExpression != null) {
-            try {
-                CronExpression expression = new CronExpression(schedulerExpression);
-                Date now = new Date();
-                Date thisExecution = expression.getTimeBefore(now);
-                Date previousExecution = expression.getTimeBefore(thisExecution);
-                Date twicePreviousExecution = expression.getTimeBefore(previousExecution);
-                adtwProductService.deleteOldProducts(twicePreviousExecution);
-            } catch (ParseException e) {
-                LOG.error("Removal of stale products failed: Unable to parse Cron expression", e);
-            }
-        } else {
-            LOG.error("Removal of stale products failed: Scheduler expression not found");
-        }
-    }
+	private void removeStaleProducts() {
+		if (schedulerExpression != null) {
+			try {
+				CronExpression expression = new CronExpression(schedulerExpression);
+				Date now = new Date();
+				Date thisExecution = expression.getTimeBefore(now);
+				Date previousExecution = expression.getTimeBefore(thisExecution);
+				Date twicePreviousExecution = expression.getTimeBefore(previousExecution);
+				adtwProductService.deleteOldProducts(twicePreviousExecution);
+			} catch (ParseException e) {
+				LOG.error("Removal of stale products failed: Unable to parse Cron expression", e);
+			}
+		} else {
+			LOG.error("Removal of stale products failed: Scheduler expression not found");
+		}
+	}
 
-    @Modified
-    void modified(Map<String, Object> values) {
-        Object expressionObject = values.get("scheduler.expression");
-        schedulerExpression = (expressionObject instanceof String) ? (String) expressionObject : schedulerExpression;
-    }
+	@Modified
+	void modified(Map<String, Object> values) {
+		Object expressionObject = values.get("scheduler.expression");
+		schedulerExpression = (expressionObject instanceof String) ? (String) expressionObject : schedulerExpression;
+	}
 
-    @Activate
-    void activate(BundleContext context, Map<String, Object> values) {
-        Object expressionObject = values.get("scheduler.expression");
-        schedulerExpression = (expressionObject instanceof String) ? (String) expressionObject : schedulerExpression;
-    }
+	@Activate
+	void activate(BundleContext context, Map<String, Object> values) {
+		Object expressionObject = values.get("scheduler.expression");
+		schedulerExpression = (expressionObject instanceof String) ? (String) expressionObject : schedulerExpression;
+	}
 
 }

@@ -21,9 +21,9 @@ public class DefaultATDWProductService implements ATDWProductService {
 		return atdwRepo.search(parameters);
 	}
 
-    @Override
-    public void deleteOldProducts(Date updatedBefore) {
-        atdwRepo.deleteOldProducts(updatedBefore);
-    }
+	@Override
+	public void deleteOldProducts(Date updatedBefore) {
+		atdwRepo.deleteOldProducts(updatedBefore);
+	}
 
 }

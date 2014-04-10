@@ -45,7 +45,7 @@ public class Header {
 	public Header(SlingHttpServletRequest request) {
 		WCMMode wcmMode = WCMMode.fromRequest(request);
 		String name = wcmMode.name();
-		instanceModeName=name.toLowerCase();
+		instanceModeName = name.toLowerCase();
 
 		String headerPath = PathUtils.FOOD_AND_WINE_ROOT_PATH + "/jcr:content/header";
 		Resource headerResource = request.getResourceResolver().getResource(headerPath);

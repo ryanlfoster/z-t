@@ -116,47 +116,48 @@ public class DefaultATDWProductRepository implements ATDWProductRepository {
 		return atdwProducts;
 	}
 
-    @Override
-    public void deleteOldProducts(Date updatedBefore) {
-        Stopwatch stopwatch = Stopwatch.createStarted();
-        LOG.info("Starting removal of old ATDW records (since {})", updatedBefore);
-        ResourceResolver resourceResolver = null;
-        try {
-            resourceResolver = resourceResolverFactory.getAdministrativeResourceResolver(null);
-            Session session = resourceResolver.adaptTo(Session.class);
-            Map<String, String> queryMap = new TreeMap<String, String>();
-            queryMap.put(QueryUtils.TYPE, NameConstants.NT_PAGE);
-            QueryUtils.addProperty(queryMap, 1, JCR_PREFIX
-                    + JcrResourceConstants.SLING_RESOURCE_TYPE_PROPERTY, "tourismaustralia/components/page/atdw");
-            queryMap.put(QueryUtils.PATH, PathUtils.ATDW_DATA_PATH);
-            queryMap.put("daterange.property","@jcr:content/cq:lastModified");
-            queryMap.put("daterange.upperBound", Long.toString(updatedBefore.getTime()));
-            Query query = builder.createQuery(PredicateGroup.create(queryMap), session);
-            for(Map.Entry<String, String> e: queryMap.entrySet()) {
-                LOG.debug("{}={}", e.getKey(), e.getValue());
-            }
-            query.setHitsPerPage(0);
-            SearchResult result = query.getResult();
-            LOG.info("Search returned {} stale ADTW records in {}. Removing stale records.", result.getTotalMatches(), result.getExecutionTime());
-            for(Hit hit: result.getHits()) {
-                try {
-                    Node node = hit.getNode();
-                    LOG.info("Removing {}", node.getPath());
-                    node.remove();
-                } catch (RepositoryException e) {
-                    LOG.error("Removal of stale product node failed", e);
-                }
-            }
-            session.save();
-        } catch (LoginException e) {
-            LOG.error("JCR login failed", e);
-        } catch (Exception e) {
-            LOG.error("JCR session save failed", e);
-        } finally {
-            if (resourceResolver != null && resourceResolver.isLive()) {
-                resourceResolver.close();
-            }
-        }
-        LOG.info("ATDW record cleanup completed in {} milliseconds", stopwatch.stop().elapsed(TimeUnit.MILLISECONDS));
-    }
+	@Override
+	public void deleteOldProducts(Date updatedBefore) {
+		Stopwatch stopwatch = Stopwatch.createStarted();
+		LOG.info("Starting removal of old ATDW records (since {})", updatedBefore);
+		ResourceResolver resourceResolver = null;
+		try {
+			resourceResolver = resourceResolverFactory.getAdministrativeResourceResolver(null);
+			Session session = resourceResolver.adaptTo(Session.class);
+			Map<String, String> queryMap = new TreeMap<String, String>();
+			queryMap.put(QueryUtils.TYPE, NameConstants.NT_PAGE);
+			QueryUtils.addProperty(queryMap, 1, JCR_PREFIX + JcrResourceConstants.SLING_RESOURCE_TYPE_PROPERTY,
+				"tourismaustralia/components/page/atdw");
+			queryMap.put(QueryUtils.PATH, PathUtils.ATDW_DATA_PATH);
+			queryMap.put("daterange.property", "@jcr:content/cq:lastModified");
+			queryMap.put("daterange.upperBound", Long.toString(updatedBefore.getTime()));
+			Query query = builder.createQuery(PredicateGroup.create(queryMap), session);
+			for (Map.Entry<String, String> e : queryMap.entrySet()) {
+				LOG.debug("{}={}", e.getKey(), e.getValue());
+			}
+			query.setHitsPerPage(0);
+			SearchResult result = query.getResult();
+			LOG.info("Search returned {} stale ADTW records in {}. Removing stale records.", result.getTotalMatches(),
+				result.getExecutionTime());
+			for (Hit hit : result.getHits()) {
+				try {
+					Node node = hit.getNode();
+					LOG.info("Removing {}", node.getPath());
+					node.remove();
+				} catch (RepositoryException e) {
+					LOG.error("Removal of stale product node failed", e);
+				}
+			}
+			session.save();
+		} catch (LoginException e) {
+			LOG.error("JCR login failed", e);
+		} catch (Exception e) {
+			LOG.error("JCR session save failed", e);
+		} finally {
+			if (resourceResolver != null && resourceResolver.isLive()) {
+				resourceResolver.close();
+			}
+		}
+		LOG.info("ATDW record cleanup completed in {} milliseconds", stopwatch.stop().elapsed(TimeUnit.MILLISECONDS));
+	}
 }

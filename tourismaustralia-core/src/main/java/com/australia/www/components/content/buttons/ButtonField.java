@@ -11,14 +11,13 @@ public class ButtonField {
 	@DialogField(fieldLabel = "Image", fieldDescription = "All fields are required to show button")
 	@PathField(rootPath = "/", rootTitle = "Assets")
 	private String imagePath;
-	
+
 	@DialogField(fieldLabel = "Title")
 	private String title;
 
-	@DialogField(fieldLabel = "Text", xtype="textarea")
+	@DialogField(fieldLabel = "Text", xtype = "textarea")
 	private String text;
 
-	
 	public void setImagePath(String imagePath) {
 		this.imagePath = imagePath;
 	}
@@ -30,8 +29,7 @@ public class ButtonField {
 	public void setTitle(String title) {
 		this.title = title;
 	}
-	
-	
+
 	public String getImagePath() {
 		return imagePath;
 	}
@@ -43,12 +41,12 @@ public class ButtonField {
 	public String getText() {
 		return text;
 	}
-	
+
 	public boolean getIsEmpty() {
 		if (StringUtils.isBlank(title) || StringUtils.isBlank(text) || StringUtils.isBlank(imagePath))
 			return false;
 		else
 			return true;
 	}
-	
+
 }

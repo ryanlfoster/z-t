@@ -9,5 +9,5 @@ import java.util.List;
 public interface ATDWProductRepository {
 	public List<ATDWProduct> search(ATDWProductSearchParameters parameters);
 
-    public void deleteOldProducts(Date updatedBefore);
+	public void deleteOldProducts(Date updatedBefore);
 }

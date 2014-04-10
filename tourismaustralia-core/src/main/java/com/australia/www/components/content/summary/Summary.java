@@ -12,18 +12,18 @@ import org.apache.commons.lang.StringUtils;
  */
 @Component(value = "Summary")
 public class Summary {
-    @DialogField(fieldLabel = "Text", required = true)
-    @RichTextEditor
-    private String text;
+	@DialogField(fieldLabel = "Text", required = true)
+	@RichTextEditor
+	private String text;
 
-    public Summary(SlingHttpServletRequest request) {
-        ValueMap properties = request.getResource().adaptTo(ValueMap.class);
-        if (properties != null) {
-            text = properties.get("text", StringUtils.EMPTY);
-        }
-    }
+	public Summary(SlingHttpServletRequest request) {
+		ValueMap properties = request.getResource().adaptTo(ValueMap.class);
+		if (properties != null) {
+			text = properties.get("text", StringUtils.EMPTY);
+		}
+	}
 
-    public String getText() {
-        return text;
-    }
+	public String getText() {
+		return text;
+	}
 }

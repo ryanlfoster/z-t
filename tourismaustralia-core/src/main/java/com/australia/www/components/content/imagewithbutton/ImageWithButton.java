@@ -14,28 +14,30 @@ import com.day.cq.wcm.foundation.Image;
 
 /**
  * Created by myeasmin on 18/03/14.
- *
- * This component is composed of 4 tabs - Main Image, Overlay Icon Image, Reference Icon Image, and Additional Properties.
-  */
-@Component(value="Image With Button", disableTargeting = true , tabs = {@Tab(title="Main Image"), @Tab(title="Overlay Icon Image"), @Tab(title="Reference Icon Image"), @Tab(title="Additional Properties")})
+ * 
+ * This component is composed of 4 tabs - Main Image, Overlay Icon Image,
+ * Reference Icon Image, and Additional Properties.
+ */
+@Component(value = "Image With Button", disableTargeting = true, tabs = { @Tab(title = "Main Image"),
+	@Tab(title = "Overlay Icon Image"), @Tab(title = "Reference Icon Image"), @Tab(title = "Additional Properties") })
 public class ImageWithButton {
 
 	@DialogField(required = true, tab = 1, hideLabel = true)
-	@Html5SmartImage(height = 400, tab = false, name="mainImageSrc")
+	@Html5SmartImage(height = 400, tab = false, name = "mainImageSrc")
 	private final String mainImageSrc;
 
 	@DialogField(required = true, tab = 1, fieldLabel = "Main Image Alt")
 	private final String mainImageAlt;
 
 	@DialogField(tab = 2, hideLabel = true)
-	@Html5SmartImage(height = 400, tab = false, name="overlayIconImageSrc")
+	@Html5SmartImage(height = 400, tab = false, name = "overlayIconImageSrc")
 	private final String overlayIconImageSrc;
 
 	@DialogField(tab = 2, fieldLabel = "Overlay Icon Image Alt")
 	private final String overlayIconImageAlt;
 
 	@DialogField(tab = 3, hideLabel = true)
-	@Html5SmartImage(height = 400, tab = false, name="refIconImageSrc")
+	@Html5SmartImage(height = 400, tab = false, name = "refIconImageSrc")
 	private final String refIconImageSrc;
 
 	@DialogField(tab = 3, fieldLabel = " Reference Icon Image Alt")
@@ -52,23 +54,23 @@ public class ImageWithButton {
 	private final String quoteText;
 
 	@DialogField(tab = 4, fieldLabel = "Reference Bold Text")
-    private final String refBoldText;
+	private final String refBoldText;
 
-    @DialogField(tab = 4, fieldLabel = "Reference Regular Text")
-    private final String refRegularText;
+	@DialogField(tab = 4, fieldLabel = "Reference Regular Text")
+	private final String refRegularText;
 
 	public ImageWithButton(SlingHttpServletRequest slingRequest) {
 		ValueMap properties = slingRequest.getResource().adaptTo(ValueMap.class);
 
-		Image mainImage = new Image(slingRequest.getResource(),"mainImageSrc");
+		Image mainImage = new Image(slingRequest.getResource(), "mainImageSrc");
 		this.mainImageSrc = mainImage.getSrc();
 		this.mainImageAlt = properties.get("mainImageAlt", StringUtils.EMPTY);
 
-		Image overlayIconImage = new Image(slingRequest.getResource(),"overlayIconImageSrc");
+		Image overlayIconImage = new Image(slingRequest.getResource(), "overlayIconImageSrc");
 		this.overlayIconImageSrc = overlayIconImage.getSrc();
 		this.overlayIconImageAlt = properties.get("overlayIconImageAlt", StringUtils.EMPTY);
 
-		Image refIconImage = new Image(slingRequest.getResource(),"refIconImageSrc");
+		Image refIconImage = new Image(slingRequest.getResource(), "refIconImageSrc");
 		this.refIconImageSrc = refIconImage.getSrc();
 		this.refIconImageAlt = properties.get("refIconImageAlt", StringUtils.EMPTY);
 
@@ -82,12 +84,12 @@ public class ImageWithButton {
 	}
 
 	public String getMainImageSrc() {
-        return mainImageSrc;
-    }
+		return mainImageSrc;
+	}
 
-    public String getMainImageAlt() {
-        return mainImageAlt;
-    }
+	public String getMainImageAlt() {
+		return mainImageAlt;
+	}
 
 	public String getOverlayIconImageSrc() {
 		return overlayIconImageSrc;
@@ -109,19 +111,21 @@ public class ImageWithButton {
 		return imageButtonText;
 	}
 
-	public String getImageButtonPath() { return imageButtonPath; }
+	public String getImageButtonPath() {
+		return imageButtonPath;
+	}
 
 	public String getQuoteText() {
-        return quoteText;
-    }
+		return quoteText;
+	}
 
-    public String getRefBoldText() {
-        return refBoldText;
-    }
+	public String getRefBoldText() {
+		return refBoldText;
+	}
 
-    public String getRefRegularText() {
-        return refRegularText;
-    }
+	public String getRefRegularText() {
+		return refRegularText;
+	}
 
 	private void setImageButtonPath(String buttonPath) {
 		if (!(StringUtils.isEmpty(buttonPath))) {
@@ -130,6 +134,5 @@ public class ImageWithButton {
 			imageButtonPath = "";
 		}
 	}
-
 
 }

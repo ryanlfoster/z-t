@@ -11,13 +11,13 @@ import org.apache.sling.api.resource.ValueMap;
 
 /**
  * Created by myeasmin on 8/04/14.
- *
+ * 
  * This component is composed of 1 tab - Image and Text.
  */
-@Component(value="Small Image With Text", disableTargeting = true, tabs = {@Tab(title="Image and Text")})
+@Component(value = "Small Image With Text", disableTargeting = true, tabs = { @Tab(title = "Image and Text") })
 public class SmallImageWithText {
 	@DialogField(tab = 1, hideLabel = true)
-	@Html5SmartImage(height = 400, tab = false, name="imageSrc")
+	@Html5SmartImage(height = 400, tab = false, name = "imageSrc")
 	private final String imageSrc;
 
 	@DialogField(tab = 1, fieldLabel = "Image Alt Text")
@@ -28,7 +28,7 @@ public class SmallImageWithText {
 
 	public SmallImageWithText(SlingHttpServletRequest slingRequest) {
 		ValueMap properties = slingRequest.getResource().adaptTo(ValueMap.class);
-		Image image = new Image(slingRequest.getResource(),"imageSrc");
+		Image image = new Image(slingRequest.getResource(), "imageSrc");
 		this.imageSrc = image.getSrc();
 		this.imageAltText = properties.get("imageAltText", StringUtils.EMPTY);
 		this.imageText = properties.get("imageText", StringUtils.EMPTY);

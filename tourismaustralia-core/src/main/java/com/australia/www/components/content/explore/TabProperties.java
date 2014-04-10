@@ -55,6 +55,8 @@ public class TabProperties {
 			pagePath = "";
 		}
 	}
+
+	// TODO : Remove the replaceAll method calls and find the appropriate API function instead.
 }
 
 

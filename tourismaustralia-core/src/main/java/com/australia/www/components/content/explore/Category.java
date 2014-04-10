@@ -51,4 +51,6 @@ public class Category {
 			cards.add(card3);
 		}
 	}
+
+	// TODO : Remove the replaceAll method calls and find the appropriate API function instead.
 }

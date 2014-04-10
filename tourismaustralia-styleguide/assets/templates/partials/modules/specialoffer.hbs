@@ -1,0 +1,61 @@
+---
+title: Special Offer
+note: note-specialoffer
+---
+
+<div class="specialoffer">
+    <div class="row">
+        <div class="col-xs-12 col-sm-7">
+
+            <div class="specialoffer-image">
+                <img src="imgs/placeholders/{{#if promo_image}}{{{promo_image}}}{{else}}specialoffer{{/if}}.jpg" alt=""/>
+            </div>
+
+        </div>
+        <div class="col-xs-12 col-sm-5">
+
+            <div class="specialoffer-content">
+
+                <span class="specialoffer-title type-h3">
+                    {{#if promo_title}}
+                        {{{promo_title}}}
+                    {{else}}
+                        Offer Title
+                    {{/if}}
+                </span>
+
+                <div class="specialoffer-text">
+                    {{#if promo_text}}
+                        {{#each promo_text}}
+                            <p>{{{this.para}}}</p>
+                        {{/each}}
+                    {{else}}
+                        <p>Offer Text - Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
+                    {{/if}}
+                </div>
+                {{#if promo_value }}
+                    <div class="specialoffer-price">
+                        <span class="specialoffer-currency">$</span>
+                        <span class="specialoffer-value">{{#if promo_value}}{{{promo_value}}}{{else}}30{{/if}}</span>
+                        <span class="specialoffer-per">
+                            {{#if promo_per}}
+                                {{{promo_per}}}
+                            {{else}}
+                                /per person
+                            {{/if}}
+                        </span>
+                    </div>
+                {{/if}}
+
+                <!-- offer links start -->
+                <div class="specialoffer-links">
+                    <a href="#">View More Information</a>
+                    <a href="#">View Terms and condition</a>
+                </div>
+                <!-- offer links end -->
+
+            </div>
+
+        </div>
+    </div>
+</div>

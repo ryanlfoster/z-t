@@ -2,6 +2,7 @@ package com.australia.www.components.content.brightcove;
 
 import java.util.UUID;
 
+import org.apache.commons.lang.StringUtils;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.ValueMap;
 
@@ -14,7 +15,8 @@ import com.citytechinc.cq.component.annotations.Listener;
 import com.citytechinc.cq.component.annotations.Tab;
 import com.citytechinc.cq.component.annotations.editconfig.DropTarget;
 
-@Component(value = "Brightcove Video", tabs = { @Tab(title = "General"), @Tab(title = "Account Settings") }, dropTargets = @DropTarget(propertyName = "./videoPlayer", groups = "media", nodeName = "brightcovevideo", accept = "[.*]"), listeners = {
+@Component(value = "Brightcove Video", disableTargeting = true, tabs = { @Tab(title = "General"),
+	@Tab(title = "Account Settings"), @Tab(title = "Video Information") }, dropTargets = @DropTarget(propertyName = "./videoPlayer", groups = "media", nodeName = "brightcovevideo", accept = "[.*]"), listeners = {
 	@Listener(name = "aftercopy", value = "REFRESH_PAGE"), @Listener(name = "afterdelete", value = "REFRESH_PAGE"),
 	@Listener(name = "afteredit", value = "REFRESH_PAGE"), @Listener(name = "afterinsert", value = "REFRESH_PAGE") })
 public class Brightcove {
@@ -28,14 +30,24 @@ public class Brightcove {
 	private final String videoPlayer;
 	private final String videoRandomId;
 
+	@DialogField(fieldLabel = "Title", required = false, tab = 3)
+	private String title;
+
+	@DialogField(fieldLabel = "Description", required = false, tab = 3)
+	private String description;
+
 	public Brightcove(SlingHttpServletRequest request) {
 		ValueMap properties = request.getResource().adaptTo(ValueMap.class);
 		BrcService brcService = BrcUtils.getSlingSettingService();
+
+		title = properties.get("title", StringUtils.EMPTY);
+		description = properties.get("description", StringUtils.EMPTY);
 
 		videoRandomId = new String(UUID.randomUUID().toString().replaceAll("-", ""));
 		playerId = properties.get("playerId", brcService.getDefVideoPlayerID());
 		playerKey = properties.get("playerKey", brcService.getDefVideoPlayerKey());
 		videoPlayer = properties.get("videoPlayer", "");
+
 	}
 
 	public String getPlayerId() {
@@ -53,4 +65,13 @@ public class Brightcove {
 	public String getVideoRandomId() {
 		return videoRandomId;
 	}
+
+	public String getTitle() {
+		return title;
+	}
+
+	public String getDescription() {
+		return description;
+	}
+
 }

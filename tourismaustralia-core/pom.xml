@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
 	<parent>
 		<groupId>com.australia</groupId>
 		<artifactId>tourismaustralia</artifactId>
-		<version>1.0.0-SNAPSHOT</version>
+		<version>1.1.0-SNAPSHOT</version>
 	</parent>
 
 	<modelVersion>4.0.0</modelVersion>
@@ -27,7 +26,7 @@
 						<Bundle-SymbolicName>${project.artifactId}</Bundle-SymbolicName>
 						<Bundle-Name>${project.name}</Bundle-Name>
 						<Bundle-Vendor>${project.parent.organization.name}</Bundle-Vendor>
-						<Export-Package>!*.impl,com.australia.*,!com.australia.widgets.multicomposite</Export-Package>
+						<Export-Package>!*.impl,com.australia.*,!com.australia.widgets.multicomposite,org.quartz.CronExpression,org.quartz</Export-Package>
 						<DynamicImport-Package>*</DynamicImport-Package>
 						<Import-Package>javax.transaction*;version="[1.1,1.1]",!com.citytechinc.cq.component.*</Import-Package>
 					</instructions>
@@ -163,6 +162,10 @@
 			<artifactId>cq-component-annotations</artifactId>
 		</dependency>
 		<dependency>
+			<groupId>com.day.commons</groupId>
+			<artifactId>day-commons-gfx</artifactId>
+		</dependency>
+		<dependency>
 			<groupId>com.brightcove.proserve.mediaapi</groupId>
 			<artifactId>wrapper</artifactId>
 		</dependency>
@@ -224,6 +227,12 @@
 			<groupId>com.citytechinc.cq.cq-component-plugin</groupId>
 			<artifactId>cq-component-maven-plugin</artifactId>
 		</dependency>
+        <dependency>
+            <groupId>org.quartz-scheduler</groupId>
+            <artifactId>quartz</artifactId>
+            <version>2.2.1</version>
+        </dependency>
+		
 		<!-- TESTING -->
 		<dependency>
 			<groupId>org.slf4j</groupId>

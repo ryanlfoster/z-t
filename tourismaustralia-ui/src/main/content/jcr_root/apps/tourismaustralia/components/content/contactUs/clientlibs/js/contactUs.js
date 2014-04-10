@@ -1,6 +1,3 @@
-/**
- * Created by cchin on 24/02/14.
- */
 $(function () {
     $('form[name="contactUs"]').submit(function (event) {
         event.preventDefault();

@@ -1,0 +1,53 @@
+$type-categorylinks-colour: $category-colour-islands;
+
+.categorylinks {
+
+    text-align: center;
+
+    hr {
+        margin: 0 15px 60px;
+    }
+
+    .categorylinks-item {
+        max-width: 310px;
+        margin: 0 auto 60px auto;
+        padding: 0 15px;
+    }
+
+    .categorylink-title {
+        font-size: pxtoem(28px);
+        color: $type-categorylinks-colour;
+    }
+
+    .categorylink-body {
+        font-size: pxtoem(14px);
+    }
+
+    .categorylink-links {
+        a {
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            margin: 0 30px;
+        }
+
+        img {
+            margin: 15px 0;
+        }
+
+        span {
+
+            display:block;
+            text-decoration: underline;
+            font-size: pxtoem(14px);
+
+            &.categorylink-arrive-by-air-icon {
+                margin: 15px 0;
+                font-size: pxtoem(50px);
+                color: $type-categorylinks-colour;
+                text-decoration: none;
+            }
+        }
+    }
+
+}

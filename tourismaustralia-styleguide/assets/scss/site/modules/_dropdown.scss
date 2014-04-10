@@ -1,0 +1,135 @@
+$dropdownWidth: 250px!default;
+$dropdownCountryLanguageWidth: 278px!default; //278
+$dropdownCountryLanguageHeight: 50px!default;
+
+// IE Fix
+select::-ms-expand {
+  display: none;
+}
+
+.dropdown-select p {
+  display: inline-block;
+  font-weight: bold;
+}
+.dropdown-select-style {
+  margin: -10px auto -10px;
+  width: $dropdownWidth;
+  overflow: hidden;
+  font-family: "ProximaNova Bold", Helvetica, Arial, sans-serif;
+  background: url("../imgs/ui/drop-down-arrow.png") no-repeat;  /*Adds background-image*/
+  background-position: 90% 50%;  /*Position of the background-image*/
+  text-shadow:0 0 1px #eee;
+}
+
+.dropdown-select-style select {
+  padding: 5px 8px;
+  width: 130%;
+  height: 30px;
+  line-height: pxtoem(20px);
+  border: 0 !important;  /*Removes border*/
+  box-shadow: none;
+  background: transparent;
+  background-image: none;
+  -webkit-appearance: none;  /*Removes default chrome and safari style*/
+  -moz-appearance: none; /* Removes Default Firefox style*/
+  text-indent: 0.01px; /* Removes default arrow from firefox*/
+  text-overflow: "";  /*Removes default arrow from firefox*/
+}
+
+.dropdown-select-style select:focus {
+  outline: none;
+}
+select {
+  overflow:hidden;
+  width: 120%;
+}
+
+.dropdown-select-countrylanguage{
+  width: 278px;
+  @include breakpoint(sm){
+    margin: 0 auto;
+  }
+  @include breakpoint(lg){
+    margin: inherit;
+  }
+}
+
+.dropdown-select-countrylanguage-style {
+  margin: 0 auto;
+  //width: $dropdownCountryLanguageWidth;
+  height: $dropdownCountryLanguageHeight;
+  overflow: hidden;
+  font-family: $font-family-base;
+  background: url("../imgs/ui/footer_select_bg.png") no-repeat;  /*Adds background-image*/
+  text-shadow:0 0 1px #eee;
+}
+
+.dropdown-select-countrylanguage-style select {
+  padding: 15px 54px 15px 10px;
+  width: 130%;
+  height: $dropdownCountryLanguageHeight;
+  line-height: pxtoem(20px);
+  border: 0 !important;  /*Removes border*/
+  box-shadow: none;
+  background: transparent;
+  font-size: pxtoem(14px);
+  background-image: none;
+  -webkit-appearance: none;  /*Removes default chrome and safari style*/
+  -moz-appearance: none; /* Removes Default Firefox style*/
+  text-indent: 0.01px; /* Removes default arrow from firefox*/
+  text-overflow: "";  /*Removes default arrow from firefox*/
+  color: $type-footer-colour;
+}
+
+
+.dropdown-select-countrylanguage-style2 {
+  margin: -10px auto -10px;
+  width: 130%;
+  overflow: hidden;
+  font-family: "ProximaNova Bold", Helvetica, Arial, sans-serif;
+  background: url("../imgs/ui/footer_select_bg.png") no-repeat;  /*Adds background-image*/
+  text-shadow:0 0 1px #eee;
+}
+
+.dropdown-select-countrylanguage-style2 select {
+  width: $dropdownCountryLanguageWidth;
+  height: $dropdownCountryLanguageHeight;
+  padding: 15px 54px 15px 10px;
+  line-height: pxtoem(20px);
+  border: 0 !important;  /*Removes border*/
+  box-shadow: none;
+  background: transparent;
+  background-image: none;
+  -webkit-appearance: none;  /*Removes default chrome and safari style*/
+  -moz-appearance: none; /* Removes Default Firefox style*/
+  text-indent: 0.01px; /* Removes default arrow from firefox*/
+  text-overflow: "";  /*Removes default arrow from firefox*/
+  color: $type-footer-colour;
+}
+
+.dropdown-select-countrylanguage-style select:focus {
+  outline: none;
+}
+
+.select-style {
+  width: 250px;
+  overflow: hidden;
+  font-family: "ProximaNova Bold", Helvetica, Arial, sans-serif;
+  background: url("../imgs/ui/drop-down-arrow.png") no-repeat;  /*Adds background-image*/
+  background-position: 90% 50%;  /*Position of the background-image*/
+
+}
+
+.select-style select {
+  padding: 5px 8px;
+  width: 130%;
+  border: none;
+  box-shadow: none;
+  background: transparent;
+  background-image: none;
+  -webkit-appearance: none;
+}
+
+.select-style select:focus {
+  outline: none;
+}

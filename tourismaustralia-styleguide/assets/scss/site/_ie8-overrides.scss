@@ -1,0 +1,45 @@
+/*IE8 Overrides*/
+body{
+    //width: 1580px!important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+// mosaic flip to reveal on rollover
+.mosaic {
+  .flip-front-fade {
+    z-index: 3;
+  }
+  .is-flip {
+    .flip-front {
+      z-index: 1;
+    }
+    .flip-front-fade {
+      z-index: 1;
+    }
+
+  }
+}
+
+
+// footer centering
+.footer-col {
+  width: 100% !important;
+  text-align: center !important;
+  li {
+    display: inline-block !important;
+    margin-right: 1em !important;
+  }
+  .dropdown-select-countrylanguage{
+    margin: 0 auto !important;
+  }
+  .footer-copyright {
+    width: 100% !important;
+    text-align: center !important;
+  }
+}
+
+// video
+.video-container {
+  //text-align: right;
+}

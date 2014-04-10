@@ -1,0 +1,423 @@
+/**
+* Mosaic Styles
+*/
+
+.mosaic {
+  position: relative;
+  width: 100%;
+  max-width: pxtoem(1180px);
+  margin: 0 auto 20px;
+}
+
+.mosaic .row.l-row-collapse {
+    margin-left: -17px;
+    margin-right: -17px;
+
+    @include breakpoint(md) {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+}
+
+.mosaic-item {
+  position: relative;
+  //padding: 0px 0px pxtoem(3px) 0px;
+  width: 100%;
+  overflow: visible;
+  opacity: 1;
+  margin-bottom: pxtoem(20px);
+
+  @include breakpoint(md) {
+    padding: pxtoem(3px);
+    margin-bottom: 0;
+  }
+
+  &:hover {
+    opacity: 1 !important;
+  }
+
+}
+
+.mosaic-item.is-opacity {
+  opacity: .5;
+}
+.mosaic-item.is-trigger-content {
+  opacity: 1;
+}
+.is-flip{
+  z-index: 2;
+}
+/* fix for inconsistent height issue */
+.col-md-6 .col-sm-6 .mosaic-item,
+.col-md-3 .col-sm-6 .mosaic-item {
+    @include breakpoint(md) {
+      //width: 100%;
+      width: 98.9%;
+      margin: 0 auto;
+    }
+  }
+
+/* Media */
+.mosaic-media {
+  img { 
+    width: 100%;
+  }
+}
+
+.mosaic-content {
+    p {
+      margin: pxtoem(4px) 0 0 0;
+    }
+}
+
+/* Destination */
+.mosaic-overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 1em;
+  .label-destination {
+    position: absolute;
+    bottom: 3px;
+    left: 0px;
+    @include breakpoint(md) {
+      bottom: 0px;
+    }
+  }  
+}
+  .label-destination {
+    padding: pxtoem(8px) pxtoem(12px);
+    font-size: pxtoem(18px);
+  }
+
+/* 
+  TODO - move
+  Verticle Text Container 
+*/
+.vertical-container {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.vertical-content {
+  display: table-cell;
+  vertical-align: middle;
+
+  &.text-center {
+    text-align: center;
+  }
+}
+
+.mosaic-item-container {
+  padding-top: 40px;
+  max-width: 100%;
+  background-color: #f3f2eb;
+  font-size: .95em;
+  position: relative;
+  margin: 0 auto;
+}
+
+/* Hide / show mosaic details */
+/*
+.trigger-hide-show-mosaic:hover {
+  cursor: pointer;
+}
+.trigger-hide-show-mosaic .mosaic-item-detail-container {
+
+}
+*/
+.mosaic-item-detail-container {
+  position: relative;
+  max-height: 0px;
+  overflow: hidden;
+  -moz-transition: max-height 0.6s ease;
+  -ms-transition: max-height 0.6s ease;
+  -o-transition: max-height 0.6s ease;
+  -webkit-transition: max-height 0.6s ease;
+  transition: max-height 0.6s ease;
+
+  .mosaic-detail-close-btn {
+    position: absolute;
+    right: 1em;
+    top: 1em;
+    z-index: 2;
+  }
+}
+.mosaic-item-detail-container.active {
+  max-height:999px;
+  -moz-transition: max-height 0.6s ease;
+  -ms-transition: max-height 0.6s ease;
+  -o-transition: max-height 0.6s ease;
+  -webkit-transition: max-height 0.6s ease;
+  transition: max-height 0.6s ease;
+}
+
+///////////////////
+// mosaic close social icons
+///////////////////
+.mosaic-socialtiles-icon {
+  position: absolute;
+  bottom: .6em;
+  right: .6em;
+}
+.mosaic-close-icon {
+  position: absolute;
+  top: -.5em;
+  right: -.5em;
+}
+
+///////////////////
+// mosaic events
+///////////////////
+.mosaic-front-back-container {
+  //position: relative;
+  cursor: pointer;
+}
+
+.mosaic-back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    z-index: 10;
+}
+.mosaic-primary {
+  position: relative;
+}
+.mosaic-column-front {
+  position: relative;
+}
+.mosaic-column-back {
+  z-index: 1;
+}
+.mosaic-grid-2-content {
+  top: -3px;
+  position: relative;
+  padding-left: .2em;
+  width: 100%;
+  @include breakpoint(md) {
+    width: 99%;
+  }
+}
+.mosaic-grid-1, .mosaic-grid-4 {
+  padding: 0;
+  margin: 0;
+}
+
+// show detail-content at certain views
+.mosaic-grid-2-tile .mosaic-item-detail-container {
+  display: none;
+  &.active {
+    display: block;
+    @include breakpoint(md) {
+      display: none;
+    }
+  }
+  @include breakpoint(md) {
+    display: none;
+  }
+}
+.mosaic-grid-2-content .mosaic-item-detail-container {
+  display: none;
+  @include breakpoint(md) {
+    display: block;
+  }
+}
+
+
+///////////////////
+// mosaic 3 column
+///////////////////
+.mosaic-3column-item-option{
+  padding: .1em;
+}
+.mosaic-3column-item-option.is-opacity {
+  opacity: .5;
+  transition: opacity .25s;
+  -moz-transition: opacity .25s;
+  -webkit-transition: opacity .25s;
+}
+.mosaic-3column-item-option {
+  opacity: 1;
+  transition: opacity .25s;
+  -moz-transition: opacity .25s;
+  -webkit-transition: opacity .25s;
+}
+.mosaic-3column-item-option.is-flip {
+  opacity: 1;
+  transition: opacity .25s;
+  -moz-transition: opacity .25s;
+  -webkit-transition: opacity .25s;
+}
+.mosaic-3column-container {
+  position: relative;
+  cursor: pointer;
+}
+
+// IE9 does simple rollover flip
+.no-csstransforms3d {
+  .mosaic-3column-item-option.is-flip:not(.is-trigger-content) {
+    .mosaic-3column-back {
+      opacity: 1;
+    }
+  }
+}
+// Modern browsers 3d flip
+.csstransforms3d {
+  .mosaic-3column-item-option {
+    &.is-flip:not(.is-trigger-content) {
+      .mosaic-3column-front {
+        //display: table;
+        //z-index: 1;
+      }
+      .mosaic-3column-back {
+        //display: table;
+        opacity: 1;
+        transition: opacity .25s;
+        -moz-transition: opacity .25s;
+        -webkit-transition: opacity .25s;
+      }
+    }
+  }
+}
+.mosaic-3column-front-back-container{
+  position: absolute;
+  left: 50%;
+  height: 100%;
+}
+.mosaic-3column-front {
+  display: table;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  //z-index: 2;
+  z-index: 1;
+}
+.mosaic-3column-back {
+  display: table;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  top: 0;
+  position: absolute;
+  z-index: 2;
+}
+.mosaic-3column-media{
+  vertical-align: middle;
+  display: table-cell;
+}
+.mosaic-3column-item-content {
+  display: block;
+}
+
+
+/* simple */
+.flip-container {
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  -ms-perspective: 1000;
+  perspective: 1000;
+
+  -ms-transform: perspective(1000px);
+  -moz-transform: perspective(1000px);
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+}
+
+// IE9 does simple rollover flip
+.no-csstransforms3d {
+  .is-flip:not(.is-trigger-content) {
+    .flip-front {
+      z-index: 1;
+    }
+  }
+}
+// Modern browsers 3d flip
+.csstransforms3d {
+  .is-flip:not(.is-trigger-content) {
+    .flip-front {
+      -webkit-transform: rotateY(180deg);
+      -moz-transform: rotateY(180deg);
+      -o-transform: rotateY(180deg);
+      transform: rotateY(180deg);
+    }
+    .flip-back {
+      -webkit-transform: rotateY(0deg);
+      -moz-transform: rotateY(0deg);
+      -o-transform: rotateY(0deg);
+      -ms-transform: rotateY(0deg);
+      transform: rotateY(0deg);
+    }
+  }
+}
+
+/* END: Accommodating for IE */
+.flipper {
+  -webkit-transition: 0.6s;
+  -webkit-transform-style: preserve-3d;
+  -ms-transition: 0.6s;
+
+  -moz-transition: 0.6s;
+  -moz-transform: perspective(1000px);
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+
+  transition: 0.6s;
+  transform-style: preserve-3d;
+
+  position: relative;
+}
+
+.flip-front, .flip-back {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+
+  -webkit-transition: 0.6s;
+  -webkit-transform-style: preserve-3d;
+
+  -moz-transition: 0.6s;
+  -moz-transform-style: preserve-3d;
+
+  -o-transition: 0.6s;
+  -o-transform-style: preserve-3d;
+
+  -ms-transition: 0.6s;
+  -ms-transform-style: preserve-3d;
+
+  transition: 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-front {
+  -webkit-transform: rotateY(0deg);
+  -moz-transform: rotateY(0deg);
+  -o-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+  z-index: 2;
+}
+
+.flip-back {
+  -webkit-transform: rotateY(-180deg);
+  -moz-transform: rotateY(-180deg);
+  -o-transform: rotateY(-180deg);
+  -ms-transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
+}
+
+.flip-back-fade {
+  opacity: 0;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+

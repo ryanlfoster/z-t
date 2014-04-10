@@ -1,0 +1,39 @@
+.largeimage {
+	-webkit-perspective: 600;
+
+
+}
+
+.largeimage-container {
+	/* Base mobile height for image */
+	height: 300px;
+	overflow: hidden;
+	position: relative;
+
+	img {
+		width: 100%;
+		position: absolute;
+		top: 50%;
+		margin-top: -35%;
+		left: 0;
+	}
+}
+
+.lt-ie9 {
+
+	.largeimage {
+		height: 400px;
+		overflow: hidden;
+		position: relative;
+
+		img {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+		}
+	}
+
+	.largeimage-container {
+		display: none;
+	}
+}

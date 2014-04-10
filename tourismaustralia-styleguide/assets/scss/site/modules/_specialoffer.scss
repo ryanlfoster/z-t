@@ -1,0 +1,120 @@
+$type-specialoffer-colour: #00535e;
+
+.specialoffer {
+
+    text-align: center;
+
+    .row {
+        max-width: pxtoem(1180px);
+        background-color: $colour-content-block-light;
+    }
+
+    @include breakpoint(md) {
+        text-align: left;
+
+        .row {
+            margin: 0 auto;
+        }
+    }
+
+    .specialoffer-image {
+
+        margin-left: -15px;
+        margin-right: -15px;
+        max-height: 167px;
+        overflow: hidden;
+
+        img {
+            width: auto;
+            max-width: 100%;
+        }
+
+        @include breakpoint(md) {
+
+            position: relative;
+            margin: 0 0 0 -15px;
+            min-height: 310px;
+
+            img {
+                position: absolute;
+                right: 0;
+                min-width: 100%;
+                max-width: none;
+                min-height: 310px;
+            }
+        }
+
+        @include breakpoint(lg) {
+            min-height: 275px;
+
+            img {
+                min-height: 275px;
+            }
+        }
+    }
+
+    .specialoffer-content {
+
+        padding: 30px 15px;
+
+        @include breakpoint(md) {
+            padding: 30px 0;
+        }
+
+        p {
+            margin-top: 0.5em;
+        }
+
+        .specialoffer-title,
+        .specialoffer-price {
+            color: $type-specialoffer-colour;
+        }
+
+        .specialoffer-price {
+            margin-bottom: 15px;
+        }
+
+        .specialoffer-currency {
+            font-size: pxtoem(30px);
+            vertical-align: top;
+            margin-top: 0.25em;
+            margin-right: -0.2em;
+            display: inline-block;
+        }
+
+        .specialoffer-value {
+            font-weight: bold;
+            font-size: pxtoem(60px);
+            font-family: $font-family-base-b;
+        }
+
+        .specialoffer-per {
+            margin-left: -0.35em;
+            display: inline-block;
+        }
+    }
+
+    .specialoffer-links {
+        padding: 15px 0 0;
+
+        @include breakpoint(md) {
+            padding: 0;
+        }
+
+        a {
+
+            font-size: pxtoem(14px);
+            display: block;
+            margin-bottom: pxtoem(20px);
+
+            @include breakpoint(md) {
+                display: inline-block;
+                margin-right: 2em;
+                &:last-of-type {
+                    margin-right: 0;
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}

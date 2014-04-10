@@ -1,10 +1,13 @@
 package com.australia.atdw.repository;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
+import java.util.concurrent.TimeUnit;
 
+import javax.jcr.Node;
 import javax.jcr.RepositoryException;
 import javax.jcr.Session;
 
@@ -12,6 +15,7 @@ import org.apache.commons.lang3.StringUtils;
 import org.apache.felix.scr.annotations.Component;
 import org.apache.felix.scr.annotations.Reference;
 import org.apache.felix.scr.annotations.Service;
+import org.apache.sling.api.resource.LoginException;
 import org.apache.sling.api.resource.ResourceResolver;
 import org.apache.sling.api.resource.ResourceResolverFactory;
 import org.apache.sling.jcr.resource.JcrResourceConstants;
@@ -32,6 +36,7 @@ import com.day.cq.tagging.TagManager;
 import com.day.cq.wcm.api.NameConstants;
 import com.day.cq.wcm.api.Page;
 import com.day.cq.wcm.api.PageManager;
+import com.google.common.base.Stopwatch;
 
 @Component(label = "ATDW Product Repository", description = "ATDW Product Repository", immediate = true)
 @Service
@@ -69,7 +74,14 @@ public class DefaultATDWProductRepository implements ATDWProductRepository {
 				QueryUtils.addFullText(queryMap, propertyCount, parameters.getText());
 				propertyCount++;
 			}
-
+			if (StringUtils.isNotEmpty(parameters.getCity())) {
+				QueryUtils.addProperty(queryMap, propertyCount, JCR_PREFIX + "city", parameters.getCity());
+				propertyCount++;
+			}
+			if (StringUtils.isNotEmpty(parameters.getState())) {
+				QueryUtils.addProperty(queryMap, propertyCount, JCR_PREFIX + "state", parameters.getState());
+				propertyCount++;
+			}
 			if (parameters.getTags() != null && parameters.getTags().size() > 0) {
 				List<Tag> tags = new ArrayList<Tag>();
 				TagManager tagManager = resourceResolver.adaptTo(TagManager.class);
@@ -83,8 +95,6 @@ public class DefaultATDWProductRepository implements ATDWProductRepository {
 				propertyCount++;
 			}
 
-			queryMap.put(QueryUtils.ORDER_BY, JCR_PREFIX + "tqual");
-			queryMap.put(QueryUtils.ORDER_BY_SORT, QueryUtils.DESC);
 			queryMap.put(QueryUtils.OFFSET, Long.toString((parameters.getPage() - 1) * parameters.getCount()));
 			queryMap.put(QueryUtils.LIMIT, Long.toString(parameters.getCount()));
 			Query query = builder.createQuery(PredicateGroup.create(queryMap), session);
@@ -110,5 +120,50 @@ public class DefaultATDWProductRepository implements ATDWProductRepository {
 			}
 		}
 		return atdwProducts;
+	}
+
+	@Override
+	public void deleteOldProducts(Date updatedBefore) {
+		Stopwatch stopwatch = Stopwatch.createStarted();
+		LOG.info("Starting removal of old ATDW records (since {})", updatedBefore);
+		ResourceResolver resourceResolver = null;
+		try {
+			resourceResolver = resourceResolverFactory.getAdministrativeResourceResolver(null);
+			Session session = resourceResolver.adaptTo(Session.class);
+			Map<String, String> queryMap = new TreeMap<String, String>();
+			queryMap.put(QueryUtils.TYPE, NameConstants.NT_PAGE);
+			QueryUtils.addProperty(queryMap, 1, JCR_PREFIX + JcrResourceConstants.SLING_RESOURCE_TYPE_PROPERTY,
+				"tourismaustralia/components/page/atdw");
+			queryMap.put(QueryUtils.PATH, PathUtils.ATDW_DATA_PATH);
+			queryMap.put("daterange.property", "@jcr:content/cq:lastModified");
+			queryMap.put("daterange.upperBound", Long.toString(updatedBefore.getTime()));
+			Query query = builder.createQuery(PredicateGroup.create(queryMap), session);
+			for (Map.Entry<String, String> e : queryMap.entrySet()) {
+				LOG.debug("{}={}", e.getKey(), e.getValue());
+			}
+			query.setHitsPerPage(0);
+			SearchResult result = query.getResult();
+			LOG.info("Search returned {} stale ADTW records in {}. Removing stale records.", result.getTotalMatches(),
+				result.getExecutionTime());
+			for (Hit hit : result.getHits()) {
+				try {
+					Node node = hit.getNode();
+					LOG.info("Removing {}", node.getPath());
+					node.remove();
+				} catch (RepositoryException e) {
+					LOG.error("Removal of stale product node failed", e);
+				}
+			}
+			session.save();
+		} catch (LoginException e) {
+			LOG.error("JCR login failed", e);
+		} catch (Exception e) {
+			LOG.error("JCR session save failed", e);
+		} finally {
+			if (resourceResolver != null && resourceResolver.isLive()) {
+				resourceResolver.close();
+			}
+		}
+		LOG.info("ATDW record cleanup completed in {} milliseconds", stopwatch.stop().elapsed(TimeUnit.MILLISECONDS));
 	}
 }

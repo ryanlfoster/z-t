@@ -17,6 +17,7 @@
 				<exclude>**/.vltignore</exclude>
 				<exclude>**/.DS_Store</exclude>
 				<exclude>/etc/designs/tourismaustralia/**</exclude>
+				<exclude>/etc/designs/foodandwine/**</exclude>
 			</excludes>
 			<filtered>true</filtered>
 		</fileSet>
@@ -29,6 +30,18 @@
 				<exclude>**/.DS_Store</exclude>
 			</excludes>
 		</fileSet>
+		<fileSet>
+			<directory>${basedir}/src/main/content/jcr_root/etc/designs/foodandwine</directory>
+			<outputDirectory>jcr_root/etc/designs/foodandwine</outputDirectory>
+			<excludes>
+				<exclude>**/.vlt</exclude>
+				<exclude>**/.vltignore</exclude>
+				<exclude>**/.DS_Store</exclude>
+			</excludes>
+		</fileSet>
+		
+		
+		
 		<fileSet>
 			<directory>${basedir}/src/main/content/META-INF</directory>
 			<outputDirectory>META-INF</outputDirectory>
@@ -71,7 +84,6 @@
 				<!-- Gemini Blueprint -->
 				<include>org.eclipse.gemini:org.eclipse.gemini.blueprint.core</include>
 				<include>org.eclipse.gemini:org.eclipse.gemini.blueprint.io</include>
-				<include>org.eclipse.gemini:org.eclipse.gemini.blueprint.extender</include>
 				<!-- Gemini Spring Dependencies -->
 				<include>org.springframework:org.springframework.context</include>
 				<include>org.springframework:org.springframework.core</include>
@@ -107,6 +119,16 @@
 				<include>org.codehaus.jackson:jackson-core-asl</include>
 				<include>org.codehaus.jackson:jackson-mapper-asl</include>
 				<include>org.springframework.retry:spring-retry</include>
+			</includes>
+			<useStrictFiltering>true</useStrictFiltering>
+		</dependencySet>
+		<dependencySet>
+			<outputDirectory>jcr_root/apps/tourismaustralia/install/21</outputDirectory>
+			<useProjectArtifact>false</useProjectArtifact>
+			<useTransitiveDependencies>false</useTransitiveDependencies>
+			<scope>provided</scope>
+			<includes>
+				<include>org.eclipse.gemini:org.eclipse.gemini.blueprint.extender</include>
 			</includes>
 			<useStrictFiltering>true</useStrictFiltering>
 		</dependencySet>

@@ -1,5 +1,6 @@
 package com.australia.atdw.service;
 
+import java.util.Date;
 import java.util.List;
 
 import org.apache.felix.scr.annotations.Component;
@@ -19,6 +20,11 @@ public class DefaultATDWProductService implements ATDWProductService {
 	@Override
 	public List<ATDWProduct> search(ATDWProductSearchParameters parameters) {
 		return atdwRepo.search(parameters);
+	}
+
+	@Override
+	public void deleteOldProducts(Date updatedBefore) {
+		atdwRepo.deleteOldProducts(updatedBefore);
 	}
 
 }

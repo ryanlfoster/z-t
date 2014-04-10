@@ -1,42 +1,47 @@
 package com.australia.www.components.page.sharethis;
 
-import org.apache.sling.api.SlingHttpServletRequest;
+import java.util.ArrayList;
+import java.util.List;
 
+import org.apache.sling.api.resource.Resource;
+import org.apache.sling.api.resource.ValueMap;
+
+import com.australia.widgets.multicomposite.MultiCompositeField;
 import com.citytechinc.cq.component.annotations.Component;
 import com.citytechinc.cq.component.annotations.DialogField;
-import com.citytechinc.cq.component.annotations.FieldProperty;
 import com.citytechinc.cq.component.annotations.Tab;
-import com.citytechinc.cq.component.annotations.widgets.NumberField;
+import com.citytechinc.cq.component.annotations.widgets.DialogFieldSet;
+import com.day.cq.wcm.api.Page;
 
-@Component(value = "ShareThis", path = "page", group = ".hidden", editConfig = false, fileName = "share_dialog", tabs = {
+@Component(value = "ShareThis", dialogWidth = 600, path = "page", group = ".hidden", editConfig = false, fileName = "share_dialog", tabs = {
 	@Tab(title = "Default"), @Tab(title = "Custom") })
 public class ShareThis {
+	@DialogField(tab = 1, hideLabel = true)
+	@DialogFieldSet(border = false, collapsible = false)
+	private final DefaultShareThisConfig defaultConfig;
 
-	@DialogField(fieldLabel = "Test Field1", tab = 1, additionalProperties = {
-		@FieldProperty(name = "minValue", value = "-90"), @FieldProperty(name = "maxValue", value = "90") })
-	@NumberField(decimalPrecision = 4)
-	private final Double testfield1;
+	@DialogField(tab = 2, fieldLabel = "Social Networks By Country")
+	@MultiCompositeField
+	private List<LanguageShareThisConfig> shareThis;
 
-	// @DialogField
-	// @MultiCompositeField
-	// private final List links;
-
-	@DialogField(fieldLabel = "Test Field2", tab = 2, additionalProperties = {
-		@FieldProperty(name = "minValue", value = "-90"), @FieldProperty(name = "maxValue", value = "90") })
-	@NumberField(decimalPrecision = 4)
-	private final Double testfield2;
-
-	public ShareThis(SlingHttpServletRequest request) {
-		testfield1 = new Double(0);
-		testfield2 = new Double(0);
+	public ShareThis(Page parent, Resource resource) {
+		defaultConfig = new DefaultShareThisConfig(parent.getProperties());
+		if (resource != null) {
+			shareThis = new ArrayList<LanguageShareThisConfig>();
+			for (Resource res : resource.getChildren()) {
+				ValueMap jcrProp = res.adaptTo(ValueMap.class);
+				LanguageShareThisConfig customConfig = new LanguageShareThisConfig(jcrProp);
+				shareThis.add(customConfig);
+			}
+		}
 	}
 
-	public Double getTestfield1() {
-		return testfield1;
+	public DefaultShareThisConfig getDefaultConfig() {
+		return defaultConfig;
 	}
 
-	public Double getTestfield2() {
-		return testfield2;
+	public List<LanguageShareThisConfig> getShareThis() {
+		return shareThis;
 	}
 
 }

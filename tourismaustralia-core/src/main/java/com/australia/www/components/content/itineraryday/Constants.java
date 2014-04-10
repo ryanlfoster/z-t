@@ -1,9 +1,6 @@
 package com.australia.www.components.content.itineraryday;
 
-/**
- * Created by gsnyder on 4/9/14.
- */
-class Constants {
+final class Constants {
 
     public static final String RESOURCE_TYPE = "tourismaustralia/components/content/itineraryDay";
 
@@ -29,5 +26,8 @@ class Constants {
     public static final String NAME_MAP_IMAGE = "mapImage";
     public static final String NAME_TEXT_TITLE = "textTitle";
     public static final String NAME_TEXT = "text";
+
+	// Disallow instantiation of utility class
+	private Constants() { }
 
 }

@@ -14,118 +14,118 @@ import java.util.List;
 /**
  * Backing bean for the Itinerary Day component
  */
-@Component(value="Itinerary Day",
-        tabs={
-            @Tab(title= Constants.TAB_GENERAL),
-            @Tab(title=Constants.TAB_HERO),
-            @Tab(title=Constants.TAB_IMAGE_1),
-            @Tab(title=Constants.TAB_IMAGE_2),
-            @Tab(title=Constants.TAB_IMAGE_3),
-            @Tab(title=Constants.TAB_IMAGE_4),
-            @Tab(title=Constants.TAB_MAP)
+@Component(value = "Itinerary Day",
+        tabs = {
+            @Tab(title = Constants.TAB_GENERAL),
+            @Tab(title = Constants.TAB_HERO),
+            @Tab(title = Constants.TAB_IMAGE_1),
+            @Tab(title = Constants.TAB_IMAGE_2),
+            @Tab(title = Constants.TAB_IMAGE_3),
+            @Tab(title = Constants.TAB_IMAGE_4),
+            @Tab(title = Constants.TAB_MAP)
         },
         listeners = {
-            @Listener(name="afteredit", value="REFRESH_PAGE"),
-            @Listener(name="afterinsert", value="REFRESH_PAGE")
+            @Listener(name = "afteredit", value = "REFRESH_PAGE"),
+            @Listener(name = "afterinsert", value = "REFRESH_PAGE")
         }
 )
-public class ItineraryDay {
+public final class ItineraryDay {
 
     /**
      * Backing bean representing a link to a sibling ItineraryDay, used for building the list of day links
      */
     public static class ItineraryDayLink {
 
-        public static ItineraryDayLink fromResource(Resource day, Resource currentDay) {
-            ValueMap properties = day.adaptTo(ValueMap.class);
-            return new ItineraryDayLink(day.getName(), properties.get(Constants.NAME_HERO_TITLE, ""), day.equals(currentDay));
-        }
+		private final String anchor;
+		private final String text;
+		private final boolean currentDay;
 
-        private final String anchor;
-        private final String text;
-        private final boolean currentDay;
-
-        public ItineraryDayLink(String anchor, String text, boolean currentDay) {
+        public ItineraryDayLink(final String anchor, final String text, final boolean currentDay) {
             this.anchor = anchor;
             this.text = text;
             this.currentDay = currentDay;
         }
 
-        public String getAnchor() {
+        public final String getAnchor() {
             return anchor;
         }
 
-        public String getText() {
+        public final String getText() {
             return text;
         }
 
-        public boolean isCurrentDay() {
+        public final boolean isCurrentDay() {
             return currentDay;
         }
+
+		public static ItineraryDayLink fromResource(final Resource day, final Resource currentDay) {
+			final ValueMap properties = day.adaptTo(ValueMap.class);
+			return new ItineraryDayLink(day.getName(), properties.get(Constants.NAME_HERO_TITLE, ""), day.equals(currentDay));
+		}
     }
 
-    @DialogField(fieldLabel="Text Title", tab=1)
+    @DialogField(fieldLabel = "Text Title", tab = 1)
     private final String textTitle;
 
-    @DialogField(fieldLabel="Text", tab=1)
+    @DialogField(fieldLabel = "Text", tab = 1)
     @RichTextEditor
     private final String text;
 
-    @DialogField(fieldLabel="Hero Image", tab=2, required=true)
-    @Html5SmartImage(tab=false, name=Constants.NAME_HERO_IMAGE, height=400)
+    @DialogField(fieldLabel = "Hero Image", tab = 2, required = true)
+    @Html5SmartImage(tab = false, name = Constants.NAME_HERO_IMAGE, height = 400)
     private final String heroImage;
 
-    @DialogField(fieldLabel="Hero Image Title", tab=2, required=true)
+    @DialogField(fieldLabel = "Hero Image Title", tab = 2, required = true)
     private final String heroTitle;
 
-    @DialogField(fieldLabel="Hero Image Alt Text", tab=2, required=true, xtype="textarea",
-            additionalProperties={@FieldProperty(name="grow", value="true")})
+    @DialogField(fieldLabel = "Hero Image Alt Text", tab = 2, required = true, xtype = "textarea",
+            additionalProperties = {@FieldProperty(name = "grow", value = "true")})
     private final String heroImageAltText;
 
-    @DialogField(fieldLabel="Image 1 (16:9)", tab=3)
-    @Html5SmartImage(tab=false, name=Constants.NAME_IMAGE_1, height=400)
+    @DialogField(fieldLabel = "Image 1 (16:9)", tab = 3)
+    @Html5SmartImage(tab = false, name = Constants.NAME_IMAGE_1, height = 400)
     private final String image1;
 
-    @DialogField(fieldLabel="Image 1 Alt Text", tab=3, xtype="textarea",
-            additionalProperties={@FieldProperty(name="grow", value="true")})
+    @DialogField(fieldLabel = "Image 1 Alt Text", tab = 3, xtype = "textarea",
+            additionalProperties = {@FieldProperty(name = "grow", value = "true")})
     private final String image1AltText;
 
-    @DialogField(fieldLabel="Image 2 (16:9)", tab=4)
-    @Html5SmartImage(tab=false, name=Constants.NAME_IMAGE_2, height=400)
+    @DialogField(fieldLabel = "Image 2 (16:9)", tab = 4)
+    @Html5SmartImage(tab = false, name = Constants.NAME_IMAGE_2, height = 400)
     private final String image2;
 
-    @DialogField(fieldLabel="Image 2 Alt Text", tab=4, xtype="textarea",
-            additionalProperties={@FieldProperty(name="grow", value="true")})
+    @DialogField(fieldLabel = "Image 2 Alt Text", tab = 4, xtype = "textarea",
+            additionalProperties = {@FieldProperty(name = "grow", value = "true")})
     private final String image2AltText;
     
-    @DialogField(fieldLabel="Image 3 (1:1)", tab=5)
-    @Html5SmartImage(tab=false, name=Constants.NAME_IMAGE_3, height=400)
+    @DialogField(fieldLabel = "Image 3 (1:1)", tab = 5)
+    @Html5SmartImage(tab = false, name = Constants.NAME_IMAGE_3, height = 400)
     private final String image3;
 
-    @DialogField(fieldLabel="Image 3 Alt Text", tab=5, xtype="textarea",
-            additionalProperties={@FieldProperty(name="grow", value="true")})
+    @DialogField(fieldLabel = "Image 3 Alt Text", tab = 5, xtype = "textarea",
+            additionalProperties = {@FieldProperty(name = "grow", value = "true")})
     private final String image3AltText;
 
-    @DialogField(fieldLabel="Image 4 ", tab=6)
-    @Html5SmartImage(tab=false, name=Constants.NAME_IMAGE_4, height=400)
+    @DialogField(fieldLabel = "Image 4 ", tab = 6)
+    @Html5SmartImage(tab = false, name = Constants.NAME_IMAGE_4, height = 400)
     private final String image4;
 
-    @DialogField(fieldLabel="Image 4 Alt Text", tab=6, xtype="textarea",
-            additionalProperties={@FieldProperty(name="grow", value="true")})
+    @DialogField(fieldLabel = "Image 4 Alt Text", tab = 6, xtype = "textarea",
+            additionalProperties = {@FieldProperty(name = "grow", value = "true")})
     private final String image4AltText;
 
-    @DialogField(fieldLabel="Map Image", tab=7)
-    @Html5SmartImage(tab=false, name=Constants.NAME_MAP_IMAGE, height=400)
+    @DialogField(fieldLabel = "Map Image", tab = 7)
+    @Html5SmartImage(tab = false, name = Constants.NAME_MAP_IMAGE, height = 400)
     private final String mapImage;
 
     private final String anchorId;
 
     private final List<ItineraryDayLink> dayLinks = new ArrayList<ItineraryDayLink>();
 
-    public ItineraryDay(SlingHttpServletRequest request) {
+    public ItineraryDay(final SlingHttpServletRequest request) {
 
-        Resource resource = request.getResource();
-        ValueMap properties = resource.adaptTo(ValueMap.class);
+        final Resource resource = request.getResource();
+        final ValueMap properties = resource.adaptTo(ValueMap.class);
 
         textTitle = properties.get(Constants.NAME_TEXT_TITLE, "");
         text = properties.get(Constants.NAME_TEXT, "");
@@ -156,9 +156,9 @@ public class ItineraryDay {
 
         anchorId = resource.getName();
 
-        Resource parent = resource.getParent();
-        for(Resource child: parent.getChildren()) {
-            if(child.isResourceType(Constants.RESOURCE_TYPE)) {
+        final Resource parent = resource.getParent();
+        for (final Resource child: parent.getChildren()) {
+            if (child.isResourceType(Constants.RESOURCE_TYPE)) {
                 dayLinks.add(ItineraryDayLink.fromResource(child, resource));
             }
         }

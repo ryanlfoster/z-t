@@ -18,6 +18,8 @@
 
     // Create the defaults once
     var pluginName = 'megamenu', defaults = {
+        mm_main_navigation_bar: '#nav-bar-top',
+        mm_clone_navigation_bar_id: 'nav-bar-top-clone',
         mm_notice_close_button: '.notice-close',
         mm_mobile_open_main_nav: '.nav-toggle-open',
         mm_mobile_close_main_nav: '.nav-toggle-close',
@@ -37,6 +39,17 @@
     Plugin.prototype.init = function () {
         var scope = this;
 
+        // clone the nav bar, set the height, insert it, empty it and hide it
+        scope.options.navbarHeight = $(scope.options.mm_main_navigation_bar).css('height');
+        scope.options.mm_clone_navigation_bar = $(scope.options.mm_main_navigation_bar)
+            .clone()
+            .height(scope.options.navbarHeight)
+            .removeClass('bar-fixed-scroll')
+            .attr('id', scope.options.mm_clone_navigation_bar_id)
+            .insertBefore($(scope.options.mm_main_navigation_bar))
+            .html('')
+            .hide();
+
         $(window).resize(function () {
             scope.initStickyNavBars(scope);
         });
@@ -51,11 +64,15 @@
 
     // init Sticky Nav Bars
     Plugin.prototype.initStickyNavBars = function (scope) {
+
         scope.options.offsetTop = $(window).scrollTop();
-        scope.options.heightAbove = 0;
-        $(scope.element).find('.bar-scroll-top').each(function () {
-            scope.options.heightAbove += $(this).height();
-        });
+        scope.options.heightAbove = $(scope.options.mm_main_navigation_bar).offset().top;
+        scope.options.navbarHeight = $(scope.options.mm_main_navigation_bar).css('height');
+
+        $(scope.options.mm_clone_navigation_bar)
+            .height(scope.options.navbarHeight);
+
+
         scope.stickyNavBars(scope);
     };
 
@@ -63,12 +80,17 @@
     Plugin.prototype.stickyNavBars = function (scope) {
         $(window).on('scroll', function () {
             scope.options.offsetTop = $(window).scrollTop();
+
             if (scope.options.offsetTop > scope.options.heightAbove) {
                 $('.bar-fixed-scroll').addClass('bar-fixed-top');
+                $(scope.options.mm_clone_navigation_bar).show();
             }
-            if (scope.options.offsetTop <= 0) {
+
+            if (scope.options.offsetTop <= scope.options.heightAbove) {
                 $('.bar-fixed-scroll').removeClass('bar-fixed-top');
+                $(scope.options.mm_clone_navigation_bar).hide();
             }
+
         });
     };
 

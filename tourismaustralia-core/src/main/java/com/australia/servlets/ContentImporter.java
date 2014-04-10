@@ -33,8 +33,7 @@ import java.util.*;
  * /content/australia/facts
  * /content/australia/facts/australias-seasons
  * /content/australia/planning
- *
-  */
+ */
 
 
 @SlingServlet(methods = {"POST"}, paths = "/apps/ta/servlets/ContentImporter")
@@ -49,12 +48,12 @@ public class ContentImporter extends SlingAllMethodsServlet {
 
     @Reference
     private ResourceResolverFactory resourceResolverFactory;
-    Map<String,PageBuilder> templates = new Hashtable<String,PageBuilder>();
+    Map<String, PageBuilder> templates = new Hashtable<String, PageBuilder>();
 
     @Override
     protected void doGet(SlingHttpServletRequest request, SlingHttpServletResponse response) throws ServletException,
             IOException {
-        doPost(request,response);
+        doPost(request, response);
     }
 
     @Override
@@ -63,13 +62,13 @@ public class ContentImporter extends SlingAllMethodsServlet {
         ResourceResolver resourceResolver = null;
 
         // Add templates and builders
-        templates.put("state",new StateCityBuilder());
-        templates.put("city",new StateCityBuilder());
+        templates.put("state", new StateCityBuilder());
+        templates.put("city", new StateCityBuilder());
         templates.put("article", new ArticleBuilder());
         templates.put("icon", new IconBuilder());
 
         try {
-            resourceResolver= resourceResolverFactory.getAdministrativeResourceResolver(null);
+            resourceResolver = resourceResolverFactory.getAdministrativeResourceResolver(null);
         } catch (LoginException e) {
             e.printStackTrace();
         }
@@ -87,11 +86,11 @@ public class ContentImporter extends SlingAllMethodsServlet {
                 }
         );
 
-        for(MappingVO map: mappingVO){
+        for (MappingVO map : mappingVO) {
             //System.out.println(map.getNewPath());
             pageBuilder = templates.get(map.getTemplate());
 
-            if(pageBuilder == null){
+            if (pageBuilder == null) {
                 continue;
             }
 
@@ -110,7 +109,7 @@ public class ContentImporter extends SlingAllMethodsServlet {
 
     }
 
-    private ArrayList<MappingVO> getMappings(){
+    private ArrayList<MappingVO> getMappings() {
 
         InputStream file = this.getClass().getClassLoader().getResourceAsStream("prod-content/mapping.csv");
         BufferedReader br = null;

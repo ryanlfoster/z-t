@@ -1,6 +1,5 @@
 package com.australia.cqimport.service;
 
-import com.day.cq.wcm.api.Page;
 import com.day.cq.wcm.api.WCMException;
 import org.apache.sling.api.resource.ResourceResolver;
 
@@ -14,7 +13,7 @@ public abstract class PageBuilder {
             throws WCMException;
 
     protected String getPath(String path, boolean isPageNameOnlyRequired){
-        String value = null;
+        String value;
         if(isPageNameOnlyRequired){
             value = path.substring(path.lastIndexOf("/")+1);
         } else {

@@ -65,11 +65,19 @@
             if((scope.options.containerOffset - scope.options.heightOfWindow) >= scope.options.windowPositionTop){
                 // if we are, set the transform to 0
                 $(scope.element).find('img').css({
+<<<<<<< HEAD
                         'transform': 'translate(0px, 0px)',
                         '-moz-transform': 'translate(0px, 0px)',
                         '-webkit-transform': 'translate(0px, 0px)',
                         '-ms-transform': 'translate(0px, 0px)',
                         '-o-transform': 'translate(0px, 0px)'
+=======
+                        'transform': 'translate3d(0px, 0px, 0px)',
+                        '-moz-transform': 'translate3d(0px, 0px, 0px)',
+                        '-webkit-transform': 'translate3d(0px, 0px, 0px)',
+                        '-ms-transform': 'translate3d(0px, 0px, 0px)',
+                        '-o-transform': 'translate3d(0px, 0px, 0px)'
+>>>>>>> 45cecd6... fixed module spacing on state page
                 });
 
                 scope.options.parallaxPosition = 0;

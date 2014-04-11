@@ -7,7 +7,7 @@
 <div class="section-intro">
 	<div class="l-center-900">
 		<h3 class="type-h1-responsive">
-			EXPLORE BEYOND THE CITY LIMITS
+			<fmt:message key="EXPLORE BEYOND THE CITY LIMITS"/>
 		</h3>
 	</div>
 	<div class="l-center-640 type-center">
@@ -50,7 +50,7 @@
 		<a href="#" class="btn-bubble btn-bubble-min-width is-active btn-category-extra-space">
     <span class="btn-bubble-button">
     <img class="btn-bubble-std" src="${explore.tabs[0].iconImagePath}" alt=""/>
-    <img class="btn-bubble-active" src="${explore.tabs[0].iconImagePath}" alt=""/>
+    <img class="btn-bubble-active" src="${explore.tabs[0].selectedImagePath}" alt=""/>
     </span>
 			<span class="type-below-btn"><c:out value="${explore.tabs[0].title}"/>
 			</span>
@@ -121,28 +121,28 @@
 				</div>
 				<div class="l-h-center l-padding-tb-30-lr-15">
 					<a id="explore-flip-btn" href="" class="btn-bubble">
-    <span class="btn-bubble-tooltip">
-    <span class="btn-bubble-tooltip-container">
-    Show map
-    </span>
-    </span>
-    <span class="btn-bubble-button">
-    <img class="btn-bubble-std" src="/etc/designs/tourismaustralia/clientlibs/img/icons/mappin_outline.png" alt=""/>
-    <img class="btn-bubble-active" src="/etc/designs/tourismaustralia/clientlibs/img/icons/mappin.png" alt=""/>
-    </span>
-					</a>
-					<p><c:out value="${explore.tabs[0].cards[0].pageDescription}"/></p>
-					<p><a href="${explore.tabs[0].cards[0].pagePath}">View more information</a></p>
-					<a href="#" class="btn-bubble bubble-colour-favourite">
-    <span class="btn-bubble-tooltip">
-    <span class="btn-bubble-tooltip-container">
-    Add to your dream trip
-    </span>
-    </span>
-    <span class="btn-bubble-button">
-    <img class="btn-bubble-std" src="/etc/designs/tourismaustralia/clientlibs/img/icons/favourite_outline.png" alt=""/>
-    <img class="btn-bubble-active" src="/etc/designs/tourismaustralia/clientlibs/img/icons/favourite.png" alt=""/>
-    </span>
+<span class="btn-bubble-tooltip">
+<span class="btn-bubble-tooltip-container">
+<fmt:message key="Show map"/>
+</span>
+</span>
+<span class="btn-bubble-button">
+<img class="btn-bubble-std" src="/etc/designs/tourismaustralia/clientlibs/img/icons/mappin_outline.png" alt=""/>
+<img class="btn-bubble-active" src="/etc/designs/tourismaustralia/clientlibs/img/icons/mappin.png" alt=""/>
+</span>
+				</a>
+				<p><c:out value="${explore.tabs[0].cards[0].pageDescription}"/></p>
+				<p><a href="${explore.tabs[0].cards[0].pagePath}">View more information</a></p>
+				<a href="#" class="btn-bubble bubble-colour-favourite">
+<span class="btn-bubble-tooltip">
+<span class="btn-bubble-tooltip-container">
+Add to your dream trip
+</span>
+</span>
+<span class="btn-bubble-button">
+<img class="btn-bubble-std" src="/etc/designs/tourismaustralia/clientlibs/img/icons/favourite_outline.png" alt=""/>
+<img class="btn-bubble-active" src="/etc/designs/tourismaustralia/clientlibs/img/icons/favourite.png" alt=""/>
+</span>
 					</a>
 				</div>
 			</div>
@@ -193,7 +193,7 @@
 					<a id="explore-flip-btn" href="" class="btn-bubble">
 <span class="btn-bubble-tooltip">
 <span class="btn-bubble-tooltip-container">
-Show map
+<fmt:message key="Show map"/>
 </span>
 </span>
 <span class="btn-bubble-button">
@@ -263,7 +263,7 @@ Add to your dream trip
 					<a id="explore-flip-btn" href="" class="btn-bubble">
 <span class="btn-bubble-tooltip">
 <span class="btn-bubble-tooltip-container">
-Show map
+<fmt:message key="Show map"/>
 </span>
 </span>
 <span class="btn-bubble-button">

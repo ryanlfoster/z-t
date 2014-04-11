@@ -419,17 +419,6 @@
                     ,
                 
             
-                "featuredproducts" : {
-                     "data" : {
-                        "title" : "featuredproducts",
-                        "layout" : "styleguide-preview.hbs"
-                    },
-                    "content" : "{{section 'featuredproducts'}}"
-                }
-                
-                    ,
-                
-            
                 "tagclouditem" : {
                      "data" : {
                         "title" : "tagclouditem",
@@ -546,28 +535,6 @@
                         "layout" : "styleguide-preview.hbs"
                     },
                     "content" : "{{section 'bylinewithshareitem'}}"
-                }
-                
-                    ,
-                
-            
-                "largetitle" : {
-                     "data" : {
-                        "title" : "largetitle",
-                        "layout" : "styleguide-preview.hbs"
-                    },
-                    "content" : "{{section 'largetitle'}}"
-                }
-                
-                    ,
-                
-            
-                "iframe" : {
-                     "data" : {
-                        "title" : "iframe",
-                        "layout" : "styleguide-preview.hbs"
-                    },
-                    "content" : "{{section 'iframe'}}"
                 }
                 
             
@@ -973,6 +940,17 @@
                     ,
                 
             
+                "featuredproducts" : {
+                     "data" : {
+                        "title" : "featuredproducts",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'featuredproducts'}}"
+                }
+                
+                    ,
+                
+            
                 "fullsizevideo" : {
                      "data" : {
                         "title" : "fullsizevideo",
@@ -990,6 +968,17 @@
                         "layout" : "styleguide-preview.hbs"
                     },
                     "content" : "{{section 'hero'}}"
+                }
+                
+                    ,
+                
+            
+                "iframe" : {
+                     "data" : {
+                        "title" : "iframe",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'iframe'}}"
                 }
                 
                     ,
@@ -1078,6 +1067,17 @@
                         "layout" : "styleguide-preview.hbs"
                     },
                     "content" : "{{section 'largeimagesocial'}}"
+                }
+                
+                    ,
+                
+            
+                "largetitle" : {
+                     "data" : {
+                        "title" : "largetitle",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'largetitle'}}"
                 }
                 
                     ,

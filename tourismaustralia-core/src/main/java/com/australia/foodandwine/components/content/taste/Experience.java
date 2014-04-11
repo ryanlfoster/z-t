@@ -15,7 +15,7 @@ import com.day.cq.wcm.api.Page;
 import com.day.cq.wcm.foundation.Image;
 
 public class Experience {
-	private final String imageTitle;
+	private final String title;
 	private final String imagePath;
 	private final String city;
 	private final String state;
@@ -34,7 +34,7 @@ public class Experience {
 		// icon
 		icon = properties.get("categoryLogoPath", String.class);
 		// title
-		imageTitle = page.getTitle();
+		title = page.getTitle();
 		// tags
 		String[] cattags = properties.get("cq:tags", new String[0]);
 		List<String> tagTitles = new ArrayList<String>();
@@ -70,8 +70,8 @@ public class Experience {
 		return icon;
 	}
 
-	public String getImageTitle() {
-		return imageTitle;
+	public String getTitle() {
+		return title;
 	}
 
 }

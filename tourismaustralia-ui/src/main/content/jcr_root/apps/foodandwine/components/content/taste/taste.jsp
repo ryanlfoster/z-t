@@ -33,24 +33,12 @@
 					<div class="col-xs-12 col-sm-6">
 						<div class="mosaic-item">
 							<img class="mosaic-item-image" src="${taste.upperLeftExperience.imagePath}"
-								alt="${taste.upperLeftExperience.imageTitle}" width="100%">
+								alt="${taste.upperLeftExperience.title}" width="100%">
 
 							<div class="mosaic-item-description">
 								<p class="mosaic-item-description-head type-font-feature">
-									${taste.upperLeftExperience.imageTitle}</p>
+									${taste.upperLeftExperience.title}</p>
 								<p class="mosaic-item-description-sub">${taste.upperLeftExperience.state}</p>
-								<p class="mosaic-item-description-copy">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-									do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-									Ut enim ad minim veniam, quis nostrud exercitation ullamco
-									laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-									irure dolor in reprehenderit in voluptate velit esse cillum
-									dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-									cupidatat non proident, sunt in culpa qui officia deserunt
-									mollit anim id est laborum. <br/>
-									<br/> <a href=""><strong>Read more</strong></a> <strong
-										class="mosaic-item-description-categories"><em>${fn:join(taste.upperLeftExperience.tags,', ')}</em></strong>
-								</p>
 							</div>
 
 							<div class="mosaic-item-overlay mosaic-item-overlay-info">
@@ -59,7 +47,7 @@
 										src="${taste.upperLeftExperience.icon}" alt=""></span>
 
 									<p class="mosaic-item-overlay-info-head type-font-feature">
-										${taste.upperLeftExperience.imageTitle}</p>
+										${taste.upperLeftExperience.title}</p>
 
 									<p class="mosaic-item-overlay-info-desciption">
 										${taste.upperLeftExperience.city}, ${taste.upperLeftExperience.state}<br/> <br/> <a href=""><strong>Find
@@ -76,24 +64,12 @@
 					<div class="col-xs-12 col-sm-6">
 						<div class="mosaic-item">
 							<img class="mosaic-item-image" src="${taste.upperRightExperience.imagePath}"
-								alt="${taste.upperRightExperience.imageTitle}" width="100%">
+								alt="${taste.upperRightExperience.title}" width="100%">
 
 							<div class="mosaic-item-description">
 								<p class="mosaic-item-description-head type-font-feature">
-									${taste.upperRightExperience.imageTitle}</p>
+									${taste.upperRightExperience.title}</p>
 								<p class="mosaic-item-description-sub">${taste.upperRightExperience.state}</p>
-								<p class="mosaic-item-description-copy">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-									do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-									Ut enim ad minim veniam, quis nostrud exercitation ullamco
-									laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-									irure dolor in reprehenderit in voluptate velit esse cillum
-									dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-									cupidatat non proident, sunt in culpa qui officia deserunt
-									mollit anim id est laborum. <br/>
-									<br/> <a href=""><strong>Read more</strong></a> <strong
-										class="mosaic-item-description-categories"><em>${fn:join(taste.upperRightExperience.tags,',')}</em></strong>
-								</p>
 							</div>
 
 							<div class="mosaic-item-overlay mosaic-item-overlay-info">
@@ -102,7 +78,7 @@
 										src="${taste.upperRightExperience.icon}" alt=""></span>
 
 									<p class="mosaic-item-overlay-info-head type-font-feature">
-										${taste.upperRightExperience.imageTitle}</p>
+										${taste.upperRightExperience.title}</p>
 
 									<p class="mosaic-item-overlay-info-desciption">
 										${taste.upperRightExperience.city}, ${taste.upperRightExperience.state}<br/> <br/> <a href=""><strong>Find
@@ -119,24 +95,12 @@
 					<div class="col-xs-12 col-sm-6">
 						<div class="mosaic-item">
 							<img class="mosaic-item-image" src="${taste.lowerLeftExperience.imagePath}"
-								alt="${taste.lowerLeftExperience.imageTitle}" width="100%">
+								alt="${taste.lowerLeftExperience.title}" width="100%">
 
 							<div class="mosaic-item-description">
 								<p class="mosaic-item-description-head type-font-feature">
-									${taste.lowerLeftExperience.imageTitle}</p>
+									${taste.lowerLeftExperience.title}</p>
 								<p class="mosaic-item-description-sub">${taste.lowerLeftExperience.state}</p>
-								<p class="mosaic-item-description-copy">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-									do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-									Ut enim ad minim veniam, quis nostrud exercitation ullamco
-									laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-									irure dolor in reprehenderit in voluptate velit esse cillum
-									dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-									cupidatat non proident, sunt in culpa qui officia deserunt
-									mollit anim id est laborum. <br/>
-									<br/> <a href=""><strong>Read more</strong></a> <strong
-										class="mosaic-item-description-categories"><em>${fn:join(taste.lowerLeftExperience.tags,',')}</em></strong>
-								</p>
 							</div>
 
 							<div class="mosaic-item-overlay mosaic-item-overlay-info">
@@ -145,7 +109,7 @@
 										src="${taste.lowerLeftExperience.icon}" alt=""></span>
 
 									<p class="mosaic-item-overlay-info-head type-font-feature">
-										${taste.lowerLeftExperience.imageTitle}</p>
+										${taste.lowerLeftExperience.title}</p>
 
 									<p class="mosaic-item-overlay-info-desciption">
 										${taste.lowerLeftExperience.city}, ${taste.lowerLeftExperience.state}<br/> <br/> <a href=""><strong>Find
@@ -162,24 +126,12 @@
 					<div class="col-xs-12 col-sm-6">
 						<div class="mosaic-item">
 							<img class="mosaic-item-image" src="${taste.lowerRightExperience.imagePath}"
-								alt="${taste.lowerRightExperience.imageTitle}" width="100%">
+								alt="${taste.lowerRightExperience.title}" width="100%">
 
 							<div class="mosaic-item-description">
 								<p class="mosaic-item-description-head type-font-feature">
-									${taste.lowerRightExperience.imageTitle}</p>
+									${taste.lowerRightExperience.title}</p>
 								<p class="mosaic-item-description-sub">${taste.lowerRightExperience.state}</p>
-								<p class="mosaic-item-description-copy">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-									do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-									Ut enim ad minim veniam, quis nostrud exercitation ullamco
-									laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-									irure dolor in reprehenderit in voluptate velit esse cillum
-									dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-									cupidatat non proident, sunt in culpa qui officia deserunt
-									mollit anim id est laborum. <br/>
-									<br/> <a href=""><strong>Read more</strong></a> <strong
-										class="mosaic-item-description-categories"><em>${fn:join(taste.lowerRightExperience.tags,',')}</em></strong>
-								</p>
 							</div>
 
 							<div class="mosaic-item-overlay mosaic-item-overlay-info">
@@ -188,7 +140,7 @@
 										src="${taste.lowerRightExperience.icon}" alt=""></span>
 
 									<p class="mosaic-item-overlay-info-head type-font-feature">
-										${taste.lowerRightExperience.imageTitle}</p>
+										${taste.lowerRightExperience.title}</p>
 
 									<p class="mosaic-item-overlay-info-desciption">
 										${taste.lowerRightExperience.city}, ${taste.lowerRightExperience.state}<br/> <br/> <a href=""><strong>Find

@@ -12,30 +12,34 @@ title: Featured Products
         <div class="row">
 
             <div class="mosaic">
-                <!-- single item highlight start -->
-                <div class="col-xs-12 col-md-4 mosaic-grid-1 l-row-collapse">
-                    {{> mosaicitemhighlights }}
-                </div>
-                <!-- single item highlight end -->
 
-                <!-- single item event start -->
-                <div class="col-xs-12 col-md-4 mosaic-grid-1 l-row-collapse">
-                    {{> mosaicitematdwsquare }}
-                </div>
-                <!-- single item event end -->
+                <div class="row">
+                    <!-- single item highlight start -->
+                    <div class="col-xs-12 col-md-4 mosaic-grid-1 l-row-collapse">
+                        {{> mosaicitemhighlights }}
+                    </div>
+                    <!-- single item highlight end -->
 
-                <!-- single item atdw square start -->
-                <div class="col-xs-12 col-md-4 mosaic-grid-1 l-row-collapse">
-                    {{> mosaicitematdwsquare }}
+                    <!-- single item event start -->
+                    <div class="col-xs-12 col-md-4 mosaic-grid-1 l-row-collapse">
+                        {{> mosaicitemhighlights }}
+                    </div>
+                    <!-- single item event end -->
+
+                    <!-- single item atdw square start -->
+                    <div class="col-xs-12 col-md-4 mosaic-grid-1 l-row-collapse">
+                        {{> mosaicitematdw16_9 }}
+                    </div>
+                    <!-- single item atdw square end -->
                 </div>
-                <!-- single item atdw square end -->
+
             </div>
 
         </div>
 
         <div class="row l-padding-t-15">
             <!-- Favourite Start -->
-            {{#parseJSON '{"title_text" : "Add to all your dream list"}'}}
+            {{#parseJSON '{"title_text" : "Add all to your dream trip"}'}}
                 {{> favourite }}
             {{/parseJSON}}
             <!-- Favourite Start -->

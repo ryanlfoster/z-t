@@ -43,7 +43,7 @@
   //padding: 0px 0px pxtoem(3px) 0px;
   width: 100%;
   overflow: visible;
-  opacity: 1;
+  @include opacity(1);
   margin-bottom: pxtoem(20px);
 
   @include breakpoint(md) {
@@ -52,18 +52,21 @@
   }
 
   &:hover {
-    opacity: 1 !important;
+    @include opacity(1, true);
   }
 
 }
 
 .mosaic-item.is-opacity {
-  opacity: .5;
+  @include opacity(.5, true);
+}
+.mosaic-item.is-opacity:hover {
+  @include opacity(1, true);
 }
 .mosaic-item.is-trigger-content {
-  opacity: 1;
+  @include opacity(1);
 }
-.is-flip{
+.mosaic-item.is-flip{
   z-index: 2;
 }
 /* fix for inconsistent height issue */
@@ -192,7 +195,7 @@
 // mosaic events
 ///////////////////
 .mosaic-front-back-container {
-  //position: relative;
+  position: relative;
   cursor: pointer;
 }
 
@@ -257,21 +260,21 @@
 }
 .mosaic-3column-item-option.is-opacity {
   opacity: .5;
-  transition: opacity .25s;
-  -moz-transition: opacity .25s;
-  -webkit-transition: opacity .25s;
+  transition: opacity .15s;
+  -moz-transition: opacity .15s;
+  -webkit-transition: opacity .15s;
 }
 .mosaic-3column-item-option {
   opacity: 1;
-  transition: opacity .25s;
-  -moz-transition: opacity .25s;
-  -webkit-transition: opacity .25s;
+  transition: opacity .15s;
+  -moz-transition: opacity .15s;
+  -webkit-transition: opacity .15s;
 }
 .mosaic-3column-item-option.is-flip {
   opacity: 1;
-  transition: opacity .25s;
-  -moz-transition: opacity .25s;
-  -webkit-transition: opacity .25s;
+  transition: opacity .15s;
+  -moz-transition: opacity .15s;
+  -webkit-transition: opacity .15s;
 }
 .mosaic-3column-container {
   position: relative;
@@ -297,9 +300,9 @@
       .mosaic-3column-back {
         //display: table;
         opacity: 1;
-        transition: opacity .25s;
-        -moz-transition: opacity .25s;
-        -webkit-transition: opacity .25s;
+        transition: opacity .15s;
+        -moz-transition: opacity .15s;
+        -webkit-transition: opacity .15s;
       }
     }
   }
@@ -316,7 +319,7 @@
   text-align: center;
   position: relative;
   //z-index: 2;
-  z-index: 1;
+  z-index: 3;
 }
 .mosaic-3column-back {
   display: table;
@@ -335,6 +338,43 @@
   display: block;
 }
 
+/****************************
+** ATDW DIMENSIONS
+/****************************/
+.mosaic-atdw .mosaic-column-front {
+  position: absolute;
+}
+.mosaic-atdw-square .mosaic-column-front {
+  position: absolute;
+}
+.mosaic-atdw-square .mosaic-column-front, .mosaic-atdw-square .mosaic-column-back {
+  width: 50.1%;
+  left: 49.9%;
+  .mosaic-atdw-image {
+    width: 50%;
+  }
+}
+.mosaic-atdw-square .mosaic-atdw-image {
+  width: 50%;
+}
+
+.mosaic-atdw-16-9 .mosaic-column-front {
+  position: absolute;
+}
+.mosaic-atdw-16-9 .mosaic-column-front, .mosaic-atdw-16-9 .mosaic-column-back {
+  width: 43.654822335025%;
+  left: 56.345177664975% !important;
+}
+.mosaic-atdw-16-9 .mosaic-atdw-image {
+  width: 56.6%;
+  height: 100%;
+  top: 0;
+}
+
+.mosaic-column-front {
+  background-color: #f3f2eb;
+}
+
 
 /* simple */
 .flip-container {
@@ -349,9 +389,30 @@
   -ms-transform-style: preserve-3d;
 }
 
+/****************************
+** FLIP IE SUPPORT
+/****************************/
+
+/* END: Accommodating for IE */
+.mosaic-item[data-interactive-type="flip"] .flipper {
+  -webkit-transition: 0.6s;
+  -webkit-transform-style: preserve-3d;
+  -ms-transition: 0.6s;
+
+  -moz-transition: 0.6s;
+  -moz-transform: perspective(1000px);
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+
+  transition: 0.6s;
+  transform-style: preserve-3d;
+
+  position: relative;
+}
+
 // IE9 does simple rollover flip
 .no-csstransforms3d {
-  .is-flip:not(.is-trigger-content) {
+  .mosaic-item.is-flip:not(.is-trigger-content) {
     .flip-front {
       z-index: 1;
     }
@@ -359,7 +420,7 @@
 }
 // Modern browsers 3d flip
 .csstransforms3d {
-  .is-flip:not(.is-trigger-content) {
+  .mosaic-item.is-flip:not(.is-trigger-content) {
     .flip-front {
       -webkit-transform: rotateY(180deg);
       -moz-transform: rotateY(180deg);
@@ -376,24 +437,11 @@
   }
 }
 
-/* END: Accommodating for IE */
-.flipper {
-  -webkit-transition: 0.6s;
-  -webkit-transform-style: preserve-3d;
-  -ms-transition: 0.6s;
+/****************************
+** FLIP
+/****************************/
 
-  -moz-transition: 0.6s;
-  -moz-transform: perspective(1000px);
-  -moz-transform-style: preserve-3d;
-  -ms-transform-style: preserve-3d;
-
-  transition: 0.6s;
-  transform-style: preserve-3d;
-
-  position: relative;
-}
-
-.flip-front, .flip-back {
+.mosaic-item[data-interactive-type="flip"] .flip-front, .mosaic-item[data-interactive-type="flip"] .flip-back {
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   -ms-backface-visibility: hidden;
@@ -415,7 +463,7 @@
   transform-style: preserve-3d;
 }
 
-.flip-front {
+.mosaic-item[data-interactive-type="flip"] .flip-front {
   -webkit-transform: rotateY(0deg);
   -moz-transform: rotateY(0deg);
   -o-transform: rotateY(0deg);
@@ -424,7 +472,7 @@
   z-index: 2;
 }
 
-.flip-back {
+.mosaic-item[data-interactive-type="flip"] .flip-back {
   -webkit-transform: rotateY(-180deg);
   -moz-transform: rotateY(-180deg);
   -o-transform: rotateY(-180deg);
@@ -432,10 +480,83 @@
   transform: rotateY(-180deg);
 }
 
-.flip-back-fade {
-  opacity: 0;
-  transition: opacity .25s ease-in-out;
-  -moz-transition: opacity .25s ease-in-out;
-  -webkit-transition: opacity .25s ease-in-out;
+/****************************
+** FADE
+/****************************/
+.mosaic-item .flip-front {
+  transition: opacity .15s linear;
+  -moz-transition: opacity .15s linear;
+  -webkit-transition: opacity .15s linear;
+  @include opacity(1);
 }
 
+.mosaic-item .flip-back {
+  transition: opacity .15s linear;
+  -moz-transition: opacity .15s linear;
+  -webkit-transition: opacity .15s linear;
+  @include opacity(0);
+}
+
+.mosaic-item.is-fade:not(.is-trigger-content) .flip-front {
+  transition: opacity .15s linear;
+  -moz-transition: opacity .15s linear;
+  -webkit-transition: opacity .15s linear;
+  @include opacity(0);
+}
+
+.mosaic-item.is-fade:not(.is-trigger-content) .flip-back {
+  transition: opacity .15s linear;
+  -moz-transition: opacity .15s linear;
+  -webkit-transition: opacity .15s linear;
+  @include opacity(1);
+}
+
+/*
+// IE9 does simple rollover flip
+.no-csstransforms3d {
+  .mosaic-3column-item-option.is-flip:not(.is-trigger-content) {
+    .mosaic-3column-back {
+      opacity: 1;
+    }
+  }
+}
+// Modern browsers 3d flip
+.csstransforms3d {
+  .mosaic-3column-item-option {
+    &.is-flip:not(.is-trigger-content) {
+      .mosaic-3column-front {
+        //display: table;
+        //z-index: 1;
+      }
+      .mosaic-3column-back {
+        //display: table;
+        opacity: 1;
+        transition: opacity .15s;
+        -moz-transition: opacity .15s;
+        -webkit-transition: opacity .15s;
+      }
+    }
+  }
+}
+*/
+
+.mosaic-3column-item-option.is-fade.is-opacity {
+  transition: opacity .15s linear;
+  -moz-transition: opacity .15s linear;
+  -webkit-transition: opacity .15s linear;
+  @include opacity(1);
+}
+
+.mosaic-3column-item-option.is-fade:not(.is-trigger-content) .flip-front-fade {
+  transition: opacity .15s linear;
+  -moz-transition: opacity .15s linear;
+  -webkit-transition: opacity .15s linear;
+  @include opacity(0);
+}
+
+.mosaic-3column-item-option.is-fade:not(.is-trigger-content) .flip-back-fade {
+  transition: opacity .15s linear;
+  -moz-transition: opacity .15s linear;
+  -webkit-transition: opacity .15s linear;
+  @include opacity(1);
+}

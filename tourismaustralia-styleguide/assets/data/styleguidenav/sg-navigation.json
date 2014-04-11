@@ -83,7 +83,6 @@
                     "item": [
                         { "text": "largetitlewithsubdescription" },
                         { "text": "video_add_tags_share" },
-                        { "text": "featuredproducts" },
                         { "text": "tagclouditem" },
                         { "text": "explore_summary_map" },
                         { "text": "linethroughtext" },
@@ -94,10 +93,7 @@
                         { "text": "paragraph_dynamic" },
                         { "text": "socialimage" },
                         { "text": "byline" },
-                        { "text": "bylinewithshareitem" },
-                        { "text": "largetitle" },
-                        { "text": "iframe" }
-
+                        { "text": "bylinewithshareitem" }
                     ]
                 },
                 {
@@ -158,8 +154,10 @@
                         { "text": "explore" },
                         { "text": "favourite" },
                         { "text": "favouritewithlines" },
+                        { "text": "featuredproducts" },
                         { "text": "fullsizevideo" },
                         { "text": "hero" },
+                        { "text": "iframe" },
                         { "text": "imagemapcitylink" },
                         { "text": "image_with_button" },
                         { "text": "image_with_date" },
@@ -168,6 +166,7 @@
                         { "text": "largeimagetext" },
                         { "text": "largeimagenotext" },
                         { "text": "largeimagesocial" },
+                        { "text": "largetitle" },
                         { "text": "mapimagewithbuttons" },
                         { "text": "mapimagewithlegend" },
                         { "text": "mapimagewithlinks" },

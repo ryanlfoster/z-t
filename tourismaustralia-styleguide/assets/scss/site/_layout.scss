@@ -8,7 +8,9 @@
 .l-image-full {
   max-width: 100%;
 }
-
+.l-image-fill {
+  width: 100%;
+}
 
 
 .l-fixed {
@@ -657,6 +659,15 @@ $footerBackgroundColour: #0a334c;
 
 .l-hidden {
   display: none;
+}
+
+.l-absolute-fill {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
 }
 //////////////////////////////////////////
 // Bootstrap Row/Column Adjusters

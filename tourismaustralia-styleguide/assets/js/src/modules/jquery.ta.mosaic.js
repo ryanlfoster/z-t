@@ -50,13 +50,20 @@
         this._name = pluginName;
         //console.log("init-mosaic");
 
+        this.interactiveType = $(this.element).attr('data-interactive-type');
+        if (this.interactiveType === undefined){
+            this.interactiveType = "fade";  // "fade", default mode, ATDW half card fades to reveal back
+                                            // "flip", flip card
+
+        }
+        this.transitionType = "is-" + this.interactiveType;
+
         this.init();
     }
 
     Plugin.prototype.init = function () {
         var scope = this;
         //init events
-        //scope.setupMosaic(scope);
         scope.setupEvents(scope);
     };
 
@@ -67,7 +74,7 @@
         var $mosaic_container = $(scope.element).find(scope.options.mosaic_container);
         var $mosaic_content = $(scope.element).find(scope.options.mosaic_content);
 
-        $mosaic_content.prepend(scope.options.mosaic_close_btn);
+        //$mosaic_content.prepend(scope.options.mosaic_close_btn);
 
         var $mosaic_detail_close_btn = $(scope.element).find(scope.options.mosaic_detail_close_btn);
 
@@ -89,16 +96,19 @@
                 // disable any open tiles before showing next tile
                 scope.disableTiles(scope, $mosaic_item, $mosaic_content, $mosaic_grid2_content);
             }
-            $mosaic_item.removeClass('is-flip');
+            //$mosaic_item.removeClass('is-flip');
+            scope.removeTransition($mosaic_item);
 
             e.preventDefault();
         });
         $mosaic_container.mouseenter(function(e){
-            $mosaic_item.addClass("is-flip");
+            //$mosaic_item.addClass("is-flip");
+            scope.addTransition($mosaic_item);
             e.preventDefault();
         });
         $mosaic_container.mouseleave(function(e){
-            $mosaic_item.removeClass("is-flip");
+            //$mosaic_item.removeClass("is-flip");
+            scope.removeTransition($mosaic_item);
             e.preventDefault();
         });
 
@@ -138,6 +148,16 @@
         //$(scope.element).find(scope.options.mosaic_content).slideUp({duration: 400, easing: 'swing'});
         $mosaic_content.removeClass("active");
         $mosaic_grid2_content.removeClass("active");
+    };
+
+    Plugin.prototype.addTransition = function($target) {
+        //check for atdw type 1/2 fade interactivity (instead of standard flip) by data-tag
+        $target.addClass(this.transitionType);
+    };
+
+    Plugin.prototype.removeTransition = function($target) {
+        //check for atdw type 1/2 fade interactivity (instead of standard flip) by data-tag
+        $target.removeClass(this.transitionType);
     };
 
     // close all tiles, remove opacity and fold up

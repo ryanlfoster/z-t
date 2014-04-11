@@ -12,7 +12,6 @@
 		</div>
 		<div class="row l-center-1200">
 			<div class="col-xs-12 col-sm-3">
-				<cq:include path="breadcrumb" resourceType="tourismaustralia/components/content/breadcrumb"/>
 	            <div class="shareicons-container">
 	     			<cq:include path="shareThis" resourceType="tourismaustralia/components/content/shareThis"/>
 				</div>

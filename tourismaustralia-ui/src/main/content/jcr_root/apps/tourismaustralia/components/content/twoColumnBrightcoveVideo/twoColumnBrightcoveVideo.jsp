@@ -69,8 +69,7 @@
                                 ${twoColumnBrightcoveVideo.description}
                                 <c:if test="${not empty twoColumnBrightcoveVideo.link}"><a
                                         href="${twoColumnBrightcoveVideo.link}"
-                                        class="video-link" ${twoColumnBrightcoveVideo.linkIsExternal == true ? 'target="_blank"': ''}>View
-                                    more videos</a></c:if>
+                                        class="video-link" ${twoColumnBrightcoveVideo.linkIsExternal == true ? 'target="_blank"': ''}><fmt:message key="View more videos"/></a></c:if>
                             </p>
                         </c:if>
 

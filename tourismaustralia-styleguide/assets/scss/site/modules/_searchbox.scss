@@ -1,0 +1,41 @@
+
+.search-box{
+  position: relative;
+  margin:pxtoem(10px) auto pxtoem($bottom-spacing);
+
+  @include breakpoint(md) {
+    padding:0px;
+    margin-bottom:pxtoem(115px);
+  }
+}
+
+.search-box-wrapper{
+  position: relative;
+}
+
+.search-box input[type="text"]
+{
+  width:100%;
+  height:50px;
+  line-height: 48px;
+  padding:0 pxtoem(22px) 0 pxtoem(13px);
+  font-size: pxtoem(26px);
+  color:$type-main-heading-colour;
+  font-family: $font-family-base-l;
+  font-family: $font-family-base \0;
+  border: 1px solid $type-main-heading-colour;
+}
+
+.search-box input[type="button"]
+{
+  position:absolute;
+  width:pxtoem(23px);
+  height:pxtoem(23px);
+  right:pxtoem(11px);
+  top:pxtoem(13.5px);
+  width:pxtoem(46px)\9;
+  height:pxtoem(46px)\9;
+  background-image: url(../imgs/icons/search_clear.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}

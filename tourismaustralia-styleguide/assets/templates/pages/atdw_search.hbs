@@ -1,0 +1,19 @@
+---
+layout: layout-base.hbs
+---
+
+    {{#parseJSON '{"page_title" : "ATDW Search"}'}}
+        {{> breadcrumbsdynamic }}
+    {{/parseJSON}}
+
+    {{> searchbox }}
+
+
+    {{#parseJSON '{"title": "MAKE YOUR TRIP HAPPEN"}'}}
+        {{> sectionintro }}
+    {{/parseJSON}}
+
+    {{> atdw_search_mosaic }}
+
+    {{> atdw_search_pagination}}
+

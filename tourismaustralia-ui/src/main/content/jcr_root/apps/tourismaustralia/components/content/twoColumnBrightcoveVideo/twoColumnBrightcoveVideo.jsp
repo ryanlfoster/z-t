@@ -62,7 +62,7 @@
                 <c:if test="${not empty twoColumnBrightcoveVideo.title || not empty twoColumnBrightcoveVideo.description || not empty twoColumnBrightcoveVideo.link}">
                     <div class="video-copy">
                         <c:if test="${not empty twoColumnBrightcoveVideo.title}">
-                            <span class="video-title type-h4">${not empty twoColumnBrightcoveVideo.title}</span>
+                            <span class="video-title type-h4">${twoColumnBrightcoveVideo.title}</span>
                         </c:if>
                         <c:if test="${not empty twoColumnBrightcoveVideo.description}">
                             <p>

@@ -15,7 +15,7 @@ public class ATDWProduct {
 	private final String region;
 	private final String website;
 	private final String[] phoneNumbers;
-    private final String productPath;
+	private final String productPath;
 
 	public ATDWProduct(Page page) {
 		ValueMap properties = page.getProperties();
@@ -29,7 +29,7 @@ public class ATDWProduct {
 		region = properties.get("region", String.class);
 		website = properties.get("website", String.class);
 		phoneNumbers = properties.get("phoneNumbers", String[].class);
-        productPath = page.getPath();
+		productPath = page.getPath();
 	}
 
 	public String getTitle() {
@@ -72,7 +72,7 @@ public class ATDWProduct {
 		return phoneNumbers;
 	}
 
-    public String getProductPath() {
-        return productPath;
-    }
+	public String getProductPath() {
+		return productPath;
+	}
 }

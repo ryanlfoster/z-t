@@ -10,7 +10,6 @@ layout: layout-base.hbs
     {{> hero }}
 {{/parseJSON}}
 
-<div class="l-padding-between-item-fill-white">
     {{#parseJSON '{
         "page_title" : "New South Wales",
         "map_summary" : [
@@ -28,27 +27,17 @@ layout: layout-base.hbs
     }'}}
         {{> explore_summary_map }}
     {{/parseJSON}}
-</div>
 
 <div class="paragraph-city">
 
-    <div class="l-padding-between-item-fill-white">
-        {{> whatyoucansee_city}}
-    </div>
+    {{> whatyoucansee_city}}
 
-    <div class="l-padding-between-item-fill-white">
-        {{> image_with_date }}
-    </div>
+    {{> image_with_date }}
 
-    <div class="l-padding-between-item-fill-white">
-        {{> mapimagewithbuttons }}
-    </div>
+    {{> mapimagewithbuttons }}
 
-    <div class="l-padding-between-item-fill-white">
-        {{> explore }}
-    </div>
+    {{> explore }}
 
-    <div class="l-padding-between-item-fill-white">
         {{#parseJSON '{
             "promo_image" : "promo",
             "promo_title" : "Novotel Sydney On Darling Harbour",
@@ -60,14 +49,9 @@ layout: layout-base.hbs
         }'}}
             {{> specialoffer }}
         {{/parseJSON}}
-    </div>
 
-    <div class="l-padding-between-item-fill-white">
-        {{> atdwhighlights}}
-    </div>
+    {{> atdwhighlights}}
 
-    <div class="l-padding-between-item-fill-white">
-        {{> categorylinks_city_sydney }}
-    </div>
+    {{> categorylinks_city_sydney }}
 
 </div>

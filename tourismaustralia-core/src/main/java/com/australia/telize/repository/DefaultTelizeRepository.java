@@ -32,6 +32,7 @@ public class DefaultTelizeRepository implements TelizeRepository {
 		setTelizeLocation(DEFAULT_TELIZE_LOCATION);
 		return rest.getForObject(telizeLocation, GeoLocation.class);
 	}
+
 	@Override
 	public GeoLocation getGeoLocation(String xForwardedIP) {
 		setTelizeLocation(DEFAULT_TELIZE_LOCATION + "/" + xForwardedIP);
@@ -49,7 +50,7 @@ public class DefaultTelizeRepository implements TelizeRepository {
 	}
 
 	private void setTelizeLocation(String telLoc) {
-		telizeLocation  = telLoc;
+		telizeLocation = telLoc;
 	}
 
 	private String getTelizeLocation() {
@@ -59,6 +60,5 @@ public class DefaultTelizeRepository implements TelizeRepository {
 
 		return telizeLocation;
 	}
-
 
 }

@@ -14,9 +14,9 @@ import com.citytechinc.cq.component.annotations.FieldProperty;
 import com.citytechinc.cq.component.annotations.Listener;
 import com.citytechinc.cq.component.annotations.Tab;
 import com.citytechinc.cq.component.annotations.editconfig.DropTarget;
-import com.citytechinc.cq.component.annotations.widgets.RichTextEditor;
 
-@Component(value = "Brightcove Video", disableTargeting = true, tabs = {@Tab(title = "General"), @Tab(title = "Account Settings"), @Tab(title = "Video Information")}, dropTargets = @DropTarget(propertyName = "./videoPlayer", groups = "media", nodeName = "brightcovevideo", accept = "[.*]"), listeners = {
+@Component(value = "Brightcove Video", disableTargeting = true, tabs = {@Tab(title = "General"),
+        @Tab(title = "Account Settings"), @Tab(title = "Video Information")}, dropTargets = @DropTarget(propertyName = "./videoPlayer", groups = "media", nodeName = "brightcovevideo", accept = "[.*]"), listeners = {
         @Listener(name = "aftercopy", value = "REFRESH_PAGE"), @Listener(name = "afterdelete", value = "REFRESH_PAGE"),
         @Listener(name = "afteredit", value = "REFRESH_PAGE"), @Listener(name = "afterinsert", value = "REFRESH_PAGE")})
 public class Brightcove {

@@ -82,7 +82,7 @@
 
 								<p>${product.description}</p>
 
-								<a href="${product.productPath}.html"
+								<a href="#" data-pagepath="${product.productPath}"
 									class="btn-bubble bubble-colour-favourite"> <span
 									class="btn-bubble-tooltip"> <span
 										class="btn-bubble-tooltip-container"> <fmt:message

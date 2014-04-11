@@ -10,7 +10,6 @@ layout: layout-base.hbs
     {{> hero }}
 {{/parseJSON}}
 
-<div class="l-padding-between-item-fill-white">
     {{#parseJSON '{
     "page_title" : "New South Wales",
     "map_summary" : [
@@ -28,23 +27,15 @@ layout: layout-base.hbs
 }'}}
         {{> explore_summary_map }}
     {{/parseJSON}}
-</div>
 
 <div class="paragraph-icon">
 
-    <div class="l-padding-between-item-fill-white">
-        {{> whatyoucansee_nobuttons}}
-    </div>
+    {{> whatyoucansee_nobuttons}}
 
-    <div class="l-padding-between-item-fill-white">
-        {{> image_with_date }}
-    </div>
+    {{> image_with_date }}
 
-    <div class="l-padding-between-item-fill-white">
-        {{> mapimagewithlinks }}
-    </div>
+    {{> mapimagewithlinks }}
 
-    <div class="l-padding-between-item-fill-white">
         {{#parseJSON '{
         "promo_image" : "promo2",
         "promo_title" : "Island hop from the top",
@@ -56,17 +47,11 @@ layout: layout-base.hbs
     }'}}
             {{> specialoffer }}
         {{/parseJSON}}
-    </div>
 
-    <div class="l-padding-between-item-fill-white">
-        {{> socialtiles}}
-    </div>
+    {{> socialtiles}}
 
-    <div class="l-padding-between-item-fill-white">
-        {{> fullsizevideo}}
-    </div>
+    {{> fullsizevideo}}
 
-    <div class="l-padding-between-item-fill-white">
         {{#parseJSON '{
         "promo_image" : "promo3",
         "promo_title" : "Pinnacles Resort & Spa",
@@ -78,10 +63,7 @@ layout: layout-base.hbs
     }'}}
             {{> specialoffer }}
         {{/parseJSON}}
-    </div>
 
-    <div class="l-padding-between-item-fill-white">
-        {{> categorylinks_city_sydney }}
-    </div>
+    {{> categorylinks_city_sydney }}
 
 </div>

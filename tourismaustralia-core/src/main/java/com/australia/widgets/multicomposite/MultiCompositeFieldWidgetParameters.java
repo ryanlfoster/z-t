@@ -5,7 +5,6 @@
  */
 package com.australia.widgets.multicomposite;
 
-import com.australia.widgets.multicomposite.MultiCompositeFieldWidget;
 import com.citytechinc.cq.component.dialog.widget.WidgetParameters;
 import com.citytechinc.cq.component.util.Constants;
 

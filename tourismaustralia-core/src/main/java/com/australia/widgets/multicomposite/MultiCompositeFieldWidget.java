@@ -5,7 +5,6 @@
  */
 package com.australia.widgets.multicomposite;
 
-import com.australia.widgets.multicomposite.MultiCompositeField;
 import com.citytechinc.cq.component.annotations.config.Widget;
 import com.citytechinc.cq.component.dialog.AbstractWidget;
 

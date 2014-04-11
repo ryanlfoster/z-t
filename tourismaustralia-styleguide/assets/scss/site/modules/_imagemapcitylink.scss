@@ -54,6 +54,7 @@ a.map-pin-btn {
         padding-top: pxtoem(90px);
     }
   text-align: center;
+  padding-bottom: pxtoem($bottom-spacing);
 }
 
 .map-with-links-intro {
@@ -174,10 +175,11 @@ a.map-pin-btn {
 /////////////////////////// MAP WITH LINK CITY
 .map-btn-container {
   display: inline-block;
-  width: 200px;
+  max-width: 200px;
   text-align: left;
   margin: 0px 40px;
   position: relative;
+  vertical-align: top;
 }
 .map-btn-content {
   text-align: left;

@@ -2,6 +2,7 @@
   position: relative;
   background: #FFF;
   margin: 0 -15px;
+  padding-bottom: pxtoem($bottom-spacing);
 }
 
 .image-ugc {
@@ -128,7 +129,7 @@
 
 .image-content-container .blockquote-quote-pull {
   margin: 0 auto;
-  text-align: left;
+  text-align: center;
   max-width: 900px;
   padding: 0 10px;
 

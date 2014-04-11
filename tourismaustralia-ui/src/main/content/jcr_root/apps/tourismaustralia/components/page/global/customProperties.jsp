@@ -27,7 +27,7 @@
     };
     
     Sidekick_SHARE = {
-            "text": "Share This",
+            "text": "ShareThis Page",
             "handler": function () {
                 var contentWindow = CQ.utils.WCM.getContentWindow();
                 var sidekick = CQ.wcm.Sidekick.findSidekick(this);

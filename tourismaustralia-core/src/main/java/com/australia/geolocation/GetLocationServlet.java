@@ -51,14 +51,13 @@ public class GetLocationServlet extends SlingAllMethodsServlet {
 		Map<String, String> specHeader = getHeader(request);
 
 		if (specHeader != null) {
-			Iterator specHeaderIterator= specHeader.entrySet().iterator();
+			Iterator specHeaderIterator = specHeader.entrySet().iterator();
 			if (specHeaderIterator.hasNext()) {
-				Map.Entry<String, String> pairs = (Map.Entry)specHeaderIterator.next();
+				Map.Entry<String, String> pairs = (Map.Entry) specHeaderIterator.next();
 				LOG.debug("Header Key = " + pairs.getKey());
 				if (StringUtils.equalsIgnoreCase(pairs.getKey(), AKAMAI_HEADER)) {
 					location = getLocationFromAkamai(pairs.getValue());
-				}
-				else if (StringUtils.equalsIgnoreCase(pairs.getKey(), X_FORWARDED_FOR_HEADER)) {
+				} else if (StringUtils.equalsIgnoreCase(pairs.getKey(), X_FORWARDED_FOR_HEADER)) {
 					location = getLocationFromTelize(pairs.getValue());
 				} else {
 					location = getLocationFromTelize();

@@ -203,3 +203,12 @@ a.map-pin-btn {
   font-size: 1.125em;
   display: block;
 }
+
+
+//////////////////////// MAP WITH LEGEND SMALL
+.map-with-links-container--small {
+  .map-btn-container {
+    max-width: 180px;
+    margin: 0 pxtoem(20px);
+  }
+}

@@ -1094,6 +1094,17 @@
                     ,
                 
             
+                "mapimagewithlegend" : {
+                     "data" : {
+                        "title" : "mapimagewithlegend",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'mapimagewithlegend'}}"
+                }
+                
+                    ,
+                
+            
                 "mapimagewithlinks" : {
                      "data" : {
                         "title" : "mapimagewithlinks",

@@ -34,7 +34,7 @@
 			<div class="map-btn-container">
 				<div class="map-btn-content">         
 					<div class="map-image-icon">                   
-				    		<img src=${button.imagePath }>
+				    		<img src="<c:url value="${button.imagePath }" />">
 					</div>
 					<div>
 			    		<span class="map-btn-heading">${button.title}</span>

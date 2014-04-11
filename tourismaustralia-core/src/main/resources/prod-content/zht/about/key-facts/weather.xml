@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="11999" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[首頁]]></headline>
+            <href><![CDATA[/zht/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[關於]]></headline>
+            <href><![CDATA[/zht/about.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[天氣]]></headline>
+            <href><![CDATA[/zht/about/key-facts/weather.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/about-key-facts-weather.jpg]]></img_background>
+    <hdl_Title><![CDATA[天氣]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/about-key-facts-weather-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/about-key-facts-weather-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[澳洲終年氣候溫和宜人，但因國土幅員廣大，各區氣候有所差異。]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[天氣]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[y]]></stf_IsMobile>
+    <stf_keywords><![CDATA[澳洲天氣; 悉尼天氣 [新南威爾斯州]; 墨爾本天氣 [維多利亞州]; 阿得萊德天氣 [南澳]; 伯斯天氣 [西澳]; 布里斯本天氣 [昆士蘭]; 開恩茲天氣 [昆士蘭]; 荷伯特天氣 [塔斯曼尼亞]; 坎培拉天氣 [澳洲首都領地]; 愛麗絲泉天氣 [北領地]; 布魯姆天氣 [西澳]]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[了解更多資料]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[天氣]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[天氣]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        澳洲終年氣候溫和宜人，但因國土幅員廣大，各區氣候有所差異。
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <AtaGlance isTemplate="1">
+<hdl_Title><![CDATA[澳洲天氣]]></hdl_Title>
+<img_Map><![CDATA[<img src="/contentimages/about-key-facts-weather-bom-th.jpg" alt="澳洲天氣" border="0" align="right" class="imgRight">]]></img_Map>
+<stf_Title1><![CDATA[]]></stf_Title1>
+<stf_Title2><![CDATA[]]></stf_Title2>
+<stf_Title3><![CDATA[]]></stf_Title3>
+<stf_Title4><![CDATA[]]></stf_Title4>
+<stf_Title5><![CDATA[]]></stf_Title5>
+<txt_Description1><![CDATA[
+        如需澳洲各州和首府城市的最新天氣資訊，請瀏覽氣象局（Bureau of Meteorology）網站 (<a  onclick="ntptEventTag('ev=PartnerLead&PartnerId=bom);" target="_blank" href="http://www.bom.gov.au"><span style="color: #000000;">www.bom.gov.au</span></a>).
+    ]]></txt_Description1>
+<txt_Description2><![CDATA[]]></txt_Description2>
+<txt_Description3><![CDATA[]]></txt_Description3>
+<txt_Description4><![CDATA[]]></txt_Description4>
+<txt_Description5><![CDATA[]]></txt_Description5>
+</AtaGlance><Listing isTemplate="1">
+<anc_List1><![CDATA[/zht/about/key-facts/cities-states-territories.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[更多澳洲風景]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/zht/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/zht/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/zht/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/zht/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/zht/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/zht/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/zht/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/zht/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/zht/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/zht/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/zht/Transport.aspx]]></anc_Transport>
+<hdl_Title><![CDATA[Plan Your Visit]]></hdl_Title>
+<language><![CDATA[CHT]]></language>
+<stf_Accomodation><![CDATA[]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[]]></stf_Events>
+<stf_Hire><![CDATA[]]></stf_Hire>
+<stf_Informationservices><![CDATA[]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[]]></stf_StateFilter>
+<stf_Tours><![CDATA[]]></stf_Tours>
+<stf_Transport><![CDATA[]]></stf_Transport>
+</PlanYourVisit>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[澳洲天氣]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        澳洲終年氣候溫和宜人，但因國土幅員廣大，各區氣候有所差異。 北部各州通常天氣溫暖，南方各州冬季則較為涼爽。澳洲也是地球上最乾燥的地區之一，年平均降雨量不到 600 公釐。 澳洲和所有位於南半球的國家一樣，有著與北半球相反的季節變化。 十二月到二月為夏季，三月到五月為秋季，六月到八月為冬季，九月到十一月則是春季。 
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[悉尼天氣 [新南威爾斯州]]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/about-weather-sydney-h1.jpg" alt="悉尼天氣 [新南威爾斯州]">]]></img_MainImage>
+                    <stf_Caption><![CDATA[悉尼天氣 [新南威爾斯州]]]></stf_Caption>
+                    <anc_link><![CDATA[/zht/about/key-facts/weather/sydney-weather.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        新南威爾斯州（New South Wales）位居溫帶。 此州東部的大分嶺（Great Dividing Range）對其氣候影響甚鉅，也將本州劃分為四個不同區域，分別是海岸帶、高地、西面山坡，以及西邊較平坦的區域。 悉尼（Sydney）的氣候終年溫和宜人，一年有 340 天是晴天。 夏季時（十二月至二月），悉尼（Sydney）的平均最高溫度約為 26&deg;C。 此時天氣較為潮溼，平均濕度達 65%。 冬季（六月到八月）的平均最高溫度約為 16&deg;C。 三月到六月則是悉尼（Sydney）降雨量最高的時期。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[墨爾本天氣 [維多利亞州]]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/about-weather-melbourne-h1.jpg" alt="墨爾本天氣 [維多利亞州]">]]></img_MainImage>
+                    <stf_Caption><![CDATA[墨爾本天氣 [維多利亞州]]]></stf_Caption>
+                    <anc_link><![CDATA[/zht/about/key-facts/weather/melbourne-weather.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        維多利亞州（Victoria）的氣候劃分為各種氣候區，包括西北方的乾熱地區和東北方的高山雪地。 部分地區的年平均降雨量少於 250 公釐，但在某些山區卻超過 1800 公釐。 墨爾本（Melbourne）的天氣多變，眾人皆知。市區通常氣候溫和，夏季則稍感溫熱。春秋兩季氣候溫暖宜人，冬季則氣候涼爽。 夏季均溫為 25&deg;C，冬季均溫為 14&deg;C。 五月到十月是此地降雨量最高的時期。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[阿得萊德天氣 [南澳]]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/about-weather-adelaide-h1.jpg" alt="阿得萊德天氣 [南澳]">]]></img_MainImage>
+                    <stf_Caption><![CDATA[阿得萊德天氣 [南澳]]]></stf_Caption>
+                    <anc_link><![CDATA[/zht/about/key-facts/weather/adelaide-weather.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        南澳的氣候各區不同，內陸炎熱乾燥，南部和東南沿海的天氣則較為溫和潮溼。 阿得萊德（Adelaide）的冬季通常溫和潮溼，夏季則炎熱乾燥， 這裡是澳洲所有首府城市中最乾燥的地區。 一月和二月（夏季）的平均降雨量約 20 公釐，但數月無雨的狀況也很常見。 六月是整年中最潮溼的月份，平均降雨量約 80 公釐。 夏季平均最高溫為 29&deg;C，冬季平均最高溫為 15&deg;C 到 16&deg;C。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[伯斯天氣 [西澳]]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/about-weather-perth-h1.jpg" alt="伯斯天氣 [西澳]">]]></img_MainImage>
+                    <stf_Caption><![CDATA[伯斯天氣 [西澳]]]></stf_Caption>
+                    <anc_link><![CDATA[/zht/about/key-facts/weather/perth-weather.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        西澳面積廣大，因此有多個氣候區。 西北方多雨，夏季因此成為「濕季」。內部地區則夏季高溫，幾乎乾燥無雨。在西南方，冬季溫和潮溼，夏季則炎熱乾燥。 五月至九月是柏斯（Perth）的降雨量最高的時期。 二月通常是全年最熱的月份，均溫為 31&deg;C。 從西南吹來，又叫「弗里曼特爾醫生」（The Fremantle Doctor）的海風，舒緩了此時的炎熱氣候。 冬季相對涼爽潮溼，均溫約 18&deg;C。  
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[布里斯本天氣 [昆士蘭]]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/about-weather-brisbane-h1.jpg" alt="布里斯本天氣 [昆士蘭]">]]></img_MainImage>
+                    <stf_Caption><![CDATA[布里斯本天氣 [昆士蘭]]]></stf_Caption>
+                    <anc_link><![CDATA[/zht/about/key-facts/weather/brisbane-weather.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        布里斯本（Brisbane）位居亞熱帶，終年溫暖或炎熱。 夏季時（十二月到二月）最高均溫約 30&deg;C。 這座城市在夏季時雨量最多，偶有洶湧的大雷雨， 這個季節可能十分潮溼。
+        <p>冬季通常乾旱溫和，氣候宜人。 冬天大多是晴天，均溫約 17&deg;C。 全年平均月降雨量約 96 公釐。</p>
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[開恩茲天氣 [昆士蘭]]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/about-weather-cairns-h1.jpg" alt="開恩茲天氣 [昆士蘭]">]]></img_MainImage>
+                    <stf_Caption><![CDATA[開恩茲天氣 [昆士蘭]]]></stf_Caption>
+                    <anc_link><![CDATA[/zht/about/key-facts/weather/cairns-weather.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        昆士蘭（Queensland）的氣候特色為降雨量低，西部內陸夏季炎熱，北部歷經季風季，沿海一帶則天氣溫暖。 乾燥的內陸平原在夏季時溫度達到最高，年度平均降雨量低於 200 公釐。 開恩茲（Cairns）為熱帶氣候，夏季炎熱潮溼，冬季乾燥溫和。 年平均降雨量為 1992 公釐，大多分佈在一月到三月間。 開恩茲（Cairns）仲夏時的一般白天溫度為 23&deg;C 到 31&deg;C，仲冬則為 18&deg;C。 十一月到五月間，海岸地區偶爾會出現熱帶氣旋。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[荷伯特天氣 [塔斯曼尼亞]]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/about-weather-hobart-hl.jpg" alt="荷伯特天氣 [塔斯曼尼亞]">]]></img_MainImage>
+                    <stf_Caption><![CDATA[荷伯特天氣 [塔斯曼尼亞]]]></stf_Caption>
+                    <anc_link><![CDATA[/zht/about/key-facts/weather/hobart-weather.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        塔斯曼尼亞（Tasmania）是座島嶼，各地離海最遠距離不到 115 公里，因此氣候為典型的溫帶海洋氣候。 夏季氣候溫和，終年降雨分佈平均，但冬季月份最為多雨的時期。 因為其緯度的關係，塔斯曼尼亞（Tasmania）的季節比起澳洲其他地區更為分明。 荷伯特（Hobart）四季分明。 一月和二月是最溫暖也是最乾燥的月份，平均溫度約 21&deg;C。 雖然會有來自南極的南風，但是因威靈頓山（Mt Wellington）的屏障，荷伯特（Hobart）的天氣不至於太差。 
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[坎培拉天氣 [澳洲首都領地]]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/about-weather-canberra-hl.jpg" alt="坎培拉天氣 [澳洲首都領地]">]]></img_MainImage>
+                    <stf_Caption><![CDATA[坎培拉天氣 [澳洲首都領地]]]></stf_Caption>
+                    <anc_link><![CDATA[/zht/about/key-facts/weather/canberra-weather.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        坎培拉（Canberra）是典型的大陸型氣候，最為乾旱，夏季溫熱，冬季涼爽。 平均降雨量為 629 公釐，平均分佈在每個月份。 最多雨的季節為十月，最乾燥的季節在六月。 冬季時，附近的澳洲山嶺（Australian Alps）則會降雪。 一月是最炎熱的月份，最高均溫 28&deg;C。 七月為最冷的季節，每日均溫 11&deg;C，夜間溫度會降至零度以下。 坎培拉（Canberra）夏季時一天有九小時的日照時間，冬季則減為五小時。 
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[愛麗絲泉天氣 [北領地]]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/about-weather-alice-srpings-hl.jpg" alt="愛麗絲泉天氣 [北領地]">]]></img_MainImage>
+                    <stf_Caption><![CDATA[愛麗絲泉天氣 [北領地]]]></stf_Caption>
+                    <anc_link><![CDATA[/zht/about/key-facts/weather/alice-springs-weather.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        北領地（Northern Territory）的氣候與澳洲南部截然不同，北部的頂端地帶（Top End）和南部末端的氣候也差異極大。 此處較明顯的季節有兩種：「濕季」（十月到四月）和「乾季」（五月到九月）。 愛麗絲泉（Alice Springs）是氣候最為極端的地區之一。夏季炎熱，冬季寒冷，夜間溫度可能降至零度以下。 此處的年降雨量變化萬千，但年平均約為 286 公釐。 夏季白天溫度通常為 30 幾度，夜晚則乾燥涼爽。春季則有暴風雨、冰雹和沙塵暴。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[布魯姆天氣 [西澳]]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/about-weather-broome-hl.jpg" alt="布魯姆天氣 [西澳]">]]></img_MainImage>
+                    <stf_Caption><![CDATA[布魯姆天氣 [西澳]]]></stf_Caption>
+                    <anc_link><![CDATA[/zht/about/key-facts/weather/broome-weather.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        布魯姆（Broome）為熱帶氣候。夏季炎熱潮溼，冬季溫暖。較為分明的季節有兩種：「濕季」（十二月到三月）和「乾季」（其他月份）。 從十月到四月，溫度約為 33&deg;C。 冬季（六月到八月）氣候溫和，七月白天均溫約 27&deg;C。 夜晚溫度很少低於 5&deg;C，夏季夜晚溫度則會更高。 年平均降雨量為 532 公釐，但有時連續數月無雨。 一月到三月是整年最潮溼的季節。 十一月到四月間可能生成熱帶氣旋，大多在一月和二月出現。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[達爾文（Darwin）天氣, 北領地（Northern Territory）]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/about-weather-darwin-hl.jpg" alt="達爾文（Darwin）天氣, 北領地（Northern Territory）">]]></img_MainImage>
+                    <stf_Caption><![CDATA[達爾文（Darwin）天氣, 北領地（Northern Territory）]]></stf_Caption>
+                    <anc_link><![CDATA[/zht/about/key-facts/weather/darwin-weather.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        北領地（Northern Territory）頂端地帶（Top End）的達爾文（Darwin）主要分為兩種季節：「濕季」和「乾季」。 溼季為十一月至四月，這段期間溼度高，有季風雨和暴風雨。 溫度通常介於最低溫 25&deg;C 至最高溫 33&deg;C 之間。 「乾季」為五月至十月，白天天氣溫暖、乾燥且晴朗，夜晚涼爽。 溫度通常介於 21&deg;C 至 32&deg;C 間，溼度相對低了許多。 您可在此取得溫度、降雨和季節性活動的相關資訊，協助您規劃在達爾文（Darwin）的假期。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[黃金海岸（Gold Coast）天氣, 昆士蘭（Queensland）]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/about-weather-gold-coast-hl.jpg" alt="黃金海岸（Gold Coast）天氣, 昆士蘭（Queensland）">]]></img_MainImage>
+                    <stf_Caption><![CDATA[黃金海岸（Gold Coast）天氣, 昆士蘭（Queensland）]]></stf_Caption>
+                    <anc_link><![CDATA[/zht/about/key-facts/weather/gold-coast-weather.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        昆士蘭（Queensland）的黃金海岸（Gold Coast）擁有舒適宜人的亞熱帶氣候，一年四季都適合享受戶外活動。 黃金海岸（Gold Coast）一年平均有 245 天處於晴朗且陽光普照的好天氣，年平均降雨量約為 1400 公釐，降雨大多分布於夏季（十二月至二月）。 海岸的白天溫度通常為 20&deg;C 上下。 海岸腹地則較涼爽，冬季最高溫約為 16&deg;C。 在冬季，清澈的天空與乾燥的空氣造就了涼爽的夜晚。 您可在此取得溫度、降雨量和季節性活動的相關資訊，協助您規劃在黃金海岸（Gold Coast）的假期。
+        <p>如需澳洲各州和首府城市的最新天氣資訊，請瀏覽氣象局（Bureau of Meteorology）網站 (<a href="http://www.bom.gov.au" onclick="ntptEventTag('ev=PartnerLead&amp;PartnerId=bom);" target="_blank">www.bom.gov.au</a>).</p>
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+        <lst_Subpage><![CDATA[<a href="/zht/about/key-facts/weather/sydney-weather.xml">悉尼（Sydney）天氣</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/zht/about/key-facts/weather/melbourne-weather.xml">墨爾本（Melbourne）天氣</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/zht/about/key-facts/weather/adelaide-weather.xml">阿得萊德（Adelaide）天氣</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/zht/about/key-facts/weather/perth-weather.xml">珀斯（Perth）天氣</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/zht/about/key-facts/weather/brisbane-weather.xml">布里斯本（Brisbane）天氣</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/zht/about/key-facts/weather/cairns-weather.xml">開恩茲（Cairns）天氣</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/zht/about/key-facts/weather/hobart-weather.xml">荷伯特（Hobart）天氣</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/zht/about/key-facts/weather/canberra-weather.xml">坎培拉（Canberra）天氣</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/zht/about/key-facts/weather/alice-springs-weather.xml">愛麗斯泉（Alice Springs）天氣</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/zht/about/key-facts/weather/broome-weather.xml">布魯姆（Broome）天氣</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/zht/about/key-facts/weather/darwin-weather.xml">達爾文（Darwin）天氣</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/zht/about/key-facts/weather/gold-coast-weather.xml">黃金海岸（Gold Coast）天氣</a>]]></lst_Subpage>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

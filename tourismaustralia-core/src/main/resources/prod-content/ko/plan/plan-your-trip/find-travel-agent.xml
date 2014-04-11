@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="34" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[홈]]></headline>
+            <href><![CDATA[/ko/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[호주 여행 계획]]></headline>
+            <href><![CDATA[/ko/plan.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[호주여행전문가 찾기]]></headline>
+            <href><![CDATA[/ko/plan/plan-your-trip/find-travel-agent.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/plan-plan-your-trip-find-travel-agent.jpg]]></img_background>
+    <hdl_Title><![CDATA[호주여행전문가 찾기]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/Campaigns/Campaign_ASP_logo_GL_thumb.gif]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[호주 여행 전문가이드. 호주정부관광청에서 인증한 호주 여행 전문가이드에게 연락하여 당신의 여행에 필요한 여러 정보들을 문의해 보세요.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[호주 여행사, 호주 관광청 ]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[더 많은 것을 배우십시오 ]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[세계에서 가장 넓은 산호초 정원인 그레이트 배리어 리프(Great Barrier Reef) 속을 누비고 다니면 어떤 기분일까요? 수천 년의 세월을 몸으로 느끼며 신비로운 기분에 빠지게 되실 겁니다]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <ASPSearchRHS isTemplate="1">
+    <!-- no user content -->
+</ASPSearchRHS><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/ko/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/ko/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/ko/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/ko/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/ko/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/ko/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/ko/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/ko/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/ko/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/ko/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/ko/Transport.aspx]]></anc_Transport>
+<hdl_Title><![CDATA[여행계획하기]]></hdl_Title>
+<language><![CDATA[KOR]]></language>
+<stf_Accomodation><![CDATA[]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[]]></stf_Events>
+<stf_Hire><![CDATA[]]></stf_Hire>
+<stf_Informationservices><![CDATA[]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[]]></stf_StateFilter>
+<stf_Tours><![CDATA[]]></stf_Tours>
+<stf_Transport><![CDATA[]]></stf_Transport>
+</PlanYourVisit>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Find a travel specialist near you]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[Who are Aussie Specialists? ]]></stf_InformationTitle>
+            <txt_Information><![CDATA[There are thousands of great Australian experiences to choose from. Chances are, your US Aussie Specialist Travel Agent has experienced or planned for them before. 
+<P>Experts on everything Australian, these specialists receive extensive training from Tourism Australia and most have traveled throughout Australia. They have the experience to help you plan and book your Aussie adventure. They know what to pack, what the weather will be like and how to join in with the locals. </P>
+<P>So, if you are wondering what it’s like to sail on Sydney Harbour, feel the warmth of the Australian outback, or dive on the Great Barrier Reef, contact an Aussie Specialist and you’ll soon be enjoying your very own Australian experience. <BR></P>
+<P><BR></P>]]></txt_Information>
+            
+        </TopCategoryHighlights><TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Find a travel specialist near you]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[Who are Aussie Specialists?]]></stf_InformationTitle>
+            <txt_Information><![CDATA[There are thousands of great Australian experiences to choose from. Chances are, your Aussie Specialist Travel Agent has experienced or planned for them before.   <P>Experts on everything Australian, these specialists receive extensive training from Tourism Australia and most have traveled throughout Australia. They have the experience to help you plan and book your Aussie adventure. They know what to pack, what the weather will be like and how to join in with the locals. </P>  <P>So, if you are wondering what it’s like to sail on Sydney Harbour, feel the warmth of the Australian outback, or dive on the Great Barrier Reef, contact an Aussie Specialist and you’ll soon be enjoying your very own Australian experience.</P>]]></txt_Information>
+            
+        </TopCategoryHighlights><TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[가까운 여행사 찾기]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        세계에서 가장 넓은 산호초 정원인 <a href="/ko/explore/icons/great-barrier-reef.xml" target="_self">그레이트 배리어 리프</a>(Great Barrier Reef) 속을 누비고 다니면 어떤 기분일까요? 수천 년의 세월을 몸으로 느끼며 신비로운 기분에 빠지게 되실 겁니다. 생각만 해도 가슴이 두근거리죠? 호주 원주민의 코로보리(Corroboree) 음악과 춤에 맞춰 흥겹게 캠프 파이어에 참여하는 것은 어떨까요? 호주 여행 전문가이자 여행 에이전트인 Aussie Specialist들은 이런 여행에 대한 모든 정보를 보유하고 있습니다. 호주의 날씨, 준비물, 현지인들과 어떻게 어울리는지도 아주 상세히 알고 있습니다. 여러분이 최고의 호주 여행을 직접 계획하는데 도움을 드릴 것입니다. Aussie Specialist 여행사들은 최고의 서비스 정신을 갖추고 여러분을 기다리고 있습니다.
+        <p>호주 지역 전문가인 ‘호주 전문가(Aussie Experts)’들은 호주정부관광청에서 주관한 Aussie Specialist Program을 통해 배출되었고, 호주 여행 경험이 매우 풍부합니다.</p>
+        <p>이 들은 호주 여행에 대한 열정, 오래도록 축적된 경험과 노하우 등을 가지고 여러분께서 여행을 계획하시고 예약하시는데 필요한 모든 사항들을 도울 수 있을 것입니다. 지금 Aussie Specialist에게 연락해보세요. 호주의 광활한 자연에 한 발짝 다가오신 것을 느끼실 것입니다. </p>
+    ]]></txt_Information>
+            
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

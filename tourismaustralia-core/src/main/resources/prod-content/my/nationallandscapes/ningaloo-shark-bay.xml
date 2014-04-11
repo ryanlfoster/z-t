@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="22250" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Laman Utama]]></headline>
+            <href><![CDATA[/my/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Tools and Campaigns]]></headline>
+            <href><![CDATA[/my/tools-campaigns.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Landskap Kebangsaan Australia]]></headline>
+            <href><![CDATA[/my/nationallandscapes.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[Ningaloo-Teluk Shark]]></headline>
+            <href><![CDATA[/my/nationallandscapes/ningaloo-shark-bay.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/Campaigns/national-landscapes-ningaloo-shark-bay.jpg]]></img_background>
+    <hdl_Title><![CDATA[Ningaloo-Teluk Shark]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/national-landscapes-ningaloo-shark-bay-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/Campaigns/national-landscapes-ningaloo-shark-bay-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[yes]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[Bebaskan semangat anda di Teluk Shark di Coral Coast, Australia Barat, di mana perairannya yang disenaraikan dalam Warisan Dunia bergabung dengan kehidupan marin di hujung landskap yang liar dan merah.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[Terumbu Ningaloo, Shark Bay, kawasan warisan Dunia Shark Bay World , Warisan Dunia, taman marin Ningaloo, taman marin Shark Bay marine park, ikan yu paus, ikan yu paus, Taman Negara Pulau Dirk Hartog, Pulau Dirk Hartog, Taman Negara Francois Peron]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Pelajari lebih lanjut]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Landskap Kebangsaan Australia: Ningaloo-Teluk Shark - Tourism Australia]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        Bebaskan semangat anda di Teluk Shark di Coral Coast, Australia Barat, di mana perairannya yang disenaraikan dalam Warisan Dunia bergabung dengan kehidupan marin di hujung landskap yang liar dan merah.
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <StandardCampaignLayout isTemplate="1">
+    <opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+    <hdl_Title><![CDATA[]]></hdl_Title>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+    <con_Banner><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<DIV id=headerimage>
+<SCRIPT type=text/javascript src="../../static/js/jquery.cycle.all.latest.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+jQuery(document).ready(function() {
+jQuery('#headersliderwrapper').cycle({
+        fx:'fade',
+        slideExpr: '.headerslide'
+    });
+});
+</SCRIPT>
+
+<DIV id=headersliderwrapper>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-nin-01.jpg"> 
+<DIV class=headerslideinfo>Menyelam bersama Yu Paus WA</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-nin-02.jpg"> 
+<DIV class=headerslideinfo>Cape Peron WA</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-nin-03.jpg"> 
+<DIV class=headerslideinfo>Yu Paus Ningaloo Reef WA</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-nin-04.jpg"> 
+<DIV class=headerslideinfo>Memberi Makan Ikan Lumba-lumba Monkey Mia WA</DIV></DIV></DIV></DIV>
+<DIV id=subpage-header-overlay></DIV>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule></con_Banner>
+    <con_Body><TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Ningaloo-Teluk Shark]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        Bebaskan semangat anda di Ningaloo-Teluk Shark di Coral Coast, Australia Barat, di mana lautan berwarna firus bergabung dengan kehidupan marin di hujung landskap liar dan merah. Di bahagian paling barat dan terpencil di Australia, ikan lumba-lumba bermain di Teluk Shark yang disenaraikan dalam Warisan Dunia dan ikan yu paus yang gergasi berenang beberapa meter daripada pantai di Ningaloo Reef. Berenang, bersnokel, menyelam dan berkayak laut di air yang bersih, yang mana juga melindungi penyu, dugong, ikan paus yang berhijrah dan ikan pari kola yang gergasi. Di daratan, anda boleh berjalan di pantai- pantai putih bersih, memandu pacuan 4WD di bukit pasir padang pasir merah dan merasa kagum pada bentuk-bentuk kehidupan lama yang memeranjatkan. Alami tempat yang tidak jinak ini dengan mengembara dan melalui budaya Orang Asli purbanya yang masih hidup.
+        <p><strong>Empat sebab untuk melawat Ningaloo-Teluk Shark</strong></p>
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[1. Ningaloo Reef]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-ningaloo-shark-bay-hl01.jpg" alt="Ningaloo Reef, WA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Ningaloo Reef, WA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Berenang dan bersnokel bersama-sama dengan ikan yu paus gergasi, ikan yang terbesar di dunia, yang melawat ke Ningaloo Reef antara bulan April dan June. Bermula dengan hanya beberapa meter dari tepi pantai, pinggiran terumbu terbesar Australia mempunyai beraneka kehidupan marin yang menakjubkan berlindung di tengah-tengah taman karang yang mempesonakan. Langkah keluar dari pantai di Exmouth atau di Teluk Coral untuk melihat ikan badut, buran tentakel, ikan singa dan belut moray pemangsa di antara beratus-ratus spesies ikan tropika lain. Sertai pelancongan eko atau sewa skuba atau terjun dari atas bot yang berdasar kaca untuk melihat dugong, penyu dan pari kola. Melihat penghijrahan ikan paus humpback antara bulan Jun dan Oktober dan fenomena semula jadi yang luar biasa terumbu karang yang banyak dan cantik pada bulan Mac dan April.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[2. Shark Bay]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-ningaloo-shark-bay-hl02.jpg" alt="Monkey Mia, WA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Monkey Mia, WA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Memberi makan dengan tangan atau berenang dengan ikan lumba-lumba liar Monkey Mia, belayar melewati penyu berkepala keras di Teluk Turtle Bay dan boleh melihat ikan paus humpback berhijrah dalam air yang cetek. Terbentang seluas 2.3 juta hektar, Teluk Shark Bay mempunyai campuran laut bersuhu sederhana dengan tropika dan ia merupakan sebilangan kecil tapak di dunia ini untuk memuaskan semua empat kriteria bagi disenaraikan sebagai Warisan Dunia. Tiga daripada tujuh spesies penyu marin di dunia boleh dijumpai di sini dan padang rumput laut terbesar dunia ini menyokong tempat kehidupan dugong yang terselamat di planet. Menyelam dan bersnokel dengan pelbagai terumbu karang, melihat ikan yu bermusim berkejar-kejaran, menyertai kumpulan berpancing atau belayar untuk menikmati matahari terbenam.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[3. Landskap purba yang membangkitkan rasa kagum]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-ningaloo-shark-bay-hl03.jpg" alt="Cape Range National Park, WA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Cape Range National Park, WA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Kembara belukar, mendaki tembok dan memandu pacuan 4WD di Taman Negara Cape Range National Park, dekat Exmouth, di mana gaung berwarna merah yang sungguh menarik bertemu dengan air biru laut Ningaloo Reef. Taman ini juga merupakan tumpuan walabi berkaki hitam yang aneh dan ianya menjadi cerah apabila bunga-bunga liar berwarna-warni berkembang pada bulan Jun dan Oktober. Kawasan Warisan Dunia Teluk Shark Bay World Heritage, Taman Negara Francois Peron National Park yang unik menjadi tempat tumpuan haiwan tempatan yang terancam, landskap berbeza yang mempesonakan dan menyediakan pengembaraan pacuan 4WD sangat teruja. Sementara itu, Pulau Dirk Hartog Island menawarkan kawasan memancing bertaraf dunia dan sejarah para peneroka Eropah yang menarik. Berdiri di Steep Point, bahagian yang terletak paling barat di Australia dan melihat cerunam Zuytdorp yang menjulang tinggi setinggi 300 meter terbentang ke selatan sejauh 150km. Berjalan di sepanjang Pantai Shell Beach yang menyilau keputihan dan melawat Hamelin Pool, kawasan utama bagi stromatolit, satu-satunya bentuk kehidupan yang terawal di dunia.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[4. Pengalaman hebat Orang Asli]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-ningaloo-shark-bay-hl04.jpg" alt="Aboriginal experiences, WA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Aboriginal experiences, WA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Belajar mengenai budaya Orang Asli Teluk Shark melalui pameran interaktif dan pameran musium di Pusat Penemuan Warisan Dunia World Heritage Discovery Centre. Dari Monkey Mia, anda boleh menyertai lawatan berjalan kaki Orang Asli, mendengar kisah-kisah dongeng Dreamtime dan belajar mengenai perubatan belukar tradisional dan bush tucker. Jelajahi Taman Negara Pulau Dirk Hartog Island National Park di mana pemiliknya, Orang Asli Malgana telah menetap tanpa gangguan sejak beribu-ribu tahun lalu. Orang Malgana sekarang mempunyai simpanan khusus, menawarkan tinjauan nampak jelas warisan budaya mereka yang kaya dan bertahan lama.
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights></con_Body>
+    <con_RHSModules><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<TABLE cellSpacing=0 cellPadding=0 width=298 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top align=center>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD style="WIDTH: 25px"></TD>
+<TD><!-- #BeginLibraryItem "/Library/sitenav.lbi" -->
+<SCRIPT language=JavaScript1.2 type=text/javascript src="../../static/js/stmenu.js"></SCRIPT>
+<!-- #EndLibraryItem --></TD></TR></TBODY></TABLE><!-- Google Map Start -->
+<SCRIPT type=text/javascript>
+function fireEvent(obj,evt){
+ var fireOnThis = obj;
+ if( document.createEvent ) {
+   var evObj = document.createEvent('MouseEvents');
+   evObj.initEvent( evt, true, false );
+   fireOnThis.dispatchEvent(evObj);
+ } else if( document.createEventObject ) {
+   fireOnThis.fireEvent('on'+evt);
+ }
+}
+function clickLink(linkobj) {
+     if (linkobj.getAttribute('onclick') == null) {
+          if (linkobj.getAttribute('href')) document.location = linkobj.getAttribute('href');
+     }
+     else linkobj.onclick();
+}
+function loadjscssfile(filename, filetype){
+ if (filetype=="js"){ //if filename is a external JavaScript file
+  var fileref=document.createElement('script')
+  fileref.setAttribute("type","text/javascript")
+  fileref.setAttribute("src", filename)
+ }
+ else if (filetype=="css"){ //if filename is an external CSS file
+  var fileref=document.createElement("link")
+  fileref.setAttribute("rel", "stylesheet")
+  fileref.setAttribute("type", "text/css")
+  fileref.setAttribute("href", filename)
+  fileref.setAttribute("media", "print")
+ }
+ if (typeof fileref!="undefined")
+  document.getElementsByTagName("head")[0].appendChild(fileref)
+}
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+var icheckk=0;
+jQuery.each(jQuery.browser, function(i, val) {
+if(i=="msie" && jQuery.browser.version.substr(0,3)=="7.0")
+icheckk=1;
+});
+function myfun()
+{
+loadjscssfile("../../static/css/thickbox.css", "css");
+if(icheckk==1)
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='../../static/maps/my/ningaloosharkbay/bigmap.html'  target='_blank'>&nbsp;Cetak|Tutup|&nbsp;atau Kekunci Esc</a></b>","../../static/maps/my/ningaloosharkbay/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+else
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='javascript:window.print()' >&nbsp;Cetak|Tutup|&nbsp;atau Kekunci Esc</a></b>","../../static/maps/my/ningaloosharkbay/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+}
+         </SCRIPT>
+<IFRAME style="MARGIN-BOTTOM: 20px; BORDER-TOP: black 1px solid; HEIGHT: 355px; BORDER-RIGHT: black 1px solid; BORDER-BOTTOM: black 1px solid; FLOAT: left; PADDING-BOTTOM: 5px; BORDER-LEFT: black 1px solid; BACKGROUND-COLOR: #333333" height=380 src="../../static/maps/my/ningaloosharkbay/index.html" frameBorder=0 width=249 name=FRAMENAME scrolling=no></IFRAME><!-- Google Map end -->
+<DIV class=subpage-video-thumb style="TEXT-ALIGN: left"><A onclick="moduleTrackingWithTitle('lightbox-video','',false,'nationallandscapes-ningaloosharkbaymy');" href="#" data-reveal-id="modalVideo"><IMG alt="" src="/contentimages/Campaigns/national-landscapes-video-my.jpg"></A> </DIV>
+<DIV id=modalVideo class="reveal-modal video" style-="z-index: 103;"><A class=close-reveal-modal><SPAN class=icon></SPAN></A>
+<DIV class=video style="VISIBILITY: visible !important"><IFRAME height=315 src="//www.youtube.com/v/EjGZ3MaX9pE?version=3&amp;hl=en_GB" frameBorder=0 width=560></IFRAME></DIV></DIV></TD></TR></TBODY></TABLE>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule><Listing isTemplate="1">
+<anc_List1><![CDATA[/my/explore/states/wa.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[Idea Australia selanjutnya]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/my/AccommodationSearch.ignore]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/my/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/my/AttractionSearchResults.ignore]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/my/DestinfoSearchResults.ignore]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/my/EventsSearch.xml]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/my/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/my/hire.ignore]]></anc_Hire>
+<anc_Info><![CDATA[/my/InfoSearchResults.ignore]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/my/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/my/TourSearchResults.ignore]]></anc_Tour>
+<anc_Transport><![CDATA[/my/transport.ignore]]></anc_Transport>
+<hdl_Title><![CDATA[Rancang perjalanan anda ke Ningaloo-Teluk Shark]]></hdl_Title>
+<language><![CDATA[MSL]]></language>
+<stf_Accomodation><![CDATA[Accommodation]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[ningaloo reef]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[Attractions]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[Find a Travel Agent near you]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[Destination Information]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[Events]]></stf_Events>
+<stf_Hire><![CDATA[Hire ]]></stf_Hire>
+<stf_Informationservices><![CDATA[Information Services]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[Western Australia]]></stf_StateFilter>
+<stf_Tours><![CDATA[Tours]]></stf_Tours>
+<stf_Transport><![CDATA[Transport]]></stf_Transport>
+</PlanYourVisit></con_RHSModules>
+    <con_Category></con_Category>
+    <lst_Subpages>
+    </lst_Subpages>
+</StandardCampaignLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

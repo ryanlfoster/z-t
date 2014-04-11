@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="22223" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[首頁]]></headline>
+            <href><![CDATA[/zht/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Tools and Campaigns]]></headline>
+            <href><![CDATA[/zht/tools-campaigns.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[澳洲國家地貌]]></headline>
+            <href><![CDATA[/zht/nationallandscapes.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[澳洲的沿海荒野]]></headline>
+            <href><![CDATA[/zht/nationallandscapes/australias-coastal-wilderness.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/Campaigns/national-landscapes-australias-coastal-wilderness.jpg]]></img_background>
+    <hdl_Title><![CDATA[澳洲的沿海荒野]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/national-landscapes-australias-coastal-wilderness-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/Campaigns/national-landscapes-australias-coastal-wilderness-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[yes]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[遊覽高聳的森林、湖泊以及從新南威爾士南海岸延伸至維多利亞東吉普斯蘭的海灘。]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[澳洲海岸，澳洲東海岸，克拉金固隆國家公園，藍寶石海岸，班布依德國家公園，希克斯點，格林角，嘉寶島，蒙塔格島，米摩薩岩石國家公園，貝加，貝加芝士，梅林布拉，康蘭角海岸公園，燈塔至燈塔步行路徑，納吉自然保護區，伊頓，觀鯨]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[了解更多資料]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[澳洲國家地貌：澳洲的沿海荒野 - 澳洲旅遊局]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        遊覽高聳的森林、湖泊以及從新南威爾士南海岸延伸至維多利亞東吉普斯蘭的海灘。
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <StandardCampaignLayout isTemplate="1">
+    <opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+    <hdl_Title><![CDATA[]]></hdl_Title>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+    <con_Banner><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<DIV id=headerimage>
+<SCRIPT type=text/javascript src="../../static/js/jquery.cycle.all.latest.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+jQuery(document).ready(function() {
+jQuery('#headersliderwrapper').cycle({
+        fx:'fade',
+        slideExpr: '.headerslide'
+    });
+});
+</SCRIPT>
+
+<DIV id=headersliderwrapper>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-acw-01.jpg"> 
+<DIV class=headerslideinfo>貝特卡海灘（Betka Beach），馬拉庫塔（Mallacoota），維多利亞（VIC）</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-acw-02.jpg"> 
+<DIV class=headerslideinfo>土佛灣（Twofold Bay），伊頓（Eden），新南威爾斯（NSW）</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-acw-03.jpg"> 
+<DIV class=headerslideinfo>馬拉庫塔海口（Mallacoota Inlet），克拉金固隆國家公園（Croajingolong National Park），維多利亞（VIC）</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-acw-04.jpg"> 
+<DIV class=headerslideinfo>賞鯨</DIV></DIV></DIV></DIV>
+<DIV id=subpage-header-overlay></DIV>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule></con_Banner>
+    <con_Body><TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[澳洲的沿海荒野]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        澳洲的沿海荒野從新南威爾斯州的南部海岸（South Coast）一直延伸到維多利亞州的東吉普斯蘭（East Gippsland），匯集了高大的森林、湖泊和海灘。在原始空曠的海岸線上漫步或扎營，在灌木環繞的海灘外滑浪和浮潛，在寧靜雄偉的湖水中泛舟。觀看鯨魚、海豚、海豹和企鵝，享用新鮮捕獲的海鮮，在古代的貝丘遺跡中追溯該區的原住民歷史。在例如柏馬基（Bermagui）、貝加（Bega）和馬拉庫塔（Mallacoota）等美麗小鎮停留，登上希克斯點（Point Hicks）和綠角（Green Cape）歷史悠久的燈塔。
+        <p><strong>澳洲的沿海荒野</strong></p>
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[1. 在森林、島嶼、湖泊和海灘中釋放您對大自然的熱愛]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australias-coastal-wilderness-hl01.jpg" alt="Drummer Rainforest Walk, VIC">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Drummer Rainforest Walk, VIC]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        到嘉寶島（Gabo Island）觀賞世界上已知的最大的小企鵝聚居群。乘船暢遊蒙達哥島（Montague Island），觀賞海豹、企鵝和在空中盤旋的海鳥。從伊頓（Eden）、班布依德國家公園（Ben Boyd National Park）的布依德塔（Boyds Tower）或克拉金固隆國家公園（Croajingolong National Park）的希克斯點觀鯨。這裏的海灘、蒼翠的雨林和花崗岩山峰都處於世界生物圈保護區的保護之中。在春夏兩季，您可以看到狡猾湖（Lake Elusive）岸邊佈滿亮麗的蘭花和野花。在邦恩達國家公園（Bournda National Park）的康加魯沙走道（Kangarutha Track）上健行，聆聽濕地鳥類的啼鳴。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[2. 在古雅的沿海小鎮鬆弛身心]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australias-coastal-wilderness-hl02.jpg" alt="South Coast, NSW">]]></img_MainImage>
+                    <stf_Caption><![CDATA[South Coast, NSW]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        悠閒的柏馬基（Bermagui）以釣魚聞名，但您也可以到附近的米莫薩岩石國家公園（Mimosa Rocks National Park）在海灘上游泳、滑浪或划獨木舟。再往南，梅林布拉是各種水上運動的天堂。到大海滑浪，在淡水湖中航行，或在離岸的清澈水域潛水。觀看鯨魚，從伊甸（Eden）出海在沉船周圍潛水，或者在美麗的馬拉庫塔（Mallacoota）鬆弛身心。馬拉庫塔處於寬闊的白色沙灘和寧靜的河口之間。馬洛（Marlo）和班姆河（Bamm River）是探索康蘭角海岸公園（Cape Conran Coastal Park）蜿蜒曲折海岸線的理想地點。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[3. 投入沿海探險活動中]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australias-coastal-wilderness-hl03.jpg" alt="Lighthouse Track, VIC">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Lighthouse Track, VIC]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        在燈塔至燈塔步行道（Light to Light Walking Track）上健行，這條道路從布依德塔一直通往格林角。在位於克拉金固隆國家公園的維根河口（Wingan Inlet）划獨木舟，翻越沙丘，或者登上熱那亞峰（Genoa Peak）欣賞巴斯海峽的全景。也可以登上希克斯點澳洲最高的燈塔頂，這裡是當年庫克船長看到的澳洲的第一個地方。如想真正挑戰自己，可以在長達100公里的荒野海岸步行路徑（Wilderness Coastal Walk）上遠足，從希克斯點前往納吉自然保護區。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[4. 陶醉在本地美食中]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australias-coastal-wilderness-hl04.jpg" alt="Disaster Bay Chillies, Eden, NSW">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Disaster Bay Chillies, Eden, NSW]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        這裡的海岸沿線有大量新鮮的海鮮。從塔斯拉（Tathra）到馬拉庫塔（Mallacoota），您可以找到頂級的海鮮餐館或專賣店。在柏馬基乘坐深海捕魚租船去捕捉金槍魚和馬林魚。在潘布拉和梅林布拉大吃新鮮生蠔，該區的生蠔養殖場定期有導遊講解養殖過程。塔斯拉和柏馬基之間風景如畫的海岸公路沿線遍佈著咖啡館和美食專賣店，還有酒莊和藝術館。往內陸走，便是繁茂的奶牛牧場和貝加（Bega）。貝加號稱芝士遺產中心，您可以從中了解這個小鎮引以為榮的芝士製作傳統。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[5. 追隨原住民的足跡]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australias-coastal-wilderness-hl05.jpg" alt="Two Fold Bay, Eden, NSW">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Two Fold Bay, Eden, NSW]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        在穿過班布依德國家公園的帕布爾河步道（Pabul River Walking Track）上，參觀古代原住民貝丘 ─ 貝殼、石頭、骸骨和木炭的碎片。在大雪河的杰克遜渡口和克拉金固隆國家公園的南端散落著更多的文物。在伊甸的虎鯨博物館，您可以了解到原住民在當地捕鯨業中扮演的重要角色。沉緬在原住民船員的故事中。這些船員教會了歐籍船長們如何與雙折灣（Two Fold Bay）的虎鯨合作。
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights></con_Body>
+    <con_RHSModules><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<TABLE cellSpacing=0 cellPadding=0 width=298 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top align=center><!-- Google Map Start -->
+<SCRIPT type=text/javascript>
+function fireEvent(obj,evt){
+var fireOnThis = obj;
+if( document.createEvent ) {
+var evObj = document.createEvent('MouseEvents');
+ evObj.initEvent( evt, true, false );
+fireOnThis.dispatchEvent(evObj);
+} else if( document.createEventObject ) {
+fireOnThis.fireEvent('on'+evt);
+}
+}
+function clickLink(linkobj) {
+     if (linkobj.getAttribute('onclick') == null) {
+ if (linkobj.getAttribute('href')) document.location = linkobj.getAttribute('href');
+     }
+     else linkobj.onclick();
+}
+function loadjscssfile(filename, filetype){
+ if (filetype=="js"){ //if filename is a external JavaScript file
+  var fileref=document.createElement('script')
+  fileref.setAttribute("type","text/javascript")
+  fileref.setAttribute("src", filename)
+ }
+ else if (filetype=="css"){ //if filename is an external CSS file
+  var fileref=document.createElement("link")
+  fileref.setAttribute("rel", "stylesheet")
+  fileref.setAttribute("type", "text/css")
+  fileref.setAttribute("href", filename)
+  fileref.setAttribute("media", "print")
+ }
+ if (typeof fileref!="undefined")
+  document.getElementsByTagName("head")[0].appendChild(fileref)
+}
+                  </SCRIPT>
+
+<SCRIPT type=text/javascript>
+var icheckk=0;
+jQuery.each(jQuery.browser, function(i, val) {
+if(i=="msie" && jQuery.browser.version.substr(0,3)=="7.0")
+icheckk=1;
+});
+function myfun()
+{
+loadjscssfile("../../static/css/thickbox.css", "css");
+if(icheckk==1)
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='../../static/maps/zht/australiascoastalwilderness/bigmap.html'  target='_blank'>&nbsp;列印|關閉此視窗|&nbsp; 或按Esc键</a></b>","../../static/maps/zht/australiascoastalwilderness/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+else
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='javascript:window.print()' >&nbsp;列印|關閉此視窗|&nbsp; 或按Esc键</a></b>","../../static/maps/zht/australiascoastalwilderness/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+}
+         </SCRIPT>
+<IFRAME style="MARGIN-BOTTOM: 20px; BORDER-TOP: black 1px solid; HEIGHT: 355px; BORDER-RIGHT: black 1px solid; BORDER-BOTTOM: black 1px solid; FLOAT: left; PADDING-BOTTOM: 5px; BORDER-LEFT: black 1px solid; BACKGROUND-COLOR: #333333" height=380 src="../../static/maps/zht/australiascoastalwilderness/index.html" frameBorder=0 width=249 name=FRAMENAME scrolling=no></IFRAME><!-- Google Map end -->
+<DIV class=subpage-video-thumb style="TEXT-ALIGN: left"><A onclick="moduleTrackingWithTitle('lightbox-video','',false,'nationallandscapes-coastalwildernesszht');" href="#" data-reveal-id="modalVideo"><IMG alt="" src="/contentimages/Campaigns/national-landscapes-video-zht.jpg"> </A></DIV>
+<DIV id=modalVideo class="reveal-modal video" style-="z-index: 103;"><A class=close-reveal-modal><SPAN class=icon></SPAN></A>
+<DIV class=video style="VISIBILITY: visible !important"><IFRAME height=315 src="//www.youtube.com/v/EjGZ3MaX9pE?version=3&amp;hl=en_GB" frameBorder=0 width=560></IFRAME></DIV></DIV></TD></TR></TBODY></TABLE>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule><Listing isTemplate="1">
+<anc_List1><![CDATA[/zht/explore/icons/gippsland.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[更多關於澳洲旅遊的好主意]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/zht/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/zht/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/zht/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/zht/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/zht/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/zht/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/zht/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/zht/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/zht/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/zht/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/zht/Transport.aspx]]></anc_Transport>
+<hdl_Title><![CDATA[計劃前往澳洲海岸荒野的旅途]]></hdl_Title>
+<language><![CDATA[CHT]]></language>
+<stf_Accomodation><![CDATA[Accommodation]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[Attractions]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[Find a Travel Agent near you]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[Destination Information]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[Events]]></stf_Events>
+<stf_Hire><![CDATA[Hire ]]></stf_Hire>
+<stf_Informationservices><![CDATA[Information Services]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[Victoria]]></stf_StateFilter>
+<stf_Tours><![CDATA[Tours]]></stf_Tours>
+<stf_Transport><![CDATA[Transport]]></stf_Transport>
+</PlanYourVisit></con_RHSModules>
+    <con_Category></con_Category>
+    <lst_Subpages>
+    </lst_Subpages>
+</StandardCampaignLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

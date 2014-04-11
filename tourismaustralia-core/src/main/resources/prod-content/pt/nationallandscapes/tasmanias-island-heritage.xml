@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="22256" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Página inicial]]></headline>
+            <href><![CDATA[/pt-br/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Tools and Campaigns]]></headline>
+            <href><![CDATA[/pt-br/tools-campaigns.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Paisagens Nacionais da Austrália]]></headline>
+            <href><![CDATA[/pt-br/nationallandscapes.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[Ilha da Tasmânia - Patrimônio da Humanidade]]></headline>
+            <href><![CDATA[/pt-br/nationallandscapes/tasmanias-island-heritage.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/Campaigns/national-landscapes-tasmanias-island-heritage.jpg]]></img_background>
+    <hdl_Title><![CDATA[Ilha da Tasm&acirc;nia - Patrim&ocirc;nio da Humanidade]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/national-landscapes-tasmanias-island-heritage-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/Campaigns/national-landscapes-tasmanias-island-heritage-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[yes]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[Tasmanien besticht durch seine unber&uuml;hrte, raue und zugleich einladende Wildnis mit ihren atemberaubenden K&uuml;sten, dichten W&auml;ldern und schneebedeckten Gipfeln, von denen ein Gro&szlig;teil zum Weltnaturerbe z&auml;hlt.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[Tasm&acirc;nia, Ilha da Tasm&acirc;nia, Patrim&ocirc;nio da Humanidade, Hobart, Hist&oacute;ria australiana, &Aacute;rea do Patrim&ocirc;nio Mundial Selvagem da Tasm&acirc;nia, Southwest National Park, Franklin-Gordon Wild Rivers National Park, O Tarkine, Cradle Mountain-Lake St Clair National Park]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Saiba mais]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Paisagens Nacionais da Austr&aacute;lia: Ilha da Tasm&acirc;nia, Patrim&ocirc;nio da Humanidade - Tourism Austr&aacute;lia]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        Tasmanien besticht durch seine unber&uuml;hrte, raue und zugleich einladende Wildnis mit ihren atemberaubenden K&uuml;sten, dichten W&auml;ldern und schneebedeckten Gipfeln, von denen ein Gro&szlig;teil zum Weltnaturerbe z&auml;hlt.
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <StandardCampaignLayout isTemplate="1">
+    <opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+    <hdl_Title><![CDATA[]]></hdl_Title>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+    <con_Banner><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<DIV id=headerimage>
+<SCRIPT type=text/javascript src="../../static/js/jquery.cycle.all.latest.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+jQuery(document).ready(function() {
+jQuery('#headersliderwrapper').cycle({
+        fx:'fade',
+        slideExpr: '.headerslide'
+    });
+});
+</SCRIPT>
+
+<DIV id=headersliderwrapper>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-tas-01.jpg"> 
+<DIV class=headerslideinfo>Bay of Fires - TAS</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-tas-02.jpg"> 
+<DIV class=headerslideinfo>Lake Oberon- TAS</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-tas-03.jpg"> 
+<DIV class=headerslideinfo>Dem&ocirc;nio da Tasm&acirc;nia</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-tas-04.jpg"> 
+<DIV class=headerslideinfo>Wineglass Bay - TAS</DIV></DIV></DIV></DIV>
+<DIV id=subpage-header-overlay></DIV>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule></con_Banner>
+    <con_Body><TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Ilha da Tasm&acirc;nia - Patrim&ocirc;nio da Humanidade]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        A Paisagem Nacional, Patrim&ocirc;nio da Humanidade, da Ilha da Tasm&acirc;nia, &eacute; uma regi&atilde;o selvagem intocavelmente bela, por&eacute;m acess&iacute;vel, de faixas litor&acirc;neas impressionantes, florestas densas e montanhas com picos cobertos de neve. Separada da &aacute;rea continental da Austr&aacute;lia durante a &uacute;ltima era do gelo, essa ilha evoluiu por mais de 10.000 anos em espl&ecirc;ndido isolamento, criando um museu vivo com algumas das plantas e animais mais raros e antigos do mundo. A beleza indomada da Tasm&acirc;nia, Patrim&ocirc;nio da Humanidade, &eacute; t&atilde;o preciosa que atende a mais crit&eacute;rios de Patrim&ocirc;nio da Humanidade que qualquer outro lugar do planeta. Aqui, voc&ecirc; pode encontrar incont&aacute;veis experi&ecirc;ncias em aventura e natureza de classe internacional e ser cativado pela hist&oacute;ria da heran&ccedil;a abor&iacute;gene e das primeiras col&ocirc;nias penais e colonos da Austr&aacute;lia.
+        <p><strong>Cinco raz&otilde;es que far&atilde;o voc&ecirc; adorar a Ilha da Tasm&acirc;nia - Patrim&ocirc;nio da Humanidade</strong></p>
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[1. Pura vida selvagem]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-tasmanias-island-heritage-hl01.jpg" alt="Wineglass Bay e Cordilheira Hazards">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Wineglass Bay e Cordilheira Hazards]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        O 1,4 milh&atilde;o de hectares que comp&otilde;em a &aacute;rea do Patrim&ocirc;nio Mundial Selvagem da Tasm&acirc;nia cobre um quinto da ilha. O Southwest National Park &eacute; maior que muitos pa&iacute;ses pequenos! Outras &aacute;reas ricas em heran&ccedil;a natural e hist&oacute;rica incluem o Franklin-Gordon Wild Rivers National Park, o Tarkine no noroeste e o Cradle Mountain-Lake St Clair National Park, lar das florestas antigas e o Lake St Clair, o lago mais profundo da Austr&aacute;lia. Siga para o topo do Mount Wellington para vislumbrar paisagens magn&iacute;ficas sobre a Pen&iacute;nsula da Tasm&acirc;nia ou nade nas &aacute;guas azul-safira da Wineglass Bay, uma das 10 melhores praias do mundo.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[2. Hist&oacute;ria rica]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-tasmanias-island-heritage-hl02.jpg" alt="Port Arthur Historic Site">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Port Arthur Historic Site]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Saiba mais sobre a hist&oacute;ria das primeiras col&ocirc;nias penais da Austr&aacute;lia em Port Arthur Historic Site, listado como patrim&ocirc;nio mundial. Ou&ccedil;a as hist&oacute;rias sobre o estabelecimento dos primeiros condenados na Sarah Island ou d&ecirc; um passeio pela espetacular West Coast Wilderness Railway para conhecer um pouco da hist&oacute;ria da minera&ccedil;&atilde;o da Austr&aacute;lia. Muitos museus mostram a hist&oacute;ria mar&iacute;tima e das col&ocirc;nias penais da Austr&aacute;lia. Saiba mais sobre a rica heran&ccedil;a abor&iacute;gene da Tasm&acirc;nia e o grupo humano que est&aacute; a mais tempo isolado no noroeste do Rocky Cape National Park. Caminhe pelas ruas de paralelep&iacute;pedo e passe pelos antigos armaz&eacute;ns do s&eacute;culo 19 no Sullivan’s Cove e Salamanca Place em Hobart, visitando os mercados coloridos que surgem a cada fim de semana.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[3. Caminhe entre a vida selvagem]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-tasmanias-island-heritage-hl03.jpg" alt="Demônio da Tasmânia">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Dem&ocirc;nio da Tasm&acirc;nia]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Prepare a mochila e descubra algumas das melhores trilhas para caminhada da Austr&aacute;lia. A Trilha Overland de Cradle Mountain ao Lake St. Clair e a Bay of Fires Walk, pela linha costeira do nordeste, s&atilde;o duas melhores da Austr&aacute;lia. A Freycinet Experience Walk, uma caminhada de 4 dias com guia, cobre a extens&atilde;o da Pen&iacute;nsula de Freycinet. Siga um guia na Maria Island Walk ou explore-a &agrave; vontade. Maravilhe-se com o pinheiro Huon, um dos mais antigos organismos vivos na terra na trilha para caminhada da Tahune Forest. Saiba mais sobre o extinto Tigre da Tasm&acirc;nia e fique cara a cara com o Dem&ocirc;nio da Tasm&acirc;nia, amea&ccedil;ado de extin&ccedil;&atilde;o, ou com um esquivo ornitorrinco. Observe o papagaio de barriga amarela, um dos p&aacute;ssaros mais raros do mundo.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[4. Aventuras no mundo selvagem]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-tasmanias-island-heritage-hl04.jpg" alt="Voo Panorâmico, Gordon River">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Voo Panor&acirc;mico, Gordon River]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Aproveite a serenidade de um cruzeiro ou um caiaque no silencioso Gordon River ou desafie-se em um rafting nas r&aacute;pidas corredeiras no Franklin River. Esquie, caminhe ou escale pelos terrenos acidentados do Ben Lomond National Park. Visite as remotas ilhas da Tasm&acirc;nia, incluindo Bruny Island, King Island e Flinders Island. Conhe&ccedil;a o guardi&atilde;o do farol na remota Bonnet Island e assista &agrave; volta dos pequenos pinguins que chegam do mar ap&oacute;s um dia de travessuras. Explore a hist&oacute;rica cidade de Stanley, escale ou pegue o telef&eacute;rico at&eacute; o topo do ‘The Nut’, procure safiras perto de Derby, cidade mineradora de estanho ou fa&ccedil;a um voo panor&acirc;mico para ter uma vis&atilde;o abrangente do vasto ambiente selvagem.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[5. Gastronomia e vinhos]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-tasmanias-island-heritage-hl05.jpg" alt="Vinícola, Tamar Valley">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Vin&iacute;cola, Tamar Valley]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Desfrute da nova safra de vinhos de clima fresco aclamados internacionalmente produzidos nas regi&otilde;es vin&iacute;colas dos vales de Coal River, Derwent e Huon. Com e beba &agrave; vontade pelas vin&iacute;colas de clima fresco da Rota Tur&iacute;stica de Tamar Valley. Passeie pelas galerias de antiguidades, pelas lojas de artesanato e pelos mercados da vila em estilo georgiano de Evandale. Experimente os melhores whiskies e as melhores cervejas da Austr&aacute;lia e saboreie pratos org&acirc;nicos ricos, como frutas de dar &aacute;gua na boca, ma&ccedil;&atilde;s suculentas, carne de gado bovino alimentado no pasto e frutos do mar frescos pescados nas puras &aacute;guas do Oceano Ant&aacute;rtico. Deixe espa&ccedil;o para os deliciosos chocolates artesanais, os saborosos queijos e os sorvetes caseiros produzidos nas leiterias locais.
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights></con_Body>
+    <con_RHSModules><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[
+        <table width="298" border="0" cellspacing="0" cellpadding="0">
+            <tbody>
+                <tr>
+                    <td align="center" valign="top">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 25px;"></td>
+                                <td><!-- #BeginLibraryItem "/Library/sitenav.lbi" -->
+                                <script language="JavaScript1.2" src="../../static/js/stmenu.js" type="text/javascript"></script>
+                                <!-- #EndLibraryItem --></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- Google Map Start -->
+                    <script type="text/javascript">
+function fireEvent(obj,evt){
+var fireOnThis = obj;
+if( document.createEvent ) {
+var evObj = document.createEvent('MouseEvents');
+evObj.initEvent( evt, true, false );
+fireOnThis.dispatchEvent(evObj);
+} else if( document.createEventObject ) {
+fireOnThis.fireEvent('on'+evt);
+}
+}
+function clickLink(linkobj) {
+if (linkobj.getAttribute('onclick') == null) {
+if (linkobj.getAttribute('href')) document.location = linkobj.getAttribute('href');
+}
+else linkobj.onclick();
+}
+function loadjscssfile(filename, filetype){
+if (filetype=="js"){ //if filename is a external JavaScript file
+var fileref=document.createElement('script')
+fileref.setAttribute("type","text/javascript")
+fileref.setAttribute("src", filename)
+}
+else if (filetype=="css"){ //if filename is an external CSS file
+var fileref=document.createElement("link")
+fileref.setAttribute("rel", "stylesheet")
+fileref.setAttribute("type", "text/css")
+fileref.setAttribute("href", filename)
+fileref.setAttribute("media", "print")
+}
+if (typeof fileref!="undefined")
+document.getElementsByTagName("head")[0].appendChild(fileref)
+}
+</script>
+                    <script type="text/javascript">
+var icheckk=0;
+jQuery.each(jQuery.browser, function(i, val) {
+if(i=="msie" && jQuery.browser.version.substr(0,3)=="7.0")
+icheckk=1;
+});
+function myfun()
+{
+loadjscssfile("../../static/css/thickbox.css", "css");
+if(icheckk==1)
+{
+tb_show("<b><img src='../../static/maps/images/printIcon.gif' originalAttribute='src' originalPath='../../static/maps/images/printIcon.gif' /><a href='../../static/maps/tasmania/bigmap.html' originalAttribute='href' originalPath='../../static/maps/tasmania/bigmap.html' target='_blank'>&nbsp;Print</a></b>","../../static/maps/tasmania/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=800",false);
+}
+else
+{
+tb_show("<b><img src='../../static/maps/images/printIcon.gif' originalAttribute='src' originalPath='../../static/maps/images/printIcon.gif' /><a href='javascript:window.print()' originalAttribute='href' originalPath='javascript:window.print()'>&nbsp;Print</a></b>","../../static/maps/tasmania/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=800",false);
+}
+}
+</script>
+                    <iframe name="FRAMENAME" width="249" height="380" src="../../static/maps/tasmania/index.html" frameborder="0" scrolling="no" style="border: 1px solid black; height: 355px; padding-bottom: 5px; margin-bottom: 20px; float: left; background-color: black;"></iframe><!-- Google Map end -->
+                    <div class="subpage-video-thumb" style="text-align: left;"><a href="#" onclick="moduleTrackingWithTitle('lightbox-video','',false,'nationallandscapes-tasmaniasislandheritageptbr');" data-reveal-id="modalVideo"><img alt="" src="/contentimages/Campaigns/national-landscapes-video-pt-br.jpg" /></a> </div>
+                    <div class="reveal-modal video" id="modalVideo" style-="z-index: 103;"><a class="close-reveal-modal"><span class="icon"></span></a>
+                    <div class="video" style="visibility: visible !important;"><iframe width="560" height="315" src="//www.youtube.com/v/EjGZ3MaX9pE?version=3&amp;hl=en_GB" frameborder="0"></iframe></div>
+                    </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    ]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule><Listing isTemplate="1">
+<anc_List1><![CDATA[/pt-br/explore/states/tas/tas-walking.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[Ideias australianas]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/pt-br/AccommodationSearch.ignore]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/pt-br/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/pt-br/AttractionSearchResults.ignore]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/pt-br/DestinfoSearchResults.ignore]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/pt-br/EventsSearch.xml]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/pt-br/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/pt-br/hire.ignore]]></anc_Hire>
+<anc_Info><![CDATA[/pt-br/InfoSearchResults.ignore]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/pt-br/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/pt-br/TourSearchResults.ignore]]></anc_Tour>
+<anc_Transport><![CDATA[/pt-br/transport.ignore]]></anc_Transport>
+<hdl_Title><![CDATA[Planeje sua viagem]]></hdl_Title>
+<language><![CDATA[PTB]]></language>
+<stf_Accomodation><![CDATA[Accommodation]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[Attractions]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[Find a Travel Agent near you]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[Destination Information]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[Derwent Valley and Central Highlands;Flinders Island;King Island;Freycinet and the East Coast;Devonport, Cradle Mountain and the Great Western Tiers;Huon DEntrecasteaux Bruny;Strahan and The West Coast]]></stf_DomesticRegion>
+<stf_Events><![CDATA[Events]]></stf_Events>
+<stf_Hire><![CDATA[Hire ]]></stf_Hire>
+<stf_Informationservices><![CDATA[Information Services]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[Tasmania]]></stf_StateFilter>
+<stf_Tours><![CDATA[Tours]]></stf_Tours>
+<stf_Transport><![CDATA[Transport]]></stf_Transport>
+</PlanYourVisit></con_RHSModules>
+    <con_Category></con_Category>
+    <lst_Subpages>
+    </lst_Subpages>
+</StandardCampaignLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

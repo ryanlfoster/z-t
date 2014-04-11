@@ -21,7 +21,7 @@ public class IconBuilder extends PageBuilder {
     private static final String TEMPLATE = "/apps/tourismaustralia/templates/cityState";
 
     @Override
-    public void createPage(String oldPath, String newPath, ResourceResolver resourceResolver) throws WCMException {
+    public void createPage(String oldPath, String newPath, ResourceResolver resourceResolver, boolean addMixin) throws WCMException {
         PageManager pageManager = resourceResolver.adaptTo(PageManager.class);
         Page page = pageManager.getPage(PageBuilder.CRX_ROOT_PATH + newPath);
 

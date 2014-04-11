@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="22244" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[홈]]></headline>
+            <href><![CDATA[/ko/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Tools and Campaigns]]></headline>
+            <href><![CDATA[/ko/tools-campaigns.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[호주 관광 명소(내셔널 랜드스케이프)]]></headline>
+            <href><![CDATA[/ko/nationallandscapes.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[그레이트 오션 로드]]></headline>
+            <href><![CDATA[/ko/nationallandscapes/great-ocean-road.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/Campaigns/national-landscapes-great-ocean-road.jpg]]></img_background>
+    <hdl_Title><![CDATA[그레이트 오션 로드]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/national-landscapes-great-ocean-road-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/Campaigns/national-landscapes-great-ocean-road-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[yes]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[멜버른 근처의 질롱에서부터 장엄한 남극해를 따라 포틀랜드까지 굽이쳐 흐르는 그레이트 오션 로드를 여행하며 자연 가까이로 다가가 보세요.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[그레이트 오션 로드, 빅토리아 주, 멜버른, 호주 해안, 호주 해안의 휴가, 토키, 벨스 비치, 호주 서핑, 호주에서 파도타기, 론, 12사도상.  아폴로 베이, 앵글시, 오트웨이 산맥, 그레이트 오트웨이 국립 공원, 고래관광, 호주 고래관광, 와남불, 포틀랜드, 그레이트 오션 워크, 그레이트 서던 투어링 루트]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[상세 정보]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[호주 내셔널 랜드스케이프: 그레이트 오션 로드 - 호주 관광청]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        멜버른 근처의 질롱에서부터 장엄한 남극해를 따라 포틀랜드까지 굽이쳐 흐르는 그레이트 오션 로드를 여행하며 자연 가까이로 다가가 보세요.
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <StandardCampaignLayout isTemplate="1">
+    <opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+    <hdl_Title><![CDATA[]]></hdl_Title>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+    <con_Banner><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<DIV id=headerimage>
+<SCRIPT type=text/javascript src="../../static/js/jquery.cycle.all.latest.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+jQuery(document).ready(function() {
+jQuery('#headersliderwrapper').cycle({
+        fx:'fade',
+        slideExpr: '.headerslide'
+    });
+});
+</SCRIPT>
+
+<DIV id=headersliderwrapper>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-gor-01.jpg"> 
+<DIV class=headerslideinfo>12사도상, 빅토리아</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-gor-02.jpg"> 
+<DIV class=headerslideinfo>그레이트 오션 로드, 빅토리아</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-gor-03.jpg"> 
+<DIV class=headerslideinfo>조안나 비치의 일몰, 빅토리아</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-gor-04.jpg"> 
+<DIV class=headerslideinfo>로키 비치, 빅토리아</DIV></DIV></DIV></DIV>
+<DIV id=subpage-header-overlay></DIV>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule></con_Banner>
+    <con_Body><TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[그레이트 오션 로드]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        멜버른 근처 토키에서 포트랜드까지 뻗어나가는 그레이트 오션 로드의 굽이마다 자연의 드라마가 펼쳐집니다. 험준한 절벽과 뒤얽힌 삼림, 한적한 해변이 만나는 남극해에서 순수한 자연의 힘을 느껴보세요. 토키에서 서핑을 하고 웅장한 12사도상을 감상하는 한편, 울창한 그레이트 오트웨이 국립공원을 거닐며 폭포수를 지나갑니다. 질롱과 타워 힐, 콘다 호수에서 이 지역의 풍성한 원주민 역사를 살펴보고 유서 깊은 워남불에서는 고래를 구경하세요. 론, 아폴로 베이, 포트 페어리 같은 해안 고장에 머물며 여정을 이어나갑니다.
+        <p><strong>그레이트 오션 로드의 하이라이트 5가지</strong></p>
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[1. 파도, 만, 해변]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-great-ocean-road-hl01.jpg" alt="Bells Beach, VIC">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Bells Beach, VIC]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        토키, 쟌 주크, 포인트 아디스나 명물 벨스 비치에서 빅토리아의 서프 코스트(Surf Coast)가 자랑하는 파도를 타보세요. 휴양지인 앵글시와 론 그리고 아폴로 베이에서 가족과 함께 보트를 타고 수영과 낚시도 즐겨볼까요? 해안 모서리를 돌아서면 바로 태고의 석회암 기둥 형상인 12사도상이 반긴답니다. 관광 헬리콥터를 타거나 절벽 위 전망대에서 이 12사도상을 구경하세요. 포트 캠벨 국립공원의 로크 아드 난파선 바다에서 즐기는 스쿠버나 베이오브아일랜드 해안공원(Bay of Islands Coastal Park)을 걷는 하이킹도 놓치면 아깝습니다. 워남불, 포트랜드, 포트 페어리에서는 쉽렉 코스트(Shipwreck Coast)의 역사와 아울러 바람이 연출한 환상의 경관을 만끽하세요.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[2. 우림, 산, 국립공원]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-great-ocean-road-hl02.jpg" alt="Otway, VIC">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Otway, VIC]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        산악자전거를 타고 오트웨이 산맥을 지나가거나 오트웨이 플라이 워크(Otway Fly Walk)를 따라 태고의 이끼가 낀 나무 위를 가로지릅니다. 그레이트 오트웨이 국립공원에서는 호주 본토에서 가장 오래된 등대인 케이프 오트웨이 등대 꼭대기까지 올라가 보세요. 하이킹이나 말을 타고 울창한 삼림을 지나 우레처럼 쏟아지는 폭포수로 향하는 시간 또한 뜻밖의 즐거움이랍니다. 자전거를 타고 웨스트 바원 저수지(West Barwon Reservoir)에서 엘리자베스 호수까지 달리거나 인적 없는 해변을 이리저리 거닐고 포트 캠벨 국립공원에서 난파선 역사에 대해 살펴보세요. 타워힐 주립 보호구(Tower Hill State Reserve)에서 산책로를 걸으면 습지와 지질학 그리고 원주민 음식 문화의 세계로 들어가게 됩니다.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[3. 크고 작은 야생동물]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-great-ocean-road-hl03.jpg" alt="Kangaroos, VIC">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Kangaroos, VIC]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        벨라린 반도의 퀸즈클리프(Queenscliff)에서 돌고래와 함께 유영을 즐기고 앵글시에서는 풀을 뜯는 캥거루 곁에서 골프를 칩니다. 그레이트 오트웨이 국립공원에서는 엘리자베스 호수의 오리너구리 서식지 옆으로 카누를 타고 어두워지면 멜바 걸리(Melba Gully)의 반딧불을 구경할 수 있지요. 타워 힐 주립 야생동물 보호구에서 에뮤와 까치기러기, 바늘두더지와 물새를 가까이 구경합니다. 6~9월이면 와남불의 로간스 비치(Logans Beach) 앞바다에서 남방고래가 새끼를 낳는 광경을 지켜보세요. 포트랜드에서 고래를 더 구경한 다음, 크루즈나 카약으로 케이프 브리지워터의 엄청난 물개 서식지로 다가가 자세히 살펴볼까요?
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[4. 가슴 가득 바다를 보듬는 여정]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-great-ocean-road-hl04.jpg" alt="Twelve Apostles, VIC">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Twelve Apostles, VIC]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        차를 몰고 토키에서 와남불까지 거친 해안선을 따라 그레이트 서던 투어링 루트(Great Southern Touring Route)를 달려보세요. 앵글시, 론과 아폴로 베이 사이에서 바라보는 남극해의 장엄한 풍광은 단연 일품이랍니다. 아찔한 해안절벽을 지나는 하이웨이가 스릴을 더하는 구간이지요. 그레이트 오션 워크(Great Ocean Walk)의 전구간이나 일부 구간을 따라 가면 해안지대를 좀 더 가까이서 볼 수 있습니다. 이 트랙은 아폴로 베이에서 12사도상까지 91km를 구불구불 이어집니다. 당일 하이킹으로 습지 삼림과 절벽 위 그리고 외딴 해변을 걷거나 그림 같은 장소에서 야영을 하며 8일에 걸쳐 전 구간에 도전해 보세요.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[5. 다양하고 풍요로운 원주민 역사]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-great-ocean-road-hl05.jpg" alt="Budj Bim, Lake Condah, VIC">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Budj Bim, Lake Condah, VIC]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        전통유산지인 콘다 호수로 향해 원주민 부락에 남겨진 석조 주택과 물고기 포획 도구를 구경하세요. 또 타워 힐 근처에서는 사화산 도보 투어에 참가해 보세요. 3만년 전 화산이 분출할 때까지 원주민이 거주했던 곳이랍니다. 질롱의 원주민 센터에서 부시터커를 맛보고 원주민 예술 공예품을 둘러보며 전통 정원도 거닐어 보세요. 가까운 윌리엄 버클리 디스커버리 트레일(William Buckley Discovery Trail)에서는 유럽 식민지 이후의 원주민 역사를 더듬어 볼 수 있습니다. 바론 강의 욜린코 파크 원주민 가든(Yollinko Park Aboriginal Garden)에서 조개무지와 토종 식물 그리고 고대 야영장 유적을 둘러보세요.
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights></con_Body>
+    <con_RHSModules><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<TABLE cellSpacing=0 cellPadding=0 width=298 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top align=center>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD style="WIDTH: 25px"></TD>
+<TD><!-- #BeginLibraryItem "/Library/sitenav.lbi" -->
+<SCRIPT language=JavaScript1.2 type=text/javascript src="../../static/js/stmenu.js"></SCRIPT>
+<!-- #EndLibraryItem --></TD></TR></TBODY></TABLE><!-- Google Map Start -->
+<SCRIPT type=text/javascript>
+function fireEvent(obj,evt){
+var fireOnThis = obj;
+if( document.createEvent ) {
+var evObj = document.createEvent('MouseEvents');
+evObj.initEvent( evt, true, false );
+fireOnThis.dispatchEvent(evObj);
+} else if( document.createEventObject ) {
+fireOnThis.fireEvent('on'+evt);
+}
+}
+function clickLink(linkobj) {
+if (linkobj.getAttribute('onclick') == null) {
+if (linkobj.getAttribute('href')) document.location = linkobj.getAttribute('href');
+}
+else linkobj.onclick();
+}
+function loadjscssfile(filename, filetype){
+if (filetype=="js"){ //if filename is a external JavaScript file
+var fileref=document.createElement('script')
+fileref.setAttribute("type","text/javascript")
+fileref.setAttribute("src", filename)
+}
+else if (filetype=="css"){ //if filename is an external CSS file
+var fileref=document.createElement("link")
+fileref.setAttribute("rel", "stylesheet")
+fileref.setAttribute("type", "text/css")
+fileref.setAttribute("href", filename)
+fileref.setAttribute("media", "print")
+}
+if (typeof fileref!="undefined")
+document.getElementsByTagName("head")[0].appendChild(fileref)
+}
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+var icheckk=0;
+jQuery.each(jQuery.browser, function(i, val) {
+if(i=="msie" && jQuery.browser.version.substr(0,3)=="7.0")
+icheckk=1;
+});
+function myfun()
+{
+loadjscssfile("../../static/css/thickbox.css", "css");
+if(icheckk==1)
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='../../static/maps/ko/greatoceanroad/bigmap.html'  target='_blank'>&nbsp;인쇄|닫습니다|&nbsp;또는 Esc 키를 누르십시오</a></b>","../../static/maps/ko/greatoceanroad/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+else
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='javascript:window.print()' >&nbsp;인쇄|닫습니다|&nbsp;또는 Esc 키를 누르십시오</a></b>","../../static/maps/ko/greatoceanroad/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+}
+         </SCRIPT>
+<IFRAME style="MARGIN-BOTTOM: 20px; BORDER-TOP: black 1px solid; HEIGHT: 355px; BORDER-RIGHT: black 1px solid; BORDER-BOTTOM: black 1px solid; FLOAT: left; PADDING-BOTTOM: 5px; BORDER-LEFT: black 1px solid; BACKGROUND-COLOR: #333333" height=380 src="../../static/maps/ko/greatoceanroad/index.html" frameBorder=0 width=249 name=FRAMENAME scrolling=no></IFRAME><!-- Google Map end -->
+<DIV class=subpage-video-thumb style="TEXT-ALIGN: left"><A onclick="moduleTrackingWithTitle('lightbox-video','',false,'nationallandscapes-greatoceanroadko');" href="#" data-reveal-id="modalVideo"><IMG alt="" src="/contentimages/Campaigns/national-landscapes-video-ko.jpg"></A> </DIV>
+<DIV id=modalVideo class="reveal-modal video" style-="z-index: 103;"><A class=close-reveal-modal><SPAN class=icon></SPAN></A>
+<DIV class=video style="VISIBILITY: visible !important"><IFRAME height=315 src="//www.youtube.com/v/EjGZ3MaX9pE?version=3&amp;hl=en_GB" frameBorder=0 width=560></IFRAME></DIV></DIV></TD></TR></TBODY></TABLE>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule><Listing isTemplate="1">
+<anc_List1><![CDATA[/ko/explore/states/vic/vic-12-apostles.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[호주 아이디어 더]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/ko/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/ko/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/ko/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/ko/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/ko/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/ko/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/ko/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/ko/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/ko/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/ko/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/ko/Transport.aspx]]></anc_Transport>
+<hdl_Title><![CDATA[여행 계획 하기]]></hdl_Title>
+<language><![CDATA[KOR]]></language>
+<stf_Accomodation><![CDATA[숙박]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[Great Ocean Road area]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[관광지]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[가까운 여행사 찾기]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[여행지 정보]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[이벤트]]></stf_Events>
+<stf_Hire><![CDATA[렌탈]]></stf_Hire>
+<stf_Informationservices><![CDATA[일반 정보 안내]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[]]></stf_StateFilter>
+<stf_Tours><![CDATA[투어]]></stf_Tours>
+<stf_Transport><![CDATA[교통 ]]></stf_Transport>
+</PlanYourVisit></con_RHSModules>
+    <con_Category></con_Category>
+    <lst_Subpages>
+    </lst_Subpages>
+</StandardCampaignLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

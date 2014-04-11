@@ -9,6 +9,8 @@ import org.apache.sling.api.resource.PersistenceException;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ResourceResolver;
 import org.apache.sling.jcr.resource.JcrResourceConstants;
+import javax.jcr.Node;
+import javax.jcr.RepositoryException;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -21,20 +23,33 @@ public class ArticleBuilder extends PageBuilder {
     private static final String TEMPLATE = "/apps/tourismaustralia/templates/cityState";
 
     @Override
-    public void createPage(String oldPath, String newPath, ResourceResolver resourceResolver) throws WCMException {
+    public void createPage(String oldPath, String newPath, ResourceResolver resourceResolver, boolean addMixin) throws WCMException {
         PageManager pageManager = resourceResolver.adaptTo(PageManager.class);
         Page page = pageManager.getPage(PageBuilder.CRX_ROOT_PATH + newPath);
 
+        Resource pageResource;
+
         if (page == null) {
-            System.out.println("Importing: "+ PageBuilder.CRX_ROOT_PATH + oldPath);
+            System.out.println("Importing: " + PageBuilder.CRX_ROOT_PATH + oldPath);
             DefaultConsumerBaseFoundationService service = new DefaultConsumerBaseFoundationService();
             ConsumerBaseFoundationType cbf = service.getByPath(oldPath);
 
             page = pageManager.create(getPath(PageBuilder.CRX_ROOT_PATH + newPath, false), getPath(PageBuilder.CRX_ROOT_PATH
                     + newPath, true), TEMPLATE, null, true);
 
-            createHero(page,resourceResolver,cbf);
-            createSummery(page,resourceResolver,cbf);
+            if(addMixin){
+                pageResource = page.adaptTo(Resource.class);
+                Resource jcrContentResource = pageResource.getChild(JcrConstants.JCR_CONTENT);
+                try {
+                    jcrContentResource.adaptTo(Node.class).addMixin("cq:LiveSync");
+                } catch (RepositoryException e) {
+                    e.printStackTrace();
+                }
+            }
+
+
+            createHero(page, resourceResolver, cbf);
+            createSummery(page, resourceResolver, cbf);
             //System.out.println(cbf.getHdlTitle());
 
         }
@@ -45,10 +60,10 @@ public class ArticleBuilder extends PageBuilder {
         Resource jcrContentResource = pageResource.getChild(JcrConstants.JCR_CONTENT);
         try {
 
-            Map params = new HashMap<String,String>();
-            params.put("title",cbf.getHdlTitle());
-            params.put("image",cbf.getImgBackground());
-            params.put(JcrResourceConstants.SLING_RESOURCE_TYPE_PROPERTY,"tourismaustralia/components/content/hero");
+            Map params = new HashMap<String, String>();
+            params.put("title", cbf.getHdlTitle());
+            params.put("image", cbf.getImgBackground());
+            params.put(JcrResourceConstants.SLING_RESOURCE_TYPE_PROPERTY, "tourismaustralia/components/content/hero");
 
             resourceResolver.create(jcrContentResource, "hero", params);
             resourceResolver.commit();
@@ -63,11 +78,11 @@ public class ArticleBuilder extends PageBuilder {
         Resource jcrContentResource = pageResource.getChild(JcrConstants.JCR_CONTENT);
         try {
 
-            Map params = new HashMap<String,String>();
+            Map params = new HashMap<String, String>();
             //params.put("text",cbf.getStfDescription());
-            params.put("text",cbf.getTxtTeaser());
+            params.put("text", cbf.getTxtTeaser());
 
-            params.put(JcrResourceConstants.SLING_RESOURCE_TYPE_PROPERTY,"tourismaustralia/components/content/summery");
+            params.put(JcrResourceConstants.SLING_RESOURCE_TYPE_PROPERTY, "tourismaustralia/components/content/summery");
 
             resourceResolver.create(jcrContentResource, "summary", params);
             resourceResolver.commit();

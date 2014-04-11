@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="22229" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Accueil]]></headline>
+            <href><![CDATA[/fr/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Tools and Campaigns]]></headline>
+            <href><![CDATA[/fr/tools-campaigns.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Paysages nationaux d'Australie]]></headline>
+            <href><![CDATA[/fr/nationallandscapes.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[Le Centre rouge de l'Australie]]></headline>
+            <href><![CDATA[/fr/nationallandscapes/australias-red-centre.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/Campaigns/national-landscapes-australias-red-centre.jpg]]></img_background>
+    <hdl_Title><![CDATA[Le Centre rouge de l'Australie]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/national-landscapes-australias-red-centre-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/Campaigns/national-landscapes-australias-red-centre-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[yes]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[Retrouvez-vous dans le Centre rouge d'Australie, riche en culture aborig&egrave;ne et la beaut&eacute; aust&egrave;re de l'Outback. Visitez Uluru-Kata Tjuta et le Kings Canyon.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[Centre rouge, uluru, centre rouge Australie, chemin du centre rouge, ayers rock, ayers rock, ayers rock uluru, alice springs, uluru aborig&egrave;ne, Kata Tjuta, uluru kata tjuta, parc national de kata tjuta , kata tjuta national, les olgas, kings canyon]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[En savoir plus]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Paysages nationaux d'Australie: Le Centre rouge de l'Australie - Tourisme Australie]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        Retrouvez-vous dans le Centre rouge d'Australie, riche en culture aborig&egrave;ne et la beaut&eacute; aust&egrave;re de l'Outback. Visitez Uluru-Kata Tjuta et le Kings Canyon.
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <StandardCampaignLayout isTemplate="1">
+    <opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+    <hdl_Title><![CDATA[]]></hdl_Title>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+    <con_Banner><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<DIV id=headerimage>
+<SCRIPT type=text/javascript src="../../static/js/jquery.cycle.all.latest.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+jQuery(document).ready(function() {
+jQuery('#headersliderwrapper').cycle({
+        fx:'fade',
+        slideExpr: '.headerslide'
+    });
+});
+</SCRIPT>
+
+<DIV id=headersliderwrapper>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-acn-01.jpg"> 
+<DIV class=headerslideinfo>Uluru, Territoire du Nord</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-acn-02.jpg"> 
+<DIV class=headerslideinfo>Diable cornu</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-acn-03.jpg"> 
+<DIV class=headerslideinfo>Kata Tjuta, Territoire du Nord</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-acn-04.jpg"> 
+<DIV class=headerslideinfo>Alice Springs Desert Park, Territoire du Nord</DIV></DIV></DIV></DIV>
+<DIV id=subpage-header-overlay></DIV>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule></con_Banner>
+    <con_Body><TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Le Centre rouge de l'Australie]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        Vous pouvez vous perdre et vous retrouver dans le Centre rouge de l’Australie, un lieu riche en culture aborig&egrave;ne et ayant la beaut&eacute; aust&egrave;re de l’Outback. Vous trouverez aussi les merveilles naturelles d’Uluru, Kata Tjuta, les cha&icirc;nes MacDonnell Ranges et Kings Canyon. Explorez-les tous depuis Alice Springs, la ville de l’Outback encadr&eacute;e par des cha&icirc;nes de montagnes anciennes et des plaines sans fin. Ici, dans notre cœur rouge, vous pourrez monter &agrave; chameau, dormir &agrave; la belle &eacute;toile, nager dans les cours d’eau isol&eacute;s et d&eacute;couvrir les dimensions spirituelles de l’art aborig&egrave;ne.
+        <p><strong>Cinq choses uniques &agrave; propos de notre Centre rouge</strong></p>
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[1. L&eacute;gendes sans &acirc;ge, lieux sacr&eacute;s]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australias-red-centre-hl01.jpg" alt="Uluru Kata Tjuta National Park, NT">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Uluru Kata Tjuta National Park, NT]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Faites le tour d’Uluru &agrave; pied avec un guide Anangu et d&eacute;couvrez comment ce rocher a &eacute;t&eacute; cr&eacute;&eacute; par les esprits-anc&ecirc;tres du Temps du R&ecirc;ve selon la tradition Tjukuritja. Lisez leur histoire dans l’art rupestre ancien et visitez le Mutitjulu Waterhole (trou d’eau), la Kantju Gorge et le Centre culturel d’Uluru. Ensuite, suivez la Walpa Gorge ou la promenade de la Valley of the Winds &agrave; travers Kata Tjuta toute proche. Traversez Alice Springs sur un VTT peint en pointill&eacute;s, faites la balade de la Larapinta Trail avec un guide aborig&egrave;ne ou participez &agrave; un tour gastronomique avec un chef aborig&egrave;ne. D&eacute;couvrez l’art diversifi&eacute; et abondant de la r&eacute;gion, des sites d’art rupestres inaccessibles aux centres artistiques des communaut&eacute;s lointaines en passant par les galeries d’art contemporain d’Alice Springs.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[2. Les rudes aventures de l’Outback]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australias-red-centre-hl02.jpg" alt="Uluru, NT">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Uluru, NT]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Admirez Uluru &agrave; moto, &agrave; dos de chameau ou en h&eacute;lico Depuis Alice Springs, faites du v&eacute;lo jusqu’&agrave; Simpson’s Gap ou prenez un vol en montgolfi&egrave;re &agrave; l’aube. Marchez jusqu’&agrave; la bordure du Kings Canyon pour des vues &agrave; couper le souffle sur les promontoires accident&eacute;s et les gorges du parc national de Watarrka. Prenez part &agrave; un tour en 4x4 sur la Mereenie Loop Rd, qui longe l’immensit&eacute; sableuse du parc national de Finke Gorge et le site aborig&egrave;ne fascinant de la r&eacute;serve naturelle de Tnorala (Gosse Bluff).
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[3. Les paysages inoubliables du d&eacute;sert]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australias-red-centre-hl03.jpg" alt="Ormiston Gorge, NT">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Ormiston Gorge, NT]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Observez le site d'Uluru, inscrit au Patrimoine mondial, refl&eacute;ter la lumi&egrave;re et le climat avec des couleurs si vives qu’elles &eacute;clipsent le coucher du soleil. Dans la cha&icirc;ne des West MacDonnell Ranges, baignez-vous dans les gorges de Glen Helen, d’Ormiston ou le Big Hole d’Ellery Creek. Observez les parois raides de Standley’s Chasm flamboyer au soleil de midi. Fl&acirc;nez autour de l’oasis d&eacute;sertique de Palm Valley, o&ugrave; vous trouverez le palmier de Red Cabbage (chou rouge), dans le parc national de Finke Gorge. Dans le parc national de Watarrka, vous pourrez explorer les d&ocirc;mes rocheux &eacute;rod&eacute;s de Lost City (la ville perdue) et les bassins tropicaux du Jardin d’Eden.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[4. Des voyages aux horizons sans fin]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australias-red-centre-hl04.jpg" alt="Red Centre, NT">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Red Centre, NT]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Suivez la piste de Larapinta le long de l’&eacute;pine des cha&icirc;nes de montagnes de West MacDonnell Ranges, &agrave; travers Simpsons Gap, et les gorges d’Ormiston et de Glen Helen. Faites des randonn&eacute;es d’une journ&eacute;e, ou bien choisissez des marches faciles ou difficiles parmi les douze sections de la piste. Grimpez sur des escarpements anciens pour voir la flore et la faune australiennes et campez sous le ciel du d&eacute;sert aux millions d’&eacute;toiles. Vous pouvez aussi vous plonger dans des perspectives multicolores tout en suivant en voiture la Red Centre Way depuis Alice Spring. Le voyage comprend la cha&icirc;ne des West MacDonnell Ranges, le parc national de Finke Gorge, Kings Canyon et le parc national d’Uluru-Kata Tjuta.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[5. Une riche histoire pionni&egrave;re]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australias-red-centre-hl05.jpg" alt="Alice Springs Telegraph Station, NT">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Alice Springs Telegraph Station, NT]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Plongez-vous dans la riche histoire pionni&egrave;re du Centre rouge &agrave; Alice Springs, une ville moderne b&acirc;tie sur l’histoire des chameliers afghans, des docteurs volants et des courageux pionniers. Visitez le Royal Flying Doctor Service (service des m&eacute;decins volants), la premi&egrave;re organisation m&eacute;dicale de son genre dans le monde. Visitez le poste t&eacute;l&eacute;graphique historique d’Alice Springs, o&ugrave; la ville est n&eacute;e, et allez prendre un cours dans la plus grande salle de classe au monde – la School of Air (l’&eacute;cole des ondes) D&eacute;couvrez les d&eacute;fis des premiers pionniers gr&acirc;ce &agrave; une promenade autoguid&eacute;e sur la Flynn Trail.
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights></con_Body>
+    <con_RHSModules><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<TABLE cellSpacing=0 cellPadding=0 width=298 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top align=center><!-- Google Map Start -->
+<SCRIPT type=text/javascript>
+function fireEvent(obj,evt){
+ var fireOnThis = obj;
+ if( document.createEvent ) {
+   var evObj = document.createEvent('MouseEvents');
+   evObj.initEvent( evt, true, false );
+   fireOnThis.dispatchEvent(evObj);
+ } else if( document.createEventObject ) {
+   fireOnThis.fireEvent('on'+evt);
+ }
+}
+function clickLink(linkobj) {
+if (linkobj.getAttribute('onclick') == null) {
+if (linkobj.getAttribute('href')) document.location = linkobj.getAttribute('href');
+     }
+     else linkobj.onclick();
+}
+function loadjscssfile(filename, filetype){
+ if (filetype=="js"){ //if filename is a external JavaScript file
+  var fileref=document.createElement('script')
+  fileref.setAttribute("type","text/javascript")
+  fileref.setAttribute("src", filename)
+ }
+ else if (filetype=="css"){ //if filename is an external CSS file
+  var fileref=document.createElement("link")
+  fileref.setAttribute("rel", "stylesheet")
+  fileref.setAttribute("type", "text/css")
+  fileref.setAttribute("href", filename)
+  fileref.setAttribute("media", "print")
+ }
+if (typeof fileref!="undefined")
+document.getElementsByTagName("head")[0].appendChild(fileref)
+}
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+var icheckk=0;
+jQuery.each(jQuery.browser, function(i, val) {
+if(i=="msie" && jQuery.browser.version.substr(0,3)=="7.0")
+icheckk=1;
+});
+function myfun()
+{
+loadjscssfile("../../static/css/thickbox.css", "css");
+if(icheckk==1)
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='../../static/maps/fr/australiasredcentre/bigmap.html' target='_blank'>&nbsp;Imprimer|Proche|</a></b>","../../static/maps/fr/australiasredcentre/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+else
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='javascript:window.print()' >&nbsp;Imprimer|Proche|</a></b>","../../static/maps/fr/australiasredcentre/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+}
+</SCRIPT>
+<IFRAME style="MARGIN-BOTTOM: 20px; BORDER-TOP: black 1px solid; HEIGHT: 355px; BORDER-RIGHT: black 1px solid; BORDER-BOTTOM: black 1px solid; FLOAT: left; PADDING-BOTTOM: 5px; BORDER-LEFT: black 1px solid; BACKGROUND-COLOR: #333" height=380 src="../../static/maps/fr/australiasredcentre/index.html" frameBorder=0 width=249 name=FRAMENAME scrolling=no></IFRAME><!-- Google Map end -->
+<DIV class=subpage-video-thumb style="TEXT-ALIGN: left"><A onclick="moduleTrackingWithTitle('lightbox-video','',false,'nationallandscapes-redcentrefr');" href="#" data-reveal-id="modalVideo"><IMG alt="" src="/contentimages/Campaigns/national-landscapes-video-fr.jpg"></A> </DIV>
+<DIV id=modalVideo class="reveal-modal video" style-="z-index: 103;"><A class=close-reveal-modal><SPAN class=icon></SPAN></A>
+<DIV class=video style="VISIBILITY: visible !important"><IFRAME height=315 src="//www.youtube.com/v/EjGZ3MaX9pE?version=3&amp;hl=en_GB" frameBorder=0 width=560></IFRAME></DIV></DIV></TD></TR></TBODY></TABLE>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule><Listing isTemplate="1">
+<anc_List1><![CDATA[/fr/explore/events/nt-henley-on-todd.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[Id&eacute;es d&eacute;couverte]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/fr/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/fr/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/fr/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/fr/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/fr/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/fr/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/fr/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/fr/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/fr/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/fr/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/fr/Transport.aspx]]></anc_Transport>
+<hdl_Title><![CDATA[Planifiez votre voyage au Centre rouge de l'Australie]]></hdl_Title>
+<language><![CDATA[FRA]]></language>
+<stf_Accomodation><![CDATA[Accommodation]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[Attractions]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[Find a Travel Agent near you]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[Destination Information]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[Alice Springs &amp; Surrounds;Uluru/Kata Tjuta Region]]></stf_DomesticRegion>
+<stf_Events><![CDATA[Events]]></stf_Events>
+<stf_Hire><![CDATA[Hire]]></stf_Hire>
+<stf_Informationservices><![CDATA[Information Services]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[Northern Territory]]></stf_StateFilter>
+<stf_Tours><![CDATA[Tours]]></stf_Tours>
+<stf_Transport><![CDATA[Transport]]></stf_Transport>
+</PlanYourVisit></con_RHSModules>
+    <con_Category></con_Category>
+    <lst_Subpages>
+    </lst_Subpages>
+</StandardCampaignLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

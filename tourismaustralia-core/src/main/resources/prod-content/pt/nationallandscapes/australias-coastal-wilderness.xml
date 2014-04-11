@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="22223" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Página inicial]]></headline>
+            <href><![CDATA[/pt-br/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Tools and Campaigns]]></headline>
+            <href><![CDATA[/pt-br/tools-campaigns.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Paisagens Nacionais da Austrália]]></headline>
+            <href><![CDATA[/pt-br/nationallandscapes.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[Natureza selvagem da costa australiana]]></headline>
+            <href><![CDATA[/pt-br/nationallandscapes/australias-coastal-wilderness.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/Campaigns/national-landscapes-australias-coastal-wilderness.jpg]]></img_background>
+    <hdl_Title><![CDATA[Natureza selvagem da costa australiana]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/national-landscapes-australias-coastal-wilderness-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/Campaigns/national-landscapes-australias-coastal-wilderness-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[yes]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[Estendendo-se da costa sul da Nova Gales do Sul (New South Wales) at&eacute; East Gippsland em Victoria, a natureza selvagem da costa australiana &eacute; onde altas florestas, lagos e praias se encontram.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[Costa da Austr&aacute;lia, costa leste da Austr&aacute;lia, Parque Nacional de Croajingolong, Sapphire Coast, Parque Nacional de Ben Boyd, Point Hicks, Green Cape, Gabo Island, Montague Island, Parque Nacional de Mimosa Rocks, Bega, queijo de Bega, Merimbula]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Saiba mais]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Paisagens Nacionais da Austr&aacute;lia: Natureza selvagem da costa australiana - Tourism Austr&aacute;lia]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        Estendendo-se da costa sul da Nova Gales do Sul (New South Wales) at&eacute; East Gippsland em Victoria, a natureza selvagem da costa australiana &eacute; onde altas florestas, lagos e praias se encontram.
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <StandardCampaignLayout isTemplate="1">
+    <opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+    <hdl_Title><![CDATA[]]></hdl_Title>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+    <con_Banner><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<DIV id=headerimage>
+<SCRIPT type=text/javascript src="../../static/js/jquery.cycle.all.latest.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+jQuery(document).ready(function() {
+jQuery('#headersliderwrapper').cycle({
+        fx:'fade',
+        slideExpr: '.headerslide'
+    });
+});
+</SCRIPT>
+
+<DIV id=headersliderwrapper>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-acw-01.jpg"> 
+<DIV class=headerslideinfo>Betka Beach Mallacoota, VIC</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-acw-02.jpg"> 
+<DIV class=headerslideinfo>&Eacute;den da Ba&iacute;a de Twofold, NSW</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-acw-03.jpg"> 
+<DIV class=headerslideinfo>Parque Nacional Croajingolong da Enseada de Mallacoota, VIC</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-acw-04.jpg"> 
+<DIV class=headerslideinfo>Observa&ccedil;&atilde;o de baleias</DIV></DIV></DIV></DIV>
+<DIV id=subpage-header-overlay></DIV>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule></con_Banner>
+    <con_Body><TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Natureza selvagem da costa australiana]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        Estendendo-se da costa sul da Nova Gales do Sul (New South Wales) at&eacute; East Gippsland em Victoria, a natureza selvagem da costa australiana &eacute; onde altas florestas, lagos e praias se encontram. Caminhe e acampe ao longo da orla costeira vazia e selvagem, surfe e fa&ccedil;a snorkel em praias cercadas de cerrados e ainda passeie de canoa em lagos majestosos. Aprecie as baleias, golfinhos, focas e pinguins, jante frutos do mar rec&eacute;m-capturados e acompanhe a hist&oacute;ria abor&iacute;gene da &aacute;rea em locais cheios de fragmentos antigos. Hospede-se em cidades bonitas tais como Bermagui, Bega e Mallacoota e suba aos far&oacute;is hist&oacute;ricos de Point Hicks e Green Cape.
+        <p><strong>Quatro coisas para fazer na natureza selvagem deste litoral intocado</strong></p>
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[1. Expanda o seu amor pela natureza em florestas e ilhas, lagos e praias]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australias-coastal-wilderness-hl01.jpg" alt="Drummer Rainforest Walk, VIC">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Drummer Rainforest Walk, VIC]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Visite a maior col&ocirc;nia conhecida do mundo de pequenos pinguins na Gabo Island. Ou cruze at&eacute; Montague Island para ver focas, pinguins e p&aacute;ssaros marinhos pelos c&eacute;us. Aviste baleias em Eden, Boyds Tower, no Parque Nacional Ben Boyd ou em Point Hicks, no Parque Nacional Croajingolong. As praias, as florestas tropicais exuberantes e os picos de granito s&atilde;o protegidos por uma Reserva de Biosfera Mundial. No ver&atilde;o e na primavera voc&ecirc; pode ver o Lago Elusive orlado de flores silvestres e orqu&iacute;deas brilhantes. Fa&ccedil;a caminhadas pela trilha Kangarutha do Parque Nacional de Bournda para ouvir o farfalhar e o canto dos p&aacute;ssaros do brejo.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[2. Relaxe em curiosas cidades litor&acirc;neas]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australias-coastal-wilderness-hl02.jpg" alt="South Coast, NSW">]]></img_MainImage>
+                    <stf_Caption><![CDATA[South Coast, NSW]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        A tranquila Barmagui &eacute; conhecida por sua pesca, mas voc&ecirc; tamb&eacute;m pode nadar e surfar nas praias ou passear de canoa nas proximidades do Parque Nacional de Mimosa Rocks. Fa&ccedil;a surfe, navegue pelos lagos de &aacute;gua doce ou mergulhe nas &aacute;guas claras da costa. Aprecie as baleias e mergulhe nos destro&ccedil;os do Eden e relaxe na bonita Mallacoota, que fica entre as amplas praias de areia branca e as tranquilas enseadas e rios. Marlo e Bemm River s&atilde;o ambos grandes bases para a explora&ccedil;&atilde;o da costa acidentada do Cape Conran Coastal Park.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[3. Mergulhe nas aventuras costeiras]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australias-coastal-wilderness-hl03.jpg" alt="Lighthouse Track, VIC">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Lighthouse Track, VIC]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Caminhe pela trilha de caminhada Light to Light, que se estende de Boyds Tower at&eacute; Green Cape. No Parque Nacional de Croajingolong voc&ecirc; pode passear de canoa na Wingan Inlet, fazer caminhadas nas dunas de areia ou fazer a escalada &iacute;ngreme at&eacute; o Genoa Peak para ter vistas panor&acirc;micas de Bass Straight. Outra grande escalada &eacute; at&eacute; o topo do farol mais alto da Austr&aacute;lia, em Point Hicks, o primeiro lugar na Austr&aacute;lia avistado pelo Capit&atilde;o Cook.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[4. Deleite-se com a comida regional]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australias-coastal-wilderness-hl04.jpg" alt="Disaster Bay Chillies, Eden, NSW">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Disaster Bay Chillies, Eden, NSW]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Frutos do mar frescos abundam ao longo desta costa e voc&ecirc; encontrar&aacute; restaurantes e lojas de frutos do mar de qualidade superior de Tathra a Mallacoota.Pesque atum e marlin em um fretamento de pesca em mar profundo em Bermagui e regale-se com ostras frescas em Pambula e Merimbula, onde a fazenda de ostra oferece passeios regulares. A panor&acirc;mica estrada costeira entre Tathra e Bermagui &eacute; pontilhada de caf&eacute;s, lojas de alimentos e bebidas, vin&iacute;colas e galerias de arte. O interior liga um pa&iacute;s de leiterias exuberantes e Bega, onde voc&ecirc; pode aprender sobre a orgulhosa tradi&ccedil;&atilde;o da cidade, a fabrica&ccedil;&atilde;o de queijo no centro de tradi&ccedil;&atilde;o do queijo.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[5. Siga os passos dos abor&iacute;genes]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australias-coastal-wilderness-hl05.jpg" alt="Two Fold Bay, Eden, NSW">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Two Fold Bay, Eden, NSW]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Aprecie os fragmentos abor&iacute;genes antigos – restos de conchas, pedras, ossos e fogueira de carv&atilde;o – na trilha de caminhada de Pabul River no Parque Nacional de Ben Boyd. H&aacute; mais rel&iacute;quias espalhadas em Jackson Crossing, no Snowy River, ou no extremo sul do Parque Nacional de Croajingolong. Mergulhe em armaz&eacute;ns de tripula&ccedil;&otilde;es totalmente abor&iacute;genes que ensinaram seus capit&atilde;es europeus como trabalhar cooperativamente com baleias assassinas na Two Fold Bay.
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights></con_Body>
+    <con_RHSModules><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<TABLE cellSpacing=0 cellPadding=0 width=298 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top align=center>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD style="WIDTH: 25px"></TD>
+<TD><!-- #BeginLibraryItem "/Library/sitenav.lbi" -->
+<SCRIPT language=JavaScript1.2 type=text/javascript src="../../static/js/stmenu.js"></SCRIPT>
+<!-- #EndLibraryItem --></TD></TR></TBODY></TABLE><!-- Google Map Start -->
+<SCRIPT type=text/javascript>
+function fireEvent(obj,evt){
+var fireOnThis = obj;
+if( document.createEvent ) {
+var evObj = document.createEvent('MouseEvents');
+ evObj.initEvent( evt, true, false );
+fireOnThis.dispatchEvent(evObj);
+} else if( document.createEventObject ) {
+fireOnThis.fireEvent('on'+evt);
+}
+}
+function clickLink(linkobj) {
+     if (linkobj.getAttribute('onclick') == null) {
+ if (linkobj.getAttribute('href')) document.location = linkobj.getAttribute('href');
+     }
+     else linkobj.onclick();
+}
+function loadjscssfile(filename, filetype){
+ if (filetype=="js"){ //if filename is a external JavaScript file
+  var fileref=document.createElement('script')
+  fileref.setAttribute("type","text/javascript")
+  fileref.setAttribute("src", filename)
+ }
+ else if (filetype=="css"){ //if filename is an external CSS file
+  var fileref=document.createElement("link")
+  fileref.setAttribute("rel", "stylesheet")
+  fileref.setAttribute("type", "text/css")
+  fileref.setAttribute("href", filename)
+  fileref.setAttribute("media", "print")
+ }
+ if (typeof fileref!="undefined")
+  document.getElementsByTagName("head")[0].appendChild(fileref)
+}
+                  </SCRIPT>
+
+<SCRIPT type=text/javascript>
+var icheckk=0;
+jQuery.each(jQuery.browser, function(i, val) {
+if(i=="msie" && jQuery.browser.version.substr(0,3)=="7.0")
+icheckk=1;
+});
+function myfun()
+{
+loadjscssfile("../../static/css/thickbox.css", "css");
+if(icheckk==1)
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='../../static/maps/pt-br/australiascoastalwilderness/bigmap.html'  target='_blank'>&nbsp;Imprimir|Fechar|&nbsp;ou tecla Esc</a></b>","../../static/maps/pt-br/australiascoastalwilderness/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+else
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='javascript:window.print()' >&nbsp;Imprimir|Fechar|&nbsp;ou tecla Esc</a></b>","../../static/maps/pt-br/australiascoastalwilderness/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+}
+         </SCRIPT>
+<IFRAME style="MARGIN-BOTTOM: 20px; BORDER-TOP: black 1px solid; HEIGHT: 355px; BORDER-RIGHT: black 1px solid; BORDER-BOTTOM: black 1px solid; FLOAT: left; PADDING-BOTTOM: 5px; BORDER-LEFT: black 1px solid; BACKGROUND-COLOR: #333333" height=380 src="../../static/maps/pt-br/australiascoastalwilderness/index.html" frameBorder=0 width=249 name=FRAMENAME scrolling=no></IFRAME><!-- Google Map end -->
+<DIV class=subpage-video-thumb style="TEXT-ALIGN: left"><A onclick="moduleTrackingWithTitle('lightbox-video','',false,'nationallandscapes-coastalwildernessptbr');" href="#" data-reveal-id="modalVideo"><IMG alt="" src="/contentimages/Campaigns/national-landscapes-video-pt-br.jpg"></A> </DIV>
+<DIV id=modalVideo class="reveal-modal video" style-="z-index: 103;"><A class=close-reveal-modal><SPAN class=icon></SPAN></A>
+<DIV class=video style="VISIBILITY: visible !important"><IFRAME height=315 src="//www.youtube.com/v/EjGZ3MaX9pE?version=3&amp;hl=en_GB" frameBorder=0 width=560></IFRAME></DIV></DIV></TD></TR></TBODY></TABLE>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule><Listing isTemplate="1">
+<anc_List1><![CDATA[/pt-br/explore/icons/gippsland.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[Ideias australianas]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/pt-br/AccommodationSearch.ignore]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/pt-br/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/pt-br/AttractionSearchResults.ignore]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/pt-br/DestinfoSearchResults.ignore]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/pt-br/EventsSearch.xml]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/pt-br/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/pt-br/hire.ignore]]></anc_Hire>
+<anc_Info><![CDATA[/pt-br/InfoSearchResults.ignore]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/pt-br/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/pt-br/TourSearchResults.ignore]]></anc_Tour>
+<anc_Transport><![CDATA[/pt-br/transport.ignore]]></anc_Transport>
+<hdl_Title><![CDATA[Planeje sua viagem]]></hdl_Title>
+<language><![CDATA[PTB]]></language>
+<stf_Accomodation><![CDATA[Accommodation]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[Attractions]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[Find a Travel Agent near you]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[Destination Information]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[Events]]></stf_Events>
+<stf_Hire><![CDATA[Hire ]]></stf_Hire>
+<stf_Informationservices><![CDATA[Information Services]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[Victoria]]></stf_StateFilter>
+<stf_Tours><![CDATA[Tours]]></stf_Tours>
+<stf_Transport><![CDATA[Transport]]></stf_Transport>
+</PlanYourVisit></con_RHSModules>
+    <con_Category></con_Category>
+    <lst_Subpages>
+    </lst_Subpages>
+</StandardCampaignLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

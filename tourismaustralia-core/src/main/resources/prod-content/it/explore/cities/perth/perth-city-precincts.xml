@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="10769" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Pagina iniziale]]></headline>
+            <href><![CDATA[/it/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Esplora]]></headline>
+            <href><![CDATA[/it/explore.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Perth]]></headline>
+            <href><![CDATA[/it/explore/cities/perth.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[I quartieri centrali di Perth]]></headline>
+            <href><![CDATA[/it/explore/cities/perth/perth-city-precincts.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/explore-cities-perth-city-precincts.jpg]]></img_background>
+    <hdl_Title><![CDATA[I quartieri centrali di Perth]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/explore-cities-perth-city-precincts-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/explore-cities-perth-city-precincts-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[no]]></opt_PartnerLead>
+    <stf_description><![CDATA[Immergiti nell’atmosfera elegante e formale del centro di Perth, scoprendo bar di tendenza, ristoranti alla moda ed eleganti boutique lungo il fiume Swan.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[quartieri della citt&agrave; di Perth, Perth, Leederville, Mount Lawley, Northbridge, Subiaco]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Ulteriori Informazioni]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[I quartieri centrali di Perth]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[Scoprite i vivaci quartieri centrali di Perth.]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <Listing isTemplate="1">
+<anc_List1><![CDATA[/it/explore/cities/perth/perth-surrounds.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[Altri itinerari suggeriti in Australia]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/it/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/it/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/it/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/it/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/it/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/it/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/it/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/it/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/it/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/it/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/it/Transport.ignore]]></anc_Transport>
+<hdl_Title><![CDATA[Plan your visit to Perth]]></hdl_Title>
+<language><![CDATA[ITA]]></language>
+<stf_Accomodation><![CDATA[Perth Accommodation]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[Perth]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[Perth Attractions]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[Find a travel agent near you]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[Destination Information]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[Perth Events]]></stf_Events>
+<stf_Hire><![CDATA[Hire]]></stf_Hire>
+<stf_Informationservices><![CDATA[Information Services]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[Western Australia]]></stf_StateFilter>
+<stf_Tours><![CDATA[Tours]]></stf_Tours>
+<stf_Transport><![CDATA[Transport]]></stf_Transport>
+</PlanYourVisit>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[I quartieri centrali di Perth]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        Oltre al suo tranquillo fiume e ad ampie spiagge, <a href="/it/explore/cities/perth.xml" target="_self">Perth</a> offre dei vivaci quartieri alla moda con splendidi negozi, ristoranti e locali notturni. Immergetevi nell’atmosfera elegante e formale del centro di Perth, visitate le boutique lungo la raffinata Oxford Street a Leederville e ascoltate musica dal vivo sul monte Lawley. Scoprite bar di tendenza e ristoranti alla moda a Northbridge o visitate il teatro lungo i viali alberati di Subiaco. Situate attorno alle rive settentrionali del fiume Swan, questi quartieri moderni sono il luogo ideale dove incontrare gli abitanti locali e immergersi nella cultura.
+        <p>Il centro di Perth &egrave; una destinazione popolare per guardare i passanti, rilassarsi dopo il lavoro e fare shopping, scoprirete inoltre molte gallerie d’arte, eleganti boutique e ristoranti a King Street. Chi preferisce magazzini di qualit&agrave; e popolari catene di negozi potr&agrave; visitare le vicine Murray e Hay Street. Lo storico teatro in stile edoardiano a Hay Street vanta un ricco programma che comprende balletti, spettacoli d’opera, teatro e musica. Cenate in un caff&egrave; o ristorante lungo il fiume prima di andare a uno spettacolo teatrale. Al venerd&igrave; vi attendono irresistibili appuntamenti in citt&agrave;: potrete fare shopping fino a tarda sera oppure unirvi agli abitanti locali che festeggiano la fine della settimana lavorativa.</p>
+        <p>Northbridge, non lontano dal centro citt&agrave;, offre invece eventi diversi ogni giorno della settimana. Tra William, James, Aberdeen e Parker Street scoprirete molti club, pub, bar, caff&egrave; come pure eccellenti ristoranti. Fate amicizia con i backpacker negli ostelli e in locali economici, oppure immergetevi nella storia e nella cultura del vivace Perth Cultural Centre.</p>
+        <p>Non lontano da qui, a Leederville, potrete incontravi con studenti, famiglie e professionisti d’ogni genere. Passate una giornata all’insegna dello shopping a Oxford Street. Leederville si anima al calare della sera, quando gli abitanti di Perth si incontrano nei pub irlandesi, nei club underground alla moda e nei ristoranti che rimangono aperti fino a sera.</p>
+        <p>Potrete ascoltare ottime band a Mount Lawley, qui molti musicisti australiani hanno calcato le scene dell’Astor Theatre, un teatro in stile art d&eacute;co. Il teatro si trova a Beaufort Street, tra boutique, delicatessen, vivaci bar, ristoranti e locali ideali per uno snack informale. Acquistate oggetti per la casa oppure un capo di abbigliamento esclusivo, ammirate gli edifici in stile federale e coloniale, rilassatevi nei piccoli e curati parchi.</p>
+        <p>Visitate Subiaco, dove nel 1851 si stabilirono i monaci benedettini provenienti da Subiaco, un paesino in provincia di Roma. Oggi la storia di questa zona vive ancora nelle caratteristiche architetture decorative italiane e nel vivace centro citt&agrave;. Il Subiaco Museum offre l’opportunit&agrave; di ammirare oggetti appartenuti ai monaci e manufatti aborigeni. Passeggiate lungo Rokeby Road e immergetevi nella vivace atmosfera dei mercati locali. Vicino Kings Park potrete esplorare le pittoresche zone attorno al fiume dell’University of Western Australia. Partecipate a una performance presso il Regal Theatre o il Subiaco Arts Centre, esplorate la maestosa lobby del Subiaco Hotel, qui gli abitanti di Perth si danno appuntamento prima di recarsi negli eleganti bar locali.</p>
+        <p>Dalla cultura ai cocktail, i quartieri di Perth vi conquisteranno con la loro travolgente energia.</p>
+        <p>&nbsp;</p>
+    ]]></txt_Information>
+            
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="444" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Pagina iniziale]]></headline>
+            <href><![CDATA[/it/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Esplora]]></headline>
+            <href><![CDATA[/it/explore.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[La natura della Tasmania]]></headline>
+            <href><![CDATA[/it/explore/icons/tas-wilderness.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/explore-icons-tasmanian-wilderness.jpg]]></img_background>
+    <hdl_Title><![CDATA[La natura della Tasmania]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/explore-icons-tasmanian-wilderness-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/explore-icons-tasmanian-wilderness-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[no]]></opt_PartnerLead>
+    <stf_description><![CDATA[Esplora i paesaggi selvaggi e incontaminati della Tasmania, passeggia nella natura, scopri i 17 parchi nazionali e pratica sport all'aria aperta. ]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[y]]></stf_IsMobile>
+    <stf_keywords><![CDATA[La natura della Tasmania, TAS]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Ulteriori Informazioni]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[La natura della Tasmania]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[Esplorate l’antica e leggendaria bellezza dei 17 parchi nazionali della Tasmania. ]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <IntegratedMiniMap isTemplate="1">
+    <!-- no user content -->
+</IntegratedMiniMap><TravellersStoryWidget isTemplate="1">
+    <anc_link><![CDATA[/explore/map.aspx?filters=icons,experiences&zoom=9&centre=-43.695667,145.610674]]></anc_link>
+    <img_image><![CDATA[/contentimages/icons-Tasmanian-Wilderness.jpg]]></img_image> 
+</TravellersStoryWidget><Listing isTemplate="1">
+<anc_List1><![CDATA[/it/explore/states/tas/tas-walking.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[Altri itinerari suggeriti in Australia ]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/it/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/it/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/it/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/it/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/it/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/it/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/it/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/it/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/it/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/it/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/it/Transport.ignore]]></anc_Transport>
+<hdl_Title><![CDATA[Tassie Wilderness - Iniziate a programmare il vostro viaggio]]></hdl_Title>
+<language><![CDATA[ITA]]></language>
+<stf_Accomodation><![CDATA[Alloggi]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[Attrazione]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[Trova l’agenzia di viaggi pi&ugrave; vicina ]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[Informazioni sulle destinazioni]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[Derwent Valley and Central Highlands;Flinders Island;King Island;Freycinet and the East Coast;Devonport, Cradle Mountain and the Great Western Tiers;Huon DEntrecasteaux Bruny;Strahan and The West Coast]]></stf_DomesticRegion>
+<stf_Events><![CDATA[Eventi]]></stf_Events>
+<stf_Hire><![CDATA[Noleggio]]></stf_Hire>
+<stf_Informationservices><![CDATA[Informazioni]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[Tasmania]]></stf_StateFilter>
+<stf_Tours><![CDATA[Tour]]></stf_Tours>
+<stf_Transport><![CDATA[Trasporti]]></stf_Transport>
+</PlanYourVisit><MoreInformation isTemplate="1">
+    <hdl_Title><![CDATA[Maggiori informazioni sulla natura della Tasmania ]]></hdl_Title>
+    <anc_Link><![CDATA[]]></anc_Link>
+    <anc_MoreLink><![CDATA[]]></anc_MoreLink> 
+    <img_Content><![CDATA[<img src="/contentimages/4.1.6.3_thumb.jpg" border="0" align="left" class="imgLeft">]]></img_Content>
+    <stf_LinkTitle><![CDATA[]]></stf_LinkTitle>
+    <stf_MoreLink><![CDATA[http://it.discovertasmania.com/destinations/devonport,_cradle_mountain_and_the_great_western_tiers]]></stf_MoreLink>
+    <stf_MoreLinkText><![CDATA[Via a...]]></stf_MoreLinkText>
+    <stf_Teaser><![CDATA[Potrete trovare maggiori informazioni, programmare il vostro itinerario e prenotare la vostra vacanza sul sito web Tourism Tasmania. ]]></stf_Teaser> 
+</MoreInformation>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[La natura della Tasmania]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        Esplorate l’antica e leggendaria bellezza dei 17 parchi nazionali della Tasmania.
+        <p>Molti di essi fanno parte di quelle incontaminate zone naturali parte del Patrimonio dell’Umanit&agrave; che coprono il 20 per cento dell’isola. Scalate le Hazard Ranges e rimanete senza fiato ammirando i panorami da cartolina di Wineglass Bay nel Freycinet National Park. Specchiatevi nel lago Dove e seguite la Overland Track nel Cradle-Mountain-Lake St Clair National Park. Camminate nel bush attraversando la foresta pluviale del Gondwana e scoprite il giardino francese del XVIII secolo di Recherche Bay nel South West National Park. Ammirate Russel Falls, gli altissimi eucalipti e le piste da sci del Mount Field National Park. Attraversate il tranquillo fiume Gordon e fate rafting sulle rapide lungo il Franklin nel Franklin-Gordon Wild Rivers National Park. Dopo aver contemplato le meraviglie naturali della Tasmania, non vorrete pi&ugrave; ripartire.</p>
+        <p><strong>Cinque meraviglie della Tasmania da non perdere:</strong></p>
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[1. Freycinet National Park e Wineglass Bay ]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/4.3.6.2_highlight.jpg" alt="Wineglass Bay, TAS">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Wineglass Bay, TAS]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Pernotta nella tranquilla Coles Bay all’ingresso del <a href="/it/explore/icons/freycinet.xml" target="_self">Freycinet National Park</a> e passeggia fino a <a href="/it/explore/icons/freycinet/tas-wineglass-bay.xml" target="_self">Wineglass Bay</a>.  Cattura il suo profilo perfetto con la fotocamera, nuota, fai snorkeling, pesca o vai in kayak su bianche spiagge da sogno. Osserva animali selvatici come quoll, wallaby e aquile di mare ventrebianco. Raggiungi il Wineglass Bay Lookout, goditi la vista mozzafiato e osserva la spettacolare cornice formata dalle ripide rocce di granito rosa e grigio degli Hazard Ranges. Partecipa a una crociera panoramica nella baia oppure fai immersioni subacquee nelle acque pi&ugrave; cristalline che tu abbia mai visto.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[2. Cradle Mountain-Lake St Clair National Park ]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/4.3.6.3_highlight.jpg" alt="Cradle Mountain, TAS">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Cradle Mountain, TAS]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Tornate indietro a milioni di anni fa in questo ambiente naturale incontaminato a solo un paio d’ore d’auto da <a href="/it/explore/cities/regional-cities/tas-launceston-devonport-burnie.xml" target="_self">Launceston</a>. Camminate attorno al lago Dove, passando cascate e attraversando le foreste di pini di King Billy, fino alle frastagliate vette dolomitiche di <a href="/it/explore/states/tas/tas-cradle.xml" target="_self">Cradle Mountain</a>. Chi vuole affrontare una vera sfida potr&agrave; provare il famoso <a href="/it/explore/itineraries/tas-overland-track.xml" target="_self">Overland Track</a>, un percorso di 80 chilometri che attraversa il sud fino al lago St Clair, il pi&ugrave; profondo lago naturale dell’Australia. Lungo il cammino, lasciatevi stupire dal Mount Ossa, la montagna pi&ugrave; alta della Tasmania, e ammirate una specie di faggio che risale ad oltre 60 milioni di anni fa. Passeggiate lungo fragranti fiumi e dense e antiche foreste pluviali lungo l’Enchanted Walk oppure cercate di raggiungere la cima nell’arco di una giornata. Potrete anche passare da una a cinque ore seguendo uno degli altri <a href="/it/explore/states/tas/tas-walking.xml" target="_self">itinerari popolari</a>, compreso Mount Campbell, Hanson’s Peak, Twisted Lakes, il lago Rodway, il lago Lilla e la Ballroom Forest. 
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[3. Southwest National Park ]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/4.3.6.4_highlight.jpg" alt="Parco Nazionale di Southwest, TAS">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Parco Nazionale di Southwest, TAS]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Partite in auto da <a href="/it/explore/itineraries/tas-3days-hobart.xml" target="_self">Hobart</a> e ammirate la maestosa Scotts Peak Dam e le imponenti cime di Mount Anne, Mount Eliza e le Western Arthurs sulle rive del lago Pedder. In alternativa, libratevi sul parco ammirando i 608.000 ettari di foresta pluviale del Gondwana, la fitta vegetazione e i rari pini di Huon durante un’escursione in aereo. Attraversate la Gordon Dam o praticate la discesa in corda doppia lungo il suo ripido burrone. Avvistate il parrocchetto ventre arancio, una specie in via d’estinzione, attorno al porto di Bathurst (Bathurst Harbour) tra ottobre e marzo. Passeggiate tra gli alberi coperti di muschio e i tronchi giganti sul breve Creepy Crawly Nature Trail. In alternativa, fate una passeggiata di un giorno attorno al profondo lago Judd scolpito dai ghiacci. Seguite alcuni dei pi&ugrave; difficili percorsi australiani lungo Port Davey e South Coast Tracks, da percorrere in pi&ugrave; giorni, fino alla remota Melaleuca, dove avrete bisogno di essere raccolti da un aereo. Andate in kayak fino a Recherche Bay, dove scoprirete un giardino francese risalente al XVIII secolo circondato da dense foreste e magnifiche spiagge dalle sabbie bianche.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[4. Mount Field National Park ]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/4.3.6.5_highlight.jpg" alt="Russell Falls, TAS">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Russell Falls, TAS]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[Dovrete guidare solo un’ora da Hobart per vedere i tre getti delle Russell Falls, le lussureggianti foreste di felci ed alcuni degli alberi pi&ugrave; alti del mondo. Camminate fino alle Lady Barron Falls passando il lago Dobson, boschi di pandani simili a palme e foreste di svettanti eucalipti lungo il Lady Barron Falls Circuit. Raggiungete le pianure delle regioni montuose e i precipizi di Tarn Shelf, dai quali potrete ammirare il panorama sui vasti laghi della valle sottostante. Ad aprile e maggio, i pendii delle montagne sono un tripudio di colori con le foglie dei faggi, l’unica specie decidua dell’Australia, che diventano oro, rosso e arancio. Nei mesi invernali da giugno ad agosto, troverete piccole piste da sci di fondo tra gli eucalipti e i pini nani. ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[5. Franklin-Gordon Wild Rivers National Park]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/4.3.6.6_highlight.jpg" alt="Fiume Franklin, TAS">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Fiume Franklin, TAS]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[Attraversate il possente fiume Gordon in barca dal villaggio di pescatori di Strahan sulla costa occidentale. In alternativa guidate oltre il magnifico paesaggio lungo la sinuosa Lyell Highway. Una volta giunti qui potrete fare rafting sulle rapide dell’impetuoso fiume Franklin, passando valli ricoperte di foreste, gole profonde e montagne scavate dai ghiacciai. Lungo il cammino, scoprite come gli ambientalisti hanno salvato questa forza della natura dall’essere trasformata in una diga per la produzione di energia idroelettrica. In barca, potrete anche seguire la costa lungo i fiumi Pincton e Huon quasi fino a Hobart. Seguite il Donaghys Lookout Walk per ammirare dei panorami eccezionali sul fiume Franklin o sulle cime delle montagne. In alternativa seguite il difficile Frenchmans Cap Track attraversando pianure di erba della pampa, valli glaciali e foreste pluviali di antichi pini di Huon e pini di King Billy. La vostra destinazione &egrave; il lago Tahune, sotto le imponenti cime del Frenchmans Cap, che presenta alcune delle pi&ugrave; antiche rocce esposte dell’Australia. ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

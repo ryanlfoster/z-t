@@ -25,7 +25,7 @@ responsiveImageHelper.bindEvents = function(){
 
 	// Initiate parallax
 	$('.parallax').parallaxImages({
-	    parallaxSpeed : 1
+	    parallaxSpeed : 0.5
 	});
 
 };

@@ -918,6 +918,17 @@
                     ,
                 
             
+                "explore-more" : {
+                     "data" : {
+                        "title" : "explore-more",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'explore-more'}}"
+                }
+                
+                    ,
+                
+            
                 "favourite" : {
                      "data" : {
                         "title" : "favourite",

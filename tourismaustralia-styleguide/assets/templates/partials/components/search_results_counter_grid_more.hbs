@@ -1,0 +1,22 @@
+---
+title: Search Results Counter Grid More
+---
+
+<div class="search-results-counter-grid-more">
+    <div class="row l-center-1200">
+        <div class="col-xs-12">
+
+            {{> search_your_results }}
+
+            {{> search_counter }}
+
+            {{> mosaic_search_grid_4_1 }}
+
+            {{#parseJSON '{"copy" : "View More"}'}}
+                {{> search_view_more }}
+            {{/parseJSON}}
+
+        </div>
+    </div>
+</div>
+

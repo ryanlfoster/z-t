@@ -87,17 +87,18 @@
   background-color: $video_relatedvideos_bg;
   text-align: left;
 
-  margin: 0.1875em pxtoem(-15px) 1.25em;
+  margin: 0 pxtoem(-15px);
+  margin-bottom: pxtoem($mosaic-row-bottom-margin);
   .video-container {
     margin: 0;
   }
 
   @include breakpoint(sm){
-    margin: pxtoem($mozaic-col-padding);
-    margin-bottom: pxtoem(20px);
+    margin: 0;
+    margin-bottom: pxtoem($mosaic-row-bottom-margin);
   }
   @include breakpoint(md){
-    margin: pxtoem($mozaic-col-padding);
+    margin: pxtoem($mosaic-col-padding);
   }
 
 }

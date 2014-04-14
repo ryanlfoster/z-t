@@ -1,4 +1,8 @@
 
+.search-results-counter-grid-more, .search-atdw-highlights {
+  padding-bottom: pxtoem($bottom-spacing-double);
+}
+
 .search-result-count{
   text-align: center;
   padding:27px 0;
@@ -26,3 +30,5 @@
     min-width: inherit;
   }
 }
+
+

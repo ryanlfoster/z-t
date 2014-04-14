@@ -1072,6 +1072,17 @@
                     ,
                 
             
+                "largeimageoverlay" : {
+                     "data" : {
+                        "title" : "largeimageoverlay",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'largeimageoverlay'}}"
+                }
+                
+                    ,
+                
+            
                 "largeimagesocial" : {
                      "data" : {
                         "title" : "largeimagesocial",
@@ -1254,6 +1265,17 @@
                         "layout" : "styleguide-preview.hbs"
                     },
                     "content" : "{{section 'whatyoucansee_state'}}"
+                }
+                
+                    ,
+                
+            
+                "itineraryday" : {
+                     "data" : {
+                        "title" : "itineraryday",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'itineraryday'}}"
                 }
                 
                     ,

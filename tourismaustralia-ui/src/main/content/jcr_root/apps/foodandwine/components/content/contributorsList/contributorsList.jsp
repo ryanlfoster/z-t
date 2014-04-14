@@ -1,38 +1,76 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@include file="/apps/foodandwine/components/global.jsp"%>
-<%@ page import="com.australia.foodandwine.components.content.contributorsList.ContributorsList" %>
-
-<c:set var="contributorsList" value="<%=new ContributorsList(slingRequest) %>"/>
 
 
 <script>
-	var searchParameter = $(".form-h3 .input-field-blank").val();
 	$(document).ready(function() {
-		$(".btn-secondary").click(function() {
-			$.ajax({
-				type : "POST",
-				url : "${resource.path}.contributors.json",
-				data : {
-					searchParameter : searchParameter
-				},
-				success : function(msg) {
-					console.log(msg);
 
-				},
-				error : function(xhr) {
-				}
-			});
+		var searchParameter = "";
+		$.ajax({
+			type : "POST",
+			url : "${resource.path}.contributors.json",
+			data : {
+				searchParameter : searchParameter
+			},
+			success : function(msg) {
+				$('#searchResults').empty();
+				var html="";
+				$.each(msg,function(key,value){
+					 html +='<ul class="sorted-list-category"><div class="row l-row-collapse"><div class="col-xs-12"><h2>'+key+'</h2></div></div>';
+					for(var i=0;i<value.length;i++){
+						html +='<li class="sorted-list-item"><ul class="row l-row-collapse"><li class="col-xs-6 col-sm-4 col-md-3 col-lg-3"><p>'+value[i].businessName+'</p></li><li class="col-xs-6 col-sm-4 col-md-3 l-display-none-sm"><p>'+value[i].primaryCategory+'</p></li><li class="col-xs-0 col-sm-4 col-md-3 l-display-none-md"><p>'+value[i].state+'</p></li><li class="col-xs-0 col-sm-0 col-md-3 l-display-none-lg"><a href="http://'+value[i].businessWebsite +'" target="_blank">Visit website</a></li></ul></li>';
+					}
+					html+="</ul>";
+                   
+				});
+				 $('#searchResults').html(html);
+
+			},
+			error : function(xhr) {
+			}
 		});
+
 	});
+	
+	
+	function contributersListCall(){
+		var search = $("#searchParameter").val();
+		$('#searchResults').empty();
+		$.ajax({
+			type : "POST",
+			url : "${resource.path}.contributors.json",
+			data : {
+				searchParameter : search
+			},
+			success : function(msg) {
+				console.log(msg);
+				var html="";
+				$.each(msg,function(key,value){
+					 html +='<ul class="sorted-list-category"><div class="row l-row-collapse"><div class="col-xs-12"><h2>'+key+'</h2></div></div>';
+					for(var i=0;i<value.length;i++){
+						html +='<li class="sorted-list-item"><ul class="row l-row-collapse"><li class="col-xs-6 col-sm-4 col-md-3 col-lg-3"><p>'+value[i].businessName+'</p></li><li class="col-xs-6 col-sm-4 col-md-3 l-display-none-sm"><p>'+value[i].primaryCategory+'</p></li><li class="col-xs-0 col-sm-4 col-md-3 l-display-none-md"><p>'+value[i].state+'</p></li><li class="col-xs-0 col-sm-0 col-md-3 l-display-none-lg"><a href="http://'+value[i].businessWebsite +'" target="_blank">Visit website</a></li></ul></li>';
+					}
+					html+="</ul>";
+				});
+                    $('#searchResults').html(html);
+				
+
+			},
+			error : function(xhr) {
+			}
+		});
+	}
+	
+	
 </script>
 
 
 
 <h3 class="form-h3 l-padding-top-xs-2 l-padding-bottom-xs-0-5">Search
 	out 789 contributers:</h3>
-<input class="input-field-blank input-field-big"
+<input class="input-field-blank input-field-big" id="searchParameter"
 	placeholder="E.g. Cafe Sydney" />
-<a href="#" class="btn-secondary btn-auto-size">Search</a>
+<a href="#" onclick="contributersListCall()" class="btn-secondary btn-auto-size">Search</a>
 
 <div class="sorted-list container">
 	<!-- head selection for desktop -->
@@ -65,36 +103,7 @@
 	</div>
 	<!-- END: head selection -->
 	<!-- category -->
-	
-	<c:forEach items="${contributorsList.artileMap}" var="item">
-	<ul class="sorted-list-category">
-		<div class="row l-row-collapse">
-			<div class="col-xs-12">
-				<h2>${item.key}</h2>
-			</div>
-		</div>
-		<!-- item row -->
-		<c:forEach items="${item.value }" var="list">
-		<li class="sorted-list-item">
-			<ul class="row l-row-collapse">
-				<li class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
-					<p>${list.businessName}</p>
-				</li>
-				<li class="col-xs-6 col-sm-4 col-md-3 l-display-none-sm">
-					<p></p>
-				</li>
-				<li class="col-xs-0 col-sm-4 col-md-3 l-display-none-md">
-					<p>${list.state}</p>
-				</li>
-				<li class="col-xs-0 col-sm-0 col-md-3 l-display-none-lg"><a
-					href="http://${list.businessWebsite }" target="_blank">Visit website</a></li>
-			</ul>
-		</li>
-		</c:forEach>
-		
-	</ul>
-	</c:forEach>
-	
+<div id="searchResults"></div>
 </div>
 <!-- pagination -->
 <div class="sorted-list-pagination container">

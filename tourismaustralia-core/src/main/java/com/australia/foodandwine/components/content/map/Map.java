@@ -45,6 +45,10 @@ public class Map {
 	@DialogField(fieldLabel = "Website")
 	private String website;
 
+	@DialogField(fieldLabel = "Hide Map")
+	@Selection(type = Selection.CHECKBOX, options = @Option(value = "true"))
+	private boolean hideMap;
+
 	private String googleMapUrl;
 
 	public Map(SlingHttpServletRequest request) {
@@ -60,11 +64,14 @@ public class Map {
 			state = properties.get("state", StringUtils.EMPTY);
 			postcode = properties.get("postcode", StringUtils.EMPTY);
 			website = properties.get("website", StringUtils.EMPTY);
+			hideMap = properties.get("hideMap", false);
+
 		} else {
 			address1 = "";
 			suburb = "";
 			state = "";
 			postcode = "";
+			hideMap = false;
 		}
 		prepareGoogleMapsUrl(request, slingSettings, googleService, serverNameService);
 	}
@@ -85,7 +92,6 @@ public class Map {
 		if (!ServerUtils.isLocal(slingSettings)) {
 			markerImgUrl = "icon:" + serverNameService.getFoodAndWineServerName() + MARKER_IMAGE;
 		}
-		// TODO: refactor better way to replace parameters
 		googleMapUrl = StringUtils.replace(googleMapUrl, "{marker_image_url}", markerImgUrl);
 		googleMapUrl = googleMapUrl + "&key=" + googleService.getMapsAPIKey();
 	}
@@ -126,6 +132,10 @@ public class Map {
 
 	public String getPostcode() {
 		return postcode;
+	}
+
+	public boolean isHideMap() {
+		return hideMap;
 	}
 
 }

@@ -9,33 +9,6 @@
   margin: 0 auto 20px;
 }
 
-.mosaic .row.l-row-collapse {
-    margin-left: -17px;
-    margin-right: -17px;
-
-    @include breakpoint(md) {
-        margin-left: 0;
-        margin-right: 0;
-    }
-
-}
-
-/* Mosaic ATDW Square Image */
-.mosaic-square-item-7 {
-  width: 56.345177664975%;
-}
-.mosaic-square-item-5 {
-  width: 43.654822335025%;
-  left: 56.345177664975% !important;
-}
-.mosaic-square-item.mosaic-3column-item-option {
-  padding: 0;
-  margin-bottom: pxtoem(20px);
-  @include breakpoint(md) {
-    padding: 0.1875em 0 0.1875em 0.1875em;
-    margin-bottom: 0;
-  }
-}
 /**********************************************/
 
 .mosaic-item {
@@ -44,7 +17,7 @@
   width: 100%;
   overflow: visible;
   @include opacity(1);
-  margin-bottom: pxtoem(20px);
+  margin-bottom: pxtoem($mosaic-row-bottom-margin);
 
   @include breakpoint(md) {
     padding: pxtoem(3px);
@@ -102,11 +75,8 @@
   padding: 1em;
   .label-destination {
     position: absolute;
-    bottom: 3px;
+    bottom: 0;
     left: 0px;
-    @include breakpoint(md) {
-      bottom: 0px;
-    }
   }  
 }
   .label-destination {
@@ -218,7 +188,7 @@
   z-index: 1;
 }
 .mosaic-grid-2-content {
-  top: -3px;
+  top: pxtoem(-3px);
   position: relative;
   padding-left: .2em;
   width: 100%;
@@ -256,7 +226,13 @@
 // mosaic 3 column
 ///////////////////
 .mosaic-3column-item-option{
-  padding: .1em;
+  //padding: .2em;
+  margin-bottom: pxtoem($mosaic-row-bottom-margin);
+
+  @include breakpoint(md) {
+    margin-bottom: initial;
+    padding: pxtoem($mosaic-col-padding);
+  }
 }
 .mosaic-3column-item-option.is-opacity {
   opacity: .5;

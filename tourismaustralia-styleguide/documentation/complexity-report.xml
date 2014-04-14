@@ -7,20 +7,20 @@
     char="&lt;anonymous&gt;.setupParallax"
     evidence="&lt;anonymous&gt;.setupParallax is too complicated"
     reason="Cyclomatic: 3,
-    Halstead: 11.607
-    | Effort: 7553.3
-    | Volume: 650.74
-    | Vocabulary: 38" />
+    Halstead: 11.379
+    | Effort: 7518.0
+    | Volume: 660.68
+    | Vocabulary: 39" />
   
   <issue
-    line="61"
-    char="window.onscroll"
-    evidence="window.onscroll is too complicated"
+    line="64"
+    char="&lt;anonymous&gt;"
+    evidence="&lt;anonymous&gt; is too complicated"
     reason="Cyclomatic: 8,
-    Halstead: 54.667
-    | Effort: 1.1867e+5
-    | Volume: 2170.8
-    | Vocabulary: 46" />
+    Halstead: 63.300
+    | Effort: 1.4353e+5
+    | Volume: 2267.5
+    | Vocabulary: 48" />
   
 </file>
 <file name="assets/js/src/modules/jquery.ta.mosaic.js">

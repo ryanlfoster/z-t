@@ -76,3 +76,44 @@
     margin: inherit;
   }
 }
+
+///////////////
+// VIDEO DESKTOP
+///////////////
+.video-desktop-title-fullvideo-fav-tags-share{
+  padding: pxtoem($bottom-spacing-double) 0;
+}
+.videoitemwithtitle {
+  background-color: $video_relatedvideos_bg;
+  text-align: left;
+
+  margin: 0.1875em pxtoem(-15px) 1.25em;
+  .video-container {
+    margin: 0;
+  }
+
+  @include breakpoint(sm){
+    margin: pxtoem($mozaic-col-padding);
+    margin-bottom: pxtoem(20px);
+  }
+  @include breakpoint(md){
+    margin: pxtoem($mozaic-col-padding);
+  }
+
+}
+.videoitemwithtitle-copy {
+  padding: 1em;
+  @include breakpoint(sm){
+    padding: .5em;
+  }
+}
+.videoitemwithtitle-time {
+  color: $video-relatedvideos-colour;
+  display: block;
+  @include breakpoint(sm){
+    display: initial;
+  }
+}
+.video-container:hover {
+  cursor: pointer;
+}

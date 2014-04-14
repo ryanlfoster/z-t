@@ -1,0 +1,35 @@
+---
+title: Explore More Trip Ideas
+---
+
+<div class="explore-container">
+
+    {{#parseJSON '{"title": "More Tip Ideas", "copy" : ""}'}}
+        {{> sectionintro }}
+    {{/parseJSON}}
+
+    <div class="l-h-center section-buttons">
+
+        <!-- Select List For Mobile -->
+        <div class="section-buttons-mobile">
+            {{#parseJSON '{"data" : [{"option": "Attractions around Sydney"}, {"option": "Trips around Sydney"}]}'}}
+                {{> dropdown }}
+            {{/parseJSON}}
+        </div>
+
+    </div>
+
+    <div class="carousel-center-container">
+        <div class="carousel-owl-mobile-fill">
+
+            <div id="carousel" class="owl-carousel owl-theme">
+                <div class="carousel-item">{{> exploreitem }}</div>
+                <div class="carousel-item">{{> exploreitem }}</div>
+                <div class="carousel-item">{{> exploreitem }}</div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>

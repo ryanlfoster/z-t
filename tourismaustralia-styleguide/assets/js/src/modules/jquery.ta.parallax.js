@@ -53,81 +53,83 @@
         scope.options.parallaxOffset = ($(scope.element).find('img').height() - $(scope.element).height()) / 2;
 
         if(scope.options.parallaxOffset >= 150){
-            scope.options.parallaxSpeedMultiplier = 2;
+            scope.options.parallaxSpeedMultiplier = 8;
         } else {            
             scope.options.parallaxSpeedMultiplier = 1;
         }
 
-        window.onscroll = function(){
-
-            scope.options.windowPositionTop = $(window).scrollTop();
-
-            // check if we are before the image
-            if((scope.options.containerOffset - scope.options.heightOfWindow) >= scope.options.windowPositionTop){
-                // if we are, set the transform to 0
-                $(scope.element).find('img').css({
-                        'transform': 'translate3d(0px, -' + scope.options.parallaxOffset + 'px, 0px)',
-                        '-moz-transform': 'translate3d(0px, -' + scope.options.parallaxOffset + 'px, 0px)',
-                        '-webkit-transform': 'translate3d(0px, -' + scope.options.parallaxOffset + 'px, 0px)',
-                        '-ms-transform': 'translate3d(0px, -' + scope.options.parallaxOffset + 'px, 0px)',
-                        '-o-transform': 'translate3d(0px, -' + scope.options.parallaxOffset + 'px, 0px)'
-                });
-
-                scope.options.parallaxPosition = -scope.options.parallaxOffset;
-
-                // Trigger bool for in view
-                scope.options.parallaxInView = false;
-
-            } else if((scope.options.containerOffset + (scope.options.heightOfWindow / 2)) <= scope.options.windowPositionTop) {
-                scope.options.parallaxInView = false;
-            } else {
-                if(scope.options.containerOffset - (scope.options.heightOfWindow / 2) <= scope.options.windowPositionTop){
-                    // start parallax only in the top half of screen
-                    scope.options.parallaxInView = true; 
-                } else {
-                    scope.options.parallaxInView = false; 
-                }
-            }
-
-            if(scope.options.parallaxInView){
-                // check if we are scrolling down or up
-                if(scope.options.lastScrollPosition < scope.options.windowPositionTop){
-                    // Scrolling down
-
-                    if(scope.options.parallaxPosition < scope.options.parallaxOffset){
-                        scope.options.parallaxPosition += scope.options._parallaxSpeed;
-                    }
-
-                    $(scope.element).find('img').css({
-                            'transform': 'translate3d(0px, ' + scope.options.parallaxPosition + 'px, 0px)',
-                            '-webkit-transform': 'translate3d(0px, ' + scope.options.parallaxPosition + 'px, 0px)',
-                            '-moz-transform': 'translate3d(0px, ' + scope.options.parallaxPosition + 'px, 0px)',
-                            '-ms-transform': 'translate3d(0px, ' + scope.options.parallaxPosition + 'px, 0px)',
-                            '-o-transform': 'translate3d(0px, ' + scope.options.parallaxPosition + 'px, 0px)'
-                    });
-                } else {
-                    // Scrolling Up
-
-                    if(scope.options.parallaxPosition < -1){
-                        scope.options.parallaxPosition -= scope.options._parallaxSpeed;
-                    }
-
-                    $(scope.element).find('img').css({
-                            'transform': 'translate3d(0px, ' + scope.options.parallaxPosition + 'px, 0px)',
-                            '-webkit-transform': 'translate3d(0px, ' + scope.options.parallaxPosition + 'px, 0px)',
-                            '-moz-transform': 'translate3d(0px, ' + scope.options.parallaxPosition + 'px, 0px)',
-                            '-ms-transform': 'translate3d(0px, ' + scope.options.parallaxPosition + 'px, 0px)',
-                            '-o-transform': 'translate3d(0px, ' + scope.options.parallaxPosition + 'px, 0px)',
-                    });
-                }
-            };
-
-            // set last scroll position
-            scope.options.lastScrollPosition = scope.options.windowPositionTop;
-        };
-
         // IE9+ only support
         if(window.addEventListener){
+
+            window.addEventListener('scroll', function(){
+
+                scope.options.windowPositionTop = $(window).scrollTop();
+
+                // check if we are before the image
+                if((scope.options.containerOffset - scope.options.heightOfWindow) >= scope.options.windowPositionTop){
+                    // if we are, set the transform to 0
+                    $(scope.element).find('img').css({
+                            'transform': 'translate3d(0px, -' + scope.options.parallaxOffset + 'px, 0px)',
+                            '-moz-transform': 'translate3d(0px, -' + scope.options.parallaxOffset + 'px, 0px)',
+                            '-webkit-transform': 'translate3d(0px, -' + scope.options.parallaxOffset + 'px, 0px)',
+                            '-ms-transform': 'translate3d(0px, -' + scope.options.parallaxOffset + 'px, 0px)',
+                            '-o-transform': 'translate3d(0px, -' + scope.options.parallaxOffset + 'px, 0px)'
+                    });
+
+                    scope.options.parallaxPosition = -scope.options.parallaxOffset;
+
+                    // Trigger bool for in view
+                    scope.options.parallaxInView = false;
+
+                } else if((scope.options.containerOffset + (scope.options.heightOfWindow / 2)) <= scope.options.windowPositionTop) {
+                    scope.options.parallaxInView = false;
+                } else {
+                    if(scope.options.containerOffset - (scope.options.heightOfWindow / 2) <= scope.options.windowPositionTop){
+                        // start parallax only in the top half of screen
+                        scope.options.parallaxInView = true; 
+                    } else {
+                        scope.options.parallaxInView = false; 
+                    }
+                }
+
+                if(scope.options.parallaxInView){
+                    // check if we are scrolling down or up
+                    if(scope.options.lastScrollPosition < scope.options.windowPositionTop){
+                        // Scrolling down
+
+                        if(scope.options.parallaxPosition < scope.options.parallaxOffset){
+                            scope.options.parallaxPosition += scope.options._parallaxSpeed;
+                        }
+
+                        $(scope.element).find('img').css({
+                                'transform': 'translate3d(0px, ' + scope.options.parallaxPosition + 'px, 0px)',
+                                '-webkit-transform': 'translate3d(0px, ' + scope.options.parallaxPosition + 'px, 0px)',
+                                '-moz-transform': 'translate3d(0px, ' + scope.options.parallaxPosition + 'px, 0px)',
+                                '-ms-transform': 'translate3d(0px, ' + scope.options.parallaxPosition + 'px, 0px)',
+                                '-o-transform': 'translate3d(0px, ' + scope.options.parallaxPosition + 'px, 0px)'
+                        });
+                    } else {
+                        // Scrolling Up
+
+                        if(scope.options.parallaxPosition < -1 && scope.options.parallaxPosition > -scope.options.parallaxOffset){
+                            scope.options.parallaxPosition -= scope.options._parallaxSpeed;
+                        }
+
+                        $(scope.element).find('img').css({
+                                'transform': 'translate3d(0px, ' + scope.options.parallaxPosition + 'px, 0px)',
+                                '-webkit-transform': 'translate3d(0px, ' + scope.options.parallaxPosition + 'px, 0px)',
+                                '-moz-transform': 'translate3d(0px, ' + scope.options.parallaxPosition + 'px, 0px)',
+                                '-ms-transform': 'translate3d(0px, ' + scope.options.parallaxPosition + 'px, 0px)',
+                                '-o-transform': 'translate3d(0px, ' + scope.options.parallaxPosition + 'px, 0px)',
+                        });
+                    }
+                };
+
+                // set last scroll position
+                scope.options.lastScrollPosition = scope.options.windowPositionTop;
+            });
+
+
             // set height of window on resize & orientation change
             window.onresize = function(){
                 scope.setupParallax(scope);

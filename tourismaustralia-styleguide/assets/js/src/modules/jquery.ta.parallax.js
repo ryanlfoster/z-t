@@ -108,7 +108,7 @@
                 } else {
                     // Scrolling Up
 
-                    if(scope.options.parallaxPosition < -1){
+                    if(scope.options.parallaxPosition < -1 && scope.options.parallaxPosition > -scope.options.parallaxOffset){
                         scope.options.parallaxPosition -= scope.options._parallaxSpeed;
                     }
 

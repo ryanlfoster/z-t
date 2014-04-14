@@ -3,7 +3,7 @@ layout: layout-base.hbs
 ---
 
 {{#parseJSON '{
-    "hero_image" : "herohome_grampains",
+    "hero_image" : "herohome_bluemountains",
     "hero_title" : "Six Foot Track",
     "hero_subtitle" : "Blue Mountains"
 }'}}
@@ -29,6 +29,40 @@ layout: layout-base.hbs
 
     {{> mapimagewithlegend }}
     <!-- special offers -->
+    {{#parseJSON '{
+        "promo_image" : "promo5",
+        "promo_title" : "Senic Railway, Katoomba",
+        "promo_text" : [
+            {"para" : "Discover the thrill of a 52 degree incline riding the steepest passenger railway in the world, the Scenic Railway. A whole new experience awaits, with glass-roofed red carriages offering expansive views of the rainforest setting and spectacular Valley."}
+        ],
+        "promo_value" : "",
+        "promo_per" : ""
+    }'}}
+        {{> specialoffer }}
+    {{/parseJSON}}
 
-    <!-- category links -->
+
+    {{> largeimagenotext }}
+
+    {{> bylinewithshare}}
+
+    {{> favouritewithlines }}
+
+
+    {{#parseJSON '{
+        "promo_image" : "promo6",
+        "promo_title" : "Caves House, Jenolan Caves",
+        "promo_text" : [
+            {"para" : "Caves House is an icon of Blue Mountains accommodation. In 1897, NSW Government Architect, Walter Liberty Vernon, designed it as a wilderness retreat for wealthy travellers."}
+        ],
+        "promo_value" : "100",
+        "promo_per" : "/night"
+    }'}}
+        {{> specialoffer }}
+    {{/parseJSON}}
+
+    {{> explore-more }}
+
+
+    {{> categorylinks_city_sydney }}
 </div>

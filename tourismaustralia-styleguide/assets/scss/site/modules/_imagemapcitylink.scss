@@ -66,12 +66,14 @@ a.map-pin-btn {
 }
 
 .map-image-view-btn-container {
-    margin-top: -(pxtoem(40px));
-    margin-bottom: pxtoem(30px);
+    position: relative;
+    top: -(pxtoem(50px));
+    margin-bottom: -(pxtoem(30px));
 }
 
 .map-highlights-image {
   max-width: 100%;
+  margin-bottom: pxtoem(30px);
 }
 
 // MODERNIZER DETECTION FOR CSSCOLUMNS
@@ -176,6 +178,7 @@ a.map-pin-btn {
 .map-btn-container {
   display: inline-block;
   max-width: 200px;
+  min-width: 100px;
   text-align: left;
   margin: 0px 40px;
   position: relative;

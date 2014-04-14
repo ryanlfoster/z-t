@@ -11,5 +11,5 @@
             <img class="btn-bubble-active" src="/etc/designs/tourismaustralia/clientlibs/img/icons/favourite_white.png" alt="">
         </span>
     </span>
-    <span class="favourite-text">add to your dream trip</span>
+    <span class="favourite-text"><fmt:message key="add to your dream trip"/></span>
 </a>

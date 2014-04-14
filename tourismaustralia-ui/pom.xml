@@ -129,14 +129,9 @@
 								<argument>-v</argument>
 								<argument>-u</argument>
 								<argument>${cq.username}:${cq.password}</argument>
+								<argument>${cq.protocol}://${cq.host}:${cq.port}/crx/packmgr/service/.json/etc/packages/${project.artifactId}-${project.parent.version}.zip</argument>
 								<argument>-F</argument>
-								<argument>path=/etc/packages/${project.artifactId}-${project.parent.version}.zip</argument>
-								<argument>${cq.protocol}://${cq.host}:${cq.port}/etc/replication/treeactivation.html</argument>
-								<argument>-F</argument>
-								<argument>ignoredeactivated=true</argument>
-								<argument>-F</argument>
-								<argument>cmd=activate</argument>
-								<argument>-k</argument>
+								<argument>cmd=replicate</argument>
 							</arguments>
 						</configuration>
 					</execution>

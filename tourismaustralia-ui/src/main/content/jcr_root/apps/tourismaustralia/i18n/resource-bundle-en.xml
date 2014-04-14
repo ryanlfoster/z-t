@@ -4,5 +4,8 @@
 
 	<!-- Component Texts -->
 	<viewDetailedMap jcr:primaryType="sling:MessageEntry" sling:key="view detailed map" sling:message="view detailed map"/>
-	
+    <viewDetailedMap jcr:primaryType="sling:MessageEntry" sling:key="View more videos" sling:message="View more videos"/>
+    <viewDetailedMap jcr:primaryType="sling:MessageEntry" sling:key="add to your dream trip" sling:message="add to your dream trip"/>
+    <viewDetailedMap jcr:primaryType="sling:MessageEntry" sling:key="view detailed map" sling:message="view detailed map"/>
+
 </jcr:root>

@@ -15,11 +15,10 @@
 <c:set var="imageButton" value="<%=new ImageWithButton(slingRequest) %>"/>
 
 <c:if test="${not empty imageButton.mainImageSrc}">
-    <div class="image-ugc-container">
-        <div class="image-ugc image-with-button make-white}">
+    <div class="large-image-social make-white">
             <c:if test="${not empty (imageButton.mainImageSrc and imageButton.mainImageAlt)}">
-                <div class="image-bg fullwidth-bg" data-image-vertical-alignment="bottom" data-image-vertical-alignment="bottom" data--200-top="-webkit-transform: translate(0,10%);" data-200-bottom="-webkit-transform: translate(0,-10%);">
-                    <div class="responsive-image" data-picture="" data-alt="${imageButton.mainImageAlt}" >
+                <div class="large-image-social-media">
+                    <div class="responsive-image large-image-social-frame-height" data-picture="" data-alt="" >
                         <div data-src="${imageButton.mainImageSrc}.adapt.480.low.jpg" data-media="(min-width: 1px)"></div>
                         <div data-src="${imageButton.mainImageSrc}.adapt.768.medium.jpg" data-media="(min-width: 481px)"></div>
                         <div data-src="${imageButton.mainImageSrc}.adapt.992.high.jpg" data-media="(min-width: 769px)"></div>
@@ -36,75 +35,42 @@
             </c:if>
 
             <c:if test="${not empty imageButton.overlayIconImageSrc or not empty imageButton.quoteText or not empty imageButton.imageButtonText}">
-                    <div class="image-content-container">
-                        <div class="image-content">
-                            <c:if test="${not empty imageButton.overlayIconImageSrc}">
-                                <c:choose>
-                                    <c:when test="${not empty imageButton.overlayIconImageAlt}">
-                                        <div class="image-social-image">
-                                           <img src="${imageButton.overlayIconImageSrc}" alt="${imageButton.overlayIconImageAlt}">
-                                        </div>
-                                    </c:when>
-                                    <c:otherwise>
-                                        <div class="image-social-image">
-                                            <img src="${imageButton.overlayIconImageSrc}" alt="">
-                                        </div>
-                                    </c:otherwise>
-                                </c:choose>
-                            </c:if>
-                            <c:if test="${not empty imageButton.quoteText}">
+                    <div class="large-image-social-content">
+                        <c:if test="${not empty imageButton.overlayIconImageSrc}">
+                            <div class="image-social-image">
+                                <img src="${imageButton.overlayIconImageSrc}" alt="${(not empty imageButton.overlayIconImageAlt) ? imageButton.overlayIconImageAlt : ""}">
+                            </div>
+                        </c:if>
+                        <c:if test="${not empty imageButton.quoteText}">
                                 <hr>
                                     <div class="blockquote-quote-pull">
                                         <p>&ldquo;${imageButton.quoteText}&rdquo;</p>
                                     </div>
                                 <hr>
-                            </c:if>
-                            <c:if test="${not empty imageButton.imageButtonText and not empty imageButton.imageButtonPath}">
+                        </c:if>
+                        <c:if test="${not empty imageButton.imageButtonText and not empty imageButton.imageButtonPath}">
                                 <a href="${imageButton.imageButtonPath}" class="image-btn" ${imageButton.buttonPathExternal == true ? 'target="_blank"': ''}>${imageButton.imageButtonText}</a>
-                            </c:if>
-                        </div>
+                        </c:if>
                     </div>
             </c:if>
-        </div>
-        <div class="large-image-social-mention make-white}">
-                <div class="social-mention">
-                    <div class="social-mention-container">
-                        <c:if test = "${not empty imageButton.refIconImageSrc}">
-                            <c:choose>
-                                <c:when test = "${not empty imageButton.refIconImageAlt}">
+            <c:if test="${not empty imageButton.refIconImageSrc or not empty imageButton.refBoldText or not empty imageButton.refRegularText}">
+                    <div class="large-image-social-mention make-white">
+                        <div class="social-mention">
+                            <div class="social-mention-container">
+                                <c:if test = "${not empty imageButton.refIconImageSrc}">
                                     <div class="social-mention-image">
-                                        <img src="${imageButton.refIconImageSrc}" alt="${imageButton.refIconImageAlt}">
+                                        <img src="${imageButton.refIconImageSrc}" alt="${(not empty imageButton.refIconImageAlt) ? imageButton.refIconImageAlt : ""}">
                                     </div>
-                                </c:when>
-                                <c:otherwise>
-                                    <div class="social-mention-image">
-                                        <img src="${imageButton.refIconImageSrc}" alt="">
-                                    </div>
-                                </c:otherwise>
-                            </c:choose>
-                        </c:if>
-                        <c:if test = "${not empty imageButton.refBoldText or not empty imageButton.refRegularText}">
-                            <c:choose>
-                                <c:when test="${empty imageButton.refRegularText}">
+                                </c:if>
+                                <c:if test = "${not empty imageButton.refBoldText or not empty imageButton.refRegularText}">
                                     <div class="social-mention-details">
-                                        <p><strong>${imageButton.refBoldText}</strong></p>
+                                        <p><strong>${(not empty imageButton.refBoldText) ? imageButton.refBoldText : ""}${(not empty imageButton.refBoldText and not empty imageButton.refRegularText) ? ", " : ""}</strong>${(not empty imageButton.refRegularText) ? imageButton.refRegularText : ""}</p>
                                     </div>
-                                </c:when>
-                                <c:when test = "${empty imageButton.refBoldText}">
-                                    <div class="social-mention-details">
-                                        <p>${imageButton.refRegularText}</p>
-                                    </div>
-                                </c:when>
-                                <c:otherwise>
-                                    <div class="social-mention-details">
-                                        <p><strong>${imageButton.refBoldText}, </strong>${imageButton.refRegularText}</p>
-                                    </div>
-                                </c:otherwise>
-                            </c:choose>
-                        </c:if>
+                                </c:if>
+                            </div>
                     </div>
                 </div>
-        </div>
+        </c:if>
     </div>
 </c:if>
 

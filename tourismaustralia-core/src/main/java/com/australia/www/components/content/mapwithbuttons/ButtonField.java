@@ -1,4 +1,4 @@
-package com.australia.www.components.content.buttons;
+package com.australia.www.components.content.mapwithbuttons;
 
 import org.apache.commons.lang3.StringUtils;
 

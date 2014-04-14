@@ -6,17 +6,22 @@ import org.apache.sling.api.resource.ValueMap;
 
 import com.citytechinc.cq.component.annotations.Component;
 import com.citytechinc.cq.component.annotations.DialogField;
+import com.citytechinc.cq.component.annotations.FieldProperty;
 import com.citytechinc.cq.component.annotations.Listener;
 import com.citytechinc.cq.component.annotations.Tab;
 import com.citytechinc.cq.component.annotations.widgets.Html5SmartImage;
 import com.citytechinc.cq.component.annotations.widgets.PathField;
+import com.citytechinc.cq.component.annotations.widgets.RichTextEditor;
+import com.citytechinc.cq.component.annotations.widgets.rte.Format;
+import com.citytechinc.cq.component.annotations.widgets.rte.Justify;
+import com.citytechinc.cq.component.annotations.widgets.rte.Lists;
 import com.day.cq.tagging.TagManager;
 import com.day.cq.wcm.api.Page;
 import com.day.cq.wcm.api.PageManager;
 import com.day.cq.wcm.foundation.Image;
 
 @Component(value = "A Taste Of", group = "Food and Wine", basePath = "jcr_root/apps/foodandwine/components", dialogHeight = 500, disableTargeting = true, tabs = {
-	@Tab(title = "Image"), @Tab(title = "Properties") }, listeners = {
+	@Tab(title = "Image"), @Tab(title = "Properties"), @Tab(title = "Mosaic Text") }, listeners = {
 	@Listener(name = "aftercopy", value = "REFRESH_PAGE"), @Listener(name = "afterdelete", value = "REFRESH_PAGE"),
 	@Listener(name = "afteredit", value = "REFRESH_PAGE"), @Listener(name = "afterinsert", value = "REFRESH_PAGE") })
 public class Taste {
@@ -56,6 +61,10 @@ public class Taste {
 	@PathField(rootPath = "/content")
 	private final String lowerRightLink;
 
+	@DialogField(fieldLabel = "Mosaic Text", tab = 3, fieldDescription = "Line of text below the mosaic tiles", additionalProperties = @FieldProperty(name = "anchor", value = "100%"))
+	@RichTextEditor(lists = @Lists(indent = false, ordered = false, outdent = false, unordered = false), justify = @Justify(justifycenter = false, justifyleft = false, justifyright = false), format = @Format(bold = true, underline = true, italic = false))
+	private final String mosaicText;
+
 	private Experience upperLeftExperience;
 	private Experience upperRightExperience;
 	private Experience lowerLeftExperience;
@@ -74,6 +83,7 @@ public class Taste {
 		imageTitle = properties.get("imageTitle", StringUtils.EMPTY);
 		imageSubscript = properties.get("imageSubscript", StringUtils.EMPTY);
 		imageAltTag = properties.get("imageAltTag", StringUtils.EMPTY);
+		mosaicText = properties.get("mosaicText", StringUtils.EMPTY);
 		// four mosaic tiles links to other pages
 		upperLeftLink = properties.get("upperLeftLink", StringUtils.EMPTY);
 		Page page = pageManager.getPage(upperLeftLink);
@@ -151,6 +161,10 @@ public class Taste {
 
 	public Experience getLowerRightExperience() {
 		return lowerRightExperience;
+	}
+
+	public String getMosaicText() {
+		return mosaicText;
 	}
 
 }

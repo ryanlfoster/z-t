@@ -78,8 +78,5 @@
 			</div>
 		</div>
 	</div>
-
-	<p class="fawexploremosaictext">
-		Want to list your Food &amp; Wine business here? <a href="" target="_self">Register now.</a>
-	</p>
+	<p class="fawexploremosaictext">${taste.mosaicText}</p>
 </div>

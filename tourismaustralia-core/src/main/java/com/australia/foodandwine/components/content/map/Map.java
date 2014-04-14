@@ -92,7 +92,6 @@ public class Map {
 		if (!ServerUtils.isLocal(slingSettings)) {
 			markerImgUrl = "icon:" + serverNameService.getFoodAndWineServerName() + MARKER_IMAGE;
 		}
-		// TODO: refactor better way to replace parameters
 		googleMapUrl = StringUtils.replace(googleMapUrl, "{marker_image_url}", markerImgUrl);
 		googleMapUrl = googleMapUrl + "&key=" + googleService.getMapsAPIKey();
 	}

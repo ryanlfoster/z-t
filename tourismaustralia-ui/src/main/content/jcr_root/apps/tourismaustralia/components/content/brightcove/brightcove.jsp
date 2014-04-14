@@ -8,7 +8,6 @@
     <div class="video-large-container col-xs-12">
         <div class="video-position">
             <div class="video-container">
-
                 <div class="video-container-table">
                     <div class="placeholder">
                         <div class="cq-dd-brightcovevideo" style="overflow-x: hidden;overflow-y: hidden;text-align: center;width: 100%;text-align:center;">
@@ -54,25 +53,18 @@
                             </script>
                         </div>
                     </div>
-                    <div class="l-table-container">
-                        <div class="l-table">
-                            <div class="l-table-cell-centered">
-                                <img class="video-play-icon" src="/etc/designs/tourismaustralia/clientlibs/img/icons/video_play_large.png" alt="">
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
             <c:if test="${not empty brightcove.title || not empty brightcove.description}">
-                <div class="video-copy-large-container">
-                    <c:if test="${not empty brightcove.title}">
-                        <span class="video-title-large-video type-h4">${brightcove.title}</span>
-                    </c:if>
+            <div class="video-copy-large-container">
+                <c:if test="${not empty brightcove.title}">
+                    <span class="video-title-large-video type-h4">${brightcove.title}</span>
+                </c:if>
 
-                    <c:if test="${not empty brightcove.description}">
-                        <span class="video-text-large">${brightcove.description}</span>
-                    </c:if>
-                </div>
+                <c:if test="${not empty brightcove.description}">
+                    <span class="video-text-large">${brightcove.description}</span>
+                </c:if>
+            </div>
             </c:if>
         </div>
     </div>

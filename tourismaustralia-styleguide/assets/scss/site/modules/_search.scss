@@ -1,0 +1,28 @@
+
+.search-result-count{
+  text-align: center;
+  padding:27px 0;
+}
+.search-result-count-copy {
+  color:$search-text-color;
+  font-size: pxtoem(16px);
+}
+
+.search-your-results {
+
+  .search-toggle-buttons {
+    text-align: center;
+  }
+
+  @include breakpoint(md){
+    .search-toggle-buttons {
+      position: absolute;
+      top: .8em;
+      right: 1em;
+    }
+  }
+
+  .btn-bubble-min-width {
+    min-width: inherit;
+  }
+}

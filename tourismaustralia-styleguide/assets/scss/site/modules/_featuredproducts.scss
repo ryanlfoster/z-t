@@ -1,4 +1,10 @@
 
 .featuredproducts {
-  padding-bottom: pxtoem($bottom-spacing);
+  padding-bottom: pxtoem($bottom-spacing-double);
+}
+.featuredproducts-mosaic {
+  margin: 0 pxtoem(-15px);
+  @include breakpoint(sm){
+    margin: 0em;
+  }
 }

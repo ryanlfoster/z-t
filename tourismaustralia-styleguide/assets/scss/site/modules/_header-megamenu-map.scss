@@ -1,0 +1,146 @@
+///*
+// * Header - Mega Menu Map:
+// * ---------------------------------------------------------------------------------------------------------------- */
+.megamenu-map {
+
+    min-height: 280px;
+
+    .megamenu-map-filters {
+
+        .megamenu-map-filter {
+            //float: left;
+            width: 200px;
+            padding: 10px 20px;
+            display: block;
+            position: absolute;
+            font-size: pxtoem(18px);
+        }
+
+        &:nth-child(1) .megamenu-map-filter {
+            top: pxtoem(60px);
+        }
+
+        &:nth-child(2) .megamenu-map-filter {
+            top: pxtoem(90px);
+        }
+
+        &:nth-child(3) .megamenu-map-filter {
+            top: pxtoem(120px);
+        }
+
+        // These numbers will need to be adjusted if there are ever more than 3... may not be practical in a CMS.
+
+    }
+
+    .megamenu-map-markers {
+        display: none;
+    }
+
+    .megamenu-map-marker {
+
+        float: left;
+        width: 33.3%;
+        min-width: 200px;
+        margin-bottom: 5px;
+        margin-top: -5px;
+
+        a {
+            display: inline-block;
+            font-size: pxtoem(15px);
+            padding: 10px 0;
+        }
+
+        .map-segment {
+            display: none;
+            top: 0;
+            left: 40px;
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            background: transparent url(../imgs/megamenu/australia-map-sprite.png) no-repeat 0 0;
+        }
+
+        a:hover .map-segment {
+            display: block;
+        }
+
+    }
+
+    .map-marker-act .map-segment {
+        background-position: -200px 0;
+    }
+
+    .map-marker-nsw .map-segment {
+        background-position: -400px 0;
+    }
+
+    .map-marker-nt .map-segment {
+        background-position: -600px 0;
+    }
+
+    .map-marker-qld .map-segment {
+        background-position: -800px 0;
+    }
+
+    .map-marker-sa .map-segment {
+        background-position: -1000px 0;
+    }
+
+    .map-marker-tas .map-segment {
+        background-position: -1200px 0;
+    }
+
+    .map-marker-vic .map-segment {
+        background-position: -1400px 0;
+    }
+
+    .map-marker-wa .map-segment {
+        background-position: -1600px 0;
+    }
+}
+
+    // Map filters active states.
+.js .megamenu-map .megamenu-map-filters.is-active,
+.no-js .megamenu-map .megamenu-map-filters:hover {
+
+    .megamenu-map-filter {
+
+        color: $megamenu-link-hover-colour;
+
+        &:after {
+            content: "";
+            width: 0;
+            height: 0;
+            right: -10px;
+            top: 8px;
+            position: absolute;
+            display: block;
+            border-top: 10px solid transparent;
+            border-bottom: 10px solid transparent;
+            border-left: 10px solid #fff;
+        }
+    }
+
+    .megamenu-map-markers {
+
+        float: left;
+        padding-left: 280px;
+        margin: 20px 0 20px 200px;
+
+        max-width: 1000px;
+        min-height: 200px;
+        position: relative;
+        display: block;
+
+        border-left: 1px solid #FFF;
+        background: transparent url(../imgs/megamenu/australia-map-base.png) no-repeat 40px 0;
+    }
+}
+
+.no-js .megamenu-map .megamenu-map-filters:hover {
+    .megamenu-map-filter {
+        cursor: default;
+    }
+}
+
+

@@ -3,23 +3,41 @@
 // * ---------------------------------------------------------------------------------------------------------------- */
 
 // colours...
-$notice-bar-bg: #6d727b;                                            // notice bar background colour
-$arrival-bar-bg: $footer_bg;                                        // arrival navigation bar background colour (desktop)
-$navigation-bar-bg: $category-colour-islands;                       // main navigation background colour (desktop)
-$arrival-bar-active-link-bdr: $category-colour-beaches;             // link border for active links in arrival bar
-$navigation-bar-active-link-colour: $arrival-bar-active-link-bdr;   // includes search placeholder text
-$navigation-bar-dropdown-bg: rgba(0, 83, 94, 0.9);                  // main navigation drop down background colour (transparent)
-$navigation-bar-dropdown-bg-solid: rgba(0, 83, 94, 1);              // main navigation drop down background colour (opaque)
-$type-header: $type-footer-copyright-colour;                        // header font colour
+$notice-bar-bg: #6d727b;
+// notice bar background colour
+$arrival-bar-bg: $footer_bg;
+// arrival navigation bar background colour (desktop)
+$navigation-bar-bg: $category-colour-islands;
+// main navigation background colour (desktop)
+$arrival-bar-active-link-bdr: $category-colour-beaches;
+// link border for active links in arrival bar
+$navigation-bar-active-link-colour: $arrival-bar-active-link-bdr;
+// includes search placeholder text
+$navigation-bar-dropdown-bg: rgba(0, 83, 94, 0.9);
+// main navigation drop down background colour (transparent)
+$navigation-bar-dropdown-bg-solid: rgba(0, 83, 94, 1);
+// main navigation drop down background colour (opaque)
+$type-header: $type-footer-copyright-colour;
+// header font colour
 
 // mobile nav
-$nav-mobile-top-links-bdr: #003b43;                                 // top link set (.nav-bar-right items border colour
-$nav-mobile-top-links-bg: #00535e;                                  // top link set (.nav-bar-right) background colour
-$nav-mobile-top-links-hvr-bg: #00535e;                            // top link set (.nav-bar-right) background hover colour
+$nav-mobile-top-links-bdr: #003b43;
+// top link set (.nav-bar-right items border colour
+$nav-mobile-top-links-bg: #00535e;
+// top link set (.nav-bar-right) background colour
+$nav-mobile-top-links-hvr-bg: #00535e;
+// top link set (.nav-bar-right) background hover colour
 
-$nav-mobile-bot-links-bdr: #00282e;                                 // bottom link set (.nav-bar-left) items border colour
-$nav-mobile-bot-links-bg: #003b43;                                  // bottom link set (.nav-bar-left) background colour
-$nav-mobile-bot-links-dd-bg: #00333a;                             // bottom link set (.nav-bar-left) background hover colour
+$nav-mobile-bot-links-bdr: #00282e;
+// bottom link set (.nav-bar-left) items border colour
+$nav-mobile-bot-links-bg: #003b43;
+// bottom link set (.nav-bar-left) background colour
+$nav-mobile-bot-links-dd-bg: #00333a;
+// bottom link set (.nav-bar-left) background hover colour
+
+
+// mega menu panels
+$megamenu-link-hover-colour: $arrival-bar-active-link-bdr;
 
 // element dimensions...
 $navigation-bar-height: pxtoem(90px);
@@ -123,7 +141,7 @@ $navigation-bar-height: pxtoem(90px);
     background-color: $notice-bar-bg;
 
     .row {
-        position:relative;
+        position: relative;
         padding-top: 10px;
         padding-bottom: 10px;
     }
@@ -172,29 +190,7 @@ $navigation-bar-height: pxtoem(90px);
 
 // don't show the close button unless we can set a cookie if it's clicked...
 .no-js .notice-close {
-    //display: none;
-}
-
-
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-// TESTING NOTICE BAR ADJACENT SIBLING SELECTOR... May not be needed...
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-.notice-bar.is-active {
-    //margin-top:2em;
-}
-
-.notice-bar.is-active + #main-header .nav-bar.bar-fixed-top {
-
-}
-
-.notice-bar.is-active + #main-header + #main-content {
-/*
-    // these were the defaults...
-    margin-top: 2em;
-    @include breakpoint(sm) {
-        margin-top: 9em;
-    }
-    */
+    display: none;
 }
 
 ///*
@@ -219,17 +215,15 @@ $navigation-bar-height: pxtoem(90px);
         }
 
         &.is-current a {
-            font-weight: bold;
-            font-family: $font-family-base-b;
             border-bottom-color: $arrival-bar-active-link-bdr;
         }
 
     }
 
     .nav-bar-right {
-        float:none;
+        float: none;
         display: block;
-        text-align:center;
+        text-align: center;
     }
 
     .header-byline {
@@ -252,7 +246,7 @@ $navigation-bar-height: pxtoem(90px);
     }
 
     // Mobile Only...
-    @media (max-width: $screen-sm-min) {
+    @media (max-width: $screen-xs-max) {
         .nav-bar-left {
             display: none;
         }
@@ -341,8 +335,6 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
         }
 
         &.is-current a {
-            font-weight: bold;
-            font-family: $font-family-base-b;
             border-bottom-color: $arrival-bar-active-link-bdr;
         }
 
@@ -371,8 +363,10 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
 // * ---------------------------------------------------------------------------------------------------------------- */
 .navigation-bar {
 
-    //TODO:
-    //position: relative;
+    &.bar-fixed-scroll {
+        // not the clone
+        box-shadow: 0 3px 0 0 rgba(0, 0, 0, 0.2);
+    }
 
     // Mobile & Defaults...
     background-color: transparent;
@@ -382,9 +376,14 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
 
     min-width: pxtoem(320px);
 
-    // Mobile Nav Toggle...
+    &.is-bar-cloned {
+        // leave the clone invisible
+        background-image: none;
+    }
+
+    // show the navbar toggle...
     .nav-bar-toggle {
-        display: none;
+        display: inline-block;
         margin: -0.003em; // fix inline block
         padding: 18px 16px;
     }
@@ -428,18 +427,13 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
     }
 
     // Mobile Only...
-    @media (max-width: $screen-sm-min) {
+    @media (max-width: $screen-xs-max) {
 
         .l-center-1200 {
             max-width: none;
             margin: 0;
             padding: 0;
             height: 100%;
-        }
-
-        // show the navbar toggle...
-        .nav-bar-toggle {
-            display: inline-block;
         }
 
         .main-nav-panel {
@@ -486,6 +480,11 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
         background-position: 0 0;
         background-color: $navigation-bar-dropdown-bg;
 
+        // Mobile Nav Toggle...
+        .nav-bar-toggle {
+            display: none;
+        }
+
         .nav-bar-nav > li > a {
             height: 91px;
             border-bottom: 5px solid transparent;
@@ -522,6 +521,24 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
 
 }
 
+// adjust font size sooner on business nav bar
+.header-business .navigation-bar {
+
+    .nav-bar-left > li > a {
+        padding: pxtoem(35px) pxtoem(14px);
+        font-size: pxtoem(16px);
+    }
+
+    @media (min-width: 1148px) {
+
+        .nav-bar-left > li > a {
+            padding: pxtoem(25.5px) pxtoem(30px);
+            font-size: pxtoem(20px);
+        }
+
+    }
+}
+
 .js .nav-bar-panel-close {
     display: none;
 }
@@ -538,10 +555,6 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
 
     .vis-hidden-sm {
         @extend .vis-hidden;
-    }
-
-    .type-plus {
-        font-family: Arial, sans-serif; // otherwise IE8 thinks it's a hyphen :(
     }
 
     .icon-heart.icon.circle {
@@ -579,7 +592,7 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
         @extend .gpu-render;
 
         // Mobile Only...
-        @media (max-width: $screen-sm-min) {
+        @media (max-width: $screen-xs-max) {
             position: relative;
             background-color: $navigation-bar-dropdown-bg-solid;
         }
@@ -599,7 +612,7 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
     .nav-bar-panel-container {
         // Transition - Slide Down...
         max-height: 0;
-        overflow:hidden;
+        overflow: hidden;
         @extend .gpu-render;
         @include transition(max-height, 0.15s, ease-out, 0);
 
@@ -607,7 +620,16 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
             top: 15px;
             right: 15px;
             z-index: 1;
+            position: absolute;
+        }
+
+        .vis-focusable {
+            padding: 5px 0;
+            font-size: x-small;
             position:absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
         }
     }
 
@@ -618,15 +640,18 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
     }
 }
 
-// JavaScript Disabled Actions...
-.no-js .navigation-bar {
+// Focus should work with an without JS but there are some helpers in jquery.ta.megamenu.js for internal element focus
+.navigation-bar {
     // Targeted Nav Bar Panels Defaults...
     .has-children a:focus + .nav-bar-panel > .nav-bar-panel-container {
         max-height: 1000px;
         @include transition(max-height, 0.25s, ease-in, 0);
     }
+}
 
-    @media (max-width: $screen-sm) {
+// JavaScript Disabled Actions...
+.no-js .navigation-bar {
+    @media (max-width: $screen-xs-max) {
         // Targeted Nav Bar Panels Mobile Only...
         .has-children:hover > .nav-bar-panel > .nav-bar-panel-container {
             max-height: 1000px;
@@ -637,10 +662,10 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
 
 .navigation-bar {
     // Targeted Nav Bar Panels Mobile Only...
-    @media (max-width: $screen-sm) {
+    @media (max-width: $screen-xs-max) {
 
         .nav-bar-panel .vis-focusable {
-            display:none; // disable focus on skip links for small screen devices...
+            display: none; // disable focus on skip links for small screen devices...
         }
 
         .nav-bar-nav > li > a:focus,
@@ -661,7 +686,6 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
             }
         }
 
-        // TODO: find out how we're meant to handle the map and search in mobile nav!!!
         .nav-bar-right {
             .has-children a:focus + .nav-bar-panel > .nav-bar-panel-container,
             .has-children:hover > .nav-bar-panel > .nav-bar-panel-container {
@@ -677,25 +701,26 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
             max-height: 0;
         }
 
-        #nav-search-panel:target .nav-bar-panel-container,
-        #nav-map-panel:target .nav-bar-panel-container,
-        #nav-things-to-do-panel:target .nav-bar-panel-container,
-        #nav-where-to-go-panel:target .nav-bar-panel-container,
-        #nav-plan-your-trip-panel:target .nav-bar-panel-container,
+        #nav-main-panel-search:target .nav-bar-panel-container,
+        #nav-main-panel-map:target .nav-bar-panel-container,
+        #nav-main-panel-1:target .nav-bar-panel-container,
+        #nav-main-panel-2:target .nav-bar-panel-container,
+        #nav-main-panel-3:target .nav-bar-panel-container,
+        #nav-main-panel-4:target .nav-bar-panel-container,
         .has-children a:focus + .nav-bar-panel-container {
             max-height: 1000px;
             @include transition(max-height, 0.25s, ease-in, 0);
+            box-shadow: 0 3px 0 0 rgba(0, 0, 0, 0.3);
         }
 
-        #nav-search-panel:target > a,
-        #nav-map-panel:target > a,
-        #nav-things-to-do-panel:target > a,
-        #nav-where-to-go-panel:target > a,
-        #nav-plan-your-trip-panel:target > a,
+        #nav-main-panel-search:target > a,
+        #nav-main-panel-map:target > a,
+        #nav-main-panel-1:target > a,
+        #nav-main-panel-2:target > a,
+        #nav-main-panel-3:target > a,
+        #nav-main-panel-4:target > a,
         .has-children a:focus,
         .has-children.is-open a {
-            font-weight: bold;
-            font-family: $font-family-base-b;
             border-bottom-color: $arrival-bar-active-link-bdr;
         }
     }
@@ -715,6 +740,7 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
     .has-children.is-open .nav-bar-panel-container {
         max-height: 1000px;
         @include transition(max-height, 0.25s, ease-in, 0);
+        box-shadow: 0 3px 0 0 rgba(0, 0, 0, 0.3);
     }
 }
 
@@ -729,7 +755,7 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
     }
 
     .nav-bar-panel-close {
-        display:none;
+        display: none;
     }
 }
 
@@ -737,14 +763,13 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
 .lt-ie9.no-js .navigation-bar {
 
     .has-children:hover > a {
-        font-weight: bold;
-        font-family: $font-family-base-b;
         border-bottom-color: $arrival-bar-active-link-bdr;
     }
 
     .has-children:hover > .nav-bar-panel > .nav-bar-panel-container {
         height: auto;
         max-height: 100%;
+        box-shadow: 0 3px 0 0 rgba(0, 0, 0, 0.3);
     }
 }
 
@@ -752,14 +777,13 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
 .lt-ie9.js .navigation-bar {
 
     .has-children.is-open > a {
-        font-weight: bold;
-        font-family: $font-family-base-b;
         border-bottom-color: $arrival-bar-active-link-bdr;
     }
 
     .has-children.is-open:hover > .nav-bar-panel > .nav-bar-panel-container {
         height: auto;
         max-height: 100%;
+        box-shadow: 0 3px 0 0 rgba(0, 0, 0, 0.3);
     }
 }
 
@@ -794,25 +818,15 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
     transition: background-color 0.25s ease-out 0s, height 0s linear 0s, padding 0.25s ease-out 0s;
 }
 
-@media (max-width: $screen-sm) {
+@media (max-width: $screen-xs-max) {
 
     .header {
 
-        //height: 58px;
         @include nav-main-header-close();
 
         .nav-bar-panel-close {
             display: none;
         }
-
-        /*
-        .notice-bar,
-        .arrival-bar {
-            overflow: hidden;
-            max-height: 500px;
-            @include transition(max-height, 0.15s, ease-out, 0.25s);
-        }
-        */
 
         .navigation-bar {
             height: 58px;
@@ -843,14 +857,6 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
         height: 100%;
         @include nav-main-header-open();
 
-        /*
-        .notice-bar,
-        .arrival-bar {
-            max-height: 0;
-            @include transition(max-height, 0.15s, ease-in, 0);
-        }
-        */
-
         .navigation-bar .l-center-1200 {
             height: 100%;
             @include nav-main-header-open();
@@ -874,23 +880,6 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
         }
     }
 
-    // JavaScript Enabled...
-    // Adjust the delays because the arrival bar should be scrolled out of view...
-
-    /*
-    .js .header {
-        .arrival-bar {
-            @include transition(max-height, 0.15s, ease-out, 0);
-        }
-    }
-
-    .js .header.is-open {
-        .mobile-open-bar,
-        .main-nav-panel {
-            @include transition(width, 0.25s, ease-out, 0);
-        }
-    }
-    */
 }
 
 ///*
@@ -923,7 +912,7 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
     }
 
     .nav-search-fieldset {
-        position:relative;
+        position: relative;
     }
 
     .nav-search-label {
@@ -935,7 +924,7 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
         margin-left: -30px;
         // hide the label from everything but IE8
         &:not(#foo) {
-            display:none;
+            display: none;
         }
     }
 
@@ -961,11 +950,12 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
         vertical-align: top;
     }
 
-    // Standard Navigation List Panel...
-    .nav-bar-panel-nav > li {
-        border-bottom: 1px solid $nav-mobile-bot-links-bdr;
+    @media (max-width: $screen-xs-max) {
+        // Standard Navigation List Panel...
+        .nav-bar-panel-nav > li {
+            border-bottom: 1px solid $nav-mobile-bot-links-bdr;
 
-
+        }
     }
 
     .nav-bar-panel-nav > li > a {
@@ -1024,16 +1014,60 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
 
 }
 
+.header-business {
+    // Tablet...
+    @media (min-width: $screen-sm-min) {
+        .logo-masthead {
+            width: 288px;
+            margin: pxtoem(16px) 0;
+            background: transparent url("../imgs/logo/logo-business-australia.png") no-repeat 0 50%;
+        }
+    }
+}
+
 ///*
 // * (IE8) Header Masthead:
 // * ---------------------------------------------------------------------------------------------------------------- */
-.lt-ie9 .header-masthead {
+.lt-ie9 {
+    .header-masthead {
 
-    float: left;
+        float: left;
 
-    .logo-masthead {
-        width: 150px;
-        margin: pxtoem(16px) 0;
-        background: transparent url("../imgs/logo/logo-tourism-australia.png") no-repeat 0 50%;
+        .logo-masthead {
+            width: 150px;
+            margin: pxtoem(16px) 0;
+            background: transparent url("../imgs/logo/logo-tourism-australia.png") no-repeat 0 50%;
+        }
+    }
+
+    .header-business {
+        .logo-masthead {
+            width: 288px;
+            margin: pxtoem(16px) 0;
+            background: transparent url("../imgs/logo/logo-business-australia.png") no-repeat 0 50%;
+        }
+    }
+}
+
+///*
+// * Mega Menu Panels - Common Properties:
+// * ---------------------------------------------------------------------------------------------------------------- */
+.megamenu-panel {
+
+    .megamenu-components {
+        @include clearfix();
+        //padding: pxtoem(30px) 0;
+    }
+
+    a {
+        text-decoration: none;
+        &:hover {
+            color: $megamenu-link-hover-colour;
+        }
+    }
+
+    .is-active > .megamenu-components > a,
+    .is-active > a {
+        color: $megamenu-link-hover-colour;
     }
 }

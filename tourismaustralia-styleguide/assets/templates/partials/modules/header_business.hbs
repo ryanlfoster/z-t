@@ -1,7 +1,7 @@
 ---
-title: Header (Holiday)
+title: Header (Business)
 ---
-<div id="nav-main-header" class="header megamenu">
+<div id="nav-main-header" class="header header-business megamenu">
 
     <div class="accessibility-links">
         <a tabindex="1" class="sr-only vis-focusable" href="#main-content">Skip to content</a>
@@ -20,8 +20,8 @@ title: Header (Holiday)
                 </li>
             </ul>
             <ul class="nav-bar-nav nav-bar-left">
-                <li class="is-current"><a href="#">Holiday in Australia</a></li>
-                <li><a href="#">Plan a Business Event</a></li>
+                <li><a href="#">Holiday in Australia</a></li>
+                <li class="is-current"><a href="#">Plan a Business Event</a></li>
             </ul>
         </div>
     </div>
@@ -51,8 +51,8 @@ title: Header (Holiday)
                     <li class="toggle-home vis-hidden-sm">
                         <a href="#" tabindex="-1"><span class="icon icon-32 icon-home" aria-hidden="true"></span><span> Home</span></a>
                     </li>
-                    <li id="nav-search-panel" class="toggle-search has-children">
-                        <a class="nav-toggle-panel" href="#nav-search-panel"><span class="icon icon-32 icon-search" aria-hidden="true"></span><span class="vis-hidden-sm"> Search</span></a>
+                    <li id="nav-main-panel-search" class="toggle-search has-children">
+                        <a class="nav-toggle-panel" href="#nav-main-panel-search"><span class="icon icon-32 icon-search" aria-hidden="true"></span><span class="vis-hidden-sm"> Search</span></a>
                         <ul class="nav-bar-panel">
                             <li class="nav-bar-panel-container">
                                 <div class="nav-bar-panel-content">
@@ -71,8 +71,8 @@ title: Header (Holiday)
                             </li>
                         </ul>
                     </li>
-                    <li id="nav-map-panel" class="toggle-map has-children">
-                        <a class="nav-toggle-panel" href="#nav-map-panel"><span class="icon icon-32 icon-map" aria-hidden="true"></span><span class="vis-hidden-sm"> Map</span></a>
+                    <li id="nav-main-panel-map" class="toggle-map has-children">
+                        <a class="nav-toggle-panel" href="#nav-main-panel-map"><span class="icon icon-32 icon-map" aria-hidden="true"></span><span class="vis-hidden-sm"> Map</span></a>
                         <ul class="nav-bar-panel">
                             <li class="nav-bar-panel-container">
                                 <a class="sr-only vis-focusable" href="#nav-main-panel-1">Skip to "Things to do"</a>
@@ -90,13 +90,17 @@ title: Header (Holiday)
                             </li>
                         </ul>
                     </li>
+                    {{!
                     <li class="toggle-my-trip" class="toggle-my-trip">
                         <a href="#" tabindex="-1">
                             <span class="icon icon-32 icon-heart circle" aria-hidden="true"></span>
                             <span class="vis-hidden-sm">My Trip</span>
-                            <span class="my-trip-count">30</span>
+                                    <span class="my-trip-count">
+                                        <span class="type-plus" aria-hidden="true"> +</span> 30
+                                    </span>
                         </a>
                     </li>
+                    }}
                 </ul>
                 {{! END: SUPLIMENTRY NAV }}
 
@@ -109,8 +113,14 @@ title: Header (Holiday)
                                 <a class="sr-only vis-focusable" href="#nav-main-panel-2">Skip to "Where to go"</a>
 
                                 <div class="nav-bar-panel-content">
-
-                                    {{> header_megamenu_map}}
+                                    <ul class="nav-bar-panel-nav">
+                                        <li><a href="#">Link Text</a></li>
+                                        <li><a href="#">Link Text</a></li>
+                                        <li><a href="#">Link Text</a></li>
+                                        <li><a href="#">Link Text</a></li>
+                                        <li><a href="#">Link Text</a></li>
+                                        <li><a href="#">Link Text</a></li>
+                                    </ul>
 
                                     <a tabindex="-1" class="nav-bar-panel-close" href="#nav-bar-top"><span class="icon icon-16 icon-close" aria-hidden="true"></span></a>
                                 </div>
@@ -124,12 +134,8 @@ title: Header (Holiday)
                                 <a class="sr-only vis-focusable" href="#nav-main-panel-3">Skip to "Plan your trip"</a>
 
                                 <div class="nav-bar-panel-content">
-                                    <ul class="nav-bar-panel-nav">
-                                        <li><a href="#">Link Text</a></li>
-                                        <li><a href="#">Link Text</a></li>
-                                        <li><a href="#">Link Text</a></li>
-                                        <li><a href="#">Link Text</a></li>
-                                    </ul>
+
+                                    {{> header_megamenu_map}}
 
                                     <a tabindex="-1" class="nav-bar-panel-close" href="#nav-bar-top"><span class="icon icon-16 icon-close" aria-hidden="true"></span></a>
                                 </div>
@@ -140,7 +146,8 @@ title: Header (Holiday)
                         <a class="nav-toggle-panel" href="#nav-main-panel-3">Plan your trip <span class="icon icon-16 icon-arrow-down" aria-hidden="true"></span></a>
                         <ul class="nav-bar-panel">
                             <li class="nav-bar-panel-container">
-                                <a class="sr-only vis-focusable" href="#main-content">Skip to content</a>
+                                <a class="sr-only vis-focusable" href="#nav-main-panel-4">Skip to "News"</a>
+                                
 
                                 <div class="nav-bar-panel-content">
                                     <ul class="nav-bar-panel-nav">
@@ -152,6 +159,25 @@ title: Header (Holiday)
                                         <li><a href="#">Link Text</a></li>
                                         <li><a href="#">Link Text</a></li>
                                         <li><a href="#">Link Text</a></li>
+                                        <li><a href="#">Link Text</a></li>
+                                        <li><a href="#">Link Text</a></li>
+                                        <li><a href="#">Link Text</a></li>
+                                        <li><a href="#">Link Text</a></li>
+                                    </ul>
+
+                                    <a tabindex="-1" class="nav-bar-panel-close" href="#nav-bar-top"><span class="icon icon-16 icon-close" aria-hidden="true"></span></a>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li id="nav-main-panel-4" class="has-children">
+                        <a class="nav-toggle-panel" href="#nav-main-panel-4">News <span class="icon icon-16 icon-arrow-down" aria-hidden="true"></span></a>
+                        <ul class="nav-bar-panel">
+                            <li class="nav-bar-panel-container">
+                                <a class="sr-only vis-focusable" href="#main-content">Skip to content</a>
+                                
+                                <div class="nav-bar-panel-content">
+                                    <ul class="nav-bar-panel-nav">
                                         <li><a href="#">Link Text</a></li>
                                         <li><a href="#">Link Text</a></li>
                                         <li><a href="#">Link Text</a></li>
@@ -169,8 +195,8 @@ title: Header (Holiday)
                 {{! START: MOBILE TOP BAR IN OPEN STATE }}
                 <div class="mobile-open-bar bar-fixed-scroll">
                     <ul class="tool-bar">
-                        <li class="is-current"><a href="#">Holiday</a></li>
-                        <li><a href="#">Business</a></li>
+                        <li><a href="#">Holiday</a></li>
+                        <li class="is-current"><a href="#">Business</a></li>
                         <li class="nav-bar-toggle">
                             <a class="nav-toggle-close" href="#nav-bar-top"><span class="icon icon-close icon-32" aria-hidden="true"></span>
                                 <span class="sr-only">Close Navigation</span></a></li>

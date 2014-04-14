@@ -1,0 +1,20 @@
+---
+title: Search ATDW Highlights
+---
+
+<div class="search-atdw-highlights">
+    <div class="row l-center-1200">
+        <div class="col-xs-12">
+            {{#parseJSON '{"title": "MAKE YOUR TRIP HAPPEN", "copy" : "Ready to get serious about the Great Barrier Reef?<br>We can help you sort out all the details with the options below."}'}}
+                {{> sectionintro }}
+            {{/parseJSON}}
+
+            {{> mosaic_3column_2rows }}
+
+            {{#parseJSON '{"copy" : "Search More"}'}}
+                {{> search_view_more }}
+            {{/parseJSON}}
+
+        </div>
+    </div>
+</div>

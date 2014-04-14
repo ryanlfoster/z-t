@@ -16,9 +16,17 @@ layout: layout-base.hbs
 
     {{> search_counter }}
 
+
+    {{> mosaic_search_grid_4_1 }}
+
+    <div class="l-h-center">
+        <a href="#" class="btn-primary">View More</a>
+    </div>
+
     {{#parseJSON '{"title": "MAKE YOUR TRIP HAPPEN", "copy" : "Ready to get serious about the Great Barrier Reef? We can help you sort out all the details with the options below."}'}}
         {{> sectionintro }}
     {{/parseJSON}}
 
+    {{> mosaic_3column_2rows }}
 
 </div>

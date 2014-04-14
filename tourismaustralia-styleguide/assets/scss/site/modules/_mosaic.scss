@@ -17,7 +17,7 @@
   width: 100%;
   overflow: visible;
   @include opacity(1);
-  margin-bottom: pxtoem(20px);
+  margin-bottom: pxtoem($mosaic-row-bottom-margin);
 
   @include breakpoint(md) {
     padding: pxtoem(3px);
@@ -226,7 +226,13 @@
 // mosaic 3 column
 ///////////////////
 .mosaic-3column-item-option{
-  padding: .2em;
+  //padding: .2em;
+  margin-bottom: pxtoem($mosaic-row-bottom-margin);
+
+  @include breakpoint(md) {
+    margin-bottom: initial;
+    padding: pxtoem($mosaic-col-padding);
+  }
 }
 .mosaic-3column-item-option.is-opacity {
   opacity: .5;

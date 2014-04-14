@@ -537,6 +537,17 @@
                     "content" : "{{section 'bylinewithshareitem'}}"
                 }
                 
+                    ,
+                
+            
+                "mosaic_search_grid_4_1" : {
+                     "data" : {
+                        "title" : "mosaic_search_grid_4_1",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'mosaic_search_grid_4_1'}}"
+                }
+                
             
             
                 ,

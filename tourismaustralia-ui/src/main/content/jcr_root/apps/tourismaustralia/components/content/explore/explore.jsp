@@ -49,8 +49,8 @@
 		<c:if test="${explore.tabs[0].hasTitle}">
 		<a href="#" class="btn-bubble btn-bubble-min-width is-active btn-category-extra-space">
     <span class="btn-bubble-button">
-    <img class="btn-bubble-std" src="${explore.tabs[0].iconImagePath}" alt=""/>
-    <img class="btn-bubble-active" src="${explore.tabs[0].selectedImagePath}" alt=""/>
+    <img class="btn-bubble-std" src="<c:url value='${explore.tabs[0].iconImagePath}'/>" alt=""/>
+    <img class="btn-bubble-active" src="<c:url value='${explore.tabs[0].selectedImagePath}'/>" alt=""/>
     </span>
 			<span class="type-below-btn"><c:out value="${explore.tabs[0].title}"/>
 			</span>
@@ -59,8 +59,8 @@
 		<c:if test="${explore.tabs[1].hasTitle}">
 		<a href="#" class="btn-bubble btn-bubble-min-width btn-category-extra-space">
     <span class="btn-bubble-button">
-    <img class="btn-bubble-std" src="${explore.tabs[1].iconImagePath}" alt=""/>
-    <img class="btn-bubble-active" src="${explore.tabs[1].iconImagePath}" alt=""/>
+    <img class="btn-bubble-std" src="<c:url value='${explore.tabs[1].iconImagePath}'/>" alt=""/>
+    <img class="btn-bubble-active" src="<c:url value='${explore.tabs[1].iconImagePath}'/>" alt=""/>
     </span>
 			<span class="type-below-btn"><c:out value="${explore.tabs[1].title}"/></span>
 		</a>
@@ -68,8 +68,8 @@
 		<c:if test="${explore.tabs[2].hasTitle}">
 		<a href="#" class="btn-bubble btn-bubble-min-width btn-category-extra-space">
     <span class="btn-bubble-button">
-    <img class="btn-bubble-std" src="${explore.tabs[2].iconImagePath}" alt=""/>
-    <img class="btn-bubble-active" src="${explore.tabs[2].iconImagePath}" alt=""/>
+    <img class="btn-bubble-std" src="<c:url value='${explore.tabs[2].iconImagePath}'/>" alt=""/>
+    <img class="btn-bubble-active" src="<c:url value='${explore.tabs[2].iconImagePath}'/>" alt=""/>
     </span>
 			<span class="type-below-btn"><c:out value="${explore.tabs[2].title}"/></span>
 		</a>
@@ -77,8 +77,8 @@
 		<c:if test="${explore.tabs[3].hasTitle}">
 		<a href="#" class="btn-bubble btn-bubble-min-width btn-category-extra-space">
     <span class="btn-bubble-button">
-    <img class="btn-bubble-std" src="${explore.tabs[3].iconImagePath}" alt=""/>
-    <img class="btn-bubble-active" src="${explore.tabs[3].iconImagePath}" alt=""/>
+    <img class="btn-bubble-std" src="<c:url value='${explore.tabs[3].iconImagePath}'/>" alt=""/>
+    <img class="btn-bubble-active" src="<c:url value='${explore.tabs[3].iconImagePath}'/>" alt=""/>
     </span>
 			<span class="type-below-btn"><c:out value="${explore.tabs[3].title}"/></span>
 		</a>
@@ -86,8 +86,8 @@
 		<c:if test="${explore.tabs[4].hasTitle}">
 		<a href="#" class="btn-bubble btn-bubble-min-width btn-category-extra-space">
     <span class="btn-bubble-button">
-    <img class="btn-bubble-std" src="${explore.tabs[4].iconImagePath}" alt=""/>
-    <img class="btn-bubble-active" src="${explore.tabs[4].iconImagePath}" alt=""/>
+    <img class="btn-bubble-std" src="<c:url value='${explore.tabs[4].iconImagePath}'/>" alt=""/>
+    <img class="btn-bubble-active" src="<c:url value='${explore.tabs[4].iconImagePath}'/>" alt=""/>
     </span>
 			<span class="type-below-btn"><c:out value="${explore.tabs[4].title}"/></span>
 		</a>
@@ -105,7 +105,7 @@
 			<div class="explore-card-front flip-front theme-mosaic-3column-front ieAntialias">
 				<!-- include category type "nature" to class to use that colour base -->
 				<div class="explore-image-container nature type-spacing-40">
-					<img class="l-image-full explore-image" src="${explore.tabs[0].cards[0].pageImagePath}" alt="" />
+					<img class="l-image-full explore-image" src="<c:url value='${explore.tabs[0].cards[0].pageImagePath}'/>" alt="" />
 					<div class="explore-item-diamond">
 						<!-- icons, aboriginal_australia, adventure, art_culture, beaches,
 						food_wine, island, nature_wildlife, outback, sports -->
@@ -132,11 +132,11 @@
 </span>
 				</a>
 				<p><c:out value="${explore.tabs[0].cards[0].pageDescription}"/></p>
-				<p><a href="${explore.tabs[0].cards[0].pagePath}">View more information</a></p>
+				<p><a href="<c:url value='${explore.tabs[0].cards[0].pagePath}'/>"><fmt:message key="View more information"/></a></p>
 				<a href="#" class="btn-bubble bubble-colour-favourite">
 <span class="btn-bubble-tooltip">
 <span class="btn-bubble-tooltip-container">
-Add to your dream trip
+<fmt:message key="Add to your dream trip"/>
 </span>
 </span>
 <span class="btn-bubble-button">
@@ -147,7 +147,7 @@ Add to your dream trip
 				</div>
 			</div>
 			<div class="explore-card-back flip-back ieAntialias">
-				<img class="l-image-full explore-image-back" src="${explore.tabs[0].cards[0].imageBack}" alt="" />
+				<img class="l-image-full explore-image-back" src="<c:url value='${explore.tabs[0].cards[0].imageBack}'/>" alt="" />
 				<div class="l-h-center l-padding-tb-30-lr-15">
 					<ul class="explore-trip">
 						<li>
@@ -161,7 +161,7 @@ Add to your dream trip
 					</ul>
 					<p>Travel time to Blue Mountains from Sydney</p>
 					<hr>
-					<p><a id="explore-flip-back-btn" href="#">Back to overview</a></p>
+					<p><a id="explore-flip-back-btn" href="#"><fmt:message key="Back to overview"/></a></p>
 				</div>
 			</div>
 		</div>
@@ -175,7 +175,7 @@ Add to your dream trip
 			<div class="explore-card-front flip-front theme-mosaic-3column-front ieAntialias">
 				<!-- include category type "nature" to class to use that colour base -->
 				<div class="explore-image-container nature type-spacing-40">
-					<img class="l-image-full explore-image" src="${explore.tabs[0].cards[1].pageImagePath}" alt="" />
+					<img class="l-image-full explore-image" src="<c:url value='${explore.tabs[0].cards[1].pageImagePath}'/>" alt="" />
 					<div class="explore-item-diamond">
 						<!-- icons, aboriginal_australia, adventure, art_culture, beaches,
 						food_wine, island, nature_wildlife, outback, sports -->
@@ -202,11 +202,11 @@ Add to your dream trip
 </span>
 					</a>
 					<p><c:out value="${explore.tabs[0].cards[1].pageDescription}"/></p>
-					<p><a href="${explore.tabs[0].cards[1].pagePath}">View more information</a></p>
+					<p><a href="<c:url value='${explore.tabs[0].cards[1].pagePath}'/>"><fmt:message key="View more information"/></a></p>
 					<a href="#" class="btn-bubble bubble-colour-favourite">
 <span class="btn-bubble-tooltip">
 <span class="btn-bubble-tooltip-container">
-Add to your dream trip
+<fmt:message key="Add to your dream trip"/>
 </span>
 </span>
 <span class="btn-bubble-button">
@@ -217,7 +217,7 @@ Add to your dream trip
 				</div>
 			</div>
 			<div class="explore-card-back flip-back ieAntialias">
-				<img class="l-image-full explore-image-back" src="${explore.tabs[0].cards[1].imageBack}" alt="" />
+				<img class="l-image-full explore-image-back" src="<c:url value='${explore.tabs[0].cards[1].imageBack}'/>" alt="" />
 				<div class="l-h-center l-padding-tb-30-lr-15">
 					<ul class="explore-trip">
 						<li>
@@ -231,7 +231,7 @@ Add to your dream trip
 					</ul>
 					<p>Travel time to Blue Mountains from Sydney</p>
 					<hr>
-					<p><a id="explore-flip-back-btn" href="#">Back to overview</a></p>
+					<p><a id="explore-flip-back-btn" href="#"><fmt:message key="Back to overview"/></a></p>
 				</div>
 			</div>
 		</div>
@@ -245,7 +245,7 @@ Add to your dream trip
 			<div class="explore-card-front flip-front theme-mosaic-3column-front ieAntialias">
 				<!-- include category type "nature" to class to use that colour base -->
 				<div class="explore-image-container nature type-spacing-40">
-					<img class="l-image-full explore-image" src="${explore.tabs[0].cards[2].pageImagePath}" alt="" />
+					<img class="l-image-full explore-image" src="<c:url value='${explore.tabs[0].cards[2].pageImagePath}'/>" alt="" />
 					<div class="explore-item-diamond">
 						<!-- icons, aboriginal_australia, adventure, art_culture, beaches,
 						food_wine, island, nature_wildlife, outback, sports -->
@@ -272,11 +272,11 @@ Add to your dream trip
 </span>
 					</a>
 					<p><c:out value="${explore.tabs[0].cards[2].pageDescription}"/></p>
-					<p><a href="${explore.tabs[0].cards[2].pagePath}">View more information</a></p>
+					<p><a href="<c:url value='${explore.tabs[0].cards[2].pagePath}'/>"><fmt:message key="View more information"/></a></p>
 					<a href="#" class="btn-bubble bubble-colour-favourite">
 <span class="btn-bubble-tooltip">
 <span class="btn-bubble-tooltip-container">
-Add to your dream trip
+<fmt:message key="Add to your dream trip"/>
 </span>
 </span>
 <span class="btn-bubble-button">
@@ -287,7 +287,7 @@ Add to your dream trip
 				</div>
 			</div>
 			<div class="explore-card-back flip-back ieAntialias">
-				<img class="l-image-full explore-image-back" src="${explore.tabs[0].cards[2].imageBack}" alt="" />
+				<img class="l-image-full explore-image-back" src="<c:url value='${explore.tabs[0].cards[2].imageBack}'/>" alt="" />
 				<div class="l-h-center l-padding-tb-30-lr-15">
 					<ul class="explore-trip">
 						<li>
@@ -301,7 +301,7 @@ Add to your dream trip
 					</ul>
 					<p>Travel time to Blue Mountains from Sydney</p>
 					<hr>
-					<p><a id="explore-flip-back-btn" href="#">Back to overview</a></p>
+					<p><a id="explore-flip-back-btn" href="#"><fmt:message key="Back to overview"/></a></p>
 				</div>
 			</div>
 		</div>

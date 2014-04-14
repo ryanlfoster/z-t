@@ -23,7 +23,7 @@
 }
 
 .vis-hidden-sm {
-    @media (min-width: $screen-sm-min) {
+    @media (min-width: $screen-sm) {
         position: absolute;
         width: 1px;
         height: 1px;

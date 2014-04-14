@@ -6,7 +6,6 @@ import java.util.Map;
 import javax.jcr.Node;
 import javax.jcr.RepositoryException;
 
-import org.apache.sling.api.resource.PersistenceException;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ResourceResolver;
 import org.apache.sling.jcr.resource.JcrResourceConstants;
@@ -52,43 +51,51 @@ public class StateCityBuilder extends PageBuilder {
 				}
 			}
 
-			createHero(page, resourceResolver, cbf);
-			createSummery(page, resourceResolver, cbf);
+			createHero(page, resourceResolver, cbf, addMixin);
+			createSummery(page, resourceResolver, cbf, addMixin);
 
 		}
 	}
 
-	private void createHero(Page page, ResourceResolver resourceResolver, ConsumerBaseFoundationType cbf) {
+	private void createHero(Page page, ResourceResolver resourceResolver, ConsumerBaseFoundationType cbf,
+		boolean addMixin) {
 		Resource pageResource = page.adaptTo(Resource.class);
 		Resource jcrContentResource = pageResource.getChild(JcrConstants.JCR_CONTENT);
 		try {
 
-			Map params = new HashMap<String, String>();
+			Map<String, Object> params = new HashMap<String, Object>();
 			params.put("title", cbf.getHdlTitle());
 			params.put("image", cbf.getImgBackground());
 			params.put(JcrResourceConstants.SLING_RESOURCE_TYPE_PROPERTY, "tourismaustralia/components/content/hero");
 
-			resourceResolver.create(jcrContentResource, "hero", params);
+			Resource heroResource = resourceResolver.create(jcrContentResource, "hero", params);
+			Node heroNode = heroResource.adaptTo(Node.class);
+			heroNode.addMixin("cq:LiveRelationship");
+			heroNode.addMixin("cq:LiveSyncCancelled");
 			resourceResolver.commit();
-		} catch (PersistenceException e) {
+		} catch (Exception e) {
 			LOG.error(e.getMessage(), e);
 		}
 
 	}
 
-	private void createSummery(Page page, ResourceResolver resourceResolver, ConsumerBaseFoundationType cbf) {
+	private void createSummery(Page page, ResourceResolver resourceResolver, ConsumerBaseFoundationType cbf,
+		boolean addMixin) {
 		Resource pageResource = page.adaptTo(Resource.class);
 		Resource jcrContentResource = pageResource.getChild(JcrConstants.JCR_CONTENT);
 		try {
 
-			Map params = new HashMap<String, String>();
+			Map<String, Object> params = new HashMap<String, Object>();
 			params.put("text", cbf.getStfDescription());
 			params
 				.put(JcrResourceConstants.SLING_RESOURCE_TYPE_PROPERTY, "tourismaustralia/components/content/summery");
 
-			resourceResolver.create(jcrContentResource, "summary", params);
+			Resource summaryResource = resourceResolver.create(jcrContentResource, "summary", params);
+			Node summaryNode = summaryResource.adaptTo(Node.class);
+			summaryNode.addMixin("cq:LiveRelationship");
+			summaryNode.addMixin("cq:LiveSyncCancelled");
 			resourceResolver.commit();
-		} catch (PersistenceException e) {
+		} catch (Exception e) {
 			LOG.error(e.getMessage(), e);
 		}
 

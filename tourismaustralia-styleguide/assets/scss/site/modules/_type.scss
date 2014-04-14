@@ -34,7 +34,7 @@
   color: $type-main-heading-colour;
 
   font-size: pxtoem(30px);
-  margin-bottom: 0em;
+  margin-bottom: .5em;
   @include breakpoint(sm){
     font-size: pxtoem(50px);
   }

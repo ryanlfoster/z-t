@@ -14,9 +14,13 @@
 }
 
 .atdw-search-pagination-wrapper .atdw-search-pagination-prev{
+  padding-right:pxtoem(4px);
   padding-left:0;
   white-space: nowrap;
   font-family: $font-family-base-b;
+  @include breakpoint(sm){
+    padding-right: initial;
+  }
 }
 
 .atdw-search-pagination-wrapper .atdw-search-pagination-pages{
@@ -25,8 +29,12 @@
 
 .atdw-search-pagination-wrapper .atdw-search-pagination-next{
   padding-right:0;
+  padding-left:pxtoem(4px);
   white-space: nowrap;
   font-family: $font-family-base-b;
+  @include breakpoint(sm){
+    padding-left: initial;
+  }
 }
 
 .atdw-search-pagination-pages-wrapper{
@@ -38,8 +46,10 @@
 
 .atdw-search-pagination-pages-wrapper li{
   display:inline-block;
-  padding: 0 pxtoem(14px) pxtoem(10px);
-
+  padding: 0 pxtoem(4px) pxtoem(10px);
+  @include breakpoint(sm){
+    padding: 0 pxtoem(14px) pxtoem(10px);
+  }
 }
 
 .atdw-search-pagination-pages-wrapper a{

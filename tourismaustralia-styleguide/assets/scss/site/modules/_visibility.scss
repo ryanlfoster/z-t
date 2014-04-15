@@ -18,6 +18,15 @@
     border: 0;
 }
 
+@mixin vis-visible() {
+    position: static;
+    width: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    clip: auto;
+}
+
 .vis-hidden {
     @include vis-hidden();
 }

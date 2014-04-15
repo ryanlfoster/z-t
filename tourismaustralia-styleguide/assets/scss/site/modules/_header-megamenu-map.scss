@@ -8,7 +8,6 @@
     .megamenu-map-filters {
 
         .megamenu-map-filter {
-            //float: left;
             width: 200px;
             padding: 10px 20px;
             display: block;
@@ -33,16 +32,29 @@
     }
 
     .megamenu-map-markers {
-        display: none;
+        left: -9999em;
+        position: absolute;
     }
 
     .megamenu-map-marker {
 
-        float: left;
-        width: 33.3%;
+        // there still exists no clean way to handle multi column lists in responsive layouts
+        // therefore this is a simple list with no explicit flow rules, if order needs to be maintained
+        // we'll need to rethink this.
+        /*
+                -moz-column-count: 3;
+                -webkit-column-count: 3;
+                columns: 3;
+
+                -moz-column-width: 33%;
+                -webkit-column-width: 33%;
+                column-width: 33%;
+        */
+
+        width: 33%;
         min-width: 200px;
-        margin-bottom: 5px;
-        margin-top: -5px;
+        display: inline-block;
+        margin: -5px -0.03em 5px -0.03em;
 
         a {
             display: inline-block;
@@ -64,6 +76,10 @@
             display: block;
         }
 
+    }
+
+    .megamenu-map-markers .megamenu-map-marker:first-child {
+        margin-top: 0;
     }
 
     .map-marker-act .map-segment {
@@ -122,16 +138,13 @@
     }
 
     .megamenu-map-markers {
-
         float: left;
         padding-left: 280px;
         margin: 20px 0 20px 200px;
-
         max-width: 1000px;
-        min-height: 200px;
+        min-height: 210px;
+        left: auto;
         position: relative;
-        display: block;
-
         border-left: 1px solid #FFF;
         background: transparent url(../imgs/megamenu/australia-map-base.png) no-repeat 40px 0;
     }

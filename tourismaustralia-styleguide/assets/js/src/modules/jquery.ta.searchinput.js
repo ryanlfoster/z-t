@@ -28,7 +28,7 @@
 
         this._defaults = defaults;
         this._name = pluginName;
-        console.log("init-search-input");
+        //console.log("init-search-input");
 
         this.init();
     }

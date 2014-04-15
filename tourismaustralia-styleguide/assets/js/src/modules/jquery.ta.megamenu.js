@@ -87,7 +87,7 @@
     // Sticky Nav Bars
     Plugin.prototype.stickyNavBars = function (scope) {
         $(window).on('scroll', function () {
-            console.log('scrolling');
+            //console.log('scrolling');
 
             scope.options.offsetTop = $(window).scrollTop();
 

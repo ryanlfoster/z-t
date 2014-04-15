@@ -11,31 +11,68 @@
 
 .search-box-wrapper{
   position: relative;
+  border-left: 1px solid $type-main-heading-colour;
 }
 
-.search-box input[type="text"]
+.search-box form input[type="text"]
 {
   width:100%;
   height:50px;
   line-height: 48px;
-  padding:0 pxtoem(22px) 0 pxtoem(13px);
+  padding:0 40px 0 13px;
   font-size: pxtoem(26px);
   color:$type-main-heading-colour;
   font-family: $font-family-base-l;
   font-family: $font-family-base \0;
   border: 1px solid $type-main-heading-colour;
+  border-left-width: 0;
+  outline:0;
+  display: inline-block;
+}
+.search-box form{
+  margin-right: 37px;
+}
+.search-box form label{display: none;}
+
+//IE10 and above versions show additional cross button inside the textbox, to get rid of that
+.search-box form input[type=text]::-ms-clear
+{
+  display: none;
 }
 
-.search-box input[type="button"]
+.search-box form input.search-input-clear
 {
   position:absolute;
-  width:pxtoem(23px);
-  height:pxtoem(23px);
-  right:pxtoem(11px);
-  top:pxtoem(13.5px);
-  width:pxtoem(46px)\9;
-  height:pxtoem(46px)\9;
+  width:pxtoem(48px);
+  height:pxtoem(48px);
+  right:38px;//having the issue with em
+  top:pxtoem(1px);
+  width:pxtoem(23px)\9;
+  height:pxtoem(48px)\9;
   background-image: url(../imgs/icons/search_clear.png);
   background-repeat: no-repeat;
+  background-position: center 0;
+  display: none;
+  background-color: #fff;
+  padding: 0 19px;
+}
+.search-box form input.search-input-go
+{
+  position: absolute;
+  top:0;
+  right:0;
+  width:pxtoem(28px);
+  height:pxtoem(50px);
+  background-image: url(../imgs/icons/search_go.png);
+  background-repeat: no-repeat;
   background-position: 0 0;
+}
+
+.search-box-focus form input[type="text"]{
+  border-color:#000;
+}
+.search-box-focus .search-box-wrapper {
+  border-color:#000;
+  border-left-width:7px;
+  margin-left: -6px;
 }

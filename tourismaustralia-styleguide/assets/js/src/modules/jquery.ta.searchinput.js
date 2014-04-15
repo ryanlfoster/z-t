@@ -17,7 +17,8 @@
     // Create the defaults once
     var pluginName = 'searchInput',
         defaults = {
-            search_input : ".search-input" // reference to input container
+            search_input : ".search-input", // reference to input container
+            search_input_clear : ".search-input-clear" // reference to input container
     };
 
     // The actual plugin constructor
@@ -42,12 +43,33 @@
     Plugin.prototype.setupEvents = function(scope) {
         var $el = $(scope.element);
         var $search_input = $el.find(scope.options.search_input);
+        var $search_input_clear = $el.find(scope.options.search_input_clear);
 
-        $el.click(function(e){
-            alert("clicked");
+        $el.focusin(function(e){
+            $(this).addClass('search-box-focus');
             e.preventDefault();
         });
 
+        $el.focusout(function(e){
+            $(this).removeClass('search-box-focus');
+            e.preventDefault();
+        });
+
+        $search_input.keyup(function() {
+            if($(this).val()<=0)
+            {
+                $search_input_clear.hide();
+            }
+            else
+            {
+                $search_input_clear.show();
+            }
+        });
+
+        $search_input_clear.click(function() {
+            $search_input.val('');
+            $search_input_clear.hide();
+        });
     };
 
     // A really lightweight plugin wrapper around the constructor,

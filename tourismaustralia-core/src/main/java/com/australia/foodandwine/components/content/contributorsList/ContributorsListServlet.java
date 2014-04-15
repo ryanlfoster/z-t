@@ -12,6 +12,7 @@ import javax.jcr.NodeIterator;
 import javax.jcr.PathNotFoundException;
 import javax.jcr.RepositoryException;
 import javax.jcr.Session;
+import javax.jcr.query.InvalidQueryException;
 import javax.jcr.query.Query;
 import javax.jcr.query.QueryManager;
 import javax.jcr.query.QueryResult;
@@ -47,45 +48,64 @@ public class ContributorsListServlet extends SlingAllMethodsServlet {
 	private List<ContributorsListProperties> articlesList;
 	private Map<String, List<ContributorsListProperties>> artileMap = new LinkedHashMap<String, List<ContributorsListProperties>>();
 	private static final Logger LOG = LoggerFactory.getLogger(ContributorsListServlet.class);
+	private int size, pageCount;
 
 	@Override
 	protected void doPost(SlingHttpServletRequest request, SlingHttpServletResponse response) throws ServletException,
 		IOException {
 		String searchParmeter = request.getParameter("searchParameter");
-
-		artileMap.clear();
+		String offsetValue = request.getParameter("offsetValue");
+		String limitValue = request.getParameter("limitValue");
+		int offset = Integer.parseInt(offsetValue);
+		int limit = Integer.parseInt(limitValue);
 		Session session = request.getResourceResolver().adaptTo(Session.class);
-		if (!(searchParmeter.equals(""))) {
-			String QUERY_STRING = "SELECT * FROM [cq:PageContent] AS s WHERE ISDESCENDANTNODE(["
-				+ PathUtils.FOOD_AND_WINE_EXPERIENCES
-				+ "])  and s.[cq:template] like '/apps/foodandwine/templates/articlepage' and s.[jcr:title] like '"
-				+ searchParmeter + "%' ";
-			contributersListQueryManager(session, QUERY_STRING);
-		} else {
-			// String QUERY_STRING =
-			// "SELECT * FROM [cq:PageContent] AS s WHERE ISDESCENDANTNODE(["
-			// + PathUtils.FOOD_AND_WINE_EXPERIENCES
-			// +
-			// "])  and s.[cq:template] like '/apps/foodandwine/templates/articlepage' ";
-			// contributersListQueryManager(session, QUERY_STRING);
-			onLoadContributorsList(request);
+		try {
+			if (!(searchParmeter.equals(""))) {
+				String QUERY_STRING = "SELECT * FROM [cq:PageContent] AS s WHERE ISDESCENDANTNODE(["
+					+ PathUtils.FOOD_AND_WINE_EXPERIENCES
+					+ "])  and s.[cq:template] like '/apps/foodandwine/templates/articlepage' and s.[jcr:title] like '"
+					+ searchParmeter + "%' ";
+				size = getArticleSize(session, QUERY_STRING);
+				if (size > 20) {
+					pageCount = size / 20;
+				} else {
+					pageCount = 1;
+				}
+				contributersListQueryManager(session, QUERY_STRING, offset, limit);
+			} else {
+				String QUERY_STRING = "SELECT * FROM [cq:PageContent] AS s WHERE ISDESCENDANTNODE(["
+					+ PathUtils.FOOD_AND_WINE_EXPERIENCES
+					+ "])  and s.[cq:template] like '/apps/foodandwine/templates/articlepage' ";
+				size = getArticleSize(session, QUERY_STRING);
+				if (size > 20) {
+					pageCount = size / 20;
+				} else {
+					pageCount = 1;
+				}
+				contributersListQueryManager(session, QUERY_STRING, offset, limit);
+			}
+			response.setContentType("application/json");
+			response.setCharacterEncoding("UTF-8");
+			JsonGenerator generator = FACTORY.createGenerator(response.getWriter());
+			MAPPER.writeValue(generator, artileMap);
+			artileMap.clear();
+		} catch (RepositoryException e) {
+			e.printStackTrace();
 		}
-		response.setContentType("application/json");
-		response.setCharacterEncoding("UTF-8");
-		JsonGenerator generator = FACTORY.createGenerator(response.getWriter());
-		MAPPER.writeValue(generator, artileMap);
-
 	}
 
-	private void contributersListQueryManager(Session session, String QUERY_STRING) {
+	private void contributersListQueryManager(Session session, String QUERY_STRING, int offset, int limit) {
 		try {
 			QueryManager queryManager = session.getWorkspace().getQueryManager();
 			Query query = queryManager.createQuery(QUERY_STRING, Query.JCR_SQL2);
+			query.setOffset(offset);
+			query.setLimit(limit);
 			QueryResult result = query.execute();
 			NodeIterator nodeIterator = result.getNodes();
-			articlesList = new ArrayList<ContributorsListProperties>();
 			while (nodeIterator.hasNext() && null != nodeIterator) {
 				ContributorsListProperties contributorsListProperties = new ContributorsListProperties();
+				contributorsListProperties.setArtileCount(size);
+				contributorsListProperties.setPageCount(pageCount);
 				Node nextNode = nodeIterator.nextNode();
 				String alphabet = nextNode.getParent().getParent().getNode(JcrConstants.JCR_CONTENT)
 					.getProperty(JcrConstants.JCR_TITLE).getValue().getString();
@@ -101,63 +121,33 @@ public class ContributorsListServlet extends SlingAllMethodsServlet {
 				char charAt = businessName.charAt(0);
 				String charecter = Character.toString(charAt);
 				if (alphabet.equalsIgnoreCase(charecter)) {
-					articlesList.add(contributorsListProperties);
-					artileMap.put(alphabet, articlesList);
+					addToMap(alphabet, contributorsListProperties);
 				}
-
 			}
+
 		} catch (RepositoryException e) {
 			LOG.error("Error using query manager", e);
 		}
-
 	}
 
-	private void onLoadContributorsList(SlingHttpServletRequest request) {
+	private void addToMap(String key, ContributorsListProperties contributorsListProperties) {
 
-		Page page = request.getResourceResolver().resolve(PathUtils.FOOD_AND_WINE_EXPERIENCES).adaptTo(Page.class);
-		Iterator<Page> listChildren = page.listChildren();
-		while (listChildren.hasNext()) {
-			Page next = listChildren.next();
-			String alphanet = next.getTitle();
-			Iterator<Page> articlePages = next.listChildren();
+		if (artileMap.containsKey(key)) {
+			artileMap.get(key).add(contributorsListProperties);
+		} else {
 			articlesList = new ArrayList<ContributorsListProperties>();
-			while (articlePages.hasNext()) {
-				ContributorsListProperties contributorsListProperties = new ContributorsListProperties();
-				Page articlePage = articlePages.next();
-				String businessName = articlePage.getTitle();
-				contributorsListProperties.setBusinessName(businessName);
-				Node node = request.getResourceResolver().resolve(articlePage.getPath()).adaptTo(Node.class);
-				Node mapNode, jcrNode;
-				try {
-					jcrNode = node.getNode(JcrConstants.JCR_CONTENT);
-					if (jcrNode.hasProperty("primaryCategory")) {
-						String primaryCategory = jcrNode.getProperty("primaryCategory").getValue().getString();
-						contributorsListProperties.setPrimaryCategory(primaryCategory);
-					}
-					mapNode = jcrNode.getNode("map");
-					if (mapNode.hasProperty("state")) {
-						String state = mapNode.getProperty("state").getValue().getString();
-						contributorsListProperties.setState(state);
-					}
-					if (mapNode.hasProperty("website")) {
-						String website = mapNode.getProperty("website").getValue().getString();
-						contributorsListProperties.setBusinessWebsite(website);
-					}
-					char charAt = businessName.charAt(0);
-					String charecter = Character.toString(charAt);
-					if (alphanet.equalsIgnoreCase(charecter)) {
-						articlesList.add(contributorsListProperties);
-					}
-
-				} catch (PathNotFoundException e) {
-					e.printStackTrace();
-				} catch (RepositoryException e) {
-					e.printStackTrace();
-				}
-			}
-			if (!(articlesList.isEmpty())) {
-				artileMap.put(alphanet, articlesList);
-			}
+			articlesList.add(contributorsListProperties);
+			artileMap.put(key, articlesList);
 		}
+	}
+
+	private int getArticleSize(Session session, String QUERY_STRING) throws InvalidQueryException, RepositoryException {
+		QueryManager queryManager = session.getWorkspace().getQueryManager();
+		Query query = queryManager.createQuery(QUERY_STRING, Query.JCR_SQL2);
+		QueryResult result = query.execute();
+		NodeIterator nodeIterator = result.getNodes();
+		int size = (int) nodeIterator.getSize();
+		return size;
+
 	}
 }

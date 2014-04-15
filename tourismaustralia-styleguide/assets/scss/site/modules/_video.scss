@@ -104,6 +104,7 @@
 }
 .videoitemwithtitle-copy {
   padding: 1em;
+  display: inline-block;
   @include breakpoint(sm){
     padding: .5em;
   }
@@ -112,7 +113,7 @@
   color: $video-relatedvideos-colour;
   display: block;
   @include breakpoint(sm){
-    display: initial;
+    display: inline-block;
   }
 }
 .video-container:hover {

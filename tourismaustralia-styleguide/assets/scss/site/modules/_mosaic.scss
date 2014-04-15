@@ -230,18 +230,16 @@
   margin-bottom: pxtoem($mosaic-row-bottom-margin);
 
   @include breakpoint(md) {
-    margin-bottom: initial;
+    margin-bottom: inherit;
     padding: pxtoem($mosaic-col-padding);
   }
-}
-.mosaic-3column-item-option.is-opacity {
-  opacity: .5;
+  opacity: 1;
   transition: opacity .15s;
   -moz-transition: opacity .15s;
   -webkit-transition: opacity .15s;
 }
-.mosaic-3column-item-option {
-  opacity: 1;
+.mosaic-3column-item-option.is-opacity {
+  opacity: .5;
   transition: opacity .15s;
   -moz-transition: opacity .15s;
   -webkit-transition: opacity .15s;
@@ -486,35 +484,6 @@
   -webkit-transition: opacity .15s linear;
   @include opacity(1);
 }
-
-/*
-// IE9 does simple rollover flip
-.no-csstransforms3d {
-  .mosaic-3column-item-option.is-flip:not(.is-trigger-content) {
-    .mosaic-3column-back {
-      opacity: 1;
-    }
-  }
-}
-// Modern browsers 3d flip
-.csstransforms3d {
-  .mosaic-3column-item-option {
-    &.is-flip:not(.is-trigger-content) {
-      .mosaic-3column-front {
-        //display: table;
-        //z-index: 1;
-      }
-      .mosaic-3column-back {
-        //display: table;
-        opacity: 1;
-        transition: opacity .15s;
-        -moz-transition: opacity .15s;
-        -webkit-transition: opacity .15s;
-      }
-    }
-  }
-}
-*/
 
 .mosaic-3column-item-option.is-fade.is-opacity {
   transition: opacity .15s linear;

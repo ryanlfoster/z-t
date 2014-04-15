@@ -14,25 +14,25 @@ import com.citytechinc.cq.component.annotations.widgets.Html5SmartImage;
 import com.day.cq.wcm.foundation.Image;
 
 @Component(value = "State Carousel", group = "Food and Wine", basePath = "jcr_root/apps/foodandwine/components", dialogHeight = 600, disableTargeting = true, tabs = {
-	@Tab(title = "Intro"), @Tab(title = "ACT"), @Tab(title = "NSW"), @Tab(title = "NT"), @Tab(title = "QLD"),
+	@Tab(title = "General"), @Tab(title = "ACT"), @Tab(title = "NSW"), @Tab(title = "NT"), @Tab(title = "QLD"),
 	@Tab(title = "SA"), @Tab(title = "TAS"), @Tab(title = "VIC"), @Tab(title = "WA") }, listeners = {
 	@Listener(name = "aftercopy", value = "REFRESH_PAGE"), @Listener(name = "afterdelete", value = "REFRESH_PAGE"),
 	@Listener(name = "afteredit", value = "REFRESH_PAGE"), @Listener(name = "afterinsert", value = "REFRESH_PAGE") })
 public class CarouselState {
 
-	@DialogField(fieldLabel = "Image Alt Tag", tab = 1, required = true)
-	private final String imageAltTag;
-
 	@DialogField(fieldLabel = "Circle Top Text", tab = 1)
 	private final String circleTopText;
 
-	@DialogField(fieldLabel = "Circle Middle Text", tab = 1)
+	@DialogField(fieldLabel = "Circle Middle Text", tab = 1, required = true)
 	private final String circleMiddleText;
 
 	@DialogField(fieldLabel = "Circle Bottom Text", tab = 1)
 	private final String circleBottomText;
 
-	@DialogField(fieldLabel = "Background Image", tab = 1, required = true)
+	@DialogField(fieldLabel = "Image Alt Tag", tab = 1, required = true)
+	private final String imageAltTag;
+
+	@DialogField(fieldLabel = "Image", tab = 1, required = true)
 	@Html5SmartImage(allowUpload = false, name = "backgroundImage", tab = false, height = 400)
 	private String imagePath;
 

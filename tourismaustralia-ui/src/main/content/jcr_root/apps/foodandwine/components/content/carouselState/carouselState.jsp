@@ -28,14 +28,14 @@
 			        <div class="head-divider-inner">
 			            <hr class="icon-logo-withlines-hr icon-logo-withlines-hr-small experiences-head-divider-hr">
 			            <div class="head-divider-title">
-			                <img class="experiences-head-divider-image" src="imgs/base/headline-map-icon.png">
+			                <img class="experiences-head-divider-image" src="/etc/designs/foodandwine/clientlibs/imgs/base/headline-map-icon.png">
 			            </div>
 			            <hr class="icon-logo-withlines-hr icon-logo-withlines-hr-small experiences-head-divider-hr">
 			        </div>
 			    </div>
-			    <h5>Food & wine can take you to</h5>
-			    <h2>Another place</h2>
-			    <h5>Select a state or territory</h5>
+			    <h5>${carousel.circleTopText}</h5>
+			    <h2>${carousel.circleMiddleText}</h2>
+			    <h5>${carousel.circleBottomText}</h5>
 			    <hr class="divider-small">
 			</div>
         </li>
@@ -50,7 +50,7 @@
 			    </noscript>
 			</div>
 			<!--[if (lt IE 9) & (!IEMobile)]>
-				<img class="faw-carousel-bg" src="imgs/base/faw-carousel-bg.jpg" alt="">
+				<img class="faw-carousel-bg" src="${carousel.act.imagePath}.adapt.1663.high.jpg" alt="${carouse.act.imageAltTag}">
 			<![endif]-->			
 			<div class="calltoaction calltoactionbubble calltoactionbubble-white">
 				<div class="head-divider">

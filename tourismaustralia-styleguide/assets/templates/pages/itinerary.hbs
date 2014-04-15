@@ -28,7 +28,15 @@ layout: layout-base.hbs
 <div class="paragraph-state">
 
     {{> mapimagewithlegend }}
-    <!-- special offers -->
+
+    {{#parseJSON '{
+        "itinerary_image" : "hero-bluemontains-1",
+        "itinerary_text" : "Day One: 15kms",
+        "itinerary_nav" : "day-one"
+    }'}}
+        {{> itineraryday }}
+    {{/parseJSON}}
+
     {{#parseJSON '{
         "promo_image" : "promo5",
         "promo_title" : "Senic Railway, Katoomba",
@@ -42,29 +50,22 @@ layout: layout-base.hbs
     {{/parseJSON}}
 
     {{#parseJSON '{
-        "itinerary_image" : "hero-bluemontains-1",
-        "itinerary_text" : "Day One: 15kms"
+        "itinerary_image" : "hero-bluemontains-2",
+        "itinerary_text" : "Day Two: 19kms",
+        "itinerary_nav" : "day-two"
     }'}}
-        {{> itineraryday }}
+        {{> itineraryday_secondary }}
     {{/parseJSON}}
 
-    {{#parseJSON '{
-        "largeparallax_image" : "hero-bluemontains-2",
-        "largeparallax_text" : "Day Two: 19kms"
-    }'}}
-        {{> largeparallax_text }}
-    {{/parseJSON}}
+    {{> image_with_date }}
 
     {{#parseJSON '{
         "itinerary_image" : "hero-bluemontains-3",
-        "itinerary_text" : "Day Three: 10kms"
+        "itinerary_text" : "Day Three: 10kms",
+        "itinerary_nav" : "day-three"
     }'}}
         {{> itineraryday }}
     {{/parseJSON}}
-
-    
-
-    {{> image_with_date }}
 
     {{> bylinewithshare}}
 

@@ -20,7 +20,13 @@
 }
 
 /* Different states for module */
-.large-parallax--withimages { }
+.large-parallax--withimages { 
+
+	.largeparallax-text {
+		height: 85%;
+	}
+
+}
 .large-parallax--withtext { }
 .large-parallax--withlabel { }
 .large-parallax--withsocial { }
@@ -32,11 +38,11 @@
 	left: 0;
 	height: 100%;
 	width: 100%;
-	z-index: 10;
+	z-index: 2;
 
 	.largeparallax-text-container {
 		display: table;
-		height: 100%;
+		height: inherit;
 		width: inherit;
 	}
 

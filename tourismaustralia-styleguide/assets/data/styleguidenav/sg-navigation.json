@@ -138,6 +138,12 @@
                         { "text": "carousel_mobile" },
                         { "text": "carousel_standard" }
                     ]
+                },
+                {
+                    "text" : "Itinerary Day",
+                    "item": [
+                        { "text": "itinerary_subnav" }
+                    ]
                 }
             ]
         },
@@ -189,6 +195,7 @@
                         { "text": "whatyoucansee_city" },
                         { "text": "whatyoucansee_state" },
                         { "text": "itineraryday" },
+                        { "text": "itineraryday_secondary" },
 
                         { "text": "header" }
 

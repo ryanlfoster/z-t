@@ -1116,6 +1116,17 @@
                     ,
                 
             
+                "largeparallax_text" : {
+                     "data" : {
+                        "title" : "largeparallax_text",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'largeparallax_text'}}"
+                }
+                
+                    ,
+                
+            
                 "mapimagewithbuttons" : {
                      "data" : {
                         "title" : "mapimagewithbuttons",

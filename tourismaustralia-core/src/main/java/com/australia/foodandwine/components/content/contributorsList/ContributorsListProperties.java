@@ -6,6 +6,24 @@ public class ContributorsListProperties {
 	private String businessWebsite;
 	private String primaryCategory;
 	private String state;
+	private int artileCount;
+	private int pageCount;
+
+	public int getPageCount() {
+		return pageCount;
+	}
+
+	public void setPageCount(int pageCount) {
+		this.pageCount = pageCount;
+	}
+
+	public int getArtileCount() {
+		return artileCount;
+	}
+
+	public void setArtileCount(int artileCount) {
+		this.artileCount = artileCount;
+	}
 
 	public String getBusinessName() {
 		return businessName;

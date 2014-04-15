@@ -7,48 +7,21 @@
 <script type="text/javascript">
 $(document).ready(function(){
 	var stateTag=$(".icon-map-black-active " ).text();
-	alert(stateTag);
     var catogoryArray=new Array();
     var source   = $("#sample").html();
-    
-    alert(source);
-	/* $('.category-input').click(function(e){
-        var x=$(this).attr('id');
-        alert("click");
-    */     /* $("input:checkbox:not(:checked)").map(function(){
-        	alert("unchek");
-        	var check= $("label[for='"+x+"']").find(".category-title").text();
-            if($.inArray(check, catogoryArray)===-1)
-            	catogoryArray.pop(check);
-            alert(catogoryArray);
-
-        }).get().join(','); */ 
-       /*  if($("#"+x).click(function(){
-        	alert("clicked");
-        });
-		$('input:checkbox:checked').map(function() {
-          var check= $("label[for='"+x+"']").find(".category-title").text();
-            if($.inArray(check, catogoryArray)===-1)
-            	catogoryArray.push(check);
-            alert(catogoryArray);
-		}).get().join(','); */
+	     //alert(source);
 		 $(document).on("click",'.category-input ', function(){
 				var x=$(this).attr('id');
-		       // alert("click");
 		        if($(this).is(":checked"))
 		        {
-					//alert("checkd");
 		             var checked= $("label[for='"+x+"']").find(".category-title").text();
 		            if($.inArray(checked, catogoryArray)===-1)
 		            	catogoryArray.push(checked);
-		            //alert(catogoryArray);
 		        }
 		        else
 		        {
 					var uncheked= $("label[for='"+x+"']").find(".category-title").text()
-		            //alert("check "+uncheked);
 						catogoryArray.pop(uncheked);
-		           // alert("else "+catogoryArray);
 		        }
 
 		$.ajax({
@@ -60,45 +33,17 @@ $(document).ready(function(){
 
 			},
 			success : function(msg) {
-				//alert("success "+msg );
 				var data;
-				
 				 data = JSON.stringify(msg);
-				 alert("data first "+data);
-				//data="users:{"+data+"}";
-				//var add="users:{";
 				data=data.replace("[","");
 				 data=data.replace("]","");
-				 //data=add.concat(data,"}");
-					alert(data+" testing");
-			
                	 var obj=JSON.parse(data);
-               //alert(obj);
-               alert("Content "+obj);
 
                //var data={"title":"test","desc":"/testing/test"};
 					alert("data "+data);
 					 var template = Handlebars.compile(source);
 					 //alert("template "+template(obj));
 					 $(".mosaic").append(template(obj));
-					 
-					 
-				 /* //var Content = JSON.stringify(msg);
-				 //Content=Content.replace("[","");
-				 //Content=Content.replace("]","");
-					//alert(Content);
-					var data={"title":"test","desc":"/testing/test"};
-					alert("data "+data);
-					 var template = Handlebars.compile(source);
-					 alert("template "+template(data));
-					 $(".mosaic").append(template(msg));
-				 *//* $.getJSON("ajax/test.json", function( msg ) {
-					  var items = [];
-					  $.each( msg, function( i, val ) {
-						    items.push( "<li id=' title'>" + val.title + "</li>" );
-						  });
-					  alert(items);
-					  )};*/
 			}, 
 			error : function(xhr) {
 				console.log('there is some error');
@@ -109,15 +54,6 @@ $(document).ready(function(){
      });	
 		 
 });
-
- 	/* var checkboxArray = $('input:checkbox:checked').map(function() {
-		// if($("input:checkbox:checked"))
-		return this.value;
-	}).get().join(',');
-	alert(checkboxArray); */
-	
-
-
 
 </script>
 <script id ="sample" type="text/x-handlebars-template">

@@ -122,8 +122,8 @@
 ///*
 // * Icon positions:
 // * ---------------------------------------------------------------------------------------------------------------- */
-.icon.circle {
-    border-radius: 50%;
+.items-added .icon {
+    @include border-radius(50%);
     border: 1px solid #fff;
 }
 

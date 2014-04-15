@@ -45,4 +45,11 @@ responsiveImageHelper.setContainerHeight = function(){
 
 $(window).bind('load', function() {
 	responsiveImageHelper.bindEvents();
+
+	$('.img-holder').imageScroll({
+		holderClass: 'parallaxHolder',
+		extraHeight: 200,
+		coverRatio: 0.50,
+		container: $('#main-content')
+	});
 });

@@ -26,10 +26,10 @@ public class Category {
 	}
 
 	public String getIconImagePath() {
-		return iconImagePath.replaceAll(" ","%20");
+		return iconImagePath;
 	}
 	public String getSelectedImagePath() {
-		return selectedImagePath.replaceAll(" ","%20");
+		return selectedImagePath;
 	}
 	public String getTitle() { return title; }
 	public List<TabProperties> getCards(){ return new ArrayList<TabProperties>(cards); }
@@ -51,6 +51,4 @@ public class Category {
 			cards.add(card3);
 		}
 	}
-
-	// TODO : Remove the replaceAll method calls and find the appropriate API function instead.
 }

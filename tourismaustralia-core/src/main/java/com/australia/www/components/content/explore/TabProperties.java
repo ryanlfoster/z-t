@@ -28,9 +28,9 @@ public class TabProperties {
 	public String getAltTextBack() { return altTextBack; }
 	public String getImageBack(){ return imageBack; }
 	public String getPageTitle(){ return pageTitle; }
-	public String getPageImagePath(){ return pageImagePath.replaceAll(" ","%20"); }
+	public String getPageImagePath(){ return pageImagePath; }
 	public String getPageDescription(){ return pageDescription; }
-	public String getPagePath(){ return pagePath.replaceAll(" ","%20"); }
+	public String getPagePath(){ return pagePath; }
 
 	public void setImageBack(final String path) {
 		imageBack = path;
@@ -55,8 +55,6 @@ public class TabProperties {
 			pagePath = "";
 		}
 	}
-
-	// TODO : Remove the replaceAll method calls and find the appropriate API function instead.
 }
 
 

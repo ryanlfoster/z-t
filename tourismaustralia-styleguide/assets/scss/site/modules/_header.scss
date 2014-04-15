@@ -35,7 +35,6 @@ $nav-mobile-bot-links-bg: #003b43;
 $nav-mobile-bot-links-dd-bg: #00333a;
 // bottom link set (.nav-bar-left) background hover colour
 
-
 // mega menu panels
 $megamenu-link-hover-colour: $arrival-bar-active-link-bdr;
 
@@ -305,9 +304,6 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
 
 .mobile-open-bar {
 
-    // TODO:
-    //position: absolute;
-
     @extend .gpu-render;
 
     // Mobile Only...
@@ -317,7 +313,7 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
     background-position: 0 -33px;
 
     ul {
-        min-width: pxtoem(320px);
+        //min-width: 320px;
     }
 
     li {
@@ -374,7 +370,7 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
     background-repeat: repeat-x;
     background-position: 0 -33px;
 
-    min-width: pxtoem(320px);
+    //min-width: 300px;
 
     &.is-bar-cloned {
         // leave the clone invisible
@@ -434,6 +430,7 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
             margin: 0;
             padding: 0;
             height: 100%;
+            position: relative;
         }
 
         .main-nav-panel {
@@ -444,7 +441,7 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
         .nav-bar-left,
         .nav-bar-right,
         .nav-bar-nav > li {
-            min-width: pxtoem(272px);
+            min-width: pxtoem(256px);
             display: block;
         }
 
@@ -460,18 +457,14 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
         }
 
         // this icon changes size a few times...
-        .icon-heart.icon.circle {
-            padding: 0;
-            border: none;
-            border-radius: 0;
+        .items-added .icon-heart {
+            width: 40px;
+            height:40px;
             background-position: -106px -58px;
+            .my-trip-count {
+                //@include vis-hidden();
+            }
         }
-
-        .my-trip-count {
-            float: right;
-            display: inline-block;
-        }
-
     }
 
     // Tablet...
@@ -504,8 +497,13 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
         }
 
         // adjust heart border for bigger screen
-        .icon-heart.icon.circle {
-            background-position: -102px -54px;
+        .items-added .icon-heart {
+            background-position: -97px -48px;
+            width: 48px;
+            height: 48px;
+            .my-trip-count {
+                padding-left: 3px;
+            }
         }
     }
 
@@ -519,6 +517,77 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
 
     }
 
+}
+
+// Search and My Trip icons need to be in the header on small devices
+.js {
+    // Mobile Only...
+    @media (max-width: $screen-xs-max) {
+        .navigation-bar {
+
+            .toggle-search,
+            .toggle-my-trip {
+                min-height: 60px; // hold them up while their content is away
+            }
+
+            .toggle-search .nav-toggle-panel,
+            .toggle-my-trip .nav-toggle-panel {
+                top: 0;
+                height: 58px;
+                width: 58px;
+                position: absolute;
+                background-color: transparent;
+                border-bottom-color: transparent;
+                .vis-hidden-sm {
+                    @include vis-hidden();
+                }
+            }
+
+            .toggle-search .nav-toggle-panel {
+                right: 58px;
+            }
+
+            .toggle-my-trip .nav-toggle-panel {
+                right: 0;
+            }
+        }
+
+        .header.is-open .navigation-bar {
+
+            .toggle-search .nav-toggle-panel,
+            .toggle-my-trip .nav-toggle-panel {
+                top: auto;
+                right: auto;
+                height: auto;
+                width: 100%;
+                position: relative;
+                background-color: $nav-mobile-top-links-bg;
+                border-bottom: 1px solid $nav-mobile-top-links-bdr;
+                .vis-hidden-sm {
+                    @include vis-visible();
+                }
+            }
+        }
+    }
+}
+
+.header.is-open {
+    .items-added .icon-heart {
+        width: 32px;
+        height: 32px;
+        border: none;
+        @include border-radius(0);
+    }
+    .my-trip-count {
+        //@include vis-visible();
+        float: right;
+        display: inline-block;
+        &:before {
+            content: ' + ';
+            font-size: pxtoem(16px);
+            font-family: Arial, sans-serif;
+        }
+    }
 }
 
 // adjust font size sooner on business nav bar
@@ -557,7 +626,7 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
         @extend .vis-hidden;
     }
 
-    .icon-heart.icon.circle {
+    .items-added .icon-heart {
         border: none;
     }
 
@@ -626,7 +695,7 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
         .vis-focusable {
             padding: 5px 0;
             font-size: x-small;
-            position:absolute;
+            position: absolute;
             top: 0;
             left: 0;
             width: 100%;
@@ -722,6 +791,21 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
         .has-children a:focus,
         .has-children.is-open a {
             border-bottom-color: $arrival-bar-active-link-bdr;
+        }
+    }
+}
+
+// fix Search and My Trip toggles
+.header.is-open .navigation-bar {
+    // Targeted Nav Bar Panels Mobile Only...
+    @media (max-width: $screen-xs-max) {
+        .nav-bar-right {
+            .toggle-search > .nav-toggle-panel:focus,
+            .toggle-my-trip > .nav-toggle-panel:focus,
+            .toggle-search:hover > .nav-toggle-panel,
+            .toggle-my-trip:hover > .nav-toggle-panel {
+                background-color: $nav-mobile-bot-links-bg !important;
+            }
         }
     }
 }

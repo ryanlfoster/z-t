@@ -14,6 +14,8 @@ import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ResourceResolver;
 import org.apache.sling.api.resource.ResourceResolverFactory;
 import org.apache.sling.api.resource.ValueMap;
+import org.apache.tika.Tika;
+import org.apache.tika.detect.Detector;
 import org.apache.tika.mime.MimeTypes;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -30,9 +32,11 @@ public class ExperienceCreationListener implements EventListener {
 	private static final Logger LOG = LoggerFactory.getLogger(ExperienceCreationListener.class);
 	public static final int EVENTS = Event.NODE_ADDED;
 	private final ResourceResolverFactory resourceResolverFactory;
+	private final Detector detector;
 
-	public ExperienceCreationListener(ResourceResolverFactory resourceResolverFactory) {
+	public ExperienceCreationListener(ResourceResolverFactory resourceResolverFactory, Detector detector) {
 		this.resourceResolverFactory = resourceResolverFactory;
+		this.detector = detector;
 	}
 
 	@Override
@@ -84,27 +88,35 @@ public class ExperienceCreationListener implements EventListener {
 					resourceResolver.commit();
 
 					Resource fileResource = formResource.getChild("file");
-					if (fileResource != null) {
-						AssetManager assetManager = resourceResolver.adaptTo(AssetManager.class);
-						InputStream imageInputStream = fileResource.adaptTo(InputStream.class);
-						String mimeType = fileResource.getChild("jcr:content").adaptTo(ValueMap.class)
-							.get("jcr:mimeType", String.class);
-						String fileExtension = MimeTypes.getDefaultMimeTypes().forName(mimeType).getExtension();
-						Asset imageAsset = assetManager.createAsset(
-							"/content/dam/food-and-wine/" + experiencePage.getName() + fileExtension, imageInputStream,
-							mimeType, true);
+					try {
+						if (fileResource != null) {
+							AssetManager assetManager = resourceResolver.adaptTo(AssetManager.class);
+							InputStream imageInputStream = fileResource.adaptTo(InputStream.class);
+							String mimeType = fileResource.getChild("jcr:content").adaptTo(ValueMap.class)
+								.get("jcr:mimeType", String.class);
+							if (mimeType == null) {
+								Tika tika = new Tika(detector);
+								mimeType = tika.detect(fileResource.adaptTo(InputStream.class));
+							}
+							String fileExtension = MimeTypes.getDefaultMimeTypes().forName(mimeType).getExtension();
+							Asset imageAsset = assetManager.createAsset(
+								"/content/dam/food-and-wine/" + experiencePage.getName() + fileExtension,
+								imageInputStream, mimeType, true);
 
-						Map<String, Object> imageProperties = new HashMap<String, Object>();
-						imageProperties.put("sling:resourceType", "foodandwine/components/content/articleImage");
-						imageProperties.put("imageCaption", formProperties.get("photoDescription", String.class));
-						Resource imageResource = resourceResolver.create(mainparsysResource, "articleImage",
-							imageProperties);
-						resourceResolver.commit();
+							Map<String, Object> imageProperties = new HashMap<String, Object>();
+							imageProperties.put("sling:resourceType", "foodandwine/components/content/articleImage");
+							imageProperties.put("imageCaption", formProperties.get("photoDescription", String.class));
+							Resource imageResource = resourceResolver.create(mainparsysResource, "articleImage",
+								imageProperties);
+							resourceResolver.commit();
 
-						Map<String, Object> backgroundImageProperties = new HashMap<String, Object>();
-						backgroundImageProperties.put("fileReference", imageAsset.getPath());
-						resourceResolver.create(imageResource, "backgroundImage", backgroundImageProperties);
-						resourceResolver.commit();
+							Map<String, Object> backgroundImageProperties = new HashMap<String, Object>();
+							backgroundImageProperties.put("fileReference", imageAsset.getPath());
+							resourceResolver.create(imageResource, "backgroundImage", backgroundImageProperties);
+							resourceResolver.commit();
+						}
+					} catch (Exception e) {
+						LOG.error("Error creating asset for image", e);
 					}
 				}
 

@@ -537,17 +537,6 @@
                     "content" : "{{section 'bylinewithshareitem'}}"
                 }
                 
-                    ,
-                
-            
-                "mosaic_search_grid_1_4_4_1" : {
-                     "data" : {
-                        "title" : "mosaic_search_grid_1_4_4_1",
-                        "layout" : "styleguide-preview.hbs"
-                    },
-                    "content" : "{{section 'mosaic_search_grid_1_4_4_1'}}"
-                }
-                
             
             
                 ,
@@ -805,6 +794,17 @@
                         "layout" : "styleguide-preview.hbs"
                     },
                     "content" : "{{section 'whatyoucansee_nobuttons'}}"
+                }
+                
+                    ,
+                
+            
+                "mosaic_search_grid_1_4_4_1" : {
+                     "data" : {
+                        "title" : "mosaic_search_grid_1_4_4_1",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'mosaic_search_grid_1_4_4_1'}}"
                 }
                 
             

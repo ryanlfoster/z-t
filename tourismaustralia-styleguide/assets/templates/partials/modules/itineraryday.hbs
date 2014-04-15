@@ -2,12 +2,23 @@
 title: Itinerary Day
 ---
 
-<div class="largeimage">
+<div class="large-parallax large-parallax--withimages">
 
-    <div class="img-holder" data-image="imgs/placeholders/image_with_date.jpg"></div>
+    <div class="img-holder" data-image="imgs/placeholders/{{#if itinerary_image}}{{{itinerary_image}}}{{else}}image_with_date{{/if}}.jpg">
+        <div class="largeparallax-text">
+            <div class="largeparallax-text-container">
+                <div class="inside">
+
+                    <h3>{{#if itinerary_text}}{{{itinerary_text}}}{{else}}Day One: 15kms{{/if}}</h3>
+                </div>
+            </div>
+        </div>
 
 
-    <div data-picture="" data-alt="" >
+    </div>
+
+
+    <!-- <div data-picture="" data-alt="" >
         <div data-src="imgs/placeholders/image_with_date.jpg" data-media="(min-width: 1px)"></div>
         <div data-src="imgs/placeholders/image_with_date.jpg" data-media="(min-width: 481px)"></div>
         <div data-src="imgs/placeholders/image_with_date.jpg" data-media="(min-width: 769px)"></div>
@@ -18,9 +29,12 @@ title: Itinerary Day
         </noscript>
 
         <img src='imgs/placeholders/image_with_date.jpg' alt=''>
-    </div>
+    </div> -->
 
-    <div class="largeimage-smallimage-container">
+    
+    
+
+    <div class="large-parallax-images">
         <div class="column col-first">
             <img src="imgs/placeholders/itinerary-1.jpg" alt="">
         </div>

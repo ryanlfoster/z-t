@@ -23,10 +23,10 @@ responsiveImageHelper.bindEvents = function(){
 
 	responsiveImageHelper.setContainerHeight();
 
-	// // Initiate parallax
-	// $('.parallax').parallaxImages({
-	//     parallaxSpeed : 1
-	// });
+	// Initiate parallax
+	$('.parallax').parallaxImages({
+	    parallaxSpeed : 1
+	});
 
 };
 
@@ -47,9 +47,9 @@ $(window).bind('load', function() {
 	responsiveImageHelper.bindEvents();
 
 	$('.img-holder').imageScroll({
-		imageAttribute: 'picture',
 		holderClass: 'parallaxHolder',
 		extraHeight: 200,
-		coverRatio: 0.30
+		coverRatio: 0.50,
+		container: $('#main-content')
 	});
 });

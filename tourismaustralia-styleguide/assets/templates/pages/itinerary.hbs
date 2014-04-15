@@ -41,10 +41,30 @@ layout: layout-base.hbs
         {{> specialoffer }}
     {{/parseJSON}}
 
-    {{> image_with_date }}
-    {{> largeimageoverlay }}
+    {{#parseJSON '{
+        "itinerary_image" : "hero-bluemontains-1",
+        "itinerary_text" : "Day One: 15kms"
+    }'}}
+        {{> itineraryday }}
+    {{/parseJSON}}
+
+    {{#parseJSON '{
+        "largeparallax_image" : "hero-bluemontains-2",
+        "largeparallax_text" : "Day Two: 19kms"
+    }'}}
+        {{> largeparallax_text }}
+    {{/parseJSON}}
+
+    {{#parseJSON '{
+        "itinerary_image" : "hero-bluemontains-3",
+        "itinerary_text" : "Day Three: 10kms"
+    }'}}
+        {{> itineraryday }}
+    {{/parseJSON}}
+
     
-    {{> itineraryday }}
+
+    {{> image_with_date }}
 
     {{> bylinewithshare}}
 

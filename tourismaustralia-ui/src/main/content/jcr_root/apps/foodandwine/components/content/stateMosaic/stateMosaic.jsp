@@ -40,7 +40,7 @@ $(document).ready(function(){
                	 var obj=JSON.parse(data);
 
                //var data={"title":"test","desc":"/testing/test"};
-					alert("data "+data);
+					//alert("data "+data);
 					 var template = Handlebars.compile(source);
 					 //alert("template "+template(obj));
 					 $(".mosaic").append(template(obj));

@@ -2,8 +2,8 @@
 title: Header MM My Trip
 ---
 {{#if data}}
-    <li class="toggle-my-trip items-added">
-        <a id="heart-this-widget" class="nav-toggle-panel" href="#" tabindex="-1">
+    <li id="nav-heart-this-widget" class="toggle-my-trip items-added">
+        <a class="nav-toggle-panel" href="#" tabindex="-1">
             <span class="icon icon-32 icon-heart" aria-hidden="true"></span>
             <span class="vis-hidden-sm">My Trip</span>
             <span class="my-trip-count">
@@ -12,7 +12,7 @@ title: Header MM My Trip
         </a>
     </li>
 {{else}}
-    <li id="heart-this-widget" class="toggle-my-trip items-empty">
+    <li id="nav-heart-this-widget" class="toggle-my-trip items-empty">
         <a class="nav-toggle-panel" href="#" tabindex="-1">
             <span class="icon icon-32 icon-heart" aria-hidden="true"></span>
             <span class="vis-hidden-sm">My Trip</span>

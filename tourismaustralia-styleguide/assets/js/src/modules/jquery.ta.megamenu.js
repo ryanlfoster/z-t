@@ -27,7 +27,8 @@
         mm_mobile_close_main_nav: '.nav-toggle-close',
         mm_all_toggle_panel_nav: '.nav-toggle-panel',
         mm_map_panel_filters: '.megamenu-map-filters',
-        mm_heart_this_widget: '#heart-this-widget'
+        mm_toggle_search_panel: '#nav-main-panel-search',
+        mm_heart_this_widget: '#nav-heart-this-widget'
     };
 
     // The actual plugin constructor
@@ -65,6 +66,10 @@
         scope.noticeEvents(scope, event);
         scope.mobileEvents(scope, event);
         scope.desktopEvents(scope, event);
+
+        scope.options.searchToggle = $(scope.options.mm_toggle_search_panel).find(scope.options.mm_all_toggle_panel_nav);
+        scope.options.heartToggle = $(scope.options.mm_heart_this_widget).find(scope.options.mm_all_toggle_panel_nav);
+        scope.initHeartThisWidget(scope, event);
 
         scope.checkFocus(scope, event);
 
@@ -138,7 +143,6 @@
 
     // Setup Mobile Events
     Plugin.prototype.mobileEvents = function (scope, event) {
-        $(document).on(event, scope.closeAll(scope, event));
 
         $(scope.element).find(scope.options.mm_mobile_open_main_nav).on(event, function (e) {
             e.preventDefault();
@@ -153,12 +157,47 @@
 
     // Setup Desktop Events
     Plugin.prototype.desktopEvents = function (scope, event) {
-        $(document).on(event, scope.closeAll(scope, event));
         $(scope.element).find(scope.options.mm_all_toggle_panel_nav).on(event, function (e) {
             e.preventDefault();
             var $el = $(e.currentTarget);
             scope.toggleNavPanel(scope, $el);
         });
+    };
+
+    // Use this wrapper for updates to the header heart this widget
+    Plugin.prototype.initHeartThisWidget = function (scope, event) {
+
+        // Put "Add to My Trip" hooks here?
+
+        $(window).resize(function () {
+            scope.checkHeartThisSize(scope);
+        });
+        scope.checkHeartThisSize(scope);
+
+        // TODO: find out what this link is meant to do...
+        $(scope.options.searchToggle).on(event, function (e) {
+            e.preventDefault();
+            scope.openMainNav(scope);
+        });
+
+        // TODO: find out what this widget is meant to do...
+        $(scope.options.heartToggle).on(event, function (e) {
+            e.preventDefault();
+            scope.openMainNav(scope);
+        });
+    };
+
+    // check the size of the heart this widget on mobile top bar
+    Plugin.prototype.checkHeartThisSize = function (scope) {
+        if ($(scope.element).not('.is-open')) {
+            if ($(window).width() <= scope.options.mm_mobile_breakpoint) {
+                $(scope.options.searchToggle).css({
+                    'right': $(scope.options.heartToggle).outerWidth()
+                });
+            }
+        } else {
+            $(scope.options.searchToggle).removeAttr('style');
+        }
     };
 
     // Init Map Panel
@@ -169,14 +208,6 @@
             $el.closest('.megamenu-panel').find('.is-active').removeClass('is-active');
             $el.addClass('is-active');
         });
-    };
-
-    // Check the target element on click or touch and close the nav if the target not inside
-    Plugin.prototype.closeAll = function (scope, event) {
-        var $el = $(event.currentTarget);
-        if ($el.not().closest(scope.options.mm_main_header_element)) {
-            $(scope.element).find('.has-children').removeClass('is-open');
-        }
     };
 
     // Check for focus for keyboard navigation
@@ -213,6 +244,7 @@
 
     // Open Main Nav Mobile
     Plugin.prototype.openMainNav = function (scope) {
+        $(scope.options.searchToggle).removeAttr('style');
         // scrolls to the top of the nav bar + 1 pixel to push it over the heightAbove and trigger the fixed navigation
         if (scope.options.offsetTop <= scope.options.heightAbove) {
             $('html, body').animate({
@@ -231,6 +263,7 @@
     Plugin.prototype.closeMainNav = function (scope) {
         $(scope.element).removeClass('is-open');
         $('html, body').css({'overflow': ''});
+        scope.checkHeartThisSize(scope);
     };
 
     // Toggle Nav Panel

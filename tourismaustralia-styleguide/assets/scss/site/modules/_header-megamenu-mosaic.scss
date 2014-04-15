@@ -3,7 +3,22 @@
 // * ---------------------------------------------------------------------------------------------------------------- */
 .megamenu-mosaic {
 
-    min-height: 280px;
+    // Defaults...
 
+
+    // Mobile Only...
+    @media (max-width: $screen-xs-max) {
+
+    }
+
+    // Tablet...
+    @media (min-width: $screen-sm-min) {
+        min-height: 280px;
+    }
+
+    // Desktop...
+    @media (min-width: $screen-md-min) {
+
+    }
 }
 

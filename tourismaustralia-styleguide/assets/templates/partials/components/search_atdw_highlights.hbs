@@ -9,7 +9,9 @@ title: Search ATDW Highlights
                 {{> sectionintro }}
             {{/parseJSON}}
 
-            {{> mosaic_3column_2rows }}
+            <div class="search-atdw-mosaic">
+                {{> mosaic_3column_2rows }}
+            </div>
 
             {{#parseJSON '{"copy" : "Search More"}'}}
                 {{> search_view_more }}

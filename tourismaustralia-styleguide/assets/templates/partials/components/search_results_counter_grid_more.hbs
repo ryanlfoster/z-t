@@ -10,7 +10,9 @@ title: Search Results Counter Grid More
 
             {{> search_counter }}
 
-            {{> mosaic_search_grid_4_1 }}
+            <div class="search-results-mosaic">
+                {{> mosaic_search_grid_4_1 }}
+            </div>
 
             {{#parseJSON '{"copy" : "View More"}'}}
                 {{> search_view_more }}

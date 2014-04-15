@@ -20,19 +20,19 @@ import com.day.cq.wcm.foundation.Image;
 	@Listener(name = "afteredit", value = "REFRESH_PAGE"), @Listener(name = "afterinsert", value = "REFRESH_PAGE") })
 public class CarouselState {
 
-	@DialogField(fieldLabel = "Image Alt Tag", tab = 1, required = true)
-	private final String imageAltTag;
-
 	@DialogField(fieldLabel = "Circle Top Text", tab = 1)
 	private final String circleTopText;
 
-	@DialogField(fieldLabel = "Circle Middle Text", tab = 1)
+	@DialogField(fieldLabel = "Circle Middle Text", tab = 1, required = true)
 	private final String circleMiddleText;
 
 	@DialogField(fieldLabel = "Circle Bottom Text", tab = 1)
 	private final String circleBottomText;
 
-	@DialogField(fieldLabel = "Background Image", tab = 1, required = true)
+	@DialogField(fieldLabel = "Image Alt Tag", tab = 1, required = true)
+	private final String imageAltTag;
+
+	@DialogField(fieldLabel = "Image", tab = 1, required = true)
 	@Html5SmartImage(allowUpload = false, name = "backgroundImage", tab = false, height = 400)
 	private String imagePath;
 

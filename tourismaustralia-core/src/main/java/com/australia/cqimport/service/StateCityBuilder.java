@@ -65,14 +65,20 @@ public class StateCityBuilder extends PageBuilder {
 
 			Map<String, Object> params = new HashMap<String, Object>();
 			params.put("title", cbf.getHdlTitle());
-			params.put("image", cbf.getImgBackground());
+            params.put("sub-title", cbf.getStfIntroTitle());
+			//params.put("image", cbf.getImgBackground());
 			params.put(JcrResourceConstants.SLING_RESOURCE_TYPE_PROPERTY, "tourismaustralia/components/content/hero");
 
 			Resource heroResource = resourceResolver.create(jcrContentResource, "hero", params);
 			Node heroNode = heroResource.adaptTo(Node.class);
 			heroNode.addMixin("cq:LiveRelationship");
 			heroNode.addMixin("cq:LiveSyncCancelled");
+
+            params = new HashMap<String, Object>();
+            params.put("fileReference", PageBuilder.CRX_DAM_PATH +cbf.getImgBackground());
+            resourceResolver.create(heroResource, "image", params);
 			resourceResolver.commit();
+
 		} catch (Exception e) {
 			LOG.error(e.getMessage(), e);
 		}

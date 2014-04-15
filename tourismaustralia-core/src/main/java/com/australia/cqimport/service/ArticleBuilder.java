@@ -60,40 +60,49 @@ public class ArticleBuilder extends PageBuilder {
 	}
 
 	private void createHero(Page page, ResourceResolver resourceResolver, ConsumerBaseFoundationType cbf) {
-		Resource pageResource = page.adaptTo(Resource.class);
-		Resource jcrContentResource = pageResource.getChild(JcrConstants.JCR_CONTENT);
-		try {
+        Resource pageResource = page.adaptTo(Resource.class);
+        Resource jcrContentResource = pageResource.getChild(JcrConstants.JCR_CONTENT);
+        try {
 
-			Map params = new HashMap<String, String>();
-			params.put("title", cbf.getHdlTitle());
-			params.put("image", cbf.getImgBackground());
-			params.put(JcrResourceConstants.SLING_RESOURCE_TYPE_PROPERTY, "tourismaustralia/components/content/hero");
+            Map<String, Object> params = new HashMap<String, Object>();
+            params.put("title", cbf.getHdlTitle());
+            //params.put("image", cbf.getImgBackground());
+            params.put(JcrResourceConstants.SLING_RESOURCE_TYPE_PROPERTY, "tourismaustralia/components/content/hero");
 
-			resourceResolver.create(jcrContentResource, "hero", params);
-			resourceResolver.commit();
-		} catch (PersistenceException e) {
-			e.printStackTrace();
-		}
+            Resource heroResource = resourceResolver.create(jcrContentResource, "hero", params);
+            Node heroNode = heroResource.adaptTo(Node.class);
+            heroNode.addMixin("cq:LiveRelationship");
+            heroNode.addMixin("cq:LiveSyncCancelled");
+
+            params = new HashMap<String, Object>();
+            params.put("fileReference", PageBuilder.CRX_DAM_PATH + cbf.getImgBackground());
+            resourceResolver.create(heroResource, "image", params);
+            resourceResolver.commit();
+
+        } catch (Exception e) {
+            LOG.error(e.getMessage(), e);
+        }
 
 	}
 
 	private void createSummery(Page page, ResourceResolver resourceResolver, ConsumerBaseFoundationType cbf) {
-		Resource pageResource = page.adaptTo(Resource.class);
-		Resource jcrContentResource = pageResource.getChild(JcrConstants.JCR_CONTENT);
-		try {
+        Resource pageResource = page.adaptTo(Resource.class);
+        Resource jcrContentResource = pageResource.getChild(JcrConstants.JCR_CONTENT);
+        try {
 
-			Map params = new HashMap<String, String>();
-			// params.put("text",cbf.getStfDescription());
-			params.put("text", cbf.getTxtTeaser());
+            Map<String, Object> params = new HashMap<String, Object>();
+            params.put("text", cbf.getStfDescription());
+            params
+                    .put(JcrResourceConstants.SLING_RESOURCE_TYPE_PROPERTY, "tourismaustralia/components/content/summery");
 
-			params
-				.put(JcrResourceConstants.SLING_RESOURCE_TYPE_PROPERTY, "tourismaustralia/components/content/summery");
-
-			resourceResolver.create(jcrContentResource, "summary", params);
-			resourceResolver.commit();
-		} catch (PersistenceException e) {
-			e.printStackTrace();
-		}
+            Resource summaryResource = resourceResolver.create(jcrContentResource, "summary", params);
+            Node summaryNode = summaryResource.adaptTo(Node.class);
+            summaryNode.addMixin("cq:LiveRelationship");
+            summaryNode.addMixin("cq:LiveSyncCancelled");
+            resourceResolver.commit();
+        } catch (Exception e) {
+            LOG.error(e.getMessage(), e);
+        }
 
 	}
 }

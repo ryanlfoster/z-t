@@ -9,6 +9,7 @@ import org.apache.sling.api.resource.ResourceResolver;
 public abstract class PageBuilder {
 
     public static final String CRX_ROOT_PATH = "/content/australia/";
+    public static final String CRX_DAM_PATH = "/content/dam/australia";
     public abstract void createPage(String oldPath, String newPath, ResourceResolver resourceResolver, boolean addMixin)
             throws WCMException;
 

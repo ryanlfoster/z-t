@@ -1,3 +1,8 @@
+.parallaxHolder {
+	z-index: 2;
+}
+
+
 .largeimage {
     padding-bottom: pxtoem($bottom-spacing);
     position: relative;
@@ -62,7 +67,7 @@
 		width: 100%;
 		height: auto;
 	}
-	
+
 	& >.column {
 		float: left;
 	}

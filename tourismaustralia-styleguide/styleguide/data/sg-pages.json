@@ -834,6 +834,20 @@
                 
             
             
+                ,
+            
+        
+            
+                "itinerary_subnav" : {
+                     "data" : {
+                        "title" : "itinerary_subnav",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'itinerary_subnav'}}"
+                }
+                
+            
+            
         
         
             ,
@@ -1298,6 +1312,17 @@
                         "layout" : "styleguide-preview.hbs"
                     },
                     "content" : "{{section 'itineraryday'}}"
+                }
+                
+                    ,
+                
+            
+                "itineraryday_secondary" : {
+                     "data" : {
+                        "title" : "itineraryday_secondary",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'itineraryday_secondary'}}"
                 }
                 
                     ,

@@ -211,7 +211,16 @@ a.map-pin-btn {
 //////////////////////// MAP WITH LEGEND SMALL
 .map-with-links-container--small {
   .map-btn-container {
-    max-width: 180px;
-    margin: 0 pxtoem(20px);
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+
+
+    @include breakpoint(md){
+      display: inline-block;
+      margin: 0 pxtoem(20px);
+      max-width: 150px;
+    }
+
   }
 }

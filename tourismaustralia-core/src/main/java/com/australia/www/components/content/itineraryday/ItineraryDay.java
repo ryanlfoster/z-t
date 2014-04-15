@@ -25,8 +25,10 @@ import java.util.List;
             @Tab(title = Constants.TAB_MAP_NAME)
         },
         listeners = {
-            @Listener(name = "afteredit", value = "REFRESH_PAGE"),
-            @Listener(name = "afterinsert", value = "REFRESH_PAGE")
+            @Listener(name = "afteredit", value = "REFRESH_PARENT"),
+			@Listener(name = "afterinsert", value = "REFRESH_PARENT"),
+			@Listener(name = "aftermove", value = "REFRESH_PARENT"),
+			@Listener(name = "afterremove", value = "REFRESH_PARENT")
         }
 )
 public final class ItineraryDay {

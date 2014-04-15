@@ -13,7 +13,15 @@
 
 <span id="${day.anchorId}">${day.heroTitle}</span>
 <br>
+<a href="#">To Top</a>
+<br>
 <c:forEach items="${day.dayLinks}" var="item">
-    <a href="#${item.anchor}">${item.text}</a>
-    <br>
+    <c:if test="${item.currentDay}">
+        <span>${item.text}</span>
+        <br>
+    </c:if>
+    <c:if test="${!item.currentDay}">
+        <a href="#${item.anchor}">${item.text}</a>
+        <br>
+    </c:if>
 </c:forEach>

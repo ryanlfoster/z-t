@@ -18,6 +18,7 @@
 
     // Create the defaults once
     var pluginName = 'megamenu', defaults = {
+        mm_mobile_breakpoint: 768,
         mm_main_header_element: '#nav-main-header',
         mm_main_navigation_bar: '#nav-bar-top',
         mm_clone_navigation_bar_id: 'nav-bar-top-clone',
@@ -25,8 +26,8 @@
         mm_mobile_open_main_nav: '.nav-toggle-open',
         mm_mobile_close_main_nav: '.nav-toggle-close',
         mm_all_toggle_panel_nav: '.nav-toggle-panel',
-        mm_map_panel_filters: '.megamenu-map-filters'
-
+        mm_map_panel_filters: '.megamenu-map-filters',
+        mm_heart_this_widget: '#heart-this-widget'
     };
 
     // The actual plugin constructor
@@ -72,36 +73,59 @@
 
     // init Sticky Nav Bars
     Plugin.prototype.initStickyNavBars = function (scope) {
+        if ($(scope.element).find('.bar-fixed-top').length < 1) {
+            scope.options.offsetTop = $(window).scrollTop();
+            scope.options.heightAbove = $(scope.options.mm_main_navigation_bar).offset().top;
+            scope.options.navbarHeight = $(scope.options.mm_main_navigation_bar).css('height');
 
-        scope.options.offsetTop = $(window).scrollTop();
-        scope.options.heightAbove = $(scope.options.mm_main_navigation_bar).offset().top;
-        scope.options.navbarHeight = $(scope.options.mm_main_navigation_bar).css('height');
+            $(scope.options.mm_clone_navigation_bar).height(scope.options.navbarHeight);
 
-        $(scope.options.mm_clone_navigation_bar)
-            .height(scope.options.navbarHeight);
+            scope.stickyNavBars(scope);
+        }
 
+        scope.checkResponsive(scope);
 
-        scope.stickyNavBars(scope);
+    };
+
+    Plugin.prototype.checkResponsive = function (scope) {
+        // remove is-open if we scaled up from mobile because it breaks things
+        if ($(window).width() > scope.options.mm_mobile_breakpoint) {
+            $(scope.element).removeClass('is-open');
+            $('html, body').css({'overflow': ''});
+            // and if we were above the top of the navbar we need to reset fixed elements
+            if ($(window).scrollTop() <= scope.options.heightAbove) {
+                $('.bar-fixed-scroll').removeClass('bar-fixed-top');
+                $(scope.options.mm_clone_navigation_bar).hide();
+            }
+        }
     };
 
     // Sticky Nav Bars
     Plugin.prototype.stickyNavBars = function (scope) {
         $(window).on('scroll', function () {
-            //console.log('scrolling');
-
             scope.options.offsetTop = $(window).scrollTop();
-
             if (scope.options.offsetTop > scope.options.heightAbove) {
-                $('.bar-fixed-scroll').addClass('bar-fixed-top');
-                $(scope.options.mm_clone_navigation_bar).show();
+                scope.stickNav(scope);
             }
-
             if (scope.options.offsetTop <= scope.options.heightAbove) {
-                $('.bar-fixed-scroll').removeClass('bar-fixed-top');
-                $(scope.options.mm_clone_navigation_bar).hide();
+                scope.unstickNav(scope);
             }
-
         });
+        scope.options.ignores_croll_event = false;
+    };
+
+    // Stick the Nav Bar
+    Plugin.prototype.stickNav = function (scope) {
+        $('.bar-fixed-scroll').addClass('bar-fixed-top');
+        $(scope.options.mm_clone_navigation_bar).show();
+    };
+
+    // Un-stick the Nav Bar
+    Plugin.prototype.unstickNav = function (scope) {
+        if (!$(scope.element).hasClass('is-open')) {
+            $('.bar-fixed-scroll').removeClass('bar-fixed-top');
+            $(scope.options.mm_clone_navigation_bar).hide();
+        }
     };
 
     // Setup Notice Events
@@ -138,7 +162,7 @@
     };
 
     // Init Map Panel
-    Plugin.prototype.initMapPanel = function(scope, event) {
+    Plugin.prototype.initMapPanel = function (scope, event) {
         $(scope.element).find(scope.options.mm_map_panel_filters).on(event, function (e) {
             e.preventDefault();
             var $el = $(e.currentTarget);
@@ -160,9 +184,9 @@
         $(document).on('keyup', function () {
             var $el = $(document.activeElement);
 
-            // TODO: consider closing on key up nomatter what in case we used a skip link...
+            // TODO: consider closing on key up no matter what in case we used a skip link...
 
-            if ($el.closest('.has-children').length < 1 ) {
+            if ($el.closest('.has-children').length < 1) {
                 $(scope.element).find('.has-children').removeClass('is-open');
             }
 
@@ -171,7 +195,7 @@
             }
 
             // TODO: try to get this working a little better
-            $el.on('blur', function(e) {
+            $el.on('blur', function (e) {
                 $(scope.element).find('.has-children').removeClass('is-open');
             });
 
@@ -199,11 +223,14 @@
         } else {
             $(scope.element).addClass('is-open');
         }
+        // force no scroll while the nav is open
+        $('html, body').css({'overflow': 'hidden'});
     };
 
     // Close Main Nav Mobile
     Plugin.prototype.closeMainNav = function (scope) {
         $(scope.element).removeClass('is-open');
+        $('html, body').css({'overflow': ''});
     };
 
     // Toggle Nav Panel

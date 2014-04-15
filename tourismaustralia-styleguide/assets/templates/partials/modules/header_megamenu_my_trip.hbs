@@ -1,18 +1,9 @@
 ---
 title: Header MM My Trip
 ---
-{{! I need to look at how this icon should work it has several states to take into
-    consideration and it is positioned absolute on the mobile nav which means we can't align it relatively
-
-     some things to consider:
-     * Tabindex should always be -1
-     * Self contianed means it will be difficult to manipulate in the mobile nav
-
-}}
-
 {{#if data}}
     <li class="toggle-my-trip items-added">
-        <a class="nav-toggle-panel" href="#" tabindex="-1">
+        <a id="heart-this-widget" class="nav-toggle-panel" href="#" tabindex="-1">
             <span class="icon icon-32 icon-heart" aria-hidden="true"></span>
             <span class="vis-hidden-sm">My Trip</span>
             <span class="my-trip-count">
@@ -21,7 +12,7 @@ title: Header MM My Trip
         </a>
     </li>
 {{else}}
-    <li class="toggle-my-trip items-empty">
+    <li id="heart-this-widget" class="toggle-my-trip items-empty">
         <a class="nav-toggle-panel" href="#" tabindex="-1">
             <span class="icon icon-32 icon-heart" aria-hidden="true"></span>
             <span class="vis-hidden-sm">My Trip</span>

@@ -457,12 +457,11 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
         }
 
         // this icon changes size a few times...
-        .items-added .icon-heart {
-            width: 40px;
-            height:40px;
-            background-position: -106px -58px;
-            .my-trip-count {
-                //@include vis-hidden();
+        .items-added {
+            .icon-heart {
+                width: 40px;
+                height: 40px;
+                background-position: -106px -58px;
             }
         }
     }
@@ -497,10 +496,15 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
         }
 
         // adjust heart border for bigger screen
-        .items-added .icon-heart {
-            background-position: -97px -48px;
-            width: 48px;
-            height: 48px;
+        .items-added {
+
+            .icon-heart {
+                background-position: -97px -48px;
+                width: 48px;
+                height: 48px;
+
+            }
+
             .my-trip-count {
                 padding-left: 3px;
             }
@@ -549,7 +553,17 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
 
             .toggle-my-trip .nav-toggle-panel {
                 right: 0;
+                width: auto;
+                text-align: right;
             }
+
+            // this icon changes size a few times...
+            .toggle-my-trip.items-added {
+                .icon-heart {
+                    background-position: -102px -54px;
+                }
+            }
+
         }
 
         .header.is-open .navigation-bar {
@@ -572,20 +586,28 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
 }
 
 .header.is-open {
-    .items-added .icon-heart {
-        width: 32px;
-        height: 32px;
-        border: none;
-        @include border-radius(0);
-    }
-    .my-trip-count {
-        //@include vis-visible();
-        float: right;
-        display: inline-block;
-        &:before {
-            content: ' + ';
-            font-size: pxtoem(16px);
-            font-family: Arial, sans-serif;
+    .items-added {
+
+        .nav-toggle-panel {
+            text-align: left;
+        }
+
+        .icon-heart {
+            width: 32px;
+            height: 32px;
+            border: none;
+            @include border-radius(0);
+        }
+
+        .my-trip-count {
+            //@include vis-visible();
+            float: right;
+            display: inline-block;
+            &:before {
+                content: ' + ';
+                font-size: pxtoem(16px);
+                font-family: Arial, sans-serif;
+            }
         }
     }
 }

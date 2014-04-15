@@ -21,38 +21,39 @@ import javax.jcr.Node;
  * Created by Viren Pushpanayagam on 1/04/2014.
  */
 public class IconBuilder extends PageBuilder {
-	private static final Logger LOG = LoggerFactory.getLogger(IconBuilder.class);
-	private static final String TEMPLATE = "/apps/tourismaustralia/templates/cityState";
+    private static final Logger LOG = LoggerFactory.getLogger(IconBuilder.class);
+    private static final String TEMPLATE = "/apps/tourismaustralia/templates/cityState";
 
-	@Override
-	public void createPage(String oldPath, String newPath, ResourceResolver resourceResolver, boolean addMixin)
-		throws WCMException {
-		PageManager pageManager = resourceResolver.adaptTo(PageManager.class);
-		Page page = pageManager.getPage(PageBuilder.CRX_ROOT_PATH + newPath);
+    @Override
+    public void createPage(String oldPath, String newPath, ResourceResolver resourceResolver, boolean addMixin)
+            throws WCMException {
+        PageManager pageManager = resourceResolver.adaptTo(PageManager.class);
+        Page page = pageManager.getPage(PageBuilder.CRX_ROOT_PATH + newPath);
 
-		if (page == null) {
-			LOG.debug("Importing: " + PageBuilder.CRX_ROOT_PATH + oldPath);
-			DefaultConsumerBaseFoundationService service = new DefaultConsumerBaseFoundationService();
-			ConsumerBaseFoundationType cbf = service.getByPath(oldPath);
+        if (page == null) {
+            LOG.debug("Importing: " + PageBuilder.CRX_ROOT_PATH + oldPath);
+            DefaultConsumerBaseFoundationService service = new DefaultConsumerBaseFoundationService();
+            ConsumerBaseFoundationType cbf = service.getByPath(oldPath);
 
-			page = pageManager.create(getPath(PageBuilder.CRX_ROOT_PATH + newPath, false),
-				getPath(PageBuilder.CRX_ROOT_PATH + newPath, true), TEMPLATE, null, true);
+            page = pageManager.create(getPath(PageBuilder.CRX_ROOT_PATH + newPath, false),
+                    getPath(PageBuilder.CRX_ROOT_PATH + newPath, true), TEMPLATE, null, true);
 
-			createHero(page, resourceResolver, cbf);
-			createSummery(page, resourceResolver, cbf);
-			// LOG.debug(cbf.getHdlTitle());
+            createHero(page, resourceResolver, cbf);
+            createSummery(page, resourceResolver, cbf);
+            // LOG.debug(cbf.getHdlTitle());
 
-		}
-	}
+        }
+    }
 
-	private void createHero(Page page, ResourceResolver resourceResolver, ConsumerBaseFoundationType cbf) {
+    private void createHero(Page page, ResourceResolver resourceResolver, ConsumerBaseFoundationType cbf) {
         Resource pageResource = page.adaptTo(Resource.class);
         Resource jcrContentResource = pageResource.getChild(JcrConstants.JCR_CONTENT);
         try {
 
             Map<String, Object> params = new HashMap<String, Object>();
             params.put("title", cbf.getHdlTitle());
-            //params.put("image", cbf.getImgBackground());
+            params.put("altText", cbf.getStfImageLocation());
+            params.put("subTitle", cbf.getStfDescription());
             params.put(JcrResourceConstants.SLING_RESOURCE_TYPE_PROPERTY, "tourismaustralia/components/content/hero");
 
             Resource heroResource = resourceResolver.create(jcrContentResource, "hero", params);
@@ -69,17 +70,16 @@ public class IconBuilder extends PageBuilder {
             LOG.error(e.getMessage(), e);
         }
 
-	}
+    }
 
-	private void createSummery(Page page, ResourceResolver resourceResolver, ConsumerBaseFoundationType cbf) {
+    private void createSummery(Page page, ResourceResolver resourceResolver, ConsumerBaseFoundationType cbf) {
         Resource pageResource = page.adaptTo(Resource.class);
         Resource jcrContentResource = pageResource.getChild(JcrConstants.JCR_CONTENT);
         try {
 
             Map<String, Object> params = new HashMap<String, Object>();
-            params.put("text", cbf.getStfDescription());
-            params
-                    .put(JcrResourceConstants.SLING_RESOURCE_TYPE_PROPERTY, "tourismaustralia/components/content/summery");
+            params.put("text", cbf.getConBody().getSubPageLayout().getConBody().getTopCategoryHighlights().get(0).getTxtInformation());
+            params.put(JcrResourceConstants.SLING_RESOURCE_TYPE_PROPERTY, "tourismaustralia/components/content/summery");
 
             Resource summaryResource = resourceResolver.create(jcrContentResource, "summary", params);
             Node summaryNode = summaryResource.adaptTo(Node.class);
@@ -90,5 +90,5 @@ public class IconBuilder extends PageBuilder {
             LOG.error(e.getMessage(), e);
         }
 
-	}
+    }
 }

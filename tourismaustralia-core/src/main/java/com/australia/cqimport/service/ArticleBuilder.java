@@ -66,7 +66,8 @@ public class ArticleBuilder extends PageBuilder {
 
             Map<String, Object> params = new HashMap<String, Object>();
             params.put("title", cbf.getHdlTitle());
-            //params.put("image", cbf.getImgBackground());
+            params.put("altText", cbf.getStfImageLocation());
+            params.put("subTitle", cbf.getStfDescription());
             params.put(JcrResourceConstants.SLING_RESOURCE_TYPE_PROPERTY, "tourismaustralia/components/content/hero");
 
             Resource heroResource = resourceResolver.create(jcrContentResource, "hero", params);
@@ -91,9 +92,8 @@ public class ArticleBuilder extends PageBuilder {
         try {
 
             Map<String, Object> params = new HashMap<String, Object>();
-            params.put("text", cbf.getStfDescription());
-            params
-                    .put(JcrResourceConstants.SLING_RESOURCE_TYPE_PROPERTY, "tourismaustralia/components/content/summery");
+            params.put("text", cbf.getConBody().getSubPageLayout().getConBody().getTopCategoryHighlights().get(0).getTxtInformation());
+            params.put(JcrResourceConstants.SLING_RESOURCE_TYPE_PROPERTY, "tourismaustralia/components/content/summery");
 
             Resource summaryResource = resourceResolver.create(jcrContentResource, "summary", params);
             Node summaryNode = summaryResource.adaptTo(Node.class);

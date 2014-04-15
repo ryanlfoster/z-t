@@ -1,5 +1,7 @@
 package com.australia.foodandwine.components.content.statemosaic;
 
+import javax.servlet.http.HttpSession;
+
 import org.apache.commons.lang3.StringUtils;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.ValueMap;

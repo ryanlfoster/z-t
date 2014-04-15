@@ -3,44 +3,111 @@
 <%@ page import="com.australia.foodandwine.components.content.statemosaic.StateMosaic" %>
 
 <c:set var="stateMosaic" value="<%=new StateMosaic(slingRequest) %>"/>
+<script src="http://cloud.github.com/downloads/wycats/handlebars.js/handlebars-1.0.0.beta.6.js" type="text/javascript" charset="utf-8"></script>
 <script type="text/javascript">
-
 $(document).ready(function(){
-	//alert("rady");
-	//alert($(".icon-map-wrapper").find("icon-map-black-active span" ).text());
 	var stateTag=$(".icon-map-black-active " ).text();
 	alert(stateTag);
-	$('.category-input').click(function(e){
-		alert("clicked");
-
+    var catogoryArray=new Array();
+    var source   = $("#sample").html();
+    
+    alert(source);
+	/* $('.category-input').click(function(e){
         var x=$(this).attr('id');
-        alert(x);
-        $("#"+x).click(function(){
-            alert("2nd");
+        alert("click");
+    */     /* $("input:checkbox:not(:checked)").map(function(){
+        	alert("unchek");
+        	var check= $("label[for='"+x+"']").find(".category-title").text();
+            if($.inArray(check, catogoryArray)===-1)
+            	catogoryArray.pop(check);
+            alert(catogoryArray);
 
+        }).get().join(','); */ 
+       /*  if($("#"+x).click(function(){
+        	alert("clicked");
         });
+		$('input:checkbox:checked').map(function() {
+          var check= $("label[for='"+x+"']").find(".category-title").text();
+            if($.inArray(check, catogoryArray)===-1)
+            	catogoryArray.push(check);
+            alert(catogoryArray);
+		}).get().join(','); */
+		 $(document).on("click",'.category-input ', function(){
+				var x=$(this).attr('id');
+		       // alert("click");
+		        if($(this).is(":checked"))
+		        {
+					//alert("checkd");
+		             var checked= $("label[for='"+x+"']").find(".category-title").text();
+		            if($.inArray(checked, catogoryArray)===-1)
+		            	catogoryArray.push(checked);
+		            //alert(catogoryArray);
+		        }
+		        else
+		        {
+					var uncheked= $("label[for='"+x+"']").find(".category-title").text()
+		            //alert("check "+uncheked);
+						catogoryArray.pop(uncheked);
+		           // alert("else "+catogoryArray);
+		        }
 
-           });
-	$.ajax({
-		type : "POST",
-		url : "${resource.path}.ccs.json",
-		data : {
-			stateTag : stateTag
+		$.ajax({
+			type : "POST",
+			url : "${resource.path}.ccs.json",
+			data : {
+				stateTag : stateTag,
+				catogoryArray:catogoryArray
+
+			},
+			success : function(msg) {
+				//alert("success "+msg );
+				var data;
+				
+				 data = JSON.stringify(msg);
+				 alert("data first "+data);
+				//data="users:{"+data+"}";
+				//var add="users:{";
+				data=data.replace("[","");
+				 data=data.replace("]","");
+				 //data=add.concat(data,"}");
+					alert(data+" testing");
 			
+               	 var obj=JSON.parse(data);
+               //alert(obj);
+               alert("Content "+obj);
 
-		},
-		success : function(msg) {
-			alert("success");
-			//console.log("${resource.path}.ccs.json" );
-			//window.location.href = msg;
+               //var data={"title":"test","desc":"/testing/test"};
+					alert("data "+data);
+					 var template = Handlebars.compile(source);
+					 //alert("template "+template(obj));
+					 $(".mosaic").append(template(obj));
+					 
+					 
+				 /* //var Content = JSON.stringify(msg);
+				 //Content=Content.replace("[","");
+				 //Content=Content.replace("]","");
+					//alert(Content);
+					var data={"title":"test","desc":"/testing/test"};
+					alert("data "+data);
+					 var template = Handlebars.compile(source);
+					 alert("template "+template(data));
+					 $(".mosaic").append(template(msg));
+				 *//* $.getJSON("ajax/test.json", function( msg ) {
+					  var items = [];
+					  $.each( msg, function( i, val ) {
+						    items.push( "<li id=' title'>" + val.title + "</li>" );
+						  });
+					  alert(items);
+					  )};*/
+			}, 
+			error : function(xhr) {
+				console.log('there is some error');
+			}
+		});	
 
-		},
-		error : function(xhr) {
-			console.log('there is some error');
 
-		}
-	});	
-	 
+     });	
+		 
 });
 
  	/* var checkboxArray = $('input:checkbox:checked').map(function() {
@@ -50,6 +117,41 @@ $(document).ready(function(){
 	alert(checkboxArray); */
 	
 
+
+
+</script>
+<script id ="sample" type="text/x-handlebars-template">
+<div class="row l-row-collapse">
+        <div class="col-xs-12 col-md-6">
+<a href="#" title="" class="mosaic-item">
+    <img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
+    <span class="mosaic-item-description">
+        <span class="mosaic-item-description-head type-font-feature">{{title}}</span>
+        <span class="mosaic-item-description-sub">New South Wales</span>
+        <span class="mosaic-item-description-copy">
+            {{description}}
+            <br><br>
+            <span class="mosaic-item-description-copy-link"><strong>Read more</strong></span>
+        </span>
+        <span class="mosaic-item-description-share mosaic-item-description-share-dark">
+            <img src="imgs/base/share/share-instagram-black.png" alt="">
+        </span>
+        <span class="mosaic-item-description-share mosaic-item-description-share-white">
+            <img src="imgs/base/share/share-instagram-white.png" alt=""/>
+        </span>
+    </span>
+    <span class="mosaic-item-overlay mosaic-item-overlay-share">
+         <span class="mosaic-item-overlay-share-container">
+             <span class="mosaic-item-overlay-share-copy">
+                Looking forward AS ALWAYS to seeing you all @eveleighmarket @carriageworks tomorrow! All you need is an empty basket to fill with...
+              <br><br>
+              <strong>kylie_kwong on Instagram</strong>
+            </span>
+        </span>
+    </span>
+    End Overlay
+</a>
+        </div>
 
 
 </script>
@@ -218,12 +320,12 @@ $(document).ready(function(){
 </div>
     <!-- END: FOOD MOSAIC GRID CHANGER -->
     <!-- MOSAIC -->
-<div class="mosaic">
+<!-- <div class="mosaic">
     <div class="row l-row-collapse">
         <div class="col-xs-12 col-md-6">
 <a href="#" title="" class="mosaic-item">
-    <img class='mosaic-item-image' src="http://placehold.it/580x580" alt="" width="100%"/>
-    <!-- Parent view -->
+    <img class='mosaic-item-image' src="" alt="" width="100%"/>
+    Parent view
     <span class="mosaic-item-description">
         <span class="mosaic-item-description-head type-font-feature">Melbourne & Wine</span>
         <span class="mosaic-item-description-sub">New South Wales</span>
@@ -239,8 +341,8 @@ $(document).ready(function(){
             <img src="imgs/base/share/share-instagram-white.png" alt=""/>
         </span>
     </span>
-    <!-- End Parent view -->
-    <!-- Overlay -->
+    End Parent view
+    Overlay
     <span class="mosaic-item-overlay mosaic-item-overlay-share">
          <span class="mosaic-item-overlay-share-container">
              <span class="mosaic-item-overlay-share-copy">
@@ -250,7 +352,7 @@ $(document).ready(function(){
             </span>
         </span>
     </span>
-    <!-- End Overlay -->
+    End Overlay
 </a>
         </div>
         <div class="col-xs-12 col-md-6">
@@ -258,7 +360,7 @@ $(document).ready(function(){
                 <div class="col-xs-12 col-sm-6">
 <a href="#" title="" class="mosaic-item">
     <img class='mosaic-item-image' src="http://placehold.it/580x580" alt="" width="100%"/>
-    <!-- Parent view -->
+    Parent view
     <span class="mosaic-item-description">
         <span class="mosaic-item-description-head type-font-feature">Melbourne & Wine</span>
         <span class="mosaic-item-description-sub">New South Wales</span>
@@ -274,8 +376,8 @@ $(document).ready(function(){
             <img src="imgs/base/share/share-instagram-white.png" alt=""/>
         </span>
     </span>
-    <!-- End Parent view -->
-    <!-- Overlay -->
+    End Parent view
+    Overlay
     <span class="mosaic-item-overlay mosaic-item-overlay-share">
          <span class="mosaic-item-overlay-share-container">
              <span class="mosaic-item-overlay-share-copy">
@@ -285,13 +387,13 @@ $(document).ready(function(){
             </span>
         </span>
     </span>
-    <!-- End Overlay -->
+    End Overlay
 </a>
                 </div>
                 <div class="col-xs-12 col-sm-6">
 <a href="#" class="mosaic-item"  title="">
     <img class='mosaic-item-image' src="http://placehold.it/580x580" alt="" width="100%"/>
-    <!-- Parent view -->
+    Parent view
     <span class="mosaic-item-description">
         <span class="mosaic-item-description-head type-font-feature">
             The burger shed
@@ -306,8 +408,8 @@ $(document).ready(function(){
             <strong class="mosaic-item-description-categories"><em>Restaurant, Places, People</em></strong>
         </span>
     </span>
-    <!-- End Parent view -->
-    <!-- Overlay view -->
+    End Parent view
+    Overlay view
     <span class="mosaic-item-overlay mosaic-item-overlay-info">
          <span class="mosaic-item-overlay-info-icon">
              <span class="mosaic-item-overlay-info-head type-font-feature">The burger<br/>shed</span>
@@ -325,13 +427,13 @@ $(document).ready(function(){
                  <strong>Restaurants, People, Experience...</strong>
           </span>
     </span>
-    <!-- End Overlay view -->
+    End Overlay view
 </a>
                 </div>
                 <div class="col-xs-12 col-sm-6">
 <a href="#" title="" class="mosaic-item">
     <img class='mosaic-item-image' src="http://placehold.it/580x580" alt="" width="100%"/>
-    <!-- Parent view -->
+    Parent view
     <span class="mosaic-item-description">
         <span class="mosaic-item-description-head type-font-feature">Melbourne & Wine</span>
         <span class="mosaic-item-description-sub">New South Wales</span>
@@ -347,8 +449,8 @@ $(document).ready(function(){
             <img src="imgs/base/share/share-instagram-white.png" alt=""/>
         </span>
     </span>
-    <!-- End Parent view -->
-    <!-- Overlay -->
+    End Parent view
+    Overlay
     <span class="mosaic-item-overlay mosaic-item-overlay-share">
          <span class="mosaic-item-overlay-share-container">
              <span class="mosaic-item-overlay-share-copy">
@@ -358,13 +460,13 @@ $(document).ready(function(){
             </span>
         </span>
     </span>
-    <!-- End Overlay -->
+    End Overlay
 </a>
                 </div>
                 <div class="col-xs-12 col-sm-6">
 <a href="#" class="mosaic-item"  title="">
     <img class='mosaic-item-image' src="http://placehold.it/580x580" alt="" width="100%"/>
-    <!-- Parent view -->
+    Parent view
     <span class="mosaic-item-description">
         <span class="mosaic-item-description-head type-font-feature">
             The burger shed
@@ -379,8 +481,8 @@ $(document).ready(function(){
             <strong class="mosaic-item-description-categories"><em>Restaurant, Places, People</em></strong>
         </span>
     </span>
-    <!-- End Parent view -->
-    <!-- Overlay view -->
+    End Parent view
+    Overlay view
     <span class="mosaic-item-overlay mosaic-item-overlay-info">
          <span class="mosaic-item-overlay-info-icon">
              <span class="mosaic-item-overlay-info-head type-font-feature">The burger<br/>shed</span>
@@ -398,21 +500,21 @@ $(document).ready(function(){
                  <strong>Restaurants, People, Experience...</strong>
           </span>
     </span>
-    <!-- End Overlay view -->
+    End Overlay view
 </a>
                 </div>
             </div>
         </div>
     </div>
-</div>
+</div> -->
 <div class="mosaic">
-    <div class="row l-row-collapse">
+    <!-- div class="row l-row-collapse">
          <div class="col-xs-12 col-md-3 mosaic-ie-25">
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-12 mosaic-ie-100">
 <a href="#" class="mosaic-item"  title="">
     <img class='mosaic-item-image' src="http://placehold.it/580x580" alt="" width="100%"/>
-    <!-- Parent view -->
+    Parent view
     <span class="mosaic-item-description">
         <span class="mosaic-item-description-head type-font-feature">
             The burger shed
@@ -427,8 +529,8 @@ $(document).ready(function(){
             <strong class="mosaic-item-description-categories"><em>Restaurant, Places, People</em></strong>
         </span>
     </span>
-    <!-- End Parent view -->
-    <!-- Overlay view -->
+    End Parent view
+    Overlay view
     <span class="mosaic-item-overlay mosaic-item-overlay-info">
          <span class="mosaic-item-overlay-info-icon">
              <span class="mosaic-item-overlay-info-head type-font-feature">The burger<br/>shed</span>
@@ -446,13 +548,13 @@ $(document).ready(function(){
                  <strong>Restaurants, People, Experience...</strong>
           </span>
     </span>
-    <!-- End Overlay view -->
+    End Overlay view
 </a>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-12 mosaic-ie-100">
 <a href="#" title="" class="mosaic-item">
     <img class='mosaic-item-image' src="http://placehold.it/580x580" alt="" width="100%"/>
-    <!-- Parent view -->
+    Parent view
     <span class="mosaic-item-description">
         <span class="mosaic-item-description-head type-font-feature">Melbourne & Wine</span>
         <span class="mosaic-item-description-sub">New South Wales</span>
@@ -468,8 +570,8 @@ $(document).ready(function(){
             <img src="imgs/base/share/share-instagram-white.png" alt=""/>
         </span>
     </span>
-    <!-- End Parent view -->
-    <!-- Overlay -->
+    End Parent view
+    Overlay
     <span class="mosaic-item-overlay mosaic-item-overlay-share">
          <span class="mosaic-item-overlay-share-container">
              <span class="mosaic-item-overlay-share-copy">
@@ -479,7 +581,7 @@ $(document).ready(function(){
             </span>
         </span>
     </span>
-    <!-- End Overlay -->
+    End Overlay
 </a>
                 </div>
             </div>
@@ -487,7 +589,7 @@ $(document).ready(function(){
         <div class="col-xs-12 col-md-6">
 <a href="#" class="mosaic-item"  title="">
     <img class='mosaic-item-image' src="http://placehold.it/580x580" alt="" width="100%"/>
-    <!-- Parent view -->
+    Parent view
     <span class="mosaic-item-description">
         <span class="mosaic-item-description-head type-font-feature">
             The burger shed
@@ -502,8 +604,8 @@ $(document).ready(function(){
             <strong class="mosaic-item-description-categories"><em>Restaurant, Places, People</em></strong>
         </span>
     </span>
-    <!-- End Parent view -->
-    <!-- Overlay view -->
+    End Parent view
+    Overlay view
     <span class="mosaic-item-overlay mosaic-item-overlay-info">
          <span class="mosaic-item-overlay-info-icon">
              <span class="mosaic-item-overlay-info-head type-font-feature">The burger<br/>shed</span>
@@ -521,7 +623,7 @@ $(document).ready(function(){
                  <strong>Restaurants, People, Experience...</strong>
           </span>
     </span>
-    <!-- End Overlay view -->
+    End Overlay view
 </a>
         </div>
         <div class="col-xs-12 col-md-3 mosaic-ie-25">
@@ -529,7 +631,7 @@ $(document).ready(function(){
                 <div class="col-xs-12 col-sm-6 col-md-12 mosaic-ie-100">
 <a href="#" class="mosaic-item"  title="">
     <img class='mosaic-item-image' src="http://placehold.it/580x580" alt="" width="100%"/>
-    <!-- Parent view -->
+    Parent view
     <span class="mosaic-item-description">
         <span class="mosaic-item-description-head type-font-feature">
             The burger shed
@@ -544,8 +646,8 @@ $(document).ready(function(){
             <strong class="mosaic-item-description-categories"><em>Restaurant, Places, People</em></strong>
         </span>
     </span>
-    <!-- End Parent view -->
-    <!-- Overlay view -->
+    End Parent view
+    Overlay view
     <span class="mosaic-item-overlay mosaic-item-overlay-info">
          <span class="mosaic-item-overlay-info-icon">
              <span class="mosaic-item-overlay-info-head type-font-feature">The burger<br/>shed</span>
@@ -563,13 +665,13 @@ $(document).ready(function(){
                  <strong>Restaurants, People, Experience...</strong>
           </span>
     </span>
-    <!-- End Overlay view -->
+    End Overlay view
 </a>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-12 mosaic-ie-100">
 <a href="#" title="" class="mosaic-item">
     <img class='mosaic-item-image' src="http://placehold.it/580x580" alt="" width="100%"/>
-    <!-- Parent view -->
+    Parent view
     <span class="mosaic-item-description">
         <span class="mosaic-item-description-head type-font-feature">Melbourne & Wine</span>
         <span class="mosaic-item-description-sub">New South Wales</span>
@@ -585,8 +687,8 @@ $(document).ready(function(){
             <img src="imgs/base/share/share-instagram-white.png" alt=""/>
         </span>
     </span>
-    <!-- End Parent view -->
-    <!-- Overlay -->
+    End Parent view
+    Overlay
     <span class="mosaic-item-overlay mosaic-item-overlay-share">
          <span class="mosaic-item-overlay-share-container">
              <span class="mosaic-item-overlay-share-copy">
@@ -596,12 +698,12 @@ $(document).ready(function(){
             </span>
         </span>
     </span>
-    <!-- End Overlay -->
+    End Overlay
 </a>
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 </div>
     <!-- END: MOSAIC -->
     <p class="type-spacing-120">

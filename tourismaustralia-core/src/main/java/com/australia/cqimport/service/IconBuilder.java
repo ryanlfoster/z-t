@@ -16,6 +16,7 @@ import com.day.cq.wcm.api.PageManager;
 import com.day.cq.wcm.api.WCMException;
 
 import javax.jcr.Node;
+import javax.jcr.RepositoryException;
 
 /**
  * Created by Viren Pushpanayagam on 1/04/2014.
@@ -29,6 +30,7 @@ public class IconBuilder extends PageBuilder {
             throws WCMException {
         PageManager pageManager = resourceResolver.adaptTo(PageManager.class);
         Page page = pageManager.getPage(PageBuilder.CRX_ROOT_PATH + newPath);
+        Resource pageResource;
 
         if (page == null) {
             LOG.debug("Importing: " + PageBuilder.CRX_ROOT_PATH + oldPath);
@@ -38,9 +40,26 @@ public class IconBuilder extends PageBuilder {
             page = pageManager.create(getPath(PageBuilder.CRX_ROOT_PATH + newPath, false),
                     getPath(PageBuilder.CRX_ROOT_PATH + newPath, true), TEMPLATE, null, true);
 
+            pageResource = page.adaptTo(Resource.class);
+            Resource jcrContentResource = pageResource.getChild(JcrConstants.JCR_CONTENT);
+            Node pageNode = jcrContentResource.adaptTo(Node.class);
+
+            try {
+                pageNode.setProperty(JcrConstants.JCR_DESCRIPTION, cbf.getStfDescription());
+            } catch (Exception e) {
+                LOG.error(e.getMessage(), e);
+            }
+
+            if (addMixin) {
+                try {
+                    pageNode.addMixin("cq:LiveSync");
+                } catch (RepositoryException e) {
+                    LOG.error(e.getMessage(), e);
+                }
+            }
+
             createHero(page, resourceResolver, cbf);
             createSummery(page, resourceResolver, cbf);
-            // LOG.debug(cbf.getHdlTitle());
 
         }
     }

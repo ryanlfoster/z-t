@@ -42,19 +42,26 @@ public class ArticleBuilder extends PageBuilder {
 			page = pageManager.create(getPath(PageBuilder.CRX_ROOT_PATH + newPath, false),
 				getPath(PageBuilder.CRX_ROOT_PATH + newPath, true), TEMPLATE, null, true);
 
-			if (addMixin) {
-				pageResource = page.adaptTo(Resource.class);
-				Resource jcrContentResource = pageResource.getChild(JcrConstants.JCR_CONTENT);
-				try {
-					jcrContentResource.adaptTo(Node.class).addMixin("cq:LiveSync");
-				} catch (RepositoryException e) {
-					e.printStackTrace();
-				}
-			}
+            pageResource = page.adaptTo(Resource.class);
+            Resource jcrContentResource = pageResource.getChild(JcrConstants.JCR_CONTENT);
+            Node pageNode = jcrContentResource.adaptTo(Node.class);
+
+            try {
+                pageNode.setProperty(JcrConstants.JCR_DESCRIPTION, cbf.getStfDescription());
+            } catch (Exception e) {
+                LOG.error(e.getMessage(), e);
+            }
+
+            if (addMixin) {
+                try {
+                    pageNode.addMixin("cq:LiveSync");
+                } catch (RepositoryException e) {
+                    LOG.error(e.getMessage(), e);
+                }
+            }
 
 			createHero(page, resourceResolver, cbf);
 			createSummery(page, resourceResolver, cbf);
-			// System.out.println(cbf.getHdlTitle());
 
 		}
 	}

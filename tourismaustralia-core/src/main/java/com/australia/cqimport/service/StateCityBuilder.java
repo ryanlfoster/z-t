@@ -41,11 +41,24 @@ public class StateCityBuilder extends PageBuilder {
             page = pageManager.create(getPath(PageBuilder.CRX_ROOT_PATH + newPath, false),
                     getPath(PageBuilder.CRX_ROOT_PATH + newPath, true), TEMPLATE, null, true);
 
+            pageResource = page.adaptTo(Resource.class);
+            Resource jcrContentResource = pageResource.getChild(JcrConstants.JCR_CONTENT);
+            Node pageNode = jcrContentResource.adaptTo(Node.class);
+
+            //Map<String, Object> params = new HashMap<String, Object>();
+            //params.put("fileReference", PageBuilder.CRX_DAM_PATH + cbf.getImgBackground());
+
+
+            try {
+                //Resource imageResource = resourceResolver.create(jcrContentResource, "image", params);
+                pageNode.setProperty(JcrConstants.JCR_DESCRIPTION, cbf.getStfDescription());
+            } catch (Exception e) {
+                LOG.error(e.getMessage(), e);
+            }
+
             if (addMixin) {
-                pageResource = page.adaptTo(Resource.class);
-                Resource jcrContentResource = pageResource.getChild(JcrConstants.JCR_CONTENT);
                 try {
-                    jcrContentResource.adaptTo(Node.class).addMixin("cq:LiveSync");
+                    pageNode.addMixin("cq:LiveSync");
                 } catch (RepositoryException e) {
                     LOG.error(e.getMessage(), e);
                 }
@@ -66,7 +79,7 @@ public class StateCityBuilder extends PageBuilder {
             Map<String, Object> params = new HashMap<String, Object>();
             params.put("title", cbf.getHdlTitle());
             params.put("altText", cbf.getStfImageLocation());
-            params.put("subTitle", cbf.getStfDescription());
+            //params.put("subTitle", cbf.getStfDescription());
             params.put(JcrResourceConstants.SLING_RESOURCE_TYPE_PROPERTY, "tourismaustralia/components/content/hero");
 
             Resource heroResource = resourceResolver.create(jcrContentResource, "hero", params);

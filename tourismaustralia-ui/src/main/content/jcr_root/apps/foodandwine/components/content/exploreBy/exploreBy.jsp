@@ -44,14 +44,14 @@
 			<div class="l-display-md">
 				<select class="input-select input-select-small">
 					<option value="" disabled>Select place</option>
-					<option value="capital">Australian Capital Territory</option>
-					<option value="nsw">New South Wales</option>
-					<option value="northern">Northern Territory</option>
+					<option value="capital">Capital</option>
+					<option value="nsw">NSW</option>
+					<option value="northern">Northern</option>
 					<option value="queensland">Queensland</option>
-					<option value="south">South Australia</option>
+					<option value="south">South</option>
 					<option value="tasmania">Tasmania</option>
 					<option value="victoria">Victoria</option>
-					<option value="western">Western Australia</option>
+					<option value="western">Western</option>
 				</select>
 			</div>
 			<!-- END: selection -->

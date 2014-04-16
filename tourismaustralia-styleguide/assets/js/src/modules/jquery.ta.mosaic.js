@@ -80,26 +80,30 @@
 
         $mosaic_container.click(function(e){
 
-            // turn other items opacity on
-            $mosaic.find(scope.options.mosaic_item).addClass("is-opacity");
-            $mosaic_item.removeClass("is-opacity");
+            // check if outbound link tile
+            if(!$(this).hasClass('outbound-link')){
 
-            // copy content for mosaic_grid2 and setup events
-            var $mosaic_grid2_content = $(scope.element).parents(scope.options.mosaic_grid2).find(scope.options.mosaic_grid2_content).find(scope.options.mosaic_content);
-            scope.setupGrid2Content(scope, $mosaic, $mosaic_content, $mosaic_grid2_content);
-
-            if ($mosaic_item.hasClass('is-trigger-content')){
-                scope.removeClass($mosaic_item, $mosaic_content, $mosaic_grid2_content);
                 // turn other items opacity on
-                $mosaic.find(scope.options.mosaic_item).removeClass("is-opacity");
-            }else{
-                // disable any open tiles before showing next tile
-                scope.disableTiles(scope, $mosaic_item, $mosaic_content, $mosaic_grid2_content);
-            }
-            //$mosaic_item.removeClass('is-flip');
-            scope.removeTransition($mosaic_item);
+                $mosaic.find(scope.options.mosaic_item).addClass("is-opacity");
+                $mosaic_item.removeClass("is-opacity");
 
-            e.preventDefault();
+                // copy content for mosaic_grid2 and setup events
+                var $mosaic_grid2_content = $(scope.element).parents(scope.options.mosaic_grid2).find(scope.options.mosaic_grid2_content).find(scope.options.mosaic_content);
+                scope.setupGrid2Content(scope, $mosaic, $mosaic_content, $mosaic_grid2_content);
+
+                if ($mosaic_item.hasClass('is-trigger-content')){
+                    scope.removeClass($mosaic_item, $mosaic_content, $mosaic_grid2_content);
+                    // turn other items opacity on
+                    $mosaic.find(scope.options.mosaic_item).removeClass("is-opacity");
+                }else{
+                    // disable any open tiles before showing next tile
+                    scope.disableTiles(scope, $mosaic_item, $mosaic_content, $mosaic_grid2_content);
+                }
+                //$mosaic_item.removeClass('is-flip');
+                scope.removeTransition($mosaic_item);
+
+                e.preventDefault();
+            }
         });
         $mosaic_container.mouseenter(function(e){
             //$mosaic_item.addClass("is-flip");

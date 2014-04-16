@@ -42,6 +42,15 @@
 .mosaic-item.is-flip{
   z-index: 2;
 }
+
+.mosaic-item.outbound-link a {
+  color: $btn-default-color;
+
+  p {
+    color: $btn-default-color;
+  }
+}
+
 /* fix for inconsistent height issue */
 .col-md-6 .col-sm-6 .mosaic-item,
 .col-md-3 .col-sm-6 .mosaic-item {

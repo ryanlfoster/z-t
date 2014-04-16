@@ -14,11 +14,36 @@
     // Tablet...
     @media (min-width: $screen-sm-min) {
         min-height: 280px;
+        padding: 20px;
     }
 
     // Desktop...
     @media (min-width: $screen-md-min) {
-
     }
 }
 
+.megamenu-mosaic-title {
+    font-family: $font-family-base;
+    font-size: pxtoem(22px);
+    color: $type-navigation;
+    margin-bottom: pxtoem(10px);
+}
+
+.megamenu-mosaic-left {
+    float: left;
+    width: 100%;
+    padding-right: 230px;
+    margin-bottom: 20px;
+}
+
+.megamenu-mosaic-right {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 200px;
+}
+
+.megamenu-mosaic-item {
+    float: left;
+    width: 200px;
+}

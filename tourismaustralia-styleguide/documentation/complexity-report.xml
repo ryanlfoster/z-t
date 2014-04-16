@@ -108,6 +108,16 @@
 </file>
 <file name="assets/js/src/modules/jquery.ta.mosaic.js">
   
+  <issue
+    line="81"
+    char="&lt;anonymous&gt;"
+    evidence="&lt;anonymous&gt; is too complicated"
+    reason="Cyclomatic: 3,
+    Halstead: 8.4808
+    | Effort: 4791.4
+    | Volume: 564.97
+    | Vocabulary: 33" />
+  
 </file>
 <file name="assets/js/src/modules/jquery.ta.carousel.js">
   

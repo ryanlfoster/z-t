@@ -63,7 +63,7 @@
     | Vocabulary: 79" />
   
   <issue
-    line="234"
+    line="237"
     char="_adjustImgHolderHeights"
     evidence="_adjustImgHolderHeights is too complicated"
     reason="Cyclomatic: 3,
@@ -73,7 +73,7 @@
     | Vocabulary: 57" />
   
   <issue
-    line="320"
+    line="323"
     char="_updatePositions"
     evidence="_updatePositions is too complicated"
     reason="Cyclomatic: 2,

@@ -23,7 +23,7 @@ responsiveImageHelper.bindEvents = function(){
 
 	responsiveImageHelper.setContainerHeight();
 
-	// Initiate parallax
+	// Initiate parallax THIS IS OLD AND CRAP
 	$('.parallax').parallaxImages({
 	    parallaxSpeed : 1
 	});

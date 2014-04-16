@@ -25,7 +25,7 @@ navScroller._bindEvents = function(){
 
 			if (target.length) {
 				$('html,body').animate({
-				  scrollTop: target.offset().top - 30 // offset to accommodate navbar
+				  scrollTop: target.offset().top - ($('.main-nav-panel').height() - 1) // offset to accommodate navbar
 				}, 1000);
 
 				$('.active', '.navScroller').removeClass('active');

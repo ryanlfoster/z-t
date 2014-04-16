@@ -185,8 +185,11 @@
                 //this.imageHolder = imageHolder;
                 this.$imageHolder = $(imageHolder);
                 this.settings = $.extend({}, defaults, options);
+                
                 // this.image = this.$imageHolder.data(this.settings.imageAttribute) || this.settings.image;
+                // Added this to work with media images
                 this.image = this.$imageHolder.next('.img-src').find('img').last().attr('src') || this.settings.image;
+
                 this.mediaWidth = this.$imageHolder.data('width') || this.settings.mediaWidth;
                 this.mediaHeight = this.$imageHolder.data('height') || this.settings.mediaHeight;
                 this.coverRatio = this.$imageHolder.data('cover-ratio') || this.settings.coverRatio;

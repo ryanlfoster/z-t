@@ -29,14 +29,14 @@
 			<!-- selection for desktop -->
 			<div class="l-display-none-md">
 				<p class='icon-map-wrapper'>
-					<a href="${exploreBy.capital}" class="icon-map icon-map-white icon-map-capital"> <span>Australian Captital Territory</span> </a>
-					<a href="${exploreBy.nsw}" class="icon-map icon-map-white icon-map-nsw"> <span>New South Wales</span> </a>
-					<a href="${exploreBy.northern}" class="icon-map icon-map-white icon-map-northern"> <span>Northern Territory</span> </a>
-					<a href="${exploreBy.queensland}" class="icon-map icon-map-white icon-map-queensland"> <span>Queensland</span> </a>
-					<a href="${exploreBy.south}" class="icon-map icon-map-white icon-map-south"> <span>South Australia</span> </a>
-					<a href="${exploreBy.tasmania}" class="icon-map icon-map-white icon-map-tasmania"> <span>Tasmania</span> </a>
-					<a href="${exploreBy.victoria}" class="icon-map icon-map-white icon-map-victoria"> <span>Victoria</span> </a>
-					<a href="${exploreBy.western}" class="icon-map icon-map-white icon-map-western"> <span>Western Australia</span> </a>
+					<a href="${exploreBy.capital}.html" class="icon-map icon-map-white icon-map-capital"> <span>Australian Captital Territory</span> </a>
+					<a href="${exploreBy.nsw}.html" class="icon-map icon-map-white icon-map-nsw"> <span>New South Wales</span> </a>
+					<a href="${exploreBy.northern}.html" class="icon-map icon-map-white icon-map-northern"> <span>Northern Territory</span> </a>
+					<a href="${exploreBy.queensland}.html" class="icon-map icon-map-white icon-map-queensland"> <span>Queensland</span> </a>
+					<a href="${exploreBy.south}.html" class="icon-map icon-map-white icon-map-south"> <span>South Australia</span> </a>
+					<a href="${exploreBy.tasmania}.html" class="icon-map icon-map-white icon-map-tasmania"> <span>Tasmania</span> </a>
+					<a href="${exploreBy.victoria}.html" class="icon-map icon-map-white icon-map-victoria"> <span>Victoria</span> </a>
+					<a href="${exploreBy.western}.html" class="icon-map icon-map-white icon-map-western"> <span>Western Australia</span> </a>
 				</p>
 			</div>
 			<!-- END: selection -->

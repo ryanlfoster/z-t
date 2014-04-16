@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@include file="/apps/foodandwine/components/global.jsp"%>
 <%@ page import="com.australia.foodandwine.components.content.taste.Taste"%>
 
@@ -16,9 +17,11 @@
 		<div class="row l-row-collapse">
 			<div class="col-xs-12 col-md-6">
 				<div class="mosaic-item mosaic-item-location">
-					<img class="mosaic-item-image" src="${taste.imagePath}" alt="${taste.imageAltTag}"
-						width="100%"> <img class="mosaic-item-location-icon"
-						src="/etc/designs/foodandwine/clientlibs/imgs/map-icons/map-marker-white.png" alt="">
+					<img class="mosaic-item-image" src="${taste.imagePath}" alt="${taste.imageAltTag}" width="100%"> 
+					<c:if test="${not empty taste.imageTitle && not empty taste.imageSubscript}">
+						<img class="mosaic-item-location-icon" 
+							src="/etc/designs/foodandwine/clientlibs/imgs/map-icons/map-marker-white.png" alt="">
+					</c:if>	
 					<div class="mosaic-item-description">
 						<p class="mosaic-item-description-head type-font-feature">${taste.imageTitle}</p>
 						<p class="mosaic-item-description-sub">${taste.imageSubscript}</p>
@@ -28,7 +31,7 @@
 			<div class="col-xs-12 col-md-6">
 				<div class="row">
 					<div class="col-xs-12 col-sm-6">
-						<a href="#" title="" class="mosaic-item"> <img
+						<a href="${taste.upperLeftExperience.link}" title="" class="mosaic-item"> <img
 							class="mosaic-item-image"
 							src="${taste.upperLeftExperience.imagePath}"
 							alt="${taste.upperLeftExperience.title}" width="100%"> <span
@@ -40,7 +43,7 @@
 
 					</div>
 					<div class="col-xs-12 col-sm-6">
-						<a href="#" title="" class="mosaic-item"> <img
+						<a href="${taste.upperRightExperience.link}" title="" class="mosaic-item"> <img
 							class="mosaic-item-image"
 							src="${taste.upperRightExperience.imagePath}"
 							alt="${taste.upperRightExperience.title}" width="100%"> <span
@@ -52,7 +55,7 @@
 
 					</div>
 					<div class="col-xs-12 col-sm-6">
-						<a href="#" title="" class="mosaic-item"> <img
+						<a href="${taste.lowerLeftExperience.link}" title="" class="mosaic-item"> <img
 							class="mosaic-item-image"
 							src="${taste.lowerLeftExperience.imagePath}"
 							alt="${taste.lowerLeftExperience.title}" width="100%"> <span
@@ -64,7 +67,7 @@
 
 					</div>
 					<div class="col-xs-12 col-sm-6">
-						<a href="#" title="" class="mosaic-item"> <img
+						<a href="${taste.lowerRightExperience.link}" title="" class="mosaic-item"> <img
 							class="mosaic-item-image"
 							src="${taste.lowerRightExperience.imagePath}"
 							alt="${taste.lowerRightExperience.title}" width="100%"> <span

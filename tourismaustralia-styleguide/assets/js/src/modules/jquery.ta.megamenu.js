@@ -18,6 +18,7 @@
 
     // Create the defaults once
     var pluginName = 'megamenu', defaults = {
+        mm_mobile_breakpoint: 768,
         mm_main_header_element: '#nav-main-header',
         mm_main_navigation_bar: '#nav-bar-top',
         mm_clone_navigation_bar_id: 'nav-bar-top-clone',
@@ -25,8 +26,9 @@
         mm_mobile_open_main_nav: '.nav-toggle-open',
         mm_mobile_close_main_nav: '.nav-toggle-close',
         mm_all_toggle_panel_nav: '.nav-toggle-panel',
-        mm_map_panel_filters: '.megamenu-map-filters'
-
+        mm_map_panel_filters: '.megamenu-map-filters',
+        mm_toggle_search_panel: '#nav-main-panel-search',
+        mm_heart_this_widget: '#nav-heart-this-widget'
     };
 
     // The actual plugin constructor
@@ -65,6 +67,10 @@
         scope.mobileEvents(scope, event);
         scope.desktopEvents(scope, event);
 
+        scope.options.searchToggle = $(scope.options.mm_toggle_search_panel).find(scope.options.mm_all_toggle_panel_nav);
+        scope.options.heartToggle = $(scope.options.mm_heart_this_widget).find(scope.options.mm_all_toggle_panel_nav);
+        scope.initHeartThisWidget(scope, event);
+
         scope.checkFocus(scope, event);
 
         scope.initMapPanel(scope, event);
@@ -72,36 +78,59 @@
 
     // init Sticky Nav Bars
     Plugin.prototype.initStickyNavBars = function (scope) {
+        if ($(scope.element).find('.bar-fixed-top').length < 1) {
+            scope.options.offsetTop = $(window).scrollTop();
+            scope.options.heightAbove = $(scope.options.mm_main_navigation_bar).offset().top;
+            scope.options.navbarHeight = $(scope.options.mm_main_navigation_bar).css('height');
 
-        scope.options.offsetTop = $(window).scrollTop();
-        scope.options.heightAbove = $(scope.options.mm_main_navigation_bar).offset().top;
-        scope.options.navbarHeight = $(scope.options.mm_main_navigation_bar).css('height');
+            $(scope.options.mm_clone_navigation_bar).height(scope.options.navbarHeight);
 
-        $(scope.options.mm_clone_navigation_bar)
-            .height(scope.options.navbarHeight);
+            scope.stickyNavBars(scope);
+        }
 
+        scope.checkResponsive(scope);
 
-        scope.stickyNavBars(scope);
+    };
+
+    Plugin.prototype.checkResponsive = function (scope) {
+        // remove is-open if we scaled up from mobile because it breaks things
+        if ($(window).width() > scope.options.mm_mobile_breakpoint) {
+            $(scope.element).removeClass('is-open');
+            $('html, body').css({'overflow': ''});
+            // and if we were above the top of the navbar we need to reset fixed elements
+            if ($(window).scrollTop() <= scope.options.heightAbove) {
+                $('.bar-fixed-scroll').removeClass('bar-fixed-top');
+                $(scope.options.mm_clone_navigation_bar).hide();
+            }
+        }
     };
 
     // Sticky Nav Bars
     Plugin.prototype.stickyNavBars = function (scope) {
         $(window).on('scroll', function () {
-            //console.log('scrolling');
-
             scope.options.offsetTop = $(window).scrollTop();
-
             if (scope.options.offsetTop > scope.options.heightAbove) {
-                $('.bar-fixed-scroll').addClass('bar-fixed-top');
-                $(scope.options.mm_clone_navigation_bar).show();
+                scope.stickNav(scope);
             }
-
             if (scope.options.offsetTop <= scope.options.heightAbove) {
-                $('.bar-fixed-scroll').removeClass('bar-fixed-top');
-                $(scope.options.mm_clone_navigation_bar).hide();
+                scope.unstickNav(scope);
             }
-
         });
+        scope.options.ignores_croll_event = false;
+    };
+
+    // Stick the Nav Bar
+    Plugin.prototype.stickNav = function (scope) {
+        $('.bar-fixed-scroll').addClass('bar-fixed-top');
+        $(scope.options.mm_clone_navigation_bar).show();
+    };
+
+    // Un-stick the Nav Bar
+    Plugin.prototype.unstickNav = function (scope) {
+        if (!$(scope.element).hasClass('is-open')) {
+            $('.bar-fixed-scroll').removeClass('bar-fixed-top');
+            $(scope.options.mm_clone_navigation_bar).hide();
+        }
     };
 
     // Setup Notice Events
@@ -114,7 +143,6 @@
 
     // Setup Mobile Events
     Plugin.prototype.mobileEvents = function (scope, event) {
-        $(document).on(event, scope.closeAll(scope, event));
 
         $(scope.element).find(scope.options.mm_mobile_open_main_nav).on(event, function (e) {
             e.preventDefault();
@@ -129,7 +157,6 @@
 
     // Setup Desktop Events
     Plugin.prototype.desktopEvents = function (scope, event) {
-        $(document).on(event, scope.closeAll(scope, event));
         $(scope.element).find(scope.options.mm_all_toggle_panel_nav).on(event, function (e) {
             e.preventDefault();
             var $el = $(e.currentTarget);
@@ -137,8 +164,44 @@
         });
     };
 
+    // Use this wrapper for updates to the header heart this widget
+    Plugin.prototype.initHeartThisWidget = function (scope, event) {
+
+        // Put "Add to My Trip" hooks here?
+
+        $(window).resize(function () {
+            scope.checkHeartThisSize(scope);
+        });
+        scope.checkHeartThisSize(scope);
+
+        // TODO: find out what this link is meant to do...
+        $(scope.options.searchToggle).on(event, function (e) {
+            e.preventDefault();
+            scope.openMainNav(scope);
+        });
+
+        // TODO: find out what this widget is meant to do...
+        $(scope.options.heartToggle).on(event, function (e) {
+            e.preventDefault();
+            scope.openMainNav(scope);
+        });
+    };
+
+    // check the size of the heart this widget on mobile top bar
+    Plugin.prototype.checkHeartThisSize = function (scope) {
+        if ($(scope.element).not('.is-open')) {
+            if ($(window).width() <= scope.options.mm_mobile_breakpoint) {
+                $(scope.options.searchToggle).css({
+                    'right': $(scope.options.heartToggle).outerWidth()
+                });
+            }
+        } else {
+            $(scope.options.searchToggle).removeAttr('style');
+        }
+    };
+
     // Init Map Panel
-    Plugin.prototype.initMapPanel = function(scope, event) {
+    Plugin.prototype.initMapPanel = function (scope, event) {
         $(scope.element).find(scope.options.mm_map_panel_filters).on(event, function (e) {
             e.preventDefault();
             var $el = $(e.currentTarget);
@@ -147,22 +210,14 @@
         });
     };
 
-    // Check the target element on click or touch and close the nav if the target not inside
-    Plugin.prototype.closeAll = function (scope, event) {
-        var $el = $(event.currentTarget);
-        if ($el.not().closest(scope.options.mm_main_header_element)) {
-            $(scope.element).find('.has-children').removeClass('is-open');
-        }
-    };
-
     // Check for focus for keyboard navigation
     Plugin.prototype.checkFocus = function (scope) {
         $(document).on('keyup', function () {
             var $el = $(document.activeElement);
 
-            // TODO: consider closing on key up nomatter what in case we used a skip link...
+            // TODO: consider closing on key up no matter what in case we used a skip link...
 
-            if ($el.closest('.has-children').length < 1 ) {
+            if ($el.closest('.has-children').length < 1) {
                 $(scope.element).find('.has-children').removeClass('is-open');
             }
 
@@ -171,7 +226,7 @@
             }
 
             // TODO: try to get this working a little better
-            $el.on('blur', function(e) {
+            $el.on('blur', function (e) {
                 $(scope.element).find('.has-children').removeClass('is-open');
             });
 
@@ -189,6 +244,7 @@
 
     // Open Main Nav Mobile
     Plugin.prototype.openMainNav = function (scope) {
+        $(scope.options.searchToggle).removeAttr('style');
         // scrolls to the top of the nav bar + 1 pixel to push it over the heightAbove and trigger the fixed navigation
         if (scope.options.offsetTop <= scope.options.heightAbove) {
             $('html, body').animate({
@@ -199,11 +255,15 @@
         } else {
             $(scope.element).addClass('is-open');
         }
+        // force no scroll while the nav is open
+        $('html, body').css({'overflow': 'hidden'});
     };
 
     // Close Main Nav Mobile
     Plugin.prototype.closeMainNav = function (scope) {
         $(scope.element).removeClass('is-open');
+        $('html, body').css({'overflow': ''});
+        scope.checkHeartThisSize(scope);
     };
 
     // Toggle Nav Panel

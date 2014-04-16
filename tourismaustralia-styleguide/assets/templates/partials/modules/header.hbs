@@ -73,20 +73,8 @@ title: Header (Holiday)
                         </ul>
                     </li>
 
-                    <li id="nav-main-panel-map" class="toggle-map has-children">
-                        <a class="nav-toggle-panel" href="#nav-main-panel-map"><span class="icon icon-32 icon-map" aria-hidden="true"></span><span class="vis-hidden-sm"> Map</span></a>
-                        <ul class="nav-bar-panel">
-                            <li class="nav-bar-panel-container">
-                                <a class="sr-only vis-focusable" href="#nav-main-panel-1">Skip to "Things to do"</a>
-
-                                <div class="nav-bar-panel-content">
-
-                                    {{> header_megamenu_map}}
-
-                                    <a tabindex="-1" class="nav-bar-panel-close" href="#nav-bar-top"><span class="icon icon-16 icon-close" aria-hidden="true"></span></a>
-                                </div>
-                            </li>
-                        </ul>
+                    <li class="link-map">
+                        <a class="nav-toggle-none" href="/mega_map_thing"><span class="icon icon-32 icon-map" aria-hidden="true"></span><span class="vis-hidden-sm"> Map</span></a>
                     </li>
 
                     {{#parseJSON '{"data": "26"}'}}

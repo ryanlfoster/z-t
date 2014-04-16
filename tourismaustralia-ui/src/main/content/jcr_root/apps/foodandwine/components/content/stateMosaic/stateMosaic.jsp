@@ -4,6 +4,24 @@
 
 <c:set var="stateMosaic" value="<%=new StateMosaic(slingRequest) %>"/>
 <script src="http://cloud.github.com/downloads/wycats/handlebars.js/handlebars-1.0.0.beta.6.js" type="text/javascript" charset="utf-8"></script>
+<script>
+Handlebars.registerHelper("everyOther", function(array, fn) {
+			var buffer = "";
+			for (var i = 0, j = array.length; i < j; i++) {
+			var item = array[i];
+ 
+			// stick an index property onto the item, starting with 1, may make configurable later
+			item.index = i+1;
+
+			// show the inside of the block
+			buffer += fn(item);
+	}
+
+	// return the finished buffer
+	return buffer;
+ 
+});
+</script>
 <script type="text/javascript">
 $(document).ready(function(){
 	var stateTag=$(".icon-map-black-active " ).text();
@@ -33,17 +51,52 @@ $(document).ready(function(){
 
 			},
 			success : function(msg) {
-				var data;
+				//alert("success "+msg);
+                var data;
+                 var obj;
+                var str;
 				 data = JSON.stringify(msg);
-				data=data.replace("[","");
-				 data=data.replace("]","");
-               	 var obj=JSON.parse(data);
+                //alert(data);
+                data=data.replace("[","");
+                data=data.replace("]","");
+                //alert(data);
+                //data="{test:"+data+"}";
+                //alert(data);
+                //var obj=JSON.parse(data);
 
-               //var data={"title":"test","desc":"/testing/test"};
-					//alert("data "+data);
-					 var template = Handlebars.compile(source);
+                var array=data.split("},");
+                //alert(array);
+                /*var template = Handlebars.compile(source);
+					 alert("template "+template(data));*/
+                     $(".mosaic").empty();
+                for (var i=0; i < array.length; i++){
+                    if(!array[i].substr(array.length-1).match("}"))
+
+                         str=array[i]+"}";
+                    //alert(str);
+                    else
+                         str=array[i];
+                    obj=JSON.parse(str);
+                    var template = Handlebars.compile(source);
 					 //alert("template "+template(obj));
-					 $(".mosaic").append(template(obj));
+					$(".mosaic").append(template(obj));
+
+                }
+                //var obj=JSON.parse(data);
+                //var template = Handlebars.compile(source);
+					 //alert("template "+template(obj));
+                //$(".mosaic").append(template(obj));
+
+
+
+                /*var dataTest={test:[{"title":"test","desc":"/testing/test"},
+                                {"title":"testing2","desc":"desc test"}]};
+					//alert("data "+data);
+                //var obj=JSON.parse(dataTest);
+                var template = Handlebars.compile(source);
+					 alert("template "+template(dataTest));
+                     $(".mosaic").append(template(dataTest));*/
+
 			}, 
 			error : function(xhr) {
 				console.log('there is some error');
@@ -56,10 +109,17 @@ $(document).ready(function(){
 });
 
 </script>
+
+
 <script id ="sample" type="text/x-handlebars-template">
+
+
+
+
 <div class="row l-row-collapse">
+
         <div class="col-xs-12 col-md-6">
-<a href="#" title="" class="mosaic-item">
+            <a href="{{pagePath}}" title="" class="mosaic-item">
     <img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
     <span class="mosaic-item-description">
         <span class="mosaic-item-description-head type-font-feature">{{title}}</span>
@@ -85,12 +145,162 @@ $(document).ready(function(){
             </span>
         </span>
     </span>
-    End Overlay
+
 </a>
         </div>
 
+<div class="col-xs-12 col-md-6">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6">
+                    <a href="{{pagePath}}" title="" class="mosaic-item">
+    <img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
 
+    <span class="mosaic-item-description">
+        <span class="mosaic-item-description-head type-font-feature">{{tiitle}}</span>
+        <span class="mosaic-item-description-sub">New South Wales</span>
+        <span class="mosaic-item-description-copy">
+            {{description}}
+            <br><br>
+            <span class="mosaic-item-description-copy-link"><strong>Read more</strong></span>
+        </span>
+        <span class="mosaic-item-description-share mosaic-item-description-share-dark">
+            <img src="imgs/base/share/share-instagram-black.png" alt="">
+        </span>
+        <span class="mosaic-item-description-share mosaic-item-description-share-white">
+            <img src="imgs/base/share/share-instagram-white.png" alt=""/>
+        </span>
+    </span>
+
+
+    <span class="mosaic-item-overlay mosaic-item-overlay-share">
+         <span class="mosaic-item-overlay-share-container">
+             <span class="mosaic-item-overlay-share-copy">
+                Looking forward AS ALWAYS to seeing you all @eveleighmarket @carriageworks tomorrow! All you need is an empty basket to fill with...
+              <br><br>
+              <strong>kylie_kwong on Instagram</strong>
+            </span>
+        </span>
+    </span>
+
+</a>
+                </div>
+                 <div class="col-xs-12 col-sm-6">
+<a href="#" class="mosaic-item"  title="">
+    <img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
+
+    <span class="mosaic-item-description">
+        <span class="mosaic-item-description-head type-font-feature">
+            The burger shed
+        </span>
+        <span class="mosaic-item-description-sub">
+            New South Wales
+        </span>
+        <span class="mosaic-item-description-copy">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <br><br>
+            <span class="mosaic-item-description-copy-link"><strong>Read more</strong></span>
+            <strong class="mosaic-item-description-categories"><em>Restaurant, Places, People</em></strong>
+        </span>
+    </span>
+
+
+    <span class="mosaic-item-overlay mosaic-item-overlay-info">
+         <span class="mosaic-item-overlay-info-icon">
+             <span class="mosaic-item-overlay-info-head type-font-feature">The burger<br/>shed</span>
+              <span class="mosaic-item-overlay-info-icon-item">
+                 <img src="imgs/base/categories/category-icon-wine-white.png" alt="">
+             </span>
+             <span class="mosaic-item-overlay-info-desciption">
+			changed
+                 <br>
+                 <br>
+                  <span class="mosaic-item-description-copy-link"><strong>Find out more</strong></span>
+             </span>
+         </span>
+          <span class="mosaic-item-overlay-info-categories">
+                 <strong>Restaurants, People, Experience...</strong>
+          </span>
+    </span>
+
+</a>
+</div>
+    <div class="col-xs-12 col-sm-6">
+<a href="#" title="" class="mosaic-item">
+    <img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
+
+    <span class="mosaic-item-description">
+        <span class="mosaic-item-description-head type-font-feature">Melbourne & Wine</span>
+        <span class="mosaic-item-description-sub">New South Wales</span>
+        <span class="mosaic-item-description-copy">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <br><br>
+            <span class="mosaic-item-description-copy-link"><strong>Read more</strong></span>
+        </span>
+        <span class="mosaic-item-description-share mosaic-item-description-share-dark">
+            <img src="imgs/base/share/share-instagram-black.png" alt="">
+        </span>
+        <span class="mosaic-item-description-share mosaic-item-description-share-white">
+            <img src="imgs/base/share/share-instagram-white.png" alt=""/>
+        </span>
+    </span>
+       <span class="mosaic-item-overlay mosaic-item-overlay-share">
+         <span class="mosaic-item-overlay-share-container">
+             <span class="mosaic-item-overlay-share-copy">
+                Looking forward AS ALWAYS to seeing you all @eveleighmarket @carriageworks tomorrow! All you need is an empty basket to fill with...
+              <br><br>
+              <strong>kylie_kwong on Instagram</strong>
+            </span>
+        </span>
+    </span>
+
+</a>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+<a href="#" class="mosaic-item"  title="">
+    <img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
+
+    <span class="mosaic-item-description">
+        <span class="mosaic-item-description-head type-font-feature">
+            The burger shed
+        </span>
+        <span class="mosaic-item-description-sub">
+            New South Wales
+        </span>
+        <span class="mosaic-item-description-copy">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <br><br>
+            <span class="mosaic-item-description-copy-link"><strong>Read more</strong></span>
+            <strong class="mosaic-item-description-categories"><em>Restaurant, Places, People</em></strong>
+        </span>
+    </span>
+
+
+    <span class="mosaic-item-overlay mosaic-item-overlay-info">
+         <span class="mosaic-item-overlay-info-icon">
+             <span class="mosaic-item-overlay-info-head type-font-feature">The burger<br/>shed</span>
+              <span class="mosaic-item-overlay-info-icon-item">
+                 <img src="imgs/base/categories/category-icon-wine-white.png" alt="">
+             </span>
+             <span class="mosaic-item-overlay-info-desciption">
+				wolomolo chnaged
+                 <br>
+                 <br>
+                  <span class="mosaic-item-description-copy-link"><strong>Find out more</strong></span>
+             </span>
+         </span>
+          <span class="mosaic-item-overlay-info-categories">
+                 <strong>Restaurants, People, Experience...</strong>
+          </span>
+    </span>
+
+</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
 </script>
+
 <div class="l-display-none-md">
 			<p class="icon-map-wrapper">
 				<a href="#" class="icon-map icon-map-black icon-map-capital"> <span>Australian Captital Territory</span> </a>
@@ -567,7 +777,7 @@ $(document).ready(function(){
                 <div class="col-xs-12 col-sm-6 col-md-12 mosaic-ie-100">
 <a href="#" class="mosaic-item"  title="">
     <img class='mosaic-item-image' src="http://placehold.it/580x580" alt="" width="100%"/>
-    Parent view
+
     <span class="mosaic-item-description">
         <span class="mosaic-item-description-head type-font-feature">
             The burger shed
@@ -582,8 +792,8 @@ $(document).ready(function(){
             <strong class="mosaic-item-description-categories"><em>Restaurant, Places, People</em></strong>
         </span>
     </span>
-    End Parent view
-    Overlay view
+
+
     <span class="mosaic-item-overlay mosaic-item-overlay-info">
          <span class="mosaic-item-overlay-info-icon">
              <span class="mosaic-item-overlay-info-head type-font-feature">The burger<br/>shed</span>
@@ -607,7 +817,7 @@ $(document).ready(function(){
                 <div class="col-xs-12 col-sm-6 col-md-12 mosaic-ie-100">
 <a href="#" title="" class="mosaic-item">
     <img class='mosaic-item-image' src="http://placehold.it/580x580" alt="" width="100%"/>
-    Parent view
+
     <span class="mosaic-item-description">
         <span class="mosaic-item-description-head type-font-feature">Melbourne & Wine</span>
         <span class="mosaic-item-description-sub">New South Wales</span>

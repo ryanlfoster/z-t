@@ -12,6 +12,7 @@ import org.apache.felix.scr.annotations.Reference;
 import org.apache.sling.api.resource.ResourceResolverFactory;
 import org.apache.sling.jcr.api.SlingRepository;
 import org.apache.sling.settings.SlingSettingsService;
+import org.apache.tika.detect.Detector;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -35,6 +36,9 @@ public final class ObservationService {
 	@Reference
 	private SlingSettingsService slingSettings;
 
+	@Reference
+	private Detector detector;
+
 	private Session session;
 
 	/**
@@ -53,7 +57,7 @@ public final class ObservationService {
 	private void registerExperienceCreationListener(final ObservationManager observationManager)
 		throws RepositoryException {
 		if (slingSettings.getRunModes().contains(ServerUtils.AUTHOR)) {
-			observationManager.addEventListener(new ExperienceCreationListener(resourceResolverFactory),
+			observationManager.addEventListener(new ExperienceCreationListener(resourceResolverFactory, detector),
 				ExperienceCreationListener.EVENTS, PathUtils.FOOD_AND_WINE_USER_GENERATED, true, null,
 				new String[] { "cq:Page" }, false);
 		}

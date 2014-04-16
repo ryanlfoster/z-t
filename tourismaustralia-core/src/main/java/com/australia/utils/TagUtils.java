@@ -45,6 +45,15 @@ public class TagUtils {
 		return tags;
 	}
 
+	public static final Tag getFoodAndWinePrimaryCategory(TagManager tagManager, String[] tagStrings) {
+		for (String tagString : tagStrings) {
+			if (tagString.startsWith(FOOD_AND_WINE_CATEGORY)) {
+				return tagManager.resolve(tagString);
+			}
+		}
+		return null;
+	}
+
 	private static final String getNthTagLevel(String string, int level) {
 		String[] split = string.split("/");
 		StringBuilder sb = new StringBuilder();

@@ -1,4 +1,4 @@
-package com.australia.foodandwine.components.content.taste;
+package com.australia.foodandwine.experience.domain;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,6 +7,7 @@ import org.apache.commons.lang.StringUtils;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ValueMap;
 
+import com.australia.utils.LinkUtils;
 import com.australia.utils.TagUtils;
 import com.day.cq.commons.jcr.JcrConstants;
 import com.day.cq.tagging.Tag;
@@ -21,6 +22,8 @@ public class Experience {
 	private final String state;
 	private final String[] tags;
 	private final String icon;
+	private final String primaryCategory;
+	private final String link;
 
 	public Experience(Page page, TagManager tagManager) {
 		ValueMap properties = page.getProperties();
@@ -31,6 +34,7 @@ public class Experience {
 		} else {
 			imagePath = "";
 		}
+		link = LinkUtils.getHrefFromPath(page.getPath());
 		// icon
 		icon = properties.get("categoryLogoPath", String.class);
 		// title
@@ -43,11 +47,13 @@ public class Experience {
 		}
 		tags = tagTitles.toArray(new String[0]);
 		// state
-		Tag stateTag = TagUtils.getStateTag(tagManager, tags);
+		Tag stateTag = TagUtils.getStateTag(tagManager, cattags);
 		state = (stateTag != null ? stateTag.getTitle() : StringUtils.EMPTY);
 		// city
-		Tag cityTag = TagUtils.getCityTag(tagManager, tags);
+		Tag cityTag = TagUtils.getCityTag(tagManager, cattags);
 		city = (cityTag != null ? cityTag.getTitle() : StringUtils.EMPTY);
+		Tag primaryCategoryTag = TagUtils.getFoodAndWinePrimaryCategory(tagManager, cattags);
+		primaryCategory = (primaryCategoryTag != null ? primaryCategoryTag.getTitle() : StringUtils.EMPTY);
 	}
 
 	public String getImagePath() {
@@ -72,6 +78,14 @@ public class Experience {
 
 	public String getTitle() {
 		return title;
+	}
+
+	public String getPrimaryCategory() {
+		return primaryCategory;
+	}
+
+	public String getLink() {
+		return link;
 	}
 
 }

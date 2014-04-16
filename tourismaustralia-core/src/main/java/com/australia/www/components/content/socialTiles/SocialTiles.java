@@ -1,4 +1,4 @@
-package com.australia.www.components.content.socialTile;
+package com.australia.www.components.content.socialTiles;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,6 +10,7 @@ import org.apache.sling.api.resource.ValueMap;
 
 import com.citytechinc.cq.component.annotations.Component;
 import com.citytechinc.cq.component.annotations.DialogField;
+import com.citytechinc.cq.component.annotations.FieldProperty;
 import com.citytechinc.cq.component.annotations.Listener;
 import com.citytechinc.cq.component.annotations.Tab;
 import com.citytechinc.cq.component.annotations.widgets.DialogFieldSet;
@@ -21,7 +22,15 @@ import com.citytechinc.cq.component.annotations.widgets.DialogFieldSet;
 		@Tab(title = "Tile 10"), @Tab(title = "Tile 11") }, listeners = {
 		@Listener(name = "afteredit", value = "REFRESH_PAGE"),
 		@Listener(name = "afterinsert", value = "REFRESH_PAGE") })
-public class SocialTile {
+public class SocialTiles {
+
+	@DialogField(xtype = "static", additionalProperties = {
+			@FieldProperty(name = "text", value = "This component will display 3 or 11 "
+					+ "tiles depending on the amount filled out. Anything less than 11 "
+					+ "will default to 3."),
+			@FieldProperty(name = "bold", value = "true") })
+	@SuppressWarnings("unused")
+	private String tab1;
 
 	@DialogFieldSet(border = false, namePrefix = "tab2/")
 	@DialogField(tab = 2)
@@ -69,7 +78,7 @@ public class SocialTile {
 
 	public List<TileField> tilesList;
 
-	public SocialTile(SlingHttpServletRequest request) {
+	public SocialTiles(SlingHttpServletRequest request) {
 		Resource thisResource = request.getResource();
 		ValueMap properties = thisResource.adaptTo(ValueMap.class);
 
@@ -78,6 +87,7 @@ public class SocialTile {
 		tab2 = new TileField();
 		tab2.setIconPath(properties.get("tab2/iconPath", StringUtils.EMPTY));
 		tab2.setImagePath(properties.get("tab2/imagePath", StringUtils.EMPTY));
+		tab2.setTitle(properties.get("tab2/title", StringUtils.EMPTY));
 		tab2.setText(properties.get("tab2/text", StringUtils.EMPTY));
 		tab2.setLink(properties.get("tab2/link", StringUtils.EMPTY));
 		if (tab2.getIsValid())
@@ -86,6 +96,7 @@ public class SocialTile {
 		tab3 = new TileField();
 		tab3.setIconPath(properties.get("tab3/iconPath", StringUtils.EMPTY));
 		tab3.setImagePath(properties.get("tab3/imagePath", StringUtils.EMPTY));
+		tab3.setTitle(properties.get("tab3/title", StringUtils.EMPTY));
 		tab3.setText(properties.get("tab3/text", StringUtils.EMPTY));
 		tab3.setLink(properties.get("tab3/link", StringUtils.EMPTY));
 		if (tab3.getIsValid())
@@ -94,6 +105,7 @@ public class SocialTile {
 		tab4 = new TileField();
 		tab4.setIconPath(properties.get("tab4/iconPath", StringUtils.EMPTY));
 		tab4.setImagePath(properties.get("tab4/imagePath", StringUtils.EMPTY));
+		tab4.setTitle(properties.get("tab4/title", StringUtils.EMPTY));
 		tab4.setText(properties.get("tab4/text", StringUtils.EMPTY));
 		tab4.setLink(properties.get("tab4/link", StringUtils.EMPTY));
 		if (tab4.getIsValid())
@@ -102,6 +114,7 @@ public class SocialTile {
 		tab5 = new TileField();
 		tab5.setIconPath(properties.get("tab5/iconPath", StringUtils.EMPTY));
 		tab5.setImagePath(properties.get("tab5/imagePath", StringUtils.EMPTY));
+		tab5.setTitle(properties.get("tab5/title", StringUtils.EMPTY));
 		tab5.setText(properties.get("tab5/text", StringUtils.EMPTY));
 		tab5.setLink(properties.get("tab5/link", StringUtils.EMPTY));
 		if (tab5.getIsValid())
@@ -110,6 +123,7 @@ public class SocialTile {
 		tab6 = new TileField();
 		tab6.setIconPath(properties.get("tab6/iconPath", StringUtils.EMPTY));
 		tab6.setImagePath(properties.get("tab6/imagePath", StringUtils.EMPTY));
+		tab6.setTitle(properties.get("tab6/title", StringUtils.EMPTY));
 		tab6.setText(properties.get("tab6/text", StringUtils.EMPTY));
 		tab6.setLink(properties.get("tab6/link", StringUtils.EMPTY));
 		if (tab6.getIsValid())
@@ -118,6 +132,7 @@ public class SocialTile {
 		tab7 = new TileField();
 		tab7.setIconPath(properties.get("tab7/iconPath", StringUtils.EMPTY));
 		tab7.setImagePath(properties.get("tab7/imagePath", StringUtils.EMPTY));
+		tab7.setTitle(properties.get("tab7/title", StringUtils.EMPTY));
 		tab7.setText(properties.get("tab7/text", StringUtils.EMPTY));
 		tab7.setLink(properties.get("tab7/link", StringUtils.EMPTY));
 		if (tab7.getIsValid())
@@ -126,6 +141,7 @@ public class SocialTile {
 		tab8 = new TileField();
 		tab8.setIconPath(properties.get("tab8/iconPath", StringUtils.EMPTY));
 		tab8.setImagePath(properties.get("tab8/imagePath", StringUtils.EMPTY));
+		tab8.setTitle(properties.get("tab8/title", StringUtils.EMPTY));
 		tab8.setText(properties.get("tab8/text", StringUtils.EMPTY));
 		tab8.setLink(properties.get("tab8/link", StringUtils.EMPTY));
 		if (tab8.getIsValid())
@@ -134,6 +150,7 @@ public class SocialTile {
 		tab9 = new TileField();
 		tab9.setIconPath(properties.get("tab9/iconPath", StringUtils.EMPTY));
 		tab9.setImagePath(properties.get("tab9/imagePath", StringUtils.EMPTY));
+		tab9.setTitle(properties.get("tab9/title", StringUtils.EMPTY));
 		tab9.setText(properties.get("tab9/text", StringUtils.EMPTY));
 		tab9.setLink(properties.get("tab9/link", StringUtils.EMPTY));
 		if (tab9.getIsValid())
@@ -142,6 +159,7 @@ public class SocialTile {
 		tab10 = new TileField();
 		tab10.setIconPath(properties.get("tab10/iconPath", StringUtils.EMPTY));
 		tab10.setImagePath(properties.get("tab10/imagePath", StringUtils.EMPTY));
+		tab10.setTitle(properties.get("tab10/title", StringUtils.EMPTY));
 		tab10.setText(properties.get("tab10/text", StringUtils.EMPTY));
 		tab10.setLink(properties.get("tab10/link", StringUtils.EMPTY));
 		if (tab10.getIsValid())
@@ -150,6 +168,7 @@ public class SocialTile {
 		tab11 = new TileField();
 		tab11.setIconPath(properties.get("tab11/iconPath", StringUtils.EMPTY));
 		tab11.setImagePath(properties.get("tab11/imagePath", StringUtils.EMPTY));
+		tab11.setTitle(properties.get("tab11/title", StringUtils.EMPTY));
 		tab11.setText(properties.get("tab11/text", StringUtils.EMPTY));
 		tab11.setLink(properties.get("tab11/link", StringUtils.EMPTY));
 		if (tab11.getIsValid())
@@ -158,6 +177,7 @@ public class SocialTile {
 		tab12 = new TileField();
 		tab12.setIconPath(properties.get("tab12/iconPath", StringUtils.EMPTY));
 		tab12.setImagePath(properties.get("tab12/imagePath", StringUtils.EMPTY));
+		tab12.setTitle(properties.get("tab12/title", StringUtils.EMPTY));
 		tab12.setText(properties.get("tab12/text", StringUtils.EMPTY));
 		tab12.setLink(properties.get("tab12/link", StringUtils.EMPTY));
 		if (tab12.getIsValid())
@@ -167,8 +187,8 @@ public class SocialTile {
 	public List<TileField> getTilesList() {
 		return tilesList;
 	}
-	
-	//Boolean used to switch from 3 tile or 11 tile format
+
+	// Boolean used to switch from 3 tile or 11 tile format
 	public boolean getHasEleven() {
 		return (tilesList.size() == 11);
 	}

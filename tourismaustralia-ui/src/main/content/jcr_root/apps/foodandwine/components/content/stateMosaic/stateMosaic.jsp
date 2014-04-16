@@ -67,8 +67,8 @@ $(document).ready(function(){
                 var array=data.split("},");
                 //alert(array);
                 /*var template = Handlebars.compile(source);
-					 alert("template "+template(data));
-                     $(".mosaic").append(template(data));*/
+					 alert("template "+template(data));*/
+                     $(".mosaic").empty();
                 for (var i=0; i < array.length; i++){
                     if(!array[i].substr(array.length-1).match("}"))
 

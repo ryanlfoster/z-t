@@ -9,10 +9,12 @@
   position: relative;
 }
 
-.paragraph-search .mosaic {
-  @include breakpoint(md){
-    //padding: 0 15px;
-  }
+.paragraph-privacy-policy{
+  padding-bottom: pxtoem(100px);
+}
+.paragraph-privacy-policy .section-intro{
+  margin-top: pxtoem(78px);
+  margin-bottom: pxtoem(40px);
 }
 
 .paragraph-article {

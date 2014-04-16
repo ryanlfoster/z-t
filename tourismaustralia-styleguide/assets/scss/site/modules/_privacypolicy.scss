@@ -1,16 +1,9 @@
-.paragraph-privacy-policy{
-  padding-bottom: pxtoem(100px);
-}
-.paragraph-privacy-policy .section-intro{
-  margin-top: pxtoem(78px);
-  margin-bottom: pxtoem(40px);
-}
 
-.paragraph-privacy-policy .l-center-900 .col-xs-12{
+.privacy-policy{
   text-align: left;
 }
 
-.paragraph-privacy-policy ol{
+.privacy-policy ol{
   padding-left: pxtoem(15px);
   margin-left: 0;
   @include breakpoint(lg){

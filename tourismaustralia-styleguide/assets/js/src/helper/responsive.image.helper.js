@@ -52,8 +52,6 @@ $(window).bind('load', function() {
 	var touch = Modernizr.touch,
 		csstransforms3d = Modernizr.csstransforms3d;
 
-		console.log(csstransforms3d);
-
 	$('.img-holder').imageScroll({
 		holderClass: 'parallaxHolder',
 		extraHeight: 200,

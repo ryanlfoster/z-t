@@ -57,13 +57,13 @@
     char="init"
     evidence="init is too complicated"
     reason="Cyclomatic: 6,
-    Halstead: 16.056
-    | Effort: 33692
-    | Volume: 2098.4
-    | Vocabulary: 73" />
+    Halstead: 14.882
+    | Effort: 32460
+    | Volume: 2181.1
+    | Vocabulary: 79" />
   
   <issue
-    line="233"
+    line="234"
     char="_adjustImgHolderHeights"
     evidence="_adjustImgHolderHeights is too complicated"
     reason="Cyclomatic: 3,
@@ -73,90 +73,7 @@
     | Vocabulary: 57" />
   
   <issue
-    line="319"
-    char="_updatePositions"
-    evidence="_updatePositions is too complicated"
-    reason="Cyclomatic: 2,
-    Halstead: 22.194
-    | Effort: 19847
-    | Volume: 894.29
-    | Vocabulary: 47" />
-  
-</file>
-<file name="assets/js/src/modules/jquery.ta.imageScroll.min.js">
-  
-  <issue
-    line="1"
-    char="&lt;anonymous&gt;"
-    evidence="&lt;anonymous&gt; is too complicated"
-    reason="Cyclomatic: 4,
-    Halstead: 9.8824
-    | Effort: 12370
-    | Volume: 1251.7
-    | Vocabulary: 80" />
-  
-  <issue
-    line="1"
-    char="b"
-    evidence="b is too complicated"
-    reason="Cyclomatic: 3,
-    Halstead: 9.8182
-    | Effort: 1465.6
-    | Volume: 149.28
-    | Vocabulary: 23" />
-  
-  <issue
-    line="1"
-    char="w"
-    evidence="w is too complicated"
-    reason="Cyclomatic: 4,
-    Halstead: 12.000
-    | Effort: 2282.0
-    | Volume: 190.16
-    | Vocabulary: 20" />
-  
-  <issue
-    line="1"
-    char="E"
-    evidence="E is too complicated"
-    reason="Cyclomatic: 2,
-    Halstead: 9.9000
-    | Effort: 3847.5
-    | Volume: 388.64
-    | Vocabulary: 29" />
-  
-  <issue
-    line="1"
-    char="m"
-    evidence="m is too complicated"
-    reason="Cyclomatic: 7,
-    Halstead: 19.865
-    | Effort: 18911
-    | Volume: 951.97
-    | Vocabulary: 52" />
-  
-  <issue
-    line="1"
-    char="init"
-    evidence="init is too complicated"
-    reason="Cyclomatic: 6,
-    Halstead: 16.056
-    | Effort: 33692
-    | Volume: 2098.4
-    | Vocabulary: 73" />
-  
-  <issue
-    line="1"
-    char="_adjustImgHolderHeights"
-    evidence="_adjustImgHolderHeights is too complicated"
-    reason="Cyclomatic: 3,
-    Halstead: 24.500
-    | Effort: 38073
-    | Volume: 1554.0
-    | Vocabulary: 64" />
-  
-  <issue
-    line="1"
+    line="320"
     char="_updatePositions"
     evidence="_updatePositions is too complicated"
     reason="Cyclomatic: 2,
@@ -201,10 +118,10 @@
 <file name="assets/js/src/modules/jquery.ta.megamenu.js">
   
 </file>
-<file name="assets/js/src/modules/jquery.ta.searchinput.js">
+<file name="assets/js/src/modules/jquery.ta.flipcard.js">
   
 </file>
-<file name="assets/js/src/modules/jquery.ta.flipcard.js">
+<file name="assets/js/src/modules/jquery.ta.searchinput.js">
   
 </file>
 <file name="assets/js/src/main.js">

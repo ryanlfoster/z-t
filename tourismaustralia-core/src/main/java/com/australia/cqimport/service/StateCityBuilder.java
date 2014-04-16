@@ -30,6 +30,7 @@ public class StateCityBuilder extends PageBuilder {
             throws WCMException {
         PageManager pageManager = resourceResolver.adaptTo(PageManager.class);
         Page page = pageManager.getPage(PageBuilder.CRX_ROOT_PATH + newPath);
+        Map<String, Object> params = new HashMap<String, Object>();
 
         Resource pageResource;
 
@@ -50,8 +51,12 @@ public class StateCityBuilder extends PageBuilder {
 
 
             try {
-                //Resource imageResource = resourceResolver.create(jcrContentResource, "image", params);
                 pageNode.setProperty(JcrConstants.JCR_DESCRIPTION, cbf.getStfDescription());
+
+                params.put("fileReference", PageBuilder.CRX_DAM_PATH + cbf.getImgSearchThumbnail());
+                resourceResolver.create(jcrContentResource, "image", params);
+                resourceResolver.commit();
+
             } catch (Exception e) {
                 LOG.error(e.getMessage(), e);
             }

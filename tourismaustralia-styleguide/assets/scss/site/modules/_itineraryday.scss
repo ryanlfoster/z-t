@@ -43,79 +43,80 @@
 		}
 	}
 
+	
+}
 
+.itinerary-day-textarea {		
+	@include breakpoint(md) {
+		& > p:last-child {
+			margin: 0;
+		}
+	}
+}
 
-	.itinerary-day-nav {
+.itinerary-day-nav {
+position: relative;
+width: 92%;
+border-top: 1px solid $categorylinks-hr-colour;
+list-style-type: none;
+margin: 0 auto;
+padding: 20px 0 0;
+text-align: center;
+font-size: pxtoem(12px);
+
+@include breakpoint(md) {
+	position: absolute;
+	top: 0;
+	left: 15px;
+	width: 15%;
+	height: 100%;
+	text-align: left;
+	padding: 0;
+	border-top: none;
+	border-right: 1px solid $categorylinks-hr-colour;
+	padding: 20px 15px 0;
+	font-size: pxtoem(16px);
+}
+
+	li {
+		display: inline-block;
+		margin: 0 5px;
 		position: relative;
-		width: 92%;
-		border-top: 1px solid $categorylinks-hr-colour;
-		list-style-type: none;
-		margin: 0 auto;
-		padding: 20px 0 0;
-		text-align: center;
-		font-size: pxtoem(12px);
 
 		@include breakpoint(md) {
-			position: absolute;
-			top: 0;
-			left: 15px;
-			width: 15%;
-			height: 100%;
-			text-align: left;
-			padding: 0;
-			border-top: none;
-			border-right: 1px solid $categorylinks-hr-colour;
-			padding: 20px 15px 0;
-			font-size: pxtoem(16px);
+			display: block;
+			margin: 0 0 10px;
 		}
 
-		li {
-			display: inline-block;
-			margin: 0 5px;
-			position: relative;
-
-			@include breakpoint(md) {
-				display: block;
-				margin: 0 0 10px;
-			}
-
-			& > a {				
-				line-height: 20px;
-			}
-		}
-
-		li.active a {
-			color: $type-heading-colour;
-			font-family: $font-family-base-b;
-			font-weight: bold;
-			text-decoration: none;
-
-			&:after {				
-				background: url(../imgs/icons/icon-down.gif) no-repeat left top;
-				content: "";
-				height: 10px;
-				position: absolute;
-				right: 50%;
-				top: -20px;
-				width: 20px;
-				margin-right: -10px;
-
-
-				@include breakpoint(md) {
-					top: 0;
-					right: -1px;
-					width: 10px;
-					height: 20px;
-					background-image: url(../imgs/icons/icon-right.gif);
-				}
-			}
+		& > a {				
+			line-height: 20px;
 		}
 	}
 
-	.itinerary-day-textarea {		
-		@include breakpoint(md) {
-			& > p:last-child {
-				margin: 0;
+
+	li.active a {
+		color: $type-heading-colour;
+		font-family: $font-family-base-b;
+		font-weight: bold;
+		text-decoration: none;
+
+		&:after {				
+			background: url(../imgs/icons/icon-down.gif) no-repeat left top;
+			content: "";
+			height: 10px;
+			position: absolute;
+			right: 50%;
+			top: -20px;
+			width: 20px;
+			margin-right: -10px;
+
+
+			@include breakpoint(md) {
+				top: 0;
+				right: -1px;
+				width: 10px;
+				height: 20px;
+				background-image: url(../imgs/icons/icon-right.gif);
 			}
 		}
 	}

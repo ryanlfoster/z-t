@@ -17,7 +17,7 @@ navScroller.init = function(){
 // populate nav with click events based on this distance
 navScroller._bindEvents = function(){
 
-	$('a[href*=#]:not([href=#])').click(function() {
+	$('a[href*=#]:not([href=#])', '.navScroller').click(function() {
 		if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
 			
 			var target = $(this.hash);
@@ -32,7 +32,7 @@ navScroller._bindEvents = function(){
 
 				$('.active', '.navScroller').removeClass('active');
 				if(this.hash.slice(1) != 'top'){
-					$('a[href=#' + this.hash.slice(1) +']').parent().addClass('active');
+					$('a[href=#' + this.hash.slice(1) +']', '.navScroller').parent().addClass('active');
 				}
 
 				return false;

@@ -39,7 +39,12 @@
 		</script>
 <% } %>
 
-<div>
+<div id="main-content">
+	<div class='form-hero'>
+		<div class="faw-hero-home-container">
+			<cq:include path="articleTitle" resourceType="foodandwine/components/content/articleTitle" />
+		</div>
+	</div>
 	<p>${twitter.userName}</p>
 	<p>${twitter.tweet}</p>
 	<p>${twitter.postLink}</p>

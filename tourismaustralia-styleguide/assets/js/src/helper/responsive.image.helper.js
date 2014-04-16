@@ -49,13 +49,12 @@ $(window).bind('load', function() {
 
 
 	// Used for new parallax
-
-
 	$('.img-holder').imageScroll({
 		holderClass: 'parallaxHolder',
 		extraHeight: 200,
 		coverRatio: 0.50,
-		container: $('#main-content')
+		container: $('#main-content'),
+		parallax: false
 	});
 	
 });

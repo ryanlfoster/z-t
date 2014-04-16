@@ -50,11 +50,7 @@ a.map-pin-btn {
 }
 
 .map-with-links-container {
-    @include breakpoint(lg) {
-        padding-top: pxtoem(90px);
-    }
   text-align: center;
-  padding-bottom: pxtoem($bottom-spacing);
 }
 
 .map-with-links-intro {

@@ -142,6 +142,9 @@
                 {
                     "text" : "Itinerary Day",
                     "item": [
+                        { "text": "largeparallax" },
+                        { "text": "largeparallax_images" },
+                        { "text": "largeparallax_text" },
                         { "text": "itinerary_subnav" }
                     ]
                 }
@@ -178,7 +181,7 @@
                         { "text": "largeimageoverlay" },
                         { "text": "largeimagesocial" },
                         { "text": "largetitle" },
-                        { "text": "largeparallax_text" },
+                        { "text": "parallaximage_fullwidth" },
                         { "text": "mapimagewithbuttons" },
                         { "text": "mapimagewithlegend" },
                         { "text": "mapimagewithlinks" },

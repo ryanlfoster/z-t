@@ -838,6 +838,39 @@
             
         
             
+                "largeparallax" : {
+                     "data" : {
+                        "title" : "largeparallax",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'largeparallax'}}"
+                }
+                
+                    ,
+                
+            
+                "largeparallax_images" : {
+                     "data" : {
+                        "title" : "largeparallax_images",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'largeparallax_images'}}"
+                }
+                
+                    ,
+                
+            
+                "largeparallax_text" : {
+                     "data" : {
+                        "title" : "largeparallax_text",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'largeparallax_text'}}"
+                }
+                
+                    ,
+                
+            
                 "itinerary_subnav" : {
                      "data" : {
                         "title" : "itinerary_subnav",
@@ -1130,12 +1163,12 @@
                     ,
                 
             
-                "largeparallax_text" : {
+                "parallaximage_fullwidth" : {
                      "data" : {
-                        "title" : "largeparallax_text",
+                        "title" : "parallaximage_fullwidth",
                         "layout" : "styleguide-preview.hbs"
                     },
-                    "content" : "{{section 'largeparallax_text'}}"
+                    "content" : "{{section 'parallaximage_fullwidth'}}"
                 }
                 
                     ,

@@ -7,6 +7,18 @@
   margin: 0 auto;
 }
 
+.atdw-search-pagination-wrapper:before{
+  content:"\003c";
+  margin-right: pxtoem(8px);
+  color:$search-text-color;
+}
+
+.atdw-search-pagination-wrapper:after{
+  content:" \003e";
+  margin-left: pxtoem(8px);
+  color:$search-text-color;
+}
+
 .atdw-search-pagination-wrapper > div{
   display: table-cell;
   padding: 0 pxtoem(14px);
@@ -17,9 +29,8 @@
   padding-right:pxtoem(4px);
   padding-left:0;
   white-space: nowrap;
-  font-family: $font-family-base-b;
   @include breakpoint(sm){
-    padding-right: initial;
+    padding-right:pxtoem(14px);
   }
 }
 
@@ -31,9 +42,8 @@
   padding-right:0;
   padding-left:pxtoem(4px);
   white-space: nowrap;
-  font-family: $font-family-base-b;
   @include breakpoint(sm){
-    padding-left: initial;
+    padding-left:pxtoem(14px);
   }
 }
 
@@ -57,14 +67,3 @@
   color:$search-text-color;
 }
 
-.atdw-search-pagination-pages-wrapper li.is-active a{
-  font-family: $font-family-base-b;
-}
-
-.atdw-search-pagination-wrapper a{
-  text-decoration: none;
-}
-
-.atdw-search-pagination-wrapper a:hover{
-  text-decoration: underline;
-}

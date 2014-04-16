@@ -1,0 +1,33 @@
+---
+title: Large Parallax - Main Image
+---
+
+<div class="largeparallax l-padding-b">
+
+    <div class="img-holder">
+    </div>
+
+    <div class="img-src" data-picture="" data-alt="" >
+        <div data-src="imgs/placeholders/{{#if parallax_image}}{{{parallax_image}}}{{else}}image_with_date{{/if}}.jpg" data-media="(min-width: 1px)"></div>
+        <div data-src="imgs/placeholders/{{#if parallax_image}}{{{parallax_image}}}{{else}}image_with_date{{/if}}.jpg" data-media="(min-width: 481px)"></div>
+        <div data-src="imgs/placeholders/{{#if parallax_image}}{{{parallax_image}}}{{else}}image_with_date{{/if}}.jpg" data-media="(min-width: 769px)"></div>
+        <div data-src="imgs/placeholders/{{#if parallax_image}}{{{parallax_image}}}{{else}}image_with_date{{/if}}.jpg" data-media="(min-width: 993px)"></div>
+
+        <noscript>
+            <img src='imgs/placeholders/{{#if parallax_image}}{{{parallax_image}}}{{else}}image_with_date{{/if}}.jpg' alt=''>
+        </noscript>
+
+        <img src='imgs/placeholders/{{#if parallax_image}}{{{parallax_image}}}{{else}}image_with_date{{/if}}.jpg' alt=''>
+    </div>
+
+    {{#if parallax_text}}
+    <div class="largeparallax-text">
+        <div class="largeparallax-text-container">
+            <div class="inside">
+
+                <h3>{{#if parallax_text}}{{{parallax_text}}}{{else}}Day One: 15kms{{/if}}</h3>
+            </div>
+        </div>
+    </div>
+    {{/if}}
+</div>

@@ -23,7 +23,7 @@ responsiveImageHelper.bindEvents = function(){
 
 	responsiveImageHelper.setContainerHeight();
 
-	// Initiate parallax
+	// Initiate parallax THIS IS OLD AND CRAP
 	$('.parallax').parallaxImages({
 	    parallaxSpeed : 1
 	});
@@ -49,12 +49,16 @@ $(window).bind('load', function() {
 
 
 	// Used for new parallax
+	var touch = Modernizr.touch,
+		csstransforms3d = Modernizr.csstransforms3d;
+
 	$('.img-holder').imageScroll({
 		holderClass: 'parallaxHolder',
 		extraHeight: 200,
 		coverRatio: 0.50,
 		container: $('#main-content'),
-		parallax: false
+		parallax: csstransforms3d,
+		touch: touch
 	});
 	
 });

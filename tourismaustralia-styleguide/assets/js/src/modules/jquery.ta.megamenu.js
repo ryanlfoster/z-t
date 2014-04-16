@@ -18,7 +18,7 @@
 
     // Create the defaults once
     var pluginName = 'megamenu', defaults = {
-        mm_mobile_breakpoint: 768,
+        mm_mobile_breakpoint: 750, // for some reason this is not 768
         mm_main_header_element: '#nav-main-header',
         mm_main_navigation_bar: '#nav-bar-top',
         mm_clone_navigation_bar_id: 'nav-bar-top-clone',
@@ -56,24 +56,24 @@
             .html('')
             .hide();
 
-        $(window).resize(function () {
-            scope.initStickyNavBars(scope);
-        });
-        scope.initStickyNavBars(scope);
-
         var event = ( (document.ontouchstart !== null) ? 'click' : 'touchstart' );
 
+        $(window).resize(function () {
+            scope.initStickyNavBars(scope);
+            scope.initMapPanel(scope, event);
+        });
+        scope.initStickyNavBars(scope);
+        scope.initMapPanel(scope, event);
         scope.noticeEvents(scope, event);
         scope.mobileEvents(scope, event);
         scope.desktopEvents(scope, event);
 
-        scope.options.searchToggle = $(scope.options.mm_toggle_search_panel).find(scope.options.mm_all_toggle_panel_nav);
-        scope.options.heartToggle = $(scope.options.mm_heart_this_widget).find(scope.options.mm_all_toggle_panel_nav);
+        scope.options.searchToggle = $(scope.options.mm_toggle_search_panel);
+        scope.options.heartToggle = $(scope.options.mm_heart_this_widget).find('a');
         scope.initHeartThisWidget(scope, event);
 
         scope.checkFocus(scope, event);
 
-        scope.initMapPanel(scope, event);
     };
 
     // init Sticky Nav Bars
@@ -145,6 +145,9 @@
     Plugin.prototype.mobileEvents = function (scope, event) {
 
         $(scope.element).find(scope.options.mm_mobile_open_main_nav).on(event, function (e) {
+
+            $(scope.element).find('.is-open').removeClass('is-open');
+
             e.preventDefault();
             scope.openMainNav(scope);
         });
@@ -174,40 +177,34 @@
         });
         scope.checkHeartThisSize(scope);
 
-        // TODO: find out what this link is meant to do...
-        $(scope.options.searchToggle).on(event, function (e) {
-            e.preventDefault();
-            scope.openMainNav(scope);
-        });
-
-        // TODO: find out what this widget is meant to do...
-        $(scope.options.heartToggle).on(event, function (e) {
-            e.preventDefault();
-            scope.openMainNav(scope);
-        });
     };
 
     // check the size of the heart this widget on mobile top bar
     Plugin.prototype.checkHeartThisSize = function (scope) {
-        if ($(scope.element).not('.is-open')) {
-            if ($(window).width() <= scope.options.mm_mobile_breakpoint) {
-                $(scope.options.searchToggle).css({
-                    'right': $(scope.options.heartToggle).outerWidth()
+        if ($(window).width() <= scope.options.mm_mobile_breakpoint) {
+            if (!$(scope.element).hasClass('is-open')) {
+                $(scope.options.searchToggle).find('.nav-toggle-panel').css({
+                    'margin-right': $(scope.options.heartToggle).outerWidth()
                 });
             }
         } else {
-            $(scope.options.searchToggle).removeAttr('style');
+            $(scope.options.searchToggle).find('.nav-toggle-panel').removeAttr('style');
         }
     };
 
     // Init Map Panel
     Plugin.prototype.initMapPanel = function (scope, event) {
-        $(scope.element).find(scope.options.mm_map_panel_filters).on(event, function (e) {
-            e.preventDefault();
-            var $el = $(e.currentTarget);
-            $el.closest('.megamenu-panel').find('.is-active').removeClass('is-active');
-            $el.addClass('is-active');
-        });
+
+        $(scope.element).find(scope.options.mm_map_panel_filters).off(event);
+
+        if ($(window).width() > scope.options.mm_mobile_breakpoint) {
+            $(scope.element).find(scope.options.mm_map_panel_filters).on(event, function (e) {
+                e.preventDefault();
+                var $el = $(e.currentTarget);
+                $el.closest('.megamenu-panel').find('.is-active').removeClass('is-active');
+                $el.addClass('is-active');
+            });
+        }
     };
 
     // Check for focus for keyboard navigation
@@ -244,7 +241,7 @@
 
     // Open Main Nav Mobile
     Plugin.prototype.openMainNav = function (scope) {
-        $(scope.options.searchToggle).removeAttr('style');
+        $(scope.options.searchToggle).find('.nav-toggle-panel').removeAttr('style');
         // scrolls to the top of the nav bar + 1 pixel to push it over the heightAbove and trigger the fixed navigation
         if (scope.options.offsetTop <= scope.options.heightAbove) {
             $('html, body').animate({

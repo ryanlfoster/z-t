@@ -30,8 +30,8 @@ layout: layout-base.hbs
     {{> mapimagewithlegend }}
 
     {{#parseJSON '{
-        "itinerary_image" : "hero-bluemontains-1",
-        "itinerary_text" : "Day One: 15kms",
+        "parallax_image" : "hero-bluemontains-1",
+        "parallax_text" : "Day One: 15kms",
         "itinerary_nav" : "day-one"
     }'}}
         {{> itineraryday }}
@@ -50,18 +50,25 @@ layout: layout-base.hbs
     {{/parseJSON}}
 
     {{#parseJSON '{
-        "itinerary_image" : "hero-bluemontains-2",
-        "itinerary_text" : "Day Two: 19kms",
+        "parallax_image" : "hero-bluemontains-2",
+        "parallax_text" : "Day Two: 19kms",
         "itinerary_nav" : "day-two"
     }'}}
         {{> itineraryday_secondary }}
     {{/parseJSON}}
 
-    {{> image_with_date }}
+    {{#parseJSON '{
+        "parallax_image": "hero-bluemontains-3",
+        "social_mention_bold_text" : "Six Foot Track Panorama, ",
+        "social_mention_regular_text" : "Ella Lucas. Blue Mountains, NSW. June 28"
+    }'}}
+        {{> parallaximage_fullwidth }}
+    {{/parseJSON}}
+
 
     {{#parseJSON '{
-        "itinerary_image" : "hero-bluemontains-3",
-        "itinerary_text" : "Day Three: 10kms",
+        "parallax_image" : "hero-bluemontains-4",
+        "parallax_text" : "Day Three: 10kms",
         "itinerary_nav" : "day-three"
     }'}}
         {{> itineraryday }}

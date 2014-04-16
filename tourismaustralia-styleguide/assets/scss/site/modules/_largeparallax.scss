@@ -14,22 +14,15 @@
 }
 
 /* Main module definition */
-.large-parallax {
-    padding-bottom: pxtoem($bottom-spacing);
+.largeparallax {
     position: relative;
 }
 
 /* Different states for module */
-.large-parallax--withimages { 
-
-	.largeparallax-text {
-		height: 85%;
-	}
-
-}
-.large-parallax--withtext { }
-.large-parallax--withlabel { }
-.large-parallax--withsocial { }
+.largeparallax--withimages { }
+.largeparallax--withtext { }
+.largeparallax--withlabel { }
+.largeparallax--withsocial { }
 
 /* Styling for text overlay on main image */
 .largeparallax-text {
@@ -74,12 +67,20 @@
 }
 
 /* Styling for small images below main image */
-.large-parallax-images {
+.largeparallax-images {
+	margin-top: pxtoem(-70px);
 	position: relative;
-	top: pxtoem(-50px);
 	z-index: 2;
 
 	@include clearfix();
+
+	@include breakpoint(sm) {
+		margin-top: pxtoem(-100px);
+	}
+
+	@include breakpoint(lg) {
+		margin-top: pxtoem(-180px);
+	}
 
 	img {
 		width: 100%;
@@ -108,4 +109,8 @@
 		width: 32%;
 	}
 
+}
+
+.img-src {
+	display: none;
 }

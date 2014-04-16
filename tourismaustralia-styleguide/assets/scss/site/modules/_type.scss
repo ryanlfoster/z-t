@@ -269,3 +269,22 @@
 .type-destination { 
   font-size: pxtoem(18px);
 }
+
+
+//**********************
+// Style like Paragraph links
+//**********************
+.type-links-bottom-border a {
+  text-decoration: none;
+  border-bottom: 1px solid #d4dcde;
+}
+
+.type-links-bottom-border a:hover {
+  text-decoration: none;
+  border-bottom: 2px solid #00535e;
+}
+
+.type-links-bottom-border a.is-active{
+  text-decoration: none;
+  border-bottom: 2px solid #00535e;
+}

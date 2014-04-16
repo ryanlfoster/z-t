@@ -88,6 +88,16 @@ a:hover {
   // letter-spacing: pxtoletterspacingem(-24.5);
 }
 
+p a {
+  text-decoration: none;
+  border-bottom: 1px solid #d4dcde;
+}
+
+p a:hover {
+  text-decoration: none;
+  border-bottom: 2px solid #00535e;
+}
+
 hr.full {
   margin: 0 -15px;
 }

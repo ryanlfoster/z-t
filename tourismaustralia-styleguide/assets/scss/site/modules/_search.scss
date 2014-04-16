@@ -162,6 +162,15 @@
   }
 }
 
+.search-results-counter-grid-more .btn-bubble-tooltip {
+
+  @include breakpoint(md){
+    visibility: hidden;
+  }
+  @include breakpoint(mx){
+    visibility: visible;
+  }
+}
 // Adjust mosaic and atdw outside spacing
 .search-atdw-mosaic {
   margin: 0 pxtoem(-15px);

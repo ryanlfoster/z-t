@@ -2,168 +2,214 @@
 title: Mosaic Search List
 ---
 
+<!-- search item start -->
+<div class="row search-result-row-spacing">
 
-<div class="row l-row-collapse">
+    <!-- search item image/category start -->
+    <div class="search-result-category-container">
 
-    <!-- search item start -->
-    <div class="row search-result-row-spacing">
+        <a href="#" alt="" class="search-result-category-link">
 
-        <div class="search-result-category-container">
+            {{> mosaic_search_list_video_item }}
 
-            <!-- video item start -->
-            <a href="#" alt="" class="search-result-category-link">
-                <!-- video item start -->
+            <!-- category label start -->
+            <span class="mosaic-overlay">
+                <span class="vertical-container">
+                    <span class="vertical-content text-center">
 
-                    <span class="video-container">
-                        <span class="video-container-table">
-                            <span class="placeholder">
+                        <!-- item label start -->
+                        <span class="label-destination type-destination theme-beaches">Manly Beach</span>
+                        <!-- item label start -->
 
-                                <img src="imgs/placeholders/video_2colum.jpg" alt="" class="l-image-full">
-                            </span>
-                            <span class="l-table-container">
-                                <span class="l-table">
-                                    <span class="l-table-cell-centered">
-                                        <img class="video-play-icon" src="imgs/icons/video_play_large.png" alt="">
-                                    </span>
-                                </span>
-                            </span>
-                        </span>
-                    </span>
-
-                <!-- video item end -->
-
-                <span class="mosaic-overlay">
-                    <span class="vertical-container">
-                        <span class="vertical-content text-center">
-
-                            <!-- item label start -->
-                            <span class="label-destination type-destination theme-beaches">Manly Beach</span>
-                            <!-- item label start -->
-
-                        </span>
                     </span>
                 </span>
-            </a>
-            <!-- video item end -->
+            </span>
+            <!-- category label end -->
 
-        </div>
-        <div class="search-result-content-container">
+        </a>
 
-            <div class="search-results-container type-ieAntialias clearfix">
+    </div>
+    <!-- search item image/category end -->
 
-                <div class="search-results-category-icon">
+    <!-- search item content start -->
+    <div class="search-result-content-container">
 
-                    <!-- category icon start -->
-                    {{#parseJSON '{"src": "imgs/icons/art_culture.png"}'}}
-                        {{> icon_generic }}
-                    {{/parseJSON}}
-                    <!-- category icon end -->
+        <div class="search-results-container type-ieAntialias clearfix">
 
-                </div>
+            <!-- category icon start -->
+            <div class="search-results-category-icon">
 
-                <div class="search-results-copy-container">
-
-                    <!-- search title start -->
-                    {{> search_results_title }}
-                    <!-- search title end -->
-
-                    <!-- search copy start -->
-                    {{> search_results_copy }}
-                    <!-- search copy end -->
-
-                </div>
-
-                <div class="search-favourite">
-                    {{> favourite_button }}
-                </div>
-
+                {{#parseJSON '{"src": "imgs/icons/art_culture.png"}'}}
+                    {{> icon_generic }}
+                {{/parseJSON}}
 
             </div>
+            <!-- category icon end -->
+
+            <div class="search-results-copy-container">
+
+                <!-- search title start -->
+                {{> search_results_title }}
+                <!-- search title end -->
+
+                <!-- search copy start -->
+                {{> search_results_copy }}
+                <!-- search copy end -->
+
+            </div>
+
+            <!-- favourite icon start -->
+            <div class="search-favourite">
+                {{> favourite_button }}
+            </div>
+            <!-- favourite icon end -->
 
         </div>
 
     </div>
-    <!-- search item end -->
-
-
-    <!-- search item start -->
-    <div class="row">
-
-        <div class="search-result-category-container">
-
-            <!-- video item start -->
-            <a href="#" alt="" class="search-result-category-link">
-                <!-- video item start -->
-
-                        <span class="video-container">
-                            <span class="video-container-table">
-                                <span class="placeholder">
-
-                                    <img src="imgs/placeholders/video_2colum.jpg" alt="" class="l-image-full">
-                                </span>
-                                <span class="l-table-container">
-                                    <span class="l-table">
-                                        <span class="l-table-cell-centered">
-                                            <img class="video-play-icon" src="imgs/icons/video_play_large.png" alt="">
-                                        </span>
-                                    </span>
-                                </span>
-                            </span>
-                        </span>
-
-                <!-- video item end -->
-
-                <span class="mosaic-overlay">
-                    <span class="vertical-container">
-                        <span class="vertical-content text-center">
-
-                            <!-- item label start -->
-                            <span class="label-destination type-destination theme-beaches">Manly Beach</span>
-                            <!-- item label start -->
-
-                        </span>
-                    </span>
-                </span>
-            </a>
-            <!-- video item end -->
-
-        </div>
-        <div class="search-result-content-container">
-
-            <div class="search-results-container type-ieAntialias clearfix">
-
-                <div class="search-results-category-icon">
-
-                    <!-- category icon start -->
-                    {{#parseJSON '{"src": "imgs/icons/art_culture.png"}'}}
-                        {{> icon_generic }}
-                    {{/parseJSON}}
-                    <!-- category icon end -->
-
-                </div>
-
-                <div class="search-results-copy-container">
-
-                    <!-- search title start -->
-                    {{> search_results_title }}
-                    <!-- search title end -->
-
-                    <!-- search copy start -->
-                    {{> search_results_copy }}
-                    <!-- search copy end -->
-
-                </div>
-
-                <div class="search-favourite">
-                    {{> favourite_button }}
-                </div>
-
-
-            </div>
-
-        </div>
-
-    </div>
-    <!-- search item end -->
+    <!-- search item content end -->
 
 </div>
+<!-- search item end -->
+
+
+<!-- search item start -->
+<div class="row search-result-row-spacing">
+
+    <!-- search item image/category start -->
+    <div class="search-result-category-container">
+
+        <a href="#" alt="" class="search-result-category-link">
+
+            {{> mosaic_search_list_events_item }}
+
+            <!-- category label start -->
+            <span class="mosaic-overlay">
+                <span class="vertical-container">
+                    <span class="vertical-content text-center">
+
+                        <!-- item label start -->
+                        <span class="label-destination type-destination theme-beaches">Manly Beach</span>
+                        <!-- item label start -->
+
+                    </span>
+                </span>
+            </span>
+            <!-- category label end -->
+
+        </a>
+
+    </div>
+    <!-- search item image/category end -->
+
+    <!-- search item content start -->
+    <div class="search-result-content-container">
+
+        <div class="search-results-container type-ieAntialias clearfix">
+
+            <!-- category icon start -->
+            <div class="search-results-category-icon">
+
+                {{#parseJSON '{"src": "imgs/icons/art_culture.png"}'}}
+                    {{> icon_generic }}
+                {{/parseJSON}}
+
+            </div>
+            <!-- category icon end -->
+
+            <div class="search-results-copy-container">
+
+                <!-- search title start -->
+                {{> search_results_title }}
+                <!-- search title end -->
+
+                <!-- search copy start -->
+                {{> search_results_copy }}
+                <!-- search copy end -->
+
+            </div>
+
+            <!-- favourite icon start -->
+            <div class="search-favourite">
+                {{> favourite_button }}
+            </div>
+            <!-- favourite icon end -->
+
+        </div>
+
+    </div>
+    <!-- search item content end -->
+
+</div>
+<!-- search item end -->
+
+
+<!-- search item start -->
+<div class="row search-result-row-spacing">
+
+    <!-- search item image/category start -->
+    <div class="search-result-category-container">
+
+        <a href="#" alt="" class="search-result-category-link">
+
+            {{> mosaic_search_list_highlights_item }}
+
+            <!-- category label start -->
+            <span class="mosaic-overlay">
+                <span class="vertical-container">
+                    <span class="vertical-content text-center">
+
+                        <!-- item label start -->
+                        <span class="label-destination type-destination theme-beaches">Manly Beach</span>
+                        <!-- item label start -->
+
+                    </span>
+                </span>
+            </span>
+            <!-- category label end -->
+
+        </a>
+
+    </div>
+    <!-- search item image/category end -->
+
+    <!-- search item content start -->
+    <div class="search-result-content-container">
+
+        <div class="search-results-container type-ieAntialias clearfix">
+
+            <!-- category icon start -->
+            <div class="search-results-category-icon">
+
+                {{#parseJSON '{"src": "imgs/icons/art_culture.png"}'}}
+                    {{> icon_generic }}
+                {{/parseJSON}}
+
+            </div>
+            <!-- category icon end -->
+
+            <div class="search-results-copy-container">
+
+                <!-- search title start -->
+                {{> search_results_title }}
+                <!-- search title end -->
+
+                <!-- search copy start -->
+                {{> search_results_copy }}
+                <!-- search copy end -->
+
+            </div>
+
+            <!-- favourite icon start -->
+            <div class="search-favourite">
+                {{> favourite_button }}
+            </div>
+            <!-- favourite icon end -->
+
+        </div>
+
+    </div>
+    <!-- search item content end -->
+
+</div>
+<!-- search item end -->

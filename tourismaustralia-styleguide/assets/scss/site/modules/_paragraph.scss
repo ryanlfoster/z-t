@@ -9,6 +9,12 @@
   position: relative;
 }
 
+.paragraph-search .mosaic {
+  @include breakpoint(md){
+    //padding: 0 15px;
+  }
+}
+
 .paragraph-article {
 
   //CMS implementation

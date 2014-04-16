@@ -8,8 +8,9 @@ title: Search Results Counter Grid More
 
             {{> search_your_results_grid }}
 
-            {{> search_counter }}
-
+            {{#parseJSON '{"copy" : "Showing 13 of 20 results"}'}}
+                {{> search_counter }}
+            {{/parseJSON}}
             <div class="search-results-list">
                 {{> mosaic_search_list }}
             </div>

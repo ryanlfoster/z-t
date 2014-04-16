@@ -22,6 +22,8 @@ import org.apache.sling.api.SlingHttpServletResponse;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ValueMap;
 import org.apache.sling.api.servlets.SlingAllMethodsServlet;
+import org.apache.sling.commons.json.JSONException;
+import org.apache.sling.commons.json.JSONObject;
 
 import com.australia.utils.LinkUtils;
 import com.australia.utils.TagUtils;
@@ -42,6 +44,7 @@ public class StateMosaicServlet extends SlingAllMethodsServlet
 	private Node node;
 	private String path,queryString;
 	private List<StateMosaiacProperties> propertiesList;
+	JSONObject jsonObject;
 	private LinkedList<String> x;
 	private String[] categoryTags;
 	private static final JsonFactory FACTORY = new JsonFactory();
@@ -73,6 +76,7 @@ public class StateMosaicServlet extends SlingAllMethodsServlet
 		try {
 			QueryManager queryManager = session.getWorkspace().getQueryManager();
 			propertiesList=new LinkedList<StateMosaiacProperties>();
+			 jsonObject=new JSONObject();
 			for(String s:categoryTags){
 				 queryString="SELECT * FROM [nt:base] AS s WHERE ISDESCENDANTNODE([/content/food-and-wine]) and [cq:tags] like '%"+s.trim().toLowerCase()+"%' and [cq:tags] like '%"+stateTags.trim()+"%'";
 				 
@@ -101,7 +105,13 @@ public class StateMosaicServlet extends SlingAllMethodsServlet
 
 				}
 			}
+			
+			jsonObject.put("test", propertiesList);
+			
 		} catch (RepositoryException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (JSONException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}

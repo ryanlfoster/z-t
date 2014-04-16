@@ -11,6 +11,12 @@ import com.citytechinc.cq.component.annotations.FieldProperty;
 import com.citytechinc.cq.component.annotations.Listener;
 import com.citytechinc.cq.component.annotations.Tab;
 import com.citytechinc.cq.component.annotations.widgets.DialogFieldSet;
+import com.citytechinc.cq.component.annotations.widgets.RichTextEditor;
+import com.citytechinc.cq.component.annotations.widgets.rte.Format;
+import com.citytechinc.cq.component.annotations.widgets.rte.Justify;
+import com.citytechinc.cq.component.annotations.widgets.rte.Lists;
+import com.citytechinc.cq.component.annotations.widgets.rte.Style;
+import com.citytechinc.cq.component.annotations.widgets.rte.Styles;
 
 /**
  * This class sets the values obtained in the dialog , adds it to the list.
@@ -24,6 +30,7 @@ public class SocialLinks {
 	
 
 	@DialogField(fieldLabel="Title",additionalProperties = @FieldProperty(name = "maxLength", value = "30"))
+	@RichTextEditor(lists = @Lists(indent = false, ordered = false, outdent = false, unordered = false), justify = @Justify(justifycenter = false, justifyleft = false, justifyright = false), styles = @Styles(styles = @Style(cssName = "form-thank-you-small-print", text = "Small print")), format = @Format(bold = true, underline = true, italic = false))
 	private String title;
 	
 
@@ -54,12 +61,15 @@ public class SocialLinks {
 	 */
 	public SocialLinks(SlingHttpServletRequest request) {
 		Resource resource = request.getResource();
+		ValueMap properties=request.getResource().adaptTo(ValueMap.class);
+		title=properties.get(TITLE,StringUtils.EMPTY);
 		socialLink1 = buildSocialLinksProperties(resource.getChild("socialLink1"));
 		socialLink2 = buildSocialLinksProperties(resource.getChild("socialLink2"));
 		socialLink3 = buildSocialLinksProperties(resource.getChild("socialLink3"));
 	}
 
 	private SocialLinksProperties buildSocialLinksProperties(Resource resource) {
+		
 		if (resource != null) {
 			ValueMap linkProps = resource.adaptTo(ValueMap.class);
 			String socialLinksLogoPath = linkProps.get(SOCIAL_LINKS_LOGO, StringUtils.EMPTY);

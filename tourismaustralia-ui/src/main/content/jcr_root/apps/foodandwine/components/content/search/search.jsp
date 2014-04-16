@@ -8,9 +8,7 @@
 
 
 <div class="faw-hero-home-container" data-searchurl="${search.searchPath}">
-        <c:if test="${not empty search.searchParameter}">
-        <h3 class="form-h3 l-padding-top-xs-2 l-padding-bottom-xs-0-5">${search.totalSearchResultsCount} Search results for: <strong>${search.searchParameter}</strong></h3>
-        </c:if>
+        <h3 class="form-h3 l-padding-top-xs-2 l-padding-bottom-xs-0-5">${search.totalSearchResultsCount} Search results for: <strong></strong></h3>
         <input class="input-field-blank input-field-big input-field-normal-left-border" placeholder="E.g. Cafe Sydney">
         <a href="#" class="btn-secondary btn-auto-size">Search</a>
     </div>

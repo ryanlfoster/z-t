@@ -1,37 +1,62 @@
 package com.australia.foodandwine.components.content.stateLinks;
 
-import org.apache.commons.lang.StringUtils;
 import org.apache.sling.api.SlingHttpServletRequest;
 
+import com.australia.utils.PathUtils;
 import com.citytechinc.cq.component.annotations.Component;
-import com.citytechinc.cq.component.annotations.Listener;
-import com.day.cq.wcm.api.Page;
-import com.day.cq.wcm.api.PageManager;
 
-@Component(value = "State Links", group = "Food and Wine", basePath = "jcr_root/apps/foodandwine/components", disableTargeting = true, listeners = {
-	@Listener(name = "aftercopy", value = "REFRESH_PAGE"), @Listener(name = "afterdelete", value = "REFRESH_PAGE"),
-	@Listener(name = "afteredit", value = "REFRESH_PAGE"), @Listener(name = "afterinsert", value = "REFRESH_PAGE") })
+@Component(value = "State Links", group = "Food and Wine", basePath = "jcr_root/apps/foodandwine/components", disableTargeting = true)
 public class StateLinks {
-
-	private final String[] OZ_STATES = { "victoria", "queensland", "nsw", "capital", "northern", "south", "tasmania",
-		"western" };
-
-	private String state;
+	private final String capital;
+	private final String nsw;
+	private final String northern;
+	private final String queensland;
+	private final String south;
+	private final String tasmania;
+	private final String victoria;
+	private final String western;
 
 	public StateLinks(SlingHttpServletRequest request) {
-		Page currentPage = request.getResourceResolver().adaptTo(PageManager.class)
-			.getContainingPage(request.getResource());
-
-		for (String state : OZ_STATES) {
-			if (StringUtils.contains(currentPage.getName(), state)) {
-				this.state = state;
-				break;
-			}
-		}
+		capital = PathUtils.FOOD_AND_WINE_EXPLORE_AUSTRALIAN_CAPITAL_TERRITORY;
+		nsw = PathUtils.FOOD_AND_WINE_EXPLORE_NEW_SOUTH_WALES;
+		northern = PathUtils.FOOD_AND_WINE_EXPLORE_NORTHERN_TERRITORY;
+		queensland = PathUtils.FOOD_AND_WINE_EXPLORE_QUEENSLAND;
+		south = PathUtils.FOOD_AND_WINE_EXPLORE_SOUTH_AUSTRALIA;
+		tasmania = PathUtils.FOOD_AND_WINE_EXPLORE_TASMANIA;
+		victoria = PathUtils.FOOD_AND_WINE_EXPLORE_VICTORIA;
+		western = PathUtils.FOOD_AND_WINE_EXPLORE_WESTERN_AUSTRALIA;
 	}
 
-	public String getState() {
-		return state;
+	public String getCapital() {
+		return capital;
+	}
+
+	public String getNsw() {
+		return nsw;
+	}
+
+	public String getNorthern() {
+		return northern;
+	}
+
+	public String getQueensland() {
+		return queensland;
+	}
+
+	public String getSouth() {
+		return south;
+	}
+
+	public String getTasmania() {
+		return tasmania;
+	}
+
+	public String getVictoria() {
+		return victoria;
+	}
+
+	public String getWestern() {
+		return western;
 	}
 
 }

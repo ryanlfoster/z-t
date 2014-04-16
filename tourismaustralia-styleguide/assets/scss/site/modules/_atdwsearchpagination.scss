@@ -10,14 +10,12 @@
 .atdw-search-pagination-wrapper:before{
   content:"\003c";
   margin-right: pxtoem(8px);
-  font-family: $font-family-base-b;
   color:$search-text-color;
 }
 
 .atdw-search-pagination-wrapper:after{
   content:" \003e";
   margin-left: pxtoem(8px);
-  font-family: $font-family-base-b;
   color:$search-text-color;
 }
 
@@ -31,7 +29,6 @@
   padding-right:pxtoem(4px);
   padding-left:0;
   white-space: nowrap;
-  font-family: $font-family-base-b;
   @include breakpoint(sm){
     padding-right:pxtoem(14px);
   }
@@ -45,7 +42,6 @@
   padding-right:0;
   padding-left:pxtoem(4px);
   white-space: nowrap;
-  font-family: $font-family-base-b;
   @include breakpoint(sm){
     padding-left:pxtoem(14px);
   }

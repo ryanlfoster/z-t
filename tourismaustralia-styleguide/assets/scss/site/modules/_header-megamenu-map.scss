@@ -14,7 +14,9 @@
 
     // Mobile Only...
     @media (max-width: $screen-xs-max) {
-
+        .megamenu-map-markers {
+            display:none;
+        }
     }
 
     // Tablet...
@@ -51,19 +53,6 @@
             }
 
             .megamenu-map-marker {
-
-                // there still exists no clean way to handle multi column lists in responsive layouts
-                // therefore this is a simple list with no explicit flow rules, if order needs to be maintained
-                // we'll need to rethink this.
-                /*
-                        -moz-column-count: 3;
-                        -webkit-column-count: 3;
-                        columns: 3;
-
-                        -moz-column-width: 33%;
-                        -webkit-column-width: 33%;
-                        column-width: 33%;
-                */
 
                 width: 33%;
                 min-width: 200px;
@@ -145,6 +134,15 @@
 .js .megamenu-map .megamenu-map-filters.is-active,
 .no-js .megamenu-map .megamenu-map-filters:hover {
 
+    // Mobile Only...
+    @media (max-width: $screen-xs-max) {
+        .megamenu-map-filter {
+            color: $type-navigation;
+            &:hover {
+                color: $megamenu-link-hover-colour;
+            }
+        }
+    }
     // Tablet...
     @media (min-width: $screen-sm-min) {
 
@@ -192,164 +190,3 @@
         cursor: default;
     }
 }
-
-/* old stuff here
-// Desktop...
-@media (min-width: $screen-md-min) {
-
-    min-height: 280px;
-
-    .megamenu-map-filters {
-
-        .megamenu-map-filter {
-            width: 200px;
-            padding: 10px 20px;
-            display: block;
-            position: absolute;
-            font-size: pxtoem(18px);
-        }
-
-        &:nth-child(1) .megamenu-map-filter {
-            top: pxtoem(60px);
-        }
-
-        &:nth-child(2) .megamenu-map-filter {
-            top: pxtoem(90px);
-        }
-
-        &:nth-child(3) .megamenu-map-filter {
-            top: pxtoem(120px);
-        }
-
-        // These numbers will need to be adjusted if there are ever more than 3... may not be practical in a CMS.
-
-    }
-
-    .megamenu-map-markers {
-        left: -9999em;
-        position: absolute;
-    }
-
-    .megamenu-map-marker {
-
-        // there still exists no clean way to handle multi column lists in responsive layouts
-        // therefore this is a simple list with no explicit flow rules, if order needs to be maintained
-        // we'll need to rethink this.
-        /*
-                -moz-column-count: 3;
-                -webkit-column-count: 3;
-                columns: 3;
-
-                -moz-column-width: 33%;
-                -webkit-column-width: 33%;
-                column-width: 33%;
-        *
-
-        width: 33%;
-        min-width: 200px;
-        display: inline-block;
-        margin: -5px -0.03em 5px -0.03em;
-
-        a {
-            display: inline-block;
-            font-size: pxtoem(15px);
-            padding: 10px 0;
-        }
-
-        .map-segment {
-            display: none;
-            top: 0;
-            left: 40px;
-            width: 200px;
-            height: 200px;
-            position: absolute;
-            background: transparent url(../imgs/megamenu/australia-map-sprite.png) no-repeat 0 0;
-        }
-
-        a:hover .map-segment {
-            display: block;
-        }
-
-    }
-
-    .megamenu-map-markers .megamenu-map-marker:first-child {
-        margin-top: 0;
-    }
-
-    .map-marker-act .map-segment {
-        background-position: -200px 0;
-    }
-
-    .map-marker-nsw .map-segment {
-        background-position: -400px 0;
-    }
-
-    .map-marker-nt .map-segment {
-        background-position: -600px 0;
-    }
-
-    .map-marker-qld .map-segment {
-        background-position: -800px 0;
-    }
-
-    .map-marker-sa .map-segment {
-        background-position: -1000px 0;
-    }
-
-    .map-marker-tas .map-segment {
-        background-position: -1200px 0;
-    }
-
-    .map-marker-vic .map-segment {
-        background-position: -1400px 0;
-    }
-
-    .map-marker-wa .map-segment {
-        background-position: -1600px 0;
-    }
-}
-
-}
-
-// Map filters active states.
-.js .megamenu-map .megamenu-map-filters.is-active,
-.no-js .megamenu-map .megamenu-map-filters:hover {
-
-    .megamenu-map-filter {
-
-        color: $megamenu-link-hover-colour;
-
-        &:after {
-            content: "";
-            width: 0;
-            height: 0;
-            right: -10px;
-            top: 8px;
-            position: absolute;
-            display: block;
-            border-top: 10px solid transparent;
-            border-bottom: 10px solid transparent;
-            border-left: 10px solid #fff;
-        }
-    }
-
-    .megamenu-map-markers {
-        float: left;
-        padding-left: 280px;
-        margin: 20px 0 20px 200px;
-        max-width: 1000px;
-        min-height: 210px;
-        left: auto;
-        position: relative;
-        border-left: 1px solid #FFF;
-        background: transparent url(../imgs/megamenu/australia-map-base.png) no-repeat 40px 0;
-    }
-}
-
-.no-js .megamenu-map .megamenu-map-filters:hover {
-    .megamenu-map-filter {
-        cursor: default;
-    }
-}
-*/
-

@@ -27,7 +27,9 @@
   overflow: hidden;
   top: 0;
   left: 0;
-  z-index: 0;
+  z-index: -1;
+  /* Fix for ipad scrolling fixed issue */
+  -webkit-transform: translate3d(0,0,0);
   
   /* IE 10 fix */
   @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
@@ -105,11 +107,16 @@
   background: rgba(255,255,255,1);
   position: relative;
   margin-top: -30px;
-  padding: 15px 0 pxtoem($bottom-spacing);
+  padding-top: 15px;
   z-index: 1;
 }
 .home-summary-map-container {
   text-align: center;
+
+  @include breakpoint(md) {
+    height: 30px;
+  }
+
 }
 .home-hero-favourite-container {
     width:100%;

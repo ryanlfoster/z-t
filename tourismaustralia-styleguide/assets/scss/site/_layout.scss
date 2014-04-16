@@ -628,6 +628,10 @@ $footerBackgroundColour: #0a334c;
 
 .l-padding-b {
   padding-bottom: pxtoem($bottom-spacing);
+
+  @include breakpoint(md) {
+    padding-bottom: pxtoem($bottom-spacing-double);
+  }
 }
 
 .l-float-left {
@@ -650,7 +654,6 @@ $footerBackgroundColour: #0a334c;
 #main-content {
 	position: relative;
   overflow: hidden;
-  background: #fff;
 }
 
 #main-footer {

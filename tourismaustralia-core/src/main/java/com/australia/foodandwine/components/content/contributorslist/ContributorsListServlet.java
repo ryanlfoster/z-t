@@ -1,4 +1,4 @@
-package com.australia.foodandwine.components.content.contributorsList;
+package com.australia.foodandwine.components.content.contributorslist;
 
 import java.io.IOException;
 import java.util.ArrayList;

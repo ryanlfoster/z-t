@@ -1,166 +1,93 @@
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@include file="/apps/foodandwine/components/global.jsp"%>
+<%@ page import="com.australia.foodandwine.components.content.contributorslist.ContributorsList" %>
 
+<c:set var="cl" value="<%=new ContributorsList(slingRequest) %>"/>
 
-<script>
-	$(document).ready(function() {
-		var articleCount;
-		var searchParameter = "";
-		var offsetValue=0;
-		var limitValue=20;
-		$.ajax({
-			type : "POST",
-			url : "${resource.path}.contributors.json",
-			data : {
-				searchParameter : searchParameter,
-				offsetValue : offsetValue,
-				limitValue : limitValue
-				
-			},
-			success : function(msg) {
-				
-				$('#searchResults').empty();
-				var html="";
-				var pagination = "";
-				var pageCount;
-				$.each(msg,function(key,value){
-					 html +='<ul class="sorted-list-category"><div class="row l-row-collapse"><div class="col-xs-12"><h2>'+key+'</h2></div></div>';
-					for(var i=0;i<value.length;i++){
-						html +='<li class="sorted-list-item"><ul class="row l-row-collapse"><li class="col-xs-6 col-sm-4 col-md-3 col-lg-3"><p>'+value[i].businessName+'</p></li><li class="col-xs-6 col-sm-4 col-md-3 l-display-none-sm"><p>'+value[i].primaryCategory+'</p></li><li class="col-xs-0 col-sm-4 col-md-3 l-display-none-md"><p>'+value[i].state+'</p></li><li class="col-xs-0 col-sm-0 col-md-3 l-display-none-lg"><a href="http://'+value[i].businessWebsite +'" target="_blank">Visit website</a></li></ul></li>';
-						$('.form-h3').html("Search out "+value[i].artileCount+" contributers:");
-						pageCount= value[i].pageCount;
-					}
-					html+="</ul>";
-                   
-				});
-				if(pageCount > 1){
-					pagination +='<a href="#" class="btn-square icon-font-arrow-previous"></a> <a href="#" class="btn-square icon-font-arrow-left"></a>';
-				for(var j=0;j<=pageCount;j++){
-					pagination += ' <a href="#" onclick="contributersListCall('+j+')" class="btn-square">'+j+'</a>';
-				}
-				pagination +=' <a href="#" class="btn-square icon-font-arrow-right"></a> <a href="#" class="btn-square icon-font-arrow-next"></a>';
-				}else{
-					pagination += '<a href="#" class="btn-square icon-font-arrow-previous"></a> <a href="#" class="btn-square icon-font-arrow-left"></a> <a href="#" onclick="contributersListCall('+pageCount+')" class="btn-square">'+pageCount+'</a> <a href="#" class="btn-square icon-font-arrow-right"></a> <a href="#" class="btn-square icon-font-arrow-next"></a>';
-				}
-				 $('#searchResults').html(html);
-				 $('.sorted-list-pagination .sorted-list-pagination-buttons').html(pagination);
-			},
-			error : function(xhr) {
-			}
-		});
+<cq:includeClientLib js="faw-contributerslist"/>
 
-	});
-	
-	
-	function contributersListCall(pageId){
-		var offsetValue;
-		var limitValue;
-		if(pageId >1){
-			offsetValue = (pageId - 1) * 20;
-			limitValue = offsetValue + 20;
-        }else{
-			offsetValue = (pageId) * 20;
-			limitValue = offsetValue + 20;
-        }
-		
-		var search = $("#searchParameter").val();
-		$('#searchResults').empty();
-		$.ajax({
-			type : "POST",
-			url : "${resource.path}.contributors.json",
-			data : {
-				searchParameter : search,
-				offsetValue : offsetValue,
-				limitValue : limitValue
-			},
-			success : function(msg) {
-				var html="";
-				var pagination = "";
-				var pageCount;
-				$.each(msg,function(key,value){
-					 html +='<ul class="sorted-list-category"><div class="row l-row-collapse"><div class="col-xs-12"><h2>'+key+'</h2></div></div>';
-					for(var i=0;i<value.length;i++){
-						html +='<li class="sorted-list-item"><ul class="row l-row-collapse"><li class="col-xs-6 col-sm-4 col-md-3 col-lg-3"><p>'+value[i].businessName+'</p></li><li class="col-xs-6 col-sm-4 col-md-3 l-display-none-sm"><p>'+value[i].primaryCategory+'</p></li><li class="col-xs-0 col-sm-4 col-md-3 l-display-none-md"><p>'+value[i].state+'</p></li><li class="col-xs-0 col-sm-0 col-md-3 l-display-none-lg"><a href="http://'+value[i].businessWebsite +'" target="_blank">Visit website</a></li></ul></li>';
-						$('.form-h3').html("Search out "+value[i].artileCount+" contributers:");
-						pageCount= value[i].pageCount;
-					}
-					html+="</ul>";
-					
-				});
-				
-				if(pageCount >1){
-					pagination +='<a href="#" class="btn-square icon-font-arrow-previous"></a> <a href="#" class="btn-square icon-font-arrow-left"></a>';
-					for(var j=0;j<=pageCount;j++){
-						pagination += ' <a href="#" onclick="contributersListCall('+j+')" class="btn-square">'+j+'</a>';
-					}
-					pagination +=' <a href="#" class="btn-square icon-font-arrow-right"></a> <a href="#" class="btn-square icon-font-arrow-next"></a>';
-					}else{
-						pagination += '<a href="#" class="btn-square icon-font-arrow-previous"></a> <a href="#" class="btn-square icon-font-arrow-left"></a> <a href="#" onclick="contributersListCall('+pageCount+')" class="btn-square">'+pageCount+'</a> <a href="#" class="btn-square icon-font-arrow-right"></a> <a href="#" class="btn-square icon-font-arrow-next"></a>';
-					}
-                    $('#searchResults').html(html);
-                    $('.sorted-list-pagination .sorted-list-pagination-buttons').html(pagination);
-			},
-			error : function(xhr) {
-			}
-		});
-	}
-	
-	
-</script>
+<div class='form-hero contributors-list-search' data-searchurl="${cl.searchPath}">
+        <h3 class="form-h3 l-padding-top-xs-2 l-padding-bottom-xs-0-5">Search our ${cl.totalExperiencesCount} contributers:</h3>
+        <input class='input-field-blank input-field-big input-field-normal-left-border' placeholder="E.g. Cafe Sydney"/>
+        <a href="#" class="btn-secondary btn-auto-size">Search</a>
+    </div>
+</div>
 
-
-
-<h3 class="form-h3 l-padding-top-xs-2 l-padding-bottom-xs-0-5"></h3>
-<input class="input-field-blank input-field-big" id="searchParameter"
-	placeholder="E.g. Cafe Sydney" />
-<a href="#" onclick="contributersListCall(1)" class="btn-secondary btn-auto-size">Search</a>
-
-<div class="sorted-list container">
-	<!-- head selection for desktop -->
-	<div class="sorted-list-head l-display-none-md">
-		<ul class="row l-row-collapse">
-			<li class="col-xs-6 col-sm-4 col-md-3 col-lg-3"><a
-				class="sorted-list-sort-button sorted-list-sort-active type-font-feature"
-				href="" target="_self">Name</a></li>
-			<li class="col-xs-6 col-sm-4 col-md-3 l-display-none-sm"><a
-				class="sorted-list-sort-button sorted-list-sort-inactive type-font-feature"
-				href="" target="_self">Primary Category</a></li>
-			<li class="col-xs-0 col-sm-4 col-md-3 l-display-none-md"><a
-				class="sorted-list-sort-button sorted-list-sort-inactive type-font-feature"
-				href="" target="_self">Stage</a></li>
-			<li class="col-xs-0 col-sm-0 col-md-3 l-display-none-lg">
-				<p class="sorted-list-sort-button type-font-feature">Website</p>
-			</li>
+<c:choose>
+	<c:when test="${cl.searchResult.totalCount > 0}">
+	<div class="sorted-list container">
+		<!-- head selection for desktop -->
+		<div class="sorted-list-head l-display-none-md">
+			<ul class="row l-row-collapse">
+				<li class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+					<p class="sorted-list-sort-button type-font-feature">Name</p>
+				</li>
+				<li class="col-xs-6 col-sm-4 col-md-3 l-display-none-sm">
+					<p class="sorted-list-sort-button type-font-feature">Primary Category</p>
+				</li>
+				<li class="col-xs-0 col-sm-4 col-md-3 l-display-none-md">
+					<p class="sorted-list-sort-button type-font-feature">State</p>
+				</li>
+				<li class="col-xs-0 col-sm-0 col-md-3 l-display-none-lg">
+					<p class="sorted-list-sort-button type-font-feature">Website</p>
+				</li>
+			</ul>
+		</div>
+		<ul class="sorted-list-category">
+			<!-- item row -->
+			<c:forEach var="exp" items="${cl.searchResult.experiences}">
+				<li class="sorted-list-item">
+					<ul class="row l-row-collapse">
+						<li class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+							<p>
+								<a href="${exp.link}">${exp.title }</a>
+							</p>
+						</li>
+						<li class="col-xs-6 col-sm-4 col-md-3 l-display-none-sm">
+							<p>
+								${exp.primaryCategory}
+							</p>
+						</li>
+						<li class="col-xs-0 col-sm-4 col-md-3 l-display-none-md">
+							<p>
+								${exp.state}
+							</p>
+						</li>
+						<li class="col-xs-0 col-sm-0 col-md-3 l-display-none-lg">
+							<a href="" target="_blank">Visit website</a>
+						</li>
+					</ul>
+				</li>
+			</c:forEach>
 		</ul>
 	</div>
-	<!-- END: head selection -->
-	<!-- head selection for mobile -->
-	<div class="sorted-list-head-mobile l-display-md">
-		<select class="input-select input-select-small">
-			<option value="nsw"><p class="type-font-feature">Filter
-					by Name</p>
-			</option>
-			<option value="southernaustralia">Filter by Category</option>
-			<option value="victoria">Filter by State/Region</option>
-		</select>
+	<!-- pagination -->
+	<div class="sorted-list-pagination container">
+		<p class="sorted-list-results-label type-font-primary-i">
+			Viewing <strong><em>${((cl.searchResult.page-1) * cl.resultsPerPage) + 1 }</em></strong>-<strong><em>${cl.searchResult.page * cl.resultsPerPage > cl.searchResult.totalCount ? cl.searchResult.totalCount : cl.searchResult.page * cl.resultsPerPage}</em></strong> of ${cl.searchResult.totalCount} results
+		</p>
+		<c:if test="${cl.pages > 1}">
+			<div class="sorted-list-pagination-buttons">
+				<c:if test="${cl.searchResult.page != 1 }">
+					<a href="#" class="btn-square icon-font-arrow-previous"></a>
+					<a href="#" class="btn-square icon-font-arrow-left"></a>
+				</c:if>
+				<a href="#" class="btn-square">1</a>
+				<a href="#" class="btn-square is-active">2</a>
+				<a href="#" class="btn-square">3</a>
+				<c:if test="${cl.searchResult.page != cl.pages }">
+					<a href="#" class="btn-square icon-font-arrow-right"></a>
+					<a href="#" class="btn-square icon-font-arrow-next"></a>
+				</c:if>
+			</div>
+		</c:if>
 	</div>
-	<!-- END: head selection -->
-	<!-- category -->
-<div id="searchResults"></div>
-</div>
-<!-- pagination -->
-<div class="sorted-list-pagination container">
-	<p class="sorted-list-results-label type-font-primary-i">
-		Viewing <strong><em>1</em></strong>-<strong><em>25</em></strong> of
-		789 results
-	</p>
-	<div class="sorted-list-pagination-buttons">
-		<!-- <a href="#" class="btn-square icon-font-arrow-previous"></a> <a
-			href="#" class="btn-square icon-font-arrow-left"></a> <a href="#" onclick="contributersListCall(0,20)"
-			class="btn-square">1</a> <a href="#" onclick="contributersListCall(21,40)" class="btn-square is-active">2</a>
-		<a href="#" class="btn-square">3</a> <a href="#"
-			class="btn-square icon-font-arrow-right"></a> <a href="#"
-			class="btn-square icon-font-arrow-next"></a> -->
-	</div>
-</div>
+	</c:when>
+	<c:otherwise>
+		<div class="sorted-list container">
+			<p class="type-font-primary-i">
+				No Results Found
+			</p>
+		</div>
+	</c:otherwise>
+</c:choose>
 <!-- END: pagination -->

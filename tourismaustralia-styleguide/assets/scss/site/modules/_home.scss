@@ -113,7 +113,7 @@
 .home-summary-map-container {
   text-align: center;
 
-  @include breakpoint(md) {
+  @include breakpoint(lg) {
     height: 30px;
   }
 

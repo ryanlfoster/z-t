@@ -1,14 +1,10 @@
 ---
-title: Large Parallax Text
+title: Large Parallax - Main Image
 ---
 
-<div class="large-parallax large-parallax--withtext" data-section-name="{{#if itinerary_nav}}{{{itinerary_nav}}}{{else}}day-one{{/if}}">
+<div class="largeparallax l-padding-b">
 
-    <div class="img-holder" data-image="imgs/placeholders/{{#if largeparallax_image}}{{{largeparallax_image}}}{{else}}hero-bluemontains-2{{/if}}.jpg">        
-
-        
-
-
+    <div class="img-holder" data-image="imgs/placeholders/{{#if parallax_image}}{{{parallax_image}}}{{else}}image_with_date{{/if}}.jpg">
     </div>
 
 
@@ -25,11 +21,14 @@ title: Large Parallax Text
         <img src='imgs/placeholders/image_with_date.jpg' alt=''>
     </div> -->
 
+    {{#if parallax_text}}
     <div class="largeparallax-text">
         <div class="largeparallax-text-container">
             <div class="inside">
-                 <h3>{{#if largeparallax_text}}{{{largeparallax_text}}}{{else}}Day One: 15kms{{/if}}</h3>
+
+                <h3>{{#if parallax_text}}{{{parallax_text}}}{{else}}Day One: 15kms{{/if}}</h3>
             </div>
         </div>
     </div>
+    {{/if}}
 </div>

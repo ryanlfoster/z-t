@@ -6,8 +6,7 @@
 */
 
 .itinerary-day {
-	padding-bottom: pxtoem($bottom-spacing);
-
+	
 	.itinerary-day-content { 
 		& > .row {
 			position: relative;
@@ -16,6 +15,10 @@
 
 	.itinerary-day-map  {
 		text-align: center;
+
+		@include breakpoint(md) {
+			padding-top: pxtoem(30px);
+		}
 
 
 		& > img {

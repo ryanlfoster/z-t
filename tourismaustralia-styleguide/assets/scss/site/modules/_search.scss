@@ -5,10 +5,10 @@
 
 .search-result-count{
   text-align: center;
-  padding:27px 0;
+  padding: pxtoem(27px) 0;
 }
 .search-result-count-copy {
-  color:$search-text-color;
+  color: $search-text-color;
   font-size: pxtoem(16px);
 }
 
@@ -31,16 +31,8 @@
   }
 }
 
-.search-results-mosaic > .mosaic > .l-row-collapse {
-  margin: 0 -15px;
-}
-.search-atdw-mosaic > .mosaic > .l-row-collapse {
-  margin: 0 -15px;
-}
-
 .search-results-container {
-  background-color: #f3f2eb;
-  min-height: 166px;
+  min-height: pxtoem(166px);
 }
 .search-results-copy p {
   margin: .35em 0;
@@ -54,7 +46,7 @@
 .search-results-title {
   @include type_TAheadline();
   font-size: 1.75em;
-  color: #4a3c31;
+  color: $search-results-title-colour;
   margin: 0 auto;
   text-align: center;
   display: block;
@@ -64,7 +56,7 @@
   text-decoration: none;
 }
 .search-results-title:hover {
-  color: #4a3c31;
+  color: $search-results-title-colour;
   text-decoration: none;
 }
 .search-results-category-icon {
@@ -87,15 +79,15 @@
 }
 
 .search-results-list {
-  margin: 0 -15px;
+  margin: 0 pxtoem(-15px);
   @include breakpoint(sm){
     margin: 0;
   }
 }
 .search-results-list .video-play-icon {
   //width: 30%;
-  max-width: 164px;
-  max-height: 165px;
+  max-width: pxtoem(164px);
+  max-height: pxtoem(165px);
   margin-bottom: 1em;
 }
 .search-results-list .video-container {
@@ -120,11 +112,11 @@
 
 .search-result-category-container {
 
-  min-width: 294px;
+  min-width: pxtoem(294px);
 
   @include breakpoint(md){
     position: relative;
-    max-width: 294px;
+    max-width: pxtoem(294px);
     display: table-cell;
     vertical-align: top;
   }
@@ -145,12 +137,42 @@
   background: #000;
   // IE Required
   @include breakpoint(md){
-    width: 294px;
+    width: pxtoem(294px);
   }
 }
 .search-result-row-spacing {
+  background-color: $search-results-row-colour;
+
   margin-bottom: pxtoem($mosaic-row-bottom-margin);
   @include breakpoint(md){
-    margin-bottom: pxtoem($search-results-row-bottom-margin);
+    margin: 0 0 pxtoem($search-results-row-bottom-margin);
+  }
+}
+.search-result-category-container .type-date-mosaic {
+  font-size: .8em;
+  top: pxtoem(-10px);
+  position: relative;
+  @include breakpoint(sm){
+    font-size: 1em;
+    top: initial;
+  }
+  @include breakpoint(md){
+    font-size: .8em;
+    top: pxtoem(-10px);
+  }
+}
+
+// Adjust mosaic and atdw outside spacing
+.search-atdw-mosaic {
+  margin: 0 pxtoem(-15px);
+}
+.search-results-counter-grid-more .mosaic {
+  @include breakpoint(md){
+    padding: 0 pxtoem(15px);
+  }
+}
+.search-atdw-highlights .mosaic {
+  @include breakpoint(md){
+    padding: 0 pxtoem(15px);
   }
 }

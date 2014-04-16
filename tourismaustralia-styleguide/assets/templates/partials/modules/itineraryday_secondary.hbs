@@ -1,36 +1,9 @@
 ---
 title: Itinerary Day - Secondary
 ---
-<div class="itinerary-day navScroller-section" data-section-name="{{#if itinerary_nav}}{{{itinerary_nav}}}{{else}}day-one{{/if}}">
-    <div class="large-parallax large-parallax--withtext">
+<div class="l-padding-b itinerary-day navScroller-section" data-section-name="{{#if itinerary_nav}}{{{itinerary_nav}}}{{else}}day-one{{/if}}">
 
-        <div class="img-holder" data-image="imgs/placeholders/{{#if itinerary_image}}{{{itinerary_image}}}{{else}}image_with_date{{/if}}.jpg">
-        </div>
-
-
-        <!-- <div data-picture="" data-alt="" >
-            <div data-src="imgs/placeholders/image_with_date.jpg" data-media="(min-width: 1px)"></div>
-            <div data-src="imgs/placeholders/image_with_date.jpg" data-media="(min-width: 481px)"></div>
-            <div data-src="imgs/placeholders/image_with_date.jpg" data-media="(min-width: 769px)"></div>
-            <div data-src="imgs/placeholders/image_with_date.jpg" data-media="(min-width: 993px)"></div>
-
-            <noscript>
-                <img src='imgs/placeholders/image_with_date.jpg' alt=''>
-            </noscript>
-
-            <img src='imgs/placeholders/image_with_date.jpg' alt=''>
-        </div> -->
-
-        
-        <div class="largeparallax-text">
-            <div class="largeparallax-text-container">
-                <div class="inside">
-
-                    <h3>{{#if itinerary_text}}{{{itinerary_text}}}{{else}}Day One: 15kms{{/if}}</h3>
-                </div>
-            </div>
-        </div>
-    </div>
+    {{> largeparallax_text }}
 
 
     <div class="itinerary-day-content">

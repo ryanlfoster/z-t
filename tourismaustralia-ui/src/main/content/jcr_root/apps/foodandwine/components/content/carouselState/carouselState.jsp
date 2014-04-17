@@ -11,7 +11,7 @@
 		data-breakpoint-sm="800" data-breakpoint-md="1168"
 		data-carouseltheme="faw-places-theme">
 		<li class="item">
-			<div class="faw-carousel-bg-container" data-picture="" data-alt="">
+			<div class="faw-carousel-bg-container" data-picture="" data-alt="${carouse.imageAltTag}">
 				<div data-src="${carousel.imagePath}.adapt.480.low.jpg"
 					data-media="(min-width: 1px)"></div>
 				<div data-src="${carousel.imagePath}.adapt.768.medium.jpg"
@@ -71,8 +71,9 @@
 						<hr
 							class="icon-logo-withlines-hr icon-logo-withlines-hr-small experiences-head-divider-hr">
 						<div class="head-divider-title">
+							<!-- icon images for Canberra and Tasmania are mistakenly swapped around!  -->
 							<span
-								class="icon-map icon-map-small icon-map-black icon-map-capital"></span>
+								class="icon-map icon-map-small icon-map-black icon-map-tasmania"></span>
 						</div>
 						<hr
 							class="icon-logo-withlines-hr icon-logo-withlines-hr-small experiences-head-divider-hr">

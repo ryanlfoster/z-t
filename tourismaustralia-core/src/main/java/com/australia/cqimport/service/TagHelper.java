@@ -21,7 +21,7 @@ import java.util.*;
 public class TagHelper {
     private static final Logger LOG = LoggerFactory.getLogger(TagHelper.class);
     private final static String SQL = "select * from cq:Tag where jcr:path like '/etc/tags/ta/%'";
-    //Hashtable<String, String> ids;
+
     static ArrayList<String> ids;
     private static final Map<String, String> tagTileMap = ImmutableMap.<String, String> builder()
             .put("en", "jcr:title.en").put("it", "jcr:title.it").put("fr", "jcr:title.fr")

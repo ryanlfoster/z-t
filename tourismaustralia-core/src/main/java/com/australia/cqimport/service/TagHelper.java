@@ -46,7 +46,6 @@ public class TagHelper {
                 try{
                     tempStr = node.getProperty(tagTileMap.get(lang)).getString();
 
-                    //System.out.println(node.getProperty(JcrConstants.JCR_TITLE).getString());
                     if(tempStr != null){
                         tempStr = tempStr.trim();
                         ids.add(tempStr);
@@ -76,7 +75,6 @@ public class TagHelper {
 
                 if(tags.contains(s)){
                     ids.add(s);
-                    System.out.println(s);
                 }
             }
 

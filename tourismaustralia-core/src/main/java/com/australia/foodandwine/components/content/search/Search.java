@@ -17,7 +17,7 @@ import com.day.cq.wcm.api.PageManager;
 	@Listener(name = "aftercopy", value = "REFRESH_PAGE"), @Listener(name = "afterdelete", value = "REFRESH_PAGE"),
 	@Listener(name = "afteredit", value = "REFRESH_PAGE"), @Listener(name = "afterinsert", value = "REFRESH_PAGE") })
 public class Search {
-	private static final int RESULTS_PER_PAGE = 25;
+	private static final int RESULTS_PER_PAGE = 10;
 	private FAWSearchResult searchResult;
 	private long totalSearchResultsCount = 0;
 	private String searchParameter;

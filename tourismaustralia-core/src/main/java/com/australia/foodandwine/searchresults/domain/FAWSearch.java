@@ -24,6 +24,7 @@ public class FAWSearch {
 	private final String icon;
 	private final String primaryCategory;
 	private final String link;
+	private final String pageDescription;
 
 	public FAWSearch(Page page, TagManager tagManager) {
 		ValueMap properties = page.getProperties();
@@ -37,6 +38,8 @@ public class FAWSearch {
 		link = LinkUtils.getHrefFromPath(page.getPath());
 		// icon
 		icon = properties.get("categoryLogoPath", String.class);
+		// description
+		pageDescription = properties.get(JcrConstants.JCR_DESCRIPTION,String.class);
 		// title
 		title = page.getTitle();
 		// tags
@@ -86,6 +89,10 @@ public class FAWSearch {
 
 	public String getLink() {
 		return link;
+	}
+
+	public String getPageDescription() {
+		return pageDescription;
 	}
 
 }

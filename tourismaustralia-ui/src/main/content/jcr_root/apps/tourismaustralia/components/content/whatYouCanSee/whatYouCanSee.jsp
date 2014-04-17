@@ -47,8 +47,8 @@
                 <c:if test="${not empty tab.contentRows || isEdit}">
                     <a class="btn-bubble btn-bubble-min-width is-active btn-category-extra-space" data-aus-tab="${tab.id}">
                         <span class="btn-bubble-button">
-                            <img class="btn-bubble-std" src="/etc/designs/tourismaustralia/clientlibs/img/icons/menu_outline.png" alt=""/>
-                            <img class="btn-bubble-active" src="/etc/designs/tourismaustralia/clientlibs/img/icons/menu.png" alt=""/>
+                            <img class="btn-bubble-std" src="${tab.unselectedImagePath}" alt=""/>
+                            <img class="btn-bubble-active" src="${tab.selectedImagePath}" alt=""/>
                         </span>
                         <span class="type-below-btn">${tab.displayName}</span>
                     </a>

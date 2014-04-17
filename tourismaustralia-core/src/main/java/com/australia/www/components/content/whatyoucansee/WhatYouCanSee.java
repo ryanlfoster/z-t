@@ -65,7 +65,7 @@ public final class WhatYouCanSee {
 	@DialogField(fieldLabel = "Optional Tab Title", tab = 3)
 	private final String optionalTabTitle;
 
-	@Selection(options = {@Option(value = "5", text = "5 Items"), @Option(value = "10", text = "10 Items")},
+	@Selection(options = {@Option(value = "5", text = "5 Items"), @Option(value = "10", text = "10 Items") },
 		type = Selection.SELECT
 	)
 	@DialogField(fieldLabel = "Optional Tab Size", defaultValue = Constants.TAB_3_SIZE_5, tab = 3,
@@ -232,10 +232,12 @@ public final class WhatYouCanSee {
 		optionalTabPath9 = properties.get(Constants.NAME_OPTIONAL_TAB_PATH_9, String.class);
 		final Resource optionalTabResource9 = resourceResolver.getResource(optionalTabPath9);
 
+		// The language path is used as the base path in queries to ensure only articles in this language are chosen
+		final String languagePath = PathUtils.getLanguageResource(resource).getPath();
+
 		if (showThingsToDo) {
 			final List<Content> content =
-				contentFinderService.findContent(PathUtils.OZCOM_ROOT_PATH, tagId, Content.ARTICLE_RESOURCE_TEMPLATE,
-					MAX_ITEMS);
+				contentFinderService.findContent(languagePath, tagId, Content.ARTICLE_RESOURCE_TEMPLATE, MAX_ITEMS);
 
 			// TODO repeated content for testing only -- REMOVE
 			final List<Content> repeatedContent = new ArrayList<Content>();
@@ -250,10 +252,8 @@ public final class WhatYouCanSee {
 		}
 
 		if (showEvents) {
-			//TODO replace with events template
 			final List<Content> content =
-				contentFinderService.findContent(PathUtils.OZCOM_ROOT_PATH, tagId, Content.EVENT_RESOURCE_TEMPLATE,
-					MAX_ITEMS);
+				contentFinderService.findContent(languagePath, tagId, Content.EVENT_RESOURCE_TEMPLATE, MAX_ITEMS);
 
 			// TODO repeated content for testing only -- REMOVE
 			final List<Content> repeatedContent = new ArrayList<Content>();
@@ -339,6 +339,14 @@ public final class WhatYouCanSee {
 
 		public final String getViewMoreText() {
 			return viewMoreText;
+		}
+
+		public String getSelectedImagePath() {
+			return selectedImagePath;
+		}
+
+		public String getUnselectedImagePath() {
+			return unselectedImagePath;
 		}
 	}
 

@@ -3,6 +3,10 @@ package com.australia.content.model;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ValueMap;
 
+/**
+ * A View Model that models various types of content as a tile representation (As used by What You Can See) with a
+ * title, image, text, and link
+ */
 public class Content {
 
 	public static final String ARTICLE_RESOURCE_TEMPLATE = "/apps/tourismaustralia/templates/article";

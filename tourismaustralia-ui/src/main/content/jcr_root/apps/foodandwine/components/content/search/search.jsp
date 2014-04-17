@@ -10,9 +10,11 @@
 
 <div class="faw-hero-home-container"
 	data-searchurl="${search.searchPath}">
+	<c:if test="${search.totalSearchResultsCount > 0}">
 	<h3 class="form-h3 l-padding-top-xs-2 l-padding-bottom-xs-0-5">${search.totalSearchResultsCount}
 		Search results for: <strong></strong>
 	</h3>
+	</c:if>
 	<input
 		class="input-field-blank input-field-big input-field-normal-left-border"
 		placeholder="E.g. Cafe Sydney"> <a href="#"

@@ -25,22 +25,24 @@ public class Search {
 	private final long pages = 0;
 
 	public Search(SlingHttpServletRequest request) {
-		searchParameter = request.getParameter("q");
-		SlingScriptHelper sling = ((SlingBindings) request.getAttribute(SlingBindings.class.getName())).getSling();
-		SearchReslutsService searchResultsService = sling.getService(SearchReslutsService.class);
-		int page = 1;
-		SortOrderType sort = SortOrderType.ASC;
-		FAWSearchParametersBuilder fawSearchParameterBuilder = new FAWSearchParametersBuilder();
-		fawSearchParameterBuilder.setText(searchParameter).setPage(page).setCount(RESULTS_PER_PAGE).setSort(sort);
-		searchResult = searchResultsService.search(fawSearchParameterBuilder.build());
+			searchParameter = request.getParameter("q");
+		
+			SlingScriptHelper sling = ((SlingBindings) request.getAttribute(SlingBindings.class.getName())).getSling();
+			SearchReslutsService searchResultsService = sling.getService(SearchReslutsService.class);
+			int page = 1;
+			SortOrderType sort = SortOrderType.ASC;
+			FAWSearchParametersBuilder fawSearchParameterBuilder = new FAWSearchParametersBuilder();
+			fawSearchParameterBuilder.setText(searchParameter).setPage(page).setCount(RESULTS_PER_PAGE).setSort(sort);
+			searchResult = searchResultsService.search(fawSearchParameterBuilder.build());
 
-		FAWSearchParametersBuilder totalExperiences = new FAWSearchParametersBuilder();
-		totalExperiences.setCount(1);
-		totalSearchResultsCount = searchResultsService.search(totalExperiences.build()).getTotalCount();
+			FAWSearchParametersBuilder totalExperiences = new FAWSearchParametersBuilder();
+			totalExperiences.setCount(1);
+			totalSearchResultsCount = searchResultsService.search(totalExperiences.build()).getTotalCount();
+			PageManager pageManager = request.getResourceResolver().adaptTo(PageManager.class);
+			Page searchPage = pageManager.getContainingPage(request.getResource());
+			searchPath = request.getResourceResolver().map(searchPage.getPath()) + ".html";
 
-		PageManager pageManager = request.getResourceResolver().adaptTo(PageManager.class);
-		Page searchPage = pageManager.getContainingPage(request.getResource());
-		searchPath = request.getResourceResolver().map(searchPage.getPath()) + ".html";
+		
 	}
 
 	public FAWSearchResult getSearchResult() {

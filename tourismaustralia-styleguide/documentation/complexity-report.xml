@@ -127,6 +127,16 @@
 </file>
 <file name="assets/js/src/modules/jquery.ta.megamenu.js">
   
+  <issue
+    line="243"
+    char="&lt;anonymous&gt;.openMainNav"
+    evidence="&lt;anonymous&gt;.openMainNav is too complicated"
+    reason="Cyclomatic: 2,
+    Halstead: 8.4130
+    | Effort: 3365.2
+    | Volume: 400.00
+    | Vocabulary: 32" />
+  
 </file>
 <file name="assets/js/src/modules/jquery.ta.flipcard.js">
   

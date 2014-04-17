@@ -19,9 +19,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.australia.atdw.repository.DefaultATDWProductRepository;
-import com.australia.foodandwine.experience.domain.Experience;
-import com.australia.foodandwine.experience.domain.ExperienceSearchParameters;
-import com.australia.foodandwine.experience.domain.ExperienceSearchResult;
 import com.australia.foodandwine.searchresults.domain.FAWSearch;
 import com.australia.foodandwine.searchresults.domain.FAWSearchParameters;
 import com.australia.foodandwine.searchresults.domain.FAWSearchResult;
@@ -64,6 +61,7 @@ public class DefaultFAWSearchRepository implements FAWSearchRepository {
 			Session session = resourceResolver.adaptTo(Session.class);
 			Map<String, String> queryMap = new TreeMap<String, String>();
 			queryMap.put(QueryUtils.TYPE, NameConstants.NT_PAGE);
+			// TODO: add in facebook, twitter, and instagram resource types
 			QueryUtils.addProperty(queryMap, propertyCount, JCR_PREFIX
 				+ JcrResourceConstants.SLING_RESOURCE_TYPE_PROPERTY, EXPERIENCE_RESOURCE_TYPE);
 			propertyCount++;
@@ -100,6 +98,9 @@ public class DefaultFAWSearchRepository implements FAWSearchRepository {
 					if (hit.getPath() != null) {
 						Page page = pageManager.getPage(hit.getPath());
 						if (page != null) {
+							// TODO: Build experience, facebook, twitter, or
+							// instagram objects based on
+							// template type
 							fawSearchesList.add(new FAWSearch(page, tagManager));
 						}
 					}

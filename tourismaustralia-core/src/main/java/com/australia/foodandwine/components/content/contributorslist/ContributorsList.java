@@ -1,5 +1,9 @@
 package com.australia.foodandwine.components.content.contributorslist;
 
+import java.io.UnsupportedEncodingException;
+import java.net.URLEncoder;
+
+import org.apache.commons.lang.StringUtils;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.scripting.SlingBindings;
 import org.apache.sling.api.scripting.SlingScriptHelper;
@@ -23,8 +27,9 @@ public class ContributorsList {
 	private final String searchParameter;
 	private final String searchPath;
 	private final long pages;
+	private String paginationPath;
 
-	public ContributorsList(SlingHttpServletRequest request) {
+	public ContributorsList(SlingHttpServletRequest request) throws UnsupportedEncodingException {
 		SlingScriptHelper sling = ((SlingBindings) request.getAttribute(SlingBindings.class.getName())).getSling();
 		ExperienceService experienceService = sling.getService(ExperienceService.class);
 		searchParameter = request.getParameter("q");
@@ -41,7 +46,7 @@ public class ContributorsList {
 		experienceSearchParameterBuilder.setText(searchParameter).setPage(page).setCount(RESULTS_PER_PAGE)
 			.setSort(sort);
 		searchResult = experienceService.search(experienceSearchParameterBuilder.build());
-		pages = searchResult.getTotalCount() / RESULTS_PER_PAGE;
+		pages = (long) Math.ceil(searchResult.getTotalCount() / (double) RESULTS_PER_PAGE);
 
 		ExperienceSearchParametersBuilder totalExperiences = new ExperienceSearchParametersBuilder();
 		totalExperiences.setCount(1);
@@ -50,6 +55,11 @@ public class ContributorsList {
 		PageManager pageManager = request.getResourceResolver().adaptTo(PageManager.class);
 		Page searchPage = pageManager.getContainingPage(request.getResource());
 		searchPath = request.getResourceResolver().map(searchPage.getPath()) + ".html";
+
+		paginationPath = request.getResourceResolver().map(searchPage.getPath()) + ".{0}.html";
+		if (StringUtils.isNotEmpty(searchParameter)) {
+			paginationPath = paginationPath + "?q=" + URLEncoder.encode(searchParameter, "UTF-8");
+		}
 	}
 
 	public ExperienceSearchResult getSearchResult() {
@@ -74,5 +84,9 @@ public class ContributorsList {
 
 	public long getPages() {
 		return pages;
+	}
+
+	public String getPaginationPath() {
+		return paginationPath;
 	}
 }

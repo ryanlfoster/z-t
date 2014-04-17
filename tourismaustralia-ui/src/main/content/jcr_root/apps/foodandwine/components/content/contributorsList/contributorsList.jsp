@@ -68,15 +68,25 @@
 		<c:if test="${cl.pages > 1}">
 			<div class="sorted-list-pagination-buttons">
 				<c:if test="${cl.searchResult.page != 1 }">
-					<a href="#" class="btn-square icon-font-arrow-previous"></a>
-					<a href="#" class="btn-square icon-font-arrow-left"></a>
-				</c:if>
-				<a href="#" class="btn-square">1</a>
-				<a href="#" class="btn-square is-active">2</a>
-				<a href="#" class="btn-square">3</a>
+					<a href="${fn:replace(cl.paginationPath,'{0}','1')}" class="btn-square icon-font-arrow-previous"></a>
+					<c:set var="replacement" value="${cl.searchResult.page - 1}"/>
+					<a href="${fn:replace(cl.paginationPath,'{0}',replacement)}" class="btn-square icon-font-arrow-left"></a>
+					<c:set var="newreplacement" value="${cl.searchResult.page -2}"/>
+					<c:if test="${cl.searchResult.page != 1 && newreplacement >0}">
+						a href="${fn:replace(cl.paginationPath,'{0}',newreplacement)}" class="btn-square">${newreplacement}</a>
+					</c:if>
+					<a href="${fn:replace(cl.paginationPath,'{0}',replacement)}" class="btn-square">${replacement}</a>
+				</c:if>	
+				<a href="#" class="btn-square is-active">${cl.searchResult.page}</a>
 				<c:if test="${cl.searchResult.page != cl.pages }">
-					<a href="#" class="btn-square icon-font-arrow-right"></a>
-					<a href="#" class="btn-square icon-font-arrow-next"></a>
+					<c:set var="replacement" value="${cl.searchResult.page +1}"/>
+					<a href="${fn:replace(cl.paginationPath,'{0}',replacement)}" class="btn-square">${replacement}</a>
+					<c:set var="newreplacement" value="${cl.searchResult.page +2}"/>
+					<c:if test="${cl.searchResult.page != 1 && newreplacement <=cl.pages}">
+						a href="${fn:replace(cl.paginationPath,'{0}',newreplacement)}" class="btn-square">${newreplacement}</a>
+					</c:if>
+					<a href="${fn:replace(cl.paginationPath,'{0}',replacement)}" class="btn-square icon-font-arrow-right"></a>
+					<a href="${fn:replace(cl.paginationPath,'{0}',cl.pages)}" class="btn-square icon-font-arrow-next"></a>
 				</c:if>
 			</div>
 		</c:if>

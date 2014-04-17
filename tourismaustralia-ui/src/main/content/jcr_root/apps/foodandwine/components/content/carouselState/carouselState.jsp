@@ -84,7 +84,7 @@
 					<h5 class="cta-sub-title">${carousel.capital.circleBottomText}</h5>
 					<hr class="divider-small">
 					<p class="cta-description">${carousel.capital.text}
-						<a href="${carousel.capital.findOutMoreLink}">Find out more</a>
+						<a href="${carousel.capital.findOutMoreLink}" target="${carousel.capital.external ? '_BLANK' : '_self'}">Find out more</a>
 					</p>
 				</div>
 			</div>
@@ -126,7 +126,7 @@
 					<h5 class="cta-sub-title">${carousel.nsw.circleBottomText}</h5>
 					<hr class="divider-small">
 					<p class="cta-description">${carousel.nsw.text}
-						<a href="${carousel.nsw.findOutMoreLink}">Find out more</a>
+						<a href="${carousel.nsw.findOutMoreLink}" target="${carousel.nsw.external ? '_BLANK' : '_self'}">Find out more</a>
 					</p>
 				</div>
 			</div>
@@ -168,7 +168,7 @@
 					<h5 class="cta-sub-title">${carousel.northern.circleBottomText}</h5>
 					<hr class="divider-small">
 					<p class="cta-description">${carousel.northern.text}
-						<a href="${carousel.northern.findOutMoreLink}">Find out more</a>
+						<a href="${carousel.northern.findOutMoreLink}" target="${carousel.northern.external ? '_BLANK' : '_self'}">Find out more</a>
 					</p>
 				</div>
 			</div>
@@ -211,7 +211,7 @@
 					<h5 class="cta-sub-title">${carousel.queensland.circleBottomText}</h5>
 					<hr class="divider-small">
 					<p class="cta-description">${carousel.queensland.text}
-						<a href="${carousel.queensland.findOutMoreLink}">Find out more</a>
+						<a href="${carousel.queensland.findOutMoreLink}" target="${carousel.queensland.external ? '_BLANK' : '_self'}">Find out more</a>
 					</p>
 				</div>
 			</div>
@@ -253,7 +253,7 @@
 					<h5 class="cta-sub-title">${carousel.south.circleBottomText}</h5>
 					<hr class="divider-small">
 					<p class="cta-description">${carousel.south.text}
-						<a href="${carousel.south.findOutMoreLink}">Find out more</a>
+						<a href="${carousel.south.findOutMoreLink}" target="${carousel.south.external ? '_BLANK' : '_self'}">Find out more</a>
 					</p>
 				</div>
 			</div>
@@ -295,7 +295,7 @@
 					<h5 class="cta-sub-title">${carousel.tasmania.circleBottomText}</h5>
 					<hr class="divider-small">
 					<p class="cta-description">${carousel.tasmania.text}
-						<a href="${carousel.tasmania.findOutMoreLink}">Find out more</a>
+						<a href="${carousel.tasmania.findOutMoreLink}" target="${carousel.tasmania.external ? '_BLANK' : '_self'}">Find out more</a>
 					</p>
 				</div>
 			</div>
@@ -337,7 +337,7 @@
 					<h5 class="cta-sub-title">${carousel.victoria.circleBottomText}</h5>
 					<hr class="divider-small">
 					<p class="cta-description">${carousel.victoria.text}
-						<a href="${carousel.victoria.findOutMoreLink}">Find out more</a>
+						<a href="${carousel.victoria.findOutMoreLink}" target="${carousel.victoria.external ? '_BLANK' : '_self'}">Find out more</a>
 					</p>
 				</div>
 			</div>
@@ -379,7 +379,7 @@
 					<h5 class="cta-sub-title">${carousel.western.circleBottomText}</h5>
 					<hr class="divider-small">
 					<p class="cta-description">${carousel.western.text}
-						<a href="${carousel.western.findOutMoreLink}">Find out more</a>
+						<a href="${carousel.western.findOutMoreLink}" target="${carousel.western.external ? '_BLANK' : '_self'}">Find out more</a>
 					</p>
 				</div>
 			</div>

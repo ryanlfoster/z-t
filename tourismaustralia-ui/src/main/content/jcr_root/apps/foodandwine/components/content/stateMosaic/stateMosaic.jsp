@@ -3,25 +3,9 @@
 <%@ page import="com.australia.foodandwine.components.content.statemosaic.StateMosaic" %>
 
 <c:set var="stateMosaic" value="<%=new StateMosaic(slingRequest) %>"/>
-<script src="http://cloud.github.com/downloads/wycats/handlebars.js/handlebars-1.0.0.beta.6.js" type="text/javascript" charset="utf-8"></script>
-<script>
-Handlebars.registerHelper("everyOther", function(array, fn) {
-			var buffer = "";
-			for (var i = 0, j = array.length; i < j; i++) {
-			var item = array[i];
- 
-			// stick an index property onto the item, starting with 1, may make configurable later
-			item.index = i+1;
+<!-- <script src="http://cloud.github.com/downloads/wycats/handlebars.js/handlebars-1.0.0.beta.6.js" type="text/javascript" charset="utf-8"></script> -->
+<%-- <cq:includeClientLib js="faw--handlebars-v1.3.0"/> --%>
 
-			// show the inside of the block
-			buffer += fn(item);
-	}
-
-	// return the finished buffer
-	return buffer;
- 
-});
-</script>
 <script type="text/javascript">
 $(document).ready(function(){
 	var stateTag=$(".icon-map-black-active " ).text();
@@ -29,6 +13,7 @@ $(document).ready(function(){
     var source   = $("#sample").html();
 	     //alert(source);
 		 $(document).on("click",'.category-input ', function(){
+			  $(".mosaic").empty();
 				var x=$(this).attr('id');
 		        if($(this).is(":checked"))
 		        {
@@ -43,60 +28,97 @@ $(document).ready(function(){
 		        }
 
 		$.ajax({
-			type : "POST",
+            type : "POST",
 			url : "${resource.path}.ccs.json",
+            dataType:"json",
 			data : {
 				stateTag : stateTag,
 				catogoryArray:catogoryArray
 
 			},
 			success : function(msg) {
-				//alert("success "+msg);
+               // alert("success "+msg);
                 var data;
-                 var obj;
-                var str;
-				 data = JSON.stringify(msg);
+                data = JSON.stringify(msg);
                 //alert(data);
                 data=data.replace("[","");
                 data=data.replace("]","");
-                //alert(data);
-                //data="{test:"+data+"}";
-                //alert(data);
-                //var obj=JSON.parse(data);
+//                alert(data);
+                 data="{test:["+data+"]}";
+  //             alert(data);
+                var obj=eval('('+data+')');
 
-                var array=data.split("},");
-                //alert(array);
-                /*var template = Handlebars.compile(source);
-					 alert("template "+template(data));*/
-                     $(".mosaic").empty();
-                for (var i=0; i < array.length; i++){
-                    if(!array[i].substr(array.length-1).match("}"))
+                /***** Handlebars.registerHelper("each_with_index", function(test, fn) {
+	var buffer = "";
+	for (var i = 0, j = test.length; i < j; i++) {
+		var item =test[i];
 
-                         str=array[i]+"}";
-                    //alert(str);
-                    else
-                         str=array[i];
-                    obj=JSON.parse(str);
-                    var template = Handlebars.compile(source);
-					 //alert("template "+template(obj));
-					$(".mosaic").append(template(obj));
-
-                }
-                //var obj=JSON.parse(data);
-                //var template = Handlebars.compile(source);
-					 //alert("template "+template(obj));
-                //$(".mosaic").append(template(obj));
+		// stick an index property onto the item, starting with 1, may make configurable later
+		item.index = i+1;
+		// show the inside of the block
+		buffer += fn(item);
+alert(buffer+ "buffr");
 
 
 
-                /*var dataTest={test:[{"title":"test","desc":"/testing/test"},
-                                {"title":"testing2","desc":"desc test"}]};
-					//alert("data "+data);
-                //var obj=JSON.parse(dataTest);
-                var template = Handlebars.compile(source);
-					 alert("template "+template(dataTest));
-                     $(".mosaic").append(template(dataTest));*/
+	}
 
+	// return the finished buffer
+	return buffer;
+
+});
+                Handlebars.registerHelper('slice', function(test, block) {
+  var ret = "",
+      offset = parseInt(block.hash.offset) || 0,
+      limit = parseInt(block.hash.limit) || 5,
+      i = (offset < context.length) ? offset : 0,
+      j = ((limit + offset) < context.length) ? (limit + offset) : context.length;
+ 
+  for(i,j; i<j; i++) {
+    ret += block(context[i]);
+  }
+
+  return ret;
+                });*****/
+
+Handlebars.registerHelper('compare', function(lvalue, rvalue, options) {
+
+    if (arguments.length < 3)
+        throw new Error("Handlerbars Helper 'compare' needs 2 parameters");
+
+    operator = options.hash.operator || "==";
+
+    var operators = {
+        '==':       function(l,r) { return l == r; },
+        '===':      function(l,r) { return l === r; },
+        '!=':       function(l,r) { return l != r; },
+        '<':        function(l,r) { return l < r; },
+        '>':        function(l,r) { return l > r; },
+        '<=':       function(l,r) { return l <= r; },
+        '>=':       function(l,r) { return l >= r; },
+        'typeof':   function(l,r) { return typeof l == r; }
+    }
+
+    if (!operators[operator])
+        throw new Error("Handlerbars Helper 'compare' doesn't know the operator "+operator);
+
+    var result = operators[operator](lvalue,rvalue);
+
+    if( result ) {
+        return options.fn(this);
+    } else {
+        return options.inverse(this);
+    }
+
+});   
+
+
+
+
+ var template = Handlebars.compile(source);
+					// alert("template "+template(obj));
+                console.log('template '+template(obj));
+				$(".mosaic").append(template(obj));
 			}, 
 			error : function(xhr) {
 				console.log('there is some error');
@@ -116,8 +138,12 @@ $(document).ready(function(){
 
 
 
+    {{#each test}}
+
 <div class="row l-row-collapse">
 
+
+{{#compare @index 0 operator="=="}}  
         <div class="col-xs-12 col-md-6">
             <a href="{{pagePath}}" title="" class="mosaic-item">
     <img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
@@ -148,9 +174,10 @@ $(document).ready(function(){
 
 </a>
         </div>
-
+{{/compare}}
 <div class="col-xs-12 col-md-6">
             <div class="row">
+{{#compare @index 1 operator="=="}} 
                 <div class="col-xs-12 col-sm-6">
                     <a href="{{pagePath}}" title="" class="mosaic-item">
     <img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
@@ -184,6 +211,8 @@ $(document).ready(function(){
 
 </a>
                 </div>
+            {{/compare}}
+{{#compare @index 2 operator="=="}}
                  <div class="col-xs-12 col-sm-6">
 <a href="#" class="mosaic-item"  title="">
     <img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
@@ -224,7 +253,9 @@ $(document).ready(function(){
 
 </a>
 </div>
-    <div class="col-xs-12 col-sm-6">
+                 {{/compare}}
+{{#compare @index 3 operator="=="}}
+    <div class="col-xs-12 col-sm-6 ">
 <a href="#" title="" class="mosaic-item">
     <img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
 
@@ -255,6 +286,8 @@ $(document).ready(function(){
 
 </a>
                 </div>
+    {{/compare}}
+{{#compare @index 4 operator="=="}}
                 <div class="col-xs-12 col-sm-6">
 <a href="#" class="mosaic-item"  title="">
     <img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
@@ -295,10 +328,15 @@ $(document).ready(function(){
 
 </a>
                 </div>
-            </div>
-        </div>
+                {{/compare}}
+
+
     </div>
 </div> 
+
+
+{{/each}}
+
 </script>
 
 <div class="l-display-none-md">

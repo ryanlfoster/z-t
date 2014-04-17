@@ -55,14 +55,14 @@ public class StateMosaicServlet extends SlingAllMethodsServlet
 		
 		String stateTags=request.getParameter("stateTag").toLowerCase();
 		categoryTags=request.getParameterValues("catogoryArray");
-//		TagManager tagManager = request.getResourceResolver().adaptTo(TagManager.class);
-//		List<Tag> stateTag = TagUtils.getFoodAndWineCategoryTags(tagManager, categoryTags);
-//		//String tagid=stateTag.getTagID();
-//		for(Tag tag:stateTag)
-//		{
-//			String text=tag.getTagID();
-//			text.length():
-//		}
+	TagManager tagManager = request.getResourceResolver().adaptTo(TagManager.class);
+		List<Tag> stateTag = TagUtils.getFoodAndWineCategoryTags(tagManager, categoryTags);
+		//String tagid=stateTag.getTagID();
+		for(Tag tag:stateTag)
+		{
+			String text=tag.getTagID();
+			text.length();
+		}
 		//tagid.length();
 		//SELECT * FROM [nt:base] AS s WHERE ISDESCENDANTNODE([/content/food-and-wine]) and [cq:tags] like '%victoria%' and [cq:tags] like '%restaurant%'
 		 
@@ -89,6 +89,7 @@ public class StateMosaicServlet extends SlingAllMethodsServlet
 					Row row = rowIterator.nextRow();
 					path=row.getPath().replace("/jcr:content", "");
 					Page articlePage = pageManager.getPage(path);
+					
 					ValueMap pageProperties = articlePage.getProperties();
 					String title = articlePage.getTitle();
 					String description=articlePage.getDescription();

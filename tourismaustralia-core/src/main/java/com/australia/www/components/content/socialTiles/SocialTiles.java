@@ -8,6 +8,7 @@ import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ValueMap;
 
+import com.australia.www.components.domain.Link;
 import com.citytechinc.cq.component.annotations.Component;
 import com.citytechinc.cq.component.annotations.DialogField;
 import com.citytechinc.cq.component.annotations.FieldProperty;
@@ -18,8 +19,7 @@ import com.citytechinc.cq.component.annotations.widgets.DialogFieldSet;
 @Component(value = "Social Tiles", tabs = { @Tab(title = "Description"),
 		@Tab(title = "Tile 1"), @Tab(title = "Tile 2"), @Tab(title = "Tile 3"),
 		@Tab(title = "Tile 4"), @Tab(title = "Tile 5"), @Tab(title = "Tile 6"),
-		@Tab(title = "Tile 7"), @Tab(title = "Tile 8"), @Tab(title = "Tile 9"),
-		@Tab(title = "Tile 10"), @Tab(title = "Tile 11") }, listeners = {
+		@Tab(title = "Tile 7"), @Tab(title = "Tile 8"), @Tab(title = "Tile 9") }, listeners = {
 		@Listener(name = "afteredit", value = "REFRESH_PAGE"),
 		@Listener(name = "afterinsert", value = "REFRESH_PAGE") })
 public class SocialTiles {
@@ -31,6 +31,16 @@ public class SocialTiles {
 			@FieldProperty(name = "bold", value = "true") })
 	@SuppressWarnings("unused")
 	private String tab1;
+
+	@DialogField(fieldLabel = "Title")
+	private String title;
+
+	@DialogField(fieldLabel = "Bottom Text")
+	private String subTitle;
+
+	@DialogFieldSet(namePrefix = "link/")
+	@DialogField(fieldLabel = "link")
+	private Link link;
 
 	@DialogFieldSet(border = false, namePrefix = "tab2/")
 	@DialogField(tab = 2)
@@ -68,14 +78,6 @@ public class SocialTiles {
 	@DialogField(tab = 10)
 	private TileField tab10;
 
-	@DialogFieldSet(border = false, namePrefix = "tab11/")
-	@DialogField(tab = 11)
-	private TileField tab11;
-
-	@DialogFieldSet(border = false, namePrefix = "tab12/")
-	@DialogField(tab = 12)
-	private TileField tab12;
-
 	public List<TileField> tilesList;
 
 	public SocialTiles(SlingHttpServletRequest request) {
@@ -83,6 +85,12 @@ public class SocialTiles {
 		ValueMap properties = thisResource.adaptTo(ValueMap.class);
 
 		tilesList = new ArrayList<TileField>();
+
+		title = properties.get("title", StringUtils.EMPTY);
+		subTitle = properties.get("subTitle", StringUtils.EMPTY);
+		link = new Link(properties.get("link/" + Link.PROP_PATH,
+				StringUtils.EMPTY), properties.get("link/" + Link.PROP_TITLE,
+				StringUtils.EMPTY));
 
 		tab2 = new TileField();
 		tab2.setIconPath(properties.get("tab2/iconPath", StringUtils.EMPTY));
@@ -164,32 +172,26 @@ public class SocialTiles {
 		tab10.setLink(properties.get("tab10/link", StringUtils.EMPTY));
 		if (tab10.getIsValid())
 			tilesList.add(tab10);
-
-		tab11 = new TileField();
-		tab11.setIconPath(properties.get("tab11/iconPath", StringUtils.EMPTY));
-		tab11.setImagePath(properties.get("tab11/imagePath", StringUtils.EMPTY));
-		tab11.setTitle(properties.get("tab11/title", StringUtils.EMPTY));
-		tab11.setText(properties.get("tab11/text", StringUtils.EMPTY));
-		tab11.setLink(properties.get("tab11/link", StringUtils.EMPTY));
-		if (tab11.getIsValid())
-			tilesList.add(tab11);
-
-		tab12 = new TileField();
-		tab12.setIconPath(properties.get("tab12/iconPath", StringUtils.EMPTY));
-		tab12.setImagePath(properties.get("tab12/imagePath", StringUtils.EMPTY));
-		tab12.setTitle(properties.get("tab12/title", StringUtils.EMPTY));
-		tab12.setText(properties.get("tab12/text", StringUtils.EMPTY));
-		tab12.setLink(properties.get("tab12/link", StringUtils.EMPTY));
-		if (tab12.getIsValid())
-			tilesList.add(tab12);
 	}
 
 	public List<TileField> getTilesList() {
 		return tilesList;
 	}
 
-	// Boolean used to switch from 3 tile or 11 tile format
-	public boolean getHasEleven() {
-		return (tilesList.size() == 11);
+	public String getTitle() {
+		return title;
+	}
+
+	public String getSubTitle() {
+		return title;
+	}
+
+	public Link getLink() {
+		return link;
+	}
+
+	// Boolean used to switch from 3 tile or 9 tile format
+	public boolean getHasNine() {
+		return (tilesList.size() >= 8);
 	}
 }

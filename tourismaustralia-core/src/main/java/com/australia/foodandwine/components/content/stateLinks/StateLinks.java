@@ -1,12 +1,22 @@
 package com.australia.foodandwine.components.content.stateLinks;
 
+import org.apache.commons.lang.StringUtils;
 import org.apache.sling.api.SlingHttpServletRequest;
+import org.apache.sling.api.resource.ValueMap;
 
 import com.australia.utils.PathUtils;
 import com.citytechinc.cq.component.annotations.Component;
+import com.citytechinc.cq.component.annotations.DialogField;
 
 @Component(value = "State Links", group = "Food and Wine", basePath = "jcr_root/apps/foodandwine/components", disableTargeting = true)
 public class StateLinks {
+
+	@DialogField(fieldLabel = "Top Text", required = true)
+	private final String topText;
+
+	@DialogField(fieldLabel = "Bottom Text", required = true)
+	private final String bottomText;
+
 	private final String capital;
 	private final String nsw;
 	private final String northern;
@@ -17,6 +27,14 @@ public class StateLinks {
 	private final String western;
 
 	public StateLinks(SlingHttpServletRequest request) {
+		ValueMap properties = request.getResource().adaptTo(ValueMap.class);
+		if (properties != null) {
+			topText = properties.get("topText", StringUtils.EMPTY);
+			bottomText = properties.get("bottomText", StringUtils.EMPTY);
+		} else {
+			topText = "";
+			bottomText = "";
+		}
 		capital = PathUtils.FOOD_AND_WINE_EXPLORE_AUSTRALIAN_CAPITAL_TERRITORY;
 		nsw = PathUtils.FOOD_AND_WINE_EXPLORE_NEW_SOUTH_WALES;
 		northern = PathUtils.FOOD_AND_WINE_EXPLORE_NORTHERN_TERRITORY;
@@ -57,6 +75,14 @@ public class StateLinks {
 
 	public String getWestern() {
 		return western;
+	}
+
+	public String getTopText() {
+		return topText;
+	}
+
+	public String getBottomText() {
+		return bottomText;
 	}
 
 }

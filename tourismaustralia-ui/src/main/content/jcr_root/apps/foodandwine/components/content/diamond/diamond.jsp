@@ -11,7 +11,7 @@
 			<p class="socialcounter-count type-font-feature">${diamond.numberFormat}</p>
 			<p class="socialcounter-tagged">${diamond.centerText}</p>
 			<c:if test="${not empty diamond.bottomText}">
-			<p class="socialcounter-link"><strong>#${diamond.bottomText}</strong></p>
+				<p class="socialcounter-link"><strong>#${diamond.bottomText}</strong></p>
 			</c:if>
 		</div>
 	</div>	

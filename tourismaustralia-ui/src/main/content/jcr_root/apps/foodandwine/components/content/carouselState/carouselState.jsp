@@ -11,7 +11,7 @@
 		data-breakpoint-sm="800" data-breakpoint-md="1168"
 		data-carouseltheme="faw-places-theme">
 		<li class="item">
-			<div class="faw-carousel-bg-container" data-picture="" data-alt="">
+			<div class="faw-carousel-bg-container" data-picture="" data-alt="${carousel.imageAltTag}">
 				<div data-src="${carousel.imagePath}.adapt.480.low.jpg"
 					data-media="(min-width: 1px)"></div>
 				<div data-src="${carousel.imagePath}.adapt.768.medium.jpg"
@@ -23,7 +23,7 @@
 				<noscript>
 					<img class="faw-carousel-bg"
 						src="${carousel.imagePath}.adapt.1663.high.jpg"
-						alt="${carouse.imageAltTag}">
+						alt="${carousel.imageAltTag}">
 				</noscript>
 			</div> <!--[if (lt IE 9) & (!IEMobile)]>
 				<img class="faw-carousel-bg" src="${carousel.imagePath}.adapt.1663.high.jpg" alt="${carouse.imageAltTag}">
@@ -48,7 +48,7 @@
 			</div>
 		</li>
 		<li class="item">
-			<div class="faw-carousel-bg-container" data-picture="" data-alt="">
+			<div class="faw-carousel-bg-container" data-picture="" data-alt="${carousel.capital.imageAltTag}">
 				<div data-src="${carousel.capital.imagePath}.adapt.480.low.jpg"
 					data-media="(min-width: 1px)"></div>
 				<div data-src="${carousel.capital.imagePath}.adapt.768.medium.jpg"
@@ -71,8 +71,9 @@
 						<hr
 							class="icon-logo-withlines-hr icon-logo-withlines-hr-small experiences-head-divider-hr">
 						<div class="head-divider-title">
+							<!-- icon images for Canberra and Tasmania are mistakenly swapped around!  -->
 							<span
-								class="icon-map icon-map-small icon-map-black icon-map-capital"></span>
+								class="icon-map icon-map-small icon-map-black icon-map-tasmania"></span>
 						</div>
 						<hr
 							class="icon-logo-withlines-hr icon-logo-withlines-hr-small experiences-head-divider-hr">
@@ -84,13 +85,13 @@
 					<h5 class="cta-sub-title">${carousel.capital.circleBottomText}</h5>
 					<hr class="divider-small">
 					<p class="cta-description">${carousel.capital.text}
-						<a href="${carousel.capital.findOutMoreLink}">Find out more</a>
+						<a href="${carousel.capital.findOutMoreLink}" target="${carousel.capital.external ? '_BLANK' : '_self'}">Find out more</a>
 					</p>
 				</div>
 			</div>
 		</li>
 		<li class="item">
-			<div class="faw-carousel-bg-container" data-picture="" data-alt="">
+			<div class="faw-carousel-bg-container" data-picture="" data-alt="${carousel.nsw.imageAltTag}">
 				<div data-src="${carousel.nsw.imagePath}.adapt.480.low.jpg"
 					data-media="(min-width: 1px)"></div>
 				<div data-src="${carousel.nsw.imagePath}.adapt.768.medium.jpg"
@@ -126,13 +127,13 @@
 					<h5 class="cta-sub-title">${carousel.nsw.circleBottomText}</h5>
 					<hr class="divider-small">
 					<p class="cta-description">${carousel.nsw.text}
-						<a href="${carousel.nsw.findOutMoreLink}">Find out more</a>
+						<a href="${carousel.nsw.findOutMoreLink}" target="${carousel.nsw.external ? '_BLANK' : '_self'}">Find out more</a>
 					</p>
 				</div>
 			</div>
 		</li>
 		<li class="item">
-			<div class="faw-carousel-bg-container" data-picture="" data-alt="">
+			<div class="faw-carousel-bg-container" data-picture="" data-alt="${carousel.northern.imageAltTag}">
 				<div data-src="${carousel.northern.imagePath}.adapt.480.low.jpg"
 					data-media="(min-width: 1px)"></div>
 				<div data-src="${carousel.northern.imagePath}.adapt.768.medium.jpg"
@@ -168,13 +169,13 @@
 					<h5 class="cta-sub-title">${carousel.northern.circleBottomText}</h5>
 					<hr class="divider-small">
 					<p class="cta-description">${carousel.northern.text}
-						<a href="${carousel.northern.findOutMoreLink}">Find out more</a>
+						<a href="${carousel.northern.findOutMoreLink}" target="${carousel.northern.external ? '_BLANK' : '_self'}">Find out more</a>
 					</p>
 				</div>
 			</div>
 		</li>
 		<li class="item">
-			<div class="faw-carousel-bg-container" data-picture="" data-alt="">
+			<div class="faw-carousel-bg-container" data-picture="" data-alt="${carousel.queensland.imageAltTag}">
 				<div data-src="${carousel.queensland.imagePath}.adapt.480.low.jpg"
 					data-media="(min-width: 1px)"></div>
 				<div
@@ -211,13 +212,13 @@
 					<h5 class="cta-sub-title">${carousel.queensland.circleBottomText}</h5>
 					<hr class="divider-small">
 					<p class="cta-description">${carousel.queensland.text}
-						<a href="${carousel.queensland.findOutMoreLink}">Find out more</a>
+						<a href="${carousel.queensland.findOutMoreLink}" target="${carousel.queensland.external ? '_BLANK' : '_self'}">Find out more</a>
 					</p>
 				</div>
 			</div>
 		</li>
 		<li class="item">
-			<div class="faw-carousel-bg-container" data-picture="" data-alt="">
+			<div class="faw-carousel-bg-container" data-picture="" data-alt="${carousel.south.imageAltTag}">
 				<div data-src="${carousel.south.imagePath}.adapt.480.low.jpg"
 					data-media="(min-width: 1px)"></div>
 				<div data-src="${carousel.south.imagePath}.adapt.768.medium.jpg"
@@ -253,13 +254,13 @@
 					<h5 class="cta-sub-title">${carousel.south.circleBottomText}</h5>
 					<hr class="divider-small">
 					<p class="cta-description">${carousel.south.text}
-						<a href="${carousel.south.findOutMoreLink}">Find out more</a>
+						<a href="${carousel.south.findOutMoreLink}" target="${carousel.south.external ? '_BLANK' : '_self'}">Find out more</a>
 					</p>
 				</div>
 			</div>
 		</li>
 		<li class="item">
-			<div class="faw-carousel-bg-container" data-picture="" data-alt="">
+			<div class="faw-carousel-bg-container" data-picture="" data-alt="${carousel.tasmania.imageAltTag}">
 				<div data-src="${carousel.tasmania.imagePath}.adapt.480.low.jpg"
 					data-media="(min-width: 1px)"></div>
 				<div data-src="${carousel.tasmania.imagePath}.adapt.768.medium.jpg"
@@ -295,13 +296,13 @@
 					<h5 class="cta-sub-title">${carousel.tasmania.circleBottomText}</h5>
 					<hr class="divider-small">
 					<p class="cta-description">${carousel.tasmania.text}
-						<a href="${carousel.tasmania.findOutMoreLink}">Find out more</a>
+						<a href="${carousel.tasmania.findOutMoreLink}" target="${carousel.tasmania.external ? '_BLANK' : '_self'}">Find out more</a>
 					</p>
 				</div>
 			</div>
 		</li>
 		<li class="item">
-			<div class="faw-carousel-bg-container" data-picture="" data-alt="">
+			<div class="faw-carousel-bg-container" data-picture="" data-alt="${carousel.victoria.imageAltTag}">
 				<div data-src="${carousel.victoria.imagePath}.adapt.480.low.jpg"
 					data-media="(min-width: 1px)"></div>
 				<div data-src="${carousel.victoria.imagePath}.adapt.768.medium.jpg"
@@ -337,13 +338,13 @@
 					<h5 class="cta-sub-title">${carousel.victoria.circleBottomText}</h5>
 					<hr class="divider-small">
 					<p class="cta-description">${carousel.victoria.text}
-						<a href="${carousel.victoria.findOutMoreLink}">Find out more</a>
+						<a href="${carousel.victoria.findOutMoreLink}" target="${carousel.victoria.external ? '_BLANK' : '_self'}">Find out more</a>
 					</p>
 				</div>
 			</div>
 		</li>
 		<li class="item">
-			<div class="faw-carousel-bg-container" data-picture="" data-alt="">
+			<div class="faw-carousel-bg-container" data-picture="" data-alt="${carousel.western.imageAltTag}">
 				<div data-src="${carousel.western.imagePath}.adapt.480.low.jpg"
 					data-media="(min-width: 1px)"></div>
 				<div data-src="${carousel.western.imagePath}.adapt.768.medium.jpg"
@@ -379,7 +380,7 @@
 					<h5 class="cta-sub-title">${carousel.western.circleBottomText}</h5>
 					<hr class="divider-small">
 					<p class="cta-description">${carousel.western.text}
-						<a href="${carousel.western.findOutMoreLink}">Find out more</a>
+						<a href="${carousel.western.findOutMoreLink}" target="${carousel.western.external ? '_BLANK' : '_self'}">Find out more</a>
 					</p>
 				</div>
 			</div>

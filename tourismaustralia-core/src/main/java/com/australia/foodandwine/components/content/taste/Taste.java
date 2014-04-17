@@ -27,7 +27,7 @@ import com.day.cq.wcm.foundation.Image;
 	@Listener(name = "afteredit", value = "REFRESH_PAGE"), @Listener(name = "afterinsert", value = "REFRESH_PAGE") })
 public class Taste {
 
-	@DialogField(fieldLabel = "Title", tab = 2)
+	@DialogField(fieldLabel = "Title", tab = 2, required = true)
 	private final String title;
 
 	@DialogField(fieldLabel = "Description", tab = 2)

@@ -11,7 +11,7 @@
 		data-breakpoint-sm="800" data-breakpoint-md="1168"
 		data-carouseltheme="faw-places-theme">
 		<li class="item">
-			<div class="faw-carousel-bg-container" data-picture="" data-alt="${carouse.imageAltTag}">
+			<div class="faw-carousel-bg-container" data-picture="" data-alt="${carousel.imageAltTag}">
 				<div data-src="${carousel.imagePath}.adapt.480.low.jpg"
 					data-media="(min-width: 1px)"></div>
 				<div data-src="${carousel.imagePath}.adapt.768.medium.jpg"
@@ -23,7 +23,7 @@
 				<noscript>
 					<img class="faw-carousel-bg"
 						src="${carousel.imagePath}.adapt.1663.high.jpg"
-						alt="${carouse.imageAltTag}">
+						alt="${carousel.imageAltTag}">
 				</noscript>
 			</div> <!--[if (lt IE 9) & (!IEMobile)]>
 				<img class="faw-carousel-bg" src="${carousel.imagePath}.adapt.1663.high.jpg" alt="${carouse.imageAltTag}">
@@ -48,7 +48,7 @@
 			</div>
 		</li>
 		<li class="item">
-			<div class="faw-carousel-bg-container" data-picture="" data-alt="">
+			<div class="faw-carousel-bg-container" data-picture="" data-alt="${carousel.capital.imageAltTag}">
 				<div data-src="${carousel.capital.imagePath}.adapt.480.low.jpg"
 					data-media="(min-width: 1px)"></div>
 				<div data-src="${carousel.capital.imagePath}.adapt.768.medium.jpg"
@@ -91,7 +91,7 @@
 			</div>
 		</li>
 		<li class="item">
-			<div class="faw-carousel-bg-container" data-picture="" data-alt="">
+			<div class="faw-carousel-bg-container" data-picture="" data-alt="${carousel.nsw.imageAltTag}">
 				<div data-src="${carousel.nsw.imagePath}.adapt.480.low.jpg"
 					data-media="(min-width: 1px)"></div>
 				<div data-src="${carousel.nsw.imagePath}.adapt.768.medium.jpg"
@@ -133,7 +133,7 @@
 			</div>
 		</li>
 		<li class="item">
-			<div class="faw-carousel-bg-container" data-picture="" data-alt="">
+			<div class="faw-carousel-bg-container" data-picture="" data-alt="${carousel.northern.imageAltTag}">
 				<div data-src="${carousel.northern.imagePath}.adapt.480.low.jpg"
 					data-media="(min-width: 1px)"></div>
 				<div data-src="${carousel.northern.imagePath}.adapt.768.medium.jpg"
@@ -175,7 +175,7 @@
 			</div>
 		</li>
 		<li class="item">
-			<div class="faw-carousel-bg-container" data-picture="" data-alt="">
+			<div class="faw-carousel-bg-container" data-picture="" data-alt="${carousel.queensland.imageAltTag}">
 				<div data-src="${carousel.queensland.imagePath}.adapt.480.low.jpg"
 					data-media="(min-width: 1px)"></div>
 				<div
@@ -218,7 +218,7 @@
 			</div>
 		</li>
 		<li class="item">
-			<div class="faw-carousel-bg-container" data-picture="" data-alt="">
+			<div class="faw-carousel-bg-container" data-picture="" data-alt="${carousel.south.imageAltTag}">
 				<div data-src="${carousel.south.imagePath}.adapt.480.low.jpg"
 					data-media="(min-width: 1px)"></div>
 				<div data-src="${carousel.south.imagePath}.adapt.768.medium.jpg"
@@ -260,7 +260,7 @@
 			</div>
 		</li>
 		<li class="item">
-			<div class="faw-carousel-bg-container" data-picture="" data-alt="">
+			<div class="faw-carousel-bg-container" data-picture="" data-alt="${carousel.tasmania.imageAltTag}">
 				<div data-src="${carousel.tasmania.imagePath}.adapt.480.low.jpg"
 					data-media="(min-width: 1px)"></div>
 				<div data-src="${carousel.tasmania.imagePath}.adapt.768.medium.jpg"
@@ -302,7 +302,7 @@
 			</div>
 		</li>
 		<li class="item">
-			<div class="faw-carousel-bg-container" data-picture="" data-alt="">
+			<div class="faw-carousel-bg-container" data-picture="" data-alt="${carousel.victoria.imageAltTag}">
 				<div data-src="${carousel.victoria.imagePath}.adapt.480.low.jpg"
 					data-media="(min-width: 1px)"></div>
 				<div data-src="${carousel.victoria.imagePath}.adapt.768.medium.jpg"
@@ -344,7 +344,7 @@
 			</div>
 		</li>
 		<li class="item">
-			<div class="faw-carousel-bg-container" data-picture="" data-alt="">
+			<div class="faw-carousel-bg-container" data-picture="" data-alt="${carousel.western.imageAltTag}">
 				<div data-src="${carousel.western.imagePath}.adapt.480.low.jpg"
 					data-media="(min-width: 1px)"></div>
 				<div data-src="${carousel.western.imagePath}.adapt.768.medium.jpg"

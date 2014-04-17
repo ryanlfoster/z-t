@@ -10,7 +10,6 @@ layout: layout-base.hbs
     {{> hero }}
 {{/parseJSON}}
 
-<div class="l-padding-between-item-fill-white">
     {{#parseJSON '{
         "page_title" : "Victoria",
         "map_summary" : [
@@ -27,27 +26,17 @@ layout: layout-base.hbs
     }'}}
         {{> explore_summary_map }}
     {{/parseJSON}}
-</div>
 
 <div class="paragraph-state">
 
-    <div class="l-padding-between-item-fill-white">
-        {{> whatyoucansee_state}}
-    </div>
+    {{> whatyoucansee_state}}
 
-    <div class="l-padding-between-item-fill-white">
-        {{> image_with_button_social }}
-    </div>
+    {{> image_with_button_social }}
 
-    <div class="l-padding-between-item-fill-white">
-        {{> mapimagewithlinks }}
-    </div>
+    {{> mapimagewithlinks }}
 
-    <div class="l-padding-between-item-fill-white">
-        {{> explore }}
-    </div>
+    {{> explore }}
 
-    <div class="l-padding-between-item-fill-white">
         {{#parseJSON '{
             "promo_image" : "specialoffer",
             "promo_title" : "The old bar",
@@ -59,14 +48,9 @@ layout: layout-base.hbs
         }'}}
             {{> specialoffer }}
         {{/parseJSON}}
-    </div>
 
-    <div class="l-padding-between-item-fill-white">
-        {{> atdwhighlights}}
-    </div>
+    {{> atdwhighlights}}
 
-    <div class="l-padding-between-item-fill-white">
-        {{> categorylinks_state_victoria }}
-    </div>
+    {{> categorylinks_state_victoria }}
 
 </div>

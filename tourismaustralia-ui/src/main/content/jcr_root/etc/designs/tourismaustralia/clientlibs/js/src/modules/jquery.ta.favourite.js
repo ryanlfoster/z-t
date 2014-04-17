@@ -71,7 +71,7 @@
 
 	//init all carousel objects on page automatically -> TBR
 	$(window).load(function() {
-		$(".favourite").favourite();
+		$(".favourite,.bubble-colour-favourite").favourite();
 	});
 
 })(jQuery, window, document);

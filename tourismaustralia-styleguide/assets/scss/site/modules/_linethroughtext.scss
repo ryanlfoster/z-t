@@ -27,11 +27,15 @@
 .line-through-line-wrapper {
   &:before {
     content: '\2014';
-    margin-right: pxtoem(16px);
+    position: absolute;
+    top: 0px;
+    left: -20px;
   }
   &:after {
     content: '\2014';
-    margin-left: pxtoem(16px);
+    position: absolute;
+    top: 0px;
+    right: -20px;  
   }
 }
 

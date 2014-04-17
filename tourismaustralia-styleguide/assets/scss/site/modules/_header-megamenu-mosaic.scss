@@ -3,7 +3,6 @@
 // * ---------------------------------------------------------------------------------------------------------------- */
 .megamenu-mosaic {
 
-    // Defaults...
 
 
     // Mobile Only...
@@ -32,18 +31,30 @@
 .megamenu-mosaic-left {
     float: left;
     width: 100%;
-    padding-right: 230px;
+    padding-right: 240px;
     margin-bottom: 20px;
+
+    @include breakpoint(lg) {
+        padding-right: 225px;
+    }
 }
 
 .megamenu-mosaic-right {
     position: absolute;
     top: 20px;
     right: 20px;
-    width: 200px;
+    width: 235px;
+
+    @include breakpoint(lg) {
+        width: 220px;
+    }
 }
 
 .megamenu-mosaic-item {
     float: left;
-    width: 200px;
+    width: 235px;
+
+    @include breakpoint(lg) {
+        width: 220px;
+    }
 }

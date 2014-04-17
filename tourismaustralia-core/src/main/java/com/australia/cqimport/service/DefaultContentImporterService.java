@@ -50,6 +50,7 @@ public class DefaultContentImporterService implements ContentImporterService {
 		ResourceResolver resourceResolver = null;
 		try {
 			resourceResolver = resourceResolverFactory.getAdministrativeResourceResolver(null);
+            new TagHelper().getTags(resourceResolver,lang);
 		} catch (LoginException e) {
 			LOG.error(e.getMessage(), e);
 		}
@@ -58,6 +59,8 @@ public class DefaultContentImporterService implements ContentImporterService {
 		PageBuilder pageBuilder;
 
 		ArrayList<MappingVO> mappingVO = getMappings(lang);
+
+
 
 		Collections.sort(mappingVO, new Comparator<MappingVO>() {
 			@Override
@@ -76,7 +79,7 @@ public class DefaultContentImporterService implements ContentImporterService {
 
 			try {
 
-				pageBuilder.createPage(map.getOldPath(), map.getNewPath(), resourceResolver, addMixin);
+				pageBuilder.createPage(map.getOldPath(), map.getNewPath(), lang, resourceResolver, addMixin);
 
 			} catch (WCMException e) {
 				LOG.error(e.getMessage(), e);

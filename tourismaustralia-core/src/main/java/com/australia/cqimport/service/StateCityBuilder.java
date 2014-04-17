@@ -26,7 +26,7 @@ public class StateCityBuilder extends PageBuilder {
     private static final String TEMPLATE = "/apps/tourismaustralia/templates/cityState";
 
     @Override
-    public void createPage(String oldPath, String newPath, ResourceResolver resourceResolver, boolean addMixin)
+    public void createPage(String oldPath, String newPath, String lang, ResourceResolver resourceResolver, boolean addMixin)
             throws WCMException {
         PageManager pageManager = resourceResolver.adaptTo(PageManager.class);
         Page page = pageManager.getPage(PageBuilder.CRX_ROOT_PATH + newPath);
@@ -56,6 +56,9 @@ public class StateCityBuilder extends PageBuilder {
                 params.put("fileReference", PageBuilder.CRX_DAM_PATH + cbf.getImgSearchThumbnail());
                 resourceResolver.create(jcrContentResource, "image", params);
                 resourceResolver.commit();
+
+                // Add the tags to the language
+                new TagHelper().addTagsToLanguage(resourceResolver,lang, newPath, cbf.getStfKeywords());
 
             } catch (Exception e) {
                 LOG.error(e.getMessage(), e);

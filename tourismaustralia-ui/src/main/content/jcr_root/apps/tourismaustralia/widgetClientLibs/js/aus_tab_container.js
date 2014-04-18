@@ -1,11 +1,11 @@
 $(document).ready(function(){
 
-    var button_selector = "a[data-atdw-category]";
-    var content_selector = "[data-atdw-show-cat]";
-    var select_selector = "select[data-atdw-select]";
+    var button_selector = "a[data-aus-tab]";
+    var content_selector = "[data-aus-show-tab]";
+    var select_selector = "select[data-aus-select]";
 
     // Find each highlights container
-    $(".makeyourtriphappen-container").each(function(index, element){
+    $("[data-aus-tab-container]").each(function(index, element){
 
         var $component = $(element);
 
@@ -20,7 +20,7 @@ $(document).ready(function(){
 
             var $button = $(element);
 
-            var category = $button.attr("data-atdw-category");
+            var category = $button.attr("data-aus-tab");
 
             $button.bind("click", function(){
                 // We use the drop-down as the main selection mechanism to keep both select mechanisms in-sync
@@ -45,7 +45,7 @@ $(document).ready(function(){
 
             var $elem = $(element);
 
-            if(category === $elem.attr("data-atdw-category")) {
+            if(category === $elem.attr("data-aus-tab")) {
                 $elem.addClass("is-active");
                 categoryText = $elem.find(".type-below-btn").text();
             } else {
@@ -58,7 +58,7 @@ $(document).ready(function(){
 
             var $elem = $(element);
 
-            if(category === $elem.attr("data-atdw-show-cat")) {
+            if(category === $elem.attr("data-aus-show-tab")) {
                 $elem.show();
             } else {
                 $elem.hide();

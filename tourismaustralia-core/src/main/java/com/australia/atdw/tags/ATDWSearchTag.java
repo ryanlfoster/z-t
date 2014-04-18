@@ -62,7 +62,8 @@ public final class ATDWSearchTag extends SimpleTagSupport {
 		final ATDWProductSearchParametersBuilder builder = new ATDWProductSearchParametersBuilder();
 		final ATDWProductSearchParameters params = builder.setText(term)
 			.setCategory(cat)
-			.setState(region)
+			.setState(state)
+			.setRegion(region)
 			.setCity(city)
 			.setPage(page == null ? 1 : page)
 			.setCount(count == null ? DEFAULT_COUNT : count)

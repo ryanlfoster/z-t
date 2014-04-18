@@ -6,6 +6,7 @@ public class ATDWProductSearchParametersBuilder extends
 	AbstractSeachParametersBuilder<ATDWProductSearchParametersBuilder> {
 	private ATDWCategory category;
 	private String city;
+	private String region;
 	private String state;
 
 	public ATDWProductSearchParametersBuilder setCategory(ATDWCategory category) {
@@ -15,6 +16,11 @@ public class ATDWProductSearchParametersBuilder extends
 
 	public ATDWProductSearchParametersBuilder setCity(String city) {
 		this.city = city;
+		return this;
+	}
+
+	public ATDWProductSearchParametersBuilder setRegion(String region) {
+		this.region = region;
 		return this;
 	}
 
@@ -28,6 +34,7 @@ public class ATDWProductSearchParametersBuilder extends
 		super.setParameters(params);
 		params.setCategory(category);
 		params.setCity(city);
+		params.setRegion(region);
 		params.setState(state);
 		return params;
 	}

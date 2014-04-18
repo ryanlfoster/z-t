@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+        version="2.0">
+    <description>Tourism Australia Core Tag Library</description>
+    <tlib-version>1.0</tlib-version>
+    <short-name>tacore</short-name>
+    <uri>http://www.austalia.com/taglibs/tourismaustralia-core/1.0</uri>
+
+    <tag>
+        <name>atdwSearch</name>
+        <tag-class>com.australia.atdw.tags.ATDWSearchTag</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>var</name>
+            <required>true</required>
+        </attribute>
+        <attribute>
+            <name>term</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+            <name>category</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+            <name>state</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+            <name>region</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+            <name>city</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+            <name>page</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.Integer</type>
+        </attribute>
+        <attribute>
+            <name>count</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.Integer</type>
+        </attribute>
+    </tag>
+
+</taglib>

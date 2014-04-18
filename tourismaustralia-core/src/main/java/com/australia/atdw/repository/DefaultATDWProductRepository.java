@@ -2,6 +2,7 @@ package com.australia.atdw.repository;
 
 import com.australia.atdw.domain.ATDWProduct;
 import com.australia.atdw.domain.ATDWProductSearchParameters;
+import com.australia.atdw.domain.ATDWSearchResult;
 import com.australia.utils.PathUtils;
 import com.australia.utils.QueryUtils;
 import com.day.cq.search.PredicateGroup;
@@ -45,9 +46,10 @@ public class DefaultATDWProductRepository implements ATDWProductRepository {
 	private QueryBuilder builder;
 
 	@Override
-	public List<ATDWProduct> search(ATDWProductSearchParameters parameters) {
+	public ATDWSearchResult search(ATDWProductSearchParameters parameters) {
 		ResourceResolver resourceResolver = null;
 		List<ATDWProduct> atdwProducts = new ArrayList<ATDWProduct>();
+		long totalResultCount = 0;
 		try {
 			resourceResolver = resourceResolverFactory.getAdministrativeResourceResolver(null);
 			int propertyCount = 1;
@@ -97,6 +99,7 @@ public class DefaultATDWProductRepository implements ATDWProductRepository {
 			queryMap.put(QueryUtils.LIMIT, Long.toString(parameters.getCount()));
 			Query query = builder.createQuery(PredicateGroup.create(queryMap), session);
 			SearchResult result = query.getResult();
+			totalResultCount = result.getTotalMatches();
 			for (Hit hit : result.getHits()) {
 				try {
 					if (hit.getPath() != null) {
@@ -117,7 +120,7 @@ public class DefaultATDWProductRepository implements ATDWProductRepository {
 				resourceResolver.close();
 			}
 		}
-		return atdwProducts;
+		return new ATDWSearchResult(atdwProducts, totalResultCount);
 	}
 
 	@Override

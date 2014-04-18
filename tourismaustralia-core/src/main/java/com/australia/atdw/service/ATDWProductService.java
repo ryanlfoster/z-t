@@ -1,13 +1,12 @@
 package com.australia.atdw.service;
 
-import java.util.Date;
-import java.util.List;
-
-import com.australia.atdw.domain.ATDWProduct;
 import com.australia.atdw.domain.ATDWProductSearchParameters;
+import com.australia.atdw.domain.ATDWSearchResult;
+
+import java.util.Date;
 
 public interface ATDWProductService {
-	public List<ATDWProduct> search(ATDWProductSearchParameters parameters);
+	public ATDWSearchResult search(ATDWProductSearchParameters parameters);
 
 	public void deleteOldProducts(Date updatedBefore);
 }

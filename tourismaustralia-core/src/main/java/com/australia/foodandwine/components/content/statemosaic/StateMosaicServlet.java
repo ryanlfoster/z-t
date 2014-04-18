@@ -24,7 +24,10 @@ import org.apache.sling.api.resource.ValueMap;
 import org.apache.sling.api.servlets.SlingAllMethodsServlet;
 import org.apache.sling.commons.json.JSONException;
 import org.apache.sling.commons.json.JSONObject;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
+import com.australia.foodandwine.components.content.otherExperiences.OtherExperiences;
 import com.australia.utils.LinkUtils;
 import com.australia.utils.TagUtils;
 import com.day.cq.commons.jcr.JcrConstants;
@@ -40,13 +43,18 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 @SlingServlet( resourceTypes="foodandwine/components/content/stateMosaic", selectors="ccs",extensions="json",methods="POST")
 public class StateMosaicServlet extends SlingAllMethodsServlet
 {
-	private String name;
-	private Node node;
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private static final Logger LOG = LoggerFactory.getLogger(StateMosaicServlet.class);
+	private String categoryTagName="";
 	private String path,queryString;
 	private List<StateMosaiacProperties> propertiesList;
-	JSONObject jsonObject;
-	private LinkedList<String> x;
+	
+	private  long limit=10,offset=0;
 	private String[] categoryTags;
+	private String cityTagName;
 	private static final JsonFactory FACTORY = new JsonFactory();
 	private static final ObjectMapper MAPPER = new ObjectMapper();
 
@@ -54,44 +62,50 @@ public class StateMosaicServlet extends SlingAllMethodsServlet
     protected void doPost(SlingHttpServletRequest request, SlingHttpServletResponse response) throws ServletException, IOException {
 		
 		String stateTags=request.getParameter("stateTag").toLowerCase();
-		categoryTags=request.getParameterValues("catogoryArray");
-	TagManager tagManager = request.getResourceResolver().adaptTo(TagManager.class);
-		List<Tag> stateTag = TagUtils.getFoodAndWineCategoryTags(tagManager, categoryTags);
-		//String tagid=stateTag.getTagID();
-		for(Tag tag:stateTag)
+		String flag=request.getParameter("flag");
+		if(flag.equals("default"))
 		{
-			String text=tag.getTagID();
-			text.length();
+			limit=10;
+			offset=0;
 		}
-		//tagid.length();
-		//SELECT * FROM [nt:base] AS s WHERE ISDESCENDANTNODE([/content/food-and-wine]) and [cq:tags] like '%victoria%' and [cq:tags] like '%restaurant%'
-		 
+		categoryTags=request.getParameterValues("catogoryArray");
+		TagManager tagManager = request.getResourceResolver().adaptTo(TagManager.class);
 		PageManager pageManager = request.getResourceResolver().adaptTo(PageManager.class);
-		//Page currentPage = pageManager.getContainingPage(request.getResource());
-		//String[] pageTags = currentPage.getProperties().get("cq:tags", new String[0]);
-		
-		
-	
 		Session session = request.getResourceResolver().adaptTo(Session.class);
 		try {
 			QueryManager queryManager = session.getWorkspace().getQueryManager();
 			propertiesList=new LinkedList<StateMosaiacProperties>();
-			 jsonObject=new JSONObject();
 			for(String s:categoryTags){
-				 queryString="SELECT * FROM [nt:base] AS s WHERE ISDESCENDANTNODE([/content/food-and-wine]) and [cq:tags] like '%"+s.trim().toLowerCase()+"%' and [cq:tags] like '%"+stateTags.trim()+"%'";
-				 
-			Query query = queryManager.createQuery(queryString,Query.JCR_SQL2);
-				query.setLimit(10);
+				queryString="SELECT * FROM [nt:base] AS s WHERE ISDESCENDANTNODE([/content/food-and-wine]) and ([cq:tags] like '%"+s.trim().toLowerCase()+"%' and [cq:tags] like '%"+stateTags.trim()+"%')";
+				Query query = queryManager.createQuery(queryString,Query.JCR_SQL2);
+				query.setOffset(offset);
+				query.setLimit(limit);
 				QueryResult result = query.execute();
 				RowIterator rowIterator = result.getRows();
-				
 				while (rowIterator != null && rowIterator.hasNext()) {
 					Row row = rowIterator.nextRow();
 					path=row.getPath().replace("/jcr:content", "");
 					Page articlePage = pageManager.getPage(path);
 					
 					ValueMap pageProperties = articlePage.getProperties();
+					String[] tagsArray=pageProperties.get("cq:tags", new String[0]);
+					
+					Tag stateTag=TagUtils.getStateTag(tagManager, tagsArray);
+					
+					String stateTitle =stateTag.getTitle().toString();
+					List<Tag> categoryTagList = TagUtils.getFoodAndWineCategoryTags(tagManager, tagsArray);
+					for(Tag tag:categoryTagList)
+					{   
+						if(!categoryTagName.contains(tag.getTitle()))
+							categoryTagName+=tag.getTitle()+",";
+					}
+					Tag cityTag=TagUtils.getCityTag(tagManager, tagsArray);
+					if(cityTag!=null)
+						cityTagName=cityTag.getTitle().toString()+","+stateTitle;
+					String pageTemaplate = articlePage.getTemplate().getName();
+					pageTemaplate.length();
 					String title = articlePage.getTitle();
+					
 					String description=articlePage.getDescription();
 					//description.length();
 					String pagePth=LinkUtils.getHrefFromPath(articlePage.getPath());
@@ -101,21 +115,16 @@ public class StateMosaicServlet extends SlingAllMethodsServlet
 					if (pageImage != null && pageImage.hasContent()) {
 						image = pageImage.getPath() + ".img.jpg";
 					}
-					StateMosaiacProperties bean=new  StateMosaiacProperties(title,description,image,pagePth);
+					StateMosaiacProperties bean=new  StateMosaiacProperties(title,description,image,pagePth,stateTitle,categoryTagName,cityTagName);
+					categoryTagName="";
 					propertiesList.add(bean);
-
+					offset++;
+					limit++;
 				}
 			}
-			
-			jsonObject.put("test", propertiesList);
-			
 		} catch (RepositoryException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (JSONException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+			LOG.error("Exception in query execution {0}",e.getMessage());
+		} 
 		response.setContentType("application/json");
 		response.setCharacterEncoding("UTF-8");
 		JsonGenerator generator = FACTORY.createGenerator(response.getWriter());

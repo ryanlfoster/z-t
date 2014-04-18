@@ -239,14 +239,8 @@ public final class WhatYouCanSee {
 			final List<Content> content =
 				contentFinderService.findContent(languagePath, tagId, Content.ARTICLE_RESOURCE_TEMPLATE, MAX_ITEMS);
 
-			// TODO repeated content for testing only -- REMOVE
-			final List<Content> repeatedContent = new ArrayList<Content>();
-			for(int i = 0; i < 10; i++) {
-				repeatedContent.add(content.get(0));
-			}
-
 			final Tab thingsToDo =
-				new Tab(Constants.TTD_TAB_TITLE, "ttd", Constants.TTD_TAB_VIEW_MORE, repeatedContent,
+				new Tab(Constants.TTD_TAB_TITLE, "ttd", Constants.TTD_TAB_VIEW_MORE, content,
 					Constants.TTD_IMAGE_PATH, Constants.TTD_OUTLINE_IMAGE_PATH);
 			tabs.add(thingsToDo);
 		}
@@ -255,14 +249,8 @@ public final class WhatYouCanSee {
 			final List<Content> content =
 				contentFinderService.findContent(languagePath, tagId, Content.EVENT_RESOURCE_TEMPLATE, MAX_ITEMS);
 
-			// TODO repeated content for testing only -- REMOVE
-			final List<Content> repeatedContent = new ArrayList<Content>();
-			for(int i = 0; i < 10; i++) {
-				repeatedContent.add(content.get(0));
-			}
-
 			final Tab events =
-				new Tab(Constants.EVENTS_TAB_TITLE, "events", Constants.EVENTS_TAB_VIEW_MORE, repeatedContent,
+				new Tab(Constants.EVENTS_TAB_TITLE, "events", Constants.EVENTS_TAB_VIEW_MORE, content,
 					Constants.EVENTS_IMAGE_PATH, Constants.EVENTS_OUTLINE_IMAGE_PATH);
 			tabs.add(events);
 		}

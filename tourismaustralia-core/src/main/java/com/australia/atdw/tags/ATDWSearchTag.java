@@ -75,12 +75,23 @@ public final class ATDWSearchTag extends SimpleTagSupport {
 		pageContext.setAttribute(var, results);
 	}
 
+	public String getVar() {
+		return var;
+	}
+
+	public void setVar(String var) {
+		this.var = var;
+	}
+
 	public String getTerm() {
 		return term;
 	}
 
 	public void setTerm(String term) {
 		this.term = term;
+		if (this.term != null && this.term.trim().isEmpty()) {
+			this.term = null;
+		}
 	}
 
 	public String getCategory() {
@@ -97,6 +108,9 @@ public final class ATDWSearchTag extends SimpleTagSupport {
 
 	public void setState(String state) {
 		this.state = state;
+		if (this.state != null && this.state.trim().isEmpty()) {
+			this.state = null;
+		}
 	}
 
 	public String getRegion() {
@@ -105,6 +119,9 @@ public final class ATDWSearchTag extends SimpleTagSupport {
 
 	public void setRegion(String region) {
 		this.region = region;
+		if (this.region != null && this.region.trim().isEmpty()) {
+			this.region = null;
+		}
 	}
 
 	public String getCity() {
@@ -113,5 +130,24 @@ public final class ATDWSearchTag extends SimpleTagSupport {
 
 	public void setCity(String city) {
 		this.city = city;
+		if (this.city != null && this.city.trim().isEmpty()) {
+			this.city = null;
+		}
+	}
+
+	public Integer getPage() {
+		return page;
+	}
+
+	public void setPage(Integer page) {
+		this.page = page;
+	}
+
+	public Integer getCount() {
+		return count;
+	}
+
+	public void setCount(Integer count) {
+		this.count = count;
 	}
 }

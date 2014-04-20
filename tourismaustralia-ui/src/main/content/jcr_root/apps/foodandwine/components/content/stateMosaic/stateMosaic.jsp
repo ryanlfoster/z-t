@@ -24,7 +24,10 @@ $(document).ready(function(){
 	         else
 	         {
 				var uncheked= $("label[for='"+x+"']").find(".category-title").text()
-					catogoryArray.pop(uncheked);
+				if($.inArray(uncheked, catogoryArray)!==-1)
+                    catogoryArray = jQuery.grep(catogoryArray, function(value) {
+						 return value != uncheked;
+					});
 	         }
 			 $.ajax({
              type : "POST",

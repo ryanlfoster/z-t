@@ -29,8 +29,8 @@
 							                    <span class="mosaic-socialtiles-icon"><img src=<c:url value="${tile.iconPath}"/> alt=""/></span>
 							                    <!-- social icon end -->
 							
-							                </div>
-							            </div>
+											</div>
+										</div>
 							
 							            <div class="mosaic-column-back mosaic-content flip-back mosaic-back theme-mosaic-social-back">
 							                <div class="vertical-container">
@@ -38,7 +38,7 @@
 							
 							                        <!-- back content start -->
 							                        <p class="type-destination"><strong>${tile.title}</strong><br><br></p>
-							                        <a href="${tile.link}">See more</a>
+							                        <a href="${tile.link}"><fmt:message key="See More"/></a>
 							                        <!-- back content end -->
 							
 							                    </div>

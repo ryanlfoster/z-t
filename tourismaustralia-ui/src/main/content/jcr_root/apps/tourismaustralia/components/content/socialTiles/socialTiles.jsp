@@ -21,20 +21,14 @@
 	    <div class="row l-row-collapse">
 	
 	        <div class="row">
-				<!-- 3 TILES BEGIN -->
 				<c:forEach items="${socialTiles.tilesList}" var="loopTile" begin="0" end="2"> 
 					<c:set var="tile" scope="request" value="${loopTile}"/>
 					<cq:include script="tile.jsp"/>
 				</c:forEach>
-				<!-- 3 TILES END -->
 				<c:if test="${socialTiles.hasNine}">
-				<!-- 9 TILES START -->
 				<div class="row">
-					<!-- Tile 4 -->
 					<c:set var="tile" scope="request" value= "${socialTiles.tilesList[3]}"/>
 					<cq:include script="tile.jsp"/>
-					<!-- Tiles 5-8 -->
-						<!-- grid of 4 items start -->
 							<div class="col-xs-12 col-sm-4 mosaic-grid-4 l-row-collapse">
 							
 							    <div class="row mosaic-grid-2">
@@ -50,7 +44,18 @@
 							        </div>
 							        <div class="row mosaic-grid-2-content">
 							            <div class="col-xs-12">
-							                {{> mosaicitemsocial_detail }}
+							                <div class="mosaic-item-detail-container">
+											    <!-- content start -->
+											    <div class="l-h-center theme-mosaic-social-detail">
+											
+											        <p>I got to cross one of the big items from my bucket list - scubadiving at the Great Barrier Reef!</p>
+											        <p>The Great Barrier Reef, Queensland</p>
+											        <p>Uploaded by: <a href="#">notsupposedto</a></p>
+											
+											    </div>
+											    <!-- content end -->
+											
+											</div>
 							            </div>
 							        </div>
 							    </div>
@@ -68,17 +73,26 @@
 							        </div>
 							        <div class="row mosaic-grid-2-content">
 							            <div class="col-xs-12">
-							                {{> mosaicitemsocial_detail }}
+											<div class="mosaic-item-detail-container">
+											
+											    <!-- content start -->
+											    <div class="l-h-center theme-mosaic-social-detail">
+											
+											        <p>I got to cross one of the big items from my bucket list - scubadiving at the Great Barrier Reef!</p>
+											        <p>The Great Barrier Reef, Queensland</p>
+											        <p>Uploaded by: <a href="#">notsupposedto</a></p>
+											
+											    </div>
+											    <!-- content end -->
+											
+											</div>
 							            </div>
 							        </div>
 							    </div>
 							</div>
-							<!-- grid of 4 items start end -->
-					<!-- Tile 9 -->
 					<c:set var="tile" scope="request" value= "${socialTiles.tilesList[8]}"/>
 					<cq:include script="tile.jsp"/>
 				</div>
-				<!-- 9 TILES END -->
 				</c:if>
 	
 	        </div>

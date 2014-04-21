@@ -94,16 +94,16 @@ public class SocialTiles {
 				StringUtils.EMPTY), properties.get("link/" + Link.PROP_TITLE,
 				StringUtils.EMPTY));
 
-		for (int tabNum=2; tabNum<=10; tabNum++)
-		{
+		for (int tabNum=2; tabNum<=10; tabNum++) {
 			tile = new TileField();
 			tile.setIconPath(properties.get("tab" + tabNum + "/iconPath", StringUtils.EMPTY));
 			tile.setImagePath(properties.get("tab" + tabNum + "/imagePath", StringUtils.EMPTY));
 			tile.setTitle(properties.get("tab" + tabNum + "/title", StringUtils.EMPTY));
 			tile.setText(properties.get("tab" + tabNum + "/text", StringUtils.EMPTY));
 			tile.setLink(properties.get("tab" + tabNum + "/link", StringUtils.EMPTY));
-			if (tile.getIsValid())
+			if (tile.getIsValid()) {
 				tilesList.add(tile);
+			}
 		}
 		
 	}

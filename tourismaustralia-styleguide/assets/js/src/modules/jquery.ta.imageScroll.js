@@ -194,7 +194,6 @@
                 this.mediaHeight = this.$imageHolder.data('height') || this.settings.mediaHeight;
                 this.coverRatio = this.$imageHolder.data('cover-ratio') || this.settings.coverRatio;
                 this.extraHeight = this.$imageHolder.data('extra-height') || this.settings.extraHeight;
-
                 this.ticking = false;
                 if (this.image) {
                     this.$scrollingElement = $('<img/>', {

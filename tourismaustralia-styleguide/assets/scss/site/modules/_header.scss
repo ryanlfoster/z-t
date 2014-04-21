@@ -86,6 +86,7 @@ $navigation-bar-height: pxtoem(90px);
     width: 100%;
     z-index: 999;
     position: fixed;
+    -webkit-transform: translateZ(1px);
 }
 
 // don't fix in style guide...
@@ -1250,4 +1251,15 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
     .is-active > a {
         color: $megamenu-link-hover-colour;
     }
+}
+
+.megamenu-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    background: #000;
+    background: rgba(0,0,0,.5);
 }

@@ -45,20 +45,25 @@ responsiveImageHelper.setContainerHeight = function(){
 
 $(window).bind('load', function() {
 	responsiveImageHelper.bindEvents();
+	
+});
 
+$(function(){
 
+	setTimeout(function(){
+			// Used for new parallax
+		var touch = Modernizr.touch,
+			csstransforms3d = Modernizr.csstransforms3d;
 
-	// Used for new parallax
-	var touch = Modernizr.touch,
-		csstransforms3d = Modernizr.csstransforms3d;
+		$('.img-holder').imageScroll({
+			holderClass: 'parallaxHolder',
+			extraHeight: 200,
+			coverRatio: 0.50,
+			container: $('#main-content'),
+			parallax: csstransforms3d,
+			touch: touch
+		});
 
-	$('.img-holder').imageScroll({
-		holderClass: 'parallaxHolder',
-		extraHeight: 200,
-		coverRatio: 0.50,
-		container: $('#main-content'),
-		parallax: csstransforms3d,
-		touch: touch
-	});
+	}, 1000);
 	
 });

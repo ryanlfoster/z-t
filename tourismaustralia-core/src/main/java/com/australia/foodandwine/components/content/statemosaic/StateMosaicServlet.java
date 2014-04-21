@@ -68,6 +68,11 @@ public class StateMosaicServlet extends SlingAllMethodsServlet
 			limit=10;
 			offset=0;
 		}
+		if(flag.equals("showMore"))
+		{
+			limit=20;
+			offset=10;
+		}
 		categoryTags=request.getParameterValues("catogoryArray");
 		TagManager tagManager = request.getResourceResolver().adaptTo(TagManager.class);
 		PageManager pageManager = request.getResourceResolver().adaptTo(PageManager.class);
@@ -89,7 +94,7 @@ public class StateMosaicServlet extends SlingAllMethodsServlet
 					
 					ValueMap pageProperties = articlePage.getProperties();
 					String[] tagsArray=pageProperties.get("cq:tags", new String[0]);
-					
+					String categoryLogo =pageProperties.get("categoryLogoPath","");
 					Tag stateTag=TagUtils.getStateTag(tagManager, tagsArray);
 					
 					String stateTitle =stateTag.getTitle().toString();
@@ -103,7 +108,7 @@ public class StateMosaicServlet extends SlingAllMethodsServlet
 					if(cityTag!=null)
 						cityTagName=cityTag.getTitle().toString()+","+stateTitle;
 					String pageTemaplate = articlePage.getTemplate().getName();
-					pageTemaplate.length();
+					
 					String title = articlePage.getTitle();
 					
 					String description=articlePage.getDescription();
@@ -115,7 +120,7 @@ public class StateMosaicServlet extends SlingAllMethodsServlet
 					if (pageImage != null && pageImage.hasContent()) {
 						image = pageImage.getPath() + ".img.jpg";
 					}
-					StateMosaiacProperties bean=new  StateMosaiacProperties(title,description,image,pagePth,stateTitle,categoryTagName,cityTagName);
+					StateMosaiacProperties bean=new  StateMosaiacProperties(title,description,image,pagePth,stateTitle,categoryTagName,cityTagName,categoryLogo);
 					categoryTagName="";
 					propertiesList.add(bean);
 					offset++;

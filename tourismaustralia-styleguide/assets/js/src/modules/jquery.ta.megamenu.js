@@ -160,6 +160,11 @@
 
     // Setup Desktop Events
     Plugin.prototype.desktopEvents = function (scope, event) {
+        $(document).on(event, function(e) {
+            var $el = $(e.target);
+            scope.closeNavPanels(scope, $el);
+        });
+
         $(scope.element).find(scope.options.mm_all_toggle_panel_nav).on(event, function (e) {
             e.preventDefault();
             var $el = $(e.currentTarget);
@@ -261,6 +266,13 @@
         $(scope.element).removeClass('is-open');
         $('html, body').css({'overflow': ''});
         scope.checkHeartThisSize(scope);
+    };
+
+    // Close All Panels
+    Plugin.prototype.closeNavPanels = function(scope, elm) {
+        if ( elm.closest('.has-children').length < 1 ) {
+            $(scope.element).find('.is-open').removeClass('is-open');
+        }
     };
 
     // Toggle Nav Panel

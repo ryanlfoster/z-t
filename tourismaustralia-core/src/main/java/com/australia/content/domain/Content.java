@@ -1,4 +1,4 @@
-package com.australia.content.model;
+package com.australia.content.domain;
 
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ValueMap;

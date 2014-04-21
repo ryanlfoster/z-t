@@ -1,8 +1,11 @@
 package com.australia.www.components.content.whatyoucansee;
 
-import com.australia.content.model.Content;
-import com.australia.content.service.ContentFinderException;
-import com.australia.content.service.ContentFinderService;
+import com.australia.content.domain.Content;
+import com.australia.content.domain.ContentSearchParametersBuilder;
+import com.australia.content.domain.ContentSearchResult;
+import com.australia.content.domain.ContentType;
+import com.australia.content.service.ContentSearchException;
+import com.australia.content.service.ContentSearchService;
 import com.australia.utils.PathUtils;
 import com.australia.utils.TagUtils;
 import com.citytechinc.cq.component.annotations.*;
@@ -178,11 +181,11 @@ public final class WhatYouCanSee {
 
 	private final List<Tab> tabs = new ArrayList<Tab>();
 
-	public WhatYouCanSee(final SlingHttpServletRequest request) throws ContentFinderException {
+	public WhatYouCanSee(final SlingHttpServletRequest request) throws ContentSearchException {
 
 		final SlingBindings bindings = (SlingBindings) request.getAttribute(SlingBindings.class.getName());
 		final SlingScriptHelper slingScriptHelper = bindings.getSling();
-		final ContentFinderService contentFinderService = slingScriptHelper.getService(ContentFinderService.class);
+		final ContentSearchService contentSearchService = slingScriptHelper.getService(ContentSearchService.class);
 
 		final Resource resource = request.getResource();
 		final ValueMap properties = resource.adaptTo(ValueMap.class);
@@ -232,25 +235,29 @@ public final class WhatYouCanSee {
 		optionalTabPath9 = properties.get(Constants.NAME_OPTIONAL_TAB_PATH_9, String.class);
 		final Resource optionalTabResource9 = resourceResolver.getResource(optionalTabPath9);
 
-		// The language path is used as the base path in queries to ensure only articles in this language are chosen
-		final String languagePath = PathUtils.getLanguageResource(resource).getPath();
+		final ContentSearchParametersBuilder baseBuilder = new ContentSearchParametersBuilder();
+		baseBuilder.setCount(MAX_ITEMS);
+		baseBuilder.setPage(1);
+		baseBuilder.setLanguagePath(PathUtils.getLanguageResource(resource).getPath());
 
 		if (showThingsToDo) {
-			final List<Content> content =
-				contentFinderService.findContent(languagePath, tagId, Content.ARTICLE_RESOURCE_TEMPLATE, MAX_ITEMS);
+
+			baseBuilder.setContentType(ContentType.ARTICLE);
+			final ContentSearchResult content = contentSearchService.search(baseBuilder.build());
 
 			final Tab thingsToDo =
-				new Tab(Constants.TTD_TAB_TITLE, "ttd", Constants.TTD_TAB_VIEW_MORE, content,
+				new Tab(Constants.TTD_TAB_TITLE, "ttd", Constants.TTD_TAB_VIEW_MORE, content.getContent(),
 					Constants.TTD_IMAGE_PATH, Constants.TTD_OUTLINE_IMAGE_PATH);
 			tabs.add(thingsToDo);
 		}
 
 		if (showEvents) {
-			final List<Content> content =
-				contentFinderService.findContent(languagePath, tagId, Content.EVENT_RESOURCE_TEMPLATE, MAX_ITEMS);
+
+			baseBuilder.setContentType(ContentType.EVENT);
+			final ContentSearchResult content = contentSearchService.search(baseBuilder.build());
 
 			final Tab events =
-				new Tab(Constants.EVENTS_TAB_TITLE, "events", Constants.EVENTS_TAB_VIEW_MORE, content,
+				new Tab(Constants.EVENTS_TAB_TITLE, "events", Constants.EVENTS_TAB_VIEW_MORE, content.getContent(),
 					Constants.EVENTS_IMAGE_PATH, Constants.EVENTS_OUTLINE_IMAGE_PATH);
 			tabs.add(events);
 		}

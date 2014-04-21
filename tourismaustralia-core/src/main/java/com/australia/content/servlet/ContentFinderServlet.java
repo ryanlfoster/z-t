@@ -1,8 +1,8 @@
 package com.australia.content.servlet;
 
-import com.australia.content.model.Content;
-import com.australia.content.service.ContentFinderException;
-import com.australia.content.service.ContentFinderService;
+import com.australia.content.domain.ContentType;
+import com.australia.content.service.ContentSearchException;
+import com.australia.content.service.ContentSearchService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.felix.scr.annotations.Reference;
 import org.apache.felix.scr.annotations.sling.SlingServlet;
@@ -25,7 +25,7 @@ public class ContentFinderServlet extends SlingAllMethodsServlet {
 	private final ObjectMapper mapper = new ObjectMapper();
 
 	@Reference
-	private ContentFinderService service;
+	private ContentSearchService service;
 
 	@Override protected void doGet(final SlingHttpServletRequest request, final SlingHttpServletResponse response)
 		throws ServletException, IOException {
@@ -43,13 +43,13 @@ public class ContentFinderServlet extends SlingAllMethodsServlet {
 
 		try {
 
-			final List<Content> content = service.findContent(path, tagId, template, limit);
+			final List<ContentType.Content> content = service.findContent(path, tagId, template, limit);
 
 			response.setContentType("application/json");
 			response.setStatus(HttpServletResponse.SC_OK);
 			mapper.writeValue(response.getWriter(), content);
 
-		} catch (ContentFinderException e) {
+		} catch (ContentSearchException e) {
 
 			response.getWriter().append(e.getMessage());
 			response.sendError(HttpServletResponse.SC_INTERNAL_SERVER_ERROR);

@@ -150,6 +150,10 @@ $navigation-bar-height: pxtoem(90px);
         margin: 0;
     }
 
+    .notice-summary {        
+        font-size: pxtoem(12px);
+    }
+    
     .notice-title {
         font-weight: bold;
         font-family: $font-family-base-b;

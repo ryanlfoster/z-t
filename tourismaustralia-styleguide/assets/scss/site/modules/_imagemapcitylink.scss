@@ -194,13 +194,14 @@ a.map-pin-btn {
 .map-image-icon {
   left: -30px;
   position: absolute;
-  top: -6px;
+  top: -2px;
 }
 
 .map-btn-heading {
   font-family: "ProximaNova Regular", Helvetica, Arial, sans-serif;
   font-size: 1.125em;
   display: block;
+  margin-bottom: pxtoem(10px);
 }
 
 

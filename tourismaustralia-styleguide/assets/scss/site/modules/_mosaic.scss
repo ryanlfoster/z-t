@@ -43,13 +43,44 @@
   z-index: 2;
 }
 
-.mosaic-item.outbound-link a {
-  color: $btn-default-color;
 
-  p {
-    color: $btn-default-color;
-  }
+
+.mosaic-item .outbound-link a {
+  text-decoration: none;
 }
+
+.mosaic-item .theme-nature a {
+  @extend .theme-nature;
+}
+.mosaic-item .theme-outback a { 
+  @extend .theme-outback;
+}
+.mosaic-item .theme-aboriginal a { 
+  @extend .theme-aboriginal;
+}
+.mosaic-item .theme-food a { 
+  @extend .theme-food;
+}
+.mosaic-item .theme-arts a { 
+  @extend .theme-arts;
+}
+.mosaic-item .theme-islands a { 
+  @extend .theme-islands;
+}
+.mosaic-item .theme-beaches a { 
+  @extend .theme-beaches;
+}
+.mosaic-item .theme-sports a { 
+  @extend .theme-sports;
+}
+.mosaic-item .theme-adventure a { 
+  @extend .theme-adventure;
+}
+
+.mosaic-item .theme-discover a { 
+  @extend .theme-discover;
+}
+
 
 /* fix for inconsistent height issue */
 .col-md-6 .col-sm-6 .mosaic-item,
@@ -72,6 +103,21 @@
     p {
       margin: pxtoem(4px) 0 0 0;
     }
+
+    .type-destination.line-through-line-wrapper {
+      display: inline-block;;
+      position: relative;
+    }
+}
+
+.icon-generic {
+  display: block;
+  margin: 0 auto;
+}
+
+.mosaic-link {
+  padding: 0 20%;
+
 }
 
 /* Destination */

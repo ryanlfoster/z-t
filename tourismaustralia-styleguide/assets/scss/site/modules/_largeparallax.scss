@@ -19,10 +19,15 @@
 }
 
 /* Different states for module */
-.largeparallax--withimages { }
-.largeparallax--withtext { }
-.largeparallax--withlabel { }
-.largeparallax--withsocial { }
+.parallaximage_fullwidth--images { }
+.parallaximage_fullwidth--text { }
+.parallaximage_fullwidth--label { }
+.parallaximage_fullwidth--social { 
+	.largeparallax {
+		padding-bottom: pxtoem(25px);
+	}
+
+}
 
 /* Styling for text overlay on main image */
 .largeparallax-text {
@@ -37,6 +42,7 @@
 		display: table;
 		height: inherit;
 		width: inherit;
+		margin-top: pxtoem(-15px);
 	}
 
 	.inside {
@@ -47,7 +53,7 @@
 
 	h3 {
 		color: #fff;
-		font-size: pxtoem(30px);
+		font-size: pxtoem(40px);
 		
 		@include breakpoint(sm) {
 			font-size: pxtoem(50px);
@@ -71,6 +77,9 @@
 	margin-top: pxtoem(-70px);
 	position: relative;
 	z-index: 2;
+
+	/* Strange styling to fix ipad % width rounding on elements */
+	width: 103%;
 
 	@include clearfix();
 

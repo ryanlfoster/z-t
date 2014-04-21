@@ -645,6 +645,22 @@ $footerBackgroundColour: #0a334c;
   overflow-x: hidden;
 }
 
+.l-hideonmobile {
+  display: none;
+
+  @include breakpoint(md) {
+    display: block;
+  }
+}
+
+.l-hideondesktop {
+  display: block;
+  
+  @include breakpoint(md) {
+    display: none;
+  }
+}
+
 #main-header {
 	position: relative;
   z-index: 5;

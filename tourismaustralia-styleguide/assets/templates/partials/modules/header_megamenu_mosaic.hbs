@@ -5,59 +5,150 @@ title: Header MM Mosaic
 
     {{! keep new content in here... }}
 
-<!--     <ul class="nav-bar-panel-nav">
+    <ul class="nav-bar-panel-nav l-hideondesktop">
         <li><a href="#">Link Text</a></li>
         <li><a href="#">Link Text</a></li>
         <li><a href="#">Link Text</a></li>
         <li><a href="#">Link Text</a></li>
-    </ul> -->
+        <li><a href="#">Link Text</a></li>
+        <li><a href="#">Link Text</a></li>
+        <li><a href="#">Link Text</a></li>
+        <li><a href="#">Link Text</a></li>
+        <li><a href="#">Link Text</a></li>
+        <li><a href="#">Link Text</a></li>
+        <li><a href="#">Link Text</a></li>
+    </ul>
 
 
-    <div class="megamenu-mosaic-left">
+    <div class="megamenu-mosaic-left l-hideonmobile">
     	<h3 class="megamenu-mosaic-title">Experience</h4>
 
     	<div class="megamenu-mosaic-item">
-    		{{> mosaicitemlinkonly }}
+	    	{{#parseJSON '{
+		        "mosaic_theme" : "nature",
+		        "mosaic_title" : "Nature &amp; Wildlife",
+		        "src": "imgs/icons/beaches_white_outline.png",
+		        "mosaic_image": "meganav-img1"
+		    }'}}
+		        {{> mosaicitemlinkonly }}
+		    {{/parseJSON}}
     	</div>
     	<div class="megamenu-mosaic-item">
-    		{{> mosaicitemlinkonly }}
+	    	{{#parseJSON '{
+		        "mosaic_theme" : "outback",
+		        "mosaic_title" : "Outback Australia",
+		        "src": "imgs/icons/beaches_white_outline.png",
+		        "mosaic_image": "meganav-img2"
+		    }'}}
+		        {{> mosaicitemlinkonly }}
+		    {{/parseJSON}}
     	</div>
     	<div class="megamenu-mosaic-item">
-    		{{> mosaicitemlinkonly }}
+	    	{{#parseJSON '{
+		        "mosaic_theme" : "aboriginal",
+		        "mosaic_title" : "Aboriginal Australia",
+		        "src": "imgs/icons/beaches_white_outline.png",
+		        "mosaic_image": "meganav-img3"
+		    }'}}
+		        {{> mosaicitemlinkonly }}
+		    {{/parseJSON}}
     	</div>
     	<div class="megamenu-mosaic-item">
-    		{{> mosaicitemlinkonly }}
+	    	{{#parseJSON '{
+		        "mosaic_theme" : "food",
+		        "mosaic_title" : "Food &amp; Wine",
+		        "src": "imgs/icons/beaches_white_outline.png",
+		        "mosaic_image": "meganav-img4"
+		    }'}}
+		        {{> mosaicitemlinkonly }}
+		    {{/parseJSON}}
     	</div>
     	<div class="megamenu-mosaic-item">
-    		{{> mosaicitemlinkonly }}
+	    	{{#parseJSON '{
+		        "mosaic_theme" : "arts",
+		        "mosaic_title" : "Arts &amp; Culture",
+		        "src": "imgs/icons/beaches_white_outline.png",
+		        "mosaic_image": "meganav-img5"
+		    }'}}
+		        {{> mosaicitemlinkonly }}
+		    {{/parseJSON}}
     	</div>
     	<div class="megamenu-mosaic-item">
-    		{{> mosaicitemlinkonly }}
+	    	{{#parseJSON '{
+		        "mosaic_theme" : "islands",
+		        "mosaic_title" : "Islands",
+		        "src": "imgs/icons/beaches_white_outline.png",
+		        "mosaic_image": "meganav-img6"
+		    }'}}
+		        {{> mosaicitemlinkonly }}
+		    {{/parseJSON}}
     	</div>
     	<div class="megamenu-mosaic-item">
-    		{{> mosaicitemlinkonly }}
+	    	{{#parseJSON '{
+		        "mosaic_theme" : "beaches",
+		        "mosaic_title" : "Beaches",
+		        "src": "imgs/icons/beaches_white_outline.png",
+		        "mosaic_image": "meganav-img7"
+		    }'}}
+		        {{> mosaicitemlinkonly }}
+		    {{/parseJSON}}
     	</div>
     	<div class="megamenu-mosaic-item">
-    		{{> mosaicitemlinkonly }}
+	    	{{#parseJSON '{
+		        "mosaic_theme" : "sports",
+		        "mosaic_title" : "Sports",
+		        "src": "imgs/icons/beaches_white_outline.png",
+		        "mosaic_image": "meganav-img8"
+		    }'}}
+		        {{> mosaicitemlinkonly }}
+		    {{/parseJSON}}
     	</div>
     	<div class="megamenu-mosaic-item">
-    		{{> mosaicitemlinkonly }}
+	    	{{#parseJSON '{
+		        "mosaic_theme" : "adventure",
+		        "mosaic_title" : "Adventure",
+		        "src": "imgs/icons/beaches_white_outline.png",
+		        "mosaic_image": "meganav-img9"
+		    }'}}
+		        {{> mosaicitemlinkonly }}
+		    {{/parseJSON}}
     	</div>
 
     </div>
-    <div class="megamenu-mosaic-right">
+    <div class="megamenu-mosaic-right l-hideonmobile">
     	<h3 class="megamenu-mosaic-title">Discover</h4>
 
     	<div class="megamenu-mosaic-item">
-    		{{> mosaicitemlinkonly }}
+	    	{{#parseJSON '{
+		        "mosaic_theme" : "discover",
+		        "mosaic_title" : "Trip Ideas",
+		        "src": "imgs/icons/beaches_white_outline.png",
+		        "mosaic_image": "meganav-img10"
+		    }'}}
+		        {{> mosaicitemlinkonly }}
+		    {{/parseJSON}}
     	</div>
 
     	<div class="megamenu-mosaic-item">
-    		{{> mosaicitemlinkonly }}
+	    	{{#parseJSON '{
+		        "mosaic_theme" : "discover",
+		        "mosaic_title" : "What\'s On",
+		        "src": "imgs/icons/beaches_white_outline.png",
+		        "mosaic_image": "meganav-img11"
+		    }'}}
+		        {{> mosaicitemlinkonly }}
+		    {{/parseJSON}}
     	</div>
 
     	<div class="megamenu-mosaic-item">
-    		{{> mosaicitemlinkonly }}
+	    	{{#parseJSON '{
+		        "mosaic_theme" : "discover",
+		        "mosaic_title" : "Youth Travel",
+		        "src": "imgs/icons/beaches_white_outline.png",
+		        "mosaic_image": "meganav-img12"
+		    }'}}
+		        {{> mosaicitemlinkonly }}
+		    {{/parseJSON}}
     	</div>
 
     </div>

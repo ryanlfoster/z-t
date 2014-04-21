@@ -52,10 +52,6 @@
   border-bottom: 1px solid #fff;
 }
 
-.theme-nature      {
-  background: $category-colour-nature;
-  color: $type-category-colour-secondary;
-}
 .theme-nature      { 
   background: $category-colour-nature; 
   color: $type-category-colour-secondary;
@@ -91,4 +87,8 @@
 .theme-adventure   { 
   background: $category-colour-adventure;
   color: $type-category-colour-primary; 
+}
+.theme-discover   { 
+  background: $category-colour-discover;
+  color: $type-category-colour-secondary; 
 }

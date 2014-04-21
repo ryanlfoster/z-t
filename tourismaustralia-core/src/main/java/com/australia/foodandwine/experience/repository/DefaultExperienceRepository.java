@@ -19,6 +19,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.australia.atdw.repository.DefaultATDWProductRepository;
+import com.australia.foodandwine.components.content.search.Search;
 import com.australia.foodandwine.experience.domain.Experience;
 import com.australia.foodandwine.experience.domain.ExperienceSearchParameters;
 import com.australia.foodandwine.experience.domain.ExperienceSearchResult;

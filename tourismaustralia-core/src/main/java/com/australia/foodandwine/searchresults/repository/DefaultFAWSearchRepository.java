@@ -93,7 +93,7 @@ public class DefaultFAWSearchRepository implements FAWSearchRepository {
 				} else {
 					queryMap.put(QueryUtils.ORDER_BY_SORT, QueryUtils.DESC);
 				}
-				queryMap.put(QueryUtils.OFFSET, Long.toString((parameters.getPage() - 1) * parameters.getCount()));
+				queryMap.put(QueryUtils.OFFSET, Long.toString((parameters.getPage() - 1)));
 				queryMap.put(QueryUtils.LIMIT, Long.toString(parameters.getCount()));
 				Query query = builder.createQuery(PredicateGroup.create(queryMap), session);
 				result = query.getResult();

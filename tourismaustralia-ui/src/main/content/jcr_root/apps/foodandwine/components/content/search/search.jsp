@@ -10,7 +10,7 @@
 	data-searchurl="${search.searchPath}">
 	<c:if test="${search.totalSearchResultsCount > 0}">
 	<h3 class="form-h3 l-padding-top-xs-2 l-padding-bottom-xs-0-5">${search.totalSearchResultsCount}
-		Search results for: <strong></strong>
+		Search results for: <strong>${search.searchParameter}</strong>
 	</h3>
 	</c:if>
 	<input
@@ -39,7 +39,7 @@
 
 			<!-- CATEGORY DROP DOWN -->
 			<div class="faw-category-mosaic-drop-down">
-				<select class="input-select input-select-small">
+				<select class="input-select input-select-small" id="categoryDropdown">
 					<option value="" selected="selected" disabled="">Filter by
 						category</option>
 					<option value="restaurants">Restaurants</option>
@@ -54,7 +54,7 @@
 			<!-- END: CATEGORY DROP DOWN -->
 
 			<!-- STATE DROP DOWN -->
-			<div class="faw-category-mosaic-drop-down">
+			<div class="faw-category-mosaic-drop-down" id="stateDropdown">
 				<select class="input-select input-select-small">
 					<option value="" selected="selected" disabled="">Filter by
 						location</option>
@@ -108,7 +108,7 @@
     		<span class="mosaic-item-overlay mosaic-item-overlay-share">
          		<span class="mosaic-item-overlay-share-container">
              		<span class="mosaic-item-overlay-share-copy">
-                		Looking forward AS ALWAYS to seeing you all @eveleighmarket @carriageworks tomorrow! All you need is an empty basket to fill with...
+                		${exp.pageDescription}
               			<br><br>
               			<strong>kylie_kwong on Instagram</strong>
             		</span>
@@ -147,7 +147,7 @@
     <span class="mosaic-item-overlay mosaic-item-overlay-share">
          <span class="mosaic-item-overlay-share-container">
              <span class="mosaic-item-overlay-share-copy">
-                Looking forward AS ALWAYS to seeing you all @eveleighmarket @carriageworks tomorrow! All you need is an empty basket to fill with...
+                ${exp.pageDescription}
               <br><br>
               <strong>kylie_kwong on Instagram</strong>
             </span>
@@ -223,7 +223,7 @@
        <span class="mosaic-item-overlay mosaic-item-overlay-share">
          <span class="mosaic-item-overlay-share-container">
              <span class="mosaic-item-overlay-share-copy">
-                Looking forward AS ALWAYS to seeing you all @eveleighmarket @carriageworks tomorrow! All you need is an empty basket to fill with...
+                ${exp.pageDescription}
               <br><br>
               <strong>kylie_kwong on Instagram</strong>
             </span>
@@ -302,7 +302,7 @@
             ${exp.pageDescription}
             <br><br>
             <span class="mosaic-item-description-copy-link"><strong>Read more</strong></span>
-            <strong class="mosaic-item-description-categories"><em>Restaurant, Places, People</em></strong>
+            <strong class="mosaic-item-description-categories"><em>${exp.primaryCategory}</em></strong>
         </span>
     </span>
 
@@ -350,7 +350,7 @@
     <span class="mosaic-item-overlay mosaic-item-overlay-share">
          <span class="mosaic-item-overlay-share-container">
              <span class="mosaic-item-overlay-share-copy">
-                Looking forward AS ALWAYS to seeing you all @eveleighmarket @carriageworks tomorrow! All you need is an empty basket to fill with...
+               ${exp.pageDescription}
               <br><br>
               <strong>kylie_kwong on Instagram</strong>
             </span>
@@ -477,13 +477,12 @@
     <span class="mosaic-item-overlay mosaic-item-overlay-share">
          <span class="mosaic-item-overlay-share-container">
              <span class="mosaic-item-overlay-share-copy">
-                Looking forward AS ALWAYS to seeing you all @eveleighmarket @carriageworks tomorrow! All you need is an empty basket to fill with...
+                ${exp.pageDescription}
               <br><br>
               <strong>kylie_kwong on Instagram</strong>
             </span>
         </span>
     </span>
-
 </a>
                 </div>
                     </c:if>
@@ -493,7 +492,7 @@
     </div>
 
     </div>
-    <p class="type-spacing-120">
+    <p class="type-spacing-120" data-searchurl="${search.searchPath}" >
         <a  class="btn-secondary btn-auto-size" >Show more Results</a>
     </p>
 	</div>

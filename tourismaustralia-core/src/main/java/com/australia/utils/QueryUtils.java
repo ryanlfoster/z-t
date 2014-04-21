@@ -25,6 +25,7 @@ public class QueryUtils {
 	public static final String WILDCARD = "*";
 	public static final String RELPATH = ".relPath";
 	public static final String AND = ".and";
+	public static final String ASC = "asc";
 
 	public static final void addProperty(Map<String, String> queryMap, int propertyNumber, String property, String value) {
 		queryMap.put(propertyNumber + SEPERATOR + PROPERTY, property);
@@ -32,7 +33,7 @@ public class QueryUtils {
 	}
 
 	public static final void addFullText(Map<String, String> queryMap, int propertyNumber, String text) {
-		queryMap.put(propertyNumber + SEPERATOR + FULLTEXT, text + "~");
+		queryMap.put(propertyNumber + SEPERATOR + FULLTEXT, text + "*~");
 		queryMap.put(propertyNumber + SEPERATOR + FULLTEXT + RELPATH, NameConstants.NN_CONTENT);
 	}
 

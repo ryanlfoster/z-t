@@ -89,8 +89,9 @@ font-size: pxtoem(12px);
 
 	li {
 		display: inline-block;
-		margin: 0 5px;
+		margin: 0 2px;
 		position: relative;
+		font-size: pxtoem(18px);
 
 		@include breakpoint(md) {
 			display: block;
@@ -109,23 +110,16 @@ font-size: pxtoem(12px);
 		font-weight: bold;
 		text-decoration: none;
 
-		&:after {				
-			background: url(../imgs/icons/icon-down.gif) no-repeat left top;
-			content: "";
-			height: 10px;
-			position: absolute;
-			right: 50%;
-			top: -20px;
-			width: 20px;
-			margin-right: -10px;
-
-
-			@include breakpoint(md) {
-				top: 0;
-				right: -16px;
-				width: 10px;
+		@include breakpoint(md) {
+			&:after {				
+				background: url(../imgs/icons/icon-right.gif) no-repeat left top;
+				content: "";
 				height: 20px;
-				background-image: url(../imgs/icons/icon-right.gif);
+				margin-right: -10px;
+				position: absolute;
+				right: -16px;
+				top: 0;
+				width: 10px;
 			}
 		}
 	}

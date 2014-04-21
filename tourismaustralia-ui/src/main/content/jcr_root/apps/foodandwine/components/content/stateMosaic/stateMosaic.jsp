@@ -8,6 +8,8 @@
 <script type="text/javascript">
 
 $(document).ready(function(){
+	 $(".btn-secondary").hide();
+	 $(".mosaicgridchanger").hide();
 	var stateTag=$(".icon-map-black-active " ).text();
     var catogoryArray=new Array();
     var source   = $("#stateMosaic").html();
@@ -17,7 +19,8 @@ $(document).ready(function(){
 			 var x=$(this).attr('id');
 		     if($(this).is(":checked"))
 	         {
-	             var checked= $("label[for='"+x+"']").find(".category-title").text();
+	             var checked=$("label[for='"+x+"']").find(".category-title").text();
+	             //alert(checked);
 	             if($.inArray(checked, catogoryArray)===-1)
 	            	catogoryArray.push(checked);
 	         }
@@ -39,7 +42,12 @@ $(document).ready(function(){
                  flag:flag
 			 },
 			 success : function(msg) {
-        		//alert("success "+msg);
+				 //alert(msg.length);
+				 $(".mosaicgridchanger").show();
+        		if(msg.length>=10)
+						$(".btn-secondary").show();
+        		else
+        			$(".btn-secondary").hide();
                 var data;
                  var obj;
                 data = JSON.stringify(msg);
@@ -79,7 +87,6 @@ $(document).ready(function(){
 
 				var template = Handlebars.compile(source);
 					 //alert("template "+template(obj));
-                console.log('template '+template(obj));
 				$(".mosaic").append(template(obj));
 			}, 
 			error : function(xhr) {
@@ -102,6 +109,9 @@ $(document).ready(function(){
 	
 				},
 				success : function(msg) {
+					$(".mosaicgridchanger").show();
+					if(msg.length<10)
+						$(".btn-secondary").hide();
 	                //alert("success "+msg);
 	                var data;
 	                var obj;
@@ -222,9 +232,9 @@ $(document).ready(function(){
 
     <span class="mosaic-item-overlay mosaic-item-overlay-info">
          <span class="mosaic-item-overlay-info-icon">
-             <span class="mosaic-item-overlay-info-head type-font-feature">The burger<br/>shed</span>
+             <span class="mosaic-item-overlay-info-head type-font-feature">{{title}}<br/>shed</span>
               <span class="mosaic-item-overlay-info-icon-item">
-                 <img src="imgs/base/categories/category-icon-wine-white.png" alt="">
+                 <img src="{{categoryLogo}}" alt="">
              </span>
              <span class="mosaic-item-overlay-info-desciption">
 			{{cityTagName}}
@@ -297,9 +307,9 @@ $(document).ready(function(){
 
     <span class="mosaic-item-overlay mosaic-item-overlay-info">
          <span class="mosaic-item-overlay-info-icon">
-             <span class="mosaic-item-overlay-info-head type-font-feature">The burger<br/>shed</span>
+             <span class="mosaic-item-overlay-info-head type-font-feature">{{title}}<br/>shed</span>
               <span class="mosaic-item-overlay-info-icon-item">
-                 <img src="imgs/base/categories/category-icon-wine-white.png" alt="">
+                 <img src="{{categoryLogo}}" alt="">
              </span>
              <span class="mosaic-item-overlay-info-desciption">
 				{{cityTagName}}
@@ -343,15 +353,15 @@ $(document).ready(function(){
             {{description}}
             <br><br>
             <span class="mosaic-item-description-copy-link"><strong>Read more</strong></span>
-            <strong class="mosaic-item-description-categories"><em>Restaurant, Places, People</em></strong>
+            <strong class="mosaic-item-description-categories"><em>{{categoryTagName}}</em></strong>
         </span>
     </span>
 
     <span class="mosaic-item-overlay mosaic-item-overlay-info">
          <span class="mosaic-item-overlay-info-icon">
-             <span class="mosaic-item-overlay-info-head type-font-feature">The burger<br/>shed</span>
+             <span class="mosaic-item-overlay-info-head type-font-feature">{{title}}<br/>shed</span>
               <span class="mosaic-item-overlay-info-icon-item">
-                 <img src="imgs/base/categories/category-icon-wine-white.png" alt="">
+                 <img src="{{categoryLogo}}" alt="">
              </span>
              <span class="mosaic-item-overlay-info-desciption">
 				{{cityTagName}}
@@ -429,9 +439,9 @@ $(document).ready(function(){
 
     <span class="mosaic-item-overlay mosaic-item-overlay-info">
          <span class="mosaic-item-overlay-info-icon">
-             <span class="mosaic-item-overlay-info-head type-font-feature">The burger<br/>shed</span>
+             <span class="mosaic-item-overlay-info-head type-font-feature">{{title}}<br/>shed</span>
               <span class="mosaic-item-overlay-info-icon-item">
-                 <img src="imgs/base/categories/category-icon-wine-white.png" alt="">
+                 <img src="{{categoryLogo}}" alt="">
              </span>
              <span class="mosaic-item-overlay-info-desciption">
 				{{cityTagName}}
@@ -478,7 +488,7 @@ $(document).ready(function(){
          <span class="mosaic-item-overlay-info-icon">
              <span class="mosaic-item-overlay-info-head type-font-feature">{{title}}<br/>shed</span>
               <span class="mosaic-item-overlay-info-icon-item">
-                 <img src="imgs/base/categories/category-icon-wine-white.png" alt="">
+                 <img src="{{categoryLogo}}" alt="">
              </span>
              <span class="mosaic-item-overlay-info-desciption">
 				{{cityTagName}}
@@ -536,7 +546,7 @@ $(document).ready(function(){
 
 </script>
 <!-- Included for local testing purpose This should be from statelinks component -->
-<div class="l-display-none-md">
+<!-- <div class="l-display-none-md">
 			<p class="icon-map-wrapper">
 				<a href="#" class="icon-map icon-map-black icon-map-capital"> <span>Australian Captital Territory</span> </a>
 				<a href="#" class="icon-map icon-map-black icon-map-nsw"> <span>New South Wales</span> </a>
@@ -547,7 +557,7 @@ $(document).ready(function(){
 				<a href="#" class="icon-map icon-map-black icon-map-black-active icon-map-victoria"> <span>Victoria</span> </a>
 				<a href="#" class="icon-map icon-map-black icon-map-western"> <span>Western Australia</span> </a>
 			</p>
-		</div>
+		</div> -->
 <!-- End of statelinks-->		
 <div class="faw-category-mosaic">
     <div class="headerlockup">
@@ -562,7 +572,7 @@ $(document).ready(function(){
 <div class="faw-category-mosaci-items l-display-none-md">
 
     <!-- FOOD MOSAIC CATEGORY ITEM -->
-    <input id="category-wine" type="checkbox" class="category-input">
+    <input id="category-wine" type="checkbox" class="category-input" value="wine">
     <label for="category-wine">
         <div class="category-item">
             <span class="icon-round is-active">
@@ -578,7 +588,7 @@ $(document).ready(function(){
     <!-- END: FOOD MOSAIC CATEGORY ITEM -->
 
     <!-- FOOD MOSAIC CATEGORY ITEM -->
-    <input id="category-people" type="checkbox" class="category-input">
+    <input id="category-people" type="checkbox" class="category-input" value="people">
     <label for="category-people">
         <div class="category-item">
             <span class="icon-round is-active">
@@ -610,7 +620,7 @@ $(document).ready(function(){
     <!-- END: FOOD MOSAIC CATEGORY ITEM -->
 
     <!-- FOOD MOSAIC CATEGORY ITEM -->
-    <input id="category-produce" type="checkbox" class="category-input">
+    <input id="category-produce" type="checkbox" class="category-input" value="produce">
     <label for="category-produce">
         <div class="category-item">
             <span class="icon-round is-active">

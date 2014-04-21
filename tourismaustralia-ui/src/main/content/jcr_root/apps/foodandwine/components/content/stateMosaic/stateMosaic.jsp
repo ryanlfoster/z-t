@@ -87,9 +87,9 @@ $(document).ready(function(){
 			}
 		});	
      });
-     	$(".btn-secondary").click(function(){
+     	$(".btn-secondary ").click(function(){
         	//alert("click "+catogoryArray);
-			$(".mosaic").empty();
+			//$(".mosaic").empty();
         	var flag="showMore";
 			$.ajax({
 	            type : "POST",
@@ -115,7 +115,7 @@ $(document).ready(function(){
 	                var obj=eval('('+data+')');
 	                var template = Handlebars.compile(source);
 						//alert("template "+template(obj));
-	                console.log('template '+template(obj));
+	                
 					$(".mosaic").append(template(obj));
 	            }
         });
@@ -692,6 +692,7 @@ $(document).ready(function(){
 <!-- END: FOOD MOSAIC CATEGORIES DROP DOWN -->
 <!-- END MOBILE VIEW -->
     <!-- FOOD MOSAIC GRID CHANGER -->
+ <c:if test="${stateMosaic.templateName ne 'homepage'}">   
 <div class='mosaicgridchanger'>
     <div class="mosaicgridchanger-button mosaicgridchanger-grid-button mosaicgridchanger-button-active">
         <span class="icon-font-sort_grid"></span>
@@ -700,12 +701,14 @@ $(document).ready(function(){
         <span class="icon-font-sort_list"></span>
     </div>
 </div>
-   
+   </c:if>
 <div class="mosaic">
     
 </div>
     <!-- END: MOSAIC -->
+    <c:if test="${stateMosaic.templateName ne 'homepage'}"> 
     <p class="type-spacing-120">
         <a  class="btn-secondary btn-auto-size" >Show more Results</a>
     </p>
+   </c:if> 
 </div>

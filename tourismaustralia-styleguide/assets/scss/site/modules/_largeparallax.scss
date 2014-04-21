@@ -19,10 +19,15 @@
 }
 
 /* Different states for module */
-.largeparallax--withimages { }
-.largeparallax--withtext { }
-.largeparallax--withlabel { }
-.largeparallax--withsocial { }
+.parallaximage_fullwidth--images { }
+.parallaximage_fullwidth--text { }
+.parallaximage_fullwidth--label { }
+.parallaximage_fullwidth--social { 
+	.largeparallax {
+		padding-bottom: pxtoem(25px);
+	}
+
+}
 
 /* Styling for text overlay on main image */
 .largeparallax-text {

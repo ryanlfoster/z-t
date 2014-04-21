@@ -78,6 +78,9 @@
 	position: relative;
 	z-index: 2;
 
+	/* Strange styling to fix ipad % width rounding on elements */
+	width: 103%;
+
 	@include clearfix();
 
 	@include breakpoint(sm) {

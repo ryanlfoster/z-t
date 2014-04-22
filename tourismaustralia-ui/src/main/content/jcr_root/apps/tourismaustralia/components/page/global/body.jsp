@@ -195,20 +195,20 @@
 								<ul class="footer-social-list">
 									<li><a href="https://www.facebook.com/seeaustralia"
 										class="btn-share"><span><img
-												src="imgs/icons/footer/footer-fb-icon.png" alt="" />Facebook</span></a></li>
+												src="/etc/designs/tourismaustralia/clientlibs/imgs/icons/footer/footer-fb-icon.png" alt="" />Facebook</span></a></li>
 									<li><a href="https://plus.google.com/+australia/posts"
 										class="btn-share"><span><img
-												src="imgs/icons/footer/footer-gplus-icon.png" alt="" />Google
+												src="/etc/designs/tourismaustralia/clientlibs/imgs/icons/footer/footer-gplus-icon.png" alt="" />Google
 												+</span></a></li>
 									<li><a href="http://instagram.com/australia"
 										class="btn-share"><span><img
-												src="imgs/icons/footer/footer-instagram-icon.png" alt="" />Instagram</span></a></li>
+												src="/etc/designs/tourismaustralia/clientlibs/imgs/icons/footer/footer-instagram-icon.png" alt="" />Instagram</span></a></li>
 									<li><a href="https://twitter.com/australia"
 										class="btn-share"><span><img
-												src="imgs/icons/footer/footer-twitter-icon.png" alt="" />Twitter</span></a></li>
+												src="/etc/designs/tourismaustralia/clientlibs/imgs/icons/footer/footer-twitter-icon.png" alt="" />Twitter</span></a></li>
 									<li><a href="https://www.youtube.com/user/australia"
 										class="btn-share"><span><img
-												src="imgs/icons/footer/footer-yt-icon.png" alt="" />Youtube</span></a></li>
+												src="/etc/designs/tourismaustralia/clientlibs/imgs/icons/footer/footer-yt-icon.png" alt="" />Youtube</span></a></li>
 								</ul>
 							</div>
 

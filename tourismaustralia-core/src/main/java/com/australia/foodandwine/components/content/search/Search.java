@@ -63,7 +63,7 @@ public class Search {
 				FAWSearchParametersBuilder fawSearchParameterBuilder = new FAWSearchParametersBuilder();
 				fawSearchParameterBuilder.setText(searchParameter).setPage(page).setTags(searchFilter).setCount(showMoreResultPerHit).setSort(sort);
 				searchResult = searchResultsService.search(fawSearchParameterBuilder.build());
-
+				totalSearchResultsCount = searchResult.getExperiences().size();
 				PageManager pageManager = request.getResourceResolver().adaptTo(PageManager.class);
 				Page searchPage = pageManager.getContainingPage(request.getResource());
 				searchPath = request.getResourceResolver().map(searchPage.getPath()) + ".html";

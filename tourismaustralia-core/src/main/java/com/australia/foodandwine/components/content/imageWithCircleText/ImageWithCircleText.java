@@ -22,13 +22,13 @@ public class ImageWithCircleText {
 	@Html5SmartImage(allowUpload = false, name = "backgroundImageCircleText")
 	private String backGroundImage;
 
-	@DialogField(fieldLabel = "Small Text", name = "./smallTitle", additionalProperties = @FieldProperty(name = "maxLength", value = "50"), required = true, tab = 2)
+	@DialogField(fieldLabel = "Small Text", name = "./smallTitle", fieldDescription = "Maximum 50 character limit", additionalProperties = @FieldProperty(name = "maxLength", value = "50"), required = true, tab = 2)
 	private final String smallTitle;
 
-	@DialogField(fieldLabel = "Big Text", name = "./bigText", additionalProperties = @FieldProperty(name = "maxLength", value = "50"), required = true, tab = 2)
+	@DialogField(fieldLabel = "Big Text", name = "./bigText", fieldDescription = "Maximum 50 character limit", additionalProperties = @FieldProperty(name = "maxLength", value = "50"), required = true, tab = 2)
 	private final String bigText;
 
-	@DialogField(fieldLabel = "Description", required = false, name = "./descriptionText", additionalProperties = @FieldProperty(name = "maxLength", value = "500"), tab = 2)
+	@DialogField(fieldLabel = "Description", required = false, name = "./descriptionText", fieldDescription = "Maximum 500 character limit", additionalProperties = @FieldProperty(name = "maxLength", value = "500"), tab = 2)
 	@TextArea
 	private final String descriptionText;
 

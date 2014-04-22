@@ -69,6 +69,12 @@
         $search_input_clear.click(function() {
             $search_input.val('');
             $search_input_clear.hide();
+
+            //Hack for IE-8, only with this sequence Placeholder is shown again after clearing the text from textbox
+            $search_input.blur();
+            $search_input.focus();
+            $search_input.blur();
+            //End Hack
         });
     };
 

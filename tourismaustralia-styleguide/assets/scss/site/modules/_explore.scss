@@ -115,7 +115,10 @@
 
 .explore-card-front {
   position: relative;
-
+  padding: 0 pxtoem(15px);
+  @include breakpoint(sm) {
+    padding: initial;
+  }
 }
 
 .explore-card-back {
@@ -125,6 +128,10 @@
   top: 0;
   left: 0;
   background-color: #f3f2eb;
+  padding: 0 pxtoem(15px);
+  @include breakpoint(sm) {
+    padding: initial;
+  }
 }
 
 /****************************

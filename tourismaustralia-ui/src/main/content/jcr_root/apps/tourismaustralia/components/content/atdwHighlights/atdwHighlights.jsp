@@ -11,11 +11,11 @@
 <%@ page import="com.australia.www.components.content.atdwhighlights.*" %>
 <c:set var="h" value="<%=new AtdwHighlights(slingRequest) %>"/>
 
-<div class="makeyourtriphappen-container">
+<div class="atdwhighlights">
 
     <div class="section-intro">
         <div class="l-center-900">
-            <h1 class="type-h1-responsive">${h.title}</h1>
+            <h3 class="type-h1-responsive">${h.title}</h3>
         </div>
         <div class="l-center-640 type-center">
             <p class="type-intro"> ${h.text}</p>
@@ -26,9 +26,6 @@
 
         <!-- Select List For Mobile -->
         <div class="section-buttons-mobile">
-
-
-
             <div class="dropdown-select">
                 <hr>
                 <div class="dropdown-select-style">
@@ -46,13 +43,27 @@
                 </div>
                 <hr>
             </div>
-
-
         </div>
 
         <!-- Buttons -->
-        <div class="section-buttons-desktop">
-
+        <div class="l-h-center section-buttons-desktop">
+            <c:if test="${not empty h.activeCategories}">
+                <div class="section-buttons-mobile">
+                    <div class="dropdown-select">
+                        <hr>
+                        <div class="dropdown-select-style">
+                            <select>
+                            <c:forEach items="${h.activeCategories}" var="cat">
+                                <c:if test="${not empty cat.products || isEdit}">
+                                <option><fmt:message key="${cat.display}" /></option>
+                                </c:if>
+                            </c:forEach>
+                            </select>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+            </c:if>
 
             <c:forEach items="${h.activeCategories}" var="cat">
                 <c:if test="${not empty cat.products || isEdit}">

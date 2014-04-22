@@ -63,17 +63,12 @@
 										<div class="mosaic-item-detail-container">
 											<!-- content start -->
 											<div class="l-h-center theme-mosaic-social-detail">
-
-												<p>I got to cross one of the big items from my bucket
-													list - scubadiving at the Great Barrier Reef!</p>
-												<p>The Great Barrier Reef, Queensland</p>
+												<p>NON-VISIBLE DATA</p>
 												<p>
 													Uploaded by: <a href="#">notsupposedto</a>
 												</p>
-
 											</div>
 											<!-- content end -->
-
 										</div>
 									</div>
 								</div>
@@ -95,20 +90,12 @@
 								<div class="row mosaic-grid-2-content">
 									<div class="col-xs-12">
 										<div class="mosaic-item-detail-container">
-
-											content start
 											<div class="l-h-center theme-mosaic-social-detail">
-
-												<p>I got to cross one of the big items from my bucket
-													list - scubadiving at the Great Barrier Reef!</p>
-												<p>The Great Barrier Reef, Queensland</p>
+												<p>NON-VISIBLE DATA</p>
 												<p>
 													Uploaded by: <a href="#">notsupposedto</a>
 												</p>
-
 											</div>
-											content end
-
 										</div>
 									</div>
 								</div>
@@ -133,24 +120,23 @@
 
 
 
-
-	<div class="socialtiles-linethrough">
-		<div class="line-through-container">
-			<div class="line-through">
-				<span class="line-through-hr"></span>
-			</div>
-			<div class="line-through-container-biline">
-				${socialTiles.subTitle}</div>
-			<div class="line-through">
-				<span class="line-through-hr"></span>
+	<c:if test="${socialTiles.hasSubTitle}">
+		<div class="socialtiles-linethrough">
+			<div class="line-through-container">
+				<div class="line-through">
+					<span class="line-through-hr"></span>
+				</div>
+				<div class="line-through-container-biline">
+					${socialTiles.subTitle}</div>
+				<div class="line-through">
+					<span class="line-through-hr"></span>
+				</div>
 			</div>
 		</div>
-	</div>
-
+	</c:if>
+	
 	<div class="l-h-center">
 		<a href="${socialTiles.link.path }" class="btn-primary">${socialTiles.link.title}</a>
 	</div>
-
-</div>
 
 </div>

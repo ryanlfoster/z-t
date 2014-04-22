@@ -88,21 +88,24 @@ public class SocialTiles {
 
 		tilesList = new ArrayList<TileField>();
 
-		title = properties.get("title", StringUtils.EMPTY);
-		subTitle = properties.get("subTitle", StringUtils.EMPTY);
-		link = new Link(properties.get("link/" + Link.PROP_PATH,
-				StringUtils.EMPTY), properties.get("link/" + Link.PROP_TITLE,
-				StringUtils.EMPTY));
-
-		for (int tabNum=2; tabNum<=10; tabNum++) {
-			tile = new TileField();
-			tile.setIconPath(properties.get("tab" + tabNum + "/iconPath", StringUtils.EMPTY));
-			tile.setImagePath(properties.get("tab" + tabNum + "/imagePath", StringUtils.EMPTY));
-			tile.setTitle(properties.get("tab" + tabNum + "/title", StringUtils.EMPTY));
-			tile.setText(properties.get("tab" + tabNum + "/text", StringUtils.EMPTY));
-			tile.setLink(properties.get("tab" + tabNum + "/link", StringUtils.EMPTY));
-			if (tile.getIsValid()) {
-				tilesList.add(tile);
+		if (properties != null)
+		{
+			title = properties.get("title", StringUtils.EMPTY);
+			subTitle = properties.get("subTitle", StringUtils.EMPTY);
+			link = new Link(properties.get("link/" + Link.PROP_PATH,
+					StringUtils.EMPTY), properties.get("link/" + Link.PROP_TITLE,
+					StringUtils.EMPTY));
+	
+			for (int tabNum=2; tabNum<=10; tabNum++) {
+				tile = new TileField();
+				tile.setIconPath(properties.get("tab" + tabNum + "/iconPath", StringUtils.EMPTY));
+				tile.setImagePath(properties.get("tab" + tabNum + "/imagePath", StringUtils.EMPTY));
+				tile.setTitle(properties.get("tab" + tabNum + "/title", StringUtils.EMPTY));
+				tile.setText(properties.get("tab" + tabNum + "/text", StringUtils.EMPTY));
+				tile.setLink(properties.get("tab" + tabNum + "/link", StringUtils.EMPTY));
+				if (tile.getIsValid()) {
+					tilesList.add(tile);
+				}
 			}
 		}
 		
@@ -117,7 +120,7 @@ public class SocialTiles {
 	}
 
 	public String getSubTitle() {
-		return title;
+		return subTitle;
 	}
 
 	public Link getLink() {
@@ -127,5 +130,9 @@ public class SocialTiles {
 	// Boolean used to switch from 3 tile or 9 tile format
 	public boolean getHasNine() {
 		return (tilesList.size() == 9);
+	}
+	
+	public boolean getHasSubTitle() {
+		return StringUtils.isNotBlank(subTitle);
 	}
 }

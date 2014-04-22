@@ -30,7 +30,6 @@
                 <hr>
                 <div class="dropdown-select-style">
                     <select data-atdw-select>
-
                         <c:forEach items="${h.activeCategories}" var="cat">
                             <c:if test="${not empty cat.products || isEdit}">
                                 <option value="${cat.id}">
@@ -38,7 +37,6 @@
                                 </option>
                             </c:if>
                         </c:forEach>
-
                     </select>
                 </div>
                 <hr>

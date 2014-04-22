@@ -51,7 +51,7 @@
             <hr class="headerlockup-hr"/>
         </div>
         <p>
-            <a href="${hero.buttonLink}" class="btn-secondary btn-transparent btn-small">${hero.buttonText}</a>
+            <a href="${hero.buttonLink}" class="btn-secondary btn-transparent btn-small" target="${hero.external ? '_BLANK' : '_self'}">${hero.buttonText}</a>
         </p>
         <p class='faw-register-teaser-subline'>${hero.belowButtonText}</p>
     </div>

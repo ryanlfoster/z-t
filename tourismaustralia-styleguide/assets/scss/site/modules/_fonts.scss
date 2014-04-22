@@ -16,3 +16,20 @@
 @include font-face("TAheadline", font-files("TAheadline.svg", "TAheadline.woff", "TAheadline.otf"), "TAheadline.eot");
 
 @include font-face("GearedSlab-Light", font-files("GearedSlab-Light.svg", "GearedSlab-Light.woff", "GearedSlab-Light.otf"), "GearedSlab-Light.eot");
+
+
+
+//in Win 8.1 select text with svg font 'ProximaNova Regular' is not rendered properly for select element
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'ProximaNova Regular';
+    src: url('/fonts/ProximaNova-Regular.eot');
+    src: url('/fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/ProximaNova-Regular.woff') format('woff'),
+    url('/fonts/ProximaNova-Regular.ttf') format('truetype'),
+    url('/fonts/ProximaNova-Regular.svg#ProximaNova Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+  }
+}

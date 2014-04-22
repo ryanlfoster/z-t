@@ -1042,6 +1042,17 @@
                     ,
                 
             
+                "hero_text" : {
+                     "data" : {
+                        "title" : "hero_text",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'hero_text'}}"
+                }
+                
+                    ,
+                
+            
                 "iframe" : {
                      "data" : {
                         "title" : "iframe",

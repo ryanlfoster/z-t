@@ -1,6 +1,6 @@
 
 .home-hero {
-  margin-bottom: .8em;
+  margin-bottom: pxtoem(43px);
   position: relative;
   width:  auto;
   height: 290px;
@@ -11,7 +11,7 @@
   //@include transition (height, 1s, cubic-bezier(0.455, 0.030, 0.515, 0.955), .1s);
 
   @include breakpoint(sm) {
-    height: 650px;
+    height: 489px;
   }
 }
 .home-hero.make-white {
@@ -28,10 +28,12 @@
   top: 0;
   left: 0;
   z-index: -1;
+  /* Fix for ipad scrolling fixed issue */
+  -webkit-transform: translate3d(0,0,0);
   
   /* IE 10 fix */
   @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-      z-index: -1; 
+      // z-index: 0; 
   }
 
   @include breakpoint(sm) {
@@ -91,11 +93,14 @@
     font-size: pxtoem(80px);
   }
 }
-.hero-home-favourite {
+.home-hero-favourite {
   position: relative;
   margin: 0 auto;
   display: table;
   left: 0;
+  @include breakpoint(md) {
+    margin: inherit;
+  }
 }
 .home-explore-summary-map {
   text-align: left;
@@ -107,6 +112,11 @@
 }
 .home-summary-map-container {
   text-align: center;
+
+  @include breakpoint(lg) {
+    height: 30px;
+  }
+
 }
 .home-hero-favourite-container {
     width:100%;

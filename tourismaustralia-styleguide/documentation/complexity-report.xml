@@ -1,19 +1,122 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <jslint>
+<file name="assets/js/src/modules/jquery.ta.imageScroll.js">
+  
+  <issue
+    line="19"
+    char="&lt;anonymous&gt;"
+    evidence="&lt;anonymous&gt; is too complicated"
+    reason="Cyclomatic: 4,
+    Halstead: 10.030
+    | Effort: 12519
+    | Volume: 1248.1
+    | Vocabulary: 79" />
+  
+  <issue
+    line="50"
+    char="injectElementWithStyles"
+    evidence="injectElementWithStyles is too complicated"
+    reason="Cyclomatic: 7,
+    Halstead: 21.000
+    | Effort: 19793
+    | Volume: 942.52
+    | Vocabulary: 50" />
+  
+  <issue
+    line="97"
+    char="testProps"
+    evidence="testProps is too complicated"
+    reason="Cyclomatic: 3,
+    Halstead: 9.8182
+    | Effort: 1465.6
+    | Volume: 149.28
+    | Vocabulary: 23" />
+  
+  <issue
+    line="107"
+    char="testDOMProps"
+    evidence="testDOMProps is too complicated"
+    reason="Cyclomatic: 4,
+    Halstead: 12.000
+    | Effort: 2282.0
+    | Volume: 190.16
+    | Vocabulary: 20" />
+  
+  <issue
+    line="124"
+    char="testPropsAll"
+    evidence="testPropsAll is too complicated"
+    reason="Cyclomatic: 2,
+    Halstead: 9.9000
+    | Effort: 3847.5
+    | Volume: 388.64
+    | Vocabulary: 29" />
+  
+  <issue
+    line="184"
+    char="init"
+    evidence="init is too complicated"
+    reason="Cyclomatic: 6,
+    Halstead: 14.882
+    | Effort: 32460
+    | Volume: 2181.1
+    | Vocabulary: 79" />
+  
+  <issue
+    line="236"
+    char="_adjustImgHolderHeights"
+    evidence="_adjustImgHolderHeights is too complicated"
+    reason="Cyclomatic: 3,
+    Halstead: 28.683
+    | Effort: 43332
+    | Volume: 1510.7
+    | Vocabulary: 57" />
+  
+  <issue
+    line="322"
+    char="_updatePositions"
+    evidence="_updatePositions is too complicated"
+    reason="Cyclomatic: 2,
+    Halstead: 22.194
+    | Effort: 19847
+    | Volume: 894.29
+    | Vocabulary: 47" />
+  
+</file>
 <file name="assets/js/src/modules/jquery.ta.parallax.js">
   
   <issue
-    line="60"
-    char="window.onscroll"
-    evidence="window.onscroll is too complicated"
-    reason="Cyclomatic: 7,
-    Halstead: 44.606
-    | Effort: 86656
-    | Volume: 1942.7
-    | Vocabulary: 49" />
+    line="46"
+    char="&lt;anonymous&gt;.setupParallax"
+    evidence="&lt;anonymous&gt;.setupParallax is too complicated"
+    reason="Cyclomatic: 3,
+    Halstead: 11.379
+    | Effort: 7518.0
+    | Volume: 660.68
+    | Vocabulary: 39" />
+  
+  <issue
+    line="64"
+    char="&lt;anonymous&gt;"
+    evidence="&lt;anonymous&gt; is too complicated"
+    reason="Cyclomatic: 8,
+    Halstead: 63.300
+    | Effort: 1.4353e+5
+    | Volume: 2267.5
+    | Vocabulary: 48" />
   
 </file>
 <file name="assets/js/src/modules/jquery.ta.mosaic.js">
+  
+  <issue
+    line="81"
+    char="&lt;anonymous&gt;"
+    evidence="&lt;anonymous&gt; is too complicated"
+    reason="Cyclomatic: 3,
+    Halstead: 8.4808
+    | Effort: 4791.4
+    | Volume: 564.97
+    | Vocabulary: 33" />
   
 </file>
 <file name="assets/js/src/modules/jquery.ta.carousel.js">
@@ -22,7 +125,13 @@
 <file name="assets/js/src/modules/jquery.ta.fullwidthbg.js">
   
 </file>
+<file name="assets/js/src/modules/jquery.ta.megamenu.js">
+  
+</file>
 <file name="assets/js/src/modules/jquery.ta.flipcard.js">
+  
+</file>
+<file name="assets/js/src/modules/jquery.ta.searchinput.js">
   
 </file>
 <file name="assets/js/src/main.js">

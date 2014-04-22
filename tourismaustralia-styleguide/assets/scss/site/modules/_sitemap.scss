@@ -1,34 +1,11 @@
-.sitemap {
-  text-align: center;
-  @include breakpoint(md) {
-   text-align: left;
-  }
+
+.sitemap{
+  padding-bottom: pxtoem(100px);
 }
-
-.sitemap-header {
-  color:#fff;
-}
-
-.sitemap-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-
-
-  li{
-
-    position: relative;
-    margin: 0.6em 0;
-    margin-right: 0.7em;
-
-    @include breakpoint(md) {
-      margin-right: 0;
-      text-align: left;
-    }
-    
-  }
-
-  @media screen and (max-width:990px) {   //Mixin?
-    text-align: center;
+.sitemap .section-intro{
+  margin-top: pxtoem(30px);
+  margin-bottom: pxtoem(40px);
+  @include breakpoint(sm){
+    margin-top: pxtoem(78px);
   }
 }

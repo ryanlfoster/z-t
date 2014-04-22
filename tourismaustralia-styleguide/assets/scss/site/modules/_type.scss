@@ -4,15 +4,82 @@
 //**********************
 
 // TAheadline will always include a letter-spacing element
-@mixin type_TAheadline(){  //Todo - this needs to be placed where headings are defined.
+@mixin type_TAheadline(){
   font-family: "TAheadline", Helvetica, Arial, sans-serif;
   letter-spacing: .015em;
 }
 
 //**********************
+// Headings
+//**********************
+
+.type-h1-responsive {
+
+  // most of these are now h2's for semantics
+  color: $type-main-heading-colour;
+
+  font-size: pxtoem(30px);
+  margin-bottom: 1em;
+  @include breakpoint(sm){
+    font-size: pxtoem(50px);
+  }
+  @include breakpoint(md){
+    font-size: pxtoem(80px);
+    margin-bottom: .1em;
+  }
+}
+
+.type-h3-responsive {
+
+  color: $type-main-heading-colour;
+
+  font-size: pxtoem(30px);
+  margin-bottom: .5em;
+  @include breakpoint(sm){
+    font-size: pxtoem(50px);
+  }
+  @include breakpoint(md){
+    font-size: pxtoem(80px);
+    margin-bottom: .1em;
+  }
+}
+
+.type-h3 {
+  font-family: $font-family-secondary;
+  font-size: pxtoem($h3-size);
+  font-weight: normal;
+  color: $type-heading-colour;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.type-h4 {
+  font-family: $font-family-base-b;
+  font-size: pxtoem($h4-size);
+  font-weight: normal;
+  color: $type-heading-colour;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.type-main-heading-colour {
+  color: $type-main-heading-colour;
+}
+
+.type-gallery-section-title {
+  @include type_TAheadline();
+  font-size: 1.75em;
+  color: $gallery-section-title-colour;
+  display: table-cell;
+  padding: 0 pxtoem(8px);
+  display: inline-block;
+  padding-bottom: .8em;
+}
+
+//**********************
 // IE Text Fixes
 //**********************
-.ieAntialias {
+.type-ieAntialias {
   filter:alpha(opacity=100);
 }
 //**********************
@@ -166,6 +233,8 @@
 }
 
 .type-body p:last-of-type {
+    margin-bottom: 0;
+    
     @include breakpoint(xs) {
         margin-bottom: -(pxtoem(10px));
     }
@@ -175,16 +244,7 @@
   text-align: center;
 }
 
-//**********************
-// Added type-destination styling here for mosaic-grid-4 as it needs to be scaled
-//**********************
-.type-destination { 
-  font-size: pxtoem(18px);
-}
-
-////////////////////////////
-
-.type-date { 
+.type-date {
   font-family: "ProximaNova Bold", Helvetica, Arial, sans-serif;
   font-size: pxtoem(18px);
   font-weight: bold;
@@ -196,44 +256,41 @@
   font-family: "ProximaNova Regular", Helvetica, Arial, sans-serif;
   span { display: block; }
   .month { font-size: pxtoem(30px);}
-  .day { 
-    font-size: pxtoem(114px); 
+  .day {
+    font-size: pxtoem(114px);
     letter-spacing: -4px;
     line-height: 0.9em;
   }
 }
 
-.type-h1-responsive {
-
-  // most of these are now h2's for semantics
-  color: #8d896f;
-
-  font-size: pxtoem(30px);
-  margin-bottom: 1em;
-  @include breakpoint(sm){
-    font-size: pxtoem(50px);
-  }
-  @include breakpoint(md){
-    font-size: pxtoem(80px);
-    margin-bottom: .1em;
-  }
+//**********************
+// Added type-destination styling here for mosaic-grid-4 as it needs to be scaled
+//**********************
+.type-destination { 
+  font-size: pxtoem(18px);
 }
 
-.type-h3 {
-  font-family: $font-family-secondary;
-  font-size: pxtoem($h3-size);
-  font-weight: normal;
-  color: $type-heading-colour;
-  margin-top: 0;
-  margin-bottom: 0;
+
+//**********************
+// Style like Paragraph links
+//**********************
+.type-links-bottom-border a {
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  box-shadow: 0 1px 0 #d4dcde;
+  -webkit-box-shadow: 0 1px 0 #d4dcde;
+  -moz-box-shadow: 0 1px 0 #d4dcde;
 }
 
-.type-h4 {
-  font-family: $font-family-base-b;
-  font-size: pxtoem($h4-size);
-  font-weight: normal;
-  color: $type-heading-colour;
-  margin-top: 0;
-  margin-bottom: 0;
+.type-links-bottom-border a:hover {
+  text-decoration: none;
+  border-bottom: 1px solid #00535e;
+  box-shadow: 0 1px 0 #00535e;
+  -webkit-box-shadow: 0 1px 0 #00535e;
+  -moz-box-shadow: 0 1px 0 #00535e;
 }
 
+.type-links-bottom-border a.is-active{
+  text-decoration: none;
+  border-bottom: 2px solid #00535e;
+}

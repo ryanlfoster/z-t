@@ -15,11 +15,16 @@ title: Large Parallax - Main Image with Text
         <div data-src="imgs/placeholders/{{#if parallax_image}}{{{parallax_image}}}{{else}}image_with_date{{/if}}.jpg" data-media="(min-width: 993px)"></div>
 
         <noscript>
-            <img src='imgs/placeholders/{{#if parallax_image}}{{{parallax_image}}}{{else}}image_with_date{{/if}}.jpg' alt=''>
+            <img src="imgs/placeholders/{{#if parallax_image}}{{{parallax_image}}}{{else}}image_with_date{{/if}}.jpg" alt="">
         </noscript>
 
-        <img src='imgs/placeholders/{{#if parallax_image}}{{{parallax_image}}}{{else}}image_with_date{{/if}}.jpg' alt=''>
+        <img src="imgs/placeholders/{{#if parallax_image}}{{{parallax_image}}}{{else}}image_with_date{{/if}}.jpg" alt="">
     </div>
+    <!--[if (lt IE 9) & (!IEMobile)]>
+        <div class="legacy-img">
+            <img src="imgs/placeholders/{{#if parallax_image}}{{{parallax_image}}}{{else}}image_with_date{{/if}}.jpg" alt="" />
+        </div>
+    <![endif]-->
 
     {{#if parallax_text}}
     <div class="largeparallax-text">

@@ -23,5 +23,9 @@ public class LargeTitle {
 	public String getTitle() {
 		return title;
 	}
+	
+	public boolean getHasTitle() {
+		return !StringUtils.isBlank(title);
+	}
 
 }

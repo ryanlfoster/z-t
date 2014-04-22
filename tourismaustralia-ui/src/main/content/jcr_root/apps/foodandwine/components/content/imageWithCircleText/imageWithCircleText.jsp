@@ -36,7 +36,7 @@
 	</div>
 	
 	<h5>${imageWithCircleText.smallTitle}</h5>
-	<h2>${imageWithCircleText.stateTitle}</h2>
+	<h2>${imageWithCircleText.bigText}</h2>
 	<hr class="divider-small">
 	<p><strong>${imageWithCircleText.descriptionText}</strong></p>
 </div>

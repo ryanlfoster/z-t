@@ -46,25 +46,7 @@
         </div>
 
         <!-- Buttons -->
-        <div class="l-h-center section-buttons-desktop">
-            <c:if test="${not empty h.activeCategories}">
-                <div class="section-buttons-mobile">
-                    <div class="dropdown-select">
-                        <hr>
-                        <div class="dropdown-select-style">
-                            <select>
-                            <c:forEach items="${h.activeCategories}" var="cat">
-                                <c:if test="${not empty cat.products || isEdit}">
-                                <option><fmt:message key="${cat.display}" /></option>
-                                </c:if>
-                            </c:forEach>
-                            </select>
-                        </div>
-                        <hr>
-                    </div>
-                </div>
-            </c:if>
-
+        <div class="section-buttons-desktop">
             <c:forEach items="${h.activeCategories}" var="cat">
                 <c:if test="${not empty cat.products || isEdit}">
                     <a class="btn-bubble btn-bubble-min-width is-active " data-atdw-category="${cat.id}">

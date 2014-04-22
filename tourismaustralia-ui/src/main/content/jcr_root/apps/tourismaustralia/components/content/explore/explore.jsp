@@ -65,7 +65,7 @@
 						<div class="explore-item-diamond">
 							<!-- icons, aboriginal_australia, adventure, art_culture, beaches,
 							food_wine, island, nature_wildlife, outback, sports -->
-							<img src="/etc/designs/tourismaustralia/clientlibs/img/icons/nature_wildlife.png" alt="" />
+							<img src="/etc/designs/tourismaustralia/clientlibs/imgs/icons/nature_wildlife.png" alt="" />
 						</div>
 					</div>
 					<div class="line-through-container">
@@ -83,8 +83,8 @@
 							</span>
 							</span>
 							<span class="btn-bubble-button">
-							<img class="btn-bubble-std" src="/etc/designs/tourismaustralia/clientlibs/img/icons/mappin_outline.png" alt=""/>
-							<img class="btn-bubble-active" src="/etc/designs/tourismaustralia/clientlibs/img/icons/mappin.png" alt=""/>
+							<img class="btn-bubble-std" src="/etc/designs/tourismaustralia/clientlibs/imgs/icons/mappin_outline.png" alt=""/>
+							<img class="btn-bubble-active" src="/etc/designs/tourismaustralia/clientlibs/imgs/icons/mappin.png" alt=""/>
 							</span>
 						</a>
 						<p><c:out value="${card.pageDescription}"/></p>
@@ -96,8 +96,8 @@
 								</span>
 							</span>
 							<span class="btn-bubble-button">
-								<img class="btn-bubble-std" src="/etc/designs/tourismaustralia/clientlibs/img/icons/favourite_outline.png" alt=""/>
-								<img class="btn-bubble-active" src="/etc/designs/tourismaustralia/clientlibs/img/icons/favourite.png" alt=""/>
+								<img class="btn-bubble-std" src="/etc/designs/tourismaustralia/clientlibs/imgs/icons/favourite_outline.png" alt=""/>
+								<img class="btn-bubble-active" src="/etc/designs/tourismaustralia/clientlibs/imgs/icons/favourite.png" alt=""/>
 							</span>
 						</a>
 					</div>

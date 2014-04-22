@@ -1,7 +1,12 @@
+.parallaxHolder {
+	z-index: 2;
+}
+
+
 .largeimage {
+    padding-bottom: pxtoem($bottom-spacing);
+    position: relative;
 	-webkit-perspective: 600;
-
-
 }
 
 .largeimage-container {
@@ -17,6 +22,75 @@
 		margin-top: -35%;
 		left: 0;
 	}
+}
+
+.largeimage-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+
+	.largeimage-overlay-container {
+		display: table;
+		height: inherit;
+		width: inherit;
+	}
+
+	.inside {
+		display: table-cell;
+		vertical-align: middle;
+		text-align: center;
+	}
+
+	h3 {
+		color: #fff;
+		font-size: pxtoem(30px);
+		
+		@include breakpoint(sm) {
+			font-size: pxtoem(50px);
+		}
+		@include breakpoint(md) {
+			font-size: pxtoem(60px);
+		}
+		@include breakpoint(lg) {
+			font-size: pxtoem(80px);
+		}
+	}
+}
+
+.largeimage-smallimage-container {
+	position: relative;
+	top: pxtoem(-50px);
+
+	img {
+		width: 100%;
+		height: auto;
+	}
+
+	& >.column {
+		float: left;
+	}
+
+	& > .col-first {
+		width: 23%;
+		padding-top: 2.5%;
+	}
+
+	& > .col-second {
+		width: 32%;
+	}
+
+	& > .col-third {
+		width: 13%;
+		padding-top: 2.5%;
+	}
+
+	& > .col-fourth {
+		width: 32%;
+	}
+
+
 }
 
 .lt-ie9 {

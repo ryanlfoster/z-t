@@ -1,0 +1,14 @@
+---
+layout: layout-base.hbs
+Title: 404
+note: note-generictemplate
+---
+<div class="404-wrapper">
+    {{#parseJSON '{
+    "hero_image" : "hero-404"
+}'}}
+        {{> hero_404 }}
+    {{/parseJSON}}
+
+
+</div>

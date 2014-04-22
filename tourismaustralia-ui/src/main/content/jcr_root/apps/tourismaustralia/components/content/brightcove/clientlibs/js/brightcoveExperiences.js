@@ -88,7 +88,7 @@ onMediaPlay = function (event, BCLvideoPlayer) {
 
 // show the paused overlay when the video is stopped
 onMediaStop = function (event, BCLvideoPlayer) {
-    var overlayContent = '<div class="l-table-container"><div class="l-table"><div class="l-table-cell-centered"><img class="video-play-icon bclPlayButton paused" src="/etc/designs/tourismaustralia/clientlibs/img/icons/video_play_large.png" alt="" /></div></div></div>';
+    var overlayContent = '<div class="l-table-container"><div class="l-table"><div class="l-table-cell-centered"><img class="video-play-icon bclPlayButton paused" src="/etc/designs/tourismaustralia/clientlibs/imgs/icons/video_play_large.png" alt="" /></div></div></div>';
     var id = event.target.experience.id;
     var videoPlayerHolder = brightcove.api.getExperience(id);
     var videoPlayer = videoPlayerHolder.getModule(brightcove.api.modules.APIModules.VIDEO_PLAYER);
@@ -99,7 +99,7 @@ onMediaStop = function (event, BCLvideoPlayer) {
 }
 
 createOverlayContent = function (target, videoPlayer) {
-    var overlayContent = '<div class="l-table-container"><div class="l-table"><div class="l-table-cell-centered"><img class="video-play-icon" src="/etc/designs/tourismaustralia/clientlibs/img/icons/video_play_large.png" alt="" /></div></div></div>';
+    var overlayContent = '<div class="l-table-container"><div class="l-table"><div class="l-table-cell-centered"><img class="video-play-icon" src="/etc/designs/tourismaustralia/clientlibs/imgs/icons/video_play_large.png" alt="" /></div></div></div>';
 
     target.parents(".video-container-table").append(overlayContent);
 

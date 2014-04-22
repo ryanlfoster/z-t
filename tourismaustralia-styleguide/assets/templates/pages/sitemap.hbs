@@ -1,0 +1,18 @@
+---
+title: Site Map
+layout: layout-base.hbs
+---
+
+<div class="paragraph-sitemap sitemap">
+
+    {{#parseJSON '{"page_title" : "Site Map"}'}}
+        {{> breadcrumbsdynamic }}
+    {{/parseJSON}}
+
+    {{#parseJSON '{"title": "Site Map"}'}}
+        {{> sectionintro }}
+    {{/parseJSON}}
+
+    {{> sitemap_content }}
+
+</div>

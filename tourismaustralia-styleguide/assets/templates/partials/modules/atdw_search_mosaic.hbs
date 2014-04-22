@@ -1,0 +1,59 @@
+---
+title: atdw search mosaic
+---
+
+
+    <div class="row l-center-1200">
+        <div class="col-xs-12">
+            <div class="l-h-center section-buttons">
+
+                    <!-- Select List For Mobile -->
+                    <div class="section-buttons-mobile">
+                        {{#parseJSON '{"data" : [{"option": "Accommodation"}, {"option": "Attractions"}, {"option": "Restaurants"}, {"option": "Tours"}, {"option": "Hire"}, {"option": "Events"}, {"option": "Transport"}]}'}}
+                            {{> dropdown }}
+                        {{/parseJSON}}
+                    </div>
+
+                    <!-- Buttons -->
+                    <div class="section-buttons-desktop">
+
+                        {{#parseJSON '{"label": "Accommodation", "button" : "accommodation.png", "button_outline" : "accommodation_outline.png", "active" : true, "extraspace" : false}'}}
+                            {{> button_generic}}
+                        {{/parseJSON}}
+
+                        {{#parseJSON '{"label": "Attractions", "button" : "attraction.png", "button_outline" : "attraction_outline.png", "active" : false, "extraspace" : false}'}}
+                            {{> button_generic}}
+                        {{/parseJSON}}
+
+                        {{#parseJSON '{"label": "Restaurants", "button" : "restaurant.png", "button_outline" : "restaurant_outline.png", "active" : false, "extraspace" : false}'}}
+                            {{> button_generic}}
+                        {{/parseJSON}}
+
+                        {{#parseJSON '{"label": "Tours", "button" : "tours.png", "button_outline" : "tours_outline.png", "active" : false, "extraspace" : false}'}}
+                            {{> button_generic}}
+                        {{/parseJSON}}
+
+                        {{#parseJSON '{"label": "Hire", "button" : "hire.png", "button_outline" : "hire_outline.png", "active" : false, "extraspace" : false}'}}
+                            {{> button_generic}}
+                        {{/parseJSON}}
+
+                        {{#parseJSON '{"label": "Events", "button" : "events.png", "button_outline" : "events_outline.png", "active" : false, "extraspace" : false}'}}
+                            {{> button_generic}}
+                        {{/parseJSON}}
+
+                        {{#parseJSON '{"label": "Transport", "button" : "transport.png", "button_outline" : "transport_outline.png", "active" : false, "extraspace" : false}'}}
+                            {{> button_generic}}
+                        {{/parseJSON}}
+
+                    </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    {{> atdw_refresh_results }}
+
+    {{> search_counter }}
+
+    {{> mosaic_3column }}

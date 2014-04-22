@@ -19,7 +19,7 @@ class Constants {
 	public static final String STATE_TAG_REGEX = "^" + PLACE_TAG_PREFIX + "[^/]+$";
 	public static final String CITY_TAG_REGEX = "^" + PLACE_TAG_PREFIX + "[^/]+/[^/]+$";
 
-	public static final String ICON_BASE_PATH = "/etc/designs/tourismaustralia/clientlibs/img/icons/";
+	public static final String ICON_BASE_PATH = "/etc/designs/tourismaustralia/clientlibs/imgs/icons/";
 
 	public static final String TAB_GENERAL = "General";
 	public static final String TAB_CATEGORIES = "Categories";

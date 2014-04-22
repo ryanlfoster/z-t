@@ -1,0 +1,34 @@
+
+
+.dropdown-white-background{
+  width: 280px;
+  margin: 0 auto;
+}
+
+.dropdown-white-background-style {
+  margin: 0 auto;
+  //width: $dropdownCountryLanguageWidth;
+  height: 50;
+  overflow: hidden;
+  font-family: $font-family-base;
+  background: url("../imgs/ui/select_bg_white.png") no-repeat;  /*Adds background-image*/
+  text-shadow:0 0 1px #eee;
+}
+
+.dropdown-white-background select {
+  padding: 17px 54px 17px 10px;
+  width: 130%;
+  height: 50;
+  line-height: pxtoem(20px);
+  border: 0 !important;  /*Removes border*/
+  box-shadow: none;
+  background: transparent;
+  font-size: pxtoem(14px);
+  background-image: none;
+  -webkit-appearance: none;  /*Removes default chrome and safari style*/
+  -moz-appearance: none; /* Removes Default Firefox style*/
+  text-indent: 0.01px; /* Removes default arrow from firefox*/
+  text-overflow: "";  /*Removes default arrow from firefox*/
+  color: $search-text-color;
+}
+

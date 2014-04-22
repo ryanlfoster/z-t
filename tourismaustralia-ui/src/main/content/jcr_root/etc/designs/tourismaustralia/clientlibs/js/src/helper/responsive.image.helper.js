@@ -10,10 +10,10 @@ responsiveImageHelper.bindEvents = function(){
 		window.attachEvent('resize', responsiveImageHelper.setContainerHeight);
 		window.attachEvent('orientationchange', responsiveImageHelper.setContainerHeight);
 	} else {
-		window.addEventListener('resize', function() {
+		$(window).resize(function(){
 		// Get screen size (inner/outerWidth, inner/outerHeight)
 			responsiveImageHelper.setContainerHeight();
-		}, false);
+		});
 
 		window.addEventListener('orientationchange', function() {
 			// Announce the new orientation number
@@ -23,11 +23,16 @@ responsiveImageHelper.bindEvents = function(){
 
 	responsiveImageHelper.setContainerHeight();
 
+	// Initiate parallax THIS IS OLD AND CRAP
+	$('.parallax').parallaxImages({
+	    parallaxSpeed : 1
+	});
+
 };
 
 responsiveImageHelper.setContainerHeight = function(){
 	$('.largeimage-container').each(function(){
-		var offSet = 80,
+		var offSet = $(this).find('img').height() * parseFloat(20) / 100,
 			maxImageHeight = 600, // Max height of responsive images
 			heightOfImage = $(this).find('img').height() - offSet;
 
@@ -40,4 +45,24 @@ responsiveImageHelper.setContainerHeight = function(){
 
 $(window).bind('load', function() {
 	responsiveImageHelper.bindEvents();
+
+
+
+	// Used for new parallax
+	var touch = Modernizr.touch,
+		csstransforms3d = Modernizr.csstransforms3d;
+
+	if(csstransforms3d === true){
+		$('.img-holder').imageScroll({
+			holderClass: 'parallaxHolder',
+			extraHeight: 200,
+			coverRatio: 0.50,
+			container: $('#main-content'),
+			parallax: csstransforms3d,
+			touch: touch
+		});
+	}
+
+	
+	
 });

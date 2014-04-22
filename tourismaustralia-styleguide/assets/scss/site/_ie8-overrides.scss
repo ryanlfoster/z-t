@@ -7,6 +7,15 @@ body{
 
 // mosaic flip to reveal on rollover
 .mosaic {
+
+  .flip-front {
+    z-index: 3;
+    filter: alpha(opacity=100);
+  }
+  .flip-back {
+    filter: alpha(opacity=100);
+  }
+
   .flip-front-fade {
     z-index: 3;
   }
@@ -14,11 +23,124 @@ body{
     .flip-front {
       z-index: 1;
     }
+    .flip-back {
+      z-index: 3;
+      filter: alpha(opacity=100);
+    }
     .flip-front-fade {
       z-index: 1;
     }
-
   }
+
+  .mosaic-item.is-fade {
+    .flip-back {
+      z-index: 3;
+      filter: alpha(opacity=100);
+    }
+  }
+
+  .mosaic-item[data-interactive-type="fade"]:hover {
+    .flip-back {
+      z-index: 3;
+      filter: alpha(opacity=100);
+    }
+  }
+
+  .mosaic-item.is-trigger-content1[data-interactive-type="fade"]:hover {
+    .flip-back {
+      z-index: -1;
+    }
+  }
+
+  .mosaic-item.is-trigger-content {
+    .flip-back {
+      display:none;
+    }
+  }
+
+  .mosaic-item.is-opacity {
+    .mosaic-atdw-image {
+      filter: alpha(opacity=50) !important;
+    }
+    .flip-front {
+      filter: alpha(opacity=50) !important;
+    }
+    .flip-back {
+      z-index: -1;
+    }
+  }
+
+  .mosaic-item.is-opacity:hover {
+    .mosaic-atdw-image {
+      filter: alpha(opacity=100) !important;
+    }
+    .flip-front {
+      filter: alpha(opacity=100) !important;
+    }
+    .flip-back {
+      z-index: -1;
+    }
+  }
+
+
+  // would like to remove 3column and keep consistent, left in for now
+  .mosaic-3column-item-option.is-fade {
+    .flip-back-fade {
+      z-index: 3;
+      filter: alpha(opacity=100);
+    }
+  }
+
+  .mosaic-3column-item-option[data-interactive-type="fade"]:hover {
+    .flip-back-fade {
+      z-index: 3;
+      filter: alpha(opacity=100);
+    }
+  }
+
+  .mosaic-3column-item-option.is-trigger-content1[data-interactive-type="fade"]:hover {
+    .flip-back-fade {
+      z-index: -1;
+    }
+  }
+
+  .mosaic-3column-item-option.is-trigger-content {
+    .flip-back-fade {
+      display:none;
+    }
+  }
+
+  .mosaic-3column-item-option.is-opacity {
+    .mosaic-media {
+      filter: alpha(opacity=50) !important;
+    }
+    .flip-front-fade {
+      filter: alpha(opacity=50) !important;
+    }
+    .flip-back-fade {
+      z-index: -1;
+    }
+  }
+
+  .mosaic-3column-item-option.is-opacity:hover {
+    .mosaic-media {
+      filter: alpha(opacity=100) !important;
+    }
+    .flip-front-fade {
+      filter: alpha(opacity=100) !important;
+    }
+    .flip-back-fade {
+      z-index: -1;
+    }
+  }
+
+  .mosaic-3column-item-option.is-fade.is-opacity {
+    .flip-back-fade {
+      z-index: 3;
+      filter: alpha(opacity=100);
+    }
+  }
+
 }
 
 

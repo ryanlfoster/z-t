@@ -1,0 +1,17 @@
+---
+layout: layout-base.hbs
+Title: Generic Template
+note: note-generictemplate
+---
+<div class="generictemplate generictemplate_shown_ontablet">
+    <div class="generictemplate_title">
+        {{#parseJSON '{
+        "largetitle_text" : "explore australia by map"
+        }'}}
+            {{> largetitle }}
+        {{/parseJSON}}
+    </div>
+
+    {{> iframe }}
+
+</div>

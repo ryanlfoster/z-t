@@ -10,7 +10,7 @@ import com.citytechinc.cq.component.annotations.DialogField;
 @Component(value = "Large Title")
 public class LargeTitle {
 
-	@DialogField
+	@DialogField(fieldLabel = "Title")
 	private String title;
 
 	public LargeTitle(SlingHttpServletRequest request) {

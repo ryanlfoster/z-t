@@ -131,7 +131,7 @@
 					<div class="row footer-logo">
 
 
-						<img id="logo" src="/etc/designs/tourismaustralia/clientlibs/img/logo/logo_australia_com_whitetext.png"
+						<img id="logo" src="/etc/designs/tourismaustralia/clientlibs/imgs/logo/logo_australia_com_whitetext.png"
 							alt="" />
 					</div>
 
@@ -241,7 +241,7 @@
 										<li><a href="#">Media & industry</a></li>
 										<li><a href="#">Business events</a></li>
 									</ul>
-									<div class="footer-copyright">© Tourism Australia 2014</div>
+									<div class="footer-copyright">ï¿½ Tourism Australia 2014</div>
 								</div>
 							</div>
 						</div>

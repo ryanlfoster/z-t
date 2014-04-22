@@ -81,5 +81,5 @@
 			</div>
 		</div>
 	</div>
-	<p class="fawexploremosaictext">${taste.mosaicText}</p>
+	<div class='fawexploremosaictext'>${taste.mosaicText}</div>
 </div>

@@ -4,7 +4,7 @@
 
 @include font-face("ProximaNova Light", font-files("ProximaNova-Light.svg", "ProximaNova-Light.woff", "ProximaNova-Light.otf"), "ProximaNova-Light.eot");
 @include font-face("ProximaNova Regular Italic", font-files("ProximaNova-RegularIt.svg", "ProximaNova-RegularIt.woff", "ProximaNova-RegularIt.otf"), "ProximaNova-RegularIt.eot");
-@include font-face("ProximaNova Regular", font-files("ProximaNova-Regular.svg", "ProximaNova-Regular.woff", "ProximaNova-Regular.otf"), "ProximaNova-Regular.eot");
+//@include font-face("ProximaNova Regular", font-files("ProximaNova-Regular.svg", "ProximaNova-Regular.woff", "ProximaNova-Regular.otf"), "ProximaNova-Regular.eot");
 @include font-face("ProximaNova Bold", font-files("ProximaNova-Bold.svg", "ProximaNova-Bold.woff", "ProximaNova-Bold.otf"), "ProximaNova-SemiboldIt.eot");
 //@include font-face("ProximaNova Bold Italic", font-files("ProximaNova-BoldIt.svg", "ProximaNova-BoldIt.woff", "ProximaNova-BoldIt.otf"), "ProximaNova-BoldIt.eot");
 @include font-face("ProximaNova Semi Bold Italic", font-files("ProximaNova-SemiboldIt.svg", "ProximaNova-SemiboldIt.woff", "ProximaNova-SemiboldIt.otf"), "ProximaNova-SemiboldIt.eot");
@@ -20,7 +20,7 @@
 
 
 //in Win 8.1 select text with svg font 'ProximaNova Regular' is not rendered properly for select element
-@media screen and (-webkit-min-device-pixel-ratio:0) {
+
   @font-face {
     font-family: 'ProximaNova Regular';
     src: url('/fonts/ProximaNova-Regular.eot');
@@ -32,4 +32,3 @@
     font-style: normal;
 
   }
-}

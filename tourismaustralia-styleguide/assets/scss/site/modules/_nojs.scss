@@ -9,6 +9,8 @@
   padding: 1.2em;
   color: #FFF;
   font-weight: bold;
+    z-index: 2;
+    position: relative;
 }
 
 /* default state of page no-js, modernizer injects styles and removes no-js */

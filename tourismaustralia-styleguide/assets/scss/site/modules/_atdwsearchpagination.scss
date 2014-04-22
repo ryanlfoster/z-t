@@ -1,0 +1,69 @@
+.atdw-search-pagination{
+  margin-top: pxtoem(3px);
+  margin-bottom: pxtoem(120px);
+}
+.atdw-search-pagination-wrapper{
+  display: table;
+  margin: 0 auto;
+}
+
+.atdw-search-pagination-wrapper:before{
+  content:"\003c";
+  margin-right: pxtoem(8px);
+  color:$search-text-color;
+}
+
+.atdw-search-pagination-wrapper:after{
+  content:" \003e";
+  margin-left: pxtoem(8px);
+  color:$search-text-color;
+}
+
+.atdw-search-pagination-wrapper > div{
+  display: table-cell;
+  padding: 0 pxtoem(14px);
+  vertical-align: top;
+}
+
+.atdw-search-pagination-wrapper .atdw-search-pagination-prev{
+  padding-right:pxtoem(4px);
+  padding-left:0;
+  white-space: nowrap;
+  @include breakpoint(sm){
+    padding-right:pxtoem(14px);
+  }
+}
+
+.atdw-search-pagination-wrapper .atdw-search-pagination-pages{
+  padding:0;
+}
+
+.atdw-search-pagination-wrapper .atdw-search-pagination-next{
+  padding-right:0;
+  padding-left:pxtoem(4px);
+  white-space: nowrap;
+  @include breakpoint(sm){
+    padding-left:pxtoem(14px);
+  }
+}
+
+.atdw-search-pagination-pages-wrapper{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.atdw-search-pagination-pages-wrapper li{
+  display:inline-block;
+  padding: 0 pxtoem(4px) pxtoem(10px);
+  @include breakpoint(sm){
+    padding: 0 pxtoem(14px) pxtoem(10px);
+  }
+}
+
+.atdw-search-pagination-pages-wrapper a{
+  font-size: pxtoem(14px);
+  color:$search-text-color;
+}
+

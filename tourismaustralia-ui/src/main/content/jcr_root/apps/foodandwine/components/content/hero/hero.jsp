@@ -48,10 +48,12 @@
         <hr class="headerlockup-hr-mobile"/>
         <div class="headerlockup">
             <div class="headerlockup-type-sml1">${hero.aboveButtonText}</div>
+            <c:if test="${not empty hero.aboveButtonText}">
             <hr class="headerlockup-hr"/>
+            </c:if>
         </div>
         <p>
-            <a href="${hero.buttonLink}" class="btn-secondary btn-transparent btn-small">${hero.buttonText}</a>
+            <a href="${hero.buttonLink}" class="btn-secondary btn-transparent btn-small" target="${hero.external ? '_BLANK' : '_self'}">${hero.buttonText}</a>
         </p>
         <p class='faw-register-teaser-subline'>${hero.belowButtonText}</p>
     </div>

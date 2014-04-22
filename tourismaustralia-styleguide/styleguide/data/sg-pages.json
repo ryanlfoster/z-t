@@ -1174,6 +1174,17 @@
                     ,
                 
             
+                "parallaximage_fullwidth_blank" : {
+                     "data" : {
+                        "title" : "parallaximage_fullwidth_blank",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'parallaximage_fullwidth_blank'}}"
+                }
+                
+                    ,
+                
+            
                 "mapimagewithbuttons" : {
                      "data" : {
                         "title" : "mapimagewithbuttons",

@@ -1,5 +1,8 @@
 .sitemap-content .col-xs-12{
- text-align: center;
+ text-align: left;
+  @include breakpoint(sm) {
+    text-align: center;
+  }
   @include breakpoint(md) {
     text-align: left;
   }

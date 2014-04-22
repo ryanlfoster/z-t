@@ -1273,6 +1273,17 @@
                     ,
                 
             
+                "specialoffer_from" : {
+                     "data" : {
+                        "title" : "specialoffer_from",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'specialoffer_from'}}"
+                }
+                
+                    ,
+                
+            
                 "summary" : {
                      "data" : {
                         "title" : "summary",

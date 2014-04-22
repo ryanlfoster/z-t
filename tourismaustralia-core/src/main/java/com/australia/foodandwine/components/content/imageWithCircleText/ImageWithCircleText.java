@@ -28,7 +28,7 @@ public class ImageWithCircleText {
 	@DialogField(fieldLabel = "Big Text", name = "./bigText", additionalProperties = @FieldProperty(name = "maxLength", value = "50"), required = true, tab = 2)
 	private final String bigText;
 
-	@DialogField(fieldLabel = "Circle Text", required = false, name = "./descriptionText", additionalProperties = @FieldProperty(name = "maxLength", value = "500"), tab = 2)
+	@DialogField(fieldLabel = "Description", required = false, name = "./descriptionText", additionalProperties = @FieldProperty(name = "maxLength", value = "500"), tab = 2)
 	@TextArea
 	private final String descriptionText;
 

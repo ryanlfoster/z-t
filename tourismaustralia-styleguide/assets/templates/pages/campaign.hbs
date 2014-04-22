@@ -1,14 +1,37 @@
 ---
+title: Campaign
 layout: layout-base.hbs
 ---
 
+{{#parseJSON '{
+	"page_title" : "Experience the Diversity of Australia",
+    "hero_title" : "Experience The Diversity Of Australia"
+}'}}
+    {{> hero_text }}
+{{/parseJSON}}
 
 
 <div class="paragraph-campaign">
-	 {{#parseJSON '{
+
+    {{#parseJSON '{
+        "promo_image" : "promo7",
+        "promo_title" : "Fly to Australia<br /> sponsored by Tourism Australia",
+        "promo_text" : [
+            {"para" : "Hurry these fares must be booked by 7th April 2014."}
+        ],
+        "promo_value" : "799",
+        "promo_per" : "/per person"
+    }'}}
+        {{> specialoffer }}
+    {{/parseJSON}}
+
+	{{#parseJSON '{
         "parallax_image": "largeparallax_1"
     }'}}
         {{> parallaximage_fullwidth_blank }}
     {{/parseJSON}}
+
+
+    {{> categorylinks_city_sydney }}
 
 </div>

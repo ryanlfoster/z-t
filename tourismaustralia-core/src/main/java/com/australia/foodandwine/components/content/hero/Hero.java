@@ -67,8 +67,14 @@ public class Hero {
 	private final String videoPlayer;
 	private final String videoRandomId;
 
+	private boolean isExternal;
+
 	
 	 
+	public boolean isExternal() {
+		return isExternal;
+	}
+
 	private static final String TITLE = "title";
 	private static final String SMALL_TEXT = "smallText";
 	private static final String LARGE_TEXT = "largeText";
@@ -98,6 +104,7 @@ public class Hero {
 		aboveButtonText = properties.get(ABOVE_BUTTON_TEXT, StringUtils.EMPTY);
 		buttonText = properties.get(BUTTON_TEXT, StringUtils.EMPTY);
 		buttonLink = LinkUtils.getHrefFromPath(properties.get(BUTTON_LINK, StringUtils.EMPTY));
+		isExternal=LinkUtils.isExternal(buttonLink);
 		belowButtonText = properties.get(BELOW_BUTTON_TEXT, StringUtils.EMPTY);
 		
 		BrcService brcService = BrcUtils.getSlingSettingService();

@@ -36,7 +36,7 @@ public class StateMosaic {
 	}
 
 	public StateMosaic(SlingHttpServletRequest request) {
-		
+		// TODO: Load first set server side so it can be indexed by google
 		PageManager pageManager = request.getResourceResolver().adaptTo(PageManager.class);
 		Page currentPage = pageManager.getContainingPage(request.getResource());
 		templateName = currentPage.getTemplate().getName();

@@ -2,6 +2,13 @@
 layout: layout-base.hbs
 ---
 
+{{#parseJSON '{
+    "hero_image" : "hero-category",
+    "hero_title" : "Nature & Wildlife"
+}'}}
+    {{> hero_category }}
+{{/parseJSON}}
+
 <div class="paragraph-category">
 
     {{#parseJSON '{"page_title" : "Category"}'}}

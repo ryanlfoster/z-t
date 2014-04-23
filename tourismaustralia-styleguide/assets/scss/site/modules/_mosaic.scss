@@ -256,6 +256,14 @@
   margin: 0;
 }
 
+// mosaic grid 4 video icon size
+.mosaic-grid-4 .video-play-icon {
+  @include breakpoint(md) {
+    width: 25%;
+    padding-bottom: 1em;
+  }
+}
+
 // show detail-content at certain views
 .mosaic-grid-2-tile .mosaic-item-detail-container {
   display: none;

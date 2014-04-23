@@ -56,14 +56,14 @@
                     <p class="type-font-feature">
                         Select place
                     </p></option>
-                <option value="southernaustralia">Capital</option>
-                <option value="victoria">NSW</option>
-                <option value="northern">Northern</option>
-                <option value="queensland">Queensland</option>
-                <option value="south">South</option>
-                <option value="tasmania">Tasmania</option>
-                <option value="victoria">Victoria</option>
-                <option value="western">Western</option>
+				<option value="capital">ACT</option>
+				<option value="nsw">NSW</option>
+				<option value="northern">NT</option>
+				<option value="queensland">QLD</option>
+				<option value="south">SA</option>
+				<option value="tasmania">TAS</option>
+				<option value="victoria">VIC</option>
+				<option value="western">WA</option>
             </select>
         </div>
         <!-- END: selection -->

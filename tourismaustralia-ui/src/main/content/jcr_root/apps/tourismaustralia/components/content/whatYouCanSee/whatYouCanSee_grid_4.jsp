@@ -1,6 +1,5 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@include file="/apps/tourismaustralia/components/global.jsp" %>
-<%@ page import="com.australia.content.domain.ContentType.Content" %>
 <%@ page import="java.util.List" %>
 <!-- grid of 4 items start -->
 <div class="col-xs-12 col-md-6 mosaic-grid-4 l-row-collapse">

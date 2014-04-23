@@ -7,7 +7,9 @@ final class Constants {
 	public static final String NAME_TEXT = "text";
 	public static final String NAME_TAB_3_TITLE = "optionalTabTitle";
 	public static final String NAME_SHOW_THINGS_TO_DO = "showThingsToDo";
+	public static final String NAME_THINGS_TO_DO_TAB_SIZE = "thingsToDoTabSize";
 	public static final String NAME_SHOW_EVENTS = "showEvents";
+	public static final String NAME_EVENTS_TAB_SIZE = "eventsTabSize";
 	public static final String NAME_SHOW_OPTIONAL_TAB = "showOptionalTab";
 	public static final String NAME_OPTIONAL_TAB_SIZE = "optionalTabSize";
 	public static final String NAME_OPTIONAL_TAB_PATH_0 = "optionalTabPath0";
@@ -20,8 +22,8 @@ final class Constants {
 	public static final String NAME_OPTIONAL_TAB_PATH_7 = "optionalTabPath7";
 	public static final String NAME_OPTIONAL_TAB_PATH_8 = "optionalTabPath8";
 	public static final String NAME_OPTIONAL_TAB_PATH_9 = "optionalTabPath9";
-	public static final String TAB_3_SIZE_5 = "5";
-	public static final String TAB_3_SIZE_10 = "10";
+	public static final String TAB_SIZE_5 = "5";
+	public static final String TAB_SIZE_10 = "10";
 
 	public static final String BASE_IMAGE_PATH = "/etc/designs/tourismaustralia/clientlibs/img/";
 	public static final String TTD_IMAGE_PATH = BASE_IMAGE_PATH + "icons/menu.png";

@@ -3,6 +3,7 @@ package com.australia.content.service;
 import com.australia.content.domain.Content;
 import com.australia.content.domain.ContentSearchParameters;
 import com.australia.content.domain.ContentSearchResult;
+import com.australia.content.domain.ContentType;
 import com.australia.utils.QueryUtils;
 import com.day.cq.search.PredicateGroup;
 import com.day.cq.search.Query;
@@ -55,6 +56,10 @@ public class DefaultContentSearchService implements ContentSearchService {
 			final Map<String, String> predicateMap = new HashMap<String, String>();
 			predicateMap.put("type", "cq:Page");
 
+			if (parameters.getLanguagePath() != null) {
+				predicateMap.put(QueryUtils.PATH, parameters.getLanguagePath());
+			}
+
 			int propertyCount = 1;
 
 			if (StringUtils.isNotEmpty(parameters.getText())) {
@@ -75,12 +80,11 @@ public class DefaultContentSearchService implements ContentSearchService {
 			}
 
 			if (parameters.getContentType() != null) {
-				QueryUtils.addProperty(predicateMap, propertyCount++, "jcr:content/cq:template",
-					parameters.getContentType().getTemplate());
-			}
-
-			if (parameters.getLanguagePath() != null) {
-				predicateMap.put(propertyCount + QueryUtils.SEPERATOR + QueryUtils.PATH, parameters.getLanguagePath());
+				predicateMap.put("property", "jcr:content/@cq:template");
+				predicateMap.put("property.value", parameters.getContentType().getTemplate());
+			} else {
+				QueryUtils.addProperty(predicateMap, propertyCount++, "jcr:content/@cq:template",
+					ContentType.allTemplates());
 			}
 
 			predicateMap.put(QueryUtils.OFFSET, Long.toString((parameters.getPage() - 1) * parameters.getCount()));
@@ -94,8 +98,6 @@ public class DefaultContentSearchService implements ContentSearchService {
 			for (final Hit hit: hits) {
 				out.add(Content.fromResource(hit.getResource()));
 			}
-
-			session.save();
 
 		} catch (RepositoryException e) {
 

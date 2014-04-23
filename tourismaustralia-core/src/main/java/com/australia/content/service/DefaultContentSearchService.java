@@ -9,6 +9,7 @@ import com.day.cq.search.PredicateGroup;
 import com.day.cq.search.Query;
 import com.day.cq.search.QueryBuilder;
 import com.day.cq.search.result.Hit;
+import com.day.cq.search.result.SearchResult;
 import com.day.cq.tagging.Tag;
 import com.day.cq.tagging.TagManager;
 import org.apache.commons.lang3.StringUtils;
@@ -93,8 +94,9 @@ public class DefaultContentSearchService implements ContentSearchService {
 			final PredicateGroup predicates = PredicateGroup.create(predicateMap);
 
 			final Query query = queryBuilder.createQuery(predicates, session);
-
-			final List<Hit> hits = query.getResult().getHits();
+			final SearchResult searchResult = query.getResult();
+			totalResultCount = searchResult.getTotalMatches();
+			final List<Hit> hits = searchResult.getHits();
 			for (final Hit hit: hits) {
 				out.add(Content.fromResource(hit.getResource()));
 			}

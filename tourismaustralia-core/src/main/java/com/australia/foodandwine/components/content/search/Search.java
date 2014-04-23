@@ -30,13 +30,12 @@ public class Search {
 	private String searchPath;
 	private final long pages = 0;
 	private String showmore;
-	private int showMoreResultPerHit = 10;
+	private int showMoreResultPerHit = 20;
 	
 
 	public Search(SlingHttpServletRequest request) {
 
 		try {
-			 
 				try{
 			 	searchParameter = request.getParameter("q");
 				category = request.getParameter("category").toString();
@@ -63,7 +62,7 @@ public class Search {
 				FAWSearchParametersBuilder fawSearchParameterBuilder = new FAWSearchParametersBuilder();
 				fawSearchParameterBuilder.setText(searchParameter).setPage(page).setTags(searchFilter).setCount(showMoreResultPerHit).setSort(sort);
 				searchResult = searchResultsService.search(fawSearchParameterBuilder.build());
-				totalSearchResultsCount = searchResult.getExperiences().size();
+				totalSearchResultsCount = searchResult.getFawSearchList().size();
 				PageManager pageManager = request.getResourceResolver().adaptTo(PageManager.class);
 				Page searchPage = pageManager.getContainingPage(request.getResource());
 				searchPath = request.getResourceResolver().map(searchPage.getPath()) + ".html";

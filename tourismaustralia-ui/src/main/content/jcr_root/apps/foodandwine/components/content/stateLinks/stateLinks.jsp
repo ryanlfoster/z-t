@@ -24,16 +24,18 @@
 
 <!-- selection for mobile -->
 <div class="l-display-md">
-	<select class="input-select input-select-small">
+	<select class="input-select input-select-small select-trigger-link">
 		<option value=""> Select place</option>
-		<option value="capital">Capital</option>
-		<option value="nsw">NSW</option>
-		<option value="northern">Northern</option>
-		<option value="queensland">Queensland</option>
-		<option value="south">South</option>
-		<option value="tasmania">Tasmania</option>
-		<option value="victoria">Victoria</option>
-		<option value="western">Western</option>
+		<option value="${stateLinks.capital}.html">ACT</option>
+		<option value="${stateLinks.nsw}.html">NSW</option>
+		<option value="${stateLinks.northern}.html">NT</option>
+		<option value="${stateLinks.queensland}.html">QLD</option>
+		<option value="${stateLinks.south}.html">SA</option>
+		<option value="${stateLinks.tasmania}.html">TAS</option>
+		<option value="${stateLinks.victoria}.html">VIC</option>
+		<option value="${stateLinks.western}.html">WA</option>
 	</select>
 </div>
 <!-- END: selection -->
+
+<cq:includeClientLib js="faw-state-links"/>

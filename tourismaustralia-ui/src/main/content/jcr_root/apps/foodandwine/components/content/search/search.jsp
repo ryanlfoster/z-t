@@ -1,24 +1,434 @@
 <%@include file="/apps/foodandwine/components/global.jsp"%>
-<%@ page
-	import="com.australia.foodandwine.components.content.search.Search"%>
-
-<c:set var="search" value="<%=new Search(slingRequest) %>" />
 
 <cq:includeClientLib js="faw-search" />
 
-<div class="faw-hero-home-container"
-	data-searchurl="${search.searchPath}">
-	<c:if test="${search.totalSearchResultsCount > 0}">
-	<h3 class="form-h3 l-padding-top-xs-2 l-padding-bottom-xs-0-5">${search.totalSearchResultsCount}
-		Search results for: <strong>${search.searchParameter}</strong>
+<script id ="searchMosaic" type="text/x-handlebars-template">
+
+<div class="row l-row-collapse">
+{{#each searchResults}}
+	{{#compare @index 0 operator="=="}}  
+        <div class="col-xs-12 col-md-6">
+            <a href="{{link}}" title="" class="mosaic-item">
+    		<img class='mosaic-item-image' src="{{imagePath}}" alt="" width="100%"/>
+    		<span class="mosaic-item-description">
+        		<span class="mosaic-item-description-head type-font-feature">{{title}}</span>
+        		<span class="mosaic-item-description-sub">{{state}}</span>
+        		<span class="mosaic-item-description-copy">
+            		{{pageDescription}}
+            		<br><br>
+            		<span class="mosaic-item-description-copy-link"><strong>Read more</strong></span>
+        		</span>
+        	<span class="mosaic-item-description-share mosaic-item-description-share-dark">
+            	<img src="imgs/base/share/share-instagram-black.png" alt="">
+        	</span>
+        	<span class="mosaic-item-description-share mosaic-item-description-share-white">
+            	<img src="imgs/base/share/share-instagram-white.png" alt=""/>
+        	</span>
+   			</span>
+    		<span class="mosaic-item-overlay mosaic-item-overlay-share">
+         		<span class="mosaic-item-overlay-share-container">
+             		<span class="mosaic-item-overlay-share-copy">
+                		Looking forward AS ALWAYS to seeing you all @eveleighmarket @carriageworks tomorrow! All you need is an empty basket to fill with...
+              			<br><br>
+              			<strong>kylie_kwong on Instagram</strong>
+            		</span>
+        		</span>
+    		</span>
+           </a>
+       </div>
+	{{/compare}}
+ {{/each}}
+
+<div class="col-xs-12 col-md-6">
+ <div class="row">
+     {{#each searchResults}}
+{{#compare @index 1 operator="=="}} 
+                <div class="col-xs-12 col-sm-6">
+                    <a href="{{link}}" title="" class="mosaic-item">
+    <img class='mosaic-item-image' src="{{imagePath}}" alt="" width="100%"/>
+
+    <span class="mosaic-item-description">
+        <span class="mosaic-item-description-head type-font-feature">{{tiitle}}</span>
+        <span class="mosaic-item-description-sub">{{state}}</span>
+        <span class="mosaic-item-description-copy">
+            {{pageDescription}}
+            <br><br>
+            <span class="mosaic-item-description-copy-link"><strong>Read more</strong></span>
+        </span>
+        <span class="mosaic-item-description-share mosaic-item-description-share-dark">
+            <img src="imgs/base/share/share-instagram-black.png" alt="">
+        </span>
+        <span class="mosaic-item-description-share mosaic-item-description-share-white">
+            <img src="imgs/base/share/share-instagram-white.png" alt=""/>
+        </span>
+    </span>
+
+
+    <span class="mosaic-item-overlay mosaic-item-overlay-share">
+         <span class="mosaic-item-overlay-share-container">
+             <span class="mosaic-item-overlay-share-copy">
+                Looking forward AS ALWAYS to seeing you all @eveleighmarket @carriageworks tomorrow! All you need is an empty basket to fill with...
+              <br><br>
+              <strong>kylie_kwong on Instagram</strong>
+            </span>
+        </span>
+    </span>
+
+</a>
+                </div>
+            {{/compare}}
+{{#compare @index 2 operator="=="}}
+                 <div class="col-xs-12 col-sm-6">
+<a href="{{link}}" class="mosaic-item"  title="">
+    <img class='mosaic-item-image' src="{{imagePath}}" alt="" width="100%"/>
+
+    <span class="mosaic-item-description">
+        <span class="mosaic-item-description-head type-font-feature">
+            {{title}}
+        </span>
+        <span class="mosaic-item-description-sub">
+            {{stateTag}}
+        </span>
+        <span class="mosaic-item-description-copy">
+            {{description}}
+            <br><br>
+            <span class="mosaic-item-description-copy-link"><strong>Read more</strong></span>
+            <strong class="mosaic-item-description-categories"><em>{{primaryCategory}}</em></strong>
+        </span>
+    </span>
+
+
+    <span class="mosaic-item-overlay mosaic-item-overlay-info">
+         <span class="mosaic-item-overlay-info-icon">
+             <span class="mosaic-item-overlay-info-head type-font-feature">{{title}}<br/>shed</span>
+              <span class="mosaic-item-overlay-info-icon-item">
+                 <img src="{{categoryLogo}}" alt="">
+             </span>
+             <span class="mosaic-item-overlay-info-desciption">
+			{{city}}
+                 <br>
+                 <br>
+                  <span class="mosaic-item-description-copy-link"><strong>Find out more</strong></span>
+             </span>
+         </span>
+          <span class="mosaic-item-overlay-info-categories">
+                 <strong>{{primaryCategory}}</strong>
+          </span>
+    </span>
+
+</a>
+</div>
+                 {{/compare}}
+{{#compare @index 3 operator="=="}}
+    <div class="col-xs-12 col-sm-6 ">
+<a href="{{link}}" title="" class="mosaic-item">
+    <img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
+
+    <span class="mosaic-item-description">
+        <span class="mosaic-item-description-head type-font-feature">{{title}}</span>
+        <span class="mosaic-item-description-sub">{{state}}</span>
+        <span class="mosaic-item-description-copy">
+            {{pageDescription}}
+            <br><br>
+            <span class="mosaic-item-description-copy-link"><strong>Read more</strong></span>
+        </span>
+        <span class="mosaic-item-description-share mosaic-item-description-share-dark">
+            <img src="imgs/base/share/share-instagram-black.png" alt="">
+        </span>
+        <span class="mosaic-item-description-share mosaic-item-description-share-white">
+            <img src="imgs/base/share/share-instagram-white.png" alt=""/>
+        </span>
+    </span>
+       <span class="mosaic-item-overlay mosaic-item-overlay-share">
+         <span class="mosaic-item-overlay-share-container">
+             <span class="mosaic-item-overlay-share-copy">
+                Looking forward AS ALWAYS to seeing you all @eveleighmarket @carriageworks tomorrow! All you need is an empty basket to fill with...
+              <br><br>
+              <strong>kylie_kwong on Instagram</strong>
+            </span>
+        </span>
+    </span>
+
+</a>
+                </div>
+    {{/compare}}
+{{#compare @index 4 operator="=="}}
+                <div class="col-xs-12 col-sm-6">
+<a href="{{link}}" class="mosaic-item"  title="">
+    <img class='mosaic-item-image' src="{{imagePath}}" alt="" width="100%"/>
+
+    <span class="mosaic-item-description">
+        <span class="mosaic-item-description-head type-font-feature">
+            {{title}}
+        </span>
+        <span class="mosaic-item-description-sub">
+            {{state}}
+        </span>
+        <span class="mosaic-item-description-copy">
+            {{pageDescription}}
+            <br><br>
+            <span class="mosaic-item-description-copy-link"><strong>Read more</strong></span>
+            <strong class="mosaic-item-description-categories"><em>{{primaryCategory}}</em></strong>
+        </span>
+    </span>
+
+
+    <span class="mosaic-item-overlay mosaic-item-overlay-info">
+         <span class="mosaic-item-overlay-info-icon">
+             <span class="mosaic-item-overlay-info-head type-font-feature">{{title}}<br/>shed</span>
+              <span class="mosaic-item-overlay-info-icon-item">
+                 <img src="{{icon}}" alt="">
+             </span>
+             <span class="mosaic-item-overlay-info-desciption">
+				{{city}}
+                 <br>
+                 <br>
+                  <span class="mosaic-item-description-copy-link"><strong>Find out more</strong></span>
+             </span>
+         </span>
+          <span class="mosaic-item-overlay-info-categories">
+                 <strong>{{primaryCategory}}</strong>
+          </span>
+    </span>
+
+</a>
+                </div>
+                {{/compare}}
+
+{{/each}}
+    </div>
+</div> 
+</div>
+
+<div class="row l-row-collapse">
+         <div class="col-xs-12 col-md-3 mosaic-ie-25">
+            <div class="row">
+               {{#each searchResults}}
+
+{{#compare @index 5 operator="=="}}  
+                <div class="col-xs-12 col-sm-6 col-md-12 mosaic-ie-100">
+<a href="{{link}}" class="mosaic-item"  title="">
+    <img class='mosaic-item-image' src="{{imagePath}}" alt="" width="100%"/>
+
+    <span class="mosaic-item-description">
+        <span class="mosaic-item-description-head type-font-feature">
+                 {{title}}
+        </span>
+        <span class="mosaic-item-description-sub">
+            {{state}}
+        </span>
+        <span class="mosaic-item-description-copy">
+            {{pageDescription}}
+            <br><br>
+            <span class="mosaic-item-description-copy-link"><strong>Read more</strong></span>
+            <strong class="mosaic-item-description-categories"><em>{{primaryCategory}}</em></strong>
+        </span>
+    </span>
+
+    <span class="mosaic-item-overlay mosaic-item-overlay-info">
+         <span class="mosaic-item-overlay-info-icon">
+             <span class="mosaic-item-overlay-info-head type-font-feature">{{title}}<br/>shed</span>
+              <span class="mosaic-item-overlay-info-icon-item">
+                 <img src="{{icon}}" alt="">
+             </span>
+             <span class="mosaic-item-overlay-info-desciption">
+				{{city}}
+                 <br>
+                 <br>
+                  <span class="mosaic-item-description-copy-link"><strong>Find out more</strong></span>
+             </span>
+         </span>
+          <span class="mosaic-item-overlay-info-categories">
+                 <strong>{{primaryCategory}}</strong>
+          </span>
+    </span>
+
+</a>
+                </div>
+                 {{/compare}}
+                 {{#compare @index 6 operator="=="}} 
+                <div class="col-xs-12 col-sm-6 col-md-12 mosaic-ie-100">
+<a href="{{link}}" title="" class="mosaic-item">
+    <img class='mosaic-item-image' src="{{imagePath}}" alt="" width="100%"/>
+    <span class="mosaic-item-description">
+                 <span class="mosaic-item-description-head type-font-feature">{{title}}</span>
+        <span class="mosaic-item-description-sub">{{state}}</span>
+        <span class="mosaic-item-description-copy">
+            {{pageDescription}}
+            <br><br>
+            <span class="mosaic-item-description-copy-link"><strong>Read more</strong></span>
+        </span>
+        <span class="mosaic-item-description-share mosaic-item-description-share-dark">
+            <img src="imgs/base/share/share-instagram-black.png" alt="">
+        </span>
+        <span class="mosaic-item-description-share mosaic-item-description-share-white">
+            <img src="imgs/base/share/share-instagram-white.png" alt=""/>
+        </span>
+    </span>
+
+    <span class="mosaic-item-overlay mosaic-item-overlay-share">
+         <span class="mosaic-item-overlay-share-container">
+             <span class="mosaic-item-overlay-share-copy">
+                Looking forward AS ALWAYS to seeing you all @eveleighmarket @carriageworks tomorrow! All you need is an empty basket to fill with...
+              <br><br>
+              <strong>kylie_kwong on Instagram</strong>
+            </span>
+        </span>
+    </span>
+
+</a>
+                </div>
+                 {{/compare}}
+                 {{/each}}
+            </div>
+        </div>
+
+{{#each test}}
+
+{{#compare @index 7 operator="=="}}  
+        <div class="col-xs-12 col-md-6">
+<a href="{{link}}" class="mosaic-item"  title="">
+    <img class='mosaic-item-image' src="{{imagePath}}" alt="" width="100%"/>
+
+    <span class="mosaic-item-description">
+        <span class="mosaic-item-description-head type-font-feature">
+                 {{title}}
+        </span>
+        <span class="mosaic-item-description-sub">
+            {{state}}
+        </span>
+        <span class="mosaic-item-description-copy">
+            {{pageDescription}}
+            <br><br>
+            <span class="mosaic-item-description-copy-link"><strong>Read more</strong></span>
+            <strong class="mosaic-item-description-categories"><em>{{primaryCategory}}</em></strong>
+        </span>
+    </span>
+
+    <span class="mosaic-item-overlay mosaic-item-overlay-info">
+         <span class="mosaic-item-overlay-info-icon">
+             <span class="mosaic-item-overlay-info-head type-font-feature">{{title}}<br/>shed</span>
+              <span class="mosaic-item-overlay-info-icon-item">
+                 <img src="{{icon}}" alt="">
+             </span>
+             <span class="mosaic-item-overlay-info-desciption">
+				{{city}}
+                 <br>
+                 <br>
+                  <span class="mosaic-item-description-copy-link"><strong>Find out more</strong></span>
+             </span>
+         </span>
+          <span class="mosaic-item-overlay-info-categories">
+                 <strong>{{primaryCategory}}</strong>
+          </span>
+    </span>
+
+</a>
+        </div>
+                 {{/compare}}
+                 {{/each}}
+        <div class="col-xs-12 col-md-3 mosaic-ie-25">
+            <div class="row">
+                {{#each searchResults}}
+
+{{#compare @index 8 operator="=="}}  
+                <div class="col-xs-12 col-sm-6 col-md-12 mosaic-ie-100">
+<a href="{{link}}" class="mosaic-item"  title="">
+    <img class='mosaic-item-image' src="{{imagePath}}" alt="" width="100%"/>
+
+    <span class="mosaic-item-description">
+        <span class="mosaic-item-description-head type-font-feature">
+                 {{title}}
+        </span>
+        <span class="mosaic-item-description-sub">
+            {{state}}
+        </span>
+        <span class="mosaic-item-description-copy">
+            {{pageDescription}}
+            <br><br>
+            <span class="mosaic-item-description-copy-link"><strong>Read more</strong></span>
+            <strong class="mosaic-item-description-categories"><em>{{primaryCategory}}</em></strong>
+        </span>
+    </span>
+
+
+    <span class="mosaic-item-overlay mosaic-item-overlay-info">
+         <span class="mosaic-item-overlay-info-icon">
+             <span class="mosaic-item-overlay-info-head type-font-feature">{{title}}<br/>shed</span>
+              <span class="mosaic-item-overlay-info-icon-item">
+                 <img src="{{icon}}" alt="">
+             </span>
+             <span class="mosaic-item-overlay-info-desciption">
+				{{city}}
+                 <br>
+                 <br>
+                  <span class="mosaic-item-description-copy-link"><strong>Find out more</strong></span>
+             </span>
+         </span>
+          <span class="mosaic-item-overlay-info-categories">
+                 <strong>{{primaryCategory}}</strong>
+          </span>
+    </span>
+
+</a>
+                </div>
+                 {{/compare}}
+{{#compare @index 9 operator="=="}}  
+                <div class="col-xs-12 col-sm-6 col-md-12 mosaic-ie-100">
+                 <a href="{{link}}" title="" class="mosaic-item">
+                 <img class='mosaic-item-image' src="{{imagePath}}" alt="" width="100%"/>
+
+    <span class="mosaic-item-description">
+                 <span class="mosaic-item-description-head type-font-feature">{{title}}</span>
+        <span class="mosaic-item-description-sub">{{state}}</span>
+        <span class="mosaic-item-description-copy">
+            {{pageDescription}}
+            <br><br>
+            <span class="mosaic-item-description-copy-link"><strong>Read more</strong></span>
+        </span>
+        <span class="mosaic-item-description-share mosaic-item-description-share-dark">
+            <img src="imgs/base/share/share-instagram-black.png" alt="">
+        </span>
+        <span class="mosaic-item-description-share mosaic-item-description-share-white">
+            <img src="imgs/base/share/share-instagram-white.png" alt=""/>
+        </span>
+    </span>
+
+    <span class="mosaic-item-overlay mosaic-item-overlay-share">
+         <span class="mosaic-item-overlay-share-container">
+             <span class="mosaic-item-overlay-share-copy">
+                Looking forward AS ALWAYS to seeing you all @eveleighmarket @carriageworks tomorrow! All you need is an empty basket to fill with...
+              <br><br>
+              <strong>kylie_kwong on Instagram</strong>
+            </span>
+        </span>
+    </span>
+
+</a>
+                </div>
+                 {{/compare}}
+                 {{/each}}
+            </div>
+        </div>
+    </div>
+
+</script>
+
+
+<div class="faw-hero-home-container">
+	
+	<h3 class="form-h3 l-padding-top-xs-2 l-padding-bottom-xs-0-5">
+		
 	</h3>
-	</c:if>
+	
 	<input
 		class="input-field-blank input-field-big input-field-normal-left-border"
 		placeholder="E.g. Cafe Sydney"> <a href="#"
-		class="btn-secondary btn-auto-size">Search</a>
+		class="btn-secondary btn-auto-size" >Search</a>
 </div>
-<!-- <div class="faw-search-tag-cloud">
+
+ 
+ <!-- <div class="faw-search-tag-cloud">
 	<p class="faw-search-tag-cloud-headline">Other people were
 		intrested in searching for:</p>
 	<ul>
@@ -27,7 +437,7 @@
 		<li><a href="" target="_self">Outdoors</a></li>
 		<li><a href="" target="_self">Produce</a></li>
 	</ul>
-</div> -->
+</div>  -->
 
 <div class="faw-category-mosaic">
 	<!-- FOOD MOSAIC GRID CHANGER -->
@@ -58,14 +468,14 @@
 				<select class="input-select input-select-small">
 					<option value="" selected="selected" disabled="">Filter by
 						location</option>
-					<option value="southernaustralia">Capital</option>
-					<option value="victoria">NSW</option>
-					<option value="northern">Northern</option>
-					<option value="queensland">Queensland</option>
-					<option value="south">South</option>
-					<option value="tasmania">Tasmania</option>
-					<option value="victoria">Victoria</option>
-					<option value="western">Western</option>
+					<option value="australia-capital-teritory">ACT</option>
+					<option value="new-south-wales">NSW</option>
+					<option value="northern-terriotory">NT</option>
+					<option value="queensland">QLD</option>
+					<option value="south-australia">SA</option>
+					<option value="tasmania">TAS</option>
+					<option value="victoria">VIC</option>
+					<option value="western-australia">WA</option>
 				</select>
 			</div>
 			<!-- END: STATE DROP DOWN -->
@@ -83,418 +493,10 @@
 		<!-- END: GRID CHANGER BUTTONS -->
 	</div>
 	<div class="mosaic">
-		<div class="row l-row-collapse">
-
-<c:forEach var="exp" items="${search.searchResult.experiences}" varStatus="loop">
-    <c:if test="${loop.index eq 0}">
-        <div class="col-xs-12 col-md-6">
-            <a href="${exp.link}" title="" class="mosaic-item">
-    		<img class='mosaic-item-image' src="${exp.imagePath}" alt="" width="100%"/>
-    		<span class="mosaic-item-description">
-        		<span class="mosaic-item-description-head type-font-feature">${exp.title}</span>
-        		<span class="mosaic-item-description-sub">${exp.state}</span>
-        		<span class="mosaic-item-description-copy">
-						${exp.pageDescription}
-            		<br><br>
-            		<span class="mosaic-item-description-copy-link"><strong>Read more</strong></span>
-        		</span>
-        	<span class="mosaic-item-description-share mosaic-item-description-share-dark">
-            	<img src="imgs/base/share/share-instagram-black.png" alt="">
-        	</span>
-        	<span class="mosaic-item-description-share mosaic-item-description-share-white">
-            	<img src="imgs/base/share/share-instagram-white.png" alt=""/>
-        	</span>
-   			</span>
-    		<span class="mosaic-item-overlay mosaic-item-overlay-share">
-         		<span class="mosaic-item-overlay-share-container">
-             		<span class="mosaic-item-overlay-share-copy">
-                		${exp.pageDescription}
-              			<br><br>
-              			<strong>kylie_kwong on Instagram</strong>
-            		</span>
-        		</span>
-    		</span>
-           </a>
-       </div>
-    </c:if>
-
-            </c:forEach>
-<div class="col-xs-12 col-md-6">
- <div class="row">
-<c:forEach var="exp" items="${search.searchResult.experiences}" varStatus="loop">
-<c:if test="${loop.index eq 1}">
-                <div class="col-xs-12 col-sm-6">
-                    <a href="${exp.link}" title="" class="mosaic-item">
-    <img class='mosaic-item-image' src="${exp.imagePath}" width="100%"/>
-
-    <span class="mosaic-item-description">
-        <span class="mosaic-item-description-head type-font-feature">${exp.title}</span>
-        <span class="mosaic-item-description-sub">${exp.state}</span>
-        <span class="mosaic-item-description-copy">
-			${exp.pageDescription}
-            <br><br>
-            <span class="mosaic-item-description-copy-link"><strong>Read more</strong></span>
-        </span>
-        <span class="mosaic-item-description-share mosaic-item-description-share-dark">
-            <img src="imgs/base/share/share-instagram-black.png" alt="">
-        </span>
-        <span class="mosaic-item-description-share mosaic-item-description-share-white">
-            <img src="imgs/base/share/share-instagram-white.png" alt=""/>
-        </span>
-    </span>
-
-
-    <span class="mosaic-item-overlay mosaic-item-overlay-share">
-         <span class="mosaic-item-overlay-share-container">
-             <span class="mosaic-item-overlay-share-copy">
-                ${exp.pageDescription}
-              <br><br>
-              <strong>kylie_kwong on Instagram</strong>
-            </span>
-        </span>
-    </span>
-
-</a>
-                </div>
-    </c:if>
-<c:if test="${loop.index eq 2}">
-                 <div class="col-xs-12 col-sm-6">
-                     <a href="${exp.link}" class="mosaic-item"  title="">
-    <img class='mosaic-item-image' src="${exp.imagePath}" alt="" width="100%"/>
-
-    <span class="mosaic-item-description">
-        <span class="mosaic-item-description-head type-font-feature">
-            ${exp.title}
-        </span>
-        <span class="mosaic-item-description-sub">
-            ${exp.state}
-        </span>
-        <span class="mosaic-item-description-copy">
-            ${exp.pageDescription}
-            <br><br>
-            <span class="mosaic-item-description-copy-link"><strong>Read more</strong></span>
-            <strong class="mosaic-item-description-categories"><em>${exp.primaryCategory}</em></strong>
-        </span>
-    </span>
-
-
-    <span class="mosaic-item-overlay mosaic-item-overlay-info">
-         <span class="mosaic-item-overlay-info-icon">
-             <span class="mosaic-item-overlay-info-head type-font-feature">The burger<br/>shed</span>
-              <span class="mosaic-item-overlay-info-icon-item">
-                 <img src="imgs/base/categories/category-icon-wine-white.png" alt="">
-             </span>
-             <span class="mosaic-item-overlay-info-desciption">
-                 ${exp.city}
-                 <br>
-                 <br>
-                  <span class="mosaic-item-description-copy-link"><strong>Find out more</strong></span>
-             </span>
-         </span>
-          <span class="mosaic-item-overlay-info-categories">
-                 <strong>${exp.primaryCategory}</strong>
-          </span>
-    </span>
-
-</a>
-</div>
-    </c:if>
-    <c:if test="${loop.index eq 3}">
-
-    <div class="col-xs-12 col-sm-6 ">
-        <a href="${exp.link}" title="" class="mosaic-item">
-            <img class='mosaic-item-image' src="${exp.imagePath}" alt="" width="100%"/>
-
-    <span class="mosaic-item-description">
-        <span class="mosaic-item-description-head type-font-feature">${exp.title}</span>
-        <span class="mosaic-item-description-sub">${exp.state}</span>
-        <span class="mosaic-item-description-copy">
-            ${exp.pageDescription}
-            <br><br>
-            <span class="mosaic-item-description-copy-link"><strong>Read more</strong></span>
-        </span>
-        <span class="mosaic-item-description-share mosaic-item-description-share-dark">
-            <img src="imgs/base/share/share-instagram-black.png" alt="">
-        </span>
-        <span class="mosaic-item-description-share mosaic-item-description-share-white">
-            <img src="imgs/base/share/share-instagram-white.png" alt=""/>
-        </span>
-    </span>
-       <span class="mosaic-item-overlay mosaic-item-overlay-share">
-         <span class="mosaic-item-overlay-share-container">
-             <span class="mosaic-item-overlay-share-copy">
-                ${exp.pageDescription}
-              <br><br>
-              <strong>kylie_kwong on Instagram</strong>
-            </span>
-        </span>
-    </span>
-
-</a>
-                </div>
-    </c:if>
-<c:if test="${loop.index eq 4}">
-                <div class="col-xs-12 col-sm-6">
-                    <a href="${exp.link}" class="mosaic-item"  title="">
-                        <img class='mosaic-item-image' src="${exp.imagePath}" alt="" width="100%"/>
-
-    <span class="mosaic-item-description">
-        <span class="mosaic-item-description-head type-font-feature">
-            ${exp.title}
-        </span>
-        <span class="mosaic-item-description-sub">
-            ${exp.state}
-        </span>
-        <span class="mosaic-item-description-copy">
-            ${exp.pageDescription}
-            <br><br>
-            <span class="mosaic-item-description-copy-link"><strong>Read more</strong></span>
-            <strong class="mosaic-item-description-categories"><em>${exp.primaryCategory}</em></strong>
-        </span>
-    </span>
-
-
-    <span class="mosaic-item-overlay mosaic-item-overlay-info">
-         <span class="mosaic-item-overlay-info-icon">
-             <span class="mosaic-item-overlay-info-head type-font-feature">The burger<br/>shed</span>
-              <span class="mosaic-item-overlay-info-icon-item">
-                 <img src="imgs/base/categories/category-icon-wine-white.png" alt="">
-             </span>
-             <span class="mosaic-item-overlay-info-desciption">
-				${exp.city}
-                 <br>
-                 <br>
-                  <span class="mosaic-item-description-copy-link"><strong>Find out more</strong></span>
-             </span>
-         </span>
-          <span class="mosaic-item-overlay-info-categories">
-              <strong>${exp.primaryCategory}</strong>
-          </span>
-    </span>
-
-</a>
-                </div>
-    </c:if>
-
-     </c:forEach>
     </div>
-</div> 
-</div>
-
-<div class="row l-row-collapse">
-         <div class="col-xs-12 col-md-3 mosaic-ie-25">
-            <div class="row">
-<c:forEach var="exp" items="${search.searchResult.experiences}" varStatus="loop">
-<c:if test="${loop.index eq 5}">
-
-                <div class="col-xs-12 col-sm-6 col-md-12 mosaic-ie-100">
-<a href="${exp.link}" class="mosaic-item"  title="">
-    <img class='mosaic-item-image' src="${exp.imagePath}" alt="" width="100%"/>
-
-    <span class="mosaic-item-description">
-        <span class="mosaic-item-description-head type-font-feature">
-            ${exp.title}
-        </span>
-        <span class="mosaic-item-description-sub">
-            ${exp.state}
-        </span>
-        <span class="mosaic-item-description-copy">
-            ${exp.pageDescription}
-            <br><br>
-            <span class="mosaic-item-description-copy-link"><strong>Read more</strong></span>
-            <strong class="mosaic-item-description-categories"><em>${exp.primaryCategory}</em></strong>
-        </span>
-    </span>
-
-    <span class="mosaic-item-overlay mosaic-item-overlay-info">
-         <span class="mosaic-item-overlay-info-icon">
-             <span class="mosaic-item-overlay-info-head type-font-feature">The burger<br/>shed</span>
-              <span class="mosaic-item-overlay-info-icon-item">
-                 <img src="imgs/base/categories/category-icon-wine-white.png" alt="">
-             </span>
-             <span class="mosaic-item-overlay-info-desciption">
-				${exp.city}
-                 <br>
-                 <br>
-                  <span class="mosaic-item-description-copy-link"><strong>Find out more</strong></span>
-             </span>
-         </span>
-          <span class="mosaic-item-overlay-info-categories">
-                 <strong>${exp.primaryCategory}</strong>
-          </span>
-    </span>
-
-</a>
-                </div>
-    </c:if>
-    <c:if test="${loop.index eq 6}" >
-                <div class="col-xs-12 col-sm-6 col-md-12 mosaic-ie-100">
-<a href="${exp.link}" title="" class="mosaic-item">
-    <img class='mosaic-item-image' src="${exp.imagePath}" alt="" width="100%"/>
-    <span class="mosaic-item-description">
-                 <span class="mosaic-item-description-head type-font-feature">${exp.title}</span>
-        <span class="mosaic-item-description-sub">${exp.state}</span>
-        <span class="mosaic-item-description-copy">
-            ${exp.pageDescription}
-            <br><br>
-            <span class="mosaic-item-description-copy-link"><strong>Read more</strong></span>
-        </span>
-        <span class="mosaic-item-description-share mosaic-item-description-share-dark">
-            <img src="imgs/base/share/share-instagram-black.png" alt="">
-        </span>
-        <span class="mosaic-item-description-share mosaic-item-description-share-white">
-            <img src="imgs/base/share/share-instagram-white.png" alt=""/>
-        </span>
-    </span>
-
-    <span class="mosaic-item-overlay mosaic-item-overlay-share">
-         <span class="mosaic-item-overlay-share-container">
-             <span class="mosaic-item-overlay-share-copy">
-               ${exp.pageDescription}
-              <br><br>
-              <strong>kylie_kwong on Instagram</strong>
-            </span>
-        </span>
-    </span>
-
-</a>
-                </div>
-    </c:if>
-                </c:forEach>
-            </div>
-        </div>
-
-<c:forEach var="exp" items="${search.searchResult.experiences}" varStatus="loop">
-<c:if test="${loop.index eq 7}">
-        <div class="col-xs-12 col-md-6">
-            <a href="${exp.link}" class="mosaic-item"  title="">
-    <img class='mosaic-item-image' src="${exp.imagePath}" alt="" width="100%"/>
-
-    <span class="mosaic-item-description">
-        <span class="mosaic-item-description-head type-font-feature">
-                 ${exp.title}
-        </span>
-        <span class="mosaic-item-description-sub">
-            ${exp.state}
-        </span>
-        <span class="mosaic-item-description-copy">
-            ${exp.pageDescription}
-            <br><br>
-            <span class="mosaic-item-description-copy-link"><strong>Read more</strong></span>
-            <strong class="mosaic-item-description-categories"><em>${exp.primaryCategory}</em></strong>
-        </span>
-    </span>
-
-    <span class="mosaic-item-overlay mosaic-item-overlay-info">
-         <span class="mosaic-item-overlay-info-icon">
-             <span class="mosaic-item-overlay-info-head type-font-feature">The burger<br/>shed</span>
-              <span class="mosaic-item-overlay-info-icon-item">
-                 <img src="imgs/base/categories/category-icon-wine-white.png" alt="">
-             </span>
-             <span class="mosaic-item-overlay-info-desciption">
-				${exp.city}
-                 <br>
-                 <br>
-                  <span class="mosaic-item-description-copy-link"><strong>Find out more</strong></span>
-             </span>
-         </span>
-          <span class="mosaic-item-overlay-info-categories">
-                 <strong>${exp.primaryCategory}</strong>
-          </span>
-    </span>
-
-</a>
-        </div>
-    </c:if>
-    </c:forEach>
-        <div class="col-xs-12 col-md-3 mosaic-ie-25">
-            <div class="row">
-                <c:forEach var="exp" items="${search.searchResult.experiences}" varStatus="loop">
-<c:if test="${loop.index eq 8}">
-
-                <div class="col-xs-12 col-sm-6 col-md-12 mosaic-ie-100">
-<a href="${exp.link}" class="mosaic-item"  title="">
-    <img class='mosaic-item-image' src="${exp.imagePath}" alt="" width="100%"/>
-
-    <span class="mosaic-item-description">
-        <span class="mosaic-item-description-head type-font-feature">
-                 ${exp.title}
-        </span>
-        <span class="mosaic-item-description-sub">
-            ${exp.state}
-        </span>
-        <span class="mosaic-item-description-copy">
-            ${exp.pageDescription}
-            <br><br>
-            <span class="mosaic-item-description-copy-link"><strong>Read more</strong></span>
-            <strong class="mosaic-item-description-categories"><em>${exp.primaryCategory}</em></strong>
-        </span>
-    </span>
-
-
-    <span class="mosaic-item-overlay mosaic-item-overlay-info">
-         <span class="mosaic-item-overlay-info-icon">
-             <span class="mosaic-item-overlay-info-head type-font-feature">{{title}}<br/>shed</span>
-              <span class="mosaic-item-overlay-info-icon-item">
-                 <img src="imgs/base/categories/category-icon-wine-white.png" alt="">
-             </span>
-             <span class="mosaic-item-overlay-info-desciption">
-				${exp.city}
-                 <br>
-                 <br>
-                  <span class="mosaic-item-description-copy-link"><strong>Find out more</strong></span>
-             </span>
-         </span>
-          <span class="mosaic-item-overlay-info-categories">
-                 <strong>${exp.primaryCategory}</strong>
-          </span>
-    </span>
-
-</a>
-                </div>
-                    </c:if>
-<c:if test="${loop.index eq 9}">
-                <div class="col-xs-12 col-sm-6 col-md-12 mosaic-ie-100">
-                 <a href="${exp.link}" title="" class="mosaic-item">
-                 <img class='mosaic-item-image' src="${exp.imagePath}" alt="" width="100%"/>
-
-    <span class="mosaic-item-description">
-                 <span class="mosaic-item-description-head type-font-feature">${exp.title}</span>
-        <span class="mosaic-item-description-sub">${exp.state}</span>
-        <span class="mosaic-item-description-copy">
-            ${exp.pageDescription}
-            <br><br>
-            <span class="mosaic-item-description-copy-link"><strong>Read more</strong></span>
-        </span>
-        <span class="mosaic-item-description-share mosaic-item-description-share-dark">
-            <img src="imgs/base/share/share-instagram-black.png" alt="">
-        </span>
-        <span class="mosaic-item-description-share mosaic-item-description-share-white">
-            <img src="imgs/base/share/share-instagram-white.png" alt=""/>
-        </span>
-    </span>
-
-    <span class="mosaic-item-overlay mosaic-item-overlay-share">
-         <span class="mosaic-item-overlay-share-container">
-             <span class="mosaic-item-overlay-share-copy">
-                ${exp.pageDescription}
-              <br><br>
-              <strong>kylie_kwong on Instagram</strong>
-            </span>
-        </span>
-    </span>
-</a>
-                </div>
-                    </c:if>
-                </c:forEach>
-            </div>
-        </div>
-    </div>
-
-    </div>
-    <c:if test="${search.totalSearchResultsCount > 10}">
-    <p class="type-spacing-120" data-searchurl="${search.searchPath}" >
-        <a  class="btn-secondary btn-auto-size" >Show more Results</a>
+   
+    <p class="type-spacing-120"  >
+        <a class="btn-secondary btn-auto-size" >Show more Results</a>
     </p>
-    </c:if>
+    
 	</div>

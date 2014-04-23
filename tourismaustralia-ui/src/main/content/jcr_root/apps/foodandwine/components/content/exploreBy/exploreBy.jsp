@@ -19,7 +19,7 @@
             <img src='${exploreBy.imagePath}.adapt.1663.high.jpg' alt='${exploreBy.imageAltTag}'>
         <![endif]-->
 	</div>
-		<div class='faw-places-inner'>
+	<div class='faw-places-inner'>
 			<div class="faw-territories-copy">
 				<hr class="divider-small">
 				<h5>${exploreBy.topText}</h5>
@@ -42,19 +42,22 @@
 			<!-- END: selection -->
 			<!-- selection for mobile -->
 			<div class="l-display-md">
-				<select class="input-select input-select-small">
-					<option value="" disabled>Select place</option>
-					<option value="capital">Capital</option>
-					<option value="nsw">NSW</option>
-					<option value="northern">Northern</option>
-					<option value="queensland">Queensland</option>
-					<option value="south">South</option>
-					<option value="tasmania">Tasmania</option>
-					<option value="victoria">Victoria</option>
-					<option value="western">Western</option>
+				<select class="input-select input-select-small select-trigger-link">
+					<option value="#">Select place</option>
+					<option value="${exploreBy.capital}.html">ACT</option>
+					<option value="${exploreBy.nsw}.html">NSW</option>
+					<option value="${exploreBy.northern}.html">NT</option>
+					<option value="${exploreBy.queensland}.html">QLD</option>
+					<option value="${exploreBy.south}.html">SA</option>
+					<option value="${exploreBy.tasmania}.html">TAS</option>
+					<option value="${exploreBy.victoria}.html">VIC</option>
+					<option value="${exploreBy.western}.html">WA</option>
 				</select>
 			</div>
 			<!-- END: selection -->
 		</div>
 	</div>
 </div>
+
+<cq:includeClientLib js="faw-territories"/>
+

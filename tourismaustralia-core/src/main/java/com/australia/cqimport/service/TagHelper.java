@@ -84,8 +84,11 @@ public class TagHelper {
                 Node pageNode = jcrContentResource.adaptTo(Node.class);
 
                 try {
+
                     String[] tempIds = ids.toArray(new String[ids.size()]);
                     pageNode.setProperty("cq:tags", tempIds);
+                    LOG.debug("Stuff of tags: "+tempIds[0]);
+                    LOG.debug("Tag size: "+tempIds.length);
                     resourceResolver.commit();
 
                 } catch (Exception e) {

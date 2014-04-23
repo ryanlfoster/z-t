@@ -6,19 +6,39 @@ title: Mosaic Item - Highlights
     <div class="mosaic-front-back-container flip-container">
         <div class="flipper">
 
+            <!-- front face start -->
             <div class="mosaic-column-front flip-front">
+
+                <!-- image start -->
                 <div class="mosaic-media mosaic-primary">
                     <img src="imgs/mosaic/img3.jpg" alt=""/>
                 </div>
+                <!-- image end -->
+
+                <!-- label start -->
                 <div class="mosaic-overlay">
                     <div class="vertical-container">
                         <div class="vertical-content text-center">
-                            <span class="label-destination type-destination theme-beaches">Manly Beach</span>
+                            <span class="label-destination type-destination theme-beaches">{{#if destination}}{{destination}}{{else}}Manly Beach{{/if}}</span>
                         </div>
                     </div>
                 </div>
-            </div>
+                <!-- label end -->
 
+                <!-- date start -->
+                <div class="mosaic-overlay">
+                    <div class="vertical-container">
+                        <div class="vertical-content text-center type-date-mosaic">
+                            <span class="month">{{#if date}}{{date}}{{/if}}</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- date end -->
+
+            </div>
+            <!-- front face end -->
+
+            <!-- back face start -->
             <div class="mosaic-column-back mosaic-content flip-back mosaic-back theme-arts">
                 <div class="vertical-container">
                     <div class="vertical-content text-center">
@@ -29,6 +49,7 @@ title: Mosaic Item - Highlights
                     </div>
                 </div>
             </div>
+            <!-- back face end -->
 
         </div>
     </div>

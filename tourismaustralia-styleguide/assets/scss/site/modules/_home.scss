@@ -1,4 +1,5 @@
 
+// HOME HERO
 .home-hero {
   margin-bottom: pxtoem(43px);
   position: relative;
@@ -35,6 +36,26 @@
     color: $type-main-heading-colour;
   }
 }
+// HOME THIN STRIP (Category and Dream Trip Pages)
+.home-thin-strip {
+  margin-bottom: 0;
+  @include breakpoint(sm) {
+    height: 440px;
+  }
+  .home-hero-text-table-cell {
+    padding-bottom: 0px !important;
+  }
+}
+.type-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -ms-text-overflow: ellipsis;
+  max-width: 200px;
+  white-space: nowrap;
+}
+
+
+// HOME BG
 .home-bg {
   width: 100%;
   height: 100%;

@@ -1,5 +1,6 @@
 package com.australia.cqimport.service;
 
+import com.australia.cqimport.vo.TagVO;
 import com.day.cq.commons.jcr.JcrConstants;
 import com.day.cq.wcm.api.Page;
 import com.day.cq.wcm.api.PageManager;
@@ -22,15 +23,15 @@ public class TagHelper {
     private static final Logger LOG = LoggerFactory.getLogger(TagHelper.class);
     private final static String SQL = "select * from cq:Tag where jcr:path like '/etc/tags/ta/%'";
 
-    static ArrayList<String> ids;
+    static ArrayList<TagVO> ids;
     private static final Map<String, String> tagTileMap = ImmutableMap.<String, String> builder()
             .put("en", "jcr:title.en").put("it", "jcr:title.it").put("fr", "jcr:title.fr")
             .put("de", "jcr:title.de").put("es", "jcr:title.es").put("id", "csv/mapping_id.csv")
             .put("jp", "jcr:title.ja").put("ko", "cr:title.ko_kr").put("my", "csv/mapping_my.csv")
             .put("pt", "csv/mapping_pt.csv").put("zht", "jcr:title.zh_cn").build();
 
-    public ArrayList<String> getTags(ResourceResolver resourceResolver, String lang){
-        ids = new  ArrayList<String>();
+    public ArrayList<TagVO> getTags(ResourceResolver resourceResolver, String lang){
+        ids = new  ArrayList<TagVO>();
         Session session = resourceResolver.adaptTo(Session.class);
         QueryManager qm;
         try {
@@ -39,6 +40,7 @@ public class TagHelper {
             QueryResult result = query.execute();
             NodeIterator nodes = result.getNodes();
             String tempStr;
+            TagVO tagVO;
 
             while (nodes.hasNext()) {
 
@@ -47,8 +49,11 @@ public class TagHelper {
                     tempStr = node.getProperty(tagTileMap.get(lang)).getString();
 
                     if(tempStr != null){
-                        tempStr = tempStr.trim();
-                        ids.add(tempStr);
+                        tagVO = new TagVO();
+                        tagVO.setName(node.getName());
+                        tagVO.setValue(tempStr.trim());
+                        ids.add(tagVO);
+
                     }
 
                 } catch(PathNotFoundException e){
@@ -63,7 +68,7 @@ public class TagHelper {
         return ids;
     }
 
-    private void updateTags(ResourceResolver resourceResolver, String path, ArrayList<String> tags, String[] keywords){
+    private void updateTags(ResourceResolver resourceResolver, String path, ArrayList<TagVO> tags, String[] keywords){
         PageManager pageManager = resourceResolver.adaptTo(PageManager.class);
         Page page = pageManager.getPage(PageBuilder.CRX_ROOT_PATH + path);
         Resource pageResource;
@@ -71,10 +76,14 @@ public class TagHelper {
 
         if (page != null) {
 
-            for(String s : keywords){
+            TagVO tagVO;
 
-                if(tags.contains(s)){
-                    ids.add(s);
+            for(String s : keywords){
+                tagVO = new TagVO();
+                tagVO.setValue(s);
+                if(tags.contains(tagVO)){
+                    // If you don't add "ta:" the tags will not be added.
+                    ids.add("ta:"+tags.get(tags.indexOf(tagVO)).getName());
                 }
             }
 
@@ -87,8 +96,6 @@ public class TagHelper {
 
                     String[] tempIds = ids.toArray(new String[ids.size()]);
                     pageNode.setProperty("cq:tags", tempIds);
-                    LOG.debug("Stuff of tags: "+tempIds[0]);
-                    LOG.debug("Tag size: "+tempIds.length);
                     resourceResolver.commit();
 
                 } catch (Exception e) {

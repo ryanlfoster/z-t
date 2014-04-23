@@ -19,14 +19,13 @@ $(document).ready(function(){
 			 var x=$(this).attr('id');
 		     if($(this).is(":checked"))
 	         {
-	             var checked=$("label[for='"+x+"']").find(".category-title").text();
-	             //alert(checked);
+	             var checked=$(this).attr('value');
 	             if($.inArray(checked, catogoryArray)===-1)
 	            	catogoryArray.push(checked);
 	         }
 	         else
 	         {
-				var uncheked= $("label[for='"+x+"']").find(".category-title").text()
+				var uncheked= $(this).attr('value');
 				if($.inArray(uncheked, catogoryArray)!==-1)
                     catogoryArray = jQuery.grep(catogoryArray, function(value) {
 						 return value != uncheked;
@@ -42,20 +41,15 @@ $(document).ready(function(){
                  flag:flag
 			 },
 			 success : function(msg) {
-				 //alert(msg.length);
-				 $(".mosaicgridchanger").show();
+				$(".mosaicgridchanger").show();
         		if(msg.length>=10)
 						$(".btn-secondary").show();
         		else
         			$(".btn-secondary").hide();
-                var data;
-                 var obj;
-                data = JSON.stringify(msg);
+                var data = JSON.stringify(msg);
                 data=data.replace("[","");
                 data=data.replace("]","");
-      			//alert(data);
                 data="{test:["+data+"]}";
-                //alert(data);
                 var obj=eval('('+data+')');
 				Handlebars.registerHelper('compare', function(lvalue, rvalue, options) {
 				    if (arguments.length < 3)
@@ -71,22 +65,16 @@ $(document).ready(function(){
 				        '>=':       function(l,r) { return l >= r; },
 				        'typeof':   function(l,r) { return typeof l == r; }
 				    }
-	
 				    if (!operators[operator])
 				        throw new Error("Handlerbars Helper 'compare' doesn't know the operator "+operator);
-	
 	    			var result = operators[operator](lvalue,rvalue);
-	
 	    			if( result ) {
 	        			return options.fn(this);
 				    } else {
 				        return options.inverse(this);
 				    }
-
 				});   
-
 				var template = Handlebars.compile(source);
-					 //alert("template "+template(obj));
 				$(".mosaic").append(template(obj));
 			}, 
 			error : function(xhr) {
@@ -95,8 +83,6 @@ $(document).ready(function(){
 		});	
      });
      	$(".btn-secondary ").click(function(){
-        	//alert("click "+catogoryArray);
-			//$(".mosaic").empty();
         	var flag="showMore";
 			$.ajax({
 	            type : "POST",
@@ -106,26 +92,17 @@ $(document).ready(function(){
 					stateTag : stateTag,
 	                catogoryArray:catogoryArray,
 	                flag:flag
-	
 				},
 				success : function(msg) {
 					$(".mosaicgridchanger").show();
 					if(msg.length<10)
 						$(".btn-secondary").hide();
-	                //alert("success "+msg);
-	                var data;
-	                var obj;
-	                data = JSON.stringify(msg);
-	                //alert(data);
+	                var data = JSON.stringify(msg);
 	                data=data.replace("[","");
 	                data=data.replace("]","");
-	                //alert(data);
 	                data="{test:["+data+"]}";
-	                //alert(data);
 	                var obj=eval('('+data+')');
 	                var template = Handlebars.compile(source);
-						//alert("template "+template(obj));
-	                
 					$(".mosaic").append(template(obj));
 	            }
         });
@@ -138,7 +115,8 @@ $(document).ready(function(){
 
 <div class="row l-row-collapse">
  {{#each test}}
-	{{#compare @index 0 operator="=="}}  
+	{{#compare @index 0 operator="=="}} 
+	{{#if templateName}}
         <div class="col-xs-12 col-md-6">
             <a href="{{pagePath}}" title="" class="mosaic-item">
     		<img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
@@ -162,12 +140,52 @@ $(document).ready(function(){
              		<span class="mosaic-item-overlay-share-copy">
                 		Looking forward AS ALWAYS to seeing you all @eveleighmarket @carriageworks tomorrow! All you need is an empty basket to fill with...
               			<br><br>
-              			<strong>kylie_kwong on Instagram</strong>
+              			<strong>kylie_kwong on {{templateName}}</strong>
             		</span>
         		</span>
     		</span>
            </a>
        </div>
+	{{else}}
+		<div class="col-xs-12 col-md-6">
+			<a href="{{pagePath}}" class="mosaic-item"  title="">
+    		<img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
+		    <span class="mosaic-item-description">
+        <span class="mosaic-item-description-head type-font-feature">
+                 {{title}}
+        </span>
+        <span class="mosaic-item-description-sub">
+            {{stateTag}}
+        </span>
+        <span class="mosaic-item-description-copy">
+            {{description}}
+            <br><br>
+            <span class="mosaic-item-description-copy-link"><strong>Read more</strong></span>
+            <strong class="mosaic-item-description-categories"><em>{{categoryTagName}}</em></strong>
+        </span>
+    </span>
+
+    <span class="mosaic-item-overlay mosaic-item-overlay-info">
+         <span class="mosaic-item-overlay-info-icon">
+             <span class="mosaic-item-overlay-info-head type-font-feature">{{title}}<br/>shed</span>
+              <span class="mosaic-item-overlay-info-icon-item">
+                 <img src="{{categoryLogo}}" alt="">
+             </span>
+             <span class="mosaic-item-overlay-info-desciption">
+				{{cityTagName}}
+                 <br>
+                 <br>
+                  <span class="mosaic-item-description-copy-link"><strong>Find out more</strong></span>
+             </span>
+         </span>
+          <span class="mosaic-item-overlay-info-categories">
+                 <strong>{{categoryTagName}}</strong>
+          </span>
+    </span>
+
+</a>
+        </div>
+{{/if}}
 	{{/compare}}
  {{/each}}
 
@@ -175,42 +193,40 @@ $(document).ready(function(){
  <div class="row">
       {{#each test}}
 {{#compare @index 1 operator="=="}} 
+{{#if templateName}}
                 <div class="col-xs-12 col-sm-6">
                     <a href="{{pagePath}}" title="" class="mosaic-item">
     <img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
 
     <span class="mosaic-item-description">
-        <span class="mosaic-item-description-head type-font-feature">{{tiitle}}</span>
+        <span class="mosaic-item-description-head type-font-feature">{{title}}</span>
         <span class="mosaic-item-description-sub">{{stateTag}}</span>
         <span class="mosaic-item-description-copy">
             {{description}}
             <br><br>
             <span class="mosaic-item-description-copy-link"><strong>Read more</strong></span>
         </span>
-        <span class="mosaic-item-description-share mosaic-item-description-share-dark">
-            <img src="imgs/base/share/share-instagram-black.png" alt="">
-        </span>
-        <span class="mosaic-item-description-share mosaic-item-description-share-white">
-            <img src="imgs/base/share/share-instagram-white.png" alt=""/>
-        </span>
-    </span>
-
-
-    <span class="mosaic-item-overlay mosaic-item-overlay-share">
-         <span class="mosaic-item-overlay-share-container">
-             <span class="mosaic-item-overlay-share-copy">
-                Looking forward AS ALWAYS to seeing you all @eveleighmarket @carriageworks tomorrow! All you need is an empty basket to fill with...
-              <br><br>
-              <strong>kylie_kwong on Instagram</strong>
-            </span>
-        </span>
-    </span>
-
-</a>
-                </div>
-            {{/compare}}
-{{#compare @index 2 operator="=="}}
-                 <div class="col-xs-12 col-sm-6">
+	
+        	<span class="mosaic-item-description-share mosaic-item-description-share-dark">
+            	<img src="imgs/base/share/share-instagram-black.png" alt="">
+        	</span>
+        	<span class="mosaic-item-description-share mosaic-item-description-share-white">
+            	<img src="imgs/base/share/share-instagram-white.png" alt=""/>
+        	</span>
+   			</span>
+    		<span class="mosaic-item-overlay mosaic-item-overlay-share">
+         		<span class="mosaic-item-overlay-share-container">
+             		<span class="mosaic-item-overlay-share-copy">
+                		Looking forward AS ALWAYS to seeing you all @eveleighmarket @carriageworks tomorrow! All you need is an empty basket to fill with...
+              			<br><br>
+              			<strong>kylie_kwong on {{templateName}}</strong>
+            		</span>
+        		</span>
+    		</span>
+           </a>
+</div>
+	{{else}}
+   <div class="col-xs-12 col-sm-6">
 <a href="{{pagePath}}" class="mosaic-item"  title="">
     <img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
 
@@ -228,6 +244,7 @@ $(document).ready(function(){
             <strong class="mosaic-item-description-categories"><em>{{categoryTagName}}</em></strong>
         </span>
     </span>
+
 
 
     <span class="mosaic-item-overlay mosaic-item-overlay-info">
@@ -250,8 +267,91 @@ $(document).ready(function(){
 
 </a>
 </div>
+{{/if}}
+
+        
+
+
+            {{/compare}}
+{{#compare @index 2 operator="=="}}
+{{#if templateName}}
+                <div class="col-xs-12 col-sm-6">
+                    <a href="{{pagePath}}" title="" class="mosaic-item">
+    <img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
+
+    <span class="mosaic-item-description">
+        <span class="mosaic-item-description-head type-font-feature">{{title}}</span>
+        <span class="mosaic-item-description-sub">{{stateTag}}</span>
+        <span class="mosaic-item-description-copy">
+            {{description}}
+            <br><br>
+            <span class="mosaic-item-description-copy-link"><strong>Read more</strong></span>
+        </span>
+	
+        	<span class="mosaic-item-description-share mosaic-item-description-share-dark">
+            	<img src="imgs/base/share/share-instagram-black.png" alt="">
+        	</span>
+        	<span class="mosaic-item-description-share mosaic-item-description-share-white">
+            	<img src="imgs/base/share/share-instagram-white.png" alt=""/>
+        	</span>
+   			</span>
+    		<span class="mosaic-item-overlay mosaic-item-overlay-share">
+         		<span class="mosaic-item-overlay-share-container">
+             		<span class="mosaic-item-overlay-share-copy">
+                		Looking forward AS ALWAYS to seeing you all @eveleighmarket @carriageworks tomorrow! All you need is an empty basket to fill with...
+              			<br><br>
+              			<strong>kylie_kwong on {{templateName}}</strong>
+            		</span>
+        		</span>
+    		</span>
+           </a>
+</div>
+	{{else}}
+                 <div class="col-xs-12 col-sm-6">
+<a href="{{pagePath}}" class="mosaic-item"  title="">
+    <img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
+
+    <span class="mosaic-item-description">
+        <span class="mosaic-item-description-head type-font-feature">
+            {{title}}
+        </span>
+        <span class="mosaic-item-description-sub">
+            {{stateTag}}
+        </span>
+        <span class="mosaic-item-description-copy">
+            {{description}}
+            <br><br>
+            <span class="mosaic-item-description-copy-link"><strong>Read more</strong></span>
+            <strong class="mosaic-item-description-categories"><em>{{categoryTagName}}</em></strong>
+        </span>
+    </span>
+
+
+
+    <span class="mosaic-item-overlay mosaic-item-overlay-info">
+         <span class="mosaic-item-overlay-info-icon">
+             <span class="mosaic-item-overlay-info-head type-font-feature">{{title}}<br/>shed</span>
+              <span class="mosaic-item-overlay-info-icon-item">
+                 <img src="{{categoryLogo}}" alt="">
+             </span>
+             <span class="mosaic-item-overlay-info-desciption">
+			{{cityTagName}}
+                 <br>
+                 <br>
+                  <span class="mosaic-item-description-copy-link"><strong>Find out more</strong></span>
+             </span>
+         </span>
+          <span class="mosaic-item-overlay-info-categories">
+                 <strong>{{categoryTagName}}</strong>
+          </span>
+    </span>
+
+</a>
+</div>
+{{/if}}
                  {{/compare}}
 {{#compare @index 3 operator="=="}}
+{{#if templateName}}
     <div class="col-xs-12 col-sm-6 ">
 <a href="{{pagePath}}" title="" class="mosaic-item">
     <img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
@@ -276,15 +376,92 @@ $(document).ready(function(){
              <span class="mosaic-item-overlay-share-copy">
                 Looking forward AS ALWAYS to seeing you all @eveleighmarket @carriageworks tomorrow! All you need is an empty basket to fill with...
               <br><br>
-              <strong>kylie_kwong on Instagram</strong>
+              <strong>kylie_kwong on {{templateName}}</strong>
             </span>
         </span>
     </span>
 
 </a>
                 </div>
+{{else}}
+ <div class="col-xs-12 col-sm-6">
+<a href="{{pagePath}}" class="mosaic-item"  title="">
+    <img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
+
+    <span class="mosaic-item-description">
+        <span class="mosaic-item-description-head type-font-feature">
+            {{title}}
+        </span>
+        <span class="mosaic-item-description-sub">
+            {{stateTag}}
+        </span>
+        <span class="mosaic-item-description-copy">
+            {{description}}
+            <br><br>
+            <span class="mosaic-item-description-copy-link"><strong>Read more</strong></span>
+            <strong class="mosaic-item-description-categories"><em>{{categoryTagName}}</em></strong>
+        </span>
+    </span>
+
+
+
+    <span class="mosaic-item-overlay mosaic-item-overlay-info">
+         <span class="mosaic-item-overlay-info-icon">
+             <span class="mosaic-item-overlay-info-head type-font-feature">{{title}}<br/>shed</span>
+              <span class="mosaic-item-overlay-info-icon-item">
+                 <img src="{{categoryLogo}}" alt="">
+             </span>
+             <span class="mosaic-item-overlay-info-desciption">
+			{{cityTagName}}
+                 <br>
+                 <br>
+                  <span class="mosaic-item-description-copy-link"><strong>Find out more</strong></span>
+             </span>
+         </span>
+          <span class="mosaic-item-overlay-info-categories">
+                 <strong>{{categoryTagName}}</strong>
+          </span>
+    </span>
+
+</a>
+</div>
+{{/if}}
     {{/compare}}
 {{#compare @index 4 operator="=="}}
+
+{{#if templateName}}
+<div class="col-xs-12 col-sm-6 ">
+<a href="{{pagePath}}" title="" class="mosaic-item">
+    <img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
+
+    <span class="mosaic-item-description">
+        <span class="mosaic-item-description-head type-font-feature">{{title}}</span>
+        <span class="mosaic-item-description-sub">{{stateTag}}</span>
+        <span class="mosaic-item-description-copy">
+            {{description}}
+            <br><br>
+            <span class="mosaic-item-description-copy-link"><strong>Read more</strong></span>
+        </span>
+        <span class="mosaic-item-description-share mosaic-item-description-share-dark">
+            <img src="imgs/base/share/share-instagram-black.png" alt="">
+        </span>
+        <span class="mosaic-item-description-share mosaic-item-description-share-white">
+            <img src="imgs/base/share/share-instagram-white.png" alt=""/>
+        </span>
+    </span>
+       <span class="mosaic-item-overlay mosaic-item-overlay-share">
+         <span class="mosaic-item-overlay-share-container">
+             <span class="mosaic-item-overlay-share-copy">
+                Looking forward AS ALWAYS to seeing you all @eveleighmarket @carriageworks tomorrow! All you need is an empty basket to fill with...
+              <br><br>
+              <strong>kylie_kwong on {{templateName}}</strong>
+            </span>
+        </span>
+    </span>
+
+</a>
+                </div>
+{{else}}
                 <div class="col-xs-12 col-sm-6">
 <a href="{{pagePath}}" class="mosaic-item"  title="">
     <img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
@@ -325,6 +502,7 @@ $(document).ready(function(){
 
 </a>
                 </div>
+{{/if}}
                 {{/compare}}
 
 {{/each}}
@@ -337,8 +515,41 @@ $(document).ready(function(){
             <div class="row">
                 {{#each test}}
 
-{{#compare @index 5 operator="=="}}  
-                <div class="col-xs-12 col-sm-6 col-md-12 mosaic-ie-100">
+{{#compare @index 5 operator="=="}} 
+ {{#if templateName}}
+<div class="col-xs-12 col-sm-6 col-md-12 mosaic-ie-100">
+<a href="{{pagePath}}" title="" class="mosaic-item">
+    <img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
+    <span class="mosaic-item-description">
+                 <span class="mosaic-item-description-head type-font-feature">{{title}}</span>
+        <span class="mosaic-item-description-sub">{{stateTag}}</span>
+        <span class="mosaic-item-description-copy">
+            {{description}}
+            <br><br>
+            <span class="mosaic-item-description-copy-link"><strong>Read more</strong></span>
+        </span>
+        <span class="mosaic-item-description-share mosaic-item-description-share-dark">
+            <img src="imgs/base/share/share-instagram-black.png" alt="">
+        </span>
+        <span class="mosaic-item-description-share mosaic-item-description-share-white">
+            <img src="imgs/base/share/share-instagram-white.png" alt=""/>
+        </span>
+    </span>
+
+    <span class="mosaic-item-overlay mosaic-item-overlay-share">
+         <span class="mosaic-item-overlay-share-container">
+             <span class="mosaic-item-overlay-share-copy">
+                Looking forward AS ALWAYS to seeing you all @eveleighmarket @carriageworks tomorrow! All you need is an empty basket to fill with...
+              <br><br>
+              <strong>kylie_kwong on {{templateName}}</strong>
+            </span>
+        </span>
+    </span>
+
+</a>
+                </div>
+      {{else}}
+<div class="col-xs-12 col-sm-6 col-md-12 mosaic-ie-100">
 <a href="{{pagePath}}" class="mosaic-item"  title="">
     <img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
 
@@ -377,8 +588,14 @@ $(document).ready(function(){
 
 </a>
                 </div>
+
+
+{{/if}}
+
                  {{/compare}}
+
                  {{#compare @index 6 operator="=="}} 
+{{#if templateName}}
                 <div class="col-xs-12 col-sm-6 col-md-12 mosaic-ie-100">
 <a href="{{pagePath}}" title="" class="mosaic-item">
     <img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
@@ -403,13 +620,55 @@ $(document).ready(function(){
              <span class="mosaic-item-overlay-share-copy">
                 Looking forward AS ALWAYS to seeing you all @eveleighmarket @carriageworks tomorrow! All you need is an empty basket to fill with...
               <br><br>
-              <strong>kylie_kwong on Instagram</strong>
+              <strong>kylie_kwong on {{templateName}}</strong>
             </span>
         </span>
     </span>
 
 </a>
                 </div>
+{{else}}
+<div class="col-xs-12 col-sm-6 col-md-12 mosaic-ie-100">
+<a href="{{pagePath}}" class="mosaic-item"  title="">
+    <img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
+
+    <span class="mosaic-item-description">
+        <span class="mosaic-item-description-head type-font-feature">
+                 {{title}}
+        </span>
+        <span class="mosaic-item-description-sub">
+            {{stateTag}}
+        </span>
+        <span class="mosaic-item-description-copy">
+            {{description}}
+            <br><br>
+            <span class="mosaic-item-description-copy-link"><strong>Read more</strong></span>
+            <strong class="mosaic-item-description-categories"><em>{{categoryTagName}}</em></strong>
+        </span>
+    </span>
+
+    <span class="mosaic-item-overlay mosaic-item-overlay-info">
+         <span class="mosaic-item-overlay-info-icon">
+             <span class="mosaic-item-overlay-info-head type-font-feature">{{title}}<br/>shed</span>
+              <span class="mosaic-item-overlay-info-icon-item">
+                 <img src="{{categoryLogo}}" alt="">
+             </span>
+             <span class="mosaic-item-overlay-info-desciption">
+				{{cityTagName}}
+                 <br>
+                 <br>
+                  <span class="mosaic-item-description-copy-link"><strong>Find out more</strong></span>
+             </span>
+         </span>
+          <span class="mosaic-item-overlay-info-categories">
+                 <strong>{{categoryTagName}}</strong>
+          </span>
+    </span>
+
+</a>
+                </div>
+
+{{/if}}
                  {{/compare}}
                  {{/each}}
             </div>
@@ -418,6 +677,43 @@ $(document).ready(function(){
 {{#each test}}
 
 {{#compare @index 7 operator="=="}}  
+{{#if templateName}}
+
+        <div class="col-xs-12 col-md-6">
+            <a href="{{pagePath}}" title="" class="mosaic-item">
+    		<img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
+    		<span class="mosaic-item-description">
+        		<span class="mosaic-item-description-head type-font-feature">{{title}}</span>
+        		<span class="mosaic-item-description-sub">{{stateTag}}</span>
+        		<span class="mosaic-item-description-copy">
+            		{{description}}
+            		<br><br>
+            		<span class="mosaic-item-description-copy-link"><strong>Read more</strong></span>
+        		</span>
+        	<span class="mosaic-item-description-share mosaic-item-description-share-dark">
+            	<img src="imgs/base/share/share-instagram-black.png" alt="">
+        	</span>
+        	<span class="mosaic-item-description-share mosaic-item-description-share-white">
+            	<img src="imgs/base/share/share-instagram-white.png" alt=""/>
+        	</span>
+   			</span>
+    		<span class="mosaic-item-overlay mosaic-item-overlay-share">
+         		<span class="mosaic-item-overlay-share-container">
+             		<span class="mosaic-item-overlay-share-copy">
+                		Looking forward AS ALWAYS to seeing you all @eveleighmarket @carriageworks tomorrow! All you need is an empty basket to fill with...
+              			<br><br>
+              			<strong>kylie_kwong on {{templateName}}</strong>
+            		</span>
+        		</span>
+    		</span>
+           </a>
+
+
+       </div>
+
+
+
+{{else}}
         <div class="col-xs-12 col-md-6">
 <a href="{{pagePath}}" class="mosaic-item"  title="">
     <img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
@@ -457,6 +753,11 @@ $(document).ready(function(){
 
 </a>
         </div>
+
+
+
+{{/if}}
+
                  {{/compare}}
                  {{/each}}
         <div class="col-xs-12 col-md-3 mosaic-ie-25">
@@ -464,6 +765,41 @@ $(document).ready(function(){
                  {{#each test}}
 
 {{#compare @index 8 operator="=="}}  
+{{#if templateName}}
+
+<div class="col-xs-12 col-sm-6 col-md-12 mosaic-ie-100">
+<a href="{{pagePath}}" title="" class="mosaic-item">
+    <img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
+    <span class="mosaic-item-description">
+                 <span class="mosaic-item-description-head type-font-feature">{{title}}</span>
+        <span class="mosaic-item-description-sub">{{stateTag}}</span>
+        <span class="mosaic-item-description-copy">
+            {{description}}
+            <br><br>
+            <span class="mosaic-item-description-copy-link"><strong>Read more</strong></span>
+        </span>
+        <span class="mosaic-item-description-share mosaic-item-description-share-dark">
+            <img src="imgs/base/share/share-instagram-black.png" alt="">
+        </span>
+        <span class="mosaic-item-description-share mosaic-item-description-share-white">
+            <img src="imgs/base/share/share-instagram-white.png" alt=""/>
+        </span>
+    </span>
+
+    <span class="mosaic-item-overlay mosaic-item-overlay-share">
+         <span class="mosaic-item-overlay-share-container">
+             <span class="mosaic-item-overlay-share-copy">
+                Looking forward AS ALWAYS to seeing you all @eveleighmarket @carriageworks tomorrow! All you need is an empty basket to fill with...
+              <br><br>
+              <strong>kylie_kwong on {{templateName}}</strong>
+            </span>
+        </span>
+    </span>
+
+</a>
+                </div>
+
+{{else}}
                 <div class="col-xs-12 col-sm-6 col-md-12 mosaic-ie-100">
 <a href="{{pagePath}}" class="mosaic-item"  title="">
     <img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
@@ -504,12 +840,17 @@ $(document).ready(function(){
 
 </a>
                 </div>
+
+
+ {{/if}}
+
                  {{/compare}}
 {{#compare @index 9 operator="=="}}  
-                <div class="col-xs-12 col-sm-6 col-md-12 mosaic-ie-100">
-                 <a href="{{pagePath}}" title="" class="mosaic-item">
-                 <img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
+{{#if templateName}}
 
+<div class="col-xs-12 col-sm-6 col-md-12 mosaic-ie-100">
+<a href="{{pagePath}}" title="" class="mosaic-item">
+    <img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
     <span class="mosaic-item-description">
                  <span class="mosaic-item-description-head type-font-feature">{{title}}</span>
         <span class="mosaic-item-description-sub">{{stateTag}}</span>
@@ -531,13 +872,58 @@ $(document).ready(function(){
              <span class="mosaic-item-overlay-share-copy">
                 Looking forward AS ALWAYS to seeing you all @eveleighmarket @carriageworks tomorrow! All you need is an empty basket to fill with...
               <br><br>
-              <strong>kylie_kwong on Instagram</strong>
+              <strong>kylie_kwong on {{templateName}}</strong>
             </span>
         </span>
     </span>
 
 </a>
                 </div>
+
+{{else}}
+
+               <div class="col-xs-12 col-sm-6 col-md-12 mosaic-ie-100">
+<a href="{{pagePath}}" class="mosaic-item"  title="">
+    <img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
+
+    <span class="mosaic-item-description">
+        <span class="mosaic-item-description-head type-font-feature">
+                 {{title}}
+        </span>
+        <span class="mosaic-item-description-sub">
+            {{stateTag}}
+        </span>
+        <span class="mosaic-item-description-copy">
+            {{description}}
+            <br><br>
+            <span class="mosaic-item-description-copy-link"><strong>Read more</strong></span>
+            <strong class="mosaic-item-description-categories"><em>{{categoryTagName}}</em></strong>
+        </span>
+    </span>
+
+
+    <span class="mosaic-item-overlay mosaic-item-overlay-info">
+         <span class="mosaic-item-overlay-info-icon">
+             <span class="mosaic-item-overlay-info-head type-font-feature">{{title}}<br/>shed</span>
+              <span class="mosaic-item-overlay-info-icon-item">
+                 <img src="{{categoryLogo}}" alt="">
+             </span>
+             <span class="mosaic-item-overlay-info-desciption">
+				{{cityTagName}}
+                 <br>
+                 <br>
+                  <span class="mosaic-item-description-copy-link"><strong>Find out more</strong></span>
+             </span>
+         </span>
+          <span class="mosaic-item-overlay-info-categories">
+                 <strong>{{categoryTagName}}</strong>
+          </span>
+    </span>
+
+</a>
+                </div>
+
+{{/if}}
                  {{/compare}}
                  {{/each}}
             </div>
@@ -604,7 +990,7 @@ $(document).ready(function(){
     <!-- END: FOOD MOSAIC CATEGORY ITEM -->
 
     <!-- FOOD MOSAIC CATEGORY ITEM -->
-    <input id="category-seafood" type="checkbox" class="category-input">
+    <input id="category-seafood" type="checkbox" class="category-input" value="seafood">
     <label for="category-seafood">
         <div class="category-item">
             <span class="icon-round is-active">
@@ -636,7 +1022,7 @@ $(document).ready(function(){
     <!-- END: FOOD MOSAIC CATEGORY ITEM -->
 
     <!-- FOOD MOSAIC CATEGORY ITEM -->
-    <input id="category-restaurants" type="checkbox" class="category-input">
+    <input id="category-restaurants" type="checkbox" class="category-input" value="restaurants">
     <label for="category-restaurants">
     	<div class="category-item" id="category-restaurants">
             <span class="icon-round is-active">
@@ -652,7 +1038,7 @@ $(document).ready(function(){
     <!-- END: FOOD MOSAIC CATEGORY ITEM -->
 
     <!-- FOOD MOSAIC CATEGORY ITEM -->
-    <input id="category-experiences" type="checkbox" class="category-input">
+    <input id="category-experiences" type="checkbox" class="category-input" value="experiences">
     <label for="category-experiences">
         <div class="category-item" >
             <span class="icon-round is-active">
@@ -667,7 +1053,7 @@ $(document).ready(function(){
     <!-- END: FOOD MOSAIC CATEGORY ITEM -->
 
     <!-- FOOD MOSAIC CATEGORY ITEM -->
-    <input id="category-events" type="checkbox" class="category-input">
+    <input id="category-events" type="checkbox" class="category-input" value="events">
     <label for="category-events">
     	<div class="category-item">
             <span class="icon-round is-active">
@@ -702,7 +1088,7 @@ $(document).ready(function(){
 <!-- END: FOOD MOSAIC CATEGORIES DROP DOWN -->
 <!-- END MOBILE VIEW -->
     <!-- FOOD MOSAIC GRID CHANGER -->
- <c:if test="${stateMosaic.templateName ne 'homepage'}">   
+ <c:if test="${stateMosaic.template ne 'homepage'}">   
 <div class='mosaicgridchanger'>
     <div class="mosaicgridchanger-button mosaicgridchanger-grid-button mosaicgridchanger-button-active">
         <span class="icon-font-sort_grid"></span>
@@ -716,7 +1102,7 @@ $(document).ready(function(){
     
 </div>
     <!-- END: MOSAIC -->
-    <c:if test="${stateMosaic.templateName ne 'homepage'}"> 
+    <c:if test="${stateMosaic.template ne 'homepage'}"> 
     <p class="type-spacing-120">
         <a  class="btn-secondary btn-auto-size" >Show more Results</a>
     </p>

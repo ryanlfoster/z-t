@@ -9,7 +9,12 @@ public class StateMosaiacProperties {
 	private String categoryTagName;
 	private String cityTagName;
 	private String categoryLogo;
-	public StateMosaiacProperties(String title, String description,String image, String pagePath, String stateTag, String categoryTagName, String cityTagName, String categoryLogo) {
+	private String templateName;
+	
+
+	
+
+	public StateMosaiacProperties(String title, String description,String image, String pagePath, String stateTag, String categoryTagName, String cityTagName, String categoryLogo, String templateName) {
 		this.title=title;
 		this.description=description;
 		this.image=image;
@@ -18,10 +23,16 @@ public class StateMosaiacProperties {
 		this.categoryTagName=categoryTagName;
 		this.cityTagName=cityTagName;
 		this.categoryLogo=categoryLogo;
+		this.templateName=templateName;
 	}
 
 	public String getCategoryLogo() {
 		return categoryLogo;
+	}
+	
+
+	public String getTemplateName() {
+		return templateName;
 	}
 
 	public String getCityTagName() {

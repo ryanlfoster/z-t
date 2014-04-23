@@ -1,4 +1,7 @@
+
 $(document).ready(function(){
+	 $(".btn-secondary").hide();
+	 $(".mosaicgridchanger").hide();
 	var stateTag=$(".icon-map-black-active " ).text();
     var catogoryArray=new Array();
     var source   = $("#stateMosaic").html();
@@ -8,14 +11,18 @@ $(document).ready(function(){
 			 var x=$(this).attr('id');
 		     if($(this).is(":checked"))
 	         {
-	             var checked= $("label[for='"+x+"']").find(".category-title").text();
-	            if($.inArray(checked, catogoryArray)===-1)
+	             var checked=$(this).attr('value');//$("label[for='"+x+"']").find(".category-title").text();
+	             alert(checked);
+	             if($.inArray(checked, catogoryArray)===-1)
 	            	catogoryArray.push(checked);
 	         }
 	         else
 	         {
-				var uncheked= $("label[for='"+x+"']").find(".category-title").text()
-					catogoryArray.pop(uncheked);
+				var uncheked= $(this).attr('value');//$("label[for='"+x+"']").find(".category-title").text()
+				if($.inArray(uncheked, catogoryArray)!==-1)
+                    catogoryArray = jQuery.grep(catogoryArray, function(value) {
+						 return value != uncheked;
+					});
 	         }
 			 $.ajax({
              type : "POST",
@@ -27,7 +34,12 @@ $(document).ready(function(){
                  flag:flag
 			 },
 			 success : function(msg) {
-        		//alert("success "+msg);
+				 //alert(msg.length);
+				 $(".mosaicgridchanger").show();
+        		if(msg.length>=10)
+						$(".btn-secondary").show();
+        		else
+        			$(".btn-secondary").hide();
                 var data;
                  var obj;
                 data = JSON.stringify(msg);
@@ -41,7 +53,6 @@ $(document).ready(function(){
 				    if (arguments.length < 3)
 	        			throw new Error("Handlerbars Helper 'compare' needs 2 parameters");
 	    			operator = options.hash.operator || "==";
-	
 				    var operators = {
 				        '==':       function(l,r) { return l == r; },
 				        '===':      function(l,r) { return l === r; },
@@ -68,7 +79,6 @@ $(document).ready(function(){
 
 				var template = Handlebars.compile(source);
 					 //alert("template "+template(obj));
-                console.log('template '+template(obj));
 				$(".mosaic").append(template(obj));
 			}, 
 			error : function(xhr) {
@@ -76,9 +86,9 @@ $(document).ready(function(){
 			}
 		});	
      });
-     	$(".btn-secondary").click(function(){
-        	//alert("click "+catogoryArray);
-			$(".mosaic").empty();
+     	$(".btn-secondary ").click(function(){
+        	
+			//$(".mosaic").empty();
         	var flag="showMore";
 			$.ajax({
 	            type : "POST",
@@ -91,7 +101,10 @@ $(document).ready(function(){
 	
 				},
 				success : function(msg) {
-	                //alert("success "+msg);
+					
+					$(".mosaicgridchanger").show();
+					if(msg.length<10)
+						$(".btn-secondary").hide();
 	                var data;
 	                var obj;
 	                data = JSON.stringify(msg);
@@ -104,7 +117,7 @@ $(document).ready(function(){
 	                var obj=eval('('+data+')');
 	                var template = Handlebars.compile(source);
 						//alert("template "+template(obj));
-	                console.log('template '+template(obj));
+	                
 					$(".mosaic").append(template(obj));
 	            }
         });

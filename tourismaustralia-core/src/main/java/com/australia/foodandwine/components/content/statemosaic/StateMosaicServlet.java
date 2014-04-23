@@ -54,7 +54,8 @@ public class StateMosaicServlet extends SlingAllMethodsServlet
 	
 	private  long limit=10,offset=0;
 	private String[] categoryTags;
-	private String cityTagName;
+	private String cityTagName,stateTitle;
+	private String templateName;
 	private static final JsonFactory FACTORY = new JsonFactory();
 	private static final ObjectMapper MAPPER = new ObjectMapper();
 
@@ -70,8 +71,8 @@ public class StateMosaicServlet extends SlingAllMethodsServlet
 		}
 		if(flag.equals("showMore"))
 		{
-			limit=20;
-			offset=10;
+			limit+=10;
+			offset+=10;
 		}
 		categoryTags=request.getParameterValues("catogoryArray");
 		TagManager tagManager = request.getResourceResolver().adaptTo(TagManager.class);
@@ -81,7 +82,7 @@ public class StateMosaicServlet extends SlingAllMethodsServlet
 			QueryManager queryManager = session.getWorkspace().getQueryManager();
 			propertiesList=new LinkedList<StateMosaiacProperties>();
 			for(String s:categoryTags){
-				queryString="SELECT * FROM [nt:base] AS s WHERE ISDESCENDANTNODE([/content/food-and-wine]) and ([cq:tags] like '%"+s.trim().toLowerCase()+"%' and [cq:tags] like '%"+stateTags.trim()+"%')";
+				queryString="SELECT * FROM [nt:base] AS s WHERE ISDESCENDANTNODE([/content/food-and-wine]) and ([cq:tags] like '%/"+s.trim()+"%' and [cq:tags] like '%"+stateTags.trim()+"%')";
 				Query query = queryManager.createQuery(queryString,Query.JCR_SQL2);
 				query.setOffset(offset);
 				query.setLimit(limit);
@@ -96,8 +97,8 @@ public class StateMosaicServlet extends SlingAllMethodsServlet
 					String[] tagsArray=pageProperties.get("cq:tags", new String[0]);
 					String categoryLogo =pageProperties.get("categoryLogoPath","");
 					Tag stateTag=TagUtils.getStateTag(tagManager, tagsArray);
-					
-					String stateTitle =stateTag.getTitle().toString();
+					if(stateTag!=null)
+						stateTitle =stateTag.getTitle().toString();
 					List<Tag> categoryTagList = TagUtils.getFoodAndWineCategoryTags(tagManager, tagsArray);
 					for(Tag tag:categoryTagList)
 					{   
@@ -107,8 +108,11 @@ public class StateMosaicServlet extends SlingAllMethodsServlet
 					Tag cityTag=TagUtils.getCityTag(tagManager, tagsArray);
 					if(cityTag!=null)
 						cityTagName=cityTag.getTitle().toString()+","+stateTitle;
-					String pageTemaplate = articlePage.getTemplate().getName();
-					
+					String templateName = articlePage.getTemplate().getName();
+					if(!templateName.equals("facebookpage"))
+						templateName=null;
+					//pageTemaplate.length();
+					//if(pageTemaplate.equals(""))
 					String title = articlePage.getTitle();
 					
 					String description=articlePage.getDescription();
@@ -120,11 +124,11 @@ public class StateMosaicServlet extends SlingAllMethodsServlet
 					if (pageImage != null && pageImage.hasContent()) {
 						image = pageImage.getPath() + ".img.jpg";
 					}
-					StateMosaiacProperties bean=new  StateMosaiacProperties(title,description,image,pagePth,stateTitle,categoryTagName,cityTagName,categoryLogo);
+					StateMosaiacProperties bean=new  StateMosaiacProperties(title,description,image,pagePth,stateTitle,categoryTagName,cityTagName,categoryLogo,templateName);
+					//bean.setTemplateName(templateName);
 					categoryTagName="";
 					propertiesList.add(bean);
-					offset++;
-					limit++;
+					
 				}
 			}
 		} catch (RepositoryException e) {

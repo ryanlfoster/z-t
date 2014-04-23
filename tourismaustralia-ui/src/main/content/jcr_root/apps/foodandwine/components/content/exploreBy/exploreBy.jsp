@@ -43,7 +43,7 @@
 			<!-- selection for mobile -->
 			<div class="l-display-md">
 				<select class="input-select input-select-small select-trigger-link">
-					<option value="" disabled>Select place</option>
+					<option value="#">Select place</option>
 					<option value="${exploreBy.capital}.html">ACT</option>
 					<option value="${exploreBy.nsw}.html">NSW</option>
 					<option value="${exploreBy.northern}.html">NT</option>

@@ -472,14 +472,14 @@
 				<select class="input-select input-select-small">
 					<option value="" selected="selected" disabled="">Filter by
 						location</option>
-					<option value="australia-capital-teritory">Capital</option>
+					<option value="australia-capital-teritory">ACT</option>
 					<option value="new-south-wales">NSW</option>
-					<option value="northern-terriotory">Northern</option>
-					<option value="queensland">Queensland</option>
-					<option value="south-australia">South</option>
-					<option value="tasmania">Tasmania</option>
-					<option value="victoria">Victoria</option>
-					<option value="western-australia">Western</option>
+					<option value="northern-terriotory">NT</option>
+					<option value="queensland">QLD</option>
+					<option value="south-australia">SA</option>
+					<option value="tasmania">TAS</option>
+					<option value="victoria">VIC</option>
+					<option value="western-australia">WA</option>
 				</select>
 			</div>
 			<!-- END: STATE DROP DOWN -->

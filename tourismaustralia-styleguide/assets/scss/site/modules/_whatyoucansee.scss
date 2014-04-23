@@ -2,9 +2,5 @@
 // * What you can see:
 // * ---------------------------------------------------------------------------------------------------------------- */
 .whatyoucansee {
-    @include breakpoint(lg) {
-      //padding-top: pxtoem(45px);
-      //padding-bottom: pxtoem(55px);
-      padding: pxtoem(15px) 0;
-    }
+    padding: pxtoem(20px) 0 pxtoem($bottom-spacing);
 }

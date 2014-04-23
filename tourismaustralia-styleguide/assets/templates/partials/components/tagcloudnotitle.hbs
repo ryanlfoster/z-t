@@ -1,0 +1,23 @@
+---
+title: Tag Cloud No Title
+---
+
+<div class="tagcloud">
+    <ul>
+        {{#if data}}
+            {{#each data}}
+                <li>{{> tagclouditem }}</li>
+            {{/each}}
+        {{else}}
+            <li>
+                {{> tagclouditem }}
+            </li>
+            <li>
+                {{> tagclouditem }}
+            </li>
+            <li>
+                {{> tagclouditem }}
+            </li>
+        {{/if}}
+    </ul>
+</div>

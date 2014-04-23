@@ -1,4 +1,5 @@
 .two-images {
+	padding-bottom: pxtoem($bottom-spacing);
 }
 
 .two-images-column {
@@ -6,8 +7,12 @@
 	// Need that flexibility to fall back to original column widths
 	@media (max-width: $screen-sm){
 		float: none;
-		margin-bottom: 1em;
+		margin-bottom: pxtoem(15px);
 		width: 100%;
+
+		&:last-child {
+			margin: 0;
+		}
 	}
 }
 

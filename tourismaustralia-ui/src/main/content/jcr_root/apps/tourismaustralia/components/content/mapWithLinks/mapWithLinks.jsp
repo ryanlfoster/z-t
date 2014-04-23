@@ -4,8 +4,7 @@
 
 <c:set var="mapWithLinks" value="<%=new MapWithLinks(slingRequest) %>"/>
 
-<div class="l-padding-between-item-fill-white">
-<div class="map-with-links-container">
+<div class="map-with-links-container l-padding-b">
 
     <c:if test="${not empty mapWithLinks.title }">
         <div class="l-center-900">
@@ -37,5 +36,4 @@
 	    </ol>
 	</div>
 
-</div>
 </div>

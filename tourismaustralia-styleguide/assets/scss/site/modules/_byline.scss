@@ -6,7 +6,9 @@
   text-align: center;
   max-width: 684px;
   //margin: 0 auto;
-  position: relative;
+  position: relative;  
+  padding-bottom: pxtoem($bottom-spacing);
+  
   .byline-container {
     min-width: inherit;
   }

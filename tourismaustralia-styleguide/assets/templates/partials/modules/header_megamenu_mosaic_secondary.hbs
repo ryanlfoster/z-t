@@ -1,0 +1,88 @@
+---
+title: Header MM Mosaic - Secondary
+---
+<div class="megamenu-panel megamenu-mosaic">
+
+    {{! keep new content in here... }}
+
+    <ul class="nav-bar-panel-nav l-hideondesktop">
+        <li><a href="#">Link Text</a></li>
+        <li><a href="#">Link Text</a></li>
+        <li><a href="#">Link Text</a></li>
+        <li><a href="#">Link Text</a></li>
+    </ul>
+
+
+    <div class="megamenu-mosaic-left l-hideonmobile">
+    	<h3 class="megamenu-mosaic-title">Plan your holiday in Australia</h4>
+
+    	<div class="megamenu-mosaic-item">
+	    	{{#parseJSON '{
+		        "mosaic_theme" : "discover",
+		        "mosaic_title" : "Find a travel agent",
+		        "src": "imgs/icons/beaches_white_outline.png",
+		        "mosaic_image": "meganav-img1"
+		    }'}}
+		        {{> mosaicitemlinkonly }}
+		    {{/parseJSON}}
+    	</div>
+    	<div class="megamenu-mosaic-item">
+	    	{{#parseJSON '{
+		        "mosaic_theme" : "discover",
+		        "mosaic_title" : "Visa &amp; immigration",
+		        "src": "imgs/icons/beaches_white_outline.png",
+		        "mosaic_image": "meganav-img2"
+		    }'}}
+		        {{> mosaicitemlinkonly }}
+		    {{/parseJSON}}
+    	</div>
+    	<div class="megamenu-mosaic-item">
+	    	{{#parseJSON '{
+		        "mosaic_theme" : "discover",
+		        "mosaic_title" : "Getting around",
+		        "src": "imgs/icons/beaches_white_outline.png",
+		        "mosaic_image": "meganav-img3"
+		    }'}}
+		        {{> mosaicitemlinkonly }}
+		    {{/parseJSON}}
+    	</div>
+    	<div class="megamenu-mosaic-item">
+	    	{{#parseJSON '{
+		        "mosaic_theme" : "discover",
+		        "mosaic_title" : "Facts about Australia",
+		        "src": "imgs/icons/beaches_white_outline.png",
+		        "mosaic_image": "meganav-img4"
+		    }'}}
+		        {{> mosaicitemlinkonly }}
+		    {{/parseJSON}}
+    	</div>
+    	<div class="megamenu-mosaic-item">
+	    	{{#parseJSON '{
+		        "mosaic_theme" : "discover",
+		        "mosaic_title" : "Esential travel advice",
+		        "src": "imgs/icons/beaches_white_outline.png",
+		        "mosaic_image": "meganav-img5"
+		    }'}}
+		        {{> mosaicitemlinkonly }}
+		    {{/parseJSON}}
+    	</div>
+
+    </div>
+    <div class="megamenu-mosaic-right l-hideonmobile">
+    	<h3 class="megamenu-mosaic-title">Holiday deals</h4>
+
+    	<div class="megamenu-mosaic-item">
+	    	{{#parseJSON '{
+		        "mosaic_theme" : "discover",
+		        "mosaic_title" : "Special Offers",
+		        "src": "imgs/icons/beaches_white_outline.png",
+		        "mosaic_image": "meganav-img10"
+		    }'}}
+		        {{> mosaicitemlinkonly }}
+		    {{/parseJSON}}
+    	</div>
+
+    </div>
+
+    
+</div> 

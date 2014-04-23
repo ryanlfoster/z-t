@@ -39,7 +39,7 @@
 								class="mosaic-3column-media theme-mosaic-3column-front l-padding-t-15">
 								<%-- Use visibility:hidden to hide in order to maintain layout and prevent text from shifting --%>
 								<img
-									src="/etc/designs/tourismaustralia/clientlibs/img/logo/logo_tqual_black.png"
+									src="/etc/designs/tourismaustralia/clientlibs/imgs/logo/logo_tqual_black.png"
 									<c:if test="${!product.tqual}">style="visibility: hidden"</c:if>
 									alt="" />
 								<p>${product.title}</p>
@@ -51,7 +51,7 @@
 								class="mosaic-3column-media theme-mosaic-3column-back l-padding-t-15">
 								<%-- Use visibility:hidden to hide in order to maintain layout and prevent text from shifting --%>
 								<img
-									src="/etc/designs/tourismaustralia/clientlibs/img/logo/logo_tqual_white.png"
+									src="/etc/designs/tourismaustralia/clientlibs/imgs/logo/logo_tqual_white.png"
 									<c:if test="${!product.tqual}">style="visibility: hidden"</c:if>
 									alt="" />
 								<p>${product.title}</p>
@@ -90,9 +90,9 @@
 									</span>
 								</span> <span class="btn-bubble-button"> <img
 										class="btn-bubble-std"
-										src="/etc/designs/tourismaustralia/clientlibs/img/icons/favourite_outline.png"
+										src="/etc/designs/tourismaustralia/clientlibs/imgs/icons/favourite_outline.png"
 										alt="" /> <img class="btn-bubble-active"
-										src="/etc/designs/tourismaustralia/clientlibs/img/icons/favourite.png"
+										src="/etc/designs/tourismaustralia/clientlibs/imgs/icons/favourite.png"
 										alt="" />
 								</span>
 								</a>

@@ -52,14 +52,11 @@ public class OtherExperiences {
 			Session session = request.getResourceResolver().adaptTo(Session.class);
 			try {
 				QueryManager queryManager = session.getWorkspace().getQueryManager();
-
 				Query query = queryManager.createQuery(
 					String.format(QUERY_STRING, stateTag.getTagID(), currentPage.getPath()), Query.JCR_SQL2);
 				query.setLimit(4);
 				QueryResult result = query.execute();
-
 				RowIterator rowIterator = result.getRows();
-
 				while (rowIterator != null && rowIterator.hasNext()) {
 					Row row = rowIterator.nextRow();
 					Page articlePage = pageManager.getPage(row.getPath("page"));

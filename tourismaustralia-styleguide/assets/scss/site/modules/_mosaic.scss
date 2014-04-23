@@ -6,7 +6,7 @@
   position: relative;
   width: 100%;
   max-width: pxtoem(1180px);
-  margin: 0 auto 20px;
+  margin: 0 auto pxtoem(20px);
 }
 
 /**********************************************/
@@ -120,6 +120,63 @@
 
 }
 
+///////////////////////////////////////
+/* 2 Column Mobile */
+.mosaic-mobile-two-column {
+  .label-destination {
+    text-align: left;
+    display: block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    -ms-text-overflow: ellipsis;
+    max-width: 100%;
+    overflow: hidden;
+    @include breakpoint(md) {
+      overflow: visible;
+      max-width: inherit;
+      white-space: normal;
+    }
+  }
+  .type-date-mosaic .month {
+    display: none;
+    @include breakpoint(lg) {
+      display: block;
+      font-size: pxtoem(28px);
+    }
+  }
+}
+
+.mosaic-mobile-two-column .mosaic-item {
+  padding: pxtoem(3px);
+  margin-bottom: 0;
+}
+.mosaic-mobile-two-column .mosaic-grid-2 {
+  margin: 0 pxtoem(-3px);
+  @include breakpoint(sm) {
+    margin: inherit;
+  }
+}
+.mosaic-mobile-two-column .mosaic-grid-2-content .mosaic-item-detail-container {
+  display: block;
+}
+.mosaic-mobile-two-column .mosaic-grid-2-tile .mosaic-item-detail-container {
+  display: none !important;
+}
+.mosaic-mobile-two-column .video-container {
+  margin: 0;
+}
+.mosaic-mobile-two-column .video-play-icon {
+  width: 40%;
+}
+// remove copy from back panel
+.mosaic-mobile-two-column .mosaic-column-back .type-destination {
+  display: none;
+  @include breakpoint(md) {
+    display: inline-block;
+  }
+}
+///////////////////////////////////////
 /* Destination */
 .mosaic-overlay {
   width: 100%;
@@ -132,12 +189,13 @@
     position: absolute;
     bottom: 0;
     left: 0px;
+    padding: pxtoem(8px) pxtoem(12px);
+    font-size: pxtoem(15px);
+    @include breakpoint(md) {
+      font-size: pxtoem(18px);
+    }
   }  
 }
-  .label-destination {
-    padding: pxtoem(8px) pxtoem(12px);
-    font-size: pxtoem(18px);
-  }
 
 /* 
   TODO - move
@@ -159,7 +217,7 @@
 }
 
 .mosaic-item-container {
-  padding-top: 40px;
+  padding-top: pxtoem(40px);
   max-width: 100%;
   background-color: #f3f2eb;
   font-size: .95em;
@@ -225,13 +283,16 @@
 }
 
 .mosaic-back {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: block;
-    z-index: 10;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  z-index: 10;
+  @include breakpoint(md) {
+    padding: 2em;
+  }
 }
 .mosaic-primary {
   position: relative;

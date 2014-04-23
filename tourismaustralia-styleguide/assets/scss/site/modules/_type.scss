@@ -269,6 +269,17 @@
   font-weight: bold;
 }
 
+.type-ellipsis {
+  text-align: left;
+  display: block;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  -ms-text-overflow: ellipsis;
+  width: 100%;
+  overflow: hidden;
+}
+
 //**********************
 // Added type-destination styling here for mosaic-grid-4 as it needs to be scaled
 //**********************

@@ -18,14 +18,12 @@ var location = $('#stateDropdown').find('option:selected').val();
         },
         success : function(msg) {
             var articleCount = msg.length;
-            alert(articleCount);
            var data;
            var obj;
            data = JSON.stringify(msg);
            data=data.replace(/\[/g,"");
            data=data.replace(/\]/g,"");
            data="{searchResults:["+data+"]}";
-           
            obj=eval('('+data+')');
 			Handlebars.registerHelper('compare', function(lvalue, rvalue, options) {
 			    if (arguments.length < 3)
@@ -89,12 +87,9 @@ var source = $("#searchMosaic").html();
              var obj;
             var articleCount = msg.length;
              data = JSON.stringify(msg);
-             
              data=data.replace(/\[/g,"");
            	 data=data.replace(/\]/g,"");
-             
              data="{searchResults:["+data+"]}";
-           
              obj=eval('('+data+')');
              var template = Handlebars.compile(source);
              $(".mosaic").append(template(obj));

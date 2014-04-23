@@ -1,8 +1,4 @@
 <%@include file="/apps/foodandwine/components/global.jsp"%>
-<%-- <%@ page
-	import="com.australia.foodandwine.components.content.search.Search"%>
-
-<c:set var="search" value="<%=new Search(slingRequest) %>" /> --%>
 
 <cq:includeClientLib js="faw-search" />
 
@@ -422,7 +418,7 @@
 <div class="faw-hero-home-container">
 	
 	<h3 class="form-h3 l-padding-top-xs-2 l-padding-bottom-xs-0-5">
-		Search results for: <strong></strong>
+		
 	</h3>
 	
 	<input

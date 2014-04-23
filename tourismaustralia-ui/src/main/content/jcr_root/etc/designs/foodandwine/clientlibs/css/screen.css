@@ -7639,6 +7639,12 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
   src: url('../fonts/FoodWineIcons.eot?#iefix') format('eot'), url('../fonts/FoodWineIcons.svg') format('svg'), url('../fonts/FoodWineIcons.woff') format('woff'), url('../fonts/FoodWineIcons.otf') format('opentype');
 }
 
+@font-face {
+  font-family: "GearedSlab-Thin-Fix";
+  src: url("../fonts/GearedSlab-Thin.eot");
+  src: url("../fonts/GearedSlab-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/GearedSlab-Thin.svg#GearedSlab-Thin") format("svg"), url("../fonts/GearedSlab-Thin.woff") format("woff"), url("../fonts/GearedSlab-Thin.otf") format("opentype");
+}
+
 /* line 13, ../../assets/scss/site/modules/_type.scss */
 .type-font-primary-i {
   font-family: "ProximaNova Regular Italic", Helvetica, Arial, sans-serif;
@@ -8883,11 +8889,11 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
 }
 /* line 426, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-small.icon-map-white.icon-map-tasmania {
-  background-position: -26px -20px;
+  background-position: -478px -20px;
 }
 /* line 405, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-small.icon-map-white.icon-map-tasmania:hover {
-  background-position: -26px -20px;
+  background-position: -478px -20px;
 }
 /* line 429, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-small.icon-map-white.icon-map-victoria {
@@ -8948,11 +8954,11 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
 }
 /* line 453, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-small.icon-map-black.icon-map-tasmania {
-  background-position: -26px -111px;
+  background-position: -478px -111px;
 }
 /* line 405, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-small.icon-map-black.icon-map-tasmania:hover {
-  background-position: -26px -111px;
+  background-position: -478px -111px;
 }
 /* line 456, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-small.icon-map-black.icon-map-victoria {
@@ -11129,21 +11135,22 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
 
 /* line 41, ../../assets/scss/site/modules/_selectmenu.scss */
 .input-select-small {
-  font-family: "GearedSlab-Thin", Helvetica, Arial, sans-serif;
+  font-family: "GearedSlab-Thin-Fix", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
   font-size: 1.3em;
   text-transform: uppercase;
-  height: 60px;
+  height: 61px;
   width: auto;
   border: none;
   border-bottom: 1px #e0e0e0 solid;
   padding-right: 2.5em;
 }
-/* line 51, ../../assets/scss/site/modules/_selectmenu.scss */
+/* line 52, ../../assets/scss/site/modules/_selectmenu.scss */
 .input-select-small:focus {
   outline: 0.0625em solid black;
 }
 
-/* line 60, ../../assets/scss/site/modules/_selectmenu.scss */
+/* line 61, ../../assets/scss/site/modules/_selectmenu.scss */
 .input-field-select {
   border: none;
 }

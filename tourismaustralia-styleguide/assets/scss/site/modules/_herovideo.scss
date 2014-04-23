@@ -18,6 +18,29 @@
 }
 
 
+.hero-video.make-white {
+  color: #FFF;
+
+  .home-hero-title, .home-hero-sub-title {
+    color: #fff;
+  }
+}
+.hero-video.make-black {
+  color: #040000;
+
+  .home-hero-title, .home-hero-sub-title {
+    color: #040000;
+  }
+}
+.hero-video.make-gold {
+  color: $type-main-heading-colour;
+
+  .home-hero-title, .home-hero-sub-title {
+    color: $type-main-heading-colour;
+  }
+}
+
+
 .hero-video-image {
 	height: 100%;
 	left: 0;

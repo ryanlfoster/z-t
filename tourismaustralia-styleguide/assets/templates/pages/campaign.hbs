@@ -13,6 +13,19 @@ layout: layout-base.hbs
 
 <div class="paragraph-campaign">
 
+	<!--  Mosaic Tiles (2) -->
+
+	{{#parseJSON '{"copy": "With etihad Airways and airberlin starting at $999* including two free domestic flights**"}'}}
+        {{> paragraph_heading_h3 }}
+    {{/parseJSON}}
+
+    {{#parseJSON '{"copy": "Australia is characterized by a variety of unique sights and experiences that will make your holiday a very special experience: Visit vibrant cities , discover the unique, exotic wildlife, relax on the of rainforest framed beaches, taste fine wines or enjoy the vastness of the outback. Discover the fifth continent with Etihad Airways and airberlin starting at EUR 999* including two Skypass domestic flights. **"}'}}
+        {{> paragraph_dynamic}}
+    {{/parseJSON}}
+
+
+    {{> 2columnvideo }}
+
     {{#parseJSON '{
         "promo_image" : "promo7",
         "promo_title" : "Fly to Australia<br /> sponsored by Tourism Australia",
@@ -25,12 +38,38 @@ layout: layout-base.hbs
         {{> specialoffer }}
     {{/parseJSON}}
 
+    {{> xsmallimagetext }}
+
+    {{#parseJSON '{"copy": "Australia is characterized by a variety of unique sights and experiences that will make your holiday a very special experience: Visit vibrant cities , discover the unique, exotic wildlife, relax on the of rainforest framed beaches, taste fine wines or enjoy the vastness of the outback. Discover the fifth continent with Etihad Airways and airberlin starting at EUR 999* including two Skypass domestic flights. **"}'}}
+        {{> paragraph_dynamic}}
+    {{/parseJSON}}
+
 	{{#parseJSON '{
         "parallax_image": "largeparallax_1"
     }'}}
         {{> parallaximage_fullwidth_blank }}
     {{/parseJSON}}
 
+
+    {{> twoimages }}
+
+
+    {{> 2columnvideo }}
+
+
+    {{> 2columnvideo }}
+
+
+    {{> 2columnvideo }}
+
+
+    {{> 2columnvideo }}
+
+    <!-- IFRAME -->
+
+    {{#parseJSON '{"copy": "Australia is characterized by a variety of unique sights and experiences that will make your holiday a very special experience: Visit vibrant cities , discover the unique, exotic wildlife, relax on the of rainforest framed beaches, taste fine wines or enjoy the vastness of the outback. Discover the fifth continent with Etihad Airways and airberlin starting at EUR 999* including two Skypass domestic flights. **"}'}}
+        {{> paragraph_dynamic}}
+    {{/parseJSON}}
 
     {{> categorylinks_city_sydney }}
 

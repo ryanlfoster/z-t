@@ -507,6 +507,17 @@
                     ,
                 
             
+                "paragraph_heading_h3" : {
+                     "data" : {
+                        "title" : "paragraph_heading_h3",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'paragraph_heading_h3'}}"
+                }
+                
+                    ,
+                
+            
                 "socialimage" : {
                      "data" : {
                         "title" : "socialimage",
@@ -1268,6 +1279,17 @@
                         "layout" : "styleguide-preview.hbs"
                     },
                     "content" : "{{section 'smallimagetext'}}"
+                }
+                
+                    ,
+                
+            
+                "xsmallimagetext" : {
+                     "data" : {
+                        "title" : "xsmallimagetext",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'xsmallimagetext'}}"
                 }
                 
                     ,

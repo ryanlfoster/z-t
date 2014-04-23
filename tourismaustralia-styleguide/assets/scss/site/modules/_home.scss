@@ -56,6 +56,28 @@
   }
 }
 
+.home-hero-text {    
+  height: 290px; 
+  margin: 0;
+
+  @include breakpoint(sm) {
+    height: 389px;
+  }
+
+  .home-hero-title {
+    font-size: pxtoem(55px);
+    @include breakpoint(sm) {
+      font-size: pxtoem(70px);
+    }
+    @include breakpoint(md) {
+      font-size: pxtoem(90px);
+    }
+    @include breakpoint(lg) {
+      font-size: pxtoem(110px);
+    }
+  }
+}
+
 .home-hero-text-container {
   height: 100%;
 }

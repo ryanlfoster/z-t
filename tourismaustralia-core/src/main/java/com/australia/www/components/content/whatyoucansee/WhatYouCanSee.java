@@ -1,8 +1,11 @@
 package com.australia.www.components.content.whatyoucansee;
 
-import com.australia.content.model.Content;
-import com.australia.content.service.ContentFinderException;
-import com.australia.content.service.ContentFinderService;
+import com.australia.content.domain.Content;
+import com.australia.content.domain.ContentSearchParametersBuilder;
+import com.australia.content.domain.ContentSearchResult;
+import com.australia.content.domain.ContentType;
+import com.australia.content.service.ContentSearchException;
+import com.australia.content.service.ContentSearchService;
 import com.australia.utils.PathUtils;
 import com.australia.utils.TagUtils;
 import com.citytechinc.cq.component.annotations.*;
@@ -18,6 +21,7 @@ import org.apache.sling.api.scripting.SlingBindings;
 import org.apache.sling.api.scripting.SlingScriptHelper;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 @Component(value = "What You Can See",
@@ -33,7 +37,6 @@ import java.util.List;
 )
 public final class WhatYouCanSee {
 
-	private static final int MAX_ITEMS = 10;
 	private static final int ROW_SIZE = 5;
 
 	@DialogField(fieldLabel = "Tag", tab = 1)
@@ -52,13 +55,25 @@ public final class WhatYouCanSee {
 	@Selection(type = Selection.CHECKBOX, options = @Option(value = "true"))
 	private final boolean showThingsToDo;
 
+	@Selection(options = {@Option(value = "5", text = "5 Items"), @Option(value = "10", text = "10 Items") },
+		type = Selection.SELECT
+	)
+	@DialogField(fieldLabel = "Things To Do Tab Size", defaultValue = Constants.TAB_SIZE_10, tab = 2)
+	private final String thingsToDoTabSize;
+
 	@DialogField(fieldLabel = "Events", fieldDescription = "When checked, 'Events' will be displayed",
 		defaultValue = "true", tab = 2)
 	@Selection(type = Selection.CHECKBOX, options = @Option(value = "true"))
 	private final boolean showEvents;
 
+	@Selection(options = {@Option(value = "5", text = "5 Items"), @Option(value = "10", text = "10 Items") },
+		type = Selection.SELECT
+	)
+	@DialogField(fieldLabel = "Events Tab Size", defaultValue = Constants.TAB_SIZE_10, tab = 2)
+	private final String eventsTabSize;
+
 	@DialogField(fieldLabel = "Optional Tab", fieldDescription = "When checked, an authorable 3rd tab will be displayed",
-		defaultValue = "true", tab = 2)
+		defaultValue = "true", tab = 3)
 	@Selection(type = Selection.CHECKBOX, options = @Option(value = "true"))
 	private final boolean showOptionalTab;
 
@@ -68,7 +83,7 @@ public final class WhatYouCanSee {
 	@Selection(options = {@Option(value = "5", text = "5 Items"), @Option(value = "10", text = "10 Items") },
 		type = Selection.SELECT
 	)
-	@DialogField(fieldLabel = "Optional Tab Size", defaultValue = Constants.TAB_3_SIZE_5, tab = 3,
+	@DialogField(fieldLabel = "Optional Tab Size", defaultValue = Constants.TAB_SIZE_10, tab = 3,
 		listeners = {
 			@Listener(name = "selectionchanged", value = Constants.SIZE_CHANGE_LISTENER),
 			@Listener(name = "afterlayout", value = Constants.SIZE_CHANGE_LISTENER)
@@ -176,13 +191,15 @@ public final class WhatYouCanSee {
 		listeners = @Listener(name = "select", value = Constants.PATH_SELECT_LISTENER))
 	private final String optionalTabPath9;
 
+
+
 	private final List<Tab> tabs = new ArrayList<Tab>();
 
-	public WhatYouCanSee(final SlingHttpServletRequest request) throws ContentFinderException {
+	public WhatYouCanSee(final SlingHttpServletRequest request) throws ContentSearchException {
 
 		final SlingBindings bindings = (SlingBindings) request.getAttribute(SlingBindings.class.getName());
 		final SlingScriptHelper slingScriptHelper = bindings.getSling();
-		final ContentFinderService contentFinderService = slingScriptHelper.getService(ContentFinderService.class);
+		final ContentSearchService contentSearchService = slingScriptHelper.getService(ContentSearchService.class);
 
 		final Resource resource = request.getResource();
 		final ValueMap properties = resource.adaptTo(ValueMap.class);
@@ -206,10 +223,12 @@ public final class WhatYouCanSee {
 		title = properties.get(Constants.NAME_TITLE, "");
 		text = properties.get(Constants.NAME_TEXT, "");
 		showThingsToDo = properties.get(Constants.NAME_SHOW_THINGS_TO_DO, false);
+		thingsToDoTabSize = properties.get(Constants.NAME_THINGS_TO_DO_TAB_SIZE, Constants.TAB_SIZE_10);
 		showEvents = properties.get(Constants.NAME_SHOW_EVENTS, false);
+		eventsTabSize = properties.get(Constants.NAME_EVENTS_TAB_SIZE, Constants.TAB_SIZE_10);
 		showOptionalTab = properties.get(Constants.NAME_SHOW_OPTIONAL_TAB, false);
 		optionalTabTitle = properties.get(Constants.NAME_TAB_3_TITLE, "");
-		optionalTabSize = properties.get(Constants.NAME_OPTIONAL_TAB_SIZE, Constants.TAB_3_SIZE_5);
+		optionalTabSize = properties.get(Constants.NAME_OPTIONAL_TAB_SIZE, Constants.TAB_SIZE_5);
 
 		optionalTabPath0 = properties.get(Constants.NAME_OPTIONAL_TAB_PATH_0, String.class);
 		final Resource optionalTabResource0 = resourceResolver.getResource(optionalTabPath0);
@@ -232,25 +251,33 @@ public final class WhatYouCanSee {
 		optionalTabPath9 = properties.get(Constants.NAME_OPTIONAL_TAB_PATH_9, String.class);
 		final Resource optionalTabResource9 = resourceResolver.getResource(optionalTabPath9);
 
-		// The language path is used as the base path in queries to ensure only articles in this language are chosen
-		final String languagePath = PathUtils.getLanguageResource(resource).getPath();
+		final ContentSearchParametersBuilder baseBuilder = new ContentSearchParametersBuilder();
+		baseBuilder.setPage(1);
+		baseBuilder.setLanguagePath(PathUtils.getLanguageResource(resource).getPath());
+		if(tag != null) {
+			baseBuilder.setTags(Arrays.asList(tag.getTagID()));
+		}
 
 		if (showThingsToDo) {
-			final List<Content> content =
-				contentFinderService.findContent(languagePath, tagId, Content.ARTICLE_RESOURCE_TEMPLATE, MAX_ITEMS);
+
+			baseBuilder.setContentType(ContentType.ARTICLE);
+			baseBuilder.setCount(Constants.TAB_SIZE_5.equals(thingsToDoTabSize) ? 5 : 10);
+			final ContentSearchResult content = contentSearchService.search(baseBuilder.build());
 
 			final Tab thingsToDo =
-				new Tab(Constants.TTD_TAB_TITLE, "ttd", Constants.TTD_TAB_VIEW_MORE, content,
+				new Tab(Constants.TTD_TAB_TITLE, "ttd", Constants.TTD_TAB_VIEW_MORE, content.getContent(),
 					Constants.TTD_IMAGE_PATH, Constants.TTD_OUTLINE_IMAGE_PATH);
 			tabs.add(thingsToDo);
 		}
 
 		if (showEvents) {
-			final List<Content> content =
-				contentFinderService.findContent(languagePath, tagId, Content.EVENT_RESOURCE_TEMPLATE, MAX_ITEMS);
+
+			baseBuilder.setContentType(ContentType.EVENT);
+			baseBuilder.setCount(Constants.TAB_SIZE_5.equals(eventsTabSize) ? 5 : 10);
+			final ContentSearchResult content = contentSearchService.search(baseBuilder.build());
 
 			final Tab events =
-				new Tab(Constants.EVENTS_TAB_TITLE, "events", Constants.EVENTS_TAB_VIEW_MORE, content,
+				new Tab(Constants.EVENTS_TAB_TITLE, "events", Constants.EVENTS_TAB_VIEW_MORE, content.getContent(),
 					Constants.EVENTS_IMAGE_PATH, Constants.EVENTS_OUTLINE_IMAGE_PATH);
 			tabs.add(events);
 		}
@@ -262,7 +289,7 @@ public final class WhatYouCanSee {
 			content.add(Content.fromResource(optionalTabResource2));
 			content.add(Content.fromResource(optionalTabResource3));
 			content.add(Content.fromResource(optionalTabResource4));
-			if (Constants.TAB_3_SIZE_10.equals(optionalTabSize)) {
+			if (Constants.TAB_SIZE_10.equals(optionalTabSize)) {
 				content.add(Content.fromResource(optionalTabResource5));
 				content.add(Content.fromResource(optionalTabResource6));
 				content.add(Content.fromResource(optionalTabResource7));
@@ -290,6 +317,10 @@ public final class WhatYouCanSee {
 
 	public List<Tab> getTabs() {
 		return tabs;
+	}
+
+	public boolean isShowTabs() {
+		return tabs.size() > 1;
 	}
 
 	public static class Tab {

@@ -19,6 +19,9 @@
             </p>
         </div>
     </div>
+
+    <c:if test="${wycs.showTabs}">
+        
     <div class="l-h-center section-buttons">
         <!-- Select List For Mobile -->
         <div class="section-buttons-mobile">
@@ -26,7 +29,6 @@
                 <hr>
                 <div class="dropdown-select-style">
                     <select data-aus-select>
-
                         <c:forEach items="${wycs.tabs}" var="tab">
                             <c:if test="${not empty tab.contentRows || isEdit}">
                                 <option value="${tab.id}">
@@ -34,7 +36,6 @@
                                 </option>
                             </c:if>
                         </c:forEach>
-
                     </select>
                 </div>
                 <hr>
@@ -56,6 +57,8 @@
             </c:forEach>
         </div>
     </div>
+
+    </c:if>
 
 
     <c:forEach items="${wycs.tabs}" var="tab">

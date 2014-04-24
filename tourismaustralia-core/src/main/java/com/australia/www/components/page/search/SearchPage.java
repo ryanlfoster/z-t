@@ -103,6 +103,10 @@ public final class SearchPage {
 		return query == null ? "" : query;
 	}
 
+	public boolean isDisplayResults() {
+		return query != null;
+	}
+
 	public DisplayMode getDisplayMode() {
 		return displayMode;
 	}

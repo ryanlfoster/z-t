@@ -31,6 +31,13 @@
   }
 }
 
+.search-results-mosaic {
+  margin: 0 pxtoem(-15px);
+  @include breakpoint(sm) {
+    margin: inherit;
+  }
+}
+
 .search-results-container {
   position: relative;
   min-height: pxtoem(166px);
@@ -126,10 +133,10 @@
 }
 
 .search-results-list {
-  margin: 0 pxtoem(-15px);
-  @include breakpoint(sm){
+  //margin: 0 pxtoem(-15px);
+  //@include breakpoint(sm){
     margin: 0;
-  }
+  //}
 }
 .search-results-list .video-play-icon {
   //width: 30%;

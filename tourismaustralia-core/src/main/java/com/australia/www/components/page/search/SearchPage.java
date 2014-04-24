@@ -27,7 +27,7 @@ public final class SearchPage {
 
 	private static final int DEFAULT_COUNT = 10;
 
-	private static final String PARAM_Q = "q";
+	private static final String PARAM_Q = "searchinput";
 	private static final String PARAM_TYPE = "type";
 	private static final String PARAM_MODE = "mode";
 
@@ -47,6 +47,8 @@ public final class SearchPage {
 	private final List<ATDWProduct> productResults = new ArrayList<ATDWProduct>();
 
 	private long totalResultCount;
+
+	private final String path;
 
 	public SearchPage(final SlingHttpServletRequest request) {
 
@@ -88,8 +90,9 @@ public final class SearchPage {
 			.setCount(6)
 			.setPage(1)
 			.build();
+		productResults.addAll(productService.search(productParams).getResults());
 
-
+		path = resource.getPath();
 	}
 
 	public ContentType getType() {
@@ -126,5 +129,13 @@ public final class SearchPage {
 
 	public List<ATDWProduct> getProductResults() {
 		return productResults;
+	}
+
+	public String getListHref() {
+		return path + ".html?" + PARAM_Q + "=" + query + "&mode=LIST";
+	}
+
+	public String getGridHref() {
+		return path + ".html?" + PARAM_Q + "=" + query + "&mode=GRID";
 	}
 }

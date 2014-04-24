@@ -5,10 +5,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 import org.apache.commons.lang.StringUtils;
-import org.apache.felix.scr.annotations.Component;
-import org.apache.felix.scr.annotations.Property;
-import org.apache.felix.scr.annotations.Reference;
-import org.apache.felix.scr.annotations.Service;
+import org.apache.felix.scr.annotations.*;
 import org.apache.sling.api.resource.ModifiableValueMap;
 import org.apache.sling.api.resource.PersistenceException;
 import org.apache.sling.api.resource.Resource;
@@ -29,9 +26,10 @@ import com.day.cq.wcm.api.Page;
 import com.day.cq.wcm.api.PageManager;
 import com.day.cq.wcm.api.WCMException;
 
-@Component(immediate = true)
-@Service(value = Runnable.class)
-@Property(name = "scheduler.expression", value = "0 1 * * * *")
+@Component(label = "Experience creation job", metatype = true)
+@Service
+@Properties({ @Property(name = "scheduler.expression", value = "0 * * * * ?"),
+        @Property(name = "scheduler.concurrent", propertyPrivate = true, boolValue = false) })
 public class ExperienceCreationJob implements Runnable {
 	private static final Logger LOG = LoggerFactory.getLogger(ExperienceCreationJob.class);
 	private Detector detector;

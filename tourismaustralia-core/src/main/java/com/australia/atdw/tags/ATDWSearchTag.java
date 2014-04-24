@@ -1,9 +1,6 @@
 package com.australia.atdw.tags;
 
-import com.australia.atdw.domain.ATDWCategory;
-import com.australia.atdw.domain.ATDWProduct;
-import com.australia.atdw.domain.ATDWProductSearchParameters;
-import com.australia.atdw.domain.ATDWProductSearchParametersBuilder;
+import com.australia.atdw.domain.*;
 import com.australia.atdw.service.ATDWProductService;
 import com.google.common.base.Joiner;
 import org.apache.sling.api.SlingHttpServletRequest;
@@ -70,10 +67,10 @@ public final class ATDWSearchTag extends SimpleTagSupport {
 			.build();
 
 		// Perform search
-		final List<ATDWProduct> results = productService.search(params);
+		final ATDWSearchResult results = productService.search(params);
 
 		// output results to page context
-		pageContext.setAttribute(var, results);
+		pageContext.setAttribute(var, results.getResults());
 	}
 
 	public String getVar() {

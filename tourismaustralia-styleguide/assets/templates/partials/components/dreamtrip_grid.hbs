@@ -1,0 +1,22 @@
+---
+title: Dream Trip Grid
+---
+
+<div class="dreamtrip-grid">
+    <div class="row l-center-1200">
+        <div class="col-xs-12">
+
+            {{#parseJSON '{"title": "Sydney"}'}}
+                {{> sectionintroextrapadding }}
+            {{/parseJSON}}
+
+            <div class="search-results-list">
+                {{> mosaic_dreamtrip_list }}
+            </div>
+
+            {{> dreamtrip_buttons }}
+
+        </div>
+    </div>
+</div>
+

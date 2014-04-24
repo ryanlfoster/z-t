@@ -1,0 +1,100 @@
+.inputFocus-wrapper{
+  position: relative;
+  border-left: 1px solid $categorylinks-hr-colour;
+}
+
+.inputFocus-wrapper label{
+display:none;
+}
+
+.inputFocus-wrapper input[type="text"],
+.inputFocus-wrapper textarea,
+.inputFocus-wrapper input[type='password'],
+.inputFocus-wrapper input[type='number'],
+.inputFocus-wrapper input[type='email'],
+.inputFocus-wrapper input[type='url'],
+.inputFocus-wrapper input[type='search'],
+.inputFocus-wrapper input[type='tel']
+{
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+
+  width:100%;
+  font-size: pxtoem(16px);
+  padding:0 10px;
+  color:$type-base-black;
+  font-family: $font-family-base;
+  border: 1px solid $categorylinks-hr-colour;
+  border-left-width: 0;
+  outline:0;
+  display: inline-block;
+
+  @include breakpoint(sm) {
+    padding:0 14px;
+  }
+}
+
+.inputFocus-wrapper input[type="text"],
+.inputFocus-wrapper input[type='password'],
+.inputFocus-wrapper input[type='number'],
+.inputFocus-wrapper input[type='email'],
+.inputFocus-wrapper input[type='url'],
+.inputFocus-wrapper input[type='search'],
+.inputFocus-wrapper input[type='tel']
+{
+  height:46px;
+  line-height: 46px;
+}
+
+.inputFocus-wrapper textarea{
+  padding:14px 10px;
+  line-height: 1.2em;
+  @include breakpoint(sm) {
+    padding:14px;
+  }
+}
+
+.inputFocus-wrapper *::-webkit-input-placeholder {
+  color: #333333;
+  font-family: $font-family-base-i;
+}
+
+.inputFocus-wrapper *:-moz-placeholder { /* Firefox 18- */
+  color: #333333;
+  font-family: $font-family-base-i;
+}
+
+.inputFocus-wrapper *::-moz-placeholder {  /* Firefox 19+ */
+  color: #333333;
+  font-family: $font-family-base-i;
+}
+
+.inputFocus-wrapper *:-ms-input-placeholder {
+  color: #333333;
+  font-family: $font-family-base-i;
+}
+
+//IE10 and above versions show additional cross button inside the textbox, to get rid of that
+form input[type=text]::-ms-clear
+{
+  display: none;
+}
+
+
+.inputFocus-wrapper.input-focus input[type="text"],
+.inputFocus-wrapper.input-focus textarea,
+.inputFocus-wrapper.input-focus input[type='password'],
+.inputFocus-wrapper.input-focus input[type='number'],
+.inputFocus-wrapper.input-focus input[type='email'],
+.inputFocus-wrapper.input-focus input[type='url'],
+.inputFocus-wrapper.input-focus input[type='search'],
+.inputFocus-wrapper.input-focus input[type='tel']
+{
+  border-color:#c5c09b;
+}
+.inputFocus-wrapper.input-focus {
+  border-color:#c5c09b;
+  border-left-width:6px;
+  margin-left: -5px;
+}

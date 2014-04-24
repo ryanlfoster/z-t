@@ -1,0 +1,27 @@
+.contactus-form{
+  background-color: #f3f2eb;
+  padding: pxtoem(50px) 4.57%;
+
+  @include breakpoint(md) {
+
+  }
+}
+.contactus-formhead{
+
+}
+
+.contactus-formhead .col-sm-6{
+  padding:0;
+}
+
+.contactus-formhead .col-sm-6 p{
+  text-align: left;
+  margin: 0;
+  @include breakpoint(md) {
+    text-align: right;
+  }
+}
+
+.contactus-form form input[type="text"] {
+
+}

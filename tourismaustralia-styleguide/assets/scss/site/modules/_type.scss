@@ -62,6 +62,17 @@
   margin-bottom: 0;
 }
 
+.type-h4-alternative {
+  @include type_TAheadline();
+  font-size: pxtoem($h3-size);
+  font-weight: normal;
+  color: $type-heading-colour;
+  margin-top: 0;
+  margin-bottom: pxtoem(15px);
+}
+
+
+
 .type-main-heading-colour {
   color: $type-main-heading-colour;
 }
@@ -267,17 +278,6 @@
   font-family: "ProximaNova Bold", Helvetica, Arial, sans-serif;
   font-size: pxtoem(18px);
   font-weight: bold;
-}
-
-.type-ellipsis {
-  text-align: left;
-  display: block;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  -o-text-overflow: ellipsis;
-  -ms-text-overflow: ellipsis;
-  width: 100%;
-  overflow: hidden;
 }
 
 //**********************

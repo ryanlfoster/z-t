@@ -46,6 +46,14 @@
     padding-bottom: 0px !important;
   }
 }
+.type-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -ms-text-overflow: ellipsis;
+  max-width: 200px;
+  white-space: nowrap;
+}
+
 
 // HOME BG
 .home-bg {

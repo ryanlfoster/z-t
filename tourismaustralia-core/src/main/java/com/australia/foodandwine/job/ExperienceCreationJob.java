@@ -1,11 +1,15 @@
-package com.australia.foodandwine.listener;
+package com.australia.foodandwine.job;
 
 import java.io.InputStream;
 import java.util.HashMap;
 import java.util.Map;
 
 import org.apache.commons.lang.StringUtils;
-import org.apache.felix.scr.annotations.*;
+import org.apache.felix.scr.annotations.Component;
+import org.apache.felix.scr.annotations.Properties;
+import org.apache.felix.scr.annotations.Property;
+import org.apache.felix.scr.annotations.Reference;
+import org.apache.felix.scr.annotations.Service;
 import org.apache.sling.api.resource.ModifiableValueMap;
 import org.apache.sling.api.resource.PersistenceException;
 import org.apache.sling.api.resource.Resource;
@@ -29,7 +33,7 @@ import com.day.cq.wcm.api.WCMException;
 @Component(label = "Experience creation job", metatype = true)
 @Service
 @Properties({ @Property(name = "scheduler.expression", value = "0 * * * * ?"),
-        @Property(name = "scheduler.concurrent", propertyPrivate = true, boolValue = false) })
+	@Property(name = "scheduler.concurrent", propertyPrivate = true, boolValue = false) })
 public class ExperienceCreationJob implements Runnable {
 	private static final Logger LOG = LoggerFactory.getLogger(ExperienceCreationJob.class);
 	private Detector detector;
@@ -40,31 +44,37 @@ public class ExperienceCreationJob implements Runnable {
 	@Override
 	public void run() {
 		ResourceResolver resourceResolver = null;
-		LOG.error("******************************inside ExperienceCreationJob run method ");
+		int article_found = 0;
+		int article_created = 0;
 		try {
 			resourceResolver = resourceResolverFactory.getAdministrativeResourceResolver(null);
 			PageManager pageManager = resourceResolver.adaptTo(PageManager.class);
-
-			String path = PathUtils.FOOD_AND_WINE_USER_GENERATED + "/experiences";
+			String path = PathUtils.FOOD_AND_WINE_USER_GENERATED;
 			Resource resource = resourceResolver.getResource(path);
-			Iterable<Resource> resources = resourceResolver.getChildren(resource);
-			for (Resource res : resources) {
-				ValueMap formProperties = res.adaptTo(ValueMap.class);
+			for (Resource res : resource.getChildren()) {
+				Resource jcrContent = res.getChild("jcr:content");
+				ValueMap formProperties = jcrContent.adaptTo(ValueMap.class);
 				String businessName = formProperties.get("businessName", String.class);
+				// cannot use if node does not have businessName property
+				if (StringUtils.isNotEmpty(businessName)) {
+					String articleParent = "/content/food-and-wine/experiences/"
+						+ StringUtils.lowerCase(Character.toString(businessName.charAt(0)));
 
-				String articleParent = "/content/foodandwine/experiences/"
-					+ StringUtils.lowerCase(Character.toString(businessName.charAt(0)));
+					String articlePath = articleParent + "/"
+						+ StringUtils.lowerCase(businessName.replaceAll("[\\s'&]", "-"));
 
-				String articlePath = articleParent + "/"
-					+ StringUtils.lowerCase(businessName.replaceAll("[\\s'&]", "-"));
+					Resource articleResource = resourceResolver.getResource(articlePath);
 
-				Resource articleResource = resourceResolver.getResource(articlePath);
-
-				if (articleResource == null) {
-					generateArticle(resourceResolver, pageManager, res, formProperties, businessName, articleParent);
+					if (articleResource == null) {
+						// generateArticle(resourceResolver, pageManager,
+						// jcrContent, formProperties,
+						// StringUtils.trim(businessName), articleParent);
+						article_created++;
+					} else {
+						article_found++;
+					}
 				}
 			}
-
 		} catch (Exception e) {
 			LOG.error("Error creating page from form");
 		} finally {
@@ -72,7 +82,7 @@ public class ExperienceCreationJob implements Runnable {
 				resourceResolver.close();
 			}
 		}
-
+		LOG.info("ExperienceCreationJob completed. " + article_found + "found, " + article_created + " created.");
 	}
 
 	private void generateArticle(ResourceResolver resourceResolver, PageManager pageManager, Resource res,

@@ -16,6 +16,7 @@ import javax.jcr.query.RowIterator;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpSession;
 
+import org.apache.commons.lang3.StringUtils;
 import org.apache.felix.scr.annotations.sling.SlingServlet;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.SlingHttpServletResponse;
@@ -44,23 +45,35 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 public class StateMosaicServlet extends SlingAllMethodsServlet
 {
 	/**
-	 * 
+	 * Constants
 	 */
 	private static final long serialVersionUID = 1L;
 	private static final Logger LOG = LoggerFactory.getLogger(StateMosaicServlet.class);
+	private static final JsonFactory FACTORY = new JsonFactory();
+	private static final ObjectMapper MAPPER = new ObjectMapper();
+	
+	/**
+	 * Instance variables
+	 */
 	private String categoryTagName="";
 	private String path,queryString;
 	private List<StateMosaiacProperties> propertiesList;
-	
 	private  long limit=10,offset=0;
 	private String[] categoryTags;
-	private String cityTagName;
-	private static final JsonFactory FACTORY = new JsonFactory();
-	private static final ObjectMapper MAPPER = new ObjectMapper();
+	private String cityTagName,stateTitle;
+	
 
 	@Override
-    protected void doPost(SlingHttpServletRequest request, SlingHttpServletResponse response) throws ServletException, IOException {
+    protected void doPost(SlingHttpServletRequest request, SlingHttpServletResponse response)   {
 		
+		process(request,response);
+				
+    }
+	/**
+	 * Process method to get 10 set of pages based on tags
+	 * each time servlet called.
+	 */
+	private void process(SlingHttpServletRequest request,SlingHttpServletResponse response)   {
 		String stateTags=request.getParameter("stateTag").toLowerCase();
 		String flag=request.getParameter("flag");
 		if(flag.equals("default"))
@@ -70,8 +83,8 @@ public class StateMosaicServlet extends SlingAllMethodsServlet
 		}
 		if(flag.equals("showMore"))
 		{
-			limit=20;
-			offset=10;
+			limit+=10;
+			offset+=10;
 		}
 		categoryTags=request.getParameterValues("catogoryArray");
 		TagManager tagManager = request.getResourceResolver().adaptTo(TagManager.class);
@@ -81,7 +94,7 @@ public class StateMosaicServlet extends SlingAllMethodsServlet
 			QueryManager queryManager = session.getWorkspace().getQueryManager();
 			propertiesList=new LinkedList<StateMosaiacProperties>();
 			for(String s:categoryTags){
-				queryString="SELECT * FROM [nt:base] AS s WHERE ISDESCENDANTNODE([/content/food-and-wine]) and ([cq:tags] like '%"+s.trim().toLowerCase()+"%' and [cq:tags] like '%"+stateTags.trim()+"%')";
+				queryString="SELECT * FROM [nt:base] AS s WHERE ISDESCENDANTNODE([/content/food-and-wine]) and ([cq:tags] like '%/"+s.trim()+"%' and [cq:tags] like '%"+stateTags.trim()+"%')";
 				Query query = queryManager.createQuery(queryString,Query.JCR_SQL2);
 				query.setOffset(offset);
 				query.setLimit(limit);
@@ -96,23 +109,36 @@ public class StateMosaicServlet extends SlingAllMethodsServlet
 					String[] tagsArray=pageProperties.get("cq:tags", new String[0]);
 					String categoryLogo =pageProperties.get("categoryLogoPath","");
 					Tag stateTag=TagUtils.getStateTag(tagManager, tagsArray);
-					
-					String stateTitle =stateTag.getTitle().toString();
+					if(stateTag!=null)
+						stateTitle =stateTag.getTitle().toString();
 					List<Tag> categoryTagList = TagUtils.getFoodAndWineCategoryTags(tagManager, tagsArray);
-					for(Tag tag:categoryTagList)
+					loop:for(Tag tag:categoryTagList)
 					{   
+						
+							
+						if(!categoryTagName.equals(""))
+							categoryTagName+=", ";
 						if(!categoryTagName.contains(tag.getTitle()))
-							categoryTagName+=tag.getTitle()+",";
+							
+							categoryTagName+=tag.getTitle();
+							
+						
+						if(StringUtils.countMatches(categoryTagName, ",")==2)
+						{
+							categoryTagName+="...";
+							break loop;
+						}
 					}
 					Tag cityTag=TagUtils.getCityTag(tagManager, tagsArray);
 					if(cityTag!=null)
 						cityTagName=cityTag.getTitle().toString()+","+stateTitle;
-					String pageTemaplate = articlePage.getTemplate().getName();
-					
+					String templateName = articlePage.getTemplate().getName();
+					if(!templateName.equals("facebookpage") && (!templateName.equals("instagrampagepage")) && (!templateName.equals("twitterpage")))
+						templateName=null;
+					else
+						templateName=templateName.replace("page", "");
 					String title = articlePage.getTitle();
-					
 					String description=articlePage.getDescription();
-					//description.length();
 					String pagePth=LinkUtils.getHrefFromPath(articlePage.getPath());
 					String image = null;
 					Resource jcrResource = articlePage.adaptTo(Resource.class).getChild(JcrConstants.JCR_CONTENT);
@@ -120,11 +146,10 @@ public class StateMosaicServlet extends SlingAllMethodsServlet
 					if (pageImage != null && pageImage.hasContent()) {
 						image = pageImage.getPath() + ".img.jpg";
 					}
-					StateMosaiacProperties bean=new  StateMosaiacProperties(title,description,image,pagePth,stateTitle,categoryTagName,cityTagName,categoryLogo);
+					StateMosaiacProperties bean=new  StateMosaiacProperties(title,description,image,pagePth,stateTitle,categoryTagName,cityTagName,categoryLogo,templateName);
 					categoryTagName="";
 					propertiesList.add(bean);
-					offset++;
-					limit++;
+					
 				}
 			}
 		} catch (RepositoryException e) {
@@ -132,12 +157,13 @@ public class StateMosaicServlet extends SlingAllMethodsServlet
 		} 
 		response.setContentType("application/json");
 		response.setCharacterEncoding("UTF-8");
-		JsonGenerator generator = FACTORY.createGenerator(response.getWriter());
-		MAPPER.writeValue(generator, propertiesList);
+		JsonGenerator generator;
+		try {
+			generator = FACTORY.createGenerator(response.getWriter());
+			MAPPER.writeValue(generator, propertiesList);
+		} catch (IOException e) {
+			LOG.error("Exception in IO oerations {0}",e.getMessage());
+		}
 		propertiesList.clear();
-		
-		
-		
-     
-    }
+	}
 }

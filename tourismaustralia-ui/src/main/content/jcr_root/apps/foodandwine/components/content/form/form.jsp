@@ -372,7 +372,7 @@
 					<fieldset class="options">
 						<input id="checkbox" class="checkbox" type="checkbox"> <label
 							for="checkbox" name="demo_lbl_1" class="checkbox-label">I
-							agree to the terms &amp; conditions<sup>*</sup>
+							agree to Tourism Australia's terms &amp; conditions<sup>*</sup>
 						</label>
 						<!-- Checkbox powered by CssCheckbox.com -->
 						<p class="checkbox-description">

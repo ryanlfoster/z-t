@@ -23,23 +23,23 @@ public class Map {
 	private final String GOOGLE_MAP_URL = "http://maps.googleapis.com/maps/api/staticmap?center=-29.850033,135.6500523&zoom=4&size=500x450&maptype=roadmap&sensor=false&style=feature%3Aadministrative%7Celement%3Aall%7Cvisibility%3Aoff%7C&style=feature%3Alandscape%7Celement%3Aall%7Cvisibility%3Aoff%7C&style=feature%3Apoi%7Celement%3Aall%7Cvisibility%3Aoff%7C&style=feature%3Aroad%7Celement%3Aall%7Cvisibility%3Aoff%7C&style=feature%3Awater%7Celement%3Aall%7Cvisibility%3Aoff%7C&style=feature%3Alandscape%7Celement%3Aall%7Cvisibility%3Aon%7Ccolor%3A0xeeeeee%7C&style=feature%3Awater%7Celement%3Aall%7Cvisibility%3Aon%7Ccolor%3A0xffffff%7C&style=feature%3Aadministrative.province%7Celement%3Ageometry.stroke%7Cvisibility%3Aon%7Cweight%3A0.5%7Ccolor%3A0x555555%7C&markers={marker_image_url}|-";
 	private final String MARKER_IMAGE = "/etc/designs/foodandwine/clientlibs/imgs/custommap/marker.png";
 
-	@DialogField(fieldLabel = "Phone", required = true)
+	@DialogField(fieldLabel = "Phone")
 	private final String phone;
 
-	@DialogField(fieldLabel = "Address", required = true)
+	@DialogField(fieldLabel = "Address")
 	private final String address1;
 
-	@DialogField(fieldLabel = "Suburb", required = true)
+	@DialogField(fieldLabel = "Suburb")
 	private final String suburb;
 
-	@DialogField(fieldLabel = "State", required = true)
+	@DialogField(fieldLabel = "State")
 	@Selection(type = Selection.SELECT, options = { @Option(value = "Victoria"), @Option(value = "New South Wales"),
 		@Option(value = "Queensland"), @Option(value = "South Australia"), @Option(value = "Northern Territory"),
 		@Option(value = "Western Australia"), @Option(value = "Australian Capital Territory"),
 		@Option(value = "Tasmania") })
 	private final String state;
 
-	@DialogField(fieldLabel = "Postcode", required = true)
+	@DialogField(fieldLabel = "Postcode")
 	private final String postcode;
 
 	@DialogField(fieldLabel = "Website")

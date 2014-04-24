@@ -1,0 +1,17 @@
+.dreamtrip-grid {
+  padding-bottom: pxtoem($bottom-spacing);
+
+  @include breakpoint(md) {
+    padding-bottom: pxtoem($bottom-spacing-double);
+  }
+}
+.dreamtrip-list {
+
+}
+.dreamtrip-title {
+  padding-bottom: pxtoem($bottom-spacing);
+}
+
+.mosaic_dreamtrip_list .search-results-copy-container {
+  padding: 2em 2.5em 0 0 !important;
+}

@@ -1,0 +1,28 @@
+---
+layout: layout-base.hbs
+---
+
+{{#parseJSON '{
+    "hero_image" : "hero-dreamtrip",
+    "hero_title" : "My Dream Trip"
+}'}}
+    {{> hero_category }}
+{{/parseJSON}}
+
+<div class="paragraph-dreamtrip">
+
+    {{#parseJSON '{
+    "page_title" : "Dream Trip"
+}'}}
+        {{> breadcrumbsdynamic }}
+    {{/parseJSON}}
+
+    {{> shareicons_left_container }}
+
+    {{> dreamtrip_grid }}
+
+
+
+    {{> categorylinks_city_sydney }}
+
+</div>

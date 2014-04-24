@@ -5,10 +5,8 @@
 
 
   &.postcode {
-    width: 100%;
-
     @include breakpoint(lg) {
-      width: 280px;
+      width: 100px;
     }
   }
 }

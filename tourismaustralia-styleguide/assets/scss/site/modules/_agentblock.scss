@@ -1,0 +1,37 @@
+.agent-block {
+
+}
+
+.agent-block-item {
+	background: $agent-block-row-colour;
+	min-height: 100px; 
+	padding: pxtoem(30px);
+	margin: 0 0 pxtoem(15px);
+	text-align: center;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.agent-image {
+	text-align: center;
+
+	img {
+		@include border-radius(100%);
+		border: 1px solid #FFF;
+		max-width: 82px;
+	}
+}
+
+.agent-block-logo {
+	text-align: center;
+}
+
+.agent-block-contact-wrapper {
+	margin: pxtoem(15px) 0;
+}
+
+.agent-block-description {
+	margin-bottom: pxtoem(15px);
+}

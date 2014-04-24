@@ -914,6 +914,53 @@
                 
             
             
+                ,
+            
+        
+            
+                "agentimage" : {
+                     "data" : {
+                        "title" : "agentimage",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'agentimage'}}"
+                }
+                
+                    ,
+                
+            
+                "largeparallax_images" : {
+                     "data" : {
+                        "title" : "largeparallax_images",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'largeparallax_images'}}"
+                }
+                
+                    ,
+                
+            
+                "largeparallax_text" : {
+                     "data" : {
+                        "title" : "largeparallax_text",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'largeparallax_text'}}"
+                }
+                
+                    ,
+                
+            
+                "itinerary_subnav" : {
+                     "data" : {
+                        "title" : "itinerary_subnav",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'itinerary_subnav'}}"
+                }
+                
+            
+            
         
         
             ,
@@ -1510,6 +1557,17 @@
                         "layout" : "styleguide-preview.hbs"
                     },
                     "content" : "{{section 'dropdown_full_width'}}"
+                }
+                
+                    ,
+                
+            
+                "agent_block" : {
+                     "data" : {
+                        "title" : "agent_block",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'agent_block'}}"
                 }
                 
                     ,

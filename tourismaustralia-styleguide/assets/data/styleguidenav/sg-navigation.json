@@ -150,6 +150,15 @@
                         { "text": "largeparallax_text" },
                         { "text": "itinerary_subnav" }
                     ]
+                },
+                {
+                    "text" : "Agent Block",
+                    "item": [
+                        { "text": "agentimage" },
+                        { "text": "largeparallax_images" },
+                        { "text": "largeparallax_text" },
+                        { "text": "itinerary_subnav" }
+                    ]
                 }
             ]
         },
@@ -213,6 +222,7 @@
                         { "text": "header" },
                         { "text": "sitemap_content" },
                         { "text": "dropdown_full_width" },
+                        { "text": "agent_block" },
                         { "text": "contactus_form" }
 
                     ]

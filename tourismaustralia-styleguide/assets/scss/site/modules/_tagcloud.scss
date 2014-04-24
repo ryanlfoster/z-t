@@ -3,9 +3,13 @@
   ul {
     list-style-type: none;
     padding: 0;
+    font-size: 0; // removes spacing between items
+    //text-align: left;
   }
   li {
-    
+    font-size: $font-size-base;  // removes spacing between items
+    margin: 0 .2em .2em 0;
+
     display: inline-block;
 
     @include breakpoint(md){

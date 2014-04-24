@@ -4,8 +4,11 @@
 
     <!-- Component Texts -->
 	<viewDetailedMap jcr:primaryType="sling:MessageEntry" sling:key="view detailed map" sling:message="Voir la carte détaillée"/>
-    <viewDetailedMap jcr:primaryType="sling:MessageEntry" sling:key="View more videos" sling:message="Voir plus de vidéos"/>
-    <viewDetailedMap jcr:primaryType="sling:MessageEntry" sling:key="add to your dream trip" sling:message="ajouter à votre voyage de rêve"/>
-    <viewDetailedMap jcr:primaryType="sling:MessageEntry" sling:key="view detailed map" sling:message="view detailed map (FR)"/>
+	<exploreBeyond jcr:primaryType="sling:MessageEntry" sling:key="EXPLORE BEYOND THE CITY LIMITS" sling:message="Explore beyond city limits (french)"/>
+    <viewMoreVideos jcr:primaryType="sling:MessageEntry" sling:key="View more videos" sling:message="Voir plus de vidéos"/>
+    <addToYourDreamTrip jcr:primaryType="sling:MessageEntry" sling:key="add to your dream trip" sling:message="ajouter à votre voyage de rêve"/>
+	<showMap jcr:primaryType="sling:MessageEntry" sling:key="Show map" sling:message="Show map(FR)"/>
+	<backToOverview jcr:primaryType="sling:MessageEntry" sling:key="Back to overview" sling:message="Back to overview(FR)"/>
+	<viewMoreInformation jcr:primaryType="sling:MessageEntry" sling:key="View more information" sling:message="View more information(FR)"/>
 
 </jcr:root>

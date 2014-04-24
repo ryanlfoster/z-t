@@ -1,0 +1,12 @@
+
+.privacy-policy{
+  text-align: left;
+}
+
+.privacy-policy ol{
+  padding-left: pxtoem(15px);
+  margin-left: 0;
+  @include breakpoint(lg){
+    padding-left: 0;
+  }
+}

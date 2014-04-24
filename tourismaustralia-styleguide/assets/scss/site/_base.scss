@@ -54,16 +54,16 @@ p {
   font-family: $font-family-base;
   strong, b{
     font-family: $font-family-base-b;
-    em{
+    i, em{
       font-family: $font-family-base-bi;
     }
   }
-  em{
+  i, em{
     font-family: $font-family-base-i;
   }
 }
 
-em{
+i, em{
   font-family: $font-family-base-i;
 }
 
@@ -86,6 +86,22 @@ a:hover {
   // text-shadow: .9px .9px rgba(0,0,0,.8);
   // font-family: $font-family-base-b;
   // letter-spacing: pxtoletterspacingem(-24.5);
+}
+
+p a {
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  box-shadow: 0 1px 0 #d4dcde;
+  -webkit-box-shadow: 0 1px 0 #d4dcde;
+  -moz-box-shadow: 0 1px 0 #d4dcde;
+}
+
+p a:hover {
+  text-decoration: none;
+  border-bottom: 1px solid #00535e;
+  box-shadow: 0 1px 0 #00535e;
+  -webkit-box-shadow: 0 1px 0 #00535e;
+  -moz-box-shadow: 0 1px 0 #00535e;
 }
 
 hr.full {

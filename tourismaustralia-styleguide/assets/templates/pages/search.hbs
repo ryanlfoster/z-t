@@ -1,0 +1,19 @@
+---
+layout: layout-base.hbs
+---
+
+<div class="paragraph-search">
+
+    {{#parseJSON '{
+    "page_title" : "Search"
+}'}}
+        {{> breadcrumbsdynamic }}
+    {{/parseJSON}}
+
+    {{> searchbox }}
+
+    {{> search_results_counter_grid_more }}
+
+    {{> search_atdw_highlights }}
+
+</div>

@@ -1,0 +1,30 @@
+---
+title: Search Trips
+---
+
+<div class="search-trips">
+    <div class="row l-center-1200">
+        <div class="col-xs-12">
+
+            {{#parseJSON '{"title": "Trips", "copy" : "Make Sydney where your adventure begins. World-heritage natural wonders, world-class wine regions, and the world’s most stunning beaches are just over the horizon."}'}}
+                {{> sectionintro }}
+            {{/parseJSON}}
+
+            {{#parseJSON '{"copy": "Showing 3 of 11 results"}'}}
+                {{> search_counter }}
+            {{/parseJSON}}
+
+            <div class="carousel-center-container">
+                <div class="carousel-owl-mobile-fill">
+                    <div id="carousel" class="owl-carousel owl-theme">
+                        <div class="carousel-item">{{> exploreitem }}</div>
+                        <div class="carousel-item">{{> exploreitem }}</div>
+                        <div class="carousel-item">{{> exploreitem }}</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+

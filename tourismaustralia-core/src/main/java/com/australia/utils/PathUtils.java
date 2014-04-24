@@ -32,6 +32,18 @@ public final class PathUtils {
 	public static final String CITY_PARAM = "city";
 	public static final String TERM_PARAM = "term";
 
+
+	public static final String FOOD_AND_WINE_EXPLORE = FOOD_AND_WINE_ROOT_PATH + "/explore/";
+	public static final String FOOD_AND_WINE_EXPLORE_AUSTRALIAN_CAPITAL_TERRITORY = FOOD_AND_WINE_EXPLORE
+		+ "australian-capital-territory";
+	public static final String FOOD_AND_WINE_EXPLORE_NEW_SOUTH_WALES = FOOD_AND_WINE_EXPLORE + "new-south-wales";
+	public static final String FOOD_AND_WINE_EXPLORE_NORTHERN_TERRITORY = FOOD_AND_WINE_EXPLORE + "northern-territory";
+	public static final String FOOD_AND_WINE_EXPLORE_QUEENSLAND = FOOD_AND_WINE_EXPLORE + "queensland";
+	public static final String FOOD_AND_WINE_EXPLORE_SOUTH_AUSTRALIA = FOOD_AND_WINE_EXPLORE + "south-australia";
+	public static final String FOOD_AND_WINE_EXPLORE_TASMANIA = FOOD_AND_WINE_EXPLORE + "tasmania";
+	public static final String FOOD_AND_WINE_EXPLORE_VICTORIA = FOOD_AND_WINE_EXPLORE + "victoria";
+	public static final String FOOD_AND_WINE_EXPLORE_WESTERN_AUSTRALIA = FOOD_AND_WINE_EXPLORE + "western-australia";
+
 	/**
 	 * Will get the language resource for the resource passed in. For example,
 	 * if resource at /content/en/mypage is passed in, then the resource at

@@ -81,6 +81,8 @@
                 {
                     "text" : "Layout",
                     "item": [
+                        { "text": "largetitlewithsubdescription" },
+                        { "text": "video_add_tags_share" },
                         { "text": "tagclouditem" },
                         { "text": "explore_summary_map" },
                         { "text": "linethroughtext" },
@@ -92,6 +94,7 @@
                         { "text": "socialimage" },
                         { "text": "byline" },
                         { "text": "bylinewithshareitem" }
+
 
                     ]
                 },
@@ -121,8 +124,12 @@
                         { "text": "mosaic_socialtiles_static_grid_1" },
                         { "text": "mosaic_socialtiles_grid_4" },
                         { "text": "mosaicitemsocial_detail" },
+                        { "text": "atdwhighlights" },
+                        { "text": "mosaicitemoption" },
+                        { "text": "mosaic3columnitem_detail" },
                         { "text": "whatyoucansee" },
-                        { "text": "whatyoucansee_nobuttons" }
+                        { "text": "whatyoucansee_nobuttons" },
+                        { "text": "mosaic_search_grid_1_4_4_1" }
                     ]
                 },
                 {
@@ -130,6 +137,15 @@
                     "item": [
                         { "text": "carousel_mobile" },
                         { "text": "carousel_standard" }
+                    ]
+                },
+                {
+                    "text" : "Itinerary Day",
+                    "item": [
+                        { "text": "largeparallax" },
+                        { "text": "largeparallax_images" },
+                        { "text": "largeparallax_text" },
+                        { "text": "itinerary_subnav" }
                     ]
                 }
             ]
@@ -148,17 +164,26 @@
                         { "text": "bylinewithshare" },
                         { "text": "categorylinks" },
                         { "text": "explore" },
+                        { "text": "explore-more" },
                         { "text": "favourite" },
+                        { "text": "favouritewithlines" },
+                        { "text": "featuredproducts" },
                         { "text": "fullsizevideo" },
                         { "text": "hero" },
+                        { "text": "iframe" },
                         { "text": "imagemapcitylink" },
                         { "text": "image_with_button" },
                         { "text": "image_with_date" },
                         { "text": "image_with_quote" },
                         { "text": "image_with_button_social" },
                         { "text": "largeimagetext" },
+                        { "text": "largeimagenotext" },
+                        { "text": "largeimageoverlay" },
                         { "text": "largeimagesocial" },
+                        { "text": "largetitle" },
+                        { "text": "parallaximage_fullwidth" },
                         { "text": "mapimagewithbuttons" },
+                        { "text": "mapimagewithlegend" },
                         { "text": "mapimagewithlinks" },
                         { "text": "quote" },
                         { "text": "seperator" },
@@ -166,14 +191,17 @@
                         { "text": "smallimagetext" },
                         { "text": "socialtiles" },
                         { "text": "specialoffer" },
+                        { "text": "specialoffer_from" },
                         { "text": "summary" },
                         { "text": "tagcloud" },
                         { "text": "text" },
                         { "text": "twoimages" },
                         { "text": "whatyoucansee_city" },
                         { "text": "whatyoucansee_state" },
-
-                        { "text": "header" }
+                        { "text": "itineraryday" },
+                        { "text": "itineraryday_secondary" },
+                        { "text": "header" },
+                        { "text": "sitemap_content" }
 
                     ]
                 }

@@ -36,13 +36,23 @@
 }
 
 .asp-search-form-item .btn-primary{
-  padding-top: .49em;
-  padding-bottom: .49em;
-  max-width: 280px;
   margin: 0 auto;
+  max-width: 280px;
+  min-width: 160px;
+  padding-bottom: .49em;
+  padding-top: .49em;
 
   @include breakpoint(sm) {
     margin-top: pxtoem(14px);
+  }
+}
+
+.asp-search-form-label {
+  text-align: center;
+  display: block;
+
+  @include breakpoint(lg) {
+    text-align: left;
   }
 
 }

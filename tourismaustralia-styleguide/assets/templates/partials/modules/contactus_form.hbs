@@ -24,17 +24,23 @@ title: Contact Us Form
                     <input class="name-input" name="searchinput" type="text" placeholder="Type text to search" />
                 </div>
 
-                {{#parseJSON '{"data" : [{"option": "United States of America"}, {"option": "Australia"}]}'}}
-                    {{> dropdown_white_background }}
-                {{/parseJSON}}
-
+                <div class="contactus-form-query-select">
+                    <p>I have a</p>
+                    {{#parseJSON '{"data" : [{"option": "United States of America"}, {"option": "Australia"}]}'}}
+                        {{> dropdown_full_width }}
+                    {{/parseJSON}}
+                </div>
 
             </div>
             <div class="col-xs-12 col-sm-8">
                 <div class="inputFocus-wrapper">
                     <label class="name-input-label" for="searchinput">Type text to search</label>
-                    <textarea class="name-input" rows="15" placeholder="Type text to search" ></textarea>
+
+                    <textarea class="name-input" placeholder="Type text to search" ></textarea>
                 </div>
+            </div>
+            <div class="col-xs-12 contactus-form-button">
+                <a href="#" class="btn-primary transparent">Send</a>
             </div>
         </form>
 

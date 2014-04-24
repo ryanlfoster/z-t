@@ -6,6 +6,7 @@ import java.util.List;
 
 import javax.servlet.ServletException;
 
+import org.apache.commons.lang.StringUtils;
 import org.apache.felix.scr.annotations.Reference;
 import org.apache.felix.scr.annotations.sling.SlingServlet;
 import org.apache.sling.api.SlingHttpServletRequest;
@@ -54,18 +55,19 @@ public class SearchServlet extends SlingAllMethodsServlet {
 	protected void doPost(SlingHttpServletRequest request, SlingHttpServletResponse response) throws ServletException,
 		IOException {
 		try {
+			searchFilter.clear();
 			counter = request.getParameter("counter");
 			category = request.getParameter("category");
 			location = request.getParameter("location");
 			if (category != null && !category.equals("")) {
 				searchFilter.add(category);
 			}
-			if (location != null && !location.equals("")) {
+			if (location != null && !location.equals(StringUtils.EMPTY)) {
 				searchFilter.add(location);
 			}
 			
 			searchParameter = request.getParameter("searchParameter");
-			if (searchParameter != null && !(searchParameter.equals(""))) {
+			if (searchParameter != null && !(searchParameter.equals(StringUtils.EMPTY))) {
 				int page = Integer.parseInt(counter);
 				SortOrderType sort = SortOrderType.ASC;
 				FAWSearchParametersBuilder fawSearchParameterBuilder = new FAWSearchParametersBuilder();

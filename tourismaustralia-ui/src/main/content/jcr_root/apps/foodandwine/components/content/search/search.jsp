@@ -452,13 +452,13 @@
 				<select class="input-select input-select-small" id="categoryDropdown">
 					<option value="" selected="selected" disabled="">Filter by
 						category</option>
-					<option value="restaurants">Restaurants</option>
-					<option value="wine">Wine</option>
-					<option value="produce">Produce</option>
-					<option value="events">Events</option>
-					<option value="people">People</option>
-					<option value="experiences">Experiences</option>
-					<option value="seafood">Seafood</option>
+					<option value="ta:food-and-wine/category/restaurant">Restaurants</option>
+					<option value="ta:food-and-wine/category/wine">Wine</option>
+					<option value="ta:food-and-wine/category/produce">Produce</option>
+					<option value="ta:food-and-wine/category/events">Events</option>
+					<option value="ta:food-and-wine/category/people">People</option>
+					<option value="ta:food-and-wine/category/experiences">Experiences</option>
+					<option value="ta:food-and-wine/category/seafood">Seafood</option>
 				</select>
 			</div>
 			<!-- END: CATEGORY DROP DOWN -->
@@ -468,14 +468,14 @@
 				<select class="input-select input-select-small">
 					<option value="" selected="selected" disabled="">Filter by
 						location</option>
-					<option value="australia-capital-teritory">ACT</option>
-					<option value="new-south-wales">NSW</option>
-					<option value="northern-terriotory">NT</option>
-					<option value="queensland">QLD</option>
-					<option value="south-australia">SA</option>
-					<option value="tasmania">TAS</option>
-					<option value="victoria">VIC</option>
-					<option value="western-australia">WA</option>
+					<option value="ta:place/australia-capital-teritory">ACT</option>
+					<option value="ta:place/new-south-wales">NSW</option>
+					<option value="ta:place/northern-terriotory">NT</option>
+					<option value="ta:place/queensland">QLD</option>
+					<option value="ta:place/south-australia">SA</option>
+					<option value="ta:place/tasmania">TAS</option>
+					<option value="ta:place/victoria">VIC</option>
+					<option value="ta:place/western-australia">WA</option>
 				</select>
 			</div>
 			<!-- END: STATE DROP DOWN -->

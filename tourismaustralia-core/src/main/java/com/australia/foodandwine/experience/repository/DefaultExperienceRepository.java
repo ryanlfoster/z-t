@@ -1,6 +1,7 @@
 package com.australia.foodandwine.experience.repository;
 
 import java.util.ArrayList;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
@@ -39,36 +40,60 @@ import com.day.cq.wcm.api.PageManager;
 @Service
 public class DefaultExperienceRepository implements ExperienceRepository {
 
-	private static final Logger LOG = LoggerFactory.getLogger(DefaultATDWProductRepository.class);
-	private static final String JCR_PREFIX = "@" + NameConstants.NN_CONTENT + "/";
+	private static final Logger LOG = LoggerFactory
+			.getLogger(DefaultATDWProductRepository.class);
+	private static final String JCR_PREFIX = "@" + NameConstants.NN_CONTENT
+			+ "/";
 	private static final String EXPERIENCE_RESOURCE_TYPE = "foodandwine/components/page/articlepage";
-
+	private Map<String, List<Experience>> articleMap;
+	private List<Experience> experiences;
 	@Reference
 	private ResourceResolverFactory resourceResolverFactory;
-
+	private SearchResult result;
 	@Reference
 	private QueryBuilder builder;
 
-	@Override
+	private void addToMap(String alphabet, Page page, TagManager tagManager) {
+		Experience experience = new Experience(page, tagManager);
+
+		if (articleMap.containsKey(alphabet)) {
+			articleMap.get(alphabet).add(experience);
+
+		} else {
+			experiences = new ArrayList<Experience>();
+			experiences.add(new Experience(page, tagManager));
+			articleMap.put(alphabet, experiences);
+
+		}
+
+	}
+
 	public ExperienceSearchResult search(ExperienceSearchParameters parameters) {
 		ResourceResolver resourceResolver = null;
-		List<Experience> experiences = new ArrayList<Experience>();
+		 articleMap = new LinkedHashMap<String, List<Experience>>();
+		// experiences.clear();
 		try {
-			resourceResolver = resourceResolverFactory.getAdministrativeResourceResolver(null);
+			resourceResolver = resourceResolverFactory
+					.getAdministrativeResourceResolver(null);
 			TagManager tagManager = resourceResolver.adaptTo(TagManager.class);
 			int propertyCount = 1;
-			PageManager pageManager = resourceResolver.adaptTo(PageManager.class);
+			PageManager pageManager = resourceResolver
+					.adaptTo(PageManager.class);
 			Session session = resourceResolver.adaptTo(Session.class);
 			Map<String, String> queryMap = new TreeMap<String, String>();
 			queryMap.put(QueryUtils.TYPE, NameConstants.NT_PAGE);
 			QueryUtils.addProperty(queryMap, propertyCount, JCR_PREFIX
-				+ JcrResourceConstants.SLING_RESOURCE_TYPE_PROPERTY, EXPERIENCE_RESOURCE_TYPE);
+					+ JcrResourceConstants.SLING_RESOURCE_TYPE_PROPERTY,
+					EXPERIENCE_RESOURCE_TYPE);
 			propertyCount++;
 			String path = PathUtils.FOOD_AND_WINE_ROOT_PATH;
-			queryMap.put(propertyCount + QueryUtils.SEPERATOR + QueryUtils.PATH, path);
+			queryMap.put(
+					propertyCount + QueryUtils.SEPERATOR + QueryUtils.PATH,
+					path);
 			propertyCount++;
 			if (StringUtils.isNotEmpty(parameters.getText())) {
-				QueryUtils.addFullText(queryMap, propertyCount, parameters.getText());
+				QueryUtils.addFullText(queryMap, propertyCount,
+						parameters.getText());
 				propertyCount++;
 			}
 			if (parameters.getTags() != null && parameters.getTags().size() > 0) {
@@ -83,37 +108,55 @@ public class DefaultExperienceRepository implements ExperienceRepository {
 				propertyCount++;
 			}
 			queryMap.put(QueryUtils.ORDER_BY, JCR_PREFIX + "jcr:title");
-			if (parameters.getSort() != null && QueryUtils.ASC.equals(parameters.getSort().getSort())) {
+			if (parameters.getSort() != null
+					&& QueryUtils.ASC.equals(parameters.getSort().getSort())) {
 				queryMap.put(QueryUtils.ORDER_BY_SORT, QueryUtils.ASC);
 			} else {
 				queryMap.put(QueryUtils.ORDER_BY_SORT, QueryUtils.DESC);
 			}
-			queryMap.put(QueryUtils.OFFSET, Long.toString((parameters.getPage() - 1) * parameters.getCount()));
+			queryMap.put(
+					QueryUtils.OFFSET,
+					Long.toString((parameters.getPage() - 1)
+							* parameters.getCount()));
 			queryMap.put(QueryUtils.LIMIT, Long.toString(parameters.getCount()));
-			Query query = builder.createQuery(PredicateGroup.create(queryMap), session);
-			SearchResult result = query.getResult();
+			Query query = builder.createQuery(PredicateGroup.create(queryMap),
+					session);
+			result = query.getResult();
 			for (Hit hit : result.getHits()) {
 				try {
 					if (hit.getPath() != null) {
 						Page page = pageManager.getPage(hit.getPath());
 						if (page != null
-							&& page.getTemplate().getPath().equals("/apps/foodandwine/templates/articlepage")) {
-							experiences.add(new Experience(page, tagManager));
+								&& page.getTemplate()
+										.getPath()
+										.equals("/apps/foodandwine/templates/articlepage")) {
+							String articleTitle = page.getTitle();
+							String alphabet = page.getParent().getTitle();
+							char charAt = articleTitle.charAt(0);
+							String charecter = Character.toString(charAt);
+							if (alphabet.equalsIgnoreCase(charecter)) {
+								addToMap(alphabet, page, tagManager);
+							}
+
 						}
 					}
 				} catch (RepositoryException e) {
 					LOG.error("Error creating story", e);
 				}
 			}
-			return new ExperienceSearchResult(experiences, result.getTotalMatches(), parameters.getPage());
+
 		} catch (Exception e) {
 			LOG.error("Error searching for ATDW Products", e);
 		} finally {
 			if (resourceResolver != null && resourceResolver.isLive()) {
 				resourceResolver.close();
 			}
+
 		}
-		return null;
+
+		return new ExperienceSearchResult(experiences, articleMap,
+				result.getTotalMatches(), parameters.getPage());
+
 	}
 
 }

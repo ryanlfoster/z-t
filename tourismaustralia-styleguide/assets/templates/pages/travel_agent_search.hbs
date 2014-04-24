@@ -1,0 +1,99 @@
+---
+title: Travel Agent Search
+layout: layout-base.hbs
+---
+
+{{#parseJSON '{
+	"page_title" : "Travel Specialists Near You",
+    "hero_title" : "Travel Specialists Near You"
+}'}}
+    {{> hero_text }}
+{{/parseJSON}}
+
+
+<div class="paragraph-campaign">
+
+    {{#parseJSON '{"copy": "Nisi amet ultrices odio? Aliquam pellentesque, tristique lacus nec? Ultricies? Proin est magnis, sit platea platea magnis integer nunc montes. Duis ultricies ac magnis cursus dapibus et."}'}}
+        {{> paragraph_dynamic}}
+    {{/parseJSON}}
+
+    {{> asp_search_form }}
+
+
+    {{> 2columnvideo }}
+
+    {{#parseJSON '{
+        "promo_image" : "promo7",
+        "promo_title" : "Fly to Australia<br /> sponsored by Tourism Australia",
+        "promo_text" : [
+            {"para" : "Hurry these fares must be booked by 7th April 2014. <a href=\"#\">Book today</a>"}
+        ],
+        "promo_value" : "799",
+        "promo_per" : "/per person"
+    }'}}
+        {{> specialoffer }}
+    {{/parseJSON}}
+
+    {{> xsmallimagetext }}
+
+    {{#parseJSON '{"copy": "Experience friendly service and Arabian hospitality when you fly with airberlin and Etihad Airways from Frankfurt, Munich, Dusseldorf and Berlin via Abu Dhabi to Sydney, Brisbane, Melbourne and Perth. Enjoy this one of the fastest connections from Germany to Down Under with an average journey time of just 23 hours."}'}}
+        {{> paragraph_dynamic}}
+    {{/parseJSON}}
+    
+    {{#parseJSON '{"copy": "Fly already from EUR 999 * to Australia and get two Skypass domestic flights included **. Book this offer until 30/04/2014 your travel agent or via the Etihad reservation at Tel: 030 95999805. Learn more about your travel options with Etihad Airways and airberlin."}'}}
+        {{> paragraph_dynamic}}
+    {{/parseJSON}}
+    
+    {{#parseJSON '{"copy": "Experience Australia Travel Guide of EXPLORER distance travel"}'}}
+        {{> paragraph_dynamic}}
+    {{/parseJSON}}
+
+    {{#parseJSON '{"copy": "<img src=\"imgs/placeholders/explorer-fernreisen.jpg\" />"}'}}
+        {{> paragraph_dynamic}}
+    {{/parseJSON}}
+
+	{{#parseJSON '{
+        "parallax_image": "largeparallax_1"
+    }'}}
+        {{> parallaximage_fullwidth_blank }}
+    {{/parseJSON}}
+
+    {{> twoimages }}
+
+    {{#parseJSON '{"copy": "With airberlin & Etihad to Sydney"}'}}
+        {{> paragraph_heading_h4 }}
+    {{/parseJSON}}
+
+    {{> 2columnvideo }}
+
+    {{#parseJSON '{"copy": "With airberlin & Etihad to Brisbane"}'}}
+        {{> paragraph_heading_h4 }}
+    {{/parseJSON}}
+
+    {{> 2columnvideo }}
+
+    {{#parseJSON '{"copy": "With airberlin & Etihad to Melbourne"}'}}
+        {{> paragraph_heading_h4 }}
+    {{/parseJSON}}
+
+    {{> 2columnvideo }}
+
+    {{#parseJSON '{"copy": "With airberlin & Etihad to Perth"}'}}
+        {{> paragraph_heading_h4 }}
+    {{/parseJSON}}
+
+    {{> 2columnvideo }}
+
+    <!-- IFRAME -->
+
+    {{> iframe_inline }}
+
+    {{#parseJSON '{"copy": "Australia is characterized by a variety of unique sights and experiences that will make your holiday a very special experience: Visit vibrant cities , discover the unique, exotic wildlife, relax on the of rainforest framed beaches, taste fine wines or enjoy the vastness of the outback. Discover the fifth continent with Etihad Airways and airberlin starting at EUR 999* including two Skypass domestic flights. **"}'}}
+        {{> paragraph_dynamic}}
+    {{/parseJSON}}
+
+    {{> share_icons }}
+
+    {{> categorylinks_city_sydney }}
+
+</div>

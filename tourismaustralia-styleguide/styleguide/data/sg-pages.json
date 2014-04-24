@@ -1471,6 +1471,17 @@
                     ,
                 
             
+                "asp_search_form" : {
+                     "data" : {
+                        "title" : "asp_search_form",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'asp_search_form'}}"
+                }
+                
+                    ,
+                
+            
                 "header" : {
                      "data" : {
                         "title" : "header",

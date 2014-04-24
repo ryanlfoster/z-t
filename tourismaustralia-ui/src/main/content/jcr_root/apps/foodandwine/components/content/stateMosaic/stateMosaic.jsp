@@ -14,7 +14,7 @@ $(document).ready(function(){
     var catogoryArray=new Array();
     var source   = $("#stateMosaic").html();
 		 $(document).on("click",'.category-input ', function(){
-			 $(".mosaic").empty();
+			 $("#statemosaic").empty();
              var flag="default";
 			 var x=$(this).attr('id');
 		     if($(this).is(":checked"))
@@ -75,7 +75,7 @@ $(document).ready(function(){
 				    }
 				});   
 				var template = Handlebars.compile(source);
-				$(".mosaic").append(template(obj));
+				$("#statemosaic").append(template(obj));
 			}, 
 			error : function(xhr) {
 				console.log('there is some error');
@@ -103,7 +103,7 @@ $(document).ready(function(){
 	                data="{test:["+data+"]}";
 	                var obj=eval('('+data+')');
 	                var template = Handlebars.compile(source);
-					$(".mosaic").append(template(obj));
+					$("#statemosaic").append(template(obj));
 	            }
         });
     });
@@ -1098,7 +1098,7 @@ $(document).ready(function(){
     </div>
 </div>
    </c:if>
-<div class="mosaic">
+<div class="mosaic" id="statemosaic">
     
 </div>
     <!-- END: MOSAIC -->

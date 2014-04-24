@@ -15,7 +15,9 @@
 ;(function ( $, window, document, undefined ) {
 
     // Create the defaults once
-    var pluginName = 'inputFocus';
+    var pluginName = 'inputFocus',
+        defaults = {
+        };
 
     // The actual plugin constructor
     function Plugin( element, options ) {

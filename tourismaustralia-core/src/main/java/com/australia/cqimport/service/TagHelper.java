@@ -50,7 +50,9 @@ public class TagHelper {
 
                     if(tempStr != null){
                         tagVO = new TagVO();
-                        tagVO.setName(node.getName());
+                        // If you don't add "ta:" the tags will not be added.
+                        // For child nodes you have to include the ta:parentName/childName
+                        tagVO.setName(node.getPath().replace("/etc/tags/ta/", "ta:"));
                         tagVO.setValue(tempStr.trim());
                         ids.add(tagVO);
 
@@ -82,8 +84,8 @@ public class TagHelper {
                 tagVO = new TagVO();
                 tagVO.setValue(s);
                 if(tags.contains(tagVO)){
-                    // If you don't add "ta:" the tags will not be added.
-                    ids.add("ta:"+tags.get(tags.indexOf(tagVO)).getName());
+                    ids.add(tags.get(tags.indexOf(tagVO)).getName());
+                    LOG.debug("Key::::"+tags.get(tags.indexOf(tagVO)).getName());
                 }
             }
 

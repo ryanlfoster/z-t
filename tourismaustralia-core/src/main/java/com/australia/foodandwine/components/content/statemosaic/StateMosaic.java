@@ -28,9 +28,10 @@ public class StateMosaic {
 	private final String bottomText;
 
 	private String template;
-
-	
-
+	/**
+	 * Constructor
+	 * @param request
+	 */
 	public StateMosaic(SlingHttpServletRequest request) {
 		// TODO: Load first set server side so it can be indexed by google
 		PageManager pageManager = request.getResourceResolver().adaptTo(PageManager.class);
@@ -42,6 +43,10 @@ public class StateMosaic {
 		bottomText = properties.get("bottomText", StringUtils.EMPTY);
 	}
 
+	/**
+	 * 
+	 * @return
+	 */
 	public String getTemplate() {
 		return template;
 	}

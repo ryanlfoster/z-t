@@ -1,6 +1,9 @@
 package com.australia.foodandwine.components.content.statemosaic;
 
 public class StateMosaiacProperties {
+	/**
+	 * Instance variables
+	 */
 	private String title;
 	private String description;
 	private String image;
@@ -11,9 +14,18 @@ public class StateMosaiacProperties {
 	private String categoryLogo;
 	private String templateName;
 	
-
-	
-
+	/**
+	 * 
+	 * @param title
+	 * @param description
+	 * @param image
+	 * @param pagePath
+	 * @param stateTag
+	 * @param categoryTagName
+	 * @param cityTagName
+	 * @param categoryLogo
+	 * @param templateName
+	 */
 	public StateMosaiacProperties(String title, String description,String image, String pagePath, String stateTag, String categoryTagName, String cityTagName, String categoryLogo, String templateName) {
 		this.title=title;
 		this.description=description;
@@ -25,7 +37,11 @@ public class StateMosaiacProperties {
 		this.categoryLogo=categoryLogo;
 		this.templateName=templateName;
 	}
-
+	
+	/**
+	 * 
+	 * @return
+	 */
 	public String getCategoryLogo() {
 		return categoryLogo;
 	}

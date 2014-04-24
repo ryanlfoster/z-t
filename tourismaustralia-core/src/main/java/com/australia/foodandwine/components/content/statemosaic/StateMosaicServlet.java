@@ -16,6 +16,7 @@ import javax.jcr.query.RowIterator;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpSession;
 
+import org.apache.commons.lang3.StringUtils;
 import org.apache.felix.scr.annotations.sling.SlingServlet;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.SlingHttpServletResponse;
@@ -111,10 +112,22 @@ public class StateMosaicServlet extends SlingAllMethodsServlet
 					if(stateTag!=null)
 						stateTitle =stateTag.getTitle().toString();
 					List<Tag> categoryTagList = TagUtils.getFoodAndWineCategoryTags(tagManager, tagsArray);
-					for(Tag tag:categoryTagList)
+					loop:for(Tag tag:categoryTagList)
 					{   
+						
+							
+						if(!categoryTagName.equals(""))
+							categoryTagName+=", ";
 						if(!categoryTagName.contains(tag.getTitle()))
-							categoryTagName+=tag.getTitle()+",";
+							
+							categoryTagName+=tag.getTitle();
+							
+						
+						if(StringUtils.countMatches(categoryTagName, ",")==2)
+						{
+							categoryTagName+="...";
+							break loop;
+						}
 					}
 					Tag cityTag=TagUtils.getCityTag(tagManager, tagsArray);
 					if(cityTag!=null)

@@ -4,8 +4,8 @@
 
 <c:set var="stateMosaic" value="<%=new StateMosaic(slingRequest) %>"/>
 
-
-<script type="text/javascript">
+<%-- <cq:includeClientLib js="faw-stateMosaic" /> --%>
+ <script type="text/javascript">
 
 $(document).ready(function(){
 	 $(".btn-secondary").hide();
@@ -107,7 +107,7 @@ $(document).ready(function(){
 	            }
         });
     });
-});
+}); 
 </script>
 <!-- Script written for handlebar template -->
 

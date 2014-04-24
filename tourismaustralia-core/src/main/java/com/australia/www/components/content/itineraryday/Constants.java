@@ -11,6 +11,7 @@ final class Constants {
 	public static final String TAB_IMAGE_3_NAME = "Image 3";
 	public static final String TAB_IMAGE_4_NAME = "Image 4";
 	public static final String TAB_MAP_NAME = "Map";
+	public static final String FILE_REF_NAME = "fileReference";
 
 	public static final int TAB_TEXT_INDEX = 1;
 	public static final int TAB_HERO_INDEX = 2;

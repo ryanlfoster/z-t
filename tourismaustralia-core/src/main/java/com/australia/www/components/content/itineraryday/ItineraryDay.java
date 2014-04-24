@@ -3,7 +3,6 @@ package com.australia.www.components.content.itineraryday;
 import com.citytechinc.cq.component.annotations.*;
 import com.citytechinc.cq.component.annotations.widgets.Html5SmartImage;
 import com.citytechinc.cq.component.annotations.widgets.RichTextEditor;
-import com.day.cq.wcm.foundation.Image;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ValueMap;
@@ -75,7 +74,8 @@ public final class ItineraryDay {
     private final String text;
 
     @DialogField(fieldLabel = "Hero Image", tab = Constants.TAB_HERO_INDEX, required = true)
-    @Html5SmartImage(tab = false, name = Constants.NAME_HERO_IMAGE, height = Constants.IMAGE_WIDGET_HEIGHT)
+    @Html5SmartImage(tab = false, name = Constants.NAME_HERO_IMAGE, height = Constants.IMAGE_WIDGET_HEIGHT,
+		fileReferenceParameter = Constants.FILE_REF_NAME)
     private final String heroImage;
 
     @DialogField(fieldLabel = "Hero Image Title", tab = Constants.TAB_HERO_INDEX, required = true)
@@ -89,7 +89,8 @@ public final class ItineraryDay {
     private final String heroImageAltText;
 
     @DialogField(fieldLabel = "Image 1 (16:9)", tab = Constants.TAB_IMAGE_1_INDEX)
-    @Html5SmartImage(tab = false, name = Constants.NAME_IMAGE_1, height = Constants.IMAGE_WIDGET_HEIGHT)
+    @Html5SmartImage(tab = false, name = Constants.NAME_IMAGE_1, height = Constants.IMAGE_WIDGET_HEIGHT,
+		fileReferenceParameter = Constants.FILE_REF_NAME)
     private final String image1;
 
     @DialogField(fieldLabel = "Image 1 Alt Text", tab = Constants.TAB_IMAGE_1_INDEX, xtype = "textarea",
@@ -99,7 +100,8 @@ public final class ItineraryDay {
     private final String image1AltText;
 
     @DialogField(fieldLabel = "Image 2 (16:9)", tab = Constants.TAB_IMAGE_2_INDEX)
-    @Html5SmartImage(tab = false, name = Constants.NAME_IMAGE_2, height = Constants.IMAGE_WIDGET_HEIGHT)
+    @Html5SmartImage(tab = false, name = Constants.NAME_IMAGE_2, height = Constants.IMAGE_WIDGET_HEIGHT,
+		fileReferenceParameter = Constants.FILE_REF_NAME)
     private final String image2;
 
     @DialogField(fieldLabel = "Image 2 Alt Text", tab = Constants.TAB_IMAGE_2_INDEX, xtype = "textarea",
@@ -109,7 +111,8 @@ public final class ItineraryDay {
     private final String image2AltText;
     
     @DialogField(fieldLabel = "Image 3 (1:1)", tab = Constants.TAB_IMAGE_3_INDEX)
-    @Html5SmartImage(tab = false, name = Constants.NAME_IMAGE_3, height = Constants.IMAGE_WIDGET_HEIGHT)
+    @Html5SmartImage(tab = false, name = Constants.NAME_IMAGE_3, height = Constants.IMAGE_WIDGET_HEIGHT,
+		fileReferenceParameter = Constants.FILE_REF_NAME)
     private final String image3;
 
     @DialogField(fieldLabel = "Image 3 Alt Text", tab = Constants.TAB_IMAGE_3_INDEX, xtype = "textarea",
@@ -119,7 +122,8 @@ public final class ItineraryDay {
     private final String image3AltText;
 
     @DialogField(fieldLabel = "Image 4 ", tab = Constants.TAB_IMAGE_4_INDEX)
-    @Html5SmartImage(tab = false, name = Constants.NAME_IMAGE_4, height = Constants.IMAGE_WIDGET_HEIGHT)
+    @Html5SmartImage(tab = false, name = Constants.NAME_IMAGE_4, height = Constants.IMAGE_WIDGET_HEIGHT,
+		fileReferenceParameter = Constants.FILE_REF_NAME)
     private final String image4;
 
     @DialogField(fieldLabel = "Image 4 Alt Text", tab = Constants.TAB_IMAGE_4_INDEX, xtype = "textarea",
@@ -129,7 +133,8 @@ public final class ItineraryDay {
     private final String image4AltText;
 
     @DialogField(fieldLabel = "Map Image", tab = Constants.TAB_MAP_INDEX)
-    @Html5SmartImage(tab = false, name = Constants.NAME_MAP_IMAGE, height = Constants.IMAGE_WIDGET_HEIGHT)
+    @Html5SmartImage(tab = false, name = Constants.NAME_MAP_IMAGE, height = Constants.IMAGE_WIDGET_HEIGHT,
+		fileReferenceParameter = Constants.FILE_REF_NAME)
     private final String mapImage;
 
     private final String anchorId;
@@ -144,29 +149,23 @@ public final class ItineraryDay {
         textTitle = properties.get(Constants.NAME_TEXT_TITLE, "");
         text = properties.get(Constants.NAME_TEXT, "");
 
-        Image imageObj = new Image(request.getResource(), Constants.NAME_HERO_IMAGE);
-        heroImage = imageObj.hasContent() ? imageObj.getPath() : null;
+        heroImage = properties.get(Constants.NAME_HERO_IMAGE + "/" + Constants.FILE_REF_NAME, String.class);
         heroImageAltText = properties.get(Constants.NAME_HERO_IMAGE_ALT_TEXT, "");
         heroTitle = properties.get(Constants.NAME_HERO_TITLE, "");
 
-        imageObj = new Image(request.getResource(), Constants.NAME_IMAGE_1);
-        image1 = imageObj.hasContent() ? imageObj.getPath() : null;
+		image1 = properties.get(Constants.NAME_IMAGE_1 + "/" + Constants.FILE_REF_NAME, String.class);
         image1AltText = properties.get(Constants.NAME_IMAGE_1_ALT_TEXT, "");
 
-        imageObj = new Image(request.getResource(), Constants.NAME_IMAGE_2);
-        image2 = imageObj.hasContent() ? imageObj.getPath() : null;
+		image2 = properties.get(Constants.NAME_IMAGE_2 + "/" + Constants.FILE_REF_NAME, String.class);
         image2AltText = properties.get(Constants.NAME_IMAGE_2_ALT_TEXT, "");
 
-        imageObj = new Image(request.getResource(), Constants.NAME_IMAGE_3);
-        image3 = imageObj.hasContent() ? imageObj.getPath() : null;
+		image3 = properties.get(Constants.NAME_IMAGE_3 + "/" + Constants.FILE_REF_NAME, String.class);
         image3AltText = properties.get(Constants.NAME_IMAGE_3_ALT_TEXT, "");
 
-        imageObj = new Image(request.getResource(), Constants.NAME_IMAGE_4);
-        image4 = imageObj.hasContent() ? imageObj.getPath() : null;
+		image4 = properties.get(Constants.NAME_IMAGE_4 + "/" + Constants.FILE_REF_NAME, String.class);
         image4AltText = properties.get(Constants.NAME_IMAGE_4_ALT_TEXT, "");
 
-        imageObj = new Image(request.getResource(), Constants.NAME_MAP_IMAGE);
-        mapImage = imageObj.hasContent() ? imageObj.getPath() : null;
+		mapImage = properties.get(Constants.NAME_MAP_IMAGE + "/" + Constants.FILE_REF_NAME, String.class);
 
         anchorId = resource.getName();
 

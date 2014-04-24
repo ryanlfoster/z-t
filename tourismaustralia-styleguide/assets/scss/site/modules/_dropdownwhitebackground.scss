@@ -11,8 +11,9 @@
   height: 50px;
   overflow: hidden;
   font-family: $font-family-base;
-  background: url("../imgs/ui/select_bg_white.png") no-repeat;  /*Adds background-image*/
+  background: url("../imgs/ui/select_bg_white.png") no-repeat top right;  /*Adds background-image*/
   text-shadow:0 0 1px #eee;
+  border-left: 1px solid #00535e;
 }
 
 .dropdown-white-background select {

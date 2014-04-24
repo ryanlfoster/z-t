@@ -1,8 +1,5 @@
 .asp-search-form .col-xs-12{
   padding:  0;
-  @include breakpoint(md) {
-    padding:0 pxtoem(15px);
-  }
 }
 .asp-search-form-wrapper{
   background-color: #d9f1f3;
@@ -25,6 +22,13 @@
     margin-top: 0;
     margin-bottom:pxtoem(20px);
   }
+
+  .dropdown-white-background {
+    @include breakpoint(lg) {
+      width: 250px;
+    }
+  }
+
 }
 .asp-search-form-item:first-child{
   margin-left: 0;
@@ -32,8 +36,23 @@
 }
 
 .asp-search-form-item .btn-primary{
-  padding-top: .49em;
-  padding-bottom: .49em;
-  max-width: 280px;
   margin: 0 auto;
+  max-width: 280px;
+  min-width: 160px;
+  padding-bottom: .49em;
+  padding-top: .49em;
+
+  @include breakpoint(sm) {
+    margin-top: pxtoem(14px);
+  }
+}
+
+.asp-search-form-label {
+  text-align: center;
+  display: block;
+
+  @include breakpoint(lg) {
+    text-align: left;
+  }
+
 }

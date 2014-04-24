@@ -1,14 +1,15 @@
 .contactus-form{
   background-color: #f3f2eb;
   padding: pxtoem(50px) 3.29%;
-
+  margin-bottom: pxtoem(60px);
   @include breakpoint(md) {
-
+    margin-bottom: pxtoem(120px);
   }
 }
 
 .contactus-form p{
   color:$type-base-black;
+  text-align: left;
 }
 
 .contactus-formhead{

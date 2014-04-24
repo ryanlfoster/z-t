@@ -62,6 +62,17 @@
   margin-bottom: 0;
 }
 
+.type-h4-alternative {
+  @include type_TAheadline();
+  font-size: pxtoem($h3-size);
+  font-weight: normal;
+  color: $type-heading-colour;
+  margin-top: 0;
+  margin-bottom: pxtoem(15px);
+}
+
+
+
 .type-main-heading-colour {
   color: $type-main-heading-colour;
 }

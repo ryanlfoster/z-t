@@ -518,6 +518,17 @@
                     ,
                 
             
+                "paragraph_heading_h4" : {
+                     "data" : {
+                        "title" : "paragraph_heading_h4",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'paragraph_heading_h4'}}"
+                }
+                
+                    ,
+                
+            
                 "socialimage" : {
                      "data" : {
                         "title" : "socialimage",
@@ -618,6 +629,17 @@
                         "layout" : "styleguide-preview.hbs"
                     },
                     "content" : "{{section 'mosaic_highlights_grid_1'}}"
+                }
+                
+                    ,
+                
+            
+                "mosaic_highlights_grid_2" : {
+                     "data" : {
+                        "title" : "mosaic_highlights_grid_2",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'mosaic_highlights_grid_2'}}"
                 }
                 
                     ,
@@ -965,6 +987,17 @@
                     ,
                 
             
+                "share_icons" : {
+                     "data" : {
+                        "title" : "share_icons",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'share_icons'}}"
+                }
+                
+                    ,
+                
+            
                 "categorylinks" : {
                      "data" : {
                         "title" : "categorylinks",
@@ -1070,6 +1103,17 @@
                         "layout" : "styleguide-preview.hbs"
                     },
                     "content" : "{{section 'iframe'}}"
+                }
+                
+                    ,
+                
+            
+                "iframe_inline" : {
+                     "data" : {
+                        "title" : "iframe_inline",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'iframe_inline'}}"
                 }
                 
                     ,
@@ -1411,6 +1455,17 @@
                         "layout" : "styleguide-preview.hbs"
                     },
                     "content" : "{{section 'itineraryday_secondary'}}"
+                }
+                
+                    ,
+                
+            
+                "double_mosaic" : {
+                     "data" : {
+                        "title" : "double_mosaic",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'double_mosaic'}}"
                 }
                 
                     ,

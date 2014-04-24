@@ -32,10 +32,12 @@ import com.day.cq.wcm.api.WCMException;
 
 @Component(label = "Experience creation job", metatype = true)
 @Service
-@Properties({ @Property(name = "scheduler.expression", value = "0 * * * * ?"),
+@Properties({ @Property(name = "scheduler.expression", value = "0 0/30 * * * ?"),
 	@Property(name = "scheduler.concurrent", propertyPrivate = true, boolValue = false) })
 public class ExperienceCreationJob implements Runnable {
 	private static final Logger LOG = LoggerFactory.getLogger(ExperienceCreationJob.class);
+	private final int MAX_LENGTH_CQ_NAME = 64;
+	private ResourceResolver resourceResolver;
 	private Detector detector;
 
 	@Reference
@@ -43,12 +45,10 @@ public class ExperienceCreationJob implements Runnable {
 
 	@Override
 	public void run() {
-		ResourceResolver resourceResolver = null;
 		int article_found = 0;
 		int article_created = 0;
 		try {
 			resourceResolver = resourceResolverFactory.getAdministrativeResourceResolver(null);
-			PageManager pageManager = resourceResolver.adaptTo(PageManager.class);
 			String path = PathUtils.FOOD_AND_WINE_USER_GENERATED;
 			Resource resource = resourceResolver.getResource(path);
 			for (Resource res : resource.getChildren()) {
@@ -60,15 +60,18 @@ public class ExperienceCreationJob implements Runnable {
 					String articleParent = "/content/food-and-wine/experiences/"
 						+ StringUtils.lowerCase(Character.toString(businessName.charAt(0)));
 
-					String articlePath = articleParent + "/"
-						+ StringUtils.lowerCase(businessName.replaceAll("[\\s'&]", "-"));
+					// trim excess spaces
+					businessName = StringUtils.trim(businessName);
+					// replace all non word characters and spaces to dashes
+					businessName = StringUtils.lowerCase(businessName.replaceAll("[\\s\\W]", "-"));
+					// truncate long names to cq maximum name size limit
+					businessName = StringUtils.left(businessName, MAX_LENGTH_CQ_NAME);
 
+					String articlePath = articleParent + "/" + businessName;
 					Resource articleResource = resourceResolver.getResource(articlePath);
-
 					if (articleResource == null) {
-						// generateArticle(resourceResolver, pageManager,
-						// jcrContent, formProperties,
-						// StringUtils.trim(businessName), articleParent);
+						generateArticle(jcrContent, formProperties, businessName, articleParent);
+						LOG.info("Article created: " + articlePath);
 						article_created++;
 					} else {
 						article_found++;
@@ -76,17 +79,19 @@ public class ExperienceCreationJob implements Runnable {
 				}
 			}
 		} catch (Exception e) {
-			LOG.error("Error creating page from form");
+			LOG.error("Error creating article page from usergenerated content");
 		} finally {
 			if (resourceResolver != null && resourceResolver.isLive()) {
 				resourceResolver.close();
 			}
 		}
-		LOG.info("ExperienceCreationJob completed. " + article_found + "found, " + article_created + " created.");
+		LOG.info("Job completed. " + article_found + " found, " + article_created + " created");
 	}
 
-	private void generateArticle(ResourceResolver resourceResolver, PageManager pageManager, Resource res,
-		ValueMap formProperties, String businessName, String articleParent) throws WCMException, PersistenceException {
+	private void generateArticle(Resource res, ValueMap formProperties, String businessName, String articleParent)
+		throws WCMException, PersistenceException {
+
+		PageManager pageManager = resourceResolver.adaptTo(PageManager.class);
 		Page experiencePage = pageManager.create(articleParent, null, "/apps/foodandwine/templates/articlepage",
 			businessName, true);
 		Resource contentResource = experiencePage.getContentResource();

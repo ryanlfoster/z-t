@@ -51,10 +51,11 @@ public class GetLocationServlet extends SlingAllMethodsServlet {
 		Map<String, String> specHeader = getHeader(request);
 
 		if (specHeader != null) {
-			Iterator specHeaderIterator= specHeader.entrySet().iterator();
+			Iterator specHeaderIterator = specHeader.entrySet().iterator();
 			if (specHeaderIterator.hasNext()) {
-				Map.Entry<String, String> pairs = (Map.Entry)specHeaderIterator.next();
-				//System.out.println(pairs.getKey() + " = " + pairs.getValue());
+				Map.Entry<String, String> pairs = (Map.Entry) specHeaderIterator.next();
+				// System.out.println(pairs.getKey() + " = " +
+				// pairs.getValue());
 				if (StringUtils.equalsIgnoreCase(pairs.getKey(), AKAMAI_HEADER)) {
 					location = getLocationFromAkamai(pairs.getValue());
 				}

@@ -95,6 +95,7 @@
     vertical-align: bottom;
     padding: 0 1em 1em;
   }
+
   .search-tags1 {
     /* display: table-cell; */
     /* width: 200px; */
@@ -106,14 +107,10 @@
 
   @include breakpoint(lg){
     display: table-cell;
-    width: 200px;
+    width: 210px;
     vertical-align: bottom;
     text-align: right;
-    padding: 1em;
-    //padding: 1em 2em 2em;
-  }
-  @include breakpoint(xl){
-    width: 260px;
+    padding: 0 1em 1em 0;
   }
 }
 
@@ -123,6 +120,10 @@
     text-align: left;
     padding-left: 6em;
     //padding: 2em 2.5em 0 0 !important;
+  }
+  @include breakpoint(lg){
+    text-align: right;
+    padding-left: 0;
   }
 }
 

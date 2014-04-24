@@ -26,7 +26,7 @@ public class FAWSearch {
 	private final String link;
 	private final String pageDescription;
 	private final long totalSearchCount = 0;
-	private final String templateName;
+	private String templateName;
 	private String userName;
 	private String messagePosts;
 	private String postLink;
@@ -65,19 +65,25 @@ public class FAWSearch {
 		templateName = page.getTemplate().getName();
 
 		if (templateName.equals("facebookpage")) {
+			templateName= templateName.replace("page", "");
 			userName = properties.get("userName", "");
 			messagePosts = properties.get("postText", "");
 			postLink = LinkUtils.getHrefFromPath(properties.get("postLink", ""));
 		}
 		if (templateName.equals("twitterpage")) {
+			templateName= templateName.replace("page", "");
 			userName = properties.get("userName", "");
 			messagePosts = properties.get("tweet", "");
 			postLink = LinkUtils.getHrefFromPath(properties.get("postLink", ""));
 		}
 		if (templateName.equals("instagrampage")) {
+			templateName= templateName.replace("page", "");
 			userName = properties.get("userName", "");
 			messagePosts = properties.get("description", "");
 			postLink = LinkUtils.getHrefFromPath(properties.get("postLink", ""));
+		}
+		if (templateName.equals("articlepage")) {
+			templateName = null;
 		}
 
 	}

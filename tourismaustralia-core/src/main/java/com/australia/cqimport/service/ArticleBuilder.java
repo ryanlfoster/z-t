@@ -23,31 +23,44 @@ import com.day.cq.wcm.api.WCMException;
  * Created by Viren Pushpanayagam on 1/04/2014.
  */
 public class ArticleBuilder extends PageBuilder {
-	private static final Logger LOG = LoggerFactory.getLogger(ArticleBuilder.class);
-	private static final String TEMPLATE = "/apps/tourismaustralia/templates/cityState";
+    private static final Logger LOG = LoggerFactory.getLogger(StateCityBuilder.class);
+    private static final String TEMPLATE = "/apps/tourismaustralia/templates/article";
 
-	@Override
-	public void createPage(String oldPath, String newPath, String lang, ResourceResolver resourceResolver, boolean addMixin)
-		throws WCMException {
-		PageManager pageManager = resourceResolver.adaptTo(PageManager.class);
-		Page page = pageManager.getPage(PageBuilder.CRX_ROOT_PATH + newPath);
+    @Override
+    public void createPage(String oldPath, String newPath, String lang, ResourceResolver resourceResolver, boolean addMixin)
+            throws WCMException {
+        PageManager pageManager = resourceResolver.adaptTo(PageManager.class);
+        Page page = pageManager.getPage(PageBuilder.CRX_ROOT_PATH + newPath);
+        Map<String, Object> params = new HashMap<String, Object>();
 
-		Resource pageResource;
+        Resource pageResource;
 
-		if (page == null) {
-			LOG.debug("Importing: " + PageBuilder.CRX_ROOT_PATH + oldPath);
-			DefaultConsumerBaseFoundationService service = new DefaultConsumerBaseFoundationService();
-			ConsumerBaseFoundationType cbf = service.getByPath(oldPath);
+        if (page == null) {
+            LOG.debug("Importing: " + PageBuilder.CRX_ROOT_PATH + oldPath);
+            DefaultConsumerBaseFoundationService service = new DefaultConsumerBaseFoundationService();
+            ConsumerBaseFoundationType cbf = service.getByPath(oldPath);
 
-			page = pageManager.create(getPath(PageBuilder.CRX_ROOT_PATH + newPath, false),
-				getPath(PageBuilder.CRX_ROOT_PATH + newPath, true), TEMPLATE, null, true);
+            page = pageManager.create(getPath(PageBuilder.CRX_ROOT_PATH + newPath, false),
+                    getPath(PageBuilder.CRX_ROOT_PATH + newPath, true), TEMPLATE, null, true);
 
             pageResource = page.adaptTo(Resource.class);
             Resource jcrContentResource = pageResource.getChild(JcrConstants.JCR_CONTENT);
             Node pageNode = jcrContentResource.adaptTo(Node.class);
 
+            //Map<String, Object> params = new HashMap<String, Object>();
+            //params.put("fileReference", PageBuilder.CRX_DAM_PATH + cbf.getImgBackground());
+
+
             try {
                 pageNode.setProperty(JcrConstants.JCR_DESCRIPTION, cbf.getStfDescription());
+
+                params.put("fileReference", PageBuilder.CRX_DAM_PATH + cbf.getImgSearchThumbnail());
+                resourceResolver.create(jcrContentResource, "image", params);
+                resourceResolver.commit();
+
+                // Add the tags to the language
+                new TagHelper().addTagsToLanguage(resourceResolver,lang, newPath, cbf.getStfKeywords());
+
             } catch (Exception e) {
                 LOG.error(e.getMessage(), e);
             }
@@ -60,13 +73,14 @@ public class ArticleBuilder extends PageBuilder {
                 }
             }
 
-			createHero(page, resourceResolver, cbf);
-			createSummery(page, resourceResolver, cbf);
+            createHero(page, resourceResolver, cbf, addMixin);
+            createSummery(page, resourceResolver, cbf, addMixin);
 
-		}
-	}
+        }
+    }
 
-	private void createHero(Page page, ResourceResolver resourceResolver, ConsumerBaseFoundationType cbf) {
+    private void createHero(Page page, ResourceResolver resourceResolver, ConsumerBaseFoundationType cbf,
+                            boolean addMixin) {
         Resource pageResource = page.adaptTo(Resource.class);
         Resource jcrContentResource = pageResource.getChild(JcrConstants.JCR_CONTENT);
         try {
@@ -74,7 +88,7 @@ public class ArticleBuilder extends PageBuilder {
             Map<String, Object> params = new HashMap<String, Object>();
             params.put("title", cbf.getHdlTitle());
             params.put("altText", cbf.getStfImageLocation());
-            params.put("subTitle", cbf.getStfDescription());
+            //params.put("subTitle", cbf.getStfDescription());
             params.put(JcrResourceConstants.SLING_RESOURCE_TYPE_PROPERTY, "tourismaustralia/components/content/hero");
 
             Resource heroResource = resourceResolver.create(jcrContentResource, "hero", params);
@@ -91,9 +105,10 @@ public class ArticleBuilder extends PageBuilder {
             LOG.error(e.getMessage(), e);
         }
 
-	}
+    }
 
-	private void createSummery(Page page, ResourceResolver resourceResolver, ConsumerBaseFoundationType cbf) {
+    private void createSummery(Page page, ResourceResolver resourceResolver, ConsumerBaseFoundationType cbf,
+                               boolean addMixin) {
         Resource pageResource = page.adaptTo(Resource.class);
         Resource jcrContentResource = pageResource.getChild(JcrConstants.JCR_CONTENT);
         try {
@@ -111,5 +126,5 @@ public class ArticleBuilder extends PageBuilder {
             LOG.error(e.getMessage(), e);
         }
 
-	}
+    }
 }

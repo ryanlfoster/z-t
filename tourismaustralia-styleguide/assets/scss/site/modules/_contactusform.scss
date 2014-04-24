@@ -6,6 +6,11 @@
 
   }
 }
+
+.contactus-form p{
+  color:$type-base-black;
+}
+
 .contactus-formhead{
 
 }
@@ -16,15 +21,37 @@
 
 .contactus-formhead .col-sm-6 p{
   text-align: left;
+  margin-bottom: 0;
+  margin-top: 0;
   @include breakpoint(md) {
     text-align: right;
+    margin-bottom: 1em;
   }
 }
 
-.contactus-form form .inputFocus-wrapper,.contactus-form form select {
+.contactus-form form .inputFocus-wrapper,.contactus-form .dropdown-full-width {
   margin-bottom: pxtoem(18px);
 }
 
 .contactus-form .dropdown-white-background{
   width:100%;
+}
+.contactus-form .inputFocus-wrapper textarea{
+  height:pxtoem(200px);
+}
+
+.contactus-form .btn-primary{
+  padding-left:3em;
+  padding-right:3em;
+}
+
+.contactus-form-query-select p{
+margin: 0 ;
+}
+
+.contactus-form-button{
+  text-align: center;
+  @include breakpoint(md) {
+    text-align: right;
+  }
 }

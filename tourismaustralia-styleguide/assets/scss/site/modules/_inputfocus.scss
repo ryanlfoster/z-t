@@ -50,6 +50,7 @@ display:none;
 .inputFocus-wrapper textarea{
   padding:14px 10px;
   line-height: 1.2em;
+  resize: none;
   @include breakpoint(sm) {
     padding:14px;
   }

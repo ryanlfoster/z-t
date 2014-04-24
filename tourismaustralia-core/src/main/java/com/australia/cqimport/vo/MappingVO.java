@@ -4,7 +4,7 @@ package com.australia.cqimport.vo;
  * Created by Viren Pushpanayagam on 27/03/2014.
  */
 public class MappingVO {
-    private String oldPath,newPath,template;
+    private String oldPath, newPath, template;
 
     public String getOldPath() {
         return oldPath;

@@ -1,23 +1,20 @@
 package com.australia.cqimport.service;
 
-import java.util.HashMap;
-import java.util.Map;
-
-import javax.jcr.Node;
-import javax.jcr.RepositoryException;
-
-import org.apache.sling.api.resource.PersistenceException;
+import com.australia.cqimport.domain.ConsumerBaseFoundationType;
+import com.day.cq.commons.jcr.JcrConstants;
+import com.day.cq.wcm.api.Page;
+import com.day.cq.wcm.api.PageManager;
+import com.day.cq.wcm.api.WCMException;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ResourceResolver;
 import org.apache.sling.jcr.resource.JcrResourceConstants;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.australia.cqimport.domain.ConsumerBaseFoundationType;
-import com.day.cq.commons.jcr.JcrConstants;
-import com.day.cq.wcm.api.Page;
-import com.day.cq.wcm.api.PageManager;
-import com.day.cq.wcm.api.WCMException;
+import javax.jcr.Node;
+import javax.jcr.RepositoryException;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * Created by Viren Pushpanayagam on 1/04/2014.
@@ -59,7 +56,7 @@ public class ArticleBuilder extends PageBuilder {
                 resourceResolver.commit();
 
                 // Add the tags to the language
-                new TagHelper().addTagsToLanguage(resourceResolver,lang, newPath, cbf.getStfKeywords());
+                new TagHelper().addTagsToLanguage(resourceResolver, lang, newPath, cbf.getStfKeywords());
 
             } catch (Exception e) {
                 LOG.error(e.getMessage(), e);

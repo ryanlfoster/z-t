@@ -82,21 +82,24 @@
 <script src="js/src/helper/responsive.image.helper.js"></script>
 <script src="js/src/helper/navScroller.js"></script>
 
-<script src="js/vendor/ie-placeholder/customforms.js"></script>
+<!--[if lte IE 9]>
+    <script src="js/vendor/ie-placeholder/customforms.js"></script>
+    <script>
+        $(document).ready(function() {
+
+            //Hack for IE-9 to show placeholder
+            $('form').cstmForm({
+                active: 1,
+                text: {
+                    force: true
+                }
+            });
+        });
+    </script>
+<![endif]-->
+
 
 <script>
-
-
-    $(document).ready(function() {
-
-        //Hack for IE-8 to show placeholder
-        $('form').cstmForm({
-            active: 1,
-            text: {
-                force: true
-            }
-        });
-    });
 
     //Hack for mobile detection
     function checkPlatform() {

@@ -5,7 +5,8 @@
 
 <cq:includeClientLib js="faw-contributerslist"/>
 
-<div class='form-hero contributors-list-search' data-searchurl="${cl.searchPath}">
+<div class='form-hero'>
+<div class='faw-hero-home-container' data-searchurl="${cl.searchPath}">
         <h3 class="form-h3 l-padding-top-xs-2 l-padding-bottom-xs-0-5">Search our ${cl.totalExperiencesCount} contributers:</h3>
         <input class='input-field-blank input-field-big input-field-normal-left-border' placeholder="E.g. Cafe Sydney"/>
         <a href="#" class="btn-secondary btn-auto-size">Search</a>
@@ -34,29 +35,37 @@
 		</div>
 		<ul class="sorted-list-category">
 			<!-- item row -->
-			<c:forEach var="exp" items="${cl.searchResult.experiences}">
+			<c:forEach var="exp" items="${cl.searchResult.articleMap}">
+			<div class="row l-row-collapse">
+            <div class="col-xs-12">
+                <h2>${exp.key}</h2>
+            </div>
+        	</div>
+
+                <c:forEach var="list" items="${exp.value}">
 				<li class="sorted-list-item">
 					<ul class="row l-row-collapse">
 						<li class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
 							<p>
-								<a href="${exp.link}">${exp.title }</a>
+								${list.title }
 							</p>
 						</li>
 						<li class="col-xs-6 col-sm-4 col-md-3 l-display-none-sm">
 							<p>
-								${exp.primaryCategory}
+								${list.primaryCategory}
 							</p>
 						</li>
 						<li class="col-xs-0 col-sm-4 col-md-3 l-display-none-md">
 							<p>
-								${exp.state}
+								${list.state}
 							</p>
 						</li>
 						<li class="col-xs-0 col-sm-0 col-md-3 l-display-none-lg">
-							<a href="" target="_blank">Visit website</a>
+							<a href="${list.website}" target="_blank">Visit website</a>
 						</li>
 					</ul>
 				</li>
+  </c:forEach>
 			</c:forEach>
 		</ul>
 	</div>

@@ -3,6 +3,10 @@ package com.australia.foodandwine.experience.domain;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.jcr.Node;
+import javax.jcr.PathNotFoundException;
+import javax.jcr.RepositoryException;
+
 import org.apache.commons.lang.StringUtils;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ValueMap;
@@ -24,10 +28,12 @@ public class Experience {
 	private final String icon;
 	private final String primaryCategory;
 	private final String link;
+	private String website;
 
 	public Experience(Page page, TagManager tagManager) {
 		ValueMap properties = page.getProperties();
-		Resource jcrResource = page.adaptTo(Resource.class).getChild(JcrConstants.JCR_CONTENT);
+		Resource jcrResource = page.adaptTo(Resource.class).getChild(
+				JcrConstants.JCR_CONTENT);
 		Image image = new Image(jcrResource, "image");
 		if (image != null && image.hasContent()) {
 			imagePath = image.getPath() + ".img.jpg";
@@ -52,8 +58,23 @@ public class Experience {
 		// city
 		Tag cityTag = TagUtils.getCityTag(tagManager, cattags);
 		city = (cityTag != null ? cityTag.getTitle() : StringUtils.EMPTY);
-		Tag primaryCategoryTag = TagUtils.getFoodAndWinePrimaryCategory(tagManager, cattags);
-		primaryCategory = (primaryCategoryTag != null ? primaryCategoryTag.getTitle() : StringUtils.EMPTY);
+		Tag primaryCategoryTag = TagUtils.getFoodAndWinePrimaryCategory(
+				tagManager, cattags);
+		primaryCategory = (primaryCategoryTag != null ? primaryCategoryTag
+				.getTitle() : StringUtils.EMPTY);
+		Node node = (Node) page.adaptTo(Node.class);
+		try {
+			Node jcrNode = node.getNode(JcrConstants.JCR_CONTENT);
+			if(jcrNode.getNode("map").hasProperty("website"))
+			website ="http://" +jcrNode.getNode("map").getProperty("website").getValue()
+					.getString();
+
+		} catch (PathNotFoundException e) {
+			e.printStackTrace();
+		} catch (RepositoryException e) {
+			e.printStackTrace();
+		}
+
 	}
 
 	public String getImagePath() {
@@ -86,6 +107,10 @@ public class Experience {
 
 	public String getLink() {
 		return link;
+	}
+
+	public String getWebsite() {
+		return website;
 	}
 
 }

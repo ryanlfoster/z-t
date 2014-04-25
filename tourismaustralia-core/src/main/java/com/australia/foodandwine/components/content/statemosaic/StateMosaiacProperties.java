@@ -15,6 +15,15 @@ public class StateMosaiacProperties {
 	private String templateName;
 	private String userName,messageText,postLink;
 	private String linkChecker;
+	private String pageTemplate;
+	public String getPageTemplate() {
+		return pageTemplate;
+	}
+
+	public void setPageTemplate(String pageTemplate) {
+		this.pageTemplate = pageTemplate;
+	}
+
 	public String getLinkChecker() {
 		return linkChecker;
 	}

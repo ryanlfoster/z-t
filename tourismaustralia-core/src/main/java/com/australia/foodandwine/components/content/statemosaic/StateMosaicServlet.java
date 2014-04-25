@@ -78,6 +78,7 @@ public class StateMosaicServlet extends SlingAllMethodsServlet
 	private void process(SlingHttpServletRequest request,SlingHttpServletResponse response)   {
 		String stateTags=request.getParameter("stateTag").toLowerCase();
 		String flag=request.getParameter("flag");
+		String pageTemplate=request.getParameter("template");
 		if(flag.equals("default"))
 		{
 			limit=10;
@@ -192,6 +193,7 @@ public class StateMosaicServlet extends SlingAllMethodsServlet
 					bean.setPostLink(postLink);
 					bean.setUserName(userName);
 					bean.setLinkChecker(linkChecker);
+					bean.setPageTemplate(pageTemplate);
 					categoryTagName="";
 					propertiesList.add(bean);
 					

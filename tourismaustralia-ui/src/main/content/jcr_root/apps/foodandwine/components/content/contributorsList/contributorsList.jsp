@@ -43,7 +43,7 @@
         	</div>
 
                 <c:forEach var="list" items="${exp.value}">
-				<li class="sorted-list-item">
+				<a href="${list.link}"></a><li class="sorted-list-item">
 					<ul class="row l-row-collapse">
 						<li class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
 							<p>
@@ -64,7 +64,7 @@
 							<a href="${list.website}" target="_blank">Visit website</a>
 						</li>
 					</ul>
-				</li>
+				</li></a>
   </c:forEach>
 			</c:forEach>
 		</ul>

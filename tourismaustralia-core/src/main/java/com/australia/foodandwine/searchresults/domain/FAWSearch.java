@@ -25,13 +25,13 @@ public class FAWSearch {
 	private final String primaryCategory;
 	private final String link;
 	private final String pageDescription;
-	private final long totalSearchCount = 0;
+	private final long totalSearchCount;
 	private String templateName;
 	private String userName;
 	private String messagePosts;
 	private String postLink;
 
-	public FAWSearch(Page page, TagManager tagManager) {
+	public FAWSearch(long totalSearchCount ,Page page, TagManager tagManager) {
 		ValueMap properties = page.getProperties();
 		Resource jcrResource = page.adaptTo(Resource.class).getChild(JcrConstants.JCR_CONTENT);
 		Image image = new Image(jcrResource, "image");
@@ -85,6 +85,7 @@ public class FAWSearch {
 		if (templateName.equals("articlepage")) {
 			templateName = null;
 		}
+		this.totalSearchCount = totalSearchCount;
 
 	}
 

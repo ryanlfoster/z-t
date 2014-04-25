@@ -16,6 +16,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.australia.foodandwine.components.content.carousel.CarouselProperties;
+import com.australia.foodandwine.experience.domain.ExperienceSearchParametersBuilder;
 import com.australia.foodandwine.searchresults.domain.FAWSearch;
 import com.australia.foodandwine.searchresults.domain.FAWSearchParametersBuilder;
 import com.australia.foodandwine.searchresults.domain.FAWSearchResult;
@@ -83,6 +84,7 @@ public class SearchServlet extends SlingAllMethodsServlet {
 				fawSearchList = searchResult.getFawSearchList();
 			
 			}
+			
 		} catch (Exception e) {
 			LOG.error("Error in SearchServlet", e);
 		}

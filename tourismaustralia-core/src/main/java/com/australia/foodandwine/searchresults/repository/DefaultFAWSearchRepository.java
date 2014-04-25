@@ -97,19 +97,20 @@ public class DefaultFAWSearchRepository implements FAWSearchRepository {
 			queryMap.put(QueryUtils.LIMIT, Long.toString(parameters.getPage() * parameters.getCount()));
 			Query query = builder.createQuery(PredicateGroup.create(queryMap), session);
 			result = query.getResult();
+			long totalMatches = result.getTotalMatches();
 			for (Hit hit : result.getHits()) {
 				try {
 					if (hit.getPath() != null) {
 						Page page = pageManager.getPage(hit.getPath());
 						if (page != null) {
-							fawSearchesList.add(new FAWSearch(page, tagManager));
+							fawSearchesList.add(new FAWSearch(totalMatches, page, tagManager));
 						}
 					}
 				} catch (RepositoryException e) {
 					LOG.error("Error creating story", e);
 				}
 			}
-			return new FAWSearchResult(fawSearchesList, result.getTotalMatches(), parameters.getPage());
+			return new FAWSearchResult(fawSearchesList, totalMatches, parameters.getPage());
 
 		} catch (Exception e) {
 			LOG.error("Error searching for ATDW Products", e);

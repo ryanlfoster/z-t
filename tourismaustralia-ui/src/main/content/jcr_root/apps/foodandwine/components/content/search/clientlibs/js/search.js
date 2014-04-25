@@ -17,8 +17,11 @@ var location = $('#stateDropdown').find('option:selected').val();
         	counter : counter
         },
         success : function(msg) {
-           
-        	var articleCount = msg.length;
+        	var articleCount;
+        	for(var i=0;i<msg.length;i++){
+        		 articleCount=  msg[i].totalSearchCount;
+             }
+        	
            var data;
            var obj;
            data = JSON.stringify(msg);
@@ -52,9 +55,14 @@ var location = $('#stateDropdown').find('option:selected').val();
 			var template = Handlebars.compile(source);
 			$(".mosaic").empty();
             $(".mosaic").append(template(obj));
+            if(articleCount===undefined){
+            	articleCount = 0;
+            }
             $(".faw-hero-home-container .form-h3").html(""+articleCount+" Search results for: <strong>"+searchParameter+"</strong>");
 
-            if(articleCount >9){
+            if(articleCount < 10){
+            	$(".type-spacing-120 .btn-secondary").hide();
+            }else{
             	$(".type-spacing-120 .btn-secondary").show();
             }
         },
@@ -86,15 +94,23 @@ var source = $("#searchMosaic").html();
         success : function(msg) {
         	 var data;
              var obj;
-            var articleCount = msg.length;
+            var articleCount;
              data = JSON.stringify(msg);
-             data=data.replace(/\[/g,"");
+             data = data.replace(/\[/g,"");
            	 data=data.replace(/\]/g,"");
              data="{searchResults:["+data+"]}";
              obj=eval('('+data+')');
              var template = Handlebars.compile(source);
              $(".mosaic").append(template(obj));
-            $(".faw-hero-home-container .form-h3").html(""+articleCount+" Search results for: <strong>"+searchParameter+"</strong>");
+             if(articleCount===undefined){
+             	articleCount = 0;
+             }
+            if(articleCount < 10){
+            	$(".type-spacing-120 .btn-secondary").hide();
+            }else{
+            	$(".type-spacing-120 .btn-secondary").show();
+            }
+        
         },
         error : function(xhr) {
             console.log("in error");

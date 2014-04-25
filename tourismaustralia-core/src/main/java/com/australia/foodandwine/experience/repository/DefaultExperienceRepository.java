@@ -122,7 +122,9 @@ public class DefaultExperienceRepository implements ExperienceRepository {
 								articleTitle = page.getParent().getName();
 							}
 								alphabet = page.getParent().getTitle();
-							if (alphabet == null ) {
+							if (alphabet != null) {
+								alphabet = page.getParent().getName();
+							}else{
 								alphabet = page.getTitle();
 								alphabet =Character.toString(alphabet.charAt(0));
 							}

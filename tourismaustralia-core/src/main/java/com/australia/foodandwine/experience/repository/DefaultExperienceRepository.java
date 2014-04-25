@@ -131,7 +131,13 @@ public class DefaultExperienceRepository implements ExperienceRepository {
 										.getPath()
 										.equals("/apps/foodandwine/templates/articlepage")) {
 							String articleTitle = page.getTitle();
+							if(articleTitle.equals("") || null !=articleTitle ){
+								articleTitle=page.getParent().getName();
+							}
 							String alphabet = page.getParent().getTitle();
+							if(alphabet.equals("") || null !=alphabet ){
+								alphabet=page.getParent().getName();
+							}
 							char charAt = articleTitle.charAt(0);
 							String charecter = Character.toString(charAt);
 							if (alphabet.equalsIgnoreCase(charecter)) {

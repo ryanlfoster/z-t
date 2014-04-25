@@ -62,7 +62,7 @@
 
     <span class="mosaic-item-overlay mosaic-item-overlay-info">
          <span class="mosaic-item-overlay-info-icon">
-             <span class="mosaic-item-overlay-info-head type-font-feature">{{title}}<br/>shed</span>
+             <span class="mosaic-item-overlay-info-head type-font-feature">{{title}}</span>
               <span class="mosaic-item-overlay-info-icon-item">
                  <img src="{{icon}}" alt="">
              </span>
@@ -145,7 +145,7 @@
 
     <span class="mosaic-item-overlay mosaic-item-overlay-info">
          <span class="mosaic-item-overlay-info-icon">
-             <span class="mosaic-item-overlay-info-head type-font-feature">{{title}}<br/>shed</span>
+             <span class="mosaic-item-overlay-info-head type-font-feature">{{title}}</span>
               <span class="mosaic-item-overlay-info-icon-item">
                  <img src="{{categoryLogo}}" alt="">
              </span>
@@ -223,7 +223,7 @@
 
     <span class="mosaic-item-overlay mosaic-item-overlay-info">
          <span class="mosaic-item-overlay-info-icon">
-             <span class="mosaic-item-overlay-info-head type-font-feature">{{title}}<br/>shed</span>
+             <span class="mosaic-item-overlay-info-head type-font-feature">{{title}}</span>
               <span class="mosaic-item-overlay-info-icon-item">
                  <img src="{{categoryLogo}}" alt="">
              </span>
@@ -300,7 +300,7 @@
 
     <span class="mosaic-item-overlay mosaic-item-overlay-info">
          <span class="mosaic-item-overlay-info-icon">
-             <span class="mosaic-item-overlay-info-head type-font-feature">{{title}}<br/>shed</span>
+             <span class="mosaic-item-overlay-info-head type-font-feature">{{title}}</span>
               <span class="mosaic-item-overlay-info-icon-item">
                  <img src="{{categoryLogo}}" alt="">
              </span>
@@ -379,7 +379,7 @@
 
     <span class="mosaic-item-overlay mosaic-item-overlay-info">
          <span class="mosaic-item-overlay-info-icon">
-             <span class="mosaic-item-overlay-info-head type-font-feature">{{title}}<br/>shed</span>
+             <span class="mosaic-item-overlay-info-head type-font-feature">{{title}}</span>
               <span class="mosaic-item-overlay-info-icon-item">
                  <img src="{{icon}}" alt="">
              </span>
@@ -466,7 +466,7 @@
 
     <span class="mosaic-item-overlay mosaic-item-overlay-info">
          <span class="mosaic-item-overlay-info-icon">
-             <span class="mosaic-item-overlay-info-head type-font-feature">{{title}}<br/>shed</span>
+             <span class="mosaic-item-overlay-info-head type-font-feature">{{title}}</span>
               <span class="mosaic-item-overlay-info-icon-item">
                  <img src="{{icon}}" alt="">
              </span>
@@ -542,7 +542,7 @@
 
     <span class="mosaic-item-overlay mosaic-item-overlay-info">
          <span class="mosaic-item-overlay-info-icon">
-             <span class="mosaic-item-overlay-info-head type-font-feature">{{title}}<br/>shed</span>
+             <span class="mosaic-item-overlay-info-head type-font-feature">{{title}}</span>
               <span class="mosaic-item-overlay-info-icon-item">
                  <img src="{{icon}}" alt="">
              </span>
@@ -702,7 +702,7 @@
 
     <span class="mosaic-item-overlay mosaic-item-overlay-info">
          <span class="mosaic-item-overlay-info-icon">
-             <span class="mosaic-item-overlay-info-head type-font-feature">{{title}}<br/>shed</span>
+             <span class="mosaic-item-overlay-info-head type-font-feature">{{title}}</span>
               <span class="mosaic-item-overlay-info-icon-item">
                  <img src="{{icon}}" alt="">
              </span>
@@ -779,7 +779,7 @@
 
     <span class="mosaic-item-overlay mosaic-item-overlay-info">
          <span class="mosaic-item-overlay-info-icon">
-             <span class="mosaic-item-overlay-info-head type-font-feature">{{title}}<br/>shed</span>
+             <span class="mosaic-item-overlay-info-head type-font-feature">{{title}}</span>
               <span class="mosaic-item-overlay-info-icon-item">
                  <img src="{{icon}}" alt="">
              </span>

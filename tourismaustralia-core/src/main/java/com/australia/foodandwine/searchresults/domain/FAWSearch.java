@@ -29,9 +29,12 @@ public class FAWSearch {
 	private String templateName;
 	private String userName;
 	private String messagePosts;
-	private String postLink;
+	private String postLink=StringUtils.EMPTY;
+	private String linkChecker;
+	private String socialIconsWhite;
+	private String socialIconsBlack;
 
-	public FAWSearch(long totalSearchCount ,Page page, TagManager tagManager) {
+	public FAWSearch(long totalSearchCount, Page page, TagManager tagManager) {
 		ValueMap properties = page.getProperties();
 		Resource jcrResource = page.adaptTo(Resource.class).getChild(JcrConstants.JCR_CONTENT);
 		Image image = new Image(jcrResource, "image");
@@ -65,28 +68,43 @@ public class FAWSearch {
 		templateName = page.getTemplate().getName();
 
 		if (templateName.equals("facebookpage")) {
-			templateName= templateName.replace("page", "");
+			templateName = templateName.replace("page", "");
 			userName = properties.get("userName", "");
 			messagePosts = properties.get("postText", "");
 			postLink = LinkUtils.getHrefFromPath(properties.get("postLink", ""));
+			socialIconsWhite = "/etc/designs/foodandwine/clientlibs/imgs/base/share/share-fb-white.png";
+			socialIconsBlack = "/etc/designs/foodandwine/clientlibs/imgs/base/share/share-fb-black.png";
 		}
 		if (templateName.equals("twitterpage")) {
-			templateName= templateName.replace("page", "");
+			templateName = templateName.replace("page", "");
 			userName = properties.get("userName", "");
 			messagePosts = properties.get("tweet", "");
 			postLink = LinkUtils.getHrefFromPath(properties.get("postLink", ""));
+			socialIconsWhite = "/etc/designs/foodandwine/clientlibs/imgs/base/share/share-twitter-white.png";
+			socialIconsBlack = "/etc/designs/foodandwine/clientlibs/imgs/base/share/share-twitter-black.png";
 		}
 		if (templateName.equals("instagrampage")) {
-			templateName= templateName.replace("page", "");
+			templateName = templateName.replace("page", "");
 			userName = properties.get("userName", "");
 			messagePosts = properties.get("description", "");
 			postLink = LinkUtils.getHrefFromPath(properties.get("postLink", ""));
+			socialIconsWhite = "/etc/designs/foodandwine/clientlibs/imgs/base/share/share-instagram-white.png";
+			socialIconsBlack = "/etc/designs/foodandwine/clientlibs/imgs/base/share/share-instagram-black.png";
 		}
 		if (templateName.equals("articlepage")) {
 			templateName = null;
 		}
+		if (postLink.endsWith(".html")) {
+			linkChecker = "true";
+		} else {
+			linkChecker = null;
+		}
 		this.totalSearchCount = totalSearchCount;
 
+	}
+
+	public String getLinkChecker() {
+		return linkChecker;
 	}
 
 	public String getImagePath() {
@@ -143,6 +161,14 @@ public class FAWSearch {
 
 	public String getPostLink() {
 		return postLink;
+	}
+
+	public String getSocialIconsWhite() {
+		return socialIconsWhite;
+	}
+
+	public String getSocialIconsBlack() {
+		return socialIconsBlack;
 	}
 
 }

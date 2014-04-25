@@ -190,6 +190,9 @@ public class StateMosaicServlet extends SlingAllMethodsServlet
 		} catch (RepositoryException e) {
 			LOG.error("Exception in query execution {0}",e.getMessage());
 		} 
+		catch (Exception e) {
+			LOG.error("Exception in general execution"+e.getMessage());
+		}
 		response.setContentType("application/json");
 		response.setCharacterEncoding("UTF-8");
 		JsonGenerator generator;

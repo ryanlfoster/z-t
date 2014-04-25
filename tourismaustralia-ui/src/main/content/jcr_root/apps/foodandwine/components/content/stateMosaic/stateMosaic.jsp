@@ -118,7 +118,7 @@ $(document).ready(function(){
 	{{#compare @index 0 operator="=="}} 
 	{{#if templateName}}
         <div class="col-xs-12 col-md-6">
-            <a href="{{pagePath}}" title="" class="mosaic-item">
+            <a href="{{postLink}}" title="" class="mosaic-item" target="_blank">
     		<img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
     		<span class="mosaic-item-description">
         		<span class="mosaic-item-description-head type-font-feature">{{title}}</span>
@@ -195,7 +195,7 @@ $(document).ready(function(){
 {{#compare @index 1 operator="=="}} 
 {{#if templateName}}
                 <div class="col-xs-12 col-sm-6">
-                    <a href="{{pagePath}}" title="" class="mosaic-item">
+                    <a href="{{postLink}}" title="" class="mosaic-item" target="_blank">
     <img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
 
     <span class="mosaic-item-description">
@@ -276,7 +276,7 @@ $(document).ready(function(){
 {{#compare @index 2 operator="=="}}
 {{#if templateName}}
                 <div class="col-xs-12 col-sm-6">
-                    <a href="{{pagePath}}" title="" class="mosaic-item">
+                    <a href="{{postLink}}" title="" class="mosaic-item" target="_blank">
     <img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
 
     <span class="mosaic-item-description">
@@ -353,7 +353,7 @@ $(document).ready(function(){
 {{#compare @index 3 operator="=="}}
 {{#if templateName}}
     <div class="col-xs-12 col-sm-6 ">
-<a href="{{pagePath}}" title="" class="mosaic-item">
+<a href="{{postLink}}" title="" class="mosaic-item" target="_blank">
     <img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
 
     <span class="mosaic-item-description">
@@ -431,7 +431,7 @@ $(document).ready(function(){
 
 {{#if templateName}}
 <div class="col-xs-12 col-sm-6 ">
-<a href="{{pagePath}}" title="" class="mosaic-item">
+<a href="{{postLink}}" title="" class="mosaic-item" target="_blank">
     <img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
 
     <span class="mosaic-item-description">
@@ -517,8 +517,8 @@ $(document).ready(function(){
 
 {{#compare @index 5 operator="=="}} 
  {{#if templateName}}
-<div class="col-xs-12 col-sm-6 col-md-12 mosaic-ie-100">
-<a href="{{pagePath}}" title="" class="mosaic-item">
+<div class="col-xs-12 col-sm-6 col-md-12 mosaic-ie-100" target="_blank">
+<a href="{{postLink}}" title="" class="mosaic-item">
     <img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
     <span class="mosaic-item-description">
                  <span class="mosaic-item-description-head type-font-feature">{{title}}</span>
@@ -550,7 +550,7 @@ $(document).ready(function(){
                 </div>
       {{else}}
 <div class="col-xs-12 col-sm-6 col-md-12 mosaic-ie-100">
-<a href="{{pagePath}}" class="mosaic-item"  title="">
+<a href="{{pagePath}}" class="mosaic-item"  title="" >
     <img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
 
     <span class="mosaic-item-description">
@@ -597,7 +597,7 @@ $(document).ready(function(){
                  {{#compare @index 6 operator="=="}} 
 {{#if templateName}}
                 <div class="col-xs-12 col-sm-6 col-md-12 mosaic-ie-100">
-<a href="{{pagePath}}" title="" class="mosaic-item">
+<a href="{{postLink}}" title="" class="mosaic-item" target="_blank">
     <img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
     <span class="mosaic-item-description">
                  <span class="mosaic-item-description-head type-font-feature">{{title}}</span>
@@ -680,7 +680,7 @@ $(document).ready(function(){
 {{#if templateName}}
 
         <div class="col-xs-12 col-md-6">
-            <a href="{{pagePath}}" title="" class="mosaic-item">
+            <a href="{{postLink}}" title="" class="mosaic-item" target="_blank">
     		<img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
     		<span class="mosaic-item-description">
         		<span class="mosaic-item-description-head type-font-feature">{{title}}</span>
@@ -768,7 +768,7 @@ $(document).ready(function(){
 {{#if templateName}}
 
 <div class="col-xs-12 col-sm-6 col-md-12 mosaic-ie-100">
-<a href="{{pagePath}}" title="" class="mosaic-item">
+<a href="{{postLink}}" title="" class="mosaic-item" target="_blank">
     <img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
     <span class="mosaic-item-description">
                  <span class="mosaic-item-description-head type-font-feature">{{title}}</span>
@@ -849,7 +849,7 @@ $(document).ready(function(){
 {{#if templateName}}
 
 <div class="col-xs-12 col-sm-6 col-md-12 mosaic-ie-100">
-<a href="{{pagePath}}" title="" class="mosaic-item">
+<a href="{{postLink}}" title="" class="mosaic-item" target="_blank">
     <img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
     <span class="mosaic-item-description">
                  <span class="mosaic-item-description-head type-font-feature">{{title}}</span>

@@ -138,9 +138,9 @@ $(document).ready(function(){
     		<span class="mosaic-item-overlay mosaic-item-overlay-share">
          		<span class="mosaic-item-overlay-share-container">
              		<span class="mosaic-item-overlay-share-copy">
-                		Looking forward AS ALWAYS to seeing you all @eveleighmarket @carriageworks tomorrow! All you need is an empty basket to fill with...
+                		{{messageText}}
               			<br><br>
-              			<strong>kylie_kwong on {{templateName}}</strong>
+              			<strong>{{userName}} on {{templateName}}</strong>
             		</span>
         		</span>
     		</span>
@@ -217,9 +217,9 @@ $(document).ready(function(){
     		<span class="mosaic-item-overlay mosaic-item-overlay-share">
          		<span class="mosaic-item-overlay-share-container">
              		<span class="mosaic-item-overlay-share-copy">
-                		Looking forward AS ALWAYS to seeing you all @eveleighmarket @carriageworks tomorrow! All you need is an empty basket to fill with...
+                		{{messageText}}
               			<br><br>
-              			<strong>kylie_kwong on {{templateName}}</strong>
+              			<strong>{{userName}} on {{templateName}}</strong>
             		</span>
         		</span>
     		</span>
@@ -298,9 +298,9 @@ $(document).ready(function(){
     		<span class="mosaic-item-overlay mosaic-item-overlay-share">
          		<span class="mosaic-item-overlay-share-container">
              		<span class="mosaic-item-overlay-share-copy">
-                		Looking forward AS ALWAYS to seeing you all @eveleighmarket @carriageworks tomorrow! All you need is an empty basket to fill with...
+                		{{messageText}}
               			<br><br>
-              			<strong>kylie_kwong on {{templateName}}</strong>
+              			<strong>{{userName}} on {{templateName}}</strong>
             		</span>
         		</span>
     		</span>
@@ -374,9 +374,9 @@ $(document).ready(function(){
        <span class="mosaic-item-overlay mosaic-item-overlay-share">
          <span class="mosaic-item-overlay-share-container">
              <span class="mosaic-item-overlay-share-copy">
-                Looking forward AS ALWAYS to seeing you all @eveleighmarket @carriageworks tomorrow! All you need is an empty basket to fill with...
-              <br><br>
-              <strong>kylie_kwong on {{templateName}}</strong>
+                {{messageText}}
+              			<br><br>
+              			<strong>{{userName}} on {{templateName}}</strong>
             </span>
         </span>
     </span>
@@ -452,9 +452,9 @@ $(document).ready(function(){
        <span class="mosaic-item-overlay mosaic-item-overlay-share">
          <span class="mosaic-item-overlay-share-container">
              <span class="mosaic-item-overlay-share-copy">
-                Looking forward AS ALWAYS to seeing you all @eveleighmarket @carriageworks tomorrow! All you need is an empty basket to fill with...
-              <br><br>
-              <strong>kylie_kwong on {{templateName}}</strong>
+                {{messageText}}
+              			<br><br>
+              			<strong>{{userName}} on {{templateName}}</strong>
             </span>
         </span>
     </span>
@@ -539,9 +539,9 @@ $(document).ready(function(){
     <span class="mosaic-item-overlay mosaic-item-overlay-share">
          <span class="mosaic-item-overlay-share-container">
              <span class="mosaic-item-overlay-share-copy">
-                Looking forward AS ALWAYS to seeing you all @eveleighmarket @carriageworks tomorrow! All you need is an empty basket to fill with...
-              <br><br>
-              <strong>kylie_kwong on {{templateName}}</strong>
+                {{messageText}}
+              			<br><br>
+              			<strong>{{userName}} on {{templateName}}</strong>
             </span>
         </span>
     </span>
@@ -618,9 +618,9 @@ $(document).ready(function(){
     <span class="mosaic-item-overlay mosaic-item-overlay-share">
          <span class="mosaic-item-overlay-share-container">
              <span class="mosaic-item-overlay-share-copy">
-                Looking forward AS ALWAYS to seeing you all @eveleighmarket @carriageworks tomorrow! All you need is an empty basket to fill with...
-              <br><br>
-              <strong>kylie_kwong on {{templateName}}</strong>
+                {{messageText}}
+              			<br><br>
+              			<strong>{{userName}} on {{templateName}}</strong>
             </span>
         </span>
     </span>
@@ -700,9 +700,9 @@ $(document).ready(function(){
     		<span class="mosaic-item-overlay mosaic-item-overlay-share">
          		<span class="mosaic-item-overlay-share-container">
              		<span class="mosaic-item-overlay-share-copy">
-                		Looking forward AS ALWAYS to seeing you all @eveleighmarket @carriageworks tomorrow! All you need is an empty basket to fill with...
+                		{{messageText}}
               			<br><br>
-              			<strong>kylie_kwong on {{templateName}}</strong>
+              			<strong>{{userName}} on {{templateName}}</strong>
             		</span>
         		</span>
     		</span>
@@ -789,9 +789,9 @@ $(document).ready(function(){
     <span class="mosaic-item-overlay mosaic-item-overlay-share">
          <span class="mosaic-item-overlay-share-container">
              <span class="mosaic-item-overlay-share-copy">
-                Looking forward AS ALWAYS to seeing you all @eveleighmarket @carriageworks tomorrow! All you need is an empty basket to fill with...
-              <br><br>
-              <strong>kylie_kwong on {{templateName}}</strong>
+				{{messageText}}
+              			<br><br>
+              			<strong>{{userName}} on {{templateName}}</strong>
             </span>
         </span>
     </span>
@@ -870,9 +870,9 @@ $(document).ready(function(){
     <span class="mosaic-item-overlay mosaic-item-overlay-share">
          <span class="mosaic-item-overlay-share-container">
              <span class="mosaic-item-overlay-share-copy">
-                Looking forward AS ALWAYS to seeing you all @eveleighmarket @carriageworks tomorrow! All you need is an empty basket to fill with...
-              <br><br>
-              <strong>kylie_kwong on {{templateName}}</strong>
+               {{messageText}}
+              			<br><br>
+              			<strong>{{userName}} on {{templateName}}</strong>
             </span>
         </span>
     </span>
@@ -1022,7 +1022,7 @@ $(document).ready(function(){
     <!-- END: FOOD MOSAIC CATEGORY ITEM -->
 
     <!-- FOOD MOSAIC CATEGORY ITEM -->
-    <input id="category-restaurants" type="checkbox" class="category-input" value="restaurants">
+    <input id="category-restaurants" type="checkbox" class="category-input" value="restaurant">
     <label for="category-restaurants">
     	<div class="category-item" id="category-restaurants">
             <span class="icon-round is-active">

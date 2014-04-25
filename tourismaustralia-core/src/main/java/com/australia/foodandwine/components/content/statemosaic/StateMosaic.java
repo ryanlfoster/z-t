@@ -36,7 +36,8 @@ public class StateMosaic {
 		// TODO: Load first set server side so it can be indexed by google
 		PageManager pageManager = request.getResourceResolver().adaptTo(PageManager.class);
 		Page currentPage = pageManager.getContainingPage(request.getResource());
-		template = currentPage.getTemplate().getName();
+		if(currentPage!=null)
+			template = currentPage.getTemplate().getName();
 		ValueMap properties = request.getResource().adaptTo(ValueMap.class);
 		topText = properties.get("topText", StringUtils.EMPTY);
 		centerText = properties.get("centerText", StringUtils.EMPTY);

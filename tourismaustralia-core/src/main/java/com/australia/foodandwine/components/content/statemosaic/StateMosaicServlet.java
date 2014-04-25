@@ -61,6 +61,7 @@ public class StateMosaicServlet extends SlingAllMethodsServlet
 	private  long limit=10,offset=0;
 	private String[] categoryTags;
 	private String cityTagName,stateTitle;
+	private String userName,messageText,postLink;
 	
 
 	@Override
@@ -90,11 +91,22 @@ public class StateMosaicServlet extends SlingAllMethodsServlet
 		TagManager tagManager = request.getResourceResolver().adaptTo(TagManager.class);
 		PageManager pageManager = request.getResourceResolver().adaptTo(PageManager.class);
 		Session session = request.getResourceResolver().adaptTo(Session.class);
+		if(categoryTags.length<=1)
+			queryString="SELECT * FROM [nt:base] AS s WHERE ISDESCENDANTNODE([/content/food-and-wine]) and [cq:tags] like '%"+stateTags.trim()+"%' and( [cq:tags] like '%/"+categoryTags[0].trim()+"%')" +
+					"and ([cq:template]  LIKE '%/apps/foodandwine/templates/articlepage%' or[cq:template]  LIKE '%/apps/foodandwine/templates/facebookpage%'" +
+					"or [cq:template]  LIKE '%/apps/foodandwine/templates/twitterpage%' or [cq:template]  LIKE '%/apps/foodandwine/templates/instagrampage%')";
+		else
+		queryString="SELECT * FROM [nt:base] AS s WHERE ISDESCENDANTNODE([/content/food-and-wine]) and [cq:tags] like '%"+stateTags.trim()+"%' and( [cq:tags] like '%/"+categoryTags[0].trim()+"%'";
 		try {
 			QueryManager queryManager = session.getWorkspace().getQueryManager();
 			propertiesList=new LinkedList<StateMosaiacProperties>();
-			for(String s:categoryTags){
-				queryString="SELECT * FROM [nt:base] AS s WHERE ISDESCENDANTNODE([/content/food-and-wine]) and ([cq:tags] like '%/"+s.trim()+"%' and [cq:tags] like '%"+stateTags.trim()+"%')";
+			for(int i=1;i<categoryTags.length;i++ ){
+				queryString+="or [cq:tags] like '%/"+categoryTags[i]+"%' ";
+				if(i==categoryTags.length-1)
+					queryString+=")";
+				}
+			queryString+="and ([cq:template]  LIKE '%/apps/foodandwine/templates/articlepage%' or[cq:template]  LIKE '%/apps/foodandwine/templates/facebookpage%'" +
+					"or [cq:template]  LIKE '%/apps/foodandwine/templates/twitterpage%' or [cq:template]  LIKE '%/apps/foodandwine/templates/instagrampage%')";
 				Query query = queryManager.createQuery(queryString,Query.JCR_SQL2);
 				query.setOffset(offset);
 				query.setLimit(limit);
@@ -114,7 +126,6 @@ public class StateMosaicServlet extends SlingAllMethodsServlet
 					List<Tag> categoryTagList = TagUtils.getFoodAndWineCategoryTags(tagManager, tagsArray);
 					loop:for(Tag tag:categoryTagList)
 					{   
-						
 							
 						if(!categoryTagName.equals(""))
 							categoryTagName+=", ";
@@ -133,10 +144,31 @@ public class StateMosaicServlet extends SlingAllMethodsServlet
 					if(cityTag!=null)
 						cityTagName=cityTag.getTitle().toString()+","+stateTitle;
 					String templateName = articlePage.getTemplate().getName();
-					if(!templateName.equals("facebookpage") && (!templateName.equals("instagrampagepage")) && (!templateName.equals("twitterpage")))
+					if(!templateName.equals("facebookpage") && (!templateName.equals("instagrampage")) && (!templateName.equals("twitterpage")))
 						templateName=null;
 					else
+					{
+						if(templateName.equals("facebookpage"))
+						{
+							userName=pageProperties.get("userName",StringUtils.EMPTY);
+							messageText=pageProperties.get("postText",StringUtils.EMPTY);
+							postLink=pageProperties.get("postLink",StringUtils.EMPTY);
+						}
+						if(templateName.equals("twitterpage"))
+						{
+							userName=pageProperties.get("userName",StringUtils.EMPTY);
+							messageText=pageProperties.get("tweet",StringUtils.EMPTY);
+							postLink=pageProperties.get("postLink",StringUtils.EMPTY);
+						}
+						if(templateName.equals("instagrampage"))
+						{
+							userName=pageProperties.get("userName",StringUtils.EMPTY);
+							messageText=pageProperties.get("description",StringUtils.EMPTY);
+							postLink=pageProperties.get("postLink",StringUtils.EMPTY);
+						}
 						templateName=templateName.replace("page", "");
+						
+					}
 					String title = articlePage.getTitle();
 					String description=articlePage.getDescription();
 					String pagePth=LinkUtils.getHrefFromPath(articlePage.getPath());
@@ -147,14 +179,20 @@ public class StateMosaicServlet extends SlingAllMethodsServlet
 						image = pageImage.getPath() + ".img.jpg";
 					}
 					StateMosaiacProperties bean=new  StateMosaiacProperties(title,description,image,pagePth,stateTitle,categoryTagName,cityTagName,categoryLogo,templateName);
+					bean.setMessageText(messageText);
+					bean.setPostLink(postLink);
+					bean.setUserName(userName);
 					categoryTagName="";
 					propertiesList.add(bean);
 					
 				}
-			}
+			
 		} catch (RepositoryException e) {
 			LOG.error("Exception in query execution {0}",e.getMessage());
 		} 
+		catch (Exception e) {
+			LOG.error("Exception in general execution"+e.getMessage());
+		}
 		response.setContentType("application/json");
 		response.setCharacterEncoding("UTF-8");
 		JsonGenerator generator;

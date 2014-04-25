@@ -82,7 +82,7 @@
 					<a href="${fn:replace(cl.paginationPath,'{0}',replacement)}" class="btn-square icon-font-arrow-left"></a>
 					<c:set var="newreplacement" value="${cl.searchResult.page -2}"/>
 					<c:if test="${cl.searchResult.page != 1 && newreplacement >0}">
-						a href="${fn:replace(cl.paginationPath,'{0}',newreplacement)}" class="btn-square">${newreplacement}</a>
+						<a href="${fn:replace(cl.paginationPath,'{0}',newreplacement)}" class="btn-square">${newreplacement}</a>
 					</c:if>
 					<a href="${fn:replace(cl.paginationPath,'{0}',replacement)}" class="btn-square">${replacement}</a>
 				</c:if>	
@@ -92,7 +92,7 @@
 					<a href="${fn:replace(cl.paginationPath,'{0}',replacement)}" class="btn-square">${replacement}</a>
 					<c:set var="newreplacement" value="${cl.searchResult.page +2}"/>
 					<c:if test="${cl.searchResult.page != 1 && newreplacement <=cl.pages}">
-						a href="${fn:replace(cl.paginationPath,'{0}',newreplacement)}" class="btn-square">${newreplacement}</a>
+						<a href="${fn:replace(cl.paginationPath,'{0}',newreplacement)}" class="btn-square">${newreplacement}</a>
 					</c:if>
 					<a href="${fn:replace(cl.paginationPath,'{0}',replacement)}" class="btn-square icon-font-arrow-right"></a>
 					<a href="${fn:replace(cl.paginationPath,'{0}',cl.pages)}" class="btn-square icon-font-arrow-next"></a>

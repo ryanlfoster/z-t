@@ -117,32 +117,28 @@ public class DefaultExperienceRepository implements ExperienceRepository {
 							&& page.getTemplate().getPath().equals("/apps/foodandwine/templates/articlepage")) {
 							String alphabet = StringUtils.EMPTY;
 							String articleTitle = StringUtils.EMPTY;
-							try {
 								articleTitle = page.getTitle();
-							} catch (NullPointerException e) {
-							}
 							if (articleTitle.equals(StringUtils.EMPTY) || null != articleTitle) {
 								articleTitle = page.getParent().getName();
 							}
-							try {
 								alphabet = page.getParent().getTitle();
-							} catch (NullPointerException e) {
-								LOG.error("Error trying to get Parent Page Title", e);
-							}
-							if (alphabet.equals(StringUtils.EMPTY) || null != alphabet) {
-								alphabet = page.getParent().getName();
+							if (alphabet == null ) {
+								alphabet = page.getTitle();
+								alphabet =Character.toString(alphabet.charAt(0));
 							}
 							char charAt = articleTitle.charAt(0);
 							String charecter = Character.toString(charAt);
 							if (alphabet.equalsIgnoreCase(charecter)) {
 								addToMap(alphabet, page, tagManager);
 							}
+
 						}
 					}
 				} catch (RepositoryException e) {
 					LOG.error("Error creating story", e);
 				}
 			}
+
 		} catch (Exception e) {
 			LOG.error("Error searching for ATDW Products", e);
 		} finally {

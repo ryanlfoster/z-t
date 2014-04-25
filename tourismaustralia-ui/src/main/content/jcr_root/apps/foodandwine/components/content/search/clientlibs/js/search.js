@@ -17,7 +17,8 @@ var location = $('#stateDropdown').find('option:selected').val();
         	counter : counter
         },
         success : function(msg) {
-            var articleCount = msg.length;
+           
+        	var articleCount = msg.length;
            var data;
            var obj;
            data = JSON.stringify(msg);
@@ -53,7 +54,7 @@ var location = $('#stateDropdown').find('option:selected').val();
             $(".mosaic").append(template(obj));
             $(".faw-hero-home-container .form-h3").html(""+articleCount+" Search results for: <strong>"+searchParameter+"</strong>");
 
-            if(articleCount >10){
+            if(articleCount >9){
             	$(".type-spacing-120 .btn-secondary").show();
             }
         },

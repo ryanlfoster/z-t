@@ -20,14 +20,16 @@ public class FAWSearch {
 	private final String imagePath;
 	private final String city;
 	private final String state;
-	//private final String[] tags;
+	// private final String[] tags;
 	private final String icon;
 	private final String primaryCategory;
 	private final String link;
 	private final String pageDescription;
-	private final long totalSearchCount=0;
-
-	
+	private final long totalSearchCount = 0;
+	private String templateName;
+	private String userName;
+	private String messagePosts;
+	private String postLink;
 
 	public FAWSearch(Page page, TagManager tagManager) {
 		ValueMap properties = page.getProperties();
@@ -42,7 +44,7 @@ public class FAWSearch {
 		// icon
 		icon = properties.get("categoryLogoPath", String.class);
 		// description
-		pageDescription = properties.get(JcrConstants.JCR_DESCRIPTION,String.class);
+		pageDescription = properties.get(JcrConstants.JCR_DESCRIPTION, String.class);
 		// title
 		title = page.getTitle();
 		// tags
@@ -51,7 +53,7 @@ public class FAWSearch {
 		for (Tag tag : TagUtils.getFoodAndWineCategoryTags(tagManager, cattags)) {
 			tagTitles.add(tag.getTitle());
 		}
-		//tags = tagTitles.toArray(new String[0]);
+		// tags = tagTitles.toArray(new String[0]);
 		// state
 		Tag stateTag = TagUtils.getStateTag(tagManager, cattags);
 		state = (stateTag != null ? stateTag.getTitle() : StringUtils.EMPTY);
@@ -60,7 +62,30 @@ public class FAWSearch {
 		city = (cityTag != null ? cityTag.getTitle() : StringUtils.EMPTY);
 		Tag primaryCategoryTag = TagUtils.getFoodAndWinePrimaryCategory(tagManager, cattags);
 		primaryCategory = (primaryCategoryTag != null ? primaryCategoryTag.getTitle() : StringUtils.EMPTY);
-		
+		templateName = page.getTemplate().getName();
+
+		if (templateName.equals("facebookpage")) {
+			templateName= templateName.replace("page", "");
+			userName = properties.get("userName", "");
+			messagePosts = properties.get("postText", "");
+			postLink = LinkUtils.getHrefFromPath(properties.get("postLink", ""));
+		}
+		if (templateName.equals("twitterpage")) {
+			templateName= templateName.replace("page", "");
+			userName = properties.get("userName", "");
+			messagePosts = properties.get("tweet", "");
+			postLink = LinkUtils.getHrefFromPath(properties.get("postLink", ""));
+		}
+		if (templateName.equals("instagrampage")) {
+			templateName= templateName.replace("page", "");
+			userName = properties.get("userName", "");
+			messagePosts = properties.get("description", "");
+			postLink = LinkUtils.getHrefFromPath(properties.get("postLink", ""));
+		}
+		if (templateName.equals("articlepage")) {
+			templateName = null;
+		}
+
 	}
 
 	public String getImagePath() {
@@ -75,9 +100,9 @@ public class FAWSearch {
 		return state;
 	}
 
-//	public String[] getTags() {
-//		return tags;
-//	}
+	// public String[] getTags() {
+	// return tags;
+	// }
 
 	public String getIcon() {
 		return icon;
@@ -98,8 +123,25 @@ public class FAWSearch {
 	public String getPageDescription() {
 		return pageDescription;
 	}
+
 	public long getTotalSearchCount() {
 		return totalSearchCount;
+	}
+
+	public String getTemplateName() {
+		return templateName;
+	}
+
+	public String getUserName() {
+		return userName;
+	}
+
+	public String getMessagePosts() {
+		return messagePosts;
+	}
+
+	public String getPostLink() {
+		return postLink;
 	}
 
 }

@@ -14,6 +14,15 @@ public class StateMosaiacProperties {
 	private String categoryLogo;
 	private String templateName;
 	private String userName,messageText,postLink;
+	private String linkChecker;
+	public String getLinkChecker() {
+		return linkChecker;
+	}
+
+	public void setLinkChecker(String linkChecker) {
+		this.linkChecker = linkChecker;
+	}
+
 	public String getUserName() {
 		return userName;
 	}

@@ -62,6 +62,7 @@ public class StateMosaicServlet extends SlingAllMethodsServlet
 	private String[] categoryTags;
 	private String cityTagName,stateTitle;
 	private String userName,messageText,postLink;
+	private String linkChecker;
 	
 
 	@Override
@@ -153,19 +154,27 @@ public class StateMosaicServlet extends SlingAllMethodsServlet
 							userName=pageProperties.get("userName",StringUtils.EMPTY);
 							messageText=pageProperties.get("postText",StringUtils.EMPTY);
 							postLink=pageProperties.get("postLink",StringUtils.EMPTY);
+							postLink=LinkUtils.getHrefFromPath(postLink);
 						}
 						if(templateName.equals("twitterpage"))
 						{
 							userName=pageProperties.get("userName",StringUtils.EMPTY);
 							messageText=pageProperties.get("tweet",StringUtils.EMPTY);
 							postLink=pageProperties.get("postLink",StringUtils.EMPTY);
+							postLink=LinkUtils.getHrefFromPath(postLink);
 						}
 						if(templateName.equals("instagrampage"))
 						{
 							userName=pageProperties.get("userName",StringUtils.EMPTY);
 							messageText=pageProperties.get("description",StringUtils.EMPTY);
 							postLink=pageProperties.get("postLink",StringUtils.EMPTY);
+							postLink=LinkUtils.getHrefFromPath(postLink);
+							
 						}
+						if(postLink.endsWith(".html"))
+							linkChecker="true";
+						else 
+							linkChecker=null;
 						templateName=templateName.replace("page", "");
 						
 					}
@@ -182,6 +191,7 @@ public class StateMosaicServlet extends SlingAllMethodsServlet
 					bean.setMessageText(messageText);
 					bean.setPostLink(postLink);
 					bean.setUserName(userName);
+					bean.setLinkChecker(linkChecker);
 					categoryTagName="";
 					propertiesList.add(bean);
 					

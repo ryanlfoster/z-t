@@ -118,7 +118,11 @@ $(document).ready(function(){
 	{{#compare @index 0 operator="=="}} 
 	{{#if templateName}}
         <div class="col-xs-12 col-md-6">
-            <a href="{{postLink}}" title="" class="mosaic-item" target="_blank">
+		{{#if linkChecker}}
+<a href="{{postLink}}" title="" class="mosaic-item" >
+{{else}}
+	<a href="{{postLink}}" title="" class="mosaic-item" target="_blank">
+{{/if}}
     		<img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
     		<span class="mosaic-item-description">
         		<span class="mosaic-item-description-head type-font-feature">{{title}}</span>
@@ -129,10 +133,10 @@ $(document).ready(function(){
             		<span class="mosaic-item-description-copy-link"><strong>Read more</strong></span>
         		</span>
         	<span class="mosaic-item-description-share mosaic-item-description-share-dark">
-            	<img src="imgs/base/share/share-instagram-black.png" alt="">
+            	<img src="" alt="">
         	</span>
         	<span class="mosaic-item-description-share mosaic-item-description-share-white">
-            	<img src="imgs/base/share/share-instagram-white.png" alt=""/>
+            	<img src="" alt=""/>
         	</span>
    			</span>
     		<span class="mosaic-item-overlay mosaic-item-overlay-share">
@@ -195,7 +199,11 @@ $(document).ready(function(){
 {{#compare @index 1 operator="=="}} 
 {{#if templateName}}
                 <div class="col-xs-12 col-sm-6">
-                    <a href="{{postLink}}" title="" class="mosaic-item" target="_blank">
+{{#if linkChecker}}
+<a href="{{postLink}}" title="" class="mosaic-item" >
+{{else}}
+	<a href="{{postLink}}" title="" class="mosaic-item" target="_blank">
+{{/if}}
     <img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
 
     <span class="mosaic-item-description">
@@ -208,10 +216,10 @@ $(document).ready(function(){
         </span>
 	
         	<span class="mosaic-item-description-share mosaic-item-description-share-dark">
-            	<img src="imgs/base/share/share-instagram-black.png" alt="">
+            	<img src="" alt="">
         	</span>
         	<span class="mosaic-item-description-share mosaic-item-description-share-white">
-            	<img src="imgs/base/share/share-instagram-white.png" alt=""/>
+            	<img src="" alt=""/>
         	</span>
    			</span>
     		<span class="mosaic-item-overlay mosaic-item-overlay-share">
@@ -276,7 +284,11 @@ $(document).ready(function(){
 {{#compare @index 2 operator="=="}}
 {{#if templateName}}
                 <div class="col-xs-12 col-sm-6">
-                    <a href="{{postLink}}" title="" class="mosaic-item" target="_blank">
+{{#if linkChecker}}
+<a href="{{postLink}}" title="" class="mosaic-item" >
+{{else}}
+	<a href="{{postLink}}" title="" class="mosaic-item" target="_blank">
+{{/if}}
     <img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
 
     <span class="mosaic-item-description">
@@ -289,10 +301,10 @@ $(document).ready(function(){
         </span>
 	
         	<span class="mosaic-item-description-share mosaic-item-description-share-dark">
-            	<img src="imgs/base/share/share-instagram-black.png" alt="">
+            	<img src="" alt="">
         	</span>
         	<span class="mosaic-item-description-share mosaic-item-description-share-white">
-            	<img src="imgs/base/share/share-instagram-white.png" alt=""/>
+            	<img src="" alt=""/>
         	</span>
    			</span>
     		<span class="mosaic-item-overlay mosaic-item-overlay-share">
@@ -353,7 +365,11 @@ $(document).ready(function(){
 {{#compare @index 3 operator="=="}}
 {{#if templateName}}
     <div class="col-xs-12 col-sm-6 ">
-<a href="{{postLink}}" title="" class="mosaic-item" target="_blank">
+{{#if linkChecker}}
+<a href="{{postLink}}" title="" class="mosaic-item" >
+{{else}}
+	<a href="{{postLink}}" title="" class="mosaic-item" target="_blank">
+{{/if}}
     <img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
 
     <span class="mosaic-item-description">
@@ -365,10 +381,10 @@ $(document).ready(function(){
             <span class="mosaic-item-description-copy-link"><strong>Read more</strong></span>
         </span>
         <span class="mosaic-item-description-share mosaic-item-description-share-dark">
-            <img src="imgs/base/share/share-instagram-black.png" alt="">
+            <img src="" alt="">
         </span>
         <span class="mosaic-item-description-share mosaic-item-description-share-white">
-            <img src="imgs/base/share/share-instagram-white.png" alt=""/>
+            <img src="" alt=""/>
         </span>
     </span>
        <span class="mosaic-item-overlay mosaic-item-overlay-share">
@@ -431,7 +447,11 @@ $(document).ready(function(){
 
 {{#if templateName}}
 <div class="col-xs-12 col-sm-6 ">
-<a href="{{postLink}}" title="" class="mosaic-item" target="_blank">
+{{#if linkChecker}}
+<a href="{{postLink}}" title="" class="mosaic-item" >
+{{else}}
+	<a href="{{postLink}}" title="" class="mosaic-item" target="_blank">
+{{/if}}
     <img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
 
     <span class="mosaic-item-description">
@@ -443,10 +463,10 @@ $(document).ready(function(){
             <span class="mosaic-item-description-copy-link"><strong>Read more</strong></span>
         </span>
         <span class="mosaic-item-description-share mosaic-item-description-share-dark">
-            <img src="imgs/base/share/share-instagram-black.png" alt="">
+            <img src="" alt="">
         </span>
         <span class="mosaic-item-description-share mosaic-item-description-share-white">
-            <img src="imgs/base/share/share-instagram-white.png" alt=""/>
+            <img src="" alt=""/>
         </span>
     </span>
        <span class="mosaic-item-overlay mosaic-item-overlay-share">
@@ -463,7 +483,7 @@ $(document).ready(function(){
                 </div>
 {{else}}
                 <div class="col-xs-12 col-sm-6">
-<a href="{{pagePath}}" class="mosaic-item"  title="">
+
     <img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
 
     <span class="mosaic-item-description">
@@ -518,7 +538,11 @@ $(document).ready(function(){
 {{#compare @index 5 operator="=="}} 
  {{#if templateName}}
 <div class="col-xs-12 col-sm-6 col-md-12 mosaic-ie-100" target="_blank">
-<a href="{{postLink}}" title="" class="mosaic-item">
+{{#if linkChecker}}
+<a href="{{postLink}}" title="" class="mosaic-item" >
+{{else}}
+	<a href="{{postLink}}" title="" class="mosaic-item" target="_blank">
+{{/if}}
     <img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
     <span class="mosaic-item-description">
                  <span class="mosaic-item-description-head type-font-feature">{{title}}</span>
@@ -529,10 +553,10 @@ $(document).ready(function(){
             <span class="mosaic-item-description-copy-link"><strong>Read more</strong></span>
         </span>
         <span class="mosaic-item-description-share mosaic-item-description-share-dark">
-            <img src="imgs/base/share/share-instagram-black.png" alt="">
+            <img src="" alt="">
         </span>
         <span class="mosaic-item-description-share mosaic-item-description-share-white">
-            <img src="imgs/base/share/share-instagram-white.png" alt=""/>
+            <img src="" alt=""/>
         </span>
     </span>
 
@@ -597,7 +621,11 @@ $(document).ready(function(){
                  {{#compare @index 6 operator="=="}} 
 {{#if templateName}}
                 <div class="col-xs-12 col-sm-6 col-md-12 mosaic-ie-100">
-<a href="{{postLink}}" title="" class="mosaic-item" target="_blank">
+{{#if linkChecker}}
+<a href="{{postLink}}" title="" class="mosaic-item" >
+{{else}}
+	<a href="{{postLink}}" title="" class="mosaic-item" target="_blank">
+{{/if}}
     <img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
     <span class="mosaic-item-description">
                  <span class="mosaic-item-description-head type-font-feature">{{title}}</span>
@@ -608,10 +636,10 @@ $(document).ready(function(){
             <span class="mosaic-item-description-copy-link"><strong>Read more</strong></span>
         </span>
         <span class="mosaic-item-description-share mosaic-item-description-share-dark">
-            <img src="imgs/base/share/share-instagram-black.png" alt="">
+            <img src="" alt="">
         </span>
         <span class="mosaic-item-description-share mosaic-item-description-share-white">
-            <img src="imgs/base/share/share-instagram-white.png" alt=""/>
+            <img src="" alt=""/>
         </span>
     </span>
 
@@ -680,7 +708,11 @@ $(document).ready(function(){
 {{#if templateName}}
 
         <div class="col-xs-12 col-md-6">
-            <a href="{{postLink}}" title="" class="mosaic-item" target="_blank">
+           {{#if linkChecker}}
+<a href="{{postLink}}" title="" class="mosaic-item" >
+{{else}}
+	<a href="{{postLink}}" title="" class="mosaic-item" target="_blank">
+{{/if}}
     		<img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
     		<span class="mosaic-item-description">
         		<span class="mosaic-item-description-head type-font-feature">{{title}}</span>
@@ -691,10 +723,10 @@ $(document).ready(function(){
             		<span class="mosaic-item-description-copy-link"><strong>Read more</strong></span>
         		</span>
         	<span class="mosaic-item-description-share mosaic-item-description-share-dark">
-            	<img src="imgs/base/share/share-instagram-black.png" alt="">
+            	<img src="" alt="">
         	</span>
         	<span class="mosaic-item-description-share mosaic-item-description-share-white">
-            	<img src="imgs/base/share/share-instagram-white.png" alt=""/>
+            	<img src="" alt=""/>
         	</span>
    			</span>
     		<span class="mosaic-item-overlay mosaic-item-overlay-share">
@@ -768,7 +800,11 @@ $(document).ready(function(){
 {{#if templateName}}
 
 <div class="col-xs-12 col-sm-6 col-md-12 mosaic-ie-100">
-<a href="{{postLink}}" title="" class="mosaic-item" target="_blank">
+{{#if linkChecker}}
+<a href="{{postLink}}" title="" class="mosaic-item" >
+{{else}}
+	<a href="{{postLink}}" title="" class="mosaic-item" target="_blank">
+{{/if}}
     <img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
     <span class="mosaic-item-description">
                  <span class="mosaic-item-description-head type-font-feature">{{title}}</span>
@@ -779,10 +815,10 @@ $(document).ready(function(){
             <span class="mosaic-item-description-copy-link"><strong>Read more</strong></span>
         </span>
         <span class="mosaic-item-description-share mosaic-item-description-share-dark">
-            <img src="imgs/base/share/share-instagram-black.png" alt="">
+            <img src="" alt="">
         </span>
         <span class="mosaic-item-description-share mosaic-item-description-share-white">
-            <img src="imgs/base/share/share-instagram-white.png" alt=""/>
+            <img src="" alt=""/>
         </span>
     </span>
 
@@ -849,7 +885,11 @@ $(document).ready(function(){
 {{#if templateName}}
 
 <div class="col-xs-12 col-sm-6 col-md-12 mosaic-ie-100">
-<a href="{{postLink}}" title="" class="mosaic-item" target="_blank">
+{{#if linkChecker}}
+<a href="{{postLink}}" title="" class="mosaic-item" >
+{{else}}
+	<a href="{{postLink}}" title="" class="mosaic-item" target="_blank">
+{{/if}}
     <img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
     <span class="mosaic-item-description">
                  <span class="mosaic-item-description-head type-font-feature">{{title}}</span>
@@ -860,10 +900,10 @@ $(document).ready(function(){
             <span class="mosaic-item-description-copy-link"><strong>Read more</strong></span>
         </span>
         <span class="mosaic-item-description-share mosaic-item-description-share-dark">
-            <img src="imgs/base/share/share-instagram-black.png" alt="">
+            <img src="" alt="">
         </span>
         <span class="mosaic-item-description-share mosaic-item-description-share-white">
-            <img src="imgs/base/share/share-instagram-white.png" alt=""/>
+            <img src="" alt=""/>
         </span>
     </span>
 

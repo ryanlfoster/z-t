@@ -19,13 +19,13 @@ import com.day.cq.wcm.api.PageManager;
 public class StateMosaic {
 
 	@DialogField(fieldLabel = "Top Text")
-	private final String topText;
+	private  String topText;
 
 	@DialogField(fieldLabel = "Center Text", required=true)
-	private final String centerText;
+	private  String centerText;
 
 	@DialogField(fieldLabel = "Bottom text")
-	private final String bottomText;
+	private  String bottomText;
 
 	private String template;
 	/**
@@ -39,9 +39,12 @@ public class StateMosaic {
 		if(currentPage!=null)
 			template = currentPage.getTemplate().getName();
 		ValueMap properties = request.getResource().adaptTo(ValueMap.class);
-		topText = properties.get("topText", StringUtils.EMPTY);
-		centerText = properties.get("centerText", StringUtils.EMPTY);
-		bottomText = properties.get("bottomText", StringUtils.EMPTY);
+		if(properties!=null)
+		{
+			topText = properties.get("topText", StringUtils.EMPTY);
+			centerText = properties.get("centerText", StringUtils.EMPTY);
+			bottomText = properties.get("bottomText", StringUtils.EMPTY);
+		}
 	}
 
 	/**

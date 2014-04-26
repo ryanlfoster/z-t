@@ -99,21 +99,25 @@ public class StateMosaicServlet extends SlingAllMethodsServlet
 		TagManager tagManager = request.getResourceResolver().adaptTo(TagManager.class);
 		PageManager pageManager = request.getResourceResolver().adaptTo(PageManager.class);
 		Session session = request.getResourceResolver().adaptTo(Session.class);
-		if(categoryTags!=null && categoryTags.length<=1)
+		if(categoryTags!=null){
+		 if( categoryTags.length<=1)
 			queryString="SELECT * FROM [nt:base] AS s WHERE ISDESCENDANTNODE([/content/food-and-wine]) and [cq:tags] like '%"+stateTags.trim()+"%' and( [cq:tags] like '%/"+categoryTags[0].trim()+"%')" +
 					"and ([cq:template]  LIKE '%/apps/foodandwine/templates/articlepage%' or[cq:template]  LIKE '%/apps/foodandwine/templates/facebookpage%'" +
 					"or [cq:template]  LIKE '%/apps/foodandwine/templates/twitterpage%' or [cq:template]  LIKE '%/apps/foodandwine/templates/instagrampage%')";
-		else
-		queryString="SELECT * FROM [nt:base] AS s WHERE ISDESCENDANTNODE([/content/food-and-wine]) and [cq:tags] like '%"+stateTags.trim()+"%' and( [cq:tags] like '%/"+categoryTags[0].trim()+"%'";
+		 else
+		  queryString="SELECT * FROM [nt:base] AS s WHERE ISDESCENDANTNODE([/content/food-and-wine]) and [cq:tags] like '%"+stateTags.trim()+"%' and( [cq:tags] like '%/"+categoryTags[0].trim()+"%'";
+		}
 		try {
 			QueryManager queryManager = session.getWorkspace().getQueryManager();
 			propertiesList=new LinkedList<StateMosaiacProperties>();
+			if(categoryTags!=null){
 			for(int i=1;i<categoryTags.length;i++ ){
 				queryString+="or [cq:tags] like '%/"+categoryTags[i]+"%' ";
 				if(i==categoryTags.length-1)
 					queryString+=")";
 				
 				}
+			}
 			queryString+="and ([cq:template]  LIKE '%/apps/foodandwine/templates/articlepage%' or[cq:template]  LIKE '%/apps/foodandwine/templates/facebookpage%'" +
 					"or [cq:template]  LIKE '%/apps/foodandwine/templates/twitterpage%' or [cq:template]  LIKE '%/apps/foodandwine/templates/instagrampage%')";
 				Query query = queryManager.createQuery(queryString,Query.JCR_SQL2);

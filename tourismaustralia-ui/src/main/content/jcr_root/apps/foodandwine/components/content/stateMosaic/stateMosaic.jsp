@@ -15,6 +15,8 @@ $(document).ready(function(){
     var source   = $("#stateMosaic").html();
 		 $(document).on("click",'.category-input ', function(){
 			 $("#statemosaic").empty();
+			 $(".btn-secondary").hide();
+			 $(".mosaicgridchanger").hide();
              var flag="default";
 			 var x=$(this).attr('id');
 		     if($(this).is(":checked"))

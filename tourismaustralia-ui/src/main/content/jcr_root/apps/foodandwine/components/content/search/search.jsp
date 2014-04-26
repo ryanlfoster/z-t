@@ -847,8 +847,6 @@
 
 </script>
 
-
-
 <div class="faw-hero-home-container">
 	
 	<h3 class="form-h3 l-padding-top-xs-2 l-padding-bottom-xs-0-5">
@@ -866,7 +864,7 @@
 	<p class="faw-search-tag-cloud-headline">${search.headLine}</p>
 	<ul>
 		<c:forEach items="${search.interestedSearchList}" var="item">
-		<li><a href="${item.searchPagePath}" target="_self">${item.searchPageTitle}</a></li>
+		<li><a href="#" onclick="interestedSearch('${item}')">${item}</a></li>
 		</c:forEach>
 	</ul>
 </div> 

@@ -120,6 +120,9 @@ var source = $("#searchMosaic").html();
 });
 
 
-
+function interestedSearch(listItem){
+	$(".faw-hero-home-container .input-field-blank").val(listItem);
+	$(".faw-hero-home-container .btn-secondary").trigger('click');
+}
 
 

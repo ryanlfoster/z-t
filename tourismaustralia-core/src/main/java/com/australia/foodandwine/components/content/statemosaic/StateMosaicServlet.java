@@ -4,8 +4,6 @@ import java.io.IOException;
 import java.util.LinkedList;
 import java.util.List;
 
-import javax.jcr.Node;
-import javax.jcr.NodeIterator;
 import javax.jcr.RepositoryException;
 import javax.jcr.Session;
 import javax.jcr.query.Query;
@@ -13,8 +11,6 @@ import javax.jcr.query.QueryManager;
 import javax.jcr.query.QueryResult;
 import javax.jcr.query.Row;
 import javax.jcr.query.RowIterator;
-import javax.servlet.ServletException;
-import javax.servlet.http.HttpSession;
 
 import org.apache.commons.lang3.StringUtils;
 import org.apache.felix.scr.annotations.sling.SlingServlet;
@@ -23,12 +19,9 @@ import org.apache.sling.api.SlingHttpServletResponse;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ValueMap;
 import org.apache.sling.api.servlets.SlingAllMethodsServlet;
-import org.apache.sling.commons.json.JSONException;
-import org.apache.sling.commons.json.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.australia.foodandwine.components.content.otherExperiences.OtherExperiences;
 import com.australia.utils.LinkUtils;
 import com.australia.utils.TagUtils;
 import com.day.cq.commons.jcr.JcrConstants;

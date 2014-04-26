@@ -60,7 +60,7 @@ var location = $('#stateDropdown').find('option:selected').val();
             }
             $(".faw-hero-home-container .form-h3").html(""+articleCount+" Search results for: <strong>"+searchParameter+"</strong>");
 
-            if(articleCount < 10){
+            if(articleCount <= 10){
             	$(".type-spacing-120 .btn-secondary").hide();
             }else{
             	$(".type-spacing-120 .btn-secondary").show();
@@ -105,7 +105,7 @@ var source = $("#searchMosaic").html();
              if(articleCount===undefined){
              	articleCount = 0;
              }
-            if(articleCount < 10){
+            if(articleCount <= 10){
             	$(".type-spacing-120 .btn-secondary").hide();
             }else{
             	$(".type-spacing-120 .btn-secondary").show();

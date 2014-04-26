@@ -61,9 +61,14 @@
 							</p>
 						</li>
 						<li class="col-xs-0 col-sm-0 col-md-3 l-display-none-lg">
-							<c:if test="${not empty list.website}">
+							<c:choose>
+							<c:when test="${not empty list.website}">
 							<a href="${list.website}" target="_blank">Visit website</a>
-							</c:if>
+							</c:when>
+							<c:otherwise>
+							<strong>-</strong>
+							</c:otherwise>
+							</c:choose>
 						</li>
 					</ul>
 				</li></a>

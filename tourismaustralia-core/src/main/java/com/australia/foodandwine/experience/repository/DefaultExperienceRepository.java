@@ -118,18 +118,10 @@ public class DefaultExperienceRepository implements ExperienceRepository {
 							String alphabet = StringUtils.EMPTY;
 							String articleTitle = StringUtils.EMPTY;
 								articleTitle = page.getTitle();
-							if (articleTitle.equals(StringUtils.EMPTY) || null != articleTitle) {
-								articleTitle = page.getParent().getName();
-							}
-								alphabet = page.getParent().getTitle();
-							if (alphabet != null) {
-								alphabet = page.getParent().getName();
-							}else{
 								alphabet = page.getTitle();
-								alphabet =Character.toString(alphabet.charAt(0));
-							}
+								alphabet =Character.toString(alphabet.charAt(0)).toUpperCase();
 							char charAt = articleTitle.charAt(0);
-							String charecter = Character.toString(charAt);
+							String charecter = Character.toString(charAt).toUpperCase();
 							if (alphabet.equalsIgnoreCase(charecter)) {
 								addToMap(alphabet, page, tagManager);
 							}

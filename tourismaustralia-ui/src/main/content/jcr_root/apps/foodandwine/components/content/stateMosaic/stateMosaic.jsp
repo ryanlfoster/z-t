@@ -41,13 +41,15 @@ $(document).ready(function(){
                  flag:flag
 			 },
 			 success : function(msg) {
+				 
+				 if(msg.length===0)
+	        			$("#statemosaic").append("<h3 class='faw-article-healdine'>There are no articles for selected tag(s)</h3>" );
 				$(".mosaicgridchanger").show();
 				if(msg[0].totalResults>10)						
 					$(".btn-secondary").show();
         		else
         			$(".btn-secondary").hide();
-        		if(msg.length==0)
-        			$("#statemosaic").append("<h3 class='faw-article-healdine'>There are no articles for selected tag(s)</h3>" );
+        		
                 var data = JSON.stringify(msg);
                 data=data.replace("[","");
                 data=data.replace("]","");
@@ -97,7 +99,7 @@ $(document).ready(function(){
 				},
 				success : function(msg) {
 					$(".mosaicgridchanger").show();
-					if(msg[0].totalResults>10)
+					if(msg[0].totalResults<=10)
 						$(".btn-secondary").hide();
 	                var data = JSON.stringify(msg);
 	                data=data.replace("[","");

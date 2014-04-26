@@ -96,14 +96,16 @@ public class StateMosaicServlet extends SlingAllMethodsServlet
 			count+=10;
 		}
 		categoryTags=request.getParameterValues("catogoryArray");
+		if(categoryTags==null)
+			categoryTags=new String[10];
 		TagManager tagManager = request.getResourceResolver().adaptTo(TagManager.class);
 		PageManager pageManager = request.getResourceResolver().adaptTo(PageManager.class);
 		Session session = request.getResourceResolver().adaptTo(Session.class);
 		if(categoryTags!=null){
-		 if( categoryTags.length<=1)
+		 if( categoryTags.length==1)
 			queryString="SELECT * FROM [nt:base] AS s WHERE ISDESCENDANTNODE([/content/food-and-wine]) and [cq:tags] like '%"+stateTags.trim()+"%' and( [cq:tags] like '%/"+categoryTags[0].trim()+"%')" +
 					"and ([cq:template]  LIKE '%/apps/foodandwine/templates/articlepage%' or[cq:template]  LIKE '%/apps/foodandwine/templates/facebookpage%'" +
-					"or [cq:template]  LIKE '%/apps/foodandwine/templates/twitterpage%' or [cq:template]  LIKE '%/apps/foodandwine/templates/instagrampage%')";
+					"or [cq:template]  LIKE '%/apps/foodandwine/templates/twitterpage%' or [cq:template]  LIKE '%/apps/foodandwine/templates/instagrampage%') ";
 		 else
 		  queryString="SELECT * FROM [nt:base] AS s WHERE ISDESCENDANTNODE([/content/food-and-wine]) and [cq:tags] like '%"+stateTags.trim()+"%' and( [cq:tags] like '%/"+categoryTags[0].trim()+"%'";
 		}
@@ -122,7 +124,7 @@ public class StateMosaicServlet extends SlingAllMethodsServlet
 					"or [cq:template]  LIKE '%/apps/foodandwine/templates/twitterpage%' or [cq:template]  LIKE '%/apps/foodandwine/templates/instagrampage%')";
 				Query query = queryManager.createQuery(queryString,Query.JCR_SQL2);
 				QueryResult result1 = query.execute();
-				totalResults=result1.getRows().getSize();
+				totalResults=result1.getRows().getSize()-count;
 				query.setOffset(offset);
 				query.setLimit(limit);
 				QueryResult result = query.execute();
@@ -141,13 +143,13 @@ public class StateMosaicServlet extends SlingAllMethodsServlet
 					List<Tag> categoryTagList = TagUtils.getFoodAndWineCategoryTags(tagManager, tagsArray);
 					loop:for(Tag tag:categoryTagList)
 					{   
-							
+							if(tag!=null){
 						if(!categoryTagName.equals(""))
 							categoryTagName+=", ";
 						if(!categoryTagName.contains(tag.getTitle()))
 							
 							categoryTagName+=tag.getTitle();
-							
+							}
 						
 						if(StringUtils.countMatches(categoryTagName, ",")==2)
 						{
@@ -198,6 +200,7 @@ public class StateMosaicServlet extends SlingAllMethodsServlet
 						templateName=templateName.replace("page", "");
 						
 					}
+					
 					String title = articlePage.getTitle();
 					String description=articlePage.getDescription();
 					String pagePth=LinkUtils.getHrefFromPath(articlePage.getPath());
@@ -220,13 +223,12 @@ public class StateMosaicServlet extends SlingAllMethodsServlet
 					propertiesList.add(bean);
 					
 				}
+				
 			
 		} catch (RepositoryException e) {
 			LOG.error("Exception in query execution {0}",e.getMessage());
 		} 
-		catch (Exception e) {
-			LOG.error("Exception in general execution"+e.getMessage());
-		}
+		
 		response.setContentType("application/json");
 		response.setCharacterEncoding("UTF-8");
 		JsonGenerator generator;

@@ -135,10 +135,10 @@ $(document).ready(function(){
             		<span class="mosaic-item-description-copy-link"><strong>Read more</strong></span>
         		</span>
         	<span class="mosaic-item-description-share mosaic-item-description-share-dark">
-            	<img src="" alt="">
+            	<img src="{{socialIconsBlack}}" alt="">
         	</span>
         	<span class="mosaic-item-description-share mosaic-item-description-share-white">
-            	<img src="" alt=""/>
+            	<img src="{{socialIconsWhite}}" alt=""/>
         	</span>
    			</span>
     		<span class="mosaic-item-overlay mosaic-item-overlay-share">
@@ -218,10 +218,10 @@ $(document).ready(function(){
         </span>
 	
         	<span class="mosaic-item-description-share mosaic-item-description-share-dark">
-            	<img src="" alt="">
+            	<img src="{{socialIconsBlack}}" alt="">
         	</span>
         	<span class="mosaic-item-description-share mosaic-item-description-share-white">
-            	<img src="" alt=""/>
+            	<img src="{{socialIconsWhite}}" alt=""/>
         	</span>
    			</span>
     		<span class="mosaic-item-overlay mosaic-item-overlay-share">
@@ -303,10 +303,10 @@ $(document).ready(function(){
         </span>
 	
         	<span class="mosaic-item-description-share mosaic-item-description-share-dark">
-            	<img src="" alt="">
+            	<img src="{{socialIconsBlack}}" alt="">
         	</span>
         	<span class="mosaic-item-description-share mosaic-item-description-share-white">
-            	<img src="" alt=""/>
+            	<img src="{{socialIconsWhite}}" alt=""/>
         	</span>
    			</span>
     		<span class="mosaic-item-overlay mosaic-item-overlay-share">
@@ -383,10 +383,10 @@ $(document).ready(function(){
             <span class="mosaic-item-description-copy-link"><strong>Read more</strong></span>
         </span>
         <span class="mosaic-item-description-share mosaic-item-description-share-dark">
-            <img src="" alt="">
+            <img src="{{socialIconsBlack}}" alt="">
         </span>
         <span class="mosaic-item-description-share mosaic-item-description-share-white">
-            <img src="" alt=""/>
+            <img src="{{socialIconsWhite}}" alt=""/>
         </span>
     </span>
        <span class="mosaic-item-overlay mosaic-item-overlay-share">
@@ -465,10 +465,10 @@ $(document).ready(function(){
             <span class="mosaic-item-description-copy-link"><strong>Read more</strong></span>
         </span>
         <span class="mosaic-item-description-share mosaic-item-description-share-dark">
-            <img src="" alt="">
+            <img src="{{socialIconsBlack}}" alt="">
         </span>
         <span class="mosaic-item-description-share mosaic-item-description-share-white">
-            <img src="" alt=""/>
+            <img src="{{socialIconsWhite}}" alt=""/>
         </span>
     </span>
        <span class="mosaic-item-overlay mosaic-item-overlay-share">
@@ -484,8 +484,8 @@ $(document).ready(function(){
 </a>
                 </div>
 {{else}}
-                <div class="col-xs-12 col-sm-6">
-
+               <div class="col-xs-12 col-sm-6">
+<a href="{{pagePath}}" class="mosaic-item"  title="">
     <img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
 
     <span class="mosaic-item-description">
@@ -504,6 +504,7 @@ $(document).ready(function(){
     </span>
 
 
+
     <span class="mosaic-item-overlay mosaic-item-overlay-info">
          <span class="mosaic-item-overlay-info-icon">
              <span class="mosaic-item-overlay-info-head type-font-feature">{{title}}</span>
@@ -511,7 +512,7 @@ $(document).ready(function(){
                  <img src="{{categoryLogo}}" alt="">
              </span>
              <span class="mosaic-item-overlay-info-desciption">
-				{{cityTagName}}
+			{{cityTagName}}
                  <br>
                  <br>
                   <span class="mosaic-item-description-copy-link"><strong>Find out more</strong></span>
@@ -523,7 +524,7 @@ $(document).ready(function(){
     </span>
 
 </a>
-                </div>
+</div>
 {{/if}}
                 {{/compare}}
 
@@ -555,10 +556,10 @@ $(document).ready(function(){
             <span class="mosaic-item-description-copy-link"><strong>Read more</strong></span>
         </span>
         <span class="mosaic-item-description-share mosaic-item-description-share-dark">
-            <img src="" alt="">
+            <img src="{{socialIconsBlack}}" alt="">
         </span>
         <span class="mosaic-item-description-share mosaic-item-description-share-white">
-            <img src="" alt=""/>
+            <img src="{{socialIconsWhite}}" alt=""/>
         </span>
     </span>
 
@@ -638,10 +639,10 @@ $(document).ready(function(){
             <span class="mosaic-item-description-copy-link"><strong>Read more</strong></span>
         </span>
         <span class="mosaic-item-description-share mosaic-item-description-share-dark">
-            <img src="" alt="">
+            <img src="{{socialIconsBlack}}" alt="">
         </span>
         <span class="mosaic-item-description-share mosaic-item-description-share-white">
-            <img src="" alt=""/>
+            <img src="{{socialIconsWhite}}" alt=""/>
         </span>
     </span>
 
@@ -725,10 +726,10 @@ $(document).ready(function(){
             		<span class="mosaic-item-description-copy-link"><strong>Read more</strong></span>
         		</span>
         	<span class="mosaic-item-description-share mosaic-item-description-share-dark">
-            	<img src="" alt="">
+            	<img src="{{socialIconsBlack}}" alt="">
         	</span>
         	<span class="mosaic-item-description-share mosaic-item-description-share-white">
-            	<img src="" alt=""/>
+            	<img src="{{socialIconsWhite}}" alt=""/>
         	</span>
    			</span>
     		<span class="mosaic-item-overlay mosaic-item-overlay-share">
@@ -817,10 +818,10 @@ $(document).ready(function(){
             <span class="mosaic-item-description-copy-link"><strong>Read more</strong></span>
         </span>
         <span class="mosaic-item-description-share mosaic-item-description-share-dark">
-            <img src="" alt="">
+            <img src="{{socialIconsBlack}}" alt="">
         </span>
         <span class="mosaic-item-description-share mosaic-item-description-share-white">
-            <img src="" alt=""/>
+            <img src="{{socialIconsWhite}}" alt=""/>
         </span>
     </span>
 
@@ -902,10 +903,10 @@ $(document).ready(function(){
             <span class="mosaic-item-description-copy-link"><strong>Read more</strong></span>
         </span>
         <span class="mosaic-item-description-share mosaic-item-description-share-dark">
-            <img src="" alt="">
+            <img src="{{socialIconsBLack}}" alt="">
         </span>
         <span class="mosaic-item-description-share mosaic-item-description-share-white">
-            <img src="" alt=""/>
+            <img src="{{socialIconsWhite}}" alt=""/>
         </span>
     </span>
 

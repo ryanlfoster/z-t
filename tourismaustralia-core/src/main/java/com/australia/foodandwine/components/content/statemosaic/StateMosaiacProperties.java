@@ -16,6 +16,24 @@ public class StateMosaiacProperties {
 	private String userName,messageText,postLink;
 	private String linkChecker;
 	private String pageTemplate;
+	private String socialIconsWhite;
+	private String socialIconsBlack;
+	public String getSocialIconsWhite() {
+		return socialIconsWhite;
+	}
+
+	public void setSocialIconsWhite(String socialIconsWhite) {
+		this.socialIconsWhite = socialIconsWhite;
+	}
+
+	public String getSocialIconsBlack() {
+		return socialIconsBlack;
+	}
+
+	public void setSocialIconsBlack(String socialIconsBlack) {
+		this.socialIconsBlack = socialIconsBlack;
+	}
+
 	public String getPageTemplate() {
 		return pageTemplate;
 	}
@@ -78,6 +96,7 @@ public class StateMosaiacProperties {
 		this.cityTagName=cityTagName;
 		this.categoryLogo=categoryLogo;
 		this.templateName=templateName;
+		
 	}
 	
 	/**

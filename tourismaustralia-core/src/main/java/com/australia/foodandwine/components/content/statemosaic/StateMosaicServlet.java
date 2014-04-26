@@ -63,6 +63,8 @@ public class StateMosaicServlet extends SlingAllMethodsServlet
 	private String cityTagName,stateTitle;
 	private String userName,messageText,postLink;
 	private String linkChecker;
+	private String socialIconsWhite;
+	private String socialIconsBlack;
 	
 
 	@Override
@@ -156,6 +158,8 @@ public class StateMosaicServlet extends SlingAllMethodsServlet
 							messageText=pageProperties.get("postText",StringUtils.EMPTY);
 							postLink=pageProperties.get("postLink",StringUtils.EMPTY);
 							postLink=LinkUtils.getHrefFromPath(postLink);
+							socialIconsWhite = "/etc/designs/foodandwine/clientlibs/imgs/base/share/share-fb-white.png";
+							socialIconsBlack = "/etc/designs/foodandwine/clientlibs/imgs/base/share/share-fb-black.png";
 						}
 						if(templateName.equals("twitterpage"))
 						{
@@ -163,6 +167,8 @@ public class StateMosaicServlet extends SlingAllMethodsServlet
 							messageText=pageProperties.get("tweet",StringUtils.EMPTY);
 							postLink=pageProperties.get("postLink",StringUtils.EMPTY);
 							postLink=LinkUtils.getHrefFromPath(postLink);
+							socialIconsWhite = "/etc/designs/foodandwine/clientlibs/imgs/base/share/share-twitter-white.png";
+							socialIconsBlack = "/etc/designs/foodandwine/clientlibs/imgs/base/share/share-twitter-black.png";
 						}
 						if(templateName.equals("instagrampage"))
 						{
@@ -170,6 +176,8 @@ public class StateMosaicServlet extends SlingAllMethodsServlet
 							messageText=pageProperties.get("description",StringUtils.EMPTY);
 							postLink=pageProperties.get("postLink",StringUtils.EMPTY);
 							postLink=LinkUtils.getHrefFromPath(postLink);
+							socialIconsWhite = "/etc/designs/foodandwine/clientlibs/imgs/base/share/share-instagram-white.png";
+							socialIconsBlack = "/etc/designs/foodandwine/clientlibs/imgs/base/share/share-instagram-black.png";
 							
 						}
 						if(postLink.endsWith(".html"))
@@ -194,6 +202,8 @@ public class StateMosaicServlet extends SlingAllMethodsServlet
 					bean.setUserName(userName);
 					bean.setLinkChecker(linkChecker);
 					bean.setPageTemplate(pageTemplate);
+					bean.setSocialIconsWhite(socialIconsWhite);
+					bean.setSocialIconsBlack(socialIconsBlack);
 					categoryTagName="";
 					propertiesList.add(bean);
 					

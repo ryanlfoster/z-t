@@ -18,6 +18,15 @@ public class StateMosaiacProperties {
 	private String pageTemplate;
 	private String socialIconsWhite;
 	private String socialIconsBlack;
+	private long totalResults;
+	public long getTotalResults() {
+		return totalResults;
+	}
+
+	public void setTotalResults(long totalResults) {
+		this.totalResults = totalResults;
+	}
+
 	public String getSocialIconsWhite() {
 		return socialIconsWhite;
 	}

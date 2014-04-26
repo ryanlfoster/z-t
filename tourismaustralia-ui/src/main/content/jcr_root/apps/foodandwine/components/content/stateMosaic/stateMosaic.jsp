@@ -42,8 +42,8 @@ $(document).ready(function(){
 			 },
 			 success : function(msg) {
 				$(".mosaicgridchanger").show();
-        		if(msg.length>=10)
-						$(".btn-secondary").show();
+				if(msg[0].totalResults>10)						
+					$(".btn-secondary").show();
         		else
         			$(".btn-secondary").hide();
         		if(msg.length==0)
@@ -97,7 +97,7 @@ $(document).ready(function(){
 				},
 				success : function(msg) {
 					$(".mosaicgridchanger").show();
-					if(msg.length<10)
+					if(msg[0].totalResults>10)
 						$(".btn-secondary").hide();
 	                var data = JSON.stringify(msg);
 	                data=data.replace("[","");
@@ -903,7 +903,7 @@ $(document).ready(function(){
             <span class="mosaic-item-description-copy-link"><strong>Read more</strong></span>
         </span>
         <span class="mosaic-item-description-share mosaic-item-description-share-dark">
-            <img src="{{socialIconsBLack}}" alt="">
+            <img src="{{socialIconsBlack}}" alt="">
         </span>
         <span class="mosaic-item-description-share mosaic-item-description-share-white">
             <img src="{{socialIconsWhite}}" alt=""/>

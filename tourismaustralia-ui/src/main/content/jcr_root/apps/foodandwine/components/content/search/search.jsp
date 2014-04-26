@@ -882,7 +882,7 @@
 			<!-- CATEGORY DROP DOWN -->
 			<div class="faw-category-mosaic-drop-down">
 				<select class="input-select input-select-small" id="categoryDropdown">
-					<option value="" selected="selected" disabled="">Filter by
+					<option value="" selected="selected" >Filter by
 						category</option>
 					<option value="ta:food-and-wine/category/restaurant">Restaurants</option>
 					<option value="ta:food-and-wine/category/wine">Wine</option>
@@ -898,7 +898,7 @@
 			<!-- STATE DROP DOWN -->
 			<div class="faw-category-mosaic-drop-down" id="stateDropdown">
 				<select class="input-select input-select-small">
-					<option value="" selected="selected" disabled="">Filter by
+					<option value="" selected="selected" >Filter by
 						location</option>
 					<option value="ta:place/australia-capital-teritory">ACT</option>
 					<option value="ta:place/new-south-wales">NSW</option>

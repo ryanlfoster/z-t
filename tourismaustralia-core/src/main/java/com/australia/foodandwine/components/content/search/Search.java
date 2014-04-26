@@ -21,7 +21,7 @@ public class Search {
 	@DialogField(fieldLabel = "Head Line", name = "./headLine")
 	private String headLine;
 
-	@DialogField(fieldLabel = "Search Keywords")
+	@DialogField(fieldLabel = "Search Keywords" , name="./interestedSearchList")
 	@MultiField
 	private List<String> interestedSearchList;
 

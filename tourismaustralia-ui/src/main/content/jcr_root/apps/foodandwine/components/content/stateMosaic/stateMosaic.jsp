@@ -126,15 +126,14 @@ $(document).ready(function(){
  
 <div class="row l-row-collapse">
  {{#each test}}
-
-	{{#compare @index 0 operator="=="}} 
-	{{#if templateName}}
+ 	{{#compare @index 0 operator="=="}} 
+		{{#if templateName}}
         <div class="col-xs-12 col-md-6">
-		{{#if linkChecker}}
-<a href="{{postLink}}" title="" class="mosaic-item" >
-{{else}}
-	<a href="{{postLink}}" title="" class="mosaic-item" target="_blank">
-{{/if}}
+			{{#if linkChecker}}
+				<a href="{{postLink}}" title="" class="mosaic-item" >
+			{{else}}
+				<a href="{{postLink}}" title="" class="mosaic-item" target="_blank">
+			{{/if}}
     		<img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
     		<span class="mosaic-item-description">
         		<span class="mosaic-item-description-head type-font-feature">{{title}}</span>
@@ -161,137 +160,139 @@ $(document).ready(function(){
         		</span>
     		</span>
            </a>
-       </div>
-	{{else}}
-		<div class="col-xs-12 col-md-6">
-			<a href="{{pagePath}}" class="mosaic-item"  title="">
-    		<img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
-		    <span class="mosaic-item-description">
-        <span class="mosaic-item-description-head type-font-feature">
-                 {{title}}
-        </span>
-        <span class="mosaic-item-description-sub">
-            {{stateTag}}
-        </span>
-        <span class="mosaic-item-description-copy">
-            {{description}}
-            <br><br>
-            <span class="mosaic-item-description-copy-link"><strong>Read more</strong></span>
-            <strong class="mosaic-item-description-categories"><em>{{categoryTagName}}</em></strong>
-        </span>
-    </span>
-
-    <span class="mosaic-item-overlay mosaic-item-overlay-info">
-         <span class="mosaic-item-overlay-info-icon">
-             <span class="mosaic-item-overlay-info-head type-font-feature">{{title}}</span>
-              <span class="mosaic-item-overlay-info-icon-item">
-                 <img src="{{categoryLogo}}" alt="">
-             </span>
-             <span class="mosaic-item-overlay-info-desciption">
-				{{cityTagName}}
-                 <br>
-                 <br>
-                  <span class="mosaic-item-description-copy-link"><strong>Find out more</strong></span>
-             </span>
-         </span>
-          <span class="mosaic-item-overlay-info-categories">
-                 <strong>{{categoryTagName}}</strong>
-          </span>
-    </span>
-
-</a>
         </div>
-{{/if}}
+		{{else}}
+			<div class="col-xs-12 col-md-6">
+				<a href="{{pagePath}}" class="mosaic-item"  title="">
+    				<img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
+		    		<span class="mosaic-item-description">
+        			<span class="mosaic-item-description-head type-font-feature">
+                 		{{title}}
+        			</span>
+        			<span class="mosaic-item-description-sub">
+            			{{stateTag}}
+        			</span>
+        			<span class="mosaic-item-description-copy">
+            			{{description}}
+            			<br><br>
+            			<span class="mosaic-item-description-copy-link"><strong>Read more</strong></span>
+            			<strong class="mosaic-item-description-categories"><em>{{categoryTagName}}</em></strong>
+        			</span>
+    			</span>
+    		<span class="mosaic-item-overlay mosaic-item-overlay-info">
+         		<span class="mosaic-item-overlay-info-icon">
+             		<span class="mosaic-item-overlay-info-head type-font-feature">{{title}}</span>
+                	<span class="mosaic-item-overlay-info-icon-item">
+                 		<img src="{{categoryLogo}}" alt="">
+             		</span>
+             		<span class="mosaic-item-overlay-info-desciption">
+						{{cityTagName}}
+                 		<br>
+                 		<br>
+                  		<span class="mosaic-item-description-copy-link"><strong>Find out more</strong></span>
+             		</span>
+         		</span>
+          		<span class="mosaic-item-overlay-info-categories">
+                	 <strong>{{categoryTagName}}</strong>
+          		</span>
+    		</span>
+				</a>
+        </div>
+		{{/if}}
+
+		{{#if @last}}
+			<div class="col-xs-12 col-md-6">
+				{{{register}}}
+			</div>
+		{{/if}}
 	{{/compare}}
  {{/each}}
 
 <div class="col-xs-12 col-md-6">
- <div class="row">
-      {{#each test}}
-{{#compare @index 1 operator="=="}} 
-{{#if templateName}}
-                <div class="col-xs-12 col-sm-6">
-{{#if linkChecker}}
-<a href="{{postLink}}" title="" class="mosaic-item" >
-{{else}}
-	<a href="{{postLink}}" title="" class="mosaic-item" target="_blank">
-{{/if}}
-    <img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
+	<div class="row">
+    	{{#each test}}
+			{{#compare @index 1 operator="=="}} 
+				{{#if templateName}}
+                	<div class="col-xs-12 col-sm-6">
+						{{#if linkChecker}}
+							<a href="{{postLink}}" title="" class="mosaic-item" >
+						{{else}}
+							<a href="{{postLink}}" title="" class="mosaic-item" target="_blank">
+						{{/if}}	
+    					<img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
+					    <span class="mosaic-item-description">
+        					<span class="mosaic-item-description-head type-font-feature">{{title}}</span>
+        					<span class="mosaic-item-description-sub">{{stateTag}}</span>
+        					<span class="mosaic-item-description-copy">
+            					{{description}}
+            					<br><br>
+            					<span class="mosaic-item-description-copy-link"><strong>Read more</strong></span>
+        					</span>
+				        	<span class="mosaic-item-description-share mosaic-item-description-share-dark">
+            					<img src="{{socialIconsBlack}}" alt="">
+        					</span>
+        					<span class="mosaic-item-description-share mosaic-item-description-share-white">
+            					<img src="{{socialIconsWhite}}" alt=""/>
+        					</span>
+   						</span>
+    					<span class="mosaic-item-overlay mosaic-item-overlay-share">
+         					<span class="mosaic-item-overlay-share-container">
+             				<span class="mosaic-item-overlay-share-copy">
+                				{{messageText}}
+              					<br><br>
+              					<strong>{{userName}} on {{templateName}}</strong>
+            				</span>
+        				</span>
+    					</span>
+           				</a>
+					</div>
+				{{else}}
+   					<div class="col-xs-12 col-sm-6">
+						<a href="{{pagePath}}" class="mosaic-item"  title="">
+    						<img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
+							    <span class="mosaic-item-description">
+        							<span class="mosaic-item-description-head type-font-feature">
+            							{{title}}
+        							</span>
+        						<span class="mosaic-item-description-sub">
+            						{{stateTag}}
+        						</span>
+        						<span class="mosaic-item-description-copy">
+            						{{description}}
+            						<br><br>
+            						<span class="mosaic-item-description-copy-link"><strong>Read more</strong></span>
+            						<strong class="mosaic-item-description-categories"><em>{{categoryTagName}}</em></strong>
+        						</span>
+    							</span>
+							    <span class="mosaic-item-overlay mosaic-item-overlay-info">
+         							<span class="mosaic-item-overlay-info-icon">
+             							<span class="mosaic-item-overlay-info-head type-font-feature">{{title}}</span>
+              							<span class="mosaic-item-overlay-info-icon-item">
+                 							<img src="{{categoryLogo}}" alt="">
+             							</span>
+             							<span class="mosaic-item-overlay-info-desciption">
+											{{cityTagName}}
+                 							<br>
+                 							<br>
+                  							<span class="mosaic-item-description-copy-link"><strong>Find out more</strong></span>
+             							</span>
+         							</span>
+          							<span class="mosaic-item-overlay-info-categories">
+                 						<strong>{{categoryTagName}}</strong>
+          							</span>
+    							</span>
 
-    <span class="mosaic-item-description">
-        <span class="mosaic-item-description-head type-font-feature">{{title}}</span>
-        <span class="mosaic-item-description-sub">{{stateTag}}</span>
-        <span class="mosaic-item-description-copy">
-            {{description}}
-            <br><br>
-            <span class="mosaic-item-description-copy-link"><strong>Read more</strong></span>
-        </span>
-	
-        	<span class="mosaic-item-description-share mosaic-item-description-share-dark">
-            	<img src="{{socialIconsBlack}}" alt="">
-        	</span>
-        	<span class="mosaic-item-description-share mosaic-item-description-share-white">
-            	<img src="{{socialIconsWhite}}" alt=""/>
-        	</span>
-   			</span>
-    		<span class="mosaic-item-overlay mosaic-item-overlay-share">
-         		<span class="mosaic-item-overlay-share-container">
-             		<span class="mosaic-item-overlay-share-copy">
-                		{{messageText}}
-              			<br><br>
-              			<strong>{{userName}} on {{templateName}}</strong>
-            		</span>
-        		</span>
-    		</span>
-           </a>
-</div>
-	{{else}}
-   <div class="col-xs-12 col-sm-6">
-<a href="{{pagePath}}" class="mosaic-item"  title="">
-    <img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
+						</a>
+					</div>
+				{{/if}}
 
-    <span class="mosaic-item-description">
-        <span class="mosaic-item-description-head type-font-feature">
-            {{title}}
-        </span>
-        <span class="mosaic-item-description-sub">
-            {{stateTag}}
-        </span>
-        <span class="mosaic-item-description-copy">
-            {{description}}
-            <br><br>
-            <span class="mosaic-item-description-copy-link"><strong>Read more</strong></span>
-            <strong class="mosaic-item-description-categories"><em>{{categoryTagName}}</em></strong>
-        </span>
-    </span>
-
-
-
-    <span class="mosaic-item-overlay mosaic-item-overlay-info">
-         <span class="mosaic-item-overlay-info-icon">
-             <span class="mosaic-item-overlay-info-head type-font-feature">{{title}}</span>
-              <span class="mosaic-item-overlay-info-icon-item">
-                 <img src="{{categoryLogo}}" alt="">
-             </span>
-             <span class="mosaic-item-overlay-info-desciption">
-			{{cityTagName}}
-                 <br>
-                 <br>
-                  <span class="mosaic-item-description-copy-link"><strong>Find out more</strong></span>
-             </span>
-         </span>
-          <span class="mosaic-item-overlay-info-categories">
-                 <strong>{{categoryTagName}}</strong>
-          </span>
-    </span>
-
-</a>
-</div>
-{{/if}}
-
-        
-
-
+       			{{#if @last}}
+					<div class="col-xs-12 col-md-6">
+ 						<div class="row">
+							{{{register}}}
+						</div>
+    				</div>
+				{{/if}} 
             {{/compare}}
 {{#compare @index 2 operator="=="}}
 {{#if templateName}}
@@ -372,6 +373,13 @@ $(document).ready(function(){
 
 </a>
 </div>
+{{/if}}
+{{#if @last}}
+<div class="col-xs-12 col-md-6">
+ <div class="row">
+{{{register}}}
+</div>
+    </div>
 {{/if}}
                  {{/compare}}
 {{#compare @index 3 operator="=="}}
@@ -454,6 +462,14 @@ $(document).ready(function(){
 </a>
 </div>
 {{/if}}
+{{#if @last}}
+<div class="col-xs-12 col-md-6">
+ <div class="row">
+{{{register}}}
+</div>
+    </div>
+{{/if}}
+
     {{/compare}}
 {{#compare @index 4 operator="=="}}
 
@@ -536,7 +552,17 @@ $(document).ready(function(){
 </a>
 </div>
 {{/if}}
+{{#if @last}}
+<div class="col-xs-12 col-md-6">
+ <div class="row">
+{{{register}}}
+</div>
+    </div>
+{{/if}}
+
                 {{/compare}}
+
+
 
 {{/each}}
     </div>
@@ -629,6 +655,10 @@ $(document).ready(function(){
 
 {{/if}}
 
+{{#if @last}}
+{{{register}}}
+
+{{/if}}
                  {{/compare}}
 
                  {{#compare @index 6 operator="=="}} 
@@ -710,7 +740,13 @@ $(document).ready(function(){
                 </div>
 
 {{/if}}
-                 {{/compare}}
+{{#if @last}}
+<div class="col-xs-12 col-md-6">
+ <div class="row">
+{{{register}}}
+</div>
+    </div>
+{{/if}}           {{/compare}}
                  {{/each}}
             </div>
         </div>
@@ -801,6 +837,13 @@ $(document).ready(function(){
 
 
 
+{{/if}}
+{{#if @last}}
+<div class="col-xs-12 col-md-6">
+<div class="row">
+{{{register}}}
+</div>
+</div>
 {{/if}}
 
                  {{/compare}}
@@ -895,7 +938,13 @@ $(document).ready(function(){
 
 
  {{/if}}
-
+{{#if @last}}
+<div class="col-xs-12 col-md-6 col-md-12 mosaic-ie-100">
+<div class="row"
+{{{register}}}
+</div>
+    </div>
+{{/if}}
                  {{/compare}}
 {{#compare @index 9 operator="=="}}  
 {{#if pageTemplate}}
@@ -1165,10 +1214,10 @@ $(document).ready(function(){
 </div>
 <c:if test="${stateMosaic.template eq 'homepage'}">
     <div class="register" style="display:none">
-    <div class="col-xs-12 col-sm-6 col-md-12 mosaic-ie-100">
+<div class="col-xs-12 col-sm-6 col-md-12 mosaic-ie-100">
 <div class='mosaic-item mosaic-item-register'>
     <div class='mosaic-item mosaic-item-register-inner'>
-        <img src="imgs/base/placeholder-white.jpg" alt="" width="100%"/>
+        <img src="/etc/designs/foodandwine/clientlibs/imgs/placeholders/placeholder-white.jpg" alt="" width="100%"/>
         <div class="mosaic-item-register-content">
             <div class="calltoaction-type-sml1">${stateMosaic.registerTopText}</div>
             <div class="calltoaction-type-lrg">${stateMosaic.registerCenterText}</div>
@@ -1180,7 +1229,7 @@ $(document).ready(function(){
          </div>   
     </div>
 </div>
-                </div>
+</div>
 </div>
                 </c:if>
     <!-- END: MOSAIC -->

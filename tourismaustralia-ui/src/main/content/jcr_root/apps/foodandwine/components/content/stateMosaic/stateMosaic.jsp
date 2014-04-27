@@ -13,6 +13,8 @@ $(document).ready(function(){
 	var stateTag=$(".icon-map-black-active " ).text();
     var catogoryArray=new Array();
     var source   = $("#stateMosaic").html();
+    var register=$(".register").html();
+    var pageTemplate=$(".page").attr('name');
 		 $(document).on("click",'.category-input ', function(){
 			 $("#statemosaic").empty();
 			 $(".btn-secondary").hide();
@@ -40,10 +42,13 @@ $(document).ready(function(){
 			 data : {
 				 stateTag : stateTag,
 				 catogoryArray:catogoryArray,
-                 flag:flag
+                 flag:flag,
+                 register:register,
+                 pageTemplate:pageTemplate
+                 
 			 },
 			 success : function(msg) {
-				 
+				 var text=msg.length;
 				 if(msg.length===0)
 	        			$("#statemosaic").append("<h3 class='faw-article-healdine'>There are no articles for selected tag(s)</h3>" );
 				$(".mosaicgridchanger").show();
@@ -118,9 +123,10 @@ $(document).ready(function(){
 <!-- Script written for handlebar template -->
 
 <script id ="stateMosaic" type="text/x-handlebars-template">
-
+ 
 <div class="row l-row-collapse">
  {{#each test}}
+
 	{{#compare @index 0 operator="=="}} 
 	{{#if templateName}}
         <div class="col-xs-12 col-md-6">
@@ -802,6 +808,9 @@ $(document).ready(function(){
         <div class="col-xs-12 col-md-3 mosaic-ie-25">
             <div class="row">
                  {{#each test}}
+{{#compare @index 7 operator=">"}}
+ 
+{{/compare}}
 
 {{#compare @index 8 operator="=="}}  
 {{#if templateName}}
@@ -889,6 +898,9 @@ $(document).ready(function(){
 
                  {{/compare}}
 {{#compare @index 9 operator="=="}}  
+{{#if pageTemplate}}
+	{{{register}}}
+{{else}}
 {{#if templateName}}
 
 <div class="col-xs-12 col-sm-6 col-md-12 mosaic-ie-100">
@@ -929,7 +941,7 @@ $(document).ready(function(){
 
 {{else}}
 
-               <div class="col-xs-12 col-sm-6 col-md-12 mosaic-ie-100">
+<div class="col-xs-12 col-sm-6 col-md-12 mosaic-ie-100">
 <a href="{{pagePath}}" class="mosaic-item"  title="">
     <img class='mosaic-item-image' src="{{image}}" alt="" width="100%"/>
 
@@ -970,6 +982,8 @@ $(document).ready(function(){
 </a>
                 </div>
 
+
+{{/if}}
 {{/if}}
                  {{/compare}}
                  {{/each}}
@@ -991,7 +1005,8 @@ $(document).ready(function(){
 				<a href="#" class="icon-map icon-map-black icon-map-western"> <span>Western Australia</span> </a>
 			</p>
 		</div> -->
-<!-- End of statelinks-->		
+<!-- End of statelinks-->	
+<input type="hidden" class="page" name="${stateMosaic.template}"/>	
 <div class="faw-category-mosaic">
     <div class="headerlockup">
         <hr class="headerlockup-hr">
@@ -1148,6 +1163,26 @@ $(document).ready(function(){
 <div class="mosaic" id="statemosaic">
     
 </div>
+<c:if test="${stateMosaic.template eq 'homepage'}">
+    <div class="register" style="display:none">
+    <div class="col-xs-12 col-sm-6 col-md-12 mosaic-ie-100">
+<div class='mosaic-item mosaic-item-register'>
+    <div class='mosaic-item mosaic-item-register-inner'>
+        <img src="imgs/base/placeholder-white.jpg" alt="" width="100%"/>
+        <div class="mosaic-item-register-content">
+            <div class="calltoaction-type-sml1">${stateMosaic.registerTopText}</div>
+            <div class="calltoaction-type-lrg">${stateMosaic.registerCenterText}</div>
+            <div class="calltoaction-type-sml1">${stateMosaic.registerBottomText}</div>
+            <p>
+                <a href="${stateMosaic.buttonLink}" class="btn-primary btn-small" target="${stateMosaic.external ? '_BLANK' : '_self'}">${stateMosaic.buttonText}</a>
+            </p>
+            <p class="faw-register-teaser-subline">${stateMosaic.belowButtonText}</p>
+         </div>   
+    </div>
+</div>
+                </div>
+</div>
+                </c:if>
     <!-- END: MOSAIC -->
     <c:if test="${stateMosaic.template ne 'homepage'}"> 
     <p class="type-spacing-120">
@@ -1155,3 +1190,7 @@ $(document).ready(function(){
     </p>
    </c:if> 
 </div>
+
+
+
+               <!--  -->

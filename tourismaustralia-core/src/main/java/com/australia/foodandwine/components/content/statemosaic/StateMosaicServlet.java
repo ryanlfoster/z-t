@@ -75,7 +75,11 @@ public class StateMosaicServlet extends SlingAllMethodsServlet
 	private void process(SlingHttpServletRequest request,SlingHttpServletResponse response)   {
 		String stateTags=request.getParameter("stateTag").toLowerCase();
 		String flag=request.getParameter("flag");
-		String pageTemplate=request.getParameter("template");
+		String pageTemplate=request.getParameter("pageTemplate");
+		
+		if(pageTemplate!=null && (!pageTemplate.equals("homepage")))
+			pageTemplate=null;
+		String register=request.getParameter("register");
 		if(flag.equals("default"))
 		{
 			limit=10;
@@ -212,6 +216,7 @@ public class StateMosaicServlet extends SlingAllMethodsServlet
 					bean.setSocialIconsWhite(socialIconsWhite);
 					bean.setSocialIconsBlack(socialIconsBlack);
 					bean.setTotalResults(totalResults);
+					bean.setRegister(register);
 					categoryTagName="";
 					propertiesList.add(bean);
 					

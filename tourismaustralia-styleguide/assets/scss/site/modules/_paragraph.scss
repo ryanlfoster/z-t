@@ -160,6 +160,34 @@
 
 }
 
+// same styles applied for testing with styleguide
+.styleguide .paragraph-travel-agent-search  {
+
+  //CMS implementation
+  & >  p {
+    text-align: center;
+    padding-left: pxtoem(15px);
+    padding-right: pxtoem(15px);
+    margin: 0 auto;
+    padding-bottom: pxtoem($bottom-spacing);
+  }
+
+  
+
+  @include breakpoint(lg) {
+
+  }
+
+  @include breakpoint(mx) {
+
+    & >  p {      
+      max-width: pxtoem(700px);
+    }
+
+  }
+
+}
+
 /* TEMP SOLUTION FOR PAGE ALIGNMENT *
 .paragraph-video {
   margin-top: 2em;

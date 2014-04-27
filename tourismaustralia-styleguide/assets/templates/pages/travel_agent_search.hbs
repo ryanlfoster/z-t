@@ -11,11 +11,13 @@ layout: layout-base.hbs
 {{/parseJSON}}
 
 
-<div class="paragraph-campaign">
+<div class="paragraph-travel-agent-search">
 
     {{#parseJSON '{"copy": "Nisi amet ultrices odio? Aliquam pellentesque, tristique lacus nec? Ultricies? Proin est magnis, sit platea platea magnis integer nunc montes. Duis ultricies ac magnis cursus dapibus et."}'}}
         {{> paragraph_dynamic}}
     {{/parseJSON}}
+    
+    {{> asp_search_form_result }}
 
     {{> asp_search_form }}
 

@@ -1,7 +1,7 @@
 
 .asp-search-form {
   padding-bottom: pxtoem($bottom-spacing);
-  
+
   .col-xs-12 {
     padding: 0;
 
@@ -64,4 +64,10 @@
     text-align: left;
   }
 
+}
+
+.asp-search-results {
+  text-align: center;
+  color: $search-text-color;
+  margin-top: pxtoem(-40px);
 }

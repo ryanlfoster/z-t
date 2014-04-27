@@ -1518,6 +1518,17 @@
                     ,
                 
             
+                "asp_search_form_result" : {
+                     "data" : {
+                        "title" : "asp_search_form_result",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'asp_search_form_result'}}"
+                }
+                
+                    ,
+                
+            
                 "asp_search_form" : {
                      "data" : {
                         "title" : "asp_search_form",

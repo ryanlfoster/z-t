@@ -57,10 +57,10 @@
 	display: block;
 	position: relative;
 
-	@include breakpoint(lg){
+	@include breakpoint(md){
 		position: absolute;
 		top: 30px;
-		right: 30px;
+		right: 40px;
 		width: 155px;
 	}
 

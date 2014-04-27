@@ -70,12 +70,8 @@
 }
 
 .home-hero-text {    
-  height: 290px; 
+  height: 299px; 
   margin: 0;
-
-  @include breakpoint(sm) {
-    height: 389px;
-  }
 
   .home-hero-title {
     font-size: pxtoem(55px);
@@ -108,10 +104,8 @@
 
   display: table-cell;
   vertical-align: middle;
-  padding-bottom: 60px;
   text-align: center;
   @include breakpoint(sm) {
-    padding-bottom: 70px;
   }
 }
 .home-hero-title {

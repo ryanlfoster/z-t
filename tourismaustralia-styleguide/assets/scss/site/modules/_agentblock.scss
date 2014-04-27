@@ -14,12 +14,13 @@
 	padding: pxtoem(30px);
 	margin: 0 0 pxtoem(15px);
 	text-align: center;
+	position: relative;
 
 	&:last-child {
 		margin-bottom: 0;
 	}
 
-	@include breakpoint(lg){
+	@include breakpoint(md){
 		text-align: left;
 	}
 }
@@ -52,12 +53,29 @@
 	text-align: center;
 }
 
+.agent-block-right {
+	display: block;
+	position: relative;
+
+	@include breakpoint(lg){
+		position: absolute;
+		top: 30px;
+		right: 30px;
+		width: 155px;
+	}
+
+}
+
 .agent-block-form {
 	border-top: 1px solid #808183;
 	margin: pxtoem(30px) pxtoem(-30px) 0;
 	position: relative;
-	padding: pxtoem(40px) pxtoem(15px) 0;
+	padding: pxtoem(40px) pxtoem(20px) 0;
 	text-align: left;
+
+	@include breakpoint(lg){
+		padding: pxtoem(40px) pxtoem(40px) 0;
+	}
 
 	&:after {
 		content: "";
@@ -66,8 +84,14 @@
 		height: 13px;
 		width: 30px;
 		top: -13px;
-		left: 50%;
-		margin-left: -15px;
+		right: 50%;
+		margin-right: -15px;
+
+
+		@include breakpoint(lg){
+			right: 92px;
+			margin-right: 0;
+		}
 	}
 
 	.inputFocus-wrapper {
@@ -76,6 +100,11 @@
 
 	.inputFocus-wrapper textarea {
 		height: 200px;
+
+
+		@include breakpoint(md){
+			height: 168px;
+		}
 	}
 }
 
@@ -88,10 +117,13 @@
 .agent-block-form-btn {
 	text-align: center;
 
-
-    @include breakpoint(lg) {
+    @include breakpoint(md) {
     	text-align: right;
     }	
+
+    a {
+    	width: 155px;
+    }
 }
 
 .agent-block-view-more {

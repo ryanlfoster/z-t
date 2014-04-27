@@ -3,19 +3,21 @@ title: Travel Agent Search
 layout: layout-base.hbs
 ---
 
-{{#parseJSON '{
-	"page_title" : "Travel Specialists Near You",
-    "hero_title" : "Travel Specialists Near You"
-}'}}
-    {{> hero_text }}
-{{/parseJSON}}
+
 
 
 <div class="paragraph-travel-agent-search">
 
-    {{#parseJSON '{"copy": "Nisi amet ultrices odio? Aliquam pellentesque, tristique lacus nec? Ultricies? Proin est magnis, sit platea platea magnis integer nunc montes. Duis ultricies ac magnis cursus dapibus et."}'}}
-        {{> paragraph_dynamic}}
-    {{/parseJSON}}
+{{#parseJSON '{"page_title" : "Travel Specialists Near You"}'}}
+    {{> breadcrumbsdynamic }}
+{{/parseJSON}}
+
+{{#parseJSON '{
+	"title" : "Travel Specialists Near You",
+    "copy" : "Nisi amet ultrices odio? Aliquam pellentesque, tristique lacus nec? Ultricies? Proin est magnis, sit platea platea magnis integer nunc montes. Duis ultricies ac magnis cursus dapibus et."
+}'}}
+    {{> sectionintro }}
+{{/parseJSON}}
     
     {{> asp_search_form_result }}
 

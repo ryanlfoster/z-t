@@ -1,4 +1,15 @@
 
+.asp-search-form {
+  padding-bottom: pxtoem($bottom-spacing);
+  
+  .col-xs-12 {
+    padding: 0;
+
+    @include breakpoint(lg) {
+      padding: 0 15px;
+    }
+  }
+}
 .asp-search-form-wrapper{
   background-color: #d9f1f3;
   text-align: center;

@@ -1,10 +1,17 @@
 .inputFocus-wrapper{
   position: relative;
   border-left: 1px solid $categorylinks-hr-colour;
+
+  @include clearfix;
 }
 
 .inputFocus-wrapper label{
 display:none;
+
+  &.checkbox-label {
+    display: inline-block;
+    font-weight: normal;
+  }
 }
 
 .inputFocus-wrapper input[type="text"],
@@ -56,6 +63,17 @@ display:none;
   }
 }
 
+.inputFocus-wrapper .checkbox-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+}
+
+.inputFocus-wrapper .checkbox-input-label {
+  padding-left: 30px;
+}
+
 .inputFocus-wrapper *::-webkit-input-placeholder {
   color: #333333;
   font-family: $font-family-base-i;
@@ -98,4 +116,9 @@ form input[type=text]::-ms-clear
   border-color:#c5c09b;
   border-left-width:6px;
   margin-left: -5px;
+}
+
+.inputFocus-wrapper.no-focus {
+  border: none;
+  margin-left: 0;
 }

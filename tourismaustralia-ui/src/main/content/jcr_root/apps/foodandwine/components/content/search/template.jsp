@@ -70,7 +70,7 @@
 						class='mosaic-item-image' src="{{imagePath}}" alt="" width="100%" />
 
 						<span class="mosaic-item-description"> <span
-							class="mosaic-item-description-head type-font-feature">{{tiitle}}</span>
+							class="mosaic-item-description-head type-font-feature">{{title}}</span>
 							<span class="mosaic-item-description-sub">{{state}}</span> <span
 							class="mosaic-item-description-copy"> {{pageDescription}}
 								<br>
@@ -132,7 +132,7 @@
 						class='mosaic-item-image' src="{{imagePath}}" alt="" width="100%" />
 
 						<span class="mosaic-item-description"> <span
-							class="mosaic-item-description-head type-font-feature">{{tiitle}}</span>
+							class="mosaic-item-description-head type-font-feature">{{title}}</span>
 							<span class="mosaic-item-description-sub">{{state}}</span> <span
 							class="mosaic-item-description-copy"> {{pageDescription}}
 								<br>

@@ -217,6 +217,8 @@ public class StateMosaicServlet extends SlingAllMethodsServlet {
 				bean.setSocialIconsBlack(socialIconsBlack);
 				bean.setTotalResults(totalResults);
 				categoryTagName = "";
+				cityTagName="";
+ 				stateTitle="";
 				propertiesList.add(bean);
 
 			}

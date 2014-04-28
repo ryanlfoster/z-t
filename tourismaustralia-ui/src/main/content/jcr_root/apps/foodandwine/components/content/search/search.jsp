@@ -60,9 +60,9 @@
 				<select class="input-select input-select-small">
 					<option value="" selected="selected" >Filter by
 						location</option>
-					<option value="ta:place/australia-capital-teritory">ACT</option>
+					<option value="ta:place/australia-capital-territory">ACT</option>
 					<option value="ta:place/new-south-wales">NSW</option>
-					<option value="ta:place/northern-terriotory">NT</option>
+					<option value="ta:place/northern-territory">NT</option>
 					<option value="ta:place/queensland">QLD</option>
 					<option value="ta:place/south-australia">SA</option>
 					<option value="ta:place/tasmania">TAS</option>

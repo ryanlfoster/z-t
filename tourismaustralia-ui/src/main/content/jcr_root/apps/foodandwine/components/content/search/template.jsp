@@ -14,7 +14,7 @@
 								more</strong></span>
 				</span> <span
 					class="mosaic-item-description-share mosaic-item-description-share-dark">
-						<img src="imgs/base/share/share-instagram-black.png" alt="">
+						<img src="{{socialIconsBlack}}" alt="">
 				</span> <span
 					class="mosaic-item-description-share mosaic-item-description-share-white">
 						<img src="{{socialIconsWhite}}" alt="" />
@@ -70,7 +70,7 @@
 						class='mosaic-item-image' src="{{imagePath}}" alt="" width="100%" />
 
 						<span class="mosaic-item-description"> <span
-							class="mosaic-item-description-head type-font-feature">{{tiitle}}</span>
+							class="mosaic-item-description-head type-font-feature">{{title}}</span>
 							<span class="mosaic-item-description-sub">{{state}}</span> <span
 							class="mosaic-item-description-copy"> {{pageDescription}}
 								<br>
@@ -102,8 +102,8 @@
 					<span class="mosaic-item-description"> <span
 						class="mosaic-item-description-head type-font-feature">
 							{{title}} </span> <span class="mosaic-item-description-sub">
-							{{stateTag}} </span> <span class="mosaic-item-description-copy">
-							{{description}} <br>
+							{{state}} </span> <span class="mosaic-item-description-copy">
+							{{pageDescription}} <br>
 						<br> <span class="mosaic-item-description-copy-link"><strong>Read
 									more</strong></span> <strong class="mosaic-item-description-categories"><em>{{primaryCategory}}</em></strong>
 					</span>
@@ -111,7 +111,7 @@
 						<span class="mosaic-item-overlay-info-icon"> <span
 							class="mosaic-item-overlay-info-head type-font-feature">{{title}}</span>
 							<span class="mosaic-item-overlay-info-icon-item"> <img
-								src="{{categoryLogo}}" alt="">
+								src="{{icon}}" alt="">
 						</span> <span class="mosaic-item-overlay-info-desciption">
 								{{city}} <br> <br> <span
 								class="mosaic-item-description-copy-link"><strong>Find
@@ -132,7 +132,7 @@
 						class='mosaic-item-image' src="{{imagePath}}" alt="" width="100%" />
 
 						<span class="mosaic-item-description"> <span
-							class="mosaic-item-description-head type-font-feature">{{tiitle}}</span>
+							class="mosaic-item-description-head type-font-feature">{{title}}</span>
 							<span class="mosaic-item-description-sub">{{state}}</span> <span
 							class="mosaic-item-description-copy"> {{pageDescription}}
 								<br>
@@ -164,8 +164,8 @@
 					<span class="mosaic-item-description"> <span
 						class="mosaic-item-description-head type-font-feature">
 							{{title}} </span> <span class="mosaic-item-description-sub">
-							{{stateTag}} </span> <span class="mosaic-item-description-copy">
-							{{description}} <br>
+							{{state}} </span> <span class="mosaic-item-description-copy">
+							{{pageDescription}} <br>
 						<br> <span class="mosaic-item-description-copy-link"><strong>Read
 									more</strong></span> <strong class="mosaic-item-description-categories"><em>{{primaryCategory}}</em></strong>
 					</span>
@@ -173,7 +173,7 @@
 						<span class="mosaic-item-overlay-info-icon"> <span
 							class="mosaic-item-overlay-info-head type-font-feature">{{title}}</span>
 							<span class="mosaic-item-overlay-info-icon-item"> <img
-								src="{{categoryLogo}}" alt="">
+								src="{{icon}}" alt="">
 						</span> <span class="mosaic-item-overlay-info-desciption">
 								{{city}} <br> <br> <span
 								class="mosaic-item-description-copy-link"><strong>Find
@@ -226,8 +226,8 @@
 					<span class="mosaic-item-description"> <span
 						class="mosaic-item-description-head type-font-feature">
 							{{title}} </span> <span class="mosaic-item-description-sub">
-							{{stateTag}} </span> <span class="mosaic-item-description-copy">
-							{{description}} <br>
+							{{state}} </span> <span class="mosaic-item-description-copy">
+							{{pageDescription}} <br>
 						<br> <span class="mosaic-item-description-copy-link"><strong>Read
 									more</strong></span> <strong class="mosaic-item-description-categories"><em>{{primaryCategory}}</em></strong>
 					</span>
@@ -235,7 +235,7 @@
 						<span class="mosaic-item-overlay-info-icon"> <span
 							class="mosaic-item-overlay-info-head type-font-feature">{{title}}</span>
 							<span class="mosaic-item-overlay-info-icon-item"> <img
-								src="{{categoryLogo}}" alt="">
+								src="{{icon}}" alt="">
 						</span> <span class="mosaic-item-overlay-info-desciption">
 								{{city}} <br> <br> <span
 								class="mosaic-item-description-copy-link"><strong>Find

@@ -13,7 +13,7 @@
 					<p class="custommap-description-head"><strong>Phone</strong></p>
 					<p>${map.phone}</p>
 				</c:if>
-				<c:if test="${not empty map.suburb || not empty map.addresss || not empty map.state} ">
+				<c:if test="${not empty map.suburb || not empty map.address1 || not empty map.state} ">
 					<p class="custommap-description-head"><strong>Address</strong></p>
 					<p>${map.address1}</p>
 					<p>${map.suburb} ${map.state} ${map.postcode}</p>

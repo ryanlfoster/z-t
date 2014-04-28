@@ -13,20 +13,7 @@
 <cq:include script="template.jsp" />
 
 </script>
-<!-- Included for local testing purpose This should be from statelinks component -->
-<!-- <div class="l-display-none-md">
-			<p class="icon-map-wrapper">
-				<a href="#" class="icon-map icon-map-black icon-map-capital"> <span>Australian Captital Territory</span> </a>
-				<a href="#" class="icon-map icon-map-black icon-map-nsw"> <span>New South Wales</span> </a>
-				<a href="#" class="icon-map icon-map-black icon-map-northern"> <span>Northern Territory</span> </a>
-				<a href="#" class="icon-map icon-map-black icon-map-queensland"> <span>Queensland</span> </a>
-				<a href="#" class="icon-map icon-map-black icon-map-south"> <span>South Australia</span> </a>
-				<a href="#" class="icon-map icon-map-black icon-map-tasmania"> <span>Tasmania</span> </a>
-				<a href="#" class="icon-map icon-map-black icon-map-black-active icon-map-victoria"> <span>Victoria</span> </a>
-				<a href="#" class="icon-map icon-map-black icon-map-western"> <span>Western Australia</span> </a>
-			</p>
-		</div> -->
-<!-- End of statelinks-->	
+
 <input type="hidden" class="page" name="${stateMosaic.template}"/>
 <input type="hidden" class="resourcePath" value="${resource.path}"/>	
 <div class="faw-category-mosaic">
@@ -185,26 +172,6 @@
 <div class="mosaic" id="statemosaic">
     
 </div>
-<c:if test="${stateMosaic.template eq 'homepage'}">
-    <div class="register" style="display:none">
-<div class="col-xs-12 col-sm-6 col-md-12 mosaic-ie-100">
-<div class='mosaic-item mosaic-item-register'>
-    <div class='mosaic-item mosaic-item-register-inner'>
-        <img src="/etc/designs/foodandwine/clientlibs/imgs/placeholders/placeholder-white.jpg" alt="" width="100%"/>
-        <div class="mosaic-item-register-content">
-            <div class="calltoaction-type-sml1">${stateMosaic.registerTopText}</div>
-            <div class="calltoaction-type-lrg">${stateMosaic.registerCenterText}</div>
-            <div class="calltoaction-type-sml1">${stateMosaic.registerBottomText}</div>
-            <p>
-                <a href="${stateMosaic.buttonLink}" class="btn-primary btn-small" target="${stateMosaic.external ? '_BLANK' : '_self'}">${stateMosaic.buttonText}</a>
-            </p>
-            <p class="faw-register-teaser-subline">${stateMosaic.belowButtonText}</p>
-         </div>   
-    </div>
-</div>
-</div>
-</div>
-                </c:if>
     <!-- END: MOSAIC -->
     <c:if test="${stateMosaic.template ne 'homepage'}"> 
     <p class="type-spacing-120">

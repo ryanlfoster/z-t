@@ -9,6 +9,13 @@ $(document).ready(function() {
 		var register = $this.find(".register").html();
 		var resourcePath = $this.find(".resourcePath").val();
 		var pageTemplate = $this.find(".page").attr('name');
+		var type="grid";
+		$(this).find('.mosaicgridchanger-grid-button').click(function(){
+			type="grid";
+		});
+		$(this).find('.mosaicgridchanger-list-button').click(function(){
+			type="list";
+		});
 		$(document).on("click", '.category-input ', function() {
 			$this.find(".mosaic").empty();
 			$this.find(".btn-secondary").hide();
@@ -53,6 +60,8 @@ $(document).ready(function() {
 					data = data.replace("]", "");
 					data = "{test:[" + data + "]}";
 					var obj = eval('(' + data + ')');
+					obj.type= type;
+					obj.isGrid=type == 'grid' ? true : false;
 					Handlebars.registerHelper('compare', function(lvalue, rvalue, options) {
 						if (arguments.length < 3)
 							throw new Error("Handlerbars Helper 'compare' needs 2 parameters");
@@ -128,6 +137,8 @@ $(document).ready(function() {
 				data = data.replace("]", "");
 				data = "{test:[" + data + "]}";
 				var obj = eval('(' + data + ')');
+				obj.type= type;
+				obj.isGrid=type == 'grid' ? true : false;
 				Handlebars.registerHelper('compare', function(lvalue, rvalue, options) {
 					if (arguments.length < 3)
 						throw new Error("Handlerbars Helper 'compare' needs 2 parameters");
@@ -195,6 +206,8 @@ $(document).ready(function() {
 					data = data.replace("]", "");
 					data = "{test:[" + data + "]}";
 					var obj = eval('(' + data + ')');
+					obj.type= type;
+					obj.isGrid= type == 'grid' ? true : false;
 					var template = Handlebars.compile(source);
 					$("#statemosaic").append(template(obj));
 				}

@@ -78,7 +78,7 @@ public class StateMosaicServlet extends SlingAllMethodsServlet {
 
 		if (pageTemplate != null && (!pageTemplate.equals("homepage")))
 			pageTemplate = null;
-		String register = request.getParameter("register");
+		
 		if (flag.equals("default")) {
 			limit = 10;
 			offset = 0;
@@ -216,7 +216,6 @@ public class StateMosaicServlet extends SlingAllMethodsServlet {
 				bean.setSocialIconsWhite(socialIconsWhite);
 				bean.setSocialIconsBlack(socialIconsBlack);
 				bean.setTotalResults(totalResults);
-				bean.setRegister(register);
 				categoryTagName = "";
 				propertiesList.add(bean);
 

@@ -11524,8 +11524,9 @@ input[type=checkbox].checkbox + label.checkbox-label {
   margin: 0em;
   line-height: 1.3em;
   text-decoration: none;
+  text-align: left;
 }
-/* line 73, ../../assets/scss/site/modules/_sortedlist.scss */
+/* line 74, ../../assets/scss/site/modules/_sortedlist.scss */
 .sorted-list-item a {
   text-decoration: none;
   font-size: 1em;
@@ -11540,7 +11541,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
   }
 }
 
-/* line 85, ../../assets/scss/site/modules/_sortedlist.scss */
+/* line 86, ../../assets/scss/site/modules/_sortedlist.scss */
 .sorted-list-item li a {
   font-size: 1.1em;
   font-family: "ProximaNova Bold", Helvetica, Arial, sans-serif;
@@ -11548,7 +11549,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
   text-decoration: underline;
 }
 
-/* line 92, ../../assets/scss/site/modules/_sortedlist.scss */
+/* line 93, ../../assets/scss/site/modules/_sortedlist.scss */
 .sorted-list-pagination {
   position: relative;
   text-align: center;
@@ -11558,7 +11559,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
   padding-right: 0;
 }
 
-/* line 101, ../../assets/scss/site/modules/_sortedlist.scss */
+/* line 102, ../../assets/scss/site/modules/_sortedlist.scss */
 .sorted-list-results-label {
   font-size: 0.9em;
   position: relative;
@@ -11566,7 +11567,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
   top: 0;
 }
 @media (min-width: 1200px) {
-  /* line 101, ../../assets/scss/site/modules/_sortedlist.scss */
+  /* line 102, ../../assets/scss/site/modules/_sortedlist.scss */
   .sorted-list-results-label {
     position: absolute;
     left: 0;
@@ -11574,7 +11575,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
   }
 }
 
-/* line 115, ../../assets/scss/site/modules/_sortedlist.scss */
+/* line 116, ../../assets/scss/site/modules/_sortedlist.scss */
 .sorted-list-pagination-buttons .btn-square {
   width: 40px;
   height: 40px;
@@ -11582,7 +11583,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
   font-size: 1.2em;
 }
 @media (min-width: 1200px) {
-  /* line 115, ../../assets/scss/site/modules/_sortedlist.scss */
+  /* line 116, ../../assets/scss/site/modules/_sortedlist.scss */
   .sorted-list-pagination-buttons .btn-square {
     width: 60px;
     height: 60px;
@@ -11591,7 +11592,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
   }
 }
 
-/* line 130, ../../assets/scss/site/modules/_sortedlist.scss */
+/* line 131, ../../assets/scss/site/modules/_sortedlist.scss */
 .sorted-list-head-mobile {
   border-top: 1px #bbbbbb solid;
   margin-top: 2em;

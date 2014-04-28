@@ -175,11 +175,11 @@ $(document).ready(function() {
 			}
 		});
 
-		$(".btn-secondary ").click(function() {
+		$this.find(".btn-secondary ").click(function() {
 			var flag = "showMore";
 			$.ajax({
 				type : "GET",
-				url : "${resource.path}.ccs.json",
+				url : resourcePath+".ccs.json",
 				dataType : "json",
 				data : {
 					stateTag : stateTag,

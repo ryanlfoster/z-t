@@ -93,7 +93,7 @@ public class StateMosaicServlet extends SlingAllMethodsServlet {
 		TagManager tagManager = request.getResourceResolver().adaptTo(TagManager.class);
 		PageManager pageManager = request.getResourceResolver().adaptTo(PageManager.class);
 		Session session = request.getResourceResolver().adaptTo(Session.class);
-		if (categoryTags != null) {
+		if (categoryTags != null && categoryTags.length > 0) {
 			if (categoryTags.length == 1) {
 				queryString = "SELECT * FROM [nt:base] AS s WHERE ISDESCENDANTNODE([/content/food-and-wine]) and [cq:tags] like '%"
 					+ stateTags.trim()

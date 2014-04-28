@@ -4,122 +4,8 @@
 
 <c:set var="stateMosaic" value="<%=new StateMosaic(slingRequest) %>"/>
 
-<%-- <cq:includeClientLib js="faw-stateMosaic" /> --%>
- <script type="text/javascript">
+<cq:includeClientLib js="faw-stateMosaic" />
 
-$(document).ready(function(){
-	 $(".btn-secondary").hide();
-	 $(".mosaicgridchanger").hide();
-	var stateTag=$(".icon-map-black-active " ).text();
-    var catogoryArray=new Array();
-    var source   = $("#stateMosaic").html();
-    var register=$(".register").html();
-    var pageTemplate=$(".page").attr('name');
-		 $(document).on("click",'.category-input ', function(){
-			 $("#statemosaic").empty();
-			 $(".btn-secondary").hide();
-			 $(".mosaicgridchanger").hide();
-             var flag="default";
-			 var x=$(this).attr('id');
-		     if($(this).is(":checked"))
-	         {
-	             var checked=$(this).attr('value');
-	             if($.inArray(checked, catogoryArray)===-1)
-	            	catogoryArray.push(checked);
-	         }
-	         else
-	         {
-				var uncheked= $(this).attr('value');
-				if($.inArray(uncheked, catogoryArray)!==-1)
-                    catogoryArray = jQuery.grep(catogoryArray, function(value) {
-						 return value != uncheked;
-					});
-	         }
-			 $.ajax({
-             type : "POST",
-			 url : "${resource.path}.ccs.json",
-             dataType:"json",
-			 data : {
-				 stateTag : stateTag,
-				 catogoryArray:catogoryArray,
-                 flag:flag,
-                 register:register,
-                 pageTemplate:pageTemplate
-                 
-			 },
-			 success : function(msg) {
-				 var text=msg.length;
-				 if(msg.length===0)
-	        			$("#statemosaic").append("<h3 class='faw-article-healdine'>There are no articles for selected tag(s)</h3>" );
-				$(".mosaicgridchanger").show();
-				if(msg[0].totalResults>10)						
-					$(".btn-secondary").show();
-        		else
-        			$(".btn-secondary").hide();
-        		
-                var data = JSON.stringify(msg);
-                data=data.replace("[","");
-                data=data.replace("]","");
-                data="{test:["+data+"]}";
-                var obj=eval('('+data+')');
-				Handlebars.registerHelper('compare', function(lvalue, rvalue, options) {
-				    if (arguments.length < 3)
-	        			throw new Error("Handlerbars Helper 'compare' needs 2 parameters");
-	    			operator = options.hash.operator || "==";
-				    var operators = {
-				        '==':       function(l,r) { return l == r; },
-				        '===':      function(l,r) { return l === r; },
-				        '!=':       function(l,r) { return l != r; },
-				        '<':        function(l,r) { return l < r; },
-				        '>':        function(l,r) { return l > r; },
-				        '<=':       function(l,r) { return l <= r; },
-				        '>=':       function(l,r) { return l >= r; },
-				        'typeof':   function(l,r) { return typeof l == r; }
-				    }
-				    if (!operators[operator])
-				        throw new Error("Handlerbars Helper 'compare' doesn't know the operator "+operator);
-	    			var result = operators[operator](lvalue,rvalue);
-	    			if( result ) {
-	        			return options.fn(this);
-				    } else {
-				        return options.inverse(this);
-				    }
-				});   
-				var template = Handlebars.compile(source);
-				$("#statemosaic").append(template(obj));
-			}, 
-			error : function(xhr) {
-				console.log('there is some error');
-			}
-		});	
-     });
-     	$(".btn-secondary ").click(function(){
-        	var flag="showMore";
-			$.ajax({
-	            type : "POST",
-				url : "${resource.path}.ccs.json",
-	            dataType:"json",
-				data : {
-					stateTag : stateTag,
-	                catogoryArray:catogoryArray,
-	                flag:flag
-				},
-				success : function(msg) {
-					$(".mosaicgridchanger").show();
-					if(msg[0].totalResults<=10)
-						$(".btn-secondary").hide();
-	                var data = JSON.stringify(msg);
-	                data=data.replace("[","");
-	                data=data.replace("]","");
-	                data="{test:["+data+"]}";
-	                var obj=eval('('+data+')');
-	                var template = Handlebars.compile(source);
-					$("#statemosaic").append(template(obj));
-	            }
-        });
-    });
-}); 
-</script>
 <!-- Script written for handlebar template -->
 
 <script id ="stateMosaic" type="text/x-handlebars-template">
@@ -1055,7 +941,8 @@ $(document).ready(function(){
 			</p>
 		</div> -->
 <!-- End of statelinks-->	
-<input type="hidden" class="page" name="${stateMosaic.template}"/>	
+<input type="hidden" class="page" name="${stateMosaic.template}"/>
+<input type="hidden" class="resourcePath" value="${resource.path}"/>	
 <div class="faw-category-mosaic">
     <div class="headerlockup">
         <hr class="headerlockup-hr">

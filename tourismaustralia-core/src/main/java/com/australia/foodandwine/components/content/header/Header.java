@@ -27,7 +27,7 @@ public class Header {
 	@PathField(rootPath = "/content/dam", rootTitle = "Assets")
 	private String imagePath;
 
-	@DialogField(fieldLabel = "Search Icon Path", name = "./searchPath", required = true)
+	@DialogField(fieldLabel = "Search Path", name = "./searchPath", required = true)
 	@PathField(rootPath = "/content")
 	private String searchPath;
 
@@ -65,7 +65,7 @@ public class Header {
 		Resource headerResource = request.getResourceResolver().getResource(headerPath);
 		if (headerResource != null) {
 			ValueMap properties = headerResource.adaptTo(ValueMap.class);
-			searchPath = properties.get(SEARCH_PATH, StringUtils.EMPTY);
+			searchPath = LinkUtils.getHrefFromPath(properties.get(SEARCH_PATH, StringUtils.EMPTY));
 			imagePath = properties.get(IMAGEPATH, StringUtils.EMPTY);
 			imageAltTag = properties.get(IMAGE_ALTTAG, StringUtils.EMPTY);
 			headerDataList = new ArrayList<TextLink>();

@@ -1,6 +1,17 @@
 var counter = 1;
+
 $(function() {
+var type="grid";
+$(this).find('.mosaicgridchanger-grid-button').click(function(){
+	type="grid";
+});
+$(this).find('.mosaicgridchanger-list-button').click(function(){
+	type="list";
+});
 $(".type-spacing-120 .btn-secondary").hide();
+var queryParameter = getParameterByName("q");
+if(queryParameter != null) interestedSearch(queryParameter);
+
 $(".faw-hero-home-container .btn-secondary").click(function(){ 
 var searchParameter = $(".input-field-blank").val();
 var source = $("#searchMosaic").html();
@@ -29,7 +40,9 @@ var location = $('#stateDropdown').find('option:selected').val();
            data=data.replace(/\]/g,"");
            data="{searchResults:["+data+"]}";
            obj=eval('('+data+')');
-			Handlebars.registerHelper('compare', function(lvalue, rvalue, options) {
+           obj.type= type;
+           obj.isGrid= type == 'grid' ? true : false;
+           Handlebars.registerHelper('compare', function(lvalue, rvalue, options) {
 			    if (arguments.length < 3)
        			throw new Error("Handlerbars Helper 'compare' needs 2 parameters");
    			operator = options.hash.operator || "==";
@@ -75,6 +88,13 @@ var location = $('#stateDropdown').find('option:selected').val();
 
 
 $(function() {
+var type="grid";
+$(this).find('.mosaicgridchanger-grid-button').click(function(){
+	type="grid";
+});
+$(this).find('.mosaicgridchanger-list-button').click(function(){
+	type="list";
+});
 
 $(".type-spacing-120 .btn-secondary").click(function(){ 
 var searchParameter = $(".input-field-blank").val();
@@ -100,6 +120,8 @@ var source = $("#searchMosaic").html();
            	 data=data.replace(/\]/g,"");
              data="{searchResults:["+data+"]}";
              obj=eval('('+data+')');
+             obj.type= type;
+             obj.isGrid= type == 'grid' ? true : false;
              var template = Handlebars.compile(source);
              $(".mosaic").append(template(obj));
              if(articleCount===undefined){
@@ -119,10 +141,17 @@ var source = $("#searchMosaic").html();
 	});
 });
 
-
+function getParameterByName(name) {
+    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+        results = regex.exec(location.search);
+    return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+}
 function interestedSearch(listItem){
 	$(".faw-hero-home-container .input-field-blank").val(listItem);
 	$(".faw-hero-home-container .btn-secondary").trigger('click');
 }
-
-
+$(document).ready(function() {
+	var queryParameter = getParameterByName("q");
+if(queryParameter != null) interestedSearch(queryParameter);
+});

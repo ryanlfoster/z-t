@@ -45,19 +45,31 @@
     	
     	if(isGrid){
     		$(scope.element).find(".mosaicgridchanger-grid-button").addClass('mosaicgridchanger-button-active');
-    		scope.setBaseGrid(scope);
+    		$(".mosaic").each(function(index, element){
+    			
+    			if(!$(element).hasClass('mosaic-static'))
+    			{
+    				scope.setBaseGrid(scope,$(element));
+    			}
+    		});
+    		
     	}else{
     		$(scope.element).find(".mosaicgridchanger-list-button").addClass('mosaicgridchanger-button-active');
-    		scope.setListGrid(scope);
+    		$(".mosaic").each(function(index, element){
+    			if(!$(element).hasClass('mosaic-static'))
+    			{
+    				scope.setListGrid(scope,$(element));
+    			}
+    		});
     	}
     };
     
-    Plugin.prototype.setListGrid = function(scope){
-    	var colMd6 = $('.mosaic').find('.col-md-6');
-    	var colMd3 = $('.mosaic').find('.col-md-3');
-    	var colSm6 = $('.mosaic').find('.col-sm-6');
+    Plugin.prototype.setListGrid = function(scope,mosaic){
+    	var colMd6 = mosaic.find('.col-md-6');
+    	var colMd3 = mosaic.find('.col-md-3');
+    	var colSm6 = mosaic.find('.col-sm-6');
     	
-    	var mosaicItems = $('.mosaic').find('.mosaic-item');
+    	var mosaicItems = mosaic.find('.mosaic-item');
     	
     	$(colMd6).each(function(index, element){
     		$(element).removeClass('col-md-6');
@@ -80,12 +92,12 @@
     	});
     };
     
-    Plugin.prototype.setBaseGrid = function(scope){
-    	var colMd6 = $('.mosaic').find('.col-reset-md-6');
-    	var colMd3 = $('.mosaic').find('.col-reset-md-3');
-    	var colSm6 = $('.mosaic').find('.col-reset-sm-6');
+    Plugin.prototype.setBaseGrid = function(scope, mosaic){
+    	var colMd6 = mosaic.find('.col-reset-md-6');
+    	var colMd3 = mosaic.find('.col-reset-md-3');
+    	var colSm6 = mosaic.find('.col-reset-sm-6');
     	
-    	var mosaicItems = $('.mosaic').find('.mosaic-item');
+    	var mosaicItems = mosaic.find('.mosaic-item');
     	
     	$(colMd6).each(function(index, element){
     		$(element).removeClass('col-reset-md-6');

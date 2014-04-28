@@ -1,6 +1,7 @@
 $(document).ready(function() {
 	
 	$('.stateMosaic').each(function() {
+		var currentXhr;
 		$this = $(this);
 		$this.find(".btn-secondary").hide();
 		$this.find(".mosaicgridchanger").hide();
@@ -33,7 +34,10 @@ $(document).ready(function() {
 						return value != uncheked;
 					});
 			}
-			$.ajax({
+			if(currentXhr){
+				currentXhr.abort();
+			}
+			currentXhr=$.ajax({
 				type : "GET",
 				url : resourcePath + ".ccs.json",
 				dataType : "json",
@@ -109,7 +113,10 @@ $(document).ready(function() {
 			});
 		});
 		var flag = "default";
-		$.ajax({
+		if(currentXhr){
+			currentXhr.abort();
+		}
+		currentXhr=$.ajax({
 			type : "GET",
 			url : resourcePath + ".ccs.json",
 			dataType : "json",
@@ -186,7 +193,10 @@ $(document).ready(function() {
 
 		$this.find(".btn-secondary ").click(function() {
 			var flag = "showMore";
-			$.ajax({
+			if(currentXhr){
+				currentXhr.abort();
+			}
+			currentXhr=$.ajax({
 				type : "GET",
 				url : resourcePath+".ccs.json",
 				dataType : "json",

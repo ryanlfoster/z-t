@@ -10,8 +10,8 @@
         <form class="nav-search-form" method="get" action="${Header.searchPath}">
             <fieldset class="nav-search-fieldset">
                 <label class="nav-search-label" for="nav-search-field">What would you like to explore?</label>
-                <input class="nav-search-text" id="nav-search-field" type="text" name="" value="" placeholder="What would you like to explore in Australia?">
-                <button class="biutton nav-search-button" type="submit" name="submit" value="submit">
+                <input class="nav-search-text" id="nav-search-field" type="text" name="q" value="" placeholder="What would you like to explore in Australia?">
+                <button class="nav-search-button" type="submit">
                 </button>
             </fieldset>
         </form>

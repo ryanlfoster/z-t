@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="12008" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Pagina iniziale]]></headline>
+            <href><![CDATA[/it/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Pianifica]]></headline>
+            <href><![CDATA[/it/plan.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Offerte speciali*]]></headline>
+            <href><![CDATA[/it/plan/plan-your-trip/specialoffers.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/plan-plan-your-trip-special-offers.jpg]]></img_background>
+    <hdl_Title><![CDATA[Offerte speciali*]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/plan-plan-your-trip-special-offers-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/plan-plan-your-trip-special-offers-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[no]]></opt_PartnerLead>
+    <stf_description><![CDATA[Di tanto in tanto, gli operatori turistici lanciano offerte speciali per aiutarti a pianificare il tuo viaggio in Australia e rendere la tua vacanza davvero memorabile.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[y]]></stf_IsMobile>
+    <stf_keywords><![CDATA[Offerte speciali, offerte per l'Australia, offerte di viaggio in Australia, offerte di viaggio per l'Australia]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Ulteriori Informazioni]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Offerte speciali*]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        In questo momento non sono disponibili offerte speciali, ma ci&ograve; non significa che devi rinunciare al tuo viaggio in Australia! Torna regolarmente a visitare questo sito per scoprire le ultime offerte speciali.
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/it/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/it/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/it/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/it/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/it/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/it/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/it/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/it/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/it/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/it/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/it/Transport.ignore]]></anc_Transport>
+<hdl_Title><![CDATA[Plan Your Visit]]></hdl_Title>
+<language><![CDATA[ITA]]></language>
+<stf_Accomodation><![CDATA[]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[]]></stf_Events>
+<stf_Hire><![CDATA[]]></stf_Hire>
+<stf_Informationservices><![CDATA[]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[]]></stf_StateFilter>
+<stf_Tours><![CDATA[]]></stf_Tours>
+<stf_Transport><![CDATA[]]></stf_Transport>
+</PlanYourVisit>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Offerte speciali*]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        Di tanto in tanto, gli operatori turistici lanciano offerte speciali per aiutarti a pianificare il tuo viaggio in Australia e rendere la tua vacanza davvero memorabile.
+    ]]></txt_Information>
+            <con_CenterContent>
+                <SpecialOffersCountry isTemplate="1">
+    <hdl_Title><![CDATA[Italy]]></hdl_Title>
+    <con_Category>
+        <SpecialOffersItem isTemplate="1">
+    <hdl_Title><![CDATA[Prenota e parti]]></hdl_Title>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <img_Thumbnail><![CDATA[/contentimages/Campaigns/special-offers-it-grandi-stazioni.jpg]]></img_Thumbnail>
+    <stf_ThumnailTeaserOnPageCaption><![CDATA[Prenota e parti]]></stf_ThumnailTeaserOnPageCaption>
+    <img_ThumbnailTeaserOnPage><![CDATA[/contentimages/Campaigns/special-offers-it-grandi-stazioni-hl.jpg]]></img_ThumbnailTeaserOnPage>
+    <anc_ListItems>
+        <anc_ListItem>
+            <url><![CDATA[/it/grandi-stazioni-it.xml]]></url>
+            <hdl_Title><![CDATA[Prenota e parti]]></hdl_Title>
+            <txt_Teaser><![CDATA[
+        Scopri speciali offerte di viaggio e parti subito per l’Australia.
+    ]]></txt_Teaser>
+            <stf_IsExternalSiteArticle><![CDATA[no]]></stf_IsExternalSiteArticle>
+            <stf_TrackingTitle><![CDATA[grandistazioniit]]></stf_TrackingTitle>
+            <stf_LinkLearnMore><![CDATA[Ulteriori informazioni]]></stf_LinkLearnMore>
+            <stf_externalLink><![CDATA[]]></stf_externalLink>
+            <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+            <stf_TrackingEvent><![CDATA[specialoffers]]></stf_TrackingEvent>
+            <stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+            <med_File><![CDATA[]]></med_File>
+        </anc_ListItem>
+    </anc_ListItems>
+</SpecialOffersItem><SpecialOffersItem isTemplate="1">
+    <hdl_Title><![CDATA[Two Week Walkabout]]></hdl_Title>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <img_Thumbnail><![CDATA[/contentimages/special-offers-two-week-walkabout.jpg]]></img_Thumbnail>
+    <stf_ThumnailTeaserOnPageCaption><![CDATA[Two Week Walkabout]]></stf_ThumnailTeaserOnPageCaption>
+    <img_ThumbnailTeaserOnPage><![CDATA[/contentimages/special-offers-two-week-walkabout-hl.jpg]]></img_ThumbnailTeaserOnPage>
+    <anc_ListItems>
+        <anc_ListItem>
+            <url><![CDATA[/it/promotions/tww_it.xml]]></url>
+            <hdl_Title><![CDATA[Two week Walkabout]]></hdl_Title>
+            <txt_Teaser><![CDATA[
+        Qui, gli aborigeni, lo chiamano walkabout. Stacchi la spina, molli tutto e parti per un viaggio. 
+    ]]></txt_Teaser>
+            <stf_IsExternalSiteArticle><![CDATA[no]]></stf_IsExternalSiteArticle>
+            <stf_TrackingTitle><![CDATA[twoweekwalkaboutit]]></stf_TrackingTitle>
+            <stf_LinkLearnMore><![CDATA[Ulteriori informazioni]]></stf_LinkLearnMore>
+            <stf_externalLink><![CDATA[]]></stf_externalLink>
+            <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+            <stf_TrackingEvent><![CDATA[specialoffers]]></stf_TrackingEvent>
+            <stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+            <med_File><![CDATA[]]></med_File>
+        </anc_ListItem>
+    </anc_ListItems>
+</SpecialOffersItem><SpecialOffersItem isTemplate="1">
+    <hdl_Title><![CDATA[I Love Australia]]></hdl_Title>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <img_Thumbnail><![CDATA[/contentimages/special-offers-i-love-australia.jpg]]></img_Thumbnail>
+    <stf_ThumnailTeaserOnPageCaption><![CDATA[I Love Australia]]></stf_ThumnailTeaserOnPageCaption>
+    <img_ThumbnailTeaserOnPage><![CDATA[/contentimages/special-offers-i-love-australia-hl.jpg]]></img_ThumbnailTeaserOnPage>
+    <anc_ListItems>
+        <anc_ListItem>
+            <url><![CDATA[/it/promotions/romantico_it.xml]]></url>
+            <hdl_Title><![CDATA[I Love Australia]]></hdl_Title>
+            <txt_Teaser><![CDATA[
+        L’Australia &egrave; il paese ideale per fantastici viaggi alla scoperta di paesaggi unici e di esperienze indimenticabili.
+    ]]></txt_Teaser>
+            <stf_IsExternalSiteArticle><![CDATA[no]]></stf_IsExternalSiteArticle>
+            <stf_TrackingTitle><![CDATA[iloveaustraliait]]></stf_TrackingTitle>
+            <stf_LinkLearnMore><![CDATA[Ulteriori Informazioni ]]></stf_LinkLearnMore>
+            <stf_externalLink><![CDATA[]]></stf_externalLink>
+            <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+            <stf_TrackingEvent><![CDATA[specialoffers]]></stf_TrackingEvent>
+            <stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+            <med_File><![CDATA[]]></med_File>
+        </anc_ListItem>
+    </anc_ListItems>
+</SpecialOffersItem><SpecialOffersItem isTemplate="1">
+    <hdl_Title><![CDATA[The Best Jobs in the World]]></hdl_Title>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <img_Thumbnail><![CDATA[/contentimages/Campaigns/Special-Offers-youthhub.jpg]]></img_Thumbnail>
+    <stf_ThumnailTeaserOnPageCaption><![CDATA[The Best Jobs in the World]]></stf_ThumnailTeaserOnPageCaption>
+    <img_ThumbnailTeaserOnPage><![CDATA[/contentimages/Campaigns/Special-Offers-youthhub-hl.jpg]]></img_ThumbnailTeaserOnPage>
+    <anc_ListItems>
+        <anc_ListItem>
+            <url><![CDATA[/it/24482.xml]]></url>
+            <hdl_Title><![CDATA[The Best Jobs in the World]]></hdl_Title>
+            <txt_Teaser><![CDATA[
+        L'avventura comincia per i vincitori di Best Jobs in the world.
+    ]]></txt_Teaser>
+            <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+            <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+            <stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+            <stf_externalLink><![CDATA[http://bestjobs.australia.com/it ]]></stf_externalLink>
+            <opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+            <stf_TrackingEvent><![CDATA[youthhubit]]></stf_TrackingEvent>
+            <stf_ExternalLinkTitle><![CDATA[Seguili da vicino nella loro avventura]]></stf_ExternalLinkTitle>
+            <med_File><![CDATA[]]></med_File>
+        </anc_ListItem>
+    </anc_ListItems>
+</SpecialOffersItem>
+    </con_Category> 
+</SpecialOffersCountry><SpecialOffersCountry isTemplate="1">
+    <hdl_Title><![CDATA[Switzerland]]></hdl_Title>
+    <con_Category>
+        
+    </con_Category> 
+</SpecialOffersCountry>
+            </con_CenterContent>
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

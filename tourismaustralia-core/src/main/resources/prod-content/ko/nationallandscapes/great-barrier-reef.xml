@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="22238" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[홈]]></headline>
+            <href><![CDATA[/ko/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Tools and Campaigns]]></headline>
+            <href><![CDATA[/ko/tools-campaigns.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[호주 관광 명소(내셔널 랜드스케이프)]]></headline>
+            <href><![CDATA[/ko/nationallandscapes.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[그레이트 베리어 리프]]></headline>
+            <href><![CDATA[/ko/nationallandscapes/great-barrier-reef.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/Campaigns/national-landscapes-great-barrier-reef.jpg]]></img_background>
+    <hdl_Title><![CDATA[그레이트 베리어 리프]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/national-landscapes-great-barrier-reef-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/Campaigns/national-landscapes-great-barrier-reef-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[yes]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[세계 7대 자연경관 중 하나로 손꼽히며 세계 최대의 산호초를 자랑하는, 세계 유산 지역인 그레이트 베리어 리프에 오셔서 활기를 재충전하세요.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[그레이트 베리어 리프, 에얼리 비치, 휘트선데이즈, 데인트리 우림, 세계 유산 지역, 다이빙, 스노클링, 포트 더글라스, 몽 르포, 산호, 타운스빌, 맥케이, 미션 비치, 세일링, 케언즈]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[상세 정보]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[호주 내셔널 랜드스케이프: 그레이트 베리어 리프 - 호주 관광청]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        세계 7대 자연경관 중 하나로 손꼽히며 세계 최대의 산호초를 자랑하는, 세계 유산 지역인 그레이트 베리어 리프에 오셔서 활기를 재충전하세요.
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <StandardCampaignLayout isTemplate="1">
+    <opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+    <hdl_Title><![CDATA[]]></hdl_Title>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+    <con_Banner><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<DIV id=headerimage>
+<SCRIPT type=text/javascript src="../../static/js/jquery.cycle.all.latest.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+jQuery(document).ready(function() {
+jQuery('#headersliderwrapper').cycle({
+        fx:'fade',
+        slideExpr: '.headerslide'
+    });
+});
+</SCRIPT>
+
+<DIV id=headersliderwrapper>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-gbr-01.jpg"> 
+<DIV class=headerslideinfo>로우 아일즈 섬, 퀸즈랜드</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-gbr-02.jpg"> 
+<DIV class=headerslideinfo>리자드 아일랜드, 퀸즈랜드</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-gbr-03.jpg"> 
+<DIV class=headerslideinfo>말미잘과 클라운피시</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-gbr-04.jpg"> 
+<DIV class=headerslideinfo>픽시스 가든, 퀸즈랜드</DIV></DIV></DIV></DIV>
+<DIV id=subpage-header-overlay></DIV>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule></con_Banner>
+    <con_Body><TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[그레이트 베리어 리프]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        세계 7대 자연경관 중 하나로 손꼽히는 세계 유산 지역인 그레이트 베리어 리프는 세계 최대의 산호초를 자랑합니다. 번다버그 북쪽에서 시작하여 케이프 요크 끝까지 이어진 리프는 2,900개의 산호초와 900개가 넘는 섬, 그리고 300개의 산호섬으로 이루어졌습니다. 총 2,300km에 멋진 경치가 이어집니다. 산호 지대가 매우 크기 때문에 멀리서도 볼 수 있지요. 잘 보존된 리프의 생태계는 멸종 위기에 처하거나 취약한 20여종의 자연 생물을 비롯해 경이로운 해양 생물의 보금자리이기도 합니다. 그레이트 베리어 리프는 영혼과 활기를 재충전할 수 있는 멋진 경관을 자랑합니다.
+        <p><strong>그레이트 베리어 리프를 찾는 네 가지 이유</strong></p>
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[1. 섬의 멋진 경관]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-great-barrier-reef-hl01.jpg" alt="Vlassof Cay, QLD">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Vlassof Cay, QLD]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        리프의 북단에 있는 해거스톤 섬에서 유명한 로빈슨 크루소 체험도 즐겨보세요. 이 섬에 들어올 수 있는 게스트 수가 제한되기 때문에 섬 전체를 독차지한 듯한 기분을 만끽해 볼 수 있습니다. 이곳에서는 초록바다거북이 무리도 만나볼 수 있으며 주변에는 다른 거북이들도 가득합니다. 게다가 북쪽의 리자드 아일랜드는 어른들을 위한 낭만적이고 고급스러운 체험을 즐길 수 있습니다. 포트 더글라스와 타운스빌 사이에는 아름다운 그린 섬, 베다라 섬, 오르페우스 섬, 마그네틱 섬은 물론, 호주 최대의 섬 국립공원인 힌친브룩 섬이 있습니다. 남쪽으로 내려가면 세계적으로 유명한 휘트선데이 아일랜드의 에얼리 비치가 나오며, 그레이트 베리어 리프의 최남단에는 멋진 생태계로 눈길을 사로잡는 레이디 엘리어트 아일랜드가 있습니다.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[2. 산호초와 해양생물]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-great-barrier-reef-hl02.jpg" alt="Clownfish, QLD">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Clownfish, QLD]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        그레이트 베리어 리프는 고래, 거북, 상어, 클라운피시, 대형 조개, 가오리를 비롯하여 다양하고 풍부한 해양생물의 보금자리가 되고 있습니다. 물은 언제나 따뜻하며, 산호 협곡, 수중 동굴과 터널, 난파선 등 다양한 수중 볼거리도 즐길 수 있습니다. 다이빙이나 스노쿨링에 경험이 많거나 초보자이거나 모두가 즐길 거리가 풍부합니다. 10월과 11월에 보름달이 뜰 때쯤 바다에는 분홍색의 옅은 그림자가 드리우며, 산호가 산란하는 멋진 장관도 감상할 수 있습니다. 수면에 수천 개의 샴페인 거품이 떠오르는 것 같지요. 11월과 3월 사이에 번다버그 동쪽의 몽 르포 비치나 레이디 엘리어트 아일랜드로 가면 암컷 거북이 알을 낳으러 바닷가로 올라오는 모습도 볼 수 있습니다. 새끼 거북은 보통 1월 중순쯤 둥지에서 나옵니다.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[3. 세일링]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-great-barrier-reef-hl03.jpg" alt="Hamilton Island Sailing, QLD">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Hamilton Island Sailing, QLD]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        미션 비치, 타운스빌, 에얼리 비치, 맥케이, 록햄프턴, 번다버그는 그레이트 베리어 리프의 다양한 지역으로 쉽게 이동할 수 있는 활기찬 해안 중심지역입니다. 세일링은 리프를 탐험하는 데 가장 인기가 많지요. 바다는 고요하고, 물은 에메랄드 빛으로 반짝이고, 계류장이 있는 곳에서 멋진 자연을 감상하며 분위기에 흠뻑 젖어보세요. 요트를 빌려 직접 항해하거나 풀 서비스를 제공하는 선장의 안내로 유람을 즐겨보세요.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[4. 독특한 체험]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-great-barrier-reef-hl04.jpg" alt="Ribbon Reef, QLD">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Ribbon Reef, QLD]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        포트 더글라스나 케언즈에서 스노클링으로 북쪽 리본 리프를 돌아보거나 세계 유산 지역으로 등록된 세계에서 가장 오래된 우림, 데인트리를 트레킹하거나 우림과 산호초가 만나는 자연 그대로의 모습을 간직한 케이프 트리뷸레이션 해변에서 일광욕을 즐기세요. 독특한 수중 체험을 즐기려면 6월과 7월에 포트 더글라스에서 난장이 밍크고래와 함께 헤엄치는 기회를 놓치지 마세요. 물 위에 있는 게 더 좋다면 매년 고래가 이동하는 기간에 멋진 장관을 이루는 고래 행렬도 구경할 수 있답니다. 더 남쪽으로 내려가 휘트선데이즈로 이어지는 관문인, 에얼리 비치로 가면 74개의 목가적인 섬을 탐험할 수 있답니다. 또는 비행기를 타고 하늘에서 멋진 전경을 감상할 수도 있습니다.
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights></con_Body>
+    <con_RHSModules><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<TABLE cellSpacing=0 cellPadding=0 width=298 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top align=center>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD style="WIDTH: 25px">&nbsp;</TD>
+<TD><!-- #BeginLibraryItem "/Library/sitenav.lbi" -->
+<SCRIPT language=JavaScript1.2 type=text/javascript src="../../static/js/stmenu.js"></SCRIPT>
+<!-- #EndLibraryItem --></TD></TR></TBODY></TABLE><!-- Google Map Start -->
+<SCRIPT type=text/javascript>
+function fireEvent(obj,evt){
+ var fireOnThis = obj;
+ if( document.createEvent ) {
+   var evObj = document.createEvent('MouseEvents');
+   evObj.initEvent( evt, true, false );
+   fireOnThis.dispatchEvent(evObj);
+ } else if( document.createEventObject ) {
+   fireOnThis.fireEvent('on'+evt);
+ }
+}
+function clickLink(linkobj) {
+if (linkobj.getAttribute('onclick') == null) {
+if (linkobj.getAttribute('href')) document.location = linkobj.getAttribute('href');
+     }
+     else linkobj.onclick();
+}
+function loadjscssfile(filename, filetype){
+ if (filetype=="js"){ //if filename is a external JavaScript file
+  var fileref=document.createElement('script')
+  fileref.setAttribute("type","text/javascript")
+  fileref.setAttribute("src", filename)
+ }
+ else if (filetype=="css"){ //if filename is an external CSS file
+  var fileref=document.createElement("link")
+  fileref.setAttribute("rel", "stylesheet")
+  fileref.setAttribute("type", "text/css")
+  fileref.setAttribute("href", filename)
+  fileref.setAttribute("media", "print")
+ }
+if (typeof fileref!="undefined")
+document.getElementsByTagName("head")[0].appendChild(fileref)
+}
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+var icheckk=0;
+jQuery.each(jQuery.browser, function(i, val) {
+if(i=="msie" && jQuery.browser.version.substr(0,3)=="7.0")
+icheckk=1;
+});
+function myfun()
+{
+loadjscssfile("../../static/css/thickbox.css", "css");
+if(icheckk==1)
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='../../static/maps/ko/greatbarrierreef/bigmap.html'  target='_blank'>&nbsp;인쇄|닫습니다|&nbsp;또는 Esc 키를 누르십시오</a></b>","../../static/maps/ko/greatbarrierreef/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+else
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='javascript:window.print()' >&nbsp;인쇄|닫습니다|&nbsp;또는 Esc 키를 누르십시오</a></b>","../../static/maps/ko/greatbarrierreef/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+}
+         </SCRIPT>
+<IFRAME style="MARGIN-BOTTOM: 20px; BORDER-TOP: black 1px solid; HEIGHT: 355px; BORDER-RIGHT: black 1px solid; BORDER-BOTTOM: black 1px solid; FLOAT: left; PADDING-BOTTOM: 5px; BORDER-LEFT: black 1px solid; BACKGROUND-COLOR: #333333" height=380 src="../../static/maps/ko/greatbarrierreef/index.html" frameBorder=0 width=249 name=FRAMENAME scrolling=no></IFRAME><!-- Google Map end -->
+<DIV class=subpage-video-thumb style="TEXT-ALIGN: left"><A onclick="moduleTrackingWithTitle('lightbox-video','',false,'nationallandscapes-greatbarrierreefko');" href="#" data-reveal-id="modalVideo"><IMG alt="" src="/contentimages/Campaigns/national-landscapes-video-ko.jpg"></A> </DIV>
+<DIV id=modalVideo class="reveal-modal video" style-="z-index: 103;"><A class=close-reveal-modal><SPAN class=icon></SPAN></A>
+<DIV class=video style="VISIBILITY: visible !important"><IFRAME height=315 src="//www.youtube.com/v/EjGZ3MaX9pE?version=3&amp;hl=en_GB" frameBorder=0 width=560></IFRAME></DIV></DIV></TD></TR></TBODY></TABLE>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule><Listing isTemplate="1">
+<anc_List1><![CDATA[/ko/explore/states/qld/qld-diving.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[호주 아이디어 더]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/ko/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/ko/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/ko/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/ko/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/ko/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/ko/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/ko/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/ko/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/ko/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/ko/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/ko/Transport.aspx]]></anc_Transport>
+<hdl_Title><![CDATA[여행 계획 하기 ]]></hdl_Title>
+<language><![CDATA[KOR]]></language>
+<stf_Accomodation><![CDATA[숙박]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[관광지]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[가까운 여행사 찾기]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[여행지 정보  ]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[Whitsunday Region]]></stf_DomesticRegion>
+<stf_Events><![CDATA[이벤트]]></stf_Events>
+<stf_Hire><![CDATA[렌탈 ]]></stf_Hire>
+<stf_Informationservices><![CDATA[일반 정보 안내]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[Queensland]]></stf_StateFilter>
+<stf_Tours><![CDATA[투어]]></stf_Tours>
+<stf_Transport><![CDATA[교통]]></stf_Transport>
+</PlanYourVisit></con_RHSModules>
+    <con_Category></con_Category>
+    <lst_Subpages>
+    </lst_Subpages>
+</StandardCampaignLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

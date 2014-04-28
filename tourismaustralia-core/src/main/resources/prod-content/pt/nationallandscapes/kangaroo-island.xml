@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="22247" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Página inicial]]></headline>
+            <href><![CDATA[/pt-br/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Tools and Campaigns]]></headline>
+            <href><![CDATA[/pt-br/tools-campaigns.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Paisagens Nacionais da Austrália]]></headline>
+            <href><![CDATA[/pt-br/nationallandscapes.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[Kangaroo Island]]></headline>
+            <href><![CDATA[/pt-br/nationallandscapes/kangaroo-island.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/Campaigns/national-landscapes-kangaroo-island.jpg]]></img_background>
+    <hdl_Title><![CDATA[Kangaroo Island]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/national-landscapes-kangaroo-island-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/Campaigns/national-landscapes-kangaroo-island-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[yes]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[Encontre animais nativos em ambientes naturais imaculados em Kangaroo Island, acess&iacute;vel de Adelaide.  Veja le&otilde;es-marinhos nas areias de Seal Bay e pinguins bamboleando at&eacute; a costa em Penneshaw.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[Ilha Kangaroo, ilha dos cangurus Adelaide, ilha Kangaroo Austr&aacute;lia, ilha Kangaroo Austr&aacute;lia do Sul, f&eacute;rias em Kangaroo Island, Kingscote, ilha de Adelaide, ilha australiana, Penneshaw, Remarkable Rocks, Vivonne Bay, Cape Jervis, Parque Nacional de Flinder]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Saiba mais]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Paisagens Nacionais da Austr&aacute;lia: Kangaroo Island - Tourism Austr&aacute;lia]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        Encontre animais nativos em ambientes naturais imaculados em Kangaroo Island, acess&iacute;vel de Adelaide.  Veja le&otilde;es-marinhos nas areias de Seal Bay e pinguins bamboleando at&eacute; a costa em Penneshaw.
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <StandardCampaignLayout isTemplate="1">
+    <opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+    <hdl_Title><![CDATA[]]></hdl_Title>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+    <con_Banner><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<DIV id=headerimage>
+<SCRIPT type=text/javascript src="../../static/js/jquery.cycle.all.latest.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+jQuery(document).ready(function() {
+jQuery('#headersliderwrapper').cycle({
+        fx:'fade',
+        slideExpr: '.headerslide'
+    });
+});
+</SCRIPT>
+
+<DIV id=headersliderwrapper>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-kis-01.jpg"> 
+<DIV class=headerslideinfo>Le&otilde;es-marinhos australianos, SA</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-kis-02.jpg"> 
+<DIV class=headerslideinfo>Ilha Kangaroo, SA</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-kis-03.jpg"> 
+<DIV class=headerslideinfo>Remarkable Rocks, SA</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-kis-04.jpg"> 
+<DIV class=headerslideinfo>Echidna</DIV></DIV></DIV></DIV>
+<DIV id=subpage-header-overlay></DIV>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule></con_Banner>
+    <con_Body><TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Kangaroo Island]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        Encontre animais nativos em ambientes naturais imaculados em Kangaroo Island, facilmente acess&iacute;vel de Adelaide. Veja le&otilde;es-marinhos em seu habitat natural em Seal Bay e pequenos pinguins bamboleando at&eacute; a costa em Penneshaw. Em seguida, descubra as paisagens de aventuras em escarpas da ilha e suas maravilhosas praias. Caminhe at&eacute; Hanson Bay ou veja as cavernas no Kelly Hill Conservation Park e veja o p&ocirc;r do sol na antiga Remarkable Rocks. Ao logo da costa voc&ecirc; pode nadar com golfinhos; surfar, fazer snorkel em recifes v&iacute;vidos e mergulhar em destro&ccedil;os de navios. A ilha tamb&eacute;m tem uma rica e sobreposta hist&oacute;ria abor&iacute;gene para se descobrir.
+        <p><strong>Cinco motivos para visitar Kangaroo Island</strong></p>
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[1. Vida selvagem em seu habitat natural]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-kangaroo-island-hl01.jpg" alt="Australian sea lions">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Australian sea lions]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Alimente os pelicanos e veja pequenos pinguins em Kingscote e Penneshaw. Depois, veja wallabies (pequenos cangurus da esp&eacute;cie Macropus eugenii), sarigu&ecirc;s com cauda espessa e cangurus no auge de sua atividade em um passeio noturno ao longo do American River. Caminhe passando por patos, cisnes e gar&ccedil;as na Murray Lagoon, em Cape Gantheaume Conservation Park, o &uacute;nico lugar para observar as 267 esp&eacute;cies de p&aacute;ssaros encontradas em v&aacute;rios habitats da ilha. Veja le&otilde;es-marinhos australianos em Seal Bay e milhares de focas da Nova Zel&acirc;ndia brincando alegremente em Admirals Arch no Parque Nacional de Flinders Chase. &Eacute; a&iacute; que tamb&eacute;m vivem centenas de pac&iacute;ficos cangurus.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[2. Paisagens que voc&ecirc; pode encontrar]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-kangaroo-island-hl02.jpg" alt="Kelly Hill Caves, SA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Kelly Hill Caves, SA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Caminhe pelo Parque Nacional de Flinders Chase e descubra as forma&ccedil;&otilde;es impressionantes de Remarkable Rocks e Admiral Arch. Explore os hist&oacute;ricos recintos dos far&oacute;is em Cape du Couedic e Cape Borda, onde voc&ecirc; pode aprender sobre o estilo de vida solit&aacute;rio dos faroleiros e suas fam&iacute;lias. Caminhe pelos penhascos remotos e vales florestados ou pedale pelas estradas abertas tranquilas da ilha. Desfrute da diversidade da caminhada de Hanson Bay ou surfe nas dunas de areia em Little Sahara. Aventure-se nas cavernas do Kelly Hill Conservation Park ou encontre roselas na floresta de eucaliptos abaixo das cavernas.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[3. Aventuras costeiras intermin&aacute;veis]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-kangaroo-island-hl03.jpg" alt="Kayaking at Harriet River, SA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Kayaking at Harriet River, SA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Mergulhe com os raros drag&otilde;es marinhos folhosos, fa&ccedil;a snorkel nos brilhantes recifes e nade com golfinhos em Kingscote ou Emu Bay. Ao sul, em D’estrees Bay, voc&ecirc; pode mergulhar em alguns destro&ccedil;os de navios que foram afundados em volta da ilha. Pesque no p&iacute;er da hist&oacute;rica Emu Bay, American River ou Penneshaw. Veleje passando por praias de areia isoladas em volta da Nepean Bay e surfe nas ondas desertas em Stokes e Pennington Bays. Voc&ecirc; tamb&eacute;m encontrar&aacute; muitos pontos de nata&ccedil;&atilde;o id&iacute;licos, de Snellings Beach, na costa norte, at&eacute; a protegida Brown Beach, na costa leste, e Vivonne Bay, ao sul.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[4. Culin&aacute;ria e vinho em cen&aacute;rios deslumbrantes]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-kangaroo-island-hl04.jpg" alt="Kangaroo Island, SA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Kangaroo Island, SA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Visite as adegas da ilha, muitas delas com vistas deslumbrantes para estimular seu paladar. Prove licores artesanais em Cygnet River ou deguste vinhos em um hangar de aeroporto convertido em estilo bo&ecirc;mio. Deguste sorvete de mel e saboreie queijo cabra e mel liguriano das fazendas em Kingscote e MacGillivray. Desfrute um banquete de produtos locais frescos em toda a ilha. Jante castanhas locais, pescadinha King George e ostras do American River enquanto aprecia a vista do oceano. Encha sua casa de campo ou sua cesta de piquenique com produtos frescos gourmet e uma garrafa de seu vinho favorito.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[5. Terra e lore vinculadas ao Tempo dos Sonhos]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-kangaroo-island-hl05.jpg" alt="Ngarrindjeri Tour, SA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Ngarrindjeri Tour, SA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Ou&ccedil;a a lenda de Ngurunderi, o her&oacute;i do Tempo dos Sonhos que perseguiu duas esposas desobedientes em Kangaroo Island antes de voltar ao mundo espiritual. Acompanhe a jornada de Ngurunderi pelo Coorong antes de viajar para Kangaroo Island. Participe de um passeio guiado ou fa&ccedil;a um passeio de caiaque com um descendente do povo Ngarrindjeri, que misteriosamente deixou a Kangaroo Island milhares de anos antes da coloniza&ccedil;&atilde;o europeia. Voc&ecirc; tamb&eacute;m pode explorar a ilha com guia do povo Ramindjeri, descendentes das mulheres abor&iacute;genes trazidas do continente para c&aacute; pelos primeiros baleeiros. Conecte-se a esta paisagem natural &uacute;nica atrav&eacute;s de contos antigos e das hist&oacute;rias mais recentes de cria&ccedil;&atilde;o.
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights></con_Body>
+    <con_RHSModules><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<TABLE cellSpacing=0 cellPadding=0 width=298 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top align=center>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD style="WIDTH: 25px">&nbsp;</TD>
+<TD><!-- #BeginLibraryItem "/Library/sitenav.lbi" -->
+<SCRIPT language=JavaScript1.2 type=text/javascript src="../../static/js/stmenu.js"></SCRIPT>
+<!-- #EndLibraryItem --></TD></TR></TBODY></TABLE><!-- Google Map Start -->
+<SCRIPT type=text/javascript>
+function fireEvent(obj,evt){
+var fireOnThis = obj;
+if( document.createEvent ) {
+var evObj = document.createEvent('MouseEvents');
+evObj.initEvent( evt, true, false );
+fireOnThis.dispatchEvent(evObj);
+} else if( document.createEventObject ) {
+fireOnThis.fireEvent('on'+evt);
+}
+}
+function clickLink(linkobj) {
+if (linkobj.getAttribute('onclick') == null) {
+if (linkobj.getAttribute('href')) document.location = linkobj.getAttribute('href');
+}
+else linkobj.onclick();
+}
+function loadjscssfile(filename, filetype){
+if (filetype=="js"){ //if filename is a external JavaScript file
+var fileref=document.createElement('script')
+fileref.setAttribute("type","text/javascript")
+fileref.setAttribute("src", filename)
+}
+else if (filetype=="css"){ //if filename is an external CSS file
+var fileref=document.createElement("link")
+fileref.setAttribute("rel", "stylesheet")
+fileref.setAttribute("type", "text/css")
+fileref.setAttribute("href", filename)
+fileref.setAttribute("media", "print")
+}
+if (typeof fileref!="undefined")
+document.getElementsByTagName("head")[0].appendChild(fileref)
+}
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+var icheckk=0;
+jQuery.each(jQuery.browser, function(i, val) {
+if(i=="msie" && jQuery.browser.version.substr(0,3)=="7.0")
+icheckk=1;
+});
+function myfun()
+{
+loadjscssfile("../../static/css/thickbox.css", "css");
+if(icheckk==1)
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='../../static/maps/pt-br/kangarooisland/bigmap.html'  target='_blank'>&nbsp;Imprimir|Fechar|&nbsp;ou tecla Esc</a></b>","../../static/maps/pt-br/kangarooisland/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+else
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='javascript:window.print()' >&nbsp;Imprimir|Fechar|&nbsp;ou tecla Esc</a></b>","../../static/maps/pt-br/kangarooisland/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+}
+         </SCRIPT>
+<IFRAME style="MARGIN-BOTTOM: 20px; BORDER-TOP: black 1px solid; HEIGHT: 355px; BORDER-RIGHT: black 1px solid; BORDER-BOTTOM: black 1px solid; FLOAT: left; PADDING-BOTTOM: 5px; BORDER-LEFT: black 1px solid; BACKGROUND-COLOR: #333333" height=380 src="../../static/maps/pt-br/kangarooisland/index.html" frameBorder=0 width=249 name=FRAMENAME scrolling=no></IFRAME><!-- Google Map end -->
+<DIV class=subpage-video-thumb style="TEXT-ALIGN: left"><A onclick="moduleTrackingWithTitle('lightbox-video','',false,'nationallandscapes-kangarooislandptbr');" href="#" data-reveal-id="modalVideo"><IMG alt="" src="/contentimages/Campaigns/national-landscapes-video-pt-br.jpg"></A> </DIV>
+<DIV id=modalVideo class="reveal-modal video" style-="z-index: 103;"><A class=close-reveal-modal><SPAN class=icon></SPAN></A>
+<DIV class=video style="VISIBILITY: visible !important"><IFRAME height=315 src="//www.youtube.com/v/EjGZ3MaX9pE?version=3&amp;hl=en_GB" frameBorder=0 width=560></IFRAME></DIV></DIV></TD></TR></TBODY></TABLE>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule><Listing isTemplate="1">
+<anc_List1><![CDATA[/pt-br/explore/states/sa/sa-eyre-peninsula.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[Ideias australianas]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/pt-br/AccommodationSearch.ignore]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/pt-br/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/pt-br/AttractionSearchResults.ignore]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/pt-br/DestinfoSearchResults.ignore]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/pt-br/EventsSearch.xml]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/pt-br/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/pt-br/hire.ignore]]></anc_Hire>
+<anc_Info><![CDATA[/pt-br/InfoSearchResults.ignore]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/pt-br/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/pt-br/TourSearchResults.ignore]]></anc_Tour>
+<anc_Transport><![CDATA[/pt-br/transport.ignore]]></anc_Transport>
+<hdl_Title><![CDATA[Planeje sua viagem]]></hdl_Title>
+<language><![CDATA[PTB]]></language>
+<stf_Accomodation><![CDATA[Accommodation]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[Attractions]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[Find a Travel Agent near you]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[Destination Information]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[Kangaroo Island]]></stf_DomesticRegion>
+<stf_Events><![CDATA[Events]]></stf_Events>
+<stf_Hire><![CDATA[Hire ]]></stf_Hire>
+<stf_Informationservices><![CDATA[Information Services]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[South Australia]]></stf_StateFilter>
+<stf_Tours><![CDATA[Tours]]></stf_Tours>
+<stf_Transport><![CDATA[Transport]]></stf_Transport>
+</PlanYourVisit></con_RHSModules>
+    <con_Category></con_Category>
+    <lst_Subpages>
+    </lst_Subpages>
+</StandardCampaignLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

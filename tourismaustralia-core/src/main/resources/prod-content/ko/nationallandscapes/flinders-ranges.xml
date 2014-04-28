@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="22232" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[홈]]></headline>
+            <href><![CDATA[/ko/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Tools and Campaigns]]></headline>
+            <href><![CDATA[/ko/tools-campaigns.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[호주 관광 명소(내셔널 랜드스케이프)]]></headline>
+            <href><![CDATA[/ko/nationallandscapes.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[플린더스 산맥]]></headline>
+            <href><![CDATA[/ko/nationallandscapes/flinders-ranges.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/Campaigns/national-landscapes-flinders-ranges.jpg]]></img_background>
+    <hdl_Title><![CDATA[플린더스 산맥]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/national-landscapes-flinders-ranges-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/Campaigns/national-landscapes-flinders-ranges-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[yes]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[장엄하고 유구한 플린더스 산맥의 역사적 자취를 더듬어 보세요. 모험과 고요함, 그리고 영성이 공존하는 태고의 아웃백이 여러분을 기다립니다.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[플린더스 산맥, 플린더스 삼림경비원, 호주 플린더스 산맥, 플린더스 산맥, 호주 플린더스, 플린더스 공원, 윌페나 파운드, 마운트 리마커블, 아카룰라 야생보호구역, 브라치나 협곡, 헤이센 트레일, 플루리우 반도, 피치 리치 철로]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[상세 정보]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[호주 내셔널 랜드스케이프: 플린더스 산맥 - 호주 관광청]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        장엄하고 유구한 플린더스 산맥의 역사적 자취를 더듬어 보세요. 모험과 고요함, 그리고 영성이 공존하는 태고의 아웃백이 여러분을 기다립니다.
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <StandardCampaignLayout isTemplate="1">
+    <opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+    <hdl_Title><![CDATA[]]></hdl_Title>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+    <con_Banner><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<DIV id=headerimage>
+<SCRIPT type=text/javascript src="../../static/js/jquery.cycle.all.latest.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+jQuery(document).ready(function() {
+jQuery('#headersliderwrapper').cycle({
+        fx:'fade',
+        slideExpr: '.headerslide'
+    });
+});
+</SCRIPT>
+
+<DIV id=headersliderwrapper>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-fli-01.jpg"> 
+<DIV class=headerslideinfo>윌페나 파운드, 남호주</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-fli-02.jpg"> 
+<DIV class=headerslideinfo>마운트 올센 배기, 남호주</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-fli-03.jpg"> 
+<DIV class=headerslideinfo>플린더스 레인지에서의 사이클링, 남호주</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-fli-04.jpg"> 
+<DIV class=headerslideinfo>Y노란발바위왈라비</DIV></DIV></DIV></DIV>
+<DIV id=subpage-header-overlay></DIV>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule></con_Banner>
+    <con_Body><TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[플린더스 산맥]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        남호주 최대의 산악지대에서 지구의 나이만큼이나 오래 된 역사의 자취를 더듬어 보세요. 장엄하고 유구한 플린더스 산맥은 국립공원 세 곳을 가로지르며 크리스탈 브룩에서 칼라보나 호수까지 장장 430km를 퍼져나갑니다. 플린더스 산맥 남쪽에 위치한 마운트 리마커블과 중심부에 있는 천연 원형극장인 거대한 윌페나 파운드(Wilpena Pound)에 올라가 보세요. 황량한 북쪽에는 야생보호구와 천문대가 있습니다. 모험과 고요 그리고 영성이 공존하는 태고의 아웃백 역사 속에서 내면의 자아를 되찾아 보세요.
+        <p><strong>플린더스 산맥에서 놓치지 말아야 할 4가지</strong></p>
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[1. 나만의 어드벤처]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-flinders-ranges-hl01.jpg" alt="Mt Ohlssen Bagge, SA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Mt Ohlssen Bagge, SA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        윌페나 파운드의 가장자리까지 트레킹을 하거나 관광 비행기를 타고 상공으로 날아보세요. 하늘에서 내려다보면 아직도 공룡이 돌아다닐 것만 같은 잃어버린 세계가 느껴진답니다. 플린더스 산맥 남쪽에서는 트레킹으로 위라바라 숲과 분댈리어 숲을 지나거나 본격적으로 산악자전거 타기에 도전해 볼 수 있습니다. 마운트 리마커블 정상까지 걸어오르거나 퀀(Quorn)에서 낙타를 타고 은은한 촛불 아래의 정찬장으로 가보세요. 사륜구동차로 트랙을 따라 멜로즈에서 험준한 북쪽의 아카룰라 야생보호구(Arkaroola Wilderness Sanctuary)까지 달려볼까요? 개몬 산맥을 오르거나 아카룰라의 세 개 천문대 가운데 한 곳에 들러 우주를 관찰해 보세요.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[2. 지구만큼 오래된 이야기]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-flinders-ranges-hl02.jpg" alt="Campfire storytelling">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Campfire storytelling]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        아드냐마탄하 원주민 가이드와 함께 태고의 산맥을 탐사하며 부시터커에 대해 알아보고 드림타임의 태동 전설인 유라 무다(Yura Muda) 이야기에 귀를 기울여 볼까요? 엄청나게 큰 뱀 아카루(Arkaroo)가 어떻게 플린더스 산맥의 많은 지형을 만들었는지 들어보세요. 유람불라 동굴과 아카루 록, 챔버스 협곡에서는 고대 동굴 벽화와 암각 예술을 둘러봅니다. 차를 몰고 아보리진 드리밍 트레일(Aboriginal Dreaming Trail)을 따라 네파부나 마을로 가서 현지인들과 어울려 보세요. 브라치나 협곡 트레일(Brachina Gorge Geological Trail)에서 6억년 진화의 발자취를 따라가거나 원주민과 유럽 역사가 만나는 올드 윌페나 대목장 (Old Wilpena Station)을 둘러볼 수도 있답니다.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[3. 오롯이 음미하는 대자연]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-flinders-ranges-hl03.jpg" alt="Emus crossing the road">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Emus crossing the road]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        윌페나 파운드의 가장자리까지 걸어가며 숱한 토종 식물을 감상하세요. 브라치나 협곡에서 희귀종 노란발 바위왈라비를 구경하고 이따금씩 아카룰라의 붉은 대지를 가로질러 뛰어다니는 캥거루를 만나볼까요? 토종 바늘두더지와 에뮤를 구경하고 100여종이 넘는 새들이 지저귀는 노랫소리에 귀 기울여 보세요. 남쪽 플린더스 산맥에서 동굴과 계곡, 삼림 속을 거쳐 북쪽 프롬 호(Lake Frome)의 아른거리는 천연 염전을 지나갑니다. 불카투나-개몬 산맥 국립공원의 밤하늘 별무리 아래서 야영을 하고 야생동물의 안식처인 이탈로위 협곡과 위투틀라 협곡에 들러보세요.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[4. 신나는 아웃백 여정]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-flinders-ranges-hl04.jpg" alt="Great Australian Cattle Drive, SA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Great Australian Cattle Drive, SA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        도보여행, 또는 자전거나 사륜구동을 타거나 심지어 소를 몰고 플린더스 산맥을 지나갈 수 있습니다. 하이킹으로 헤이센 트레일(Heysen Trail)의 일부 구간을 걸어보세요. 파라칠라 협곡에서 플루리우 반도 해변까지 장장 1,200km 이어지는 트랙이랍니다. 아니면 플린더스 산맥의 고장인 블린먼과 애들레이드 힐즈(Adelaide Hills)를 잇는 900km의 모슨 트레일(Mawson Trail)의 일부 구간을 자전거로 달릴 수 있습니다. 퀀에서 포트 오거스타까지 피치리치 레일웨이 기차를 타거나 스팀타운 피터버러(Steamtown Peterborough)의 소리와 빛 쇼에서 풍부한 철도 역사를 살펴보세요. 어디로 여행하든 옛 탄광촌과 메력적인 컨트리 펍, 희귀종 야생동물, 환상적인 아웃백 경치와 만나게 됩니다.
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights></con_Body>
+    <con_RHSModules><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<TABLE cellSpacing=0 cellPadding=0 width=298 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top align=center>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD style="WIDTH: 25px">&nbsp;</TD>
+<TD><!-- #BeginLibraryItem "/Library/sitenav.lbi" -->
+<SCRIPT language=JavaScript1.2 type=text/javascript src="../../static/js/stmenu.js"></SCRIPT>
+<!-- #EndLibraryItem --></TD></TR></TBODY></TABLE><!-- Google Map Start -->
+<SCRIPT type=text/javascript>
+function fireEvent(obj,evt){
+var fireOnThis = obj;
+if( document.createEvent ) {
+var evObj = document.createEvent('MouseEvents');
+evObj.initEvent( evt, true, false );
+fireOnThis.dispatchEvent(evObj);
+ } else if( document.createEventObject ) {
+fireOnThis.fireEvent('on'+evt);
+}
+}
+function clickLink(linkobj) {
+if (linkobj.getAttribute('onclick') == null) {
+if (linkobj.getAttribute('href')) document.location = linkobj.getAttribute('href');
+}
+else linkobj.onclick();
+}
+function loadjscssfile(filename, filetype){
+if (filetype=="js"){ //if filename is a external JavaScript file
+var fileref=document.createElement('script')
+fileref.setAttribute("type","text/javascript")
+fileref.setAttribute("src", filename)
+}
+else if (filetype=="css"){ //if filename is an external CSS file
+var fileref=document.createElement("link")
+fileref.setAttribute("rel", "stylesheet")
+fileref.setAttribute("type", "text/css")
+fileref.setAttribute("href", filename)
+fileref.setAttribute("media", "print")
+}
+if (typeof fileref!="undefined")
+document.getElementsByTagName("head")[0].appendChild(fileref)
+}
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+var icheckk=0;
+jQuery.each(jQuery.browser, function(i, val) {
+if(i=="msie" && jQuery.browser.version.substr(0,3)=="7.0")
+icheckk=1;
+});
+function myfun()
+{
+loadjscssfile("../../static/css/thickbox.css", "css");
+if(icheckk==1)
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='../../static/maps/ko/flindersranges/bigmap.html'  target='_blank'>&nbsp;인쇄|닫습니다|&nbsp;또는 Esc 키를 누르십시오</a></b>","../../static/maps/ko/flindersranges/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+else
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='javascript:window.print()' >&nbsp;인쇄|닫습니다|&nbsp;또는 Esc 키를 누르십시오</a></b>","../../static/maps/ko/flindersranges/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+}
+         </SCRIPT>
+<IFRAME style="MARGIN-BOTTOM: 20px; BORDER-TOP: black 1px solid; HEIGHT: 355px; BORDER-RIGHT: black 1px solid; BORDER-BOTTOM: black 1px solid; FLOAT: left; PADDING-BOTTOM: 5px; BORDER-LEFT: black 1px solid; BACKGROUND-COLOR: #333333" height=380 src="../../static/maps/ko/flindersranges/index.html" frameBorder=0 width=249 name=FRAMENAME scrolling=no></IFRAME><!-- Google Map end -->
+<DIV class=subpage-video-thumb style="TEXT-ALIGN: left"><A onclick="moduleTrackingWithTitle('lightbox-video','',false,'nationallandscapes-flindersrangesko');" href="#" data-reveal-id="modalVideo"><IMG alt="" src="/contentimages/Campaigns/national-landscapes-video-ko.jpg"></A> </DIV>
+<DIV id=modalVideo class="reveal-modal video" style-="z-index: 103;"><A class=close-reveal-modal><SPAN class=icon></SPAN></A>
+<DIV class=video style="VISIBILITY: visible !important"><IFRAME height=315 src="//www.youtube.com/v/EjGZ3MaX9pE?version=3&amp;hl=en_GB" frameBorder=0 width=560></IFRAME></DIV></DIV></TD></TR></TBODY></TABLE>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule><Listing isTemplate="1">
+<anc_List1><![CDATA[/ko/explore/states/sa/sa-coober-pedy.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[호주 아이디어 ]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/ko/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/ko/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/ko/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/ko/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/ko/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/ko/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/ko/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/ko/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/ko/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/ko/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/ko/Transport.aspx]]></anc_Transport>
+<hdl_Title><![CDATA[여행 계획 하기 ]]></hdl_Title>
+<language><![CDATA[KOR]]></language>
+<stf_Accomodation><![CDATA[숙박]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[관광지]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[가까운 여행사 찾기]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[여행지 정보  ]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[Flinders Ranges and Outback]]></stf_DomesticRegion>
+<stf_Events><![CDATA[이벤트 ]]></stf_Events>
+<stf_Hire><![CDATA[렌탈]]></stf_Hire>
+<stf_Informationservices><![CDATA[일반 정보 안내 ]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[South Australia]]></stf_StateFilter>
+<stf_Tours><![CDATA[투어]]></stf_Tours>
+<stf_Transport><![CDATA[교통]]></stf_Transport>
+</PlanYourVisit></con_RHSModules>
+    <con_Category></con_Category>
+    <lst_Subpages>
+    </lst_Subpages>
+</StandardCampaignLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

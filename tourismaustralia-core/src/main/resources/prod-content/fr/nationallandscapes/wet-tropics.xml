@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="22262" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Accueil]]></headline>
+            <href><![CDATA[/fr/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Tools and Campaigns]]></headline>
+            <href><![CDATA[/fr/tools-campaigns.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Paysages nationaux d'Australie]]></headline>
+            <href><![CDATA[/fr/nationallandscapes.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[Région tropicale humide]]></headline>
+            <href><![CDATA[/fr/nationallandscapes/wet-tropics.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/Campaigns/national-landscapes-wet-tropics.jpg]]></img_background>
+    <hdl_Title><![CDATA[R&eacute;gion tropicale humide]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/national-landscapes-wet-tropics-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/Campaigns/national-landscapes-wet-tropics-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[yes]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[De la for&ecirc;t tropicale de Daintree aux Tablelands, la r&eacute;gion tropicale humide de l'Australie est une destination qui ne manque pas d'enchanter et d'intriguer tous ses visiteurs.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[R&eacute;gion tropicale humide de l'Australie, Daintree, Great Tropical Drive, Thorsborne Trail, Parc national de Girringun]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[En savoir plus]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Paysages nationaux d'Australie: R&eacute;gion tropicale humide - Tourisme Australie]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        De la for&ecirc;t tropicale de Daintree aux Tablelands, la r&eacute;gion tropicale humide de l'Australie est une destination qui ne manque pas d'enchanter et d'intriguer tous ses visiteurs.
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <StandardCampaignLayout isTemplate="1">
+    <opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+    <hdl_Title><![CDATA[]]></hdl_Title>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+    <con_Banner><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<DIV id=headerimage>
+<SCRIPT type=text/javascript src="../../static/js/jquery.cycle.all.latest.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+jQuery(document).ready(function() {
+jQuery('#headersliderwrapper').cycle({
+        fx:'fade',
+        slideExpr: '.headerslide'
+    });
+});
+</SCRIPT>
+
+<DIV id=headersliderwrapper>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-wet-01.jpg"> 
+<DIV class=headerslideinfo>Parc national de Daintree, Queensland</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-wet-02.jpg"> 
+<DIV class=headerslideinfo>Art rupestre</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-wet-03.jpg"> 
+<DIV class=headerslideinfo>Tropiques humides (cr&eacute;dit : Steven Nowakowski)</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-wet-04.jpg"> 
+<DIV class=headerslideinfo>Casoar</DIV></DIV></DIV></DIV>
+<DIV id=subpage-header-overlay></DIV>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule></con_Banner>
+    <con_Body><TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[R&eacute;gion tropicale humide]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        De la for&ecirc;t tropicale de Daintree aux Tablelands, la r&eacute;gion tropicale humide de l'Australie est une destination qui ne manque pas d'enchanter et d'intriguer tous ses visiteurs. C'est le point de rencontre de deux merveilles de la nature : la for&ecirc;t tropicale humide et la grande barri&egrave;re de corail. Cette r&eacute;gion poss&egrave;de un spectaculaire &eacute;ventail d'atouts naturels : plantes, animaux, sentiers, cascades, montagnes, plages et vie marine. La plus vieille for&ecirc;t tropicale encore existante dans le monde rec&egrave;le des esp&egrave;ces rares et menac&eacute;es, que vous ne trouverez nulle part ailleurs.
+        <p>Que faire et que voir ? Les possibilit&eacute;s sont l&eacute;gion, que vous soyez en qu&ecirc;te de culture et d'aventure, ou que vous d&eacute;siriez simplement vous retirer dans un spa vivifiant dans la for&ecirc;t tropicale.</p>
+        <p><strong>Cinq mani&egrave;res d'explorer la r&eacute;gion tropicale humide</strong></p>
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[1. Suivez la Great Tropical Drive]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-wet-tropics-hl01.jpg" alt="Great Tropical Drive, QLD">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Great Tropical Drive, QLD]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        &Agrave; partir de Cairns ou de Townsville, la Great Tropical Drive, l'une des plus magnifiques routes c&ocirc;ti&egrave;res au monde, offre des points de vue spectaculaires sur des cha&icirc;nes de montagnes imposantes et de longues &eacute;tendues de sable. Elle traverse six r&eacute;gions de part en part : Cooktown ; Port Douglas, Cairns et Daintree ; Mission Beach et la Cassowary Coast ; les Tropical Tablelands et le Gulf Savannah ; les villes historique de Townsville et Charters Towers et, enfin, l'&icirc;le de Hinchinbrook.
+        <p>Pas moins de 13 itin&eacute;raires de d&eacute;couverte relient les meilleurs sites d'int&eacute;r&ecirc;t, notamment la grande barri&egrave;re de corail et la for&ecirc;t de Daintree. Apr&egrave;s avoir explor&eacute; ces sites, votre exp&eacute;rience de cette r&eacute;gion sera compl&egrave;te puisque vous aurez go&ucirc;t&eacute; au meilleur de ce qu'elle a &agrave; offrir : les for&ecirc;ts tropicales et r&eacute;cifs coralliens, la culture riche et vari&eacute;e, les savoureux mets tropicaux et l'Outback australien, propice &agrave; l'aventure.</p>
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[2. Plongez au cœur de la for&ecirc;t tropicale]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-wet-tropics-hl02.jpg" alt="Boardwalk in Daintree, QLD">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Boardwalk in Daintree, QLD]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        La Daintree River est le principal point d'acc&egrave;s &agrave; la for&ecirc;t de Daintree, la plus ancienne for&ecirc;t vierge de la plan&egrave;te. Montez &agrave; bord du ferry et p&eacute;n&eacute;trez dans un monde o&ugrave; la faune et la flore exceptionnelles racontent l'histoire de l'&eacute;volution sur Terre. Enrichissez votre exp&eacute;rience de la for&ecirc;t pluvieuse en d&eacute;couvrant toutes ses facettes : allez au plus pr&egrave;s de la nature sur le chemin de planches de Cap Tribulation ; grimpez jusqu'&agrave; la passerelle de la canop&eacute;e de la for&ecirc;t pluvieuse de Mamu, situ&eacute;e au niveau de la cha&icirc;ne de Palmerston. Vous pourrez-m&ecirc;me sauter en parachute au-dessus de la for&ecirc;t tropicale &agrave; partir de Mission Beach, pour avoir apercevoir des casoars dans le parc national de Djiru. Dans cette seule r&eacute;gion, plus de 100 parcs nationaux sont ouverts au public. La r&eacute;gion tropicale humide ravira les passionn&eacute;s d'oiseaux. Ils pourront observer plus de 200 esp&egrave;ces de la faune australienne dans les marais de Hasties Swamp, Mareeba et Tyto.
+        <p>Vous ressentirez aussi toute la puissance des bouleversements g&eacute;ologiques qui ont fa&ccedil;onn&eacute; ce paysage au cours des &acirc;ges en visitant le parc national de Crater Lakes.</p>
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[3. Participez &agrave; une Histoire qui continue de s'&eacute;crire]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-wet-tropics-hl03.jpg" alt="Rock Art, Cooktown, QLD">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Rock Art, Cooktown, QLD]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        L'h&eacute;ritage de la r&eacute;gion tropicale humide est unique et riche : 18 tribus aborig&egrave;nes vivent encore aujourd'hui dans cette r&eacute;gion inscrite au patrimoine mondial. Leur lien avec cet endroit remonte &agrave; plus de 60 000 ans, ce qui en fait l'une des plus anciennes civilisations de la for&ecirc;t tropicale au monde. Participez &agrave; une visite avec un guide aborig&egrave;ne pour d&eacute;couvrir l'histoire, la culture et la spiritualit&eacute; qui caract&eacute;risent ces populations indig&egrave;nes. La voie Bama (Bama Way), qui se situe entre Port Douglas et Cooktown en pleine for&ecirc;t, retrace le pass&eacute; des Aborig&egrave;nes le long d'un chemin jalonn&eacute; de rep&egrave;res historiques. Revivez une Histoire plus r&eacute;cente &agrave; Cap Tribulation, o&ugrave; le lieutenant James Cook a heurt&eacute; les r&eacute;cifs au large de la c&ocirc;te 1770. Ce site naturelainsi que Cooktown, ont &eacute;t&eacute; nomm&eacute;s en l'honneur de ces &eacute;v&eacute;nements.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[4. Toutes les montagnes sont &agrave; votre port&eacute;e]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-wet-tropics-hl04.jpg" alt="Bellenden Ker, QLD">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Bellenden Ker, QLD]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        La r&eacute;gion tropicale humide abrite les deux plus hautes montagnes du Queensland, Mount Bartle Frere (1 622 m&egrave;tres) et Mount Bellenden Ker (1 593 m&egrave;tres). Sur Hinchinbrook Island, munissez-vous de chaussures de randonn&eacute;e pour vous attaquer aux 32 kilom&egrave;tres du chemin de randonn&eacute;e de Thorsborne Trail qui sinue de la jungle tropicale jusqu'aux superbes plages oc&eacute;aniques. Les quatre pistes qui constituent le parcours de 130 kilom&egrave;tres traversant les r&eacute;gions sauvages des Misty Mountains peuvent &ecirc;tre rudes, mais le jeu en vaut la chandelle : vous serez r&eacute;compens&eacute; par des for&ecirc;ts parfaitement pr&eacute;serv&eacute;es et des vues &agrave; couper le souffle. Pour ceux qui pr&eacute;f&egrave;rent les randonn&eacute;es plus tranquilles, il existe aussi une multitude de sentiers plus abordables.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[5. Merveilles aquatiques]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-wet-tropics-hl05.jpg" alt="Millaa Millaa Falls, QLD">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Millaa Millaa Falls, QLD ]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Ce paysage regorge &eacute;galement de cascades et de cours d'eau naturels. Dans le parc national de Girringun, les chutes de Wallaman, la plus haute cascade d'Australie, ne manqueront pas de vous &eacute;merveiller. Venez &eacute;galement admirer les pittoresqueschutes de Millaa Millaa et de Josephine Falls qui, durant l'&eacute;t&eacute;, font partie du Waterfall Circuit (circuit consacr&eacute; aux chutes d'eau). Explorez les chemins de randonn&eacute;es, les cascades et piscines naturelles de la Mossman Gorge. Partez en croisi&egrave;re sur la Daintree River, o&ugrave; vous pourrez contempler des milliers d'oiseaux et des crocodiles. Descendez la Tully River en rafting. Explorez des plages et &icirc;les encore pr&eacute;serv&eacute;es telles que l'&icirc;le de Magnetic Island au large de Townsville.
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights></con_Body>
+    <con_RHSModules><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<TABLE cellSpacing=0 cellPadding=0 width=298 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top align=center>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD style="WIDTH: 25px"></TD>
+<TD><!-- #BeginLibraryItem "/Library/sitenav.lbi" -->
+<SCRIPT language=JavaScript1.2 type=text/javascript src="../../static/js/stmenu.js"></SCRIPT>
+<!-- #EndLibraryItem --></TD></TR></TBODY></TABLE><!-- Google Map Start -->
+<SCRIPT type=text/javascript>
+function fireEvent(obj,evt){
+var fireOnThis = obj;
+if( document.createEvent ) {
+var evObj = document.createEvent('MouseEvents');
+evObj.initEvent( evt, true, false );
+fireOnThis.dispatchEvent(evObj);
+} else if( document.createEventObject ) {
+fireOnThis.fireEvent('on'+evt);
+}
+}
+function clickLink(linkobj) {
+if (linkobj.getAttribute('onclick') == null) {
+if (linkobj.getAttribute('href')) document.location = linkobj.getAttribute('href');
+}
+else linkobj.onclick();
+}
+function loadjscssfile(filename, filetype){
+if (filetype=="js"){ //if filename is a external JavaScript file
+var fileref=document.createElement('script')
+fileref.setAttribute("type","text/javascript")
+fileref.setAttribute("src", filename)
+}
+else if (filetype=="css"){ //if filename is an external CSS file
+var fileref=document.createElement("link")
+fileref.setAttribute("rel", "stylesheet")
+fileref.setAttribute("type", "text/css")
+fileref.setAttribute("href", filename)
+fileref.setAttribute("media", "print")
+}
+if (typeof fileref!="undefined")
+document.getElementsByTagName("head")[0].appendChild(fileref)
+}
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+var icheckk=0;
+jQuery.each(jQuery.browser, function(i, val) {
+if(i=="msie" && jQuery.browser.version.substr(0,3)=="7.0")
+icheckk=1;
+});
+function myfun()
+{
+loadjscssfile("../../static/css/thickbox.css", "css");
+if(icheckk==1)
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='../../static/maps/fr/wettropics/bigmap.html'  target='_blank'>&nbsp;Imprimer|Proche|</a></b>","../../static/maps/fr/wettropics/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+else
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='javascript:window.print()' >&nbsp;Imprimer|Proche|</a></b>","../../static/maps/fr/wettropics/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+}
+         </SCRIPT>
+<IFRAME style="MARGIN-BOTTOM: 20px; BORDER-TOP: black 1px solid; HEIGHT: 355px; BORDER-RIGHT: black 1px solid; BORDER-BOTTOM: black 1px solid; FLOAT: left; PADDING-BOTTOM: 5px; BORDER-LEFT: black 1px solid; BACKGROUND-COLOR: #333333" height=380 src="../../static/maps/fr/wettropics/index.html" frameBorder=0 width=249 name=FRAMENAME scrolling=no></IFRAME><!-- Google Map end -->
+<DIV class=subpage-video-thumb style="TEXT-ALIGN: left"><A onclick="moduleTrackingWithTitle('lightbox-video','',false,'nationallandscapes-wettropicsfr');" href="#" data-reveal-id="modalVideo"><IMG alt="" src="/contentimages/Campaigns/national-landscapes-video-fr.jpg"></A> </DIV>
+<DIV id=modalVideo class="reveal-modal video" style-="z-index: 103;"><A class=close-reveal-modal><SPAN class=icon></SPAN></A>
+<DIV class=video style="VISIBILITY: visible !important"><IFRAME height=315 src="//www.youtube.com/v/EjGZ3MaX9pE?version=3&amp;hl=en_GB" frameBorder=0 width=560></IFRAME></DIV></DIV></TD></TR></TBODY></TABLE>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule><Listing isTemplate="1">
+<anc_List1><![CDATA[/fr/explore/cities/cairns.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[Id&eacute;es d&eacute;couverte]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/fr/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/fr/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/fr/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/fr/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/fr/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/fr/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/fr/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/fr/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/fr/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/fr/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/fr/Transport.aspx]]></anc_Transport>
+<hdl_Title><![CDATA[Commencez &agrave; organiser votre s&eacute;jour]]></hdl_Title>
+<language><![CDATA[FRA]]></language>
+<stf_Accomodation><![CDATA[Accommodation]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[Attractions]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[Find a Travel Agent near you]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[Destination Information]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[Events]]></stf_Events>
+<stf_Hire><![CDATA[Hire ]]></stf_Hire>
+<stf_Informationservices><![CDATA[Information Services]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[Queensland]]></stf_StateFilter>
+<stf_Tours><![CDATA[Tours]]></stf_Tours>
+<stf_Transport><![CDATA[Transport]]></stf_Transport>
+</PlanYourVisit></con_RHSModules>
+    <con_Category></con_Category>
+    <lst_Subpages>
+    </lst_Subpages>
+</StandardCampaignLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

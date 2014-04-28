@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="22226" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Página inicial]]></headline>
+            <href><![CDATA[/pt-br/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Tools and Campaigns]]></headline>
+            <href><![CDATA[/pt-br/tools-campaigns.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Paisagens Nacionais da Austrália]]></headline>
+            <href><![CDATA[/pt-br/nationallandscapes.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[Caldeirão Verde da Austrália]]></headline>
+            <href><![CDATA[/pt-br/nationallandscapes/australias-green-cauldron.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/Campaigns/national-landscapes-australias-green-cauldron.jpg]]></img_background>
+    <hdl_Title><![CDATA[Caldeir&atilde;o Verde da Austr&aacute;lia]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/national-landscapes-australias-green-cauldron-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/Campaigns/national-landscapes-australias-green-cauldron-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[yes]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[Caminhe pelo Mount Warning (Wollumbin) no caldeir&atilde;o verde da Austr&aacute;lia, uma antiga paisagem vulc&acirc;nica agora recoberta pela floresta tropical de Gondwana.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[Mount Warning, Wollumbin, Byron Bay, Gold Coast, Parque Nacional Lamington, Springbrook, Parque Nacional Springbrook, Parque Nacional Border Ranges, Parque Nacional Nightcap, Parque Nacional de Queensland, Parque Nacional da Austr&aacute;lia, Murwillumbah, Uki]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Saiba mais]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Paisagens Nacionais da Austr&aacute;lia: Caldeir&atilde;o Verde da Austr&aacute;lia - Tourism Austr&aacute;lia]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        Caminhe pelo Mount Warning (Wollumbin) no caldeir&atilde;o verde da Austr&aacute;lia, uma antiga paisagem vulc&acirc;nica agora recoberta pela floresta tropical de Gondwana.
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <StandardCampaignLayout isTemplate="1">
+    <opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+    <hdl_Title><![CDATA[]]></hdl_Title>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+    <con_Banner><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<DIV id=headerimage>
+<SCRIPT type=text/javascript src="../../static/js/jquery.cycle.all.latest.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+jQuery(document).ready(function() {
+jQuery('#headersliderwrapper').cycle({
+        fx:'fade',
+        slideExpr: '.headerslide'
+    });
+});
+</SCRIPT>
+
+<DIV id=headersliderwrapper>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-agc-01.jpg"> 
+<DIV class=headerslideinfo>O caldeir&atilde;o verde da Austr&aacute;lia</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-agc-02.jpg"> 
+<DIV class=headerslideinfo>Nascer do sol em Burleigh Heads, QLD</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-agc-03.jpg"> 
+<DIV class=headerslideinfo>Monte Warning, NSW</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-agc-04.jpg"> 
+<DIV class=headerslideinfo>Prancha com remo em p&eacute;</DIV></DIV></DIV></DIV>
+<DIV id=subpage-header-overlay></DIV>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule></con_Banner>
+    <con_Body><TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Caldeir&atilde;o Verde da Austr&aacute;lia]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        Caminhe pelo Mount Warning (Wollumbin) no caldeir&atilde;o verde da Austr&aacute;lia – os vest&iacute;gios de um antigo vulc&atilde;o que agora &eacute; uma floresta tropical viva de Gondwana. Esta vasta cratera se estende de Byron Bay at&eacute; a Gold Coast e a oeste em dire&ccedil;&atilde;o &agrave; cordilheira Great Dividing. Caminhe pela base do Mount Warning (Wollumbin) e pelos parques nacionais listados no Patrim&ocirc;nio da Humanidade, tais como Lamington, Border Ranges, Springbrook e Nightcap. Conhe&ccedil;a p&aacute;ssaros e animais raros na floresta subtropical e visite as comunidades criativas da nova era. Dirija pela Rainforest Way em torno desta regi&atilde;o biodiversa e descubra suas hist&oacute;rias sagradas com os guias abor&iacute;genes.
+        <p><strong>Quatro maneiras de se encontrar no caldeir&atilde;o verde</strong></p>
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[1. Serpenteie pelos m&iacute;sticos parques nacionais]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australias-green-cauldron-hl01.jpg" alt="Nightcap National Park, NSW">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Nightcap National Park, NSW]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Caminhe pela trilha Lyrebird ao redor da base do Mount Warning (Wollumbin) e ou&ccedil;a o chamado do raro p&aacute;ssaro lira (Albert’s Lyrebird). Serpenteie pelas muitas trilhas na verdejante floresta subtropical do Parque Nacional de Lamington e, em seguida, fa&ccedil;a a caminhada O'Reillys Tree Top pelo abrigo alinhado de vinhas. Caminhe por vales e mirantes espetaculares no Parque Nacional Springbrook. Escale at&eacute; o mirante Pinnacle, na borda da enorme cratera Wollumbin, no Parque Nacional Border Ranges. Em seguida fa&ccedil;a um piquenique na floresta de Nothofagus moorei do parque. Escale at&eacute; o topo dos montes Mt Maroon, Mt Barney, Mt Mitchell e Mt Cordeaux pr&oacute;ximo ao Beaudesert. Fa&ccedil;a caminhadas passando por cachoeiras e riachos na paisag&iacute;stica cordilheira Nightcap, no Parque Nacional Nightcap.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[2. Desacelere nas cidades do interior]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australias-green-cauldron-hl02.jpg" alt="Byron Bay, NSW">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Byron Bay, NSW]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Jante em um caf&eacute; art-deco em Murwillumbah, onde o Mount Warning (Wollumbin) se eleva majestosamente ao fundo. Em seguida, dirija pelo Mount Warning Circuit pelos vilarejos hist&oacute;ricos de Uki e Tyalgum ou pela Tweed Range Drive at&eacute; Kyogle e Lismore. Refugie-se em um spa em Ballina ou aprenda a surfar em Byron Bay. Fa&ccedil;a um cruzeiro pelo Tweed River partindo de Kingscliff ou nade, surfe e pesque nas largas praias brancas. Saiba como est&aacute; sua aura e experimente alimentos biodin&acirc;micos nas cidades da Rainbow Region, como Casino, Kyogle, Lismore e Nimbin.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[3. Encontre os animais selvagens]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australias-green-cauldron-hl03.jpg" alt="Kookaburra">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Kookaburra]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Fa&ccedil;a um piquenique com cangurus, coalas, gatos-marsupiais Dasyurus maculatus e sarigu&ecirc;s planadores no Parque Nacional de Mount Warning. Preste aten&ccedil;&atilde;o para ouvir o canto parecido com o estalido de um chicote do Psophodes olivaceus macho e a imita&ccedil;&atilde;o de seu canto pelo p&aacute;ssaro lira (Albert’s lyrebird). Veja os raros p&aacute;ssaros Atrichornis rufescens, Ptilinopus magnificus e Podargus ocellatus. No Parque Nacional Border Rangers, lar da maior concentra&ccedil;&atilde;o de esp&eacute;cies marsupiais da Austr&aacute;lia, voc&ecirc; encontrar&aacute; equidnas, bandicoots, ornitorrincos, pademelons, sarigu&ecirc;s e raposas voadoras. De Kingscliff e Byron Bay, voc&ecirc; pode avistar golfinhos brincando alegremente na &aacute;gua e baleias jubarte em sua migra&ccedil;&atilde;o anual.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[4. Descubra o Rainforest Way]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australias-green-cauldron-hl04.jpg" alt="Mt Warning (Wollumbin), NSW">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Mt Warning (Wollumbin), NSW]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Dirija pelo Rainforest Way, uma s&eacute;rie de la&ccedil;os e trilhas que liga v&aacute;rios parques nacionais considerados Patrim&ocirc;nios da Humanidade. Maravilhe-se com as fazendas verde-esmeralda e a floresta Gondwana dirigindo pela Tweed Range Scenic Drive ao longo da borda superior da antiga cratera do Mount Warning (Wollumbin). Cruze a cordilheira Great Dividing e pare no topo da cordilheira Richmond para apreciar vistas arrebatadoras dos plugues vulc&acirc;nicos ao longe. Explore Boonah ou escale as rochas no Parque Nacional Mount French dirigindo pela Main Range Drive. Visite Tamborine Mountain no interior de Gold Coast, ou passeie por Nimbin at&eacute; as altas Minyon Falls, no Parque Nacional Nightcap.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[5. Conecte-se &agrave; cultura abor&iacute;gene vivendo-a]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australias-green-cauldron-hl05.jpg" alt="Fireside Corrooboree, Currumbin, QLD">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Fireside Corrooboree, Currumbin, QLD]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Visite o Centro Cultural Abor&iacute;gene em South Tweed Heads e organize um passeio cultural guiado pela vizinha Reserva Natural de Ukerebagh. Ao norte, em Gold Coast, voc&ecirc; pode ir de caiaque &agrave;s ilhas de South Stradbroke e Wavebreak com guias Balunjali. Fa&ccedil;a snorkel com arraias, cace com cangurus do p&acirc;ntano dourado e almoce no exaurido cerrado. Tamb&eacute;m na Gold Coast, o Currumbin Wildlife Sanctuary apresenta diariamente espet&aacute;culos de dan&ccedil;a abor&iacute;gene e dos rituais sagrados noturnos &agrave; beira da lareira. Junte-se em um passeio cultural de fim de tarde nas proximidades do Parque Nacional Springbrook e visite cavernas de vaga-lumes e ou&ccedil;a as hist&oacute;rias dos Sonhos das constela&ccedil;&otilde;es estelares.
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights></con_Body>
+    <con_RHSModules><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<TABLE cellSpacing=0 cellPadding=0 width=298 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top align=center>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD style="WIDTH: 25px">&nbsp;</TD>
+<TD><!-- #BeginLibraryItem "/Library/sitenav.lbi" -->
+<SCRIPT language=JavaScript1.2 type=text/javascript src="../../static/js/stmenu.js"></SCRIPT>
+<!-- #EndLibraryItem --></TD></TR></TBODY></TABLE><!-- Google Map Start -->
+<SCRIPT type=text/javascript>
+function fireEvent(obj,evt){
+ var fireOnThis = obj;
+ if( document.createEvent ) {
+   var evObj = document.createEvent('MouseEvents');
+   evObj.initEvent( evt, true, false );
+   fireOnThis.dispatchEvent(evObj);
+ } else if( document.createEventObject ) {
+   fireOnThis.fireEvent('on'+evt);
+ }
+}
+function clickLink(linkobj) {
+if (linkobj.getAttribute('onclick') == null) {
+if (linkobj.getAttribute('href')) document.location = linkobj.getAttribute('href');
+     }
+     else linkobj.onclick();
+}
+function loadjscssfile(filename, filetype){
+ if (filetype=="js"){ //if filename is a external JavaScript file
+  var fileref=document.createElement('script')
+  fileref.setAttribute("type","text/javascript")
+  fileref.setAttribute("src", filename)
+ }
+ else if (filetype=="css"){ //if filename is an external CSS file
+  var fileref=document.createElement("link")
+  fileref.setAttribute("rel", "stylesheet")
+  fileref.setAttribute("type", "text/css")
+  fileref.setAttribute("href", filename)
+  fileref.setAttribute("media", "print")
+ }
+ if (typeof fileref!="undefined")
+  document.getElementsByTagName("head")[0].appendChild(fileref)
+}
+ </SCRIPT>
+
+<SCRIPT type=text/javascript>
+var icheckk=0;
+jQuery.each(jQuery.browser, function(i, val) {
+if(i=="msie" && jQuery.browser.version.substr(0,3)=="7.0")
+icheckk=1;
+});
+function myfun()
+{
+loadjscssfile("../../static/css/thickbox.css", "css");
+if(icheckk==1)
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='../../static/maps/pt-br/australiasgreencauldron/bigmap.html'  target='_blank'>&nbsp;Imprimir|Fechar|&nbsp;ou tecla Esc</a></b>","../../static/maps/pt-br/australiasgreencauldron/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+else
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='javascript:window.print()' >&nbsp;Imprimir|Fechar|&nbsp;ou tecla Esc</a></b>","../../static/maps/pt-br/australiasgreencauldron/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+}
+         </SCRIPT>
+<IFRAME style="MARGIN-BOTTOM: 20px; BORDER-TOP: black 1px solid; HEIGHT: 355px; BORDER-RIGHT: black 1px solid; BORDER-BOTTOM: black 1px solid; FLOAT: left; PADDING-BOTTOM: 5px; BORDER-LEFT: black 1px solid; BACKGROUND-COLOR: #333333" height=380 src="../../static/maps/pt-br/australiasgreencauldron/index.html" frameBorder=0 width=249 name=FRAMENAME scrolling=no></IFRAME><!-- Google Map end -->
+<DIV class=subpage-video-thumb style="TEXT-ALIGN: left"><A onclick="moduleTrackingWithTitle('lightbox-video','',false,'nationallandscapes-greencauldronptbr');" href="#" data-reveal-id="modalVideo"><IMG alt="" src="/contentimages/Campaigns/national-landscapes-video-pt-br.jpg"> </A></DIV>
+<DIV id=modalVideo class="reveal-modal video" style-="z-index: 103;"><A class=close-reveal-modal><SPAN class=icon></SPAN></A>
+<DIV class=video style="VISIBILITY: visible !important"><IFRAME height=315 src="//www.youtube.com/v/EjGZ3MaX9pE?version=3&amp;hl=en_GB" frameBorder=0 width=560></IFRAME></DIV></DIV></TD></TR></TBODY></TABLE>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule><Listing isTemplate="1">
+<anc_List1><![CDATA[/pt-br/explore/icons/byron-bay.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[Ideias australianas]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/pt-br/AccommodationSearch.ignore]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/pt-br/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/pt-br/AttractionSearchResults.ignore]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/pt-br/DestinfoSearchResults.ignore]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/pt-br/EventsSearch.xml]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/pt-br/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/pt-br/hire.ignore]]></anc_Hire>
+<anc_Info><![CDATA[/pt-br/InfoSearchResults.ignore]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/pt-br/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/pt-br/TourSearchResults.ignore]]></anc_Tour>
+<anc_Transport><![CDATA[/pt-br/transport.ignore]]></anc_Transport>
+<hdl_Title><![CDATA[Planeje sua viagem]]></hdl_Title>
+<language><![CDATA[PTB]]></language>
+<stf_Accomodation><![CDATA[Accommodation]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[Attractions]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[Find a Travel Agent near you]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[Destination Information]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[Events]]></stf_Events>
+<stf_Hire><![CDATA[Hire ]]></stf_Hire>
+<stf_Informationservices><![CDATA[Information Services]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[Queensland]]></stf_StateFilter>
+<stf_Tours><![CDATA[Tours]]></stf_Tours>
+<stf_Transport><![CDATA[Transport]]></stf_Transport>
+</PlanYourVisit></con_RHSModules>
+    <con_Category></con_Category>
+    <lst_Subpages>
+    </lst_Subpages>
+</StandardCampaignLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

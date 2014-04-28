@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="22238" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Pagina iniziale]]></headline>
+            <href><![CDATA[/it/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Tools and Campaigns]]></headline>
+            <href><![CDATA[/it/tools-campaigns.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Paesaggi Nazionali dell'Australia]]></headline>
+            <href><![CDATA[/it/nationallandscapes.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[Grande barriera corallina]]></headline>
+            <href><![CDATA[/it/nationallandscapes/great-barrier-reef.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/Campaigns/national-landscapes-great-barrier-reef.jpg]]></img_background>
+    <hdl_Title><![CDATA[Grande barriera corallina]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/national-landscapes-great-barrier-reef-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/Campaigns/national-landscapes-great-barrier-reef-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[yes]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[Risveglia i sensi e lasciati ispirare da una visita alla Grande barriera corallina, Patrimonio dell'umanit&agrave;, la pi&ugrave; grande del pianeta e una delle sette meraviglie naturali del mondo.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[Grande barriera corallina, Airlie Beach, Whitsundays, foresta pluviale di Daintree, Patrimonio dell’Umanit&agrave;, immersioni, snorkeling, Port Douglas, Mon Repos, Coral, Townsville, Mackay, Mission Beach, barca a vela, Cairns]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Ulteriori Informazioni]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Paesaggi Nazionali dell'Australia: Grande barriera corallina - Turismo Australia]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        Risveglia i sensi e lasciati ispirare da una visita alla Grande barriera corallina, Patrimonio dell'umanit&agrave;, la pi&ugrave; grande del pianeta e una delle sette meraviglie naturali del mondo.
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <StandardCampaignLayout isTemplate="1">
+    <opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+    <hdl_Title><![CDATA[]]></hdl_Title>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+    <con_Banner><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<DIV id=headerimage>
+<SCRIPT type=text/javascript src="../../static/js/jquery.cycle.all.latest.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+jQuery(document).ready(function() {
+jQuery('#headersliderwrapper').cycle({
+        fx:'fade',
+        slideExpr: '.headerslide'
+    });
+});
+</SCRIPT>
+
+<DIV id=headersliderwrapper>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-gbr-01.jpg"> 
+<DIV class=headerslideinfo>Low Isles, QLD</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-gbr-02.jpg"> 
+<DIV class=headerslideinfo>Lizard Island, QLD</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-gbr-03.jpg"> 
+<DIV class=headerslideinfo>Pesci pagliaccio</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-gbr-04.jpg"> 
+<DIV class=headerslideinfo>Pixies Garden, QLD</DIV></DIV></DIV></DIV>
+<DIV id=subpage-header-overlay></DIV>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule></con_Banner>
+    <con_Body><TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Grande barriera corallina]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        Una delle sette meraviglie naturali del mondo e Patrimonio dell'umanit&agrave;, la Grande barriera corallina &egrave; la pi&ugrave; grande del pianeta. Con un'estensione che va dalla parte settentrionale di Bundaberg fino a Cape York, la Grande barriera corallina comprende 2.900 barriere, pi&ugrave; di 900 isole e 300 banchi corallini. In totale, &egrave; lunga circa 2.300 km. &Egrave; talmente grande da essere visibile dallo spazio. Questo ecosistema ottimamente conservato &egrave; l'habitat naturale di alcuni dei pi&ugrave; affascinanti esemplari di vita marina, tra cui spiccano oltre 20 specie vulnerabili o in pericolo. La Grande barriera corallina offre vedute e panorami capaci di risvegliare i sensi e ispirare l'anima.
+        <p><strong>Quattro motivi per visitare la Grande barriera corallina</strong></p>
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[1. Isole spettacolaris]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-great-barrier-reef-hl01.jpg" alt="Vlassof Cay, QLD">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Vlassof Cay, QLD]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Per una vera esperienza alla Robinson Crusoe, scegli Haggerstone Island, situata all'estremit&agrave; settentrionale della barriera. Qui possono soggiornare solo pochi ospiti alla volta e puoi persino affittare l'intera isola solo per te. Le acque circostanti pullulano di colonie di tartarughe e tartarughe verdi. Inoltre, a nord si trova la romantica e lussuosa Lizard Island, riservata a soli adulti. Tra Port Douglas e Townsville si trovano le splendide isole Green, Bedarra, Orpheus e Magnetic oltre al parco nazionale insulare pi&ugrave; grande d'Australia, quello di Hinchinbrook Island. Pi&ugrave; a sud, al largo di Airlie Beach, si trovano le famose isole Whitsunday e, all'estremit&agrave; meridionale della Grande barriera corallina, c'&egrave; Lady Elliot Island, stupefacente dal punto di vista ecologico.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[2. Barriera corallina e vita marina]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-great-barrier-reef-hl02.jpg" alt="Clownfish, QLD">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Clownfish, QLD]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        La Grande barriera corallina ospita numerose specie marine come balene, tartarughe, squali, pesci pagliaccio, vongole giganti e mante. L'acqua sempre calda ti consente di vivere numerose esperienze subacquee indimenticabili in canyon di coralli, tunnel e grotte sottomarine e relitti. Sub esperti o semplici appassionati di snorkeling: qui tutti possono dedicarsi alla propria attivit&agrave; preferita. A ottobre e novembre, nei periodi di luna piena, il mare assume una tenue sfumatura rosa in occasione dell'incredibile fenomeno naturale della riproduzione del corallo. In superficie, il fenomeno &egrave; paragonabile a migliaia di frizzanti bollicine di champagne. Tra novembre e marzo, sulla spiaggia di Mon Repos, a est di Bundaberg, o a Lady Elliot Island, potrai vedere le tartarughe femmina tornare a riva per deporre le uova. Solitamente i piccoli iniziano a lasciare i nidi a met&agrave; gennaio.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[3. Barca a vela]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-great-barrier-reef-hl03.jpg" alt="Hamilton Island Sailing, QLD">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Hamilton Island Sailing, QLD]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Mission Beach, Townsville, Airlie Beach, Mackay, Rockhampton e Bundaberg sono fiorenti centri costieri dai quali puoi accedere agevolmente alle diverse zone della Grande barriera corallina. Navigare in barca a vela &egrave; uno dei modi pi&ugrave; popolari di esplorare la barriera. Il mare calmo e le acque turchesi offrono uno sfondo perfetto dove ormeggiare e ammirare un paesaggio unico al mondo. Puoi metterti al timone oppure noleggiare un'imbarcazione con skipper e catering completo.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[4. Esperienze uniche]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-great-barrier-reef-hl04.jpg" alt="Ribbon Reef, QLD">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Ribbon Reef, QLD]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Da Port Douglas o Cairns, puoi fare snorkeling nelle splendide barriere "ribbon" settentrionali, dedicarti al trekking nella foresta pluviale pi&ugrave; antica del mondo, a Daintree, Patrimonio dell'umanit&agrave;, o rilassarti nelle spiagge incontaminate di Cape Tribulation, dove la foresta pluviale incontra la barriera corallina. Se vuoi vivere un'esperienza acquatica unica, a Port Douglas potrai nuotare con le balenottere minori, nei mesi di giugno e luglio. Se invece preferisci restare in superficie, puoi scegliere una delle tante crociere per l'avvistamento delle balene durante il periodo della migrazione annuale. Ancora pi&ugrave; a sud, puoi dirigerti ad Airlie Beach, punto di accesso all'arcipelago delle Whitsundays, da dove potrai esplorare 74 isole paradisiache. Oppure scegli un volo panoramico per goderti vedute che non temono confronti nel resto del mondo.
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights></con_Body>
+    <con_RHSModules><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<TABLE cellSpacing=0 cellPadding=0 width=298 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top align=center>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD style="WIDTH: 25px">&nbsp;</TD>
+<TD><!-- #BeginLibraryItem "/Library/sitenav.lbi" -->
+<SCRIPT language=JavaScript1.2 type=text/javascript src="../../../../static/js/stmenu.js"></SCRIPT>
+<!-- #EndLibraryItem --></TD></TR></TBODY></TABLE><!-- Google Map Start -->
+<SCRIPT type=text/javascript>
+function fireEvent(obj,evt){
+ var fireOnThis = obj;
+ if( document.createEvent ) {
+   var evObj = document.createEvent('MouseEvents');
+   evObj.initEvent( evt, true, false );
+   fireOnThis.dispatchEvent(evObj);
+ } else if( document.createEventObject ) {
+   fireOnThis.fireEvent('on'+evt);
+ }
+}
+function clickLink(linkobj) {
+if (linkobj.getAttribute('onclick') == null) {
+if (linkobj.getAttribute('href')) document.location = linkobj.getAttribute('href');
+     }
+     else linkobj.onclick();
+}
+function loadjscssfile(filename, filetype){
+ if (filetype=="js"){ //if filename is a external JavaScript file
+  var fileref=document.createElement('script')
+  fileref.setAttribute("type","text/javascript")
+  fileref.setAttribute("src", filename)
+ }
+ else if (filetype=="css"){ //if filename is an external CSS file
+  var fileref=document.createElement("link")
+  fileref.setAttribute("rel", "stylesheet")
+  fileref.setAttribute("type", "text/css")
+  fileref.setAttribute("href", filename)
+  fileref.setAttribute("media", "print")
+ }
+if (typeof fileref!="undefined")
+document.getElementsByTagName("head")[0].appendChild(fileref)
+}
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+var icheckk=0;
+jQuery.each(jQuery.browser, function(i, val) {
+if(i=="msie" && jQuery.browser.version.substr(0,3)=="7.0")
+icheckk=1;
+});
+function myfun()
+{
+loadjscssfile("../../static/css/thickbox.css", "css");
+if(icheckk==1)
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='../../static/maps/it/greatbarrierreef/bigmap.html'  target='_blank'>&nbsp;Stampa|Chiudi|&nbsp;o premere il tasto Esc</a></b>","../../static/maps/it/greatbarrierreef/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+else
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='javascript:window.print()' >&nbsp;Stampa|Chiudi|&nbsp;o premere il tasto Esc</a></b>","../../static/maps/it/greatbarrierreef/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+}
+         </SCRIPT>
+<IFRAME style="MARGIN-BOTTOM: 20px; BORDER-TOP: black 1px solid; HEIGHT: 355px; BORDER-RIGHT: black 1px solid; BORDER-BOTTOM: black 1px solid; FLOAT: left; PADDING-BOTTOM: 5px; BORDER-LEFT: black 1px solid; BACKGROUND-COLOR: #333333" height=380 src="../../static/maps/it/greatbarrierreef/index.html" frameBorder=0 width=249 name=FRAMENAME scrolling=no></IFRAME><!-- Google Map end -->
+<DIV class=subpage-video-thumb style="TEXT-ALIGN: left"><A onclick="moduleTrackingWithTitle('lightbox-video','',false,'nationallandscapes-greatbarrierreefit');" href="#" data-reveal-id="modalVideo"><IMG alt="" src="/contentimages/Campaigns/national-landscapes-video-it.jpg"></A> </DIV>
+<DIV id=modalVideo class="reveal-modal video" style-="z-index: 103;"><A class=close-reveal-modal><SPAN class=icon></SPAN></A>
+<DIV class=video style="VISIBILITY: visible !important"><IFRAME height=315 src="//www.youtube.com/v/EjGZ3MaX9pE?version=3&amp;hl=en_GB" frameBorder=0 width=560></IFRAME></DIV></DIV></TD></TR></TBODY></TABLE>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule><Listing isTemplate="1">
+<anc_List1><![CDATA[/it/explore/states/qld/qld-diving.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[Altri itinerari suggeriti in Australia ]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/it/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/it/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/it/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/it/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/it/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/it/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/it/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/it/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/it/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/it/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/it/Transport.ignore]]></anc_Transport>
+<hdl_Title><![CDATA[Great Barrier Reef - Iniziate a programmare il vostro viaggio]]></hdl_Title>
+<language><![CDATA[ITA]]></language>
+<stf_Accomodation><![CDATA[Alloggi]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[Attrazione]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[Trova l’agenzia di viaggi pi&ugrave; vicina ]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[Informazioni sulle destinazioni]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[Whitsunday Region]]></stf_DomesticRegion>
+<stf_Events><![CDATA[Eventi]]></stf_Events>
+<stf_Hire><![CDATA[Noleggio]]></stf_Hire>
+<stf_Informationservices><![CDATA[Informazioni]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[Queensland]]></stf_StateFilter>
+<stf_Tours><![CDATA[Tour]]></stf_Tours>
+<stf_Transport><![CDATA[Trasporti]]></stf_Transport>
+</PlanYourVisit></con_RHSModules>
+    <con_Category></con_Category>
+    <lst_Subpages>
+    </lst_Subpages>
+</StandardCampaignLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

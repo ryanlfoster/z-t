@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="35" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Startseite]]></headline>
+            <href><![CDATA[/de/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Planen]]></headline>
+            <href><![CDATA[/de/plan.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Unterkunft]]></headline>
+            <href><![CDATA[/de/plan/plan-your-trip/accommodation.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/plan-plan-your-trip-find-accommodation.jpg]]></img_background>
+    <hdl_Title><![CDATA[Unterkunft]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/plan-plan-your-trip-find-accommodation-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/plan-plan-your-trip-find-accommodation-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[Sie haben die Qual der Wahl: Ob Luxus-Resorts oder Backpacker Hotel, Ferienwohnung oder Boutiquehotel - in Australien findet jeder eine Unterkunft.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[Unterkunft, Urlaubs-Resorts, Hotels, Motels, Appartements mit Service und Ferienh&auml;user, Bed and Breakfast - Fr&uuml;hst&uuml;ckspensionen, Farmaufenthalte, Camping- und Wohnwagenpl&auml;tze, Herbergen und Rucksackreisende]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Lesen sie mehr]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Unterkunft in Australien]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        Bei Ihrer Unterkunft in Australien haben Sie die Qual der Wahl. Hier finden Sie schicke Boutiquehotels und Herbergen f&uuml;r Rucksackreisende, Luxus-Resorts und Ferienwohnungen mit Selbstverpflegung, rustikale Gasth&auml;user auf dem Land und Campingpl&auml;tze.
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <AccommodationRHS isTemplate="1">
+    <!-- no user content -->
+</AccommodationRHS><StarRatingModule isTemplate="1">
+    <hdl_Title><![CDATA[Ein Leitfaden zur Hotelkategorie-Bewertung]]></hdl_Title>
+    <con_StarRating>
+        <StarRatingItem isTemplate="1">
+    <hdl_Title><![CDATA[5 Sterne]]></hdl_Title>
+    <txt_Description><![CDATA[Hoher Standard und ein breite Palette an erstklassigen G&auml;steservices]]></txt_Description>
+    <img_Stars><![CDATA[<img src="/contentimages/rating5.jpg" alt="5 Sterne">]]></img_Stars>
+</StarRatingItem><StarRatingItem isTemplate="1">
+    <hdl_Title><![CDATA[4 - 4&frac12; Sterne]]></hdl_Title>
+    <txt_Description><![CDATA[Au&szlig;erordentlicher Standard mit gehobener Ausstattung und sehr gutem Komfort]]></txt_Description>
+    <img_Stars><![CDATA[<img src="/contentimages/rating4.jpg" alt="four stars">]]></img_Stars>
+</StarRatingItem><StarRatingItem isTemplate="1">
+    <hdl_Title><![CDATA[3 - 3&frac12; Sterne]]></hdl_Title>
+    <txt_Description><![CDATA[Gut ausgestattete Einrichtungen mit komfortablen, sauberen R&auml;umen und gehobener Ausstattung]]></txt_Description>
+    <img_Stars><![CDATA[<img src="/contentimages/rating3.jpg" alt="3 stars">]]></img_Stars>
+</StarRatingItem><StarRatingItem isTemplate="1">
+    <hdl_Title><![CDATA[Weniger als 3 Sterne]]></hdl_Title>
+    <txt_Description><![CDATA[Einfacher, jedoch gepflegter Standard]]></txt_Description>
+    <img_Stars><![CDATA[]]></img_Stars>
+</StarRatingItem><StarRatingItem isTemplate="1">
+    <hdl_Title><![CDATA[Appartements mit Service]]></hdl_Title>
+    <txt_Description><![CDATA[Komplett ausgestattete Appartements, 1-3 Schlafzimmer mit Wohnbereich, K&uuml;che, Waschmaschine und separatem Badezimmer]]></txt_Description>
+    <img_Stars><![CDATA[]]></img_Stars>
+</StarRatingItem>
+    </con_StarRating>
+    <anc_MoreLink><![CDATA[]]></anc_MoreLink> 
+</StarRatingModule><Listing isTemplate="1">
+<anc_List1><![CDATA[/de/plan/before-you-go/visa-information.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[More Australian Ideas]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Unterkunft ]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[Bei Ihrer Unterkunft in Australien haben Sie die Qual der Wahl. Hier finden Sie schicke Boutiquehotels und Herbergen f&uuml;r Rucksackreisende, Luxus-Resorts und Ferienwohnungen mit Selbstverpflegung, rustikale Gasth&auml;user auf dem Land und Campingpl&auml;tze. Es erwarten Sie jedoch stets ein freundlicher Service und ein erstklassiger Standard. 
+
+<P>Erfahren Sie mehr &uuml;ber die verschiedenen Unterkunftsm&ouml;glichkeiten, die Einrichtungen und die Preislage.</P>
+<P></P>]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Urlaubs-Resorts]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Entspannen Sie in einem Urlaubshotel mit allen Annehmlichkeiten. Genie&szlig;en Sie ger&auml;umige Zimmer mit gehobener Ausstattung und eine Vielzahl an G&auml;steservices, Ausfl&uuml;gen und Aktivit&auml;ten. Australische Urlaubshotels sind der perfekte Ort zum Entspannen, inmitten einer atemberaubenden Natur – von Hamilton Island in Queensland bis hin zur Weinregion in <a href="/de/explore/states/sa.xml" target="_self">S&uuml;daustralien</a>. Die Aktivit&auml;ten sind auf Ihren jeweiligen Urlaubsort zugeschnitten und reichen von <a href="/de/explore/states/vic/vic-snow-play.xml" target="_self">Skifahren</a> bis <a href="/de/explore/things-to-do/australian-adventure/nat-diving.xml" target="_self">Tauchen</a>. Nat&uuml;rlich k&ouml;nnen Sie auch einfach nur am Pool mit einem Cocktail in der Hand faulenzen.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Hotels]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Beziehen Sie ein Zimmer oder eine Suite, nutzen Sie die verschiedenen Service-Angebote wie Zimmerservice und Babysitter und genie&szlig;en Sie Freizeiteinrichtungen wie Pools, Fitnesscenter, Bars und Restaurants. In den bedeutenden <a href="/de/explore.xml" target="_self">Touristenzentren</a> und <a href="/de/about/australias-landscapes/cities.xml" target="_self">St&auml;dten</a> Australiens sind auch die meisten internationalen Hotelketten vertreten. Die Hotelkategorien sind mit zwei bis f&uuml;nf Sternen bewertet und die Preise variieren dementsprechend. 
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Motels]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[Wenn Sie mit dem Mietwagen unterwegs sind, finden Sie zahlreiche Motels zu g&uuml;nstigen Preisen. Zur Standardausstattung von Motelzimmern geh&ouml;rt &uuml;blicherweise Bad oder Dusche, TV, Tee- und Kaffeekocher sowie ein kleiner K&uuml;hlschrank. Die meisten Motels servieren das Fr&uuml;hst&uuml;ck auf dem Zimmer, w&auml;hrend die gr&ouml;&szlig;eren Anlagen &uuml;ber Restaurants verf&uuml;gen.]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Appartements mit Service und Ferienh&auml;user]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[Genie&szlig;en Sie den Platz, die Ruhe und die Annehmlichkeiten einer eigenen K&uuml;che und Waschk&uuml;che in einer Ferienwohnung f&uuml;r Selbstversorger oder einem Ferienhaus. Wenn Sie mit der Familie oder in einer gr&ouml;&szlig;eren Gruppe reisen bzw. mehr als nur ein paar Tage an einem Ort verbringen m&ouml;chten, bietet sich diese preisg&uuml;nstigere Option an. Genie&szlig;en Sie die gro&szlig;z&uuml;gigen Wohnbereiche und kochen Sie Ihre eigenen Mahlzeiten. Je nach Urlaubsort finden Sie Anlagen mit und ohne Serviceangebot.]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Bed and Breakfast - Fr&uuml;hst&uuml;ckspensionen]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[Genie&szlig;en Sie die famili&auml;re Atmosph&auml;re eines Bed and Breakfasts und die herzhafte hausgemachte K&uuml;che. Die kleinen, familienbetriebenen Unterk&uuml;nfte findet man im ganzen Land in Form von historischen H&auml;usern, Bergarbeiter-H&uuml;tten, Farmen und Stadth&auml;usern. Sie bieten gem&uuml;tliche Zimmer zu g&uuml;nstigen Preisen und die Besitzer k&ouml;nnen Ihnen h&auml;ufig wertvolle Tipps geben.]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Farmaufenthalte]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[Lassen Sie sich morgens vom Kr&auml;hen des Hahnes wecken oder erlernen Sie das Schafscheren auf einer mehr als 40.000 ha gro&szlig;en Farm im&nbsp; Outback. Schlafen Sie in einfachen Betten unter einem Blechdach oder genie&szlig;en Sie eine luxuri&ouml;se Unterkunft auf einem weitl&auml;ufigen Anwesen. Bei einem Farmaufenthalt k&ouml;nnen Sie beim Reiten, Fischen, Schwimmen und bei Wanderungen durch die Natur die unendliche Weite des Landes erleben. Nehmen Sie beim Reparieren von Z&auml;unen, Zusammentreiben von Rindern mit dem Pferd, Yabbying (Fangen von kleinen Flusskrebsen) oder bei einer Fahrt durch das Gel&auml;nde am Alltagsleben auf einer Farm teil. Erleben Sie den morgendlichen Nebel, die rostroten Sonnenunterg&auml;nge und das herzhafte „Country-Food“ am romantischen Lagerfeuer. Ein perfekter Abschluss ist ein warmes Bad unter Sternenhimmel in einer artesischen Quelle. Ein Farmaufenthalt bietet Ihnen die M&ouml;glichkeit, den Alltagsstress hinter sich zu lassen und die Gastfreundlichkeit sowie die einfache Lebensweise auf dem Land in vollen Z&uuml;gen zu genie&szlig;en.]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Camping- und Wohnwagenpl&auml;tze]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Genie&szlig;en Sie die freie Natur und die malerischen Landschaften Australiens beim Zelten oder im Wohnmobil. Sie k&ouml;nnen Ihr Zelt in einem Nationalpark aufschlagen oder in einer der gut ausgestatteten Campinganlagen. Strom, warme Duschen, Waschmaschinen und Grillpl&auml;tze sorgen daf&uuml;r, dass Sie auch unterwegs auf Sauberkeit und einen gewissen Komfort nicht verzichten m&uuml;ssen. Denken Sie an die Umwelt. In vielen Nationalparks gelten bestimmte Vorschriften und Richtlinien. Ein Stra&szlig;enabenteuer mit allen Annehmlichkeiten und ohne sich je zu verfahren erleben Sie auf einer einmonatigen gef&uuml;hrten Caravan-Tour. Sie k&ouml;nnen auch Luxus und Wildnis kombinieren und in einer zauberhaften Unterkunft im Campingstil im <a href="/de/explore/icons/red-centre.xml" target="_self">Outback</a>, im Wald, in der W&uuml;ste oder am Strand absteigen.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Herbergen und Rucksackreisende]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        &Uuml;bernachten Sie in einer H&uuml;tte am Strand oder in einem Baumhaus in <a href="/de/explore/states/qld.xml" target="_self">Queensland</a> oder schlafen Sie tief unter der Erde in S&uuml;daustralien. Unabh&auml;ngig davon, ob Sie als Rucksacktourist ein begrenztes Budget haben oder es eher etwas luxuri&ouml;ser bevorzugen, Australien bietet Herbergen im Outback sowie in den Stadtzentren. Diese Herbergen bzw. Hostels sind preisg&uuml;nstig und bieten au&szlig;erdem die perfekte M&ouml;glichkeit, andere Reisende zu treffen. Hier k&ouml;nnen Sie Geschichten austauschen und gemeinsam neue <a href="/de/explore/things-to-do/australian-adventure.xml" target="_self">Australien-Abenteuer</a> angehen.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[A guide to star ratings]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[<STRONG>Sleep under the stars</STRONG><BR>Love the great outdoors? Australia’s climate and countryside are perfect for camping or campervanning. 
+<P>You can pitch your tent in a national park, bed down in a spot of secret wilderness or head to one of Australia’s many well-equipped camping and caravan parks. Offering electricity, hot showers, laundry facilities and barbecue areas, they keep life on the road clean and civilised. </P>
+<P>For an all-amenities road trip where you never get lost, try a month-long guided caravan tour. Or combine luxury and wilderness with glamorous camp-style retreats in the outback, forest, desert or on the beach. </P>
+<P><STRONG>Enjoy resort relaxation</STRONG> <BR>Do you want a truly relaxing holiday where everything you need is in reach? Australian resorts offer spacious, high-quality accommodation and a huge range of guest services and activities. They are the ideal way to relax in stunning natural locations - from Queensland’s Hamilton Island to the wine country of South Australia. </P>
+<P>You'll find resort accommodation to cater for all tastes, budgets and scenery. And the numerous activities will be tailored to your location, whether you want to hit the ski slopes, go scuba diving or sip cocktails by the pool. </P>
+<P><STRONG>Bed down in a backpackers <BR></STRONG>Whether you’re a backpacker, flashpacker or just on a budget, Australia has the hostel for you. We’ve got backpacker beds everywhere from the middle of the outback to our city centres, often in unique settings. Stay in beach huts and tree houses in Queensland or sleep deep underground in South Australia.</P>
+<P>As well as saving you money, hostels are a great place to meet other travellers, perhaps someone who’d like see more of Australia with you. You can team up and take advantage of the discounted transport and tours that hostels often offer. </P>
+<P><STRONG>Learn to muster cattle on an outback station</STRONG><BR>If it's an Aussie adventure holiday you're after, pack the swag, slap on the Akubra hat and head for an outback station.</P>
+<P>You can leave the hustle of city life behind for old-fashioned hospitality and back-to-basics living on the land. </P>
+<P>The Australian outback is dotted with remote stations, some the size of small European countries. Here you can learn from cowboys how to muster cattle and watch stockmen herd sheep. Experience misty mornings and rusty red sunsets, hearty country food and open campfires. </P>
+<P>Once you’ve tried station life, head to a pretty hinterland farm to ride horses, milk cows and explore the farm by four-wheel-drive.<BR></P>]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

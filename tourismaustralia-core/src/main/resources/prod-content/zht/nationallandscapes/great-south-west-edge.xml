@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="22235" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[首頁]]></headline>
+            <href><![CDATA[/zht/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Tools and Campaigns]]></headline>
+            <href><![CDATA[/zht/tools-campaigns.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[澳洲國家地貌]]></headline>
+            <href><![CDATA[/zht/nationallandscapes.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[大西南部邊陲]]></headline>
+            <href><![CDATA[/zht/nationallandscapes/great-south-west-edge.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/Campaigns/national-landscapes-great-south-west-edge.jpg]]></img_background>
+    <hdl_Title><![CDATA[大西南部邊陲]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/national-landscapes-great-south-west-edge-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/Campaigns/national-landscapes-great-south-west-edge-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[yes]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[獨特出眾、生物多樣的大西南部邊陲（Great South West Edge）沿著西澳的偏遠西南海岸綿延開展，您可在此獲得自我性靈的充實。]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[大西南部邊陲, 巴瑟爾頓, 巴瑟爾頓長堤, 乾燥角國家公園, HMAS 天鵝號, 登斯波若, 瑪格麗特河, 瑪格麗特河的葡萄酒莊, 奧爾伯尼, 艾斯佩蘭斯, 勒格郎角國家公園, 洛切切群島, 丹特爾卡斯托國家公園, 威廉灣國家公園, 西豪威角國家公園, 托蒂拉普國家公園, 潘伯頓, 沃泊爾, 巴瑟爾頓, 華保利水灣, 洛納普海口, 拉姆薩爾濕地, 波隆古魯普國家公園, 斯特靈山脈國家公園, 菲茨杰拉德國家公園, 比布蒙路徑, 蒙大比地路徑, 雙角步道, 天然橋, 山峽, 露紋自然國家公園]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[了解更多資料]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[澳洲國家地貌：大西南部邊陲礁 - 澳洲旅遊局]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        獨特出眾、生物多樣的大西南部邊陲（Great South West Edge）沿著西澳的偏遠西南海岸綿延開展，您可在此獲得自我性靈的充實。
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <StandardCampaignLayout isTemplate="1">
+    <opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+    <hdl_Title><![CDATA[]]></hdl_Title>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+    <con_Banner><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<DIV id=headerimage>
+<SCRIPT type=text/javascript src="../../static/js/jquery.cycle.all.latest.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+jQuery(document).ready(function() {
+jQuery('#headersliderwrapper').cycle({
+        fx:'fade',
+        slideExpr: '.headerslide'
+    });
+});
+</SCRIPT>
+
+<DIV id=headersliderwrapper>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-gsw-01.jpg"> 
+<DIV class=headerslideinfo>自然國家公園（Naturaliste National Park），西澳（WA）</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-gsw-02.jpg"> 
+<DIV class=headerslideinfo>埃斯佩蘭斯（Esperance），西澳（WA）</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-gsw-03.jpg"> 
+<DIV class=headerslideinfo>野花</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-gsw-04.jpg"> 
+<DIV class=headerslideinfo>海口（The Gap），托蒂拉普國家公園（Torndirrup National Park），西澳（WA）</DIV></DIV></DIV></DIV>
+<DIV id=subpage-header-overlay></DIV>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule></con_Banner>
+    <con_Body><TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[大西南部邊陲]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        到獨特出眾、生物多樣的大西南部邊陲（Great South West Edge）獲得自我性靈的充實，此地區隱身於西澳南部，從巴瑟爾頓（Busselton）延伸到乾燥角國家公園（Cape Arid National Park）。 幾百萬年來自然之母以潔白的沙灘、野花、濕地、崢嶸的林相、石灰岩洞穴，以及位於兩洋交界處的河流，在此展現其美麗風華。 冬溼夏乾的地中海型氣候、多姿多彩的動植物群，以及令人著迷的土地和海洋對比，讓大西南部（Great South West）成為坐擁絕美多元風光的獨特國家級景點。 沿著純凈海岸線滑浪、釣魚、潛水和賞鯨，以及步行穿越幅員廣大的國家公園。 造訪世界級酒莊，觀賞古老的地質奇觀，並且探索本區豐富的原住民歷史。
+        <p><strong>大西南部邊陲的五大珍寶</strong></p>
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[1. 純凈的海岸線]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-great-south-west-edge-hl01.jpg" alt="A pristine coastline, WA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[A pristine coastline, WA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        在充滿歷史風情的巴瑟爾頓長堤（Busselton Jetty）和色彩燦爛的海洋生物一同浮潛。到登斯波若（Dunsborough）的 HMAS 柏斯沉船（HMAS Perth Dive Wreck）或 HMAS 天鵝號（HMAS Swan）潛水。在瑪格麗特河（Margaret River）體驗世界一流的滑浪，或觀賞遷徙的鯨群游過奧爾伯尼（Albany）的廣大自然港灣。 在那裡還可以感受城市迷人的流囚和捕鯨史，並且造訪保存完善的鯨魚世界博物館（Whale World Museum）。 奧爾伯尼（Albany）同時也是澳新軍團（ANZAC）士兵在被送往加利波利（Gallipoli）前最後停駐的地點。 沿著海岸線再往前是艾斯佩蘭斯（Esperance），有袋鼠在沙灘上做日光浴，而澳洲最白的沙灘幸運灣（Lucky Bay）也位於此處。 艾斯佩蘭斯（Esperance）海岸外星羅棋布著的便是洛切切群島（Recherche Archipelago）的上百座島嶼， 和丹特爾卡斯托（D’Entrecasteaux）、威廉灣（William Bay）、西豪威角（West Cape Howe）以及托蒂拉普國家公園（Torndirrup National Park）的大多數粗獷岩石海岸風光形成強烈對比。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[2. 高聳的樹木、野生動物與野花]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-great-south-west-edge-hl02.jpg" alt="Tall trees, WA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Tall trees, WA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        高聳的森林與海洋在丹麥（Denmark）交匯，崢嶸的南部森林令人驚嘆不已，特別是華保利-諾娜拉普國家公園（Walpole-Nornalup National Park）的巨人谷樹頂步道（Valley of the Giants Tree Top Walk）。 這個公園有河口、水灣和九個列於拉姆薩爾公約的濕地所組成的壯麗地貌。 鄰近巴瑟爾頓（Busselton）的圖阿特森林國家公園（Tuart Forrest National Park）藏有世界僅存的唯一圖阿特樹。 潘伯頓（Pemberton）鄰近地區有著足以讓自然愛好者萬分驚豔的巨大的紅柳桉和卡里樹林，紅柳桉神木已有 600 歲，而這座森林也有 100 年的歷史。 喜歡追求刺激的人，可以到此處的鑽石樹觀景點（Diamond Tree Lookout），這是全世界僅有的木製樹頂塔。 這個區域的壯麗國家公園綿延超過 100,000 公里，在九月到十一月之間還有漫山遍野、多姿多彩的野花盛開。 在波隆古魯普國家公園（Porongurup National Park）、斯特靈山脈國家公園（Stirling Range National Park）與菲茨杰拉德國家公園（Fitzgerald National Park）近距離接觸獨特的植物和鳥類生態，以及聯合國教科文組織認定的 1,800 種開花植物。 要是愛好賞鳥，乾燥角國家公園（Cape Arid National Park）是其中一個以鳥類保育聞名的地點，其中有超過 160 種鳥類，而且有數種已瀕臨滅絕。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[3. 壯觀的步行與騎馬路徑]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-great-south-west-edge-hl03.jpg" alt="Spectacular trails , WA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Spectacular trails , WA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        在比布蒙路徑（Bibbulmun Track）健行可以看到大西南部邊陲（Great South West Edge）的多樣地貌。 從柏斯山（Perth Hills）延伸將近 1,000 公里到奧爾伯尼（Albany）的比布蒙路徑（Bibbulmun Track）是世界最佳長途路線步行路徑之一。 雖然整個探險之旅要費時八週才能完成，但能輕鬆分段進行較短的單日與較長的過夜行程，來迎合各種程度健行者的需求。 此路徑蜿蜒穿過紅柳桉、美葉桉、鞣桉、卡里樹與叮咯樹森林，延伸到海岸薄荷與石南地。 山地車騎手可以在蒙大比地路徑（Munda Biddi Trail）感受相似景緻，從柏斯（Perth）到那普（Nannup）約 500 公里，而且可一路延伸至鄰近的奧爾伯尼（Albany）。 您若是喜歡刺激的海岸探險，可以到從露紋角（Cape Leeuwin）至納多魯利斯角（Cape Naturaliste）的雙角步道（Cape to Cape Trail）健行，並攀上西澳最高的燈塔享受壯麗風光。 駕駛四驅車的旅遊者，則一定要嘗試乾燥角國家公園（Cape Arid National Park）的自助導覽徒步路徑，欣賞純淨僻靜的海灣與撼人心弦的海岸風光。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[4. 古老的地貌與文化]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-great-south-west-edge-hl04.jpg" alt="Ancient landscapes, WA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Ancient landscapes, WA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        造訪托蒂拉普國家公園（Torndirrup National Park），一探由洶湧南大洋雕塑而出歷史超過幾百萬年的天然橋（Natural Bridg）與山峽（Gap）。 您可以從山峽（Gap）看到比地球上大多數生物更早生成的岩石。 到古老的波隆古魯普山脈（Porongurup Range）健行，並觀賞丹特爾卡斯托國家公園（D’Entrecasteaux National Park）中於 8,000 年前形成的流動黃沙。 探索露紋自然國家公園（Leeuwin-Naturaliste National Park）的石灰岩洞穴，或是再往南行到猛獁洞（Mammoth Caves），看看共存並生的巨型動物與原住民部落。 在途經登斯波若（Dunsborough）、雅林角（Yallingup）、艾斯佩蘭斯（Esperance）、勒格郎角（Cape Le Grand）或乾燥角國家公園（Cape Arid National Park）的文化旅程中，進一步瞭解本區內容豐富、生生不息的原住民歷史。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[5. 瑪格麗特河（Margaret River）的美食與美酒]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-great-south-west-edge-hl05.jpg" alt="Margaret River, WA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Margaret River, WA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        到享譽國際的瑪格麗特河（Margaret River）葡萄酒產區品嚐美酒，這裡的葡萄園周圍座落著高聳森林與壯觀滑浪海灘。 參加品酒之旅或跟隨駕車觀光路線參觀幾處位於此區域的數百間酒窖和酒莊。 在獲獎肯定餐廳品嚐一杯頂級的赤霞珠（Cabernet）或白蘇維翁（Sauvignon Blanc）美酒或產地直送的當地產品。 此區域以精緻的芝士、松露、巧克力與橄欖著稱，當然還有不容錯過的鹿肉、牛肉及淡水螯蝦。 造訪精品啤酒釀造廠，在卡里樹下野餐，以及遊覽豐富多彩的藝術和工藝品藝廊。
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights></con_Body>
+    <con_RHSModules><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<TABLE cellSpacing=0 cellPadding=0 width=298 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top align=center><!-- Google Map Start -->
+<SCRIPT type=text/javascript>
+function fireEvent(obj,evt){
+var fireOnThis = obj;
+if( document.createEvent ) {
+var evObj = document.createEvent('MouseEvents');
+evObj.initEvent( evt, true, false );
+fireOnThis.dispatchEvent(evObj);
+} else if( document.createEventObject ) {
+fireOnThis.fireEvent('on'+evt);
+}
+}
+function clickLink(linkobj) {
+if (linkobj.getAttribute('onclick') == null) {
+if (linkobj.getAttribute('href')) document.location = linkobj.getAttribute('href');
+}
+else linkobj.onclick();
+}
+function loadjscssfile(filename, filetype){
+if (filetype=="js"){ //if filename is a external JavaScript file
+var fileref=document.createElement('script')
+fileref.setAttribute("type","text/javascript")
+fileref.setAttribute("src", filename)
+}
+else if (filetype=="css"){ //if filename is an external CSS file
+var fileref=document.createElement("link")
+fileref.setAttribute("rel", "stylesheet")
+fileref.setAttribute("type", "text/css")
+fileref.setAttribute("href", filename)
+fileref.setAttribute("media", "print")
+}
+if (typeof fileref!="undefined")
+document.getElementsByTagName("head")[0].appendChild(fileref)
+}
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+var icheckk=0;
+jQuery.each(jQuery.browser, function(i, val) {
+if(i=="msie" && jQuery.browser.version.substr(0,3)=="7.0")
+icheckk=1;
+});
+function myfun()
+{
+loadjscssfile("../../static/css/thickbox.css", "css");
+if(icheckk==1)
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='../../static/maps/zht/greatsouthwestedge/bigmap.html'  target='_blank'>&nbsp;列印|關閉此視窗|&nbsp; 或按Esc键</a></b>","../../static/maps/zht/greatsouthwestedge/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+else
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='javascript:window.print()' >&nbsp;列印|關閉此視窗|&nbsp; 或按Esc键</a></b>","../../static/maps/zht/greatsouthwestedge/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+}
+         </SCRIPT>
+<IFRAME style="MARGIN-BOTTOM: 20px; BORDER-TOP: black 1px solid; HEIGHT: 355px; BORDER-RIGHT: black 1px solid; BORDER-BOTTOM: black 1px solid; FLOAT: left; PADDING-BOTTOM: 5px; BORDER-LEFT: black 1px solid; BACKGROUND-COLOR: #333333" height=380 src="../../static/maps/zht/greatsouthwestedge/index.html" frameBorder=0 width=249 name=FRAMENAME scrolling=no></IFRAME><!-- Google Map end -->
+<DIV class=subpage-video-thumb style="TEXT-ALIGN: left"><A onclick="moduleTrackingWithTitle('lightbox-video','',false,'nationallandscapes-greatsouthwestedgezht');" href="#" data-reveal-id="modalVideo"><IMG alt="" src="/contentimages/Campaigns/national-landscapes-video-zht.jpg"></A></DIV>
+<DIV id=modalVideo class="reveal-modal video" style-="z-index: 103;"><A class=close-reveal-modal><SPAN class=icon></SPAN></A>
+<DIV class=video style="VISIBILITY: visible !important"><IFRAME height=315 src="//www.youtube.com/v/EjGZ3MaX9pE?version=3&amp;hl=en_GB" frameBorder=0 width=560></IFRAME></DIV></DIV></TD></TR></TBODY></TABLE>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule><Listing isTemplate="1">
+<anc_List1><![CDATA[/zht/explore/states/wa.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[更多關於澳洲旅遊的好主意]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/zht/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/zht/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/zht/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/zht/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/zht/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/zht/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/zht/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/zht/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/zht/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/zht/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/zht/Transport.aspx]]></anc_Transport>
+<hdl_Title><![CDATA[計劃前往大西南部邊陲礁的旅途]]></hdl_Title>
+<language><![CDATA[CHT]]></language>
+<stf_Accomodation><![CDATA[Accommodation]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[Attractions]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[Find a Travel Agent near you]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[Destination Information]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[Events]]></stf_Events>
+<stf_Hire><![CDATA[Hire ]]></stf_Hire>
+<stf_Informationservices><![CDATA[Information Services]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[Western Australia]]></stf_StateFilter>
+<stf_Tours><![CDATA[Tours]]></stf_Tours>
+<stf_Transport><![CDATA[Transport]]></stf_Transport>
+</PlanYourVisit></con_RHSModules>
+    <con_Category></con_Category>
+    <lst_Subpages>
+    </lst_Subpages>
+</StandardCampaignLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

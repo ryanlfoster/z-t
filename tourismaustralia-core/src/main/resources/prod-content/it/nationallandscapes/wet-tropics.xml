@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="22262" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Pagina iniziale]]></headline>
+            <href><![CDATA[/it/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Tools and Campaigns]]></headline>
+            <href><![CDATA[/it/tools-campaigns.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Paesaggi Nazionali dell'Australia]]></headline>
+            <href><![CDATA[/it/nationallandscapes.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[I Wet Tropics]]></headline>
+            <href><![CDATA[/it/nationallandscapes/wet-tropics.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/Campaigns/national-landscapes-wet-tropics.jpg]]></img_background>
+    <hdl_Title><![CDATA[I Wet Tropics]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/national-landscapes-wet-tropics-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/Campaigns/national-landscapes-wet-tropics-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[yes]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[Dalla foresta pluviale di Daintree alle Tablelands, il paesaggio nazionale dei Wet Tropics &egrave; una destinazione eccitante e intrigante che coinvolge tutti i visitatori che vi si recano.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[Wet Tropics australiani, il Daintree, Great Tropical Drive, Thorsborne Trail, Girringun National Park]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Ulteriori Informazioni]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Paesaggi Nazionali dell'Australia: I Wet Tropics - Turismo Australia]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        Dalla foresta pluviale di Daintree alle Tablelands, il paesaggio nazionale dei Wet Tropics &egrave; una destinazione eccitante e intrigante che coinvolge tutti i visitatori che vi si recano.
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <StandardCampaignLayout isTemplate="1">
+    <opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+    <hdl_Title><![CDATA[]]></hdl_Title>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+    <con_Banner><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<DIV id=headerimage>
+<SCRIPT type=text/javascript src="../../static/js/jquery.cycle.all.latest.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+jQuery(document).ready(function() {
+jQuery('#headersliderwrapper').cycle({
+        fx:'fade',
+        slideExpr: '.headerslide'
+    });
+});
+</SCRIPT>
+
+<DIV id=headersliderwrapper>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-wet-01.jpg"> 
+<DIV class=headerslideinfo>Daintree National Park, QLD</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-wet-02.jpg"> 
+<DIV class=headerslideinfo>Arte rupestre</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-wet-03.jpg"> 
+<DIV class=headerslideinfo>Tropici umidi (crediti: Steven Nowakowski)</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-wet-04.jpg"> 
+<DIV class=headerslideinfo>Casuario</DIV></DIV></DIV></DIV>
+<DIV id=subpage-header-overlay></DIV>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule></con_Banner>
+    <con_Body><TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[I Wet Tropics]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        Dalla foresta pluviale di Daintree alle Tablelands, il paesaggio nazionale dei Wet Tropics &egrave; una destinazione eccitante e intrigante che coinvolge tutti i visitatori che vi si recano. Qui, si trovano due capolavori Patrimonio dell'umanit&agrave;: le foreste pluviali tropicali dei Wet Tropics e la Grande barriera corallina. Questa regione ospita una spettacolare variet&agrave; di piante e animali, passeggiate, cascate, montagne, spiagge e vita marina, comprese le foreste pluviali pi&ugrave; antiche della terra e molte specie rare e a rischio d'estinzione, introvabili nel resto del mondo.
+        <p>La zona offre diverse attivit&agrave; e luoghi da visitare, per chi desidera una vacanza all'insegna della cultura e dell'avventura oppure del relax in uno dei tanti centri benessere nella foresta pluviale.</p>
+        <p><strong>Cinque modi per scoprire i Wet Tropics</strong></p>
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[1. Segui la Great Tropical Drive]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-wet-tropics-hl01.jpg" alt="Great Tropical Drive, QLD">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Great Tropical Drive, QLD]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        La Great Tropical Drive, da Cairns o Townsville, &egrave; una delle strade sull'oceano pi&ugrave; belle del mondo lungo la quale si alternano scenari mozzafiato con ripide catene montuose e spiagge incontaminate. Attraversa sei regioni uniche: Cooktown; Port Douglas, Cairns e il Daintree; Mission Beach e Cassowary Coast; le Tropical Tablelands e Savannah Country; la storica Townsville e le Charters Towers; nonch&eacute; Hinchinbrook Island.
+        <p>Vi sono inoltre 13 sentieri panoramici che collegano alcune delle attrazioni pi&ugrave; famose di tutta l'Australia compresa la Grande barriera corallina e la foresta pluviale di Daintree. Esplorando la variet&agrave; di questi paesaggi, avrai visto il meglio che questa regione ha da offrire: foreste pluviali, barriere coralline, ricchezza culturale, gustosi cibi tropicali e avventure nell'outback.</p>
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[2. Lasciati avvolgere dalla foresta pluviale]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-wet-tropics-hl02.jpg" alt="Boardwalk in Daintree, QLD">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Boardwalk in Daintree, QLD]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Il fiume Daintree &egrave; il principale punto di accesso alla foresta pluviale di Daintree, la pi&ugrave; antica del mondo. Prendi il traghetto con trasporto auto e vai alla scoperta di un mondo dove piante e animali rari raccontano la storia dell'evoluzione del mondo. Prova la foresta pluviale a tutti i livelli; un incontro ravvicinato dalla passerella di Cape Tribulation; una visita con arrampicata tra le cime della foresta pluviale di Mamu di Palmerston Range. Puoi persino praticare sky-diving nella foresta pluviale da Mission Beach e ammirare i rari casuari del sud nel Djiru National Park. Solo questa regione, offre pi&ugrave; di 100 parchi nazionali tutti da visitare. I Wet Tropics sono anche il paradiso degli appassionati di birdwatching con oltre 200 specie di uccelli e specie selvatiche native australiane che vivono presso Hasties Swamp, Mareeba e Tyto Wetlands.
+        <p>Senti la potenza degli antichi eventi geologici che hanno plasmato il paesaggio con una passeggiata a Crater Lakes National Park.</p>
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[3. Tocca con mano la storia]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-wet-tropics-hl03.jpg" alt="Rock Art, Cooktown, QLD">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Rock Art, Cooktown, QLD]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        I Wet Tropics ospitano anche una ricca eredit&agrave; vivente con 18 trib&ugrave; aborigene le cui connessioni a questa area Patrimonio dell'umanit&agrave; risalgono a oltre 60.000 anni fa, una delle culture pi&ugrave; antiche del mondo che ancora vive nella foresta pluviale. Partecipa a un tour con una guida aborigena per scoprire la storia, la cultura e la spiritualit&agrave; indigena della regione. Bama Way, tra Port Douglas e Cooktown, segue antiche leggende aborigene nella foresta pluviale. Scopri la storia australiana pi&ugrave; recente a Cape Tribulation, dove il capitano James Cook si incagli&ograve; sulla barriera corallina al largo della costa 1770. Sia questo luogo naturale che, Cooktown, prendono il nome proprio da questi eventi.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[4. Scala ogni montagna]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-wet-tropics-hl04.jpg" alt="Bellenden Ker, QLD">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Bellenden Ker, QLD]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        I Wet Tropics ospitano i due monti pi&ugrave; alti del Queensland, il monte Bartle Frere (1.622 metri) e il monte Bellenden Ker (1.593 metri). Se vuoi, puoi anche indossare le scarpe da trekking e affrontare i 32 chilometri del Thorsborne Trail, a Hinchinbrook Island, un sentiero che si snoda lungo la natura selvaggia e tropicale dell'isola costeggiando spettacolari spiagge oceaniche. I quattro percorsi che compongono i 130 chilometri del sentiero Misty Mountain, nelle Tablelands, possono essere impegnativi, ma verrai ricompensato da foreste incontaminate e panorami mozzafiato, oltre a numerosi percorsi pi&ugrave; rilassanti, se desideri un approccio pi&ugrave; tranquillo.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[5. La meraviglia dell'acqua]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-wet-tropics-hl05.jpg" alt="Millaa Millaa Falls, QLD">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Millaa Millaa Falls, QLD ]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Cascate e fiumi impetuosi sono parte integrante del paesaggio. Scopri la meraviglia delle Wallaman Falls, le cascate con salto singolo pi&ugrave; alte d'Australia, che si trovano nel Girringun National Park. Ammira le pittoresche e cascate Millaa Millaa e Josephine Falls nel Waterfall Circuit durante l'estate. Esplora i sentieri, le cascate e le piscine naturali della spettacolare Mossman Gorge. Fai una crociera sul fiume Daintree, brulicante di uccelli e coccodrilli. Fai rafting sul fiume Tully. Dedica qualche tempo a esplorare le spiagge incontaminate e le isole della regione, come Magnetic Island, al largo di Townsville.
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights></con_Body>
+    <con_RHSModules><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<TABLE cellSpacing=0 cellPadding=0 width=298 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top align=center>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD style="WIDTH: 25px"></TD>
+<TD><!-- #BeginLibraryItem "/Library/sitenav.lbi" -->
+<SCRIPT language=JavaScript1.2 type=text/javascript src="../../static/js/stmenu.js"></SCRIPT>
+<!-- #EndLibraryItem --></TD></TR></TBODY></TABLE><!-- Google Map Start -->
+<SCRIPT type=text/javascript>
+function fireEvent(obj,evt){
+var fireOnThis = obj;
+if( document.createEvent ) {
+var evObj = document.createEvent('MouseEvents');
+evObj.initEvent( evt, true, false );
+fireOnThis.dispatchEvent(evObj);
+} else if( document.createEventObject ) {
+fireOnThis.fireEvent('on'+evt);
+}
+}
+function clickLink(linkobj) {
+if (linkobj.getAttribute('onclick') == null) {
+if (linkobj.getAttribute('href')) document.location = linkobj.getAttribute('href');
+}
+else linkobj.onclick();
+}
+function loadjscssfile(filename, filetype){
+if (filetype=="js"){ //if filename is a external JavaScript file
+var fileref=document.createElement('script')
+fileref.setAttribute("type","text/javascript")
+fileref.setAttribute("src", filename)
+}
+else if (filetype=="css"){ //if filename is an external CSS file
+var fileref=document.createElement("link")
+fileref.setAttribute("rel", "stylesheet")
+fileref.setAttribute("type", "text/css")
+fileref.setAttribute("href", filename)
+fileref.setAttribute("media", "print")
+}
+if (typeof fileref!="undefined")
+document.getElementsByTagName("head")[0].appendChild(fileref)
+}
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+var icheckk=0;
+jQuery.each(jQuery.browser, function(i, val) {
+if(i=="msie" && jQuery.browser.version.substr(0,3)=="7.0")
+icheckk=1;
+});
+function myfun()
+{
+loadjscssfile("../../static/css/thickbox.css", "css");
+if(icheckk==1)
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='../../static/maps/it/wettropics/bigmap.html'  target='_blank'>&nbsp;Stampa|Chiudi|&nbsp;o premere il tasto Esc</a></b>","../../static/maps/it/wettropics/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+else
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='javascript:window.print()' >&nbsp;Stampa|Chiudi|&nbsp;o premere il tasto Esc</a></b>","../../static/maps/it/wettropics/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+}
+         </SCRIPT>
+<IFRAME style="MARGIN-BOTTOM: 20px; BORDER-TOP: black 1px solid; HEIGHT: 355px; BORDER-RIGHT: black 1px solid; BORDER-BOTTOM: black 1px solid; FLOAT: left; PADDING-BOTTOM: 5px; BORDER-LEFT: black 1px solid; BACKGROUND-COLOR: #333333" height=380 src="../../static/maps/it/wettropics/index.html" frameBorder=0 width=249 name=FRAMENAME scrolling=no></IFRAME><!-- Google Map end -->
+<DIV class=subpage-video-thumb style="TEXT-ALIGN: left"><A onclick="moduleTrackingWithTitle('lightbox-video','',false,'nationallandscapes-wettropicsit');" href="#" data-reveal-id="modalVideo"><IMG alt="" src="/contentimages/Campaigns/national-landscapes-video-it.jpg"></A> </DIV>
+<DIV id=modalVideo class="reveal-modal video" style-="z-index: 103;"><A class=close-reveal-modal><SPAN class=icon></SPAN></A>
+<DIV class=video style="VISIBILITY: visible !important"><IFRAME height=315 src="//www.youtube.com/v/EjGZ3MaX9pE?version=3&amp;hl=en_GB" frameBorder=0 width=560></IFRAME></DIV></DIV></TD></TR></TBODY></TABLE>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule><Listing isTemplate="1">
+<anc_List1><![CDATA[/it/explore/cities/cairns.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[Altre idee australiane]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/it/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/it/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/it/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/it/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/it/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/it/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/it/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/it/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/it/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/it/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/it/Transport.ignore]]></anc_Transport>
+<hdl_Title><![CDATA[Iniziate a programmare il vostro viaggio]]></hdl_Title>
+<language><![CDATA[ITA]]></language>
+<stf_Accomodation><![CDATA[Accommodation]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[Attractions]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[Find a Travel Agent near you]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[Destination Information]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[Events]]></stf_Events>
+<stf_Hire><![CDATA[Hire ]]></stf_Hire>
+<stf_Informationservices><![CDATA[Information Services]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[Queensland]]></stf_StateFilter>
+<stf_Tours><![CDATA[Tours]]></stf_Tours>
+<stf_Transport><![CDATA[Transport]]></stf_Transport>
+</PlanYourVisit></con_RHSModules>
+    <con_Category></con_Category>
+    <lst_Subpages>
+    </lst_Subpages>
+</StandardCampaignLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

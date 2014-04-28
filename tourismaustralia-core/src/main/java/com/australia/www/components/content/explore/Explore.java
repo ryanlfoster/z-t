@@ -118,20 +118,24 @@ public class Explore {
 	private Category initTab(final int tabNum, SlingHttpServletRequest request) {
 		ValueMap properties = request.getResource().adaptTo(ValueMap.class);
 		Category returnCat = new Category();
-		String pathPrefix = String.format(TABx, tabNum);
-		returnCat.setIconImagePath(properties.get(pathPrefix+"iconImagePath", ""));
-		returnCat.setSelectedImagePath(properties.get(pathPrefix + "selectedImagePath", ""));
-		returnCat.setTitle(properties.get(pathPrefix + "title", ""));
+		if(properties != null){
+			String pathPrefix = String.format(TABx, tabNum);
+			returnCat.setIconImagePath(properties.get(pathPrefix+"iconImagePath", ""));
+			returnCat.setSelectedImagePath(properties.get(pathPrefix + "selectedImagePath", ""));
+			returnCat.setTitle(properties.get(pathPrefix + "title", ""));
+		}
 		return returnCat;
 	}
 
 	private TabProperties initCard(final int tabNum, final int cardNum, SlingHttpServletRequest request){
 		ValueMap properties = request.getResource().adaptTo(ValueMap.class);
 		TabProperties returnProp = new TabProperties();
-		String pathPrefix = String.format(TABx+CARDx, tabNum, cardNum);
-		returnProp.setAltTextBack(properties.get(pathPrefix + "altTextBack", ""));
-		returnProp.setImageBack(properties.get(pathPrefix + "imageBack", ""));
-		returnProp.setPage(properties.get(pathPrefix+"pagePath",""),request.getResource());
+		if(properties != null){
+			String pathPrefix = String.format(TABx+CARDx, tabNum, cardNum);
+			returnProp.setAltTextBack(properties.get(pathPrefix + "altTextBack", ""));
+			returnProp.setImageBack(properties.get(pathPrefix + "imageBack", ""));
+			returnProp.setPage(properties.get(pathPrefix+"pagePath",""),request.getResource());
+		}
 		return returnProp;
 	}
 

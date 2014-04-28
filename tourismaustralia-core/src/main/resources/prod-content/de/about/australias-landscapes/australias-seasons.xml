@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="9756" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Startseite]]></headline>
+            <href><![CDATA[/de/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Über]]></headline>
+            <href><![CDATA[/de/about.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Australiens Jahreszeiten]]></headline>
+            <href><![CDATA[/de/about/australias-landscapes/australias-seasons.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/about-landscapes-seasonal-australia.jpg]]></img_background>
+    <hdl_Title><![CDATA[Australiens Jahreszeiten]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/about-landscapes-seasonal-australia-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/about-landscapes-seasonal-australia-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[no]]></opt_PartnerLead>
+    <stf_description><![CDATA[Informieren Sie sich &uuml;ber die unterschiedlichen Jahreszeiten in Australien, ihre Besonderheiten und m&ouml;glichen Unternehmungen.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[Lorne, VIC.  &copy; Tourism Victoria &amp; Andrew Paoli]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[Australiens Jahreszeiten]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Lesen sie mehr]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Australiens Jahreszeiten]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[Entdecken Sie die Jahreszeiten Australiens!]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <PlanYourHolidayBox isTemplate="1">
+    <anc_MoreLink><![CDATA[/de/plan.xml]]></anc_MoreLink>
+    <hdl_Headline><![CDATA[Planen Sie Ihren Urlaub]]></hdl_Headline>
+    <language><![CDATA[DEU]]></language>
+    <opt_IsOnHomepage><![CDATA[]]></opt_IsOnHomepage>
+    <stf_MenuIconClass><![CDATA[]]></stf_MenuIconClass>
+    <stf_More><![CDATA[More]]></stf_More>
+    <stf_PlanYourHolidayTitle><![CDATA[Plan your holiday]]></stf_PlanYourHolidayTitle>
+    <lst_PageLinks>
+        <lst_PageLink>
+            <url><![CDATA[/de/plan/plan-your-trip/find-travel-agent.xml]]></url>
+            <hdl_Title><![CDATA[Finden Sie ein Reiseb&uuml;ro]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/de/plan/plan-your-trip/getting-there.xml]]></url>
+            <hdl_Title><![CDATA[Anreise nach Australien]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/de/plan/plan-your-trip/accommodation.xml]]></url>
+            <hdl_Title><![CDATA[Unterkunft]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/de/plan/plan-your-trip/tours.xml]]></url>
+            <hdl_Title><![CDATA[Touren suchen]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/de/plan/plan-your-trip/specialoffers.xml]]></url>
+            <hdl_Title><![CDATA[Sonderangebote*]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+    </lst_PageLinks>
+</PlanYourHolidayBox>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Australiens Jahreszeiten]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[Australien ist zu jeder Jahreszeit eine Reise wert. In Australien stehen ihnen das ganze Jahr &uuml;ber praktisch alle M&ouml;glichkeiten offen. Im Gro&szlig;teil des Landes herrschen vier Jahreszeiten und im tropischen Norden gibt es eine Regen- und eine Trockenzeit. 
+<P>Der australische Sommer - von Dezember bis Februar - eignet sich hervorragend f&uuml;r Aktivit&auml;ten in der freien Natur. Schwimmen Sie an den Str&auml;nden Sydneys oder wandern Sie entlang des tasmanischen Overland Track. Zwischen M&auml;rz und Mai h&auml;lt in Australien der Herbst Einzug. Zu dieser Jahreszeit k&ouml;nnen Sie das farbenfrohe Herbstlaub in Canberra bewundern oder die Formel 1 in Melbourne besuchen. Der australische Winter - von Juni bis August - l&auml;dt zum Skifahren in den Australischen Alpen ein. Alternativ dazu k&ouml;nnen Sie Ihren Winterurlaub auch in der Sonne genie&szlig;en. Schnorcheln Sie am gem&auml;&szlig;igten Great Barrier Reef oder erkunden Sie die Simpson Desert im S&uuml;den Australiens mit dem Gel&auml;ndewagen. Der australische Fr&uuml;hling - von September bis November - ist die beste Zeit, um nach Walen und Wildblumen Ausschau zu halten, w&auml;hrend Sie im Westen Australiens die Weing&uuml;ter der Margaret River Region erkunden k&ouml;nnen. </P>
+<P>W&auml;hrend der Trockenzeit im tropischen Australien, die zwischen Mai und Oktober herrscht, k&ouml;nnen Sie den blauen Himmel und die Sonne genie&szlig;en. Zu dieser Jahreszeit lockt Darwin mit M&auml;rkten, Filmvorf&uuml;hrungen und Festivals unter freiem Himmel. Von Dezember bis M&auml;rz herrscht die hei&szlig;e und feuchte Regenzeit mit ihren t&auml;glichen Regenschauern. Genie&szlig;en Sie den Anblick der donnernden Wasserf&auml;lle in den Litchfield und Kakadu Nationalparks und fliegen Sie &uuml;ber die atemberaubende Katherine Gorge bei Wasserh&ouml;chststand.</P>]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Entdecken Sie den australischen Sommer]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/about-australias-landscapes-australias-seasons-summer-hl.jpg" alt="Entdecken Sie den australischen Sommer">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Entdecken Sie den australischen Sommer]]></stf_Caption>
+                    <anc_link><![CDATA[/de/about/australias-landscapes/australias-seasons/summer.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Der australische <a href="/de/about/australias-landscapes/australias-seasons/summer.xml" target="_self">Sommer</a> hei&szlig;t Sie willkommen. Erleben Sie den herrlichen australischen Sommer von Dezember bis Februar. Machen Sie einen Spaziergang entlang der atemberaubenden Klippen zwischen <a href="/de/explore/cities/sydney/nsw-bondi-bronte.xml" target="_self">Bondi Beach in Sydney und Bronte</a>. Geniessen Sie einen Tagesausflug von <a href="/de/explore/cities/melbourne.xml" target="_self">Melbourne</a> zu den Weinbergen, Str&auml;nden, Nationalparks, Golfpl&auml;tzen und Day Spas der <a href="/de/explore/cities/melbourne/mornington-peninsula.xml" target="_self">Mornington Peninsula</a>. Lassen Sie sich im historischen Hafenviertel von <a href="/de/explore/cities/hobart.xml" target="_self">Hobart</a> von der erstklassigen K&uuml;che verw&ouml;hnen. Probieren Sie die erlesenen Weine Tasmaniens und die kulinarischen K&ouml;stlichkeiten und Weine des Swan Valleys in der N&auml;he von <a href="/de/explore/cities/perth.xml" target="_self">Perth</a>. Schlemmen Sie an der unber&uuml;hrten K&uuml;ste der <a href="/de/explore/states/sa/sa-eyre-peninsula.xml" target="_self">Eyre Peninsula</a> in S&uuml;daustralien frische Meeresfr&uuml;chte oder bewundern Sie vor der K&uuml;ste von Queensland das Massenlaichen der <a href="/de/explore/icons/great-barrier-reef.xml" target="_self">Korallen des Great Barrier Reef</a>. Erleben Sie das Feuerwerk heftiger Gewitter und die &uuml;ppige Vegetation des tropischen Top End. Oder erleben Sie im <a href="/de/explore/states/act/act-nature-reserve.xml" target="_self">Tidbinbilla Nature Reserve</a>, in der N&auml;he von <a href="/de/explore/cities/canberra.xml" target="_self">Canberra</a>, die heimische australische Tierwelt aus n&auml;chster N&auml;he und lassen Sie sich von der uralten Geschichte der Aborigines verzaubern. Der Sommer in Australien lockt auch mit Weltklasse-Cricket, <a href="/de/explore/events/australian-open.xml" target="_self">Grand-Slam-Tennis</a>, pulsierenden <a href="/de/explore/australian-events/music-festivals-events.xml" target="_self">Musikfestivals</a>, rauschenden <a href="/de/explore/events/nat-new-years-fireworks.xml" target="_self">Silvesterpartys</a> und <a href="/de/explore/australian-events/culture-events.xml" target="_self">kulturellen Veranstaltungen</a> im Freien.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Erleben Sie Australien im Herbst]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/about-australias-landscapes-australias-seasons-autumn-hl.jpg" alt="Erleben Sie Australien im Herbst">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Erleben Sie Australien im Herbst]]></stf_Caption>
+                    <anc_link><![CDATA[/de/about/australias-landscapes/australias-seasons/autumn.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Entdecken Sie zwischen M&auml;rz und Mai die unendlich vielen Reize des <a href="/de/about/australias-landscapes/australias-seasons/autumn.xml" target="_self">australischen Herbstes</a>. In Orange, einer kulinarischen Hochburg westlich von <a href="/de/explore/cities/sydney.xml" target="_self">Sydney</a>, sind die B&auml;ume in ein rotgoldenes Bl&auml;tterkleid geh&uuml;llt. Erkunden Sie die Weing&uuml;ter, D&ouml;rfer und nebelverh&uuml;llten W&auml;lder des <a href="/de/about/australias-landscapes/wine-regions/yarra-valley.xml" target="_self">Yarra Valley</a> in Victoria. Setzen Sie Ihr Abenteuer entlang des <a href="/de/explore/cities/brisbane/qld-adventure-on-brisbane-river.xml" target="_self">Brisbane River</a> fort. Erleben Sie auf einem Viehtrieb entlang des historischen <a href="/de/explore/events/sa-outback-cattle-drive.xml" target="_self">Oodnadatta Track</a> in S&uuml;daustralien das Leben der Viehtreiber hautnah. Weiter geht es zum &uuml;ppig gr&uuml;nen <a href="/de/explore/states/nt/nt-litchfield-nat-park.xml" target="_self">Litchfield National Park</a> im Northern Territory oder nach <a href="/de/explore/states/wa/wa-kununurra.xml" target="_self">Kununurra</a> in Westaustralien, wo Sie das gro&szlig;e und lebhafte Festival des <a href="/de/explore/events/wa-ord-valley-muster.xml" target="_self">Ord Valley Muster</a> erleben k&ouml;nnen. St&uuml;rzen Sie sich an der wilden tasmanischen Westk&uuml;ste in ein Rafting-Abenteuer oder besuchen Sie den <a href="/de/explore/states/act/act-murrumbidgee-corridor.xml" target="_self">Murrumbidgee River Corridor</a> in der N&auml;he von Canberra, der zum Angeln und Campen einl&auml;dt. Im Herbst finden auch zahlreiche Events statt – von den <a href="/de/explore/australian-events/food-wine-events.xml" target="_self">Weinfestivals</a> und den Fashion Weeks bis hin zum <a href="/de/explore/events/vic-australian-grand-prix.xml" target="_self">Grand Prix in Melbourne</a>.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Entdecken Sie Australien im Winter]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/about-australias-landscapes-australias-seasons-winter-hl.jpg" alt="Entdecken Sie Australien im Winter">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Entdecken Sie Australien im Winter]]></stf_Caption>
+                    <anc_link><![CDATA[/de/about/australias-landscapes/australias-seasons/winter.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Herzlich willkommen im <a href="/de/about/australias-landscapes/australias-seasons/winter.xml" target="_self">australischen Winter</a>, der im Gro&szlig;teil des Landes von Juni bis August andauert. Im tropischen Norden haben wir in dieser Zeitspanne die Trockenzeit. <a href="/de/explore/states/vic/vic-snow-play.xml" target="_self">Victorias Pisten</a> locken mit Ski- und Snowboardm&ouml;glichkeiten, w&auml;hrend Sie sich zur gleichen Zeit im warmen Wasser von Queenslands Great Barrier Reef auf einen Schnorchelgang begeben k&ouml;nnen. Entdecken Sie S&uuml;daustraliens Simpson Desert mit dem Gel&auml;ndewagen oder machen Sie sich auf den Weg in die <a href="/de/explore/icons/blue-mountains.xml" target="_self">Blue Mountains</a> zu den Weihnachtsfeierlichkeiten. Folgen Sie <a href="/de/explore/states/wa/wa-wildflowers.xml" target="_self">Westaustraliens Wildblumenweg</a> oder entdecken Sie die einzigartige Festivalkultur des Northern Territory. Kuscheln Sie sich w&auml;hrend des <a href="/de/explore/cities/canberra/act-fireside-festival.xml" target="_self">Canberra Fireside Festivals</a> neben einem knisternden Feuer oder feiern Sie die Wintersonnenwende in Hobarts kopfsteingepflasterten Stra&szlig;en. Der australische Winter ist auch eine gro&szlig;artige Jahreszeit zur Erkundung der K&uuml;ste, wo Sie <a href="/de/explore/things-to-do/australian-adventure/nat-whalewatching.xml" target="_self">migrierende Wale beobachten</a> oder unter Wasser auf <a href="/de/explore/things-to-do/australian-adventure/nat-diving.xml" target="_self">Tuchf&uuml;hlung mit allen Arten von Meeresbewohnern</a> gehen k&ouml;nnen.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Entdecken Sie den australischen Fr&uuml;hling]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/about-australias-landscapes-australias-season-spring-hl.jpg" alt="Entdecken Sie den australischen Frühling">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Entdecken Sie den australischen Fr&uuml;hling]]></stf_Caption>
+                    <anc_link><![CDATA[/de/about/australias-landscapes/australias-seasons/spring.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Entdecken Sie die <a href="/de/about/australias-landscapes/australias-seasons/spring.xml" target="_self">Fr&uuml;hjahrszeit in Australien</a>, die in den meisten Gegenden von September bis November dauert. In unserem tropischen Norden ist dies die Zeit der „Build-up“ genannten Vormonsunzeit.
+        <p>Sehen Sie, wie sich Melbourne f&uuml;r den Melbourne Cup r&uuml;stet, der die ganze Nation im Bann h&auml;lt. Genie&szlig;en Sie Oper, Jazz, Blues und Skulpturen vor der Kulisse der Weing&uuml;ter des <a href="/de/explore/states/nsw/hunter-valley.xml" target="_self">Hunter Valley</a>, das in der N&auml;he von Sydney liegt. Kombinieren Sie feine Speisen und Weine mit Tauchen und Surfen im westaustralischen <a href="/de/explore/states/wa/margaret-river.xml" target="_self">Margaret River</a>. Trecken Sie durch urzeitliche Baumkronen in Queenslands <a href="/de/explore/states/qld/qld-spring-daintree-forest.xml" target="_self">Daintree Rainforest</a>, der zum Weltnaturerbe z&auml;hlt. Erleben Sie die Fauna und Flora auf <a href="/de/explore/icons/kangaroo-island.xml" target="_self">Kangaroo Island</a> in S&uuml;daustralien oder schnappen Sie sich w&auml;hrend der Vormonsunzeit im Northern Territory einen preisverd&auml;chtigen Barramundi. Schauen Sie zu, wie Canberra zur <a href="/de/explore/events/floriade.xml" target="_self">Floriade</a> mit einer Million von Fr&uuml;hlingsbl&uuml;ten zum Leben erweckt wird, oder folgen Sie den bl&uuml;henden G&auml;rten Tasmaniens und besuchen Sie Naturwunder und historische Attraktionen. Der Fr&uuml;hling ist in Australien auch die beste Jahreszeit zum Surfen, Kajak- und Kanufahren.</p>
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+        <lst_Subpage><![CDATA[<a href="/de/about/australias-landscapes/australias-seasons/spring.xml">Entdecken Sie den australischen Frühling</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/de/about/australias-landscapes/australias-seasons/summer.xml">Entdecken Sie den australischen Sommer</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/de/about/australias-landscapes/australias-seasons/winter.xml">Entdecken Sie Australien im Winter</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/de/about/australias-landscapes/australias-seasons/autumn.xml">Erleben Sie Australien im Herbst</a>]]></lst_Subpage>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

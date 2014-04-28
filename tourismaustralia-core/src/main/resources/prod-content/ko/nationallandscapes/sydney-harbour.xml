@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="22253" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[홈]]></headline>
+            <href><![CDATA[/ko/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Tools and Campaigns]]></headline>
+            <href><![CDATA[/ko/tools-campaigns.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[호주 관광 명소(내셔널 랜드스케이프)]]></headline>
+            <href><![CDATA[/ko/nationallandscapes.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[시드니 하버]]></headline>
+            <href><![CDATA[/ko/nationallandscapes/sydney-harbour.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/Campaigns/national-landscapes-sydney-harbour.jpg]]></img_background>
+    <hdl_Title><![CDATA[시드니 하버]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/national-landscapes-sydney-harbour-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/Campaigns/national-landscapes-sydney-harbour-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[yes]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[시드니(Sydney)는 멋진 자연항으로 이루어진 도시입니다.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[Sydney Harbour, Sydney Opera House, Sydney Harbour Bridge, Aboriginal heritage, Royal Botanic Gardens, Mrs Macquarie’s Chair]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[상세 정보]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[호주 시드니 하버: 호주정부관광청 - Tourism Australia]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        시드니(Sydney)는 멋진 자연항으로 이루어진 도시입니다.
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <StandardCampaignLayout isTemplate="1">
+    <opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+    <hdl_Title><![CDATA[]]></hdl_Title>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+    <con_Banner><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<DIV id=headerimage>
+<SCRIPT type=text/javascript src="../../static/js/jquery.cycle.all.latest.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+jQuery(document).ready(function() {
+jQuery('#headersliderwrapper').cycle({
+        fx:'fade',
+        slideExpr: '.headerslide'
+    });
+});
+</SCRIPT>
+
+<DIV id=headersliderwrapper>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-syd-01.jpg"> 
+<DIV class=headerslideinfo>시드니 하버 국립 공원, 뉴 사우스 웨일즈</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-syd-02.jpg"> 
+<DIV class=headerslideinfo>해안 트랙 로열 국립 공원, 뉴 사우스 웨일즈</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-syd-03.jpg"> 
+<DIV class=headerslideinfo>아메리카 베이 트랙 쿠링가이 체이스 국립 공원, 뉴 사우스 웨일즈</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-syd-04.jpg"> 
+<DIV class=headerslideinfo>브래들리 헤드에서 바라보는 경관, 뉴 사우스 웨일즈</DIV></DIV></DIV></DIV>
+<DIV id=subpage-header-overlay></DIV>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule></con_Banner>
+    <con_Body><TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[시드니 하버]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        시드니(Sydney)는 멋진 자연항으로 이루어진 도시입니다. 드림타임부터 멋진 현대식 건축물인 시드니 오페라 하우스와 시드니 하버 브릿지까지 시드니 하버는 활기 넘치는 이 곳의 중심입니다. 국립 공원, 세계 유산지, 원주민 유적지, 죄수 역사까지 모두 만나볼 수 있습니다. 청정 해변에서의 수영, 감춰진 해협 탐험, 고요한 공원에서의 사이클링, 절벽 정상에서부터 바다 위로 떠오르는 해돋이 감상까지 모두 즐기세요. 하버에서부터 해변과 수로를 따라 펼쳐지는 자연과 문화가 공존하는 시드니의 다채로운 경관이 여러분을 기다리고 있습니다.
+        <p><strong>시드니 하버를 즐기는 5가지 방법</strong></p>
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[1. 시드니의 도시 경관 즐기기]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-sydney-harbour-hl01.jpg" alt="시드니의 도시 경관">]]></img_MainImage>
+                    <stf_Caption><![CDATA[시드니의 도시 경관]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        시드니 하버는 전세계적으로 다양한 환경적 경관을 뽐내는 곳으로 유명합니다. 환상적인 해안선에는 때 묻지 않은 멋진 경관이 끊임없이 펼쳐져 있어 자연을 만끽하는 즐거움을 선사합니다. 시드니 하버 브릿지가 얼마나 높을지 가늠해 보세요. 동쪽으로는 시드니 헤드가, 서쪽으로는 그레이터 블루 마운틴이 감싸고 있는 파노라마 경관이 펼쳐집니다. 도시 외곽에는 도시 속의 오아시스인 로열 보타닉 가든이 자리하고 있습니다. 이곳에서 희귀한 식물들을 감상하며 쿡 선장이 항해하던 시대로 되돌아가 호주의 기원을 느껴보세요. 멋진 경관이 한 눈에 보이는 미시즈 매쿼리 의자에 앉아 경치도 감상하고 호주에서 가장 오래된 유럽인 정착지인 록스도 구경하세요.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[2. 시드니 하버의 명소]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-sydney-harbour-hl02.jpg" alt="닐슨 파크에서 스노클링 즐기기">]]></img_MainImage>
+                    <stf_Caption><![CDATA[닐슨 파크에서 스노클링 즐기기]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        시드니 하버 곳곳에 있는 섬에서 과거 호주 원주민, 죄수 시대, 해양 역사 속으로 여행을 떠나 볼 수 있습니다. 서큘러 키에서 페리를 타고 포트 데니슨과 고트섬으로 떠나보세요. 세계 유산 목록에 등재된 카카투 섬에서 하룻밤 캠프를 즐기고 주변에 펼쳐진 도시 야경도 감상해 보세요. 잠시 사색에 빠져도 좋습니다. 역사적인 대형 범선 갑판에 올라 돛을 올려도 보고 부족의 전사가 되어 하버의 원주민 역사를 발견하는 상상을 해 보세요. 와일드라이프 시드니, 시드니 아쿠아리움 또는 멋진 타롱가 동물원에서는 호주 특유의 야생 동물을 만날 수 있습니다. 로즈 베이와 왓슨스 베이 산책로를 따라 닐슨 파크에서 스노클링을 해보세요. 피시 앤 칩스를 사서 왓슨스 베이에서 도심 풍경 너머 보이는 요트를 감상하고 사우스 헤드로 발걸음을 옮겨 멋진 경관을 감상하는 것도 좋습니다.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[3. 시드니 국립 공원]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-sydney-harbour-hl03.jpg" alt="로얄 국립 공원의 해안 트랙">]]></img_MainImage>
+                    <stf_Caption><![CDATA[로얄 국립 공원의 해안 트랙]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        시드니의 국립 공원에서 호주 역사의 발자취를 따라가보세요. 호주의 풍부한 동식물, 고대 원주민 문화 유적지, 군대 요새까지 모두 보존되어 있습니다. 또한, 수영이나 부시워킹을 할 수 있는 곳이 많으며 자연 서식지에서 뛰노는 야생 동물도 볼 수 있습니다. 광활한 시드니 하버 국립 공원은 '녹색'의 자연을 만날 수 있는 중심지로 북부의 해안과 포트 잭슨의 관문인 멋진 사우스 헤드까지 감싸고 있습니다. 1830년대 이민자를 수송한 첫 번째 배가 도착했던 역사적인 검역소도 들러보세요. 겨울을 맞아 이동하는 고래들도 볼 수 있습니다. 미들 헤드에서는 수평선에 걸려 있는 태평양을 바라보실 수 있습니다. 부시 되살리기에 동참해 보는 것도 좋습니다. 도시 남쪽으로 가서 로열 국립 공원의 코스트 트랙을 따라 걷다가 번디나에서부터 옷퍼드까지 펼쳐진 절벽과 해변 그리고 환상적인 경관을 감상하세요. 로열 국립 공원에서만 300종 이상의 조류가 관찰되고 있습니다. 북쪽에는 쿠링가이 체이스 국립 공원에서 부시랜드와 해변이 어우러진 독특한 모습을 구경해 보세요. 백사장과 매우 가까이 위치하고 있습니다.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[4. 원주민 체험]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-sydney-harbour-hl04.jpg" alt="원주민 문화 투어">]]></img_MainImage>
+                    <stf_Caption><![CDATA[원주민 문화 투어]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        여러 군데에서 찾아 볼 수 있는 암각화, 조개무지, 야영지, 박피 나무, 스텐실 등은 원주민이 이곳에 오랜 기간 정착했었다는 증거입니다. 원주민 가이드와 함께 록스를 거닐면서 가디갈 부족의 전통과 문화를 발견해 보세요. 크루즈를 타고 파라마타에 가서 리버사이드 산책로를 따라 걷거나 파라마타 공원에서 박피나무를 찾아보세요. 쿠링가이 체이스나 로얄 국립 공원에서 원주민 문화 투어도 하고 브론테-본다이 해안 산책로에 있는 암각화도 감상하세요. 현대 원주민 문화를 체험하려면 방가라 무용단의 공연을 감상하는 것도 좋고 레드펀의 Purple Goanna 또는 빅토리아 공원의 Gardener’s Lodge Caf&eacute;에서 부시 터커를 즐기셔도 좋습니다.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[5. 하버와 해안 여행]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-sydney-harbour-hl05.jpg" alt="로얄 국립 공원에서 카약">]]></img_MainImage>
+                    <stf_Caption><![CDATA[로얄 국립 공원에서 카약]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        이곳은 서핑부터 세일링과 스탠드 업 패들 보딩까지 모두 즐길 수 있는 아쿠아 파라다이스입니다. 어디서든 카약을 즐기며 마음에 드는 나만의 코너를 찾는 것도 큰 즐거움입니다. 이 지역에서 유명한 브론테나 프레시워터와 같은 해변에서 수영을 즐기거나 암반 풀장을 거닐어보세요. 하버에서 크루즈를 타거나 멋진 경관을 배경으로 바다 수영을 즐기는 것은 어떨까요? 시드니 올림픽 공원의 바이센테니얼 파크에 있는 강변 습지대에서 다양한 물새를 구경해 보고 파라마타 강에 남아 있는 엄청난 맹그로브 숲을 따라 산책을 즐기세요. 이 지역 청돔인 블루이나를 만날 수 있는 클로벨리나 샌드 레이와 다채로운 해면 동물이 가득한 베어 섬에서 스노클링 사파리를 하며 형형색색의 수중 세계를 탐사해 보세요. 시드니의 유명한 다이빙 장소인 고든스 베이의 해저 네이처 트레일에서 다이빙을 하며 문어, 오징어, 예쁜 갯민숭달팽이를 찾아보세요.
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights></con_Body>
+    <con_RHSModules><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<TABLE cellSpacing=0 cellPadding=0 width=298 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top align=center>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD style="WIDTH: 25px"></TD>
+<TD><!-- #BeginLibraryItem "/Library/sitenav.lbi" -->
+<SCRIPT language=JavaScript1.2 type=text/javascript src="../../static/js/stmenu.js"></SCRIPT>
+<!-- #EndLibraryItem --></TD></TR></TBODY></TABLE><!-- Google Map Start -->
+<SCRIPT type=text/javascript>
+function fireEvent(obj,evt){
+ var fireOnThis = obj;
+ if( document.createEvent ) {
+   var evObj = document.createEvent('MouseEvents');
+   evObj.initEvent( evt, true, false );
+   fireOnThis.dispatchEvent(evObj);
+ } else if( document.createEventObject ) {
+   fireOnThis.fireEvent('on'+evt);
+ }
+}function clickLink(linkobj) {
+     if (linkobj.getAttribute('onclick') == null) {
+     if (linkobj.getAttribute('href')) document.location = linkobj.getAttribute('href');
+     }
+     else linkobj.onclick();
+}
+function loadjscssfile(filename, filetype){
+ if (filetype=="js"){ //if filename is a external JavaScript file
+  var fileref=document.createElement('script')
+  fileref.setAttribute("type","text/javascript")
+  fileref.setAttribute("src", filename)
+ }
+ else if (filetype=="css"){ //if filename is an external CSS file
+  var fileref=document.createElement("link")
+  fileref.setAttribute("rel", "stylesheet")
+  fileref.setAttribute("type", "text/css")
+  fileref.setAttribute("href", filename)
+  fileref.setAttribute("media", "print")
+ }
+ if (typeof fileref!="undefined")
+  document.getElementsByTagName("head")[0].appendChild(fileref)
+}
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+var icheckk=0;
+jQuery.each(jQuery.browser, function(i, val) {
+if(i=="msie" && jQuery.browser.version.substr(0,3)=="7.0")
+icheckk=1;
+});
+function myfun()
+{
+loadjscssfile("../../static/css/thickbox.css", "css");
+if(icheckk==1)
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='../../static/maps/ko/sydneyharbour/bigmap.html'  target='_blank'>&nbsp;인쇄|닫습니다|&nbsp;또는 Esc 키를 누르십시오</a></b>","../../static/maps/ko/sydneyharbour/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+else
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='javascript:window.print()' >&nbsp;인쇄|닫습니다|&nbsp;또는 Esc 키를 누르십시오</a></b>","../../static/maps/ko/sydneyharbour/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+}
+         </SCRIPT>
+<IFRAME style="MARGIN-BOTTOM: 20px; BORDER-TOP: black 1px solid; HEIGHT: 355px; BORDER-RIGHT: black 1px solid; BORDER-BOTTOM: black 1px solid; FLOAT: left; PADDING-BOTTOM: 5px; BORDER-LEFT: black 1px solid; BACKGROUND-COLOR: #333333" height=380 src="../../static/maps/ko/sydneyharbour/index.html" frameBorder=0 width=249 name=FRAMENAME scrolling=no></IFRAME><!-- Google Map end -->
+<DIV class=subpage-video-thumb style="TEXT-ALIGN: left"><A onclick="moduleTrackingWithTitle('lightbox-video','',false,'nationallandscapes-sydneyharbourko');" href="#" data-reveal-id="modalVideo"><IMG alt="" src="/contentimages/Campaigns/national-landscapes-video-ko.jpg"></A> </DIV>
+<DIV id=modalVideo class="reveal-modal video" style-="z-index: 103;"><A class=close-reveal-modal><SPAN class=icon></SPAN></A>
+<DIV class=video style="VISIBILITY: visible !important"><IFRAME height=315 src="//www.youtube.com/v/EjGZ3MaX9pE?version=3&amp;hl=en_GB" frameBorder=0 width=560></IFRAME></DIV></DIV></TD></TR></TBODY></TABLE>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule><Listing isTemplate="1">
+<anc_List1><![CDATA[/ko/explore/itineraries/nsw-3days-sydney.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[기타 호주다운 생각들]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/ko/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/ko/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/ko/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/ko/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/ko/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/ko/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/ko/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/ko/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/ko/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/ko/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/ko/Transport.aspx]]></anc_Transport>
+<hdl_Title><![CDATA[호주 시드니 하버 여행을 계획하세요]]></hdl_Title>
+<language><![CDATA[KOR]]></language>
+<stf_Accomodation><![CDATA[Accommodation]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[Sydney]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[Attractions]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[Find a travel agent near you]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[Destination Information]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[Events]]></stf_Events>
+<stf_Hire><![CDATA[Hire]]></stf_Hire>
+<stf_Informationservices><![CDATA[Information]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[New South Wales]]></stf_StateFilter>
+<stf_Tours><![CDATA[Tours]]></stf_Tours>
+<stf_Transport><![CDATA[Transport]]></stf_Transport>
+</PlanYourVisit></con_RHSModules>
+    <con_Category></con_Category>
+    <lst_Subpages>
+    </lst_Subpages>
+</StandardCampaignLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

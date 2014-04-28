@@ -1,0 +1,472 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="18870" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[홈]]></headline>
+            <href><![CDATA[/ko/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Tools and Campaigns]]></headline>
+            <href><![CDATA[/ko/tools-campaigns.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[호주 관광 명소(내셔널 랜드스케이프)]]></headline>
+            <href><![CDATA[/ko/nationallandscapes.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/Campaigns/campaigns-national-landscapes.jpg]]></img_background>
+    <hdl_Title><![CDATA[호주 관광 명소(내셔널 랜드스케이프)]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/campaigns-national-landscapes-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/Campaigns/campaigns-national-landscapes-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[1]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[yes]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[호주 알프스, 플린더스 산맥, 그레이트 오션 로드, 블루 마운틴, 카카두, 캥거루 아일랜드 등 호주의 명승지들을 이곳에서 모두 살펴보세요.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[호주 경관, 호주 명승지, 호주 전국 명승지(내셔널 랜드스케이프), 호주 자연, 호주의 자연, 호주 국립공원, 호주의 국립공원, 호주의 세계유산, 호주에서의 휴가, 호주 원주민, 카카두 국립공원, 호주 알프스, 그레이트 오션 로드, 윌페나 파운드, 플린더스 산맥, 울루루, 호주 레드 센터, 블루 마운틴, 캥거루 섬, 호주 해안]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[상세 정보]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[호주 관광 명소(내셔널 랜드스케이프)  - 호주 관광청]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        호주 알프스, 플린더스 산맥, 그레이트 오션 로드, 블루 마운틴, 카카두, 캥거루 아일랜드 등 호주의 명승지들을 이곳에서 모두 살펴보세요.
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <StandardCampaignLayout isTemplate="1">
+    <opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+    <hdl_Title><![CDATA[]]></hdl_Title>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+    <con_Banner><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<!--OB Lightbox -->
+<SCRIPT type=text/javascript src="../static/js/orangebox.min.js"></SCRIPT>
+<LINK rel=stylesheet type=text/css href="../static/css/orangebox.css">
+<SCRIPT type=text/javascript src="../static/js/jquery.cycle.all.latest.js"></SCRIPT>
+<!--Start: headeimage-->
+<DIV id=headerimage><!-- InstanceBeginEditable name="Slides" -->
+<SCRIPT type=text/javascript>
+$('#mainContent').css("margin-top", "200");
+oB.settings.contentBorderWidth= 10;
+shuffle = function(v){
+    for(var j, x, i = v.length; i; j = parseInt(Math.random() * i), x = v[--i], v[i] = v[j], v[j] = x);
+    return v;
+};
+var imgnum=[];
+for (var i=0; i<16; i++)
+  {
+   imgnum[i]=i;
+  }
+var folder="../contentimages/campaigns/";
+var imgname = ["header-acn-0", "header-acw-0", "header-agc-0", "header-alp-0", "header-atn-0", "header-fli-0", "header-gbm-0" ,"header-gbr-0" ,"header-gor-0","header-gsw-0" ,"header-kim-0" ,"header-kis-0" ,"header-nin-0","header-syd-0" ,"header-tas-0" ,"header-wet-0"]
+var imgtxt=["호주 레드 센터", "호주 해안 야생 지역", "호주 그린 콜드런", "호주 알프스 ", "호주, 영원의 북쪽", "플린더스 산맥", "그레이터 블루 마운틴" ,"그레이트 베리어 리프" ,"그레이트 오션 로드","그레이트 사우스 웨스트 에지" ,"킴벌리  " ,"캥거루 아일랜드" ," 닝갈루 -샤크 베이","시드니 하버" ,"태즈매니아 섬의 세계 유산 지역" ,"웻 트로픽스"]
+var tmp=shuffle(imgnum)
+document.write('<div id="headersliderwrapper">');
+for (var i=0;i<imgname.length;i++)
+{ 
+document.write('<div class="headerslide"><img src="'+folder+imgname[tmp[i]] + '1.jpg"/><div class="headerslideinfo">'+imgtxt[tmp[i]]+'</div></div>');
+}
+document.write('</div>');
+jQuery(document).ready(function() {
+ $('#headersliderwrapper').cycle({
+        fx:'fade',
+        slideExpr: '.headerslide'
+    });
+});
+</SCRIPT>
+<!-- InstanceEndEditable --><!-- InstanceBeginEditable name="pagetitle" -->
+<UL class=headertitle>
+<LI class=l1>호주 관광 명소(내셔널 랜드스케이프) </LI>
+<LI class=l2>호주의 멋진 자연과 문화를 경험할 수 있는 최고의 명승지</LI></UL><!-- InstanceEndEditable --><!-- InstanceBeginEditable name="Hover Map" -->
+<SCRIPT type=text/javascript src="../static/js/jquery.imagemapster.min.js"></SCRIPT>
+
+<SCRIPT language=javascript type=text/javascript>
+  $(document).ready(function() {
+   
+  var image = $('#vegetables');
+    image.mapster(
+    {
+        fillOpacity: 1,
+        fillColor: "ffb800",
+        stroke: false,
+        strokeColor: "3320FF",
+        strokeOpacity: 0.8,
+        strokeWidth: 4,
+        singleSelect: true,
+        mapKey: 'name',
+        listKey: 'name',
+  clickNavigate: true,
+  onMouseover: function (e) {
+    $('.region_title').html(e.key);
+  },
+  onMouseout: function () {
+    $('.region_title').html('');
+  },
+        onClick: function (e) {
+    $('.region_title').html(e.key);
+  }
+ });
+ 
+ 
+ 
+ });
+ 
+</SCRIPT>
+
+<DIV id=homepage-map><IMG id=vegetables border=0 alt="" src="/contentimages/campaigns/map.png" width=257 height=235 useMap=#veg> <MAP id=veg_map name=veg><AREA href="../ko/nationallandscapes/ningaloo-shark-bay.aspx" shape=poly alt="닝갈루 -샤크 베이" coords=18,64,13,68,14,80,17,83,21,81,22,73,22,71 name="닝갈루 -샤크 베이"><AREA href="../ko/nationallandscapes/the-kimberley.aspx" shape=poly alt=킴벌리 coords=50,41,56,30,71,27,73,34,70,40,67,46,61,48,53,46 name="킴벌리"><AREA href="../ko/nationallandscapes/wet-tropics.aspx" shape=poly alt="웻 트로픽스" coords=131,31,134,32,135,31,138,35,139,39,140,42,138,44,131,36,131,33 name="웻 트로픽스"><AREA href="../ko/nationallandscapes/australias-red-centre.aspx" shape=poly alt="호주의 레드 센터" coords=84,73,88,71,95,70,95,76,91,77,84,76,84,76 name="호주의 레드 센터"><AREA href="../ko/nationallandscapes/australias-timeless-north.aspx" shape=poly alt="호주, 영원의 북쪽" coords=89,26,91,20,100,19,102,23,100,27,95,29 name="호주, 영원의 북쪽"><AREA href="../ko/nationallandscapes/flinders-ranges.aspx" shape=poly alt="플린더스 산맥" coords=109,98,112,99,114,104,111,107,109,104 name="플린더스 산맥"><AREA href="../ko/nationallandscapes/great-south-west-edge.aspx" shape=poly alt="그레이트 사우스 웨스트 에지" coords=30,114,37,114,46,113,49,115,50,118,47,119,43,120,39,122,33,122,28,119 name="그레이트 사우스 웨스트 에지"><AREA href="../ko/nationallandscapes/kangaroo-island.aspx" shape=poly alt="캥거루 섬" coords=104,118,107,117,110,119,110,121,107,122,104,121 name="캥거루 섬"><AREA href="../ko/nationallandscapes/australias-green-cauldron.aspx" shape=poly alt="호주 그린 콜드런" coords=161,85,165,82,170,82,171,86,169,90,166,91,162,88 name="호주 그린 콜드런"><AREA href="../ko/nationallandscapes/greater-blue-mountains.aspx" shape=poly alt="그레이터 블루 마운틴" coords=150,103,153,103,156,105,155,107,154,109,150,106 name="그레이터 블루 마운틴"><AREA href="../ko/nationallandscapes/sydney-harbour.aspx" shape=poly alt="시드니 하버" coords=156,112,157,107,160,108,160,113 name="시드니 하버"><AREA href="../ko/nationallandscapes/australian-alps.aspx" shape=poly alt="호주 알프스" coords=147,113,151,112,154,113,153,117,152,119,147,119 name="호주 알프스"><AREA href="../ko/nationallandscapes/australias-coastal-wilderness.aspx" shape=poly alt="호주 해안 대자연 지대" coords=145,124,148,120,153,120,156,123,156,127,155,130,151,129,144,125 name="호주 해안 대자연 지대"><AREA href="../ko/nationallandscapes/great-ocean-road.aspx" shape=poly alt="그레이트 베리어 리프" coords=120,128,122,125,128,126,133,129,131,131 name="그레이트 오션 로드"><AREA href="../ko/nationallandscapes/tasmanias-island-heritage.aspx" shape=poly alt="그레이트 오션 로드" coords=134,139,138,139,140,141,144,141,145,139,147,142,147,146,144,151,142,152,139,152,134,144 name="태즈매니아 섬의 세계 유산 지역"><AREA href="../ko/nationallandscapes/great-barrier-reef.aspx" shape=poly alt="그레이트 베리어 리프" coords=158,58,154,56,149,51,142,43,139,31,136,28,133,25,131,17,136,20,146,35,154,45,157,51 name="그레이트 베리어 리프"></MAP>
+<DIV class=region_title>호주 관광 명소(내셔널 랜드스케이프)</DIV></DIV><!-- InstanceEndEditable --></DIV><!--Start: homepage-header-overlay-->
+<DIV id=homepage-header-overlay><!--Start: homepage-intro-->
+<DIV id=homepage-intro><!--Start: homepage-intro-left-->
+<DIV id=homepage-intro-left>
+<H1>호주 관광 명소(내셔널 랜드스케이프)에 오신 것을 환영합니다</H1>
+<P>자연이 빚어낸 걸작 컬렉션인 호주 관광 명소(내셔널 랜드스케이프)를 살펴보세요. 위대한 문화와 자연 그리고 영적으로 큰 의미를 지닌 곳이며 세계유산 명소도 많이 포함되어 있답니다. 자연 그대로의 원시 해변과 태고의 우림, 험준한 산맥과 광활한 국립공원을 두루 탐사하세요. 도보여행, 등산, 야영, 스키, 카누를 즐기며 원주민 문화를 체험하고 야생동물과 교감도 나눠보아야겠죠.</P></DIV><!--End: homepage-intro-left--><!--Start: homepage-video-panel--><!-- new video styling -->
+<DIV id=homepage-video-panel style="MARGIN-RIGHT: 65px">
+<DIV class=subpage-video-thumb style="TEXT-ALIGN: left"><A onclick="moduleTrackingWithTitle('lightbox-video','',false,'nationallandscapes-homepageko');" href="#" data-reveal-id="modalVideo"><IMG src="/contentimages/Campaigns/homepage-video-thumb1.png"></A></DIV></DIV></DIV></DIV>
+<DIV id=modalVideo class="reveal-modal video" style-="z-index: 103;"><A class=close-reveal-modal><SPAN class=icon></SPAN></A>
+<DIV class=video style="VISIBILITY: visible !important"><IFRAME height=315 src="//www.youtube.com/v/EjGZ3MaX9pE?version=3&amp;hl=en_GB" frameBorder=0 width=560></IFRAME></DIV></DIV>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule></con_Banner>
+    <con_Body><GenericHTML isTemplate="1">
+<txt_custom_styling><![CDATA[<LINK rel=stylesheet type=text/css href="../static/css/natlandscapes.css">]]></txt_custom_styling>
+<txt_main><![CDATA[
+        <table width="100%" border="0" cellspacing="0" cellpadding="20">
+            <tbody>
+                <tr>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start one -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td valign="top" style="width: 20%;"><!-- new start -->
+                                <table width="177" border="0" cellspacing="0" cellpadding="0">
+                                    <tbody>
+                                        <tr>
+                                            <td><a href="/ko/nationallandscapes/australian-alps.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-fnt-aus-alps.jpg" /></a> </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="picFooter">Snowy Mountains, NSW</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <!-- new end --></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="/ko/nationallandscapes/australian-alps.xml" class="landingHeaders">호주 알프스</a> </p>
+                                <p>대부분 건조한 평지인 호주 대륙에서 눈 덮인 호주 알프스만큼 짜릿한 도전의 대상은 없습니다. <a href="/ko/nationallandscapes/australian-alps.xml">상세 정보</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end one --></td>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start two -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20%;"><a href="/ko/nationallandscapes/great-south-west-edge.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-gsw-03.jpg" /></a></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="/ko/nationallandscapes/great-south-west-edge.xml" class="landingHeaders">그레이트 사우스 웨스트 에지</a></p>
+                                <p>생물학적 다양성을 간직하고 서호주의 먼 남서 해안까지 뻗어 있는 멋진 그레이트 사우스 웨스트 에지에서 여유를 만끽해보세요. <a href="/ko/nationallandscapes/great-south-west-edge.xml">상세 정보</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="picFooter">그레이트 사우스 웨스트 에지, WA</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end two --></td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start one -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20%;"><a href="/ko/nationallandscapes/australias-coastal-wilderness.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-fnt-aus-coastal-wilderness.jpg" /></a></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="/ko/nationallandscapes/australias-coastal-wilderness.xml" class="landingHeaders">호주 해안 대자연 지대</a> </p>
+                                <p>멀리 뉴사우스웨일즈의 사우스 코스트에서 빅토리아의 이스트 깁스랜드까지 뻗어나가는 호주 해안 대자연 지대에는 높이 솟은 삼림, 호수와 해변이 어우러져 이어집니다. <a href="/ko/nationallandscapes/australias-coastal-wilderness.xml">상세 정보</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="picFooter">Bittangabee Bay, NSW</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end one --></td>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start two -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20%;"><a href="/ko/nationallandscapes/australias-timeless-north.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-fnt-kakadu(1).jpg" /></a></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="/ko/nationallandscapes/australias-timeless-north.xml" class="landingHeaders">호주, 영원의 북쪽</a></p>
+                                <p>호주, 영원의 북쪽은 열대 우림과 붉은 황무지가 공존하는 두 얼굴을 가진 지역입니다. <a href="/ko/nationallandscapes/australias-timeless-north.xml">상세 정보</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="picFooter">카카두 (Kakadu), NT </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end two --></td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start one -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20%;"><a href="/ko/nationallandscapes/australias-green-cauldron.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-fnt-aus-green-cauldron.jpg" /></a></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="/ko/nationallandscapes/australias-green-cauldron.xml" class="landingHeaders">호주 그린 콜드런</a> </p>
+                                <p>고대 화산 경관으로 지금은 곤드와난 우림으로 뒤덮인 호주의 그린 콜드런(Green Cauldron)에서 마운트 워닝(월룸빈)을 둘러보세요. <a href="/ko/nationallandscapes/australias-green-cauldron.xml">상세 정보</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="picFooter">Mount Warning, NSW</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end one --></td>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start two -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20%;"><a href="/ko/nationallandscapes/kangaroo-island.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-fnt-kangaroo-island.jpg" /></a></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="/ko/nationallandscapes/kangaroo-island.xml" class="landingHeaders">캥거루 섬</a></p>
+                                <p>애들레이드에서 캥거루 섬으로 향해 원시 그대로 간직된 자연환경에서 토종 동물들을 만나 보세요. 씰 베이의 백사장에서 바다사자를 보고 페네쇼에서는 해안으로 뒤뚱뒤뚱 걸어 나오는 펭귄을 구경합니다.<br />
+                                <a href="/ko/nationallandscapes/kangaroo-island.xml">상세 정보</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="picFooter">캥거루 섬, SA</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end two --></td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start one -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20%;"><a href="/ko/nationallandscapes/australias-red-centre.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-fnt-aus-red-centre.jpg" /></a></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="/ko/nationallandscapes/australias-red-centre.xml" class="landingHeaders">호주의 레드 센터</a> </p>
+                                <p>원주민 문화와 거친 아웃백의 아름다운 경관이 가득한 호주의 레드 센터에서 여러분은 자신을 잃고 또 다시 찾게 됩니다. <a href="/ko/nationallandscapes/australias-red-centre.xml">상세 정보</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="picFooter">Uluru, NT</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end one --></td>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start two -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20%;"><a href="/ko/nationallandscapes/ningaloo-shark-bay.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-nsb-01.jpg" /></a></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="/ko/nationallandscapes/ningaloo-shark-bay.xml" class="landingHeaders">닝갈루 -샤크 베이</a></p>
+                                <p>서호주의 코랄 코스트에 있는 닝갈루-샤크 베이에서 자유와 여유를 만끽하세요. 세계 유산 지역으로 등록된 야생의 붉은 배경 끝자락에서 각종 해양생물을 만나보세요. <a href="/ko/nationallandscapes/ningaloo-shark-bay.xml">상세 정보</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="picFooter">닝갈루 -샤크 베이, WA</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end two --></td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start one -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20%;"><a href="/ko/nationallandscapes/flinders-ranges.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-fnt-flinders-ranges.jpg" /></a></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="/ko/nationallandscapes/flinders-ranges.xml" class="landingHeaders">플린더스 산맥</a></p>
+                                <p>남호주 최대의 산악지대에서 지구의 나이만큼이나 오래 된 역사의 자취를 더듬어 보세요. <a href="/ko/nationallandscapes/flinders-ranges.xml">상세 정보</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="picFooter">플린더스 산맥, SA</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end one --></td>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start two -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20%;"><a href="/ko/nationallandscapes/sydney-harbour.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-fnt-syd.jpg" /></a></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="/ko/nationallandscapes/sydney-harbour.xml" class="landingHeaders">시드니 하버</a></p>
+                                <p>시드니(Sydney)는 멋진 자연항으로 이루어진 도시입니다. <a href="/ko/nationallandscapes/sydney-harbour.xml">상세 정보</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="picFooter">Sydney Harbour National Park</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end two --></td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start one -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20%;"><a href="/ko/nationallandscapes/great-barrier-reef.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-fnt-gbr.jpg" /></a></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="/ko/nationallandscapes/great-barrier-reef.xml" class="landingHeaders">그레이트 베리어 리프</a></p>
+                                <p>세계 7대 자연경관 중 하나로 손꼽히며 세계 최대의 산호초를 자랑하는, 세계 유산 지역인 그레이트 베리어 리프에 오셔서 활기를 재충전하세요. <a href="/ko/nationallandscapes/great-barrier-reef.xml">상세 정보</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="picFooter">그레이트 베리어 리프, QLD</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end one --></td>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start two -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20%;"><a href="/ko/nationallandscapes/tasmanias-island-heritage.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-fnt-tas.jpg" /></a></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="/ko/nationallandscapes/tasmanias-island-heritage.xml" class="landingHeaders">태즈매니아 섬의 세계 유산 지역</a></p>
+                                <p>태즈마니아 섬에서 세계 유산지로 등재된 곳은 자연이 그대로 보존되었으면서도 접근이 쉬워 대자연의 해안선과 울창한 숲, 눈 덮인 산봉우리를 직접 감상할 수 있습니다. <a href="/ko/nationallandscapes/tasmanias-island-heritage.xml">상세 정보</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="picFooter">Lake Oberon, TAS</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end two --></td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start one -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20%;"><a href="/ko/nationallandscapes/great-ocean-road.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-fnt-gor.jpg" /></a></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="/ko/nationallandscapes/great-ocean-road.xml" class="landingHeaders">그레이트 오션 로드</a></p>
+                                <p>질롱(Geelong)에서 포트랜드까지 장엄한 남극해를 따라 휘감듯 이어지는 그레이트 오션 로드의 굽이마다 자연의 드라마가 펼쳐집니다. <a href="/ko/nationallandscapes/great-ocean-road.xml">상세 정보</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="picFooter">그레이트 오션 로드, VIC</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end one --></td>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start two -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20%;"><a href="/ko/nationallandscapes/the-kimberley.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-fnt-the-kimb.jpg" /></a></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="/ko/nationallandscapes/the-kimberley.xml" class="landingHeaders">킴벌리</a></p>
+                                <p>호주에서 멀리 북서쪽 구석 지역에 위치한 킴벌리는 그저 경이로울 따름입니다. 서사시 같은 경관에 들어서면 험한 암반 지형과 광대한 수로, 눈부시게 빛나는 바다가 펼쳐집니다. <a href="/ko/nationallandscapes/the-kimberley.xml">상세 정보</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="picFooter">킴벌리, WA</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end two --></td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start one -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20%;"><a href="/ko/nationallandscapes/greater-blue-mountains.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-fnt-blue-mountains.jpg" /></a></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="/ko/nationallandscapes/greater-blue-mountains.xml" class="landingHeaders">그레이터 블루 마운틴</a></p>
+                                <p>시드니에서 차로 불과 90분 거리에 100만 헥타르에 걸쳐 절벽과 협곡, 계곡과 폭포 그리고 삼림지대가 펼쳐지는 세계유산지 그레이터 블루 마운틴(Greater Blue Mountains)이 은밀히 유혹합니다. <a href="/ko/nationallandscapes/greater-blue-mountains.xml">상세 정보</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="picFooter">Hanging Rock, Blackheath, NSW</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end one --></td>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start two -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20%;"><a href="/ko/nationallandscapes/wet-tropics.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-fnt-wet.jpg" /></a></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="/ko/nationallandscapes/wet-tropics.xml" class="landingHeaders">웻 트로픽스</a></p>
+                                <p>데인트리(Daintree) 우림부터 테이블랜즈(Tablelands)까지 웻 트로픽스(Wet Tropics)의 자연경관은 관광객을 경이로움과 매력의 세계로 빠져들게 합니다.<br />
+                                <a href="/ko/nationallandscapes/wet-tropics.xml">상세 정보</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="picFooter">웻 트로픽스, QLD</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end two --></td>
+                </tr>
+            </tbody>
+        </table>
+    ]]></txt_main>
+</GenericHTML></con_Body>
+    <con_RHSModules></con_RHSModules>
+    <con_Category></con_Category>
+    <lst_Subpages>
+    </lst_Subpages>
+</StandardCampaignLayout>
+    </con_Body>
+    <lst_Subpages>
+        <lst_Subpage><![CDATA[<a href="/ko/nationallandscapes/australian-alps.xml">호주 알프스</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/ko/nationallandscapes/australias-coastal-wilderness.xml">호주 해안 야생 지역</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/ko/nationallandscapes/australias-green-cauldron.xml">호주 그린 콜드런</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/ko/nationallandscapes/australias-red-centre.xml">호주의 레드 센터</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/ko/nationallandscapes/australias-timeless-north.xml">호주, 영원의 북</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/ko/nationallandscapes/flinders-ranges.xml">플린더스 산맥</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/ko/nationallandscapes/great-barrier-reef.xml">그레이트 베리어 리프</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/ko/nationallandscapes/great-ocean-road.xml">그레이트 오션 로드</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/ko/nationallandscapes/great-south-west-edge.xml">그레이트 사우스 웨스트 에지</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/ko/nationallandscapes/greater-blue-mountains.xml">그레이터 블루 마운틴</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/ko/nationallandscapes/kangaroo-island.xml">캥거루 섬</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/ko/nationallandscapes/ningaloo-shark-bay.xml">닝갈루 -샤크 베이</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/ko/nationallandscapes/sydney-harbour.xml">시드니 하버</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/ko/nationallandscapes/tasmanias-island-heritage.xml">태즈매니아(Tasmania) 섬의 세계 유산 지역</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/ko/nationallandscapes/the-kimberley.xml">킴벌리</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/ko/nationallandscapes/wet-tropics.xml">웻 트로픽스</a>]]></lst_Subpage>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

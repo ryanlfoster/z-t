@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="22223" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Laman Utama]]></headline>
+            <href><![CDATA[/my/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Tools and Campaigns]]></headline>
+            <href><![CDATA[/my/tools-campaigns.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Landskap Kebangsaan Australia]]></headline>
+            <href><![CDATA[/my/nationallandscapes.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[Hutan Pesisir Pantai Australia]]></headline>
+            <href><![CDATA[/my/nationallandscapes/australias-coastal-wilderness.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/Campaigns/national-landscapes-australias-coastal-wilderness.jpg]]></img_background>
+    <hdl_Title><![CDATA[Hutan Pesisir Pantai Australia]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/national-landscapes-australias-coastal-wilderness-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/Campaigns/national-landscapes-australias-coastal-wilderness-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[yes]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[Lawati hutan anggun, tasik dan pantai-pantai yang bermula dari pantai selatan New South Wales ke timur Gippsland di Victoria.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[Pantai Australia, pantai timur Australia, Croajingolong National Park, Pantai Sapphire,  Ben Boyd National Park, Point Hicks, Green Cape, Pulau Gabo, Pulau Montague, Mimosa Rocks National Park, Bega, keju Bega, Merimbula, Cape Conran National Park]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Pelajari lebih lanjut]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Landskap Kebangsaan Australia: Hutan Pesisir Pantai Australia - Tourism Australia]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        Lawati hutan anggun, tasik dan pantai-pantai yang bermula dari pantai selatan New South Wales ke timur Gippsland di Victoria.
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <StandardCampaignLayout isTemplate="1">
+    <opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+    <hdl_Title><![CDATA[]]></hdl_Title>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+    <con_Banner><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<DIV id=headerimage>
+<SCRIPT type=text/javascript src="../../static/js/jquery.cycle.all.latest.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+jQuery(document).ready(function() {
+jQuery('#headersliderwrapper').cycle({
+        fx:'fade',
+        slideExpr: '.headerslide'
+    });
+});
+</SCRIPT>
+
+<DIV id=headersliderwrapper>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-acw-01.jpg"> 
+<DIV class=headerslideinfo>Betka Beach Mallacoota VIC</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-acw-02.jpg"> 
+<DIV class=headerslideinfo>Twofold Bay Eden NSW</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-acw-03.jpg"> 
+<DIV class=headerslideinfo>Mallacoota Inlet Croajingolong National Park VIC</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-acw-04.jpg"> 
+<DIV class=headerslideinfo>Melihat Ikan Paus</DIV></DIV></DIV></DIV>
+<DIV id=subpage-header-overlay></DIV>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule></con_Banner>
+    <con_Body><TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Hutan Pesisir Pantai Australia]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        Meliputi dari hujung South Coast di New South Wales ke Gippsland timur di Victoria, Hutan Pesisir Pantai Australia ialah tempat bertemunya hutan tinggi, tasik dan pantai. Berjalan dan berkhemah di sepanjang persisiran hutan pantai yang kosong, meluncur dan snorkel di pantai yang berumbai dan berkanu di tasik yang hebat dan tenang. Lihat ikan paus, dolfin, singa laut dan penguin, makan malam makanan laut yang segar ditangkap dan jejaki kawasan sejarah Orang Asli di tapak timbunan kuno. Tinggal di bandar cantik seperti Bermagui, Bega dan Mallacoota dan panjat rumah api bersejarah di Point Hicks dan Green Cape.
+        <p><strong>Lima perkara yang boleh dilakukan di hutan persisiran pantai terpelihara ini</strong></p>
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[1. Tambah kasih sayang anda kepada alam sekitar di hutan, pulau, tasik dan pantai]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australias-coastal-wilderness-hl01.jpg" alt="Drummer Rainforest Walk, VIC">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Drummer Rainforest Walk, VIC]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Kunjungi koloni terbesar penguin yang diketahui di dunia di Gabo Island. Atau belayar menaiki kapal persiaran ke Montague Island untuk melihat anjing laut, penguin dan mergastua laut berterbangan di angkasa. Tinjau ikan paus dari Eden, Boyds Tower di Ben Boyd National Park atau Point Hicks di Croajingolong National Park. Pantai, hutan hujan yang subur dan puncak granit di sini dilindungi oleh Rizab Biosfera Dunia. Pada musim panas dan musim bunga, anda dapati Lake Elusive dihiasi bunga-bunga liar dan orkid terang. Mengembara berjalan kaki ke Kangarutha Track melalui Bournda National Park, dengar gemersik dan nyanyian burung tanah lembap.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[2. Bersantai di pekan pinggir pantai yang damai]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australias-coastal-wilderness-hl02.jpg" alt="South Coast, NSW">]]></img_MainImage>
+                    <stf_Caption><![CDATA[South Coast, NSW]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Relaxed Bermagui dikenali untuk aktiviti memancing, tetapi anda juga boleh berenang dan meluncur dari pantai atau pergi berkanu di Mimosa Rocks National Park yang berdekatan. Jauh di selatan, Merimbula ialah tempat pertemuan untuk semua jenis sukan air. Pergi meluncur, layari tasik air tawar atau selam skuba di pesisir air yang jernih. Lihat ikan paus and pergi menyelam mencari bangkai kapal tenggelam dari Eden dan bersantai di Mallacoota yang indah, yang terletak antara pantai yang lebar dan putih bersih serta alur-alur kecil air dan sungai yang menenangkan. Sungai Marlo dan Bemm adalah asas hebat untuk eksplorasi lasak pinggir pantai Cape Conran Coastal Park.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[3. Lekakan diri anda dengan pengembaraan pesisir pantai]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australias-coastal-wilderness-hl03.jpg" alt="Lighthouse Track, VIC">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Lighthouse Track, VIC]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Berkelana berjalan kaki di Laluan Jalan Kaki Cahaya ke Cahaya, yang mengunjur dari Boyds Tower hingga Green Cape. Di Croajingolong National Park anda boleh berkanu di Wingan Inlet, mengembara berjalan kaki ke bukit pasir atau mendaki cerun ke puncak Genoa untuk pemandangan panorama merentasi Bass Straight. Satu lagi pendakian hebat ke puncak rumah api tertinggi di Australia di Point Hicks, tempat pertama di Australia yang dilihat oleh Kapten Cook. Untuk cabaran sebenar, berjalan kaki sejauh 100km di Laluan Jalan Kaki Rimba Pesisir Pantai dari Point Hicks hingga Rizab Alam Semula Jadi Nadgee.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[4. Bertemasya mencuba makanan tempatan]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australias-coastal-wilderness-hl04.jpg" alt="Disaster Bay Chillies, Eden, NSW">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Disaster Bay Chillies, Eden, NSW]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Makanan laut segar terdapat dengan banyaknya di sepanjang pantai ini, dan anda akan temui restoran dan kedai makanan laut berkualiti tinggi dari Tathra ke Mallacoota. Cuba dapatkan ikan tuna dan marlin semasa memancing laut dalam di Bermagui dan bertemasya memakan tiram segar di Pambula dan Merimbula, di mana ladang tiram memberi peluang lawatan tetap. Pemandangan indah jalan pantai antara Tathra dan Bermagui dipagari dengan kedai kopi dan kedai gourmet serta kedai wain dan galeri seni. Di pedalaman terdapat negeri yang subur untuk produk tenusu dan Bega, di mana anda boleh pelajari tentang tradisi pembuatan keju di pusat warisan keju yang menjadi kebanggaan bandar tersebut.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[5. Jejaki tapak kaki Orang Asli]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australias-coastal-wilderness-hl05.jpg" alt="Two Fold Bay, Eden, NSW">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Two Fold Bay, Eden, NSW]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Temui barang middens Orang Asli kuno – serpihan cengkerang, batu, tulang dan arang unggun api – di Pabul River Walking Track melalui Ben Boyd National Park. Terdapat banyak lagi tinggalan bertaburan di Jackson Crossing di atas Snowy River atau di hujung selatan Croajingolong National Park. Di Killer Whale Museum di Eden, anda boleh pelajari tentang kepentingan peranan yang dimainkan oleh Orang Asli dalam industri ikan paus. Lekakan diri anda bersama sekumpulan anak-anak kapal Orang Asli yang mengajar kapten Eropah mereka cara bekerjasama dengan ikan paus di Two Fold Bay.
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights></con_Body>
+    <con_RHSModules><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<TABLE cellSpacing=0 cellPadding=0 width=298 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top align=center>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD style="WIDTH: 25px"></TD>
+<TD><!-- #BeginLibraryItem "/Library/sitenav.lbi" -->
+<SCRIPT language=JavaScript1.2 type=text/javascript src="../../static/js/stmenu.js"></SCRIPT>
+<!-- #EndLibraryItem --></TD></TR></TBODY></TABLE><!-- Google Map Start -->
+<SCRIPT type=text/javascript>
+function fireEvent(obj,evt){
+var fireOnThis = obj;
+if( document.createEvent ) {
+var evObj = document.createEvent('MouseEvents');
+ evObj.initEvent( evt, true, false );
+fireOnThis.dispatchEvent(evObj);
+} else if( document.createEventObject ) {
+fireOnThis.fireEvent('on'+evt);
+}
+}
+function clickLink(linkobj) {
+     if (linkobj.getAttribute('onclick') == null) {
+ if (linkobj.getAttribute('href')) document.location = linkobj.getAttribute('href');
+     }
+     else linkobj.onclick();
+}
+function loadjscssfile(filename, filetype){
+ if (filetype=="js"){ //if filename is a external JavaScript file
+  var fileref=document.createElement('script')
+  fileref.setAttribute("type","text/javascript")
+  fileref.setAttribute("src", filename)
+ }
+ else if (filetype=="css"){ //if filename is an external CSS file
+  var fileref=document.createElement("link")
+  fileref.setAttribute("rel", "stylesheet")
+  fileref.setAttribute("type", "text/css")
+  fileref.setAttribute("href", filename)
+  fileref.setAttribute("media", "print")
+ }
+ if (typeof fileref!="undefined")
+  document.getElementsByTagName("head")[0].appendChild(fileref)
+}
+                  </SCRIPT>
+
+<SCRIPT type=text/javascript>
+var icheckk=0;
+jQuery.each(jQuery.browser, function(i, val) {
+if(i=="msie" && jQuery.browser.version.substr(0,3)=="7.0")
+icheckk=1;
+});
+function myfun()
+{
+loadjscssfile("../../static/css/thickbox.css", "css");
+if(icheckk==1)
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='../../static/maps/my/australiascoastalwilderness/bigmap.html'  target='_blank'>&nbsp;Cetak|Tutup|&nbsp;atau Kekunci Esc</a></b>","../../static/maps/my/australiascoastalwilderness/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+else
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='javascript:window.print()' >&nbsp;Cetak|Tutup|&nbsp;atau Kekunci Esc</a></b>","../../static/maps/my/australiascoastalwilderness/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+}
+         </SCRIPT>
+<IFRAME style="MARGIN-BOTTOM: 20px; BORDER-TOP: black 1px solid; HEIGHT: 355px; BORDER-RIGHT: black 1px solid; BORDER-BOTTOM: black 1px solid; FLOAT: left; PADDING-BOTTOM: 5px; BORDER-LEFT: black 1px solid; BACKGROUND-COLOR: #333333" height=380 src="../../static/maps/my/australiascoastalwilderness/index.html" frameBorder=0 width=249 name=FRAMENAME scrolling=no></IFRAME><!-- Google Map end -->
+<DIV class=subpage-video-thumb style="TEXT-ALIGN: left"><A onclick="moduleTrackingWithTitle('lightbox-video','',false,'nationallandscapes-coastalwildernessmy');" href="#" data-reveal-id="modalVideo"><IMG alt="" src="/contentimages/Campaigns/national-landscapes-video-my.jpg"></A> </DIV>
+<DIV id=modalVideo class="reveal-modal video" style-="z-index: 103;"><A class=close-reveal-modal><SPAN class=icon></SPAN></A>
+<DIV class=video style="VISIBILITY: visible !important"><IFRAME height=315 src="//www.youtube.com/v/EjGZ3MaX9pE?version=3&amp;hl=en_GB" frameBorder=0 width=560></IFRAME></DIV></DIV></TD></TR></TBODY></TABLE>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule><Listing isTemplate="1">
+<anc_List1><![CDATA[/my/explore/icons/gippsland.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[Lebih Lanjut mengenai Idea Australia]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/my/AccommodationSearch.ignore]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/my/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/my/AttractionSearchResults.ignore]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/my/DestinfoSearchResults.ignore]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/my/EventsSearch.xml]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/my/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/my/hire.ignore]]></anc_Hire>
+<anc_Info><![CDATA[/my/InfoSearchResults.ignore]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/my/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/my/TourSearchResults.ignore]]></anc_Tour>
+<anc_Transport><![CDATA[/my/transport.ignore]]></anc_Transport>
+<hdl_Title><![CDATA[Rancang perjalanan anda ke Hutan Pesisir Pantai Australia]]></hdl_Title>
+<language><![CDATA[MSL]]></language>
+<stf_Accomodation><![CDATA[Accommodation]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[Attractions]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[Find a Travel Agent near you]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[Destination Information]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[Events]]></stf_Events>
+<stf_Hire><![CDATA[Hire ]]></stf_Hire>
+<stf_Informationservices><![CDATA[Information Services]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[Victoria]]></stf_StateFilter>
+<stf_Tours><![CDATA[Tours]]></stf_Tours>
+<stf_Transport><![CDATA[Transport]]></stf_Transport>
+</PlanYourVisit></con_RHSModules>
+    <con_Category></con_Category>
+    <lst_Subpages>
+    </lst_Subpages>
+</StandardCampaignLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

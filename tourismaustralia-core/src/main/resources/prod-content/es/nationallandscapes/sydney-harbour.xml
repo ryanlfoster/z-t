@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="22253" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Inicio]]></headline>
+            <href><![CDATA[/es-la/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Tools and Campaigns]]></headline>
+            <href><![CDATA[/es-la/tools-campaigns.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Paisagens Nacionais da Austrália]]></headline>
+            <href><![CDATA[/es-la/nationallandscapes.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[Puerto de Sydney]]></headline>
+            <href><![CDATA[/es-la/nationallandscapes/sydney-harbour.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/Campaigns/national-landscapes-sydney-harbour.jpg]]></img_background>
+    <hdl_Title><![CDATA[Puerto de Sydney]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/national-landscapes-sydney-harbour-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/Campaigns/national-landscapes-sydney-harbour-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[yes]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[Sydney es una ciudad conformada por su asombroso puerto natural. Pasando por el Dreamtime hasta las maravillas modernas de la Casa de la &Oacute;pera de Sydney y el Puente del Puerto de Sydney, el Puerto de Sydney ha sido el coraz&oacute;n y el alma de este paisaje.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[Puerto de Sydney, Sydney Opera House, Sydney Harbour Bridge, Aboriginal patrimonio, Royal Botanic Gardens, Mrs Macquarie’s Chair]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Mayor informaci&oacute;n]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Paisajes Nacionales de Australia: Puerto de Sydney - Turismo Australia]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        Sydney es una ciudad conformada por su asombroso puerto natural. Pasando por el Dreamtime hasta las maravillas modernas de la Casa de la &Oacute;pera de Sydney y el Puente del Puerto de Sydney, el Puerto de Sydney ha sido el coraz&oacute;n y el alma de este paisaje.
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <StandardCampaignLayout isTemplate="1">
+    <opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+    <hdl_Title><![CDATA[]]></hdl_Title>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+    <con_Banner><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<DIV id=headerimage>
+<SCRIPT type=text/javascript src="../../static/js/jquery.cycle.all.latest.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+jQuery(document).ready(function() {
+jQuery('#headersliderwrapper').cycle({
+        fx:'fade',
+        slideExpr: '.headerslide'
+    });
+});
+</SCRIPT>
+
+<DIV id=headersliderwrapper>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-syd-01.jpg"> 
+<DIV class=headerslideinfo>Parque nacional Sydney Harbour, Nueva Gales del Sur</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-syd-02.jpg"> 
+<DIV class=headerslideinfo>Ruta Coast Track, Parque nacional Royal, Nueva Gales del Sur</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-syd-03.jpg"> 
+<DIV class=headerslideinfo>Ruta America Bay Track, Parque nacional Ku-ring-gai Chase, Nueva Gales del Sur</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-syd-04.jpg"> 
+<DIV class=headerslideinfo>Vista desde Bradleys Head, Nueva Gales del Sur</DIV></DIV></DIV></DIV>
+<DIV id=subpage-header-overlay></DIV>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule></con_Banner>
+    <con_Body><TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Puerto de Sydney]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        Sydney es una ciudad conformada por su asombroso puerto natural. Pasando por el Dreamtime hasta las maravillas modernas de la Casa de la &Oacute;pera de Sydney y el Puente del Puerto de Sydney, el Puerto de Sydney ha sido el coraz&oacute;n y el alma de este paisaje tan animado. A los pies del puente, encontrar&aacute; parques nacionales, sitios declarados patrimonio mundial, patrimonio aborigen y la historia penitenciaria. Nade en las playas inmaculadas y explore entradas secretas, d&eacute; un paseo en bicicleta por los tranquilos parques y vea como se pone el sol en el oc&eacute;ano en las cumbres de los acantilados. El paisaje natural y cultural de Sydney que se extiende m&aacute;s all&aacute; de su puerto, junto con su costa y sus v&iacute;as navegables, es un tapiz vibrante que espera ser explorado.
+        <p><strong>Cinco formas de explorer el Puerto de Sydney</strong></p>
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[1. La experiencia del paisaje de la ciudad de Sydney]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-sydney-harbour-hl01.jpg" alt="El paisaje de la ciudad de Sydney">]]></img_MainImage>
+                    <stf_Caption><![CDATA[El paisaje de la ciudad de Sydney]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        El Puerto de Sydney es uno de los paisajes m&aacute;s diversos del mundo en cuanto al medio ambiente. Las espectaculares costas crean un mirador natural infinito de las espectaculares vistas y oportunidades para disfrutar de la naturaleza. Escale el Puente del Puerto de Sydney para conseguir una vista panor&aacute;mica que se extiende desde Sydney Heads al este hasta la Zona de las Monta&ntilde;as Azules al oeste. Justo en la periferia de la ciudad, el oasis urbano del Jard&iacute;n Bot&aacute;nico Real ofrece una perspectiva sobre los or&iacute;genes de Australia, con plantas poco comunes que se remontan al viaje del Capit&aacute;n Cook. Dir&iacute;jase a la Silla de la Sra. Macquarie para ver toda la magn&iacute;fica escena desde una ubicaci&oacute;n privilegiada y t&oacute;mese un tiempo para explorar The Rocks, el asentamiento europeo m&aacute;s antiguo de Australia.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[2. Atracciones en el Puente de Sydney]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-sydney-harbour-hl02.jpg" alt="Practicar snorkel en Nielsen Park">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Practicar snorkel en Nielsen Park]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Esparcidas por todo el puerto, las islas del Puerto de Sydney ofrecen un viaje al pasado aborigen, carcelario y mar&iacute;timo de Australia. Tome un transbordador desde Circular Quay para explorar las islas de Fort Denison y Goat. Acampe y pase la noche en Cockatoo Island, declarada Patrimonio Mundial, y vea la ciudad iluminada a su alrededor. Retroceda en el tiempo e ice las velas a bordo de un gran velero hist&oacute;rico o descubra la historia aborigen del puerto con Tribal Warrior. Conozca parte de la flora y la fauna excepcionales de Australia en Wild Life Sydney, el Acuario de Sydney o el espectacular Zool&oacute;gico de Taronga. Practique snorkel en Nielsen Park en la bah&iacute;a Rose Bay hasta llegar a Watsons Bay Walk. Compre unos "fish and chips" y observe los yates que se dibujan en la vista panor&aacute;mica de la ciudad desde Watson’s Bay, luego d&eacute; un paseo por South Head para disfrutar de espectaculares vistas.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[3. Parques nacionales de Sydney]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-sydney-harbour-hl03.jpg" alt="La ruta Coast Track, Parque Nacional Real">]]></img_MainImage>
+                    <stf_Caption><![CDATA[La ruta Coast Track, Parque Nacional Real]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Los parques nacionales de Sydney ofrecen un viaje a trav&eacute;s de la historia australiana. En ellos se protegen la riqueza de la flora y la fauna de este pa&iacute;s, los sitios de cultura aborigen antiguos y las construcciones militares. Tambi&eacute;n existen varios lugares para nadar y rutas de excursionismo donde se pueden ver la flora y la fauna en su h&aacute;bitat natural. El pulm&oacute;n ‘verde’ del paisaje es la gran extensi&oacute;n del Parque Nacional del Puente de Sydney, que abraza la zona costera en North Head y South Head en la entrada espectacular al Puerto Jackson. Hosp&eacute;dese en la hist&oacute;rica Estaci&oacute;n de cuarentena, donde los primeros barcos migratorios llegaron en la d&eacute;cada de 1830. Est&eacute; atento a las ballenas en su migraci&oacute;n de invierno. Desde Middle Head puede observar el oc&eacute;ano Pac&iacute;fico hacia el horizonte. &Uacute;nase a los voluntarios que ayudan a regenerar la vegetaci&oacute;n. Al sur de la ciudad, recorra la ruta Coast Track en el Parque Nacional Royal y acceda a los acantilados, las playas y los paisajes inspiradores desde Bundeena hasta Otford. Se han avistado m&aacute;s de 300 especies de aves en el Parque Nacional Royal. En el norte, el Parque Nacional Ku-ring-gai Chase ofrece una combinaci&oacute;n fascinante de vegetaci&oacute;n y bah&iacute;a, a una distancia corta de las agradables playas de arena.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[4. Experiencias abor&iacute;genes]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-sydney-harbour-hl04.jpg" alt="Excursión de descubrimiento aborigen">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Excursi&oacute;n de descubrimiento aborigen]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        La evidencia de la larga conexi&oacute;n del pueblo aborigen con esta tierra se presenta en forma de grabados en las rocas, conchales, campings, &aacute;rboles cuya corteza ha sido utilizada por este pueblo y decoraciones que se encuentran por todo el paisaje. Tome una excursi&oacute;n a The Rocks con un gu&iacute;a aborigen para descubrir las tradiciones y pr&aacute;cticas culturales de los cadigal. Viaje en crucero a Parramatta para dar un paseo a orillas del r&iacute;o y busque los &aacute;rboles cuya corteza ha sido utilizada por los abor&iacute;genes en el Parque Parramatta. Haga una excursi&oacute;n de descubrimiento aborigen en el parque Ku-ring-gai Chase o el Parque Nacional Real y busque grabados en rocas a lo largo del paseo costero de Bronte a Bondi. Para disfrutar de la contempor&aacute;nea cultura aborigen, ad&eacute;ntrese en una presentaci&oacute;n del Bangarra Dance Theatre y disfrute de un "bush tucker" en Purple Goanna en Redfern o Gardener’s Lodge Caf&eacute; en el Parque Victoria.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[5. Viajes a la costa y el puerto]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-sydney-harbour-hl05.jpg" alt="Navegar en Kayak, Parque Nacional Real">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Navegar en Kayak, Parque Nacional Real]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Este paisaje es un para&iacute;so acu&aacute;tico donde puede hacer de todo, desde surfear en las playas hasta navegar y hacer remo sobre tabla en las playas que se encuentran alrededor del puerto. Practique kayak en las v&iacute;as navegables en cualquier parte del paisaje para descubrir un rinc&oacute;n fascinante por su cuenta. Dese un ba&ntilde;o refrescante en una de las playas locales populares como Bronte y Freshwater, o d&eacute; un paseo por las rocas de la orilla. Viaje en crucero por las aguas del Puerto o participe en una de las competencias de nataci&oacute;n que se organizan en el lugar. Contemple una variedad de aves acu&aacute;ticas en los pantanos a orillas del r&iacute;o del Bicentennial Park en el Sydney Olympic Park y camine alrededor del bosque flanqueado m&aacute;s grande que queda en el r&iacute;o de Parramatta. Descubra la abundante vida submarina del paisaje en un safari con snorkel en Clovelly, donde puede alcanzar a ver a Bluey, meros azules residentes, o en Bare Island donde puede encontrar mantarrayas y esponjas coloridas. Bucee en Gordon’s Bay Underwater Nature Trail, uno de los tantos lugares espectaculares para bucear en Sydney, donde puede encontrar pulpos, jibias y nudibranquios coloridos.
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights></con_Body>
+    <con_RHSModules><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<TABLE cellSpacing=0 cellPadding=0 width=298 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top align=center>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD style="WIDTH: 25px"></TD>
+<TD><!-- #BeginLibraryItem "/Library/sitenav.lbi" -->
+<SCRIPT language=JavaScript1.2 type=text/javascript src="../../static/js/stmenu.js"></SCRIPT>
+<!-- #EndLibraryItem --></TD></TR></TBODY></TABLE><!-- Google Map Start -->
+<SCRIPT type=text/javascript>
+function fireEvent(obj,evt){
+ var fireOnThis = obj;
+ if( document.createEvent ) {
+   var evObj = document.createEvent('MouseEvents');
+   evObj.initEvent( evt, true, false );
+   fireOnThis.dispatchEvent(evObj);
+ } else if( document.createEventObject ) {
+   fireOnThis.fireEvent('on'+evt);
+ }
+}function clickLink(linkobj) {
+     if (linkobj.getAttribute('onclick') == null) {
+     if (linkobj.getAttribute('href')) document.location = linkobj.getAttribute('href');
+     }
+     else linkobj.onclick();
+}
+function loadjscssfile(filename, filetype){
+ if (filetype=="js"){ //if filename is a external JavaScript file
+  var fileref=document.createElement('script')
+  fileref.setAttribute("type","text/javascript")
+  fileref.setAttribute("src", filename)
+ }
+ else if (filetype=="css"){ //if filename is an external CSS file
+  var fileref=document.createElement("link")
+  fileref.setAttribute("rel", "stylesheet")
+  fileref.setAttribute("type", "text/css")
+  fileref.setAttribute("href", filename)
+  fileref.setAttribute("media", "print")
+ }
+ if (typeof fileref!="undefined")
+  document.getElementsByTagName("head")[0].appendChild(fileref)
+}
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+var icheckk=0;
+jQuery.each(jQuery.browser, function(i, val) {
+if(i=="msie" && jQuery.browser.version.substr(0,3)=="7.0")
+icheckk=1;
+});
+function myfun()
+{
+loadjscssfile("../../static/css/thickbox.css", "css");
+if(icheckk==1)
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='../../static/maps/es-la/sydneyharbour/bigmap.html'  target='_blank'>&nbsp;Imprimir|Cerca|&nbsp;o prensa el Esc tecla</a></b>","../../static/maps/es-la/sydneyharbour/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+else
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='javascript:window.print()' >&nbsp;Imprimir|Cerca|&nbsp;o prensa el Esc tecla</a></b>","../../static/maps/es-la/sydneyharbour/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+}
+         </SCRIPT>
+<IFRAME style="MARGIN-BOTTOM: 20px; BORDER-TOP: black 1px solid; HEIGHT: 355px; BORDER-RIGHT: black 1px solid; BORDER-BOTTOM: black 1px solid; FLOAT: left; PADDING-BOTTOM: 5px; BORDER-LEFT: black 1px solid; BACKGROUND-COLOR: #333333" height=380 src="../../static/maps/es-la/sydneyharbour/index.html" frameBorder=0 width=249 name=FRAMENAME scrolling=no></IFRAME><!-- Google Map end -->
+<DIV class=subpage-video-thumb style="TEXT-ALIGN: left"><A onclick="moduleTrackingWithTitle('lightbox-video','',false,'nationallandscapes-sydneyharbouresla');" href="#" data-reveal-id="modalVideo"><IMG alt="" src="/contentimages/Campaigns/national-landscapes-video-es-la.jpg"></A> </DIV>
+<DIV id=modalVideo class="reveal-modal video" style-="z-index: 103;"><A class=close-reveal-modal><SPAN class=icon></SPAN></A>
+<DIV class=video style="VISIBILITY: visible !important"><IFRAME height=315 src="//www.youtube.com/v/EjGZ3MaX9pE?version=3&amp;hl=en_GB" frameBorder=0 width=560></IFRAME></DIV></DIV></TD></TR></TBODY></TABLE>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule><Listing isTemplate="1">
+<anc_List1><![CDATA[/es-la/explore/itineraries/nsw-3days-sydney.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[M&aacute;s ideas Australianas]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/es-la/AccommodationSearch.ignore]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/es-la/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/es-la/AttractionSearchResults.ignore]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/es-la/DestinfoSearchResults.ignore]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/es-la/EventsSearch.xml]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/es-la/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/es-la/hire.ignore]]></anc_Hire>
+<anc_Info><![CDATA[/es-la/InfoSearchResults.ignore]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/es-la/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/es-la/TourSearchResults.ignore]]></anc_Tour>
+<anc_Transport><![CDATA[/es-la/transport.ignore]]></anc_Transport>
+<hdl_Title><![CDATA[Planifique su visita]]></hdl_Title>
+<language><![CDATA[ESS]]></language>
+<stf_Accomodation><![CDATA[Accommodation]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[Sydney]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[Attractions]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[Find a travel agent near you]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[Destination Information]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[Events]]></stf_Events>
+<stf_Hire><![CDATA[Hire]]></stf_Hire>
+<stf_Informationservices><![CDATA[Information]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[New South Wales]]></stf_StateFilter>
+<stf_Tours><![CDATA[Tours]]></stf_Tours>
+<stf_Transport><![CDATA[Transport]]></stf_Transport>
+</PlanYourVisit></con_RHSModules>
+    <con_Category></con_Category>
+    <lst_Subpages>
+    </lst_Subpages>
+</StandardCampaignLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

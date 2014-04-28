@@ -1,0 +1,475 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="18870" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[ホーム]]></headline>
+            <href><![CDATA[/jp/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Tools and Campaigns]]></headline>
+            <href><![CDATA[/jp/tools-campaigns.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[オーストラリアを代表する景観]]></headline>
+            <href><![CDATA[/jp/nationallandscapes.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/Campaigns/campaigns-national-landscapes.jpg]]></img_background>
+    <hdl_Title><![CDATA[オーストラリアを代表する景観]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/campaigns-national-landscapes-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/Campaigns/campaigns-national-landscapes-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[1]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[yes]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[オーストラリアを代表する景観についての情報をお届けします。オーストラリアンアルプス、グリーンカルデラ、レッドセンター、フリンダース山脈、グレートオーシャンロード、カカドゥその他。]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[オーストラリアの景観、オーストラリア的景観、オーストラリアを代表する景観、オーストラリアの自然、オーストラリア自然、オーストラリア国立公園、オーストラリアの国立公園、オーストラリアの世界遺産、オーストラリア旅行、オーストラリアのアボリジニ、カカドゥ国立公園、オーストラリアン・アルプス、グレート・オーシャン・ロード、ウィルピナ・パウンド、フリンダース山脈、ウルル、オーストラリアのレッド・センター、ブルー・マウンテンズ、カンガルー島、オーストラリアの海岸]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[詳細はこちら]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[オーストラリアを代表する景観 - オーストラリア政府観光局]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        オーストラリアを代表する景観についての情報をお届けします。オーストラリアンアルプス、グリーンカルデラ、レッドセンター、フリンダース山脈、グレートオーシャンロード、カカドゥその他。
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <StandardCampaignLayout isTemplate="1">
+    <opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+    <hdl_Title><![CDATA[]]></hdl_Title>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+    <con_Banner><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<!--OB Lightbox -->
+<SCRIPT type=text/javascript src="../static/js/orangebox.min.js"></SCRIPT>
+<LINK rel=stylesheet type=text/css href="../static/css/orangebox.css">
+<SCRIPT type=text/javascript src="../static/js/jquery.cycle.all.latest.js"></SCRIPT>
+<!--Start: headeimage-->
+<DIV id=headerimage><!-- InstanceBeginEditable name="Slides" -->
+<SCRIPT type=text/javascript>
+$('#mainContent').css("margin-top", "200");
+oB.settings.contentBorderWidth= 10;
+shuffle = function(v){
+    for(var j, x, i = v.length; i; j = parseInt(Math.random() * i), x = v[--i], v[i] = v[j], v[j] = x);
+    return v;
+};
+var imgnum=[];
+for (var i=0; i<16; i++)
+  {
+   imgnum[i]=i;
+  }
+var folder="../contentimages/campaigns/";
+var imgname = ["header-acn-0", "header-acw-0", "header-agc-0", "header-alp-0", "header-atn-0", "header-fli-0", "header-gbm-0" ,"header-gbr-0" ,"header-gor-0","header-gsw-0" ,"header-kim-0" ,"header-kis-0" ,"header-nin-0","header-syd-0" ,"header-tas-0" ,"header-wet-0"]
+var imgtxt=["オーストラリアのレッド・センター", "オーストラリアの海岸原生地", "オーストラリアの緑に覆われた巨大なカルデラ", "オーストラリアン・アルプス", "時の流れを超越するオーストラリア北部地域", "フリンダース山脈", "グレーター・ブルー・マウンテンズ" ,"グレート・バリア・リーフ" ,"グレート・オーシャン・ロード","グレート・サウス・ウェスト・エッジ" ,"キンバリー " ,"カンガルー島" ," ニンガルー － シャーク・ベイ","シドニー・ハーバー" ,"タスマニア島が受け継ぐ自然遺産" ,"湿潤熱帯地域"]
+var tmp=shuffle(imgnum)
+document.write('<div id="headersliderwrapper">');
+for (var i=0;i<imgname.length;i++)
+{ 
+document.write('<div class="headerslide"><img src="'+folder+imgname[tmp[i]] + '1.jpg"/><div class="headerslideinfo">'+imgtxt[tmp[i]]+'</div></div>');
+}
+document.write('</div>');
+jQuery(document).ready(function() {
+ $('#headersliderwrapper').cycle({
+        fx:'fade',
+        slideExpr: '.headerslide'
+    });
+});
+</SCRIPT>
+<!-- InstanceEndEditable --><!-- InstanceBeginEditable name="pagetitle" -->
+<UL class=headertitle>
+<LI class=l1>オーストラリアを代表する景観 </LI>
+<LI class=l2>オーストラリアの魅力あふれる自然と文化を体験できるおすすめの観光地</LI></UL><!-- InstanceEndEditable --><!-- InstanceBeginEditable name="Hover Map" -->
+<SCRIPT type=text/javascript src="../static/js/jquery.imagemapster.min.js"></SCRIPT>
+
+<SCRIPT language=javascript type=text/javascript>
+  $(document).ready(function() {
+   
+  var image = $('#vegetables');
+    image.mapster(
+    {
+        fillOpacity: 1,
+        fillColor: "ffb800",
+        stroke: false,
+        strokeColor: "3320FF",
+        strokeOpacity: 0.8,
+        strokeWidth: 4,
+        singleSelect: true,
+        mapKey: 'name',
+        listKey: 'name',
+  clickNavigate: true,
+  onMouseover: function (e) {
+    $('.region_title').html(e.key);
+  },
+  onMouseout: function () {
+    $('.region_title').html('');
+  },
+        onClick: function (e) {
+    $('.region_title').html(e.key);
+  }
+ });
+ 
+ 
+ 
+ });
+ 
+</SCRIPT>
+
+<DIV id=homepage-map><IMG id=vegetables border=0 alt="" src="/contentimages/campaigns/map.png" width=257 height=235 useMap=#veg> <MAP id=veg_map name=veg><AREA href="../jp/nationallandscapes/ningaloo-shark-bay.aspx" shape=poly alt="ニンガルー － シャーク・ベイ" coords=18,64,13,68,14,80,17,83,21,81,22,73,22,71 name="ニンガルー － シャーク・ベイ"><AREA href="../jp/nationallandscapes/the-kimberley.aspx" shape=poly alt=キンバリー coords=50,41,56,30,71,27,73,34,70,40,67,46,61,48,53,46 name="キンバリー"><AREA href="../jp/nationallandscapes/wet-tropics.aspx" shape=poly alt=湿潤熱帯地域 coords=131,31,134,32,135,31,138,35,139,39,140,42,138,44,131,36,131,33 name="湿潤熱帯地域"><AREA href="../jp/nationallandscapes/australias-red-centre.aspx" shape=poly alt=オーストラリアのレッド・センター coords=84,73,88,71,95,70,95,76,91,77,84,76,84,76 name="オーストラリアのレッド・センター"><AREA href="../jp/nationallandscapes/australias-timeless-north.aspx" shape=poly alt=時の流れを超越するオーストラリア北部地域 coords=89,26,91,20,100,19,102,23,100,27,95,29 name="時の流れを超越するオーストラリア北部地域"><AREA href="../jp/nationallandscapes/flinders-ranges.aspx" shape=poly alt="フリンダース山脈（Flinders Ranges）" coords=109,98,112,99,114,104,111,107,109,104 name="フリンダース山脈（Flinders Ranges）"><AREA href="../jp/nationallandscapes/great-south-west-edge.aspx" shape=poly alt=グレート・サウス・ウェスト・エッジ coords=30,114,37,114,46,113,49,115,50,118,47,119,43,120,39,122,33,122,28,119 name="グレート・サウス・ウェスト・エッジ"><AREA href="../jp/nationallandscapes/Kangaroo-Island.aspx" shape=poly alt=カンガルー島 coords=104,118,107,117,110,119,110,121,107,122,104,121 name="カンガルー島"><AREA href="../jp/nationallandscapes/Australias-Green-Cauldron.aspx" shape=poly alt="オーストラリアの緑に覆われた巨大な&#13;&#10;カルデラ" coords=161,85,165,82,170,82,171,86,169,90,166,91,162,88 name="オーストラリアの緑に覆われた巨大な&#13;&#10;カルデラ"><AREA href="../jp/nationallandscapes/greater-blue-mountains.aspx" shape=poly alt=グレーター・ブルー・マウンテンズ coords=150,103,153,103,156,105,155,107,154,109,150,106 name="グレーター・ブルー・マウンテンズ"><AREA href="../jp/nationallandscapes/sydney-harbour.aspx" shape=poly alt=シドニー・ハーバー coords=156,112,157,107,160,108,160,113 name="シドニー・ハーバー"><AREA href="../jp/nationallandscapes/Australian-Alps.aspx" shape=poly alt=オーストラリアン・アルプス coords=147,113,151,112,154,113,153,117,152,119,147,119 name="オーストラリアン・アルプス"><AREA href="../jp/nationallandscapes/australias-coastal-wilderness.aspx" shape=poly alt=オーストラリアの海岸原生地 coords=145,124,148,120,153,120,156,123,156,127,155,130,151,129,144,125 name="オーストラリアの海岸原生地"><AREA href="../jp/nationallandscapes/great-ocean-road.aspx" shape=poly alt=グレート・オーシャン・ロード coords=120,128,122,125,128,126,133,129,131,131 name="グレート・オーシャン・ロード"><AREA href="../jp/nationallandscapes/tasmanias-island-heritage.aspx" shape=poly alt=タスマニア島が受け継ぐ自然遺産 coords=134,139,138,139,140,141,144,141,145,139,147,142,147,146,144,151,142,152,139,152,134,144 name="タスマニア島が受け継ぐ自然遺産"><AREA href="../jp/nationallandscapes/great-barrier-reef.aspx" shape=poly alt=グレート・バリア・リーフ coords=158,58,154,56,149,51,142,43,139,31,136,28,133,25,131,17,136,20,146,35,154,45,157,51 name="グレート・バリア・リーフ"></MAP>
+<DIV class=region_title>オーストラリアを代表する景観</DIV></DIV><!-- InstanceEndEditable --></DIV><!--Start: homepage-header-overlay-->
+<DIV id=homepage-header-overlay><!--Start: homepage-intro-->
+<DIV id=homepage-intro><!--Start: homepage-intro-left-->
+<DIV id=homepage-intro-left>
+<H1>オーストラリアを代表する景観へようこそ</H1>
+<P>オーストラリアを代表する景観をご紹介しましょう。大自然が創り出したすばらしい造形ばかりです。いずれも文化、自然科学、精神のよりどころとして大変重要な役割を果たしていて、その多くが世界遺産に登録されています。手つかずのビーチや太古から変わらない森、険しい山々、広大な国立公園を探検してみてください。歩いて、登って、キャンプやスキー、カヌーを楽しんで、太古から受け継がれてきたアボリジニの文化に接したり、野生動物とふれあったりしましょう。</P></DIV><!--End: homepage-intro-left--><!--Start: homepage-video-panel--><!-- new video styling -->
+<DIV id=homepage-video-panel style="MARGIN-RIGHT: 65px">
+<DIV class=subpage-video-thumb style="TEXT-ALIGN: left"><A onclick="moduleTrackingWithTitle('lightbox-video','',false,'nationallandscapes-homepagejp');" href="#" data-reveal-id="modalVideo"><IMG src="/contentimages/Campaigns/homepage-video-thumb1.png"></A></DIV></DIV></DIV></DIV>
+<DIV id=modalVideo class="reveal-modal video" style-="z-index: 103;"><A class=close-reveal-modal><SPAN class=icon></SPAN></A>
+<DIV class=video style="VISIBILITY: visible !important"><IFRAME height=315 src="//www.youtube.com/v/EjGZ3MaX9pE?version=3&amp;hl=en_GB" frameBorder=0 width=560></IFRAME></DIV></DIV>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule></con_Banner>
+    <con_Body><GenericHTML isTemplate="1">
+<txt_custom_styling><![CDATA[<LINK rel=stylesheet type=text/css href="../static/css/natlandscapes.css">]]></txt_custom_styling>
+<txt_main><![CDATA[
+        <table width="100%" border="0" cellspacing="0" cellpadding="20">
+            <tbody>
+                <tr>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start one -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td valign="top" style="width: 20%;"><!-- new start -->
+                                <table width="177" border="0" cellspacing="0" cellpadding="0">
+                                    <tbody>
+                                        <tr>
+                                            <td><a href="/jp/nationallandscapes/australian-alps.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-fnt-aus-alps.jpg" /></a> </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="picFooter">Snowy Mountains, NSW</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <!-- new end --></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="/jp/nationallandscapes/australian-alps.xml" class="landingHeaders">オーストラリアン・アルプス</a> </p>
+                                <p>乾燥した平野が大半を占めるこの大陸で、雪に覆われたオーストラリア・アルプスほど挑み甲斐のある山々はありません。 <a href="/jp/nationallandscapes/australian-alps.xml">詳細はこちら</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end one --></td>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start two -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20%;"><a href="/jp/nationallandscapes/great-south-west-edge.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-gsw-03.jpg" /></a></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="/jp/nationallandscapes/great-south-west-edge.xml" class="landingHeaders">グレート・サウス・ウェスト・エッジ</a></p>
+                                <p>西オーストラリア州の南西端に広がり、多様な生物が生息するグレート・サウス・ウェスト・エッジで魂を癒してみませんか。 <a href="/jp/nationallandscapes/great-south-west-edge.xml">詳細はこちら</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="picFooter">グレート・サウス・ウェスト・エッジ</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end two --></td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start one -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20%;"><a href="/jp/nationallandscapes/australias-coastal-wilderness.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-fnt-aus-coastal-wilderness.jpg" /></a></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="/jp/nationallandscapes/australias-coastal-wilderness.xml" class="landingHeaders">オーストラリアの海岸原生地</a> </p>
+                                <p>オーストラリアの海岸原生地はニュー・サウス・ウェールズ州南岸からはるかビクトリア州のギプスランド東部まで広がっていて、一帯には背の高い木々で覆われた森や湖、ビーチがたくさんあります。 <a href="/jp/nationallandscapes/australias-coastal-wilderness.xml">詳細はこちら</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="picFooter">Bittangabee Bay, NSW</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end one --></td>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start two -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20%;"><a href="/jp/nationallandscapes/australias-timeless-north.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-fnt-kakadu(1).jpg" /></a></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="/jp/nationallandscapes/australias-timeless-north.xml" class="landingHeaders">時の流れを超越するオーストラリア北部地域</a></p>
+                                <p>時の流れを超越するオーストラリア北部地域は、鬱蒼たる緑の熱帯雨林と赤茶けた不毛の地が見せるコントラストが魅力です。 <a href="/jp/nationallandscapes/australias-timeless-north.xml">詳細はこちら</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="picFooter">Kakadu, NT </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end two --></td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start one -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20%;"><a href="/jp/nationallandscapes/australias-green-cauldron.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-fnt-aus-green-cauldron.jpg" /></a></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="/jp/nationallandscapes/australias-green-cauldron.xml" class="landingHeaders">オーストラリアの緑に覆われた巨大な
+                                カルデラ</a> </p>
+                                <p>ウォーニング山（ウーランビン）を探検してみてください。周囲にはこの古代の火山が形成した巨大なカルデラが広がっていて、いまではゴンドワナ多雨林の緑に覆われています。 <a href="/jp/nationallandscapes/australias-green-cauldron.xml">詳細はこちら</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="picFooter">Mount Warning, NSW</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end one --></td>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start two -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20%;"><a href="/jp/nationallandscapes/kangaroo-island.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-fnt-kangaroo-island.jpg" /></a></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="/jp/nationallandscapes/kangaroo-island.xml" class="landingHeaders">カンガルー島</a></p>
+                                <p>アデレードから気軽に行けるカンガルー島の手つかずの自然の中で、野生動物との出会いを楽しみましょう。シール・ベイ（Seal Bay）では砂浜でくつろぐアシカが、ペネショー（Penneshaw）ではフェアリーペンギンの行列が見られます。 <a href="/jp/nationallandscapes/kangaroo-island.xml">詳細はこちら</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="picFooter">カンガルー島, SA</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end two --></td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start one -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20%;"><a href="/jp/nationallandscapes/australias-red-centre.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-fnt-aus-red-centre.jpg" /></a></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="/jp/nationallandscapes/australias-red-centre.xml" class="landingHeaders">オーストラリアのレッド・センター</a> </p>
+                                <p>オーストラリアのレッド・センターは、そのすばらしさに我を忘れることができ、さらに自分自身を再発見することができる場所。アボリジニの文化が息づき、アウトバックの荒々しい魅力が詰まっています。 <a href="/jp/nationallandscapes/australias-red-centre.xml">詳細はこちら</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="picFooter">Uluru, NT</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end one --></td>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start two -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20%;"><a href="/jp/nationallandscapes/ningaloo-shark-bay.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-nsb-01.jpg" /></a></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="/jp/nationallandscapes/ningaloo-shark-bay.xml" class="landingHeaders">ニンガルー － シャーク・ベイ</a></p>
+                                <p>西オーストラリア州（Western Australia）のコーラル･コースト（Coral Coast）沿いにあるニンガルーからシャーク・ベイまでの地域を訪れて、自由な旅を満喫しましょう。荒涼とした赤い大地の果てにある世界遺産の海域は、豊富な海洋生物に恵まれています。 <a href="/jp/nationallandscapes/ningaloo-shark-bay.xml">詳細はこちら</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="picFooter">ニンガルー － シャーク・ベイ, WA</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end two --></td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start one -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20%;"><a href="/jp/nationallandscapes/flinders-ranges.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-fnt-flinders-ranges.jpg" /></a></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="/jp/nationallandscapes/flinders-ranges.xml" class="landingHeaders">フリンダース山脈（Flinders Ranges）</a></p>
+                                <p>南オーストラリア州で最も広大な山脈に行って、地球の歴史と同じ長さの物語に耳を傾けてみませんか。<br />
+                                <a href="/jp/nationallandscapes/flinders-ranges.xml">詳細はこちら</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="picFooter">フリンダース山脈, SA</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end one --></td>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start two -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20%;"><a href="/jp/nationallandscapes/sydney-harbour.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-fnt-syd.jpg" /></a></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="/jp/nationallandscapes/sydney-harbour.xml" class="landingHeaders">シドニー・ハーバー</a></p>
+                                <p>シドニー（Sydney）は、美しい天然の港に面する港湾都市です。 <a href="/jp/nationallandscapes/sydney-harbour.xml">詳細はこちら</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="picFooter">Sydney Harbour National Park</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end two --></td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start one -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20%;"><a href="/jp/nationallandscapes/great-barrier-reef.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-fnt-gbr.jpg" /></a></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="/jp/nationallandscapes/great-barrier-reef.xml" class="landingHeaders">グレート・バリア・リーフ</a></p>
+                                <p>自然界の世界七不思議の1つに数えられ、世界最大のサンゴ礁として世界遺産に登録されているグレート・バリア・リーフを訪れて、エキサイティングで感動に満ちた旅行を満喫してください。 <a href="/jp/nationallandscapes/great-barrier-reef.xml">詳細はこちら</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="picFooter">グレート・バリア・リーフ, QLD</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end one --></td>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start two -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20%;"><a href="/jp/nationallandscapes/tasmanias-island-heritage.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-fnt-tas.jpg" /></a></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="/jp/nationallandscapes/tasmanias-island-heritage.xml" class="landingHeaders">タスマニア島が受け継ぐ自然遺産</a></p>
+                                <p>タスマニア島の自然遺産である国立公園は、変化に富んだ海岸線、密生した森林、雪に覆われた山々など、手付かずの美しい大自然に近づくことができる場所です。 <a href="/jp/nationallandscapes/tasmanias-island-heritage.xml">詳細はこちら</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="picFooter">Lake Oberon, TAS</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end two --></td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start one -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20%;"><a href="/jp/nationallandscapes/great-ocean-road.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-fnt-gor.jpg" /></a></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="/jp/nationallandscapes/great-ocean-road.xml" class="landingHeaders">グレート・オーシャン・ロード</a></p>
+                                <p>グレート・オーシャン・ロードを走ると、ハンドルを切るたびに大自然のドラマが展開します。ジーロングからポートランドまで、南氷洋を眺めながら走るすばらしいドライブコースです。 <a href="/jp/nationallandscapes/great-ocean-road.xml">詳細はこちら</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="picFooter">グレート・オーシャン・ロード, VIC</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end one --></td>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start two -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20%;"><a href="/jp/nationallandscapes/the-kimberley.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-fnt-the-kimb.jpg" /></a></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="/jp/nationallandscapes/the-kimberley.xml" class="landingHeaders">キンバリー</a></p>
+                                <p>キンバリーに行って、本物の感動を味わってください。はるかオーストラリア大陸の北西の端にあり、荒々しい岩の景色、どこまでも続く湖や川、きらめく大海原が広がっていて、その限りない広さが最大の魅力です。<br />
+                                <a href="/jp/nationallandscapes/the-kimberley.xml">詳細はこちら</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="picFooter">キンバリー, WA</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end two --></td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start one -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20%;"><a href="/jp/nationallandscapes/greater-blue-mountains.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-fnt-blue-mountains.jpg" /></a></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="/jp/nationallandscapes/greater-blue-mountains.xml" class="landingHeaders">グレーター・ブルー・マウンテンズ</a></p>
+                                <p>100万ヘクタールにわたって広がる絶壁と渓谷、滝とブッシュに覆われた大地、世界遺産ブルー・マウンテンズの美しさに魅了されない人は、ほとんどいないでしょう。<br />
+                                <a href="/jp/nationallandscapes/greater-blue-mountains.xml">詳細はこちら</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="picFooter">Hanging Rock, Blackheath, NSW</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end one --></td>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start two -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20%;"><a href="/jp/nationallandscapes/wet-tropics.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-fnt-wet.jpg" /></a></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="/jp/nationallandscapes/wet-tropics.xml" class="landingHeaders">湿潤熱帯地域</a></p>
+                                <p>デインツリー・レインフォレスト（Daintree rainforest）からテーブルランド（Tablelands）にかけての湿潤熱帯地域には、オーストラリアを訪れる人々がみな興味をかき立てられる、魅力的な景観が広がっています。<br />
+                                <a href="/jp/nationallandscapes/wet-tropics.xml">詳細はこちら</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="picFooter">湿潤熱帯地域, QLD</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end two --></td>
+                </tr>
+            </tbody>
+        </table>
+    ]]></txt_main>
+</GenericHTML></con_Body>
+    <con_RHSModules></con_RHSModules>
+    <con_Category></con_Category>
+    <lst_Subpages>
+    </lst_Subpages>
+</StandardCampaignLayout>
+    </con_Body>
+    <lst_Subpages>
+        <lst_Subpage><![CDATA[<a href="/jp/nationallandscapes/australian-alps.xml">オーストラリアン・アルプス</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/jp/nationallandscapes/australias-coastal-wilderness.xml">オーストラリアの海岸原生地</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/jp/nationallandscapes/australias-green-cauldron.xml">オーストラリアの緑に覆われた巨大なカルデラ</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/jp/nationallandscapes/australias-red-centre.xml">オーストラリアのレッド・センター</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/jp/nationallandscapes/australias-timeless-north.xml">時の流れを超越するオーストラリア北部地域</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/jp/nationallandscapes/flinders-ranges.xml">フリンダース山脈</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/jp/nationallandscapes/great-barrier-reef.xml">グレート・バリア・リーフ</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/jp/nationallandscapes/great-ocean-road.xml">グレート・オーシャン・ロード</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/jp/nationallandscapes/great-south-west-edge.xml">グレート・サウス・ウェスト・エッジ</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/jp/nationallandscapes/greater-blue-mountains.xml">グレーター・ブルー・マウンテンズ</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/jp/nationallandscapes/kangaroo-island.xml">カンガルー島</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/jp/nationallandscapes/ningaloo-shark-bay.xml">ニンガルー － シャーク・ベイ</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/jp/nationallandscapes/sydney-harbour.xml">シドニー・ハーバー</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/jp/nationallandscapes/tasmanias-island-heritage.xml">タスマニア島が受け継ぐ自然遺産</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/jp/nationallandscapes/the-kimberley.xml">キンバリー</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/jp/nationallandscapes/wet-tropics.xml">湿潤熱帯地域</a>]]></lst_Subpage>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

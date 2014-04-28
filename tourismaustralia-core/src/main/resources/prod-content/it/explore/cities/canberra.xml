@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="8587" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Pagina iniziale]]></headline>
+            <href><![CDATA[/it/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Esplora]]></headline>
+            <href><![CDATA[/it/explore.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Canberra]]></headline>
+            <href><![CDATA[/it/explore/cities/canberra.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/explore-cities-canberra.jpg]]></img_background>
+    <hdl_Title><![CDATA[Canberra]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/explore-cities-canberra-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/explore-cities-canberra-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[no]]></opt_PartnerLead>
+    <stf_description><![CDATA[Scopri la capitale Canberra, ricca di icone culturali famose nel mondo, villaggi coloniali, splendidi giardini, vigneti, gallerie e molto altro ancora.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[y]]></stf_IsMobile>
+    <stf_keywords><![CDATA[Canberra Australia, cosa fare a Canberra]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Ulteriori Informazioni]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Canberra, Australia - Cose da fare - Tourism Australia]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[Scoprite Canberra, la capitale dell’Australia, con i suoi tesori nazionali.]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <IntegratedMiniMap isTemplate="1">
+    <!-- no user content -->
+</IntegratedMiniMap><TravellersStoryWidget isTemplate="1">
+    <anc_link><![CDATA[/explore/map.aspx?filters=cities,experiences&zoom=10&centre=-35.433806,149.489534]]></anc_link>
+    <img_image><![CDATA[/contentimages/cities-Canberra.jpg]]></img_image> 
+</TravellersStoryWidget><AtaGlance isTemplate="1">
+<hdl_Title><![CDATA[Le citt&agrave; dell'Australia]]></hdl_Title>
+<img_Map><![CDATA[]]></img_Map>
+<stf_Title1><![CDATA[]]></stf_Title1>
+<stf_Title2><![CDATA[]]></stf_Title2>
+<stf_Title3><![CDATA[]]></stf_Title3>
+<stf_Title4><![CDATA[]]></stf_Title4>
+<stf_Title5><![CDATA[]]></stf_Title5>
+<txt_Description1><![CDATA[
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tbody>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/it/explore/cities/cities.xml" target="_self">Le citt&agrave; dell'Australia</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/it/explore/cities/sydney.xml" target="_self">Sydney</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/it/explore/cities/melbourne.xml" target="_self">Melbourne</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/it/explore/cities/brisbane.xml" target="_self">Brisbane</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/it/explore/cities/perth.xml" target="_self">Perth</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/it/explore/cities/darwin.xml" target="_self">Darwin</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/it/explore/cities/adelaide.xml" target="_self">Adelaide</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/it/explore/cities/hobart.xml" target="_self">Hobart</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/it/explore/cities/canberra.xml" target="_self">Canberra</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/it/explore/cities/gold-coast.xml" target="_self">Gold Coast</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/it/explore/cities/cairns.xml" target="_self">Cairns</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/it/explore/cities/alice-springs.xml" target="_self">Alice Springs</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/it/explore/cities/broome.xml" target="_self">Broome</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/it/explore/cities/regional-cities.xml" target="_self">Le capitali delle regioni australiane</a></p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <br />
+    ]]></txt_Description1>
+<txt_Description2><![CDATA[]]></txt_Description2>
+<txt_Description3><![CDATA[]]></txt_Description3>
+<txt_Description4><![CDATA[]]></txt_Description4>
+<txt_Description5><![CDATA[]]></txt_Description5>
+</AtaGlance><Listing isTemplate="1">
+<anc_List1><![CDATA[/it/explore/states/act.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[Altri itinerari suggeriti in Australia]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/it/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/it/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/it/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/it/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/it/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/it/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/it/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/it/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/it/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/it/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/it/Transport.ignore]]></anc_Transport>
+<hdl_Title><![CDATA[Plan Your Visit to Canberra]]></hdl_Title>
+<language><![CDATA[ITA]]></language>
+<stf_Accomodation><![CDATA[Accommodation]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[Canberra]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[Attractions]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[Find a travel agent near you]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[Destination Information]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[Events]]></stf_Events>
+<stf_Hire><![CDATA[Hire]]></stf_Hire>
+<stf_Informationservices><![CDATA[Imformation Services]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[Australian Capital Territory]]></stf_StateFilter>
+<stf_Tours><![CDATA[Tours]]></stf_Tours>
+<stf_Transport><![CDATA[Transport]]></stf_Transport>
+</PlanYourVisit>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Canberra]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[Scoprite Canberra, la capitale dell’Australia, con i suoi tesori nazionali.<BR>&nbsp;<BR>Programmate la vostra vacanza a Canberra con il nostro itinerario di tre giorni che riunisce assieme musei e gallerie e il Namadgi National Park, iscritto tra i Patrimoni dell’umanit&agrave;. Scoprite questa leggendaria destinazione, dove potrete passeggiare nel bush, scalare rocce, guardare da vicino la fauna endemica e ammirare l’antica arte rupestre aborigena. Visitate il paradiso faunistico della Tidbinbilla Nature Reserve o nuotate, pescate e campeggiate lungo il bacino del fiume Murrumbidgee. <BR>&nbsp;<BR>Scoprite gli itinerari che potrete seguire nel Territorio della Capitale (ACT) come il suggestivo Capital and Country, che porta fino a pittoreschi villaggi coloniali, stupendi giardini, vigneti, gallerie d’arte e negozi di antiquariato, o il romantico Poachers Trail. Visitate le zone montuose delle Alpi Australiane.
+
+<P>Scoprite le altre citt&agrave; australiane o programmate la vostra vacanza a Canberra in modo da farla coincidere con gli eventi annuali che si svolgono in citt&agrave;. In primavera i giardini di Canberra si accendono dei colori dei fiori durante Floriade. Ammirate i cieli di Canberra riempirsi di mongolfiere in occasione della Canberra Balloon Fiesta in autunno.</P>]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Canberra e dintorni]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/destinations_cities_canberra_hl.jpg" alt="Canberra e dintorni">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Canberra, ACT]]></stf_Caption>
+                    <anc_link><![CDATA[/it/explore/cities/canberra/canberra-surrounds.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Scoprite la peculiare storia politica australiana, gli eroi dello sport nazionali e la forza di spirito e cultura di Canberra nei numerosi monumenti e gallerie d’arte della citt&agrave;. Dirigetevi quindi verso i grandi spazi aperti. Questa citt&agrave;, una delle poche al mondo a essere pianificata, &egrave; famosa per i suoi laghi, parchi e per le zone circostanti ricoperte di boschi. Grazie alla presenza di quattro stagioni distinte, potrete ammirare i caldi colori autunnali e la gloria della fioritura primaverile.  E non perdetevi i divertimenti che si celano sotto le fronde.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Tre giornate perfette a Canberra]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/days_canberra_hl.jpg" alt="Tre giornate perfette a Canberra">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Tre giornate perfette a Canberra]]></stf_Caption>
+                    <anc_link><![CDATA[/it/explore/itineraries/act-3days-canberra.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Fate un corso accelerato in storia e cultura australiana a Canberra, il centro politico e amministrativo dell’Australia. I monumenti e le gallerie nazionali di questa grande citt&agrave; pianificata si trovano tutti a breve distanza tra loro, concentrati sulle rive del lago Burley Griffin. Scoprite il passato politico dell’Australia e la cultura creativa mentre andate in barca attorno al lago, quindi ammirate da vicino la flora endemica nel giardini e nel bush. Condividete le meravigliose scoperte australiane fatte oggi durante una squisita cena a Dickson, Civic, Manuka o Kingston. Trasformate il vostro amore per la natura in poesia presso il <a href="/it/explore/icons/namadgi.xml" target="_self">Parco nazionale di Namadgi</a>.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Arte aborigena a Canberra]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/4.4.8_dest_articles_canberra_aboriginal_art_hl.jpg" alt="Arte aborigena a Canberra">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Arte aborigena a Canberra]]></stf_Caption>
+                    <anc_link><![CDATA[/it/explore/cities/canberra/canberra-aboriginal-art.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Visitate la ricca collezione d’<a href="/it/explore/cities/canberra/canberra-aboriginal-art.xml" target="_self">arte aborigena</a> della <a href="http://www.australia.com/campaigns/nothinglike/it/canberra-product1.htm" target="_blank">National Gallery of Australia</a>. Le 13 gallerie custodiscono oltre 7,500 opere d’arte, realizzate con diverse tecniche, dai dipinti a punti e sulla corteccia, fino a tessuti, stampe, ceramiche e sculture. Passeggiate tra le diverse sale, imparate a conoscere i paesaggi, le leggende del Dreaming e gli eventi storici collegati ad ogni tecnica e tradizione artistica. Questa importante collezione &egrave; un’espressione in costante evoluzione della pi&ugrave; antica cultura vivente del mondo. 
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Scoprite i prodotti del territorio di Canberra]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/4.4.9_dest_articles_canberra_home-grown_shop_thumb.jpg" alt="Scoprite i prodotti del territorio di Canberra">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Scoprite i prodotti del territorio di Canberra]]></stf_Caption>
+                    <anc_link><![CDATA[/it/explore/cities/canberra/canberra-home-grown-shopping.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        A Canberra, i grandissimi centri commerciali e i negozi delle firme internazionali occupano il secondo posto rispetto ai negozi di prodotti locali. La citt&agrave; offre <a href="/it/explore/cities/canberra/canberra-home-grown-shopping.xml" target="_self">mercati, boutique e negozi</a> che vendono oggetti d’artigianato locale e prodotti enogastronomici dalle regioni vicine. Scoprite l’arte, i gioielli, gli oggetti per la casa e la moda lungo la vivace Lonsdale Street o ammirate le tantissime bancarelle dei famosi Old Bus Depot Markets. Ovunque farete shopping a Canberra, scoprirete una quantit&agrave; di piccoli tesori locali.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Brezza d’autunno alla Canberra Balloon Fiesta]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/ballon-festival-act.jpg" alt="Brezza d’autunno alla Canberra Balloon Fiesta">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Brezza d’autunno alla Canberra Balloon Fiesta]]></stf_Caption>
+                    <anc_link><![CDATA[/it/explore/events/act-canberra-balloon-fiesta.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        In autunno, il cielo di Canberra si riempie di mongolfiere in occasione della <a href="/it/explore/events/act-canberra-balloon-fiesta.xml" target="_self">Canberra Balloon Fiesta</a> e la capitale prende vita con la tre giorni dell'evento "Enlighten: See Canberra in a whole new light" (‘Vedi Canberra sotto una luce tutta nuova’). Per nove fresche mattine di marzo un colorato esercito di <a href="http://www.australia.com/campaigns/nothinglike/it/canberra-product2.htm" target="_blank">mongolfiere</a> si innalza in cielo dal prato dell’Old Parliament House. Ammirate questo magico volo in compagnia di migliaia di altri spettatori dallo spirito mattutino, o salite direttamente a bordo di una mongolfiera.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Floriade, Canberra]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/floriade-canberra.jpg" alt="Floriade, Canberra">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Floriade, Canberra]]></stf_Caption>
+                    <anc_link><![CDATA[/it/explore/events/floriade.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Ammira Canberra tornare alla vita con la fioritura di milioni di boccioli durante <a href="/it/explore/events/floriade.xml" target="_self">Floriade</a>, la celebrazione della primavera australiana. Per un intero mese – mese intero, da settembre a ottobre, le aiuole fiorite di Commonwealth Park si vestono a festa, trasformandosi in artistiche e colorate composizioni floreali. Il festival aggiunge un delicato tocco di colore – vivacit&agrave; agli ampi spazi aperti e ai giardini di Canberra. Lasciatevi avvolgere in un caldo abbraccio di colori mentre visitate vivaci mercati, assaporate squisiti prodotti gastronomici e partecipate a laboratori, mostre e concerti.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Il calore del focolare di Canberra]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/fireside-canberra.jpg" alt="Il calore del focolare di Canberra">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Il calore del focolare di Canberra]]></stf_Caption>
+                    <anc_link><![CDATA[/it/explore/cities/canberra/act-fireside-festival.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Per le vacanze di quest’anno riscaldatevi il cuore e riempitevi lo stomaco accanto ad uno scoppiettante fal&ograve;. Sono queste le irresistibili attrattive del <a href="/it/explore/cities/canberra/act-fireside-festival.xml" target="_self">Fireside Festival</a> che si tiene ogni anno in agosto a Canberra e nei vicini villaggi di Yass, Hall, Murrumbateman e Gundaroo. Questo mese di gastronomia, vini e intrattenimento, insieme al calore dei fal&ograve;, di sicuro vi rallegrer&agrave;. I buongustai non potranno che apprezzare questa festosa celebrazione dei pi&ugrave; famosi prodotti della terra australiana e dei superbi vini locali. 
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Murrumbidgee River Corridor]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/murrumbidgee-river-corridor.jpg" alt="Murrumbidgee River Corridor">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Murrumbidgee River Corridor]]></stf_Caption>
+                    <anc_link><![CDATA[/it/explore/states/act/act-murrumbidgee-corridor.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Non saprete resistere al richiamo della natura nel <a href="/it/explore/states/act/act-murrumbidgee-corridor.xml" target="_self">Murrumbidgee River Corridor</a>, facilmente raggiungibile da Canberra. Lungo questo incantevole e breve tratto del leggendario percorso del fiume che si snoda per 1600 chilometri partendo dalle <a href="/it/explore/icons/alps.xml" target="_self">Alpi Australiane</a>, troverete innumerevoli modi per riavvicinarvi alla natura. Fate brevi passeggiate vicino a Uriarra Crossing o Tharwa, oppure affrontate i 27 chilometri del Murrumbidgee Discovery Track. Nuotate, navigate in kayak e fate un picnic a Casuarina Sands e giocate a carte nel riparato campeggio Cotter.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Tidbinbilla Nature Reserve]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/tidbinbilla-nature-reserve.jpg" alt="Tidbinbilla Nature Reserve">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Tidbinbilla Nature Reserve]]></stf_Caption>
+                    <anc_link><![CDATA[/it/explore/states/act/act-nature-reserve.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Questa valle coperta di fitte foreste si trova a soli 40 minuti da Canberra ed &egrave; situata tra le catene montuose di Gilbratar e Tidinbilla nelle Alpi Australiane settentrionali. Come il vicino Parco nazionale di Namadgi, questa zona incontaminata &egrave; un rifugio sicuro per la fauna endemica e conserva molte tracce di storia aborigena. Vi sentirete lontani dalla civilt&agrave; quando prenderete in mano una mappa presso un centro visitatori e vedrete gli em&ugrave; che passeggiano, i canguri che brucano l’erba, i wallaby e i cacatua.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Australian Alps Walking Track ]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/australian-alps-thumb.jpg" alt="Australian Alps Walking Track">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Australian Alps Walking Track ]]></stf_Caption>
+                    <anc_link><![CDATA[/it/explore/itineraries/act-australian-alps-walking-track.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Attraversate tre stati, quattro parchi nazionali e alcune delle vette pi&ugrave; alte d’Australia in questa impegnativa e lunga camminata. Il sentiero segue la cresta delle Alpi australiane per 650 chilometri da Walhalla nel Victoria a Tharwa, appena a sud di Canberra. Salite e scendente lungo l’altopiano di Baw Baw, Mt Howitt, l’altopiano di Bogong e i monti Cobberras nel Victoria. Attraversate le scoscese montagne del Parco nazionale di Kosciuszko nel <a href="/it/explore/states/nsw.xml" target="_self">Nuovo Galles del Sud</a> e le rocciose distese del Parco nazionale Namadgi vicino a Canberra.
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+        <lst_Subpage><![CDATA[<a href="/it/explore/cities/canberra/canberra-surrounds.xml">Canberra e dintorni</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/it/explore/cities/canberra/canberra-aboriginal-art.xml">Arte aborigena a Canberra</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/it/explore/cities/canberra/canberra-home-grown-shopping.xml">Scoprite i prodotti del territorio di Canberra</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/it/explore/cities/canberra/act-national.xml">Vivete le nostre storie con il National Museum of Australia</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/it/explore/cities/canberra/act-fireside-festival.xml">Il calore del focolare di Canberra</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/it/explore/cities/canberra/act-tharwa-story.xml">Canberra, la città di chi ama la natura</a>]]></lst_Subpage>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

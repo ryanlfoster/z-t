@@ -1,16 +1,16 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@include file="/apps/foodandwine/components/global.jsp"%>
-
 <%@ page import="com.australia.foodandwine.components.content.imageWithCircleText.ImageWithCircleText"%>
+
 <c:set var="imageWithCircleText" value="<%=new ImageWithCircleText(slingRequest) %>"/>
+
 <div class="faw-explore-teaser faw-bg-full-container">
-	<div class="l-position-absolute fullwidth-bg skrollable skrollable-after" data-image-vertical-alignment="bottom" data--250-top="-webkit-transform: translate(0,10%);" data-250-bottom="-webkit-transform: translate(0,-10%);" style="-webkit-transform: translate(0px, 10%);">
+	<div class="l-position-absolute fullwidth-bg" data-image-vertical-alignment="bottom" data--250-top="-webkit-transform: translate(0,10%);" data-250-bottom="-webkit-transform: translate(0,-10%);">
 		<div class="responsive-image" data-picture="" data-alt="${imageWithCircleText.imageAltTag}">
 			<div data-src="${imageWithCircleText.backGroundImage}.adapt.480.low.jpg" data-media="(min-width: 1px)"></div>
 			<div data-src="${imageWithCircleText.backGroundImage}.adapt.720.medium.jpg" data-media="(min-width: 481px)"></div>
 			<div data-src="${imageWithCircleText.backGroundImage}.adapt.683.high.jpg" data-media="(min-width: 769px)"></div>
 			<div data-src="${imageWithCircleText.backGroundImage}.adapt.683.high.jpg" data-media="(min-width: 993px)"></div>
-			
 			<noscript>
 				<img src="${imageWithCircleText.backGroundImage}.adapt.1663.high.jpg" alt="${imageWithCircleText.imageAltTag}" >
 			</noscript> 

@@ -592,7 +592,7 @@
 			{{else}}
 
 			<div class="col-xs-12 {{#if ../../../../isGrid}}col-sm-6{{else}}col-reset-sm-6{{/if}} col-md-12 mosaic-ie-100">
-				<a href="{{pagePath}}" class="mosaic-item mosaic-item-{{../../../../type}}"
+				<a href="{{pagePath}}" class="mosaic-item mosaic-item-{{../../../type}}"
 					title=""> <img class='mosaic-item-image' src="{{image}}" alt=""
 					width="100%" /> <span class="mosaic-item-description"> <span
 						class="mosaic-item-description-head type-font-feature">

@@ -5,7 +5,8 @@ $(document).ready(function() {
 		$this = $(this);
 		$this.find(".btn-secondary").hide();
 		$this.find(".mosaicgridchanger").hide();
-		var stateTag = $(".icon-map-wrapper").find(".icon-map-black-active ").text();;
+		var stateTag = $(".icon-map-wrapper").find(".icon-map-black-active ").text();
+		stateTag=stateTag.split(" ").join("-");
 		var catogoryArray = new Array();
 		var source = $("#stateMosaic").html();
 		var resourcePath = $this.find(".resourcePath").val();

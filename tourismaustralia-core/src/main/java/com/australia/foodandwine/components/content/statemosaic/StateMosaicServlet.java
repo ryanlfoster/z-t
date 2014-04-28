@@ -158,7 +158,7 @@ public class StateMosaicServlet extends SlingAllMethodsServlet {
 				}
 				Tag cityTag = TagUtils.getCityTag(tagManager, tagsArray);
 				if (cityTag != null)
-					cityTagName = cityTag.getTitle().toString() + "," + stateTitle;
+					cityTagName = cityTag.getTitle().toString() + ",\n" + stateTitle;
 				String templateName = articlePage.getProperties().get("cq:template", "");
 				templateName = templateName.substring(templateName.lastIndexOf("/") + 1);
 				if (!templateName.equals("facebookpage") && (!templateName.equals("instagrampage"))

@@ -1,0 +1,429 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="9118" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Pagina iniziale]]></headline>
+            <href><![CDATA[/it/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Esplora]]></headline>
+            <href><![CDATA[/it/explore.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Sydney]]></headline>
+            <href><![CDATA[/it/explore/cities/sydney.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/explore-cities-sydney.jpg]]></img_background>
+    <hdl_Title><![CDATA[Sydney]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/explore-cities-sydney-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/explore-cities-sydney-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[no]]></opt_PartnerLead>
+    <stf_description><![CDATA[Scopri Sydney, citt&agrave; sulla baia e capitale del Nuovo Galles del Sud. Pianifica una vacanza a Sydney, con le sue splendide spiagge assolate e molto altro.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[y]]></stf_IsMobile>
+    <stf_keywords><![CDATA[Sydney Australia, vacanza Sydney, Sydney Nuovo Galles del Sud]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Ulteriori Informazioni]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Sydney, Australia, Attrazioni - Tourism Australia]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[Scoprite Sydney, la famosa citt&agrave; con il suo ampio porto naturale.]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <IntegratedMiniMap isTemplate="1">
+    <!-- no user content -->
+</IntegratedMiniMap><TravellersStoryWidget isTemplate="1">
+    <anc_link><![CDATA[/explore/map.aspx?filters=cities,experiences&zoom=9&centre=-34.229957,151.345537]]></anc_link>
+    <img_image><![CDATA[/contentimages/cities-Sydney.jpg]]></img_image> 
+</TravellersStoryWidget><AtaGlance isTemplate="1">
+<hdl_Title><![CDATA[Le citt&agrave; dell'Australia]]></hdl_Title>
+<img_Map><![CDATA[]]></img_Map>
+<stf_Title1><![CDATA[]]></stf_Title1>
+<stf_Title2><![CDATA[]]></stf_Title2>
+<stf_Title3><![CDATA[]]></stf_Title3>
+<stf_Title4><![CDATA[]]></stf_Title4>
+<stf_Title5><![CDATA[]]></stf_Title5>
+<txt_Description1><![CDATA[
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tbody>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/it/explore/cities/cities.xml" target="_self">Le citt&agrave; dell'Australia</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/it/explore/cities/sydney.xml" target="_self">Sydney</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/it/explore/cities/melbourne.xml" target="_self">Melbourne</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/it/explore/cities/brisbane.xml" target="_self">Brisbane</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/it/explore/cities/perth.xml" target="_self">Perth</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/it/explore/cities/darwin.xml" target="_self">Darwin</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/it/explore/cities/adelaide.xml" target="_self">Adelaide</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/it/explore/cities/hobart.xml" target="_self">Hobart</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/it/explore/cities/canberra.xml" target="_self">Canberra</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/it/explore/cities/gold-coast.xml" target="_self">Gold Coast</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/it/explore/cities/cairns.xml" target="_self">Cairns</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/it/explore/cities/alice-springs.xml" target="_self">Alice Springs</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/it/explore/cities/broome.xml" target="_self">Broome</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/it/explore/cities/regional-cities.xml" target="_self">Le capitali delle regioni australiane</a></p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <br />
+    ]]></txt_Description1>
+<txt_Description2><![CDATA[]]></txt_Description2>
+<txt_Description3><![CDATA[]]></txt_Description3>
+<txt_Description4><![CDATA[]]></txt_Description4>
+<txt_Description5><![CDATA[]]></txt_Description5>
+</AtaGlance><Listing isTemplate="1">
+<anc_List1><![CDATA[/it/explore/states/nsw.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[Altri itinerari suggeriti in Australia]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/it/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/it/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/it/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/it/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/it/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/it/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/it/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/it/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/it/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/it/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/it/Transport.ignore]]></anc_Transport>
+<hdl_Title><![CDATA[Plan your visit to Sydney]]></hdl_Title>
+<language><![CDATA[ITA]]></language>
+<stf_Accomodation><![CDATA[Accommodation]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[Sydney]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[Attractions]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[Find a travel agent near you]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[Destination Information]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[Events]]></stf_Events>
+<stf_Hire><![CDATA[Hire]]></stf_Hire>
+<stf_Informationservices><![CDATA[Information]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[New South Wales]]></stf_StateFilter>
+<stf_Tours><![CDATA[Tours]]></stf_Tours>
+<stf_Transport><![CDATA[Transport]]></stf_Transport>
+</PlanYourVisit>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Sydney]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[Scoprite Sydney, la famosa citt&agrave; con il suo ampio porto naturale e capitale del Nuovo Galles del Sud.
+
+<P>Programmate la vostra vacanza in Australia con il nostro itinerario di tre giorni che vi porter&agrave; attraverso le principali attrazioni del porto di Sydney, sulle spiagge e nei quartieri pi&ugrave; interni della citt&agrave;. Scoprite le Blue Mountains, dichiarate Patrimonio dell’umanit&agrave;, e passeggiate nel bush lungo il Six Foot Track.<BR>&nbsp;<BR>Scoprite altri luoghi da visitare nel Nuovo Galles del Sud e i suggestivi itinerari che potrete seguire da Sydney. Guidate verso nord lungo la Pacific Coast Touring Route fino a Brisbane attraversando l’Hunter Valley, Port Stephens e Byron Bay, la spiaggia australiana dal carattere boh&eacute;mien. In alternativa, dirigetevi verso sud fino a Melbourne attraverso le pure spiagge bianche di Jervis Bay.</P>
+
+<P>Scoprite le altre citt&agrave; australiane e traete ispirazione per programmare il resto della vostra vacanza australiana. Visitate Melbourne, la Great Ocean Road e il Red Centre australiano in una vacanza di tre settimane da Sydney.</P>
+
+<P>Per altre idee vacanze da Sydney, leggete i nostri articoli sulla Hunter Valley, le stupende spiagge di Sydney, l’itinerario da Bondi a Bronte e l’annuale corsa di yacht da Sydney a Hobart.</P>]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Sydney e dintorni]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-cities-sydney-sydney-hl.jpg" alt="Sydney e dintorni">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Sydney, NSW]]></stf_Caption>
+                    <anc_link><![CDATA[/it/explore/cities/sydney/sydney-surrounds.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Passate in kayak sotto il ponte di Sydney (Harbour Bridge) o ammirate <a href="http://www.australia.com/campaigns/nothinglike/it/sydney-product9.htm" target="_blank">l’Opera House</a> da un battello che vi porter&agrave; a Manly attraversando la baia. Imparate a fare surf a Bondi Beach o nuotate nelle placide acque di Coogee. Perdetevi nei vicoli ciechi acciottolati di The Rocks o nei mercati, nelle boutique, nei caff&egrave; e nei pub di Paddington. Oltre alla famosa baia e a oltre 70 scintillanti spiagge, Sydney offre ottima cucina, festival e divertimenti a tutte le ore.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Tre giornate perfette a Sydney]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-itineraries-three-great-days-sydney-hl.jpg" alt="Tre giornate perfette a Sydney">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Tre giornate perfette a Sydney]]></stf_Caption>
+                    <anc_link><![CDATA[/it/explore/itineraries/nsw-3days-sydney.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Esplorate la baia, le spiagge e i distretti urbani di questa animata citt&agrave;. Ammirate il sole sorgere in cima al ponte di Sydney, o calare sullo sfondo dell’<a href="http://www.australia.com/campaigns/nothinglike/it/sydney-product9.htm" target="_blank">Opera House</a>. Deliziate il palato nei ristoranti del molo di Woolloomooloo o assistete a uno spettacolo di teatro e danza nei pontili riconvertiti di Walsh Bay.   Raggiungete <a href="/it/explore/cities/sydney/nsw-manly-beach.xml" target="_self">Manly</a> in traghetto, camminate da Bondi a Bronte seguendo le scenografiche scogliere o rilassatevi in un beer garden con vista sulla baia a Watsons Bay. Scoprite il fascino unico di Surry Hills, Kings Cross, Glebe, Newtown o Balmain. Trascorrete l’ultima giornata tra le cantine vinicole e i ristoranti, o in uno dei centri benessere della <a href="/it/explore/states/nsw/hunter-valley.xml" target="_self">Hunter Valley</a>. 
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[The Rocks]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-cities-sydney-the-rocks-hl.jpg" alt="The Rocks">]]></img_MainImage>
+                    <stf_Caption><![CDATA[The Rocks]]></stf_Caption>
+                    <anc_link><![CDATA[/it/explore/cities/sydney/sydney-the-rocks.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        L’antica storia dei detenuti che arrivarono a Sydney rivive a <a href="/it/explore/cities/sydney/sydney-the-rocks.xml" target="_self">The Rocks</a>, un insieme di strade acciottolate e vicoli ciechi a cinque minuti da Circular Quay. Lasciate la baia ed esplorate le case e i cottage di pietra arenaria ed alcuni dei pi&ugrave; antichi pub di Sydney. Grazie ai suoi musei e gallerie, ai vivaci mercati del fine settimana e agli hotel con vista sulla baia, questo quartiere storico &egrave; frequentato da visitatori e abitanti locali. Passato e presente si incontrano a The Rocks, dove potrete unirvi a un tour dei fantasmi e partecipare ad alcuni degli eventi pi&ugrave; straordinari della citt&agrave;.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Sydney Harbour National Park]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-cities-sydney-harbour-national-park-hl.jpg" alt="Sydney Harbour National Park">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Sydney Harbour National Park]]></stf_Caption>
+                    <anc_link><![CDATA[/it/explore/cities/sydney/sydney-harbour-np.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Oltrepassati gli edifici storici, il <a href="/it/explore/cities/sydney/sydney-harbour-np.xml" target="_self">Sydney Harbour National Park</a> comprende spiagge riparate, pittoresche isole e zone di bush endemico. Nuotate, fate un picnic e passeggiate nel bush lungo la spettacolare spiaggia, oppure visitate le isole del porto su un traghetto. Andate in barca a vela o in kayak, osservate da vicino la fauna e scoprite l’antica arte rupestre e gli edifici costruiti dai detenuti. Le baie del porto, i parchi e i promontori fanno anche da sfondo ad alcuni degli eventi australiani pi&ugrave; importanti come i <a href="/it/explore/events/nat-new-years-fireworks.xml" target="_self">fuochi d’artificio di Capodanno</a> e la regata Sydney-Hobart.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Glebe: libri, abitanti boh&eacute;mien e grandi idee]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-cities-sydney-glebe-hl.jpg" alt="Glebe, Sydney">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Glebe, Sydney]]></stf_Caption>
+                    <anc_link><![CDATA[/it/explore/cities/sydney/nsw-glebe.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Scoprite idee e ideali nel famoso quartiere letterario di Sydney.<br />
+        <a href="/it/explore/cities/sydney/nsw-glebe.xml" target="_self">Glebe</a> &egrave; un po’ la Cenerentola intellettuale dei quartieri pi&ugrave; alla moda e di tendenza di Sydney. Ma chi ha bisogno di moda e tendenze quando ci sono ideali e questioni intellettuali sulle quali dibattere?
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Bondi Beach, Nuovo Galles del Sud]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-cities-sydney-bondi-beach-hl.jpg" alt="Bondi Beach, Nuovo Galles del Sud">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Bondi Beach, Nuovo Galles del Sud]]></stf_Caption>
+                    <anc_link><![CDATA[/it/explore/cities/sydney/nsw-bondi-beach.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Bondi Beach &egrave; una delle spiagge pi&ugrave; famose d'Australia e rinomate in tutto il mondo. Probabilmente &egrave; una delle mete australiane pi&ugrave; viste in cartolina, in televisione e al cinema.
+        <p>Ogni anno decine di migliaia di persone, dai backpacker ai miliardari, visitano le sabbie dorate di questa ampia e lunga spiaggia cittadina per passeggiare, fare jogging o semplicemente distendersi al sole. Trovandosi ad appena dieci chilometri dal centro, Bondi Beach &egrave; una delle spiagge pi&ugrave; affollate di Sydney. Tutto l'anno qui si tengono eventi di vario genere, dalle mostre artistiche locali alle maratone cittadine.</p>
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Manly Beach, Nuovo Galles del Sud]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-cities-sydney-manly-beach-hl.jpg" alt="Manly Beach, Nuovo Galles del Sud">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Manly Beach, Nuovo Galles del Sud]]></stf_Caption>
+                    <anc_link><![CDATA[/it/explore/cities/sydney/nsw-manly-beach.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Manly Beach &egrave; un'altra delle spiagge dell'area suburbana pi&ugrave; celebri d'Australia, situata sulla lunga striscia costiera settentrionale di Sydney. Manly Beach riceve il suo nome nel 1788 dal Capitano Arthur Phillip, primo governatore del Nuovo Galles del Sud, che rimase colpito dalla "sicurezza e il comportamento virile" ("manly" in inglese) della popolazione aborigena dell'area. Prendi il maestoso traghetto Manly da Circular Quay e in mezz'ora sarai a Manly Wharf. "A soli 12 chilometri da Sydney e a un milione di chilometri dalle preoccupazioni" &egrave; una frase spesso citata dagli abitanti di Manly. Quando visiterai questa citt&agrave; di mare capirai subito perch&eacute;.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Coogee Beach, Nuovo Galles del Sud]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-cities-sydney-coogee-beach-hl.jpg" alt="Coogee Beach, Nuovo Galles del Sud">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Coogee Beach, Nuovo Galles del Sud]]></stf_Caption>
+                    <anc_link><![CDATA[/it/explore/cities/sydney/nsw-coogee-beach.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Con una spiaggia scintillante, un magnifico percorso costiero e una riserva marina protetta in cui fare surf, snorkeling e immersioni, Cooge &egrave; la sintesi perfetta del classico stile di vita da spiaggia australiano. Coogee Beach vanta un'ampia spiaggia di sabbia dorata, storiche piscine naturali sull'oceano e diversi parchi per i tuoi barbecue e picnic, il tutto a soli 20 minuti dal frenetico centro di Sydney. &Egrave; una spiaggia ideale per le famiglie che desiderano nuotare e i bagnini la sorvegliano durante tutto l'anno. Coogee &egrave; anche uno dei pi&ugrave; antichi sobborghi di Sydney, con numerosi edifici storici. Le circostanti scogliere con le loro cime offrono spettacolari percorsi nel bush, nonch&eacute; alcuni dei pi&ugrave; bei panorami di Sydney.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Palm Beach, Nuovo Galles del Sud]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-cities-sydney-palm-beach-hl.jpg" alt="Palm Beach, Nuovo Galles del Sud">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Palm Beach, Nuovo Galles del Sud]]></stf_Caption>
+                    <anc_link><![CDATA[/it/explore/cities/sydney/nsw-palm-beach.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        A poco pi&ugrave; di un'ora d'auto dalla citt&agrave;, Palm Beach si trova all'esclusiva estremit&agrave; della lunga striscia delle spiagge settentrionali di Sydney. Adagiata all'estremit&agrave; di una lunga penisola, con le onde da un lato e Pittwater dall'altro. Molte delle persone facoltose del paese hanno costruito qui le loro case di vacanza. I fan riconosceranno a Palm Beach il mitico villaggio di "Summer Bay", dove &egrave; girata la famosa serie TV "Home and Away". La spiaggia di sabbia dorata, lunga due chilometri, forma una curva da Barrenjoey Head, in corrispondenza del capo meridionale di Broken Bay, fino alle rocce di arenaria di Little Head a sud.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Da Bondi a Bronte, Sydney]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-cities-sydney-bondi-to-bronte-hl.jpg" alt="Da Bondi a Bronte, Sydney">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Da Bondi a Bronte, Sydney]]></stf_Caption>
+                    <anc_link><![CDATA[/it/explore/cities/sydney/nsw-bondi-bronte.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        La vita di Sydney si sposta sulla costa in estate e alcuni tratti di essa, come la costa scolpita da <a href="/it/explore/cities/sydney/nsw-bondi-bronte.xml" target="_self">Bondi a Bronte</a>, sono semplicemente leggendari. Imparate ad andare in surf a Bondi, incontrate i bellissimi frequentatori di Tamarama e nuotate nella piscina naturale adatta a tutta la famiglia di Bronte. Ammirate tutte e tre le spiagge lungo il tratto da Bondi a Bronte: un breve e spettacolare itinerario lungo leggendarie scogliere di arenaria.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Il richiamo delle spiagge di Sydney]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-cities-sydney-beaches-beckon-hl.jpg" alt="Il richiamo delle spiagge di Sydney">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Il richiamo delle spiagge di Sydney]]></stf_Caption>
+                    <anc_link><![CDATA[/it/explore/cities/sydney/nsw-sydney-beaches.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Scoprite alcune delle 70 stupende <a href="/it/explore/cities/sydney/nsw-sydney-beaches.xml" target="_self">spiagge di Sydney</a>, da baie nascoste a famosi tratti di spiaggia. <br />
+        Non riuscirete a resistere al richiamo delle spiagge di Sydney ancor prima di atterrare a Botany. Potrete vedere le spiagge mentre atterrate – una lunga catena dorata su entrambi i lati della baia, limitata dal lussureggiante bush e dal mare. Forse il video di benvenuto sull’aereo evocher&agrave; nella vostra mente immagini di Bondi Beach. Se siete appassionati surfisti, adoratori del sole o amate semplicemente il mare, non vedrete l’ora di tuffarvi tra le onde, respirare l’aria salata o riposare sulla sabbia. 
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[La Sydney to Hobart Yacht Race]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-events-sydney-hobart-yacht-race-hl.jpg" alt="La Sydney to Hobart Yacht Race">]]></img_MainImage>
+                    <stf_Caption><![CDATA[La Sydney to Hobart Yacht Race]]></stf_Caption>
+                    <anc_link><![CDATA[/it/explore/events/syd-hobart-yacht-race.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Non dovrete essere degli esperti per seguire la regata Sydney-Hobart. La competizione ha inizio a Santo Stefano, il 26 dicembre, ed &egrave; parte integrante dell’estate australiana. Guardate le barche che escono dal porto mentre fate un picnic, un barbecue o una escursione in barca nel porto di Sydney. Applauditele mentre attraversano il traguardo in tempo per i festeggiamenti di Capodanno a Hobart. Ammirate la destrezza dei marinai e sosteneteli con tutto il paese mentre attraversano le acque turbolente dello <a href="/it/explore/states/tas/tas-bass-strait-islands.xml" target="_self">stretto di Bass</a>. 
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Sydney Mardi Gras]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-events-mardi-gras-hl.jpg" alt="Sydney Mardi Gras">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Sydney Mardi Gras]]></stf_Caption>
+                    <anc_link><![CDATA[/it/explore/events/sydney-mardi-gras.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Rivoluzionario, cosmopolita, divertente e spiritoso – benvenuti a Sydney durante l’annuale <a href="/it/explore/events/sydney-mardi-gras.xml" target="_self">Gay and Lesbian Mardi Gras</a>. Che siate etero o omosessuali, giovani o vecchi, vi innamorerete della gioiosa energia che esplode in citt&agrave; alla fine di febbraio. Celebrate l’apertura del festival con il Fair Day, una grande festa per tutta la comunit&agrave; nella parte interna occidentale di Sydney. Lasciatevi conquistare dai carri che percorrono Oxford St con il loro carico di paillettes, slogan satirici e abbronzature spray durante la pi&ugrave; grande parata gay del mondo. Ballate sino a tarda notte nei lussureggianti Royal Botanic Gardens o durante l’esplosiva festa conclusiva. Assistete a insolite e divertenti spettacoli presso la Sydney Opera House e in altri locali in tutta la citt&agrave;.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Tre settimane da Sydney]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-itineraries-three-weeks-from-sydney-hl.jpg" alt="Sydney, NSW">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Sydney, NSW]]></stf_Caption>
+                    <anc_link><![CDATA[/it/explore/itineraries/nsw-3weeks-sydney.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Iniziate la vostra avventura a Sydney, dove potrete <a href="http://www.australia.com/campaigns/nothinglike/it/sydney-product10.htm" target="_blank">salire sull'Harbour Bridge</a> e visitare l’Opera House. Appena fuori Sydney, esplorate le <a href="/it/explore/icons/blue-mountains.xml" target="_self">Blue Mountains</a>, iscritte tra i Patrimoni dell’Umanit&agrave;, o i vigneti della Hunter Valley. Nuotate con i delfini a Port Stephens o tra le acque cristalline di <a href="/it/explore/states/nsw/nsw-jervis-bay.xml" target="_self">Jervis Bay</a>. Raggiungete in aereo o in auto Melbourne, il luogo ideale per immergervi nella cultura presso le gallerie d’arte, conoscere i prodotti enogastronomici e fare shopping nei negozi situati lungo piccole strade segrete. Raggiungete in auto Phillip Island e la penisola di Mornington o seguite la spettacolare Great Ocean Road fino a Bells Beach e ai Dodici Apostoli. 
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+        <lst_Subpage><![CDATA[<a href="/it/explore/cities/sydney/sydney-surrounds.xml">Sydney e dintorni</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/it/explore/cities/sydney/nsw-palm-beach.xml">Palm Beach, Nuovo Galles del Sud</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/it/explore/cities/sydney/nsw-coogee-beach.xml">Coogee Beach, Nuovo Galles del Sud</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/it/explore/cities/sydney/nsw-manly-beach.xml">Manly Beach, Nuovo Galles del Sud</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/it/explore/cities/sydney/nsw-bondi-beach.xml">Bondi Beach, Nuovo Galles del Sud</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/it/explore/cities/sydney/sydney-the-rocks.xml">The Rocks</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/it/explore/cities/sydney/sydney-harbour-np.xml">Sydney Harbour National Park</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/it/explore/cities/sydney/nsw-glebe.xml">Glebe: libri, abitanti bohémien e grandi idee</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/it/explore/cities/sydney/nsw-blue-mtns-biking.xml">In bicicletta nel paradiso delle Blue Mountains</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/it/explore/cities/sydney/nsw-sydney-beaches.xml">Il richiamo delle spiagge di Sydney </a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/it/explore/cities/sydney/nsw-bluemts-yulefest.xml">Blue Mountains Yulefest</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/it/explore/cities/sydney/nsw-bondi-bronte.xml">Da Bondi a Bronte, Sydney</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/it/explore/cities/sydney/nsw-sydney-story.xml">L'alba splende sui Patrimoni dell'umanità australiani</a>]]></lst_Subpage>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

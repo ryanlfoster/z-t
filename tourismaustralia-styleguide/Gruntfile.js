@@ -217,7 +217,7 @@ module.exports = function( grunt ) {
             assetOut: {
                 files: [
                     { cwd: '<%= ASSETS %>/fonts/', src: ['**/*'], dest: '<%= ASSET_OUTPUT %>/fonts/' },
-                    { cwd: '<%= ASSETS %>/imgs/', src: ['**/*'], dest: '<%= ASSET_OUTPUT %>/img/' }, //Todo - Review scss output this may output the css and imgs
+                    { cwd: '<%= ASSETS %>/imgs/', src: ['**/*'], dest: '<%= ASSET_OUTPUT %>/imgs/' }, //Todo - Review scss output this may output the css and imgs
                     { cwd: '<%= ASSETS %>/js/', src: ['src/*', 'vendor/*'], dest: '<%= ASSET_OUTPUT %>/js/' },
                     { cwd: '<%= ASSETS %>/json/', src: ['src/*', 'vendor/*'], dest: '<%= ASSET_OUTPUT %>/json/' }
                 ]
@@ -226,7 +226,7 @@ module.exports = function( grunt ) {
             cq: {
                 files: [
                     { cwd: '<%= ASSETS %>/fonts/', src: ['**/*'], dest: '<%= ASSET_CQ %>/fonts/' },
-                    { cwd: '<%= ASSETS %>/imgs/', src: ['**/*'], dest: '<%= ASSET_CQ %>/img/' },
+                    { cwd: '<%= ASSETS %>/imgs/', src: ['**/*'], dest: '<%= ASSET_CQ %>/imgs/' },
                     { cwd: '<%= PROD %>/css/', src: ['**/*'], dest: '<%= ASSET_CQ %>/css/' },
                     { cwd: '<%= ASSETS %>/js/', src: ['**/*'], dest: '<%= ASSET_CQ %>/js/' },
                     { cwd: '<%= ASSETS %>/json/', src: ['src/*', 'vendor/*'], dest: '<%= ASSET_CQ %>/json/' }

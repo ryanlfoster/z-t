@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="22220" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Accueil]]></headline>
+            <href><![CDATA[/fr/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Tools and Campaigns]]></headline>
+            <href><![CDATA[/fr/tools-campaigns.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Paysages nationaux d'Australie]]></headline>
+            <href><![CDATA[/fr/nationallandscapes.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[Le nord de l'Australie : un territoire hors du temps]]></headline>
+            <href><![CDATA[/fr/nationallandscapes/australias-timeless-north.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/Campaigns/national-landscapes-australias-timeless-north.jpg]]></img_background>
+    <hdl_Title><![CDATA[Le nord de l'Australie : un territoire hors du temps]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/national-landscapes-australias-timeless-north-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/Campaigns/national-landscapes-australias-timeless-north-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[yes]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[Territoire hors du temps, le nord de l'Australie pr&eacute;sente de fascinants contrastes : ici, une v&eacute;g&eacute;tation tropicale luxuriante et l&agrave;, des paysages rouges et d&eacute;sertiques.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[Parc national de Kakadu, Kakadu national, Kakadu, Kakadu Australie, Kakadu Darwin, tourisme Darwin , Nourlangie Rock, rivi&egrave;re alligator, cascades de Gunlom Falls, Jabiru]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[En savoir plus]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Paysages nationaux d'Australie: Le nord de l'Australie : un territoire hors du temps - Tourisme Australie]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[]]>
+    </txt_Teaser>
+    <con_Body>
+        <StandardCampaignLayout isTemplate="1">
+    <opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+    <hdl_Title><![CDATA[]]></hdl_Title>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+    <con_Banner><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<DIV id=headerimage>
+<SCRIPT type=text/javascript src="../../static/js/jquery.cycle.all.latest.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+jQuery(document).ready(function() {
+jQuery('#headersliderwrapper').cycle({
+        fx:'fade',
+        slideExpr: '.headerslide'
+    });
+});
+</SCRIPT>
+
+<DIV id=headersliderwrapper>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-atn-01.jpg"> 
+<DIV class=headerslideinfo>Uluru, Territoire du Nord</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-atn-02.jpg"> 
+<DIV class=headerslideinfo>Diable cornu</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-atn-03.jpg"> 
+<DIV class=headerslideinfo>Kata Tjuta, Territoire du Nord</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-atn-04.jpg"> 
+<DIV class=headerslideinfo>Alice Springs Desert Park, Territoire du Nord</DIV></DIV></DIV></DIV>
+<DIV id=subpage-header-overlay></DIV>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule></con_Banner>
+    <con_Body><TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Le nord de l'Australie : un territoire hors du temps]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        Territoire hors du temps, le nord de l'Australie pr&eacute;sente de fascinants contrastes : ici, une v&eacute;g&eacute;tation tropicale luxuriante et l&agrave;, des paysages rouges et d&eacute;sertiques. Entrez dans un monde de parcs nationaux, compos&eacute;s de verdoyants mar&eacute;cages, de falaises de gr&egrave;s et de gorges vertigineuses ainsi que des plaines arides, o&ugrave; la faune est abondante. Les d&eacute;buts de l'histoire aborig&egrave;ne ainsi que le Temps du r&ecirc;ve sont racont&eacute;s sur des galeries en flanc de falaise qui rassemblent les plus grandes et les plus anciennes collections d'art rupestre au monde.
+        <p>Plongez dans la magie de Kakadu lors de six saisons radicalement diff&eacute;rentes. Partez en croisi&egrave;re sur des &eacute;tendues d'eau regorgeant de crocodiles, visitez une colonie en Terre d'Arnhem ou suivez la trace des propri&eacute;taires traditionnels de la r&eacute;gion, le peuple Jawoyn, dans le parc national de Nitmiluk.</p>
+        <p><strong>Quatre faits uniques &agrave; propos du nord de l'Australie</strong></p>
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[1. Un art pr&eacute;historique et une culture vivante]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australias-timeless-north-hl01.jpg" alt="Nourlangie rock art, NT">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Nourlangie rock art, NT]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Prenez le temps de vous plonger dans la richesse spirituelle de Kakadu, et ses l&eacute;gendes et secrets du Temps du R&ecirc;ve. Laissez les guides aborig&egrave;nes vous mener &agrave; travers la nature sauvage vers de riches &laquo; galeries d’art &raquo; d&eacute;taill&eacute;es comme Nourlangie Rock, Anbangang Gallery et Ubirr Rock. Allez voir les anc&ecirc;tres du Temps du R&ecirc;ve comme le Rainbow Serpent (Serpent arc-en-ciel) et le Lightning Man (Homme foudre) grav&eacute;s dans les murs. Passez la nuit chez des familles aborig&egrave;nes, d&eacute;couvrez avec elles les m&eacute;thodes de tissage et de chasse traditionnelles ainsi que l'art subtil du didgeridoo. Visitez un centre culturel ou faites un tour en bateau sur les fleuves, rivi&egrave;res et marais tout en &eacute;coutant des anecdotes d'une autre &eacute;poque.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[2. Une nature exub&eacute;rante]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australias-timeless-north-hl02.jpg" alt="Jesus bird, Kakadu National Park, NT">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Jesus bird, Kakadu National Park, NT]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Promenez-vous dans les plaines mar&eacute;cageuses de Mamukala abritant une profusion d'oiseaux : canarois, aigrettes, h&eacute;rons, spatules, aigles de mer, canards et grues brolga. Parmi les 280 esp&egrave;ces d'oiseaux qui vivent &agrave; Kakadu, certains sont uniques, &agrave; l'image de l’oie semipalm&eacute;e, la colombine des rochers et de l'amytis &agrave; gorge blanche. Faites un tour en bateau sur l’East Alligator River (attention aux crocodiles) et observez les oiseaux j&eacute;sus &eacute;changer des feuilles de n&eacute;nuphar. Rep&eacute;rez les wallaroos, les dingos, les opossums, les chauves-souris et les rats sombres dans les bois. Un quart de toutes les esp&egrave;ces australiennes de poissons d’eau douce vit &agrave; Kakadu et il y a beaucoup de points de p&ecirc;che au barramundi, entre autres l’East Alligator River et la Jim Jim Creek.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[3. Six saisons radicalement diff&eacute;rentes]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australias-timeless-north-hl03.jpg" alt="Storm over Floodplains">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Storm over Floodplains]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Au cours d'une ann&eacute;e, le Kakadu conna&icirc;t six saisons. La saison des pluies (&laquo; Gudjewg &raquo;), de janvier &agrave; mars, se caract&eacute;rise par des cascades rugissantes et des &eacute;clairs. Soyez t&eacute;moin des terribles orages &laquo; knock em down storms &raquo; durant le mois d’avril de Banggerreng. La saison &laquo; Yegge &raquo;, de mai &agrave; la mi-juin, voit des vents secs arriver jusque dans les zones humides o&ugrave; fleurissent les lotus. Les mois plus doux de &laquo; Wurrgeng &raquo;, entre juin et ao&ucirc;t, voient les oiseaux migrateurs envahir les billabongs. Pendant la p&eacute;riode de &laquo; Gurrung &raquo;, de mi-ao&ucirc;t &agrave; mi-septembre, il fait chaud et sec. Entre la mi-octobre et la fin d&eacute;cembre &eacute;clatent les premiers orages vivifiants de la saison de pr&eacute;-mousson, appel&eacute;e &laquo; Gunumeleng &raquo;.
+        <p>Pour appr&eacute;cier toute la grandeur de Kakadu, survolez l'escarpement de la Terre d'Arnhem et les majestueuses chutes Gunlom, Twin et Jim Jim Falls gr&acirc;ce &agrave; un vol sc&eacute;nique.</p>
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[4. D&eacute;couvrez les peuples traditionnels]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australias-timeless-north-hl04.jpg" alt="Katherine Gorge, Nitmiluk National Park, NT">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Katherine Gorge, Nitmiluk National Park, NT]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Tout &agrave; fait au sud de ce territoire se trouve le Parc national de Nitmiluk connu pour ses magnifiques cascades et pour la spectaculaire Katherine Gorge, une s&eacute;rie de gorges de gr&egrave;s sculpt&eacute;es par Dame nature au cours des mill&eacute;naires. Ces profondes gorges rouges regroupent d'importants sites d'art rupestre. Venez explorer le parc &agrave; votre rythme : partez pour une balade tranquille d'une journ&eacute;e, pour une croisi&egrave;re ou pour une randonn&eacute;e plus sportive de cinq jours le long des 59 kilom&egrave;tres de la Jatbula Trail, une piste mythique que les Jawoyn, les v&eacute;ritables propri&eacute;taires du lieu, &eacute;voquent dans leurs chants traditionnels. Prenez le temps d'explorer la Mary River et les parcs nationaux de Garig Gunak. L'itin&eacute;raire &laquo; Nature's Way &raquo;, que vous pourrez emprunter en voiture, relie un grand nombre de ces destinations &agrave; partir de Darwin en suivant les autoroutes de Kakadu, Arnhem et Stuart.
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights></con_Body>
+    <con_RHSModules><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<TABLE cellSpacing=0 cellPadding=0 width=298 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top align=center>
+<P><!-- Google Map Start -->
+<SCRIPT type=text/javascript>
+ function fireEvent(obj,evt){
+ var fireOnThis = obj;
+ if( document.createEvent ) {
+   var evObj = document.createEvent('MouseEvents');
+ evObj.initEvent( evt, true, false );
+   fireOnThis.dispatchEvent(evObj);
+ } else if( document.createEventObject ) {
+   fireOnThis.fireEvent('on'+evt);
+ }
+}
+function clickLink(linkobj) {
+     if (linkobj.getAttribute('onclick') == null) {
+     if (linkobj.getAttribute('href')) document.location = linkobj.getAttribute('href');
+     }
+     else linkobj.onclick();
+}
+function loadjscssfile(filename, filetype){
+ if (filetype=="js"){ //if filename is a external JavaScript file
+  var fileref=document.createElement('script')
+  fileref.setAttribute("type","text/javascript")
+  fileref.setAttribute("src", filename)
+ }
+ else if (filetype=="css"){ //if filename is an external CSS file
+  var fileref=document.createElement("link")
+  fileref.setAttribute("rel", "stylesheet")
+  fileref.setAttribute("type", "text/css")
+  fileref.setAttribute("href", filename)
+  fileref.setAttribute("media", "print")
+}
+if (typeof fileref!="undefined")
+document.getElementsByTagName("head")[0].appendChild(fileref)
+}
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+var icheckk=0;
+jQuery.each(jQuery.browser, function(i, val) {
+if(i=="msie" && jQuery.browser.version.substr(0,3)=="7.0")
+icheckk=1;
+});
+ function myfun()
+{
+loadjscssfile("../../static/css/thickbox.css", "css");
+if(icheckk==1)
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='../../static/maps/australiastimelessnorth/bigmap.html' target='_blank'>&nbsp;Imprimer|Proche|</a></b>","../../static/maps/fr/australiastimelessnorth/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+else
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='javascript:window.print()' >&nbsp;Imprimer|Proche|</a></b>","../../static/maps/fr/australiastimelessnorth/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+}
+ </SCRIPT>
+<IFRAME style="MARGIN-BOTTOM: 20px; BORDER-TOP: black 1px solid; HEIGHT: 355px; BORDER-RIGHT: black 1px solid; BORDER-BOTTOM: black 1px solid; FLOAT: left; PADDING-BOTTOM: 5px; BORDER-LEFT: black 1px solid; BACKGROUND-COLOR: #333" height=380 src="../../static/maps/fr/australiastimelessnorth/index.html" frameBorder=0 width=249 name=FRAMENAME scrolling=no></IFRAME><!-- Google Map end --></P>
+<DIV class=subpage-video-thumb style="TEXT-ALIGN: left"><A onclick="moduleTrackingWithTitle('lightbox-video','',false,'nationallandscapes-timelessnorthfr');" href="#" data-reveal-id="modalVideo"><IMG alt="" src="/contentimages/Campaigns/national-landscapes-video-fr.jpg"></A> </DIV>
+<DIV id=modalVideo class="reveal-modal video" style-="z-index: 103;"><A class=close-reveal-modal><SPAN class=icon></SPAN></A>
+<DIV class=video style="VISIBILITY: visible !important"><IFRAME height=315 src="//www.youtube.com/v/EjGZ3MaX9pE?version=3&amp;hl=en_GB" frameBorder=0 width=560></IFRAME></DIV></DIV></TD></TR></TBODY></TABLE>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule><Listing isTemplate="1">
+<anc_List1><![CDATA[/fr/explore/icons/kakadu/nt-rock-art.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[Id&eacute;es d&eacute;couverte]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/fr/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/fr/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/fr/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/fr/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/fr/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/fr/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/fr/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/fr/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/fr/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/fr/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/fr/Transport.aspx]]></anc_Transport>
+<hdl_Title><![CDATA[Commencez &agrave; organiser votre s&eacute;jour]]></hdl_Title>
+<language><![CDATA[FRA]]></language>
+<stf_Accomodation><![CDATA[Accommodation]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[Kakadu Area]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[Attractions]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[Find a Travel Agent near you]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[Destination Information]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[Events]]></stf_Events>
+<stf_Hire><![CDATA[Hire ]]></stf_Hire>
+<stf_Informationservices><![CDATA[Information Services]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[Northern Territory]]></stf_StateFilter>
+<stf_Tours><![CDATA[Tours]]></stf_Tours>
+<stf_Transport><![CDATA[Transport]]></stf_Transport>
+</PlanYourVisit></con_RHSModules>
+    <con_Category></con_Category>
+    <lst_Subpages>
+    </lst_Subpages>
+</StandardCampaignLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

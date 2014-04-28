@@ -1,0 +1,187 @@
+
+.search-results-counter-grid-more, .search-atdw-highlights {
+  padding-bottom: pxtoem($bottom-spacing-double);
+}
+
+.search-result-count{
+  text-align: center;
+  padding: pxtoem(27px) 0;
+}
+.search-result-count-copy {
+  color: $search-text-color;
+  font-size: pxtoem(16px);
+}
+
+.search-your-results {
+
+  .search-toggle-buttons {
+    text-align: center;
+  }
+
+  @include breakpoint(md){
+    .search-toggle-buttons {
+      position: absolute;
+      top: .8em;
+      right: 1em;
+    }
+  }
+
+  .btn-bubble-min-width {
+    min-width: inherit;
+  }
+}
+
+.search-results-container {
+  min-height: pxtoem(166px);
+}
+.search-results-copy p {
+  margin: .35em 0;
+  font-size: .95em;
+  text-align: center;
+  @include breakpoint(md){
+    text-align: left;
+  }
+}
+
+.search-results-title {
+  @include type_TAheadline();
+  font-size: 1.75em;
+  color: $search-results-title-colour;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  @include breakpoint(md){
+    text-align: left;
+  }
+  text-decoration: none;
+}
+.search-results-title:hover {
+  color: $search-results-title-colour;
+  text-decoration: none;
+}
+.search-results-category-icon {
+  display: block;
+  text-align: center;
+  padding: 2em 2em 1em;
+  @include breakpoint(md){
+    display: table-cell;
+    padding: 1em 2em;
+  }
+}
+.search-favourite {
+  display: block;
+  text-align: center;
+  padding: 1em 2em 2em;
+  @include breakpoint(md){
+    display: table-cell;
+    padding: 1em 2em;
+  }
+}
+
+.search-results-list {
+  margin: 0 pxtoem(-15px);
+  @include breakpoint(sm){
+    margin: 0;
+  }
+}
+.search-results-list .video-play-icon {
+  //width: 30%;
+  max-width: pxtoem(164px);
+  max-height: pxtoem(165px);
+  margin-bottom: 1em;
+}
+.search-results-list .video-container {
+  margin: 0;
+}
+
+.search-result-category-link:hover {
+  cursor: pointer;
+}
+.search-results-list {
+  padding-bottom:  1em;
+}
+
+.search-results-copy-container {
+  display: table-cell;
+  padding: 1em !important;
+  @include breakpoint(md){
+    vertical-align: top;
+    padding-top: 2em !important;
+  }
+}
+
+.search-result-category-container {
+
+  min-width: pxtoem(294px);
+
+  @include breakpoint(md){
+    position: relative;
+    max-width: pxtoem(294px);
+    display: table-cell;
+    vertical-align: top;
+  }
+}
+
+.search-result-content-container {
+  width: 100%;
+  @include breakpoint(md){
+    position: relative;
+    display: table-cell;
+    vertical-align: top;
+  }
+}
+
+.search-result-category-link {
+  position: relative;
+  display: block;
+  background: #000;
+  // IE Required
+  @include breakpoint(md){
+    width: pxtoem(294px);
+  }
+}
+.search-result-row-spacing {
+  background-color: $search-results-row-colour;
+
+  margin-bottom: pxtoem($mosaic-row-bottom-margin);
+  @include breakpoint(md){
+    margin: 0 0 pxtoem($search-results-row-bottom-margin);
+  }
+}
+.search-result-category-container .type-date-mosaic {
+  font-size: .8em;
+  top: pxtoem(-10px);
+  position: relative;
+  @include breakpoint(sm){
+    font-size: 1em;
+    top: initial;
+  }
+  @include breakpoint(md){
+    font-size: .8em;
+    top: pxtoem(-10px);
+  }
+}
+
+.search-results-counter-grid-more .btn-bubble-tooltip {
+
+  @include breakpoint(md){
+    visibility: hidden;
+  }
+  @include breakpoint(mx){
+    visibility: visible;
+  }
+}
+// Adjust mosaic and atdw outside spacing
+.search-atdw-mosaic {
+  margin: 0 pxtoem(-15px);
+}
+.search-results-counter-grid-more .mosaic {
+  @include breakpoint(md){
+    padding: 0 pxtoem(15px);
+  }
+}
+.search-atdw-highlights .mosaic {
+  @include breakpoint(md){
+    padding: 0 pxtoem(15px);
+  }
+}

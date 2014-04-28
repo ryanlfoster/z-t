@@ -1,0 +1,552 @@
+﻿<?xml version="1.0" ?>
+<ConsumerHomepageFoundation pageID="" isTemplate="1">
+    <TA_Title><![CDATA[Informasi Tentang Liburan Di Australia - Tourism Australia]]></TA_Title>
+    <hdl_Title><![CDATA[Laman Depan]]></hdl_Title>
+    <inf_PageId><![CDATA[]]></inf_PageId>
+    <stf_description><![CDATA[Dapatkan informasi liburan kegiatan dan tempat-tempat hiburan di Australia. Baca lebih lanjut di situs resmi pariwisata Australia.]]></stf_description>
+    <stf_keywords><![CDATA[australia travel, australia holiday, travel to australia, australian holidays, australian travel, holidays in australia, travel in austraila, about australia]]></stf_keywords>
+    <img_SearchThumbnail><![CDATA[/thumbnails/homepage-search.jpg]]></img_SearchThumbnail>
+    <img_Background><![CDATA[]]></img_Background>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <con_CookiePolicyMessage>
+        
+    </con_CookiePolicyMessage>
+    <con_GlobalHeader>
+        <GlobalHeaderControlInclude isTemplate="1">
+    <!-- no user content -->
+</GlobalHeaderControlInclude>
+    </con_GlobalHeader>
+    <con_HomepageIntro>
+        <IntroductionMessageHolder isTemplate="1">
+    <anc_ManagementPage><![CDATA[/id/12014.xml]]></anc_ManagementPage>
+    <con_HomepageIntros>
+        <IntroductionMessage isTemplate="1">
+    <stf_MainHeading><![CDATA[Selamat datang]]></stf_MainHeading>
+    <stf_SubHeading><![CDATA[Di situs web pariwisata resmi Australia]]></stf_SubHeading>
+    <stf_Tagline><![CDATA[dan Anda akan mengetahui bahwa Australia, memang tidak ada duanya]]></stf_Tagline>
+    <stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry> 
+</IntroductionMessage>
+    </con_HomepageIntros> 
+</IntroductionMessageHolder>
+    </con_HomepageIntro>
+    <con_Map>
+        <NLAMap isTemplate="1">
+    <stf_Title><![CDATA[Jelajahi 14 tempat istimewa ini]]></stf_Title>
+    <stf_TitleTagLine><![CDATA[Visit us]]></stf_TitleTagLine>
+    <stf_MapLink><![CDATA[http://www.australia.com/campaigns/nothinglike/id/index.html]]></stf_MapLink>
+    <anc_Overlay><![CDATA[/id/nla-map-overlay.xml]]></anc_Overlay>
+    <con_Description>
+        <NLAMapDescription isTemplate="1">
+    <stf_Title><![CDATA[Travel Stories]]></stf_Title>
+    <stf_TitleTagLine><![CDATA[Visit us]]></stf_TitleTagLine>
+    <stf_MapLink><![CDATA[]]></stf_MapLink>
+</NLAMapDescription>
+    </con_Description>
+</NLAMap>
+    </con_Map>
+    <con_News>
+        <HomepageNewsHolder isTemplate="1">
+    <anc_ManagementPage><![CDATA[/id/12010.xml]]></anc_ManagementPage>
+    <anc_VideoManagementPage><![CDATA[/id/12015.xml]]></anc_VideoManagementPage>
+    <con_NewsItems>
+        <HomepageNews isTemplate="1">
+    <img_NewsBackgroundImg><![CDATA[/contentimages/news-australias-food-wine-trends-2014.jpg]]></img_NewsBackgroundImg>
+    <opt_isVideo><![CDATA[no]]></opt_isVideo>
+    <stf_NewsHeading><![CDATA[Berita Terbaru]]></stf_NewsHeading>
+    <stf_NewsVideoTrackingTitle><![CDATA[]]></stf_NewsVideoTrackingTitle>
+    <stf_TargetedCountry><![CDATA[ID]]></stf_TargetedCountry>
+    <stf_VideoBackgroundAlt><![CDATA[Tren Makanan dan Anggur Australia 2014]]></stf_VideoBackgroundAlt>
+    <txt_NewsText><![CDATA[
+        <p style="font-size: 13px;"><strong>Tren Makanan dan<br />
+        Anggur Australia 2014</strong></p>
+        <p style="font-size: 11px;">Boleh saja Australia dijuluki<br />
+        “down under”, tapi Australia<br />
+        berada di posisi teratas tren<br />
+        makanan dalam agenda global<br />
+        tahun 2014.</p>
+        <p><strong><a href="/id/australias-food-wine-trends-2014.xml" onclick="ntptEventTag('ev=newstext-foodwinetrendsid');" target="_self"><span style="text-decoration: underline;">Pelajari Lebih Lanjut</span></a></strong></p>
+    ]]></txt_NewsText> 
+</HomepageNews>
+    </con_NewsItems> 
+</HomepageNewsHolder>
+    </con_News>
+    <con_SpecialOffers>
+        <SpecialOffersBox isTemplate="1">
+        <anc_Accommodation><![CDATA[/id/plan/plan-your-trip/accommodation.xml]]></anc_Accommodation>
+        <anc_TravelAgentPage><![CDATA[/id/plan/plan-your-trip/find-travel-agent.xml]]></anc_TravelAgentPage>
+        <con_SpecialOffersCountry>
+            <SpecialOffersCountry isTemplate="1">
+    <hdl_Title><![CDATA[Indonesia]]></hdl_Title>
+    <con_Category>
+        <SpecialOffersItem isTemplate="1">
+    <hdl_Title><![CDATA[Lihat keindahan Australia dengan Singapore Airlines]]></hdl_Title>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <img_Thumbnail><![CDATA[/contentimages/special-offers-singapore-airlines.jpg]]></img_Thumbnail>
+    <stf_ThumnailTeaserOnPageCaption><![CDATA[Lihat keindahan Australia dengan Singapore Airlines]]></stf_ThumnailTeaserOnPageCaption>
+    <img_ThumbnailTeaserOnPage><![CDATA[/contentimages/special-offers-singapore-airlines-hl.jpg]]></img_ThumbnailTeaserOnPage>
+    <anc_ListItems>
+        <anc_ListItem>
+            <url><![CDATA[/id/24199.xml]]></url>
+            <hdl_Title><![CDATA[Lihat keindahan Australia dengan Singapore Airlines]]></hdl_Title>
+            <txt_Teaser><![CDATA[
+        Terbang ke Adelaide, Brisbane, Melbourne, Perth, Sydney mulai dari USD 680* pulang pergi
+    ]]></txt_Teaser>
+            <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+            <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+            <stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+            <stf_externalLink><![CDATA[http://www.singaporeair.com/jsp/cms/en_UK/promotions/stopromo.jsp]]></stf_externalLink>
+            <opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+            <stf_TrackingEvent><![CDATA[singaporeairlinesid]]></stf_TrackingEvent>
+            <stf_ExternalLinkTitle><![CDATA[Pelajari lebih lanjut]]></stf_ExternalLinkTitle>
+            <med_File><![CDATA[]]></med_File>
+        </anc_ListItem>
+    </anc_ListItems>
+</SpecialOffersItem>
+    </con_Category> 
+</SpecialOffersCountry>
+        </con_SpecialOffersCountry>
+        <hdl_Headline><![CDATA[Penawaran Khusus*]]></hdl_Headline>
+        <img_Accommodation><![CDATA[/contentimages/accommodation-homepage.jpg]]></img_Accommodation>
+        <img_TravelAgentImage><![CDATA[/contentimages/find-a-travel-agent-homepage.jpg]]></img_TravelAgentImage>
+        <stf_AccommodationHeading><![CDATA[Akomodasi]]></stf_AccommodationHeading>
+        <stf_AccommodationLinkText><![CDATA[Pelajari lebih lanjut]]></stf_AccommodationLinkText>
+        <stf_AccommodationTrackingTitle><![CDATA[accommodations]]></stf_AccommodationTrackingTitle>
+        <stf_TravelAgentHeading><![CDATA[Cari Biro Perjalanan Wisata]]></stf_TravelAgentHeading>
+        <stf_TravelAgentLinkText><![CDATA[Pelajari lebih lanjut]]></stf_TravelAgentLinkText>
+        <stf_TravelAgentTrackingTitle><![CDATA[agents]]></stf_TravelAgentTrackingTitle>
+        <txt_Accommodation><![CDATA[
+        Anda mempunyai pilihan yang meluas untuk penginapan di Australia. Kami mempunyai hotel butik dan hotel ‘backpackers’, resort peranginan mewah dan pangsapuri khidmat sendiri, pub pedalaman yang rustik dan berkhemah.
+    ]]></txt_Accommodation>
+        <txt_TravelAgentText><![CDATA[
+        Terdapat ribuan pengalaman Australia yang hebat yang anda boleh pilih. Ada kemungkinan, Agensi Pelancongan Pakar Aussie anda telah alami atau merancangnya sebelum ini.
+    ]]></txt_TravelAgentText> 
+</SpecialOffersBox>
+    </con_SpecialOffers>
+    <con_FeatureBox>
+        <FeatureBoxHolder isTemplate="1">
+    <hdl_Features><![CDATA[Tujuan wisata wajib di Australia]]></hdl_Features>
+    <anc_ManagementPage><![CDATA[/id/12011.xml]]></anc_ManagementPage>
+    <con_FeatureBoxCountries>
+        <FeatureBoxCountryHolder isTemplate="1">
+    <hdl_Title><![CDATA[Discover why there's Nothing Like Australia ID]]></hdl_Title>
+    <con_FeatureBoxItems>
+        <FeatureBoxItems isTemplate="1">
+    <anc_InternalLink><![CDATA[]]></anc_InternalLink>
+    <img_BackgroundImg><![CDATA[/contentimages/feature-box-id.jpg]]></img_BackgroundImg>
+    <img_Map><![CDATA[]]></img_Map>
+    <opt_isExternalLink><![CDATA[yes]]></opt_isExternalLink>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_externalLink><![CDATA[http://www.australia.com/campaigns/nothinglike/id/index.html]]></stf_externalLink>
+    <stf_FeatureTrackingTitle><![CDATA[featureboxnlaenid]]></stf_FeatureTrackingTitle>
+    <stf_LinkText><![CDATA[Pelajari Selengkapnya]]></stf_LinkText>
+    <stf_MapAltTag><![CDATA[]]></stf_MapAltTag>
+    <stf_Title><![CDATA[]]></stf_Title>
+    <stf_TrackingEvent><![CDATA[feature]]></stf_TrackingEvent>
+    <txt_Text><![CDATA[Jelajahi pengalaman unik untuk mewujudkan liburan impian Anda.]]></txt_Text> 
+</FeatureBoxItems>
+    </con_FeatureBoxItems>
+</FeatureBoxCountryHolder><FeatureBoxCountryHolder isTemplate="1">
+    <hdl_Title><![CDATA[ID]]></hdl_Title>
+    <con_FeatureBoxItems>
+        <FeatureBoxItems isTemplate="1">
+    <anc_InternalLink><![CDATA[/id/explore/icons/alps.xml]]></anc_InternalLink>
+    <img_BackgroundImg><![CDATA[/contentimages/features-alpine.jpg]]></img_BackgroundImg>
+    <img_Map><![CDATA[/contentimages/australian-alps-fb-map.png]]></img_Map>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[yes]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_FeatureTrackingTitle><![CDATA[iconsaustralianalps]]></stf_FeatureTrackingTitle>
+    <stf_LinkText><![CDATA[Pelajari Lebih Lanjut]]></stf_LinkText>
+    <stf_MapAltTag><![CDATA[]]></stf_MapAltTag>
+    <stf_Title><![CDATA[Pegunungan Australian Alps]]></stf_Title>
+    <stf_TrackingEvent><![CDATA[feature]]></stf_TrackingEvent>
+    <txt_Text><![CDATA[Petualangan luar ruang sepanjang tahun di 16 taman nasional dan cagar alam.]]></txt_Text> 
+</FeatureBoxItems><FeatureBoxItems isTemplate="1">
+    <anc_InternalLink><![CDATA[/id/explore/icons/namadgi.xml]]></anc_InternalLink>
+    <img_BackgroundImg><![CDATA[/contentimages/Namadgi-feature-box.jpg]]></img_BackgroundImg>
+    <img_Map><![CDATA[/contentimages/namadgi-fb-map.png]]></img_Map>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[yes]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_FeatureTrackingTitle><![CDATA[iconsnamadgi]]></stf_FeatureTrackingTitle>
+    <stf_LinkText><![CDATA[Pelajari Lebih Lanjut]]></stf_LinkText>
+    <stf_MapAltTag><![CDATA[]]></stf_MapAltTag>
+    <stf_Title><![CDATA[Taman Nasional Namadgi]]></stf_Title>
+    <stf_TrackingEvent><![CDATA[feature]]></stf_TrackingEvent>
+    <txt_Text><![CDATA[Keheningan padang semak dan kekayaan budaya Aborigin.]]></txt_Text> 
+</FeatureBoxItems><FeatureBoxItems isTemplate="1">
+    <anc_InternalLink><![CDATA[/id/explore/icons/blue-mountains.xml]]></anc_InternalLink>
+    <img_BackgroundImg><![CDATA[/contentimages/blue-mountains-feature-box.jpg]]></img_BackgroundImg>
+    <img_Map><![CDATA[/contentimages/blue-mountains-fb-map.png]]></img_Map>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[yes]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_FeatureTrackingTitle><![CDATA[iconsbluemountains]]></stf_FeatureTrackingTitle>
+    <stf_LinkText><![CDATA[Pelajari Lebih Lanjut]]></stf_LinkText>
+    <stf_MapAltTag><![CDATA[]]></stf_MapAltTag>
+    <stf_Title><![CDATA[Blue Mountains]]></stf_Title>
+    <stf_TrackingEvent><![CDATA[feature]]></stf_TrackingEvent>
+    <txt_Text><![CDATA[Pesona keindahan berkabut biru, hutan eukaliptus, gua, tebing, dan air terjun.]]></txt_Text> 
+</FeatureBoxItems><FeatureBoxItems isTemplate="1">
+    <anc_InternalLink><![CDATA[/id/explore/icons/byron-bay.xml]]></anc_InternalLink>
+    <img_BackgroundImg><![CDATA[/contentimages/byron-bay-feature-box.jpg]]></img_BackgroundImg>
+    <img_Map><![CDATA[/contentimages/byron-bay-fb-map.png]]></img_Map>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[yes]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_FeatureTrackingTitle><![CDATA[iconsbyronbay]]></stf_FeatureTrackingTitle>
+    <stf_LinkText><![CDATA[Pelajari Lebih Lanjut]]></stf_LinkText>
+    <stf_MapAltTag><![CDATA[]]></stf_MapAltTag>
+    <stf_Title><![CDATA[Byron Bay]]></stf_Title>
+    <stf_TrackingEvent><![CDATA[feature]]></stf_TrackingEvent>
+    <txt_Text><![CDATA[Pantai, berselancar, desa hutan tropis, dan memanjakan diri di spa.]]></txt_Text> 
+</FeatureBoxItems><FeatureBoxItems isTemplate="1">
+    <anc_InternalLink><![CDATA[/id/explore/icons/kakadu.xml]]></anc_InternalLink>
+    <img_BackgroundImg><![CDATA[/contentimages/kakadu-feature-box.jpg]]></img_BackgroundImg>
+    <img_Map><![CDATA[/contentimages/kakadu-fb-map.png]]></img_Map>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[yes]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_FeatureTrackingTitle><![CDATA[iconskakdu]]></stf_FeatureTrackingTitle>
+    <stf_LinkText><![CDATA[Pelajari Lebih Lanjut]]></stf_LinkText>
+    <stf_MapAltTag><![CDATA[]]></stf_MapAltTag>
+    <stf_Title><![CDATA[Kakadu]]></stf_Title>
+    <stf_TrackingEvent><![CDATA[feature]]></stf_TrackingEvent>
+    <txt_Text><![CDATA[Perpaduan tanah rawa, kehidupan liar, dan seni batu Aborigin.]]></txt_Text> 
+</FeatureBoxItems><FeatureBoxItems isTemplate="1">
+    <anc_InternalLink><![CDATA[/id/explore/icons/red-centre.xml]]></anc_InternalLink>
+    <img_BackgroundImg><![CDATA[/contentimages/features-uluru.jpg]]></img_BackgroundImg>
+    <img_Map><![CDATA[/contentimages/red-centre-fb-map.png]]></img_Map>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[yes]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_FeatureTrackingTitle><![CDATA[iconsredcentre]]></stf_FeatureTrackingTitle>
+    <stf_LinkText><![CDATA[Pelajari Lebih Lanjut]]></stf_LinkText>
+    <stf_MapAltTag><![CDATA[]]></stf_MapAltTag>
+    <stf_Title><![CDATA[Red Centre]]></stf_Title>
+    <stf_TrackingEvent><![CDATA[feature]]></stf_TrackingEvent>
+    <txt_Text><![CDATA[Tempat yang kaya dengan budaya Aborigin dan keindahan padang semak yang keras.]]></txt_Text> 
+</FeatureBoxItems><FeatureBoxItems isTemplate="1">
+    <anc_InternalLink><![CDATA[/id/explore/icons/fraser-island.xml]]></anc_InternalLink>
+    <img_BackgroundImg><![CDATA[/contentimages/fraser-island-feature-box.jpg]]></img_BackgroundImg>
+    <img_Map><![CDATA[/contentimages/fraser-island-fb-map.png]]></img_Map>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[yes]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_FeatureTrackingTitle><![CDATA[iconsfraserisland]]></stf_FeatureTrackingTitle>
+    <stf_LinkText><![CDATA[Pelajari Lebih Lanjut]]></stf_LinkText>
+    <stf_MapAltTag><![CDATA[]]></stf_MapAltTag>
+    <stf_Title><![CDATA[Fraser Island]]></stf_Title>
+    <stf_TrackingEvent><![CDATA[feature]]></stf_TrackingEvent>
+    <txt_Text><![CDATA[Berkendara dengan mobil offroad ke Pantai, hutan tropis, dan danau.]]></txt_Text> 
+</FeatureBoxItems><FeatureBoxItems isTemplate="1">
+    <anc_InternalLink><![CDATA[/id/explore/icons/great-barrier-reef.xml]]></anc_InternalLink>
+    <img_BackgroundImg><![CDATA[/contentimages/great-barrier-reef-feature-box.jpg]]></img_BackgroundImg>
+    <img_Map><![CDATA[/contentimages/gbr-fb-map.png]]></img_Map>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[yes]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_FeatureTrackingTitle><![CDATA[iconsgreatbarrierreef]]></stf_FeatureTrackingTitle>
+    <stf_LinkText><![CDATA[Pelajari Lebih Lanjut]]></stf_LinkText>
+    <stf_MapAltTag><![CDATA[]]></stf_MapAltTag>
+    <stf_Title><![CDATA[Great Barrier Reef]]></stf_Title>
+    <stf_TrackingEvent><![CDATA[feature]]></stf_TrackingEvent>
+    <txt_Text><![CDATA[Berenang, menyelam, berlayar dan menjelajahi pulau penuh keajaiban ekologis ini.]]></txt_Text> 
+</FeatureBoxItems><FeatureBoxItems isTemplate="1">
+    <anc_InternalLink><![CDATA[/id/explore/icons/flinders.xml]]></anc_InternalLink>
+    <img_BackgroundImg><![CDATA[/contentimages/features-flinders-ranges.jpg]]></img_BackgroundImg>
+    <img_Map><![CDATA[/contentimages/flinders-ranges-fb-map.png]]></img_Map>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[yes]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_FeatureTrackingTitle><![CDATA[iconsflindersranges]]></stf_FeatureTrackingTitle>
+    <stf_LinkText><![CDATA[Pelajari Lebih Lanjut]]></stf_LinkText>
+    <stf_MapAltTag><![CDATA[]]></stf_MapAltTag>
+    <stf_Title><![CDATA[Pegunungan dan Pedalaman Flinders]]></stf_Title>
+    <stf_TrackingEvent><![CDATA[feature]]></stf_TrackingEvent>
+    <txt_Text><![CDATA[Amphitheatre alami di padang semak, batu opal, dan seni batu Aborigin.]]></txt_Text> 
+</FeatureBoxItems><FeatureBoxItems isTemplate="1">
+    <anc_InternalLink><![CDATA[/id/explore/icons/kangaroo-island.xml]]></anc_InternalLink>
+    <img_BackgroundImg><![CDATA[/contentimages/kangaroo-island-feature-box.jpg]]></img_BackgroundImg>
+    <img_Map><![CDATA[/contentimages/kangaroo-island-fb-map.png]]></img_Map>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[yes]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_FeatureTrackingTitle><![CDATA[iconskangarooisland]]></stf_FeatureTrackingTitle>
+    <stf_LinkText><![CDATA[Pelajari Lebih Lanjut]]></stf_LinkText>
+    <stf_MapAltTag><![CDATA[]]></stf_MapAltTag>
+    <stf_Title><![CDATA[Pulau Kanguru]]></stf_Title>
+    <stf_TrackingEvent><![CDATA[feature]]></stf_TrackingEvent>
+    <txt_Text><![CDATA[Temui kehidupan liar Australia di habitat alami yang tidak terjamah.]]></txt_Text> 
+</FeatureBoxItems><FeatureBoxItems isTemplate="1">
+    <anc_InternalLink><![CDATA[/id/explore/icons/freycinet.xml]]></anc_InternalLink>
+    <img_BackgroundImg><![CDATA[/contentimages/freycinet-feature-box.jpg]]></img_BackgroundImg>
+    <img_Map><![CDATA[/contentimages/freycinet-fb-map.png]]></img_Map>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[yes]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_FeatureTrackingTitle><![CDATA[iconsfreycinet]]></stf_FeatureTrackingTitle>
+    <stf_LinkText><![CDATA[Pelajari Lebih Lanjut]]></stf_LinkText>
+    <stf_MapAltTag><![CDATA[]]></stf_MapAltTag>
+    <stf_Title><![CDATA[Freycinet]]></stf_Title>
+    <stf_TrackingEvent><![CDATA[feature]]></stf_TrackingEvent>
+    <txt_Text><![CDATA[Pegunungan granit merah jambu, pantai yang tidak terjamah, dan laut biru kehijauan.]]></txt_Text> 
+</FeatureBoxItems><FeatureBoxItems isTemplate="1">
+    <anc_InternalLink><![CDATA[/id/explore/icons/tas-wilderness.xml]]></anc_InternalLink>
+    <img_BackgroundImg><![CDATA[/contentimages/tasmanian-wilderness-feature-box.jpg]]></img_BackgroundImg>
+    <img_Map><![CDATA[/contentimages/tas-wilderness-fb-map.png]]></img_Map>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[yes]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_FeatureTrackingTitle><![CDATA[iconstaswilderness]]></stf_FeatureTrackingTitle>
+    <stf_LinkText><![CDATA[Pelajari Lebih Lanjut]]></stf_LinkText>
+    <stf_MapAltTag><![CDATA[]]></stf_MapAltTag>
+    <stf_Title><![CDATA[Hutan belantara Tasmania]]></stf_Title>
+    <stf_TrackingEvent><![CDATA[feature]]></stf_TrackingEvent>
+    <txt_Text><![CDATA[Nikmati keindahan taman nasional Tasmania.]]></txt_Text> 
+</FeatureBoxItems><FeatureBoxItems isTemplate="1">
+    <anc_InternalLink><![CDATA[/id/explore/icons/gippsland.xml]]></anc_InternalLink>
+    <img_BackgroundImg><![CDATA[/contentimages/gippsland-feature-box.jpg]]></img_BackgroundImg>
+    <img_Map><![CDATA[/contentimages/gippsland-fb-map.png]]></img_Map>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[yes]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_FeatureTrackingTitle><![CDATA[iconsgippsland]]></stf_FeatureTrackingTitle>
+    <stf_LinkText><![CDATA[Pelajari Lebih Lanjut]]></stf_LinkText>
+    <stf_MapAltTag><![CDATA[]]></stf_MapAltTag>
+    <stf_Title><![CDATA[Gippsland]]></stf_Title>
+    <stf_TrackingEvent><![CDATA[feature]]></stf_TrackingEvent>
+    <txt_Text><![CDATA[Tempat hutan tinggi, danau, serta kehidupan liar pantai bertemu.]]></txt_Text> 
+</FeatureBoxItems><FeatureBoxItems isTemplate="1">
+    <anc_InternalLink><![CDATA[/id/explore/icons/great-ocean-road.xml]]></anc_InternalLink>
+    <img_BackgroundImg><![CDATA[/contentimages/great-ocean-road-feature-box.jpg]]></img_BackgroundImg>
+    <img_Map><![CDATA[/contentimages/gor-fb-map.png]]></img_Map>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[yes]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_FeatureTrackingTitle><![CDATA[iconsgreatoceanroad]]></stf_FeatureTrackingTitle>
+    <stf_LinkText><![CDATA[Pelajari Lebih Lanjut]]></stf_LinkText>
+    <stf_MapAltTag><![CDATA[]]></stf_MapAltTag>
+    <stf_Title><![CDATA[Great Ocean Road]]></stf_Title>
+    <stf_TrackingEvent><![CDATA[feature]]></stf_TrackingEvent>
+    <txt_Text><![CDATA[Saksikan drama alam tersibak di setiap belokan.]]></txt_Text> 
+</FeatureBoxItems><FeatureBoxItems isTemplate="1">
+    <anc_InternalLink><![CDATA[/id/explore/icons/kimberley.xml]]></anc_InternalLink>
+    <img_BackgroundImg><![CDATA[/contentimages/kimberley-feature-box.jpg]]></img_BackgroundImg>
+    <img_Map><![CDATA[/contentimages/kimberley-fb-map.png]]></img_Map>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[yes]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_FeatureTrackingTitle><![CDATA[iconskimberley]]></stf_FeatureTrackingTitle>
+    <stf_LinkText><![CDATA[Pelajari Lebih Lanjut]]></stf_LinkText>
+    <stf_MapAltTag><![CDATA[]]></stf_MapAltTag>
+    <stf_Title><![CDATA[The Kimberley]]></stf_Title>
+    <stf_TrackingEvent><![CDATA[feature]]></stf_TrackingEvent>
+    <txt_Text><![CDATA[Cakrawala luas, lautan sebiru langit, ngarai dan berbagai keajaiban alam.]]></txt_Text> 
+</FeatureBoxItems><FeatureBoxItems isTemplate="1">
+    <anc_InternalLink><![CDATA[/id/explore/icons/ningaloo.xml]]></anc_InternalLink>
+    <img_BackgroundImg><![CDATA[/contentimages/whaleshark-ningaloo.jpg]]></img_BackgroundImg>
+    <img_Map><![CDATA[/contentimages/ningaloo-fb-map.png]]></img_Map>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[yes]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_FeatureTrackingTitle><![CDATA[iconsningaloo]]></stf_FeatureTrackingTitle>
+    <stf_LinkText><![CDATA[Pelajari Lebih Lanjut]]></stf_LinkText>
+    <stf_MapAltTag><![CDATA[]]></stf_MapAltTag>
+    <stf_Title><![CDATA[Ningaloo]]></stf_Title>
+    <stf_TrackingEvent><![CDATA[feature]]></stf_TrackingEvent>
+    <txt_Text><![CDATA[Barisan terumbu karang terbesar di Australia menyajikan berbagai kehidupan laut yang mengagumkan.]]></txt_Text> 
+</FeatureBoxItems>
+    </con_FeatureBoxItems>
+</FeatureBoxCountryHolder>
+    </con_FeatureBoxCountries>
+</FeatureBoxHolder>
+    </con_FeatureBox>            
+    <con_Carousel>
+        <CarouselHolder isTemplate="1">
+    <anc_ManagementPage><![CDATA[/id/12013.xml]]></anc_ManagementPage>
+    <hdl_CarouselTitle><![CDATA[Yang dapat dilihat dan dilakukan di Australia]]></hdl_CarouselTitle>
+    <con_CarouselCountries>
+        <CarouselCountryHolder isTemplate="1">
+    <con_CarouselItems>
+        <CarouselItems isTemplate="1">
+    <img_Image><![CDATA[/contentimages/carousel_foodandwine.jpg]]></img_Image>
+    <med_CarouselPDF><![CDATA[]]></med_CarouselPDF>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_CarouselTrackingObject><![CDATA[foodandwineid]]></stf_CarouselTrackingObject>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_Text><![CDATA[]]></stf_Text>
+    <stf_TrackingEvent><![CDATA[carousel]]></stf_TrackingEvent>
+    <anc_InternalLink><![CDATA[/id/explore/things-to-do/food-and-wine.xml]]></anc_InternalLink>
+    <hdl_ItemTitle><![CDATA[Jelajahi kuliner dan budaya anggur Australia]]></hdl_ItemTitle> 
+</CarouselItems><CarouselItems isTemplate="1">
+    <img_Image><![CDATA[/contentimages/carousel-best-of-australia-great-walks.jpg]]></img_Image>
+    <med_CarouselPDF><![CDATA[]]></med_CarouselPDF>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_CarouselTrackingObject><![CDATA[bestofwalksid]]></stf_CarouselTrackingObject>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_Text><![CDATA[]]></stf_Text>
+    <stf_TrackingEvent><![CDATA[carousel]]></stf_TrackingEvent>
+    <anc_InternalLink><![CDATA[/id/explore/things-to-do/great-walks.xml]]></anc_InternalLink>
+    <hdl_ItemTitle><![CDATA[Great Walks of Australia]]></hdl_ItemTitle> 
+</CarouselItems><CarouselItems isTemplate="1">
+    <img_Image><![CDATA[/contentimages/carousel-best-of-australia-luxury-lodges.jpg]]></img_Image>
+    <med_CarouselPDF><![CDATA[]]></med_CarouselPDF>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_CarouselTrackingObject><![CDATA[bestofluxurylodgesid]]></stf_CarouselTrackingObject>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_Text><![CDATA[]]></stf_Text>
+    <stf_TrackingEvent><![CDATA[carousel]]></stf_TrackingEvent>
+    <anc_InternalLink><![CDATA[/id/explore/things-to-do/great-luxury-lodges.xml]]></anc_InternalLink>
+    <hdl_ItemTitle><![CDATA[Luxury Lodges of Australia]]></hdl_ItemTitle> 
+</CarouselItems><CarouselItems isTemplate="1">
+    <img_Image><![CDATA[/contentimages/youthful_icons.jpg]]></img_Image>
+    <med_CarouselPDF><![CDATA[]]></med_CarouselPDF>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_CarouselTrackingObject><![CDATA[youthtravellers]]></stf_CarouselTrackingObject>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_Text><![CDATA[]]></stf_Text>
+    <stf_TrackingEvent><![CDATA[carousel]]></stf_TrackingEvent>
+    <anc_InternalLink><![CDATA[/id/explore/things-to-do/youthful-travellers.xml]]></anc_InternalLink>
+    <hdl_ItemTitle><![CDATA[Australia untuk Wisatawan Muda]]></hdl_ItemTitle> 
+</CarouselItems><CarouselItems isTemplate="1">
+    <img_Image><![CDATA[/contentimages/carousel-holiday-ideas.jpg]]></img_Image>
+    <med_CarouselPDF><![CDATA[]]></med_CarouselPDF>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_CarouselTrackingObject><![CDATA[holidayideas]]></stf_CarouselTrackingObject>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_Text><![CDATA[]]></stf_Text>
+    <stf_TrackingEvent><![CDATA[carousel]]></stf_TrackingEvent>
+    <anc_InternalLink><![CDATA[/id/explore/itineraries-ideas/holiday-ideas.xml]]></anc_InternalLink>
+    <hdl_ItemTitle><![CDATA[Ide-ide liburan di Australia]]></hdl_ItemTitle> 
+</CarouselItems><CarouselItems isTemplate="1">
+    <img_Image><![CDATA[/contentimages/australias-cities-carousel.jpg]]></img_Image>
+    <med_CarouselPDF><![CDATA[]]></med_CarouselPDF>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_CarouselTrackingObject><![CDATA[australiascitiesid]]></stf_CarouselTrackingObject>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_Text><![CDATA[]]></stf_Text>
+    <stf_TrackingEvent><![CDATA[carousel]]></stf_TrackingEvent>
+    <anc_InternalLink><![CDATA[/id/explore/cities/cities.xml]]></anc_InternalLink>
+    <hdl_ItemTitle><![CDATA[Kota-Kota Australia]]></hdl_ItemTitle> 
+</CarouselItems><CarouselItems isTemplate="1">
+    <img_Image><![CDATA[/contentimages/making-tracks-carousel.jpg]]></img_Image>
+    <med_CarouselPDF><![CDATA[]]></med_CarouselPDF>
+    <opt_isExternalLink><![CDATA[yes]]></opt_isExternalLink>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_CarouselTrackingObject><![CDATA[makingtracks]]></stf_CarouselTrackingObject>
+    <stf_externalLink><![CDATA[http://www.australia.com/campaigns/makingtracks-int/id/]]></stf_externalLink>
+    <stf_Text><![CDATA[]]></stf_Text>
+    <stf_TrackingEvent><![CDATA[carousel]]></stf_TrackingEvent>
+    <anc_InternalLink><![CDATA[]]></anc_InternalLink>
+    <hdl_ItemTitle><![CDATA[Making Tracks]]></hdl_ItemTitle> 
+</CarouselItems><CarouselItems isTemplate="1">
+    <img_Image><![CDATA[/contentimages/carousel-national-landscapes.jpg]]></img_Image>
+    <med_CarouselPDF><![CDATA[]]></med_CarouselPDF>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_CarouselTrackingObject><![CDATA[nationallandscapes]]></stf_CarouselTrackingObject>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_Text><![CDATA[]]></stf_Text>
+    <stf_TrackingEvent><![CDATA[carousel]]></stf_TrackingEvent>
+    <anc_InternalLink><![CDATA[/id/nationallandscapes.xml]]></anc_InternalLink>
+    <hdl_ItemTitle><![CDATA[Bentang Alam Nasional Australia]]></hdl_ItemTitle> 
+</CarouselItems><CarouselItems isTemplate="1">
+    <img_Image><![CDATA[/contentimages/walkabout-planner-carousel.jpg]]></img_Image>
+    <med_CarouselPDF><![CDATA[]]></med_CarouselPDF>
+    <opt_isExternalLink><![CDATA[yes]]></opt_isExternalLink>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_CarouselTrackingObject><![CDATA[walkaboutplanner]]></stf_CarouselTrackingObject>
+    <stf_externalLink><![CDATA[http://walkaboutplanner.australia.com/#/?lang=id]]></stf_externalLink>
+    <stf_Text><![CDATA[]]></stf_Text>
+    <stf_TrackingEvent><![CDATA[carousel]]></stf_TrackingEvent>
+    <anc_InternalLink><![CDATA[]]></anc_InternalLink>
+    <hdl_ItemTitle><![CDATA[Jelajahi Australia]]></hdl_ItemTitle> 
+</CarouselItems><CarouselItems isTemplate="1">
+    <img_Image><![CDATA[/contentimages/carousel_golf.jpg]]></img_Image>
+    <med_CarouselPDF><![CDATA[]]></med_CarouselPDF>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_CarouselTrackingObject><![CDATA[bestofgolfid]]></stf_CarouselTrackingObject>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_Text><![CDATA[]]></stf_Text>
+    <stf_TrackingEvent><![CDATA[carousel]]></stf_TrackingEvent>
+    <anc_InternalLink><![CDATA[/id/explore/things-to-do/great-golf-courses.xml]]></anc_InternalLink>
+    <hdl_ItemTitle><![CDATA[Great Golf Courses of Australia]]></hdl_ItemTitle> 
+</CarouselItems>
+    </con_CarouselItems>
+</CarouselCountryHolder>
+    </con_CarouselCountries>
+</CarouselHolder>
+    </con_Carousel>
+    <con_Video>
+        
+    </con_Video>
+    <con_Footer>
+        <GlobalFooterControlInclude isTemplate="1">
+    <!-- no user code -->
+</GlobalFooterControlInclude>
+    </con_Footer>
+    <con_Banner>
+        <HomepageBannerHolder isTemplate="1">
+    <hdl_Title><![CDATA[Homepage Banner Holder]]></hdl_Title>
+    <con_Banner>
+        <HomepageBannerCountryHolder isTemplate="1">
+    <hdl_Title><![CDATA[ID]]></hdl_Title>
+    <lst_Subpages>
+        <url><a href="/id/12047.ignore">QLD</a></url>
+        <img_Banner><![CDATA[]]></img_Banner> 
+        <stf_Caption><![CDATA[]]></stf_Caption> 
+    </lst_Subpages>
+    <stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry> 
+</HomepageBannerCountryHolder> 
+    </con_Banner>
+</HomepageBannerHolder>
+    </con_Banner>        
+    <con_FooterScript>
+        <GlobalFooterJSReference isTemplate="1">
+    <!-- no user content -->
+</GlobalFooterJSReference>
+    </con_FooterScript>
+    <lst_Promotions>
+    </lst_Promotions>
+    <lst_Subpages>
+        <lst_Subpage><![CDATA[<a href="/id/tools-campaigns.xml">Tools and Campaigns</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/id/about.xml">Tentang</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/id/explore.xml">Jelajah</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/id/plan.xml">Rencana</a>]]></lst_Subpage>
+    </lst_Subpages>
+</ConsumerHomepageFoundation>

@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="22253" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[ホーム]]></headline>
+            <href><![CDATA[/jp/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Tools and Campaigns]]></headline>
+            <href><![CDATA[/jp/tools-campaigns.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[オーストラリアを代表する景観]]></headline>
+            <href><![CDATA[/jp/nationallandscapes.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[シドニー・ハーバー]]></headline>
+            <href><![CDATA[/jp/nationallandscapes/sydney-harbour.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/Campaigns/national-landscapes-sydney-harbour.jpg]]></img_background>
+    <hdl_Title><![CDATA[シドニー・ハーバー]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/national-landscapes-sydney-harbour-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/Campaigns/national-landscapes-sydney-harbour-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[yes]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[キンバリーに行って、本物の感動を味わってください。はるかオーストラリア大陸の北西の端にあり、荒々しい岩の景色、どこまでも続く湖や川、きらめく大海原が広がっていて、その限りない広さが最大の魅力です。]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[Sydney Harbour, Sydney Opera House, Sydney Harbour Bridge, Aboriginal heritage, Royal Botanic Gardens, Mrs Macquarie’s Chair]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[詳細はこちらから]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[オーストラリアを代表する景観：シドニー・ハーバー - オーストラリア政府観光局]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        キンバリーに行って、本物の感動を味わってください。はるかオーストラリア大陸の北西の端にあり、荒々しい岩の景色、どこまでも続く湖や川、きらめく大海原が広がっていて、その限りない広さが最大の魅力です。
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <StandardCampaignLayout isTemplate="1">
+    <opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+    <hdl_Title><![CDATA[]]></hdl_Title>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+    <con_Banner><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<DIV id=headerimage>
+<SCRIPT type=text/javascript src="../../static/js/jquery.cycle.all.latest.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+jQuery(document).ready(function() {
+jQuery('#headersliderwrapper').cycle({
+        fx:'fade',
+        slideExpr: '.headerslide'
+    });
+});
+</SCRIPT>
+
+<DIV id=headersliderwrapper>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-syd-01.jpg"> 
+<DIV class=headerslideinfo>シドニー・ハーバー国立公園、ニュー・サウス・ウェールズ州</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-syd-02.jpg"> 
+<DIV class=headerslideinfo>海沿いの道、王立国立公園、ニュー・サウス・ウェールズ州</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-syd-03.jpg"> 
+<DIV class=headerslideinfo>アメリカ・ベイ・トラック、クーリンガイ・チェイス国立公園、ニュー・サウス・ウェールズ州</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-syd-04.jpg"> 
+<DIV class=headerslideinfo>ブラッドリーズ・ヘッドからの眺め、ニュー・サウス・ウェールズ州</DIV></DIV></DIV></DIV>
+<DIV id=subpage-header-overlay></DIV>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule></con_Banner>
+    <con_Body><TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[シドニー・ハーバー]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        シドニー（Sydney）は、美しい天然の港に面する港湾都市です。 アボリジニの神話であるドリームタイムの時代から、シドニー・オペラ・ハウス（Sydney Opera House）やシドニー・ハーバー・ブリッジ（Sydney Harbour Bridge）に象徴される驚異的発展を遂げた現代に至るまで、シドニー・ハーバーはこの活気あふれる街の心のよりどころでした。 近隣には、国立公園や数々の世界遺産、アボリジニの史跡、囚人遺跡群などがあります。 澄み切った海で泳いだり、人気のない入江を探索したりしてみませんか。のどかな公園の中をサイクリングしたり、崖の上から海に昇る朝日を眺めるのもいいでしょう。 シドニー・ハーバーから海岸と水路に沿って広がるシドニーは、豊かな自然と文化を誇り、訪れるたびに発見があるさまざまな魅力を秘めた街です。
+        <p><strong>シドニー・ハーバーを楽しむ5つの方法</strong></p>
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[1. シドニーの街の風景を楽しむ]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-sydney-harbour-hl01.jpg" alt="シドニーの街の風景">]]></img_MainImage>
+                    <stf_Caption><![CDATA[シドニーの街の風景]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        シドニー・ハーバーは、世界で最も多彩な景観に恵まれた場所の1つです。 壮大な海岸線はどこまでも果てることなく、自然のすばらしさを感じることができます。 シドニー・ハーバー・ブリッジに登れば、東はシドニーの岬、西はグレーター・ブルー・マウンテンズ（Greater Blue Mountains）まで、目の前に雄大なパノラマが広がります。 シドニー郊外には、都会のオアシス、王立植物園（Royal Botanic Garden）があります。ここでは、キャプテン・クックの航海にまでさかのぼる珍しい植物を見ながら、オーストラリアの起源に思いをはせることができます。 ミセス・マッコーリーズ・チェア（Mrs. Macquarie's Chair）に行って最前列の席に座り、目の前に広がるすばらしい風景を堪能したり、オーストラリア最古のヨーロッパ人の入植地、ロックス（The Rocks）にも足を延ばしてみましょう。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[2. シドニー・ハーバーのアトラクション]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-sydney-harbour-hl02.jpg" alt="ニールセン・パーク（Nielsen Park）でのシュノーケリング">]]></img_MainImage>
+                    <stf_Caption><![CDATA[ニールセン・パーク（Nielsen Park）でのシュノーケリング]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        シドニー・ハーバー内に点在する島々では、オーストラリアのアボリジニや囚人、そして海の歴史の面影を見ることができます。 サーキュラー・キー（Circular Quay）からフェリーに乗り、フォート・デニソン（Fort Denison）やゴート（Goat）などの島を訪れてみましょう。 世界遺産に登録されているコカトゥー島（Cockatoo Island）で夜通しキャンプすれば、周囲のあちこちできらめく街のあかりを楽しむことができます。 昔に戻って、歴史的な大型帆船に乗って帆を上げたり、トライバル・ウォリアー（Tribal Warrior）ではシドニー・ハーバーのアボリジニの歴史を学ぶこともできます。 ワイルド・ライフ・シドニー（Wild Life Sydney）、シドニー水族館（Sydney Aquarium）、タロンガ動物園（Taronga Zoo）では、オーストラリアならではの野生動物を見ることができます。 ローズ・ベイ（Rose Bay）からニールセン・パーク、ワトソンズ・ベイ・ウォーク（Watsons Bay Walk）にかけては、シュノーケリングが楽しめます。 フィッシュ・アンド・チップスをほおばりながら、ワトソンズ・ベイ（Watson’s Bay）から街を背景に浮かぶヨットを眺めたら、美しい風景を楽しみながらサウス・ヘッド（South Head）まで歩いてみましょう。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[3. シドニーの国立公園]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-sydney-harbour-hl03.jpg" alt="コースト・トラック（Coast Track）、王立国立公園">]]></img_MainImage>
+                    <stf_Caption><![CDATA[コースト・トラック（Coast Track）、王立国立公園]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        シドニーの国立公園では、オーストラリアの歴史を振り返ることができます。ここでは、オーストラリアの豊かな動植物や古代のアボリジニの文化遺跡、軍事要塞などが保存されています。 また、数多くのスイミング・スポットや、自然の中で生きる野生動物が見られるブッシュ・ウォーキング・トラックもあります。 この豊かな緑の中心にあるのが、広大なシドニー・ハーバー国立公園（Sydney Harbour National Park）です。公園は、ポート・ジャクソン（Port Jackson）への入り口のノース・ヘッド（North Head）とサウス・ヘッドの渚に沿って広がっています。 1830年代に最初の移民船が到着した古い検疫局（Quarantine Station）も見学できます。 冬にやって来るクジラを見るのをお忘れなく。 ミドル・ヘッド（Middle Head）からは、太平洋の水平線を眺めることができます。 ブッシュの再生に取り組むボランティアにもぜひご参加ください。 シドニーの南部にある王立国立公園内のコースト・トラックを歩き、ブンディーナ（Bundeena）からオットフォード（Otford）まで、崖やビーチ、景勝地にも立ち寄ってみましょう。 王立国立公園だけで、300種を超える鳥類が観察されています。 シドニーの北部にあるクーリンガイ・チェイス国立公園（Ku-ring-gai Chase National Park）では、低木林地と湾が見事に調和し、美しい砂浜が目と鼻の先に広がっています。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[4. アボリジニ体験]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-sydney-harbour-hl04.jpg" alt="アボリジニの文化と触れあう">]]></img_MainImage>
+                    <stf_Caption><![CDATA[アボリジニの文化と触れあう]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        アボリジニの人々とこの土地の長い歴史の跡が、この地のあちこちに点在する岩肌の線刻画、貝塚、野営地、傷跡の残った木、ステンシルに残されています。 アボリジニのガイドの案内でロックスのウォークアバウトに出かけ、ガディガル族の伝統と文化に触れてみましょう。 パラマッタ（Parramatta）へのクルーズに出かけたら、リバーサイド・ウォーク（Riverside Walk）を散策し、パラマッタ・パーク（Parramatta Park）に点在する木々を探してみましょう。 クーリンガイ・チェイスではアボリジニの文化に触れるツアーに参加し、ブロンテ（Bronte）に沿ってボンダイ・コースト・ウォーク（Bondi Coastal Walk）まで、岩肌の線刻画を探してみてください。 もし現代のアボリジニの文化を体験したいなら、バンガラ・ダンス・シアター（Bangarra Dance Theatre）での公演を見たり、レッドファーン（Redfern）のパープル・ゴアナ（Purple Goanna）かビクトリア・パーク（Victoria Park）のガーデナーズ・ロッジ・カフェ（Gardener’s Lodge Caf&eacute;）でブッシュ・タッカーをお試しください。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[5. 港と海岸の旅]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-sydney-harbour-hl05.jpg" alt="王立国立公園でのカヤック">]]></img_MainImage>
+                    <stf_Caption><![CDATA[王立国立公園でのカヤック]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        ここは、大洋を臨むビーチでのサーフィンから湾内のビーチでのスタンドアップ・パドル・ボードまで、海のスポーツのパラダイスです。 水路をカヤックで巡り、自分だけのお気に入りの場所を見つけましょう。 ブロンテ（Bronte）やフレッシュウォーター（Freshwater）などの地元で人気のビーチで、泳いで火照った体を冷やしたり、岩のくぼみにできた池の周りを散策したり、 ハーバーのクルーズに出かけ、団体ツアーの海中水泳に参加してみるのもいいでしょう。 シドニー・オリンピック・パーク（Sydney Olympic Park）のバイセンテニアル・パーク（Bicentennial Park）の川沿いの湿地帯には、さまざまな海鳥が生息しています。パラマタ川（Parramatta River）に残る最大のマングローブの森を散策してみてください。 クロブリー（Clovelly）でのシュノーケリング・サファリでは、海底の生物の豊かな生態を垣間見ることができます。何か青いものがいたら、ブルー・グローパーかもしれません。ベア島（Bare Island）では、サンド・レイ・フィッシュや色とりどりの海綿動物を見ることができます。 シドニーで最もエキサイティングなダイビング・スポットのひとつ、ゴードンズ・ベイ（Gordon’s Bay）のアンダーウォーター・ネイチャー・トレイル（Underwater Nature Trail）ではダイビングを楽しむことができます。タコやイカ、色鮮やかなウミウシも間近で見ることができます。
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights></con_Body>
+    <con_RHSModules><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<TABLE cellSpacing=0 cellPadding=0 width=298 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top align=center>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD style="WIDTH: 25px"></TD>
+<TD><!-- #BeginLibraryItem "/Library/sitenav.lbi" -->
+<SCRIPT language=JavaScript1.2 type=text/javascript src="../../static/js/stmenu.js"></SCRIPT>
+<!-- #EndLibraryItem --></TD></TR></TBODY></TABLE><!-- Google Map Start -->
+<SCRIPT type=text/javascript>
+function fireEvent(obj,evt){
+ var fireOnThis = obj;
+ if( document.createEvent ) {
+   var evObj = document.createEvent('MouseEvents');
+   evObj.initEvent( evt, true, false );
+   fireOnThis.dispatchEvent(evObj);
+ } else if( document.createEventObject ) {
+   fireOnThis.fireEvent('on'+evt);
+ }
+}function clickLink(linkobj) {
+     if (linkobj.getAttribute('onclick') == null) {
+     if (linkobj.getAttribute('href')) document.location = linkobj.getAttribute('href');
+     }
+     else linkobj.onclick();
+}
+function loadjscssfile(filename, filetype){
+ if (filetype=="js"){ //if filename is a external JavaScript file
+  var fileref=document.createElement('script')
+  fileref.setAttribute("type","text/javascript")
+  fileref.setAttribute("src", filename)
+ }
+ else if (filetype=="css"){ //if filename is an external CSS file
+  var fileref=document.createElement("link")
+  fileref.setAttribute("rel", "stylesheet")
+  fileref.setAttribute("type", "text/css")
+  fileref.setAttribute("href", filename)
+  fileref.setAttribute("media", "print")
+ }
+ if (typeof fileref!="undefined")
+  document.getElementsByTagName("head")[0].appendChild(fileref)
+}
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+var icheckk=0;
+jQuery.each(jQuery.browser, function(i, val) {
+if(i=="msie" && jQuery.browser.version.substr(0,3)=="7.0")
+icheckk=1;
+});
+function myfun()
+{
+loadjscssfile("../../static/css/thickbox.css", "css");
+if(icheckk==1)
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='../../static/maps/jp/sydneyharbour/bigmap.html'  target='_blank'>&nbsp;印刷|クローズ|&nbsp;またはEscキーを押して</a></b>","../../static/maps/jp/sydneyharbour/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+else
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='javascript:window.print()' >&nbsp;印刷|クローズ|&nbsp;またはEscキーを押して</a></b>","../../static/maps/jp/sydneyharbour/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+}
+         </SCRIPT>
+<IFRAME style="MARGIN-BOTTOM: 20px; BORDER-TOP: black 1px solid; HEIGHT: 355px; BORDER-RIGHT: black 1px solid; BORDER-BOTTOM: black 1px solid; FLOAT: left; PADDING-BOTTOM: 5px; BORDER-LEFT: black 1px solid; BACKGROUND-COLOR: #333333" height=380 src="../../static/maps/jp/sydneyharbour/index.html" frameBorder=0 width=249 name=FRAMENAME scrolling=no></IFRAME><!-- Google Map end -->
+<DIV class=subpage-video-thumb style="TEXT-ALIGN: left"><A onclick="moduleTrackingWithTitle('lightbox-video','',false,'nationallandscapes-sydneyharbourjp');" href="#" data-reveal-id="modalVideo"><IMG alt="" src="/contentimages/Campaigns/national-landscapes-video-jp.jpg"></A> </DIV>
+<DIV id=modalVideo class="reveal-modal video" style-="z-index: 103;"><A class=close-reveal-modal><SPAN class=icon></SPAN></A>
+<DIV class=video style="VISIBILITY: visible !important"><IFRAME height=315 src="//www.youtube.com/v/EjGZ3MaX9pE?version=3&amp;hl=en_GB" frameBorder=0 width=560></IFRAME></DIV></DIV></TD></TR></TBODY></TABLE>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule><Listing isTemplate="1">
+<anc_List1><![CDATA[/jp/explore/itineraries/nsw-3days-sydney.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[オーストラリアのその他の観光地]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/jp/AccommodationSearch.ignore]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/jp/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/jp/AttractionSearchResults.ignore]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/jp/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/jp/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/jp/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/jp/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/jp/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/jp/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/jp/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/jp/Transport.aspx]]></anc_Transport>
+<hdl_Title><![CDATA[シドニー・ハーバーへの旅行計画を立てる]]></hdl_Title>
+<language><![CDATA[JPN]]></language>
+<stf_Accomodation><![CDATA[Accommodation]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[Sydney]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[Attractions]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[Find a travel agent near you]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[Destination Information]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[Events]]></stf_Events>
+<stf_Hire><![CDATA[Hire]]></stf_Hire>
+<stf_Informationservices><![CDATA[Information]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[New South Wales]]></stf_StateFilter>
+<stf_Tours><![CDATA[Tours]]></stf_Tours>
+<stf_Transport><![CDATA[Transport]]></stf_Transport>
+</PlanYourVisit></con_RHSModules>
+    <con_Category></con_Category>
+    <lst_Subpages>
+    </lst_Subpages>
+</StandardCampaignLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

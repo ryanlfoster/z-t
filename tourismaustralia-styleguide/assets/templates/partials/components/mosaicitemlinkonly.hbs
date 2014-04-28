@@ -1,0 +1,39 @@
+---
+title: Mosaic Item - Link Only (class name "outbound-link" added to container)
+---
+
+<div class="mosaic-item">
+    <div class="mosaic-front-back-container flip-container outbound-link">
+        <div class="flipper">
+
+            <div class="mosaic-column-front flip-front">
+                <div class="mosaic-media mosaic-primary">
+                    {{#if mosaic_image}}<img src="imgs/placeholders/{{{mosaic_image}}}.jpg" alt=""/>{{else}}<img src="imgs/placeholders/meganav-img1.jpg" alt=""/>{{/if}}
+                </div>
+                <div class="mosaic-overlay">
+                    <div class="vertical-container">
+                        <div class="vertical-content text-center">
+                            <span class="label-destination type-destination {{#if mosaic_theme}}theme-{{{mosaic_theme}}}{{else}}theme-sports{{/if}}">{{#if mosaic_title}}{{{mosaic_title}}}{{else}}Some Title{{/if}}</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mosaic-column-back mosaic-content flip-back mosaic-back {{#if mosaic_theme}}theme-{{{mosaic_theme}}}{{else}}theme-sports{{/if}}">
+                <div class="vertical-container">
+                    <a href="#" class="mosaic-link vertical-content text-center">
+                        <span class="mosaic-icon">
+                            {{> icon_generic }}
+                        </span>
+                        <p class="type-destination line-through-line-wrapper">{{#if mosaic_title}}{{{mosaic_title}}}{{else}}Some Title{{/if}}</p>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+
+

@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="206" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Inicio]]></headline>
+            <href><![CDATA[/es-la/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Acerca de]]></headline>
+            <href><![CDATA[/es-la/about.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Australiano Cultura]]></headline>
+            <href><![CDATA[/es-la/about/culture-history/culture.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/about-culture-history.jpg]]></img_background>
+    <hdl_Title><![CDATA[Australiano Cultura]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/about-culture-history-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[no]]></opt_PartnerLead>
+    <stf_description><![CDATA[Lea sobre la cultura australiana, los que luchan contra la adversidad, salteadores y valientes soldados. Se basa en la justicia, grandes parajes e iron&iacute;a.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[Australia, la cultura, Battlers, salteadores, los soldados, los migrantes, el deporte, aire libre, artes, multicultural, colonial, la tradici&oacute;n, estilo de vida, diversos, teatro, cine, libros, arte, pintura, danza, artesan&iacute;a, teatro, museos]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Mayor informaci&oacute;n]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Australiano Cultura - Tourism Australia]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <PlanYourHolidayBox isTemplate="1">
+    <anc_MoreLink><![CDATA[]]></anc_MoreLink>
+    <hdl_Headline><![CDATA[Planifique sus vacaciones]]></hdl_Headline>
+    <language><![CDATA[ESS]]></language>
+    <opt_IsOnHomepage><![CDATA[]]></opt_IsOnHomepage>
+    <stf_MenuIconClass><![CDATA[]]></stf_MenuIconClass>
+    <stf_More><![CDATA[More]]></stf_More>
+    <stf_PlanYourHolidayTitle><![CDATA[Plan your holiday]]></stf_PlanYourHolidayTitle>
+    <lst_PageLinks>
+        <lst_PageLink>
+            <url><![CDATA[/es-la/plan/plan-your-trip/find-travel-agent.xml]]></url>
+            <hdl_Title><![CDATA[Buscar especialista en viajes]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/es-la/plan/plan-your-trip/getting-there.xml]]></url>
+            <hdl_Title><![CDATA[C&oacute;mo llegar a Australia]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/es-la/plan/plan-your-trip/accommodation.xml]]></url>
+            <hdl_Title><![CDATA[Alojamiento]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/es-la/plan/plan-your-trip/tours.xml]]></url>
+            <hdl_Title><![CDATA[Descubra excursiones]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/es-la/plan/plan-your-trip/specialoffers.xml]]></url>
+            <hdl_Title><![CDATA[Ofertas especiales*]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+    </lst_PageLinks>
+</PlanYourHolidayBox>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <FeatureContent isTemplate="1">
+    <hdl_Title><![CDATA[Australiano Cultura]]></hdl_Title> 
+    <stf_MoreLinkTitle><![CDATA[]]></stf_MoreLinkTitle>
+    <txt_MainContent><![CDATA[
+        <strong>La cultura australiana se basa en historias de “battlers” (personas que no tienen miedo a afrontar la adversidad), proscritos y valientes soldados.</strong> <br />
+        De h&eacute;roes del deporte, trabajadores y emigrantes intr&eacute;pidos. Es una cultura que combina la igualdad de derechos, magn&iacute;ficos parajes naturales y una buena dosis de iron&iacute;a. La Australia actual se define tambi&eacute;n por su <a href="/es-la/explore/things-to-do/aboriginal-australia.xml" target="_self">patrimonio aborigen</a>, una <a href="/es-la/explore/australian-events/art-events.xml" target="_self">mezcla vibrante de culturas</a>, ideas innovadoras y un pr&oacute;spero ambiente art&iacute;stico.
+        <p><strong>Cultura aborigen: una rica tradici&oacute;n eterna </strong><br />
+        El Dreamtime representa la &eacute;poca antes del tiempo de la creaci&oacute;n del mundo. Seg&uacute;n la creencia aborigen, los esp&iacute;ritus ancestrales tot&eacute;micos salieron de la tierra y bajaron del cielo para despertar a un mundo oscuro y en silencio. Crearon el sol, la luna, las estrellas, las monta&ntilde;as, los r&iacute;os, los &aacute;rboles y los abrevaderos, y se transformaron en seres humanos y animales. Estos esp&iacute;ritus ancestrales conectan este antiguo pasado con el presente y el futuro a trav&eacute;s de cada aspecto de la cultura aborigen. El <a href="/es-la/explore/icons/kakadu/nt-rock-art.xml" target="_self">arte rupestre</a>, la artesan&iacute;a y las pinturas en corteza revelan historias del Dreamtime, marcan los territorios y son los testigos de la historia, mientras que las canciones narran historias sobre los viajes del Dreamtime, que describen fuentes de agua y otros puntos de inter&eacute;s esenciales. Estas leyendas se han transmitido de generaci&oacute;n en generaci&oacute;n, pr&aacute;cticamente intactas, desde hace al menos 50000 a&ntilde;os, y suelen cantarse acompa&ntilde;adas de bilmas o del ritmo profundo del didgeridoo. Asimismo, las danzas tradicionales revelan los mitos de la creaci&oacute;n y representan las haza&ntilde;as de los h&eacute;roes del Dreamtime e, incluso, hechos hist&oacute;ricos recientes. </p>
+        <p><strong>Mitos coloniales: battlers, reos y valientes soldados<br />
+        </strong>Los australianos creen en la camarader&iacute;a, en la igualdad de derechos y sienten un gran afecto por el desamparado o battler (aquella persona que no tiene miedo a afrontar la adversidad). Estos valores proceden de los reos y de los primeros colonos que lucharon contra un entorno hostil y extra&ntilde;o y una autoridad injusta. El desterrado m&aacute;s conocido de Australia, Ned Kelly, protestaba contra la pobreza y la injusticia de un sistema de clases, llegado en barco desde Gran Breta&ntilde;a junto a los presidiarios. La lucha de este h&eacute;roe “imperfecto” por “la justicia, la libertad y la gente inocente” se ha adoptado como parte de la cultura nacional y ha inspirado un sinf&iacute;n de libros y pel&iacute;culas. En la &eacute;poca de los yacimientos de oro de mediados de 1850, las historias y las canciones describ&iacute;an a los buscadores de oro como h&eacute;roes rom&aacute;nticos, bravucones y villanos que abrazaban los ideales de la democracia. La sangrienta rebeli&oacute;n de Eureka Stockade, que tuvo lugar en 1854, donde los mineros victorianos se rebelaron contra un sistema de licencias impuesto por las autoridades, se convirti&oacute; en un s&iacute;mbolo del triunfo de la igualdad social. Posteriormente, durante la Primera Guerra Mundial, los valientes soldados del ANZAC, que sirvieron en Gallipoli, aportaron un nuevo significado al t&eacute;rmino “australiano duro” (tough Aussie).  </p>
+        <p><strong>Ingl&eacute;s australiano: hablar el strine </strong><br />
+        Los australianos usan un lenguaje coloquial &uacute;nico, bautizado strine por el ling&uuml;ista Alastair Morrison (pruebe pronunciar la palabra “australiano” con los dientes perfectamente cerrados para evitar que entren las moscas) en 1966. Este lenguaje combina muchos refranes cockney e irlandeses, desaparecidos con el paso del tiempo, con palabras de las lenguas abor&iacute;genes. Solemos acortar las palabras y a&ntilde;adir una “o” o “ie” al final, como por ejemplo en la frase bring your cossie to the barbie this arvo en lugar de bring your swimming costume to the barbacue this afternoon (trae el traje de ba&ntilde;o para la barbacoa de esta tarde). Tambi&eacute;n nos gusta invertir el significado de los apodos y llamamos a las personas pelirrojas bluey (azulado), snowy (blanco como la nieve) a las personas con el pelo oscuro y lofty (alto) a alguien con baja estatura. Solemos arrastrar las vocales y finalizar las frases con una ligera inflexi&oacute;n ascendente de la voz. </p>
+        <p><strong>H&eacute;roes del deporte: la gloria de los campos deportivos y del oro <br />
+        </strong>Es un secreto a voces que a los australianos les encantan los deportes. Con m&aacute;s de 120 organizaciones deportivas nacionales y miles de organizaciones locales, regionales y estatales, se calcula que seis millones y medio de australianos practican alg&uacute;n tipo de deporte. Una cifra nada desde&ntilde;able para una poblaci&oacute;n que apenas supera los 21 millones. El deporte m&aacute;s seguido de Australia es la <a href="/es-la/explore/events/afl-events.xml" target="_self">Liga Australiana de F&uacute;tbol</a> (AFL) con sus grandes patadas y saltos coreogr&aacute;ficos, mientras que la fuerza bruta y las t&aacute;cticas de placaje de la Liga Nacional de Rugby (NRL) no tienen rival en <a href="/es-la/explore/states/nsw.xml" target="_self">Nueva Gales del Sur</a> y <a href="/es-la/explore/states/qld.xml" target="_self">Queensland</a>. El equipo nacional de rugby de Australia, los Wallabies, juega en el circuito internacional y en la <a href="/es-la/explore/events/bledisloe-cup.xml" target="_self">Copa Bledisloe</a>, competici&oacute;n que forma parte de un torneo de las Tres Naciones con Sud&aacute;frica.  Australia es una naci&oacute;n de nadadores y las medallas ol&iacute;mpicas atestiguan nuestros logros en la piscina.  Durante el verano, nos volcamos con los integrantes el equipo de cr&iacute;quet australiano, con sus uniformes blancos; y, en enero, cambiamos de canal para ver el <a href="/es-la/explore/events/australian-open.xml" target="_self">Abierto de Tenis de Australia</a>. Este torneo se celebra en <a href="/es-la/explore/cities/melbourne.xml" target="_self">Melbourne</a> y atrae a m&aacute;s p&uacute;blico que ning&uacute;n otro evento deportivo. El f&uacute;tbol es un deporte que est&aacute; ganando cada vez m&aacute;s seguidores, contamos con surfistas de primera para competir en el Bells Beach Surf Classic y en el Boxing Day (D&iacute;a despu&eacute;s de Navidad) el p&uacute;blico se congrega para observar c&oacute;mo los barcos salen del puerto de S&iacute;dney en la <a href="/es-la/explore/events/syd-hobart-yacht-race.xml" target="_self">Regata S&iacute;dney-Hobart</a>. El primer martes de noviembre, la naci&oacute;n se paraliza para disfrutar de la famosa carrera de caballos, la <a href="/es-la/explore/events/melbourne-cup-carnival.xml" target="_self">Copa de Melbourne</a>, mientras que en marzo los apasionados del motor se re&uacute;nen en Melbourne para asistir al <a href="/es-la/explore/events/vic-australian-grand-prix.xml" target="_self">Gran Premio de Australia de F&oacute;rmula 1</a>. La lista de los deportes que nos apasionan contin&uacute;a, y si tiene alguna duda sobre las reglas, solo tiene que preguntar a un aficionado local.  </p>
+        <p><strong>Un estilo de vida al aire libre: playa y barbacoas <br />
+        </strong>Con m&aacute;s del 80% de la poblaci&oacute;n viviendo a menos de 50 k de la <a href="/es-la/about/australias-landscapes/coastal.xml" target="_self">costa</a>, la playa se ha convertido en parte integral de nuestro relajado estilo de vida. Desde clases de surf para ni&ntilde;os los s&aacute;bados por la ma&ntilde;ana hasta jugar un partido de cr&iacute;quet en la playa despu&eacute;s de una barbacoa, nos encanta disfrutar de nuestras playas. Nos peleamos por un hueco en las playas urbanas, colmadas de gente; nos relajamos en populares destinos tur&iacute;sticos, y vamos en auto a playas secretas y solitarias, en las costas de los parques nacionales. Vamos a la playa para disfrutar del sol, del <a href="/es-la/explore/things-to-do/australian-adventure/nat-surfing.xml" target="_self">surf</a> o a practicar deportes de vela, parasail, pesca, snorkel, <a href="/es-la/explore/things-to-do/australian-adventure/nat-diving.xml" target="_self">submarinismo</a> o simplemente en busca de conchillas. Es el lugar donde se desarrolla nuestra vida social, practicamos deporte, descansamos y disfrutamos de veladas rom&aacute;nticas. Es tambi&eacute;n el enclave perfecto para las celebraciones. En fin de a&ntilde;o, los amantes de las fiestas bailan en la arena disfrutando de los fuegos artificiales en las playas de Manly y Bondi, en S&iacute;dney y <a href="/es-la/explore/cities/adelaide/sa-glenelg-beach.xml" target="_self">Glenelg</a>, en Adelaida. Los australianos suelen celebrar ceremonias con motivo del <a href="/es-la/explore/events/australia-day.xml" target="_self">D&iacute;a de Australia</a> en las playas y, el d&iacute;a de Navidad, unos 40 000 visitantes internacionales, con gorros de Santa Claus y trajes de ba&ntilde;o, se re&uacute;nen en Bondi Beach para celebrar este d&iacute;a.  Las playas m&aacute;s famosas de Australia, Bondi y Manly en S&iacute;dney, St Kilda en Melbourne, <a href="/es-la/explore/cities/gold-coast/qld-surfing.xml" target="_self">Surfers Paradise</a> en la Costa Dorada de Queensland, Cottesloe en Perth y Glenelg en Adelaida, congregan a la poblaci&oacute;n local, as&iacute; como a turistas internacionales.  </p>
+        <p><strong>La diversidad cultural en la cocina, los festivales y las religiones </strong><br />
+        Desde 1945, m&aacute;s de seis millones de personas de todos los rincones del mundo han venido a vivir a Australia. Hoy en d&iacute;a, m&aacute;s del 20% de los australianos ha nacido en el extranjero, y m&aacute;s del 40% tienen un origen cultural mixto. En nuestras casas hablamos 226 idiomas: tras el ingl&eacute;s, los m&aacute;s utilizados son el italiano, el griego, el canton&eacute;s y el &aacute;rabe.  La rica diversidad cultural se refleja en nuestra gastronom&iacute;a, que abarca la mayor&iacute;a de las cocinas internacionales y fusiona ingeniosamente unas cuantas. Degustar&aacute; sabores europeos, las t&iacute;picas especias de Asia, &Aacute;frica y Oriente Medio y el bush tucker", nuestra cocina aut&oacute;ctona, en cualquier lugar: desde puestos callejeros hasta restaurantes de cinco tenedores. Pruebe la comida tailandesa para llevar, saboree una buena pasta italiana, disfrute de unas fant&aacute;sticas tapas en los barrios espa&ntilde;oles de nuestras ciudades y deleitese con un fest&iacute;n de empanaditas asi&aacute;ticas en el Barrio Chino. Puede tambi&eacute;n sumergirse en nuestro crisol de culturas en los numerosos festivales llenos de colorido. Disfrute de actuaciones de zamba y capoeira en el Festival brasile&ntilde;o de Bondi, baile tras el desfile del drag&oacute;n, durante las celebraciones del A&ntilde;o Nuevo Chino, o recorra las calles, transformadas en una bulliciosa piazza, durante las celebraciones anuales italianas. Nuestra naci&oacute;n abraza varias creencias religiosas y podr&aacute; encontrar iglesias cat&oacute;licas, anglicanas, templos hind&uacute;es, sikh, budistas, mezquitas y sinagogas por nuestras calles.</p>
+        <p><strong>Innovaciones australianas: desde el tendedero Hills Hoist hasta la penicilina <br />
+        </strong>La geograf&iacute;a &uacute;nica y el relativo aislamiento de este pa&iacute;s, lo convierten en un terreno f&eacute;rtil para ideas innovadoras. En 1879, los australianos desarrollaron un procedimiento para fabricar hielo de forma artificial, lo que nos permiti&oacute; exportar carne a Gran Breta&ntilde;a en barcos refrigerados. En 1906, el carrete salvavidas se dise&ntilde;&oacute; para que los salvavidas pudieran llegar a los nadadores que se encontraban en apuros, con una cuerda atada a sus chalecos. En 1929, Alfred Traeger cre&oacute; una radio a pedal destinada a la comunicaci&oacute;n del Royal Flying Doctor Service.  </p>
+        <p>Los australianos han sido tambi&eacute;n los responsables de m&aacute;s inventos de uso diario, como es el caso de los blocs de notas (1902), la aspirina (1915), el marcapasos (1926), la penicilina (1940), el tendedero Hills Hoist (1946), la jeringa de pl&aacute;stico descartable (1949), el tonel de vino (1965), el o&iacute;do bi&oacute;nico (1978), la cisterna doble (1980), la tecnolog&iacute;a para evitar la falsificaci&oacute;n de billetes (1992) y las lentes de contacto de uso prolongado (1999).  </p>
+        <p>Mucho antes de la colonizaci&oacute;n europea, las tribus abor&iacute;genes ya lideraban el mundo. Inventaron el bumer&aacute;n aerodin&aacute;mico y un tipo de est&oacute;lica, denominada woomera. Fueron tambi&eacute;n la primera sociedad en usar los bordes de los &uacute;tiles de piedra y los primeros en utilizar utensilios de piedra para moler semillas; utensilios cotidianos que otras civilizaciones tardaron mucho m&aacute;s en desarrollar. </p>
+        <p><strong>Sed de cultura: teatro, cine, libros y artes visuales <br />
+        </strong>Desde el teatro hasta la literatura, los australianos sienten verdadera pasi&oacute;n por el arte. Nos gusta acudir a los cines, y nuestra asistencia a galer&iacute;as y espect&aacute;culos de artes esc&eacute;nicas casi duplica a la de todos los partidos de f&uacute;tbol y rugby. Nuestras ciudades albergan una gran variedad de <a href="/es-la/explore/australian-events/culture-events.xml" target="_self">festivales culturales</a> vanguardistas y todos los d&iacute;as de la semana se ofrecen espect&aacute;culos de m&uacute;sica, teatro y danza y exposiciones de arte.  Saque entradas para una incre&iacute;ble actuaci&oacute;n de danza aborigen tradicional en el Bangarra Dance Theatre, sum&eacute;rjase en el festival internacional de m&uacute;sica de WOMAdelaide, que se celebra en <a href="/es-la/explore/cities/adelaide.xml" target="_self">Adelaida</a>, y d&eacute;jese seducir por el ambiente del teatro, ballet, &oacute;pera y pinturas del gran centro cultural de Brisbane, en South Bank. En ciudades m&aacute;s peque&ntilde;as, tendr&aacute; la oportunidad de disfrutar de actuaciones de m&uacute;sicos locales y observar obras de arte y artesan&iacute;a.</p>
+    ]]></txt_MainContent> 
+    <con_ImageItem>
+        <ImageItems isTemplate="1">
+    <anc_link><![CDATA[]]></anc_link>
+    <img_MainImage><![CDATA[<img src="/contentimages/2.2_culture_highlight(2).jpg">]]></img_MainImage>
+    <stf_Caption><![CDATA[ ]]></stf_Caption>
+</ImageItems><ImageItems isTemplate="1">
+    <anc_link><![CDATA[]]></anc_link>
+    <img_MainImage><![CDATA[<img src="/contentimages/2.2_culture_highlight(1).jpg">]]></img_MainImage>
+    <stf_Caption><![CDATA[ ]]></stf_Caption>
+</ImageItems><ImageItems isTemplate="1">
+    <anc_link><![CDATA[]]></anc_link>
+    <img_MainImage><![CDATA[<img src="/contentimages/2.2_culture_highlight(3).jpg" alt="Kultur">]]></img_MainImage>
+    <stf_Caption><![CDATA[ ]]></stf_Caption>
+</ImageItems>
+    </con_ImageItem>
+</FeatureContent>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+        <lst_Subpage><![CDATA[<a href="/es-la/about/culture-history/australian-culture/cultural-attractions.xml">Atracciones culturales de Australia</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/es-la/about/culture-history/australian-culture/heritage-attractions.xml">Atracciones históricas de Australia</a>]]></lst_Subpage>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

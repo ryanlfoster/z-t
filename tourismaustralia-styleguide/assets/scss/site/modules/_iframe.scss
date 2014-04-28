@@ -1,0 +1,59 @@
+///*
+// * What you can see:
+// * ---------------------------------------------------------------------------------------------------------------- */
+
+
+.iframe_wrapper {
+ width:100%;
+  line-height:0;
+  display: none;
+  @include breakpoint(lg){
+    display: block;
+  }
+}
+
+.iframe_wrapper_iframe{
+  border:0;
+}
+.iframe_notsupported{
+  background: #fff;
+  display: block;
+  padding-bottom: 2.75em;
+  @include breakpoint(lg){
+    display: none;
+  }
+}
+
+.iframe_notsupported h1{
+  margin-top: .25em;
+}
+
+.generictemplate_shown_ontablet{
+
+  .iframe_wrapper{
+    display: none;
+    @include breakpoint(md){
+      display: block;
+    }
+  }
+
+  .iframe_notsupported{
+    display: block;
+    @include breakpoint(md){
+      display: none;
+    }
+  }
+
+}
+
+.generictemplate_shown_onmobile{
+
+  .iframe_wrapper{
+      display: block;
+  }
+
+  .iframe_notsupported{
+      display: none;
+  }
+
+}

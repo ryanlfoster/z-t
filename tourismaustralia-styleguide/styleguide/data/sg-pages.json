@@ -397,6 +397,28 @@
     
         
             
+                "largetitlewithsubdescription" : {
+                     "data" : {
+                        "title" : "largetitlewithsubdescription",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'largetitlewithsubdescription'}}"
+                }
+                
+                    ,
+                
+            
+                "video_add_tags_share" : {
+                     "data" : {
+                        "title" : "video_add_tags_share",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'video_add_tags_share'}}"
+                }
+                
+                    ,
+                
+            
                 "tagclouditem" : {
                      "data" : {
                         "title" : "tagclouditem",
@@ -722,6 +744,39 @@
                     ,
                 
             
+                "atdwhighlights" : {
+                     "data" : {
+                        "title" : "atdwhighlights",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'atdwhighlights'}}"
+                }
+                
+                    ,
+                
+            
+                "mosaicitemoption" : {
+                     "data" : {
+                        "title" : "mosaicitemoption",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'mosaicitemoption'}}"
+                }
+                
+                    ,
+                
+            
+                "mosaic3columnitem_detail" : {
+                     "data" : {
+                        "title" : "mosaic3columnitem_detail",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'mosaic3columnitem_detail'}}"
+                }
+                
+                    ,
+                
+            
                 "whatyoucansee" : {
                      "data" : {
                         "title" : "whatyoucansee",
@@ -739,6 +794,17 @@
                         "layout" : "styleguide-preview.hbs"
                     },
                     "content" : "{{section 'whatyoucansee_nobuttons'}}"
+                }
+                
+                    ,
+                
+            
+                "mosaic_search_grid_1_4_4_1" : {
+                     "data" : {
+                        "title" : "mosaic_search_grid_1_4_4_1",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'mosaic_search_grid_1_4_4_1'}}"
                 }
                 
             
@@ -764,6 +830,53 @@
                         "layout" : "styleguide-preview.hbs"
                     },
                     "content" : "{{section 'carousel_standard'}}"
+                }
+                
+            
+            
+                ,
+            
+        
+            
+                "largeparallax" : {
+                     "data" : {
+                        "title" : "largeparallax",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'largeparallax'}}"
+                }
+                
+                    ,
+                
+            
+                "largeparallax_images" : {
+                     "data" : {
+                        "title" : "largeparallax_images",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'largeparallax_images'}}"
+                }
+                
+                    ,
+                
+            
+                "largeparallax_text" : {
+                     "data" : {
+                        "title" : "largeparallax_text",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'largeparallax_text'}}"
+                }
+                
+                    ,
+                
+            
+                "itinerary_subnav" : {
+                     "data" : {
+                        "title" : "itinerary_subnav",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'itinerary_subnav'}}"
                 }
                 
             
@@ -863,12 +976,45 @@
                     ,
                 
             
+                "explore-more" : {
+                     "data" : {
+                        "title" : "explore-more",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'explore-more'}}"
+                }
+                
+                    ,
+                
+            
                 "favourite" : {
                      "data" : {
                         "title" : "favourite",
                         "layout" : "styleguide-preview.hbs"
                     },
                     "content" : "{{section 'favourite'}}"
+                }
+                
+                    ,
+                
+            
+                "favouritewithlines" : {
+                     "data" : {
+                        "title" : "favouritewithlines",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'favouritewithlines'}}"
+                }
+                
+                    ,
+                
+            
+                "featuredproducts" : {
+                     "data" : {
+                        "title" : "featuredproducts",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'featuredproducts'}}"
                 }
                 
                     ,
@@ -891,6 +1037,17 @@
                         "layout" : "styleguide-preview.hbs"
                     },
                     "content" : "{{section 'hero'}}"
+                }
+                
+                    ,
+                
+            
+                "iframe" : {
+                     "data" : {
+                        "title" : "iframe",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'iframe'}}"
                 }
                 
                     ,
@@ -962,6 +1119,28 @@
                     ,
                 
             
+                "largeimagenotext" : {
+                     "data" : {
+                        "title" : "largeimagenotext",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'largeimagenotext'}}"
+                }
+                
+                    ,
+                
+            
+                "largeimageoverlay" : {
+                     "data" : {
+                        "title" : "largeimageoverlay",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'largeimageoverlay'}}"
+                }
+                
+                    ,
+                
+            
                 "largeimagesocial" : {
                      "data" : {
                         "title" : "largeimagesocial",
@@ -973,12 +1152,45 @@
                     ,
                 
             
+                "largetitle" : {
+                     "data" : {
+                        "title" : "largetitle",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'largetitle'}}"
+                }
+                
+                    ,
+                
+            
+                "parallaximage_fullwidth" : {
+                     "data" : {
+                        "title" : "parallaximage_fullwidth",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'parallaximage_fullwidth'}}"
+                }
+                
+                    ,
+                
+            
                 "mapimagewithbuttons" : {
                      "data" : {
                         "title" : "mapimagewithbuttons",
                         "layout" : "styleguide-preview.hbs"
                     },
                     "content" : "{{section 'mapimagewithbuttons'}}"
+                }
+                
+                    ,
+                
+            
+                "mapimagewithlegend" : {
+                     "data" : {
+                        "title" : "mapimagewithlegend",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'mapimagewithlegend'}}"
                 }
                 
                     ,
@@ -1061,6 +1273,17 @@
                     ,
                 
             
+                "specialoffer_from" : {
+                     "data" : {
+                        "title" : "specialoffer_from",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'specialoffer_from'}}"
+                }
+                
+                    ,
+                
+            
                 "summary" : {
                      "data" : {
                         "title" : "summary",
@@ -1127,12 +1350,45 @@
                     ,
                 
             
+                "itineraryday" : {
+                     "data" : {
+                        "title" : "itineraryday",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'itineraryday'}}"
+                }
+                
+                    ,
+                
+            
+                "itineraryday_secondary" : {
+                     "data" : {
+                        "title" : "itineraryday_secondary",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'itineraryday_secondary'}}"
+                }
+                
+                    ,
+                
+            
                 "header" : {
                      "data" : {
                         "title" : "header",
                         "layout" : "styleguide-preview.hbs"
                     },
                     "content" : "{{section 'header'}}"
+                }
+                
+                    ,
+                
+            
+                "sitemap_content" : {
+                     "data" : {
+                        "title" : "sitemap_content",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'sitemap_content'}}"
                 }
                 
             

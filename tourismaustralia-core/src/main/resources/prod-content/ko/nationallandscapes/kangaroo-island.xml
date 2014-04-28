@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="22247" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[홈]]></headline>
+            <href><![CDATA[/ko/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Tools and Campaigns]]></headline>
+            <href><![CDATA[/ko/tools-campaigns.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[호주 관광 명소(내셔널 랜드스케이프)]]></headline>
+            <href><![CDATA[/ko/nationallandscapes.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[캥거루 섬]]></headline>
+            <href><![CDATA[/ko/nationallandscapes/kangaroo-island.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/Campaigns/national-landscapes-kangaroo-island.jpg]]></img_background>
+    <hdl_Title><![CDATA[캥거루 섬]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/national-landscapes-kangaroo-island-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/Campaigns/national-landscapes-kangaroo-island-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[yes]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[애들레이드에서 손쉽게 방문 할 수 있는 캥거루 아일랜드를 방문해 원시 상태 그대로를  간직한 자연과 그곳에 살고 있는 토종 동물들을 만나 보세요. 씰 베이를 노니는 바다사자과 페네쇼 해안으로 아장아장 걸어 나오는 난쟁이 펭귄들을 구경합니다.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[캥거루 아일랜드, 애들레이드 캥거루 아일랜드, 호주 캥거루 아일랜드, 남호주 캥거루 아일랜드, 캥거루 아일랜드 휴가, 킹스코트, 애들레이드 섬, 호주 섬, 페네쇼, 리마커블 록스, 비본느 베이, 케이프 저비스, 플린더스 체이스 국립공원]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[상세 정보]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[호주 내셔널 랜드스케이프: 캥거루 아일랜드 - 호주 관광청]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        애들레이드에서 손쉽게 방문 할 수 있는 캥거루 아일랜드를 방문해 원시 상태 그대로를  간직한 자연과 그곳에 살고 있는 토종 동물들을 만나 보세요. 씰 베이를 노니는 바다사자과 페네쇼 해안으로 아장아장 걸어 나오는 난쟁이 펭귄들을 구경합니다.
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <StandardCampaignLayout isTemplate="1">
+    <opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+    <hdl_Title><![CDATA[]]></hdl_Title>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+    <con_Banner><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<DIV id=headerimage>
+<SCRIPT type=text/javascript src="../../static/js/jquery.cycle.all.latest.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+jQuery(document).ready(function() {
+jQuery('#headersliderwrapper').cycle({
+        fx:'fade',
+        slideExpr: '.headerslide'
+    });
+});
+</SCRIPT>
+
+<DIV id=headersliderwrapper>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-kis-01.jpg"> 
+<DIV class=headerslideinfo>호주 바다사자, 남호주</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-kis-02.jpg"> 
+<DIV class=headerslideinfo>캥거루 섬, 남호주</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-kis-03.jpg"> 
+<DIV class=headerslideinfo>리마커블 록스, 남호주</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-kis-04.jpg"> 
+<DIV class=headerslideinfo>바늘두더지</DIV></DIV></DIV></DIV>
+<DIV id=subpage-header-overlay></DIV>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule></con_Banner>
+    <con_Body><TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[캥거루 섬]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        애들레이드에서 캥거루 섬으로 향해 원시 그대로 간직된 자연환경에서 토종 동물들을 만나 보세요. 씰 베이의 서식지에서 바다사자를 보고 페네쇼에서는 해안으로 뒤뚱뒤뚱 걸어 나오는 리틀펭귄을 구경합니다. 이어, 섬의 험준한 어드벤처 경관과 축복받은 해변을 둘러보세요. 핸슨 베이에서 하이킹을 하고 켈리 힐 보존공원(Kelly Hill Conservation Park)에서 동굴탐사에 나서는가 하면 태고의 리마커블 록스에서는 일몰 광경도 구경해야겠죠? 해안을 따라 돌고래와 함께 유영을 하고 서핑을 하는 한편 총천연색 사초에서 스노클링, 난파선 사이로 스쿠버 다이빙을 즐길 수 있습니다. 섬에는 속속들이 살펴봐야 할 원주민 역사도 가득하답니다.
+        <p><strong>캥거루 섬으로 가야 할 5가지 이유</strong></p>
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[1. 자연 서식지의 야생동물]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-kangaroo-island-hl01.jpg" alt="Australian sea lions">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Australian sea lions]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        킹스코트와 페네쇼에서 펠리칸에게 먹이를 주고 리틀 펭귄을 구경합니다. 그리고는 아메리칸 강(American River)에서 야간 투어로 야행성 타마왈라비와 솔꼬리 포섬 그리고 캥거루를 만나 보세요. 섬의 다양한 서식지에서 발견되는 267종의 조류 가운데 일부를 바로 한 곳에서 볼 수 있는 케이프 갠시엄 보존공원(Cape Gantheaume Conservation Park)의 머레이 석호에서 부시워킹을 하며 오리와 백조, 섭금류를 구경합니다. 씰 베이에서는 호주 바다사자를, 플린더스 체이스 국립공원의 애드머럴 아치(Admirals Arch) 일대에서는 수천 마리의 뉴질랜드 물개를 구경할 수 있습니다. 이곳은 수백 마리 캥거루의 보금자리이기도 하답니다.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[2. 직접 부딪히며 체험할 수 있는 자연경관]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-kangaroo-island-hl02.jpg" alt="Kelly Hill Caves, SA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Kelly Hill Caves, SA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        플린더스 체이스 국립공원을 거닐고 장엄한 지형의 경이로운 리마커블 록스와 애드머럴 아치를 둘러보세요. 케이프 두쿠에딕과 케이프 보다의 역사 깊은 등대 지구를 살펴보면 등대지기 가족의 외로운 생활에 대해 알아볼 수 있답니다. 외딴 벼랑 위를 따라 숲으로 뒤덮인 계곡을 지나거나 자전거를 타고 조용하고 탁 트인 섬의 도로를 달려보세요. 핸슨 베이 하이크의 다양성을 음미하거나 리틀 사하라의 사구에서 모래 서핑을 즐깁니다. 켈리 힐 보존공원에서 동굴 탐험을 떠나거나 동굴 아래 슈거검(sugar gum) 유칼리나무 숲에서 심홍장미앵무새를 만나보세요.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[3. 무한한 해안 어드벤처]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-kangaroo-island-hl03.jpg" alt="Kayaking at Harriet River, SA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Kayaking at Harriet River, SA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        킹스코트나 에뮤 베이 앞바다에서 희귀한 나뭇잎 해룡과 함께 스쿠버를 하고 눈부신 사초 위로 스노클링을 하며 돌고래와 함께 유영을 즐겨보세요. 남쪽의 데스트리스 베이(D’estrees Bay)로 가면 섬 주위에 흩어진 몇 군데 난파선에서 스쿠버다이빙을 즐길 수 있답니다. 유서 깊은 에뮤 베이의 부두와 아메리칸 강이나 페네쇼에서 낚시를 해보세요. 배를 타고 네피언 베이(Nepean Bay) 주변의 한적한 백사장 해변을 지나고 붐비지 않는 스토크와 페닝턴 베이의 바다에서는 서핑을 즐깁니다. 북부 해안의 스넬링스 비치에서 동부 해안의 평온한 브라운 비치와 남쪽의 비본 베이까지 이어지는 해안을 따라 수영하기 좋은 목가적인 분위기의 명소도 많이 있습니다.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[4. 멋진 분위기에서 즐기는 음식과 와인]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-kangaroo-island-hl04.jpg" alt="Kangaroo Island, SA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Kangaroo Island, SA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        멋진 장관이 펼쳐지는 섬의 셀라도어에 들러 식욕을 돋우세요. 시그넷 리버에서 부티크 리큐어를 맛보거나 공항 격납고를 보헤미안 풍으로 개조한 곳에서 와인을 시음할 수 있습니다. 벌꿀 아이스크림을 시식하고 킹스코트와 맥길리브레이의 농장에서 생산한 양유 치즈와 리구리안 꿀을 맛볼까요? 섬 전역에서 신선한 현지 산물로 맛있는 요리를 즐기세요. 바다를 내다보며 현지산 마룬, 킹조지 화이팅(King George Whiting)과 아메리칸 강에서 난 굴로 식사를 합니다. 비치 하우스나 피크닉 바구니를 맛 좋은 특산물로 가득 채우고 좋아하는 와인도 한 병 준비하세요.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[5. 드림타임 시대와 이어진 대지의 전통]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-kangaroo-island-hl05.jpg" alt="Ngarrindjeri Tour, SA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Ngarrindjeri Tour, SA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        말을 듣지 않는 두 아내를 캥거루 섬으로 쫓아버린 후 다시 영적 세계로 들어간 드림타임 시대의 영웅 응룬데리(Ngurunderi)의 전설을 들어보세요. 응룬데리의 여정을 따라 쿠롱을 지나 캥거루 섬으로 향합니다. 유럽인들이 정착하기 수천 년 전에 불가사의하게 캥거루 섬을 떠난 나린제리(Ngarrindjeri) 족의 후예들과 함께 가이드 안내 도보여행이나 카약 투어에 참가해 보세요. 초기 포경업자들이 이곳으로 데려온 본토 원주민 여성들의 후손인 라민제리 원주민과 함께 섬을 둘러볼 수도 있습니다. 이러한 독특한 자연 속으로 들어가 고대 창조 설화와 최근의 역사까지 모두 엿보세요.
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights></con_Body>
+    <con_RHSModules><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<TABLE cellSpacing=0 cellPadding=0 width=298 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top align=center>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD style="WIDTH: 25px">&nbsp;</TD>
+<TD><!-- #BeginLibraryItem "/Library/sitenav.lbi" -->
+<SCRIPT language=JavaScript1.2 type=text/javascript src="../../static/js/stmenu.js"></SCRIPT>
+<!-- #EndLibraryItem --></TD></TR></TBODY></TABLE><!-- Google Map Start -->
+<SCRIPT type=text/javascript>
+function fireEvent(obj,evt){
+var fireOnThis = obj;
+if( document.createEvent ) {
+var evObj = document.createEvent('MouseEvents');
+evObj.initEvent( evt, true, false );
+fireOnThis.dispatchEvent(evObj);
+} else if( document.createEventObject ) {
+fireOnThis.fireEvent('on'+evt);
+}
+}
+function clickLink(linkobj) {
+if (linkobj.getAttribute('onclick') == null) {
+if (linkobj.getAttribute('href')) document.location = linkobj.getAttribute('href');
+}
+else linkobj.onclick();
+}
+function loadjscssfile(filename, filetype){
+if (filetype=="js"){ //if filename is a external JavaScript file
+var fileref=document.createElement('script')
+fileref.setAttribute("type","text/javascript")
+fileref.setAttribute("src", filename)
+}
+else if (filetype=="css"){ //if filename is an external CSS file
+var fileref=document.createElement("link")
+fileref.setAttribute("rel", "stylesheet")
+fileref.setAttribute("type", "text/css")
+fileref.setAttribute("href", filename)
+fileref.setAttribute("media", "print")
+}
+if (typeof fileref!="undefined")
+document.getElementsByTagName("head")[0].appendChild(fileref)
+}
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+var icheckk=0;
+jQuery.each(jQuery.browser, function(i, val) {
+if(i=="msie" && jQuery.browser.version.substr(0,3)=="7.0")
+icheckk=1;
+});
+function myfun()
+{
+loadjscssfile("../../static/css/thickbox.css", "css");
+if(icheckk==1)
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='../../static/maps/ko/kangarooisland/bigmap.html'  target='_blank'>&nbsp;인쇄|닫습니다|&nbsp;또는 Esc 키를 누르십시오</a></b>","../../static/maps/ko/kangarooisland/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+else
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='javascript:window.print()' >&nbsp;인쇄|닫습니다|&nbsp;또는 Esc 키를 누르십시오</a></b>","../../static/maps/ko/kangarooisland/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+}
+         </SCRIPT>
+<IFRAME style="MARGIN-BOTTOM: 20px; BORDER-TOP: black 1px solid; HEIGHT: 355px; BORDER-RIGHT: black 1px solid; BORDER-BOTTOM: black 1px solid; FLOAT: left; PADDING-BOTTOM: 5px; BORDER-LEFT: black 1px solid; BACKGROUND-COLOR: #333333" height=380 src="../../static/maps/ko/kangarooisland/index.html" frameBorder=0 width=249 name=FRAMENAME scrolling=no></IFRAME><!-- Google Map end -->
+<DIV class=subpage-video-thumb style="TEXT-ALIGN: left"><A onclick="moduleTrackingWithTitle('lightbox-video','',false,'nationallandscapes-kangarooislandko');" href="#" data-reveal-id="modalVideo"><IMG alt="" src="/contentimages/Campaigns/national-landscapes-video-ko.jpg"></A> </DIV>
+<DIV id=modalVideo class="reveal-modal video" style-="z-index: 103;"><A class=close-reveal-modal><SPAN class=icon></SPAN></A>
+<DIV class=video style="VISIBILITY: visible !important"><IFRAME height=315 src="//www.youtube.com/v/EjGZ3MaX9pE?version=3&amp;hl=en_GB" frameBorder=0 width=560></IFRAME></DIV></DIV></TD></TR></TBODY></TABLE>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule><Listing isTemplate="1">
+<anc_List1><![CDATA[/ko/explore/states/sa/sa-eyre-peninsula.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[기타 호주다운 생각들]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/ko/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/ko/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/ko/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/ko/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/ko/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/ko/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/ko/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/ko/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/ko/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/ko/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/ko/Transport.aspx]]></anc_Transport>
+<hdl_Title><![CDATA[여행 계획 하기 ]]></hdl_Title>
+<language><![CDATA[KOR]]></language>
+<stf_Accomodation><![CDATA[숙박]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[관광지]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[가까운 여행사 찾기]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[여행지 정보]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[Kangaroo Island]]></stf_DomesticRegion>
+<stf_Events><![CDATA[이벤트]]></stf_Events>
+<stf_Hire><![CDATA[렌탈]]></stf_Hire>
+<stf_Informationservices><![CDATA[일반 정보 안내]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[South Australia]]></stf_StateFilter>
+<stf_Tours><![CDATA[투어]]></stf_Tours>
+<stf_Transport><![CDATA[교통]]></stf_Transport>
+</PlanYourVisit></con_RHSModules>
+    <con_Category></con_Category>
+    <lst_Subpages>
+    </lst_Subpages>
+</StandardCampaignLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

@@ -1,10 +1,12 @@
 
 .social-mention{
-  padding: 1em 1em 0;
+  padding: 0 1em;
   display: table;
-  margin: 0 auto;
-  @include breakpoint(md) {
-    margin: 0 10% 0 auto;
+  margin-top: pxtoem(-15px);
+  margin-right: auto;
+  margin-left: auto;
+  @include breakpoint(lg) {
+    margin-right: 10%;
   }
 }
 

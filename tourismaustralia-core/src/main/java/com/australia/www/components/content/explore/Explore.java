@@ -10,68 +10,68 @@ import com.citytechinc.cq.component.annotations.DialogField;
 import com.citytechinc.cq.component.annotations.Tab;
 import com.citytechinc.cq.component.annotations.widgets.DialogFieldSet;
 
-@Component(value = "Explore" , disableTargeting = true,
+@Component(value = "Explore" , disableTargeting = true, dialogHeight = 500,
 		tabs = {@Tab(title = "Tab 1"),@Tab(title = "Tab 2"),@Tab(title = "Tab 3"),@Tab(title = "Tab 4"),@Tab(title = "Tab 5")})
 
 public class Explore {
 
-	private static final String TAB = "tab";
-	private static final String TAB1 = "tab1";
-	private static final String TAB2 = "tab2";
-	private static final String TAB3 = "tab3";
-	private static final String TAB4 = "tab4";
-	private static final String TAB5 = "tab5";
-	private static final String CARD = "card";
-	private static final String CARD1 = "card1";
-	private static final String CARD2 = "card2";
-	private static final String CARD3 = "card3";
+	private static final String TABx = "tab%d/";
+	private static final String TAB1 = "tab1/";
+	private static final String TAB2 = "tab2/";
+	private static final String TAB3 = "tab3/";
+	private static final String TAB4 = "tab4/";
+	private static final String TAB5 = "tab5/";
+	private static final String CARDx = "card%d-";
+	private static final String CARD1 = "card1-";
+	private static final String CARD2 = "card2-";
+	private static final String CARD3 = "card3-";
 	private static final String CARD_LABEL1 = "Card 1";
 	private static final String CARD_LABEL2 = "Card 2";
 	private static final String CARD_LABEL3 = "Card 3";
 
-	@DialogField(tab = 1) @DialogFieldSet(border = false, namePrefix = TAB1+"/")
+	@DialogField(tab = 1) @DialogFieldSet(border = false, namePrefix = TAB1)
 	private final Category tab1;
-	@DialogField(fieldLabel = CARD_LABEL1, tab = 1) @DialogFieldSet(namePrefix = TAB1+"/"+CARD1+"-", collapsible = true, collapseFirst = true)
+	@DialogField(fieldLabel = CARD_LABEL1, tab = 1) @DialogFieldSet(namePrefix = TAB1+CARD1, collapsible = true, collapsed = true)
 	private final TabProperties tab1card1;
-	@DialogField(fieldLabel = CARD_LABEL2, tab = 1) @DialogFieldSet(namePrefix = TAB1+"/"+CARD2+"-", collapsible = true, collapseFirst = true)
+	@DialogField(fieldLabel = CARD_LABEL2, tab = 1) @DialogFieldSet(namePrefix = TAB1+CARD2, collapsible = true, collapsed = true)
 	private final TabProperties tab1card2;
-	@DialogField(fieldLabel = CARD_LABEL3, tab = 1) @DialogFieldSet(namePrefix = TAB1+"/"+CARD3+"-", collapsible = true, collapseFirst = true)
+	@DialogField(fieldLabel = CARD_LABEL3, tab = 1) @DialogFieldSet(namePrefix = TAB1+CARD3, collapsible = true, collapsed = true)
 	private final TabProperties tab1card3;
 
-	@DialogField(tab = 2) @DialogFieldSet(border = false, namePrefix = TAB2+"/")
+	@DialogField(tab = 2) @DialogFieldSet(border = false, namePrefix = TAB2)
 	private final Category tab2;
-	@DialogField(fieldLabel = CARD_LABEL1, tab = 2) @DialogFieldSet(namePrefix = TAB2+"/"+CARD1+"-", collapsible = true, collapsed = true)
+	@DialogField(fieldLabel = CARD_LABEL1, tab = 2) @DialogFieldSet(namePrefix = TAB2+CARD1, collapsible = true, collapsed = true)
 	private final TabProperties tab2card1;
-	@DialogField(fieldLabel = CARD_LABEL2, tab = 2) @DialogFieldSet(namePrefix = TAB2+"/"+CARD2+"-", collapsible = true, collapsed = true)
+	@DialogField(fieldLabel = CARD_LABEL2, tab = 2) @DialogFieldSet(namePrefix = TAB2+CARD2, collapsible = true, collapsed = true)
 	private final TabProperties tab2card2;
-	@DialogField(fieldLabel = CARD_LABEL3, tab = 2) @DialogFieldSet(namePrefix = TAB2+"/"+CARD3+"-", collapsible = true, collapsed = true)
+	@DialogField(fieldLabel = CARD_LABEL3, tab = 2) @DialogFieldSet(namePrefix = TAB2+CARD3, collapsible = true, collapsed = true)
 	private final TabProperties tab2card3;
 
-	@DialogField(tab = 3) @DialogFieldSet(border = false, namePrefix = TAB3+"/")
+	@DialogField(tab = 3) @DialogFieldSet(border = false, namePrefix = TAB3)
 	private final Category tab3;
-	@DialogField(fieldLabel = CARD_LABEL1, tab = 3) @DialogFieldSet(namePrefix = TAB3+"/"+CARD1+"-", collapsible = true, collapsed = true)
+	@DialogField(fieldLabel = CARD_LABEL1, tab = 3) @DialogFieldSet(namePrefix = TAB3+CARD1, collapsible = true, collapsed = true)
 	private final TabProperties tab3card1;
-	@DialogField(fieldLabel = CARD_LABEL2, tab = 3) @DialogFieldSet(namePrefix = TAB3+"/"+CARD2+"-", collapsible = true, collapsed = true)
+	@DialogField(fieldLabel = CARD_LABEL2, tab = 3) @DialogFieldSet(namePrefix = TAB3+CARD2, collapsible = true, collapsed = true)
 	private final TabProperties tab3card2;
-	@DialogField(fieldLabel = CARD_LABEL3, tab = 3) @DialogFieldSet(namePrefix = TAB3+"/"+CARD3+"-", collapsible = true, collapsed = true)
+	@DialogField(fieldLabel = CARD_LABEL3, tab = 3) @DialogFieldSet(namePrefix = TAB3+CARD3, collapsible = true, collapsed = true)
 	private final TabProperties tab3card3;
 
-	@DialogField(tab = 4) @DialogFieldSet(border = false, namePrefix =TAB4+"/")
+	@DialogField(tab = 4) @DialogFieldSet(border = false, namePrefix =TAB4)
 	private final Category tab4;
-	@DialogField(fieldLabel = CARD_LABEL1, tab = 4) @DialogFieldSet(namePrefix = TAB4+"/"+CARD1+"-", collapsible = true, collapsed = true)
+	@DialogField(fieldLabel = CARD_LABEL1, tab = 4) @DialogFieldSet(namePrefix = TAB4+CARD1, collapsible = true, collapsed = true)
 	private final TabProperties tab4card1;
-	@DialogField(fieldLabel = CARD_LABEL2, tab = 4) @DialogFieldSet(namePrefix = TAB4+"/"+CARD2+"-", collapsible = true, collapsed = true)
+	@DialogField(fieldLabel = CARD_LABEL2, tab = 4) @DialogFieldSet(namePrefix = TAB4+CARD2, collapsible = true, collapsed = true)
 	private final TabProperties tab4card2;
-	@DialogField(fieldLabel = CARD_LABEL3, tab = 4) @DialogFieldSet(namePrefix = TAB4+"/"+CARD3+"-", collapsible = true, collapsed = true)
+	@DialogField(fieldLabel = CARD_LABEL3, tab = 4) @DialogFieldSet(namePrefix = TAB4+CARD3, collapsible = true, collapsed = true)
 	private final TabProperties tab4card3;
 
-	@DialogField(tab = 5) @DialogFieldSet(border = false, namePrefix = TAB5+"/")
+	@DialogField(tab = 5) @DialogFieldSet(border = false, namePrefix = TAB5)
 	private final Category tab5;
-	@DialogField(fieldLabel = CARD_LABEL1, tab = 5) @DialogFieldSet(namePrefix = TAB5+"/"+CARD1+"-", collapsible = true, collapsed = true)
+	@DialogField(fieldLabel = CARD_LABEL1, tab = 5) @DialogFieldSet(namePrefix = TAB5+CARD1, collapsible = true, collapsed = true)
 	private final TabProperties tab5card1;
-	@DialogField(fieldLabel = CARD_LABEL2, tab = 5) @DialogFieldSet(namePrefix = TAB5+"/"+CARD2+"-", collapsible = true, collapsed = true)
+	@DialogField(fieldLabel = CARD_LABEL2, tab = 5) @DialogFieldSet(namePrefix = TAB5+CARD2, collapsible = true, collapsed = true)
 	private final TabProperties tab5card2;
-	@DialogField(fieldLabel = CARD_LABEL3, tab = 5) @DialogFieldSet(namePrefix = TAB5+"/"+CARD3+"-", collapsible = true, collapsed = true)
+	@DialogField(fieldLabel = CARD_LABEL3, tab = 5) @DialogFieldSet(namePrefix = TAB5+CARD3, collapsible = true, collapsed = true)
 	private final TabProperties tab5card3;
 
 	private final List<Category> tabs;
@@ -118,20 +118,24 @@ public class Explore {
 	private Category initTab(final int tabNum, SlingHttpServletRequest request) {
 		ValueMap properties = request.getResource().adaptTo(ValueMap.class);
 		Category returnCat = new Category();
-		String pathPrefix = String.format(TAB+"%d/", tabNum);
-		returnCat.setIconImagePath(properties.get(pathPrefix+"iconImagePath", ""));
-		returnCat.setSelectedImagePath(properties.get(pathPrefix + "selectedImagePath", ""));
-		returnCat.setTitle(properties.get(pathPrefix + "title", ""));
+		if(properties != null){
+			String pathPrefix = String.format(TABx, tabNum);
+			returnCat.setIconImagePath(properties.get(pathPrefix+"iconImagePath", ""));
+			returnCat.setSelectedImagePath(properties.get(pathPrefix + "selectedImagePath", ""));
+			returnCat.setTitle(properties.get(pathPrefix + "title", ""));
+		}
 		return returnCat;
 	}
 
 	private TabProperties initCard(final int tabNum, final int cardNum, SlingHttpServletRequest request){
 		ValueMap properties = request.getResource().adaptTo(ValueMap.class);
 		TabProperties returnProp = new TabProperties();
-		String pathPrefix = String.format(TAB+"%d/"+CARD+"%d-", tabNum, cardNum);
-		returnProp.setAltTextBack(properties.get(pathPrefix + "altTextBack", ""));
-		returnProp.setImageBack(properties.get(pathPrefix + "imageBack", ""));
-		returnProp.setPage(properties.get(pathPrefix+"pagePath",""),request.getResource());
+		if(properties != null){
+			String pathPrefix = String.format(TABx+CARDx, tabNum, cardNum);
+			returnProp.setAltTextBack(properties.get(pathPrefix + "altTextBack", ""));
+			returnProp.setImageBack(properties.get(pathPrefix + "imageBack", ""));
+			returnProp.setPage(properties.get(pathPrefix+"pagePath",""),request.getResource());
+		}
 		return returnProp;
 	}
 

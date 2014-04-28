@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="7183" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Inicio]]></headline>
+            <href><![CDATA[/es-la/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Explorar]]></headline>
+            <href><![CDATA[/es-la/explore.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Brisbane]]></headline>
+            <href><![CDATA[/es-la/explore/cities/brisbane.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/explore-cities-brisbane.jpg]]></img_background>
+    <hdl_Title><![CDATA[Brisbane]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/explore-cities-brisbane-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/explore-cities-brisbane-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[no]]></opt_PartnerLead>
+    <stf_description><![CDATA[Descubra Brisbane, capital subtropical de Queensland, Australia, con atracciones que incluyen el cultural South Bank, la famosa Costa de Oro y mucho m&aacute;s.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[Brisbane]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[y]]></stf_IsMobile>
+    <stf_keywords><![CDATA[Brisbane Queensland, Brisbane Australia]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Mayor informaci&oacute;n]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Brisbane, Australia, Atracciones: Tourism Australia]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[Descubra Brisbane, la soleada y sofisticada capital de Queensland: el punto de enlace con&nbsp; numerosas y conocidas atracciones.]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <IntegratedMiniMap isTemplate="1">
+    <!-- no user content -->
+</IntegratedMiniMap><TravellersStoryWidget isTemplate="1">
+    <anc_link><![CDATA[/explore/map.aspx?filters=cities,experiences&zoom=10&centre=-27.763745,152.955721]]></anc_link>
+    <img_image><![CDATA[/contentimages/cities-Brisbane.jpg]]></img_image> 
+</TravellersStoryWidget><AtaGlance isTemplate="1">
+<hdl_Title><![CDATA[Ciudades de Australia ]]></hdl_Title>
+<img_Map><![CDATA[]]></img_Map>
+<stf_Title1><![CDATA[]]></stf_Title1>
+<stf_Title2><![CDATA[]]></stf_Title2>
+<stf_Title3><![CDATA[]]></stf_Title3>
+<stf_Title4><![CDATA[]]></stf_Title4>
+<stf_Title5><![CDATA[]]></stf_Title5>
+<txt_Description1><![CDATA[
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tbody>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/es-la/explore/cities/cities.xml" target="_self">Ciudades de Australia</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/es-la/explore/cities/sydney.xml" target="_self">S&iacute;dney</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/es-la/explore/cities/melbourne.xml" target="_self">Melbourne</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/es-la/explore/cities/brisbane.xml" target="_self">Brisbane</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/es-la/explore/cities/perth.xml" target="_self">Perth</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/es-la/explore/cities/darwin.xml" target="_self">Darwin</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/es-la/explore/cities/adelaide.xml" target="_self">Adelaida</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/es-la/explore/cities/hobart.xml" target="_self">Hobart</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/es-la/explore/cities/canberra.xml" target="_self">Canberra</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/es-la/explore/cities/gold-coast.xml" target="_self">Costa de Oro</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/es-la/explore/cities/cairns.xml" target="_self">Cairns</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/es-la/explore/cities/alice-springs.xml" target="_self">Alice Springs</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/es-la/explore/cities/broome.xml" target="_self">Broome</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/es-la/explore/cities/regional-cities.xml" target="_self">Ciudades regionales de Australia</a></p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <br />
+    ]]></txt_Description1>
+<txt_Description2><![CDATA[]]></txt_Description2>
+<txt_Description3><![CDATA[]]></txt_Description3>
+<txt_Description4><![CDATA[]]></txt_Description4>
+<txt_Description5><![CDATA[]]></txt_Description5>
+</AtaGlance><Listing isTemplate="1">
+<anc_List1><![CDATA[/es-la/explore/states/qld.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[M&aacute;s ideas Australianas]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/es-la/AccommodationSearch.ignore]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/es-la/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/es-la/AttractionSearchResults.ignore]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/es-la/DestinfoSearchResults.ignore]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/es-la/EventsSearch.xml]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/es-la/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/es-la/hire.ignore]]></anc_Hire>
+<anc_Info><![CDATA[/es-la/InfoSearchResults.ignore]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/es-la/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/es-la/TourSearchResults.ignore]]></anc_Tour>
+<anc_Transport><![CDATA[/es-la/transport.ignore]]></anc_Transport>
+<hdl_Title><![CDATA[Plan your visit to Brisbane]]></hdl_Title>
+<language><![CDATA[ESS]]></language>
+<stf_Accomodation><![CDATA[Accommodation]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[Brisbane Area]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[Attractions]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[Find a travel agent near you]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[Destination Information]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[Events]]></stf_Events>
+<stf_Hire><![CDATA[Hire]]></stf_Hire>
+<stf_Informationservices><![CDATA[Information Services]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[Queensland]]></stf_StateFilter>
+<stf_Tours><![CDATA[Tours]]></stf_Tours>
+<stf_Transport><![CDATA[Transport]]></stf_Transport>
+</PlanYourVisit>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Brisbane]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[Descubra Brisbane, la capital subtropical de Queensland: el punto de enlace con sus numerosas atracciones.&nbsp; <BR>Planifique sus vacaciones en Brisbane con nuestro itinerario de tres d&iacute;as. Descanse en los exuberantes jardines de South Bank, d&eacute; una vuelta por la zona comercial de Brisbane y realice una excursi&oacute;n de un d&iacute;a a la arenosa Moreton Island. Para vivir una experiencia diferente, emprenda una aventura por el r&iacute;o Brisbane.
+
+<P>Descubra las atracciones m&aacute;s representativas de Queensland y disfrute de los recorridos panor&aacute;micos que puede realizar en esta zona. Recorra en auto la Great Sunshine Way hasta llegar a la Costa de Oro, Fraser Island y Noosa. Det&eacute;ngase para estirar las piernas en Gold Coast Great Hinterland Walk. O bien, siga por la Pacific Coast Touring Route hacia el norte hasta llegar a Cairns y a la Gran Barrera de Coral, declarada Patrimonio de la humanidad. </P>
+
+<P>Tambi&eacute;n contamos con algunas ideas que le ayudar&aacute;n a planificar sus vacaciones en Australia desde Brisbane. Navegue por las Whitsundays o realice una excursi&oacute;n por el bosque tropical de Daintree, el m&aacute;s antiguo del mundo. Vuele a S&iacute;dney o maneje por el para&iacute;so costero New Agede Byron Bay hacia el sur, por la Pacific Coast Touring Route.</P>]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Brisbane y sus alrededores]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-cities-brisbane-brisbane-hl.jpg" alt="Brisbane, QLD">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Brisbane, QLD]]></stf_Caption>
+                    <anc_link><![CDATA[/es-la/explore/cities/brisbane/brisbane-surrounds.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Rel&aacute;jese en los exuberantes jardines ribere&ntilde;os de South Bank y, a continuaci&oacute;n, curiosee por los mercados y dese un ba&ntilde;o en la laguna. Recorra en bicicleta el Jard&iacute;n Bot&aacute;nico de la ciudad y descienda en rappel los acantilados de Kangaroo Point. Descienda el r&iacute;o a bordo de un majestuoso barco de vapor a paletas o tome un transbordador r&aacute;pido para ir a efervescentes pueblos urbanos como Bulimba y New Farm. Si siente sed de cultura, pasee por los museos y las galer&iacute;as de arte, saque entradas para una actuaci&oacute;n de la Orquesta, la &Oacute;pera o el Ballet de Queensland o  vaya a ver una vanguardista obra de teatro en la Powerhouse. En el puerto navegable de la vecina bah&iacute;a de Moreton y de Moreton Islands, puede nadar, navegar en kayak, practicar snorkel por los arrecifes de coral, deslizarse como si fuera un tobog&aacute;n por la mayor duna del mundo, alquilar un velero o intentar pescar un marl&iacute;n.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Tres d&iacute;as maravillosos en Brisbane]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-itineraries-three-great-days-brisbane-hl.jpg" alt="Tres días maravillosos en Brisbane">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Tres d&iacute;as maravillosos en Brisbane]]></stf_Caption>
+                    <anc_link><![CDATA[/es-la/explore/itineraries/qld-3days-brisbane.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Aproveche al m&aacute;ximo sus <a href="/es-la/explore/itineraries/qld-3days-brisbane.xml" target="_self">vacaciones en Brisbane</a>, una capital soleada y sofisticada, a orillas del sinuoso r&iacute;o Brisbane. Adem&aacute;s de contar con exuberantes parques y tranquilos habitantes, &eacute;sta es una ciudad con excelentes referencias culturales, as&iacute; como vinos, comidas de primer nivel y excelentes lugares para bailar. Vaya de compras con entusiasmo, como si de una tormenta subtropical se tratara, en Queen Street y, despu&eacute;s eche un vistazo a los edificios hist&oacute;ricos de la ciudad. Coma en la playa de la laguna South Bank y explore sus inagotables fuentes de atracciones culturales. Descubra los puntos de inter&eacute;s de Brisbane durante un lento crucero por el r&iacute;o o desde Mt Cooot-tha Lookout. Disfrute de la m&uacute;sica en vivo en Fortitude Valley o entr&eacute;guese a la contemplaci&oacute;n de la naturaleza en las playas de Moreton Island, que invitan a la aventura.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Vida cultural de Brisbane]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-cities-brisbane-brisbane-cultural-life-hl.jpg" alt="Vida cultural de Brisbane">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Vida cultural de Brisbane]]></stf_Caption>
+                    <anc_link><![CDATA[/es-la/explore/cities/brisbane/brisbane-culture-life.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Brisbane es una ciudad con excelentes referencias culturales.  Aqu&iacute; es donde encontrar&aacute; el inmenso Centro Cultural de Queensland, en South Bank, que alberga todo tipo de actividades art&iacute;sticas y un n&uacute;mero cada vez mayor de exposiciones de talla mundial.  Pero este tesoro nacional de galer&iacute;as, museos, teatros y espacios art&iacute;sticos es solo el principio.  Entre los principales centros culturales de Brisbane se encuentran los ecl&eacute;cticos New Farm y Fortitude Valley y la ciudad, con su arte p&uacute;blico y sus edificios hist&oacute;ricos.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Aventura en el r&iacute;o Brisbane, Queensland]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-cities-brisbane-brisbane-river-hl.jpg" alt="Aventura en el río Brisbane, Queensland">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Aventura en el r&iacute;o Brisbane, Queensland]]></stf_Caption>
+                    <anc_link><![CDATA[/es-la/explore/cities/brisbane/qld-adventure-on-brisbane-river.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        No se deje enga&ntilde;ar por el ancho <a href="/es-la/explore/cities/brisbane/qld-adventure-on-brisbane-river.xml" target="_self">r&iacute;o Brisbane</a>, con hileras de mangles que serpentean tranquilos a trav&eacute;s del centro de Brisbane. Este hermoso y sereno cuerpo de agua es el tel&oacute;n de fondo de una amplia variedad de emocionantes aventuras al aire libre. Navegue en kayak hasta dejar atr&aacute;s el horizonte nocturno centelleante o contemple una espectacular vista panor&aacute;mica de la ciudad y de sus alrededores desde lo alto del Story Bridge.  Escale o descienda en “r&aacute;pel” los escarpados precipicios de Kangaroo Point o camine, recorra en bicicleta o en patines los paseos flotantes de Brisbane Riverwalk. A continuaci&oacute;n, d&eacute; una tregua a su coraz&oacute;n y recorra  los Jardines Bot&aacute;nicos de la ciudad o los exuberantes parques de South Bank.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Rel&aacute;jese en el para&iacute;so natural de Noosa]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-states-qld-noosa-hl.jpg" alt="Relájese en el paraíso natural de Noosa">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Rel&aacute;jese en el para&iacute;so natural de Noosa]]></stf_Caption>
+                    <anc_link><![CDATA[/es-la/explore/states/qld/qld-noosa.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Con una atm&oacute;sfera despreocupada y con edificios no m&aacute;s altos que los &aacute;rboles, el para&iacute;so subtropical de <a href="/es-la/explore/states/qld/qld-noosa.xml" target="_self">Noosa</a> es un lugar donde realmente puede relajarse. Pero eso no significa que aqu&iacute; no haya nada que hacer. Noosa lleva todo el glamor de los complejos tur&iacute;sticos internacionales a las playas inmaculadas, al parque nacional y al exuberante interior.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Ruta Pacific Coast Touring]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-itineraries-pacific-coast-touring-route-qld-hl.jpg" alt="Ruta Pacific Coast Touring">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Ruta Pacific Coast Touring]]></stf_Caption>
+                    <anc_link><![CDATA[/es-la/explore/itineraries/qld-pacific-coast.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Disfrute de algunas de las atracciones costeras m&aacute;s importantes de Queensland: desde la Gran Barrera de Coral, que pertenece al Patrimonio de la Humanidad, hasta islas inmaculadas y parques nacionales de selvas tropicales. Dir&iacute;jase en 4x4 a Fraser Island, la isla de arena de mayor tama&ntilde;o del mundo y contemple mantarrayas y tortugas en Mon Repos, cerca de Bundaberg. Al&oacute;jese en Rockhampton y visite Great Keppel Island y las Capricorn Caves. Practique snorkel o buceo entre arrecifes y restos de naufragios cerca de Mackay y navegue en las bellas islas de Whitsundays.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Gold Coast (Costa Dorada)]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-cities-gold-coast-gold-coast-hl.jpg" alt="Gold Coast (Costa Dorada)">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Gold Coast (Costa Dorada)]]></stf_Caption>
+                    <anc_link><![CDATA[/es-la/explore/cities/gold-coast/goldcoast-surrounds.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Enfr&eacute;ntese a las enormes olas de Broadbeach, haga snorkel entre los restos de un naufragio en Main Beach o pasee por la arena dorada, bordeada por las altas colinas en <a href="/es-la/explore/cities/gold-coast/qld-surfing.xml" target="_self">Surfers Paradise</a>. P&aacute;selo en grande con la realidad virtual en Dreamworld, nade entre delfines en Sea World y sea testigo de un rodaje en Warner Bros Movie World. Explore las cataratas, la selva tropical, los miradores  y los paisajes esc&eacute;nicos del <a href="/es-la/explore/itineraries/qld-goldcoast-hinterland.xml" target="_self">exuberante interior de la Gold Coast</a>. Recorra tiendas hasta caer rendido en los puestos de arte y artesan&iacute;a, los inmensos centros comerciales al aire libre y las exclusivas boutiques.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Tres semanas desde Brisbane]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-itineraries-three-weeks-from-brisbane-hl.jpg" alt="Tres semanas desde Brisbane">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Tres semanas desde Brisbane]]></stf_Caption>
+                    <anc_link><![CDATA[/es-la/explore/itineraries/qld-3weeks-brisbane.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Brisbane es la puerta de entrada que le llevar&aacute; a la espl&eacute;ndida costa de Australia oriental. Conduzca por la Pacific Coast hacia el norte, y aproveche para hacer una parada y disfrutar del glamor de un resort en Noosa o para recorrer en 4x4 los caminos de arena de <a href="/es-la/explore/icons/fraser-island.xml" target="_self">Fraser Island</a>, Patrimonio de la humanidad. Navegue entre islas coronadas de verdes selvas en las id&iacute;licas <a href="/es-la/explore/itineraries/qld-whitsundays-sailing.xml" target="_self">Whitsundays</a>. Det&eacute;ngase en Gladstone, Mackay, Rockhampton y Cairns, que son solo algunos de los puntos de acceso a los tesoros de mil colores que ofrece la <a href="/es-la/explore/icons/great-barrier-reef.xml" target="_self">Gran Barrera de Coral</a>, Patrimonio Mundial.
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+        <lst_Subpage><![CDATA[<a href="/es-la/explore/cities/brisbane/brisbane-surrounds.xml">Brisbane y sus alrededores</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/es-la/explore/cities/brisbane/brisbane-culture-life.xml">Vida cultural de Brisbane</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/es-la/explore/cities/brisbane/qld-adventure-on-brisbane-river.xml">Aventura en el río Brisbane, Queensland</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/es-la/explore/cities/brisbane/qld-tangalooma-story.xml">Tangalooma, Moreton Island</a>]]></lst_Subpage>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

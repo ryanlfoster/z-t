@@ -1,0 +1,99 @@
+.hero-404 {
+  margin-bottom: pxtoem(43px);
+  position: relative;
+  width:  auto;
+  height: 750px;
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+
+  //@include transition (height, 1s, cubic-bezier(0.455, 0.030, 0.515, 0.955), .1s);
+
+  @include breakpoint(sm) {
+    height: 678px;
+  }
+}
+.hero-404.make-white {
+  color: #FFF;
+}
+.hero-404.make-black {
+  color: #040000;
+}
+
+.hero-404-bg {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  /* Fix for ipad scrolling fixed issue */
+  -webkit-transform: translate3d(0,0,0);
+
+  /* IE 10 fix */
+  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    // z-index: 0;
+  }
+
+  @include breakpoint(sm) {
+    height: 912px;
+  }
+}
+
+
+.hero-404-text-table-container {
+  vertical-align: middle;
+  display: table;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.hero-404-text-table-cell {
+
+  font-size: 16px; // return to base
+
+  display: table-cell;
+  vertical-align: middle;
+  padding-bottom: 60px;
+  padding-left:15px ;
+  padding-right:15px ;
+  text-align: center;
+  @include breakpoint(sm) {
+    padding-bottom: 70px;
+  }
+}
+.hero-404-title{
+
+  color: #fff;
+  margin-bottom: 0;
+
+  @include type_TAheadline();
+  font-size: pxtoem(60px);
+  @include breakpoint(sm) {
+    font-size: pxtoem(60px);
+  }
+  @include breakpoint(md) {
+    font-size: pxtoem(70px);
+  }
+  @include breakpoint(lg) {
+    font-size: pxtoem(90px);
+    max-width: 800px;
+    margin: 0 auto;
+  }
+}
+.hero-404-text{
+  padding:12px 0 37px 0;
+}
+.hero-404-text p{
+  color: #fff;
+  font-size: pxtoem(18px);
+  line-height:1.5em;
+  margin: 0;
+}
+.hero-404-text-table-cell .image-btn
+{
+  color: #FFF;
+  border: 1px solid #e6e8e2;
+  margin: 0 10px 20px 10px;
+}

@@ -1,0 +1,31 @@
+---
+title: Refresh Results
+---
+
+
+<div class="atdw-refresh-results">
+    <div class="row l-center-1200">
+        <div class="col-xs-12">
+            <div class="atdw-refresh-results-wrapper">
+                <div class="atdw-refresh-results-item">
+                    {{#parseJSON '{"data" : [{"option": "United States of America"}, {"option": "Australia"}]}'}}
+                        {{> dropdown_white_background }}
+                    {{/parseJSON}}
+                </div>
+                <div class="atdw-refresh-results-item">
+                    {{#parseJSON '{"data" : [{"option": "United States of America"}, {"option": "Australia"}]}'}}
+                        {{> dropdown_white_background }}
+                    {{/parseJSON}}
+                </div>
+                <div class="atdw-refresh-results-item">
+                    {{#parseJSON '{"data" : [{"option": "United States of America"}, {"option": "Australia"}]}'}}
+                        {{> dropdown_white_background }}
+                    {{/parseJSON}}
+                </div>
+                <div class="atdw-refresh-results-item">
+                    <a href="#" class="btn-primary transparent">refresh results</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="666" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[홈]]></headline>
+            <href><![CDATA[/ko/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[호주 여행 정보]]></headline>
+            <href><![CDATA[/ko/explore.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[서호주 (Western Australia)]]></headline>
+            <href><![CDATA[/ko/explore/states/wa.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/explore-states-wa.jpg]]></img_background>
+    <hdl_Title><![CDATA[서호주 (Western Australia)]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/explore-states-wa-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/explore-states-wa-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[no]]></opt_PartnerLead>
+    <stf_description><![CDATA[서호주 여행. 뛰어난 자연 환경과 친절한 사람들로 유명한 서호주에서 다양한 경관과 기후, 독특한 자연의 명소들을 체험해 보세요.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[y]]></stf_IsMobile>
+    <stf_keywords><![CDATA[서호주, 호주 관광청 ]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[상세 정보]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[서호주 여행 - 호주정부관광청]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[서호주는 해가 드는 날이 많은 점, 뛰어난 자연 환경과 친절한 사람들로 유명한 곳입니다.&nbsp; ]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <IntegratedMiniMap isTemplate="1">
+    <!-- no user content -->
+</IntegratedMiniMap><TravellersStoryWidget isTemplate="1">
+    <anc_link><![CDATA[/explore/map.aspx?filters=states,experiences&zoom=5&centre=-31.858883,122.516039]]></anc_link>
+    <img_image><![CDATA[/contentimages/states-WA.jpg]]></img_image> 
+</TravellersStoryWidget><Listing isTemplate="1">
+<anc_List1><![CDATA[/ko/explore/cities/perth/perth-surrounds.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[호주 아이디어 더]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/ko/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/ko/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/ko/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/ko/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/ko/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/ko/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/ko/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/ko/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/ko/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/ko/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/ko/Transport.aspx]]></anc_Transport>
+<hdl_Title><![CDATA[여행 계획 하기 ]]></hdl_Title>
+<language><![CDATA[KOR]]></language>
+<stf_Accomodation><![CDATA[숙박]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[관광지 ]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[가까운 여행사 찾기]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[여행지 정보]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[이벤트]]></stf_Events>
+<stf_Hire><![CDATA[렌탈 ]]></stf_Hire>
+<stf_Informationservices><![CDATA[일반 정보 안내]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[Western Australia]]></stf_StateFilter>
+<stf_Tours><![CDATA[투어]]></stf_Tours>
+<stf_Transport><![CDATA[교통 ]]></stf_Transport>
+</PlanYourVisit><MoreInformation isTemplate="1">
+    <hdl_Title><![CDATA[자세한 정보]]></hdl_Title>
+    <anc_Link><![CDATA[]]></anc_Link>
+    <anc_MoreLink><![CDATA[]]></anc_MoreLink> 
+    <img_Content><![CDATA[<img src="/contentimages/more_info_wa_thumb.jpg" border="0" align="left" class="imgLeft">]]></img_Content>
+    <stf_LinkTitle><![CDATA[]]></stf_LinkTitle>
+    <stf_MoreLink><![CDATA[http://www.westernaustralia.com/kr/Pages/Welcome_to_Western_Australia.aspx]]></stf_MoreLink>
+    <stf_MoreLinkText><![CDATA[추가 정보]]></stf_MoreLinkText>
+    <stf_Teaser><![CDATA[서호주 주 관광청 웹사이트를 방문하시면 보다 자세한 정보를 확인하실 수 있습니다.]]></stf_Teaser> 
+</MoreInformation>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[서호주, 퍼스 ]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        서호주는 햇빛 비치는 날이 많고,  자연경관과 기후가 다채롭기로 유명합니다. 퍼스(Perth)의 스완 리버(Swan River)에서 크루즈를 타고 프리맨틀(Fremantle)이나 스완 밸리(Swan Valley) 포도원으로 떠나 보세요. 높다란 수목과 마가렛 리버(Margaret River)의 거센 물결로 빙 둘러싸인 와이너리도 빠뜨릴 수 없답니다. 닝갈루 리프(Ningaloo Reef)에서 커다란 고래상어와 수영을 하고 몽키 마이어(Monkey Mia)에서 야생 병코 돌고래에게 먹이를 주거나 해질녘에 낙타를 타고 브룸의 케이블 비치(Cable Beach)를 돌아 보세요. 모험심 강한 분에게는 야성미 넘치는 댐피어 반도(Dampier Peninusla)를 따라 4륜구동으로 달리거나 벙글 벙글 협곡(Bungle Bungle Ranges) 상공을 나는 관광 비행을 추천합니다. 카나나라(Kununurra)의 거대한 인공호 아가일 호수(Lake Argyle)를 따라 보트를 타고 칼굴리(Kalgoorlie)에서 금광시대의 열기를 직접 느껴보세요. 백설처럼 눈부신 에스페란스(Esperance) 해변을 찾아 잠시 수영을 즐길 수도 있습니다. 서호주의 다양한 기후 덕분에 일년 중 어느 때 방문해도 여름을 즐길 수 있습니다. 
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[퍼스]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-cities-perth-hl.jpg" alt="퍼스">]]></img_MainImage>
+                    <stf_Caption><![CDATA[퍼스]]></stf_Caption>
+                    <anc_link><![CDATA[/ko/explore/cities/perth.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        호주 퍼스를 기점으로 하는 여행 계획을 짜보세요.  아름다운 퍼스는 인도양 해변과 스완 밸리 와인 지대로 둘러싸인 서호주의 주 수도로, 스완 강(Swan River)을 끼고 있습니다. 다른 여러 호주 도시와 함께 퍼스에 대해 간략히 살펴보세요.  이 도시와 주변 지역의 주요 명소에 대해 자세히 알아보세요.  초록이 무성한 킹스 공원(Kings Park)과 호젓한 해변, 매력적인 항구 프리맨틀(Fremantle), 인근 로트네스트 섬(Rottnest Island) 등 퍼스는 사방이 온통 놀라움으로 가득합니다.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[퍼스(Perth)와 주변 지역 ]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-cities-perth-perth-hl.jpg" alt="퍼스">]]></img_MainImage>
+                    <stf_Caption><![CDATA[퍼스]]></stf_Caption>
+                    <anc_link><![CDATA[/ko/explore/cities/perth/perth-surrounds.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        퍼스에서 30분만 가면 세계적 수준의 <a href="/ko/explore/states/wa/swan-valley.xml" target="_self">스완 밸리</a>(Swan Valley) 포도원을 만날 수 있으며, 스완 강에서는 크루즈를 타고 공원과 고층빌등 숲을 지나거나 황홀한 해변의 석양을 감상할 수 있습니다. 페리를 타고 자동차가 금지되어 있는 로트네스트 아일랜드(Rottnest Island)로 가서 역사의 흔적도 찾아보고, 자전거를 타고 63개 해변 중 하나를 달려보거나 카약을 타고 한적한 20여 개의 베이를 둘러보는 것도 좋습니다. <a href="/ko/explore/cities/perth/wa-fremantle.xml" target="_self">프리맨틀</a>에서 식사를 하며 잘 보존된 19세기 항구의 길거리 정취 속 활기찬 카페 분위기도 만끽해 보세요.. 또한 프리맨틀의 흥미로운 해양과 죄수 역사도 놓치지 마십시오. 킹스 파크(Kings Park) 전망대에서 경치를 감상하고 잘 가꿔진 정원, 원주민 전통유산도 둘러보세요. 코틀스로(Cottlesloe)부터 스카브로(Scarborough)에 이르는 퍼스 선샤인 코스트(Sunshine Coast)에 있는 19 개에 달하는 한적한 청정 해변에서 수영, 서핑, 낚시, 윈드서핑과 요트를 즐길 수 있습니다. 
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[코랄 코스트(Coral Coast) ]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/4.1.5.2_highlight.jpg" alt="코랄 코스트">]]></img_MainImage>
+                    <stf_Caption><![CDATA[코랄 코스트]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        남쪽의 세르반테스(Cervantes)와 달 표면 같은 <a href="/ko/explore/icons/ningaloo.xml" target="_self">피나클 사막</a>(Pinnacles Desert)부터 북쪽의 <a href="/ko/explore/itineraries/wa-indian-ocean-drive.xml" target="_self">엑스머스</a>(Exmouth)와 <a href="/ko/explore/icons/ningaloo.xml" target="_self">닝갈루 리프</a>(Ningaloo Reef)까지 뻗어 있는 총 1,100km 해안의 코랄 코스트(Coral Coast)는 일년 내내 해양 휴양지로 각광을 받고 있습니다. 칼바리 국립공원(Kalbarri National Park)의 머치슨 강(Murchison River) 침식으로 생성된 해안 절벽, 계곡을 따라 부시워크를 즐겨 보세요. 4륜구동 차로 달려 웅장한 석회암 산맥인 케이프 레인지 국립공원(Cape Range National Park)에 가면 닝갈루의 맑고 푸른 바다와 모래 해변 그리고 산호초를 만날 수 있습니다. 닝갈루 리프에서 순한 고래상어, 쥐가오리, 거북이와 함께 수영을 하거나, 샤크 베이 세계 유산 지역(Shark Bay World Heritage Area)을 방문하여 몽키 마이어(Monkey Mia)에서 야생 병코 돌고래에게 먹이를 주는 즐거운 추억을 만들어 보면 어떨까요? 쥬리엔 베이(Jurien Bay)에서 호기심 많은 바다사자를 가까이서 관람하는 경험과 세르반테스 타운 근교 피너클스의 놀라운 고대 암반층도 놓치지 마세요.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[골든 아웃백(Golden Outback) ]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/4.1.5.3_highlight.jpg" alt="골든 아웃백">]]></img_MainImage>
+                    <stf_Caption><![CDATA[골든 아웃백]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        서호주의 골든 아웃백(Golden Outback)으로 떠나는 4륜구동 모험 여행은 어떠세요? 에스페란스 인근 럭키 베이(Lucky Bay)의 백설처럼 흰 백사장과 멋진 해변에서 수영을 즐기거나 그레이트 웨스턴 우드랜드(Great Western Woodlands)의 풍부한 동식물을 발견해 보십시오. 원주민 역사도 배우고 세계 최대의 암벽산인 아우구스투스 산(Mount Augustus)에도 올라 보세요. 겨울과 초봄이면 12,000종의 화려한 <a href="/ko/explore/states/wa/wa-wildflowers.xml" target="_self">야생화</a>로 몸단장하는 황야의 아웃백 풍경을 놓치지 마세요.  휘트벨트(Wheatbelt)의 작고 친근한 마을이나, 27억년 된 지형인 웨이브 락(Wave Rock) 같은 신비한 지형을 보러 훌쩍 떠나 보는 것도 좋겠지요. 또한 골드러시 시대의 역사와 이 지방 고유의 동식물이 만날 수 있는 <a href="/ko/explore/states/wa/wa-kalgoorlie.xml" target="_self">칼굴리</a>와 금광촌으로 발길을 옮겨 보세요. 색다른 체험을 원한다면 평지 염수호인 발라드 호(Lake Ballard)로 가서 근처 멘지스(Menzies) 마을의 주민을 본떠서 만든 조각상 사이를 거닐어 보세요. 반짝이는 남대양 바다에서 서호주 붉은 오지 중심부까지, 이 다양하고 극적인 풍광은 절대 잊지 못할 것입니다.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[노스 웨스트(North West) ]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/4.1.5.4_highlight.jpg" alt="노스 웨스트">]]></img_MainImage>
+                    <stf_Caption><![CDATA[노스 웨스트]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        브룸(Broome)의 숨이 멎을 듯 아름다운 22km의 케이블 비치(Cable Beach)에서 낙타를 타보고 갠시엄 포인트(Gantheame Point) 바위에 새겨진 공룡 발자국 화석도 감상하고 로벅 베이(Roebuck Bay)의 자연 장관인 ‘달로 가는 계단’(Staircase to the Moon)을 구경해 보세요. 브룸에서 댐피어 반도(Dampier Peninsula)까지 붉은 먼지가 흩날리는 도로를 따라 4륜구동을 몰아 원주민이 운영하는 황야의 야영장에 도착하면 세계 최대 규모의 선사시대 암각화를 감상할 수도 있습니다. 킴벌리 코스트(Kimberley Coast) 북쪽 더비(Derby)에서 킹 사운드(King Sound) 너머로 저무는 일몰을 감상하고 부캐니어 군도(Buccaneer Archipelago)에 있는 세계에서 2개 밖에 없는 ‘수평 폭포(Horizontal Waterfalls)’ 상공을 관광 비행으로 살펴보는 것은 어떨까요? 세계유산에 등재된 <a href="/ko/explore/states/wa/wa-kununurra.xml" target="_self">카나나라</a>(Kununurra)에서 푸눌룰루 국립공원(Purnululu National Park)의 벌집 모양의 탑들이 우뚝 서있는 <a href="http://www.australia.com/campaigns/nothinglike/au/bungle-bungles.htm" target="_self">벙글 벙글 협곡</a>(Bungle Bungle Range)을 감상할 수 있습니다. 유량이 3천 2백만 입방미터에 달하는 거대한 인공호인 아가일 호수(Lake Argyle)와 오드 강(Ord River)을 따라 크루즈를 즐길 수 있습니다. 남쪽으로 더 가면<a href="/ko/explore/states/wa/wa-karijini-national-park.xml" target="_self">, 카리지니 국립공원</a>(Karijini National Park)을 만날 수 있습니다. 이 곳의 장엄한 붉은 협곡과 바오밥 나무, 폭포, 수영할 수 있는 에메랄드 빛 물 웅덩이도 놓치지 마세요.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[사우스 웨스트(South West) ]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/4.1.5.5_highlight.jpg" alt="사우스 웨스트">]]></img_MainImage>
+                    <stf_Caption><![CDATA[사우스 웨스트]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        <a href="/ko/explore/itineraries/wa-south-west-beaches-goldfields.xml" target="_self">던스보로</a>(Dunsborough)에서는 남반구에서 가장 큰 난파선 잔해인 호주 해군의 스완호(HMAS Swan)까지 스쿠버다이빙을 즐겨 보세요. 버셀턴(Busselton)에서 140년 된 1,841미터의 긴 목재 부두를 보고 세계적 수준의 <a href="/ko/explore/states/wa/wa-margaret-river.xml" target="_self">마가렛 리버</a>(Margret River) 와인지역을 방문해 수정처럼 맑은 벙커(Bunker) 물에서 수영하고 서퍼스 포인트(Surfers Point)에서 서핑도 즐겨 보세요. 레이크 동굴(Lake Cave)의 지하 호수에 비쳐진 맘모스 동굴의 화석과 주얼 동굴(Jewel Cave)의 관종유석을 살펴 보세요. 하늘을 찌르듯 솟아 있는 카리 숲을 지나 환상적인 드라이브를 즐기며 하멜린 베이(Hamelin Bay)로 떠나 볼까요? 이 곳에서는 가오리와 스노클링도 즐기고 보란업 비치(Boranup Beach)의 고즈넉하고 아름다운 백사장을 거닐 수도 있답니다. 낭만이 숨쉬는 오거스타(Augusta)로 오세요! 등대 끝에 위치한 케이프 르윈(Cape Leewin)은 인도양과 남극해를 가릅니다. 6월에서 10월까지 번버리(Bunbury)에서는 돌고래와 수영을 즐기고, 오거스타와 <a href="/ko/explore/cities/regional-cities/wa-albany.xml" target="_self">알바니</a>(Albany), 던스보로 (Dunsborough)에서는 고래를 만날 수 있습니다. 알바니에 머무르는 동안 그레이트 서든(Great Southern)의 풍부한 지역 특산물도 맛볼 수 있습니다.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[핑크 호수, 서호주]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-states-wa-pink-lake-hl.jpg" alt="핑크 호수, 서호주">]]></img_MainImage>
+                    <stf_Caption><![CDATA[핑크 호수, 서호주]]></stf_Caption>
+                    <anc_link><![CDATA[/ko/explore/states/wa/pink-lake.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        서호주에는 이색적인 핑크 호수가 많이 있습니다. 힐러 호수(Lake Hillier)는 에스페란스(Esperance) 앞바다의 러쉐어쉐이 군도를 이루는 섬들 중 가장 큰 섬인 미들 아일랜드에 있는 핑크색 호수입니다.
+        <p>위에서 이 호수를 보면 핑크색 풍선껌처럼 보입니다. 이 호수는 길이가 약 600m이고, 모래와 페이퍼박 숲 및 유칼립투스 나무로 이루어진 울창한 삼림으로 둘러싸여 있습니다. 초목으로 뒤덮인 좁은 모래 언덕이 푸른 남대양과의 경계선 역할을 합니다.</p>
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+        <lst_Subpage><![CDATA[<a href="/ko/explore/states/wa/pink-lake.xml">핑크 호수, 서호주</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/ko/explore/states/wa/wa-valley-of-the-giants-story.xml">자이언트 밸리</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/ko/explore/states/wa/wa-karijini-national-park.xml">Parco nazionale di Karijini, Australia Occidentale</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/ko/explore/states/wa/wa-pinnacles-nambung-national-park.xml">The Pinnacles, Nambung-Nationalpark, Westaustralien</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/ko/explore/states/wa/wa-valley-of-the-giants.xml">자이언트 밸리, 월폴</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/ko/explore/states/wa/wa-margaret-river.xml">마가렛 강(Margaret River): 음식과 자연을 사랑하는 사람들의 천국</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/ko/explore/states/wa/wa-kununurra.xml">쿠누누라(Kununurra)에서 재충전하는 당신의 감성! </a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/ko/explore/states/wa/wa-kalgoorlie.xml">칼구리(Kalgoorlie)에서 골드러시에 심취해 보자구요! </a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/ko/explore/states/wa/wa-wildflowers.xml">서호주 야생화</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/ko/explore/states/wa/margaret-river.xml">마가렛 리버</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/ko/explore/states/wa/swan-valley.xml">스완 밸리</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/ko/explore/states/wa/wa-karijini-story.xml">카리지니의 지질학적 경이</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/ko/explore/states/wa/margaret-river-story.xml">마가렛 리버에서의 즐거운 가족 여행</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/ko/explore/states/wa/wa-pinnacles-travel-story.xml">퍼스에서 피너클스까지</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/ko/explore/states/wa/wa-wave-rock-story.xml">웨이브 록 - 서호주의 경이로운 자연 경관</a>]]></lst_Subpage>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

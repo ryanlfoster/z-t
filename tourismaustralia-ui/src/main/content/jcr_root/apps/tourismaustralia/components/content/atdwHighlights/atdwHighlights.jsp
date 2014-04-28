@@ -11,11 +11,11 @@
 <%@ page import="com.australia.www.components.content.atdwhighlights.*" %>
 <c:set var="h" value="<%=new AtdwHighlights(slingRequest) %>"/>
 
-<div class="makeyourtriphappen-container" data-aus-tab-container>
+<div class="atdwhighlights" data-aus-tab-container>
 
     <div class="section-intro">
         <div class="l-center-900">
-            <h1 class="type-h1-responsive">${h.title}</h1>
+            <h3 class="type-h1-responsive">${h.title}</h3>
         </div>
         <div class="l-center-640 type-center">
             <p class="type-intro"> ${h.text}</p>
@@ -26,14 +26,10 @@
 
         <!-- Select List For Mobile -->
         <div class="section-buttons-mobile">
-
-
-
             <div class="dropdown-select">
                 <hr>
                 <div class="dropdown-select-style">
                     <select data-aus-select>
-
                         <c:forEach items="${h.activeCategories}" var="cat">
                             <c:if test="${not empty cat.products || isEdit}">
                                 <option value="${cat.id}">
@@ -41,19 +37,14 @@
                                 </option>
                             </c:if>
                         </c:forEach>
-
                     </select>
                 </div>
                 <hr>
             </div>
-
-
         </div>
 
         <!-- Buttons -->
         <div class="section-buttons-desktop">
-
-
             <c:forEach items="${h.activeCategories}" var="cat">
                 <c:if test="${not empty cat.products || isEdit}">
                     <a class="btn-bubble btn-bubble-min-width is-active " data-aus-tab="${cat.id}">

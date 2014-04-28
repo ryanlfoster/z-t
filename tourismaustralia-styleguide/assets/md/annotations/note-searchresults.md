@@ -1,0 +1,1 @@
+### Each search result links from the image, the title and the view more.

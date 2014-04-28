@@ -1,0 +1,39 @@
+.atdw-refresh-results .col-xs-12{
+  padding:  0;
+  @include breakpoint(md) {
+    padding:0 pxtoem(15px);
+  }
+}
+.atdw-refresh-results-wrapper{
+  background-color: #d9f1f3;
+  text-align: center;
+  padding:  pxtoem(20px) 0;
+  @include breakpoint(lg) {
+    padding-bottom: 0;
+  }
+}
+
+.atdw-refresh-results-item{
+  margin: pxtoem(15px) auto 0;
+  text-align: center;
+  display: inherit;
+  vertical-align: top;
+
+  @include breakpoint(lg) {
+    margin-left: pxtoem(20px);
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom:pxtoem(20px);
+  }
+}
+.atdw-refresh-results-item:first-child{
+  margin-left: 0;
+  margin-top: 0;
+}
+
+.atdw-refresh-results-item .btn-primary{
+  padding-top: .49em;
+  padding-bottom: .49em;
+  max-width: 280px;
+  margin: 0 auto;
+}

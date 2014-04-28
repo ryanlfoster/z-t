@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="450" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[홈]]></headline>
+            <href><![CDATA[/ko/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[호주 여행 정보]]></headline>
+            <href><![CDATA[/ko/explore.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[레드 센터(Red Centre) ]]></headline>
+            <href><![CDATA[/ko/explore/icons/red-centre.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/explore-icons-red-centre.jpg]]></img_background>
+    <hdl_Title><![CDATA[레드 센터(Red Centre) ]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/explore-icons-red-centre-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/10.0.31.2_thumb.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[no]]></opt_PartnerLead>
+    <stf_description><![CDATA[호주 레드센터 여행. 호주 레드센터에서 울루루, 카타추타, 맥도넬 산맥, 킹스 캐년 등 호주를 대표하는 자연의 경이를 느껴보세요.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[y]]></stf_IsMobile>
+    <stf_keywords><![CDATA[레드 센터, 호주 관광청 ]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[상세 정보]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[호주 레드센터 여행 - 호주정부관광청]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[호주의 붉은 심장부에서 영혼을 풍요롭게 채워보세요. ]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <IntegratedMiniMap isTemplate="1">
+    <!-- no user content -->
+</IntegratedMiniMap><TravellersStoryWidget isTemplate="1">
+    <anc_link><![CDATA[/explore/map.aspx?filters=icons,experiences&zoom=7&centre=-27.926459,133.387011]]></anc_link>
+    <img_image><![CDATA[/contentimages/icons-Red-Centre.jpg]]></img_image> 
+</TravellersStoryWidget><Listing isTemplate="1">
+<anc_List1><![CDATA[/ko/explore/events/nt-henley-on-todd.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[호주 아이디어 더]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/ko/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/ko/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/ko/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/ko/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/ko/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/ko/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/ko/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/ko/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/ko/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/ko/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/ko/Transport.aspx]]></anc_Transport>
+<hdl_Title><![CDATA[여행 계획 짜기]]></hdl_Title>
+<language><![CDATA[KOR]]></language>
+<stf_Accomodation><![CDATA[숙박]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[관광지]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[가까운 여행사 찾기]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[여행지 정보]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[Alice Springs &amp; Surrounds;Uluru/Kata Tjuta Region]]></stf_DomesticRegion>
+<stf_Events><![CDATA[이벤트]]></stf_Events>
+<stf_Hire><![CDATA[렌탈]]></stf_Hire>
+<stf_Informationservices><![CDATA[일반 정보 안내]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[Northern Territory]]></stf_StateFilter>
+<stf_Tours><![CDATA[투어]]></stf_Tours>
+<stf_Transport><![CDATA[교통]]></stf_Transport>
+</PlanYourVisit><MoreInformation isTemplate="1">
+    <hdl_Title><![CDATA[자세한 정보]]></hdl_Title>
+    <anc_Link><![CDATA[]]></anc_Link>
+    <anc_MoreLink><![CDATA[]]></anc_MoreLink> 
+    <img_Content><![CDATA[<img src="/contentimages/4.1.8.3_thumb.jpg" border="0" align="left" class="imgLeft">]]></img_Content>
+    <stf_LinkTitle><![CDATA[]]></stf_LinkTitle>
+    <stf_MoreLink><![CDATA[http://kr.travelnt.com/Explore.aspx?P=41]]></stf_MoreLink>
+    <stf_MoreLinkText><![CDATA[추가 정보 ]]></stf_MoreLinkText>
+    <stf_Teaser><![CDATA[호주 수도 특별자치구 관광청 웹사이트에서 자세한 내용을 살펴보고 일정을 계획하고 여행을 예약할 수 있습니다. ]]></stf_Teaser> 
+</MoreInformation>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[레드 센터(Red Centre) ]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        호주 레드 센터에서 울룰루, 카타 추타, 맥도넬 산맥, 킹스 캐년 등 호주를 대표하는 자연의 경이를 느껴보세요. 태고의 산맥과 끝없이 펼쳐지는 평원에서 편안한 당일 여행을 즐길 수 있는 유명한 아웃백 고장인 앨리스 스프링스에서 이 모든 것을 둘러 보실 수 있습니다.  낙타를 타고 울룰루를 보며, 사륜구동으로 유구한 역사를 자랑하는 핑크강(Finke River) 유역까지 가보세요.  맥도넬 산맥의 별빛 아래서 하루를 보내고 글렌 헬렌 협곡(Glen Helen Gorge)에서 수영을 즐기세요.  심슨 사막(Simpson Desert)에서는 혼이 담긴 원주민 예술의 감흥을 느껴보세요.  라라핀타 트레일(Larapinta Trail)에서 고유의 동식물을 가까이서 살펴보고 레드센터 웨이(Red Centre Way)로 차를 몰며 무수히 펼쳐지는 다채로운 경관을 감상하세요. 
+        <p><strong>레드 센터에서 꼭 가보아야 할 5곳</strong></p>
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[1. 앨리스 스프링스와 주변 지역 ]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/4.3.14.2_highlight.jpg" alt="앨리스 스프링스와 주변 지역">]]></img_MainImage>
+                    <stf_Caption><![CDATA[앨리스 스프링스와 주변 지역 ]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        호주의 지리적 중심에서 남쪽으로 불과 200km 거리에 유명한 아웃백 고장 <a href="/ko/explore/itineraries/nt-3days-alice-springs.xml" target="_self">앨리스 스프링스</a>가 있습니다. 호주의 붉은 심장부에 자리 잡은 앨리스에 머무르세요. <a href="/ko/explore/states/sa/sa-desert-adventure.xml" target="_self">심슨 사막</a>의 넘실거리는 모래 둔덕을 가로지르는 낙타 여행에 참여하거나 부시 워킹과 사륜구동 드라이브를 즐길 수 있습니다.  동틀 무렵 심슨스 갭(Simpsons Gap)까지 자전거를 타고 가거나 타나미 트랙(Tanami Track)을 따라 다양한 원주민 예술 양식을 살펴보고, 자그마한 원주민 지역사회인 세인트 테레사(St Teresa) 근처에서 암벽예술, 각종 구조물, 갖가지 의식을 거행하던 유적지를 답사해 보세요. 
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[2. 울룰루-카타추타(Uluru-Kata Tjuta) 국립공원. ]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/4.3.14.3_highlight.jpg" alt="Uluru-Kata Tjuta, NT">]]></img_MainImage>
+                    <stf_Caption><![CDATA[울룰루-카타추타]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        호주의 깊은 내륙 중심 사막 가운데 348m 높이로 솟아있는 <a href="http://www.australia.com/campaigns/nothinglike/au/uluru.htm" target="_blank">울룰루</a>는 너무나 선명한 색조로 빛과 조화를 이루며 일몰을 압도합니다. <br />
+         아낭구(Anangu) 원주민 가이드의 안내로 울룰루 아래쪽을 거닐어보고 꿈의 시대에 영혼의 선조들이 어떻게 이를 창조했는지 들어보세요.  울룰루에 남겨진 옛 원주민 전투의 흔적도 따라가 볼 수 있습니다.  낙타와 오토바이 아니면 관광 헬리콥터를 타고 울룰루를 바라보세요.  샴페인 한 잔을 기울이며 작열하는 일몰을 감상한 다음 별빛 영롱한 하늘 아래 모닥불을 지피며 바라문디, 에뮤, 캥거루 고기로 만든 정찬을 즐겨보세요.  40km만 가면 5억 년 넘게 침식되어 형성된 가파르고 둥근 황갈색의 돔형 카타추타를 볼 수 있습니다. 원주민 가이드의 안내와 더불어 야영장에서 호화 리조트까지 다양한 숙박시설이 마련되어 있는 울룰루-카타추타 국립공원에서 자연의 경이를 체험할 수 있습니다.  
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[3. 킹스 캐년(Kings Canyon)과 와타르카(Watarrka) 국립공원. ]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/4.3.14.4_highlight.jpg" alt="Kings Canyon, NT">]]></img_MainImage>
+                    <stf_Caption><![CDATA[킹스 캐년과 와타르카 국립공원. ]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[킹스 캐년의 가장자리를 따라가며 와타르카 국립공원의 험준한 절벽과 계곡을 가로지르는 멋진 경관을 감상하세요. <BR>&nbsp;협곡 사이로 우뚝 솟은 암벽들이 야자수 가득한 절벽 틈새와 초록이 무성한 산록을 에워싸 이곳이 사막 지역임을 무색케 합니다.&nbsp; 오랜 옛날 습지 시대의 희귀한 식생을 살펴보고 에덴 동산(Garden of Eden)의 열대 풀장에서 수영을 즐기세요.&nbsp; 로스트 시티(Lost City)의 풍화된 돔형 암반도 둘러보세요.&nbsp; 카마이클 크랙(Carmichael Crag)에서 일몰을 감상하고, 캐슬린 스프링스 워크(Kathleen Springs Walk)를 통해 아름다운 샘을 보시고, 자일즈 트랙(Giles Track)에서 트레킹으로 밤을 지새보세요.&nbsp;&nbsp; 야영이 내키지 않으면 리조트나 황무지 오두막에서 밤을 보냅니다. <BR>]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[4. 핑크 고지(Finke Gorge) 국립공원]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/4.3.14.5_highlight.jpg" alt="핑크 고지국립공원">]]></img_MainImage>
+                    <stf_Caption><![CDATA[핑크 고지국립공원]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[사륜구동을 타고 핑크 고지 국립공원의 솟구친 사암 절벽과 세계에서 가장 오래된 수로로 손꼽히는 거대한 핑크 강까지 가보세요.&nbsp; 세계에서 유일하게 붉은 캐비지야자수를 볼 수 있는 팜 밸리(Palm Valley)의 사막 오아시스도 놓칠 수 없지요.&nbsp; 아란카이아 워크(Arankaia Walk)나 이보다 더 긴 음풀룽킨야 워크(Mpulungkinya Walk)에서 늘씬한 야자수 사이를 거닐 수 있습니다.&nbsp; 그리고&nbsp; 짧은 칼라랑가 룩아웃 워크(Kalaranga Lookout Walk)의 길을 따라가면서 험준한 절벽으로 둘러싸인 암반 원형극장의 장관을 감상합니다.&nbsp; 인기 있는 2시간 음파라 워크(Mpaara Walk)에서 웨스턴 아렌테(Western Arrernte) 원주민의 신화에 대해 알아보세요.&nbsp; 어른거리는 물 위로 길게 늘어진 유칼리나무와 자주빛 산악 전경이 이글거리는 태양빛에 황토빛이 되는 광경을 감상하세요.]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[5. 맥도넬 산맥(MacDonnell Ranges) ]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/4.3.14.6_highlight.jpg" alt="MacDonnell Ranges, NT">]]></img_MainImage>
+                    <stf_Caption><![CDATA[맥도넬 산맥]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        <a href="/ko/explore/itineraries/nt-larapinta-trail.xml" target="_blank">라라핀타 트레일</a>과 에뮤 드리밍(Emu Dreaming) 산책로를 따라 우아한 적색강 유칼리나무와 왈라비, 시원하고 맑은 샘을 지나 오미스톤 협곡(Ormiston Gorge)까지 걸어보세요. 오미스톤 크릭(Ormiston Creek)에서 300m 높이로 우뚝 솟은 계곡의 깎아지른 듯한 암벽의 경관을 감상하시고 14m 깊이의 물 속으로 뛰어듭니다.  엘레리 크릭 빅홀(Ellery Creek Big Hole)과 레드뱅크 계곡(Redbank Gorge) 그리고 그림 같은 글렌헬렌 계곡에서도 시원하게 몸을 적실 수 있습니다. 심슨스 갭의 고스트 유칼리나무와 산등성이 주변에서 바위 왈라비를 찾아보세요.  스탠들리 캐즘(Standley Chasm)까지 걸으면서 한낮의 태양 아래 가파른 절벽이 붉은 빛으로 작열하는 광경을 감상하세요. 그로스 블러프(Gosse Bluff)로 불리기도 하는 트노랄라(Tnorala)에서 웨스턴 아렌테까지 폭이 20km에 이르는 분화구도 놓치지 마세요.  물론 약 1억3천만 년 전에 혜성이 지구에 충돌하여 형성되었다는 과학적인 설명보다는 분화구에 얽힌 전설 같은 이야기가 좀 더 신비롭긴 하지요?  이스트 맥도넬 산맥(East MacDonnell Ranges)에서 부시워킹과 야영, 사륜구동 드라이브를 즐기고, 트레피나 계곡(Trephina Gorge)과 금광 붐 시대의 유령 마을인 알퉁가(Arltunga)를 둘러보세요.  
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[데블스 마블, 노던 테리토리]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-icons-red-centre-devils-marbles-hl.jpg" alt="데블스 마블, 노던 테리토리">]]></img_MainImage>
+                    <stf_Caption><![CDATA[데블스 마블, 노던 테리토리]]></stf_Caption>
+                    <anc_link><![CDATA[/ko/explore/icons/red-centre/devils-marbles.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        데블스 마블(Devils Marbles)은 노던 테리토리(Northern Territory)의 테넌트 크릭(Tennant Creek) 남쪽에서 100km 떨어진 광활한 얕은 밸리에 흩어져 있는 거대한 화강암 바위입니다.
+        <p>와루문구, 카이테타이, 알랴와르 및 왈프리 부족이 오랫동안 살아온 지역에 데블스 마블이 자리하고 있습니다. 이 부족들은 데블스 마블을 카루카루라고 부르는데 문자 그대로 번역하면 ‘둥근 바위'를 뜻합니다.</p>
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[카타츄타, 노던 테리토리]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-icons-red-centre-kata-tjuta-nt-hl.jpg" alt="카타츄타, 노던 테리토리">]]></img_MainImage>
+                    <stf_Caption><![CDATA[카타츄타, 노던 테리토리]]></stf_Caption>
+                    <anc_link><![CDATA[/ko/explore/icons/red-centre/kata-tjuta.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        카타츄타(Kata Tjuta - 예전의 올가스)는 호주 레드 센터의 울룰루(Uluru)에서 약 30km 떨어진 위치로, 거대한 고대 암석 덩어리가 모여 있는 지대입니다. 이 거대한 암석 덩어리들은 울룰루-카타츄타 국립 공원의 주요 명소가 되고 있습니다.
+        <p>카타츄타를 이루는 36개의 돔은 20km가 넘는 지역에 걸쳐 흩어져 있습니다. 그 중 가장 높은 지점은 올가스 산으로, 뷔르템베르크의 올가스 여왕을 기려 이름을 지었습니다.</p>
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[킹스캐년, 노던 테리토리]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-icons-red-centre-kings-canyon-hl.jpg" alt="킹스캐년, 노던 테리토리">]]></img_MainImage>
+                    <stf_Caption><![CDATA[킹스캐년, 노던 테리토리]]></stf_Caption>
+                    <anc_link><![CDATA[/ko/explore/icons/red-centre/kings-canyon.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        킹스캐년(Kings Canyon)은 호주 노던 테리토리의 와타르카 국립 공원에 속해 있습니다. 조지길 산맥 서쪽 끝에 위치한 킹스캐년은 앨리스 스프링스(Alice Springs)와 울룰루(Uluru) 중간 지점에 위치합니다.
+        <p>울창한 야자숲 위로 솟아 올라 있는 오래된 붉은 암석 절벽인 킹스캐년은 중요한 보호구이자 600종 이상의 토착 동식물의 은신처이며, 이들 중 상당수가 이 지역에만 볼 수 있는 희귀종입니다.</p>
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+        <lst_Subpage><![CDATA[<a href="/ko/explore/icons/red-centre/devils-marbles.xml">데블스 마블, 노던 테리토리</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/ko/explore/icons/red-centre/kata-tjuta.xml">카타츄타, 노던 테리토리</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/ko/explore/icons/red-centre/kings-canyon.xml">킹스캐년, 노던 테리토리</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/ko/explore/icons/red-centre/nt-uluru-story.xml">호주 어드벤처 – 레드 센터부터 태즈매니아까지</a>]]></lst_Subpage>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

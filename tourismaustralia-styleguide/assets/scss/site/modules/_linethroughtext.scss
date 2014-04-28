@@ -16,8 +16,7 @@
   width: 16px;
 }
 .line-through-container .line-through-container-biline {
-  font-family: "TAheadline", Helvetica, Arial, sans-serif;
-  letter-spacing: .015em;
+  @include type_TAheadline();
   font-size: 1.75em;
   color: #4a3c31;
   display: table-cell;
@@ -28,11 +27,15 @@
 .line-through-line-wrapper {
   &:before {
     content: '\2014';
-    margin-right: pxtoem(16px);
+    position: absolute;
+    top: 0px;
+    left: -20px;
   }
   &:after {
     content: '\2014';
-    margin-left: pxtoem(16px);
+    position: absolute;
+    top: 0px;
+    right: -20px;  
   }
 }
 

@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="99" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[首頁]]></headline>
+            <href><![CDATA[/zht/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[關於]]></headline>
+            <href><![CDATA[/zht/about.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[海岸]]></headline>
+            <href><![CDATA[/zht/about/australias-landscapes/coastal.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/about-landscapes-coastal.jpg]]></img_background>
+    <hdl_Title><![CDATA[海岸]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/about-landscapes-coastal-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/about-landscapes-coastal-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[澳洲約有 50,000 公里的壯觀海岸線，加上島嶼、令人驚豔的海灘、層層疊疊的岩礁，還有長長的漫遊之路，構成數百萬個值得您深入探索的景點。 ]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[海岸]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[了解更多資料 ]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[海岸]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[海岸]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        澳洲約有 50,000 公里的壯觀海岸線，加上島嶼、令人驚豔的海灘、層層疊疊的岩礁，還有長長的漫遊之路，構成數百萬個值得您深入探索的景點。 
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <ExperienceLocationMap isTemplate="1">
+    <!-- no user content -->
+</ExperienceLocationMap><Listing isTemplate="1">
+<anc_List1><![CDATA[/zht/about/australias-landscapes/australian-beaches.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[更多澳洲風景 ]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/zht/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/zht/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/zht/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/zht/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/zht/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/zht/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/zht/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/zht/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/zht/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/zht/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/zht/Transport.aspx]]></anc_Transport>
+<hdl_Title><![CDATA[計劃您的假期]]></hdl_Title>
+<language><![CDATA[CHT]]></language>
+<stf_Accomodation><![CDATA[]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[]]></stf_Events>
+<stf_Hire><![CDATA[]]></stf_Hire>
+<stf_Informationservices><![CDATA[]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[]]></stf_StateFilter>
+<stf_Tours><![CDATA[]]></stf_Tours>
+<stf_Transport><![CDATA[]]></stf_Transport>
+</PlanYourVisit>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[海岸]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        澳洲約有 50,000 公里的壯觀海岸線，加上島嶼、令人驚豔的海灘、層層疊疊的岩礁，還有長長的漫遊之路，構成數百萬個值得您深入探索的景點。 
+        <p>駕車遊覽悉尼（Sydney）至布里斯本（Brisbane）的太平洋海岸遊覽路線（Pacific Coast Touring Route），行經拜倫灣（Byron Bay）及黃金海岸（Gold Coast）。 沿著壯觀的大洋路（Great Ocean Road）或海岸公路，開車前往維多利亞（Victoria）的摩寧頓半島（Mornington Peninsula）。 探索組成昆士蘭（Queensland）降靈群島（Whitsunday Islands）的 74 個小島。 到塔斯曼尼亞（Tasmania）的菲辛那半島（Freycinet Peninsula），靜靜享受人跡罕至的美景。 參觀葡萄酒產區，或到西澳西南方瑪格麗特河（Margaret River）以及南澳弗勒里雲半島（Fleurieu Peninsula）兩地的海灘滑浪。</p>
+        <p>從列入世界遺產的國家公園，到豪華的雨林度假村和人跡罕至的海灘；無論您以何種方式體驗我們連綿無盡的海岸線，您很快就會發現為何海岸是澳洲生活不可缺少的一環。</p>
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[拜倫灣（Byron Bay），新南威爾斯州（NSW）]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/3.1.6.2_highlight.jpg" alt="拜倫灣（Byron Bay），新南威爾斯州（NSW）">]]></img_MainImage>
+                    <stf_Caption><![CDATA[拜倫灣（Byron Bay），新南威爾斯州（NSW）]]></stf_Caption>
+                    <anc_link><![CDATA[/zht/explore/icons/byron-bay.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        拜倫灣（Byron Bay）悠閒的生活方式，深深吸引背包客、億萬富豪、探險者及另類生活家前來朝聖。 數百公里長的璀璨金色海灘、迷人的滑浪聖地、絕佳的潛水地點及豐富的野生動植物，讓這個地方成為自然愛好者的天堂。 拜倫灣（Byron Bay）一直都是澳洲名人和富豪的熱門度假勝地，他們與藝術家、算命師和業餘農夫在此地和平共處。 拜倫灣（Byron Bay）腹地是亞熱帶雨林中的綠洲，也是國家公園。 其中心隱隱逼近沃寧山（Mount Warning），這是史前時期古老火山的遺跡，被當地原住民視為聖地，他們稱之為沃倫彬（Wollumbin），意思是「捕雲者」。 拜倫角（Cape Byron）有歷史悠久的燈塔，是澳洲的最東端。 這裡也是澳洲每天迎接第一道溫暖曙光的地方。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[降靈群島（Whitsunday Islands），昆士蘭（Queensland） ]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/3.1.6.3_highlight.jpg" alt="降靈群島（Whitsunday Islands），昆士蘭（Queensland） ">]]></img_MainImage>
+                    <stf_Caption><![CDATA[降靈群島（Whitsunday Islands），昆士蘭（Queensland） ]]></stf_Caption>
+                    <anc_link><![CDATA[/zht/explore/itineraries/qld-whitsundays-sailing.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        降靈群島（Whitsunday Islands）由 74 個島嶼組成，邊界是大堡礁（Great Barrier Reef）世界遺產區，以及珊瑚海（Coral Sea）的隱蔽水域。 在白沙和溫暖的湛藍海水裡，您可以看到海洋生物、七彩斑斕的珊瑚，也可以釣魚、航海，或在杳無人煙的島上放空。
+        <p>著名的白天堂海灘（Whitehaven Beach）宛如鑲在這頂皇冠上的珠寶，擁有七公里的純淨美麗沙灘。 這是澳洲最常被拍攝的海灘之一，也是求婚和蜜月的熱門地點。 從亞伯角碼頭（Abel Point Marina）租船出海、游泳、浮潛，並到藍珍珠灣（Blue Pearl Bay）、蝴蝶灣（Butterfly Bay）、機會灣（Chance Bay）和富克島灣（Hook Island Bays）等寧靜停泊點潛水。 沉湎於哈密頓島（Hamilton Island）的度假氣氛之中，在南莫爾島（South Molle）的國家公園的叢林徒步旅行，然後去海曼島（Hayman Island）的五星級酒店中享受豪華、盡情放鬆。 搭乘水上飛機飛往心形礁（Heart Reef），享受澳洲最浪漫的體驗之一。</p>
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[黃金海岸（Gold Coast），昆士蘭（Queensland）]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/3.1.6.4_highlight.jpg" alt="黃金海岸（Gold Coast），昆士蘭（Queensland）">]]></img_MainImage>
+                    <stf_Caption><![CDATA[黃金海岸（Gold Coast），昆士蘭（Queensland）]]></stf_Caption>
+                    <anc_link><![CDATA[/zht/explore/cities/gold-coast.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        這個經典度假勝地有長達 70 公里、陽光普照的海灘，包括全球知名的滑浪者天堂（Surfers Paradise）。 到伯利角（Burleigh Heads）登上浪板，划船穿過黃金海岸海上航道（Gold Coast Seaway）前往南斯特拉布魯克島（South Stradbroke Island），或在北斯特拉布魯克島（North Stradbroke Island）上學習滑浪。 進入五光十色、樂趣十足的酒吧和夜店，或者暢遊都會精品店盡情購物。 黃金海岸（Gold Coast）也是通往某些昆士蘭（Queensland）最佳自然勝地的門戶，您可以前往賞鯨、逐一遊遍各個小島，或進入世界遺產級的公園和雨林，一覽郁郁蔥蔥的內陸腹地。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[摩寧頓半島（Mornington Peninsula），維多利亞州（Victoria） ]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/3.1.6.5_highlight_(2).jpg" alt="摩寧頓半島（Mornington Peninsula），維多利亞州（Victoria） ">]]></img_MainImage>
+                    <stf_Caption><![CDATA[摩寧頓半島（Mornington Peninsula），維多利亞州（Victoria） ]]></stf_Caption>
+                    <anc_link><![CDATA[/zht/explore/cities/melbourne/mornington-peninsula.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        <div style="mso-element: frame; mso-element-frame-hspace: 9.0pt; mso-element-wrap: around; mso-element-anchor-vertical: paragraph; mso-element-anchor-horizontal: margin; mso-element-top: -2.55pt; mso-height-rule: exactly;">
+        <p>探索這個風景如畫的半島上一流的游泳和滑浪海灘、歷史悠久的灣邊小鎮和千金難求的視野，這裏距離墨爾本 (Melbourne) 以南僅一小時車程。 </p>
+        <p>摩寧頓摩寧頓半島（Mornington Peninsula）有兩個獨特的海灣，分別是菲力浦港灣（Port Phillip Bay）和西港灣（Western Port Bay），有數百個刺激景點可供遊覽。 沿著崎嶇不平的海岸線步行，經過沙丘、海灘、懸崖和燈塔。 您可以在法國島（French Island）上觀賞樹熊，在索倫托（Sorrento）與海豚和海豹結伴游泳，然後在俯瞰大海的葡萄園或橄欖園裏享用午餐。</p>
+        <p>摩寧頓半島（Mornington Peninsula）也吸引了愛冒險的水肺潛水者前來，這裡被公認為澳洲最多樣的潛水地點之一，也是潛水愛好者心中的家。 海岸沿線有 60 個以上的船難遺骸，已經成為人工礁岩，吸引無數海洋生物。</p>
+        </div>
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[瑪格麗特河（Margaret River），西澳（Western Australia）]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/3.1.6.6_highlight.jpg" alt="瑪格麗特河（Margaret River），西澳（Western Australia）">]]></img_MainImage>
+                    <stf_Caption><![CDATA[瑪格麗特河（Margaret River），西澳（Western Australia）]]></stf_Caption>
+                    <anc_link><![CDATA[/zht/explore/states/wa/wa-margaret-river.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        瑪格麗特河（Margaret River）除了是澳洲最佳的葡萄酒產區之一外，也是個自然天堂，包括滑浪海灘、參天的卡里樹林、地下洞穴及絕世美景。
+        <p>您可以親身造訪澳洲最西北端，看印度洋（Indian Ocean）與南大洋（Southern Ocean）在此交會。 百年歷史的露紋角燈塔（Cape Leeuwin Lighthouse）是著名地標。 強勁的海浪不斷衝擊海岸沿線的 75 個海灘，讓瑪格麗特河（Margaret River）成為全球十大滑浪度假地點之一。 從露紋角（Cape Leeuwin）健行到納多魯利斯角（Cape Naturaliste），春季的時候這裡開滿色彩絢爛的野花，彷彿大地花毯。</p>
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[菲辛那半島（Freycinet Peninsula），塔斯曼尼亞州（Tasmania） ]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/3.1.6.7_highlight.jpg" alt="菲辛那半島（Freycinet Peninsula），塔斯曼尼亞州（Tasmania） ">]]></img_MainImage>
+                    <stf_Caption><![CDATA[菲辛那半島（Freycinet Peninsula），塔斯曼尼亞州（Tasmania） ]]></stf_Caption>
+                    <anc_link><![CDATA[/zht/explore/icons/freycinet.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        塔斯曼尼亞（Tasmania）有令人驚訝的菲辛那半島（Freycinet Peninsula），您在這裡也許可以獨享整個海灘。 最知名的海灘在酒杯灣（Wineglass Bay），白沙畫出完美曲線，加上湛藍的海水，周圍是粉灰交錯的花崗岩山峰，這裡是公認的全球十大海灘之一。 您可以在此釣魚、航海、叢林漫步、海上划艇、攀岩，或安靜曬太陽，踏踏乾淨海灘，享受絕美的海岸風景。 菲辛那國家公園（Freycinet National Park）也是絕佳的賞鳥地點。 如果幸運，可以看到在頭頂上滑翔的白腹海鵰，或潛水捕食的澳洲西亞塘鵝。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[弗勒里雲半島（Fleurieu Peninsula），南澳（South Australia）]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/3.1.6.8_highlight.jpg" alt="弗勒里雲半島（Fleurieu Peninsula），南澳（South Australia）">]]></img_MainImage>
+                    <stf_Caption><![CDATA[弗勒里雲半島（Fleurieu Peninsula），南澳（South Australia）]]></stf_Caption>
+                    <anc_link><![CDATA[/zht/explore/states/sa.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        往都市南方開車一小時，就能在南澳的弗勒里雲半島（Fleurieu Peninsula）體驗真正的澳洲海灘文化。 在這個海岸樂園四季都有許多活動。 在當地上滑浪課、潛水探訪驚人的船難遺骸、探索古老雨林，或者釣釣淡水鱒魚。 到花崗岩島（Granite Island）看小企鵝上岸。 崖頂、海灘、小海灣和蜿蜒的穆理河（Murray River），勾勒出弗勒里雲半島（Fleurieu Peninsula）的綠色山巒。 冬季時，可以從宏偉的海岬賞鯨，一覽南大洋（Southern Ocean）狂野怒吼的巨浪不斷衝擊海岸線。 
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

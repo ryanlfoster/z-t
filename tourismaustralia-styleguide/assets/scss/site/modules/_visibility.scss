@@ -7,8 +7,32 @@
     }
 }
 
+@mixin vis-hidden() {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}
+
+@mixin vis-visible() {
+    position: static;
+    width: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    clip: auto;
+}
+
+.vis-hidden {
+    @include vis-hidden();
+}
+
 .vis-hidden-sm {
-    @media (min-width: $screen-sm-min) {
+    @media (min-width: $screen-sm) {
         position: absolute;
         width: 1px;
         height: 1px;

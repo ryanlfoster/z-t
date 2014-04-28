@@ -2,9 +2,14 @@
 // * What you can see:
 // * ---------------------------------------------------------------------------------------------------------------- */
 
+.quote {
+  padding-bottom: pxtoem($bottom-spacing);
+}
+
 .quote-social-image {
   position: relative;
   text-align: center;
+
   @include breakpoint(md) {
     display: table-cell;
     top: 1em;
@@ -21,7 +26,7 @@
 }
 .quote-text {
   color: #297c9a;
-  font-family: "ProximaNova Semi Bold Italic", Helvetica, Arial, sans-serif;
+  font-family: $font-family-base-i;
   font-size: 1.5em;
   line-height: 1.4em;
   padding: 0;

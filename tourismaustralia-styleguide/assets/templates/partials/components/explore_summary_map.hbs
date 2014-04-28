@@ -2,7 +2,7 @@
 title: Intro Section (includes breadcrumb, explore, share, summary, text, map)
 ---
 
-<div class="home-explore-summary-map">
+<div class="home-explore-summary-map l-padding-b">
 {{#if page_title}}
 
     <div class="row l-center-1200">
@@ -44,19 +44,16 @@ title: Intro Section (includes breadcrumb, explore, share, summary, text, map)
                             {{/if}}
                         </div>
                     </div>
+                    {{#if map_text}}
                     <hr class="full">
                     <div class="row">
                         <div class="type-body">
-                            {{#if map_text}}
-                                {{#each map_text}}
-                                    <p>{{this.para}}</p>
-                                {{/each}}
-                            {{else}}
-                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Stet clita kasd gubergren, no sea takimata sanctus est.</p>
-                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Stet clita kasd gubergren, no sea takimata sanctus est.</p>
-                            {{/if}}
+                        {{#each map_text}}
+                            <p>{{this.para}}</p>
+                        {{/each}}
                         </div>
                     </div>
+                    {{else}}{{/if}}
                 </div>
             </div>
 

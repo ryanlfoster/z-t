@@ -78,7 +78,7 @@ public class StateMosaicServlet extends SlingAllMethodsServlet {
 
 		if (pageTemplate != null && (!pageTemplate.equals("homepage")))
 			pageTemplate = null;
-		
+
 		if (flag.equals("default")) {
 			limit = 10;
 			offset = 0;
@@ -159,7 +159,8 @@ public class StateMosaicServlet extends SlingAllMethodsServlet {
 				Tag cityTag = TagUtils.getCityTag(tagManager, tagsArray);
 				if (cityTag != null)
 					cityTagName = cityTag.getTitle().toString() + "," + stateTitle;
-				String templateName = articlePage.getTemplate().getName();
+				String templateName = articlePage.getProperties().get("cq:template", "");
+				templateName = templateName.substring(templateName.lastIndexOf("/") + 1);
 				if (!templateName.equals("facebookpage") && (!templateName.equals("instagrampage"))
 					&& (!templateName.equals("twitterpage")))
 					templateName = null;

@@ -21,7 +21,7 @@
             <div class="mosaic-column-back mosaic-content flip-back mosaic-back theme-arts">
                 <div class="vertical-container">
                     <div class="vertical-content text-center">
-                        <img src="/etc/designs/tourismaustralia/clientlibs/img/icons/nature_wildlife.png" alt="" />
+                        <img class="icon-generic" src="/etc/designs/tourismaustralia/clientlibs/imgs/icons/beaches_white_outline.png" alt="" />
                         <p class="type-destination line-through-line-wrapper">${contentItem.title}</p>
                     </div>
                 </div>
@@ -34,7 +34,7 @@
         <div class="mosaic-item-container">
 
             <div class="l-h-center type-spacing-20">
-                <img src="/etc/designs/tourismaustralia/clientlibs/img/icons/art_culture.png" alt="" />
+                <img src="/etc/designs/tourismaustralia/clientlibs/imgs/icons/art_culture.png" alt="" />
             </div>
 
             <div class="line-through-container">
@@ -57,8 +57,8 @@
                     </span>
                 </span>
                 <span class="btn-bubble-button">
-                    <img class="btn-bubble-std" src="/etc/designs/tourismaustralia/clientlibs/img/icons/favourite_outline.png" alt="" />
-                    <img class="btn-bubble-active" src="/etc/designs/tourismaustralia/clientlibs/img/icons/favourite.png" alt="" />
+                    <img class="btn-bubble-std" src="/etc/designs/tourismaustralia/clientlibs/imgs/icons/favourite_outline.png" alt="" />
+                    <img class="btn-bubble-active" src="/etc/designs/tourismaustralia/clientlibs/imgs/icons/favourite.png" alt="" />
                 </span>
                 </a>
 

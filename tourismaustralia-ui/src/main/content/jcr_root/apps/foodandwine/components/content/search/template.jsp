@@ -102,8 +102,8 @@
 					<span class="mosaic-item-description"> <span
 						class="mosaic-item-description-head type-font-feature">
 							{{title}} </span> <span class="mosaic-item-description-sub">
-							{{stateTag}} </span> <span class="mosaic-item-description-copy">
-							{{description}} <br>
+							{{state}} </span> <span class="mosaic-item-description-copy">
+							{{pageDescription}} <br>
 						<br> <span class="mosaic-item-description-copy-link"><strong>Read
 									more</strong></span> <strong class="mosaic-item-description-categories"><em>{{primaryCategory}}</em></strong>
 					</span>
@@ -164,8 +164,8 @@
 					<span class="mosaic-item-description"> <span
 						class="mosaic-item-description-head type-font-feature">
 							{{title}} </span> <span class="mosaic-item-description-sub">
-							{{stateTag}} </span> <span class="mosaic-item-description-copy">
-							{{description}} <br>
+							{{state}} </span> <span class="mosaic-item-description-copy">
+							{{pageDescription}} <br>
 						<br> <span class="mosaic-item-description-copy-link"><strong>Read
 									more</strong></span> <strong class="mosaic-item-description-categories"><em>{{primaryCategory}}</em></strong>
 					</span>
@@ -226,8 +226,8 @@
 					<span class="mosaic-item-description"> <span
 						class="mosaic-item-description-head type-font-feature">
 							{{title}} </span> <span class="mosaic-item-description-sub">
-							{{stateTag}} </span> <span class="mosaic-item-description-copy">
-							{{description}} <br>
+							{{state}} </span> <span class="mosaic-item-description-copy">
+							{{pageDescription}} <br>
 						<br> <span class="mosaic-item-description-copy-link"><strong>Read
 									more</strong></span> <strong class="mosaic-item-description-categories"><em>{{primaryCategory}}</em></strong>
 					</span>

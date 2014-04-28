@@ -63,7 +63,8 @@
   }
   text-decoration: none;
 }
-.search-results-title:hover {
+.search-results-title:hover,
+.search-results-title:visited {
   color: $search-results-title-colour;
   text-decoration: none;
 }
@@ -189,7 +190,7 @@
 .search-result-category-link {
   position: relative;
   display: block;
-  background: #000;
+  //background: #000;
   // IE Required
   @include breakpoint(md){
     width: pxtoem(294px);

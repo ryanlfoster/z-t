@@ -55,9 +55,7 @@
 		</span>
 		</a>
 	</div>
-	{{/if}} {{#if @last}}
-	<div class="col-xs-12 {{#if ../../../isGrid}}col-md-6{{else}}col-reset-md-6{{/if}} 3">{{{register}}}</div>
-	{{/if}} {{/compare}} {{/each}}
+	{{/if}}  {{/compare}} {{/each}}
 
 	<div class="col-xs-12 {{#if isGrid}}col-md-6{{else}}col-reset-md-6{{/if}} 4">
 		<div class="row">
@@ -119,11 +117,7 @@
 
 				</a>
 			</div>
-			{{/if}} {{#if @last}}
-			<div class="col-xs-12 {{#if ../../../isGrid}}col-md-6{{else}}col-reset-md-6{{/if}} 5">
-				<div class="row">{{{register}}}</div>
-			</div>
-			{{/if}} {{/compare}} {{#compare @index 2 operator="=="}} {{#if
+			{{/if}}  {{/compare}} {{#compare @index 2 operator="=="}} {{#if
 			templateName}}
 			<div class="col-xs-12 {{#if ../../../isGrid}}col-sm-6{{else}}col-reset-sm-6{{/if}}">
 				{{#if linkChecker}} <a href="{{postLink}}" title=""
@@ -180,10 +174,6 @@
 				</span>
 
 				</a>
-			</div>
-			{{/if}} {{#if @last}}
-			<div class="col-xs-12 {{#if ../../../isGrid}}col-md-6{{else}}col-reset-md-6{{/if}} 6">
-				<div class="row">{{{register}}}</div>
 			</div>
 			{{/if}} {{/compare}} {{#compare @index 3 operator="=="}} {{#if
 			templateName}}
@@ -244,11 +234,7 @@
 
 				</a>
 			</div>
-			{{/if}} {{#if @last}}
-			<div class="col-xs-12 {{#if ../../../isGrid}}col-md-6{{else}}col-reset-md-6{{/if}} 7">
-				<div class="row">{{{register}}}</div>
-			</div>
-			{{/if}} {{/compare}} {{#compare @index 4 operator="=="}} {{#if
+			{{/if}}  {{/compare}} {{#compare @index 4 operator="=="}} {{#if
 			templateName}}
 			<div class="col-xs-12 {{#if ../../../isGrid}}col-sm-6{{else}}col-reset-sm-6{{/if}} ">
 				{{#if linkChecker}} <a href="{{postLink}}" title=""
@@ -307,11 +293,7 @@
 
 				</a>
 			</div>
-			{{/if}} {{#if @last}}
-			<div class="col-xs-12 {{#if ../../../isGrid}}col-md-6{{else}}col-reset-md-6{{/if}} 8">
-				<div class="row">{{{register}}}</div>
-			</div>
-			{{/if}} {{/compare}} {{/each}}
+			{{/if}}  {{/compare}} {{/each}}
 		</div>
 	</div>
 </div>
@@ -321,8 +303,7 @@
 		<div class="row">
 			{{#each test}} {{#compare @index 5 operator="=="}} {{#if
 			templateName}}
-			<div class="col-xs-12 {{#if ../../../isGrid}}col-sm-6{{else}}col-reset-sm-6{{/if}} col-md-12 mosaic-ie-100"
-				target="_blank">
+			<div class="col-xs-12 {{#if ../../../isGrid}}col-sm-6{{else}}col-reset-sm-6{{/if}} col-md-12 mosaic-ie-100" target="_blank">
 				{{#if linkChecker}} <a href="{{postLink}}" title=""
 					class="mosaic-item mosaic-item-{{../../../../type}}"> {{else}} <a
 					href="{{postLink}}" title=""
@@ -381,8 +362,7 @@
 			</div>
 
 
-			{{/if}} {{#if @last}} {{{register}}} {{/if}} {{/compare}} {{#compare
-			@index 6 operator="=="}} {{#if templateName}}
+			{{/if}}  {{/compare}} {{#compare @index 6 operator="=="}} {{#if templateName}}
 			<div class="col-xs-12 {{#if ../../../isGrid}}col-sm-6{{else}}col-reset-sm-6{{/if}} col-md-12 mosaic-ie-100">
 				{{#if linkChecker}} <a href="{{postLink}}" title=""
 					class="mosaic-item mosaic-item-{{../../../../type}}"> {{else}} <a
@@ -441,11 +421,7 @@
 				</a>
 			</div>
 
-			{{/if}} {{#if @last}}
-			<div class="col-xs-12 {{#if ../../../isGrid}}col-md-6{{else}}col-reset-md-6{{/if}} 9">
-				<div class="row">{{{register}}}</div>
-			</div>
-			{{/if}} {{/compare}} {{/each}}
+			{{/if}}  {{/compare}} {{/each}}
 		</div>
 	</div>
 
@@ -513,14 +489,10 @@
 
 
 
-	{{/if}} {{#if @last}}
-	<div class="col-xs-12 {{#if ../../../isGrid}}col-md-6{{else}}col-reset-md-6{{/if}} 12">
-		<div class="row">{{{register}}}</div>
-	</div>
-	{{/if}} {{/compare}} {{/each}}
+	{{/if}}  {{/compare}} {{/each}}
 	<div class="col-xs-12 {{#if isGrid}}col-md-3{{else}}col-reset-md-3{{/if}} mosaic-ie-25">
 		<div class="row">
-			{{#each test}} {{#compare @index 7 operator=">"}} {{/compare}}
+			{{#each test}} 
 
 			{{#compare @index 8 operator="=="}} {{#if templateName}}
 
@@ -584,13 +556,8 @@
 			</div>
 
 
-			{{/if}} {{#if @last}}
-			<div class="col-xs-12 {{#if ../../../isGrid}}col-md-6{{else}}col-reset-md-6{{/if}} col-md-12 mosaic-ie-100 13">
-				<div class="row"{{{register}}}
-</div>
-			</div>
-			{{/if}} {{/compare}} {{#compare @index 9 operator="=="}} {{#if
-			pageTemplate}} {{{register}}} {{else}} {{#if templateName}}
+			{{/if}}  {{/compare}} {{#compare @index 9 operator="=="}} 
+			 {{#if templateName}}
 
 			<div class="col-xs-12 {{#if ../../../isGrid}}col-sm-6{{else}}col-reset-sm-6{{/if}} col-md-12 mosaic-ie-100">
 				{{#if linkChecker}} <a href="{{postLink}}" title=""
@@ -653,7 +620,7 @@
 			</div>
 
 
-			{{/if}} {{/if}} {{/compare}} {{/each}}
+			{{/if}}  {{/compare}} {{/each}}
 		</div>
 	</div>
 </div>

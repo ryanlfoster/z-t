@@ -15,14 +15,7 @@ public class StateMosaiacProperties {
 	private String templateName;
 	private String userName,messageText,postLink;
 	private String linkChecker;
-	private String pageTemplate,register;
-	public String getRegister() {
-		return register;
-	}
-
-	public void setRegister(String register) {
-		this.register = register;
-	}
+	private String pageTemplate;
 
 	private String socialIconsWhite;
 	private String socialIconsBlack;

@@ -1,4 +1,5 @@
 $(document).ready(function() {
+	
 	$('.stateMosaic').each(function() {
 		var currentXhr;
 		$this = $(this);
@@ -7,7 +8,6 @@ $(document).ready(function() {
 		var stateTag = $this.find(".icon-map-black-active ").text();
 		var catogoryArray = new Array();
 		var source = $("#stateMosaic").html();
-		var register = $this.find(".register").html();
 		var resourcePath = $this.find(".resourcePath").val();
 		var pageTemplate = $this.find(".page").attr('name');
 		var type="grid";
@@ -45,7 +45,6 @@ $(document).ready(function() {
 					stateTag : stateTag,
 					catogoryArray : catogoryArray,
 					flag : flag,
-					register : register,
 					pageTemplate : pageTemplate
 
 				},
@@ -125,7 +124,6 @@ $(document).ready(function() {
 				stateTag : stateTag,
 				catogoryArray : catogoryArray,
 				flag : flag,
-				register : register,
 				pageTemplate : pageTemplate
 
 			},

@@ -132,11 +132,11 @@
     -ms-text-overflow: ellipsis;
     max-width: 100%;
     overflow: hidden;
-    @include breakpoint(md) {
+    /*@include breakpoint(md) {
       overflow: visible;
       max-width: inherit;
       white-space: normal;
-    }
+    }*/
   }
   .type-date-mosaic .month {
     display: none;
@@ -172,6 +172,7 @@
 // remove copy from back panel
 .mosaic-mobile-two-column .mosaic-column-back .type-destination {
   display: none;
+  line-height: 1.2em;
   @include breakpoint(md) {
     display: inline-block;
   }

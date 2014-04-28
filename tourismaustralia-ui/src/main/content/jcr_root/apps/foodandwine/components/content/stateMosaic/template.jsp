@@ -2,8 +2,8 @@
 	{{#each test}} {{#compare @index 0 operator="=="}} {{#if templateName}}
 	<div class="col-xs-12 {{#if ../../../isGrid}}col-md-6{{else}}col-reset-md-6{{/if}} 1">
 		{{#if linkChecker}} <a href="{{postLink}}" title=""
-			class="mosaic-item mosaic-item-{{../../../type}}"> {{else}} <a
-			href="{{postLink}}" title="" class="mosaic-item mosaic-item-{{../../../type}}"
+			class="mosaic-item mosaic-item-{{../../../../type}}"> {{else}} <a
+			href="{{postLink}}" title="" class="mosaic-item mosaic-item-{{../../../../type}}"
 			target="_blank"> {{/if}} <img class='mosaic-item-image'
 				src="{{image}}" alt="" width="100%" /> <span
 				class="mosaic-item-description"> <span
@@ -63,9 +63,9 @@
 			templateName}}
 			<div class="col-xs-12 {{#if ../../../isGrid}}col-sm-6{{else}}col-reset-sm-6{{/if}}">
 				{{#if linkChecker}} <a href="{{postLink}}" title=""
-					class="mosaic-item mosaic-item-{{../../../type}}"> {{else}} <a
+					class="mosaic-item mosaic-item-{{../../../../type}}"> {{else}} <a
 					href="{{postLink}}" title=""
-					class="mosaic-item mosaic-item-{{../../../type}}" target="_blank">
+					class="mosaic-item mosaic-item-{{../../../../type}}" target="_blank">
 						{{/if}} <img class='mosaic-item-image' src="{{image}}" alt=""
 						width="100%" /> <span class="mosaic-item-description"> <span
 							class="mosaic-item-description-head type-font-feature">{{title}}</span>
@@ -121,9 +121,9 @@
 			templateName}}
 			<div class="col-xs-12 {{#if ../../../isGrid}}col-sm-6{{else}}col-reset-sm-6{{/if}}">
 				{{#if linkChecker}} <a href="{{postLink}}" title=""
-					class="mosaic-item mosaic-item-{{../../../type}}"> {{else}} <a
+					class="mosaic-item mosaic-item-{{../../../../type}}"> {{else}} <a
 					href="{{postLink}}" title=""
-					class="mosaic-item mosaic-item-{{../../../type}}" target="_blank">
+					class="mosaic-item mosaic-item-{{../../../../type}}" target="_blank">
 						{{/if}} <img class='mosaic-item-image' src="{{image}}" alt=""
 						width="100%" /> <span class="mosaic-item-description"> <span
 							class="mosaic-item-description-head type-font-feature">{{title}}</span>
@@ -179,9 +179,9 @@
 			templateName}}
 			<div class="col-xs-12 {{#if ../../../isGrid}}col-sm-6{{else}}col-reset-sm-6{{/if}} ">
 				{{#if linkChecker}} <a href="{{postLink}}" title=""
-					class="mosaic-item mosaic-item-{{../../../type}}"> {{else}} <a
+					class="mosaic-item mosaic-item-{{../../../../type}}"> {{else}} <a
 					href="{{postLink}}" title=""
-					class="mosaic-item mosaic-item-{{../../../type}}" target="_blank">
+					class="mosaic-item mosaic-item-{{../../../../type}}" target="_blank">
 						{{/if}} <img class='mosaic-item-image' src="{{image}}" alt=""
 						width="100%" /> <span class="mosaic-item-description"> <span
 							class="mosaic-item-description-head type-font-feature">{{title}}</span>
@@ -238,9 +238,9 @@
 			templateName}}
 			<div class="col-xs-12 {{#if ../../../isGrid}}col-sm-6{{else}}col-reset-sm-6{{/if}} ">
 				{{#if linkChecker}} <a href="{{postLink}}" title=""
-					class="mosaic-item mosaic-item-{{../../../type}}"> {{else}} <a
+					class="mosaic-item mosaic-item-{{../../../../type}}"> {{else}} <a
 					href="{{postLink}}" title=""
-					class="mosaic-item mosaic-item-{{../../../type}}" target="_blank">
+					class="mosaic-item mosaic-item-{{../../../../type}}" target="_blank">
 						{{/if}} <img class='mosaic-item-image' src="{{image}}" alt=""
 						width="100%" /> <span class="mosaic-item-description"> <span
 							class="mosaic-item-description-head type-font-feature">{{title}}</span>
@@ -305,9 +305,9 @@
 			templateName}}
 			<div class="col-xs-12 {{#if ../../../isGrid}}col-sm-6{{else}}col-reset-sm-6{{/if}} col-md-12 mosaic-ie-100" target="_blank">
 				{{#if linkChecker}} <a href="{{postLink}}" title=""
-					class="mosaic-item mosaic-item-{{../../../type}}"> {{else}} <a
+					class="mosaic-item mosaic-item-{{../../../../type}}"> {{else}} <a
 					href="{{postLink}}" title=""
-					class="mosaic-item mosaic-item-{{../../../type}}" target="_blank">
+					class="mosaic-item mosaic-item-{{../../../../type}}" target="_blank">
 						{{/if}} <img class='mosaic-item-image' src="{{image}}" alt=""
 						width="100%" /> <span class="mosaic-item-description"> <span
 							class="mosaic-item-description-head type-font-feature">{{title}}</span>
@@ -365,9 +365,9 @@
 			{{/if}}  {{/compare}} {{#compare @index 6 operator="=="}} {{#if templateName}}
 			<div class="col-xs-12 {{#if ../../../isGrid}}col-sm-6{{else}}col-reset-sm-6{{/if}} col-md-12 mosaic-ie-100">
 				{{#if linkChecker}} <a href="{{postLink}}" title=""
-					class="mosaic-item mosaic-item-{{../../../type}}"> {{else}} <a
+					class="mosaic-item mosaic-item-{{../../../../type}}"> {{else}} <a
 					href="{{postLink}}" title=""
-					class="mosaic-item mosaic-item-{{../../../type}}" target="_blank">
+					class="mosaic-item mosaic-item-{{../../../../type}}" target="_blank">
 						{{/if}} <img class='mosaic-item-image' src="{{image}}" alt=""
 						width="100%" /> <span class="mosaic-item-description"> <span
 							class="mosaic-item-description-head type-font-feature">{{title}}</span>
@@ -429,8 +429,8 @@
 
 	<div class="col-xs-12 {{#if ../../../isGrid}}col-md-6{{else}}col-reset-md-6{{/if}} 10">
 		{{#if linkChecker}} <a href="{{postLink}}" title=""
-			class="mosaic-item mosaic-item-{{../../../type}}"> {{else}} <a
-			href="{{postLink}}" title="" class="mosaic-item mosaic-item-{{../../../type}}"
+			class="mosaic-item mosaic-item-{{../../../../type}}"> {{else}} <a
+			href="{{postLink}}" title="" class="mosaic-item mosaic-item-{{../../../../type}}"
 			target="_blank"> {{/if}} <img class='mosaic-item-image'
 				src="{{image}}" alt="" width="100%" /> <span
 				class="mosaic-item-description"> <span
@@ -498,9 +498,9 @@
 
 			<div class="col-xs-12 {{#if ../../../isGrid}}col-sm-6{{else}}col-reset-sm-6{{/if}} col-md-12 mosaic-ie-100">
 				{{#if linkChecker}} <a href="{{postLink}}" title=""
-					class="mosaic-item mosaic-item-{{../../../type}}"> {{else}} <a
+					class="mosaic-item mosaic-item-{{../../../../type}}"> {{else}} <a
 					href="{{postLink}}" title=""
-					class="mosaic-item mosaic-item-{{../../../type}}" target="_blank">
+					class="mosaic-item mosaic-item-{{../../../../type}}" target="_blank">
 						{{/if}} <img class='mosaic-item-image' src="{{image}}" alt=""
 						width="100%" /> <span class="mosaic-item-description"> <span
 							class="mosaic-item-description-head type-font-feature">{{title}}</span>
@@ -561,9 +561,9 @@
 
 			<div class="col-xs-12 {{#if ../../../isGrid}}col-sm-6{{else}}col-reset-sm-6{{/if}} col-md-12 mosaic-ie-100">
 				{{#if linkChecker}} <a href="{{postLink}}" title=""
-					class="mosaic-item mosaic-item-{{../../../type}}"> {{else}} <a
+					class="mosaic-item mosaic-item-{{../../../../type}}"> {{else}} <a
 					href="{{postLink}}" title=""
-					class="mosaic-item mosaic-item-{{../../../type}}" target="_blank">
+					class="mosaic-item mosaic-item-{{../../../../type}}" target="_blank">
 						{{/if}} <img class='mosaic-item-image' src="{{image}}" alt=""
 						width="100%" /> <span class="mosaic-item-description"> <span
 							class="mosaic-item-description-head type-font-feature">{{title}}</span>

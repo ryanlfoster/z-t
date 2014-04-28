@@ -5,7 +5,7 @@
 <c:set var="stateLinks" value="<%=new StateLinks(slingRequest) %>" />
 
 <h3 class="explore-h3"><strong>${stateLinks.topText}</strong></h3>
-<p class="select-state-label">${stateLinks.bottomText}</p>
+<p class="select-state-label select-state-label-explore">${stateLinks.bottomText}</p>
       
 <!-- selection for desktop -->
 <div class="l-display-none-md">
@@ -24,7 +24,7 @@
 
 <!-- selection for mobile -->
 <div class="l-display-md">
-	<select class="input-select input-select-small select-trigger-link">
+	<select class="input-select input-select-small select-trigger-link input-select-top-border">
 		<option value=""> Select place</option>
 		<option value="${stateLinks.capital}.html">ACT</option>
 		<option value="${stateLinks.nsw}.html">NSW</option>

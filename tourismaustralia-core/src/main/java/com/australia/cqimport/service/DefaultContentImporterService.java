@@ -29,7 +29,7 @@ public class DefaultContentImporterService implements ContentImporterService {
 	private static final Logger LOG = LoggerFactory.getLogger(DefaultContentImporterService.class);
 	private static final Map<String, PageBuilder> templates = ImmutableMap.<String, PageBuilder> builder()
 		.put("state", new StateCityBuilder()).put("city", new StateCityBuilder()).put("article", new ArticleBuilder())
-		.put("icon", new IconBuilder()).build();
+		.put("icon", new IconBuilder()).put("itinerary", new ItineraryBuilder()).build();
 	private static final Map<String, String> languages = ImmutableMap.<String, String> builder()
 		.put("en", "csv/mapping_en.csv").put("it", "csv/mapping_it.csv").put("fr", "csv/mapping_fr.csv")
 		.put("de", "csv/mapping_de.csv").put("es", "csv/mapping_es.csv").put("id", "csv/mapping_id.csv")

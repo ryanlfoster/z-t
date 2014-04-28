@@ -1,5 +1,6 @@
 $(document).ready(function() {
 	$('.stateMosaic').each(function() {
+		var currentXhr;
 		$this = $(this);
 		$this.find(".btn-secondary").hide();
 		$this.find(".mosaicgridchanger").hide();
@@ -9,6 +10,13 @@ $(document).ready(function() {
 		var register = $this.find(".register").html();
 		var resourcePath = $this.find(".resourcePath").val();
 		var pageTemplate = $this.find(".page").attr('name');
+		var type="grid";
+		$(this).find('.mosaicgridchanger-grid-button').click(function(){
+			type="grid";
+		});
+		$(this).find('.mosaicgridchanger-list-button').click(function(){
+			type="list";
+		});
 		$(document).on("click", '.category-input ', function() {
 			$this.find(".mosaic").empty();
 			$this.find(".btn-secondary").hide();
@@ -26,7 +34,10 @@ $(document).ready(function() {
 						return value != uncheked;
 					});
 			}
-			$.ajax({
+			if(currentXhr){
+				currentXhr.abort();
+			}
+			currentXhr=$.ajax({
 				type : "GET",
 				url : resourcePath + ".ccs.json",
 				dataType : "json",
@@ -53,6 +64,8 @@ $(document).ready(function() {
 					data = data.replace("]", "");
 					data = "{test:[" + data + "]}";
 					var obj = eval('(' + data + ')');
+					obj.type= type;
+					obj.isGrid=type == 'grid' ? true : false;
 					Handlebars.registerHelper('compare', function(lvalue, rvalue, options) {
 						if (arguments.length < 3)
 							throw new Error("Handlerbars Helper 'compare' needs 2 parameters");
@@ -101,7 +114,10 @@ $(document).ready(function() {
 			});
 		});
 		var flag = "default";
-		$.ajax({
+		if(currentXhr){
+			currentXhr.abort();
+		}
+		currentXhr=$.ajax({
 			type : "GET",
 			url : resourcePath + ".ccs.json",
 			dataType : "json",
@@ -128,6 +144,8 @@ $(document).ready(function() {
 				data = data.replace("]", "");
 				data = "{test:[" + data + "]}";
 				var obj = eval('(' + data + ')');
+				obj.type= type;
+				obj.isGrid=type == 'grid' ? true : false;
 				Handlebars.registerHelper('compare', function(lvalue, rvalue, options) {
 					if (arguments.length < 3)
 						throw new Error("Handlerbars Helper 'compare' needs 2 parameters");
@@ -175,11 +193,14 @@ $(document).ready(function() {
 			}
 		});
 
-		$(".btn-secondary ").click(function() {
+		$this.find(".btn-secondary ").click(function() {
 			var flag = "showMore";
-			$.ajax({
+			if(currentXhr){
+				currentXhr.abort();
+			}
+			currentXhr=$.ajax({
 				type : "GET",
-				url : "${resource.path}.ccs.json",
+				url : resourcePath+".ccs.json",
 				dataType : "json",
 				data : {
 					stateTag : stateTag,
@@ -195,6 +216,8 @@ $(document).ready(function() {
 					data = data.replace("]", "");
 					data = "{test:[" + data + "]}";
 					var obj = eval('(' + data + ')');
+					obj.type= type;
+					obj.isGrid= type == 'grid' ? true : false;
 					var template = Handlebars.compile(source);
 					$("#statemosaic").append(template(obj));
 				}

@@ -1,5 +1,6 @@
 package com.australia.www.components.content.explore;
 
+import com.australia.utils.LinkUtils;
 import org.apache.commons.lang.StringUtils;
 import org.apache.sling.api.resource.Resource;
 
@@ -30,7 +31,7 @@ public class TabProperties {
 	public String getPageTitle(){ return pageTitle; }
 	public String getPageImagePath(){ return pageImagePath; }
 	public String getPageDescription(){ return pageDescription; }
-	public String getPagePath(){ return pagePath; }
+	public String getPagePath(){ return LinkUtils.getHrefFromPath(pagePath); }
 
 	public void setImageBack(final String path) {
 		imageBack = path;
@@ -46,8 +47,10 @@ public class TabProperties {
 			pageDescription = page.getDescription();
 			pageTitle = page.getTitle();
 			Resource imageRes = page.getContentResource("image");
-			Image imageObj = new Image(page.getContentResource("image"));
-			pageImagePath = imageObj.getFileReference();
+			if(imageRes!=null){
+				Image imageObj = new Image(imageRes);
+				pageImagePath = imageObj.getFileReference();
+			}
 		}else{
 			pageDescription = "";
 			pageTitle = "";

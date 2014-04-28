@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="15765" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Accueil]]></headline>
+            <href><![CDATA[/fr/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Explorez]]></headline>
+            <href><![CDATA[/fr/explore.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Melbourne]]></headline>
+            <href><![CDATA[/fr/explore/cities/melbourne.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[St Kilda, Victoria]]></headline>
+            <href><![CDATA[/fr/explore/cities/melbourne/st-kilda.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/explore-icon-stkilda-bg.jpg]]></img_background>
+    <hdl_Title><![CDATA[St Kilda, Victoria]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/explore-icon-stkilda-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/explore-icon-stkilda-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[no]]></opt_PartnerLead>
+    <stf_description><![CDATA[D&eacute;couvrez les choses &agrave; faire &agrave; St Kilda, pr&egrave;s de Melbourne, des caf&eacute;s aux march&eacute;s locaux en passant par une journ&eacute;e au Luna Park et &agrave; la plage de St Kilda. ]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[St Kilda Pier, St Kilda, Melbourne, Victoria.]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[y]]></stf_IsMobile>
+    <stf_keywords><![CDATA[St Kilda, Melbourne, St Kilda, Victoria]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Learn More]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[St Kilda, Melbourne, Victoria - Tourism Australia]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+      St Kilda est la station baln&eacute;aire de Melbourne.
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <Listing isTemplate="1">
+<anc_List1><![CDATA[/fr/explore/cities/melbourne.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[Plus d'id&eacute;es australiennes]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/fr/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/fr/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/fr/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/fr/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/fr/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/fr/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/fr/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/fr/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/fr/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/fr/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/fr/Transport.aspx]]></anc_Transport>
+<hdl_Title><![CDATA[Planifiez votre visite]]></hdl_Title>
+<language><![CDATA[FRA]]></language>
+<stf_Accomodation><![CDATA[]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[r&eacute;gion de Melbourne]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[]]></stf_Events>
+<stf_Hire><![CDATA[]]></stf_Hire>
+<stf_Informationservices><![CDATA[]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[Victoria]]></stf_StateFilter>
+<stf_Tours><![CDATA[]]></stf_Tours>
+<stf_Transport><![CDATA[]]></stf_Transport>
+</PlanYourVisit>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[St Kilda, Victoria]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+      Situ&eacute;e &agrave; seulement six kilom&egrave;tres du centre-ville, St Kilda est la station baln&eacute;aire de Melbourne. St. Kilda fait partie de la commune de Port Phillip, qui englobe les banlieues de Port Melbourne et de South Melbourne.
+    <p>
+      St Kilda Beach s'&eacute;tend le long des rives de la baie de Port Phillip, une plage de sable fin aux eaux tranquilles, agr&eacute;ment&eacute;e d'une longue promenade pi&eacute;tonne bord&eacute;e de palmiers o&ugrave; il fait bon d&eacute;ambuler ou pratiquer des activit&eacute;s de plage telles que le beach volley ou le beach cricket.
+    </p><p>
+      Le peuple Boon Wurrung de la nation Kulin, propri&eacute;taire ancestral des terres sur lesquelles se trouve aujourd'hui St Kilda, donnait &agrave; cette r&eacute;gion le nom d'Euroe Yroke. Des traces de leur style de vie pass&eacute; sont visibles &agrave; St Kilda. Allez-voir, &agrave; St Kilda Junction, le &laquo; Corroboree Tree &raquo;, un tr&egrave;s ancien eucalyptus rouge autour duquel se tenaient les r&eacute;unions tribales.
+    </p><p>
+      C'est au Superintendant La Trobe, qui avait aper&ccedil;u un navire appel&eacute; &laquo; Lady of St Kilda &raquo; mouillant dans l'anse en 1841, que St Kilda doit son nom. Dans les ann&eacute;es 1900, St Kilda devient le quartier r&eacute;sidentiel de pr&eacute;dilection de l'&eacute;lite de Melbourne, qui y fait construire de somptueuses demeures en front de mer et sur les collines alentour. Les bords de mer se transforment en terrain de jeu, avec l'ouverture du Luna Park en 1912, &agrave; l'&eacute;poque le parc d'attraction le plus important et le plus moderne du monde. Le Luna Park fonctionne encore aujourd'hui et vous pouvez profiter de ses montagnes russes et de ses stands de jeux.
+    </p><p>
+      Apr&egrave;s la seconde guerre mondiale, St Kilda devient le &laquo; quartier chaud &raquo; de Melbourne. Dans les ann&eacute;es 60, St Kilda devient boh&egrave;me, attirant jeunes artistes et musiciens &agrave; la recherche de loyers bon march&eacute;. Cette banlieue conserve encore aujourd'hui son style de vie alternatif.<br /><br />
+La rue principale de St Kilda est Fitzroy Street. Caf&eacute;s, restaurants et pubs en terrasse s'y succ&egrave;dent, proposant une carte tr&egrave;s vari&eacute;e, v&eacute;ritable vitrine du patrimoine multiculturel de Melbourne.
+    </p><p>
+      Dans les ann&eacute;es 50, l'afflux d'immigrants europ&eacute;ens cosmopolites fait l'heure de gloire de la &laquo; caf&eacute; society &raquo; d'Acland Street. Les boutiques de mode, caf&eacute;s et p&acirc;tisseries de style europ&eacute;en qui bordent la rue t&eacute;moignent de cet h&eacute;ritage.
+    </p><p>
+      En 1931, les St Kilda Sea Baths sont inaugur&eacute;s &agrave; proximit&eacute; de St Kilda Pier et on peut aujourd'hui se baigner dans les piscines d’eau de mer r&eacute;nov&eacute;es de cet &eacute;tablissement historique.<br />
+Le long de Marine Parade se trouve la marina de St Kilda, o&ugrave; de nombreux habitants viennent amarrer leur bateau. Sortie de p&ecirc;che ou d&eacute;gustation de fruits de mer de toute premi&egrave;re fra&icirc;cheur : &agrave; vous de choisir.
+    </p><p>
+      St Kilda compte plusieurs th&eacute;&acirc;tres de renom, tels que le tr&egrave;s richement orn&eacute; Palais Theatre, le Barkly Theatre et le National Theatre, qui accueille les &eacute;coles nationales de danse et d'art dramatique. L'Esplanade Hotel, vieux de 130 ans, est l'une des meilleures salles de concert du pays, o&ugrave; vous pourrez &eacute;couter des groupes de la r&eacute;gion. Ne manquez pas les march&eacute;s d'artisanat locaux qui se tiennent le long de l'Esplanade tous les dimanches.
+    </p><p>
+      Plusieurs festivals et &eacute;v&eacute;nements sont organis&eacute;s &agrave; St Kilda tout au long de l'ann&eacute;e. Le St Kilda Festival est l'un des plus <a href="/fr/explore/australian-events/music-festivals-events.xml" target="_self">importants rendez-vous musicaux d'Australie</a> accueillant plus de 400 000 spectateurs. St Kilda se trouve &eacute;galement &agrave; proximit&eacute; d'Albert Park Lake, o&ugrave; se d&eacute;roule le <a href="/fr/explore/events/vic-australian-grand-prix.xml" target="_self">Grand Prix de Formule 1 de Melbourne</a>.
+    </p><p>
+      Depuis <a href="/fr/explore/cities/melbourne.xml" target="_self">Melbourne,</a> vous pouvez vous rendre &agrave; St Kilda en prenant un tramway le long de St Kilda Road.
+    </p>]]></txt_Information>
+            
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

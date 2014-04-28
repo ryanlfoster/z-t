@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="574" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[홈]]></headline>
+            <href><![CDATA[/ko/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[호주 여행 정보]]></headline>
+            <href><![CDATA[/ko/explore.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[프레이저 섬(Fraser Island)]]></headline>
+            <href><![CDATA[/ko/explore/icons/fraser-island.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/explore-icons-fraser-island.jpg]]></img_background>
+    <hdl_Title><![CDATA[프레이저 섬(Fraser Island)]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/explore-icons-fraser-island-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/explore-icons-fraser-island-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[no]]></opt_PartnerLead>
+    <stf_description><![CDATA[호주 프레이저 섬 여행. 프레이저 섬에서 사륜구동과 비행기 여행, 자연 경관, 야영, 야생생물 관찰, 원주민 유적탐방 등을 즐겨보세요.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[y]]></stf_IsMobile>
+    <stf_keywords><![CDATA[프레이저 섬, 호주 관광청 ]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[상세 정보]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[호주 프레이저 섬 여행 - 호주정부관광청]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[세계 최대의 모래 섬이며, 세계자연유산인 프레이저 섬에 오신 것을 환영합니다. ]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <IntegratedMiniMap isTemplate="1">
+    <!-- no user content -->
+</IntegratedMiniMap><TravellersStoryWidget isTemplate="1">
+    <anc_link><![CDATA[/explore/map.aspx?filters=icons,experiences&zoom=10&centre=-25.496572,152.995546]]></anc_link>
+    <img_image><![CDATA[/contentimages/icons-Fraser-Island.jpg]]></img_image> 
+</TravellersStoryWidget><Listing isTemplate="1">
+<anc_List1><![CDATA[/ko/explore/states/qld/qld-noosa.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[호주 아이디어 더]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/ko/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/ko/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/ko/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/ko/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/ko/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/ko/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/ko/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/ko/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/ko/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/ko/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/ko/Transport.aspx]]></anc_Transport>
+<hdl_Title><![CDATA[여행 계획 하기 ]]></hdl_Title>
+<language><![CDATA[KOR]]></language>
+<stf_Accomodation><![CDATA[숙박]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[관광지]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[가까운 여행사 찾기]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[여행지 정보]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[Fraser Coast South Burnett Region]]></stf_DomesticRegion>
+<stf_Events><![CDATA[이벤트]]></stf_Events>
+<stf_Hire><![CDATA[렌탈]]></stf_Hire>
+<stf_Informationservices><![CDATA[일반 정보 안내]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[Queensland]]></stf_StateFilter>
+<stf_Tours><![CDATA[투어]]></stf_Tours>
+<stf_Transport><![CDATA[교통]]></stf_Transport>
+</PlanYourVisit><MoreInformation isTemplate="1">
+    <hdl_Title><![CDATA[프레이저 섬에 대한 자세한 정보 ]]></hdl_Title>
+    <anc_Link><![CDATA[]]></anc_Link>
+    <anc_MoreLink><![CDATA[]]></anc_MoreLink> 
+    <img_Content><![CDATA[<img src="/contentimages/4.1.4.3_thumb.jpg" border="0" align="left" class="imgLeft">]]></img_Content>
+    <stf_LinkTitle><![CDATA[]]></stf_LinkTitle>
+    <stf_MoreLink><![CDATA[http://www.queensland.or.kr/iss/korea/destinations/fraser-coast/fraser-coast_home.cfm]]></stf_MoreLink>
+    <stf_MoreLinkText><![CDATA[추가 정보 ]]></stf_MoreLinkText>
+    <stf_Teaser><![CDATA[퀸즈랜드 주 관광청 웹사이트에서 자세한 정보를 확인하여 여행 일정을 계획하고 예약할 수 있습니다. ]]></stf_Teaser> 
+</MoreInformation>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[프레이저 섬(Fraser Island) ]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        세계 최대의 모래 섬이며, 세계자연유산인 프레이저 섬에 오신 것을 환영합니다.
+        <p>사륜구동을 타고 캐서드럴(The Cathedrals)의 화사한 색 모래 절벽 근처로 가거나 비행기를 타고 75마일 비치 위를 나는 즐거움을 만끽하세요.  야생화가 만발한 히스 지대와 모래에서 자라는 열대우림 사이로 부시워킹을 하고 금빛 테두리를 두른 맑은 호수에서 수영을 즐겨보세요.  맥킨지 호수(Lake McKenzie)를 둘러보고 알롬 호수(Lake Allom)에서는 바다거북 옆에서 피크닉을 즐기며, 인디언 헤드(Indian Head)에서는 고래를 구경하세요.  해피 밸리(Happy Valley)에서 유서 깊은 마헤노(Maheno) 난파선을 둘러보고 내륙으로 가서 부시워킹으로 캥거루, 왈라비, 포섬을 만나보세요.  섬의 형성 과정과 흥미진진한 원주민과 개척 역사에 대해 배워보세요.  프레이저 섬을 원주민 언어로 천국이라는 뜻의  '케이가리(K’gari)’라고 일컫는 이유를 쉽게 알 수 있습니다. </p>
+        <p><strong>프레이저 섬을 즐기는 5가지 방법</strong></p>
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[1. 사륜구동과 비행기 여행 ]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/4.3.13.2_highlight.jpg" alt="사륜구동과 비행기 여행">]]></img_MainImage>
+                    <stf_Caption><![CDATA[사륜구동과 비행기 여행 ]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[75마일 비치의 모래 하이웨이를 마주하는 순간 사륜구동 차량이 반드시 필요하실 것입니다.&nbsp; 호수, 열대우림, 자연 명소들을 잇는 수백 개의 모래 트랙 가운데 하나를 골라 달려보세요.&nbsp; 거대한 샌드블로와 캐서드럴에 우뚝 솟은 다채로운 모래 절벽으로 차를 몰고 갑니다.&nbsp;&nbsp; 바다까지 곧장 이어져 빠르게 흘러가는 엘리 크릭(Eli Creek)에서는 배를 타보세요.&nbsp; 삼림 고장이었던 센트럴 스테이션(Central Station)의 평온한 열대우림을 거쳐 맑은 물이 흐르는 왕굴바 크릭(Wanggoolba Creek)을 따라가는 산책로를 거닐어 보세요.&nbsp; 마헤노 난파선에서 휴식을 즐기면서 역사를 배우고 피너클스(Pinnacles)의 색모래를 구경하세요.&nbsp; 샴페인 풀(Champagne Pools)의 넘실거리는 맑은 물에서 낮게 드리운 파도 위로 수영을 즐겨보세요.&nbsp; 관광 비행기를 타고 캐서드럴 비치(Cathedral Beach)와 해피 밸리, 오키드 비치(Orchid Beach) 너머 펼쳐지는 경관을 하늘에서 내려다보세요.]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[2. 진귀하고 장엄한 자연 ]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/4.3.13.3_highlight.jpg" alt="진귀하고 장엄한 자연">]]></img_MainImage>
+                    <stf_Caption><![CDATA[진귀하고 장엄한 자연 ]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[파일 밸리(Pile Valley)를 방문하고 고요한 개울, 거목과 천연 고사리, 천 년이 넘은 높이 솟은 사티네이와 브러시 박스 나무를 둘러보세요.&nbsp; 센트럴 스테이션에서 모래 언덕으로 둘러싸인 태고의 열대우림 속으로 걸어보세요.&nbsp; 색모래 지층이 어우러진 레인보우 협곡(Rainbow Gorge) 그리고 마헤노 난파선 북쪽으로 펼쳐지는 다채로운 캐서드럴과 피너클스를 둘러보세요.&nbsp; 찻잎 색깔처럼 맑고 푸른, 100군데가 넘는 담수호를 답사해 보세요.&nbsp; 하루 일정의 맥킨지 호수 서키트 워크(Lake McKenzie Circuit Walk)를 따라, 세계에서 수정처럼 맑은 40개의 호수 가운데 하나인 맥킨지 호수까지 가보세요.&nbsp; 푸른 물에서 수영을 하거나 깨끗한 백사장에 앉아보세요.&nbsp; 수많은 샌드블로로 둘러싸인 깊은 와비 호수(Lake Wabby)와 숲으로 둘러싸인 호숫가에 담수 거북이 누워 있는 경치 좋은 작은 알롬 호수(Lake Allom)까지 걸어가 보세요.&nbsp; 해발 120m인 보와라디 호수(Lake Bowarrady), 세계에서 가장 크다는 보에밍근 호수(Lake Boemingen)를 둘러보세요. 프레이저 섬에서는 봄 야생화, 화사한 여름 햇살, 가을 단풍, 겨울 황야 등 계절마다 변화하는 자연의 모습을 감상할 수 있습니다.&nbsp; ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[3. 별빛 아래 야영과 호화 숙소 ]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/4.3.13.4_highlight.jpg" alt="별빛 아래 야영과 호화 숙소">]]></img_MainImage>
+                    <stf_Caption><![CDATA[별빛 아래 야영과 호화 숙소 ]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[섬의 서쪽에 위치한 환경 친화적인 킹피셔 베이 리조트(Kingfisher Bay Resort), 투어, 트리트먼트, 마사지, 칵테일, 어워드 수상 레스토랑 정찬 등을 즐겨보세요.&nbsp; 내륙과 바다의 조망이 펼쳐지는 호텔이나 시설이 완비된 빌라 가운데 숙소를 선택할 수 있습니다.&nbsp; 삼림과 프레이저 섬 비치 하우스 그리고 야생생물로 둘러싸인 해변 주택에 머물러 보세요.&nbsp; 프레이저 섬 하이웨이와 해변에서 불과 몇 미터 떨어진 곳에 환경 친화적인 대규모 개인용 주택이 있습니다.&nbsp; 프레이저 섬의 해안에는 유롱 비치 리조트(Eurong Beach Resort)의 큰 수영장과 재미있는 비치 바, 아파트, A형 객실, 캐빈이 있습니다.&nbsp; 자연과 더 가까이서 교감하시려면 센트럴 스테이션 야영장, 맥킨지 호수, 둔두바라(Dundubara), 와디 포인트(Waddy Point), 와툼바(Wathumba), 딜리 빌리지(Dilli Village), 캐서드럴 비치 등지에 텐트를 쳐보세요.&nbsp; 아니면 동부 해안에서 한적한 모래사장을 찾아보세요.&nbsp; ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[4. 야생생물 관찰 ]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/4.3.13.5_highlight.jpg" alt="야생생물 관찰">]]></img_MainImage>
+                    <stf_Caption><![CDATA[야생생물 관찰 ]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        카누 투어에서 맹금류와 가오리 그리고 산림대원 안내 투어를 통해 354종의 <a href="/ko/about/key-facts/australias-animals.xml" target="_self">조류</a>를 살펴보세요.  섬은 희귀한 땅앵무새와 매서운 부엉이 그리고 18여 종에 이르는 맹금류의 보금자리입니다.  배를 타고 듀공, 바다거북, 돌고래, 상어를 따라가거나 해변과 인디안 헤드 투어에서 이들을 구경하세요.  8~10월에는  혹등고래가 이동하는 모습을 볼 수 있습니다.  가이드 낚시 투어에 참가하여 해변에서 민물가재를 건져 올리고 솔져 크랩을 잡아보세요.  야간에는 막대기에 횃불을 밝혀 큰박쥐, 유대하늘다람쥐와 개구리를 비춰보세요.  섬에 서식하는 캥거루, 왈라비, 포섬, 큰박쥐, 바늘두더지와 호주의 토종 딩고를 가까이에서 살펴보세요.  
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[5. 원주민 유적과 유럽인 정착 역사 탐방 ]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/4.3.13.6_highlight.jpg" alt="원주민 유적과 유럽인 정착 역사 탐방">]]></img_MainImage>
+                    <stf_Caption><![CDATA[원주민 유적과 유럽인 정착 역사 탐방 ]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[야생화와 거대한 모래언덕의 수세기에 걸친 기후 변화에서 70만 년의 진화를 읽을 수 있습니다.&nbsp; 가이드 투어에서 최소 5천 년이 넘은 원주민 무덤, 어류 가두리, 엽흔나무를 둘러보세요.&nbsp; 원주민 남자가 디제리두를 연주했던 화려한 아치 클리프(Arch Cliffs)와 원주민 여자가 신성한 출산 장소로 사용하며 보존했던 문 포인트(Moon Point) 그리고 이동하는 혹등고래를 살펴보세요.&nbsp; 난파선도 찾아가보세요. 마헤노는 1905년에 건조되어 태풍 속에서 난파되기 전까지 타스만 횡단 호화 여객선과 제1차 세계대전에서 병원선으로 사용되었습니다.&nbsp; 유적 도보 투어에 참가하고, 1836년에 스털링 캐슬(Stirling Castle)호가 좌초되었을 때 남편인 제임스 프레이저(James Fraser) 선장과 함께 했던 엘리자 프레이저(Eliza Fraser)의 이름을 딴 섬의 유럽식 지명에 대해 알아보세요. 남편의 실종과 자녀의 출생 그리고 현지 원주민에게 잡혔던 일화를 비롯해 엘리자의 극적인 생존 이야기를 들어보세요.&nbsp; 지금은 버려진 맥킨지 부두(McKenzie's Jetty)도 둘러보세요. 이곳은 처음에 목재 범선 용으로 내륙과 연결하는 부두로 축조되었고 제2차 세계대전 동안에는 Z부대가 사용했습니다.&nbsp; 오랜 세월에 걸쳐 형성된 모래사장과 원주민 꿈의 시대 이야기에서 엘리자 프레이저와 최근 환경운동까지 프레저 섬은 역사가 풍부합니다.&nbsp; ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

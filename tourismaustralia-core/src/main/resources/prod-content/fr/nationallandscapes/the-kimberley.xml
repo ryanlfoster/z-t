@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="22259" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Accueil]]></headline>
+            <href><![CDATA[/fr/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Tools and Campaigns]]></headline>
+            <href><![CDATA[/fr/tools-campaigns.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Paysages nationaux d'Australie]]></headline>
+            <href><![CDATA[/fr/nationallandscapes.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[Les Kimberley]]></headline>
+            <href><![CDATA[/fr/nationallandscapes/the-kimberley.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/Campaigns/national-landscapes-the-kimberley.jpg]]></img_background>
+    <hdl_Title><![CDATA[Les Kimberley]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/national-landscapes-the-kimberley-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/Campaigns/national-landscapes-the-kimberley-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[yes]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[Soyez frapp&eacute;s par les Kimberley, dans le coin de bout du monde du nord-ouest de l’Australie. Prenez part &agrave; cette &eacute;pop&eacute;e &eacute;ternelle de rudes structures rocheuses, de voies d’eau colossales et d’oc&eacute;an incandescent.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[1]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[The Kimberley, Kimberley, Gibb River Road,  Bungle Bungles, Dampier Peninsula, Broome,  El Questro Station,  Buccaneer Archipelago,  Ord River,  Geikie Gorge,  Ord River, Lake Argyle,  Windanja Gorge, Tunnel Creek,  Rowley Shoals Marine Park]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[En savoir plus]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Paysages nationaux d'Australie: Les Kimberley - Tourisme Australie]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        Soyez frapp&eacute;s par les Kimberley, dans le coin de bout du monde du nord-ouest de l’Australie. Prenez part &agrave; cette &eacute;pop&eacute;e &eacute;ternelle de rudes structures rocheuses, de voies d’eau colossales et d’oc&eacute;an incandescent.
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <StandardCampaignLayout isTemplate="1">
+    <opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+    <hdl_Title><![CDATA[]]></hdl_Title>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+    <con_Banner><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<DIV id=headerimage>
+<SCRIPT type=text/javascript src="../../static/js/jquery.cycle.all.latest.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+jQuery(document).ready(function() {
+jQuery('#headersliderwrapper').cycle({
+        fx:'fade',
+        slideExpr: '.headerslide'
+    });
+});
+</SCRIPT>
+
+<DIV id=headersliderwrapper>
+<DIV class=headerslide><IMG src="../../contentimages/campaigns/header-kim-01.jpg"> 
+<DIV class=headerslideinfo>Les Kimberley, Australie occidentale</DIV></DIV>
+<DIV class=headerslide><IMG src="../../contentimages/campaigns/header-kim-02.jpg"> 
+<DIV class=headerslideinfo>Kooljaman &agrave; Cape Leveque, Australie occidentale</DIV></DIV>
+<DIV class=headerslide><IMG src="../../contentimages/campaigns/header-kim-03.jpg"> 
+<DIV class=headerslideinfo>Cockburn Ranges, Australie occidentale</DIV></DIV>
+<DIV class=headerslide><IMG src="../../contentimages/campaigns/header-kim-04.jpg"> 
+<DIV class=headerslideinfo>Baobabs</DIV></DIV></DIV></DIV>
+<DIV id=subpage-header-overlay></DIV>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule></con_Banner>
+    <con_Body><TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Les Kimberley]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        Soyez frapp&eacute;s par les Kimberley, dans le coin de bout du monde du nord-ouest de l’Australie o&ugrave; les paysages fantastiques datent du temps des dinosaures. La nature dirige cette &eacute;pop&eacute;e &eacute;ternelle de rudes structures rocheuses, de voies d’eau colossales et d’oc&eacute;an incandescent. Embrassez l’aventure, connectez-vous &agrave; la culture aborig&egrave;ne vivante et faites l’exp&eacute;rience du luxe &eacute;cologique avec pour toile de fond les couleurs incroyables et les horizons sans fin des Kimberley. Survolez les Bungle Bungles class&eacute;es au Patrimoine mondial, suivez la Gibb River Road en 4x4 ou s&eacute;journez dans une communaut&eacute; aborig&egrave;ne de la p&eacute;ninsule de Dampier. Admirez l’abondance de la faune, cherchez les pierres pr&eacute;cieuses et d&eacute;couvrez la tradition artistique en plein essor de la r&eacute;gion.
+        <p><strong>Quatre raisons pour visiter les Kimberley</strong></p>
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[1. Des paysages d’aventure qui vous &eacute;l&egrave;vent l’&acirc;me]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-the-kimberley-hl01.jpg" alt="Cable Beach, Broome, WA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Cable Beach, Broome, WA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Les aventures de toutes sortes sont possibles avec les paysages ant&eacute;diluviens des Kimberley en toile de fond. Montez &agrave; dos de chameau sur la plage de Cable Beach &agrave; Broome. Puis suivez la Gibb River Road en 4x4 jusqu’&agrave; Kununurra, o&ugrave; vous pouvez traverser en bateau d’immense &eacute;tendues d’eau comme le lac Argyle et l’Ord River. Survolez les magnifiques chutes d’eau du Mitchell Plateau ou la chaine des Bungle Bungles dans le parc national de Purnululu, class&eacute; au patrimoine mondial. Plongez au tuba dans le parc maritime des Rowley Shoals, un des sites sous-marins spectaculaires le long de la c&ocirc;te lointaine et inviol&eacute;e des Kimberley. Pour une aventure plus tranquille, faites un tour en bateau de luxe dans le Buccaneer Archipelago, domaine des Horizontal Waterfalls et de 1000 &icirc;les.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[2. De riches exp&eacute;riences aborig&egrave;nes]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-the-kimberley-hl02.jpg" alt="Cape Leveque, WA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Cape Leveque, WA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Il existe de multiples mani&egrave;res de se connecter &agrave; la riche culture aborig&egrave;ne vivante des Kimberley. S&eacute;journez dans une communaut&eacute; aborig&egrave;ne traditionnelle de la p&eacute;ninsule Dampier, faites du kayak, de la plong&eacute;e au tuba, et p&ecirc;chez les crabes de vase et les poissons avec des guides du cru. Dans l’Outback, passez quelques temps dans un &eacute;levage appartenant aux Aborig&egrave;nes. Vous pouvez y gouter aux nourritures du bush, apprendre &agrave; rassembler le b&eacute;tail et &eacute;couter les histoires du Temps du R&ecirc;ve. Explorez des sites importants comme la Geikie Gorge et les chutes de King George avec les propri&eacute;taires traditionnels. Admirez l’art rupestre ancien dans le parc national de Drysdale ou sur le plateau Mitchell isol&eacute;, o&ugrave; se trouvent les peintures Gwion Gwien. Vous pouvez admirer les œuvres d’artistes aborig&egrave;nes contemporains c&eacute;l&egrave;bres dans les galeries d’art et les centres de Broome, Derby et Kununurra.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[3. Faune abondante]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-the-kimberley-hl03.jpg" alt="Monitoring turtles, Eco Beach, WA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Monitoring turtles, Eco Beach, WA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Les oiseaux, les mammif&egrave;res, les animaux marins et les reptiles pr&eacute;historiques r&egrave;gnent sur les Kimberley. Observez-les dans vos aventures sur la route et hors-piste ou participez &agrave; un tour des sanctuaires animaliers et des zones de reproduction. Flottez sur l’Ord River en regardant au passage des crocodiles d’eau sal&eacute;e, des wallabies des rochers et des centaines d’esp&egrave;ces d’oiseaux. Rep&eacute;rez les crocodiles qui prennent le soleil dans la Windjana Gorge et le Tunnel Creek. Visitez Roebuck Bay &agrave; Broome, un havre pour les oiseaux indig&egrave;nes et une escale pour les oiseaux migrateurs entre septembre et avril. La r&eacute;serve naturelle de Parrys Lagoon et le Marlgu Billabong pr&egrave;s de Wyndham sont d’autres paradis pour les ornithologues.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[4. Diamants, perles et refuges &eacute;cologiques]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-the-kimberley-hl04.jpg" alt="Pearl Lugger, cable beach, WA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Pearl Lugger, cable beach, WA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Rien n’&eacute;voque le prestige et l’amour mieux que les diamants et les perles. Les deux sont produits dans la r&eacute;gion &eacute;pique des Kimberley. Cherchez les perles des Mers du sud &agrave; Broome et retracez la riche histoire perli&egrave;re de la ville &agrave; Chinatown et au cimeti&egrave;re japonais. Visitez l’immense Argyle Diamond Mine, pr&egrave;s de Kununurra, o&ugrave; sont extraits la plupart des diamants roses du monde. Les Kimberley sont aussi l’endroit id&eacute;al pour un retour &agrave; la nature dans le luxe &eacute;cologique. Campez dans le luxe sur la p&eacute;ninsule Dampier ou faites un d&eacute;tour sur la Gibb River Road pour s&eacute;journer dans des refuges &eacute;cologiques de luxe.
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights></con_Body>
+    <con_RHSModules><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<TABLE cellSpacing=0 cellPadding=0 width=298 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top align=center>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD style="WIDTH: 25px"></TD>
+<TD><!-- #BeginLibraryItem "/Library/sitenav.lbi" -->
+<SCRIPT language=JavaScript1.2 type=text/javascript src="../../static/js/stmenu.js"></SCRIPT>
+<!-- #EndLibraryItem --></TD></TR></TBODY></TABLE><!-- Google Map Start -->
+<SCRIPT type=text/javascript>
+function fireEvent(obj,evt){
+var fireOnThis = obj;
+if( document.createEvent ) {
+var evObj = document.createEvent('MouseEvents');
+ evObj.initEvent( evt, true, false );
+fireOnThis.dispatchEvent(evObj);
+} else if( document.createEventObject ) {
+fireOnThis.fireEvent('on'+evt);
+}
+}
+function clickLink(linkobj) {
+     if (linkobj.getAttribute('onclick') == null) {
+ if (linkobj.getAttribute('href')) document.location = linkobj.getAttribute('href');
+     }
+     else linkobj.onclick();
+}
+function loadjscssfile(filename, filetype){
+ if (filetype=="js"){ //if filename is a external JavaScript file
+  var fileref=document.createElement('script')
+  fileref.setAttribute("type","text/javascript")
+  fileref.setAttribute("src", filename)
+ }
+ else if (filetype=="css"){ //if filename is an external CSS file
+  var fileref=document.createElement("link")
+  fileref.setAttribute("rel", "stylesheet")
+  fileref.setAttribute("type", "text/css")
+  fileref.setAttribute("href", filename)
+  fileref.setAttribute("media", "print")
+ }
+ if (typeof fileref!="undefined")
+  document.getElementsByTagName("head")[0].appendChild(fileref)
+}
+                  </SCRIPT>
+
+<SCRIPT type=text/javascript>
+var icheckk=0;
+jQuery.each(jQuery.browser, function(i, val) {
+if(i=="msie" && jQuery.browser.version.substr(0,3)=="7.0")
+icheckk=1;
+});
+function myfun()
+{
+loadjscssfile("../../static/css/thickbox.css", "css");
+if(icheckk==1)
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='../../static/maps/fr/thekimberley/bigmap.html'  target='_blank'>&nbsp;Imprimer|Proche|</a></b>","../../static/maps/fr/thekimberley/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=660&amp;width=785",false);
+}
+else
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='javascript:window.print()' >&nbsp;Imprimer|Proche|</a></b>","../../static/maps/fr/thekimberley/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=666&amp;width=785",false);
+}
+}
+         </SCRIPT>
+<IFRAME style="MARGIN-BOTTOM: 20px; BORDER-TOP: black 1px solid; HEIGHT: 355px; BORDER-RIGHT: black 1px solid; BORDER-BOTTOM: black 1px solid; FLOAT: left; PADDING-BOTTOM: 5px; BORDER-LEFT: black 1px solid; BACKGROUND-COLOR: #333333" height=380 src="../../static/maps/fr/thekimberley/index.html" frameBorder=0 width=249 name=FRAMENAME scrolling=no></IFRAME><!-- Google Map end -->
+<DIV class=subpage-video-thumb style="TEXT-ALIGN: left"><A onclick="moduleTrackingWithTitle('lightbox-video','',false,'nationallandscapes-thekimberleyfr');" href="#" data-reveal-id="modalVideo"><IMG alt="" src="/contentimages/Campaigns/national-landscapes-video-fr.jpg"></A> </DIV>
+<DIV id=modalVideo class="reveal-modal video" style-="z-index: 103;"><A class=close-reveal-modal><SPAN class=icon></SPAN></A>
+<DIV class=video style="VISIBILITY: visible !important"><IFRAME height=315 src="//www.youtube.com/v/EjGZ3MaX9pE?version=3&amp;hl=en_GB" frameBorder=0 width=560></IFRAME></DIV></DIV></TD></TR></TBODY></TABLE>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule><Listing isTemplate="1">
+<anc_List1><![CDATA[/fr/explore/itineraries/wa-3days-broome.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[Id&eacute;es d&eacute;couverte]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/fr/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/fr/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/fr/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/fr/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/fr/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/fr/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/fr/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/fr/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/fr/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/fr/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/fr/Transport.aspx]]></anc_Transport>
+<hdl_Title><![CDATA[Commencez &agrave; organiser votre s&eacute;jour ]]></hdl_Title>
+<language><![CDATA[FRA]]></language>
+<stf_Accomodation><![CDATA[Logement]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[KIMBERLEY]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[Attraction]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[Trouver une agence de voyage pr&egrave;s de chez vous ]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[Informations sur les destinations]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[&Eacute;v&egrave;nements]]></stf_Events>
+<stf_Hire><![CDATA[Location]]></stf_Hire>
+<stf_Informationservices><![CDATA[Informations]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[Western Australia]]></stf_StateFilter>
+<stf_Tours><![CDATA[Circuits]]></stf_Tours>
+<stf_Transport><![CDATA[Transports]]></stf_Transport>
+</PlanYourVisit></con_RHSModules>
+    <con_Category></con_Category>
+    <lst_Subpages>
+    </lst_Subpages>
+</StandardCampaignLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

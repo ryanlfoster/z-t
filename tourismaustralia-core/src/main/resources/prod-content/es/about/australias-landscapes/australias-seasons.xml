@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="9756" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Inicio]]></headline>
+            <href><![CDATA[/es-la/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Acerca de]]></headline>
+            <href><![CDATA[/es-la/about.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Las estaciones de Australia]]></headline>
+            <href><![CDATA[/es-la/about/australias-landscapes/australias-seasons.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/about-landscapes-seasonal-australia.jpg]]></img_background>
+    <hdl_Title><![CDATA[Las estaciones de Australia]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/about-landscapes-seasonal-australia-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[no]]></opt_PartnerLead>
+    <stf_description><![CDATA[Descubra por qu&eacute; Australia se puede disfrutar en todas las estaciones.  Se puede hacer pr&aacute;cticamente de todo, en cualquier &eacute;poca del a&ntilde;o. Ent&eacute;rese.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[Las estaciones de Australia]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Mayor informaci&oacute;n]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Las Estaciones de Australia - Tourism Australia]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[Descubra una nueva Australia con cada estaci&oacute;n!]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <PlanYourHolidayBox isTemplate="1">
+    <anc_MoreLink><![CDATA[/es-la/plan.xml]]></anc_MoreLink>
+    <hdl_Headline><![CDATA[Planifique sus vacaciones]]></hdl_Headline>
+    <language><![CDATA[ESS]]></language>
+    <opt_IsOnHomepage><![CDATA[]]></opt_IsOnHomepage>
+    <stf_MenuIconClass><![CDATA[]]></stf_MenuIconClass>
+    <stf_More><![CDATA[More]]></stf_More>
+    <stf_PlanYourHolidayTitle><![CDATA[Plan your holiday]]></stf_PlanYourHolidayTitle>
+    <lst_PageLinks>
+        <lst_PageLink>
+            <url><![CDATA[/es-la/plan/plan-your-trip/find-travel-agent.xml]]></url>
+            <hdl_Title><![CDATA[Buscar especialista en viajes]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/es-la/plan/plan-your-trip/getting-there.xml]]></url>
+            <hdl_Title><![CDATA[C&oacute;mo llegar a Australia]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/es-la/plan/plan-your-trip/accommodation.xml]]></url>
+            <hdl_Title><![CDATA[Alojamiento]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/es-la/plan/plan-your-trip/tours.xml]]></url>
+            <hdl_Title><![CDATA[Descubra excursiones]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/es-la/plan/plan-your-trip/specialoffers.xml]]></url>
+            <hdl_Title><![CDATA[Ofertas especiales*]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+    </lst_PageLinks>
+</PlanYourHolidayBox>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Las estaciones de Australia]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[Australia es un pa&iacute;s para disfrutar durante todas las &eacute;pocas del a&ntilde;o. Podr&aacute; hacer cualquier tipo de actividad, en cualquier &eacute;poca del a&ntilde;o.&nbsp; Hay cuatro estaciones en gran parte del pa&iacute;s, y una estaci&oacute;n h&uacute;meda y otra seca en nuestro norte tropical.&nbsp; 
+<P>El verano en Australia, de diciembre a febrero, es la &eacute;poca ideal para disfrutar de actividades al aire libre.&nbsp; Dese un ba&ntilde;o en las playas de Sydney o recorra a pie la ruta Overland Track de Tasmania.&nbsp; El oto&ntilde;o de Australia, de marzo a mayo, es una estaci&oacute;n de exuberante follaje en Canberra y del Gran Premio de F&oacute;rmula 1 en Melbourne.&nbsp; El invierno de Australia, de junio a agosto, ofrece la temporada de esqu&iacute; en los Alpes Australianos.&nbsp; O tambi&eacute;n tiene la alternativa de tomarse unas vacaciones al sol invernal.&nbsp; Practique snorkel en las aguas templadas de la Gran Barrera de Coral, o realice una excursi&oacute;n en 4x4 por el desierto de Simpson, en Australia Meridional.&nbsp; La primavera en Australia, de septiembre a noviembre, es la &eacute;poca de avistamiento de ballenas y flores silvestres mientras explora las bodegas de la regi&oacute;n de Margaret River en Australia Occidental.&nbsp; </P>
+<P>En la zona tropical de Australia, la estaci&oacute;n seca, de mayo a octubre, cuenta con claros cielos azules y d&iacute;as soleados.&nbsp; Es la &eacute;poca de sumergirse en los vibrantes mercados al aire libre, pel&iacute;culas y festivales de Darwin.&nbsp; La estaci&oacute;n h&uacute;meda, de diciembre a marzo, es calurosa y h&uacute;meda con tormentas diarias.&nbsp; Observe c&oacute;mo las cataratas caen con gran estruendo en los Parques Nacionales de Litchfield y Kakadu, o sobrevuele el desfiladero de Katherine cuando su nivel de agua alcanza su punto m&aacute;s alto.</P>]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Descubra el verano de Australia]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/about-australias-landscapes-australias-seasons-summer-hl.jpg" alt="Descubra el verano de Australia">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Descubra el verano de Australia]]></stf_Caption>
+                    <anc_link><![CDATA[/es-la/about/australias-landscapes/australias-seasons/summer.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        &iexcl;El <a href="/es-la/about/australias-landscapes/australias-seasons/summer.xml" target="_self">verano</a> de Australia lo invita! Disfrute del espl&eacute;ndido verano de Australia desde diciembre hasta febrero. Pasee por espectaculares acantilados desde la playa de <a href="/es-la/explore/cities/sydney/nsw-bondi-bronte.xml" target="_self">Bondi Beach hasta Bront&eacute;</a> en S&iacute;dney. Excursi&oacute;n de un d&iacute;a de <a href="/es-la/explore/cities/melbourne.xml" target="_self">Melbourne</a> a los vi&ntilde;edos, las playas, los parques nacionales, los campos de golf y los d&iacute;as de spa de <a href="/es-la/explore/cities/melbourne/mornington-peninsula.xml" target="_self">la pen&iacute;nsula de Mornington</a>. Del&eacute;itese con las comidas y los vinos m&aacute;s selectos de Tasmania en los hist&oacute;ricos muelles de <a href="/es-la/explore/cities/hobart.xml" target="_self">Hobart</a> o descubra la gastronom&iacute;a, la enolog&iacute;a y la historia de Swan Valley, en las proximidades de <a href="/es-la/explore/cities/perth.xml" target="_self">Perth</a>. Siga la ruta gastron&oacute;mica de marisco y pescado fresco por la pr&iacute;stina costa de <a href="/es-la/explore/states/sa/sa-eyre-peninsula.xml" target="_self">la pen&iacute;nsula de Eyre</a>, en Australia Meridional, o presencie el desove en masa de los corales en <a href="/es-la/explore/icons/great-barrier-reef.xml" target="_self">la Gran Barrera de Coral</a> de Queensland. Experimente el resplandor de las tormentas el&eacute;ctricas y los colores intensos de la vegetaci&oacute;n que crece en la regi&oacute;n tropical del Top End. Conozca mejor los animales aut&oacute;ctonos de Australia y la antigua historia aborigen en <a href="/es-la/explore/states/act/act-nature-reserve.xml" target="_self">la Reserva Natural de Tidbinbilla</a>, cerca de <a href="/es-la/explore/cities/canberra.xml" target="_self">Canberra</a>. El verano en Australia es, tambi&eacute;n, la temporada de campeonatos internacionales de cr&iacute;quet, el <a href="/es-la/explore/events/australian-open.xml" target="_self">Grand Slam de tenis</a>, los animados <a href="/es-la/explore/australian-events/music-festivals-events.xml" target="_self">festivales de m&uacute;sica</a>, las <a href="/es-la/explore/events/nat-new-years-fireworks.xml" target="_self">celebraciones de fin de a&ntilde;o</a> y los <a href="/es-la/explore/australian-events/culture-events.xml" target="_self">eventos culturales</a> al aire libre.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Visite Australia en oto&ntilde;o]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/about-australias-landscapes-australias-seasons-autumn-hl.jpg" alt="Visite Australia en otoño">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Visite Australia en oto&ntilde;o]]></stf_Caption>
+                    <anc_link><![CDATA[/es-la/about/australias-landscapes/australias-seasons/autumn.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Descubra la m&aacute;gica diversidad <a href="/es-la/about/australias-landscapes/australias-seasons/autumn.xml" target="_self">del oto&ntilde;o de Australia</a>, que dura desde marzo hasta mayo en gran parte del pa&iacute;s. Contemple los &aacute;rboles dorados rojizos en Orange, un centro rural dedicado a la gastronom&iacute;a y a la viticultura, al Oeste de <a href="/es-la/explore/cities/sydney.xml" target="_self">S&iacute;dney</a>. Explore los vi&ntilde;edos, los pueblos y los bosques, envueltos por un velo de neblina, del <a href="/es-la/about/australias-landscapes/wine-regions/yarra-valley.xml" target="_self">Valle de Yarra</a> de Victoria. Avent&uacute;rese por los parajes del pintoresco <a href="/es-la/explore/cities/brisbane/qld-adventure-on-brisbane-river.xml" target="_self">r&iacute;o Brisbane</a>. Experimente la vida de un vaquero en una ruta de ganado por la hist&oacute;rica <a href="/es-la/explore/events/sa-outback-cattle-drive.xml" target="_self">Oodnadatta Track</a> de Australia Meridional. Dir&iacute;jase al exuberante <a href="/es-la/explore/states/nt/nt-litchfield-nat-park.xml" target="_self">Parque Nacional de Litchfield</a> en el Territorio del Norte o cambie su rumbo hacia <a href="/es-la/explore/states/wa/wa-kununurra.xml" target="_self">Kununurra</a>, ubicada en Australia Occidental, para asistir al <a href="/es-la/explore/events/wa-ord-valley-muster.xml" target="_self">Ord Valley Muster</a>. Descienda r&aacute;pidos de r&iacute;os en la salvaje Costa Oeste de Tasmania, o pesque y acampe en el <a href="/es-la/explore/states/act/act-murrumbidgee-corridor.xml" target="_self">corredor del r&iacute;o Murrumbidgee</a>, cerca de Canberra. El oto&ntilde;o est&aacute; tambi&eacute;n repleto de eventos: <a href="/es-la/explore/australian-events/food-wine-events.xml" target="_self">festivales de gastronom&iacute;a</a> y viticultura, semanas de la moda y el <a href="/es-la/explore/events/vic-australian-grand-prix.xml" target="_self">Gran Premio de Melbourne</a>.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Descubra Australia en invierno]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/about-australias-landscapes-australias-seasons-winter-hl.jpg" alt="Descubra Australia en invierno">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Descubra Australia en invierno]]></stf_Caption>
+                    <anc_link><![CDATA[/es-la/about/australias-landscapes/australias-seasons/winter.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Bienvenido al <a href="/es-la/about/australias-landscapes/australias-seasons/winter.xml" target="_self">invierno en Australia</a>, una estaci&oacute;n tan variada como el pa&iacute;s en s&iacute; mismo. Puede practicar esqu&iacute; o snowboard en las <a href="/es-la/explore/states/vic/vic-snow-play.xml" target="_self">pistas de nieve en polvo de Victoria</a> o bucear en las templadas aguas de la Gran Barrera de Coral de Queensland. Puede conducir un 4x4 en el Desierto Simpson de Australia Meridional o dirigirse a las <a href="/es-la/explore/icons/blue-mountains.xml" target="_self">Monta&ntilde;as Azules</a> para las celebraciones navide&ntilde;as. Siga la <a href="/es-la/explore/states/wa/wa-wildflowers.xml" target="_self">ruta de Australia Occidental, repleta de flores silvestres</a>, o &uacute;nase a la cultura del inigualable festival del Territorio del Norte. Acurr&uacute;quese junto a un crepitante fuego en el <a href="/es-la/explore/cities/canberra/act-fireside-festival.xml" target="_self">Festival Fireside de Canberra</a> o celebre el solsticio de invierno en las adoquinadas calles de Hobart. El invierno tambi&eacute;n es una estupenda estaci&oacute;n para descubrir nuestra costa, donde podr&aacute; <a href="/es-la/explore/things-to-do/australian-adventure/nat-whalewatching.xml" target="_self">ver ballenas migratorias</a> y <a href="/es-la/explore/things-to-do/australian-adventure/nat-diving.xml" target="_self">bucear</a> en unas aguas repletas de vida marina.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Experiencias en primavera]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/about-australias-landscapes-australias-season-spring-hl.jpg" alt="Experiencias en primavera">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Experiencias en primavera]]></stf_Caption>
+                    <anc_link><![CDATA[/es-la/about/australias-landscapes/australias-seasons/spring.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Descubra la <a href="/es-la/about/australias-landscapes/australias-seasons/spring.xml" target="_self">primavera en Australia</a>, que empieza en septiembre y termina en noviembre en la mayor&iacute;a de los estados del pa&iacute;s. En el Norte tropical, es la estaci&oacute;n antes del monz&oacute;n o a los meses previos a la estaci&oacute;n h&uacute;meda.
+        <p>Presencie c&oacute;mo Melbourne se pone sus mejores galas para la Copa de Melbourne, un acontecimiento que paraliza a todo el pa&iacute;s. Disfrute de la &oacute;pera, el jazz, el blues y las esculturas entre las bodegas del <a href="/es-la/explore/states/nsw/hunter-valley.xml" target="_self">valle de Hunter</a>, cerca de S&iacute;dney. Combine gastronom&iacute;a, vinos, buceo y surf en la ciudad de <a href="/es-la/explore/states/wa/margaret-river.xml" target="_self">Margaret River</a>, en Australia Occidental. De un paseo entre copas de ancestrales &aacute;rboles en el <a href="/es-la/explore/states/qld/qld-spring-daintree-forest.xml" target="_self">bosque tropical de Daintree</a>, Patrimonio Mundial, ubicado en Queensland. Viva el espect&aacute;culo de la naturaleza de <a href="/es-la/explore/icons/kangaroo-island.xml" target="_self">Kangaroo Island</a> en Australia Meridional o capture un codiciado barramundi durante los meses previos a la estaci&oacute;n h&uacute;meda, en Territorio del Norte. Sienta c&oacute;mo Canberra se llena de vida con un mill&oacute;n de flores en <a href="/es-la/explore/events/floriade.xml" target="_self">Floriade</a> o descubra los jardines en flor de Tasmania, que le conducir&aacute;n hasta enclaves naturales e hist&oacute;ricos. En Australia, la primavera es tambi&eacute;n la estaci&oacute;n ideal para practicar surf, kayak de mar y pirag&uuml;ismo.</p>
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+        <lst_Subpage><![CDATA[<a href="/es-la/about/australias-landscapes/australias-seasons/spring.xml">Experiencias en primavera</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/es-la/about/australias-landscapes/australias-seasons/summer.xml">Descubra el Verano de Australia</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/es-la/about/australias-landscapes/australias-seasons/winter.xml">Descubra Australia en invierno</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/es-la/about/australias-landscapes/australias-seasons/autumn.xml">Visite Australia en otoño</a>]]></lst_Subpage>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

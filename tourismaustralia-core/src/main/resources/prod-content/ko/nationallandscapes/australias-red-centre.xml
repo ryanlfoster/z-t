@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="22229" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[홈]]></headline>
+            <href><![CDATA[/ko/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Tools and Campaigns]]></headline>
+            <href><![CDATA[/ko/tools-campaigns.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[호주 관광 명소(내셔널 랜드스케이프)]]></headline>
+            <href><![CDATA[/ko/nationallandscapes.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[호주의 레드 센터]]></headline>
+            <href><![CDATA[/ko/nationallandscapes/australias-red-centre.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/Campaigns/national-landscapes-australias-red-centre.jpg]]></img_background>
+    <hdl_Title><![CDATA[호주의 레드 센터]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/national-landscapes-australias-red-centre-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/Campaigns/national-landscapes-australias-red-centre-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[yes]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[원주민 문화와 험준한 아웃백의 아름다운 경관이 가득한 호주 레드 센터에서 시공을 초월한 성지들과 원주민 미술세계를 찾아 감상해 보세요.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[레드 센터, 울룰루, 호주 레드 센터, 레드 센터 웨이, 에어즈 록, 울룰루 에어즈 록, 앨리스 스프링스, 울룰루 원주민, 카타츄타, 울룰루 카타츄타, 카타츄타 국립공원, 카타츄타 국립, 올가스, 킹스 캐년, 킹스 캐년 공원, 앨리스 스프링스 킹스 캐년, 와타르카 국립공원, 심슨스 사막, 글렌 헬렌 협곡, 맥도넬 산맥, 라라핀타, 라라핀타 트레일, 호주 모험여행]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[상세 정보]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[호주 내셔널 랜드스케이프: 호주의 레드 센터 - 호주 관광청]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        원주민 문화와 험준한 아웃백의 아름다운 경관이 가득한 호주 레드 센터에서 시공을 초월한 성지들과 원주민 미술세계를 찾아 감상해 보세요.
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <StandardCampaignLayout isTemplate="1">
+    <opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+    <hdl_Title><![CDATA[]]></hdl_Title>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+    <con_Banner><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<DIV id=headerimage>
+<SCRIPT type=text/javascript src="../../static/js/jquery.cycle.all.latest.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+jQuery(document).ready(function() {
+jQuery('#headersliderwrapper').cycle({
+        fx:'fade',
+        slideExpr: '.headerslide'
+    });
+});
+</SCRIPT>
+
+<DIV id=headersliderwrapper>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-acn-01.jpg"> 
+<DIV class=headerslideinfo>울룰루, 노던 테리토리</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-acn-02.jpg"> 
+<DIV class=headerslideinfo>"가시악마 도마뱀</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-acn-03.jpg"> 
+<DIV class=headerslideinfo>카타츄타, 노던 테리토리</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-acn-04.jpg"> 
+<DIV class=headerslideinfo>앨리스 스프링스 사막 공원, 노던 테리토리</DIV></DIV></DIV></DIV>
+<DIV id=subpage-header-overlay></DIV>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule></con_Banner>
+    <con_Body><TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[호주의 레드 센터]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        원주민 문화와 거친 아웃백의 아름다운 경관이 가득한 호주의 레드 센터에서 여러분은 자신을 잃고 또 다시 찾게 됩니다. 호주의 상징인 울룰루와 카타츄타, 맥도넬 산맥과 킹스 캐년의 놀라운 자연 경관도 찾아볼 수 있습니다. 태고의 산맥과 끝없이 펼쳐지는 평원으로 둘러싸인 아웃백의 고장 앨리스 스프링스에서 이 모든 것을 찾아보세요. 호주의 붉은 심장부인 이곳에서 낙타를 타고 별빛 아래서 밤을 보내며, 외딴 수로에서 수영을 즐기고 영적으로 중요한 원주민 예술을 살펴볼 수 있습니다.
+        <p><strong>레드 센터만의 고유한 5가지 특징</strong></p>
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[1. 시간을 초월한 스토리와 신성한 장소]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australias-red-centre-hl01.jpg" alt="Uluru Kata Tjuta National Park, NT">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Uluru Kata Tjuta National Park, NT]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        아낭구(Anangu) 원주민 가이드의 안내로 울룰루 기슭을 걸으며 튜쿠리차(Tjukuritja)에서 영혼의 선조들이 이곳을 어떻게 창조했는지 알아보세요. 고대 암석화에서 선조들의 이야기를 읽고 물티출루 워터홀(Mutitjulu Waterhole)과 칸추 협곡, 울룰루 문화센터를 둘러볼까요? 뒤이어 왈파 협곡이나 바람의 계곡 워크(Valley of the Winds Walk)를 따라 근처 카타츄타를 지나갑니다. 점박이 산악자전거를 타고 앨리스 스프링스를 지나고, 원주민 가이드의 안내로 라라핀타 트레일(Larapinta Trail)을 걷거나 원주민 요리사와 함께 식도락 투어에 참가해 보세요. 쉽게 접근할 수 있는 암석화 유적지에서부터 외딴 지역 아트센터와 앨리스 스프링스의 현대 미술관에 이르기까지 다양하고 풍부한 현지 예술을 살펴봅니다.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[2. 험준한 아웃백 어드벤처]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australias-red-centre-hl02.jpg" alt="Uluru, NT">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Uluru, NT]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        오토바이나 낙타, 관광 헬리콥터를 타고 울룰루를 둘러보세요. 앨리스 스프링스를 거점으로 해서 자전거로 심슨스 갭(Simpsons Gap)까지 가거나 낙타 여행으로 심슨 사막을 건너기도 하고 동이 틀 무렵에는 열기구도 탈 수 있답니다. 킹스 캐년의 가장자리를 따라가며 와타르카 국립공원의 험한 절벽과 계곡을 가로질러 멋진 파노라마 경관을 감상하세요. 4WD 투어에 참가해 메리니 순환로(Mereenie Loop Rd)를 따라 모래로 덮인 탁 트인 핑크 협곡 국립공원과 트노랄라(고스 블러프) 보호구의 흥미로운 원주민 유적지를 지나갑니다.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[3. 잊지 못할 사막 경관]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australias-red-centre-hl03.jpg" alt="Ormiston Gorge, NT">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Ormiston Gorge, NT]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        눈부신 햇살과 청명한 날씨가 붉은 빛깔과 어우러지고 해질녘 석양이 압도하리만치 생동감을 뿜어내는 세계유산 울룰루를 감상하세요. 웨스트 맥도넬 산맥의 시원한 글렌헬렌 협곡과 오미스턴 협곡 또는 엘러리 크릭 빅홀(Ellery Creek Big Hole)에서 수영을 즐깁니다. 한낮의 태양 아래 붉게 타오르는 소협곡 스탠들리 캐즘(Standley Chasm)의 가파른 절벽을 구경하고 핑크 협곡 국립공원에서 팜 밸리의 사막 오아시스를 거닐어 보세요. 고유종 레드 캐비지 팜(Red Cabbage Palm) 나무의 자생지랍니다. 와타르카 국립공원에서 잃어 버린 도시(Lost City)의 풍화암 돔과 에덴 동산의 못을 둘러볼 수 있습니다.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[4. 끝없는 지평선과 함께 하는 여정]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australias-red-centre-hl04.jpg" alt="Red Centre, NT">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Red Centre, NT]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        웨스트맥도넬 산맥의 분수령을 따라 이어지는 라라핀타 트레일에서 트레킹으로 심슨스 갭과 오미스턴 협곡 그리고 글렌헬렌 협곡을 지나갑니다. 당일 도보여행을 하거나 평이한 코스에서부터 난코스까지 다양한 12개 구간을 조합해 여정을 계획하세요. 태고의 단층애를 오르거나 호주 고유종 동식물을 구경하고 별빛이 가득한 사막 하늘 아래서 야영을 해보세요. 앨리스 스프링스에서 차를 몰고 레드 센터 웨이(Red Centre Way)를 따라 광활하고 다채로운 풍경도 만끽할 수 있답니다. 여정은 웨스트 맥도넬 산맥과 핑크 협곡 국립공원, 킹스 캐년과 울룰루-카타츄타 국립공원으로 이어집니다.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[5. 풍성한 개척시대 역사]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australias-red-centre-hl05.jpg" alt="Alice Springs Telegraph Station, NT">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Alice Springs Telegraph Station, NT]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        아프간 낙타몰이꾼과 항공 의료단 의사 그리고 용감한 개척자들의 이야기가 서린 현대적 타운 앨리스 스프링스에서 레드 센터의 풍성한 개척시대 역사를 살펴봅니다. 세계 최초의 항공 의료 기관인 왕립 항공 의료단(Royal Flying Doctor Service)을 방문해 보세요. 타운이 비롯된 유서 깊은 앨리스 스프링스 전신국을 둘러보고 원거리 통신 학교의 ‘세계 최대 규모 교실’에서 수업도 들어보세요. 또 플린 트레일(Flynn Trail)을 따라 초기 개척자들이 직면했던 도전에 대해 알아봅니다.
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights></con_Body>
+    <con_RHSModules><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<TABLE cellSpacing=0 cellPadding=0 width=298 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top align=center>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD style="WIDTH: 25px">&nbsp;</TD>
+<TD><!-- #BeginLibraryItem "/Library/sitenav.lbi" -->
+<SCRIPT language=JavaScript1.2 type=text/javascript src="../../static/js/stmenu.js"></SCRIPT>
+<!-- #EndLibraryItem --></TD></TR></TBODY></TABLE><!-- Google Map Start -->
+<SCRIPT type=text/javascript>
+function fireEvent(obj,evt){
+ var fireOnThis = obj;
+ if( document.createEvent ) {
+   var evObj = document.createEvent('MouseEvents');
+   evObj.initEvent( evt, true, false );
+   fireOnThis.dispatchEvent(evObj);
+ } else if( document.createEventObject ) {
+   fireOnThis.fireEvent('on'+evt);
+ }
+}
+function clickLink(linkobj) {
+if (linkobj.getAttribute('onclick') == null) {
+if (linkobj.getAttribute('href')) document.location = linkobj.getAttribute('href');
+     }
+     else linkobj.onclick();
+}
+function loadjscssfile(filename, filetype){
+ if (filetype=="js"){ //if filename is a external JavaScript file
+  var fileref=document.createElement('script')
+  fileref.setAttribute("type","text/javascript")
+  fileref.setAttribute("src", filename)
+ }
+ else if (filetype=="css"){ //if filename is an external CSS file
+  var fileref=document.createElement("link")
+  fileref.setAttribute("rel", "stylesheet")
+  fileref.setAttribute("type", "text/css")
+  fileref.setAttribute("href", filename)
+  fileref.setAttribute("media", "print")
+ }
+if (typeof fileref!="undefined")
+document.getElementsByTagName("head")[0].appendChild(fileref)
+}
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+var icheckk=0;
+jQuery.each(jQuery.browser, function(i, val) {
+if(i=="msie" && jQuery.browser.version.substr(0,3)=="7.0")
+icheckk=1;
+});
+function myfun()
+{
+loadjscssfile("../../static/css/thickbox.css", "css");
+if(icheckk==1)
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='../../static/maps/ko/australiasredcentre/bigmap.html'  target='_blank'>&nbsp;인쇄|닫습니다|&nbsp;또는 Esc 키를 누르십시오</a></b>","../../static/maps/ko/australiasredcentre/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+else
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='javascript:window.print()' >&nbsp;인쇄|닫습니다|&nbsp;또는 Esc 키를 누르십시오</a></b>","../../static/maps/ko/australiasredcentre/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+}
+         </SCRIPT>
+<IFRAME style="MARGIN-BOTTOM: 20px; BORDER-TOP: black 1px solid; HEIGHT: 355px; BORDER-RIGHT: black 1px solid; BORDER-BOTTOM: black 1px solid; FLOAT: left; PADDING-BOTTOM: 5px; BORDER-LEFT: black 1px solid; BACKGROUND-COLOR: #333333" height=380 src="../../static/maps/ko/australiasredcentre/index.html" frameBorder=0 width=249 name=FRAMENAME scrolling=no></IFRAME><!-- Google Map end -->
+<DIV class=subpage-video-thumb style="TEXT-ALIGN: left"><A onclick="moduleTrackingWithTitle('lightbox-video','',false,'nationallandscapes-redcentreko');" href="#" data-reveal-id="modalVideo"><IMG alt="" src="/contentimages/Campaigns/national-landscapes-video-ko.jpg"></A> </DIV>
+<DIV id=modalVideo class="reveal-modal video" style-="z-index: 103;"><A class=close-reveal-modal><SPAN class=icon></SPAN></A>
+<DIV class=video style="VISIBILITY: visible !important"><IFRAME height=315 src="//www.youtube.com/v/EjGZ3MaX9pE?version=3&amp;hl=en_GB" frameBorder=0 width=560></IFRAME></DIV></DIV></TD></TR></TBODY></TABLE>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule><Listing isTemplate="1">
+<anc_List1><![CDATA[/ko/explore/events/nt-henley-on-todd.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[호주 아이디어 더]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/ko/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/ko/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/ko/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/ko/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/ko/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/ko/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/ko/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/ko/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/ko/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/ko/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/ko/Transport.aspx]]></anc_Transport>
+<hdl_Title><![CDATA[호주 레드 센터 여행을 계획하세요]]></hdl_Title>
+<language><![CDATA[KOR]]></language>
+<stf_Accomodation><![CDATA[Accommodation]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[Attractions]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[Find a Travel Agent near you]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[Destination Information]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[Alice Springs &amp; Surrounds;Uluru/Kata Tjuta Region]]></stf_DomesticRegion>
+<stf_Events><![CDATA[Events]]></stf_Events>
+<stf_Hire><![CDATA[Hire]]></stf_Hire>
+<stf_Informationservices><![CDATA[Information Services]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[Northern Territory]]></stf_StateFilter>
+<stf_Tours><![CDATA[Tours]]></stf_Tours>
+<stf_Transport><![CDATA[Transport]]></stf_Transport>
+</PlanYourVisit></con_RHSModules>
+    <con_Category></con_Category>
+    <lst_Subpages>
+    </lst_Subpages>
+</StandardCampaignLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

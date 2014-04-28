@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="81" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Pagina iniziale]]></headline>
+            <href><![CDATA[/it/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Informazioni]]></headline>
+            <href><![CDATA[/it/about.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Città]]></headline>
+            <href><![CDATA[/it/about/australias-landscapes/cities.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/about-landscapes-cities.jpg]]></img_background>
+    <hdl_Title><![CDATA[Citt&agrave;]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/about-landscapes-cities-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/about-landscapes-cities-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[no]]></opt_PartnerLead>
+    <stf_description><![CDATA[Scopri le incantevoli citt&agrave; australiane,  scegli tra le tante occasioni di divertimento e vivi il meglio dello stile di vita australiano.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[Citt&agrave;, Le incantevoli citt&agrave; australiane, Melbourne, Canberra, Brisbane, Adelaide, Perth, Darwin, Hobart, Cairns, Alice Springs, Gold Coast, Broome, Sydney]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Ulteriori Informazioni]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Citt&agrave; Australiane]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[Preparatevi ad adattarvi al nostro stile di vita rilassato e all’aria aperta e alla nostra cosmopolita cultura fatta di teatri, ristoranti, locali notturni ed eventi. ]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <ExperienceLocationMap isTemplate="1">
+    <!-- no user content -->
+</ExperienceLocationMap><Listing isTemplate="1">
+<anc_List1><![CDATA[/it/about/australias-landscapes/cities/nat-botantic-gardens.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[Altri itinerari suggeriti in Australia ]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/it/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/it/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/it/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/it/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/it/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/it/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/it/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/it/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/it/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/it/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/it/Transport.ignore]]></anc_Transport>
+<hdl_Title><![CDATA[Pianifica la tua vacanza]]></hdl_Title>
+<language><![CDATA[ITA]]></language>
+<stf_Accomodation><![CDATA[]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[]]></stf_Events>
+<stf_Hire><![CDATA[]]></stf_Hire>
+<stf_Informationservices><![CDATA[]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[]]></stf_StateFilter>
+<stf_Tours><![CDATA[]]></stf_Tours>
+<stf_Transport><![CDATA[]]></stf_Transport>
+</PlanYourVisit>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Citt&agrave;]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        Scoprite le citt&agrave; australiane, dalla famosa baia di Sydney ai quartieri culturali alternativi di Merlbourne fino all’atmosfera rilassata di Darwin.
+        <p>Visitate le attrazioni naturali di Canberra, riposatevi sulle bianche spiagge di Perth o passeggiate attraverso gli ampi parchi di Adelaide. In tutte le nostre citt&agrave;, grattacieli e negozi sono a breve distanza d’auto da montagne, oceani, fiumi e bush.</p>
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Sydney]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-cities-sydney-hl.jpg" alt="Sydney, NSW">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Sydney, NSW]]></stf_Caption>
+                    <anc_link><![CDATA[/it/explore/cities/sydney.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Lo stile rilassato di Sydney si basa su spiagge e vita all'aria aperta, ma non mancano arte e cultura, ottimi vini e cibo, natura, shopping cosmopolita e vita notturna.
+        <p>La vita di <a href="/it/explore/cities/sydney.xml" target="_self">Sydney</a> ruota intorno alla baia. Sali su un traghetto a Circular Quay e goditi vedute indimenticabili della <a href="http://www.australia.com/campaigns/nothinglike/it/sydney-product9.htm" target="_blank">Sydney Opera House</a> e del Sydney Harbour Bridge. Darling Harbour &egrave; uno dei luoghi di intrattenimento preferiti dalle famiglie.</p>
+        <p>Nel centro della citt&agrave;, eleganti gallerie come il Queen Victoria Building e The Strand sono il regno dei negozi pi&ugrave; alla moda. A Newtown puoi trovare negozi di moda vintage ed eccentriche boutique; mentre a Mosman e Double Bay troverai boutique e caff&egrave; di lusso.</p>
+        <p>Rilassati in spazi tranquilli come Centennial Parklands, Hyde Park o i Royal Botanic Gardens. Non perderti le celebri spiagge di <a href="/it/explore/cities/sydney/nsw-bondi-beach.xml" target="_self">Bondi</a> e <a href="/it/explore/cities/sydney/nsw-manly-beach.xml" target="_self">Manly</a>. <a href="/it/explore/cities/sydney/nsw-bondi-bronte.xml" target="_self">Le passeggiate sulla costa</a> sono il modo perfetto per scoprire <a href="/it/explore/cities/sydney/nsw-sydney-beaches.xml" target="_self">spiagge dorate</a>, suggestivi promontori, scogliere di arenaria e <a href="/it/explore/cities/sydney/sydney-harbour-np.xml" target="_self">parchi nazionali</a>.</p>
+        <p>Sydney &egrave; circondata dall'Oceano Pacifico a est, dalle <a href="/it/explore/icons/blue-mountains.xml" target="_self">Blue Mountains</a> a ovest, dall'Hawkesbury River a nord e dal Royal National Park a sud.</p>
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Melbourne]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-cities-melbourne-hl.jpg" alt="Melbourne, VIC">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Melbourne, VIC]]></stf_Caption>
+                    <anc_link><![CDATA[/it/explore/cities/melbourne.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        <a href="/it/explore/cities/melbourne.xml" target="_self">Melbourne</a> &egrave; una citt&agrave; ben organizzata con grandi strade pianeggianti e disposte a griglia. Rinomata per lo shopping, nel labirinto di <a href="/it/explore/cities/melbourne/melbourne-hidden-laneways.xml" target="_self">vicoli</a> nascosti tra le strade principali puoi trovare boutique esclusive, gallerie e minuscoli caff&egrave;, bar e ristoranti. Con un background multiculturale ricchissimo, troverai tutto ci&ograve; che desideri, dai caff&egrave; di ispirazione europea all'autentico cibo asiatico. Se ami la cucina italiana, Lygon Street &egrave; il posto che fa per te. Victoria Street a Richmond, Johnston Street a Fitzroy e Chapel Street a Prahran offrono ottimi negozi per lo shopping e locali ideali per una cena informale.
+        <p>Salta su un tram diretto a St Kilda; passeggia lungo lo Yarra River oppure perditi tra i numerosi parchi e giardini che circondano il centro della citt&agrave;.</p>
+        <p>Rilassati sulle spiagge che si allungano ad arco nella baia di Port Phillip Bay. A meno di un'ora in direzione est ti aspettano le celebri aziende vinicole della <a href="/it/about/australias-landscapes/wine-regions/yarra-valley.xml" target="_self">Yarra Valley</a> e dei Dandenong Ranges. Se vuoi visitare i bacini auriferi di <a href="/it/explore/states/vic/vic-bendigo.xml" target="_self">Bendigo</a> e Ballarat, dirigiti invece verso ovest. A nord si estende la regione alpina. E a sud non puoi perderti i le localit&agrave; marittime della <a href="/it/explore/cities/melbourne/mornington-peninsula.xml" target="_self">Mornington Peninsula</a> e la <a href="/it/explore/icons/great-ocean-road.xml" target="_self">Great Ocean Road</a>.</p>
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Canberra]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-cities-canberra-hl.jpg" alt="Canberra, ACT">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Canberra, ACT]]></stf_Caption>
+                    <anc_link><![CDATA[/it/explore/cities/canberra.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Tra le molteplici attrazioni della capitale scoprirai cosa significa essere australiano grazie alla storia, alla politica, all'arte e ai <a href="http://www.australia.com/campaigns/nothinglike/it/canberra.htm" target="_blank">monumenti nazionali</a> di <a href="/it/explore/cities/canberra.xml" target="_self">Canberra</a>.
+        <p>Poche capitali al mondo sono caratterizzate da un'integrazione cos&igrave; profonda di bush e parchi nel piano urbanistico. A Black Mountain, Red Hill, Mt Ainslie, Mt Majura, Mt Taylor e Mt Pleasant, all'interno dei confini cittadini, puoi ammirare piante e animali nativi.</p>
+        <p>Dalle rive del Lake Burley Griffin, le strade ordinate di Canberra offrono lunghe piste ciclabili ed eccellenti sentieri per la mountain bike e le passeggiate in citt&agrave;. Di sera, gli eleganti ristoranti prendono vita con una vivace offerta di intrattenimento.</p>
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Brisbane]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-cities-brisbane-hl.jpg" alt="Brisbane, QLD">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Brisbane, QLD]]></stf_Caption>
+                    <anc_link><![CDATA[/it/explore/cities/brisbane.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        I caldi giorni e notti tropicali sono perfetti per godere delle molteplici attrazioni di <a href="/it/explore/cities/brisbane.xml" target="_self">Brisbane</a>. Passeggia nei giardini di South Bank Parklands, Roma Street, Brisbane Forest Park e Portside Wharf. Ammira gli storici edifici di arenaria; passeggia lungo le sponde del <a href="/it/explore/cities/brisbane/qld-adventure-on-brisbane-river.xml" target="_self">Brisbane River</a>, a South Bank, e fatti una nuotata nella laguna sabbiosa: un paesaggio unico in un centro citt&agrave;.
+        <p>Tra le attivit&agrave; pi&ugrave; popolari vi sono l'arrampicata sullo Story Bridge e le scalate sulla roccia delle Kangaroo Point cliffs; oppure puoi scegliere uno tra i molti percorsi ciclabili che circondano la citt&agrave;.</p>
+        <p>La Queen Street Mall offre un chilometro di negozi e gallerie commerciali alla moda, mentre il quartiere boh&eacute;mien di The Valley ti conquister&agrave; con i negozi di giovani stilisti. Cerca qualche rarit&agrave; nei mercatini all'aperto del fine settimana.</p>
+        <p>A est della citt&agrave; ci sono alcune delle isole di sabbia pi&ugrave; grandi del mondo e spiagge straordinarie. A sud ti aspettano le fantastiche spiagge della citt&agrave; di Gold Coast e della Sunshine Coast, ottime per il surf. Concediti una fuga nell'entroterra e potrai ammirare foreste Patrimonio dell'umanit&agrave;, cittadine di provincia e i laghi, le valli e i fiumi delle Scenic Rim Valley e Country Valley, il tutto a meno di un'ora dalla citt&agrave;.</p>
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Adelaide]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-cities-adelaide-hl.jpg" alt="Adelaide, SA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Adelaide, SA]]></stf_Caption>
+                    <anc_link><![CDATA[/it/explore/cities/adelaide.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        <a href="/it/explore/cities/adelaide.xml" target="_self">Adelaide</a> &egrave; una citt&agrave; ordinata e pianeggiante, circondata da magnifici giardini, che si affaccia sulle sponde del Torrens River. Passeggia lungo gli ampi viali e ammira i palazzi storici di North Terrace e Rundle Mall mentre fai acquisti nelle boutique di alta moda. Adelaide &egrave; rinomata anche per l'ottimo cibo e gli eccellenti ristoranti. Gouger, Rundle, Hutt, O’Connell, Melbourne e Leigh Streets, King William Road e The Parade, a Norwood, sono i posti migliori per iniziare la tua scoperta della citt&agrave;. <a href="/it/explore/cities/adelaide/adelaide-central-market.xml" target="_self">L'Adelaide Central Market</a>, il mercato centrale, &egrave; ideale per trascorrere la domenica mattina.
+        <p>Prendi il tram e raggiungi le spiagge di <a href="/it/explore/cities/adelaide/sa-glenelg-beach.xml" target="_self">Glenelg</a>. Visita Port Adelaide e scoprine i musei, le crociere fluviali e il famoso santuario dei delfini.</p>
+        <p>A meno di un'ora dalla citt&agrave; troverai alcune fra le migliori regioni vinicole di tutta l'Australia come <a href="/it/explore/states/sa/barossa-valley.xml" target="_self">Barossa Valley</a>, Coonawarra, Clare Valley, <a href="/it/about/australias-landscapes/wine-regions/mclaren-vale.xml" target="_self">McLaren Vale</a> e Fleurieu Peninsula. Inizia la tua esplorazione dal National Wine Centre of Australia, situato nel centro della citt&agrave;. Poco distante dalla terraferma c'&egrave; <a href="/it/explore/icons/kangaroo-island.xml" target="_self">Kangaroo Island</a>, con le sue spiagge incontaminate, i paesaggi desertici, l'incredibile fauna e prodotti biologici sempre freschi.</p>
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Perth]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-cities-perth-hl.jpg" alt="Perth, WA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Perth, WA]]></stf_Caption>
+                    <anc_link><![CDATA[/it/explore/cities/perth.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Ci sono molti modi per scoprire lo stile di vita rilassato di <a href="/it/explore/cities/perth.xml" target="_self">Perth</a>. Autobus gratuiti sono a tua disposizione per mostrarti il CBD (Central Business District) dove puoi visitare Perth Mint, la Swan Bells Tower, la Art Gallery of Western Australia e molte altre attrazioni. I centri commerciali di King Street, Murray Street e Hay Street ti aspettano con i loro ristoranti, boutique e gallerie d'arte.
+        <p>Divertiti pescando dalle sponde dello Swan River, punteggiate di pittoresche aree picnic e sentieri per passeggiate, oppure salpa verso baie sabbiose e spiagge indimenticabili come Matilda Bay. Pi&ugrave; di 80 chilometri di spiagge pulite e poco affollate rendono la costa di Perth ideale per nuotare e fare surf; qui potrai inoltre apprezzare il tipico stile di vita "da spiaggia".</p>
+        <p>Scopri il giardino botanico di Kings Park e segui il sentiero che si snoda tra le cime degli alberi per ammirare un panorama insolito della citt&agrave;. Prendi il traghetto per South Perth e goditi l'incredibile skyline di Perth.</p>
+        <p>Visita il vivace porto di <a href="/it/explore/cities/perth/wa-fremantle.xml" target="_self">Fremantle</a> o dirigiti in direzione opposta e fermati per una degustazione nei vigneti lungo lo Swan River. Northbridge, Mount Lawley, Leederville e Subiaco offrono una vita notturna spumeggiante, mentre <a href="/it/explore/cities/perth/wa-cottesloe-beach.xml" target="_self">Cottesloe</a> e Scarborough sono pi&ugrave; tranquille.</p>
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Darwin]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-cities-darwin-hl.jpg" alt="Darwin, NT">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Darwin, NT]]></stf_Caption>
+                    <anc_link><![CDATA[/it/explore/cities/darwin.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Nella tropicale <a href="/it/explore/cities/darwin.xml" target="_self">Darwin</a> potrai apprezzare il relax della vita all'aria aperta e una moltitudine di esperienze multiculturali, entusiasmanti incontri con la fauna selvatica ed eventi divertenti. &Egrave; una citt&agrave; piccola e gli spostamenti sono molto semplici. Qui non troverai grattacieli e palazzi a pi&ugrave; piani: a Darwin, tutti hanno i piedi per terra.
+        <p>In citt&agrave; e nei pressi di Darwin puoi visitare siti aborigeni originali dove scoprire la cultura vivente pi&ugrave; antica del mondo. Inoltre, Darwin ha giocato un ruolo importante nella storia australiana durante la Seconda Guerra Mondiale e ancora oggi restano molte <a href="/it/explore/cities/darwin/nt-darwin-historical-attractions.xml" target="_self">testimonianze</a> di quel periodo.</p>
+        <p>La maggior parte delle attivit&agrave; sociali della citt&agrave; avvengono durante i mercati all'aperto, i festival, nei parchi e nelle riserve, in spiaggia o sulle imbarcazioni nel porto di Darwin.</p>
+        <p>Mitchell Street &egrave; il cuore dei ristoranti e dei pub di Darwin. La vita notturna di <a href="/it/explore/cities/darwin/darwin-waterfront.xml" target="_self">Darwin Waterfront Precinct</a> e <a href="/it/explore/cities/darwin/nt-mindil-markets.xml" target="_self">Mindil Beach</a> offre tutto l'intrattenimento che desideri, mentre il placido distretto di Parap, alla periferia della citt&agrave;, dispone delle migliori raccolte di arte indigena d'Australia.</p>
+        <p>Bagnata dal mare su tre lati, Darwin &egrave; un punto di partenza eccellente per esplorare i <a href="/it/explore/icons/kakadu.xml" target="_self">parchi nazionali di Kakadu</a>, <a href="/it/explore/states/nt/nt-litchfield-nat-park.xml" target="_self">Litchfield</a> e <a href="http://www.australia.com/campaigns/nothinglike/it/uluru-product9.htm" target="_blank">Nitmiluk</a>, le Tiwi Islands e Arnhem Land.</p>
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Hobart]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-cities-hobart-hl.jpg" alt="Hobart, TAS">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Hobart, TAS]]></stf_Caption>
+                    <anc_link><![CDATA[/it/explore/cities/hobart.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        <a href="/it/explore/cities/hobart.xml" target="_self">Hobart</a>, una citt&agrave; di grande fascino sia naturale che culturale, &egrave; caratterizzata da caldi edifici in arenaria, luminose vele che scivolano sull'acqua e imbarcazioni da pesca ancorate al molo. In questa piccola citt&agrave; visitabile a piedi troverai magazzini del XIX secolo sul lungomare e molti siti che mostrano il passato di colonia penale dell'Australia. Nei dintorni di Sullivan’s Cove, dove si conclude la famosa <a href="/it/explore/events/syd-hobart-yacht-race.xml" target="_self">regata Sydney-Hobart</a>, potrai rilassarti in ottimi ristoranti o facendo acquisti esclusivi. Ogni sabato, il <a href="/it/explore/cities/hobart/hobart-salamanca-place.xml" target="_self">Salamanca Market</a> prende vita.
+        <p>Le spiagge intorno a Hobart includono Sandy Bay, Cornelian Bay, Nutgrove, Kingston e Howrah. Molte altre spiagge punteggiano l'area circostante Frederick Henry Bay. Solca i mari su un catamarano di lusso dal lungomare di Hobart fino a D’Entrecasteaux Channel per raggiungere Peppermint Bay.</p>
+        <p>Mount Wellington offre un'esperienza totalmente selvaggia a soli 20 minuti dalla citt&agrave;. Guida fino alla vetta attraversando una foresta pluviale temperata, una flora tipicamente subalpina e formazioni geologiche glaciali. Potrai goderti le vedute panoramiche di Hobart, <a href="/it/explore/states/tas/tas-bruny-island.xml" target="_self">Bruny Island</a> e della Tasman Peninsula.</p>
+        <p>A est si trova la famosa prigione storica di <a href="/it/explore/states/tas/tas-port-arthur.xml" target="_self">Port Arthur</a>. Un po' pi&ugrave; in alto, lungo la strada, c'&egrave; Remarkable Cave, classico raduno dei surfisti locali. I <a href="/it/explore/icons/tas-wilderness.xml" target="_self">paesaggi naturali della Tasmania</a> non sono mai troppo lontani.</p>
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Cairns]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-cities-cairns-hl.jpg" alt="Cairns, QLD">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Cairns, QLD]]></stf_Caption>
+                    <anc_link><![CDATA[/it/explore/cities/cairns.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        <a href="/it/explore/cities/cairns.xml" target="_self">Cairns</a> &egrave; un punto di passaggio obbligato per il <a href="/it/explore/states/qld/qld-winter-sun.xml" target="_self">Queensland tropicale</a> settentrionale e la <a href="/it/explore/icons/great-barrier-reef.xml" target="_self">Grande barriera corallina</a>. Qui sei vicino alle isole, alla barriera corallina e alla pi&ugrave; antica <a href="/it/explore/states/qld/qld-spring-daintree-forest.xml" target="_self">foresta tropicale</a> del mondo. Cittadina di provincia che si allunga da sud, a Edmonton, fino a Ellis Beach a nord, Cairns ha recentemente assistito a una rapida crescita e la periferia ha invaso i terreni precedentemente occupati dalle coltivazioni di canna da zucchero.
+        <p>Lo stile di vita di Cairns &egrave; tipicamente tropicale e pantaloncini e t-shirt sono il look classico. Gli edifici di Cairns raramente superano i due piani.</p>
+        <p>Numerose spiagge si estendono lungo la costa settentrionale, comprese Machans, Holloways e Trinity, Yorkeys Knob, Palm Cove ed Ellis Beach. Nell'entroterra delle spiagge settentrionali, lungo la pianura del Barron River, si estende la Freshwater Valley. Mount Whitfield, la catena Whitfield Range, le Crystal Cascades e Kuranda sono tutti a breve distanza. Numerose altre piccole citt&agrave; e comunit&agrave; sorgono lungo la Bruce Highway.</p>
+        <p>Incastonata tra le catene montuose e il Mar dei Coralli, Cairns offre molte opportunit&agrave; per passeggiare nella foresta pluviale o attraversare la Great Dividing Range in fuoristrada.</p>
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Alice Springs]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-cities-alice-springs-hl.jpg" alt="Alice Springs, NT">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Alice Springs, NT]]></stf_Caption>
+                    <anc_link><![CDATA[/it/explore/cities/alice-springs.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        <a href="/it/explore/cities/alice-springs.xml" target="_self">Alice Springs</a> &egrave; una delle citt&agrave; pi&ugrave; famose dell'Outback australiano e tappa obbligata per i viaggiatori diretti a <a href="http://www.australia.com/campaigns/nothinglike/it/uluru.htm">Uluru</a> (Ayers Rock) e al Kata Tjuta National Park. &Egrave; circondata dal deserto di sabbia rossa che si estende per centinaia di chilometri in tutte le direzioni: il <a href="/it/explore/icons/red-centre.xml" target="_self">Red Centre</a>, ovvero il cuore rosso, dell'Australia.
+        <p>La citt&agrave; si trova nei pressi del Todd River, per lo pi&ugrave; asciutto. Anche se i MacDonnell Ranges sono vicini, Alice Springs &egrave; pianeggiante e facile da visitare. Famosa per l'arte aborigena e le numerose gallerie d'arte locali, ha in Todd Mall il proprio vibrante centro. L'Araluen Centre for Arts and Entertainment offre balletti e concerti di livello internazionale oltre a esibizioni di artisti locali.</p>
+        <p>Scopri il deserto circostante nell'Alice Springs Desert Park e nell'Olive Pink Botanic Garden. L'Alice Springs Reptile Centre &egrave; situato nel centro citt&agrave;.</p>
+        <p>Da Alice Springs puoi partire per splendide escursioni tra le alture dei MacDonnell Ranges oppure percorrere in fuoristrada le piste del Finke Gorge National Park. Qui potrai entrare in contatto con la ricchezza delle tradizioni aborigene e godere di alcuni dei paesaggi pi&ugrave; belli del paese.</p>
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Gold Coast]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-cities-gold-coast-hl.jpg" alt="Gold Coast, QLD">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Gold Coast, QLD]]></stf_Caption>
+                    <anc_link><![CDATA[/it/explore/cities/gold-coast.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Con le sue superbe spiagge dorate, compresa quella di Surfers Paradise celebre in tutto il mondo, la citt&agrave; di <a href="/it/explore/cities/gold-coast.xml" target="_self">Gold Coast</a> &egrave; un mix di stili di vita cosmopoliti, parchi a tema, boutique di lusso e alcuni tra gli eventi sportivi migliori d'Australia.
+        <p>Lo skyline &egrave; dominato da svettanti grattacieli tra cui spicca la Q1, una delle torri residenziali pi&ugrave; alte del mondo. Gold Coast promette scintille, glamour e divertimento. High Street Surfers Paradise &egrave; un nuovo quartiere che offre moda e cibo sofisticato, mentre i bar e i club di Cavill Avenue sono al centro della vivace vita notturna. Inoltre, nei pressi della citt&agrave;, vi sono numerosi parchi a tema.</p>
+        <p>Tra le <a href="/it/explore/cities/gold-coast/qld-surfing.xml" target="_self">spiagge pi&ugrave; note</a> vi sono South Stradbroke Island, The Spit, Main Beach, Broadbeach, Mermaid Beach e Burleigh Heads. Vi sono inoltre splendide spiagge lungo i corsi d'acqua che attraversano la citt&agrave; di Gold Coast.</p>
+        <p>Gold Coast si estende a sud fino a Coolangatta, al confine con il <a href="/it/explore/states/nsw.xml" target="_self">New South Wales</a>, a ovest fino a Mount Tamborine e a nord a Beenleigh, vicino a Brisbane. &Egrave; il punto di partenza ideale per raggiungere alcune delle pi&ugrave; belle attrazioni naturali del Queensland. Qui puoi <a href="/it/explore/things-to-do/australian-adventure/nat-whalewatching.xml" target="_self">osservare le balene</a> o fare "island-hopping" passando da un'isola all'altra, oppure avventurarti nelle foreste pluviali e <a href="/it/explore/itineraries/qld-goldcoast-hinterland.xml" target="_self">tra i parchi Patrimonio dell'umanit&agrave;</a>.</p>
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Broome]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-cities-broome-hl.jpg" alt="Broome, WA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Broome, WA]]></stf_Caption>
+                    <anc_link><![CDATA[/it/explore/cities/broome.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        <a href="/it/explore/cities/broome.xml" target="_self">Broome</a> &egrave; una cittadina relativamente piccola, dove la vita scorre placida. Perditi nel colore rosso brillante della terra, nel verde lussureggiante delle piante tropicali e tra i magnifici fiori.
+        <p>La multiculturalit&agrave; di Broome &egrave; stata plasmata dalla romantica <a href="/it/explore/things-to-do/shopping/australias-diamonds-pearls.xml" target="_self">storia delle perle</a>: &egrave; il luogo ideale per acquistare le perle dei Mari del Sud e i rari diamanti rosa. Showroom punteggiano le strade di Chinatown, dove puoi trovare anche gallerie d'arte, negozi e caff&egrave;. Il Broome Historical Society Museum &egrave; considerato uno dei musei regionali migliori di tutta l'Australia. A breve distanza dalla citt&agrave; puoi visitare il Broome Crocodile Park.</p>
+        <p>Tra le principali attrazioni puoi cavalcare un cammello al tramonto lungo le spiagge bianche di <a href="/it/explore/cities/broome/wa-cable-beach.xml" target="_self">Cable Beach</a>, visitare i luoghi un tempo abitati dai dinosauri a Gantheaume Point e fare birdwatching nella celebre Roebuck Bay.</p>
+        <p>Uno dei tesori naturali di Broome &egrave; la <a href="/it/explore/australian-events/natural-events.xml" target="_self">Staircase to the Moon</a>, la scalinata verso la luna. Nelle notti che seguono la luna piena, da marzo a ottobre, i riflessi si allungano sulle pianure fangose creando il suggestivo effetto di una lunga scalinata dorata.</p>
+        <p>Broome &egrave; il punto di accesso occidentale alla regione di <a href="/it/explore/icons/kimberley.xml" target="_self">The Kimberley</a> in <a href="/it/explore/states/wa.xml" target="_self">Western Australia</a>.</p>
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+        <lst_Subpage><![CDATA[<a href="/it/about/australias-landscapes/cities/nat-city-waterways.xml">I corsi d’acqua australiani</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/it/about/australias-landscapes/cities/nat-botantic-gardens.xml">I giardini botanici dell’Australia</a>]]></lst_Subpage>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

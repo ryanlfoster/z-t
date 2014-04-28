@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="35" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Página inicial]]></headline>
+            <href><![CDATA[/pt-br/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Planeje]]></headline>
+            <href><![CDATA[/pt-br/plan.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Acomodação]]></headline>
+            <href><![CDATA[/pt-br/plan/plan-your-trip/accommodation.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/plan-plan-your-trip-find-accommodation.jpg]]></img_background>
+    <hdl_Title><![CDATA[Acomoda&ccedil;&atilde;o]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/plan-plan-your-trip-find-accommodation-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[Encontre informa&ccedil;&otilde;es sobre hot&eacute;is exclusivos, albergues, resorts, apartamentos com servi&ccedil;os, pubs de interior, hot&eacute;is fazenda e camping. ]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[Austr&aacute;lia, acomoda&ccedil;&atilde;o, acomoda&ccedil;&atilde;o australiana, resorts, hot&eacute;is, mot&eacute;is, apartamentos com servi&ccedil;os, unidades para temporada, pousada, hospedagem em fazendas, acampamento, locais para trailers, albergues, mochileiros, classifica&ccedil;&atilde;o por estrelas]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Saiba mais]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Acomodacao de F&eacute;rias na Austr&aacute;lia - Tourism Austr&aacute;lia]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        Voc&ecirc; ter&aacute; in&uacute;meras op&ccedil;&otilde;es de acomoda&ccedil;&atilde;o na Austr&aacute;lia. Temos pequenos hot&eacute;is e albergues para mochileiros, resorts luxuosos e apartamentos self-service, pubs r&uacute;sticos no interior e acampamentos.
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <AccommodationRHS isTemplate="1">
+    <!-- no user content -->
+</AccommodationRHS><StarRatingModule isTemplate="1">
+    <hdl_Title><![CDATA[Um guia para classifica&ccedil;&atilde;o por estrelas ]]></hdl_Title>
+    <con_StarRating>
+        <StarRatingItem isTemplate="1">
+    <hdl_Title><![CDATA[5 Estrelas]]></hdl_Title>
+    <txt_Description><![CDATA[adr&atilde;o superior e uma extensa variedade de servi&ccedil;os de primeira classe para os h&oacute;spedes]]></txt_Description>
+    <img_Stars><![CDATA[<img src="/contentimages/rating5.jpg" alt="5 Estrelas">]]></img_Stars>
+</StarRatingItem><StarRatingItem isTemplate="1">
+    <hdl_Title><![CDATA[4 - 4&frac12; estrelas]]></hdl_Title>
+    <txt_Description><![CDATA[Padr&atilde;o excepcional com decora&ccedil;&atilde;o e conforto de alta qualidade]]></txt_Description>
+    <img_Stars><![CDATA[<img src="/contentimages/rating4.jpg" alt="4 - 4½ estrelas">]]></img_Stars>
+</StarRatingItem><StarRatingItem isTemplate="1">
+    <hdl_Title><![CDATA[3 - 3&frac12; estrelas]]></hdl_Title>
+    <txt_Description><![CDATA[Estabelecimentos bem equipados com quartos limpos e confort&aacute;veis e mob&iacute;lia de qualidade]]></txt_Description>
+    <img_Stars><![CDATA[<img src="/contentimages/rating3.jpg" alt="3 estrelas ">]]></img_Stars>
+</StarRatingItem><StarRatingItem isTemplate="1">
+    <hdl_Title><![CDATA[Menos de 3 estrelas]]></hdl_Title>
+    <txt_Description><![CDATA[Um padr&atilde;o b&aacute;sico bem mantido]]></txt_Description>
+    <img_Stars><![CDATA[]]></img_Stars>
+</StarRatingItem><StarRatingItem isTemplate="1">
+    <hdl_Title><![CDATA[Apart-hot&eacute;is]]></hdl_Title>
+    <txt_Description><![CDATA[Apartamentos totalmente equipados, 1 a 3 dormit&oacute;rios com &aacute;rea habit&aacute;vel completa com cozinha, lavanderia e banheiro separado.]]></txt_Description>
+    <img_Stars><![CDATA[]]></img_Stars>
+</StarRatingItem>
+    </con_StarRating>
+    <anc_MoreLink><![CDATA[]]></anc_MoreLink> 
+</StarRatingModule><Listing isTemplate="1">
+<anc_List1><![CDATA[/pt-br/plan/before-you-go/visa-information.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[More Australian Ideas]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Acomoda&ccedil;&atilde;o]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[Voc&ecirc; ter&aacute; in&uacute;meras op&ccedil;&otilde;es de acomoda&ccedil;&atilde;o na Austr&aacute;lia. Temos pequenos hot&eacute;is e albergues para mochileiros, resorts luxuosos e apartamentos self-service, pubs r&uacute;sticos no interior e acampamentos. Voc&ecirc; pode esperar um servi&ccedil;o hospitaleiro e os melhores padr&otilde;es em qualquer faixa de pre&ccedil;o que escolher. Saiba mais sobre os diferentes tipos de acomoda&ccedil;&otilde;es, que recursos oferecem e quanto podem custar. ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Resorts]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Relaxe em um resort onde tudo o que voc&ecirc; precisa est&aacute; ao alcance de suas m&atilde;os. Voc&ecirc; desfrutar&aacute; de acomoda&ccedil;&otilde;es espa&ccedil;osas de alta qualidade e de uma grande variedade de servi&ccedil;os aos h&oacute;spedes, tours e atividades. Os resorts australianos s&atilde;o a melhor forma de relaxar em locais deslumbrantes em contato com a natureza – desde Hamilton Island, em Queensland, at&eacute; a regi&atilde;o vin&iacute;cola da <a href="/pt-br/explore/states/sa.xml" target="_self">Austr&aacute;lia do Sul</a>. As atividades s&atilde;o feitas sob medida para sua localiza&ccedil;&atilde;o e, dependendo de onde voc&ecirc; estiver, <a href="/pt-br/explore/states/vic/vic-snow-play.xml" target="_self">poder&aacute; esquiar pelas encostas</a>, fazer um <a href="/pt-br/explore/things-to-do/australian-adventure/nat-diving.xml" target="_self">mergulho com tanque de oxig&ecirc;nio</a> ou tomar coquet&eacute;is &agrave; beira da piscina.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Hot&eacute;is]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Fique em um quarto ou su&iacute;te, pe&ccedil;a servi&ccedil;os como servi&ccedil;o de quarto e de bab&aacute; e aproveite os recursos que v&atilde;o desde piscina e academia at&eacute; restaurantes e bares. Voc&ecirc; encontrar&aacute; a maioria das cadeias de hot&eacute;is internacionais nos <a href="/pt-br/explore.xml" target="_self">grandes destinos</a> de f&eacute;rias da Austr&aacute;lia e nas <a href="/pt-br/about/australias-landscapes/cities.xml" target="_self">principais cidades</a>. As classifica&ccedil;&otilde;es variam de duas a cinco estrelas, e os pre&ccedil;os variam de acordo.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Mot&eacute;is]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[Descanse da estrada em um motel, que oferece acomoda&ccedil;&otilde;es confort&aacute;veis a um pre&ccedil;o acess&iacute;vel. Normalmente, os quartos incluem banheiro privado, televis&atilde;o, possibilidade de fazer caf&eacute; ou ch&aacute; no quarto e uma pequena geladeira. A maioria tem menus de caf&eacute; da manh&atilde; servido no quarto, enquanto os grandes contam com restaurantes.]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Apartamentos e unidades para temporada com servi&ccedil;os]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[Aproveite o espa&ccedil;o, a privacidade e a conveni&ecirc;ncia de cozinha e lavanderia em um apartamento ou unidade para temporada. Esta &eacute; uma op&ccedil;&atilde;o ideal e econ&ocirc;mica se voc&ecirc; estiver viajando com a fam&iacute;lia ou com grandes grupos ou quiser passar mais do que alguns poucos dias no mesmo lugar. Aproveite a &aacute;rea habit&aacute;vel e cozinhe suas pr&oacute;prias refei&ccedil;&otilde;es. Voc&ecirc; encontrar&aacute; op&ccedil;&otilde;es com e sem servi&ccedil;os, dependendo de onde se hospedar.]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Pousadas]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[Hospede-se em uma pousada para desfrutar uma sensa&ccedil;&atilde;o familiar e fartas refei&ccedil;&otilde;es caseiras. Voc&ecirc; encontrar&aacute; esses pequenos estabelecimentos familiares em toda parte, desde resid&ecirc;ncias hist&oacute;ricas at&eacute; casas de mineradores, propriedades rurais ou resid&ecirc;ncias urbanas. Eles oferecem quartos a um pre&ccedil;o razo&aacute;vel e, muitas vezes, os propriet&aacute;rios s&atilde;o boas fontes de informa&ccedil;&otilde;es.]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Hospedagem em fazendas]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[Acorde com o cantar do galo em uma pequena fazenda ou aprenda a tosar carneiros em uma fazenda no outback, com mais de um milh&atilde;o de acres. Durma em camas b&aacute;sicas sob um teto de lata ou desfrute de acomoda&ccedil;&otilde;es luxuosas em uma propriedade rural de formato irregular. Hospedando-se em uma fazenda, voc&ecirc; poder&aacute; vivenciar os amplos espa&ccedil;os abertos cavalgando, pescando, nadando ou fazendo caminhadas. Integre-se na rotina di&aacute;ria consertando cercas, reunindo o gado do lombo de um cavalo, pescando camar&otilde;es de &aacute;gua doce ou dirigindo um ve&iacute;culo com tra&ccedil;&atilde;o nas quatro rodas pela propriedade. Vivencie manh&atilde;s enevoadas e o p&ocirc;r-do-sol avermelhado, fogueiras e a farta comida do interior. Voc&ecirc; pode terminar o dia em um spa artesiano aquecido sob as estrelas. A hospedagem em fazendas permite que voc&ecirc; troque o barulho da cidade pela hospitalidade campestre e pela volta &agrave; vida b&aacute;sica do interior.]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Locais para acampamento e trailers]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Aproveite as paisagens do interior da Austr&aacute;lia acampando em barracas ou em um trailer. Voc&ecirc; pode montar sua barraca em um parque nacional ou valer-se de um dos muitos acampamentos e parques para trailers bem equipados. Oferecendo eletricidade, chuveiros com &aacute;gua quente, lavanderia e &aacute;reas para churrasco, eles mant&ecirc;m a vida na estrada limpa e civilizada. Lembre-se de que, para proteger nosso fr&aacute;gil meio ambiente, existem regras e regulamentos em parques nacionais e acampamentos. Para aproveitar uma viagem pela estrada com todo o conforto onde voc&ecirc; nunca se perde, experimente um passeio guiado de um m&ecirc;s em trailers. Ou combine luxo e vida selvagem em fascinantes retiros em estilo de acampamento no <a href="/pt-br/explore/icons/red-centre.xml" target="_self">outback</a>, na floresta, deserto ou praia.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Albergues e mochileiros]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Hospede-se em cabanas na praia ou casas em &aacute;rvores em <a href="/pt-br/explore/states/qld.xml" target="_self">Queensland</a> ou durma nos subterr&acirc;neos da Austr&aacute;lia do Sul. Seja voc&ecirc; um mochileiro, um ‘flashpacker’ ou simplesmente esteja viajando com um or&ccedil;amento pequeno, a Austr&aacute;lia tem acomoda&ccedil;&otilde;es em albergues tanto no outback como no centro das cidades. Al&eacute;m de economizar seu dinheiro, os albergues s&atilde;o uma excelente maneira de conhecer outros viajantes. Voc&ecirc;s podem trocar hist&oacute;rias ou compartilhar mais <a href="/pt-br/explore/things-to-do/australian-adventure.xml" target="_self">aventuras australianas</a>.
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

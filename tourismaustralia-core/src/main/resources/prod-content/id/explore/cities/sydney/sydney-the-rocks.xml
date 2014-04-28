@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="10766" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Laman Depan]]></headline>
+            <href><![CDATA[/id/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Jelajah]]></headline>
+            <href><![CDATA[/id/explore.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Sydney]]></headline>
+            <href><![CDATA[/id/explore/cities/sydney.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[The Rocks]]></headline>
+            <href><![CDATA[/id/explore/cities/sydney/sydney-the-rocks.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/explore-cities-sydney-the-rocks.jpg]]></img_background>
+    <hdl_Title><![CDATA[The Rocks]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/explore-cities-sydney-the-rocks-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/explore-cities-sydney-the-rocks-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[no]]></opt_PartnerLead>
+    <stf_description><![CDATA[Jelajahi The Rocks Sydney yang bersejarah. Nikmati jalanan berbatu di samping pelabuhan, penampilan kota yang indah, dan lain sebagainya. ]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[Campbell's Cove, The Rocks, Sydney, NSW.  &copy; Destination NSW &amp; Hamilton Lund]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[The Rocks, Sydney Rocks, The Rocks Sydney]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Pelajari Lebih Lanjut]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[The Rocks, Sydney - Tourism Australia]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[Jelajahi sejarah narapidana Sydney yang penuh warna di The Rocks, kawasan tepi pelabuhan tempat pemukiman bermula.]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <Listing isTemplate="1">
+<anc_List1><![CDATA[/id/explore/cities/sydney/sydney-surrounds.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[Lebih Banyak Ide-Ide Khas Australia]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/id/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/id/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/id/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/id/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/id/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/id/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/id/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/id/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/id/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/id/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/id/Transport.aspx]]></anc_Transport>
+<hdl_Title><![CDATA[Rencanakan Kunjungan Anda]]></hdl_Title>
+<language><![CDATA[IND]]></language>
+<stf_Accomodation><![CDATA[Accommodation]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[Sydney]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[Attractions]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[Find a travel agent near you]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[Destination Information]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[Events]]></stf_Events>
+<stf_Hire><![CDATA[Hire]]></stf_Hire>
+<stf_Informationservices><![CDATA[Information]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[New South Wales]]></stf_StateFilter>
+<stf_Tours><![CDATA[Tours]]></stf_Tours>
+<stf_Transport><![CDATA[Transport]]></stf_Transport>
+</PlanYourVisit>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[The Rocks]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        Era permulaan narapidana di Sydney terus hidup di The Rocks, perpaduan jalanan batu bulat dan jalan buntu yang dapat dijangkau dalam lima menit dari Circular Quay. Anda hanya perlu melangkah sedikit keluar dari kawasan pelabuhan untuk menemukan teras dan pondok batu pasir serta beberapa pub tertua di Sydney. Kawasan bersejarah ini juga menarik wisatawan dan penduduk setempat dengan museum dan galerinya, pasar akhir pekan yang ramai dan hotel dengan pemandangan pelabuhan. Masa lalu dan masa kini berpadu dengan eloknya di The Rocks, tempat diadakannya wisata berhantu dan sejumlah perayaan paling meriah di Sydney.   
+        <p>Jalanan The Rocks yang terjal  membentang hingga ke sisi barat Circular Quay dan arka baja Jembatan Pelabuhan Sydney yang menakjubkan. Awali penjelajahan dengan mengitari pesisir pelabuhan, mulai dari <a href="http://www.australia.com/campaigns/nothinglike/id/sydney-product9.htm" target="_blank">Opera House</a> yang tersohor di satu sisi hingga tepat di bawah jembatan. Kunjungi Tempat Pengamatan Pylon, atau untuk pemandangan yang lebih mantap lagi, <a href="http://www.australia.com/campaigns/nothinglike/id/sydney-product10.htm" target="_blank">panjat jembatan</a> bersama kelompok terorganisir.  </p>
+        <p>Beberapa pub di sini merupakan pub tertua di <a href="/id/explore/cities/sydney.xml" target="_self">Sydney</a> dan Anda bisa bergabung dalam tamasya jalan kaki untuk mempelajari sejarahnya yang penuh warna. Saksikan pertunjukan musik atau cicipi bir buatan setempat di mana para pelaut, tentara dan buruh pelabuhan berpesta dan menghapus duka lara di tahun 1800-an. Seorang pemandu bisa melukiskan kepada Anda bagaimana kehidupan orang-orang yang berjuang mengatasi penyakit, kemelaratan dan kekejaman ini. Tenggelamkan diri dalam kisah mereka sambil berjalan kaki menjelajahi pub, teras Jalan Playfair yang bersejarah, pergudangan dan pondok pekerja. </p>
+        <p>Sekarang tempat ini menaungi berbagai butik dan galeri elegan, di mana Anda bisa berbelanja cendera mata eksklusif atau melihat karya seniman Australia. Di pasar Sabtu yang ternama, Anda akan menemukan segalanya mulai dari perhiasan bergaya buatan tangan hingga bumbu hidangan khas padang semak yang lezat. Setelah itu coba dengarkan ramalan kartu tarot Anda di sebuah toko buku esoterik atau bersantap siang di toko kue atau kafe dengan pekarangan bergaya kolonial. </p>
+        <p>The Rocks juga menjadi pusat sejumlah daya tarik seni yang paling terkenal di Sydney. Di Walsh Bay yang berada tak jauh, Anda bisa menyaksikan pertunjukan Sydney Theatre Company atau bergabung dalam kelas tari bersama Sydney Dance Company. Yang menghadap ke Circular Quay adalah Museum Seni Kontemporer yang menampilkan pameran mutakhir dari berbagai penjuru Australia dan dunia.  </p>
+        <p>Untuk sebuah pengalaman sejarah, sambangi Justice and Police Museum, yang dulunya merupakan gedung pengadilan yang mengadili para penjahat dari kawasan tepi laut yang gaduh di Sydney. Tengok ke dalam sel-sel tahanan kuno dan coba bayangkan ruang tahanan polisi tahun 1890-an yang telah dipugar.  Untuk mengetahui lebih jauh tentang sisi gelap kota Sydney di era permulaan, bergabunglah dalam wisata berhantu mengitari The Rocks. Dengarkan kisah-kisah mencekam sewaktu Anda berjalan kaki melintasi gang-gang sempit berpenerang lentera.  </p>
+        <p>Para arwah mungkin menyukai jalanan batu bulat ini, akan tetapi Anda lebih berkemungkinan berjumpa dengan wisatawan internasional atau pekerja kantoran yang bersantai di salah satu hotel peninggalan bersejarah. Anda juga bisa bergabung dalam riuhnya keramaian di berbagai perayaan paling akbar di Sydney. Saksikan pertunjukan band dan nikmati suasana <a href="/id/explore/events/australia-day.xml" target="_self">Hari Australia</a> pada tanggal 26 Januari atau saksikan pesta kembang api yang mewarnai langit Pelabuhan Sydney pada <a href="/id/explore/events/nat-new-years-fireworks.xml" target="_self">Malam Tahun Baru</a>. Jangan lewatkan The Rocks, tempat masa lalu dan masa kini Sydney berpadu dengan indahnya.</p>
+    ]]></txt_Information>
+            
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

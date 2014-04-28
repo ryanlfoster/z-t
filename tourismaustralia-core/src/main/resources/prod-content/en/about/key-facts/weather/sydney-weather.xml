@@ -1,0 +1,462 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="15575" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Homepage ]]></headline>
+            <href><![CDATA[/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[About]]></headline>
+            <href><![CDATA[/about.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Weather]]></headline>
+            <href><![CDATA[/about/key-facts/weather.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[Weather in Sydney]]></headline>
+            <href><![CDATA[/about/key-facts/weather/sydney-weather.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/about-weather-sydney.jpg]]></img_background>
+    <hdl_Title><![CDATA[Weather in Sydney]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/about-key-facts-weather-sydney-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/about-key-facts-weather-sydney-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[0]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[0]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[no]]></opt_PartnerLead>
+    <stf_description><![CDATA[Learn about Sydney's weather, climate and average temperatures. Find seasonal activities and events on offer throughout the year.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[Milsons Point, Sydney, NSW. &copy; Steve Back &amp; Destination NSW]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[y]]></stf_IsMobile>
+    <stf_keywords><![CDATA[Sydney weather, Sydney Australia weather, Sydney temperature, Sydney climate]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Learn More]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Sydney Weather, Climate &amp; Temperature - Tourism Australia]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        Find information on temperature, rainfall and seasonal activities to help plan your holiday in Sydney.
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <Listing isTemplate="1">
+<anc_List1><![CDATA[/explore/cities/sydney.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[More Australian Ideas]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/AccommodationSearch.ignore]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/AttractionSearchResults.ignore]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/DestinfoSearchResults.ignore]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/EventsSearch.xml]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/Hire.ignore]]></anc_Hire>
+<anc_Info><![CDATA[/InfoSearchResults.ignore]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/TourSearchResults.ignore]]></anc_Tour>
+<anc_Transport><![CDATA[/Transport.ignore]]></anc_Transport>
+<hdl_Title><![CDATA[Plan Your Visit]]></hdl_Title>
+<language><![CDATA[ENA]]></language>
+<stf_Accomodation><![CDATA[]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[Sydney]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[]]></stf_Events>
+<stf_Hire><![CDATA[]]></stf_Hire>
+<stf_Informationservices><![CDATA[]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[NSW]]></stf_StateFilter>
+<stf_Tours><![CDATA[]]></stf_Tours>
+<stf_Transport><![CDATA[]]></stf_Transport>
+</PlanYourVisit>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Weather in Sydney]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        Sydney enjoys a sunny, Mediterranean-style climate all year round with more than 340 sunny days per year. Summers are warm to hot and winters are mild, with rainfall spread fairly evenly throughout the year. In summer (December - February), average maximum temperatures are around 26&deg;C. It can also be humid at this time with an average humidity of 65 per cent. Average maximum temperatures in the winter months (June-August) are around 16&deg;C. Sydney’s rainfall is highest between March and June. Here you will find some information on temperature, rainfall and seasonal activities to help you plan your holiday in Sydney.
+        <p>Summer (December – February) in <a href="/explore/cities/sydney.xml" target="_self">Sydney</a> means enjoying the great outdoors. January is usually the warmest month in Sydney with an average temperature range of 18.6 – 25.8 &deg;C. It is the time when Australia is on holiday with many heading to the nearby golden beaches such as <a href="/explore/cities/sydney/nsw-manly-beach.xml" target="_self">Manly Beach</a>, <a href="/explore/cities/sydney/nsw-palm-beach.xml" target="_self">Palm Beach</a> and <a href="/explore/cities/sydney/nsw-bondi-beach.xml" target="_self">Bondi Beach</a>. It’s the perfect time of year to explore the harbour on a kayak, luxury boat charter or yacht. Summer is the time to visit for the fireworks over the Sydney Harbour Bridge at the <a href="/explore/events/nat-new-years-fireworks.xml" target="_self">New Year’s Eve Festival</a>; the start of the <a href="/explore/events/syd-hobart-yacht-race.xml" target="_self">Sydney Hobart Yacht Race</a>; and the <a href="/explore/events/australia-day.xml" target="_self">Australia Day festivities</a> on Sydney Harbour. There’s an abundance of world-championship sporting events to attend including golf, tennis, cricket and surfing.</p>
+        <p>Autumn (March – May) is still mild time of year in Sydney and one of the most pleasant times of the year to visit as the humidity is lower. It’s a fine time of year to soak in the natural beauty of the national parks that fringe the city such as <a href="/explore/cities/sydney/sydney-harbour-np.xml" target="_self">Sydney Harbour National Park</a>; Royal National Park; and Kuring-Gai Chase National Park. It’s a good time of year to walk the seven-day Sydney Coastal Walk from Palm Beach to Cronulla. The Sydney Royal Easter Show is held in March-April. The colourful Sydney Festival and <a href="/explore/events/sydney-mardi-gras.xml" target="_self">Sydney Mardi Gras Parade</a> are also held in March.</p>
+        <p>Winter (June – August) is still a perfect time of year for getting out and enjoying Sydney’s many natural attractions. The coolest months are June to August when daytime temperatures rarely fall below 7 &deg;C. The coldest month is July. The whale-watching season along NSW’s east coast runs from May to November. If you’re visiting Sydney in winter make sure you join a whale-watching cruise departing from Circular Quay. Go for a scenic <a href="/explore/cities/sydney/nsw-bondi-bronte.xml" target="_self">coastal walk</a> from Bondi to Coogee, climb the Sydney Harbour Bridge. Don’t miss a National Rugby League (NRL) match played between March and September.</p>
+        <p>Spring (September – November) in Sydney comes alive. The days are warmer but the humidity is not as high as summer. Mean daily temperatures range from 11 - 23&deg;C. Spend the night at ‘Roar and Snore’ at Sydney’s <a href="http://www.australia.com/campaigns/nothinglike/au/sydney-product5.htm" target="_self">Taronga Zoo</a> and hear the animals at their most active. Take a walking tour to discover Sydney’s Aboriginal heritage, or head out on the harbour to discover the history of Sydney Harbour’s islands. Catch a seaplane and take in the whole panorama.</p>
+        <br />
+        <p><strong>Climate Chart</strong></p>
+        <table style="border: #ccc 1px solid;" cellspacing="0" cellpadding="0" width="100%">
+            <tbody>
+                <tr style="background-color: #cccccc;">
+                    <td style="width: 15%;" valign="top">
+                    <p><strong>Temperature</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Jan</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Feb</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Mar</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Apr</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>May</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Jun</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Jul</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Aug</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Sep</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Oct</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Nov</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Dec</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Annual</strong></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border-bottom: #ccc 1px solid; width: 15%; border-right: #ccc 1px solid;" valign="middle">
+                    <p>Mean maximum temperature (&deg;C)</p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">28.4</p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">28.1</p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">26.6</p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">23.9</p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">20.8</p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">18.3 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">17.6</p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">19.5</p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">22.5</p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">24.3 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">25.3 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">27.4</p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%;" valign="middle">
+                    <p style="text-align: center;">23.6 </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 15%; border-right: #ccc 1px solid;" valign="middle">
+                    <p>Mean minimum temperature (&deg;C)</p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">19.3 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">19.4</p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">17.8 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">14.3</p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">11.2</p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">8.9</p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">7.8 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">8.7</p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">11.6 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">13.7</p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">15.8</p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">17.9</p>
+                    </td>
+                    <td style="width: 6.5%;" valign="middle">
+                    <p style="text-align: center;">13.9 </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p style="text-align: right;"><em><span style="font-size: 10px;">Source: Bureau of Meteorology, 2013</span></em></p>
+        <p><strong>Precipitation Chart</strong></p>
+        <table style="border: #ccc 1px solid;" cellspacing="0" cellpadding="0" width="100%">
+            <tbody>
+                <tr style="background-color: #cccccc;">
+                    <td style="width: 15%;" valign="top">
+                    <p><strong>Rainfall</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Jan</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Feb</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Mar</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Apr</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>May</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Jun</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Jul</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Aug</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Sep</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Oct</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Nov</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Dec</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Annual</strong></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 15%; border-right: #ccc 1px solid;" valign="middle">
+                    <p>Mean rainfall (mm)</p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">84.4</p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">109.8</p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">66 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">89.2 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">88.2 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">75.8</p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">63.5 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">56.7</p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">52.7 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">64.9 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">76.2 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">58 </p>
+                    </td>
+                    <td style="width: 6.5%;" valign="middle">
+                    <p style="text-align: center;">884 </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border-bottom: #ccc 1px solid; width: 15%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle">
+                    <p>Decile 5 (median) rainfall (mm)</p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">65.2 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">114.5</p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">52.4 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">65.6 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">61.9</p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">59.1</p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">53.9</p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">30.4 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">48 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">47 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">68.4 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">54.4 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">873 </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 15%; border-right: #ccc 1px solid;" valign="middle">
+                    <p>Mean number of days of rain ≥ 1 (mm)</p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">7.6</p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">7.7 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">7.6</p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">6.9</p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">7.7 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">6.9 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">6.3</p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">4.4 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">5.5</p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">7.1 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">7.8 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">6.8</p>
+                    </td>
+                    <td style="width: 6.5%;" valign="middle">
+                    <p style="text-align: center;">82.3</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p style="text-align: right;"><em><span style="font-size: 10px;">Source: Bureau of Meteorology, 2013</span></em></p>
+    ]]></txt_Information>
+            
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

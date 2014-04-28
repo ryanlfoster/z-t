@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="12003" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Laman Depan]]></headline>
+            <href><![CDATA[/id/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Tentang]]></headline>
+            <href><![CDATA[/id/about.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Layanan darurat]]></headline>
+            <href><![CDATA[/id/about/key-facts/emergency-services.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/about-key-facts-emergency-services.jpg]]></img_background>
+    <hdl_Title><![CDATA[Layanan darurat]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/about-key-facts-emergency-services-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/about-key-facts-emergency-services-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[no]]></opt_PartnerLead>
+    <stf_description><![CDATA[Anda hanya boleh menghubungi 000 dalam keadaan darurat.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[Siluet pepohonan.  &copy; Tourism Australia]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[Layanan Darurat di Australia]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[y]]></stf_IsMobile>
+    <stf_keywords><![CDATA[Layanan darurat; Darurat; Pertolongan; 000]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Baca lebih]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[Layanan Darurat di Australia]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Layanan Darurat di Australia - Pariwisata Australia]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        Anda hanya boleh menghubungi 000 dalam keadaan darurat.
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/id/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/id/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/id/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/id/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/id/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/id/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/id/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/id/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/id/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/id/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/id/Transport.aspx]]></anc_Transport>
+<hdl_Title><![CDATA[Rencanakan Liburan Anda]]></hdl_Title>
+<language><![CDATA[IND]]></language>
+<stf_Accomodation><![CDATA[]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[]]></stf_Events>
+<stf_Hire><![CDATA[]]></stf_Hire>
+<stf_Informationservices><![CDATA[]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[]]></stf_StateFilter>
+<stf_Tours><![CDATA[]]></stf_Tours>
+<stf_Transport><![CDATA[]]></stf_Transport>
+</PlanYourVisit>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Layanan Darurat di Australia]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        000 adalah nomor telepon layanan darurat di Australia. Operator dapat menghubungkan Anda ke Polisi, Ambulans, atau Pemadam Kebakaran.
+        <p>Anda hanya boleh menghubungi 000 dalam keadaan darurat.</p>
+    ]]></txt_Information>
+            
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

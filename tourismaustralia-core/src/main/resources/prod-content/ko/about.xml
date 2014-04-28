@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="11965" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[홈]]></headline>
+            <href><![CDATA[/ko/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[호주 소개]]></headline>
+            <href><![CDATA[/ko/about.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/about-hub.jpg]]></img_background>
+    <hdl_Title><![CDATA[호주 소개]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/about-hub-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/about-hub-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[0]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[1]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[필수 호주 여행 정보를 이곳에서 확인하세요. 호주의 역사, 문화, 음식과 와인, 예술, 훌륭한 자연경관에 이르기까지 다양한 정보를 확인하실 수 있습니다.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[호주에 대해 알아보기]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[y]]></stf_IsMobile>
+    <stf_keywords><![CDATA[호주 소개; 주요 정보; 역사와 문화; 호주 관광명소]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[자세히 보기 ]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[호주에 대해 알아보기]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[호주에 대해 알아보기]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[호주 소개 - 호주에 대해 알아보기]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[
+        <h2>호주에 대해 알아보기</h2>
+        <p>필수 호주 여행 정보를 이곳에서 확인하세요. 호주의 역사, 문화, 음식과 와인, 예술, 훌륭한 자연경관에 이르기까지 다양한 정보를 확인하실 수 있습니다.</p>
+        <p>5만 년 이상 된 풍부한 원주민 역사에서부터 전설적인 위인과 개척자들의 영웅담, 세계적인 영화배우들에 이르기까지 오늘날 활기찬 다문화 국가로 성장한 호주의 모습을 확인해 보세요.</p>
+    ]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        필수 호주 여행 정보를 이곳에서 확인하세요. 호주의 역사, 문화, 음식과 와인, 예술, 훌륭한 자연경관에 이르기까지 다양한 정보를 확인하실 수 있습니다.
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <HubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_Video>
+        <Video isTemplate="1">
+    <headline>Video Example</headline>
+    <anc_Link><![CDATA[]]></anc_Link>
+    <opt_isEmbeded><![CDATA[true]]></opt_isEmbeded>
+    <opt_videoOption><![CDATA[thirdParty]]></opt_videoOption>
+    <stf_CaptionTitle><![CDATA[]]></stf_CaptionTitle>
+    <stf_LinkText><![CDATA[]]></stf_LinkText>
+    <stf_MediaID><![CDATA[27a0704a-b277-46a9-826c-ebf4960463c8]]></stf_MediaID>
+    <stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+    <stf_ViocorpHeight><![CDATA[]]></stf_ViocorpHeight>
+    <stf_ViocorpWidth><![CDATA[]]></stf_ViocorpWidth>
+    <txt_embedCode><![CDATA[]]></txt_embedCode>
+    <txt_VideoDescription><![CDATA[<!--CTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dt-->
+        <h2>Sydney Harbour Experience</h2>
+        <p>There's nothing like a 4WD trip to Chambers pillar to see the terrain the early explorers had to traverse and conquer to open the outback Australia</p>
+        <a  class="more" href="#">Find out more...</a>
+        <p> </p>]]></txt_VideoDescription>
+</Video> 
+    </con_Video>
+</HubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+        <lst_Subpage><![CDATA[<a href="/ko/about/11970.ignore">주요 정보</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/ko/about/11971.ignore">역사와 문화</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/ko/about/11972.ignore">관광명소 및 자연경관</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/ko/about/11986.ignore">Campaigns</a>]]></lst_Subpage>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

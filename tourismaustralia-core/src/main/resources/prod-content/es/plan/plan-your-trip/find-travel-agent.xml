@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="34" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Inicio]]></headline>
+            <href><![CDATA[/es-la/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Planificar]]></headline>
+            <href><![CDATA[/es-la/plan.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Buscar especialista en viajes]]></headline>
+            <href><![CDATA[/es-la/plan/plan-your-trip/find-travel-agent.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/plan-plan-your-trip-find-travel-agent.jpg]]></img_background>
+    <hdl_Title><![CDATA[Buscar especialista en viajes]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/Campaigns/Campaign_ASP_PremierGL_thumb.gif]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[Use un Agente de Viajes Especializado en Australia para reservar vuelos, alojamiento y transporte. Estos han sido capacitados por Tourism Australia.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[travel specialist, travel agent, aussie specialist, australian experiences, planning, tourism australia, travel, adventure, pack, prepare, plan, book, booking, reservation, information]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Mayor informaci&oacute;n]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[Existen miles de estupendas experiencias australianas entre las que puede elegir. Es probable que su agente de viajes y Aussie Specialist ya las haya vivido o planificado. ]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <ASPSearchRHS isTemplate="1">
+    <!-- no user content -->
+</ASPSearchRHS><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/es-la/AccommodationSearch.ignore]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/es-la/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/es-la/AttractionSearchResults.ignore]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/es-la/DestinfoSearchResults.ignore]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/es-la/EventsSearch.xml]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/es-la/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/es-la/hire.ignore]]></anc_Hire>
+<anc_Info><![CDATA[/es-la/InfoSearchResults.ignore]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/es-la/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/es-la/TourSearchResults.ignore]]></anc_Tour>
+<anc_Transport><![CDATA[/es-la/transport.ignore]]></anc_Transport>
+<hdl_Title><![CDATA[Planifique su visita]]></hdl_Title>
+<language><![CDATA[ESS]]></language>
+<stf_Accomodation><![CDATA[]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[]]></stf_Events>
+<stf_Hire><![CDATA[]]></stf_Hire>
+<stf_Informationservices><![CDATA[]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[]]></stf_StateFilter>
+<stf_Tours><![CDATA[]]></stf_Tours>
+<stf_Transport><![CDATA[]]></stf_Transport>
+</PlanYourVisit>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Find a travel specialist near you]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[Who are Aussie Specialists?]]></stf_InformationTitle>
+            <txt_Information><![CDATA[There are thousands of great Australian experiences to choose from. Chances are, your Aussie Specialist Travel Agent has experienced or planned for them before.   <P>Experts on everything Australian, these specialists receive extensive training from Tourism Australia and most have traveled throughout Australia. They have the experience to help you plan and book your Aussie adventure. They know what to pack, what the weather will be like and how to join in with the locals. </P>  <P>So, if you are wondering what it’s like to sail on Sydney Harbour, feel the warmth of the Australian outback, or dive on the Great Barrier Reef, contact an Aussie Specialist and you’ll soon be enjoying your very own Australian experience.</P>]]></txt_Information>
+            
+        </TopCategoryHighlights><TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Buscar especialista en viajes]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[&iquest;Qui&eacute;nes son los Aussie Specialists?]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        Existen miles de estupendas experiencias australianas entre las que puede elegir. Es probable que su agente de viajes y Aussie Specialist ya las haya vivido o planificado. 
+        <p>Expertos en todo lo australiano, estos expertos reciben una vasta formaci&oacute;n de Tourism Australia y la mayor&iacute;a de ellos ya ha recorrido Australia. Ellos son los que tienen la experiencia necesaria para ayudarle a planificar y hacer reservaciones para su aventura australiana. Saben qu&eacute; debe llevarse, c&oacute;mo ser&aacute; el tiempo y c&oacute;mo acercarse a los australianos.</p>
+        <p>De modo que si se est&aacute; preguntando c&oacute;mo ser&aacute; <a href="http://www.australia.com/campaigns/nothinglike/es-la/sydney-product7.htm" target="_blank">navegar en el puerto de S&iacute;dney</a>, sentir la calidez del <a href="/es-la/explore/icons/red-centre.xml" target="_self">Outback australiano</a> o bucear en la <a href="/es-la/explore/icons/great-barrier-reef.xml" target="_self">Gran Barrera de Coral</a>, contacte a un Aussie Specialist y pronto disfrutar&aacute; de Australia sin que le cuenten cuentos.</p>
+    ]]></txt_Information>
+            
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

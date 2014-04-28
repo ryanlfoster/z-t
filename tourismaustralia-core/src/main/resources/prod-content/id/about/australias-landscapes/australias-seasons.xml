@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="9756" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Laman Depan]]></headline>
+            <href><![CDATA[/id/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Tentang]]></headline>
+            <href><![CDATA[/id/about.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Australia musim]]></headline>
+            <href><![CDATA[/id/about/australias-landscapes/australias-seasons.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/about-landscapes-seasonal-australia.jpg]]></img_background>
+    <hdl_Title><![CDATA[Australia musim]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/about-landscapes-seasonal-australia-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/about-landscapes-seasonal-australia-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[no]]></opt_PartnerLead>
+    <stf_description><![CDATA[Temukan mengapa Australia merupakan negara dengan semua musim. Anda bisa melakukan apa saja di sini, kapan pun sepanjang tahun.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[Australia musim]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Pelajari Lebih Lanjut]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Musim Australia - Tourism Australia]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[<SPAN id=result_box class=short_text><SPAN title="" uc="Temukan Australia menampilkan musiman!" tc="Discover Australia’s seasonal showcase!" closure_uid_tkju07="109">Temukan Australia menampilkan musiman!</SPAN></SPAN>]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <PlanYourHolidayBox isTemplate="1">
+    <anc_MoreLink><![CDATA[/id/plan.xml]]></anc_MoreLink>
+    <hdl_Headline><![CDATA[Rencanakan Liburan Anda]]></hdl_Headline>
+    <language><![CDATA[IND]]></language>
+    <opt_IsOnHomepage><![CDATA[]]></opt_IsOnHomepage>
+    <stf_MenuIconClass><![CDATA[]]></stf_MenuIconClass>
+    <stf_More><![CDATA[More]]></stf_More>
+    <stf_PlanYourHolidayTitle><![CDATA[Plan your holiday]]></stf_PlanYourHolidayTitle>
+    <lst_PageLinks>
+        <lst_PageLink>
+            <url><![CDATA[/id/plan/plan-your-trip/find-travel-agent.xml]]></url>
+            <hdl_Title><![CDATA[Cari Pakar Perjalanan Wisata]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/id/plan/plan-your-trip/getting-there.xml]]></url>
+            <hdl_Title><![CDATA[Datang ke Australia]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/id/plan/plan-your-trip/accommodation.xml]]></url>
+            <hdl_Title><![CDATA[Akomodasi]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/id/plan/plan-your-trip/tours.xml]]></url>
+            <hdl_Title><![CDATA[Menemukan paket wisata]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/id/plan/plan-your-trip/specialoffers.xml]]></url>
+            <hdl_Title><![CDATA[Penawaran khusus*]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+    </lst_PageLinks>
+</PlanYourHolidayBox>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Australia musim]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        Australia adalah negara untuk semua musim. Anda dapat melakukan hampir apa pun di sini, pada setiap saat sepanjang tahun. Ada empat musim di sebagian besar negara dan musim basah dan kering di utara tropis.
+        <p>Musim panas di Australia, dari Desember hingga Februari adalah waktu yang tepat untuk mendapatkan di luar ruangan. Berenang pantai Sydney atau mendaki Tasmania Overland Track. Maret sampai Mei musim gugur bentara Australia, musim dari api dedaunan di Canberra dan Formula 1 Grand Prix di Melbourne. Musim dingin Australia, dari bulan Juni hingga Agustus, menawarkan ski salju di pegunungan Alpen Australia. Atau, mengambil liburan musim dingin berjemur. Snorkel di beriklim Great Barrier Reef atau 4WD melalui Australia Selatan Gurun Simpson. Spring in Australia, dari bulan September sampai November adalah waktu untuk menonton ikan paus dan bunga liar ketika Anda menjelajahi winery wilayah Margaret River di Australia Barat.</p>
+        <p>Dalam tropis Australia, musim kemarau dari bulan Mei sampai Oktober memiliki langit biru jernih dan hari-hari cerah. Ini adalah waktu untuk mengalami pasar Darwin hidup outdoor, film dan festival. Desember-Maret adalah musim hujan, yang panas dan lembab dengan badai hujan sehari-hari. Lihat air terjun menderu Litchfield dan Taman Nasional Kakadu atau terbang di atas Katherine Gorge ketika tingkat air paling tinggi.</p>
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Musim Panas Australia Mengundang Anda]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/about-australias-landscapes-australias-seasons-summer-hl.jpg" alt="Musim Panas Australia Mengundang Anda">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Musim Panas Australia Mengundang Anda]]></stf_Caption>
+                    <anc_link><![CDATA[/id/about/australias-landscapes/australias-seasons/summer.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Nikmatilah <a href="/id/about/australias-landscapes/australias-seasons/summer.xml" target="_self">musim panas</a> Australia yang indah sejak Desember hingga Februari. Berjalan-jalanlah menyusuri tebing pantai yang menakjubkan dari <a href="/id/explore/cities/sydney/nsw-bondi-bronte.xml" target="_self">Pantai Bondi di Sydney sampai Bronte</a>. Wisata sehari dari <a href="/id/explore/cities/melbourne.xml" target="_self">Melbourne</a> ke kebun anggur, pantai, taman nasional, padang golf dan spa sepanjang hari di <a href="/id/explore/cities/melbourne/mornington-peninsula.xml" target="_self">Semenanjung Mornington</a>. Cicipi makanan dan anggur Tasmania yang istimewa di pantai <a href="/id/explore/cities/hobart.xml" target="_self">Hobart</a> yang bersejarah atau nikmati wisata kuliner, anggur dan sejarah di Swan Valley, dekat <a href="/id/explore/cities/perth.xml" target="_self">Perth</a>. Nikmati hidangan laut segar di sepanjang garis pantai yang bersih di <a href="/id/explore/states/sa/sa-eyre-peninsula.xml" target="_self">Semenanjung Eyre</a> di Australia Selatan atau saksikan koral berpijah secara massal di <a href="/id/explore/icons/great-barrier-reef.xml" target="_self">Great Barrier Reef</a> Queensland. Alami hujan badai memukau serta tumbuhan berbunga di wilayah tropis Top End. Atau saksikan dari dekat satwa asli Australia dan sejarah kaum Aborigin purba di <a href="/id/explore/states/act/act-nature-reserve.xml" target="_self">Cagar Alam Tidbinbilla</a>, dekat <a href="/id/explore/cities/canberra.xml" target="_self">Canberra</a>. Musim panas di Australia juga merupakan musim pertandingan kriket kelas dunia, <a href="/id/explore/events/australian-open.xml" target="_self">tenis grand slam</a>, <a href="/id/explore/australian-events/music-festivals-events.xml" target="_self">festival musik</a> yang semarak, <a href="/id/explore/events/nat-new-years-fireworks.xml" target="_self">perayaan malam tahun baru</a> dan berbagai <a href="/id/explore/australian-events/culture-events.xml" target="_self">acara budaya</a> di udara terbuka.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Lihat Australia di Musim Gugur]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/about-australias-landscapes-australias-seasons-autumn-hl.jpg" alt="Lihat Australia di Musim Gugur">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Lihat Australia di Musim Gugur]]></stf_Caption>
+                    <anc_link><![CDATA[/id/about/australias-landscapes/australias-seasons/autumn.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Temukan keragaman menakjubkan dari <a href="/id/about/australias-landscapes/australias-seasons/autumn.xml" target="_self">musim gugur di Australia</a> yang berlangsung mulai bulan Maret hingga Mei hampir di seluruh penjuru negeri ini. Tengok langsung pohon-pohon merah-emas di Orange, sebuah desa pusat kuliner dan anggur di sebelah barat kota <a href="/id/explore/cities/sydney.xml" target="_self">Sydney</a>. Jelajahi perkebunan anggur, pedesaan dan hutan-hutan berkabut di <a href="/id/about/australias-landscapes/wine-regions/yarra-valley.xml" target="_self">Yarra Valley</a> Victoria. Anda bisa berpetualang di sepanjang <a href="/id/explore/cities/brisbane/qld-adventure-on-brisbane-river.xml" target="_self">Sungai Brisbane</a> yang permai. Alami kehidupan sebagai seorang penggembala dalam perjalanan ternak melintasi jalur penjelajahan <a href="/id/explore/events/sa-outback-cattle-drive.xml" target="_self">Oodnadatta Track</a> yang bersejarah di Australia Selatan. Arahkan perjalanan Anda ke <a href="/id/explore/states/nt/nt-litchfield-nat-park.xml" target="_self">Taman Nasional Litchfield</a> yang rimbun di Teritorial Utara atau menuju <a href="/id/explore/states/wa/wa-kununurra.xml" target="_self">Kununurra</a> di Australia Barat untuk mengikuti <a href="/id/explore/events/wa-ord-valley-muster.xml" target="_self">Ord Valley Muster</a>. Berarung jeram menyusuri pesisir barat Tasmania yang liar atau memancing ikan dan berkemah di sepanjang <a href="/id/explore/states/act/act-murrumbidgee-corridor.xml" target="_self">Koridor Sungai Murrumbidgee</a>, di dekat Canberra. Banyak kegiatan yang berlangsung selama musim gugur, mulai dari <a href="/id/explore/australian-events/food-wine-events.xml" target="_self">festival kuliner dan anggur</a> hingga pekan fesyen dan <a href="/id/explore/events/vic-australian-grand-prix.xml" target="_self">Grand Prix di Melbourne</a>.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Kunjungi Australia di Musim Dingin]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/about-australias-landscapes-australias-seasons-winter-hl.jpg" alt="Kunjungi Australia di Musim Dingin">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Kunjungi Australia di Musim Dingin]]></stf_Caption>
+                    <anc_link><![CDATA[/id/about/australias-landscapes/australias-seasons/winter.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Selamat datang di <a href="/id/about/australias-landscapes/australias-seasons/winter.xml" target="_self">musim dingin Australia</a>, suatu musim yang begitu beragam layaknya negeri ini. Anda dapat bermain ski dan papan luncur salju di sepanjang lereng <a href="/id/explore/states/vic/vic-snow-play.xml" target="_self">salju Victoria</a> atau snorkeling dan menyelam di perairan hangat Great Barrier Reef di Queensland. Naiki kendaraan gardan ganda menyusuri Gurun Simpson di Australia Selatan atau langsung menuju kawasan pegunungan <a href="/id/explore/icons/blue-mountains.xml" target="_self">Blue Mountains</a> untuk merayakan kemeriahan Natal di sana. Bernapak tilas di <a href="/id/explore/states/wa/wa-wildflowers.xml" target="_self">jalur bunga liar Australia Barat</a>, atau alami langsung budaya festival yang unik di Teritorial Utara. Merapat di depan api unggun <a href="/id/explore/cities/canberra/act-fireside-festival.xml" target="_self">Fireside Festival di Canberra</a> atau rayakan kemeriahan musim dingin di jalan-jalan batu Hobart. Musim dingin juga merupakan musim yang istimewa untuk menjelajahi pantai-pantai kami, di mana Anda dapat <a href="/id/explore/things-to-do/australian-adventure/nat-whalewatching.xml" target="_self">menyaksikan ikan-ikan paus yang sedang bermigrasi</a> atau <a href="/id/explore/things-to-do/australian-adventure/nat-diving.xml" target="_self">menyelam</a> untuk bertemu aneka satwa laut yang menakjubkan.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Jelajahi musim semi Australia]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/about-australias-landscapes-australias-season-spring-hl.jpg" alt="Jelajahi musim semi Australia">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Jelajahi musim semi Australia]]></stf_Caption>
+                    <anc_link><![CDATA[/id/about/australias-landscapes/australias-seasons/spring.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Jelajahi <a href="/id/about/australias-landscapes/australias-seasons/spring.xml" target="_self">musim semi Australia</a>, dari bulan September sampai November di sebagian besar kawasan negeri ini. Di daerah utara kami yang beriklim tropis, ini adalah musim ‘bergerombol’ atau musim pra-monsun.
+        <p>Saksikan Melbourne yang berbenah menyambut Melbourne Cup yang menyedot perhatian seluruh negeri. Nikmati pertunjukan opera, musik jazz, musik blues dan seni pahat di antara kilang-kilang anggur di <a href="/id/explore/states/nsw/hunter-valley.xml" target="_self">Hunter Valley</a>, dekat Sydney. Gabungkan makanan, anggur, kegiatan menyelam dan berselancar di <a href="/id/explore/states/wa/margaret-river.xml" target="_self">Margaret River</a> Australia Barat. Jelajahi puncak-puncak pohon kuno di <a href="/id/explore/states/qld/qld-spring-daintree-forest.xml" target="_self">Hutan Hujan Daintree</a> yang terdaftar sebagai Warisan Dunia di Queensland. Saksikan pertunjukan satwa liar dan bunga liar di <a href="/id/explore/icons/kangaroo-island.xml" target="_self">Pulau Kanguru</a> Australia Selatan atau tangkaplah ikan kakap putih besar pada musim ‘bergerombol’ di Teritorial Utara. Saksikan Canberra yang semarak dengan sejuta bunga mekar musim semi di <a href="/id/explore/events/floriade.xml" target="_self">Floriade</a> atau ikuti perjalanan wisata dari taman-taman bunga yang bermekaran di Tasmania ke tujuan wisata alam yang bersejarah. Di Australia, musim semi juga merupakan musim yang cocok untuk berselancar, berkayak di laut dan berkano.</p>
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+        <lst_Subpage><![CDATA[<a href="/id/about/australias-landscapes/australias-seasons/spring.xml">Jelajahi musim semi Australia</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/id/about/australias-landscapes/australias-seasons/summer.xml">Musim Panas Australia Mengundang Anda</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/id/about/australias-landscapes/australias-seasons/winter.xml">Kunjungi Australia di Musim Dingin</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/id/about/australias-landscapes/australias-seasons/autumn.xml">Lihat Australia di Musim Gugur</a>]]></lst_Subpage>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

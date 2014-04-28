@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="15577" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Inicio]]></headline>
+            <href><![CDATA[/es-la/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Acerca de]]></headline>
+            <href><![CDATA[/es-la/about.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Clima]]></headline>
+            <href><![CDATA[/es-la/about/key-facts/weather.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[El clima en Melbourne]]></headline>
+            <href><![CDATA[/es-la/about/key-facts/weather/melbourne-weather.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/about-weather-melbourne.jpg]]></img_background>
+    <hdl_Title><![CDATA[El clima en Melbourne]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/about-weather-melbourne-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/about-weather-melbourne-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[no]]></opt_PartnerLead>
+    <stf_description><![CDATA[Inf&oacute;rmese sobre el clima, las condiciones meteorol&oacute;gicas y las temperaturas promedio mensuales de Melbourne. Viva las cuatro estaciones en un solo d&iacute;a cuando visite Melbourne y sus alrededores.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[Federation Square, Melbourne (Victoria) &copy; Tourism Victoria]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[y]]></stf_IsMobile>
+    <stf_keywords><![CDATA[temperatura en Melbourne, clima en Melbourne, condiciones meteorol&oacute;gicas en Melbourne]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[M&aacute;s informaci&oacute;n]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Clima, condiciones meteorol&oacute;gicas y temperatura en Melbourne - Tourism Australia]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+      Encuentre informaci&oacute;n sobre la temperatura, las precipitaciones y las actividades de temporada para planificar sus vacaciones en Melbourne.
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <Listing isTemplate="1">
+<anc_List1><![CDATA[/es-la/explore/cities/melbourne.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[M&aacute;s ideas sobre Australia]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/es-la/AccommodationSearch.ignore]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/es-la/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/es-la/AttractionSearchResults.ignore]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/es-la/DestinfoSearchResults.ignore]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/es-la/EventsSearch.xml]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/es-la/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/es-la/hire.ignore]]></anc_Hire>
+<anc_Info><![CDATA[/es-la/InfoSearchResults.ignore]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/es-la/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/es-la/TourSearchResults.ignore]]></anc_Tour>
+<anc_Transport><![CDATA[/es-la/transport.ignore]]></anc_Transport>
+<hdl_Title><![CDATA[Planifique su visita]]></hdl_Title>
+<language><![CDATA[ESS]]></language>
+<stf_Accomodation><![CDATA[]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[Melbourne]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[]]></stf_Events>
+<stf_Hire><![CDATA[]]></stf_Hire>
+<stf_Informationservices><![CDATA[]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[Victoria]]></stf_StateFilter>
+<stf_Tours><![CDATA[]]></stf_Tours>
+<stf_Transport><![CDATA[]]></stf_Transport>
+</PlanYourVisit>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[El clima en Melbourne]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+      El clima de Victoria est&aacute; marcado por una variedad de zonas clim&aacute;ticas distintas, desde regiones c&aacute;lidas y secas en el noroeste, hasta los campos nevados alpinos del noreste. Melbourne se conoce por su clima cambiante y a menudo se dice que ofrece "cuatro estaciones en un d&iacute;a". Generalmente la ciudad disfruta de un clima templado con veranos tibios a calurosos; primaveras y oto&ntilde;os templados y agradables, e inviernos frescos. Las temperaturas alcanzan un promedio de 25 &deg;C en el verano y 14 &deg;C en el invierno. Las lluvias son m&aacute;s abundantes entre mayo y octubre. Aqu&iacute; encontrar&aacute; informaci&oacute;n sobre la temperatura, las precipitaciones y las actividades de temporada para planificar sus vacaciones en Melbourne.
+    <p>
+      Con este clima variable, <a href="/es-la/explore/cities/melbourne.xml" target="_self">Melbourne</a> generalmente es m&aacute;s caluroso de diciembre a febrero (verano), bajan las temperaturas de marzo a mayo (oto&ntilde;o), hace fr&iacute;o de junio a agosto (invierno) y vuelven los d&iacute;as c&aacute;lidos de septiembre a noviembre (primavera). Las temperaturas m&aacute;s altas en Melbourne suelen darse en enero y febrero, una temporada m&aacute;s bien seca y c&aacute;lida, con promedios que fluct&uacute;an entre 15 &deg;C y 26 &deg;C. Las precipitaciones promedio anuales en Melbourne se acercan a los 600 mil&iacute;metros. Junio y julio son los meses m&aacute;s fr&iacute;os y en octubre es la &eacute;poca m&aacute;s h&uacute;meda. Una buena sugerencia es estar preparado para cualquier tipo de condici&oacute;n clim&aacute;tica. Lleve un paraguas y use varias capas de ropa, de modo que se pueda quitar alguna si es necesario.
+    </p><p>
+      En Melbourne se realizan varios de los <a href="/es-la/explore/australian-events/major-events.xml" target="_self">eventos principales de Australia</a> durante el a&ntilde;o. El verano es ideal para los eventos deportivos importantes como el torneo <a href="/es-la/explore/events/australias-grand-slam-tennis.xml" target="_self">Grand Slam Australian Open Tennis</a>, que se lleva a cabo en enero. Durante el verano todos disfrutan al aire libre en las playas de la bah&iacute;a como St. Kilda, y de la refrescante brisa de la tarde en la bah&iacute;a de Puerto Phillip. Es el momento &oacute;ptimo para disfrutar de un partido de golf en el famoso Melbourne Sandbelt.<br />
+      El oto&ntilde;o es una &eacute;poca maravillosa para recorrer los numerosos parques y jardines de Melbourne, cuando las hojas se visten de gloriosos colores. El <a href="/es-la/explore/events/vic-australian-grand-prix.xml" target="_self">Gran Premio de F&oacute;rmula 1™ de Australia</a> se lleva a cabo en marzo. Otros eventos importantes de cocina y moda que tienen lugar en marzo son el Festival de la moda de Melbourne y el <a href="/es-la/explore/events/food-wine-events-new.xml" target="_self">Festival gastron&oacute;mico y del vino de Melbourne</a>. Cada pascua de resurrecci&oacute;n (marzo o abril), leyendas de todo el mundo vienen a participar en la competencia de surf Ripcurl Pro que se realiza en <a href="/es-la/explore/icons/great-ocean-road.xml" target="_self">Great Ocean Road</a>, en la playa de <a href="/es-la/explore/states/vic/vic-torquay.xml" target="_self">Bells</a>.
+    </p><p>
+      En invierno, las temperaturas diarias promedio pueden bajar hasta 7 &deg;C, con una m&aacute;xima promedio de 14 &deg;C. Es una buena ocasi&oacute;n para realizar actividades puertas adentro y explorar las numerosas galer&iacute;as de arte y salas de espect&aacute;culos de Melbourne. Disfrute de un espect&aacute;culo en el Centro de las Artes de Melbourne en Southbank. Descubra una de las exhibiciones m&aacute;s impresionantes del mundo en el Museo de Melbourne y la Galer&iacute;a Nacional de Victoria. El Festival Internacional de Jazz de Melbourne se lleva a cabo en diversos lugares acogedores en junio. Arr&oacute;pese y &uacute;nase a las decenas de miles de habitantes que se emocionan en un partido de la <a href="/es-la/explore/events/afl-events.xml" target="_self">Liga Australiana de F&uacute;tbol</a> (AFL) en el <a href="http://www.australia.com/campaigns/nothinglike/au/melbourne-product6.htm" target="_blank">Melbourne Cricket Ground</a>.
+    </p><p>
+      Durante la primavera, la ciudad cobra vida con el <a href="/es-la/explore/events/melbourne-cup-carnival.xml" target="_self">Carnaval de la Copa de Melbourne</a>, el evento h&iacute;pico m&aacute;s prestigioso de Australia. Esta es tambi&eacute;n la &eacute;poca del a&ntilde;o m&aacute;s adecuada para explorar la regi&oacute;n de los vi&ntilde;edos y spa del <a href="/es-la/about/australias-landscapes/wine-regions/yarra-valley.xml" target="_self">Valle de Yarra</a> y la cordillera Dandenong.
+    </p><br /><p><strong>Tabla del clima</strong></p><table style="border: #ccc 1px solid;" cellspacing="0" cellpadding="0" width="100%"><tbody><tr style="background-color: #cccccc;"><td style="width: 15%;" valign="top"><p><strong>Temperatura</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>Ene</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>Feb</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>Mar</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>Abr</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>May</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>Jun</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>Jul</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>Ago</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>Sep</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>Oct</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>Nov</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>Dic</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>Anual</strong></p></td></tr><tr><td style="border-bottom: #ccc 1px solid; width: 15%; border-right: #ccc 1px solid;" valign="middle"><p>
+              Temperatura m&aacute;xima media (&deg;C)
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               25,9
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               25,8
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               23,9
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               20,3
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               16,7
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              14,1 
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              13,5 
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               15
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               17,2
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              19,7 
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              22 
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               24,2
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%;" valign="middle"><p style="text-align: center;">
+               19,9
+            </p></td></tr><tr><td style="width: 15%; border-right: #ccc 1px solid;" valign="middle"><p>
+              Temperatura m&iacute;nima media (&deg;C)
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              14,3 
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              14,6 
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              13,2 
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               10,8
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              8,7 
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               6,9
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               6
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              6,7 
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              8 
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              9,5 
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              11,2 
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              12,9 
+            </p></td><td style="width: 6.5%;" valign="middle"><p style="text-align: center;">
+               10,2
+            </p></td></tr></tbody></table><p style="text-align: right;"><em><span style="font-size: 10px;">Fuente: Oficina meteorol&oacute;gica, 2013</span></em></p><p><strong>Tabla de precipitaciones</strong></p><table style="border: #ccc 1px solid;" cellspacing="0" cellpadding="0" width="100%"><tbody><tr style="background-color: #cccccc;"><td style="width: 15%;" valign="top"><p><strong>Lluvia</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>Ene</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>Feb</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>Mar</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>Abr</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>May</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>Jun</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>Jul</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>Ago</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>Sep</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>Oct</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>Nov</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>Dic</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>Anual</strong></p></td></tr><tr><td style="width: 15%; border-right: #ccc 1px solid;" valign="middle"><p>
+              Media de precipitaciones (mm)
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               47,3
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              48,1
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               50,4
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               57,3
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               56
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              49,2
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               47,6
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              50,1
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               58
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               66,2
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              60,3
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              59,3
+            </p></td><td style="width: 6.5%;" valign="middle"><p style="text-align: center;">
+              649,6
+            </p></td></tr><tr><td style="border-bottom: #ccc 1px solid; width: 15%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p>
+              Precipitaciones decil 5 (mediana) (mm)
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              36,8
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              33
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               38,8
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              49,8
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              55,2
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               42,7
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              44,4
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               49,2
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              52,9
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               66,4
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              53,7 
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              52 
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              645 
+            </p></td></tr><tr><td style="width: 15%; border-right: #ccc 1px solid;" valign="middle"><p>
+              Promedio de d&iacute;as de lluvia ≥ 1 (mm)
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              5,6 
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               5,1
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               6,1
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               7,9
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               9,7
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               9,5
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              9,8 
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               10,5
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              10,4 
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              10,2 
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              8,3 
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              7,2 
+            </p></td><td style="width: 6.5%;" valign="middle"><p style="text-align: center;">
+               100,3
+            </p></td></tr></tbody></table><p style="text-align: right;"><em><span style="font-size: 10px;">Fuente: Oficina meteorol&oacute;gica, 2013</span></em></p>]]></txt_Information>
+            
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

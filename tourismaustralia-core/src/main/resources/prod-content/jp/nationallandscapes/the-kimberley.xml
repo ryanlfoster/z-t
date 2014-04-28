@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="22259" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[ホーム]]></headline>
+            <href><![CDATA[/jp/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Tools and Campaigns]]></headline>
+            <href><![CDATA[/jp/tools-campaigns.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[オーストラリアを代表する景観]]></headline>
+            <href><![CDATA[/jp/nationallandscapes.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[キンバリー]]></headline>
+            <href><![CDATA[/jp/nationallandscapes/the-kimberley.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/Campaigns/national-landscapes-the-kimberley.jpg]]></img_background>
+    <hdl_Title><![CDATA[キンバリー]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/national-landscapes-the-kimberley-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/Campaigns/national-landscapes-the-kimberley-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[yes]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[キンバリーに行って、本物の感動を味わってください。はるかオーストラリア大陸の北西の端にあり、荒々しい岩の景色、どこまでも続く湖や川、きらめく大海原が広がっていて、その限りない広さが最大の魅力です。]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[1]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[The Kimberley, Kimberley, Gibb River Road,  Bungle Bungles, Dampier Peninsula, Broome,  El Questro Station,  Buccaneer Archipelago,  Ord River,  Geikie Gorge,  Ord River, Lake Argyle,  Windanja Gorge, Tunnel Creek,  Rowley Shoals Marine Park]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[詳細はこちらから]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[オーストラリアを代表する景観：キンバリー - オーストラリア政府観光局]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        キンバリーに行って、本物の感動を味わってください。はるかオーストラリア大陸の北西の端にあり、荒々しい岩の景色、どこまでも続く湖や川、きらめく大海原が広がっていて、その限りない広さが最大の魅力です。
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <StandardCampaignLayout isTemplate="1">
+    <opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+    <hdl_Title><![CDATA[]]></hdl_Title>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+    <con_Banner><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<DIV id=headerimage>
+<SCRIPT type=text/javascript src="../../static/js/jquery.cycle.all.latest.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+jQuery(document).ready(function() {
+jQuery('#headersliderwrapper').cycle({
+        fx:'fade',
+        slideExpr: '.headerslide'
+    });
+});
+</SCRIPT>
+
+<DIV id=headersliderwrapper>
+<DIV class=headerslide><IMG src="../../contentimages/campaigns/header-kim-01.jpg"> 
+<DIV class=headerslideinfo>キンバリー、西オーストラリア州</DIV></DIV>
+<DIV class=headerslide><IMG src="../../contentimages/campaigns/header-kim-02.jpg"> 
+<DIV class=headerslideinfo>クールジャマン・アット・ケープ・レベック、西オーストラリア州</DIV></DIV>
+<DIV class=headerslide><IMG src="../../contentimages/campaigns/header-kim-03.jpg"> 
+<DIV class=headerslideinfo>コックバーン山脈、西オーストラリア州</DIV></DIV>
+<DIV class=headerslide><IMG src="../../contentimages/campaigns/header-kim-04.jpg"> 
+<DIV class=headerslideinfo>ボアブの木</DIV></DIV></DIV></DIV>
+<DIV id=subpage-header-overlay></DIV>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule></con_Banner>
+    <con_Body><TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[キンバリー]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        キンバリーに行って、本物の感動を味わってください。はるかオーストラリア大陸の北西の端に広がっていて、恐竜が生きていた時代から変わらない絶景が楽しめます。荒々しい岩の景色、どこまでも続く湖や川、きらめく大海原が広がっていて、その限りない広さはまさに大自然の恵みです。冒険を楽しんだり、現代まで伝えられてきたアボリジニの文化とふれあったり、環境に配慮した豪華リゾートでキンバリーの信じられないほど色彩豊かな風景や果てしない地平線を眺めてください。遊覧飛行でバングル・バングル（Bungle Bungles）を空から眺めたり、4WDを駆ってギブ・リバー・ロード（Gibb River Road）を走ったり、ダンピア半島（Dampier Peninsula）でアボリジニのコミュニティに泊まってみるのもいいでしょう。野生動物を見たり、宝石を探したり、一帯では芸術活動が盛んなので、絵や工芸品を見てまわることもできます。
+        <p><strong>キンバリーをおすすめする4つの理由</strong></p>
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[1. 本物の感動が味わえ、本物の冒険ができる大地]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-the-kimberley-hl01.jpg" alt="Cable Beach, Broome, WA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Cable Beach, Broome, WA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        キンバリーに広がる太古の大地では、できない冒険はありません。まずはブルーム（Broome）のケーブル・ビーチ（Cable Beach）をラクダの背に揺られて歩いてみてください。次は4WDを駆ってギブ・リバー・ロードをカナナラ（Kununurra）まで疾走しましょう。アーガイル湖（Lake Argyle）やオード川（Ord River）など広大な湖や川で遊覧船に乗ることができます。遊覧飛行でミッチェル高原（Mitchell Plateau）にある大瀑布や世界遺産パヌルル国立公園（Purnululu National Park）にあるバングル・バングルのオレンジと黒の縞模様をした岩肌を空から楽しむのもいいでしょう。またローリー・ショールズ海洋公園（Rowley Shoals Marine Park）ではシュノーケリングやダイビングが楽しめます。キンバリーの海岸にはすばらしいダイビングスポットが他にもたくさんあります。もっと簡単に楽しめる冒険がいいという方には、バッカニア群島（Buccaneer Archipelago）に行く豪華クルーズをおすすめします。水平に流れ落ちる滝、ホリゾンタル・ウォーターホール（Horizontal Waterfalls）や千以上の島々があります。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[2. アボリジニの豊かな文化]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-the-kimberley-hl02.jpg" alt="Cape Leveque, WA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Cape Leveque, WA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        キンバリーの豊かで生き生きとしたアボリジニの文化とふれあうには、実にいろいろな方法があります。ダンピア半島でアボリジニの伝統的なコミュニティで宿泊して、現地のガイドの案内でカヤックやシュノーケリング、マッドクラブ採り、釣りなどを楽しんでください。アウトバックではアボリジニが所有する牧牛場に行きましょう。ブッシュ・タッカー（アボリジニの伝統食）を味わったり、牛追いの方法を習ったり、ドリームタイムの伝説を聞くことができます。伝統的土地所有者のアボリジニといっしょに、ゲイキー渓谷（Geikie Gorge）やキング・ジョージ・フォールズ（King George Falls）などの聖なる場所を見学しましょう。ドライズデール国立公園（Drysdale National Park）や陸の孤島ミッチェル高原（Mitchell Plateau）で、古代の壁画が描かれた岩棚を見学するのもいいでしょう。ミッチェル高原では古代の精霊グィオン・グィオン（Gwion Gwion）の絵を見ることができます。またブルームやダービー、カナナラでギャラリーに行けば、地元に住む有名な現代芸術作家の作品を見ることができます。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[3. 多種多様な野生動物]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-the-kimberley-hl03.jpg" alt="Monitoring turtles, Eco Beach, WA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Monitoring turtles, Eco Beach, WA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        キンバリーは野鳥や野生動物、海洋生物、古代爬虫類の宝庫です。少し冒険をして主要道路から離れた場所まで行くか、保護区域内やエサ場を巡るツアーに参加すれば、その姿を目にすることができます。またオード川（Ord River）を船に乗って走ると、イリエワニやイワワラビー、さらには数え切れない種類の野鳥の姿が見られます。ウィンジャナ渓谷（Windjana Gorge）やトンネル・クリーク（Tunnel Creek）周辺でも、ワニがひなたぼっこをしています。ブルームのローバック湾（Roebuck Bay）も見逃せません。ここは野鳥の楽園で、9月から翌4月までは多数の渡り鳥が羽を休めます。その他、ウィンダム（Wyndham）の近くにあるパリース・ラグーン自然保護区（Parrys Lagoon Nature Reserve）やマルグ・ビラボン（Marlgu Billabong）も、バードウォッチャーにはたまらない場所です。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[4. ダイヤモンド、真珠、環境に配慮した保養施設]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-the-kimberley-hl04.jpg" alt="Pearl Lugger, cable beach, WA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Pearl Lugger, cable beach, WA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        ダイヤモンドと真珠の価値や美しさについては、今さら何も言う必要はないでしょう。いずれもキンバリー地方の特産品です。ブルーム（Broome）に行ったら、ぜひ南洋真珠を買ったり、チャイナ・タウンや日本人墓地に行ったりして、真珠採取の歴史を偲んでください。広大なアーガイル・ダイヤモンド鉱山も必見の場所です。珍しいピンク・ダイヤモンドを産出するのは、世界の中でもほとんどここだけです。キンバリーは自然の中でぜいたくを楽しみながら環境について考えるのにぴったりの場所でもあります。ダンピア半島に豪華なキャンプをしに行ったり、ギブ・リバー・ロードを離れて少し寄り道をして、ぜいたくなエコ・キャビンに泊まったりしてください。
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights></con_Body>
+    <con_RHSModules><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<TABLE cellSpacing=0 cellPadding=0 width=298 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top align=center>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD style="WIDTH: 25px"></TD>
+<TD><!-- #BeginLibraryItem "/Library/sitenav.lbi" -->
+<SCRIPT language=JavaScript1.2 type=text/javascript src="../../static/js/stmenu.js"></SCRIPT>
+<!-- #EndLibraryItem --></TD></TR></TBODY></TABLE><!-- Google Map Start -->
+<SCRIPT type=text/javascript>
+function fireEvent(obj,evt){
+var fireOnThis = obj;
+if( document.createEvent ) {
+var evObj = document.createEvent('MouseEvents');
+ evObj.initEvent( evt, true, false );
+fireOnThis.dispatchEvent(evObj);
+} else if( document.createEventObject ) {
+fireOnThis.fireEvent('on'+evt);
+}
+}
+function clickLink(linkobj) {
+     if (linkobj.getAttribute('onclick') == null) {
+ if (linkobj.getAttribute('href')) document.location = linkobj.getAttribute('href');
+     }
+     else linkobj.onclick();
+}
+function loadjscssfile(filename, filetype){
+ if (filetype=="js"){ //if filename is a external JavaScript file
+  var fileref=document.createElement('script')
+  fileref.setAttribute("type","text/javascript")
+  fileref.setAttribute("src", filename)
+ }
+ else if (filetype=="css"){ //if filename is an external CSS file
+  var fileref=document.createElement("link")
+  fileref.setAttribute("rel", "stylesheet")
+  fileref.setAttribute("type", "text/css")
+  fileref.setAttribute("href", filename)
+  fileref.setAttribute("media", "print")
+ }
+ if (typeof fileref!="undefined")
+  document.getElementsByTagName("head")[0].appendChild(fileref)
+}
+                  </SCRIPT>
+
+<SCRIPT type=text/javascript>
+var icheckk=0;
+jQuery.each(jQuery.browser, function(i, val) {
+if(i=="msie" && jQuery.browser.version.substr(0,3)=="7.0")
+icheckk=1;
+});
+function myfun()
+{
+loadjscssfile("../../static/css/thickbox.css", "css");
+if(icheckk==1)
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='../../static/maps/jp/thekimberley/bigmap.html'  target='_blank'>&nbsp;印刷|クローズ|&nbsp;またはEscキーを押して</a></b>","../../static/maps/jp/thekimberley/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+else
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='javascript:window.print()' >&nbsp;印刷|クローズ|&nbsp;またはEscキーを押して</a></b>","../../static/maps/jp/thekimberley/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+}
+         </SCRIPT>
+<IFRAME style="MARGIN-BOTTOM: 20px; BORDER-TOP: black 1px solid; HEIGHT: 355px; BORDER-RIGHT: black 1px solid; BORDER-BOTTOM: black 1px solid; FLOAT: left; PADDING-BOTTOM: 5px; BORDER-LEFT: black 1px solid; BACKGROUND-COLOR: #333333" height=380 src="../../static/maps/jp/thekimberley/index.html" frameBorder=0 width=249 name=FRAMENAME scrolling=no></IFRAME><!-- Google Map end -->
+<DIV class=subpage-video-thumb style="TEXT-ALIGN: left"><A onclick="moduleTrackingWithTitle('lightbox-video','',false,'nationallandscapes-thekimberleyjp');" href="#" data-reveal-id="modalVideo"><IMG alt="" src="/contentimages/Campaigns/national-landscapes-video-jp.jpg"></A> </DIV>
+<DIV id=modalVideo class="reveal-modal video" style-="z-index: 103;"><A class=close-reveal-modal><SPAN class=icon></SPAN></A>
+<DIV class=video style="VISIBILITY: visible !important"><IFRAME height=315 src="//www.youtube.com/v/EjGZ3MaX9pE?version=3&amp;hl=en_GB" frameBorder=0 width=560></IFRAME></DIV></DIV></TD></TR></TBODY></TABLE>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule><Listing isTemplate="1">
+<anc_List1><![CDATA[/jp/explore/itineraries/wa-3days-broome.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[その他の観光情報]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/jp/AccommodationSearch.ignore]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/jp/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/jp/AttractionSearchResults.ignore]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/jp/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/jp/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/jp/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/jp/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/jp/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/jp/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/jp/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/jp/Transport.aspx]]></anc_Transport>
+<hdl_Title><![CDATA[旅行プランを立てる]]></hdl_Title>
+<language><![CDATA[JPN]]></language>
+<stf_Accomodation><![CDATA[寝台を予約します]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[KIMBERLEY]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[アトラクション]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[近くで旅行代理店を見つけてください          ]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[目的地の情報]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[プロジェクト]]></stf_Events>
+<stf_Hire><![CDATA[賃貸]]></stf_Hire>
+<stf_Informationservices><![CDATA[情報サービス]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[Western Australia]]></stf_StateFilter>
+<stf_Tours><![CDATA[旅行]]></stf_Tours>
+<stf_Transport><![CDATA[交通機関]]></stf_Transport>
+</PlanYourVisit></con_RHSModules>
+    <con_Category></con_Category>
+    <lst_Subpages>
+    </lst_Subpages>
+</StandardCampaignLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

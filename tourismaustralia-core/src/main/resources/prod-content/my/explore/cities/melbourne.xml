@@ -1,0 +1,415 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="7171" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Laman Utama]]></headline>
+            <href><![CDATA[/my/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Jelajahi]]></headline>
+            <href><![CDATA[/my/explore.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Melbourne]]></headline>
+            <href><![CDATA[/my/explore/cities/melbourne.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/explore-cities-melbourne.jpg]]></img_background>
+    <hdl_Title><![CDATA[Melbourne]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/explore-cities-melbourne-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/explore-cities-melbourne-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[no]]></opt_PartnerLead>
+    <stf_description><![CDATA[Terokai Melbourne, hab sukan, gaya dan budaya Australia. Nikmati bandar ini, dari St Kilda Beach hingga ke Great Ocean Road yang menakjubkan.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[y]]></stf_IsMobile>
+    <stf_keywords><![CDATA[Melbourne Australia, pelancongan Melbourne]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[ketahui lebih lanjut]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Melbourne, Australia, Tarikan - Tourism Australia]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[Dapati segala yang anda ingin tahu mengenai Melbourne di Australia, ibu negeri Victoria dan hab penuh bersemangat bagi gaya, sukan, budaya dan makanan.&nbsp;]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <IntegratedMiniMap isTemplate="1">
+    <!-- no user content -->
+</IntegratedMiniMap><TravellersStoryWidget isTemplate="1">
+    <anc_link><![CDATA[/explore/map.aspx?filters=cities,experiences&zoom=9&centre=-38.376102,145.459612]]></anc_link>
+    <img_image><![CDATA[/contentimages/cities-Melbourne.jpg]]></img_image> 
+</TravellersStoryWidget><AtaGlance isTemplate="1">
+<hdl_Title><![CDATA[Bandar-bandar di Australia]]></hdl_Title>
+<img_Map><![CDATA[]]></img_Map>
+<stf_Title1><![CDATA[]]></stf_Title1>
+<stf_Title2><![CDATA[]]></stf_Title2>
+<stf_Title3><![CDATA[]]></stf_Title3>
+<stf_Title4><![CDATA[]]></stf_Title4>
+<stf_Title5><![CDATA[]]></stf_Title5>
+<txt_Description1><![CDATA[
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tbody>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/my/explore/cities/cities.xml" target="_self">Bandar raya Australia</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/my/explore/cities/sydney.xml" target="_self">Sydney</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/my/explore/cities/melbourne.xml" target="_self">Melbourne</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/my/explore/cities/brisbane.xml" target="_self">Brisbane</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/my/explore/cities/perth.xml" target="_self">Perth</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/my/explore/cities/darwin.xml" target="_self">Darwin</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/my/explore/cities/adelaide.xml" target="_self">Adelaide</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/my/explore/cities/hobart.xml" target="_self">Hobart</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/my/explore/cities/canberra.xml" target="_self">Canberra</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/my/explore/cities/gold-coast.xml" target="_self">Gold Coast</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/my/explore/cities/cairns.xml" target="_self">Cairns</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/my/explore/cities/alice-springs.xml" target="_self">Alice Springs</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/my/explore/cities/broome.xml" target="_self">Broome</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/my/explore/cities/regional-cities.xml" target="_self">Bandaraya serantau Australia</a></p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <br />
+    ]]></txt_Description1>
+<txt_Description2><![CDATA[]]></txt_Description2>
+<txt_Description3><![CDATA[]]></txt_Description3>
+<txt_Description4><![CDATA[]]></txt_Description4>
+<txt_Description5><![CDATA[]]></txt_Description5>
+</AtaGlance><Listing isTemplate="1">
+<anc_List1><![CDATA[/my/explore/states/vic.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[Idea Australia selanjutnya]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/my/AccommodationSearch.ignore]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/my/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/my/AttractionSearchResults.ignore]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/my/DestinfoSearchResults.ignore]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/my/EventsSearch.xml]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/my/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/my/hire.ignore]]></anc_Hire>
+<anc_Info><![CDATA[/my/InfoSearchResults.ignore]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/my/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/my/TourSearchResults.ignore]]></anc_Tour>
+<anc_Transport><![CDATA[/my/transport.ignore]]></anc_Transport>
+<hdl_Title><![CDATA[Plan your visit to Melbourne]]></hdl_Title>
+<language><![CDATA[MSL]]></language>
+<stf_Accomodation><![CDATA[Accommodation]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[Melbourne Area]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[Attractions]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[Find a travel agent near you]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[Destination Information]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[Events]]></stf_Events>
+<stf_Hire><![CDATA[Hire]]></stf_Hire>
+<stf_Informationservices><![CDATA[Information Services]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[Victoria]]></stf_StateFilter>
+<stf_Tours><![CDATA[Tours]]></stf_Tours>
+<stf_Transport><![CDATA[Transport]]></stf_Transport>
+</PlanYourVisit>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Melbourne]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[Dapati segala yang anda ingin tahu mengenai Melbourne di Australia, ibu negeri Victoria dan hab penuh bersemangat bagi gaya, sukan, budaya dan makanan.&nbsp; <BR>&nbsp;<BR>Rancang percutian Melbourne anda menggunakan jadual perjalanan tiga hari, termasuk tarikan budaya Melbourne, Yarra River dan St Kilda Beach.&nbsp; Ketahui lebih lanjut mengenai tarikan Victoria yang anda boleh kunjungi dari Melbourne, dan perjalanan hebat yang anda boleh lakukan.&nbsp; Pandu di Great Ocean Road ke Twelve Apostles dan pantai luncur Victoria bertaraf dunia.&nbsp; Cabar diri anda di atas Great Alpine Walk atau pandu di atas Great Alpine Road melalui Banjaran Alp Australia dan Gippsland.&nbsp; <BR>&nbsp;<BR>Ketahui mengenai bandar raya Australia yang lain dan dapatkan idea mengenai percutian Australia anda yang selebihnya.&nbsp; Dari Melbourne, anda boleh terbang atau menaiki feri ke Tasmania, pandu di atas laluan Pacific Coastal ke Sydney atau sepanjang Great Ocean Road ke Adelaide. <BR>&nbsp;<BR>Akhirnya, padankan rancangan perjalanan Melbourne anda dengan acara terkemuka di seluruh dunia, seperti Australian Grand Prix, Australian Open Tennis atau Melbourne Cup.&nbsp; <BR>
+<P></P>]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Melbourne dan sekitarnya]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-cities-melbourne-melbourne-hl.jpg" alt="Melbourne dan sekitarnya">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Melbourne dan sekitarnya]]></stf_Caption>
+                    <anc_link><![CDATA[/my/explore/cities/melbourne/melbourne-surrounds.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Melbourne terdiri daripada laluan lorong sesat yang tersembunyi, bar mewah, <a href="http://www.australia.com/campaigns/nothinglike/my/melbourne-product4.htm" target="_blank">restoran eksklusif</a> dan butik di luar jalan biasa. Di sini anda boleh menyelami budaya, menyertai pelbagai aktiviti sukan, merasa pelbagai makanan yang lazat serta mencuba wain, menari hingga fajar menyingsing atau bersiar-siar di taman dan jalan-jalannya yang berhias dengan tanaman rimbun. Lawat Federation Square, ruang budaya mercu tanda bandaraya ini dan nikmati bir sambil menyaksikan matahari terbenam di persiaran St Kilda. Membeli-belah sakan di Brunswick Street yang funki atau Chapel Street dengan kedai-kedai berkelas tinggi. Berjalan-jalan ke kafe, bistro dan bar di Southbank dan lihatlah pelbagai juadah dari seluruh dunia di Carlton, Richmond dan Fitzroy. Sertai Aboriginal Heritage Walk melalui Royal Botanic Garden dan bersorak beramai-ramai di <a href="http://www.australia.com/campaigns/nothinglike/my/melbourne-product6.htm" target="_blank">Melbourne Cricket Ground</a>.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Tiga hari hebat di Melbourne]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-itineraries-three-great-days-melbourne-hl.jpg" alt="Tiga hari hebat di Melbourne">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Tiga hari hebat di Melbourne]]></stf_Caption>
+                    <anc_link><![CDATA[/my/explore/itineraries/vic-3days-melbourne.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Tidak sempat tidur di Melbourne, bandar raya yang mampu memenuhi cita rasa semua, baik pencinta kebudayaan, peminat sukan, penggemar fesyen, mahupun mereka yang meminati pelbagai makanan.  Temui kafe, bar, dan butik di lorong-lorong bandar yang tersorok daripada jalan raya yang begitu teratur.  Nikmati sepenuhnya ambien tepi sungai dari Southbank dan kunjungi Federation Square, titik pertemuan budaya kreatif dan kafe bertemu.  Layari sepanjang Yarra dan merayau santai padang menghijau dan tasik-tasik di Royal Botanic Gardens (Taman Botani Diraja).  Serap sepenuhnya tenaga unik bandar raya pelbagai presint berbeza, dari South Yarra yang berkelas tinggi hinggalah ke pesisir pantai St Kilda dan pinggir bandar Fitzroy.  Kemudian luangkan sehari untuk berjalan ke pantai, kilang wain, galeri dan balapan golf di Semenanjung Mornington.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Lorong tersembunyi Melbourne]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-cities-melbourne-hidden-laneways-hl.jpg" alt="Lorong tersembunyi Melbourne">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Lorong tersembunyi Melbourne]]></stf_Caption>
+                    <anc_link><![CDATA[/my/explore/cities/melbourne/melbourne-hidden-laneways.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Anda tidak akan tahu apa yang tersembunyi bila anda berjalan keluar daripada grid jalan raya di bandar raya Melbourne ke dalam <a href="/my/explore/cities/melbourne/melbourne-hidden-laneways.xml" target="_self">selirat lorong gelap</a> di belakangnya. Warga tempatan sendiri pun pasti menemui kejutan di sini, di mana tempat makanan, fesyen dan seni adalah kecil, pelik dan kadangkala tersembunyi. Terokai bar jaz lewat malam atau saksikan dunia berlalu dari trattoria kecil, menjamu mata di butik dan lihat seni bandar. Anda boleh menemui rahsia sebenar bandar raya ini di jalan-jalan Melbourne yang amat berbeza.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Kehidupan di atas bumbung Melbourne]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-cities-melbourne-rooftop-culture-hl.jpg" alt="Kehidupan di atas bumbung Melbourne">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Kehidupan di atas bumbung Melbourne]]></stf_Caption>
+                    <anc_link><![CDATA[/my/explore/cities/melbourne/melbourne-rooftop-culture.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Untuk penggunaan ruang bandar yang berdaya cipta, jangan pandang lebih jauh dari Melbourne, di mana bar, panggung wayang dan restoran beroperasi <a href="/my/explore/cities/melbourne/melbourne-rooftop-culture.xml" target="_self">di atas bumbung</a> setiap musim panas. Hirup pemandangan indah kaki langit bandar raya ini dari semua sudut sambil anda mendengar muzik secara live, bersantai di bar atas anjung dan menonton wayang berbumbungkan bintang. Gabungkan inovasi moden dengan keanggunan era zaman dahulu, tempat-tempat di atas bumbung yang semakin meningkat di Melbourne paling sesuai untuk meluangkan waktu tengah hari dan petang secara santai pada musim panas. Ramai juga yang menukarkannya kepada ruang tertutup supaya mereka boleh mencerap pemandangan bandar tanpa mengira musim.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Bohemian Brunswick Street]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-cities-melbourne-brunswick-hl.jpg" alt="Bohemian Brunswick Street">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Bohemian Brunswick Street]]></stf_Caption>
+                    <anc_link><![CDATA[/my/explore/cities/melbourne/vic-brunswick.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Find art, fashion and food on Melbourne’s Soho strip. Boredom isn’t an option on Brunswick Street, the vibrant Melbourne strip where people from all walks of life go to shop, eat, drink, meet and dance.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Federation Square, Victoria]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-cities-melbourne-fed-square-hl.jpg" alt="Federation Square, Victoria">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Federation Square, Victoria]]></stf_Caption>
+                    <anc_link><![CDATA[/my/explore/cities/melbourne/fed-square.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Federation Square adalah tempat perjumpaan di Melbourne. Ia adalah kawasan budaya yang unik yang menemukan campuran tarikan yang kreatif, muzium dan galeri, di samping pelbagai restoran, kafe dan bar.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[St Kilda, Victoria]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-icon-stkilda-hl.jpg" alt="St Kilda, Victoria">]]></img_MainImage>
+                    <stf_Caption><![CDATA[St Kilda, Victoria]]></stf_Caption>
+                    <anc_link><![CDATA[/my/explore/cities/melbourne/st-kilda.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Hanya enam kilometer dari kawasan pusat perdagangan, St Kilda merupakan taman permainan di tepi pantai bandar Melbourne. St. Kilda adalah sebahagian daripada City of Port Phillip yang termasuk pinggir bandar Port Melbourne dan South Melbourne.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Spring Racing Carnival di Melbourne]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-events-vic-spring-racing-hl.jpg" alt="Spring Racing Carnival di Melbourne">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Spring Racing Carnival di Melbourne]]></stf_Caption>
+                    <anc_link><![CDATA[/my/explore/events/vic-spring-racing.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Australia mungkin terhenti kerana Melbourne Cup tetapi selama <a href="/my/explore/events/vic-spring-racing.xml" target="_self">Spring Racing Carnival</a> diadakan, tidak seorang pun di Melbourne akan duduk diam.  Pelbagai acara lumba kuda, fesyen dan keseronokan ini bermula pada bulan September dan hanya berakhir pada pertengahan bulan November.  Flemington Racecourse merupakan pentas bagi perlumbaan terkenal seperti Derby Day, Melbourne Cup, Oaks Day tapi semua trek di seluruh negeri adalah sebahagian daripada aksi perlumbaan ini.  Anda tidak perlu tahu apa-apa tentang perlumbaan ini untuk menyukai tradisi sosial penuh gemilang ini yang mengumumkan tibanya musim bunga dengan cuacanya yang cerah dan terang di Melbourne.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[The Australian Grand Prix, Melbourne]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-events-vic-grand-prix-hl.jpg" alt="The Australian Grand Prix, Melbourne">]]></img_MainImage>
+                    <stf_Caption><![CDATA[The Australian Grand Prix, Melbourne]]></stf_Caption>
+                    <anc_link><![CDATA[/my/explore/events/vic-australian-grand-prix.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Di Melbourne, anda tidak harus ketinggalan daripada menyaksikan <a href="/my/explore/events/vic-australian-grand-prix.xml" target="_self">Australian Grand Prix</a>, yang mengambil alih Albert Park selama empat hari pada bulan Mac. Anda akan mendengar deruman enjin kereta lumba Formula One elit merentasi bandar raya ini. Di litar yang dibina khas, saksikan pemandu terpantas di dunia bergegar melepasi anda pada kelajuan sehingga 300km sejam. Saksikan perlumbaan V8 Supercar Australia atau lihat model kereta mewah seperti Ferrari, Porsche dan Lotus pada kelajuan tertinggi. Di luar litar, anda boleh mengunjungi pelbagai bar, menari di pesta muzik atau saksikan konsert rock selepas perlumbaan. Pada bulan Mac, Melbourne turut menjadi hos kepada berbagai-bagai acara yang mengujakan. Ini bermakna, anda juga boleh berkunjung dari trek lumba bandar raya ke restoran dan taman bunga.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Grand Slam Australia Tenis Musim Panas]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-events-summer-tennis-hl.jpg" alt="Grand Slam Australia Tenis Musim Panas">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Grand Slam Australia Tenis Musim Panas]]></stf_Caption>
+                    <anc_link><![CDATA[/my/explore/events/australias-grand-slam-tennis.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Nikmati bulan Januari di Australia dengan sesi bersama gergasi tenis sedunia. Mulakan tahun baru dengan menonton lapan pasangan lelaki dan wanita yang hebat bertanding dalam Perth’s Hopman Cup. Lihat pemain antarabangsa menyediakan diri untuk Terbuka Australia di Brisbane dan Hobart yang bersejarah. Dapatkan tempat duduk untuk menyaksikan tenis hebat di Apia International di Sydney Olympic Park. Saksikan pemain lelaki, wanita dan bergu bertanding dalam Terbuka Australia di Melbourne, <a href="/my/explore/events/australias-grand-slam-tennis.xml" target="_self">Grand Slam</a> pertama setiap tahun, pada hujung Januari. Di luar gelanggang, nikmati pelbagai hiburan langsung dan gaya hidup musim panas bandaraya Australia yang cukup bertenaga.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Australian Football League]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-events-afl-football-league-hl.jpg" alt="Australian Football League">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Australian Football League]]></stf_Caption>
+                    <anc_link><![CDATA[/my/explore/events/afl-events.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Australia ialah sebuah negara sekular, tetapi cara paling tepat untuk menggambarkan suasana semasa permainan bola sepak ala Australia atau <a href="/my/explore/events/afl-events.xml" target="_self">AFL</a> – di Melbourne adalah keghairahan beragama. Inilah tempat lahirnya sukan ini, para pemainnya menjadi hero tempatan dan pasukan-pasukannya mempunyai penyokong yang berpuak-puak. Namun bukan warga Melbourne sahaja yang menggilai sukan dan permainan bola bujur ini. Hari ini AFL adalah liga sukan yang paling ramai peminat, dengan penyokong pasukan yang amat bersemangat di Sydney, Adelaide, Perth dan Brisbane.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Semenanjung Mornington, tempat percutian musim panas Melbourne]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-cities-melbourne-mornington-peninsula-hl.jpg" alt="Semenanjung Mornington, tempat percutian musim panas Melbourne">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Semenanjung Mornington, tempat percutian musim panas Melbourne]]></stf_Caption>
+                    <anc_link><![CDATA[/my/explore/cities/melbourne/mornington-peninsula.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Hidup memang sangat mudah di <a href="/my/explore/cities/melbourne/mornington-peninsula.xml" target="_self">Semenanjung Mornington</a>, syurga musim panas yang dipenuhi dengan perkampungan tepi pantai, ladang anggur, pantai, taman negara, galeri, padang golf, spa siang dan restoran.  Menawarkan suasana romantik, persantaian, kesukaan dan kembara, adalah mudah untuk melihat mengapa penduduk Melbourne sangat menyukai tempat ini untuk melepas diri sepanjang minggu atau hujung minggu.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Terokai Yarra Valley, Victoria]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/about-australias-landscapes-wine-regions-vic-escape-to-yarra-valley-hl.jpg" alt="Terokai Yarra Valley, Victoria">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Terokai Yarra Valley, Victoria]]></stf_Caption>
+                    <anc_link><![CDATA[/my/about/australias-landscapes/wine-regions/yarra-valley.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Dalam kesibukan hari ini, lawatan ke <a href="/my/about/australias-landscapes/wine-regions/yarra-valley.xml" target="_self">Yarra Valley</a> adalah ibarat satu perjalanan ke zaman silam. Perjalanan berkereta  mengambil masa kurang sejam dari Melbourne ke ladang wain daerah, perkampungan dan hutan yang diselaputi kabus. Rasailah wain di Yarra Glen dan minum teh Devonshire di Dandenong Ranges. Habiskan masa menikmati hidangan tengah hari di restoran pembuat wain atau berkelah di tepi air terjun dengan makanan hasil tempatan. Lalui Sherbrook Forest dengan menaiki keretapi stim atau terapung tinggi di atas kawasan desa dalam belon udara panas.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Tiga minggu dari Melbourne]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-itineraries-three-weeks-from-melbourne-hl.jpg" alt="Tiga minggu dari Melbourne">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Tiga minggu dari Melbourne]]></stf_Caption>
+                    <anc_link><![CDATA[/my/explore/itineraries/vic-3weeks-melbourne.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Gabungkan Melbourne, Hobart dan Adelaide dengan pantai, ladang anggur dan hutan belantara yang tersenarai dalam Warisan Dunia <a href="/my/explore/itineraries/vic-3weeks-melbourne.xml" target="_self">dalam pengembaraan melalui tenggara Australia</a>.  Dari Melbourne, anda boleh bertemu dengan hidupan liar di Phillip Island dan melawat ladang anggur di Yarra Valley serta menjelajah padang golf dan makanan serta wain di Mornington Peninsula.  Dari Hobart, <a href="/my/explore/icons/tas-wilderness.xml" target="_self">taman negara yang segar di Tasmania</a> semuanya senang dilawati.  Kelilingi pulau ini dan berhenti di Freycinet National Park, Bay of Fires Walk atau Cradle Mountain - Lake St Clair National Park.
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+        <lst_Subpage><![CDATA[<a href="/my/explore/cities/melbourne/fed-square.xml">Federation Square, Victoria</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/my/explore/cities/melbourne/st-kilda.xml">St Kilda, Victoria</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/my/explore/cities/melbourne/melbourne-surrounds.xml">Melbourne dan sekitarnya</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/my/explore/cities/melbourne/melbourne-hidden-laneways.xml">Lorong tersembunyi Melbourne</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/my/explore/cities/melbourne/melbourne-rooftop-culture.xml">Kehidupan di atas bumbung Melbourne</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/my/explore/cities/melbourne/vic-brunswick.xml">Brunswick Street dengan ciri Bohemia </a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/my/explore/cities/melbourne/mornington-peninsula.xml">Mornington Peninsula</a>]]></lst_Subpage>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

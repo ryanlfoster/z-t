@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="22241" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[首頁]]></headline>
+            <href><![CDATA[/zht/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Tools and Campaigns]]></headline>
+            <href><![CDATA[/zht/tools-campaigns.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[澳洲國家地貌]]></headline>
+            <href><![CDATA[/zht/nationallandscapes.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[大藍山地區]]></headline>
+            <href><![CDATA[/zht/nationallandscapes/greater-blue-mountains.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/Campaigns/national-landscapes-greater-blue-mountains.jpg]]></img_background>
+    <hdl_Title><![CDATA[大藍山地區]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/national-landscapes-greater-blue-mountains-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/Campaigns/national-landscapes-greater-blue-mountains-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[yes]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[追循那段與南澳州最大山脈土地一樣古老的故事。雄偉的弗林德斯山脈延綿430公里，跨越三座國家公園。]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[藍山，悉尼藍山，新南威爾斯州藍山，藍山國家公園，溫特伍斯瀑布，三姐妹峰，珍羅蘭山洞，六呎路徑，卡通巴，澳洲卡通巴，沃勒米，藍山原住民，澳洲布萊克希斯，悉尼山區，美加龍谷，魯拉，藍山火車，藍山七月聖誕，獵人谷，獵人谷酒莊]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[了解更多資料]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[澳洲國家地貌：大藍山地區 - 澳洲旅遊局]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        追循那段與南澳州最大山脈土地一樣古老的故事。雄偉的弗林德斯山脈延綿430公里，跨越三座國家公園。
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <StandardCampaignLayout isTemplate="1">
+    <opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+    <hdl_Title><![CDATA[]]></hdl_Title>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+    <con_Banner><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<DIV id=headerimage>
+<SCRIPT type=text/javascript src="../../static/js/jquery.cycle.all.latest.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+jQuery(document).ready(function() {
+jQuery('#headersliderwrapper').cycle({
+        fx:'fade',
+        slideExpr: '.headerslide'
+    });
+});
+</SCRIPT>
+
+<DIV id=headersliderwrapper>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-gbm-01.jpg"> 
+<DIV class=headerslideinfo>藍山（Blue Mountains），新南威爾斯（NSW）</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-gbm-02.jpg"> 
+<DIV class=headerslideinfo>格蘭瀑布（Glenn Waterfall），新南威爾斯（NSW）（承蒙 David Finnigan 提供）</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-gbm-03.jpg"> 
+<DIV class=headerslideinfo>袋鼬</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-gbm-04.jpg"> 
+<DIV class=headerslideinfo>南十字星（Southern Cross），燕勾國家公園（Yengo National Park），新南威爾斯（NSW）</DIV></DIV></DIV></DIV>
+<DIV id=subpage-header-overlay></DIV>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule></con_Banner>
+    <con_Body><TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[大藍山地區]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        在藍山世界遺產區百萬公頃的懸崖、峽谷、山谷、瀑布和叢林中享受無與倫比的自由自在。這片擁有六個原住民語言組的傳統土地距離悉尼僅90分鐘車程。來這裏遠足、騎單車或跟隨原住民導遊觀賞遼闊的美景。溫特伍斯瀑布（Wentworth Falls）、三姐妹峰（Three Sisters）、登斯沼澤（Dunns Swamp）或燕勾山（Mt Yengo）的自然美景實在令人驚嘆不已。探遊珍羅蘭山洞 (Jenolan Caves) ，然後沿著歷史悠久的六英呎路徑 (Six Foot Track) 徒步前往卡通巴 (Katoomba)。蜿蜒行走在大藍山駕車路線（Greater Blue Mountains Drive）並探索周圍的發現路徑，欣賞這個地區的廣闊地貌和多樣性。
+        <p><strong>探索大藍山的四種方式</strong></p>
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[1. 大自然探險]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-greater-blue-mountains-hl01.jpg" alt="Bushwalking, Blue Mountains, NSW">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Bushwalking, Blue Mountains, NSW]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        從卡通巴欣賞三姐妹峰崎嶇的岩層，或遊覽珍羅蘭山洞——世界上最古老的開放式地下岩洞系統。從布萊克希斯（Blackheath）出發，徒步穿越格羅斯谷（Grose Valley）和美加龍谷（Megalong Valley）的叢林，在令人嘆為觀止的觀景點駐足遠眺，例如戈維特跳躍（Govett’s Leap）、埃文斯瞭望臺（Evans Lookout）和佩里鳥瞰點（Perry’s Lookdown）。觀看溫特伍斯瀑布飛流而下衝入杰米遜谷（Jamison Valley），在沃勒米國家公園（Wollemi National Park）裡探索螢火蟲隧道（Glow Worm Tunnel）。在多瑪山植物園（Mount Tomah Botanic Gardens）觀賞物種年代可追溯至恐龍時代的沃勒米松。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[2. 與原住民導遊同行]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-greater-blue-mountains-hl02.jpg" alt="Viewing cave formations, NSW">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Viewing cave formations, NSW]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        和一個黛拉格（Darug）當地導遊流浪去，觀賞樹皮和人體彩繪演示，發現瀑布和水潭，品嚐bush tucker。參觀營火溪（Camp Fire Creek）的磨斧石槽和琴鳥小谷地（Lyrebird Dell）這個古老的原住民營地。在燕勾國家公園欣賞芬奇力特里格（Finchley Trig）的石刻。遊覽紅手洞，這裡的手印有超過五百年的歷史。到三姐妹峰一遊，這是一片由三座岩石山峰組成的奇景，得名於一個原住民傳說。精華遊也會到訪卡斯爾雷（Castlereagh）的文化中心。您可以在這裡有學習扔回力標，還有迪吉里杜管表演。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[3. 騎單車、徒步、駕車或者坐火車]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-greater-blue-mountains-hl03.jpg" alt="Horseriding, Blue Mountains, NSW">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Horseriding, Blue Mountains, NSW]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        沿六呎路徑從卡通巴步行45公里前往珍羅蘭山洞，或從卡通巴取道榮譽徽章步行路徑（Badge of Honour Walk）前往卡南格拉（Kanangra）。選擇單日步行路線，或者一路露營走完三日兩夜的全程。參觀藍膠樹森林（Blue Gum Forest），或騎馬穿過美加龍谷（Megalong Valley）。在布萊克希斯（Blackheath）的大峽谷路徑（Grand Canyon Track）上沿繩速降，或騎單車從格蘭布魯克（Glenbrook）前往溫特伍斯瀑布。乘坐老式蒸汽火車從貝爾（Bell）前往里斯勾（Lithgow），或乘坐玻璃底觀光火車俯瞰美景。沿著大藍山公路前往周圍地區，如南方高地（Southern Highlands）、穆奇（Mudgee）、獵人谷（Hunter Valley）以及霍克斯伯里（Hawkesbury）。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[4. 感受山區的神奇]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-greater-blue-mountains-hl04.jpg" alt="Blue Mountains, NSW">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Blue Mountains, NSW]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        在魯拉（Leura）綠樹成蔭的漂亮街道上享用午餐，然後去參觀藝術館、逛逛時裝屋和飾品店。找一家日間按摩浴會所享受一番，或是在卡通巴坐一會兒，喝杯咖啡，吃點蛋糕。入住華麗的舊式旅館，可以欣賞山谷美景的五星級度假村，或掩映在美麗叢林間的早餐床位旅舍。在布萊克希斯購買美食，或在珍羅蘭山洞巨大莊嚴、歷史悠久的酒店中品嚐茶點。在六、七、八月間，您可以參加這裏的七月聖誕（Yulefest）慶祝活動，圍在熊熊的火堆旁盡情享用聖誕燒烤與布甸。
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights></con_Body>
+    <con_RHSModules><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<TABLE cellSpacing=0 cellPadding=0 width=251 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top align=center><!-- Google Map Start -->
+<SCRIPT type=text/javascript>
+                  function fireEvent(obj,evt){
+ 
+ var fireOnThis = obj;
+ if( document.createEvent ) {
+   var evObj = document.createEvent('MouseEvents');
+   evObj.initEvent( evt, true, false );
+   fireOnThis.dispatchEvent(evObj);
+ } else if( document.createEventObject ) {
+   fireOnThis.fireEvent('on'+evt);
+ }
+}
+function clickLink(linkobj) {
+     if (linkobj.getAttribute('onclick') == null) {
+          if (linkobj.getAttribute('href')) document.location = linkobj.getAttribute('href');
+     }
+     else linkobj.onclick();
+}
+function loadjscssfile(filename, filetype){
+ if (filetype=="js"){ //if filename is a external JavaScript file
+  var fileref=document.createElement('script')
+  fileref.setAttribute("type","text/javascript")
+  fileref.setAttribute("src", filename)
+ }
+ else if (filetype=="css"){ //if filename is an external CSS file
+  var fileref=document.createElement("link")
+  fileref.setAttribute("rel", "stylesheet")
+  fileref.setAttribute("type", "text/css")
+  fileref.setAttribute("href", filename)
+  fileref.setAttribute("media", "print")
+ }
+ if (typeof fileref!="undefined")
+  document.getElementsByTagName("head")[0].appendChild(fileref)
+}
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+var icheckk=0;
+jQuery.each(jQuery.browser, function(i, val) {
+if(i=="msie" && jQuery.browser.version.substr(0,3)=="7.0")
+icheckk=1;
+});
+function myfun()
+{
+loadjscssfile("../../static/css/thickbox.css", "css");
+if(icheckk==1)
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='../../static/maps/zht/greaterbluemountains/bigmap.html'  target='_blank'>&nbsp;列印|關閉此視窗|&nbsp; 或按Esc键</a></b>","../../static/maps/zht/greaterbluemountains/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+else
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='javascript:window.print()' >&nbsp;列印|關閉此視窗|&nbsp; 或按Esc键</a></b>","../../static/maps/zht/greaterbluemountains/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+}
+         </SCRIPT>
+<IFRAME style="MARGIN-BOTTOM: 20px; BORDER-TOP: black 1px solid; HEIGHT: 355px; BORDER-RIGHT: black 1px solid; BORDER-BOTTOM: black 1px solid; FLOAT: left; PADDING-BOTTOM: 5px; BORDER-LEFT: black 1px solid; BACKGROUND-COLOR: #333333" height=380 src="../../static/maps/zht/greaterbluemountains/index.html" frameBorder=0 width=249 name=FRAMENAME scrolling=no></IFRAME><!-- Google Map end -->
+<DIV class=subpage-video-thumb style="TEXT-ALIGN: left"><A onclick="moduleTrackingWithTitle('lightbox-video','',false,'nationallandscapes-greaterbluemountainszht');" href="#" data-reveal-id="modalVideo"><IMG alt="" src="/contentimages/Campaigns/national-landscapes-video-zht.jpg"></A> </DIV>
+<DIV id=modalVideo class="reveal-modal video" style-="z-index: 103;"><A class=close-reveal-modal><SPAN class=icon></SPAN></A>
+<DIV class=video style="VISIBILITY: visible !important"><IFRAME height=315 src="//www.youtube.com/v/EjGZ3MaX9pE?version=3&amp;hl=en_GB" frameBorder=0 width=560></IFRAME></DIV></DIV></TD></TR></TBODY></TABLE>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule><Listing isTemplate="1">
+<anc_List1><![CDATA[/zht/explore/cities/sydney/nsw-blue-mtns-biking.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[更多澳洲風景]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/zht/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/zht/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/zht/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/zht/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/zht/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/zht/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/zht/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/zht/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/zht/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/zht/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/zht/Transport.aspx]]></anc_Transport>
+<hdl_Title><![CDATA[計劃您的假期]]></hdl_Title>
+<language><![CDATA[CHT]]></language>
+<stf_Accomodation><![CDATA[住宿]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[Blue Mountains Area]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[風景]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[旅行專家]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[目的地信息]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[活動]]></stf_Events>
+<stf_Hire><![CDATA[租用]]></stf_Hire>
+<stf_Informationservices><![CDATA[信息服務]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[New South Wales]]></stf_StateFilter>
+<stf_Tours><![CDATA[遊覽]]></stf_Tours>
+<stf_Transport><![CDATA[交通工具]]></stf_Transport>
+</PlanYourVisit></con_RHSModules>
+    <con_Category></con_Category>
+    <lst_Subpages>
+    </lst_Subpages>
+</StandardCampaignLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

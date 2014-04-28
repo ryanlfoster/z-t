@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="6455" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[首頁]]></headline>
+            <href><![CDATA[/zht/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[探索]]></headline>
+            <href><![CDATA[/zht/explore.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[澳洲原住民]]></headline>
+            <href><![CDATA[/zht/explore/things-to-do/aboriginal-australia.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/explore-things-to-see-do-aboriginal.jpg]]></img_background>
+    <hdl_Title><![CDATA[澳洲原住民]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/explore-things-to-see-do-aboriginal-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/explore-things-to-see-do-aboriginal-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[感受世界最古老的活生生的文化。藉由藝術、舞蹈、神話、音樂和這片土地本身，瞭解原住民歷史。]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[y]]></stf_IsMobile>
+    <stf_keywords><![CDATA[澳洲原住民,澳洲原住民文化, 澳洲原住民歷史, 澳洲原住民藝術]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[澳洲原住民 ]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[澳洲原住民旅遊體驗-澳洲旅遊局]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[沉浸於澳洲的原住民體驗、地方及旅程。]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <ExperienceLocationMap isTemplate="1">
+    <!-- no user content -->
+</ExperienceLocationMap><PlanYourHolidayBox isTemplate="1">
+    <anc_MoreLink><![CDATA[/zht/plan.xml]]></anc_MoreLink>
+    <hdl_Headline><![CDATA[計劃您的假期]]></hdl_Headline>
+    <language><![CDATA[CHT]]></language>
+    <opt_IsOnHomepage><![CDATA[]]></opt_IsOnHomepage>
+    <stf_MenuIconClass><![CDATA[]]></stf_MenuIconClass>
+    <stf_More><![CDATA[More]]></stf_More>
+    <stf_PlanYourHolidayTitle><![CDATA[Plan your holiday]]></stf_PlanYourHolidayTitle>
+    <lst_PageLinks>
+        <lst_PageLink>
+            <url><![CDATA[/zht/plan/plan-your-trip/find-travel-agent.xml]]></url>
+            <hdl_Title><![CDATA[尋找你附近的旅行代理]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/zht/plan/plan-your-trip/getting-there.xml]]></url>
+            <hdl_Title><![CDATA[從外國去澳洲]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/zht/plan/plan-your-trip/accommodation.xml]]></url>
+            <hdl_Title><![CDATA[食宿]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/zht/plan/plan-your-trip/tours.xml]]></url>
+            <hdl_Title><![CDATA[尋找旅行團]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/zht/plan/plan-your-trip/specialoffers.xml]]></url>
+            <hdl_Title><![CDATA[推廣優惠*]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+    </lst_PageLinks>
+</PlanYourHolidayBox>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[澳洲原住民 ]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        沉浸於澳洲的原住民體驗、地方及旅程。
+        <p>澳洲原住民擁有豐富、活生生的文化，可回溯到至少五萬年以前。了解當您沉浸於澳洲原住民文化時所得到的多種體驗。 </p>
+        <p>發現北領地富有原住民歷史的地方。訪尋澳洲的紅色中部（Red Centre），與安南古族導遊漫步烏魯魯（Uluru）岩腳。瀏覽愛麗絲泉（Alice Spring）的原住民藝術，阿倫特人已在此居住了兩萬年。從列為世界遺產的卡卡杜國家公園（Kakadu National Park）的錯綜複雜的岩畫畫廊中，了解夢幻時光開天辟地的神話。</p>
+        <p>發現能使您更接近世界最古老文化的旅程。沿紅色中部之路（Red Centre Way）驅車，前往烏魯魯（Uluru）、卡塔曲塔（Kata Tjuta）和國王峽谷（Kings Canyon）等聖地。沿南澳洲環路（South Australian Loop）穿過費蓮達山脈（Flinders Ranges），您可以在這裡的營火旁聆聽阿登亞瑪森哈（Adnyamathanha）人的創世故事。驅車沿大草原之路（Savannah Way）穿越昆士蘭、北領地及西澳州，探尋原住民岩畫遺址。</p>
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[澳洲原住民]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/3.1.2.2_highlight.jpg" alt="澳洲原住民">]]></img_MainImage>
+                    <stf_Caption><![CDATA[澳洲原住民]]></stf_Caption>
+                    <anc_link><![CDATA[/zht/explore/things-to-do/aboriginal-australia/aboriginal.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        <span class="redDotText">了解如何與世界最古老的現存文化連通。像澳洲原住民那樣，您可以藉由藝術、舞蹈、神話、音樂和這片土地本身，探索流傳了至少 5 萬年之久的文化。<br />
+        您可以在各個城市看到原住民藝術和當代舞蹈。或前往內陸曠野，在營火旁聆聽"夢時代"（Dreamtime）的創世神話故事。徒步叢林和潛泳，分享 (bush-tucker)，或學習製作工藝矛，以傳統的方式捕魚。</span>
+        <p><span class="redDotText">讓澳洲原住民幫助您了解這片古老的大地及其靈性和風景奇觀。</span></p>
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[北領地]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/4.1.8.1_highlight.jpg" alt="北領地">]]></img_MainImage>
+                    <stf_Caption><![CDATA[北領地]]></stf_Caption>
+                    <anc_link><![CDATA[/zht/explore/states/nt.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        在北領地，您會茫然若失，然後又找回自己。這裏既有豐富的原住民文化，也有粗曠的自然美景。您在這裏還會看到烏魯奴和卡卡杜國家公園（Uluru and Kakadu National Park）的標誌性奇觀。 忘掉照片吧！站在澳洲中心雄偉神秘的巨岩面前，或探訪熱帶最北部（Top End）的茂盛雨林，那種感覺是什麼也無法比擬、無法抓住的。
+        <p>北領地還有種類繁多的野生動物、多姿多彩的內陸人物和戶外歷險風光。</p>
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[紅土中心的五大必遊勝地]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/4.3.14.2_highlight.jpg" alt="紅土中心">]]></img_MainImage>
+                    <stf_Caption><![CDATA[紅土中心]]></stf_Caption>
+                    <anc_link><![CDATA[/zht/explore/icons/red-centre.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        在澳洲的紅色中部充實您的心靈。 探索澳洲紅土中心的標誌性自然奇觀:：烏魯奴、卡達足塔、麥克唐奈爾山脈和國王峽谷。您可以從著名的內陸小鎮愛麗斯泉出發，逐一遊歷遠古山脈和一望無際的平原，而每天晚上則可以返回到舒適的現代化生活中。 騎在駱駝背上觀賞烏魯奴，駕四驅越野車沿古老的芬克河行駛。 在繁星密佈的蒼穹下安睡，在麥克唐奈爾山脈的格蘭海倫峽谷中暢泳。 探索辛普森沙漠中原住民藝術的精神世界。 近距離觀察拉勒平塔路徑（Larapinta Trail）上獨特的動植物群；行駛在紅色中部路線（Red Centre Way）上，欣賞沿途多彩的永恒風光。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[遊覽卡卡杜的五種方式]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/4.3.15.2_highlight.jpg" alt="欣賞原住民藝術文化的傳承">]]></img_MainImage>
+                    <stf_Caption><![CDATA[卡卡杜]]></stf_Caption>
+                    <anc_link><![CDATA[/zht/explore/icons/kakadu.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        前來探索列入世界遺產名錄的卡卡杜國家公園（Kakadu National Park），該公園距達爾文以東約3小時車程。在這個澳洲最大的國家公園中，您將看到嶙峋的峭壁、茂盛的雨林以及歷史長達5萬年的岩畫藝術。從傳統主人比寧基/蒙蓋伊族（Bininj/Mungguy）那裏了解原住民文化。目睹濕地成千上萬的候鳥。觀賞嬌嫩的睡蓮、從史前就已存在的鱷魚、響聲如雷的瀑布以及波光粼粼的水潭。體驗卡卡杜在六個截然不同的季節中的神奇之處。從嬌嫩的睡蓮到史前就已存在的鱷魚，卡卡杜是一個等待被發現的寶藏。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[在像愛麗斯泉這樣的小鎮能做些什麼]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/4.1.22.1_highlight.jpg" alt="愛麗斯泉">]]></img_MainImage>
+                    <stf_Caption><![CDATA[愛麗斯泉]]></stf_Caption>
+                    <anc_link><![CDATA[/zht/explore/cities/alice-springs.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        愛麗斯泉位於澳洲的紅色中心（Red Centre），被麥克唐奈爾山脈（MacDonnell Ranges）和一望無際的大沙漠所包圍。 這座著名的內陸城市當初建立時只是作為大陸電報線（Overland Telegraph Line）的一個中繼站。阿倫特（Arrernte）原住民部落在這個地區已生活了 2 萬年。
+        <p>如今，愛麗斯泉（Alice Springs）已成為一個熱鬧、現代化的小鎮，擁有豐富的拓荒歷史、探險景觀和原住民藝術與文化。 它還是通往烏盧魯-卡 他久他（Uluru-Kata Tjuta）、國王峽谷（Kings Canyon）、辛普森沙漠（Simpson Desert）和東、西麥克唐奈爾山脈（East and West McDonnell Ranges）等標誌性內陸景點的主要門戶。</p>
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+        <lst_Subpage><![CDATA[<a href="/zht/explore/things-to-do/aboriginal-australia/aboriginal.xml">澳洲原住民</a>]]></lst_Subpage>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

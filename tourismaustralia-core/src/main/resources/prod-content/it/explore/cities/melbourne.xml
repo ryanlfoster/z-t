@@ -1,0 +1,416 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="7171" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Pagina iniziale]]></headline>
+            <href><![CDATA[/it/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Esplora]]></headline>
+            <href><![CDATA[/it/explore.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Melbourne]]></headline>
+            <href><![CDATA[/it/explore/cities/melbourne.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/explore-cities-melbourne.jpg]]></img_background>
+    <hdl_Title><![CDATA[Melbourne]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/explore-cities-melbourne-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/explore-cities-melbourne-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[no]]></opt_PartnerLead>
+    <stf_description><![CDATA[Scopri Melbourne, culla dello sport, lo stile e la cultura. Vivi la citt&agrave;, dalla multiculturale St Kilda Beach alla spettacolare Great Ocean Road.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[y]]></stf_IsMobile>
+    <stf_keywords><![CDATA[Melbourne Australia, turismo Melbourne]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Ulteriori Informazioni]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Melbourne, Australia, Attrazioni - Tourism Australia]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[Scoprite Melbourne, la capitale del Victoria, un dinamico centro che vi appassioner&agrave; per il suo stile di vita, la sua cultura e gastronomia e i suoi sport.]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <IntegratedMiniMap isTemplate="1">
+    <!-- no user content -->
+</IntegratedMiniMap><TravellersStoryWidget isTemplate="1">
+    <anc_link><![CDATA[/explore/map.aspx?filters=cities,experiences&zoom=9&centre=-38.376102,145.459612]]></anc_link>
+    <img_image><![CDATA[/contentimages/cities-Melbourne.jpg]]></img_image> 
+</TravellersStoryWidget><AtaGlance isTemplate="1">
+<hdl_Title><![CDATA[Le citt&agrave; dell'Australia]]></hdl_Title>
+<img_Map><![CDATA[]]></img_Map>
+<stf_Title1><![CDATA[]]></stf_Title1>
+<stf_Title2><![CDATA[]]></stf_Title2>
+<stf_Title3><![CDATA[]]></stf_Title3>
+<stf_Title4><![CDATA[]]></stf_Title4>
+<stf_Title5><![CDATA[]]></stf_Title5>
+<txt_Description1><![CDATA[
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tbody>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/it/explore/cities/cities.xml" target="_self">Le citt&agrave; dell'Australia</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/it/explore/cities/sydney.xml" target="_self">Sydney</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/it/explore/cities/melbourne.xml" target="_self">Melbourne</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/it/explore/cities/brisbane.xml" target="_self">Brisbane</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/it/explore/cities/perth.xml" target="_self">Perth</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/it/explore/cities/darwin.xml" target="_self">Darwin</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/it/explore/cities/adelaide.xml" target="_self">Adelaide</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/it/explore/cities/hobart.xml" target="_self">Hobart</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/it/explore/cities/canberra.xml" target="_self">Canberra</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/it/explore/cities/gold-coast.xml" target="_self">Gold Coast</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/it/explore/cities/cairns.xml" target="_self">Cairns</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/it/explore/cities/alice-springs.xml" target="_self">Alice Springs</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/it/explore/cities/broome.xml" target="_self">Broome</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/it/explore/cities/regional-cities.xml" target="_self">Le capitali delle regioni australiane</a></p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <br />
+    ]]></txt_Description1>
+<txt_Description2><![CDATA[]]></txt_Description2>
+<txt_Description3><![CDATA[]]></txt_Description3>
+<txt_Description4><![CDATA[]]></txt_Description4>
+<txt_Description5><![CDATA[]]></txt_Description5>
+</AtaGlance><Listing isTemplate="1">
+<anc_List1><![CDATA[/it/explore/states/vic.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[Altri itinerari suggeriti in Australia]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/it/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/it/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/it/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/it/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/it/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/it/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/it/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/it/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/it/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/it/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/it/Transport.ignore]]></anc_Transport>
+<hdl_Title><![CDATA[Plan your visit to Melbourne]]></hdl_Title>
+<language><![CDATA[ITA]]></language>
+<stf_Accomodation><![CDATA[Accommodation]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[Melbourne Area]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[Attractions]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[Find a travel agent near you]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[Destination Information]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[Events]]></stf_Events>
+<stf_Hire><![CDATA[Hire]]></stf_Hire>
+<stf_Informationservices><![CDATA[Information Services]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[Victoria]]></stf_StateFilter>
+<stf_Tours><![CDATA[Tours]]></stf_Tours>
+<stf_Transport><![CDATA[Transport]]></stf_Transport>
+</PlanYourVisit>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Melbourne]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[Scoprite Melbourne, la capitale del Victoria, un dinamico centro che vi appassioner&agrave; per il suo stile di vita, la sua cultura e gastronomia e i suoi sport. <BR>&nbsp;<BR>Programmate la vostra vacanza a Melbourne con il nostro itinerario di tre giorni che comprende le attrazioni culturali di Melbourne, il fiume Yarra e St Kilda Beach. Scoprite le attrazioni del Victoria che potete visitare da Melbourne e le spettacolari escursioni a disposizione. Percorrete la Great Ocean Road fino ai Dodici Apostoli e alle stupende spiagge da surf del Victoria. Sfidate la vostra resistenza sul difficile Great Alpine Walk o guidate lungo la Great Alpine Road attraversando le Alpi Australiane e il Gippsland. <BR>&nbsp;<BR>Scoprite le altre citt&agrave; australiane e studiate degli itinerari appassionanti per le vostre vacanze in Australia. Da Melbourne potrete prendere l’aereo o il traghetto per la Tasmania, seguire in auto la Pacific Coastal Route fino a Sydney o percorrere la Great Ocean Road fino a Adelaide.<BR>&nbsp;<BR>Cercate di far coincidere il vostro viaggio a Melbourne con uno degli eventi famosi in tutto il mondo, come il Gran Premio d’Australia, gli Australian Open o la Melbourne Cup.]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Melbourne e dintorni]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-cities-melbourne-melbourne-hl.jpg" alt="Melbourne e dintorni">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Melbourne, VIC]]></stf_Caption>
+                    <anc_link><![CDATA[/it/explore/cities/melbourne/melbourne-surrounds.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Melbourne &egrave; un intricato labirinto di vicoli nascosti, sontuosi bar, <a href="http://www.australia.com/campaigns/nothinglike/it/melbourne-product4.htm" target="_blank">ristoranti esclusivi</a> e insolite boutique. In citt&agrave; potrete immergervi nella cultura locale, esplorare stadi e <a href="http://www.australia.com/campaigns/nothinglike/it/melbourne-product6.htm" target="_blank">centri sportivi</a>, titillare le papille nel dinamico panorama enogastronomico locale, ballare fino all'alba o passeggiare nei parchi e lungo i verdeggianti viali.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Tre giornate perfette a Melbourne]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-itineraries-three-great-days-melbourne-hl.jpg" alt="Tre giornate perfette a Melbourne">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Tre giornate perfette a Melbourne]]></stf_Caption>
+                    <anc_link><![CDATA[/it/explore/itineraries/vic-3days-melbourne.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Non avrete il tempo di dormire a Melbourne, una citt&agrave; dove gli amanti della cultura, gli appassionati di sport e moda e gli esperti di gastronomia troveranno tutti eventi di loro interesse. Scoprite caff&egrave;, bar e boutique nei vicoli della citt&agrave; che si diramano dalle strade principali. Immergetevi nella vivace atmosfera di Southbank e visitate Federation Square dove la scena creativa si sposa con la cultura dei caff&egrave;. Attraversate in barca lo Yarra e passeggiate tra i prati e i laghi dei Royal Botanic Gardens. Immergetevi nella speciale energia dei vari quartieri della citt&agrave;, dall’elegante South Yarra a St Kilda, sulla spiaggia, fino all’alternativo Fitzroy.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[I vicoli segreti di Melbourne]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-cities-melbourne-hidden-laneways-hl.jpg" alt="I vicoli segreti di Melbourne">]]></img_MainImage>
+                    <stf_Caption><![CDATA[I vicoli segreti di Melbourne]]></stf_Caption>
+                    <anc_link><![CDATA[/it/explore/cities/melbourne/melbourne-hidden-laneways.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Una volta lasciata alle spalle la griglia di strade che costituisce il centro della citt&agrave;, non saprete mai cosa vi attende nel labirinto di <a href="/it/explore/cities/melbourne/melbourne-hidden-laneways.xml" target="_self">vicoli gotici</a> dietro di essa. Persino gli abitanti locali scoprono qui piacevoli sorprese, tra piccoli e nascosti ristoranti, negozi di abbigliamento o gallerie d’arte. Scoprite un jazz bar aperto fino a tardi, osservate i passanti seduti al tavolo di una piccola trattoria, oppure visitate le boutique e le gallerie d’arte moderna. Lasciate che queste strade vi svelino i segreti pi&ugrave; intimi di Melbourne.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[I tetti di Melbourne]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-cities-melbourne-rooftop-culture-hl.jpg" alt="I tetti di Melbourne">]]></img_MainImage>
+                    <stf_Caption><![CDATA[I tetti di Melbourne]]></stf_Caption>
+                    <anc_link><![CDATA[/it/explore/cities/melbourne/melbourne-rooftop-culture.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Per scoprire in che originale modo gli abitanti locali utilizzano gli spazi della loro citt&agrave;, visitate in estate i bar, cinema e ristoranti <a href="/it/explore/cities/melbourne/melbourne-rooftop-culture.xml" target="_self">situati sui tetti degli edifici</a>. Lasciate spaziare la vostra vista ai quattro angoli del cielo mentre ascoltate musica dal vivo, vi rilassate in un bar o guardate un film sotto le stelle. Questi locali situati sui tetti sposano perfettamente innovazione ed eleganza di un tempo passato e sono il luogo ideale dove passare un rilassato pomeriggio o una sera d’estate. 
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Vita da boh&eacute;mien in Brunswick Street]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-cities-melbourne-brunswick-hl.jpg" alt="Vita da bohémien in Brunswick Street">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Vita da boh&eacute;mien in Brunswick Street]]></stf_Caption>
+                    <anc_link><![CDATA[/it/explore/cities/melbourne/vic-brunswick.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Nella <a href="/it/explore/cities/melbourne/vic-brunswick.xml" target="_self">Soho di Melbourne</a> troverete arte, moda e gastronomia. <br />
+        In Brunswick Street di sicuro non vi annoierete: &egrave; questa un’animata via in cui persone dalle origini pi&ugrave; disparate fanno shopping, mangiano, bevono, si incontrano e ballano. 
+        <p>Qui, a Fitzroy, il cuore bohemien della citt&agrave;, potrete vedere motociclisti che bevono un cappuccino gomito a gomito con imprenditori e negozi di articoli di seconda mano al lato di boutique d’alta moda.</p>
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Federation Square, Victoria]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-cities-melbourne-fed-square-hl.jpg" alt="Federation Square, Victoria">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Federation Square, Victoria]]></stf_Caption>
+                    <anc_link><![CDATA[/it/explore/cities/melbourne/fed-square.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Federation Square &egrave; il luogo di incontro di Melbourne. &Egrave; un esclusivo quartiere culturale, mix creativo di attrazioni, musei e gallerie, oltre a ristoranti, caff&egrave; e bar.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[St Kilda, Victoria]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-icon-stkilda-hl.jpg" alt="St Kilda, Victoria">]]></img_MainImage>
+                    <stf_Caption><![CDATA[St Kilda, Victoria]]></stf_Caption>
+                    <anc_link><![CDATA[/it/explore/cities/melbourne/st-kilda.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        A soli sei chilometri dal Central Business District, St Kilda &egrave; il parco giochi sul mare di Melbourne. St. Kilda fa parte della citt&agrave; di Port Phillip che comprende i sobborghi di Port Melbourne e South Melbourne. 
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Spring Racing Carnival, Melbourne]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-events-vic-spring-racing-hl.jpg" alt="Spring Racing Carnival, Melbourne">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Spring Racing Carnival, Melbourne]]></stf_Caption>
+                    <anc_link><![CDATA[/it/explore/events/vic-spring-racing.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        L’Australia intera si ferma per seguire la Melbourne Cup, ma il divertimento a Melbourne non si interrompe mai per tutta la durata dello <a href="/it/explore/events/vic-spring-racing.xml" target="_self">Spring Racing Carnival</a>. Questa straordinaria manifestazione comprende corse di cavalli, moda e divertimenti, e inizia a settembre concludendosi solo a met&agrave; novembre.  L’ippodromo di Flemington &egrave; il protagonista principale: qui si svolgono importanti corse come il Derby Day, la Melbourne Cup e l'Oaks Day, ma la manifestazione interessa tutti gli ippodromi dello stato.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Il Gran Premio d’Australia, Melbourne]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-events-vic-grand-prix-hl.jpg" alt="Il Gran Premio d’Australia, Melbourne">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Il Gran Premio d’Australia, Melbourne]]></stf_Caption>
+                    <anc_link><![CDATA[/it/explore/events/vic-australian-grand-prix.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        A Melbourne, nessuno perde il <a href="/it/explore/events/vic-australian-grand-prix.xml" target="_self">Grand Premio d’Australia</a>, che per quattro giorni a marzo invade Albert Park. Potrete udire il distintivo rombo delle auto di Formula 1 in tutta la citt&agrave;. Osservate i piloti pi&ugrave; veloci del mondo sfrecciare a 300 km all’ora su piste costruite per l’occasione. Seguite le gare tra le V8 Supercar australiane o ammirate auto di lusso come Ferrari, Porsche e Lotus in forma smagliante. In alternativa agli eventi sulle piste, potrete fare un giro dei bar, scatenarvi durante un festival di musica o in un concerto rock al termine delle gare.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Una grande estate di tennis in Australia]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-events-summer-tennis-hl.jpg" alt="Una grande estate di tennis in Australia">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Una grande estate di tennis in Australia]]></stf_Caption>
+                    <anc_link><![CDATA[/it/explore/events/australias-grand-slam-tennis.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        A gennaio in Australia potrete ammirare il gotha del tennis. Iniziate il nuovo anno seguendo otto prestigiose squadre composte da un giocatore e una giocatrice durante la Hopman Cup a Perth. Osservate i tennisti pi&ugrave; forti del mondo che si allenano per l’Australian Open nella soleggiata Brisbane e nella storica Hobart. Prenotate un posto a sedere per il Apia International nell’Olympic Park di Sydney. L’Australian Open di Melbourne, il primo torneo del <a href="/it/explore/events/australias-grand-slam-tennis.xml" target="_self">Grand Slam</a> dell’anno, vede protagonisti i giocatori di tennis pi&ugrave; forti del mondo. Lasciate i campi da tennis per partecipare ad eventi dal vivo e immergervi nella vivace atmosfera estiva delle citt&agrave; australiane.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Campionato di football australiano]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-events-afl-football-league-hl.jpg" alt="Campionato di football australiano">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Campionato di football australiano]]></stf_Caption>
+                    <anc_link><![CDATA[/it/explore/events/afl-events.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        L'Australia &egrave; una nazione laica, ma l'unica definizione plausibile per definire l'atmosfera che si respira durante una partita di football australiano - o <a href="/it/explore/events/afl-events.xml" target="_self">AFL - a Melbourne</a> &egrave; proprio di "fervore religioso". La citt&agrave; &egrave; il luogo di nascita di questo sport, i giocatori sono considerati eroi locali e le squadre sono sostenute da appassionati tifosi. Ma gli abitanti di Melbourne non sono gli unici a impazzire per questo spettacolare e atletico sport giocato con una palla ovale.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Mornington Peninsula, il luogo ideale per vivere l’estate di Melbourne]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-cities-melbourne-mornington-peninsula-hl.jpg" alt="Mornington Peninsula, il luogo ideale per vivere l’estate di Melbourne">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Mornington Peninsula, il luogo ideale per vivere l’estate di Melbourne]]></stf_Caption>
+                    <anc_link><![CDATA[/it/explore/cities/melbourne/mornington-peninsula.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        La vita &egrave; veramente stupenda sulla <a href="/it/explore/cities/melbourne/mornington-peninsula.xml" target="_self">penisola di Mornington</a>, un vero e proprio paradiso in estate con i suoi pittoreschi villaggi sul mare, vigneti, spiagge, parchi nazionali, gallerie, campi da golf, centri benessere e ristoranti. Romanticismo, relax, riposo e avventura sono all’ordine del giorno qui ed &egrave; facile capire perch&eacute; gli abitanti di Melbourne adorano questa zona e la scelgono come luogo ideale dove passare una settimana intera o un fine settimana.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Un porto quiete nella Yarra Valley, Victoria]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/about-australias-landscapes-wine-regions-vic-escape-to-yarra-valley-hl.jpg" alt="Un porto quiete nella Yarra Valley, Victoria">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Un porto quiete nella Yarra Valley, Victoria]]></stf_Caption>
+                    <anc_link><![CDATA[/it/about/australias-landscapes/wine-regions/yarra-valley.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Nella frenesia quotidiana del mondo moderno una gita nella <a href="/it/about/australias-landscapes/wine-regions/yarra-valley.xml" target="_self">Yarra Valley</a> vi offrir&agrave; un modo magico per fermare il tempo. In auto impiegherete meno di un’ora da Melbourne per raggiungere i vigneti, i paesini e le alte foreste brumose della regione. Degustate vini a Yarra Glen e sorseggiate t&egrave; del Devonshire nelle alture dei Dandenong Ranges. Trattenetevi a tavola per un lungo pranzo nel ristorante di una cantina vinicola o fate un picnic a base di prodotti locali a fianco di una cascata.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Tre settimane da Melbourne]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-itineraries-three-weeks-from-melbourne-hl.jpg" alt="Tre settimane da Melbourne">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Tre settimane da Melbourne]]></stf_Caption>
+                    <anc_link><![CDATA[/it/explore/itineraries/vic-3weeks-melbourne.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Visitate Melbourne, Hobart e Adelaide, assieme a spiagge, aziende vinicole e zone dichiarate Patrimonio dell’Umanit&agrave;, in un <a href="/it/explore/itineraries/vic-3weeks-melbourne.xml" target="_self">viaggio che attraversa il sud-est dell’Australia</a>. Da Melbourne, potrete incontrare la fauna nel suo ambiente naturale a Phillip Island, visitare aziende vinicole nella Yarra Valley ed esplorare i campi da golf e l’enogastronomia della penisola di Mornington.   Da Hobart, i <a href="/it/explore/icons/tas-wilderness.xml" target="_self">parchi nazionali incontaminati della Tasmania</a> sono tutti facilmente raggiungibili. 
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+        <lst_Subpage><![CDATA[<a href="/it/explore/cities/melbourne/fed-square.xml">Federation Square, Victoria</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/it/explore/cities/melbourne/st-kilda.xml">St Kilda, Victoria</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/it/explore/cities/melbourne/melbourne-surrounds.xml">Melbourne e dintorni</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/it/explore/cities/melbourne/melbourne-hidden-laneways.xml">I vicoli segreti di Melbourne</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/it/explore/cities/melbourne/melbourne-rooftop-culture.xml">I tetti di Melbourne</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/it/explore/cities/melbourne/vic-brunswick.xml">Vita da bohémien in Brunswick Street</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/it/explore/cities/melbourne/mornington-peninsula.xml">Penisola di Mornington</a>]]></lst_Subpage>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="15587" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Laman Utama]]></headline>
+            <href><![CDATA[/my/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Perihalan]]></headline>
+            <href><![CDATA[/my/about.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Cuaca di Australia]]></headline>
+            <href><![CDATA[/my/about/key-facts/weather.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[Cuaca di Hobart]]></headline>
+            <href><![CDATA[/my/about/key-facts/weather/hobart-weather.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/about-weather-hobart.jpg]]></img_background>
+    <hdl_Title><![CDATA[Cuaca di Hobart]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/about-key-facts-weather-hobart-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/about-key-facts-weather-hobart-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[no]]></opt_PartnerLead>
+    <stf_description><![CDATA[Ketahui tentang iklim dan cuaca di Hobart, Tasmania. Dapatkan aktiviti bermusim untuk membantu merancang percutian anda di Hobart dan kawasan sekitarnya.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[Hobart, TAS. &copy; Tourism Tasmania &amp; Alastair Bett]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[y]]></stf_IsMobile>
+    <stf_keywords><![CDATA[cuaca di hobart, suhu hobart, iklim hobart]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Ketahui Lebih Lanjut]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Cuaca di Hobart - Iklim &amp; Suhu - Tourism Australia]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+      Cari maklumat tentang suhu, taburan hujan dan aktiviti bermusim untuk membantu merancang percutian anda di Hobart.
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <Listing isTemplate="1">
+<anc_List1><![CDATA[/my/explore/cities/hobart.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[Idea Lebih Lanjut mengenai Australia]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/my/AccommodationSearch.ignore]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/my/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/my/AttractionSearchResults.ignore]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/my/DestinfoSearchResults.ignore]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/my/EventsSearch.xml]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/my/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/my/hire.ignore]]></anc_Hire>
+<anc_Info><![CDATA[/my/InfoSearchResults.ignore]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/my/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/my/TourSearchResults.ignore]]></anc_Tour>
+<anc_Transport><![CDATA[/my/transport.ignore]]></anc_Transport>
+<hdl_Title><![CDATA[Rancang Kunjungan Anda]]></hdl_Title>
+<language><![CDATA[MSL]]></language>
+<stf_Accomodation><![CDATA[]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[]]></stf_Events>
+<stf_Hire><![CDATA[]]></stf_Hire>
+<stf_Informationservices><![CDATA[]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[Tasmania]]></stf_StateFilter>
+<stf_Tours><![CDATA[]]></stf_Tours>
+<stf_Transport><![CDATA[]]></stf_Transport>
+</PlanYourVisit>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Cuaca di Hobart]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+      Tasmania dan Hobart mengalami empat musim yang jelas berbeza. Iklimnya diterangkan sebagai iklim maritim sederhana. Bulan paling hangat adalah Disember, Januari, Februari dan Mac dengan suhu purata sekitar 21&deg;C. Dengan purata 626 milimeter taburan hujan tahunan, Hobart menjadi ibu negeri Australia yang kedua terkering. Taburan hujan agak sekata sepanjang tahun walaupun bulan-bulan musim sejuk merupakan yang paling lembap. Dalam musim sejuk, pulau ini menerima tiupan angin selatan dari Antartika dan mengalami suhu yang paling sejuk di Australia. Di sini anda akan mendapatkan maklumat tentang suhu, taburan hujan dan aktiviti bermusim untuk membantu anda merancang percutian anda di Hobart.
+    <p>
+      Musim Panas (Disember – Februari) adalah musim perayaan di <a href="/my/explore/cities/hobart.xml" target="_self">Hobart</a>. Julat suhu purata musim panas adalah antara 17-23&deg;C dan inilah masa yang sesuai untuk berseronok di luar. Sepanjang tempoh Tahun Baru, dermaga Hobart menjadi ceria dengan <a href="/my/explore/events/tas-taste-festival.xml" target="_self">Taste of Tasmania Festival</a> dan menjadi penamat yang menguja kepada <a href="/my/explore/events/syd-hobart-yacht-race.xml" target="_self">Perlumbaan Kapal Layar Sydney ke Hobart</a>. Memancing di laut dalam menarik perhatian pemancing dari bulan Disember hingga Jun, apabila suhu air yang hangat menyediakan persekitaran yang baik untuk ikan marlin dan tuna. Lokasi Tasmania yang di bawah selarian latitud ke-40 bermakna malam musim panasnya mempersembahkan senja yang panjang.
+    </p><p>
+      Musim Luruh (Mac - Mei) mempunyai banyak hari yang tenang, cerah dan ini masa terbaik untuk menikmati hasil keluaran dan budaya wilayah Tasmania pada perayaan kebudayaan dwitahunan Ten Days on the Island dalam bulan Mac. Ketahui sejarah Hobart dalam lawatan berjalan kaki di Sullivan’ s Cove dan <a href="/my/explore/cities/hobart/hobart-salamanca-place.xml" target="_self">Salamanca Place</a>; atau tujui bekas petempatan banduan di <a href="/my/explore/states/tas/tas-port-arthur.xml" target="_self">Port Arthur</a>. Landskap di sekeliling Hobart menunjukkan kepelbagaian warna ketika bunga liar berkembang dan pohon yang sangat tua berubah warna daripada merah menjadi keemasan sebagai persiapan menghadapi musim sejuk.
+    </p><p>
+      Musim Sejuk (Jun - Ogos) adalah masa untuk berehat di rumah dengan berdiang dekat perapian kayu, atau keluar berjalan kaki sambil menghirup udara segar. Anda boleh menyertai penduduk tempatan dalam Antarctica Mid-Winter Festival pada bulan Jun; merasai ketenangan daripada suara yang bersenandung dalam pesta Hobart Festival of the Voices; atau manjakan diri anda di Chocolate Winterfest dalam bulan Julai. Walaupun suhu waktu siangnya mungkin sejuk antara 3 – 11&deg;C, ini boleh menjadi waktu yang indah di Hobart dengan taburan hujan yang rendah. Jika keadaan sesuai, anda mungkin dapat menyaksikan fenomena Aurora Australis yang mengagumkan. Musim sejuk di Tasmania juga menawarkan peluang terbaik untuk memerhati ikan paus di Australia.
+    </p><p>
+      Musim Bunga (September - November) adalah antara musim terbaik untuk menerokai taman negara Tasmania yang hebat. Waktu terbaik untuk menjalani <a href="http://www.australia.com/campaigns/nothinglike/au/freycinet-product2.htm" target="_blank">Bay of Fires Lodge Walk</a>; Cradle Mountain Huts Walk yang ikonik; <a href="http://www.australia.com/campaigns/nothinglike/au/freycinet-product5.htm" target="_blank">Maria Island Walk</a>; atau <a href="http://www.australia.com/campaigns/nothinglike/au/freycinet-product4.htm" target="_blank">Freycinet Experience Walk</a> adalah dari bulan Oktober hingga April. Musim bunga sesuai untuk mencuba aktiviti sukan berkayak, meluncur dan berakit meredah jeram bertaraf dunia di Tasmania. Pada masa ini, taman-taman juga turut kembang mekar. Tasmania yang kembang mekar bermula dengan festival tulip di sebelah utara dan selatan dan berterusan hingga bulan Mei. Memancing ikan trout amat popular dan paling sesuai dilakukan pada musim bunga. Sertai pelayaran ke pulau luar pesisir Hobart, <a href="/my/explore/states/tas/tas-bruny-island.xml" target="_self">Bruny Island</a> dan Flinders Island untuk melihat begitu banyak hidupan liar. Tanpa mengira musim, bersiap-sedialah dengan kot tebal dan jaket hujan.
+    </p><br /><p><strong>Carta Iklim</strong></p><table style="border: #ccc 1px solid;" cellspacing="0" cellpadding="0" width="100%"><tbody><tr style="background-color: #cccccc;"><td style="width: 15%;" valign="top"><p><strong>Suhu</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>Jan</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>Feb</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>Mac</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>Apr</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>Mei</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>Jun</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>Jul</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>Ogos</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>Sep</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>Okt</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>Nov</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>Dis</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>Tahunan</strong></p></td></tr><tr><td style="border-bottom: #ccc 1px solid; width: 15%; border-right: #ccc 1px solid;" valign="middle"><p>
+              Min suhu maksimum (&deg;C)
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              23.1
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              22.2
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              20.7
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              17
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              13.9
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              11.4
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              10.5
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              12.2
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              14.9
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              17.4
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              19.4
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              21.9
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%;" valign="middle"><p style="text-align: center;">
+              17
+            </p></td></tr><tr><td style="width: 15%; border-right: #ccc 1px solid;" valign="middle"><p>
+              Min suhu minimum (&deg;C)
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              11.5
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              11.7
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              10.3
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              8.3
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              6.3
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              4.3
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              3.1
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              4.5
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              6
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              7.3
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              9.1
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              10.9
+            </p></td><td style="width: 6.5%;" valign="middle"><p style="text-align: center;">
+              7
+            </p></td></tr></tbody></table><p style="text-align: right;"><em><span style="font-size: 10px;">Sumber: Biro Meteorologi, 2013</span></em></p><p><strong>Carta Kerpasan</strong></p><table style="border: #ccc 1px solid;" cellspacing="0" cellpadding="0" width="100%"><tbody><tr style="background-color: #cccccc;"><td style="width: 15%;" valign="top"><p><strong>Taburan hujan</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>Jan</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>Feb</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>Mac</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>Apr</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>Mei</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>Jun</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>Jul</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>Ogos</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>Sep</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>Okt</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>Nov</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>Dis</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>Tahunan</strong></p></td></tr><tr><td style="width: 15%; border-right: #ccc 1px solid;" valign="middle"><p>
+              Min taburan hujan (mm)
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              43.8
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              39.2
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              42.1
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              46.8
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              42.5
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              49.3
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              47.5
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              47.4
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              48.2
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              54.8
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              54
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              51.3
+            </p></td><td style="width: 6.5%;" valign="middle"><p style="text-align: center;">
+              566.8
+            </p></td></tr><tr><td style="border-bottom: #ccc 1px solid; width: 15%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p>
+              Desil 5 (median) taburan hujan (mm)
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              35.2
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              30.2
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              32.1
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              40.9
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              31.2
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              40.7
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              41
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              37.1
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              44.8
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              46.8
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              46.3
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              41.6
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              557.1
+            </p></td></tr><tr><td style="width: 15%; border-right: #ccc 1px solid;" valign="middle"><p>
+              Min bilangan hari hujan ≥ 1 (mm)
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              3.9
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              3.3
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              3.9
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              4.6
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              4.7
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              5.2
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              5.3
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              5.6
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              5.5
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              6.4
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              5.2
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              4.8
+            </p></td><td style="width: 6.5%;" valign="middle"><p style="text-align: center;">
+              58
+            </p></td></tr></tbody></table><p style="text-align: right;"><em><span style="font-size: 10px;">Sumber: Biro Meteorologi, 2013</span></em></p>]]></txt_Information>
+            
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

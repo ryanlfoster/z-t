@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="681" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Pagina iniziale]]></headline>
+            <href><![CDATA[/it/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Esplora]]></headline>
+            <href><![CDATA[/it/explore.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Tasmania]]></headline>
+            <href><![CDATA[/it/explore/states/tas.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/explore-states-tasmania.jpg]]></img_background>
+    <hdl_Title><![CDATA[Tasmania]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/explore-states-tasmania-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/explore-states-tasmania-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[no]]></opt_PartnerLead>
+    <stf_description><![CDATA[Scopri l'aspra bellezza dei paesaggi naturali Patrimonio dell'Umanit&agrave;, naviga sul lungofiume di Hobart e assapora la cucina della Tasmania.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[y]]></stf_IsMobile>
+    <stf_keywords><![CDATA[Tasmania, Tas, Hobart, Launceston, Devonport, Cradle Mountain, Tasmanian Circle ]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Ulteriori Informazioni]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[In Vacanza in Tasmania]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[Respirate la storia sui lungofiume acciottolati di Hobart e passate per le aziende vinicole a clima fresco della Coal Valley.]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <IntegratedMiniMap isTemplate="1">
+    <!-- no user content -->
+</IntegratedMiniMap><TravellersStoryWidget isTemplate="1">
+    <anc_link><![CDATA[/explore/map.aspx?filters=states,experiences&zoom=7&centre=-42.135015,148.160667]]></anc_link>
+    <img_image><![CDATA[/contentimages/states-TAS.jpg]]></img_image> 
+</TravellersStoryWidget><Listing isTemplate="1">
+<anc_List1><![CDATA[/it/explore/cities/hobart/hobart-surrounds.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[Altri itinerari suggeriti in Australia]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/it/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/it/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/it/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/it/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/it/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/it/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/it/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/it/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/it/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/it/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/it/Transport.ignore]]></anc_Transport>
+<hdl_Title><![CDATA[Tasmania - Iniziate a programmare il vostro viaggio]]></hdl_Title>
+<language><![CDATA[ITA]]></language>
+<stf_Accomodation><![CDATA[Alloggi]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[Attrazione]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[Trova l’agenzia di viaggi pi&ugrave; vicina ]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[Informazioni sulle destinazioni]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[Eventi]]></stf_Events>
+<stf_Hire><![CDATA[Noleggio]]></stf_Hire>
+<stf_Informationservices><![CDATA[Informazioni]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[Tasmania]]></stf_StateFilter>
+<stf_Tours><![CDATA[Tour]]></stf_Tours>
+<stf_Transport><![CDATA[Trasporti]]></stf_Transport>
+</PlanYourVisit><MoreInformation isTemplate="1">
+    <hdl_Title><![CDATA[Maggiori informazioni sul Tasmania]]></hdl_Title>
+    <anc_Link><![CDATA[]]></anc_Link>
+    <anc_MoreLink><![CDATA[]]></anc_MoreLink> 
+    <img_Content><![CDATA[<img src="/contentimages/4.1.6.3_thumb.jpg" border="0" align="left" class="imgLeft">]]></img_Content>
+    <stf_LinkTitle><![CDATA[]]></stf_LinkTitle>
+    <stf_MoreLink><![CDATA[http://it.discovertasmania.com/it]]></stf_MoreLink>
+    <stf_MoreLinkText><![CDATA[Via a...]]></stf_MoreLinkText>
+    <stf_Teaser><![CDATA[Potrete trovare maggiori informazioni e programmare il vostro itinerario sul sito web di Tourism Tasmania]]></stf_Teaser> 
+</MoreInformation>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Tasmania]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        Respirate la storia sui lungofiume acciottolati di Hobart e passate per le aziende vinicole a clima fresco della Coal Valley. Preparati a restare senza fiato nella Wineglass Bay, dove scoprirai i relitti e i diamanti di Flinders Island. Visita Cataract Gorge, una gola nel cuore di Launceston in cui la natura regna sovrana, oppure ammira le bellezze naturali che costituiscono il 20% dell'isola e sono state dichiarate Patrimonio dell'umanit&agrave;. Specchiati nel Dove Lake e segui l'Overland Track nel Cradle-Mountain-Lake St Clair National Park.  Passeggia nel Southwest National Park, osserva due impetuosi fiumi unirsi nelle vallate del Franklin-Gordon Wild Rivers National Park ed esplora la Tarkine Reserve, una vastissima area costituita da foreste pluviali temperate, dune di sabbia e brughiere. Scopri l'affascinante cultura creativa della Tasmania e visita il Museum of Old and New Art (MONA) aperto di recente.  Questa galleria ospita la pi&ugrave; vasta collezione d'arte privata della nazione ed &egrave; diventata un'attrazione imperdibile per chi si reca in Australia, grazie alla sua collezione il cui valore &egrave; stimato in oltre 100 milioni di dollari.
+        <br />
+        <br />
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Hobart e dintorni ]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/4.1.6.1_highlight.jpg" alt="Hobart, TAS">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Hobart, TAS]]></stf_Caption>
+                    <anc_link><![CDATA[/it/explore/cities/hobart/hobart-surrounds.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Solcate le acque del fiume Derwent in kayak, sorseggiate caff&egrave; sotto gli ombrelloni di <a href="/it/explore/cities/hobart/hobart-salamanca-place.xml" target="_self">Salamanca Square</a> o respirate la pieni polmoni l’atmosfera marinaresca della prima periferia di Hobart, Battery Point. Ad appena 20 minuti dagli ottocenteschi magazzini in arenaria di Hobart si innalza il ventoso Mount Wellington. A nord-est di Hobart potrai scoprire la Coal River Valley, le sue aziende vinicole tipiche di questi climi freschi e la citt&agrave; storica di Richmond. Nella direzione opposta, leggermente a sud-ovest, la Huon Valley conduce a Huonville, un'altra citt&agrave; storica. Nel villaggio costiero di <a href="/it/explore/itineraries/tas-3days-hobart.xml" target="_self">Kettering</a> potrete prendere un traghetto per <a href="/it/explore/states/tas/tas-bruny-island.xml" target="_self">Bruny Island</a> (&egrave; possibile imbarcare l’auto) o partecipare a una crociera con full-immersion nella natura, attraverso dirupi, grotte e scogliere. Dalla mezzaluna di Cockle Creek percepirete la bellezza incontaminata del Southwest National Park, dichiarato Patrimonio dell’Umanit&agrave;, pur senza abbandonare mai la spiaggia. Sulla Tasman Peninsula, presso il <a href="/it/explore/states/tas/tas-port-arthur.xml" target="_self">Port Arthur Historic Site</a>, avrete un assaggio della vita dei carcerati nel 19&deg; secolo. Poi potrete passare un po’ di tempo a Woodbridge, passeggiare sulle spiagge sconfinate del Tasman National Park e cenare nel lusso al Peppermint Bay. Vedrete querce bicentenarie e cottage in arenaria a Oatlands e potrete ripercorrere i passi dei pionieri lungo la Heritage Highway da Launceston a Hobart. Visitate New Norfolk, citt&agrave; dell’antiquariato, e la deliziosa Hamilton sul fiume Clyde. Per un assaggio di high country e whisky al malto, visitate Bothwell, lungo i confini meridionali dell’altopiano centrale. 
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Costa orientale ]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/4.1.6.2_highlight.jpg" alt="Wineglass Bay, TAS">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Wineglass Bay, TAS]]></stf_Caption>
+                    <anc_link><![CDATA[/it/explore/itineraries/tas-east-coast.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Soggiornate nel paradiso turistico di Coles Bay, affacciato sulle acque cristalline di Oyster Bay, alle porte del <a href="/it/explore/icons/freycinet.xml" target="_self">Freycinet National Park</a>. <br />
+        <a href="/it/explore/icons/freycinet/tas-wineglass-bay.xml" target="_self">Wineglass Bay</a>, che potrete raggiungere a piedi, vi toglier&agrave; il fiato. Nelle acque di fronte alle sue bianche spiagge da sogno potrete nuotare, andare in barca, pescare, fare snorkeling e immersioni. Nel vicino Mount William National Park, potrete intraprendere l’escursione nella <a href="http://www.australia.com/campaigns/nothinglike/it/freycinet-product2.htm" target="_blank">Bay of Fires</a>, che vi porter&agrave; fra forester kangaroo, reperti aborigeni, boschi e spiagge bianche. Pi&ugrave; tardi potrete dedicarvi alla pesca sportiva o ai tuffi nel pittoresco porto di St Helens, sulle rive della Georges Bay. Assaggiate formaggio fresco nella vicina Pyengana o visitate vigneti e frutteti nei pressi delle citt&agrave; costiere di Bicheno e Swansea. Poi dirigetevi al Douglas-Apsley National Park, dove potrete passeggiare e accamparvi fra placidi fiumi, cascate, zone forestali e slanciati eucalipti e pini. Da Triabunna si pu&ograve; prendere il traghetto per <a href="http://www.australia.com/campaigns/nothinglike/it/freycinet-product5.htm" target="_blank">Maria Island</a>, ricca di storia e non accessibile alle auto, un vero paradiso per chi ama il bushwalking e il kayak in mare. Nel punto pi&ugrave; settentrionale della costa, troverete Flinders Island, dove potrete tuffarvi alla scoperta di relitti, inerpicarvi fino in cima alle rocce rosa e grigie di Mount Strzelecki e andare in cerca di diamanti a Killiecrankie.  
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Launceston, Tamar e il nord]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/4.1.6.3_highlight.jpg" alt="Launceston, TAS">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Launceston, TAS]]></stf_Caption>
+                    <anc_link><![CDATA[/it/explore/cities/regional-cities/tas-launceston-devonport-burnie.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        A <a href="/it/explore/cities/regional-cities/tas-launceston-devonport-burnie.xml" target="_self">Launceston</a> scoprirete eleganti edifici liberty e la natura magica di Cataract Gorge. Passeggiate sulla radura ricoperta di felci o dedicatevi alla discesa a doppia corda, alla roccia o al deltaplano approfittando delle ripide pareti della gola. Non lontano, ammirate gli uccelli nel loro habitat naturale, le paludi di Tamar Island, o imbattetevi in canguri, wallaby e vombati nel Narawntapu National Park. A nord-est troverete i terreni agricoli e il Forest EcoCentre di Scottsdale. Nelle vicinanze, a Bridport, potrete pescare, giocare a golf ammirando il panorama dello <a href="/it/explore/states/tas/tas-bass-strait-islands.xml" target="_self">stretto di Bass</a> a Barnbougle Dunes e vagare nei campi di lavanda di Nabowla. A Low Head incrocerete piccoli pinguini e potrete raggiungere in barca la colonia di lontre marine di Tenth Island. E ancora potrete sciare, fare escursioni o scalate sulle aspre vette del Ben Lomond National Park. Se vi viene fame, mangiate e bevete presso le aziende vinicole a clima fresco di Tamar Valley, come Ninth Island, Pipers Brook e Jansz, lungo la via turistica di Tamar Valley. Potrete fare una sosta al museo dell’estrazione dell’oro di Beaconsfield e mettervi alla ricerca di zaffiri nella citt&agrave; di Derby, nota per l’estrazione dello stagno. A sud di Launceston, respirate l’atmosfera di un villaggio del 19&deg; secolo a Longford e visitate la pi&ugrave; grande fiera dell’artigianato australiana nel fascinoso villaggio fluviale di Deloraine. Curiosate in gallerie d’antiquariato, botteghe artigianali e mercatini nel villaggio georgiano di Evandale e attraversate il fiume Ross su un ponte acciottolato.  
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Costa nord-occidentale]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/4.1.6.4.jpg" alt="The Nut, Stanley, TAS">]]></img_MainImage>
+                    <stf_Caption><![CDATA[The Nut, Stanley, TAS]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[Raggiungete Devonport su una delle navi Spirit of Tasmania, che sono fra le caratteristiche tipiche di questo grazioso porto. Da qui potrete percorrere la costa di Devonport a piedi o in bici, ammirare le pitture murali di Sheffield e visitare i negozi d’antiquariato di LaTrobe. Dedicatevi allo sci d’acqua, al kayak in mare o alla pesca da un pontone galleggiante a Port Sorrel, oppure passeggiate nei vivaci mercatini o sulla splendida spiaggia di Penguin. Esplorate le grotte calcaree del Mole Creek Karst National Park, che si trovano sotto i Great Western Tiers, noti agli aborigeni come Kooparoona Niara. Soggiornate nella trafficata citt&agrave; portuale di Burnie o nella storica Stanley, dove potrete ammirare il ripido monte vulcanico noto come “The Nut”. A Table Cape sarete circondati da distese di colorati tulipani primaverili e potrete passeggiare lungo le scogliere di Rocky Cape. Spingendovi all’estremo nord-ovest, raggiungerete la storica tenuta di Woolnorth a Cape Grim, che si estende su 22.000, dove il Bureau of Meteorology ha rilevato l’aria pi&ugrave; pulita del mondo. Navigate lungo il fiume Arthur, sotto lo sguardo delle aquile pescatrici, fino alla foresta pluviale temperata, alle dune sabbiose e ai siti degli aborigeni di Tarkine wilderness. Una localit&agrave; ancor pi&ugrave; remota &egrave; King Island, dove potrete praticare pesca sportiva, degustare formaggi delle celebri King Island Dairies e immergervi in oltre 70 siti in cui sono presenti relitti.&nbsp; ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Area naturale occidentale ]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/4.1.6.5_highlight.jpg" alt="Cradle Mountain, TAS">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Cradle Mountain, TAS]]></stf_Caption>
+                    <anc_link><![CDATA[/it/explore/icons/tas-wilderness.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Navigate lungo il maestoso fiume Gordon dal villaggio di pescatori di Strahan, sulla costa occidentale. Guardatelo confluire nel tumultuoso fiume Franklin e ammirate i due fiumi mentre attraversano all’unisono le valli ricche di foreste del <a href="/it/explore/icons/tas-wilderness.xml" target="_self">Franklin-Gordon Wild Rivers National Park</a>, Patrimonio dell'Umanit&agrave;. Tornati a <a href="/it/explore/states/tas/tas-wild-west-coast.xml" target="_self">Strahan</a>, potrete fare kayak a Macquarie Harbour, passeggiare su Ocean Beach ed esplorare i boschi di conifere e mirti su un veicolo a quattro ruote motrici. Cercate con lo sguardo il millenario pino Huon dall’obl&ograve; di un idrovolante o rilassatevi degustando cibi e vini eccellenti. Approfittate della suggestiva ferrovia a cremagliera per raggiungere la storica citt&agrave; di Queenstown, un tempo la pi&ugrave; ricca miniera d’oro e rame al mondo, o arrivateci percorrendo una strada con oltre 90 curve. Scoprite gli esuberanti trascorsi minerari di Zeehan, un tempo ricca grazie all’estrazione dell’argento. Poi saltate su una chiatta per Corinna e soggiornate in un cottage di minatori restaurato sulle rive del maestoso fiume Pieman. Dalla placida cittadina di Roseberry potete partire per un tour della miniera di Pasminco o camminare fino alle Montezuma Falls, le cascate pi&ugrave; alte della Tasmania. Poi esplorate le aspre vette e i limpidi laghi del <a href="/it/explore/states/tas/tas-cradle.xml" target="_self">Cradle Mountain-Lake St Clair National Park</a>, dichiarato Patrimonio dell’Umanit&agrave;. Percorrete per intero o in parte i famosi 65 chilometri dell’<a href="/it/explore/itineraries/tas-overland-track.xml" target="_self">Overland Track</a> e ammirate il monte Ossa, il pi&ugrave; alto della Tasmania. 
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+        <lst_Subpage><![CDATA[<a href="/it/explore/states/tas/tas-bruny-island.xml">Bruny Island, Tasmania</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/it/explore/states/tas/tas-tranquil-liffey-falls.xml">Le tranquille Liffey Falls in Tasmania</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/it/explore/states/tas/tas-walking.xml">Passeggiando tra la natura della Tasmania</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/it/explore/states/tas/tas-bass-strait-islands.xml">Fuga dallo Stretto di Bass</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/it/explore/states/tas/tas-port-arthur.xml">Fuga dalla prigione a Port Arthur</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/it/explore/states/tas/tas-cradle.xml">Rifugiatevi nella natura di Cradle Mountain</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/it/explore/states/tas/tas-winter-secrets.xml">Segreti d’inverno in Tasmania</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/it/explore/states/tas/tas-gardens.xml">I giardini in fiore della Tasmania</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/it/explore/states/tas/tas-wild-west-coast.xml">L’incontaminata costa occidentale della Tasmania</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/it/explore/states/tas/bruny-travel-story.xml">Tasmania, una vacanza da ricordare</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/it/explore/states/tas/tasman-national-park-story.xml">Parco nazionale di Tasman</a>]]></lst_Subpage>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

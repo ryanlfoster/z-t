@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="6455" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Startseite]]></headline>
+            <href><![CDATA[/de/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Erkunden]]></headline>
+            <href><![CDATA[/de/explore.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Das Australien der Aborigines]]></headline>
+            <href><![CDATA[/de/explore/things-to-do/aboriginal-australia.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/explore-things-to-see-do-aboriginal.jpg]]></img_background>
+    <hdl_Title><![CDATA[Das Australien der Aborigines]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/explore-things-to-see-do-aboriginal-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/explore-things-to-see-do-aboriginal-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[no]]></opt_PartnerLead>
+    <stf_description><![CDATA[Erfahren Sie mehr &uuml;ber die Geschichte, Kunst und Lebensweise des Volks der Aborigines auf Tourism Australia. Klicken Sie hier f&uuml;r mehr Informationen.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[Darwin Festival, NT.  &copy; Tourism NT]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[y]]></stf_IsMobile>
+    <stf_keywords><![CDATA[Aborigines, Ureinwohner Australien ]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Lesen sie mehr]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Die Geschichte, Kunst und Kultur der Aborigines]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[Machen Sie sich mit den Kulturerlebnissen, heiligen St&auml;tten und Reisen der Aborigines Australiens vertraut.&nbsp; ]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <ExperienceLocationMap isTemplate="1">
+    <!-- no user content -->
+</ExperienceLocationMap><PlanYourHolidayBox isTemplate="1">
+    <anc_MoreLink><![CDATA[/de/plan.xml]]></anc_MoreLink>
+    <hdl_Headline><![CDATA[Planen Sie Ihren Urlaub]]></hdl_Headline>
+    <language><![CDATA[DEU]]></language>
+    <opt_IsOnHomepage><![CDATA[]]></opt_IsOnHomepage>
+    <stf_MenuIconClass><![CDATA[]]></stf_MenuIconClass>
+    <stf_More><![CDATA[More]]></stf_More>
+    <stf_PlanYourHolidayTitle><![CDATA[Plan your holiday]]></stf_PlanYourHolidayTitle>
+    <lst_PageLinks>
+        <lst_PageLink>
+            <url><![CDATA[/de/plan/plan-your-trip/find-travel-agent.xml]]></url>
+            <hdl_Title><![CDATA[Finden Sie ein Reiseb&uuml;ro]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/de/plan/plan-your-trip/getting-there.xml]]></url>
+            <hdl_Title><![CDATA[Anreise nach Australien]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/de/plan/plan-your-trip/accommodation.xml]]></url>
+            <hdl_Title><![CDATA[Unterkunft]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/de/plan/plan-your-trip/tours.xml]]></url>
+            <hdl_Title><![CDATA[Touren suchen]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/de/plan/plan-your-trip/specialoffers.xml]]></url>
+            <hdl_Title><![CDATA[Sonderangebote*]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+    </lst_PageLinks>
+</PlanYourHolidayBox>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Das Australien der Aborigines]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        Machen Sie sich mit den Kulturerlebnissen, heiligen St&auml;tten und Reisen der Aborigines Australiens vertraut.
+        <p>Die Aborigines Australiens haben eine lange, lebendige Kulturgeschichte, die 50.000 Jahre zur&uuml;ckreicht.  Erhalten Sie eine Momentaufnahme der verschiedenen Erlebnisse, die sich Ihnen bieten, wenn Sie in das Australien der Aborigines eintauchen.</p>
+        <p>Entdecken Sie geschichtstr&auml;chtige Orte der Aborigines im Northern Territory.  Unternehmen mit einem Anangu-Reisef&uuml;hrer eine Wanderung um den Fu&szlig; des Uluru im Roten Zentrum Australiens.  Durchst&ouml;bern Sie die Aborigines-Galerien in Alice Springs, wo das Volk der Arrernte seit 20.000 Jahren angesiedelt ist.  Erfahren Sie im Kakadu National Park, der zum Weltnaturerbe geh&ouml;rt, Interessantes &uuml;ber die Mythen der Taumzeit aus der wunderbaren Felskunst.</p>
+        <p>Finden Sie die Reisen, die Sie n&auml;her an die &auml;lteste Kultur der Welt bringen.  Fahren Sie auf dem Red Centre Way zu den heiligen St&auml;tten wie Uluru, Kata Tjuta und Kings Canyon.  Folgen Sie dem South Australian Loop und lauschen Sie am Lagerfeuer in den s&uuml;daustralischen Flinders Ranges den Sch&ouml;pfungsgeschichten der Adnyamathanha.  Fahren Sie auf dem Savannah Way zu den Felskunstst&auml;tten der Aborigines in ganz Queensland, dem Northern Territory und Westaustralien.</p>
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Mehr &uuml;ber Ureinwohner Australiens]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/3.1.2.2_highlight.jpg" alt="The Kimberley, WA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[The Kimberley, WA]]></stf_Caption>
+                    <anc_link><![CDATA[/de/explore/things-to-do/aboriginal-australia/aboriginal.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        <span class="redDotText">Finden Sie heraus, wie Sie Zugang zur &auml;ltesten lebendigen Kultur der Welt erhalten. <br />
+        Sie k&ouml;nnen ihre Geschichte genauso entdecken, wie sie diese seit mindestens 50.000 Jahren &uuml;berliefert haben – durch Kunst, Tanz, Mythen, Musik und das Land selbst. </span>
+        <p><span class="redDotText">Sie k&ouml;nnen die Kunst und den zeitgen&ouml;ssischen Tanz der Aborigines in den St&auml;dten sehen. Sie k&ouml;nnen auch ins Outback reisen und dort am Lagerfeuer den Sch&ouml;pfungsmythen der Dreamtime lauschen. Unternehmen Sie Buschwanderungen und schnorcheln Sie, kosten Sie vom „Bush Tucker“ oder lernen Sie die Herstellung von Speeren und fangen Sie auf traditionelle Weise Fisch. </span></p>
+        <p><span class="redDotText">Aborigine-Australier helfen Ihnen gerne, ein tiefes Verst&auml;ndnis f&uuml;r dieses <a href="/de/explore/things-to-do/aboriginal-australia/aboriginal.xml" target="_self">uralte Land</a>, dessen Spiritualit&auml;t und Zauber zu gewinnen.</span></p>
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Northern Territory]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/4.1.8.1_highlight.jpg" alt="Darwin, NT">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Darwin, NT]]></stf_Caption>
+                    <anc_link><![CDATA[/de/explore/states/nt.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Erleben Sie die raue Natursch&ouml;nheit und die weit zur&uuml;ckreichende Aborigine-Geschichte im <a href="/de/explore/states/nt.xml" target="_self">Northern Territory</a>. Lassen Sie sich von der kulinarischen Vielfalt und den unz&auml;hligen Kulturen Darwins verzaubern und entdecken Sie den Regenwald, Aborigine-Felskunst und den Kakadu National Park, der zum Weltnaturerbe z&auml;hlt. &Uuml;bernachten Sie im Roten Zentrum in Alice Springs und besuchen Sie die Wahrzeichen und Naturwunder Uluru-Kata Tjuta und den Kings Canyon. Machen Sie eine Bootsfahrt durch die gewaltige Katherine Gorge und versuchen Sie sich in Tennant Creek im Goldwaschen. Im Northern Territory erwarten Sie eine bunte Tierwelt, skurrile Outback-Pers&ouml;nlichkeiten und die perfekte Umgebung f&uuml;r ein Naturabenteuer.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Australia's Red Centre]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/4.3.14.2_highlight.jpg" alt="Simpson Desert, NT">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Simpson Desert, NT]]></stf_Caption>
+                    <anc_link><![CDATA[/de/explore/icons/red-centre.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Bereichern Sie Ihre Seele in <a href="/de/explore/icons/red-centre.xml" target="_self">Australiens rotem Herzen</a>. Entdecken Sie die ber&uuml;hmten Naturwunder Uluru, Kata Tjuta, die MacDonnell Ranges und Kings Canyon in Australiens Rotem Zentrum. Sie k&ouml;nnen diese Landschaften alle von Alice Springs aus erreichen, der ber&uuml;hmten Stadt im Outback, wo moderne Annehmlichkeiten nur einen Tagesausflug von uralten Gebirgsz&uuml;gen und endloser Weite entfernt liegen.  Bestaunen Sie den Uluru vom R&uuml;cken eines Kamels aus und machen Sie eine Fahrt mit dem Gel&auml;ndewagen entlang des uralten Finke River.  Schlafen Sie unter dem Sternenhimmel und schwimmen Sie in der Glen Helen Gorge der MacDonnell Ranges.  Entdecken Sie die spirituellen Dimensionen der Kunst der Aborigines im Simpson Desert.  Bestaunen Sie einzigartige Flora und Fauna am Larapinta Trail und zeitlos sch&ouml;ne, farbintensive Aussichten entlang des Red Centre Way.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Kakadu]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/4.3.15.2_highlight.jpg" alt="Rock Art, Kakadu, NT">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Rock Art, Kakadu, NT]]></stf_Caption>
+                    <anc_link><![CDATA[/de/explore/icons/kakadu.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Entdecken Sie den <a href="/de/explore/icons/kakadu.xml" target="_self">Kakadu National Park</a>, der 3 Stunden &ouml;stlich von Darwin liegt und zum Weltnaturerbe z&auml;hlt. Hier in Australiens gr&ouml;&szlig;tem Nationalpark erwarten Sie steile Felsw&auml;nde, ein &uuml;ppiger Regenwald und <a href="/de/explore/icons/kakadu/nt-rock-art.xml" target="_self">Felskunstgalerien</a>, die bis zu 50.000 Jahre alt sind. Erfahren Sie von den traditionellen Besitzern des Landes, den Bininj/Mungguy-Aborigines, Interessantes &uuml;ber die Kultur der Aborigines. Beobachten Sie inmitten der Feuchtgebiete die riesigen Schw&auml;rme von Wasserv&ouml;geln. Bewundern Sie die zarten Wasserlilien, die pr&auml;historischen Krokodile, tosenden Wasserf&auml;lle und glitzernden Wasserl&ouml;cher. Erleben Sie den Zauber von Kakadu in sechs v&ouml;llig unterschiedlichen Jahreszeiten. Von zarten Wasserlilien bis hin zu pr&auml;historischen Krokodilen bietet Kakadu unz&auml;hlige Sch&auml;tze, die darauf warten, von Ihnen entdeckt zu werden.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Alice Springs]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/4.1.22.1_highlight.jpg" alt="Larapinta Trail, NT">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Larapinta Trail, NT]]></stf_Caption>
+                    <anc_link><![CDATA[/de/explore/cities/alice-springs.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        <a href="/de/explore/cities/alice-springs/alice-springs-surrounds.xml" target="_self">Alice Springs</a> befindet sich in Australiens rotem Zentrum und ist umgeben von den MacDonnell Ranges und der endlosen W&uuml;ste.  Die ber&uuml;hmte Outback-Stadt, in der die Arrernte-Aborigines seit 20.000 Jahren leben, fand ihre Anf&auml;nge als Station f&uuml;r die Overland Telegrafenleitung.  Heute ist Alice eine ausgelassene, moderne Stadt mit einer bewegten Pioniergeschichte, abenteuerlichen Landschaft und reichhaltiger Kunst der Aborigines.  Au&szlig;erdem ist sie das wichtigste Tor zu den ber&uuml;hmten Outback-Sehensw&uuml;rdigkeiten wie Uluru-Kata Tjuta, Kings Canyon, Simpson Desert und die East und West MacDonnell Ranges.
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+        <lst_Subpage><![CDATA[<a href="/de/explore/things-to-do/aboriginal-australia/aboriginal.xml">Mehr über Ureinwohner Australiens</a>]]></lst_Subpage>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

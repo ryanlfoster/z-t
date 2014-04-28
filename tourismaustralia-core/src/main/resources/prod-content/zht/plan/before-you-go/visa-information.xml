@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="12255" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[首頁]]></headline>
+            <href><![CDATA[/zht/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[計劃]]></headline>
+            <href><![CDATA[/zht/plan.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[簽證資訊]]></headline>
+            <href><![CDATA[/zht/plan/before-you-go/visa-information.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/plan-before-you-go-visa-customs.jpg]]></img_background>
+    <hdl_Title><![CDATA[簽證資訊]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/plan-before-you-go-visa-customs-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/plan-before-you-go-visa-customs-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[除非您是澳洲或紐西蘭公民，否則必須持有簽證才能進入澳洲。 ]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[簽證資訊]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[y]]></stf_IsMobile>
+    <stf_keywords><![CDATA[簽證; 旅遊簽證; 工作假期簽證; 學生簽證; 電子簽證; eVisitor 簽證; 延長您在澳洲停留的時間]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[了解更多資料]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[簽證資訊]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[簽證資訊]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        除非您是澳洲或紐西蘭公民，否則必須持有簽證才能進入澳洲。 
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <Listing isTemplate="1">
+<anc_List1><![CDATA[/zht/plan/before-you-go/customs-quarantine.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[更多澳洲風景]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/zht/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/zht/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/zht/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/zht/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/zht/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/zht/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/zht/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/zht/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/zht/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/zht/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/zht/Transport.aspx]]></anc_Transport>
+<hdl_Title><![CDATA[計劃您的假期]]></hdl_Title>
+<language><![CDATA[CHT]]></language>
+<stf_Accomodation><![CDATA[]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[]]></stf_Events>
+<stf_Hire><![CDATA[]]></stf_Hire>
+<stf_Informationservices><![CDATA[]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[]]></stf_StateFilter>
+<stf_Tours><![CDATA[]]></stf_Tours>
+<stf_Transport><![CDATA[]]></stf_Transport>
+</PlanYourVisit>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[簽證資訊]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        除非您是澳洲或紐西蘭公民，否則必須持有簽證才能進入澳洲。 紐西蘭護照持有人可在抵達澳洲時申請簽證。 其它國家護照持有人則必須在出發前申請簽證。 您可以就近在澳洲領事館申請旅遊和工作假期簽證等各種簽證。 您也可以在線上申請特定類型的簽證。
+        <p>在申請或取得澳洲簽證之前，請您需要了解一些重要事項。  其中包括申請正確類型的簽證、申請條件、您在澳洲期間所需承擔之責任義務，以及遵守簽證條款的重要性。</p>
+        <p>如需更多詳細資訊，請瀏覽澳洲移民局（Department of Immigration and Citizenship）網站 [www.immi.gov.au]</p>
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[旅遊簽證]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        旅遊簽證乃供到澳洲度假、觀光、參加社交或娛樂活動、拜訪親戚、朋友，或從事其他短期非以工作為目的活動之人士使用。 來訪澳洲的遊客可以申請多種旅遊簽證。 請瀏覽澳洲移民局（Department of Immigration and Citizenship）網站，了解資格規定。 
+        <p><strong>ETA（遊客）（子類別 976）<br />
+        </strong>電子存檔簽證，適合停留時間不超過 3 個月，短期造訪澳洲之人士。 可以核發給許多國家和地區的護照持有人（非居住於澳洲）。</p>
+        <p><strong>eVisitor（子類別 651）<br />
+        </strong>電子存檔簽證，適合到澳洲旅遊的遊客或出差的商務人士使用，最長停留時間三個月。 此類簽證可核發給歐盟及數個其他歐洲國家的護照持有人（非居住於澳洲）。</p>
+        <p><strong>旅遊簽證（子類別 676）<br />
+        </strong>暫時簽證，能在澳洲停留三、六或 12 個月。 申請人可在澳洲國內外申請此類簽證。 符合資格的某些遊客，可在線上提出申請 e676 旅遊簽證。</p>
+        <p><strong>親屬擔保旅遊簽證（子類別 679）<br />
+        </strong>適用於計畫到澳洲探親之人士，最長可以停留 12 個月。 須由一名澳洲公民或永久居民做出正式擔保。</p>
+        <p>非澳洲公民之特定國家旅客有資格免簽過境澳洲。 如果您不符合免簽過境之資格，請申請過境簽證。</p>
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[工作假期簽證]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        工作假期和打工度假計畫目的在於鼓勵文化交流，並讓簽約國家間的關係更緊密。年輕人可以透過短期受僱，在澳洲停留更長時間。 工作假期簽證共有兩種：
+        <p><strong>工作假期簽證（子類別 417）<br />
+        </strong>適用於比利時、加拿大、賽普勒斯共和國、丹麥、愛沙尼亞、芬蘭、法國、德國、香港、愛爾蘭共和國、義大利、日本、大韓民國、馬爾他、荷蘭、挪威、瑞典、台灣和大英國協的人民。</p>
+        <p><strong>打工度假簽證（子類別</strong> <strong>462）<br />
+        </strong>適用於孟加拉、智利、印尼、伊朗、馬來西亞、泰國、土耳其和美國申請人。前述人士可持打工度假簽證進入澳洲。</p>
+        <p>澳洲移民局（Department of Immigration and Citizenship）製作了許多資料文件， 提供在澳洲短期居住選項的相關詳細資訊，其中便包括工作假期和打工度假計畫，以及在澳洲工作的資訊。</p>
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[學生簽證]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        <div style="mso-element: frame; mso-element-frame-hspace: 9.0pt; mso-element-wrap: around; mso-element-anchor-vertical: paragraph; mso-element-anchor-horizontal: margin; mso-element-left: center; mso-element-top: 12.45pt; mso-height-rule: exactly;">
+        <p>想到澳洲留學的學生，以及在澳洲留學學生的雙親、親屬或監護人，可以申請特殊的簽證。</p>
+        <p>端視您的護照國家及學習課程而定，澳洲有八種子類別學生簽證供您選擇。 請洽詢澳洲政府部門，了解如何依照您的個人情況申請正確的簽證。 </p>
+        <p>想要藉由專業培訓計畫或參與職場訓練來訪澳洲之人士，也可以申請擔保培訓簽證。</p>
+        </div>
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[電子簽證]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        電子簽證（ETA）能讓持有人來訪澳洲進行短期旅遊或洽公，最長可停留三個月。 ETA 可供超過 30 個國家、地區和地點的護照持有人申請。 請查看澳洲移民局（Department of Immigration and Citizenship）網站，了解資格規定。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[eVisitor 簽證]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        eVisitor 能讓訪客至澳洲進行短期旅遊或洽公，最長停留時間為三個月。 eVisitor 可免費申請，歐盟和數個其他歐洲國家的護照持有人都能提出申請。 請查看澳洲移民局（Department of Immigration and Citizenship）網站，了解資格規定。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[延長您在澳洲停留的時間]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        如果您人在澳洲，並且持有有效、停留限期為三個月以內的 ETA（遊客，子類別 976）、eVisitor（子類別 651）、e676 旅遊簽證，或以書面申請之旅遊簽證（子類別 676），您可以延長停留時間，最長可延至六個月。 請查看澳洲移民局（Department of Immigration and Citizenship）網站，了解詳情。
+        <p>請注意，上述資訊可能定期變更，請務必查看澳洲移民局（Department of Immigration and Citizenship）網站，了解最新資訊。</p>
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[澳洲的海關和檢疫]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        澳洲的海關法禁止攜帶毒品、類固醇、武器、槍械以及受保護的野生動植物進入澳洲。 某些常見物品，如新鮮或包裝的食品、水果、蛋類、肉類、植物、種子、皮毛等，也在禁止之列。 攜帶現金不受限制，但金額超過 $10,000 澳元則需要申報。 如需更多詳細資訊，請瀏覽澳洲政府海關總署（Australian Government Customs and Border Protection）網站 [www.customs.gov.au]，以及澳洲檢疫檢查服務（Australian Quarantine and Inspection Service）網站 [www.daff.gov.au/aqis] 
+        <p>澳洲移民局（The Department of Immigration and Citizenship）[www.immi.gov.au] 負責核發簽證給想至澳洲造訪、工作、讀書或居住之人士， 並且負責管理合法進入並於澳洲居留的人。達成此目標的做法之一便是進行有效的邊界安全檢查。 澳洲移民局也提供移民澳洲的資訊和申請表格，以及定居澳洲、公民入籍及多元文化事務的相關資訊。</p>
+        <p>澳洲海關總署（Australian Customs and Border Protection Service）[www.customs.gov.au] 負責管理澳洲邊界的安全及完整， 並與其他政府及國際機構合作，尤其是澳洲聯邦警察（Australian Federal Police）、澳洲檢疫檢查服務（Australian Quarantine and Inspection Service）、澳洲移民局（The Department of Immigration and Citizenship）及國防部（Department of Defence），負責檢查並阻止非法走私貨物及非法入境。[www.customs.gov.au]</p>
+        <p>澳洲檢疫檢查服務（Australian Quarantine and Inspection Service，AQIS）[www.daff.gov.au/aqis] 負責管理澳洲邊界的檢疫控管，藉此盡力將外來害蟲和疾病進入澳洲的風險降到最低。</p>
+        <p>如需了解更多澳洲政府部門及其職責的相關資訊，請瀏覽 <a href="http://www.australia.gov.au"  >www.australia.gov.au</a></p>
+        <p><a  href="http://www.australia.gov.au"></a></p>
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

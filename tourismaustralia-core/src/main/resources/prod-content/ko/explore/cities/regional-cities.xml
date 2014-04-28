@@ -1,0 +1,382 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="11000" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[홈]]></headline>
+            <href><![CDATA[/ko/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[호주 여행 정보]]></headline>
+            <href><![CDATA[/ko/explore.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[호주의 지방 도시]]></headline>
+            <href><![CDATA[/ko/explore/cities/regional-cities.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/about-things-to-do-regional-cities.jpg]]></img_background>
+    <hdl_Title><![CDATA[호주의 지방 도시]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/explore-cities-regional-cities-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/explore-cities-regional-cities-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[no]]></opt_PartnerLead>
+    <stf_description><![CDATA[호주의 지방 도시를 여행해보세요. 각양각색의 지방 도시를 여행하면서 목가적인 백사장 해변, 거북이 서식지, 세계 유산으로 지정된 다우림 등을 방문할 수 있습니다.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[호주의 지방 도시]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[y]]></stf_IsMobile>
+    <stf_keywords><![CDATA[호주 지방 도시, 호주 지방 도시]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[상세 정보]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[호주 지방 도시 - 호주정부관광청]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[브룸에서부터 번다버그에 이르기까지 다양한 호주의 지방 도시들을 소개합니다.]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <IntegratedMiniMap isTemplate="1">
+    <!-- no user content -->
+</IntegratedMiniMap><AtaGlance isTemplate="1">
+<hdl_Title><![CDATA[호주의 도시들]]></hdl_Title>
+<img_Map><![CDATA[]]></img_Map>
+<stf_Title1><![CDATA[]]></stf_Title1>
+<stf_Title2><![CDATA[]]></stf_Title2>
+<stf_Title3><![CDATA[]]></stf_Title3>
+<stf_Title4><![CDATA[]]></stf_Title4>
+<stf_Title5><![CDATA[]]></stf_Title5>
+<txt_Description1><![CDATA[
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tbody>
+                <tr>
+                    <td style="padding-right: 5px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/ko/explore/cities/cities.xml" target="_self">호주의 도시</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 5px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/ko/explore/cities/sydney.xml" target="_self">시드니</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 5px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/ko/explore/cities/melbourne.xml" target="_self">멜버른</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 5px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/ko/explore/cities/brisbane.xml" target="_self">브리스번</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 5px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/ko/explore/cities/perth.xml" target="_self">퍼스</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 5px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/ko/explore/cities/darwin.xml" target="_self">다윈</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 5px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/ko/explore/cities/adelaide.xml" target="_self">애들레이드</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 5px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/ko/explore/cities/hobart.xml" target="_self">호바트</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 5px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/ko/explore/cities/canberra.xml" target="_self">캔버라</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 5px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/ko/explore/cities/gold-coast.xml" target="_self">골드 코스트</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 5px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/ko/explore/cities/cairns.xml" target="_self">케언즈</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 5px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/ko/explore/cities/alice-springs.xml" target="_self">앨리스 스프링스</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 5px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/ko/explore/cities/broome.xml" target="_self">브룸</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 5px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/ko/explore/cities/regional-cities.xml" target="_self">호주의 지방 도시</a></p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <br />
+    ]]></txt_Description1>
+<txt_Description2><![CDATA[]]></txt_Description2>
+<txt_Description3><![CDATA[]]></txt_Description3>
+<txt_Description4><![CDATA[]]></txt_Description4>
+<txt_Description5><![CDATA[]]></txt_Description5>
+</AtaGlance><Listing isTemplate="1">
+<anc_List1><![CDATA[/ko/explore/icons/great-barrier-reef.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[기타 호주 여행 아이디어]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/ko/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/ko/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/ko/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/ko/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/ko/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/ko/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/ko/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/ko/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/ko/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/ko/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/ko/Transport.aspx]]></anc_Transport>
+<hdl_Title><![CDATA[Plan Your Visit]]></hdl_Title>
+<language><![CDATA[KOR]]></language>
+<stf_Accomodation><![CDATA[]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[]]></stf_Events>
+<stf_Hire><![CDATA[]]></stf_Hire>
+<stf_Informationservices><![CDATA[]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[]]></stf_StateFilter>
+<stf_Tours><![CDATA[]]></stf_Tours>
+<stf_Transport><![CDATA[]]></stf_Transport>
+</PlanYourVisit>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[호주의 지방 도시]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[자연의 아름다움과 함께 다양한 체험을 즐길 수 있는 호주의 지방 도시들을 소개합니다.&nbsp; 
+
+<P>세계유산으로 등재된 데인트리 레인포레스트(Daintree Rainforest)와 그레이트 베리어 리프(Great Barrier Reef)의 관문인 케언즈(Cairns)를 방문해 보세요. 좀 더 남쪽으로 이동하면 대형 슈거 시티 번다버그(Bundaberg)가 위치하는데 이곳에서는 그레이트 베리어 리프 남단에서 스노클링을 즐기고 몬 레포스 비치(Mon Repos Beach)에서 거북이 알이 부화하는 모습도 목격하실 수 있습니다. 레스토랑, 테마파크, 쇼핑뿐만 아니라 드넓은 백사장과 세계유산으로 지정된 울창한 삼림 지대로 유명한 골드 코스트(Gold Coast)도 빼 놓을 수 없는 곳입니다.&nbsp; </P>
+
+<P>앨리스 스프링스(Alice Springs)에서 원주민 예술에 흠뻑 빠져 보세요. 웨스트 맥도넬 협곡(West MacDonnell Ranges)에서 트레킹을 즐기고 호주 레드 센터에 위치한 울룰루(Uluru)로 당일치기 여행을 떠나 보세요. 킴벌리 북서쪽에 위치한 외딴 항구 도시 브룸(Broome)에서는 아름다운 케이블 비치(Cable Beach)를 따라 낙타 체험을 즐겨 보세요. 서호주 남해안에 위치한 올버니(Albany)에서는 국립공원에서 낚시, 다이빙 또는 하이킹을 즐기거나 고래를 직접 목격하는 행운도 만나실 수 있습니다.</P>]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[오렌지 (Orange), 뉴 사우스 웨일즈]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-events-nsw-taste-orange-hl.jpg" alt="오렌지 (Orange), 뉴 사우스 웨일즈">]]></img_MainImage>
+                    <stf_Caption><![CDATA[오렌지, 뉴 사우스 웨일즈]]></stf_Caption>
+                    <anc_link><![CDATA[/ko/explore/events/nsw-taste-of-orange.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        시드니에서 서쪽으로 차로 4시간 정도 떨어진 어느 사화산 기슭에 위치한 <a href="/ko/explore/events/nsw-taste-of-orange.xml" target="_self">오렌지</a>(Orange)를 천천히 둘러보며 삶의 여유를 느껴보세요. 한냉지 와이너리와 유명 레스토랑들을 들러보세요. 4월에 열리는 오렌지 F.O.O.D 위크나 이후 10월에 열리는 오렌지 와인 축제(Orange Winefest)에 참가해 이 지역의 맛난 먹거리와 와인을 맛보세요. 오렌지 식물원(Orange Botanical Gardens)을 둘러보고 시내 전통유산 트레일(City Heritage Trail)를 거닐거나 태고적 화산봉인 마운트 카노볼라스(Mt Canobolas)에 올라 도시 전경을 감상해보세요.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[앨리스 스프링스 (Alice Springs) 및 주변 지역, 노던 테리토리]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-cities-alice-springs-alice-springs-hl.jpg" alt="앨리스 스프링스, 노던 테리토리">]]></img_MainImage>
+                    <stf_Caption><![CDATA[앨리스 스프링스, 노던 테리토리]]></stf_Caption>
+                    <anc_link><![CDATA[/ko/explore/cities/alice-springs/alice-springs-surrounds.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        앨리스 스프링스는 <a href="/ko/explore/icons/red-centre.xml" target="_self">호주 레드 센터</a>(Red Centre)에 자리잡고 있으며 맥도넬 산맥(MacDonnell Ranges)과 광활한 사막이 그 경계를 차지하고 있습니다.  아렌테(Arrernte) 원주민 부족들이 2만 년 동안 살아온 아웃백 오지에 오버랜드 전신국(Overland Telegraph Line)의 중간 역이 세워진 것을 시초로 이 유명한 촌락이 생겨나게 되었지요.
+        오늘날 앨리스 스프링스는 활기차고 현대적인 마을로, 풍부한 개척시대의 유산과 모험심을 자극하는 주변 경관 그리고 원주민 예술 및 문화를 자랑하고 있습니다.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[번다버그 (Bundaberg), 퀸즈랜드]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-cities-regional-cities-bundaberg-hl.jpg" alt="번다버그, 퀸즈랜드">]]></img_MainImage>
+                    <stf_Caption><![CDATA[번다버그, 퀸즈랜드]]></stf_Caption>
+                    <anc_link><![CDATA[/ko/explore/cities/regional-cities/bundaberg-natural-attraction.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        브리즈번 북쪽으로 차로 4시간 이동하면 <a href="/ko/explore/cities/regional-cities/bundaberg-natural-attraction.xml" target="_self">번다버그</a>(Bundaberg) 인근에 위치한 바다거북 서식지를 만나실 수 있습니다. 유서 깊은 이 사탕수수 도시는 산호초와 140km에 이르는 청정 백사장으로 둘러싸인 그레이트 베리어 리프(Great Barrier Reef)의 최남단 관문이기도 합니다. 레이디 머스그레이브 아일랜드(Lady Musgrave Island)와 레이디 엘리어트 아일랜드(Lady Elliot Islands)에서 스쿠버 다이빙과 스노클링을 즐기고 근처 해변 국립공원에서 낚시와 수영도 즐겨 보세요. 번다버그에는 박물관, 고건축물, 울창한 식물원과 같이 전통적인 도시의 즐길거리 또한 다양하게 준비되어 있습니다.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[케언즈 (Cairns) 및 주변 지역, 퀸즈랜드]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-cities-cairns-cairns-hl.jpg" alt="케언즈, 퀸즈랜드">]]></img_MainImage>
+                    <stf_Caption><![CDATA[케언즈, 퀸즈랜드]]></stf_Caption>
+                    <anc_link><![CDATA[/ko/explore/cities/cairns/cairns-surrounds.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        가까운 강에서 하얗게 부서지는 강물을 가르며 래프팅을 즐기세요.  나비들로 수 놓인 고즈넉한 마을 쿠란다(Kuranda)까지 멋진 풍경을 배경 삼아 기차를 타보세요.  아니면 데인트리 열대우림(Daintree Rainforest)이 뿜어내는 태고의 마력에 흠뻑 젖어보는 것도 좋겠지요. 이 활기찬 국제적 분위기의 도시에서는 멋진 레스토랑과 상점, 바가 여러분을 기다립니다.  또한 이곳은 열대성 북부 퀸즈랜드(Tropical North Queensland) 지역의 섬과 열대우림 그리고 산호초 지대 여행의 기지로 완벽한 곳입니다.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[골드 코스트 (Gold Coast) 및 주변 지역, 퀸즈랜드]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-cities-gold-coast-gold-coast-hl.jpg" alt="골드 코스트, 퀸즈랜드">]]></img_MainImage>
+                    <stf_Caption><![CDATA[골드 코스트, 퀸즈랜드]]></stf_Caption>
+                    <anc_link><![CDATA[/ko/explore/cities/gold-coast/goldcoast-surrounds.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        브로드비치(Broadbeach)의 거대한 파도를 타보고, 메인 비치(Main Beach)의 난파선 잔해에서 스노클링을 즐기고, <a href="/ko/explore/cities/gold-coast/qld-surfing.xml" target="_self">서퍼스 파라다이스</a>(Surfer’s Paradise)의 높은 파도가 철썩거리는 황금빛 모래사장을 밟아 보세요.  드림월드(Dreamworld)의 가상 현실 놀이 기구를 타면서 스릴을 만끽해 보고 시 월드(Sea World)에서 돌고래와 함께 수영을 즐기거나 워너 브라더스 무비 월드(Warner Bros Movie World)에서 영화 제작 과정을 구경하셔도 좋죠.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[론체스톤, 데이븐포트, 버니, 태즈매니아]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-cities-regional-cities-launceston-devonport-burnie-hl.jpg" alt="론체스톤, 데이븐포트, 버니, 태즈매니아">]]></img_MainImage>
+                    <stf_Caption><![CDATA[론체스톤, 데이븐포트, 버니, 태즈매니아]]></stf_Caption>
+                    <anc_link><![CDATA[/ko/explore/cities/regional-cities/tas-launceston-devonport-burnie.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        아담하고 그림 같은 태즈매니아의 소도시 론체스톤(Launceston), 데이븐포트(Devonport), 버니(Burnie)에는 다양한 매력이 숨겨져 있습니다. 레스토랑, 갤러리, 공원과 역사가 서린 거리 풍경을 감상하고 친절한 현지인들과 주변 관광명소도 만나 보세요. 태즈매니아 북쪽에는 활기찬 문화의 도시 론체스톤과 야성미 넘치는 캐터랙트 협곡(Cataract Gorge)이 위치하고 있습니다. 태즈매니아 섬의 북서 해안을 따라서 예쁜 항구 도시 데이븐포트와 재기발랄한 해변 도시 버니가 여러분을 기다립니다.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[벤디고(Bendigo), 빅토리아]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-states-vic-bendigo-hl.jpg" alt="벤디고, 빅토리아">]]></img_MainImage>
+                    <stf_Caption><![CDATA[벤디고, 빅토리아]]></stf_Caption>
+                    <anc_link><![CDATA[/ko/explore/states/vic/vic-bendigo.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        빅토리아 주에서 한 때 금광 신흥도시로 영화를 누렸던 이 도시에서 골드러시 시대 역사와 문화 그리고 식민지 건축 양식을 둘러보세요. 금광시대는 이미 옛날 이야기이지만 그 우아하고 유서 깊은 지역의 중심지라 할 수 있는 <a href="/ko/explore/states/vic/vic-bendigo.xml" target="_self">벤디고</a>에는 풍요로웠던 분위기가 아직 그대로 남아 있습니다.  웅장하고 화려한 건축물, 중국 유적지와 유적촌은1850~60년대 이 지역을 번성시켰던 골드러시 시대의 자취를 볼 수 있는 유산입니다.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[올버니(Albany), 서호주]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-cities-regional-cities-albany-hl.jpg" alt="올버니, 서호주">]]></img_MainImage>
+                    <stf_Caption><![CDATA[올버니, 서호주]]></stf_Caption>
+                    <anc_link><![CDATA[/ko/explore/cities/regional-cities/wa-albany.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        <a href="/ko/explore/states/wa.xml" target="_self">서호주</a>의 아름다운 남부 해안에 위치하고 있으며 퍼스로부터 차로 4시간 30분 거리에 위치하는 올버니(Albany)는 일상에서 벗어나 자유를 만끽할 수 있는 도시입니다. 올버니는 푸른 바다와 울창한 숲, 국립공원으로 둘러싸여 있으며 낚시와 스쿠버에서부터 하이킹과 고래 관광에 이르기까지 자연을 느낄 수 있는 다양한 액티비티를 선사합니다. 또한 이곳을 거쳐간 원주민, 죄수, 선원, 포경 선원들의 흥미진진한 이야기로 가득한 곳입니다.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[브룸 (Broome), 서호주]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-cities-broome-broome-hl.jpg" alt="브룸, 서호주">]]></img_MainImage>
+                    <stf_Caption><![CDATA[브룸, 서호주]]></stf_Caption>
+                    <anc_link><![CDATA[/ko/explore/cities/broome/broome-surrounds.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        수많은 언어로 된 간판들이 즐비한 차이나타운에서 다양한 문화의 용광로 속에 한번 빠져 보는 건 어떨까요. 낭만과 거친 삶을 함께 간직한 진주 양식의 역사가 박물관에서 여러분을 기다립니다. 숨이 멎을 듯 아름다운 케이블 비치(Cable Beach)에서 낙타를 타보고 바위에 새겨진 공룡 발자국 화석도 감상하세요.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[칼구리 (Kalgoorlie), 서호주]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-states-wa-kalgoorlie-hl.jpg" alt="칼구리, 서호주">]]></img_MainImage>
+                    <stf_Caption><![CDATA[칼구리, 서호주]]></stf_Caption>
+                    <anc_link><![CDATA[/ko/explore/states/wa/wa-kalgoorlie.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        서호주의 거친 서부에서 금광과 유령 마을 그리고 역사와 모험심을 재발견해 보세요. 오래된 서부 영화 팬이라면 서호주 최대의 금광촌인 칼구리의 분위기가 딱 마음에 드실 겁니다.  오래된 건물과 화려한 선술집, 심지어는 유곽까지 100여년 이상 지속되었넌 골드러시 당시의 역사를 유산으로 간직하고 있다고 해도 과언이 아니겠죠.  칼구리는 1880년대 골드러시 시대에호주 전역에서 노다지를 찾아 이곳에 모인 수 많은 사람들이 탄생시킨 마을입니다.  그 당시는 무법이 난무하고 질병이 창궐하는, 흥분과 고통이 교차하던 시기였습니다.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[쿠누누라 (Kununurra), 서호주]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-states-wa-wa-kununurra-hl.jpg" alt="쿠누누라, 서호주">]]></img_MainImage>
+                    <stf_Caption><![CDATA[쿠누누라, 서호주]]></stf_Caption>
+                    <anc_link><![CDATA[/ko/explore/states/wa/wa-kununurra.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        광대한 호수, 태고의 능선과 산지, 희귀한 핑크 빛 다이아몬드와 드 넓은 목장들이 만들어내는 모험의 세계로 한 발짝 성큼 들어가보세요. 오지 쿠누누라에는 평소에 아주 소심한 사람에게까지도 모험심을 불타오르게 만드는 야성이 존재합니다.  그것은 푸른 하늘, 뜨거운 붉은 흙과 호주 고유의 부시(bush)가 펼쳐진 거친 풍광 때문일 수도 있고 아니면 이곳이 이스트 킴벌리(East Kimberley)와 서호주의 뛰어난 자연 속으로 들어가는 관문이라는 사실에 기인한 것일 수도 있겠지요.
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+        <lst_Subpage><![CDATA[<a href="/ko/explore/cities/regional-cities/wa-albany.xml">올버니, 서호주</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/ko/explore/cities/regional-cities/bundaberg-natural-attraction.xml">번다버그의 자연 명소</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/ko/explore/cities/regional-cities/tas-launceston-devonport-burnie.xml">태즈매니아 - 론체스톤, 데이븐포트, 버니</a>]]></lst_Subpage>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="200" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Laman Depan]]></headline>
+            <href><![CDATA[/id/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Tentang]]></headline>
+            <href><![CDATA[/id/about.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Sejarah Australia]]></headline>
+            <href><![CDATA[/id/about/culture-history/history.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/about-culture-history-history.jpg]]></img_background>
+    <hdl_Title><![CDATA[Sejarah Australia]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/about-culture-history-history-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/about-culture-history-history-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[no]]></opt_PartnerLead>
+    <stf_description><![CDATA[Telusuri sejarah Australia mulai dari benua abadi kaum Aborigin hingga menjadi negeri multibudaya modern di situs resmi Tourism Australia.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[Monumen Perang Australia, Canberra, ACT.  &copy; Tourism Australia]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[australia, history, aboriginal, outback, Indigenous art, culture, languages, dialects, past, present, future, convicts, nation, war, political, economic, social, change, History of Australia]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Pelajari Lebih Lanjut]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Sejarah Australia]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <PlanYourHolidayBox isTemplate="1">
+    <anc_MoreLink><![CDATA[]]></anc_MoreLink>
+    <hdl_Headline><![CDATA[Rencanakan Liburan Anda]]></hdl_Headline>
+    <language><![CDATA[IND]]></language>
+    <opt_IsOnHomepage><![CDATA[]]></opt_IsOnHomepage>
+    <stf_MenuIconClass><![CDATA[]]></stf_MenuIconClass>
+    <stf_More><![CDATA[More]]></stf_More>
+    <stf_PlanYourHolidayTitle><![CDATA[Plan your holiday]]></stf_PlanYourHolidayTitle>
+    <lst_PageLinks>
+        <lst_PageLink>
+            <url><![CDATA[/id/plan/plan-your-trip/find-travel-agent.xml]]></url>
+            <hdl_Title><![CDATA[Cari Pakar Perjalanan Wisata]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/id/plan/plan-your-trip/getting-there.xml]]></url>
+            <hdl_Title><![CDATA[Datang ke Australia]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/id/plan/plan-your-trip/accommodation.xml]]></url>
+            <hdl_Title><![CDATA[Akomodasi]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/id/plan/plan-your-trip/tours.xml]]></url>
+            <hdl_Title><![CDATA[Menemukan paket wisata]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/id/plan/plan-your-trip/specialoffers.xml]]></url>
+            <hdl_Title><![CDATA[Penawaran khusus*]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+    </lst_PageLinks>
+</PlanYourHolidayBox>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <FeatureContent isTemplate="1">
+    <hdl_Title><![CDATA[Sejarah Australia]]></hdl_Title> 
+    <stf_MoreLinkTitle><![CDATA[]]></stf_MoreLinkTitle>
+    <txt_MainContent><![CDATA[
+        <strong>Kepercayaan kaum aborigin akan suatu benua yang abadi </strong><br />
+        Kaum Aborigin di Australia diperkirakan tiba di sini dengan perahu dari Asia Tenggara pada saat Abad Es terakhir, yaitu setidaknya 50.000 tahun yang lampau.  Di masa penjelajahan dan bermukimnya bangsa Eropa, sekitar satu juta orang Aborigin telah tinggal di benua ini sebagai pemburu dan pengumpul makanan. Mereka terbagi dalam 300 klan dan berbicara dalam 250 bahasa dan 700 dialek.  Setiap klan mempunyai hubungan spiritual dengan tanah tertentu, tapi juga berkelana jauh untuk berdagang, mencari air dan hasil bumi musiman, serta untuk mengadakan ritual dan pertemuan totemik.   
+        <p>Meskipun tanah air mereka sangat beragam – mulai dari gurun pedalaman dan hutan hujan tropis sampai pegunungan bersalju – semua orang Aborigin memiliki kepercayaan yang sama mengenai “Dreamtime” atau “Masa Impian”, sebuah alam magis yang abadi.  Menurut mitos kaum Aborigin, para leluhur roh totem membentuk seluruh aspek kehidupan saat Masa Impian penciptaan dunia.  Para leluhur roh ini senantiasa menghubungkan fenomena alam, dan juga masa lalu, masa kini dan masa depan, melalui semua aspek <a href="/id/explore/things-to-do/aboriginal-australia.xml" target="_self">budaya Aborigin</a>. </p>
+        <p><strong>Inggris datang dan membawa para narapidana </strong><br />
+        Sejumlah penjelajah Eropa berlayar di pantai Australia, yang dulu disebut sebagai New Holland, di abad ke-17.  Namun, baru di tahun 1770 Kapten James Cook memetakan pantai timur dan menyatakannya sebagai milik Inggris. Wilayah baru ini digunakan sebagai koloni terhukum, dan pada tanggal 26 Januari 1788, armada pertama 11 kapal yang membawa 1.500 orang (setengahnya merupakan narapidana) tiba di Pelabuhan Sydney. Sampai pengangkutan terhukum ini berakhir di tahun 1868, 160.000 pria dan wanita telah datang ke Australia sebagai narapidana. </p>
+        <p>Para pemukim bebas mulai berdatangan sejak awal tahun 1790-an, namun di sisi lain kehidupan para tahanan sangatlah berat.  Jumlah pria lima kali lipat jumlah wanita, dan kaum wanita selalu hidup dalam keadaan terancam eksploitasi seksual.  Para laki-laki yang kembali melanggar hukum dicambuk dengan brutal, dan kejahatan kecil seperti mencuri dapat terkena hukuman gantung.  Kaum Aborigin yang tergusur oleh pemukiman baru ini lebih menderita lagi. Kehilangan tanah serta sakit dan kematian akibat penyakit yang dibawa orang asing ini mengganggu praktik dan gaya hidup tradisional mereka.   </p>
+        <p><strong>Para pemukim liar menyebar ke seluruh benua <br />
+        </strong>Di tahun 1820-an, banyak tentara, perwira dan tahanan yang telah bebas mengubah tanah yang mereka terima dari pemerintah menjadi ladang pertanian yang subur.  Berita mengenai tanah yang murah dan pekerjaan yang melimpah di Australia menyebabkan berkapal-kapal imigran petualang berdatangan dari Inggris. Para pemukim atau lebih tepatnya ‘penghuni liar’ ini bergerak semakin dalam ke kawasan Aborigin – sering kali dengan senjata – untuk mencari padang rumput dan air bagi ternak mereka.  </p>
+        <p>Pada tahun 1825, sekelompok tentara dan narapidana bermukim di kawasan suku Yuggera, di dekat <a href="/id/explore/cities/brisbane.xml" target="_self">Brisbane</a> masa kini. <a href="/id/explore/cities/perth.xml" target="_self">Perth</a> dihuni oleh warga terhormat Inggris di tahun 1829, dan di tahun 1835 sekelompok pemukim liar berlayar ke Port Phillip Bay dan memilih lokasi itu untuk <a href="/id/explore/cities/melbourne.xml" target="_self">Melbourne</a>. Di saat yang bersamaan, sebuah perusahaan swasta Inggris, yang membanggakan diri karena tidak ada kaitan dengan narapidana, mendirikan kota <a href="/id/explore/cities/adelaide.xml" target="_self">Adelaide</a> di Australia Selatan. </p>
+        <p><strong>Demam emas membawa kekayaan, imigran dan pemberontakan </strong><br />
+        Emas ditemukan di New South Wales dan <a href="/id/explore/states/vic.xml" target="_self">Victoria</a> tengah di tahun 1851, dan menarik ribuan pemuda (dan juga wanita muda yang berjiwa petualang) dari koloni-koloni di sini. Mereka diikuti oleh berkapal-kapal pencari emas dari Cina, dan juga segala macam artis, pemilik bar, penjual alkohol gelap, wanita penghibur dan penipu dari segala penjuru dunia.  Di Victoria, upaya gubernur Inggris untuk menegakkan ketertiban – berupa perizinan bulanan dan aksi pasukan yang keras – mengakibatkan terjadinya pemberontakan berdarah anti-otoriter (dikenal sebagai pemberontakan Eureka Stockade) di tahun 1854.  Meskipun banyak kekerasan <a href="/id/explore/states/vic/vic-bendigo.xml" target="_self">di tambang emas</a>, kekayaan dari emas dan wol membawa investasi besar ke Melbourne dan <a href="/id/explore/cities/sydney.xml" target="_self">Sydney</a>, dan pada tahun 1880-an kedua kota ini telah menjadi kota modern yang penuh gaya.</p>
+        <p><strong>Australia menjadi sebuah negara <br />
+        </strong>Enam negara bagian Australia kemudian menjadi satu negara di bawah satu konstitusi pada tanggal 1 Januari 1901.  Salah satu tindakan pertama parlemen nasional yang baru ini adalah mengeluarkan perundang-undangan, yang kemudian dikenal sebagai Kebijakan Australia Putih (White Australia Policy), yang membatasi migrasi hanya bagi orang yang berasal dari Eropa.  Namun hal ini telah banyak ditinggalkan setelah Perang Dunia Kedua, dan kini Australia telah menjadi rumah bagi orang-orang yang berasal dari lebih dari 200 negara.  </p>
+        <p><strong>Rakyat Australia ikut perang <br />
+        </strong>Perang Dunia Pertama memiliki dampak yang berat bagi Australia. Pada tahun 1914, ada kurang dari 3 juta laki-laki, namun hampir 400.000 daripadanya secara sukarela ikut bertempur.  Sekitar 60.000 gugur dan puluhan ribu lainnya terluka.  Sebagai reaksi atas duka ini, di tahun 1920-an berkobarlah semangat untuk mobil baru, bioskop, jazz dan film ala Amerika dan antusiasme terhadap Kemaharajaan Inggris. Ketika Depresi Besar menghantam di tahun 1929, kesenjangan sosial dan ekonomi semakin meluas dan banyak lembaga keuangan Australia yang berjatuhan.  Olahraga menjadi “pelipur lara” nasional, dan para pahlawan olahraga seperti kuda pacuan Phar Lap dan pemain kriket Donald Bradman mendapat status nyaris seperti dewa.  </p>
+        <p>Selama Perang Dunia Kedua, pasukan Australia memberi kontribusi besar terhadap kemenangan Sekutu di Eropa, Asia dan Pasifik.  Generasi yang bertempur di perang dan berhasil bertahan hidup pulang dengan membawa kebanggaan atas kemampuan Australia.  </p>
+        <p><strong>Kedatangan warga baru Australia sampai era kemajuan pesat pasca perang <br />
+        </strong>Setelah perang berakhir di tahun 1945, ratusan ribu imigran dari seluruh penjuru Eropa dan Timur Tengah berdatangan ke Australia, dan banyak yang mendapat pekerjaan di sektor manufaktur yang sedang berkembang pesat. Banyak kaum wanita yang bekerja di pabrik-pabrik saat kaum pria pergi berperang tetap bekerja selama masa damai ini. </p>
+        <p>Ekonomi Australia tumbuh di sepanjang tahun 1950-an, dengan berbagai proyek pembangunan besar seperti Skema Pembangkit Listrik Tenaga Air Snowy Mountains, di pegunungan dekat <a href="/id/explore/cities/canberra.xml" target="_self">Canberra</a>. Permintaan internasional akan ekspor utama Australia seperti logam, wol, daging dan terigu juga bertumbuh, sehingga daerah pinggiran kota Australia juga semakin makmur.  Tingkat kepemilikan rumah bertumbuh dengan drastis, dari hanya 40 persen di tahun 1947 menjadi lebih dari 70 persen di tahun 1960-an. </p>
+        <p><strong>Australia semakin santai </strong><br />
+        Seperti banyak negara lain, Australia juga tersapu gelombang suasana revolusi di tahun 1960-an.  Keragaman etnik yang baru di Australia, meningkatnya kemandirian dari Inggris, dan penentangan umum atas Perang Vietnam, semua berkontribusi terhadap suasana perubahan politik, ekonomi dan sosial. Di tahun 1967, sebagian besar rakyat Australia memilih ‘ya’ dalam referendum nasional untuk memberi mandat bagi pemerintah federal dalam membuat undang-undang atas nama warga Aborigin Australia dan mengikutsertakan mereka dalam sensus mendatang.  Hasilnya adalah titik puncak kampanye reformasi yang kuat, baik dari kaum Aborigin maupun kaum kulit putih Australia. </p>
+        <p>Di tahun 1972, Partai Buruh Australia di bawah kepemimpinan idealis pengacara Gough Whitlam berhasil memegang tampuk kekuasaan, sekaligus mengakhiri dominasi pasca perang koalisi Partai Liberal dan Partai Negeri.   Selama tiga tahun berikutnya, pemerintah baru ini mengakhiri wajib militer, menghapus biaya universitas dan meluncurkan perawatan kesehatan yang gratis secara universal.  Pemerintah ini juga menghapus kebijakan Australia Putih, melaksanakan kebijakan multibudaya, dan memperkenalkan perceraian “tanpa salah” dan gaji yang setara bagi wanita.  Namun di tahun 1975, inflasi dan skandal menyebabkan Gubernur Jenderal membubarkan pemerintah. Dalam pemilu berikutnya, Partai Buruh menderita kekalahan besar dan Koalisi Liberal-Nasional berhasil memerintah sampai tahun 1983.  </p>
+        <p><strong>Sejak 1970-an<br />
+        </strong>Di antara 1983 sampai 1996, pemerintah Partai Buruh Hawke-Keating memperkenalkan sejumlah reformasi ekonomi, seperti deregulasi sistem perbankan dan membuat sistem mengambang untuk dolar Australia.  Di tahun 1996, Pemerintahan Koalisi di bawah pimpinan John Howard memenangkan pemilu, dan kembali terpilih di tahun 1998, 2001 dan 2004.  Pemerintahan Koalisi Liberal-Nasional menetapkan beberapa reformasi, termasuk perubahan dalam sistem perpajakan dan hubungan industrial.  Di tahun 2007, Partai Buruh pimpinan Kevin Rudd terpilih dengan agenda untuk mereformasi sistem hubungan industrial, kebijakan perubahan iklim serta sektor kesehatan dan pendidikan Australia.</p>
+    ]]></txt_MainContent> 
+    <con_ImageItem>
+        <ImageItems isTemplate="1">
+    <anc_link><![CDATA[]]></anc_link>
+    <img_MainImage><![CDATA[<img src="/contentimages/About_history_magical.jpg" alt="A magical place.">]]></img_MainImage>
+    <stf_Caption><![CDATA[ ]]></stf_Caption>
+</ImageItems><ImageItems isTemplate="1">
+    <anc_link><![CDATA[]]></anc_link>
+    <img_MainImage><![CDATA[<img src="/contentimages/About_history_indigenous_art.jpg" alt="Indigenous art">]]></img_MainImage>
+    <stf_Caption><![CDATA[ ]]></stf_Caption>
+</ImageItems><ImageItems isTemplate="1">
+    <anc_link><![CDATA[]]></anc_link>
+    <img_MainImage><![CDATA[<img src="/contentimages/About_history_outback.jpg" alt="The rugged outback">]]></img_MainImage>
+    <stf_Caption><![CDATA[ ]]></stf_Caption>
+</ImageItems>
+    </con_ImageItem>
+</FeatureContent>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

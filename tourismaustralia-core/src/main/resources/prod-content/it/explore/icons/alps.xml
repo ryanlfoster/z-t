@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="455" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Pagina iniziale]]></headline>
+            <href><![CDATA[/it/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Esplora]]></headline>
+            <href><![CDATA[/it/explore.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Alpi Australiane]]></headline>
+            <href><![CDATA[/it/explore/icons/alps.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/explore-icons-australian-alps.jpg]]></img_background>
+    <hdl_Title><![CDATA[Alpi Australiane]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/explore-icons-australian-alps-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/explore-icons-australian-alps-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[no]]></opt_PartnerLead>
+    <stf_description><![CDATA[Scopri le Alpi comprendono 16 parchi nazionali e riserve naturali, scia sulle Snowy Mountains, la riserva Biosphere dell' UNESCO e la Great Alpine Road.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[y]]></stf_IsMobile>
+    <stf_keywords><![CDATA[Alpi Australiane]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Ulteriori Informazioni]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Alpi Australiane]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[In un continente dal paesaggio per la maggior parte piatto e dal clima secco, nessuna sfida &egrave; pi&ugrave; difficile di quella che vi propongono le Alpi Australiane, con le loro cime coperte di neve.]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <IntegratedMiniMap isTemplate="1">
+    <!-- no user content -->
+</IntegratedMiniMap><TravellersStoryWidget isTemplate="1">
+    <anc_link><![CDATA[/explore/map.aspx?filters=icons,experiences&zoom=9&centre=-37.260925,147.832659]]></anc_link>
+    <img_image><![CDATA[/contentimages/icons-Australian-Alps.jpg]]></img_image> 
+</TravellersStoryWidget><Listing isTemplate="1">
+<anc_List1><![CDATA[/it/explore/icons/namadgi.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[Altri itinerari suggeriti in Australia ]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/it/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/it/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/it/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/it/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/it/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/it/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/it/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/it/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/it/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/it/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/it/Transport.ignore]]></anc_Transport>
+<hdl_Title><![CDATA[Australian Alps - Iniziate a programmare il vostro viaggio]]></hdl_Title>
+<language><![CDATA[ITA]]></language>
+<stf_Accomodation><![CDATA[Alloggi]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[Blue Mountains Area]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[Attrazione]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[Trova l’agenzia di viaggi pi&ugrave; vicina ]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[Informazioni sulle destinazioni]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[Eventi]]></stf_Events>
+<stf_Hire><![CDATA[Noleggio]]></stf_Hire>
+<stf_Informationservices><![CDATA[Informazioni]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[New South Wales]]></stf_StateFilter>
+<stf_Tours><![CDATA[Tour]]></stf_Tours>
+<stf_Transport><![CDATA[Trasporti]]></stf_Transport>
+</PlanYourVisit>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Alpi Australiane]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        Le Alpi si estendono lungo il Nuovo Galles del Sud, il Territorio della Capitale (Australian Capital Territory) e il Victoria e comprendono 16 parchi nazionali e riserve naturali. Andate in mountain bike lungo i sentieri che circondano i confini di questo territorio, camminate nel bush fino a un rifugio storico o andate a cavallo lungo piacevoli sentieri alpini. Provate a la pesca a mosca in ruscelli e laghi, fate rafting sulle rapide o andate in fuoristrada lungo sentieri alpini fino a raggiungere pub dove potrete incontrare simpatici abitanti locali. Praticate lo sci di fondo tra gli eucalipti o cimentatevi nella discesa libera sulle piste di una delle tante stazioni sciistiche. Percorrete a piedi l’Australian Alps Walking Track o ammirate i continui paesaggi fatti di catene montuose mentre percorrete in auto la Great Alpine Road o la Great Alpine Way. 
+        <p><strong>Cinque modi per vivere le Alpi:</strong></p>
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[1. Nel Nuovo Galles del Sud: le Snowy Mountains per sciare e vivere avventure estive ]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/4.3.19_2_highlight.jpg" alt="Thredbo, NSW">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Thredbo, NSW]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Ammirate laghi glaciali, foreste di eucalipti e colorati prati alpini mentre scalate il monte Kosciuszko, la vetta pi&ugrave; alta dell’Australia. Giunti in cima troverete una Riserva della biosfera dell’UNESCO, dove crescono 20 <a href="/it/about/key-facts/plants.xml" target="_self">specie di piante</a> che non si trovano in nessun’altra parte del mondo. In inverno, provate a sciare sulle piste pi&ugrave; alte dell’Australia a Charlotte Pass o su quelle di Thredbo e Perisher Blue. In estate, camminate lungo campi di margherite, ranuncoli alpini, craspedie e altri fiori selvatici. Non perdetevi lo spettacolo delle foglie autunnali attorno a Tumut, dove potrete esplorare le enormi stalattiti e la piscina termale delle Yarrangobilly Caves. Dedicatevi alla pesca alla trota presso chiari e freschi ruscelli attorno a Tumbarumba e alla storica Cooma o gettate l’amo nel lago Jindabyne. L’avventura vi chiama sulle Snowies, ma Jindabyne &egrave; un luogo ideale dal quale andare in bicicletta, esplorare le grotte, fare rafting, <a href="/it/explore/things-to-do/australian-adventure/nat-canoe-kayak.xml" target="_self">andare in kayak</a>, guidare un fuoristrada o andare a cavallo. 
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[2. Nel Victoria: alla scoperta della neve dell’High Country e delle storiche citt&agrave; di montagna]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/4.3.19_3_highlight.jpg" alt="Mount Hotham, VIC">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Mount Hotham, VIC]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[Sciate o fate snowboard a Mount Hotham, capitale sciistica d’Australia, o sulle ripide piste della stazione sciistica Falls Creek. Cimentatevi negli sport invernali, fate gite in bicicletta o in fuoristrada a Mount Buller e ammirate le bellezze granitiche di Mount Buffalo, uniche al mondo. Guidate fino a Mount McKay per ammirare alcuni dei pi&ugrave; bei paesaggi di montagna o andate in bicicletta e a cavallo o fate sci di fondo a Mount Stirling. Sul lago Eildon potrete pescare, navigare in house-boat e fare sci d’acqua. Andate in bicicletta sul Muscat Trail fino ad aziende vinicole circondate da eucalipti a Rutherglen e assaggiate freschi frutti di bosco, formaggi, castagne, salse chutney e trote nelle Alpine Valleys. Nella storica Beechworth, cittadina nata sulla scia della corsa all’oro, potrete ammirare l’edificio del tribunale dove fu processato Ned Kelly, e vecchi rifugi per il bestiame nelle Bogong Plains. Oppure soggiornate a Bright, ottima base di partenza per escursioni in bicicletta e a piedi. Da questa localit&agrave; avrete facile accesso alle piste da sci e a squisitezze gastronomiche.]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[3. Nel Territorio della Capitale: bush, paesaggi mozzafiato e ricca storia aborigena]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/4.3.18.2_highlight.jpg" alt="Namadgi Ranges, ACT">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Namadgi Ranges, ACT]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Pratica l’arrampicata o la discesa a corda doppia sulle formazioni granitiche di Booroomba Rocks, nel <a href="/it/explore/icons/namadgi.xml" target="_self">Namadgi National Park</a>. Andate in mountain bike lungo sentieri antincendio o camminate nel bush attraversando la natura incontaminata di Bimberi. Raggiungete la cima di Mt Coree in fuoristrada, pescate da corsi d’acqua che pullulano di trote e praticate lo sci di fondo lungo pendii innevati. Ammirate i canguri, i wallaby e le rane corroboree tra le foreste di eucalipti, le terre umide e le pianure coperte di fiori selvatici. Esplorate i campi aborigeni, i cumuli di rocce cerimoniali e l’arte su roccia lasciati dalla popolazione Ngunnawal milioni di anni fa. Nella vicina Tidbinbilla Nature Reserve potrete visitare il Birrigai Rock Shelter che risale a 21.000 anni fa e le Bogong Cave, dove le trib&ugrave; si recavano per catturare le farfalle bogong. Seguite i percorsi dei pastori e dei cercatori d’oro e visitate la stazione ricevente per le missioni spaziali dell’Apollo a Honeysuckle Creek. 
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[4. Sull’Australian Alps Walking Track]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/4.3.19.5_highlight.jpg" alt="Snowy Mountains, NSW">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Snowy Mountains, NSW]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Affrontate gli altopiani del Victoria, del Nuovo Galles del Sud e del <a href="/it/explore/states/act.xml" target="_self">Territorio della Capitale</a> percorrendo l'impegnativo <a href="/it/explore/itineraries/act-australian-alps-walking-track.xml" target="_self">Australian Alps Walking Track</a>, lungo ben 650 chilometri. Partite dall’antica citt&agrave; aurifera di Walhalla a Victoria, proseguite passando i rifugi degli allevatori sulle Bogong Plains, le distese di neve di Mount Wills e Falls Creek e le cime frastragliate di Viking-Razor-Howitt. Scalate Mount Kosciuszko, la vetta pi&ugrave; alta dell’Australia, prima di entrare nel Namadgi National Park e di concludere il vostro itinerario a Tharwa vicino Canberra. Lungo la via pescate nel Kosciuszko National Park e andate in canoa lungo il fiume Snowy e sulla parte settentrionale del fiume Murray. Andate a cavallo nello Snowy River National Park e quindi esplorate le Yarrangobilly Caves vicino Tumut. Provate le piste da sci da Mount Hotham a Mount Selwyn. Potrete percorrere questo sentiero in dieci settimane o attraversarne sezioni pi&ugrave; brevi come la pianura Baw Baw, le Bogong High Plains e l’incontaminata Jagungal. 
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[5. Attraversando in auto paesaggi di montagna]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/4.3.19_6_highlight.jpg" alt="Great Alpine Road, VIC">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Great Alpine Road, VIC]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Andate da Wangaratta al nord est di Victoria fino a Bairnsdale nel cuore del <a href="/it/explore/icons/gippsland.xml" target="_self">Gippsland</a> sulla <a href="/it/explore/itineraries/vic-great-alpine-way.xml" target="_self">Great Alpine Road</a>. Attraversate la regione vinicola di Rutherglen, la stazione alpina di Mount Hotham e gli ampi laghi Gippsland seguendo le strade asfaltate australiane. Andate in bicicletta nel Murray, assaggiate i prodotti enogastronomici a Rutherglen e, lungo il cammino, sciate o passeggiate nel bush nell'Alpine National Park. O percorrete l'Alpine Way da Jindabyne a Khancoban: un pittoresco viaggio di andata e ritorno lungo 350 chilometri attraverso il <a href="/it/explore/states/nsw.xml" target="_self">Nuovo Galles del Sud</a> e il <a href="/it/explore/states/vic.xml" target="_self">Victoria</a>. Ammirate gli imponenti frassini alpini a Clews Ridge e osservate l’indimenticabile panorama sul Mount Kosciuszo dal punto panoramico di Scammel’s Spur. Avvistate i cavalli selvaggi a Dead Horse Gap e passate attraverso la pittoresca stazione alpina di Thredbo. Concludete il vostro viaggio sulle rive del lago Jindabyne, dove potrete andare in yacht o in barca o dedicarvi alla pesca della trota.
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

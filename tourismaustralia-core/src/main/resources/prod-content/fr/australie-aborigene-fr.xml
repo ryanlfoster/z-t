@@ -1,0 +1,379 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="14506" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Accueil]]></headline>
+            <href><![CDATA[/fr/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Tools and Campaigns]]></headline>
+            <href><![CDATA[/fr/tools-campaigns.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[FR]]></headline>
+            <href><![CDATA[/fr/13181.ignore]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[L’Australie aborigène: merveilles naturelles et richesses culturelles]]></headline>
+            <href><![CDATA[/fr/australie-aborigene-fr.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/Campaigns/campaigns-cape-leveque.jpg]]></img_background>
+    <hdl_Title><![CDATA[L’Australie aborig&egrave;ne: merveilles naturelles et richesses culturelles]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/campaigns-cape-leveque-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[Les merveilles naturelles et les richesses culturelles de l’Australie vous attendent. Laissez-vous s&eacute;duire par la culture aborig&egrave;ne et immergez- vous dans cette civilisation mill&eacute;naire.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[Les merveilles naturelles et les richesses culturelles de l’Australie vous attendent. Laissez-vous s&eacute;duire par la culture aborig&egrave;ne et immergez- vous dans cette civilisation mill&eacute;naire.]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[En savoir plus]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[L’Australie aborig&egrave;ne: merveilles naturelles et richesses culturelles]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        Pour vivre des exp&eacute;riences aborig&egrave;nes inoubliables, d&eacute;couvrez les meilleures offres des tour-op&eacute;rateurs.
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <StandardCampaignLayout isTemplate="1">
+    <opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+    <hdl_Title><![CDATA[]]></hdl_Title>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+    <con_Banner>
+
+<!-- Map Start --> 
+<script src="/Campaigns/explore-map-indig/js/jquery-1.6.1.min.js" type="text/javascript" charset="utf-8"></script> 
+<script src="/Campaigns/explore-map-indig/js/jquery.history.min.js" type="text/javascript" charset="utf-8"></script> 
+<link rel="stylesheet" href="/Campaigns/explore-map-indig/css/destinationindigmap-fr.css" type="text/css" media="screen" charset="utf-8">
+<div class="wrapper"> 
+<div id="map"> 
+<div class="title"><img src="/Campaigns/explore-map-indig/images/label_top_copy-fr.png" width="328" height="89" alt="Label Top Copy"></div> 
+<div id="map_area"> 
+</div> 
+<div class="states"> 
+</div> 
+<div class="cities"> 
+</div> 
+<div class="locations"> 
+</div> 
+<div id="module"> 
+</div> 
+</div> 
+</div> 
+<script type="text/javascript"> 
+$(function(){ 
+$.get('/Campaigns/explore-map-indig/XML/destinationindigmap-fr.xml',function(data){ 
+$xml=$(data);
+$xml.find('icons tagnode').each(function(){ 
+var name=$(this).find('name').text(); 
+var title=$(this).find('title').text(); 
+var content=$(this).find('info').text(); 
+var url=$(this).find('url').text(); 
+var img=$(this).find('img').text(); 
+var x=$(this).find('co-ordinates').attr('x'); 
+var y=$(this).find('co-ordinates').attr('y'); 
+var icon='icon'+$(this).find('co-ordinates').attr('icon'); 
+var right=$(this).find('co-ordinates').attr('direction')=='right'?' right':''; 
+var $location=$('<div class="location'+right+'">'+name+'</div>'); 
+$location.append('<div class="'+icon+'"></div>'); 
+$location.css({top:y+'px',left:x+'px'});
+$location.append('<div class="data"></div>');
+$location.find('.data').append('<div class="title">'+title+'</div>'); 
+$location.find('.data').append('<div class="content">'+content+'</div>'); 
+$location.find('.data').append('<div class="url">'+url+'</div>'); 
+$location.find('.data').append('<div class="img"><img src="/Campaigns/explore-map-indig/'+img+'" alt="" /></div>');
+$('.locations').append($location);
+}) 
+if (window.PIE) { 
+$('.location,.city,.state,.buttons a').each(function() { 
+//PIE.attach(this); 
+}); 
+} 
+},'xml');
+$('.locations .location').live('mouseenter',function(){ 
+$('#module').find('.title,.content,.img').remove() 
+$('#module').show().prepend($(this).find('.img').clone()).prepend($(this).find('.content').clone()).prepend($(this).find('.title').clone()); 
+});
+$('.locations .location').live('click',function(){ 
+var url=$(this).find('.url').html(); 
+window.location = url; 
+return false; 
+})
+$('.locations').show();
+}) 
+</script> 
+<!-- Map END --></con_Banner>
+    <con_Body><TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[L’Australie aborig&egrave;ne: merveilles naturelles et richesses culturelles]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        Laissez-vous s&eacute;duire par l'Australie authentique, d&eacute;couvrez une culture mill&eacute;naire &agrave; travers le peuple aborig&egrave;ne, de multiples r&eacute;gions sauvages pr&eacute;serv&eacute;es et bien d'autres encore. N'h&eacute;sitez pas et envolez-vous vite pour l'Australie gr&acirc;ce aux meilleures offres de nos tour-op&eacute;rateurs.
+        <br />
+        <br />
+        <br />
+        <table width="100%">
+            <tbody>
+                <tr>
+                    <td style="width: 33%;" valign="top">
+                    <p><a href="/fr/australie-aborigene-offres-fr.xml" target="_self"><img alt="Le meilleur de l'exp&eacute;rience aborig&egrave;ne" src="/contentimages/teaser_offres_speciales.jpg" /></a></p>
+                    </td>
+                    <td style="width: 33%;" valign="top">
+                    <p><a href="/fr/australie-aborigene-culture-fr.xml" target="_self"><img alt="" src="/contentimages/teaser_culture.jpg" /></a></p>
+                    </td>
+                    <td style="width: 33%;" valign="top">
+                    <p><a href="/fr/australie-aborigene-art-fr.xml" target="_self"><img alt="L'art aborig&egrave;ne" src="/contentimages/teaser_art.jpg" /></a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;" valign="top">
+                    <p><span style="font-size: 14px;"></span><strong>Le meilleur de l'exp&eacute;rience aborig&egrave;ne </strong></p>
+                    <p>D&eacute;couvrez les offres sp&eacute;ciales des tour-op&eacute;rateurs pour vivre une exp&eacute;rience unique. </p>
+                    </td>
+                    <td style="padding-right: 10px;" valign="top">
+                    <p><span style="font-size: 14px;"></span><strong>La culture aborig&egrave;ne</strong></p>
+                    <p>Impr&eacute;gnez-vous de la culture aborig&egrave;ne, d&eacute;couvrez les origines de ce peuple et de la terre australienne.</p>
+                    </td>
+                    <td style="padding-right: 10px;" valign="top">
+                    <p><span style="font-size: 14px;"></span><strong>L'art aborig&egrave;ne</strong></p>
+                    <p>Laissez-vous s&eacute;duire par la diversit&eacute; et la richesse de l'art aborig&egrave;ne australien. </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 33%;" valign="top">
+                    <p><span style="font-size: 12px;"><a href="/fr/australie-aborigene-offres-fr.xml" target="_self">Pour en savoir plus</a></span></p>
+                    <br />
+                    </td>
+                    <td style="width: 33%;" valign="top">
+                    <p><span style="font-size: 12px;"><a href="/fr/australie-aborigene-culture-fr.xml" target="_self">Pour en savoir plus</a></span></p>
+                    </td>
+                    <td style="width: 33%;" valign="top">
+                    <p><span style="font-size: 12px;"><a href="/fr/australie-aborigene-art-fr.xml" target="_self">Pour en savoir plus</a></span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 33%;" valign="top">
+                    <p><a href="/fr/australie-aborigene-legendes-fr.xml" target="_self"><img alt="Les l&eacute;gendes aborig&egrave;nes" src="/contentimages/teaser_legendes.jpg" /></a></p>
+                    </td>
+                    <td style="width: 33%;" valign="top">
+                    <p><a href="/fr/australie-aborigene-vic-fr.xml" target="_self"><img alt="Le Victoria aborig&egrave;ne" src="/contentimages/teaser_VIC.jpg" /></a></p>
+                    </td>
+                    <td style="width: 33%;" valign="top">
+                    <p><a href="/fr/australie-aborigene-nt-fr.xml" target="_self"><img alt="Le Territoire du Nord aborig&egrave;ne" src="/contentimages/teaser_NT.jpg" /></a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 33%; padding-right: 10px;" valign="top">
+                    <p><span style="font-size: 14px;"></span><strong>Les l&eacute;gendes aborig&egrave;nes</strong></p>
+                    <p>Plongez dans la magie des l&eacute;gendes de l'Australie. </p>
+                    </td>
+                    <td style="width: 33%; padding-right: 10px;" valign="top">
+                    <p><span style="font-size: 14px;"></span><span style="font-size: 14px;"></span><strong>Le Victoria aborig&egrave;ne</strong></p>
+                    <p>D&eacute;couvrez les exp&eacute;riences aborig&egrave;nes dans le Victoria. </p>
+                    </td>
+                    <td style="width: 33%; padding-right: 10px;" valign="top">
+                    <p><span style="font-size: 14px;"></span><span style="font-size: 14px;"></span><strong>Le Territoire du Nord aborig&egrave;ne</strong></p>
+                    <p>D&eacute;couvrez les exp&eacute;riences aborig&egrave;nes dans le Territoire du Nord. </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 33%;" valign="top">
+                    <p><span style="font-size: 12px;"><a href="/fr/australie-aborigene-legendes-fr.xml">Pour en savoir plus</a></span></p>
+                    <br />
+                    </td>
+                    <td style="width: 33%;" valign="top">
+                    <p><span style="font-size: 12px;"><a href="/fr/australie-aborigene-vic-fr.xml" target="_self">Pour en savoir plus</a></span></p>
+                    </td>
+                    <td style="width: 33%;" valign="top">
+                    <p><span style="font-size: 12px;"><a href="/fr/australie-aborigene-nt-fr.xml" target="_self">Pour en savoir plus</a></span></p>
+                    <br />
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <br />
+        <br />
+        <p style="text-align: left;"><strong><span style="color: #000; font-size: 14px;">En partenariat avec </span></strong></p>
+        <center>
+        <table width="80%">
+            <tbody>
+                <tr>
+                    <td valign="top" align="center">
+                    <p><a href="http://fr.travelnt.com/" onclick="ntptEventTag('ev=PartnerLead&amp;PartnerId=travelnt');" target="_blank"><img alt="Northern Territory logo" src="/contentimages/logo_nt.jpg" /></a></p>
+                    </td>
+                    <td valign="top" align="center">
+                    <p><a href="http://www.visitmelbourne.com/fr" onclick="ntptEventTag('ev=PartnerLead&amp;PartnerId=visitmelbourne');" target="_blank"><img alt="Melbourne logo" src="/contentimages/logo_melbourne.jpg" /></a></p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        </center>
+    ]]></txt_Information>
+            
+        </TopCategoryHighlights></con_Body>
+    <con_RHSModules><AtaGlance isTemplate="1">
+<hdl_Title><![CDATA[L’Australie Aborig&egrave;ne]]></hdl_Title>
+<img_Map><![CDATA[]]></img_Map>
+<stf_Title1><![CDATA[]]></stf_Title1>
+<stf_Title2><![CDATA[]]></stf_Title2>
+<stf_Title3><![CDATA[]]></stf_Title3>
+<stf_Title4><![CDATA[]]></stf_Title4>
+<stf_Title5><![CDATA[]]></stf_Title5>
+<txt_Description1><![CDATA[
+        <center>
+        <p><iframe height="155" src="http://www.youtube.com/embed/OEVifIIQ9fI?wmode=transparent" frameborder="0" width="222"></iframe></p>
+        </center><br />
+    ]]></txt_Description1>
+<txt_Description2><![CDATA[]]></txt_Description2>
+<txt_Description3><![CDATA[]]></txt_Description3>
+<txt_Description4><![CDATA[]]></txt_Description4>
+<txt_Description5><![CDATA[]]></txt_Description5>
+</AtaGlance><AtaGlance isTemplate="1">
+<hdl_Title><![CDATA[Sommaire]]></hdl_Title>
+<img_Map><![CDATA[]]></img_Map>
+<stf_Title1><![CDATA[]]></stf_Title1>
+<stf_Title2><![CDATA[]]></stf_Title2>
+<stf_Title3><![CDATA[]]></stf_Title3>
+<stf_Title4><![CDATA[]]></stf_Title4>
+<stf_Title5><![CDATA[]]></stf_Title5>
+<txt_Description1><![CDATA[
+        <table>
+            <tbody>
+                <tr>
+                    <td style="padding-right: 10px; padding-top: 3px;" valign="top">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td valign="top">
+                    <p><a href="/fr/australie-aborigene-fr.xml" target="_self">Accueil</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px; padding-top: 3px;" valign="top">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td valign="top">
+                    <p><a href="/fr/australie-aborigene-offres-fr.xml" target="_self">Le meilleur de l’exp&eacute;rience aborig&egrave;ne</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px; padding-top: 3px;" valign="top">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td valign="top">
+                    <p><a href="/fr/australie-aborigene-culture-fr.xml" target="_self">La culture aborig&egrave;ne</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px; padding-top: 3px;" valign="top">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td valign="top">
+                    <p><a href="/fr/australie-aborigene-art-fr.xml" target="_self">L’art aborig&egrave;ne</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px; padding-top: 3px;" valign="top">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td valign="top">
+                    <p><a href="/fr/australie-aborigene-legendes-fr.xml" target="_self">Les l&eacute;gendes aborig&egrave;nes</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px; padding-top: 3px;" valign="top">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td valign="top">
+                    <p><a href="/fr/australie-aborigene-vic-fr.xml" target="_self">Le Victoria aborig&egrave;ne</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px; padding-top: 3px;" valign="top">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td valign="top">
+                    <p><a href="/fr/australie-aborigene-nt-fr.xml" target="_self">Le Territoire du Nord aborig&egrave;ne</a></p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p> </p>
+    ]]></txt_Description1>
+<txt_Description2><![CDATA[]]></txt_Description2>
+<txt_Description3><![CDATA[]]></txt_Description3>
+<txt_Description4><![CDATA[]]></txt_Description4>
+<txt_Description5><![CDATA[]]></txt_Description5>
+</AtaGlance><AtaGlance isTemplate="1">
+<hdl_Title><![CDATA[Les meilleures offres]]></hdl_Title>
+<img_Map><![CDATA[]]></img_Map>
+<stf_Title1><![CDATA[]]></stf_Title1>
+<stf_Title2><![CDATA[]]></stf_Title2>
+<stf_Title3><![CDATA[]]></stf_Title3>
+<stf_Title4><![CDATA[]]></stf_Title4>
+<stf_Title5><![CDATA[]]></stf_Title5>
+<txt_Description1><![CDATA[
+        <img alt="" style="padding-bottom: 10px; padding-right: 10px; float: left; padding-top: 3px;" src="/contentimages/Campaigns/campaigns-fr-quai-branly-rhs-offers-th.jpg" />Retrouvez les meilleures offres du moment afin de d&eacute;couvrir l’Australie aborig&egrave;ne.
+        <p><a href="/fr/australie-aborigene-offres-fr.xml" target="_self">En savoir plus</a></p>
+    ]]></txt_Description1>
+<txt_Description2><![CDATA[]]></txt_Description2>
+<txt_Description3><![CDATA[]]></txt_Description3>
+<txt_Description4><![CDATA[]]></txt_Description4>
+<txt_Description5><![CDATA[]]></txt_Description5>
+</AtaGlance><AtaGlance isTemplate="1">
+<hdl_Title><![CDATA[Brochure Australie aborig&egrave;ne]]></hdl_Title>
+<img_Map><![CDATA[]]></img_Map>
+<stf_Title1><![CDATA[]]></stf_Title1>
+<stf_Title2><![CDATA[]]></stf_Title2>
+<stf_Title3><![CDATA[]]></stf_Title3>
+<stf_Title4><![CDATA[]]></stf_Title4>
+<stf_Title5><![CDATA[]]></stf_Title5>
+<txt_Description1><![CDATA[
+        <img alt="" style="padding-bottom: 10px; padding-right: 10px; float: left;" src="/contentimages/Campaigns/campaigns-fr-quai-branly-rhs-brochure-th.jpg" />Retrouvez directement la brochure Australie aborig&egrave;ne.
+        <p><a href="/contentimages/Campaigns/campaigns-fr-brochure-aborigenes.pdf" target="_blank">T&eacute;l&eacute;charger</a></p>
+    ]]></txt_Description1>
+<txt_Description2><![CDATA[]]></txt_Description2>
+<txt_Description3><![CDATA[]]></txt_Description3>
+<txt_Description4><![CDATA[]]></txt_Description4>
+<txt_Description5><![CDATA[]]></txt_Description5>
+</AtaGlance></con_RHSModules>
+    <con_Category></con_Category>
+    <lst_Subpages>
+    </lst_Subpages>
+</StandardCampaignLayout>
+    </con_Body>
+    <lst_Subpages>
+        <lst_Subpage><![CDATA[<a href="/fr/australie-aborigene-nt-fr.xml">Le Territoire du Nord: l’Outback australien dans toute sa splendeur</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/fr/australie-aborigene-vic-fr.xml">Le Victoria : un mélange d’authenticité et de modernité</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/fr/australie-aborigene-legendes-fr.xml">Les légendes aborigènes : souvenirs du « Temps du Rêve »</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/fr/australie-aborigene-art-fr.xml">L’art aborigène: L‘expression de la culture aborigène</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/fr/australie-aborigene-offres-fr.xml">L’Australie aborigène: les meilleures offres des tour-opérateurs</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/fr/australie-aborigene-culture-fr.xml">La culture aborigène: Une culture millénaire</a>]]></lst_Subpage>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

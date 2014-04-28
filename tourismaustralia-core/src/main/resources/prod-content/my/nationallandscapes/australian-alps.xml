@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="22217" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Laman Utama]]></headline>
+            <href><![CDATA[/my/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Tools and Campaigns]]></headline>
+            <href><![CDATA[/my/tools-campaigns.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Landskap Kebangsaan Australia]]></headline>
+            <href><![CDATA[/my/nationallandscapes.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[Alps Australia]]></headline>
+            <href><![CDATA[/my/nationallandscapes/australian-alps.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/Campaigns/national-landscapes-australian-alps.jpg]]></img_background>
+    <hdl_Title><![CDATA[Alps Australia]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/national-landscapes-australian-alps-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/Campaigns/national-landscapes-australian-alps-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[yes]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[Lawati Alps Australia, tuan rumah kepada 16 taman negara dan hutan simpanan seluas 5 juta hektar tanah. Taman-taman termasuk Namadgi, Kosciuszko dan lagi.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[Banjaran Alp Australia, Mount Kosciuszko,  Kosciuszko, gunung tertinggi di Australia, Mount Buffalo, Mount Bogong, Gunung-Gunung bersalji, gunung bersalji, gunung Australia, gunung Australia, ski Australia, bermain ski Australia, ski aus, jindabyne]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Pelajari lebih lanjut]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Landskap Kebangsaan Australia: Alps Australia - Tourism Australia]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        Lawati Alps Australia, tuan rumah kepada 16 taman negara dan hutan simpanan seluas 5 juta hektar tanah. Taman-taman termasuk Namadgi, Kosciuszko dan lagi.
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <StandardCampaignLayout isTemplate="1">
+    <opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+    <hdl_Title><![CDATA[]]></hdl_Title>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+    <con_Banner><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<DIV id=headerimage>
+<SCRIPT type=text/javascript src="../../static/js/jquery.cycle.all.latest.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+jQuery(document).ready(function() {
+jQuery('#headersliderwrapper').cycle({
+        fx:'fade',
+        slideExpr: '.headerslide'
+    });
+});
+</SCRIPT>
+
+<DIV id=headersliderwrapper>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-alp-01.jpg"> 
+<DIV class=headerslideinfo>Alps Australia NSW &amp; VIC</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-alp-02.jpg"> 
+<DIV class=headerslideinfo>Luncur Salji Perisher NSW</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-alp-03.jpg"> 
+<DIV class=headerslideinfo>Snowy Mountains Kosciuszko National Park NSW</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-alp-04.jpg"> 
+<DIV class=headerslideinfo>Rail Trail Great Alpine Road VIC</DIV></DIV></DIV></DIV>
+<DIV id=subpage-header-overlay></DIV>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule></con_Banner>
+    <con_Body><TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Alps Australia]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        Di benua yang kebanyakannya kering dan mendatar, tiada perkara lain dapat menyamai cabaran di Alps Australia yang bersalji dan dipenuhi gunung-ganang. Merentangi satu wilayah, dua negeri dan 16 taman negara dan hutan simpan, banjaran Alps menyediakan pemandangan indah dan peluang untuk kembara luar sepanjang tahun. Main ski atau meluncur dengan papan salji semasa musim sejuk atau mengembara berjalan kaki melalui bunga-bunga liar musim panas. Temui tumbuhan dan haiwan unik, hubungkan diri dengan sejarah purba dan moden serta berjalan atau memandu di sepanjang horizon yang seolah tiada penghujungnya. Di puncak Australia ini, anda akan menemui banyak cara untuk mencabar diri sendiri dan memulihkan semula semangat anda.
+        <p><strong>Anda akan menemui empat perkara di Banjaran Alp Australia</strong></p>
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[1. Kaya dengan keajaiban alam semula jadi yang sukar ditemui]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australian-alps-hl01.jpg" alt="Snowy Mountains, NSW">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Snowy Mountains, NSW]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Daki melewati tasik glasier dan hutan pepohon snow gum ke Mount Kosciuszko, puncak tertinggi di Australia. Melingkari puncak ini, sebuah Rizab Biosfera UNESCO mempunyai 20 spesies tumbuhan yang tidak boleh ditemui di mana-mana tempat di dunia selain di sini. Perhatikan bagaimana pepohon abu gunung berubah menjadi hutan snow gum dan padang rumput alpine yang berwarna-warni di Penara Baw Baw di Victoria. Terokai gua bawah tanah dan bermacam ragam hidupan mergastua berhampiran Lake Jindabyne di Snowy Mountains. Atau tinjau kanggaru, wallabi dan katak corroboree yang jarang dilihat di tengah-tengah landskap granit Namadgi National Park dekat Canberra.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[2. Dunia penuh cabaran aktiviti lasak]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australian-alps-hl02.jpg" alt="Perisher, NSW">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Perisher, NSW]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Hayati segala jenis keseronokan musim dingin yang terdapat di pusat peranginan salji yang bertaburan di seluruh Banjaran Alp ini. Kunjungi cerun ski tertinggi di Australia di Charlotte Pass atau ukir salji di Thredbo dan Perisher Blue di New South Wales. Bermain ski atau papan luncur di Mt Buller, Mt Hotham dan Falls Creek yang dikelilingi oleh Alpine National Park di Victoria. Pada musim panas, anda boleh berjalan kaki, menaiki motosikal, menunggang kuda atau kenderaan pacuan empat roda melalui cerun-cerun yang dihiasi hamparan bunga-bunga liar ini. Menakik turun singkapan granit di Namadgi National Park. Di New South Wales, anda boleh berkanu sepanjang Snowy River dan pergi meneroka gua berhampiran Tumut.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[3. Sejarah lama dan baru]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australian-alps-hl03.jpg" alt="Craigs Hut Mt Stirling, VIC">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Craigs Hut Mt Stirling, VIC]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Temui Tumut River di Snowy Mountains bersama pemandu suku Wiradjuri atau ikuti lawatan kebudayaan Orang Asli melalui Yarrangobilly Caves di Kosciuszko National Park. Terokai tapak khemah purba Ngunawal, persiapan batu upacara dan lukisan batu di Namadgi National Park. Berdekatan dengan Rizab Alam Semula Jadi Tidbinbilla terdapat Birrigai Rock Shelter dan Bogong Cave yang berusia 21,000 tahun, yang suatu ketika dulu menjadi tempat suku purba mengumpulkan kupu-kupu bogong. Lihat bangunan mahkamah tempat Ned Kelly dibicarakan di Beechworth, mengembara berjalan kaki ke pondok lembu lama di Bogong High Plains. Temui ramai orang tempatan di acara penjualan anak lembu tahunan Omeo pada hujung minggu panjang bulan Mac.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[4. Perjalanan yang berlatarkan pemandangan gunung-ganang]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australian-alps-hl04.jpg" alt="Mt Stirling, VIC">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Mt Stirling, VIC]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Mengembara melalui laluan berliku-liku dari Melbourne melalui Great Alpine Road yang terletak di Dataran Tinggi Victoria. Jalan bersalut tertinggi Australia membawa anda dari Melbourne, melewati wilayah wain Ovens Valley dan Mount Hotham ke Gippsland. Untuk sebuah cabaran sebenar, berjalan kaki merentas tiga negeri melalui Laluan Jalan Kaki Alp Australia yang kini menjadi lagenda. Ia mengunjur sepanjang 650km, dari Walhalla di Victoria hinggalah ke Tharwa ke sedikit selatan dari Canberra. Berjalan laluan ini selama lapan hingga sepuluh minggu atau berjalan pada waktu siang pada bahagian tertentu seperti penara Baw Baw, Dataran Tinggi Bogong dan Mount Kosciuszko.
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights></con_Body>
+    <con_RHSModules><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<TABLE cellSpacing=0 cellPadding=0 width=298 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top align=center>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD style="WIDTH: 25px"></TD>
+<TD><!-- #BeginLibraryItem "/Library/sitenav.lbi" -->
+<SCRIPT language=JavaScript1.2 type=text/javascript src="../../static/js/stmenu.js"></SCRIPT>
+<!-- #EndLibraryItem --></TD></TR></TBODY></TABLE><!-- Google Map Start -->
+<SCRIPT type=text/javascript>
+function fireEvent(obj,evt){
+var fireOnThis = obj;
+if( document.createEvent ) {
+var evObj = document.createEvent('MouseEvents');
+ evObj.initEvent( evt, true, false );
+fireOnThis.dispatchEvent(evObj);
+} else if( document.createEventObject ) {
+fireOnThis.fireEvent('on'+evt);
+}
+}
+function clickLink(linkobj) {
+     if (linkobj.getAttribute('onclick') == null) {
+ if (linkobj.getAttribute('href')) document.location = linkobj.getAttribute('href');
+     }
+     else linkobj.onclick();
+}
+function loadjscssfile(filename, filetype){
+ if (filetype=="js"){ //if filename is a external JavaScript file
+  var fileref=document.createElement('script')
+  fileref.setAttribute("type","text/javascript")
+  fileref.setAttribute("src", filename)
+ }
+ else if (filetype=="css"){ //if filename is an external CSS file
+  var fileref=document.createElement("link")
+  fileref.setAttribute("rel", "stylesheet")
+  fileref.setAttribute("type", "text/css")
+  fileref.setAttribute("href", filename)
+  fileref.setAttribute("media", "print")
+ }
+ if (typeof fileref!="undefined")
+  document.getElementsByTagName("head")[0].appendChild(fileref)
+}
+                  </SCRIPT>
+
+<SCRIPT type=text/javascript>
+var icheckk=0;
+jQuery.each(jQuery.browser, function(i, val) {
+if(i=="msie" && jQuery.browser.version.substr(0,3)=="7.0")
+icheckk=1;
+});
+function myfun()
+{
+loadjscssfile("../../static/css/thickbox.css", "css");
+if(icheckk==1)
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='../../static/maps/my/australianalps/bigmap.html'  target='_blank'>&nbsp;Cetak|Tutup|&nbsp;atau Kekunci Esc</a></b>","../../static/maps/my/australianalps/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+else
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='javascript:window.print()' >&nbsp;Cetak|Tutup|&nbsp;atau Kekunci Esc</a></b>","../../static/maps/my/australianalps/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+}
+         </SCRIPT>
+<IFRAME style="MARGIN-BOTTOM: 20px; BORDER-TOP: black 1px solid; HEIGHT: 355px; BORDER-RIGHT: black 1px solid; BORDER-BOTTOM: black 1px solid; FLOAT: left; PADDING-BOTTOM: 5px; BORDER-LEFT: black 1px solid; BACKGROUND-COLOR: #333333" height=380 src="../../static/maps/my/australianalps/index.html" frameBorder=0 width=249 name=FRAMENAME scrolling=no></IFRAME><!-- Google Map end -->
+<DIV class=subpage-video-thumb style="TEXT-ALIGN: left"><A onclick="moduleTrackingWithTitle('lightbox-video','',false,'nationallandscapes-australianalpsmy');" href="#" data-reveal-id="modalVideo"><IMG alt="" src="/contentimages/Campaigns/national-landscapes-video-my.jpg"></A> </DIV>
+<DIV id=modalVideo class="reveal-modal video" style-="z-index: 103;"><A class=close-reveal-modal><SPAN class=icon></SPAN></A>
+<DIV class=video style="VISIBILITY: visible !important"><IFRAME height=315 src="//www.youtube.com/v/EjGZ3MaX9pE?version=3&amp;hl=en_GB" frameBorder=0 width=560></IFRAME></DIV></DIV></TD></TR></TBODY></TABLE>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule><Listing isTemplate="1">
+<anc_List1><![CDATA[/my/explore/icons/namadgi.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[Idea Australia selanjutnya]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/my/AccommodationSearch.ignore]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/my/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/my/AttractionSearchResults.ignore]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/my/DestinfoSearchResults.ignore]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/my/EventsSearch.xml]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/my/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/my/hire.ignore]]></anc_Hire>
+<anc_Info><![CDATA[/my/InfoSearchResults.ignore]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/my/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/my/TourSearchResults.ignore]]></anc_Tour>
+<anc_Transport><![CDATA[/my/transport.ignore]]></anc_Transport>
+<hdl_Title><![CDATA[Rancang kunjungan anda]]></hdl_Title>
+<language><![CDATA[MSL]]></language>
+<stf_Accomodation><![CDATA[Accomodation]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[Attractions]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[Find a Travel Agent near you]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[Destination Information]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[Snowy Mountains;Victoria's High Country;Australian Capital Territory Region]]></stf_DomesticRegion>
+<stf_Events><![CDATA[Events]]></stf_Events>
+<stf_Hire><![CDATA[Hire ]]></stf_Hire>
+<stf_Informationservices><![CDATA[Information Services]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[]]></stf_StateFilter>
+<stf_Tours><![CDATA[Tours]]></stf_Tours>
+<stf_Transport><![CDATA[Transport]]></stf_Transport>
+</PlanYourVisit></con_RHSModules>
+    <con_Category></con_Category>
+    <lst_Subpages>
+    </lst_Subpages>
+</StandardCampaignLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

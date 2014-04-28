@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="35" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[ホーム]]></headline>
+            <href><![CDATA[/jp/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[計画する]]></headline>
+            <href><![CDATA[/jp/plan.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[宿泊施設]]></headline>
+            <href><![CDATA[/jp/plan/plan-your-trip/accommodation.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/plan-plan-your-trip-find-accommodation.jpg]]></img_background>
+    <hdl_Title><![CDATA[宿泊施設]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/plan-plan-your-trip-find-accommodation-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/plan-plan-your-trip-find-accommodation-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[オーストラリア国内の宿泊施設であるホテルやモーテル 、サービス付きアパートメント（別称ホリディ・ユニット）、ベッド・アンド・ブレックファースト（B&amp;B）、ファームステイ、キャンピングとキャラバンサイト、ホステルとバックパッカー、リゾートをご紹介。宿泊施設の種類、施設および費用の目安をを良く調べておきましょう。]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[詳細はこちらから]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[宿泊施設｜旅の計画 - オーストラリア政府観光局]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        デザイン・ホテル、バックパッカー向けホテル、リゾート、サービス・アパートメント、カントリー・パブ、ファーム・ステイやキャンプなどの情報をご紹介します。 
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <AccommodationRHS isTemplate="1">
+    <!-- no user content -->
+</AccommodationRHS><StarRatingModule isTemplate="1">
+    <hdl_Title><![CDATA[星数による格付けの基準 ]]></hdl_Title>
+    <con_StarRating>
+        <StarRatingItem isTemplate="1">
+    <hdl_Title><![CDATA[5 stars]]></hdl_Title>
+    <txt_Description><![CDATA[Superior standard and an extensive range of first-class guest services]]></txt_Description>
+    <img_Stars><![CDATA[<img src="/contentimages/rating5.jpg" alt="5 stars">]]></img_Stars>
+</StarRatingItem><StarRatingItem isTemplate="1">
+    <hdl_Title><![CDATA[4ツ星および4.5星 ]]></hdl_Title>
+    <txt_Description><![CDATA[標準以上の施設で高級な家具と居心地のよい居室]]></txt_Description>
+    <img_Stars><![CDATA[<img src="/contentimages/rating4.jpg" alt="4ツ星および4.5星 ">]]></img_Stars>
+</StarRatingItem><StarRatingItem isTemplate="1">
+    <hdl_Title><![CDATA[3ツ星および3.5星]]></hdl_Title>
+    <txt_Description><![CDATA[整備された施設で快適で清潔な客室と良質な家具 ]]></txt_Description>
+    <img_Stars><![CDATA[<img src="/contentimages/rating3.jpg" alt="3ツ星および3.5星">]]></img_Stars>
+</StarRatingItem><StarRatingItem isTemplate="1">
+    <hdl_Title><![CDATA[3ツ星未満]]></hdl_Title>
+    <txt_Description><![CDATA[簡素だが適切な基準を維持 ]]></txt_Description>
+    <img_Stars><![CDATA[]]></img_Stars>
+</StarRatingItem><StarRatingItem isTemplate="1">
+    <hdl_Title><![CDATA[サービス付きアパートメント ]]></hdl_Title>
+    <txt_Description><![CDATA[リビングと寝室1～3室を備えた生活用具完備のアパートメント。キッチン、洗濯機、バスルーム付。]]></txt_Description>
+    <img_Stars><![CDATA[]]></img_Stars>
+</StarRatingItem>
+    </con_StarRating>
+    <anc_MoreLink><![CDATA[]]></anc_MoreLink> 
+</StarRatingModule><Listing isTemplate="1">
+<anc_List1><![CDATA[/jp/plan/before-you-go/visa-information.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[More Australian Ideas]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[宿泊]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[オーストラリアではさまざまな宿泊施設が選べます。 ブティックホテルなホテル、バックパッカー、豪華なリゾート、サービス付きアパートメント、鄙びた田舎のパブ、キャンプなどよりどりみどりです。心のこもったもてなしと予算に応じた最高品質のサービスが期待できます。
+<P>宿泊施設の種類、施設および費用の目安をを良く調べておきましょう。<BR></P>]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[ホテル]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[ホテル]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[個室やスイートルームに宿泊し、電話一つでルームサービスやベビーシッターを利用し、プール、フィットネスセンターからレストラン、バーまで各種の施設が楽しめます。オーストラリアの主要観光地と大都市には世界的に有名なホテルのグループはほとんど揃っています。格付けは2ツ星から5ツ星まで各種あり、宿泊料も様々です。]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[モーテル ]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[モーテル ]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[車での旅行には手頃な料金で快適に泊まれるモーテルがおすすめです。通常、部屋にはバスまたはシャワー、テレビ、紅茶およびコーヒーのセット、小型冷蔵庫が備えつけられています。ほとんどの場合朝食のルームサービスがあり、大型モーテルにはレストランも付属しています。 ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[サービス付きアパートメント（別称ホリディ・ユニット）]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[サービス付きアパートメント（別称ホリディ・ユニット）]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[サービス付きアパートメント（別称ホリディユニット）はゆったりしたスペースがあってプライバシーも守られているうえ、便利なキッチン設備と洗濯機が備わっています。家族や何人かのグループで旅行をする時、あるいは一個所に何日も滞在したい時には理想的でリーズナブルな選択肢でしょう。居間で横になったり自炊をしたりする楽しみを味わえます。食事やクリーニングのサービスの有無を選べるかどうかは、場所によって異なります。&nbsp; ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[ベッド・アンド・ブレックファースト（B&amp;B）]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[ベッド・アンド・ブレックファースト（B&amp;B）]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[家族的な雰囲気と心がこもった手作り料理をお望みなら、ベッド・アンド・ブレックファーストを利用してみましょう。小さな家族経営の施設が多く、歴史ある建物、鉱夫小屋から田舎の開拓農家、市内のタウンハウスを利用したものまで様々なタイプがあります。手頃な料金で居心地のよい部屋に泊まれ、オーナーから耳寄りな情報を聞けることもあります。 ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[ファームステイ]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[ファームステイ]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[小さな農家で雄鶏の鳴き声で目を覚ましたり、百万エーカー以上もある内陸部の牧場で羊毛の刈り方を教わったりしましょう。トタン屋根の下の簡易ベッドで寝ることも、広々とした開拓農場の贅沢な施設に泊まることもできます。農場に泊まれば広々とした自然の中で乗馬、魚釣り、水泳、ブッシュウォーキングを体験できます。柵を修理し、馬上から牛を追い、ザリガニ捕りに出かけ、農場内を4WDで走り回るなど日常の農場生活を経験するまたとない機会です。霧が立ち込めた朝、赤錆び色の日没、腹いっぱいの田舎料理、野外でのキャンプファイヤーなどを体験しましょう。一日の終わりには地下から湧出する温水の泉で星を見上げながら入浴することも可能です。都会の喧騒を逃れ、田舎らしい心をこめたもてなしと土地に根を張った本来的な生活に戻ることができます。]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[キャンピングとキャラバンサイト]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[キャンピングとキャラバンサイト]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[オーストラリアの風光明媚な田舎でキャンプを張り、トレーラーハウスで過ごす夜を心ゆくまで味わいましょう。国立公園内でテントを張り、あるいは設備が整った多数のキャンプ場やキャラバンサイトが利用できます。これらの場所には電気、温水シャワー、洗濯機、バーべキュー設備があり清潔で文化的な旅行ができます。国立公園およびキャンプ場では自然環境を守るための規則があることに注意しましょう。道に迷うことなくすべてのサービスが整った自動車旅行をするには、期間１ヶ月のガイド付きキャラバン旅行がおすすめです。または内陸部、森林、砂漠あるいは海岸の豪華なキャンプ場タイプの別荘地で贅沢さと大自然の魅力の両方を味わうこともできます。]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[ホステルとバックパッカー ]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[ホステルとバックパッカー]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[クィーンズランド州（Queensland）のビーチハットや樹上家屋に宿泊したり、南オーストラリア州の地下洞窟で寝るのも心躍る体験です。バックパッカー、フラッシュパッカー、単なる節約家のいずれであっても、オーストラリアでは内陸部から都市の中心部に至るまで各地にホステル施設があります。ホステルは費用の節約だけではなく他の旅行者と知り合う絶好の機会となります。お互いの体験談を交換し、グループをつくって新たな冒険に乗り出しましょう。]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Hostels and backpackers]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[Stay in beach huts and tree houses in Queensland or sleep deep underground in South Australia. Whether you’re a backpacker, flashpacker or just on a budget, Australia has hostel accommodation from the outback to our city centres. As well as saving you money, hostels are a great way to meet other travellers. You can trade stories or team up to tackle more Australian adventures. ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[リゾート ]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[リゾート ]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        リゾートには必要なものがすべて揃っており、ゆったりと過ごすことができます。広々とした豪華な客室と多様なゲストサービス、ツアー、アクティビティがあります。オーストラリアのリゾートはクィーンズランド州（Queensland）のハミルトン島（Hamilton Island）から<a href="/jp/explore/states/sa.xml" target="_self">南オーストラリア州</a>（South Australia）のワイナリーに至るまで、いずれもすばらしい自然環境にあり、くつろぐには理想的な場所です。それぞれの場所に応じたアクティビティも充実しています。<a href="/jp/explore/things-to-do/australian-adventure/nat-diving.xml" target="_self">スキーやスキューバダイビング</a>、<a href="/jp/explore/states/vic/vic-snow-play.xml">プールサイドでのカクテ</a>ルなど楽しみは尽きません。
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

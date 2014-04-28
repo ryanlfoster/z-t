@@ -8336,7 +8336,7 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
 
 /* line 17, ../../assets/scss/site/modules/_icon.scss */
 .icon-font-logo:before {
-  content: "\e600";
+  content: "\e624";
 }
 
 /* line 20, ../../assets/scss/site/modules/_icon.scss */
@@ -11883,7 +11883,12 @@ input[type=checkbox].checkbox + label.checkbox-label {
   color: #000;
 }
 
-/* line 154, ../../assets/scss/site/modules/_navbar.scss */
+/* line 153, ../../assets/scss/site/modules/_navbar.scss */
+li.navbar-item-active-subitem:hover {
+  border-bottom: 0;
+}
+
+/* line 157, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-item-dropdown-icon {
   display: inline-block;
   background-image: url("../imgs/base/nav-submenu-link-icon.png");
@@ -11895,7 +11900,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
   cursor: pointer;
 }
 @media (min-width: 768px) {
-  /* line 154, ../../assets/scss/site/modules/_navbar.scss */
+  /* line 157, ../../assets/scss/site/modules/_navbar.scss */
   .navbar-item-dropdown-icon {
     background-image: url("../imgs/base/nav-dropdown-icon.png");
     background-repeat: no-repeat;
@@ -11905,7 +11910,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
   }
 }
 
-/* line 174, ../../assets/scss/site/modules/_navbar.scss */
+/* line 177, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-brand {
   position: absolute;
   margin: 0;
@@ -11917,7 +11922,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
   display: block;
 }
 @media (min-width: 768px) {
-  /* line 174, ../../assets/scss/site/modules/_navbar.scss */
+  /* line 177, ../../assets/scss/site/modules/_navbar.scss */
   .navbar-brand {
     position: relative;
     width: auto;
@@ -11928,14 +11933,14 @@ input[type=checkbox].checkbox + label.checkbox-label {
 }
 
 /*------------------ NAVBAR MOBILE HEAD STYLES ----------------------*/
-/* line 195, ../../assets/scss/site/modules/_navbar.scss */
+/* line 198, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-mobile-head {
   height: 50px !important;
   text-align: center;
   padding: 0 !important;
   position: relative;
 }
-/* line 201, ../../assets/scss/site/modules/_navbar.scss */
+/* line 204, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-mobile-head .navbar-mobile-head-label {
   font-size: 1.5em;
   color: #000;
@@ -11943,7 +11948,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
   display: none;
 }
 
-/* line 209, ../../assets/scss/site/modules/_navbar.scss */
+/* line 212, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-mobile-close-icon {
   display: inline-block;
   background-image: url("../imgs/base/nav-close-icon.png");
@@ -11957,7 +11962,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
   display: none;
 }
 
-/* line 221, ../../assets/scss/site/modules/_navbar.scss */
+/* line 224, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-mobile-open-icon {
   display: inline-block;
   background-image: url("../imgs/base/nav-toggle-icon.png");
@@ -11970,7 +11975,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
   cursor: pointer;
 }
 
-/* line 232, ../../assets/scss/site/modules/_navbar.scss */
+/* line 235, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-mobile-back-icon {
   display: inline-block;
   background-image: url("../imgs/base/nav-back-icon.png");
@@ -11985,62 +11990,68 @@ input[type=checkbox].checkbox + label.checkbox-label {
 }
 
 /*------------------ NAVBAR SUBITEMS STYLES ----------------------*/
-/* line 247, ../../assets/scss/site/modules/_navbar.scss */
+/* line 250, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-subitems {
   position: absolute;
   top: 0;
   left: -100%;
   height: auto;
   overflow: hidden;
-  min-width: 275px;
+  min-width: 248px;
 }
 @media (min-width: 768px) {
-  /* line 247, ../../assets/scss/site/modules/_navbar.scss */
+  /* line 250, ../../assets/scss/site/modules/_navbar.scss */
   .navbar-subitems {
     width: 100%;
     left: 0;
-    margin-top: 2em;
+    margin-top: 1.4em;
     height: 0;
   }
 }
-/* line 262, ../../assets/scss/site/modules/_navbar.scss */
+/* line 265, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-subitems li {
   background-color: white;
   cursor: pointer;
 }
-/* line 266, ../../assets/scss/site/modules/_navbar.scss */
+/* line 269, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-subitems li a {
   color: black;
+  font-size: 1em;
+  font-weight: normal;
+  font-family: "ProximaNova Regular", Helvetica, Arial, sans-serif;
 }
 @media (min-width: 768px) {
-  /* line 266, ../../assets/scss/site/modules/_navbar.scss */
+  /* line 269, ../../assets/scss/site/modules/_navbar.scss */
   .navbar-subitems li a {
     color: #FFFFFF;
   }
 }
-/* line 272, ../../assets/scss/site/modules/_navbar.scss */
+/* line 280, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-subitems li a p {
   padding: 0;
   margin: 0;
+  text-align: left;
 }
 @media (min-width: 768px) {
-  /* line 262, ../../assets/scss/site/modules/_navbar.scss */
+  /* line 265, ../../assets/scss/site/modules/_navbar.scss */
   .navbar-subitems li {
     float: left;
     width: 100%;
     margin: 0;
-    padding: 1em;
+    padding: 9px 14px;
     height: auto;
     background-color: #000;
-    border-bottom: 1px #b3b4af solid !important;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-bottom: 1px #040000 solid !important;
   }
 }
 @media (min-width: 768px) {
-  /* line 287, ../../assets/scss/site/modules/_navbar.scss */
+  /* line 297, ../../assets/scss/site/modules/_navbar.scss */
   .navbar-subitems li:hover {
-    background-color: white;
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.9);
   }
-  /* line 289, ../../assets/scss/site/modules/_navbar.scss */
+  /* line 299, ../../assets/scss/site/modules/_navbar.scss */
   .navbar-subitems li:hover a {
     color: black;
   }
@@ -12048,133 +12059,245 @@ input[type=checkbox].checkbox + label.checkbox-label {
 
 /*------------------ STATES ----------------------*/
 @media (min-width: 768px) {
-  /* line 299, ../../assets/scss/site/modules/_navbar.scss */
+  /* line 310, ../../assets/scss/site/modules/_navbar.scss */
   .navbar-item-active {
     border-bottom: 1px black solid !important;
   }
 }
-/* line 303, ../../assets/scss/site/modules/_navbar.scss */
+/* line 314, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-item-active a {
   font-family: "ProximaNova Bold";
 }
 
-/* line 308, ../../assets/scss/site/modules/_navbar.scss */
+/* line 319, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-item-dropdown-icon-active {
   background-position: 0 0;
 }
 
-/* line 312, ../../assets/scss/site/modules/_navbar.scss */
+/* line 323, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-item-dropdown-icon-inactive {
   background-position: 0 0;
 }
 @media (min-width: 768px) {
-  /* line 312, ../../assets/scss/site/modules/_navbar.scss */
+  /* line 323, ../../assets/scss/site/modules/_navbar.scss */
   .navbar-item-dropdown-icon-inactive {
     background-position: 0 -7px;
   }
 }
 
-/* line 319, ../../assets/scss/site/modules/_navbar.scss */
+/* line 330, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-hide-icon {
   display: none !important;
 }
 
-/* line 322, ../../assets/scss/site/modules/_navbar.scss */
+/* line 333, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-show-icon {
   display: block !important;
 }
 
-/* line 325, ../../assets/scss/site/modules/_navbar.scss */
+/* line 336, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-show-icon-inline {
   display: inherit;
 }
 
 /*------------------ ANIMTAIONS ----------------------*/
-/* line 331, ../../assets/scss/site/modules/_navbar.scss */
+/* line 342, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-items-hide {
   left: -100%;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-/* line 336, ../../assets/scss/site/modules/_navbar.scss */
+/* line 347, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-items-show {
   left: 0px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-/* line 341, ../../assets/scss/site/modules/_navbar.scss */
+/* line 352, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-subitems-hide {
   left: -100%;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 @media (min-width: 768px) {
-  /* line 341, ../../assets/scss/site/modules/_navbar.scss */
+  /* line 352, ../../assets/scss/site/modules/_navbar.scss */
   .navbar-subitems-hide {
     height: 0px;
     left: 0px;
   }
 }
 
-/* line 350, ../../assets/scss/site/modules/_navbar.scss */
+/* line 361, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-subitems-show {
   left: 100%;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 @media (min-width: 768px) {
-  /* line 350, ../../assets/scss/site/modules/_navbar.scss */
+  /* line 361, ../../assets/scss/site/modules/_navbar.scss */
   .navbar-subitems-show {
     height: 400px;
   }
 }
 
-/* line 359, ../../assets/scss/site/modules/_navbar.scss */
+/* line 370, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-head-show-border {
   border-bottom: 1px #bbbbbb solid;
 }
 
-/* line 362, ../../assets/scss/site/modules/_navbar.scss */
+/* line 373, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-head-hide-border {
   border-bottom: none;
 }
 
-/* line 366, ../../assets/scss/site/modules/_navbar.scss */
+/* line 377, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-active {
   background-color: white;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-/* line 372, ../../assets/scss/site/modules/_navbar.scss */
+/* line 383, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-inactive {
   background-color: none;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-/* line 377, ../../assets/scss/site/modules/_navbar.scss */
+/* line 388, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-removeanimations {
   -webkit-transition: none;
   transition: none;
 }
 
-/* line 382, ../../assets/scss/site/modules/_navbar.scss */
+/* line 393, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-search-icon {
   position: absolute;
   right: 1em;
   top: 1em;
 }
 @media (min-width: 768px) {
-  /* line 382, ../../assets/scss/site/modules/_navbar.scss */
+  /* line 393, ../../assets/scss/site/modules/_navbar.scss */
   .navbar-search-icon {
     position: relative;
     right: 0;
     top: 0;
     margin-left: 3.5em;
   }
+}
+
+/*Search Box*/
+/* line 408, ../../assets/scss/site/modules/_navbar.scss */
+.nav-bar-panel-container {
+  position: relative;
+  z-index: 9999;
+  display: none;
+  background-color: #1d1919;
+  border-bottom: 2px solid #b1a895;
+}
+
+/* line 416, ../../assets/scss/site/modules/_navbar.scss */
+.nav-bar-panel-container .nav-search-form {
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* line 420, ../../assets/scss/site/modules/_navbar.scss */
+.nav-bar-panel-container .nav-search-fieldset {
+  position: relative;
+}
+
+/* line 423, ../../assets/scss/site/modules/_navbar.scss */
+.nav-bar-panel-container .nav-search-label {
+  width: 100%;
+  color: #ffc20e;
+  font-weight: normal;
+  padding-bottom: 10px;
+  font-size: 1.75em;
+  margin-left: -30px;
+}
+
+/* line 431, ../../assets/scss/site/modules/_navbar.scss */
+.nav-bar-panel-container .nav-search-label:not(#foo) {
+  display: none;
+}
+
+/* line 434, ../../assets/scss/site/modules/_navbar.scss */
+.nav-bar-panel-container .nav-search-text {
+  width: 80%;
+  margin-right: 10px;
+  margin-top: 5px;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #fff;
+  font-size: 1.125em;
+  color: #fff;
+}
+
+/* line 444, ../../assets/scss/site/modules/_navbar.scss */
+.nav-bar-panel-container .nav-search-text:focus {
+  outline: none;
+}
+
+@media (max-width: 767px) {
+  /* line 448, ../../assets/scss/site/modules/_navbar.scss */
+  .nav-bar-panel-container .nav-search-text::-webkit-input-placeholder {
+    color: transparent;
+  }
+
+  /* line 451, ../../assets/scss/site/modules/_navbar.scss */
+  .nav-bar-panel-container .nav-search-text:-moz-placeholder {
+    color: transparent;
+  }
+
+  /* line 454, ../../assets/scss/site/modules/_navbar.scss */
+  .nav-bar-panel-container .nav-search-text::-moz-placeholder {
+    color: transparent;
+  }
+
+  /* line 457, ../../assets/scss/site/modules/_navbar.scss */
+  .nav-bar-panel-container .nav-search-text:-ms-input-placeholder {
+    color: transparent;
+  }
+}
+/* line 461, ../../assets/scss/site/modules/_navbar.scss */
+.nav-bar-panel-container .nav-search-button {
+  padding: 8px 0;
+  vertical-align: top;
+  background: url(../imgs/base/btn-search-icon.png) no-repeat;
+  width: 27px;
+  height: 27px;
+}
+
+@media (min-width: 768px) {
+  /* line 469, ../../assets/scss/site/modules/_navbar.scss */
+  .nav-bar-panel-container .nav-search-form {
+    text-align: center;
+    padding: 50px 0;
+  }
+
+  /* line 473, ../../assets/scss/site/modules/_navbar.scss */
+  .nav-bar-panel-container .nav-search-text {
+    width: 100%;
+    margin-top: 0;
+    max-width: 560px;
+    font-size: 1.1em;
+  }
+}
+@media (max-width: 767px) {
+  /* line 481, ../../assets/scss/site/modules/_navbar.scss */
+  .nav-bar-panel-container .nav-bar-panel-nav > li {
+    border-bottom: 1px solid #00282e;
+  }
+}
+/* line 485, ../../assets/scss/site/modules/_navbar.scss */
+.nav-bar-panel-container .nav-bar-panel-nav > li > a {
+  padding: 1em 0.9375em 1em 1.875em;
+  text-decoration: none;
+  display: block;
+  font-size: 15px;
 }
 
 /* line 1, ../../assets/scss/site/modules/_imagewithdescription.scss */
@@ -12395,7 +12518,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
 
 /* line 1, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
 .faw-places-carousel {
-  background-color: #000;
+  background-color: #fff;
   margin-bottom: -5px;
 }
 /* line 8, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
@@ -12549,25 +12672,31 @@ input[type=checkbox].checkbox + label.checkbox-label {
   margin: 0.5em;
   width: 70px;
 }
-/* line 165, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
+@media (max-width: 480px) {
+  /* line 158, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
+  .faw-places-carousel .calltoactionbubble .head-divider hr {
+    width: 40px;
+  }
+}
+/* line 168, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
 .faw-places-carousel .calltoactionbubble .divider-small {
   margin-top: 50px;
 }
-/* line 170, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
+/* line 173, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
 .faw-places-carousel .calltoactionbubble-white {
   padding-top: 3.5em;
 }
-/* line 174, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
+/* line 177, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
 .faw-places-carousel .calltoactionbubble-white .head-divider {
   margin-top: 0;
   margin-bottom: 0;
 }
-/* line 179, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
+/* line 182, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
 .faw-places-carousel .calltoactionbubble-white .divider-small {
   margin-top: 10px;
 }
 
-/* line 188, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
+/* line 191, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
 .faw-places-theme .owl-replaced-pagination {
   padding: 0;
   margin: 0;
@@ -12578,47 +12707,47 @@ input[type=checkbox].checkbox + label.checkbox-label {
   left: 0;
 }
 @media (min-width: 817px) {
-  /* line 188, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
+  /* line 191, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
   .faw-places-theme .owl-replaced-pagination {
     bottom: 60px;
   }
 }
-/* line 201, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
+/* line 204, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
 .faw-places-theme .owl-replaced-pagination .icon-map-white:hover {
   background-color: #cfcfcf;
   background-color: rgba(255, 255, 255, 0.4);
   border-color: #fff;
 }
-/* line 208, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
+/* line 211, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
 .faw-places-theme .owl-replaced-page {
   display: inline-block;
   cursor: pointer;
 }
-/* line 212, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
+/* line 215, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
 .faw-places-theme .owl-replaced-page.active {
   cursor: default;
 }
-/* line 214, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
+/* line 217, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
 .faw-places-theme .owl-replaced-page.active .icon-map {
   background-color: #cfcfcf;
   background-color: rgba(255, 255, 255, 0.4);
 }
-/* line 220, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
+/* line 223, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
 .faw-places-theme .owl-replaced-page .icon-hidden {
   display: none;
 }
-/* line 227, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
+/* line 230, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
 .faw-places-theme .icon-map-hidden .icon-map {
   width: 10px;
   height: 10px;
   background-image: none;
   box-shadow: 0 0 2px 0 #000;
 }
-/* line 233, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
+/* line 236, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
 .faw-places-theme .icon-map-hidden .icon-map span {
   display: none;
 }
-/* line 238, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
+/* line 241, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
 .faw-places-theme .icon-map-hidden.active .icon-map {
   background-color: rgba(0, 0, 0, 0.1);
 }

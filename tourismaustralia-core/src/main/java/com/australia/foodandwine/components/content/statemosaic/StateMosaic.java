@@ -4,13 +4,9 @@ import org.apache.commons.lang3.StringUtils;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.ValueMap;
 
-import com.australia.utils.LinkUtils;
 import com.citytechinc.cq.component.annotations.Component;
 import com.citytechinc.cq.component.annotations.DialogField;
-import com.citytechinc.cq.component.annotations.FieldProperty;
 import com.citytechinc.cq.component.annotations.Listener;
-import com.citytechinc.cq.component.annotations.Tab;
-import com.citytechinc.cq.component.annotations.widgets.PathField;
 import com.day.cq.wcm.api.Page;
 import com.day.cq.wcm.api.PageManager;
 
@@ -19,18 +15,16 @@ import com.day.cq.wcm.api.PageManager;
 	@Listener(name = "afteredit", value = "REFRESH_PAGE"), @Listener(name = "afterinsert", value = "REFRESH_PAGE") })
 public class StateMosaic {
 
-	@DialogField(fieldLabel = "Top Text",name="./topText")
+	@DialogField(fieldLabel = "Top Text", name = "./topText")
 	private String topText;
 
-	@DialogField(fieldLabel = "Center Text", tab = 1,name="./centerText")
+	@DialogField(fieldLabel = "Center Text", tab = 1, name = "./centerText")
 	private String centerText;
 
-	@DialogField(fieldLabel = "Bottom text",name="./bottomText")
+	@DialogField(fieldLabel = "Bottom text", name = "./bottomText")
 	private String bottomText;
 
-	
 	private String template;
-
 
 	/**
 	 * Constructor
@@ -41,8 +35,10 @@ public class StateMosaic {
 		// TODO: Load first set server side so it can be indexed by google
 		PageManager pageManager = request.getResourceResolver().adaptTo(PageManager.class);
 		Page currentPage = pageManager.getContainingPage(request.getResource());
-		if (currentPage != null)
-			template = currentPage.getTemplate().getName();
+		if (currentPage != null) {
+			String templateName = currentPage.getProperties().get("cq:template", "");
+			template = templateName.substring(templateName.lastIndexOf("/") + 1);
+		}
 		ValueMap properties = request.getResource().adaptTo(ValueMap.class);
 		if (properties != null) {
 			topText = properties.get("topText", StringUtils.EMPTY);
@@ -70,7 +66,5 @@ public class StateMosaic {
 	public String getBottomText() {
 		return bottomText;
 	}
-
-	
 
 }

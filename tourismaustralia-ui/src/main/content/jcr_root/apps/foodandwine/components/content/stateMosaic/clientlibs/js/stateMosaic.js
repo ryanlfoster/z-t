@@ -11,6 +11,7 @@ $(document).ready(function() {
 		var source = $("#stateMosaic").html();
 		var resourcePath = $this.find(".resourcePath").val();
 		var pageTemplate = $this.find(".page").attr('name');
+		var messageText=$this.find(".message").val();
 		var type="grid";
 		$(this).find('.mosaicgridchanger-grid-button').click(function(){
 			type="grid";
@@ -52,7 +53,7 @@ $(document).ready(function() {
 				success : function(msg) {
 					var text = msg.length;
 					if (msg.length === 0)
-						$this.find(".mosaic").append("<h3 class='faw-article-healdine'>There are no articles for selected tag(s)</h3>");
+						$this.find(".mosaic").append("<h3 class='faw-article-healdine'>"+messageText+"</h3>");
 					$(".mosaicgridchanger").show();
 					if (msg[0].totalResults > 10)
 						$this.find(".btn-secondary").show();
@@ -131,7 +132,7 @@ $(document).ready(function() {
 			success : function(msg) {
 				var text = msg.length;
 				if (msg.length === 0)
-					$this.find(".mosaic").append("<h3 class='faw-article-healdine'>There are no articles for selected tag(s)</h3>");
+					$this.find(".mosaic").append("<h3 class='faw-article-healdine'>"+messageText+"</h3>");
 				$(".mosaicgridchanger").show();
 				if (msg[0].totalResults > 10)
 					$this.find(".btn-secondary").show();

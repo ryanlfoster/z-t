@@ -10,10 +10,8 @@ $(document).ready(function() {
 		var source = $("#stateMosaic").html();
 		var resourcePath = $this.find(".resourcePath").val();
 		var pageTemplate = $this.find(".page").attr('name');
-		if(pageTemplate!="homepage")
-        {
-            stateTag = $(".icon-map-wrapper").find(".icon-map-black-active ").text();
-            stateTag=stateTag.split(" ").join("-");
+		if(pageTemplate!="homepage") {
+            stateTag=window.location.pathname;
         }
 		var messageText=$this.find(".message").val();
 		var type="grid";

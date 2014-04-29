@@ -256,7 +256,7 @@ public class AtdwHighlights {
 		}
 
 		public String getAllProductsPath() {
-			return PathUtils.getAllAtdwProductsForCategoryPath(localeResource, category.toString(), state, null, city, term, 1);
+			return PathUtils.getAtdwSearchPath(localeResource, category.toString(), state, null, city, term, 1);
 		}
 
 		public List<ATDWProduct> getProducts() {

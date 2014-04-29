@@ -58,7 +58,7 @@ public final class PathUtils {
 		return null;
 	}
 
-	public static String getAllAtdwProductsForCategoryPath(Resource locale, String category, String state,
+	public static String getAtdwSearchPath(Resource locale, String category, String state,
 		String region, String city, String term, int page) {
 		StringBuilder sb = new StringBuilder();
 		sb.append(locale.getPath());

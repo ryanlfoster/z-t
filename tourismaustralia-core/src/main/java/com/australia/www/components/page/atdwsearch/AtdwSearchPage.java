@@ -149,7 +149,7 @@ public final class AtdwSearchPage {
 
 		public Page(int pageNumber) {
 			this.pageNumber = pageNumber;
-			this.path = PathUtils.getAllAtdwProductsForCategoryPath(localeResource, category.toString(), null, null,
+			this.path = PathUtils.getAtdwSearchPath(localeResource, category.toString(), null, null,
 				null, term, pageNumber);
 			this.selected = pageNumber == page;
 		}
@@ -196,7 +196,7 @@ public final class AtdwSearchPage {
 		}
 
 		public String getSearchPath() {
-			return PathUtils.getAllAtdwProductsForCategoryPath(localeResource, category.toString(), state, region, city,
+			return PathUtils.getAtdwSearchPath(localeResource, category.toString(), state, region, city,
 				term, 1);
 		}
 

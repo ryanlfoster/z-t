@@ -70,7 +70,7 @@
 			<div class="socialtiles-static-front">
 				<div class="mosaic-media mosaic-primary">
 					<img
-						src="/etc/designs/tourismaustralia/clientlibs/img/base/spacer.gif"
+						src="/etc/designs/tourismaustralia/clientlibs/imgs/base/spacer.gif"
 						alt="" />
 				</div>
 				<div class="mosaic-overlay">

@@ -11328,7 +11328,12 @@ input[type=checkbox].checkbox + label.checkbox-label {
   text-align: center;
 }
 
-/* line 22, ../../assets/scss/site/modules/_imageuploader.scss */
+/* line 24, ../../assets/scss/site/modules/_imageuploader.scss */
+.image-uploader-item {
+  margin-bottom: 1em;
+}
+
+/* line 29, ../../assets/scss/site/modules/_imageuploader.scss */
 .image-uploader-control {
   width: 180px;
   height: 46px;
@@ -11338,17 +11343,45 @@ input[type=checkbox].checkbox + label.checkbox-label {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
 }
 
-/* line 31, ../../assets/scss/site/modules/_imageuploader.scss */
+/* line 38, ../../assets/scss/site/modules/_imageuploader.scss */
 .image-uploader-label {
   display: none;
 }
 
-/* line 35, ../../assets/scss/site/modules/_imageuploader.scss */
+/* line 42, ../../assets/scss/site/modules/_imageuploader.scss */
 .image-uploader-filename {
   margin: 0 0 1em 0;
   display: block;
   font-size: 0.9em;
   line-height: 1.5em;
+}
+
+/* line 49, ../../assets/scss/site/modules/_imageuploader.scss */
+.image-uploader-item:first-child .image-uploader-remove {
+  display: none;
+}
+
+/* line 53, ../../assets/scss/site/modules/_imageuploader.scss */
+.image-uploader-remove {
+  float: right;
+  margin-top: 1.8em;
+}
+
+/* line 58, ../../assets/scss/site/modules/_imageuploader.scss */
+.image-uploader-remove a {
+  font-size: 0.9em;
+  font-weight: normal;
+}
+
+/* line 63, ../../assets/scss/site/modules/_imageuploader.scss */
+.image-uploader-add-more {
+  margin-top: 1em;
+}
+
+/* line 66, ../../assets/scss/site/modules/_imageuploader.scss */
+.image-uploader-add-more a {
+  font-size: 0.9em;
+  font-weight: normal;
 }
 
 /* line 1, ../../assets/scss/site/modules/_hintwithicon.scss */
@@ -13505,7 +13538,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
   margin-bottom: -241px;
 }
 
-/* line 8, ../../assets/scss/site/modules/_socialcounter.scss */
+/* line 9, ../../assets/scss/site/modules/_socialcounter.scss */
 .socialcounter-inner {
   position: relative;
   width: 185px;
@@ -13515,7 +13548,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
   margin: 0 auto;
 }
 
-/* line 18, ../../assets/scss/site/modules/_socialcounter.scss */
+/* line 19, ../../assets/scss/site/modules/_socialcounter.scss */
 .socialcounter-bg {
   position: absolute;
   top: 0;
@@ -13531,25 +13564,33 @@ input[type=checkbox].checkbox + label.checkbox-label {
   z-index: 1;
 }
 
-/* line 31, ../../assets/scss/site/modules/_socialcounter.scss */
+/* line 32, ../../assets/scss/site/modules/_socialcounter.scss */
 .socialcounter-content {
   width: 180px;
   text-align: center;
   position: relative;
   z-index: 2;
 }
-/* line 37, ../../assets/scss/site/modules/_socialcounter.scss */
+/* line 38, ../../assets/scss/site/modules/_socialcounter.scss */
 .socialcounter-content p {
   color: white;
   margin: 0;
   padding: 0;
 }
 
-/* line 44, ../../assets/scss/site/modules/_socialcounter.scss */
+/* line 45, ../../assets/scss/site/modules/_socialcounter.scss */
 .socialcounter-count {
   padding-top: 0.5em !important;
   font-size: 3em;
   line-height: 1em;
+}
+
+/* line 51, ../../assets/scss/site/modules/_socialcounter.scss */
+.socialcounter-bottom-space {
+  padding-bottom: 8em;
+  background: #fff;
+  position: relative;
+  -webkit-transform: translateZ(0);
 }
 
 /* line 1, ../../assets/scss/site/modules/_foodandwineteritories.scss */
@@ -13557,19 +13598,18 @@ input[type=checkbox].checkbox + label.checkbox-label {
   -webkit-transform: translateZ(0);
   position: relative;
   background-color: #FFF;
-  padding-top: 8em;
 }
 
-/* line 8, ../../assets/scss/site/modules/_foodandwineteritories.scss */
+/* line 7, ../../assets/scss/site/modules/_foodandwineteritories.scss */
 .faw-territories-copy {
   padding-top: 8em;
 }
-/* line 11, ../../assets/scss/site/modules/_foodandwineteritories.scss */
+/* line 10, ../../assets/scss/site/modules/_foodandwineteritories.scss */
 .faw-territories-copy h5 {
   color: white;
   padding: 0.2em;
 }
-/* line 16, ../../assets/scss/site/modules/_foodandwineteritories.scss */
+/* line 15, ../../assets/scss/site/modules/_foodandwineteritories.scss */
 .faw-territories-copy h2 {
   color: white;
   padding: 0.2em;

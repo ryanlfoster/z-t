@@ -32,6 +32,10 @@
   }
 }
 
-.dreamtrip-shared .shareicons {
-  max-width: 300px;
+.dreamtrip-shared  {
+  text-align: center;
+  @include breakpoint(md) {
+    text-align: left;
+    //max-width: 300px;
+  }
 }

@@ -1,42 +1,108 @@
 ---
-title: home
+title: Home
 layout: layout-base.hbs
 ---
 
 {{#parseJSON '{
-"hero_image" : "herohome_sydney",
-"hero_title" : "Sydney",
-"hero_subtitle" : "The harbour city"
+    "hero_image" : "hero-dreamtrip",
+    "hero_title" : "Home Hero Video"
 }'}}
-    {{> hero }}
+    {{> hero_category }}
 {{/parseJSON}}
 
-<div class="l-padding-between-item-fill-white">
-    {{#parseJSON '{
-    "page_title" : "New South Wales",
-    "map_summary" : [
-        {"para" : "Whether you adore the arts or love the great outdoors, Victoria has something for you."},
-        {"para" : "The state is packed with both scenic and cultural attractions – from striking public spaces and state-of-the-art museums to heritage sites and rare wildlife."}
-    ],
-    "map_text" : [
-        {"para" : "Discover the cafes and bars of Melbourne’s gothic laneways and drive the Great Ocean Road. Wind your way through the wineries of the Yarra Valley and chug down the Murray in a paddle-steamer. Swim with dolphins on Mornington Peninsula and see fairy penguins on Phillip Island. Trek the rugged Grampians then relax in a Daylesford health spa. Bushwalk Gippsland’s coastal wilderness, hit the High Country slopes or explore the grand architecture of a Goldfields town."}
-    ],
-    "map_image" : "intro-map-australia-nsw",
-    "map_main_title" : "Capital of Victoria",
-    "map_pin_button" : "Melbourne"
-}'}}
-        {{> explore_summary_map }}
+<div class="paragraph-home">
+
+
+
+    <div class="hotornot">
+
+        <div class="row l-center-1200">
+            {{#parseJSON '{"copy": "Explore your Australia"}'}}
+                {{> linethroughtextfullhr}}
+            {{/parseJSON}}
+        </div>
+
+        <div class="row l-center-1200 l-row-collapse">
+            <div class="col-xs-6">
+                <img src="imgs/placeholders/hot_or_not1.png" alt="" class="hotornot-category-image" />
+
+                <div class="hotornot-category">
+                    {{#parseJSON '{"title": "Arts, Music & Culture"}'}}
+                        <h2 class="hotornot-h2-responsive">
+                            {{#if title}}
+                                {{{title}}}
+                            {{else}}
+                                Arts, Music & Culture
+                            {{/if}}
+                        </h2>
+                    {{/parseJSON}}
+                </div>
+
+                <div class="hotornot-like">
+                    <a href="#" class="btn-bubble">
+            <span class="btn-bubble-button">
+                  <img class="btn-bubble-std" src="imgs/icons/hot_or_not_like_std.png" alt=""/>
+                  <img class="btn-bubble-active" src="imgs/icons/hot_or_not_like_rol.png" alt=""/>
+            </span>
+                    </a>
+                </div>
+
+            </div>
+            <div class="col-xs-6">
+                <img src="imgs/placeholders/hot_or_not2.png" alt="" class="hotornot-category-image" />
+            </div>
+        </div>
+
+        <div class="hotornot-refresh">
+            <a href="#" class="btn-bubble">
+        <span class="btn-bubble-button">
+              <img class="btn-bubble-std" src="imgs/icons/hot_or_not_refresh_std.png" alt=""/>
+              <img class="btn-bubble-active" src="imgs/icons/hot_or_not_refresh_rol.png" alt=""/>
+        </span>
+            </a>
+        </div>
+
+
+
+    </div>
+
+    <a href="#" class="btn-bubble">
+        <span class="btn-bubble-button">
+              <img class="btn-bubble-std" src="imgs/icons/hot_or_not_close_std.png" alt=""/>
+              <img class="btn-bubble-active" src="imgs/icons/hot_or_not_close_rol.png" alt=""/>
+        </span>
+    </a>
+
+    <br>
+
+    <a href="#" class="btn-bubble">
+        <span class="btn-bubble-button">
+              <img class="btn-bubble-std" src="imgs/icons/hot_or_not_like_std.png" alt=""/>
+              <img class="btn-bubble-active" src="imgs/icons/hot_or_not_like_rol.png" alt=""/>
+        </span>
+    </a>
+
+    <br>
+
+
+
+
+
+    {{#parseJSON '{"title": "#Australia", "copy": "See what other Australian holidaymakers have been up to lately."}'}}
+        {{> socialtiles }}
     {{/parseJSON}}
-</div>
 
-{{> image_with_date }}
 
-{{> image_with_button }}
+    {{#parseJSON '{
+        "promo_image" : "restaurant_australia_image1",
+        "promo_title" : "Take a bike ride to Donovan&#769;s Beach",
+        "promo_text" : [
+            {"para" : "12KM to the north (For the intrepid explorer - you need a 4WD or a mountain bike. Another 4 km north from Emmagen. There is a slight track from the road into the beach following the creek for about 200 metres."}
+        ],
+        "promo_value" : "",
+        "promo_per" : ""
+    }'}}
+        {{> specialoffer }}
+    {{/parseJSON}}
 
-<div class="l-padding-between-item-fill-white">
-    {{> mapimagewithlinks }}
-</div>
-
-<div class="l-padding-between-item-fill-white">
-    {{> explore }}
 </div>

@@ -1,6 +1,9 @@
 package com.australia.www.components.content.atdwhighlights;
 
-import com.australia.atdw.domain.*;
+import com.australia.atdw.domain.ATDWCategory;
+import com.australia.atdw.domain.ATDWProduct;
+import com.australia.atdw.domain.ATDWProductSearchParameters;
+import com.australia.atdw.domain.ATDWProductSearchParametersBuilder;
 import com.australia.atdw.service.ATDWProductService;
 import com.australia.utils.PathUtils;
 import com.citytechinc.cq.component.annotations.*;
@@ -232,8 +235,8 @@ public class AtdwHighlights {
 			this.category = category;
 
 			ATDWProductSearchParameters params = baseBuilder.setCategory(category).build();
-			ATDWSearchResult result = productService.search(params);
-			products = result == null ? new ArrayList<ATDWProduct>() : result.getResults();
+			List<ATDWProduct> out = productService.search(params).getResults();
+			products = out == null ? new ArrayList<ATDWProduct>() : out;
 		}
 
 		public String getId() {
@@ -253,7 +256,7 @@ public class AtdwHighlights {
 		}
 
 		public String getAllProductsPath() {
-			return PathUtils.getAllAtdwProductsForCategoryPath(localeResource, category.toString(), state, city, term);
+			return PathUtils.getAllAtdwProductsForCategoryPath(localeResource, category.toString(), state, null, city, term, 1);
 		}
 
 		public List<ATDWProduct> getProducts() {

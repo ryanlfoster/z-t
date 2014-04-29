@@ -1,92 +1,172 @@
 <%@ taglib prefix="tacore" uri="http://www.austalia.com/taglibs/tourismaustralia-core/1.0" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@include file="/apps/tourismaustralia/components/global.jsp"%>
 <%@ page import="com.australia.www.components.page.atdwsearch.AtdwSearchPage" %>
 
-<div id="main-content">
-    <cq:include path="hero" resourceType="tourismaustralia/components/content/hero"/>
+<c:set var="search" value="<%=new AtdwSearchPage(slingRequest) %>"/>
 
-    <div class="home-explore-summary-map">
+<div class="paragraph-search">
+    <cq:include path="breadcrumb" resourceType="tourismaustralia/components/content/breadcrumb"/>
+
+    <div class="search-box">
         <div class="row l-center-1200">
             <div class="col-xs-12">
-                <div class="breadcrumbs">
-                    <cq:include path="breadcrumb" resourceType="tourismaustralia/components/content/breadcrumb"/>
+                <div class="search-box-wrapper">
+                    <form method="get" action="#">
+                        <fmt:message key="Type text to search" var="typeTextToSearch"/>
+                        <label class="search-input-label" for="searchinput">${typeTextToSearch}</label>
+                        <input class="search-input" name="searchinput" type="text" placeholder="${typeTextToSearch}" value="${search.term}" />
+                        <input type="button" class="search-input-go" type="submit" name="submit" />
+                        <input type="button" class="search-input-clear" type="button" name="submit" />
+                    </form>
                 </div>
             </div>
         </div>
-        <div class="row l-center-1200">
-            <div class="col-xs-12 col-sm-3">
-                <cq:include path="tagCloud" resourceType="tourismaustralia/components/content/tagCloud"/>
-                <div class="shareicons-container">
-                    <cq:include path="shareThis" resourceType="tourismaustralia/components/content/shareThis"/>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-9">
-                <div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-md-push-6 home-summary-map-container">
-                        <cq:include path="imageMapWithCityLink" resourceType="tourismaustralia/components/content/imageMapWithCityLink"/>
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-md-pull-6">
-                        <div class="row">
-                            <cq:include path="summary" resourceType="tourismaustralia/components/content/summary"/>
+    </div>
+
+    <div class="section-intro">
+        <div class="l-center-900">
+            <h3 class="type-h1-responsive">
+                <fmt:message key="MAKE YOUR TRIP HAPPEN"/>
+            </h3>
+        </div>
+    </div>
+
+    <div class="row l-center-1200">
+        <div class="col-xs-12">
+            <div class="l-h-center section-buttons">
+
+                <!-- Select List For Mobile -->
+                <div class="section-buttons-mobile">
+                    <div class="dropdown-select">
+                        <hr>
+                        <div class="dropdown-select-style">
+                            <select>
+                                <c:forEach items="${search.categories}" var="cat">
+                                    <option value="${cat.id}">
+                                        <fmt:message key="${cat.display}" />
+                                    </option>
+                                </c:forEach>
+                            </select>
                         </div>
-                        <hr class="full">
-                        <div class="row">
-                            <div class="type-body">
-                                <cq:include path="text" resourceType="tourismaustralia/components/content/text"/>
+                        <hr>
+                    </div>
+                </div>
+
+                <!-- Buttons -->
+                <div class="section-buttons-desktop">
+
+                    <c:forEach items="${search.categories}" var="cat">
+                        <c:if test="${cat.active}">
+                            <c:set var="active" value="is-active" />
+                        </c:if>
+                        <c:if test="${!cat.active}">
+                            <c:set var="active" value="" />
+                        </c:if>
+                        <a class="btn-bubble btn-bubble-min-width ${active} " href="${cat.searchPath}">
+                            <span class="btn-bubble-button">
+                                <img class="btn-bubble-std" src="${cat.standardIconPath}" alt="">
+                                <img class="btn-bubble-active" src="${cat.activeIconPath}" alt="">
+                            </span>
+                            <span class="type-below-btn">
+                                <fmt:message key="${cat.display}" />
+                            </span>
+                        </a>
+                    </c:forEach>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="atdw-refresh-results">
+        <div class="row l-center-1200">
+            <div class="col-xs-12">
+                <div class="atdw-refresh-results-wrapper">
+                    <div class="atdw-refresh-results-item">
+                        <div class="dropdown-white-background">
+                            <div class="dropdown-white-background-style">
+                                <select>
+                                    <option>United States</option>
+                                    <option>Australia</option>
+                                </select>
                             </div>
                         </div>
                     </div>
+                    <div class="atdw-refresh-results-item">
+                        <div class="dropdown-white-background">
+                            <div class="dropdown-white-background-style">
+                                <select>
+                                    <option>United States</option>
+                                    <option>Australia</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="atdw-refresh-results-item">
+                        <div class="dropdown-white-background">
+                            <div class="dropdown-white-background-style">
+                                <select>
+                                    <option>United States</option>
+                                    <option>Australia</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="atdw-refresh-results-item">
+                        <a href="#" class="btn-primary transparent"><fmt:message key="refresh results" /></a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="paragraph-city">
-        <cq:include path="mainParsys" resourceType="foundation/components/parsys"/>
-        <c:set var="atdwSearch" value="<%=new AtdwSearchPage(slingRequest) %>"/>
-        <tacore:atdwSearch var="results" term="${param.term}" category="${param.category}" state="${param.state}" region="${param.region}" city="${param.city}" page="${param.page}" count="${atdwSearch.count}" />
 
-        <table>
-            <tbody>
-            <c:forEach items="${results}" var="item" varStatus="status">
-
-                <c:if test="${status.index % 3 == 0}">
-                    <tr>
-                </c:if>
-
-                <td>${item.title}<br>${item.state}<br>${item.city}</td>
-
-
-                <c:if test="${status.index % 3 == 2 || status.last}">
-                    </tr>
-                </c:if>
-
-            </c:forEach>
-            </tbody>
-        </table>
-        <cq:include path="categorizedIconLinks" resourceType="tourismaustralia/components/content/categorizedIconLinks"/>
+    <div class="search-result-count">
+        <div class="row l-center-1200">
+            <div class="col-xs-12">
+                <span class="search-result-count-copy">
+                    <fmt:message key="Showing {0} results" var="resultCountText">
+                        <fmt:param value="${search.results.totalResultCount}"/>
+                    </fmt:message>
+                    <c:out value="${resultCountText}" />
+                </span>
+            </div>
+        </div>
     </div>
+
+    <c:set var="products" value="${search.results.results}" scope="request" />
+    <cq:include script="/apps/tourismaustralia/components/content/atdwHighlights/atdwHighlightMosaic.jsp" />
+
+    <div class="atdw-search-pagination">
+        <div class="row l-center-1200">
+            <div class="col-xs-12">
+                <div class="atdw-search-pagination-wrapper type-links-bottom-border">
+                    <c:if test="${search.page ne 1}">
+                        <div class="atdw-search-pagination-prev">
+                            <a href="#">Prev</a>
+                        </div>
+                    </c:if>
+                    <div class="atdw-search-pagination-pages">
+                        <ul class="atdw-search-pagination-pages-wrapper">
+                            <c:forEach items="${search.pages}" var="page">
+                                <c:set var="active" value=""/>
+                                <c:if test="${page.selected}">
+                                    <c:set var="active" value="is-active"/>
+                                </c:if>
+                                <li><a class="${active}" href="${page.path}">${page.pageNumber}</a></li>
+                            </c:forEach>
+                        </ul>
+                    </div>
+                    <c:if test="${search.page ne search.lastPage}">
+                        <div class="atdw-search-pagination-next">
+                            <a href="#">Next</a>
+                        </div>
+                    </c:if>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </div>
-
-<%--
-<c:set var="atdwSearch" value="<%=new AtdwSearchPage(slingRequest) %>"/>
-<tacore:atdwSearch var="results" term="${param.term}" category="${param.category}" state="${param.state}" region="${param.region}" city="${param.city}" page="${param.page}" count="${atdwSearch.count}" />
-
-<table>
-    <tbody>
-        <c:forEach items="${results}" var="item" status="status">
-
-            <c:if test="${status.count % 3 == 0}">
-                <tr>
-            </c:if>
-
-            <td>${item.title}<br>${item.state}<br>${item.city}</td>
-
-
-            <c:if test="${status.count % 3 == 2 || status.last}">
-                </tr>
-            </c:if>
-
-        </c:forEach>
-    </tbody>
-</table>
---%>

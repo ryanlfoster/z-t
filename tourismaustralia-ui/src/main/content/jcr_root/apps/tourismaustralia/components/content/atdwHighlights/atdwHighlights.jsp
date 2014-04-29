@@ -11,7 +11,7 @@
 <%@ page import="com.australia.www.components.content.atdwhighlights.*" %>
 <c:set var="h" value="<%=new AtdwHighlights(slingRequest) %>"/>
 
-<div class="atdwhighlights">
+<div class="atdwhighlights" data-aus-tab-container>
 
     <div class="section-intro">
         <div class="l-center-900">
@@ -29,7 +29,7 @@
             <div class="dropdown-select">
                 <hr>
                 <div class="dropdown-select-style">
-                    <select data-atdw-select>
+                    <select data-aus-select>
                         <c:forEach items="${h.activeCategories}" var="cat">
                             <c:if test="${not empty cat.products || isEdit}">
                                 <option value="${cat.id}">
@@ -47,7 +47,7 @@
         <div class="section-buttons-desktop">
             <c:forEach items="${h.activeCategories}" var="cat">
                 <c:if test="${not empty cat.products || isEdit}">
-                    <a class="btn-bubble btn-bubble-min-width is-active " data-atdw-category="${cat.id}">
+                    <a class="btn-bubble btn-bubble-min-width is-active " data-aus-tab="${cat.id}">
                         <span class="btn-bubble-button">
                             <img class="btn-bubble-std" src="${cat.standardIconPath}" alt="">
                             <img class="btn-bubble-active" src="${cat.activeIconPath}" alt="">
@@ -67,7 +67,7 @@
 
     <c:forEach items="${h.activeCategories}" var="cat">
 
-        <div class="mosaic" data-atdw-show-cat="${cat.id}">
+        <div class="mosaic" data-aus-show-tab="${cat.id}">
             <%
                 AtdwHighlights.Category cat = (AtdwHighlights.Category) pageContext.getAttribute("cat");
                 request.setAttribute("products", cat.getProducts());
@@ -80,7 +80,7 @@
     <div class="l-h-center">
 
         <c:forEach items="${h.activeCategories}" var="cat">
-            <a href="${cat.allProductsPath}" class="btn-primary" data-atdw-show-cat="${cat.id}">
+            <a href="${cat.allProductsPath}" class="btn-primary" data-aus-show-tab="${cat.id}">
                 <fmt:message key="View All ${cat.display}" />
             </a>
         </c:forEach>

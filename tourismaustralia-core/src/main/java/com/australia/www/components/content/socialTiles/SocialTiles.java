@@ -8,6 +8,7 @@ import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ValueMap;
 
+import com.australia.utils.LinkUtils;
 import com.australia.www.components.domain.Link;
 import com.citytechinc.cq.component.annotations.Component;
 import com.citytechinc.cq.component.annotations.DialogField;
@@ -16,10 +17,11 @@ import com.citytechinc.cq.component.annotations.Listener;
 import com.citytechinc.cq.component.annotations.Tab;
 import com.citytechinc.cq.component.annotations.widgets.DialogFieldSet;
 
-@Component(value = "Social Tiles", tabs = { @Tab(title = "Description"),
-		@Tab(title = "Tile 1"), @Tab(title = "Tile 2"), @Tab(title = "Tile 3"),
-		@Tab(title = "Tile 4"), @Tab(title = "Tile 5"), @Tab(title = "Tile 6"),
-		@Tab(title = "Tile 7"), @Tab(title = "Tile 8"), @Tab(title = "Tile 9") }, listeners = {
+@Component(value = "Social Tiles", disableTargeting = true, tabs = {
+		@Tab(title = "Description"), @Tab(title = "Tile 1"),
+		@Tab(title = "Tile 2"), @Tab(title = "Tile 3"), @Tab(title = "Tile 4"),
+		@Tab(title = "Tile 5"), @Tab(title = "Tile 6"), @Tab(title = "Tile 7"),
+		@Tab(title = "Tile 8"), @Tab(title = "Tile 9") }, listeners = {
 		@Listener(name = "afteredit", value = "REFRESH_PAGE"),
 		@Listener(name = "afterinsert", value = "REFRESH_PAGE") })
 public class SocialTiles {
@@ -27,8 +29,7 @@ public class SocialTiles {
 	@DialogField(xtype = "static", additionalProperties = {
 			@FieldProperty(name = "text", value = "This component will display 3 or 9 "
 					+ "tiles depending on the amount filled out. Anything less than 9 "
-					+ "will default to 3."
-					+ "\n"),
+					+ "will default to 3." + "\n"),
 			@FieldProperty(name = "bold", value = "true") })
 	@SuppressWarnings("unused")
 	private String tab1;
@@ -88,27 +89,32 @@ public class SocialTiles {
 
 		tilesList = new ArrayList<TileField>();
 
-		if (properties != null)
-		{
+		if (properties != null) {
 			title = properties.get("title", StringUtils.EMPTY);
 			subTitle = properties.get("subTitle", StringUtils.EMPTY);
-			link = new Link(properties.get("link/" + Link.PROP_PATH,
-					StringUtils.EMPTY), properties.get("link/" + Link.PROP_TITLE,
-					StringUtils.EMPTY));
-	
-			for (int tabNum=2; tabNum<=10; tabNum++) {
+			link = new Link(LinkUtils.getHrefFromPath(properties.get(
+					"link/" + Link.PROP_PATH,
+					StringUtils.EMPTY)), properties.get("link/"
+					+ Link.PROP_TITLE, StringUtils.EMPTY));
+
+			for (int tabNum = 2; tabNum <= 10; tabNum++) {
 				tile = new TileField();
-				tile.setIconPath(properties.get("tab" + tabNum + "/iconPath", StringUtils.EMPTY));
-				tile.setImagePath(properties.get("tab" + tabNum + "/imagePath", StringUtils.EMPTY));
-				tile.setTitle(properties.get("tab" + tabNum + "/title", StringUtils.EMPTY));
-				tile.setText(properties.get("tab" + tabNum + "/text", StringUtils.EMPTY));
-				tile.setLink(properties.get("tab" + tabNum + "/link", StringUtils.EMPTY));
+				tile.setIconPath(properties.get("tab" + tabNum + "/iconPath",
+						StringUtils.EMPTY));
+				tile.setImagePath(properties.get("tab" + tabNum + "/imagePath",
+						StringUtils.EMPTY));
+				tile.setTitle(properties.get("tab" + tabNum + "/title",
+						StringUtils.EMPTY));
+				tile.setText(properties.get("tab" + tabNum + "/text",
+						StringUtils.EMPTY));
+				tile.setLink(properties.get("tab" + tabNum + "/link",
+						StringUtils.EMPTY));
 				if (tile.getIsValid()) {
 					tilesList.add(tile);
 				}
 			}
 		}
-		
+
 	}
 
 	public List<TileField> getTilesList() {
@@ -131,7 +137,7 @@ public class SocialTiles {
 	public boolean getHasNine() {
 		return (tilesList.size() == 9);
 	}
-	
+
 	public boolean getHasSubTitle() {
 		return StringUtils.isNotBlank(subTitle);
 	}

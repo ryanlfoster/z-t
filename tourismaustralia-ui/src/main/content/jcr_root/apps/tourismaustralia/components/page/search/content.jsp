@@ -20,14 +20,16 @@
         <br>
         <br>
         <br>
+        <%-- REMOVE WHEN HEADER IS FIXED --%>
 
         <div class="search-box">
             <div class="row l-center-1200">
                 <div class="col-xs-12">
                     <div class="search-box-wrapper">
                         <form method="get" action="#">
-                            <label class="search-input-label" for="searchinput">Type text to search</label>
-                            <input class="search-input" name="searchinput" type="text" placeholder="Type text to search" value="${search.query}" />
+                            <fmt:message key="Type text to search" var="typeTextToSearch"/>
+                            <label class="search-input-label" for="searchinput">${typeTextToSearch}</label>
+                            <input class="search-input" name="searchinput" type="text" placeholder="${typeTextToSearch}" value="${search.query}" />
                             <input type="button" class="search-input-go" type="submit" name="submit" />
                             <input type="button" class="search-input-clear" type="button" name="submit" />
                             <input type="hidden" name="mode" value="${search.displayMode}" />
@@ -144,7 +146,7 @@
                         </div>
 
                         <div class="l-h-center">
-                            <a href="#" class="btn-primary"><fmt:message key="Search More"/></a>
+                            <a href="${search.atdwSearchUrl}" class="btn-primary"><fmt:message key="Search More"/></a>
                         </div>
 
                     </div>

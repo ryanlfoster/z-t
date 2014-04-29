@@ -28,7 +28,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-@Component(label = "Content Finder Service", immediate = true, metatype = true)
+@Component(label = "Content Search Service", immediate = true, metatype = true)
 @Service(value = ContentSearchService.class)
 public class DefaultContentSearchService implements ContentSearchService {
 

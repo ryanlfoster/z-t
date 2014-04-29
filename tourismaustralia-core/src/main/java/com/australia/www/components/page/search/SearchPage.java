@@ -50,6 +50,8 @@ public final class SearchPage {
 
 	private final String path;
 
+	private final String atdwSearchUrl;
+
 	public SearchPage(final SlingHttpServletRequest request) {
 
 		final SlingBindings bindings = (SlingBindings) request.getAttribute(SlingBindings.class.getName());
@@ -93,6 +95,8 @@ public final class SearchPage {
 		productResults.addAll(productService.search(productParams).getResults());
 
 		path = resource.getPath();
+
+		atdwSearchUrl = PathUtils.getAtdwSearchPage(PathUtils.getLanguageResource(resource), query);
 	}
 
 	public ContentType getType() {
@@ -142,4 +146,9 @@ public final class SearchPage {
 	public String getGridHref() {
 		return path + ".html?" + PARAM_Q + "=" + query + "&mode=GRID";
 	}
+
+	public String getAtdwSearchUrl() {
+		return atdwSearchUrl;
+	}
+
 }

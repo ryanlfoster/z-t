@@ -8,11 +8,18 @@ import com.australia.content.service.ContentSearchException;
 import com.australia.content.service.ContentSearchService;
 import com.australia.utils.PathUtils;
 import com.australia.utils.TagUtils;
-import com.citytechinc.cq.component.annotations.*;
+import com.citytechinc.cq.component.annotations.Component;
+import com.citytechinc.cq.component.annotations.DialogField;
+import com.citytechinc.cq.component.annotations.FieldProperty;
+import com.citytechinc.cq.component.annotations.Listener;
+import com.citytechinc.cq.component.annotations.Option;
+import com.citytechinc.cq.component.annotations.Tab;
 import com.citytechinc.cq.component.annotations.widgets.Selection;
 import com.citytechinc.cq.component.annotations.widgets.TagInputField;
 import com.day.cq.tagging.Tag;
 import com.day.cq.tagging.TagManager;
+import com.day.cq.wcm.api.Page;
+import com.day.cq.wcm.api.PageManager;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ResourceResolver;
@@ -53,7 +60,7 @@ public final class WhatYouCanSee {
 	@DialogField(fieldLabel = "Things To Do", fieldDescription = "When checked, 'Things To Do' will be displayed",
 		defaultValue = "true", tab = 2)
 	@Selection(type = Selection.CHECKBOX, options = @Option(value = "true"))
-	private final boolean showThingsToDo;
+	private boolean showThingsToDo;
 
 	@Selection(options = {@Option(value = "5", text = "5 Items"), @Option(value = "10", text = "10 Items") },
 		type = Selection.SELECT
@@ -64,7 +71,7 @@ public final class WhatYouCanSee {
 	@DialogField(fieldLabel = "Events", fieldDescription = "When checked, 'Events' will be displayed",
 		defaultValue = "true", tab = 2)
 	@Selection(type = Selection.CHECKBOX, options = @Option(value = "true"))
-	private final boolean showEvents;
+	private boolean showEvents;
 
 	@Selection(options = {@Option(value = "5", text = "5 Items"), @Option(value = "10", text = "10 Items") },
 		type = Selection.SELECT
@@ -73,7 +80,10 @@ public final class WhatYouCanSee {
 	private final String eventsTabSize;
 
 	@DialogField(fieldLabel = "Optional Tab", fieldDescription = "When checked, an authorable 3rd tab will be displayed",
-		defaultValue = "true", tab = 3)
+		tab = 3, listeners = {
+			@Listener(name = "selectionchanged", value = Constants.OPTIONAL_SHOW_LISTENER),
+			@Listener(name = "afterlayout", value = Constants.OPTIONAL_SHOW_LISTENER)
+		})
 	@Selection(type = Selection.CHECKBOX, options = @Option(value = "true"))
 	private final boolean showOptionalTab;
 
@@ -211,8 +221,10 @@ public final class WhatYouCanSee {
 
 		// When no tag is selected, attempt to find a city or state tag, in that order
 		if(tag == null) {
-			final Resource pageResource = resource.getParent();
-			final ValueMap pageProperties = pageResource.adaptTo(ValueMap.class);
+			final PageManager pageManager = resourceResolver.adaptTo(PageManager.class);
+			final Page page = pageManager.getContainingPage(resource);
+			final Resource contentResource = page.getContentResource();
+			final ValueMap pageProperties = contentResource.adaptTo(ValueMap.class);
 			final String[] tags = pageProperties.get("cq:tags", new String[0]);
 			tag = TagUtils.getCityTag(tagManager, tags);
 			if (tag == null) {
@@ -227,8 +239,13 @@ public final class WhatYouCanSee {
 		showEvents = properties.get(Constants.NAME_SHOW_EVENTS, false);
 		eventsTabSize = properties.get(Constants.NAME_EVENTS_TAB_SIZE, Constants.TAB_SIZE_10);
 		showOptionalTab = properties.get(Constants.NAME_SHOW_OPTIONAL_TAB, false);
-		optionalTabTitle = properties.get(Constants.NAME_TAB_3_TITLE, "");
+		optionalTabTitle = properties.get(Constants.NAME_TAB_3_TITLE, Constants.BLANK);
 		optionalTabSize = properties.get(Constants.NAME_OPTIONAL_TAB_SIZE, Constants.TAB_SIZE_5);
+
+		if (!showThingsToDo && !showEvents && !showOptionalTab) {
+			showThingsToDo = true;
+			showEvents = true;
+		}
 
 		optionalTabPath0 = properties.get(Constants.NAME_OPTIONAL_TAB_PATH_0, String.class);
 		final Resource optionalTabResource0 = resourceResolver.getResource(optionalTabPath0);

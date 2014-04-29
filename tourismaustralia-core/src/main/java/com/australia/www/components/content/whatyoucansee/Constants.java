@@ -25,7 +25,7 @@ final class Constants {
 	public static final String TAB_SIZE_5 = "5";
 	public static final String TAB_SIZE_10 = "10";
 
-	public static final String BASE_IMAGE_PATH = "/etc/designs/tourismaustralia/clientlibs/img/";
+	public static final String BASE_IMAGE_PATH = "/etc/designs/tourismaustralia/clientlibs/imgs/";
 	public static final String TTD_IMAGE_PATH = BASE_IMAGE_PATH + "icons/menu.png";
 	public static final String TTD_OUTLINE_IMAGE_PATH = BASE_IMAGE_PATH + "icons/menu_outline.png";
 	public static final String EVENTS_IMAGE_PATH = BASE_IMAGE_PATH + "icons/events.png";
@@ -43,25 +43,46 @@ final class Constants {
 	public static final String EVENTS_TAB_TITLE = "What's Coming Up";
 	public static final String EVENTS_TAB_VIEW_MORE = "View All Events";
 
-	public static final String SIZE_CHANGE_LISTENER = "function(field){"
-		+ "var value = field.getValue();"
-		+ "var disable = (value === '5');"
-		+ "var sibling = field.nextSibling();"
-		+ "  while(sibling) {"
-		+ "    var siblingName = sibling.getName();"
-		+ "    var lastChar = siblingName.substr(siblingName.length - 1);"
-		+ "    var index = parseInt(lastChar);"
-		+ "    if(index >= 5) {"
-		+ "      sibling.setDisabled(disable);"
-		+ "      sibling.setVisible(!disable);"
-		+ "    }"
-		+ "    sibling = sibling.nextSibling();"
-		+ "  }"
-		+ "}";
+	public static final String BLANK = "&nbsp;";
+
+	public static final String SIZE_CHANGE_LISTENER = "function(field){\n"
+		+ "var value = field.getValue();\n"
+		+ "var showCheckbox = field.previousSibling();\n"
+		+ "var disable = (value === '5');\n"
+		+ "var overrideDisable = (showCheckbox.getValue().length != 0);\n"
+		+ "var sibling = field.nextSibling();\n"
+		+ "  while(sibling) {\n"
+		+ "    var siblingName = sibling.getName();\n"
+		+ "    var lastChar = siblingName.substr(siblingName.length - 1);\n"
+		+ "    var index = parseInt(lastChar);\n"
+		+ "    if(index >= 5) {\n"
+		+ "      sibling.setDisabled(disable);\n"
+		+ "      sibling.setVisible(!disable);\n"
+		+ "    }\n"
+		+ "    sibling = sibling.nextSibling();\n"
+		+ "  }\n"
+		+ "}\n";
 
 	public static final String PATH_SELECT_LISTENER = "function(combo, record, index){"
 		+ "  var value = record.data['path'];"
 		+ "  combo.setValue(value);"
+		+ "}";
+
+	public static final String OPTIONAL_SHOW_LISTENER = "function(checkbox){"
+		+ "var value = checkbox.getValue();"
+		+ "var disable = value.length == 0;"
+		+ "var sibling = checkbox.nextSibling();"
+		+ "  while(sibling) {"
+		+ "    if(sibling.isVisible()) {"
+		+ "      sibling.setDisabled(disable);"
+		+ "      if(disable) {"
+		+ "        sibling.clearInvalid();"
+		+ "      } else {"
+		+ "        sibling.validate();"
+		+ "      }"
+		+ "    }"
+		+ "    sibling = sibling.nextSibling();"
+		+ "  }"
 		+ "}";
 
 	// Disallow instantiation of utility class

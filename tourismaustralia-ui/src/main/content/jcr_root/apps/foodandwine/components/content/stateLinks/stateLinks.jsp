@@ -8,7 +8,7 @@
 <p class="select-state-label select-state-label-explore">${stateLinks.bottomText}</p>
       
 <!-- selection for desktop -->
-<div class="l-display-none-md">
+<div class="l-display-none-md l-push-down-sm-5">
 	<p class="icon-map-wrapper">
 		<a href="${stateLinks.capital}.html" class="icon-map icon-map-black icon-map-capital${currentPage.path==stateLinks.capital ?' icon-map-black-active':''}"><span>Australian Capital Territory</span></a>
 		<a href="${stateLinks.nsw}.html" class="icon-map icon-map-black icon-map-nsw${currentPage.path==stateLinks.nsw ?' icon-map-black-active':''}"><span>New South Wales</span></a>
@@ -23,7 +23,7 @@
 <!-- END: selection -->
 
 <!-- selection for mobile -->
-<div class="l-display-md">
+<div class="l-display-md l-push-down-sm-3">
 	<select class="input-select input-select-small select-trigger-link input-select-top-border">
 		<option value=""> Select place</option>
 		<option value="${stateLinks.capital}.html">ACT</option>

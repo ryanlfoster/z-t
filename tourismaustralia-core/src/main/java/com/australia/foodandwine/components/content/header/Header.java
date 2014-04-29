@@ -34,7 +34,7 @@ public class Header {
 	@DialogField(fieldLabel = "Logo Image Alt", required = true)
 	private String imageAltTag;
 
-	@DialogField(fieldLabel = "Header Text & Links", fieldDescription = "Only top 2 fields will be selected ", additionalProperties = @FieldProperty(name = "width", value = "400"))
+	@DialogField(fieldLabel = "Header Text & Links", additionalProperties = @FieldProperty(name = "width", value = "400"))
 	@MultiCompositeField
 	private List<TextLink> headerDataList;
 
@@ -92,8 +92,7 @@ public class Header {
 				TextLink headerBean = new TextLink();
 				headerBean.setPagePath(pagePath);
 				headerBean.setLinkText(linkText);
-				if (headerDataList.size() < 2)
-					headerDataList.add(headerBean);
+				headerDataList.add(headerBean);
 			}
 		}
 	}

@@ -7,6 +7,7 @@ import org.apache.sling.api.resource.ValueMap;
 import com.citytechinc.cq.component.annotations.Component;
 import com.citytechinc.cq.component.annotations.DialogField;
 import com.citytechinc.cq.component.annotations.Listener;
+import com.citytechinc.cq.component.annotations.widgets.TextArea;
 import com.day.cq.wcm.api.Page;
 import com.day.cq.wcm.api.PageManager;
 
@@ -23,8 +24,13 @@ public class StateMosaic {
 
 	@DialogField(fieldLabel = "Bottom text", name = "./bottomText")
 	private String bottomText;
+	
+	@DialogField(fieldLabel="Message",name="./messageText",fieldDescription="Message to be displayed when no article present")
+	@TextArea
+	private String messageText;
 
 	private String template;
+	private static final String DEFAULT_MESSAGE="There are no article(s) present for selected tag(s)";
 
 	/**
 	 * Constructor
@@ -44,6 +50,7 @@ public class StateMosaic {
 			topText = properties.get("topText", StringUtils.EMPTY);
 			centerText = properties.get("centerText", StringUtils.EMPTY);
 			bottomText = properties.get("bottomText", StringUtils.EMPTY);
+			messageText=properties.get("messageText",DEFAULT_MESSAGE);
 		}
 	}
 
@@ -67,4 +74,7 @@ public class StateMosaic {
 		return bottomText;
 	}
 
+	public String getMessageText() {
+		return messageText;
+	}
 }

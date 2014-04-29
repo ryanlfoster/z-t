@@ -1573,12 +1573,12 @@
                     ,
                 
             
-                "agent_block" : {
+                "asp_search_agent_list" : {
                      "data" : {
-                        "title" : "agent_block",
+                        "title" : "asp_search_agent_list",
                         "layout" : "styleguide-preview.hbs"
                     },
-                    "content" : "{{section 'agent_block'}}"
+                    "content" : "{{section 'asp_search_agent_list'}}"
                 }
                 
                     ,

@@ -11531,6 +11531,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
   text-decoration: none;
   font-size: 1em;
   font-family: "ProximaNova Regular", Helvetica, Arial, sans-serif;
+  text-align: left;
 }
 @media (min-width: 768px) {
   /* line 58, ../../assets/scss/site/modules/_sortedlist.scss */
@@ -11541,7 +11542,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
   }
 }
 
-/* line 86, ../../assets/scss/site/modules/_sortedlist.scss */
+/* line 87, ../../assets/scss/site/modules/_sortedlist.scss */
 .sorted-list-item li a {
   font-size: 1.1em;
   font-family: "ProximaNova Bold", Helvetica, Arial, sans-serif;
@@ -11549,7 +11550,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
   text-decoration: underline;
 }
 
-/* line 93, ../../assets/scss/site/modules/_sortedlist.scss */
+/* line 94, ../../assets/scss/site/modules/_sortedlist.scss */
 .sorted-list-pagination {
   position: relative;
   text-align: center;
@@ -11559,7 +11560,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
   padding-right: 0;
 }
 
-/* line 102, ../../assets/scss/site/modules/_sortedlist.scss */
+/* line 103, ../../assets/scss/site/modules/_sortedlist.scss */
 .sorted-list-results-label {
   font-size: 0.9em;
   position: relative;
@@ -11567,7 +11568,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
   top: 0;
 }
 @media (min-width: 1200px) {
-  /* line 102, ../../assets/scss/site/modules/_sortedlist.scss */
+  /* line 103, ../../assets/scss/site/modules/_sortedlist.scss */
   .sorted-list-results-label {
     position: absolute;
     left: 0;
@@ -11575,7 +11576,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
   }
 }
 
-/* line 116, ../../assets/scss/site/modules/_sortedlist.scss */
+/* line 117, ../../assets/scss/site/modules/_sortedlist.scss */
 .sorted-list-pagination-buttons .btn-square {
   width: 40px;
   height: 40px;
@@ -11583,7 +11584,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
   font-size: 1.2em;
 }
 @media (min-width: 1200px) {
-  /* line 116, ../../assets/scss/site/modules/_sortedlist.scss */
+  /* line 117, ../../assets/scss/site/modules/_sortedlist.scss */
   .sorted-list-pagination-buttons .btn-square {
     width: 60px;
     height: 60px;
@@ -11592,7 +11593,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
   }
 }
 
-/* line 131, ../../assets/scss/site/modules/_sortedlist.scss */
+/* line 132, ../../assets/scss/site/modules/_sortedlist.scss */
 .sorted-list-head-mobile {
   border-top: 1px #bbbbbb solid;
   margin-top: 2em;
@@ -13499,23 +13500,22 @@ input[type=checkbox].checkbox + label.checkbox-label {
 /* line 1, ../../assets/scss/site/modules/_socialcounter.scss */
 .socialcounter {
   position: relative;
-  left: 50%;
-  margin-left: -90px;
-  margin-bottom: -185px;
   z-index: 4;
-  top: 3em;
+  padding: 33px 0 8px 0;
+  margin-bottom: -241px;
 }
 
-/* line 10, ../../assets/scss/site/modules/_socialcounter.scss */
+/* line 8, ../../assets/scss/site/modules/_socialcounter.scss */
 .socialcounter-inner {
   position: relative;
   width: 185px;
   height: 185px;
   text-align: center;
   padding: 10px;
+  margin: 0 auto;
 }
 
-/* line 19, ../../assets/scss/site/modules/_socialcounter.scss */
+/* line 18, ../../assets/scss/site/modules/_socialcounter.scss */
 .socialcounter-bg {
   position: absolute;
   top: 0;
@@ -13531,21 +13531,21 @@ input[type=checkbox].checkbox + label.checkbox-label {
   z-index: 1;
 }
 
-/* line 32, ../../assets/scss/site/modules/_socialcounter.scss */
+/* line 31, ../../assets/scss/site/modules/_socialcounter.scss */
 .socialcounter-content {
   width: 180px;
   text-align: center;
   position: relative;
   z-index: 2;
 }
-/* line 38, ../../assets/scss/site/modules/_socialcounter.scss */
+/* line 37, ../../assets/scss/site/modules/_socialcounter.scss */
 .socialcounter-content p {
   color: white;
   margin: 0;
   padding: 0;
 }
 
-/* line 45, ../../assets/scss/site/modules/_socialcounter.scss */
+/* line 44, ../../assets/scss/site/modules/_socialcounter.scss */
 .socialcounter-count {
   padding-top: 0.5em !important;
   font-size: 3em;

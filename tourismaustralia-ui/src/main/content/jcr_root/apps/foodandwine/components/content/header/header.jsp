@@ -105,7 +105,8 @@
                         </ul>
                     </li>
 					<c:if test="${fn:length(Header.headerDataList) > 2}">
-						<li>
+						<c:set var="pageLink" value="${currentPage.path}.html" />
+						<li class="navbar-item${Header.headerDataList[2].pagePath == pageLink?'-active':''}">
 							<c:choose>
 								<c:when test="${not empty Header.headerDataList[2].pagePath}">
 									<a href="${Header.headerDataList[2].pagePath}" target="_self">${Header.headerDataList[2].linkText}</a>

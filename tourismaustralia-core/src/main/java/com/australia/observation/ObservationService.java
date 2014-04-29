@@ -16,10 +16,6 @@ import org.apache.tika.detect.Detector;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.australia.foodandwine.listener.ExperienceCreationListener;
-import com.australia.utils.PathUtils;
-import com.australia.utils.ServerUtils;
-
 @Component(immediate = true, metatype = true, label = "Observation Service", description = "Observation Service")
 @Property(name = "service.description", value = "Observation Service")
 public final class ObservationService {
@@ -56,11 +52,13 @@ public final class ObservationService {
 
 	private void registerExperienceCreationListener(final ObservationManager observationManager)
 		throws RepositoryException {
-		if (slingSettings.getRunModes().contains(ServerUtils.AUTHOR)) {
-			observationManager.addEventListener(new ExperienceCreationListener(resourceResolverFactory, detector),
-				ExperienceCreationListener.EVENTS, PathUtils.FOOD_AND_WINE_USER_GENERATED, true, null,
-				new String[] { "cq:Page" }, false);
-		}
+		// if (slingSettings.getRunModes().contains(ServerUtils.AUTHOR)) {
+		// observationManager.addEventListener(new
+		// ExperienceCreationListener(resourceResolverFactory, detector),
+		// ExperienceCreationListener.EVENTS,
+		// PathUtils.FOOD_AND_WINE_USER_GENERATED, true, null,
+		// new String[] { "cq:Page" }, false);
+		// }
 	}
 
 	protected void deactivate() {

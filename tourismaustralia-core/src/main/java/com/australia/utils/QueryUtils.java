@@ -54,7 +54,7 @@ public class QueryUtils {
 		queryMap.put(prefix, property);
 		int valueNumber = 1;
 		for (final String value: values) {
-			final String valueIndicator = prefix + "." + valueNumber + VALUE;
+			final String valueIndicator = prefix + "." + valueNumber + SEPERATOR + VALUE;
 			queryMap.put(valueIndicator, value);
 			valueNumber++;
 		}

@@ -6,9 +6,12 @@
         <div class="flipper">
 
             <div class="mosaic-column-front flip-front">
+                <!-- image start -->
                 <div class="mosaic-media mosaic-primary">
-                    <img src="${contentItem.imagePath}" alt=""/>
+                    <img src="${contentItem.imagePath}" alt="">
                 </div>
+                <!-- image end -->
+                <!-- label start -->
                 <div class="mosaic-overlay">
                     <div class="vertical-container">
                         <div class="vertical-content text-center">
@@ -16,12 +19,22 @@
                         </div>
                     </div>
                 </div>
+                <!-- label end -->
+                <!-- date start -->
+                <div class="mosaic-overlay">
+                    <div class="vertical-container">
+                        <div class="vertical-content text-center type-date-mosaic">
+                            <span class="month"></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- date end -->
             </div>
 
-            <div class="mosaic-column-back mosaic-content flip-back mosaic-back theme-arts">
+            <div class="mosaic-column-back mosaic-content flip-back mosaic-back theme-beaches">
                 <div class="vertical-container">
                     <div class="vertical-content text-center">
-                        <img src="/etc/designs/tourismaustralia/clientlibs/img/icons/nature_wildlife.png" alt="" />
+                        <img class="icon-generic" src="/etc/designs/tourismaustralia/clientlibs/imgs/icons/beaches_white_outline.png" alt="">
                         <p class="type-destination line-through-line-wrapper">${contentItem.title}</p>
                     </div>
                 </div>
@@ -31,12 +44,13 @@
     </div>
 
     <div class="mosaic-item-detail-container">
-        <div class="mosaic-item-container">
-
+        <!-- close button start -->
+        <span class="mosaic-close-icon"><a class="mosaic-detail-close-btn" href="#"><img src="/etc/designs/tourismaustralia/clientlibs/imgs/icons/close_outline.png" alt=""></a></span>
+        <!-- close button end -->
+        <div class="mosaic-item-container type-ieAntialias">
             <div class="l-h-center type-spacing-20">
-                <img src="/etc/designs/tourismaustralia/clientlibs/img/icons/art_culture.png" alt="" />
+                <img src="/etc/designs/tourismaustralia/clientlibs/imgs/icons/art_culture.png" alt="">
             </div>
-
             <div class="line-through-container">
                 <div class="line-through"><span class="line-through-hr"></span></div>
                 <div class="line-through-container-biline">
@@ -44,21 +58,18 @@
                 </div>
                 <div class="line-through"><span class="line-through-hr"></span></div>
             </div>
-
             <div class="l-h-center l-padding-tb-30-lr-15">
-
                 <p>${contentItem.text}</p>
                 <p><a href="${contentItem.path}"><fmt:message key="View more information" /></a></p>
-
-                <a href="#" class="btn-bubble bubble-colour-favourite">
+                <a href="${contentItem.path}" class="btn-bubble bubble-colour-favourite">
                 <span class="btn-bubble-tooltip">
                     <span class="btn-bubble-tooltip-container">
                         <fmt:message key="Add to your dream trip" />
                     </span>
                 </span>
                 <span class="btn-bubble-button">
-                    <img class="btn-bubble-std" src="/etc/designs/tourismaustralia/clientlibs/img/icons/favourite_outline.png" alt="" />
-                    <img class="btn-bubble-active" src="/etc/designs/tourismaustralia/clientlibs/img/icons/favourite.png" alt="" />
+                    <img class="btn-bubble-std" src="/etc/designs/tourismaustralia/clientlibs/imgs/icons/favourite_outline.png" alt="">
+                    <img class="btn-bubble-active" src="/etc/designs/tourismaustralia/clientlibs/imgs/icons/favourite.png" alt="">
                 </span>
                 </a>
 

@@ -31,9 +31,8 @@ public enum ContentType {
 
 	public static List<String> allTemplates() {
 		final List<String> out = new ArrayList<String>();
-		for (ContentType type: ContentType.values()) {
-			out.add(type.getTemplate());
-		}
+		out.add(ARTICLE.getTemplate());
+		out.add(EVENT.getTemplate());
 		return out;
 	}
 }

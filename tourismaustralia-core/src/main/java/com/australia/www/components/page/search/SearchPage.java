@@ -33,7 +33,7 @@ public final class SearchPage {
 
 	@DialogField(fieldLabel = "Results Per Page", fieldDescription = "The contentResults per page to display: "
 		+ "defaults to 10, multiples of 5 are recommended.")
-	@NumberField(allowNegative = false, allowDecimals = false)
+	@NumberField(allowNegative = false, allowDecimals = false )
 	private final int count;
 
 	private final ContentType type;

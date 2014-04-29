@@ -627,7 +627,6 @@
 					</span> <span class="mosaic-item-overlay-info-categories"> <strong>{{primaryCategory}}</strong>
 					</span>
 				</span>
-
 				</a>
 			</div>
 			{{/if}} {{/compare}} {{/each}}

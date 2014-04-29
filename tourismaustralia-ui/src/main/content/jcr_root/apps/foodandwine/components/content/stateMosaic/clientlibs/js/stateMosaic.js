@@ -55,11 +55,13 @@ $(document).ready(function() {
 					if (msg.length === 0)
 						$this.find(".mosaic").append("<h3 class='faw-article-healdine'>"+messageText+"</h3>");
 					$(".mosaicgridchanger").show();
-					if (msg[0].totalResults > 10)
-						$this.find(".btn-secondary").show();
-					else
-						$this.find(".btn-secondary").hide();
-
+					if(msg.length!=0)
+					{
+						if (msg[0].totalResults > 10)
+							$this.find(".btn-secondary").show();
+						else
+							$this.find(".btn-secondary").hide();
+					}
 					var data = JSON.stringify(msg);
 					data = data.replace("[", "");
 					data = data.replace("]", "");
@@ -134,11 +136,13 @@ $(document).ready(function() {
 				if (msg.length === 0)
 					$this.find(".mosaic").append("<h3 class='faw-article-healdine'>"+messageText+"</h3>");
 				$(".mosaicgridchanger").show();
-				if (msg[0].totalResults > 10)
-					$this.find(".btn-secondary").show();
-				else
-					$this.find(".btn-secondary").hide();
-
+				if(msg.length!=0)
+				{
+					if (msg[0].totalResults > 10)
+						$this.find(".btn-secondary").show();
+					else
+						$this.find(".btn-secondary").hide();
+				}	
 				var data = JSON.stringify(msg);
 				data = data.replace("[", "");
 				data = data.replace("]", "");

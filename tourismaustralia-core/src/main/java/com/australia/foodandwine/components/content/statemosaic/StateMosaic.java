@@ -7,6 +7,7 @@ import org.apache.sling.api.resource.ValueMap;
 import com.citytechinc.cq.component.annotations.Component;
 import com.citytechinc.cq.component.annotations.DialogField;
 import com.citytechinc.cq.component.annotations.Listener;
+import com.citytechinc.cq.component.annotations.widgets.TextArea;
 import com.day.cq.wcm.api.Page;
 import com.day.cq.wcm.api.PageManager;
 
@@ -25,6 +26,7 @@ public class StateMosaic {
 	private String bottomText;
 	
 	@DialogField(fieldLabel="Message",name="./messageText",fieldDescription="Message to be displayed when no article present")
+	@TextArea
 	private String messageText;
 
 	private String template;

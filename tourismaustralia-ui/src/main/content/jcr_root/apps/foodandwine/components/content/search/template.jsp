@@ -445,10 +445,9 @@
 		</div>
 	</div>
 
-	{{#each searchResults}} {{#compare @index 7 operator="=="}}
+	{{#each searchResults}} {{#compare @index 7 operator="=="}} {{#if templateName}}
 	<div class="col-xs-12 {{#if ../../../isGrid}}col-md-6{{else}}col-reset-md-6{{/if}} 11">
-		{{#if templateName}}
-		<div class="col-xs-12 col-md-6">
+		
 			{{#if linkChecker}} <a href="{{postLink}}" title=""
 				class="mosaic-item mosaic-item-{{../../../../type}}"> {{else}} <a href="{{postLink}}" title=""
 				class="mosaic-item mosaic-item-{{../../../../type}}" target="_blank"> {{/if}} <img
@@ -475,7 +474,7 @@
 				</span>
 			</a>
 		</div>
-		</div>
+		
 		{{else}}
 		<div class="col-xs-12 {{#if ../../../isGrid}}col-md-6{{else}}col-reset-md-6{{/if}} 12">
 		 <a href="{{link}}" class="mosaic-item mosaic-item-{{../../../type}}" title=""> <img
@@ -604,7 +603,7 @@
 			</div>
 			{{else}}
 			<div class="col-xs-12 {{#if ../../../../isGrid}}col-sm-6{{else}}col-reset-sm-6{{/if}} col-md-12 mosaic-ie-100">
-				<a href="{{link}}" class="mosaic-item mosaic-item-{{../../../type}}" title=""> <img
+				<a href="{{link}}" class="mosaic-item mosaic-item-{{../../../../type}}" title=""> <img
 					class='mosaic-item-image' src="{{imagePath}}" alt="" width="100%" />
 
 					<span class="mosaic-item-description"> <span

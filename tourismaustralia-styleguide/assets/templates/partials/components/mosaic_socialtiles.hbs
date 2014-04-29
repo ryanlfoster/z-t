@@ -15,15 +15,17 @@ title: Mosaic Social Tiles
 
         </div>
 
-        <div class="row">
+        {{#unless single_row}}
+            <div class="row">
 
-            {{> mosaic_socialtiles_grid_1 }}
+                {{> mosaic_socialtiles_grid_1 }}
 
-            {{> mosaic_socialtiles_grid_4 }}
+                {{> mosaic_socialtiles_grid_4 }}
 
-            {{> mosaic_socialtiles_grid_1 }}
+                {{> mosaic_socialtiles_grid_1 }}
 
-        </div>
+            </div>
+        {{/unless}}
 
     </div>
 </div>

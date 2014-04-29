@@ -23,7 +23,7 @@
   margin-bottom: -.5em;
 }
 .video-link {
-  display: inline-block;
+  display: table;
   margin-top: .8em;
   margin-bottom: .3em;
   line-height: 1em;
@@ -36,7 +36,7 @@
     padding: 10px 0 0 10px;
   }
   @include breakpoint(md) {
-    bottom: -20px;
+    bottom: -16px;
     margin-right: -240px;
     position: absolute;
     right: 0;

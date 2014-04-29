@@ -11575,7 +11575,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
   }
 }
 
-/* line 87, ../../assets/scss/site/modules/_sortedlist.scss */
+/* line 88, ../../assets/scss/site/modules/_sortedlist.scss */
 .sorted-list-item li a {
   font-size: 1.1em;
   font-family: "ProximaNova Bold", Helvetica, Arial, sans-serif;
@@ -11583,7 +11583,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
   text-decoration: underline;
 }
 
-/* line 94, ../../assets/scss/site/modules/_sortedlist.scss */
+/* line 95, ../../assets/scss/site/modules/_sortedlist.scss */
 .sorted-list-pagination {
   position: relative;
   text-align: center;
@@ -11593,7 +11593,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
   padding-right: 0;
 }
 
-/* line 103, ../../assets/scss/site/modules/_sortedlist.scss */
+/* line 104, ../../assets/scss/site/modules/_sortedlist.scss */
 .sorted-list-results-label {
   font-size: 0.9em;
   position: relative;
@@ -11601,7 +11601,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
   top: 0;
 }
 @media (min-width: 1200px) {
-  /* line 103, ../../assets/scss/site/modules/_sortedlist.scss */
+  /* line 104, ../../assets/scss/site/modules/_sortedlist.scss */
   .sorted-list-results-label {
     position: absolute;
     left: 0;
@@ -11609,7 +11609,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
   }
 }
 
-/* line 117, ../../assets/scss/site/modules/_sortedlist.scss */
+/* line 118, ../../assets/scss/site/modules/_sortedlist.scss */
 .sorted-list-pagination-buttons .btn-square {
   width: 40px;
   height: 40px;
@@ -11617,7 +11617,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
   font-size: 1.2em;
 }
 @media (min-width: 1200px) {
-  /* line 117, ../../assets/scss/site/modules/_sortedlist.scss */
+  /* line 118, ../../assets/scss/site/modules/_sortedlist.scss */
   .sorted-list-pagination-buttons .btn-square {
     width: 60px;
     height: 60px;
@@ -11626,7 +11626,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
   }
 }
 
-/* line 132, ../../assets/scss/site/modules/_sortedlist.scss */
+/* line 133, ../../assets/scss/site/modules/_sortedlist.scss */
 .sorted-list-head-mobile {
   border-top: 1px #bbbbbb solid;
   margin-top: 2em;

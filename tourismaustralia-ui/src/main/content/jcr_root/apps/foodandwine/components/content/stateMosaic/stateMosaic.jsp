@@ -10,7 +10,7 @@
 
 <script id ="stateMosaic" type="text/x-handlebars-template">
  
-<cq:include script="template.jsp" />
+<%@ include file="template.jsp" %>
 
 </script>
 <input type="hidden" class="message" value="${stateMosaic.messageText}"/>

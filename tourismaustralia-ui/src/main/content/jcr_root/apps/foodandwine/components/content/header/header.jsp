@@ -1,4 +1,5 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
 <%@include file="/apps/foodandwine/components/global.jsp"%>
 <%@ page import="com.australia.foodandwine.components.content.header.Header"%>
 
@@ -41,8 +42,7 @@
                     <span class="navbar-mobile-back-icon"></span>
                 </div>			
 				<ul class="navbar-items">
-					<c:forEach items="${Header.headerDataList}" var="headerData"
-						varStatus="loop">
+					<c:forEach items="${Header.headerDataList}" var="headerData" varStatus="loop">
 						<c:if test="${loop.index < 2 }">
 							<c:set var="pageLink" value="${currentPage.path}.html" />
 							<li
@@ -104,6 +104,19 @@
                             </li>
                         </ul>
                     </li>
+					<c:if test="${fn:length(Header.headerDataList) > 2}">
+						<c:set var="pageLink" value="${currentPage.path}.html" />
+						<li class="navbar-item${Header.headerDataList[2].pagePath == pageLink?'-active':''}">
+							<c:choose>
+								<c:when test="${not empty Header.headerDataList[2].pagePath}">
+									<a href="${Header.headerDataList[2].pagePath}" target="_self">${Header.headerDataList[2].linkText}</a>
+								</c:when>
+								<c:otherwise>
+									<a>${Header.headerDataList[2].linkText}</a>
+								</c:otherwise>
+							</c:choose>
+						</li>
+					</c:if>
 				</ul>
 			</nav>
             <!-- search icon -->

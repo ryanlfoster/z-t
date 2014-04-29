@@ -102,6 +102,10 @@ public class ExperienceCreationJob implements Runnable {
 					String articleParent = "/content/food-and-wine/experiences/"
 						+ StringUtils.lowerCase(Character.toString(businessName.charAt(0)));
 
+					if (pageManager.getPage(articleParent) == null) {
+						createIntermediatePage(pageManager, articleParent);
+					}
+
 					businessName = JcrUtil.createValidName(businessName, JcrUtil.HYPHEN_LABEL_CHAR_MAPPING, "_");
 					String articlePath = articleParent + "/" + businessName;
 					Page articlePage = pageManager.getPage(articlePath);
@@ -191,6 +195,16 @@ public class ExperienceCreationJob implements Runnable {
 		} catch (Exception e) {
 			LOG.error("Error creating asset for image", e);
 		}
+	}
+
+	private static synchronized void createIntermediatePage(PageManager pageManager, String pagePath)
+		throws WCMException {
+		String parentPath = pagePath.substring(0, pagePath.lastIndexOf("/"));
+		if (pageManager.getPage(parentPath) == null) {
+			createIntermediatePage(pageManager, parentPath);
+		}
+		String pageName = pagePath.substring(pagePath.lastIndexOf("/") + 1);
+		pageManager.create(parentPath, pageName, null, null, true);
 	}
 
 }

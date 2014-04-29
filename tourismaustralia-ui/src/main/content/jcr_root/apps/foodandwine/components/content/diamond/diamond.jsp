@@ -16,3 +16,5 @@
         </div>
     </div>
 </div>
+<!--This class will automatically push down the next element to it, so that half of diamond will come over it.-->
+<div class="socialcounter-bottom-space"></div>

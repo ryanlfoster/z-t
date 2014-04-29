@@ -18,7 +18,7 @@ public class DefaultConsumerBaseFoundationServiceTest {
 
 	@Test
 	public void loadVictoria() {
-		ConsumerBaseFoundationType cbf = service.getByPath("explore/states/vic");
+		ConsumerBaseFoundationType cbf = service.getByPath("en/explore/states/vic");
 		assertNotNull(cbf);
 		assertEquals(cbf.getHdlTitle(), "Victoria");
 	}

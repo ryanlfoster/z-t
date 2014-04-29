@@ -53,8 +53,22 @@
 	<div class="carousel-center-container">
 	<div class="carousel-owl-mobile-fill">
 	<div id="carousel" class="owl-carousel owl-theme">
+
 <%-- Tab 1 Carousel --%>
-	<c:forEach items="${explore.tabs[0].cards}" var="card">
+		<%-- Card 1 --%>
+		<c:set var="card" value="${explore.tabs[0].cards[0]}" scope="request"/>
+		<cq:include script="explorecard.jsp" />
+
+		<%-- Card 2 --%>
+		<c:set var="card" value="${explore.tabs[0].cards[1]}" scope="request"/>
+		<cq:include script="explorecard.jsp" />
+
+		<%-- Card 3 --%>
+		<c:set var="card" value="${explore.tabs[0].cards[2]}" scope="request"/>
+		<cq:include script="explorecard.jsp" />
+<%--
+<c:forEach items="${explore.tabs[0].cards}" var="card" >
+
 	<div class="carousel-item">
 		<div class="explore-item-container flip-container">
 			<div class="flipper">
@@ -123,7 +137,8 @@
 			</div>
 		</div>
 	</div>
-	</c:forEach>
+
+</c:forEach>--%>
 
 	</div>
 	</div>

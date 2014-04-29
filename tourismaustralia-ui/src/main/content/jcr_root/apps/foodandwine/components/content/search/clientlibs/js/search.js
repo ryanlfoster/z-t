@@ -115,6 +115,9 @@ var source = $("#searchMosaic").html();
         	 var data;
              var obj;
             var articleCount;
+            for(var i=0;i<msg.length;i++){
+       		 articleCount=  msg[i].totalSearchCount;
+            }
              data = JSON.stringify(msg);
              data = data.replace(/\[/g,"");
            	 data=data.replace(/\]/g,"");

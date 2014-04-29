@@ -153,5 +153,5 @@ function interestedSearch(listItem){
 }
 $(document).ready(function() {
 	var queryParameter = getParameterByName("q");
-if(queryParameter != null) interestedSearch(queryParameter);
+	if(queryParameter != null && queryParameter != "" ) interestedSearch(queryParameter);
 });

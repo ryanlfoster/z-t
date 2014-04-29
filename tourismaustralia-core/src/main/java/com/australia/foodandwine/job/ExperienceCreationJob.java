@@ -106,12 +106,15 @@ public class ExperienceCreationJob implements Runnable {
 					String articlePath = articleParent + "/" + businessName;
 					Page articlePage = pageManager.getPage(articlePath);
 					if (articlePage == null) {
-						generateArticle(usergenPage.getContentResource(), pageProperties, articleParent);
-						LOG.debug("Article created: " + articlePath);
-						article_created++;
+						try {
+							generateArticle(usergenPage.getContentResource(), pageProperties, articleParent);
+							LOG.debug("Article created: " + articlePath);
+							article_created++;
+						} catch (Exception e) {
+							LOG.error("Error creating article page from usergenerated content: " + articlePath, e);
+						}
 					} else {
 						article_found++;
-
 					}
 				}
 			}

@@ -23,6 +23,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.australia.utils.LinkUtils;
+import com.australia.utils.PathUtils;
 import com.australia.utils.TagUtils;
 import com.day.cq.commons.jcr.JcrConstants;
 import com.day.cq.tagging.Tag;
@@ -43,7 +44,7 @@ public class StateMosaicServlet extends SlingAllMethodsServlet {
 	private static final Logger LOG = LoggerFactory.getLogger(StateMosaicServlet.class);
 	private static final JsonFactory FACTORY = new JsonFactory();
 	private static final ObjectMapper MAPPER = new ObjectMapper();
-
+	
 	/**
 	 * Instance variables
 	 */
@@ -59,6 +60,7 @@ public class StateMosaicServlet extends SlingAllMethodsServlet {
 	private String socialIconsBlack;
 	private long totalResults;
 	private long count = 0;
+	private String stateTags;
 
 	@Override
 	protected void doGet(SlingHttpServletRequest request, SlingHttpServletResponse response) {
@@ -72,7 +74,8 @@ public class StateMosaicServlet extends SlingAllMethodsServlet {
 	 * called.
 	 */
 	private void process(SlingHttpServletRequest request, SlingHttpServletResponse response) {
-		String stateTags = request.getParameter("stateTag").toLowerCase();
+		String statePath = request.getParameter("stateTag").toLowerCase().replace(".html", "");
+		stateTags=PathUtils.getStateTagName(statePath);
 		String flag = request.getParameter("flag");
 		String pageTemplate = request.getParameter("pageTemplate");
 

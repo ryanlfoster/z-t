@@ -28,7 +28,7 @@ layout: layout-base.hbs
 
 <div class="paragraph-article">
 
-    {{> 2columnvideo }}
+    {{> 2column_imagecaption }}
 
     {{#parseJSON '{"copy": "Vivid is a festival of light, music and ideas that transforms the city of Sydney into a spectacular canvas after dark each night in June."}'}}
         {{> paragraph_dynamic}}
@@ -69,7 +69,7 @@ layout: layout-base.hbs
         {{> socialtiles}}
     {{/parseJSON}}
 
-    {{> favouritewithlines }}
+    {{> favouriteandshare }}
 
     {{#parseJSON '{"captions": true}'}}
         {{> whatyoucansee_state}}

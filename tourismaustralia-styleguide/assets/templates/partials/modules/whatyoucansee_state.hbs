@@ -41,7 +41,9 @@ title: What You Can See - State
             {{> mosaic_whatscomingup }}
         {{/parseJSON}}
     {{else}}
-        {{> mosaic_whatscomingup }}
+        {{#parseJSON '{"captions": false}'}}
+            {{> mosaic_whatscomingup }}
+        {{/parseJSON}}
     {{/if}}
 
     <div class="l-h-center">

@@ -195,7 +195,13 @@
     @include breakpoint(md) {
       font-size: pxtoem(18px);
     }
-  }  
+  }
+}
+
+.mosaic-with-captions {
+  .mosaic-overlay {
+    padding: 0 1em 1.8em 0;
+  }
 }
 
 /* 

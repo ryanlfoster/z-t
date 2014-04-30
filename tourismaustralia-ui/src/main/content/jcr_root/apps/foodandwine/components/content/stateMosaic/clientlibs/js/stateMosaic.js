@@ -54,11 +54,12 @@ $(document).ready(function() {
 				},
 				success : function(msg) {
 					var text = msg.length;
-					if (msg.length === 0)
-						$this.find(".mosaic").append("<h3 class='faw-article-healdine'>"+messageText+"</h3>");
 					$(".mosaicgridchanger").show();
-					if(msg.length!=0)
-					{
+					if (msg.length === 0){
+						$this.find(".mosaic").append("<h3 class='faw-article-healdine'>"+messageText+"</h3>");
+						$(".mosaicgridchanger").hide();
+					}
+					if(msg.length!=0){
 						if (msg[0].totalResults > 10)
 							$this.find(".btn-secondary").show();
 						else
@@ -72,8 +73,9 @@ $(document).ready(function() {
 					obj.type= type;
 					obj.isGrid=type == 'grid' ? true : false;
 					Handlebars.registerHelper('compare', function(lvalue, rvalue, options) {
-						if (arguments.length < 3)
+						if (arguments.length < 3){
 							throw new Error("Handlerbars Helper 'compare' needs 2 parameters");
+						}
 						operator = options.hash.operator || "==";
 						var operators = {
 							'==' : function(l, r) {
@@ -101,8 +103,9 @@ $(document).ready(function() {
 								return typeof l == r;
 							}
 						}
-						if (!operators[operator])
+						if (!operators[operator]){
 							throw new Error("Handlerbars Helper 'compare' doesn't know the operator " + operator);
+						}
 						var result = operators[operator](lvalue, rvalue);
 						if (result) {
 							return options.fn(this);
@@ -134,16 +137,21 @@ $(document).ready(function() {
 
 			},
 			success : function(msg) {
-				var text = msg.length;
-				if (msg.length === 0)
-					$this.find(".mosaic").append("<h3 class='faw-article-healdine'>"+messageText+"</h3>");
 				$(".mosaicgridchanger").show();
-				if(msg.length!=0)
-				{
-					if (msg[0].totalResults > 10)
+				var text = msg.length;
+				if (msg.length === 0){
+					$this.find(".mosaic").append("<h3 class='faw-article-healdine'>"+messageText+"</h3>");
+					$(".mosaicgridchanger").hide();
+				}
+				
+				if(msg.length!=0){
+					if (msg[0].totalResults > 10){
 						$this.find(".btn-secondary").show();
-					else
+						
+					}
+					else{
 						$this.find(".btn-secondary").hide();
+					}
 				}	
 				var data = JSON.stringify(msg);
 				data = data.replace("[", "");
@@ -153,8 +161,9 @@ $(document).ready(function() {
 				obj.type= type;
 				obj.isGrid=type == 'grid' ? true : false;
 				Handlebars.registerHelper('compare', function(lvalue, rvalue, options) {
-					if (arguments.length < 3)
+					if (arguments.length < 3){
 						throw new Error("Handlerbars Helper 'compare' needs 2 parameters");
+					}
 					operator = options.hash.operator || "==";
 					var operators = {
 						'==' : function(l, r) {
@@ -182,8 +191,9 @@ $(document).ready(function() {
 							return typeof l == r;
 						}
 					}
-					if (!operators[operator])
+					if (!operators[operator]){
 						throw new Error("Handlerbars Helper 'compare' doesn't know the operator " + operator);
+					}
 					var result = operators[operator](lvalue, rvalue);
 					if (result) {
 						return options.fn(this);

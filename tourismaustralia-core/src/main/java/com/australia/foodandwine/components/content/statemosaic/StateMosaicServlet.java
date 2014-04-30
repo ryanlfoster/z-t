@@ -79,9 +79,9 @@ public class StateMosaicServlet extends SlingAllMethodsServlet {
 		String flag = request.getParameter("flag");
 		String pageTemplate = request.getParameter("pageTemplate");
 
-		if (pageTemplate != null && (!pageTemplate.equals("homepage")))
+		if (pageTemplate != null && (!pageTemplate.equals("homepage"))){
 			pageTemplate = null;
-
+		}
 		if (flag.equals("default")) {
 			limit = 10;
 			offset = 0;
@@ -147,11 +147,12 @@ public class StateMosaicServlet extends SlingAllMethodsServlet {
 				List<Tag> categoryTagList = TagUtils.getFoodAndWineCategoryTags(tagManager, tagsArray);
 				for (Tag tag : categoryTagList) {
 					if (tag != null) {
-						if (!categoryTagName.equals(""))
+						if (!categoryTagName.equals("")){ 
 							categoryTagName += ", ";
-						if (!categoryTagName.contains(tag.getTitle()))
-
+						}
+						if (!categoryTagName.contains(tag.getTitle())){
 							categoryTagName += tag.getTitle();
+						}
 					}
 
 					if (StringUtils.countMatches(categoryTagName, ",") == 2) {
@@ -165,8 +166,9 @@ public class StateMosaicServlet extends SlingAllMethodsServlet {
 				String templateName = articlePage.getProperties().get("cq:template", "");
 				templateName = templateName.substring(templateName.lastIndexOf("/") + 1);
 				if (!templateName.equals("facebookpage") && (!templateName.equals("instagrampage"))
-					&& (!templateName.equals("twitterpage")))
+					&& (!templateName.equals("twitterpage"))){
 					templateName = null;
+				}
 				else {
 					if (templateName.equals("facebookpage")) {
 						userName = pageProperties.get("userName", StringUtils.EMPTY);
@@ -193,10 +195,12 @@ public class StateMosaicServlet extends SlingAllMethodsServlet {
 						socialIconsBlack = "/etc/designs/foodandwine/clientlibs/imgs/base/share/share-instagram-black.png";
 
 					}
-					if (postLink.endsWith(".html"))
+					if (postLink.endsWith(".html")){
 						linkChecker = "true";
-					else
+					}
+					else{
 						linkChecker = null;
+					}
 					templateName = templateName.replace("page", "");
 
 				}

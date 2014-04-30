@@ -1,10 +1,24 @@
-.section-intro {
+.section-intro,
+.section-title {
 
-    padding: pxtoem(60px) pxtoem(15px) 0;
+    padding: 0 pxtoem(15px) 0;
 
     p {
         margin: 2em 0;
     }
+}
+
+.section-title {
+  padding-top: pxtoem(60px);
+  padding-bottom: pxtoem(40px);
+
+  h1 {
+    font-size: pxtoem(80px);
+    margin-bottom: 0;
+    @include breakpoint(md) {
+      font-size: pxtoem(120px);
+    }
+  }
 }
 
 .section-buttons {

@@ -1,14 +1,14 @@
 ---
 layout: layout-base.hbs
+title: Events Article
 ---
 
 {{#parseJSON '{
-"hero_video" : "test1",
-"hero_image" : "hero_event_article",
-"hero_title" : "Vivid Sydney",
-"hero_subtitle" : "23 May - 9 June"
+    "hero_image" : "hero_event_article",
+    "hero_title" : "Vivid Sydney",
+    "hero_subtitle" : "23 May - 9 June"
 }'}}
-    {{> herovideo }}
+    {{> hero }}
 {{/parseJSON}}
 
 {{#parseJSON '{

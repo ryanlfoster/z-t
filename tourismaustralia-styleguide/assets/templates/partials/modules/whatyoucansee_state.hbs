@@ -36,7 +36,15 @@ title: What You Can See - State
 
     </div>
 
-    {{> mosaic_whatscomingup }}
+    {{#if captions}}
+        {{#parseJSON '{"captions": true}'}}
+            {{> mosaic_whatscomingup }}
+        {{/parseJSON}}
+    {{else}}
+        {{#parseJSON '{"captions": false}'}}
+            {{> mosaic_whatscomingup }}
+        {{/parseJSON}}
+    {{/if}}
 
     <div class="l-h-center">
         <a href="#" class="btn-primary">View all events</a>

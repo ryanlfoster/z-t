@@ -1,0 +1,18 @@
+///////////////////////////
+// 2 COLUMN IMAGE + CAPTION
+//////////////////////////
+.imagecaption {
+  position: relative;
+  padding-bottom: 2.5em;
+}
+.imagecaption-image {
+  max-width: 100%;
+}
+.imagecaption-copy {
+  @include breakpoint(md) {
+    position: absolute;
+    left: 59%;
+    bottom: 1.4em;
+    width: 180px;
+  }
+}

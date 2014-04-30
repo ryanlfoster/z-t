@@ -6,6 +6,7 @@ import java.util.List;
 import org.apache.commons.lang.StringUtils;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.Resource;
+import org.apache.sling.api.resource.ResourceResolver;
 import org.apache.sling.api.resource.ValueMap;
 
 import com.australia.utils.LinkUtils;
@@ -16,8 +17,9 @@ import com.citytechinc.cq.component.annotations.FieldProperty;
 import com.citytechinc.cq.component.annotations.Listener;
 import com.citytechinc.cq.component.annotations.Tab;
 import com.citytechinc.cq.component.annotations.widgets.DialogFieldSet;
+import com.day.cq.wcm.foundation.Image;
 
-@Component(value = "Social Tiles", disableTargeting = true, tabs = {
+@Component(value = "Social Tiles", disableTargeting = true, dialogHeight = 800, tabs = {
 		@Tab(title = "Description"), @Tab(title = "Tile 1"),
 		@Tab(title = "Tile 2"), @Tab(title = "Tile 3"), @Tab(title = "Tile 4"),
 		@Tab(title = "Tile 5"), @Tab(title = "Tile 6"), @Tab(title = "Tile 7"),
@@ -85,6 +87,7 @@ public class SocialTiles {
 
 	public SocialTiles(SlingHttpServletRequest request) {
 		Resource thisResource = request.getResource();
+		ResourceResolver resolver = request.getResourceResolver();
 		ValueMap properties = thisResource.adaptTo(ValueMap.class);
 
 		tilesList = new ArrayList<TileField>();
@@ -92,17 +95,23 @@ public class SocialTiles {
 		if (properties != null) {
 			title = properties.get("title", StringUtils.EMPTY);
 			subTitle = properties.get("subTitle", StringUtils.EMPTY);
-			link = new Link(LinkUtils.getHrefFromPath(properties.get(
-					"link/" + Link.PROP_PATH,
-					StringUtils.EMPTY)), properties.get("link/"
-					+ Link.PROP_TITLE, StringUtils.EMPTY));
+			link = new Link(LinkUtils.getHrefFromPath(properties.get("link/"
+					+ Link.PROP_PATH, StringUtils.EMPTY)), properties.get(
+					"link/" + Link.PROP_TITLE, StringUtils.EMPTY));
 
 			for (int tabNum = 2; tabNum <= 10; tabNum++) {
 				tile = new TileField();
-				tile.setIconPath(properties.get("tab" + tabNum + "/iconPath",
-						StringUtils.EMPTY));
-				tile.setImagePath(properties.get("tab" + tabNum + "/imagePath",
-						StringUtils.EMPTY));
+				
+				Image imageObj = new Image(resolver.getResource(thisResource, "tab" + tabNum + "/"), "image");
+				if (imageObj != null && imageObj.hasContent()) {
+					tile.setImagePath(imageObj.getFileReference());
+				}
+				
+				imageObj = new Image(resolver.getResource(thisResource, "tab" + tabNum + "/"), "smallImage");
+				if (imageObj != null && imageObj.hasContent()) {
+					tile.setIconPath(imageObj.getFileReference());
+				}
+				
 				tile.setTitle(properties.get("tab" + tabNum + "/title",
 						StringUtils.EMPTY));
 				tile.setText(properties.get("tab" + tabNum + "/text",

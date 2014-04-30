@@ -104,7 +104,7 @@
                 </div>
             </div>
 			<div class="field-container">
-				<div class="input-field" data-type="number">
+				<div class="input-field" data-type="text">
 					<div class="col-xs-4">
 						<label class="input-field-label" for="text">
 							<p>

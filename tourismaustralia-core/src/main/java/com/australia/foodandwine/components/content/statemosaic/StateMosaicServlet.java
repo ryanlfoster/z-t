@@ -35,7 +35,7 @@ import com.fasterxml.jackson.core.JsonFactory;
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-@SlingServlet(resourceTypes = "foodandwine/components/content/stateMosaic", selectors = "ccs", extensions = "json", methods = "GET")
+@SlingServlet(paths = "/bin/fw/statemosaic", extensions = "json", methods = "GET")
 public class StateMosaicServlet extends SlingAllMethodsServlet {
 	/**
 	 * Constants
@@ -44,7 +44,7 @@ public class StateMosaicServlet extends SlingAllMethodsServlet {
 	private static final Logger LOG = LoggerFactory.getLogger(StateMosaicServlet.class);
 	private static final JsonFactory FACTORY = new JsonFactory();
 	private static final ObjectMapper MAPPER = new ObjectMapper();
-	
+
 	/**
 	 * Instance variables
 	 */
@@ -75,13 +75,15 @@ public class StateMosaicServlet extends SlingAllMethodsServlet {
 	 */
 	private void process(SlingHttpServletRequest request, SlingHttpServletResponse response) {
 		String statePath = request.getParameter("stateTag").toLowerCase().replace(".html", "");
-		stateTags=PathUtils.getStateTagName(statePath);
+		stateTags = PathUtils.getStateTagName(statePath);
 		String flag = request.getParameter("flag");
 		String pageTemplate = request.getParameter("pageTemplate");
 
-		if (pageTemplate != null && (!pageTemplate.equals("homepage"))){
+
+		if (pageTemplate != null && (!pageTemplate.equals("homepage"))) {
 			pageTemplate = null;
 		}
+
 		if (flag.equals("default")) {
 			limit = 10;
 			offset = 0;
@@ -100,10 +102,10 @@ public class StateMosaicServlet extends SlingAllMethodsServlet {
 			if (categoryTags.length == 1) {
 				queryString = "SELECT * FROM [nt:base] AS s WHERE ISDESCENDANTNODE([/content/food-and-wine]) and [cq:tags] like '%"
 					+ stateTags.trim()
-					+ "%' and( [cq:tags] like '%/"
+					+ "%' and ( [cq:tags] like '%/"
 					+ categoryTags[0].trim()
-					+ "%')"
-					+ "and ([cq:template]  LIKE '%/apps/foodandwine/templates/articlepage%' or[cq:template]  LIKE '%/apps/foodandwine/templates/facebookpage%'"
+					+ "%') "
+					+ " and ([cq:template]  LIKE '%/apps/foodandwine/templates/articlepage%' or [cq:template]  LIKE '%/apps/foodandwine/templates/facebookpage%' "
 					+ "or [cq:template]  LIKE '%/apps/foodandwine/templates/twitterpage%' or [cq:template]  LIKE '%/apps/foodandwine/templates/instagrampage%') ";
 			} else {
 				queryString = "SELECT * FROM [nt:base] AS s WHERE ISDESCENDANTNODE([/content/food-and-wine]) and [cq:tags] like '%"
@@ -124,7 +126,7 @@ public class StateMosaicServlet extends SlingAllMethodsServlet {
 
 				}
 			}
-			queryString += "and ([cq:template]  LIKE '%/apps/foodandwine/templates/articlepage%' or[cq:template]  LIKE '%/apps/foodandwine/templates/facebookpage%'"
+			queryString += " and ([cq:template]  LIKE '%/apps/foodandwine/templates/articlepage%' or [cq:template]  LIKE '%/apps/foodandwine/templates/facebookpage%' "
 				+ "or [cq:template]  LIKE '%/apps/foodandwine/templates/twitterpage%' or [cq:template]  LIKE '%/apps/foodandwine/templates/instagrampage%') order by [addToShortlist] DESC";
 			Query query = queryManager.createQuery(queryString, Query.JCR_SQL2);
 			QueryResult result1 = query.execute();
@@ -225,8 +227,8 @@ public class StateMosaicServlet extends SlingAllMethodsServlet {
 				bean.setSocialIconsBlack(socialIconsBlack);
 				bean.setTotalResults(totalResults);
 				categoryTagName = "";
-				cityTagName="";
- 				stateTitle="";
+				cityTagName = "";
+				stateTitle = "";
 				propertiesList.add(bean);
 
 			}

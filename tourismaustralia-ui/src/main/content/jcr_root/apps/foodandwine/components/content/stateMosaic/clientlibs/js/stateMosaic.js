@@ -8,7 +8,7 @@ $(document).ready(function() {
 		var stateTag = "";
 		var catogoryArray = new Array();
 		var source = $("#stateMosaic").html();
-		var resourcePath = $this.find(".resourcePath").val();
+		var resourcePath = "/bin/fw/statemosaic.json";
 		var pageTemplate = $this.find(".page").attr('name');
 		if(pageTemplate!="homepage") {
             stateTag=window.location.pathname;
@@ -43,7 +43,7 @@ $(document).ready(function() {
 			}
 			currentXhr=$.ajax({
 				type : "GET",
-				url : resourcePath + ".ccs.json",
+				url : resourcePath,
 				dataType : "json",
 				data : {
 					stateTag : stateTag,
@@ -127,7 +127,7 @@ $(document).ready(function() {
 		}
 		currentXhr=$.ajax({
 			type : "GET",
-			url : resourcePath + ".ccs.json",
+			url : resourcePath,
 			dataType : "json",
 			data : {
 				stateTag : stateTag,
@@ -216,7 +216,7 @@ $(document).ready(function() {
 			}
 			currentXhr=$.ajax({
 				type : "GET",
-				url : resourcePath+".ccs.json",
+				url : resourcePath,
 				dataType : "json",
 				data : {
 					stateTag : stateTag,

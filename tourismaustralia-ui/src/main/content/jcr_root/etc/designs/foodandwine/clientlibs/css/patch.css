@@ -1,0 +1,70 @@
+/**
+* Global variables for entire site / including bootstrap
+*/
+/*
+@media (max-width: @screen-xs-max) { ... }
+  @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { ... }
+    @media (min-width: @screen-md-min) and (max-width: @screen-md-max) { ... }
+      @media (min-width: @screen-lg-min) { ... }
+*/
+/*
+@mixin breakpoint {
+  @media (min-width: pxtoem($small-screen)) { @content; }
+}
+*/
+/* Affect area between small and large */
+/*
+@mixin breakpointmid {
+  @media (min-width: pxtoem($small-screen)) and (max-width: pxtoem($medium-screen) ) { @content; }
+}
+*/
+/* line 9, ../../assets/scss/patch_category.scss */
+.categories-box {
+  padding-bottom: 3.5em;
+}
+@media (min-width: 480px) {
+  /* line 9, ../../assets/scss/patch_category.scss */
+  .categories-box {
+    padding-bottom: 1em;
+  }
+}
+
+/* line 15, ../../assets/scss/patch_category.scss */
+.categories-box .categories-box-validation-alert {
+  bottom: -3em;
+  left: 1em;
+}
+@media (min-width: 480px) {
+  /* line 15, ../../assets/scss/patch_category.scss */
+  .categories-box .categories-box-validation-alert {
+    bottom: 0em;
+    right: 4em;
+    left: auto;
+  }
+}
+
+/* line 24, ../../assets/scss/patch_category.scss */
+.categories-box .categories-box-validation-alert .input-field-validation-icon {
+  top: -0.6em;
+  right: 1.3em;
+}
+@media (min-width: 480px) {
+  /* line 24, ../../assets/scss/patch_category.scss */
+  .categories-box .categories-box-validation-alert .input-field-validation-icon {
+    top: 0.7em;
+  }
+}
+
+/* line 36, ../../assets/scss/patch_category.scss */
+.category-item-container .category-input[type=checkbox] + label {
+  display: inline-block;
+}
+
+/* line 39, ../../assets/scss/patch_category.scss */
+.category-item-container .category-input[type=checkbox] + label > * {
+  pointer-events: none;
+}
+
+.category-item-container .category-item .icon-round{
+  padding: 18px 10px;
+}

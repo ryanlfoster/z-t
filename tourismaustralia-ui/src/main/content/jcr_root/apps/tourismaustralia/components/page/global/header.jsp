@@ -1,7 +1,8 @@
 <%@include file="/apps/tourismaustralia/components/global.jsp"%>
 
 <header id="main-header">
-    <div id="nav-main-header" class="header bar-fixed-top">
+    <div id="nav-main-header" class="header megamenu">
+
         <%-- START: accessibility links --%>
         <div class="accessibility-links">
             <a tabindex="1" class="sr-only vis-focusable" href="#main-content">Skip to content</a>
@@ -19,25 +20,9 @@
         </div>
         <%-- END: main notice bar--%>
 
-        <%-- START: Navigation - arrival bar --%>
-        <div class="nav-bar arrival-bar bar-scroll-top">
-            <div class="row l-center-1200">
-                <ul class="nav-bar-nav nav-bar-right">
-                    <li class="header-byline">
-                        <span class="l-nowrap">The official Australian tourism website.</span>
-                        <span class="l-nowrap">The site uses cookies. <a href="#">Find out more</a>.</span>
-                    </li>
-                </ul>
-                <ul class="nav-bar-nav nav-bar-left">
-                    <li class="is-current"><a href="#">Holiday in Australia</a></li>
-                    <li><a href="#">Plan a Business Event</a></li>
-                </ul>
-            </div>
-        </div>
-        <%-- END: Navigation - arrival bar --%>
+        <%-- START: Navigation --%>
+        <cq:include path="navigation" resourceType="tourismaustralia/components/content/navigation"/>
+        <%-- END: Navigation --%>
 
-        <%-- START: Navigation - navigation bar --%>
-
-        <%-- END: Navigation - navigation bar --%>
     </div>
 </header>

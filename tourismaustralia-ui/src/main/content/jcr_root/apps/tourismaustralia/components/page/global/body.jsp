@@ -143,4 +143,29 @@
 
 		</footer>
 
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+
+            //Hack for IE-8 to show placeholder
+            $('form').cstmForm({
+                active: 1,
+                text: {
+                    force: true
+                }
+            });
+        });
+
+        //Hack for mobile detection
+        function checkPlatform() {
+            return (/Android|iPhone|iPad|iPod|BlackBerry/i).test(navigator.userAgent || navigator.vendor || window.opera);
+        }
+
+        $(window).load(function(){
+            if(!checkPlatform()) {
+                var s = skrollr.init();
+            }
+        });
+    </script>
+
 </body>

@@ -10,5 +10,15 @@
 	<showMap jcr:primaryType="sling:MessageEntry" sling:key="Show map" sling:message="Show map(FR)"/>
 	<backToOverview jcr:primaryType="sling:MessageEntry" sling:key="Back to overview" sling:message="Back to overview(FR)"/>
 	<viewMoreInformation jcr:primaryType="sling:MessageEntry" sling:key="View more information" sling:message="View more information(FR)"/>
+    <siteUsesCookies jcr:primaryType="sling:MessageEntry" sling:key="The site uses cookies." sling:message="The site uses cookies.(FR)"/>
+    <officialSite jcr:primaryType="sling:MessageEntry" sling:key="The official Australian tourism website." sling:message="The official Australian tourism website.(FR)"/>
+    <findOutMore jcr:primaryType="sling:MessageEntry" sling:key="Find out more" sling:message="Find out more (FR)"/>
+    <openNavigation jcr:primaryType="sling:MessageEntry" sling:key="Open Navigation" sling:message="Open Navigation (FR)"/>
+    <home jcr:primaryType="sling:MessageEntry" sling:key="Home" sling:message="Home (FR)"/>
+    <search jcr:primaryType="sling:MessageEntry" sling:key="Search" sling:message="Search (FR)"/>
+    <map jcr:primaryType="sling:MessageEntry" sling:key="Map" sling:message="Map (FR)"/>
+    <myTrip jcr:primaryType="sling:MessageEntry" sling:key="My Trip" sling:message="My Trip (FR)"/>
+    <skipToContent jcr:primaryType="sling:MessageEntry" sling:key="Skip to content" sling:message="Skip to content (FR)"/>
+    <skipToContent jcr:primaryType="sling:MessageEntry" sling:key="Skip to" sling:message="Skip to (FR)"/>
 
 </jcr:root>

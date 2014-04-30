@@ -122,6 +122,19 @@
     | Vocabulary: 33" />
   
 </file>
+<file name="assets/js/src/modules/jquery.ta.inputfield.js">
+  
+  <issue
+    line="201"
+    char="validateForm"
+    evidence="validateForm is too complicated"
+    reason="Cyclomatic: 2,
+    Halstead: 11.050
+    | Effort: 3790.4
+    | Volume: 343.02
+    | Vocabulary: 33" />
+  
+</file>
 <file name="assets/js/src/modules/jquery.ta.carousel.js">
   
 </file>
@@ -129,6 +142,9 @@
   
 </file>
 <file name="assets/js/src/modules/jquery.ta.megamenu.js">
+  
+</file>
+<file name="assets/js/src/modules/jquery.ta.aspsearch.js">
   
 </file>
 <file name="assets/js/src/modules/jquery.ta.searchinput.js">

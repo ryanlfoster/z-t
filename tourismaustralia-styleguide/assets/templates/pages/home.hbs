@@ -7,108 +7,141 @@ layout: layout-base.hbs
 <div class="paragraph-home">
 
 
+    <div class="hotornot-selector">
 
-    <div class="hotornot">
+        <div class="hotornot-images">
 
-        <div class="row l-center-1200">
-            {{#parseJSON '{"copy": "Explore your Australia"}'}}
-                {{> linethroughtextfullhr}}
-            {{/parseJSON}}
-        </div>
+            <div class="row l-center-1200">
+                {{#parseJSON '{"copy": "Explore your Australia"}'}}
+                    {{> linethroughtextfullhr}}
+                {{/parseJSON}}
+            </div>
 
-        <div class="row l-center-1200 l-row-collapse">
-            <div class="col-xs-6">
+            <div class="row l-center-1200 l-row-collapse">
+                <div class="col-xs-6">
 
-                <!-- background image start -->
-                <img src="imgs/placeholders/hot_or_not1.png" alt="" class="hotornot-category-image" />
-                <!-- background image end -->
+                    <!-- background image start -->
+                    <div class="hotornot-background-image" style="background-image: url(imgs/placeholders/hot_or_not1.png);"></div>
+                    <!-- background image end -->
 
-                <!-- category title text start -->
-                <div class="hotornot-category">
-                    {{#parseJSON '{"title": "Arts, Music & Culture"}'}}
-                        <h2 class="hotornot-h2-responsive">
-                            {{#if title}}
-                                {{{title}}}
-                            {{else}}
-                                Arts, Music & Culture
-                            {{/if}}
-                        </h2>
-                    {{/parseJSON}}
-                </div>
-                <!-- category title text end -->
-
-                <!-- like button start -->
-                <a href="#" class="btn-bubble btn-bubble-fullarea">
+                    <!-- like button start -->
+                    <a href="#" class="btn-bubble btn-bubble-fullarea">
                     <span class="btn-bubble-button btn-icon-center-like">
                           <img class="btn-bubble-std" src="imgs/icons/hot_or_not_like_std.png" alt=""/>
                           <img class="btn-bubble-active" src="imgs/icons/hot_or_not_like_rol.png" alt=""/>
                     </span>
-                </a>
-                <!-- like button end -->
+                    </a>
+                    <!-- like button end -->
 
-            </div>
-            <div class="col-xs-6">
+                    <!-- category title text start -->
+                    <div class="hotornot-category">
+                        {{#parseJSON '{"title": "Arts, Music & Culture"}'}}
+                            <h2 class="hotornot-h2-responsive">
+                                {{#if title}}
+                                    {{{title}}}
+                                {{else}}
+                                    Arts, Music & Culture
+                                {{/if}}
+                            </h2>
+                        {{/parseJSON}}
+                    </div>
+                    <!-- category title text end -->
 
-                <!-- background image start -->
-                <img src="imgs/placeholders/hot_or_not2.png" alt="" class="hotornot-category-image" />
-                <!-- background image end -->
-
-                <!-- category title text start -->
-                <div class="hotornot-category">
-                    {{#parseJSON '{"title": "Youth"}'}}
-                        <h2 class="hotornot-h2-responsive">
-                            {{#if title}}
-                                {{{title}}}
-                            {{else}}
-                                Arts, Music & Culture
-                            {{/if}}
-                        </h2>
-                    {{/parseJSON}}
                 </div>
-                <!-- category title text end -->
+                <div class="col-xs-6">
 
-                <!-- like button start -->
-                <a href="#" class="btn-bubble btn-bubble-fullarea">
+                    <!-- background image start -->
+                    <div class="hotornot-background-image" style="background-image: url(imgs/placeholders/hot_or_not2.png);"></div>
+                    <!-- background image end -->
+
+                    <!-- like button start -->
+                    <a href="#" class="btn-bubble btn-bubble-fullarea">
                     <span class="btn-bubble-button btn-icon-center-like">
                           <img class="btn-bubble-std" src="imgs/icons/hot_or_not_like_std.png" alt=""/>
                           <img class="btn-bubble-active" src="imgs/icons/hot_or_not_like_rol.png" alt=""/>
                     </span>
-                </a>
-                <!-- like button end -->
+                    </a>
+                    <!-- like button end -->
 
+                    <!-- category title text start -->
+                    <div class="hotornot-category">
+                        {{#parseJSON '{"title": "Youth"}'}}
+                            <h2 class="hotornot-h2-responsive">
+                                {{#if title}}
+                                    {{{title}}}
+                                {{else}}
+                                    Arts, Music & Culture
+                                {{/if}}
+                            </h2>
+                        {{/parseJSON}}
+                    </div>
+                    <!-- category title text end -->
+
+                </div>
             </div>
-        </div>
 
-        <!-- refresh button start -->
-        <div class="hotornot-refresh">
-            <a href="#" class="btn-bubble">
+            <!-- refresh button start -->
+            <div class="hotornot-refresh">
+                <a href="#" class="btn-bubble">
         <span class="btn-bubble-button">
               <img class="btn-bubble-std" src="imgs/icons/hot_or_not_refresh_std.png" alt=""/>
               <img class="btn-bubble-active" src="imgs/icons/hot_or_not_refresh_rol.png" alt=""/>
         </span>
-            </a>
+                </a>
+            </div>
+            <!-- refresh button start -->
+
         </div>
-        <!-- refresh button start -->
 
     </div>
 
-    <a href="#" class="btn-bubble">
+
+
+    <!-- hot or not item start -->
+    <div class="hotornot-item">
+        <div class="row l-center-1200 l-row-collapse">
+            <div class="col-xs-3">
+                <img src="imgs/placeholders/hot_or_not_row.png" alt="" class="hotornot-category-image" />
+
+                <div class="hotornot-diamond theme-nature-border">
+                    <!-- icons, aboriginal_australia, adventure, art_culture, beaches,
+                    food_wine, island, nature_wildlife, outback, sports -->
+                    <img class="hotornot-diamond-img" src="imgs/icons/nature_wildlife.png" alt="">
+                </div>
+
+                <a href="#" class="btn-bubble hotornot-close-btn">
         <span class="btn-bubble-button">
-              <img class="btn-bubble-std" src="imgs/icons/hot_or_not_close_std.png" alt=""/>
-              <img class="btn-bubble-active" src="imgs/icons/hot_or_not_close_rol.png" alt=""/>
+              <img class="btn-bubble-std" src="imgs/icons/close_button_white_std.png" alt="">
+              <img class="btn-bubble-active" src="imgs/icons/hot_or_not_close_rol.png" alt="">
         </span>
-    </a>
+                </a>
 
-    <br>
+                <!-- category title text start -->
+                <div class="hotornot-category">
+                    {{#parseJSON '{"title": "NATURE & WILDLIFE"}'}}
+                        <h2 class="hotornot-h2-responsive">
+                            {{#if title}}
+                                {{{title}}}
+                            {{else}}
+                                Arts, Music & Culture
+                            {{/if}}
+                        </h2>
+                    {{/parseJSON}}
+                </div>
+                <!-- category title text end -->
 
-    <a href="#" class="btn-bubble">
-        <span class="btn-bubble-button">
-              <img class="btn-bubble-std" src="imgs/icons/hot_or_not_like_std.png" alt=""/>
-              <img class="btn-bubble-active" src="imgs/icons/hot_or_not_like_rol.png" alt=""/>
-        </span>
-    </a>
+            </div>
 
-    <br>
+            <div class="col-xs-9">
+
+                <!-- 3 column mosaic grid start -->
+                {{> category_results }}
+                <!-- 3 column mosaic grid end -->
+
+            </div>
+        </div>
+    </div>
+    <!-- hot or not item end -->
 
 
 

@@ -195,9 +195,25 @@ a.btn-tag-item:visited {
   min-width: 120px;
 }
 .btn-bubble {
+  .btn-bubble-std {
+    display: inline-block;
+  }
+  .btn-bubble-active {
+    display: none;
+  }
+  &:hover, &:focus {
+    .btn-bubble-std {
+      display: inline-block;
+    }
+    .btn-bubble-active {
+      display: none;
+    }
+  }
+}
+
+.no-touch .btn-bubble {
   display: inline-block;
   width: auto;
-  margin: 0 auto;
   text-decoration: none;
   text-align: center;
 

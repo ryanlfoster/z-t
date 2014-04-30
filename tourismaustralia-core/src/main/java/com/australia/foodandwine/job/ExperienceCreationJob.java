@@ -186,7 +186,11 @@ public class ExperienceCreationJob implements Runnable {
 
 					Map<String, Object> imageProperties = new HashMap<String, Object>();
 					imageProperties.put("sling:resourceType", "foodandwine/components/content/articleImage");
-					imageProperties.put("imageCaption", formProperties.get("photoDescription" + count, String.class));
+					String description = formProperties.get("photoDescription" + count, String.class);
+					if (StringUtils.isNotEmpty(description)) {
+						imageProperties.put("imageCaption",
+							formProperties.get("photoDescription" + count, String.class));
+					}
 					Resource newImageResource = resourceResolver.create(mainparsysResource,
 						"articleImage" + imagecount, imageProperties);
 					resourceResolver.commit();

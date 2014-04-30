@@ -15,7 +15,6 @@
 </script>
 <input type="hidden" class="message" value="${stateMosaic.messageText}"/>
 <input type="hidden" class="page" name="${stateMosaic.template}"/>
-<input type="hidden" class="resourcePath" value="${resource.path}"/>	
 <div class="faw-category-mosaic">
     <div class="headerlockup">
         <hr class="headerlockup-hr">

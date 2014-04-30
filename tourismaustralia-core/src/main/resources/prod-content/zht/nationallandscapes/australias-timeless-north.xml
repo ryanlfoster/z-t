@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="22220" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[首頁]]></headline>
+            <href><![CDATA[/zht/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Tools and Campaigns]]></headline>
+            <href><![CDATA[/zht/tools-campaigns.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[澳洲國家地貌]]></headline>
+            <href><![CDATA[/zht/nationallandscapes.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[澳洲的不朽北方]]></headline>
+            <href><![CDATA[/zht/nationallandscapes/australias-timeless-north.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/Campaigns/national-landscapes-australias-timeless-north.jpg]]></img_background>
+    <hdl_Title><![CDATA[澳洲的不朽北方]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/national-landscapes-australias-timeless-north-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/Campaigns/national-landscapes-australias-timeless-north-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[yes]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[澳洲的不朽北方是充滿對比奇趣之地，擁有熱帶繁茂風情，卻也間雜紅土遍布的荒野奇景。]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[了解更多資料]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[澳洲國家地貌：澳洲的不朽北方 - 澳洲旅遊局]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        澳洲的不朽北方是充滿對比奇趣之地，擁有熱帶繁茂風情，卻也間雜紅土遍布的荒野奇景。
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <StandardCampaignLayout isTemplate="1">
+    <opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+    <hdl_Title><![CDATA[]]></hdl_Title>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+    <con_Banner><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<DIV id=headerimage>
+<SCRIPT type=text/javascript src="../../static/js/jquery.cycle.all.latest.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+jQuery(document).ready(function() {
+jQuery('#headersliderwrapper').cycle({
+        fx:'fade',
+        slideExpr: '.headerslide'
+    });
+});
+</SCRIPT>
+
+<DIV id=headersliderwrapper>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-atn-01.jpg"> 
+<DIV class=headerslideinfo>烏比爾（Ubirr）日落，北領地（NT）</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-atn-02.jpg"> 
+<DIV class=headerslideinfo>鱷魚</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-atn-03.jpg"> 
+<DIV class=headerslideinfo>加倫瀑布（Gunlom Falls），卡卡杜國家公園（Kakadu National Park），北領地（NT）</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-atn-04.jpg"> 
+<DIV class=headerslideinfo>諾蘭基岩（Nourlangie Rock），北領地（NT）</DIV></DIV></DIV></DIV>
+<DIV id=subpage-header-overlay></DIV>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule></con_Banner>
+    <con_Body><TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[澳洲的不朽北方]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        澳洲的不朽北方是充滿對比奇趣之地，擁有熱帶繁茂風情，卻也間雜紅土遍布的荒野奇景。 此風景區為廣大國家公園內一處擁有翠綠濕地、嶙峋砂岩峭壁、深邃峽谷、乾燥平原，以及豐富野生動物景觀之地。 因其與遠古原住民的淵源聯繫，此處的懸崖岩壁就像是天然的藝廊，展示著夢幻時光（Dreamtime）的故事，儼然成為世界最壯觀且古老的岩畫藝術集錦。
+        <p>體驗卡卡杜（Kakadu）六時不同的魔幻美景，航遊鱷魚環伺的水道，造訪阿納姆地區（Arnhem Land）的原住民聚落，或者在尼特米魯克國家公園（Nitmiluk National Park）追隨傳統主人周恩族（Jawoyn）的足跡來場小徑漫步。</p>
+        <p><strong>澳洲不朽北方的四個特色</strong></p>
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[1. 遠古藝術和現存文化]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australias-timeless-north-hl01.jpg" alt="Nourlangie rock art, NT">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Nourlangie rock art, NT]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        花點時間沉緬在卡卡杜（Kakadu）豐富的精神世界中，聆聽它的夢幻故事和秘密。 讓原住民導遊帶您穿過荒野，前往欣賞諾蘭基石（Nourlangie Rock）、安班剛畫廊（Anbangang Gallery）和烏比爾岩（Ubirr Rock）這些絢麗而精細的岩畫。看看石壁上雕刻著的彩虹蛇和閃電人等描繪來自遠古時光先祖的圖騰。在原住民家庭留宿一晚，學習傳統編織、打獵和吹奏迪吉里杜管（didgeridoo）的技法。參觀文化中心，或者航遊間雜其中的水道和溼地，聆聽遠古的故事。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[2. 生機蓬勃的自然]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australias-timeless-north-hl02.jpg" alt="Jacana, Kakadu National Park, NT">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Jacana, Kakadu National Park, NT]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        在瑪姆卡拉濕地（Mamukala Wetlands）到處走走，觀察鵲雁、白鷺、蒼鷺、琵鷺、海鵰、鴨子和姿態彷若舞蹈的澳洲鶴。 在卡卡杜（Kakadu）棲息的 280 種鳥類中，還包括栗翅岩鳩和白喉草鷯鶯等獨特種類。 在東短吻鱷河（East Alligator River）上航遊，行經沿岸棲息的鱷魚，觀察耶穌鳥從睡蓮葉上飛掠而過。 在林地裏尋覓大袋鼠、澳洲野狗、負鼠、蝙蝠和黝黑老鼠的蹤跡。 澳洲所有的淡水魚類中有四分之一可在卡卡杜（Kakadu）找到。您還可以在東短吻鱷河（East Alligator River）以及吉姆吉姆溪（Jim Jim Creek）等許多地方釣到澳洲肺魚。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[3. 六時迥異]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australias-timeless-north-hl03.jpg" alt="Storm over Floodplains">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Storm over Floodplains]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        卡卡杜（Kakadu）一年歷經六個氣候迥異的時節。 在一月到三月的古吉格（Gudjewg）季風雨季節裏，您可目睹震耳欲聾轟然灑落的瀑布和閃電。 四月則是暴雨傾盆狂瀉的班格倫（Banggerreng）季節。 五月到六月中旬的耶格（Yegge）季節，乾燥的清風吹拂水蓮滿布的濕地。 六月到八月是較為暖和的烏爾真（Wurrgeng）季節，您可以一睹死水潭邊棲息的候鳥。 八月中旬到九月中旬的谷融（Gurrung）季節，氣候炎熱乾燥。 十月中旬到十二月底的古努美倫（Gunumeleng）季風雨前季節，將迎來恢復生機的第一場暴雨。
+        <p>若想盡覽卡卡杜（Kakadu）的壯偉勝景，您可乘坐觀光飛機飛越阿納姆地區（Arnhem Land）的懸崖與雄偉的加倫（Gunlom）、雙子（Twin）和吉姆吉姆瀑布（Jim Jim Falls）。</p>
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[4. 跟隨傳統主人的足跡]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australias-timeless-north-hl04.jpg" alt="Katherine Gorge, Nitmiluk National Park, NT">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Katherine Gorge, Nitmiluk National Park, NT]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        尼特米魯克國家公園（Nitmiluk National Park）座落在此國家風景區的南端，園中可見氣勢磅礡的瀑布和壯麗的凱瑟琳峽谷（Katherine Gorge），此處展開的一連串砂岩峽谷，從形成至今已有超過幾百萬年的歷史。 深紅色的峽谷中還潛藏著許多重要的岩畫藝術景點。 探索公園的方式包括悠閒的日間漫步、駕船航遊，或者更有挑戰性的紀特布拉路徑（Jatbula Trail）五日遊，依循當地傳統主人周恩族（Jawoyn）傳唱的古調，踏上長達 59 公里的跋涉。 在瑪莉河（Mary River）和格拉奇古納國家公園區（Garig Gunak National Parks）稍作停留並深入探索。 大自然之路（Nature’s Way）以達爾文（Darwin）為起點，沿著卡卡杜（Kakadu）、阿納姆（Arnhem）和斯圖爾特公路（Stuart Highway）串連起許多周圍景點。
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights></con_Body>
+    <con_RHSModules><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<TABLE cellSpacing=0 cellPadding=0 width=298 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top align=center>
+<P><!-- Google Map Start -->
+<SCRIPT type=text/javascript>
+ function fireEvent(obj,evt){
+ var fireOnThis = obj;
+ if( document.createEvent ) {
+   var evObj = document.createEvent('MouseEvents');
+ evObj.initEvent( evt, true, false );
+   fireOnThis.dispatchEvent(evObj);
+ } else if( document.createEventObject ) {
+   fireOnThis.fireEvent('on'+evt);
+ }
+}
+function clickLink(linkobj) {
+     if (linkobj.getAttribute('onclick') == null) {
+     if (linkobj.getAttribute('href')) document.location = linkobj.getAttribute('href');
+     }
+     else linkobj.onclick();
+}
+function loadjscssfile(filename, filetype){
+ if (filetype=="js"){ //if filename is a external JavaScript file
+  var fileref=document.createElement('script')
+  fileref.setAttribute("type","text/javascript")
+  fileref.setAttribute("src", filename)
+ }
+ else if (filetype=="css"){ //if filename is an external CSS file
+  var fileref=document.createElement("link")
+  fileref.setAttribute("rel", "stylesheet")
+  fileref.setAttribute("type", "text/css")
+  fileref.setAttribute("href", filename)
+  fileref.setAttribute("media", "print")
+}
+if (typeof fileref!="undefined")
+document.getElementsByTagName("head")[0].appendChild(fileref)
+}
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+var icheckk=0;
+jQuery.each(jQuery.browser, function(i, val) {
+if(i=="msie" && jQuery.browser.version.substr(0,3)=="7.0")
+icheckk=1;
+});
+function myfun()
+{
+loadjscssfile("../../static/css/thickbox.css", "css");
+if(icheckk==1)
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='../../static/maps/zht/australiastimelessnorth/bigmap.html'  target='_blank'>&nbsp;列印|關閉此視窗|&nbsp; 或按Esc键</a></b>","../../static/maps/zht/australiastimelessnorth/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+else
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='javascript:window.print()' >&nbsp;列印|關閉此視窗|&nbsp; 或按Esc键</a></b>","../../static/maps/zht/australiastimelessnorth/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+}
+         </SCRIPT>
+<IFRAME style="MARGIN-BOTTOM: 20px; BORDER-TOP: black 1px solid; HEIGHT: 355px; BORDER-RIGHT: black 1px solid; BORDER-BOTTOM: black 1px solid; FLOAT: left; PADDING-BOTTOM: 5px; BORDER-LEFT: black 1px solid; BACKGROUND-COLOR: #333333" height=380 src="../../static/maps/zht/australiastimelessnorth/index.html" frameBorder=0 width=249 name=FRAMENAME scrolling=no></IFRAME><!-- Google Map end -->
+<DIV class=subpage-video-thumb style="TEXT-ALIGN: left"><A onclick="moduleTrackingWithTitle('lightbox-video','',false,'nationallandscapes-timelessnorthzht');" href="#" data-reveal-id="modalVideo"><IMG alt="" src="/contentimages/Campaigns/national-landscapes-video-zht.jpg"> </A></DIV>
+<DIV id=modalVideo class="reveal-modal video" style-="z-index: 103;"><A class=close-reveal-modal><SPAN class=icon></SPAN></A>
+<DIV class=video style="VISIBILITY: visible !important"><IFRAME height=315 src="//www.youtube.com/v/EjGZ3MaX9pE?version=3&amp;hl=en_GB" frameBorder=0 width=560></IFRAME></DIV></DIV></TD></TR></TBODY></TABLE>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule><Listing isTemplate="1">
+<anc_List1><![CDATA[/zht/explore/icons/kakadu/nt-rock-art.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[更多澳洲風景]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/zht/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/zht/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/zht/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/zht/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/zht/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/zht/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/zht/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/zht/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/zht/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/zht/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/zht/Transport.aspx]]></anc_Transport>
+<hdl_Title><![CDATA[計劃旅程]]></hdl_Title>
+<language><![CDATA[CHT]]></language>
+<stf_Accomodation><![CDATA[Accommodation]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[Kakadu Area]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[Attractions]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[Find a Travel Agent near you]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[Destination Information]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[Events]]></stf_Events>
+<stf_Hire><![CDATA[Hire ]]></stf_Hire>
+<stf_Informationservices><![CDATA[Information Services]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[Northern Territory]]></stf_StateFilter>
+<stf_Tours><![CDATA[Tours]]></stf_Tours>
+<stf_Transport><![CDATA[Transport]]></stf_Transport>
+</PlanYourVisit></con_RHSModules>
+    <con_Category></con_Category>
+    <lst_Subpages>
+    </lst_Subpages>
+</StandardCampaignLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

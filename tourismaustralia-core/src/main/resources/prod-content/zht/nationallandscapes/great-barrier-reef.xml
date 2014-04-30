@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="22238" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[首頁]]></headline>
+            <href><![CDATA[/zht/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Tools and Campaigns]]></headline>
+            <href><![CDATA[/zht/tools-campaigns.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[澳洲國家地貌]]></headline>
+            <href><![CDATA[/zht/nationallandscapes.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[大堡礁]]></headline>
+            <href><![CDATA[/zht/nationallandscapes/great-barrier-reef.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/Campaigns/national-landscapes-great-barrier-reef.jpg]]></img_background>
+    <hdl_Title><![CDATA[大堡礁]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/national-landscapes-great-barrier-reef-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/Campaigns/national-landscapes-great-barrier-reef-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[yes]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[造訪列為世界遺產的大堡礁（Great Barrier Reef），這裡有全球最大的珊瑚礁生態系統，而且也是世界七大自然奇景之一，能夠喚醒您的感官並啟迪性靈。]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[大堡礁, 愛爾麗海灘, 降靈群島, 丹翠雨林, 列入世界遺產, 潛水, 浮潛, 道格拉斯港口, 蒙利普斯, 珊瑚, 湯斯維爾, 麥凱, 密遜海灘, 航行, 凱恩斯]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[了解更多資料]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[澳洲國家地貌：大堡礁 - 澳洲旅遊局]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        造訪列為世界遺產的大堡礁（Great Barrier Reef），這裡有全球最大的珊瑚礁生態系統，而且也是世界七大自然奇景之一，能夠喚醒您的感官並啟迪性靈。
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <StandardCampaignLayout isTemplate="1">
+    <opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+    <hdl_Title><![CDATA[]]></hdl_Title>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+    <con_Banner><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<DIV id=headerimage>
+<SCRIPT type=text/javascript src="../../static/js/jquery.cycle.all.latest.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+jQuery(document).ready(function() {
+jQuery('#headersliderwrapper').cycle({
+        fx:'fade',
+        slideExpr: '.headerslide'
+    });
+});
+</SCRIPT>
+
+<DIV id=headersliderwrapper>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-gbr-01.jpg"> 
+<DIV class=headerslideinfo>低島（Low Isles），昆士蘭（QLD）</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-gbr-02.jpg"> 
+<DIV class=headerslideinfo>蜥蜴島（Lizard Island），昆士蘭（QLD）</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-gbr-03.jpg"> 
+<DIV class=headerslideinfo>海葵中的小丑魚</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-gbr-04.jpg"> 
+<DIV class=headerslideinfo>皮克斯花園（Pixies Garden），昆士蘭（QLD）</DIV></DIV></DIV></DIV>
+<DIV id=subpage-header-overlay></DIV>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule></con_Banner>
+    <con_Body><TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[大堡礁]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        世界七大自然奇景之一而且也是世界遺產的大堡礁（Great Barrier Reef）是全球最大的珊瑚礁生態系統。 範圍從本達堡（Bundaberg）北端開始，一直延伸到約克角（Cape York），這裡的礁岩由 2,900 種珊瑚礁組成，具有超過 900 座島嶼與 300 個珊瑚礁。 總長足達 2,300 公里。 其面積之大，從外太空都可以看見。 保存完善的礁石生態系統是某些最奇妙海洋生物的家園，包括超過 20 種脆弱且瀕臨滅絕的生物。 大堡礁（Great Barrier Reef）之美不但能喚醒您的感官應更可啟迪性靈。
+        <p><strong>四個造訪大堡礁的原因</strong></p>
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[1. 迷人的島嶼]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-great-barrier-reef-hl01.jpg" alt="Vlassof Cay, QLD">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Vlassof Cay, QLD]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        在礁石最北邊的哈格斯通島（Haggerstone Island）住宿，可以體驗正宗的魯賓遜漂流記。 賓客人數有限制，您甚至能自己租下整座島嶼。 在這裡您可以一探綠海龜群棲地，大量的海龜就生活在四周水域裡。 此外，北方有一個浪漫又奢華且僅限成人造訪的蜥蜴島（Lizard Island）。 在道格拉斯港口（Port Douglas）與湯斯維爾（Townsville）之間有美麗的綠島（Green）、貝達拉島（Bedarra）、奧費斯島（Orpheus Island）與磁島（Magnetic Island），以及澳洲最大的島嶼國家公園欣欽布魯克島（Hinchinbrook Island）。 再往愛爾麗海灘（Airlie Beach）的南方前行是世界著名的降靈群島（Whitsundays Islands），而在大堡礁（Great Barrier Reef）最南端的是絕美且擁有多元化生態的埃里奧特夫人島（Lady Elliot Island）。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[2.  珊瑚礁與海洋生物]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-great-barrier-reef-hl02.jpg" alt="Clownfish, QLD">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Clownfish, QLD]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        大堡礁（Great Barrier Reef）是許多壯麗且多樣海洋動物的棲息地，包含鯨魚、海龜、鯊魚、小丑魚、巨大貝殼與蝠鲼。 海水終年溫暖，而且還有珊瑚谷、水下洞穴與隧道，以及沉船點等眾多水底體驗供您享受。 不論您是經驗豐富的潛水者或浮潛者，或者只是新手，都有不同的體驗可供選擇。 在十和十一月的滿月時節，海水會因珊瑚產卵這個驚人的自然現象而轉為深淺不一的淡粉色， 看起來彷彿是成千的香檳泡泡漸次往水面升起。 十一月到三月間，您可前往位於本達堡（Bundaberg）或埃里奧特夫人島（Lady Elliot Island）東方的蒙利普斯（Mon Repos）海灘，一睹雌海龜上岸產卵的景象。 孵化出的幼龜通常會在一月中旬從巢裡湧出。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[3. 航海]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-great-barrier-reef-hl03.jpg" alt="Hamilton Island Sailing, QLD">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Hamilton Island Sailing, QLD]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        密遜海灘（Mission Beach）、湯斯維爾（Townsville）、愛爾麗海灘（Airlie Beach）、麥凱（Mackay）、羅克漢普頓（Rockhampton）和本達堡（Bundaberg）是生機蓬勃的海岸中心，能輕鬆抵達大堡礁各區。 航海是其中一種最受歡迎的探索珊瑚礁的方式。 浪況平靜的海洋上，海水閃耀著藍綠色的波光，您可以在泊船點停船飽覽風光。 您可以自行開船巡航，或者租艘有船長且附全套餐食的船為您服務。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[4. 獨特體驗]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-great-barrier-reef-hl04.jpg" alt="Ribbon Reef, QLD">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Ribbon Reef, QLD]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        從道格拉斯港口（Port Douglas）或凱恩斯（Cairns）出發，您可以在北方帶狀礁（Northern Ribbon Reef）浮潛、徒步穿越世界上最古老的熱帶雨林、列為世界遺產的丹翠雨林，或在苦難角（Cape Tribulation）的純凈沙灘上曬太陽，這裡就是雨林與珊瑚美景交織之處。 至於嚮往獨一無二水中體驗的遊客，道格拉斯港口（Port Douglas）在六、七月提供與侏儒小鬚鯨同游和潛水的體驗，如果您比較喜歡靠近水面的活動，在鯨魚一年一度遷徙期間，還有許多賞鯨行程可供選擇。 再往南，您可以到愛爾麗海灘（Airlie Beach），這裡是往降靈群島（Whitsundays）的通道，您可以探索 74 座充滿田園風味的島嶼。 或者，您也可以選擇飛行，搭乘觀光飛機俯瞰全景。
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights></con_Body>
+    <con_RHSModules><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<TABLE cellSpacing=0 cellPadding=0 width=298 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top align=center><!-- Google Map Start -->
+<SCRIPT type=text/javascript>
+function fireEvent(obj,evt){
+ var fireOnThis = obj;
+ if( document.createEvent ) {
+   var evObj = document.createEvent('MouseEvents');
+   evObj.initEvent( evt, true, false );
+   fireOnThis.dispatchEvent(evObj);
+ } else if( document.createEventObject ) {
+   fireOnThis.fireEvent('on'+evt);
+ }
+}
+function clickLink(linkobj) {
+if (linkobj.getAttribute('onclick') == null) {
+if (linkobj.getAttribute('href')) document.location = linkobj.getAttribute('href');
+     }
+     else linkobj.onclick();
+}
+function loadjscssfile(filename, filetype){
+ if (filetype=="js"){ //if filename is a external JavaScript file
+  var fileref=document.createElement('script')
+  fileref.setAttribute("type","text/javascript")
+  fileref.setAttribute("src", filename)
+ }
+ else if (filetype=="css"){ //if filename is an external CSS file
+  var fileref=document.createElement("link")
+  fileref.setAttribute("rel", "stylesheet")
+  fileref.setAttribute("type", "text/css")
+  fileref.setAttribute("href", filename)
+  fileref.setAttribute("media", "print")
+ }
+if (typeof fileref!="undefined")
+document.getElementsByTagName("head")[0].appendChild(fileref)
+}
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+var icheckk=0;
+jQuery.each(jQuery.browser, function(i, val) {
+if(i=="msie" && jQuery.browser.version.substr(0,3)=="7.0")
+icheckk=1;
+});
+function myfun()
+{
+loadjscssfile("../../static/css/thickbox.css", "css");
+if(icheckk==1)
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='../../static/maps/zht/greatbarrierreef/bigmap.html'  target='_blank'>&nbsp;列印|關閉此視窗|&nbsp; 或按Esc键</a></b>","../../static/maps/zht/greatbarrierreef/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+else
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='javascript:window.print()' >&nbsp;列印|關閉此視窗|&nbsp; 或按Esc键</a></b>","../../static/maps/zht/greatbarrierreef/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+}
+         </SCRIPT>
+<IFRAME style="MARGIN-BOTTOM: 20px; BORDER-TOP: black 1px solid; HEIGHT: 355px; BORDER-RIGHT: black 1px solid; BORDER-BOTTOM: black 1px solid; FLOAT: left; PADDING-BOTTOM: 5px; BORDER-LEFT: black 1px solid; BACKGROUND-COLOR: #333333" height=380 src="../../static/maps/zht/greatbarrierreef/index.html" frameBorder=0 width=249 name=FRAMENAME scrolling=no></IFRAME><!-- Google Map end -->
+<DIV class=subpage-video-thumb style="TEXT-ALIGN: left"><A onclick="moduleTrackingWithTitle('lightbox-video','',false,'nationallandscapes-greatbarrierreefzht');" href="#" data-reveal-id="modalVideo"><IMG alt="" src="/contentimages/Campaigns/national-landscapes-video-zht.jpg"></A> </DIV>
+<DIV id=modalVideo class="reveal-modal video" style-="z-index: 103;"><A class=close-reveal-modal><SPAN class=icon></SPAN></A>
+<DIV class=video style="VISIBILITY: visible !important"><IFRAME height=315 src="//www.youtube.com/v/EjGZ3MaX9pE?version=3&amp;hl=en_GB" frameBorder=0 width=560></IFRAME></DIV></DIV></TD></TR></TBODY></TABLE>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule><Listing isTemplate="1">
+<anc_List1><![CDATA[/zht/explore/states/qld/qld-diving.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[更多澳洲風景]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/zht/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/zht/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/zht/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/zht/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/zht/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/zht/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/zht/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/zht/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/zht/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/zht/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/zht/Transport.aspx]]></anc_Transport>
+<hdl_Title><![CDATA[計劃您的假期]]></hdl_Title>
+<language><![CDATA[CHT]]></language>
+<stf_Accomodation><![CDATA[住宿]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[風景]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[旅行專家]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[目的地信息]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[Whitsunday Region]]></stf_DomesticRegion>
+<stf_Events><![CDATA[活動]]></stf_Events>
+<stf_Hire><![CDATA[租用]]></stf_Hire>
+<stf_Informationservices><![CDATA[信息服務]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[Queensland]]></stf_StateFilter>
+<stf_Tours><![CDATA[遊覽]]></stf_Tours>
+<stf_Transport><![CDATA[交通工具]]></stf_Transport>
+</PlanYourVisit></con_RHSModules>
+    <con_Category></con_Category>
+    <lst_Subpages>
+    </lst_Subpages>
+</StandardCampaignLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

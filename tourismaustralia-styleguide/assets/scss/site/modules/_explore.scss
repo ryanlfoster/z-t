@@ -115,7 +115,10 @@
 
 .explore-card-front {
   position: relative;
-
+  padding: 0 pxtoem(15px);
+  @include breakpoint(sm) {
+    padding: initial;
+  }
 }
 
 .explore-card-back {
@@ -125,4 +128,78 @@
   top: 0;
   left: 0;
   background-color: #f3f2eb;
+  padding: 0 pxtoem(15px);
+  @include breakpoint(sm) {
+    padding: initial;
+  }
+}
+
+/****************************
+** FLIP
+/****************************/
+
+.explore-item-container .flip-front, .explore-item-container .flip-back {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+
+  -webkit-transition: 0.6s;
+  -webkit-transform-style: preserve-3d;
+
+  -moz-transition: 0.6s;
+  -moz-transform-style: preserve-3d;
+
+  -o-transition: 0.6s;
+  -o-transform-style: preserve-3d;
+
+  -ms-transition: 0.6s;
+  -ms-transform-style: preserve-3d;
+
+  transition: 0.6s;
+  transform-style: preserve-3d;
+}
+
+.explore-item-container .flip-front {
+  -webkit-transform: rotateY(0deg);
+  -moz-transform: rotateY(0deg);
+  -o-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+  z-index: 2;
+}
+
+.explore-item-container .flip-back {
+  -webkit-transform: rotateY(-180deg);
+  -moz-transform: rotateY(-180deg);
+  -o-transform: rotateY(-180deg);
+  -ms-transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
+}
+
+// IE9 does simple rollover flip
+.no-csstransforms3d {
+  .explore-item-container.is-flip:not(.is-trigger-content) {
+    .flip-front {
+      z-index: 1;
+    }
+  }
+}
+// Modern browsers 3d flip
+.csstransforms3d {
+  .explore-item-container.is-flip:not(.is-trigger-content) {
+    .flip-front {
+      -webkit-transform: rotateY(180deg);
+      -moz-transform: rotateY(180deg);
+      -o-transform: rotateY(180deg);
+      transform: rotateY(180deg);
+    }
+    .flip-back {
+      -webkit-transform: rotateY(0deg);
+      -moz-transform: rotateY(0deg);
+      -o-transform: rotateY(0deg);
+      -ms-transform: rotateY(0deg);
+      transform: rotateY(0deg);
+    }
+  }
 }

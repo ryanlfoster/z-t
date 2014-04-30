@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="22226" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[首頁]]></headline>
+            <href><![CDATA[/zht/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Tools and Campaigns]]></headline>
+            <href><![CDATA[/zht/tools-campaigns.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[澳洲國家地貌]]></headline>
+            <href><![CDATA[/zht/nationallandscapes.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[澳洲的綠色“大鍋”]]></headline>
+            <href><![CDATA[/zht/nationallandscapes/australias-green-cauldron.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/Campaigns/national-landscapes-australias-green-cauldron.jpg]]></img_background>
+    <hdl_Title><![CDATA[澳洲的綠色“大鍋”]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/national-landscapes-australias-green-cauldron-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/Campaigns/national-landscapes-australias-green-cauldron-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[yes]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[漫步於沃寧山（沃倫賓）四周，這座古盾形火山的遺址目前已深藏於崗得瓦納雨林之中。]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[黃嶺山，沃倫賓，拜倫灣，黃金海岸，萊明頓國家公園，春溪，春溪國家公園，邊界山脈國家公園，睡帽國家公園，昆士蘭國家公園，澳洲國家公園，莫維倫巴，烏奇，泰爾根，奇奧格，利斯摩，巴里納，金斯克里弗，大分水嶺，譚伯連山]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[了解更多資料]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[澳洲國家地貌：澳洲的綠色“大鍋”- 澳洲旅遊局]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        漫步於沃寧山（沃倫賓）四周，這座古盾形火山的遺址目前已深藏於崗得瓦納雨林之中。
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <StandardCampaignLayout isTemplate="1">
+    <opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+    <hdl_Title><![CDATA[]]></hdl_Title>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+    <con_Banner><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<DIV id=headerimage>
+<SCRIPT type=text/javascript src="../../static/js/jquery.cycle.all.latest.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+jQuery(document).ready(function() {
+jQuery('#headersliderwrapper').cycle({
+        fx:'fade',
+        slideExpr: '.headerslide'
+    });
+});
+</SCRIPT>
+
+<DIV id=headersliderwrapper>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-agc-01.jpg"> 
+<DIV class=headerslideinfo>澳洲的「綠色大鍋（Green Cauldron）」</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-agc-02.jpg"> 
+<DIV class=headerslideinfo>伯利角（Burleigh Heads）日出，昆士蘭（QLD）</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-agc-03.jpg"> 
+<DIV class=headerslideinfo>沃寧山（Mt Warning），新南威爾斯（NSW）</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-agc-04.jpg"> 
+<DIV class=headerslideinfo>站立划槳滑浪板</DIV></DIV></DIV></DIV>
+<DIV id=subpage-header-overlay></DIV>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule></con_Banner>
+    <con_Body><TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[澳洲的綠色“大鍋”]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        漫步於澳洲綠色“大鍋”里的沃寧山（Mount Warning）【沃倫賓（Wollumbin）】周圍。綠色“大鍋”是一處古老的盾形火山遺跡，現在是一片茂盛的崗得瓦納（Gondwanan）雨林。這個巨大的死火山口從拜倫灣（Byron Bay）一直延伸到黃金海岸，西面直達大分水嶺（Great Dividing Range）。漫步於沃寧山（Mount Warning）【沃倫賓（Wollumbin）】山腳下；穿過被列入世界遺產名錄的國家公園，例如雷明頓（Lamington）、邊界山脈（Border Ranges）、春溪（Springbrook）和睡帽（Nightcap）等國家公園。在亞熱帶雨林中觀賞珍稀的鳥類和動物。造訪具有創意的新時代社區。在雨林之路（Rainforest Way）上驅車遊覽這個生物多樣化的地區，從原住民導遊口中了解其神聖的歷史。
+        <p><strong>五種方式遊覽綠色“大鍋”</strong></p>
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[1. 漫步於神秘的國家公園之中]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australias-green-cauldron-hl01.jpg" alt="Nightcap National Park, NSW">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Nightcap National Park, NSW]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        漫步於環繞沃寧山（沃倫賓）山腳的琴鳥路徑（Lyrebird Track）上，聆聽罕見的阿爾伯特琴鳥的叫聲。在雷明頓國家公園（Lamington National Park）蒼翠的亞熱帶雨林裏眾多的步行路徑上健行，然後走走藤蔓叢生的奧瑞里樹頂走道（O'Reillys Tree Top Walk）。在春溪國家公園，您可以深入山谷探索，也可以登高前往風景迷人的觀景點。在邊界山脈國家公園，爬上巨大的沃倫賓火山口（Wollumbin Crater）邊緣，前往頂峰觀景點（Pinnacle Lookout）。然後在公園裏的南極山毛櫸森林中野餐。攀登博德塞特（Beaudesert）附近的馬龍山（Mt Maroon）、巴尼山（Mt Barney）、米切爾山（Mt Mitchell）和科德山（Mt Cordeaux）。在睡帽國家公園裏，在風景優美的睡帽山脈（Nightcap Range）遠足，沿途欣賞瀑布和溪澗。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[2. 慢慢欣賞腹地小鎮]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australias-green-cauldron-hl02.jpg" alt="Byron Bay, NSW">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Byron Bay, NSW]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        在莫維倫巴（Murwillumbah）找一個充滿藝術格調的咖啡館就餐，小鎮外面就是沃寧山（沃倫賓）巍然屹立的壯觀景象。然後沿著沃寧山環形公路（Mount Warning Circuit）駕車穿過歷史悠久的小鎮烏奇（Uki）和泰爾根（Tyalgum），或是走特維德山脈公路（Tweed Range Drive）前往奇奧格（Kyogle）和利斯摩（Lismore）。在巴里納（Ballina）腹地找一個健康按摩浴會所療養一番，或是到拜倫灣學滑浪。從金斯克里弗（Kingscliff）出發，乘船暢遊特維德河（Tweed River），或是在寬闊的白色沙灘外游泳、滑浪和釣魚。在彩虹地區（Rainbow Region）的小鎮卡西諾（Casino）、奇奧格、利斯摩和寧賓（Nimbin）算算命，嚐嚐原生態美食。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[3. 觀賞本地動物]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australias-green-cauldron-hl03.jpg" alt="Kookaburra">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Kookaburra]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        在沃寧山國家公園裏，在袋鼠、樹熊、斑尾袋鼬和澳洲小飛鼠附近野餐。聆聽雄性鞭鶇如揮鞭般的叫聲，以及阿爾伯特琴鳥如模仿其他鳥叫一樣的啼鳴。觀察罕見的棕藪鳥、綠翅紫胸鴿和雲斑蟆口鴟。邊界山脈國家公園的有袋動物種類密度居澳洲之首。在這裏，您可找到針鼴、袋貍、鴨嘴獸、小袋鼠、負鼠和飛狐。從金斯克里弗和拜倫灣，您可以觀察到在水中嬉戲的海豚和每年遷徙途經的座頭鯨。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[4.  擁抱雨林之路]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australias-green-cauldron-hl04.jpg" alt="Mt Warning (Wollumbin), NSW">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Mt Warning (Wollumbin), NSW]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        沿著雨林之路駕車，一路上的眾多環迴路線和小路連接著多個被列為世界遺產的國家公園。在沿著古老的沃寧（沃倫賓）死火山口上緣的特維德山脈觀景公路（Tweed Range Scenic Drive）欣賞碧綠的農場和崗得瓦納雨林。越過大分水嶺，在里奇蒙山脈（Richmond Range）頂部駐足，觀賞一覽無遺的美景，眺望遠處的火山栓。探訪伯納（Boonah）或前往主山脈（Main Range）公路上的弗蘭奇山國家公園（Mount French National Park）攀岩。遊覽黃金海岸腹地的坦伯林山（Tamborine Mountain）；或在睡帽國家公園蜿蜒穿過寧賓（Nimbin），前往高高的名泳瀑布（Minyon Falls）。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[5. 領略活的原住民文化]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australias-green-cauldron-hl05.jpg" alt="Fireside Corrooboree, Currumbin, QLD">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Fireside Corrooboree, Currumbin, QLD]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        探訪位於南特威德角（South Tweed Heads）的原住民文化中心。在鄰近的烏克巴自然保護地（Ukerebagh Nature Reserve）參加一次導遊帶領的文化之旅。在黃金海岸北面，您可以和Balunjali的導遊一起划船前往南斯特拉德布魯克（South Stradbroke）和維富布雷克群島（Wavebreak islands）。與魟魚一起浮潛，搜尋金色沼澤袋鼠，享用bush tucker午餐。在黃金海岸上，還有庫蘭賓野生動物保護區（Currumbin Wildlife Sanctuary）每天都會舉行原住民舞蹈表演和螢火晚會。參加一個傍晚文化之旅，到附近的春溪國家公園（Springbrook National Park）遊覽，參觀螢火蟲洞並聆聽關於星座的夢幻傳說。
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights></con_Body>
+    <con_RHSModules><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<TABLE cellSpacing=0 cellPadding=0 width=298 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top align=center><!-- Google Map Start -->
+<SCRIPT type=text/javascript>
+function fireEvent(obj,evt){
+ var fireOnThis = obj;
+ if( document.createEvent ) {
+   var evObj = document.createEvent('MouseEvents');
+   evObj.initEvent( evt, true, false );
+   fireOnThis.dispatchEvent(evObj);
+ } else if( document.createEventObject ) {
+   fireOnThis.fireEvent('on'+evt);
+ }
+}
+function clickLink(linkobj) {
+if (linkobj.getAttribute('onclick') == null) {
+if (linkobj.getAttribute('href')) document.location = linkobj.getAttribute('href');
+     }
+     else linkobj.onclick();
+}
+function loadjscssfile(filename, filetype){
+ if (filetype=="js"){ //if filename is a external JavaScript file
+  var fileref=document.createElement('script')
+  fileref.setAttribute("type","text/javascript")
+  fileref.setAttribute("src", filename)
+ }
+ else if (filetype=="css"){ //if filename is an external CSS file
+  var fileref=document.createElement("link")
+  fileref.setAttribute("rel", "stylesheet")
+  fileref.setAttribute("type", "text/css")
+  fileref.setAttribute("href", filename)
+  fileref.setAttribute("media", "print")
+ }
+ if (typeof fileref!="undefined")
+  document.getElementsByTagName("head")[0].appendChild(fileref)
+}
+ </SCRIPT>
+
+<SCRIPT type=text/javascript>
+var icheckk=0;
+jQuery.each(jQuery.browser, function(i, val) {
+if(i=="msie" && jQuery.browser.version.substr(0,3)=="7.0")
+icheckk=1;
+});
+function myfun()
+{
+loadjscssfile("../../static/css/thickbox.css", "css");
+if(icheckk==1)
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='../../static/maps/zht/australiasgreencauldron/bigmap.html'  target='_blank'>&nbsp;列印|關閉此視窗|&nbsp; 或按Esc键</a></b>","../../static/maps/zht/australiasgreencauldron/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+else
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='javascript:window.print()' >&nbsp;列印|關閉此視窗|&nbsp; 或按Esc键</a></b>","../../static/maps/zht/australiasgreencauldron/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+}
+         </SCRIPT>
+<IFRAME style="MARGIN-BOTTOM: 20px; BORDER-TOP: black 1px solid; HEIGHT: 355px; BORDER-RIGHT: black 1px solid; BORDER-BOTTOM: black 1px solid; FLOAT: left; PADDING-BOTTOM: 5px; BORDER-LEFT: black 1px solid; BACKGROUND-COLOR: #333333" height=380 src="../../static/maps/zht/australiasgreencauldron/index.html" frameBorder=0 width=249 name=FRAMENAME scrolling=no></IFRAME><!-- Google Map end -->
+<DIV class=subpage-video-thumb style="TEXT-ALIGN: left"><A onclick="moduleTrackingWithTitle('lightbox-video','',false,'nationallandscapes-greencauldronzht');" href="#" data-reveal-id="modalVideo"><IMG alt="" src="/contentimages/Campaigns/national-landscapes-video-zht.jpg"></A></DIV>
+<DIV id=modalVideo class="reveal-modal video" style-="z-index: 103;"><A class=close-reveal-modal><SPAN class=icon></SPAN></A>
+<DIV class=video style="VISIBILITY: visible !important"><IFRAME height=315 src="//www.youtube.com/v/EjGZ3MaX9pE?version=3&amp;hl=en_GB" frameBorder=0 width=560></IFRAME></DIV></DIV></TD></TR></TBODY></TABLE>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule><Listing isTemplate="1">
+<anc_List1><![CDATA[/zht/explore/icons/byron-bay.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[更多關於澳洲旅遊的好主意]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/zht/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/zht/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/zht/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/zht/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/zht/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/zht/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/zht/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/zht/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/zht/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/zht/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/zht/Transport.aspx]]></anc_Transport>
+<hdl_Title><![CDATA[計劃前往澳洲綠色“大鍋”的旅途]]></hdl_Title>
+<language><![CDATA[CHT]]></language>
+<stf_Accomodation><![CDATA[Accommodation]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[Attractions]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[Find a Travel Agent near you]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[Destination Information]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[Events]]></stf_Events>
+<stf_Hire><![CDATA[Hire ]]></stf_Hire>
+<stf_Informationservices><![CDATA[Information Services]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[Queensland]]></stf_StateFilter>
+<stf_Tours><![CDATA[Tours]]></stf_Tours>
+<stf_Transport><![CDATA[Transport]]></stf_Transport>
+</PlanYourVisit></con_RHSModules>
+    <con_Category></con_Category>
+    <lst_Subpages>
+    </lst_Subpages>
+</StandardCampaignLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

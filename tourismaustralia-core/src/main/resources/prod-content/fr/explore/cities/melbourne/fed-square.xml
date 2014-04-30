@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="15806" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Accueil]]></headline>
+            <href><![CDATA[/fr/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Explorez]]></headline>
+            <href><![CDATA[/fr/explore.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Melbourne]]></headline>
+            <href><![CDATA[/fr/explore/cities/melbourne.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[Federation Square, Victoria]]></headline>
+            <href><![CDATA[/fr/explore/cities/melbourne/fed-square.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/explore-cities-melbourne-fed-square-bg.jpg]]></img_background>
+    <hdl_Title><![CDATA[Federation Square, Victoria]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/explore-cities-melbourne-fed-square-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/explore-cities-melbourne-fed-square-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[no]]></opt_PartnerLead>
+    <stf_description><![CDATA[D&eacute;couvrez l'embl&eacute;matique Federation Square, un lieu culturel en plein centre-ville de Melbourne, c&eacute;l&egrave;bre pour ses attractions, ses mus&eacute;es et galeries, ses restaurants, ses caf&eacute;s et ses bars.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[Federation Square, Melbourne, Victoria]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[y]]></stf_IsMobile>
+    <stf_keywords><![CDATA[Federation Square Melbourne]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[En savoir plus]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Federation Square, Melbourne, Victoria - Tourism Australia]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+      Federation Square est le lieu de rencontre le plus pris&eacute; de Melbourne.
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <Listing isTemplate="1">
+<anc_List1><![CDATA[/fr/explore/cities/melbourne.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[Plus d'id&eacute;es australiennes]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/fr/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/fr/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/fr/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/fr/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/fr/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/fr/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/fr/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/fr/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/fr/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/fr/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/fr/Transport.aspx]]></anc_Transport>
+<hdl_Title><![CDATA[Planifiez votre visite]]></hdl_Title>
+<language><![CDATA[FRA]]></language>
+<stf_Accomodation><![CDATA[]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[R&eacute;gion de Melbourne]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[]]></stf_Events>
+<stf_Hire><![CDATA[]]></stf_Hire>
+<stf_Informationservices><![CDATA[]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[]]></stf_StateFilter>
+<stf_Tours><![CDATA[]]></stf_Tours>
+<stf_Transport><![CDATA[]]></stf_Transport>
+</PlanYourVisit>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Federation Square, Victoria]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+      Federation Square est la grande place de Melbourne o&ugrave; chacun se donne rendez-vous. C'est un lieu culturel unique et &eacute;clectique combinant attractions, mus&eacute;es et galeries, restaurants, caf&eacute;s et bars.<br /><br />
+      C'est &eacute;galement l&agrave; que se tiennent plus de 2 000 &eacute;v&eacute;nements chaque ann&eacute;e, parmi lesquels festivals multiculturels, march&eacute;s, projections de films et comp&eacute;titions sportives. L'esplanade a une capacit&eacute; d'accueil de 10 000 personnes.
+    <p>
+      Grande comme un p&acirc;t&eacute; de maisons et recouverte de pav&eacute;s de <a href="/fr/explore/icons/kimberley.xml" target="_self">la r&eacute;gion des Kimberley en Australie occidentale</a>, Federation Square est l&eacute;g&egrave;rement au-dessus du niveau de la rue, offrant une vue imprenable sur la ville de <a href="/fr/explore/cities/melbourne.xml" target="_self">Melbourne</a>, le quartier Southbank et la Yarra River.<br /><br />
+      Premier arr&ecirc;t : l'office de tourisme pour planifier au mieux votre visite. Des visites guid&eacute;es d'une heure sont organis&eacute;es tous les matins du lundi au samedi.
+    </p><p>
+      Baladez-vous sur l'esplanade et contemplez l'Atrium, une remarquable structure semblable &agrave; une galerie, faite de verre, d'acier et de zinc et qui accueille un grand nombre d'expositions artistiques uniques. Amphith&eacute;&acirc;tre couvert, l'Edge est le lieu d'&eacute;v&eacute;nements publics tels que pi&egrave;ces de th&eacute;&acirc;tre et conf&eacute;rences. <a href="http://www.australia.com/campaigns/nothinglike/au/melbourne-product6.htm" target="_blank">Le stade Melbourne Cricket Ground (MCG)</a>, les Alexandra Gardens, la tour du Victorian Arts Centre et la Yarra River sont tous visibles gr&acirc;ce aux parois en verre du b&acirc;timent.
+    </p><p>
+      Federation Square abrite &eacute;galement le Ian Potter Centre, appartenant &agrave; la National Gallery of Victoria, l'Australian Centre for the Moving Image et le National Design Centre.
+    </p><p>
+      Premier centre de ce type au monde, l'Australian Centre for the Moving Image est d&eacute;di&eacute; &agrave; l'image anim&eacute;e sous toutes ses formes, des pr&eacute;mices du cin&eacute;ma aux tout derniers m&eacute;dias num&eacute;riques.<br /><br />
+      Le Ian Potter Centre: NGV Australia est la premi&egrave;re galerie au monde consacr&eacute;e exclusivement &agrave; l'art australien. Il comprend notamment diff&eacute;rentes sections (photos, gravures, dessins, mode et textiles, arts d&eacute;coratifs), ainsi qu'une succession de galeries d&eacute;di&eacute;es &agrave; l'art aborig&egrave;ne et insulaire du d&eacute;troit de Torres.
+    </p><p>
+      Le National Design Centre rend hommage au design australien et pr&eacute;sente un programme annuel d'expositions de design internationales et locales, permanentes ou provisoires.
+    </p><p>
+      &Agrave; l'est de Federation Square se trouve Birrarung Marr, un parc en bordure de fleuve tr&egrave;s pris&eacute; des riverains pour faire de l'exercice et se d&eacute;tendre. Birrarung signifie &laquo; rivi&egrave;re des brumes &raquo; dans la langue Woiwurrung du peuple Wurundjeri, propri&eacute;taire par tradition de cette terre. Marr signifie &laquo; bord du fleuve &raquo;.<br /><br />
+      ArtPlay est un centre o&ugrave; enfants et familles peuvent cr&eacute;er leurs propres objets d'art aux c&ocirc;t&eacute;s d'artistes professionnels. Une aire de jeux ext&eacute;rieure est &eacute;galement mise &agrave; disposition.
+    </p><p>
+      Federation Wharf relie Federation Square &agrave; la pittoresque Yarra River de Melbourne &agrave; travers une s&eacute;rie d'arcades historiques datant des ann&eacute;es 1890. Vous pouvez &eacute;galement d&eacute;couvrir Melbourne en bateau &agrave; l'occasion d'une croisi&egrave;re sur la Yarra River ou louer un v&eacute;lo pour explorer les magnifiques parcs et jardins de la ville.
+    </p><p>
+      Federation Square se trouve &agrave; l'angle de Swanston Street et Flinders Street dans le centre-ville de Melbourne, en face de Flinders Street Station et de St Paul's Cathedral. Federation Square est &agrave; quelques minutes de marche des principales attractions de Melbourne, comme la National Gallery of Victoria, les Royal Botanical Gardens, Crown Casino, Melbourne Aquarium, Melbourne Cricket Ground et Eureka Tower.
+    </p>]]></txt_Information>
+            
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

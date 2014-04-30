@@ -1,7 +1,6 @@
 $type-specialoffer-colour: #00535e;
 
 .specialoffer {
-
     text-align: center;
 
     .row {
@@ -74,6 +73,7 @@ $type-specialoffer-colour: #00535e;
             margin-bottom: 15px;
         }
 
+
         .specialoffer-currency {
             font-size: pxtoem(30px);
             vertical-align: top;
@@ -116,5 +116,17 @@ $type-specialoffer-colour: #00535e;
                 }
             }
         }
+    }
+}
+
+.specialoffer--secondary  {
+
+    .specialoffer-from {
+        margin-right: pxtoem(-20px);
+        display: inline-block;
+    }
+
+    .specialoffer-price {
+
     }
 }

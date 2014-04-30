@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="22596" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Accueil]]></headline>
+            <href><![CDATA[/fr/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Tools and Campaigns]]></headline>
+            <href><![CDATA[/fr/tools-campaigns.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[FR]]></headline>
+            <href><![CDATA[/fr/13181.ignore]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[Ton aventure australienne : Direction l ’Australie]]></headline>
+            <href><![CDATA[/fr/quiksilver-fr.xml]]></href>
+        </element>
+<element level="6">
+            <headline><![CDATA[Les meilleurs spots de surf en Australie]]></headline>
+            <href><![CDATA[/fr/quiksilver-surf-spots-fr.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/promotions-work-around-australia.jpg]]></img_background>
+    <hdl_Title><![CDATA[Les meilleurs spots de surf en Australie]]></hdl_Title>
+    <img_Banner><![CDATA[/contentimages/promotions-work-around-australia.jpg]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/promotions-work-around-australia-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[En savoir plus]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Ton aventure australienne : Direction l’Australie: Les meilleurs spots de surf en Australie]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[]]>
+    </txt_Teaser>
+    <con_Body>
+        <StandardCampaignLayout isTemplate="1">
+    <opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+    <hdl_Title><![CDATA[]]></hdl_Title>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+    <con_Banner>
+
+<!-- Map Start -->
+<script src="/Campaigns/nothinglikeaustralia/fr/quiksilver/surfmap/js/jquery-1.6.1.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="/Campaigns/nothinglikeaustralia/fr/quiksilver/surfmap/js/jquery.history.min.js" type="text/javascript" charset="utf-8"></script>
+<link rel="stylesheet" href="/Campaigns/nothinglikeaustralia/fr/quiksilver/surfmap/css/surf-map-fr.css" type="text/css" media="screen" charset="utf-8">
+<div class="wrapper">
+<div id="map">
+<div class="title"><img src="/Campaigns/nothinglikeaustralia/fr/quiksilver/surfmap/images/label_top_copy-fr.png" width="235" height="70" alt="Label Top Copy"></div>
+<div id="map_area">
+</div>
+<div class="states">
+</div>
+<div class="cities">
+</div>
+<div class="locations">
+</div>
+<div id="module">
+</div>
+</div>
+</div>
+<script type="text/javascript">
+$(function(){
+$.get('/Campaigns/nothinglikeaustralia/fr/quiksilver/surfmap/XML/surf-map-fr.xml',function(data){
+$xml=$(data);
+$xml.find('icons tagnode').each(function(){
+var name=$(this).find('name').text();
+var title=$(this).find('title').text();
+var content=$(this).find('info').text();
+var url=$(this).find('url').text();
+var img=$(this).find('img').text();
+var x=$(this).find('co-ordinates').attr('x');
+var y=$(this).find('co-ordinates').attr('y');
+var icon='icon'+$(this).find('co-ordinates').attr('icon');
+var right=$(this).find('co-ordinates').attr('direction')=='right'?' right':'';
+var $location=$('<div class="location'+right+'">'+name+'</div>');
+$location.append('<div class="'+icon+'"></div>');
+$location.css({top:y+'px',left:x+'px'});
+$location.append('<div class="data"></div>');
+$location.find('.data').append('<div class="title">'+title+'</div>');
+$location.find('.data').append('<div class="content">'+content+'</div>');
+$location.find('.data').append('<div class="url">'+url+'</div>');
+$location.find('.data').append('<div class="img"><img src="/Campaigns/nothinglikeaustralia/fr/quiksilver/surfmap'+img+'" alt="" /></div>');
+$('.locations').append($location);
+})
+if (window.PIE) {
+$('.location,.city,.state,.buttons a').each(function() {
+//PIE.attach(this);
+});
+}
+},'xml');
+$('.locations .location').live('mouseenter',function(){
+$('#module').find('.title,.content,.img').remove()
+$('#module').show().prepend($(this).find('.img').clone()).prepend($(this).find('.content').clone()).prepend($(this).find('.title').clone());
+});
+$('.locations .location').live('click',function(){
+var url=$(this).find('.url').html();
+window.location = url;
+return false;
+})
+$('.locations').show();
+})
+</script>
+<!-- Map END --></con_Banner>
+    <con_Body><TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Les meilleurs spots de surf en Australie]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        Surfer en Australie est ouvert &agrave; tous, alors bienvenue dans cet univers magique ! Les vagues sont superbes et selon les<br />
+        &laquo; spots &raquo; le surf se pratique &agrave; tous les niveaux : d&eacute;butants, confirm&eacute;s ou professionnels. Longues ou larges, douces ou puissantes, moyennes ou &eacute;normes...les vagues australiennes t’offrent l’embarras du choix. D’autant plus que l’Australie compte 37 000 km de c&ocirc;tes avec au total 10 685 plages. Alors comment ne pas trouver son bonheur ? Et si tu es d&eacute;butant n’h&eacute;site pas &agrave; t’inscrire dans une &eacute;cole de surf, l’Australie en compte une bonne centaine !
+        <br />
+        <br />
+        <p><span style="font-size: 14px;">Les surfeurs de Quiksilver nous racontent leurs experiences en Australie et leurs bons plans !</span></p>
+        <br />
+        <table width="100%">
+            <tbody>
+                <tr>
+                    <td valign="top" style="padding-top: 5px; padding-right: 10px; padding-bottom: 35px;">
+                    <p><img alt="" src="/contentimages/Campaigns/campaigns-fr-quiksilver-page03-hl01.jpg" /></p>
+                    <p style="text-align: left;"><span style="color: rgb(105, 105, 105); font-size: 10px;">Cr&eacute;dit photo : Lopez/Quiksilver</span></p>
+                    </td>
+                    <td valign="top" style="padding-bottom: 35px;">
+                    <p><span style="font-size: 13px;"><strong>J&eacute;r&eacute;my Flor&egrave;s</strong></span></p>
+                    <p><strong>Ses coups de cœur australiens !<br />
+                    </strong>V&eacute;ritable australien de cœur pour y avoir v&eacute;cu et d&eacute;velopp&eacute; son surf, il d&eacute;finit volontiers l’Australie comme une destination ancr&eacute;e dans la culture du sport. Ce passionn&eacute; de surf a ses adresses secr&egrave;tes en Australie mais &agrave; ses yeux, l’un des meilleurs spots de surf est la plage de Kirra. Les eaux turquoise de cette plage de la Gold Coast (Queensland) offrent de superbes vagues glassy et une ambiance trendy ! Sorti de l’eau, il aime aussi le Rugby. Il se d&eacute;crit volontiers comme un voyageur tr&egrave;s ouvert, pr&ecirc;t &agrave; foncer vers de nouvelles aventures !</p>
+                    <p><strong>Son parcours<br />
+                    </strong>J&eacute;r&eacute;my Flor&egrave;s, 24 ans, est le meilleur europ&eacute;en du classement ASP 2012 (les 34 meilleurs surfeurs mondiaux). Il cumule les records : Champion d’Europe Junior en 2005, Champion du Monde WQS en 2006, plus jeune surfeur &agrave; int&eacute;grer l’ASP World Tour en 2007 et rookie of the year la m&ecirc;me ann&eacute;e. Champion du Monde ISA en 2009, vainqueur du Pipe Masters &agrave; Hawaii en 2010, recordman europ&eacute;en de saisons dans l’&eacute;lite (7 dont 4 dans le top 10 ASP). Il est aussi un ambassadeur de Quiksilver Initiative et le parrain de la fondation Reef Check.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top" style="padding-top: 5px; padding-right: 10px; padding-bottom: 35px;">
+                    <p><img alt="" src="/contentimages/Campaigns/campaigns-fr-quiksilver-page03-hl02.jpg" /></p>
+                    <p style="text-align: left;"><span style="color: rgb(105, 105, 105); font-size: 10px;">Cr&eacute;dit photo : Testemale/Quiksilver</span></p>
+                    </td>
+                    <td valign="top" style="padding-bottom: 35px;">
+                    <p><span style="font-size: 13px;"><strong>Marc Lacomare</strong></span></p>
+                    <p><strong>Ses coups de cœur australiens !<br />
+                    </strong>Ce qui symbolise le mieux l’Australie pour lui est le Kangourou, si embl&eacute;matique ! Ses meilleurs spots de surf sont sans conteste les plages de la c&ocirc;te Est. A c&ocirc;t&eacute; du surf, son p&ecirc;ch&eacute; mignon est les sushis, notamment au Sushi Train &agrave; Sydney ! C&ocirc;t&eacute; voyages, il est plut&ocirc;t &laquo; roots &raquo; et camping, une exp&eacute;rience qu’il affectionne pour rencontrer d’autres jeunes voyageurs.</p>
+                    <p><strong>Son parcours</strong><br />
+                    A 23 ans, Marc poss&egrave;de un solide palmar&egrave;s : Champion d’Europe Juniors en 2009, Champion d’Europe Open en 2010, vainqueur de l’&eacute;preuve des Championnats du Monde Juniors &agrave; Narrabeen en 2011. Pour la 3&egrave;me saison, il &eacute;volue sur le WQS o&ugrave; il compte une victoire &agrave; Newquay (5 stars) et de nombreux top 10.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top" style="padding-top: 5px; padding-right: 10px; padding-bottom: 35px;">
+                    <p><img alt="" src="/contentimages/Campaigns/campaigns-fr-quiksilver-page03-hl03.jpg" /></p>
+                    <p style="text-align: left;"><span style="color: rgb(105, 105, 105); font-size: 10px;">Cr&eacute;dit photo : Testemale/Quiksilver</span></p>
+                    </td>
+                    <td valign="top" style="padding-bottom: 35px;">
+                    <p><span style="font-size: 13px;"><strong>Ramzi Boukhiam</strong></span></p>
+                    <p><strong>Ses coups de cœur australiens !<br />
+                    </strong>In&eacute;luctablement, c’est l’esprit surf, le littoral, les kangourous et les f&ecirc;tes qui symbolisent le mieux l’Australie! Il surfe la vague de pr&eacute;f&eacute;rence en Australie de l’Ouest, qui offre des conditions optimales de surf : vagues plus techniques, c&ocirc;tes sauvages et moins de monde dans l’eau ! Ses passions en dehors du surf sont le golf, les voyages et faire de nouvelles rencontres. Les comp&eacute;titions lui permettent de voyager…un objectif en soi !</p>
+                    <p><strong>Son parcours<br />
+                    </strong>A 19 ans, Ramzi est un surfeur talentueux avec un palmar&egrave;s impressionnant ! Champion d’Europe Junior ASP en 2012, Ramzi a d&eacute;j&agrave; remport&eacute; des &eacute;preuves WQS – 6 stars &agrave; Zarautz – et s’est &eacute;galement illustr&eacute; au Quiksilver Pro France. Il est actuellement le meilleur surfeur junior europ&eacute;en.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top" style="padding-top: 5px; padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/Campaigns/campaigns-fr-quiksilver-page03-hl04.jpg" /></p>
+                    <p style="text-align: left;"><span style="color: rgb(105, 105, 105); font-size: 10px;">Cr&eacute;dit photo : Cazenave/Quiksilver</span></p>
+                    </td>
+                    <td valign="top">
+                    <p><strong><span style="font-size: 13px;">Maxime Huscenot</span></strong></p>
+                    <p><strong>Ses coups de cœur australiens !<br />
+                    </strong>Le surf, le soleil, les australiens, les endroits de r&ecirc;ve et le fun sont &agrave; ses yeux les embl&egrave;mes de la destination ! Il livre ses secrets sur ses spots de surf pr&eacute;f&eacute;r&eacute;s en Australie : North Point et The Box en Australie de l’Ouest, dans la r&eacute;gion de Margaret River, sans oublier le spot de Forster sur la c&ocirc;te Est australienne. A c&ocirc;t&eacute; du surf, il aime la diversit&eacute; de l’Australie, la nature, l’ambiance et les barbecues pos&eacute;s sur les plages o&ugrave; l’on peut profiter d’un coucher de soleil et des bons moments entre amis ou avec la famille ! Son mode de voyage pr&eacute;f&eacute;r&eacute;? Le camping car ! C’est super sympa et cela permet de voir plein de choses. Il aime d&eacute;couvrir de nouveaux endroits et de nouvelles ambiances.</p>
+                    <p><strong>Son parcours<br />
+                    </strong>Maxime Huscenot est un surfeur de grand talent. Pr&eacute;coce aussi ! A 16 ans, il devient le plus jeune surfeur &agrave; remporter le titre de Champion d’Europe ASP (moins de 21 ans). En 2008, il s’impose au Quiksilver King of the Groms. En 2010, Maxime a &eacute;t&eacute; sacr&eacute; Champion du Monde Junior ASP, une premi&egrave;re pour un surfeur fran&ccedil;ais !</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <br />
+        <br />
+        <br />
+        <p> </p>
+        <p>Pour t&eacute;l&eacute;charger votre carte de l'Australie avec les bons plans des surfeurs de Quiksilver : <a href="/docs/campaigns-fr-quiksilver-map.pdf" target="_blank">cliquez ici</a></p>
+        <p>&nbsp;</p>
+    ]]></txt_Information>
+            
+        </TopCategoryHighlights></con_Body>
+    <con_RHSModules><AtaGlance isTemplate="1">
+<hdl_Title><![CDATA[Le surf en Australie]]></hdl_Title>
+<img_Map><![CDATA[]]></img_Map>
+<stf_Title1><![CDATA[]]></stf_Title1>
+<stf_Title2><![CDATA[]]></stf_Title2>
+<stf_Title3><![CDATA[]]></stf_Title3>
+<stf_Title4><![CDATA[]]></stf_Title4>
+<stf_Title5><![CDATA[]]></stf_Title5>
+<txt_Description1><![CDATA[<iframe height="125" src="http://www.australia.com/campaigns/nothinglikeaustralia/fr/quiksilver/video.html" frameborder="0" width="222" scrolling="no"></iframe>
+        <br />
+        <br />]]></txt_Description1>
+<txt_Description2><![CDATA[]]></txt_Description2>
+<txt_Description3><![CDATA[]]></txt_Description3>
+<txt_Description4><![CDATA[]]></txt_Description4>
+<txt_Description5><![CDATA[]]></txt_Description5>
+</AtaGlance><AtaGlance isTemplate="1">
+<hdl_Title><![CDATA[Sommaire]]></hdl_Title>
+<img_Map><![CDATA[]]></img_Map>
+<stf_Title1><![CDATA[]]></stf_Title1>
+<stf_Title2><![CDATA[]]></stf_Title2>
+<stf_Title3><![CDATA[]]></stf_Title3>
+<stf_Title4><![CDATA[]]></stf_Title4>
+<stf_Title5><![CDATA[]]></stf_Title5>
+<txt_Description1><![CDATA[
+        <table>
+            <tbody>
+                <tr>
+                    <td valign="top" style="padding-top: 4px; padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td valign="top">
+                    <p><a href="/fr/quiksilver-fr.xml" target="_self">Accueil</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top" style="padding-top: 4px; padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td valign="top">
+                    <p><a href="/fr/quiksilver-surf-spots-fr.xml" target="_self">Surfer en Australie</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top" style="padding-top: 4px; padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td valign="top">
+                    <p><a href="/fr/quiksilver-road-trips.xml" target="_self">Les itin&eacute;raires incontournables</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top" style="padding-top: 4px; padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td valign="top">
+                    <p><a href="/fr/promotions/visavacancestravail.xml" target="_blank">Le Visa Vacances Travail</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top" style="padding-top: 4px; padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td valign="top">
+                    <p><a href="/fr/quicksilver-top-youth-experiences-fr.xml" target="_self">Top des exp&eacute;riences pour les jeunes</a></p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <br />
+    ]]></txt_Description1>
+<txt_Description2><![CDATA[]]></txt_Description2>
+<txt_Description3><![CDATA[]]></txt_Description3>
+<txt_Description4><![CDATA[]]></txt_Description4>
+<txt_Description5><![CDATA[]]></txt_Description5>
+</AtaGlance><AtaGlance isTemplate="1">
+<hdl_Title><![CDATA[Brochure &quot;Ton aventure australienne&quot;]]></hdl_Title>
+<img_Map><![CDATA[]]></img_Map>
+<stf_Title1><![CDATA[]]></stf_Title1>
+<stf_Title2><![CDATA[]]></stf_Title2>
+<stf_Title3><![CDATA[]]></stf_Title3>
+<stf_Title4><![CDATA[]]></stf_Title4>
+<stf_Title5><![CDATA[]]></stf_Title5>
+<txt_Description1><![CDATA[
+        <a href="/docs/FR-Youth-Booklet2.pdf" target="_blank"><img alt="" style="padding-top: 5px; padding-right: 10px; padding-bottom: 20px; float: left;" src="/contentimages/FR-Youth-Booklet.jpg" /></a>T&eacute;l&eacute;chargez votre brochure “Ton aventure australienne” en format PDF.
+        <p><img alt="" src="/contentimages/arrow-green.png" />    <a href="/docs/FR-Youth-Booklet2.pdf" target="_blank">Cliquez ici</a></p>
+    ]]></txt_Description1>
+<txt_Description2><![CDATA[]]></txt_Description2>
+<txt_Description3><![CDATA[]]></txt_Description3>
+<txt_Description4><![CDATA[]]></txt_Description4>
+<txt_Description5><![CDATA[]]></txt_Description5>
+</AtaGlance><AtaGlance isTemplate="1">
+<hdl_Title><![CDATA[L’Australie sur Facebook]]></hdl_Title>
+<img_Map><![CDATA[]]></img_Map>
+<stf_Title1><![CDATA[]]></stf_Title1>
+<stf_Title2><![CDATA[]]></stf_Title2>
+<stf_Title3><![CDATA[]]></stf_Title3>
+<stf_Title4><![CDATA[]]></stf_Title4>
+<stf_Title5><![CDATA[]]></stf_Title5>
+<txt_Description1><![CDATA[<a href="http://www.australia.com/redirect.aspx?dest=www.facebook.com/AustralieVisaVacancesTravail&ta_partnerid=fr:facebook&ta_pageid=fr:c:whv" onclick="ntptEventTag('ev=SNSLead&amp;snsid=facebook');" target="_blank"><img alt="" style="float: left; padding-bottom: 20px; padding-top: 5px; padding-right: 10px;" src="/contentimages/facebook-thumb.png" /></a>Retrouvez la page Australie Visa Vacances Travail sur Facebook :
+        <p><img alt="" src="/contentimages/arrow-green.png" />    <a href="http://www.australia.com/redirect.aspx?dest=www.facebook.com/AustralieVisaVacancesTravail&ta_partnerid=fr:facebook&ta_pageid=fr:c:whv" onclick="ntptEventTag('ev=SNSLead&amp;snsid=facebook');" target="_blank">Cliquez ici</a></p>]]></txt_Description1>
+<txt_Description2><![CDATA[]]></txt_Description2>
+<txt_Description3><![CDATA[]]></txt_Description3>
+<txt_Description4><![CDATA[]]></txt_Description4>
+<txt_Description5><![CDATA[]]></txt_Description5>
+</AtaGlance><AtaGlance isTemplate="1">
+<hdl_Title><![CDATA[L’Australie sur Twitter]]></hdl_Title>
+<img_Map><![CDATA[]]></img_Map>
+<stf_Title1><![CDATA[]]></stf_Title1>
+<stf_Title2><![CDATA[]]></stf_Title2>
+<stf_Title3><![CDATA[]]></stf_Title3>
+<stf_Title4><![CDATA[]]></stf_Title4>
+<stf_Title5><![CDATA[]]></stf_Title5>
+<txt_Description1><![CDATA[<a href="http://www.twitter.com/Australie_fr" onclick="ntptEventTag('ev=SNSLead&amp;snsid=twitter');" target="_blank"><img alt="" style="float: left; padding-bottom: 10px; padding-top: 5px; padding-right: 10px;" src="/contentimages/twitter-thumb.png" /></a> Retrouvez les bons plans sur Twitter pour une exp&eacute;rience australienne r&eacute;ussie :
+        <p><img alt="" src="/contentimages/arrow-green.png" />    <a href="http://www.twitter.com/Australie_fr" onclick="ntptEventTag('ev=SNSLead&amp;snsid=twitter');" target="_blank">Cliquez ici</a></p>]]></txt_Description1>
+<txt_Description2><![CDATA[]]></txt_Description2>
+<txt_Description3><![CDATA[]]></txt_Description3>
+<txt_Description4><![CDATA[]]></txt_Description4>
+<txt_Description5><![CDATA[]]></txt_Description5>
+</AtaGlance></con_RHSModules>
+    <con_Category></con_Category>
+    <lst_Subpages>
+    </lst_Subpages>
+</StandardCampaignLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

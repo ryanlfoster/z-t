@@ -28,11 +28,15 @@ $type-categorylinks-colour: $category-colour-islands;
             display: block;
             text-align: center;
             text-decoration: none;
-            margin: 0 30px;
+            margin:0;
+            @include breakpoint(sm) {
+              margin: 0 30px;
+            }
         }
 
         img {
             margin: 15px 0;
+            max-width: 100%;
         }
 
         span {

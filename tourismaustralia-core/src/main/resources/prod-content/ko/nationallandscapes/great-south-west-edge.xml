@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="22235" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[홈]]></headline>
+            <href><![CDATA[/ko/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Tools and Campaigns]]></headline>
+            <href><![CDATA[/ko/tools-campaigns.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[호주 관광 명소(내셔널 랜드스케이프)]]></headline>
+            <href><![CDATA[/ko/nationallandscapes.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[그레이트 사우스 웨스트 에지]]></headline>
+            <href><![CDATA[/ko/nationallandscapes/great-south-west-edge.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/Campaigns/national-landscapes-great-south-west-edge.jpg]]></img_background>
+    <hdl_Title><![CDATA[그레이트 사우스 웨스트 에지]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/national-landscapes-great-south-west-edge-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/Campaigns/national-landscapes-great-south-west-edge-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[yes]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[생물학적 다양성을 간직하고 서호주의 먼 남서 해안까지 뻗어 있는 멋진 그레이트 사우스 웨스트 에지에서 여유를 만끽해보세요.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[그레이트 사우스 웨스트 에지, 버셀턴, 버셀턴 부두, 케이프 애리드 국립공원, HMAS 스완호, 던스보로, 마가렛 리버, 마가렛 리버 와인 양조장, 알바니, 에스페란스, 케이프 르 그랜드 국립공원, 러쉐어쉐이 군도, 당트르카스토 국립공원, 윌리엄 베이 국립공원, 웨스트 케이프 하우 국립공원, 톤더럽 국립공원, 팸버튼, 월폴, 버셀턴, 월폴 인렛, 노날럽 인렛, 람사르 습지, 포롱구럽 국립공원, 스터링 레인지 국립공원, 피츠제럴드 리버 국립공원]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[상세 정보]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[호주 내셔널 랜드스케이프: 호주 그레이트 사우스 웨스트 에지 - 호주정부관광청]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        생물학적 다양성을 간직하고 서호주의 먼 남서 해안까지 뻗어 있는 멋진 그레이트 사우스 웨스트 에지에서 여유를 만끽해보세요.
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <StandardCampaignLayout isTemplate="1">
+    <opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+    <hdl_Title><![CDATA[]]></hdl_Title>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+    <con_Banner><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<DIV id=headerimage>
+<SCRIPT type=text/javascript src="../../static/js/jquery.cycle.all.latest.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+jQuery(document).ready(function() {
+jQuery('#headersliderwrapper').cycle({
+        fx:'fade',
+        slideExpr: '.headerslide'
+    });
+});
+</SCRIPT>
+
+<DIV id=headersliderwrapper>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-gsw-01.jpg"> 
+<DIV class=headerslideinfo>내처럴리스트 국립 공원 서호주</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-gsw-02.jpg"> 
+<DIV class=headerslideinfo>에스페란스, 서호주</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-gsw-03.jpg"> 
+<DIV class=headerslideinfo>야생화</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-gsw-04.jpg"> 
+<DIV class=headerslideinfo>갭 톤디럽 국립 공원, 서호주</DIV></DIV></DIV></DIV>
+<DIV id=subpage-header-overlay></DIV>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule></con_Banner>
+    <con_Body><TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[그레이트 사우스 웨스트 에지]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        버셀턴에서 케이프 애리드 국립공원까지 이어진 서호주 남단에 감춰진 그레이트 사우스 웨스트 에지에서 다양한 생태계의 놀라운 모습을 보며 여유를 만끽하세요. 이곳 자연은 수백 만년 전 아름다움을 그대로 간직한 채, 백사장과 야생화, 습지, 울창한 숲과 석회암 동굴, 하나의 강에서 뻗어 두 개의 바다가 나오는 멋진 모습까지 감상할 수 있습니다. 겨울에 비가 많고 여름엔 건조한 지중해성 기후로, 다양한 식물군과 동물군은 물론, 대륙과 바다의 멋진 경관이 눈을 사로잡는 그레이트 사우스 웨스트는 최고의 아름다운 자연경관을 선사합니다. 자연 그대로의 해안선에서 서핑도 하고 낚시도 하며, 고래를 보거나 멋진 국립공원에서 산책을 즐길 수 있답니다. 세계 최고의 와인 양조장을 방문하고 자연이 이룩한 고대의 경이로움도 관찰 해 보고 이 지역의 풍부한 원주민 역사도 배워보세요.
+        <p><strong>그레이트 사우스 웨스트 에지의 다섯 가지 보물</strong></p>
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[1. 자연 그대로의 해안선]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-great-south-west-edge-hl01.jpg" alt="A pristine coastline, WA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[A pristine coastline, WA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        유서 깊은 버셀턴 부두에서 스노클링으로 화려한 해양생물을 관찰하거나 던스보로의 HMAS 퍼스 다이브 렉이나 HMAS 스완호에서 다이빙을 즐기거나 마가렛 리버에서 세계가 자랑하는 파도에 몸을 맡겨 서핑을 하거나 알바니의 커다란 자연 항만에서 고래가 이동하는 모습을 감상하세요. 그곳에서 도시에 남겨진 흥미로운 죄수들의 역사에 매료될 수도 있지요. 아름답게 잘 보존된 고래 세계 박물관에서 고래의 역사에 대해서도 배워보세요. 알바니는 호주 뉴질랜드 연합군(ANZAC)이 갈리폴리 전투에 참전하기 전에 마지막으로 호주 땅을 밟았던 바로 그곳입니다. 해안선을 따라 쭉 가면 에스페란스가 나오는데, 모래 위에 터를 잡고 호주의 가장 하얀 백사장, 럭키 베이를 보금자리 삼은 캥거루도 만날 수 있습니다. 에스페란스 해변에서 조금 더 가면 러쉐어쉐이 군도의 백 개가 넘는 섬도 보이지요. 대부분의 해안선과는 반대로 당트르카스토, 윌리엄 베이, 웨스트 케이프 하우, 톤더럽 국립공원은 바위가 많고 험준한 장관을 연출합니다.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[2. 울창한 숲과 야생, 그리고 야생화]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-great-south-west-edge-hl02.jpg" alt="Tall trees, WA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Tall trees, WA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        울창한 나무들이 덴마크에서 바다와 만나는 곳에 가면 월폴-노날럽 국립공원의 자이언트 트리톱 워크를 시작으로 남쪽의 멋진 숲이 이룬 장관에 시선을 뗄 수 없습니다. 이 공원은 강과 바다가 만나는 어귀와 작은 만, 그리고 아홉 개의 람사르 습지가 이룬 풍경이 유명합니다. 버셀턴 근처 투어트 숲 국립공원에는 세계에서 마지막으로 남은 투어트 나무가 숨겨져 있답니다. 자연 애호가들은 팸버튼 근처에서 거대란 자라 숲과 카리 숲, 그리고 육백 살이나 먹은 킹 자라 나무와 백 년이나된 처녀림을 만나러 떠나지요. 스릴을 찾는 사람들이라면 세계에서 유일하게 나무로만 만든 이곳의 다이아몬드 나무 전망대를 꼭 들러보세요. 100,000km가 넘는 이곳의 국립공원은 9월과 11월 사이에 화려한 야생화가 장관을 이룹니다. 포롱구럽 국립공원, 스터링 레인지 국립공원, 피츠제럴드 국립공원에서 독특한 식물 군락과 조류 생태계도 가까이 관찰해보세요. 이곳엔 유네스코 생물권 보존지역에서 지정한 1,800종의 꽃들을 만날 수 있답니다. 조류 애호가라면, 멸종 위기에 처한 여러 종을 비롯해, 160종이 넘는 새들의 보존 지구로 손꼽히는 케이프 애리드 국립공원을 놓치지 마세요.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[3. 도보와 자전거 여행에 곁들여진 멋진 장관]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-great-south-west-edge-hl03.jpg" alt="Spectacular trails , WA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Spectacular trails , WA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        비불먼 트랙을 하이킹하며 그레이트 사우스 웨스트 에지의 다양한 경관을 감상해 보세요. 비불먼 트랙은 퍼스 힐즈에서 알바니까지 1,000km나 뻗은 세계에서 가장 긴 워킹 트레일이랍니다. 모든 여정을 마치려면 8주 정도 걸리지만, 모든 하이커들이 즐길 수 있도록 낮에 하는 행보를 더 줄이고 숙박일을 더 늘리면서 일정을 조정할 수도 있습니다. 산책길을 따라가면 자라, 마라, 완두, 카리, 팅글 숲을 지나 해안가 페퍼민트와 히스 황야를 만날 수 있지요. 산악 자전거 애호가라면, 문다비디 트레일에서 마찬가지로 멋진 경치를 감상할 수 있습니다. 퍼스와 난업 사이의 500km 길을 빠져나오면 바로 알바니에 다다를 수 있답니다. 상쾌한 해안 여행을 즐기려면 케이프 르윈과 케이프 내추럴리스트 사이의 케이프 트랙 하이킹에 참가해서 서호주의 가장 높은 등대도 올라가보고 멋진 전망도 감상해 보세요. 사륜구동으로 이동하고 싶다면, 케이프 애리드 국립공원에서 셀프 가이드 도보 투어에 참가해 자연 그대로의 모습을 간직한 한적한 만과 시선을 뗄 수 없을 만큼 아름다운 해안 경치를 감상하세요.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[4. 태고적 자연경관과 고대 문화]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-great-south-west-edge-hl04.jpg" alt="Ancient landscapes, WA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Ancient landscapes, WA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        톤더럽 국립공원에는 거친 남쪽 바다가 수백 년의 세월을 깎아놓은 내추럴 브릿지와 갭이 있습니다. 갭에서는 세계적으로 가장 오래 전에 형성된 바위가 있답니다. 화강암으로 이루어진 고대 포롱구럽 레인지를 하이킹하고 8,000전에 만들어진 당트르카스토 국립공원에서 계속 움직이는 모래 언덕도 관찰해보세요. 르윈-내추럴리스트 국립공원의 석회암 동굴을 둘러보거나 조금 더 남쪽으로 가면 메머드와 원주민이 함께 살았을지도 모르는 맘모스 동굴이 나옵니다. 이곳의 풍부하고 현존하는 원주민 역사를 배우고 싶다면 던스보로, 얄링업, 에스페란스, 케이프 르 그랜드, 케이프 애리드 국립공원에서 문화 투어에 참가해보세요.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[5. 마가렛 리버(Margaret River) 지역의 음식과 와인]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-great-south-west-edge-hl05.jpg" alt="Margaret River, WA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Margaret River, WA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        세계적으로 인정 받은 마가렛 리버 와인 지대에서 식도락 여행을 즐겨보세요. 이곳엔 울창한 나무와 멋진 서핑 해변으로 둘러싸인 포도원이 있답니다. 식도락 투어에 참가하거나 100개가 넘는 셀러 도어와 와인 양조장 중 몇 곳을 골라 드라이브 코스를 정해보세요. 수상 경력이 빛나는 레스토랑에서 최고급 카베르네나 소비뇽 블랑을 한 잔 맛볼 수도 있고, 양조장에서 현지 와인을 시음해볼 수도 있어요. 이곳은 최상급 치즈와 송로버섯, 초콜릿, 올리브는 물론, 사슴 고기와 쇠고기, 민물 가재로도 유명하답니다. 부티크 맥주 양조장을 방문해 카리 나무 아래서 피크닉도 즐기고 생동감 넘치는 아트 갤러리와 공예품 갤러리도 방문하세요.
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights></con_Body>
+    <con_RHSModules><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<TABLE cellSpacing=0 cellPadding=0 width=298 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top align=center>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD style="WIDTH: 25px">&nbsp;</TD>
+<TD><!-- #BeginLibraryItem "/Library/sitenav.lbi" -->
+<SCRIPT language=JavaScript1.2 type=text/javascript src="../../static/js/stmenu.js"></SCRIPT>
+<!-- #EndLibraryItem --></TD></TR></TBODY></TABLE><!-- Google Map Start -->
+<SCRIPT type=text/javascript>
+function fireEvent(obj,evt){
+var fireOnThis = obj;
+if( document.createEvent ) {
+var evObj = document.createEvent('MouseEvents');
+evObj.initEvent( evt, true, false );
+fireOnThis.dispatchEvent(evObj);
+} else if( document.createEventObject ) {
+fireOnThis.fireEvent('on'+evt);
+}
+}
+function clickLink(linkobj) {
+if (linkobj.getAttribute('onclick') == null) {
+if (linkobj.getAttribute('href')) document.location = linkobj.getAttribute('href');
+}
+else linkobj.onclick();
+}
+function loadjscssfile(filename, filetype){
+if (filetype=="js"){ //if filename is a external JavaScript file
+var fileref=document.createElement('script')
+fileref.setAttribute("type","text/javascript")
+fileref.setAttribute("src", filename)
+}
+else if (filetype=="css"){ //if filename is an external CSS file
+var fileref=document.createElement("link")
+fileref.setAttribute("rel", "stylesheet")
+fileref.setAttribute("type", "text/css")
+fileref.setAttribute("href", filename)
+fileref.setAttribute("media", "print")
+}
+if (typeof fileref!="undefined")
+document.getElementsByTagName("head")[0].appendChild(fileref)
+}
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+var icheckk=0;
+jQuery.each(jQuery.browser, function(i, val) {
+if(i=="msie" && jQuery.browser.version.substr(0,3)=="7.0")
+icheckk=1;
+});
+function myfun()
+{
+loadjscssfile("../../static/css/thickbox.css", "css");
+if(icheckk==1)
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='../../static/maps/ko/greatsouthwestedge/bigmap.html'  target='_blank'>&nbsp;인쇄|닫습니다|&nbsp;또는 Esc 키를 누르십시오</a></b>","../../static/maps/ko/greatsouthwestedge/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+else
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='javascript:window.print()' >&nbsp;인쇄|닫습니다|&nbsp;또는 Esc 키를 누르십시오</a></b>","../../static/maps/ko/greatsouthwestedge/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+}
+         </SCRIPT>
+<IFRAME style="MARGIN-BOTTOM: 20px; BORDER-TOP: black 1px solid; HEIGHT: 355px; BORDER-RIGHT: black 1px solid; BORDER-BOTTOM: black 1px solid; FLOAT: left; PADDING-BOTTOM: 5px; BORDER-LEFT: black 1px solid; BACKGROUND-COLOR: #333333" height=380 src="../../static/maps/ko/greatsouthwestedge/index.html" frameBorder=0 width=249 name=FRAMENAME scrolling=no></IFRAME><!-- Google Map end -->
+<DIV class=subpage-video-thumb style="TEXT-ALIGN: left"><A onclick="moduleTrackingWithTitle('lightbox-video','',false,'nationallandscapes-greatsouthwestedgeko');" href="#" data-reveal-id="modalVideo"><IMG alt="" src="/contentimages/Campaigns/national-landscapes-video-ko.jpg"></A></DIV>
+<DIV id=modalVideo class="reveal-modal video" style-="z-index: 103;"><A class=close-reveal-modal><SPAN class=icon></SPAN></A>
+<DIV class=video style="VISIBILITY: visible !important"><IFRAME height=315 src="//www.youtube.com/v/EjGZ3MaX9pE?version=3&amp;hl=en_GB" frameBorder=0 width=560></IFRAME></DIV></DIV></TD></TR></TBODY></TABLE>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule><Listing isTemplate="1">
+<anc_List1><![CDATA[/ko/explore/states/wa.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[기타 호주다운 생각들]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/ko/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/ko/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/ko/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/ko/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/ko/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/ko/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/ko/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/ko/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/ko/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/ko/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/ko/Transport.aspx]]></anc_Transport>
+<hdl_Title><![CDATA[호주 그레이트 사우스 웨스트 에지 여행을 계획하세요]]></hdl_Title>
+<language><![CDATA[KOR]]></language>
+<stf_Accomodation><![CDATA[Accommodation]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[Attractions]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[Find a Travel Agent near you]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[Destination Information]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[Events]]></stf_Events>
+<stf_Hire><![CDATA[Hire ]]></stf_Hire>
+<stf_Informationservices><![CDATA[Information Services]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[Western Australia]]></stf_StateFilter>
+<stf_Tours><![CDATA[Tours]]></stf_Tours>
+<stf_Transport><![CDATA[Transport]]></stf_Transport>
+</PlanYourVisit></con_RHSModules>
+    <con_Category></con_Category>
+    <lst_Subpages>
+    </lst_Subpages>
+</StandardCampaignLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

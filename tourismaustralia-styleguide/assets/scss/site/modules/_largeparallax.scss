@@ -1,0 +1,134 @@
+/*
+##
+##	Module: Large Parallax
+##	Description: Large parallax is a full width image module with multuple states of view. They consist of
+##	a full width image, with label (text underneath), overlay (text overlay), small images (4 small images below)
+##	and a mix of all those listed.
+##	
+##	It was made to be easy to implement and require minimal editing to extend and add new sections.
+*/
+
+/* Used by the parallax jQuery plugin */
+.parallaxHolder {
+	z-index: 2;
+}
+
+/* Main module definition */
+.largeparallax {
+    position: relative;
+}
+
+/* Different states for module */
+.parallaximage_fullwidth--images { }
+.parallaximage_fullwidth--text { }
+.parallaximage_fullwidth--label { }
+.parallaximage_fullwidth--social { 
+	.largeparallax {
+		padding-bottom: pxtoem(25px);
+	}
+
+}
+
+/* Styling for text overlay on main image */
+.largeparallax-text {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 2;
+
+	.largeparallax-text-container {
+		display: table;
+		height: inherit;
+		width: inherit;
+		margin-top: pxtoem(-15px);
+	}
+
+	.inside {
+		display: table-cell;
+		vertical-align: middle;
+		text-align: center;
+	}
+
+	h3 {
+		color: #fff;
+		font-size: pxtoem(40px);
+		
+		@include breakpoint(sm) {
+			font-size: pxtoem(50px);
+		}
+		@include breakpoint(md) {
+			font-size: pxtoem(60px);
+		}
+		@include breakpoint(lg) {
+			font-size: pxtoem(80px);
+		}
+	}
+}
+
+/* Styling for label below main image */
+.largeparallax-label {
+
+}
+
+/* Styling for small images below main image */
+.largeparallax-images {
+	margin-top: pxtoem(-70px);
+	position: relative;
+	z-index: 2;
+
+	/* Strange styling to fix ipad % width rounding on elements */
+	width: 103%;
+
+	@include clearfix();
+
+	@include breakpoint(sm) {
+		margin-top: pxtoem(-100px);
+	}
+
+	@include breakpoint(lg) {
+		margin-top: pxtoem(-180px);
+	}
+
+	img {
+		width: 100%;
+		height: auto;
+	}
+
+	& >.column {
+		float: left;
+	}
+
+	& > .col-first {
+		width: 23%;
+		padding-top: 2.5%;
+	}
+
+	& > .col-second {
+		width: 32%;
+	}
+
+	& > .col-third {
+		width: 13%;
+		padding-top: 2.5%;
+	}
+
+	& > .col-fourth {
+		width: 32%;
+	}
+
+}
+
+.img-src {
+	display: none;
+}
+
+.legacy-img {
+	max-height: 600px;
+	overflow: hidden;
+
+	& > img {
+		width: 100%;
+	}
+}

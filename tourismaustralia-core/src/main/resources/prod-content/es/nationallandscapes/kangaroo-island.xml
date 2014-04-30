@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="22247" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Inicio]]></headline>
+            <href><![CDATA[/es-la/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Tools and Campaigns]]></headline>
+            <href><![CDATA[/es-la/tools-campaigns.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Paisagens Nacionais da Austrália]]></headline>
+            <href><![CDATA[/es-la/nationallandscapes.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[Isla Canguro]]></headline>
+            <href><![CDATA[/es-la/nationallandscapes/kangaroo-island.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/Campaigns/national-landscapes-kangaroo-island.jpg]]></img_background>
+    <hdl_Title><![CDATA[Isla Canguro]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/national-landscapes-kangaroo-island-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/Campaigns/national-landscapes-kangaroo-island-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[yes]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[Contemple a los animales aut&oacute;ctonos en el cristalino enclave natural de Isla Canguro, a la que se puede acceder desde Adelaida.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[Isla Canguro, isla canguro Adelaida, isla canguro Australia, isla canguro Australia Meridional, vacaciones en isla canguro, kingscote, isla australiana, penneshaw, remarkable rocks, bah&iacute;a vivonne, cabo jervis, Parque Nacional de Flinders Chase]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Mayor informaci&oacute;n]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Paisajes Nacionales de Australia: Isla Canguro - Turismo Australia]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        Contemple a los animales aut&oacute;ctonos en el cristalino enclave natural de Isla Canguro, a la que se puede acceder desde Adelaida. Observe c&oacute;mo los leones marinos juegan en la arena de la Bah&iacute;a de Seal y los ping&uuml;inos pasean de esa manera tan peculiar hacia la costa de Penneshaw.
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <StandardCampaignLayout isTemplate="1">
+    <opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+    <hdl_Title><![CDATA[]]></hdl_Title>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+    <con_Banner><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<DIV id=headerimage>
+<SCRIPT type=text/javascript src="../../static/js/jquery.cycle.all.latest.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+jQuery(document).ready(function() {
+jQuery('#headersliderwrapper').cycle({
+        fx:'fade',
+        slideExpr: '.headerslide'
+    });
+});
+</SCRIPT>
+
+<DIV id=headersliderwrapper>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-kis-01.jpg"> 
+<DIV class=headerslideinfo>Lobos marinos australianos, Australia Meridional</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-kis-02.jpg"> 
+<DIV class=headerslideinfo>Isla Canguro, Australia Meridional</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-kis-03.jpg"> 
+<DIV class=headerslideinfo>Remarkable Rocks, Australia Meridional</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-kis-04.jpg"> 
+<DIV class=headerslideinfo>Echidna</DIV></DIV></DIV></DIV>
+<DIV id=subpage-header-overlay></DIV>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule></con_Banner>
+    <con_Body><TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Isla Canguro]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        Contemple a los animales aut&oacute;ctonos en el cristalino enclave natural de Isla Canguro, a la que se puede acceder f&aacute;cilmente desde Adelaida. Observe a los leones marinos en su h&aacute;bitat natural en la Bah&iacute;a de Seal y a los ping&uuml;inos azules andando de esa manera tan peculiar hacia la costa de Penneshaw. A continuaci&oacute;n, emp&aacute;pese de los paisajes escarpados que invitan a la aventura y las maravillosas playas de la isla. Realice una excursi&oacute;n por Hanson Bay, practique espeleolog&iacute;a en el Parque de Conservaci&oacute;n de Kelly Hill y contemple la puesta de sol en las ancestrales Remarkable Rocks. En la costa podr&aacute; nadar con delfines, hacer surf, practicar snorkel entre los arrecifes de coral repletos de vida y bucear entre restos de naufragios. Tambi&eacute;n podr&aacute; descubrir la rica y variada historia aborigen de la isla.
+        <p><strong>Cinco razones para visitar Isla Canguro</strong></p>
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[1. Fauna y flora en su h&aacute;bitat natural]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-kangaroo-island-hl01.jpg" alt="Australian sea lions">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Australian sea lions]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        D&eacute; de comer a los pel&iacute;canos y vea ping&uuml;inos azules en Kingscote y Penneshaw. Contemple ualab&iacute;es de la isla Eugenia, zarig&uuml;eyas cola de cepillo y canguros en su momento m&aacute;s activo durante una excursi&oacute;n nocturna desde American River. Camine entre los patos, cisnes y aves zancudas de la laguna Murray en el Parque Natural de Cape Gantheaume, un lugar &uacute;nico desde el que se puede observar algunas de las 267 especies de aves que habitan los distintos entornos de la isla. Observe a los leones marinos australianos en la Bah&iacute;a de Seal y miles de lobos marinos de Nueva Zelanda jugando en Admirals Arch en el Parque Nacional de Flinders Chase. Tambi&eacute;n sirve de hogar a cientos de tranquilos canguros.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[2. Paisajes en los que puede perderse]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-kangaroo-island-hl02.jpg" alt="Kelly Hill Caves, SA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Kelly Hill Caves, SA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Camine por el Parque Nacional de Flinders Chase y descubra las fascinantes formaciones de Remarkable Rocks y Admirals Arch. Explore los faros hist&oacute;ricos del cabo Borda y de Cape du Couedic, donde conocer&aacute; los estilos de vida solitarios de los guardas de los faros y sus familias. Camine por rec&oacute;nditos acantilados y por valles boscosos o recorra en bicicleta las tranquilas y desiertas carreteras de la isla. Disfrute de la diversidad de la ruta Hanson Bay Hike o desl&iacute;cese por las dunas de Little Sahara. Avent&uacute;rese en las cuevas del Parque de Conservaci&oacute;n de Kelly Hill o contemple los pericos carmes&iacute;es en los eucaliptos de az&uacute;car bajo las cuevas.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[3. Un sinf&iacute;n de aventuras costeras]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-kangaroo-island-hl03.jpg" alt="Kayaking at Harriet River, SA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Kayaking at Harriet River, SA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Bucee con extra&ntilde;os dragones de mar foliados, practique snorkel sobre brillantes arrecifes y nade con delfines en las aguas de Kingscote o la bah&iacute;a de Emu. Al sur de la bah&iacute;a D’estrees, puede bucear entre restos de naufragios dispersos en los alrededores de la isla. Pesque desde el hist&oacute;rico malec&oacute;n de la bah&iacute;a de Emu, American River o Penneshaw. Navegue junto a solitarias playas de arena alrededor de la bah&iacute;a de Nepean y practique surf en las solitarias olas de las bah&iacute;as de Stokes y Pennington. Tambi&eacute;n podr&aacute; encontrar un sinf&iacute;n de lugares ideales para nadar, desde la playa de Snellings Beach en la costa norte, hasta la protegida playa de Brown Beach en la costa este y la bah&iacute;a de Vivonne en el sur.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[4. Gastronom&iacute;a y vino en impresionantes enclaves]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-kangaroo-island-hl04.jpg" alt="Kangaroo Island, SA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Kangaroo Island, SA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Visite las bodegas de la isla, muchas cuentan con unas vistas que le har&aacute;n agua la boca. Disfrute de una copa de licor boutique en el r&iacute;o Cygnet o para disfrutar de un toque bohemio, deguste una copa de vino en un hangar de aeropuerto acondicionado. Pruebe el helado de miel, el queso de leche de oveja y la miel de Liguria de las granjas de la zona de Kingscote y MacGillivray. Dese un fest&iacute;n con los frescos productos locales de toda la isla. Disfrute de una cena con platos preparados a base de cangrejos, pescadillas manchadas y ostras de American River mientras contempla el oc&eacute;ano. Llene su casa de la playa o la cesta de la merienda de exquisiteces y una botella de su vino favorito.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[5. Tierra y tradiciones vinculadas al Dreaming]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-kangaroo-island-hl05.jpg" alt="Ngarrindjeri Tour, SA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Ngarrindjeri Tour, SA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Escuche la leyenda de Ngurunderi, el personaje del Dreamtime que persigui&oacute; a dos esposas desobedientes hasta Isla Canguro antes de viajar al mundo espiritual. Realice el recorrido de Ngurunderi a trav&eacute;s de Coorong antes de dirigirse a Isla Canguro. Realice una excursi&oacute;n a pie o en kayak con un descendiente de los Ngarrindjeri, que misteriosamente abandonaron Isla Canguro miles de a&ntilde;os antes de la llegada de los colonos europeos. Tambi&eacute;n puede explorar la isla en compa&ntilde;&iacute;a de los Ramindjeri, descendientes de las mujeres abor&iacute;genes de la zona continental tra&iacute;das a estas tierras por los primeros balleneros. Con&eacute;ctese con este paraje natural &uacute;nico escuchando antiguos relatos sobre la creaci&oacute;n e historias m&aacute;s recientes.
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights></con_Body>
+    <con_RHSModules><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<TABLE cellSpacing=0 cellPadding=0 width=298 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top align=center>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD style="WIDTH: 25px">&nbsp;</TD>
+<TD><!-- #BeginLibraryItem "/Library/sitenav.lbi" -->
+<SCRIPT language=JavaScript1.2 type=text/javascript src="../../static/js/stmenu.js"></SCRIPT>
+<!-- #EndLibraryItem --></TD></TR></TBODY></TABLE><!-- Google Map Start -->
+<SCRIPT type=text/javascript>
+function fireEvent(obj,evt){
+var fireOnThis = obj;
+if( document.createEvent ) {
+var evObj = document.createEvent('MouseEvents');
+evObj.initEvent( evt, true, false );
+fireOnThis.dispatchEvent(evObj);
+} else if( document.createEventObject ) {
+fireOnThis.fireEvent('on'+evt);
+}
+}
+function clickLink(linkobj) {
+if (linkobj.getAttribute('onclick') == null) {
+if (linkobj.getAttribute('href')) document.location = linkobj.getAttribute('href');
+}
+else linkobj.onclick();
+}
+function loadjscssfile(filename, filetype){
+if (filetype=="js"){ //if filename is a external JavaScript file
+var fileref=document.createElement('script')
+fileref.setAttribute("type","text/javascript")
+fileref.setAttribute("src", filename)
+}
+else if (filetype=="css"){ //if filename is an external CSS file
+var fileref=document.createElement("link")
+fileref.setAttribute("rel", "stylesheet")
+fileref.setAttribute("type", "text/css")
+fileref.setAttribute("href", filename)
+fileref.setAttribute("media", "print")
+}
+if (typeof fileref!="undefined")
+document.getElementsByTagName("head")[0].appendChild(fileref)
+}
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+var icheckk=0;
+jQuery.each(jQuery.browser, function(i, val) {
+if(i=="msie" && jQuery.browser.version.substr(0,3)=="7.0")
+icheckk=1;
+});
+function myfun()
+{
+loadjscssfile("../../static/css/thickbox.css", "css");
+if(icheckk==1)
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='../../static/maps/es-la/kangarooisland/bigmap.html'  target='_blank'>&nbsp;Imprimir|Cerca|&nbsp;o prensa el Esc tecla</a></b>","../../static/maps/es-la/kangarooisland/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+else
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='javascript:window.print()' >&nbsp;Imprimir|Cerca|&nbsp;o prensa el Esc tecla</a></b>","../../static/maps/es-la/kangarooisland/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+}
+         </SCRIPT>
+<IFRAME style="MARGIN-BOTTOM: 20px; BORDER-TOP: black 1px solid; HEIGHT: 355px; BORDER-RIGHT: black 1px solid; BORDER-BOTTOM: black 1px solid; FLOAT: left; PADDING-BOTTOM: 5px; BORDER-LEFT: black 1px solid; BACKGROUND-COLOR: #333333" height=380 src="../../static/maps/es-la/kangarooisland/index.html" frameBorder=0 width=249 name=FRAMENAME scrolling=no></IFRAME><!-- Google Map end -->
+<DIV class=subpage-video-thumb style="TEXT-ALIGN: left"><A onclick="moduleTrackingWithTitle('lightbox-video','',false,'nationallandscapes-kangarooislandesla');" href="#" data-reveal-id="modalVideo"><IMG alt="" src="/contentimages/Campaigns/national-landscapes-video-es-la.jpg"></A> </DIV>
+<DIV id=modalVideo class="reveal-modal video" style-="z-index: 103;"><A class=close-reveal-modal><SPAN class=icon></SPAN></A>
+<DIV class=video style="VISIBILITY: visible !important"><IFRAME height=315 src="//www.youtube.com/v/EjGZ3MaX9pE?version=3&amp;hl=en_GB" frameBorder=0 width=560></IFRAME></DIV></DIV></TD></TR></TBODY></TABLE>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule><Listing isTemplate="1">
+<anc_List1><![CDATA[/es-la/explore/states/sa/sa-eyre-peninsula.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[M&aacute;s ideas Australianas]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/es-la/AccommodationSearch.ignore]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/es-la/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/es-la/AttractionSearchResults.ignore]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/es-la/DestinfoSearchResults.ignore]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/es-la/EventsSearch.xml]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/es-la/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/es-la/hire.ignore]]></anc_Hire>
+<anc_Info><![CDATA[/es-la/InfoSearchResults.ignore]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/es-la/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/es-la/TourSearchResults.ignore]]></anc_Tour>
+<anc_Transport><![CDATA[/es-la/transport.ignore]]></anc_Transport>
+<hdl_Title><![CDATA[Planifique su visita]]></hdl_Title>
+<language><![CDATA[ESS]]></language>
+<stf_Accomodation><![CDATA[Accommodation]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[Attractions]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[Find a Travel Agent near you]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[Destination Information]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[Kangaroo Island]]></stf_DomesticRegion>
+<stf_Events><![CDATA[Events]]></stf_Events>
+<stf_Hire><![CDATA[Hire ]]></stf_Hire>
+<stf_Informationservices><![CDATA[Information Services]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[South Australia]]></stf_StateFilter>
+<stf_Tours><![CDATA[Tours]]></stf_Tours>
+<stf_Transport><![CDATA[Transport]]></stf_Transport>
+</PlanYourVisit></con_RHSModules>
+    <con_Category></con_Category>
+    <lst_Subpages>
+    </lst_Subpages>
+</StandardCampaignLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="22244" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Startseite]]></headline>
+            <href><![CDATA[/de/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Tools and Campaigns ]]></headline>
+            <href><![CDATA[/de/tools-campaigns.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Nationale Landschaften in Australien]]></headline>
+            <href><![CDATA[/de/nationallandscapes.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[Great Ocean Road]]></headline>
+            <href><![CDATA[/de/nationallandscapes/great-ocean-road.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/Campaigns/national-landscapes-great-ocean-road.jpg]]></img_background>
+    <hdl_Title><![CDATA[Great Ocean Road]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/national-landscapes-great-ocean-road-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/Campaigns/national-landscapes-great-ocean-road-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[yes]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[Erkunden Sie die Great Ocean Road, die sich entlang des Southern Ocean von Geelong bis Portland windet: Traumhafte Str&auml;nde, Regenw&auml;lder und Nationalparks.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[Great Ocean Road, Victoria, Melbourne, Australische K&uuml;ste, Urlaub an der australischen K&uuml;ste, Torquay, Bells Beach, Surfen in Australien, Surfen in Australien, Lorne, Twelve Apostles. Apollo Bay, Anglesea, Otway Ranges, Great Otway National Park]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Lesen sie mehr]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Nationale Landschaften in Australien: Great Ocean Road - Tourism Australia]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        Erkunden Sie die Great Ocean Road, die sich entlang des Southern Ocean von Geelong bis Portland windet: Traumhafte Str&auml;nde, Regenw&auml;lder und Nationalparks.
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <StandardCampaignLayout isTemplate="1">
+    <opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+    <hdl_Title><![CDATA[]]></hdl_Title>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+    <con_Banner><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<DIV id=headerimage>
+<SCRIPT type=text/javascript src="../../static/js/jquery.cycle.all.latest.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+jQuery(document).ready(function() {
+jQuery('#headersliderwrapper').cycle({
+        fx:'fade',
+        slideExpr: '.headerslide'
+    });
+});
+</SCRIPT>
+
+<DIV id=headersliderwrapper>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-gor-01.jpg"> 
+<DIV class=headerslideinfo>The Twelve Apostles, VIC</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-gor-02.jpg"> 
+<DIV class=headerslideinfo>Great Ocean Road, VIC</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-gor-03.jpg"> 
+<DIV class=headerslideinfo>Sonnenuntergang am Johanna Beach, VIC</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-gor-04.jpg"> 
+<DIV class=headerslideinfo>Rocky Beach, VIC</DIV></DIV></DIV></DIV>
+<DIV id=subpage-header-overlay></DIV>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule></con_Banner>
+    <con_Body><TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Great Ocean Road]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        Erleben Sie, wie sich hinter jeder Kurve der Great Ocean Road, die sich entlang von Torquay in der N&auml;he von Melbourne bis Portland erstreckt, ein weiteres Naturschauspiel offenbart. Erleben Sie die unglaubliche Kraft des S&uuml;dlichen Ozeans, wenn er an die K&uuml;ste mit ihren rauen Klippen, verzweigten W&auml;ldern und entlegenen Str&auml;nden kracht. Surfen Sie in Torquay, bestaunen Sie die einzigartigen Twelve Apostles oder wandern Sie durch den &uuml;ppigen gr&uuml;nen Great Otway National Park an den vielen Wasserf&auml;llen vorbei. Tauchen Sie in Geelong, Tower Hill und Lake Condah in die bewegte Aborigine-Geschichte der Region ein und beobachten Sie vom historischen Ort Warnambool aus Wale. Verl&auml;ngern Sie Ihre Reise mit einem Aufenthalt in einem K&uuml;stenst&auml;dtchen, wie Lorne, Apollo Bay oder Port Fairy.
+        <p><strong>F&uuml;nf Highlights der Great Ocean Road</strong></p>
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[1. Wellen, Buchten und Str&auml;nde]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-great-ocean-road-hl01.jpg" alt="Bells Beach, VIC">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Bells Beach, VIC]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Reiten Sie auf den Wellen vor der Surfk&uuml;ste Victorias, z. B. bei Torquay, Jan Juc, Pt Addis oder am legend&auml;ren Bells Beach. Genie&szlig;en Sie die familienfreundlichen Badestr&auml;nde der kleinen Ferienorte Anglesea, Lorne und Apollo Bay, die au&szlig;erdem zum Angeln und Bootfahren einladen. Unmittelbar in der N&auml;he der K&uuml;ste liegen die uralten Kalksteins&auml;ulen der Twelve Apostles (Zw&ouml;lf Apostel). Sie k&ouml;nnen diese von einem Helikopter aus oder von einer Aussichtsplattform auf den Klippen bewundern. Entdecken Sie beim Tauchen vor der K&uuml;ste des Port Campbell National Park das Loch Ard Schiffswrack oder wandern Sie im Bay of Islands Coastal Park. Genie&szlig;en Sie die historische und windgepeitschte Landschaft der Shipwreck Coast in Warrnambool, Portland und Port Fairy.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[2. Regenw&auml;lder, Berge und Nationalparks]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-great-ocean-road-hl02.jpg" alt="Otway, VIC">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Otway, VIC]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Fahren Sie mit dem Mountainbike durch die Otway Ranges oder spazieren Sie auf dem Otway Fly Walk durch die Wipfel der alten, moosbedeckten B&auml;ume. Erklimmen Sie im Great Otway National Park den h&ouml;chsten Punkt des Leuchtturms von Cape Otway, dem &auml;ltesten Leuchtturm des australischen Festlandes. Wandern oder reiten Sie durch den dichten Wald zu tosenden Wasserf&auml;llen. Radeln Sie vom West Barwon Reservoir zum Lake Elizabeth. Schlendern Sie an verlassenen Str&auml;nden entlang und erfahren Sie Interessantes &uuml;ber die Geschichte der Schiffwracks im Port Campbell National Park. Im Tower Hill State Reserve lernen Sie auf informativen Wanderwegen die Welt rund um die Feuchtgebiete, die Geologie und die Nahrungsmittel der Aborigines kennen.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[3. Gro&szlig;e und kleine Tiere in der freien Natur]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-great-ocean-road-hl03.jpg" alt="Kangaroos, VIC">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Kangaroos, VIC]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Schwimmen Sie in Queenscliff auf der Bellarine Peninsula mit Delfinen und spielen Sie in Anglesea eine Partie Golf neben grasenden K&auml;ngurus. Fahren Sie im Great Otway National Park auf dem Lake Elizabeth neben einer Schnabeltierkolonie Kanu und lassen Sie sich in Melba Gully bei Nacht von der Lichtershow der Gl&uuml;hw&uuml;rmchen verzaubern. Im Tower Hill State Wildreservat erleben Sie Emus, Spaltfu&szlig;g&auml;nse, Schnabeligel und Wasserv&ouml;gel aus n&auml;chster N&auml;he. Am Logan Beach in Warrnambool k&ouml;nnen Sie zwischen Juni und September unweit des Ufers die Geburt von K&auml;lbern S&uuml;dlicher Glattwale beobachten. Beobachten Sie die Wale weiter entlang der K&uuml;ste in Portland und fahren Sie dann mit dem Boot oder Kajak hinaus zu der gro&szlig;en Robbenkolonie bei Cape Bridgewater.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[4. Reiserouten an der K&uuml;ste]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-great-ocean-road-hl04.jpg" alt="Twelve Apostles, VIC">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Twelve Apostles, VIC]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Folgen Sie der Great Southern Touring Route, die sich entlang der schroffen K&uuml;ste von Torquay bis nach Warrnambool windet. Genie&szlig;en Sie die spektakul&auml;ren Ausblicke auf den S&uuml;dlichen Ozean von Anglesea und zwischen Lorne und der Apollo Bay, wo der Highway direkt zwischen den Seeklippen verl&auml;uft. Wenn Sie die K&uuml;ste n&auml;hern kennenlernen m&ouml;chten, folgen Sie dem Great Ocean Walk bis an sein Ende oder legen Sie nur einigen Etappen zur&uuml;ck. Der Weg windet sich &uuml;ber 91 km von der Apollo Bay bis zu den Twelve Apostles. Erforschen Sie die Feuchtw&auml;lder, Klippen und abgelegenen Str&auml;nde auf Tagestouren oder machen Sie eine achtt&auml;gige Wanderung und schlagen Sie nachts an malerischen Orten Ihr Zelt auf.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[5. Bewegte und vielseitige Aborigine-Geschichte]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-great-ocean-road-hl05.jpg" alt="Budj Bim, Lake Condah, VIC">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Budj Bim, Lake Condah, VIC]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Entdecken Sie die Steinh&auml;user und Fischfallen eines ehemaligen Aborigine-Dorfes in Lake Condah, das zum Weltkulturerbe geh&ouml;rt. In der N&auml;he von Tower Hill k&ouml;nnen Sie sich einem gef&uuml;hrten Spaziergang durch den erloschenen Vulkan anschlie&szlig;en, in dessen Bereich vor seinem Ausbruch vor 30.000 Jahren Aborigines lebten. Probieren Sie Bush Tucker, st&ouml;bern Sie durch Kunst und Kunsthandwerk der Aborigines und schlendern Sie im Geelong’s Aboriginal Centre durch einen Garten mit einheimischer Flora. Auf dem nahegelegenen William Buckley Discovery Trail k&ouml;nnen Sie in die j&uuml;ngere Geschichte der Aborigines, nach der Besiedlung Australiens durch die Europ&auml;er, eintauchen. Entdecken Sie im Yollinko Park Aboriginal Garden am Baron River alte Muschelhaufen, heimische Pflanzen und &Uuml;berreste eines alten Lagerplatzes.
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights></con_Body>
+    <con_RHSModules><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<TABLE cellSpacing=0 cellPadding=0 width=298 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top align=center><!-- Google Map Start -->
+<SCRIPT type=text/javascript>
+function fireEvent(obj,evt){
+var fireOnThis = obj;
+if( document.createEvent ) {
+var evObj = document.createEvent('MouseEvents');
+evObj.initEvent( evt, true, false );
+fireOnThis.dispatchEvent(evObj);
+} else if( document.createEventObject ) {
+fireOnThis.fireEvent('on'+evt);
+}
+}
+function clickLink(linkobj) {
+if (linkobj.getAttribute('onclick') == null) {
+if (linkobj.getAttribute('href')) document.location = linkobj.getAttribute('href');
+}
+else linkobj.onclick();
+}
+function loadjscssfile(filename, filetype){
+if (filetype=="js"){ //if filename is a external JavaScript file
+var fileref=document.createElement('script')
+fileref.setAttribute("type","text/javascript")
+fileref.setAttribute("src", filename)
+}
+else if (filetype=="css"){ //if filename is an external CSS file
+var fileref=document.createElement("link")
+fileref.setAttribute("rel", "stylesheet")
+fileref.setAttribute("type", "text/css")
+fileref.setAttribute("href", filename)
+fileref.setAttribute("media", "print")
+}
+if (typeof fileref!="undefined")
+document.getElementsByTagName("head")[0].appendChild(fileref)
+}
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+var icheckk=0;
+jQuery.each(jQuery.browser, function(i, val) {
+if(i=="msie" && jQuery.browser.version.substr(0,3)=="7.0")
+icheckk=1;
+});
+function myfun()
+{
+loadjscssfile("../../static/css/thickbox.css", "css");
+if(icheckk==1)
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='../../static/maps/de/greatoceanroad/bigmap.html'  target='_blank'>&nbsp;Drucken|Schlie&szlig;en|&nbsp;oder Esc-Taste</a></b>","../../static/maps/de/greatoceanroad/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+else
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='javascript:window.print()' >&nbsp;Drucken|Schlie&szlig;en|&nbsp;oder Esc-Taste</a></b>","../../static/maps/de/greatoceanroad/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+}
+         </SCRIPT>
+<IFRAME style="MARGIN-BOTTOM: 20px; BORDER-TOP: black 1px solid; HEIGHT: 355px; BORDER-RIGHT: black 1px solid; BORDER-BOTTOM: black 1px solid; FLOAT: left; PADDING-BOTTOM: 5px; BORDER-LEFT: black 1px solid; BACKGROUND-COLOR: #333333" height=380 src="../../static/maps/de/greatoceanroad/index.html" frameBorder=0 width=249 name=FRAMENAME scrolling=no></IFRAME><!-- Google Map end -->
+<DIV class=subpage-video-thumb style="TEXT-ALIGN: left"><A onclick="moduleTrackingWithTitle('lightbox-video','',false,'nationallandscapes-greatoceanroadde');" href="#" data-reveal-id="modalVideo"><IMG alt="" src="/contentimages/Campaigns/national-landscapes-video-de.jpg"></A> </DIV>
+<DIV id=modalVideo class="reveal-modal video" style-="z-index: 103;"><A class=close-reveal-modal><SPAN class=icon></SPAN></A>
+<DIV class=video style="VISIBILITY: visible !important"><IFRAME height=315 src="//www.youtube.com/v/EjGZ3MaX9pE?version=3&amp;hl=en_GB" frameBorder=0 width=560></IFRAME></DIV></DIV></TD></TR></TBODY></TABLE>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule><Listing isTemplate="1">
+<anc_List1><![CDATA[/de/explore/states/vic/vic-12-apostles.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[Weitere Reiseideen f&uuml;r Australien]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/de/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/de/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/de/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/de/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/de/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/de/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/de/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/de/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/de/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/de/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/de/Transport.aspx]]></anc_Transport>
+<hdl_Title><![CDATA[Great Ocean Road - Planen Sie Ihre Reise]]></hdl_Title>
+<language><![CDATA[DEU]]></language>
+<stf_Accomodation><![CDATA[Unterkunft ]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[Great Ocean Road area]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[Attraktionen]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[Finden Sie ein Reiseb&uuml;ro in Ihrer N&auml;he ]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[Reisezielinformationen]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[Ereignisse]]></stf_Events>
+<stf_Hire><![CDATA[Vermietung ]]></stf_Hire>
+<stf_Informationservices><![CDATA[Informationsdienste]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[Victoria]]></stf_StateFilter>
+<stf_Tours><![CDATA[Touren]]></stf_Tours>
+<stf_Transport><![CDATA[Transportm&ouml;glichkeiten]]></stf_Transport>
+</PlanYourVisit></con_RHSModules>
+    <con_Category></con_Category>
+    <lst_Subpages>
+    </lst_Subpages>
+</StandardCampaignLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

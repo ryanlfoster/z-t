@@ -1,0 +1,471 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="18870" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Laman Depan]]></headline>
+            <href><![CDATA[/id/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Tools and Campaigns]]></headline>
+            <href><![CDATA[/id/tools-campaigns.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Bentang Alam Nasional Australia]]></headline>
+            <href><![CDATA[/id/nationallandscapes.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/Campaigns/campaigns-national-landscapes.jpg]]></img_background>
+    <hdl_Title><![CDATA[Bentang Alam Nasional Australia]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/campaigns-national-landscapes-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/Campaigns/campaigns-national-landscapes-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[1]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[yes]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[Jelajahi Bentang Alam Nasional Australia, koleksi karya alam terindah yang mempesona.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[Bentang alam Australia, bentang alam di Australia, bentang alam nasional Australia, alam di Australia, alam Australia, taman nasional di Australia, taman nasional Australia, warisan dunia Australia, liburan Australia, aborigin Australia, Kakadu]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Pelajari Lebih Lanjut]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Bentang Alam Nasional Australia]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[]]>
+    </txt_Teaser>
+    <con_Body>
+        <StandardCampaignLayout isTemplate="1">
+    <opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+    <hdl_Title><![CDATA[]]></hdl_Title>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+    <con_Banner><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<!--OB Lightbox -->
+<SCRIPT type=text/javascript src="../static/js/orangebox.min.js"></SCRIPT>
+<LINK rel=stylesheet type=text/css href="../static/css/orangebox.css">
+<SCRIPT type=text/javascript src="../static/js/jquery.cycle.all.latest.js"></SCRIPT>
+<!--Start: headeimage-->
+<DIV id=headerimage><!-- InstanceBeginEditable name="Slides" -->
+<SCRIPT type=text/javascript>
+$('#mainContent').css("margin-top", "200");
+oB.settings.contentBorderWidth= 10;
+shuffle = function(v){
+    for(var j, x, i = v.length; i; j = parseInt(Math.random() * i), x = v[--i], v[i] = v[j], v[j] = x);
+    return v;
+};
+var imgnum=[];
+for (var i=0; i<16; i++)
+  {
+   imgnum[i]=i;
+  }
+var folder="../contentimages/campaigns/";
+var imgname = ["header-acn-0", "header-acw-0", "header-agc-0", "header-alp-0", "header-atn-0", "header-fli-0", "header-gbm-0" ,"header-gbr-0" ,"header-gor-0","header-gsw-0" ,"header-kim-0" ,"header-kis-0" ,"header-nin-0","header-syd-0" ,"header-tas-0" ,"header-wet-0"]
+var imgtxt=["Red Centre Australia", "Hutan Belantara Pesisir Australia", "Kawah Hijau Australia", "Pegunungan Alpen Australia", "Utara Abadi Australia", "Pegunungan Flinders Ranges", "Pegunungan Greater Blue Mountains" ,"Great Barrier Reef" ,"Great Ocean Road","Great South West Edge" ,"Kimberley " ,"Pulau Kanguru" ," Ningaloo-Shark Bay","Sydney Harbour" ,"Warisan Pulau Tasmania" ,"Kawasan Tropis Basah"]
+var tmp=shuffle(imgnum)
+document.write('<div id="headersliderwrapper">');
+for (var i=0;i<imgname.length;i++)
+{ 
+document.write('<div class="headerslide"><img src="'+folder+imgname[tmp[i]] + '1.jpg"/><div class="headerslideinfo">'+imgtxt[tmp[i]]+'</div></div>');
+}
+document.write('</div>');
+jQuery(document).ready(function() {
+ $('#headersliderwrapper').cycle({
+        fx:'fade',
+        slideExpr: '.headerslide'
+    });
+});
+</SCRIPT>
+<!-- InstanceEndEditable --><!-- InstanceBeginEditable name="pagetitle" -->
+<UL class=headertitle>
+<LI class=l1>Bentang Alam Nasional Australia </LI>
+<LI class=l2>Destinasi terbaik untuk menjelajahi alam dan budaya Australia yang luar biasa.</LI></UL><!-- InstanceEndEditable --><!-- InstanceBeginEditable name="Hover Map" -->
+<SCRIPT type=text/javascript src="../static/js/jquery.imagemapster.min.js"></SCRIPT>
+
+<SCRIPT language=javascript type=text/javascript>
+  $(document).ready(function() {
+   
+  var image = $('#vegetables');
+    image.mapster(
+    {
+        fillOpacity: 1,
+        fillColor: "ffb800",
+        stroke: false,
+        strokeColor: "3320FF",
+        strokeOpacity: 0.8,
+        strokeWidth: 4,
+        singleSelect: true,
+        mapKey: 'name',
+        listKey: 'name',
+  clickNavigate: true,
+  onMouseover: function (e) {
+    $('.region_title').html(e.key);
+  },
+  onMouseout: function () {
+    $('.region_title').html('');
+  },
+        onClick: function (e) {
+    $('.region_title').html(e.key);
+  }
+ });
+ 
+ 
+ 
+ });
+ 
+</SCRIPT>
+
+<DIV id=homepage-map><IMG id=vegetables border=0 alt="" src="/contentimages/campaigns/map.png" width=257 height=235 useMap=#veg> <MAP id=veg_map name=veg><AREA href="../id/nationallandscapes/ningaloo-shark-nay.aspx" shape=poly alt="Ningaloo-Shark Bay" coords=18,64,13,68,14,80,17,83,21,81,22,73,22,71 name="Ningaloo-Shark Bay"><AREA href="../id/nationallandscapes/the-kimberley.aspx" shape=poly alt=Kimberley coords=50,41,56,30,71,27,73,34,70,40,67,46,61,48,53,46 name="Kimberley"><AREA href="../id/nationallandscapes/wet-tropics.aspx" shape=poly alt="Kawasan Tropis Basah" coords=131,31,134,32,135,31,138,35,139,39,140,42,138,44,131,36,131,33 name="Kawasan Tropis Basah"><AREA href="../id/nationallandscapes/australias-red-centre.aspx" shape=poly alt="Red Centre Australia" coords=84,73,88,71,95,70,95,76,91,77,84,76,84,76 name="Red Centre Australia"><AREA href="../id/nationallandscapes/australias-timeless-north.aspx" shape=poly alt="Utara Abadi Australia" coords=89,26,91,20,100,19,102,23,100,27,95,29 name="Utara Abadi Australia"><AREA href="../id/nationallandscapes/flinders-ranges.aspx" shape=poly alt="Pegunungan Flinders Ranges" coords=109,98,112,99,114,104,111,107,109,104 name="Pegunungan Flinders Ranges"><AREA href="../id/nationallandscapes/great-south-west-edge.aspx" shape=poly alt="Great South West Edge" coords=30,114,37,114,46,113,49,115,50,118,47,119,43,120,39,122,33,122,28,119 name="Great South West Edge"><AREA href="../id/nationallandscapes/kangaroo-island.aspx" shape=poly alt="Pulau Kanguru" coords=104,118,107,117,110,119,110,121,107,122,104,121 name="Pulau Kanguru"><AREA href="../id/nationallandscapes/australias-green-cauldron.aspx" shape=poly alt="Kawah Hijau Australia" coords=161,85,165,82,170,82,171,86,169,90,166,91,162,88 name="Kawah Hijau Australia"><AREA href="../id/nationallandscapes/greater-blue-mountains.aspx" shape=poly alt="Pegunungan Greater Blue Mountains" coords=150,103,153,103,156,105,155,107,154,109,150,106 name="Pegunungan Greater Blue Mountains"><AREA href="../id/nationallandscapes/sydney-harbour.aspx" shape=poly alt="Sydney Harbour" coords=156,112,157,107,160,108,160,113 name="Sydney Harbour"><AREA href="../id/nationallandscapes/australian-alps.aspx" shape=poly alt="Pegunungan Alpen Australia" coords=147,113,151,112,154,113,153,117,152,119,147,119 name="Pegunungan Alpen Australia"><AREA href="../id/nationallandscapes/australias-coastal-wilderness.aspx" shape=poly alt="Hutan Belantara Pesisir Australia" coords=145,124,148,120,153,120,156,123,156,127,155,130,151,129,144,125 name="Hutan Belantara Pesisir Australia"><AREA href="../id/nationallandscapes/great-ocean-road.aspx" shape=poly alt="Great Ocean Road" coords=120,128,122,125,128,126,133,129,131,131 name="Great Ocean Road"><AREA href="../id/nationallandscapes/tasmanias-island-heritage.aspx" shape=poly alt="Warisan Pulau Tasmania" coords=134,139,138,139,140,141,144,141,145,139,147,142,147,146,144,151,142,152,139,152,134,144 name="Warisan Pulau Tasmania"><AREA href="../id/nationallandscapes/great-barrier-reef.aspx" shape=poly alt="Great Barrier Reef" coords=158,58,154,56,149,51,142,43,139,31,136,28,133,25,131,17,136,20,146,35,154,45,157,51 name="Great Barrier Reef"></MAP>
+<DIV class=region_title>Bentang Alam Nasional Australia</DIV></DIV><!-- InstanceEndEditable --></DIV><!--Start: homepage-header-overlay-->
+<DIV id=homepage-header-overlay><!--Start: homepage-intro-->
+<DIV id=homepage-intro><!--Start: homepage-intro-left-->
+<DIV id=homepage-intro-left>
+<H1>Selamat Datang di Bentang Alam Nasional Australia</H1>
+<P>Jelajahi Bentang Alam Nasional Australia, koleksi karya alam terindah yang mempesona. Bentang Alam Nasional Australia adalah tempat-tempat bernilai budaya, alam dan spiritual yang tinggi dan banyak di antaranya merupakan situs-situs yang tercatat sebagai Warisan Dunia. Jelajahi pantai alami, hutan hujan purba, rangkaian pegunungan yang bergelombang dan taman nasional yang luas. Anda dapat berjalan kaki, mendaki, berkemah, bermain ski, berkano, menghayati kebudayaan Aborigin yang terus hidup dan berada dekat dengan satwa liar.</P></DIV><!--End: homepage-intro-left--><!--Start: homepage-video-panel--><!-- new video styling -->
+<DIV id=homepage-video-panel style="MARGIN-RIGHT: 65px">
+<DIV class=subpage-video-thumb style="TEXT-ALIGN: left"><A onclick="moduleTrackingWithTitle('lightbox-video','',false,'nationallandscapes-homepageid'&#13;&#10;);" href="#" data-reveal-id="modalVideo"><IMG src="/contentimages/Campaigns/homepage-video-thumb1.png"></A></DIV></DIV></DIV></DIV>
+<DIV id=modalVideo class="reveal-modal video" style-="z-index: 103;"><A class=close-reveal-modal><SPAN class=icon></SPAN></A>
+<DIV class=video style="VISIBILITY: visible !important"><IFRAME height=315 src="//www.youtube.com/v/EjGZ3MaX9pE?version=3&amp;hl=en_GB" frameBorder=0 width=560></IFRAME></DIV></DIV>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule></con_Banner>
+    <con_Body><GenericHTML isTemplate="1">
+<txt_custom_styling><![CDATA[<LINK rel=stylesheet type=text/css href="../static/css/natlandscapes.css">]]></txt_custom_styling>
+<txt_main><![CDATA[
+        <table width="100%" border="0" cellspacing="0" cellpadding="20">
+            <tbody>
+                <tr>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start one -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td valign="top" style="width: 20%;"><!-- new start -->
+                                <table width="177" border="0" cellspacing="0" cellpadding="0">
+                                    <tbody>
+                                        <tr>
+                                            <td><a href="/id/nationallandscapes/australian-alps.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-fnt-aus-alps.jpg" /></a> </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="picFooter">Snowy Mountains, NSW</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <!-- new end --></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="/id/nationallandscapes/australian-alps.xml" class="landingHeaders">Pegunungan Alpen Australia</a> </p>
+                                <p>Di benua yang sebagian besar kering dan datar, tiada yang lebih menantang dari pegunungan Alpen Australia yang berselimutkan salju. <a href="/id/nationallandscapes/australian-alps.xml">Pelajari Lebih Lanjut</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end one --></td>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start two -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20%;"><a href="/id/nationallandscapes/great-south-west-edge.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-gsw-03.jpg" /></a></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="/id/nationallandscapes/great-south-west-edge.xml" class="landingHeaders">Great South West Edge</a></p>
+                                <p>Perkaya pengalaman Anda di Great South West Edge yang luar biasa, penuh keanekaragaman hayati, dan membentang sepanjang pesisir barat daya Australia Barat yang terpencil. <a href="/id/nationallandscapes/great-south-west-edge.xml">Pelajari Lebih Lanjut</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="picFooter">Great South West Edge, WA</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end two --></td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start one -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20%;"><a href="/id/nationallandscapes/australias-coastal-wilderness.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-fnt-aus-coastal-wilderness.jpg" /></a></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="/id/nationallandscapes/australias-coastal-wilderness.xml" class="landingHeaders">Hutan Belantara Pesisir Australia</a> </p>
+                                <p>Terbentang dari South Coast jauh di New South Wales hingga East Gippsland di Victoria, Hutan Belantara Pesisir Australia menjadi tempat bertemunya pantai, danau dan hutan yang menjulang tinggi.<br />
+                                <a href="/id/nationallandscapes/australias-coastal-wilderness.xml">Pelajari Lebih Lanjut</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="picFooter">Bittangabee Bay, NSW</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end one --></td>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start two -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20%;"><a href="/id/nationallandscapes/australias-timeless-north.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-fnt-kakadu(1).jpg" /></a></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="/id/nationallandscapes/australias-timeless-north.xml" class="landingHeaders">Utara Abadi Australia</a></p>
+                                <p>Wilayah Utara Abadi Australia adalah alam penuh kontras menakjubkan - sebagian tropis dan rimbun, sebagian lagi merah dan tandus.<br />
+                                <a href="/id/nationallandscapes/australias-timeless-north.xml">Pelajari Lebih Lanjut</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="picFooter">Kakadu, NT </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end two --></td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start one -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20%;"><a href="/id/nationallandscapes/australias-green-cauldron.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-fnt-aus-green-cauldron.jpg" /></a></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="/id/nationallandscapes/australias-green-cauldron.xml" class="landingHeaders">Kawah Hijau Australia</a> </p>
+                                <p>Jelajahi Gunung Warning (Wollumbin) di Kawah Hijau Australia, bentang alam gunung berapi purba yang kini diselimuti hutan hujan Gondwana.<br />
+                                <a href="/id/nationallandscapes/australias-green-cauldron.xml">Pelajari Lebih Lanjut</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="picFooter">Mount Warning, NSW</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end one --></td>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start two -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20%;"><a href="/id/nationallandscapes/kangaroo-island.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-fnt-kangaroo-island.jpg" /></a></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="/id/nationallandscapes/kangaroo-island.xml" class="landingHeaders">Pulau Kanguru</a></p>
+                                <p>Jumpai satwa asli di lingkungan alami Pulau Kanguru, yang dapat diakses dari Adelaide. Lihatlah singa laut yang bermain di atas hamparan pasir di Seal Bay dan kawanan penguin yang berlenggak-lenggok menuju pantai di Penneshaw. <a href="/id/nationallandscapes/kangaroo-island.xml">Pelajari Lebih Lanjut</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="picFooter">Pulau Kanguru, SA</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end two --></td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start one -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20%;"><a href="/id/nationallandscapes/australias-red-centre.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-fnt-aus-red-centre.jpg" /></a></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="/id/nationallandscapes/australias-red-centre.xml" class="landingHeaders">Red Centre Australia</a></p>
+                                <p>Bebaskan diri Anda di Red Centre Australia, tempat yang kaya akan kebudayaan Aborigin dan keindahan pedalaman yang keras. <a href="/id/nationallandscapes/australias-red-centre.xml">Pelajari Lebih Lanjut</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="picFooter">Uluru, NT</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end one --></td>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start two -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20%;"><a href="/id/nationallandscapes/ningaloo-shark-bay.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-nsb-01.jpg" /></a></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="/id/nationallandscapes/ningaloo-shark-bay.xml" class="landingHeaders">Ningaloo-Shark Bay</a></p>
+                                <p>Bebaskan jiwa Anda di Ningaloo-Shark Bay, di Coral Coast Australia Barat, tempat perairan Warisan Dunia dipenuhi kehidupan laut di tepi bentang alam merah yang liar. <a href="/id/nationallandscapes/ningaloo-shark-bay.xml">Pelajari Lebih Lanjut</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="picFooter">Ningaloo-Shark Bay, WA</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end two --></td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start one -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20%;"><a href="/id/nationallandscapes/flinders-ranges.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-fnt-flinders-ranges.jpg" /></a></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="/id/nationallandscapes/flinders-ranges.xml" class="landingHeaders">Pegunungan Flinders Ranges</a></p>
+                                <p>Telusuri kisah yang sama tuanya dengan usia bumi di rangkaian pegunungan terbesar di Australia Selatan. <a href="/id/nationallandscapes/flinders-ranges.xml">Pelajari Lebih Lanjut</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="picFooter">Pegunungan Flinders Ranges, SA</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end one --></td>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start two -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20%;"><a href="/id/nationallandscapes/sydney-harbour.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-fnt-syd.jpg" /></a></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="/id/nationallandscapes/sydney-harbour.xml" class="landingHeaders">Sydney Harbour</a></p>
+                                <p>Kota Sydney dibentuk oleh pelabuhan alaminya yang memukau. <a href="/id/nationallandscapes/sydney-harbour.xml">Pelajari Lebih Lanjut</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="picFooter">Pemandangan Alam Kota Sydney</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end two --></td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start one -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20%;"><a href="/id/nationallandscapes/great-barrier-reef.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-fnt-gbr.jpg" /></a></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="/id/nationallandscapes/great-barrier-reef.xml" class="landingHeaders">Great Barrier Reef</a></p>
+                                <p>Bangkitkan pancaindera dan segarkan jiwa Anda dengan mengunjungi Great Barrier Reef yang tercatat dalam Warisan Dunia, gugusan terumbu karang terbesar di bumi dan salah satu dari Tujuh Keajaiban Alam Dunia. <a href="/id/nationallandscapes/great-barrier-reef.xml">Pelajari Lebih Lanjut</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="picFooter">Fringe Reef Island, QLD</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end one --></td>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start two -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20%;"><a href="/id/nationallandscapes/tasmanias-island-heritage.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-fnt-tas.jpg" /></a></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="/id/nationallandscapes/tasmanias-island-heritage.xml" class="landingHeaders">Warisan Pulau Tasmania</a></p>
+                                <p>Bentang Alam Nasional Warisan Pulau Tasmania adalah belantara alami yang cantik murni namun mudah dijangkau, penuh pesisir dramatis, hutan rimbun, dan gunung bersalju. <a href="/id/nationallandscapes/tasmanias-island-heritage.xml">Pelajari Lebih Lanjut</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="picFooter">Lake Oberon, TAS</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end two --></td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start one -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20%;"><a href="/id/nationallandscapes/great-ocean-road.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-fnt-gor.jpg" /></a></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="/id/nationallandscapes/great-ocean-road.xml" class="landingHeaders">Great Ocean Road</a></p>
+                                <p>Saksikan drama alam yang menakjubkan di setiap kelokan jalan Great Ocean Road, yang berliku di sepanjang Samudra Antartika yang menakjubkan dari Geelong hingga Portland. <a href="/id/nationallandscapes/great-ocean-road.xml">Pelajari Lebih Lanjut</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="picFooter">Great Ocean Road, VIC</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end one --></td>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start two -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20%;"><a href="/id/nationallandscapes/the-kimberley.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-fnt-the-kimb.jpg" /></a></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="/id/nationallandscapes/the-kimberley.xml" class="landingHeaders">Kimberley</a></p>
+                                <p>Anda akan terpukau dengan keelokan Kimberley, sebuah area terpencil di sudut barat laut Australia. Ambil bagian dalam petualangan melintasi struktur bebatuan terjal, jalur air yang maha luas dan samudra yang berkilau. <a href="/id/nationallandscapes/the-kimberley.xml">Pelajari Lebih Lanjut</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="picFooter">Kimberley, WA</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end two --></td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start one -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20%;"><a href="/id/nationallandscapes/greater-blue-mountains.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-fnt-blue-mountains.jpg" /></a></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="/id/nationallandscapes/greater-blue-mountains.xml" class="landingHeaders">Pegunungan Greater Blue Mountains</a></p>
+                                <p>Anda pasti akan jatuh hati pada Kawasan Warisan Dunia Greater Blue Mountains – kawasan seluas satu juta hektar yang terdiri dari tebing, ngarai, lembah, air terjun dan padang semak yang hanya berjarak 90 menit berkendara dari Sydney. <a href="/id/nationallandscapes/greater-blue-mountains.xml">Pelajari Lebih Lanjut</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="picFooter">Hanging Rock, Blackheath, NSW</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end one --></td>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start two -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20%;"><a href="/id/nationallandscapes/wet-tropics.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-fnt-wet.jpg" /></a></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="/id/nationallandscapes/wet-tropics.xml" class="landingHeaders">Kawasan Tropis Basah</a></p>
+                                <p>Dari hutan hujan Daintree hingga Tablelands, Bentang Alam Nasional Kawasan Tropis Basah merupakan destinasi menawan dan memikat yang memukau tiap pengunjung. <a href="/id/nationallandscapes/wet-tropics.xml">Pelajari Lebih Lanjut</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="picFooter">Kawasan Tropis Basah, QLD</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end two --></td>
+                </tr>
+            </tbody>
+        </table>
+    ]]></txt_main>
+</GenericHTML></con_Body>
+    <con_RHSModules></con_RHSModules>
+    <con_Category></con_Category>
+    <lst_Subpages>
+    </lst_Subpages>
+</StandardCampaignLayout>
+    </con_Body>
+    <lst_Subpages>
+        <lst_Subpage><![CDATA[<a href="/id/nationallandscapes/australian-alps.xml">Pegunungan Alpen Australia</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/id/nationallandscapes/australias-coastal-wilderness.xml">Hutan Belantara Pesisir Australia</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/id/nationallandscapes/australias-green-cauldron.xml">Kawah Hijau Australia</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/id/nationallandscapes/australias-red-centre.xml">Red Centre Australia</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/id/nationallandscapes/australias-timeless-north.xml">Utara Abadi Australia</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/id/nationallandscapes/flinders-ranges.xml">Pegunungan Flinders Ranges</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/id/nationallandscapes/great-barrier-reef.xml">Great Barrier Reef</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/id/nationallandscapes/great-ocean-road.xml">Great Ocean Road</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/id/nationallandscapes/great-south-west-edge.xml">Great South West Edge</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/id/nationallandscapes/greater-blue-mountains.xml">Pegunungan Greater Blue Mountains</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/id/nationallandscapes/kangaroo-island.xml">Pulau Kanguru</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/id/nationallandscapes/ningaloo-shark-bay.xml">Ningaloo-Shark Bay</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/id/nationallandscapes/sydney-harbour.xml">Sydney Harbour</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/id/nationallandscapes/tasmanias-island-heritage.xml">Warisan Pulau Tasmania</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/id/nationallandscapes/the-kimberley.xml">Kimberley</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/id/nationallandscapes/wet-tropics.xml">Kawasan Tropis Basah</a>]]></lst_Subpage>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

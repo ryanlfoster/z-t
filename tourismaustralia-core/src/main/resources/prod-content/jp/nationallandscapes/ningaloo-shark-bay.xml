@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="22250" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[ホーム]]></headline>
+            <href><![CDATA[/jp/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Tools and Campaigns]]></headline>
+            <href><![CDATA[/jp/tools-campaigns.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[オーストラリアを代表する景観]]></headline>
+            <href><![CDATA[/jp/nationallandscapes.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[ニンガルー － シャーク・ベイ]]></headline>
+            <href><![CDATA[/jp/nationallandscapes/ningaloo-shark-bay.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/Campaigns/national-landscapes-ningaloo-shark-bay.jpg]]></img_background>
+    <hdl_Title><![CDATA[ニンガルー － シャーク・ベイ]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/national-landscapes-ningaloo-shark-bay-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/Campaigns/national-landscapes-ningaloo-shark-bay-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[yes]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[西オーストラリア州（Western Australia）のコーラル･コースト（Coral Coast）沿いにあるニンガルーからシャーク・ベイまでの地域を訪れて、自由な旅を満喫しましょう。荒涼とした赤い大地の果てにある世界遺産の海域は、豊富な海洋生物に恵まれています。]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[ニンガルー・リーフ, シャーク・ベイ, シャーク・ベイ世界遺産地域, 世界遺産, ニンガルー・マリン・パーク,シャーク・ベイ・マリン・パーク, ジンベイザメ, ジンベイザメ,  ダーク・ハートッグ島国立公園,  ダーク・ハートッグ島,  フランソワ・ペロン国立公園,  ケープ・レンジ国立公園,  ハメリン・プール,  ペロン半島,  ズイトドープの崖, コーラル・コースト,  マルガナ族, マルガナ族のアボリジニの人々]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[詳細はこちらから]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[オーストラリアを代表する景観：ニンガルー － シャーク・ベイ - オーストラリア政府観光局]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        西オーストラリア州（Western Australia）のコーラル･コースト（Coral Coast）沿いにあるニンガルーからシャーク・ベイまでの地域を訪れて、自由な旅を満喫しましょう。荒涼とした赤い大地の果てにある世界遺産の海域は、豊富な海洋生物に恵まれています。
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <StandardCampaignLayout isTemplate="1">
+    <opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+    <hdl_Title><![CDATA[]]></hdl_Title>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+    <con_Banner><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<DIV id=headerimage>
+<SCRIPT type=text/javascript src="../../static/js/jquery.cycle.all.latest.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+jQuery(document).ready(function() {
+jQuery('#headersliderwrapper').cycle({
+        fx:'fade',
+        slideExpr: '.headerslide'
+    });
+});
+</SCRIPT>
+
+<DIV id=headersliderwrapper>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-nin-01.jpg"> 
+<DIV class=headerslideinfo>ジンベエザメとダイビング、西オーストラリア州</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-nin-02.jpg"> 
+<DIV class=headerslideinfo>ペロン岬、西オーストラリア州</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-nin-03.jpg"> 
+<DIV class=headerslideinfo>ジンベエザメ、ニンガルー・リーフ、西オーストラリア州</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-nin-04.jpg"> 
+<DIV class=headerslideinfo>イルカの餌付け、モンキー・マイア、西オーストラリア州</DIV></DIV></DIV></DIV>
+<DIV id=subpage-header-overlay></DIV>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule></con_Banner>
+    <con_Body><TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[ニンガルー － シャーク・ベイ]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        西オーストラリア州のコーラル･コースト沿いにあるニンガルーからシャーク・ベイまでの地域を訪れて、自由な旅を満喫しましょう。荒涼とした赤い大地の果てにあるターコイズ・ブルーの海は、豊富な海洋生物に恵まれています。 遠く離れたオーストラリアの最西端、世界遺産のシャーク・ベイではイルカが戯れ、ニンガルー・リーフ（Ningaloo Reef）のビーチから数メートル先を巨大なジンベイザメが泳いでいます。 ウミガメやジュゴン、回遊中のクジラや巨大なオニイトマキエイ（マンタ）が保護されている自然そのままの海で、水泳、シュノーケリング、ダイビング、シーカヤックなどが楽しめます。 地上では、自然のままの白砂のビーチを散策したり、4WDで赤い砂丘をドライブしたり、地球最古の生命体を見学することができます。 人の手が加わっていない大地の冒険に出かけ、今も生き続ける太古のアボリジニ文化を体験してみてはいかがでしょうか。
+        <p><strong>ニンガルー － シャーク・ベイをおすすめする4つの理由</strong></p>
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[1. ニンガルー・リーフ]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-ningaloo-shark-bay-hl01.jpg" alt="Ningaloo Reef, WA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Ningaloo Reef, WA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        4月～6月にかけてニンガルー・リーフにやって来る世界最大の魚、ジンベイザメと一緒に泳いだり、そばでシュノーケリングすることができます。 海岸からわずか数メートルの場所から始まるオーストラリア最大のフリンジング・リーフは、美しいサンゴの花園に守られた多様な海洋生物の宝庫です。 エクスマウス（Exmouth）やコーラル・ベイ（Coral Bay）では、海岸を少し離れるだけでカクレクマノミ、触手を動かすアネモネ、ミノカサゴ、ウツボなど数百種の熱帯魚を見ることができます。 エコツアーに参加したり、スキューバ・ダイビングの船をチャーターしたり、グラスボートに乗り込んで、ジュゴンやウミガメ、マンタに会いにいくこともできます。 6月～10月にかけて回遊するザトウクジラの観察、また、3月～4月には、驚異の自然現象であるサンゴの一斉産卵を見ることができます。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[2. シャーク・ベイ]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-ningaloo-shark-bay-hl02.jpg" alt="Monkey Mia, WA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Monkey Mia, WA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        モンキー・マイア（Monkey Mia）では、野生のイルカの餌付けをしたり、一緒に泳ぐことができます。タートル・ベイ（Turtle Bay）では、遊覧船から絶滅危惧種のアカウミガメを観察したり、浅瀬で回遊するザトウクジラを探してみてはいかがでしょうか。2300万ヘクタールもの広さがあり、温帯と熱帯の海域が混在するシャーク・ベイは、世界自然遺産の4つの基準をすべて満たす世界でも数少ない地域のひとつです。 世界のウミガメ全7種のうち3種がこの海域に生息しています。また、世界最大の海草草原が、世界最大のジュゴンの生息地を支えています。 ダイビングやシュノーケリングで多様なサンゴを鑑賞したり、季節ごとにサメに個体標識をつける作業を見学したり、船をチャーターして釣りに行ったり、サンセット・セーリングで夕陽を楽しむのもお勧めです。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[3. 息をのむ太古の絶景]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-ningaloo-shark-bay-hl03.jpg" alt="Cape Range National Park, WA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Cape Range National Park, WA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        エクスマウスの近くにあるケープ・レンジ国立公園（Cape Range National Park）は、赤い断崖とニンガルー・リーフの青い海が織りなすコントラストが印象的な公園です。ブッシュウォークや、ロッククライミング、4WDでのドライブを楽しみましょう。 公園内には、希少種のワキスジイワワラビーが生息し、6月～10月には、色とりどりのワイルドフラワーが咲き誇ります。 シャーク・ベイ世界遺産地域にあるユニークなフランソワ・ペロン国立公園（Francois Peron National Park）は、絶滅が危惧される固有種の動物が生息し、風景のコントラストが美しい公園です。4WDの冒険旅行を楽しんでみてはいかがでしょうか。 ダーク・ハートッグ島（Dirk Hartog Island）には、世界的な漁場と、ヨーロッパの探検家にまつわる興味深い歴史があります。 オーストラリア大陸の西の端、スティープ・ポイント（Steep Point）からは、南に150キロメートルも続く、高さ300メートルのズイトドープ（Zuytdorp）の崖を眺めることができます。 白く輝くシェル・ビーチ（Shell Beach）を歩いたり、ハメリン・プール（Hamelin Pool）で地球最古の生命体と考えられているストロマトライトを見に行くのもお勧めです。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[4. アボリジニの豊かな文化]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-ningaloo-shark-bay-hl04.jpg" alt="Aboriginal experiences, WA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Aboriginal experiences, WA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        世界遺産ディスカバリー・センター（World Heritage Discovery Centre）では、対話型の展示や博物館の陳列品を通じてシャーク・ベイの太古のアボリジニ文化を学習することができます。 モンキー・マイアから、アボリジニが案内するウォーキング・ツアーに参加して、ドリームタイム（Dreamtime）と呼ばれる天地創造の神話に耳を傾け、伝統的なブッシュ・メディシンやブッシュ・タッカーについて学ぶのもよいでしょう。 ダーク・ハートッグ島国立公園の探索もお勧めです。公園の所有者であるマルガナ族（Malgana）は、数千年も前からこの地で暮らしています。 現在、マルガナ族は専用の保護区を持ち、昔ながらの豊かな文化遺産を今に伝えています。
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights></con_Body>
+    <con_RHSModules><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<TABLE cellSpacing=0 cellPadding=0 width=298 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top align=center>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD style="WIDTH: 25px"></TD>
+<TD><!-- #BeginLibraryItem "/Library/sitenav.lbi" -->
+<SCRIPT language=JavaScript1.2 type=text/javascript src="../../static/js/stmenu.js"></SCRIPT>
+<!-- #EndLibraryItem --></TD></TR></TBODY></TABLE><!-- Google Map Start -->
+<SCRIPT type=text/javascript>
+function fireEvent(obj,evt){
+ var fireOnThis = obj;
+ if( document.createEvent ) {
+   var evObj = document.createEvent('MouseEvents');
+   evObj.initEvent( evt, true, false );
+   fireOnThis.dispatchEvent(evObj);
+ } else if( document.createEventObject ) {
+   fireOnThis.fireEvent('on'+evt);
+ }
+}
+function clickLink(linkobj) {
+     if (linkobj.getAttribute('onclick') == null) {
+          if (linkobj.getAttribute('href')) document.location = linkobj.getAttribute('href');
+     }
+     else linkobj.onclick();
+}
+function loadjscssfile(filename, filetype){
+ if (filetype=="js"){ //if filename is a external JavaScript file
+  var fileref=document.createElement('script')
+  fileref.setAttribute("type","text/javascript")
+  fileref.setAttribute("src", filename)
+ }
+ else if (filetype=="css"){ //if filename is an external CSS file
+  var fileref=document.createElement("link")
+  fileref.setAttribute("rel", "stylesheet")
+  fileref.setAttribute("type", "text/css")
+  fileref.setAttribute("href", filename)
+  fileref.setAttribute("media", "print")
+ }
+ if (typeof fileref!="undefined")
+  document.getElementsByTagName("head")[0].appendChild(fileref)
+}
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+var icheckk=0;
+jQuery.each(jQuery.browser, function(i, val) {
+if(i=="msie" && jQuery.browser.version.substr(0,3)=="7.0")
+icheckk=1;
+});
+function myfun()
+{
+loadjscssfile("../../static/css/thickbox.css", "css");
+if(icheckk==1)
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='../../static/maps/jp/ningaloosharkbay/bigmap.html'  target='_blank'>&nbsp;印刷|クローズ|&nbsp;またはEscキーを押して</a></b>","../../static/maps/jp/ningaloosharkbay/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+else
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='javascript:window.print()' >&nbsp;印刷|クローズ|&nbsp;またはEscキーを押して</a></b>","../../static/maps/jp/ningaloosharkbay/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+}
+         </SCRIPT>
+<IFRAME style="MARGIN-BOTTOM: 20px; BORDER-TOP: black 1px solid; HEIGHT: 355px; BORDER-RIGHT: black 1px solid; BORDER-BOTTOM: black 1px solid; FLOAT: left; PADDING-BOTTOM: 5px; BORDER-LEFT: black 1px solid; BACKGROUND-COLOR: #333333" height=380 src="../../static/maps/jp/ningaloosharkbay/index.html" frameBorder=0 width=249 name=FRAMENAME scrolling=no></IFRAME><!-- Google Map end -->
+<DIV class=subpage-video-thumb style="TEXT-ALIGN: left"><A onclick="moduleTrackingWithTitle('lightbox-video','',false,'nationallandscapes-ningaloosharkbayjp');" href="#" data-reveal-id="modalVideo"><IMG alt="" src="/contentimages/Campaigns/national-landscapes-video-jp.jpg"></A> </DIV>
+<DIV id=modalVideo class="reveal-modal video" style-="z-index: 103;"><A class=close-reveal-modal><SPAN class=icon></SPAN></A>
+<DIV class=video style="VISIBILITY: visible !important"><IFRAME height=315 src="//www.youtube.com/v/EjGZ3MaX9pE?version=3&amp;hl=en_GB" frameBorder=0 width=560></IFRAME></DIV></DIV></TD></TR></TBODY></TABLE>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule><Listing isTemplate="1">
+<anc_List1><![CDATA[/jp/explore/states/wa.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[その他の観光情報]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/jp/AccommodationSearch.ignore]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/jp/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/jp/AttractionSearchResults.ignore]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/jp/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/jp/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/jp/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/jp/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/jp/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/jp/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/jp/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/jp/Transport.aspx]]></anc_Transport>
+<hdl_Title><![CDATA[ニンガルー － シャーク・ベイへの旅行計画 を立てる]]></hdl_Title>
+<language><![CDATA[JPN]]></language>
+<stf_Accomodation><![CDATA[Accommodation]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[ningaloo reef]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[Attractions]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[Find a Travel Agent near you]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[Destination Information]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[Events]]></stf_Events>
+<stf_Hire><![CDATA[Hire ]]></stf_Hire>
+<stf_Informationservices><![CDATA[Information Services]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[Western Australia]]></stf_StateFilter>
+<stf_Tours><![CDATA[Tours]]></stf_Tours>
+<stf_Transport><![CDATA[Transport]]></stf_Transport>
+</PlanYourVisit></con_RHSModules>
+    <con_Category></con_Category>
+    <lst_Subpages>
+    </lst_Subpages>
+</StandardCampaignLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

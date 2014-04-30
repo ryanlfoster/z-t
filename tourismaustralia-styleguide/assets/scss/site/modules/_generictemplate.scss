@@ -1,0 +1,27 @@
+///*
+// * Generic Template:
+// * ---------------------------------------------------------------------------------------------------------------- */
+
+.generictemplate_title{
+  display: none;
+  @include breakpoint(lg){
+    display: block;
+  }
+}
+
+.generictemplate_shown_ontablet{
+
+  .generictemplate_title{
+    display: none;
+    @include breakpoint(md){
+      display: block;
+    }
+  }
+}
+
+.generictemplate_shown_onmobile{
+
+  .generictemplate_title{
+      display: block;
+  }
+}

@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="22217" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[首頁]]></headline>
+            <href><![CDATA[/zht/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Tools and Campaigns]]></headline>
+            <href><![CDATA[/zht/tools-campaigns.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[澳洲國家地貌]]></headline>
+            <href><![CDATA[/zht/nationallandscapes.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[澳洲阿爾卑斯山]]></headline>
+            <href><![CDATA[/zht/nationallandscapes/australian-alps.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/Campaigns/national-landscapes-australian-alps.jpg]]></img_background>
+    <hdl_Title><![CDATA[澳洲阿爾卑斯山]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/national-landscapes-australian-alps-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/Campaigns/national-landscapes-australian-alps-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[yes]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[遊覽澳洲高山，這裡擁有16個國家公園和自然保護區，面積達500萬公頃。公園包括納瑪姬、哥斯高、雪河等。]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[澳洲澳洲山嶺，科修斯山，科修斯，澳洲最高的山，水牛山，波貢山，大雪山，澳洲高山，澳洲滑雪，金德拜恩，佛雷堡，波舒他海，賀騰山，佛斯溪，納麥基國家公園，比奇沃斯，澳洲澳洲山嶺步行路徑，大高山公路]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[了解更多資料]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[澳洲國家地貌：澳洲阿爾卑斯山 - 澳洲旅遊局]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        遊覽澳洲高山，這裡擁有16個國家公園和自然保護區，面積達500萬公頃。公園包括納瑪姬、哥斯高、雪河等。
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <StandardCampaignLayout isTemplate="1">
+    <opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+    <hdl_Title><![CDATA[]]></hdl_Title>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+    <con_Banner><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<DIV id=headerimage>
+<SCRIPT type=text/javascript src="../../static/js/jquery.cycle.all.latest.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+jQuery(document).ready(function() {
+jQuery('#headersliderwrapper').cycle({
+        fx:'fade',
+        slideExpr: '.headerslide'
+    });
+});
+</SCRIPT>
+
+<DIV id=headersliderwrapper>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-alp-01.jpg"> 
+<DIV class=headerslideinfo>澳洲山嶺（Australian Alps），新南威爾斯（NSW）與維多利亞（VIC）</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-alp-02.jpg"> 
+<DIV class=headerslideinfo>滑雪板滑雪，派瑞雪（Perisher），新南威爾斯（NSW）</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-alp-03.jpg"> 
+<DIV class=headerslideinfo>大雪山（Snowy Mountains），科修斯國家公園（Kosciuszko National Park），新南威爾斯（NSW）</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-alp-04.jpg"> 
+<DIV class=headerslideinfo>軌道小徑（Rail Trail），大高山路（Great Alpine Road），維多利亞（VIC）</DIV></DIV></DIV></DIV>
+<DIV id=subpage-header-overlay></DIV>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule></con_Banner>
+    <con_Body><TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[澳洲阿爾卑斯山]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        在一片大部份地區乾燥平坦的大陸上，沒有什麼會比白雪皚皚、山巒起伏的澳洲阿爾卑斯山更具有挑戰性了。澳洲阿爾卑斯山脈跨越一個領地、兩個州和十六個國家公園和保留地，擁有令人屏息的高山美景，全年都能進行各種各樣的戶外冒險活動。冬季在山坡上滑雪，夏季在野花中登高。發現特有的動植物，領略古老和現代的歷史，在徒步或者駕駛中領略無限的視野。這裡是澳洲的屋頂。您可以在此找到很多方式來挑戰您自己，或重新煥發您的靈魂。
+        <p><strong>澳洲阿爾卑斯山具有以下四個特點</strong></p>
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[1. 自然環境多樣罕見]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australian-alps-hl01.jpg" alt="Snowy Mountains, NSW">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Snowy Mountains, NSW]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        攀登澳洲最高峰哥斯高山（Mount Kosciuszko），一路欣賞冰川湖和疏花桉樹林。山頂周圍有一個聯合國教科文組織認定的生物圈保護區，當中有20種世界上任何其它地區都找不到的植物。在維多利亞州的波波高原上，欣賞周圍植被從高山岑樹林逐漸變為枝幹多節的疏花桉和色彩豐富的高山草甸。在大雪山（Snowy Mountains）的金德拜恩湖（Lake Jindabyne）附近探索地下洞穴和大量的鳥類。或是在坎培拉附近的納瑪吉國家公園（Namadgi National Park）觀察生活在花崗岩地貌中的袋鼠、沙袋鼠和罕見的歡蛙。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[2. 探險活動豐富多彩]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australian-alps-hl02.jpg" alt="Perisher, NSW">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Perisher, NSW]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        在散佈阿爾卑斯山各處的滑雪度假村享受冬季的各種樂趣。前往夏洛特山口（Charlotte Pass）澳洲最高的滑雪道，或在鐵擂堡（Thredbo）和藍派瑞雪（Perisher Blue）的雪道上飛馳而下。在維多利亞州大高山國家公園的布勒山（Mt Buller）、賀騰山（Mt Hotham）和佛斯溪（Falls Creek）玩雪橇和雪板滑雪。在夏季，這裏的山坡上野花遍地，是遠足、騎單車、騎馬或駕駛四驅越野車的好地方。在納瑪吉國家公園的花崗岩岩層上沿繩滑降。在新南威爾斯州，您可以在雪河（Snowy River）上划獨木舟，或是在圖瑪特（Tumut）附近探索洞穴。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[3. 歷史傳承年代久遠]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australian-alps-hl03.jpg" alt="Craigs Hut Mt Stirling, VIC">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Craigs Hut Mt Stirling, VIC]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        在大雪山跟隨威拉德朱里（Wiradjuri）導遊一起探索圖馬特河（Tumut River），或者在哥斯高國家公園參加一個原住民文化之旅，遊覽亞蘭戈比利石窟（Yarrangobilly Caves）。探索數千年前恩古那瓦（Ngunawal）人在納瑪吉國家公園（Namadgi National Park）留下的營地、祭祀石陣和巖畫。附近的鐵賓比拉自然保護區（Tidbinbilla Nature Reserve）裏有歷史達 21000 年之久的柏瑞哥岩石遮蔽處（Birrigai Rock Shelter），以及原住民部落曾聚集捕捉博貢蛾的博貢岩洞（Bogong Cave）。前往比奇沃斯 (Beechworth)參觀曾經審判過叢林匪首奈德•凱利 (Ned Kelly) 的法院，登高抵達博貢高原 (Bogong Plain) 看看古老的牛棚。在三月的長周末，可在奧米歐（Omeo）的年度小牛銷售大會上見到高原地區的當地人。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[4. 旅途遍佈山區美景]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australian-alps-hl04.jpg" alt="Mt Stirling, VIC">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Mt Stirling, VIC]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        從墨爾本出發，沿著大高山之路（Great Alpine Road）蜿蜒穿過維多利亞州的高原地區（High Country）。澳洲海拔最高的柏油公路將帶著您從墨爾本出發，經過歐文斯谷（Ovens Valley）葡萄酒產區和豪騰山（Mount Hotham），前往吉普斯蘭（Gippsland）。若想嘗試真正的挑戰，可以沿著著名的澳洲阿爾卑斯山步行路徑（Australian Alps Walking Track）長途跋涉穿過三個州。這條路徑綿延650公里， 從維多利亞州的沃哈拉（Walhalla）一直到坎培拉南面的塔哇（Tharwa）。您可以花八到十個星期行完這條路徑的全程，也可以選擇波波高原、博貢高原和哥斯高山等單日路線或較短的路段。
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights></con_Body>
+    <con_RHSModules><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<TABLE cellSpacing=0 cellPadding=0 width=298 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top align=center><!-- Google Map Start -->
+<SCRIPT type=text/javascript>
+function fireEvent(obj,evt){
+var fireOnThis = obj;
+if( document.createEvent ) {
+var evObj = document.createEvent('MouseEvents');
+ evObj.initEvent( evt, true, false );
+fireOnThis.dispatchEvent(evObj);
+} else if( document.createEventObject ) {
+fireOnThis.fireEvent('on'+evt);
+}
+}
+function clickLink(linkobj) {
+     if (linkobj.getAttribute('onclick') == null) {
+ if (linkobj.getAttribute('href')) document.location = linkobj.getAttribute('href');
+     }
+     else linkobj.onclick();
+}
+function loadjscssfile(filename, filetype){
+ if (filetype=="js"){ //if filename is a external JavaScript file
+  var fileref=document.createElement('script')
+  fileref.setAttribute("type","text/javascript")
+  fileref.setAttribute("src", filename)
+ }
+ else if (filetype=="css"){ //if filename is an external CSS file
+  var fileref=document.createElement("link")
+  fileref.setAttribute("rel", "stylesheet")
+  fileref.setAttribute("type", "text/css")
+  fileref.setAttribute("href", filename)
+  fileref.setAttribute("media", "print")
+ }
+ if (typeof fileref!="undefined")
+  document.getElementsByTagName("head")[0].appendChild(fileref)
+}
+                  </SCRIPT>
+
+<SCRIPT type=text/javascript>
+var icheckk=0;
+jQuery.each(jQuery.browser, function(i, val) {
+if(i=="msie" && jQuery.browser.version.substr(0,3)=="7.0")
+icheckk=1;
+});
+function myfun()
+{
+loadjscssfile("../../static/css/thickbox.css", "css");
+if(icheckk==1)
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='../../static/maps/zht/australianalps/bigmap.html'  target='_blank'>&nbsp;列印|關閉此視窗|&nbsp; 或按Esc键</a></b>","../../static/maps/zht/australianalps/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+else
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='javascript:window.print()' >&nbsp;列印|關閉此視窗|&nbsp; 或按Esc键</a></b>","../../static/maps/zht/australianalps/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+}
+         </SCRIPT>
+<IFRAME style="MARGIN-BOTTOM: 20px; BORDER-TOP: black 1px solid; HEIGHT: 355px; BORDER-RIGHT: black 1px solid; BORDER-BOTTOM: black 1px solid; FLOAT: left; PADDING-BOTTOM: 5px; BORDER-LEFT: black 1px solid; BACKGROUND-COLOR: #333333" height=380 src="../../static/maps/zht/australianalps/index.html" frameBorder=0 width=249 name=FRAMENAME scrolling=no></IFRAME><!-- Google Map end -->
+<DIV class=subpage-video-thumb style="TEXT-ALIGN: left"><A onclick="moduleTrackingWithTitle('lightbox-video','',false,'nationallandscapes-australianalpszht');" href="#" data-reveal-id="modalVideo"><IMG alt="" src="/contentimages/Campaigns/national-landscapes-video-en.jpg"></A> </DIV>
+<DIV id=modalVideo class="reveal-modal video" style-="z-index: 103;"><A class=close-reveal-modal><SPAN class=icon></SPAN></A>
+<DIV class=video style="VISIBILITY: visible !important"><IFRAME height=315 src="//www.youtube.com/v/EjGZ3MaX9pE?version=3&amp;hl=en_GB" frameBorder=0 width=560></IFRAME></DIV></DIV></TD></TR></TBODY></TABLE>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule><Listing isTemplate="1">
+<anc_List1><![CDATA[/zht/explore/icons/namadgi.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[更多澳洲風景]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/zht/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/zht/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/zht/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/zht/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/zht/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/zht/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/zht/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/zht/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/zht/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/zht/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/zht/Transport.aspx]]></anc_Transport>
+<hdl_Title><![CDATA[計劃您的假期]]></hdl_Title>
+<language><![CDATA[CHT]]></language>
+<stf_Accomodation><![CDATA[住宿]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[Blue Mountains Area]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[風景]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[旅行專家]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[目的地信息]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[活動]]></stf_Events>
+<stf_Hire><![CDATA[租用]]></stf_Hire>
+<stf_Informationservices><![CDATA[信息服務]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[New South Wales]]></stf_StateFilter>
+<stf_Tours><![CDATA[遊覽]]></stf_Tours>
+<stf_Transport><![CDATA[交通工具]]></stf_Transport>
+</PlanYourVisit></con_RHSModules>
+    <con_Category></con_Category>
+    <lst_Subpages>
+    </lst_Subpages>
+</StandardCampaignLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

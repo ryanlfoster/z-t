@@ -131,7 +131,7 @@
 					<div class="row footer-logo">
 
 
-						<img id="logo" src="/etc/designs/tourismaustralia/clientlibs/img/logo/logo_australia_com_whitetext.png"
+						<img id="logo" src="/etc/designs/tourismaustralia/clientlibs/imgs/logo/logo_australia_com_whitetext.png"
 							alt="" />
 					</div>
 
@@ -195,20 +195,20 @@
 								<ul class="footer-social-list">
 									<li><a href="https://www.facebook.com/seeaustralia"
 										class="btn-share"><span><img
-												src="imgs/icons/footer/footer-fb-icon.png" alt="" />Facebook</span></a></li>
+												src="/etc/designs/tourismaustralia/clientlibs/imgs/icons/footer/footer-fb-icon.png" alt="" />Facebook</span></a></li>
 									<li><a href="https://plus.google.com/+australia/posts"
 										class="btn-share"><span><img
-												src="imgs/icons/footer/footer-gplus-icon.png" alt="" />Google
+												src="/etc/designs/tourismaustralia/clientlibs/imgs/icons/footer/footer-gplus-icon.png" alt="" />Google
 												+</span></a></li>
 									<li><a href="http://instagram.com/australia"
 										class="btn-share"><span><img
-												src="imgs/icons/footer/footer-instagram-icon.png" alt="" />Instagram</span></a></li>
+												src="/etc/designs/tourismaustralia/clientlibs/imgs/icons/footer/footer-instagram-icon.png" alt="" />Instagram</span></a></li>
 									<li><a href="https://twitter.com/australia"
 										class="btn-share"><span><img
-												src="imgs/icons/footer/footer-twitter-icon.png" alt="" />Twitter</span></a></li>
+												src="/etc/designs/tourismaustralia/clientlibs/imgs/icons/footer/footer-twitter-icon.png" alt="" />Twitter</span></a></li>
 									<li><a href="https://www.youtube.com/user/australia"
 										class="btn-share"><span><img
-												src="imgs/icons/footer/footer-yt-icon.png" alt="" />Youtube</span></a></li>
+												src="/etc/designs/tourismaustralia/clientlibs/imgs/icons/footer/footer-yt-icon.png" alt="" />Youtube</span></a></li>
 								</ul>
 							</div>
 
@@ -241,7 +241,7 @@
 										<li><a href="#">Media & industry</a></li>
 										<li><a href="#">Business events</a></li>
 									</ul>
-									<div class="footer-copyright">© Tourism Australia 2014</div>
+									<div class="footer-copyright">ï¿½ Tourism Australia 2014</div>
 								</div>
 							</div>
 						</div>

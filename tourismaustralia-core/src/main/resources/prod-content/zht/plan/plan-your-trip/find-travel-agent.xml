@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="34" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[首頁]]></headline>
+            <href><![CDATA[/zht/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[計劃]]></headline>
+            <href><![CDATA[/zht/plan.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[尋找你附近的旅行代理]]></headline>
+            <href><![CDATA[/zht/plan/plan-your-trip/find-travel-agent.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/plan-plan-your-trip-find-travel-agent.jpg]]></img_background>
+    <hdl_Title><![CDATA[尋找你附近的旅行代理]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/Campaigns/Campaign_ASP_logo_GL_thumb.gif]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[選擇澳洲專業旅行社，為您預定航班、住宿和交通。這些專業人士接受過澳洲旅遊局的深入培訓。]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[從外國去澳洲, 在澳洲之內旅行, 食宿, 旅行社, 澳大利亚有逾千种很棒的旅游体验供您选择, 很有可能你的澳大利亚旅游专家已经体验过, 感受过, 甚至也为客人设计过很精彩的行程]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[更多]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[開始規劃您的澳洲探險之旅！了解前來此處和四處遊覽的交通、住宿地點以及能幫助您預訂旅程的當地旅行社。 ]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <ASPSearchRHS isTemplate="1">
+    <!-- no user content -->
+</ASPSearchRHS><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/zht/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/zht/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/zht/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/zht/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/zht/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/zht/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/zht/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/zht/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/zht/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/zht/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/zht/Transport.aspx]]></anc_Transport>
+<hdl_Title><![CDATA[計劃您的假期]]></hdl_Title>
+<language><![CDATA[CHT]]></language>
+<stf_Accomodation><![CDATA[]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[]]></stf_Events>
+<stf_Hire><![CDATA[]]></stf_Hire>
+<stf_Informationservices><![CDATA[]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[]]></stf_StateFilter>
+<stf_Tours><![CDATA[]]></stf_Tours>
+<stf_Transport><![CDATA[]]></stf_Transport>
+</PlanYourVisit>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Find a travel specialist near you]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[Who are Aussie Specialists? ]]></stf_InformationTitle>
+            <txt_Information><![CDATA[There are thousands of great Australian experiences to choose from. Chances are, your US Aussie Specialist Travel Agent has experienced or planned for them before. 
+<P>Experts on everything Australian, these specialists receive extensive training from Tourism Australia and most have traveled throughout Australia. They have the experience to help you plan and book your Aussie adventure. They know what to pack, what the weather will be like and how to join in with the locals. </P>
+<P>So, if you are wondering what it’s like to sail on Sydney Harbour, feel the warmth of the Australian outback, or dive on the Great Barrier Reef, contact an Aussie Specialist and you’ll soon be enjoying your very own Australian experience. <BR></P>
+<P><BR></P>]]></txt_Information>
+            
+        </TopCategoryHighlights><TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Find a travel specialist near you]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[Who are Aussie Specialists?]]></stf_InformationTitle>
+            <txt_Information><![CDATA[There are thousands of great Australian experiences to choose from. Chances are, your Aussie Specialist Travel Agent has experienced or planned for them before.   <P>Experts on everything Australian, these specialists receive extensive training from Tourism Australia and most have traveled throughout Australia. They have the experience to help you plan and book your Aussie adventure. They know what to pack, what the weather will be like and how to join in with the locals. </P>  <P>So, if you are wondering what it’s like to sail on Sydney Harbour, feel the warmth of the Australian outback, or dive on the Great Barrier Reef, contact an Aussie Specialist and you’ll soon be enjoying your very own Australian experience.</P>]]></txt_Information>
+            
+        </TopCategoryHighlights><TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[旅行社]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[澳大利亚有逾千种很棒的旅游体验供您选择。很有可能你的澳大利亚旅游专家已经体验过、感受过、甚至也为客人设计过很精彩的行程。 
+
+<P>&nbsp;</P>
+
+<P>专家们熟悉澳大利亚旅游的方方面面，因为澳大利亚旅游局特地培训他们的专业知识；而且大部分人都已经游览过澳大利亚很多地方。他们具备丰富的经验可以帮助您设计旅程，预定行程中的每一个环节。他们可以告诉你当地的天气，该带什么衣服，并让您懂得在旅途中融入当地的氛围。 </P>
+
+<P>&nbsp;</P>
+
+<P>因此，如果您还在犹豫在悉尼港扬帆会是怎样一番情景, 或希望感受来自澳大利亚内陆的热情，又或者在大堡礁与鱼同游，请与我们的澳大利亚旅游专家联系，您将会创作一个真正属于自己的澳大利亚体验。<BR></P>
+<P></P>]]></txt_Information>
+            
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

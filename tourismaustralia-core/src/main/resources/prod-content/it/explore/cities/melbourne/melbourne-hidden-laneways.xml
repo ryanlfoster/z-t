@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="10764" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Pagina iniziale]]></headline>
+            <href><![CDATA[/it/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Esplora]]></headline>
+            <href><![CDATA[/it/explore.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Melbourne]]></headline>
+            <href><![CDATA[/it/explore/cities/melbourne.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[I vicoli segreti di Melbourne]]></headline>
+            <href><![CDATA[/it/explore/cities/melbourne/melbourne-hidden-laneways.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/explore-cities-melbourne-hidden-laneways.jpg]]></img_background>
+    <hdl_Title><![CDATA[I vicoli segreti di Melbourne]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/explore-cities-melbourne-hidden-laneways-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/explore-cities-melbourne-hidden-laneways-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[no]]></opt_PartnerLead>
+    <stf_description><![CDATA[Perditi nel labirinto dei vicoli gotici dell'antico centro storico di Melbourne scoprendo ristoranti, negozi di abbigliamento o gallerie d’arte nascosti.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[vicoli a Melbourne, i vicoli di Melbourne]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Ulteriori Informazioni]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[I vicoli segreti di Melbourne]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[Le stradine acciottolate di Melbourne riservano piacevoli sorprese anche agli abitanti locali.]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <Listing isTemplate="1">
+<anc_List1><![CDATA[/it/explore/cities/melbourne/melbourne-rooftop-culture.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[Altri itinerari suggeriti in Australia]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/it/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/it/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/it/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/it/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/it/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/it/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/it/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/it/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/it/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/it/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/it/Transport.ignore]]></anc_Transport>
+<hdl_Title><![CDATA[Plan your visit to Melbourne]]></hdl_Title>
+<language><![CDATA[ITA]]></language>
+<stf_Accomodation><![CDATA[Accommodation]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[Melbourne Area]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[Attractions]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[Find a travel agent near you]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[Destination Information]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[Events]]></stf_Events>
+<stf_Hire><![CDATA[Hire]]></stf_Hire>
+<stf_Informationservices><![CDATA[Information Services]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[Victoria]]></stf_StateFilter>
+<stf_Tours><![CDATA[Tours]]></stf_Tours>
+<stf_Transport><![CDATA[Transport]]></stf_Transport>
+</PlanYourVisit>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[I vicoli segreti di Melbourne]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        Una volta lasciata alle spalle la griglia di strade che costituisce il centro della citt&agrave;, non saprete mai cosa vi attende nel labirinto di vicoli gotici dietro di essa. Persino gli abitanti locali scoprono qui piacevoli sorprese, tra piccoli e nascosti ristoranti, negozi di abbigliamento o gallerie d’arte. Scoprite un jazz bar aperto fino a tardi, osservate i passanti seduti al tavolo di una piccola trattoria, oppure visitate le boutique e le gallerie d’arte moderna. Lasciate che queste strade vi svelino i segreti pi&ugrave; intimi di <a href="/it/explore/cities/melbourne.xml" target="_self">Melbourne</a>.   <br />
+        <br />
+        I vicoli della citt&agrave; si snodano misteriosi tra le ordinate strade principali dove nel XIX secolo passavano le carrozze per le merci. Fuggite dal traffico della moderna Melbourne rifugiandovi tra queste piccole e affascinanti stradine.   <br />
+        <br />
+        Lasciatevi tentare dall’aroma del caff&egrave; e dei ristoranti per palati fini a Degraves Street e Centre Place. Lungo la strada fermatevi in negozi di oggetti per la casa. Lungo Crossley Street potrete scoprire altri caff&egrave; e boutique alla moda come pure piccoli ristoranti molto popolari all’ora di pranzo. Nella vicina Liverpool Street scoprirete invece ottimi ristoranti che propongono cucina asiatica e italiana.   <br />
+        <br />
+        Lungo Hardware Lane, scoprirete invece un’atmosfera tutta italiana con simpatici camerieri che vi accompagneranno al tavolo con un sorriso. In estate potrete mangiare all’aperto mentre ascoltate i musicisti di strada. In alternativa, &egrave; possibile cenare sotto terra nei ristoranti caratterizzati da muri ricoperti di pannelli di legno, lungo George Parade, dalla parte "parigina" di Collins Street. Oppure dirigetevi verso l’incantevole quartiere di Chinatown per un pranzo yum-cha. Passeggiate nella strada principale di Chinatown, Little Bourke Street, oppure esplorate i piccoli vicoli che la affiancano con i loro eleganti bar. Anche a The Block Place e The Causeway troverete ottimi ristoranti.   <br />
+        <br />
+        Visitate le boutique alla moda e i negozi di marca attorno a Little Collins Street. Scoprite gli stilisti locali a Manchester o Flonders Lane, zone simboliche, dal momento che &egrave; proprio qui che nacque l’industria della moda. Chi ama l’eleganza pu&ograve; invece visitare le storiche Royal e Block Arcades, con le loro caratteristiche pavimentazioni a mosaico e le loro atmosfere raffinate.   <br />
+        <br />
+        I vicoli di Melbourne, oltre a nascondere pregevoli edifici, ospitano spazi dedicati alle arti. Ammirate i colorati graffiti che cambiano in continuazione lungo Hosier Lane e Union Lane. Cocker Alley propone invece graffiti realizzati dal leggendario Banksy, mentre Jane Bell, Rutledge e Spark Lanes sono caratterizzate da opere ispirate alla cultura di strada. <br />
+         <br />
+        Tra i vicoli di Melbourne scoprirete piccoli e vivaci bar per ogni gusto. Il divertimento sar&agrave; proprio nello scoprirli tra strade nascoste e ingressi modesti. Meyers Place, il cuore della vita notturna della citt&agrave;, offre eleganti cocktail bar e un locale in stile anni ‘20. A Bennetts Lane, Manchester Lane e Goldie Place scoprirete invece piccoli locali jazz, in alternativa immergetevi nella storia australiana del rock’n’roll lungo ACDC Lane. Visitate il pi&ugrave; vecchio pub di Melbourne, tra Bank Place e Mitre Lane. In alternativa, scoprite i segreti della vita notturna a Croft Alley, Sniders Lane, Presgrave Place, Goldie Place e Warburton Lane.   <br />
+        <br />
+        Nel cuore segreto di Melbourne scoprirete molte sorprese, da vecchi caff&egrave; a colorati esempi di arte di strada. <br />
+    ]]></txt_Information>
+            
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

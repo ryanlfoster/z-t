@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="10768" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Pagina iniziale]]></headline>
+            <href><![CDATA[/it/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Esplora]]></headline>
+            <href><![CDATA[/it/explore.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Sydney]]></headline>
+            <href><![CDATA[/it/explore/cities/sydney.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[Sydney Harbour National Park]]></headline>
+            <href><![CDATA[/it/explore/cities/sydney/sydney-harbour-np.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/explore-cities-sydney-harbour-national-park.jpg]]></img_background>
+    <hdl_Title><![CDATA[Sydney Harbour National Park]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/explore-cities-sydney-harbour-national-park-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/explore-cities-sydney-harbour-national-park-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[no]]></opt_PartnerLead>
+    <stf_description><![CDATA[Nuota, fai un picnic e passeggia nel bush lungo la spettacolare spiaggia di Sydney, oppure visita le isole del porto in barca a vela o kayak.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[baia di Sydney, Sydney Harbour National Park, isole nella baia di Sydney, natura nella baia di Sydney, itinerari a piedi nella baia di Sydney]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Ulteriori Informazioni]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Sydney Harbour National Park]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[Passeggiate nel bush, fate un picnic sulle isole nel porto, nuotate da spiagge nascoste e ripercorrete la storia dei detenuti e quella aborigena nel Sydney Harbour National Park.]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <Listing isTemplate="1">
+<anc_List1><![CDATA[/it/explore/cities/sydney/sydney-surrounds.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[Altri itinerari suggeriti in Australia]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/it/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/it/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/it/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/it/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/it/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/it/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/it/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/it/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/it/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/it/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/it/Transport.ignore]]></anc_Transport>
+<hdl_Title><![CDATA[Plan your visit to Sydney]]></hdl_Title>
+<language><![CDATA[ITA]]></language>
+<stf_Accomodation><![CDATA[Accommodation]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[Sydney]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[Attractions]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[Find a travel agent near you]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[Destination Information]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[Events]]></stf_Events>
+<stf_Hire><![CDATA[Hire]]></stf_Hire>
+<stf_Informationservices><![CDATA[Information]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[New South Wales]]></stf_StateFilter>
+<stf_Tours><![CDATA[Tours]]></stf_Tours>
+<stf_Transport><![CDATA[Transport]]></stf_Transport>
+</PlanYourVisit>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Sydney Harbour National Park]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        Oltrepassati gli edifici storici, il Sydney Harbour National Park comprende spiagge riparate, pittoresche isole e zone di bush endemico. Nuotate, fate un picnic e passeggiate nel bush lungo la spettacolare spiaggia, oppure visitate le isole del porto su un traghetto. Andate in barca a vela o in kayak, osservate da vicino la fauna e scoprite l’antica arte rupestre e gli edifici costruiti dai detenuti. Le baie del porto, i parchi e i promontori fanno anche da sfondo ad alcuni degli eventi australiani pi&ugrave; importanti come i <a href="/it/explore/events/nat-new-years-fireworks.xml" target="_self">fuochi d’artificio di Capodanno</a> e <a href="/it/explore/events/syd-hobart-yacht-race.xml" target="_self">la regata Sydney-Hobart</a>. 
+        <p>Passeggiate intorno al famoso porto di Sydney, seguendo brevi sentieri, itinerari di un giorno oppure sezioni limitate di 100 km della <a href="/it/explore/itineraries/sydney-coastal-walks.xml" target="_self">Great Coastal Walk</a>. Sulla punta pi&ugrave; settentrionale del porto, scoprite popolari quartieri sulla spiaggia come Balmoral Beach, Manly e Chowder Bay. Visitate il <a href="http://www.australia.com/campaigns/nothinglike/it/sydney-product5.htm" target="_blank">Taronga Zoo</a>, nuotate dalla pittoresca Chinamans Beach e percorrete a piedi il tratto tra Manly e Spit Bridge. Esplorate vecchi forti militari e caserme e godetevi la splendida vista sull’acqua da Bradleys Head e Middle Head. Sulla parte pi&ugrave; meridionale del porto scoprirete Nielsen Park e Parsley Bay, zone frequentate da tantissime famiglie ogni estate. Gustate una porzione di pesce e patatine a Watsons Bay a South Head, quindi seguite l’Heritage Trail oltrepassando la gola e il faro. </p>
+        <p>Lungo tutto il porto troverete monumenti che onorano la storia di Sydney Scoprite la vita dei primi abitanti di Sydney, la popolazione Cadigal, con una crociera accompagnata da una guida aborigena. Ascoltate le storie del Dreaming e imparate i nomi e i significati aborigeni dei luoghi storici di Sydney. Ammirate da vicino le sculture nella roccia facendo tappa a Clark Island, dove sarete accolti secondo la tradizione aborigena. </p>
+        <p> Scoprite la storia dei detenuti in Australia presso Cadmans Cottage, edificio costruito dai detenuti stessi a <a href="/it/explore/cities/sydney/sydney-the-rocks.xml" target="_self">The Rocks</a>, e presso l’antica Quarantine Station a Manly, dove venivano smistati gli emigranti che arrivavano nel paese. Unitevi a un’escursione oppure accampatevi su Cockatoo Island dove un tempo sorgevano un penitenziario e un cantiere navale. Oggi le officine, gli alloggi dei detenuti, i tunnel sotterranei e i silos per il grano fanno da sfondo ad eventi d’arte e mostre alternative. Salite su un traghetto per Fort Denison, qui i prigionieri pi&ugrave; ribelli venivano messi in isolamento ai tempi dei primi coloni. Shark Island &egrave; un luogo molto suggestivo, ideale per indimenticabili escursioni. </p>
+        <p>Nel Sydney Harbour National Park potrete ammirare la vegetazione endemica, un ecosistema nel quale vivono molte specie di uccelli e animali. Unitevi a un tour di sera per ammirare gli animali notturni, avvistate gli uccelli marini sulle scogliere e ascoltate il richiamo degli uccelli attorno a Middle Head e North Head. </p>
+        <p>&Egrave; possibile raggiungere molte destinazioni attorno al porto grazie a regolari servizi di traghetto. Unitevi a una crociera per scoprire di pi&ugrave; sui panorami che vi circondano, oppure optate per un taxi sull’acqua che vi potr&agrave; accompagnare fino a una spiaggia privata. In alternativa, navigate da soli tra le baie costeggiate da bush del porto e i promontori di pietra arenaria su una nave a vela o un kayak. </p>
+        <p>Inoltre molti degli eventi pi&ugrave; popolari della citt&agrave; si svolgono nel Sydney Harbour National Park. Ammirate velieri, piccoli traghetti, yacht e barche per gare nel porto durante <a href="/it/explore/events/australia-day.xml" target="_self">l’Australia Day</a> oppure all’inizio della regata Sydney-Hobart, il giorno di Santo Stefano. Gli abitanti di Sydney si contendono i posti con vista sulla baia a Capodanno, quando dal Sydney Harbour Bridge esplode nel cielo uno dei pi&ugrave; splendidi spettacoli di fuochi d’artificio del mondo.</p>
+    ]]></txt_Information>
+            
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

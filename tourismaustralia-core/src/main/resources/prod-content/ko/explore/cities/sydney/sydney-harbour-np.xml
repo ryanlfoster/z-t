@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="10768" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[홈]]></headline>
+            <href><![CDATA[/ko/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[호주 여행 정보]]></headline>
+            <href><![CDATA[/ko/explore.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[시드니 ]]></headline>
+            <href><![CDATA[/ko/explore/cities/sydney.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[시드니 하버 국립공원]]></headline>
+            <href><![CDATA[/ko/explore/cities/sydney/sydney-harbour-np.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/explore-cities-sydney-harbour-national-park.jpg]]></img_background>
+    <hdl_Title><![CDATA[시드니 하버 국립공원]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/explore-cities-sydney-harbour-national-park-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/explore-cities-sydney-harbour-national-park-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[no]]></opt_PartnerLead>
+    <stf_description><![CDATA[호주 시드니 하버 국립공원. 시드니 하버의 눈부신 해안을 따라 수영, 피크닉 또는 부시워킹을 즐기거나 페리를 타고 인근 섬으로 들어가 보세요.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[시드니 하버 국립공원]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[상세 정보]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[시드니 하버 국립공원]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[시드니 하버 국립공원에서 부시워킹을 즐기고 인근 섬으로 피크닉을 떠나 보세요. 고적한 해변에서 수영을 즐기거나 과거 죄수와 원주민의 역사를 되짚어 보세요.]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <Listing isTemplate="1">
+<anc_List1><![CDATA[/ko/explore/cities/sydney/sydney-surrounds.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[호주 아이디어 더]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/ko/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/ko/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/ko/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/ko/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/ko/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/ko/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/ko/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/ko/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/ko/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/ko/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/ko/Transport.aspx]]></anc_Transport>
+<hdl_Title><![CDATA[여행 계획 하기]]></hdl_Title>
+<language><![CDATA[KOR]]></language>
+<stf_Accomodation><![CDATA[Accommodation]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[Sydney]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[Attractions]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[Find a travel agent near you]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[Destination Information]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[Events]]></stf_Events>
+<stf_Hire><![CDATA[Hire]]></stf_Hire>
+<stf_Informationservices><![CDATA[Information]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[New South Wales]]></stf_StateFilter>
+<stf_Tours><![CDATA[Tours]]></stf_Tours>
+<stf_Transport><![CDATA[Transport]]></stf_Transport>
+</PlanYourVisit>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[시드니 하버 국립공원]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        시드니 하버 국립공원(Sydney Harbour National Park)의 랜드마크 뒤로는 고요한 해변과 그림 같은 섬, 보기 드문 호주 토착림 지대가 숨겨져 있습니다. 눈부신 해안을 따라 수영, 피크닉 또는 부시워킹을 즐기거나 페리를 타고 인근 섬으로 들어가 보세요. 또한 세일링이나 카약을 즐기고 야생동물을 가까이서 관찰하는 한편 옛 암각화와 죄수들이 지은 건물을 찾아 보세요. 시드니 하버의 만과 공원에는 신년 불꽃놀이나 시드니 호바트 구간 요트 레이스와 같이 호주 최대의 이벤트가 열리는 시기이면 관중들이 가득 들어섭니다. 
+        <p>그 유명한 시드니 하버를 한 바퀴 돌아봐도 좋고 100km <a href="/ko/explore/itineraries/sydney-coastal-walks.xml" target="_self">길이의 그레이트 코스탈 워크</a>(Great Coastal Walk)를 하루 일정의 짧은 코스로 맛보시는 것도 잊지 못할 경험입니다. 시드니 하버의 북쪽에 위치한 밸모럴 비치(Balmoral Beach), 맨리(Manly), 차우더 베이(Chowder Bay)와 같이 유명한 인근 해변에도 들러 보세요. <a href="http://www.australia.com/campaigns/nothinglike/au/sydney-product5.htm" target="_blank">타롱가 동물원</a>(Taronga Zoo)을 방문하고 예쁜 차이나맨스 비치(Chinamans Beach)에서 수영을 즐기거나 맨리와 스핏 브릿지(Spit Bridge) 사이를 산책해 보는 것은 어떠세요? 옛 항구와 막사를 둘러보고 브래들리즈 곶(Bradleys Head)과 미들 헤드(Middle Head)에서 상쾌한 바다 바람을 맞아 보세요. 하버 남쪽으로는 여름철이면 가족들이 피크닉을 즐기는 닐슨 파크(Nielsen Park)와 파슬리 베이(Parsley Bay)가 있습니다. 사우스 헤드(South Head)의 왓슨스 베이(Watsons Bay)에서 피시앤칩스를 맛보고 갭과 등대를 지나는 전통유산 탐방로도 따라가 보세요.  </p>
+        <p>시드니 하버 곳곳에는 시드니의 역사가 담긴 기념물들이 자리하고 있습니다. 원주민 가이드가 안내하는 문화 탐방 크루즈에 참여하여 시드니의 최초 정착민인 카디갈(Cadigal) 부족에 대해 배워 보세요. 드림타임의 전설에 귀를 기울여 보고 시드니 명소들의 원주민어 이름과 그 의미에 대해 배워 보세요. 암각화를 가까이서 감상하고 클라크 아일랜드(Clark Island)에 들러 원주민 전통 환영식과 부시터커를 경험해 보세요.  </p>
+        <p>죄수들이 건설했던 <a href="/ko/explore/cities/sydney/sydney-the-rocks.xml" target="_self">록스</a>(The Rocks)의 캐드맨즈 코티지(Cadmans Cottage)와 이민자들을 처리했던 맨리의 옛 검역소(Quarantine Station)에서 호주 죄수 정착민들의 발자취를 따라가 보세요. 또 옛 감옥과 선박 수리장이 있었던 코카투 아일랜드(Cockatoo Island)로 향해 하이킹 투어에 참가하거나 야간 캠핑을 체험해 보세요. 현재 이곳의 작업장과 죄수 막사, 지하 터널, 거대한 곡식 저장고는 각종 이벤트와 첨단 전시회가 열리는 장소로 활용되고 있습니다. 페리를 타고 식민 시대 초기 죄수들의 독방이 있었던 포트 데니슨(Fort Denison)으로 향해 보세요. 한 폭의 그림 같은 샤크 아일랜드(Shark Island)는 피크닉을 즐기기에 최적의 장소입니다. </p>
+        <p>시드니 하버 국립공원은 조류와 동물의 보금자리인 호주의 토착나무 숲을 보호하고 있습니다. 야간 투어에 참가해 야행성 야생 동물들을 구경하고 절벽 위에 둥지를 짓고 사는 바다새를 관찰하거나 미들 헤드(Middle Head)와 노스 헤드(North Head) 주변 나무 위에서 지저귀는 새들의 합창을 감상해 보세요.  </p>
+        <p>하버 주변의 여러 곳으로 정규 페리가 운항합니다. 아름다운 경치를 즐기며 설명을 들을 수 있는 크루즈를 이용하거나 수상 택시를 타고 호젓한 해변을 찾아나서 보세요. 돛단배나 카약을 타고 시드니 하버의 우거진 만과 사암 곶 사이를 항해해 보는 것도 괜찮습니다. </p>
+        <p>시드니 하버 국립공원은 시드니에서 가장 인기 있는 이벤트가 열리는 무대이기도 합니다. 복싱 데이에 시작하는 시드니 호바트 구간 요트 레이스나 호주 국경일에 펼쳐지는 각종 요트 레이스를 관전해 보세요. 새해 전야가 되면 시드니 사람들은 모두 화려한 불꽃놀이쇼를 보기 위해 부둣가로 모여듭니다.</p>
+    ]]></txt_Information>
+            
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

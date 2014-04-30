@@ -63,6 +63,11 @@ public final class PathUtils {
 	
 	public static String getStateTagName(String path)
 	{	
+		if(!path.contains(FOOD_AND_WINE_ROOT_PATH))
+		{
+			path+=FOOD_AND_WINE_ROOT_PATH;
+		}
+			
 		String stateTagName="";
 		
 		if(path.equals(FOOD_AND_WINE_EXPLORE_AUSTRALIAN_CAPITAL_TERRITORY)) {

@@ -1,6 +1,5 @@
 package com.australia.foodandwine.searchresults.domain;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.commons.lang.StringUtils;
@@ -33,6 +32,7 @@ public class FAWSearch {
 	private String linkChecker;
 	private String socialIconsWhite;
 	private String socialIconsBlack;
+	private String categoryTagName="";
 
 	public FAWSearch(long totalSearchCount, Page page, TagManager tagManager) {
 		ValueMap properties = page.getProperties();
@@ -52,11 +52,19 @@ public class FAWSearch {
 		title = page.getTitle();
 		// tags
 		String[] cattags = properties.get("cq:tags", new String[0]);
-		List<String> tagTitles = new ArrayList<String>();
-		for (Tag tag : TagUtils.getFoodAndWineCategoryTags(tagManager, cattags)) {
-			tagTitles.add(tag.getTitle());
+		List<Tag> categoryTagList = TagUtils.getFoodAndWineCategoryTags(tagManager, cattags);
+		for (Tag tag : categoryTagList) {
+			if (!categoryTagName.equals("")){ 
+				categoryTagName += ", ";
+			}
+			if (!categoryTagName.contains(tag.getTitle())){
+				categoryTagName += tag.getTitle();
+			}
+			if (StringUtils.countMatches(categoryTagName, ",") == 2) {
+				categoryTagName += "...";
+				break;
+			}
 		}
-		// tags = tagTitles.toArray(new String[0]);
 		// state
 		Tag stateTag = TagUtils.getStateTag(tagManager, cattags);
 		state = (stateTag != null ? stateTag.getTitle() : StringUtils.EMPTY);
@@ -101,6 +109,10 @@ public class FAWSearch {
 		}
 		this.totalSearchCount = totalSearchCount;
 
+	}
+
+	public String getCategoryTagName() {
+		return categoryTagName;
 	}
 
 	public String getLinkChecker() {

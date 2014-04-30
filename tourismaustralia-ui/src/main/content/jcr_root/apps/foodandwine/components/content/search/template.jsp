@@ -39,7 +39,7 @@
 					{{state}} </span> <span class="mosaic-item-description-copy">
 					{{pageDescription}} <br>
 				<br> <span class="mosaic-item-description-copy-link"><strong>Read
-							more</strong></span> <strong class="mosaic-item-description-categories"><em>{{primaryCategory}}</em></strong>
+							more</strong></span> <strong class="mosaic-item-description-categories"><em>{{categoryTagName}}</em></strong>
 			</span>
 		</span> <span class="mosaic-item-overlay mosaic-item-overlay-info"> <span
 				class="mosaic-item-overlay-info-icon"> <span
@@ -51,7 +51,7 @@
 						class="mosaic-item-description-copy-link"><strong>Find
 								out more</strong></span>
 				</span>
-			</span> <span class="mosaic-item-overlay-info-categories"> <strong>{{primaryCategory}}</strong>
+			</span> <span class="mosaic-item-overlay-info-categories"> <strong>{{categoryTagName}}</strong>
 			</span>
 		</span>
 
@@ -105,7 +105,7 @@
 							{{state}} </span> <span class="mosaic-item-description-copy">
 							{{pageDescription}} <br>
 						<br> <span class="mosaic-item-description-copy-link"><strong>Read
-									more</strong></span> <strong class="mosaic-item-description-categories"><em>{{primaryCategory}}</em></strong>
+									more</strong></span> <strong class="mosaic-item-description-categories"><em>{{categoryTagName}}</em></strong>
 					</span>
 				</span> <span class="mosaic-item-overlay mosaic-item-overlay-info">
 						<span class="mosaic-item-overlay-info-icon"> <span
@@ -117,7 +117,7 @@
 								class="mosaic-item-description-copy-link"><strong>Find
 										out more</strong></span>
 						</span>
-					</span> <span class="mosaic-item-overlay-info-categories"> <strong>{{primaryCategory}}</strong>
+					</span> <span class="mosaic-item-overlay-info-categories"> <strong>{{categoryTagName}}</strong>
 					</span>
 				</span>
 
@@ -167,7 +167,7 @@
 							{{state}} </span> <span class="mosaic-item-description-copy">
 							{{pageDescription}} <br>
 						<br> <span class="mosaic-item-description-copy-link"><strong>Read
-									more</strong></span> <strong class="mosaic-item-description-categories"><em>{{primaryCategory}}</em></strong>
+									more</strong></span> <strong class="mosaic-item-description-categories"><em>{{categoryTagName}}</em></strong>
 					</span>
 				</span> <span class="mosaic-item-overlay mosaic-item-overlay-info">
 						<span class="mosaic-item-overlay-info-icon"> <span
@@ -179,7 +179,7 @@
 								class="mosaic-item-description-copy-link"><strong>Find
 										out more</strong></span>
 						</span>
-					</span> <span class="mosaic-item-overlay-info-categories"> <strong>{{primaryCategory}}</strong>
+					</span> <span class="mosaic-item-overlay-info-categories"> <strong>{{categoryTagName}}</strong>
 					</span>
 				</span>
 
@@ -229,7 +229,7 @@
 							{{state}} </span> <span class="mosaic-item-description-copy">
 							{{pageDescription}} <br>
 						<br> <span class="mosaic-item-description-copy-link"><strong>Read
-									more</strong></span> <strong class="mosaic-item-description-categories"><em>{{primaryCategory}}</em></strong>
+									more</strong></span> <strong class="mosaic-item-description-categories"><em>{{categoryTagName}}</em></strong>
 					</span>
 				</span> <span class="mosaic-item-overlay mosaic-item-overlay-info">
 						<span class="mosaic-item-overlay-info-icon"> <span
@@ -241,7 +241,7 @@
 								class="mosaic-item-description-copy-link"><strong>Find
 										out more</strong></span>
 						</span>
-					</span> <span class="mosaic-item-overlay-info-categories"> <strong>{{primaryCategory}}</strong>
+					</span> <span class="mosaic-item-overlay-info-categories"> <strong>{{categoryTagName}}</strong>
 					</span>
 				</span>
 
@@ -292,7 +292,7 @@
 							{{state}} </span> <span class="mosaic-item-description-copy">
 							{{pageDescription}} <br>
 						<br> <span class="mosaic-item-description-copy-link"><strong>Read
-									more</strong></span> <strong class="mosaic-item-description-categories"><em>{{primaryCategory}}</em></strong>
+									more</strong></span> <strong class="mosaic-item-description-categories"><em>{{categoryTagName}}</em></strong>
 					</span>
 				</span> <span class="mosaic-item-overlay mosaic-item-overlay-info">
 						<span class="mosaic-item-overlay-info-icon"> <span
@@ -304,7 +304,7 @@
 								class="mosaic-item-description-copy-link"><strong>Find
 										out more</strong></span>
 						</span>
-					</span> <span class="mosaic-item-overlay-info-categories"> <strong>{{primaryCategory}}</strong>
+					</span> <span class="mosaic-item-overlay-info-categories"> <strong>{{categoryTagName}}</strong>
 					</span>
 				</span>
 
@@ -361,7 +361,7 @@
 							{{state}} </span> <span class="mosaic-item-description-copy">
 							{{pageDescription}} <br>
 						<br> <span class="mosaic-item-description-copy-link"><strong>Read
-									more</strong></span> <strong class="mosaic-item-description-categories"><em>{{primaryCategory}}</em></strong>
+									more</strong></span> <strong class="mosaic-item-description-categories"><em>{{categoryTagName}}</em></strong>
 					</span>
 				</span> <span class="mosaic-item-overlay mosaic-item-overlay-info">
 						<span class="mosaic-item-overlay-info-icon"> <span
@@ -373,7 +373,7 @@
 								class="mosaic-item-description-copy-link"><strong>Find
 										out more</strong></span>
 						</span>
-					</span> <span class="mosaic-item-overlay-info-categories"> <strong>{{primaryCategory}}</strong>
+					</span> <span class="mosaic-item-overlay-info-categories"> <strong>{{categoryTagName}}</strong>
 					</span>
 				</span>
 
@@ -423,7 +423,7 @@
 							{{state}} </span> <span class="mosaic-item-description-copy">
 							{{pageDescription}} <br>
 						<br> <span class="mosaic-item-description-copy-link"><strong>Read
-									more</strong></span> <strong class="mosaic-item-description-categories"><em>{{primaryCategory}}</em></strong>
+									more</strong></span> <strong class="mosaic-item-description-categories"><em>{{categoryTagName}}</em></strong>
 					</span>
 				</span> <span class="mosaic-item-overlay mosaic-item-overlay-info">
 						<span class="mosaic-item-overlay-info-icon"> <span
@@ -435,7 +435,7 @@
 								class="mosaic-item-description-copy-link"><strong>Find
 										out more</strong></span>
 						</span>
-					</span> <span class="mosaic-item-overlay-info-categories"> <strong>{{primaryCategory}}</strong>
+					</span> <span class="mosaic-item-overlay-info-categories"> <strong>{{categoryTagName}}</strong>
 					</span>
 				</span>
 
@@ -486,7 +486,7 @@
 					{{state}} </span> <span class="mosaic-item-description-copy">
 					{{pageDescription}} <br>
 				<br> <span class="mosaic-item-description-copy-link"><strong>Read
-							more</strong></span> <strong class="mosaic-item-description-categories"><em>{{primaryCategory}}</em></strong>
+							more</strong></span> <strong class="mosaic-item-description-categories"><em>{{categoryTagName}}</em></strong>
 			</span>
 		</span> <span class="mosaic-item-overlay mosaic-item-overlay-info"> <span
 				class="mosaic-item-overlay-info-icon"> <span
@@ -498,7 +498,7 @@
 						class="mosaic-item-description-copy-link"><strong>Find
 								out more</strong></span>
 				</span>
-			</span> <span class="mosaic-item-overlay-info-categories"> <strong>{{primaryCategory}}</strong>
+			</span> <span class="mosaic-item-overlay-info-categories"> <strong>{{categoryTagName}}</strong>
 			</span>
 		</span>
 
@@ -550,7 +550,7 @@
 							{{state}} </span> <span class="mosaic-item-description-copy">
 							{{pageDescription}} <br>
 						<br> <span class="mosaic-item-description-copy-link"><strong>Read
-									more</strong></span> <strong class="mosaic-item-description-categories"><em>{{primaryCategory}}</em></strong>
+									more</strong></span> <strong class="mosaic-item-description-categories"><em>{{categoryTagName}}</em></strong>
 					</span>
 				</span> <span class="mosaic-item-overlay mosaic-item-overlay-info">
 						<span class="mosaic-item-overlay-info-icon"> <span
@@ -562,7 +562,7 @@
 								class="mosaic-item-description-copy-link"><strong>Find
 										out more</strong></span>
 						</span>
-					</span> <span class="mosaic-item-overlay-info-categories"> <strong>{{primaryCategory}}</strong>
+					</span> <span class="mosaic-item-overlay-info-categories"> <strong>{{categoryTagName}}</strong>
 					</span>
 				</span>
 
@@ -612,7 +612,7 @@
 							{{state}} </span> <span class="mosaic-item-description-copy">
 							{{pageDescription}} <br>
 						<br> <span class="mosaic-item-description-copy-link"><strong>Read
-									more</strong></span> <strong class="mosaic-item-description-categories"><em>{{primaryCategory}}</em></strong>
+									more</strong></span> <strong class="mosaic-item-description-categories"><em>{{categoryTagName}}</em></strong>
 					</span>
 				</span> <span class="mosaic-item-overlay mosaic-item-overlay-info">
 						<span class="mosaic-item-overlay-info-icon"> <span
@@ -624,7 +624,7 @@
 								class="mosaic-item-description-copy-link"><strong>Find
 										out more</strong></span>
 						</span>
-					</span> <span class="mosaic-item-overlay-info-categories"> <strong>{{primaryCategory}}</strong>
+					</span> <span class="mosaic-item-overlay-info-categories"> <strong>{{categoryTagName}}</strong>
 					</span>
 				</span>
 				</a>

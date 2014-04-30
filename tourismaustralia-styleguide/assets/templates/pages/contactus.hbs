@@ -8,16 +8,9 @@ layout: layout-base.hbs
             {{> breadcrumbsdynamic }}
         {{/parseJSON}}
 
-        <div class="section-intro">
-            <div class="l-center-900">
-                <h1 class="home-hero-title">FAQS</h1>
-            </div>
-                <div class="l-center-640 type-center">
-                    <p class="type-intro">
-                        View our most popular questions and guides
-                    </p>
-                </div>
-        </div>
+        {{#parseJSON '{"title": "FAQS","copy": "View our most popular questions and guides."}'}}
+            {{> sectiontitle}}
+        {{/parseJSON}}
 
         {{> contactus_content}}
         {{> contactus_form}}

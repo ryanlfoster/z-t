@@ -1,20 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <jslint>
-<file name="assets/js/src/main.js">
-  
-</file>
-<file name="assets/js/src/modules/jquery.ta.aspsearch.js">
-  
-</file>
-<file name="assets/js/src/modules/jquery.ta.carousel.js">
-  
-</file>
-<file name="assets/js/src/modules/jquery.ta.flipcard.js">
-  
-</file>
-<file name="assets/js/src/modules/jquery.ta.fullwidthbg.js">
-  
-</file>
 <file name="assets/js/src/modules/jquery.ta.imageScroll.js">
   
   <issue
@@ -98,38 +83,6 @@
     | Vocabulary: 47" />
   
 </file>
-<file name="assets/js/src/modules/jquery.ta.inputfield.js">
-  
-  <issue
-    line="201"
-    char="validateForm"
-    evidence="validateForm is too complicated"
-    reason="Cyclomatic: 2,
-    Halstead: 11.050
-    | Effort: 3790.4
-    | Volume: 343.02
-    | Vocabulary: 33" />
-  
-</file>
-<file name="assets/js/src/modules/jquery.ta.inputfocus.js">
-  
-</file>
-<file name="assets/js/src/modules/jquery.ta.megamenu.js">
-  
-</file>
-<file name="assets/js/src/modules/jquery.ta.mosaic.js">
-  
-  <issue
-    line="87"
-    char="&lt;anonymous&gt;"
-    evidence="&lt;anonymous&gt; is too complicated"
-    reason="Cyclomatic: 3,
-    Halstead: 8.4808
-    | Effort: 4791.4
-    | Volume: 564.97
-    | Vocabulary: 33" />
-  
-</file>
 <file name="assets/js/src/modules/jquery.ta.parallax.js">
   
   <issue
@@ -153,10 +106,57 @@
     | Vocabulary: 48" />
   
 </file>
+<file name="assets/js/src/ta.main.js">
+  
+</file>
+<file name="assets/js/src/modules/jquery.ta.mosaic.js">
+  
+  <issue
+    line="87"
+    char="&lt;anonymous&gt;"
+    evidence="&lt;anonymous&gt; is too complicated"
+    reason="Cyclomatic: 3,
+    Halstead: 8.4808
+    | Effort: 4791.4
+    | Volume: 564.97
+    | Vocabulary: 33" />
+  
+</file>
+<file name="assets/js/src/modules/jquery.ta.inputfield.js">
+  
+  <issue
+    line="201"
+    char="validateForm"
+    evidence="validateForm is too complicated"
+    reason="Cyclomatic: 2,
+    Halstead: 11.050
+    | Effort: 3790.4
+    | Volume: 343.02
+    | Vocabulary: 33" />
+  
+</file>
+<file name="assets/js/src/modules/jquery.ta.carousel.js">
+  
+</file>
+<file name="assets/js/src/modules/jquery.ta.fullwidthbg.js">
+  
+</file>
+<file name="assets/js/src/modules/jquery.ta.megamenu.js">
+  
+</file>
+<file name="assets/js/src/modules/jquery.ta.aspsearch.js">
+  
+</file>
 <file name="assets/js/src/modules/jquery.ta.searchinput.js">
   
 </file>
-<file name="assets/js/src/ta.main.js">
+<file name="assets/js/src/modules/jquery.ta.flipcard.js">
+  
+</file>
+<file name="assets/js/src/modules/jquery.ta.inputfocus.js">
+  
+</file>
+<file name="assets/js/src/main.js">
   
 </file>
 </jslint>

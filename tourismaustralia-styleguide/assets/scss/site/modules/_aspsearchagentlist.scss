@@ -1,0 +1,15 @@
+.asp-search-agent-list {
+   & > .row > .col-xs-12 {
+    padding: 0;
+
+    @include breakpoint(lg) {
+      padding: 0 15px;
+    }
+  }
+}
+
+
+.asp-search-agent-list-view-more {
+	text-align: center;
+	margin-top: pxtoem(30px);
+}

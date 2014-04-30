@@ -166,34 +166,40 @@ public class ExperienceCreationJob implements Runnable {
 		Resource mainparsysResource = resourceResolver.create(contentResource, "mainparsys", mainparsysProperties);
 		resourceResolver.commit();
 
-		Resource fileResource = res.getChild("file");
-		try {
-			if (fileResource != null) {
-				AssetManager assetManager = resourceResolver.adaptTo(AssetManager.class);
-				InputStream imageInputStream = fileResource.adaptTo(InputStream.class);
-				String mimeType = fileResource.getChild("jcr:content").adaptTo(ValueMap.class)
-					.get("jcr:mimeType", String.class);
-				if (mimeType == null) {
-					Tika tika = new Tika(detector);
-					mimeType = tika.detect(fileResource.adaptTo(InputStream.class));
+		int imagecount = 0;
+		for (Resource imageResource : res.getChildren()) {
+			try {
+				if (imageResource != null && imageResource.getName().startsWith("image")) {
+					String count = imageResource.getName().substring(5);
+					AssetManager assetManager = resourceResolver.adaptTo(AssetManager.class);
+					InputStream imageInputStream = imageResource.adaptTo(InputStream.class);
+					String mimeType = imageResource.getChild("jcr:content").adaptTo(ValueMap.class)
+						.get("jcr:mimeType", String.class);
+					if (mimeType == null) {
+						Tika tika = new Tika(detector);
+						mimeType = tika.detect(imageResource.adaptTo(InputStream.class));
+					}
+					String fileExtension = MimeTypes.getDefaultMimeTypes().forName(mimeType).getExtension();
+					Asset imageAsset = assetManager.createAsset(
+						"/content/dam/food-and-wine/" + experiencePage.getName() + imagecount + fileExtension,
+						imageInputStream, mimeType, true);
+
+					Map<String, Object> imageProperties = new HashMap<String, Object>();
+					imageProperties.put("sling:resourceType", "foodandwine/components/content/articleImage");
+					imageProperties.put("imageCaption", formProperties.get("photoDescription" + count, String.class));
+					Resource newImageResource = resourceResolver.create(mainparsysResource,
+						"articleImage" + imagecount, imageProperties);
+					resourceResolver.commit();
+
+					Map<String, Object> backgroundImageProperties = new HashMap<String, Object>();
+					backgroundImageProperties.put("fileReference", imageAsset.getPath());
+					resourceResolver.create(newImageResource, "backgroundImage", backgroundImageProperties);
+					resourceResolver.commit();
+					imagecount++;
 				}
-				String fileExtension = MimeTypes.getDefaultMimeTypes().forName(mimeType).getExtension();
-				Asset imageAsset = assetManager.createAsset("/content/dam/food-and-wine/" + experiencePage.getName()
-					+ fileExtension, imageInputStream, mimeType, true);
-
-				Map<String, Object> imageProperties = new HashMap<String, Object>();
-				imageProperties.put("sling:resourceType", "foodandwine/components/content/articleImage");
-				imageProperties.put("imageCaption", formProperties.get("photoDescription", String.class));
-				Resource imageResource = resourceResolver.create(mainparsysResource, "articleImage", imageProperties);
-				resourceResolver.commit();
-
-				Map<String, Object> backgroundImageProperties = new HashMap<String, Object>();
-				backgroundImageProperties.put("fileReference", imageAsset.getPath());
-				resourceResolver.create(imageResource, "backgroundImage", backgroundImageProperties);
-				resourceResolver.commit();
+			} catch (Exception e) {
+				LOG.error("Error creating asset for image", e);
 			}
-		} catch (Exception e) {
-			LOG.error("Error creating asset for image", e);
 		}
 	}
 

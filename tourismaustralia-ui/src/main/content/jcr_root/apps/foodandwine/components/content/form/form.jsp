@@ -197,28 +197,37 @@
 			</div>
 			
 			<div class="field-container">
-                <div class="description-box description-box-outer" data-isvalid="false">
-                    <h4 class="description-box-headline"><strong>Upload an Image</strong></h4>
+                <div class="description-box description-box-outer">
+                    <h4 class="description-box-headline"><strong>Upload image(s)</strong></h4>
                     <p class="description-box-copy">
                         <em>Jpeg, Gif or PNG - 5mb file limit. Your image should be at least 600 x 600px</em>
                     </p>
-					
+
+                    
 					<div class="image-uploader">
-					    <label class="image-uploader-label" for="imageupload">Upload Image</label>
-					    <div class="image-uploader-container btn-primary btn-small">
-					        <input type="file" id="imageupload" name="imageupload" class="image-uploader-control" accept="image/*">
-					    </div>
-					    <span class="image-uploader-filename">No File</span>
-					</div>
-                    <div class="description-box">
-                        <h4 class="description-box-headline"><strong>Image Caption</strong></h4>
-                        <p class="description-box-copy">
-                            <em>Write a short description about your photo</em>
-                        </p>
-                        <textarea class="description-box-input-field" rows="4" placeholder="..." name="photoDescription" id="photoDescription"></textarea>
-                    </div>
-                </div>
-            </div>
+    					<div class="image-uploader-item">
+        					<label class="image-uploader-label" for="imageupload">Upload Image</label>
+        					<div class="image-uploader-container btn-secondary btn-small">
+            					<input type="file" name="imageupload0" class="image-uploader-control" accept="image/*">
+        					</div>
+        					<span class="image-uploader-remove"><a class="image-uploader-remove-button" href="#">remove</a></span>
+        					<span class="image-uploader-filename">No File</span>
+
+        					<div class="description-box">
+            					<h4 class="description-box-headline"><strong>Image caption</strong></h4>
+            					<p class="description-box-copy">
+                					<em>Write a short description about your photo</em>
+            					</p>
+            					<textarea class="description-box-input-field" name="photoDescription0" rows="4" placeholder="..."></textarea>
+        					</div>
+    					</div>
+
+    				<div class="image-uploader-add-more">
+        				<a class="image-uploader-add-more-button" href="#">Upload More</a>
+    				</div>
+				</div>
+			</div>
+		</div>
 			
 			<div class="field-container">
 				<div class="categories-box">

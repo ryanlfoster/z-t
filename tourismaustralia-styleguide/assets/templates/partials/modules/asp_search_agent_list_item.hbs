@@ -54,19 +54,44 @@ title: ASP Seach Agent List Item
                 <div class="row">
 
                     <div class="col-xs-12 col-sm-4">
-                        <div class="inputFocus-wrapper">
-                            <label class="name-input-label" for="yourname">Your name*</label>
-                            <input class="name-input" name="yourname" type="text" placeholder="Your name*" />
+
+                        <div class="input-field" data-type="text">
+                            <div class="inputFocus-wrapper">
+                                <label class="name-input-label" for="yourname">Your name*</label>
+                                <input class="input-field-input" name="yourname" type="text" placeholder="Your name*">
+                                <span class="input-field-validation-icon"></span>
+                            </div>
+                            <div class="col-xs-12">
+                                <p class="input-field-validation-alert">
+                                    Please enter a valid name
+                                </p>
+                            </div>
                         </div>
 
-                        <div class="inputFocus-wrapper">
-                            <label class="email-input-label" for="email">Your email*</label>
-                            <input class="email-input" name="email" type="email" placeholder="Your email*" />
+                        <div class="input-field" data-type="mail">
+                            <div class="inputFocus-wrapper">
+                                <label class="email-input-label" for="youremail">Your email*</label>
+                                <input class="input-field-input" name="youremail" type="text" placeholder="Your email*">
+                                <span class="input-field-validation-icon"></span>
+                            </div>
+                            <div class="col-xs-12">
+                                <p class="input-field-validation-alert">
+                                    Please enter a valid email address
+                                </p>
+                            </div>
                         </div>
 
-                        <div class="inputFocus-wrapper">
-                            <label class="phone-input-label" for="phone">Your phone*</label>
-                            <input class="phone-input" name="phone" type="tel" placeholder="Your phone*" />
+                        <div class="input-field" data-type="number">
+                            <div class="inputFocus-wrapper">
+                                <label class="name-input-label" for="yourphone">Your phone*</label>
+                                <input class="input-field-input" name="yourphone" type="text" placeholder="Your phone*">
+                                <span class="input-field-validation-icon"></span>
+                            </div>
+                            <div class="col-xs-12">
+                                <p class="input-field-validation-alert">
+                                    Please enter a valid phone number
+                                </p>
+                            </div>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-8">
@@ -86,17 +111,33 @@ title: ASP Seach Agent List Item
                         </div>
 
 
-                        <div class="inputFocus-wrapper no-focus">
-                            <input class="checkbox-input" name="privacy" type="checkbox" />
-                            <label class="checkbox-input-label checkbox-label" for="privacy">I agree with the privacy, terms and conditions</label>
+                        <div class="input-field input-field-checkbox form-agree-container" data-type="checkbox">
+                            <div class="inputFocus-wrapper no-focus">
+                                <input class="checkbox-input" name="privacy" type="checkbox">
+                                <label for="privacy" class="checkbox-input-label checkbox-label">I agree with the privacy, terms and conditions</label>
+                            </div>
+
+                            <span class="input-field-validation-icon"></span>
+                            <div class="col-xs-12">
+                                <p class="input-field-validation-alert">
+                                    Please accept the terms and conditions
+                                </p>
+                            </div>
                         </div>
 
                         <p><small>This email will be copied to the local office of Tourism Australia for record and quality control purposes only. Tourism Australia is bound by its Privacy policy and this record will not be used for any marketing or contact purpose and will be destroyed after 6 months.</small></p>
-                        <p><small>If you do not wish Tourism Australia to receive a copy of this email then please tick this box.</small></p>
+                        <div class="inputFocus-wrapper no-focus">
+                            <input class="checkbox-input" name="receive-email-copy" type="checkbox" />
+                            <label class="checkbox-input-label checkbox-label" for="receive-email-copy"><small>If you do not wish Tourism Australia to receive a copy of this email then please tick this box.</small></label>
+                        </div>
+
+
+
+
                     </div>
                     <div class="col-xs-12 col-sm-3">
                         <div class="asp-search-agent-list-item-form-btn">
-                            <a href="#" class="btn-primary transparent">Send Email</a>
+                            <input onclick="return validateForm(this);" type="submit" value="Send Email" class="btn-primary transparent">
                         </div>
                     </div>
                 </div>

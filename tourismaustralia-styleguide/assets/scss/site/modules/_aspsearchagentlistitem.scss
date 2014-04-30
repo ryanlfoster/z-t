@@ -80,16 +80,11 @@
     overflow: hidden;
     -webkit-transform: translateZ(0);
 
-	.inputFocus-wrapper {
-		margin-bottom: pxtoem(15px);
-	}
-
 	.inputFocus-wrapper textarea {
-		height: 200px;
-
+		height: pxtoem(200px);
 
 		@include breakpoint(md){
-			height: 168px;
+			height: pxtoem(183px);
 		}
 	}
 }
@@ -145,12 +140,14 @@
 
 .asp-search-agent-list-item-form-btn {
 	text-align: center;
+    margin-top: 1em;
 
     @include breakpoint(md) {
     	text-align: right;
     }	
+}
 
-    a {
-    	width: 155px;
-    }
+.asp-search-agent-list-item-form-btn input[type=submit]{
+  width: 155px;
+  border:1px solid $btn-submit-border-color;
 }

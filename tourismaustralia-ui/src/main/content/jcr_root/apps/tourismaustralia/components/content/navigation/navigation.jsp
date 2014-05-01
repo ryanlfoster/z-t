@@ -83,6 +83,7 @@
                 </li>
                 </c:if>
             </ul>
+            <c:if test="${not empty navigation.megamenu1Title || not empty navigation.megamenu2Title || not empty navigation.megamenu3Title}">
             <ul class="nav-bar-nav nav-bar-left">
             <c:if test="${not empty navigation.megamenu1Title}">
                 <li id="nav-main-panel-1" class="has-children">
@@ -187,7 +188,7 @@
             </c:if>
             <c:if test="${not empty navigation.megamenu2Title}">
                 <li id="nav-main-panel-2" class="has-children">
-                    <a class="nav-toggle-panel" href="#nav-main-panel-2">${not empty navigation.megamenu2Title} <span class="icon icon-16 icon-arrow-down" aria-hidden="true"></span></a>
+                    <a class="nav-toggle-panel" href="#nav-main-panel-2">${navigation.megamenu2Title} <span class="icon icon-16 icon-arrow-down" aria-hidden="true"></span></a>
                     <ul class="nav-bar-panel">
                         <li class="nav-bar-panel-container">
                             <c:choose>
@@ -335,6 +336,7 @@
                 </li>
             </c:if>
             </ul>
+            </c:if>
             <div class="mobile-open-bar bar-fixed-scroll">
                 <ul class="tool-bar">
                     <li class="is-current"><a href="#">Holiday</a></li>

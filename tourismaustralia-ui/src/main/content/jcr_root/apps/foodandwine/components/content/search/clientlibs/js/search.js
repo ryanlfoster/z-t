@@ -112,11 +112,11 @@ var source = $("#searchMosaic").html();
         	counter : counter
         },
         success : function(msg) {
-        	 var data;
-             var obj;
+        	var data;
+            var obj;
             var articleCount;
-            for(var i=0;i<msg.length;i++){
-       		 articleCount=  msg[i].totalSearchCount;
+            for (var i=0;i<msg.length;i++) {
+       		 articleCount = msg[i].totalSearchCount;
             }
              data = JSON.stringify(msg);
              data = data.replace(/\[/g,"");
@@ -127,12 +127,12 @@ var source = $("#searchMosaic").html();
              obj.isGrid= type == 'grid' ? true : false;
              var template = Handlebars.compile(source);
              $(".mosaic").append(template(obj));
-             if(articleCount===undefined){
+             if(articleCount===undefined) {
              	articleCount = 0;
              }
-            if(articleCount <= 10){
+            if(articleCount <= 10) {
             	$(".type-spacing-120 .btn-secondary").hide();
-            }else{
+            }else {
             	$(".type-spacing-120 .btn-secondary").show();
             }
         

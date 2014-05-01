@@ -65,7 +65,7 @@ layout: layout-base.hbs
 
                     <!-- category title text start -->
                     <div class="hotornot-category">
-                        {{#parseJSON '{"title": "Youth"}'}}
+                        {{#parseJSON '{"title": "Aboriginal Australia"}'}}
                             <h2 class="hotornot-h2-responsive">
                                 {{#if title}}
                                     {{{title}}}
@@ -98,14 +98,49 @@ layout: layout-base.hbs
 
     <div class="hotornot-item">
         <div class="row l-center-1200 l-row-collapse">
-            <div class="col-xs-12 col-md-3" style="background-image: url(imgs/placeholders/hot_or_not_row.png);">
-                <!-- <img src="imgs/base/spacer.gif" /> -->
+            <div class="hotornot-item-category col-xs-12 col-md-3">
 
-                <!-- background image start
-                <div class="hotornot-background-image" style="background-image: url(imgs/placeholders/hot_or_not1.png);"></div>-->
-                <!-- background image end-->
+                <div class="hotornot-item-padding">
 
-                <img src="imgs/placeholders/hot_or_not_row.png" alt="" class="hotornot-category-image" />
+                    <!-- background image start -->
+                    <div class="hotornot-item-background-image" style="background-image: url(imgs/placeholders/hot_or_not_row.png);">
+                        <img src="imgs/placeholders/hot_or_not_row.png" alt="" class="hotornot-category-image" />
+                    </div>
+                    <!-- background image end -->
+
+                    <!-- line and diamond start -->
+                    <div class="hotornot-diamond theme-nature-border">
+                        <!-- icons, aboriginal_australia, adventure, art_culture, beaches,
+                        food_wine, island, nature_wildlife, outback, sports -->
+                        <img class="hotornot-diamond-img" src="imgs/icons/nature_wildlife.png" alt="">
+                    </div>
+                    <!-- line and diamond end -->
+
+                    <!-- close btn start -->
+                    <a href="#" class="btn-bubble hotornot-close-btn">
+        <span class="btn-bubble-button">
+              <img class="btn-bubble-std" src="imgs/icons/close_button_white_std.png" alt="">
+              <img class="btn-bubble-active" src="imgs/icons/hot_or_not_close_rol.png" alt="">
+        </span>
+                    </a>
+                    <!-- close btn end -->
+
+                    <!-- category title text start -->
+                    <div class="hotornot-category">
+                        {{#parseJSON '{"title": "ARTS, MUSIC & CULTURE"}'}}
+                            <h2 class="hotornot-item-h2-responsive">
+                                {{#if title}}
+                                    {{{title}}}
+                                {{else}}
+                                    Arts, Music & Culture
+                                {{/if}}
+                            </h2>
+                        {{/parseJSON}}
+                    </div>
+                    <!-- category title text end -->
+
+                </div>
+
 
 
             </div>
@@ -175,17 +210,15 @@ layout: layout-base.hbs
         {{> socialtiles }}
     {{/parseJSON}}
 
-
     {{#parseJSON '{
+        "promo_theme" : "special-offer-food-wine",
         "promo_image" : "restaurant_australia_image1",
-        "promo_title" : "Take a bike ride to Donovan&#769;s Beach",
-        "promo_text" : [
-            {"para" : "12KM to the north (For the intrepid explorer - you need a 4WD or a mountain bike. Another 4 km north from Emmagen. There is a slight track from the road into the beach following the creek for about 200 metres."}
-        ],
-        "promo_value" : "",
-        "promo_per" : ""
+        "promo_title" : "",
+        "promo_copy_image" : "restaurant_australia_image2",
+        "promo_text" : "",
+        "promo_link_text" : "Visit Restaurant Australia"
     }'}}
-        {{> specialoffer }}
+        {{> specialoffer_foodwine }}
     {{/parseJSON}}
 
 </div>

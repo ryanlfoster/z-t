@@ -2,15 +2,7 @@
   position: relative;
   padding: 0;
   @include breakpoint(sm) {
-    padding: 0 pxtoem(15px);
-  }
-}
-
-.hotornot-category-image {
-  width: 100%;
-  max-height: pxtoem(245px);
-  @include breakpoint(sm) {
-    max-height: pxtoem(430px);
+    //padding: 0 pxtoem(15px);
   }
 }
 
@@ -82,6 +74,13 @@
   border-right: none;
   border-left: none;
   text-align: center;
+  @include breakpoint(sm){
+    top: 0;
+  }
+  @include breakpoint(lg){
+    top: pxtoem(44px);
+  }
+
 }
 .hotornot-diamond-img {
   top: pxtoem(27px);
@@ -129,9 +128,91 @@
   display: table-cell;
 }
 
+//////////////////
+// HOT OR NOT ITEM
+//////////////////
 .hotornot-item {
   padding: 0;
   @include breakpoint(sm) {
-    padding: 0 pxtoem(15px);
+    //padding: 0 pxtoem(15px);
   }
+}
+
+.hotornot-category-image1 {
+
+  //max-height: pxtoem(245px);
+
+  @include breakpoint(sm){
+    height: inherit;
+  }
+  @include breakpoint(md){
+    height: pxtoem(100px);
+  }
+  @include breakpoint(lg){
+    max-height: pxtoem(430px);
+  }
+}
+
+.hotornot-category-image {
+  width: 100%;
+  max-height: pxtoem(364px);
+  opacity: 0;
+  @include breakpoint(sm) {
+    max-height: pxtoem(130px);
+  }
+  @include breakpoint(lg) {
+    max-height: pxtoem(430px);
+    opacity: 1;
+  }
+}
+
+.hotornot-item-background-image {
+
+  background-size: cover;
+  background-position: 50% 80%;
+  height: inherit;
+
+  @include breakpoint(sm){
+    height: inherit;
+  }
+  @include breakpoint(md){
+    height: pxtoem(130px);
+  }
+  @include breakpoint(lg){
+    height: inherit;
+  }
+}
+
+.hotornot-item-category {
+  padding: 0;
+}
+
+.hotornot-item-h2-responsive {
+
+  color: #fff;
+
+  font-size: pxtoem(30px);
+  //margin-bottom: 1em;
+  line-height: .9em;
+
+  @include breakpoint(sm){
+    font-size: pxtoem(42px);
+    margin-bottom: .2em;
+  }
+  @include breakpoint(md){
+    font-size: pxtoem(42px);
+    margin-bottom: .2em;
+  }
+  @include breakpoint(lg){
+    font-size: pxtoem(55px);
+    margin-bottom: .2em;
+
+  }
+}
+
+.hotornot-item-padding {
+  @include breakpoint(lg){
+    margin: 0.1875em 0.1875em 0 0;
+  }
+  position: relative;
 }

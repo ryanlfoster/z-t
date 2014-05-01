@@ -26,7 +26,7 @@ public class Diamond {
 	@DialogField(fieldLabel = "Center Text", fieldDescription = "Maximum 20 character limit", additionalProperties = @FieldProperty(name = "maxLength", value = "20"))
 	private final String centerText;
 
-	@DialogField(fieldLabel = "Bottom Text", fieldDescription = "Maximum 15 character limit", additionalProperties = @FieldProperty(name = "maxLength", value = "15"))
+	@DialogField(fieldLabel = "Bottom Text", fieldDescription = "Maximum 20 character limit", additionalProperties = @FieldProperty(name = "maxLength", value = "20"))
 	private final String bottomText;
 
 	public Diamond(SlingHttpServletRequest request) {

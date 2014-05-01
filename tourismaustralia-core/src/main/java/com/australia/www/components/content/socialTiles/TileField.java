@@ -26,7 +26,7 @@ public class TileField {
 	private String imagePath;
 
 	@DialogField(fieldLabel = "See more link")
-	@PathField
+	@PathField(rootPath = "/content")
 	private String link;
 
 	public void setImagePath(String imagePath) {

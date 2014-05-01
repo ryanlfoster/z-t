@@ -101,15 +101,19 @@ public class SocialTiles {
 
 			for (int tabNum = 2; tabNum <= 10; tabNum++) {
 				tile = new TileField();
-				
-				Image imageObj = new Image(resolver.getResource(thisResource, "tab" + tabNum + "/"), "image");
-				if (imageObj != null && imageObj.hasContent()) {
-					tile.setImagePath(imageObj.getFileReference());
+
+				Resource imageRes = resolver.getResource(thisResource, "tab" + tabNum + "/");
+				if (imageRes != null) {
+					Image imageObj = new Image(imageRes, "image");
+					if (imageObj != null && imageObj.hasContent()) {
+						tile.setImagePath(imageObj.getFileReference());
+					}
 				}
-				
-				imageObj = new Image(resolver.getResource(thisResource, "tab" + tabNum + "/"), "smallImage");
-				if (imageObj != null && imageObj.hasContent()) {
-					tile.setIconPath(imageObj.getFileReference());
+				if (imageRes != null) {
+					Image imageObj = new Image(imageRes, "smallImage");
+					if (imageObj != null && imageObj.hasContent()) {
+						tile.setIconPath(imageObj.getFileReference());
+					}
 				}
 				
 				tile.setTitle(properties.get("tab" + tabNum + "/title",

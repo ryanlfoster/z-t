@@ -11,9 +11,9 @@ layout: layout-base.hbs
 
         <div class="hotornot-images">
 
-            <div class="row l-center-1200">
-                {{#parseJSON '{"copy": "Explore your Australia"}'}}
-                    {{> linethroughtextfullhr}}
+            <div class="row l-center-1200 l-padding-b-standard-responsive">
+                {{#parseJSON '{"copy": "Explore your Australia", "main_heading_color": true}'}}
+                    {{> linethroughtext }}
                 {{/parseJSON}}
             </div>
 
@@ -96,11 +96,32 @@ layout: layout-base.hbs
     </div>
 
 
+    <div class="hotornot-item">
+        <div class="row l-center-1200 l-row-collapse">
+            <div class="col-xs-12 col-md-3" style="background-image: url(imgs/placeholders/hot_or_not_row.png);">
+                <!-- <img src="imgs/base/spacer.gif" /> -->
+
+                <!-- background image start
+                <div class="hotornot-background-image" style="background-image: url(imgs/placeholders/hot_or_not1.png);"></div>-->
+                <!-- background image end-->
+
+                <img src="imgs/placeholders/hot_or_not_row.png" alt="" class="hotornot-category-image" />
+
+
+            </div>
+            <div class="col-xs-12 col-md-9">
+                <!-- 3 column mosaic grid start -->
+                {{> mosaic_hotornot_grid_2_6 }}
+                <!-- 3 column mosaic grid end -->
+            </div>
+        </div>
+    </div>
+
 
     <!-- hot or not item start -->
     <div class="hotornot-item">
         <div class="row l-center-1200 l-row-collapse">
-            <div class="col-xs-3">
+            <div class="hotornot-category-item-fixed col-xs-31">
                 <img src="imgs/placeholders/hot_or_not_row.png" alt="" class="hotornot-category-image" />
 
                 <div class="hotornot-diamond theme-nature-border">
@@ -132,13 +153,16 @@ layout: layout-base.hbs
 
             </div>
 
-            <div class="col-xs-9">
+            <div class="hototnot-mosaic">
+                <div class="col-xs-12">
 
-                <!-- 3 column mosaic grid start -->
-                {{> category_results }}
-                <!-- 3 column mosaic grid end -->
+                    <!-- 3 column mosaic grid start -->
+                    {{> mosaic_hotornot_grid_2_6 }}
+                    <!-- 3 column mosaic grid end -->
 
+                </div>
             </div>
+
         </div>
     </div>
     <!-- hot or not item end -->

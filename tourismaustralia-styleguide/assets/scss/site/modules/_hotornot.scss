@@ -1,5 +1,9 @@
 .hotornot-selector {
   position: relative;
+  padding: 0;
+  @include breakpoint(sm) {
+    padding: 0 pxtoem(15px);
+  }
 }
 
 .hotornot-category-image {
@@ -45,9 +49,6 @@
   }
 }
 .hotornot-category {
-
-
-
   text-align: center;
   padding: 0 1em 1em;
 
@@ -115,5 +116,22 @@
   }
   @include breakpoint(lg){
     height: pxtoem(430px);
+  }
+}
+
+.hotornot-category-item-fixed {
+  width: pxtoem(320px);
+  position: relative;
+  display: table-cell;
+  vertical-align: top;
+}
+.hototnot-mosaic {
+  display: table-cell;
+}
+
+.hotornot-item {
+  padding: 0;
+  @include breakpoint(sm) {
+    padding: 0 pxtoem(15px);
   }
 }

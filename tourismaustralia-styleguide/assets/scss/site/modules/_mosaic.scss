@@ -123,21 +123,6 @@
 ///////////////////////////////////////
 /* 2 Column Mobile */
 .mosaic-mobile-two-column {
-  .label-destination {
-    text-align: left;
-    display: block;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    -o-text-overflow: ellipsis;
-    -ms-text-overflow: ellipsis;
-    max-width: 100%;
-    overflow: hidden;
-    /*@include breakpoint(md) {
-      overflow: visible;
-      max-width: inherit;
-      white-space: normal;
-    }*/
-  }
   .type-date-mosaic .month {
     display: none;
     @include breakpoint(lg) {
@@ -192,9 +177,26 @@
     left: 0px;
     padding: pxtoem(8px) pxtoem(12px);
     font-size: pxtoem(15px);
+
     @include breakpoint(md) {
       font-size: pxtoem(18px);
     }
+
+    // ellipsis to all labels
+    text-align: left;
+    display: block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    -ms-text-overflow: ellipsis;
+    max-width: 100%;
+    overflow: hidden;
+    /*@include breakpoint(md) {
+      overflow: visible;
+      max-width: inherit;
+      white-space: normal;
+    }*/
+
   }
 }
 

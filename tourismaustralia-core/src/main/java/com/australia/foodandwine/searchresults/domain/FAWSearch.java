@@ -28,11 +28,11 @@ public class FAWSearch {
 	private String templateName;
 	private String userName;
 	private String messagePosts;
-	private String postLink=StringUtils.EMPTY;
+	private String postLink = StringUtils.EMPTY;
 	private String linkChecker;
 	private String socialIconsWhite;
 	private String socialIconsBlack;
-	private String categoryTagName="";
+	private String categoryTagName = "";
 
 	public FAWSearch(long totalSearchCount, Page page, TagManager tagManager) {
 		ValueMap properties = page.getProperties();
@@ -54,10 +54,10 @@ public class FAWSearch {
 		String[] cattags = properties.get("cq:tags", new String[0]);
 		List<Tag> categoryTagList = TagUtils.getFoodAndWineCategoryTags(tagManager, cattags);
 		for (Tag tag : categoryTagList) {
-			if (!categoryTagName.equals("")){ 
+			if (!categoryTagName.equals("")) {
 				categoryTagName += ", ";
 			}
-			if (!categoryTagName.contains(tag.getTitle())){
+			if (!categoryTagName.contains(tag.getTitle())) {
 				categoryTagName += tag.getTitle();
 			}
 			if (StringUtils.countMatches(categoryTagName, ",") == 2) {
@@ -108,7 +108,6 @@ public class FAWSearch {
 			linkChecker = null;
 		}
 		this.totalSearchCount = totalSearchCount;
-
 	}
 
 	public String getCategoryTagName() {

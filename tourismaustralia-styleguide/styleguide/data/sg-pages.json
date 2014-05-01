@@ -1408,6 +1408,17 @@
                     ,
                 
             
+                "specialoffer_foodwine" : {
+                     "data" : {
+                        "title" : "specialoffer_foodwine",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'specialoffer_foodwine'}}"
+                }
+                
+                    ,
+                
+            
                 "summary" : {
                      "data" : {
                         "title" : "summary",

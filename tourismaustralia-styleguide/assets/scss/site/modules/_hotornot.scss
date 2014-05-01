@@ -43,18 +43,12 @@
 .hotornot-category {
   text-align: center;
   padding: 0 1em 1em;
-
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   @include breakpoint(md) {
     padding: 0 2em;
   }
-
-  //@include breakpoint(md) {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    //padding: 0 2em;
-  //}
-
 }
 
 .hotornot-like {
@@ -66,34 +60,7 @@
 
 }
 
-.hotornot-diamond {
-  position: absolute;
-  top: pxtoem(44px);
-  width: 100%;
-  border-top: none;
-  border-right: none;
-  border-left: none;
-  text-align: center;
-  @include breakpoint(sm){
-    top: 0;
-  }
-  @include breakpoint(lg){
-    top: pxtoem(44px);
-  }
 
-}
-.hotornot-diamond-img {
-  top: pxtoem(27px);
-  position: relative;
-}
-.hotornot-close-btn {
-  position: absolute;
-  top: .2em;
-  right: .2em;
-}
-.hotornot-titles {
-  //display: none;
-}
 
 .hotornot-background-image {
 
@@ -155,10 +122,10 @@
 
 .hotornot-category-image {
   width: 100%;
-  max-height: pxtoem(364px);
+  //max-height: pxtoem(364px);
   opacity: 0;
   @include breakpoint(sm) {
-    max-height: pxtoem(130px);
+    //max-height: pxtoem(130px);
   }
   @include breakpoint(lg) {
     max-height: pxtoem(430px);
@@ -173,46 +140,118 @@
   height: inherit;
 
   @include breakpoint(sm){
-    height: inherit;
-  }
-  @include breakpoint(md){
-    height: pxtoem(130px);
+    height: pxtoem(260px);
   }
   @include breakpoint(lg){
     height: inherit;
   }
 }
 
-.hotornot-item-category {
+.hotornot-item-tile {
   padding: 0;
+  position: relative;
 }
 
-.hotornot-item-h2-responsive {
 
-  color: #fff;
-
-  font-size: pxtoem(30px);
-  //margin-bottom: 1em;
-  line-height: .9em;
-
-  @include breakpoint(sm){
-    font-size: pxtoem(42px);
-    margin-bottom: .2em;
-  }
-  @include breakpoint(md){
-    font-size: pxtoem(42px);
-    margin-bottom: .2em;
-  }
-  @include breakpoint(lg){
-    font-size: pxtoem(55px);
-    margin-bottom: .2em;
-
-  }
-}
 
 .hotornot-item-padding {
   @include breakpoint(lg){
     margin: 0.1875em 0.1875em 0 0;
   }
   position: relative;
+}
+
+.hotornot-item-category {
+  text-align: center;
+  padding: 0 1em 6em;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  @include breakpoint(sm) {
+    padding-bottom: 5em;
+  }
+  @include breakpoint(md) {
+    padding-bottom: 3em;
+  }
+  @include breakpoint(lg) {
+    padding-bottom: 1em;
+  }
+}
+.hotornot-item-h2-responsive {
+  color: #fff;
+  font-size: pxtoem(56px);
+  line-height: .9em;
+  @include breakpoint(sm){
+    font-size: pxtoem(48px);
+  }
+  @include breakpoint(md){
+    font-size: pxtoem(60px);
+  }
+  @include breakpoint(lg){
+    font-size: pxtoem(56px);
+  }
+}
+
+.hotornot-show {
+  position: absolute;
+  bottom: 1em;
+  text-align: center;
+  z-index: 3;
+  width: 100%;
+  @include breakpoint(md){
+    display: none;
+  }
+  @include breakpoint(lg){
+
+  }
+}
+
+.hotornot-diamond {
+  position: absolute;
+  top: pxtoem(44px);
+  width: 100%;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  text-align: center;
+  @include breakpoint(sm){
+    top: pxtoem(20px);
+  }
+  @include breakpoint(md){
+    top: pxtoem(30px);
+  }
+  @include breakpoint(lg){
+    top: pxtoem(44px);
+  }
+}
+.hotornot-diamond-img {
+  top: pxtoem(27px);
+  position: relative;
+}
+.hotornot-close-btn {
+  position: absolute;
+  top: .2em;
+  right: .2em;
+}
+
+///////////////////
+// STATES
+//////////////////
+// if is-hotornot-hide-mobile, we hide the mosaic elements, show the +
+// and hide the -
+.is-hotnornot-hide-mobile1 {
+  .hotornot-show {
+    @include breakpoint(md){
+      display: none;
+    }
+  }
+  .hotornot-hide {
+    display: none;
+  }
+  .hotornot-grid {
+    display: none;
+    @include breakpoint(md){
+      display: inherit;
+    }
+  }
 }

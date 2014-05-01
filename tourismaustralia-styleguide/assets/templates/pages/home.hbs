@@ -96,9 +96,15 @@ layout: layout-base.hbs
     </div>
 
 
+
+
+
+
+
+    <!-- hot or not item start -->
     <div class="hotornot-item">
         <div class="row l-center-1200 l-row-collapse">
-            <div class="hotornot-item-category col-xs-12 col-md-3">
+            <div class="hotornot-item-tile col-xs-12 col-md-3">
 
                 <div class="hotornot-item-padding">
 
@@ -126,7 +132,7 @@ layout: layout-base.hbs
                     <!-- close btn end -->
 
                     <!-- category title text start -->
-                    <div class="hotornot-category">
+                    <div class="hotornot-item-category">
                         {{#parseJSON '{"title": "ARTS, MUSIC & CULTURE"}'}}
                             <h2 class="hotornot-item-h2-responsive">
                                 {{#if title}}
@@ -139,9 +145,18 @@ layout: layout-base.hbs
                     </div>
                     <!-- category title text end -->
 
+                    <!-- show button start -->
+                    <div class="hotornot-show">
+                        <a href="#" class="btn-bubble">
+        <span class="btn-bubble-button">
+              <img class="btn-bubble-std" src="imgs/icons/hot_or_not_refresh_std.png" alt=""/>
+              <img class="btn-bubble-active" src="imgs/icons/hot_or_not_refresh_rol.png" alt=""/>
+        </span>
+                        </a>
+                    </div>
+                    <!-- show button start -->
+
                 </div>
-
-
 
             </div>
             <div class="col-xs-12 col-md-9">
@@ -151,58 +166,7 @@ layout: layout-base.hbs
             </div>
         </div>
     </div>
-
-
-    <!-- hot or not item start -->
-    <div class="hotornot-item">
-        <div class="row l-center-1200 l-row-collapse">
-            <div class="hotornot-category-item-fixed col-xs-31">
-                <img src="imgs/placeholders/hot_or_not_row.png" alt="" class="hotornot-category-image" />
-
-                <div class="hotornot-diamond theme-nature-border">
-                    <!-- icons, aboriginal_australia, adventure, art_culture, beaches,
-                    food_wine, island, nature_wildlife, outback, sports -->
-                    <img class="hotornot-diamond-img" src="imgs/icons/nature_wildlife.png" alt="">
-                </div>
-
-                <a href="#" class="btn-bubble hotornot-close-btn">
-        <span class="btn-bubble-button">
-              <img class="btn-bubble-std" src="imgs/icons/close_button_white_std.png" alt="">
-              <img class="btn-bubble-active" src="imgs/icons/hot_or_not_close_rol.png" alt="">
-        </span>
-                </a>
-
-                <!-- category title text start -->
-                <div class="hotornot-category">
-                    {{#parseJSON '{"title": "NATURE & WILDLIFE"}'}}
-                        <h2 class="hotornot-h2-responsive">
-                            {{#if title}}
-                                {{{title}}}
-                            {{else}}
-                                Arts, Music & Culture
-                            {{/if}}
-                        </h2>
-                    {{/parseJSON}}
-                </div>
-                <!-- category title text end -->
-
-            </div>
-
-            <div class="hototnot-mosaic">
-                <div class="col-xs-12">
-
-                    <!-- 3 column mosaic grid start -->
-                    {{> mosaic_hotornot_grid_2_6 }}
-                    <!-- 3 column mosaic grid end -->
-
-                </div>
-            </div>
-
-        </div>
-    </div>
     <!-- hot or not item end -->
-
-
 
 
 

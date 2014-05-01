@@ -130,3 +130,42 @@ $type-specialoffer-colour: #00535e;
 
     }
 }
+
+/////////////////////////////////////
+// SPECIAL OFFER FOOD AND WINE THEME
+/////////////////////////////////////
+.special-offer-food-wine {
+  color: #FFF;
+  .specialoffer-title {
+    color: #FFF !important;
+  }
+  .row {
+    background-color: #000;
+  }
+  .specialoffer-content-image {
+    margin-top: 1em;
+    img {
+      max-width: 100%;
+    }
+  }
+  .specialoffer-content {
+    text-align: center;
+  }
+  .specialoffer-links a {
+    //display: initial;
+    @include breakpoint(sm) {
+      display: inline-block;
+    }
+    color: #FFF;
+    text-decoration: none;
+    font-size: 1em;
+    text-transform: uppercase;
+    border: 1px solid #FFF;
+    padding: .4em .8em;
+    margin-top: 2em;
+  }
+  .specialoffer-links a:hover {
+    color: #000;
+    background-color: #FFF;
+  }
+}

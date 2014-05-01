@@ -1,0 +1,51 @@
+---
+title: Special Offer Food and Wine
+note: note-specialoffer
+---
+
+<div class="specialoffer l-padding-b{{#if promo_theme}} {{promo_theme}}{{else}} special-offer-food-wine{{/if}}">
+    <div class="row">
+        <div class="col-xs-12 col-sm-7">
+
+            <div class="specialoffer-image">
+                <img src="imgs/placeholders/{{#if promo_image}}{{{promo_image}}}{{else}}restaurant_australia_image1{{/if}}.jpg" alt=""/>
+            </div>
+
+        </div>
+        <div class="col-xs-12 col-sm-5">
+
+            <div class="specialoffer-content">
+
+                {{#if promo_title}}
+                    <span class="specialoffer-title type-h3">
+                        {{{promo_title}}}
+                    </span>
+                {{/if}}
+
+                <div class="specialoffer-content-image">
+                {{#if promo_copy_image}}
+                   <img src="imgs/placeholders/{{{promo_copy_image}}}.jpg" alt=""/>
+                {{else}}
+                   <img src="imgs/placeholders/restaurant_australia_image2.jpg" alt=""/>
+                {{/if}}
+                </div>
+
+                {{#if promo_text}}
+                    <div class="specialoffer-text">
+                        {{#each promo_text}}
+                            <p>{{{this.para}}}</p>
+                        {{/each}}
+                    </div>
+                {{/if}}
+
+                <!-- offer links start -->
+                <div class="specialoffer-links">
+                    <a href="#">{{#if promo_link_text}}{{{promo_link_text}}}{{else}}Visit Restaurant Australia{{/if}}</a>
+                </div>
+                <!-- offer links end -->
+
+            </div>
+
+        </div>
+    </div>
+</div>

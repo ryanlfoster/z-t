@@ -15,13 +15,30 @@ title: Contact Us Form
         <form method="" action="#">
             <div class="col-xs-12 col-sm-4">
 
-                <div class="inputFocus-wrapper">
-                    <label class="name-input-label" for="searchinput">Type text to search</label>
-                    <input class="name-input" name="searchinput" type="text" placeholder="Type text to search" />
+                <div class="input-field" data-type="text">
+                    <div class="inputFocus-wrapper">
+                        <label class="name-input-label" for="yourname">Your name*</label>
+                        <input class="input-field-input" name="yourname" type="text" placeholder="Your name*">
+                        <span class="input-field-validation-icon"></span>
+                    </div>
+                    <div class="col-xs-12">
+                        <p class="input-field-validation-alert">
+                            Please enter a valid name
+                        </p>
+                    </div>
                 </div>
-                <div class="inputFocus-wrapper">
-                    <label class="name-input-label" for="searchinput">Type text to search</label>
-                    <input class="name-input" name="searchinput" type="text" placeholder="Type text to search" />
+
+                <div class="input-field" data-type="mail">
+                    <div class="inputFocus-wrapper">
+                        <label class="email-input-label" for="youremail">Your email*</label>
+                        <input class="input-field-input" name="youremail" type="text" placeholder="Your email*">
+                        <span class="input-field-validation-icon"></span>
+                    </div>
+                    <div class="col-xs-12">
+                        <p class="input-field-validation-alert">
+                            Please enter a valid email address
+                        </p>
+                    </div>
                 </div>
 
                 <div class="contactus-form-query-select">
@@ -40,7 +57,7 @@ title: Contact Us Form
                 </div>
             </div>
             <div class="col-xs-12 contactus-form-button">
-                <a href="#" class="btn-primary transparent">Send</a>
+                <input onclick="return validateForm(this);" type="submit" value="Send Email" class="btn-primary transparent">
             </div>
         </form>
 

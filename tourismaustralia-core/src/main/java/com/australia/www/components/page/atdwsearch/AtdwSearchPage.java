@@ -39,13 +39,13 @@ public final class AtdwSearchPage {
 
 	private final ATDWSearchResult results;
 
-	private final String term;
+	private String term;
 
-	private final String state;
+	private String state;
 
-	private final String region;
+	private String region;
 
-	private final String city;
+	private String city;
 
 	private final Resource localeResource;
 
@@ -71,9 +71,25 @@ public final class AtdwSearchPage {
 		}
 
 		term = request.getParameter(PathUtils.TERM_PARAM);
+		if(term == null || term.trim().isEmpty()) {
+			term = null;
+		}
+
 		state = request.getParameter(PathUtils.STATE_PARAM);
+		if(state == null || state.trim().isEmpty() || state.equals(".")) {
+			state = null;
+		}
+
 		region = request.getParameter(PathUtils.REGION_PARAM);
+		if(region == null || region.trim().isEmpty() || region.equals(".")) {
+			region = null;
+		}
+
 		city = request.getParameter(PathUtils.CITY_PARAM);
+		if(city == null || city.trim().isEmpty() || city.equals(".")) {
+			city = null;
+		}
+
 
 		final String pageString = request.getParameter(PathUtils.PAGE_PARAM);
 		int p;
@@ -104,7 +120,7 @@ public final class AtdwSearchPage {
 			categories.add(new Category(cat));
 		}
 
-		lastPage = (((int) results.getTotalResultCount()) / count) + 1;
+		lastPage = (int) Math.ceil(((double) results.getTotalResultCount()) / (double) count);
 		for(int i = 1; i <= lastPage; i++) {
 			pages.add(new Page(i));
 		}
@@ -139,6 +155,10 @@ public final class AtdwSearchPage {
 		return pages;
 	}
 
+	public boolean isShowResults() {
+		return term != null;
+	}
+
 	public class Page {
 
 		private final int pageNumber;
@@ -149,8 +169,8 @@ public final class AtdwSearchPage {
 
 		public Page(int pageNumber) {
 			this.pageNumber = pageNumber;
-			this.path = PathUtils.getAtdwSearchPath(localeResource, category.toString(), null, null,
-				null, term, pageNumber);
+			this.path = PathUtils.getAtdwSearchPath(localeResource, category.toString(), state, region,
+				city, term, pageNumber);
 			this.selected = pageNumber == page;
 		}
 

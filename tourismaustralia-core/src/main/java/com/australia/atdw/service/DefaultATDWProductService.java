@@ -8,6 +8,8 @@ import org.apache.felix.scr.annotations.Reference;
 import org.apache.felix.scr.annotations.Service;
 
 import java.util.Date;
+import java.util.Map;
+import java.util.Set;
 
 @Component(label = "ATDW Product Service", description = "ATDW Product Service", immediate = true)
 @Service
@@ -23,6 +25,10 @@ public class DefaultATDWProductService implements ATDWProductService {
 	@Override
 	public void deleteOldProducts(Date updatedBefore) {
 		atdwRepo.deleteOldProducts(updatedBefore);
+	}
+
+	@Override public Map<String, Map<String, Set<String>>> getLocationMap() {
+		return atdwRepo.getLocationMap();
 	}
 
 }

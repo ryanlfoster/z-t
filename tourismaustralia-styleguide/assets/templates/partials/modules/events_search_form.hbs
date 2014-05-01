@@ -8,33 +8,24 @@ title: Events Search Form
         <div class="col-xs-12">
             <div class="asp-search-form-wrapper">
                 <div class="asp-search-form-item">
-                    <label class="asp-search-form-label">Country</label>
-                    {{#parseJSON '{"data" : [{"option": "Australia"}, {"option": "United Kingdom"}]}'}}
+                    <label class="asp-search-form-label label-inline">Showing</label>
+                    {{#parseJSON '{"data" : [{"option": "Everything"}, {"option": "Major events"}]}'}}
                         {{> dropdown_white_background }}
                     {{/parseJSON}}
                 </div>
                 <div class="asp-search-form-item">
-                    <label class="asp-search-form-label">Postcode</label>
-                    {{#parseJSON '{
-                        "type" : "postcode"
-                    }'}}
-                        {{> input_white_background }}
-                    {{/parseJSON}}
-                </div>
-                <div class="asp-search-form-item">
-                    <label class="asp-search-form-label">State/County</label>
-                    {{#parseJSON '{"data" : [{"option": "New South Wales"}, {"option": "Victroria"}]}'}}
+                    {{#parseJSON '{"data" : [{"option": "Across Australia"}, {"option": "NSW"}]}'}}
                         {{> dropdown_white_background }}
                     {{/parseJSON}}
                 </div>
                 <div class="asp-search-form-item">
-                    <label class="asp-search-form-label">City</label>
-                    {{#parseJSON '{"data" : [{"option": "All cities"}, {"option": "Sydney"}]}'}}
+                    <label class="asp-search-form-label label-inline">From</label>
+                    {{#parseJSON '{"data" : [{"option": "March 2014"}, {"option": "April 2014"}]}'}}
                         {{> dropdown_white_background }}
                     {{/parseJSON}}
                 </div>
                 <div class="asp-search-form-item">
-                    <a href="#" class="btn-primary transparent">Go</a>
+                    <a href="#" class="btn-primary no-margin transparent">Refresh results</a>
                 </div>
             </div>
         </div>

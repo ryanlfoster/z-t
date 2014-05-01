@@ -354,7 +354,6 @@
 								class="input-field-validation-icon input-field-validation-icon-false categories-box-validation-icon"></span>
 						</p>
 					</div>
-
 				</div>
 			</div>
 
@@ -395,8 +394,9 @@
 
 					<span class="input-field-validation-icon"></span>
 					<div class="col-xs-12">
-						<p class="input-field-validation-alert">Please accept the
-							terms and conditions</p>
+				    	<p class="input-field-validation-alert">
+                           Please accept the terms and conditions
+                       	</p>					
 					</div>
 				</div>
 			</div>

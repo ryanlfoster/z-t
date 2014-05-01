@@ -42,7 +42,7 @@
 			<!-- END: selection -->
 			<!-- selection for mobile -->
 			<div class="l-display-md">
-				<select class="input-select input-select-small input-select-white-box">
+				<select class="input-select input-select-small input-select-white-box select-trigger-link">
 					<option value="#">Select place</option>
 					<option value="${exploreBy.capital}.html">ACT</option>
 					<option value="${exploreBy.nsw}.html">NSW</option>

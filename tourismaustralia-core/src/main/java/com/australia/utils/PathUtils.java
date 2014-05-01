@@ -32,7 +32,6 @@ public final class PathUtils {
 	public static final String CITY_PARAM = "city";
 	public static final String TERM_PARAM = "term";
 
-
 	public static final String FOOD_AND_WINE_EXPLORE = FOOD_AND_WINE_ROOT_PATH + "/explore/";
 	public static final String FOOD_AND_WINE_EXPLORE_AUSTRALIAN_CAPITAL_TERRITORY = FOOD_AND_WINE_EXPLORE
 		+ "australian-capital-territory";

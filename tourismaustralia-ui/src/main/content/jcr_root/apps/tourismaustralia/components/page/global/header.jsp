@@ -1,4 +1,10 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@include file="/apps/tourismaustralia/components/global.jsp"%>
+<%@ page import="com.australia.www.components.page.global.Global" %>
+<%@ page import="com.day.cq.wcm.api.WCMMode" %>
+
+<c:set var="global" value="<%=new Global(slingRequest) %>"/>
+<% WCMMode modeBefore = WCMMode.fromRequest(slingRequest); %>
 
 <header id="main-header">
     <div id="nav-main-header" class="header megamenu">
@@ -20,9 +26,15 @@
         </div>
         <%-- END: main notice bar--%>
 
+        <c:if test="${not global.isAuHomePage}">
+            <% WCMMode.DISABLED.toRequest(slingRequest); %>
+        </c:if>
         <%-- START: Navigation --%>
         <cq:include path="navigation" resourceType="tourismaustralia/components/content/navigation"/>
         <%-- END: Navigation --%>
+        <% modeBefore.toRequest(slingRequest); %>
+
+
 
     </div>
 </header>

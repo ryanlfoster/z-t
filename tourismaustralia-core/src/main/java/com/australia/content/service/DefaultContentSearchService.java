@@ -88,6 +88,19 @@ public class DefaultContentSearchService implements ContentSearchService {
 					ContentType.allTemplates());
 			}
 
+			// Either removeFromSearch property doesn't exist, or it exists but is not equal to true
+			String groupPrefix = propertyCount + "_group.";
+			String groupProp1Prefix = groupPrefix + "1_property";
+			String groupProp2Prefix = groupPrefix + "2_property";
+			String removeFromSearchPropName = "jcr:content/removeFromSearch";
+			predicateMap.put(groupPrefix + "p.or", "true");
+			predicateMap.put(groupProp1Prefix, removeFromSearchPropName);
+			predicateMap.put(groupProp1Prefix + ".operation", "unequals");
+			predicateMap.put(groupProp1Prefix + ".value", "true");
+			predicateMap.put(groupProp2Prefix, removeFromSearchPropName);
+			predicateMap.put(groupProp2Prefix + ".operation", "exists");
+			predicateMap.put(groupProp2Prefix + ".value", "false");
+
 			predicateMap.put(QueryUtils.OFFSET, Long.toString((parameters.getPage() - 1) * parameters.getCount()));
 			predicateMap.put(QueryUtils.LIMIT, Long.toString(parameters.getCount()));
 

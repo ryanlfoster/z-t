@@ -224,8 +224,9 @@ function validateForm(objsubmitbutton) {
 
 	$(inputfields).each(function(index, element){
 
+        var currentForm_element = currentForm.find(element);
 
-		if($(element).attr('data-isValid') != undefined && $(element).attr('data-isValid') !== "true"){
+		if(currentForm_element.attr('data-isValid') != undefined && currentForm_element.attr('data-isValid') !== "true"){
 			errorObjects.push(element);
 			errors++;
 		}

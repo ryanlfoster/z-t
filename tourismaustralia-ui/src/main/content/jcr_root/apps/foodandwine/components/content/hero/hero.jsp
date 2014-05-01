@@ -18,7 +18,7 @@
 			</noscript>
 		</div>
 		<!--Will show in IE8 -->
-		<img src='{hero.imagePath}.adapt.1663.high.jpg' alt='${hero.imageAltTag}' class="base-show-in-ie8">
+		<img src='${hero.imagePath}.adapt.1663.high.jpg' alt='${hero.imageAltTag}' class="base-show-in-ie8">
 	</div>
 	<div class="faw-hero-home-container">
 		<div class="icon-logo-withlines-container">

@@ -177,7 +177,7 @@
     left: 0px;
     padding: pxtoem(8px) pxtoem(12px);
     font-size: pxtoem(15px);
-    
+
     @include breakpoint(md) {
       font-size: pxtoem(18px);
     }

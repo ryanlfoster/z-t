@@ -95,30 +95,12 @@
   @include breakpoint(sm) {
     //padding: 0 pxtoem(15px);
   }
-}
-
-.hotornot-category-image1 {
-
-  //max-height: pxtoem(245px);
-
-  @include breakpoint(sm){
-    height: inherit;
-  }
-  @include breakpoint(md){
-    height: pxtoem(100px);
-  }
-  @include breakpoint(lg){
-    max-height: pxtoem(430px);
-  }
+  padding-bottom: pxtoem($bottom-spacing);
 }
 
 .hotornot-category-image {
   width: 100%;
-  //max-height: pxtoem(364px);
   opacity: 0;
-  @include breakpoint(sm) {
-    //max-height: pxtoem(130px);
-  }
   @include breakpoint(lg) {
     max-height: pxtoem(430px);
     opacity: 1;
@@ -126,11 +108,9 @@
 }
 
 .hotornot-item-background-image {
-
   background-size: cover;
   background-position: 50% 80%;
   height: inherit;
-
   @include breakpoint(sm){
     height: pxtoem(260px);
   }
@@ -143,8 +123,6 @@
   padding: 0;
   position: relative;
 }
-
-
 
 .hotornot-item-padding {
   @include breakpoint(lg){
@@ -221,12 +199,16 @@
     display: none;
   }
 }
+.hotornot-item-btn-bottom-position {
+  text-align: center;
+  margin: 1em;
+}
 ///////////////////
-// STATES
+// STATES for hotornot-item
 //////////////////
 // if is-hotornot-hide-mobile, we hide the mosaic elements, show the +
 // and hide the -
-.is-hotnornot-hide-mobile {
+.hotornot-item {
   .hotornot-show-btn {
     @include breakpoint(md){
       display: none;
@@ -243,38 +225,31 @@
     transition: 1s ease-in-out;
     max-height: 0;
     overflow: hidden;
-    @include breakpoint(sm){
-      max-height: 1500px;
-
-    }
-
     @include breakpoint(md){
       display: inherit;
+      -webkit-transition: inherit;
+      -moz-transition: inherit;
+      -o-transition: inherit;
+      -ms-transition: inherit;
+      transition: inherit;
+      max-height: 1500px;
     }
   }
 }
-.is-hotnornot-show-mobile {
+// plus has been clicked so we reveal the mosaic grid, swap the + for a -
+.hotornot-item.is-expanded {
   .hotornot-show-btn {
-
-  }
-  .hotornot-hide-btn {
     display: none;
   }
+  .hotornot-hide-btn {
+    display: block;
+  }
   .hotornot-item-grid {
-    -webkit-transition: 1s ease-in-out;
-    -moz-transition: 1s ease-in-out;
-    -o-transition: 1s ease-in-out;
-    -ms-transition: 1s ease-in-out;
-    transition: 1s ease-in-out;
-    max-height: 0;
-    overflow: hidden;
-    @include breakpoint(sm){
-      max-height: 1500px;
-
-    }
-
-    @include breakpoint(md){
-      display: inherit;
+    max-height: 1500px;
+  }
+  @include breakpoint(md){
+    .hotornot-hide-btn {
+      display: none;
     }
   }
 }

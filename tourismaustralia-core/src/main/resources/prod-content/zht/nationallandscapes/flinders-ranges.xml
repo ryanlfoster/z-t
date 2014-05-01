@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="22232" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[首頁]]></headline>
+            <href><![CDATA[/zht/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Tools and Campaigns]]></headline>
+            <href><![CDATA[/zht/tools-campaigns.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[澳洲國家地貌]]></headline>
+            <href><![CDATA[/zht/nationallandscapes.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[弗林德斯山脈]]></headline>
+            <href><![CDATA[/zht/nationallandscapes/flinders-ranges.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/Campaigns/national-landscapes-flinders-ranges.jpg]]></img_background>
+    <hdl_Title><![CDATA[弗林德斯山脈]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/national-landscapes-flinders-ranges-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/Campaigns/national-landscapes-flinders-ranges-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[yes]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[置身澳洲紅土中心，這裡處處洋溢著濃郁的土著文化和內陸美景。遊覽烏盧入、卡塔楚塔、麥當勞山脈、國王峽谷。]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[費蓮達山脈，澳洲費蓮達山脈，澳洲費蓮達，費蓮達公園，維憑拿龐，卓越山，亞加盧拿荒野保護區，布拉齊納峽谷，黑森徑，弗勒里雲半島，皮奇里奇鐵路線。]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[了解更多資料]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[澳洲國家地貌：弗林德斯山脈 - 澳洲旅遊局]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        置身澳洲紅土中心，這裡處處洋溢著濃郁的土著文化和內陸美景。遊覽烏盧入、卡塔楚塔、麥當勞山脈、國王峽谷。
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <StandardCampaignLayout isTemplate="1">
+    <opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+    <hdl_Title><![CDATA[]]></hdl_Title>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+    <con_Banner><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<DIV id=headerimage>
+<SCRIPT type=text/javascript src="../../static/js/jquery.cycle.all.latest.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+jQuery(document).ready(function() {
+jQuery('#headersliderwrapper').cycle({
+        fx:'fade',
+        slideExpr: '.headerslide'
+    });
+});
+</SCRIPT>
+
+<DIV id=headersliderwrapper>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-fli-01.jpg"> 
+<DIV class=headerslideinfo>維憑拿龐（Wilpena Pound），南澳（SA）</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-fli-02.jpg"> 
+<DIV class=headerslideinfo>奧森巴吉山（Mt Ohlssen Bagge），南澳（SA）</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-fli-03.jpg"> 
+<DIV class=headerslideinfo>費蓮達山脈（Flinders Ranges）單車遊，南澳（SA）</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-fli-04.jpg"> 
+<DIV class=headerslideinfo>黃足岩沙袋鼠</DIV></DIV></DIV></DIV>
+<DIV id=subpage-header-overlay></DIV>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule></con_Banner>
+    <con_Body><TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[弗林德斯山脈]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        在南澳州最大的山脈中追尋和地球一樣古老的故事。宏偉古老的弗林德斯山脈（Flinders Range）跨越三個國家公園，從水晶溪（Crystal Brook）到卡拉伯納湖（Lake Callabonna）綿延430多公里。攀登弗林德斯山脈南部的卓越山（Mt Remarkable）和中部巨大的天然環形山谷維佩納凹地（Wilpena Pound）。在乾燥的北部，有一片自然荒野保留地和一個天文臺可以去探索。在這個探險、寧靜和神靈和諧共存的古老的Outback故事中找尋自我。
+        <p><strong>弗林德斯山脈的四大樂趣</strong></p>
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[1. 尋找自己的冒險歷程]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-flinders-ranges-hl01.jpg" alt="Mt Ohlssen Bagge, SA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Mt Ohlssen Bagge, SA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        徒步前往維佩納凹地的邊緣，或乘坐觀光飛機俯瞰全景。從空中看去，它就像一個失落的世界，仿佛仍有恐龍在那裏出沒。在弗林德斯山脈南部，可以步行穿過維拉巴拉（Wirrabara）森林和本達里爾（Bundaleer）森林，或是嘗試一些真正刺激的山地單車活動。遠足前往卓越山山頂，或在昆恩（Quorn）騎駱駝去享用燭光晚餐。在崎嶇的北部，駕駛四驅越野車從梅爾羅斯（Melrose）前往阿卡羅拉荒野保護區（Arkaroola Wilderness Sanctuary）。攀登蓋蒙山脈（Gammon Range），或在阿卡羅拉的三個天文臺瞭望星空。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[2. 發掘和地球一樣古老的故事]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-flinders-ranges-hl02.jpg" alt="Campfire storytelling">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Campfire storytelling]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        隨同阿登亞瑪森哈（Adnyamathanha）導遊探索這些歷經歲月洗禮的山脈，了解各種bush tucker，聆聽關於這片土地如拉穆達（Yura Muda）的開天辟地傳說。聽聽巨蛇阿卡魯（Arkaroo）如何塑造了弗林德斯山脈的多種地貌。在幼拉布拉岩洞（Yourambulla Caves）、阿卡羅岩（Arkaroo Rock）、神聖峽谷（Sacred Canyon）以及錢伯斯峽谷（Chambers Gorge）欣賞古老的岩畫和石刻。駕車經由原住民夢幻路線（Aboriginal Dreaming Trail）前往尼帕幫那（Nepabunna）社區，在那裡和當地人聊天。在布拉齊納峽谷地質路徑（Brachina Gorge Geological Trail）上，追尋6億年的進化痕跡。或者參觀老維佩納牧場（Old Wilpena Station），原住民歷史和歐洲歷史在此交匯。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[3. 接近大自然]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-flinders-ranges-hl03.jpg" alt="Emus crossing the road">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Emus crossing the road]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        步行經過極為多樣的原生植物，前往維佩納凹地的邊緣。在布拉齊納峽谷觀察黃足岩袋鼠，或是偶爾出現的大袋鼠蹦跳著穿過阿卡羅拉的紅土地。與常駐的針鼴和岩袋鼠會面，聆聽100多種鳥類的歌聲。蜿蜒穿過弗林德斯山脈南部的洞穴、峽谷和森林，和北部弗羅姆湖（Lake Frome）閃爍發光的鹽盆。在弗卡斯哈-蓋蒙山脈國家公園裏面，在星空下露營，參觀伊塔洛維峽谷（Italowie Gorge）和維土拉峽谷（Weetootla Gorge）這些野生動物的天堂。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[4. 在Outback旅程中迷失自我]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-flinders-ranges-hl04.jpg" alt="Great Australian Cattle Drive, SA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Great Australian Cattle Drive, SA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        您可以徒步、騎單車、駕駛四輪驅動車、甚至可以牧牛穿過弗林德斯山脈。您可以沿1200公里長的希臣徑（Heysen Trail）從帕拉齊爾納峽谷（Parachilna Gorge）一直走到菲爾半島（Fleurieu Peninsula）的海灘； 沿900公里長的墨森徑（Mawson Trail）騎單車從阿得萊德山（Adelaide Hills）前往弗林德斯山脈里的小鎮布林曼（Blinman）；乘坐皮奇里奇火車從闊恩（Quorn）到奧古斯塔港（Port Augusta）；或在蒸汽鎮彼得伯勒（Peterborough）的聲光秀中，讓自己沉緬在當地多姿多彩的鐵路故事中。無論您採用哪種方式旅行，您都會發現古老的採礦小鎮、迷人的鄉村酒吧、珍稀的野生動物和令人驚嘆的outback景觀。
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights></con_Body>
+    <con_RHSModules><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<TABLE cellSpacing=0 cellPadding=0 width=298 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top align=center><!-- Google Map Start -->
+<SCRIPT type=text/javascript>
+function fireEvent(obj,evt){
+var fireOnThis = obj;
+if( document.createEvent ) {
+var evObj = document.createEvent('MouseEvents');
+evObj.initEvent( evt, true, false );
+fireOnThis.dispatchEvent(evObj);
+ } else if( document.createEventObject ) {
+fireOnThis.fireEvent('on'+evt);
+}
+}
+function clickLink(linkobj) {
+if (linkobj.getAttribute('onclick') == null) {
+if (linkobj.getAttribute('href')) document.location = linkobj.getAttribute('href');
+}
+else linkobj.onclick();
+}
+function loadjscssfile(filename, filetype){
+if (filetype=="js"){ //if filename is a external JavaScript file
+var fileref=document.createElement('script')
+fileref.setAttribute("type","text/javascript")
+fileref.setAttribute("src", filename)
+}
+else if (filetype=="css"){ //if filename is an external CSS file
+var fileref=document.createElement("link")
+fileref.setAttribute("rel", "stylesheet")
+fileref.setAttribute("type", "text/css")
+fileref.setAttribute("href", filename)
+fileref.setAttribute("media", "print")
+}
+if (typeof fileref!="undefined")
+document.getElementsByTagName("head")[0].appendChild(fileref)
+}
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+var icheckk=0;
+jQuery.each(jQuery.browser, function(i, val) {
+if(i=="msie" && jQuery.browser.version.substr(0,3)=="7.0")
+icheckk=1;
+});
+function myfun()
+{
+loadjscssfile("../../static/css/thickbox.css", "css");
+if(icheckk==1)
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='../../static/maps/zht/flindersranges/bigmap.html'  target='_blank'>&nbsp;列印|關閉此視窗|&nbsp; 或按Esc键</a></b>","../../static/maps/zht/flindersranges/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+else
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='javascript:window.print()' >&nbsp;列印|關閉此視窗|&nbsp; 或按Esc键</a></b>","../../static/maps/zht/flindersranges/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+}
+         </SCRIPT>
+<IFRAME style="MARGIN-BOTTOM: 20px; BORDER-TOP: black 1px solid; HEIGHT: 355px; BORDER-RIGHT: black 1px solid; BORDER-BOTTOM: black 1px solid; FLOAT: left; PADDING-BOTTOM: 5px; BORDER-LEFT: black 1px solid; BACKGROUND-COLOR: #333333" height=380 src="../../static/maps/zht/flindersranges/index.html" frameBorder=0 width=249 name=FRAMENAME scrolling=no></IFRAME><!-- Google Map end -->
+<DIV class=subpage-video-thumb style="TEXT-ALIGN: left"><A onclick="moduleTrackingWithTitle('lightbox-video','',false,'nationallandscapes-flindersrangeszht');" href="#" data-reveal-id="modalVideo"><IMG alt="" src="/contentimages/Campaigns/national-landscapes-video-zht.jpg"> </A></DIV>
+<DIV id=modalVideo class="reveal-modal video" style-="z-index: 103;"><A class=close-reveal-modal><SPAN class=icon></SPAN></A>
+<DIV class=video style="VISIBILITY: visible !important"><IFRAME height=315 src="//www.youtube.com/v/EjGZ3MaX9pE?version=3&amp;hl=en_GB" frameBorder=0 width=560></IFRAME></DIV></DIV></TD></TR></TBODY></TABLE>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule><Listing isTemplate="1">
+<anc_List1><![CDATA[/zht/explore/states/sa/sa-coober-pedy.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[更多澳洲風景]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/zht/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/zht/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/zht/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/zht/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/zht/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/zht/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/zht/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/zht/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/zht/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/zht/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/zht/Transport.aspx]]></anc_Transport>
+<hdl_Title><![CDATA[計劃您的假期]]></hdl_Title>
+<language><![CDATA[CHT]]></language>
+<stf_Accomodation><![CDATA[住宿]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[風景]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[旅行專家]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[目的地信息]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[Flinders Ranges and Outback]]></stf_DomesticRegion>
+<stf_Events><![CDATA[風景]]></stf_Events>
+<stf_Hire><![CDATA[租用]]></stf_Hire>
+<stf_Informationservices><![CDATA[信息服務]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[South Australia]]></stf_StateFilter>
+<stf_Tours><![CDATA[遊覽]]></stf_Tours>
+<stf_Transport><![CDATA[交通工具]]></stf_Transport>
+</PlanYourVisit></con_RHSModules>
+    <con_Category></con_Category>
+    <lst_Subpages>
+    </lst_Subpages>
+</StandardCampaignLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

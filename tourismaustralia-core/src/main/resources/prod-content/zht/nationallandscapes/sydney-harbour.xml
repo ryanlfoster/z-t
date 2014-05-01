@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="22253" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[首頁]]></headline>
+            <href><![CDATA[/zht/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Tools and Campaigns]]></headline>
+            <href><![CDATA[/zht/tools-campaigns.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[澳洲國家地貌]]></headline>
+            <href><![CDATA[/zht/nationallandscapes.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[悉尼海港]]></headline>
+            <href><![CDATA[/zht/nationallandscapes/sydney-harbour.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/Campaigns/national-landscapes-sydney-harbour.jpg]]></img_background>
+    <hdl_Title><![CDATA[悉尼海港]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/national-landscapes-sydney-harbour-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/Campaigns/national-landscapes-sydney-harbour-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[yes]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[美到令人歎為觀止的天然港灣打造甲悉尼（Sydney）這座城市。]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[Sydney Harbour, Sydney Opera House, Sydney Harbour Bridge, Aboriginal heritage, Royal Botanic Gardens, Mrs Macquarie’s Chair]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[了解更多資料]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[澳洲國家地貌：悉尼海港 - 澳洲旅遊局]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        美到令人歎為觀止的天然港灣打造甲悉尼（Sydney）這座城市。
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <StandardCampaignLayout isTemplate="1">
+    <opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+    <hdl_Title><![CDATA[]]></hdl_Title>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+    <con_Banner><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<DIV id=headerimage>
+<SCRIPT type=text/javascript src="../../static/js/jquery.cycle.all.latest.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+jQuery(document).ready(function() {
+jQuery('#headersliderwrapper').cycle({
+        fx:'fade',
+        slideExpr: '.headerslide'
+    });
+});
+</SCRIPT>
+
+<DIV id=headersliderwrapper>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-syd-01.jpg"> 
+<DIV class=headerslideinfo>悉尼海港國家公園（Sydney Harbour National Park），新南威爾斯（NSW）</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-syd-02.jpg"> 
+<DIV class=headerslideinfo>海岸步道，皇家國家公園（Royal National Park），新南威爾斯（NSW）</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-syd-03.jpg"> 
+<DIV class=headerslideinfo>美洲灣路徑（America Bay Track），庫靈蓋蔡司國家公園（Ku-ring-gai Chase National Park），新南威爾斯（NSW）</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-syd-04.jpg"> 
+<DIV class=headerslideinfo>百利頭路（Bradleys Head）景觀，新南威爾斯（NSW）</DIV></DIV></DIV></DIV>
+<DIV id=subpage-header-overlay></DIV>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule></con_Banner>
+    <con_Body><TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[悉尼海港]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        美到令人歎為觀止的天然港灣打造甲悉尼（Sydney）這座城市。 從夢幻時光（Dreamtime）到悉尼歌劇院（Sydney Opera House）和悉尼海港大橋（Sydney Harbour Bridge），這些現代奇觀一直是這塊生氣勃勃土地的核心靈魂所在。 您會發現國家公園、世界遺產所在地、原住民文化遺產和監獄歷史皆近在咫尺。 在純淨的海灘戲水並探索鮮為人知的小港灣，騎著自行車穿越寧靜的公園，看著太陽在海面上從崖頂緩緩升起。 悉尼（Sydney）的自然與文化景觀，沿著海岸和水道自港口延伸出去，就像是一幅活躍生動的織景畫，等待人們來發掘。
+        <p><strong>探索悉尼海港的五個方式</strong></p>
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[1. 悉尼（Sydney）的城市景觀體驗]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-sydney-harbour-hl01.jpg" alt="悉尼（Sydney）的城市景觀">]]></img_MainImage>
+                    <stf_Caption><![CDATA[悉尼（Sydney）的城市景觀]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        悉尼海港（Sydney Harbour）是世界上擁有最多樣化環境景觀的地方之一。 壯麗的海岸線創造無盡的自然觀景點，飽覽壯觀景色，讓人們有機會盡享自然風光。 登上悉尼海港大橋（Sydney Harbour Bridge）俯瞰全景，往東視野可延至悉尼角（Sydney Heads），往西可遠眺大藍山地區（Greater Blue Mountains）。 坐落在城邊的皇家植物園（Royal Botanic Gardens）是一座城市綠洲，讓人透過當初庫克船長（Captain Cook）航海時期所發現的稀有植物，深入探索澳洲的起源 。前往麥加里夫人石椅（Mrs. Macquarie’s Chair），將迷人美景盡收眼底，再花些時間好好探索岩石區（The Rocks），這裡是澳洲最古老的歐洲殖民地。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[2. 悉尼海港（Sydney Harbour）風景名勝]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-sydney-harbour-hl02.jpg" alt="在尼新園海灘（Nielson Park）浮潛">]]></img_MainImage>
+                    <stf_Caption><![CDATA[在尼新園海灘（Nielson Park）浮潛]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        悉尼海港（Sydney Harbour）的各大小島嶼遍佈於港灣，讓您一探澳洲原住民、囚犯及海洋歷史的故事。 從環形碼頭（Circular Quay）搭乘渡輪，出發探索丹尼森堡島（Denison）和山羊島（Goat）。 到名列世界遺產的鸚鵡島（Cockatoo Island）露營過夜，觀賞周圍城市燈火閃爍的美景。 登上古老的高桅橫帆船揚帆航行，回到過去，或是透過了解部落戰士（Tribal Warrior）發掘海港一帶的原住民歷史。 參加悉尼野生動物之旅（WILD LIFE Sydney）、到悉尼水族館（Sydney Aquarium）或壯觀的塔隆加動物園（Taronga Zoo），見識澳洲獨特的野生生物。 到尼新園海灘（Nielsen Park）浮潛，一路沿著玫瑰灣（Rose Bay）到沃森灣（Watsons Bay）步道。 來份炸魚及薯條，從沃森灣觀看城市美景與遊艇相互輝映，然後輕鬆寫意地散步到南角（South Head），享受壯麗景觀。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[3. 悉尼的國家公園]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-sydney-harbour-hl03.jpg" alt="海岸路線，皇家國家公園">]]></img_MainImage>
+                    <stf_Caption><![CDATA[海岸路線，皇家國家公園]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        悉尼的國家公園像趟探索澳洲歷史的旅程，其中保護著澳洲豐富的植物群與動物群、古老的原住民文化遺址和軍事堡壘等。 另外也有許多游泳地點和叢林漫步步道，可以觀察處於其自然棲息地中的野生動物們。 這片地貌景觀上的「綠色」焦點是幅員遼闊的悉尼海港國家公園（Sydney Harbour National Park），在迷人的杰克遜港（Port Jackson）入口坐擁北角和南角海濱。 在古老的檢疫站（Quarantine Station）稍事逗留，這裡是 1830 年代第一批移民船隻抵達的地方。 別忘了注意是否能看到進行冬季遷徙的鯨魚。 您可以從中岬（Middle Head）遠眺太平洋，直到地平線的那一頭。 加入志工的行列，讓叢林重獲新生。 到城市南端，踏上皇家國家公園（Royal National Park）的海邊步道，從本迪納（Bundeena）到奥特福德（Otford），一路飽覽懸崖、海灘和驚人美景。 單單在皇家國家公園就有超過 300 種鳥類。 在北邊，庫靈蓋蔡司國家公園（Ku-ring-gai Chase National Park）融合了叢林和海灣美景，此地距離美麗的沙灘僅投石之遠。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[4. 原住民體驗]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-sydney-harbour-hl04.jpg" alt="原住民探索之旅">]]></img_MainImage>
+                    <stf_Caption><![CDATA[原住民探索之旅]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        散布各處的石雕、貝丘、營地、傷痕累累的樹木和印畫，在在見證了原住民與這片土地淵遠流長的緊密關係。 到岩石區（The Rocks），在原住民導遊的帶領下短期流浪，探索卡地哥族（Cadigal）族人的傳統和文化事務。 航遊至帕拉馬塔（Parramatta），沿著河濱步道漫步，在帕拉馬塔公園裡探尋傷痕累累的的樹木。 參加原住民探索之旅到庫靈蓋蔡司國家公園或皇家國家公園，沿著布朗特（Bronte）到邦代（Bondi）的海濱步道尋找石雕的蹤跡。 想一探當代原住民文化的風采，可以前往班加拉舞蹈劇院（Bangarra Dance Theatre）觀賞表演，並到雷德芬（Redfern）的紫色高納（Purple Goanna）餐廳，或是維多利亞公園（Victoria Park）裡的園丁小屋咖啡廳（Gardener’s Lodge Caf&eacute;）品嘗叢林食物。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[5. 海港和海岸旅程]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-sydney-harbour-hl05.jpg" alt="划艇，皇家國家公園">]]></img_MainImage>
+                    <stf_Caption><![CDATA[划艇，皇家國家公園]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        這片地區是個水上活動天堂，從在海灘邊滑浪、出航以及在海港沙灘站立滑浪等，應有盡有。 在這裡隨處於水道間划艇，找個專屬於自己的迷人角落。 到當地最熱門的海灘，如布朗特（Bronte）或淡水處（Freshwater）游個泳清涼一下，或到岩石水潭漫步。 航遊於海港的水域上，或參加當地安排的海上游泳。 到悉尼奧林匹克公園（Sydney Olympic Park）的二百年紀念公園（Bicentennial Park）河邊濕地觀賞多種水鳥，或到帕拉馬塔河（Parramatta River）僅存的最大片紅樹林走一走。 參加浮潛探險之旅，發掘該處豐富的海底生物，到克洛威利（Clovelly）或許能一睹「藍光」－也就是在此棲息的藍唇魚－的風采，或是到禿島（Bare Island）觀賞沙區魟魚和五彩繽紛的海綿。 到戈登灣（Gordon’s Bay）水下自然路徑（Underwater Nature Trail）潛水，這裡是悉尼最刺激的潛水地點之一，有機會看到章魚、烏賊和五顏六色的海蛞蝓。
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights></con_Body>
+    <con_RHSModules><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<TABLE cellSpacing=0 cellPadding=0 width=298 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top align=center><!-- Google Map Start -->
+<SCRIPT type=text/javascript>
+function fireEvent(obj,evt){
+ var fireOnThis = obj;
+ if( document.createEvent ) {
+   var evObj = document.createEvent('MouseEvents');
+   evObj.initEvent( evt, true, false );
+   fireOnThis.dispatchEvent(evObj);
+ } else if( document.createEventObject ) {
+   fireOnThis.fireEvent('on'+evt);
+ }
+}function clickLink(linkobj) {
+     if (linkobj.getAttribute('onclick') == null) {
+     if (linkobj.getAttribute('href')) document.location = linkobj.getAttribute('href');
+     }
+     else linkobj.onclick();
+}
+function loadjscssfile(filename, filetype){
+ if (filetype=="js"){ //if filename is a external JavaScript file
+  var fileref=document.createElement('script')
+  fileref.setAttribute("type","text/javascript")
+  fileref.setAttribute("src", filename)
+ }
+ else if (filetype=="css"){ //if filename is an external CSS file
+  var fileref=document.createElement("link")
+  fileref.setAttribute("rel", "stylesheet")
+  fileref.setAttribute("type", "text/css")
+  fileref.setAttribute("href", filename)
+  fileref.setAttribute("media", "print")
+ }
+ if (typeof fileref!="undefined")
+  document.getElementsByTagName("head")[0].appendChild(fileref)
+}
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+var icheckk=0;
+jQuery.each(jQuery.browser, function(i, val) {
+if(i=="msie" && jQuery.browser.version.substr(0,3)=="7.0")
+icheckk=1;
+});
+function myfun()
+{
+loadjscssfile("../../static/css/thickbox.css", "css");
+if(icheckk==1)
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='../../static/maps/zht/sydneyharbour/bigmap.html'  target='_blank'>&nbsp;列印|關閉此視窗|&nbsp; 或按Esc键</a></b>","../../static/maps/zht/sydneyharbour/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+else
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='javascript:window.print()' >&nbsp;列印|關閉此視窗|&nbsp; 或按Esc键</a></b>","../../static/maps/zht/sydneyharbour/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+}
+         </SCRIPT>
+<IFRAME style="MARGIN-BOTTOM: 20px; BORDER-TOP: black 1px solid; HEIGHT: 355px; BORDER-RIGHT: black 1px solid; BORDER-BOTTOM: black 1px solid; FLOAT: left; PADDING-BOTTOM: 5px; BORDER-LEFT: black 1px solid; BACKGROUND-COLOR: #333333" height=380 src="../../static/maps/zht/sydneyharbour/index.html" frameBorder=0 width=249 name=FRAMENAME scrolling=no></IFRAME><!-- Google Map end -->
+<DIV class=subpage-video-thumb style="TEXT-ALIGN: left"><A onclick="moduleTrackingWithTitle('lightbox-video','',false,'nationallandscapes-sydneyharbourzht');" href="#" data-reveal-id="modalVideo"><IMG alt="" src="/contentimages/Campaigns/national-landscapes-video-zht.jpg"></A> </DIV>
+<DIV id=modalVideo class="reveal-modal video" style-="z-index: 103;"><A class=close-reveal-modal><SPAN class=icon></SPAN></A>
+<DIV class=video style="VISIBILITY: visible !important"><IFRAME height=315 src="//www.youtube.com/v/EjGZ3MaX9pE?version=3&amp;hl=en_GB" frameBorder=0 width=560></IFRAME></DIV></DIV></TD></TR></TBODY></TABLE>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule><Listing isTemplate="1">
+<anc_List1><![CDATA[/zht/explore/itineraries/nsw-3days-sydney.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[更多關於澳洲旅遊的好主意]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/zht/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/zht/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/zht/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/zht/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/zht/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/zht/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/zht/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/zht/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/zht/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/zht/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/zht/Transport.aspx]]></anc_Transport>
+<hdl_Title><![CDATA[計劃前往悉尼海港的旅途]]></hdl_Title>
+<language><![CDATA[CHT]]></language>
+<stf_Accomodation><![CDATA[Accommodation]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[Sydney]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[Attractions]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[Find a travel agent near you]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[Destination Information]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[Events]]></stf_Events>
+<stf_Hire><![CDATA[Hire]]></stf_Hire>
+<stf_Informationservices><![CDATA[Information]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[New South Wales]]></stf_StateFilter>
+<stf_Tours><![CDATA[Tours]]></stf_Tours>
+<stf_Transport><![CDATA[Transport]]></stf_Transport>
+</PlanYourVisit></con_RHSModules>
+    <con_Category></con_Category>
+    <lst_Subpages>
+    </lst_Subpages>
+</StandardCampaignLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

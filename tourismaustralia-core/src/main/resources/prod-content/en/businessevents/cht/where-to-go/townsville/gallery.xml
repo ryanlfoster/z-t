@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" ?>
+<BEBaseFoundation pageID="20344" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[首頁]]></headline>
+            <href><![CDATA[/zht/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Business Events]]></headline>
+            <href><![CDATA[/zht/21974.ignore]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Where to go]]></headline>
+            <href><![CDATA[/businessevents/cht/where-to-go.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[Townsville]]></headline>
+            <href><![CDATA[/businessevents/cht/where-to-go/townsville.xml]]></href>
+        </element>
+<element level="6">
+            <headline><![CDATA[Gallery]]></headline>
+            <href><![CDATA[/businessevents/cht/where-to-go/townsville/gallery.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <hdlPageTitle><![CDATA[Gallery]]></hdlPageTitle>
+    <img_background><![CDATA[]]></img_background>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_not_in_sitemap><![CDATA[No]]></opt_not_in_sitemap>
+    <opt_show_in_navigation><![CDATA[Show]]></opt_show_in_navigation>
+    <stf_MetaKeywords><![CDATA[]]></stf_MetaKeywords>
+    <stf_meta_keywords><![CDATA[行程、相片、飯店、活動、個案研究、場地、新活動、湯斯維爾（Townsville）]]></stf_meta_keywords>
+    <stf_meta_description><![CDATA[尋找在湯斯維爾舉辦商務活動的資訊。 適用於活動規劃者的行程、個案研究、圖片和其他實用工具。]]></stf_meta_description>
+    <stf_NavSubHeader><![CDATA[]]></stf_NavSubHeader>
+    <stf_NavTitle><![CDATA[相簿]]></stf_NavTitle>
+    <stf_PageTitle><![CDATA[公會專業知識 - 相簿]]></stf_PageTitle>
+    <conMainContent>
+        <BELayoutT6 isTemplate="1">
+    <stf_Header><![CDATA[湯斯維爾]]></stf_Header>
+    <con_sidebar>
+        <BEGallerySidebarDynamicLinks isTemplate="1">
+    <stf_Header><![CDATA[圖片類別]]></stf_Header>
+    <stf_SubHeader><![CDATA[目的地]]></stf_SubHeader>
+    <dyn_ancs>
+        <dyn_anc><![CDATA[<a href="/businessevents/cht/where-to-go/adelaide/gallery.xml" target="_self">阿得萊德</a>]]></dyn_anc>
+        <dyn_anc><![CDATA[<a href="/businessevents/cht/where-to-go/perth/gallery.xml" target="_self">柏斯</a>]]></dyn_anc>
+        <dyn_anc><![CDATA[<a href="/businessevents/cht/where-to-go/brisbane/gallery.xml" target="_self">布里斯本</a>]]></dyn_anc>
+        <dyn_anc><![CDATA[<a href="/businessevents/cht/where-to-go/sunshine-coast/gallery.xml" target="_self">陽光海岸</a>]]></dyn_anc>
+        <dyn_anc><![CDATA[<a href="/businessevents/cht/where-to-go/cairns/gallery.xml" target="_self">凱恩斯</a>]]></dyn_anc>
+        <dyn_anc><![CDATA[<a href="/businessevents/cht/where-to-go/sydney/gallery.xml" target="_self">悉尼</a>]]></dyn_anc>
+        <dyn_anc><![CDATA[<a href="/businessevents/cht/where-to-go/canberra/gallery.xml" target="_self">坎培拉</a>]]></dyn_anc>
+        <dyn_anc><![CDATA[<a href="/businessevents/cht/where-to-go/tasmania/gallery.xml" target="_self">塔斯曼尼亞</a>]]></dyn_anc>
+        <dyn_anc><![CDATA[<a href="/businessevents/cht/where-to-go/gold-coast/gallery.xml" target="_self">黃金海岸</a>]]></dyn_anc>
+        <dyn_anc><![CDATA[<a href="/businessevents/cht/where-to-go/townsville/gallery.xml" target="_self">湯斯維爾</a>]]></dyn_anc>
+        <dyn_anc><![CDATA[<a href="/businessevents/cht/where-to-go/melbourne/gallery.xml" target="_self">墨爾本</a>]]></dyn_anc>
+        <dyn_anc><![CDATA[<a href="/businessevents/cht/where-to-go/whitsundays/gallery.xml" target="_self">降靈島</a>]]></dyn_anc>
+        <dyn_anc><![CDATA[<a href="/businessevents/cht/where-to-go/northern-territory/gallery.xml" target="_self">北領地</a>]]></dyn_anc>
+    </dyn_ancs>
+</BEGallerySidebarDynamicLinks><BEGallerySidebarDynamicLinks isTemplate="1">
+    <stf_Header><![CDATA[]]></stf_Header>
+    <stf_SubHeader><![CDATA[體驗]]></stf_SubHeader>
+    <dyn_ancs>
+        <dyn_anc><![CDATA[<a href="/businessevents/cht/why-australia/gallery/dining-gallery.xml" target="_self">用餐</a>]]></dyn_anc>
+        <dyn_anc><![CDATA[<a href="/businessevents/cht/why-australia/gallery/team-building-gallery.xml" target="_self">團隊活動</a>]]></dyn_anc>
+        <dyn_anc><![CDATA[<a href="/businessevents/cht/why-australia/gallery/venues-gallery.xml" target="_self">場地</a>]]></dyn_anc>
+        <dyn_anc><![CDATA[<a href="/businessevents/cht/why-australia/gallery/events-gallery.xml" target="_self">活動</a>]]></dyn_anc>
+    </dyn_ancs>
+</BEGallerySidebarDynamicLinks>
+    </con_sidebar>
+    <con_gallery>
+        <BEGallerygallery isTemplate="1">
+    <lst_images>
+        <lst_image>
+            <url>/businessevents/cht/where-to-go/townsville/21627.xml</url>
+            <img_photo><![CDATA[/contentimages/business-events/Light-box-Townsville/STO_TQ_102167_Townsville_TV_event.jpg]]></img_photo>
+            <stf_title><![CDATA[湯斯維爾電視活動]]></stf_title>
+            <img_thumbnail><![CDATA[/contentimages/business-events/Thumb-sml-Townsville/STO_TQ_102167_Townsville_TV_event.jpg]]></img_thumbnail>
+            <img_NewTab><![CDATA[]]></img_NewTab>
+            <img_NewTabRight><![CDATA[]]></img_NewTabRight>
+        </lst_image>
+        <lst_image>
+            <url>/businessevents/cht/where-to-go/townsville/21630.xml</url>
+            <img_photo><![CDATA[/contentimages/business-events/Light-box-Townsville/STO_TQ_034337_Magnetic_Island.jpg]]></img_photo>
+            <stf_title><![CDATA[湯斯維爾海岸外的磁島]]></stf_title>
+            <img_thumbnail><![CDATA[/contentimages/business-events/Thumb-sml-Townsville/STO_TQ_034337_Magnetic_Island.jpg]]></img_thumbnail>
+            <img_NewTab><![CDATA[]]></img_NewTab>
+            <img_NewTabRight><![CDATA[]]></img_NewTabRight>
+        </lst_image>
+        <lst_image>
+            <url>/businessevents/cht/where-to-go/townsville/21626.xml</url>
+            <img_photo><![CDATA[/contentimages/business-events/Light-box-Townsville/STO_TQ_034214_Ross_River_Marina.jpg]]></img_photo>
+            <stf_title><![CDATA[羅斯河碼頭（Ross River Marina），湯斯維爾]]></stf_title>
+            <img_thumbnail><![CDATA[/contentimages/business-events/Thumb-sml-Townsville/STO_TQ_034214_Ross_River_Marina.jpg]]></img_thumbnail>
+            <img_NewTab><![CDATA[]]></img_NewTab>
+            <img_NewTabRight><![CDATA[]]></img_NewTabRight>
+        </lst_image>
+        <lst_image>
+            <url>/businessevents/cht/where-to-go/townsville/21629.xml</url>
+            <img_photo><![CDATA[/contentimages/business-events/Light-box-Townsville/STO_TQ_034476_-Swimming_Hole_Tully.jpg]]></img_photo>
+            <stf_title><![CDATA[塔利水潭，湯斯維爾區]]></stf_title>
+            <img_thumbnail><![CDATA[/contentimages/business-events/Thumb-sml-Townsville/STO_TQ_034476_-Swimming_Hole_Tully.jpg]]></img_thumbnail>
+            <img_NewTab><![CDATA[]]></img_NewTab>
+            <img_NewTabRight><![CDATA[]]></img_NewTabRight>
+        </lst_image>
+    </lst_images>
+</BEGallerygallery>
+    </con_gallery>  
+ </BELayoutT6>
+    </conMainContent>
+    <lstNavigation>
+    </lstNavigation>
+</BEBaseFoundation>

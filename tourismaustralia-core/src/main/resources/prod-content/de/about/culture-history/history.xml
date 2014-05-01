@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="200" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Startseite]]></headline>
+            <href><![CDATA[/de/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Über]]></headline>
+            <href><![CDATA[/de/about.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Geschichte]]></headline>
+            <href><![CDATA[/de/about/culture-history/history.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/about-culture-history-history.jpg]]></img_background>
+    <hdl_Title><![CDATA[Geschichte]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/about-culture-history-history-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/about-culture-history-history-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[no]]></opt_PartnerLead>
+    <stf_description><![CDATA[Entdecken Sie die spannende Geschichte Australiens und erfahren Sie, wie sich das Land von der Str&auml;flingskolonie zum Ferienparadies entwickelte.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[Australian War Memorial, Canberra, ACT.  &copy; Tourism Australia]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[Australien Geschichte, Australiens Geschichte ]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Lesen sie mehr]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Australiens Geschichte]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <PlanYourHolidayBox isTemplate="1">
+    <anc_MoreLink><![CDATA[]]></anc_MoreLink>
+    <hdl_Headline><![CDATA[Planen Sie Ihren Urlaub]]></hdl_Headline>
+    <language><![CDATA[DEU]]></language>
+    <opt_IsOnHomepage><![CDATA[]]></opt_IsOnHomepage>
+    <stf_MenuIconClass><![CDATA[]]></stf_MenuIconClass>
+    <stf_More><![CDATA[More]]></stf_More>
+    <stf_PlanYourHolidayTitle><![CDATA[Plan your holiday]]></stf_PlanYourHolidayTitle>
+    <lst_PageLinks>
+        <lst_PageLink>
+            <url><![CDATA[/de/plan/plan-your-trip/find-travel-agent.xml]]></url>
+            <hdl_Title><![CDATA[Finden Sie ein Reiseb&uuml;ro]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/de/plan/plan-your-trip/getting-there.xml]]></url>
+            <hdl_Title><![CDATA[Anreise nach Australien]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/de/plan/plan-your-trip/accommodation.xml]]></url>
+            <hdl_Title><![CDATA[Unterkunft]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/de/plan/plan-your-trip/tours.xml]]></url>
+            <hdl_Title><![CDATA[Touren suchen]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/de/plan/plan-your-trip/specialoffers.xml]]></url>
+            <hdl_Title><![CDATA[Sonderangebote*]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+    </lst_PageLinks>
+</PlanYourHolidayBox>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <FeatureContent isTemplate="1">
+    <hdl_Title><![CDATA[Australiens Geschichte]]></hdl_Title> 
+    <stf_MoreLinkTitle><![CDATA[]]></stf_MoreLinkTitle>
+    <txt_MainContent><![CDATA[
+        Erfahren Sie Interessantes &uuml;ber diesen zeitlosen Aborigine-Kontinent und wie er sich zun&auml;chst zu einer englischen Str&auml;flingskolonie und sp&auml;ter zu einem modernen, multikulturellen Staat wandelte. 
+        <p><strong>Der Traum der Aborigines auf einem zeitlosen Kontinent</strong> <br />
+        Australiens Aborigines leben bereits seit &uuml;ber 50.000 Jahren in der einzigartigen und herausfordernden Natur dieses Landes. Es wird davon ausgegangen, dass die ersten australischen Ureinwohner w&auml;hrend der letzten Eiszeit mit dem Boot aus S&uuml;dostasien kamen. Zur Zeit der europ&auml;ischen Einwanderung lebten rund 1 Millionen Aborigines in 300 Volksstaaten oder Sippen auf dem gesamten Kontinent und sprachen 250 Sprachen und 700 Dialekte. Damals waren die Aborigines J&auml;ger und Sammler und ihr Handel, die Suche nach Wasser und Nahrung sowie ihre rituellen, totemischen Zusammenk&uuml;nfte f&uuml;hrten Sie durch weite Teile des Landes. Damals wie heute hatte jede Sippe eine spirituelle Verbindung mit einem bestimmten Teil des Landes. </p>
+        <p>Trotz der Vielfalt ihrer Heimatgebiete – von den W&uuml;sten des Outbacks &uuml;ber tropische Regenw&auml;lder bis hin zu schneebedeckten Bergen – haben alle St&auml;mme der Aborigines eine tiefe und spirituelle Verbindung mit der zeitlosen, magischen Traumzeit bewahrt. In den Mythen der Dreamtime, der Sch&ouml;pfung der Erde, wurden s&auml;mtliche Aspekte des Lebens von totemischen Geisterahnen erschaffen. Diese Geisterahnen verbinden auch heute noch in jedem Aspekt der <a href="/de/explore/things-to-do/aboriginal-australia.xml" target="_self">Kultur der Aborigines</a> das Land, die Naturelemente und Stammesterritorien sowie die Vergangenheit, Gegenwart und Zukunft. </p>
+        <p><strong>Gro&szlig;britannien bringt seine Strafgefangenen <br />
+        </strong>„Terra Australis“ war die letzte, von den europ&auml;ischen Entdeckern entdeckte Landmasse. Ger&uuml;chte von diesem mystischen Land und dessen Reicht&uuml;mern inspirierten die Entdecker zu ihrer Reise ins Unbekannte. Erst mit der Landung von Captain James Cook in der Botany Bay im Jahre 1770 wurde das gro&szlig;e S&uuml;dland jedoch von den Europ&auml;ern offiziell in Besitz genommen. </p>
+        <p>Als L&ouml;sung f&uuml;r &uuml;berf&uuml;llte Gef&auml;ngnisse in England und die durch die Amerikanische Revolution entstandene Zerr&uuml;ttung schlug der Entdecker und Botaniker Joseph Banks New South Wales als Ort f&uuml;r eine neue Strafkolonie vor. Am 26. Januar 1788 lief die Erste Flotte von 11 Schiffen mit 1500 Menschen an Bord – davon die H&auml;lfte Strafgefangene – im Sydney Harbour ein. Bis zum Ende der Strafgefangenentransporte im Jahre 1868 kamen 160.000 M&auml;nner und Frauen als Strafgefangene nach Australien. </p>
+        <p>Freie Siedler str&ouml;mten ab den 1790er Jahren ins Land, f&uuml;r die Str&auml;flinge war jedoch das Leben unnachsichtig. Frauen lebten in st&auml;ndiger Bedrohung vor sexueller Ausbeutung und M&auml;nner konnten f&uuml;r kleinere Vergehen wie Diebstahl geh&auml;ngt werden. F&uuml;r die Aborigines bedeuteten der Verlust ihres Landes sowie Krankheit und Tod durch bis dato unbekannte Krankheiten die Zerst&ouml;rung ihres traditionellen Lebensstils und ihrer Praktiken. </p>
+        <p><strong>Haus- und Landnahme auf dem gesamten Kontinent </strong><br />
+        Bereits in den 1820er Jahren hatten viele Soldaten, Beamte und freigelassene Strafgefangene das Land, das sie von der Regierung erhalten hatten, in bl&uuml;hende Farmen verwandelt. Die Kunde vom billigen Land in Australien und vom Arbeitskr&auml;ftemangel brachte mehr und mehr Schiffsladungen abenteuerlustiger Einwanderer aus Gro&szlig;britannien hierher. Siedler oder sogenannte „Landnehmer“ begannen damit, immer tiefer in die Gebiete der Aborigines vorzudringen und – oftmals unter Einsatz von Gewehren – nach Weideland und Wasser f&uuml;r ihr Vieh zu suchen. </p>
+        <p>Im Jahre 1825 lie&szlig; sich eine Gruppe von Soldaten und Strafgefangenen in dem Gebiet des Yuggera-Stamms nieder, ganz in der N&auml;he der heutigen Stadt <a href="/de/explore/cities/brisbane.xml" target="_self">Brisbane</a>. <a href="/de/explore/cities/perth.xml" target="_self">Perth</a> wurde im Jahre 1829 von englischen Gentlemen besiedelt und 1835 segelte ein Landnehmer nach Port Phillip Bay und w&auml;hlte somit den Standort f&uuml;r <a href="/de/explore/cities/melbourne.xml" target="_self">Melbourne</a>. Zur gleichen Zeit siedelte sich eine private britische Firma, die stolz darauf war, keine Verbindung zu Strafgefangenen zu haben, im heutigen <a href="/de/explore/cities/adelaide.xml" target="_self">Adelaide</a> in S&uuml;daustralien an. </p>
+        <p><strong>Der Goldrausch bringt Wohlstand, Zuwanderer und Aufst&auml;nde</strong> <br />
+        Im Jahre 1851 wurde in <a href="/de/explore/states/nsw.xml" target="_self">New South Wales</a> und <a href="/de/explore/states/vic.xml" target="_self">Zentral-Victoria</a> Gold entdeckt, was tausende junger M&auml;nner und einige abenteuerlustige junge Frauen aus den Kolonien anlockte. Ganze Schiffsladungen von Gl&uuml;cksj&auml;gern aus China sowie ein bunter Haufen von Unterhaltungsk&uuml;nstlern, Kneipiers, Schnapsverk&auml;ufern, Prostituierten und Quacksalbern aus der ganzen Welt kamen hinzu. In Victoria f&uuml;hrte 1854 der Versuch des britischen Gouverneurs Ordnung herzustellen, indem er eine monatliche Lizenz und streng durchgreifende Soldaten einsetzte, zu dem blutigen Aufstand der Eureka Stockade gegen die Obrigkeit. Trotz der Gewalt auf den <a href="/de/explore/states/vic/vic-bendigo.xml" target="_self">Goldfeldern</a> brachte der Wohlstand von Gold und Wolle gewaltige Investitionen nach Melbourne und <a href="/de/explore/cities/sydney.xml" target="_self">Sydney</a> und schon in den 1880er Jahren waren aus beiden moderne und elegante St&auml;dte geworden. </p>
+        <p><strong>Australien wird eine Nation</strong><br />
+        Australien wurde nach der Vereinigung der sechs Kolonien am 1. Januar 1901 eine f&ouml;derative Nation. Heute besteht Australien aus sechs Bundesstaaten und zwei Territorien, die alle ihr eigenes Parlament, ihre eigene Flagge und ein Blumenemblem besitzen. Frauen erhielten 1902 das Wahlrecht und ab 1907 wurde ein Mindestlohn festgelegt. </p>
+        <p><strong>Australier ziehen in den Krieg <br />
+        </strong>Der Erste Weltkrieg hatte einen niederschmetternden Effekt auf Australien. Im Jahre 1914 gab es weniger als 3 Millionen M&auml;nner, aber fast 400.000 von ihnen meldeten sich freiwillig in den Krieg. Ungef&auml;hr 60.000 fielen und zehntausende wurden verletzt. Als Gegenreaktion auf das Leid waren die 1920er Jahre ein Wirbelwind von neuen Autos und Kino, amerikanischem Jazz und einer Leidenschaft f&uuml;r das Britische Empire. Als die Gro&szlig;e Depression 1929 Australien erreichte, weitete sich die soziale und wirtschaftliche Kluft und viele Finanzinstitutionen des Landes scheiterten. Sport war die nationale Ablenkung und Sporthelden wie das Rennpferd Pharlap und der Cricket-Spieler Donald Bradman erlangten fast schon mythischen Status. </p>
+        <p>W&auml;hrend des Zweiten Weltkriegs trugen die australischen Soldaten ma&szlig;geblich zum Sieg der Alliierten in Europa, Asien und dem Pazifik bei. Die Generation, die am Krieg teilnahm und &uuml;berlebte, tat dies mit einem Gef&uuml;hl von Stolz f&uuml;r die australischen F&auml;higkeiten. </p>
+        <p><strong>Neue Australier kommen in einem Nachkriegs-Boom an <br />
+        </strong>Nach Kriegsende 1945 kamen hunderttausende von Einwanderern aus ganz Europa und dem Nahen Osten nach Australien, von denen viele Arbeit im boomenden Manufaktursektor fanden. Viele Frauen, die w&auml;hrend des Krieges in Fabriken gearbeitet hatten, setzten auch im Frieden weiterhin ihre Arbeit dort fort. </p>
+        <p>Australiens Wirtschaft wuchs in den 1950er Jahren und viele national bedeutsame Projekte wie der Bau des Snowy Mountains Hydroelectric Scheme, Australiens gr&ouml;&szlig;tem Bew&auml;sserungs- und Energieerzeugungssystem in den Bergen bei <a href="/de/explore/cities/canberra.xml" target="_self">Canberra</a>, wurden begonnen. Die internationale Nachfrage nach Australiens wichtigsten Exporten wie Metall, Wolle, Fleisch und Weizen wuchs und auch das vorst&auml;dtische Australien gelangte zum Wohlstand. Der Anteil an Hausbesitzern stieg von gerade einmal 40 Prozent im Jahre 1947 auf &uuml;ber 70 Prozent in den 1960er Jahren. </p>
+        <p><strong>Australien wird lockerer </strong><br />
+        Wie viele andere L&auml;nder auch, wurde Australien ebenfalls von der revolution&auml;ren Atmosph&auml;re der 1960er mitgerissen. Australiens neue ethnische Vielfalt, die wachsende Unabh&auml;ngigkeit von Gro&szlig;britannien und der allgemeine Widerstand gegen den Vietnamkrieg schufen eine Atmosph&auml;re politischer, wirtschaftlicher und sozialer Ver&auml;nderung. Im Jahre 1967 stimmte die &uuml;berwiegende Mehrheit der Australier in einem nationalen Referendum f&uuml;r die Schaffung von Gesetzen durch die Bundesregierung, die beinhalten, dass Australiens Aborigines in zuk&uuml;nftigen Volksz&auml;hlungen mit eingeschlossen werden. Das Ergebnis war der H&ouml;hepunkt einer m&auml;chtigen Kampagne von sowohl wei&szlig;en Australiern als auch Aborigines. </p>
+        <p>Im Jahre 1972 wurde die Australian Labor Party unter der idealistischen F&uuml;hrung des Anwalts Gough Whitlam an die Macht gew&auml;hlt und beendete die Nachkriegsvorherrschung der Koalition der Liberalen und Country Parteien. Diese neue Regierung beendete in den drei darauf folgenden Jahren die Wehrpflicht, schaffte Universit&auml;tsgeb&uuml;hren ab und f&uuml;hrte eine kostenlose, allgemeine Krankenversicherung ein. Die White Australia-Richtlinien wurden verworfen, Multikulturalismus gef&ouml;rdert und die Scheidung ohne Schuldfrage sowie gleicher Lohn f&uuml;r Frauen eingef&uuml;hrt. Dennoch wurde 1975 aufgrund der Inflation und eines Skandals die Regierung durch den Governor-General aufgel&ouml;st. In den darauf folgenden Wahlen erlitt die Labor Party schwere Verluste und die liberal–nationale Koalition regierte bis 1983. </p>
+        <p><strong>Seit den 1970ern</strong> <br />
+        Zwischen 1983 und 1996 f&uuml;hrten die Hawke-Keating Labor-Regierungen eine Reihe wirtschaftlicher Reformen ein, darunter die Deregulierung des Bankwesens und die Freigabe des Wechselkurses f&uuml;r den Australischen Dollar. Im Jahre 1996 gewann eine von John Howard angef&uuml;hrte Koalitionsregierung die Wahlen und wurde 1998, 2001 und 2004 wiedergew&auml;hlt. Die liberal-nationale Koalitionsregierung pr&auml;sentierte eine Reihe von Reformen, darunter &Auml;nderungen am Steuersystem und dem Arbeitsrecht. 2007 gewann die von Kevin Rudd angef&uuml;hrte Labor Party die Wahl und widmet sich seit ihrem Regierungsantritt Fragen des Arbeitsrechts, dem Klimaschutz sowie Gesundheits- und Bildungsthemen. </p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+    ]]></txt_MainContent> 
+    <con_ImageItem>
+        <ImageItems isTemplate="1">
+    <anc_link><![CDATA[]]></anc_link>
+    <img_MainImage><![CDATA[<img src="/contentimages/About_history_magical.jpg" alt="Aborigines">]]></img_MainImage>
+    <stf_Caption><![CDATA[Aborigines]]></stf_Caption>
+</ImageItems><ImageItems isTemplate="1">
+    <anc_link><![CDATA[]]></anc_link>
+    <img_MainImage><![CDATA[<img src="/contentimages/About_history_indigenous_art.jpg" alt="Indigenous art">]]></img_MainImage>
+    <stf_Caption><![CDATA[Indegenous Kunst]]></stf_Caption>
+</ImageItems><ImageItems isTemplate="1">
+    <anc_link><![CDATA[]]></anc_link>
+    <img_MainImage><![CDATA[<img src="/contentimages/About_history_outback.jpg" alt="The rugged outback">]]></img_MainImage>
+    <stf_Caption><![CDATA[Outback]]></stf_Caption>
+</ImageItems>
+    </con_ImageItem>
+</FeatureContent>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

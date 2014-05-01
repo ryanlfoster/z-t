@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="15583" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[首頁]]></headline>
+            <href><![CDATA[/zht/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[關於]]></headline>
+            <href><![CDATA[/zht/about.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[天氣]]></headline>
+            <href><![CDATA[/zht/about/key-facts/weather.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[布里斯本（Brisbane）天氣]]></headline>
+            <href><![CDATA[/zht/about/key-facts/weather/brisbane-weather.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/about-weather-brisbane.jpg]]></img_background>
+    <hdl_Title><![CDATA[布里斯本（Brisbane）天氣]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/about-key-facts-weather-brisbane-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/about-key-facts-weather-brisbane-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[no]]></opt_PartnerLead>
+    <stf_description><![CDATA[取得布里斯本（Brisbane）的天氣、平均降雨量與溫度資訊。 規劃您的假期，發現布里斯本（Brisbane）每個季節的有趣活動。 ]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[曼利船隻海港（Manly Boat Harbour），布里斯本（Brisbane），昆士蘭（QLD）。 &copy; Paul Ewart &amp; Tourism Queensland]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[y]]></stf_IsMobile>
+    <stf_keywords><![CDATA[布里斯本（Brisbane）天氣, 布里斯本（Brisbane）氣候, 布里斯本（Brisbane）溫度, 布里斯本（Brisbane）降雨量]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[瞭解更多]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[布里斯本（Brisbane）天氣、氣候和降雨量 - 澳洲旅遊局（Tourism Australia）]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+      取得溫度、降雨量和季節性活動的相關資訊，協助您規劃在布里斯本（Brisbane）的假期。
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <Listing isTemplate="1">
+<anc_List1><![CDATA[/zht/explore/cities/brisbane.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[更多關於澳洲旅遊的好主意]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/zht/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/zht/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/zht/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/zht/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/zht/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/zht/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/zht/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/zht/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/zht/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/zht/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/zht/Transport.aspx]]></anc_Transport>
+<hdl_Title><![CDATA[規劃行程]]></hdl_Title>
+<language><![CDATA[CHT]]></language>
+<stf_Accomodation><![CDATA[]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[布里斯本（Brisbane）]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[]]></stf_Events>
+<stf_Hire><![CDATA[]]></stf_Hire>
+<stf_Informationservices><![CDATA[]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[昆士蘭（Queensland）]]></stf_StateFilter>
+<stf_Tours><![CDATA[]]></stf_Tours>
+<stf_Transport><![CDATA[]]></stf_Transport>
+</PlanYourVisit>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[布里斯本（Brisbane）天氣]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+      布里斯本（Brisbane）屬於亞熱帶氣候，終年溫暖或炎熱。 夏季（十二月到二月）最高平均溫度約為 30&deg;C。 這座城市夏季時的降雨量最高，偶爾會遭遇暴風雨及洪水。 此時也是布里斯本（Brisbane）一年中最潮濕的時候。 冬季的氣候通常乾燥而溫和。 冬天大多陽光普照，平均溫度約為 17&deg;C。 全年平均月降雨量約 96 公釐。您可在此取得溫度、降雨量和季節性活動的相關資訊，協助您規劃在布里斯本（Brisbane）的假期。
+    <p>
+      昆士蘭（Queensland）的夏季比一般夏季更為濕熱，冬季又比一般冬季更為涼爽乾燥。 十一月到五月這半年是濕熱氣候。 一月到三月的降雨量最高， 也是熱帶氣旋季節。 氣旋的來臨可能會伴隨著豪雨和洪水。 <a href="/zht/explore/cities/brisbane.xml" target="_self">布里斯本（Brisbane）</a>和羅克漢普頓（Rockhampton）一月到三月的平均降雨量約為 450 公釐；但溫度鮮少降至 20&deg;C 以下。 布里斯本國際女子網球錦標賽（Brisbane International Women’s Tennis Tournament）一月在布里斯本（Brisbane）舉行。
+    </p><p>
+      秋天（三月到五月）代表著炎熱的夏天結束，涼爽的日夜降臨。 但天氣仍然溫暖，日均溫在 15-25&deg;C 之間。 冒險爬上故事橋（Story Bridge）的高處，或是乘著獨木舟或站立划槳滑浪板前往河中探索都是好選擇。 三月到九月時，您可以在布里斯本足球場（Brisbane Stadium）觀賞布里斯本野馬（Brisbane Broncos）在國家橄欖球聯盟（National Rugby League）的賽事，或是在布里斯本板球場（Brisbane Cricket Ground）觀賞布里斯本雄獅（Brisbane Lions）在澳式足球聯盟（Australian Football League）的賽事。
+    </p><p>
+      冬天時（六月到八月），布里斯本（Brisbane）的白天通常晴朗且陽光普照，平均溫度為溫暖適中的 11-21&deg;C。 夜晚一般涼爽宜人，而清晨的溫度較低。 這時散步探索這座城市及其周邊地區將是一大樂事。 布里斯本（Brisbane）是個小巧的城市，充滿步行小徑、步道與自行車道，並有多座橋樑和主要地區緊密連接。 布里斯本馬拉松節（Brisbane Marathon Festival）在八月舉行，匯聚來自全球的跑者一較高下。 六月到十一月可以前往摩爾頓灣（Moreton Bay）賞鯨。 冬季的天氣條件也相當適合打高爾夫球。 到<a href="/zht/explore/cities/brisbane/qld-adventure-on-brisbane-river.xml" target="_self">布里斯本河（Brisbane River）</a>畔的昆士蘭皇家高爾夫俱樂部（Royal Queensland Golf Club）打場高爾夫球，這座昆士蘭（Queensland）頂級的高爾夫球俱樂部在澳洲排行第 29 名。
+    </p><p>
+      春天（九月到十一月）也是<a href="/zht/explore/states/qld.xml" target="_self">昆士蘭（Queensland）</a>的最佳旅遊季節之一，在溫暖晴朗的日子裡有涼爽的海風吹拂。 此時的氣候與秋天相似，平均溫度約為 15-25&deg;C。 夜晚舒適宜人，但有時帶點寒意。 此時到海灘享受幾天的悠閒時光，或參加布里斯本河（Brisbane River）的觀光航遊，都是很好的選擇。 布里斯本節（Brisbane Festival）是這座城市的大型藝術節，於九月中至十月初時舉辦。
+    </p><br /><p><strong>氣候圖</strong></p><table style="border: #ccc 1px solid;" cellspacing="0" cellpadding="0" width="100%"><tbody><tr style="background-color: #cccccc;"><td style="width: 15%;" valign="top"><p><strong>溫度</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>一月</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>二月</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>三月</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>四月</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>五月</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>六月</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>七月</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>八月</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>九月</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>十月</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>十一月</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>十二月</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>年度</strong></p></td></tr><tr><td style="border-bottom: #ccc 1px solid; width: 15%; border-right: #ccc 1px solid;" valign="middle"><p>
+              平均最高溫度（&deg;C）
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              30.3
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              30
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              28.9
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               27.1
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               24.4
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               21.9
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               21.8
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              23.1
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               25.6
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              26.8
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              27.8
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              29.2
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%;" valign="middle"><p style="text-align: center;">
+              26.4
+            </p></td></tr><tr><td style="width: 15%; border-right: #ccc 1px solid;" valign="middle"><p>
+              平均最低溫度（&deg;C）
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               21.3
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              21.4
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              19.8
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               17.3
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              13.4
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               11.6
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              10
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               10.5
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              13.7
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               16.3
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               18.6
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              20.3
+            </p></td><td style="width: 6.5%;" valign="middle"><p style="text-align: center;">
+              16.2
+            </p></td></tr></tbody></table><p style="text-align: right;"><em><span style="font-size: 10px;">資料來源：氣象局（Bureau of Meteorology），2013 年</span></em></p><p><strong> 雨量圖</strong></p><table style="border: #ccc 1px solid;" cellspacing="0" cellpadding="0" width="100%"><tbody><tr style="background-color: #cccccc;"><td style="width: 15%;" valign="top"><p><strong>降雨量</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>一月</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>二月</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>三月</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>四月</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>五月</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>六月</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>七月</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>八月</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>九月</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>十月</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>十一月</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>十二月</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>年度</strong></p></td></tr><tr><td style="width: 15%; border-right: #ccc 1px solid;" valign="middle"><p>
+              平均降雨量（公釐）
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              47.3
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              48.1
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              50.4
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               57.3
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              56.0
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              49.2
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               47.6
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              50.1
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               58.0
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              66.2
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              60.3
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              59.3
+            </p></td><td style="width: 6.5%;" valign="middle"><p style="text-align: center;">
+               649.6
+            </p></td></tr><tr><td style="border-bottom: #ccc 1px solid; width: 15%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p>
+              降雨量中位數（公釐）
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              36.8
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               33.0
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              38.8
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              49.8
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              55.2
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              42.7
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              44.4
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              49.2
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              52.9
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               66.4
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               53.7
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              52.0
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              645.0
+            </p></td></tr><tr><td style="width: 15%; border-right: #ccc 1px solid;" valign="middle"><p>
+              雨量 ≥ 1（公釐）的平均降雨日數
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               5.6
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              5.1
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              6.1
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              7.9
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              9.7
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               9.5
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              9.8
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              10.5
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               10.4
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               10.2
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              8.3
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              7.2
+            </p></td><td style="width: 6.5%;" valign="middle"><p style="text-align: center;">
+              100.3
+            </p></td></tr></tbody></table><p style="text-align: right;"><em><span style="font-size: 10px;">資料來源：氣象局（Bureau of Meteorology），2013 年</span></em></p>]]></txt_Information>
+            
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

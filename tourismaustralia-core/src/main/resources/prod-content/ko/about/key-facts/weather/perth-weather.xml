@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="15581" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[홈]]></headline>
+            <href><![CDATA[/ko/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[호주 소개]]></headline>
+            <href><![CDATA[/ko/about.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[호주의 날씨]]></headline>
+            <href><![CDATA[/ko/about/key-facts/weather.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[퍼스 날씨]]></headline>
+            <href><![CDATA[/ko/about/key-facts/weather/perth-weather.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/about-weather-perth.jpg]]></img_background>
+    <hdl_Title><![CDATA[퍼스 날씨]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/about-key-facts-weather-perth-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/about-key-facts-weather-perth-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[no]]></opt_PartnerLead>
+    <stf_description><![CDATA[퍼스(Perth)의 환상적인 날씨와 평균 강우량, 다양한 계절별 액티비티 정보를 통해 더욱 알찬 남호주 여행 계획을 세워보세요. ]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[스완 리버, 퍼스, 서호주. &copy; 서호주 관광청]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[y]]></stf_IsMobile>
+    <stf_keywords><![CDATA[퍼스 기후, 퍼스 날씨, 퍼스 강우량]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[더 보기]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[퍼스 날씨, 기후 및 기온 - 호주 관광청]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+      퍼스의 기온, 강우량, 계절별 액티비티 정보를 통해 더욱 알찬 여행을 계획해 보세요.
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <Listing isTemplate="1">
+<anc_List1><![CDATA[/ko/explore/cities/perth.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[호주여행 더 알아보기]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/ko/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/ko/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/ko/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/ko/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/ko/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/ko/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/ko/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/ko/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/ko/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/ko/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/ko/Transport.aspx]]></anc_Transport>
+<hdl_Title><![CDATA[여행 계획하기]]></hdl_Title>
+<language><![CDATA[KOR]]></language>
+<stf_Accomodation><![CDATA[]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[퍼스]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[]]></stf_Events>
+<stf_Hire><![CDATA[]]></stf_Hire>
+<stf_Informationservices><![CDATA[]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[서호주]]></stf_StateFilter>
+<stf_Tours><![CDATA[]]></stf_Tours>
+<stf_Transport><![CDATA[]]></stf_Transport>
+</PlanYourVisit>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[퍼스 날씨]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+      서호주는 지역이 넓어 다양한 기후대가 존재합니다. 남서부 지역은 보통 겨울은 온화하고 비가 많이 내리며, 여름은 무덥고 건조합니다. 퍼스는 다른 호주 주도에 비해 연중 맑은 날이 더 많습니다. 강우량은 5월~9월에 집중됩니다. 보통 2월이 가장 무더운 달로서 평균 기온이 31&deg;C에 달하며, '프리맨틀 닥터'로 불리는 해풍이 이 지역의 뜨거운 열기를 식혀줍니다. 약 18~21&deg;C의 기온을 보이는 겨울은 상대적으로 서늘하고 습합니다. 여기에서 퍼스 여행 계획에 도움이 되는 기온, 강우량, 계절별 액티비티 정보를 확인해 보세요.
+    <p><a href="/ko/explore/cities/perth.xml" target="_self">퍼스</a>는 연중 대부분이 따뜻하고 화창한 지중해성 기후를 보이며, 다른 호주 주도에 비해 연중 맑은 날이 더 많습니다. 짧은 겨울철에도 온화한 날씨가 이어지며 햇볕이 나는 날이 많습니다. 여름이 긴 퍼스에서는 야외 액티비티가 주를 이룹니다. 관광, 야외 액티비티 등을 즐기거나 퍼스의 깨끗한 모래사장에서 여유를 즐기는 것도 연중 대부분 가능합니다.
+    </p><p>
+      여름(12월~2월)의 퍼스는 따뜻하거나 무더운 날씨를 보이며, 보통 1월과 2월이 가장 덥습니다. 이 시기의 날씨는 쾌적하고 건조하며 비가 오는 날이 매우 드뭅니다. 또한 퍼스는 오후가 되면 더위를 한풀 꺾어주는 '프리맨틀 닥터'라고 하는 시원한 해풍으로도 유명합니다. 여름철 평균 기온은 낮 동안은 27~30&deg;C 수준이 유지되고 밤에는 15&deg;C 이하로는 떨어지지 않습니다. 퍼스의 도심 공원인 킹스 파크는 퍼스의 화창한 오후를 보내기에 안성맞춤입니다.
+    </p><p>
+      퍼스의 가을(3월~5월)은 여름과 매우 유사합니다. 기온은 비슷하지만 여름철 무더위는 꺾이고 저녁에는 더 시원해집니다. 대부분 날씨가 청명하나, 소나기가 내리거나 습도가 올라가는 경우도 가끔씩 있습니다. 매년 3월에는 <a href="/ko/explore/cities/perth/wa-cottesloe-beach.xml" target="_self">코트슬로 비치</a>에서 바닷가 조각 페스티벌이 열립니다. 크루즈를 타고 강을 따라 <a href="/ko/explore/cities/perth/wa-fremantle.xml" target="_self">프리맨틀</a>로 크루즈 관광을 하거나 <a href="/ko/explore/states/wa/swan-valley.xml" target="_self">스완 밸리</a>의 포도원을 방문하고 로트네스 아일랜드로 떠나기에도 좋은 시기입니다.
+    </p><p>
+      퍼스의 온화한 겨울(6월~8월)은 우기로, 시원하고 화창한 날씨가 주를 이룹니다. 가끔씩 소나기와 뇌우를 동반하는 태풍이 지나갈 때도 있습니다. 겨울철 낮 기온은 18~21&deg;C 정도이며 밤 최저 기온은 12&deg;C입니다. 퍼스에는 비가 오는 날에도 즐길 수 있는 다양한 실내 액티비티가 있습니다. 노스브릿지는 퍼스의 문화 중심지로 서호주 박물관, 서호주 아트 갤러리, 퍼스 현대예술원 등 다양한 문화 시설들을 방문할 수 있습니다. 프리맨틀 감옥, 프리맨틀 박물관, 해양 박물관도 겨울철에 방문하기 좋은 명소입니다.
+    </p><p>
+      봄(9월~11월)은 따뜻하고 맑은 날씨가 계속되며 특히 10월과 11월은 기온이 약 20~ 25&deg;C로 날씨가 매우 좋습니다. 이 시기에 <a href="/ko/explore/states/wa.xml" target="_self">서호주</a>에는 비가 약간 오기도 하여 형형색색의 아름다운 <a href="/ko/explore/states/wa/wa-wildflowers.xml" target="_self">야생화</a>가 장관을 이룹니다. 보타닉 가든의 야생지대 및 야생화 트레일이나 이 지역의 기타 다양한 트레일을 따라 아름다운 자연을 감상해 보세요.
+    </p><br /><p><strong>기후 차트</strong></p><table style="border: #ccc 1px solid;" cellspacing="0" cellpadding="0" width="100%"><tbody><tr style="background-color: #cccccc;"><td style="width: 15%;" valign="top"><p><strong>기온</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>1월</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>2월</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>3월</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>4월</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>5월</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>6월</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>7월</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>8월</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>9월</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>10월</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>11월</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>12월</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>연평균</strong></p></td></tr><tr><td style="border-bottom: #ccc 1px solid; width: 15%; border-right: #ccc 1px solid;" valign="middle"><p>
+              평균 최고 기온(&deg;C)
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              31.7
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               31.9
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               29.7
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               25.5
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              21.8
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              18.9
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              17.9
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               18.5
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              20.1
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              22.6
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              25.8
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              28.9
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%;" valign="middle"><p style="text-align: center;">
+              24.4
+            </p></td></tr><tr><td style="width: 15%; border-right: #ccc 1px solid;" valign="middle"><p>
+              평균 최저 기온(&deg;C)
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               17
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              17.5
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              15.9
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               12.9
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               10.4
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               9
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              8
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               8
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              8.8
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              10.2
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              12.7
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              14.9
+            </p></td><td style="width: 6.5%;" valign="middle"><p style="text-align: center;">
+               12.1
+            </p></td></tr></tbody></table><p style="text-align: right;"><em><span style="font-size: 10px;">출처: 호주기상청, 2013</span></em></p><p><strong>강우량 차트</strong></p><table style="border: #ccc 1px solid;" cellspacing="0" cellpadding="0" width="100%"><tbody><tr style="background-color: #cccccc;"><td style="width: 15%;" valign="top"><p><strong>강우량</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>1월</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>2월</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>3월</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>4월</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>5월</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>6월</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>7월</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>8월</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>9월</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>10월</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>11월</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>12월</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>연평균</strong></p></td></tr><tr><td style="width: 15%; border-right: #ccc 1px solid;" valign="middle"><p>
+              평균 강우량(mm)
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               9.7
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              14.4
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              15.7
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              41.4
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              99.3
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              162
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               157.3
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               117.3
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              72.2
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               44.3
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              26.9
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              11.4
+            </p></td><td style="width: 6.5%;" valign="middle"><p style="text-align: center;">
+               773
+            </p></td></tr><tr><td style="border-bottom: #ccc 1px solid; width: 15%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p>
+              강우량(mm) 중앙값
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              2.3
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              5.4
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              8
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              34.3
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              88.6
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              158.2
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               154.6
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              119.2
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               66.8
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              38.4
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              22.2
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               8.2
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               777.6
+            </p></td></tr><tr><td style="width: 15%; border-right: #ccc 1px solid;" valign="middle"><p>
+              강우량이 1mm 이상인 일수 평균
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              1.4
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              1.5
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              2.2
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              5.4
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               9.9
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              14.2
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              14.9
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              13
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              10.2
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              6.7
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+               4.4
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              2.3
+            </p></td><td style="width: 6.5%;" valign="middle"><p style="text-align: center;">
+              86.1
+            </p></td></tr></tbody></table><p style="text-align: right;"><em><span style="font-size: 10px;">출처: 호주기상청, 2013</span></em></p>]]></txt_Information>
+            
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

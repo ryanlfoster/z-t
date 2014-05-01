@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="22220" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[홈]]></headline>
+            <href><![CDATA[/ko/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Tools and Campaigns]]></headline>
+            <href><![CDATA[/ko/tools-campaigns.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[호주 관광 명소(내셔널 랜드스케이프)]]></headline>
+            <href><![CDATA[/ko/nationallandscapes.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[호주, 영원의 북]]></headline>
+            <href><![CDATA[/ko/nationallandscapes/australias-timeless-north.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/Campaigns/national-landscapes-australias-timeless-north.jpg]]></img_background>
+    <hdl_Title><![CDATA[호주, 영원의 북]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/national-landscapes-australias-timeless-north-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/Campaigns/national-landscapes-australias-timeless-north-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[yes]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[호주, 영원의 북쪽은 열대 우림과 붉은 황무지가 공존하는 두 얼굴을 가진 지역입니다.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[카카두 국립 공원, 카카두 국립, 카카두, 호주 카카두, 다윈 카카두, 다윈 관광, 노울랜지 록, 앨리게이터 강, 군롬 폭포, 자비루]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[상세 정보]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[호주 내셔널 랜드스케이프: 호주, 영원의 북 - 호주 관광청]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        호주, 영원의 북쪽은 열대 우림과 붉은 황무지가 공존하는 두 얼굴을 가진 지역입니다.
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <StandardCampaignLayout isTemplate="1">
+    <opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+    <hdl_Title><![CDATA[]]></hdl_Title>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+    <con_Banner><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<DIV id=headerimage>
+<SCRIPT type=text/javascript src="../../static/js/jquery.cycle.all.latest.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+jQuery(document).ready(function() {
+jQuery('#headersliderwrapper').cycle({
+        fx:'fade',
+        slideExpr: '.headerslide'
+    });
+});
+</SCRIPT>
+
+<DIV id=headersliderwrapper>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-atn-01.jpg"> 
+<DIV class=headerslideinfo>우비르 일몰, 노던 테리토리</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-atn-02.jpg"> 
+<DIV class=headerslideinfo>크로커다일</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-atn-03.jpg"> 
+<DIV class=headerslideinfo>카카두 국립 공원의 군롬 폭포, 노던 테리토리</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-atn-04.jpg"> 
+<DIV class=headerslideinfo>노우랜지 록, 노던 테리토리</DIV></DIV></DIV></DIV>
+<DIV id=subpage-header-overlay></DIV>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule></con_Banner>
+    <con_Body><TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[호주, 영원의 북]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        호주, 영원의 북쪽은 열대 우림과 붉은 황무지가 공존하는 두 얼굴을 가진 지역입니다. 또한 이 곳에는 초목으로 뒤덮인 습지대, 높다란 사암 절벽, 가파른 협곡, 건조한 초원 지대와 수많은 야생동물을 볼 수 있는 수 많은 국립공원이 많습니다. 고대 원주민의 숨결을 느낄 수 있는 세계 최대이자 최고 암각화 컬렉션의 절벽 갤러리에서 드림타임의 이야기를 들여다 볼 수 있습니다.
+        <p>카카두(Kakadu) 특유의 매력인 뚜렷한 6계절을 경험해보고 크루즈를 타고 악어가 가득한 수로를 건너거나 아넘랜드(Arnhem Land)에서 원주민 거주지를 탐방하거나 니트미룩(Nitmiluk) 국립 공원에서 자오인 부족의 발자취를 따라갈 수 있습니다.</p>
+        <p><strong>호주, 영원의 북쪽에서만 누릴 수 있는 4가지</strong></p>
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[1. 고대 예술과 살아 있는 문화]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australias-timeless-north-hl01.jpg" alt="Nourlangie rock art, NT">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Nourlangie rock art, NT]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        시간을 가지고 여유롭게 카카두의 풍부한 영적 자산인 드림타임 신화와 신비에 빠져볼까요? 원주민 가이드의 안내로 야생지대를 지나 노우랜지 록(Nourlangie Rock)과 안방강 갤러리(Anbangang Gallery), 우비르 록(Ubirr Rock)과 같이 짙고 세밀한 암석화 ‘갤러리’로 향합니다. 암벽에다 에칭처럼 조각한 레인보우 서펀트와 라이트닝 맨과 같은 드림타임의 선조들을 만나보세요. 또 원주민 가족과 밤을 보내며 전통 직조법과 사냥 기술 그리고 어려운 디제리두 연주법도 배워보세요. 문화 센터에 방문하거나 크루즈를 타고 수로와 습지대를 지나면서 그 시대의 이야기에 귀를 기울여 봅니다.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[2. 번성하는 자연]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australias-timeless-north-hl02.jpg" alt="Jacana, Kakadu National Park, NT">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Jacana, Kakadu National Park, NT]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        마무칼라 습지대(Mamukala Wetlands) 주변을 거니노라면 까치기러기, 해오라기, 백로, 노랑부리저어새, 바다 독수리, 오리 그리고 춤추는 호주두루미 브롤가스가 반깁니다. 카카두에 서식하는 280종의 조류 가운데 독특한 종으로는 까치 기러기와 밤나무깃 바위 비둘기, 흰목 풀굴뚝새 등이 있답니다. 이스트 앨리게이터 강에서는 크루즈로 악어를 지나며, 수련을 가르는 지저스 버드를 구경하세요. 숲에서는 왈라루와 딩고, 포섬, 박쥐와 암갈색 쥐를 찾아보세요. 호주 전체 민물고기 어종 가운데 4분의 1이 카카두에 서식하는데 이스트 앨리게이터 강과 짐짐 크릭을 비롯한 여러 군데 낚시 포인트에서 바라문디를 낚을 수 있답니다.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[3. 뚜렷한 6계절]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australias-timeless-north-hl03.jpg" alt="Storm over Floodplains">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Storm over Floodplains]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        카카두는 연중 6계절 변화가 뚜렷합니다. 1~3월까지 거드주그(Gudjewg) 몬순기에는 우레처럼 쏟아지는 폭포수와 번개를 구경합니다. 4월의 방게렝(Banggerreng) 기간에는 폭풍우 날씨를 체험할 수 있습니다. 5월부터 6월 중순까지 예게(Yegge) 때는 수련으로 덮인 습지대로 건조한 바람이 불어온답니다. 6월과 8월의 온화한 우르겡(Wurrgeng) 기간에는 빌라봉 주변에서 철새를 볼 수 있습니다. 8월 중순에서 9월 중순까지 구룽(Gurrung) 기간 동안에는 날씨가 무덥고 건조합니다. 10월 중순에서 12월 하순까지 구누멜렝(Gunumeleng)은 몬순기를 앞둔 시기로 생명에 활기를 불어넣는 첫 폭풍우가 오는 시기입니다.
+        <p>웅장한 카카두의 대자연을 제대로 만끽하려면 관광 비행기를 타고 아넘랜드 절벽과 장대한 군롬과 트윈 그리고 짐짐 폭포 상공으로 날아오릅니다.</p>
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[4. 토착 원주민과 함께하는 여행]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australias-timeless-north-hl04.jpg" alt="Katherine Gorge, Nitmiluk National Park, NT">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Katherine Gorge, Nitmiluk National Park, NT]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        호주의 관광 명소 남단에는 절경의 폭포, 장엄한 캐더린 고지(Katherine Gorge), 수백만 년이 걸려 만들어진 연이은 사암 협곡이 있는 니트미룩 국립 공원이 자리잡고 있습니다. 짙은 붉은색의 협곡에는 수많은 암각화가 새겨져 있습니다. 이 국립공원은 한가로이 거닐거나 크루즈를 타거나 자오인 원주민의 노래길을 따라 59km에 이르는 5일 여정의 자트불라 트레일을 돌아보면서 탐험할 수 있습니다. 메리 강과 가릭 구낙 국립 공원도 놓치지 마십시오. 네이처스 웨이 드라이브 코스는 다윈, 카카두, 아넘과 스튜어트 하이웨이의 수많은 명소들을 이어주고 있습니다.
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights></con_Body>
+    <con_RHSModules><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<TABLE cellSpacing=0 cellPadding=0 width=298 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top align=center>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD style="WIDTH: 25px">&nbsp;</TD>
+<TD><!-- #BeginLibraryItem "/Library/sitenav.lbi" -->
+<SCRIPT language=JavaScript1.2 type=text/javascript src="../../static/js/stmenu.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+</SCRIPT>
+<!-- #EndLibraryItem --></TD></TR></TBODY></TABLE>
+<P><!-- Google Map Start -->
+<SCRIPT type=text/javascript>
+ function fireEvent(obj,evt){
+ var fireOnThis = obj;
+ if( document.createEvent ) {
+   var evObj = document.createEvent('MouseEvents');
+ evObj.initEvent( evt, true, false );
+   fireOnThis.dispatchEvent(evObj);
+ } else if( document.createEventObject ) {
+   fireOnThis.fireEvent('on'+evt);
+ }
+}
+function clickLink(linkobj) {
+     if (linkobj.getAttribute('onclick') == null) {
+     if (linkobj.getAttribute('href')) document.location = linkobj.getAttribute('href');
+     }
+     else linkobj.onclick();
+}
+function loadjscssfile(filename, filetype){
+ if (filetype=="js"){ //if filename is a external JavaScript file
+  var fileref=document.createElement('script')
+  fileref.setAttribute("type","text/javascript")
+  fileref.setAttribute("src", filename)
+ }
+ else if (filetype=="css"){ //if filename is an external CSS file
+  var fileref=document.createElement("link")
+  fileref.setAttribute("rel", "stylesheet")
+  fileref.setAttribute("type", "text/css")
+  fileref.setAttribute("href", filename)
+  fileref.setAttribute("media", "print")
+}
+if (typeof fileref!="undefined")
+document.getElementsByTagName("head")[0].appendChild(fileref)
+}
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+var icheckk=0;
+jQuery.each(jQuery.browser, function(i, val) {
+if(i=="msie" && jQuery.browser.version.substr(0,3)=="7.0")
+icheckk=1;
+});
+function myfun()
+{
+loadjscssfile("../../static/css/thickbox.css", "css");
+if(icheckk==1)
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='../../static/maps/ko/australiastimelessnorth/bigmap.html'  target='_blank'>&nbsp;인쇄|닫습니다|&nbsp;또는 Esc 키를 누르십시오</a></b>","../../static/maps/ko/australiastimelessnorth/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+else
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='javascript:window.print()' >&nbsp;인쇄|닫습니다|&nbsp;또는 Esc 키를 누르십시오</a></b>","../../static/maps/ko/australiastimelessnorth/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+}
+         </SCRIPT>
+<IFRAME style="MARGIN-BOTTOM: 20px; BORDER-TOP: black 1px solid; HEIGHT: 355px; BORDER-RIGHT: black 1px solid; BORDER-BOTTOM: black 1px solid; FLOAT: left; PADDING-BOTTOM: 5px; BORDER-LEFT: black 1px solid; BACKGROUND-COLOR: #333333" height=380 src="../../static/maps/ko/australiastimelessnorth/index.html" frameBorder=0 width=249 name=FRAMENAME scrolling=no></IFRAME><!-- Google Map end -->
+<DIV class=subpage-video-thumb style="TEXT-ALIGN: left"><A onclick="moduleTrackingWithTitle('lightbox-video','',false,'nationallandscapes-timelessnorthko');" href="#" data-reveal-id="modalVideo"><IMG alt="" src="/contentimages/Campaigns/national-landscapes-video-ko.jpg"></A> </DIV>
+<DIV id=modalVideo class="reveal-modal video" style-="z-index: 103;"><A class=close-reveal-modal><SPAN class=icon></SPAN></A>
+<DIV class=video style="VISIBILITY: visible !important"><IFRAME height=315 src="//www.youtube.com/v/EjGZ3MaX9pE?version=3&amp;hl=en_GB" frameBorder=0 width=560></IFRAME></DIV></DIV></TD></TR></TBODY></TABLE>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule><Listing isTemplate="1">
+<anc_List1><![CDATA[/ko/explore/icons/kakadu/nt-rock-art.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[호주 아이디어 더]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/ko/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/ko/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/ko/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/ko/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/ko/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/ko/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/ko/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/ko/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/ko/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/ko/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/ko/Transport.aspx]]></anc_Transport>
+<hdl_Title><![CDATA[여행 계획 하기]]></hdl_Title>
+<language><![CDATA[KOR]]></language>
+<stf_Accomodation><![CDATA[Accommodation]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[Kakadu Area]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[Attractions]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[Find a Travel Agent near you]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[Destination Information]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[Events]]></stf_Events>
+<stf_Hire><![CDATA[Hire ]]></stf_Hire>
+<stf_Informationservices><![CDATA[Information Services]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[Northern Territory]]></stf_StateFilter>
+<stf_Tours><![CDATA[Tours]]></stf_Tours>
+<stf_Transport><![CDATA[Transport]]></stf_Transport>
+</PlanYourVisit></con_RHSModules>
+    <con_Category></con_Category>
+    <lst_Subpages>
+    </lst_Subpages>
+</StandardCampaignLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

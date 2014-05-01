@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="22259" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[首頁]]></headline>
+            <href><![CDATA[/zht/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Tools and Campaigns]]></headline>
+            <href><![CDATA[/zht/tools-campaigns.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[澳洲國家地貌]]></headline>
+            <href><![CDATA[/zht/nationallandscapes.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[金伯利]]></headline>
+            <href><![CDATA[/zht/nationallandscapes/the-kimberley.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/Campaigns/national-landscapes-the-kimberley.jpg]]></img_background>
+    <hdl_Title><![CDATA[金伯利]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/national-landscapes-the-kimberley-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/Campaigns/national-landscapes-the-kimberley-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[0]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[yes]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[於澳洲偏遠西北角的金伯利會讓您感到肅然起敬。置身於由粗獷岩層、巨大水路和燦爛海洋所組成的史詩之中。]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[1]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[The Kimberley, Kimberley, Gibb River Road,  Bungle Bungles, Dampier Peninsula, Broome,  El Questro Station,  Buccaneer Archipelago,  Ord River,  Geikie Gorge,  Ord River, Lake Argyle,  Windanja Gorge, Tunnel Creek,  Rowley Shoals Marine Park]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[了解更多資料]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[澳洲國家地貌：金伯利 - 澳洲旅遊局]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        於澳洲偏遠西北角的金伯利會讓您感到肅然起敬。置身於由粗獷岩層、巨大水路和燦爛海洋所組成的史詩之中。
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <StandardCampaignLayout isTemplate="1">
+    <opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+    <hdl_Title><![CDATA[]]></hdl_Title>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+    <con_Banner><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<DIV id=headerimage>
+<SCRIPT type=text/javascript src="../../static/js/jquery.cycle.all.latest.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+jQuery(document).ready(function() {
+jQuery('#headersliderwrapper').cycle({
+        fx:'fade',
+        slideExpr: '.headerslide'
+    });
+});
+</SCRIPT>
+
+<DIV id=headersliderwrapper>
+<DIV class=headerslide><IMG src="../../contentimages/campaigns/header-kim-01.jpg"> 
+<DIV class=headerslideinfo>金伯利（The Kimberley），西澳（WA）</DIV></DIV>
+<DIV class=headerslide><IMG src="../../contentimages/campaigns/header-kim-02.jpg"> 
+<DIV class=headerslideinfo>勒韋克角（Cape Leveque）的庫加門（Kooljaman），西澳（WA）</DIV></DIV>
+<DIV class=headerslide><IMG src="../../contentimages/campaigns/header-kim-03.jpg"> 
+<DIV class=headerslideinfo>科克伯恩山脈（Cockburn Range），西澳（WA）</DIV></DIV>
+<DIV class=headerslide><IMG src="../../contentimages/campaigns/header-kim-04.jpg"> 
+<DIV class=headerslideinfo>猴麵包樹</DIV></DIV></DIV></DIV>
+<DIV id=subpage-header-overlay></DIV>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule></con_Banner>
+    <con_Body><TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[金伯利]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        位於澳洲偏遠西北角的金伯利會讓您感到肅然起敬。那裡驚人的地貌可以追溯到恐龍時代。大自然譜寫了由粗獷岩層、巨大水域和燦爛海洋所組成的這首史詩。在金伯利的瑰麗色彩和無盡的視野中發揮您的探險精神，感受活的原住民文化，體驗生態奢華。乘坐觀光飛機俯瞰被列入世界遺產名錄的邦格爾邦格爾斯（Bungle Bungles），駕駛四輪驅動車馳騁在吉布河路（Gibb River Road）上，或者留宿在丹皮爾半島（Dampier Peninsula）的原住民社區裡。欣賞大量的野生動物，尋找珍貴的寶石，了解當地豐富和興旺的藝術傳統。
+        <p><strong>遊覽金伯利的四大理由</strong></p>
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[1. 令人肅然起敬的探險地貌]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-the-kimberley-hl01.jpg" alt="Cable Beach, Broome, WA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Cable Beach, Broome, WA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        任何形式的探險都可以在金伯利這片古老的地貌中進行。沿著布魯姆的凱布爾海灘（Cable Beach）騎駱駝，然後駕駛四輪驅動車經由吉布河路（Gibb River Road）到達庫努納拉（Kununurra）。在那裡您可以划船穿越寬廣的水域，例如阿蓋爾湖（Lake Argyle）和奧德河（Ord River）。乘坐觀光飛機俯瞰位於米切爾高原（Mitchell Plateau）雄偉的瀑布，或者俯瞰列入世界遺產名錄的普奴魯魯國家公園（Purnululu National Park）中的邦格爾邦格爾山脈（Bungle Bungle Ranges）。在羅利肖海洋公園（Rowley Shoals Marine Park）浮潛或者潛水，這裡僅僅只是沿著偏遠、原生態的金伯利海岸線上眾多令人嘆為觀止的水下景觀之一。欲以更為溫和輕鬆的方式探險，可乘坐豪華遊艇遊覽擁有地平線瀑布（Horizontal Waterfalls）和一千多個島嶼的海盜群島（Buccaneer Archipelago）。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[2. 豐富多彩的原住民體驗]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-the-kimberley-hl02.jpg" alt="Cape Leveque, WA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Cape Leveque, WA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        有無數種方式可以讓您體驗金伯利豐富多彩的原住民文化。留宿在丹皮爾半島（Dampier Peninsula）的傳統原住民社區，和當地導遊一起划船、浮潛、挖螃蟹和釣魚。在Outback的原住民牧場花點時間，品嚐bush tucker，學習放牛和聆聽Dreamtime美妙的開天闢地傳說。在傳統擁有者的帶領下遊覽著名的景點，例如吉克伊峽谷（Geikie Gorge）和喬治王瀑布（King George Falls）。在德賴斯戴爾國家公園（Drysdale National Park）或者與世隔絕的米切爾高原（Mitchell Plateau）欣賞古老的岩畫，包括Gwion Gwien畫。還可以在布魯姆（Broome）、得比（Derby）和庫努納拉（Kununurra）的畫廊和藝術中心欣賞金伯利廣受好評的現代原住民藝術家的作品。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[3. 大量的野生動物]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-the-kimberley-hl03.jpg" alt="Monitoring turtles, Eco Beach, WA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Monitoring turtles, Eco Beach, WA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        鳥類、動物、海洋生物和史前爬行動物統治著金伯利。您可以在越野探險中見到牠們，或者參加旅遊團前往保護區和繁殖區參觀。沿著奧德河（Ord River）漂浮，那裏有鹹水鱷魚、岩石小袋鼠和數百種鳥類出沒。在溫加那峽谷（Windjana Gorge）和隧道溪（Tunnel Creek）附近，您可以看到正在曬太陽的鱷魚。遊覽布魯姆（Broome）的雄獐灣（Roebuck Bay），那是本地鳥類的天堂；在九月和四月之間也是候鳥的中途休息點。另一個觀鳥者的天堂是溫德姆附近的帕里斯瀉湖（Parrys Lagoon）自然保護區和馬爾古死水潭（ Marlgu Billabong）。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[4. 鑽石、珍珠和生態住宿]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-the-kimberley-hl04.jpg" alt="Pearl Lugger, cable beach, WA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Pearl Lugger, cable beach, WA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        金伯利（Kimberley）地區出產的鑽石與珍珠擁有無與倫比的尊貴與浪漫。在布魯姆（Broome）選購南海珍珠，並在中國城和日本墓地追溯這個小鎮悠久的採珠歷史。在庫努納拉（Kununurra）附近遊覽廣袤的阿蓋爾鑽石礦（Argyle Diamond Mine），全世界大部份的珍稀粉鑽就是從這裡開採出來的。金伯利同時也是體驗生態豪華的理想目的地。在丹皮爾半島沿岸露營，或者從吉布河路繞道在豪華的生態小屋中過夜。
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights></con_Body>
+    <con_RHSModules><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<TABLE cellSpacing=0 cellPadding=0 width=298 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top align=center><!-- Google Map Start -->
+<SCRIPT type=text/javascript>
+function fireEvent(obj,evt){
+var fireOnThis = obj;
+if( document.createEvent ) {
+var evObj = document.createEvent('MouseEvents');
+ evObj.initEvent( evt, true, false );
+fireOnThis.dispatchEvent(evObj);
+} else if( document.createEventObject ) {
+fireOnThis.fireEvent('on'+evt);
+}
+}
+function clickLink(linkobj) {
+     if (linkobj.getAttribute('onclick') == null) {
+ if (linkobj.getAttribute('href')) document.location = linkobj.getAttribute('href');
+     }
+     else linkobj.onclick();
+}
+function loadjscssfile(filename, filetype){
+ if (filetype=="js"){ //if filename is a external JavaScript file
+  var fileref=document.createElement('script')
+  fileref.setAttribute("type","text/javascript")
+  fileref.setAttribute("src", filename)
+ }
+ else if (filetype=="css"){ //if filename is an external CSS file
+  var fileref=document.createElement("link")
+  fileref.setAttribute("rel", "stylesheet")
+  fileref.setAttribute("type", "text/css")
+  fileref.setAttribute("href", filename)
+  fileref.setAttribute("media", "print")
+ }
+ if (typeof fileref!="undefined")
+  document.getElementsByTagName("head")[0].appendChild(fileref)
+}
+                  </SCRIPT>
+
+<SCRIPT type=text/javascript>
+var icheckk=0;
+jQuery.each(jQuery.browser, function(i, val) {
+if(i=="msie" && jQuery.browser.version.substr(0,3)=="7.0")
+icheckk=1;
+});
+function myfun()
+{
+loadjscssfile("../../static/css/thickbox.css", "css");
+if(icheckk==1)
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='../../static/maps/zht/thekimberley/bigmap.html'  target='_blank'>&nbsp;列印|關閉此視窗|&nbsp; 或按Esc键</a></b>","../../static/maps/zht/thekimberley/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+else
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='javascript:window.print()' >&nbsp;列印|關閉此視窗|&nbsp; 或按Esc键</a></b>","../../static/maps/zht/thekimberley/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+}
+         </SCRIPT>
+<IFRAME style="MARGIN-BOTTOM: 20px; BORDER-TOP: black 1px solid; HEIGHT: 355px; BORDER-RIGHT: black 1px solid; BORDER-BOTTOM: black 1px solid; FLOAT: left; PADDING-BOTTOM: 5px; BORDER-LEFT: black 1px solid; BACKGROUND-COLOR: #333333" height=380 src="../../static/maps/zht/thekimberley/index.html" frameBorder=0 width=249 name=FRAMENAME scrolling=no></IFRAME><!-- Google Map end -->
+<DIV class=subpage-video-thumb style="TEXT-ALIGN: left"><A onclick="moduleTrackingWithTitle('lightbox-video','',false,'nationallandscapes-thekimberleyzht');" href="#" data-reveal-id="modalVideo"><IMG alt="" src="/contentimages/Campaigns/national-landscapes-video-zht.jpg"></A> </DIV>
+<DIV id=modalVideo class="reveal-modal video" style-="z-index: 103;"><A class=close-reveal-modal><SPAN class=icon></SPAN></A>
+<DIV class=video style="VISIBILITY: visible !important"><IFRAME height=315 src="//www.youtube.com/v/EjGZ3MaX9pE?version=3&amp;hl=en_GB" frameBorder=0 width=560></IFRAME></DIV></DIV></TD></TR></TBODY></TABLE>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule><Listing isTemplate="1">
+<anc_List1><![CDATA[/zht/explore/itineraries/wa-3days-broome.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[更多澳洲風景]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/zht/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/zht/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/zht/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/zht/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/zht/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/zht/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/zht/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/zht/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/zht/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/zht/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/zht/Transport.aspx]]></anc_Transport>
+<hdl_Title><![CDATA[計劃您的假期]]></hdl_Title>
+<language><![CDATA[CHT]]></language>
+<stf_Accomodation><![CDATA[住宿]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[KIMBERLEY]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[風景]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[旅行專家]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[目的地信息]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[活動]]></stf_Events>
+<stf_Hire><![CDATA[租用]]></stf_Hire>
+<stf_Informationservices><![CDATA[信息服務]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[]]></stf_StateFilter>
+<stf_Tours><![CDATA[遊覽]]></stf_Tours>
+<stf_Transport><![CDATA[交通工具]]></stf_Transport>
+</PlanYourVisit></con_RHSModules>
+    <con_Category></con_Category>
+    <lst_Subpages>
+    </lst_Subpages>
+</StandardCampaignLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

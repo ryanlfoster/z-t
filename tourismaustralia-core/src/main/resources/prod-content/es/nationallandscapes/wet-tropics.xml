@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="22262" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Inicio]]></headline>
+            <href><![CDATA[/es-la/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Tools and Campaigns]]></headline>
+            <href><![CDATA[/es-la/tools-campaigns.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Paisagens Nacionais da Austrália]]></headline>
+            <href><![CDATA[/es-la/nationallandscapes.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[Trópicos húmedos]]></headline>
+            <href><![CDATA[/es-la/nationallandscapes/wet-tropics.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/Campaigns/national-landscapes-wet-tropics.jpg]]></img_background>
+    <hdl_Title><![CDATA[Tr&oacute;picos h&uacute;medos]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/national-landscapes-wet-tropics-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/Campaigns/national-landscapes-wet-tropics-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[yes]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[Desde el bosque pluvial de Daintree hasta la regi&oacute;n de mesetas, el paisaje nacional de los Tr&oacute;picos H&uacute;medos es un destino fascinante e intrigante, que atrae a todas las personas que lo visitan.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[Tr&oacute;picos h&uacute;medos de Australia, la regi&oacute;n de Daintree, ruta Great Tropical Drive, sendero Thorsborne Trail, Parque Nacional de Girringun]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Mayor informaci&oacute;n]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Paisajes Nacionales de Australia: Tr&oacute;picos h&uacute;medos - Turismo Australia]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        Desde el bosque pluvial de Daintree hasta la regi&oacute;n de mesetas, el paisaje nacional de los Tr&oacute;picos H&uacute;medos es un destino fascinante e intrigante, que atrae a todas las personas que lo visitan.
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <StandardCampaignLayout isTemplate="1">
+    <opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+    <hdl_Title><![CDATA[]]></hdl_Title>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+    <con_Banner><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<DIV id=headerimage>
+<SCRIPT type=text/javascript src="../../static/js/jquery.cycle.all.latest.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+jQuery(document).ready(function() {
+jQuery('#headersliderwrapper').cycle({
+        fx:'fade',
+        slideExpr: '.headerslide'
+    });
+});
+</SCRIPT>
+
+<DIV id=headersliderwrapper>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-wet-01.jpg"> 
+<DIV class=headerslideinfo>Parque nacional Daintree, Queensland</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-wet-02.jpg"> 
+<DIV class=headerslideinfo>Arte rupestre</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-wet-03.jpg"> 
+<DIV class=headerslideinfo>Tr&oacute;picos H&uacute;medos (autor de la imagen: David Finnigan)</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-wet-04.jpg"> 
+<DIV class=headerslideinfo>Casuario</DIV></DIV></DIV></DIV>
+<DIV id=subpage-header-overlay></DIV>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule></con_Banner>
+    <con_Body><TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Tr&oacute;picos h&uacute;medos]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        Desde el bosque pluvial de Daintree hasta la regi&oacute;n de mesetas, el paisaje nacional de los Tr&oacute;picos H&uacute;medos es un destino fascinante e intrigante, que atrae a todas las personas que lo visitan. En este lugar se encuentran dos obras maestras: los bosques pluviales tropicales de los Tr&oacute;picos H&uacute;medos y la Gran Barrera de Coral. En esta regi&oacute;n, encontrar&aacute; una espectacular variedad de plantas y animales, senderos, cascadas, monta&ntilde;as, playas y vida marina, entre los que se hallan los bosques pluviales tropicales m&aacute;s antiguos de la Tierra que han sobrevivido y numerosas especies inusuales en peligro que no se encuentran en ning&uacute;n otro lugar del mundo.
+        <p>Existen diversas actividades y vistas, ya sea que est&eacute; en busca de cultura y aventura, o que simplemente desee recluirse en un spa curativo en un bosque pluvial.</p>
+        <p><strong>Cinco maneras de disfrutar los Tr&oacute;picos h&uacute;medosa</strong></p>
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[1. Ruta Great Tropical Drive]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-wet-tropics-hl01.jpg" alt="Great Tropical Drive, QLD">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Great Tropical Drive, QLD]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        La carretera Great Tropical Drive (Gran carretera del tr&oacute;pico) de Cairns o Townsville es uno de los paseos mar&iacute;timos m&aacute;s hermosos del mundo. Cuenta con un espectacular tel&oacute;n de fondo de cordilleras empinadas y playas costeras. Atraviesa seis regiones &uacute;nicas: Cooktown; Puerto Douglas, Cairns y la regi&oacute;n de Daintree; la playa de Mission Beach y la Costa Cassowary; la regi&oacute;n de las mesetas tropicales y el territorio de la sabana; la hist&oacute;rica ciudad de Townsville y Charters Towers; y la isla Hinchinbrook.
+        <p>Tambi&eacute;n existen 13 senderos de excursionismo que conectan algunas de las mejores atracciones de Australia, entre ellas la Gran Barrera de Coral y el bosque pluvial de Daintree. Luego de explorarlo cada uno de ellos, habr&aacute; experimentado plenamente lo mejor que ofrece esta regi&oacute;n: bosques pluviales, arrecifes, una cultura viva, tentadores alimentos tropicales y aventuras en el desierto interior de Australia.</p>
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[2. Sum&eacute;rjase en el bosque pluvial]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-wet-tropics-hl02.jpg" alt="Boardwalk in Daintree, QLD">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Boardwalk in Daintree, QLD]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        El r&iacute;o Daintree es el punto de entrada m&aacute;s importante al bosque pluvial del mismo nombre, el bosque pluvial tropical m&aacute;s antiguo del mundo. Tome el transbordador para autom&oacute;viles e ingrese a un mundo donde encontrara animales y plantas poco frecuentes que cuentan la historia de la evoluci&oacute;n de la Tierra. Disfrute el bosque pluvial en todos los niveles: recorra un camino de madera para ver todo de cerca en el cabo Tribulation o suba al paseo entre las copas de los &aacute;rboles de Mamu Rainforest Canopy Walkway en Palmerston Range. Incluso puede practicar paracaidismo sobre el bosque pluvial desde la playa de Mission Beachy alcanzar a ver los casuarios del sur en el Parque Nacional de Djiru. Existen m&aacute;s de 100 parques nacionales para visitar &uacute;nicamente en esta regi&oacute;n. La regi&oacute;n de los Tr&oacute;picos H&uacute;medos es, adem&aacute;s, un para&iacute;so para los observadores de aves, con m&aacute;s de 200 especies de aves y especies aut&oacute;ctonas de flora y fauna de Australia en Hasties Swamp, Mareeba y Tyto Wetlands.
+        <p>Sienta la fuerza de los antiguos sucesos geol&oacute;gicos que moldearon este paisaje al caminar alrededor del Parque Nacional Lagos Crater.</p>
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[3. Experimente la historia viva]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-wet-tropics-hl03.jpg" alt="Rock Art, Cooktown, QLD">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Rock Art, Cooktown, QLD]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        La regi&oacute;n de los Tr&oacute;picos h&uacute;medos tambi&eacute;n tiene un patrimonio vivo &uacute;nico al contar con 18 grupos tribales abor&iacute;genes, cuyas conexiones con el &Aacute;rea de Patrimonio Mundial datan de m&aacute;s de 60.000 a&ntilde;os, lo que los convierte en la cultura de bosque pluvial m&aacute;s antiguas del mundo. Realice una excursi&oacute;n con un gu&iacute;a aborigen para conocer la historia, la cultura y la espiritualidad ind&iacute;gena de la regi&oacute;n. La ruta Bama Way, entre Puerto Douglas y Cooktown, sigue antiguos relatos abor&iacute;genes a trav&eacute;s del bosque pluvial. Explore la historia m&aacute;s reciente de Australia en el cabo Tribulation, donde el teniente James Cook dio contra el arrecife cerca de la costa el 1770. Tanto este hito natural como Cooktown reciben sus nombres en memoria de estos sucesos.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[4. Suba a todas las monta&ntilde;as]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-wet-tropics-hl04.jpg" alt="Bellenden Ker, QLD">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Bellenden Ker, QLD]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        La regi&oacute;n de los Tr&oacute;picos h&uacute;medos es la sede de las dos monta&ntilde;as m&aacute;s altas de Queensland, el monte Bartle Frere (1622 metros) y el monte Bellenden Ker (1593 metros). Tambi&eacute;n puede ponerse sus botas de excursi&oacute;n y caminar en el serpenteante sendero de Thorsborne Trail de 32 kil&oacute;metros en la isla Hinchinbrook, el cual atraviesa paisajes tropicales a lo largo de espectaculares playas costeras. Los cuatro senderos que conforman los 130 kil&oacute;metros de la red de caminos naturales de Misty Mountains en la regi&oacute;n de mesetas pueden resultar un desaf&iacute;o, pero las recompensas son bosques v&iacute;rgenes y vistas asombrosas. Adem&aacute;s, hay muchos senderos relajados para explorar en caso de que ese se ajuste m&aacute;s su estilo.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[5. Maravillas en el agua]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-wet-tropics-hl05.jpg" alt="Millaa Millaa Falls, QLD">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Millaa Millaa Falls, QLD ]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Las cascadas y los r&iacute;os salvajes tambi&eacute;n constituyen una parte importante de este paisaje. Marav&iacute;llese con las cataratas de Wallaman, la cascada de un solo salto m&aacute;s alta de Australia ubicada en el Parque Nacional de Girringun. Sea testigo de las cascadas de Millaa Millaa y Josephine en el circuito de cataratas en verano. Explore los senderos, las cascadas y las pozas del espectacular desfiladero de Mossman. Tome un crucero para navegar por el r&iacute;o Daintree, que est&aacute; repleto de aves y cocodrilos. Practique rafting en aguas r&aacute;pidas en el r&iacute;o Tully. Pase alg&uacute;n tiempo explorando las inmaculadas playas e islas, como la isla Magnetic, frente a Townsville.
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights></con_Body>
+    <con_RHSModules><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<TABLE cellSpacing=0 cellPadding=0 width=298 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top align=center>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD style="WIDTH: 25px"></TD>
+<TD><!-- #BeginLibraryItem "/Library/sitenav.lbi" -->
+<SCRIPT language=JavaScript1.2 type=text/javascript src="../../static/js/stmenu.js"></SCRIPT>
+<!-- #EndLibraryItem --></TD></TR></TBODY></TABLE><!-- Google Map Start -->
+<SCRIPT type=text/javascript>
+function fireEvent(obj,evt){
+var fireOnThis = obj;
+if( document.createEvent ) {
+var evObj = document.createEvent('MouseEvents');
+evObj.initEvent( evt, true, false );
+fireOnThis.dispatchEvent(evObj);
+} else if( document.createEventObject ) {
+fireOnThis.fireEvent('on'+evt);
+}
+}
+function clickLink(linkobj) {
+if (linkobj.getAttribute('onclick') == null) {
+if (linkobj.getAttribute('href')) document.location = linkobj.getAttribute('href');
+}
+else linkobj.onclick();
+}
+function loadjscssfile(filename, filetype){
+if (filetype=="js"){ //if filename is a external JavaScript file
+var fileref=document.createElement('script')
+fileref.setAttribute("type","text/javascript")
+fileref.setAttribute("src", filename)
+}
+else if (filetype=="css"){ //if filename is an external CSS file
+var fileref=document.createElement("link")
+fileref.setAttribute("rel", "stylesheet")
+fileref.setAttribute("type", "text/css")
+fileref.setAttribute("href", filename)
+fileref.setAttribute("media", "print")
+}
+if (typeof fileref!="undefined")
+document.getElementsByTagName("head")[0].appendChild(fileref)
+}
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+var icheckk=0;
+jQuery.each(jQuery.browser, function(i, val) {
+if(i=="msie" && jQuery.browser.version.substr(0,3)=="7.0")
+icheckk=1;
+});
+function myfun()
+{
+loadjscssfile("../../static/css/thickbox.css", "css");
+if(icheckk==1)
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='../../static/maps/es-la/wettropics/bigmap.html'  target='_blank'>&nbsp;Imprimir|Cerca|&nbsp;o prensa el Esc tecla</a></b>","../../static/maps/es-la/wettropics/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+else
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='javascript:window.print()' >&nbsp;Imprimir|Cerca|&nbsp;o prensa el Esc tecla</a></b>","../../static/maps/es-la/wettropics/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+}
+         </SCRIPT>
+<IFRAME style="MARGIN-BOTTOM: 20px; BORDER-TOP: black 1px solid; HEIGHT: 355px; BORDER-RIGHT: black 1px solid; BORDER-BOTTOM: black 1px solid; FLOAT: left; PADDING-BOTTOM: 5px; BORDER-LEFT: black 1px solid; BACKGROUND-COLOR: #333333" height=380 src="../../static/maps/es-la/wettropics/index.html" frameBorder=0 width=249 name=FRAMENAME scrolling=no></IFRAME><!-- Google Map end -->
+<DIV class=subpage-video-thumb style="TEXT-ALIGN: left"><A onclick="moduleTrackingWithTitle('lightbox-video','',false,'nationallandscapes-wettropicsesla');" href="#" data-reveal-id="modalVideo"><IMG alt="" src="/contentimages/Campaigns/national-landscapes-video-es-la.jpg"></A> </DIV>
+<DIV id=modalVideo class="reveal-modal video" style-="z-index: 103;"><A class=close-reveal-modal><SPAN class=icon></SPAN></A>
+<DIV class=video style="VISIBILITY: visible !important"><IFRAME height=315 src="//www.youtube.com/v/EjGZ3MaX9pE?version=3&amp;hl=en_GB" frameBorder=0 width=560></IFRAME></DIV></DIV></TD></TR></TBODY></TABLE>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule><Listing isTemplate="1">
+<anc_List1><![CDATA[/es-la/explore/cities/cairns.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[M&aacute;s ideas Australianas]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/es-la/AccommodationSearch.ignore]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/es-la/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/es-la/AttractionSearchResults.ignore]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/es-la/DestinfoSearchResults.ignore]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/es-la/EventsSearch.xml]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/es-la/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/es-la/hire.ignore]]></anc_Hire>
+<anc_Info><![CDATA[/es-la/InfoSearchResults.ignore]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/es-la/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/es-la/TourSearchResults.ignore]]></anc_Tour>
+<anc_Transport><![CDATA[/es-la/transport.ignore]]></anc_Transport>
+<hdl_Title><![CDATA[Planifique su visita]]></hdl_Title>
+<language><![CDATA[ESS]]></language>
+<stf_Accomodation><![CDATA[Accommodation]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[Attractions]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[Find a Travel Agent near you]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[Destination Information]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[Events]]></stf_Events>
+<stf_Hire><![CDATA[Hire ]]></stf_Hire>
+<stf_Informationservices><![CDATA[Information Services]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[Queensland]]></stf_StateFilter>
+<stf_Tours><![CDATA[Tours]]></stf_Tours>
+<stf_Transport><![CDATA[Transport]]></stf_Transport>
+</PlanYourVisit></con_RHSModules>
+    <con_Category></con_Category>
+    <lst_Subpages>
+    </lst_Subpages>
+</StandardCampaignLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

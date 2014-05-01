@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="10766" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[홈]]></headline>
+            <href><![CDATA[/ko/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[호주 여행 정보]]></headline>
+            <href><![CDATA[/ko/explore.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[시드니 ]]></headline>
+            <href><![CDATA[/ko/explore/cities/sydney.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[록스]]></headline>
+            <href><![CDATA[/ko/explore/cities/sydney/sydney-the-rocks.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/explore-cities-sydney-the-rocks.jpg]]></img_background>
+    <hdl_Title><![CDATA[록스]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/explore-cities-sydney-the-rocks-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/explore-cities-sydney-the-rocks-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[no]]></opt_PartnerLead>
+    <stf_description><![CDATA[호주 시드니 록스. 박물관과 갤러리, 활기찬 주말 시장 그리고 멋진 시드니 하버의 전망 덕분에 사랑받는 록스를 방문해 보세요.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[록스, 시드니 록스, 록스 시드니]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[상세 정보]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[호주 시드니 록스 - 호주정부관광청]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[이주민 정착이 시작되었던 록스에서 시드니의 흥미진진한 역사를 알아 보세요.]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <Listing isTemplate="1">
+<anc_List1><![CDATA[/ko/explore/cities/sydney/sydney-surrounds.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[호주 아이디어 더]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/ko/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/ko/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/ko/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/ko/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/ko/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/ko/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/ko/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/ko/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/ko/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/ko/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/ko/Transport.aspx]]></anc_Transport>
+<hdl_Title><![CDATA[여행 계획 하기]]></hdl_Title>
+<language><![CDATA[KOR]]></language>
+<stf_Accomodation><![CDATA[Accommodation]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[Sydney]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[Attractions]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[Find a travel agent near you]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[Destination Information]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[Events]]></stf_Events>
+<stf_Hire><![CDATA[Hire]]></stf_Hire>
+<stf_Informationservices><![CDATA[Information]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[New South Wales]]></stf_StateFilter>
+<stf_Tours><![CDATA[Tours]]></stf_Tours>
+<stf_Transport><![CDATA[Transport]]></stf_Transport>
+</PlanYourVisit>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[록스]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        서큘러 키(Circular Quay)에서 불과 5분 거리인 록스(The Rocks)는 초기 유형지 시대의 시드니 역사가 살아 숨쉬는 곳입니다. 자갈길이 깔려 있어 한결 그 운치를 더하답니다. 항만 바닷가에서 몇 걸음만 옮기면 바로 사암 테라스와 오두막 그리고 시드니에서 가장 오래된 주점과 마주치게 됩니다. 이 유서 깊은 지역은 박물관과 갤러리, 활기찬 주말 시장 그리고 멋진 시드니 하버의 전망이 내려다 보이는 호텔 덕분에 관광객과 현지인 모두에게 인기 있는 곳입니다. 유령 투어와 재기 발랄한 축제로 유명한 록스는 과거와 현재가 절묘하게 공존하는 공간입니다.   
+        <p>얼기설기 얽힌 록스의 비탈길은 서큘러 키의 서쪽과 시드니 하버 브릿지의 웅장한 강철 아치를 향해 뻗어 있습니다. 호주의 아이콘 <a href="http://www.australia.com/campaigns/nothinglike/au/sydney-product9.htm" target="_blank">오페라 하우스</a>에서 하버 브릿지 바로 아래까지 바닷가를 거닐어 보세요. 파이런 전망대(Pylon Lookout)에 들러 아름다운 경치를 감상해 보세요. 보다 더 짜릿한 전망을 원하신다면 하버 브릿지 클라이밍 투어에 도전해 보세요.  </p>
+        <p>록스의 펍은 시드니에서 가장 오랜 전통을 자랑합니다. 워킹 투어에 참가하면 이들 펍의 다채로운 역사에 대해 들으실 수 있습니다. 1800년대 선원과 군인, 부두 노동자들이 한잔 술로 삶의 시름을 달래던 바에서 라이브 음악을 들으며 시드니산 맥주를 맛보세요. 가이드의 설명을 듣다 보면 빈곤과 암울한 병마를 근근이 버텨내던 거친 사내들의 힘겨웠던 삶이 생생하게 떠오릅니다. 펍과 유서 깊은 플레이페어 스트리트(Playfair Street) 테라스, 창고와 옛 노동자 막사 건물 사이로 발걸음을 옮기다 보면 이들의 이야기가 머릿속을 스쳐 지나갑니다. </p>
+        <p>지금은 이 건물들에 우아한 부티크와 갤러리가 자리잡고 있어 센스 있는 기념품을 팔거나 호주 예술가의 작품을 전시하고 있습니다. 인기 있는 토요 시장에서는 예쁜 수공예품 장신구에서부터 별미 부시터커 양념에 이르기까지 각양각색의 제품들을 구입하실 수 있습니다. 실컷 눈요기를 한 다음에는 점술 전문 서점에서 타로 카드 점을 쳐 보거나 식민지 시대의 정원이 딸린 카페나 빵집에서 허기를 달래 보세요.</p>
+        <p>록스에는 또한 <a href="/ko/explore/cities/sydney.xml" target="_self">시드니</a>에서 특히 유명한 예술 명소가 많이 있답니다. 가까운 월시 베이(Walsh Bay)에서 시드니 극단(Sydney Theatre Company)의 공연을 관람하거나 시드니 무용단(Sydney Dance Company)의 댄스 강습에도 참가해 보세요. 서큘러 키 맞은 편에는 호주 국내외의 수준 높은 작품이 다수 소장된 시드니 현대 미술관(Museum of Contemporary Art)이 위치하고 있습니다.  </p>
+        <p>이제 호주의 역사 체험을 위해 사법 경찰 박물관(Justice and Police Museum)으로 떠나 보세요. 이곳은 예전에 시드니 부둣가에서 말썽을 부리던 사내들이 이송되어 왔던 법원이었습니다. 옛 미결수 유치장을 들여다 보며 1890년대 경찰 조서실을 상상해 보세요. 시드니 개척 초기의 어두웠던 역사를 좀 더 깊숙이 살펴 보려면 록스 주변을 도는 유령 투어가 제격이랍니다. 랜턴 불빛을 따라 좁은 골목길을 지나며 으스스한 스토리에 귀를 기울여 보세요.  </p>
+        <p>유령들도 이 자갈길 거리를 좋아해 이곳에 머무는 것이겠지만 그래도 유령보다는 유서 깊은 호텔에서 술 한잔을 기울이는 시드니 직장인이나 외국인 관광객들과 부딪힐 가능성이 더 많겠죠? 시드니에서 큰 이벤트가 열리는 기간에는 사람들 사이에 어울려 이벤트를 즐겨 보세요. 1월 26일에는 라이브 밴드의 음악과 함께 호주 국경일을 기념하고, 새해 전야에는 시드니 하버 위에서 화려하게 펼쳐지는 불꽃놀이를 놓치지 마세요. 시드니의 과거와 현재가 공존하는 록스를 잊지 말고 방문해 보세요.</p>
+    ]]></txt_Information>
+            
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

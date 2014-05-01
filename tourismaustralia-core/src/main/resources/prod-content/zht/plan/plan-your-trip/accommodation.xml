@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="35" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[首頁]]></headline>
+            <href><![CDATA[/zht/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[計劃]]></headline>
+            <href><![CDATA[/zht/plan.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[食宿]]></headline>
+            <href><![CDATA[/zht/plan/plan-your-trip/accommodation.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/plan-plan-your-trip-find-accommodation.jpg]]></img_background>
+    <hdl_Title><![CDATA[食宿]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/plan-plan-your-trip-find-accommodation-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/plan-plan-your-trip-find-accommodation-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[搜尋精品酒店、背包族旅舍、自助式公寓、鄉村酒館、農場住宿和露營等相關資訊。瞭解詳情。]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[住宿 , 澳洲的住宿有很多種選擇，可滿足遊客不同的需求。我們有精品酒店、背包客旅舍、豪華度假村、自助式公寓、鄉村酒館，和露營設施]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[了解更多]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[食宿]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[澳洲的住宿有很多種選擇，可滿足遊客不同的需求。我們有精品酒店、背包客旅舍、豪華度假村、自助式公寓、鄉村酒館，和露營設施。]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <AccommodationRHS isTemplate="1">
+    <!-- no user content -->
+</AccommodationRHS><StarRatingModule isTemplate="1">
+    <hdl_Title><![CDATA[星級指南 ]]></hdl_Title>
+    <con_StarRating>
+        <StarRatingItem isTemplate="1">
+    <hdl_Title><![CDATA[酒店式公寓 ]]></hdl_Title>
+    <txt_Description><![CDATA[設備齊全的公寓，1至3間睡房、廳、廚房、洗衣房和單獨的浴室。<BR>]]></txt_Description>
+    <img_Stars><![CDATA[]]></img_Stars>
+</StarRatingItem><StarRatingItem isTemplate="1">
+    <hdl_Title><![CDATA[5星]]></hdl_Title>
+    <txt_Description><![CDATA[豪華標準和各種一流的住客服務 <BR>]]></txt_Description>
+    <img_Stars><![CDATA[<img src="/contentimages/rating5.jpg" alt="5星 ">]]></img_Stars>
+</StarRatingItem><StarRatingItem isTemplate="1">
+    <hdl_Title><![CDATA[4～4&frac12;星 ]]></hdl_Title>
+    <txt_Description><![CDATA[優質標準，高質量的佈置，舒適宜人 <BR>]]></txt_Description>
+    <img_Stars><![CDATA[<img src="/contentimages/rating4.jpg" alt="4～4½星 ">]]></img_Stars>
+</StarRatingItem><StarRatingItem isTemplate="1">
+    <hdl_Title><![CDATA[ 3～3&frac12;星 ]]></hdl_Title>
+    <txt_Description><![CDATA[設備好，舒適，房間潔凈，佈置質量高 <BR>]]></txt_Description>
+    <img_Stars><![CDATA[<img src="/contentimages/rating3.jpg" alt=" 3～3½星 ">]]></img_Stars>
+</StarRatingItem><StarRatingItem isTemplate="1">
+    <hdl_Title><![CDATA[3星以下 ]]></hdl_Title>
+    <txt_Description><![CDATA[基本的、保養良好的標準 <BR>]]></txt_Description>
+    <img_Stars><![CDATA[<img src="/contentimages/ratingStar.gif" alt="3星以下 ">]]></img_Stars>
+</StarRatingItem>
+    </con_StarRating>
+    <anc_MoreLink><![CDATA[]]></anc_MoreLink> 
+</StarRatingModule><Listing isTemplate="1">
+<anc_List1><![CDATA[/zht/plan/before-you-go/visa-information.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[More Australian Ideas]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[住宿]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[澳洲的住宿有很多種選擇，可滿足遊客不同的需求。我們有精品酒店、背包客旅舍、豪華度假村、自助式公寓、鄉村酒館，和露營設施。不管您選擇何種預算範圍，都可以得到親切的服務和一流的水準。
+
+<P>了解有關各種住宿類型的詳細資料，包括它們提供的設施以及大致費用。</P>
+
+<P>既然來澳洲旅游，何不選擇一些獨特的住宿地方，讓您的旅程更加難忘？ </P>
+
+<P>&nbsp;</P>
+<P></P>]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[酒店 ]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[住進房間或套房裏，快撥要求客房服務和幼兒照管等，享受游泳池、健身中心，乃至餐館、酒吧等各項設施。在澳洲的任何大型度假地和主要城市，都可以找到各大國際酒店品牌。從二星級到五星級不等，價格也相應不同。]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[汽車旅館 ]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[駕車途中，您可以到汽車旅館休息，汽車旅館以合理的價格提供舒適的住宿。客房通常包括私人浴室、電視、泡製茶和咖啡的器具及小冰箱。大多數汽車旅館都提供房間內早餐菜單，而規模大一些的則有自己的餐館。 ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[酒店式公寓與度假公寓]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[在設備齊全的公寓或度假公寓中享受空間、隱私及廚房和洗衣設施的便利。如果您與家人或一大群朋友一起旅行，或者希望在一個地方多留幾天，那麼這將是理想而經濟的選擇。您可以擁有更寬敞的居住空間，享受自己烹飪的機會。具體的服務與非服務項目會因不同的公寓而有所不同。]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[住宿加早餐旅館]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[在住宿加早餐旅館休憩，感受家一般的款待，享用豐富的家常美食。在澳洲，從歷史古宅到礦工小屋，從鄉村莊園到內城排屋，到處都可以找到這些家庭經營的小型旅館。他們以合理的價格提供舒適的房間，而且主人們往往都能為客人提供有用的資料。 ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[農場寄宿]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[在小農場伴隨著公雞啼叫聲醒來，或是在超過一百萬畝的內陸牧場學習剪羊毛。睡在錫皮屋頂下簡陋的床上，或是在一大片莊園中享受豪華住宿。居住在農場，您可以騎馬、釣魚、游泳或叢林遠足，體驗海闊天空。融入當地人的日常生活，修修圍欄，騎馬趕牛，捕捉小螯蝦，或是駕駛四驅車穿越農場。體驗霧氣朦朧的清晨、殘紅的日落、豐富的鄉村美食和露天營火。您還可以在星空下享受暖暖的自流井按摩浴，舒緩一天的勞頓。寄宿在農場，讓您遠離城市生活的喧囂，投入鄉村的熱情懷抱，回歸到依靠土地為生的簡單生活之中。 ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[野營與露營車營地 ]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[在澳洲風景如畫的鄉村，感受一流的戶外野營或是露營車旅行的樂趣。可以將帳篷扎在國家公園裏，或是前往一個設施齊全的野營或露營車營地。那裏提供電力、熱水淋浴、洗衣設施及烤燒區，將公路上的生活保持得清潔而文明。請注意，為了保護我們脆弱的環境，國家公園和露營地都有規則和條例需要遵守。如果希望您的公路旅行設施齊全而且永遠不會迷路，可以參加有導遊帶領的、為期一個月的露營車旅行團。或者到內陸、森林、沙漠或海灘上享受迷人的野營式度假地，可奢華亦可簡樸。]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[旅店與背包客旅舍]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[在昆士蘭的海灘小屋或樹屋中住宿，或在南澳的地下旅館過夜。不管您是背包客一族，還是只想節省費用，從澳洲的內陸到城市中心都可以找到適合的旅店住宿。這些旅店不僅可以為您省錢，還是遇到其他旅客的好地方。你們可以交流彼此的故事，或是結伴征服澳洲更多的探險路線。]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[旅店與背囊客旅舍]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[在昆士蘭的海灘小屋或樹屋中住宿，或在南澳的地下旅館過夜。不管您是背囊客一族，還是只想節省費用，從澳洲的內陸到城市中心都可以找到適合的旅店住宿。這些旅店不僅可以為您省錢，還是遇到其他旅客的好地方。你們可以交流彼此的故事，或是結伴征服澳洲更多的探險路線。]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[度假村 ]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[到度假村去鬆弛身心吧，那裏有您需要的一切！您可以享受到寬敞、高質的住宿和眾多的住客服務，還可以參加各種旅行團和活動。如果想要在那些美麗絕倫的自然景點鬆弛一下，那麼澳洲的度假村將是您的理想之選 - 從昆士蘭（Queensland）的漢密爾頓島（Hamilton Island），到南澳州（South Australia）的葡萄酒鄉，各處都有此類設施。它們的活動因地制宜，所以根據地點的不同，您可以玩滑雪，參加潛水，或是在泳池邊品嚐雞尾酒。
+<P><BR></P>]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="12002" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Pagina iniziale]]></headline>
+            <href><![CDATA[/it/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Informazioni]]></headline>
+            <href><![CDATA[/it/about.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Piante]]></headline>
+            <href><![CDATA[/it/about/key-facts/plants.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/about-key-facts-plants.jpg]]></img_background>
+    <hdl_Title><![CDATA[Piante]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/about-key-facts-plants-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/about-key-facts-plants-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[no]]></opt_PartnerLead>
+    <stf_description><![CDATA[In Australia crescono circa 27.700 specie di piante, compresi fossili viventi come le palme cicadi, la xantorrea e meravigliosi fiori selvatici come i waratah, i piselli di deserto dello Sturt, le banksie e le zampe di canguro.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[Wildflowers, Alice Springs, NT &copy; Claire Takacs 2010]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[Piante d'Australia; Foreste; Eucalipto; Foreste pluviali; Zone umide; Fiori selvatici]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Ulteriori Informazioni]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Piante d'Australia]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        In Australia crescono circa 27.700 specie di piante, compresi fossili viventi come le palme cicadi, la xantorrea e meravigliosi fiori selvatici come i waratah, i piselli di deserto dello Sturt, le banksie e le zampe di canguro.
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <Listing isTemplate="1">
+<anc_List1><![CDATA[/it/plan/before-you-go/planning-a-trip.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[Altri itinerari suggeriti in Australia]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/it/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/it/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/it/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/it/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/it/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/it/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/it/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/it/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/it/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/it/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/it/Transport.ignore]]></anc_Transport>
+<hdl_Title><![CDATA[Pianifica la tua vacanza]]></hdl_Title>
+<language><![CDATA[ITA]]></language>
+<stf_Accomodation><![CDATA[]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[]]></stf_Events>
+<stf_Hire><![CDATA[]]></stf_Hire>
+<stf_Informationservices><![CDATA[]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[]]></stf_StateFilter>
+<stf_Tours><![CDATA[]]></stf_Tours>
+<stf_Transport><![CDATA[]]></stf_Transport>
+</PlanYourVisit>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Piante d'Australia]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        In Australia crescono circa 27.700 specie di piante, compresi fossili viventi come le palme cicadi, la xantorrea e meravigliosi fiori selvatici come i waratah, i piselli di deserto dello Sturt, le banksie e le zampe di canguro.
+        <p>Inoltre abbiamo circa 2.800 specie di eucalipto (albero della gomma) e 1.000 specie di acacia che qui viene chiamata "wattle". L'acacia dorata &egrave; l'emblema floreale dell'Australia. Gli eucalipti costituiscono circa l'80 percento delle nostre foreste. Acacie, melaleuca (albero del t&egrave;), casuarine, callitris (cipressi neri), mangrovie e foreste pluviali costituiscono il restante 20 percento.</p>
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Foreste]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/about-key-facts-plants-forests-hl.jpg" alt="Foreste">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Foreste]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Gli alberi pi&ugrave; alti dell'Australia crescono nella parte sud-occidentale dello stato di <a href="/it/explore/states/wa.xml" target="_self">Western Australia</a>, nella <a href="/it/explore/states/wa/wa-valley-of-the-giants-story.xml" target="_self">Valley of the Giants</a>. Qui puoi trovare giant tuart, karri e i jarrah rossi, che vivono fino a 500 anni. <a href="/it/explore/itineraries/wa-bibbulmun-track.xml" target="_self">Il Bibbulmun Track</a>, lungo 1.000 chilometri, attraversa una gran variet&agrave; di foreste di jarrah, marri, wandoo, karri e tingle oltre ad acquitrini di importanza internazionale.
+        <p>Nella foresta pluviale tipica dei climi freschi e temperati che si trova in <a href="/it/explore/icons/tas-wilderness.xml" target="_self">Tasmania</a> ed &egrave; Patrimonio dell'umanit&agrave; crescono alcuni fra gli alberi pi&ugrave; vecchi del pianeta, come il raro pino Huon.</p>
+        <p>Il maestoso pino Wollemi ci riporta a un paesaggio vecchio 200 milioni di anni, quando l'Australia, la Nuova Zelanda e l'Antartide erano uniti in un supercontinente, il Gondwana. Ritenuto estinto per milioni di anni, &egrave; stato riscoperto da un "bush walker" nel 1994. Meno di 100 alberi crescono nella natura selvaggia delle gole della foresta pluviale delle Greater Blue Mountains.</p>
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Eucalipto]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/about-key-facts-plants-eucalypts-hl.jpg" alt="Eucalipto">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Eucalipto]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        L'albero della gomma (eucalipto) &egrave; l'albero pi&ugrave; comunemente associato all'Australia. Cresce in ambienti diversi, dalle aree subalpine fino alle umide foreste della costa, nelle terre paludose temperate e nelle aride zone dell'entroterra. Nelle Greater Blue Mountains si trova la pi&ugrave; vasta variet&agrave; di specie di eucalipto del pianeta. Le <a href="/it/explore/icons/blue-mountains.xml" target="_self">Blue Mountains</a> infatti prendono il loro nome dallo scintillante riflesso blu che si disperde nell'aria dall'olio degli alberi. Sulle <a href="/it/explore/icons/alps.xml" target="_self">Alpi Australiane</a>, magnifici alberi della gomma color rosso e argento spiccano in un paesaggio innevato. Sui <a href="/it/explore/icons/flinders.xml" target="_self">Flinders Ranges</a> in South Australia, antichi alberi della gomma fluviali crescono nel letto di torrenti prosciugati. I koala si nutrono esclusivamente di alcune specie di eucalipto.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Foreste pluviali]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/about-key-facts-plants-rainforests-hl.jpg" alt="Foreste pluviali">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Foreste pluviali]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Un tempo, le foreste pluviali coprivano gran parte delle aree meridionali del supercontinente Gondwana; in queste foreste crescono piante primitive che discendono direttamente da quelle di 100 milioni di anni fa. Le foreste pluviali Australiane si estendono in tutto il paese e in ogni tipo di clima. <a href="/it/explore/states/qld/qld-spring-daintree-forest.xml" target="_self">La Daintree Rainforest</a>, nel Queensland settentrionale, &egrave; la foresta tropicale pi&ugrave; antica della terra con i suoi 135 milioni di anni. Qui puoi ammirare 13 diversi tipi di foresta pluviale. Le foreste pluviali del Gondwana nel Queensland sud-orientale e nella parte settentrionale del <a href="/it/explore/states/nsw.xml" target="_self">New South Wales</a> includono le aree pi&ugrave; vaste del mondo di foreste pluviali subtropicali, oltre alla foresta pluviale dei climi freschi e temperati. Sacche di foresta pluviale arida sono tipiche della regione di <a href="/it/explore/icons/kimberley.xml" target="_self">Kimberley</a> in Western Australia. Nel Kakadu National Park scoprirai zone di foresta pluviale monsonica e gole coperte di lussureggianti felci negli Otway Ranges, nello stato di Victoria.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Zone umide]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/about-key-facts-plants-wetlands-hl.jpg" alt="Zone umide">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Zone umide]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Le zone umide attirano grandi stormi di uccelli migratori nel <a href="/it/explore/icons/kakadu.xml" target="_self">Kakadu National Park</a>, nel Croajingolong National Park (inserito dall'UNESCO nell'elenco del World Biosphere Reserve) e nella Nadgee Nature Reserve, nella parte sud-orientale dell'Australia. L'Australia &egrave; stata uno dei primi paesi a firmare la Convenzione di Ramsar relativa alle zone umide di importanza internazionale e la Cobourg Peninsula nel <a href="/it/explore/states/nt.xml" target="_self">Northern Territory</a> &egrave; stata il primo sito del mondo a essere inserito in questo elenco, nel 1974. Attualmente, in Australia ben 65 siti fanno parte della convenzione Ramsar, per un totale di 8 milioni di ettari.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Fiori selvatici]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/about-key-facts-plants-wildflowers-hl.jpg" alt="Fiori selvatici">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Fiori selvatici]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        I fiori selvatici, comprese le margherite perenni, trasformano le zone aride e le verdi savane dell'Australia in tappeti colorati. Da giugno a settembre, pi&ugrave; di 12.000 specie di <a href="/it/explore/states/wa/wa-wildflowers.xml" target="_self">fiori selvatici colorano il paesaggio dello stato di Western Australia</a>. Dalla fine di agosto alla met&agrave; di ottobre, pi&ugrave; di 100 variet&agrave; di fiori selvatici sono visibili a <a href="/it/explore/icons/kangaroo-island.xml" target="_self">Kangaroo Island</a>, in South Australia, e molte di queste variet&agrave; sono introvabili altrove. Nelle Alpi Australiane, quando si scioglie la neve, i prati alpini esplodono in milioni di craspedie gialle, stylidium rosa e margherite bianche e argento.
+        <p>La flora Australiana unica include la famiglia delle Proteaceae, di cui fanno parte le banksie (callistemi), le grevillee e le telopee (waratah). Circa l'80 percento delle piante e la quasi totalit&agrave; delle specie di Proteaceae crescono esclusivamente nella parte sud-occidentale dello stato di Western Australia e in nessun altro luogo al mondo. Nelle brughiere lungo la <a href="/it/explore/icons/great-ocean-road.xml" target="_self">Great Ocean Road</a>, nello stato di Victoria, cresce il maggior numero di orchidee di tutta l'Australia.</p>
+        <p>I fiori selvatici sono specie protette in Australia: non raccoglierli!</p>
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

@@ -20,13 +20,10 @@
 }
 
 .hotornot-h2-responsive {
-
   color: #fff;
-
   font-size: pxtoem(30px);
   //margin-bottom: 1em;
   line-height: .9em;
-
   @include breakpoint(sm){
     font-size: pxtoem(40px);
   }
@@ -37,7 +34,6 @@
   @include breakpoint(lg){
     font-size: pxtoem(80px);
     margin-bottom: .2em;
-
   }
 }
 .hotornot-category {
@@ -57,13 +53,9 @@
   height: 100%;
   top: 35%;
   text-align: center;
-
 }
 
-
-
 .hotornot-background-image {
-
   background-size: cover;
   background-position: 50% 50%;
   height: pxtoem(244px);
@@ -192,20 +184,6 @@
   }
 }
 
-.hotornot-show {
-  position: absolute;
-  bottom: 1em;
-  text-align: center;
-  z-index: 3;
-  width: 100%;
-  @include breakpoint(md){
-    display: none;
-  }
-  @include breakpoint(lg){
-
-  }
-}
-
 .hotornot-diamond {
   position: absolute;
   top: pxtoem(44px);
@@ -233,23 +211,68 @@
   top: .2em;
   right: .2em;
 }
-
+.hotornot-item-btn-position {
+  position: absolute;
+  bottom: 1em;
+  text-align: center;
+  z-index: 3;
+  width: 100%;
+  @include breakpoint(md){
+    display: none;
+  }
+}
 ///////////////////
 // STATES
 //////////////////
 // if is-hotornot-hide-mobile, we hide the mosaic elements, show the +
 // and hide the -
-.is-hotnornot-hide-mobile1 {
-  .hotornot-show {
+.is-hotnornot-hide-mobile {
+  .hotornot-show-btn {
     @include breakpoint(md){
       display: none;
     }
   }
-  .hotornot-hide {
+  .hotornot-hide-btn {
     display: none;
   }
-  .hotornot-grid {
+  .hotornot-item-grid {
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+    -ms-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+    max-height: 0;
+    overflow: hidden;
+    @include breakpoint(sm){
+      max-height: 1500px;
+
+    }
+
+    @include breakpoint(md){
+      display: inherit;
+    }
+  }
+}
+.is-hotnornot-show-mobile {
+  .hotornot-show-btn {
+
+  }
+  .hotornot-hide-btn {
     display: none;
+  }
+  .hotornot-item-grid {
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+    -ms-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+    max-height: 0;
+    overflow: hidden;
+    @include breakpoint(sm){
+      max-height: 1500px;
+
+    }
+
     @include breakpoint(md){
       display: inherit;
     }

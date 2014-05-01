@@ -54,6 +54,10 @@
   @include breakpoint(sm) {
     margin-top: pxtoem(14px);
   }
+
+  &.no-margin {
+    margin: 0;
+  }
 }
 
 .asp-search-form-label {
@@ -62,6 +66,22 @@
 
   @include breakpoint(lg) {
     text-align: left;
+  }
+
+  &.label-inline {
+    display: block;
+    line-height: 50px;
+    margin-right: 0.5em;
+    font-weight: normal;
+    vertical-align: top;
+
+    @include  breakpoint(lg) {
+      display: inline-block;
+    }
+  }
+
+  &.label-inline + .dropdown-white-background {
+    display: inline-block;
   }
 
 }

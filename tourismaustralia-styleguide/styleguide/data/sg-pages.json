@@ -846,23 +846,12 @@
             
         
             
-                "carousel_mobile" : {
+                "carousel" : {
                      "data" : {
-                        "title" : "carousel_mobile",
+                        "title" : "carousel",
                         "layout" : "styleguide-preview.hbs"
                     },
-                    "content" : "{{section 'carousel_mobile'}}"
-                }
-                
-                    ,
-                
-            
-                "carousel_standard" : {
-                     "data" : {
-                        "title" : "carousel_standard",
-                        "layout" : "styleguide-preview.hbs"
-                    },
-                    "content" : "{{section 'carousel_standard'}}"
+                    "content" : "{{section 'carousel'}}"
                 }
                 
             
@@ -1414,6 +1403,17 @@
                         "layout" : "styleguide-preview.hbs"
                     },
                     "content" : "{{section 'specialoffer_from'}}"
+                }
+                
+                    ,
+                
+            
+                "specialoffer_foodwine" : {
+                     "data" : {
+                        "title" : "specialoffer_foodwine",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'specialoffer_foodwine'}}"
                 }
                 
                     ,

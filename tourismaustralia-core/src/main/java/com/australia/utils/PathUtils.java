@@ -60,48 +60,4 @@ public final class PathUtils {
 	public static String getAllAtdwProductsForCategoryPath(Resource locale, String category) {
 		return locale.getPath() + "/products.html?cat=" + category;
 	}
-	
-	public static String getStateTagName(String path)
-	{	
-		if(!path.contains(FOOD_AND_WINE_ROOT_PATH))
-		{
-			path+=FOOD_AND_WINE_ROOT_PATH;
-		}
-			
-		String stateTagName="";
-		
-		if(path.equals(FOOD_AND_WINE_EXPLORE_AUSTRALIAN_CAPITAL_TERRITORY)) {
-			stateTagName="australia-capital-territory";
-		}
-			
-		if(path.equals(FOOD_AND_WINE_EXPLORE_NEW_SOUTH_WALES)){
-			stateTagName="new-south-wales";
-		}
-		
-		if(path.equals(FOOD_AND_WINE_EXPLORE_NORTHERN_TERRITORY)) {
-			stateTagName="northern-terriotory";
-		}
-		
-		if(path.equals(FOOD_AND_WINE_EXPLORE_QUEENSLAND)){
-			stateTagName="queensland";
-		}
-
-		if(path.equals(FOOD_AND_WINE_EXPLORE_SOUTH_AUSTRALIA)){
-			stateTagName="south-australia";
-		}
-		
-		if(path.equals(FOOD_AND_WINE_EXPLORE_TASMANIA)){
-			stateTagName="tasmania";
-		}
-		
-		if(path.equals(FOOD_AND_WINE_EXPLORE_VICTORIA)){
-			stateTagName="victoria";
-		}
-		
-		if(path.equals(FOOD_AND_WINE_EXPLORE_WESTERN_AUSTRALIA)){
-			stateTagName="western-australia";
-		}
-		
-		return stateTagName;
-	}
 }

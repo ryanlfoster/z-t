@@ -34,6 +34,7 @@ import com.day.cq.wcm.foundation.Image;
 import com.fasterxml.jackson.core.JsonFactory;
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.google.common.collect.ImmutableMap;
 
 @SlingServlet(paths = "/bin/fw/statemosaic", extensions = "json", methods = "GET")
 public class StateMosaicServlet extends SlingAllMethodsServlet {
@@ -44,6 +45,16 @@ public class StateMosaicServlet extends SlingAllMethodsServlet {
 	private static final Logger LOG = LoggerFactory.getLogger(StateMosaicServlet.class);
 	private static final JsonFactory FACTORY = new JsonFactory();
 	private static final ObjectMapper MAPPER = new ObjectMapper();
+
+	ImmutableMap<String, String> pathToLocationTag = ImmutableMap.<String, String> builder()
+		.put(PathUtils.FOOD_AND_WINE_EXPLORE_AUSTRALIAN_CAPITAL_TERRITORY, TagUtils.AUSTRALIA_CAPITAL_TERRITORY_TAG)
+		.put(PathUtils.FOOD_AND_WINE_EXPLORE_NEW_SOUTH_WALES, TagUtils.NEW_SOUTH_WALES_TAG)
+		.put(PathUtils.FOOD_AND_WINE_EXPLORE_NORTHERN_TERRITORY, TagUtils.NORTHERN_TERRITORY_TAG)
+		.put(PathUtils.FOOD_AND_WINE_EXPLORE_QUEENSLAND, TagUtils.QUEENSLAND_TAG)
+		.put(PathUtils.FOOD_AND_WINE_EXPLORE_SOUTH_AUSTRALIA, TagUtils.SOUTH_AUSTRALIA_TAG)
+		.put(PathUtils.FOOD_AND_WINE_EXPLORE_TASMANIA, TagUtils.TASMANIA_TAG)
+		.put(PathUtils.FOOD_AND_WINE_EXPLORE_VICTORIA, TagUtils.VICTORIA_TAG)
+		.put(PathUtils.FOOD_AND_WINE_EXPLORE_WESTERN_AUSTRALIA, TagUtils.WESTERN_AUSTRALIA_TAG).build();
 
 	/**
 	 * Instance variables
@@ -75,10 +86,12 @@ public class StateMosaicServlet extends SlingAllMethodsServlet {
 	 */
 	private void process(SlingHttpServletRequest request, SlingHttpServletResponse response) {
 		String statePath = request.getParameter("stateTag").toLowerCase().replace(".html", "");
-		stateTags = PathUtils.getStateTagName(statePath);
+		stateTags = pathToLocationTag.get(statePath);
+		if (stateTags == null) {
+			stateTags = "";
+		}
 		String flag = request.getParameter("flag");
 		String pageTemplate = request.getParameter("pageTemplate");
-
 
 		if (pageTemplate != null && (!pageTemplate.equals("homepage"))) {
 			pageTemplate = null;
@@ -149,10 +162,10 @@ public class StateMosaicServlet extends SlingAllMethodsServlet {
 				List<Tag> categoryTagList = TagUtils.getFoodAndWineCategoryTags(tagManager, tagsArray);
 				for (Tag tag : categoryTagList) {
 					if (tag != null) {
-						if (!categoryTagName.equals("")){ 
+						if (!categoryTagName.equals("")) {
 							categoryTagName += ", ";
 						}
-						if (!categoryTagName.contains(tag.getTitle())){
+						if (!categoryTagName.contains(tag.getTitle())) {
 							categoryTagName += tag.getTitle();
 						}
 					}
@@ -168,10 +181,9 @@ public class StateMosaicServlet extends SlingAllMethodsServlet {
 				String templateName = articlePage.getProperties().get("cq:template", "");
 				templateName = templateName.substring(templateName.lastIndexOf("/") + 1);
 				if (!templateName.equals("facebookpage") && (!templateName.equals("instagrampage"))
-					&& (!templateName.equals("twitterpage"))){
+					&& (!templateName.equals("twitterpage"))) {
 					templateName = null;
-				}
-				else {
+				} else {
 					if (templateName.equals("facebookpage")) {
 						userName = pageProperties.get("userName", StringUtils.EMPTY);
 						messageText = pageProperties.get("postText", StringUtils.EMPTY);
@@ -197,10 +209,9 @@ public class StateMosaicServlet extends SlingAllMethodsServlet {
 						socialIconsBlack = "/etc/designs/foodandwine/clientlibs/imgs/base/share/share-instagram-black.png";
 
 					}
-					if (postLink.endsWith(".html")){
+					if (postLink.endsWith(".html")) {
 						linkChecker = "true";
-					}
-					else{
+					} else {
 						linkChecker = null;
 					}
 					templateName = templateName.replace("page", "");

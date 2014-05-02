@@ -25,6 +25,8 @@ public class QueryUtils {
 	public static final String WILDCARD = "*";
 	public static final String RELPATH = ".relPath";
 	public static final String AND = ".and";
+	public static final String OPERATION = ".operation";
+	public static final String LIKE = "like";
 	public static final String ASC = "asc";
 
 	public static final void addProperty(Map<String, String> queryMap, int propertyNumber, String property, String value) {
@@ -46,5 +48,11 @@ public class QueryUtils {
 			queryMap.put(propertyPrefix + SEPERATOR + valueCount + SEPERATOR + VALUE, tag.getTagID());
 			valueCount++;
 		}
+	}
+
+	public static final void setPropertyAsLike(Map<String, String> queryMap, int propertyNumber) {
+		String propertyPrefix = propertyNumber + SEPERATOR + PROPERTY;
+		queryMap.put(propertyPrefix, TAG_LOCATION);
+		queryMap.put(propertyPrefix + OPERATION, LIKE);
 	}
 }

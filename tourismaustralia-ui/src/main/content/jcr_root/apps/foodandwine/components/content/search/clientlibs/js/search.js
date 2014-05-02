@@ -117,7 +117,6 @@ $(function() {
 	});
 	$(".type-spacing-120 .btn-secondary").click(function(e) {
 		e.preventDefault();
-		$(".mosaic").empty();
 		var searchParameter = $(".input-field-blank").val();
 		var category = $('#categoryDropdown').find('option:selected').val();
 		var location = $('#stateDropdown').find('option:selected').val();

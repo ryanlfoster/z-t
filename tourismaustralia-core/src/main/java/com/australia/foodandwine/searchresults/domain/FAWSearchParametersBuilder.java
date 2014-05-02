@@ -5,23 +5,19 @@ import java.util.List;
 
 import com.australia.search.domain.AbstractSeachParametersBuilder;
 
-public class FAWSearchParametersBuilder extends
-	AbstractSeachParametersBuilder<FAWSearchParametersBuilder> {
-	private SortOrderType sort;
-	private List<String> searchFilter = new ArrayList<String>();
+public class FAWSearchParametersBuilder extends AbstractSeachParametersBuilder<FAWSearchParametersBuilder> {
+	private String place;
+	private final List<String> searchFilter = new ArrayList<String>();
 
-	public FAWSearchParametersBuilder setSort(SortOrderType sort) {
-		this.sort = sort;
+	public FAWSearchParametersBuilder setPlace(String place) {
+		this.place = place;
 		return this;
 	}
-	public FAWSearchParametersBuilder setTags(List<String> searchFilter) {
-		this.searchFilter =searchFilter;
-		return this;
-	}
+
 	public FAWSearchParameters build() {
 		FAWSearchParameters params = new FAWSearchParameters();
 		super.setParameters(params);
-		params.setSort(sort);
+		params.setPlace(place);
 		params.setTags(searchFilter);
 		return params;
 	}

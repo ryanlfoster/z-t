@@ -50,7 +50,7 @@ $(document).ready(function(){
             var data = {
                 'page': page,
                 'limit': limit,
-                'term': $.url().param('term'),
+                'term': $.url().param('searchinput'),
                 'mode': $.url().param('mode')
             };
 

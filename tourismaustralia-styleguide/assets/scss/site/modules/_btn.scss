@@ -195,6 +195,11 @@ a.btn-tag-item:visited {
   min-width: 120px;
 }
 .btn-bubble {
+  display: inline-block;
+  width: auto;
+  text-decoration: none;
+  text-align: center;
+
   .btn-bubble-std {
     display: inline-block;
   }
@@ -219,6 +224,7 @@ a.btn-tag-item:visited {
   width: auto;
   text-decoration: none;
   text-align: center;
+  border: 1px solid transparent; /* NOTE: Required to fix a bug in Chrome */
 
   img{ margin:0 auto;}
 

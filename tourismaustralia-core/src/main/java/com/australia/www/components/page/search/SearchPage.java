@@ -94,7 +94,7 @@ public final class SearchPage {
 			.build();
 		productResults.addAll(productService.search(productParams).getResults());
 
-		path = resource.getPath();
+		path = resource.getParent().getPath();
 
 		atdwSearchUrl = PathUtils.getAtdwSearchPage(PathUtils.getLanguageResource(resource), query);
 	}

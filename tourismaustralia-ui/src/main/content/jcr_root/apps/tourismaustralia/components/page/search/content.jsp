@@ -43,7 +43,7 @@
 
             <div class="search-results-counter-grid-more">
                 <div class="row l-center-1200">
-                    <div class="col-xs-12">
+                    <div class="col-xs-12" data-aus-result-container>
 
                         <div class="search-your-results">
                             <div class="row l-center-1200">
@@ -88,7 +88,7 @@
                         </div>
 
                         <c:if test="${search.gridMode}">
-                            <div class="search-results-mosaic">
+                            <div class="search-results-mosaic" data-aus-result-container-inner>
 
                                 <div class="mosaic">
                                     <div class="row l-row-collapse">
@@ -107,7 +107,7 @@
                         </c:if>
 
                         <c:if test="${search.listMode}">
-                            <div class="search-results-list">
+                            <div class="search-results-list" data-aus-result-container-inner>
                                 <c:forEach items="${search.contentResults}" var="item">
                                     <c:set var="contentItem" value="${item}" scope="request" />
                                     <cq:include script="/apps/tourismaustralia/components/content/search/searchListResult.jsp"/>
@@ -116,7 +116,7 @@
                         </c:if>
 
                         <div class="l-h-center">
-                            <a href="#" class="btn-primary"><fmt:message key="View More"/></a>
+                            <a class="btn-primary" data-aus-load-results><fmt:message key="View More"/></a>
                         </div>
 
                     </div>

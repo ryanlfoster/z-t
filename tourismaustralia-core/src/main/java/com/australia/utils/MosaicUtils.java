@@ -12,7 +12,7 @@ public final class MosaicUtils {
 
 		final int size = items.size();
 		int index = 0;
-		while(size > index + 1) {
+		while(size > index) {
 			final T singleItem = items.get(index);
 			index++;
 			final int mosaicSize = Math.min(4, size - index);

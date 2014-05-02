@@ -5,23 +5,12 @@
 
     <!-- search item image/category start -->
     <div class="search-result-category-container">
-
-        <a href="${contentItem.path}" alt="" class="search-result-category-link">
-
-            <span class="video-container">
-                <span class="video-container-table">
-                    <span class="placeholder">
-                        <img src="/etc/designs/tourismaustralia/clientlibs/imgs/placeholders/video_2colum.jpg" alt="" class="l-image-full">
-                    </span>
-                    <span class="l-table-container">
-                        <span class="l-table">
-                            <span class="l-table-cell-centered">
-                                <img class="video-play-icon" src="/etc/designs/tourismaustralia/clientlibs/imgs/icons/video_play_large.png" alt="">
-                            </span>
-                        </span>
-                    </span>
-                </span>
+        <a href="${contentItem.path}" class="search-result-category-link">
+            <!-- highlight item start -->
+            <span class="mosaic-media mosaic-primary">
+                <img src="${contentItem.imagePath}" alt="">
             </span>
+            <!-- highlight item end -->
 
             <!-- category label start -->
             <span class="mosaic-overlay">

@@ -151,7 +151,11 @@ public class FAWSearch {
 	}
 
 	public String getPageDescription() {
-		return pageDescription;
+		if (pageDescription.length() <= 250) {
+			return pageDescription;
+		} else {
+			return pageDescription.substring(0, 250) + "...";
+		}
 	}
 
 	public long getTotalSearchCount() {

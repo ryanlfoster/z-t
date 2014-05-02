@@ -62,11 +62,11 @@ public class DefaultFAWSearchRepository implements FAWSearchRepository {
 			Map<String, String> queryMap = new TreeMap<String, String>();
 			queryMap.put(QueryUtils.TYPE, NameConstants.NT_PAGE);
 
-			queryMap.put("property", JCR_PREFIX + JcrResourceConstants.SLING_RESOURCE_TYPE_PROPERTY);
-			queryMap.put("property.1_value", "foodandwine/components/page/articlepage");
-			queryMap.put("property.2_value", "foodandwine/components/page/instagrampage");
-			queryMap.put("property.3_value", "foodandwine/components/page/facebookpage");
-			queryMap.put("property.4_value", "foodandwine/components/page/twitterpage");
+			queryMap.put("1_property", JCR_PREFIX + JcrResourceConstants.SLING_RESOURCE_TYPE_PROPERTY);
+			queryMap.put("1_property.1_value", "foodandwine/components/page/articlepage");
+			queryMap.put("1_property.2_value", "foodandwine/components/page/instagrampage");
+			queryMap.put("1_property.3_value", "foodandwine/components/page/facebookpage");
+			queryMap.put("1_property.4_value", "foodandwine/components/page/twitterpage");
 			propertyCount++;
 
 			String path = PathUtils.FOOD_AND_WINE_ROOT_PATH;

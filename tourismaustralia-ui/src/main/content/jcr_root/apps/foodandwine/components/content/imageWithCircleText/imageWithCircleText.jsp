@@ -22,6 +22,7 @@
 	
 	<div class="faw-explore-teaser-inner">
 		<div class="calltoaction calltoactionbubble calltoactionbubblebig">
+		  	<hr class="divider-small">
 			<h5>${imageWithCircleText.smallTitle}</h5>
 			<h2>${imageWithCircleText.bigText}</h2>
 			<hr class="divider-small">

@@ -195,6 +195,11 @@ a.btn-tag-item:visited {
   min-width: 120px;
 }
 .btn-bubble {
+  display: inline-block;
+  width: auto;
+  text-decoration: none;
+  text-align: center;
+
   .btn-bubble-std {
     display: inline-block;
   }

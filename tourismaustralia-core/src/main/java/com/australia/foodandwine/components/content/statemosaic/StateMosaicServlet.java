@@ -179,7 +179,7 @@ public class StateMosaicServlet extends SlingAllMethodsServlet {
 				}
 				String title = articlePage.getTitle();
 				String description = articlePage.getDescription();
-				String pagePth = LinkUtils.getHrefFromPath(articlePage.getPath());
+				String pagePth = request.getResourceResolver().map(articlePage.getPath()) + ".html";
 				String image = null;
 				Resource jcrResource = articlePage.adaptTo(Resource.class).getChild(JcrConstants.JCR_CONTENT);
 				Image pageImage = new Image(jcrResource, "image");

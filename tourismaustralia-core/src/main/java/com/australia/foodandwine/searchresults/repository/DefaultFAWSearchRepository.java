@@ -107,7 +107,7 @@ public class DefaultFAWSearchRepository implements FAWSearchRepository {
 					if (hit.getPath() != null) {
 						Page page = pageManager.getPage(hit.getPath());
 						if (page != null) {
-							fawSearchesList.add(new FAWSearch(totalMatches, page, tagManager));
+							fawSearchesList.add(new FAWSearch(totalMatches, page, tagManager, resourceResolver));
 						}
 					}
 				} catch (RepositoryException e) {

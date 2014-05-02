@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.apache.commons.lang.StringUtils;
 import org.apache.sling.api.resource.Resource;
+import org.apache.sling.api.resource.ResourceResolver;
 import org.apache.sling.api.resource.ValueMap;
 
 import com.australia.utils.LinkUtils;
@@ -34,7 +35,7 @@ public class FAWSearch {
 	private String socialIconsBlack;
 	private String categoryTagName = "";
 
-	public FAWSearch(long totalSearchCount, Page page, TagManager tagManager) {
+	public FAWSearch(long totalSearchCount, Page page, TagManager tagManager, ResourceResolver resourceResolver) {
 		ValueMap properties = page.getProperties();
 		Resource jcrResource = page.adaptTo(Resource.class).getChild(JcrConstants.JCR_CONTENT);
 		Image image = new Image(jcrResource, "image");
@@ -43,7 +44,7 @@ public class FAWSearch {
 		} else {
 			imagePath = "";
 		}
-		link = LinkUtils.getHrefFromPath(page.getPath());
+		link = resourceResolver.map(page.getPath()) + ".html";
 		// icon
 		icon = properties.get("categoryLogoPath", String.class);
 		// description
@@ -54,15 +55,17 @@ public class FAWSearch {
 		String[] cattags = properties.get("cq:tags", new String[0]);
 		List<Tag> categoryTagList = TagUtils.getFoodAndWineCategoryTags(tagManager, cattags);
 		for (Tag tag : categoryTagList) {
-			if (!categoryTagName.equals("")) {
-				categoryTagName += ", ";
-			}
-			if (!categoryTagName.contains(tag.getTitle())) {
-				categoryTagName += tag.getTitle();
-			}
-			if (StringUtils.countMatches(categoryTagName, ",") == 2) {
-				categoryTagName += "...";
-				break;
+			if (tag != null) {
+				if (!categoryTagName.equals("")) {
+					categoryTagName += ", ";
+				}
+				if (!categoryTagName.contains(tag.getTitle())) {
+					categoryTagName += tag.getTitle();
+				}
+				if (StringUtils.countMatches(categoryTagName, ",") == 2) {
+					categoryTagName += "...";
+					break;
+				}
 			}
 		}
 		// state

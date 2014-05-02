@@ -6,20 +6,14 @@
 <c:set var="search" value="<%=new AtdwSearchPage(slingRequest) %>"/>
 
 <div class="paragraph-search">
-    <cq:include path="breadcrumb" resourceType="tourismaustralia/components/content/breadcrumb"/>
 
-    <!-- Remove when header is fixed -->
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+    <div class="row l-center-1200">
+        <div class="col-xs-12">
+            <div class="breadcrumbs">
+                <cq:include path="breadcrumb" resourceType="tourismaustralia/components/content/breadcrumb"/>
+            </div>
+        </div>
+    </div>
 
     <div class="search-box">
         <div class="row l-center-1200">

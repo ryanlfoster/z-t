@@ -6,10 +6,9 @@
  *
  * ..............................................................................
  *
- * TA Mega Menu Helper...
+ * Home, Hot or Not
  *
- * The TA navigation bar works mostly without the aid of javascript but this helper adds
- * in some required functionality and enhances the CSS only functionality.
+ * Controls Hot or Not interactivity, hiding/showing categories
  *
  */
 
@@ -22,7 +21,6 @@
         hotornot_close_btn: '.hotornot-close-btn',
         hotornot_show_btn: '.hotornot-show-btn',
         hotornot_hide_btn: '.hotornot-hide-btn'
-
     };
 
     // The actual plugin constructor
@@ -36,9 +34,7 @@
 
     Plugin.prototype.init = function () {
         var scope = this;
-
         var event = ( (document.ontouchstart !== null) ? 'click' : 'touchstart' );
-
         //init events
         scope.setupEvents(scope);
     };
@@ -48,9 +44,9 @@
         var $el = $(scope.element);
 
         var $items = $el.find(scope.options.hotornot_item);
-        console.log($items.length);
         $items.each(function(i, item){
             $item = $(item);
+
             // close
             var $hotornot_close_btn = $item.find(scope.options.hotornot_close_btn);
             $hotornot_close_btn.click(function(e){

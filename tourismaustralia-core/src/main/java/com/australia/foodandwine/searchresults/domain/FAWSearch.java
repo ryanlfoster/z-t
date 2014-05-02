@@ -54,15 +54,17 @@ public class FAWSearch {
 		String[] cattags = properties.get("cq:tags", new String[0]);
 		List<Tag> categoryTagList = TagUtils.getFoodAndWineCategoryTags(tagManager, cattags);
 		for (Tag tag : categoryTagList) {
-			if (!categoryTagName.equals("")) {
-				categoryTagName += ", ";
-			}
-			if (!categoryTagName.contains(tag.getTitle())) {
-				categoryTagName += tag.getTitle();
-			}
-			if (StringUtils.countMatches(categoryTagName, ",") == 2) {
-				categoryTagName += "...";
-				break;
+			if (tag != null) {
+				if (!categoryTagName.equals("")) {
+					categoryTagName += ", ";
+				}
+				if (!categoryTagName.contains(tag.getTitle())) {
+					categoryTagName += tag.getTitle();
+				}
+				if (StringUtils.countMatches(categoryTagName, ",") == 2) {
+					categoryTagName += "...";
+					break;
+				}
 			}
 		}
 		// state

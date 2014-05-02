@@ -16,7 +16,7 @@ $(document).ready(function(){
 
         var $insert;
 
-        var toInsert;
+        var htmlToInsert;
 
         // Find the load more
         $container.find(button_selector).each(function(index, element){
@@ -38,6 +38,15 @@ $(document).ready(function(){
             // Prevent double-clicks
             $button.off('click', loadNextPage);
 
+            if(htmlToInsert) {
+
+                var $toInsert = $(htmlToInsert);
+                $toInsert.hide();
+                $insert.children().last().after($toInsert);
+                $toInsert.fadeIn(300);
+
+            }
+
             var data = {
                 'page': page,
                 'limit': limit,
@@ -54,19 +63,13 @@ $(document).ready(function(){
         // If the incoming results are empty, the button will be removed
         function addResults(html) {
 
-            if(toInsert) {
-
-                $insert.children().last().after(toInsert);
-
-            }
-
             if(html.trim() === '') {
 
                 $button.remove();
 
             } else {
 
-                toInsert = html;
+                htmlToInsert = html;
 
                 page += 1;
 

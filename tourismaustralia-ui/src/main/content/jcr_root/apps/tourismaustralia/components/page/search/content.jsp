@@ -5,22 +5,15 @@
 <c:set var="search" value="<%=new SearchPage(slingRequest) %>"/>
 <div id="main-content">
     <div class="paragraph-search">
-        <cq:include path="breadcrumb" resourceType="tourismaustralia/components/content/breadcrumb"/>
 
-        <%-- REMOVE WHEN HEADER IS FIXED --%>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <%-- REMOVE WHEN HEADER IS FIXED --%>
+        <div class="row l-center-1200">
+            <div class="col-xs-12">
+                <div class="breadcrumbs">
+                    <cq:include path="breadcrumb" resourceType="tourismaustralia/components/content/breadcrumb"/>
+                </div>
+            </div>
+        </div>
+
 
         <div class="search-box">
             <div class="row l-center-1200">

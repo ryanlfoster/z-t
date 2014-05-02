@@ -22,20 +22,10 @@
 	
 	<div class="faw-explore-teaser-inner">
 		<div class="calltoaction calltoactionbubble calltoactionbubblebig">
-		    <div class="head-divider experiences-head-divider">
-				<div class="head-divider-inner">
-				    <hr class="icon-logo-withlines-hr icon-logo-withlines-hr-small">
-				    <h5>
-		    			<img src="/etc/designs/foodandwine/clientlibs/imgs/base/headline-map-icon.png">
-		    		</h5>
-				    <hr class="icon-logo-withlines-hr icon-logo-withlines-hr-small">
-			    </div>
-			</div>
-			
 			<h5>${imageWithCircleText.smallTitle}</h5>
 			<h2>${imageWithCircleText.bigText}</h2>
 			<hr class="divider-small">
-			<p><strong>${imageWithCircleText.descriptionText}</strong></p>
+			<p>${imageWithCircleText.descriptionText}</p>
 		</div>
 	</div>
 </div>

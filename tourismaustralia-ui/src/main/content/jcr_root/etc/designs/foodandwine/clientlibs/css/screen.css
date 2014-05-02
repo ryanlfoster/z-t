@@ -9002,13 +9002,18 @@ input.btn-secondary {
 }
 
 /* line 464, ../../assets/scss/site/modules/_icon.scss */
+.owl-replaced-pagination {
+  z-index: 9\9;
+}
+
+/* line 468, ../../assets/scss/site/modules/_icon.scss */
 .owl-replaced-pagination .icon-map-small {
   width: 80px;
   height: 80px;
   margin-left: 0.5em;
   margin-right: 0.5em;
 }
-/* line 470, ../../assets/scss/site/modules/_icon.scss */
+/* line 474, ../../assets/scss/site/modules/_icon.scss */
 .owl-replaced-pagination .icon-map-small span {
   position: absolute;
   top: 95px;
@@ -9016,7 +9021,7 @@ input.btn-secondary {
   left: 0;
   font-size: 0.75em;
 }
-/* line 478, ../../assets/scss/site/modules/_icon.scss */
+/* line 482, ../../assets/scss/site/modules/_icon.scss */
 .owl-replaced-pagination .icon-map-small.icon-map-capital {
   background-position: -758px -10px;
 }
@@ -9024,7 +9029,7 @@ input.btn-secondary {
 .owl-replaced-pagination .icon-map-small.icon-map-capital:hover {
   background-position: -758px -10px;
 }
-/* line 481, ../../assets/scss/site/modules/_icon.scss */
+/* line 485, ../../assets/scss/site/modules/_icon.scss */
 .owl-replaced-pagination .icon-map-small.icon-map-nsw {
   background-position: -111px -10px;
 }
@@ -9032,7 +9037,7 @@ input.btn-secondary {
 .owl-replaced-pagination .icon-map-small.icon-map-nsw:hover {
   background-position: -111px -10px;
 }
-/* line 484, ../../assets/scss/site/modules/_icon.scss */
+/* line 488, ../../assets/scss/site/modules/_icon.scss */
 .owl-replaced-pagination .icon-map-small.icon-map-northern {
   background-position: -201px -10px;
 }
@@ -9040,7 +9045,7 @@ input.btn-secondary {
 .owl-replaced-pagination .icon-map-small.icon-map-northern:hover {
   background-position: -201px -10px;
 }
-/* line 487, ../../assets/scss/site/modules/_icon.scss */
+/* line 491, ../../assets/scss/site/modules/_icon.scss */
 .owl-replaced-pagination .icon-map-small.icon-map-queensland {
   background-position: -291px -10px;
 }
@@ -9048,7 +9053,7 @@ input.btn-secondary {
 .owl-replaced-pagination .icon-map-small.icon-map-queensland:hover {
   background-position: -291px -10px;
 }
-/* line 490, ../../assets/scss/site/modules/_icon.scss */
+/* line 494, ../../assets/scss/site/modules/_icon.scss */
 .owl-replaced-pagination .icon-map-small.icon-map-south {
   background-position: -380px -10px;
 }
@@ -9056,7 +9061,7 @@ input.btn-secondary {
 .owl-replaced-pagination .icon-map-small.icon-map-south:hover {
   background-position: -380px -10px;
 }
-/* line 493, ../../assets/scss/site/modules/_icon.scss */
+/* line 497, ../../assets/scss/site/modules/_icon.scss */
 .owl-replaced-pagination .icon-map-small.icon-map-tasmania {
   background-position: -18px -10px;
 }
@@ -9064,7 +9069,7 @@ input.btn-secondary {
 .owl-replaced-pagination .icon-map-small.icon-map-tasmania:hover {
   background-position: -18px -10px;
 }
-/* line 496, ../../assets/scss/site/modules/_icon.scss */
+/* line 500, ../../assets/scss/site/modules/_icon.scss */
 .owl-replaced-pagination .icon-map-small.icon-map-victoria {
   background-position: -560px -10px;
 }
@@ -9072,7 +9077,7 @@ input.btn-secondary {
 .owl-replaced-pagination .icon-map-small.icon-map-victoria:hover {
   background-position: -560px -10px;
 }
-/* line 499, ../../assets/scss/site/modules/_icon.scss */
+/* line 503, ../../assets/scss/site/modules/_icon.scss */
 .owl-replaced-pagination .icon-map-small.icon-map-western {
   background-position: -649px -10px;
 }
@@ -9081,7 +9086,7 @@ input.btn-secondary {
   background-position: -649px -10px;
 }
 
-/* line 506, ../../assets/scss/site/modules/_icon.scss */
+/* line 510, ../../assets/scss/site/modules/_icon.scss */
 .faw-bg-full-container .icon-map-capital {
   background-position: 0px 0px;
 }
@@ -9094,7 +9099,7 @@ input.btn-secondary {
   background-position: 0px 0px;
 }
 
-/* line 509, ../../assets/scss/site/modules/_icon.scss */
+/* line 513, ../../assets/scss/site/modules/_icon.scss */
 .faw-bg-full-container .icon-map-nsw {
   background-position: -111px 0px;
 }
@@ -9107,7 +9112,7 @@ input.btn-secondary {
   background-position: -111px 0px;
 }
 
-/* line 512, ../../assets/scss/site/modules/_icon.scss */
+/* line 516, ../../assets/scss/site/modules/_icon.scss */
 .faw-bg-full-container .icon-map-northern {
   background-position: -222px 0px;
 }
@@ -9120,7 +9125,7 @@ input.btn-secondary {
   background-position: -222px 0px;
 }
 
-/* line 515, ../../assets/scss/site/modules/_icon.scss */
+/* line 519, ../../assets/scss/site/modules/_icon.scss */
 .faw-bg-full-container .icon-map-queensland {
   background-position: -333px 0px;
 }
@@ -9133,7 +9138,7 @@ input.btn-secondary {
   background-position: -333px 0px;
 }
 
-/* line 518, ../../assets/scss/site/modules/_icon.scss */
+/* line 522, ../../assets/scss/site/modules/_icon.scss */
 .faw-bg-full-container .icon-map-south {
   background-position: -444px 0px;
 }
@@ -9146,7 +9151,7 @@ input.btn-secondary {
   background-position: -444px 0px;
 }
 
-/* line 521, ../../assets/scss/site/modules/_icon.scss */
+/* line 525, ../../assets/scss/site/modules/_icon.scss */
 .faw-bg-full-container .icon-map-tasmania {
   background-position: -555px 0px;
 }
@@ -9159,7 +9164,7 @@ input.btn-secondary {
   background-position: -555px 0px;
 }
 
-/* line 524, ../../assets/scss/site/modules/_icon.scss */
+/* line 528, ../../assets/scss/site/modules/_icon.scss */
 .faw-bg-full-container .icon-map-victoria {
   background-position: -666px 0px;
 }
@@ -9172,7 +9177,7 @@ input.btn-secondary {
   background-position: -666px 0px;
 }
 
-/* line 527, ../../assets/scss/site/modules/_icon.scss */
+/* line 531, ../../assets/scss/site/modules/_icon.scss */
 .faw-bg-full-container .icon-map-western {
   background-position: -777px 0px;
 }
@@ -9185,13 +9190,13 @@ input.btn-secondary {
   background-position: -777px 0px;
 }
 
-/* line 532, ../../assets/scss/site/modules/_icon.scss */
+/* line 536, ../../assets/scss/site/modules/_icon.scss */
 .icon-google-color {
   background-repeat: no-repeat;
   display: inline-block;
 }
 
-/* line 537, ../../assets/scss/site/modules/_icon.scss */
+/* line 541, ../../assets/scss/site/modules/_icon.scss */
 .icon-atdw-color {
   background-repeat: no-repeat;
   display: inline-block;
@@ -9532,7 +9537,7 @@ input.btn-secondary {
 
 /* line 35, ../../assets/scss/site/modules/_calltoaction.scss */
 .rgba .calltoaction {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* line 40, ../../assets/scss/site/modules/_calltoaction.scss */
@@ -9624,7 +9629,7 @@ input.btn-secondary {
   padding-left: 1em;
   padding-right: 1em;
 }
-/* line 114, ../../assets/scss/site/modules/_calltoaction.scss */
+/* line 115, ../../assets/scss/site/modules/_calltoaction.scss */
 .calltoactionbubble h2 {
   color: white;
   margin-top: 0.2em;
@@ -9632,7 +9637,7 @@ input.btn-secondary {
   padding-right: 1em;
 }
 
-/* line 124, ../../assets/scss/site/modules/_calltoaction.scss */
+/* line 125, ../../assets/scss/site/modules/_calltoaction.scss */
 .calltoactionbubblebig {
   width: 100%;
   height: auto;
@@ -9643,10 +9648,10 @@ input.btn-secondary {
   background-color: black;
 }
 @media (min-width: 768px) {
-  /* line 124, ../../assets/scss/site/modules/_calltoaction.scss */
+  /* line 125, ../../assets/scss/site/modules/_calltoaction.scss */
   .calltoactionbubblebig {
-    width: 620px;
-    height: 620px;
+    width: 500px;
+    height: 500px;
     margin-top: 6em;
     margin-bottom: 6em;
     padding-top: 3em;
@@ -9654,12 +9659,23 @@ input.btn-secondary {
     background-color: rgba(0, 0, 0, 0.8);
   }
 }
-/* line 145, ../../assets/scss/site/modules/_calltoaction.scss */
+/* line 146, ../../assets/scss/site/modules/_calltoaction.scss */
 .calltoactionbubblebig p {
   max-width: 420px;
   font-size: 1.1em;
-  text-transform: capitalize;
+  text-transform: none;
   display: inline-block;
+  margin-top: 0.625em;
+}
+
+/* line 155, ../../assets/scss/site/modules/_calltoaction.scss */
+.calltoactionbubblebig h5 {
+  padding-top: 0.625em;
+}
+
+/* line 159, ../../assets/scss/site/modules/_calltoaction.scss */
+.calltoactionbubblebig-withiconlogo h5 {
+  padding-top: 0;
 }
 
 /* line 4, ../../assets/scss/site/modules/_categories.scss */
@@ -9725,7 +9741,7 @@ input.btn-secondary {
 .category-item-container .category-input[type=checkbox] + label{
   display: inline-block;
 }
-.category-item-container .category-input[type=checkbox] + label > * {
+.touch .category-item-container .category-input[type=checkbox] + label > * {
   pointer-events: none;
 }
 */
@@ -11240,6 +11256,25 @@ input.btn-secondary {
   margin-top: 2em;
 }
 
+/****** start - Resolve the 2 arrows issue and font cut issue in IE ********/
+/* line 107, ../../assets/scss/site/modules/_selectmenu.scss */
+.input-select-small {
+  padding-right: 18px\9;
+  min-width: 195px\9;
+  height: 65px\9;
+  padding-bottom: 16.8px\9;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  /* line 117, ../../assets/scss/site/modules/_selectmenu.scss */
+  .input-select-small {
+    padding-right: 17px;
+    min-width: 195px;
+    height: 65px;
+    padding-bottom: 16.8px;
+  }
+}
+/****** end - Resolve the 2 arrows issue and font cut issue in IE ********/
 /* line 2, ../../assets/scss/site/modules/_checkbox.scss */
 input[type=checkbox].checkbox {
   position: absolute;
@@ -11977,7 +12012,6 @@ input[type=checkbox].checkbox + label.checkbox-label {
   width: 100%;
   float: left;
   margin: 0;
-  font-family: "ProximaNova Regular";
   height: auto;
   text-align: center;
   padding: 1em;
@@ -12000,26 +12034,20 @@ input[type=checkbox].checkbox + label.checkbox-label {
   }
 }
 @media (min-width: 1200px) {
-  /* line 140, ../../assets/scss/site/modules/_navbar.scss */
+  /* line 139, ../../assets/scss/site/modules/_navbar.scss */
   .navbar-items li:hover {
     border-bottom: 1px black solid;
   }
 }
-/* line 147, ../../assets/scss/site/modules/_navbar.scss */
+/* line 146, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-items a {
   text-decoration: none;
   font-size: 1.125em;
   color: #000;
+  font-family: "ProximaNova Regular", Helvetica, Arial, sans-serif;
 }
 
-@media (min-width: 1200px) {
-  /* line 154, ../../assets/scss/site/modules/_navbar.scss */
-  li.navbar-item-active-subitem:hover {
-    border-bottom: 0;
-  }
-}
-
-/* line 161, ../../assets/scss/site/modules/_navbar.scss */
+/* line 158, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-item-dropdown-icon {
   display: inline-block;
   background-image: url("../imgs/base/nav-submenu-link-icon.png");
@@ -12031,7 +12059,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
   cursor: pointer;
 }
 @media (min-width: 1200px) {
-  /* line 161, ../../assets/scss/site/modules/_navbar.scss */
+  /* line 158, ../../assets/scss/site/modules/_navbar.scss */
   .navbar-item-dropdown-icon {
     background-image: url("../imgs/base/nav-dropdown-icon.png");
     background-repeat: no-repeat;
@@ -12041,7 +12069,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
   }
 }
 
-/* line 181, ../../assets/scss/site/modules/_navbar.scss */
+/* line 178, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-brand {
   position: absolute;
   margin: 0;
@@ -12053,7 +12081,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
   display: block;
 }
 @media (min-width: 1200px) {
-  /* line 181, ../../assets/scss/site/modules/_navbar.scss */
+  /* line 178, ../../assets/scss/site/modules/_navbar.scss */
   .navbar-brand {
     position: relative;
     width: auto;
@@ -12064,14 +12092,14 @@ input[type=checkbox].checkbox + label.checkbox-label {
 }
 
 /*------------------ NAVBAR MOBILE HEAD STYLES ----------------------*/
-/* line 202, ../../assets/scss/site/modules/_navbar.scss */
+/* line 199, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-mobile-head {
   height: 50px !important;
   text-align: center;
   padding: 0 !important;
   position: relative;
 }
-/* line 208, ../../assets/scss/site/modules/_navbar.scss */
+/* line 205, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-mobile-head .navbar-mobile-head-label {
   font-size: 1.5em;
   color: #000;
@@ -12079,7 +12107,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
   display: none;
 }
 
-/* line 216, ../../assets/scss/site/modules/_navbar.scss */
+/* line 213, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-mobile-close-icon {
   display: inline-block;
   background-image: url("../imgs/base/nav-close-icon.png");
@@ -12093,7 +12121,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
   display: none;
 }
 
-/* line 228, ../../assets/scss/site/modules/_navbar.scss */
+/* line 225, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-mobile-open-icon {
   display: inline-block;
   background-image: url("../imgs/base/nav-toggle-icon.png");
@@ -12106,7 +12134,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
   cursor: pointer;
 }
 
-/* line 239, ../../assets/scss/site/modules/_navbar.scss */
+/* line 236, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-mobile-back-icon {
   display: inline-block;
   background-image: url("../imgs/base/nav-back-icon.png");
@@ -12121,7 +12149,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
 }
 
 /*------------------ NAVBAR SUBITEMS STYLES ----------------------*/
-/* line 254, ../../assets/scss/site/modules/_navbar.scss */
+/* line 251, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-subitems {
   position: absolute;
   top: 0;
@@ -12131,7 +12159,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
   max-width: 248px;
 }
 @media (min-width: 1200px) {
-  /* line 254, ../../assets/scss/site/modules/_navbar.scss */
+  /* line 251, ../../assets/scss/site/modules/_navbar.scss */
   .navbar-subitems {
     width: 100%;
     left: 0;
@@ -12139,12 +12167,12 @@ input[type=checkbox].checkbox + label.checkbox-label {
     height: 0;
   }
 }
-/* line 269, ../../assets/scss/site/modules/_navbar.scss */
+/* line 266, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-subitems li {
   background-color: white;
   cursor: pointer;
 }
-/* line 273, ../../assets/scss/site/modules/_navbar.scss */
+/* line 270, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-subitems li a {
   color: black;
   font-size: 1em;
@@ -12152,19 +12180,19 @@ input[type=checkbox].checkbox + label.checkbox-label {
   font-family: "ProximaNova Regular", Helvetica, Arial, sans-serif;
 }
 @media (min-width: 1200px) {
-  /* line 273, ../../assets/scss/site/modules/_navbar.scss */
+  /* line 270, ../../assets/scss/site/modules/_navbar.scss */
   .navbar-subitems li a {
     color: #FFFFFF;
   }
 }
-/* line 284, ../../assets/scss/site/modules/_navbar.scss */
+/* line 281, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-subitems li a p {
   padding: 0;
   margin: 0;
   text-align: left;
 }
 @media (min-width: 1200px) {
-  /* line 269, ../../assets/scss/site/modules/_navbar.scss */
+  /* line 266, ../../assets/scss/site/modules/_navbar.scss */
   .navbar-subitems li {
     float: left;
     width: 100%;
@@ -12177,13 +12205,13 @@ input[type=checkbox].checkbox + label.checkbox-label {
   }
 }
 @media (min-width: 1200px) {
-  /* line 301, ../../assets/scss/site/modules/_navbar.scss */
+  /* line 298, ../../assets/scss/site/modules/_navbar.scss */
   .navbar-subitems li:hover {
     border-bottom: 0 !important;
     background-color: #fff;
     background-color: rgba(255, 255, 255, 0.9);
   }
-  /* line 305, ../../assets/scss/site/modules/_navbar.scss */
+  /* line 302, ../../assets/scss/site/modules/_navbar.scss */
   .navbar-subitems li:hover a {
     color: black;
   }
@@ -12191,133 +12219,133 @@ input[type=checkbox].checkbox + label.checkbox-label {
 
 /*------------------ STATES ----------------------*/
 @media (min-width: 1200px) {
-  /* line 316, ../../assets/scss/site/modules/_navbar.scss */
+  /* line 313, ../../assets/scss/site/modules/_navbar.scss */
   .navbar-item-active {
     border-bottom: 1px black solid !important;
   }
 }
-/* line 320, ../../assets/scss/site/modules/_navbar.scss */
+/* line 317, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-item-active a {
   font-family: "ProximaNova Bold";
 }
 
-/* line 325, ../../assets/scss/site/modules/_navbar.scss */
+/* line 322, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-item-dropdown-icon-active {
   background-position: 0 0;
 }
 
-/* line 329, ../../assets/scss/site/modules/_navbar.scss */
+/* line 326, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-item-dropdown-icon-inactive {
   background-position: 0 0;
 }
 @media (min-width: 1200px) {
-  /* line 329, ../../assets/scss/site/modules/_navbar.scss */
+  /* line 326, ../../assets/scss/site/modules/_navbar.scss */
   .navbar-item-dropdown-icon-inactive {
     background-position: 0 -7px;
   }
 }
 
-/* line 336, ../../assets/scss/site/modules/_navbar.scss */
+/* line 333, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-hide-icon {
   display: none !important;
 }
 
-/* line 339, ../../assets/scss/site/modules/_navbar.scss */
+/* line 336, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-show-icon {
   display: block !important;
 }
 
-/* line 342, ../../assets/scss/site/modules/_navbar.scss */
+/* line 339, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-show-icon-inline {
   display: inherit;
 }
 
 /*------------------ ANIMTAIONS ----------------------*/
-/* line 348, ../../assets/scss/site/modules/_navbar.scss */
+/* line 345, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-items-hide {
   left: -100%;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-/* line 353, ../../assets/scss/site/modules/_navbar.scss */
+/* line 350, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-items-show {
   left: 0px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-/* line 358, ../../assets/scss/site/modules/_navbar.scss */
+/* line 355, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-subitems-hide {
   left: -100%;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 @media (min-width: 1200px) {
-  /* line 358, ../../assets/scss/site/modules/_navbar.scss */
+  /* line 355, ../../assets/scss/site/modules/_navbar.scss */
   .navbar-subitems-hide {
     height: 0px;
     left: 0px;
   }
 }
 
-/* line 367, ../../assets/scss/site/modules/_navbar.scss */
+/* line 364, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-subitems-show {
   left: 100%;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 @media (min-width: 1200px) {
-  /* line 367, ../../assets/scss/site/modules/_navbar.scss */
+  /* line 364, ../../assets/scss/site/modules/_navbar.scss */
   .navbar-subitems-show {
     height: 400px;
   }
 }
 
-/* line 376, ../../assets/scss/site/modules/_navbar.scss */
+/* line 373, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-head-show-border {
   border-bottom: 1px #bbbbbb solid;
   background: #fff;
   z-index: 9;
 }
 
-/* line 381, ../../assets/scss/site/modules/_navbar.scss */
+/* line 378, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-head-hide-border {
   border-bottom: none;
 }
 
-/* line 385, ../../assets/scss/site/modules/_navbar.scss */
+/* line 382, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-active {
   background-color: white;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-/* line 391, ../../assets/scss/site/modules/_navbar.scss */
+/* line 388, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-inactive {
   background-color: none;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-/* line 396, ../../assets/scss/site/modules/_navbar.scss */
+/* line 393, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-removeanimations {
   -webkit-transition: none;
   transition: none;
 }
 
-/* line 401, ../../assets/scss/site/modules/_navbar.scss */
+/* line 398, ../../assets/scss/site/modules/_navbar.scss */
 .navbar-search-icon {
   position: absolute;
   right: 1em;
   top: 1em;
 }
 @media (min-width: 1200px) {
-  /* line 401, ../../assets/scss/site/modules/_navbar.scss */
+  /* line 398, ../../assets/scss/site/modules/_navbar.scss */
   .navbar-search-icon {
     position: relative;
     right: 0;
-    top: 0;
+    top: -3px;
     margin-left: 3.5em;
     position: absolute\9;
     right: -1.4em\9;
@@ -12326,7 +12354,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
 }
 
 /*Search Box*/
-/* line 420, ../../assets/scss/site/modules/_navbar.scss */
+/* line 417, ../../assets/scss/site/modules/_navbar.scss */
 .nav-bar-panel-container {
   position: relative;
   z-index: 9999;
@@ -12335,18 +12363,18 @@ input[type=checkbox].checkbox + label.checkbox-label {
   border-bottom: 2px solid #b1a895;
 }
 
-/* line 428, ../../assets/scss/site/modules/_navbar.scss */
+/* line 425, ../../assets/scss/site/modules/_navbar.scss */
 .nav-bar-panel-container .nav-search-form {
   text-align: center;
   padding: 20px 0;
 }
 
-/* line 432, ../../assets/scss/site/modules/_navbar.scss */
+/* line 429, ../../assets/scss/site/modules/_navbar.scss */
 .nav-bar-panel-container .nav-search-fieldset {
   position: relative;
 }
 
-/* line 435, ../../assets/scss/site/modules/_navbar.scss */
+/* line 432, ../../assets/scss/site/modules/_navbar.scss */
 .nav-bar-panel-container .nav-search-label {
   width: 100%;
   color: #ffc20e;
@@ -12356,12 +12384,12 @@ input[type=checkbox].checkbox + label.checkbox-label {
   margin-left: -30px;
 }
 
-/* line 443, ../../assets/scss/site/modules/_navbar.scss */
+/* line 440, ../../assets/scss/site/modules/_navbar.scss */
 .nav-bar-panel-container .nav-search-label:not(#foo) {
   display: none;
 }
 
-/* line 446, ../../assets/scss/site/modules/_navbar.scss */
+/* line 443, ../../assets/scss/site/modules/_navbar.scss */
 .nav-bar-panel-container .nav-search-text {
   width: 80%;
   margin-right: 10px;
@@ -12373,34 +12401,34 @@ input[type=checkbox].checkbox + label.checkbox-label {
   color: #fff;
 }
 
-/* line 456, ../../assets/scss/site/modules/_navbar.scss */
+/* line 453, ../../assets/scss/site/modules/_navbar.scss */
 .nav-bar-panel-container .nav-search-text:focus {
   outline: none;
 }
 
 @media (max-width: 767px) {
-  /* line 460, ../../assets/scss/site/modules/_navbar.scss */
+  /* line 457, ../../assets/scss/site/modules/_navbar.scss */
   .nav-bar-panel-container .nav-search-text::-webkit-input-placeholder {
     color: transparent;
   }
 
-  /* line 463, ../../assets/scss/site/modules/_navbar.scss */
+  /* line 460, ../../assets/scss/site/modules/_navbar.scss */
   .nav-bar-panel-container .nav-search-text:-moz-placeholder {
     color: transparent;
   }
 
-  /* line 466, ../../assets/scss/site/modules/_navbar.scss */
+  /* line 463, ../../assets/scss/site/modules/_navbar.scss */
   .nav-bar-panel-container .nav-search-text::-moz-placeholder {
     color: transparent;
   }
 
-  /* line 469, ../../assets/scss/site/modules/_navbar.scss */
+  /* line 466, ../../assets/scss/site/modules/_navbar.scss */
   .nav-bar-panel-container .nav-search-text:-ms-input-placeholder {
     color: transparent;
     font-size: 0;
   }
 }
-/* line 474, ../../assets/scss/site/modules/_navbar.scss */
+/* line 471, ../../assets/scss/site/modules/_navbar.scss */
 .nav-bar-panel-container .nav-search-button {
   padding: 8px 0;
   vertical-align: top;
@@ -12410,13 +12438,13 @@ input[type=checkbox].checkbox + label.checkbox-label {
 }
 
 @media (min-width: 768px) {
-  /* line 482, ../../assets/scss/site/modules/_navbar.scss */
+  /* line 479, ../../assets/scss/site/modules/_navbar.scss */
   .nav-bar-panel-container .nav-search-form {
     text-align: center;
     padding: 50px 0;
   }
 
-  /* line 486, ../../assets/scss/site/modules/_navbar.scss */
+  /* line 483, ../../assets/scss/site/modules/_navbar.scss */
   .nav-bar-panel-container .nav-search-text {
     width: 100%;
     margin-top: 0;
@@ -12425,12 +12453,12 @@ input[type=checkbox].checkbox + label.checkbox-label {
   }
 }
 @media (max-width: 767px) {
-  /* line 494, ../../assets/scss/site/modules/_navbar.scss */
+  /* line 491, ../../assets/scss/site/modules/_navbar.scss */
   .nav-bar-panel-container .nav-bar-panel-nav > li {
     border-bottom: 1px solid #00282e;
   }
 }
-/* line 498, ../../assets/scss/site/modules/_navbar.scss */
+/* line 495, ../../assets/scss/site/modules/_navbar.scss */
 .nav-bar-panel-container .nav-bar-panel-nav > li > a {
   padding: 1em 0.9375em 1em 1.875em;
   text-decoration: none;
@@ -13668,17 +13696,18 @@ input[type=checkbox].checkbox + label.checkbox-label {
 .faw-category-mosaci-items {
   margin-top: 2em;
 }
-/* line 19, ../../assets/scss/site/modules/_foodandwinecategorymosiac.scss */
+/* line 18, ../../assets/scss/site/modules/_foodandwinecategorymosiac.scss */
 .faw-category-mosaci-items .category-input[type=checkbox] + label {
   display: inline-block;
   min-width: 4em;
 }
-/* line 23, ../../assets/scss/site/modules/_foodandwinecategorymosiac.scss */
-.faw-category-mosaci-items .category-input[type=checkbox] + label > * {
+
+/* line 26, ../../assets/scss/site/modules/_foodandwinecategorymosiac.scss */
+.touch .faw-category-mosaci-items .category-input[type=checkbox] + label > * {
   pointer-events: none;
 }
 
-/* line 28, ../../assets/scss/site/modules/_foodandwinecategorymosiac.scss */
+/* line 31, ../../assets/scss/site/modules/_foodandwinecategorymosiac.scss */
 .faw-category-mosaic-drop-downs {
   position: relative;
   z-index: 2;
@@ -13686,7 +13715,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
   margin-bottom: 1em;
 }
 @media (min-width: 768px) {
-  /* line 28, ../../assets/scss/site/modules/_foodandwinecategorymosiac.scss */
+  /* line 31, ../../assets/scss/site/modules/_foodandwinecategorymosiac.scss */
   .faw-category-mosaic-drop-downs {
     position: absolute;
     top: 2.2em;
@@ -13695,7 +13724,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
   }
 }
 
-/* line 42, ../../assets/scss/site/modules/_foodandwinecategorymosiac.scss */
+/* line 45, ../../assets/scss/site/modules/_foodandwinecategorymosiac.scss */
 .faw-category-mosaic-drop-down {
   display: inline-block;
   margin-left: 0.5em;

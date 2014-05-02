@@ -15,12 +15,105 @@ $(document).ready(function() {
         }
 		var messageText=$this.find(".message").val();
 		var type="grid";
-		$(this).find('.mosaicgridchanger-grid-button').click(function(){
+		$(this).find('.mosaicgridchanger-grid-button').click(function() {
 			type="grid";
 		});
-		$(this).find('.mosaicgridchanger-list-button').click(function(){
+		$(this).find('.mosaicgridchanger-list-button').click(function() {
 			type="list";
 		});
+		
+		$('.category-input-small').on('change', function(e) {
+			$this.find(".mosaic").empty();
+			$this.find(".btn-secondary").hide();
+			$this.find(".mosaicgridchanger").hide();
+			e.preventDefault();
+			var category = $(this).val();
+			var flag = "default";
+			catogoryArray.length = 0;
+			catogoryArray.push(category);
+			if(currentXhr) {
+				currentXhr.abort();
+			}
+			currentXhr=$.ajax({
+				type : "GET",
+				url : resourcePath,
+				dataType : "json",
+				data : {
+					stateTag : stateTag,
+					catogoryArray : catogoryArray,
+					flag : flag,
+					pageTemplate : pageTemplate
+				},
+				success : function(msg) {
+					var text = msg.length;
+					if (msg.length === 0) {
+						$this.find(".mosaic").append("<br/><h4 class='faw-article-healdine'>"+messageText+"</h4>");
+						$(".mosaicgridchanger").hide();
+					}
+					if(msg.length!=0) {
+						if (msg[0].totalResults > 10) {
+							$this.find(".btn-secondary").show();
+						} else {
+							$this.find(".btn-secondary").hide();
+						}
+					}
+					var data = JSON.stringify(msg);
+					data = data.replace("[", "");
+					data = data.replace("]", "");
+					data = "{test:[" + data + "]}";
+					var obj = eval('(' + data + ')');
+					obj.type= type;
+					obj.isGrid=type == 'grid' ? true : false;
+					Handlebars.registerHelper('compare', function(lvalue, rvalue, options) {
+						if (arguments.length < 3) {
+							throw new Error("Handlerbars Helper 'compare' needs 2 parameters");
+						}
+						operator = options.hash.operator || "==";
+						var operators = {
+							'==' : function(l, r) {
+								return l == r;
+							},
+							'===' : function(l, r) {
+								return l === r;
+							},
+							'!=' : function(l, r) {
+								return l != r;
+							},
+							'<' : function(l, r) {
+								return l < r;
+							},
+							'>' : function(l, r) {
+								return l > r;
+							},
+							'<=' : function(l, r) {
+								return l <= r;
+							},
+							'>=' : function(l, r) {
+								return l >= r;
+							},
+							'typeof' : function(l, r) {
+								return typeof l == r;
+							}
+						}
+						if (!operators[operator]) {
+							throw new Error("Handlerbars Helper 'compare' doesn't know the operator " + operator);
+						}
+						var result = operators[operator](lvalue, rvalue);
+						if (result) {
+							return options.fn(this);
+						} else {
+							return options.inverse(this);
+						}
+					});
+					var template = Handlebars.compile(source);
+					$this.find(".mosaic").append(template(obj));
+				},
+				error : function(xhr) {
+					console.log('Error in stateMosaic category-input-small onChange event');
+				}
+			});
+		});
+		
 		$(document).on("click", '.category-input ', function() {
 			$this.find(".mosaic").empty();
 			$this.find(".btn-secondary").hide();
@@ -29,8 +122,9 @@ $(document).ready(function() {
 			var x = $(this).attr('id');
 			if ($(this).is(":checked")) {
 				var checked = $(this).attr('value');
-				if ($.inArray(checked, catogoryArray) === -1)
+				if ($.inArray(checked, catogoryArray) === -1) {
 					catogoryArray.push(checked);
+				}
 			} else {
 				var uncheked = $(this).attr('value');
 				if ($.inArray(uncheked, catogoryArray) !== -1)

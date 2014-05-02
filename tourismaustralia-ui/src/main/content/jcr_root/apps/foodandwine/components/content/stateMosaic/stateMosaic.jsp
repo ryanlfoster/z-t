@@ -144,7 +144,7 @@
 <!-- MOBILE VIEW -->
 <!-- FOOD MOSAIC CATEGORIES DROP DOWN -->
 <div class="l-display-md">
-    <select class="input-select input-select-small">
+    <select class="input-select input-select-small category-input-small">
         <option value="" selected="selected" disabled>SELECT CATEGORY</option>
         <option value="restaurants">Restaurants</option>
         <option value="wine">Wine</option>
@@ -178,7 +178,3 @@
     </p>
    </c:if> 
 </div>
-
-
-
-               <!--  -->

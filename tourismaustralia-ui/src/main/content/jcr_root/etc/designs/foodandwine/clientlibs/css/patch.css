@@ -61,7 +61,7 @@
 }
 
 /* line 39, ../../assets/scss/patch_category.scss */
-.category-item-container .category-input[type=checkbox] + label > * {
+.touch .category-item-container .category-input[type=checkbox] + label > * {
   pointer-events: none;
 }
 

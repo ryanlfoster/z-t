@@ -43,7 +43,7 @@ public class SearchServlet extends SlingAllMethodsServlet {
 	private SearchReslutsService searchResultsService;
 
 	@Override
-	protected void doPost(SlingHttpServletRequest request, SlingHttpServletResponse response) throws ServletException,
+	protected void doGet(SlingHttpServletRequest request, SlingHttpServletResponse response) throws ServletException,
 		IOException {
 		try {
 			searchFilter.clear();

@@ -67,10 +67,10 @@ public final class ATDWSearchTag extends SimpleTagSupport {
 			.build();
 
 		// Perform search
-		final ATDWSearchResult results = productService.search(params);
+		final ATDWSearchResult result = productService.search(params);
 
 		// output results to page context
-		pageContext.setAttribute(var, results.getResults());
+		pageContext.setAttribute(var, result.getResults());
 	}
 
 	public String getVar() {

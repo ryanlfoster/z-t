@@ -55,6 +55,16 @@
   text-align: center;
 }
 
+.hotornot-spacer-fill {
+  width: 100%;
+  height: pxtoem(280px);
+  @include breakpoint(md){
+    height: pxtoem(170px);
+  }
+  @include breakpoint(lg){
+    height: 100%;
+  }
+}
 .hotornot-background-image {
 
   left: 0;
@@ -165,7 +175,7 @@
   }
 }
 .hotornot-item-h2-responsive {
-  color: #fff;
+  //color: #fff;
   font-size: pxtoem(48px);
   line-height: .9em;
   vertical-align: middle;
@@ -185,9 +195,7 @@
   position: absolute;
   top: 1em;
   width: 100%;
-  border-top: none;
-  border-right: none;
-  border-left: none;
+  border-bottom: 2px solid #000;
   text-align: center;
   @include breakpoint(sm){
     top: pxtoem(20px);

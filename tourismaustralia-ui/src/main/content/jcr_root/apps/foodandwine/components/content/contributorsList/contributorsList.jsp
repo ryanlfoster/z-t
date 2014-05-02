@@ -43,7 +43,6 @@
         	</div>
 
                 <c:forEach var="list" items="${exp.value}">
-				<a href="${list.link}" target="_self"><li class="sorted-list-item">
 					<ul class="row l-row-collapse">
 						<li class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
 							<p>
@@ -63,16 +62,16 @@
 						<li class="col-xs-0 col-sm-0 col-md-3 l-display-none-lg">
 							<c:choose>
 							<c:when test="${not empty list.website}">
-							<a href="${list.website}" target="_blank">Visit website</a>
+								<a href="${list.website}" target="_blank">Visit website</a>
 							</c:when>
 							<c:otherwise>
-							<strong>-</strong>
+								<strong>-</strong>
 							</c:otherwise>
 							</c:choose>
 						</li>
 					</ul>
-				</li></a>
-  </c:forEach>
+					</li>
+				  </c:forEach>
 			</c:forEach>
 		</ul>
 	</div>

@@ -159,6 +159,14 @@ public final class AtdwSearchPage {
 		return term != null;
 	}
 
+	public Page getNextPage() {
+		return page < lastPage ? pages.get(page) : null;
+	}
+
+	public Page getPrevPage() {
+		return page > 1 ? pages.get(page - 2) : null;
+	}
+
 	public class Page {
 
 		private final int pageNumber;

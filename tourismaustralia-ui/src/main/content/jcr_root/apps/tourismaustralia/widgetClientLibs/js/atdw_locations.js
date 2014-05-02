@@ -142,18 +142,7 @@ $(document).ready(function(){
         }
 
         function parseSearchArgs() {
-            var search = document.location.search.substr(1);
-            var searchArgs = search.split('&');
-            var out = {};
-            for(var i = 0; i < searchArgs.length; i++) {
-                var args = searchArgs[i].split('=');
-                if(args.length == 2) {
-                    var key = decodeURIComponent(args[0]);
-                    var val = decodeURIComponent(args[1]);
-                    out[key] = val;
-                }
-            }
-            return out;
+            return $.url().param();
         }
 
         function outputSearchArgs(searchArgsObj) {

@@ -7,11 +7,6 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@include file="/apps/tourismaustralia/components/global.jsp"%>
 
-<c:if test="${empty products}">
-	<div class="l-h-center" style="color: #833">No results -- This
-		category will be hidden in Publish</div>
-</c:if>
-
 <c:forEach items="${products}" var="product" varStatus="status">
 
 	<c:if test="${status.index % 3 == 0}">

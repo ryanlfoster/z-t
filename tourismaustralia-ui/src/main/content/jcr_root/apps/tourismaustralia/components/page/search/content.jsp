@@ -135,7 +135,10 @@
                             </div>
                             <div class="l-center-640 type-center">
                                 <p class="type-intro">
-                                    Ready to get serious about ${search.query}? We can help you sort out all the details with the options below.
+                                    <fmt:message key="Ready to get serious about {0}? We can help you sort out all the details with the options below." var="readyToGetSerious">
+                                        <fmt:param value="${search.query}"/>
+                                    </fmt:message>
+                                    ${readyToGetSerious}
                                 </p>
                             </div>
                         </div>

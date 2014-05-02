@@ -72,7 +72,14 @@
                 AtdwHighlights.Category cat = (AtdwHighlights.Category) pageContext.getAttribute("cat");
                 request.setAttribute("products", cat.getProducts());
             %>
-            <cq:include script="atdwHighlightMosaic.jsp" />
+
+            <c:if test="${empty products}">
+                <div class="l-h-center" style="color: #833">No results -- This category will be hidden in Publish</div>
+            </c:if>
+            <c:if test="${not empty products}">
+                <cq:include script="atdwHighlightMosaic.jsp" />
+            </c:if>
+
         </div>
 
     </c:forEach>
@@ -81,7 +88,11 @@
 
         <c:forEach items="${h.activeCategories}" var="cat">
             <a href="${cat.allProductsPath}" class="btn-primary" data-aus-show-tab="${cat.id}">
-                <fmt:message key="View All ${cat.display}" />
+                <fmt:message key="${cat.display}" var="catDisplay"/>
+                <fmt:message key="View All {0}" var="viewAll">
+                    <fmt:param value="${catDisplay}"/>
+                </fmt:message>
+                ${viewAll}
             </a>
         </c:forEach>
 

@@ -156,25 +156,26 @@
             <div class="row l-center-1200">
                 <div class="col-xs-12">
                     <div class="atdw-search-pagination-wrapper type-links-bottom-border">
-                        <c:if test="${search.page ne 1}">
+                        <c:if test="${search.page gt 1}">
                             <div class="atdw-search-pagination-prev">
-                                <a href="#">Prev</a>
+                                <a href="${search.prevPage.path}"><fmt:message key="Prev"/></a>
                             </div>
                         </c:if>
                         <div class="atdw-search-pagination-pages">
                             <ul class="atdw-search-pagination-pages-wrapper">
                                 <c:forEach items="${search.pages}" var="page">
-                                    <c:set var="active" value=""/>
                                     <c:if test="${page.selected}">
-                                        <c:set var="active" value="is-active"/>
+                                        <li><a class="is-active">${page.pageNumber}</a></li>
                                     </c:if>
-                                    <li><a class="${active}" href="${page.path}">${page.pageNumber}</a></li>
+                                    <c:if test="${!page.selected}">
+                                        <li><a href="${page.path}">${page.pageNumber}</a></li>
+                                    </c:if>
                                 </c:forEach>
                             </ul>
                         </div>
-                        <c:if test="${search.page ne search.lastPage}">
+                        <c:if test="${search.page lt search.lastPage}">
                             <div class="atdw-search-pagination-next">
-                                <a href="#">Next</a>
+                                <a href="${search.nextPage.path}"><fmt:message key="Next"/></a>
                             </div>
                         </c:if>
                     </div>

@@ -19,8 +19,8 @@ $(function() {
 		var location = $('#stateDropdown').find('option:selected').val();
         counter = 1;
 		$.ajax({
-        type : "POST",
-        url : "/bin/searchservlet/posteddata",
+        type : "GET",
+        url : "/bin/fw/search",
         data : {
         	searchParameter : searchParameter,
         	category : category,
@@ -107,8 +107,8 @@ $(function() {
 		counter = parseInt(counter) + 1;
 		var source = $("#searchMosaic").html();
 			$.ajax({
-	        type : "POST",
-	        url : "/bin/searchservlet/posteddata",
+	        type : "GET",
+	        url : "/bin/fw/search",
 	        data : {
 	        	searchParameter : searchParameter,
 	        	category : category,

@@ -11,7 +11,7 @@ $(document).ready(function() {
 		var resourcePath = "/bin/fw/statemosaic.json";
 		var pageTemplate = $this.find(".page").attr('name');
 		if(pageTemplate!="homepage") {
-            stateTag=window.location.pathname;
+            stateTag=$this.find('input[name="currentPage"]').val();
         }
 		var messageText=$this.find(".message").val();
 		var type="grid";

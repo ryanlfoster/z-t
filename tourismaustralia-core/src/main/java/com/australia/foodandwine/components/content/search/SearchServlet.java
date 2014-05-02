@@ -24,7 +24,7 @@ import com.fasterxml.jackson.core.JsonFactory;
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-@SlingServlet(paths = "/bin/searchservlet/posteddata", methods = "POST")
+@SlingServlet(paths = "/bin/fw/search", methods = "GET")
 public class SearchServlet extends SlingAllMethodsServlet {
 
 	private static final long serialVersionUID = -4085955964503690676L;
@@ -35,15 +35,15 @@ public class SearchServlet extends SlingAllMethodsServlet {
 	private String searchParameter;
 	private String category;
 	private String location;
-	private List<String> searchFilter = new ArrayList<String>();
+	private final List<String> searchFilter = new ArrayList<String>();
 	List<FAWSearch> fawSearchList = new ArrayList<FAWSearch>();
-	private int showMoreResultPerHit = 10;
+	private final int showMoreResultPerHit = 10;
 	private String counter;
 	@Reference
 	private SearchReslutsService searchResultsService;
 
 	@Override
-	protected void doPost(SlingHttpServletRequest request, SlingHttpServletResponse response) throws ServletException,
+	protected void doGet(SlingHttpServletRequest request, SlingHttpServletResponse response) throws ServletException,
 		IOException {
 		try {
 			searchFilter.clear();

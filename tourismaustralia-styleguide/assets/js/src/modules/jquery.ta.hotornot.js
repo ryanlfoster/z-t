@@ -20,7 +20,9 @@
         hotornot_item: '.hotornot-item',
         hotornot_close_btn: '.hotornot-close-btn',
         hotornot_show_btn: '.hotornot-show-btn',
-        hotornot_hide_btn: '.hotornot-hide-btn'
+        hotornot_hide_btn: '.hotornot-hide-btn',
+        hotornot_selector1: '.hotornot-selector1-btn',
+        hotornot_selector2: '.hotornot-selector2-btn'
     };
 
     // The actual plugin constructor
@@ -43,6 +45,22 @@
     Plugin.prototype.setupEvents = function(scope) {
         var $el = $(scope.element);
 
+        /////////////////////////////////////////////////////////////////////////////////
+        // This will need to be wired together from the CMS to target the generated item
+        $hotornot_selector1 = $el.find(scope.options.hotornot_selector1);
+        $hotornot_selector1.click(function(e){
+            $hotornot_items = $el.find(scope.options.hotornot_item);
+            scope.showItem($($hotornot_items[1]));
+            e.preventDefault();
+        });
+        $hotornot_selector2 = $el.find(scope.options.hotornot_selector2);
+        $hotornot_selector2.click(function(e){
+            $hotornot_items = $el.find(scope.options.hotornot_item);
+            scope.showItem($($hotornot_items[0]));
+            e.preventDefault();
+        });
+        /////////////////////////////////////////////////////////////////////////////////
+
         var $items = $el.find(scope.options.hotornot_item);
         $items.each(function(i, item){
             $item = $(item);
@@ -50,7 +68,8 @@
             // close
             var $hotornot_close_btn = $item.find(scope.options.hotornot_close_btn);
             $hotornot_close_btn.click(function(e){
-                alert("close");
+                $hotornot_item = $(e.currentTarget).parents(scope.options.hotornot_item);
+                scope.hideItem($hotornot_item);
                 e.preventDefault();
             });
             // show grid
@@ -71,6 +90,14 @@
 
         });
 
+    };
+
+    Plugin.prototype.showItem = function($target) {
+        $target.removeClass("is-hidden");
+    };
+
+    Plugin.prototype.hideItem = function($target) {
+        $target.addClass("is-hidden");
     };
 
     Plugin.prototype.showGrid = function($target) {

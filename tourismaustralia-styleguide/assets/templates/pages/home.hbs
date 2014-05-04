@@ -1,6 +1,7 @@
 ---
 title: Home
 layout: layout-base.hbs
+note: note-home
 ---
 <p> HERO HOME INTERACTIVE </p>
 
@@ -10,7 +11,7 @@ layout: layout-base.hbs
 
         <div class="hotornot-selector">
 
-            <div class="hotornot-images" style="position: relative;">
+            <div class="hotornot-images">
 
                 <div class="row l-center-1200 l-padding-b-standard-responsive">
                     {{#parseJSON '{"copy": "Explore your Australia", "main_heading_color": true}'}}
@@ -18,8 +19,8 @@ layout: layout-base.hbs
                     {{/parseJSON}}
                 </div>
 
-                <div class="row l-center-1200 l-row-collapse" style="position: relative;">
-                    <div class="col-xs-6" style="position: relative;">
+                <div class="row l-center-1200 l-row-collapse">
+                    <div class="col-xs-6">
 
                         <!-- background image start -->
                         <div  class="hotornot-background-image fullwidth-bg" data-image-vertical-alignment="bottom">
@@ -42,7 +43,7 @@ layout: layout-base.hbs
                         <!-- background image end -->
 
                         <!-- like button start -->
-                        <a href="#" class="btn-bubble btn-bubble-fullarea">
+                        <a href="#" class="btn-bubble btn-bubble-fullarea hotornot-selector1-btn">
                     <span class="btn-bubble-button btn-icon-center-like">
                           <img class="btn-bubble-std" src="imgs/icons/hot_or_not_like_std.png" alt=""/>
                           <img class="btn-bubble-active" src="imgs/icons/hot_or_not_like_rol.png" alt=""/>
@@ -88,7 +89,7 @@ layout: layout-base.hbs
                         <!-- background image end -->
 
                         <!-- like button start -->
-                        <a href="#" class="btn-bubble btn-bubble-fullarea">
+                        <a href="#" class="btn-bubble btn-bubble-fullarea hotornot-selector2-btn">
                     <span class="btn-bubble-button btn-icon-center-like">
                           <img class="btn-bubble-std" src="imgs/icons/hot_or_not_like_std.png" alt=""/>
                           <img class="btn-bubble-active" src="imgs/icons/hot_or_not_like_rol.png" alt=""/>
@@ -131,52 +132,39 @@ layout: layout-base.hbs
 
 
         <!-- hot or not item start -->
-        <div class="hotornot-item">
+        <div class="hotornot-item is-hidden">
             <div class="row l-center-1200 l-row-collapse">
                 <div class="hotornot-item-tile col-xs-12 col-md-3">
 
-                    <div class="hotornot-item-padding">
+                    <div class="hotornot-item-padding theme-aboriginal">
 
-                        <!-- background image start -->
-                        <div  class="hotornot-item-background-image fullwidth-bg" data-image-vertical-alignment="bottom">
-
-                            <div class="responsive-image" data-picture="" data-alt="" >
-                                <div data-src="imgs/placeholders/hot_or_not_row.png" data-media="(min-width: 1px)"></div>
-                                <div data-src="imgs/placeholders/hot_or_not_row.png" data-media="(min-width: 481px)"></div>
-                                <div data-src="imgs/placeholders/hot_or_not_row.png" data-media="(min-width: 769px)"></div>
-                                <div data-src="imgs/placeholders/hot_or_not_row.png" data-media="(min-width: 993px)"></div>
-
-                                <noscript>
-                                    <img src='imgs/placeholders/hot_or_not_row.png' alt=''>
-                                </noscript>
-                            </div>
-                            <!--[if (lt IE 9) & (!IEMobile)]>
-                            <img src='imgs/placeholders/hot_or_not_row.png' alt=''>
-                            <![endif]-->
-
-                        </div>
-                        <!-- background image end -->
+                        <!-- background image spacer start -->
+                        <img src='imgs/base/spacer_hot_or_not_row.png' alt='' class="hotornot-spacer-fill">
+                        <!-- background image spacer end -->
 
                         <!-- line and diamond start -->
-                        <div class="hotornot-diamond theme-nature-border">
+                        <div class="hotornot-diamond">
                             <!-- icons, aboriginal_australia, adventure, art_culture, beaches,
                             food_wine, island, nature_wildlife, outback, sports -->
-                            <img class="hotornot-diamond-img" src="imgs/icons/nature_wildlife.png" alt="">
+                            <span class="hotornot-diamond-img-container">
+                                <span class="hotornot-diamond-img-bg theme-aboriginal"></span>
+                                <img class="hotornot-diamond-img" src="imgs/icons/aboriginal_australia_outline.png" alt="">
+                            </span>
                         </div>
                         <!-- line and diamond end -->
 
                         <!-- close btn start -->
                         <a href="#" class="btn-bubble hotornot-close-btn">
         <span class="btn-bubble-button">
-              <img class="btn-bubble-std" src="imgs/icons/close_button_white_std.png" alt="">
-              <img class="btn-bubble-active" src="imgs/icons/hot_or_not_close_rol.png" alt="">
+              <img class="btn-bubble-std" src="imgs/icons/close_button_black_std.png" alt="">
+              <img class="btn-bubble-active" src="imgs/icons/close_button_black_rol.png" alt="">
         </span>
                         </a>
                         <!-- close btn end -->
 
                         <!-- category title text start -->
                         <div class="hotornot-item-category">
-                            {{#parseJSON '{"title": "ARTS, MUSIC & CULTURE"}'}}
+                            {{#parseJSON '{"title": "Aboriginal Australia"}'}}
                                 <h2 class="hotornot-item-h2-responsive">
                                     {{#if title}}
                                         {{{title}}}
@@ -251,12 +239,10 @@ layout: layout-base.hbs
                         <div class="hotornot-diamond">
                             <!-- icons, aboriginal_australia, adventure, art_culture, beaches,
                             food_wine, island, nature_wildlife, outback, sports -->
-                            <span class="hotornot-hr"></span>
-                            <span>
-                                <img class="hotornot-diamond-img" src="imgs/icons/nature_wildlife_outline.png" alt="">
+                            <span class="hotornot-diamond-img-container">
+                                <span class="hotornot-diamond-img-bg theme-beaches"></span>
+                                <img class="hotornot-diamond-img" src="imgs/icons/art_culture_outline.png" alt="">
                             </span>
-
-                            <span class="hotornot-hr"></span>
                         </div>
                         <!-- line and diamond end -->
 
@@ -329,6 +315,9 @@ layout: layout-base.hbs
 
         </div>
         <!-- hot or not item end -->
+
+
+
 
 
     </div>

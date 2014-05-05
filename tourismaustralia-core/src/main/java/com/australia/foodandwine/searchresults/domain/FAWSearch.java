@@ -154,7 +154,7 @@ public class FAWSearch {
 	}
 
 	public String getPageDescription() {
-		if (pageDescription.length() <= 250) {
+		if (pageDescription == null || pageDescription.length() <= 250) {
 			return pageDescription;
 		} else {
 			return pageDescription.substring(0, 250) + "...";

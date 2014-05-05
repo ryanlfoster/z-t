@@ -1,8 +1,11 @@
 package com.australia.foodandwine.job;
 
 import java.io.InputStream;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
+import java.util.Iterator;
+import java.util.List;
 import java.util.Map;
 
 import javax.jcr.Session;
@@ -33,11 +36,14 @@ import org.slf4j.LoggerFactory;
 
 import com.australia.utils.PathUtils;
 import com.australia.utils.ServerUtils;
+import com.australia.utils.TagUtils;
 import com.day.cq.commons.date.DateUtil;
 import com.day.cq.commons.jcr.JcrConstants;
 import com.day.cq.commons.jcr.JcrUtil;
 import com.day.cq.dam.api.Asset;
 import com.day.cq.dam.api.AssetManager;
+import com.day.cq.tagging.Tag;
+import com.day.cq.tagging.TagManager;
 import com.day.cq.wcm.api.Page;
 import com.day.cq.wcm.api.PageManager;
 import com.day.cq.wcm.api.WCMException;
@@ -50,6 +56,7 @@ public class ExperienceCreationJob implements Runnable {
 	private static final Logger LOG = LoggerFactory.getLogger(ExperienceCreationJob.class);
 	private static final String QUERY_STRING = "SELECT * FROM [cq:Page] AS s WHERE ISDESCENDANTNODE(["
 		+ PathUtils.FOOD_AND_WINE_USER_GENERATED + "]) AND [jcr:created] > '%s'";
+	private static final String CATEGORY_PREFIX = "category-%s";
 
 	private ResourceResolver resourceResolver;
 	private Detector detector;
@@ -166,6 +173,49 @@ public class ExperienceCreationJob implements Runnable {
 		Resource mainparsysResource = resourceResolver.create(contentResource, "mainparsys", mainparsysProperties);
 		resourceResolver.commit();
 
+		String primaryCategory = formProperties.get("primaryCategory", String.class);
+		String secondayCategory = formProperties.get("secondaryCategory", String.class);
+		List<String> tagIds = new ArrayList<String>();
+		tagIds.add(TagUtils.TA_PLACE_TAG
+			+ "/"
+			+ JcrUtil.createValidName(formProperties.get("selectTerritory", StringUtils.EMPTY),
+				JcrUtil.HYPHEN_LABEL_CHAR_MAPPING, "_"));
+		if (StringUtils.isNotEmpty(primaryCategory) || StringUtils.isNotEmpty(secondayCategory)) {
+			Tag primaryTag = null;
+			Tag secondaryTag = null;
+			for (Tag tag : getCategoryTags(resourceResolver.adaptTo(TagManager.class))) {
+				if (String.format(CATEGORY_PREFIX, tag.getTitle()).toLowerCase().equals(primaryCategory)) {
+					primaryTag = tag;
+				}
+				if (String.format(CATEGORY_PREFIX, tag.getTitle()).toLowerCase().equals(secondayCategory)) {
+					secondaryTag = tag;
+				}
+			}
+			if (primaryTag != null || secondaryTag != null) {
+				Map<String, Object> categoryProperties = new HashMap<String, Object>();
+				int count = 1;
+				if (primaryTag != null) {
+					String imagePath = "/content/dam/food-and-wine/icons/categories/category-icon-"
+						+ primaryTag.getTitle().toLowerCase() + "-white.png";
+					categoryProperties.put("caption" + count, primaryTag.getTitle());
+					categoryProperties.put("imagePath" + count, imagePath);
+					count++;
+					tagIds.add(primaryTag.getTagID());
+				}
+				if (secondaryTag != null) {
+					String imagePath = "/content/dam/food-and-wine/icons/categories/category-icon-"
+						+ secondaryTag.getTitle().toLowerCase() + "-white.png";
+					categoryProperties.put("caption" + count, secondaryTag.getTitle());
+					categoryProperties.put("imagePath" + count, imagePath);
+					tagIds.add(secondaryTag.getTagID());
+				}
+				resourceResolver.create(contentResource, "category", categoryProperties);
+				resourceResolver.commit();
+			}
+		}
+		contentResourceProperties.put("cq:tags", tagIds.toArray(new String[tagIds.size()]));
+		resourceResolver.commit();
+
 		int imagecount = 0;
 		for (Resource imageResource : res.getChildren()) {
 			try {
@@ -215,6 +265,18 @@ public class ExperienceCreationJob implements Runnable {
 		}
 		String pageName = pagePath.substring(pagePath.lastIndexOf("/") + 1);
 		pageManager.create(parentPath, pageName, null, null, true);
+	}
+
+	private List<Tag> getCategoryTags(TagManager tagManager) {
+		List<Tag> categoryTags = new ArrayList<Tag>();
+		Tag categoryTag = tagManager.resolve(TagUtils.FOOD_AND_WINE_CATEGORY);
+		if (categoryTag != null) {
+			Iterator<Tag> childTags = categoryTag.listChildren();
+			while (childTags.hasNext()) {
+				categoryTags.add(childTags.next());
+			}
+		}
+		return categoryTags;
 	}
 
 }

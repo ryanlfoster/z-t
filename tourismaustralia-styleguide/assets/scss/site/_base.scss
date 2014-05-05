@@ -10,6 +10,8 @@ html, body {
 
   // font smooting for webkit, introduced because of IE8.1 Select List issue
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
 }
 .lt-ie9 body{
   height:auto!important;

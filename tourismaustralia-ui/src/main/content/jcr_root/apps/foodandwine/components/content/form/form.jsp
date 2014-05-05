@@ -400,6 +400,29 @@
 					</div>
 				</div>
 			</div>
+			
+			<div class="field-container terms-conditions">
+				<div class="input-field input-field-checkbox form-agree-container"
+					data-type="checkbox">
+
+					<fieldset class="options">
+						<input id="checkbox" class="checkbox1" type="checkbox"> <label
+							for="checkbox" name="demo_lbl_1" class="checkbox-label">Select <sup>*</sup>
+						</label>
+						<!-- Checkbox powered by CssCheckbox.com -->
+						<p class="checkbox-description">
+							${form.checkboxDescription } 
+						</p>
+					</fieldset>
+
+					<span class="input-field-validation-icon "></span>
+					<div class="col-xs-12">
+				    	<p class="input-field-validation-alert">
+                           Please accept the terms and conditions
+                       	</p>					
+					</div>
+				</div>
+			</div>
 
 			<!--  -->
 			<hr class="form-clear">

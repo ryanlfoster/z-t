@@ -46,7 +46,7 @@ public class Global {
 	private final String favIcon;
 	private final String lastModified;
 	private final Boolean isHomePage;
-	private final boolean prodPublish;
+	private final Boolean prodPublish;
 
 	public Global(SlingHttpServletRequest request) {
 		SlingScriptHelper sling = ((SlingBindings) request.getAttribute(SlingBindings.class.getName())).getSling();
@@ -143,7 +143,7 @@ public class Global {
 		return isHomePage;
 	}
 
-	public boolean isProdPublish() {
+	public Boolean isProdPublish() {
 		return prodPublish;
 	}
 

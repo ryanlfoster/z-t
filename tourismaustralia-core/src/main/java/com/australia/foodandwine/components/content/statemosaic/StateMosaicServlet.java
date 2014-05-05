@@ -186,6 +186,8 @@ public class StateMosaicServlet extends SlingAllMethodsServlet {
 				Image pageImage = new Image(jcrResource, "image");
 				if (pageImage != null && pageImage.hasContent()) {
 					image = pageImage.getPath() + ".img.jpg";
+				} else {
+					image = "/etc/designs/foodandwine/clientlibs/imgs/blank1x1.png";
 				}
 				StateMosaiacProperties bean = new StateMosaiacProperties(title, description, image, pagePth,
 					stateTitle, categoryTagName, cityTagName, categoryLogo, templateName);

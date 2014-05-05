@@ -6722,9 +6722,11 @@ html, body {
   padding: 0;
   width: 100%;
   height: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-/* line 12, ../../assets/scss/site/_base.scss */
+/* line 17, ../../assets/scss/site/_base.scss */
 body {
   font-family: "ProximaNova Regular", Helvetica, Arial, sans-serif;
   color: #393939;
@@ -6735,7 +6737,7 @@ body {
   };*/
 }
 
-/* line 23, ../../assets/scss/site/_base.scss */
+/* line 28, ../../assets/scss/site/_base.scss */
 h1, h2, h3, h4, h5 {
   font-weight: normal;
   color: #393939;
@@ -6744,21 +6746,21 @@ h1, h2, h3, h4, h5 {
   font-weight: normal;
 }
 
-/* line 31, ../../assets/scss/site/_base.scss */
+/* line 36, ../../assets/scss/site/_base.scss */
 h1 {
   font-family: "GearedSlab-Thin", Helvetica, Arial, sans-serif;
   font-size: 4.5em;
   text-transform: uppercase;
 }
 
-/* line 37, ../../assets/scss/site/_base.scss */
+/* line 42, ../../assets/scss/site/_base.scss */
 h2 {
   font-family: "GearedSlab-Thin", Helvetica, Arial, sans-serif;
   font-size: 3em;
   text-transform: uppercase;
 }
 
-/* line 43, ../../assets/scss/site/_base.scss */
+/* line 48, ../../assets/scss/site/_base.scss */
 h3 {
   font-family: "ProximaNova Regular", Helvetica, Arial, sans-serif;
   font-size: 1.875em;
@@ -6772,20 +6774,20 @@ h3 {
   margin-right: auto;
 }
 
-/* line 61, ../../assets/scss/site/_base.scss */
+/* line 66, ../../assets/scss/site/_base.scss */
 h4 {
   font-family: "ProximaNova Semi Bold", Helvetica, Arial, sans-serif;
   font-size: 1.875em;
   line-height: 1.56522em;
 }
 
-/* line 67, ../../assets/scss/site/_base.scss */
+/* line 72, ../../assets/scss/site/_base.scss */
 h5 {
   font-family: "TAheadline", Helvetica, Arial, sans-serif;
   font-size: 1.5em;
 }
 
-/* line 72, ../../assets/scss/site/_base.scss */
+/* line 77, ../../assets/scss/site/_base.scss */
 h6 {
   display: block;
   padding: 0;
@@ -6795,7 +6797,7 @@ h6 {
   line-height: 1.41176em;
 }
 
-/* line 81, ../../assets/scss/site/_base.scss */
+/* line 86, ../../assets/scss/site/_base.scss */
 p {
   line-height: 1.5em;
   /**
@@ -6810,13 +6812,13 @@ p {
 /*
 Quick fix to solve padding issues when in CQ
 **/
-/* line 98, ../../assets/scss/site/_base.scss */
+/* line 103, ../../assets/scss/site/_base.scss */
 .text > p {
   padding-left: 15px;
   padding-right: 15px;
 }
 
-/* line 104, ../../assets/scss/site/_base.scss */
+/* line 109, ../../assets/scss/site/_base.scss */
 a {
   color: #040000;
   text-decoration: underline;
@@ -6824,7 +6826,7 @@ a {
   font-size: 18px;
 }
 
-/* line 111, ../../assets/scss/site/_base.scss */
+/* line 116, ../../assets/scss/site/_base.scss */
 a:hover, a:focus {
   color: #393939;
   cursor: pointer;
@@ -6833,29 +6835,29 @@ a:hover, a:focus {
 /*a:visited {
   color: $type-link-hover-colour;
 }*/
-/* line 119, ../../assets/scss/site/_base.scss */
+/* line 124, ../../assets/scss/site/_base.scss */
 strong, b {
   font-family: "ProximaNova Bold", Helvetica, Arial, sans-serif;
   font-weight: normal;
 }
-/* line 121, ../../assets/scss/site/_base.scss */
+/* line 126, ../../assets/scss/site/_base.scss */
 strong em, b em {
   font-family: "ProximaNova Bold Italic", Helvetica, Arial, sans-serif;
   font-weight: normal;
 }
 
-/* line 127, ../../assets/scss/site/_base.scss */
+/* line 132, ../../assets/scss/site/_base.scss */
 em {
   font-family: "ProximaNova Regular Italic", Helvetica, Arial, sans-serif;
   font-weight: normal;
 }
 
-/* line 132, ../../assets/scss/site/_base.scss */
+/* line 137, ../../assets/scss/site/_base.scss */
 hr {
   border-top: 1px solid #bbbbbb;
 }
 
-/* line 136, ../../assets/scss/site/_base.scss */
+/* line 141, ../../assets/scss/site/_base.scss */
 img {
   max-width: 100%;
 }
@@ -6863,7 +6865,7 @@ img {
 /**
  Quick hack to remove styling in chrome on buttons
 **/
-/* line 151, ../../assets/scss/site/_base.scss */
+/* line 156, ../../assets/scss/site/_base.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -6873,7 +6875,7 @@ input[type="submit"] {
   background: transparent;
   cursor: pointer;
 }
-/* line 157, ../../assets/scss/site/_base.scss */
+/* line 162, ../../assets/scss/site/_base.scss */
 button:focus,
 html input[type="button"]:focus,
 input[type="reset"]:focus,
@@ -6881,7 +6883,7 @@ input[type="submit"]:focus {
   outline: none;
 }
 
-/* line 163, ../../assets/scss/site/_base.scss */
+/* line 168, ../../assets/scss/site/_base.scss */
 .base-show-in-ie8 {
   display: none;
 }
@@ -9194,9 +9196,10 @@ input.btn-secondary {
 .icon-google-color {
   background-repeat: no-repeat;
   display: inline-block;
+  margin-top: -3px;
 }
 
-/* line 541, ../../assets/scss/site/modules/_icon.scss */
+/* line 542, ../../assets/scss/site/modules/_icon.scss */
 .icon-atdw-color {
   background-repeat: no-repeat;
   display: inline-block;
@@ -9632,12 +9635,17 @@ input.btn-secondary {
 /* line 115, ../../assets/scss/site/modules/_calltoaction.scss */
 .calltoactionbubble h2 {
   color: white;
-  margin-top: 0.2em;
-  padding-left: 1em;
-  padding-right: 1em;
+  margin-top: .18em;
+  padding-left: .5em;
+  padding-right: .5em;
 }
 
-/* line 125, ../../assets/scss/site/modules/_calltoaction.scss */
+/* line 124, ../../assets/scss/site/modules/_calltoaction.scss */
+.calltoaction .divider-small {
+  margin-top: 1.13em;
+}
+
+/* line 128, ../../assets/scss/site/modules/_calltoaction.scss */
 .calltoactionbubblebig {
   width: 100%;
   height: auto;
@@ -9648,32 +9656,32 @@ input.btn-secondary {
   background-color: black;
 }
 @media (min-width: 768px) {
-  /* line 125, ../../assets/scss/site/modules/_calltoaction.scss */
+  /* line 128, ../../assets/scss/site/modules/_calltoaction.scss */
   .calltoactionbubblebig {
     width: 500px;
     height: 500px;
     margin-top: 6em;
     margin-bottom: 6em;
-    padding-top: 3em;
+    padding-top: 4em;
     padding-bottom: 0;
     background-color: rgba(0, 0, 0, 0.8);
   }
 }
-/* line 146, ../../assets/scss/site/modules/_calltoaction.scss */
+/* line 149, ../../assets/scss/site/modules/_calltoaction.scss */
 .calltoactionbubblebig p {
   max-width: 420px;
-  font-size: 1.1em;
+  font-size: 1em;
   text-transform: none;
   display: inline-block;
   margin-top: 0.625em;
 }
 
-/* line 155, ../../assets/scss/site/modules/_calltoaction.scss */
+/* line 158, ../../assets/scss/site/modules/_calltoaction.scss */
 .calltoactionbubblebig h5 {
-  padding-top: 0.625em;
+  padding-top: .25em;
 }
 
-/* line 159, ../../assets/scss/site/modules/_calltoaction.scss */
+/* line 162, ../../assets/scss/site/modules/_calltoaction.scss */
 .calltoactionbubblebig-withiconlogo h5 {
   padding-top: 0;
 }
@@ -10313,7 +10321,7 @@ input.btn-secondary {
 /* line 353, ../../assets/scss/site/modules/_form.scss */
 .form-number-square-box {
   background: #FFF;
-  padding: .3em;
+  padding: .3em .3em 0;
   display: inline-block;
   position: relative;
 }
@@ -10361,7 +10369,7 @@ input.btn-secondary {
 @media (min-width: 768px) {
   /* line 399, ../../assets/scss/site/modules/_form.scss */
   .rgba .form-thank-you-states {
-    margin-bottom: 80px;
+    margin-bottom: 94px;
     text-align: left;
   }
   /* line 408, ../../assets/scss/site/modules/_form.scss */
@@ -11191,9 +11199,14 @@ input.btn-secondary {
     text-indent: 0.01px;
     text-overflow: '';
   }
+
+  /* line 43, ../../assets/scss/site/modules/_selectmenu.scss */
+  .input-select option {
+    padding-top: 5px;
+  }
 }
 
-/* line 43, ../../assets/scss/site/modules/_selectmenu.scss */
+/* line 48, ../../assets/scss/site/modules/_selectmenu.scss */
 .input-select-small {
   font-family: "GearedSlab-Thin-Fix", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -11204,35 +11217,40 @@ input.btn-secondary {
   border: none;
   padding-right: 2.5em;
 }
-/* line 53, ../../assets/scss/site/modules/_selectmenu.scss */
+/* line 58, ../../assets/scss/site/modules/_selectmenu.scss */
 .input-select-small:focus {
   outline: 0.0625em solid black;
 }
 
-/* line 62, ../../assets/scss/site/modules/_selectmenu.scss */
+/* line 67, ../../assets/scss/site/modules/_selectmenu.scss */
 .input-field-select {
   border: none;
 }
 
-/* line 66, ../../assets/scss/site/modules/_selectmenu.scss */
+/* line 71, ../../assets/scss/site/modules/_selectmenu.scss */
 .input-select-top-border {
   border-top: 1px #e0e0e0 solid;
   border-bottom: 0;
 }
 @media (min-width: 768px) {
-  /* line 66, ../../assets/scss/site/modules/_selectmenu.scss */
+  /* line 71, ../../assets/scss/site/modules/_selectmenu.scss */
   .input-select-top-border {
     border-bottom: 1px #e0e0e0 solid;
     border-top: 0;
   }
 }
 
-/* line 76, ../../assets/scss/site/modules/_selectmenu.scss */
+/* line 81, ../../assets/scss/site/modules/_selectmenu.scss */
 .input-select-bottom-border {
+  border-bottom: 1px #fff solid;
+}
+
+/* line 84, ../../assets/scss/site/modules/_selectmenu.scss */
+.input-select-bottom-border:hover {
   border-bottom: 1px #e0e0e0 solid;
 }
 
-/* line 80, ../../assets/scss/site/modules/_selectmenu.scss */
+/* line 88, ../../assets/scss/site/modules/_selectmenu.scss */
 .input-select-mosaic-filter {
   height: 40px;
   padding: 0.5em;
@@ -11243,13 +11261,13 @@ input.btn-secondary {
   margin-bottom: 1em;
 }
 @media (min-width: 768px) {
-  /* line 80, ../../assets/scss/site/modules/_selectmenu.scss */
+  /* line 88, ../../assets/scss/site/modules/_selectmenu.scss */
   .input-select-mosaic-filter {
     margin-bottom: 0;
   }
 }
 
-/* line 97, ../../assets/scss/site/modules/_selectmenu.scss */
+/* line 105, ../../assets/scss/site/modules/_selectmenu.scss */
 .input-select-white-box {
   padding-right: 3.5em;
   background-color: white;
@@ -11257,7 +11275,7 @@ input.btn-secondary {
 }
 
 /****** start - Resolve the 2 arrows issue and font cut issue in IE ********/
-/* line 107, ../../assets/scss/site/modules/_selectmenu.scss */
+/* line 115, ../../assets/scss/site/modules/_selectmenu.scss */
 .input-select-small {
   padding-right: 18px\9;
   min-width: 195px\9;
@@ -11266,7 +11284,7 @@ input.btn-secondary {
 }
 
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  /* line 117, ../../assets/scss/site/modules/_selectmenu.scss */
+  /* line 125, ../../assets/scss/site/modules/_selectmenu.scss */
   .input-select-small {
     padding-right: 17px;
     min-width: 195px;
@@ -12519,40 +12537,41 @@ input[type=checkbox].checkbox + label.checkbox-label {
   /* line 31, ../../assets/scss/site/modules/_imagewithdescription.scss */
   .imagewithdescription-description {
     position: absolute;
-    width: 155px;
-    top: 8em;
+    width: 150px;
+    top: 7.3em;
     bottom: auto;
+    padding: 1.6em 0.35em 1.6em 0.55em;
   }
 }
 
-/* line 49, ../../assets/scss/site/modules/_imagewithdescription.scss */
+/* line 50, ../../assets/scss/site/modules/_imagewithdescription.scss */
 .rgba .imagewithdescription-description {
   background-color: rgba(255, 255, 255, 0.9);
 }
 
-/* line 54, ../../assets/scss/site/modules/_imagewithdescription.scss */
+/* line 55, ../../assets/scss/site/modules/_imagewithdescription.scss */
 .imagewithdescription-description-head {
   margin: 0;
   padding: 0;
-  font-size: 0.9em;
+  font-size: 0.8em;
   display: block !important;
 }
 @media (min-width: 768px) {
-  /* line 54, ../../assets/scss/site/modules/_imagewithdescription.scss */
+  /* line 55, ../../assets/scss/site/modules/_imagewithdescription.scss */
   .imagewithdescription-description-head {
     text-align: left;
   }
 }
 
-/* line 64, ../../assets/scss/site/modules/_imagewithdescription.scss */
+/* line 65, ../../assets/scss/site/modules/_imagewithdescription.scss */
 .imagewithdescription-description-copy {
   margin: 0;
   padding: 0;
-  font-size: 0.9em;
+  font-size: 0.8em;
   display: block !important;
 }
 @media (min-width: 768px) {
-  /* line 64, ../../assets/scss/site/modules/_imagewithdescription.scss */
+  /* line 65, ../../assets/scss/site/modules/_imagewithdescription.scss */
   .imagewithdescription-description-copy {
     text-align: left;
   }
@@ -13466,9 +13485,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
 /* line 1, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
 .faw-register-teaser {
   text-align: center;
-  background: black;
-  /* The Fallback */
-  background-color: rgba(0, 0, 0, 0.6);
+  background: url(../imgs/pages/home/bg_register_teaser.png) repeat-x;
   position: relative;
   left: 0;
   bottom: 0;
@@ -13476,11 +13493,11 @@ input[type=checkbox].checkbox + label.checkbox-label {
   padding: 1em;
   padding-top: 1.5em;
 }
-/* line 12, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
+/* line 11, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
 .faw-register-teaser .is-desktop {
   display: none;
 }
-/* line 16, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
+/* line 15, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
 .faw-register-teaser h5 {
   font-family: "ProximaNova Regular", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
@@ -13491,28 +13508,28 @@ input[type=checkbox].checkbox + label.checkbox-label {
   .faw-register-teaser {
     position: absolute;
   }
-  /* line 23, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
+  /* line 22, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
   .faw-register-teaser h5 {
     font-family: "TAheadline", Helvetica, Arial, sans-serif;
     letter-spacing: .015em;
     font-size: 1.5em;
   }
-  /* line 30, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
+  /* line 29, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
   .faw-register-teaser .is-mobile {
     display: none;
   }
-  /* line 33, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
+  /* line 32, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
   .faw-register-teaser .is-desktop {
     display: inline-block;
   }
 }
-/* line 38, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
+/* line 37, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
 .faw-register-teaser .headerlockup-type-sml1 {
   padding: 0;
   margin: 0;
   color: white;
 }
-/* line 44, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
+/* line 43, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
 .faw-register-teaser .headerlockup-hr {
   display: none;
   border-top: 1px solid white !important;
@@ -13520,12 +13537,12 @@ input[type=checkbox].checkbox + label.checkbox-label {
   margin-bottom: 1.9em;
 }
 @media (min-width: 768px) {
-  /* line 44, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
+  /* line 43, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
   .faw-register-teaser .headerlockup-hr {
     display: block;
   }
 }
-/* line 54, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
+/* line 53, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
 .faw-register-teaser .headerlockup-hr-mobile {
   border-top: 1px solid white !important;
   margin-top: 1.5em;
@@ -13533,13 +13550,13 @@ input[type=checkbox].checkbox + label.checkbox-label {
   display: block;
 }
 @media (min-width: 768px) {
-  /* line 54, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
+  /* line 53, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
   .faw-register-teaser .headerlockup-hr-mobile {
     display: none;
   }
 }
 
-/* line 65, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
+/* line 64, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
 .faw-register-teaser-subline {
   color: white;
 }
@@ -13645,7 +13662,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
 /* line 61, ../../assets/scss/site/modules/_socialcounter.scss */
 .socialcounter-link strong {
   font-weight: normal;
-  font-size: .9em;
+  font-size: .7em;
   font-family: "ProximaNova Regular", Helvetica, Arial, sans-serif;
 }
 
@@ -13754,13 +13771,13 @@ input[type=checkbox].checkbox + label.checkbox-label {
   bottom: 0;
   left: 0;
   right: 0;
-  margin: 1em;
-  padding: 1em !important;
+  margin: 9px 10px 3px 10px;
+  padding: 1em 0.5em !important;
   text-align: left;
-  padding-top: 0.2em;
+  background: url("../imgs/base/black-gradient.png") repeat-x;
 }
 
-/* line 28, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 29, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-description-copy {
   display: none !important;
   line-height: 1.3em;
@@ -13768,10 +13785,10 @@ input[type=checkbox].checkbox + label.checkbox-label {
   font-family: "ProximaNova Regular", Helvetica, Arial, sans-serif;
 }
 
-/* line 38, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 39, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-description-head {
   color: white;
-  font-size: 1.5em;
+  font-size: 1em;
   line-height: 1em;
   text-align: left;
   padding: 0 !important;
@@ -13782,10 +13799,11 @@ input[type=checkbox].checkbox + label.checkbox-label {
   width: 83%;
 }
 
-/* line 52, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 53, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-description-sub {
   display: block;
-  font-family: "ProximaNova Regular Italic";
+  font-family: "ProximaNova Regular", Helvetica, Arial, sans-serif;
+  font-size: 0.75em;
   color: white;
   padding: 0 !important;
   text-align: left;
@@ -13795,36 +13813,36 @@ input[type=checkbox].checkbox + label.checkbox-label {
   width: 83%;
 }
 
-/* line 64, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 66, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-description-share {
   font-size: 2em;
   position: absolute;
-  right: 0.4em;
-  right: 0\0;
+  right: 0.1em;
+  right: 3px\0;
   bottom: 0.4em;
   color: white;
   width: 35px;
   height: 35px;
 }
-/* line 74, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 76, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-description-share img {
   width: 35px;
   height: 35px;
 }
 
-/* line 80, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 82, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-description-share-dark {
   display: none;
 }
 
-/* line 92, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 94, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-overlay {
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  margin: .56em;
+  margin: 0.625em;
   padding: 3em 2em 2em 2em;
   cursor: pointer;
   color: white;
@@ -13838,7 +13856,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
  Hover / focus state
  only on non-touch devices
 */
-/* line 115, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 117, ../../assets/scss/site/modules/_mosaic-item.scss */
 .no-touch .mosaic-item:hover, .no-touch .mosaic-item:focus {
   /*
     Show overlay
@@ -13847,11 +13865,11 @@ input[type=checkbox].checkbox + label.checkbox-label {
    Show underline under cta
   */
 }
-/* line 120, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 122, ../../assets/scss/site/modules/_mosaic-item.scss */
 .no-touch .mosaic-item:hover .mosaic-item-overlay, .no-touch .mosaic-item:focus .mosaic-item-overlay {
   display: block;
 }
-/* line 127, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 129, ../../assets/scss/site/modules/_mosaic-item.scss */
 .no-touch .mosaic-item:hover .mosaic-item-description-copy-link, .no-touch .mosaic-item:focus .mosaic-item-description-copy-link {
   text-decoration: underline;
 }
@@ -13859,13 +13877,13 @@ input[type=checkbox].checkbox + label.checkbox-label {
 /**
  Provide transition based on feature being available.
 **/
-/* line 140, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 142, ../../assets/scss/site/modules/_mosaic-item.scss */
 .no-touch.opacity {
   /*
    Only on non touch devices
   */
 }
-/* line 142, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 144, ../../assets/scss/site/modules/_mosaic-item.scss */
 .no-touch.opacity .mosaic-item-overlay {
   -webkit-transform: translateZ(0);
   display: block;
@@ -13875,7 +13893,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
   -webkit-transition: opacity .5s ease-out;
   -o-transition: opacity .5s ease-out;
 }
-/* line 157, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 159, ../../assets/scss/site/modules/_mosaic-item.scss */
 .no-touch.opacity .mosaic-item:hover, .no-touch.opacity .mosaic-item:focus {
   /**
    Transition overlay
@@ -13884,7 +13902,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
  Show underline under cta
 */
 }
-/* line 162, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 164, ../../assets/scss/site/modules/_mosaic-item.scss */
 .no-touch.opacity .mosaic-item:hover .mosaic-item-overlay, .no-touch.opacity .mosaic-item:focus .mosaic-item-overlay {
   opacity: 0.9;
   transition: opacity .2s ease-out;
@@ -13892,7 +13910,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
   -webkit-transition: opacity .2s ease-out;
   -o-transition: opacity .2s ease-out;
 }
-/* line 173, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 175, ../../assets/scss/site/modules/_mosaic-item.scss */
 .no-touch.opacity .mosaic-item:hover .mosaic-item-description-copy-link, .no-touch.opacity .mosaic-item:focus .mosaic-item-description-copy-link {
   text-decoration: underline;
 }
@@ -13900,16 +13918,16 @@ input[type=checkbox].checkbox + label.checkbox-label {
 /**
  Brand heading
 **/
-/* line 185, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 187, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-overlay-info-head {
   position: relative;
-  font-size: 1.6em;
+  font-size: 1.2em;
   line-height: 1em;
   text-align: center;
   text-transform: uppercase;
   display: block;
   margin-top: -1.4em;
-  width: 6.3em;
+  width: 5.3em;
   margin-left: auto;
   margin-right: auto;
 }
@@ -13917,43 +13935,32 @@ input[type=checkbox].checkbox + label.checkbox-label {
 /**
  Category icon
 **/
-/* line 202, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 204, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-overlay-info-icon-item {
   position: relative;
   display: block;
   width: 6.7em;
-  margin: 0.4em auto;
+  margin: 0.9em auto;
 }
 
 /**
   Locations
 **/
-/* line 213, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 215, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-overlay-info-desciption {
   position: relative;
   display: block;
-  width: 7.6em;
+  width: 8.2em;
   margin: 1em auto;
-  font-size: 1.1em;
+  margin-top: 1.75em;
+  font-size: 1em;
   line-height: 1.1em;
-}
-@media (min-width: 768px) {
-  /* line 213, ../../assets/scss/site/modules/_mosaic-item.scss */
-  .mosaic-item-overlay-info-desciption {
-    margin: 0 auto;
-  }
-}
-@media (min-width: 1200px) {
-  /* line 213, ../../assets/scss/site/modules/_mosaic-item.scss */
-  .mosaic-item-overlay-info-desciption {
-    margin: 1em auto;
-  }
 }
 
 /**
  Other categories
 **/
-/* line 233, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 231, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-overlay-info-categories {
   width: 100%;
   position: absolute;
@@ -13966,26 +13973,26 @@ input[type=checkbox].checkbox + label.checkbox-label {
   display: block;
 }
 @media (min-width: 768px) {
-  /* line 233, ../../assets/scss/site/modules/_mosaic-item.scss */
+  /* line 231, ../../assets/scss/site/modules/_mosaic-item.scss */
   .mosaic-item-overlay-info-categories {
     padding: 0 1.4em 0 1.4em;
   }
 }
 @media (min-width: 1200px) {
-  /* line 233, ../../assets/scss/site/modules/_mosaic-item.scss */
+  /* line 231, ../../assets/scss/site/modules/_mosaic-item.scss */
   .mosaic-item-overlay-info-categories {
     padding: 1.4em 1.4em 3% 1.4em;
   }
 }
 
-/* line 256, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 254, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-overlay-share {
   background-color: #036c86;
   font-size: 0.9em;
   line-height: 1.5em;
 }
 
-/* line 262, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 260, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-overlay-share-container {
   position: absolute;
   display: block;
@@ -13996,7 +14003,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
   width: 80%;
 }
 
-/* line 273, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 271, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-overlay-share-copy {
   text-align: center;
   display: block;
@@ -14008,42 +14015,42 @@ input[type=checkbox].checkbox + label.checkbox-label {
   font-family: "ProximaNova Bold", Helvetica, Arial, sans-serif;
 }
 @media (min-width: 768px) {
-  /* line 273, ../../assets/scss/site/modules/_mosaic-item.scss */
+  /* line 271, ../../assets/scss/site/modules/_mosaic-item.scss */
   .mosaic-item-overlay-share-copy {
     line-height: 1.2em;
     font-family: "ProximaNova Regular", Helvetica, Arial, sans-serif;
   }
 }
 @media (min-width: 1200px) {
-  /* line 273, ../../assets/scss/site/modules/_mosaic-item.scss */
+  /* line 271, ../../assets/scss/site/modules/_mosaic-item.scss */
   .mosaic-item-overlay-share-copy {
     line-height: 1.5em;
     font-family: "ProximaNova Bold", Helvetica, Arial, sans-serif;
   }
 }
 @media (min-width: 768px) {
-  /* line 291, ../../assets/scss/site/modules/_mosaic-item.scss */
+  /* line 289, ../../assets/scss/site/modules/_mosaic-item.scss */
   .mosaic-item-overlay-share-copy strong {
     line-height: 1.2em;
     font-family: "ProximaNova Regular", Helvetica, Arial, sans-serif;
   }
 }
 @media (min-width: 1200px) {
-  /* line 291, ../../assets/scss/site/modules/_mosaic-item.scss */
+  /* line 289, ../../assets/scss/site/modules/_mosaic-item.scss */
   .mosaic-item-overlay-share-copy strong {
     line-height: 1.5em;
     font-family: "ProximaNova Bold", Helvetica, Arial, sans-serif;
   }
 }
 
-/* line 306, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 304, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-overlay-info {
-  background-color: #393939;
+  background-color: #181818;
   text-align: center;
   opacity: 0;
 }
 
-/* line 312, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 310, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-overlay-info-icon {
   width: 175px;
   height: 117px;
@@ -14058,22 +14065,22 @@ input[type=checkbox].checkbox + label.checkbox-label {
   margin-left: -87px;
 }
 
-/* line 330, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 328, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-register {
   width: 100%;
   height: 100%;
   background-color: white;
 }
-/* line 335, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 333, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-register img {
   opacity: 0;
 }
-/* line 339, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 337, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-register .mosaic-item-register-inner {
   border: 1px #bbbbbb solid;
 }
 
-/* line 343, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 341, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-register-content {
   position: absolute;
   top: 50%;
@@ -14086,17 +14093,17 @@ input[type=checkbox].checkbox + label.checkbox-label {
   margin-top: -7.5em;
   text-align: center;
 }
-/* line 355, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 353, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-register-content .faw-register-teaser-subline {
   color: black;
   font-size: 0.8em;
 }
-/* line 360, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 358, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-register-content p {
   margin-top: 0.5em;
 }
 
-/* line 365, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 363, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-description-categories {
   position: absolute;
   top: 0;
@@ -14105,51 +14112,56 @@ input[type=checkbox].checkbox + label.checkbox-label {
   font-size: 15px;
 }
 @media (min-width: 768px) {
-  /* line 365, ../../assets/scss/site/modules/_mosaic-item.scss */
+  /* line 363, ../../assets/scss/site/modules/_mosaic-item.scss */
   .mosaic-item-description-categories {
     display: block;
   }
 }
 
-/* line 377, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 375, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-location .mosaic-item-description {
-  padding-left: 2.2em !important;
+  padding-left: 1.5em !important;
   z-index: 2;
+  font-size: 1.125em;
+  margin: 9px 9px 2px 8px;
 }
 /* line 382, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-location .mosaic-item-location-icon {
   position: absolute;
-  left: 2em;
-  bottom: 3em;
+  left: 1em;
+  bottom: 2em;
+  z-index: 9;
 }
 
 /*-----------------------grid changer-------------------------*/
 /*
  List view
 */
-/* line 397, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 399, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list {
   /*
   List view hide overlay
 */
 }
-/* line 403, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 405, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list:hover .mosaic-item-overlay, .mosaic-item-list:focus .mosaic-item-overlay {
   display: none;
 }
 
-/* line 412, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 414, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list {
   text-align: left;
   border-bottom: 1px #ebebeb solid;
   min-height: 8em;
   text-decoration: none;
+  padding-top: 1.875em;
+  overflow: visible;
 }
-/* line 420, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 423, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list:hover, .mosaic-item-list:focus {
   text-decoration: none;
 }
-/* line 424, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 427, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list .mosaic-item-description {
   top: 0;
   bottom: 0;
@@ -14157,20 +14169,21 @@ input[type=checkbox].checkbox + label.checkbox-label {
   margin-top: -6.25em;
   margin-left: 7em;
   margin-bottom: 0;
-  padding-bottom: 0;
+  padding-bottom: 0 !important;
   display: block;
+  background: none;
 }
-/* line 436, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 441, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list .mosaic-item-description-sub {
   color: #393939;
 }
-/* line 440, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 445, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list .mosaic-item-description-head {
   font-size: 2em;
   line-height: 1em;
   color: #393939;
 }
-/* line 446, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 451, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list .mosaic-item-description-copy {
   display: none !important;
   text-align: left;
@@ -14178,17 +14191,17 @@ input[type=checkbox].checkbox + label.checkbox-label {
   margin-top: 1em;
 }
 @media (min-width: 768px) {
-  /* line 446, ../../assets/scss/site/modules/_mosaic-item.scss */
+  /* line 451, ../../assets/scss/site/modules/_mosaic-item.scss */
   .mosaic-item-list .mosaic-item-description-copy {
     display: block !important;
   }
 }
-/* line 457, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 462, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list p {
   color: #393939;
   margin-left: 100px;
 }
-/* line 462, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 467, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list .mosaic-item-image {
   width: 100px;
   /* For Safari 3.1 to 6.0 */
@@ -14202,52 +14215,54 @@ input[type=checkbox].checkbox + label.checkbox-label {
   transition-timing-function: ease-out;
   transition-delay: 0s;
 }
-/* line 467, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 472, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list:hover {
   background-color: #ebebeb;
 }
-/* line 471, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 476, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list .mosaic-item-description-share {
   color: #393939;
   right: 0em;
   top: 0em;
 }
-/* line 477, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 482, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list .mosaic-item-description-share-dark {
   display: none;
 }
 @media (min-width: 768px) {
-  /* line 477, ../../assets/scss/site/modules/_mosaic-item.scss */
+  /* line 482, ../../assets/scss/site/modules/_mosaic-item.scss */
   .mosaic-item-list .mosaic-item-description-share-dark {
     display: block;
   }
 }
-/* line 485, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 490, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list .mosaic-item-description-share-white {
   display: none;
 }
 
-/* line 489, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 494, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid {
   text-align: center;
   border-bottom: 0px #ebebeb solid;
   margin-left: 0;
   margin-right: 0;
 }
-/* line 496, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 501, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid .mosaic-item-description {
-  top: none;
+  /*top: none;
   bottom: 0;
   position: absolute;
   margin-top: 0;
   margin-bottom: 1em;
-  padding-bottom: 1em;
+  padding-bottom: 1em;*/
+  padding-top: 22px !important;
+  padding-bottom: 14px !important;
 }
-/* line 505, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 512, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid .mosaic-item-description-copy {
   display: none !important;
 }
-/* line 509, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 516, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid .mosaic-item-image {
   width: 100%;
   /* For Safari 3.1 to 6.0 */
@@ -14261,61 +14276,63 @@ input[type=checkbox].checkbox + label.checkbox-label {
   transition-timing-function: ease-out;
   transition-delay: 0s;
 }
-/* line 514, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 521, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid .mosaic-item-description-head {
-  font-size: 1.5em;
-  line-height: 1em;
+  /*font-size: 1.5em;
+  line-height: 1em;*/
 }
-/* line 519, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 526, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid p {
   color: white;
   margin-left: 0;
 }
-/* line 524, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 531, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid .mosaic-item-overlay {
   display: block;
 }
-/* line 528, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 535, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid:hover {
   background-color: white;
 }
-/* line 532, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 539, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid .mosaic-item-description-share {
   color: white;
   top: none;
-  right: 0.4em;
+  right: 0.1em;
+  right: 3px\0;
   bottom: 0.4em;
 }
-/* line 539, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 547, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid .mosaic-item-description-share-dark {
   display: none;
 }
-/* line 543, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 551, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid .mosaic-item-description-share-white {
   display: block;
 }
 
-/* line 553, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 561, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item.mosaic-item-grid .mosaic-item-overlay {
   display: none\0 !important;
 }
 
-/* line 558, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 566, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item:hover .mosaic-item-overlay {
   display: block;
 }
 
-/* line 565, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 573, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item.mosaic-item-grid:hover .mosaic-item-overlay {
   display: block !important;
 }
 
-/* line 571, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 579, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item.mosaic-item-list:hover .mosaic-item-overlay, .mosaic-item.mosaic-item-list:focus .mosaic-item-overlay {
   display: none !important;
+  opacity: 0 !important;
 }
 
-/* line 577, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 586, ../../assets/scss/site/modules/_mosaic-item.scss */
 .touch.opacity .mosaic-item-overlay {
   display: none;
 }
@@ -14382,34 +14399,40 @@ input[type=checkbox].checkbox + label.checkbox-label {
 /* line 3, ../../assets/scss/site/modules/_explore.scss */
 .explore-hero .explore-h3 {
   max-width: 780px;
-  font-size: 2em;
+  font-size: 1.5em;
   display: inline-block;
-  line-height: 1.4em;
+  line-height: 1.1em;
 }
-/* line 10, ../../assets/scss/site/modules/_explore.scss */
+@media (min-width: 768px) {
+  /* line 3, ../../assets/scss/site/modules/_explore.scss */
+  .explore-hero .explore-h3 {
+    font-size: 1.9em;
+  }
+}
+/* line 14, ../../assets/scss/site/modules/_explore.scss */
 .explore-hero p {
   max-width: inherit;
 }
 
-/* line 15, ../../assets/scss/site/modules/_explore.scss */
+/* line 19, ../../assets/scss/site/modules/_explore.scss */
 .faw-explore-teaser {
   text-align: center;
   position: relative;
   overflow: hidden;
 }
 
-/* line 23, ../../assets/scss/site/modules/_explore.scss */
+/* line 27, ../../assets/scss/site/modules/_explore.scss */
 .faw-explore-teaser-inner {
   position: relative;
 }
 
-/* line 27, ../../assets/scss/site/modules/_explore.scss */
+/* line 31, ../../assets/scss/site/modules/_explore.scss */
 .fawexploremosaic {
   margin-top: 4em;
   margin-bottom: 2em;
   text-align: center;
 }
-/* line 32, ../../assets/scss/site/modules/_explore.scss */
+/* line 36, ../../assets/scss/site/modules/_explore.scss */
 .fawexploremosaic .fawexploremosaictext {
   font-size: 1.2em;
   text-align: center;
@@ -14418,7 +14441,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
   display: inline-block;
 }
 
-/* line 41, ../../assets/scss/site/modules/_explore.scss */
+/* line 45, ../../assets/scss/site/modules/_explore.scss */
 .faw-explore-teaser .responsive-image img {
   max-width: none;
 }
@@ -14458,21 +14481,30 @@ input[type=checkbox].checkbox + label.checkbox-label {
 }
 
 /* line 31, ../../assets/scss/site/modules/_mosaicgridchanger.scss */
-.mosaicgridchanger-button-active {
+.mosaicgridchanger-button:hover {
   background-color: #393939;
 }
 /* line 33, ../../assets/scss/site/modules/_mosaicgridchanger.scss */
-.mosaicgridchanger-button-active span {
+.mosaicgridchanger-button:hover span {
   color: white;
 }
 
 /* line 38, ../../assets/scss/site/modules/_mosaicgridchanger.scss */
+.mosaicgridchanger-button-active {
+  background-color: #393939;
+}
+/* line 40, ../../assets/scss/site/modules/_mosaicgridchanger.scss */
+.mosaicgridchanger-button-active span {
+  color: white;
+}
+
+/* line 45, ../../assets/scss/site/modules/_mosaicgridchanger.scss */
 .mosaicgridchanger-list-button {
   margin-left: -0.4em;
   margin-right: 0;
 }
 @media (min-width: 768px) {
-  /* line 38, ../../assets/scss/site/modules/_mosaicgridchanger.scss */
+  /* line 45, ../../assets/scss/site/modules/_mosaicgridchanger.scss */
   .mosaicgridchanger-list-button {
     margin-right: 1em;
   }
@@ -14502,17 +14534,28 @@ input[type=checkbox].checkbox + label.checkbox-label {
   padding-bottom: 0.6em;
   margin: 0.2em;
   font-size: 0.9em;
+  border: 1px solid #040000;
 }
-/* line 23, ../../assets/scss/site/modules/_foodandwinesearchtagcloud.scss */
+/* line 24, ../../assets/scss/site/modules/_foodandwinesearchtagcloud.scss */
 .faw-search-tag-cloud ul li a {
   text-decoration: none;
   color: #FFF;
 }
 
-/* line 31, ../../assets/scss/site/modules/_foodandwinesearchtagcloud.scss */
+/* line 32, ../../assets/scss/site/modules/_foodandwinesearchtagcloud.scss */
 .faw-search-tag-cloud-headline {
   font-size: 1.2em;
   margin-bottom: 0.4em;
+}
+
+/* line 37, ../../assets/scss/site/modules/_foodandwinesearchtagcloud.scss */
+.faw-search-tag-cloud ul li:hover {
+  background-color: #fff;
+  color: #040000;
+}
+/* line 41, ../../assets/scss/site/modules/_foodandwinesearchtagcloud.scss */
+.faw-search-tag-cloud ul li:hover a {
+  color: #040000;
 }
 
 /* line 1, ../../assets/scss/site/modules/_foodandwinerestaurantslist.scss */
@@ -14618,5 +14661,11 @@ input[type=checkbox].checkbox + label.checkbox-label {
 /* line 5, ../../assets/scss/site/modules/_selectstatelabel.scss */
 .select-state-label-explore {
   color: black;
-  font-size: 1.9em;
+  font-size: 1.5em;
+}
+@media (min-width: 768px) {
+  /* line 5, ../../assets/scss/site/modules/_selectstatelabel.scss */
+  .select-state-label-explore {
+    font-size: 1.9em;
+  }
 }

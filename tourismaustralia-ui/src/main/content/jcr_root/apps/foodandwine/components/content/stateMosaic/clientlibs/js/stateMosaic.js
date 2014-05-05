@@ -2,6 +2,7 @@ $(document).ready(function() {
 	
 	$('.stateMosaic').each(function() {
 		var currentXhr;
+		var count=0;
 		$this = $(this);
 		$this.find(".btn-secondary").hide();
 		$this.find(".mosaicgridchanger").hide();
@@ -23,6 +24,7 @@ $(document).ready(function() {
 		});
 		
 		$('.category-input-small').on('change', function(e) {
+			count=0;
 			$this.find(".mosaic").empty();
 			$this.find(".btn-secondary").hide();
 			$this.find(".mosaicgridchanger").hide();
@@ -45,13 +47,14 @@ $(document).ready(function() {
 					pageTemplate : pageTemplate
 				},
 				success : function(msg) {
+					count+=msg.length;
 					var text = msg.length;
 					if (msg.length === 0) {
 						$this.find(".mosaic").append("<br/><h4 class='faw-article-healdine'>"+messageText+"</h4>");
 						$(".mosaicgridchanger").hide();
 					}
 					if(msg.length!=0) {
-						if (msg[0].totalResults > 10) {
+						if (msg[0].totalResults > count) {
 							$this.find(".btn-secondary").show();
 						} else {
 							$this.find(".btn-secondary").hide();
@@ -115,6 +118,7 @@ $(document).ready(function() {
 		});
 		
 		$(document).on("click", '.category-input ', function() {
+			count=0;
 			$this.find(".mosaic").empty();
 			$this.find(".btn-secondary").hide();
 			$this.find(".mosaicgridchanger").hide();
@@ -147,6 +151,7 @@ $(document).ready(function() {
 
 				},
 				success : function(msg) {
+					count+=msg.length;
 					var text = msg.length;
 					$(".mosaicgridchanger").show();
 					if (msg.length === 0){
@@ -154,7 +159,7 @@ $(document).ready(function() {
 						$(".mosaicgridchanger").hide();
 					}
 					if(msg.length!=0){
-						if (msg[0].totalResults > 10)
+						if (msg[0].totalResults > count)
 							$this.find(".btn-secondary").show();
 						else
 							$this.find(".btn-secondary").hide();
@@ -219,6 +224,7 @@ $(document).ready(function() {
 		if(currentXhr){
 			currentXhr.abort();
 		}
+		count=0;
 		currentXhr=$.ajax({
 			type : "GET",
 			url : resourcePath,
@@ -231,6 +237,7 @@ $(document).ready(function() {
 
 			},
 			success : function(msg) {
+				count+=msg.length;
 				$(".mosaicgridchanger").show();
 				var text = msg.length;
 				if (msg.length === 0){
@@ -239,7 +246,7 @@ $(document).ready(function() {
 				}
 				
 				if(msg.length!=0){
-					if (msg[0].totalResults > 10){
+					if (msg[0].totalResults > count){
 						$this.find(".btn-secondary").show();
 						
 					}
@@ -308,6 +315,7 @@ $(document).ready(function() {
 			if(currentXhr){
 				currentXhr.abort();
 			}
+			$(".btn-secondary").hide();
 			currentXhr=$.ajax({
 				type : "GET",
 				url : resourcePath,
@@ -315,12 +323,14 @@ $(document).ready(function() {
 				data : {
 					stateTag : stateTag,
 					catogoryArray : catogoryArray,
-					flag : flag
+					start : count,
 				},
 				success : function(msg) {
+					count+=msg.length;
 					$(".mosaicgridchanger").show();
-					if (msg[0].totalResults <= 10)
-						$(".btn-secondary").hide();
+					if (msg[0].totalResults > count){
+						$(".btn-secondary").show();
+					}
 					var data = JSON.stringify(msg);
 					data = data.replace("[", "");
 					data = data.replace("]", "");

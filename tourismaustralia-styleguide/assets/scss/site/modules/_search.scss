@@ -94,16 +94,7 @@
 
   @include breakpoint(md){
     vertical-align: bottom;
-    padding: 0 1em 1em;
-  }
-
-  .search-tags1 {
-    /* display: table-cell; */
-    /* width: 200px; */
-
-    /* text-align: right; */
-    /* padding: 1em; */
-    /* margin: 0 auto; */
+    padding: 0 pxtoem(20px) pxtoem(20px);
   }
 
   @include breakpoint(lg){
@@ -111,7 +102,7 @@
     width: 210px;
     vertical-align: bottom;
     text-align: right;
-    padding: 0 1em 1em 0;
+    padding: 0 pxtoem(20px) pxtoem(20px) 0;
   }
 }
 
@@ -130,8 +121,8 @@
 
 .search-close {
   position: absolute;
-  top: 1em;
-  right: 1em;
+  top: pxtoem(20px);
+  right: pxtoem(20px);
 }
 
 .search-results-list {

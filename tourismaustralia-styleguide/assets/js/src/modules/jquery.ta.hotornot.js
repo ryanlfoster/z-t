@@ -22,7 +22,8 @@
         hotornot_show_btn: '.hotornot-show-btn',
         hotornot_hide_btn: '.hotornot-hide-btn',
         hotornot_selector1: '.hotornot-selector1-btn',
-        hotornot_selector2: '.hotornot-selector2-btn'
+        hotornot_selector2: '.hotornot-selector2-btn',
+        hotornot_refresh_btn: '.hotornot-refresh-btn'
     };
 
     // The actual plugin constructor
@@ -47,6 +48,11 @@
 
         /////////////////////////////////////////////////////////////////////////////////
         // This will need to be wired together from the CMS to target the generated item
+        $hotornot_refresh_btn = $el.find(scope.options.hotornot_refresh_btn);
+        $hotornot_refresh_btn.click(function(e){
+            alert("Tech to wire together refresh");
+            e.preventDefault();
+        });
         $hotornot_selector1 = $el.find(scope.options.hotornot_selector1);
         $hotornot_selector1.click(function(e){
             $hotornot_items = $el.find(scope.options.hotornot_item);

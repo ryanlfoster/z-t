@@ -5,3 +5,4 @@
 ### .hotornot-close-btn -  each tile has a close button which will add the .is-hidden class to the tile, thus hiding it, you may wish to remove it from the DOM when the transition is complete
 ### hotornot-item-padding theme-aboriginal - this styles the tile with the theme (the background and the text colour)
 ### hotornot-diamond-img-bg theme-aboriginal -  - this styles the diamond background to use the same colour as the theme colour
+### .hotornot-close-btn may be required to be black or white depending on the theme type (imgs/icons/close_button_white_std.png and imgs/icons/close_button_white_rol.png, or imgs/icons/close_button_black_std.png or imgs/icons/close_button_black_rol.png)

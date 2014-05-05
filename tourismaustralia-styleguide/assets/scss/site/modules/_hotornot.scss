@@ -203,7 +203,7 @@
   position: absolute;
   top: 1em;
   width: 100%;
-  border-bottom: 2px solid #000;
+  //border-bottom: 2px solid #000;
   text-align: center;
   @include breakpoint(sm){
     top: pxtoem(20px);

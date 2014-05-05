@@ -42,7 +42,7 @@ public class FAWSearch {
 		if (image != null && image.hasContent()) {
 			imagePath = image.getPath() + ".img.jpg";
 		} else {
-			imagePath = "";
+			imagePath = "/etc/designs/foodandwine/clientlibs/imgs/blank1x1.png";
 		}
 		link = resourceResolver.map(page.getPath()) + ".html";
 		// icon

@@ -34,14 +34,15 @@
 		   }
 		</script>
 <% } %>
-
+<c:set var="articleDescription"
+value="<%=currentPage.getProperties().get("articleDescription", "")%>" />
 <div class="faw-article">
 		<!-- test background for testing, whow the transparent menu respons -->
 	<div class='form-hero'>
 		<div class="faw-hero-home-container">
 			<cq:include path="articleTitle" resourceType="foodandwine/components/content/articleTitle" />
 			<cq:include path="category" resourceType="foodandwine/components/content/category" />
-			<h3 class="faw-article-healdine">${currentPage.description}</h3>
+			<h3 class="faw-article-healdine">${articleDescription}</h3>
 		</div>
 	</div>
 

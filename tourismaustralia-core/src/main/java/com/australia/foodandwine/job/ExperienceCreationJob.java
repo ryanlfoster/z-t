@@ -150,6 +150,7 @@ public class ExperienceCreationJob implements Runnable {
 		ModifiableValueMap contentResourceProperties = contentResource.adaptTo(ModifiableValueMap.class);
 		contentResourceProperties.put(JcrConstants.JCR_DESCRIPTION,
 			formProperties.get("businessDescription", String.class));
+		contentResourceProperties.put("articleDescription",formProperties.get("businessDescription", String.class));
 		resourceResolver.commit();
 
 		Map<String, Object> mapProperties = new HashMap<String, Object>();

@@ -42,6 +42,7 @@ public class StateMosaicServlet extends SlingAllMethodsServlet {
 	private static final Logger LOG = LoggerFactory.getLogger(StateMosaicServlet.class);
 	private static final JsonFactory FACTORY = new JsonFactory();
 	private static final ObjectMapper MAPPER = new ObjectMapper();
+	private static final long LIMIT = 10;
 
 	ImmutableMap<String, String> pathToLocationTag = ImmutableMap.<String, String> builder()
 		.put(PathUtils.FOOD_AND_WINE_EXPLORE_AUSTRALIAN_CAPITAL_TERRITORY, TagUtils.AUSTRALIA_CAPITAL_TERRITORY_TAG)
@@ -69,13 +70,11 @@ public class StateMosaicServlet extends SlingAllMethodsServlet {
 		List<StateMosaiacProperties> propertiesList = new LinkedList<StateMosaiacProperties>();
 		String statePath = request.getParameter("stateTag").toLowerCase().replace(".html", "");
 		String stateTags = pathToLocationTag.get(statePath);
-		String flag = request.getParameter("flag");
 		String pageTemplate = request.getParameter("pageTemplate");
-		long limit = 10, offset = 0, count = 0; // default
-		if (flag.equals("showMore")) {
-			limit += 10;
-			offset += 10;
-			count += 10;
+		String offsetString = request.getParameter("start");
+		long offset = 0;
+		if (StringUtils.isNotEmpty(offsetString)) {
+			offset = Long.parseLong(offsetString);
 		}
 		String[] categoryTags = request.getParameterValues("catogoryArray");
 		TagManager tagManager = request.getResourceResolver().adaptTo(TagManager.class);
@@ -113,9 +112,9 @@ public class StateMosaicServlet extends SlingAllMethodsServlet {
 				+ "or [cq:template]  LIKE '%/apps/foodandwine/templates/twitterpage%' or [cq:template]  LIKE '%/apps/foodandwine/templates/instagrampage%') order by [addToShortlist] DESC";
 			Query query = queryManager.createQuery(queryString, Query.JCR_SQL2);
 			QueryResult result1 = query.execute();
-			long totalResults = result1.getRows().getSize() - count;
+			long totalResults = result1.getRows().getSize();
 			query.setOffset(offset);
-			query.setLimit(limit);
+			query.setLimit(LIMIT);
 			QueryResult result = query.execute();
 			RowIterator rowIterator = result.getRows();
 

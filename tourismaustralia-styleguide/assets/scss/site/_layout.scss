@@ -671,9 +671,8 @@ $footerBackgroundColour: #0a334c;
 }
 
 #main-header {
-	position: relative;
-  z-index: 5;
-	//padding: pxtoem(1px) 0;
+    position: relative;
+    z-index: 500;
 }
 
 #main-content {

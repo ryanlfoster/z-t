@@ -139,7 +139,7 @@ public class StateMosaicServlet extends SlingAllMethodsServlet {
 				List<Tag> categoryTagList = TagUtils.getFoodAndWineCategoryTags(tagManager, tagsArray);
 				for (Tag tag : categoryTagList) {
 					if (tag != null) {
-						if (!categoryTagName.equals("")) {
+						if (StringUtils.isNotEmpty(categoryTagName)) {
 							categoryTagName += ", ";
 						}
 						if (!categoryTagName.contains(tag.getTitle())) {
@@ -153,8 +153,10 @@ public class StateMosaicServlet extends SlingAllMethodsServlet {
 					}
 				}
 				Tag cityTag = TagUtils.getCityTag(tagManager, tagsArray);
-				if (cityTag != null) {
-					cityTagName = cityTag.getTitle().toString() + ",\n" + stateTitle;
+				if (cityTag != null && StringUtils.isNotEmpty(cityTag.getTitle())) {
+					cityTagName = cityTag.getTitle() + ",\n" + stateTitle;
+				} else {
+					cityTagName = stateTitle;
 				}
 
 				String templateName = articlePage.getProperties().get("cq:template", "");

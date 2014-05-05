@@ -12890,49 +12890,62 @@ input[type=checkbox].checkbox + label.checkbox-label {
   position: absolute;
   bottom: 10px;
   left: 0;
+  background: none;
 }
 @media (min-width: 817px) {
   /* line 191, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
   .faw-places-theme .owl-replaced-pagination {
-    bottom: 60px;
+    bottom: 0px;
+    padding-top: 0em;
+    height: 12.375em;
+    background: url(../imgs/pages/home/bg_gradient_carousel.png) repeat-x;
   }
 }
-/* line 204, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
+@media (min-width: 1200px) {
+  /* line 191, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
+  .faw-places-theme .owl-replaced-pagination {
+    bottom: 0px;
+    padding-top: 3.75em;
+    height: 18.625em;
+    background: url(../imgs/pages/home/bg_gradient_carousel.png) repeat-x;
+  }
+}
+/* line 215, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
 .faw-places-theme .owl-replaced-pagination .icon-map-white:hover {
   background-color: #cfcfcf;
   background-color: rgba(255, 255, 255, 0.4);
   border-color: #fff;
 }
-/* line 211, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
+/* line 222, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
 .faw-places-theme .owl-replaced-page {
   display: inline-block;
   cursor: pointer;
 }
-/* line 215, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
+/* line 226, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
 .faw-places-theme .owl-replaced-page.active {
   cursor: default;
 }
-/* line 217, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
+/* line 228, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
 .faw-places-theme .owl-replaced-page.active .icon-map {
   background-color: #cfcfcf;
   background-color: rgba(255, 255, 255, 0.4);
 }
-/* line 223, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
+/* line 234, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
 .faw-places-theme .owl-replaced-page .icon-hidden {
   display: none;
 }
-/* line 230, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
+/* line 241, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
 .faw-places-theme .icon-map-hidden .icon-map {
   width: 10px;
   height: 10px;
   background-image: none;
   box-shadow: 0 0 2px 0 #000;
 }
-/* line 236, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
+/* line 247, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
 .faw-places-theme .icon-map-hidden .icon-map span {
   display: none;
 }
-/* line 241, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
+/* line 252, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
 .faw-places-theme .icon-map-hidden.active .icon-map {
   background-color: rgba(0, 0, 0, 0.1);
 }
@@ -13486,7 +13499,9 @@ input[type=checkbox].checkbox + label.checkbox-label {
 /* line 1, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
 .faw-register-teaser {
   text-align: center;
-  background: url(../imgs/pages/home/bg_register_teaser.png) repeat-x;
+  background: none;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.8);
   position: relative;
   left: 0;
   bottom: 0;
@@ -13494,11 +13509,17 @@ input[type=checkbox].checkbox + label.checkbox-label {
   padding: 1em;
   padding-top: 1.5em;
 }
-/* line 11, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
+@media (min-width: 768px) {
+  /* line 1, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
+  .faw-register-teaser {
+    background: url(../imgs/pages/home/bg_register_teaser.png) repeat-x;
+  }
+}
+/* line 16, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
 .faw-register-teaser .is-desktop {
   display: none;
 }
-/* line 15, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
+/* line 20, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
 .faw-register-teaser h5 {
   font-family: "ProximaNova Regular", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
@@ -13509,28 +13530,28 @@ input[type=checkbox].checkbox + label.checkbox-label {
   .faw-register-teaser {
     position: absolute;
   }
-  /* line 22, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
+  /* line 27, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
   .faw-register-teaser h5 {
     font-family: "TAheadline", Helvetica, Arial, sans-serif;
     letter-spacing: .015em;
     font-size: 1.5em;
   }
-  /* line 29, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
+  /* line 34, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
   .faw-register-teaser .is-mobile {
     display: none;
   }
-  /* line 32, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
+  /* line 37, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
   .faw-register-teaser .is-desktop {
     display: inline-block;
   }
 }
-/* line 37, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
+/* line 42, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
 .faw-register-teaser .headerlockup-type-sml1 {
   padding: 0;
   margin: 0;
   color: white;
 }
-/* line 43, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
+/* line 48, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
 .faw-register-teaser .headerlockup-hr {
   display: none;
   border-top: 1px solid white !important;
@@ -13538,12 +13559,12 @@ input[type=checkbox].checkbox + label.checkbox-label {
   margin-bottom: 1.9em;
 }
 @media (min-width: 768px) {
-  /* line 43, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
+  /* line 48, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
   .faw-register-teaser .headerlockup-hr {
     display: block;
   }
 }
-/* line 53, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
+/* line 58, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
 .faw-register-teaser .headerlockup-hr-mobile {
   border-top: 1px solid white !important;
   margin-top: 1.5em;
@@ -13551,13 +13572,13 @@ input[type=checkbox].checkbox + label.checkbox-label {
   display: block;
 }
 @media (min-width: 768px) {
-  /* line 53, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
+  /* line 58, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
   .faw-register-teaser .headerlockup-hr-mobile {
     display: none;
   }
 }
 
-/* line 64, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
+/* line 69, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
 .faw-register-teaser-subline {
   color: white;
 }
@@ -13602,14 +13623,14 @@ input[type=checkbox].checkbox + label.checkbox-label {
   position: relative;
   z-index: 4;
   padding: 33px 0 8px 0;
-  margin-bottom: -241px;
+  margin-bottom: -246px;
 }
 
 /* line 9, ../../assets/scss/site/modules/_socialcounter.scss */
 .socialcounter-inner {
   position: relative;
-  width: 185px;
-  height: 185px;
+  width: 195px;
+  height: 195px;
   text-align: center;
   padding: 10px;
   margin: 0 auto;
@@ -13620,8 +13641,8 @@ input[type=checkbox].checkbox + label.checkbox-label {
   position: absolute;
   top: 0;
   left: 20px;
-  width: 160px;
-  height: 160px;
+  width: 170px;
+  height: 170px;
   background-color: #007491;
   transform: rotate(45deg);
   -ms-transform: rotate(45deg);
@@ -13633,7 +13654,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
 
 /* line 32, ../../assets/scss/site/modules/_socialcounter.scss */
 .socialcounter-content {
-  width: 180px;
+  width: 190px;
   text-align: center;
   position: relative;
   z-index: 2;
@@ -13663,7 +13684,6 @@ input[type=checkbox].checkbox + label.checkbox-label {
 /* line 61, ../../assets/scss/site/modules/_socialcounter.scss */
 .socialcounter-link strong {
   font-weight: normal;
-  font-size: .7em;
   font-family: "ProximaNova Regular", Helvetica, Arial, sans-serif;
 }
 
@@ -14398,21 +14418,22 @@ input[type=checkbox].checkbox + label.checkbox-label {
 }
 
 /* line 3, ../../assets/scss/site/modules/_explore.scss */
-.explore-hero .explore-h3 {
+.explore-hero p {
+  max-width: inherit;
+}
+
+/* line 8, ../../assets/scss/site/modules/_explore.scss */
+.explore-h3 {
   max-width: 780px;
   font-size: 1.5em;
   display: inline-block;
   line-height: 1.1em;
 }
 @media (min-width: 768px) {
-  /* line 3, ../../assets/scss/site/modules/_explore.scss */
-  .explore-hero .explore-h3 {
+  /* line 8, ../../assets/scss/site/modules/_explore.scss */
+  .explore-h3 {
     font-size: 1.9em;
   }
-}
-/* line 14, ../../assets/scss/site/modules/_explore.scss */
-.explore-hero p {
-  max-width: inherit;
 }
 
 /* line 19, ../../assets/scss/site/modules/_explore.scss */

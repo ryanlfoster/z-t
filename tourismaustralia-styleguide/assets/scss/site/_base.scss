@@ -25,6 +25,7 @@ body {
   // IE8 Better Text
   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=hIEfix.png,sizingMethod=crop);
   zoom: 1;
+  height: auto !important;
 }
 
 h1, h2, h3, h4, h5  {

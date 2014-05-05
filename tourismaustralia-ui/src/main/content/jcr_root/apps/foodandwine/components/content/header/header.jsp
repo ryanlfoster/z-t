@@ -9,14 +9,13 @@
 <div class="nav-bar-panel-container">
     <div class="nav-bar-panel-content">
         <form class="nav-search-form" method="get" action="${Header.searchPath}">
-            <fieldset class="nav-search-fieldset">
-                <label class="nav-search-label" for="nav-search-field">What would you like to explore?</label>
-                <input class="nav-search-text" id="nav-search-field" type="text" name="q" value="" placeholder="What would you like to explore in Australia?">
-                <button class="nav-search-button" type="submit">
+           <fieldset class="nav-search-fieldset">
+                <label class="nav-search-label" for="nav-search-field">What would you like to explore in Restaurant Australia?</label>
+                <input class="nav-search-text" id="nav-search-field" type="text" name="q" value="" placeholder="What would you like to explore in Restaurant Australia?">
+                <button class="biutton nav-search-button" type="submit">
                 </button>
-            </fieldset>
+            </fieldset>        
         </form>
-
         <a tabindex="-1" class="nav-bar-panel-close" href="#nav-bar-top"><span class="icon icon-16 icon-close" aria-hidden="true"></span></a>
     </div>
 </div>

@@ -46,7 +46,7 @@
 					<option value="ta:food-and-wine/category/restaurant">Restaurants</option>
 					<option value="ta:food-and-wine/category/wine">Wine</option>
 					<option value="ta:food-and-wine/category/produce">Produce</option>
-					<option value="ta:food-and-wine/category/events">Festivals</option>
+					<option value="ta:food-and-wine/category/events">Events</option>
 					<option value="ta:food-and-wine/category/people">People</option>
 					<option value="ta:food-and-wine/category/experiences">Experiences</option>
 					<option value="ta:food-and-wine/category/seafood">Seafood</option>

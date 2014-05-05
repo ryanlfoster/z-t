@@ -133,7 +133,7 @@
             </span>
 
             <span class="category-title">
-                    Festivals
+                    Events
             </span>
         </div>
     </label>
@@ -150,7 +150,7 @@
         <option value="restaurants">Restaurants</option>
         <option value="wine">Wine</option>
         <option value="produce">Produce</option>
-        <option value="events">Festivals</option>
+        <option value="events">Events</option>
         <option value="people">People</option>
         <option value="experiences">Experiences</option>
         <option value="seafood">Seafood</option>

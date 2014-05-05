@@ -300,7 +300,7 @@
 										alt="" /> <img class='category-image-dark'
 										src="/etc/designs/foodandwine/clientlibs/imgs/base/categories/category-icon-events-dark.png"
 										alt="" />
-									</span> <span class="category-title"> Festivals </span> <span
+									</span> <span class="category-title"> Events </span> <span
 										class="category-description"> ${form.eventsDescription }</span>
 								</div>
 							</label>

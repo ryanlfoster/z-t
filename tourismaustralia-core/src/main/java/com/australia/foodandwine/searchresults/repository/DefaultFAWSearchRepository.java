@@ -68,6 +68,10 @@ public class DefaultFAWSearchRepository implements FAWSearchRepository {
 			queryMap.put("1_property.3_value", "foodandwine/components/page/facebookpage");
 			queryMap.put("1_property.4_value", "foodandwine/components/page/twitterpage");
 			propertyCount++;
+			queryMap.put("2_property", JCR_PREFIX + "excludeFromSearch");
+			queryMap.put("2_property.value", "false");
+			queryMap.put("2_property.operation", "exists");
+			propertyCount++;
 
 			String path = PathUtils.FOOD_AND_WINE_ROOT_PATH;
 			queryMap.put(propertyCount + QueryUtils.SEPERATOR + QueryUtils.PATH, path);
@@ -90,7 +94,7 @@ public class DefaultFAWSearchRepository implements FAWSearchRepository {
 
 			if (StringUtils.isNotEmpty(parameters.getPlace())) {
 				QueryUtils.addProperty(queryMap, propertyCount, JCR_PREFIX + "cq:tags", parameters.getPlace() + "%");
-				QueryUtils.setPropertyAsLike(queryMap, propertyCount);
+				QueryUtils.setPropertyAsLike(queryMap, JCR_PREFIX + "cq:tags", propertyCount);
 				propertyCount++;
 			}
 

@@ -21,7 +21,7 @@
   border: 1px solid #00535e;
   background: #FFF;
   text-decoration: none;
-  &:visited, &:link, &:visited, &:active, &:focus  {
+  &:visited, &:link, &:visited, &:active  {
     color: #00535e;
     border: 1px solid #00535e;
     background: #FFF;
@@ -31,6 +31,11 @@
     color: #00535e;
     color: #FFF;
     background: #00535e;
+    text-decoration: none;
+  }
+  &.active {
+    color: #FFF!important;
+    background: #00535e!important;
     text-decoration: none;
   }
 }

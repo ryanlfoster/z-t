@@ -42,6 +42,7 @@ $color-black: #000000;
     padding: 0;
     font-size: 0.8em;
     display: none;
+    white-space: nowrap;
 }
 
 .input-field-checkbox{
@@ -52,6 +53,7 @@ $color-black: #000000;
 
     .input-field-validation-alert{
         margin-top: 0;
+
     }
 }
 

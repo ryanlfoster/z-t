@@ -1496,6 +1496,17 @@
                     ,
                 
             
+                "itinerarydaysample" : {
+                     "data" : {
+                        "title" : "itinerarydaysample",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'itinerarydaysample'}}"
+                }
+                
+                    ,
+                
+            
                 "itineraryday_secondary" : {
                      "data" : {
                         "title" : "itineraryday_secondary",

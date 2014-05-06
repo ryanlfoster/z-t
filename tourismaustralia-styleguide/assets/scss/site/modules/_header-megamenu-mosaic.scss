@@ -11,6 +11,11 @@
     @media (min-width: $screen-sm-min) {
         min-height: 280px;
         padding: 20px;
+
+        .mosaic-item .mosaic-back {
+            padding: 0 2em;
+        }
+
     }
 
     // Desktop...
@@ -51,6 +56,10 @@
 .megamenu-mosaic-item {
     float: left;
     width: 235px;
+
+    .mosaic-column-back .type-destination {
+        font-size: pxtoem(15px);
+    }
 
     @include breakpoint(lg) {
         width: 220px;

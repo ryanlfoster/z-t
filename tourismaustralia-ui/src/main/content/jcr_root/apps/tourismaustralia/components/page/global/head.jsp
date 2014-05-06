@@ -28,4 +28,19 @@
         <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="${global.favIcon}"/>
     </c:if>
     <title>${global.title}</title>
+
+    <cq:includeClientLib css="ta"/>
+
+    <!--[if lte IE 8]>
+    <cq:includeClientLib css="ta.ie8"/>
+    <![endif]-->
+
+    <!--[if IE]>
+    <cq:includeClientLib css="ta.ie"/>
+    <![endif]-->
+
+    <!--[if lt IE 9]>
+    <cq:includeClientLib js="ta.ie9"/>
+    <![endif]-->
+
 </head>

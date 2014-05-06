@@ -197,28 +197,37 @@
 			</div>
 			
 			<div class="field-container">
-                <div class="description-box description-box-outer" data-isvalid="false">
-                    <h4 class="description-box-headline"><strong>Upload an Image</strong></h4>
+                <div class="description-box description-box-outer">
+                    <h4 class="description-box-headline"><strong>Upload image(s)</strong></h4>
                     <p class="description-box-copy">
                         <em>Jpeg, Gif or PNG - 5mb file limit. Your image should be at least 600 x 600px</em>
                     </p>
-					
+
+                    
 					<div class="image-uploader">
-					    <label class="image-uploader-label" for="imageupload">Upload Image</label>
-					    <div class="image-uploader-container btn-primary btn-small">
-					        <input type="file" id="imageupload" name="imageupload" class="image-uploader-control" accept="image/*">
-					    </div>
-					    <span class="image-uploader-filename">No File</span>
-					</div>
-                    <div class="description-box">
-                        <h4 class="description-box-headline"><strong>Image Caption</strong></h4>
-                        <p class="description-box-copy">
-                            <em>Write a short description about your photo</em>
-                        </p>
-                        <textarea class="description-box-input-field" rows="4" placeholder="..." name="photoDescription" id="photoDescription"></textarea>
-                    </div>
-                </div>
-            </div>
+    					<div class="image-uploader-item">
+        					<label class="image-uploader-label" for="imageupload">Upload Image</label>
+        					<div class="image-uploader-container btn-secondary btn-small">
+            					<input type="file" name="imageupload0" class="image-uploader-control" accept="image/*">
+        					</div>
+        					<span class="image-uploader-remove"><a class="image-uploader-remove-button" href="#">remove</a></span>
+        					<span class="image-uploader-filename">No File</span>
+
+        					<div class="description-box">
+            					<h4 class="description-box-headline"><strong>Image caption</strong></h4>
+            					<p class="description-box-copy">
+                					<em>Write a short description about your photo</em>
+            					</p>
+            					<textarea class="description-box-input-field" name="photoDescription0" rows="4" placeholder="..."></textarea>
+        					</div>
+    					</div>
+
+    				<div class="image-uploader-add-more">
+        				<a class="image-uploader-add-more-button" href="#">Upload More</a>
+    				</div>
+				</div>
+			</div>
+		</div>
 			
 			<div class="field-container">
 				<div class="categories-box">
@@ -291,7 +300,7 @@
 										alt="" /> <img class='category-image-dark'
 										src="/etc/designs/foodandwine/clientlibs/imgs/base/categories/category-icon-events-dark.png"
 										alt="" />
-									</span> <span class="category-title"> Festivals </span> <span
+									</span> <span class="category-title"> Events </span> <span
 										class="category-description"> ${form.eventsDescription }</span>
 								</div>
 							</label>
@@ -345,7 +354,6 @@
 								class="input-field-validation-icon input-field-validation-icon-false categories-box-validation-icon"></span>
 						</p>
 					</div>
-
 				</div>
 			</div>
 
@@ -372,7 +380,7 @@
 					<fieldset class="options">
 						<input id="checkbox" class="checkbox" type="checkbox"> <label
 							for="checkbox" name="demo_lbl_1" class="checkbox-label">I
-							agree to the terms &amp; conditions<sup>*</sup>
+							agree to Tourism Australia's terms &amp; conditions<sup>*</sup>
 						</label>
 						<!-- Checkbox powered by CssCheckbox.com -->
 						<p class="checkbox-description">
@@ -386,8 +394,9 @@
 
 					<span class="input-field-validation-icon"></span>
 					<div class="col-xs-12">
-						<p class="input-field-validation-alert">Please accept the
-							terms and conditions</p>
+				    	<p class="input-field-validation-alert">
+                           Please accept the terms and conditions
+                       	</p>					
 					</div>
 				</div>
 			</div>

@@ -1,0 +1,35 @@
+///*
+// * What you can see:
+// * ---------------------------------------------------------------------------------------------------------------- */
+
+.quote-social-image {
+  position: relative;
+  text-align: center;
+  @include breakpoint(md) {
+    display: table-cell;
+    top: 1em;
+    padding-left: .5em;
+  }
+}
+.quote-content {
+  padding: 0 1em;
+  @include breakpoint(md) {
+    display: table-cell;
+    padding: 0 2em;
+    max-width: 430px;
+  }
+}
+.quote-text {
+  color: #297c9a;
+  font-family: "ProximaNova Semi Bold Italic", Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
+  line-height: 1.4em;
+  padding: 0;
+  margin: 0 0 .3em 0;
+}
+.quote-byline {
+  font-size: pxtoem(14px);
+}
+.quote-hr {
+  margin: 1em;
+}

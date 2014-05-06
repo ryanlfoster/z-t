@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html lang="en-US" class="no-js">
+<head>
+    <meta charset="UTF-8">
+    <meta name="google-translate-customization" content="a0a70fd18b5016fc-a2c8056b2d933ad9-g05e9869b7450c97e-a"></meta>
+    <title>{{title}}</title>
+
+    <!-- Owl Carousel Assets -->
+    <link href="js/vendor/owl-carousel/owl.carousel.css" rel="stylesheet">
+    <link href="js/vendor/owl-carousel/owl.theme.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styleguide.css" />
+    <link rel="stylesheet" href="css/screen.css" />
+
+    <!--[if lte IE 8]>
+    <link href="css/screen-ie8.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <![endif]-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <script src="js/vendor/modernizr-2.7.1.js"></script>
+
+    <script type="application/javascript">
+        // IE console.log disable errors
+        if ( typeof console === "undefined" || typeof console.log === "undefined") {
+            console = {};
+            console.log = function() {
+            };
+        }
+    </script>
+
+    <script type="text/javascript" src="js/vendor/jquery.js"></script>
+
+    <!--
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-iPvGM74PMdaT4Rot4m5VnW5UnPSBnag&sensor=true"></script>
+    -->
+
+    <!--[if lt IE 9]>
+        <script type="text/javascript" src="js/vendor/respond.js"></script>
+    <![endif]-->
+</head>
+<body class="styleguide">
+
+<div class="sg-main">
+
+    <!-- Translation element -->
+    <div class="sg-pattern sg-pattern-element">
+        {{> sg-translator}}
+    </div>
+    <!-- End. Translation element -->
+
+    <div id="patterns">
+        {{> body}}
+    </div>
+</div>
+
+    <script type="text/javascript" src="js/src/init.js"></script>
+    <script type="text/javascript" src="js/vendor/jquery.snippet.js"></script>
+    <script type="text/javascript" src="js/vendor/jquery.swipe.js"></script>
+    
+    <!--module js imports
+    <script src="js/src/helper/dataTags.js"></script>
+    <script src="js/src/helper/stacticMapUrlConverter.js"></script>
+    <script src="js/src/modules/jquery.ta.carousel.js"></script>
+    <script src="js/src/modules/jquery.ta.custommap.js"></script>-->
+
+    <script type="text/javascript" src="js/vendor/owl-carousel/owl.carousel.js"></script>
+    <script src="js/src/modules/jquery.ta.carousel.js"></script>
+    <script src="js/vendor/skrollr.js"></script>
+    <script src="js/vendor/responsive-images/jquery.picturefill.js"></script>
+    <script src="js/vendor/responsive-images/mediamatch.js"></script>
+    <script src="js/src/modules/jquery.ta.flipcard.js"></script>
+    <script src="js/src/modules/jquery.ta.mosaic.js"></script>
+    <script src="js/src/modules/jquery.ta.fullwidthbg.js"></script>
+    <script src="js/src/modules/jquery.ta.parallax.js"></script>
+    <script src="js/src/helper/responsive.image.helper.js"></script>
+
+<script>
+    //Generate code snippets
+    $(".sg-code").snippet("html", { style: "matlab"});
+</script>
+
+</body>
+</html>

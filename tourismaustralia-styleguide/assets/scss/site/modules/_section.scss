@@ -1,0 +1,38 @@
+.section-intro {
+    p {
+        margin: 2em 0;
+    }
+}
+
+.section-buttons {
+
+    padding: 0;
+
+    .section-buttons-desktop {
+        display: none;
+        margin-bottom: -1em;
+
+        .btn-bubble {
+            margin-bottom: 1em;
+        }
+    }
+
+    .section-buttons-mobile {
+        hr {
+            border-color: $colour-horizontal-rule-dark;
+        }
+    }
+
+    // custom break to allow 2 buttons
+    @media (min-width: 560px) {
+        padding: 0.25em 0 1.5em;
+        .section-buttons-mobile {
+            display: none;
+        }
+        .section-buttons-desktop {
+            display: block;
+        }
+    }
+}
+
+

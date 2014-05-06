@@ -1,0 +1,28 @@
+---
+title: Image With Date (bg only in template)
+note: note-image-with-date
+---
+<div class="image-ugc-container">
+
+    <div class="largeimage parallax">
+        <div class="responsive-image largeimage-container" data-picture="" data-alt="" >
+            <div data-src="imgs/placeholders/image_with_date.jpg" data-media="(min-width: 1px)"></div>
+            <div data-src="imgs/placeholders/image_with_date.jpg" data-media="(min-width: 481px)"></div>
+            <div data-src="imgs/placeholders/image_with_date.jpg" data-media="(min-width: 769px)"></div>
+            <div data-src="imgs/placeholders/image_with_date.jpg" data-media="(min-width: 993px)"></div>
+
+            <noscript>
+                <img src='imgs/placeholders/image_with_date.jpg' alt='' />
+            </noscript>
+            <img src='imgs/placeholders/image_with_date.jpg' alt='' />
+        </div>
+        <!--[if (lt IE 9) & (!IEMobile)]>
+            <img src='imgs/placeholders/image_with_date.jpg' alt='' />
+        <![endif]-->
+    </div>
+    <div class="image-ugc-copyright">
+        {{#parseJSON '{"social_mention_bold_text": "Tiat Yen Obi,", "social_mention_regular_text": "Petaling Jaya, Selangor, Twelve Apostles, Port Ca"}'}}
+            {{> socialmention}}
+        {{/parseJSON}}
+    </div>
+</div>

@@ -1,0 +1,156 @@
+
+.icon-colour-white {
+    color: #FFF;
+}
+
+.icon-colour-black {
+    color: #000;
+}
+
+.icon-colour-grey {
+    color: #504d4d;
+}
+
+.icon-logo-withlines-container {
+    position: relative;
+    width: 244px;
+    display: inline-block;
+    text-align: center;
+    @include breakpoint(md) {
+        width: 220px;
+    }
+}
+
+.icon-logo-withlines-hr {
+    width: 36px;
+    border-top: 1px solid #040000;
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 5px;
+    &:last-child {
+        right: 0px;
+    }
+    @include breakpoint(md) {
+        width: 26px;
+    }
+}
+
+.icon-logo-withlines-logo {
+    font-size: 3.8em;
+}
+
+///*
+// * Sprite Based Icons:
+// * ---------------------------------------------------------------------------------------------------------------- */
+.icon {
+    font-weight: normal !important;
+    vertical-align: middle;
+    display: inline-block;
+    background-image: url(../imgs/icon-sprite.png);
+    background-repeat: no-repeat;
+    background-position: 0 0; // top left corner should contain a 48x48 pixel transparent square...
+}
+
+///*
+// * Icon size presets:
+// * ---------------------------------------------------------------------------------------------------------------- */
+.icon-16 {
+    margin: -8px 0; // reduce the line height
+    @include icon-sprite-size(16px);
+}
+
+.icon-32 {
+    margin: -16px 0; // reduce the line height
+    @include icon-sprite-size(32px);
+}
+
+.icon-52 {
+    margin: -26px 0; // reduce the line height
+    @include icon-sprite-size(52px);
+}
+
+///*
+// * Icon positions:
+// * ---------------------------------------------------------------------------------------------------------------- */
+.icon-16 {
+    &.icon-close {
+        background-position: -52px -4px;
+    }
+}
+
+.icon-32 {
+
+    &.icon.circle {
+        padding: 0 36px 36px 0;
+    }
+
+    &.icon-search {
+        background-position: -10px -58px;
+    }
+
+    &.icon-map {
+        background-position: -58px -58px;
+    }
+
+    &.icon-heart {
+        background-position: -104px -58px;
+    }
+
+    &.icon-heart.icon.circle {
+        background-position: -102px -54px;
+    }
+
+    &.icon-home {
+        background-position: -152px -58px;
+    }
+
+    &.icon-close {
+        background-position: -200px -57px;
+    }
+}
+
+///*
+// * Icon positions:
+// * ---------------------------------------------------------------------------------------------------------------- */
+.icon.circle {
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+
+
+.icon-circle {
+    position: relative;
+    display: block;
+    border-radius: 50%;
+    color: #fff;
+    border: pxtoem(1px) solid #fff;
+    min-height: 4.2em;
+    min-width: 4.2em;
+}
+
+//Todo - migrate over to the video scss
+
+.icon-play {
+    position: absolute;
+    top: 50%;
+    margin-top: -0.48em;
+    left: 50%;
+    margin-left: -0.55em;
+    font-size: 0.7em;
+}
+
+///*
+// * Category Icons:
+// * ---------------------------------------------------------------------------------------------------------------- */
+
+@include diamond_standard("nature", $category-colour-nature, #FFF);
+@include diamond_standard("outback", $category-colour-outback, #231f20);
+@include diamond_standard("aboriginal", $category-colour-aboriginal, #FFF);
+@include diamond_standard("food", $category-colour-food, #FFF);
+@include diamond_standard("arts", $category-colour-arts, #FFF);
+@include diamond_standard("islands", $category-colour-islands, #231f20);
+@include diamond_standard("beaches", $category-colour-beaches, #231f20);
+@include diamond_standard("sports", $category-colour-sports, #231f20);
+@include diamond_standard("adventure", $category-colour-adventure, #231f20, 2px);

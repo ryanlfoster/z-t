@@ -25,6 +25,10 @@ public class QueryUtils {
 	public static final String WILDCARD = "*";
 	public static final String RELPATH = ".relPath";
 	public static final String AND = ".and";
+	public static final String OPERATION = ".operation";
+	public static final String LIKE = "like";
+	public static final String ASC = "asc";
+	public static final String UNEQUALS = "unequals";
 
 	public static final void addProperty(Map<String, String> queryMap, int propertyNumber, String property, String value) {
 		queryMap.put(propertyNumber + SEPERATOR + PROPERTY, property);
@@ -32,7 +36,7 @@ public class QueryUtils {
 	}
 
 	public static final void addFullText(Map<String, String> queryMap, int propertyNumber, String text) {
-		queryMap.put(propertyNumber + SEPERATOR + FULLTEXT, text + "~");
+		queryMap.put(propertyNumber + SEPERATOR + FULLTEXT, text + "*~");
 		queryMap.put(propertyNumber + SEPERATOR + FULLTEXT + RELPATH, NameConstants.NN_CONTENT);
 	}
 
@@ -45,5 +49,17 @@ public class QueryUtils {
 			queryMap.put(propertyPrefix + SEPERATOR + valueCount + SEPERATOR + VALUE, tag.getTagID());
 			valueCount++;
 		}
+	}
+
+	public static final void setPropertyAsLike(Map<String, String> queryMap, String property, int propertyNumber) {
+		String propertyPrefix = propertyNumber + SEPERATOR + PROPERTY;
+		queryMap.put(propertyPrefix, property);
+		queryMap.put(propertyPrefix + OPERATION, LIKE);
+	}
+
+	public static void setPropertyAsNot(Map<String, String> queryMap, String property, int propertyNumber) {
+		String propertyPrefix = propertyNumber + SEPERATOR + PROPERTY;
+		queryMap.put(propertyPrefix, property);
+		queryMap.put(propertyPrefix + OPERATION, UNEQUALS);
 	}
 }

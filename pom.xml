@@ -11,13 +11,14 @@
 	<groupId>com.australia</groupId>
 	<artifactId>tourismaustralia</artifactId>
 	<packaging>pom</packaging>
-	<version>1.0.3</version>
+	<version>1.1.0</version>
 	<name>Tourism Australia CQ5 Website</name>
 
 	<modules>
 		<module>tourismaustralia-core</module>
+        <module>tourismaustralia-styleguide</module>
 		<module>tourismaustralia-ui</module>
-	</modules>
+    </modules>
 
 	<repositories>
 		<repository>
@@ -42,7 +43,7 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<maven.junit.usefile>false</maven.junit.usefile>
 		<brightcove-version>2.1.0</brightcove-version>
-		<cq-component-plugin.version>2.3.4</cq-component-plugin.version>
+		<cq-component-plugin.version>2.4.1</cq-component-plugin.version>
 		<hibernate.version>4.3.1.Final</hibernate.version>
 		<jpa.version>2.1.0</jpa.version>
 		<blueprint.version>1.0.2.RELEASE</blueprint.version>
@@ -139,7 +140,7 @@
 				<cq.host>54.206.19.49</cq.host>
 				<cq.port>4502</cq.port>
 				<cq.username>admin</cq.username>
-				<cq.password>admin</cq.password>
+				<cq.password>t7jefaQu</cq.password>
 			</properties>
 		</profile>
 		<profile>

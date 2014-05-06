@@ -1,6 +1,6 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@include file="/apps/foodandwine/components/global.jsp"%>
-<%@ page
-	import="com.australia.foodandwine.components.content.otherExperiences.OtherExperiences"%>
+<%@ page import="com.australia.foodandwine.components.content.otherExperiences.OtherExperiences"%>
 
 <c:set var="otherExperiences"
 	value="<%=new OtherExperiences(slingRequest) %>" />
@@ -40,21 +40,17 @@
 									    </span>
 									    <!-- End Parent view -->
 									
-									
-									
 									    <!-- Overlay view -->
 									    <span class="mosaic-item-overlay mosaic-item-overlay-info">
 									         <span class="mosaic-item-overlay-info-icon">
-									
 									             <span class="mosaic-item-overlay-info-head type-font-feature">${item.title}</span>
-									              <span class="mosaic-item-overlay-info-icon-item">
-									                 <img src="${item.icon}" alt="${item.title}">
+									             <span class="mosaic-item-overlay-info-icon-item">
+									                <img src="${item.icon}" alt="${item.title}">
 									             </span>
 									             <span class="mosaic-item-overlay-info-desciption">
-									                 ${item.city}, ${item.state}
-									                 <br>
-									                 <br>
-									                  <span class="mosaic-item-description-copy-link"><strong>Find out more</strong></span>
+									             	<c:if test="${not empty item.city}">${item.city}, </c:if>${item.state}
+									                <br/><br/>
+									                <span class="mosaic-item-description-copy-link"><strong>Find out more</strong></span>
 									             </span>
 									         </span>
 									          <span class="mosaic-item-overlay-info-categories">

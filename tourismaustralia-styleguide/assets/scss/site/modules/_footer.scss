@@ -1,0 +1,125 @@
+
+// Container
+.footer-container {
+  position: relative;
+  margin: 0 auto;
+  background: $footer_bg;
+}
+.footer {
+  //background-color: #000;
+  max-width: pxtoem(1200px);
+  margin: 0 auto;
+  padding: 0 1em;
+}
+
+.footer-logo {
+  margin: 0 auto;
+  text-align: center;
+  padding: 2.5em 0 2em;
+}
+
+.footer-logo #logo {
+  @include breakpoint(md){
+    margin-bottom: pxtoem(30px);
+  }
+}
+
+.footer-copyright {
+  color: $type-footer-copyright-colour;
+  font-size: pxtoem(14px);
+  text-align: center;
+  margin-top: 60px;
+
+  @include breakpoint(md) {
+    text-align: left;
+    position: relative;
+    left: -80px;
+    bottom: -2px;
+  }
+  @include breakpoint(lg) {
+    text-align: left;
+    position: relative;
+    left: 0px;
+    margin-top: 64px;
+    width: 165px;
+  }
+}
+
+// Generic
+.footer-col {
+  min-width:pxtoem(300px);
+  width: 100%;
+  position: relative;
+  @extend .type-spacing-30;
+  text-align: left;
+  display: inline-block;
+
+  @include breakpoint(sm){
+    text-align: center;
+    li {
+      display: inline-block;
+      margin-right: 1em;
+    }
+  }
+
+  @include breakpoint(lg){
+    //width:pxtoem(300px);
+    text-align: left;
+    li {
+      display: block;
+    }
+    .footer-social-list li {
+      display: inline-block;
+    }
+  }
+
+}
+.footer-heading{
+  margin: 0 0 pxtoem(15px) 0;
+  font-family: "TheSanB5Pla", Helvetica, Arial, sans-serif;
+  font-size: pxtoem(16px);
+  padding: 0;
+  color: #FFF;
+}
+.footer-text-list li {
+  padding: pxtoem(8.8px) 0;
+  color: $type-footer-colour;
+  font-family: $font-family-base;
+  font-size: pxtoem(14px);
+}
+.footer-text-list li a {
+  cursor: pointer;
+  color: $type-footer-colour;
+  text-decoration: none;
+}
+.footer-text-list li a {
+  &:hover, &:focus {
+    color: #FFF;
+    text-decoration: none;
+  }
+}
+
+// Social
+.footer-social {
+  background: #000;
+}
+.footer-social-heading {
+  font-family: "TheSanB5Pla", Helvetica, Arial, sans-serif;
+  font-size: pxtoem(16px);
+  padding: 0;
+  color: #FFF;
+}
+
+.footer-social-list {
+  @extend .l-list-clean;
+  @extend .l-list-inline;
+
+  li{
+      margin: 0;
+  }
+
+  & > li:nth-child(odd) {
+    width: 150px;
+  }
+
+}

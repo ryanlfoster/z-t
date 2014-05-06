@@ -1,0 +1,146 @@
+/**
+* Global variables for entire site / including bootstrap
+*/
+
+//**********************
+// Bootstrap:
+//**********************
+$font-size-base: 16px;
+
+//**********************
+// Breakpoints:
+//**********************
+$screen-xs: 360px;
+$screen-sm: 768px;
+$screen-md: 992px;
+$screen-lg: 1200px;
+
+//**********************
+// Fonts:
+//**********************
+$font-family-base: "ProximaNova Regular", Helvetica, Arial, sans-serif;
+$font-family-base-i: "ProximaNova Regular Italic", Helvetica, Arial, sans-serif;
+$font-family-base-l: "ProximaNova Light", Helvetica, Arial, sans-serif;
+$font-family-base-b: "ProximaNova Bold", Helvetica, Arial, sans-serif;
+$font-family-base-bi: "ProximaNova Bold Italic", Helvetica, Arial, sans-serif;
+//$font-family-base-sbi: "ProximaNova Semi Bold Italic", Helvetica, Arial, sans-serif;
+$font-family-primary: "ProximaNova Regular", Helvetica, Arial, sans-serif;
+$font-family-secondary: "TAheadline", Helvetica, Arial, sans-serif;
+//$font-family-primary: "TheSanB5Pla", Helvetica, Arial, sans-serif;
+$font-family-feature: "Mission Gothic Light Italic", Helvetica, Arial, sans-serif;
+//$font-family-lead: "ProximaNova Semi Bold Italic", Helvetica, Arial, sans-serif;
+$font-family-quote-social: "ProximaNova Semi Bold Italic", Helvetica, Arial, sans-serif;
+$font-family-quote-social-cite: "ProximaNova Regular", Helvetica, Arial, sans-serif;
+$font-family-quote-pull: "ProximaNova Light", Helvetica, Arial, sans-serif;
+$font-family-module-link: "ProximaNova Regular", Helvetica, Arial, sans-serif;
+
+//**********************
+// Font Sizes
+//**********************
+$h1-size: 80px;
+$h2-size: 28px;
+$h3-size: 24px;
+$h4-size: 18px;
+
+
+//**********************
+// Text Colours:
+//**********************
+$body-colour: #2c2c2c;
+$type-heading-colour: #040000;
+$type-category-colour: #6b6155;
+$type-navigation: #fff;
+$type-hover-colour: #005073;
+
+$type-main-heading-colour: #8d896f;
+
+$type-base-black: #231f20;
+$type-footer-colour: #70c3f3;
+$type-footer-copyright-colour: #acc0cd;
+
+$mosaic_social_tile_static_text_color: #231f20;
+
+//**********************
+// Background Colours:
+//**********************
+$footer_bg: #004165;
+$video_large_copy_bg : #f3f2eb;
+$mosaic_social_tile_bg : #297c9a;
+$mosaic_social_tile_static_bg : #f2f1e9;
+
+//**********************
+// Mosaic Colours:
+//**********************
+$mosaic-colour-front-3column: #f3f2eb;
+$mosaic-colour-back-3column: #00a0af;
+
+//**********************
+// HR Colours:
+//**********************
+$categorylinks-hr-colour: #e2e5de;
+
+//**********************
+// Category Colours:
+//**********************
+$category-colour-nature: #557630;
+$category-colour-outback: #ed8500;
+$category-colour-aboriginal: #4a3c31;
+$category-colour-food: #981e32;
+$category-colour-arts: #004165;
+$category-colour-islands: #00a0af;
+$category-colour-beaches: #ffc20e;
+$category-colour-sports: #91ae35;
+$category-colour-adventure: #e1cd00;
+
+//**********************
+// General Colours:
+//**********************
+$favourite-button-colour: #de3831;
+$type-category-colour-primary: #231f20;
+$type-category-colour-secondary: #fff;
+$type-quote-colour: #297c9a;
+
+
+//*********************
+// Block Element Colours:
+//*********************
+$colour-navigation-solid: #15202e;
+$colour-navigation: rgba(21, 32, 46, 0.9);
+$colour-footer: #0a334c;
+$colour-content-section-light: #fff;
+$colour-content-section-dark: #f6f5f0;
+
+$colour-content-block-light: #e5f5f7;
+$colour-horizontal-rule-dark: #005073;
+
+//**********************
+// Nav bar
+//**********************
+$navbar-height: 82px;
+
+//Border radius
+$border-radius-base:             0px;
+$border-radius-large:            0px;
+$border-radius-small:            0px;
+
+
+//Buttons
+$btn-default-color:              #fff;
+$btn-default-bg:                 #66acbd;
+$btn-default-border:             rgba(0,0,0,0);
+
+$btn-primary-color:              #fff;
+$btn-primary-bg:                 #007491;
+$btn-primary-border:             rgba(0,0,0,0);
+
+$btn-success-color:             #fff;
+$btn-success-bg:                #cf4330;
+$btn-success-border:            rgba(0,0,0,0);
+
+$btn-info-color:                 #000000;
+$btn-info-bg:                    #fff;
+$btn-info-border:                #d4d2b9;
+
+
+$padding-base-vertical:          13px;
+$padding-base-horizontal:        25px;

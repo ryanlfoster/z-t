@@ -40,7 +40,7 @@ public class LanguageSiteMapServlet extends SlingAllMethodsServlet implements Op
 	@Override
 	public boolean accepts(SlingHttpServletRequest request) {
 		return serverNameService.getAustraliaComServerName().contains(request.getServerName())
-			&& request.getPathInfo().matches("/[a-z]{2}/sitemap.xml");
+			&& request.getPathInfo().matches("/(([a-z]{2})((-)([a-z]{2}))?)/sitemap.xml");
 	}
 
 }

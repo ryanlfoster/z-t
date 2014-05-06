@@ -1,0 +1,46 @@
+$breadcrumbColour: #363333 !default;
+$breadcrumbAnchorColour: #00535e !default;
+
+.breadcrumb {
+    margin-top: 0.5em;
+    @extend .l-list-inline;
+    padding: 0;
+    text-align: left;
+
+    /*
+    @include breakpoint(sm){
+      text-align: inherit;
+    }
+    */
+
+    color: $breadcrumbColour;
+    font-family: "ProximaNova Regular Italic";
+
+    @include breakpoint(sm) {
+        text-align: center;
+    }
+    @include breakpoint(md) {
+        text-align: left;
+    }
+
+}
+
+.breadcrumb a {
+    color: $breadcrumbAnchorColour;
+    text-decoration: underline;
+}
+
+.breadcrumb > li {
+    padding-left: 0.25em;
+}
+
+.breadcrumb > li:after {
+    content: "/";
+    margin-left: 0.25em;
+}
+
+.breadcrumb > li:first-child:after,
+.breadcrumb > li:last-child:after {
+    content: "";
+    margin-left: 0em;
+}

@@ -1,0 +1,64 @@
+
+.line-through-container {
+  text-align: center;
+  display: table;
+  padding: 0 2em;
+  margin: 0 auto;
+}
+.line-through {
+  display: table-cell;
+  vertical-align: middle;
+}
+.line-through-hr {
+  border-top: 1px solid #4a3c31;
+  display: block;
+  position: relative;
+  width: 16px;
+}
+.line-through-container .line-through-container-biline {
+  font-family: "TAheadline", Helvetica, Arial, sans-serif;
+  letter-spacing: .015em;
+  font-size: 1.75em;
+  color: #4a3c31;
+  display: table-cell;
+  padding: 0 8px;
+}
+
+// May need to revisit this if text is long
+.line-through-line-wrapper {
+  &:before {
+    content: '\2014';
+    margin-right: pxtoem(16px);
+  }
+  &:after {
+    content: '\2014';
+    margin-left: pxtoem(16px);
+  }
+}
+
+.line-through-container.line-categorylink-theme {
+  width: 100%;
+}
+
+// Category Links Colour for biline
+.line-through-container.line-categorylink-theme {
+  position: relative;
+  margin-bottom: 2em;
+}
+.line-categorylink-theme .line-through-container-biline {
+  color: $type-main-heading-colour;
+  padding: 0 1em;
+  background: #FFF;
+  z-index: 2;
+  position: relative;
+  display: inline-block;
+}
+.line-through-categorylink-theme {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 50%;
+  width: 100%;
+  border-bottom: 1px solid $type-main-heading-colour;;
+  z-index: 1;
+}

@@ -14,6 +14,14 @@ public class TagUtils {
 
 	public static final String TA_NAMESPACE = "ta";
 	public static final String TA_PLACE_TAG = TA_NAMESPACE + ":place";
+	public static final String AUSTRALIA_CAPITAL_TERRITORY_TAG = TA_PLACE_TAG + "/australia-capital-territory";
+	public static final String NEW_SOUTH_WALES_TAG = TA_PLACE_TAG + "/new-south-wales";
+	public static final String NORTHERN_TERRITORY_TAG = TA_PLACE_TAG + "/northern-territory";
+	public static final String QUEENSLAND_TAG = TA_PLACE_TAG + "/queensland";
+	public static final String SOUTH_AUSTRALIA_TAG = TA_PLACE_TAG + "/south-australia";
+	public static final String TASMANIA_TAG = TA_PLACE_TAG + "/tasmania";
+	public static final String VICTORIA_TAG = TA_PLACE_TAG + "/victoria";
+	public static final String WESTERN_AUSTRALIA_TAG = TA_PLACE_TAG + "/western-australia";
 	public static final String FOOD_AND_WINE_TAG = TA_NAMESPACE + ":food-and-wine";
 	public static final String FOOD_AND_WINE_CATEGORY = FOOD_AND_WINE_TAG + "/category";
 
@@ -43,6 +51,15 @@ public class TagUtils {
 			}
 		}
 		return tags;
+	}
+
+	public static final Tag getFoodAndWinePrimaryCategory(TagManager tagManager, String[] tagStrings) {
+		for (String tagString : tagStrings) {
+			if (tagString.startsWith(FOOD_AND_WINE_CATEGORY)) {
+				return tagManager.resolve(tagString);
+			}
+		}
+		return null;
 	}
 
 	private static final String getNthTagLevel(String string, int level) {

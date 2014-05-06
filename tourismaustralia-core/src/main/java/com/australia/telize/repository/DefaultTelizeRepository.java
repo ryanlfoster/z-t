@@ -56,6 +56,7 @@ public class DefaultTelizeRepository implements TelizeRepository {
 		if (StringUtils.isEmpty(telizeLocation)) {
 			telizeLocation = DEFAULT_TELIZE_LOCATION;
 		}
+
 		return telizeLocation;
 	}
 

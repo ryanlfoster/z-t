@@ -33,11 +33,13 @@ public final class PathUtils {
 	
 	public static final String DETAILED_MAP_PAGE_NAME = "detailedMap";
 
-	public static final String PRODUCTS_PAGE_LOCALE_REL_PATH = "/products.html";
+	public static final String PRODUCTS_PAGE_LOCALE_REL_PATH = "/atdwsearch.html";
 	public static final String CATEGORY_PARAM = "category";
 	public static final String STATE_PARAM = "state";
+	public static final String REGION_PARAM = "region";
 	public static final String CITY_PARAM = "city";
 	public static final String TERM_PARAM = "term";
+	public static final String PAGE_PARAM = "page";
 
 	public static final String ATDW_SEARCH_LOCALE_REL_PATH = "/atdwsearch";
 	public static final String ATDW_SEARCH_TERM_NAME = "term";
@@ -64,7 +66,7 @@ public final class PathUtils {
 	 * @return The resource representing the parent resource representing the
 	 *         language resource, or null if one could not be found.
 	 */
-	public static final Resource getLanguageResource(final Resource resource) {
+	public static Resource getLanguageResource(final Resource resource) {
 		Resource currentResource = resource;
 		Resource parent;
 		while ((parent = currentResource.getParent()) != null) {
@@ -77,8 +79,8 @@ public final class PathUtils {
 		return null;
 	}
 
-	public static String getAllAtdwProductsForCategoryPath(Resource locale, String category, String state, String city,
-		String term) {
+	public static String getAtdwSearchPath(Resource locale, String category, String state,
+		String region, String city, String term, int page) {
 		StringBuilder sb = new StringBuilder();
 		sb.append(locale.getPath());
 		sb.append(PRODUCTS_PAGE_LOCALE_REL_PATH).append("?");
@@ -89,6 +91,9 @@ public final class PathUtils {
 			if (state != null) {
 				sb.append("&").append(STATE_PARAM).append("=").append(URLEncoder.encode(state, UTF8));
 			}
+			if (region != null) {
+				sb.append("&").append(REGION_PARAM).append("=").append(URLEncoder.encode(region, UTF8));
+			}
 			if (city != null) {
 				sb.append("&").append(CITY_PARAM).append("=").append(URLEncoder.encode(city, UTF8));
 			}
@@ -98,6 +103,7 @@ public final class PathUtils {
 		} catch (UnsupportedEncodingException e) {
 			throw new IllegalStateException(e);
 		}
+		sb.append("&").append(PAGE_PARAM).append("=").append(page);
 		return sb.toString();
 	}
 

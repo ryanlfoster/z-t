@@ -167,4 +167,40 @@ public class DefaultATDWProductRepository implements ATDWProductRepository {
 		}
 		LOG.info("ATDW record cleanup completed in {} milliseconds", stopwatch.stop().elapsed(TimeUnit.MILLISECONDS));
 	}
+
+	@Override public Map<String, Map<String, Set<String>>> getLocationMap() {
+
+		Map<String, Map<String, Set<String>>> stateMap = new TreeMap<String, Map<String, Set<String>>>();
+
+		ATDWProductSearchParameters parameters = new ATDWProductSearchParameters();
+		parameters.setCount(0);
+		ATDWSearchResult result = search(parameters);
+
+		for (ATDWProduct product: result.getResults()) {
+
+			String state = product.getState();
+			state = state != null ? state : "";
+			Map<String, Set<String>> regionMap = stateMap.get(state);
+			if (regionMap == null) {
+				regionMap = new TreeMap<String, Set<String>>();
+				stateMap.put(state, regionMap);
+			}
+
+			String region = product.getRegion();
+			region = region != null ? region : "";
+			Set<String> citySet = regionMap.get(region);
+			if (citySet == null) {
+				citySet = new TreeSet<String>();
+				regionMap.put(region, citySet);
+			}
+
+			String city = product.getCity();
+			if(city != null && !city.isEmpty()) {
+				citySet.add(city);
+			}
+
+		}
+
+		return stateMap;
+	}
 }

@@ -260,7 +260,8 @@
     z-index: 2;
   }
 }
-.mosaic-item-detail-container.active {
+.is-trigger-content:not(.is-opacity) .mosaic-item-detail-container,
+.mosaic-grid-2-content .mosaic-item-detail-container.active {
   max-height:999px;
   -moz-transition: max-height 0.6s ease;
   -ms-transition: max-height 0.6s ease;

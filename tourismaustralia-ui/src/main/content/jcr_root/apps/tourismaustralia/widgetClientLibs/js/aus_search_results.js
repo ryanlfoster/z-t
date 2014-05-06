@@ -47,11 +47,17 @@ $(document).ready(function(){
 
             }
 
+            var mode = $.url().param('mode');
+            if(!mode || mode.trim().length == 0) {
+                mode = 'GRID';
+            }
+
             var data = {
                 'page': page,
                 'limit': limit,
                 'term': $.url().param('searchinput'),
-                'mode': $.url().param('mode')
+                'tagid': $.url().param('tagid'),
+                'mode': mode
             };
 
             var url = location.pathname.replace('.html', '/_jcr_content.searchfragment.json');

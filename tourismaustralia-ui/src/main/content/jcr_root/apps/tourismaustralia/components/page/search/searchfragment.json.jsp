@@ -1,7 +1,7 @@
 <%@include file="/apps/tourismaustralia/components/global.jsp"%>
 <%@ taglib prefix="tacore" uri="http://www.austalia.com/taglibs/tourismaustralia-core/1.0" %>
 
-<tacore:search var="rows" term="${param.term}" page="${param.page}" limit="${param.limit}" mode="${param.mode}" />
+<tacore:search var="rows" term="${param.term}" tagid="${param.tagid}" page="${param.page}" limit="${param.limit}" mode="${param.mode}" />
 
 <c:if test="${param.mode eq 'LIST'}">
     <c:forEach items="${rows}" var="item">

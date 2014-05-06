@@ -33,7 +33,8 @@ public final class PathUtils {
 	
 	public static final String DETAILED_MAP_PAGE_NAME = "detailedMap";
 
-	public static final String PRODUCTS_PAGE_LOCALE_REL_PATH = "/atdwsearch.html";
+
+	public static final String ATDW_SEARCH_LOCALE_REL_PATH = "/atdwsearch.html";
 	public static final String CATEGORY_PARAM = "category";
 	public static final String STATE_PARAM = "state";
 	public static final String REGION_PARAM = "region";
@@ -41,8 +42,9 @@ public final class PathUtils {
 	public static final String TERM_PARAM = "term";
 	public static final String PAGE_PARAM = "page";
 
-	public static final String ATDW_SEARCH_LOCALE_REL_PATH = "/atdwsearch";
-	public static final String ATDW_SEARCH_TERM_NAME = "term";
+	public static final String SEARCH_LOCALE_REL_PATH = "/search.html";
+	public static final String SEARCHINPUT_PARAM = "searchinput";
+	public static final String TAGID_PARAM = "tagid";
 
 	public static final String FOOD_AND_WINE_EXPLORE = FOOD_AND_WINE_ROOT_PATH + "/explore/";
 	public static final String FOOD_AND_WINE_EXPLORE_AUSTRALIAN_CAPITAL_TERRITORY = FOOD_AND_WINE_EXPLORE
@@ -83,7 +85,7 @@ public final class PathUtils {
 		String region, String city, String term, int page) {
 		StringBuilder sb = new StringBuilder();
 		sb.append(locale.getPath());
-		sb.append(PRODUCTS_PAGE_LOCALE_REL_PATH).append("?");
+		sb.append(ATDW_SEARCH_LOCALE_REL_PATH).append("?");
 		try {
 			if (category != null) {
 				sb.append(CATEGORY_PARAM).append("=").append(URLEncoder.encode(category, UTF8));
@@ -107,15 +109,25 @@ public final class PathUtils {
 		return sb.toString();
 	}
 
-	public static String getAtdwSearchPage(Resource locale, String searchTerm){
-		String path = locale.getPath() + ATDW_SEARCH_LOCALE_REL_PATH + HTML_EXT;
-		if(searchTerm != null) {
-			try {
-				path += "?" + ATDW_SEARCH_TERM_NAME + "=" + URLEncoder.encode(searchTerm, UTF8);
-			} catch (UnsupportedEncodingException e) {
-				throw new IllegalStateException(e);
+	public static String getSearchResultsPage(Resource locale, String searchInput, String tagId) {
+		final StringBuilder path = new StringBuilder();
+		path.append(locale.getPath());
+		path.append(SEARCH_LOCALE_REL_PATH);
+		path.append("?");
+		boolean needAmp = false;
+		try {
+			if (searchInput != null) {
+				path.append(SEARCHINPUT_PARAM).append("=").append(URLEncoder.encode(searchInput, UTF8));
+				needAmp = true;
 			}
+			if (tagId != null) {
+				path.append(needAmp ? "&" : "").append(TAGID_PARAM).append("=")
+					.append(URLEncoder.encode(tagId, UTF8));
+			}
+		} catch (UnsupportedEncodingException e) {
+			throw new IllegalStateException(e);
 		}
-		return path;
+		return path.toString();
 	}
+
 }

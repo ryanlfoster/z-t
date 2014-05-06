@@ -13833,13 +13833,13 @@ input[type=checkbox].checkbox + label.checkbox-label {
 /* line 17, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-description {
   position: absolute;
-  bottom: 0;
+  bottom: 7px;
   left: 0;
   right: 0;
   margin: 9px 10px 3px 10px;
-  padding: 1em 0.5em !important;
+  padding: 1em 0.5em 0.4em 0.5em !important;
   text-align: left;
-  background: url("../imgs/base/black-gradient.png") repeat-x;
+  background: url("../imgs/base/black-gradient.png") repeat-x bottom;
 }
 
 /* line 29, ../../assets/scss/site/modules/_mosaic-item.scss */
@@ -13884,7 +13884,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
   position: absolute;
   right: 0.1em;
   right: 3px\0;
-  bottom: 0.4em;
+  bottom: 0.2em;
   color: white;
   width: 35px;
   height: 35px;

@@ -81,7 +81,7 @@
     <div class="l-h-center">
         <c:forEach items="${wycs.tabs}" var="tab">
             <c:if test="${not empty tab.viewMoreText}">
-                <a href="#" class="btn-primary" data-aus-show-tab="${tab.id}">
+                <a href="${tab.viewMorePath}" class="btn-primary" data-aus-show-tab="${tab.id}">
                     <fmt:message key="${tab.viewMoreText}" />
                 </a>
             </c:if>

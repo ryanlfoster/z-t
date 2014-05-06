@@ -15,10 +15,12 @@ import javax.servlet.jsp.JspException;
 import javax.servlet.jsp.PageContext;
 import javax.servlet.jsp.tagext.SimpleTagSupport;
 import java.io.IOException;
+import java.util.Arrays;
 
 public class ContentSearchTag extends SimpleTagSupport {
 
 	private String term;
+	private String tagid;
 	private Integer page;
 	private Integer limit;
 	private String mode;
@@ -36,7 +38,10 @@ public class ContentSearchTag extends SimpleTagSupport {
 		params.setLanguagePath(PathUtils.getLanguageResource(pathResource).getPath());
 		params.setCount(limit == null ? 10 : limit);
 		params.setPage(page == null ? 1 : page);
-		params.setText(term);
+		params.setText(term == null || term.trim().isEmpty() ? null : term);
+		if (tagid != null && !tagid.trim().isEmpty()) {
+			params.setTags(Arrays.asList(tagid));
+		}
 
 		try {
 
@@ -59,6 +64,14 @@ public class ContentSearchTag extends SimpleTagSupport {
 
 	public void setTerm(String term) {
 		this.term = term;
+	}
+
+	public String getTagid() {
+		return tagid;
+	}
+
+	public void setTagid(String tagId) {
+		this.tagid = tagId;
 	}
 
 	public Integer getPage() {

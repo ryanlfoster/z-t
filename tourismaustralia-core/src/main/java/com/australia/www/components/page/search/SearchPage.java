@@ -1,5 +1,6 @@
 package com.australia.www.components.page.search;
 
+import com.australia.atdw.domain.ATDWCategory;
 import com.australia.atdw.domain.ATDWProduct;
 import com.australia.atdw.domain.ATDWProductSearchParameters;
 import com.australia.atdw.domain.ATDWProductSearchParametersBuilder;
@@ -21,6 +22,7 @@ import org.apache.sling.api.scripting.SlingBindings;
 import org.apache.sling.api.scripting.SlingScriptHelper;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 @Component(value = "Search", path = "page", group = ".hidden", editConfig = false)
@@ -29,12 +31,15 @@ public final class SearchPage {
 	private static final int COUNT = 10;
 
 	private static final String PARAM_Q = "searchinput";
+	private static final String PARAM_TAGID = "tagid";
 	private static final String PARAM_TYPE = "type";
 	private static final String PARAM_MODE = "mode";
 
 	private final ContentType type;
 
 	private final String query;
+
+	private final String tagId;
 
 	private final DisplayMode displayMode;
 
@@ -59,6 +64,8 @@ public final class SearchPage {
 
 		query = request.getParameter(PARAM_Q);
 
+		tagId = request.getParameter(PARAM_TAGID);
+
 		final String typeString = request.getParameter(PARAM_TYPE);
 		type = ContentType.fromName(typeString);
 
@@ -66,11 +73,13 @@ public final class SearchPage {
 		displayMode = DisplayMode.fromName(mode) != null ? DisplayMode.fromName(mode) : DisplayMode.GRID;
 
 		final ContentSearchParametersBuilder builder = new ContentSearchParametersBuilder();
-		final ContentSearchParameters params = builder.setContentType(type)
+		final ContentSearchParameters params = builder
+			.setContentType(type)
 			.setLanguagePath(PathUtils.getLanguageResource(resource).getPath())
 			.setCount(COUNT)
 			.setPage(1)
-			.setText(query)
+			.setText(query == null || query.trim().isEmpty() ? null : query)
+			.setTags(tagId == null || tagId.isEmpty() ? null : Arrays.asList(tagId))
 			.build();
 
 		try {
@@ -82,15 +91,24 @@ public final class SearchPage {
 		}
 
 		final ATDWProductSearchParametersBuilder productBuilder = new ATDWProductSearchParametersBuilder();
-		final ATDWProductSearchParameters productParams = productBuilder.setText(query)
+		final ATDWProductSearchParameters productParams = productBuilder
 			.setCount(6)
 			.setPage(1)
+			.setText(query == null || query.trim().isEmpty() ? null : query)
+			.setTags(tagId == null || tagId.isEmpty() ? null : Arrays.asList(tagId))
 			.build();
 		productResults.addAll(productService.search(productParams).getResults());
 
 		path = resource.getParent().getPath();
 
-		atdwSearchUrl = PathUtils.getAtdwSearchPage(PathUtils.getLanguageResource(resource), query);
+		Resource languageResource = PathUtils.getLanguageResource(resource);
+		atdwSearchUrl = PathUtils.getAtdwSearchPath(languageResource,
+			ATDWCategory.ACCOMEDATIONS.toString(),
+			null,
+			null,
+			null,
+			query,
+			1);
 	}
 
 	public ContentType getType() {
@@ -102,11 +120,15 @@ public final class SearchPage {
 	}
 
 	public boolean isDisplayResults() {
-		return query != null;
+		return query != null || tagId != null;
 	}
 
 	public DisplayMode getDisplayMode() {
 		return displayMode;
+	}
+
+	public String getTagId() {
+		return tagId;
 	}
 
 	public long getTotalResultCount() {
@@ -134,11 +156,27 @@ public final class SearchPage {
 	}
 
 	public String getListHref() {
-		return path + ".html?" + PARAM_Q + "=" + query + "&mode=LIST";
+		StringBuilder sb = new StringBuilder();
+		sb.append(path).append(".html?mode=LIST");
+		if(query != null) {
+			sb.append("&").append(PARAM_Q).append("=").append(query);
+		}
+		if(tagId != null) {
+			sb.append("&").append(PARAM_TAGID).append("=").append(tagId);
+		}
+		return sb.toString();
 	}
 
 	public String getGridHref() {
-		return path + ".html?" + PARAM_Q + "=" + query + "&mode=GRID";
+		StringBuilder sb = new StringBuilder();
+		sb.append(path).append(".html?mode=GRID");
+		if(query != null) {
+			sb.append("&").append(PARAM_Q).append("=").append(query);
+		}
+		if(tagId != null) {
+			sb.append("&").append(PARAM_TAGID).append("=").append(tagId);
+		}
+		return sb.toString();
 	}
 
 	public String getAtdwSearchUrl() {

@@ -77,6 +77,12 @@
             <type>java.lang.String</type>
         </attribute>
         <attribute>
+            <name>tagid</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.String</type>
+        </attribute>
+        <attribute>
             <name>page</name>
             <required>false</required>
             <rtexprvalue>true</rtexprvalue>

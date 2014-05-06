@@ -22,20 +22,27 @@
                         <form method="get" action="#">
                             <fmt:message key="Type text to search" var="typeTextToSearch"/>
                             <label class="search-input-label" for="searchinput">${typeTextToSearch}</label>
-                            <input class="search-input" name="searchinput" type="text" placeholder="${typeTextToSearch}" value="${search.query}" />
+                            <c:set var="queryText" value=""/>
+                            <c:if test="${not empty search.query}">
+                                <c:set var="queryText" value="${search.query}"/>
+                            </c:if>
+                            <input class="search-input" name="searchinput" type="text" placeholder="${typeTextToSearch}" value="${queryText}" />
                             <input type="button" class="search-input-go" type="submit" name="submit" />
                             <input type="button" class="search-input-clear" type="button" name="submit" />
                             <input type="hidden" name="mode" value="${search.displayMode}" />
+                            <c:if test="${not empty search.tagId}">
+                                <input type="hidden" name="tagid" value="${search.tagId}" />
+                            </c:if>
                         </form>
                     </div>
                 </div>
             </div>
         </div>
 
-        <c:if test="${search.displayResults}">
+        <div class="search-results-counter-grid-more">
+            <div class="row l-center-1200">
 
-            <div class="search-results-counter-grid-more">
-                <div class="row l-center-1200">
+                <c:if test="${search.displayResults}">
                     <div class="col-xs-12" data-aus-result-container>
 
                         <div class="search-your-results">
@@ -116,36 +123,40 @@
                 </div>
             </div>
 
-            <div class="search-atdw-highlights">
-                <div class="row l-center-1200">
-                    <div class="col-xs-12">
+            <c:if test="${not empty search.productResults}">
 
-                        <div class="section-intro">
-                            <div class="l-center-900">
-                                <h3 class="type-h1-responsive">
-                                    <fmt:message key="Make Your Trip Happen" />
-                                </h3>
+                <div class="search-atdw-highlights">
+                    <div class="row l-center-1200">
+                        <div class="col-xs-12">
+
+                            <div class="section-intro">
+                                <div class="l-center-900">
+                                    <h3 class="type-h1-responsive">
+                                        <fmt:message key="Make Your Trip Happen" />
+                                    </h3>
+                                </div>
+                                <div class="l-center-640 type-center">
+                                    <p class="type-intro">
+                                        <fmt:message key="Ready to get serious about {0}? We can help you sort out all the details with the options below." var="readyToGetSerious">
+                                            <fmt:param value="${search.query}"/>
+                                        </fmt:message>
+                                        ${readyToGetSerious}
+                                    </p>
+                                </div>
                             </div>
-                            <div class="l-center-640 type-center">
-                                <p class="type-intro">
-                                    <fmt:message key="Ready to get serious about {0}? We can help you sort out all the details with the options below." var="readyToGetSerious">
-                                        <fmt:param value="${search.query}"/>
-                                    </fmt:message>
-                                    ${readyToGetSerious}
-                                </p>
+
+                            <div class="search-atdw-mosaic">
+                                <c:set var="products" value="${search.productResults}" scope="request"/>
+                                <cq:include script="/apps/tourismaustralia/components/content/atdwHighlights/atdwHighlightMosaic.jsp" />
                             </div>
+
+                            <div class="l-h-center">
+                                <a href="${search.atdwSearchUrl}" class="btn-primary"><fmt:message key="Search More"/></a>
+                            </div>
+
                         </div>
 
-                        <div class="search-atdw-mosaic">
-                            <c:set var="products" value="${search.productResults}" scope="request"/>
-                            <cq:include script="/apps/tourismaustralia/components/content/atdwHighlights/atdwHighlightMosaic.jsp" />
-                        </div>
-
-                        <div class="l-h-center">
-                            <a href="${search.atdwSearchUrl}" class="btn-primary"><fmt:message key="Search More"/></a>
-                        </div>
-
-                    </div>
+                    </c:if>
                 </div>
             </div>
 

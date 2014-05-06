@@ -2,14 +2,12 @@ package com.australia.www.components.content.whatyoucansee;
 
 final class Constants {
 
-	public static final String NAME_TAG = "tag";
+	public static final String NAME_TAGID = "tagId";
 	public static final String NAME_TITLE = "title";
 	public static final String NAME_TEXT = "text";
 	public static final String NAME_TAB_3_TITLE = "optionalTabTitle";
 	public static final String NAME_SHOW_THINGS_TO_DO = "showThingsToDo";
 	public static final String NAME_THINGS_TO_DO_TAB_SIZE = "thingsToDoTabSize";
-	public static final String NAME_SHOW_EVENTS = "showEvents";
-	public static final String NAME_EVENTS_TAB_SIZE = "eventsTabSize";
 	public static final String NAME_SHOW_OPTIONAL_TAB = "showOptionalTab";
 	public static final String NAME_OPTIONAL_TAB_SIZE = "optionalTabSize";
 	public static final String NAME_OPTIONAL_TAB_PATH_0 = "optionalTabPath0";
@@ -28,8 +26,6 @@ final class Constants {
 	public static final String BASE_IMAGE_PATH = "/etc/designs/tourismaustralia/clientlibs/imgs/";
 	public static final String TTD_IMAGE_PATH = BASE_IMAGE_PATH + "icons/menu.png";
 	public static final String TTD_OUTLINE_IMAGE_PATH = BASE_IMAGE_PATH + "icons/menu_outline.png";
-	public static final String EVENTS_IMAGE_PATH = BASE_IMAGE_PATH + "icons/events.png";
-	public static final String EVENTS_OUTLINE_IMAGE_PATH = BASE_IMAGE_PATH + "icons/events_outline.png";
 	public static final String OPTIONAL_IMAGE_PATH = BASE_IMAGE_PATH + "icons/star.png";
 	public static final String OPTIONAL_OUTLINE_IMAGE_PATH = BASE_IMAGE_PATH + "icons/star_outline.png";
 
@@ -39,9 +35,6 @@ final class Constants {
 
 	public static final String TTD_TAB_TITLE = "Things To Do";
 	public static final String TTD_TAB_VIEW_MORE = "View All Highlights";
-
-	public static final String EVENTS_TAB_TITLE = "What's Coming Up";
-	public static final String EVENTS_TAB_VIEW_MORE = "View All Events";
 
 	public static final String BLANK = "&nbsp;";
 

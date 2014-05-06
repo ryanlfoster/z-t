@@ -50,15 +50,15 @@ public class ExploreBy {
 		bottomText = properties.get("bottomText", StringUtils.EMPTY);
 		imageAltTag = properties.get("imageAltTag", StringUtils.EMPTY);
 
-		capital = request.getResourceResolver().map(
-			PathUtils.FOOD_AND_WINE_EXPLORE_AUSTRALIAN_CAPITAL_TERRITORY + ".html");
-		nsw = request.getResourceResolver().map(PathUtils.FOOD_AND_WINE_EXPLORE_NEW_SOUTH_WALES + ".html");
-		northern = request.getResourceResolver().map(PathUtils.FOOD_AND_WINE_EXPLORE_NORTHERN_TERRITORY + ".html");
-		queensland = request.getResourceResolver().map(PathUtils.FOOD_AND_WINE_EXPLORE_QUEENSLAND + ".html");
-		south = request.getResourceResolver().map(PathUtils.FOOD_AND_WINE_EXPLORE_SOUTH_AUSTRALIA + ".html");
-		tasmania = request.getResourceResolver().map(PathUtils.FOOD_AND_WINE_EXPLORE_TASMANIA + ".html");
-		victoria = request.getResourceResolver().map(PathUtils.FOOD_AND_WINE_EXPLORE_VICTORIA + ".html");
-		western = request.getResourceResolver().map(PathUtils.FOOD_AND_WINE_EXPLORE_WESTERN_AUSTRALIA + ".html");
+		capital = request.getResourceResolver().map(PathUtils.FOOD_AND_WINE_EXPLORE_AUSTRALIAN_CAPITAL_TERRITORY)
+			+ ".html";
+		nsw = request.getResourceResolver().map(PathUtils.FOOD_AND_WINE_EXPLORE_NEW_SOUTH_WALES) + ".html";
+		northern = request.getResourceResolver().map(PathUtils.FOOD_AND_WINE_EXPLORE_NORTHERN_TERRITORY) + ".html";
+		queensland = request.getResourceResolver().map(PathUtils.FOOD_AND_WINE_EXPLORE_QUEENSLAND) + ".html";
+		south = request.getResourceResolver().map(PathUtils.FOOD_AND_WINE_EXPLORE_SOUTH_AUSTRALIA) + ".html";
+		tasmania = request.getResourceResolver().map(PathUtils.FOOD_AND_WINE_EXPLORE_TASMANIA) + ".html";
+		victoria = request.getResourceResolver().map(PathUtils.FOOD_AND_WINE_EXPLORE_VICTORIA) + ".html";
+		western = request.getResourceResolver().map(PathUtils.FOOD_AND_WINE_EXPLORE_WESTERN_AUSTRALIA) + ".html";
 	}
 
 	public String getTopText() {

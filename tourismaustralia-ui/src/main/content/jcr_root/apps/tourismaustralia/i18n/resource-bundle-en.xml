@@ -20,4 +20,5 @@
     <myTrip jcr:primaryType="sling:MessageEntry" sling:key="My Trip" sling:message="My Trip"/>
     <skipToContent jcr:primaryType="sling:MessageEntry" sling:key="Skip to content" sling:message="Skip to content"/>
     <skipToContent jcr:primaryType="sling:MessageEntry" sling:key="Skip to" sling:message="Skip to"/>
+    <closeNavigation jcr:primaryType="sling:MessageEntry" sling:key="Close Navigation" sling:message="Close Navigation)"/>
 </jcr:root>

@@ -20,5 +20,7 @@
     <myTrip jcr:primaryType="sling:MessageEntry" sling:key="My Trip" sling:message="My Trip (FR)"/>
     <skipToContent jcr:primaryType="sling:MessageEntry" sling:key="Skip to content" sling:message="Skip to content (FR)"/>
     <skipToContent jcr:primaryType="sling:MessageEntry" sling:key="Skip to" sling:message="Skip to (FR)"/>
+    <closeNavigation jcr:primaryType="sling:MessageEntry" sling:key="Close Navigation" sling:message="Close Navigation (FR)"/>
+
 
 </jcr:root>

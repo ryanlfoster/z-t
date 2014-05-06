@@ -1,7 +1,32 @@
 <%@include file="/apps/tourismaustralia/components/global.jsp" %>
 <%@ page import="com.australia.www.components.content.navigation.Navigation" %>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 
 <c:set var="navigation" value="<%=new Navigation(slingRequest) %>"/>
+
+<c:if test="${not empty navigation.megamenu1LhsMosaicThemeLinks}">
+    <c:set var="numberOfMegamenu1LhsMosaicLinks" value="${fn:length(navigation.megamenu1LhsMosaicThemeLinks)}"/>
+    <c:set var="numberOfMegamenu1LhsMosaicRows" value="${(numberOfMegamenu1LhsMosaicLinks) / 4}"/>
+    <fmt:formatNumber
+        var="numberOfMegamenu1LhsMosaicRowsCeil"
+        value="${(numberOfMegamenu1LhsMosaicRows)+(1-((numberOfMegamenu1LhsMosaicRows)%1))%1}"
+        type="number"
+        maxFractionDigits="0"
+        pattern="#"
+    />
+</c:if>
+
+<c:if test="${not empty navigation.megamenu3LhsMosaicLinks}">
+    <c:set var="numberOfMegamenu3LhsMosaicLinks" value="${fn:length(navigation.megamenu3LhsMosaicLinks)}"/>
+    <c:set var="numberOfMegamenu3LhsMosaicRows" value="${(numberOfMegamenu3LhsMosaicLinks) / 4}"/>
+    <fmt:formatNumber
+            var="numberOfMegamenu3LhsMosaicRowsCeil"
+            value="${(numberOfMegamenu3LhsMosaicRows)+(1-((numberOfMegamenu3LhsMosaicRows)%1))%1}"
+            type="number"
+            maxFractionDigits="0"
+            pattern="#"
+            />
+</c:if>
 
 <%-- START: Navigation - arrival bar --%>
 <div class="nav-bar arrival-bar bar-scroll-top">
@@ -39,14 +64,14 @@
                 <span class="icon-bar"></span>
             </a>
 
-            <a class="logo-masthead" href="#" tabindex="-1">
+            <a class="logo-masthead" href="${navigation.homepagePath}" tabindex="-1">
                 <img src="/etc/designs/tourismaustralia/clientlibs/imgs/logo/logo_australia_com.png" alt="">
             </a>
         </div>
         <div class="main-nav-panel">
             <ul class="nav-bar-nav nav-bar-right">
                 <li class="toggle-home vis-hidden-sm">
-                    <a href="#" tabindex="-1"><span class="icon icon-32 icon-home" aria-hidden="true"></span><span> <fmt:message key="Home"/></span></a>
+                    <a href="${navigation.homepagePath}" tabindex="-1"><span class="icon icon-32 icon-home" aria-hidden="true"></span><span> <fmt:message key="Home"/></span></a>
                 </li>
                 <li id="nav-main-panel-search" class="toggle-search has-children">
                     <a class="nav-toggle-panel" href="#nav-main-panel-search"><span class="icon icon-32 icon-search" aria-hidden="true"></span><span class="vis-hidden-sm"> <fmt:message key="Search"/></span></a>
@@ -100,84 +125,133 @@
                             </c:choose>
                             <div class="nav-bar-panel-content">
                                 <div class="megamenu-panel megamenu-mosaic">
+                                   <c:if test="${not empty navigation.megamenu1LhsMosaicThemeLinks}">
                                     <ul class="nav-bar-panel-nav l-hideondesktop">
+                                        <c:if test="${not empty navigation.megamenu1LhsMosaicThemeLinks}">
                                         <%-- START // link --%>
-                                        <li><a href="#">Link Text</a></li>
+                                        <c:forEach items="${navigation.megamenu1LhsMosaicThemeLinks}" var="link">
+                                        <li><a href="${link.pagePath}" target="${link.isExternal ? '_blank' : '_self'}">${link.linkText}</a></li>
+                                        </c:forEach>
                                         <%-- END // link --%>
+                                        </c:if>
+                                        <c:if test="${not empty navigation.megamenu1RhsMosaicLinks}">
+                                        <%-- START // link --%>
+                                        <c:forEach items="${navigation.megamenu1RhsMosaicLinks}" var="link" varStatus="linkCount">
+                                        <c:if test="${not empty numberOfMegamenu1LhsMosaicRowsCeil && (numberOfMegamenu1LhsMosaicRowsCeil >= linkCount.count)}">
+                                            <li><a href="${link.pagePath}" target="${link.isExternal ? '_blank' : '_self'}">${link.linkText}</a></li>
+                                        </c:if>
+                                        </c:forEach>
+                                        <%-- END // link --%>
+                                        </c:if>
                                     </ul>
+                                   </c:if>
                                     <div class="megamenu-mosaic-left l-hideonmobile">
                                         <c:if test="${not empty navigation.megamenu1LhsCategoryTitle}">
                                         <h3 class="megamenu-mosaic-title">${navigation.megamenu1LhsCategoryTitle}</h3>
                                         </c:if>
+                                        <c:if test="${not empty navigation.megamenu1LhsMosaicThemeLinks}">
                                         <%-- START // mosaic item --%>
+                                        <c:forEach items="${navigation.megamenu1LhsMosaicThemeLinks}" var="link">
                                         <div class="megamenu-mosaic-item">
                                             <div class="mosaic-item">
                                                 <div class="mosaic-front-back-container flip-container outbound-link">
                                                     <div class="flipper">
+                                                        <c:if test="${not empty link.image && not empty link.linkText}">
                                                         <div class="mosaic-column-front flip-front">
+                                                            <c:if test="${not empty link.image}">
                                                             <div class="mosaic-media mosaic-primary">
-                                                                <img src="imgs/placeholders/meganav-img1.jpg" alt="">
+                                                                <img src="${link.image}" alt="">
                                                             </div>
+                                                            </c:if>
+                                                            <c:if test="${not empty link.linkText && not empty link.theme}">
                                                             <div class="mosaic-overlay">
                                                                 <div class="vertical-container">
                                                                     <div class="vertical-content text-center">
-                                                                        <span class="label-destination type-destination theme-nature">Nature &amp; Wildlife</span>
+                                                                        <span class="label-destination type-destination theme-${link.theme}">${link.linkText}</span>
                                                                     </div>
                                                                 </div>
                                                             </div>
+                                                            </c:if>
                                                         </div>
-                                                        <div class="mosaic-column-back mosaic-content flip-back mosaic-back theme-nature">
+                                                        </c:if>
+                                                        <c:if test="${not empty link.pagePath && not empty link.iconImage && not empty link.linkText && not empty link.theme}">
+                                                        <div class="mosaic-column-back mosaic-content flip-back mosaic-back theme-${link.theme}">
                                                             <div class="vertical-container">
-                                                                <a href="#" class="mosaic-link vertical-content text-center">
+                                                               <a href="${link.pagePath}" class="mosaic-link vertical-content text-center" target="${link.isExternal ? '_blank' : '_self'}">
+                                                                    <c:if test="${not empty link.iconImage}">
                                                                     <span class="mosaic-icon">
-                                                                        <img class="icon-generic" src="imgs/icons/beaches_white_outline.png" alt="">
+                                                                        <img class="icon-generic" src="${link.iconImage}" alt="">
                                                                     </span>
-                                                                    <p class="type-destination line-through-line-wrapper">Nature &amp; Wildlife</p>
+                                                                    </c:if>
+                                                                    <c:if test="${not empty link.linkText}">
+                                                                    <p class="type-destination line-through-line-wrapper">${link.linkText}</p>
+                                                                    </c:if>
                                                                 </a>
                                                             </div>
                                                         </div>
+                                                        </c:if>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
+                                        </c:forEach>
                                         <%-- END //  mosaic item --%>
+                                        </c:if>
                                     </div>
                                     <div class="megamenu-mosaic-right l-hideonmobile">
                                         <c:if test="${not empty navigation.megamenu1RhsCategoryTitle}">
                                             <h3 class="megamenu-mosaic-title">${navigation.megamenu1RhsCategoryTitle}</h3>
                                         </c:if>
+                                        <c:if test="${not empty navigation.megamenu1RhsMosaicLinks}">
+                                        <c:forEach items="${navigation.megamenu1RhsMosaicLinks}" var="link" varStatus="linkCount">
+                                        <c:if test="${not empty numberOfMegamenu1LhsMosaicRowsCeil && (numberOfMegamenu1LhsMosaicRowsCeil >= linkCount.count)}">
                                         <%-- START // mosaic item --%>
                                         <div class="megamenu-mosaic-item">
                                             <div class="mosaic-item">
                                                 <div class="mosaic-front-back-container flip-container outbound-link">
                                                     <div class="flipper">
+                                                        <c:if test="${not empty link.image && not empty link.linkText}">
                                                         <div class="mosaic-column-front flip-front">
+                                                            <c:if test="${not empty link.image}">
                                                             <div class="mosaic-media mosaic-primary">
-                                                                <img src="imgs/placeholders/meganav-img10.jpg" alt="">
+                                                                <img src="${link.image}" alt="" />
                                                             </div>
+                                                            </c:if>
+                                                            <c:if test="${not empty link.linkText}">
                                                             <div class="mosaic-overlay">
                                                                 <div class="vertical-container">
                                                                     <div class="vertical-content text-center">
-                                                                        <span class="label-destination type-destination theme-discover">Trip Ideas</span>
+                                                                        <span class="label-destination type-destination theme-discover">${link.linkText}</span>
                                                                     </div>
                                                                 </div>
                                                             </div>
+                                                            </c:if>
                                                         </div>
+                                                        </c:if>
+                                                        <c:if test="${not empty link.pagePath && not empty link.iconImage && not empty link.linkText}">
                                                         <div class="mosaic-column-back mosaic-content flip-back mosaic-back theme-discover">
                                                             <div class="vertical-container">
-                                                                <a href="#" class="mosaic-link vertical-content text-center">
-                                                                                                <span class="mosaic-icon">
-                                                                                                    <img class="icon-generic" src="imgs/icons/beaches_white_outline.png" alt="">
-                                                                                                </span>
-                                                                    <p class="type-destination line-through-line-wrapper">Trip Ideas</p>
+                                                                <a href="${link.pagePath}" class="mosaic-link vertical-content text-center" target="${link.isExternal ? '_blank' : '_self'}">
+                                                                    <c:if test="${not empty link.iconImage}">
+                                                                    <span class="mosaic-icon">
+                                                                        <img class="icon-generic" src="${link.iconImage}" alt="">
+                                                                    </span>
+                                                                    </c:if>
+                                                                    <c:if test="${not empty link.linkText}">
+                                                                    <p class="type-destination line-through-line-wrapper">${link.linkText}</p>
+                                                                    </c:if>
                                                                 </a>
                                                             </div>
                                                         </div>
+                                                        </c:if>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                         <%-- END //  mosaic item --%>
+                                        </c:if>
+                                        </c:forEach>
+                                        </c:if>
                                     </div>
                                 </div>
                                 <a tabindex="-1" class="nav-bar-panel-close" href="#nav-bar-top"><span class="icon icon-16 icon-close" aria-hidden="true"></span></a>
@@ -202,42 +276,54 @@
                             <div class="nav-bar-panel-content">
                                 <div class="megamenu-panel megamenu-map">
                                     <ul class="nav-bar-panel-nav">
+                                        <c:if test="${not empty navigation.megamenu2LhsCategoryTitle1 && not empty navigation.megamenu2LhsCategoryTitle1Links}">
                                         <li class="megamenu-map-filters is-active">
                                             <div class="megamenu-components">
-                                                <a class="megamenu-map-filter" href="#iconic">Iconic destinations</a>
+                                                <a class="megamenu-map-filter" href="#iconic">${navigation.megamenu2LhsCategoryTitle1}</a>
                                                 <ul class="megamenu-map-markers">
+                                                    <c:forEach items="${navigation.megamenu2LhsCategoryTitle1Links}" var="link">
                                                     <%-- START // marker --%>
-                                                    <li class="megamenu-map-marker map-marker-qld">
-                                                        <a href="#"><span class="map-segment"></span>Great Barrier Reef</a>
+                                                    <li class="megamenu-map-marker map-marker-${link.state}">
+                                                        <a href="${link.pagePath}" target="${link.isExternal ? '_blank' : '_self'}"><span class="map-segment"></span>${link.linkText}</a>
                                                     </li>
                                                     <%-- END // marker --%>
+                                                    </c:forEach>
                                                 </ul>
                                             </div>
                                         </li>
+                                        </c:if>
+                                        <c:if test="${not empty navigation.megamenu2LhsCategoryTitle2 && not empty navigation.megamenu2LhsCategoryTitle2Links}">
                                         <li class="megamenu-map-filters">
                                             <div class="megamenu-components">
-                                                <a class="megamenu-map-filter is-active" href="#cities">Cities</a>
+                                                <a class="megamenu-map-filter is-active" href="#cities">${navigation.megamenu2LhsCategoryTitle2}</a>
                                                 <ul class="megamenu-map-markers">
-                                                    <%-- START // marker --%>
-                                                    <li class="megamenu-map-marker map-marker-act">
-                                                        <a href="#"><span class="map-segment"></span>Canberra</a>
-                                                    </li>
-                                                    <%-- END // marker --%>
+                                                    <c:forEach items="${navigation.megamenu2LhsCategoryTitle2Links}" var="link">
+                                                        <%-- START // marker --%>
+                                                        <li class="megamenu-map-marker map-marker-${link.state}">
+                                                            <a href="${link.pagePath}" target="${link.isExternal ? '_blank' : '_self'}"><span class="map-segment"></span>${link.linkText}</a>
+                                                        </li>
+                                                        <%-- END // marker --%>
+                                                    </c:forEach>
                                                 </ul>
                                             </div>
                                         </li>
+                                        </c:if>
+                                        <c:if test="${not empty navigation.megamenu2LhsCategoryTitle3 && not empty navigation.megamenu2LhsCategoryTitle3Links}">
                                         <li class="megamenu-map-filters">
                                             <div class="megamenu-components">
-                                                <a class="megamenu-map-filter is-active" href="#states">States &amp; Territories</a>
+                                                <a class="megamenu-map-filter is-active" href="#states">${navigation.megamenu2LhsCategoryTitle3}</a>
                                                 <ul class="megamenu-map-markers">
-                                                    <%-- START // marker --%>
-                                                    <li class="megamenu-map-marker map-marker-act">
-                                                        <a href="#"><span class="map-segment"></span>Australian Capital Territory</a>
-                                                    </li>
-                                                    <%-- END // marker --%>
+                                                    <c:forEach items="${navigation.megamenu2LhsCategoryTitle3Links}" var="link">
+                                                        <%-- START // marker --%>
+                                                        <li class="megamenu-map-marker map-marker-${link.state}">
+                                                            <a href="${link.pagePath}" target="${link.isExternal ? '_blank' : '_self'}"><span class="map-segment"></span>${link.linkText}</a>
+                                                        </li>
+                                                        <%-- END // marker --%>
+                                                    </c:forEach>
                                                 </ul>
                                             </div>
                                         </li>
+                                        </c:if>
                                     </ul>
                                 </div>
                                 <a tabindex="-1" class="nav-bar-panel-close" href="#nav-bar-top"><span class="icon icon-16 icon-close" aria-hidden="true"></span></a>
@@ -255,78 +341,132 @@
                             <div class="nav-bar-panel-content">
                                 <div class="megamenu-panel megamenu-mosaic">
                                     <ul class="nav-bar-panel-nav l-hideondesktop">
-                                        <%-- START // link --%>
-                                        <li><a href="#">Link Text</a></li>
-                                        <%-- END // link --%>
+                                        <c:if test="${not empty navigation.megamenu3LhsMosaicLinks}">
+                                            <%-- START // link --%>
+                                            <c:forEach items="${navigation.megamenu3LhsMosaicLinks}" var="link">
+                                                <li><a href="${link.pagePath}" target="${link.isExternal ? '_blank' : '_self'}">${link.linkText}</a></li>
+                                            </c:forEach>
+                                            <%-- END // link --%>
+                                        </c:if>
+                                        <c:if test="${not empty navigation.megamenu3RhsMosaicLinks}">
+                                            <%-- START // link --%>
+                                            <c:forEach items="${navigation.megamenu3RhsMosaicLinks}" var="link" varStatus="linkCount">
+                                                <c:if test="${not empty numberOfMegamenu3LhsMosaicRowsCeil && (numberOfMegamenu3LhsMosaicRowsCeil >= linkCount.count)}">
+                                                    <li><a href="${link.pagePath}" target="${link.isExternal ? '_blank' : '_self'}">${link.linkText}</a></li>
+                                                </c:if>
+                                            </c:forEach>
+                                            <%-- END // link --%>
+                                        </c:if>
                                     </ul>
                                     <div class="megamenu-mosaic-left l-hideonmobile">
-                                        <h3 class="megamenu-mosaic-title">Plan your holiday in Australia</h3>
+                                        <c:if test="${not empty navigation.megamenu3LhsCategoryTitle}">
+                                        <h3 class="megamenu-mosaic-title">${navigation.megamenu3LhsCategoryTitle}</h3>
+                                        </c:if>
                                         <%-- START // mosaic item --%>
-                                        <div class="megamenu-mosaic-item">
-                                            <div class="mosaic-item">
-                                                <div class="mosaic-front-back-container flip-container outbound-link">
-                                                    <div class="flipper">
-                                                        <div class="mosaic-column-front flip-front">
-                                                            <div class="mosaic-media mosaic-primary">
-                                                                <img src="imgs/placeholders/meganav-img1.jpg" alt="">
-                                                            </div>
-                                                            <div class="mosaic-overlay">
-                                                                <div class="vertical-container">
-                                                                    <div class="vertical-content text-center">
-                                                                        <span class="label-destination type-destination theme-discover">Find a travel agent</span>
+                                        <c:if test="${not empty navigation.megamenu3LhsMosaicLinks}">
+                                            <c:forEach items="${navigation.megamenu3LhsMosaicLinks}" var="link">
+                                                <%-- START // mosaic item --%>
+                                                <div class="megamenu-mosaic-item">
+                                                    <div class="mosaic-item">
+                                                        <div class="mosaic-front-back-container flip-container outbound-link">
+                                                            <div class="flipper">
+                                                                <c:if test="${not empty link.image && not empty link.linkText}">
+                                                                    <div class="mosaic-column-front flip-front">
+                                                                        <c:if test="${not empty link.image}">
+                                                                            <div class="mosaic-media mosaic-primary">
+                                                                                <img src="${link.image}" alt="" />
+                                                                            </div>
+                                                                        </c:if>
+                                                                        <c:if test="${not empty link.linkText}">
+                                                                            <div class="mosaic-overlay">
+                                                                                <div class="vertical-container">
+                                                                                    <div class="vertical-content text-center">
+                                                                                        <span class="label-destination type-destination theme-discover">${link.linkText}</span>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </c:if>
                                                                     </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="mosaic-column-back mosaic-content flip-back mosaic-back theme-discover">
-                                                            <div class="vertical-container">
-                                                                <a href="#" class="mosaic-link vertical-content text-center">
-                                                                                                <span class="mosaic-icon">
-                                                                                                    <img class="icon-generic" src="imgs/icons/beaches_white_outline.png" alt="">
-                                                                                                </span>
-                                                                    <p class="type-destination line-through-line-wrapper">Find a travel agent</p>
-                                                                </a>
+                                                                </c:if>
+                                                                <c:if test="${not empty link.pagePath && not empty link.iconImage && not empty link.linkText}">
+                                                                    <div class="mosaic-column-back mosaic-content flip-back mosaic-back theme-discover">
+                                                                        <div class="vertical-container">
+                                                                            <a href="${link.pagePath}" class="mosaic-link vertical-content text-center">
+                                                                                <c:if test="${not empty link.iconImage}">
+                                                                                <span class="mosaic-icon">
+                                                                                    <img class="icon-generic" src="${link.iconImage}" alt="">
+                                                                                </span>
+                                                                                </c:if>
+                                                                                <c:if test="${not empty link.linkText}">
+                                                                                    <p class="type-destination line-through-line-wrapper">${link.linkText}</p>
+                                                                                </c:if>
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+                                                                </c:if>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                        </div>
+                                                <%-- END //  mosaic item --%>
+                                            </c:forEach>
+                                        </c:if>
                                         <%-- END // mosaic item --%>
                                     </div>
                                     <div class="megamenu-mosaic-right l-hideonmobile">
-                                        <h3 class="megamenu-mosaic-title">Holiday deals</h3>
-                                        <div class="megamenu-mosaic-item">
-                                            <div class="mosaic-item">
-                                                <div class="mosaic-front-back-container flip-container outbound-link">
-                                                    <div class="flipper">
-                                                        <div class="mosaic-column-front flip-front">
-                                                            <div class="mosaic-media mosaic-primary">
-                                                                <img src="imgs/placeholders/meganav-img10.jpg" alt="">
-                                                            </div>
-                                                            <div class="mosaic-overlay">
-                                                                <div class="vertical-container">
-                                                                    <div class="vertical-content text-center">
-                                                                        <span class="label-destination type-destination theme-discover">Special Offers</span>
-                                                                    </div>
+                                        <c:if test="${not empty navigation.megamenu3RhsCategoryTitle}">
+                                        <h3 class="megamenu-mosaic-title">${navigation.megamenu3RhsCategoryTitle}</h3>
+                                        </c:if>
+                                        <c:if test="${not empty navigation.megamenu3RhsMosaicLinks}">
+                                            <c:forEach items="${navigation.megamenu3RhsMosaicLinks}" var="link" varStatus="linkCount">
+                                                <c:if test="${not empty numberOfMegamenu3LhsMosaicRowsCeil && (numberOfMegamenu3LhsMosaicRowsCeil >= linkCount.count)}">
+                                                    <%-- START // mosaic item --%>
+                                                    <div class="megamenu-mosaic-item">
+                                                        <div class="mosaic-item">
+                                                            <div class="mosaic-front-back-container flip-container outbound-link">
+                                                                <div class="flipper">
+                                                                    <c:if test="${not empty link.image && not empty link.linkText}">
+                                                                        <div class="mosaic-column-front flip-front">
+                                                                            <c:if test="${not empty link.image}">
+                                                                                <div class="mosaic-media mosaic-primary">
+                                                                                    <img src="${link.image}" alt="" />
+                                                                                </div>
+                                                                            </c:if>
+                                                                            <c:if test="${not empty link.linkText}">
+                                                                                <div class="mosaic-overlay">
+                                                                                    <div class="vertical-container">
+                                                                                        <div class="vertical-content text-center">
+                                                                                            <span class="label-destination type-destination theme-discover">${link.linkText}</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </c:if>
+                                                                        </div>
+                                                                    </c:if>
+                                                                    <c:if test="${not empty link.pagePath && not empty link.iconImage && not empty link.linkText}">
+                                                                        <div class="mosaic-column-back mosaic-content flip-back mosaic-back theme-discover">
+                                                                            <div class="vertical-container">
+                                                                                <a href="${link.pagePath}" class="mosaic-link vertical-content text-center">
+                                                                                    <c:if test="${not empty link.iconImage}">
+                                                                                    <span class="mosaic-icon">
+                                                                                        <img class="icon-generic" src="${link.iconImage}" alt="">
+                                                                                    </span>
+                                                                                    </c:if>
+                                                                                    <c:if test="${not empty link.linkText}">
+                                                                                        <p class="type-destination line-through-line-wrapper">${link.linkText}</p>
+                                                                                    </c:if>
+                                                                                </a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </c:if>
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="mosaic-column-back mosaic-content flip-back mosaic-back theme-discover">
-                                                            <div class="vertical-container">
-                                                                <a href="#" class="mosaic-link vertical-content text-center">
-                                                                                                <span class="mosaic-icon">
-                                                                                                    <img class="icon-generic" src="imgs/icons/beaches_white_outline.png" alt="">
-                                                                                                </span>
-                                                                    <p class="type-destination line-through-line-wrapper">Special Offers</p>
-                                                                </a>
-                                                            </div>
-                                                        </div>
                                                     </div>
-                                                </div>
-                                            </div>
-                                        </div>
+                                                    <%-- END //  mosaic item --%>
+                                                </c:if>
+                                            </c:forEach>
+                                        </c:if>
                                     </div>
                                 </div>
                                 <a tabindex="-1" class="nav-bar-panel-close" href="#nav-bar-top"><span class="icon icon-16 icon-close" aria-hidden="true"></span></a>
@@ -339,12 +479,18 @@
             </c:if>
             <div class="mobile-open-bar bar-fixed-scroll">
                 <ul class="tool-bar">
-                    <li class="is-current"><a href="#">Holiday</a></li>
-                    <li><a href="#">Business</a></li>
+                    <c:if test="${not empty navigation.arrivalBarLink1Text && not empty navigation.arrivalBarLink1}">
+                        <li class="is-current">
+                            <a href="${navigation.arrivalBarLink1}" target="${navigation.arrivalBarLink1IsExternal ? '_blank' : '_self'}">${navigation.arrivalBarLink1MobileText}</a>
+                        </li>
+                    </c:if>
+                    <c:if test="${not empty navigation.arrivalBarLink2Text && not empty navigation.arrivalBarLink2}">
+                        <li><a href="${navigation.arrivalBarLink2}" target="${navigation.arrivalBarLink2IsExternal ? '_blank' : '_self'}">${navigation.arrivalBarLink2MobileText}</a></li>
+                    </c:if>
                     <li class="nav-bar-toggle">
                         <a class="nav-toggle-close" href="#nav-bar-top">
                             <span class="icon icon-close icon-32" aria-hidden="true"></span>
-                            <span class="sr-only">Close Navigation</span>
+                            <span class="sr-only"><fmt:message key="Close Navigation"/></span>
                         </a>
                     </li>
                 </ul>

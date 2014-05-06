@@ -70,6 +70,7 @@ public class FormEmailServlet extends SlingAllMethodsServlet {
 			String videoUrl = request.getParameter("videoUrl");
 			String phoneNumber = request.getParameter("phone-number");
 			String contact = request.getParameter("contact");
+			String checkBoxData=request.getParameter("additionalcheckbox");
 
 			Page userGeneratedPage = pageManager.create(PathUtils.FOOD_AND_WINE_USER_GENERATED, null, null,
 				"experience-" + UUID.randomUUID().toString(), true);
@@ -88,6 +89,7 @@ public class FormEmailServlet extends SlingAllMethodsServlet {
 			contentProperties.put("cq:distribute", true);
 			contentProperties.put("phoneNumber", phoneNumber);
 			contentProperties.put("contact", contact);
+			contentProperties.put("checkBoxData", checkBoxData);
 
 			properties.put("Business Name ", businessName);
 			properties.put("Location ", location);

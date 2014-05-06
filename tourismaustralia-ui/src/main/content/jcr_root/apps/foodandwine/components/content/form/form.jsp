@@ -406,8 +406,8 @@
 					data-type="checkbox">
 
 					<fieldset class="options">
-						<input id="checkbox" class="checkbox1" type="checkbox"> <label
-							for="checkbox" name="demo_lbl_1" class="checkbox-label">Select <sup>*</sup>
+						<input id="additionalcheckbox" class="checkbox" type="checkbox" name="additionalcheckbox"> <label
+							for="additionalcheckbox" name="demo_lbl_2" class="checkbox-label">Select <sup>*</sup>
 						</label>
 						<!-- Checkbox powered by CssCheckbox.com -->
 						<p class="checkbox-description">

@@ -82,6 +82,10 @@ body{
     }
   }
 
+  .mosaic-item-detail-container.active {
+    max-height:999px;
+  }
+
 
   // would like to remove 3column and keep consistent, left in for now
   .mosaic-3column-item-option.is-fade {

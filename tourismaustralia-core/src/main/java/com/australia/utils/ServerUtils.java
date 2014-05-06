@@ -17,6 +17,7 @@ public class ServerUtils {
 	public static final String PUBLISH = "publish";
 	public static final String LOCAL = "local";
 	public static final String PROD = "prod";
+	private static final String LANGUAGE_CODE = "/(([a-z]{2})((-)([a-z]{2}))?)/.*";
 
 	public static String getServerURL(SlingSettingsService slingSettings, ServerNameService serverNameService,
 		SlingHttpServletRequest request) {
@@ -45,7 +46,7 @@ public class ServerUtils {
 	}
 
 	public static String getLanguageCode(SlingHttpServletRequest request) {
-		Pattern p = Pattern.compile("/(([a-z]{2})((-)([a-z]{2}))?)/.*");
+		Pattern p = Pattern.compile(LANGUAGE_CODE);
 		Matcher m = p.matcher(request.getPathInfo());
 		if (m.find()) {
 			String tempLang = m.group(1);
@@ -53,6 +54,16 @@ public class ServerUtils {
 				.isResourceType(Resource.RESOURCE_TYPE_NON_EXISTING)) {
 				return tempLang;
 			}
+		}
+		return "";
+	}
+
+	public static String getLanguageCode(String path) {
+		Pattern p = Pattern.compile(LANGUAGE_CODE);
+		Matcher m = p.matcher(path);
+		if (m.find()) {
+			String tempLang = m.group(1);
+			return tempLang;
 		}
 		return "";
 	}

@@ -37,7 +37,7 @@ public class ShareThis {
 		Page currentPage = request.getResourceResolver().adaptTo(PageManager.class)
 			.getContainingPage(request.getResource());
 
-		shareType = "current"; // default;
+		shareType = "current"; // default11;
 		shareUrl = currentPage.getPath() + ".html";
 		socialNetworks = this.getSocialNetworks(request).toString();
 	}

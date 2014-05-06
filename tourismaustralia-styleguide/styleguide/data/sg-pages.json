@@ -1232,6 +1232,17 @@
                     ,
                 
             
+                "largeimageherowithbutton" : {
+                     "data" : {
+                        "title" : "largeimageherowithbutton",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'largeimageherowithbutton'}}"
+                }
+                
+                    ,
+                
+            
                 "largeimagetext" : {
                      "data" : {
                         "title" : "largeimagetext",

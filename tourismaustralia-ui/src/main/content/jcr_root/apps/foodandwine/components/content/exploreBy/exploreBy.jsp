@@ -29,14 +29,14 @@
 			<!-- selection for desktop -->
 			<div class="l-display-none-md">
 				<p class='icon-map-wrapper'>
-					<a href="${exploreBy.capital}.html" class="icon-map icon-map-white icon-map-capital"> <span>Australian Captital Territory</span> </a>
-					<a href="${exploreBy.nsw}.html" class="icon-map icon-map-white icon-map-nsw"> <span>New South Wales</span> </a>
-					<a href="${exploreBy.northern}.html" class="icon-map icon-map-white icon-map-northern"> <span>Northern Territory</span> </a>
-					<a href="${exploreBy.queensland}.html" class="icon-map icon-map-white icon-map-queensland"> <span>Queensland</span> </a>
-					<a href="${exploreBy.south}.html" class="icon-map icon-map-white icon-map-south"> <span>South Australia</span> </a>
-					<a href="${exploreBy.tasmania}.html" class="icon-map icon-map-white icon-map-tasmania"> <span>Tasmania</span> </a>
-					<a href="${exploreBy.victoria}.html" class="icon-map icon-map-white icon-map-victoria"> <span>Victoria</span> </a>
-					<a href="${exploreBy.western}.html" class="icon-map icon-map-white icon-map-western"> <span>Western Australia</span> </a>
+					<a href="${exploreBy.capital}" class="icon-map icon-map-white icon-map-capital"> <span>Australian Captital Territory</span> </a>
+					<a href="${exploreBy.nsw}" class="icon-map icon-map-white icon-map-nsw"> <span>New South Wales</span> </a>
+					<a href="${exploreBy.northern}" class="icon-map icon-map-white icon-map-northern"> <span>Northern Territory</span> </a>
+					<a href="${exploreBy.queensland}" class="icon-map icon-map-white icon-map-queensland"> <span>Queensland</span> </a>
+					<a href="${exploreBy.south}" class="icon-map icon-map-white icon-map-south"> <span>South Australia</span> </a>
+					<a href="${exploreBy.tasmania}" class="icon-map icon-map-white icon-map-tasmania"> <span>Tasmania</span> </a>
+					<a href="${exploreBy.victoria}" class="icon-map icon-map-white icon-map-victoria"> <span>Victoria</span> </a>
+					<a href="${exploreBy.western}" class="icon-map icon-map-white icon-map-western"> <span>Western Australia</span> </a>
 				</p>
 			</div>
 			<!-- END: selection -->
@@ -44,14 +44,14 @@
 			<div class="l-display-md">
 				<select class="input-select input-select-small input-select-white-box select-trigger-link">
 					<option value="#">Select place</option>
-					<option value="${exploreBy.capital}.html">ACT</option>
-					<option value="${exploreBy.nsw}.html">NSW</option>
-					<option value="${exploreBy.northern}.html">NT</option>
-					<option value="${exploreBy.queensland}.html">QLD</option>
-					<option value="${exploreBy.south}.html">SA</option>
-					<option value="${exploreBy.tasmania}.html">TAS</option>
-					<option value="${exploreBy.victoria}.html">VIC</option>
-					<option value="${exploreBy.western}.html">WA</option>
+					<option value="${exploreBy.capital}">ACT</option>
+					<option value="${exploreBy.nsw}">NSW</option>
+					<option value="${exploreBy.northern}">NT</option>
+					<option value="${exploreBy.queensland}">QLD</option>
+					<option value="${exploreBy.south}">SA</option>
+					<option value="${exploreBy.tasmania}">TAS</option>
+					<option value="${exploreBy.victoria}">VIC</option>
+					<option value="${exploreBy.western}">WA</option>
 				</select>
 			</div>
 			<!-- END: selection -->

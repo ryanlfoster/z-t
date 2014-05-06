@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="22250" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[홈]]></headline>
+            <href><![CDATA[/ko/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Tools and Campaigns]]></headline>
+            <href><![CDATA[/ko/tools-campaigns.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[호주 관광 명소(내셔널 랜드스케이프)]]></headline>
+            <href><![CDATA[/ko/nationallandscapes.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[닝갈루 -샤크 베이]]></headline>
+            <href><![CDATA[/ko/nationallandscapes/ningaloo-shark-bay.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/Campaigns/national-landscapes-ningaloo-shark-bay.jpg]]></img_background>
+    <hdl_Title><![CDATA[닝갈루 -샤크 베이]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/national-landscapes-ningaloo-shark-bay-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/Campaigns/national-landscapes-ningaloo-shark-bay-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[yes]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[서호주의 코랄 코스트에 있는 닝갈루-샤크 베이에서 자유와 여유를 만끽하세요. 세계 유산 지역으로 등록된 야생의 붉은 배경 끝자락에서 각종 해양생물을 만나보세요.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[닝갈루 리프, 샤크 베이, 샤크 베이 세계 유산 지역, 닝갈루 해양공원, 샤크 베이 해양공원, 고래상어, 고래상어, 더크 핫토그 섬 국립공원, 더크 핫토그 섬, 프랑소아 페론 국립공원, 케이프 레인지 국립공원, 하멜린 풀, 페론 반도, 주잇도프 절벽, 코랄 코스트, 말가나 부족, 말가나 원주민]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[상세 정보]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[호주 내셔널 랜드스케이프: 호주 닝갈루 -샤크 베이 - 호주정부관광청]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        서호주의 코랄 코스트에 있는 닝갈루-샤크 베이에서 자유와 여유를 만끽하세요. 세계 유산 지역으로 등록된 야생의 붉은 배경 끝자락에서 각종 해양생물을 만나보세요.
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <StandardCampaignLayout isTemplate="1">
+    <opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+    <hdl_Title><![CDATA[]]></hdl_Title>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+    <con_Banner><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<DIV id=headerimage>
+<SCRIPT type=text/javascript src="../../static/js/jquery.cycle.all.latest.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+jQuery(document).ready(function() {
+jQuery('#headersliderwrapper').cycle({
+        fx:'fade',
+        slideExpr: '.headerslide'
+    });
+});
+</SCRIPT>
+
+<DIV id=headersliderwrapper>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-nin-01.jpg"> 
+<DIV class=headerslideinfo>고래상어와 함께하는 다이빙, 서호주</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-nin-02.jpg"> 
+<DIV class=headerslideinfo>케이프 페론, 서호주</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-nin-03.jpg"> 
+<DIV class=headerslideinfo>닝갈루 리프의 고래 상어, 서호주</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-nin-04.jpg"> 
+<DIV class=headerslideinfo>몽키 마이어에서 야생 돌고래 먹이주기, 서호주</DIV></DIV></DIV></DIV>
+<DIV id=subpage-header-overlay></DIV>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule></con_Banner>
+    <con_Body><TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[닝갈루 -샤크 베이]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        서호주의 코랄 코스트에 있는 닝갈루-샤크 베이에서 자유와 여유를 만끽하세요. 야생의 붉은 배경 끝자락에서 에메랄드 빛 바다에 사는 각종 해양생물을 만나보세요. 호주의 서남단 끝자락에 위치하며 세계 유산 지역으로 등록된 샤크 베이에서 돌고래가 노닐며, 닝갈루 리프에서 커다란 고래상어가 먼 길을 헤엄치는 모습을 관찰 해 보세요. 자연 그대로의 바다에서 수영하고 스노클링을 즐기고 잠수도 하고 바다 카약도 타보세요. 자연 속 거북이와 듀공, 이동하는 고래 떼, 커다란 쥐가오리도 만날 수 있답니다. 육지에선 백사장을 걷거나, 옛날 모습 그대로를 간직한 붉은 사막의 모래 언덕과 자갈밭을 4륜구동으로 달릴 수도 있지요. 사람의 손에 닿지 않은 듯한 곳에서 탐험도 하고 옛날 원주민 문화도 체험해 보세요.
+        <p><strong>닝갈루-샤크 베이를 찾는 네 가지 이유</strong></p>
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[1. 닝갈루 리프]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-ningaloo-shark-bay-hl01.jpg" alt="Ningaloo Reef, WA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Ningaloo Reef, WA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        4월과 6월 사이에 닝갈루 리프를 방문하면 스노클링을 하며 세상에서 가장 큰 고래상어와 함께 헤엄도 칠 수 있습니다. 해변에서 몇 미터만 가면 나오는 호주의 가장 큰 산호초에서는 경이로운 산호초 정원과 함께 그 안에서 살고 있는 놀라운 해양생물들도 만나볼 수 있답니다. 엑스머스나 코랄 베이에서 해변을 조금만 벗어나면 클라운피시, 말미잘 촉수, 사자물고기, 수백 종의 열대어 사이를 누비는 포식성 곰치를 볼 수 있습니다. 에코 투어나 스쿠버 다이빙 코스에 참가하거나 유리 바닥 보트를 타고 듀공, 거북이, 쥐가오리를 구경하는 기회도 놓치지 마세요. 6월과 10월 사이에는 혹등고래가 이동하는 모습도 볼 수 있고, 3월과 4월에는 산호가 산란하는 장관을 볼 수 있습니다.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[2. 샤크 베이]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-ningaloo-shark-bay-hl02.jpg" alt="Monkey Mia, WA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Monkey Mia, WA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        몽키 미아에서는 야생 돌고래와 함께 헤엄치거나 손수 먹이도 주고, 터틀 베이에서는 멸종 위기에 처한 붉은 거북이 옆을 지나 크루즈 여행도 하고 얕은 물에서 혹등고래가 이동하는 모습도 볼 수 있어요. 샤크 베이는 2백 3십만 헥타르에 걸쳐 열대 바다와 함께 여러 기후대가 섞어 있으며 세계 유산 지역으로 등록된 지역인 만큼 멋진 사계절의 장관을 즐길 수 있답니다. 세계 7개 종 중 세 개의 바다 거북이 종을 이곳에서 만날 수 있으며, 세계 최대의 해초 군락 덕분에 듀공이 가장 안전하게 살 수 있는 지역으로 손꼽히기도 합니다. 잠수나 스노클링으로 각종 산호초 사이를 누비며 계절별로 여러 상어도 만나보고 바다낚시를 떠나거나 일몰을 보며 세일링을 즐겨보세요.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[3. 태고적의 장엄한 자연경관]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-ningaloo-shark-bay-hl03.jpg" alt="Cape Range National Park, WA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Cape Range National Park, WA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        닝갈루 리프의 에메랄드 빛 바다와 잊지 못할 붉은 협곡이 만나는 엑스먼스 근처의 케이프 레인지 국립공원에서 부시워킹이나 암벽 등반을 하거나 4륜구동을 타고 탐험해보세요. 이 공원은 희귀한 검은발 왈라비의 보금자리이기도 합니다. 6월과 10월 사이에는 화려한 야생화도 감상할 수 있답니다. 세계 유산 지역으로 등록된 샤크 베이의 독특한 프랑소아 페론 국립공원은 멸종 위기에 놓인 동물들의 보금자리입니다. 멋진 자연의 모습도 즐기며 커다란 4륜구동을 타고 모험을 떠나보세요. 반면 더크 핫토그 섬은 세계적으로 유명한 낚시터로, 유럽 탐험가들의 흥미로운 역사도 담겨 있답니다. 호주 서남단에 위치한 스티프 포인트에 서서 남쪽으로 150km 뻗은 300미터 높이의 주잇도프 절벽의 장관을 바라보는 기회도 놓치지 마세요. 새하얀 쉘 비치를 걸으며 태고적 모습을 아직도 간직한 스트로마톨라이트가 서식하는 하멜린 풀도 꼭 방문하세요.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[4. 풍성한 원주민 체험验]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-ningaloo-shark-bay-hl04.jpg" alt="Aboriginal experiences, WA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Aboriginal experiences, WA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        세계 유산 전시 센터의 박물관 전시물과 사용자 참여형 디스플레이를 통해 샤크 베이의 고대 원주민 문화를 알아 볼 수 있습니다. 몽키 마이어에서 원주민 워킹투어에 참가해 드림타임에 대한 이야기도 듣고 전통 약초와 부시터커에 대해서 배울 수도 있습니다. 수천 년 동안 외부의 간섭 없이 말가나 원주민이 살고 있는 더크 핫토크 섬 국립공원으로 모험을 떠나보는 것도 좋겠지요. 현재 말가나 부족이 거주하는 지역은 원주민 보호 지역으로 지정되어 있으며 오랫동안 간직해온 이들의 풍부한 문화 유산을 엿볼 수 있습니다.
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights></con_Body>
+    <con_RHSModules><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<TABLE cellSpacing=0 cellPadding=0 width=298 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top align=center>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD style="WIDTH: 25px"></TD>
+<TD><!-- #BeginLibraryItem "/Library/sitenav.lbi" -->
+<SCRIPT language=JavaScript1.2 type=text/javascript src="../../static/js/stmenu.js"></SCRIPT>
+<!-- #EndLibraryItem --></TD></TR></TBODY></TABLE><!-- Google Map Start -->
+<SCRIPT type=text/javascript>
+function fireEvent(obj,evt){
+ var fireOnThis = obj;
+ if( document.createEvent ) {
+   var evObj = document.createEvent('MouseEvents');
+   evObj.initEvent( evt, true, false );
+   fireOnThis.dispatchEvent(evObj);
+ } else if( document.createEventObject ) {
+   fireOnThis.fireEvent('on'+evt);
+ }
+}
+function clickLink(linkobj) {
+     if (linkobj.getAttribute('onclick') == null) {
+          if (linkobj.getAttribute('href')) document.location = linkobj.getAttribute('href');
+     }
+     else linkobj.onclick();
+}
+function loadjscssfile(filename, filetype){
+ if (filetype=="js"){ //if filename is a external JavaScript file
+  var fileref=document.createElement('script')
+  fileref.setAttribute("type","text/javascript")
+  fileref.setAttribute("src", filename)
+ }
+ else if (filetype=="css"){ //if filename is an external CSS file
+  var fileref=document.createElement("link")
+  fileref.setAttribute("rel", "stylesheet")
+  fileref.setAttribute("type", "text/css")
+  fileref.setAttribute("href", filename)
+  fileref.setAttribute("media", "print")
+ }
+ if (typeof fileref!="undefined")
+  document.getElementsByTagName("head")[0].appendChild(fileref)
+}
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+var icheckk=0;
+jQuery.each(jQuery.browser, function(i, val) {
+if(i=="msie" && jQuery.browser.version.substr(0,3)=="7.0")
+icheckk=1;
+});
+function myfun()
+{
+loadjscssfile("../../static/css/thickbox.css", "css");
+if(icheckk==1)
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='../../static/maps/ko/ningaloosharkbay/bigmap.html'  target='_blank'>&nbsp;인쇄|닫습니다|&nbsp;또는 Esc 키를 누르십시오</a></b>","../../static/maps/ko/ningaloosharkbay/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+else
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='javascript:window.print()' >&nbsp;인쇄|닫습니다|&nbsp;또는 Esc 키를 누르십시오</a></b>","../../static/maps/ko/ningaloosharkbay/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+}
+         </SCRIPT>
+<IFRAME style="MARGIN-BOTTOM: 20px; BORDER-TOP: black 1px solid; HEIGHT: 355px; BORDER-RIGHT: black 1px solid; BORDER-BOTTOM: black 1px solid; FLOAT: left; PADDING-BOTTOM: 5px; BORDER-LEFT: black 1px solid; BACKGROUND-COLOR: #333333" height=380 src="../../static/maps/ko/ningaloosharkbay/index.html" frameBorder=0 width=249 name=FRAMENAME scrolling=no></IFRAME><!-- Google Map end -->
+<DIV class=subpage-video-thumb style="TEXT-ALIGN: left"><A onclick="moduleTrackingWithTitle('lightbox-video','',false,'nationallandscapes-ningaloosharkbayko');" href="#" data-reveal-id="modalVideo"><IMG alt="" src="/contentimages/Campaigns/national-landscapes-video-ko.jpg"></A> </DIV>
+<DIV id=modalVideo class="reveal-modal video" style-="z-index: 103;"><A class=close-reveal-modal><SPAN class=icon></SPAN></A>
+<DIV class=video style="VISIBILITY: visible !important"><IFRAME height=315 src="//www.youtube.com/v/EjGZ3MaX9pE?version=3&amp;hl=en_GB" frameBorder=0 width=560></IFRAME></DIV></DIV></TD></TR></TBODY></TABLE>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule><Listing isTemplate="1">
+<anc_List1><![CDATA[/ko/explore/states/wa.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[호주 아이디어 더]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/ko/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/ko/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/ko/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/ko/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/ko/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/ko/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/ko/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/ko/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/ko/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/ko/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/ko/Transport.aspx]]></anc_Transport>
+<hdl_Title><![CDATA[호주 닝갈루 -샤크 베이 여행을 계획하세요]]></hdl_Title>
+<language><![CDATA[KOR]]></language>
+<stf_Accomodation><![CDATA[Accommodation]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[ningaloo reef]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[Attractions]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[Find a Travel Agent near you]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[Destination Information]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[Events]]></stf_Events>
+<stf_Hire><![CDATA[Hire ]]></stf_Hire>
+<stf_Informationservices><![CDATA[Information Services]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[Western Australia]]></stf_StateFilter>
+<stf_Tours><![CDATA[Tours]]></stf_Tours>
+<stf_Transport><![CDATA[Transport]]></stf_Transport>
+</PlanYourVisit></con_RHSModules>
+    <con_Category></con_Category>
+    <lst_Subpages>
+    </lst_Subpages>
+</StandardCampaignLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

@@ -1,0 +1,477 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="18870" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Inicio]]></headline>
+            <href><![CDATA[/es-la/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Tools and Campaigns]]></headline>
+            <href><![CDATA[/es-la/tools-campaigns.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Paisagens Nacionais da Austrália]]></headline>
+            <href><![CDATA[/es-la/nationallandscapes.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/Campaigns/campaigns-national-landscapes.jpg]]></img_background>
+    <hdl_Title><![CDATA[Paisagens Nacionais da Austr&aacute;lia]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/campaigns-national-landscapes-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/Campaigns/campaigns-national-landscapes-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[1]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[yes]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[Descubra as Paisagens Nacionais da Austr&aacute;lia, uma cole&ccedil;&atilde;o espetacular das mais belas obras da natureza.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[Paisagens australianas, paisagens da Austr&aacute;lia, paisagens nacionais da Austr&aacute;lia, natureza da Austr&aacute;lia, natureza australiana, parques nacionais da Austr&aacute;lia, parques nacionais australianos, patrim&ocirc;nio mundial da Austr&aacute;lia, f&eacute;rias na Austr&aacute;lia, abor&iacute;gene]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Mayor informaci&oacute;n]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Paisagens Nacionais da Austr&aacute;lia - Turismo Australia]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        Descubra as Paisagens Nacionais da Austr&aacute;lia, uma cole&ccedil;&atilde;o espetacular das mais belas obras da natureza.
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <StandardCampaignLayout isTemplate="1">
+    <opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+    <hdl_Title><![CDATA[]]></hdl_Title>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+    <con_Banner><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<!--OB Lightbox -->
+<SCRIPT type=text/javascript src="../static/js/orangebox.min.js"></SCRIPT>
+<LINK rel=stylesheet type=text/css href="../static/css/orangebox.css">
+<SCRIPT type=text/javascript src="../static/js/jquery.cycle.all.latest.js"></SCRIPT>
+<!--Start: headeimage-->
+<DIV id=headerimage><!-- InstanceBeginEditable name="Slides" -->
+<SCRIPT type=text/javascript>
+$('#mainContent').css("margin-top", "200");
+oB.settings.contentBorderWidth= 10;
+shuffle = function(v){
+    for(var j, x, i = v.length; i; j = parseInt(Math.random() * i), x = v[--i], v[i] = v[j], v[j] = x);
+    return v;
+};
+var imgnum=[];
+for (var i=0; i<16; i++)
+  {
+   imgnum[i]=i;
+  }
+var folder="../contentimages/campaigns/";
+var imgname = ["header-acn-0", "header-acw-0", "header-agc-0", "header-alp-0", "header-atn-0", "header-fli-0", "header-gbm-0" ,"header-gbr-0" ,"header-gor-0","header-gsw-0" ,"header-kim-0" ,"header-kis-0" ,"header-nin-0","header-syd-0" ,"header-tas-0" ,"header-wet-0"]
+var imgtxt=["Red Centre de Australia", "Parajes naturales costeros de Australia", "El Green Cauldron de Australia", "Alpes Australianos", "El norte atemporal de Australia", "Cordillera Flinders", "Zona de las Monta&ntilde;as Azules" ,"Gran Barrera de Coral" ,"Carretera Great Ocean Road","Borde occidental del gran sur" ,"The Kimberley " ,"Isla Canguro" ," Ningaloo-Shark Bay","Puerto de Sydney" ,"Tasmania's Island Heritage" ,"Tr&oacute;picos h&uacute;medos"]
+var tmp=shuffle(imgnum)
+document.write('<div id="headersliderwrapper">');
+for (var i=0;i<imgname.length;i++)
+{ 
+document.write('<div class="headerslide"><img src="'+folder+imgname[tmp[i]] + '1.jpg"/><div class="headerslideinfo">'+imgtxt[tmp[i]]+'</div></div>');
+}
+document.write('</div>');
+jQuery(document).ready(function() {
+ $('#headersliderwrapper').cycle({
+        fx:'fade',
+        slideExpr: '.headerslide'
+    });
+});
+</SCRIPT>
+<!-- InstanceEndEditable --><!-- InstanceBeginEditable name="pagetitle" -->
+<UL class=headertitle>
+<LI class=l1>Paisajes Nacionales de Australia </LI>
+<LI class=l2>Los mejores destinos para experimentar la naturaleza y la cultura particulares de Australia</LI></UL><!-- InstanceEndEditable --><!-- InstanceBeginEditable name="Hover Map" -->
+<SCRIPT type=text/javascript src="../static/js/jquery.imagemapster.min.js"></SCRIPT>
+
+<SCRIPT language=javascript type=text/javascript>
+  $(document).ready(function() {
+   
+  var image = $('#vegetables');
+    image.mapster(
+    {
+        fillOpacity: 1,
+        fillColor: "ffb800",
+        stroke: false,
+        strokeColor: "3320FF",
+        strokeOpacity: 0.8,
+        strokeWidth: 4,
+        singleSelect: true,
+        mapKey: 'name',
+        listKey: 'name',
+  clickNavigate: true,
+  onMouseover: function (e) {
+    $('.region_title').html(e.key);
+  },
+  onMouseout: function () {
+    $('.region_title').html('');
+  },
+        onClick: function (e) {
+    $('.region_title').html(e.key);
+  }
+ });
+ 
+ 
+ 
+ });
+ 
+</SCRIPT>
+
+<DIV id=homepage-map><IMG id=vegetables border=0 alt="" src="/contentimages/campaigns/map.png" width=257 height=235 useMap=#veg> <MAP id=veg_map name=veg><AREA href="../es-la/nationallandscapes/ningaloo-shark-bay.aspx" shape=poly alt="Ningaloo-Shark Bay" coords=18,64,13,68,14,80,17,83,21,81,22,73,22,71 name="Ningaloo-Shark Bay"><AREA href="../es-la/nationallandscapes/the-kimberley.aspx" shape=poly alt="La regi&oacute;n de Kimberley" coords=50,41,56,30,71,27,73,34,70,40,67,46,61,48,53,46 name="La regi&oacute;n de Kimberley"><AREA href="../es-la/nationallandscapes/wet-tropics.aspx" shape=poly alt="Tr&oacute;picos h&uacute;medos" coords=131,31,134,32,135,31,138,35,139,39,140,42,138,44,131,36,131,33 name="Tr&oacute;picos h&uacute;medos"><AREA href="../es-la/nationallandscapes/australias-red-centre.aspx" shape=poly alt="Red Centre de Australia" coords=84,73,88,71,95,70,95,76,91,77,84,76,84,76 name="Red Centre de Australia"><AREA href="../es-la/nationallandscapes/australias-timeless-north.aspx" shape=poly alt="El norte atemporal de Australia" coords=89,26,91,20,100,19,102,23,100,27,95,29 name="El norte atemporal de Australia"><AREA href="../es-la/nationallandscapes/flinders-ranges.aspx" shape=poly alt="Cordillera Flinders" coords=109,98,112,99,114,104,111,107,109,104 name="Cordillera Flinders"><AREA href="../es-la/nationallandscapes/great-south-west-edge.aspx" shape=poly alt="Borde occidental del gran sur" coords=30,114,37,114,46,113,49,115,50,118,47,119,43,120,39,122,33,122,28,119 name="Borde occidental del gran sur"><AREA href="../es-la/nationallandscapes/kangaroo-island.aspx" shape=poly alt="Isla Canguro" coords=104,118,107,117,110,119,110,121,107,122,104,121 name="Isla Canguro"><AREA href="../es-la/nationallandscapes/australias-green-cauldron.aspx" shape=poly alt="El Green Cauldron de Australia" coords=161,85,165,82,170,82,171,86,169,90,166,91,162,88 name="El Green Cauldron de Australia"><AREA href="../es-la/nationallandscapes/greater-blue-mountains.aspx" shape=poly alt="Zona de las Monta&ntilde;as Azules" coords=150,103,153,103,156,105,155,107,154,109,150,106 name="Zona de las Monta&ntilde;as Azules"><AREA href="../es-la/nationallandscapes/sydney-harbour.aspx" shape=poly alt="Puerto de Sydney" coords=156,112,157,107,160,108,160,113 name="Puerto de Sydney"><AREA href="../es-la/nationallandscapes/australian-alps.aspx" shape=poly alt="Alpes Australianos" coords=147,113,151,112,154,113,153,117,152,119,147,119 name="Alpes Australianos"><AREA href="../es-la/nationallandscapes/australias-coastal-wilderness.aspx" shape=poly alt="Parajes naturales costeros de Australia" coords=145,124,148,120,153,120,156,123,156,127,155,130,151,129,144,125 name="Parajes naturales costeros de Australia"><AREA href="../es-la/nationallandscapes/great-ocean-road.aspx" shape=poly alt="Carretera Great Ocean Road" coords=120,128,122,125,128,126,133,129,131,131 name="Carretera Great Ocean Road"><AREA href="../es-la/nationallandscapes/tasmanias-island-heritage.aspx" shape=poly alt="El patrimonio de la isla de Tasmania" coords=134,139,138,139,140,141,144,141,145,139,147,142,147,146,144,151,142,152,139,152,134,144 name="El patrimonio de la isla de Tasmania"><AREA href="../es-la/nationallandscapes/great-barrier-reef.aspx" shape=poly alt="Gran Barrera de Coral" coords=158,58,154,56,149,51,142,43,139,31,136,28,133,25,131,17,136,20,146,35,154,45,157,51 name="Gran Barrera de Coral"></MAP>
+<DIV class=region_title>Paisajes Nacionales de Australia</DIV></DIV><!-- InstanceEndEditable --></DIV><!--Start: homepage-header-overlay-->
+<DIV id=homepage-header-overlay><!--Start: homepage-intro-->
+<DIV id=homepage-intro><!--Start: homepage-intro-left-->
+<DIV id=homepage-intro-left>
+<H1>Bienvenido a los paisajes nacionales de Australia</H1>
+<P>Descubra los paisajes nacionales de Australia, una espectacular colecci&oacute;n de las mejores obras producidas por la naturaleza. Estos enclaves tienen un gran significado cultural, natural y espiritual y muchos de ellos forman parte del Patrimonio Mundial. Explore cristalinas playas, ancestrales bosques pluviales, abruptas cordilleras monta&ntilde;osas y extensos parques nacionales. Camine, escale, acampe, practique esqu&iacute;, monte en canoa, conecte con la viva cultura aborigen y entre en comuni&oacute;n con la naturaleza. 
+<P></P></DIV><!--End: homepage-intro-left--><!--Start: homepage-video-panel--><!-- new video styling -->
+<DIV id=homepage-video-panel style="MARGIN-RIGHT: 65px">
+<DIV class=subpage-video-thumb style="TEXT-ALIGN: left"><A onclick="moduleTrackingWithTitle('lightbox-video','',false,'nationallandscapes-homepageesla');" href="#" data-reveal-id="modalVideo"><IMG src="/contentimages/Campaigns/homepage-video-thumb1.png"></A></DIV></DIV></DIV></DIV>
+<DIV id=modalVideo class="reveal-modal video" style-="z-index: 103;"><A class=close-reveal-modal><SPAN class=icon></SPAN></A>
+<DIV class=video style="VISIBILITY: visible !important"><IFRAME height=315 src="//www.youtube.com/v/EjGZ3MaX9pE?version=3&amp;hl=en_GB" frameBorder=0 width=560></IFRAME></DIV></DIV>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule></con_Banner>
+    <con_Body><GenericHTML isTemplate="1">
+<txt_custom_styling><![CDATA[<LINK rel=stylesheet type=text/css href="../static/css/natlandscapes.css">]]></txt_custom_styling>
+<txt_main><![CDATA[
+        <table width="100%" border="0" cellspacing="0" cellpadding="20">
+            <tbody>
+                <tr>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start one -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td align="top" valign="top" style="width: 20%;"><!-- new start -->
+                                <table width="177" border="0" cellspacing="0" cellpadding="0">
+                                    <tbody>
+                                        <tr>
+                                            <td><a href="/es-la/nationallandscapes/australian-alps.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-fnt-aus-alps.jpg" /></a> </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="picFooter">Snowy Mountains, NSW</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <!-- new end --></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="/es-la/nationallandscapes/australian-alps.xml" class="landingHeaders">Alpes Australianos</a> </p>
+                                <p>En un continente, que en gran parte es seco y llano, no hay nada m&aacute;s desafiante que los monta&ntilde;osos Alpes Australianos, cubiertos por un manto de nieve.<br />
+                                <a href="/es-la/nationallandscapes/australian-alps.xml">Mayor informaci&oacute;n</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end one --></td>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start two -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20%;"><a href="/es-la/nationallandscapes/great-south-west-edge.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-gsw-03.jpg" /></a></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="/es-la/nationallandscapes/great-south-west-edge.xml" class="landingHeaders">Borde occidental del gran sur</a></p>
+                                <p>Enriqu&eacute;zcase en la extraordinaria biodiversidad del Borde del Gran Sudoeste, escondida en la esquina inferior de Australia Occidental, la cual se extiende desde Busselton hasta el Parque Nacional de Cape Arid. <a href="/es-la/nationallandscapes/great-south-west-edge.xml">Mayor informaci&oacute;n</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="picFooter">Borde occidental del gran sur, WA</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end two --></td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start one -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20%;"><a href="/es-la/nationallandscapes/australias-coastal-wilderness.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-fnt-aus-coastal-wilderness.jpg" /></a></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="/es-la/nationallandscapes/australias-coastal-wilderness.xml" class="landingHeaders">Parajes naturales costeros de Australia</a></p>
+                                <p>Extendi&eacute;ndose desde la lejana costa sur de Nueva Gales hasta East Gippsland en Victoria, los parajes naturales costeros de Australia son el punto donde coinciden los altos bosques, los lagos y las playas. <a href="/es-la/nationallandscapes/australias-coastal-wilderness.xml">Mayor informaci&oacute;n</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="picFooter">Bittangabee Bay, NSW</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end one --></td>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start two -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20%;"><a href="/es-la/nationallandscapes/australias-timeless-north.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-fnt-kakadu(1).jpg" /></a></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="/es-la/nationallandscapes/australias-timeless-north.xml" class="landingHeaders">El norte atemporal de Australia</a></p>
+                                <p>Descubra el Parque Nacional de Kakadu, un espectacular tapiz de pantanos, fauna y flora y arte rupestre aborigen con m&aacute;s de 50.000 a&ntilde;os de antig&uuml;edad. <a href="/es-la/nationallandscapes/australias-timeless-north.xml">Mayor informaci&oacute;n</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="picFooter">Kakadu, NT </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end two --></td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start one -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20%;"><a href="/es-la/nationallandscapes/australias-green-cauldron.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-fnt-aus-green-cauldron.jpg" /></a></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="http://www.australia.com/campaigns/nationallandscapes2/es_la/AustraliasGreenCauldron.htm">El Green Cauldron de Australia</a><a href="/es-la/nationallandscapes/australias-green-cauldron.xml" class="landingHeaders"></a></p>
+                                <p>Pasee por el monte Warning (Wollumbin) en el Green Cauldron de Australia, los restos de un antiguo volc&aacute;n que hoy en d&iacute;a es el bosque pluvial Gondwanan, repleto de vida. <a href="/es-la/nationallandscapes/australias-green-cauldron.xml">Mayor informaci&oacute;n</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="picFooter">Mount Warning, NSW</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end one --></td>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start two -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20%;"><a href="/es-la/nationallandscapes/kangaroo-island.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-fnt-kangaroo-island.jpg" /></a></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="/es-la/nationallandscapes/kangaroo-island.xml" class="landingHeaders">Isla Canguro</a></p>
+                                <p>Contemple a los animales aut&oacute;ctonos en el cristalino enclave natural de Isla Canguro, a la que se puede acceder f&aacute;cilmente desde Adelaida.<br />
+                                <a href="/es-la/nationallandscapes/kangaroo-island.xml">Mayor informaci&oacute;n</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="picFooter">Isla Canguro, SA</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end two --></td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start one -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20%;"><a href="/es-la/nationallandscapes/australias-red-centre.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-fnt-aus-red-centre.jpg" /></a></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="/es-la/nationallandscapes/australias-red-centre.xml" class="landingHeaders">Red Centre de Australia</a> </p>
+                                <p>Puede perderse y volver a encontrarse en el Red Centre de Australia, un lugar rico en cultura aborigen y tosca belleza del interior. <a href="/es-la/nationallandscapes/australias-red-centre.xml">Mayor informaci&oacute;n</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="picFooter">Uluru, NT</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end one --></td>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start two -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20%;"><a href="/es-la/nationallandscapes/ningaloo-shark-bay.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-nsb-01.jpg" /></a></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="/es-la/nationallandscapes/ningaloo-shark-bay.xml" class="landingHeaders">Ningaloo-Shark Bay</a></p>
+                                <p>Libere su esp&iacute;ritu en Ningaloo-Shark Bay, en la Costa de Coral de Australia Occidental, donde un oc&eacute;ano turquesa se encuentra repleto de vida marina, en el extremo de un paisaje rojizo y salvaje.<br />
+                                <a href="/es-la/nationallandscapes/ningaloo-shark-bay.xml">Mayor informaci&oacute;n</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="picFooter">Ningaloo-Shark Bay, WA</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end two --></td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start one -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20%;"><a href="/es-la/nationallandscapes/flinders-ranges.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-fnt-flinders-ranges.jpg" /></a></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="/es-la/nationallandscapes/flinders-ranges.xml" class="landingHeaders">Cordillera Flinders</a></p>
+                                <p>Siga el rastro de una historia tan antigua como la Tierra misma en la mayor cordillera monta&ntilde;osa de Australia Meridional. <a href="/es-la/nationallandscapes/flinders-ranges.xml">Mayor informaci&oacute;n</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="picFooter">Cordillera Flinders, SA</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end one --></td>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start two -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20%;"><a href="/es-la/nationallandscapes/sydney-harbour.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-fnt-syd.jpg" /></a></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="/es-la/nationallandscapes/sydney-harbour.xml" class="landingHeaders">Puerto de Sydney</a></p>
+                                <p>Sydney es una ciudad conformada por su asombroso puerto natural. <a href="/es-la/nationallandscapes/sydney-harbour.xml">Mayor informaci&oacute;n</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="picFooter">El paisaje de la ciudad de Sydney</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end two --></td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start one -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20%;"><a href="/es-la/nationallandscapes/great-barrier-reef.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-fnt-gbr.jpg" /></a></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="/es-la/nationallandscapes/great-barrier-reef.xml" class="landingHeaders">Gran Barrera de Coral</a></p>
+                                <p>La Gran Barrera de Coral, una de las Siete Maravillas Naturales del Mundo y declarada Patrimonio Mundial, es el sistema de arrecife de coral m&aacute;s grande del planeta. <a href="/es-la/nationallandscapes/great-barrier-reef.xml">Mayor informaci&oacute;n</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="picFooter">Fringe Reef Island, QLD</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end one --></td>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start two -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20%;"><a href="/es-la/nationallandscapes/tasmanias-island-heritage.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-fnt-tas.jpg" /></a></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="/es-la/nationallandscapes/tasmanias-island-heritage.xml" class="landingHeaders">El patrimonio de la isla de Tasmania</a></p>
+                                <p>El Paisaje Nacional Patrimonial de la isla de Tasmania es un entorno silvestre de belleza inmaculada y a la vez accesible que ofrece costas espectaculares, bosques frondosos y monta&ntilde;as nevadas. <a href="/es-la/nationallandscapes/tasmanias-island-heritage.xml">Mayor informaci&oacute;n</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="picFooter">Lake Oberon, TAS</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end two --></td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start one -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20%;"><a href="/es-la/nationallandscapes/great-ocean-road.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-fnt-gor.jpg" /></a></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="/es-la/nationallandscapes/great-ocean-road.xml" class="landingHeaders">Carretera Great Ocean Road</a></p>
+                                <p>Observe c&oacute;mo la naturaleza luce en su m&aacute;ximo esplendor en cada tramo de la carretera Great Ocean Road, que se extiende desde Torquay, cerca de Melbourne, hasta llegar a Portland.<br />
+                                <a href="/es-la/nationallandscapes/great-ocean-road.xml">Mayor informaci&oacute;n</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="picFooter">Carretera Great Ocean Road, VIC</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end one --></td>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start two -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20%;"><a href="/es-la/nationallandscapes/the-kimberley.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-fnt-the-kimb.jpg" /></a></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="/es-la/nationallandscapes/the-kimberley.xml" class="landingHeaders">La regi&oacute;n de Kimberley</a></p>
+                                <p>Quede fascinado con la regi&oacute;n de Kimberley, situada en el lejano extremo noroeste de Australia, donde los impresionantes paisajes datan de la era de los dinosaurios. <a href="/es-la/nationallandscapes/the-kimberley.xml">Mayor informaci&oacute;n</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="picFooter">La regi&oacute;n de Kimberley, WA</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end two --></td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start one -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20%;"><a href="/es-la/nationallandscapes/greater-blue-mountains.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-fnt-blue-mountains.jpg" /></a></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="/es-la/nationallandscapes/greater-blue-mountains.xml" class="landingHeaders">Zona de las Monta&ntilde;as Azules</a></p>
+                                <p>Sienta una libertad inconmensurable en la zona del Patrimonio Mundial de las Monta&ntilde;as Azules, donde encontrar&aacute; un mill&oacute;n de hect&aacute;reas de acantilados, ca&ntilde;ones, valles, cascadas y montes.<br />
+                                <a href="/es-la/nationallandscapes/greater-blue-mountains.xml">Mayor informaci&oacute;n</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="picFooter">Hanging Rock, Blackheath, NSW</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end one --></td>
+                    <td align="left" valign="top" style="width: 50%;"><!-- start two -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20%;"><a href="/es-la/nationallandscapes/wet-tropics.xml" target="_self"><img alt="" class="pic" src="/contentimages/Campaigns/thumbs-fnt-wet.jpg" /></a></td>
+                                <td style="width: 80%; padding-left: 15px;" rowspan="2">
+                                <p class="landingHeaders"><a href="/es-la/nationallandscapes/wet-tropics.xml" class="landingHeaders">Tr&oacute;picos h&uacute;medos</a></p>
+                                <p>Desde el bosque pluvial de Daintree hasta la regi&oacute;n de mesetas, el paisaje nacional de los Tr&oacute;picos H&uacute;medos es un destino fascinante e intrigante, que atrae a todas las personas que lo visitan.<br />
+                                <a href="/es-la/nationallandscapes/wet-tropics.xml">Mayor informaci&oacute;n</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="picFooter">Tr&oacute;picos h&uacute;medos, QLD</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end two --></td>
+                </tr>
+            </tbody>
+        </table>
+    ]]></txt_main>
+</GenericHTML></con_Body>
+    <con_RHSModules></con_RHSModules>
+    <con_Category></con_Category>
+    <lst_Subpages>
+    </lst_Subpages>
+</StandardCampaignLayout>
+    </con_Body>
+    <lst_Subpages>
+        <lst_Subpage><![CDATA[<a href="/es-la/nationallandscapes/australian-alps.xml">Alpes Australianos</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/es-la/nationallandscapes/australias-coastal-wilderness.xml">Parajes naturales costeros de Australia</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/es-la/nationallandscapes/australias-green-cauldron.xml">El Green Cauldron de Australia</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/es-la/nationallandscapes/australias-red-centre.xml">Red Centre de Australia</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/es-la/nationallandscapes/australias-timeless-north.xml">El norte atemporal de Australia</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/es-la/nationallandscapes/flinders-ranges.xml">Cordillera Flinders</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/es-la/nationallandscapes/great-barrier-reef.xml">Gran Barrera de Coral</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/es-la/nationallandscapes/great-ocean-road.xml">Carretera Great Ocean Road</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/es-la/nationallandscapes/great-south-west-edge.xml">Borde occidental del gran sur</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/es-la/nationallandscapes/greater-blue-mountains.xml">Zona de las Montañas Azules</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/es-la/nationallandscapes/kangaroo-island.xml">Isla Canguro</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/es-la/nationallandscapes/ningaloo-shark-bay.xml">Ningaloo-Shark Bay</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/es-la/nationallandscapes/sydney-harbour.xml">Puerto de Sydney</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/es-la/nationallandscapes/tasmanias-island-heritage.xml">El patrimonio de la isla de Tasmania</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/es-la/nationallandscapes/the-kimberley.xml">La región de Kimberley</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/es-la/nationallandscapes/wet-tropics.xml">Trópicos húmedos</a>]]></lst_Subpage>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="200" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Página inicial]]></headline>
+            <href><![CDATA[/pt-br/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Sobre]]></headline>
+            <href><![CDATA[/pt-br/about.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Nossa história]]></headline>
+            <href><![CDATA[/pt-br/about/culture-history/history.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/about-culture-history-history.jpg]]></img_background>
+    <hdl_Title><![CDATA[Nossa hist&oacute;ria]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[no]]></opt_PartnerLead>
+    <stf_description><![CDATA[Saiba mais sobre a hist&oacute;ria da Austr&aacute;lia: desde os primeiros habitantes abor&iacute;gines a seu status atual como uma moderna na&ccedil;&atilde;o multicultural.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[australia, history, aboriginal, outback, Indigenous art, culture, languages, dialects, past, present, future, convicts, nation, war, political, economic, social, change, History of Australia]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Saiba mais]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[A Hist&oacute;ria da Austr&aacute;lia - Tourism Austr&aacute;lia]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        Acompanhe a jornada da Austr&aacute;lia, de um continente abor&iacute;gine atemporal a uma col&ocirc;nia brit&acirc;nica condenada e uma moderna na&ccedil;&atilde;o multicultural.
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <PlanYourHolidayBox isTemplate="1">
+    <anc_MoreLink><![CDATA[]]></anc_MoreLink>
+    <hdl_Headline><![CDATA[Planeje suas f&eacute;rias]]></hdl_Headline>
+    <language><![CDATA[PTB]]></language>
+    <opt_IsOnHomepage><![CDATA[]]></opt_IsOnHomepage>
+    <stf_MenuIconClass><![CDATA[]]></stf_MenuIconClass>
+    <stf_More><![CDATA[More]]></stf_More>
+    <stf_PlanYourHolidayTitle><![CDATA[Plan your holiday]]></stf_PlanYourHolidayTitle>
+    <lst_PageLinks>
+        <lst_PageLink>
+            <url><![CDATA[/pt-br/plan/plan-your-trip/find-travel-agent.xml]]></url>
+            <hdl_Title><![CDATA[Especialista em viagens]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/pt-br/plan/plan-your-trip/getting-there.xml]]></url>
+            <hdl_Title><![CDATA[Como chegar &agrave; Austr&aacute;lia]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/pt-br/plan/plan-your-trip/accommodation.xml]]></url>
+            <hdl_Title><![CDATA[Acomoda&ccedil;&atilde;o]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/pt-br/plan/plan-your-trip/tours.xml]]></url>
+            <hdl_Title><![CDATA[Encontre passeios]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/pt-br/plan/plan-your-trip/specialoffers.xml]]></url>
+            <hdl_Title><![CDATA[Ofertas Especiais*]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+    </lst_PageLinks>
+</PlanYourHolidayBox>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <FeatureContent isTemplate="1">
+    <hdl_Title><![CDATA[Nossa hist&oacute;ria]]></hdl_Title> 
+    <stf_MoreLinkTitle><![CDATA[]]></stf_MoreLinkTitle>
+    <txt_MainContent><![CDATA[
+        <strong>O povo abor&iacute;gine sonha em um continente atemporal </strong><br />
+        Pensava-se que o povo abor&iacute;gine da Austr&aacute;lia tinha chegado aqui de barco, vindo do sudeste asi&aacute;tico durante a &uacute;ltima Era Glacial, h&aacute; pelo menos 50.000 anos. Por ocasi&atilde;o da descoberta e coloniza&ccedil;&atilde;o europeia, at&eacute; um milh&atilde;o de pessoas abor&iacute;gines viviam em todo o continente como ca&ccedil;adores-coletores. Eles estavam espalhados em 300 cl&atilde;s e falavam 250 idiomas e 700 dialetos. Cada cl&atilde; tinha uma conex&atilde;o espiritual com uma parte espec&iacute;fica da terra, mas tamb&eacute;m viajava muito para comercializar, encontrar &aacute;gua e frutas e verduras sazonais e para fazer reuni&otilde;es rituais e tot&ecirc;micas. 
+        <p>N&atilde;o obstante a diversidade de suas terras natais – desde desertos no outback e florestas tropicais at&eacute; montanhas cobertas de neve –, todo o povo abor&iacute;gine compartilhava a cren&ccedil;a na esfera m&aacute;gica e atemporal de Dreamtime (“Tempo dos Sonhos”). Segundo o mito abor&iacute;gine, esp&iacute;ritos ancestrais tot&ecirc;micos criaram todos os aspectos da vida durante o Dreamtime da cria&ccedil;&atilde;o do mundo. Esses esp&iacute;ritos ancestrais continuam a conectar fen&ocirc;menos naturais, bem como o passado, o presente e o futuro, atrav&eacute;s de cada aspecto da <a href="/pt-br/explore/things-to-do/aboriginal-australia.xml" target="_self">cultura abor&iacute;gine</a>. </p>
+        <p><strong>Os ingleses chegam e trazem seus condenados </strong><br />
+        Alguns exploradores europeus navegaram pela costa da Austr&aacute;lia, ent&atilde;o conhecida como Nova Holanda, no s&eacute;culo 17. No entanto, n&atilde;o foi at&eacute; 1770 que o Capit&atilde;o James Cook mapeou a costa oeste e a reivindicou para os brit&acirc;nicos. O novo posto avan&ccedil;ado foi usado como col&ocirc;nia penal e em 26 de janeiro de 1788, a primeira frota de 11 navios que levavam 1.500 pessoas – metade delas condenados – chegou ao porto de Sydney. At&eacute; a extin&ccedil;&atilde;o do transporte penal em 1868, 160.000 homens e mulheres vieram para a Austr&aacute;lia como condenados. </p>
+        <p>Enquanto colonizadores livres come&ccedil;aram a chegar a partir do in&iacute;cio dos anos 1790, a vida para os prisioneiros era dif&iacute;cil. Havia cinco vezes mais homens do que mulheres e estas viviam sob a amea&ccedil;a de explora&ccedil;&atilde;o sexual. Homens que voltavam a transgredir a lei eram brutalmente a&ccedil;oitados ou podiam ser enforcados por crimes t&atilde;o pequenos como o furto. O povo abor&iacute;gine deslocado pela nova coloniza&ccedil;&atilde;o sofreu ainda mais. A desapropria&ccedil;&atilde;o da terra e a doen&ccedil;a e morte decorrentes das doen&ccedil;as introduzidas prejudicaram os estilos de vida e as pr&aacute;ticas tradicionais.  </p>
+        <p><strong>Os colonizadores tomam o continente </strong><br />
+        At&eacute; os anos 1820, muitos soldados, oficiais e condenados emancipados haviam transformado as terras que receberam do governo em pr&oacute;speras fazendas. Not&iacute;cias sobre as terras baratas e o trabalho abundante na Austr&aacute;lia traziam mais e mais barcos cheios de migrantes aventureiros da Gr&atilde;-Bretanha. Colonizadores ou “squatters” come&ccedil;aram a adentrar cada vez mais os territ&oacute;rios abor&iacute;gines – com frequ&ecirc;ncia armados – em busca de pastos e &aacute;gua para seus animais. </p>
+        <p>Em 1825, um grupo de soldados e condenados colonizou o territ&oacute;rio do povo Yuggera, pr&oacute;ximo &agrave; <a href="/pt-br/explore/cities/brisbane.xml" target="_self">Brisbane</a> de hoje. <a href="/pt-br/explore/cities/perth.xml" target="_self">Perth</a> foi colonizada por ingleses em 1829 e, em 1835, um colonizador navegou at&eacute; Port Phillip Bay e escolheu a localiza&ccedil;&atilde;o de <a href="/pt-br/explore/cities/melbourne.xml" target="_self">Melbourne</a>. Ao mesmo tempo, uma empresa brit&acirc;nica particular, orgulhosa de n&atilde;o ter nenhum v&iacute;nculo com os condenados, colonizou <a href="/pt-br/explore/cities/adelaide.xml" target="_self">Adelaide</a>, na Austr&aacute;lia do Sul. </p>
+        <p><strong>A febre do ouro traz riqueza, migrantes e rebeli&atilde;o </strong><br />
+        O ouro foi descoberto em <a href="/pt-br/explore/states/nsw.xml" target="_self">Nova Gales do Sul</a> (New South Wales) e na regi&atilde;o central de <a href="/pt-br/explore/states/vic.xml" target="_self">Victoria</a> em 1851, atraindo milhares de homens jovens e algumas mulheres aventureiras, tamb&eacute;m jovens, das col&ocirc;nias. A eles se juntaram muitos barcos repletos de exploradores vindos da China e um ca&oacute;tico carnaval de artistas, taberneiros, vendedores de bebidas ilegais, prostitutas e charlat&otilde;es de todas as partes do mundo. Em Victoria, o governador brit&acirc;nico tenta impor a ordem – uma licen&ccedil;a mensal e soldados de cavalaria de m&atilde;o pesada – em resposta &agrave; sangrenta luta antiautoritarismo da barreira de defesa de Eureka, em 1854. Apesar da viol&ecirc;ncia nos <a href="/pt-br/explore/states/vic/vic-bendigo.xml" target="_self">garimpos</a>, a riqueza advinda do ouro e da l&atilde; trouxe investimentos enormes a Melbourne e <a href="/pt-br/explore/cities/sydney.xml" target="_self">Sydney</a> e, nos anos 1880, elas j&aacute; eram cidades modernas e cheias de estilo. </p>
+        <p ><strong>A Austr&aacute;lia se torna uma na&ccedil;&atilde;o </strong><br />
+        Os seis estados da Austr&aacute;lia se tornaram uma na&ccedil;&atilde;o sob uma &uacute;nica constitui&ccedil;&atilde;o em 1&ordm; de janeiro de 1901. Uma das primeiras a&ccedil;&otilde;es do novo parlamento nacional foi aprovar a legisla&ccedil;&atilde;o, posteriormente conhecida como Pol&iacute;tica da Austr&aacute;lia Branca, que restringia a migra&ccedil;&atilde;o principalmente a pessoas de origem europeia. Essa pol&iacute;tica foi desmantelada progressivamente ap&oacute;s a Segunda Guerra Mundial e hoje a Austr&aacute;lia &eacute; o lar de povos de mais de 200 pa&iacute;ses. </p>
+        <p><strong>Os australianos partem para a guerra </strong><br />
+        A Primeira Guerra Mundial teve um efeito devastador na Austr&aacute;lia. Havia menos de 3 milh&otilde;es de homens em 1914, mas quase 400.000 deles se ofereceram para lutar na guerra. Estima-se que 60.000 tenham morrido e dezenas de milhares tenham ficado feridos. Como uma rea&ccedil;&atilde;o ao pesar, os anos 1920 foram um turbilh&atilde;o de novos carros e cinemas, jazz e filmes americanos e entusiasmo pelo Imp&eacute;rio Brit&acirc;nico. Quando a Grande Depress&atilde;o chegou em 1929, as divis&otilde;es social e econ&ocirc;mica se ampliaram e muitas institui&ccedil;&otilde;es financeiras australianas faliram. O esporte foi a distra&ccedil;&atilde;o nacional e &iacute;dolos do esporte, como o cavalo de corrida Phar Lap e o jogador de cricket Donald Bradman, atingiram um status pr&oacute;ximo ao de mitos. </p>
+        <p>Durante a Segunda Guerra Mundial, as for&ccedil;as australianas fizeram uma contribui&ccedil;&atilde;o significativa para a vit&oacute;ria dos Aliados na Europa, &Aacute;sia e no Pac&iacute;fico. A gera&ccedil;&atilde;o que lutou na guerra e sobreviveu, submergiu disso com uma sensa&ccedil;&atilde;o de orgulho das capacidades australianas. </p>
+        <p><strong>Novos australianos chegam, em uma &eacute;poca de grande crescimento p&oacute;s-guerra <br />
+        </strong>Ap&oacute;s o t&eacute;rmino da guerra em 1945, centenas de milhares de imigrantes de toda a Europa e do Oriente M&eacute;dio chegaram &agrave; Austr&aacute;lia, muitos deles encontrando empregos no crescente setor manufatureiro. Muitas das mulheres que assumiram empregos nas f&aacute;bricas enquanto os homens estavam na guerra continuaram a trabalhar durante o tempo de paz. </p>
+        <p>A economia da Austr&aacute;lia cresceu durante toda a d&eacute;cada de 1950, com grandes projetos de constru&ccedil;&atilde;o da na&ccedil;&atilde;o, como o Esquema de hidroel&eacute;tricas nas Snowy Mountains, montanhas pr&oacute;ximas a <a href="/pt-br/explore/cities/canberra.xml" target="_self">Canberra</a>. A demanda internacional pelos principais produtos de exporta&ccedil;&atilde;o australianos – metais, l&atilde;, carne e trigo – cresceu, e a Austr&aacute;lia suburbana tamb&eacute;m prosperava. A quantidade de casas pr&oacute;prias cresceu drasticamente de meros 40% em 1947 para mais de 70% nos anos 1960. </p>
+        <p><strong>A Austr&aacute;lia se tranquiliza  </strong><br />
+        Como muitos outros pa&iacute;ses, a Austr&aacute;lia foi arrastada pela atmosfera revolucion&aacute;ria dos anos 1960. A nova diversidade &eacute;tnica da Austr&aacute;lia, a crescente independ&ecirc;ncia da Gr&atilde;-Bretanha e a resist&ecirc;ncia popular &agrave; Guerra do Vietn&atilde;, todos contribu&iacute;ram para uma atmosfera de mudan&ccedil;a pol&iacute;tica, econ&ocirc;mica e social. Em 1967, os australianos votaram contundentemente “sim” em um plebiscito nacional para permitir ao governo federal legislar em nome dos australianos abor&iacute;gines e inclu&iacute;-los nos futuros censos. O resultado culminou com uma s&oacute;lida campanha reformista tanto pelos abor&iacute;gines quanto pelos australianos brancos. </p>
+        <p>Em 1972, o Partido Trabalhista Australiano, sob a lideran&ccedil;a idealista do advogado Gough Whitlam, foi eleito ao poder, o que deu fim &agrave; domina&ccedil;&atilde;o p&oacute;s-guerra da coaliz&atilde;o entre os partidos Liberal e Nacional.  Durante os tr&ecirc;s anos seguintes, seu novo governo exterminou o servi&ccedil;o militar obrigat&oacute;rio, aboliu o ensino pago universit&aacute;rio e introduziu o atendimento de sa&uacute;de universal. Ele abandonou a Pol&iacute;tica da Austr&aacute;lia Branca, adotou o multiculturalismo e introduziu o div&oacute;rcio sem culpabilidade e igual pagamento para as mulheres. No entanto, em 1975 a infla&ccedil;&atilde;o e um esc&acirc;ndalo levaram o Governador Geral a abandonar o governo. Na elei&ccedil;&atilde;o geral subsequente, o Partido Trabalhista sofreu uma grande derrota e a Coaliz&atilde;o Liberal-Nacional governou at&eacute; 1983. </p>
+        <p><strong>Desde os anos 1970 </strong><br />
+        Entre 1983 e 1996, os governos trabalhistas Hawke–Keating introduziram v&aacute;rias reformas econ&ocirc;micas, como a desregulamenta&ccedil;&atilde;o do sistema banc&aacute;rio e a flutua&ccedil;&atilde;o do d&oacute;lar australiano. Em 1996, um governo de coaliz&atilde;o liderado por John Howard ganhou a elei&ccedil;&atilde;o geral e foi reeleito em 1998, 2001 e 2004. O governo da coaliz&atilde;o Liberal-Nacional promulgou v&aacute;rias reformas, inclusive mudan&ccedil;as fiscais e dos sistemas de rela&ccedil;&otilde;es industriais. Em 2007, o Partido Trabalhista, liderado por Kevin Rudd, foi eleito com a pauta de reforma do sistema de rela&ccedil;&otilde;es industriais da Austr&aacute;lia, pol&iacute;ticas de mudan&ccedil;as clim&aacute;ticas e dos setores de sa&uacute;de e educa&ccedil;&atilde;o.</p>
+    ]]></txt_MainContent> 
+    <con_ImageItem>
+        <ImageItems isTemplate="1">
+    <anc_link><![CDATA[]]></anc_link>
+    <img_MainImage><![CDATA[<img src="/contentimages/About_history_magical.jpg">]]></img_MainImage>
+    <stf_Caption><![CDATA[ ]]></stf_Caption>
+</ImageItems><ImageItems isTemplate="1">
+    <anc_link><![CDATA[]]></anc_link>
+    <img_MainImage><![CDATA[<img src="/contentimages/About_history_indigenous_art.jpg">]]></img_MainImage>
+    <stf_Caption><![CDATA[ ]]></stf_Caption>
+</ImageItems><ImageItems isTemplate="1">
+    <anc_link><![CDATA[]]></anc_link>
+    <img_MainImage><![CDATA[<img src="/contentimages/About_history_outback.jpg">]]></img_MainImage>
+    <stf_Caption><![CDATA[ ]]></stf_Caption>
+</ImageItems>
+    </con_ImageItem>
+</FeatureContent>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

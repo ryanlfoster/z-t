@@ -4,8 +4,17 @@
 //Unable to apply class directly to paragraph this needs to be targeted specifically without impacting other modules
 //Todo - May need to target the AEM "CQ" div that gets wrapped around the p target to ensure there is minimal implact.
 
-.paragraph-icon, .paragraph-city, .paragraph-state, .paragraph-article {
+.paragraph-icon, .paragraph-city, .paragraph-state, .paragraph-article, .paragraph-video, .paragraph-search {
   background: #fff;
+  position: relative;
+}
+
+.paragraph-privacy-policy{
+  padding-bottom: pxtoem(100px);
+}
+.paragraph-privacy-policy .section-intro{
+  margin-top: pxtoem(78px);
+  margin-bottom: pxtoem(40px);
 }
 
 .paragraph-article {
@@ -44,12 +53,13 @@
 
 // same styles applied for testing with styleguide
 .styleguide .paragraph-article {
-  z-index: 200;
 
   //CMS implementation
   & >  p {
     padding-left: pxtoem(15px);
     padding-right: pxtoem(15px);
+    margin: 0;
+    padding-bottom: pxtoem($bottom-spacing);
   }
 
   @include breakpoint(md) {
@@ -70,10 +80,18 @@
       padding-right: 28em;
       padding-left: 19.7em;
       max-width: pxtoem(1200px);
-      margin-left: auto;
-      margin-right: auto;
+      margin: 0 auto;
     }
 
   }
 
 }
+
+/* TEMP SOLUTION FOR PAGE ALIGNMENT *
+.paragraph-video {
+  margin-top: 2em;
+  @include breakpoint(sm) {
+    margin-top: 9em;
+  }
+}
+*/

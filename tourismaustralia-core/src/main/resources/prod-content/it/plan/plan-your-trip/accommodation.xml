@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="35" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Pagina iniziale]]></headline>
+            <href><![CDATA[/it/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Pianifica]]></headline>
+            <href><![CDATA[/it/plan.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Alloggi]]></headline>
+            <href><![CDATA[/it/plan/plan-your-trip/accommodation.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/plan-plan-your-trip-find-accommodation.jpg]]></img_background>
+    <hdl_Title><![CDATA[Alloggi]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/plan-plan-your-trip-find-accommodation-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/plan-plan-your-trip-find-accommodation-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[Vieni in Australia e scegli tra le molte opzioni di alloggio: hotel,  appartamenti, B&amp;B, ostelli, campeggi e resort. Scopri di pi&ugrave; sul sito.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Ulteriori Informazioni]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Scegli la Tua Sistemazione]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        Non avrete che l'imbarazzo della scelta per il vostro alloggio in Australia. Potrete scegliere tra eleganti hotel, sistemazioni per backpacker, strutture ricettive di lusso, appartamenti ammobiliati con servizi di self-catering, pub tradizionali e campeggi.
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <AccommodationRHS isTemplate="1">
+    <!-- no user content -->
+</AccommodationRHS><StarRatingModule isTemplate="1">
+    <hdl_Title><![CDATA[Guida alla classificazione degli hotel]]></hdl_Title>
+    <con_StarRating>
+        <StarRatingItem isTemplate="1">
+    <hdl_Title><![CDATA[5 stelle]]></hdl_Title>
+    <txt_Description><![CDATA[Servizio superiore e un’ampia gamma di servizi di prima classe.]]></txt_Description>
+    <img_Stars><![CDATA[]]></img_Stars>
+</StarRatingItem><StarRatingItem isTemplate="1">
+    <hdl_Title><![CDATA[4 - 4&frac12; stelle]]></hdl_Title>
+    <txt_Description><![CDATA[Servizio eccellente con camere confortevoli e arredi di alta qualit&agrave;]]></txt_Description>
+    <img_Stars><![CDATA[<img src="/contentimages/rating4.jpg" alt="4 - 4½ stelle">]]></img_Stars>
+</StarRatingItem><StarRatingItem isTemplate="1">
+    <hdl_Title><![CDATA[3 - 3&frac12; stelle]]></hdl_Title>
+    <txt_Description><![CDATA[Buone sistemazioni con camere pulite e confortevoli con arredi di qualit&agrave;.]]></txt_Description>
+    <img_Stars><![CDATA[<img src="/contentimages/rating3.jpg" alt="3 - 3½ stelle">]]></img_Stars>
+</StarRatingItem><StarRatingItem isTemplate="1">
+    <hdl_Title><![CDATA[Meno di 3 stelle ]]></hdl_Title>
+    <txt_Description><![CDATA[Standard di base, accettabile.]]></txt_Description>
+    <img_Stars><![CDATA[]]></img_Stars>
+</StarRatingItem><StarRatingItem isTemplate="1">
+    <hdl_Title><![CDATA[Appartamenti autonomi]]></hdl_Title>
+    <txt_Description><![CDATA[Appartamenti ammobiliati con servizi indipendenti, con 1-3 camere da letto, un’area soggiorno, cucina, lavatrice e bagno separato.&nbsp; ]]></txt_Description>
+    <img_Stars><![CDATA[]]></img_Stars>
+</StarRatingItem>
+    </con_StarRating>
+    <anc_MoreLink><![CDATA[]]></anc_MoreLink> 
+</StarRatingModule><Listing isTemplate="1">
+<anc_List1><![CDATA[/it/plan/before-you-go/visa-information.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[More Australian Ideas]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Alloggi]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[Non avrete che l'imbarazzo della scelta per il vostro alloggio in Australia. Potrete scegliere tra eleganti hotel, sistemazioni per backpacker, strutture ricettive di lusso, appartamenti ammobiliati con servizi di self-catering, pub tradizionali e campeggi. Potrete aspettarvi un ottimo servizio e degli alti standard quale che sia il vostro budget.&nbsp; 
+
+<P>Richiedete maggiori informazioni sui diversi tipi di alloggi, sui servizi che offrono e sui prezzi.&nbsp; <BR></P>
+
+<P><STRONG>Perch&eacute; non scegliere di rendere il vostro soggiorno in Australia indimenticabile optando per alcune sistemazioni esclusive... </STRONG></P>]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Hotel]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Optate per una stanza o una suite, chiamate il servizio in camera o il servizio di babysitting e godetevi i servizi che le strutture offrono come piscine, centri benessere, ristoranti e bar. Troverete la maggior parte delle principali catene internazionali di hotel presso le pi&ugrave; famose <a href="/it/explore.xml" target="_self">mete turistiche</a> dell’Australia e nelle <a href="/it/about/australias-landscapes/cities.xml" target="_self">citt&agrave; principali</a>. Le categorie vanno dalle due alle cinque stelle e i prezzi variano di conseguenza.  
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Motel]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[Fate una pausa lungo la strada e riposatevi in un motel che offre comode sistemazioni a prezzi ragionevoli. Le camere comprendono un bagno privato o doccia, televisione, vassoio t&egrave;/caff&egrave; e un piccolo frigorifero&nbsp; La maggior parte dei motel comprende la colazione in camera, mentre le strutture pi&ugrave; grandi sono dotate di ristoranti. ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Appartamenti con servizi di self-catering e appartamenti per le vacanze]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[Godetevi spazio, riservatezza e la convenienza di avere una cucina e la possibilit&agrave; di utilizzare una lavatrice in appartamenti autonomi o in una casa per le vacanze. Queste sono opzioni ideali e convenienti soprattutto se viaggiate in famiglia o in gruppo e volete spendere pi&ugrave; di un paio di giorni nello stesso luogo. Rilassatevi nelle aree soggiorno e divertitevi a cucinare. Troverete appartamenti con o senza servizi autonomi, a seconda di dove desiderate pernottare.&nbsp; ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Bed and breakfast ]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[Pernottate in un bed and breakfast per un’atmosfera familiare e per provare degli squisiti pasti fatti in casa. Troverete queste sistemazioni di tipo familiare situate un po’ dovunque, da case storiche a cottage di minatori, da case coloniche a edifici situati nel cuore delle citt&agrave;. Questo tipo di sistemazioni offrono comode camere a prezzi ragionevoli e le famiglie che le gestiscono sono spesso un’ottima fonte di informazioni.]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Pernottare in fattoria]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[Svegliatevi al canto del gallo in una piccola fattoria per imparare a tosare le pecore in un ranch nell’outback circondato da un terreno di oltre un milione di acri. Dormite in semplici letti sotto un tetto di stagno o scegliete di pernottare in sistemazioni di lusso in case coloniche. Pernottare in una fattoria vi permetter&agrave; di vivere al meglio gli ampi spazi aperti che la circondano praticando l’equitazione, la pesca, il nuoto o passeggiando nel bush. Abituatevi alla routine quotidiana riparando staccionate, raccogliendo il bestiame a cavallo, pescando le aragoste o guidando un fuoristrada nei terreni della propriet&agrave;. Ammirate la foschia mattutina e i rosseggianti tramonti, assaggiate lo squisito cibo tradizionale e rilassatevi attorno a un fuoco all’aperto. Concludete la vostra giornata con un idromassaggio caldo sotto le stelle. Pernottare in fattoria vi permetter&agrave; di lasciarvi alle spalle la frenesia della vita della citt&agrave; optando per l’ospitalit&agrave; delle zone rurali e per un ritorno a una vita sana a contatto con la natura.&nbsp;&nbsp; ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Campeggi e aree per camper]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Immergetevi nella natura campeggiando in tenda o camper tra i pittoreschi paesaggi australiani. Potrete piantare la vostra tenda in un parco nazionale o dirigervi verso uno dei tanti campeggi ben equipaggiati e parcheggi per camper. Con servizi quali elettricit&agrave;, docce calde, lavanderia e aree per il barbecue, questi siti permettono di mantenere uno stile di vita decisamente civilizzato anche quando si viaggia per la maggior parte del tempo. Ricordate che per proteggere il nostro fragile ecosistema, ci sono norme e regole da rispettare nei parchi nazionali e nelle aree di campeggio. Per un viaggio che vi permetta di visitare tutte le attrazioni locali senza mai perdervi, provate un tour in camper di un mese. In alternativa, optate per strutture ricettive stile campeggio immerse <a href="/it/explore/icons/red-centre.xml" target="_self">nell’outback</a>, nella foresta, nel deserto o sulla spiaggia per vivere il piacere del lusso e della natura incontaminata.  
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Ostelli e sistemazioni per backpacker ]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[Pernottate in rifugi sulla spiaggia e case sugli alberi nel Queensland o sottoterra nell’Australia Meridionale. Che siate un backpacker, un flashpacker o un turista con un budget limitato, l’Australia offre sistemazioni in ostelli situati nell’outback e nel centro delle citt&agrave;. Oltre a risparmiare, gli ostelli vi permetteranno di incontrare altri viaggiatori. Potrete condividere racconti o trovare compagni di viaggio con i quali affrontare nuove avventurose esperienze australiane.&nbsp; ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Hostels and backpackers]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Stay in beach huts and tree houses in <a href="/it/explore/states/qld.xml" target="_self">Queensland</a> or sleep deep underground in South Australia. Whether you’re a backpacker, flashpacker or just on a budget, Australia has hostel accommodation from the outback to our city centres. As well as saving you money, hostels are a great way to meet other travellers. You can trade stories or team up to tackle more <a href="/it/explore/things-to-do/australian-adventure.xml" target="_self">Australian adventures</a>. 
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Resort ]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Rilassatevi in resort dove tutto quello di cui avete bisogno &egrave; a portata di mano. Potrete usufruire di ampie sistemazioni di ottima qualit&agrave; e di un’ampia gamma di servizi, tour e attivit&agrave;. I resort australiani sono il modo ideale per rilassarsi in meravigliose localit&agrave; naturali – da Hamilton Island nel Queensland alle zone vinicole <a href="/it/explore/states/sa.xml" target="_self">dell’Australia Meridionale</a>. Le attivit&agrave; disponibili sono diverse e organizzate a seconda del luogo che sceglierete, potrete quindi <a href="/it/explore/states/vic/vic-snow-play.xml" target="_self">sciare</a>, fare <a href="/it/explore/things-to-do/australian-adventure/nat-diving.xml" target="_self">immersioni subacquee</a> o sorseggiare cocktail ai bordi di una piscina.  
+        <p>&nbsp;</p>
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

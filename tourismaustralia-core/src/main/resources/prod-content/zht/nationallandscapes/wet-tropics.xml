@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="22262" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[首頁]]></headline>
+            <href><![CDATA[/zht/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Tools and Campaigns]]></headline>
+            <href><![CDATA[/zht/tools-campaigns.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[澳洲國家地貌]]></headline>
+            <href><![CDATA[/zht/nationallandscapes.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[濕熱帶]]></headline>
+            <href><![CDATA[/zht/nationallandscapes/wet-tropics.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/Campaigns/national-landscapes-wet-tropics.jpg]]></img_background>
+    <hdl_Title><![CDATA[濕熱帶]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/national-landscapes-wet-tropics-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/Campaigns/national-landscapes-wet-tropics-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[yes]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[從黛恩樹（Daintree）雨林到高地（Tablelands），令人心醉且引人入勝的濕熱帶國家風景區（Wet Tropics National Landscape）是訪客流連忘返的景點。 在這裡，濕熱帶（Wet Tropics）雨林和大堡礁（Great Barrier Reef）這兩大自然的傑作交互輝映。]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[澳洲濕熱帶; 黛恩樹, 大熱帶駕駛路線, 索斯博恩路徑, 吉爾干國家公園]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[了解更多資料]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[澳洲國家地貌：濕熱帶 - 澳洲旅遊局]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        從黛恩樹（Daintree）雨林到高地（Tablelands），令人心醉且引人入勝的濕熱帶國家風景區（Wet Tropics National Landscape）是訪客流連忘返的景點。 在這裡，濕熱帶（Wet Tropics）雨林和大堡礁（Great Barrier Reef）這兩大自然的傑作交互輝映。
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <StandardCampaignLayout isTemplate="1">
+    <opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+    <hdl_Title><![CDATA[]]></hdl_Title>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+    <con_Banner><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<DIV id=headerimage>
+<SCRIPT type=text/javascript src="../../static/js/jquery.cycle.all.latest.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+jQuery(document).ready(function() {
+jQuery('#headersliderwrapper').cycle({
+        fx:'fade',
+        slideExpr: '.headerslide'
+    });
+});
+</SCRIPT>
+
+<DIV id=headersliderwrapper>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-wet-01.jpg"> 
+<DIV class=headerslideinfo>黛恩樹國家公園（Daintree National Park），昆士蘭（QLD）</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-wet-02.jpg"> 
+<DIV class=headerslideinfo>岩石藝術</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-wet-03.jpg"> 
+<DIV class=headerslideinfo>濕熱帶（Wet Tropics）（承蒙 Steven Nowakowski 提供）</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-wet-04.jpg"> 
+<DIV class=headerslideinfo>食火雞</DIV></DIV></DIV></DIV>
+<DIV id=subpage-header-overlay></DIV>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule></con_Banner>
+    <con_Body><TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[濕熱帶]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        從黛恩樹（Daintree）雨林到高地（Tablelands），令人心醉且引人入勝的濕熱帶國家風景區（Wet Tropics National Landscape）是訪客流連忘返的景點。 在這裡，濕熱帶（Wet Tropics）雨林和大堡礁（Great Barrier Reef）這兩大自然的傑作交互輝映。 您可在此發現為數眾多且種類多元的動植物、步道、瀑布、山嶽、海灘和海洋生物，包括地球上至今依然留存的最古老熱帶雨林，以及許多澳洲獨有的珍稀和瀕臨絕種物種。
+        <p>無論您想來場文化和冒險之旅，或是只想享受具療癒功能的雨林 Spa，此處的活動和美景皆應有盡有。</p>
+        <p><strong>五種享受濕熱帶的方式</strong></p>
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[1. 暢遊大熱帶駕駛路線]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-wet-tropics-hl01.jpg" alt="Great Tropical Drive, QLD">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Great Tropical Drive, QLD]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        以開恩茲（Cairns）或湯斯維爾（Townsville）為起點的大熱帶駕駛路線（Great Tropical Drive），以沿途陡峭的山巒勝景和絕美的沿岸海灘，擠身世界最美海濱公路之列。 路線途經六個風格獨具的地區：庫克鎮（Cooktown）、道格拉斯港 （Port Douglas）、開恩茲（Cairns）和黛恩樹（Daintree）、任務海灘（Mission Beach）和食火雞海岸（Cassowary Coast）、熱帶高地（Tropical Tablelands）和大草原鄉（Savannah Country）、歷史悠久的湯斯維爾（Townsville）和查特斯塔（Charters Towers），以及欣欽布魯克島（Hinchinbrook Island）。
+        <p>此外還有 13 條通往大堡礁（Great Barrier Reef）和黛恩樹（Daintree）雨林等一些澳洲最佳名勝的探索路線。 一旦盡覽上述景點，您便能完全體驗本地區蘊藏的最佳寶藏：雨林、珊瑚礁、豐富的文化、令人食慾大開的熱帶食物，以及內陸探險。</p>
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[2. 雨林巡禮]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-wet-tropics-hl02.jpg" alt="Boardwalk in Daintree, QLD">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Boardwalk in Daintree, QLD]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        黛恩樹河（Daintree River）是進入黛恩樹（Daintree）雨林這個世界最古老雨林的主要入口。 您可搭乘車客渡輪進入這個世界，從此處的珍稀動植物上看見最真實上演的地球演化史。 體驗雨林層次各異的多種面貌；在苦難角（Cape Tribulation）嘗試木棧道漫步；到帕默斯頓山脈（Palmerston Range）攀爬瑪姆雨林天空步道（Mamu Rainforest Canopy Walkway）。 您甚至可以從任務海灘（Mission Beach）飛到雨林上空跳傘，然後到迪吉魯國家公園（Djiru National Park）一睹稀有的南方食火雞（Southern Cassowaries）。 光是此區就有超過 100 座國家公園供您造訪。 濕熱帶（Wet Tropics）也是賞鳥愛好者的天堂，在哈斯提斯沼澤（Hasties Swamp）、馬里巴（Mareeba）和蒂托濕地（Tyoto Wetlands）便有超過 200 種鳥類和澳洲原生野生動物以此為家。
+        <p>您也可以步行穿越火口湖國家公園（Crater Lakes National Park），感受遠古地質活動型塑此處地貌的強大力量</p>
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[3. 體驗活歷史]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-wet-tropics-hl03.jpg" alt="Rock Art, Cooktown, QLD">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Rock Art, Cooktown, QLD]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        濕熱帶（Wet Tropics）也有其獨特的活遺產。以此為家的 18 個原住民部落團體和這個世界遺產地區的聯繫至少可追溯到 60,000 年前，使其成為世界上歷史最為悠久的雨林文化。 您可以參加原住民導遊帶領的觀光團，深入了解此地原住民的歷史、文化以及精神。 道格拉斯港（Port Douglas）和庫克鎮（Cooktown）之間的巴馬之路（Bama Way），便可帶您依循著遠古原住民的故事路線穿越雨林。 到苦難角（Cape Tribulation）探索澳洲的近代歷史。西元 1770 年，詹姆士庫克（James Cook）上校在苦難角（Cape Tribulation）附近的海面上觸礁。 此自然地標和庫克鎮（Cooktown）皆因而得名，以資紀念。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[4. 登遍群山]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-wet-tropics-hl04.jpg" alt="Bellenden Ker, QLD">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Bellenden Ker, QLD]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        濕熱帶（Wet Tropics）地區擁有昆士蘭（Queensland）的兩大高峰：巴陶弗萊勒山（Mount Bartle Frere）（1622 公尺）和貝倫登克爾嶺（Mount Bellenden Ker）（1593 公尺） 您也可以穿上登山靴，在欣欽布魯克島（Hichinbrook Island）上長 32 公里的索斯博恩路徑（Thorsborne Trail）健行，蜿蜒漫步穿越熱帶荒野，行經壯麗濱海沙灘。 深入高地（Tablelands）的薄霧山（Misty Mountain）荒野步道網包含了四條步道，總長達 130 公里，即便路線難度有些挑戰性，卻能享受到原始森林和令人屏息的美景。若您的旅遊風格較趨放鬆休閒，此處也有許多可輕鬆漫步的小徑可以探索。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[5. 水文奇景]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-wet-tropics-hl05.jpg" alt="Millaa Millaa Falls, QLD">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Millaa Millaa Falls, QLD ]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        瀑布和野河也是此區地貌的要角。 澳洲最高的單流瀑布沃拉曼瀑布（Wallaman Falls）位於澳洲吉爾干國家公園（Girringun National Park）內，美景令人嘆為觀止。 夏季則可到瀑布環線（Waterfall Circuit）欣賞美麗如畫的米拉米拉瀑布（Millaa Millaa Falls）和約瑟芬瀑布（Josephine Falls）。 到壯麗的莫斯曼峽谷（Mossman Gorge）探索步道、瀑布和深水潭。 在充滿鳥類和鱷魚的黛恩樹河（Daintree River）航遊。 到塔利河（Tully River）嘗試激流泛舟。
+        <p>花些時間遊覽純淨沙灘和島嶼，湯斯維爾（Townsville）附近的磁島（Magnetic Island）便是不錯的選擇。</p>
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights></con_Body>
+    <con_RHSModules><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<TABLE cellSpacing=0 cellPadding=0 width=298 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top align=center><!-- Google Map Start -->
+<SCRIPT type=text/javascript>
+function fireEvent(obj,evt){
+var fireOnThis = obj;
+if( document.createEvent ) {
+var evObj = document.createEvent('MouseEvents');
+evObj.initEvent( evt, true, false );
+fireOnThis.dispatchEvent(evObj);
+} else if( document.createEventObject ) {
+fireOnThis.fireEvent('on'+evt);
+}
+}
+function clickLink(linkobj) {
+if (linkobj.getAttribute('onclick') == null) {
+if (linkobj.getAttribute('href')) document.location = linkobj.getAttribute('href');
+}
+else linkobj.onclick();
+}
+function loadjscssfile(filename, filetype){
+if (filetype=="js"){ //if filename is a external JavaScript file
+var fileref=document.createElement('script')
+fileref.setAttribute("type","text/javascript")
+fileref.setAttribute("src", filename)
+}
+else if (filetype=="css"){ //if filename is an external CSS file
+var fileref=document.createElement("link")
+fileref.setAttribute("rel", "stylesheet")
+fileref.setAttribute("type", "text/css")
+fileref.setAttribute("href", filename)
+fileref.setAttribute("media", "print")
+}
+if (typeof fileref!="undefined")
+document.getElementsByTagName("head")[0].appendChild(fileref)
+}
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+var icheckk=0;
+jQuery.each(jQuery.browser, function(i, val) {
+if(i=="msie" && jQuery.browser.version.substr(0,3)=="7.0")
+icheckk=1;
+});
+function myfun()
+{
+loadjscssfile("../../static/css/thickbox.css", "css");
+if(icheckk==1)
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='../../static/maps/zht/wettropics/bigmap.html'  target='_blank'>&nbsp;列印|關閉此視窗|&nbsp; 或按Esc键</a></b>","../../static/maps/zht/wettropics/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+else
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='javascript:window.print()' >&nbsp;列印|關閉此視窗|&nbsp; 或按Esc键</a></b>","../../static/maps/zht/wettropics/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+}
+         </SCRIPT>
+<IFRAME style="MARGIN-BOTTOM: 20px; BORDER-TOP: black 1px solid; HEIGHT: 355px; BORDER-RIGHT: black 1px solid; BORDER-BOTTOM: black 1px solid; FLOAT: left; PADDING-BOTTOM: 5px; BORDER-LEFT: black 1px solid; BACKGROUND-COLOR: #333333" height=380 src="../../static/maps/zht/wettropics/index.html" frameBorder=0 width=249 name=FRAMENAME scrolling=no></IFRAME><!-- Google Map end -->
+<DIV class=subpage-video-thumb style="TEXT-ALIGN: left"><A onclick="moduleTrackingWithTitle('lightbox-video','',false,'nationallandscapes-wettropicszht');" href="#" data-reveal-id="modalVideo"><IMG alt="" src="/contentimages/Campaigns/national-landscapes-video-zht.jpg"></A> </DIV>
+<DIV id=modalVideo class="reveal-modal video" style-="z-index: 103;"><A class=close-reveal-modal><SPAN class=icon></SPAN></A>
+<DIV class=video style="VISIBILITY: visible !important"><IFRAME height=315 src="//www.youtube.com/v/EjGZ3MaX9pE?version=3&amp;hl=en_GB" frameBorder=0 width=560></IFRAME></DIV></DIV></TD></TR></TBODY></TABLE>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule><Listing isTemplate="1">
+<anc_List1><![CDATA[/zht/explore/cities/cairns.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[更多關於澳洲旅遊的好主意]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/zht/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/zht/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/zht/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/zht/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/zht/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/zht/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/zht/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/zht/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/zht/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/zht/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/zht/Transport.aspx]]></anc_Transport>
+<hdl_Title><![CDATA[計劃旅程]]></hdl_Title>
+<language><![CDATA[CHT]]></language>
+<stf_Accomodation><![CDATA[Accommodation]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[Attractions]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[Find a Travel Agent near you]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[Destination Information]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[Events]]></stf_Events>
+<stf_Hire><![CDATA[Hire ]]></stf_Hire>
+<stf_Informationservices><![CDATA[Information Services]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[Queensland]]></stf_StateFilter>
+<stf_Tours><![CDATA[Tours]]></stf_Tours>
+<stf_Transport><![CDATA[Transport]]></stf_Transport>
+</PlanYourVisit></con_RHSModules>
+    <con_Category></con_Category>
+    <lst_Subpages>
+    </lst_Subpages>
+</StandardCampaignLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

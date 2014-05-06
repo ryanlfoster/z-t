@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="450" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Homepage ]]></headline>
+            <href><![CDATA[/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Explore ]]></headline>
+            <href><![CDATA[/explore.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Red Centre]]></headline>
+            <href><![CDATA[/explore/icons/red-centre.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/explore-icons-red-centre.jpg]]></img_background>
+    <hdl_Title><![CDATA[Red Centre]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/explore-icons-red-centre-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/explore-icons-red-centre-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[0]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[0]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[no]]></opt_PartnerLead>
+    <stf_description><![CDATA[Find holiday information on Australia's Red Center: walking around Uluru's base with an Anangu guide, Kata Tjuta, Alice Springs, the Simpson Desert, more.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[Uluru, NT. &copy; James Fisher &amp; Tourism Australia]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[y]]></stf_IsMobile>
+    <stf_keywords><![CDATA[Red Centre, Australia Red Centre ]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Learn More]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Red Centre, Northern Territory]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[You probably know about the red monolith in Australia’s centre.]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <IntegratedMiniMap isTemplate="1">
+    <!-- no user content -->
+</IntegratedMiniMap><TravellersStoryWidget isTemplate="1">
+    <anc_link><![CDATA[/explore/map.aspx?filters=icons,experiences&zoom=7&centre=-27.926459,133.387011]]></anc_link>
+    <img_image><![CDATA[/contentimages/icons-Red-Centre.jpg]]></img_image> 
+</TravellersStoryWidget><Listing isTemplate="1">
+<anc_List1><![CDATA[/explore/events/nt-henley-on-todd.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[Australian Ideas]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/AccommodationSearch.ignore]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/AttractionSearchResults.ignore]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/DestinfoSearchResults.ignore]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/EventsSearch.xml]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/Hire.ignore]]></anc_Hire>
+<anc_Info><![CDATA[/InfoSearchResults.ignore]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/TourSearchResults.ignore]]></anc_Tour>
+<anc_Transport><![CDATA[/Transport.ignore]]></anc_Transport>
+<hdl_Title><![CDATA[Plan Your Visit to Red Centre]]></hdl_Title>
+<language><![CDATA[ENA]]></language>
+<stf_Accomodation><![CDATA[Accommodation]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[Attractions]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[Find a Travel Agent near you]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[Destination Information]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[Alice Springs &amp; Surrounds;Uluru/Kata Tjuta Region]]></stf_DomesticRegion>
+<stf_Events><![CDATA[Events]]></stf_Events>
+<stf_Hire><![CDATA[Hire]]></stf_Hire>
+<stf_Informationservices><![CDATA[Information Services]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[Northern Territory]]></stf_StateFilter>
+<stf_Tours><![CDATA[Tours]]></stf_Tours>
+<stf_Transport><![CDATA[Transport]]></stf_Transport>
+</PlanYourVisit><MoreInformation isTemplate="1">
+    <hdl_Title><![CDATA[More information]]></hdl_Title>
+    <anc_Link><![CDATA[]]></anc_Link>
+    <anc_MoreLink><![CDATA[]]></anc_MoreLink> 
+    <img_Content><![CDATA[<img src="/contentimages/explore-icons-red-centre-more-info-th.jpg" alt="Red Centre" border="0" align="left" class="imgLeft">]]></img_Content>
+    <stf_LinkTitle><![CDATA[]]></stf_LinkTitle>
+    <stf_MoreLink><![CDATA[http://www.travelnt.com/uluru-and-surrounds.aspx]]></stf_MoreLink>
+    <stf_MoreLinkText><![CDATA[More...]]></stf_MoreLinkText>
+    <stf_Teaser><![CDATA[Find out more about the Red Centre on the Tourism Northern Territory website.]]></stf_Teaser> 
+</MoreInformation>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Red Centre]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        You probably know about the red monolith in Australia’s Red Centre.  
+        <p>You may know it’s sacred to the Aboriginal people here, and that it turns some spectacular colours at sunrise and sunset. You might not know that you can experience it through Aboriginal eyes, or that there are many other sacred and breathtaking sites here in Australia’s vast centre. Uluṟu’s cousin Kata Tjuṯa is just 40 kilometres away and you’ll find the awe-inspiring Kings Canyon not far from Alice Springs. You might not realise that this landscape has green vegetation and lush waterholes as well as dusty red roads and huge slabs of rock.  And what you won’t really understand until you get here is the magic, majesty, silence and splendid isolation of Australia’s Red Centre. </p>
+        <br />
+        <p><strong>Five places you must visit in the Red Centre:</strong></p>
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[1. Alice Springs and surrounds]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/4.3.14.2_highlight.jpg" alt="Simpson Desert, NT">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Simpson Desert, NT]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Stay in the famous outback town of <a href="/explore/itineraries/nt-3days-alice-springs.xml" target="_self">Alice Springs</a>, which sits in Australia’s red heart just 200 kilometres south of its geographic centre. From here you can bushwalk, four wheel drive or join a camel trek across the rolling sand dunes of the <a href="/explore/states/sa/sa-desert-adventure.xml" target="_self">Simpson Desert</a>. Bike ride to Simpsons Gap at dawn, discover different Aboriginal art styles along the Tanami Track and explore the rock art, artefacts and ceremonial sites near the small Aboriginal community of St Teresa.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[2. Uluṟu-Kata Tjuṯa National Park]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/4.3.14.3_highlight.jpg" alt="Uluṟu-Kata Tjuṯa, NT">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Uluṟu-Kata Tjuṯa, NT]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        See <a href="http://www.australia.com/campaigns/nothinglike/au/uluru.htm" target="_blank">Uluṟu</a> rise 348 metres from the desert in the deep centre of Australia, matching the light and weather with hues so vivid they upstage the sunset. Walk around Uluṟu’s base with an Aṉangu guide, and learn how it was created by spirit ancestors in the Dreamtime. You can even trace the battle scars they left behind. See Uluṟu on a motorcycle, <a href="http://www.australia.com/campaigns/nothinglike/au/uluru-product1.htm" target="_blank">from the back of a camel</a> or on a scenic helicopter flight. Drink in its sunset glow with a glass of champagne, then return to a campfire dinner of barramundi, emu or kangaroo underneath a starlit sky. Just 40 kilometres away you’ll find Kata Tjuṯa - steep, rounded, russet domes formed through more than 500 million years of erosion. You can experience both wonders in Uluṟu- Kata Tjuṯa National Park, which offers tours by Aboriginal guides and accommodation ranging from campsites to luxury resort.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[3. Kings Canyon and Watarrka National Park]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/4.3.14.4_highlight.jpg" alt="Kings Canyon, Watarrka National Park, NT">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Kings Canyon, NT]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[Trek to the rim of Kings Canyon for breathtaking views across the rugged bluffs and gorges of Watarrka National Park. The canyon’s towering rock walls shelter palm-filled crevices and pockets of lush green in otherwise inhospitable desert. See rare plants from a lone-gone wetter age and swim in the tropical pools of the Garden of Eden. Explore the weathered rock domes of the Lost City. See sunset at Carmichael Crag, take the Kathleen Springs Walk to a pretty waterhole or trek overnight on the Giles Track.&nbsp; If camping doesn’t appeal, spend the night in a resort or wilderness lodge.]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[4. Finke Gorge National Park]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/4.3.14.5_highlight.jpg" alt="Finke Gorge, NT">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Finke Gorge, NT]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[Four wheel drive next to towering sandstone cliffs and the mostly sandy Finke River. Mostly dry in Finke Gorge National Park. Explore the desert oasis of Palm Valley, the only place in the world you’ll find the Red Cabbage Palm. You can meander through the slender palms on the Arankaia Walk or the longer Mpulungkinya Walk. Afterwards, follow the short Kalaranga Lookout Walk for spectacular views of the rock amphitheatre circled by rugged cliffs. Or learn about the mythology of the Western Arrernte Aboriginal people on the popular two-hour Mpaara Walk. See long-limbed gums stretch over glimmering water and mountain ranges turn from purple to burning ochre in the setting sun. ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[5. MacDonnell Ranges]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/4.3.14.6_highlight.jpg" alt="MacDonnell Ranges, NT">]]></img_MainImage>
+                    <stf_Caption><![CDATA[MacDonnell Ranges, NT]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Walk the <a href="/explore/itineraries/nt-larapinta-trail.xml" target="_self">Larapinta Trail</a> or Emu Dreaming path to Ormiston Gorge and Pound, past graceful red river gums, wallabies and cool, clear waterholes.  Marvel at the gorge’s sheer walls rising 300 metres out of Ormiston Creek, then dive into the waterhole that is 14 metres deep. You can also cool off in Ellery Creek Big Hole, Redbank Gorge and picturesque <a href="/explore/itineraries/nt-red-centre-way.xml" target="_self">Glen Helen Gorge</a>. See rock wallabies in and around the ridges and ghost gums of Simpsons Gap. Walk to Standley Chasm and see its steep walls blaze red in the midday sun. Don’t miss the 20 kilometre wide crater at Gosse Bluff, or Tnorala to the Western Arrernte Aboriginal people. Their dreaming story is a little more magical than the scientific explanation which says it was formed by a comet crashing to Earth about 130 million years ago. In the East MacDonnell Ranges, you can bush walk, camp, four-wheel-drive and visit Trephina Gorge and the gold rush ghost town of Arltunga. 
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Devils Marbles, Northern Territory]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-icons-red-centre-devils-marbles-hl.jpg" alt="Devils Marbles, NT">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Devils Marbles, NT]]></stf_Caption>
+                    <anc_link><![CDATA[/explore/icons/red-centre/devils-marbles.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        The Devils Marbles are huge granite boulders scattered across a wide, shallow valley, 100 kilometres south of Tennant Creek in the Northern Territory. The Devils Marbles are located in the traditional country of the Warumungu, Kaytetye, Alyawarra and Warlpiri people. They call the Devils Marbles Karlu Karlu, which literally translates as ‘round boulders’.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Kata Tjuta, Northern Territory]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-icons-red-centre-kata-tjuta-nt-hl.jpg" alt="Kata Tjuta, NT">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Kata Tjuta, NT]]></stf_Caption>
+                    <anc_link><![CDATA[/explore/icons/red-centre/kata-tjuta.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Kata Tjuta, formerly known as The Olgas, is a group of large ancient rock formations approximately 30 kilometres away from Uluru in Australia’s Red Centre. Together these giant stone formations form the two major landmarks within the Uluru-Kata Tjuta National Park. The 36 domes that make up Kata Tjuta are spread over an area of more than 20 kilometres. The highest point is Mount Olga, which was named in honour of Queen Olga of W&uuml;rttemberg.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Kings Canyon, Northern Territory]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-icons-red-centre-kings-canyon-nt-hl.jpg" alt="Kings Canyon, NT">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Kings Canyon, NT]]></stf_Caption>
+                    <anc_link><![CDATA[/explore/icons/red-centre/kings-canyon.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Kings Canyon is part of the Watarrka National Park in Australia’s Northern Territory. Sitting at the western end of the George Gill Range, Kings Canyon is approximately midway between Alice Springs and Uluru. This ancient formation of tall red rock faces that soar above dense palm forests of palms is an important conservation area and refuge for more than 600 species of native plants and animals, many unique to the area.
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+        <lst_Subpage><![CDATA[<a href="/explore/icons/red-centre/devils-marbles.xml">Devils Marbles, Northern Territory</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/explore/icons/red-centre/kata-tjuta.xml">Kata Tjuta, Northern Territory</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/explore/icons/red-centre/kings-canyon.xml">Kings Canyon, Northern Territory</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/explore/icons/red-centre/nt-uluru-story.xml">Australian Adventures – From the Red Centre to Tasmania</a>]]></lst_Subpage>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

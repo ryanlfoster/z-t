@@ -1,0 +1,19 @@
+---
+layout: layout-base.hbs
+---
+
+<div class="paragraph-video">
+
+    {{#parseJSON '{
+    "page_title" : "Back"
+}'}}
+        {{> breadcrumbsdynamic }}
+    {{/parseJSON}}
+
+    {{> video_desktop_title_fullvideo_fav_tags_share }}
+
+    {{> featuredproducts }}
+
+    {{> relatedvideos}}
+
+</div>

@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="35" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Laman Utama]]></headline>
+            <href><![CDATA[/my/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Rancang]]></headline>
+            <href><![CDATA[/my/plan.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Penginapan]]></headline>
+            <href><![CDATA[/my/plan/plan-your-trip/accommodation.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/plan-plan-your-trip-find-accommodation.jpg]]></img_background>
+    <hdl_Title><![CDATA[Penginapan]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/plan-plan-your-trip-find-accommodation-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/plan-plan-your-trip-find-accommodation-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[Ketahui lebih lanjut tentang jenis penginapan yang berbeza di Australia, jenis kemudahan yang ditawarkan dan anggaran kos masing-masing. Baca lagi di sini.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[australia, penginapan, penginapan Australia, pusat peranginan, hotel, motel, pangsapuri berkhidmat, unit percutian, inap dan sarapan, penginapan ladang, berkhemah, tapak caravan, asrama, backpackers, taraf bintang ]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Pelajari lebih lanjut]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Penginapan]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        Anda mempunyai pilihan yang meluas untuk penginapan di Australia. Kami mempunyai hotel butik dan hotel ‘backpackers’, resort peranginan mewah dan pangsapuri khidmat sendiri, pub pedalaman yang rustik dan berkhemah.
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <AccommodationRHS isTemplate="1">
+    <!-- no user content -->
+</AccommodationRHS><StarRatingModule isTemplate="1">
+    <hdl_Title><![CDATA[Panduan kepada taraf bintang ]]></hdl_Title>
+    <con_StarRating>
+        <StarRatingItem isTemplate="1">
+    <hdl_Title><![CDATA[5 bintang ]]></hdl_Title>
+    <txt_Description><![CDATA[Kualiti tinggi dan pelbagai perkhidmatan tetamu bertaraf kelas pertama ]]></txt_Description>
+    <img_Stars><![CDATA[<img src="/contentimages/rating5.jpg" alt="5 bintang ">]]></img_Stars>
+</StarRatingItem><StarRatingItem isTemplate="1">
+    <hdl_Title><![CDATA[4 - 4&frac12; bintang ]]></hdl_Title>
+    <txt_Description><![CDATA[Kualiti baik dengan perabot dan keselesaan berkualiti tinggi ]]></txt_Description>
+    <img_Stars><![CDATA[<img src="/contentimages/rating4.jpg" alt="4 bintang ">]]></img_Stars>
+</StarRatingItem><StarRatingItem isTemplate="1">
+    <hdl_Title><![CDATA[3 - 3&frac12; bintang ]]></hdl_Title>
+    <txt_Description><![CDATA[Hotel yang baik dengan bilik yang bersih, selesa dan perabot yang berkualiti]]></txt_Description>
+    <img_Stars><![CDATA[<img src="/contentimages/rating3.jpg" alt="3 bintang ">]]></img_Stars>
+</StarRatingItem><StarRatingItem isTemplate="1">
+    <hdl_Title><![CDATA[Kurang dari 3 bintang ]]></hdl_Title>
+    <txt_Description><![CDATA[Kemudahan asas dan dijaga dengan baik ]]></txt_Description>
+    <img_Stars><![CDATA[]]></img_Stars>
+</StarRatingItem><StarRatingItem isTemplate="1">
+    <hdl_Title><![CDATA[Pangsapuri berkhidmat ]]></hdl_Title>
+    <txt_Description><![CDATA[Pangsapuri dengan kemudahan lengkap, 1-3 bilik dengan ruang tamu, lengkap dengan dapur, laundri dan bilik mandi berasingan. ]]></txt_Description>
+    <img_Stars><![CDATA[]]></img_Stars>
+</StarRatingItem>
+    </con_StarRating>
+    <anc_MoreLink><![CDATA[]]></anc_MoreLink> 
+</StarRatingModule><Listing isTemplate="1">
+<anc_List1><![CDATA[/my/plan/before-you-go/visa-information.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[More Australian Ideas]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Penginapan ]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[Anda mempunyai pilihan yang meluas untuk penginapan di Australia. Kami mempunyai hotel butik dan hotel ‘backpackers’, resort peranginan mewah dan pangsapuri khidmat sendiri, pub pedalaman yang rustik dan berkhemah. Anda boleh menjangka untuk menerima perkhidmatan yang ramah dan kualiti yang terbaik dalam mana-mana bajet yang dipilih. Ketahui lebih lanjut tentang jenis penginapan yang berbeza, jenis kemudahan yang ditawarkan dan anggaran kos masing-masing. ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Tempat peranginan ]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Bersantai di resort atau tempat peranginan di mana segala-gala yang anda perlukan terdapat di sini. Anda akan menikmati penginapan di bilik yang besar dan berkualiti tinggi dan serbaneka perkhidmatan pelawat, lawatan dan aktiviti. Tempat peranginan Australia merupakan cara ideal untuk bersantai di lokasi semula jadi yang mempersonakan – dari Hamilton Island di Queensland ke negeri wain di <a href="/my/explore/states/sa.xml" target="_self">Australia Selatan</a>. Aktiviti direka khas untuk lokasi anda, bergantung kepada kedudukan anda, anda boleh menuju ke <a href="/my/explore/states/vic/vic-snow-play.xml" target="_self">cenuram ski</a>, pergi <a href="/my/explore/things-to-do/australian-adventure/nat-diving.xml" target="_self">menyelam skuba</a> atau menikmati koktel di tepi kolam renang. 
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Hotel]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Tinggal di bilik atau suite, perkhidmatan dial cepat seperti perkhidmatan bilik dan penjagaan bayi serta nikmati kemudahan seperti kolam renang dan pusat kesihatan sehingga restoran dan bar. Anda akan mendapati kebanyakan jenama hotel antarabangsa yang besar di <a href="/my/explore.xml" target="_self">destinasi percutian</a> utama Australia dan <a href="/my/about/australias-landscapes/cities.xml" target="_self">bandaraya utama</a>. Taraf bintang dari dua hingga lima bintang dan harga berbeza mengikut taraf masing-masing. 
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Motel]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[Singgah untuk melepaskan lelah seketika dari perjalanan anda di motel, yang menawarkan penginapan yang selesa pada harga yang berpatutan. Bilik biasanya datang sekali dengan bilik mandi sendiri, televisyen, kemudahan membuat teh dan kopi serta peti sejuk yang kecil. Kebanyakan mempunyai menu sarapan pagi dalam bilik, manakala motel yang lebih besar mempunyai restoran. ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Pangsapuri berkhidmat dan unit-unit percutian ]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[Nikmati ruang, keperibadian dan dapur sendiri serta kemudahan laundri dalam pangsapuri atau unit percutian anda sendiri. Pilihan ini adalah yang terbaik dan berpatutan jika anda melancong dengan keluarga atau kumpulan yang besar atau ingin meluangkan lebih daripada beberapa hari di satu tempat. Nikmati ruang sendiri di sini serta dapat memasak sendiri. Anda akan menemui pilihan berkhidmat atau tanpa perkhidmatan, bergantung di mana anda tinggal.]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Inap dan sarapan ]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[Tinggal di tempat inap-dan-sarapan untuk merasai suasana keluarga dan makanan masakan rumah yang sedap. Anda akan menemui ini, usaha kecil-kecilan oleh ahli keluarga, di mana sahaja, dari rumah bersejarah ke kotej pelombong, rumah ladang di luar bandar ke rumah bandar di bandaraya. Mereka menawarkan bilik yang selesa pada harga yang berpatutan dan pemilik selalunya merupakan sumber maklumat yang baik.]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Tinggal di ladang ]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[Bangun dengan kokokan ayam di ladang yang kecil atau pelajari cara mencukur bulu biri-biri di stesen pedalaman di kawasan seluas lebih sejuta ekar. Tidur di katil biasa di bawah bumbung timah atau nikmati penginapan mewah di rumah ladang. Di penginapan ladang, anda boleh menikmati ruangan terbuka yang luas dengan menunggang kuda, memancing, berenang dan meredah belukar. Biasakan diri dengan rutin harian membaiki pagar, mengawal lembu dari kuda anda, memancing udang krai atau memandu kenderaan pacuan empat roda merentasi hartanah ini. Alami pagi berembun dan suasana senja kemerahan, makanan pedalaman yang sedap dan unggun api di kawasan terbuka. Anda boleh imbangkan hari anda dengan spa artesian bermandikan cahaya bintang. Penginapan ladang memberi anda peluang meninggalkan kesibukan kota untuk suasana pedalaman dan berputar balik ke kehidupan asas di bumi. ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Tapak khemah dan caravan ]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Hayati suasana berkhemah atau berkhemah dengan van di kawasan desa Australia yang cantik dan mempesonakan. Anda boleh dirikan khemah di taman kebangsaan atau tuju ke taman caravan dan khemah yang dilengkapi kemudahan. Dengan menawarkan bekalan elektrik, mandi air panas, kemudahan laundri dan kawasan barbeku, taman-taman ini memastikan perjalanan anda bersih dan bertamadun. Ingat bahawa peraturan dan undang-undang dikuatkuasakan di taman kebangsaan dan tapak perkhemahan untuk melindungi alam sekitar kami. Untuk perjalanan jalan (road trip) serba lengkap di mana anda tidak akan sesat jalan, cuba lawatan caravan sebulan dengan jurupandu sekali. Atau gabungkan kemewahan dan hutan belantara dengan percutian gaya khemah di <a href="/my/explore/icons/red-centre.xml" target="_self">pedalaman</a>, hutan, gurun atau di pantai.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Asrama dan ‘backpackers’ ]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Tinggal di hut pantai dan rumah pokok di <a href="/my/explore/states/qld.xml" target="_self">Queensland</a> atau tidur bawah tanah di Australia Selatan. Sama ada anda ialah backpacker, flashpacker atau mempunyai bajet yang rendah, Australia mempunyai penginapan asrama dari kawasan pedalaman hingga ke pusat bandaraya. Di samping menjimatkan wang, asrama merupakan cara yang hebat untuk menemui pelancong lain. Anda boleh bertukar-tukar kisah dan cerita atau bergabung tenaga untuk <a href="/my/explore/things-to-do/australian-adventure.xml" target="_self">pengembaraan Australia selanjutnya</a>.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Panduan kepada taraf bintang ]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[5 bintang <BR>Kualiti tinggi dan pelbagai perkhidmatan tetamu bertaraf kelas pertama
+<P>4 - 4&frac12; bintang <BR>Kualiti baik dengan perabot dan keselesaan berkualiti tinggi</P>
+<P>3 - 3&frac12; bintang <BR>Hotel yang baik dengan bilik yang bersih, selesa dan perabot yang berkualiti</P>
+<P>Kurang dari 3 bintang <BR>Kemudahan asas dan dijaga dengan baik</P>
+<P>Pangsapuri berkhidmat <BR>Pangsapuri dengan kemudahan lengkap, 1-3 bilik dengan ruang tamu, lengkap dengan dapur, laundri dan bilik mandi berasingan.  <BR></P>
+<P></P>]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

@@ -1,7 +1,7 @@
 $type-categorylinks-colour: $category-colour-islands;
 
 .categorylinks {
-
+    padding-bottom: pxtoem($bottom-spacing);
     text-align: center;
 
     hr {
@@ -10,7 +10,7 @@ $type-categorylinks-colour: $category-colour-islands;
 
     .categorylinks-item {
         max-width: 310px;
-        margin: 0 auto 60px auto;
+        margin: 0 auto 20px;
         padding: 0 15px;
     }
 
@@ -28,11 +28,15 @@ $type-categorylinks-colour: $category-colour-islands;
             display: block;
             text-align: center;
             text-decoration: none;
-            margin: 0 30px;
+            margin:0;
+            @include breakpoint(sm) {
+              margin: 0 30px;
+            }
         }
 
         img {
             margin: 15px 0;
+            max-width: 100%;
         }
 
         span {

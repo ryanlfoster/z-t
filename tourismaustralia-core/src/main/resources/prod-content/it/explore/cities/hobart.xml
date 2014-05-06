@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="8577" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Pagina iniziale]]></headline>
+            <href><![CDATA[/it/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Esplora]]></headline>
+            <href><![CDATA[/it/explore.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Hobart]]></headline>
+            <href><![CDATA[/it/explore/cities/hobart.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/explore-cities-hobart.jpg]]></img_background>
+    <hdl_Title><![CDATA[Hobart]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/explore-cities-hobart-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/explore-cities-hobart-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[no]]></opt_PartnerLead>
+    <stf_description><![CDATA[Scopri Hobart, storica capitale sul mare della Tasmania. Visita Salamanca Place, il monte Wellington, Bruny Island, il Freycinet National Park e altro.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[y]]></stf_IsMobile>
+    <stf_keywords><![CDATA[Hobart Tasmania, Hobart Australia]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Ulteriori Informazioni]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Hobart, Tasmania, Australia - Tourism Australia]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[Scoprite tutte le informazioni di cui avete bisogno su Hobart, la storica capitale della Tasmania affacciata sul mare.]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <IntegratedMiniMap isTemplate="1">
+    <!-- no user content -->
+</IntegratedMiniMap><TravellersStoryWidget isTemplate="1">
+    <anc_link><![CDATA[/explore/map.aspx?filters=cities,experiences&zoom=9&centre=-43.325165,146.827410]]></anc_link>
+    <img_image><![CDATA[/contentimages/cities-Hobart.jpg]]></img_image> 
+</TravellersStoryWidget><AtaGlance isTemplate="1">
+<hdl_Title><![CDATA[Le citt&agrave; dell'Australia]]></hdl_Title>
+<img_Map><![CDATA[]]></img_Map>
+<stf_Title1><![CDATA[]]></stf_Title1>
+<stf_Title2><![CDATA[]]></stf_Title2>
+<stf_Title3><![CDATA[]]></stf_Title3>
+<stf_Title4><![CDATA[]]></stf_Title4>
+<stf_Title5><![CDATA[]]></stf_Title5>
+<txt_Description1><![CDATA[
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tbody>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/it/explore/cities/cities.xml" target="_self">Le citt&agrave; dell'Australia</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/it/explore/cities/sydney.xml" target="_self">Sydney</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/it/explore/cities/melbourne.xml" target="_self">Melbourne</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/it/explore/cities/brisbane.xml" target="_self">Brisbane</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/it/explore/cities/perth.xml" target="_self">Perth</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/it/explore/cities/darwin.xml" target="_self">Darwin</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/it/explore/cities/adelaide.xml" target="_self">Adelaide</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/it/explore/cities/hobart.xml" target="_self">Hobart</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/it/explore/cities/canberra.xml" target="_self">Canberra</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/it/explore/cities/gold-coast.xml" target="_self">Gold Coast</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/it/explore/cities/cairns.xml" target="_self">Cairns</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/it/explore/cities/alice-springs.xml" target="_self">Alice Springs</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/it/explore/cities/broome.xml" target="_self">Broome</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/it/explore/cities/regional-cities.xml" target="_self">Le capitali delle regioni australiane</a></p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <br />
+    ]]></txt_Description1>
+<txt_Description2><![CDATA[]]></txt_Description2>
+<txt_Description3><![CDATA[]]></txt_Description3>
+<txt_Description4><![CDATA[]]></txt_Description4>
+<txt_Description5><![CDATA[]]></txt_Description5>
+</AtaGlance><Listing isTemplate="1">
+<anc_List1><![CDATA[/it/explore/states/tas.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[Altri itinerari suggeriti in Australia]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/it/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/it/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/it/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/it/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/it/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/it/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/it/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/it/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/it/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/it/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/it/Transport.ignore]]></anc_Transport>
+<hdl_Title><![CDATA[Plan Your Visit]]></hdl_Title>
+<language><![CDATA[ITA]]></language>
+<stf_Accomodation><![CDATA[]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[Hobart and Surrounds]]></stf_DomesticRegion>
+<stf_Events><![CDATA[]]></stf_Events>
+<stf_Hire><![CDATA[]]></stf_Hire>
+<stf_Informationservices><![CDATA[]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[Tasmania]]></stf_StateFilter>
+<stf_Tours><![CDATA[]]></stf_Tours>
+<stf_Transport><![CDATA[]]></stf_Transport>
+</PlanYourVisit>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Hobart]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[Scoprite tutte le informazioni di cui avete bisogno su Hobart, la storica capitale della Tasmania affacciata sul mare.
+
+<P>Programmate la vostra vacanza a Hobart con il nostro itinerario di tre giorni. Passeggiate tra gli edifici in pietra arenaria di Salamanca Place costruiti negli anni ‘30 del 1800, scalate il monte Wellington e scoprite le incontaminate bellezze di Bruny Island con un'escursione di un giorno.<BR>Scoprite la Tasmania, le leggendarie destinazioni che potrete raggiungere da Hobart e gli spettacolari itinerari per raggiungerla. </P>
+
+<P>Guidate lungo la East Coast Escape fino al Freycinet National Park, un paradiso di montagne rosa, spiagge dalle sabbie bianche e mari turchesi. Il parco &egrave; parte della zona naturale dichiarata Patrimonio dell’umanit&agrave; che comprende 17 parchi nazionali e occupa circa un quinto del territorio dell’isola. Potrete scoprire gran parte di esso, comprendendo anche il Cradle Mountain-Lake St. Clair National Park lungo la Circle Tasmania Drive. Agli escursionisti si consiglia di leggere l’itinerario per l’Overland Track, un percorso da coprire in sei giorni, che si estende per 65 chilometri da Cradle Mountain fino a Lake St. Clair.</P>]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Hobart e dintorni]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-cities-hobart-hobart-hl.jpg" alt="Hobart e dintorni">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Hobart, TAS]]></stf_Caption>
+                    <anc_link><![CDATA[/it/explore/cities/hobart/hobart-surrounds.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Scalate l’aspro Mount Wellington per ammirare spettacolari panorami su Hobart e sull’ampio fiume Derwent. Fate un ghost tour a Battery Point, attraversate il pi&ugrave; antico ponte dell’Australia nella storica Richmond e visitate il pittoresco villaggio sulla costa di Kettering. Attraversate foreste e terreni agricoli fino a raggiungere le aziende vinicole dai climi freddi di Coal Valley e cenate con dei freschi piatti di pesce presso uno dei ristoranti sul lungomare di Hobart. La pi&ugrave; piccola capitale dell’Australia &egrave; pittoresca, facile da esplorare, con un’atmosfera tranquilla, elegante architettura georgiana e rinomati prodotti enogastronomici.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Tre giornate perfette a Hobart]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-itineraries-three-great-days-hobart-hl.jpg" alt="Tre giornate perfette a Hobart">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Tre giornate perfette a Hobart]]></stf_Caption>
+                    <anc_link><![CDATA[/it/explore/itineraries/tas-3days-hobart.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Goditi appieno l’aria marina, la cultura creativa e la storia coloniale di Hobart, che si trova sul grande Derwent River, all’ombra dello spettacolare Mount Wellington. Camminare &egrave; il modo migliore per scoprire l’arenile e i corsi d’acqua cittadini, dalla vivace zona del Salamanca Market ai moli della pesca. Cena nella zona dei ristoranti di North Hobart oppure passeggia sotto gli imponenti archi in pietra di Salamanca Place. Esplora il Mount Wellington in mountain bike o a piedi, oppure dirigiti verso il porto per navigare in kayak lungo i moli della citt&agrave; all'imbrunire. A sud della citt&agrave; si trova Kettering e la piccola, selvaggia Bruny Island. Trascorri una giornata camminando lungo le spiagge spazzate dal vento, la campagna color smeraldo e i ripidi pendii delle scogliere.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Salamanca Place, Hobart]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-cities-hobart-salamanca-place-hl.jpg" alt="Salamanca Place, Hobart">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Salamanca Place, Hobart]]></stf_Caption>
+                    <anc_link><![CDATA[/it/explore/cities/hobart/hobart-salamanca-place.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        A Hobart non dimenticarti di visitare <a href="/it/explore/cities/hobart/hobart-salamanca-place.xml" target="_self">Salamanca Place</a> a Sullivans Cove, il vivace quartiere sul lungomare. Qui nel 1830 la vita gravitava intorno all'industria, ma al giorno d'oggi la pittoresca piazza circondata da edifici georgiani in pietra arenaria e imponenti archi in pietra &egrave; una destinazione imperdibile per chi cerca buon cibo, arte, shopping e musica. Esplora le gallerie, rilassati sotto agli ombrelloni o acquista il pregevole artigianato della Tasmania nel Salamanca Market.  Ogni venerd&igrave; sera il Salamanca Arts Centre Courtyard si anima ai ritmi del Rektango: indossa le scarpe da ballo e muoviti al suono della musica gitana, jazz e swing rigorosamente dal vivo. &Egrave; qui che confluiscono la cultura e la tradizione di Hobart.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Fuga dalla prigione a Port Arthur]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-states-tas-port-arthur-hl.jpg" alt="Fuga dalla prigione a Port Arthur">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Fuga dalla prigione a Port Arthur]]></stf_Caption>
+                    <anc_link><![CDATA[/it/explore/states/tas/tas-port-arthur.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Scoprite l’affascinante storia del “penitenziario a prova di evasione” della Tasmania. <br />
+        Se la serie Prison Break fosse stata ambientata nella met&agrave; del XIX secolo in Australia, lo <a href="/it/explore/states/tas/tas-port-arthur.xml" target="_self">storico penitenziario di Port Arthur</a> sulla penisola di Tasman sarebbe stata inevitabilmente scelto come set. Separato dalla Tasmania da una stretta lingua di terra circondata da acque infestate da squali, Port Arthur fu definito il “penitenziario a prova di evasione”. Solo che invece delle telecamere di sorveglianza del giorno d’oggi, guardie e famelici mastini vigilavano sull’unica via d’uscita. 
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Taste Festival]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-events-tas-taste-festival-hl.jpg" alt="Taste Festival">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Taste Festival]]></stf_Caption>
+                    <anc_link><![CDATA[/it/explore/events/tas-taste-festival.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Ogni estate, in prossimit&agrave; dell'anno nuovo, Hobart ospita il pi&ugrave; grande evento della Tasmania, il Taste Festival. Per sette giorni e sette notti, il quartiere di Sullivans Cove si anima con la variet&agrave; dei prodotti enogastronomici della Tasmania.  Con oltre 70 stand di cibi e bevande, nonch&eacute; mostre d'arte e palchi per gli spettacoli, i visitatori potranno provare il vero "sapore" della Tasmania.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[La Sydney to Hobart Yacht Race]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-events-sydney-hobart-yacht-race-hl.jpg" alt="La Sydney to Hobart Yacht Race">]]></img_MainImage>
+                    <stf_Caption><![CDATA[La Sydney to Hobart Yacht Race]]></stf_Caption>
+                    <anc_link><![CDATA[/it/explore/events/syd-hobart-yacht-race.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Non dovrete essere degli esperti per seguire <a href="/it/explore/events/syd-hobart-yacht-race.xml" target="_self">la regata Sydney-Hobart</a>. La competizione ha inizio a Santo Stefano, il 26 dicembre, ed &egrave; parte integrante dell’estate australiana. Guardate le barche che escono dal porto mentre fate un picnic, un barbecue o una escursione in barca nel porto di Sydney. Applauditele mentre attraversano il traguardo in tempo per i festeggiamenti di Capodanno a Hobart. Ammirate la destrezza dei marinai e sosteneteli con tutto il paese mentre attraversano le acque turbolente dello stretto di Bass.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Giro della Tasmania]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-itineraries-circle-tasmania-hl.jpg" alt="Giro della Tasmania">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Giro della Tasmania]]></stf_Caption>
+                    <anc_link><![CDATA[/it/explore/itineraries/tas-circle-tas.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Ammirate <a href="/it/explore/icons/freycinet/tas-wineglass-bay.xml" target="_self">Wineglass Bay</a> e Cradle Mountain, i parchi nazionali e le localit&agrave; di villeggiatura di <a href="/it/explore/cities/regional-cities/tas-launceston-devonport-burnie.xml" target="_self">Launceston</a>, Stanley e Strahan durante questo tour mozzafiato della costa della Tasmania. Avventuratevi in mare in kayak, in compagnia di delfini, balene e pesci nel <a href="/it/explore/icons/freycinet.xml" target="_self">Freycinet National Park</a>. Avvistate canguri nella <a href="http://www.australia.com/campaigns/nothinglike/it/freycinet-product2.htm" target="_blank">Bay of Fires Walk</a> e camminate attraverso la natura incontaminata del Cradle Mountain - Lake St. Clair National Park, dichiarato Patrimonio dell’Umanit&agrave;. Dalle placide spiagge della costa orientale alle impervie montagne a ponente, questo itinerario si riveler&agrave; sorprendente.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[L’East Coast Escape]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-itineraries-east-coast-escape-hl.jpg" alt="L’East Coast Escape">]]></img_MainImage>
+                    <stf_Caption><![CDATA[L’East Coast Escape]]></stf_Caption>
+                    <anc_link><![CDATA[/it/explore/itineraries/tas-east-coast.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Immergiti nella bellezza della <a href="/it/explore/itineraries/tas-east-coast.xml" target="_self">costa orientale della Tasmania</a> lungo questo tragitto in auto caratterizzato da tante attrazioni. Pratica kayak sul mare, ripercorri la storia a <a href="http://www.australia.com/campaigns/nothinglike/it/freycinet-product5.htm" target="_blank">Maria Island</a>, assaggia frutti di bosco freschissimi e vini prelibati vicino a Swansea, infine ammira i profili perfetti di Wineglass Bay nel Freycinet National Park. Fermati a Bicheno e scegli tra le tante attivit&agrave; all'aperto: gioca a golf oppure osserva i pinguini minori che tornano alle loro tane al crepuscolo. Passeggia nel bush della foresta pluviale del Douglas-Apsley National Park, pesca o fai immersioni dal pittoresco porto di St Helen. Nuota nelle placide acque cristalline di Binnalong Bay e segui la Bay of Fires camminando oltre cumuli aborigeni, boschi e spiagge dalle incontaminate sabbie bianche. Concludi il tuo viaggio pernottando in un ecolodge con una vista stupenda sull’oceano.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Segreti d’inverno in Tasmania]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-states-tas-winter-secrets-hl.jpg" alt="Segreti d’inverno in Tasmania">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Segreti d’inverno in Tasmania]]></stf_Caption>
+                    <anc_link><![CDATA[/it/explore/states/tas/tas-winter-secrets.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        L’aria &egrave; pungente, ma in Tasmania l’inverno non congela le attivit&agrave;. Celebra il solstizio a Hobart o vai a sciare nel Ben Lomond National Park. Fai un'escursione sugli altipiani innevati di <a href="/it/explore/states/tas/tas-cradle.xml" target="_self">Cradle Mountain</a> o rannicchiati davanti al fuoco in uno chalet nella Freycinet Peninsula. Qualunque cosa tu scelga di fare, non perderti questo speciale periodo dell'anno in Tasmania.
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+        <lst_Subpage><![CDATA[<a href="/it/explore/cities/hobart/hobart-surrounds.xml">Hobart e dintorni</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/it/explore/cities/hobart/hobart-salamanca-place.xml">Salamanca Place, Hobart</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/it/explore/cities/hobart/liffey-falls-story.xml">Luna di miele a Hobart: il segreto sono le gite in giornata</a>]]></lst_Subpage>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

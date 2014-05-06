@@ -45,6 +45,14 @@
     border: 1px solid #00535e;
   }
 }
+
+.btn-primary.transparent {
+  background: transparent;
+  &:hover, &:focus {
+    color: #FFF;
+    background: #00535e;
+  }
+}
 .btn-primary.disabled {
   color: #FFF;
   background: #7B9CA0;

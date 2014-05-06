@@ -8,6 +8,8 @@
     height: auto;
     margin: 0;
     overflow: visible;
+    display: block;
+    text-align: center;
 }
 
 /*! Circle */
@@ -106,6 +108,15 @@
   transform: scale(-1, 1);
 }
 
+/*! Force GPU to render transformations... */
+@mixin gpu-render() {
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
 /*! Transition
     Example usage:
     @include transition(width height, 4s, linear, 1s)
@@ -175,5 +186,21 @@
   }
   @keyframes #{$name} {
     @content;
+  }
+}
+
+/*! Opacity
+    Example usage:
+    @include opacity(.5, true)
+ */
+@mixin opacity ($opacity, $important:false) {
+  @if $important {
+    -moz-opacity: $opacity !important;
+    opacity: $opacity !important;
+    filter: alpha(opacity=$opacity*100) !important;
+  }@else{
+    -moz-opacity: $opacity;
+    opacity: $opacity;
+    filter: alpha(opacity=$opacity*100);
   }
 }

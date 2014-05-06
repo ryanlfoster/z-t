@@ -9,7 +9,7 @@
 		<div class="byline-container l-table">
     		<div class="byline-social-image">
 				<div class="image-social-image">
-				    <img src="/etc/designs/tourismaustralia/clientlibs/img/placeholders/image_social_image2.jpg" alt="Social Image">
+				    <img src="/etc/designs/tourismaustralia/clientlibs/imgs/placeholders/image_social_image2.jpg" alt="Social Image">
 				</div>
 		    </div>
 

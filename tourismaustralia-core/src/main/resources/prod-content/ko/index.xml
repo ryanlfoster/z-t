@@ -1,0 +1,644 @@
+﻿<?xml version="1.0" ?>
+<ConsumerHomepageFoundation pageID="" isTemplate="1">
+    <TA_Title><![CDATA[호주 여행, 호주에 관한 모든 것, 시드니, 멜버른 등 소개  - 호주정부관광청]]></TA_Title>
+    <hdl_Title><![CDATA[홈]]></hdl_Title>
+    <inf_PageId><![CDATA[]]></inf_PageId>
+    <stf_description><![CDATA[호주 여행, 호주에 관한 모든 것. 호주 최신 여행정보, 관광명소, 추천코스, 이벤트 등 호주 여행에 대한 모든 것들을 알아보세요.]]></stf_description>
+    <stf_keywords><![CDATA[호주 여행, 호주 휴가, 호주 소개 ]]></stf_keywords>
+    <img_SearchThumbnail><![CDATA[/thumbnails/homepage-search.jpg]]></img_SearchThumbnail>
+    <img_Background><![CDATA[]]></img_Background>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <con_CookiePolicyMessage>
+        
+    </con_CookiePolicyMessage>
+    <con_GlobalHeader>
+        <GlobalHeaderControlInclude isTemplate="1">
+    <!-- no user content -->
+</GlobalHeaderControlInclude>
+    </con_GlobalHeader>
+    <con_HomepageIntro>
+        <IntroductionMessageHolder isTemplate="1">
+    <anc_ManagementPage><![CDATA[/ko/12014.xml]]></anc_ManagementPage>
+    <con_HomepageIntros>
+        <IntroductionMessage isTemplate="1">
+    <stf_MainHeading><![CDATA[환영합니다!]]></stf_MainHeading>
+    <stf_SubHeading><![CDATA[호주관광청 공식 사이트입니다.]]></stf_SubHeading>
+    <stf_Tagline><![CDATA[호주만큼 멋진 곳은 어디에도 없는 이유 - 직접 확인해 보세요!]]></stf_Tagline>
+    <stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry> 
+</IntroductionMessage>
+    </con_HomepageIntros> 
+</IntroductionMessageHolder>
+    </con_HomepageIntro>
+    <con_Map>
+        <NLAMap isTemplate="1">
+    <stf_Title><![CDATA[이렇게 멋진 곳을 탐험해 보세요]]></stf_Title>
+    <stf_TitleTagLine><![CDATA[이렇게 멋진 곳을 탐험해 보세요]]></stf_TitleTagLine>
+    <stf_MapLink><![CDATA[http://www.australia.com/campaigns/nothinglike/ko/index.html?ev=tnla2-homepage-map-landing]]></stf_MapLink>
+    <anc_Overlay><![CDATA[/ko/nla-map-overlay.xml]]></anc_Overlay>
+    <con_Description>
+        
+    </con_Description>
+</NLAMap>
+    </con_Map>
+    <con_News>
+        <HomepageNewsHolder isTemplate="1">
+    <anc_ManagementPage><![CDATA[/ko/12010.xml]]></anc_ManagementPage>
+    <anc_VideoManagementPage><![CDATA[/ko/12015.xml]]></anc_VideoManagementPage>
+    <con_NewsItems>
+        <HomepageNews isTemplate="1">
+    <img_NewsBackgroundImg><![CDATA[/contentimages/news-australias-food-wine-trends-2014.jpg]]></img_NewsBackgroundImg>
+    <opt_isVideo><![CDATA[no]]></opt_isVideo>
+    <stf_NewsHeading><![CDATA[뉴스 업데이트]]></stf_NewsHeading>
+    <stf_NewsVideoTrackingTitle><![CDATA[]]></stf_NewsVideoTrackingTitle>
+    <stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+    <stf_VideoBackgroundAlt><![CDATA[호주의 음식과 와인, 2014년 트렌드]]></stf_VideoBackgroundAlt>
+    <txt_NewsText><![CDATA[
+        <p style="font-size: 13px;"><strong>호주의 음식과 와인, <br />
+        2014년 트렌드</strong></p>
+        <p style="font-size: 11px;">호주는 지리적으로 세계 주요<br />
+        국가와 멀리 떨어져 있지만<br />
+        2014년 세계의 음식 트렌드를<br />
+        주도하고 있습니다.</p>
+        <p style="font-size: 11px;">
+        <strong><a href="/ko/australias-food-wine-trends-2014.xml" onclick="ntptEventTag('ev=newstext-foodwinetrendsko');" target="_self"><span style="text-decoration: underline;">자세한 내용 보기</span></a></strong></p>
+    ]]></txt_NewsText> 
+</HomepageNews>
+    </con_NewsItems> 
+</HomepageNewsHolder>
+    </con_News>
+    <con_SpecialOffers>
+        <SpecialOffersBox isTemplate="1">
+        <anc_Accommodation><![CDATA[/ko/plan/plan-your-trip/accommodation.xml]]></anc_Accommodation>
+        <anc_TravelAgentPage><![CDATA[/ko/plan/plan-your-trip/find-travel-agent.xml]]></anc_TravelAgentPage>
+        <con_SpecialOffersCountry>
+            <SpecialOffersCountry isTemplate="1">
+    <hdl_Title><![CDATA[KO]]></hdl_Title>
+    <con_Category>
+        <SpecialOffersItem isTemplate="1">
+    <hdl_Title><![CDATA[싱가포르항공과 함께 세상 어디에도 없는 멋진 호주를 경험하세요]]></hdl_Title>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <img_Thumbnail><![CDATA[/contentimages/special-offers-singapore-airlines-uk.jpg]]></img_Thumbnail>
+    <stf_ThumnailTeaserOnPageCaption><![CDATA[싱가포르항공과 함께 세상 어디에도 없는 멋진 호주를 경험하세요]]></stf_ThumnailTeaserOnPageCaption>
+    <img_ThumbnailTeaserOnPage><![CDATA[/contentimages/special-offers-singapore-airlines-uk-hl.jpg]]></img_ThumbnailTeaserOnPage>
+    <anc_ListItems>
+        <anc_ListItem>
+            <url><![CDATA[/ko/singapore-airlines-ko.xml]]></url>
+            <hdl_Title><![CDATA[싱가포르항공과 함께 세상 어디에도 없는 멋진 호주를 경험하세요]]></hdl_Title>
+            <txt_Teaser><![CDATA[
+        최고의 서비스 싱가포르항공으로 떠나는  호주자유여행 절호의 찬스!
+    ]]></txt_Teaser>
+            <stf_IsExternalSiteArticle><![CDATA[no]]></stf_IsExternalSiteArticle>
+            <stf_TrackingTitle><![CDATA[singaporeairlinesko]]></stf_TrackingTitle>
+            <stf_LinkLearnMore><![CDATA[자세한 정보 보기]]></stf_LinkLearnMore>
+            <stf_externalLink><![CDATA[]]></stf_externalLink>
+            <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+            <stf_TrackingEvent><![CDATA[specialoffers]]></stf_TrackingEvent>
+            <stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+            <med_File><![CDATA[]]></med_File>
+        </anc_ListItem>
+    </anc_ListItems>
+</SpecialOffersItem><SpecialOffersItem isTemplate="1">
+    <hdl_Title><![CDATA[멜번 워킹 스타일]]></hdl_Title>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <img_Thumbnail><![CDATA[/contentimages/ko_tvic_special_offers.jpg]]></img_Thumbnail>
+    <stf_ThumnailTeaserOnPageCaption><![CDATA[멜번 워킹 스타일]]></stf_ThumnailTeaserOnPageCaption>
+    <img_ThumbnailTeaserOnPage><![CDATA[/contentimages/ko_tvc_h1.jpg]]></img_ThumbnailTeaserOnPage>
+    <anc_ListItems>
+        <anc_ListItem>
+            <url><![CDATA[/ko/coop-vic-ko.xml]]></url>
+            <hdl_Title><![CDATA[멜번 워킹 스타일, 짜릿하거나 달콤하거나]]></hdl_Title>
+            <txt_Teaser><![CDATA[
+        매력적인 도시와 대자연의 경이로움을 한번에. 지금 멜번으로 떠나 보세요. 
+    ]]></txt_Teaser>
+            <stf_IsExternalSiteArticle><![CDATA[no]]></stf_IsExternalSiteArticle>
+            <stf_TrackingTitle><![CDATA[cooptvicko]]></stf_TrackingTitle>
+            <stf_LinkLearnMore><![CDATA[자세한 내용 보기 ]]></stf_LinkLearnMore>
+            <stf_externalLink><![CDATA[]]></stf_externalLink>
+            <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+            <stf_TrackingEvent><![CDATA[specialoffers]]></stf_TrackingEvent>
+            <stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+            <med_File><![CDATA[]]></med_File>
+        </anc_ListItem>
+    </anc_ListItems>
+</SpecialOffersItem>
+    </con_Category> 
+</SpecialOffersCountry>
+        </con_SpecialOffersCountry>
+        <hdl_Headline><![CDATA[프로모션*]]></hdl_Headline>
+        <img_Accommodation><![CDATA[/contentimages/accommodation-homepage.jpg]]></img_Accommodation>
+        <img_TravelAgentImage><![CDATA[/contentimages/find-a-travel-agent-homepage.jpg]]></img_TravelAgentImage>
+        <stf_AccommodationHeading><![CDATA[숙박시설]]></stf_AccommodationHeading>
+        <stf_AccommodationLinkText><![CDATA[상세 정보 ]]></stf_AccommodationLinkText>
+        <stf_AccommodationTrackingTitle><![CDATA[accommodations]]></stf_AccommodationTrackingTitle>
+        <stf_TravelAgentHeading><![CDATA[여행사 검색]]></stf_TravelAgentHeading>
+        <stf_TravelAgentLinkText><![CDATA[상세 정보 ]]></stf_TravelAgentLinkText>
+        <stf_TravelAgentTrackingTitle><![CDATA[agents]]></stf_TravelAgentTrackingTitle>
+        <txt_Accommodation><![CDATA[
+        호주에는 너무나 다양한 숙박 시설이 있으니 취향에 따라 고르실 수 있답니다.
+    ]]></txt_Accommodation>
+        <txt_TravelAgentText><![CDATA[
+        호주 지역 전문가인 ‘호주 전문가(Aussie Experts)’들은 호주정부관광청에서 주관한 Aussie Specialist Program을 통해 배출되었고, 호주 여행 경험이 매우 풍부합니다.
+    ]]></txt_TravelAgentText> 
+</SpecialOffersBox>
+    </con_SpecialOffers>
+    <con_FeatureBox>
+        <FeatureBoxHolder isTemplate="1">
+    <hdl_Features><![CDATA[호주만큼 멋진 곳은 어디에도 없습니다]]></hdl_Features>
+    <anc_ManagementPage><![CDATA[/ko/12011.xml]]></anc_ManagementPage>
+    <con_FeatureBoxCountries>
+        <FeatureBoxCountryHolder isTemplate="1">
+    <hdl_Title><![CDATA[KO - NLA2]]></hdl_Title>
+    <con_FeatureBoxItems>
+        <FeatureBoxItems isTemplate="1">
+    <anc_InternalLink><![CDATA[]]></anc_InternalLink>
+    <img_BackgroundImg><![CDATA[/contentimages/feature-box-ko.jpg]]></img_BackgroundImg>
+    <img_Map><![CDATA[]]></img_Map>
+    <opt_isExternalLink><![CDATA[yes]]></opt_isExternalLink>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <stf_AltTag><![CDATA[호주만큼 멋진 곳은 어디에도 없습니다. 직접 확인하세요.]]></stf_AltTag>
+    <stf_externalLink><![CDATA[http://www.australia.com/campaigns/nothinglike/ko/index.html]]></stf_externalLink>
+    <stf_FeatureTrackingTitle><![CDATA[featureboxnlako]]></stf_FeatureTrackingTitle>
+    <stf_LinkText><![CDATA[더 보기]]></stf_LinkText>
+    <stf_MapAltTag><![CDATA[]]></stf_MapAltTag>
+    <stf_Title><![CDATA[]]></stf_Title>
+    <stf_TrackingEvent><![CDATA[feature]]></stf_TrackingEvent>
+    <txt_Text><![CDATA[꿈꾸던 휴가가 현실이 되는 멋진 경험을 해 보세요]]></txt_Text> 
+</FeatureBoxItems>
+    </con_FeatureBoxItems>
+</FeatureBoxCountryHolder><FeatureBoxCountryHolder isTemplate="1">
+    <hdl_Title><![CDATA[KO]]></hdl_Title>
+    <con_FeatureBoxItems>
+        <FeatureBoxItems isTemplate="1">
+    <anc_InternalLink><![CDATA[/ko/explore/icons/alps.xml]]></anc_InternalLink>
+    <img_BackgroundImg><![CDATA[/contentimages/features-alpine.jpg]]></img_BackgroundImg>
+    <img_Map><![CDATA[/contentimages/australian-alps-fb-map.png]]></img_Map>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[yes]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_FeatureTrackingTitle><![CDATA[iconsaustralianalps]]></stf_FeatureTrackingTitle>
+    <stf_LinkText><![CDATA[상세 정보]]></stf_LinkText>
+    <stf_MapAltTag><![CDATA[]]></stf_MapAltTag>
+    <stf_Title><![CDATA[호주 알프스 ]]></stf_Title>
+    <stf_TrackingEvent><![CDATA[feature]]></stf_TrackingEvent>
+    <txt_Text><![CDATA[16개의 국립공원과 자연보호구역에서 일년 내내 즐기는 야외 활동]]></txt_Text> 
+</FeatureBoxItems><FeatureBoxItems isTemplate="1">
+    <anc_InternalLink><![CDATA[/ko/explore/icons/namadgi.xml]]></anc_InternalLink>
+    <img_BackgroundImg><![CDATA[/contentimages/Namadgi-feature-box.jpg]]></img_BackgroundImg>
+    <img_Map><![CDATA[/contentimages/namadgi-fb-map.png]]></img_Map>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[yes]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_FeatureTrackingTitle><![CDATA[iconsnamadgi]]></stf_FeatureTrackingTitle>
+    <stf_LinkText><![CDATA[상세 정보]]></stf_LinkText>
+    <stf_MapAltTag><![CDATA[]]></stf_MapAltTag>
+    <stf_Title><![CDATA[나마지 국립공원 ]]></stf_Title>
+    <stf_TrackingEvent><![CDATA[feature]]></stf_TrackingEvent>
+    <txt_Text><![CDATA[고요한 숲과 풍부한 원주민 역사]]></txt_Text> 
+</FeatureBoxItems><FeatureBoxItems isTemplate="1">
+    <anc_InternalLink><![CDATA[/ko/explore/icons/blue-mountains.xml]]></anc_InternalLink>
+    <img_BackgroundImg><![CDATA[/contentimages/blue-mountains-feature-box.jpg]]></img_BackgroundImg>
+    <img_Map><![CDATA[/contentimages/blue-mountains-fb-map.png]]></img_Map>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[yes]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_FeatureTrackingTitle><![CDATA[iconsbluemountains]]></stf_FeatureTrackingTitle>
+    <stf_LinkText><![CDATA[상세 정보]]></stf_LinkText>
+    <stf_MapAltTag><![CDATA[]]></stf_MapAltTag>
+    <stf_Title><![CDATA[블루 마운틴]]></stf_Title>
+    <stf_TrackingEvent><![CDATA[feature]]></stf_TrackingEvent>
+    <txt_Text><![CDATA[푸른 안개가 피어나는 절경, 유칼립투스 삼림, 동굴, 절벽과 폭포의 아름다움]]></txt_Text> 
+</FeatureBoxItems><FeatureBoxItems isTemplate="1">
+    <anc_InternalLink><![CDATA[/ko/explore/icons/byron-bay.xml]]></anc_InternalLink>
+    <img_BackgroundImg><![CDATA[/contentimages/byron-bay-feature-box.jpg]]></img_BackgroundImg>
+    <img_Map><![CDATA[/contentimages/byron-bay-fb-map.png]]></img_Map>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[yes]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_FeatureTrackingTitle><![CDATA[iconsbyronbay]]></stf_FeatureTrackingTitle>
+    <stf_LinkText><![CDATA[상세 정보]]></stf_LinkText>
+    <stf_MapAltTag><![CDATA[]]></stf_MapAltTag>
+    <stf_Title><![CDATA[바이런 베이]]></stf_Title>
+    <stf_TrackingEvent><![CDATA[feature]]></stf_TrackingEvent>
+    <txt_Text><![CDATA[해변, 서핑 문화, 우림 지대의 마을과 여유로운 스파]]></txt_Text> 
+</FeatureBoxItems><FeatureBoxItems isTemplate="1">
+    <anc_InternalLink><![CDATA[/ko/explore/icons/kakadu.xml]]></anc_InternalLink>
+    <img_BackgroundImg><![CDATA[/contentimages/kakadu-feature-box.jpg]]></img_BackgroundImg>
+    <img_Map><![CDATA[/contentimages/kakadu-fb-map.png]]></img_Map>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[yes]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_FeatureTrackingTitle><![CDATA[iconskakdu]]></stf_FeatureTrackingTitle>
+    <stf_LinkText><![CDATA[상세 정보]]></stf_LinkText>
+    <stf_MapAltTag><![CDATA[]]></stf_MapAltTag>
+    <stf_Title><![CDATA[카카두]]></stf_Title>
+    <stf_TrackingEvent><![CDATA[feature]]></stf_TrackingEvent>
+    <txt_Text><![CDATA[습지, 야생동식물 그리고 원주민 암각화의 보고]]></txt_Text> 
+</FeatureBoxItems><FeatureBoxItems isTemplate="1">
+    <anc_InternalLink><![CDATA[/ko/explore/icons/red-centre.xml]]></anc_InternalLink>
+    <img_BackgroundImg><![CDATA[/contentimages/red-centre-feature-box.jpg]]></img_BackgroundImg>
+    <img_Map><![CDATA[/contentimages/red-centre-fb-map.png]]></img_Map>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[yes]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_FeatureTrackingTitle><![CDATA[iconsredcentre]]></stf_FeatureTrackingTitle>
+    <stf_LinkText><![CDATA[상세 정보]]></stf_LinkText>
+    <stf_MapAltTag><![CDATA[]]></stf_MapAltTag>
+    <stf_Title><![CDATA[레드 센터]]></stf_Title>
+    <stf_TrackingEvent><![CDATA[feature]]></stf_TrackingEvent>
+    <txt_Text><![CDATA[풍부한 원주민 문화와 거친 아웃백의 아름다운 경관]]></txt_Text> 
+</FeatureBoxItems><FeatureBoxItems isTemplate="1">
+    <anc_InternalLink><![CDATA[/ko/explore/icons/fraser-island.xml]]></anc_InternalLink>
+    <img_BackgroundImg><![CDATA[/contentimages/fraser-island-feature-box.jpg]]></img_BackgroundImg>
+    <img_Map><![CDATA[/contentimages/fraser-island-fb-map.png]]></img_Map>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[yes]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_FeatureTrackingTitle><![CDATA[iconsfraserisland]]></stf_FeatureTrackingTitle>
+    <stf_LinkText><![CDATA[상세 정보]]></stf_LinkText>
+    <stf_MapAltTag><![CDATA[]]></stf_MapAltTag>
+    <stf_Title><![CDATA[프레이저 섬]]></stf_Title>
+    <stf_TrackingEvent><![CDATA[feature]]></stf_TrackingEvent>
+    <txt_Text><![CDATA[해변과 우림, 내륙의 호수를 4륜구동 차량으로 달려보세요.]]></txt_Text> 
+</FeatureBoxItems><FeatureBoxItems isTemplate="1">
+    <anc_InternalLink><![CDATA[/ko/explore/icons/great-barrier-reef.xml]]></anc_InternalLink>
+    <img_BackgroundImg><![CDATA[/contentimages/great-barrier-reef-feature-box.jpg]]></img_BackgroundImg>
+    <img_Map><![CDATA[/contentimages/gbr-fb-map.png]]></img_Map>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[yes]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_FeatureTrackingTitle><![CDATA[iconsgreatbarrierreef]]></stf_FeatureTrackingTitle>
+    <stf_LinkText><![CDATA[상세 정보]]></stf_LinkText>
+    <stf_MapAltTag><![CDATA[]]></stf_MapAltTag>
+    <stf_Title><![CDATA[그레이트 베리어 리프]]></stf_Title>
+    <stf_TrackingEvent><![CDATA[feature]]></stf_TrackingEvent>
+    <txt_Text><![CDATA[이 놀라운 생태지에서 수영, 다이빙, 세일링을 즐기고 바다 위의 섬들을 둘러보세요.]]></txt_Text> 
+</FeatureBoxItems><FeatureBoxItems isTemplate="1">
+    <anc_InternalLink><![CDATA[/ko/explore/icons/flinders.xml]]></anc_InternalLink>
+    <img_BackgroundImg><![CDATA[/contentimages/features-flinders-ranges.jpg]]></img_BackgroundImg>
+    <img_Map><![CDATA[/contentimages/flinders-ranges-fb-map.png]]></img_Map>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[yes]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_FeatureTrackingTitle><![CDATA[iconsflindersranges]]></stf_FeatureTrackingTitle>
+    <stf_LinkText><![CDATA[상세 정보]]></stf_LinkText>
+    <stf_MapAltTag><![CDATA[]]></stf_MapAltTag>
+    <stf_Title><![CDATA[플린더스 레인지]]></stf_Title>
+    <stf_TrackingEvent><![CDATA[feature]]></stf_TrackingEvent>
+    <txt_Text><![CDATA[자연의 원형극장, 오팔과 원주민 암각화]]></txt_Text> 
+</FeatureBoxItems><FeatureBoxItems isTemplate="1">
+    <anc_InternalLink><![CDATA[/ko/explore/icons/kangaroo-island.xml]]></anc_InternalLink>
+    <img_BackgroundImg><![CDATA[/contentimages/kangaroo-island-feature-box.jpg]]></img_BackgroundImg>
+    <img_Map><![CDATA[/contentimages/kangaroo-island-fb-map.png]]></img_Map>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[yes]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_FeatureTrackingTitle><![CDATA[iconskangarooisland]]></stf_FeatureTrackingTitle>
+    <stf_LinkText><![CDATA[상세 정보]]></stf_LinkText>
+    <stf_MapAltTag><![CDATA[]]></stf_MapAltTag>
+    <stf_Title><![CDATA[캥거루 섬]]></stf_Title>
+    <stf_TrackingEvent><![CDATA[feature]]></stf_TrackingEvent>
+    <txt_Text><![CDATA[때묻지 않은 자연 서식지에 사는 호주의 야생동식물을 만나보세요.]]></txt_Text> 
+</FeatureBoxItems><FeatureBoxItems isTemplate="1">
+    <anc_InternalLink><![CDATA[/ko/explore/icons/freycinet.xml]]></anc_InternalLink>
+    <img_BackgroundImg><![CDATA[/contentimages/freycinet-feature-box.jpg]]></img_BackgroundImg>
+    <img_Map><![CDATA[/contentimages/freycinet-fb-map.png]]></img_Map>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[yes]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_FeatureTrackingTitle><![CDATA[iconsfreycinet]]></stf_FeatureTrackingTitle>
+    <stf_LinkText><![CDATA[상세 정보]]></stf_LinkText>
+    <stf_MapAltTag><![CDATA[]]></stf_MapAltTag>
+    <stf_Title><![CDATA[프레이시넷 ]]></stf_Title>
+    <stf_TrackingEvent><![CDATA[feature]]></stf_TrackingEvent>
+    <txt_Text><![CDATA[분홍빛 화강암 산봉우리와 자연 그대로의 원시 해변, 에메랄드 빛 바다]]></txt_Text> 
+</FeatureBoxItems><FeatureBoxItems isTemplate="1">
+    <anc_InternalLink><![CDATA[/ko/explore/icons/tas-wilderness.xml]]></anc_InternalLink>
+    <img_BackgroundImg><![CDATA[/contentimages/tasmanian-wilderness-feature-box.jpg]]></img_BackgroundImg>
+    <img_Map><![CDATA[/contentimages/tas-wilderness-fb-map.png]]></img_Map>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[yes]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_FeatureTrackingTitle><![CDATA[iconstaswilderness]]></stf_FeatureTrackingTitle>
+    <stf_LinkText><![CDATA[상세 정보]]></stf_LinkText>
+    <stf_MapAltTag><![CDATA[]]></stf_MapAltTag>
+    <stf_Title><![CDATA[태지 윌더니스]]></stf_Title>
+    <stf_TrackingEvent><![CDATA[feature]]></stf_TrackingEvent>
+    <txt_Text><![CDATA[태즈매니아 국립공원의 아름다움을 느껴보세요.]]></txt_Text> 
+</FeatureBoxItems><FeatureBoxItems isTemplate="1">
+    <anc_InternalLink><![CDATA[/ko/explore/icons/gippsland.xml]]></anc_InternalLink>
+    <img_BackgroundImg><![CDATA[/contentimages/gippsland-feature-box.jpg]]></img_BackgroundImg>
+    <img_Map><![CDATA[/contentimages/gippsland-fb-map.png]]></img_Map>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[yes]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_FeatureTrackingTitle><![CDATA[iconsgippsland]]></stf_FeatureTrackingTitle>
+    <stf_LinkText><![CDATA[상세 정보]]></stf_LinkText>
+    <stf_MapAltTag><![CDATA[]]></stf_MapAltTag>
+    <stf_Title><![CDATA[깁스랜드]]></stf_Title>
+    <stf_TrackingEvent><![CDATA[feature]]></stf_TrackingEvent>
+    <txt_Text><![CDATA[우거진 삼림과 호수 그리고 해변의 야생 자연환경을 만끽해보세요.]]></txt_Text> 
+</FeatureBoxItems><FeatureBoxItems isTemplate="1">
+    <anc_InternalLink><![CDATA[/ko/explore/icons/great-ocean-road.xml]]></anc_InternalLink>
+    <img_BackgroundImg><![CDATA[/contentimages/great-ocean-road-feature-box.jpg]]></img_BackgroundImg>
+    <img_Map><![CDATA[/contentimages/gor-fb-map.png]]></img_Map>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[yes]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_FeatureTrackingTitle><![CDATA[iconsgreatoceanroad]]></stf_FeatureTrackingTitle>
+    <stf_LinkText><![CDATA[상세 정보]]></stf_LinkText>
+    <stf_MapAltTag><![CDATA[]]></stf_MapAltTag>
+    <stf_Title><![CDATA[그레이트 오션 로드]]></stf_Title>
+    <stf_TrackingEvent><![CDATA[feature]]></stf_TrackingEvent>
+    <txt_Text><![CDATA[구비구비 펼쳐지는 자연의 드라마를 감상하세요.]]></txt_Text> 
+</FeatureBoxItems><FeatureBoxItems isTemplate="1">
+    <anc_InternalLink><![CDATA[/ko/explore/icons/kimberley.xml]]></anc_InternalLink>
+    <img_BackgroundImg><![CDATA[/contentimages/kimberley-feature-box.jpg]]></img_BackgroundImg>
+    <img_Map><![CDATA[/contentimages/kimberley-fb-map.png]]></img_Map>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[yes]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_FeatureTrackingTitle><![CDATA[iconskimberley]]></stf_FeatureTrackingTitle>
+    <stf_LinkText><![CDATA[상세 정보]]></stf_LinkText>
+    <stf_MapAltTag><![CDATA[]]></stf_MapAltTag>
+    <stf_Title><![CDATA[킴벌리]]></stf_Title>
+    <stf_TrackingEvent><![CDATA[feature]]></stf_TrackingEvent>
+    <txt_Text><![CDATA[광활한 수평선, 푸른 바닷가 그리고 경이로운 대자연]]></txt_Text> 
+</FeatureBoxItems><FeatureBoxItems isTemplate="1">
+    <anc_InternalLink><![CDATA[/ko/explore/icons/ningaloo.xml]]></anc_InternalLink>
+    <img_BackgroundImg><![CDATA[/contentimages/ningaloo-feature-box.jpg]]></img_BackgroundImg>
+    <img_Map><![CDATA[/contentimages/ningaloo-fb-map.png]]></img_Map>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[yes]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_FeatureTrackingTitle><![CDATA[iconsningaloo]]></stf_FeatureTrackingTitle>
+    <stf_LinkText><![CDATA[상세 정보]]></stf_LinkText>
+    <stf_MapAltTag><![CDATA[]]></stf_MapAltTag>
+    <stf_Title><![CDATA[닝갈루]]></stf_Title>
+    <stf_TrackingEvent><![CDATA[feature]]></stf_TrackingEvent>
+    <txt_Text><![CDATA[호주의 최대 산호초는 경이로운 해양 생태계를 선사합니다.]]></txt_Text> 
+</FeatureBoxItems>
+    </con_FeatureBoxItems>
+</FeatureBoxCountryHolder>
+    </con_FeatureBoxCountries>
+</FeatureBoxHolder>
+    </con_FeatureBox>            
+    <con_Carousel>
+        <CarouselHolder isTemplate="1">
+    <anc_ManagementPage><![CDATA[/ko/12013.xml]]></anc_ManagementPage>
+    <hdl_CarouselTitle><![CDATA[호주의 볼거리와 즐길거리]]></hdl_CarouselTitle>
+    <con_CarouselCountries>
+        <CarouselCountryHolder isTemplate="1">
+    <con_CarouselItems>
+        <CarouselItems isTemplate="1">
+    <img_Image><![CDATA[/contentimages/Campaigns/campaigns-ko-running-man-carousel.jpg]]></img_Image>
+    <med_CarouselPDF><![CDATA[]]></med_CarouselPDF>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <stf_AltTag><![CDATA[런닝맨 호주 특집, [어드벤처 in 호주]이벤트]]></stf_AltTag>
+    <stf_CarouselTrackingObject><![CDATA[runningmanko]]></stf_CarouselTrackingObject>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_Text><![CDATA[]]></stf_Text>
+    <stf_TrackingEvent><![CDATA[carousel]]></stf_TrackingEvent>
+    <anc_InternalLink><![CDATA[/ko/running-man-ko.xml]]></anc_InternalLink>
+    <hdl_ItemTitle><![CDATA[런닝맨 호주 특집, [어드벤처 in 호주]이벤트]]></hdl_ItemTitle> 
+</CarouselItems><CarouselItems isTemplate="1">
+    <img_Image><![CDATA[/contentimages/carousel_foodandwine.jpg]]></img_Image>
+    <med_CarouselPDF><![CDATA[]]></med_CarouselPDF>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_CarouselTrackingObject><![CDATA[foodandwineko]]></stf_CarouselTrackingObject>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_Text><![CDATA[]]></stf_Text>
+    <stf_TrackingEvent><![CDATA[carousel]]></stf_TrackingEvent>
+    <anc_InternalLink><![CDATA[/ko/explore/things-to-do/food-and-wine.xml]]></anc_InternalLink>
+    <hdl_ItemTitle><![CDATA[호주의 음식과 와인 문화를 경험해 보세요]]></hdl_ItemTitle> 
+</CarouselItems><CarouselItems isTemplate="1">
+    <img_Image><![CDATA[/contentimages/Campaigns/carousel-events-calendar.jpg]]></img_Image>
+    <med_CarouselPDF><![CDATA[]]></med_CarouselPDF>
+    <opt_isExternalLink><![CDATA[yes]]></opt_isExternalLink>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_CarouselTrackingObject><![CDATA[eventcalendar]]></stf_CarouselTrackingObject>
+    <stf_externalLink><![CDATA[http://www.australia.com/campaigns/eventscalendar/ko]]></stf_externalLink>
+    <stf_Text><![CDATA[]]></stf_Text>
+    <stf_TrackingEvent><![CDATA[carousel]]></stf_TrackingEvent>
+    <anc_InternalLink><![CDATA[]]></anc_InternalLink>
+    <hdl_ItemTitle><![CDATA[이벤트 일정을 확인해 보세요]]></hdl_ItemTitle> 
+</CarouselItems><CarouselItems isTemplate="1">
+    <img_Image><![CDATA[/contentimages/Campaigns/campaigns-nla2-apps-lizard-island-carousel.jpg]]></img_Image>
+    <med_CarouselPDF><![CDATA[]]></med_CarouselPDF>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <stf_AltTag><![CDATA[앱에서 호주만큼 멋진 곳은 어디에도 없습니다]]></stf_AltTag>
+    <stf_CarouselTrackingObject><![CDATA[nla2appko]]></stf_CarouselTrackingObject>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_Text><![CDATA[]]></stf_Text>
+    <stf_TrackingEvent><![CDATA[carousel]]></stf_TrackingEvent>
+    <anc_InternalLink><![CDATA[/ko/apps.xml]]></anc_InternalLink>
+    <hdl_ItemTitle><![CDATA[앱에서 호주만큼 멋진 곳은 어디에도 없습니다]]></hdl_ItemTitle> 
+</CarouselItems><CarouselItems isTemplate="1">
+    <img_Image><![CDATA[/contentimages/carousel-ko-fit.jpg]]></img_Image>
+    <med_CarouselPDF><![CDATA[]]></med_CarouselPDF>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_CarouselTrackingObject><![CDATA[carouselfitko]]></stf_CarouselTrackingObject>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_Text><![CDATA[]]></stf_Text>
+    <stf_TrackingEvent><![CDATA[carousel]]></stf_TrackingEvent>
+    <anc_InternalLink><![CDATA[/ko/fit-ko.xml]]></anc_InternalLink>
+    <hdl_ItemTitle><![CDATA[호주 주별 테마여행]]></hdl_ItemTitle> 
+</CarouselItems><CarouselItems isTemplate="1">
+    <img_Image><![CDATA[/contentimages/carousel-outback.jpg]]></img_Image>
+    <med_CarouselPDF><![CDATA[]]></med_CarouselPDF>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_CarouselTrackingObject><![CDATA[outback]]></stf_CarouselTrackingObject>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_Text><![CDATA[]]></stf_Text>
+    <stf_TrackingEvent><![CDATA[carousel]]></stf_TrackingEvent>
+    <anc_InternalLink><![CDATA[/ko/about/australias-landscapes/outback-australia.xml]]></anc_InternalLink>
+    <hdl_ItemTitle><![CDATA[아웃백]]></hdl_ItemTitle> 
+</CarouselItems><CarouselItems isTemplate="1">
+    <img_Image><![CDATA[/contentimages/carousel-coastal.jpg]]></img_Image>
+    <med_CarouselPDF><![CDATA[]]></med_CarouselPDF>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_CarouselTrackingObject><![CDATA[coastal]]></stf_CarouselTrackingObject>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_Text><![CDATA[]]></stf_Text>
+    <stf_TrackingEvent><![CDATA[carousel]]></stf_TrackingEvent>
+    <anc_InternalLink><![CDATA[/ko/about/australias-landscapes/coastal.xml]]></anc_InternalLink>
+    <hdl_ItemTitle><![CDATA[해안]]></hdl_ItemTitle> 
+</CarouselItems><CarouselItems isTemplate="1">
+    <img_Image><![CDATA[/contentimages/carousel-nature.jpg]]></img_Image>
+    <med_CarouselPDF><![CDATA[]]></med_CarouselPDF>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_CarouselTrackingObject><![CDATA[nature]]></stf_CarouselTrackingObject>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_Text><![CDATA[]]></stf_Text>
+    <stf_TrackingEvent><![CDATA[carousel]]></stf_TrackingEvent>
+    <anc_InternalLink><![CDATA[/ko/about/australias-landscapes/nature.xml]]></anc_InternalLink>
+    <hdl_ItemTitle><![CDATA[자연]]></hdl_ItemTitle> 
+</CarouselItems><CarouselItems isTemplate="1">
+    <img_Image><![CDATA[/contentimages/carousel-explore.jpg]]></img_Image>
+    <med_CarouselPDF><![CDATA[]]></med_CarouselPDF>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_CarouselTrackingObject><![CDATA[explore]]></stf_CarouselTrackingObject>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_Text><![CDATA[]]></stf_Text>
+    <stf_TrackingEvent><![CDATA[carousel]]></stf_TrackingEvent>
+    <anc_InternalLink><![CDATA[/ko/explore.xml]]></anc_InternalLink>
+    <hdl_ItemTitle><![CDATA[여행 코스]]></hdl_ItemTitle> 
+</CarouselItems><CarouselItems isTemplate="1">
+    <img_Image><![CDATA[/contentimages/youthful_icons.jpg]]></img_Image>
+    <med_CarouselPDF><![CDATA[]]></med_CarouselPDF>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_CarouselTrackingObject><![CDATA[youthtravellers]]></stf_CarouselTrackingObject>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_Text><![CDATA[ ]]></stf_Text>
+    <stf_TrackingEvent><![CDATA[carousel]]></stf_TrackingEvent>
+    <anc_InternalLink><![CDATA[/ko/explore/things-to-do/youthful-travellers.xml]]></anc_InternalLink>
+    <hdl_ItemTitle><![CDATA[호주 워킹홀리데이 및 배낭여행]]></hdl_ItemTitle> 
+</CarouselItems><CarouselItems isTemplate="1">
+    <img_Image><![CDATA[/contentimages/australias-cities-carousel.jpg]]></img_Image>
+    <med_CarouselPDF><![CDATA[]]></med_CarouselPDF>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_CarouselTrackingObject><![CDATA[australiascitiesko]]></stf_CarouselTrackingObject>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_Text><![CDATA[ ]]></stf_Text>
+    <stf_TrackingEvent><![CDATA[carousel]]></stf_TrackingEvent>
+    <anc_InternalLink><![CDATA[/ko/explore/cities/cities.xml]]></anc_InternalLink>
+    <hdl_ItemTitle><![CDATA[호주의 도시]]></hdl_ItemTitle> 
+</CarouselItems><CarouselItems isTemplate="1">
+    <img_Image><![CDATA[/contentimages/making-tracks-carousel.jpg]]></img_Image>
+    <med_CarouselPDF><![CDATA[]]></med_CarouselPDF>
+    <opt_isExternalLink><![CDATA[yes]]></opt_isExternalLink>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_CarouselTrackingObject><![CDATA[makingtracks]]></stf_CarouselTrackingObject>
+    <stf_externalLink><![CDATA[http://www.australia.com/campaigns/makingtracks-int/ko/]]></stf_externalLink>
+    <stf_Text><![CDATA[ ]]></stf_Text>
+    <stf_TrackingEvent><![CDATA[carousel]]></stf_TrackingEvent>
+    <anc_InternalLink><![CDATA[]]></anc_InternalLink>
+    <hdl_ItemTitle><![CDATA[음악 여행]]></hdl_ItemTitle> 
+</CarouselItems><CarouselItems isTemplate="1">
+    <img_Image><![CDATA[/contentimages/carousel-national-landscapes.jpg]]></img_Image>
+    <med_CarouselPDF><![CDATA[]]></med_CarouselPDF>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_CarouselTrackingObject><![CDATA[nationallandscapes]]></stf_CarouselTrackingObject>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_Text><![CDATA[ ]]></stf_Text>
+    <stf_TrackingEvent><![CDATA[carousel]]></stf_TrackingEvent>
+    <anc_InternalLink><![CDATA[/ko/nationallandscapes.xml]]></anc_InternalLink>
+    <hdl_ItemTitle><![CDATA[호주 관광 명소]]></hdl_ItemTitle> 
+</CarouselItems><CarouselItems isTemplate="1">
+    <img_Image><![CDATA[/contentimages/carousel-aboriginal-australia.jpg]]></img_Image>
+    <med_CarouselPDF><![CDATA[]]></med_CarouselPDF>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_CarouselTrackingObject><![CDATA[aboriginalaustralia]]></stf_CarouselTrackingObject>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_Text><![CDATA[ ]]></stf_Text>
+    <stf_TrackingEvent><![CDATA[carousel]]></stf_TrackingEvent>
+    <anc_InternalLink><![CDATA[/ko/explore/things-to-do/aboriginal-australia.xml]]></anc_InternalLink>
+    <hdl_ItemTitle><![CDATA[원주민]]></hdl_ItemTitle> 
+</CarouselItems><CarouselItems isTemplate="1">
+    <img_Image><![CDATA[/contentimages/carousel_golf.jpg]]></img_Image>
+    <med_CarouselPDF><![CDATA[]]></med_CarouselPDF>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_CarouselTrackingObject><![CDATA[bestofgolfko]]></stf_CarouselTrackingObject>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_Text><![CDATA[]]></stf_Text>
+    <stf_TrackingEvent><![CDATA[carousel]]></stf_TrackingEvent>
+    <anc_InternalLink><![CDATA[/ko/explore/things-to-do/great-golf-courses.xml]]></anc_InternalLink>
+    <hdl_ItemTitle><![CDATA[호주의 그레이트 골프 코스]]></hdl_ItemTitle> 
+</CarouselItems><CarouselItems isTemplate="1">
+    <img_Image><![CDATA[/contentimages/carousel-ko-walkabout-planner.jpg]]></img_Image>
+    <med_CarouselPDF><![CDATA[]]></med_CarouselPDF>
+    <opt_isExternalLink><![CDATA[yes]]></opt_isExternalLink>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_CarouselTrackingObject><![CDATA[walkaboutplannerko]]></stf_CarouselTrackingObject>
+    <stf_externalLink><![CDATA[http://walkaboutplanner.australia.com/#/?lang=kr]]></stf_externalLink>
+    <stf_Text><![CDATA[ ]]></stf_Text>
+    <stf_TrackingEvent><![CDATA[carousel]]></stf_TrackingEvent>
+    <anc_InternalLink><![CDATA[]]></anc_InternalLink>
+    <hdl_ItemTitle><![CDATA[호주 자유여행 플래너]]></hdl_ItemTitle> 
+</CarouselItems>
+    </con_CarouselItems>
+</CarouselCountryHolder>
+    </con_CarouselCountries>
+</CarouselHolder>
+    </con_Carousel>
+    <con_Video>
+        
+    </con_Video>
+    <con_Footer>
+        <GlobalFooterControlInclude isTemplate="1">
+    <!-- no user code -->
+</GlobalFooterControlInclude>
+    </con_Footer>
+    <con_Banner>
+        <HomepageBannerHolder isTemplate="1">
+    <hdl_Title><![CDATA[Homepage Banner Holder]]></hdl_Title>
+    <con_Banner>
+        <HomepageBannerCountryHolder isTemplate="1">
+    <hdl_Title><![CDATA[KO]]></hdl_Title>
+    <lst_Subpages>
+        <url><a href="/ko/12047.ignore">QLD</a></url>
+        <img_Banner><![CDATA[]]></img_Banner> 
+        <stf_Caption><![CDATA[]]></stf_Caption> 
+    </lst_Subpages>
+    <stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry> 
+</HomepageBannerCountryHolder> 
+    </con_Banner>
+</HomepageBannerHolder>
+    </con_Banner>        
+    <con_FooterScript>
+        <GlobalFooterJSReference isTemplate="1">
+    <!-- no user content -->
+</GlobalFooterJSReference>
+    </con_FooterScript>
+    <lst_Promotions>
+    </lst_Promotions>
+    <lst_Subpages>
+        <lst_Subpage><![CDATA[<a href="/ko/21974.ignore">Business Events</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/ko/tools-campaigns.xml">Tools and Campaigns</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/ko/about.xml">호주 소개</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/ko/explore.xml">호주 여행 정보</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/ko/plan.xml">호주 여행 계획</a>]]></lst_Subpage>
+    </lst_Subpages>
+</ConsumerHomepageFoundation>

@@ -24,26 +24,30 @@ public class Map {
 	private final String MARKER_IMAGE = "/etc/designs/foodandwine/clientlibs/imgs/custommap/marker.png";
 
 	@DialogField(fieldLabel = "Phone", required = true)
-	private String phone;
+	private final String phone;
 
 	@DialogField(fieldLabel = "Address", required = true)
-	private String address1;
+	private final String address1;
 
 	@DialogField(fieldLabel = "Suburb", required = true)
-	private String suburb;
+	private final String suburb;
 
 	@DialogField(fieldLabel = "State", required = true)
 	@Selection(type = Selection.SELECT, options = { @Option(value = "Victoria"), @Option(value = "New South Wales"),
 		@Option(value = "Queensland"), @Option(value = "South Australia"), @Option(value = "Northern Territory"),
 		@Option(value = "Western Australia"), @Option(value = "Australian Capital Territory"),
 		@Option(value = "Tasmania") })
-	private String state;
+	private final String state;
 
 	@DialogField(fieldLabel = "Postcode", required = true)
-	private String postcode;
+	private final String postcode;
 
 	@DialogField(fieldLabel = "Website")
-	private String website;
+	private final String website;
+
+	@DialogField(fieldLabel = "Hide Map")
+	@Selection(type = Selection.CHECKBOX, options = @Option(value = "true"))
+	private final boolean hideMap;
 
 	private String googleMapUrl;
 
@@ -60,11 +64,16 @@ public class Map {
 			state = properties.get("state", StringUtils.EMPTY);
 			postcode = properties.get("postcode", StringUtils.EMPTY);
 			website = properties.get("website", StringUtils.EMPTY);
+			hideMap = properties.get("hideMap", false);
+
 		} else {
 			address1 = "";
 			suburb = "";
 			state = "";
 			postcode = "";
+			website = "";
+			phone = "";
+			hideMap = false;
 		}
 		prepareGoogleMapsUrl(request, slingSettings, googleService, serverNameService);
 	}
@@ -85,7 +94,6 @@ public class Map {
 		if (!ServerUtils.isLocal(slingSettings)) {
 			markerImgUrl = "icon:" + serverNameService.getFoodAndWineServerName() + MARKER_IMAGE;
 		}
-		// TODO: refactor better way to replace parameters
 		googleMapUrl = StringUtils.replace(googleMapUrl, "{marker_image_url}", markerImgUrl);
 		googleMapUrl = googleMapUrl + "&key=" + googleService.getMapsAPIKey();
 	}
@@ -126,6 +134,10 @@ public class Map {
 
 	public String getPostcode() {
 		return postcode;
+	}
+
+	public boolean isHideMap() {
+		return hideMap;
 	}
 
 }

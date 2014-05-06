@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="22223" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Startseite]]></headline>
+            <href><![CDATA[/de/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Tools and Campaigns ]]></headline>
+            <href><![CDATA[/de/tools-campaigns.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Nationale Landschaften in Australien]]></headline>
+            <href><![CDATA[/de/nationallandscapes.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[Australiens Küstenwildnis]]></headline>
+            <href><![CDATA[/de/nationallandscapes/australias-coastal-wilderness.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/Campaigns/national-landscapes-australias-coastal-wilderness.jpg]]></img_background>
+    <hdl_Title><![CDATA[Australiens K&uuml;stenwildnis]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/national-landscapes-australias-coastal-wilderness-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/Campaigns/national-landscapes-australias-coastal-wilderness-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[yes]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[Erleben Sie von New South Wales bis hin zu Victoria Natur, Entspannung, Sport und regionale K&uuml;che in vollen Z&uuml;gen.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[Australische K&uuml;ste, Ostk&uuml;ste Australiens, Croajingolong National Park, Sapphire Coast, Ben Boyd National Park, Point Hicks, Green Cape, Gabo Island, Montague Island, Mimosa Rocks National Park, Bega, Bega-K&auml;se, Merimbula, Cape Conran Coastal Park]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Lesen sie mehr]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Nationale Landschaften in Australien: Australiens K&uuml;stenwildnis - Tourism Australia]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        Erleben Sie von New South Wales bis hin zu Victoria Natur, Entspannung, Sport und regionale K&uuml;che in vollen Z&uuml;gen.
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <StandardCampaignLayout isTemplate="1">
+    <opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+    <hdl_Title><![CDATA[]]></hdl_Title>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+    <con_Banner><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<DIV id=headerimage>
+<SCRIPT type=text/javascript src="../../static/js/jquery.cycle.all.latest.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+jQuery(document).ready(function() {
+jQuery('#headersliderwrapper').cycle({
+        fx:'fade',
+        slideExpr: '.headerslide'
+    });
+});
+</SCRIPT>
+
+<DIV id=headersliderwrapper>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-acw-01.jpg"> 
+<DIV class=headerslideinfo>Betka Beach, Mallacoota, VIC</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-acw-02.jpg"> 
+<DIV class=headerslideinfo>Twofold Bay, Eden, NSW</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-acw-03.jpg"> 
+<DIV class=headerslideinfo>Mallacoota Inlet, Croajingolong National Park, VIC</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-acw-04.jpg"> 
+<DIV class=headerslideinfo>Walbeobachtung</DIV></DIV></DIV></DIV>
+<DIV id=subpage-header-overlay></DIV>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule></con_Banner>
+    <con_Body><TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Australiens K&uuml;stenwildnis]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        In der K&uuml;stenwildnis Australiens, die sich von der S&uuml;dk&uuml;ste von New South Wales bis hin zum &ouml;stlichen Gippsland in Victoria erstreckt, treffen hohe W&auml;lder, Seen und Str&auml;nde aufeinander. Wandern und zelten Sie an der wilden, menschenleeren K&uuml;ste, surfen und schnorcheln Sie vor den vom Busch ges&auml;umten Str&auml;nden und erkunden Sie die ruhigen, majest&auml;tischen Seen mit dem Kanu. Entdecken Sie Wale, Delfine, Robben und Pinguine, schlemmen Sie frisch gefangene Meeresfr&uuml;chte und tauchen Sie an uralten Muschelhaufen in die Aborigine-Geschichte der Region ein. &Uuml;bernachten Sie in den h&uuml;bschen Ortschaften Bermagui, Bega und Mallacoota und steigen Sie die historischen Leuchtt&uuml;rme von Point Hicks und Green Cape hinauf.
+        <p><strong>F&uuml;nf Dinge, die Sie unbedingt in dieser unber&uuml;hrten K&uuml;stenwildnis unternehmen sollten</strong></p>
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[1. Vertiefen Sie in den W&auml;ldern, an den Seen und den Str&auml;nden Ihre Liebe zur Natur]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australias-coastal-wilderness-hl01.jpg" alt="Drummer Rainforest Walk, VIC">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Drummer Rainforest Walk, VIC]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Bestaunen Sie die weltweit gr&ouml;&szlig;te bekannte Kolonie kleiner Pinguine auf Gabo Island. Fahren Sie mit dem Boot zur Montague Island, um sich die Robben, Pinguine und Seev&ouml;gel, die sich frei durch die L&uuml;fte schwingen, anzusehen. Beobachten Sie Wale von Eden, Boyds Tower im Ben Boyd National Park oder Point Hicks im Croajingolong National Park aus. Die Str&auml;nde, &uuml;ppigen Regenw&auml;lder und Granitberge hier stehen als Weltbiosph&auml;renreservat unter Schutz. Bewundern Sie den Lake Elusive, dessen Ufer im Sommer und Fr&uuml;hling mit leuchtenden Orchideen und Wildblumen ges&auml;umt ist. Folgen Sie dem Kangarutha Track im Bournda National Park und lauschen Sie dem Rascheln und Zwitschern der Wasser- und Sumpfv&ouml;gel.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[2. Entspannung pur in den gem&uuml;tlichen K&uuml;stenst&auml;dten]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australias-coastal-wilderness-hl02.jpg" alt="South Coast, NSW">]]></img_MainImage>
+                    <stf_Caption><![CDATA[South Coast, NSW]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Surfen und schwimmen Sie in dem entspannten Ort Bermagui, der f&uuml;r seine Fischerei bekannt ist, und unternehmen Sie eine Kanutour im nahegelegenen Mimosa Rocks National Park. Merimbula, etwas weiter s&uuml;dlich, ist ein Paradies f&uuml;r alle Arten von Wassersport. St&uuml;rzen Sie sich in die Wellen, &uuml;berqueren Sie die S&uuml;&szlig;wasserseen mit dem Boot oder tauchen Sie in den klaren Gew&auml;ssern vor der K&uuml;ste. Ersp&auml;hen Sie Wale oder unternehmen Sie einen Tauchgang ab Eden zu einem Wrack. Entspannen Sie im reizenden Ort Mallacoota, der eingebettet zwischen weiten wei&szlig;en Str&auml;nden sowie ruhigen Meeresarmen und Fl&uuml;ssen ist. Der Marlo und Bemm River sind beides hervorragende Ausgangsorte, um die raue K&uuml;ste des Cape Conran Coastal Park zu erkunden.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[3. St&uuml;rzen Sie sich in das abenteuerliche Freizeitangebot an der K&uuml;ste.]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australias-coastal-wilderness-hl03.jpg" alt="Lighthouse Track, VIC">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Lighthouse Track, VIC]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Wandern Sie den Light to Light Walking Track entlang, der sich von Boyds Tower bis nach Green Cape erstreckt. Erkunden Sie mit dem Kanu das Wingan Inlet im Croajingolong National Park, wandern Sie &uuml;ber die Sandd&uuml;nen oder erklimmen Sie die steilen H&auml;nge des Genoa Peak, um von dort aus einen herrlichen Panoramablick auf die Bass-Stra&szlig;e zu genie&szlig;en. Erklimmen Sie den gr&ouml;&szlig;ten Leuchtturm Australiens am Pont Hicks, dem ersten Ort, den Captain Cook in Australien entdeckte. Eine wahre Herausforderung stellt der 100 km lange Wilderness Coastal Walk dar, der vom Point Hicks bis zum Nadgee Nature Reserve f&uuml;hrt.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[4. Genie&szlig;en Sie die heimische K&uuml;che]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australias-coastal-wilderness-hl04.jpg" alt="Disaster Bay Chillies, Eden, NSW">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Disaster Bay Chillies, Eden, NSW]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Die K&uuml;ste lockt mit reichlich Fisch und Meeresfr&uuml;chten und zwischen Tathra und Mallacoota finden Sie erstklassige Fischrestaurants sowie diverse Verkaufsstellen. Schlie&szlig;en Sie sich in Bermagui einer Hochsee-Angeltour an und ziehen Sie einen Tunfisch oder Marlin an Land, schlemmen Sie frische Austern in Pambula und Merimbula, wo auch regelm&auml;&szlig;ig Rundg&auml;nge durch die Austernfarm angeboten werden. Die malerische K&uuml;stenstra&szlig;e zwischen Tathra und Bermagui ist von Caf&eacute;s und Feinschmeckerl&auml;den sowie Weing&uuml;tern und Kunstgalerien ges&auml;umt. Im Inland liegt das &uuml;ppig gr&uuml;ne, von der Milchwirtschaft gepr&auml;gte Gebiet und Bega, wo Sie im Cheese Heritage Centre Interessantes &uuml;ber die K&auml;sereitradition der Stadt erfahren k&ouml;nnen.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[5. Folgen Sie den Spuren der Aborigines]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australias-coastal-wilderness-hl05.jpg" alt="Two Fold Bay, Eden, NSW">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Two Fold Bay, Eden, NSW]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Entdecken Sie auf dem Pabul River Walking Track durch den Ben Boyd National Park uralte Muschelhaufen der Aborigines, die &Uuml;berreste von Muscheln, Steinen, Knochen und Holzkohle. Weitere Relikte finden sich an verschiedenen Orten am Jackson Crossing am Snowy River oder am S&uuml;dende des Croajingolong National Park. Im Killer Whale Museum in Eden erfahren Sie, warum die Aborigines eine bedeutende Rolle bei der &ouml;rtlichen Walfangindustrie gespielt haben. Lauschen Sie den Geschichten der Crews, die ausschlie&szlig;lich aus Aborigines bestanden und die ihren europ&auml;ischen Kapit&auml;nen die „Zusammenarbeit“ mit den Killerwalen beibrachten.
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights></con_Body>
+    <con_RHSModules><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<TABLE cellSpacing=0 cellPadding=0 width=298 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top align=center><!-- Google Map Start -->
+<SCRIPT type=text/javascript>
+function fireEvent(obj,evt){
+var fireOnThis = obj;
+if( document.createEvent ) {
+var evObj = document.createEvent('MouseEvents');
+ evObj.initEvent( evt, true, false );
+fireOnThis.dispatchEvent(evObj);
+} else if( document.createEventObject ) {
+fireOnThis.fireEvent('on'+evt);
+}
+}
+function clickLink(linkobj) {
+     if (linkobj.getAttribute('onclick') == null) {
+ if (linkobj.getAttribute('href')) document.location = linkobj.getAttribute('href');
+     }
+     else linkobj.onclick();
+}
+function loadjscssfile(filename, filetype){
+ if (filetype=="js"){ //if filename is a external JavaScript file
+  var fileref=document.createElement('script')
+  fileref.setAttribute("type","text/javascript")
+  fileref.setAttribute("src", filename)
+ }
+ else if (filetype=="css"){ //if filename is an external CSS file
+  var fileref=document.createElement("link")
+  fileref.setAttribute("rel", "stylesheet")
+  fileref.setAttribute("type", "text/css")
+  fileref.setAttribute("href", filename)
+  fileref.setAttribute("media", "print")
+ }
+ if (typeof fileref!="undefined")
+  document.getElementsByTagName("head")[0].appendChild(fileref)
+}
+                  </SCRIPT>
+
+<SCRIPT type=text/javascript>
+var icheckk=0;
+jQuery.each(jQuery.browser, function(i, val) {
+if(i=="msie" && jQuery.browser.version.substr(0,3)=="7.0")
+icheckk=1;
+});
+function myfun()
+{
+loadjscssfile("../../static/css/thickbox.css", "css");
+if(icheckk==1)
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='../../static/maps/de/australiascoastalwilderness/bigmap.html'  target='_blank'>&nbsp;Drucken|Schlie&szlig;en|&nbsp;oder Esc-Taste</a></b>","../../static/maps/de/australiascoastalwilderness/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+else
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='javascript:window.print()' >&nbsp;Drucken|Schlie&szlig;en|&nbsp;oder Esc-Taste</a></b>","../../static/maps/de/australiascoastalwilderness/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+}
+         </SCRIPT>
+<IFRAME style="MARGIN-BOTTOM: 20px; BORDER-TOP: black 1px solid; HEIGHT: 355px; BORDER-RIGHT: black 1px solid; BORDER-BOTTOM: black 1px solid; FLOAT: left; PADDING-BOTTOM: 5px; BORDER-LEFT: black 1px solid; BACKGROUND-COLOR: #333333" height=380 src="../../static/maps/de/australiascoastalwilderness/index.html" frameBorder=0 width=249 name=FRAMENAME scrolling=no></IFRAME><!-- Google Map end -->
+<DIV class=subpage-video-thumb style="TEXT-ALIGN: left"><A onclick="moduleTrackingWithTitle('lightbox-video','',false,'nationallandscapes-coastalwildernessde');" href="#" data-reveal-id="modalVideo"><IMG alt="" src="/contentimages/Campaigns/national-landscapes-video-de.jpg"></A> </DIV>
+<DIV id=modalVideo class="reveal-modal video" style-="z-index: 103;"><A class=close-reveal-modal><SPAN class=icon></SPAN></A>
+<DIV class=video style="VISIBILITY: visible !important"><IFRAME height=315 src="//www.youtube.com/v/EjGZ3MaX9pE?version=3&amp;hl=en_GB" frameBorder=0 width=560></IFRAME></DIV></DIV></TD></TR></TBODY></TABLE>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule><Listing isTemplate="1">
+<anc_List1><![CDATA[/de/explore/icons/gippsland.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[Weitere Australien-Vorschl&auml;ge]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/de/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/de/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/de/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/de/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/de/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/de/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/de/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/de/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/de/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/de/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/de/Transport.aspx]]></anc_Transport>
+<hdl_Title><![CDATA[Planen Sie Ihre Tour in die K&uuml;stenwildnis Australiens]]></hdl_Title>
+<language><![CDATA[DEU]]></language>
+<stf_Accomodation><![CDATA[Accommodation]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[Attractions]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[Find a Travel Agent near you]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[Destination Information]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[Events]]></stf_Events>
+<stf_Hire><![CDATA[Hire ]]></stf_Hire>
+<stf_Informationservices><![CDATA[Information Services]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[Victoria]]></stf_StateFilter>
+<stf_Tours><![CDATA[Tours]]></stf_Tours>
+<stf_Transport><![CDATA[Transport]]></stf_Transport>
+</PlanYourVisit></con_RHSModules>
+    <con_Category></con_Category>
+    <lst_Subpages>
+    </lst_Subpages>
+</StandardCampaignLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

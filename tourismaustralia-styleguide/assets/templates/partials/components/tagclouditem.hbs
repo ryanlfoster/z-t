@@ -3,7 +3,7 @@ title: Tag Cloud Item
 ---
 
 {{#if tag_has_link}}
-    <a href="#" class="btn-tag-item">Explore</a>
+    <a href="#" class="btn-tag-item">{{#if tag_title}}{{tag_title}}{{else}}Explore{{/if}}</a>
 {{else}}
-    <span class="btn-tag-item">Explore</span>
+    <span class="btn-tag-item">{{#if tag_title}}{{tag_title}}{{else}}Explore{{/if}}</span>
 {{/if}}

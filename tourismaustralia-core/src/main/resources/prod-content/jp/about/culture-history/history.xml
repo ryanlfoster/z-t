@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="200" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[ホーム]]></headline>
+            <href><![CDATA[/jp/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[情報]]></headline>
+            <href><![CDATA[/jp/about.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[オーストラリアの歴史]]></headline>
+            <href><![CDATA[/jp/about/culture-history/history.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/about-culture-history-history.jpg]]></img_background>
+    <hdl_Title><![CDATA[オーストラリアの歴史]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/about-culture-history-history-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/about-culture-history-history-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[no]]></opt_PartnerLead>
+    <stf_description><![CDATA[オーストラリアの歴史を学びましょう。アボリジニからはじまり、イギリスの入植、ゴールド・フィーバーがもたらした移民、そして建国、第一次世界大戦への参戦、戦後の好景気、1970年代以降から現在までのオーストラリアの歴史についてご紹介しています。]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[オーストラリア戦争記念館（Australian War Memorial）、キャンベラ（Canberra）、オーストラリア首都特別地域。  &copy; Tourism Australia]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Learn More]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[オーストラリアの歴史 - オーストラリア政府観光局]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <PlanYourHolidayBox isTemplate="1">
+    <anc_MoreLink><![CDATA[]]></anc_MoreLink>
+    <hdl_Headline><![CDATA[旅の計画]]></hdl_Headline>
+    <language><![CDATA[JPN]]></language>
+    <opt_IsOnHomepage><![CDATA[]]></opt_IsOnHomepage>
+    <stf_MenuIconClass><![CDATA[]]></stf_MenuIconClass>
+    <stf_More><![CDATA[More]]></stf_More>
+    <stf_PlanYourHolidayTitle><![CDATA[Plan your holiday]]></stf_PlanYourHolidayTitle>
+    <lst_PageLinks>
+        <lst_PageLink>
+            <url><![CDATA[/jp/plan/plan-your-trip/find-travel-agent.xml]]></url>
+            <hdl_Title><![CDATA[旅行会社を探す]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/jp/plan/plan-your-trip/getting-there.xml]]></url>
+            <hdl_Title><![CDATA[アクセス方法]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/jp/plan/plan-your-trip/accommodation.xml]]></url>
+            <hdl_Title><![CDATA[宿泊施設]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/jp/plan/plan-your-trip/tours.xml]]></url>
+            <hdl_Title><![CDATA[ツアーの探し方]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/jp/plan/plan-your-trip/specialoffers.xml]]></url>
+            <hdl_Title><![CDATA[キャンペーン情報*]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+    </lst_PageLinks>
+</PlanYourHolidayBox>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <FeatureContent isTemplate="1">
+    <hdl_Title><![CDATA[オーストラリアの歴史]]></hdl_Title> 
+    <stf_MoreLinkTitle><![CDATA[]]></stf_MoreLinkTitle>
+    <txt_MainContent><![CDATA[
+        <strong>永遠の大地を夢見るアボリジニの人々</strong> <br />
+        オーストラリアのアボリジニは、5万年もの間、他に類を見ないオーストラリアの厳しい自然環境の下で生活し、繁栄を続けてきました。彼らは最終氷期に東南アジアからボートでこの地へ渡ってきたと考えられています。ヨーロッパ人が到着した頃には100万人に上るアボリジニが300もの民族国家や種族に分かれて大陸全土で暮らしており、250種類の言語と700種類の方言を話していました。当時のアボリジニは狩猟や採集で生計を立て、交易や水、季節ごとに違う食べ物を探すために、また儀式や同じトーテムを奉ずる者の集まりに参加するために旅をしました。各種族が特定の土地に対して精神的なつながりを持つことは、現代とも共通するところです。
+        <p>アウトバックの砂漠から熱帯雨林、雪を頂く山々にいたるまで、彼らの住む土地は多種多様でした。しかしいずれにも共通していたのは、時間という観念がなく、呪術的な世界観に満ちた「ドリームタイム」（夢の時代）への信仰だったのです。ドリームタイムの伝説は、彼らがトーテムに戴く動物の精霊の形をした祖先たちが、この世のすべてを築き上げたと伝えています。動物の精霊だった祖先は、<a href="/jp/explore/things-to-do/aboriginal-australia.xml" target="_self">アボリジニ文化</a>のあらゆる側面を通じて、土地や自然現象、各部族のテリトリーと過去、現在、そして未来を結び付ける役割を果たしています。</p>
+        <p><strong>イギリスの流刑囚の入植</strong> <br />
+        テラ・アウストラリス（Terra Australis＝南方の大地の意）は、ヨーロッパ人の手で発見された最後の大陸でした。この神秘的な土地とその豊かさについての話は、探険家たちを見知らぬ土地に向かう航海へと駆り立てました。ジェームズ・クック船長（Captain James Cook）が1770年にボタニー湾（Botany Bay）に到着し、この偉大なる南の大地を初めて正式にヨーロッパ人の領土であると宣言したのです。</p>
+        <p>イギリスの刑務所の過密状態とアメリカの独立による混乱への解決策として、冒険家で植物学者であるジョセフ・バンクス（Joseph Banks）は、ニュー・サウス・ウェールズを新たな流刑地とする提案をしました。そして1788年1月26日、1,500人の人々（その半数は流刑囚）を乗せた11隻の船からなる船団が初めてシドニー湾に到着したのです。1868年に流刑囚の輸送が停止されるまで、約16万人の男女が流刑囚としてオーストラリアに入植しています。</p>
+        <p>1790年代初頭から一般の入植者がやってくるようになりましたが、囚人の生活は過酷なものでした。女性の囚人は性的虐待の恐怖におびえながらの生活を強いられ、男性の囚人は窃盗のような軽犯罪でも絞首刑に処せられることがありました。そしてアボリジニの人々は住む土地を奪われ、持ち込まれた病気やそれによる死によって、伝統的な生活習慣を続けることができなくなったのです。   </p>
+        <p><strong>スコッターによる大陸全土への入植</strong> <br />
+        1820年代までには、多くの兵士、役人、解放された囚人たちが政府から与えられた土地を肥沃な農場へと開拓するのに成功します。オーストラリアの安い土地と仕事の豊富さに関するニュースを聞いて、冒険心に満ちた移民がイギリスから次々にやってくるようになりました。スコッター（英国王から土地を借地するという形で開拓に当たった人々）とも呼ばれるそれらの入植民たちは、時には拳銃を携えてアボリジニの領地にまで深く入り込み、自分たちの家畜のための牧草と水を求めるようになりました。</p>
+        <p>1825年、現在の<a href="/jp/explore/cities/brisbane.xml" target="_self">ブリスベン</a>近くのユゲラ族（Yuggera）の領地に、兵士と囚人から成る一団が入植しています。  1829年には<a href="/jp/explore/cities/perth.xml" target="_self">パース</a>にイギリス人が入植し、1835年にはスコッターがポート・フィリップ・ベイ（Port Phillip Bay）まで航海し、後に<a href="/jp/explore/cities/melbourne.xml" target="_self">メルボルン</a>となる入植地を選定しました。同じ頃、囚人とのつながりを持たないという触れ込みのイギリスの私企業が、南オーストラリアの<a href="/jp/explore/cities/adelaide.xml" target="_self">アデレード</a>（Adelaide）に入植しました。  </p>
+        <p><strong>ゴールド・フィーバーがもたらした富、移民、そして反乱</strong> <br />
+        1851年に、<a href="/jp/explore/states/nsw.xml" target="_self">ニュー・サウス・ウェールズ</a>と<a href="/jp/explore/states/vic.xml" target="_self">ビクトリア</a>中央部で黄金が発見され、冒険好きな女性をも含む多くの若者がそれを聞いて植民地各地から集まってきました。中国から何隻もの船に乗ってやってきた金鉱を探す人々だけでなく、芸人、居酒屋を開く人、売春婦、そして偽医者までが世界中からやってくるようになりました。ビクトリアでは、英国総督が月毎の許可と高圧的な警察権力を使って規制を強いようとした結果、1854年にはユーレカ砦（Eureka stockade）で反体制の流血闘争が起きました。金鉱における暴力にもかかわらず、金と羊毛がもたらした富によりメルボルンと<a href="/jp/explore/cities/sydney.xml" target="_self">シドニー</a>に莫大な金額の投資が行われ、1880年代には両市はお洒落でモダンな都市となったのです。</p>
+        <p><strong>オーストラリア国家の成立</strong><br />
+        1901年1月1日、6つの植民地が統合し、オーストラリアは連邦国家となりました。今日、オーストラリアは6つの州と2つの特別地域から成り立ち、各州と地域がそれぞれの議会、旗、象徴する花を所有します。1902年には女性に参選権が与えられ、1907年には最低賃金制度が導入されました。</p>
+        <p><strong>オーストラリアの参戦</strong> <br />
+        第一次世界大戦は、オーストラリアに悲惨な結果をもたらしました。1914年の男性の人口は、300万人以下であったにもかかわらず、40万人にのぼる人々が兵役に志願しました。この戦争では約6万人が戦死し、何千何万という人々が負傷したと推定されています。その痛手への反作用だったのでしょうか、1920年代には新しい車に新しい映画、アメリカン・ジャズとアメリカ映画、そして英連邦への帰属を第一義とする世論が一世を風靡しました。1929年の世界恐慌では、社会および経済の分裂が拡大化し、多くのオーストラリア金融機関が倒産しました。このような状況下、スポーツが国民の気晴らしとなり、競走馬ファーラップ（Pharlap）やクリケット選手ドナルド・ブラッドマン（Donald Bradman）に代表されるスポーツ・ヒーローは、伝説的な地位を得ることになりました。</p>
+        <p>第二次世界大戦においては、オーストラリア軍は、ヨーロッパ、アジア、太平洋地域において同盟国の勝利に多大な貢献をしています。第二次世界大戦で生き残った世代は、オーストラリアの力に誇りを持ち、戦争の忌まわしい記憶を乗り越えてきました。</p>
+        <p><strong>戦後の好景気による新しいオーストラリア</strong> <br />
+        1945年の終戦後、オーストラリアには、ヨーロッパと中東からの何十万人もの移民が移住してきました。その多くは、好況に沸く製造業に仕事を求めて来た人達でした。男性が従軍中に工場での仕事に携わった女性達は、平和な時代が訪れた後も引き続き働き続けました。 </p>
+        <p>オーストラリアの経済は、スノーウィー・マウンテンズ水力発電施設などの主要な国家的インフラ整備プロジェクトにより、1950年代を通して成長しました。オーストラリアの主要輸出物である金属、羊毛、食肉、小麦への国際的な需要が高まったことで、都市部以外の地域も繁栄をきわめました。1947年には40パーセントばかりであった住宅保有率は、1960年代には70パーセント以上にまで拡大しています。</p>
+        <p><strong>寛容になったオーストラリア</strong><br />
+        世界の多くの国がそうであったように、オーストラリアも1960年代の革新的な環境から大きな影響を受けました。オーストラリアの新たな民族的多様性、イギリスからのより一層の独立、ベトナム戦争反戦運動への人気の高まりすべてが、政治的、経済的、そして社会的変革の環境に貢献したのです。1967年には、連邦政府が実施したオーストラリア先住民に参政権を与え、彼らを将来の国勢調査に含むことの是非を問う国民投票において、圧倒的多数の賛成票が投じられました。これはオーストラリア先住民と白人系オーストラリア人両者による精力的な改革運動が実を結んだ結果です。</p>
+        <p>1972年には、オーストラリア労働党（Australian Labor Party）が弁護士ゴフ・ウィットラム（Gough Whitlam）の理想主義的リーダーシップの下で政権を獲得し、戦後続いてきた自由党と地方党による連合政権は幕を下ろしました。その後3年の間に、ウィットラムの新政権は、徴兵制の廃止、大学授業料の無料化、無料の国民健康保険の導入を行いました。また「白豪主義」を廃止して多文化主義を取り入れ、無過失離婚と男女平等賃金制度を導入しました。しかし1975年には物価の高騰とスキャンダルにより、連邦総督による政府の解散を招くことになりました。これに続く総選挙で労働党は大差で敗北し、自由党・国民地方党連合が1983年まで政権を維持することになります。</p>
+        <p><strong>1970年代以降のオーストラリア</strong> <br />
+        1983年から1996年の間、ホーク首相とキーティング財務大臣（Hawke–Keating）を擁する労働党政権は、銀行制度の規制解除、豪ドルの流動化を含む、数々の経済改革を導入しました。1996年、ジョン・ハワード（John Howard）率いる連合政府が総選挙を制し、その後1998年、2001年、2004年にも再選されています。自由党・国民地方党の連合政権は、税制変革と労使関係制度を含む、各種の改革を制定しました。2007年には、ケビン・ラッド（Kevin Rudd）率いる労働党が、オーストラリアの労使関係制度、気候変動対策、健康と教育の分野を改革する政策により当選しました。</p>
+        <p>&nbsp;</p>
+    ]]></txt_MainContent> 
+    <con_ImageItem>
+        <ImageItems isTemplate="1">
+    <anc_link><![CDATA[]]></anc_link>
+    <img_MainImage><![CDATA[<img src="/contentimages/About_history_magical.jpg" alt="A magical place.">]]></img_MainImage>
+    <stf_Caption><![CDATA[]]></stf_Caption>
+</ImageItems><ImageItems isTemplate="1">
+    <anc_link><![CDATA[]]></anc_link>
+    <img_MainImage><![CDATA[<img src="/contentimages/About_history_indigenous_art.jpg" alt="Indigenous art">]]></img_MainImage>
+    <stf_Caption><![CDATA[]]></stf_Caption>
+</ImageItems><ImageItems isTemplate="1">
+    <anc_link><![CDATA[]]></anc_link>
+    <img_MainImage><![CDATA[<img src="/contentimages/About_history_outback.jpg" alt="The rugged outback">]]></img_MainImage>
+    <stf_Caption><![CDATA[]]></stf_Caption>
+</ImageItems>
+    </con_ImageItem>
+</FeatureContent>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

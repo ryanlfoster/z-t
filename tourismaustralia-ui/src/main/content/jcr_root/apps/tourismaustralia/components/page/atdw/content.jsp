@@ -23,7 +23,7 @@
 	<div><img src='${atdw.atdwProduct.image}'/></div>
 </c:if>
 <c:if test="${atdw.atdwProduct.tqual }">
-	<div><img src='/etc/designs/tourismaustralia/img/TQUAL_RGB_Pos.jpg'/></div>
+	<div><img src='/etc/designs/tourismaustralia/imgs/TQUAL_RGB_Pos.jpg'/></div>
 </c:if>
 
 <cq:include path="mainparsys" resourceType="foundation/components/parsys" />

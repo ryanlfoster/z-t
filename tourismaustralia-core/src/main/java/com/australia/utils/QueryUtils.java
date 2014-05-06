@@ -1,10 +1,10 @@
 package com.australia.utils;
 
-import java.util.List;
-import java.util.Map;
-
 import com.day.cq.tagging.Tag;
 import com.day.cq.wcm.api.NameConstants;
+
+import java.util.List;
+import java.util.Map;
 
 public class QueryUtils {
 	private QueryUtils() {
@@ -25,6 +25,7 @@ public class QueryUtils {
 	public static final String WILDCARD = "*";
 	public static final String RELPATH = ".relPath";
 	public static final String AND = ".and";
+	public static final String ASC = "asc";
 
 	public static final void addProperty(Map<String, String> queryMap, int propertyNumber, String property, String value) {
 		queryMap.put(propertyNumber + SEPERATOR + PROPERTY, property);
@@ -32,7 +33,7 @@ public class QueryUtils {
 	}
 
 	public static final void addFullText(Map<String, String> queryMap, int propertyNumber, String text) {
-		queryMap.put(propertyNumber + SEPERATOR + FULLTEXT, text + "~");
+		queryMap.put(propertyNumber + SEPERATOR + FULLTEXT, text + "*~");
 		queryMap.put(propertyNumber + SEPERATOR + FULLTEXT + RELPATH, NameConstants.NN_CONTENT);
 	}
 
@@ -44,6 +45,18 @@ public class QueryUtils {
 		for (Tag tag : tags) {
 			queryMap.put(propertyPrefix + SEPERATOR + valueCount + SEPERATOR + VALUE, tag.getTagID());
 			valueCount++;
+		}
+	}
+
+	public static final void addProperty(final Map<String, String> queryMap, final int propertyNumber,
+		final String property, final List<String> values) {
+		final String prefix = propertyNumber + SEPERATOR + PROPERTY;
+		queryMap.put(prefix, property);
+		int valueNumber = 1;
+		for (final String value: values) {
+			final String valueIndicator = prefix + "." + valueNumber + SEPERATOR + VALUE;
+			queryMap.put(valueIndicator, value);
+			valueNumber++;
 		}
 	}
 }

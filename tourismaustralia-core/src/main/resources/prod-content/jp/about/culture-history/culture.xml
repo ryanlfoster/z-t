@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="206" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[ホーム]]></headline>
+            <href><![CDATA[/jp/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[情報]]></headline>
+            <href><![CDATA[/jp/about.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[オーストラリア文化]]></headline>
+            <href><![CDATA[/jp/about/culture-history/culture.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/about-culture-history.jpg]]></img_background>
+    <hdl_Title><![CDATA[オーストラリア文化]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/about-culture-history-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/about-culture-history-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[no]]></opt_PartnerLead>
+    <stf_description><![CDATA[オーストラリア文化のご紹介。世界最古のアボリジニ文化や植民地時代の神話、オーストラリアの「ストライン」といわれる話し言葉、オーストラリア人のスポーツ好き、野外でのライフスタイル、多文化主義、多様な食べ物、祭りと信仰、オーストラリア人の発明品、芸術への興味などオーストラリア独自の文化を感じてください。]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Learn More]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[オーストラリア文化 - オーストラリア政府観光局]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <PlanYourHolidayBox isTemplate="1">
+    <anc_MoreLink><![CDATA[]]></anc_MoreLink>
+    <hdl_Headline><![CDATA[旅の計画]]></hdl_Headline>
+    <language><![CDATA[JPN]]></language>
+    <opt_IsOnHomepage><![CDATA[]]></opt_IsOnHomepage>
+    <stf_MenuIconClass><![CDATA[]]></stf_MenuIconClass>
+    <stf_More><![CDATA[More]]></stf_More>
+    <stf_PlanYourHolidayTitle><![CDATA[Plan your holiday]]></stf_PlanYourHolidayTitle>
+    <lst_PageLinks>
+        <lst_PageLink>
+            <url><![CDATA[/jp/plan/plan-your-trip/find-travel-agent.xml]]></url>
+            <hdl_Title><![CDATA[旅行会社を探す]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/jp/plan/plan-your-trip/getting-there.xml]]></url>
+            <hdl_Title><![CDATA[アクセス方法]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/jp/plan/plan-your-trip/accommodation.xml]]></url>
+            <hdl_Title><![CDATA[宿泊施設]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/jp/plan/plan-your-trip/tours.xml]]></url>
+            <hdl_Title><![CDATA[ツアーの探し方]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/jp/plan/plan-your-trip/specialoffers.xml]]></url>
+            <hdl_Title><![CDATA[キャンペーン情報*]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+    </lst_PageLinks>
+</PlanYourHolidayBox>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <FeatureContent isTemplate="1">
+    <hdl_Title><![CDATA[オーストラリア文化]]></hdl_Title> 
+    <stf_MoreLinkTitle><![CDATA[]]></stf_MoreLinkTitle>
+    <txt_MainContent><![CDATA[
+        オーストラリアの文化は、敗残者、ブッシュレンジャー、勇敢な兵士たちの物語に由来する文化だといえるでしょう。あるいは戦う偉人たち、働く偉人たち、何物をも恐れない移住者たちの物語に由来する文化といってもよいかもしれません。その物語はいずれも公平なチャンス、大自然、そしていくばくかの皮肉をめぐるものばかりです。オーストラリアの人々は、現代の自国文化の特色<a href="/jp/explore/things-to-do/aboriginal-australia.xml" target="_self">はアボリジニの遺</a>産、生き生きとした複合文化、思考の革新性<a href="/jp/explore/australian-events/art-events.xml" target="_self">、芸術活</a>動の活発さにあると自認しています。
+        <p><strong>アボリジニ文化 － 豊かで悠久の時を刻む伝統</strong><br />
+        ドリームタイムとは神聖な天地創造の行われた「時間の前の時間」です。アボリジニの信仰では、トーテムの精霊である彼らの祖先が大地から現れ、天空から降り立って、暗い静かな世界を目覚めさせました。彼らは太陽、月、星を創造し、さらに山岳、河川、樹木、泉を造ったあと人間と動物の姿に変身しました。精霊としての祖先は、アボリジニ文化のあらゆる面で、この遥かな過去を現在と未来に結びつける存在です。<a href="/jp/explore/icons/kakadu/nt-rock-art.xml" target="_self">ロックアート（</a>岩窟の壁に描かれた絵画）や工芸品、樹皮画にはドリームタイムの物語が描かれ、種族のテリトリーをあらわす標識や歴史の記録としてのはたらきをしています。一方、いくつかの歌にもドリームタイムの旅を歌ったものがあり、水源やその他の重要な目印となる場所を言葉を通して語り伝えています。特別な意味を持つこれらの歌詞は、少なくとも50,000年にわたって変わることなく伝承されており、しばしばクラップスティックやディジュリドゥの魂に響く鼓動を伴います。同様に伝統的な踊りも創造神話を人に知らしめる役割を果たしており、ドリームタイムの英雄たちだけでなく最近の歴史上の出来事まで演じています。</p>
+        <p><strong>植民時代の神話 － 敗残者、ブッシュレンジャー、勇敢な兵士</strong><br />
+        オーストラリア人は仲間意識と「公平なチャンス」を信じ、敗残者、彼らの言葉でいえば「battler」、に強い愛情を抱いています。この価値観は過酷で未知の土地としばしば不公正な権力者を相手に辛酸をなめた囚人や初期の植民者たちに由来しています。オーストラリアでもっとも有名なブッシュレンジャー、ネッド・ケリーは囚人とともに持ち込まれた貧困や、英国の階級制度の不正に抗議しました。この欠点だらけのヒーローが「正義と自由」と「無実の人々」のために行った闘争はいまでは国民文化の一部となっており、無数の本や映画の主題となっています。1850年代中葉の金山で働く金鉱掘りの人々を、当時の物語や歌は民主主義の思想を抱くロマンチックな英雄、無頼漢、悪党として描いています。1854年に発生した血なまぐさいユーレカ砦の反乱ではビクトリア植民地の採鉱従事者が強権的な許可制度に抗議して蜂起し、社会的正義の勝利を象徴する事件となりました。その後第二次世界大戦ではガリポリ（Gallipoli）で戦闘に参加した勇敢なアンザック軍団（ANZAC）の兵士たちが「tough Aussie 」、すなわち「強いオーストラリア人」という言葉に新たな意味を植えつけました。</p>
+        <p><strong>オーストラリア英語 － 「ストライン」という話し言葉</strong><br />
+        オーストラリア人は1966年に言語学者アラステア・モリソン（Alastair Morrison）が「ストライン（strine）」と造語した独特の話し言葉を持っています。オーストラリア人（Australians）がハエを口に入れまいと歯を軋らせて「オーストラリアン」（Australian）と発音している様子を想像してみてください。この言葉は今では消滅した昔のロンドンの下町言葉の多くと初期の囚人のアイルランド表現をアボリジニに由来する言語と結合したものです。オーストラリア人は、“Bring your swimming costume to the barbecue this afternoon”（「今日の午後ベーベキューに行く時水着を持っていらっしゃい」）というのを“Bring your cossie to the barbie this arvo”という具合にしばしば単語を短縮したうえで最後に「o」や「ie」をつけます。また私たちは逆の意味の言葉をあだ名に使い、赤毛の人を「bluey（紺青）」、黒髪の人を「snowy（雪白）」、小柄な人を「lofty（巨体）」などと言います。私たちは母音の抑揚を下げ、文末を少し上げ気味にする傾向があります。</p>
+        <p><strong>スポーツの英雄 － 緑と金の栄光 <br />
+        </strong>オーストラリア人がスポーツ狂なのは誰もが知っていることです。オーストラリアのスポーツ団体の数は、全国組織が120、各地方と州の組織が何千に達し、登録済スポーツ選手の数は推定で6,500,000人にのぼります。人口が2,000万人の国としては考えられないほどの規模です。オーストラリアの観戦スポーツのトップは高いキックとバレー式のジャンプを特色<a href="/jp/explore/events/afl-events.xml" target="_self">とするオーストラリア規則による</a>フットボール（Australian Rules Football：AFL）ですが、<a href="/jp/explore/states/nsw.xml" target="_self">ニュー・サウス・ウェールズ州</a>と<a href="/jp/explore/states/qld.xml" target="_self">クイーンズランド州</a>では強力な力とタックル戦術が特色の全国ラグビーリーグ（National Rugby League：NRL）が最高の人気を誇ります。オーストラリアのラグビーのナショナル・チーム、ワラビーズは国際試合や南アフリカとの3ヵ国トーナメント試合に出場しています。オーストラリアはまた水泳の国でもあり、競技プールでの実力はオリンピックでのメダルの数が証明しています。さらにオーストラリアの人々は夏のあいだじゅう白いユニフォームのオーストラリア・クリケットチームを観戦しますが、1月にはテ<a href="/jp/explore/events/australian-open.xml" target="_self">ニスのオーストラリアン・オ</a>ープン（Australian Open）にチャンネルを切り替えます。これは<a href="/jp/explore/cities/melbourne.xml" target="_self">メルボルン</a>（Melbourne）で開催され他のそのようなスポーツイベントよりも人々をオーストラリアに集めています。サッカーも人気・実力ともに高まってきました。オーストラリアはベルズ・ビーチ・サーフィン・クラシック（Bells Beach Surf Classic）に世界一流のサーファーを誘致することに成功しており、他方クリスマスの翌日（Boxing Day）には<a href="/jp/explore/events/syd-hobart-yacht-race.xml" target="_self">シドニー・ホバート間ヨットレース</a>（Sydney to Hobart Yacht Race）にシドニー港から出発するヨットを見ようと大勢の群衆が集まります。11月最初の火曜日には有名な競馬、<a href="/jp/explore/events/melbourne-cup-carnival.xml" target="_self">メルボルン・カップ</a>（Melbourne Cup）の開催で国中の活動が停止し、3月には<a href="/jp/explore/events/vic-australian-grand-prix.xml" target="_self">フォーミュラ・ワン・グランプ</a>リ（Formula One Grand Prix）を目指してレースカーがいっせいにフィリップ島（Phillip Island）に向かいます。オーストラリア人が愛好するスポーツはまだまだありますが、ルールに疑念があるときは熱心に賭けている人に尋ねるに限ります。</p>
+        <p><strong>野外でのライフスタイル － ビーチとバーべキュー <br />
+        </strong>オーストラリア人の80パーセント以上は<a href="/jp/about/australias-landscapes/coastal.xml" target="_self">海岸</a>から50キロ圏内に住んでおり、ビーチはよく知られたくつろぎのライフスタイルの不可欠な一部分となってきています。若者のための土曜朝のサーフィンクラブでの訓練からバーベキューのあとのビーチクリケット試合に至るまで、オーストラリアの人々は海岸の砂地での生活が大好きです。混み合った都会のビーチで空いた場所を争って探し、人気のある観光地でくつろぎ、海岸沿いの国立公園の世間に知られていない人影乏しいビーチへとドライブします。ビーチに行って陽光と<a href="/jp/explore/things-to-do/australian-adventure/nat-surfing.xml" target="_self">サーフィン</a>を楽しみ、セイリング、パラセーリング、フィッシング、シュノーケリング、<a href="/jp/explore/things-to-do/australian-adventure/nat-diving.xml" target="_self">スキューバダイビング、</a>ビーチの波を満喫します。そこは社交とスポーツ、くつろぎとロマンスを楽しむ場です。そこはまた祝祭の場所でもあります。大晦日の夜（New Years Eve）には飲み騒ぐ人々が砂浜でダンスをし、シドニー（Sydney）のマンリー・ビーチ（Manly Beach）やボンダイ・ビーチ（Bondi Beach）、アデレード（Adelaide）の<a href="/jp/explore/cities/adelaide/sa-glenelg-beach.xml" target="_self">グレネルグ</a>（Glenelg）では花火を眺めます。<a href="/jp/explore/events/australia-day.xml" target="_self">オーストラリア・デー</a>（Australia Day）には多くのビーチで国籍取得祝賀式が開催され、クリスマスには外国からの旅行者40,000人がサンタクロースの帽子と水着でボンダイ・ビーチにつめかけます。オーストラリアでもっとも有名な幾つかのビーチ、シドニーのボンダイとマンリー、メルボルンのセント・キルダ（St Kilda）、クイーンズランド州ゴールド・コースト（Gold Coast）の<a href="/jp/explore/cities/gold-coast/qld-surfing.xml" target="_self">サーファーズ・パラダイス</a>（Surfers Paradise）、パース（Perth）のコッテスロー（Cottesloe）、アデレード（Adelaide）のグレネルグ（Glenelg）には地元の人々のみならず海外からの旅行者が集まります。</p>
+        <p><strong>多文化主義、多様な食べ物、祭りと信仰</strong> <br />
+        1945年以降、世界中から600万人以上の人々がオーストラリアに移住しました。現在ではオーストラリア人の20パーセント以上が外国生まれで40パーセント以上が複数の文化的背景を持っています。オーストラリアの家庭全体としては226の言語を話しています。英語に次いで広く話されているのはイタリア語、ギリシャ語、広東語、アラビア語です。私たちの豊かな文化的多様性は食べ物にも反映しており世界中のほとんどの料理が取り込まれその一部は巧みに融合されています。旅行者は街の屋台から5ツ星レストランまでのあらゆる場所でヨーロッパの香り、アジア、アフリカ、中東の強烈な香辛料、オーストラリア奥地で採れるブッシュ・タッカー（アボリジニの伝統食）を見出します。持ち帰り用のタイ料理をほおばり、レストランで完全なイタリア風のパスタを食べ、オーストラリアの都市のスペイン通りでタパスをつまみ、中華街で飲茶を味わってください。たくさんの色彩豊かなお祭りでもわが国の文化的融合を実感できます。ボンダイのブラジリアン・フェスティバルでサンバを眺め、中国の小正月（Chinese New Year）でドラゴンパレードの後ろで踊り、毎年のイタリア祭りでは活気に溢れる広場に変身した街路を歩き回りましょう。オーストラリアは一国家としては多彩な宗教を受入れており、カトリック、英国国教会の教会、ヒンズー教、シーク教、仏教の寺院、回教のモスク、ユダヤ教のシナゴーグが通りに並んでいます。</p>
+        <p><strong>オーストラリア人の発明 － ヒルズ・ホイスト回転式物干し（Hills Hoist）からペニシリン（Penicillin）まで</strong> <br />
+        オーストラリアは独特の地理的位置にあり、他国と相対的に離れているため、それが斬新なアイデアを生む豊かな土壌となっています。オーストラリア人は1879年に人工的な製氷技術を開発しましたが、これにより肉を冷蔵船で英国に輸出することが可能となりました。また1906年にはオーストラリア人によって海上救命リールが設計され、これにより救助者は救命胴衣に取りつけたロープで溺れた人をつかむことが可能となりました。1929年にはアルフレッド・トレーガー（Alfred Traeger）がロイヤル航空医療サービス（Royal Flying Doctor Service）用の通信機器としてペダル起電の無線機を製作しました。</p>
+        <p>オーストラリア人は、ノートパッド（1902年）、アスピリン（1915年）、ペースメーカー（1926年）、ペニシリン（1940年）、ヒルズ・ホイスト回転式物干し（1946年）プラスチックの使い捨て注射器（1949年）、ワイン樽（1965年）、人工内耳（1978年）、二重流し水洗トイレ（1980年）、紙幣偽造防止技術（1992年）長期間使用可能なコンタクトレンズ（1999年）など日常生活に役立つ様々な発明をしました。  </p>
+        <p>アボリジニはヨーロッパ人が殖民する遥か以前に世界の最先端にいました。彼らは空気力学の原理によるUターン現象を応用しブーメランと呼ばれる一種の投げ槍を発明しました。また彼らは縁を研磨した石切道具を初めて使い、さらに種子をすり潰すために石の道具を人類で初めて使用しました。他の社会がこのような日用の道具を開発したのは遥か後のことでした。 </p>
+        <p><strong>文化への欲求 － 舞台芸術、映画、文学、視覚芸術</strong> <br />
+        オーストラリアの人々は舞台芸術から文学に至るまで芸術を愛好します。映画館に列を作り、美術館や舞台芸術に来る人々の数はフットボール観衆のほぼ2倍の規模に達します。都市では多数の先端的<a href="/jp/explore/australian-events/culture-events.xml" target="_self">文化的イベント</a>が行われ、毎日のように音楽会、演劇やダンスの公演、美術の展覧会が開催されています。バンガラ劇場（Bangarra Theatre）で伝統的なアボリジニ・ダンスの公演を楽しみ、<a href="/jp/explore/cities/adelaide.xml" target="_self">アデレード</a>の国際音楽祭ウォマデレード（WOMADelaide）に熱中し、ブリスベーンのサウスバンク（South Bank）にある巨大なカルチャーセンターで演劇、バレー、オペラや美術を心行くまで味わってください。小さな町では地元の音楽家たちの公演や手作りの工芸品を見ることができます。</p>
+        <p> </p>
+    ]]></txt_MainContent> 
+    <con_ImageItem>
+        <ImageItems isTemplate="1">
+    <anc_link><![CDATA[]]></anc_link>
+    <img_MainImage><![CDATA[<img src="/contentimages/2.2_culture_highlight(2).jpg">]]></img_MainImage>
+    <stf_Caption><![CDATA[ ]]></stf_Caption>
+</ImageItems><ImageItems isTemplate="1">
+    <anc_link><![CDATA[]]></anc_link>
+    <img_MainImage><![CDATA[<img src="/contentimages/2.2_culture_highlight(1).jpg">]]></img_MainImage>
+    <stf_Caption><![CDATA[ ]]></stf_Caption>
+</ImageItems><ImageItems isTemplate="1">
+    <anc_link><![CDATA[]]></anc_link>
+    <img_MainImage><![CDATA[<img src="/contentimages/2.2_culture_highlight(3).jpg" alt="Kultur">]]></img_MainImage>
+    <stf_Caption><![CDATA[ ]]></stf_Caption>
+</ImageItems>
+    </con_ImageItem>
+</FeatureContent>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+        <lst_Subpage><![CDATA[<a href="/jp/about/culture-history/australian-culture/cultural-attractions.xml">オーストラリアの文化を楽しむ</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/jp/about/culture-history/australian-culture/heritage-attractions.xml">オーストラリアの歴史遺産</a>]]></lst_Subpage>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

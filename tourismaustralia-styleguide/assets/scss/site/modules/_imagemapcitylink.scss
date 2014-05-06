@@ -50,9 +50,6 @@ a.map-pin-btn {
 }
 
 .map-with-links-container {
-    @include breakpoint(lg) {
-        padding-top: pxtoem(90px);
-    }
   text-align: center;
 }
 
@@ -65,12 +62,14 @@ a.map-pin-btn {
 }
 
 .map-image-view-btn-container {
-    margin-top: -(pxtoem(40px));
-    margin-bottom: pxtoem(30px);
+    position: relative;
+    top: -(pxtoem(50px));
+    margin-bottom: -(pxtoem(30px));
 }
 
 .map-highlights-image {
   max-width: 100%;
+  margin-bottom: pxtoem(30px);
 }
 
 // MODERNIZER DETECTION FOR CSSCOLUMNS
@@ -175,6 +174,7 @@ a.map-pin-btn {
 .map-btn-container {
   display: inline-block;
   max-width: 200px;
+  min-width: 100px;
   text-align: left;
   margin: 0px 40px;
   position: relative;
@@ -194,11 +194,30 @@ a.map-pin-btn {
 .map-image-icon {
   left: -30px;
   position: absolute;
-  top: -6px;
+  top: -2px;
 }
 
 .map-btn-heading {
   font-family: "ProximaNova Regular", Helvetica, Arial, sans-serif;
   font-size: 1.125em;
   display: block;
+  margin-bottom: pxtoem(10px);
+}
+
+
+//////////////////////// MAP WITH LEGEND SMALL
+.map-with-links-container--small {
+  .map-btn-container {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+
+
+    @include breakpoint(md){
+      display: inline-block;
+      margin: 0 pxtoem(20px);
+      max-width: 150px;
+    }
+
+  }
 }

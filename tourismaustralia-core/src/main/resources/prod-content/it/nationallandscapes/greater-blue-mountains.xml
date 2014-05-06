@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="22241" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Pagina iniziale]]></headline>
+            <href><![CDATA[/it/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Tools and Campaigns]]></headline>
+            <href><![CDATA[/it/tools-campaigns.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Paesaggi Nazionali dell'Australia]]></headline>
+            <href><![CDATA[/it/nationallandscapes.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[Greater Blue Mountains]]></headline>
+            <href><![CDATA[/it/nationallandscapes/greater-blue-mountains.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/Campaigns/national-landscapes-greater-blue-mountains.jpg]]></img_background>
+    <hdl_Title><![CDATA[Greater Blue Mountains]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/national-landscapes-greater-blue-mountains-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/Campaigns/national-landscapes-greater-blue-mountains-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[yes]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[Cimentati nel trekking attraverso una densa foresta dalle tonalit&agrave; azzurre create da oltre 100 specie di eucalipto. Esplora le vaste aree di Wilderness.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[Blue Mountain, Blue Mountains, Blue Mountains Sydney, Blue Mountains NSW, blue mountains national park, Wentworth Falls, Three Sisters montagna, Jenolan Caves, 6 foot track, Katoomba, Katoomba Australia, Wollemi, blue mountains aborigeno, Blackheath]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Ulteriori Informazioni]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Paesaggi Nazionali dell'Australia: Greater Blue Mountains - Turismo Australia]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        Cimentati nel trekking attraverso una densa foresta dalle tonalit&agrave; azzurre create da oltre 100 specie di eucalipto. Esplora le vaste aree di Wilderness.
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <StandardCampaignLayout isTemplate="1">
+    <opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+    <hdl_Title><![CDATA[]]></hdl_Title>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+    <con_Banner><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<DIV id=headerimage>
+<SCRIPT type=text/javascript src="../../static/js/jquery.cycle.all.latest.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+jQuery(document).ready(function() {
+jQuery('#headersliderwrapper').cycle({
+        fx:'fade',
+        slideExpr: '.headerslide'
+    });
+});
+</SCRIPT>
+
+<DIV id=headersliderwrapper>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-gbm-01.jpg"> 
+<DIV class=headerslideinfo>Blue Mountains, NSW</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-gbm-02.jpg"> 
+<DIV class=headerslideinfo>Cascate Glenn, NSW (crediti: David Finnigan)</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-gbm-03.jpg"> 
+<DIV class=headerslideinfo>Quoll</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-gbm-04.jpg"> 
+<DIV class=headerslideinfo>Croce del Sud, Yengo National Park, NSW</DIV></DIV></DIV></DIV>
+<DIV id=subpage-header-overlay></DIV>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule></con_Banner>
+    <con_Body><TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Greater Blue Mountains]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        Scoprite una libert&agrave; senza confini nelle Greater Blue Mountains, area dichiarata Patrimonio dell’umanit&agrave; formata da un milione di ettari di scarpate, canyon, valli, cascate e vegetazione a soli 90 minuti in auto da Sydney. Questa regione tradizionale che conta con sei gruppi linguistici aborigeni si trova a soli 90 minuti in auto da Sydney. Ammirate il panorama facendo una passeggiata nel bush a piedi oppure in bicicletta o con una guida aborigena. Stupitevi davanti a spettacoli naturali come le Wentworth Falls, le Three Sisters, Dunns Swamp o il monte Yengo. Esplorate le grotte delle Jenolan Caves e seguite a piedi lo storico Six Foot Track fino a Katoomba. Percorrete la tortuosa Greater Blue Mountains Drive e i sentieri che vi faranno apprezzare la sorprendente immensit&agrave; e diversit&agrave; della zona.
+        <p><strong>Quattro modi di immergersi nelle Greater Blue Mountains</strong></p>
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[1. Un’avventura nella natura]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-greater-blue-mountains-hl01.jpg" alt="Bushwalking, Blue Mountains, NSW">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Bushwalking, Blue Mountains, NSW]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Ammirate le forme scoscese delle Three Sisters da Katoomba o esplorate le Jenolan Caves, il sistema di grotte sotterranee aperte pi&ugrave; antico del mondo. Da Blackheath partite per escursioni nel bush, camminando nelle valli di Grose e Megalong, facendo tappa in punti panoramici come Govett’s Leap, Evans Lookout e Perry’s Lookdown. Ammirate le Wentworth Falls tuffarsi nella Jamison Valley ed esplorate a piedi o in bicicletta il Glow Worm Tunnel nel Parco nazionale di Wollemi. Nei Mount Tomah Botanic Gardens cresce il pino di Wollemi, una specie vegetale che risale all’epoca dei dinosauri.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[2. Con una guida aborigena]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-greater-blue-mountains-hl02.jpg" alt="Viewing cave formations, NSW">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Viewing cave formations, NSW]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Passeggiate con una guida Darug locale, osservate dimostrazioni di pittura su corteccia e del corpo, scoprite cascate e billabong e assaggiate il bush tucker, gli alimenti preparati da Madre natura. Ammirate i solchi per l’affilatura delle asce a Camp Fire Creek e visitate l’antico accampamento aborigeno di Lyrebird Dell. Ammirate le incisioni a Finchley Trig nel Parco nazionale di Yengo. Visitate la Red Hands Cave, grotta sulle cui pareti sono dipinte impronte di mani risalenti a oltre 500 anni fa. Ammirate le Three Sisters, tre pinnacoli rocciosi con la loro storia del Dreaming. Tour specializzati fanno anche tappa nel centro culturale di Castlereagh, dove potrete imparare a lanciare il boomerang e assistere a dimostrazioni di didgeridoo.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[3. In bicicletta, a piedi, in auto o in treno]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-greater-blue-mountains-hl03.jpg" alt="Horseriding, Blue Mountains, NSW">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Horseriding, Blue Mountains, NSW]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Seguite il percorso di 45 km da Katoomba alle Jenolan Caves sul Six Foot Track, o da Katoomba a Kanangra lungo la Badge of Honour Walk. Fate passeggiate giornaliere oppure accampatevi per tre giorni e due notti. Visitate la Blue Gum Forest o attraversate a cavallo la Megalong valley. Scendete in corda doppia dal Grand Canyon Track a Blackheath oppure fate una pedalata da Glenbrook a Wentworth Falls. Prendete un antico treno a vapore da Bell a Lithgow oppure dilettatevi con una vista aerea dalla Scenic Railway, una cabina di funivia con fondo in vetro. Seguite il percorso Greater Blue Mountains Drive per raggiungere le vicine regioni di Mudgee, Southern Highlands, la Hunter valley e l’Hawkesbury.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[4. Immergetevi nella magia della montagna]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-greater-blue-mountains-hl04.jpg" alt="Blue Mountains, NSW">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Blue Mountains, NSW]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Pranzate lungo le magnifiche strade di Leura, fiancheggiate da alberi, fate un giro per le gallerie, le boutique e i negozi di cianfrusaglie. Coccolatevi in una day spa o sedetevi per gustare un caff&egrave; e un pezzo di torta a Katoomba. Soggiornate in antichi grand hotel, resort a cinque stelle con vista sulla valle o in bed and breakfast nelle vicinanze panoramiche del bush. Acquistate cibi prelibati a Blackheath o fermatevi all’ora del t&egrave; in uno storico e maestoso hotel di Jenolan Caves. Durante giugno, luglio e agosto, unitevi ai festeggiamenti natalizi, celebrando con il tradizionale arrosto e pudding attorno al crepitante fuoco di un caminetto.
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights></con_Body>
+    <con_RHSModules><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<TABLE cellSpacing=0 cellPadding=0 width=251 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top align=center>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD style="WIDTH: 25px">&nbsp;</TD>
+<TD><!-- #BeginLibraryItem "/Library/sitenav.lbi" -->
+<SCRIPT language=JavaScript1.2 type=text/javascript src="../../static/js/stmenu.js"></SCRIPT>
+<!-- #EndLibraryItem --></TD></TR></TBODY></TABLE><!-- Google Map Start -->
+<SCRIPT type=text/javascript>
+                  function fireEvent(obj,evt){
+ 
+ var fireOnThis = obj;
+ if( document.createEvent ) {
+   var evObj = document.createEvent('MouseEvents');
+   evObj.initEvent( evt, true, false );
+   fireOnThis.dispatchEvent(evObj);
+ } else if( document.createEventObject ) {
+   fireOnThis.fireEvent('on'+evt);
+ }
+}
+function clickLink(linkobj) {
+     if (linkobj.getAttribute('onclick') == null) {
+          if (linkobj.getAttribute('href')) document.location = linkobj.getAttribute('href');
+     }
+     else linkobj.onclick();
+}
+function loadjscssfile(filename, filetype){
+ if (filetype=="js"){ //if filename is a external JavaScript file
+  var fileref=document.createElement('script')
+  fileref.setAttribute("type","text/javascript")
+  fileref.setAttribute("src", filename)
+ }
+ else if (filetype=="css"){ //if filename is an external CSS file
+  var fileref=document.createElement("link")
+  fileref.setAttribute("rel", "stylesheet")
+  fileref.setAttribute("type", "text/css")
+  fileref.setAttribute("href", filename)
+  fileref.setAttribute("media", "print")
+ }
+ if (typeof fileref!="undefined")
+  document.getElementsByTagName("head")[0].appendChild(fileref)
+}
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+var icheckk=0;
+jQuery.each(jQuery.browser, function(i, val) {
+if(i=="msie" && jQuery.browser.version.substr(0,3)=="7.0")
+icheckk=1;
+});
+function myfun()
+{
+loadjscssfile("../../static/css/thickbox.css", "css");
+if(icheckk==1)
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='../../static/maps/it/greaterbluemountains/bigmap.html'  target='_blank'>&nbsp;Stampa|Chiudi|&nbsp;o premere il tasto Esc</a></b>","../../static/maps/it/greaterbluemountains/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+else
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='javascript:window.print()' >&nbsp;Stampa|Chiudi|&nbsp;o premere il tasto Esc</a></b>","../../static/maps/it/greaterbluemountains/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+}
+         </SCRIPT>
+<IFRAME style="MARGIN-BOTTOM: 20px; BORDER-TOP: black 1px solid; HEIGHT: 355px; BORDER-RIGHT: black 1px solid; BORDER-BOTTOM: black 1px solid; FLOAT: left; PADDING-BOTTOM: 5px; BORDER-LEFT: black 1px solid; BACKGROUND-COLOR: #333333" height=380 src="../../static/maps/it/greaterbluemountains/index.html" frameBorder=0 width=249 name=FRAMENAME scrolling=no></IFRAME><!-- Google Map end -->
+<DIV class=subpage-video-thumb style="TEXT-ALIGN: left"><A onclick="moduleTrackingWithTitle('lightbox-video','',false,'nationallandscapes-greaterbluemountainsit');" href="#" data-reveal-id="modalVideo"><IMG alt="" src="/contentimages/Campaigns/national-landscapes-video-it.jpg"></A> </DIV>
+<DIV id=modalVideo class="reveal-modal video" style-="z-index: 103;"><A class=close-reveal-modal><SPAN class=icon></SPAN></A>
+<DIV class=video style="VISIBILITY: visible !important"><IFRAME height=315 src="//www.youtube.com/v/EjGZ3MaX9pE?version=3&amp;hl=en_GB" frameBorder=0 width=560></IFRAME></DIV></DIV></TD></TR></TBODY></TABLE>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule><Listing isTemplate="1">
+<anc_List1><![CDATA[/it/explore/cities/sydney/nsw-blue-mtns-biking.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[Altri itinerari suggeriti in Australia ]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/it/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/it/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/it/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/it/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/it/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/it/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/it/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/it/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/it/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/it/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/it/Transport.ignore]]></anc_Transport>
+<hdl_Title><![CDATA[Blue Mountains - Iniziate a programmare il vostro viaggio]]></hdl_Title>
+<language><![CDATA[ITA]]></language>
+<stf_Accomodation><![CDATA[Alloggi]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[Blue Mountains Area]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[Attrazione]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[Trova l’agenzia di viaggi pi&ugrave; vicina ]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[Informazioni sulle destinazioni]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[Eventi]]></stf_Events>
+<stf_Hire><![CDATA[Noleggio]]></stf_Hire>
+<stf_Informationservices><![CDATA[Informazioni]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[New South Wales]]></stf_StateFilter>
+<stf_Tours><![CDATA[Tour]]></stf_Tours>
+<stf_Transport><![CDATA[Trasporti]]></stf_Transport>
+</PlanYourVisit></con_RHSModules>
+    <con_Category></con_Category>
+    <lst_Subpages>
+    </lst_Subpages>
+</StandardCampaignLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="34" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Homepage ]]></headline>
+            <href><![CDATA[/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Plan]]></headline>
+            <href><![CDATA[/plan.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Find a Travel Specialist]]></headline>
+            <href><![CDATA[/plan/plan-your-trip/find-travel-agent.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/plan-plan-your-trip-find-travel-agent.jpg]]></img_background>
+    <hdl_Title><![CDATA[Find a Travel Specialist]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/about-key-facts-weather-sydney-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/asp_thumb.png]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[0]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[0]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[no]]></opt_PartnerLead>
+    <stf_description><![CDATA[Use an Aussie Specialist Travel Agent to book flights, accommodation &amp; transportation. These specialists receive extensive training from Tourism Australia.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[AU,NZ]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[Cooks Lookout, Lizard Island, QLD. &copy; Tourism and Events Queensland]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[Travel Agent for Australia]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Learn More]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        An Aussie Specialist has the experience to help you plan and book every detail of your Australian vacation. 
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <ASPSearchRHS isTemplate="1">
+    <!-- no user content -->
+</ASPSearchRHS><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/AccommodationSearch.ignore]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/AttractionSearchResults.ignore]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/DestinfoSearchResults.ignore]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/EventsSearch.xml]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/Hire.ignore]]></anc_Hire>
+<anc_Info><![CDATA[/InfoSearchResults.ignore]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/TourSearchResults.ignore]]></anc_Tour>
+<anc_Transport><![CDATA[/Transport.ignore]]></anc_Transport>
+<hdl_Title><![CDATA[Plan Your Visit]]></hdl_Title>
+<language><![CDATA[ENA]]></language>
+<stf_Accomodation><![CDATA[]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[]]></stf_Events>
+<stf_Hire><![CDATA[]]></stf_Hire>
+<stf_Informationservices><![CDATA[]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[]]></stf_StateFilter>
+<stf_Tours><![CDATA[]]></stf_Tours>
+<stf_Transport><![CDATA[]]></stf_Transport>
+</PlanYourVisit>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Find a travel specialist near you]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[Who are Aussie Specialists?]]></stf_InformationTitle>
+            <txt_Information><![CDATA[There are thousands of great Australian experiences to choose from. Chances are, your Aussie Specialist Travel Agent has experienced or planned for them before.   <P>Experts on everything Australian, these specialists receive extensive training from Tourism Australia and most have traveled throughout Australia. They have the experience to help you plan and book your Aussie adventure. They know what to pack, what the weather will be like and how to join in with the locals. </P>  <P>So, if you are wondering what it’s like to sail on Sydney Harbour, feel the warmth of the Australian outback, or dive on the Great Barrier Reef, contact an Aussie Specialist and you’ll soon be enjoying your very own Australian experience.</P>]]></txt_Information>
+            
+        </TopCategoryHighlights><TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Find a travel specialist near you]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[Who are Aussie Specialists?]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        There are thousands of great Australian experiences to choose from. Chances are, your Aussie Specialist Travel Agent has experienced or planned for them before. 
+        <p>Experts on everything Australian, these specialists receive extensive training from Tourism Australia and most have traveled throughout Australia. They have the experience to help you plan and book your Aussie adventure. They know what to pack, what the weather will be like and how to join in with the locals. </p>
+        <p>So, if you are wondering what it’s like to <a href="http://www.australia.com/campaigns/nothinglike/au/sydney-product7.htm" target="_blank">sail on Sydney Harbour</a>, feel the warmth of the <a href="/explore/icons/red-centre.xml" target="_self">Australian outback</a>, or dive on the <a href="/explore/icons/great-barrier-reef.xml" target="_self">Great Barrier Reef</a>, contact an Aussie Specialist and you’ll soon be enjoying your very own Australian experience.</p>
+    ]]></txt_Information>
+            
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

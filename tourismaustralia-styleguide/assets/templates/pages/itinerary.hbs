@@ -1,0 +1,107 @@
+---
+layout: layout-base.hbs
+---
+
+{{#parseJSON '{
+    "hero_image" : "herohome_bluemountains",
+    "hero_title" : "Six Foot Track",
+    "hero_subtitle" : "Blue Mountains"
+}'}}
+    {{> hero }}
+{{/parseJSON}}
+
+    {{#parseJSON '{
+        "page_title" : "New South Wales",
+        "map_summary" : [
+            {"para" : "Take in breathtaking scenery and 200 years of history on this original 1884 track from Katoomba to Jenolan Caves."},
+            {"para" : "The 45km route can be broken into day walks, conquered comfortably in three days or true athletes can run the iconic Six Foot Marathon."}
+        ],
+        "map_image" : "map-itinerary",
+        "map_main_title" : "New South Wales",
+        "map_pin_has_link" : "true",
+        "map_pin_button" : "Blue Mountains"
+    }'}}
+        {{> explore_summary_map }}
+    {{/parseJSON}}
+
+
+<div class="paragraph-state">
+
+    {{> mapimagewithlegend }}
+
+    {{#parseJSON '{
+        "parallax_image" : "hero-bluemontains-1",
+        "parallax_text" : "Day One: 15kms",
+        "itinerary_nav" : "day-one",
+        "itinerary_content" : "Start at the Explorer’s Tree, where explorers Gregory Blaxland, William Wentworth and William Lawson carved their initials in 1813. The track meanders past peppermint and grand mountain ash trees before dropping sharply through the steep cliff walls of Nellie’s Glen.",
+        "itinerary_content_2" : "Named after the daughter of an early Katoomba businessman, this cool, moist rainforest is home to coachwood, black wattle, cedar wattle, king fern and many rarer shrubs and ferns.",
+        "itinerary_content_3" : "Walk past tranquil Bonnie Doon Falls and through the rainforest and Sydney blue gums of magical Megalong - an Aboriginal name thought to mean ’valley beneath the cliffs’. The Gundungurra and Gandangara speaking Aboriginal people moved nomadically between Megalong and other valleys along Dreaming pathways."
+    }'}}
+        {{> itineraryday }}
+    {{/parseJSON}}
+
+    {{#parseJSON '{
+        "promo_image" : "promo5",
+        "promo_title" : "Senic Railway, Katoomba",
+        "promo_text" : [
+            {"para" : "Discover the thrill of a 52 degree incline riding the steepest passenger railway in the world, the Scenic Railway. A whole new experience awaits, with glass-roofed red carriages offering expansive views of the rainforest setting and spectacular Valley."}
+        ],
+        "promo_value" : "",
+        "promo_per" : ""
+    }'}}
+        {{> specialoffer }}
+    {{/parseJSON}}
+
+    {{#parseJSON '{
+        "parallax_image" : "hero-bluemontains-2",
+        "parallax_text" : "Day Two: 19kms",
+        "itinerary_nav" : "day-two",
+        "itinerary_content" : "Continue across the rolling green hills of Megalong Valley, past stands of scribbly gum. The strange markings on the trunks are caused by insect larvae feeding under the bark.",
+        "itinerary_content_2" : "The track winds along the steep-sided sandy banks of Cox’s River - a great place to revive on a hot summer day.",
+        "itinerary_content_3" : "Afterwards you can picnic in the shade of river oak and forest red gums, listening to the warble of bellbirds, cockatoos and lyrebirds. You’ll need to relax before attempting the Bowtells Swing Bridge. Built by engineers from the Holsworthy army base in 1992, it can be crossed by only one person at a time so tread carefully. On the other side you can collapse in the dedicated campsite or in bunk-style lodges by the river."
+    }'}}
+        {{> itineraryday_secondary }}
+    {{/parseJSON}}
+
+    {{#parseJSON '{
+        "parallax_image": "hero-bluemontains-3",
+        "social_mention_bold_text" : "Six Foot Track Panorama, ",
+        "social_mention_regular_text" : "Ella Lucas. Blue Mountains, NSW. June 28"
+    }'}}
+        {{> parallaximage_fullwidth }}
+    {{/parseJSON}}
+
+
+    {{#parseJSON '{
+        "parallax_image" : "hero-bluemontains-4",
+        "parallax_text" : "Day Three: 10kms",
+        "itinerary_nav" : "day-three",
+        "itinerary_content" : "Prepare for a challenging climb over the Mini Mini Saddle to the track’s highest point on the Black Range. Grab your breath and some gorgeous views before the level walk along the ridgeline.",
+        "itinerary_content_2" : "You’ll pass Little River, a tributary of the Cox’s River, and then the Alum Creek campsite. Wind close to Jenolan Road, past trees of grey gum, stringybark and the blackwood after which the Black Range was probably named. Your final descent is to the labyrinth-like Jenolan Caves - one of the largest underground cave systems in the world.",
+        "itinerary_content_3" : "Tour the caves and marvel at the delicate crystalline decorations of Orient Cave. Step over underground rivers and past prehistoric formations. Get goosebumps on a ghost tour or enjoy a cave concert with natural acoustics and fairytale ambience. After two nights sleeping rough, you can reward yourself with a night in a grand hotel or comfortable bed and breakfast."
+    }'}}
+        {{> itineraryday }}
+    {{/parseJSON}}
+
+    {{> bylinewithshare}}
+
+    {{> favouritewithlines }}
+
+
+    {{#parseJSON '{
+        "promo_image" : "promo6",
+        "promo_title" : "Caves House, Jenolan Caves",
+        "promo_text" : [
+            {"para" : "Caves House is an icon of Blue Mountains accommodation. In 1897, NSW Government Architect, Walter Liberty Vernon, designed it as a wilderness retreat for wealthy travellers."}
+        ],
+        "promo_value" : "100",
+        "promo_per" : "/night"
+    }'}}
+        {{> specialoffer_from }}
+    {{/parseJSON}}
+
+    {{> explore-more }}
+
+
+    {{> categorylinks_city_sydney }}
+</div>

@@ -1,0 +1,385 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="32" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[ホーム]]></headline>
+            <href><![CDATA[/jp/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[計画する]]></headline>
+            <href><![CDATA[/jp/plan.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[アクセス方法]]></headline>
+            <href><![CDATA[/jp/plan/plan-your-trip/getting-there.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/plan-plan-your-trip-find-flights.jpg]]></img_background>
+    <hdl_Title><![CDATA[アクセス方法]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/plan-plan-your-trip-find-flights-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/plan-plan-your-trip-find-flights-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[no]]></opt_PartnerLead>
+    <stf_description><![CDATA[オーストラリアへの入国、旅行に際して必要な情報を確かめておきましょう。入国の際のビザや税関、免税品の買物、保険や旅行を計画するにあたり重要な情報である通貨、通信、健康と安全、買物からオーストラリア旅行を楽しむためのヒントと危機管理の情報を提供しています。]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[y]]></stf_IsMobile>
+    <stf_keywords><![CDATA[アクセス方法]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[詳細はこちらから]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[入国・アクセス｜旅の計画 - オーストラリア政府観光局]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        ビザ、税関、免税店、保険などの必要な旅行情報が得られます。 
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <AirlineModule isTemplate="1">
+    <hdl_Title><![CDATA[アクセス方法]]></hdl_Title>
+    <anc_MoreLink><![CDATA[]]></anc_MoreLink>
+    <con_AirlineCountry>
+        <AirlineCountry isTemplate="1">
+    <hdl_Title><![CDATA[Canada]]></hdl_Title>
+    <stf_Heading><![CDATA[Canada]]></stf_Heading> 
+    <stf_TargetedCountry><![CDATA[CA]]></stf_TargetedCountry>
+    <anc_Flights>
+        <anc_Flight><![CDATA[<a href="http://www.aircanada.com/" target="_blank">エア・カナダ </a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.airnewzealand.com/" target="_blank">ニュージーランド航空 </a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.emirates.com/ca" target="_blank">Emirates</a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.qantas.com.au/travel/airlines/home/ca/en" target="_blank">カンタス航空</a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.united.com/" target="_blank">ユナイテッド航空 </a>]]></anc_Flight>
+    </anc_Flights> 
+</AirlineCountry><AirlineCountry isTemplate="1">
+    <hdl_Title><![CDATA[China]]></hdl_Title>
+    <stf_Heading><![CDATA[China]]></stf_Heading> 
+    <stf_TargetedCountry><![CDATA[CN]]></stf_TargetedCountry>
+    <anc_Flights>
+        <anc_Flight><![CDATA[<a href="http://www.airchina.com.cn/" target="_blank">中国国際航空</a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.ceair.com/" target="_blank">中国東方航空</a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.qantas.com.au/travel/airlines/worldwide/global/en" target="_blank">カンタス航空 </a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.cs-air.com/cn/index.asp" target="_blank">中国南方航空</a>]]></anc_Flight>
+    </anc_Flights> 
+</AirlineCountry><AirlineCountry isTemplate="1">
+    <hdl_Title><![CDATA[France]]></hdl_Title>
+    <stf_Heading><![CDATA[France]]></stf_Heading> 
+    <stf_TargetedCountry><![CDATA[FR]]></stf_TargetedCountry>
+    <anc_Flights>
+        <anc_Flight><![CDATA[<a href="http://www.airasia.com/fr/" target="_blank">Air AsiaX</a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.airfrance.com" target="_blank">エールフランス航空 </a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.britishairways.com/" target="_blank">ブリティッシュ・エアウェイズ </a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.cathaypacific.com/cpa/fr_FR/homepage" target="_blank">キャセイパシフィック航空 </a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.emirates.com/" target="_blank">エミレーツ航空</a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.etihadairways.com/sites/etihad/Pages/GatewayPage.aspx" target="_blank">エティハド航空 </a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.malaysiaairlines.com" target="_blank">マレーシア航空</a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.qantas.com.au/travel/airlines/worldwide/global/en" target="_blank">カンタス航空 </a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.singaporeair.com/saa/index.jsp" target="_blank">シンガポール航空</a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.thaiair.com/" target="_blank">タイ国際航空 </a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.flychinasouthern.com/index.php" target="_blank">中国南方航空公司</a>]]></anc_Flight>
+    </anc_Flights> 
+</AirlineCountry><AirlineCountry isTemplate="1">
+    <hdl_Title><![CDATA[Germany]]></hdl_Title>
+    <stf_Heading><![CDATA[Germany]]></stf_Heading> 
+    <stf_TargetedCountry><![CDATA[DE]]></stf_TargetedCountry>
+    <anc_Flights>
+        <anc_Flight><![CDATA[<a href="http://www.lufthansa.com" target="_blank">ルフトハンザ </a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.britishairways.com/" target="_blank">ブリティッシュ・エアウェイズ </a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.cathaypacific.com/cpa/en_INTL/homepage" target="_blank">キャセイパシフィック航空 </a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.emirates.com/" target="_blank">エミレーツ航空 </a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.etihadairways.com/sites/etihad/Pages/GatewayPage.aspx" target="_blank">エティハド航空 </a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.malaysiaairlines.com" target="_blank">マレーシア航空 </a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.qantas.com.au/travel/airlines/worldwide/global/en" target="_blank">カンタス航空 </a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.singaporeair.com/jsp/cms/de_DE/promotions/flug-nach-australien.jsp" target="_blank">Singapore Airlines</a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.thaiair.com/" target="_blank">タイ国際航空 </a>]]></anc_Flight>
+    </anc_Flights> 
+</AirlineCountry><AirlineCountry isTemplate="1">
+    <hdl_Title><![CDATA[Hong Kong]]></hdl_Title>
+    <stf_Heading><![CDATA[Hong Kong]]></stf_Heading> 
+    <stf_TargetedCountry><![CDATA[HK]]></stf_TargetedCountry>
+    <anc_Flights>
+        <anc_Flight><![CDATA[<a href="http://www.cathaypacific.com/" target="_blank">キャセイパシフィック航空 </a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.qantas.com.au/travel/airlines/worldwide/global/en" target="_blank">カンタス航空 </a>]]></anc_Flight>
+    </anc_Flights> 
+</AirlineCountry><AirlineCountry isTemplate="1">
+    <hdl_Title><![CDATA[India]]></hdl_Title>
+    <stf_Heading><![CDATA[India]]></stf_Heading> 
+    <stf_TargetedCountry><![CDATA[IN]]></stf_TargetedCountry>
+    <anc_Flights>
+        <anc_Flight><![CDATA[<a href="http://www.malaysiaairlines.com" target="_blank">マレーシア航空</a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.qantas.com.au/travel/airlines/worldwide/global/en" target="_blank">カンタス航空 </a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.singaporeair.com/saa/index.jsp" target="_blank">シンガポール航空</a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.thaiair.com/" target="_blank">タイ国際航空 </a>]]></anc_Flight>
+    </anc_Flights> 
+</AirlineCountry><AirlineCountry isTemplate="1">
+    <hdl_Title><![CDATA[International]]></hdl_Title>
+    <stf_Heading><![CDATA[IV]]></stf_Heading> 
+    <stf_TargetedCountry><![CDATA[IV]]></stf_TargetedCountry>
+    <anc_Flights>
+        <anc_Flight><![CDATA[<a href="http://www.aerolineas.com.ar/home.asp" target="_blank">アルゼンチン航空 </a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.air-caledonie.nc/ " target="_blank">カレドニア航空</a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.airnewzealand.com" target="_blank">ニュージーランド航空</a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.airpacific.com/ " target="_blank">エア・パシフィック航空</a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.airtahitinui.com/" target="_blank">エア・タヒチ・ヌイ </a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.airvanuatu.com/" target="_blank">エアー・バヌアツ </a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.apng.com/ " target="_blank">エアラインズ・パプア・ニューギニア </a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.flyairnorth.com/ " target="_blank">エアノース </a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.continental.com/ " target="_blank">コンチネンタル・ミクロネシア航空 </a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.emirates.com/" target="_blank">エミレーツ航空</a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.etihadairways.com/sites/etihad/Pages/GatewayPage.aspx" target="_blank">エティハド航空</a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.garuda-indonesia.com/" target="_blank">ガルーダ・インドネシア航空 </a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.jetstar.com/au/en/index.aspx" target="_blank">ジェットスター </a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.lanchile.com/" target="_blank">ラン航空 </a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.ozjet.com.au/" target="_blank">オズジェット</a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.philippineairlines.com/" target="_blank">フィリピン航空</a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.qantas.com.au/travel/airlines/worldwide/global/en" target="_blank">カンタス航空</a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.bruneiair.com/" target="_blank">ロイヤルブルネイ航空 </a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.flysaa.com" target="_blank">南アフリカ航空 </a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.vietnamair.com.vn/" target="_blank">ベトナム航空 </a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.cathaypacific.com/cpa/en_INTL/homepage" target="_blank">Cathay Pacific</a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.flychinasouthern.com/index.php" target="_blank">中国南方航空公司</a>]]></anc_Flight>
+    </anc_Flights> 
+</AirlineCountry><AirlineCountry isTemplate="1">
+    <hdl_Title><![CDATA[Ireland]]></hdl_Title>
+    <stf_Heading><![CDATA[Ireland]]></stf_Heading> 
+    <stf_TargetedCountry><![CDATA[IE]]></stf_TargetedCountry>
+    <anc_Flights>
+        <anc_Flight><![CDATA[<a href="http://www.aerlingus.com/" target="_blank">エア・リンガス </a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.britishairways.com/" target="_blank">ブリティッシュ・エアウェイズ</a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.emirates.com/" target="_blank">エミレーツ航空 </a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.etihadairways.com/sites/etihad/Pages/GatewayPage.aspx" target="_blank">エティハド航空 </a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.malaysiaairlines.com" target="_blank">マレーシア航空</a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.qantas.com.au/travel/airlines/worldwide/global/en" target="_blank">カンタス航空 </a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.singaporeair.com/saa/index.jsp" target="_blank">シンガポール航空 </a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.fly.virgin.com/" target="_blank">ヴァージン・アトランティック航空 </a>]]></anc_Flight>
+    </anc_Flights> 
+</AirlineCountry><AirlineCountry isTemplate="1">
+    <hdl_Title><![CDATA[Italia]]></hdl_Title>
+    <stf_Heading><![CDATA[Italia]]></stf_Heading> 
+    <stf_TargetedCountry><![CDATA[IT]]></stf_TargetedCountry>
+    <anc_Flights>
+        <anc_Flight><![CDATA[<a href="http://www.britishairways.com/" target="_blank">ブリティッシュ・エアウェイズ </a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.cathaypacific.com/cpa/en_INTL/homepage" target="_blank">キャセイパシフィック航空 </a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.emirates.com/" target="_blank">エミレーツ航空</a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.etihadairways.com/sites/etihad/Pages/GatewayPage.aspx" target="_blank">エティハド航空 </a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.malaysiaairlines.com" target="_blank">マレーシア航空</a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.qantas.com.au/travel/airlines/worldwide/global/en" target="_blank">カンタス航空 </a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.singaporeair.com/saa/index.jsp" target="_blank">シンガポール航空</a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.thaiair.com/" target="_blank">タイ国際航空 </a>]]></anc_Flight>
+    </anc_Flights> 
+</AirlineCountry><AirlineCountry isTemplate="1">
+    <hdl_Title><![CDATA[Japan]]></hdl_Title>
+    <stf_Heading><![CDATA[Japan]]></stf_Heading> 
+    <stf_TargetedCountry><![CDATA[JP]]></stf_TargetedCountry>
+    <anc_Flights>
+        <anc_Flight><![CDATA[<a href="http://www.jalways.co.jp/" target="_blank">ジャルウェイズ</a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.jal.co.jp/" target="_blank">日本航空 </a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.jetstar.com/au/en/index.aspx" target="_blank">ジェットスター</a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.qantas.com.au/travel/airlines/worldwide/global/en" target="_blank">カンタス航空 </a>]]></anc_Flight>
+    </anc_Flights> 
+</AirlineCountry><AirlineCountry isTemplate="1">
+    <hdl_Title><![CDATA[Korea]]></hdl_Title>
+    <stf_Heading><![CDATA[Korea]]></stf_Heading> 
+    <stf_TargetedCountry><![CDATA[KR]]></stf_TargetedCountry>
+    <anc_Flights>
+        <anc_Flight><![CDATA[<a href="http://www.flyasiana.com/index.htm" target="_blank">アシアナ航空</a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.airnewzealand.com/" target="_blank">ニュージーランド航空</a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://kr.koreanair.com/" target="_blank">大韓航空 </a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.qantas.com.au/travel/airlines/worldwide/global/en" target="_blank">カンタス航空 </a>]]></anc_Flight>
+    </anc_Flights> 
+</AirlineCountry><AirlineCountry isTemplate="1">
+    <hdl_Title><![CDATA[Netherlands]]></hdl_Title>
+    <stf_Heading><![CDATA[Netherlands]]></stf_Heading> 
+    <stf_TargetedCountry><![CDATA[NED]]></stf_TargetedCountry>
+    <anc_Flights>
+        <anc_Flight><![CDATA[<a href="http://www.flychinasouthern.com/index.php" target="_blank">China Southern Airlines</a>]]></anc_Flight>
+    </anc_Flights> 
+</AirlineCountry><AirlineCountry isTemplate="1">
+    <hdl_Title><![CDATA[Nederland]]></hdl_Title>
+    <stf_Heading><![CDATA[Nederland]]></stf_Heading> 
+    <stf_TargetedCountry><![CDATA[NL]]></stf_TargetedCountry>
+    <anc_Flights>
+        <anc_Flight><![CDATA[<a href="http://www.klm.com" target="_blank">KLM</a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.britishairways.com/" target="_blank">ブリティッシュ・エアウェイズ </a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.cathaypacific.com/cpa/en_INTL/homepage" target="_blank">キャセイパシフィック航空 </a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.emirates.com/" target="_blank">エミレーツ航空</a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.etihadairways.com/sites/etihad/Pages/GatewayPage.aspx" target="_blank">エティハド航空 </a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.malaysiaairlines.com" target="_blank">マレーシア航空</a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.qantas.com.au/travel/airlines/worldwide/global/en" target="_blank">カンタス航空 </a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.singaporeair.com/saa/index.jsp" target="_blank">シンガポール航空</a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.thaiair.com/" target="_blank">タイ国際航空 </a>]]></anc_Flight>
+    </anc_Flights> 
+</AirlineCountry><AirlineCountry isTemplate="1">
+    <hdl_Title><![CDATA[Malaysia]]></hdl_Title>
+    <stf_Heading><![CDATA[Malaysia]]></stf_Heading> 
+    <stf_TargetedCountry><![CDATA[MY]]></stf_TargetedCountry>
+    <anc_Flights>
+        <anc_Flight><![CDATA[<a href="http://www.airasia.com/" target="_blank">エアアジアX </a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.malaysiaairlines.com" target="_blank">マレーシア航空</a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.singaporeair.com/saa/index.jsp" target="_blank">シンガポール航空</a>]]></anc_Flight>
+    </anc_Flights> 
+</AirlineCountry><AirlineCountry isTemplate="1">
+    <hdl_Title><![CDATA[New Zealand]]></hdl_Title>
+    <stf_Heading><![CDATA[New Zealand]]></stf_Heading> 
+    <stf_TargetedCountry><![CDATA[NZ]]></stf_TargetedCountry>
+    <anc_Flights>
+        <anc_Flight><![CDATA[<a href="http://www.airnewzealand.com/" target="_blank">ニュージーランド航空</a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.emirates.com/" target="_blank">エミレーツ航空</a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.jetstar.com/au/en/index.aspx" target="_blank">ジェットスター </a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.pacificblue.com.au/" target="_blank">パシフィックブルー</a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.qantas.com.au/travel/airlines/worldwide/global/en" target="_blank">カンタス航空 </a>]]></anc_Flight>
+    </anc_Flights> 
+</AirlineCountry><AirlineCountry isTemplate="1">
+    <hdl_Title><![CDATA[UK]]></hdl_Title>
+    <stf_Heading><![CDATA[UK]]></stf_Heading> 
+    <stf_TargetedCountry><![CDATA[GB]]></stf_TargetedCountry>
+    <anc_Flights>
+        <anc_Flight><![CDATA[<a href="http://www.britishairways.com/" target="_blank">ブリティッシュ・エアウェイズ </a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.emirates.com" target="_blank">エミレーツ航空 </a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.etihadairways.com/sites/Etihad/uk/en/home/pages/home.aspx" target="_blank">エティハド航空 </a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.malaysiaairlines.com/uk/en.html" target="_blank">マレーシア航空 </a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.virginaustralia.com/uk/en/" target="_blank">ヴァージン・アトランティック航空 </a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.qantas.com.au/travel/airlines/home/gb/en" target="_blank">カンタス航空</a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.singaporeair.com/SAA-flow.form?execution=e3s1" target="_blank">シンガポール航空 </a>]]></anc_Flight>
+    </anc_Flights> 
+</AirlineCountry><AirlineCountry isTemplate="1">
+    <hdl_Title><![CDATA[US]]></hdl_Title>
+    <stf_Heading><![CDATA[US]]></stf_Heading> 
+    <stf_TargetedCountry><![CDATA[US]]></stf_TargetedCountry>
+    <anc_Flights>
+        <anc_Flight><![CDATA[<a href="http://www.airnewzealand.com" target="_blank">Air New Zealand</a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.delta.com/" target="_blank">Delta</a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.emirates.com/usa" target="_blank">Delta</a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.hawaiianair.com/" target="_blank">ハワイアン航空</a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.jetstar.com" target="_blank">Jetstar</a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.qantas.com.au/travel/airlines/home/us/en" target="_blank">ジェットスター </a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.united.com/" target="_blank">ユナイテッド航空 </a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.vaustralia.com/" target="_blank">V Australia</a>]]></anc_Flight>
+    </anc_Flights> 
+</AirlineCountry><AirlineCountry isTemplate="1">
+    <hdl_Title><![CDATA[Singapore]]></hdl_Title>
+    <stf_Heading><![CDATA[Singapore]]></stf_Heading> 
+    <stf_TargetedCountry><![CDATA[SG]]></stf_TargetedCountry>
+    <anc_Flights>
+        <anc_Flight><![CDATA[<a href="http://www.singaporeair.com/saa/index.jsp" target="_blank">シンガポール航空</a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.emirates.com/" target="_blank">エミレーツ航空</a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.jetstar.com/au/en/index.aspx" target="_blank">ジェットスター </a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.qantas.com.au/travel/airlines/worldwide/global/en" target="_blank">カンタス航空 </a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.tigerairways.com/home/" target="_blank">タイガー・エアウェイズ </a>]]></anc_Flight>
+    </anc_Flights> 
+</AirlineCountry><AirlineCountry isTemplate="1">
+    <hdl_Title><![CDATA[Taiwan]]></hdl_Title>
+    <stf_Heading><![CDATA[Taiwan]]></stf_Heading> 
+    <stf_TargetedCountry><![CDATA[TW]]></stf_TargetedCountry>
+    <anc_Flights>
+        <anc_Flight><![CDATA[<a href="http://www.cathaypacific.com/cpa/en_INTL/homepage" target="_blank">Cathay Pacific</a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.evaair.com" target="_blank">Eva Air</a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.singaporeair.com/saa/zh_TW/index.jsp" target="_blank">Singapore Airlines</a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.china-airlines.com/ch/index.htm" target="_blank">China Airlines</a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.qantas.com.au/travel/airlines/home/tw/zh_tw" target="_blank">Qantas</a>]]></anc_Flight>
+    </anc_Flights> 
+</AirlineCountry><AirlineCountry isTemplate="1">
+    <hdl_Title><![CDATA[Thailand]]></hdl_Title>
+    <stf_Heading><![CDATA[Thailand]]></stf_Heading> 
+    <stf_TargetedCountry><![CDATA[TH]]></stf_TargetedCountry>
+    <anc_Flights>
+        <anc_Flight><![CDATA[<a href="http://www.thaiair.com/" target="_blank">タイ国際航空 </a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.singaporeair.com/saa/en_UK/index.jsp" target="_blank">Singapore Airlines</a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.jetstar.com/th/th/index.aspx" target="_blank">ジェットスター </a>]]></anc_Flight>
+    </anc_Flights> 
+</AirlineCountry><AirlineCountry isTemplate="1">
+    <hdl_Title><![CDATA[Taiwan]]></hdl_Title>
+    <stf_Heading><![CDATA[Taiwan]]></stf_Heading> 
+    <stf_TargetedCountry><![CDATA[TW]]></stf_TargetedCountry>
+    <anc_Flights>
+        <anc_Flight><![CDATA[<a href="http://www.qantas.com.au/travel/airlines/home/tw/zh_tw" target="_blank">澳洲航空</a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.evaair.com" target="_blank">エバー航空 </a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.cathaypacific.com/cpa/en_INTL/homepage" target="_blank">キャセイパシフィック航空 </a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.china-airlines.com/ch/index.htm" target="_blank">チャイナエアライン（中華航空）</a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.singaporeair.com/saa/zh_TW/index.jsp" target="_blank">新加坡航空</a>]]></anc_Flight>
+    </anc_Flights> 
+</AirlineCountry><AirlineCountry isTemplate="1">
+    <hdl_Title><![CDATA[Russian]]></hdl_Title>
+    <stf_Heading><![CDATA[Russian]]></stf_Heading> 
+    <stf_TargetedCountry><![CDATA[AU]]></stf_TargetedCountry>
+    <anc_Flights>
+        <anc_Flight><![CDATA[<a href="http://www.emirates.com/ru/russian/" target="_blank">Australia</a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.koreanair.com/" target="_blank">Korean Air</a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.singaporeair.com/saa/en_UK/index.jsp" target="_blank">Singapore Airlines</a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.etihadairways.com/sites/Etihad/ru/ru/home/pages/home.aspx" target="_blank">Etihad</a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.flyairchina.ru/ru/index.html" target="_blank">Air China</a>]]></anc_Flight>
+        <anc_Flight><![CDATA[<a href="http://www.qantas.com.au/travel/airlines/home/gb/en" target="_blank">Qantas/British Airways code share</a>]]></anc_Flight>
+    </anc_Flights> 
+</AirlineCountry>
+    </con_AirlineCountry>
+</AirlineModule>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[オーストラリアへの入国]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[オーストラリアへの旅行をお考えですか？ ]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/6.1.1.1_getting_to_australia_hl.jpg" alt="オーストラリアへの旅行をお考えですか？ ">]]></img_MainImage>
+                    <stf_Caption><![CDATA[オーストラリアへの旅行をお考えですか？ ]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[ここでは、 ビザ、税関、免税品の買物、保険など、旅行に必要な基本情報をまとめました。 <A href="/jp/plan/before-you-go/planning-a-trip.xml" target=_self>詳細はこちら</A>]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[役に立つ情報]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/6.5.2.2_getting_to_australia_hl.jpg" alt="役に立つ情報">]]></img_MainImage>
+                    <stf_Caption><![CDATA[役に立つ情報]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[通貨、通信、健康と安全、買物はオーストラリア旅行を計画するにあたり重要な項目です。身体障害者の方、あるいは、特別な助力が必要な方と一緒に旅行する方も、利用出来る施設について調べておく必要があります <A href="/jp/plan/before-you-go/useful-tips.xml" target=_self>詳細はこちら</A>]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[オーストラリア旅行を楽しむためのヒントと危機管理 ]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/6.5.1.3_getting_to_australia_hl.jpg" alt="オーストラリア旅行を楽しむためのヒントと危機管理 ">]]></img_MainImage>
+                    <stf_Caption><![CDATA[オーストラリア旅行を楽しむためのヒントと危機管理 ]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[オーストラリアを安全に旅行していただくためのヒントやアドバイスです。 <A href="/jp/plan/while-your-here/tips-hazards.xml" target=_self>詳細はこちら</A>]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

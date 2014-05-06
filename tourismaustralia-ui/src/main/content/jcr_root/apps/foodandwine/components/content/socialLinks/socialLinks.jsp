@@ -6,13 +6,14 @@
 
 <div class="faw-share-list">
 	<p>
-		See all conversations relating to <strong>#restaurants</strong> on:
+		<!-- See all conversations relating to <strong>#restaurants</strong> on: -->
+		${socialLinks.title}
 	</p>
 	<c:if test="${not empty socialLinks.socialLink1.socialLinksTitle }">
 		<a href="${socialLinks.socialLink1.socialLinks }" target="_blank"
 			class="faw-share-list-item"> <span class="faw-share-list-icon"><img
 				src="${socialLinks.socialLink1.socialLinksLogoPath }"
-				alt="${socialLinks.socialLink1.socialLinksAltTag }"></span>
+				alt=""></span>
 			<p class="faw-share-list-tem-label">
 				<strong>${socialLinks.socialLink1.socialLinksTitle }</strong>
 			</p>
@@ -23,7 +24,7 @@
 		<a href="${socialLinks.socialLink2.socialLinks }" target="_blank"
 			class="faw-share-list-item"> <span class="faw-share-list-icon"><img
 				src="${socialLinks.socialLink2.socialLinksLogoPath }"
-				alt="${socialLinks.socialLink2.socialLinksAltTag }"></span>
+				alt=""></span>
 			<p class="faw-share-list-tem-label">
 				<strong>${socialLinks.socialLink2.socialLinksTitle }</strong>
 			</p>
@@ -34,7 +35,7 @@
 		<a href="${socialLinks.socialLink3.socialLinks }" target="_blank"
 			class="faw-share-list-item"> <span class="faw-share-list-icon"><img
 				src="${socialLinks.socialLink3.socialLinksLogoPath }"
-				alt="${socialLinks.socialLink3.socialLinksAltTag }"></span>
+				alt=""></span>
 			<p class="faw-share-list-tem-label">
 				<strong>${socialLinks.socialLink3.socialLinksTitle }</strong>
 			</p>

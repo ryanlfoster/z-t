@@ -1,0 +1,462 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="15587" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Laman Depan]]></headline>
+            <href><![CDATA[/id/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Tentang]]></headline>
+            <href><![CDATA[/id/about.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Cuaca]]></headline>
+            <href><![CDATA[/id/about/key-facts/weather.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[Cuaca di Hobart]]></headline>
+            <href><![CDATA[/id/about/key-facts/weather/hobart-weather.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/about-weather-hobart.jpg]]></img_background>
+    <hdl_Title><![CDATA[Cuaca di Hobart]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/about-key-facts-weather-hobart-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/about-key-facts-weather-hobart-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[no]]></opt_PartnerLead>
+    <stf_description><![CDATA[Pelajari tentang iklim dan cuaca di Hobart, Tasmania. Temukan aktivitas musiman untuk membantu Anda merencanakan liburan di Hobart dan sekitarnya.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[Hobart, TAS. &copy; Tourism Tasmania &amp; Alastair Bett]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[y]]></stf_IsMobile>
+    <stf_keywords><![CDATA[cuaca di hobart, suhu udara hobart, iklim hobart]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Pelajari Selengkapnya]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Cuaca di Hobart - Iklim &amp; Suhu Udara - Tourism Australia]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+      Temukan informasi seputar suhu udara, curah hujan, dan aktivitas musiman untuk membantu Anda merencanakan liburan di Hobart.
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <Listing isTemplate="1">
+<anc_List1><![CDATA[/id/explore/cities/hobart.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[Ide Khas Australia Lainnya]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/id/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/id/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/id/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/id/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/id/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/id/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/id/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/id/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/id/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/id/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/id/Transport.aspx]]></anc_Transport>
+<hdl_Title><![CDATA[Rencanakan Kunjungan Anda]]></hdl_Title>
+<language><![CDATA[IND]]></language>
+<stf_Accomodation><![CDATA[]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[]]></stf_Events>
+<stf_Hire><![CDATA[]]></stf_Hire>
+<stf_Informationservices><![CDATA[]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[Tasmania]]></stf_StateFilter>
+<stf_Tours><![CDATA[]]></stf_Tours>
+<stf_Transport><![CDATA[]]></stf_Transport>
+</PlanYourVisit>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Cuaca di Hobart]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        Tasmania dan Hobart memiliki empat musim yang berbeda. Iklimnya digambarkan sebagai iklim bahari sedang ringan. Bulan-bulan terpanas adalah Desember, Januari, Februari, dan Maret, dengan suhu rata-rata sekitar 21&deg;C. Dengan curah hujan rata-rata tahunan 626 milimeter, Hobart adalah ibu kota paling kering kedua di Australia. Curah hujan tersebar cukup merata sepanjang tahun, sekalipun paling sering turun hujan sepanjang bulan-bulan musim dingin. Selama musim dingin, pulau ini menyambut hembusan angin selatan dari Antartika dan mengalami suhu udara terdingin di Australia. Di sini Anda akan menemukan informasi seputar suhu udara, curah hujan, dan aktivitas musiman untuk membantu Anda merencanakan liburan di Hobart. 
+        <p>Musim panas (Desember – Februari) adalah saat festival di <a href="/id/explore/cities/hobart.xml" target="_self">Hobart</a>. Suhu udara rata-rata di musim panas berkisar antara 17-23&deg;C dan inilah saat sempurna untuk menikmati aktivitas luar ruangan. Sepanjang periode Tahun Baru, tepi pantai Hobart menjadi semarak dengan <a href="/id/explore/events/tas-taste-festival.xml" target="_self">Taste of Tasmania Festival</a> serta tamatnya <a href="/id/explore/events/syd-hobart-yacht-race.xml" target="_self">Sydney to Hobart Yacht Race</a> yang mendebarkan. Acara memancing di laut dalam menarik para pemancing dari Desember hingga Juni, ketika suhu air yang hangat memungkinkan kondisi yang sangat baik untuk menangkap ikan marlin dan tuna. Lokasi Tasmania yang terletak di bawah garis lintang selatan 40 berarti sore musim panas di sini disertai dengan cahaya senja yang berkepanjangan. </p>
+        <p>Musim gugur (Maret - Mei) ditandai dengan banyak hari cerah yang tenang, dan inilah saat terbaik untuk mencicipi sebagian hasil bumi setempat dan budaya Tasmania di perayaan budaya dua-tahunan, Ten Days on the Island, di bulan Maret. Telusuri sejarah Hobart dengan tur jalan kaki di Sullivan’ s Cove dan <a href="/id/explore/cities/hobart/hobart-salamanca-place.xml" target="_self">Salamanca Place</a>; atau kunjungi bekas pemukiman narapidana di <a href="/id/explore/states/tas/tas-port-arthur.xml" target="_self">Port Arthur</a>. Bentang alam di sekeliling Hobart menampilkan beragam warna selagi bunga-bunga liar bermekaran dan pepohonan tua berubah warna dari emas menjadi merah untuk menyambut musim dingin. </p>
+        <p>Musim dingin (Juni - Agustus) adalah saat untuk bersantai dalam ruangan di dekat perapian, atau keluar menghirup udara bersih yang sejuk untuk jalan kaki yang menyegarkan. Anda dapat bergabung bersama penduduk setempat dalam Antarctica Mid-Winter Festival di bulan Juni; nikmati hangatnya suara rayuan musik di Hobart’s Festival of the Voices; atau manjakan diri dengan Chocolate Winterfest di bulan Juli. Sekalipun hari dapat terasa dingin, antara 3 – 11&deg;C, saat ini bisa menjadi musim yang indah di Hobart dengan rendahnya curah hujan. Jika saatnya tepat, Anda dapat juga menyaksikan Aurora Australis yang menakjubkan. Musim dingin di Tasmania juga menyajikan pengamatan paus terbaik di Australia. </p>
+        <p>Musim semi (September - November) adalah salah satu musim terbaik untuk menelusuri taman-taman nasional Tasmania yang luar biasa. Saat terbaik untuk menyusuri <a href="http://www.australia.com/campaigns/nothinglike/au/freycinet-product2.htm" target="_blank">Bay of Fires Lodge Walk</a>; Cradle Mountain Huts Walk yang khas; <a href="http://www.australia.com/campaigns/nothinglike/au/freycinet-product5.htm" target="_blank">Maria Island Walk</a>; atau <a href="http://www.australia.com/campaigns/nothinglike/au/freycinet-product4.htm" target="_blank">Freycinet Experience Walk</a> adalah dari bulan Oktober hingga April. Musim semi adalah saat yang baik untuk memanfaatkan kegiatan berkayak, berlayar, dan arung jeram air-putih yang ternama di dunia. Di musim ini, kebun-kebun juga mekar bersemi. Blooming Tasmania dimulai dengan festival tulip di kawasan utara dan selatan, dan terus berlanjut hingga Mei. Memancing ikan trout sangat diminati dan paling baik dilakukan di musim semi. Berlayarlah ke pulau-pulau lepas pantai Hobart, <a href="/id/explore/states/tas/tas-bruny-island.xml" target="_self">Bruny Island</a> dan Flinders Island, untuk mengunjungi satwa liar yang berlimpah. Apa pun musimnya, datanglah kemari dengan menyiapkan jaket tebal dan jas hujan. </p>
+        <br />
+        <p><strong>Grafik Iklim</strong></p>
+        <table style="border: #ccc 1px solid;" cellspacing="0" cellpadding="0" width="100%">
+            <tbody>
+                <tr style="background-color: #cccccc;">
+                    <td style="width: 15%;" valign="top">
+                    <p><strong>Suhu Udara</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Jan</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Feb</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Mar</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Apr</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Mei</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Jun</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Jul</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Ags</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Sep</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Okt</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Nov</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Des</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Tahunan</strong></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border-bottom: #ccc 1px solid; width: 15%; border-right: #ccc 1px solid;" valign="middle">
+                    <p>Suhu udara maksimum rata-rata (&deg;C) </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">23.1 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">22.2 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">20.7 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">17 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">13.9 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">11.4 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">10.5 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">12.2 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">14.9 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">17.4 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">19.4 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">21.9 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%;" valign="middle">
+                    <p style="text-align: center;">17 </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 15%; border-right: #ccc 1px solid;" valign="middle">
+                    <p>Suhu udara minimum rata-rata (&deg;C) </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">11.5 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">11.7 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">10.3 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">8.3 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">6.3 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">4.3 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">3.1 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">4.5 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">6 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">7.3 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">9.1 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">10.9 </p>
+                    </td>
+                    <td style="width: 6.5%;" valign="middle">
+                    <p style="text-align: center;">7 </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p style="text-align: right;"><em><span style="font-size: 10px;">Sumber: Bureau of Meteorology, 2013</span></em></p>
+        <p><strong>Grafik Curah Hujan</strong></p>
+        <table style="border: #ccc 1px solid;" cellspacing="0" cellpadding="0" width="100%">
+            <tbody>
+                <tr style="background-color: #cccccc;">
+                    <td style="width: 15%;" valign="top">
+                    <p><strong>Curah Hujan</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Jan</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Feb</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Mar</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Apr</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Mei</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Jun</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Jul</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Ags</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Sep</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Okt</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Nov</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Des</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Tahunan</strong></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 15%; border-right: #ccc 1px solid;" valign="middle">
+                    <p>Curah hujan rata-rata (mm) </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">43.8 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">39.2 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">42.1 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">46.8 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">42.5 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">49.3 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">47.5 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">47.4 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">48.2 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">54.8 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">54 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">51.3 </p>
+                    </td>
+                    <td style="width: 6.5%;" valign="middle">
+                    <p style="text-align: center;">566.8 </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border-bottom: #ccc 1px solid; width: 15%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle">
+                    <p>Decile 5 (median) curah hujan (mm) </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">35.2 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">30.2 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">32.1 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">40.9 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">31.2 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">40.7 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">41 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">37.1 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">44.8 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">46.8 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">46.3 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">41.6 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">557.1 </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 15%; border-right: #ccc 1px solid;" valign="middle">
+                    <p>Rata-rata jumlah hari hujan ≥ 1 (mm) </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">3.9 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">3.3 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">3.9 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">4.6 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">4.7 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">5.2 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">5.3 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">5.6 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">5.5 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">6.4 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">5.2 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">4.8 </p>
+                    </td>
+                    <td style="width: 6.5%;" valign="middle">
+                    <p style="text-align: center;">58 </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p style="text-align: right;"><em><span style="font-size: 10px;">Sumber: Bureau of Meteorology, 2013</span></em></p>
+    ]]></txt_Information>
+            
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

@@ -67,8 +67,10 @@
         $el.on('click', scope.options.asp_search_agent_list_item_form_close_btn , function(e){
 
             var $asp_search_agent_list_item_form = $(this).parents().closest(scope.options.asp_search_agent_list_item).find(scope.options.asp_search_agent_list_item_form);
+            var $asp_search_agent_list_item_btn_anchor = $(this).parents().closest(scope.options.asp_search_agent_list_item).find(scope.options.asp_search_agent_list_item_btn_anchor);
 
             $asp_search_agent_list_item_form.removeClass('is-open');
+            $asp_search_agent_list_item_btn_anchor.removeClass('active');
 
             e.preventDefault();
         });

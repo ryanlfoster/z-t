@@ -289,6 +289,7 @@ public final class WhatYouCanSee {
 			tabs.add(thingsToDo);
 		}
 
+		/*
 		if (showEvents) {
 
 			baseBuilder.setContentType(ContentType.EVENT);
@@ -300,6 +301,7 @@ public final class WhatYouCanSee {
 					Constants.EVENTS_IMAGE_PATH, Constants.EVENTS_OUTLINE_IMAGE_PATH);
 			tabs.add(events);
 		}
+		*/
 
 		if (showOptionalTab) {
 			final List<Content> content = new ArrayList<Content>();

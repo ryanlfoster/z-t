@@ -6,19 +6,22 @@ import java.util.List;
 import org.apache.commons.lang.StringUtils;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.Resource;
+import org.apache.sling.api.resource.ResourceResolver;
 import org.apache.sling.api.resource.ResourceUtil;
 import org.apache.sling.api.resource.ValueMap;
 
 import com.australia.www.components.content.mapwithparsys.MapWithParsys;
-
 import com.citytechinc.cq.component.annotations.Component;
 import com.citytechinc.cq.component.annotations.DialogField;
 import com.citytechinc.cq.component.annotations.Tab;
 import com.citytechinc.cq.component.annotations.widgets.DialogFieldSet;
+import com.day.cq.wcm.foundation.Image;
 
-@Component(value = "Image Map With Buttons", tabs = { @Tab(title = "Image"), @Tab(title = "Extra Information"),
-		@Tab(title = "Button 1"), @Tab(title = "Button 2"), @Tab(title = "Button 3"), @Tab(title = "Button 4")}, dialogWidth = 700)
-public class MapWithButtons extends MapWithParsys{
+@Component(value = "Image Map With Buttons", disableTargeting = true, dialogHeight = 500, tabs = {
+		@Tab(title = "Image"), @Tab(title = "Extra Information"),
+		@Tab(title = "Button 1"), @Tab(title = "Button 2"),
+		@Tab(title = "Button 3"), @Tab(title = "Button 4") }, dialogWidth = 700)
+public class MapWithButtons extends MapWithParsys {
 
 	@DialogFieldSet(border = false, namePrefix = "tab1/")
 	@DialogField(tab = 3)
@@ -39,40 +42,36 @@ public class MapWithButtons extends MapWithParsys{
 	public List<ButtonField> buttonsList;
 
 	public MapWithButtons(SlingHttpServletRequest request) {
-		
+
 		super(request);
-		
+
 		Resource thisResource = request.getResource();
-		if (ResourceUtil.isNonExistingResource(thisResource) || ResourceUtil.isSyntheticResource(thisResource)) {
+		ResourceResolver resolver = request.getResourceResolver();
+		if (ResourceUtil.isNonExistingResource(thisResource)
+				|| ResourceUtil.isSyntheticResource(thisResource)) {
 			return;
 		}
 
 		buttonsList = new ArrayList<ButtonField>();
 
 		ValueMap properties = request.getResource().adaptTo(ValueMap.class);
-		tab1 = new ButtonField();
-		tab1.setTitle(properties.get("tab1/title", StringUtils.EMPTY));
-		tab1.setText(properties.get("tab1/text", StringUtils.EMPTY));
-		tab1.setImagePath(properties.get("tab1/imagePath", StringUtils.EMPTY));
-		buttonsList.add(tab1);
 
-		tab2 = new ButtonField();
-		tab2.setTitle(properties.get("tab2/title", StringUtils.EMPTY));
-		tab2.setText(properties.get("tab2/text", StringUtils.EMPTY));
-		tab2.setImagePath(properties.get("tab2/imagePath", StringUtils.EMPTY));
-		buttonsList.add(tab2);
-
-		tab3 = new ButtonField();
-		tab3.setTitle(properties.get("tab3/title", StringUtils.EMPTY));
-		tab3.setText(properties.get("tab3/text", StringUtils.EMPTY));
-		tab3.setImagePath(properties.get("tab3/imagePath", StringUtils.EMPTY));
-		buttonsList.add(tab3);
-
-		tab4 = new ButtonField();
-		tab4.setTitle(properties.get("tab4/title", StringUtils.EMPTY));
-		tab4.setText(properties.get("tab4/text", StringUtils.EMPTY));
-		tab4.setImagePath(properties.get("tab4/imagePath", StringUtils.EMPTY));
-		buttonsList.add(tab4);
+		for (int tabNum = 1; tabNum <= 4; tabNum++) {
+			ButtonField tab = new ButtonField();
+			Resource imageRes = resolver.getResource(thisResource, "tab"
+					+ tabNum + "/");
+			if (imageRes != null) {
+				Image imageObj = new Image(imageRes, "image");
+				if (imageObj != null && imageObj.hasContent()) {
+					tab.setImagePath(imageObj.getFileReference());
+				}
+			}
+			tab.setTitle(properties.get("tab" + tabNum + "/title",
+					StringUtils.EMPTY));
+			tab.setText(properties.get("tab" + tabNum + "/text",
+					StringUtils.EMPTY));
+			buttonsList.add(tab);
+		}
 
 	}
 

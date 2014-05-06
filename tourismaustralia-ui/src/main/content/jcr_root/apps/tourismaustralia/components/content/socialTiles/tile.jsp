@@ -1,3 +1,4 @@
+<%@include file="/apps/tourismaustralia/components/global.jsp"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <div class="mosaic-item">
 	<c:choose>
@@ -46,9 +47,8 @@
 
 						<!-- social icon start -->
 						<span class="mosaic-socialtiles-icon"><img
-							src=<c:url value="${title.iconPath}"/> alt="" /></span>
+							src=<c:url value="${tile.iconPath}"/> alt="" /></span>
 						<!-- social icon end -->
-
 					</div>
 
 				</div>
@@ -70,7 +70,7 @@
 			<div class="socialtiles-static-front">
 				<div class="mosaic-media mosaic-primary">
 					<img
-						src="/etc/designs/tourismaustralia/clientlibs/img/base/spacer.gif"
+						src="/etc/designs/tourismaustralia/clientlibs/imgs/base/spacer.gif"
 						alt="" />
 				</div>
 				<div class="mosaic-overlay">

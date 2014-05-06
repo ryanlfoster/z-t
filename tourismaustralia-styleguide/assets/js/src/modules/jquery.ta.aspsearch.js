@@ -54,8 +54,10 @@
 
             if ($asp_search_agent_list_item_form.hasClass('is-open')) {
                 $asp_search_agent_list_item_form.removeClass('is-open');
+                $(this).removeClass('active');
             } else {
                 $asp_search_agent_list_item_form.addClass('is-open');
+                $(this).addClass('active');
             }
 
             e.preventDefault();

@@ -1210,6 +1210,28 @@
                     ,
                 
             
+                "itineraryday" : {
+                     "data" : {
+                        "title" : "itineraryday",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'itineraryday'}}"
+                }
+                
+                    ,
+                
+            
+                "itinerarydaysample" : {
+                     "data" : {
+                        "title" : "itinerarydaysample",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'itinerarydaysample'}}"
+                }
+                
+                    ,
+                
+            
                 "largeimagetext" : {
                      "data" : {
                         "title" : "largeimagetext",

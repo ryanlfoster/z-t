@@ -158,6 +158,7 @@ public class ExperienceCreationJob implements Runnable {
 		mapProperties.put("suburb", formProperties.get("location", String.class));
 		mapProperties.put("state", formProperties.get("selectTerritory", String.class));
 		mapProperties.put("website", formProperties.get("businessWebsite", String.class));
+		mapProperties.put("checkbox", formProperties.get("checkBoxData",String.class));
 		resourceResolver.create(contentResource, "map", mapProperties);
 		resourceResolver.commit();
 

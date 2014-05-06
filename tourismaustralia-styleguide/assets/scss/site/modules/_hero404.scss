@@ -1,5 +1,4 @@
 .hero-404 {
-  margin-bottom: pxtoem(43px);
   position: relative;
   width:  auto;
   height: 750px;
@@ -10,7 +9,11 @@
   //@include transition (height, 1s, cubic-bezier(0.455, 0.030, 0.515, 0.955), .1s);
 
   @include breakpoint(sm) {
-    height: 678px;
+    height: 598px;
+  }
+
+  @include breakpoint(lg) {
+    margin-bottom: pxtoem(43px);
   }
 }
 .hero-404.make-white {
@@ -60,7 +63,8 @@
   padding-right:15px ;
   text-align: center;
   @include breakpoint(sm) {
-    padding-bottom: 70px;
+    padding-top: 14px;
+    padding-bottom: 0;
   }
 }
 .hero-404-title{
@@ -93,7 +97,13 @@
 }
 .hero-404-text-table-cell .image-btn
 {
-  color: #FFF;
+  color: #00535e;
+  background: #fff;
   border: 1px solid #e6e8e2;
   margin: 0 10px 20px 10px;
+  &:hover {
+    color: #fff;
+    background: #00535e;
+    border-color: #00535e;
+  }
 }

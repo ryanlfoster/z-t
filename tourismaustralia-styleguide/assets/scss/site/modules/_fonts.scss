@@ -6,8 +6,10 @@
 
 @include font-face("ProximaNova Regular Italic", font-files("ProximaNova-RegularIt.svg", "ProximaNova-RegularIt.woff", "ProximaNova-RegularIt.otf"), "ProximaNova-RegularIt.eot");
 
+@include font-face("ProximaNova Regular", font-files("ProximaNova-Regular.svg", "ProximaNova-Regular.woff", "ProximaNova-Regular.otf"), "ProximaNova-Regular.eot");
+
 //in Win 8.1 select text with svg font 'ProximaNova Regular' is not rendered properly for select element
-@include font-face("ProximaNova Regular", font-files("ProximaNova-Regular.svg#ProximaNova Regular", "ProximaNova-Regular.woff", "ProximaNova-Regular.otf"), "ProximaNova-Regular.eot");
+@include font-face("ProximaNova Regular Select", font-files("ProximaNova-Regular.svg#ProximaNova Regular", "ProximaNova-Regular.woff", "ProximaNova-Regular.otf"), "ProximaNova-Regular.eot");
 
 @include font-face("ProximaNova Bold", font-files("ProximaNova-Bold.svg", "ProximaNova-Bold.woff", "ProximaNova-Bold.otf"), "ProximaNova-SemiboldIt.eot");
 

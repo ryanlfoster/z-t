@@ -6,6 +6,8 @@ import com.australia.content.domain.ContentSearchResult;
 import com.australia.content.domain.ContentType;
 import com.australia.content.service.ContentSearchException;
 import com.australia.content.service.ContentSearchService;
+import com.australia.mosaic.FourToOneGridMosaic;
+import com.australia.utils.MosaicUtils;
 import com.australia.utils.PathUtils;
 import com.australia.utils.TagUtils;
 import com.citytechinc.cq.component.annotations.Component;
@@ -287,6 +289,7 @@ public final class WhatYouCanSee {
 			tabs.add(thingsToDo);
 		}
 
+		/*
 		if (showEvents) {
 
 			baseBuilder.setContentType(ContentType.EVENT);
@@ -298,6 +301,7 @@ public final class WhatYouCanSee {
 					Constants.EVENTS_IMAGE_PATH, Constants.EVENTS_OUTLINE_IMAGE_PATH);
 			tabs.add(events);
 		}
+		*/
 
 		if (showOptionalTab) {
 			final List<Content> content = new ArrayList<Content>();
@@ -347,7 +351,7 @@ public final class WhatYouCanSee {
 		private final String viewMoreText;
 		private final String selectedImagePath;
 		private final String unselectedImagePath;
-		private final List<ContentRow> contentRows = new ArrayList<ContentRow>();
+		private final List<FourToOneGridMosaic<Content>> contentRows = new ArrayList<FourToOneGridMosaic<Content>>();
 
 		public Tab(final String displayName, final String id, final String viewMoreText, final List<Content> content,
 			String selectedImagePath, String unselectedImagePath) {
@@ -356,9 +360,7 @@ public final class WhatYouCanSee {
 			this.viewMoreText = viewMoreText;
 			this.selectedImagePath = selectedImagePath;
 			this.unselectedImagePath = unselectedImagePath;
-			while (!content.isEmpty()) {
-				contentRows.add(ContentRow.removeFromContent(content));
-			}
+			contentRows.addAll(MosaicUtils.convertToMosaic(content));
 		}
 
 		public final String getDisplayName() {
@@ -369,7 +371,7 @@ public final class WhatYouCanSee {
 			return id;
 		}
 
-		public final List<ContentRow> getContentRows() {
+		public final List<FourToOneGridMosaic<Content>> getContentRows() {
 			return contentRows;
 		}
 
@@ -384,48 +386,6 @@ public final class WhatYouCanSee {
 		public String getUnselectedImagePath() {
 			return unselectedImagePath;
 		}
-	}
-
-	public static class ContentRow {
-
-		private static final int REMAINDER_MAX = ROW_SIZE - 1;
-
-		private final Content hero;
-		private final List<Content> remainder;
-
-		public ContentRow(final Content hero, final List<Content> remainder) {
-			this.hero = hero;
-			this.remainder = remainder;
-		}
-
-		public final Content getSingle() {
-			return hero;
-		}
-
-		public final List<Content> getRemainder() {
-			return remainder;
-		}
-
-		/**
-		 * Creates a content row with a non-null hero and up to 4 remainder contents by pulling from
-		 * the provided content list.  Used content objects will be removed.  If the provided list is
-		 * empty, an exception will be thrown.
-		 *
-		 * @param content
-		 * @return
-		 */
-		public static ContentRow removeFromContent(final List<Content> content) {
-			if (content.isEmpty()) {
-				throw new IllegalStateException();
-			}
-			final Content hero = content.remove(0);
-			final int remainderSize = content.size() > REMAINDER_MAX ? REMAINDER_MAX : content.size();
-			final List<Content> remainder = content.subList(0, remainderSize);
-			final List<Content> remainderCopy = new ArrayList<Content>(remainder);
-			remainder.clear();
-			return new ContentRow(hero, remainderCopy);
-		}
-
 	}
 
 }

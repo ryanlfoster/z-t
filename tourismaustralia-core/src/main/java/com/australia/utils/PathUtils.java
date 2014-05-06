@@ -3,10 +3,17 @@ package com.australia.utils;
 import org.apache.commons.lang.StringUtils;
 import org.apache.sling.api.resource.Resource;
 
+import java.io.UnsupportedEncodingException;
+import java.net.URLEncoder;
+
 public final class PathUtils {
 
 	private PathUtils() {
 	}
+
+	private static final String UTF8 = "UTF-8";
+
+	private static final String HTML_EXT = ".html";
 
 	public static final String OZCOM_ROOT_PATH = "/content/australia";
 	public static final String FOOD_AND_WINE_ROOT_PATH = "/content/food-and-wine";
@@ -32,6 +39,8 @@ public final class PathUtils {
 	public static final String CITY_PARAM = "city";
 	public static final String TERM_PARAM = "term";
 
+	public static final String ATDW_SEARCH_LOCALE_REL_PATH = "/atdwsearch";
+	public static final String ATDW_SEARCH_TERM_NAME = "term";
 
 	public static final String FOOD_AND_WINE_EXPLORE = FOOD_AND_WINE_ROOT_PATH + "/explore/";
 	public static final String FOOD_AND_WINE_EXPLORE_AUSTRALIAN_CAPITAL_TERRITORY = FOOD_AND_WINE_EXPLORE
@@ -73,18 +82,34 @@ public final class PathUtils {
 		StringBuilder sb = new StringBuilder();
 		sb.append(locale.getPath());
 		sb.append(PRODUCTS_PAGE_LOCALE_REL_PATH).append("?");
-		if (category != null) {
-			sb.append(CATEGORY_PARAM).append("=").append(category);
-		}
-		if (state != null) {
-			sb.append("&").append(STATE_PARAM).append("=").append(state);
-		}
-		if (city != null) {
-			sb.append("&").append(CITY_PARAM).append("=").append(city);
-		}
-		if (term != null) {
-			sb.append("&").append(TERM_PARAM).append("=").append(term);
+		try {
+			if (category != null) {
+				sb.append(CATEGORY_PARAM).append("=").append(URLEncoder.encode(category, UTF8));
+			}
+			if (state != null) {
+				sb.append("&").append(STATE_PARAM).append("=").append(URLEncoder.encode(state, UTF8));
+			}
+			if (city != null) {
+				sb.append("&").append(CITY_PARAM).append("=").append(URLEncoder.encode(city, UTF8));
+			}
+			if (term != null) {
+				sb.append("&").append(TERM_PARAM).append("=").append(URLEncoder.encode(term, UTF8));
+			}
+		} catch (UnsupportedEncodingException e) {
+			throw new IllegalStateException(e);
 		}
 		return sb.toString();
+	}
+
+	public static String getAtdwSearchPage(Resource locale, String searchTerm){
+		String path = locale.getPath() + ATDW_SEARCH_LOCALE_REL_PATH + HTML_EXT;
+		if(searchTerm != null) {
+			try {
+				path += "?" + ATDW_SEARCH_TERM_NAME + "=" + URLEncoder.encode(searchTerm, UTF8);
+			} catch (UnsupportedEncodingException e) {
+				throw new IllegalStateException(e);
+			}
+		}
+		return path;
 	}
 }

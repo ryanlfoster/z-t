@@ -1,18 +1,29 @@
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%--
+
+  File fourToOneGrid_grid_4.jsp must be called with the following context dependencies:
+
+  - remainder: the List of up to 4 Content objects to render as a grid
+
+--%>
+
 <%@include file="/apps/tourismaustralia/components/global.jsp" %>
-<%@ page import="java.util.List" %>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <!-- grid of 4 items start -->
 <div class="col-xs-12 col-md-6 mosaic-grid-4 l-row-collapse">
 
     <div class="row mosaic-grid-2">
         <div class="row mosaic-grid-2-tile">
             <div class="col-xs-12 col-sm-6">
-                <c:set value="${remainder[0]}" var="contentItem" scope="request" />
-                <cq:include script="whatYouCanSee_tile.jsp" />
+                <c:if test="${fn:length(remainder) gt 0}">
+                    <c:set value="${remainder[0]}" var="contentItem" scope="request" />
+                    <cq:include script="/apps/tourismaustralia/components/content/fourToOneGrid/fourToOneGrid_tile.jsp" />
+                </c:if>
             </div>
             <div class="col-xs-12 col-sm-6">
-                <c:set value="${remainder[1]}" var="contentItem" scope="request" />
-                <cq:include script="whatYouCanSee_tile.jsp" />
+                <c:if test="${fn:length(remainder) gt 1}">
+                    <c:set value="${remainder[1]}" var="contentItem" scope="request" />
+                    <cq:include script="/apps/tourismaustralia/components/content/fourToOneGrid/fourToOneGrid_tile.jsp" />
+                </c:if>
             </div>
         </div>
         <div class="row mosaic-grid-2-content">
@@ -55,12 +66,16 @@
     <div class="row mosaic-grid-2">
         <div class="row mosaic-grid-2-tile">
             <div class="col-xs-12 col-sm-6">
-                <c:set value="${remainder[2]}" var="contentItem" scope="request" />
-                <cq:include script="whatYouCanSee_tile.jsp" />
+                <c:if test="${fn:length(remainder) gt 2}">
+                    <c:set value="${remainder[2]}" var="contentItem" scope="request" />
+                    <cq:include script="/apps/tourismaustralia/components/content/fourToOneGrid/fourToOneGrid_tile.jsp" />
+                </c:if>
             </div>
             <div class="col-xs-12 col-sm-6">
-                <c:set value="${remainder[3]}" var="contentItem" scope="request" />
-                <cq:include script="whatYouCanSee_tile.jsp" />
+                <c:if test="${fn:length(remainder) gt 3}">
+                    <c:set value="${remainder[3]}" var="contentItem" scope="request" />
+                    <cq:include script="/apps/tourismaustralia/components/content/fourToOneGrid/fourToOneGrid_tile.jsp" />
+                </c:if>
             </div>
         </div>
         <div class="row mosaic-grid-2-content">

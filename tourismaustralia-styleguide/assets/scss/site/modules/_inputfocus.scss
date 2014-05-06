@@ -75,23 +75,23 @@ display:none;
 }
 
 .inputFocus-wrapper *::-webkit-input-placeholder {
-  color: #333333;
-  font-family: $font-family-base-i;
+  color: $type-base-black;
+  font-family: $font-family-base;
 }
 
 .inputFocus-wrapper *:-moz-placeholder { /* Firefox 18- */
-  color: #333333;
-  font-family: $font-family-base-i;
+  color: $type-base-black;
+  font-family: $font-family-base;
 }
 
 .inputFocus-wrapper *::-moz-placeholder {  /* Firefox 19+ */
-  color: #333333;
-  font-family: $font-family-base-i;
+  color: $type-base-black;
+  font-family: $font-family-base;
 }
 
 .inputFocus-wrapper *:-ms-input-placeholder {
-  color: #333333;
-  font-family: $font-family-base-i;
+  color: $type-base-black;
+  font-family: $font-family-base;
 }
 
 //IE10 and above versions show additional cross button inside the textbox, to get rid of that

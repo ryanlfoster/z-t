@@ -319,6 +319,7 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
 
     ul {
         //min-width: 320px;
+        z-index: 99;
     }
 
     li {
@@ -441,7 +442,8 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
 
         .main-nav-panel {
             height: 100%;
-            background-color: $nav-mobile-top-links-bg;
+            padding-top: 57px;
+            margin-top: -57px;
         }
 
         .nav-bar-left,
@@ -711,9 +713,15 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
 // * ---------------------------------------------------------------------------------------------------------------- */
 .navigation-bar {
 
-    .has-children > .nav-bar-panel {
+    /*
+    .main-nav-panel,
+    .main-nav-wrap,
+    .mobile-open-bar {
+        z-index: 999;
+    }
+    */
 
-        @extend .gpu-render;
+    .has-children > .nav-bar-panel {
 
         // Mobile Only...
         @media (max-width: $screen-xs-max) {
@@ -1013,14 +1021,20 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
 
         .navigation-bar {
             height: 100%;
-            padding-right: pxtoem(48px);
-            background-color: rgba(0, 0, 0, 0.5);
             @include nav-main-nav-bar-open();
         }
 
         .main-nav-panel {
-            overflow-y: auto;
-            max-width: 510px;
+            //overflow-y: auto;
+            //max-width: 510px;
+            background-color: rgba(0, 0, 0, 0.5);
+            overflow-y: auto; // force this so we can't scroll the body when the menu is open
+            padding-right: pxtoem(48px);
+        }
+
+        .main-nav-wrap {
+            height: 100%;
+            background-color: $nav-mobile-top-links-bg;
         }
 
         .mobile-open-bar,
@@ -1215,6 +1229,10 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
             background: transparent url("../imgs/logo/logo-business-australia.png") no-repeat 0 50%;
         }
     }
+}
+
+.megamenu.is-open .header-masthead {
+    visibility:hidden;
 }
 
 ///*

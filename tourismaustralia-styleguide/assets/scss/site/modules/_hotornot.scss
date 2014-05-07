@@ -163,16 +163,17 @@
 
 .hotornot-item-category {
   text-align: center;
-  padding: 0 1em 2.5em;
+  padding: 0 1em;
   position: absolute;
-  bottom: 0;
+  bottom: 70px;
   width: 100%;
-  height: pxtoem(200px);
+  height: pxtoem(100px);
   display: table;
   @include breakpoint(sm) {
-    padding-bottom: 1.7em;
+    //padding-bottom: 1.7em;
   }
   @include breakpoint(md) {
+    bottom: 0;
     padding-bottom: 0em;
     height: pxtoem(100px);
   }

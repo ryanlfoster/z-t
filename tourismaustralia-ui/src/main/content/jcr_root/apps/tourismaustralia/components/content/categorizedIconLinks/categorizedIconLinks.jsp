@@ -29,7 +29,7 @@
                     </c:if>
                     <div class="categorylink-links">
                         <c:if test="${not empty categorizedIconLinks.titleText1.iconLink1 && ( not empty categorizedIconLinks.titleText1.iconImage1 || not empty categorizedIconLinks.titleText1.linkText1 )}">
-                            <a herf="${categorizedIconLinks.titleText1.iconLink1}" ${categorizedIconLinks.titleText1.iconLink1IsExternal == true ? 'target="_blank"': ''}>
+                            <a href="${categorizedIconLinks.titleText1.iconLink1}" ${categorizedIconLinks.titleText1.iconLink1IsExternal == true ? 'target="_blank"': ''}>
                                 <c:if test="${not empty categorizedIconLinks.titleText1.iconImage1}">
                                     <img src="${categorizedIconLinks.titleText1.iconImage1}"
                                          alt="${categorizedIconLinks.titleText1.iconAltText1}">
@@ -41,7 +41,7 @@
                             <br>
                         </c:if>
                         <c:if test="${not empty categorizedIconLinks.titleText1.iconLink2 && ( not empty categorizedIconLinks.titleText1.iconImage2 || not empty categorizedIconLinks.titleText1.linkText2)}">
-                            <a herf="${categorizedIconLinks.titleText1.iconLink2}" ${categorizedIconLinks.titleText1.iconLink2IsExternal == true ? 'target="_blank"': ''}>
+                            <a href="${categorizedIconLinks.titleText1.iconLink2}" ${categorizedIconLinks.titleText1.iconLink2IsExternal == true ? 'target="_blank"': ''}>
                                 <c:if test="${not empty categorizedIconLinks.titleText1.iconImage2}">
                                     <img src="${categorizedIconLinks.titleText1.iconImage2}"
                                          alt="${categorizedIconLinks.titleText1.iconAltText2}">
@@ -52,7 +52,7 @@
                             </a>
                         </c:if>
                         <c:if test="${not empty categorizedIconLinks.titleText1.iconLink3 && ( not empty categorizedIconLinks.titleText1.iconImage3 || not empty categorizedIconLinks.titleText1.linkText3)}">
-                            <a herf="${categorizedIconLinks.titleText1.iconLink3}" ${categorizedIconLinks.titleText1.iconLink3IsExternal == true ? 'target="_blank"': ''}>
+                            <a href="${categorizedIconLinks.titleText1.iconLink3}" ${categorizedIconLinks.titleText1.iconLink3IsExternal == true ? 'target="_blank"': ''}>
                                 <c:if test="${not empty categorizedIconLinks.titleText1.iconImage3}">
                                     <img src="${categorizedIconLinks.titleText1.iconImage3}"
                                          alt="${categorizedIconLinks.titleText1.iconAltText3}">
@@ -80,7 +80,7 @@
                     </c:if>
                     <div class="categorylink-links">
                         <c:if test="${not empty categorizedIconLinks.titleText2.iconLink1 && ( not empty categorizedIconLinks.titleText2.iconImage1 || not empty categorizedIconLinks.titleText2.linkText1 )}">
-                            <a herf="${categorizedIconLinks.titleText2.iconLink1}" ${categorizedIconLinks.titleText2.iconLink1IsExternal == true ? 'target="_blank"': ''}>
+                            <a href="${categorizedIconLinks.titleText2.iconLink1}" ${categorizedIconLinks.titleText2.iconLink1IsExternal == true ? 'target="_blank"': ''}>
                                 <c:if test="${not empty categorizedIconLinks.titleText2.iconImage1}">
                                     <img src="${categorizedIconLinks.titleText2.iconImage1}"
                                          alt="${categorizedIconLinks.titleText2.iconAltText1}">
@@ -92,7 +92,7 @@
                             <br>
                         </c:if>
                         <c:if test="${not empty categorizedIconLinks.titleText2.iconLink2 && ( not empty categorizedIconLinks.titleText2.iconImage2 || not empty categorizedIconLinks.titleText2.linkText2)}">
-                            <a herf="${categorizedIconLinks.titleText2.iconLink2}" ${categorizedIconLinks.titleText2.iconLink2IsExternal == true ? 'target="_blank"': ''}>
+                            <a href="${categorizedIconLinks.titleText2.iconLink2}" ${categorizedIconLinks.titleText2.iconLink2IsExternal == true ? 'target="_blank"': ''}>
                                 <c:if test="${not empty categorizedIconLinks.titleText2.iconImage2}">
                                     <img src="${categorizedIconLinks.titleText2.iconImage2}"
                                          alt="${categorizedIconLinks.titleText2.iconAltText2}">
@@ -103,7 +103,7 @@
                             </a>
                         </c:if>
                         <c:if test="${not empty categorizedIconLinks.titleText2.iconLink3 && ( not empty categorizedIconLinks.titleText2.iconImage3 || not empty categorizedIconLinks.titleText2.linkText3)}">
-                            <a herf="${categorizedIconLinks.titleText2.iconLink3}" ${categorizedIconLinks.titleText2.iconLink3IsExternal == true ? 'target="_blank"': ''}>
+                            <a href="${categorizedIconLinks.titleText2.iconLink3}" ${categorizedIconLinks.titleText2.iconLink3IsExternal == true ? 'target="_blank"': ''}>
                                 <c:if test="${not empty categorizedIconLinks.titleText2.iconImage3}">
                                     <img src="${categorizedIconLinks.titleText2.iconImage3}"
                                          alt="${categorizedIconLinks.titleText2.iconAltText3}">
@@ -131,7 +131,7 @@
                     </c:if>
                     <div class="categorylink-links">
                         <c:if test="${not empty categorizedIconLinks.titleText3.iconLink1 && ( not empty categorizedIconLinks.titleText3.iconImage1 || not empty categorizedIconLinks.titleText3.linkText1 )}">
-                            <a herf="${categorizedIconLinks.titleText3.iconLink1}" ${categorizedIconLinks.titleText3.iconLink1IsExternal == true ? 'target="_blank"': ''}>
+                            <a href="${categorizedIconLinks.titleText3.iconLink1}" ${categorizedIconLinks.titleText3.iconLink1IsExternal == true ? 'target="_blank"': ''}>
                                 <c:if test="${not empty categorizedIconLinks.titleText3.iconImage1}">
                                     <img src="${categorizedIconLinks.titleText3.iconImage1}"
                                          alt="${categorizedIconLinks.titleText3.iconAltText1}">
@@ -143,7 +143,7 @@
                             <br>
                         </c:if>
                         <c:if test="${not empty categorizedIconLinks.titleText3.iconLink2 && ( not empty categorizedIconLinks.titleText3.iconImage2 || not empty categorizedIconLinks.titleText3.linkText2)}">
-                            <a herf="${categorizedIconLinks.titleText3.iconLink2}" ${categorizedIconLinks.titleText3.iconLink2IsExternal == true ? 'target="_blank"': ''}>
+                            <a href="${categorizedIconLinks.titleText3.iconLink2}" ${categorizedIconLinks.titleText3.iconLink2IsExternal == true ? 'target="_blank"': ''}>
                                 <c:if test="${not empty categorizedIconLinks.titleText2.iconImage2}">
                                     <img src="${categorizedIconLinks.titleText3.iconImage2}"
                                          alt="${categorizedIconLinks.titleText3.iconAltText2}">
@@ -154,7 +154,7 @@
                             </a>
                         </c:if>
                         <c:if test="${not empty categorizedIconLinks.titleText3.iconLink3 && ( not empty categorizedIconLinks.titleText3.iconImage3 || not empty categorizedIconLinks.titleText3.linkText3)}">
-                            <a herf="${categorizedIconLinks.titleText3.iconLink3}" ${categorizedIconLinks.titleText3.iconLink3IsExternal == true ? 'target="_blank"': ''}>
+                            <a href="${categorizedIconLinks.titleText3.iconLink3}" ${categorizedIconLinks.titleText3.iconLink3IsExternal == true ? 'target="_blank"': ''}>
                                 <c:if test="${not empty categorizedIconLinks.titleText3.iconImage3}">
                                     <img src="${categorizedIconLinks.titleText3.iconImage3}"
                                          alt="${categorizedIconLinks.titleText3.iconAltText3}">

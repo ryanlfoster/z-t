@@ -11,8 +11,8 @@ import com.citytechinc.cq.component.annotations.Listener;
 import com.citytechinc.cq.component.annotations.Tab;
 import com.citytechinc.cq.component.annotations.widgets.DialogFieldSet;
 
-@Component(value = "Categorized Icon Links", disableTargeting = true, tabs = { @Tab(title = "General"),
-	@Tab(title = "Category 1"), @Tab(title = "Category 2"), @Tab(title = "Category 3") }, listeners = {
+@Component(value = "Categorized Icon Links", disableTargeting = true, dialogWidth = 600, dialogHeight = 700, tabs = {
+	@Tab(title = "General"), @Tab(title = "Category 1"), @Tab(title = "Category 2"), @Tab(title = "Category 3") }, listeners = {
 	@Listener(name = "aftercopy", value = "REFRESH_PAGE"), @Listener(name = "afterdelete", value = "REFRESH_PAGE"),
 	@Listener(name = "afteredit", value = "REFRESH_PAGE"), @Listener(name = "afterinsert", value = "REFRESH_PAGE") })
 public class CategorizedIconLinks {

@@ -21,6 +21,7 @@ public class QueryUtils {
 	public static final String OFFSET = "p.offset";
 	public static final String LIMIT = "p.limit";
 	public static final String PROPERTY = "property";
+	public static final String TAGID = "tagid";
 	public static final String VALUE = "value";
 	public static final String WILDCARD = "*";
 	public static final String RELPATH = ".relPath";
@@ -38,12 +39,11 @@ public class QueryUtils {
 	}
 
 	public static final void addQueryForTags(Map<String, String> queryMap, List<Tag> tags, int propertyNumber) {
-		String propertyPrefix = propertyNumber + SEPERATOR + PROPERTY;
-		queryMap.put(propertyPrefix, TAG_LOCATION);
-		queryMap.put(propertyPrefix + AND, Boolean.TRUE.toString());
+		String tagPrefix = propertyNumber + SEPERATOR + TAGID;
+		queryMap.put(tagPrefix + ".property", TAG_LOCATION);
 		int valueCount = 1;
 		for (Tag tag : tags) {
-			queryMap.put(propertyPrefix + SEPERATOR + valueCount + SEPERATOR + VALUE, tag.getTagID());
+			queryMap.put(tagPrefix + "." + valueCount + SEPERATOR + VALUE, tag.getTagID());
 			valueCount++;
 		}
 	}

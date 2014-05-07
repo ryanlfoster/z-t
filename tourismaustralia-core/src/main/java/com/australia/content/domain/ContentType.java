@@ -4,7 +4,6 @@ import java.util.*;
 
 public enum ContentType {
 
-	EVENT("/apps/tourismaustralia/templates/article"),
 	ARTICLE("/apps/tourismaustralia/templates/article"),
 	PRODUCT("/apps/tourismaustralia/templates/atdw");
 
@@ -31,9 +30,7 @@ public enum ContentType {
 
 	public static List<String> allTemplates() {
 		final List<String> out = new ArrayList<String>();
-		for (ContentType type: ContentType.values()) {
-			out.add(type.getTemplate());
-		}
+		out.add(ARTICLE.getTemplate());
 		return out;
 	}
 }

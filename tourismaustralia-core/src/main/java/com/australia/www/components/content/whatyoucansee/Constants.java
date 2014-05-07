@@ -2,14 +2,12 @@ package com.australia.www.components.content.whatyoucansee;
 
 final class Constants {
 
-	public static final String NAME_TAG = "tag";
+	public static final String NAME_TAGID = "tagId";
 	public static final String NAME_TITLE = "title";
 	public static final String NAME_TEXT = "text";
 	public static final String NAME_TAB_3_TITLE = "optionalTabTitle";
 	public static final String NAME_SHOW_THINGS_TO_DO = "showThingsToDo";
 	public static final String NAME_THINGS_TO_DO_TAB_SIZE = "thingsToDoTabSize";
-	public static final String NAME_SHOW_EVENTS = "showEvents";
-	public static final String NAME_EVENTS_TAB_SIZE = "eventsTabSize";
 	public static final String NAME_SHOW_OPTIONAL_TAB = "showOptionalTab";
 	public static final String NAME_OPTIONAL_TAB_SIZE = "optionalTabSize";
 	public static final String NAME_OPTIONAL_TAB_PATH_0 = "optionalTabPath0";
@@ -28,8 +26,6 @@ final class Constants {
 	public static final String BASE_IMAGE_PATH = "/etc/designs/tourismaustralia/clientlibs/imgs/";
 	public static final String TTD_IMAGE_PATH = BASE_IMAGE_PATH + "icons/menu.png";
 	public static final String TTD_OUTLINE_IMAGE_PATH = BASE_IMAGE_PATH + "icons/menu_outline.png";
-	public static final String EVENTS_IMAGE_PATH = BASE_IMAGE_PATH + "icons/events.png";
-	public static final String EVENTS_OUTLINE_IMAGE_PATH = BASE_IMAGE_PATH + "icons/events_outline.png";
 	public static final String OPTIONAL_IMAGE_PATH = BASE_IMAGE_PATH + "icons/star.png";
 	public static final String OPTIONAL_OUTLINE_IMAGE_PATH = BASE_IMAGE_PATH + "icons/star_outline.png";
 
@@ -40,28 +36,27 @@ final class Constants {
 	public static final String TTD_TAB_TITLE = "Things To Do";
 	public static final String TTD_TAB_VIEW_MORE = "View All Highlights";
 
-	public static final String EVENTS_TAB_TITLE = "What's Coming Up";
-	public static final String EVENTS_TAB_VIEW_MORE = "View All Events";
-
 	public static final String BLANK = "&nbsp;";
 
-	public static final String SIZE_CHANGE_LISTENER = "function(field){\n"
-		+ "var value = field.getValue();\n"
-		+ "var showCheckbox = field.previousSibling();\n"
-		+ "var disable = (value === '5');\n"
-		+ "var overrideDisable = (showCheckbox.getValue().length != 0);\n"
-		+ "var sibling = field.nextSibling();\n"
-		+ "  while(sibling) {\n"
-		+ "    var siblingName = sibling.getName();\n"
-		+ "    var lastChar = siblingName.substr(siblingName.length - 1);\n"
-		+ "    var index = parseInt(lastChar);\n"
-		+ "    if(index >= 5) {\n"
-		+ "      sibling.setDisabled(disable);\n"
-		+ "      sibling.setVisible(!disable);\n"
-		+ "    }\n"
-		+ "    sibling = sibling.nextSibling();\n"
-		+ "  }\n"
-		+ "}\n";
+	public static final String SIZE_CHANGE_LISTENER = "function(field){"
+		+ "var value = field.getValue();"
+		+ "var showCheckbox = field.previousSibling().previousSibling();"
+		+ "var disable = (value !== '10');"
+		+ "var overrideDisable = (showCheckbox.getValue().length == 0);"
+		+ "var sibling = field.nextSibling();"
+		+ "  while(sibling) {"
+		+ "    var siblingName = sibling.getName();"
+		+ "    var lastChar = siblingName.substr(siblingName.length - 1);"
+		+ "    var index = parseInt(lastChar);"
+		+ "    if(index >= 5) {"
+		+ "      sibling.setDisabled(disable || overrideDisable);"
+		+ "      sibling.setVisible(!disable);"
+		+ "    } else {"
+		+ "      sibling.setDisabled(overrideDisable);"
+		+ "    }"
+		+ "    sibling = sibling.nextSibling();"
+		+ "  }"
+		+ "}";
 
 	public static final String PATH_SELECT_LISTENER = "function(combo, record, index){"
 		+ "  var value = record.data['path'];"
@@ -75,11 +70,6 @@ final class Constants {
 		+ "  while(sibling) {"
 		+ "    if(sibling.isVisible()) {"
 		+ "      sibling.setDisabled(disable);"
-		+ "      if(disable) {"
-		+ "        sibling.clearInvalid();"
-		+ "      } else {"
-		+ "        sibling.validate();"
-		+ "      }"
 		+ "    }"
 		+ "    sibling = sibling.nextSibling();"
 		+ "  }"

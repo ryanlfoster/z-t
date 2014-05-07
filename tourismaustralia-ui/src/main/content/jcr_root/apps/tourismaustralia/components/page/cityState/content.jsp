@@ -39,5 +39,7 @@
 	</div>
 	<div class="paragraph-city">
 		<cq:include path="mainParsys" resourceType="foundation/components/parsys"/>
+		<cq:include path="atdwHighlights" resourceType="tourismaustralia/components/content/atdwHighlights"/>
+ 		<cq:include path="categorizedIconLinks" resourceType="tourismaustralia/components/content/categorizedIconLinks"/>
 	</div>
 </div>

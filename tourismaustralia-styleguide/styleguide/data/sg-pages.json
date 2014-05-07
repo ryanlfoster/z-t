@@ -1221,6 +1221,17 @@
                     ,
                 
             
+                "itineraryday_secondary" : {
+                     "data" : {
+                        "title" : "itineraryday_secondary",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'itineraryday_secondary'}}"
+                }
+                
+                    ,
+                
+            
                 "itinerarydaysample" : {
                      "data" : {
                         "title" : "itinerarydaysample",
@@ -1419,6 +1430,17 @@
                     ,
                 
             
+                "slimheader" : {
+                     "data" : {
+                        "title" : "slimheader",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'slimheader'}}"
+                }
+                
+                    ,
+                
+            
                 "smallimagetext" : {
                      "data" : {
                         "title" : "smallimagetext",
@@ -1546,127 +1568,6 @@
                         "layout" : "styleguide-preview.hbs"
                     },
                     "content" : "{{section 'whatyoucansee_state'}}"
-                }
-                
-                    ,
-                
-            
-                "itineraryday" : {
-                     "data" : {
-                        "title" : "itineraryday",
-                        "layout" : "styleguide-preview.hbs"
-                    },
-                    "content" : "{{section 'itineraryday'}}"
-                }
-                
-                    ,
-                
-            
-                "itinerarydaysample" : {
-                     "data" : {
-                        "title" : "itinerarydaysample",
-                        "layout" : "styleguide-preview.hbs"
-                    },
-                    "content" : "{{section 'itinerarydaysample'}}"
-                }
-                
-                    ,
-                
-            
-                "itineraryday_secondary" : {
-                     "data" : {
-                        "title" : "itineraryday_secondary",
-                        "layout" : "styleguide-preview.hbs"
-                    },
-                    "content" : "{{section 'itineraryday_secondary'}}"
-                }
-                
-                    ,
-                
-            
-                "double_mosaic" : {
-                     "data" : {
-                        "title" : "double_mosaic",
-                        "layout" : "styleguide-preview.hbs"
-                    },
-                    "content" : "{{section 'double_mosaic'}}"
-                }
-                
-                    ,
-                
-            
-                "asp_search_form_result" : {
-                     "data" : {
-                        "title" : "asp_search_form_result",
-                        "layout" : "styleguide-preview.hbs"
-                    },
-                    "content" : "{{section 'asp_search_form_result'}}"
-                }
-                
-                    ,
-                
-            
-                "asp_search_form" : {
-                     "data" : {
-                        "title" : "asp_search_form",
-                        "layout" : "styleguide-preview.hbs"
-                    },
-                    "content" : "{{section 'asp_search_form'}}"
-                }
-                
-                    ,
-                
-            
-                "header" : {
-                     "data" : {
-                        "title" : "header",
-                        "layout" : "styleguide-preview.hbs"
-                    },
-                    "content" : "{{section 'header'}}"
-                }
-                
-                    ,
-                
-            
-                "sitemap_content" : {
-                     "data" : {
-                        "title" : "sitemap_content",
-                        "layout" : "styleguide-preview.hbs"
-                    },
-                    "content" : "{{section 'sitemap_content'}}"
-                }
-                
-                    ,
-                
-            
-                "dropdown_full_width" : {
-                     "data" : {
-                        "title" : "dropdown_full_width",
-                        "layout" : "styleguide-preview.hbs"
-                    },
-                    "content" : "{{section 'dropdown_full_width'}}"
-                }
-                
-                    ,
-                
-            
-                "asp_search_agent_list" : {
-                     "data" : {
-                        "title" : "asp_search_agent_list",
-                        "layout" : "styleguide-preview.hbs"
-                    },
-                    "content" : "{{section 'asp_search_agent_list'}}"
-                }
-                
-                    ,
-                
-            
-                "contactus_form" : {
-                     "data" : {
-                        "title" : "contactus_form",
-                        "layout" : "styleguide-preview.hbs"
-                    },
-                    "content" : "{{section 'contactus_form'}}"
                 }
                 
             

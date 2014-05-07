@@ -135,9 +135,9 @@
 
 .carousel-item-overlay .line-through-container,
 .carousel-item-overlay .line-through-container-biline {
-  font-size: pxtoem(20px);
+  font-size: 20px; // needs to be in px for IE8
   @include breakpoint(lg) {
-    font-size: pxtoem(60px);
+    font-size: 60px; // needs to be in px for IE8
   }
   color: #fff !important;
 

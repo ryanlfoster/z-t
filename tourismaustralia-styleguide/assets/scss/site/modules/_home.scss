@@ -4,7 +4,7 @@
   margin-bottom: pxtoem(43px);
   position: relative;
   width:  auto;
-  height: 290px;
+  height: pxtoem(290px);
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
@@ -12,7 +12,7 @@
   //@include transition (height, 1s, cubic-bezier(0.455, 0.030, 0.515, 0.955), .1s);
 
   @include breakpoint(sm) {
-    height: 489px;
+    height: pxtoem(675px);
   }
 }
 .home-hero.make-white {
@@ -40,7 +40,7 @@
 .home-thin-strip {
   margin-bottom: 0;
   @include breakpoint(sm) {
-    height: 440px;
+    height: pxtoem(440px);
   }
   .home-hero-text-table-cell {
     padding-bottom: 0px !important;
@@ -64,6 +64,11 @@
       // z-index: 0; 
   }
 
+  @include breakpoint(sm) {
+    height: 920px;
+  }
+}
+.home-thin-strip .home-bg {
   @include breakpoint(sm) {
     height: 678px;
   }

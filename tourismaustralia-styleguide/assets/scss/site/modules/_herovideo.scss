@@ -1,6 +1,6 @@
 .hero-video {
 	display: table;
-	height: 290px;
+	height: pxtoem(290px);
 	position: relative;
 	width:  100%;
 
@@ -13,7 +13,8 @@
 	//@include transition (height, 1s, cubic-bezier(0.455, 0.030, 0.515, 0.955), .1s);
 
 	@include breakpoint(sm) {
-	height: 489px;
+      height: pxtoem(675px);
+	  //height: 489px;
 	}
 }
 
@@ -51,7 +52,8 @@
 	z-index: 0;
 
 	@include breakpoint(sm) {
-		height: 678px;
+        height: pxtoem(920px);
+		//height: 678px;
 	}
 }
 

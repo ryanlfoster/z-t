@@ -30,7 +30,7 @@
 		</div>
 	</div>
 	<div class="row l-center-1200 home-hero-favourite-container">
-		<div class="col-xs-12 col-sm-3">
+		<div class="col-xs-12 col-md-5">
 			<div class="hero-home-favourite">
 				<cq:include path="favorite" resourceType="tourismaustralia/components/content/favourite"/>
 			</div>

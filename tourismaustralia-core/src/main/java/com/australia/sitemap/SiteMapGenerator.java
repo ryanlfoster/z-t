@@ -4,7 +4,6 @@ import java.io.IOException;
 import java.io.Writer;
 import java.util.Iterator;
 
-import org.apache.commons.lang.StringUtils;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.SlingHttpServletResponse;
 import org.apache.sling.api.resource.ResourceResolver;
@@ -50,7 +49,7 @@ public class SiteMapGenerator {
 		Iterator<Page> children = parent.listChildren();
 		while (children.hasNext()) {
 			Page child = children.next();
-			if (StringUtils.isNotEmpty(ServerUtils.getLanguageCode(child.getPath()))) {
+			if (ServerUtils.containsLanguageCode(child.getPath())) {
 				writer.write("<sitemap><loc>");
 				writer.write(resourceResolver.map(child.getPath()) + "/sitemap.xml");
 				writer.write("</loc></sitemap>");

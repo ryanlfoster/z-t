@@ -14,7 +14,9 @@
 
 	// Create the defaults once
 	var pluginName = 'favourite', defaults = {
-        currentPagePath: ""
+        currentPagePath: "",
+        btn_bubble: ".btn-bubble",
+        count_container: ".my-trip-count"
 	};
 
 	// The actual plugin constructor
@@ -30,19 +32,48 @@
 
     Plugin.prototype.init = function(){
         var scope = this;
-        scope.setupEvents(scope);
-    }
+        //console.log(scope.element);
+        if($(scope.element).hasClass('favourite-summary')){
+            scope.setupCounter(scope);
+        } else {
+            scope.setupEvents(scope);
+        }
+    };
+
+    Plugin.prototype.setupCounter = function(scope) {
+        var currentPagePath = $(scope.element).data('pagepath');
+
+        $.ajax({
+            type: "GET",
+            url: "/bin/favorites/add.json?page="+currentPagePath,
+            success: function(data) {
+                var favouriteCount = data.length;
+                if(favouriteCount > 0) {
+                    $(scope.element).find(scope.options.count_container).append(favouriteCount);
+                }
+                console.log("successfully retrieved favourites");
+            },
+            error: function(){
+                console.log("failed to retrieve favourites");
+
+                $(scope.element).find(scope.options.count_container).append(26);
+            }
+        });
+
+         //   ;
+    };
 
     Plugin.prototype.setupEvents = function(scope) {
         $(scope.element).click(function(e) {
-            scope.createFavourite(scope, e);
+            e.preventDefault();
+            if (!($(scope.element).find(scope.options.btn_bubble).hasClass("is-active"))){
+                scope.addFavourite(scope, e);
+            }
         });
-    }
+    };
 
     // item selected
-    Plugin.prototype.createFavourite = function (scope, e) {
-        e.preventDefault();
-
+    Plugin.prototype.addFavourite = function (scope, e) {
         var currentPagePath = $(scope.element).data('pagepath');
         //console.log(currentPagePath);
 
@@ -51,12 +82,19 @@
             type:"POST",
             url: "/bin/favorites/add.json?page="+currentPagePath,
             success: function(){
-              console.log("successfully added to favourites");
+                $(scope.element).find(scope.options.btn_bubble).addClass("is-active");
+                console.log("successfully added to favourites");
             },
             error: function(){
               console.log("failed to add to favourites");
+
             }
         });
+    };
+
+    // increment favourite
+    Plugin.prototype.incrementTotal = function (scope, e){
+        console.log($(scope.element.widget_heart_this).find('.my-trip-count').val());
     };
 
     // A really lightweight plugin wrapper around the constructor,
@@ -69,9 +107,9 @@
 		});
 	};
 
-	//init all carousel objects on page automatically -> TBR
+	//init all objects on page automatically -> TBR
 	$(window).load(function() {
-		$(".favourite,.bubble-colour-favourite").favourite();
+        $(".favourite, .bubble-colour-favourite, #nav-heart-this-widget a").favourite();
 	});
 
 })(jQuery, window, document);

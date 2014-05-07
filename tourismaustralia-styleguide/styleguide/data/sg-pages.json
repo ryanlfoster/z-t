@@ -1353,12 +1353,34 @@
                     ,
                 
             
+                "dreamtrip_grid" : {
+                     "data" : {
+                        "title" : "dreamtrip_grid",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'dreamtrip_grid'}}"
+                }
+                
+                    ,
+                
+            
                 "quote" : {
                      "data" : {
                         "title" : "quote",
                         "layout" : "styleguide-preview.hbs"
                     },
                     "content" : "{{section 'quote'}}"
+                }
+                
+                    ,
+                
+            
+                "relatedvideos" : {
+                     "data" : {
+                        "title" : "relatedvideos",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'relatedvideos'}}"
                 }
                 
                     ,
@@ -1381,6 +1403,17 @@
                         "layout" : "styleguide-preview.hbs"
                     },
                     "content" : "{{section 'shareicons'}}"
+                }
+                
+                    ,
+                
+            
+                "sitemap_singleitem" : {
+                     "data" : {
+                        "title" : "sitemap_singleitem",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'sitemap_singleitem'}}"
                 }
                 
                     ,

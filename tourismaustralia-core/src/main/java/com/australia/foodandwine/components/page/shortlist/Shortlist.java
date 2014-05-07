@@ -19,4 +19,9 @@ public class Shortlist {
 	@DialogField(fieldLabel = "Exclude From Mosaic")
 	@Selection(type = Selection.CHECKBOX, options = @Option(value = "true"))
 	private boolean excludeFromMosaic;
+	
+	@DialogField(fieldLabel = "Business Listing")
+	@Selection(type = Selection.CHECKBOX, options = @Option(value = "true"))
+	private boolean businessListing;
+	
 }

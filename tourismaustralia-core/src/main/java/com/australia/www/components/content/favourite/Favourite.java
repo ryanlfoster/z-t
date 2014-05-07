@@ -14,9 +14,16 @@ public class Favourite {
     private final String pagePath;
 
     public Favourite(SlingHttpServletRequest request) {
+
         PageManager pageManager = request.getResourceResolver().adaptTo(PageManager.class);
         pagePath = pageManager.getContainingPage(request.getResource()).getPath();
     }
+
+	public Favourite(SlingHttpServletRequest request, String thing) {
+		String something = thing;
+		PageManager pageManager = request.getResourceResolver().adaptTo(PageManager.class);
+		pagePath = pageManager.getContainingPage(request.getResource()).getPath();
+	}
 
     public String getPagePath() {
         return pagePath;

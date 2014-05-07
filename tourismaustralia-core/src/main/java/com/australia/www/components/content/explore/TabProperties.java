@@ -18,7 +18,7 @@ public class TabProperties {
 	@PathField
 	private String pagePath;
 
-	@DialogField(fieldDescription = "Back image of page")
+	@DialogField(fieldDescription = "Image on the back of card")
 	@PathField
 	private String imageBack;
 

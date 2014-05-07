@@ -100,10 +100,10 @@
                 </c:if>
                 <c:if test="${not empty navigation.myTripLink}">
                 <li id="nav-heart-this-widget" class="link-my-trip items-added">
-                    <a class="nav-toggle-none" href="${navigation.myTripLink}" target="${navigation.myTripLinkIsExternal ? '_blank' : '_self'}" tabindex="-1">
+                    <a class="nav-toggle-none favourite-summary" href="${navigation.myTripLink}" target="${navigation.myTripLinkIsExternal ? '_blank' : '_self'}" tabindex="-1">
                         <span class="icon icon-32 icon-heart" aria-hidden="true"></span>
                         <span class="vis-hidden-sm"><fmt:message key="My Trip"/></span>
-                        <span class="my-trip-count">26</span>
+                        <span class="my-trip-count"></span>
                     </a>
                 </li>
                 </c:if>

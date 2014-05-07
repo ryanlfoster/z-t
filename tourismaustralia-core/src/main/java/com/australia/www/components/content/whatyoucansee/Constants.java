@@ -58,11 +58,6 @@ final class Constants {
 		+ "  }"
 		+ "}";
 
-	public static final String PATH_SELECT_LISTENER = "function(combo, record, index){"
-		+ "  var value = record.data['path'];"
-		+ "  combo.setValue(value);"
-		+ "}";
-
 	public static final String OPTIONAL_SHOW_LISTENER = "function(checkbox){"
 		+ "var value = checkbox.getValue();"
 		+ "var disable = value.length == 0;"

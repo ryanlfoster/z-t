@@ -70,7 +70,8 @@ public final class WhatYouCanSee {
 	@DialogField(fieldLabel = "Things To Do Tab Size", defaultValue = Constants.TAB_SIZE_10, tab = 2)
 	private final String thingsToDoTabSize;
 
-	@DialogField(fieldLabel = "Optional Tab", fieldDescription = "When checked, an authorable 3rd tab will be displayed",
+	@DialogField(fieldLabel = "Optional Tab", fieldDescription = "When checked, an additional authorable tab will be " +
+		"displayed",
 		tab = 3, listeners = {
 			@Listener(name = "selectionchanged", value = Constants.OPTIONAL_SHOW_LISTENER),
 			@Listener(name = "afterlayout", value = Constants.OPTIONAL_SHOW_LISTENER)

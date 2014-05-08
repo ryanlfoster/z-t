@@ -1023,17 +1023,6 @@
                     ,
                 
             
-                "share_icons" : {
-                     "data" : {
-                        "title" : "share_icons",
-                        "layout" : "styleguide-preview.hbs"
-                    },
-                    "content" : "{{section 'share_icons'}}"
-                }
-                
-                    ,
-                
-            
                 "categorylinks" : {
                      "data" : {
                         "title" : "categorylinks",
@@ -1626,6 +1615,75 @@
                         "layout" : "styleguide-preview.hbs"
                     },
                     "content" : "{{section 'hero'}}"
+                }
+                
+            
+            
+                ,
+            
+        
+            
+                "shareicons" : {
+                     "data" : {
+                        "title" : "shareicons",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'shareicons'}}"
+                }
+                
+                    ,
+                
+            
+                "shareiconswithline" : {
+                     "data" : {
+                        "title" : "shareiconswithline",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'shareiconswithline'}}"
+                }
+                
+                    ,
+                
+            
+                "favouriteandshare" : {
+                     "data" : {
+                        "title" : "favouriteandshare",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'favouriteandshare'}}"
+                }
+                
+                    ,
+                
+            
+                "video_add_tags_share" : {
+                     "data" : {
+                        "title" : "video_add_tags_share",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'video_add_tags_share'}}"
+                }
+                
+                    ,
+                
+            
+                "bylinewithshare" : {
+                     "data" : {
+                        "title" : "bylinewithshare",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'bylinewithshare'}}"
+                }
+                
+                    ,
+                
+            
+                "bylinewithshareitem" : {
+                     "data" : {
+                        "title" : "bylinewithshareitem",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'bylinewithshareitem'}}"
                 }
                 
             

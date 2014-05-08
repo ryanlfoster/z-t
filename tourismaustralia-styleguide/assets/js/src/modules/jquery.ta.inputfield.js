@@ -76,12 +76,14 @@ var inputfields = [];
 		var scopeElement = $(scope.element);
 		var inputField = scopeElement.find('.input-field-input');
 		var inputFieldVal = inputField.val();
+        var inputFieldPlaceholderText = inputField.attr('placeholder');
 		var selectBox = scopeElement.find('select');
 		var checkBox = scopeElement.find('.checkbox-input');
 
+
 		switch($(scope.element).attr('data-type')) {
 			case "text":
-				isValid = scope.isValidText(inputFieldVal);
+				isValid = scope.isValidText(inputFieldVal,inputFieldPlaceholderText);
 				break;
 			case "mail":
 				isValid = scope.isValidMail(inputFieldVal);
@@ -127,8 +129,10 @@ var inputfields = [];
 		}
 	};
 
-	Plugin.prototype.isValidText = function(inputValue) {
-		if (inputValue !== "") {
+	Plugin.prototype.isValidText = function(inputValue, inputFieldPlaceholderText) {
+
+        //'inputFieldPlaceholderText' is compared because IE8-9 placehodler is actually the text value of inputfield
+		if (inputValue !== "" && inputValue!=inputFieldPlaceholderText) {
 			return true;
 		} else {
 			return false;

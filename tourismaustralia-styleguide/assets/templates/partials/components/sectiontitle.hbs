@@ -1,0 +1,21 @@
+---
+title: Section Title
+---
+<div class="section-title">
+    <div class="l-center-900">
+        <h1 class="type-h1-responsive">
+            {{#if title}}
+                {{{title}}}
+            {{else}}
+                TITLE TEXT
+            {{/if}}
+        </h1>
+    </div>
+    {{#if copy}}
+        <div class="l-center-640 type-center">
+            <p class="type-intro">
+                {{{copy}}}
+            </p>
+        </div>
+    {{/if}}
+</div>

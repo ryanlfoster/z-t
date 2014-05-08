@@ -1,0 +1,64 @@
+---
+title: Contact Us Form
+---
+
+<div class="row l-center-1200 contactus-form" >
+        <div class="contactus-formhead">
+            <div class="col-xs-12 col-sm-6">
+                <h2 class="type-secondary">can't find it? get in touch:</h2>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <p>*Please complete all fields.</p>
+            </div>
+        </div>
+
+        <form method="" action="#">
+            <div class="col-xs-12 col-sm-4">
+
+                <div class="input-field" data-type="text">
+                    <div class="inputFocus-wrapper">
+                        <label class="name-input-label" for="yourname">Your name*</label>
+                        <input class="input-field-input" name="yourname" type="text" placeholder="Your name*">
+                        <span class="input-field-validation-icon"></span>
+                    </div>
+                    <div class="col-xs-12">
+                        <p class="input-field-validation-alert">
+                            Please enter a valid name
+                        </p>
+                    </div>
+                </div>
+
+                <div class="input-field" data-type="mail">
+                    <div class="inputFocus-wrapper">
+                        <label class="email-input-label" for="youremail">Your email*</label>
+                        <input class="input-field-input" name="youremail" type="text" placeholder="Your email*">
+                        <span class="input-field-validation-icon"></span>
+                    </div>
+                    <div class="col-xs-12">
+                        <p class="input-field-validation-alert">
+                            Please enter a valid email address
+                        </p>
+                    </div>
+                </div>
+
+                <div class="contactus-form-query-select">
+                    <p>I have a</p>
+                    {{#parseJSON '{"data" : [{"option": "Query"}, {"option": "Complaint"}]}'}}
+                        {{> dropdown_full_width }}
+                    {{/parseJSON}}
+                </div>
+
+            </div>
+            <div class="col-xs-12 col-sm-8">
+                <div class="inputFocus-wrapper">
+                    <label class="name-input-label" for="searchinput">Type text to search</label>
+
+                    <textarea class="name-input" placeholder="Type text to search" ></textarea>
+                </div>
+            </div>
+            <div class="col-xs-12 contactus-form-button">
+                <input onclick="return validateForm(this);" type="submit" value="Send Email" class="btn-primary transparent">
+            </div>
+        </form>
+
+</div>

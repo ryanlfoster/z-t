@@ -1,0 +1,66 @@
+.contactus-form{
+  background-color: #f3f2eb;
+  padding: pxtoem(50px) 3.29%;
+  margin-bottom: pxtoem(60px);
+  @include breakpoint(md) {
+    margin-bottom: pxtoem(120px);
+  }
+}
+
+.contactus-form p{
+  color:$type-base-black;
+  text-align: left;
+}
+
+.contactus-formhead{
+
+}
+
+.contactus-formhead .col-sm-6{
+
+}
+
+.contactus-formhead .col-sm-6 p{
+  text-align: left;
+  margin-bottom: 0;
+  margin-top: 0;
+  @include breakpoint(md) {
+    text-align: right;
+    margin-bottom: 1em;
+  }
+}
+
+.contactus-form form .inputFocus-wrapper,.contactus-form .dropdown-full-width {
+  margin-bottom: 0;
+}
+
+.contactus-form .dropdown-white-background{
+  width:100%;
+}
+.contactus-form .inputFocus-wrapper textarea{
+  height:pxtoem(209px);
+}
+
+.contactus-form .btn-primary{
+  width: 155px;
+  border: 1px solid #00535e;
+}
+
+.contactus-form-query-select{
+  margin-bottom: 1em;
+  @include breakpoint(md) {
+    margin-bottom: 0;
+  }
+}
+
+.contactus-form-query-select p{
+margin: 0 ;
+}
+
+.contactus-form-button{
+  text-align: center;
+  margin-top: 1em;
+  @include breakpoint(md) {
+    text-align: right;
+  }
+}

@@ -1,0 +1,25 @@
+---
+title: Carousel Item
+---
+
+<div class="carousel-item-container">
+    <div class="carousel-item-overlay" style="background-image: url(imgs/placeholders/carousel_1.jpg)">
+        {{#parseJSON '{"copy" : "Australian Open"}'}}
+            {{> linethroughtext }}
+        {{/parseJSON}}
+        <h3>Melbourne, Victoria</h3>
+        <p><b>January 13-26</b></p>
+        <a href="#" class="btn-bubble bubble-colour-favourite">
+            <span class="btn-bubble-tooltip">
+                <span class="btn-bubble-tooltip-container">
+                    Add to your dream trip
+                </span>
+            </span>
+            <span class="btn-bubble-button">
+                <img class="btn-bubble-std" src="imgs/icons/favourite_white_outline.png" alt=""/>
+                <img class="btn-bubble-active" src="imgs/icons/favourite_white.png" alt=""/>
+            </span>
+        </a>
+        <p><a href="#">Find out more</a></p>
+    </div>
+</div>

@@ -1,9 +1,10 @@
 
+// HOME HERO
 .home-hero {
   margin-bottom: pxtoem(43px);
   position: relative;
   width:  auto;
-  height: 290px;
+  height: pxtoem(290px);
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
@@ -11,15 +12,42 @@
   //@include transition (height, 1s, cubic-bezier(0.455, 0.030, 0.515, 0.955), .1s);
 
   @include breakpoint(sm) {
-    height: 489px;
+    height: pxtoem(675px);
   }
 }
 .home-hero.make-white {
   color: #FFF;
+
+  .home-hero-title, .home-hero-sub-title {
+    color: #fff;
+  }
 }
 .home-hero.make-black {
   color: #040000;
+
+  .home-hero-title, .home-hero-sub-title {
+    color: #040000;
+  }
 }
+.home-hero.make-gold {
+  color: $type-main-heading-colour;
+
+  .home-hero-title, .home-hero-sub-title {
+    color: $type-main-heading-colour;
+  }
+}
+// HOME THIN STRIP (Category and Dream Trip Pages)
+.home-thin-strip {
+  margin-bottom: 0;
+  @include breakpoint(sm) {
+    height: pxtoem(440px);
+  }
+  .home-hero-text-table-cell {
+    padding-bottom: 0px !important;
+  }
+}
+
+// HOME BG
 .home-bg {
   width: 100%;
   height: 100%;
@@ -37,8 +65,35 @@
   }
 
   @include breakpoint(sm) {
+    height: 920px;
+  }
+}
+.home-thin-strip .home-bg {
+  @include breakpoint(sm) {
     height: 678px;
   }
+}
+
+.home-hero-text {    
+  height: 400px; 
+  margin: 0;
+
+  .home-hero-title {
+    font-size: pxtoem(55px);
+    @include breakpoint(sm) {
+      font-size: pxtoem(70px);
+    }
+    @include breakpoint(md) {
+      font-size: pxtoem(90px);
+    }
+    @include breakpoint(lg) {
+      font-size: pxtoem(110px);
+    }
+  }
+}
+
+.home-hero-text-container {
+  height: 100%;
 }
 
 .home-hero-text-table-container {
@@ -54,16 +109,14 @@
 
   display: table-cell;
   vertical-align: middle;
-  padding-bottom: 60px;
   text-align: center;
   @include breakpoint(sm) {
-    padding-bottom: 70px;
   }
 }
-.home-hero-title{
+.home-hero-title {
 
-    color: #fff;
-    margin-bottom: 0;
+    max-width: 1040px;
+    margin: 0 auto;
 
   @include type_TAheadline();
   font-size: pxtoem(60px);
@@ -79,7 +132,6 @@
 }
 .home-hero-sub-title {
 
-    color: #fff;
 
   @include type_TAheadline();
   font-size: pxtoem(30px);

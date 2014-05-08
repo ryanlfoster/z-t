@@ -69,8 +69,8 @@ public class DefaultContentSearchService implements ContentSearchService {
 			}
 
 			if (parameters.getTags() != null && parameters.getTags().size() > 0) {
-				List<Tag> tags = new ArrayList<Tag>();
 				TagManager tagManager = resourceResolver.adaptTo(TagManager.class);
+				List<Tag> tags = new ArrayList<Tag>();
 				for (String s : parameters.getTags()) {
 					Tag t = tagManager.resolve(s);
 					if (t != null) {

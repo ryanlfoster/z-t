@@ -12,10 +12,10 @@ import com.australia.utils.PathUtils;
 import com.australia.utils.TagUtils;
 import com.citytechinc.cq.component.annotations.Component;
 import com.citytechinc.cq.component.annotations.DialogField;
-import com.citytechinc.cq.component.annotations.FieldProperty;
 import com.citytechinc.cq.component.annotations.Listener;
 import com.citytechinc.cq.component.annotations.Option;
 import com.citytechinc.cq.component.annotations.Tab;
+import com.citytechinc.cq.component.annotations.widgets.PathField;
 import com.citytechinc.cq.component.annotations.widgets.Selection;
 import com.citytechinc.cq.component.annotations.widgets.TagInputField;
 import com.day.cq.tagging.Tag;
@@ -70,7 +70,8 @@ public final class WhatYouCanSee {
 	@DialogField(fieldLabel = "Things To Do Tab Size", defaultValue = Constants.TAB_SIZE_10, tab = 2)
 	private final String thingsToDoTabSize;
 
-	@DialogField(fieldLabel = "Optional Tab", fieldDescription = "When checked, an authorable 3rd tab will be displayed",
+	@DialogField(fieldLabel = "Optional Tab", fieldDescription = "When checked, an additional authorable tab will be " +
+		"displayed",
 		tab = 3, listeners = {
 			@Listener(name = "selectionchanged", value = Constants.OPTIONAL_SHOW_LISTENER),
 			@Listener(name = "afterlayout", value = Constants.OPTIONAL_SHOW_LISTENER)
@@ -92,104 +93,44 @@ public final class WhatYouCanSee {
 	)
 	private final String optionalTabSize;
 
-	@DialogField(fieldLabel = "Optional Tab Paths", tab = 3, required = true, xtype = "searchfield",
-		additionalProperties = {
-			@FieldProperty(name = "url", value = PathUtils.OZCOM_ROOT_PATH + ".search.json"),
-			@FieldProperty(name = "forceSelection", value = "{Boolean}true"),
-			@FieldProperty(name = "triggerAction", value = "all"),
-			@FieldProperty(name = "selectOnFocus", value = "{Boolean}true")
-		},
-		listeners = @Listener(name = "select", value = Constants.PATH_SELECT_LISTENER))
+	@PathField(rootPath = PathUtils.OZCOM_ROOT_PATH)
+	@DialogField(fieldLabel = "Optional Tab Paths", tab = 3, required = true)
 	private final String optionalTabPath0;
 
-	@DialogField(fieldLabel = "&nbsp;", tab = 3, required = true, xtype = "searchfield",
-		additionalProperties = {
-			@FieldProperty(name = "url", value = PathUtils.OZCOM_ROOT_PATH + ".search.json"),
-			@FieldProperty(name = "forceSelection", value = "{Boolean}true"),
-			@FieldProperty(name = "triggerAction", value = "all"),
-			@FieldProperty(name = "selectOnFocus", value = "{Boolean}true")
-		},
-		listeners = @Listener(name = "select", value = Constants.PATH_SELECT_LISTENER))
+	@PathField(rootPath = PathUtils.OZCOM_ROOT_PATH)
+	@DialogField(fieldLabel = "&nbsp;", tab = 3, required = true)
 	private final String optionalTabPath1;
 
-	@DialogField(fieldLabel = "&nbsp;", tab = 3, required = true, xtype = "searchfield",
-		additionalProperties = {
-			@FieldProperty(name = "url", value = PathUtils.OZCOM_ROOT_PATH + ".search.json"),
-			@FieldProperty(name = "forceSelection", value = "{Boolean}true"),
-			@FieldProperty(name = "triggerAction", value = "all"),
-			@FieldProperty(name = "selectOnFocus", value = "{Boolean}true")
-		},
-		listeners = @Listener(name = "select", value = Constants.PATH_SELECT_LISTENER))
+	@PathField(rootPath = PathUtils.OZCOM_ROOT_PATH)
+	@DialogField(fieldLabel = "&nbsp;", tab = 3, required = true)
 	private final String optionalTabPath2;
 
-	@DialogField(fieldLabel = "&nbsp;", tab = 3, required = true, xtype = "searchfield",
-		additionalProperties = {
-			@FieldProperty(name = "url", value = PathUtils.OZCOM_ROOT_PATH + ".search.json"),
-			@FieldProperty(name = "forceSelection", value = "{Boolean}true"),
-			@FieldProperty(name = "triggerAction", value = "all"),
-			@FieldProperty(name = "selectOnFocus", value = "{Boolean}true")
-		},
-		listeners = @Listener(name = "select", value = Constants.PATH_SELECT_LISTENER))
+	@PathField(rootPath = PathUtils.OZCOM_ROOT_PATH)
+	@DialogField(fieldLabel = "&nbsp;", tab = 3, required = true)
 	private final String optionalTabPath3;
 
-	@DialogField(fieldLabel = "&nbsp;", tab = 3, required = true, xtype = "searchfield",
-		additionalProperties = {
-			@FieldProperty(name = "url", value = PathUtils.OZCOM_ROOT_PATH + ".search.json"),
-			@FieldProperty(name = "forceSelection", value = "{Boolean}true"),
-			@FieldProperty(name = "triggerAction", value = "all"),
-			@FieldProperty(name = "selectOnFocus", value = "{Boolean}true")
-		},
-		listeners = @Listener(name = "select", value = Constants.PATH_SELECT_LISTENER))
+	@PathField(rootPath = PathUtils.OZCOM_ROOT_PATH)
+	@DialogField(fieldLabel = "&nbsp;", tab = 3, required = true)
 	private final String optionalTabPath4;
 
-	@DialogField(fieldLabel = "&nbsp;", tab = 3, required = true, xtype = "searchfield",
-		additionalProperties = {
-			@FieldProperty(name = "url", value = PathUtils.OZCOM_ROOT_PATH + ".search.json"),
-			@FieldProperty(name = "forceSelection", value = "{Boolean}true"),
-			@FieldProperty(name = "triggerAction", value = "all"),
-			@FieldProperty(name = "selectOnFocus", value = "{Boolean}true")
-		},
-		listeners = @Listener(name = "select", value = Constants.PATH_SELECT_LISTENER))
+	@PathField(rootPath = PathUtils.OZCOM_ROOT_PATH)
+	@DialogField(fieldLabel = "&nbsp;", tab = 3, required = true)
 	private final String optionalTabPath5;
 
-	@DialogField(fieldLabel = "&nbsp;", tab = 3, required = true, xtype = "searchfield",
-		additionalProperties = {
-			@FieldProperty(name = "url", value = PathUtils.OZCOM_ROOT_PATH + ".search.json"),
-			@FieldProperty(name = "forceSelection", value = "{Boolean}true"),
-			@FieldProperty(name = "triggerAction", value = "all"),
-			@FieldProperty(name = "selectOnFocus", value = "{Boolean}true")
-		},
-		listeners = @Listener(name = "select", value = Constants.PATH_SELECT_LISTENER))
+	@PathField(rootPath = PathUtils.OZCOM_ROOT_PATH)
+	@DialogField(fieldLabel = "&nbsp;", tab = 3, required = true)
 	private final String optionalTabPath6;
 
-	@DialogField(fieldLabel = "&nbsp;", tab = 3, required = true, xtype = "searchfield",
-		additionalProperties = {
-			@FieldProperty(name = "url", value = PathUtils.OZCOM_ROOT_PATH + ".search.json"),
-			@FieldProperty(name = "forceSelection", value = "{Boolean}true"),
-			@FieldProperty(name = "triggerAction", value = "all"),
-			@FieldProperty(name = "selectOnFocus", value = "{Boolean}true")
-		},
-		listeners = @Listener(name = "select", value = Constants.PATH_SELECT_LISTENER))
+	@PathField(rootPath = PathUtils.OZCOM_ROOT_PATH)
+	@DialogField(fieldLabel = "&nbsp;", tab = 3, required = true)
 	private final String optionalTabPath7;
 
-	@DialogField(fieldLabel = "&nbsp;", tab = 3, required = true, xtype = "searchfield",
-		additionalProperties = {
-			@FieldProperty(name = "url", value = PathUtils.OZCOM_ROOT_PATH + ".search.json"),
-			@FieldProperty(name = "forceSelection", value = "{Boolean}true"),
-			@FieldProperty(name = "triggerAction", value = "all"),
-			@FieldProperty(name = "selectOnFocus", value = "{Boolean}true")
-		},
-		listeners = @Listener(name = "select", value = Constants.PATH_SELECT_LISTENER))
+	@PathField(rootPath = PathUtils.OZCOM_ROOT_PATH)
+	@DialogField(fieldLabel = "&nbsp;", tab = 3, required = true)
 	private final String optionalTabPath8;
 
-	@DialogField(fieldLabel = "&nbsp;", tab = 3, required = true, xtype = "searchfield",
-		additionalProperties = {
-			@FieldProperty(name = "url", value = PathUtils.OZCOM_ROOT_PATH + ".search.json"),
-			@FieldProperty(name = "forceSelection", value = "{Boolean}true"),
-			@FieldProperty(name = "triggerAction", value = "all"),
-			@FieldProperty(name = "selectOnFocus", value = "{Boolean}true")
-		},
-		listeners = @Listener(name = "select", value = Constants.PATH_SELECT_LISTENER))
+	@PathField(rootPath = PathUtils.OZCOM_ROOT_PATH)
+	@DialogField(fieldLabel = "&nbsp;", tab = 3, required = true)
 	private final String optionalTabPath9;
 
 

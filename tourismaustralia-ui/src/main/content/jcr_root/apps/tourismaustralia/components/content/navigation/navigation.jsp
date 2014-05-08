@@ -73,16 +73,17 @@
     <li class="toggle-home vis-hidden-sm">
         <a href="${navigation.homepagePath}" tabindex="-1"><span class="icon icon-32 icon-home" aria-hidden="true"></span><span> <fmt:message key="Home"/></span></a>
     </li>
+    <c:if test="${not empty navigation.searchPagePath && not empty navigation.searchPlaceholderText }">
     <li id="nav-main-panel-search" class="toggle-search has-children">
         <a class="nav-toggle-panel" href="#nav-main-panel-search"><span class="icon icon-32 icon-search" aria-hidden="true"></span><span class="vis-hidden-sm"> <fmt:message key="Search"/></span></a>
         <ul class="nav-bar-panel">
             <li class="nav-bar-panel-container">
                 <div class="nav-bar-panel-content">
-                    <form class="nav-search-form" method="" action="#">
+                    <form class="nav-search-form" method="get" action="${navigation.searchPagePath}">
                         <fieldset class="nav-search-fieldset">
-                            <label class="nav-search-label" for="nav-search-field">What would you like to explore in Australia?</label>
-                            <input class="nav-search-text" id="nav-search-field" type="text" name="" value="" placeholder="What would you like to explore in Australia?">
-                            <button class="biutton nav-search-button" type="submit" name="submit" value="submit">
+                            <label class="nav-search-label" for="nav-search-field">${navigation.searchPlaceholderText}</label>
+                            <input class="nav-search-text" id="nav-search-field" type="text" name="q" value="" placeholder='${navigation.searchPlaceholderText}'>
+                            <button class="button nav-search-button" type="submit">
                                 <span class="icon icon-32 icon-search" aria-hidden="true"></span><span class="vis-hidden"> Search</span>
                             </button>
                         </fieldset>
@@ -93,6 +94,7 @@
             </li>
         </ul>
     </li>
+    </c:if>
     <c:if test="${not empty navigation.mapLink}">
         <li class="link-map">
             <a href="${navigation.mapLink}" target="${navigation.mapLinkIsExternal ? '_blank' : '_self'}" class="nav-toggle-none"><span class="icon icon-32 icon-map" aria-hidden="true"></span><span class="vis-hidden-sm"> <fmt:message key="Map"/></span></a>

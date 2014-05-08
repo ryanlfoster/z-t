@@ -54,6 +54,13 @@ public class Navigation {
     @PathField(rootPath = "/content")
     private String arrivalBarLink2;
 
+    @DialogField(fieldLabel = "Search Page Path", fieldDescription = "Location of search page", required = true, tab = 2)
+    @PathField(rootPath = "/content")
+    private String searchPagePath;
+
+    @DialogField(fieldLabel = "Search Placeholder Text", fieldDescription = "Placeholder text for search", required = true, tab = 2)
+    private String searchPlaceholderText;
+
     @DialogField(fieldLabel = "Map Link", fieldDescription = "For external links please use prefix http:// or https:// (eg. http://www.google.com)", required = false, tab = 2)
     @PathField(rootPath = "/content")
     private String mapLink;
@@ -145,6 +152,8 @@ public class Navigation {
             arrivalBarLink2MobileText = properties.get("arrivalBarLink2MobileText", StringUtils.EMPTY);
             arrivalBarLink2 = LinkUtils.getHrefFromPath(properties.get("arrivalBarLink2", StringUtils.EMPTY));
             arrivalBarLink2IsExternal = LinkUtils.isExternal(properties.get("arrivalBarLink2", StringUtils.EMPTY));
+            searchPagePath = LinkUtils.getHrefFromPath(properties.get("searchPagePath", StringUtils.EMPTY));
+            searchPlaceholderText = properties.get("searchPlaceholderText", StringUtils.EMPTY);
             mapLink = LinkUtils.getHrefFromPath(properties.get("mapLink", StringUtils.EMPTY));
             mapLinkIsExternal = LinkUtils.isExternal(properties.get("mapLink", StringUtils.EMPTY));
             myTripLink = LinkUtils.getHrefFromPath(properties.get("myTripLink", StringUtils.EMPTY));
@@ -288,6 +297,10 @@ public class Navigation {
     public boolean getArrivalBarLink2IsExternal() {
         return arrivalBarLink2IsExternal;
     }
+
+    public String getSearchPagePath() { return searchPagePath; }
+
+    public String getSearchPlaceholderText() { return searchPlaceholderText; }
 
     public String getMapLink() {
         return mapLink;

@@ -1,25 +1,33 @@
 package com.australia.www.components.content.atdwhighlights;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import org.apache.sling.api.SlingHttpServletRequest;
+import org.apache.sling.api.resource.Resource;
+import org.apache.sling.api.resource.ValueMap;
+import org.apache.sling.api.scripting.SlingBindings;
+import org.apache.sling.api.scripting.SlingScriptHelper;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import com.australia.atdw.domain.ATDWCategory;
 import com.australia.atdw.domain.ATDWProduct;
 import com.australia.atdw.domain.ATDWProductSearchParameters;
 import com.australia.atdw.domain.ATDWProductSearchParametersBuilder;
 import com.australia.atdw.service.ATDWProductService;
 import com.australia.utils.PathUtils;
-import com.citytechinc.cq.component.annotations.*;
+import com.citytechinc.cq.component.annotations.Component;
+import com.citytechinc.cq.component.annotations.DialogField;
+import com.citytechinc.cq.component.annotations.FieldProperty;
+import com.citytechinc.cq.component.annotations.Listener;
+import com.citytechinc.cq.component.annotations.Option;
+import com.citytechinc.cq.component.annotations.Tab;
 import com.citytechinc.cq.component.annotations.widgets.Selection;
 import com.day.cq.tagging.Tag;
 import com.day.cq.tagging.TagManager;
 import com.day.cq.wcm.api.PageManager;
 import com.day.cq.wcm.foundation.forms.MergedValueMap;
-import org.apache.sling.api.SlingHttpServletRequest;
-import org.apache.sling.api.resource.Resource;
-import org.apache.sling.api.resource.ValueMap;
-import org.apache.sling.api.scripting.SlingBindings;
-import org.apache.sling.api.scripting.SlingScriptHelper;
-
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Backing-bean for the ATDW Highlights ("make your trip happen") component.
@@ -30,6 +38,7 @@ import java.util.List;
 	@Tab(title = Constants.TAB_CATEGORIES) }, listeners = { @Listener(name = "afteredit", value = "REFRESH_PAGE"),
 	@Listener(name = "afterinsert", value = "REFRESH_PAGE") })
 public class AtdwHighlights {
+	private static final Logger LOG = LoggerFactory.getLogger(AtdwHighlights.class);
 
 	private static Tag selectPageTagForSearch(TagManager tagManager, Resource resource) {
 		Tag[] tags = tagManager.getTags(resource);
@@ -108,7 +117,7 @@ public class AtdwHighlights {
 	private String term;
 
 	public AtdwHighlights(SlingHttpServletRequest request) {
-
+		LOG.info("inside AtdwHighlights constructor line 116 ");
 		SlingBindings bindings = (SlingBindings) request.getAttribute(SlingBindings.class.getName());
 		SlingScriptHelper slingScriptHelper = bindings.getSling();
 		productService = slingScriptHelper.getService(ATDWProductService.class);
@@ -139,7 +148,9 @@ public class AtdwHighlights {
 
 		PageManager pageManager = resource.getResourceResolver().adaptTo(PageManager.class);
 		Resource pageResource = pageManager.getContainingPage(resource).getContentResource();
+		LOG.info("inside AtdwHighlights constructor line 147 ");
 		baseBuilder = getBaseBuilder(type, typeArgument, pageResource);
+		LOG.info("inside AtdwHighlights constructor line 149 ");
 	}
 
 	public String getTitle() {
@@ -235,7 +246,11 @@ public class AtdwHighlights {
 			this.category = category;
 
 			ATDWProductSearchParameters params = baseBuilder.setCategory(category).build();
+			LOG.info("inside AtdwHighlights Category line 245 ");
+
 			List<ATDWProduct> out = productService.search(params).getResults();
+			LOG.info("inside AtdwHighlights Category line 248 ");
+
 			products = out == null ? new ArrayList<ATDWProduct>() : out;
 		}
 

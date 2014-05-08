@@ -1,7 +1,7 @@
 <%@include file="/apps/tourismaustralia/components/global.jsp"%>
 <div id="main-content">
 	<cq:include path="hero" resourceType="tourismaustralia/components/content/hero"/>
-	
+
 	<div class="home-explore-summary-map">
 		<div class="row l-center-1200">
 			<div class="col-xs-12">
@@ -13,8 +13,8 @@
 		<div class="row l-center-1200">
 			<div class="col-xs-12 col-sm-3">
 				<cq:include path="tagCloud" resourceType="tourismaustralia/components/content/tagCloud"/>
-	            <div class="shareicons-container">
-	     			<cq:include path="shareThis" resourceType="tourismaustralia/components/content/shareThis"/>
+				<div class="shareicons-container">
+					<cq:include path="shareThis" resourceType="tourismaustralia/components/content/shareThis"/>
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-9">
@@ -39,7 +39,6 @@
 	</div>
 	<div class="paragraph-city">
 		<cq:include path="mainParsys" resourceType="foundation/components/parsys"/>
-		<cq:include path="atdwHighlights" resourceType="tourismaustralia/components/content/atdwHighlights"/>
 		<cq:include path="categorizedIconLinks" resourceType="tourismaustralia/components/content/categorizedIconLinks"/>
 	</div>
 </div>

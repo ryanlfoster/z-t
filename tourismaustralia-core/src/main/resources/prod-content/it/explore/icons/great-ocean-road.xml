@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="589" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Pagina iniziale]]></headline>
+            <href><![CDATA[/it/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Esplora]]></headline>
+            <href><![CDATA[/it/explore.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Great Ocean Road]]></headline>
+            <href><![CDATA[/it/explore/icons/great-ocean-road.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/explore-icons-great-ocean-road.jpg]]></img_background>
+    <hdl_Title><![CDATA[Great Ocean Road]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/explore-icons-great-ocean-road-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/explore-icons-great-ocean-road-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[no]]></opt_PartnerLead>
+    <stf_description><![CDATA[Programma una vacanza romantica lungo la Great Ocean Road, ammira la natura incontaminata, i faraglioni lungo la costa e gusta i prodotti locali.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[y]]></stf_IsMobile>
+    <stf_keywords><![CDATA[Great Ocean Road, Victoria, VIC]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Ulteriori Informazioni]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Great Ocean Road, Victoria]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[La Great Ocean Road trasforma il romanticismo della classica gita su strada in un'incantevole storia d’amore.]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <IntegratedMiniMap isTemplate="1">
+    <!-- no user content -->
+</IntegratedMiniMap><TravellersStoryWidget isTemplate="1">
+    <anc_link><![CDATA[/explore/map.aspx?filters=icons,experiences&zoom=9&centre=-38.989289,143.825396]]></anc_link>
+    <img_image><![CDATA[/contentimages/icons-Great-Ocean-Road.jpg]]></img_image> 
+</TravellersStoryWidget><Listing isTemplate="1">
+<anc_List1><![CDATA[/it/explore/states/vic/vic-12-apostles.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[Altri itinerari suggeriti in Australia]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/it/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/it/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/it/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/it/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/it/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/it/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/it/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/it/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/it/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/it/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/it/Transport.ignore]]></anc_Transport>
+<hdl_Title><![CDATA[Great Ocean Road - Iniziate a programmare il vostro viaggio]]></hdl_Title>
+<language><![CDATA[ITA]]></language>
+<stf_Accomodation><![CDATA[Alloggi]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[Great Ocean Road area]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[Attrazione]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[Find a Travel Agent near you]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[Informazioni sulle destinazioni]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[Eventi]]></stf_Events>
+<stf_Hire><![CDATA[Noleggio]]></stf_Hire>
+<stf_Informationservices><![CDATA[Informazioni]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[Victoria]]></stf_StateFilter>
+<stf_Tours><![CDATA[Tour]]></stf_Tours>
+<stf_Transport><![CDATA[Trasporti]]></stf_Transport>
+</PlanYourVisit><MoreInformation isTemplate="1">
+    <hdl_Title><![CDATA[Maggiori informazioni sul Great Ocean Road]]></hdl_Title>
+    <anc_Link><![CDATA[]]></anc_Link>
+    <anc_MoreLink><![CDATA[]]></anc_MoreLink> 
+    <img_Content><![CDATA[<img src="/contentimages/more_info_GOR_thumb.jpg" border="0" align="left" class="imgLeft">]]></img_Content>
+    <stf_LinkTitle><![CDATA[]]></stf_LinkTitle>
+    <stf_MoreLink><![CDATA[http://italian.visitmelbourne.com/melbourne/victoria/great-ocean-road.html]]></stf_MoreLink>
+    <stf_MoreLinkText><![CDATA[Vai a...]]></stf_MoreLinkText>
+    <stf_Teaser><![CDATA[Potete trovare maggiori informazioni sul sito web di Tourism Victoria website.]]></stf_Teaser> 
+</MoreInformation>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Great Ocean Road]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        La Great Ocean Road trasforma il romanticismo della classica gita su strada in un'incantevole storia d’amore.
+        <p>Dall’intensit&agrave; delle spiagge per il surf di Torquay all’emozione del whale-watching a Shipwreck Coast, saranno tanti i luoghi e le attivit&agrave; che vi faranno innamorare.</p>
+        <p>Questa rotta iconica passa accanto a incontaminate spiagge battute dal vento, cittadine pittoresche, storici campi auriferi, catene montuose mozzafiato, foreste pluviali e parchi nazionali.</p>
+        <p><strong>Cinque punti di maggior interesse per il vostro viaggio:</strong></p>
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[1. La spettacolare costa]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/4.3.4.2_highlight.jpg" alt="Twelve Apostles, VIC">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Twelve Apostles, VIC]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        La scenografica costa sud-occidentale di Victoria presenta un'incredibile variet&agrave; di habitat naturali. Ammirate le altissime onde del famoso surf spot di <a href="/it/explore/states/vic/vic-torquay.xml" target="_self">Bells Beach</a>. Riposatevi sulle dorate spiagge di <a href="/it/explore/itineraries/vic-great-southern-touring-route.xml" target="_self">Lorne</a>. Nuotate, praticate il surf, andate in <a href="/it/explore/things-to-do/australian-adventure/nat-canoe-kayak.xml" target="_self">kayak sul mare</a> o praticate la pesca ad Apollo Bay. In alternativa, immergetevi nella storia marittima del pittoresco villaggio di pescatori di Port Fairy. Fate una bella nuotata nelle tranquille acque adatte alle famiglie di Anglesea o scatenatevi sulle spiagge battute dal vento della Shipwreck Coast. E non perdetevi <a href="/it/explore/states/vic/vic-12-apostles.xml" target="_self">i Dodici Apostoli</a>. Questi maestosi faraglioni calcarei che si ergono al largo della costa del Mare Antartico vi lasceranno senza fiato. 
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[2. Una natura selvaggia e incontaminata]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/4.3.4.3_highlight.jpg" alt="Parco nazionale di Great Otway, VIC">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Parco nazionale di Great Otway, VIC]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Dalle foreste pluviali ai fiumi, dagli antichi vulcani alle frastagliate coste, la Great Ocean Road sposa vari e diversi ambienti naturali.  Nel Parco nazionale di Great Otway (Great Otway National Park), scoprirete cascate rombanti e forre turbolente e potrete camminare attraverso le cime di antichi alberi coperti di muschio. Fate un’escursione in barca attraverso le gole e le spettacolari grotte di Cape Bridgewater. Ammirate le antiche torri di pietra calcarea che sembrano galleggiare sull’oceano a Bay of Islands. Volete sgranchirvi un po’ le gambe? Ammirate le sabbiose spiagge deserte, le fitte foreste ed alcune delle scogliere pi&ugrave; alte dell’Australia lungo i 91 km della <a href="http://www.australia.com/campaigns/nothinglike/it/great-ocean-road-product8.htm" target="_blank">Great Ocean Walk</a>.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[3. Circondati dalla natura]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/4.3.4.4_highlight.jpg" alt="Anglesea, VIC">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Anglesea, VIC]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        La Great Ocean Road &egrave; una sorta di immenso punto panoramico dal quale ammirare la <a href="/it/about/key-facts/australias-animals.xml" target="_self">fauna endemica</a>. A Warrnambool, potrete <a href="/it/explore/things-to-do/australian-adventure/nat-whalewatching.xml" target="_self">osservare le balene</a> australi durante la loro migrazione annuale. Ammirate i koala, i canguri, gli em&ugrave; e gli uccelli d’acqua che vivono in libert&agrave; presso la Tower Hill State Game Reserve. Fate una partita a golf accanto ai canguri che brucano l’erba a Anglesea.<br />
+        Osservate i koala allo stato brado a Kennett River e nel Parco nazionale di Great Otway (Great Otway National Park). Avvistate le foche da pelliccia a Cape Bridgewater e ammirate l’incantevole spettacolo di luci delle lucciole a Melba Gully nel Parco nazionale di Great Otway. Nuotate con i delfini a Queenscliff sulla penisola di Bellarine. Per un’emozione diversa, fate un’escursione in canoa all’alba sul lago Elizabeth per vedere gli ornitorinchi.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[4. Enogastronomia e altre prelibatezze ]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/4.3.4.5_highlight.jpg" alt="Enogastronomia, VIC">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Enogastronomia, VIC]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Volete stimolare i vostri sensi? Le regioni della Great Ocean Road tenteranno il vostro palato con prelibati prodotti locali, ottimi ristoranti ed <a href="/it/about/australias-landscapes/australian-wineries.xml" target="_self">eccellenti vini</a>. 
+        <p>Cercate le rinomate e squisite bont&agrave; locali direttamente presso i loro produttori. Per il pesce fresco, recatevi al molo di qualsiasi citt&agrave; di mare e visitate le cooperative di pescatori a Lorne e Apollo Bay. Assaggiate squisite bacche presso le fattorie di Colac, Heywood, Gellibrand e Deans Marsh. O gustate rinomati formaggi presso i negozi di alimentari di Allansford, Timboon e Cooriemungle. Le aziende vinicole dei climi freschi si estendono per tutta la lunghezza della Great Ocean Road, fermatevi quindi ad assaggiare i vini locali a Colac, Apollo Bay, Timboon, Geelong e Henty. Gustate i prelibati cibi e l’ospitalit&agrave; di ristoranti, caff&egrave; e sale da t&egrave; in tutta la regione. </p>
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[5. La vivace cultura aborigena]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/4.3.4.6_highlight.jpg" alt="La vivace cultura Aborigena, VIC">]]></img_MainImage>
+                    <stf_Caption><![CDATA[La vivace cultura Aborigena, VIC]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[Le storie aborigene legano il paesaggio della Great Ocean Road, da Wathaurong nel Geelong alla regione di Gunitjmara nell’ovest. Assaggiate i prodotti del bush, imparate gli antichi rimedi aborigeni e guardate le sessioni di lancio del boomerang e di didgeridoo a Geelong. 
+<P>Ascoltate direttamente dalla popolazione Gunditjmara quanto sia stata importante la vicinanza del loro accampamento al vulcano spento non lontano da Tower Hill. Presso il lago Condah, dichiarato Patrimonio dell’Umanit&agrave;, vedrete case di pietra e trappole per la pesca lasciate qui da un villaggio aborigeno permanente. <BR></P>]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+        <lst_Subpage><![CDATA[<a href="/it/explore/icons/great-ocean-road/port-campbell-travel-story.xml">Divertimento lungo la Great Ocean Road</a>]]></lst_Subpage>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

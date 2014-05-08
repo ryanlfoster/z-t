@@ -19,14 +19,14 @@ public class Diamond {
 	private String numberFormat;
 	NumberFormat numberFormatter;
 
-	@DialogField(fieldLabel = "Number", fieldDescription = "(Maximum 9 Degits)", required = true, additionalProperties = @FieldProperty(name = "maxLength", value = "9"))
-	@NumberField(allowDecimals = false, allowNegative = false)
+	@DialogField(fieldLabel="Number",fieldDescription="(Maximum 9 Digits)",required=true,additionalProperties=@FieldProperty(name="maxLength",value="9"))
+	@NumberField(allowDecimals=false,allowNegative=false)
 	private long number;
 
 	@DialogField(fieldLabel = "Center Text", fieldDescription = "(Maximum 20 characters)", additionalProperties = @FieldProperty(name = "maxLength", value = "20"))
 	private String centerText;
 
-	@DialogField(fieldLabel = "Bottom Text", fieldDescription = "(Maximum !5 characters)", additionalProperties = @FieldProperty(name = "maxLength", value = "15"))
+	@DialogField(fieldLabel="Bottom Text",fieldDescription="(Maximum 15 characters)",additionalProperties=@FieldProperty(name="maxLength",value="15"))
 	private String bottomText;
 
 	public Diamond(SlingHttpServletRequest request) {

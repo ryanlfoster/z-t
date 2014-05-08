@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="22250" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Accueil]]></headline>
+            <href><![CDATA[/fr/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Tools and Campaigns]]></headline>
+            <href><![CDATA[/fr/tools-campaigns.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Paysages nationaux d'Australie]]></headline>
+            <href><![CDATA[/fr/nationallandscapes.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[Ningaloo-Shark Bay]]></headline>
+            <href><![CDATA[/fr/nationallandscapes/ningaloo-shark-bay.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/Campaigns/national-landscapes-ningaloo-shark-bay.jpg]]></img_background>
+    <hdl_Title><![CDATA[Ningaloo-Shark Bay]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/national-landscapes-ningaloo-shark-bay-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/Campaigns/national-landscapes-ningaloo-shark-bay-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[yes]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[Lib&eacute;rez votre esprit &agrave; Ningaloo-Shark Bay, sur la Coral Coast &agrave; l'ouest de l'Australie, o&ugrave; la vie marine abonde dans les eaux class&eacute;es au patrimoine mondial situ&eacute;es &agrave; la fronti&egrave;re d'un paysage rouge et sauvage.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[R&eacute;cif de Ningaloo, Shark Bay, r&eacute;gion class&eacute;e au patrimoine mondial Shark Bay, patrimoine mondial, r&eacute;serve sous-marine Ningaloo, r&eacute;serve sous-marine Shark Bay, requins-baleines, requin-baleine, parc national Dirk Hartog Island, Dirk Hartog Island]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[En savoir plus]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Paysages nationaux d'Australie: Ningaloo-Shark Bay - Tourisme Australie]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        Lib&eacute;rez votre esprit &agrave; Ningaloo-Shark Bay, sur la Coral Coast &agrave; l'ouest de l'Australie, o&ugrave; la vie marine abonde dans les eaux class&eacute;es au patrimoine mondial situ&eacute;es &agrave; la fronti&egrave;re d'un paysage rouge et sauvage.
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <StandardCampaignLayout isTemplate="1">
+    <opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+    <hdl_Title><![CDATA[]]></hdl_Title>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+    <con_Banner><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<DIV id=headerimage>
+<SCRIPT type=text/javascript src="../../static/js/jquery.cycle.all.latest.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+jQuery(document).ready(function() {
+jQuery('#headersliderwrapper').cycle({
+        fx:'fade',
+        slideExpr: '.headerslide'
+    });
+});
+</SCRIPT>
+
+<DIV id=headersliderwrapper>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-nin-01.jpg"> 
+<DIV class=headerslideinfo>Plong&eacute;e avec des requins-baleines, Australie M&eacute;ridionale</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-nin-02.jpg"> 
+<DIV class=headerslideinfo>Cape Peron, Australie M&eacute;ridionale</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-nin-03.jpg"> 
+<DIV class=headerslideinfo>Requin-baleine, r&eacute;cif de Ningaloo, Australie M&eacute;ridionale</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-nin-04.jpg"> 
+<DIV class=headerslideinfo>Distribution de nourriture aux dauphins, Monkey Mia, Australie M&eacute;ridionale</DIV></DIV></DIV></DIV>
+<DIV id=subpage-header-overlay></DIV>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule></con_Banner>
+    <con_Body><TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Ningaloo-Shark Bay]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        Lib&eacute;rez votre esprit &agrave; Ningaloo-Shark Bay, sur la Coral Coast &agrave; l'ouest de l'Australie, o&ugrave; la vie marine abonde dans les eaux turquoise &agrave; la fronti&egrave;re d'un paysage rouge et sauvage. &Agrave; la pointe la plus &agrave; l'ouest de l'Australie, les dauphins jouent dans la Shark Bay, class&eacute;e au patrimoine mondial, et les requins-baleines nagent &agrave; quelques m&egrave;tres des plages de Ningaloo Reef. Nagez, plongez ou faites du kayak dans des eaux cristallines qui abritent tortues, dugongs, baleines en migration et raies manta g&eacute;antes. Sur terre, marchez sur les plages de sable blanc sauvages, partez en 4x4 sur les dunes de sable rouge et laissez-vous &eacute;merveiller par des formes de vie ancestrales. Partez &agrave; la d&eacute;couverte de cet endroit sauvage &agrave; travers la culture aborig&egrave;ne sans &acirc;ge mais bien vivante.
+        <p><strong>Quatre bonnes raisons de d&eacute;couvrir Ningaloo-Shark Bay</strong></p>
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[1. R&eacute;cif de Ningaloo Reef]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-ningaloo-shark-bay-hl01.jpg" alt="Ningaloo Reef, WA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Ningaloo Reef, WA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Nagez et faites de la plong&eacute;e aux c&ocirc;t&eacute;s des requins-baleines, les plus gros poissons du monde, pr&eacute;sents &agrave; Ningaloo Reef entre avril et juin. &Agrave; quelques m&egrave;tres &agrave; peine du rivage, le plus grand r&eacute;cif corallien d'Australie abrite une faune marine &eacute;tonnante dans des jardins de coraux spectaculaires. Observez les poissons-clowns, les tentacules des an&eacute;mones, les rascasses, les mur&egrave;nes ainsi que des centaines d'autres poissons tropicaux dans les eaux d'Exmouth ou de Coral Bay. Inscrivez-vous &agrave; un &eacute;cotour ou &agrave; un groupe de plong&eacute;e ou sautez &agrave; bord d'un bateau &agrave; fond de verre pour observer des dugongs, tortues et raies manta. Observez la migration des baleines &agrave; bosse entre juin et octobre ainsi que l'incroyable ph&eacute;nom&egrave;ne naturel qu'est le frai du corail au mois de mars et d'avril.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[2. Shark Bay]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-ningaloo-shark-bay-hl02.jpg" alt="Monkey Mia, WA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Monkey Mia, WA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Donnez &agrave; manger aux dauphins sauvages de Monkey Mia ou nagez parmi eux, faites une balade en bateau parmi les tortues de mer menac&eacute;es dans la Turtle Bay et apercevez les baleines &agrave; bosse en migration dans les eaux peu profondes. S'&eacute;tendant sur 2,3 millions d'hectares, Shark Bay offre des eaux temp&eacute;r&eacute;es et tropicales et est l'un des endroits au monde qui remplit les quatre crit&egrave;res de classement au patrimoine mondial. Vous y trouverez trois des sept esp&egrave;ces au monde de tortues de mer ainsi que la plus grande prairie sous-marine au monde accueillant la population de dugongs la plus prot&eacute;g&eacute;e. Plongez parmi les diverses sortes de coraux, observez le marquage saisonnier des requins, embarquez sur un bateau de p&ecirc;che ou allez faire de la voile au coucher du soleil.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[3. Des paysages ancestraux &eacute;poustouflants]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-ningaloo-shark-bay-hl03.jpg" alt="Cape Range National Park, WA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Cape Range National Park, WA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Faites de la randonn&eacute;e, de l'escalade et parcourez le parc national de Cape Range en 4x4, pr&egrave;s de Exmouth, o&ugrave; les impressionnants canyons de couleur rouge rencontrent les eaux bleu azur de Ningaloo Reef. Ce parc abrite &eacute;galement les wallabies &agrave; pied noir, une esp&egrave;ce rare, et s'anime entre juin et octobre avec des fleurs sauvages de toutes les couleurs. Dans la r&eacute;gion de Shark Bay class&eacute;e au patrimoine mondial, le parc national exceptionnel de Francois Peron abrite des animaux indig&egrave;nes menac&eacute;s, offre des paysages contrast&eacute;s spectaculaires et propose de grandes aventures en 4x4. Sur l'&icirc;le de Dirk Hartog, p&ecirc;chez dans des endroits de renomm&eacute;e mondiale et d&eacute;couvrez l'histoire fascinante des explorateurs europ&eacute;ens. &Agrave; Steep Point, le point le plus &agrave; l'ouest de l'Australie, admirez les gigantesques falaises de Zuytdorp, hautes de 300 m&egrave;tres, qui s'&eacute;tendent vers le sud sur 150 km. Marchez sur la plage de Shell Beach au sable extraordinairement blanc et visitez Hamelin Pool o&ugrave; se trouvent les stromatolites, l'une des plus vieilles formes de vie sur terre.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[4. De riches exp&eacute;riences aborig&egrave;nes]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-ningaloo-shark-bay-hl04.jpg" alt="Aboriginal experiences, WA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Aboriginal experiences, WA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        D&eacute;couvrez l'histoire de l'ancienne culture aborig&egrave;ne de Shark Bay gr&acirc;ce aux montages interactifs et aux expositions dans le World Heritage Discovery Centre. Partez de Monkey Mia pour une visite guid&eacute;e par un aborig&egrave;ne, &eacute;coutez les contes de Dreamtime et apprenez-en plus sur la m&eacute;decine traditionnelle du bush et sur le &laquo; Bush Tucker &raquo; (nourriture tir&eacute;e du bush). Explorez le parc national de Dirk Hartog Island o&ugrave; les propri&eacute;taires, des Malgana aborig&egrave;nes, vivent depuis des milliers d'ann&eacute;es. Les Malgana ont d&eacute;sormais leur propre r&eacute;serve, offrant un aper&ccedil;u de leur h&eacute;ritage culturel riche et &eacute;ternel.
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights></con_Body>
+    <con_RHSModules><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<TABLE cellSpacing=0 cellPadding=0 width=298 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top align=center>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD style="WIDTH: 25px"></TD>
+<TD><!-- #BeginLibraryItem "/Library/sitenav.lbi" -->
+<SCRIPT language=JavaScript1.2 type=text/javascript src="../../static/js/stmenu.js"></SCRIPT>
+<!-- #EndLibraryItem --></TD></TR></TBODY></TABLE><!-- Google Map Start -->
+<SCRIPT type=text/javascript>
+function fireEvent(obj,evt){
+ var fireOnThis = obj;
+ if( document.createEvent ) {
+   var evObj = document.createEvent('MouseEvents');
+   evObj.initEvent( evt, true, false );
+   fireOnThis.dispatchEvent(evObj);
+ } else if( document.createEventObject ) {
+   fireOnThis.fireEvent('on'+evt);
+ }
+}
+function clickLink(linkobj) {
+     if (linkobj.getAttribute('onclick') == null) {
+          if (linkobj.getAttribute('href')) document.location = linkobj.getAttribute('href');
+     }
+     else linkobj.onclick();
+}
+function loadjscssfile(filename, filetype){
+ if (filetype=="js"){ //if filename is a external JavaScript file
+  var fileref=document.createElement('script')
+  fileref.setAttribute("type","text/javascript")
+  fileref.setAttribute("src", filename)
+ }
+ else if (filetype=="css"){ //if filename is an external CSS file
+  var fileref=document.createElement("link")
+  fileref.setAttribute("rel", "stylesheet")
+  fileref.setAttribute("type", "text/css")
+  fileref.setAttribute("href", filename)
+  fileref.setAttribute("media", "print")
+ }
+ if (typeof fileref!="undefined")
+  document.getElementsByTagName("head")[0].appendChild(fileref)
+}
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+var icheckk=0;
+jQuery.each(jQuery.browser, function(i, val) {
+if(i=="msie" && jQuery.browser.version.substr(0,3)=="7.0")
+icheckk=1;
+});
+function myfun()
+{
+loadjscssfile("../../static/css/thickbox.css", "css");
+if(icheckk==1)
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='../../static/maps/fr/ningaloosharkbay/bigmap.html'  target='_blank'>&nbsp;Imprimer|Proche|</a></b>","../../static/maps/fr/ningaloosharkbay/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+else
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='javascript:window.print()' >&nbsp;Imprimer|Proche|</a></b>","../../static/maps/fr/ningaloosharkbay/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+}
+         </SCRIPT>
+<IFRAME style="MARGIN-BOTTOM: 20px; BORDER-TOP: black 1px solid; HEIGHT: 355px; BORDER-RIGHT: black 1px solid; BORDER-BOTTOM: black 1px solid; FLOAT: left; PADDING-BOTTOM: 5px; BORDER-LEFT: black 1px solid; BACKGROUND-COLOR: #333333" height=380 src="../../static/maps/fr/ningaloosharkbay/index.html" frameBorder=0 width=249 name=FRAMENAME scrolling=no></IFRAME><!-- Google Map end -->
+<DIV class=subpage-video-thumb style="TEXT-ALIGN: left"><A onclick="moduleTrackingWithTitle('lightbox-video','',false,'nationallandscapes-ningaloosharkbayfr');" href="#" data-reveal-id="modalVideo"><IMG alt="" src="/contentimages/Campaigns/national-landscapes-video-fr.jpg"></A> </DIV>
+<DIV id=modalVideo class="reveal-modal video" style-="z-index: 103;"><A class=close-reveal-modal><SPAN class=icon></SPAN></A>
+<DIV class=video style="VISIBILITY: visible !important"><IFRAME height=315 src="//www.youtube.com/v/EjGZ3MaX9pE?version=3&amp;hl=en_GB" frameBorder=0 width=560></IFRAME></DIV></DIV></TD></TR></TBODY></TABLE>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule><Listing isTemplate="1">
+<anc_List1><![CDATA[/fr/explore/states/wa.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[Id&eacute;es d&eacute;couverte]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/fr/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/fr/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/fr/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/fr/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/fr/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/fr/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/fr/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/fr/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/fr/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/fr/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/fr/Transport.aspx]]></anc_Transport>
+<hdl_Title><![CDATA[Planifiez votre voyage dans les Ningaloo - Shark Bay]]></hdl_Title>
+<language><![CDATA[FRA]]></language>
+<stf_Accomodation><![CDATA[Accommodation]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[ningaloo reef]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[Attractions]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[Find a Travel Agent near you]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[Destination Information]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[Events]]></stf_Events>
+<stf_Hire><![CDATA[Hire ]]></stf_Hire>
+<stf_Informationservices><![CDATA[Information Services]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[Western Australia]]></stf_StateFilter>
+<stf_Tours><![CDATA[Tours]]></stf_Tours>
+<stf_Transport><![CDATA[Transport]]></stf_Transport>
+</PlanYourVisit></con_RHSModules>
+    <con_Category></con_Category>
+    <lst_Subpages>
+    </lst_Subpages>
+</StandardCampaignLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

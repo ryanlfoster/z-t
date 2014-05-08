@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="35" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[홈]]></headline>
+            <href><![CDATA[/ko/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[호주 여행 계획]]></headline>
+            <href><![CDATA[/ko/plan.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[숙박 정보]]></headline>
+            <href><![CDATA[/ko/plan/plan-your-trip/accommodation.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/plan-plan-your-trip-find-accommodation.jpg]]></img_background>
+    <hdl_Title><![CDATA[숙박 정보]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/plan-plan-your-trip-find-accommodation-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[호주 숙박시설 소개. 리조트, 호텔, 호스텔, 백패커스, 팜스테이, 캠핑장 등 다양한 호주 숙박시설들에 관해 알아보세요.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[호주숙박, 호주 관광청 ]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[더 보기]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[호주 다양한 숙박시설 소개 - 호주정부관광청]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        부티크 호텔, 배낭여행자 호텔, 리조트, 서비스 아파트, 시골 펍, 팜 스테이와 캠핑장 정보도 알아보세요.
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <AccommodationRHS isTemplate="1">
+    <!-- no user content -->
+</AccommodationRHS><StarRatingModule isTemplate="1">
+    <hdl_Title><![CDATA[숙박시설 등급 부여 지침 ]]></hdl_Title>
+    <con_StarRating>
+        <StarRatingItem isTemplate="1">
+    <hdl_Title><![CDATA[5성급]]></hdl_Title>
+    <txt_Description><![CDATA[
+        탁월한 서비스 수준을 갖추고 다양한 종류의 일급 게스트 서비스를 제공합니다(1명에서 2명의 사람 $A350-$A450 의 한 벌 $A600-$A3500)
+    ]]></txt_Description>
+    <img_Stars><![CDATA[<img src="/contentimages/rating5.jpg" alt="5성급">]]></img_Stars>
+</StarRatingItem><StarRatingItem isTemplate="1">
+    <hdl_Title><![CDATA[4성급~4.5성급 ]]></hdl_Title>
+    <txt_Description><![CDATA[뛰어난 수준의 서비스와 고급 가구를 갖추고 편안한 공간을 제공합니다(1명에서 2명의 사람 $A190-$A300). ]]></txt_Description>
+    <img_Stars><![CDATA[<img src="/contentimages/rating4.jpg" alt="4성급~4.5성급 ">]]></img_Stars>
+</StarRatingItem><StarRatingItem isTemplate="1">
+    <hdl_Title><![CDATA[ 3~3.5성급 ]]></hdl_Title>
+    <txt_Description><![CDATA[편안하고 깨끗한 객실과 고급 가구 등 시설이 잘 갖춰진 숙박시설입니다(1명에서 2명의 사람 $A135-$A195). ]]></txt_Description>
+    <img_Stars><![CDATA[<img src="/contentimages/rating3.jpg" alt=" 3~3.5성급 ">]]></img_Stars>
+</StarRatingItem><StarRatingItem isTemplate="1">
+    <hdl_Title><![CDATA[3성급 미만 ]]></hdl_Title>
+    <txt_Description><![CDATA[기본 시설이 갖추어져 있으며 관리가 잘 되어 있습니다(1명에서 2명의 사람 $A70-$A95 의 사람마다 호스텔 숙박 시설 $A18-$A35). ]]></txt_Description>
+    <img_Stars><![CDATA[]]></img_Stars>
+</StarRatingItem><StarRatingItem isTemplate="1">
+    <hdl_Title><![CDATA[서비스 아파트 ]]></hdl_Title>
+    <txt_Description><![CDATA[모든 비품을 갖춘 아파트로 1 ~ 3개의 침실과 거실 공간이 있고 주방과 세탁시설 및 독립적인 욕실을 갖추고 있습니다($A160-$A250). ]]></txt_Description>
+    <img_Stars><![CDATA[]]></img_Stars>
+</StarRatingItem>
+    </con_StarRating>
+    <anc_MoreLink><![CDATA[]]></anc_MoreLink> 
+</StarRatingModule><Listing isTemplate="1">
+<anc_List1><![CDATA[/ko/plan/before-you-go/visa-information.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[More Australian Ideas]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[자세히 보기]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[숙박 시설 ]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[<STRONG>호주에는 너무나 다양한 숙박 시설이 있으니 취향에 따라 고르실 수 있답니다.</STRONG>&nbsp; 부티크 호텔과 배낭여행자 전용숙소, 호화 리조트와 셀프 서비스 아파트, 소박한 시골 펍과 캠핑장 등 정말 다양합니다.&nbsp; 예산에 맞춰 어떤 숙소를 선택하시든 친절한 최고 수준의 서비스를 기대하실 수 있습니다.&nbsp; 
+
+<P>다양한 숙박시설에 대해 제공 시설과 소요 비용 등을 자세히 확인하세요.&nbsp; </P>
+
+<P>호주에서 개성 있는 다양한 숙소에 머물며 잊지 못할 추억을 만들어 보세요. </P>
+
+<P>&nbsp;</P>
+<P></P>]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[리조트 Resorts]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        필요한 모든 것을 쉽게 구할 수 있는 리조트에서 편안한 휴식을 가지세요.  넓은 고급 숙박시설과 다양한 게스트 서비스, 관광과 다양한 활동 모두 마음에 들 것입니다. 리조트는 퀸즈랜드(Queensland) 해밀턴 섬(Hamilton Island)과 <a href="/ko/explore/states/sa.xml" target="_self">남호주</a> 와인 산지 등이 탄성을 자아내는 아름다운 자연 환경을 즐기기에 가장 이상적인 숙소입니다.  어느 곳에 묵는지에 따라 각기 다른 체험을 즐기실 수 있습니다. 장소에 따라 <a href="/ko/explore/states/vic/vic-snow-play.xml" target="_self">스키 슬로프</a>나 <a href="/ko/explore/things-to-do/australian-adventure/nat-diving.xml" target="_self">스쿠버 다이빙</a>, 아니면 그냥 풀장 옆에서 즐기는 칵테일 등 다양한 체험이 기다리고 있답니다.  
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[호텔 Hotel]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        일반 객실이나 스위트룸에 묵으면서 단축 다이얼 하나만 눌러 룸서비스와 베이비시팅 등 서비스를 받고 풀장과 피트니스 센터, 레스토랑과 바 등의 시설을 마음껏 이용할 수 있습니다. 호주의 유명 관광지나 <a href="/ko/about/australias-landscapes/cities.xml" target="_self">주요 도시</a> 대부분에 세계적인 유명 호텔들이  있습니다. 2성급에서 5성급까지 등급만큼이나 요금도 매우 다양합니다.  
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[모텔 Motel]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[자동차 여행을 즐기다 피곤하면 모텔에서 휴식을 취하세요. 저렴한 가격에 편안한 잠자리를 구하실 수 있습니다. 룸에는 일반적으로 개인 욕실이나 샤워 시설, TV, 차나 커피메이커와 작은 냉장고가 구비되어 있습니다. 대부분의 모텔은 객실에서 아침식사를 주문할 수 있고 큰 모텔의 경우 자체 레스토랑이 있습니다. ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[서비스가 제공되는 아파트와 홀리데이 유닛  Service Apartments]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[독립적인 아파트나 홀리데이 유닛을 선택하시면 넓은 공간과 프라이버시를 가질 수 있고, 주방과 세탁 시설을 편리하게 이용할 수 있습니다.&nbsp; 가족이나 여러 사람이 함께 여행을 하거나 한 곳에서 이틀 이상 머물 경우 아파트와 홀리데이 유닛이 가장 이상적이고 비용 효율적입니다.&nbsp; 널따란 거실에서 활개를 치고 요리도 직접 해먹는 즐거움을 맛보세요.&nbsp; 장소에 따라 서비스 제공 옵션과 비제공 옵션 가운데 선택하실 수 있습니다.&nbsp; ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[조식 제공 민박(B &amp; B) ]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[조식 제공 민박을 선택하시면 가족적인 분위기와 가정식 요리를 맛보실 수 있답니다.&nbsp; 유서 깊은 저택에서 광부들의 오두막, 그리고 시골 농장에서 도시 타운하우스에 이르기까지 곳곳에 가족이 운영하는&nbsp; 소규모 숙박시설이 자리잡고 있습니다.&nbsp; 합리적인 가격에 편안한 잠자리를 구할 수 있으며, 민박 주인에게 값진 여행 정보를 얻는 건 보너스랍니다!&nbsp;&nbsp; ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[팜 스테이  Farm Stays]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[작은 농장에서 닭 우는 소리에 아침 잠에서 깨어 보세요. 백만 에이커가 넘는 규모의 아웃백 목장에서 양털 깎는 법을 배워 보는 건 어떨까요? 양철 지붕 아래 소박한 침대에 몸을 누이거나 대규모 농장의 고급 숙소에서 호사를 누려보세요. 팜 스테이는 널찍한 공간에서 승마, 낚시, 수영과 부시워킹(bushwalking)을 즐길 수 있는 좋은 기회를 제공합니다. 울타리를 손보거나 말을 타고 가축을 몰아보거나 가재잡이 등 재미있는 체험을 하시거나 아니면 사륜 구동 차량을 타고 농장을 질주하는 등 농장의 일과를 체험해 보세요. 안개 낀 아침과 강렬한 붉은 석양, 건강한 시골 음식과 모닥불 곁의 대화 등을 체험하기에 이보다 더 좋은 공간은 없죠. 별 빛 아래 자연 온천수에 몸을 담글 수 있는 곳도 있답니다. 팜 스테이는 번잡한 도시를 떠나 시골의 친절함과 흙 내음 짙은 소박한 삶을 체험할 수 있는 소중한 기회입니다.&nbsp;&nbsp; ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[캠핑과 캐러밴 사이트 Camping]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        호주의 멋진 자연을 배경으로 캠핑과 캐러밴을 즐겨보세요.  국립공원에 텐트를 치거나 시설이 잘 되어있는 야영장이나 캐러밴 파크에서 취침을 해결하면 됩니다. 전기와 온수 샤워, 세탁 시설과 바비큐 시설을 갖추고 있어 길 위를 달리는 나그네들을 깔끔하게 만들어 줍니다. 손상되기 쉬운 주변 환경을 보호하기 위해 국립공원과 야영장에는 사용 규정이 있다는 사실도 잊지 마세요. 모든 시설을 편리하게 이용하면서 길도 잃고 싶지 않다면 한달 여정의 가이드 동반 캐러밴 여행에 참가하세요. 아니면, <a href="/ko/explore/icons/red-centre.xml" target="_self">아웃백</a>, 숲, 사막 또는 해변에 마련된 호화로운 캠프 스타일 휴양지에서 여유와 야성을 함께 체험해 보세요.  
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[호스텔과 배낭여행자 숙소  Backpackers]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        <a href="/ko/explore/states/qld.xml" target="_self">퀸즈랜드</a>에서는 해변의 오두막과 나무 위 트리 하우스에, 그리고 남호주에서는 깊은 지하 숙소에서 잠을 청해 보세요.  배낭여행자나 고급 배낭여행자(flashpacker) 또는 주머니가 가벼운 여행자를 위해 아웃백에서 도심까지 많은 호스텔이 마련되어 있습니다.  호스텔은 비용 절감 효과뿐만 아니라 다른 여행자를 만나기에도 좋은 장소랍니다. 여행담을 나누고 함께 팀을 이루어 호주 탐험에  도전하실 수도 있죠.  
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[숙박시설 등급 부여 지침  Star ratings]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[5성급 <BR>탁월한 서비스 수준을 갖추고 다양한 종류의 일급 게스트 서비스를 제공합니다. 
+<P>4성급~4.5성급 <BR>뛰어난 수준의 서비스와 고급 가구를 갖추고 편안한 공간을 제공합니다. </P>
+<P>&nbsp;3~3.5성급 <BR>편안하고 깨끗한 객실과 고급 가구 등 시설이 잘 갖춰진 숙박시설입니다. </P>
+<P>3성급 미만 <BR>기본 시설이 갖추어져 있으며 관리가 잘 되어 있습니다. </P>
+<P>서비스 아파트 <BR>모든 비품을 갖춘 아파트로 1 ~ 3개의 침실과 거실 공간이 있고 주방과 세탁시설 및 독립적인 욕실을 갖추고 있습니다.&nbsp; <BR></P>
+<P></P>]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

@@ -1,11 +1,10 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@include file="/apps/tourismaustralia/components/global.jsp" %>
-<%@ page import="com.australia.www.components.content.mapwithlinks.MapWithLinks" %>
+<%@ page import="com.australia.www.components.content.mapWithLinks.MapWithLinks" %>
 
 <c:set var="mapWithLinks" value="<%=new MapWithLinks(slingRequest) %>"/>
 
-<div class="l-padding-between-item-fill-white">
-<div class="map-with-links-container">
+<div class="map-with-links-container l-padding-b">
 
     <c:if test="${not empty mapWithLinks.title }">
         <div class="l-center-900">
@@ -37,5 +36,4 @@
 	    </ol>
 	</div>
 
-</div>
 </div>

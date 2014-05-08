@@ -24,7 +24,7 @@ import com.day.cq.wcm.foundation.Image;
 	@Listener(name = "afterdelete", value = "REFRESH_PAGE"), @Listener(name = "afteredit", value = "REFRESH_PAGE"),
 	@Listener(name = "afterinsert", value = "REFRESH_PAGE") })
 public class Hero {
-	@DialogField(fieldLabel = "Image Path", tab = 1)
+	@DialogField(fieldLabel = "Image Path", tab = 1,required=true)
 	@Html5SmartImage(allowUpload = false, name = "backgroundImage")
 	private String imagePath;
 
@@ -42,11 +42,11 @@ public class Hero {
 
 	@DialogField(fieldLabel = "Text above Button", tab = 3)
 	private final String aboveButtonText;
-
-	@DialogField(fieldLabel = "Button Text ", tab = 3)
+	
+	@DialogField(fieldLabel = "Button Text ", tab = 3, required=true)
 	private final String buttonText;
 
-	@DialogField(fieldLabel = "Button Link ", tab = 3)
+	@DialogField(fieldLabel = "Button Link ", tab = 3,required=true)
 	@PathField
 	private final String buttonLink;
 

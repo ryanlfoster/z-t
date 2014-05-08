@@ -3,12 +3,13 @@ package com.australia.www.components.content.mapwithbuttons;
 import org.apache.commons.lang3.StringUtils;
 
 import com.citytechinc.cq.component.annotations.DialogField;
+import com.citytechinc.cq.component.annotations.widgets.Html5SmartImage;
 import com.citytechinc.cq.component.annotations.widgets.PathField;
 
 public class ButtonField {
 
 	@DialogField(fieldLabel = "Image", fieldDescription = "All fields are required to show button")
-	@PathField(rootPath = "/", rootTitle = "Assets")
+	@Html5SmartImage(tab = false, height = 100, allowUpload = false, name = "image")
 	private String imagePath;
 
 	@DialogField(fieldLabel = "Title")

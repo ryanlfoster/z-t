@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="10778" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Pagina iniziale]]></headline>
+            <href><![CDATA[/it/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Esplora]]></headline>
+            <href><![CDATA[/it/explore.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Darwin]]></headline>
+            <href><![CDATA[/it/explore/cities/darwin.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[Il lungomare di Darwin]]></headline>
+            <href><![CDATA[/it/explore/cities/darwin/darwin-waterfront.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/explore-cities-darwin-waterfront.jpg]]></img_background>
+    <hdl_Title><![CDATA[Il lungomare di Darwin]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/explore-cities-darwin-waterfront-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/explore-cities-darwin-waterfront-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[no]]></opt_PartnerLead>
+    <stf_description><![CDATA[Passeggia sul lungomare di Darwin, pieno di ristoranti, negozi, spiagge e parchi. Nuota nella laguna, pesca sul molo, cena all’aperto a base di pesce.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[Lungomare di Darwin, molo di Stokes Hill]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Ulteriori Informazioni]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Il lungomare di Darwin, Territorio del Nord]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[Unitevi agli abitanti locali e ai turisti sul lungomare di Darwin, dove lo stile di vita calmo e rilassato dei tropici si sposa con la storia e cultura locali.]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <Listing isTemplate="1">
+<anc_List1><![CDATA[/it/explore/cities/darwin/darwin-surrounds.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[Altri itinerari suggeriti in Australia]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/it/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/it/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/it/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/it/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/it/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/it/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/it/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/it/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/it/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/it/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/it/Transport.ignore]]></anc_Transport>
+<hdl_Title><![CDATA[Plan your visit to Darwin]]></hdl_Title>
+<language><![CDATA[ITA]]></language>
+<stf_Accomodation><![CDATA[Accommodation]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[Darwin Area]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[Attractions]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[Find a travel agent near you]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[Destination Information]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[Events]]></stf_Events>
+<stf_Hire><![CDATA[Hire]]></stf_Hire>
+<stf_Informationservices><![CDATA[Information Services]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[Northern Territory]]></stf_StateFilter>
+<stf_Tours><![CDATA[Tours]]></stf_Tours>
+<stf_Transport><![CDATA[Transport]]></stf_Transport>
+</PlanYourVisit>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Il lungomare di Darwin]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        La vita di Darwin si svolge principalmente sul lungomare, punteggiato di ristoranti, negozi, lagune sabbiose e parchi. Nuotate nella laguna, pescate sul molo, cenate all’aperto gustando piatti di pesce freschissimo e passeggiate ammirando le ville sul lungomare. Potrete tracciare la ricca storia dell’isola lungo i sentieri da percorrere a piedi o ammirando le opere d’arte pubbliche. Oggi famiglie, uomini d’affari e turisti passeggiano sul lungomare, dove la popolazione aborigena dei Larrakia, i mercanti indonesiani e i coloni europei hanno tutti lasciato la loro impronta nella storia. 
+        <p>Le attivit&agrave; ricreative all’aperto sono parte integrante della vita sul lungomare di Darwin,situato a breve distanza dal <a href="/it/explore/cities/darwin.xml" target="_self">centro citt&agrave;</a>. Potrete nuotare tutto l’anno nelle lagune sul lungomare di Darwin. Potrete vivere suggestive avventure sulla spiaggia, con onde per ogni esigenza, dai boogie boarder ai bambini. Per una tranquilla nuotata visitate la laguna,un’enorme distesa di acqua salata pullulante di pesci, dove &egrave; possibile andare in barca e vela e in canoa. </p>
+        <p>Le piste ciclabili e le zone pedonali si snodano lungo il muro che separa le acque della laguna e il porto aperto. Passeggiate, andate in bicicletta o fate jogging, ammirando le onde e vivendo tutta l’energia tropicale di Darwin. Esplorate giardini lussureggianti e parchi, passeggiate tra le ville sul lungomare e visitate negozi e ristoranti all’aperto. Nei ristoranti di Stokes Hill Wharf potrete godervi la piacevole brezza di Darwin e i suoi colorati tramonti mentre gustate un piatto di pesce. Il molo &egrave; un luogo popolare per la pesca ricreativa e il punto di partenza per i charter da pesca e le escursioni turistiche in barca. </p>
+        <p>La zona sul lungomare di Darwin offre una ricca storia che ha inizio con gli antichi custodi aborigeni della terra, la popolazione aborigena dei Larrakia che per secoli ha commerciato con gruppi provenienti dall’Indonesia. I primi coloni malesi e cinesi si sono stabiliti qui, scrivendo un altro importante capitolo della storia culturale di Darwin. &Egrave; qui che sono giunti i primi coloni europei, prima di stabilirsi nella "gola" accanto a Fort Hill. La zona del molo &egrave; inoltre il luogo simbolo dell’arrivo della seconda guerra mondiale in Australia: fu questa la prima zona colpita dai raid aerei giapponesi. Qui si trovavano i primi giardini pubblici di Darwin e la ferrovia che andava da Frances Creek al molo con una stazione vicino a Stokes Hill. </p>
+        <p>I suggestivi eventi della storia locale sono commemorati dalle opere d’arte pubbliche che si trovano sul lungomare, sia all’interno degli edifici che negli spazi pubblici. Potrete inoltre imparare a conoscere la storia locale mentre passeggiate tra i tunnel dove si conservava il carburante durante la Seconda Guerra Mondiale o seguire il Traveler’s Walk, un sentiero utilizzato per raggiungere la citt&agrave; mentre veniva costruito il molo di Stokes Hill nel 1895. Ammirate le strutture in pietra risalenti ai primi del XX secolo e visitate il luogo dove si accamp&ograve; l’ambizioso cercatore d’oro George Woodroffe Goyder. </p>
+        <p>Scoprite il lungomare di Darwin, dove la vita tropicale moderna della citt&agrave; pi&ugrave; settentrionale d’Australia si incontra con la storia.</p>
+    ]]></txt_Information>
+            
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

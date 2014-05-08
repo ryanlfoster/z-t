@@ -7,11 +7,6 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@include file="/apps/tourismaustralia/components/global.jsp"%>
 
-<c:if test="${empty products}">
-	<div class="l-h-center" style="color: #833">No results -- This
-		category will be hidden in Publish</div>
-</c:if>
-
 <c:forEach items="${products}" var="product" varStatus="status">
 
 	<c:if test="${status.index % 3 == 0}">
@@ -38,10 +33,7 @@
 							<div
 								class="mosaic-3column-media theme-mosaic-3column-front l-padding-t-15">
 								<%-- Use visibility:hidden to hide in order to maintain layout and prevent text from shifting --%>
-								<img
-									src="/etc/designs/tourismaustralia/clientlibs/imgs/logo/logo_tqual_black.png"
-									<c:if test="${!product.tqual}">style="visibility: hidden"</c:if>
-									alt="" />
+								<img src="/etc/designs/tourismaustralia/clientlibs/imgs/logo/logo_tqual_black.png" <c:if test="${!product.tqual}">style="visibility: hidden"</c:if> alt="" />
 								<p>${product.title}</p>
 							</div>
 						</div>
@@ -50,10 +42,7 @@
 							<div
 								class="mosaic-3column-media theme-mosaic-3column-back l-padding-t-15">
 								<%-- Use visibility:hidden to hide in order to maintain layout and prevent text from shifting --%>
-								<img
-									src="/etc/designs/tourismaustralia/clientlibs/imgs/logo/logo_tqual_white.png"
-									<c:if test="${!product.tqual}">style="visibility: hidden"</c:if>
-									alt="" />
+								<img src="/etc/designs/tourismaustralia/clientlibs/imgs/logo/logo_tqual_white.png" <c:if test="${!product.tqual}">style="visibility: hidden"</c:if> alt="" />
 								<p>${product.title}</p>
 							</div>
 						</div>
@@ -82,19 +71,16 @@
 
 								<p>${product.description}</p>
 
-								<a href="#" data-pagepath="${product.productPath}"
-									class="btn-bubble bubble-colour-favourite"> <span
-									class="btn-bubble-tooltip"> <span
-										class="btn-bubble-tooltip-container"> <fmt:message
-												key="Add to your dream trip" />
-									</span>
-								</span> <span class="btn-bubble-button"> <img
-										class="btn-bubble-std"
-										src="/etc/designs/tourismaustralia/clientlibs/imgs/icons/favourite_outline.png"
-										alt="" /> <img class="btn-bubble-active"
-										src="/etc/designs/tourismaustralia/clientlibs/imgs/icons/favourite.png"
-										alt="" />
-								</span>
+								<a data-pagepath="${product.productPath}" class="btn-bubble bubble-colour-favourite">
+                                    <span class="btn-bubble-tooltip">
+                                        <span class="btn-bubble-tooltip-container">
+                                            <fmt:message key="Add to your dream trip" />
+									    </span>
+								    </span>
+                                    <span class="btn-bubble-button">
+                                        <img class="btn-bubble-std" src="/etc/designs/tourismaustralia/clientlibs/imgs/icons/favourite_outline.png" alt="" />
+                                        <img class="btn-bubble-active" src="/etc/designs/tourismaustralia/clientlibs/imgs/icons/favourite.png" alt="" />
+                                    </span>
 								</a>
 
 							</div>

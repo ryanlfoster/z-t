@@ -1572,6 +1572,64 @@
                 
             
             
+                ,
+            
+        
+            
+                "favourite" : {
+                     "data" : {
+                        "title" : "favourite",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'favourite'}}"
+                }
+                
+                    ,
+                
+            
+                "favouritewithlines" : {
+                     "data" : {
+                        "title" : "favouritewithlines",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'favouritewithlines'}}"
+                }
+                
+                    ,
+                
+            
+                "favouriteandshare" : {
+                     "data" : {
+                        "title" : "favouriteandshare",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'favouriteandshare'}}"
+                }
+                
+                    ,
+                
+            
+                "video_add_tags_share" : {
+                     "data" : {
+                        "title" : "video_add_tags_share",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'video_add_tags_share'}}"
+                }
+                
+                    ,
+                
+            
+                "hero" : {
+                     "data" : {
+                        "title" : "hero",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'hero'}}"
+                }
+                
+            
+            
         
         
     

@@ -233,6 +233,16 @@
                         { "text": "whatyoucansee_state" }
 
                     ]
+                },
+                {
+                    "text" : "Favourite",
+                    "item": [
+                        { "text": "favourite" },
+                        { "text": "favouritewithlines" },
+                        { "text": "favouriteandshare" },
+                        { "text": "video_add_tags_share" },
+                        { "text": "hero" }
+                    ]
                 }
             ]
         }

@@ -72,7 +72,7 @@ public class Content {
 		final String path = resource.getPath();
 		final ValueMap properties = resource.adaptTo(ValueMap.class);
 		final String title = properties.get("jcr:content/jcr:title", String.class);
-		final String text = properties.get("jcr:content/summary/text", String.class);
+		final String text = properties.get("jcr:content/jcr:description", String.class);
 		final String imagePath = properties.get("jcr:content/image/fileReference", String.class);
 		final String pageCategoryString = properties.get("jcr:content/ausPageCategory", String.class);
 		return new Content(path, title, text, imagePath, PageCategory.fromDisplayString(pageCategoryString));

@@ -1086,10 +1086,7 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
         padding-bottom: 10px;
         font-size: pxtoem(28px);
         margin-left: -30px;
-        // hide the label from everything but IE8
-        &:not(#foo) {
-            display: none;
-        }
+        display: none;
     }
 
     .nav-search-text {

@@ -1,7 +1,10 @@
 package com.australia.www.components.content.twoimages;
 
+import java.util.ArrayList;
+
 import org.apache.commons.lang.StringUtils;
 import org.apache.sling.api.SlingHttpServletRequest;
+import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ValueMap;
 
 import com.citytechinc.cq.component.annotations.Component;
@@ -9,38 +12,34 @@ import com.citytechinc.cq.component.annotations.DialogField;
 import com.citytechinc.cq.component.annotations.Tab;
 import com.citytechinc.cq.component.annotations.widgets.Html5SmartImage;
 import com.day.cq.wcm.foundation.Image;
+import com.day.cq.wcm.foundation.forms.MergedValueMap;
 
-/**
- * Created by myeasmin on 3/04/14.
- * 
- * This component is composed of 2 tabs - Large Image and Text, and Small Image
- * and Text.
- */
-@Component(value = "Two Images", disableTargeting = true, tabs = { @Tab(title = "Large Image and Text"),
-	@Tab(title = "Small Image and Text") })
+@Component(value = "Two Images", disableTargeting = true, dialogHeight = 600, tabs = {
+	@Tab(title = "Large Image & Text"), @Tab(title = "Small Image & Text") })
 public class TwoImages {
-	@DialogField(tab = 1, hideLabel = true)
+	@DialogField(tab = 1, hideLabel = true, required = true)
 	@Html5SmartImage(height = 400, tab = false, name = "largeImageSrc")
 	private final String largeImageSrc;
 
-	@DialogField(tab = 1, fieldLabel = "Large Image Alt Text")
+	@DialogField(tab = 1, fieldLabel = "Image Alt Text")
 	private final String largeImageAltText;
 
-	@DialogField(tab = 1, fieldLabel = "Large Image Text")
+	@DialogField(tab = 1, fieldLabel = "Image Text")
 	private final String largeImageText;
 
 	@DialogField(tab = 2, hideLabel = true)
 	@Html5SmartImage(height = 400, tab = false, name = "smallImageSrc")
 	private final String smallImageSrc;
 
-	@DialogField(tab = 2, fieldLabel = "Small Image Alt Text")
+	@DialogField(tab = 2, fieldLabel = "Image Alt Text")
 	private final String smallImageAltText;
 
-	@DialogField(tab = 2, fieldLabel = "Small Image Text")
+	@DialogField(tab = 2, fieldLabel = "Image Text")
 	private final String smallImageText;
 
 	public TwoImages(SlingHttpServletRequest slingRequest) {
 		ValueMap properties = slingRequest.getResource().adaptTo(ValueMap.class);
+		properties = properties == null ? new MergedValueMap(new ArrayList<Resource>()) : properties;
 		Image largeImage = new Image(slingRequest.getResource(), "largeImageSrc");
 		this.largeImageSrc = largeImage.getSrc();
 		this.largeImageAltText = properties.get("largeImageAltText", StringUtils.EMPTY);

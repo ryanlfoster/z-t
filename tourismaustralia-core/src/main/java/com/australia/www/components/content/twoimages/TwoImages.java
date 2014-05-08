@@ -14,28 +14,28 @@ import com.citytechinc.cq.component.annotations.widgets.Html5SmartImage;
 import com.day.cq.wcm.foundation.Image;
 import com.day.cq.wcm.foundation.forms.MergedValueMap;
 
-@Component(value = "Two Images", disableTargeting = true, dialogHeight = 600, tabs = {
-	@Tab(title = "Large Image & Text"), @Tab(title = "Small Image & Text") })
+@Component(value = "Two Images", disableTargeting = true, tabs = { @Tab(title = "Large Image"),
+	@Tab(title = "Small Image"), @Tab(title = "Properties") })
 public class TwoImages {
 	@DialogField(tab = 1, hideLabel = true, required = true)
-	@Html5SmartImage(height = 400, tab = false, name = "largeImageSrc")
+	@Html5SmartImage(name = "largeImageSrc")
 	private final String largeImageSrc;
 
-	@DialogField(tab = 1, fieldLabel = "Image Alt Text")
-	private final String largeImageAltText;
-
-	@DialogField(tab = 1, fieldLabel = "Image Text")
-	private final String largeImageText;
-
-	@DialogField(tab = 2, hideLabel = true)
-	@Html5SmartImage(height = 400, tab = false, name = "smallImageSrc")
+	@DialogField(tab = 2, hideLabel = true, required = true)
+	@Html5SmartImage(name = "smallImageSrc")
 	private final String smallImageSrc;
 
-	@DialogField(tab = 2, fieldLabel = "Image Alt Text")
-	private final String smallImageAltText;
+	@DialogField(tab = 3, fieldLabel = "Large Image Text")
+	private final String largeImageText;
 
-	@DialogField(tab = 2, fieldLabel = "Image Text")
+	@DialogField(tab = 3, fieldLabel = "Image Alt Tag", required = true)
+	private final String largeImageAltText;
+
+	@DialogField(tab = 3, fieldLabel = "Small Image Text")
 	private final String smallImageText;
+
+	@DialogField(tab = 3, fieldLabel = "Image Alt Tag", required = true)
+	private final String smallImageAltText;
 
 	public TwoImages(SlingHttpServletRequest slingRequest) {
 		ValueMap properties = slingRequest.getResource().adaptTo(ValueMap.class);

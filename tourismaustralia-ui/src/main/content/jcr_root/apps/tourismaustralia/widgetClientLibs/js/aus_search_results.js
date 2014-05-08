@@ -4,6 +4,10 @@ $(document).ready(function(){
     var inner_container_selector = "div[data-aus-result-container-inner]";
     var button_selector = "a[data-aus-load-results]";
     var limit = 10;
+    var mode = $.url().param('mode');
+    if(!mode || mode.trim().length == 0) {
+        mode = 'GRID';
+    }
 
     // Find container
     $(container_selector).each(function(index, element){
@@ -45,11 +49,11 @@ $(document).ready(function(){
                 $insert.children().last().after($toInsert);
                 $toInsert.fadeIn(300);
 
-            }
+                // If showing grid items, activate the mosaic plugin on the added items
+                if(mode === 'GRID') {
+                    $toInsert.find(".mosaic-item").mosaic();
+                }
 
-            var mode = $.url().param('mode');
-            if(!mode || mode.trim().length == 0) {
-                mode = 'GRID';
             }
 
             var data = {

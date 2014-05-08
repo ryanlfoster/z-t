@@ -5,6 +5,8 @@
     <div class="mosaic-front-back-container flip-container">
         <div class="flipper">
 
+            <c:set var="category" value="${contentItem.pageCategory}"/>
+
             <div class="mosaic-column-front flip-front">
                 <!-- image start -->
                 <div class="mosaic-media mosaic-primary">
@@ -15,7 +17,7 @@
                 <div class="mosaic-overlay">
                     <div class="vertical-container">
                         <div class="vertical-content text-center">
-                            <span class="label-destination type-destination theme-beaches">${contentItem.title}</span>
+                            <span class="label-destination type-destination ${category.themeCssClass}">${contentItem.title}</span>
                         </div>
                     </div>
                 </div>
@@ -31,10 +33,10 @@
                 <!-- date end -->
             </div>
 
-            <div class="mosaic-column-back mosaic-content flip-back mosaic-back theme-beaches">
+            <div class="mosaic-column-back mosaic-content flip-back mosaic-back ${category.themeCssClass}">
                 <div class="vertical-container">
                     <div class="vertical-content text-center">
-                        <img class="icon-generic" src="/etc/designs/tourismaustralia/clientlibs/imgs/icons/beaches_white_outline.png" alt="">
+                        <img class="icon-generic" src="${category.whiteOutlineIcon}" alt="">
                         <p class="type-destination line-through-line-wrapper">${contentItem.title}</p>
                     </div>
                 </div>
@@ -49,7 +51,7 @@
         <!-- close button end -->
         <div class="mosaic-item-container type-ieAntialias">
             <div class="l-h-center type-spacing-20">
-                <img src="/etc/designs/tourismaustralia/clientlibs/imgs/icons/art_culture.png" alt="">
+                <img src="${category.standardIcon}" alt="">
             </div>
             <div class="line-through-container">
                 <div class="line-through"><span class="line-through-hr"></span></div>

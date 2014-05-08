@@ -1,0 +1,20 @@
+---
+layout: layout-base.hbs
+title: Events
+---
+
+<div class="paragraph-article">
+
+    {{#parseJSON '{"title": "Upcoming Australian events","copy": "Nisi amet ultrices odio? Aliquam pellentesque, tristique lacus nec? Ultricies? Proin est magnis, sit platea platea magnis integer nunc montes. Duis ultricies ac magnis cursus dapibus et."}'}}
+        {{> sectiontitle}}
+    {{/parseJSON}}
+
+    {{> carousel }}
+
+    {{> asp_search_form_result }}
+
+    {{> events_search_form }}
+
+    {{> events_results }}
+
+</div>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="urlset" type="ns:urlsetType" xmlns:ns="http://www.sitemaps.org/schemas/sitemap/0.9"/>
+  <xs:complexType name="urlType">
+    <xs:sequence>
+      <xs:element type="xs:anyURI" name="loc"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="urlsetType">
+    <xs:sequence>
+      <xs:element type="ns:urlType" name="url" maxOccurs="unbounded" minOccurs="0" xmlns:ns="http://www.sitemaps.org/schemas/sitemap/0.9"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

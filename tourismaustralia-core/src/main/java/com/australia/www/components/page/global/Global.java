@@ -56,6 +56,7 @@ public class Global {
 	private final String lastModified;
 	private final String socialNetworks;
 	private final Boolean isHomePage;
+	private final boolean prodPublish;
     private final Boolean isAuHomePage;
 
 	public Global(SlingHttpServletRequest request) {
@@ -96,11 +97,19 @@ public class Global {
 		}
 
 		url = serverName + currentPage.getPath() + ".html";
-		String tempFavIcon = currentPage.adaptTo(Design.class).getPath() + "/favicon.ico";
+		
+		String tempFavIcon = properties.get("cq:designPath", StringUtils.EMPTY) + "/favicon.ico";
 		if (request.getResourceResolver().getResource(tempFavIcon) == null) {
 			favIcon = null;
 		} else {
 			favIcon = tempFavIcon;
+		}
+
+		if (slingSettings.getRunModes().contains(ServerUtils.PUBLISH)
+			&& slingSettings.getRunModes().contains(ServerUtils.PROD)) {
+			prodPublish = true;
+		} else {
+			prodPublish = false;
 		}
 	}
 
@@ -165,6 +174,9 @@ public class Global {
 	public Boolean getIsHomePage() {
         return isHomePage;
     }
+	public boolean isProdPublish() {
+		return prodPublish;
+	}
 
     public Boolean getIsAuHomePage() {
         return isAuHomePage;

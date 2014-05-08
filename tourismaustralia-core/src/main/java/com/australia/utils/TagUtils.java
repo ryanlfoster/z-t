@@ -39,7 +39,10 @@ public class TagUtils {
 		List<Tag> tags = new ArrayList<Tag>();
 		for (String tagString : tagStrings) {
 			if (tagString.startsWith(FOOD_AND_WINE_CATEGORY)) {
-				tags.add(tagManager.resolve(tagString));
+				Tag tag = tagManager.resolve(tagString);
+				if (tag != null) {
+					tags.add(tag);
+				}
 			}
 		}
 		return tags;
@@ -48,7 +51,10 @@ public class TagUtils {
 	public static final Tag getFoodAndWinePrimaryCategory(TagManager tagManager, String[] tagStrings) {
 		for (String tagString : tagStrings) {
 			if (tagString.startsWith(FOOD_AND_WINE_CATEGORY)) {
-				return tagManager.resolve(tagString);
+				Tag tag = tagManager.resolve(tagString);
+				if (tag != null) {
+					return tag;
+				}
 			}
 		}
 		return null;

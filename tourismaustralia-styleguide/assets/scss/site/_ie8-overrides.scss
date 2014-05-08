@@ -82,6 +82,10 @@ body{
     }
   }
 
+  .mosaic-item-detail-container.active {
+    max-height:999px;
+  }
+
 
   // would like to remove 3column and keep consistent, left in for now
   .mosaic-3column-item-option.is-fade {
@@ -143,13 +147,18 @@ body{
 
 }
 
+// carousel alignment issues
+#carousel .carousel-item{
+  margin: 0;
+}
+
 
 // footer centering
 .footer-col {
   width: 100% !important;
-  text-align: center !important;
+  text-align: left !important;
   li {
-    display: inline-block !important;
+    display: block !important;
     margin-right: 1em !important;
   }
   .dropdown-select-countrylanguage{
@@ -157,7 +166,7 @@ body{
   }
   .footer-copyright {
     width: 100% !important;
-    text-align: center !important;
+    text-align: left !important;
   }
 }
 

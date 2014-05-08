@@ -1,0 +1,35 @@
+---
+title: Events Search Form
+---
+
+
+<div class="asp-search-form">
+    <div class="row l-center-1200">
+        <div class="col-xs-12">
+            <form method="" action="#">
+                <div class="asp-search-form-wrapper">
+                    <div class="asp-search-form-item">
+                        <label class="asp-search-form-label label-inline">Showing</label>
+                        {{#parseJSON '{"data" : [{"option": "Everything"}, {"option": "Major events"}]}'}}
+                            {{> dropdown_white_background }}
+                        {{/parseJSON}}
+                    </div>
+                    <div class="asp-search-form-item">
+                        {{#parseJSON '{"data" : [{"option": "Across Australia"}, {"option": "NSW"}]}'}}
+                            {{> dropdown_white_background }}
+                        {{/parseJSON}}
+                    </div>
+                    <div class="asp-search-form-item">
+                        <label class="asp-search-form-label label-inline">From</label>
+                        {{#parseJSON '{"data" : [{"option": "March 2014"}, {"option": "April 2014"}]}'}}
+                            {{> dropdown_white_background }}
+                        {{/parseJSON}}
+                    </div>
+                    <div class="asp-search-form-item">
+                        <a href="#" class="btn-primary no-margin transparent">Refresh results</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

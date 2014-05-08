@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="206" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[首頁]]></headline>
+            <href><![CDATA[/zht/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[關於]]></headline>
+            <href><![CDATA[/zht/about.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[我們的文化]]></headline>
+            <href><![CDATA[/zht/about/culture-history/culture.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/about-culture-history.jpg]]></img_background>
+    <hdl_Title><![CDATA[我們的文化]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/about-culture-history-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/about-culture-history-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[閱讀澳洲文化，瞭解由奮鬥先驅、叢林大盜和勇敢士兵譜寫的精彩故事。這是一段充滿公平競爭、野外壯舉又帶著諷刺意味的歷史進程。]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[文化 , 資料 , 電影、書籍、音樂 , 關於澳洲 , 了解更多關於第一批澳洲人、與困境鬥爭的先驅、叢林大盜、勇敢的士兵以及幫助形成澳洲文化的勇氣十足的移民]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Learn More]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[澳洲文化-澳洲旅遊局]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <PlanYourHolidayBox isTemplate="1">
+    <anc_MoreLink><![CDATA[]]></anc_MoreLink>
+    <hdl_Headline><![CDATA[計劃您的假期]]></hdl_Headline>
+    <language><![CDATA[CHT]]></language>
+    <opt_IsOnHomepage><![CDATA[]]></opt_IsOnHomepage>
+    <stf_MenuIconClass><![CDATA[]]></stf_MenuIconClass>
+    <stf_More><![CDATA[More]]></stf_More>
+    <stf_PlanYourHolidayTitle><![CDATA[Plan your holiday]]></stf_PlanYourHolidayTitle>
+    <lst_PageLinks>
+        <lst_PageLink>
+            <url><![CDATA[/zht/plan/plan-your-trip/find-travel-agent.xml]]></url>
+            <hdl_Title><![CDATA[尋找你附近的旅行代理]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/zht/plan/plan-your-trip/getting-there.xml]]></url>
+            <hdl_Title><![CDATA[從外國去澳洲]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/zht/plan/plan-your-trip/accommodation.xml]]></url>
+            <hdl_Title><![CDATA[食宿]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/zht/plan/plan-your-trip/tours.xml]]></url>
+            <hdl_Title><![CDATA[尋找旅行團]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/zht/plan/plan-your-trip/specialoffers.xml]]></url>
+            <hdl_Title><![CDATA[推廣優惠*]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+    </lst_PageLinks>
+</PlanYourHolidayBox>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <FeatureContent isTemplate="1">
+    <hdl_Title><![CDATA[原住民文化：豐富而永恒的傳統]]></hdl_Title> 
+    <stf_MoreLinkTitle><![CDATA[]]></stf_MoreLinkTitle>
+    <txt_MainContent><![CDATA[<STRONG>原住民文化：豐富而永恒的傳統 <BR></STRONG>“夢幻時光”是創世時期以前神聖的時光。根據原住民的信仰，具有圖騰意義的神靈祖先有的從大地涌現，有的從天而降，前來喚醒黑暗寧靜的世界。他們創造了太陽、月亮和星星，製造了高山、河流、樹木和水潭，並化身為人和動物。神靈祖先透過土著文化的各個方面將遠古與現在和未來聯繫在一起。岩石藝術、工藝品和樹皮畫展現了“夢幻時光”的故事，標界了領地並記錄了歷史，而歌曲講述了“夢幻時光”的歷程，口述出水源和其它重要地標的所在地。這些特殊的歌詞已幾乎一字不改地流傳了至少 5 萬年，而且常常由拍棒或深沉的迪吉里杜管伴奏。如同歌曲一樣，傳統舞蹈展現出創世神話，刻畫了“夢幻時光”英雄的事跡，甚至近代的歷史事件。 
+<P><STRONG>殖民地神話： 與逆境對抗的人們、叢林匪徒和勇敢的士兵<BR></STRONG>澳洲人堅信同伴間的友誼和公平競爭，並且對處於劣勢者以及與逆境對抗的人們有著強烈的同情。這些價值觀源自罪犯和早期殖民者，那時，他們不僅要與荒蕪而陌生的土地鬥爭，還常常要面對不公正的當權者。 英國在將罪犯運送到澳洲的同時，也將等級制度帶到了澳洲。面對等級制度所造成的貧窮與不公正，澳洲歷史上最著名的叢林匪徒耐德•凱利（Ned Kelly）鋌而走險，起來對抗。這位具有缺點的英雄為了“正義和自由”及“無辜的人民”而鬥爭，他的故事已經成為民族文化的一部分，激發人們創作出了無數的文學和電影作品。在故事和歌曲中，19世紀50年代中期在金礦區掘金的人們被描繪成擁護民主的浪漫英雄、嬉皮無賴和反叛人物。1854年充滿血腥的尤里卡柵欄事件（Eureka Stockade）成為社會平等取得勝利的象徵，在這次事件中，維多利亞礦工奮起反抗專制的許可證制度。後來，在第二次世界大戰期間，那些曾在加利波利（Gallipoli）服役的勇敢的澳新軍團（ANZAC）士兵賦予了“堅強不屈的澳洲人”新的內涵。 </P>
+<P><STRONG>澳洲英語：講“澳式英語” <BR></STRONG>澳洲人講著獨特的口語，即1966年語言學家阿拉斯塔•莫里森（Alastair Morrison）稱之為strine的語言，想象一下，咬緊牙關、不讓蒼蠅飛入，用這樣的口型來說Australian這個詞。這種口語包含有早期罪犯所用的許多早已失傳的倫敦方言、愛爾蘭俗語，還結合了原住民語言的一些詞匯。我們經常縮略詞語，然後在字尾加上o或ie，如bring your cossie to the barbie this arvo（今天下午帶您的泳衣來燒烤聚會）。我們還喜歡反著說昵稱，稱紅髮的人為bluey（藍小子），黑髮的人為snowy（白雪），喊矮人為lofty（高個子）。我們喜歡拉平元音，並在句子結尾時略微上揚聲調。</P>
+<P><STRONG>體育英雄：金綠色的榮耀 <BR></STRONG>眾所周知，澳洲人酷愛體育。這裏有120多個國家級體育機構，地方、地區和州的體育組織更數以千計，據估計，澳洲登記在冊的體育運動參與者有650萬名。對於人口總數剛超過2000萬的澳洲而言，這個數字相當不錯！澳洲的頭號賽事是澳式足球（Australian Rules Football，AFL），球員的高踢和芭蕾舞般的躍起動作頻現賽場，而以蠻力和阻截技術為特色的全國橄欖球聯盟（National Rugby League，NRL）則在新南威爾斯州和昆士蘭州最為盛行。澳洲的國家橄欖球聯隊（National Rugby Union team），即澳洲袋鼠隊（Wallabies），參加國際巡迴賽，並在貝勒蒂斯羅杯（Bledisloe Cup）中與南非對陣，該比賽是三國對抗賽（Tri Nations tournament）的一部分。澳洲游泳運動非常普及，所得奧運金牌證明了我們的成績。身著白色球衣的澳洲板球隊伴我們度過整個夏天，而到了1月份，我們會頻頻轉台看澳洲網球公開賽（Australian Open）。這項賽事在墨爾本舉辦，它吸引到澳洲來的人數比其它任何體育賽事都多。足球運動近年來蓬勃發展；貝爾斯海灘滑浪經典賽（Bells Beach Surf Classic）引來了世界一流的滑浪高手；節禮日（Boxing Day），人群聚集在一起，共睹悉尼至荷伯特帆船賽（Sydney to Hobart Yacht Race）中帆船從悉尼海港（Sydney Harbour）揚帆啟航的盛況。十一月的第一個星期二，舉國上下都會將注意力集中到著名的賽馬比賽 - 墨爾本杯（Melbourne Cup），而在三月份，賽車迷會前往菲力浦島（Phillip Island）觀看世界一級方程式錦標賽（Formula One Grand Prix）。我們熱愛的體育運動數不勝數，要是對某些規則不甚了解，只要問問熱情的觀眾，便能得到滿意的答案。</P>
+<P><STRONG>戶外生活：海灘與燒烤 <BR></STRONG>80％以上的澳洲人居住在離海岸50公里的範圍內，海灘已成為我們悠閒生活方式中不可缺少的一部分。從周六上午滑浪俱樂部的少年訓練到燒烤後的沙灘板球遊戲，我們熱愛沙灘上的生活。我們會在熙熙攘攘的城市海灘上"霸位"，在廣受歡迎的度假景點鬆弛休憩，還會駕車前往海濱國家公園那些不為人知的隱蔽海灘。我們去海灘以享受陽光、滑浪、航行、帆傘運動、垂釣、浮潛、潛水，還趁退潮時在海邊"尋寶"。那裏是我們社交、運動、休息及享受浪漫的地方。同時，也是慶祝活動的理想場所。除夕夜，狂歡者在悉尼的曼利（Manly）和邦戴（Bondi）海灘、阿得萊德（Adelaide）的格雷寧（Glenelg）海灘狂歡起舞、觀賞煙花。很多海灘在澳洲國慶日會舉行公民入籍儀式，而聖誕節這一天，多達 4 萬名身穿泳衣的各國遊客會戴著聖誕老人的帽子匯聚在邦戴海灘。澳洲最著名的海灘 - 悉尼的邦戴和曼利、墨爾本的聖科達（St Kilda）、昆士蘭黃金海岸（Queensland Gold Coast）的滑浪者天堂（Surfers Paradise）、柏斯（Perth）的科特索（Cottesloe）以及阿得萊德的格雷寧 – 吸引著當地及各國遊客。</P>]]></txt_MainContent> 
+    <con_ImageItem>
+        <ImageItems isTemplate="1">
+    <anc_link><![CDATA[]]></anc_link>
+    <img_MainImage><![CDATA[<img src="/contentimages/2.2_culture_highlight(2).jpg">]]></img_MainImage>
+    <stf_Caption><![CDATA[ ]]></stf_Caption>
+</ImageItems><ImageItems isTemplate="1">
+    <anc_link><![CDATA[]]></anc_link>
+    <img_MainImage><![CDATA[<img src="/contentimages/2.2_culture_highlight(1).jpg">]]></img_MainImage>
+    <stf_Caption><![CDATA[ ]]></stf_Caption>
+</ImageItems><ImageItems isTemplate="1">
+    <anc_link><![CDATA[]]></anc_link>
+    <img_MainImage><![CDATA[<img src="/contentimages/2.2_culture_highlight(3).jpg" alt="Kultur">]]></img_MainImage>
+    <stf_Caption><![CDATA[ ]]></stf_Caption>
+</ImageItems>
+    </con_ImageItem>
+</FeatureContent>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+        <lst_Subpage><![CDATA[<a href="/zht/about/culture-history/australian-culture/cultural-attractions.xml">澳洲的文化勝地</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/zht/about/culture-history/australian-culture/heritage-attractions.xml">澳洲歷史名勝</a>]]></lst_Subpage>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

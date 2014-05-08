@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="15579" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[首頁]]></headline>
+            <href><![CDATA[/zht/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[關於]]></headline>
+            <href><![CDATA[/zht/about.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[天氣]]></headline>
+            <href><![CDATA[/zht/about/key-facts/weather.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[阿得萊德（Adelaide）天氣]]></headline>
+            <href><![CDATA[/zht/about/key-facts/weather/adelaide-weather.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/about-weather-adelaide.jpg]]></img_background>
+    <hdl_Title><![CDATA[阿得萊德（Adelaide）天氣]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/about-key-facts-weather-adelaide-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/about-key-facts-weather-adelaide-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[no]]></opt_PartnerLead>
+    <stf_description><![CDATA[取得天氣、季節性溫度和氣候資訊，協助您規劃在阿得萊德（Adelaide）、袋鼠島（Kangaroo Island）和芭蘿莎谷（Barossa Valley）的假期。 ]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[格蘭奇碼頭咖啡館（Grange Jetty Cafe），阿得萊德（Adelaide），南澳（SA）。 &copy; SATC &amp; Adam Bruzzone]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[y]]></stf_IsMobile>
+    <stf_keywords><![CDATA[阿得萊德（Adelaide）天氣, 南澳（South Australia）天氣, 阿得萊德（Adelaide）溫度, 阿得萊德（Adelaide）氣候]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[瞭解更多]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[阿得萊德（Adelaide）天氣、溫度和氣候 - 澳洲旅遊局（Tourism Australia）]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+      取得溫度、降雨量和季節性活動的相關資訊，協助您規劃在阿得萊德（Adelaide）的假期。
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <Listing isTemplate="1">
+<anc_List1><![CDATA[/zht/explore/cities/adelaide.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[更多關於澳洲旅遊的好主意]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/zht/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/zht/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/zht/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/zht/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/zht/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/zht/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/zht/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/zht/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/zht/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/zht/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/zht/Transport.aspx]]></anc_Transport>
+<hdl_Title><![CDATA[規劃行程]]></hdl_Title>
+<language><![CDATA[CHT]]></language>
+<stf_Accomodation><![CDATA[]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[阿得萊德（Adelaide）]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[]]></stf_Events>
+<stf_Hire><![CDATA[]]></stf_Hire>
+<stf_Informationservices><![CDATA[]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[南澳（South Australia）]]></stf_StateFilter>
+<stf_Tours><![CDATA[]]></stf_Tours>
+<stf_Transport><![CDATA[]]></stf_Transport>
+</PlanYourVisit>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[阿得萊德（Adelaide）天氣]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+      南澳（South Australia）內陸地區炎熱乾燥，南部及海岸地區則溫和潮濕。 阿得萊德（Adelaide）的冬季通常溫和潮溼，夏季則溫暖乾燥。 這裡是澳洲所有首府城市中最乾燥的地區。 此處年平均降雨量為 553 公釐。六月是最潮濕的月份，平均降雨量達 80 公釐。夏季平均降雨量約為 20 公釐。夏季平均最高溫度為 29&deg;C，冬季則為 15–16&deg;C。 您可在此取得溫度、降雨量和季節性活動的相關資訊，協助您規劃在阿得萊德（Adelaide）的假期。
+    <p>
+      秋季（三月至五月）是走訪<a href="/zht/explore/cities/adelaide.xml" target="_self">阿得萊德（Adelaide）</a>的最佳時機。 此時陽光普照，天氣溫暖宜人。 阿得萊德（Adelaide）秋季的每日氣溫約介於最低溫 12.5&deg;C 至最高溫 22.4&deg;C 之間。
+    </p><p>
+      秋季時，兩年一度的<a href="/zht/explore/events/sa-tasting-australia.xml" target="_self">澳洲美食節（Tasting Australia）</a>（四月至五月）在阿得萊德（Adelaide）和南澳（South Australia）各地舉行。 這是品嚐南澳（South Australia）當地新鮮土特產的大好機會。
+    </p><p><a href="/zht/explore/states/sa.xml" target="_self">南澳（South Australia）</a>的降雨主要來自冬季月份（六月、七月和八月）。 阿得萊德（Adelaide）與洛福迪山脈（Mount Lofty Ranges）的降雨較內陸地區來得多。 阿得萊德（Adelaide）冬季的每日平均溫度介於最低溫 8&deg;C 至最高溫 15.9&deg;C 之間。
+    </p><p>
+      春季時（九月至十一月），南澳（South Australia）披上一層繽紛的色彩，野生生態一片欣欣向榮。 阿得萊德（Adelaide）春季的每日平均溫度介於最低溫 11.6&deg;C 至最高溫 21.7&deg;C 之間。 最適合探索<a href="/zht/explore/icons/flinders.xml" target="_self">費蓮達山脈（Flinders Ranges）</a>阿卡巴步行路徑（Arkaba Walk）的時間是十月至四月。
+    </p><p>
+      夏季時（十二月至二月），人們湧向海邊，此時的海邊小鎮總是相當熱鬧且繁忙。 當地人也會趁著溫暖的天氣外出用餐，在戶外享用阿得萊德（Adelaide）各個精緻餐廳與咖啡廳的美食。 搭上電車，前往海邊小鎮<a href="/zht/explore/cities/adelaide/sa-glenelg-beach.xml" target="_self">格雷爾（Glenelg）</a>，這裡是地中海型氣候，四季溫暖宜人。
+    </p><p><a href="/zht/explore/states/sa/barossa-valley.xml" target="_self">芭蘿莎谷（Barossa Valley）</a>的夏天總是艷陽高照、天氣溫暖。 夜晚相當適合在戶外用餐。 春天的好天氣是來趟自然徒步之旅的絕佳時機。 白天輕裝出發，並準備保暖衣物以便應付夜晚涼爽的天氣。 秋季時，葡萄藤上的秋葉是您不可錯過的美麗景色。 冬季來臨後，氣溫下降，雨量增多，拿杯葡萄酒坐在溫暖的柴火前啜飲，寒冷冬夜裡最完美的享受莫過於此！
+    </p><p><a href="/zht/explore/icons/kangaroo-island.xml" target="_self">袋鼠島（Kangaroo Island）</a>是個四季皆宜的旅遊景點。 夏季時，大地上的金黃牧草與繽紛綻放的夏日野花相互輝映。 樹熊、沙袋鼠、袋鼠和澳洲海獅都在此時繁衍下一代。 秋季時，珍貴的黑色美冠鸚鵡和小企鵝紛紛開始築巢。 冬季因綠草如茵的鄉村景觀、潺潺的小河及豐富的野生生態而精彩萬分。 南露脊鯨在遷徙至大澳洲灣（Great Australian Bight）產子時也會經過這邊的海岸。 春天是重生的季節。 大地再度充滿盛開的野花、歡唱的小鳥，以及活潑好動的哺乳動物。
+    </p><br /><p><strong>氣候圖</strong></p><table style="border: #ccc 1px solid;" cellspacing="0" cellpadding="0" width="100%"><tbody><tr style="background-color: #cccccc;"><td style="width: 15%;" valign="top"><p><strong>溫度</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>一月</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>二月</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>三月</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>四月</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>五月</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>六月</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>七月</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>八月</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>九月</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>十月</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>十一月</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>十二月</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>全年</strong></p></td></tr><tr><td style="border-bottom: #ccc 1px solid; width: 15%; border-right: #ccc 1px solid;" valign="middle"><p>
+              平均最高溫度（&deg;C）
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              29.3
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              29.4
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              26.3
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              22.7
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              18.9
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              16.1
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              15.3
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              16.6
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              19
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              21.8
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              25.1
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              27
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%;" valign="middle"><p style="text-align: center;">
+              22.3
+            </p></td></tr><tr><td style="width: 15%; border-right: #ccc 1px solid;" valign="middle"><p>
+              平均最低溫度（&deg;C）
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              17.1
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              17.2
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              15.2
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              12.4
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              10.2
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              8.1
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              7.5
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              8.2
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              9.7
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              11.5
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              14
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              15.6
+            </p></td><td style="width: 6.5%;" valign="middle"><p style="text-align: center;">
+              12.2
+            </p></td></tr></tbody></table><p style="text-align: right;"><em><span style="font-size: 10px;">資料來源：氣象局（Bureau of Meteorology），2013 年</span></em></p><p><strong>雨量圖</strong></p><table style="border: #ccc 1px solid;" cellspacing="0" cellpadding="0" width="100%"><tbody><tr style="background-color: #cccccc;"><td style="width: 15%;" valign="top"><p><strong>降雨量</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>一月</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>二月</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>三月</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>四月</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>五月</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>六月</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>七月</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>八月</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>九月</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>十月</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>十一月</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>十二月</strong></p></td><td style="width: 6.5%;" valign="top"><p style="text-align: center;"><strong>全年</strong></p></td></tr><tr><td style="width: 15%; border-right: #ccc 1px solid;" valign="middle"><p>
+              平均降雨量（公釐）
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              19
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              13.5
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              27.4
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              39.8
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              60
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              79.4
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              74.7
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              68.8
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              59.2
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              43.1
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              30.9
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              29
+            </p></td><td style="width: 6.5%;" valign="middle"><p style="text-align: center;">
+              544
+            </p></td></tr><tr><td style="border-bottom: #ccc 1px solid; width: 15%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p>
+              降雨量中位數（公釐）
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              18.8
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              10.4
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              20.8
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              33.1
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              60.8
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              78.8
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              68.8
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              73.7
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              56.4
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              37
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              29.8
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              23.8
+            </p></td><td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              545.2
+            </p></td></tr><tr><td style="width: 15%; border-right: #ccc 1px solid;" valign="middle"><p>
+              雨量 ≥ 1（公釐）的平均降雨日數
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              2.8
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              2.1
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              3.6
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              5.3
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              8.8
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              11
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              11.9
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              11.9
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              9.2
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              6.5
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              4.8
+            </p></td><td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle"><p style="text-align: center;">
+              4.4
+            </p></td><td style="width: 6.5%;" valign="middle"><p style="text-align: center;">
+              82.3
+            </p></td></tr></tbody></table><p style="text-align: right;"><em><span style="font-size: 10px;">資料來源：氣象局（Bureau of Meteorology），2013 年</span></em></p>]]></txt_Information>
+            
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

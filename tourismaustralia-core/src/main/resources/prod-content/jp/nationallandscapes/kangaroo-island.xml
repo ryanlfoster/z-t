@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="22247" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[ホーム]]></headline>
+            <href><![CDATA[/jp/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Tools and Campaigns]]></headline>
+            <href><![CDATA[/jp/tools-campaigns.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[オーストラリアを代表する景観]]></headline>
+            <href><![CDATA[/jp/nationallandscapes.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[カンガルー島]]></headline>
+            <href><![CDATA[/jp/nationallandscapes/kangaroo-island.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/Campaigns/national-landscapes-kangaroo-island.jpg]]></img_background>
+    <hdl_Title><![CDATA[カンガルー島]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/national-landscapes-kangaroo-island-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/Campaigns/national-landscapes-kangaroo-island-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[yes]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[アデレードから気軽に行けるカンガルー島の手つかずの自然の中で、固有の野生動物との出会いを楽しみましょう。]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[カンガルー島、カンガルー島　アデレード、カンガルー島　オーストラリア、カンガルー島　南オーストラリア州、カンガルー島旅行、キングスコート、アデレード　島、オーストラリアの島、ペネショー、リマーカブル・ロックス、ビボンヌ・ベイ、ケープ・ジャービス、フリンダース・チェース国立公園]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[詳細はこちらから]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[オーストラリアを代表する景観：カンガルー島 - オーストラリア政府観光局]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        アデレードから気軽に行けるカンガルー島の手つかずの自然の中で、固有の野生動物との出会いを楽しみましょう。
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <StandardCampaignLayout isTemplate="1">
+    <opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+    <hdl_Title><![CDATA[]]></hdl_Title>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+    <con_Banner><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<DIV id=headerimage>
+<SCRIPT type=text/javascript src="../../static/js/jquery.cycle.all.latest.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+jQuery(document).ready(function() {
+jQuery('#headersliderwrapper').cycle({
+        fx:'fade',
+        slideExpr: '.headerslide'
+    });
+});
+</SCRIPT>
+
+<DIV id=headersliderwrapper>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-kis-01.jpg"> 
+<DIV class=headerslideinfo>オーストラリア・アシカ、南オーストラリア州</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-kis-02.jpg"> 
+<DIV class=headerslideinfo>カンガルー島、南オーストラリア州</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-kis-03.jpg"> 
+<DIV class=headerslideinfo>リマーカブル・ロックス、南オーストラリア州</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-kis-04.jpg"> 
+<DIV class=headerslideinfo>ハリモグラ</DIV></DIV></DIV></DIV>
+<DIV id=subpage-header-overlay></DIV>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule></con_Banner>
+    <con_Body><TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[カンガルー島]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        アデレードから気軽に行けるカンガルー島の手つかずの自然の中で、野生動物との出会いを楽しみましょう。シール・ベイ（Seal Bay）ではアシカたちが縄張りの中で思い思いに過ごす様子が、さらにペネショー（Penneshaw）ではフェアリーペンギンが砂浜を列をなして歩く様子が見られます。動物を見学し終わったら、次はこの島の荒々しい景観やにぎやかなビーチを楽しみましょう。ハンソン・ベイ（Hanson Bay）ではハイキングが、ケリー・ヒル自然保護公園（Kelly Hill Conservation Park）では洞窟探検が楽しめ、リマーカブル・ロック（Remarkable Rocks）では美しい夕日を眺めることができます。また海岸に行くとイルカと一緒に泳いだり、サーフィンをしたり、鮮やかなサンゴ礁の間や難破船の中でシュノーケリングを楽しむこともできます。島内にはアボリジニたちが語り伝えてきた物語に登場する場所もたくさんあります。
+        <p><strong>カンガルー島探訪をおすすめする5つの理由</strong></p>
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[1. 大自然の中で自由に暮らす野生動物たち]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-kangaroo-island-hl01.jpg" alt="Australian sea lions">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Australian sea lions]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        キングスコートやペネショーに行って、ペリカンの餌付けをしたり、フェアリーペンギンの行列を見学したりしてください。また夜にはアメリカン・リバー（American River）から出発する夜行性動物の見学ツアーに参加して、活発に動きまわるタマヤブワラビーやフクロギツネ、カンガルーの姿を見物しましょう。さらにケープ・ガンシューム自然保護公園（Cape Gantheaume Conservation Park）にあるマレー・ラグーン（Murray Lagoon）でアヒルや白鳥、サギの仲間を見ながらブッシュウォーキングを楽しむのもいいでしょう。島内には267種近い野鳥が生息していますが、そのほとんどが観察できるのはここだけです。シール・ベイではオーストラリア・アシカを眺め、フリンダース・チェイス国立公園のアドミラルズ・アーチ（Admirals Arch）周辺では7000頭以上のニュージーランド・オットセイが仲良く遊んでいる姿を目に焼きつけてください。同じ場所には数百匹のカンガルーものんびりと暮しています。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[2. 灯雄大な風景の中に足跡を刻む]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-kangaroo-island-hl02.jpg" alt="Kelly Hill Caves, SA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Kelly Hill Caves, SA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        フリンダース・チェイス国立公園を歩いて、リマーカブル・ロックやアドミラル・アーチなど、大自然がつくった不思議な造形を見てまわりましょう。古い灯台があることで有名なケープ・デュ・クーディック（Cape Du Couedic）やケープ・ボルダ（Cape Borda）にも行ってみてください。灯台守とその家族たちがどれほど孤独に暮らしていたかがしみじみと実感できます。崖の上を延々と進む道を歩いて、木々に覆われた渓谷をトレッキングしたり、島内の静かでがらんとした道をサイクリングするのもいいでしょう。ハンソン・ベイ・ハイク（Hanson Bay Hike）の多様な景色を楽しんだり、リトル・サハラ（Little Sahara）の砂丘を滑り降りることもできます。さらにケリー・ヒル自然保護公園で洞窟探検をして、その下に広がるシュガーガムの森でアカクサインコを探してみてください。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[3. 終わりのない海辺のアドベンチャー]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-kangaroo-island-hl03.jpg" alt="Kayaking at Harriet River, SA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Kayaking at Harriet River, SA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        キングスコートかエミュー・ベイ（Emu Bay）沖の穏やかな海に潜って珍しいリーフィー・シー・ドラゴンを眺めたり、鮮やかなサンゴ礁を見ながらシュノーケリングを楽しんだりしてください。デストレス・ベイ（D’estrees Bay）に行くと、島の沖にいくつも沈んでいる難破船のどれかに潜ることができます。エミュー・ベイの桟橋やアメリカン・リバー、ペネショーでは釣りも楽しめます。さらにネピアン・ベイ（Nepean Bay）周辺の美しいビーチを眺めながらヨット遊びを楽しんだり、ストークス・ベイやペニントン・ベイ（Pennington Bay）の誰もいない浜辺でサーフィンを楽しむのもいいでしょう。北海岸のスネリング・ビーチ（Snellings Beach）、東海岸にある波静かなブラウン・ビーチ（Brown Beach）、南海岸にあるのどかなビボンヌ・ベイなどは、海水浴にぴったりの場所です。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[4. 美しい景色を眺めながら料理とワインに舌鼓]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-kangaroo-island-hl04.jpg" alt="Kangaroo Island, SA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Kangaroo Island, SA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        島内のワインセラーを訪ねてみましょう。美しい景色が眺められるところが多く、ワインが一層おいしく感じられます。シグネット・リバー（Cygnet River）で高級リキュールを味わったり、飛行機の乗り換え時間の合間に気ままにワインを試飲するのもいいものです。キングスコートやマックギリブレイ（MacGillivray）の農家でつくられたハチミツ・アイスクリームや羊のミルクのチーズ、珍しいリグリアン・ハニーもおすすめです。島内のあらゆる場所に、新鮮でそこでしか味わえない食材があります。大海原を眺めながら、マロン（淡水産ロブスター）やキング・ジョージ・ホワイティング（沖ギス）、アメリカン・リバーのカキを味わってみてください。滞在中のビーチ・ハウスやピクニックにはおいしい野菜やお気に入りのワインをたくさん用意しておきましょう。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[5. アボリジニの国生みの物語]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-kangaroo-island-hl05.jpg" alt="Ngarrindjeri Tour, SA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Ngarrindjeri Tour, SA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        アボリジニの国生み神話には、ングルンデリ（Ngurunderi）という英雄が出てきます。この男は不実な妻2人を追いかけてカンガルー島に渡ってきて、魂の世界へと戻っていったという伝説があります。この英雄が旅した場所を訪ねてクーロン（Coorong）を一通り巡ってから、カンガルー島に行ってみてください。ナランジェリ族（Ngarrindjeri people）の血を引くガイドの案内で、ウォーキングやカヤックのツアーを楽しむことができます。この一族は不思議なことにヨーロッパ人が入植してくる何千年も前に、カンガルー島を捨てて別の場所に移住したのです。島内には他にもラミンジェリ族（Ramindjeri people）のガイドが案内してくれるツアーがあります。この種族はかつて本土から捕鯨船に乗せられて連れて来られたアボリジニ女性の子孫です。はるか昔の国生みの伝説と、もっと現代に近い時代の話を両方聞いて、この島の独特な風景をより深く味わってください。
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights></con_Body>
+    <con_RHSModules><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<TABLE cellSpacing=0 cellPadding=0 width=298 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top align=center>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD style="WIDTH: 25px"></TD>
+<TD><!-- #BeginLibraryItem "/Library/sitenav.lbi" -->
+<SCRIPT language=JavaScript1.2 type=text/javascript src="../../static/js/stmenu.js"></SCRIPT>
+<!-- #EndLibraryItem --></TD></TR></TBODY></TABLE><!-- Google Map Start -->
+<SCRIPT type=text/javascript>
+function fireEvent(obj,evt){
+var fireOnThis = obj;
+if( document.createEvent ) {
+var evObj = document.createEvent('MouseEvents');
+evObj.initEvent( evt, true, false );
+fireOnThis.dispatchEvent(evObj);
+} else if( document.createEventObject ) {
+fireOnThis.fireEvent('on'+evt);
+}
+}
+function clickLink(linkobj) {
+if (linkobj.getAttribute('onclick') == null) {
+if (linkobj.getAttribute('href')) document.location = linkobj.getAttribute('href');
+}
+else linkobj.onclick();
+}
+function loadjscssfile(filename, filetype){
+if (filetype=="js"){ //if filename is a external JavaScript file
+var fileref=document.createElement('script')
+fileref.setAttribute("type","text/javascript")
+fileref.setAttribute("src", filename)
+}
+else if (filetype=="css"){ //if filename is an external CSS file
+var fileref=document.createElement("link")
+fileref.setAttribute("rel", "stylesheet")
+fileref.setAttribute("type", "text/css")
+fileref.setAttribute("href", filename)
+fileref.setAttribute("media", "print")
+}
+if (typeof fileref!="undefined")
+document.getElementsByTagName("head")[0].appendChild(fileref)
+}
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+var icheckk=0;
+jQuery.each(jQuery.browser, function(i, val) {
+if(i=="msie" && jQuery.browser.version.substr(0,3)=="7.0")
+icheckk=1;
+});
+function myfun()
+{
+loadjscssfile("../../static/css/thickbox.css", "css");
+if(icheckk==1)
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='../../static/maps/jp/kangarooisland/bigmap.html'  target='_blank'>&nbsp;印刷|クローズ|&nbsp;またはEscキーを押して</a></b>","../../static/maps/jp/kangarooisland/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+else
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='javascript:window.print()' >&nbsp;印刷|クローズ|&nbsp;またはEscキーを押して</a></b>","../../static/maps/jp/kangarooisland/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+}
+         </SCRIPT>
+<IFRAME style="MARGIN-BOTTOM: 20px; BORDER-TOP: black 1px solid; HEIGHT: 355px; BORDER-RIGHT: black 1px solid; BORDER-BOTTOM: black 1px solid; FLOAT: left; PADDING-BOTTOM: 5px; BORDER-LEFT: black 1px solid; BACKGROUND-COLOR: #333333" height=380 src="../../static/maps/jp/kangarooisland/index.html" frameBorder=0 width=249 name=FRAMENAME scrolling=no></IFRAME><!-- Google Map end -->
+<DIV class=subpage-video-thumb style="TEXT-ALIGN: left"><A onclick="moduleTrackingWithTitle('lightbox-video','',false,'nationallandscapes-kangarooislandjp');" href="#" data-reveal-id="modalVideo"><IMG alt="" src="/contentimages/Campaigns/national-landscapes-video-jp.jpg"></A> </DIV>
+<DIV id=modalVideo class="reveal-modal video" style-="z-index: 103;"><A class=close-reveal-modal><SPAN class=icon></SPAN></A>
+<DIV class=video style="VISIBILITY: visible !important"><IFRAME height=315 src="//www.youtube.com/v/EjGZ3MaX9pE?version=3&amp;hl=en_GB" frameBorder=0 width=560></IFRAME></DIV></DIV></TD></TR></TBODY></TABLE>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule><Listing isTemplate="1">
+<anc_List1><![CDATA[/jp/explore/states/sa/sa-eyre-peninsula.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[オーストラリアのその他の観光地]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/jp/AccommodationSearch.ignore]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/jp/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/jp/AttractionSearchResults.ignore]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/jp/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/jp/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/jp/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/jp/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/jp/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/jp/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/jp/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/jp/Transport.aspx]]></anc_Transport>
+<hdl_Title><![CDATA[旅行プランを立てる ]]></hdl_Title>
+<language><![CDATA[JPN]]></language>
+<stf_Accomodation><![CDATA[寝台を予約します]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[アトラクション]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[近くで旅行代理店を見つけてください]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[目的地の情報]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[Kangaroo Island]]></stf_DomesticRegion>
+<stf_Events><![CDATA[プロジェクト]]></stf_Events>
+<stf_Hire><![CDATA[賃貸]]></stf_Hire>
+<stf_Informationservices><![CDATA[情報サービス]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[South Australia]]></stf_StateFilter>
+<stf_Tours><![CDATA[旅行]]></stf_Tours>
+<stf_Transport><![CDATA[交通機関]]></stf_Transport>
+</PlanYourVisit></con_RHSModules>
+    <con_Category></con_Category>
+    <lst_Subpages>
+    </lst_Subpages>
+</StandardCampaignLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

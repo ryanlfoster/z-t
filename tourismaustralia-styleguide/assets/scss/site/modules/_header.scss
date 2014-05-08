@@ -97,7 +97,7 @@ $navigation-bar-height: pxtoem(90px);
 .notice-bar,
 .arrival-bar {
     .l-center-1200 {
-        padding: 0 pxtoem(15px);
+        padding: 1px pxtoem(15px) 0 pxtoem(15px);
     }
 }
 
@@ -142,25 +142,25 @@ $navigation-bar-height: pxtoem(90px);
 
     .row {
         position: relative;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-top: 16px;
+        padding-bottom: 16px;
     }
 
     .notice-text {
         margin: 0;
     }
 
-    .notice-summary {        
+    .notice-summary {
         font-size: pxtoem(13px);
     }
-    
+
     .notice-title {
         font-weight: bold;
         font-family: $font-family-base-b;
     }
 
     .notice-close {
-        top: 15px;
+        top: 20px;
         right: 15px;
         position: absolute;
         padding: 0;
@@ -319,6 +319,7 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
 
     ul {
         //min-width: 320px;
+        z-index: 99;
     }
 
     li {
@@ -441,7 +442,8 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
 
         .main-nav-panel {
             height: 100%;
-            background-color: $nav-mobile-top-links-bg;
+            padding-top: 57px;
+            margin-top: -57px;
         }
 
         .nav-bar-left,
@@ -711,9 +713,15 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
 // * ---------------------------------------------------------------------------------------------------------------- */
 .navigation-bar {
 
-    .has-children > .nav-bar-panel {
+    /*
+    .main-nav-panel,
+    .main-nav-wrap,
+    .mobile-open-bar {
+        z-index: 999;
+    }
+    */
 
-        @extend .gpu-render;
+    .has-children > .nav-bar-panel {
 
         // Mobile Only...
         @media (max-width: $screen-xs-max) {
@@ -765,6 +773,7 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
 }
 
 // Focus should work with an without JS but there are some helpers in jquery.ta.megamenu.js for internal element focus
+/*
 .navigation-bar {
     // Targeted Nav Bar Panels Defaults...
     .has-children a:focus + .nav-bar-panel > .nav-bar-panel-container {
@@ -772,6 +781,7 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
         @include transition(max-height, 0.25s, ease-in, 0);
     }
 }
+*/
 
 // JavaScript Disabled Actions...
 .no-js .navigation-bar {
@@ -1011,14 +1021,20 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
 
         .navigation-bar {
             height: 100%;
-            padding-right: pxtoem(48px);
-            background-color: rgba(0, 0, 0, 0.5);
             @include nav-main-nav-bar-open();
         }
 
         .main-nav-panel {
-            overflow-y: auto;
-            max-width: 510px;
+            //overflow-y: auto;
+            //max-width: 510px;
+            background-color: rgba(0, 0, 0, 0.5);
+            overflow-y: auto; // force this so we can't scroll the body when the menu is open
+            padding-right: pxtoem(48px);
+        }
+
+        .main-nav-wrap {
+            height: 100%;
+            background-color: $nav-mobile-top-links-bg;
         }
 
         .mobile-open-bar,
@@ -1085,6 +1101,7 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
         border-bottom: 1px solid #fff;
         font-size: pxtoem(18px);
         color: $navigation-bar-active-link-colour;
+        font-family: $font-family-base-l;
         @extend .placeholder-text-colour;
 
         &:focus {
@@ -1149,11 +1166,15 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
     }
 }
 
-///*
-// * (IE8) Main Navigation Mega Menu Panel Content:
-// * ---------------------------------------------------------------------------------------------------------------- */
-.lt-ie9 .nav-bar-panel-container {
+.is-open .nav-bar-panel-nav > li > a {
+    background-color: $nav-mobile-bot-links-dd-bg;
+}
 
+@media (max-width: $screen-xs-max) {
+    .is-open .nav-bar-panel-nav > li > div > a {
+        // map filters
+        background-color: $nav-mobile-bot-links-dd-bg;
+    }
 }
 
 ///*
@@ -1210,6 +1231,10 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
     }
 }
 
+.megamenu.is-open .header-masthead {
+    visibility:hidden;
+}
+
 ///*
 // * (IE8) Header Masthead:
 // * ---------------------------------------------------------------------------------------------------------------- */
@@ -1237,14 +1262,14 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
 ///*
 // * Mega Menu Panels - Common Properties:
 // * ---------------------------------------------------------------------------------------------------------------- */
-.megamenu-map {
+.megamenu-panel {
 
     .megamenu-components {
         @include clearfix();
         //padding: pxtoem(30px) 0;
     }
 
-    a {
+    .nav-bar-panel-nav a {
         text-decoration: none;
         &:hover {
             color: $megamenu-link-hover-colour;
@@ -1265,5 +1290,5 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
     width: 100%;
     z-index: 10;
     background: #000;
-    background: rgba(0,0,0,.5);
+    background: rgba(0, 0, 0, .5);
 }

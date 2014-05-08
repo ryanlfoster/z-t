@@ -4,8 +4,8 @@ vendor/modernizr-2.7.1.js
 vendor/respond.js
 
 vendor/owl-carousel/owl.carousel.js
+src/ta.main.js
 src/modules/jquery.ta.carousel.js
-vendor/jquery.cookie.js
 vendor/skrollr.js
 vendor/responsive-images/debounce.js
 vendor/responsive-images/mediamatch.js
@@ -13,12 +13,21 @@ vendor/responsive-images/jquery.picturefill.js
 src/modules/jquery.ta.flipcard.js
 src/modules/jquery.ta.mosaic.js
 src/modules/jquery.ta.searchinput.js
+src/modules/jquery.ta.inputfocus.js
 src/modules/jquery.ta.megamenu.js
 src/modules/jquery.ta.fullwidthbg.js
 src/modules/jquery.ta.imageScroll.js
 src/modules/jquery.ta.parallax.js
 src/helper/responsive.image.helper.js
 src/helper/navScroller.js
+src/modules/jquery.ta.aspsearch.js
+src/modules/jquery.ta.inputfield.js
+src/modules/jquery.ta.hotornot.js
 src/modules/jquery.ta.favourite.js
-src/modules/jquery.ta.searchinput.js
-vendor/ie-placeholder/customforms.js
+
+
+
+
+
+
+

@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="10769" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Accueil]]></headline>
+            <href><![CDATA[/fr/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Explorez]]></headline>
+            <href><![CDATA[/fr/explore.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Perth]]></headline>
+            <href><![CDATA[/fr/explore/cities/perth.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[Les quartiers de Perth]]></headline>
+            <href><![CDATA[/fr/explore/cities/perth/perth-city-precincts.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/explore-cities-perth-city-precincts.jpg]]></img_background>
+    <hdl_Title><![CDATA[Les quartiers de Perth]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/explore-cities-perth-city-precincts-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/explore-cities-perth-city-precincts-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[no]]></opt_PartnerLead>
+    <stf_description><![CDATA[D&eacute;couvrez les quartiers anim&eacute;s de la ville de Perth. Explorez les boutiques, arr&ecirc;tez-vous dans un bar ou restaurant branch&eacute;, assistez &agrave; des concerts.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[Kings Park et Botanical Garden, Perth, WA. &copy; Tourism WA]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[quartiers de la cit&eacute; de Perth, Perth, Leederville, Mount Lawley, Northbridge, Subiaco]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[En savoir plus]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Les quartiers de Perth en Australie]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[D&eacute;couvrez les quartiers anim&eacute;s de la ville de Perth.]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <Listing isTemplate="1">
+<anc_List1><![CDATA[/fr/explore/cities/perth/perth-surrounds.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[Id&eacute;es d&eacute;couverte]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/fr/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/fr/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/fr/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/fr/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/fr/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/fr/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/fr/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/fr/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/fr/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/fr/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/fr/Transport.aspx]]></anc_Transport>
+<hdl_Title><![CDATA[Plan your visit to Perth]]></hdl_Title>
+<language><![CDATA[FRA]]></language>
+<stf_Accomodation><![CDATA[Perth Accommodation]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[Perth]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[Perth Attractions]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[Find a travel agent near you]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[Destination Information]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[Perth Events]]></stf_Events>
+<stf_Hire><![CDATA[Hire]]></stf_Hire>
+<stf_Informationservices><![CDATA[Information Services]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[Western Australia]]></stf_StateFilter>
+<stf_Tours><![CDATA[Tours]]></stf_Tours>
+<stf_Transport><![CDATA[Transport]]></stf_Transport>
+</PlanYourVisit>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Les quartiers de Perth]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        Au-del&agrave; de sa rivi&egrave;re tranquille et de ses vastes plages, <a href="/fr/explore/cities/perth.xml" target="_self">Perth</a> a des quartiers anim&eacute;s parfaits pour les amateurs de shopping, de vie nocturne et de restaurants. Admirez l’&eacute;l&eacute;gance des hommes et femmes d’affaires dans le centre-ville de Perth, explorez les boutiques le long de l’&eacute;l&eacute;gante Oxford Street &agrave; Leederville, et allez assister &agrave; un concert de musique &agrave; Mount Lawley. D&eacute;couvrez les bars branch&eacute;s et les petits restaurants branch&eacute;s de Northbridge ou visitez les th&eacute;&acirc;tres le long des rues ombrag&eacute;es de Subiaco. Group&eacute;s autour de la rive nord de la Swan River, ces noyaux urbains sont des endroits id&eacute;aux pour rencontrer les gens du coin et faire l’exp&eacute;rience de sa vivante culture. 
+        <p>Le centre compact de la ville de Perth est une destination populaire pour regarder passer les gens, pour les divertissements apr&egrave;s le travail et le shopping ; King Street est bord&eacute;e de galeries d’art, de boutiques &eacute;l&eacute;gantes et de petits restaurants. Pour les grands magasins et les cha&icirc;nes de magasins de v&ecirc;tements, explorez les centres commerciaux de Murray Street et de Hay Street toutes proches. Le th&eacute;&acirc;tre edwardien class&eacute; sur Hay Street met en sc&egrave;ne un certain nombre de productions importantes de ballet, op&eacute;ra, th&eacute;&acirc;tre et musique. Savourez un repas avant le th&eacute;&acirc;tre dans l’un des caf&eacute;s et restaurants le long de la rivi&egrave;re. Ne manquez pas d’assister &agrave; la fi&egrave;vre du vendredi soir dans la ville, o&ugrave; vous pouvez faire du shopping tard le soir ou vous joindre aux hommes et femmes d’affaires qui f&ecirc;tent la fin de leur semaine de travail. </p>
+        <p>Les rues sont anim&eacute;es tous les soirs de la semaine &agrave; Northbridge, qui se trouve juste derri&egrave;re le centre-ville. Entre les rues de James St, Aberdeen St et Parker St, vous trouverez un excellent choix de clubs, pubs, bars, caf&eacute;s, ainsi qu’une gamme de restaurants de bon rapport qualit&eacute;/prix. Sortez avec les routards dans les auberges de jeunesse et les endroits o&ugrave; faire la f&ecirc;te sans se ruiner, ou immergez-vous dans l’immense Perth Cultural Centre. </p>
+        <p>Non loin de l&agrave; se trouve Leederville, o&ugrave; les &eacute;tudiants, les familles et les professionnels se m&ecirc;lent tous. Appr&eacute;ciez une journ&eacute;e de shopping paisible le long de la rue branch&eacute;e d’Oxford Street. Leederville se r&eacute;veille &agrave; la nuit, quand les f&ecirc;tards de Perth se d&eacute;versent entre les pubs irlandais anim&eacute;s, les clubs souterrains branch&eacute;s et les petits restaurants qui ouvrent tard le soir. </p>
+        <p>Vous pouvez allez voir d’excellents concerts de musique &agrave; Mount Lawley, o&ugrave; le th&eacute;&acirc;tre art-d&eacute;co Astor a accueilli de nombreux musiciens australiens populaires. Ce th&eacute;&acirc;tre se trouve sur Beaufort Street, au milieu d’une suite de boutiques, d’&eacute;piceries fines, de bars et de pubs anim&eacute;s, de restaurants et de gargotes d&eacute;contract&eacute;es. Trouvez des articles de maison ou un v&ecirc;tement unique, admirez les beaux immeubles de l’&eacute;poque coloniale et relaxez-vous dans de petits parcs soigneusement entretenus. </p>
+        <p>Dirigez-vous vers Subiaco, o&ugrave; des moines b&eacute;n&eacute;dictins originaires de Subiaco en Italie se sont &eacute;tablis en 1851. Aujourd’hui l’histoire de l’endroit survit dans les d&eacute;corations de l’architecture italienne et le centre ville vivant et ombrag&eacute;. Le Subiaco Museum expose des souvenirs des moines et la culture aborig&egrave;ne de l’endroit. Promenez-vous le long de Rokeby Road et impr&eacute;gnez-vous de l’atmosph&egrave;re des divers march&eacute;s. Pr&egrave;s de Kings Park, vous pouvez explorer le parc de l’University de l’Australie de l’Ouest en bord de rivi&egrave;re. Assistez &agrave; une repr&eacute;sentation au Regal Theatre ou au Subiaco Arts Centre, pavanez-vous dans le majestueux hall du Subiaco Hotel, o&ugrave; les gens de Perth se rencontrent avant de se rendre dans les bars sophistiqu&eacute;s de l’h&ocirc;tel. </p>
+        <p>De la culture aux cocktails, les quartiers compacts, sympathiques et &eacute;nerg&eacute;tiques de la ville de Perth ont beaucoup &agrave; vous offrir.</p>
+    ]]></txt_Information>
+            
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

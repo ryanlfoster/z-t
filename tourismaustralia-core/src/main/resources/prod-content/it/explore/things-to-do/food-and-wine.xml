@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="50" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Pagina iniziale]]></headline>
+            <href><![CDATA[/it/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Esplora]]></headline>
+            <href><![CDATA[/it/explore.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Enogastronomia Australiana]]></headline>
+            <href><![CDATA[/it/explore/things-to-do/food-and-wine.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/explore-things-to-see-do-food-wine.jpg]]></img_background>
+    <hdl_Title><![CDATA[Enogastronomia Australiana]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/explore-things-to-see-do-food-wine-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/explore-things-to-see-do-food-wine-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[Apprendi la cultura enogastronomica australiana. Scopri i nostri prodotti freschi, l'esclusivo stile culinario, le regioni vinicole, gli eventi di degustazione e altro ancora.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[Melbourne Food and Wine Festival, VIC. &copy; Tourism Australia]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[y]]></stf_IsMobile>
+    <stf_keywords><![CDATA[Cibi australiani, vini australiani]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Maggiori informazioni]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Enogastronomia Australiana – Tourism Australia]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+      Scopri la libert&agrave; e la creativit&agrave; della cultura enogastronomica australiana, che ci consente di produrre vini e sapori freschi e innovativi che tutto il mondo ci invidia.
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <Listing isTemplate="1">
+<anc_List1><![CDATA[/it/about/australias-landscapes/australian-wineries.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[Altre idee australiane]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/it/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/it/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/it/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/it/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/it/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/it/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/it/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/it/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/it/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/it/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/it/Transport.ignore]]></anc_Transport>
+<hdl_Title><![CDATA[Plan Your Visit]]></hdl_Title>
+<language><![CDATA[ITA]]></language>
+<stf_Accomodation><![CDATA[]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[]]></stf_Events>
+<stf_Hire><![CDATA[]]></stf_Hire>
+<stf_Informationservices><![CDATA[]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[]]></stf_StateFilter>
+<stf_Tours><![CDATA[]]></stf_Tours>
+<stf_Transport><![CDATA[]]></stf_Transport>
+</PlanYourVisit><PlanYourHolidayBox isTemplate="1">
+    <anc_MoreLink><![CDATA[]]></anc_MoreLink>
+    <hdl_Headline><![CDATA[Pianifica la tua vacanza]]></hdl_Headline>
+    <language><![CDATA[ITA]]></language>
+    <opt_IsOnHomepage><![CDATA[]]></opt_IsOnHomepage>
+    <stf_MenuIconClass><![CDATA[]]></stf_MenuIconClass>
+    <stf_More><![CDATA[More]]></stf_More>
+    <stf_PlanYourHolidayTitle><![CDATA[Plan your holiday]]></stf_PlanYourHolidayTitle>
+    <lst_PageLinks>
+        <lst_PageLink>
+            <url><![CDATA[/it/plan/plan-your-trip/find-travel-agent.xml]]></url>
+            <hdl_Title><![CDATA[Trova un agente di viaggio]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/it/plan/plan-your-trip/getting-there.xml]]></url>
+            <hdl_Title><![CDATA[Come arrivare in Australia]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/it/plan/plan-your-trip/accommodation.xml]]></url>
+            <hdl_Title><![CDATA[Alloggi]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/it/plan/plan-your-trip/tours.xml]]></url>
+            <hdl_Title><![CDATA[Trova il tuo tour]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/it/plan/plan-your-trip/specialoffers.xml]]></url>
+            <hdl_Title><![CDATA[Offerte speciali*]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+    </lst_PageLinks>
+</PlanYourHolidayBox>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Enogastronomia Australiana]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+      Scopri la libert&agrave; e la creativit&agrave; della cultura enogastronomica australiana, che ci consente di produrre vini e sapori freschi e innovativi che tutto il mondo ci invidia.
+    <p>
+      Gli incontaminati paesaggi australiani forniscono una gamma incredibilmente ampia di prodotti freschi e allettanti. Libert&agrave; e creativit&agrave; sono le parole d'ordine della nostra cultura enogastronomica che ci consentono di produrre sapori innovativi, compresi i vini che tutto il mondo ci invidia, ingredienti inimitabili e cucina "fusion". Ma ci&ograve; che davvero ci contraddistingue &egrave; la geografia: il nostro straordinario clima, il sole, la sorprendente bellezza della natura e lo stile di vita all'aperto ti consentiranno di gustare alcuni dei migliori cibi e vini del mondo nelle ambientazioni pi&ugrave; sorprendenti del pianeta. La ristorazione all'aperto in Australia &egrave; ineguagliabile.
+    </p>]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Esperienze gastronomiche]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-things-to-see-do-food-wine-experiences-hl.jpg" alt="Esperienze gastronomiche">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Saffire Signature Experience, TAS]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+      L'Australia offre qualsiasi tipo di avventura culinaria. Le cene nel Sydney Harbour sono magiche: dai ristoranti di alto livello del centro fino ai "fish and chips" di <a href="/it/explore/cities/sydney/nsw-manly-beach.xml" target="_self">Manly Beach</a> oppure sul ponte di una nave di lusso in una crociera nella baia. Cena sotto milioni di stelle al <a href="http://www.australia.com/campaigns/nothinglike/en/uluru-product4.htm" target="_blank">Sounds of Silence</a> o ascolta le leggende degli allevatori di bestiame nell'Outback mentre gusti cibi preparati negli accampamenti del Territorio del Nord. Esplora i <a href="/it/explore/cities/melbourne/melbourne-hidden-laneways.xml" target="_self">vicoli di Melbourne</a> dove troverai ristoranti di classe mondiale ricavati da vecchi magazzini ristrutturati o situati in scantinati segreti. Cena con una vista panoramica sui vigneti della <a href="/it/about/australias-landscapes/wine-regions/yarra-valley.xml" target="_self">Yarra Valley</a> nel Victoria. Gusta un barbecue nell'Outback della regione del Kimberley per un'esperienza australiana davvero unica. Passeggia tra le bancarelle del <a href="/it/explore/cities/darwin/nt-mindil-markets.xml" target="_self">Mindil Beach Market</a> a Darwin e gusta prelibatezze provenienti da tutto il mondo. Visita i banchi di prodotti freschi e gustose prelibatezze del Victoria Market a Melbourne o del <a href="/it/explore/cities/adelaide/adelaide-central-market.xml" target="_self">Central Market di Adelaide</a>. Cena con frutti di mare pescati in giornata e serviti freschi al mercato del pesce di Sydney. Vai in cerca di tartufi in Australia Occidentale o nel Territorio della capitale. Gusta ostriche fresche tutte per te nella penisola di Freycinet in Tasmania. Incontra gli agricoltori nelle varie regioni dell'Australia. Negli spazi aperti, vicino all'acqua e in localit&agrave; sorprendenti, la gamma di modi per gustare cibi e vini in Australia &egrave; tanto varia quanto i prodotti che offriamo.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Prodotti]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-things-to-see-do-food-wine-produce-hl.jpg" alt="Prodotti">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Mures Fish Centre, TAS]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+      La gamma e la qualit&agrave; dei prodotti che trovi in Australia &egrave; una delle basi essenziali della nostra creativit&agrave; culinaria. Con l'enorme variet&agrave; di zone climatiche, da tropicali a desertiche fino alle aree fresche e temperate, praticamente non c'&egrave; prodotto che non possa crescere in Australia. Per non parlare degli ingredienti introvabili in altre parti del mondo. Gli ingredienti del "bush tucker" degli <a href="/it/explore/things-to-do/aboriginal-australia.xml" target="_self">indigeni australiani</a> stanno influendo sempre di pi&ugrave; sul nostro distintivo stile culinario. I nostri mari e fiumi incontaminati offrono abbondanza di prodotti ittici: dal salmone alle ostriche fresche della Tasmania, al barramundi del Territorio del Nord e ai famosi marron, i crostacei di Kangaroo Island. Tra i prodotti dell'Australia Occidentale puoi trovare cacciagione e tartufi neri, mentre il pregiato manzo wagyu viene allevato in tutto il paese. A Bruny Island, in Tasmania, e a Kangaroo Island vengono prodotti formaggi di fama internazionale. Alcuni dei migliori ceci nel mondo sono prodotti nella regione del fiume Ord, nell'Australia nordoccidentale, mentre le regioni baciate dal sole, nel <a href="/it/explore/states/qld.xml" target="_self">Queensland</a>, producono una sorprendente gamma di frutti tropicali.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Eventi enogastronomici]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-events-food-and-wine-events-hl.jpg" alt="Eventi enogastronomici">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Taste Festival, Sydney, NSW]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+      In tutta l'Australia e in qualsiasi stagione, nei principali <a href="/it/explore/australian-events/food-wine-events.xml" target="_self">festival enogastronomici</a> troverai il meglio di ci&ograve; che pu&ograve; offrire il paese. I festival enogastronomici australiani spaziano dagli eventi regionali a quelli nelle grandi citt&agrave; riconosciuti a livello internazionale, che attirano alcuni dei migliori chef del mondo. Programma la tua visita durante il <a href="/it/explore/events/food-wine-events-new.xml" target="_self">Melbourne Food and Wine Festival</a> per gustare il sapore dell'autunno; oppure vai in cerca di tartufi invernali in Australia Occidentale o a Canberra. Prova la variet&agrave; dei nostri ricchi prodotti al Kangaroo Island Seafood "FEASTival", al Gourmet Escape di Margaret River, all'High Country Harvest Festival nel Victoria, all'<a href="/it/explore/events/nsw-orange-food-week.xml" target="_self">Orange FOOD Week</a> o al <a href="/it/explore/cities/canberra/act-fireside-festival.xml" target="_self">Fireside Festival di Canberra</a>. Durante i mesi di ottobre e novembre, celebra il pi&ugrave; grande festival gastronomico d'Australia, in occasione del Good Food Month a Sydney, Melbourne, Canberra e Brisbane. Gli intenditori di vino hanno un'infinit&agrave; di opzioni, tra cui il Cellar Door Festival di Adelaide e il Barossa Gourmet Weekend. Brinda al nuovo anno con i vini da climi freschi della Tasmania al <a href="/it/explore/events/tas-taste-festival.xml" target="_self">Tasmania Taste Festival</a> oppure gusta i sapori della ricca vendemmia dell'intero paese durante l'Aussie Wine Month ad aprile.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Ristoranti]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-things-to-see-do-food-wine-restaurants-hl.jpg" alt="Ristoranti">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Sydney, Nuovo Galles del Sud]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+      In tutta l'Australia troverai un'infinit&agrave; di ristoranti che testimoniano la l'eccellenza enogastronomica del paese, la creativit&agrave; dei nostri chef e i nostri standard di servizio. Molti chef vengono in Australia per aprire ristoranti proprio per la freschezza dei nostri prodotti, per i locali all'aperto e per le idee innovative. Alcuni dei principali critici gastronomici e chef del mondo rimangono stupiti dalla qualit&agrave; e dalla raffinatezza dei nostri ristoranti nonch&eacute; dalla diversit&agrave; dei menu. I nostri chef, riconosciuti a livello mondiale, sono liberi di sperimentare e creare e stabiliscono le proprie regole. Troverai menu dove sono presenti ingredienti indigeni come wallaby, warrigal green e quandong. Vedrai l'atmosfera rilassata dei ristoranti australiani, dovuta principalmente al nostro clima che ci porta dentro e fuori dall'acqua o sotto l'ombra di un eucalipto. Anche il pi&ugrave; prestigioso e sofisticato dei ristoranti offre quell'informalit&agrave; che ti far&agrave; sentire a tuo agio. Indipendentemente da dove mangi, che si tratti di un ristorante di fama internazionale o di un caff&egrave; locale in una cittadina o nella periferia di una citt&agrave;, la qualit&agrave; del menu e i sapori freschi nel tuo piatto sapranno deliziarti.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Percorsi enogastronomici]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-things-to-see-do-food-wine-trails-hl.jpg" alt="Percorsi enogastronomici">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Tamar Valley Wine Route, TAS]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+      In tutta l'Australia &egrave; possibile trovare percorsi enogastronomici che ti aiuteranno a scoprire i cibi e i vini migliori prodotti nelle nostre regioni. Segui la <a href="/it/explore/itineraries/act-poachers-trail.xml" target="_self">Poacher's Way</a> da Canberra e scoprirai locali con prelibatezze culinarie sparsi in tutta l'area rurale. Vicino ad Adelaide si trovano le <a href="/it/explore/itineraries/sa-3weeks-adelaide.xml" target="_self">Adelaide Hills</a>, Barossa Valley, <a href="/it/about/australias-landscapes/wine-regions/clare-valley.xml" target="_self">Clare Valley</a> e <a href="/it/about/australias-landscapes/wine-regions/mclaren-vale.xml" target="_self">McLaren Vale</a>, dove troverai centinaia di cantine oltre a mercati agricoli, squisiti ristoranti e artigiani locali. Il Riesling Trail e il Rattler Trail nella Clare Valley sono ideali per camminare o andare in bicicletta tra le citt&agrave; della zona. Nell'Australia Occidentale lo Swan Valley Food and Wine Trail e il Gascoyne Food Trail ti faranno scoprire tantissime aziende vinicole, birrifici, ottimi ristoranti, caff&egrave; e prodotti freschi, mentre il Chittering Valley Wine Trail offre una combinazione esclusiva di vino e arte. Segui la Tasmania's Tamar Valley Wine Route e scopri dove il 40% del pregiato vino della Tasmania viene prodotto. Oppure prova gli autentici percorsi "bush tucker" nel Territorio del Nord.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Caratteristiche enogastronomiche]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-things-to-see-do-food-wine-characters-hl.jpg" alt="Caratteristiche enogastronomiche">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Mt Borradaile, Arnhemland, NT]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+      L'Australia offre un meraviglioso mix di culture provenienti da tutto il mondo. Siamo entusiasti della nostra diversit&agrave; multiculturale, che riesce a creare nella nostra cucina una dimensione esclusivamente australiana. Ci&ograve; che contraddistingue l'Australia &egrave; il fatto che i nostri chef e produttori vinicoli, pur onorando le tradizioni, aprono la strada a nuove sperimentazioni con nuovi stili e ingredienti freschi che &egrave; possibile trovare solo in Australia. I pionieri del settore Cheong Liew e Tetsuya Wakuda sono stati i primi a introdurre l'arte della fusione di sapori asiatici con tecniche europee. Peter Conistis ha portato i cibi della sua tradizione greca e vi ha aggiunto influenze australiane, come molti dei nostri migliori chef, tra cui Neil Perry che ha preso spunto da Asia, Italia e Spagna per produrre piatti esclusivamente australiani che mostrano tutta la qualit&agrave; e profondit&agrave; dei nostri prodotti. Maggie Beer ha ispirato i prodotti locali attraverso la sua variegata linea di prodotti, indiscutibilmente la gamma pi&ugrave; amata e pi&ugrave; stimata dai buongustai australiani. Uno stile realistico e senza pretese caratterizza la cultura enogastronomica australiana, cos&igrave; come il nostro approccio alla vita.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[La storia del vino]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-things-to-see-do-food-wine-story-hl.jpg" alt="La storia del vino">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Seppeltsfield Winery Cellar, SA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+      L'Australia &egrave; uno dei maggiori produttori di vino nel mondo. Vi si possono trovare alcuni dei vitigni pi&ugrave; antichi del mondo. Grandi e piccole, tradizionali e artigianali, le nostre aziende vinicole offrono una gamma di esperienze diverse. In Australia sono presenti oltre 60 regioni vinicole, ognuna con le sue caratteristiche e peculiarit&agrave;. Visitando qualsiasi cantina, dalla <a href="/it/explore/states/wa/margaret-river.xml" target="_self">regione di Margaret River</a> alla Huon Valley in Tasmania, dalla <a href="/it/explore/cities/melbourne/mornington-peninsula.xml" target="_self">penisola di Mornington</a> alla <a href="/it/explore/states/nsw/hunter-valley.xml" target="_self">Hunter Valley</a> o alla <a href="/it/explore/states/sa/barossa-valley.xml" target="_self">Barossa Valley</a>, ti troverai a parlare direttamente con il produttore di vino, che rappresenta spesso la seconda o terza generazione di viticoltori. I nostri vini mostrano la diversit&agrave; dei primi immigrati le cui abilit&agrave; hanno influenzato il settore. La maggior parte delle aziende vinicole australiane sono facilmente raggiungibili dalle principali citt&agrave;. Molte offrono visite dietro le quinte, ristoranti di qualit&agrave; e lezioni di degustazione di vini per arricchire la tua esperienza. Programma la tua visita durante la stagione della vendemmia e senti il profumo, tocca e assaggia l'uva appena raccolta dalla vite.
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

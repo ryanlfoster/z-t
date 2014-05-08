@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="200" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[首頁]]></headline>
+            <href><![CDATA[/zht/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[關於]]></headline>
+            <href><![CDATA[/zht/about.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[澳洲歷史]]></headline>
+            <href><![CDATA[/zht/about/culture-history/history.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/about-culture-history-history.jpg]]></img_background>
+    <hdl_Title><![CDATA[澳洲歷史]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/about-culture-history-history-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/about-culture-history-history-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[瞭解澳洲歷史：從首個原住民棲息地發展成為現代化多元文化國家。閱讀詳情。]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[關於澳洲 , 文化 , 資料 , 電影、書籍、音樂 , 澳洲的歷史 , 閱讀我們的氣候、貨幣、習俗、交通、健康和安全以及殘疾人士旅遊資訊]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[更多]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[澳洲歷史]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[了解這個永恒的原住民大陸以及它如何成為英國殖民地，後來又成為一個現代化的多元文化國家。]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <PlanYourHolidayBox isTemplate="1">
+    <anc_MoreLink><![CDATA[]]></anc_MoreLink>
+    <hdl_Headline><![CDATA[計劃您的假期]]></hdl_Headline>
+    <language><![CDATA[CHT]]></language>
+    <opt_IsOnHomepage><![CDATA[]]></opt_IsOnHomepage>
+    <stf_MenuIconClass><![CDATA[]]></stf_MenuIconClass>
+    <stf_More><![CDATA[More]]></stf_More>
+    <stf_PlanYourHolidayTitle><![CDATA[Plan your holiday]]></stf_PlanYourHolidayTitle>
+    <lst_PageLinks>
+        <lst_PageLink>
+            <url><![CDATA[/zht/plan/plan-your-trip/find-travel-agent.xml]]></url>
+            <hdl_Title><![CDATA[尋找你附近的旅行代理]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/zht/plan/plan-your-trip/getting-there.xml]]></url>
+            <hdl_Title><![CDATA[從外國去澳洲]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/zht/plan/plan-your-trip/accommodation.xml]]></url>
+            <hdl_Title><![CDATA[食宿]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/zht/plan/plan-your-trip/tours.xml]]></url>
+            <hdl_Title><![CDATA[尋找旅行團]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/zht/plan/plan-your-trip/specialoffers.xml]]></url>
+            <hdl_Title><![CDATA[推廣優惠*]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+    </lst_PageLinks>
+</PlanYourHolidayBox>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <FeatureContent isTemplate="1">
+    <hdl_Title><![CDATA[原住民夢想一個永恒的大陸 ]]></hdl_Title> 
+    <stf_MoreLinkTitle><![CDATA[]]></stf_MoreLinkTitle>
+    <txt_MainContent><![CDATA[<STRONG>原住民夢想一個永恒的大陸 <BR></STRONG>澳洲的原住民已在澳洲獨特而富有挑戰性的自然環境中生活和繁衍了五萬多年。澳洲的原住民據信是最近一次冰河時期從東南亞乘船來到這裏的。到歐洲人踏上這片土地時，有多達一百萬的原住民生活在這片大陸的 300 個國邦或部落裏，講 250 種語言和 700 種方言。那時，原住民靠打獵和採集來生活，他們也會到處旅行進行貿易、尋找水源和季節性土產，以及進行宗教儀式和圖騰集會。 那時和現在一樣，每個部落都與某一片特定的土地有著精神聯系。
+
+<P>盡管他們的家鄉不同（從內陸的沙漠、熱帶雨林到冰雪覆蓋的山脈），但是所有的原住民都對永恒而神奇的夢幻時期有著共同的信仰。根據澳洲原住民神話，圖騰神靈祖先創造了生活的種種。這些神靈祖先透過原住民文化的每個方面繼續將大地、自然現象、部落領地、遠古、現在和未來聯繫到一起。</P>
+
+<P>英國帶來大批囚犯 <BR>“南方大陸”（Terra Australis）是歐洲探險家發現的最後一塊大陸。當時，這片土地充滿神秘色彩，為人所津津樂道，再加上自然資源豐富，吸引了探險家們航海涌入這塊未知的土地。直到 1770 年庫克•詹姆斯船長（Captain James Cook）登陸波坦尼灣（Botany Bay），歐洲人才正式宣稱對這塊南方大陸擁有主權。</P>
+
+<P>為了解決英國境內監獄過度擁擠的問題和美國革命對英國造成的破壞，探險家兼植物學家約瑟夫•班克斯（Joseph Banks）建議將新南威爾斯（New South Wales）作為新的囚犯殖民地。 1788年1月26日，由11艘船隻組成的第一艦隊（First Fleet）運載著1500人（其中一半是囚犯）抵達悉尼港。流放囚犯的政策直到1868年才結束，至此共有16萬名男女囚犯來到了澳洲。</P>
+
+<P>從18世紀90年代早期起，自由移民開始涌入，但囚犯的生活十分艱苦。婦女隨時面臨性剝削的威脅，而男人則會因為像偷盜這樣的小罪行而被判絞刑。對於原住民來說，土地被剝奪、以及外來病毒引起很多疾病和死亡，破壞了他們傳統的生活方式與習慣。 </P>
+
+<P>搶佔土地的人在大陸上節節推進 <BR>到19世紀20年代，許多士兵、軍官及釋放犯已將從政府獲得的土地逐漸轉變為農場，經營得十分興旺。澳洲有廉價土地與大量工作機會的消息不脛而走，吸引了越來越多船隻，滿載著來自英國的富於冒險精神的移民。移民們或搶佔土地的人開始更加深入原住民的領地 – 常常帶著槍 - 為他們的牲畜搜尋牧草與水。</P>
+
+<P>1825年，由士兵和囚犯組成的一群人定居到靠近現代布里斯本的尤格拉人（Yuggera）的領地中。英國紳士於1829年定居柏斯；1835年，一個搶佔土地的人航行至菲力浦港灣（Port Phillip Bay），並選擇了目前墨爾本的所在地。與此同時，一間為與囚犯無任何瓜葛而自豪的英國私人公司在南澳州設立了阿得萊德殖民地。</P>
+
+<P>淘金熱帶來財富、移民及叛亂 <BR>1851年，新南威爾斯與維多利亞中部發現金礦，這吸引了來自殖民地的數以千計的年輕男子與一些敢於冒險的年輕女子。同時前來的還有成船的中國探礦者，以及來自世界各地的各路藝人、酒館老板、妓女和騙子。在維多利亞州，英國統治者試圖強行建立秩序 - 推行月許可證並派遣鐵腕軍隊 - 致使在1854年爆發了反獨裁主義的尤里卡叛亂。盡管在金礦區充滿暴力，但黃金與羊毛所帶來的財富吸引了大量投資紛紛涌入墨爾本與悉尼，到19世紀80年代，它們已成為了充滿時尚氣息的現代城市。</P>
+
+<P>澳洲建國<BR>1901 年1月1日，澳洲六個殖民地聯合起來，組成了聯邦國家。如今，澳洲由六個州和兩個領地組成，每個州和領地都有自己的議會、旗幟和花卉標誌。婦女於1902年獲得了投票權，1907 年設定了最低工資。</P>
+
+<P>澳洲人參戰 <BR>第一次世界大戰給澳洲帶來了災難性的後果。1914年，澳洲男性人口不足300萬，而其中有近40萬人自願參軍。估計有6萬人陣亡，數萬人受傷。為了克服悲傷，20世紀20年代掀起了一陣潮流，帶來了新型轎車、電影院、美國爵士樂和電影，以及對大英帝國的熱衷。1929年經濟大蕭條（Great Depression）來臨時，社會與經濟分化進一步擴大，許多澳洲金融機構倒閉。體育運動使國人暫時忘卻了困境，賽馬法雅納（Pharlap）與板球運動員唐納德•布萊德曼（Donald Bradman）這樣的體育英雄獲得了近乎神話般的地位。</P>
+
+<P>第二次世界大戰期間，澳洲軍隊在歐洲、亞洲及太平洋地區聯軍取得的勝利中作出了巨大貢獻。經歷過二次大戰的那代澳洲人由此為祖國的能力而感到自豪。</P>
+
+<P>澳洲新移民適逢戰後繁榮 <BR>1945年戰爭結束之後，無數來自歐洲與中東的移民來到澳洲，許多人在欣欣向榮的製造行業找到了工作。許多在男人們參軍作戰期間到工廠做工的婦女在和平時期仍然繼續工作。 </P>
+
+<P>20世紀50年代，隨著坎培拉附近山區的大雪山水利工程（Snowy Mountains Hydroelectric Scheme）等多個主要國家建設項目的實施，澳洲的經濟日益增長。澳洲主要出口產品（金屬、羊毛、肉類及小麥）的國際需求不斷增長，澳洲的市郊也繁榮起來。住宅擁有率顯著上升，從1947年的僅為40%上升到20世紀60年代的70％以上。 </P>
+
+<P>澳洲政策放寬 <BR>像其它許多國家一樣，澳洲接受了20世紀60年代的社會變革氣氛的洗禮。澳洲新的種族多元化、逐漸獨立於英國的統治以及對越南戰爭的普遍抵制，共同營造了有利於政治、經濟及社會變革的氣氛。 1967年，澳洲全民公決以壓倒多數的贊成票同意聯邦政府代表澳洲原住民制定法律，並在未來人口調查中將原住民包括在內。由原住民與澳洲白人發起的猛烈的改革宣傳至此達到了頂峰。</P>
+
+<P>1972年，由律師出身的理想主義領袖高夫•惠特拉姆（Gough Whitlam）領導的澳洲工黨當選執政，結束了戰後自由黨和鄉村黨聯盟（Liberal and Country Party coalition）一統天下的局面。 此後三年間，由他領導的新政府結束了兵役制、廢除大學學費並引入免費的全民醫療保健。同時，還廢除了“白澳政策”、擁護多元文化主義、提出無過錯離婚原則以及男女同工同酬。然而，1975年，澳洲總督以通貨膨脹和醜聞為由解散了該政府。在隨後的大選中，工黨遭遇大敗，自由黨–國家黨聯盟由此執政至1983年。</P>
+
+<P>自20世紀70年代起 <BR>1983至1996年間，霍克–基廷工黨（Hawke–Keating Labor）政府實施了一系列的經濟改革，如解除對銀行系統的管制、澳元實行浮動匯率制。1996年，由約翰•霍華德（John Howard）領導的聯盟政府在大選中獲勝，並分別在1998、2001及2004年重新當選。自由黨–國家黨聯盟政府頒佈了多項改革措施，包括稅收與勞資關係制度的改革。2007年，由陸克文（Kevin Rudd）領導的工黨當選執政，提出了改革澳洲的勞資關係制度、氣候變化政策以及醫療保健與教育領域的議程。 <BR></P>
+<P></P>]]></txt_MainContent> 
+    <con_ImageItem>
+        <ImageItems isTemplate="1">
+    <anc_link><![CDATA[]]></anc_link>
+    <img_MainImage><![CDATA[<img src="/contentimages/About_history_magical.jpg" alt="A magical place.">]]></img_MainImage>
+    <stf_Caption><![CDATA[A magical place.]]></stf_Caption>
+</ImageItems><ImageItems isTemplate="1">
+    <anc_link><![CDATA[]]></anc_link>
+    <img_MainImage><![CDATA[<img src="/contentimages/About_history_indigenous_art.jpg" alt="Indigenous art">]]></img_MainImage>
+    <stf_Caption><![CDATA[Indigenous art]]></stf_Caption>
+</ImageItems><ImageItems isTemplate="1">
+    <anc_link><![CDATA[]]></anc_link>
+    <img_MainImage><![CDATA[<img src="/contentimages/About_history_outback.jpg" alt="The rugged outback">]]></img_MainImage>
+    <stf_Caption><![CDATA[The rugged outback]]></stf_Caption>
+</ImageItems>
+    </con_ImageItem>
+</FeatureContent>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

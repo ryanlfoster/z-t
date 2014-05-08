@@ -8,17 +8,18 @@
 .dropdown-white-background-style {
   margin: 0 auto;
   //width: $dropdownCountryLanguageWidth;
-  height: 50;
+  height: 50px;
   overflow: hidden;
   font-family: $font-family-base;
-  background: url("../imgs/ui/select_bg_white.png") no-repeat;  /*Adds background-image*/
+  background: url("../imgs/ui/select_bg_white.png") no-repeat top right;  /*Adds background-image*/
   text-shadow:0 0 1px #eee;
+  border-left: 1px solid #00535e;
 }
 
 .dropdown-white-background select {
   padding: 17px 54px 17px 10px;
   width: 130%;
-  height: 50;
+  height: 50px;
   line-height: pxtoem(20px);
   border: 0 !important;  /*Removes border*/
   box-shadow: none;

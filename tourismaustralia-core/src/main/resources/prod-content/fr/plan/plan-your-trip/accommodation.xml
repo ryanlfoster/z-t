@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="35" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Accueil]]></headline>
+            <href><![CDATA[/fr/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Planifiez]]></headline>
+            <href><![CDATA[/fr/plan.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Hébergement]]></headline>
+            <href><![CDATA[/fr/plan/plan-your-trip/accommodation.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/plan-plan-your-trip-find-accommodation.jpg]]></img_background>
+    <hdl_Title><![CDATA[H&eacute;bergement]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/plan-plan-your-trip-find-accommodation-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/plan-plan-your-trip-find-accommodation-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[D&eacute;couvrez les nombreuses formules d'h&eacute;bergement en Australie : hotels, auberges de jeunesse, centres de vacances, appartements avec services et campings.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[En savoir plus]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Pr&eacute;parez vos vacances en Australie : h&eacute;bergement]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        Vous aurez l’embarras du choix en ce qui concerne l'h&eacute;bergement disponible en Australie. Nous proposons des h&ocirc;tels raffin&eacute;s et des auberges de jeunesse, des centres de vacances de luxe et des appartements avec service, des auberges de campagne et des campings.
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <AccommodationRHS isTemplate="1">
+    <!-- no user content -->
+</AccommodationRHS><StarRatingModule isTemplate="1">
+    <hdl_Title><![CDATA[Un guide des &eacute;toiles h&ocirc;teli&egrave;res]]></hdl_Title>
+    <con_StarRating>
+        <StarRatingItem isTemplate="1">
+    <hdl_Title><![CDATA[5 &eacute;toiles]]></hdl_Title>
+    <txt_Description><![CDATA[Grand standing et vaste gamme de prestations de premi&egrave;re classe]]></txt_Description>
+    <img_Stars><![CDATA[<img src="/contentimages/rating5.jpg" alt="cinq étoiles ">]]></img_Stars>
+</StarRatingItem><StarRatingItem isTemplate="1">
+    <hdl_Title><![CDATA[4 - 4&frac12; &eacute;toiles]]></hdl_Title>
+    <txt_Description><![CDATA[Standing exceptionnel avec mobilier et confort de haute qualit&eacute; ]]></txt_Description>
+    <img_Stars><![CDATA[<img src="/contentimages/rating4.jpg" alt="quatre étoiles">]]></img_Stars>
+</StarRatingItem><StarRatingItem isTemplate="1">
+    <hdl_Title><![CDATA[3 - 3&frac12; &eacute;toiles]]></hdl_Title>
+    <txt_Description><![CDATA[Etablissements bien &eacute;quip&eacute;s avec chambres propres et confortables et meubles de qualit&eacute; ]]></txt_Description>
+    <img_Stars><![CDATA[<img src="/contentimages/rating3.jpg" alt="trois étoiles">]]></img_Stars>
+</StarRatingItem><StarRatingItem isTemplate="1">
+    <hdl_Title><![CDATA[Moins de 3 &eacute;toiles]]></hdl_Title>
+    <txt_Description><![CDATA[Standing modeste, bien entretenu]]></txt_Description>
+    <img_Stars><![CDATA[]]></img_Stars>
+</StarRatingItem><StarRatingItem isTemplate="1">
+    <hdl_Title><![CDATA[Appartements avec service]]></hdl_Title>
+    <txt_Description><![CDATA[Appartements tout &eacute;quip&eacute;s de 1 &agrave; 3 chambres avec s&eacute;jour, cuisine, salle de bain et buanderie]]></txt_Description>
+    <img_Stars><![CDATA[]]></img_Stars>
+</StarRatingItem>
+    </con_StarRating>
+    <anc_MoreLink><![CDATA[]]></anc_MoreLink> 
+</StarRatingModule><Listing isTemplate="1">
+<anc_List1><![CDATA[/fr/plan/before-you-go/visa-information.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[Id&eacute;es d&eacute;couverte]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Logement ]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[Vous aurez l’embarras du choix en ce qui concerne l'h&eacute;bergement disponible en Australie.&nbsp; Nous proposons des h&ocirc;tels raffin&eacute;s et des auberges de jeunesse, des centres de vacances de luxe et des appartements avec service, des auberges de campagne et des campings.&nbsp; Quel que soit votre budget, vous trouverez toujours un personnel accueillant et un h&eacute;bergement de tr&egrave;s bonne qualit&eacute;.&nbsp; 
+<P>En savoir plus sur les diverses formules d’h&eacute;bergement et leurs co&ucirc;ts.</P>
+
+<P>&nbsp;</P>
+<P><STRONG>Quand vous viendrez en Australie, pourquoi ne pas faire de votre voyage une exp&eacute;rience m&eacute;morable et s&eacute;journer dans quelques endroits uniques... </STRONG></P>]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Centres de vacances]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        D&eacute;tendez-vous dans un centre de vacances o&ugrave; tout ce que vous d&eacute;sirez est &agrave; port&eacute;e de main.  Vous appr&eacute;cierez les chambres spacieuses de haute qualit&eacute; et la vaste gamme de services, visites et activit&eacute;s qui y est offerte.  Un s&eacute;jour dans un centre de vacances australien vous donne l’occasion de vous d&eacute;tendre dans des sites naturels magnifiques – de Hamilton Island dans le Queensland aux r&eacute;gions viticoles <a href="/fr/explore/states/sa.xml" target="_self">d’Australie m&eacute;ridionale</a>.  Les activit&eacute;s propos&eacute;es d&eacute;pendent du cadre environnant : selon l’endroit o&ugrave; vous vous trouvez, vous pouvez donc aller <a href="/fr/explore/states/vic/vic-snow-play.xml" target="_self">faire du ski</a> ou de la <a href="/fr/explore/things-to-do/australian-adventure/nat-diving.xml" target="_self">plong&eacute;e</a> ou siroter des cocktails au bord de la piscine.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[H&ocirc;tels]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        R&eacute;servez une chambre ou un appartement, commandez tout ce que vous voulez par t&eacute;l&eacute;phone - de vos repas &agrave; un baby-sitter - et profitez des prestations offertes sur place, allant des piscines et gymnases aux restaurants et bars.  Vous trouverez la plupart des cha&icirc;nes d’h&ocirc;tels internationales dans les principaux <a href="/fr/explore.xml" target="_self">lieux de vacances</a> et les <a href="/fr/about/australias-landscapes/cities.xml" target="_self">grandes villes</a> d’Australie.  Les prix varient en fonction des h&ocirc;tels qui ont de deux &agrave; cinq &eacute;toiles.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Motels ]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[Arr&ecirc;tez-vous en route pour vous reposer dans un motel, un type d’h&eacute;bergement confortable pour un prix raisonnable.&nbsp; Les chambres comprennent en g&eacute;n&eacute;ral une salle de bain ou salle d’eau priv&eacute;e, un poste de t&eacute;l&eacute;vision, de quoi faire du th&eacute; ou du caf&eacute; et un petit r&eacute;frig&eacute;rateur.&nbsp; La plupart servent un choix de petits-d&eacute;jeuners dans les chambres, et les plus grands ont des restaurants.<BR>]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Appartements et bungalows]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[Profitez de l’espace, de l’intimit&eacute; et du c&ocirc;t&eacute; pratique qui vous sont offerts par une buanderie et une cuisine priv&eacute;e dans un appartement ou un bungalow de vacances.&nbsp; C’est une formule id&eacute;ale au prix raisonnable, si vous voyagez en famille ou en groupe ou si vous voulez passer plus d’un jour ou deux dans un endroit particulier.&nbsp; Prenez vos aises dans la salle de s&eacute;jour et profitez de repas faits maison.&nbsp; Vous trouverez des appartements avec ou sans service selon l’endroit o&ugrave; vous s&eacute;journez.]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Chambres d’h&ocirc;tes]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[Prenez une chambre d’h&ocirc;te pour un accueil familial chaleureux et de solides repas faits maison.&nbsp; Ces petites affaires familiales se trouvent partout, des maisons historiques aux cottages de mineurs en passant par les domaines campagnards et les petites maisons en centre-ville.&nbsp; Vous trouverez les chambres confortables, les prix raisonnables, et vos h&ocirc;tes seront souvent une bonne source d’information.]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Chambres d’h&ocirc;te &agrave; la ferme]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[R&eacute;veillez-vous au chant du coq dans une petite ferme ou apprenez &agrave; tondre les moutons dans un &eacute;levage typique de l’outback de plus de quatre cents mille hectares.&nbsp; Dormez dans un lit de camp sous un toit de t&ocirc;le ondul&eacute;e ou profitez d’un h&eacute;bergement de luxe dans un vaste domaine fermier.&nbsp; A la ferme, vous pouvez aller d&eacute;couvrir les grands espaces &agrave; cheval, aller &agrave; la p&ecirc;che, vous baigner ou vous promener.&nbsp; Prenez part &agrave; la vie quotidienne : r&eacute;parez les cl&ocirc;tures, rassemblez le b&eacute;tail &agrave; cheval, allez &agrave; la p&ecirc;che aux &eacute;crevisses et traversez la propri&eacute;t&eacute; en 4x4.&nbsp; Vivez les matins embrum&eacute;s et les couchers de soleil &eacute;carlates, la saine nourriture de la campagne et les feux de camp.&nbsp; Vous pouvez finir la journ&eacute;e dans une source d’eau chaude naturelle sous un ciel &eacute;toil&eacute;.&nbsp; A la ferme, vous laisserez l’agitation de la vie urbaine pour l’hospitalit&eacute; de la campagne et le retour aux sources d’une existence de terroir.]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Camping et caravaning]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Immergez-vous dans les grands espaces de la belle campagne australienne gr&acirc;ce &agrave; ses nombreux campings.  Vous pouvez planter votre tente dans un parc national ou aller dans un des nombreux terrains de camping et caravaning bien &eacute;quip&eacute;s.  Ceux-ci offrent tout le confort moderne : &eacute;lectricit&eacute;, douches chaudes, buanderies et barbecues. Ils permettent ainsi de d&eacute;couvrir la vie sur la route, tout en restant propre et pr&eacute;sentable.  N’oubliez pas que pour prot&eacute;ger notre fragile environnement, un certain nombre de r&egrave;gles s’appliquent aux parcs nationaux et aux terrains de camping.  Pour un voyage sur la route tout confort, o&ugrave; vous ne risquez pas de vous perdre, faites une visite guid&eacute;e en caravane d’un mois.  Vous pouvez aussi m&ecirc;ler le luxe et la nature dans l’un des superbes refuges rustiques situ&eacute;s dans <a href="/fr/explore/icons/red-centre.xml" target="_self">l’outback</a>, la for&ecirc;t ou le d&eacute;sert ou sur la plage.  
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Auberges de jeunesse et g&icirc;tes de routards]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Passez la nuit dans une cabane sur la plage ou dans un arbre au <a href="/fr/explore/states/qld.xml" target="_self">Queensland</a> ou dormez profond&eacute;ment sous terre en Australie m&eacute;ridionale.  Que vous soyez un v&eacute;ritable aventurier, un routard qui aime &agrave; l’occasion se faire plaisir ou simplement un touriste au budget limit&eacute;, l’Australie propose partout de nombreuses auberges de jeunesse, de l’outback au centre ville.  C’est un excellent moyen de faire des &eacute;conomies et de rencontrer d’autres voyageurs.  Vous pouvez &eacute;changer des histoires ou trouver des personnes avec qui partager d’autres <a href="/fr/explore/things-to-do/australian-adventure.xml" target="_self">aventures australiennes</a>.
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

@@ -1,0 +1,466 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="15592" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Pagina iniziale]]></headline>
+            <href><![CDATA[/it/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Informazioni]]></headline>
+            <href><![CDATA[/it/about.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Meteo]]></headline>
+            <href><![CDATA[/it/about/key-facts/weather.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[Il tempo ad Alice Springs]]></headline>
+            <href><![CDATA[/it/about/key-facts/weather/alice-springs-weather.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/about-weather-alice-srpings.jpg]]></img_background>
+    <hdl_Title><![CDATA[Il tempo ad Alice Springs]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/about-key-facts-weather-alice-srpings-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/about-key-facts-weather-alice-srpings-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[no]]></opt_PartnerLead>
+    <stf_description><![CDATA[Scopri tutte le condizioni meteorologiche che puoi incontrare ad Alice Springs e nel Red Centre. Consulta le informazioni sul clima e sul meteo per chi ha in programma un viaggio in quest'area.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[West MacDonnell Ranges, Alice Springs, NT. &copy; Tourism NT]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[y]]></stf_IsMobile>
+    <stf_keywords><![CDATA[temperature alice springs, meteo alice springs, clima alice springs, stagioni alice springs]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Maggiori informazioni]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Meteo, clima e temperature di Alice Springs - Tourism Australia]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+      Consulta le informazioni sulle temperature, le precipitazioni e le attivit&agrave; in ogni stagione per pianificare al meglio la tua vacanza ad Alice Springs.
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <Listing isTemplate="1">
+<anc_List1><![CDATA[/it/explore/cities/alice-springs.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[Altre idee australiane]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/it/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/it/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/it/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/it/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/it/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/it/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/it/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/it/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/it/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/it/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/it/Transport.ignore]]></anc_Transport>
+<hdl_Title><![CDATA[Organizza la tua visita]]></hdl_Title>
+<language><![CDATA[ITA]]></language>
+<stf_Accomodation><![CDATA[]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[Alice Springs]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[]]></stf_Events>
+<stf_Hire><![CDATA[]]></stf_Hire>
+<stf_Informationservices><![CDATA[]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[Territorio del Nord]]></stf_StateFilter>
+<stf_Tours><![CDATA[]]></stf_Tours>
+<stf_Transport><![CDATA[]]></stf_Transport>
+</PlanYourVisit>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Il tempo ad Alice Springs]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        Ad Alice Springs, nel Red Centre australiano, troverai un clima estremo. A differenza del Top End nel Territorio del Nord, che presenta un clima di tipo tropicale, il Red Centre &egrave; caratterizzato da un clima semiarido. In estate (dicembre-febbraio), le temperature medie sono comprese tra 20 e 35 &deg;C. In inverno (giugno-agosto), l'intervallo delle temperature &egrave; di 3-20 &deg;C. La primavera e l'autunno presentano giornate calde e sere fresche. Le precipitazioni variano significativamente di anno in anno, ma la media annuale &egrave; di circa 286 mm. Qui troverai informazioni sulle temperature, le precipitazioni e le attivit&agrave; in ogni stagione per pianificare al meglio la tua vacanza ad Alice Springs. 
+        <p>Non solo <a href="/it/explore/cities/alice-springs.xml" target="_self">Alice Springs</a> &egrave; caratterizzata da estati molto calde e inverni freddi, ma le temperature possono subire talvolta variazioni fino a 28 &deg;C in un giorno solo. Le precipitazioni variano di anno in anno, ma in generale il clima &egrave; secco per la maggior parte del tempo.<br />
+        <br />
+        L'autunno &egrave; uno dei periodi migliori per visitare il <a href="/it/explore/icons/red-centre.xml" target="_self">Red Centre</a>, poich&eacute; presenta giornate calde e serate fresche, senza eccessive variazioni. Aprile e maggio sono i mesi dal clima migliore ad Alice Springs, ideali anche per visitare l'Uluru-Kata Tjuta National Park. Durante i mesi estivi, le giornate sono talvolta troppo calde per poter fare escursioni o anche solo passeggiare nel parco. </p>
+        <p>In inverno, le temperature notturne possono scendere sotto lo zero. Talvolta, al mattino, lo spesso strato di brina sul terreno pu&ograve; assumere le sembianze di un tappeto di neve. Mattinate di questo tipo sono in genere seguite da gradevoli temperature pomeridiane intorno ai 20 &deg;C. Quando piove, le massime diurne possono scendere fino a 8-10 &deg;C, con le nuvole che coprono le catene montuose. I mesi pi&ugrave; freschi, da maggio a settembre, sono i migliori per percorre il <a href="/it/explore/itineraries/nt-larapinta-trail.xml" target="_self">Larapinta Trail</a>. In questo periodo dell'anno &egrave; fondamentale indossare indumenti caldi. </p>
+        <p>La primavera &egrave; una delle stagioni pi&ugrave; affascinanti, con forti variazioni di temperatura da un giorno all'altro, temporali spettacolari, grandinate e tempeste di polvere. Questa &egrave; anche la stagione dei fiore selvatici, che raggiunge il suo culmine tra settembre e gli inizi di ottobre. Ad Alice Springs, gli scenari mozzafiato non si trovano solo negli spazi aperti. Visita l'Araluen Cultural Precinct, dove potrai ammirare gallerie, musei, sculture e siti sacri che ti offrono uno spaccato unico di arte, cultura e tradizioni aborigene. Principale evento artistico e culturale dell'Australia centrale, l'Alice Desert Festival si svolge ogni anno a settembre. </p>
+        <p>La primavera &egrave; un ottimo periodo per un'escursione in fuoristrada o a dorso di cammello sulle dune sinuose del Simpson Desert. Sorvola le MacDonnell Ranges in mongolfiera per ammirare dall'alto i maestosi paesaggi e la fauna che rendono questa regione cos&igrave; affascinante. </p>
+        <p>La <a href="/it/explore/itineraries/nt-red-centre-way.xml" target="_self">Red Centre Way</a>, che si estende da Alice Springs a Kings Canyon, &egrave; uno dei modi migliori per esplorare le meraviglie naturali di questo vasto e antico paesaggio rosso. </p>
+        <p>In estate, occhiali da sole e protezione solare sono fondamentali quando ci si trova all'aria aperta. Ricorda di consultare il meteo prima di avventurarti all'aperto e non farti mai trovare impreparato dalle variazioni di temperatura. Proteggiti dalla disidratazione bevendo molta acqua, indipendentemente dalla stagione dell'anno. </p>
+        <br />
+        <p><strong>Grafico del clima</strong></p>
+        <table style="border: #ccc 1px solid;" cellspacing="0" cellpadding="0" width="100%">
+            <tbody>
+                <tr style="background-color: #cccccc;">
+                    <td style="width: 15%;" valign="top">
+                    <p><strong>Temperatura</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Gen</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Feb</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Mar</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Apr</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Mag</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Giu</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Lug</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Ago</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Set</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Ott</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Nov</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Dic</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Annuale</strong></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border-bottom: #ccc 1px solid; width: 15%; border-right: #ccc 1px solid;" valign="middle">
+                    <p>Temperatura massima media (&deg;C) </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">36.4 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">35 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">32.6 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">28.2 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">23 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">19.8 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">19.7 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">22.6 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">27.2 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">30.9 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">33.6 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">35.4 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%;" valign="middle">
+                    <p style="text-align: center;">28.7 </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 15%; border-right: #ccc 1px solid;" valign="middle">
+                    <p>Temperatura minima media (&deg;C) </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">21.5 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">20.7 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">17.5 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">12.6 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">8.2 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">5 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">4 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">6 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">10.3 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">14.8 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">17.8 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">20.2 </p>
+                    </td>
+                    <td style="width: 6.5%;" valign="middle">
+                    <p style="text-align: center;">13.2 </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p style="text-align: right;"><em><span style="font-size: 10px;">Fonte: Bureau of Meteorology, 2013</span></em></p>
+        <p><strong>Grafico delle precipitazioni</strong></p>
+        <table style="border: #ccc 1px solid;" cellspacing="0" cellpadding="0" width="100%">
+            <tbody>
+                <tr style="background-color: #cccccc;">
+                    <td style="width: 15%;" valign="top">
+                    <p><strong>Precipitazioni</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Gen</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Feb</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Mar</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Apr</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Mag</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Giu</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Lug</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Ago</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Set</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Ott</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Nov</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Dic</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Annuale</strong></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 15%; border-right: #ccc 1px solid;" valign="middle">
+                    <p>Precipitazioni medie (mm) </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">38.6 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">43.8 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">32.4 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">16.5 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">18.5 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">13.8 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">15 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">9.2 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">8.5 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">21.4 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">29.1 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">36.9 </p>
+                    </td>
+                    <td style="width: 6.5%;" valign="middle">
+                    <p style="text-align: center;">284.4  </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border-bottom: #ccc 1px solid; width: 15%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle">
+                    <p>Precipitazioni (mm) 5&deg; percentile (medie) </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">16 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">15.6 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">10.9 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">1.5 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">6.4 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">4 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">2.6 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">2.1 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">1.5 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">17.8 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">20.2 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">24.6 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">237.6 </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 15%; border-right: #ccc 1px solid;" valign="middle">
+                    <p>Numero medio di giorni di pioggia ≥ 1 (mm) </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">3.3 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">3.5 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">2.4 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">1.5 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">2.1 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">1.7 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">1.8 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">1.3 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">1.5 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">2.9 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">3.8 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">4 </p>
+                    </td>
+                    <td style="width: 6.5%;" valign="middle">
+                    <p style="text-align: center;">29.8 </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p style="text-align: right;"><em><span style="font-size: 10px;">Fonte: Bureau of Meteorology, 2013</span></em></p>
+    ]]></txt_Information>
+            
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

@@ -3,6 +3,7 @@ package com.australia.utils;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import org.apache.commons.lang3.StringUtils;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.settings.SlingSettingsService;
@@ -17,6 +18,7 @@ public class ServerUtils {
 	public static final String PUBLISH = "publish";
 	public static final String LOCAL = "local";
 	public static final String PROD = "prod";
+	private static final String LANGUAGE_CODE_PATTERN = "(([a-z]{2})((-)([a-z]{2}))?)";
 
 	public static String getServerURL(SlingSettingsService slingSettings, ServerNameService serverNameService,
 		SlingHttpServletRequest request) {
@@ -45,7 +47,7 @@ public class ServerUtils {
 	}
 
 	public static String getLanguageCode(SlingHttpServletRequest request) {
-		Pattern p = Pattern.compile("/(([a-z]{2})((-)([a-z]{2}))?)/.*");
+		Pattern p = Pattern.compile("/" + LANGUAGE_CODE_PATTERN + "/.*");
 		Matcher m = p.matcher(request.getPathInfo());
 		if (m.find()) {
 			String tempLang = m.group(1);
@@ -55,6 +57,10 @@ public class ServerUtils {
 			}
 		}
 		return "";
+	}
+
+	public static boolean containsLanguageCode(String path) {
+		return StringUtils.substringAfterLast(path, "/").matches(LANGUAGE_CODE_PATTERN);
 	}
 
 	public static boolean isAuthor(SlingSettingsService slingSettings) {

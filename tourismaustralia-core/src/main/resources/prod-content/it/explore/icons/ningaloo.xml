@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="454" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Pagina iniziale]]></headline>
+            <href><![CDATA[/it/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Esplora]]></headline>
+            <href><![CDATA[/it/explore.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Ningaloo]]></headline>
+            <href><![CDATA[/it/explore/icons/ningaloo.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/explore-icons-ningaloo.jpg]]></img_background>
+    <hdl_Title><![CDATA[Ningaloo]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/explore-icons-ningaloo-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/explore-icons-ningaloo-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[no]]></opt_PartnerLead>
+    <stf_description><![CDATA[Ammira le forme di vita marina della fascia costiera dell'Australia Occidentale e avventurati in fuoristrada nei canyon spettacolari dell'entroterra.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[y]]></stf_IsMobile>
+    <stf_keywords><![CDATA[Ningaloo, Australia Occidentale, Western Australia, WA]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Ulteriori Informazioni]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Ningaloo, Australia Occidentale]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[Ammirate i coloratissimi pesci tropicali presso il Ningaloo Marine Park, con le sue 200 specie di coralli duri, 50 specie di coralli morbidi ed oltre 500 specie di pesci. ]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <IntegratedMiniMap isTemplate="1">
+    <!-- no user content -->
+</IntegratedMiniMap><TravellersStoryWidget isTemplate="1">
+    <anc_link><![CDATA[/explore/map.aspx?filters=icons,experiences&zoom=8&centre=-23.069609,115.070055]]></anc_link>
+    <img_image><![CDATA[/contentimages/icons-Ningaloo.jpg]]></img_image> 
+</TravellersStoryWidget><Listing isTemplate="1">
+<anc_List1><![CDATA[/it/explore/states/wa.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[Altri itinerari suggeriti in Australia ]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/it/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/it/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/it/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/it/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/it/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/it/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/it/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/it/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/it/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/it/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/it/Transport.ignore]]></anc_Transport>
+<hdl_Title><![CDATA[Ningaloo - Iniziate a programmare il vostro viaggio]]></hdl_Title>
+<language><![CDATA[ITA]]></language>
+<stf_Accomodation><![CDATA[Alloggi]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[ningaloo reef]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[Attrazione]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[Trova l’agenzia di viaggi pi&ugrave; vicina ]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[Informazioni sulle destinazioni]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[Eventi]]></stf_Events>
+<stf_Hire><![CDATA[Noleggio]]></stf_Hire>
+<stf_Informationservices><![CDATA[Informazioni]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[Western Australia]]></stf_StateFilter>
+<stf_Tours><![CDATA[Tour]]></stf_Tours>
+<stf_Transport><![CDATA[Trasporti]]></stf_Transport>
+</PlanYourVisit><MoreInformation isTemplate="1">
+    <hdl_Title><![CDATA[Maggiori informazioni su Ningaloo ]]></hdl_Title>
+    <anc_Link><![CDATA[]]></anc_Link>
+    <anc_MoreLink><![CDATA[]]></anc_MoreLink> 
+    <img_Content><![CDATA[<img src="/contentimages/9.0.21.3_thumb.jpg" border="0" align="left" class="imgLeft">]]></img_Content>
+    <stf_LinkTitle><![CDATA[]]></stf_LinkTitle>
+    <stf_MoreLink><![CDATA[http://www.westernaustralia.com/IT/Destinations/Australias_Coral_Coast/Ningaloo/Pages/Ningaloo_Reef.aspx]]></stf_MoreLink>
+    <stf_MoreLinkText><![CDATA[Vai a...]]></stf_MoreLinkText>
+    <stf_Teaser><![CDATA[Potete trovare maggiori informazioni sul sito web di Tourism Western Australia. ]]></stf_Teaser> 
+</MoreInformation>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Ningaloo]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        Ammirate i coloratissimi pesci tropicali presso il Ningaloo Marine Park, con le sue 200 specie di coralli duri, 50 specie di coralli morbidi ed oltre 500 specie di pesci. Estendendosi per 260 chilometri al largo della fascia costiera centro-settentrionale dell’Australia Occidentale (Western Australia), Ningaloo &egrave; una delle barriere coralline pi&ugrave; lunghe del mondo. Il punto della barriera corallina pi&ugrave; vicino alla spiaggia &egrave; a 100 metri, il che vi permetter&agrave; di ammirare la ricca e colorata vita marina a pochi passi dalla spiaggia. 
+        <p><strong>Cinque cose da fare a Ningaloo:</strong></p>
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[1. Ammirare le stupende forme di vita marina ]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/4.3.1.2_highlight.jpg" alt="Ningaloo Reef, WA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Ningaloo Reef, WA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Nuotate con i docili squali balena, i pesci pi&ugrave; grandi del mondo, che visitano la zona tra aprile e giugno.  Ammirate le balene australi tra giugno e novembre e le rare specie di tartarughe che nidificano qui, durante percorsi ecologici guidati e interattivi a gennaio e febbraio. Andate in kayak da <a href="/it/explore/itineraries/wa-indian-ocean-drive.xml" target="_self">Exmouth</a>, avvistate le balene che emigrano e visitate luoghi remoti dove vivono dugonghi e tartarughe. In alternativa, unitevi a un’escursione in barca per ammirare la spettacolare riproduzione in massa delle madrepore coralline tra marzo e aprile. A pochi metri dalla spiaggia a Exmouth o Coral Bay potrete vedere i pesci pagliaccio che si nascondono dietro i tentacoli degli anemoni, i pesci leone, le murene predatrici e centinaia di altre specie di pesci tropicali.  
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[2. Con maschera e pinne ]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/4.3.1.3_highlight.jpg" alt="Coral Bay, WA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Coral Bay, WA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Praticate lo snorkeling attraverso lagune e giardini corallini protetti da Coral Bay e incontrate le leggiadre razze manta, i delfini e i coloratissimi pesci. Se ve la sentite, provate a fare immersioni in acque pi&ugrave; profonde, fate un’escursione su una barca dal fondo trasparente o unitevi a uno snorkeling tour da Exmouth. Andate a Lighthouse Bay o verso le desertiche Muiron Islands per una spettacolare sessione di <a href="/it/explore/things-to-do/australian-adventure/nat-diving.xml" target="_self">immersioni subacquee nella barriera corallina</a>. Ammirate piccole e grandi creature marine nella riserva di Bundegi Bombies, con le sue acque basse perfette per sommozzatori e snorkeller principianti. I pi&ugrave; esperti potranno invece scoprire le varie specie di spugne, gorgonie e coralli a frusta nei giardini di spugne all’ingresso del Golfo di Exmouth. A qualsiasi livello vi troviate, Ningaloo vi offrir&agrave; un pezzo di paradiso sommerso tutto per voi.   
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[3. Pernottate in dinamiche citt&agrave; di mare]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/4.3.1.4_highlight.jpg" alt="Coral Bay, WA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Coral Bay, WA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[Pernottate nella vivace Exmouth, dove potrete noleggiare un’auto, unirvi a un safari ecologico o a un tour di pesca dalla spiaggia, dalla scogliera o di pesca d’altura. Imparate ad andare in surf sulle onde gentili di Wobiri, cavalcate la mareggiata sinistra a The Bombie o i break con fondali corallini a Dunes Beach e nei pressi delle isole Murion e Montebello. Una volta tornati in citt&agrave;, troverete sistemazioni adatte a tutti i budget, da quelle di lusso fino ad alloggi per backpacker e campeggi. Gironzolate per il porto turistico e fate una sosta nei numerosi caff&egrave;, ristoranti, boutique e wine bar della citt&agrave;. Fate una chiacchierata con gli abitanti locali o con altri turisti mentre bevete una birra presso una taverna locale. Passeggiate lungo le strade dell’idillica cittadina di mare di Coral Bay. Praticate lo snorkeling, nuotate o date da mangiare ai pesci dalla spiaggia, fate immersioni o sorvolate la barriera in aereo.&nbsp; ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[4. Datevi all’avventura sulla terraferma e sulla spiaggia ]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/4.3.1.5_highlight.jpg" alt="Shothole Canyon Road, WA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Shothole Canyon Road, WA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[Andate in fuoristrada lungo la Shothole Canyon Road o Charles Knife Canyon fino al Cape Range National Park, a soli 35 chilometri dal centro di Exmouth. Potrete campeggiare dove gole spettacolari, scavate da antichi fiumi, si incontrano con la barriera corallina, il mare blu e le spiagge sabbiose di Ningaloo. Camminate fino a Yardie Creek attraversando la flora e la fauna, cercando di avvistare il raro wallaby dalle zampe nere che si accoccola tra aspre pareti rocciose. Queste zone coperte di mangrovie sono un rifugio sicuro per molte specie di uccelli e di animali marini. In alternativa, seguite il sentiero di tre chilometri attraverso Mandu Mandu Gorge per delle vedute panoramiche sull’oceano. Per riposarvi, esplorate la costa su un fuoristrada o un quad.&nbsp; ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[5. Fingetevi naufraghi ]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/4.3.1.6_highlight.jpg" alt="Muiron Islands, WA">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Muiron Islands, WA]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[Unitevi a un tour di un giorno fino alle tranquille Muiron Islands, classiche isole desertiche con acque tropicali che pullulano di forme di vita marina e di complesse barriere coralline. Fate immersioni o snorkeling a Turtle Bay, una riserva naturale per la nidificazione delle tartarughe. Scoprirete molti altri luoghi dove fare immersioni al largo, con colorati giardini di coralli, situati dai 3 ai 20 metri di profondit&agrave;. Rilassatevi su una spiaggia deserta o gettate l’amo in acque basse per pescare un carango gigante. Per un’esclusiva esperienza solitaria e romantica, richiedete il permesso di campeggiare qui per la notte.&nbsp; ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Monkey Mia, Australia Occidentale]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-icon-monkey-mia-hl.jpg" alt="Monkey Mia, Australia Occidentale">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Monkey Mia, Australia Occidentale]]></stf_Caption>
+                    <anc_link><![CDATA[/it/explore/icons/ningaloo/monkey-mia.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Baciata da cieli azzurri e sole splendente praticamente ogni giorno dell'anno, Monkey Mia, a circa 850 chilometri a nord di Perth, &egrave; ideale per una vacanza all'insegna del relax o un'eccitante avventura nell'outback.
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+        <lst_Subpage><![CDATA[<a href="/it/explore/icons/ningaloo/monkey-mia.xml">Monkey Mia, Australia Occidentale</a>]]></lst_Subpage>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

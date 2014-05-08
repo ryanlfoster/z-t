@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="35" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Laman Depan]]></headline>
+            <href><![CDATA[/id/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Rencana]]></headline>
+            <href><![CDATA[/id/plan.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Akomodasi]]></headline>
+            <href><![CDATA[/id/plan/plan-your-trip/accommodation.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/plan-plan-your-trip-find-accommodation.jpg]]></img_background>
+    <hdl_Title><![CDATA[Akomodasi]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/plan-plan-your-trip-find-accommodation-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/plan-plan-your-trip-find-accommodation-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[Temukan lebih banyak tentang berbagai tipe penginapan di Australia, fasilitas apa saja yang disediakan dan biaya yang dikenakan.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[australia, penginapan, penginapan di Australia, resor, hotel, motel, apartemen berlayanan, unit liburan, losmen, menginap di area peternakan, berkemah, lokasi karavan, hostel, turis beransel, peringkat bintang]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Pelajari Lebih Lanjut]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Akomodasi - Tourism Australia]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        Anda akan dimanjakan dengan berbagai pilihan penginapan di Australia.  Kami menyediakan hotel-hotel butik dan penginapan bagi turis beransel, resor yang mewah dan apartemen swalayan, pub-pub pedesaan dan bumi perkemahan. 
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <AccommodationRHS isTemplate="1">
+    <!-- no user content -->
+</AccommodationRHS><StarRatingModule isTemplate="1">
+    <hdl_Title><![CDATA[Panduan peringkat bintang]]></hdl_Title>
+    <con_StarRating>
+        <StarRatingItem isTemplate="1">
+    <hdl_Title><![CDATA[Bintang 5]]></hdl_Title>
+    <txt_Description><![CDATA[Standar superior dan berbagai layanan tamu kelas satu]]></txt_Description>
+    <img_Stars><![CDATA[<img src="/contentimages/rating5.jpg" alt="Bintang 5">]]></img_Stars>
+</StarRatingItem><StarRatingItem isTemplate="1">
+    <hdl_Title><![CDATA[Bintang 4 - 4&frac12;]]></hdl_Title>
+    <txt_Description><![CDATA[Standar istimewa dengan kenyamanan dan perabot bermutu tinggi]]></txt_Description>
+    <img_Stars><![CDATA[<img src="/contentimages/rating4.jpg" alt="Bintang 4 - 4½">]]></img_Stars>
+</StarRatingItem><StarRatingItem isTemplate="1">
+    <hdl_Title><![CDATA[Bintang 3 - 3&frac12;]]></hdl_Title>
+    <txt_Description><![CDATA[Penginapan lengkap dengan kamar yang bersih dan nyaman serta perabot bermutu]]></txt_Description>
+    <img_Stars><![CDATA[<img src="/contentimages/rating3.jpg" alt="Bintang 3 - 3½">]]></img_Stars>
+</StarRatingItem><StarRatingItem isTemplate="1">
+    <hdl_Title><![CDATA[Di bawah Bintang 3]]></hdl_Title>
+    <txt_Description><![CDATA[Sebuah standar dasar yang terawat dengan baik]]></txt_Description>
+    <img_Stars><![CDATA[]]></img_Stars>
+</StarRatingItem><StarRatingItem isTemplate="1">
+    <hdl_Title><![CDATA[Apartemen berlayanan]]></hdl_Title>
+    <txt_Description><![CDATA[Apartemen yang lengkap, 1-3 kamar tidur dengan ruang keluarga, dilengkapi dengan dapur, binatu dan kamar mandi terpisah.]]></txt_Description>
+    <img_Stars><![CDATA[]]></img_Stars>
+</StarRatingItem>
+    </con_StarRating>
+    <anc_MoreLink><![CDATA[]]></anc_MoreLink> 
+</StarRatingModule><Listing isTemplate="1">
+<anc_List1><![CDATA[/id/plan/before-you-go/visa-information.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[More Australian Ideas]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Akomodasi]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[Anda akan dimanjakan dengan berbagai pilihan penginapan di Australia.&nbsp; Kami menyediakan hotel-hotel butik dan penginapan bagi turis beransel, resor yang mewah dan apartemen swalayan, pub-pub pedesaan dan bumi perkemahan.&nbsp; Anda bisa mendapatkan layanan yang bersahabat dan standard-standar terbaik sesuai dengan kisaran anggaran yang Anda pilih.&nbsp; Temukan lebih banyak tentang berbagai tipe penginapan, fasilitas apa saja yang disediakan dan biaya yang dikenakan.]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Resor]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Bersantailah di resor yang menyediakan segala kebutuhan Anda dengan mudah.  Anda dapat menikmati penginapan bermutu tinggi yang luas serta berbagai layanan tamu, tur dan aktivitas.  Resor di Australia adalah tempat yang tepat untuk bersantai di lokasi-lokasi alami yang memikat – mulai dari Pulau Hamilton di Queensland hingga negeri anggur di <a href="/id/explore/states/sa.xml" target="_self">Australia Selatan</a>.  Aktivitas-aktivitasnya disesuaikan dengan lokasi, jadi tergantung pada lokasi Anda menginap, Anda bisa menikmati lereng <a href="/id/explore/states/vic/vic-snow-play.xml" target="_self">ski</a>, pergi <a href="/id/explore/things-to-do/australian-adventure/nat-diving.xml" target="_self">menyelam scuba</a> atau menikmati segelas koktail di pinggir kolam renang.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Hotel]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Anda dapat menginap di kamar atau suite, menghubungi layanan kamar dan penitipan anak serta menikmati berbagai fasilitas yang tersedia mulai dari kolam renang dan pusat kebugaran hingga restoran dan bar.  Anda dapat menemukan sebagian besar hotel berskala internasional di <a href="/id/explore.xml" target="_self">berbagai tujuan wisata utama</a> dan <a href="/id/about/australias-landscapes/cities.xml" target="_self">kota-kota besar</a> di Australia.  Kelasnya berkisar mulai dari bintang dua hingga bintang lima, demikian pula tarifnya.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Motel]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[Anda dapat menginap di motel selama dalam perjalanan darat, yang menyediakan tempat beristirahat yang nyaman dengan harga yang wajar.&nbsp; Kamar-kamarnya umumnya menyediakan bak mandi atau pancuran, televisi, fasilitas untuk membuat teh dan kopi, serta lemari es mini.&nbsp; Sebagian besar menyediakan menu sarapan dalam kamar, sementara motel berukuran lebih besar menyediakan restoran.]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Unit liburan dan apartemen berlayanan]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[Nikmati ruang, privasi dan kenyamanan dapur serta fasilitas binatu dalam apartemen atau unit liburan mandiri.&nbsp; Merupakan pilihan yang ideal dan hemat jika Anda melakukan perjalanan dengan keluarga atau dalam kelompok besar atau ingin menghabiskan waktu beberapa lama di satu tempat.&nbsp; Bersantailah di ruang keluarga dan nikmati memasak sendiri makanan Anda.&nbsp; Anda bisa memilih apartemen berlayanan atau tanpa layanan, tergantung di mana Anda menginap.]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Losmen]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[Anda dapat menginap di sebuah losmen untuk merasakan nuansa kekeluargaan dan masakan khas rumahan.&nbsp; Anda bisa menemukan berbagai losmen kecil yang dikelola oleh keluarga di berbagai tempat, mulai dari rumah-rumah bersejarah hingga pondok penambang, rumah pedesaan hingga rumah dalam kota.&nbsp; Semuanya menyediakan berbagai kamar yang nyaman dengan harga yang wajar, dan pemiliknya kerap bisa menjadi sumber informasi yang baik.]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Menginap di area peternakan]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[Bangunlah dari tidur Anda berkat kokok ayam di area peternakan kecil atau belajar cara mencukur bulu domba di sebuah peternakan yang luasnya lebih dari satu juta ekar.&nbsp; Anda bisa tidur di bawah atap seng atau menikmati penginapan yang mewah di pondok pengembara.&nbsp; Selama menginap di area peternakan, Anda bisa merasakan alam terbuka yang luas dengan pergi berkuda, memancing, berenang dan menjelajah padang semak.&nbsp; Ikuti rutinitas harian mereka seperti memperbaiki pagar, menggembala ternak dari atas punggung kuda, menangkap yabby atau berkendara mobil gardan ganda menyusuri area peternakan.&nbsp; Alami suasana pagi hari yang berkabut dan senja memerah, masakan pedesaan yang lezat dan api unggun di alam terbuka.&nbsp; Anda dapat menyeimbangkan hari Anda dengan menikmati spa artesis yang hangat di bawah taburan bintang.&nbsp; Menginap di area peternakan membuat Anda melupakan sejenak kehidupan kota demi menikmati keramahan pedesaan dan nuansa kehidupan kembali ke asal.]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Lokasi berkemah dan karavan]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Nikmati suasana berkemah atau berkaravan di alam terbuka di pedesaan Australia yang permai.  Anda dapat mendirikan tenda di sebuah taman nasional atau mengarahkan perjalanan Anda ke salah satu dari sekian banyak taman karavan dan bumi perkemahan berfasilitas lengkap.  Menyediakan listrik, pancuran air hangat, fasilitas binatu dan area barbekyu, tempat-tempat ini menjadikan kehidupan jalanan tetap bersih dan beradab.  Harap diingat bahwa demi melindungi lingkungan kami yang rentan, peraturan berlaku di berbagai taman nasional dan bumi perkemahan.  Untuk sebuah perjalanan darat berfasilitas lengkap yang tidak akan membuat Anda tersesat, Anda bisa mencoba tur karavan berpemandu selama satu bulan.  Atau padukan kemewahan dan <a href="/id/explore/icons/red-centre.xml" target="_self">hutan belantara</a> dalam sebuah retret bergaya kemping yang glamor di pedalaman, hutan, gurun atau di pantai.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Hostel dan turis beransel]]></hdl_Title>
+                    <img_MainImage><![CDATA[]]></img_MainImage>
+                    <stf_Caption><![CDATA[]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Anda dapat menginap di pondok-pondok tepi pantai dan rumah pohon di <a href="/id/explore/states/qld.xml" target="_self">Queensland</a> atau menginap di bawah tanah di Australia Selatan.  Baik Anda seorang turis beransel, turis kilat atau dengan anggaran terbatas, Australia menyediakan penginapan hostel mulai di pedalaman hingga di pusat-pusat kota kami.  Selain menghemat biaya, menginap di hostel juga merupakan cara yang tepat untuk bertemu pelancong lainnya.  Anda dapat berbagi cerita atau bergabung untuk menaklukkan lebih banyak <a href="/id/explore/things-to-do/australian-adventure.xml" target="_self">petualangan di Australia</a>.
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

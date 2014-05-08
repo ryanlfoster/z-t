@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="200" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[홈]]></headline>
+            <href><![CDATA[/ko/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[호주 소개]]></headline>
+            <href><![CDATA[/ko/about.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[호주 역사]]></headline>
+            <href><![CDATA[/ko/about/culture-history/history.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/about-culture-history-history.jpg]]></img_background>
+    <hdl_Title><![CDATA[호주 역사]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[no]]></opt_PartnerLead>
+    <stf_description><![CDATA[호주 역사. 호주 원주민들을 시작으로 영국 식민지 시대를 거쳐 다문화 국가로 자리잡기까지, 호주의 역사적 발자취를 따라가 보세요.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[호주역사, 호주 관광청]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[추가 정보]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[호주의 여러 가지 역사 - 호주정부관광청]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <PlanYourHolidayBox isTemplate="1">
+    <anc_MoreLink><![CDATA[]]></anc_MoreLink>
+    <hdl_Headline><![CDATA[여행계획하기]]></hdl_Headline>
+    <language><![CDATA[KOR]]></language>
+    <opt_IsOnHomepage><![CDATA[]]></opt_IsOnHomepage>
+    <stf_MenuIconClass><![CDATA[]]></stf_MenuIconClass>
+    <stf_More><![CDATA[More]]></stf_More>
+    <stf_PlanYourHolidayTitle><![CDATA[Plan your holiday]]></stf_PlanYourHolidayTitle>
+    <lst_PageLinks>
+        <lst_PageLink>
+            <url><![CDATA[/ko/plan/plan-your-trip/find-travel-agent.xml]]></url>
+            <hdl_Title><![CDATA[호주여행전문가 찾기]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/ko/plan/plan-your-trip/getting-there.xml]]></url>
+            <hdl_Title><![CDATA[호주 가는 방법]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/ko/plan/plan-your-trip/accommodation.xml]]></url>
+            <hdl_Title><![CDATA[숙박 정보]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/ko/plan/plan-your-trip/tours.xml]]></url>
+            <hdl_Title><![CDATA[여행 상품 검색]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/ko/plan/plan-your-trip/specialoffers.xml]]></url>
+            <hdl_Title><![CDATA[프로모션*]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+    </lst_PageLinks>
+</PlanYourHolidayBox>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <FeatureContent isTemplate="1">
+    <hdl_Title><![CDATA[우리의 역사 ]]></hdl_Title> 
+    <stf_MoreLinkTitle><![CDATA[]]></stf_MoreLinkTitle>
+    <txt_MainContent><![CDATA[
+        원주민들, 시간을 초월한 대륙에서 꿈꾸다 <br />
+        호주 원주민들은 독특하고 거친 자연 환경에서 5만 년 이상 삶을 이어왔습니다. 호주 원주민들은 마지막 빙하시대에 동남아시아에서 배를 타고 이곳에 도착한 것으로 알려져 있습니다. 유럽인들이 도착했던 시기에는 최대 100만 명의 원주민들이 대륙 전역에서 300여 국가 및 부족을 형성하고 250개의 언어와 700개의 방언을 사용하며 살고 있었습니다. 그 당시 원주민들은 수렵과 채집 생활을 했으며, 교역을 하고 물과 계절별 식물을 찾으며 의식과 토템적 모임을 갖기 위해 널리 여행했습니다. 그리고 각 부족들은 지금과 마찬가지로 특정한 대지에 대해 정신적 유대감을 지니고 있었습니다.  
+        <p>아웃백 황무지에서부터 열대우림지와 눈 덮인 산악지대에 이르기까지 부족 별로 생활 터전이 달랐지만 신화시대라는 시간을 초월하는 마법적인 영역은 모두 함께 공유하고 있었습니다. 원주민 신화에 따르면 토템적 정령인 이들의 조상이 삶의 모든 측면들을 빚어냈습니다. 이 영혼의 선조들은 지금까지도 <a href="/ko/explore/things-to-do/aboriginal-australia.xml" target="_self">원주민 문화</a>의 모든 요소에 걸쳐 과거, 현재와 미래는 물론 자연현상에 깊숙이 자리잡고 있습니다.  </p>
+        <p>영국, 죄수를 보내다 <br />
+         ‘테라 오스트랄리스(Terra Australis)’는 유럽 탐험가들이 발견한 최후의 대륙입니다. 이 신비로운 땅과 그 땅에 간직된 보물 이야기에 고무된 탐험가들이 미지의 세계를 향해 항해를 계속했습니다. 1770년 제임스 쿡 선장이 보타니 베이(Botany Bay)에 상륙하면서 유럽인들은 마침내 이 거대한 남쪽 대륙에 대한 소유권을 공식적으로 주장했습니다.  </p>
+        <p>영국의 죄수 폭증과 미국독립혁명으로 야기된 혼란 해결 방안으로 탐험가이자 식물학자인 조셉 뱅크스(Joseph Banks)가 뉴 사우스 웨일즈(New South Wales)에 새 유배지 건설을 제안합니다. 1788년 1월 26일, 열한 척의 배와 1,500 명의 인원(절반은 호송 죄수들)으로 구성된 “제1함대(the First Fleet)”가 시드니 항구에 도착합니다.  죄수 호송이 끝난 1868년까지 십육만 명에 이르는 남녀 죄수들이 호주로 호송되었습니다.  </p>
+        <p>비록 1790년대 이후부터 각지에서 자유 정착민들이 이주해오기 시작하였으나, 죄수로서의 삶은 각박하기 그지없었지요. 여자의 경우 성 착취의 위협을 받으며 살아야 했고 남자들은 절도와 같은 가벼운 죄를 지어도 교수형에 처해질 수 있었습니다. 원주민들은 자신들의 땅을 빼앗기고 쫓겨났을 뿐 아니라, 이주민들과 함께 들어온 갖가지 질병에 따른 고통과 죽음으로 그 때까지 지켜온 전통적 삶의 양식과 관습이 뿌리째 흔들리게 되었습니다.   </p>
+        <p>무단 점유자들, 대륙을 차지하다 <br />
+        1820년대에 이르면 수많은 군인, 장교 및 풀려난 죄수들이 정부로부터 하사받은 땅을 성공적인 농장으로 탈바꿈시키게 됩니다. 호주의 값싼 땅과 풍부한 일자리에 대한 소문이 퍼지면서 모험을 찾아 영국으로부터 이곳에 모여드는 이민자의 수가 날이 갈수록 부쩍부쩍 늘었습니다. “무단 점유자(스쿼터, squatter)”라고도 불리던 정착민들은 (종종 총으로 위협을 가하면서) 가축을 위한 목초지나 물을 찾아 원주민의 땅인 내륙으로 보다 깊이 침투하게 됩니다.  </p>
+        <p>1825년, 한 무리의 병사들과 죄수들이 지금의 <a href="/ko/explore/cities/brisbane.xml" target="_self">브리즈번</a>에 가까운, 유게라(Yuggera) 족의 영토에 정착하였습니다.  <a href="/ko/explore/cities/perth.xml" target="_self">퍼스</a>는 1829년에 영국 신사들의 정착지로 자리잡게 되었으며, 1835년에 필립 베이(Philip Bay) 항에 찾아 든 한 스쿼터, 즉 무단점유자가 현재 <a href="/ko/explore/cities/melbourne.xml" target="_self">멜버른</a>에 해당하는 위치를 발견합니다.  그와 비슷한 시기에 죄수와 무관하다는 사실을 강점으로 내세운 영국의 한 민간기업이 남호주 <a href="/ko/explore/cities/adelaide.xml" target="_self">애들레이드</a>에 정착지를 설립합니다.  </p>
+        <p>금광 열기가 부와 이민, 반란을 몰고 오다 <br />
+        금은 1851년 <a href="/ko/explore/states/nsw.xml" target="_self">뉴 사우스 웨일즈</a> 및 <a href="/ko/explore/states/vic.xml" target="_self">빅토리아</a> 중부에서 처음 발견되었는데, 이로 인해 식민지 전역으로부터 (모험심에 불타는 젊은 여성들 일부를 포함한) 수천의 젊은 청년들이 모여듭니다. <a href="/ko/explore/states/vic/vic-bendigo.xml" target="_self">금광</a>에 관한 소문은 중국에서 온 광부들뿐만 아니라 전세계로부터 유흥업 종사자들, 술 장사들이나 불법 주류판매업자들 및 매춘부, 돌팔이 의사에 이르기까지 온갖 종류의 사람들을 끌어 모아 이곳은 머지않아 혼란의 도가니로 변합니다. 빅토리아에서는 영국 식민지총독이 이러한 혼란에 질서를 부여하려고 월별 면허 조치 및 기마경찰의 가혹한 간섭 등을 시도하고 결국 1854년 유레카(Eureka) 감옥에서 권위주의에 반대하는 유혈 투쟁을 초래하게 됩니다. 금광에서 들끓던 폭력에도 불구하고, 금과 모 방직 사업이 가져온 부는 멜버른과 <a href="/ko/explore/cities/sydney.xml" target="_self">시드니</a> 지역에 막대한 투자를 불러왔고, 1880년대에 이르면 이 두 도시는 세련된 현대 도시의 모습을 갖추게 됩니다.  </p>
+        <p>호주, 국가가 되다<br />
+        호주는 1901년 1월 1일에 6개 식민지의 연합으로 구성된 연방 국가로 거듭납니다. 현재 호주는 6개의 주와 두 개의 지역으로 구성되어 있으며 이들 각 주와 지역은 자체의 의회와 각 주의 깃발, 그리고 주를 상징하는 고유한 꽃 문장(floral emblem)을 가지고 있습니다. 1902년에 여성에게 투표권이 부여되었으며 1907년에 최저임금제가 도입됩니다.  </p>
+        <p>호주의 참전 <br />
+        일차세계대전은 호주에 참담한 영향을 가져왔습니다. 1914년 당시 채 3 백만 명이 안되는 남성 인구 중 4 십만이 세계일차대전에 자원병으로 참여한 놀라운 사실을 아시는지요? 그 중 약 6만 명이 전사하고 수만 명이 부상을 당한 것으로 추산됩니다. 인구의 상당수를 잃은 슬픔에 대한 반동으로, 호주의 1920년대는 새 차와 영화, 미국 재즈 및 대영제국에 대한 열광적 지지 풍조에 휩쓸리게 됩니다. 1929년에 대공황이 닥치자 사회, 경제적 분열이 극심해지면서 호주 은행 다수가 문을 닫게 되었습니다. 이 와중에, 스포츠는 국민들이 시름을 잊어버리게 돕는 전국적 위락거리로 자리잡아, 경주마 팔랍(Pharlap)이나 크리켓 선수 도날드 브래드만(Donald Bradman) 등 스포츠 영웅들은 거의 전설이 되었습니다.  </p>
+        <p>이차대전 중에는 호주가 유럽, 아시아 및 태평양에서 연합군의 승리에 상당한 공헌을 세웠지요.  세계대전에 직접 참전하여 살아 남은 세대에게 있어 이 전쟁은 모국 호주의 능력에 대단한 자부심과 긍지를 키우는 계기가 되었답니다.  </p>
+        <p>전후 경제 붐을 탄 호주 이민의 새 물결 <br />
+        전쟁이 끝난 1945년 이후, 유럽과 중동으로부터 수십만 명에 이르는 이민자들이 들어와 다수가 당시 새로이 붐이 일던 제조업 부문에서 일자리를 얻고 정착하였습니다. 남편들이 참전하여 집을 비운 사이 생계를 위해 공장에서 일을 시작했던 부인들 가운데 전쟁이 끝난 후에도 일을 계속한 경우가 많았습니다. </p>
+        <p>호주 경제는 <a href="/ko/explore/cities/canberra.xml" target="_self">캔버라</a> 근처 산악 지대에서 시행된 “스노위 마운틴 수력 발전 계획” 등 국가재건을 겨냥한 대규모 사업 등을 통해 50년대에 눈부신 성장을 이룩합니다. 호주의 주요 수출품인 금속, 모직, 정육 및 밀에 대한 국제적 수요가 증가하였으며, 이에 따라 호주의 교외 지역도 풍요를 누리게 됩니다. 주택 보유율도 1947년의 40 퍼센트 수준에서 1960년대에는 무려 70 퍼센트 이상으로 급증하였지요. </p>
+        <p>호주, 여유를 찾다 <br />
+        1960년대에는 다른 여러 나라에서 그랬듯이 호주도 혁명적 분위기에 휩싸이게 됩니다. 새로이 자리를 잡게 된 인종 다양성, 대영제국으로부터의 독립성 증대 및 일반 국민들 사이에 만연했던 (베트남 전쟁에 대한) 반전 분위기는 호주 전역에 걸쳐 정치, 경제 및 사회적 변화를 촉진하였습니다. 1967년, 연방정부가 원주민들을 대신하여 법을 제정할 권한을 가지며 이들을 장래의 인구조사에 포함시킬 것을 결정하는 국민투표에서 호주 국민들은 압도적 찬성 표를 던집니다. 그 결과 원주민과 백인 호주민들이 공히 개혁을 주장하는 캠페인을 벌이게 되었지요.  </p>
+        <p>1972년에는 변호사 출신 고프 위틀램(Gough Whitlam)의 이상주의적 지도 아래 노동당이 정권을 잡아 종전 이후 계속된 자유당-국가당 연립정부의 통치에 종지부를 찍습니다. 집권 후 3년 동안, 위틀램 정권은 징병제를 철폐하고 대학 수업료를 없앴으며 전국민에게 무상 의료를 제공합니다. 또한 백호 정책을 폐지하여 다문화주의를 포용하였고, 책임 사유 없는 이혼을 허용하였으며 여성 노동력에 대한 평등임금을 보장하는 입법을 도입합니다. 그러나 1975년을 즈음하여 극심한 물가고와 비리로, 총독은 당시 연방정부를 해산시킵니다. 노동당은 차기 대선에서 참패를 겪고 자유당-국민당 연합에 정권이 이양되어 1983년까지 연립 정부가 호주를 통치합니다.  </p>
+        <p>1970년대 이후 <br />
+        1983년에서 1996년까지, 호크-키팅(Hawke-Keating)을 선두로 한 노동당 정부는 은행 관련 규제 완화 및 호주 달러의 변동 환율제 채택 등 각종 경제개혁을 실시합니다. 1996년 존 하워드(John Howard)가 이끈 연립정부가 대선에서 승리를 거둔 후, 1998년, 2001년 및 2004년 세 차례에 걸쳐 재선에 성공하게 됩니다. 자유당-국민당 연립정부는 세제 및 노사 관계 개선 등을 포함한 여러 가지 개혁 정책을 입법화하였습니다. 2007년에 노동당은 케빈 러드(Kevin Rudd)의 지도 하에 호주의 산업 관계를 혁신하고 지구 온난화 관련 환경 정책을 수립하며 의료 및 교육제도를 개선한다는 공약으로 정권을 장악합니다. </p>
+        <p> </p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+    ]]></txt_MainContent> 
+    <con_ImageItem>
+        <ImageItems isTemplate="1">
+    <anc_link><![CDATA[]]></anc_link>
+    <img_MainImage><![CDATA[<img src="/contentimages/About_history_magical.jpg" alt=" ">]]></img_MainImage>
+    <stf_Caption><![CDATA[ ]]></stf_Caption>
+</ImageItems><ImageItems isTemplate="1">
+    <anc_link><![CDATA[]]></anc_link>
+    <img_MainImage><![CDATA[<img src="/contentimages/About_history_indigenous_art.jpg" alt=" ">]]></img_MainImage>
+    <stf_Caption><![CDATA[ ]]></stf_Caption>
+</ImageItems><ImageItems isTemplate="1">
+    <anc_link><![CDATA[]]></anc_link>
+    <img_MainImage><![CDATA[<img src="/contentimages/About_history_outback.jpg" alt=" ">]]></img_MainImage>
+    <stf_Caption><![CDATA[ ]]></stf_Caption>
+</ImageItems>
+    </con_ImageItem>
+</FeatureContent>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

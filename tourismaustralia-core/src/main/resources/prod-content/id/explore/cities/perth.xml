@@ -1,0 +1,367 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="6514" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Laman Depan]]></headline>
+            <href><![CDATA[/id/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Jelajah]]></headline>
+            <href><![CDATA[/id/explore.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[ Perth]]></headline>
+            <href><![CDATA[/id/explore/cities/perth.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/explore-cities-perth.jpg]]></img_background>
+    <hdl_Title><![CDATA[ Perth]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/explore-cities-perth-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/explore-cities-perth-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[no]]></opt_PartnerLead>
+    <stf_description><![CDATA[Jelajahi Perth, ibu kota Australia Barat yang dikelilingi oleh Samudera Hindia. Rencanakan liburan Anda untuk melihat kebun anggur Swan Valley dan keindahan Pulau Rottnest.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[Perth, WA.  &copy; Tourism Western Australia]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[y]]></stf_IsMobile>
+    <stf_keywords><![CDATA[Perth Australia, liburan Perth]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Baca lebih]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Perth, Australia - Kegiatan - Pariwisata Australia]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[Rencanakan liburan Anda di Perth dan dari Perth, Australia.<BR>]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <IntegratedMiniMap isTemplate="1">
+    <!-- no user content -->
+</IntegratedMiniMap><TravellersStoryWidget isTemplate="1">
+    <anc_link><![CDATA[/explore/map.aspx?filters=cities,experiences&zoom=8&centre=-32.870346,116.399401]]></anc_link>
+    <img_image><![CDATA[/contentimages/cities-Perth.jpg]]></img_image> 
+</TravellersStoryWidget><AtaGlance isTemplate="1">
+<hdl_Title><![CDATA[Kota-Kota di Australia]]></hdl_Title>
+<img_Map><![CDATA[]]></img_Map>
+<stf_Title1><![CDATA[]]></stf_Title1>
+<stf_Title2><![CDATA[]]></stf_Title2>
+<stf_Title3><![CDATA[]]></stf_Title3>
+<stf_Title4><![CDATA[]]></stf_Title4>
+<stf_Title5><![CDATA[]]></stf_Title5>
+<txt_Description1><![CDATA[
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tbody>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/id/explore/cities/cities.xml" target="_self">Kota-Kota Australia</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/id/explore/cities/sydney.xml" target="_self">Sydney</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/id/explore/cities/melbourne.xml" target="_self">Melbourne</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/id/explore/cities/brisbane.xml" target="_self">Brisbane</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/id/explore/cities/perth.xml" target="_self">Perth</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/id/explore/cities/darwin.xml" target="_self">Darwin</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/id/explore/cities/adelaide.xml" target="_self">Adelaide</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/id/explore/cities/hobart.xml" target="_self">Hobart</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/id/explore/cities/canberra.xml" target="_self">Canberra</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/id/explore/cities/gold-coast.xml" target="_self">Gold Coast</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/id/explore/cities/cairns.xml" target="_self">Cairns</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/id/explore/cities/alice-springs.xml" target="_self">Alice Springs</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/id/explore/cities/broome.xml" target="_self">Broome</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td>
+                    <p><a href="/id/explore/cities/regional-cities.xml" target="_self">Kota-kota regional di Australia</a></p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <br />
+    ]]></txt_Description1>
+<txt_Description2><![CDATA[]]></txt_Description2>
+<txt_Description3><![CDATA[]]></txt_Description3>
+<txt_Description4><![CDATA[]]></txt_Description4>
+<txt_Description5><![CDATA[]]></txt_Description5>
+</AtaGlance><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/id/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/id/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/id/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/id/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/id/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/id/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/id/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/id/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/id/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/id/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/id/Transport.aspx]]></anc_Transport>
+<hdl_Title><![CDATA[Rencanakan Liburan Anda ke Perth]]></hdl_Title>
+<language><![CDATA[IND]]></language>
+<stf_Accomodation><![CDATA[Perth Accommodation]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[Perth]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[Perth Attractions]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[Find a travel agent near you]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[Destination Information]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[Perth Events]]></stf_Events>
+<stf_Hire><![CDATA[Hire]]></stf_Hire>
+<stf_Informationservices><![CDATA[Information Services]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[Western Australia]]></stf_StateFilter>
+<stf_Tours><![CDATA[Tours]]></stf_Tours>
+<stf_Transport><![CDATA[Transport]]></stf_Transport>
+</PlanYourVisit><Listing isTemplate="1">
+<anc_List1><![CDATA[/id/explore/states/wa.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[Lebih Banyak Ide-Ide Khas Australia]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Perth]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        Rencanakan liburan Anda di Perth dan dari Perth, Australia.
+        <p>Rencanakan liburan Anda di Perth dan dari Perth, Australia. Anda pasti akan jatuh hati dengan ibu kota paling barat Australia, yang terletak di Swan River, dengan dikitari pantai-pantai Samudera Hindia dan kebun anggur Swan Valley. </p>
+        <p>Dapatkan tinjauan singkat mengenai Perth dan juga info tentang kota-kota Australia lainnya. Dapatkan informasi lebih lanjut mengenai tempat-tempat yang dapat dikunjungi di kota ini dan sekitarnya. Dari Kings Park yang rindang dan pantai-pantai sunyi hingga pelabuhan Fremantle yang menawan serta Rottnest Island di dekatnya, semuanya dapat dijumpai di Perth. Rencana perjalanan tiga hari kami memberi Anda ide apa yang dapat Anda lakukan dalam liburan Anda di Perth. </p>
+        <p>Pelajari tentang tujuan wisata lain di Australia Barat yang dapat Anda jelajahi dari Perth. Berkendara ke arah selatan menuju kilang anggur, ombak, gua dan hutan tinggi di Margaret River atau ke arah utara menuju Monkey Mia dan Ningaloo Reef. Selanjutnya nikmati bentang alam daerah pedalaman yang luas di Kimberley dan kota-kota perburuan emas yang bersejarah seperti Kalgoorlie. Jelajahi perjalanan yang tak terlupakan yang dapat Anda lakukan dari Perth melintasi benua Australia.</p>
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Perth dan sekitarnya]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-cities-perth-perth-hl.jpg" alt="Perth dan sekitarnya">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Perth, WA]]></stf_Caption>
+                    <anc_link><![CDATA[/id/explore/cities/perth/perth-surrounds.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Dalam 30 menit dari Perth Anda dapat menjelajahi kebun anggur kelas dunia Swan Valley, berlayar di Swan River, melewati taman-taman dan gedung-gedung pencakar langit, serta menikmati matahari terbenam di pantai yang menakjubkan. Naiki feri ke Rottnest Island yang bebas mobil, tempat Anda bisa menjelajahi sejarah, bersepeda menuju pantai yang Anda mau dari 63 pantai yang ada, dan naik kayak ke lebih dari 20 teluk yang terpencil. Bersantaplah di Fremantle dan nikmati suasana kafe yang hidup di bentang jalan pelabuhan abad ke-19yang dilestarikan dengan baik. Juga pastikan untuk menyusuri sejarah maritim dan pekerja buangan nan menarik yang ditawarkan oleh Freemantle. Jelajahi Kings Park untuk mengagumi pemandangannya, taman-taman dengan latar yang indah, dan warisan budaya Aborigin. Berenang, berselancar, memancing, selancar angin, dan berlayarlah di salah satu dari 19 pantai bersih dan sepi di Sunshine Coast Perth, dari Cottlesloe ke Scarborough.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Tiga hari yang menakjubkan di Perth]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-itineraries-three-great-days-perth-hl.jpg" alt="Tiga hari yang menakjubkan di Perth">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Tiga hari yang menakjubkan di Perth]]></stf_Caption>
+                    <anc_link><![CDATA[/id/explore/itineraries/wa-3days-perth.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Masukkan kota Perth dalam jadwal berlibur Anda, yang terkenal akan sinar matahari, keindahan alam dan derap langkahnya yang santai. Anda dapat berlayar menyusuri Sungai Swan yang biru atau memandang bentang alam kota beserta jalur airnya dari Kings Park. Berenang, berselancar atau cukup nikmati matahari terbenam dari <a href="/id/explore/cities/perth/wa-cottesloe-beach.xml" target="_self">Pantai Cottlesloe</a>, lalu jelajahi tempat-tempat makan yang murah dan bar-bar bergaya di Northbridge. Nikmati bersantap hidangan laut dari Samudra Hindia dan jelajahi jalanan yang terpelihara dengan baik sejak abad ke-19 di Fremantle yang penuh warna. Luangkan waktu sehari untuk bersepeda, berperahu atau berjalan kaki menjelajahi Pulau Rottnest. Anda dapat berenang dan berselancar dari pantai berpasir putih, snorkeling di antara kawanan ikan tropis dan terumbu karang, serta berada lebih dekat dengan keragaman satwa liar.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Berbagai kawasan kota Perth]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-cities-perth-city-precincts-hl.jpg" alt="Berbagai kawasan kota Perth">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Berbagai kawasan kota Perth]]></stf_Caption>
+                    <anc_link><![CDATA[/id/explore/cities/perth/perth-city-precincts.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Selain sungainya yang tenang dan pantainya yang luas, Perth memiliki berbagai kawasan kota ramai yang dipenuhi dengan tempat belanja, kehidupan malam dan tempat bersantap yang menakjubkan. Nikmati kesibukan bisnis di pusat kota Perth, jelajahi berbagai butik di sepanjang Jalan Oxford yang bergaya di Leederville dan tonton pertunjukan musik di Mount Lawley. Sambangi bar bergaya dan kedai makan trendi di Northbridge atau kunjungi teater di sepanjang jalanan Subiaco yang rindang. Berkumpul di sekitar bantaran utara Sungai Swan, petak-petak urban ini merupakan tempat untuk berjumpa dengan penduduk setempat dan merasakan budayanya yang kental.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Cottesloe Beach, Australia Barat]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-cities-perth-cottesloe-beach-hl.jpg" alt="Cottesloe Beach, Australia Barat">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Cottesloe Beach, Australia Barat]]></stf_Caption>
+                    <anc_link><![CDATA[/id/explore/cities/perth/wa-cottesloe-beach.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Cottesloe Beach adalah salah satu pantai kota paling populer di seluruh Australia Barat. Letaknya di pertengahan jalan antara kawasan bisnis pusat Perth dan pelabuhan Fremantle di pinggir kota barat Perth, hanya 15 menit dari pusat kota. Cottesloe terkenal dengan gaya hidupnya yang santai dan menjadi destinasi liburan tepi pantai populer bagi penduduk setempat Perth selama 100 tahun lebih. Nuansa pedesaan dan warisan baharinya yang kaya pasti akan memikat Anda menjelajah di balik pasir keemasannya. Tempat ini juga sempurna untuk menyaksikan matahari terbenam di balik Samudra Hindia selagi menikmati sari laut segar.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Bersantap dan masuki lorong waktu di Fremantle]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-cities-perth-fremantle-hl.jpg" alt="Bersantap dan masuki lorong waktu di Fremantle">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Bersantap dan masuki lorong waktu di Fremantle]]></stf_Caption>
+                    <anc_link><![CDATA[/id/explore/cities/perth/wa-fremantle.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Makanan selalu merupakan acara besar di pelabuhan <a href="/id/explore/cities/perth/wa-fremantle.xml" target="_self">Fremantle</a> yang bersejarah. Inilah kota di mana Anda dapat bersantap di jalan-jalan yang terdaftar sebagai warisan budaya dan ramai dengan pemusik jalanan atau di lorong berliku-liku yang penuh seni. Untuk hidangan Anda berikutnya, ikutilah suara musik yang mengalun dari pub era kolonial atau angin yang bertiup dari pelabuhan.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Indian Ocean Drive, Australia Barat]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-itineraries-indian-ocean-drive-hl.jpg" alt="Indian Ocean Drive, Australia Barat">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Indian Ocean Drive, Australia Barat]]></stf_Caption>
+                    <anc_link><![CDATA[/id/explore/itineraries/wa-indian-ocean-drive.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Temukan pantai-pantai berpasir putih, terumbu karang, kota nelayan dan taman nasional berbatu dalam perjalanan spektakuler di sepanjang Coral Coast Australia Barat. Arahkan kemudi ke utara untuk mencicipi udang karang yang segar di Geraldton dan buah-buahan tropis yang lezat di Carnarvon. Anda dapat berenang bersama ikan hiu paus raksasa di <a href="/id/explore/icons/ningaloo.xml" target="_self">Ningaloo Reef</a> dan berkendara mobil gardan ganda melintasi ngarai di Taman Nasional Cape Range yang letaknya tak jauh. Dalam perjalanan Anda kembali ke pesisir, Anda dapat menjumpai lumba-lumba di Monkey Mia, bersama dengan paus, ikan pari manta, kura-kura, ikan hiu, duyung dan beragam ikan di Shark Bay, area Warisan Dunia yang lebih luas.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Pelajari Lebih Lanjut]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-states-wa-swan-valley-hl.jpg" alt="Pelajari Lebih Lanjut">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Pelajari Lebih Lanjut]]></stf_Caption>
+                    <anc_link><![CDATA[/id/explore/states/wa/swan-valley.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Musim panas di <a href="/id/explore/states/wa/swan-valley.xml" target="_self">Swan Valley</a> sarat dengan kehidupan yang menyenangkan. Kendarai mobil ke kilang anggur keluarga dan kilang bir pribadi. Atau kunjungi semua ini dalam pelayaran dengan kapal pesiar mewah yang menyusuri Sungai Swan. Nikmati santapan alfresco di restoran kebun anggur atau hamparkan tikar untuk berpiknik di taman. Jelajahi desa kolonial Guildford yang cantik, puaskan berbelanja karya seni dan barang antik, serta kembalilah ke abad ke-19 dengan bermalam di penginapan yang merupakan warisan budaya. Kawasan ini juga merupakan suaka margasatwa, pedesaan yang tenteram, dan taman nasional untuk kegiatan berjalan kaki, berkuda dan bersepeda.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Rottnest Island (Pulau Rottnest), Australia Barat]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-icon-rottnest-island-hl.jpg" alt="Rottnest Island (Pulau Rottnest), Australia Barat">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Rottnest Island (Pulau Rottnest), Australia Barat]]></stf_Caption>
+                    <anc_link><![CDATA[/id/explore/cities/perth/rottnest-island.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Rottnest Island, yang dapat dicapai dengan feri dalam waktu singkat dari Perth, terasa begitu jauh dari kehidupan kota. Rottnest Island terpisah dari daratan Australia Barat sekitar 7.000 tahun lalu saat ketinggian permukaan laut naik. Catatan pertama keberadaan manusia di Rottnest Island berusia sekitar 6.500 tahun, ketika suku Aborigin Nyungah mulai menghuni kawasan ini. Pulau yang disebut Wadjemup oleh suku Aborigin setempat ini merupakan tempat yang sangat penting secara kerohanian bagi suku Aborigin.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[Tiga minggu dari Perth]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/explore-itineraries-three-weeks-from-perth-hl.jpg" alt="Tiga minggu dari Perth">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Tiga minggu dari Perth]]></stf_Caption>
+                    <anc_link><![CDATA[/id/explore/itineraries/wa-3weeks-perth.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Temukan Margaret River, terumbu karang Ningaloo Reef, <a href="/id/explore/cities/broome.xml" target="_self">Broome</a> dan bahkan <a href="/id/explore/cities/darwin.xml" target="_self">Darwin</a> dan Sydney dalam petualangan penuh aksi dari ibu kota paling barat di Australia. Dari Perth Anda dapat pergi ke selatan menuju kilang anggur, pantai, hutan dan gua di Margaret River. Menyelam di bawah air untuk melihat kapal karam dan menyaksikan ikan paus di sepanjang perjalanan. Di sebelah utara Perth Anda akan menemukan Ningaloo Reef, terumbu karang tepi pantai terbesar di dunia, dan Broome, di mana Anda dapat menunggang unta saat matahari terbenam di sepanjang pantai <a href="/id/explore/cities/broome/wa-cable-beach.xml" target="_self">Cable Beach</a>. Terbanglah ke Darwin agar lebih mudah untuk pergi ke Taman Nasional Kakadu yang terdaftar sebagai Warisan Dunia dan merupakan hamparan kawasan hewan liar, lahan basah dan galeri seni cadas Aborigin.
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+        <lst_Subpage><![CDATA[<a href="/id/explore/cities/perth/rottnest-island.xml">Rottnest Island (Pulau Rottnest), Australia Barat</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/id/explore/cities/perth/perth-surrounds.xml">Perth dan sekitarnya</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/id/explore/cities/perth/perth-city-precincts.xml">Berbagai kawasan kota Perth</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/id/explore/cities/perth/wa-fremantle.xml">Bersantap dan masuki lorong waktu di Fremantle </a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/id/explore/cities/perth/wa-cottesloe-beach.xml">Cottesloe Beach, Australia Barat      </a>]]></lst_Subpage>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

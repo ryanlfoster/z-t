@@ -1,0 +1,406 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="22253" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Homepage ]]></headline>
+            <href><![CDATA[/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Tools and Campaigns]]></headline>
+            <href><![CDATA[/tools-campaigns.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[National Landscapes]]></headline>
+            <href><![CDATA[/nationallandscapes.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[Sydney Harbour]]></headline>
+            <href><![CDATA[/nationallandscapes/sydney-harbour.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/Campaigns/national-landscapes-sydney-harbour.jpg]]></img_background>
+    <hdl_Title><![CDATA[Sydney Harbour]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/national-landscapes-sydney-harbour-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/Campaigns/national-landscapes-sydney-harbour-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[0]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[yes]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[0]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[no]]></opt_PartnerLead>
+    <stf_description><![CDATA[Sydney is a city shaped by its stunning natural harbour. From the time the First Fleet landed, to the modern wonders of the Sydney Opera House and Sydney Harbour Bridge; Sydney Harbour has been the heart and soul of this lively city.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[Sydney Harbour, Sydney Opera House, Sydney Harbour Bridge, Aboriginal heritage, Royal Botanic Gardens, Mrs Macquarie's Chair]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Learn More]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Australia's National Landscapes: Sydney Harbour - Tourism Australia]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        Sydney is a city shaped by its stunning natural harbour. From the time the First Fleet landed, to the modern wonders of the Sydney Opera House and Sydney Harbour Bridge; Sydney Harbour has been the heart and soul of this lively city.
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <StandardCampaignLayout isTemplate="1">
+    <opt_national_landscapes_id><![CDATA[NationalLandscapes]]></opt_national_landscapes_id>
+    <hdl_Title><![CDATA[]]></hdl_Title>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+    <con_Banner><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<DIV id=headerimage>
+<SCRIPT type=text/javascript src="../static/js/jquery.cycle.all.latest.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+jQuery(document).ready(function() {
+jQuery('#headersliderwrapper').cycle({
+        fx:'fade',
+        slideExpr: '.headerslide'
+    });
+});
+</SCRIPT>
+
+<DIV id=headersliderwrapper>
+<DIV class=headerslide><IMG alt="" src="../contentimages/campaigns/header-syd-01.jpg"> 
+<DIV class=headerslideinfo>Sydney Harbour National Park, NSW</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../contentimages/campaigns/header-syd-02.jpg"> 
+<DIV class=headerslideinfo>Coastal Track, Royal National Park, NSW</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../contentimages/campaigns/header-syd-03.jpg"> 
+<DIV class=headerslideinfo>America Bay Track, Ku-ring-gai Chase National Park, NSW</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../contentimages/campaigns/header-syd-04.jpg"> 
+<DIV class=headerslideinfo>View from Bradleys Head, NSW</DIV></DIV></DIV></DIV>
+<DIV id=subpage-header-overlay></DIV>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule></con_Banner>
+    <con_Body><TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Sydney Harbour]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        Sydney is a city shaped by its stunning natural harbour. From the Dreamtime through to the modern wonders of the Sydney Opera House and Sydney Harbour Bridge; Sydney Harbour has been the heart and soul of this lively landscape. On its doorstep you'll find national parks, World Heritage sites, Aboriginal heritage and convict history. Swim at pristine beaches and explore secret inlets, cycle through tranquil parks and watch the sun rise over the ocean from a cliff-top. The natural and cultural landscape of Sydney, stretching beyond its harbour, along its coast and waterways, is a vibrant tapestry waiting<br />
+        to be explored.
+        <strong>
+        </strong>
+        <p><strong>Five ways to explore Sydney Harbour</strong></p>
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[1. Sydney's city landscape experience]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-sydney-harbour-hl01.jpg" alt="Sydney's City Landscape, NSW">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Sydney's City Landscape, NSW]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Sydney Harbour is one of the most environmentally diverse landscapes in the world. The dramatic coastline creates an endless natural lookout of spectacular views and opportunities to enjoy nature. Scale the heights of the Sydney Harbour Bridge for panoramic views stretching east to the Sydney Heads and west to the Greater Blue Mountains. Right on the city fringe, the urban oasis of the Royal Botanic Garden gives an insight into Australia's origins with rare plants dating back to Captain Cook's voyage. Head to Mrs Macquarie's Chair for a ring-side seat of the whole magnificent scene and take some time to explore The Rocks, Australia's oldest European settlement.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[2. Sydney Harbour attractions]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-sydney-harbour-hl02.jpg" alt="Snorkelling at Nielsen Park, NSW">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Snorkelling at Nielsen Park, NSW]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Dotted throughout the harbour, the islands of Sydney Harbour offer a journey into Australia's Aboriginal, convict and maritime past. Catch a ferry from Circular Quay to explore the islands of Fort Denison and Goat. Camp overnight on World Heritage-listed Cockatoo Island and watch the city light up around you. Step back in time and hoist the sails on board an historic Tall Ship or uncover the Aboriginal history of the harbour with Tribal Warrior. Meet some of Australia's unique wildlife at Wild Life Sydney, Sydney Aquarium or spectacular Taronga Zoo. Go snorkelling at Nielsen Park along the Rose Bay to Watsons Bay Walk. Grab fish and chips and watch the yachts against the city vista from Watson's Bay then take a leisurely walk to South Head for spectacular views.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[3. Sydney's National Parks]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-sydney-harbour-hl03.jpg" alt="The Coast Track, Royal National Park, NSW">]]></img_MainImage>
+                    <stf_Caption><![CDATA[The Coast Track, Royal National Park, NSW]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Sydney's national parks are a journey through Australian history - protecting a wealth of Australian flora and fauna, ancient Aboriginal cultural sites, and military fortifications. There are also abundant swimming spots and bushwalking tracks where you can see wildlife in its natural habitat. The ‘green' heart of the landscape is the great expanse of Sydney Harbour National Park, hugging the foreshore at North and South Heads at the dramatic entrance to Port Jackson. Stay at the historic Quarantine Station where the first migrant ships arrived in the 1830s. Make sure to watch out for whales on their winter migration. From Middle Head you can gaze over the Pacific Ocean right to the horizon. Join volunteers helping to regenerate the bush. South of the city, walk the Coast Track in Royal National Park and take in the cliffs, beaches and inspiring scenery from Bundeena to Otford. More than 300 bird species have been sighted in Royal National Park alone. In the north, Ku-ring-gai Chase National Park offers a wonderful mix of bushland and bay, a stone's throw from delightful sandy beaches.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[4. Aboriginal experiences]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-sydney-harbour-hl04.jpg" alt="Aboriginal Discovery Tour, NSW">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Aboriginal Discovery Tour, NSW]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Evidence of Aboriginal People’s long connection with this land is present in the form of rock engravings, middens, campsites, scarred trees and stencils that are sprinkled throughout the landscape. Go walkabout in The Rocks with an Aboriginal guide to find out about the traditions and cultural practices of the Cadigal people. Cruise to Parramatta for a stroll along the Riverside Walk and look for scarred trees in Parramatta Park. Take an Aboriginal Discovery tour in Ku-ring-gai Chase or Royal National Parks, and look out for rock engravings along the Bronte to Bondi Coastal Walk. For a taste of contemporary Aboriginal culture, take in a Bangarra Dance Theatre performance and enjoy some bush tucker at Purple Goanna in Redfern or Gardener’s Lodge Caf&eacute; in Victoria Park.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[5. Harbour and coastal journeys]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-sydney-harbour-hl05.jpg" alt="Kayaking, Royal National Park, NSW">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Kayaking, Royal National Park, NSW]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        This landscape is an aquatic paradise with everything from surfing its ocean beaches to sailing and stand-up paddle-boarding on harbour beaches. Kayak the waterways in any part of the landscape to find an enchanting corner all your own. Cool off with a swim at one of the popular local beaches like Bronte and Freshwater, or ramble around their rockpools. Cruise the waters of the Harbour or take part in one of the landscape’s organised ocean swims. See a range of waterbirds in the riverside wetlands of Bicentennial Park at Sydney Olympic Park, and walk around the largest mangrove forest remaining on the Parramatta River. Discover the landscape’s rich underwater life on a snorkelling safari at Clovelly where you might catch a glimpse of Bluey, the resident Blue Groper, or at Bare Island where you can find sand rays and colourful sponge life. Dive the Gordon’s Bay Underwater Nature Trail, one of many exciting dive sites in Sydney - spot octopus, cuttlefish and colourful nudibranchs.
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights></con_Body>
+    <con_RHSModules><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<TABLE cellSpacing=0 cellPadding=0 width=251 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top align=center><!-- Google Map Start -->
+<SCRIPT type=text/javascript>
+function fireEvent(obj,evt){
+ var fireOnThis = obj;
+ if( document.createEvent ) {
+   var evObj = document.createEvent('MouseEvents');
+   evObj.initEvent( evt, true, false );
+   fireOnThis.dispatchEvent(evObj);
+ } else if( document.createEventObject ) {
+   fireOnThis.fireEvent('on'+evt);
+ }
+}function clickLink(linkobj) {
+     if (linkobj.getAttribute('onclick') == null) {
+     if (linkobj.getAttribute('href')) document.location = linkobj.getAttribute('href');
+     }
+     else linkobj.onclick();
+}
+function loadjscssfile(filename, filetype){
+ if (filetype=="js"){ //if filename is a external JavaScript file
+  var fileref=document.createElement('script')
+  fileref.setAttribute("type","text/javascript")
+  fileref.setAttribute("src", filename)
+ }
+ else if (filetype=="css"){ //if filename is an external CSS file
+  var fileref=document.createElement("link")
+  fileref.setAttribute("rel", "stylesheet")
+  fileref.setAttribute("type", "text/css")
+  fileref.setAttribute("href", filename)
+  fileref.setAttribute("media", "print")
+ }
+ if (typeof fileref!="undefined")
+  document.getElementsByTagName("head")[0].appendChild(fileref)
+}
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+var icheckk=0;
+jQuery.each(jQuery.browser, function(i, val) {
+if(i=="msie" && jQuery.browser.version.substr(0,3)=="7.0")
+icheckk=1;
+});
+function myfun()
+{
+loadjscssfile("../../static/css/thickbox.css", "css");
+if(icheckk==1)
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='../../static/maps/en/sydneyharbour/bigmap.html'  target='_blank'>&nbsp;Print</a></b>","../../static/maps/en/sydneyharbour/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+else
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='javascript:window.print()' >&nbsp;Print</a></b>","../../static/maps/en/sydneyharbour/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+}
+         </SCRIPT>
+<IFRAME style="MARGIN-BOTTOM: 20px; BORDER-TOP: black 1px solid; HEIGHT: 355px; BORDER-RIGHT: black 1px solid; BORDER-BOTTOM: black 1px solid; FLOAT: left; PADDING-BOTTOM: 5px; BORDER-LEFT: black 1px solid; BACKGROUND-COLOR: #333333" height=380 src="../../static/maps/en/sydneyharbour/index.html" frameBorder=0 width=249 name=FRAMENAME scrolling=no></IFRAME><!-- Google Map end -->
+<DIV class=subpage-video-thumb style="TEXT-ALIGN: left"><A onclick="moduleTrackingWithTitle('lightbox-video','',false,'nationallandscapes-sydneyharbouren');" href="#" data-reveal-id="modalVideo"><IMG alt="" src="/contentimages/Campaigns/national-landscapes-video-en.jpg"></A> </DIV>
+<DIV id=modalVideo class="reveal-modal video" style-="z-index: 103;"><A class=close-reveal-modal><SPAN class=icon></SPAN></A>
+<DIV class=video style="VISIBILITY: visible !important"><IFRAME height=315 src="//www.youtube.com/v/EjGZ3MaX9pE?version=3&amp;hl=en_GB" frameBorder=0 width=560></IFRAME></DIV></DIV></TD></TR></TBODY></TABLE>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule><Listing isTemplate="1">
+<anc_List1><![CDATA[/explore/itineraries/nsw-3days-sydney.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[More Australian Ideas]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/AccommodationSearch.ignore]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/AttractionSearchResults.ignore]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/DestinfoSearchResults.ignore]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/EventsSearch.xml]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/Hire.ignore]]></anc_Hire>
+<anc_Info><![CDATA[/InfoSearchResults.ignore]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/TourSearchResults.ignore]]></anc_Tour>
+<anc_Transport><![CDATA[/Transport.ignore]]></anc_Transport>
+<hdl_Title><![CDATA[Plan your visit]]></hdl_Title>
+<language><![CDATA[ENA]]></language>
+<stf_Accomodation><![CDATA[Accommodation]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[Sydney]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[Attractions]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[Find a travel agent near you]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[Destination Information]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[Events]]></stf_Events>
+<stf_Hire><![CDATA[Hire]]></stf_Hire>
+<stf_Informationservices><![CDATA[Information]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[New South Wales]]></stf_StateFilter>
+<stf_Tours><![CDATA[Tours]]></stf_Tours>
+<stf_Transport><![CDATA[Transport]]></stf_Transport>
+</PlanYourVisit><AtaGlance isTemplate="1">
+<hdl_Title><![CDATA[Sydney Harbour Facts Sheets]]></hdl_Title>
+<img_Map><![CDATA[]]></img_Map>
+<stf_Title1><![CDATA[]]></stf_Title1>
+<stf_Title2><![CDATA[]]></stf_Title2>
+<stf_Title3><![CDATA[]]></stf_Title3>
+<stf_Title4><![CDATA[]]></stf_Title4>
+<stf_Title5><![CDATA[]]></stf_Title5>
+<txt_Description1><![CDATA[
+        <table width="100%" border="0" cellspacing="0" cellpadding="4">
+            <tbody>
+                <tr>
+                    <td align="left" valign="top" style="width: 5px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td align="left" valign="top">
+                    <p><a href="/docs/national-landscapes-sydney-harbour-conservation-factsheet.pdf" target="_blank">Conservation fact sheet</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td align="left" valign="top">
+                    <p><a href="/docs/national-landscapes-sydney-harbour-destination-factsheet.pdf" target="_blank">Destination fact sheet</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td align="left" valign="top">
+                    <p><a href="/docs/national-landscapes-sydney-harbour-suggested-itinerary.pdf" target="_blank">Suggested itinerary</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td align="left" valign="top">
+                    <p><a href="/docs/national-landscapes-sydney-harbour-calendar.PDF" target="_blank">Wildlife &amp; natural events calendar</a></p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <br />
+    ]]></txt_Description1>
+<txt_Description2><![CDATA[]]></txt_Description2>
+<txt_Description3><![CDATA[]]></txt_Description3>
+<txt_Description4><![CDATA[]]></txt_Description4>
+<txt_Description5><![CDATA[]]></txt_Description5>
+</AtaGlance><AtaGlance isTemplate="1">
+<hdl_Title><![CDATA[Useful Links]]></hdl_Title>
+<img_Map><![CDATA[]]></img_Map>
+<stf_Title1><![CDATA[]]></stf_Title1>
+<stf_Title2><![CDATA[]]></stf_Title2>
+<stf_Title3><![CDATA[]]></stf_Title3>
+<stf_Title4><![CDATA[]]></stf_Title4>
+<stf_Title5><![CDATA[]]></stf_Title5>
+<txt_Description1><![CDATA[
+        <table width="100%" border="0" cellspacing="0" cellpadding="4">
+            <tbody>
+                <tr>
+                    <td align="left" valign="top" style="width: 5px;">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td align="left" valign="top">
+                    <p><a href="http://www.sydney.com/" onclick="ntptEventTag('ev=PartnerLead&amp;PartnerId=sydney');" target="_blank">Visit Sydney</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td align="left" valign="top">
+                    <p><a href="http://www.cityofsydney.nsw.gov.au/" onclick="ntptEventTag('ev=PartnerLead&amp;PartnerId=cityofsydney');" target="_blank">City of Sydney</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td align="left" valign="top">
+                    <p><a href="http://www.environment.nsw.gov.au/" onclick="ntptEventTag('ev=PartnerLead&amp;PartnerId=environment');" target="_blank">NSW Office of Environment and Heritage</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td align="left" valign="top">
+                    <p><a href="http://www.nationalparks.nsw.gov.au/" onclick="ntptEventTag('ev=PartnerLead&amp;PartnerId=nationalparks');" target="_blank">NSW Parks &amp; Wildlife Service</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td align="left" valign="top">
+                    <p><a href="http://www.shfa.nsw.gov.au/" onclick="ntptEventTag('ev=PartnerLead&amp;PartnerId=shfa');" target="_blank">Sydney Harbour Foreshore Authority</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td align="left" valign="top">
+                    <p><a href="http://www.harbourtrust.gov.au/" onclick="ntptEventTag('ev=PartnerLead&amp;PartnerId=harbourtrust');" target="_blank">Sydney Harbour Federation Trust</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top">
+                    <p><img alt="" src="/contentimages/arrow-green.png" /></p>
+                    </td>
+                    <td align="left" valign="top">
+                    <p><a href="http://www.walkingcoastalsydney.com.au/" onclick="ntptEventTag('ev=PartnerLead&amp;PartnerId=walkingcoastalsydney');" target="_blank">Walking Coastal Sydney</a></p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <br />
+    ]]></txt_Description1>
+<txt_Description2><![CDATA[]]></txt_Description2>
+<txt_Description3><![CDATA[]]></txt_Description3>
+<txt_Description4><![CDATA[]]></txt_Description4>
+<txt_Description5><![CDATA[]]></txt_Description5>
+</AtaGlance></con_RHSModules>
+    <con_Category></con_Category>
+    <lst_Subpages>
+    </lst_Subpages>
+</StandardCampaignLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

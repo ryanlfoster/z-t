@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="22217" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Accueil]]></headline>
+            <href><![CDATA[/fr/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Tools and Campaigns]]></headline>
+            <href><![CDATA[/fr/tools-campaigns.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Paysages nationaux d'Australie]]></headline>
+            <href><![CDATA[/fr/nationallandscapes.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[Les Alpes australiennes]]></headline>
+            <href><![CDATA[/fr/nationallandscapes/australian-alps.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/Campaigns/national-landscapes-australian-alps.jpg]]></img_background>
+    <hdl_Title><![CDATA[Les Alpes australiennes]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/national-landscapes-australian-alps-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/Campaigns/national-landscapes-australian-alps-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[yes]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[Visitez les alpes australiennes abritant 16 r&eacute;serves et parcs nationaux couvrant 5 millions d'hectares tels que Namadgi, Kosciuszko, Snowy River et plus.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[Alpes australiennes, Mont Kosciuszko, Kosciuszko, plus haute montagne d’Australie, Mont Buffalo, Mont Bogong, montagnes Snowy, montagne neigeuse, montagne australienne, montagne Australie, ski Australie, ski Australie, ski aus, Jindabyne, Thredbo]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[En savoir plus]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Paysages nationaux d'Australie: Les Alpes australiennes - Tourisme Australie]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        Visitez les alpes australiennes abritant 16 r&eacute;serves et parcs nationaux couvrant 5 millions d'hectares tels que Namadgi, Kosciuszko, Snowy River et plus.
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <StandardCampaignLayout isTemplate="1">
+    <opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+    <hdl_Title><![CDATA[]]></hdl_Title>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+    <con_Banner><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<DIV id=headerimage>
+<SCRIPT type=text/javascript src="../../static/js/jquery.cycle.all.latest.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+jQuery(document).ready(function() {
+jQuery('#headersliderwrapper').cycle({
+        fx:'fade',
+        slideExpr: '.headerslide'
+    });
+});
+</SCRIPT>
+
+<DIV id=headersliderwrapper>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-alp-01.jpg"> 
+<DIV class=headerslideinfo>Alpes australiennes, Nouvelle-Galles-du-Sud et Victoria</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-alp-02.jpg"> 
+<DIV class=headerslideinfo>Snowboard &agrave; Perisher, Nouvelle-Galles-du-Sud</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-alp-03.jpg"> 
+<DIV class=headerslideinfo>Cha&icirc;ne des Snowy Mountains, parc national de Kosciuszko, Nouvelle-Galles-du-Sud</DIV></DIV>
+<DIV class=headerslide><IMG alt="" src="../../contentimages/campaigns/header-alp-04.jpg"> 
+<DIV class=headerslideinfo>Ligne de chemin de fer, Great Alpine Road, Victoria</DIV></DIV></DIV></DIV>
+<DIV id=subpage-header-overlay></DIV>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule></con_Banner>
+    <con_Body><TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Les Alpes australiennes]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        Dans un continent surtout sec et plat, les Alpes australiennes couvertes de neige constituent un vrai d&eacute;fi. Les Alpes s'&eacute;tendent sur le Territoire de S’&eacute;tendant sur un territoire, deux &eacute;tats et 16 parcs et 16 parcs nationaux et r&eacute;serves, elles offrent des vues magnifiques et des possibilit&eacute;s d’aventures de plein air en toute saison. D&eacute;valez les pentes en hiver &agrave; ski ou snowboard, ou partez en trek parmi les fleurs sauvages de l’&eacute;t&eacute;. D&eacute;couvrez des plantes et animaux uniques, prenez contact avec l’histoire ancienne et moderne et promenez-vous &agrave; pied ou en voiture pour vous impr&eacute;gner des horizons sans fin. Ici, sur le toit de l’Australie, vous trouverez de nombreuses mani&egrave;res de repousser vos limites et de galvaniser votre &eacute;nergie.
+        <p><strong>Quatre choses que vous trouverez dans les Alpes Australiennes</strong></p>
+    ]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[1. Une nature riche et rare]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australian-alps-hl01.jpg" alt="Snowy Mountains, NSW">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Snowy Mountains, NSW]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Admirez les lacs glaciaires et les bois de gommiers des neiges en faisant l’ascension du Mont Kosciuszko, le plus haut sommet d’Australie. Au sommet, vous trouverez une r&eacute;serve biosph&egrave;re r&eacute;pertori&eacute;e par l’UNESCO, qui comprend vingt esp&egrave;ces de plantes n’existant nulle part ailleurs dans le monde. Regardez les grands eucalyptus regnans c&eacute;der la place aux for&ecirc;ts de gommiers des neiges noueux et aux prairies alpines color&eacute;es sur le plateau Baw Baw dans l’&eacute;tat du Victoria. D&eacute;couvrez les grottes souterraines et une myriade d'oiseaux pr&egrave;s du lac Jindabyne dans les Snowy Mountains. Vous pouvez aussi rep&eacute;rer les kangourous, wallabys et rares grenouilles &laquo; corroboree &raquo; dans le paysage en granite du parc national de Namadgi, pr&egrave;s de Canberra.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[2. Un monde d’aventure]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australian-alps-hl02.jpg" alt="Perisher, NSW">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Perisher, NSW]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Profitez de tous les types de sports d’hiver dans les multiples stations de sports d’hiver des Alpes. D&eacute;valez les pistes de ski les plus &eacute;lev&eacute;es d'Australie &agrave; Charlotte Pass, ou bien profitez de la poudreuse &agrave; Thredbo et Perisher Blue en Nouvelle-Galles du Sud. Faites du ski ou du snowboard &agrave; Mt Buller, Mt Hotham et Falls Creek, au cœur du parc national alpin du Victoria. En &eacute;t&eacute;, vous pouvez faire de la randonn&eacute;e, du cheval ou d&eacute;valer en 4x4 ces pentes couvertes de fleurs sauvages. Descendez en rappel les affleurements rocheux en granit dans le parc national de Namadgi. En Nouvelle-Galles du Sud, vous pouvez faire du cano&euml; sur la rivi&egrave;re Snowy et faire de la sp&eacute;l&eacute;ologie pr&egrave;s de Tumut.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[3. L’histoire ancienne et moderne]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australian-alps-hl03.jpg" alt="Craigs Hut Mt Stirling, VIC">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Craigs Hut Mt Stirling, VIC]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        D&eacute;couvrez la Tumut River dans les Snowy Mountains avec un guide Wiradjuri ou participez &agrave; un tour culturel aborig&egrave;ne des grottes Yarrangobilly dans le parc national de Kosciuszko. Explorez les campements, les agencements c&eacute;r&eacute;moniels de pierres et les sites d’art rupestre du peuple Ngunawal mill&eacute;naire dans le parc national de Namadgi. Dans la r&eacute;serve naturelle toute proche de Tidbinbilla, vous pouvez visiter l’abri sous roche de Birrigai, vieux de 21 000 ans, et la grotte de Bogong, o&ugrave; les tribus se rassemblaient dans le pass&eacute; pour collecter les papillons bogong. Visitez le tribunal o&ugrave; fut jug&eacute; Ned Kelly &agrave; Beechworth, et marchez jusqu’aux vieilles huttes &agrave; b&eacute;tail dans les Bogong High Plains (hauts plateaux). Rencontrez les habitants des hauts plateaux au march&eacute; annuel aux bestiaux pendant le long weekend de mars.
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[4. Voyages panoramiques avec vues sur la montagne]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/Campaigns/national-landscapes-australian-alps-hl04.jpg" alt="Mt Stirling, VIC">]]></img_MainImage>
+                    <stf_Caption><![CDATA[Mt Stirling, VIC]]></stf_Caption>
+                    <anc_link><![CDATA[]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        Serpentez depuis Melbourne &agrave; travers le haut pays de Victoria sur la route Great Alpine Road. Voyagez de Melbourne au Gippsland, sur la plus haute route goudronn&eacute;e d'Australie, en passant par la r&eacute;gion viticole de Ovens Valley. Pour un vrai d&eacute;fi, faites de la randonn&eacute;e &agrave; travers les trois &eacute;tats sur la piste de marche &eacute;pique des Alpes australiennes. It Elle s’&eacute;tire sur 650 km, de Walhalla dans le Victoria jusqu’&agrave; Tharwa, au sud de Canberra. Vous pouvez suivre le sentier en dix semaines, ou bien parcourir des sections plus courtes, telles que le plateau de Baw Baw, les hautes plaines de Bogong et le Mont Koscuiuszko.
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights></con_Body>
+    <con_RHSModules><RichTextModule isTemplate="1">
+<txt_rhs_content><![CDATA[<TABLE cellSpacing=0 cellPadding=0 width=298 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top align=center><!-- Google Map Start -->
+<SCRIPT type=text/javascript>
+function fireEvent(obj,evt){
+var fireOnThis = obj;
+if( document.createEvent ) {
+var evObj = document.createEvent('MouseEvents');
+ evObj.initEvent( evt, true, false );
+fireOnThis.dispatchEvent(evObj);
+} else if( document.createEventObject ) {
+fireOnThis.fireEvent('on'+evt);
+}
+}
+function clickLink(linkobj) {
+     if (linkobj.getAttribute('onclick') == null) {
+ if (linkobj.getAttribute('href')) document.location = linkobj.getAttribute('href');
+     }
+     else linkobj.onclick();
+}
+function loadjscssfile(filename, filetype){
+ if (filetype=="js"){ //if filename is a external JavaScript file
+  var fileref=document.createElement('script')
+  fileref.setAttribute("type","text/javascript")
+  fileref.setAttribute("src", filename)
+ }
+ else if (filetype=="css"){ //if filename is an external CSS file
+  var fileref=document.createElement("link")
+  fileref.setAttribute("rel", "stylesheet")
+  fileref.setAttribute("type", "text/css")
+  fileref.setAttribute("href", filename)
+  fileref.setAttribute("media", "print")
+ }
+ if (typeof fileref!="undefined")
+  document.getElementsByTagName("head")[0].appendChild(fileref)
+}
+                  </SCRIPT>
+
+<SCRIPT type=text/javascript>
+var icheckk=0;
+jQuery.each(jQuery.browser, function(i, val) {
+if(i=="msie" && jQuery.browser.version.substr(0,3)=="7.0")
+icheckk=1;
+});
+function myfun()
+{
+loadjscssfile("../../static/css/thickbox.css", "css");
+if(icheckk==1)
+{
+
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='../../static/maps/fr/australianalps/bigmap.html'  target='_blank'>&nbsp;Imprimer|Proche|</a></b>","../../static/maps/fr/australianalps/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+else
+{
+tb_show("<b><img src='../../static/maps/images/print-icon.gif' /><a href='javascript:window.print()' >&nbsp;Imprimer|Proche|</a></b>","../../static/maps/fr/australianalps/bigmap.html?keepThis=true&amp;TB_iframe=true&amp;height=650&amp;width=777",false);
+}
+}
+         </SCRIPT>
+<IFRAME style="MARGIN-BOTTOM: 20px; BORDER-TOP: black 1px solid; HEIGHT: 355px; BORDER-RIGHT: black 1px solid; BORDER-BOTTOM: black 1px solid; FLOAT: left; PADDING-BOTTOM: 5px; BORDER-LEFT: black 1px solid; BACKGROUND-COLOR: #333333" height=380 src="../../static/maps/fr/australianalps/index.html" frameBorder=0 width=249 name=FRAMENAME scrolling=no></IFRAME><!-- Google Map end -->
+<DIV class=subpage-video-thumb style="TEXT-ALIGN: left"><A onclick="moduleTrackingWithTitle('lightbox-video','',false,'nationallandscapes-australianalpsfr');" href="#" data-reveal-id="modalVideo"><IMG alt="" src="/contentimages/Campaigns/national-landscapes-video-fr.jpg"></A> </DIV>
+<DIV id=modalVideo class="reveal-modal video" style-="z-index: 103;"><A class=close-reveal-modal><SPAN class=icon></SPAN></A>
+<DIV class=video style="VISIBILITY: visible !important"><IFRAME height=315 src="//www.youtube.com/v/EjGZ3MaX9pE?version=3&amp;hl=en_GB" frameBorder=0 width=560></IFRAME></DIV></DIV></TD></TR></TBODY></TABLE>]]></txt_rhs_content>
+<txt_custom_styling><![CDATA[]]></txt_custom_styling>
+<txt_main><![CDATA[]]></txt_main>
+</RichTextModule><Listing isTemplate="1">
+<anc_List1><![CDATA[/fr/explore/icons/namadgi.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[Id&eacute;es d&eacute;couverte]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/fr/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/fr/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/fr/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/fr/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/fr/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/fr/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/fr/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/fr/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/fr/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/fr/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/fr/Transport.aspx]]></anc_Transport>
+<hdl_Title><![CDATA[Commencez &agrave; organiser votre s&eacute;jour ]]></hdl_Title>
+<language><![CDATA[FRA]]></language>
+<stf_Accomodation><![CDATA[Logement]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[Blue Mountains Area]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[Attraction]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[Trouver une agence de voyage pr&egrave;s de chez vous ]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[Informations sur les destinations]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[&Eacute;v&egrave;nements]]></stf_Events>
+<stf_Hire><![CDATA[Location]]></stf_Hire>
+<stf_Informationservices><![CDATA[Informations]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[New South Wales]]></stf_StateFilter>
+<stf_Tours><![CDATA[Circuits]]></stf_Tours>
+<stf_Transport><![CDATA[Transports]]></stf_Transport>
+</PlanYourVisit></con_RHSModules>
+    <con_Category></con_Category>
+    <lst_Subpages>
+    </lst_Subpages>
+</StandardCampaignLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

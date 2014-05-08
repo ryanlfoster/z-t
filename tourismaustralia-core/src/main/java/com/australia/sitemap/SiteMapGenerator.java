@@ -8,6 +8,7 @@ import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.SlingHttpServletResponse;
 import org.apache.sling.api.resource.ResourceResolver;
 
+import com.australia.utils.ServerUtils;
 import com.day.cq.wcm.api.Page;
 import com.day.cq.wcm.api.PageManager;
 
@@ -48,9 +49,11 @@ public class SiteMapGenerator {
 		Iterator<Page> children = parent.listChildren();
 		while (children.hasNext()) {
 			Page child = children.next();
-			writer.write("<sitemap><loc>");
-			writer.write(resourceResolver.map(child.getPath()) + "/sitemap.xml");
-			writer.write("</loc></sitemap>");
+			if (ServerUtils.containsLanguageCode(child.getPath())) {
+				writer.write("<sitemap><loc>");
+				writer.write(resourceResolver.map(child.getPath()) + "/sitemap.xml");
+				writer.write("</loc></sitemap>");
+			}
 		}
 	}
 

@@ -1,42 +1,998 @@
 ---
-title: home
+title: Home
 layout: layout-base.hbs
+note: note-home
 ---
 
-{{#parseJSON '{
-"hero_image" : "herohome_sydney",
-"hero_title" : "Sydney",
-"hero_subtitle" : "The harbour city"
-}'}}
-    {{> hero }}
-{{/parseJSON}}
+<!-- HOME HERO TO BE ADDED -->
+<div class="home-interactive l-padding-b">
+</div>
 
-<div class="l-padding-between-item-fill-white">
-    {{#parseJSON '{
-    "page_title" : "New South Wales",
-    "map_summary" : [
-        {"para" : "Whether you adore the arts or love the great outdoors, Victoria has something for you."},
-        {"para" : "The state is packed with both scenic and cultural attractions – from striking public spaces and state-of-the-art museums to heritage sites and rare wildlife."}
-    ],
-    "map_text" : [
-        {"para" : "Discover the cafes and bars of Melbourne’s gothic laneways and drive the Great Ocean Road. Wind your way through the wineries of the Yarra Valley and chug down the Murray in a paddle-steamer. Swim with dolphins on Mornington Peninsula and see fairy penguins on Phillip Island. Trek the rugged Grampians then relax in a Daylesford health spa. Bushwalk Gippsland’s coastal wilderness, hit the High Country slopes or explore the grand architecture of a Goldfields town."}
-    ],
-    "map_image" : "intro-map-australia-nsw",
-    "map_main_title" : "Capital of Victoria",
-    "map_pin_button" : "Melbourne"
-}'}}
-        {{> explore_summary_map }}
+<div class="paragraph-home">
+
+    <div class="hotornot">
+
+        <div class="hotornot-selector">
+
+            <div class="hotornot-images">
+
+                <div class="row l-center-1200 l-padding-b-standard-responsive">
+                    {{#parseJSON '{"copy": "Explore your Australia", "main_heading_color": true}'}}
+                        {{> linethroughtext }}
+                    {{/parseJSON}}
+                </div>
+
+                <div class="row l-center-1200 l-row-collapse">
+                    <div class="col-xs-6">
+
+                        <!-- background image start -->
+                        <div  class="hotornot-background-image fullwidth-bg" data-image-vertical-alignment="bottom">
+
+                                <div class="responsive-image" data-picture="" data-alt="" >
+                                    <div data-src="imgs/placeholders/hot_or_not1.png" data-media="(min-width: 1px)"></div>
+                                    <div data-src="imgs/placeholders/hot_or_not1.png" data-media="(min-width: 481px)"></div>
+                                    <div data-src="imgs/placeholders/hot_or_not1.png" data-media="(min-width: 769px)"></div>
+                                    <div data-src="imgs/placeholders/hot_or_not1.png" data-media="(min-width: 993px)"></div>
+
+                                    <noscript>
+                                        <img src='imgs/placeholders/hot_or_not1.png' alt=''>
+                                    </noscript>
+                                </div>
+                                <!--[if (lt IE 9) & (!IEMobile)]>
+                                <img src='imgs/placeholders/hot_or_not1.png' alt=''>
+                                <![endif]-->
+
+                        </div>
+                        <!-- background image end -->
+
+                        <!-- like button start -->
+                        <a href="#" class="btn-bubble btn-bubble-fullarea hotornot-selector1-btn">
+                    <span class="btn-bubble-button btn-icon-center-like">
+                          <img class="btn-bubble-std" src="imgs/icons/hot_or_not_like_std.png" alt=""/>
+                          <img class="btn-bubble-active" src="imgs/icons/hot_or_not_like_rol.png" alt=""/>
+                    </span>
+                        </a>
+                        <!-- like button end -->
+
+                        <!-- category title text start -->
+                        <div class="hotornot-category">
+                            {{#parseJSON '{"title": "Arts, Music & Culture"}'}}
+                                <h2 class="hotornot-h2-responsive">
+                                    {{#if title}}
+                                        {{{title}}}
+                                    {{else}}
+                                        Arts, Music & Culture
+                                    {{/if}}
+                                </h2>
+                            {{/parseJSON}}
+                        </div>
+                        <!-- category title text end -->
+
+                    </div>
+                    <div class="col-xs-6">
+
+                        <!-- background image start -->
+                        <div  class="hotornot-background-image fullwidth-bg" data-image-vertical-alignment="bottom">
+
+                            <div class="responsive-image" data-picture="" data-alt="" >
+                                <div data-src="imgs/placeholders/hot_or_not2.png" data-media="(min-width: 1px)"></div>
+                                <div data-src="imgs/placeholders/hot_or_not2.png" data-media="(min-width: 481px)"></div>
+                                <div data-src="imgs/placeholders/hot_or_not2.png" data-media="(min-width: 769px)"></div>
+                                <div data-src="imgs/placeholders/hot_or_not2.png" data-media="(min-width: 993px)"></div>
+
+                                <noscript>
+                                    <img src='imgs/placeholders/hot_or_not2.png' alt=''>
+                                </noscript>
+                            </div>
+                            <!--[if (lt IE 9) & (!IEMobile)]>
+                            <img src='imgs/placeholders/hot_or_not2.png' alt=''>
+                            <![endif]-->
+
+                        </div>
+                        <!-- background image end -->
+
+                        <!-- like button start -->
+                        <a href="#" class="btn-bubble btn-bubble-fullarea hotornot-selector2-btn">
+                    <span class="btn-bubble-button btn-icon-center-like">
+                          <img class="btn-bubble-std" src="imgs/icons/hot_or_not_like_std.png" alt=""/>
+                          <img class="btn-bubble-active" src="imgs/icons/hot_or_not_like_rol.png" alt=""/>
+                    </span>
+                        </a>
+                        <!-- like button end -->
+
+                        <!-- category title text start -->
+                        <div class="hotornot-category">
+                            {{#parseJSON '{"title": "Aboriginal Australia"}'}}
+                                <h2 class="hotornot-h2-responsive">
+                                    {{#if title}}
+                                        {{{title}}}
+                                    {{else}}
+                                        Arts, Music & Culture
+                                    {{/if}}
+                                </h2>
+                            {{/parseJSON}}
+                        </div>
+                        <!-- category title text end -->
+
+                    </div>
+                </div>
+
+                <!-- refresh button start -->
+                <div class="hotornot-refresh">
+                    <a href="#" class="btn-bubble hotornot-refresh-btn">
+        <span class="btn-bubble-button">
+              <img class="btn-bubble-std" src="imgs/icons/hot_or_not_refresh_std.png" alt=""/>
+              <img class="btn-bubble-active" src="imgs/icons/hot_or_not_refresh_rol.png" alt=""/>
+        </span>
+                    </a>
+                </div>
+                <!-- refresh button start -->
+
+            </div>
+
+        </div>
+
+
+
+        <!-- hot or not item start -->
+        <div class="hotornot-item is-hidden">
+            <div class="row l-center-1200 l-row-collapse">
+                <div class="hotornot-item-tile col-xs-12 col-md-3">
+
+                    <div class="hotornot-item-padding theme-aboriginal">
+
+                        <!-- background image spacer start -->
+                        <img src='imgs/base/spacer_hot_or_not_row.png' alt='' class="hotornot-spacer-fill">
+                        <!-- background image spacer end -->
+
+                        <!-- line and diamond start -->
+                        <div class="hotornot-diamond theme-aboriginal-border">
+                            <!-- icons, aboriginal_australia, adventure, art_culture, beaches,
+                            food_wine, island, nature_wildlife, outback, sports -->
+                            <span class="hotornot-diamond-img-container">
+                                <span class="hotornot-diamond-img-bg theme-aboriginal"></span>
+                                <img class="hotornot-diamond-img" src="imgs/icons/aboriginal_australia_stroke.png" alt="">
+                            </span>
+                        </div>
+                        <!-- line and diamond end -->
+
+                        <!-- close btn start -->
+                        <a href="#" class="btn-bubble hotornot-close-btn">
+        <span class="btn-bubble-button">
+              <img class="btn-bubble-std" src="imgs/icons/close_button_white_std.png" alt="">
+              <img class="btn-bubble-active" src="imgs/icons/close_button_white_rol.png" alt="">
+        </span>
+                        </a>
+                        <!-- close btn end -->
+
+                        <!-- category title text start -->
+                        <div class="hotornot-item-category">
+                            {{#parseJSON '{"title": "Aboriginal Australia"}'}}
+                                <h2 class="hotornot-item-h2-responsive">
+                                    {{#if title}}
+                                        {{{title}}}
+                                    {{else}}
+                                        Arts, Music & Culture
+                                    {{/if}}
+                                </h2>
+                            {{/parseJSON}}
+                        </div>
+                        <!-- category title text end -->
+
+                        <!-- show button start -->
+                        <div class="hotornot-item-btn-position hotornot-show-btn">
+                            <a href="#" class="btn-bubble">
+        <span class="btn-bubble-button">
+              <img class="btn-bubble-std" src="imgs/icons/hot_or_not_show_std.png" alt=""/>
+              <img class="btn-bubble-active" src="imgs/icons/hot_or_not_show_rol.png" alt=""/>
+        </span>
+                            </a>
+                        </div>
+                        <!-- show button start -->
+
+                        <!-- hide button start -->
+                        <div class="hotornot-item-btn-position hotornot-hide-btn">
+                            <a href="#" class="btn-bubble">
+        <span class="btn-bubble-button">
+              <img class="btn-bubble-std" src="imgs/icons/hot_or_not_hide_std.png" alt=""/>
+              <img class="btn-bubble-active" src="imgs/icons/hot_or_not_hide_rol.png" alt=""/>
+        </span>
+                            </a>
+                        </div>
+                        <!-- hide button start -->
+
+                    </div>
+
+                </div>
+                <div class="col-xs-12 col-md-9 hotornot-item-grid">
+                    <!-- 3 column mosaic grid start -->
+                    {{> mosaic_hotornot_grid_2_6 }}
+                    <!-- 3 column mosaic grid end -->
+                </div>
+
+            </div>
+
+            <!-- hide button start -->
+            <div class="hotornot-item-btn-bottom-position hotornot-hide-btn">
+                <a href="#" class="btn-bubble">
+        <span class="btn-bubble-button">
+              <img class="btn-bubble-std" src="imgs/icons/hot_or_not_hide2_std.png" alt=""/>
+              <img class="btn-bubble-active" src="imgs/icons/hot_or_not_hide2_rol.png" alt=""/>
+        </span>
+                </a>
+            </div>
+            <!-- hide button start -->
+
+        </div>
+        <!-- hot or not item end -->
+
+
+        <!-- hot or not item start -->
+        <div class="hotornot-item">
+            <div class="row l-center-1200 l-row-collapse">
+                <div class="hotornot-item-tile col-xs-12 col-md-3">
+
+                    <div class="hotornot-item-padding theme-arts">
+
+                        <!-- background image spacer start -->
+                        <img src='imgs/base/spacer_hot_or_not_row.png' alt='' class="hotornot-spacer-fill">
+                        <!-- background image spacer end -->
+
+                        <!-- line and diamond start -->
+                        <div class="hotornot-diamond theme-arts-border">
+                            <!-- icons, aboriginal_australia, adventure, art_culture, beaches,
+                            food_wine, island, nature_wildlife, outback, sports -->
+                            <span class="hotornot-diamond-img-container">
+                                <span class="hotornot-diamond-img-bg theme-arts"></span>
+                                <img class="hotornot-diamond-img" src="imgs/icons/art_culture_stroke.png" alt="">
+                            </span>
+                        </div>
+                        <!-- line and diamond end -->
+
+                        <!-- close btn start -->
+                        <a href="#" class="btn-bubble hotornot-close-btn">
+        <span class="btn-bubble-button">
+              <img class="btn-bubble-std" src="imgs/icons/close_button_white_std.png" alt="">
+              <img class="btn-bubble-active" src="imgs/icons/close_button_white_rol.png" alt="">
+        </span>
+                        </a>
+                        <!-- close btn end -->
+
+                        <!-- category title text start -->
+                        <div class="hotornot-item-category">
+                            {{#parseJSON '{"title": "ARTS, MUSIC & CULTURE"}'}}
+                                <h2 class="hotornot-item-h2-responsive">
+                                    {{#if title}}
+                                        {{{title}}}
+                                    {{else}}
+                                        Arts, Music & Culture
+                                    {{/if}}
+                                </h2>
+                            {{/parseJSON}}
+                        </div>
+                        <!-- category title text end -->
+
+                        <!-- show button start -->
+                        <div class="hotornot-item-btn-position hotornot-show-btn">
+                            <a href="#" class="btn-bubble">
+        <span class="btn-bubble-button">
+              <img class="btn-bubble-std" src="imgs/icons/hot_or_not_show_std.png" alt=""/>
+              <img class="btn-bubble-active" src="imgs/icons/hot_or_not_show_rol.png" alt=""/>
+        </span>
+                            </a>
+                        </div>
+                        <!-- show button start -->
+
+                        <!-- hide button start -->
+                        <div class="hotornot-item-btn-position hotornot-hide-btn">
+                            <a href="#" class="btn-bubble">
+        <span class="btn-bubble-button">
+              <img class="btn-bubble-std" src="imgs/icons/hot_or_not_hide_std.png" alt=""/>
+              <img class="btn-bubble-active" src="imgs/icons/hot_or_not_hide_rol.png" alt=""/>
+        </span>
+                            </a>
+                        </div>
+                        <!-- hide button start -->
+
+                    </div>
+
+                </div>
+                <div class="col-xs-12 col-md-9 hotornot-item-grid">
+                    <!-- 3 column mosaic grid start -->
+                    {{> mosaic_hotornot_grid_2_6 }}
+                    <!-- 3 column mosaic grid end -->
+                </div>
+
+            </div>
+
+            <!-- hide button start -->
+            <div class="hotornot-item-btn-bottom-position hotornot-hide-btn">
+                <a href="#" class="btn-bubble">
+        <span class="btn-bubble-button">
+              <img class="btn-bubble-std" src="imgs/icons/hot_or_not_hide2_std.png" alt=""/>
+              <img class="btn-bubble-active" src="imgs/icons/hot_or_not_hide2_rol.png" alt=""/>
+        </span>
+                </a>
+            </div>
+            <!-- hide button start -->
+
+        </div>
+        <!-- hot or not item end -->
+
+        <!-- ######################################################## -->
+        <!-- HOT OR NOT SAMPLE ITEMS START -->
+
+        <div style="display: none">
+            <!-- hot or not item start -->
+            <div class="hotornot-item">
+                <div class="row l-center-1200 l-row-collapse">
+                    <div class="hotornot-item-tile col-xs-12 col-md-3">
+
+                        <div class="hotornot-item-padding theme-nature">
+
+                            <!-- background image spacer start -->
+                            <img src='imgs/base/spacer_hot_or_not_row.png' alt='' class="hotornot-spacer-fill">
+                            <!-- background image spacer end -->
+
+                            <!-- line and diamond start -->
+                            <div class="hotornot-diamond theme-nature-border">
+                                <!-- icons, aboriginal_australia, adventure, art_culture, beaches,
+                                food_wine, island, nature_wildlife, outback, sports -->
+                                <span class="hotornot-diamond-img-container">
+                                    <span class="hotornot-diamond-img-bg theme-nature"></span>
+                                    <img class="hotornot-diamond-img" src="imgs/icons/nature_wildlife_stroke.png" alt="">
+                                </span>
+                            </div>
+                            <!-- line and diamond end -->
+
+                            <!-- close btn start -->
+                            <a href="#" class="btn-bubble hotornot-close-btn">
+            <span class="btn-bubble-button">
+                  <img class="btn-bubble-std" src="imgs/icons/close_button_white_std.png" alt="">
+                  <img class="btn-bubble-active" src="imgs/icons/close_button_white_rol.png" alt="">
+            </span>
+                            </a>
+                            <!-- close btn end -->
+
+                            <!-- category title text start -->
+                            <div class="hotornot-item-category">
+                                {{#parseJSON '{"title": "Nature & Wildlife"}'}}
+                                    <h2 class="hotornot-item-h2-responsive">
+                                        {{#if title}}
+                                            {{{title}}}
+                                        {{else}}
+                                            Arts, Music & Culture
+                                        {{/if}}
+                                    </h2>
+                                {{/parseJSON}}
+                            </div>
+                            <!-- category title text end -->
+
+                            <!-- show button start -->
+                            <div class="hotornot-item-btn-position hotornot-show-btn">
+                                <a href="#" class="btn-bubble">
+            <span class="btn-bubble-button">
+                  <img class="btn-bubble-std" src="imgs/icons/hot_or_not_show_std.png" alt=""/>
+                  <img class="btn-bubble-active" src="imgs/icons/hot_or_not_show_rol.png" alt=""/>
+            </span>
+                                </a>
+                            </div>
+                            <!-- show button start -->
+
+                            <!-- hide button start -->
+                            <div class="hotornot-item-btn-position hotornot-hide-btn">
+                                <a href="#" class="btn-bubble">
+            <span class="btn-bubble-button">
+                  <img class="btn-bubble-std" src="imgs/icons/hot_or_not_hide_std.png" alt=""/>
+                  <img class="btn-bubble-active" src="imgs/icons/hot_or_not_hide_rol.png" alt=""/>
+            </span>
+                                </a>
+                            </div>
+                            <!-- hide button start -->
+
+                        </div>
+
+                    </div>
+                    <div class="col-xs-12 col-md-9 hotornot-item-grid">
+                        <!-- 3 column mosaic grid start -->
+                        {{> mosaic_hotornot_grid_2_6 }}
+                        <!-- 3 column mosaic grid end -->
+                    </div>
+
+                </div>
+
+                <!-- hide button start -->
+                <div class="hotornot-item-btn-bottom-position hotornot-hide-btn">
+                    <a href="#" class="btn-bubble">
+            <span class="btn-bubble-button">
+                  <img class="btn-bubble-std" src="imgs/icons/hot_or_not_hide2_std.png" alt=""/>
+                  <img class="btn-bubble-active" src="imgs/icons/hot_or_not_hide2_rol.png" alt=""/>
+            </span>
+                    </a>
+                </div>
+                <!-- hide button start -->
+
+            </div>
+            <!-- hot or not item end -->
+
+
+            <!-- hot or not item start -->
+            <div class="hotornot-item">
+                <div class="row l-center-1200 l-row-collapse">
+                    <div class="hotornot-item-tile col-xs-12 col-md-3">
+
+                        <div class="hotornot-item-padding theme-outback">
+
+                            <!-- background image spacer start -->
+                            <img src='imgs/base/spacer_hot_or_not_row.png' alt='' class="hotornot-spacer-fill">
+                            <!-- background image spacer end -->
+
+                            <!-- line and diamond start -->
+                            <div class="hotornot-diamond theme-outback-border">
+                                <!-- icons, aboriginal_australia, adventure, art_culture, beaches,
+                                food_wine, island, nature_wildlife, outback, sports -->
+                                <span class="hotornot-diamond-img-container">
+                                    <span class="hotornot-diamond-img-bg theme-outback"></span>
+                                    <img class="hotornot-diamond-img" src="imgs/icons/outback_stroke.png" alt="">
+                                </span>
+                            </div>
+                            <!-- line and diamond end -->
+
+                            <!-- close btn start -->
+                            <a href="#" class="btn-bubble hotornot-close-btn">
+            <span class="btn-bubble-button">
+                  <img class="btn-bubble-std" src="imgs/icons/close_button_black_std.png" alt="">
+                  <img class="btn-bubble-active" src="imgs/icons/close_button_black_rol.png" alt="">
+            </span>
+                            </a>
+                            <!-- close btn end -->
+
+                            <!-- category title text start -->
+                            <div class="hotornot-item-category">
+                                {{#parseJSON '{"title": "Outback Australia"}'}}
+                                    <h2 class="hotornot-item-h2-responsive">
+                                        {{#if title}}
+                                            {{{title}}}
+                                        {{else}}
+                                            Arts, Music & Culture
+                                        {{/if}}
+                                    </h2>
+                                {{/parseJSON}}
+                            </div>
+                            <!-- category title text end -->
+
+                            <!-- show button start -->
+                            <div class="hotornot-item-btn-position hotornot-show-btn">
+                                <a href="#" class="btn-bubble">
+            <span class="btn-bubble-button">
+                  <img class="btn-bubble-std" src="imgs/icons/hot_or_not_show_std.png" alt=""/>
+                  <img class="btn-bubble-active" src="imgs/icons/hot_or_not_show_rol.png" alt=""/>
+            </span>
+                                </a>
+                            </div>
+                            <!-- show button start -->
+
+                            <!-- hide button start -->
+                            <div class="hotornot-item-btn-position hotornot-hide-btn">
+                                <a href="#" class="btn-bubble">
+            <span class="btn-bubble-button">
+                  <img class="btn-bubble-std" src="imgs/icons/hot_or_not_hide_std.png" alt=""/>
+                  <img class="btn-bubble-active" src="imgs/icons/hot_or_not_hide_rol.png" alt=""/>
+            </span>
+                                </a>
+                            </div>
+                            <!-- hide button start -->
+
+                        </div>
+
+                    </div>
+                    <div class="col-xs-12 col-md-9 hotornot-item-grid">
+                        <!-- 3 column mosaic grid start -->
+                        {{> mosaic_hotornot_grid_2_6 }}
+                        <!-- 3 column mosaic grid end -->
+                    </div>
+
+                </div>
+
+                <!-- hide button start -->
+                <div class="hotornot-item-btn-bottom-position hotornot-hide-btn">
+                    <a href="#" class="btn-bubble">
+            <span class="btn-bubble-button">
+                  <img class="btn-bubble-std" src="imgs/icons/hot_or_not_hide2_std.png" alt=""/>
+                  <img class="btn-bubble-active" src="imgs/icons/hot_or_not_hide2_rol.png" alt=""/>
+            </span>
+                    </a>
+                </div>
+                <!-- hide button start -->
+
+            </div>
+            <!-- hot or not item end -->
+
+
+            <!-- hot or not item start -->
+            <div class="hotornot-item">
+                <div class="row l-center-1200 l-row-collapse">
+                    <div class="hotornot-item-tile col-xs-12 col-md-3">
+
+                        <div class="hotornot-item-padding theme-food">
+
+                            <!-- background image spacer start -->
+                            <img src='imgs/base/spacer_hot_or_not_row.png' alt='' class="hotornot-spacer-fill">
+                            <!-- background image spacer end -->
+
+                            <!-- line and diamond start -->
+                            <div class="hotornot-diamond theme-food-border">
+                                <!-- icons, aboriginal_australia, adventure, art_culture, beaches,
+                                food_wine, island, nature_wildlife, outback, sports -->
+                                <span class="hotornot-diamond-img-container">
+                                    <span class="hotornot-diamond-img-bg theme-food"></span>
+                                    <img class="hotornot-diamond-img" src="imgs/icons/food_wine_stroke.png" alt="">
+                                </span>
+                            </div>
+                            <!-- line and diamond end -->
+
+                            <!-- close btn start -->
+                            <a href="#" class="btn-bubble hotornot-close-btn">
+            <span class="btn-bubble-button">
+                  <img class="btn-bubble-std" src="imgs/icons/close_button_white_std.png" alt="">
+                  <img class="btn-bubble-active" src="imgs/icons/close_button_white_rol.png" alt="">
+            </span>
+                            </a>
+                            <!-- close btn end -->
+
+                            <!-- category title text start -->
+                            <div class="hotornot-item-category">
+                                {{#parseJSON '{"title": "Food & Wine"}'}}
+                                    <h2 class="hotornot-item-h2-responsive">
+                                        {{#if title}}
+                                            {{{title}}}
+                                        {{else}}
+                                            Arts, Music & Culture
+                                        {{/if}}
+                                    </h2>
+                                {{/parseJSON}}
+                            </div>
+                            <!-- category title text end -->
+
+                            <!-- show button start -->
+                            <div class="hotornot-item-btn-position hotornot-show-btn">
+                                <a href="#" class="btn-bubble">
+            <span class="btn-bubble-button">
+                  <img class="btn-bubble-std" src="imgs/icons/hot_or_not_show_std.png" alt=""/>
+                  <img class="btn-bubble-active" src="imgs/icons/hot_or_not_show_rol.png" alt=""/>
+            </span>
+                                </a>
+                            </div>
+                            <!-- show button start -->
+
+                            <!-- hide button start -->
+                            <div class="hotornot-item-btn-position hotornot-hide-btn">
+                                <a href="#" class="btn-bubble">
+            <span class="btn-bubble-button">
+                  <img class="btn-bubble-std" src="imgs/icons/hot_or_not_hide_std.png" alt=""/>
+                  <img class="btn-bubble-active" src="imgs/icons/hot_or_not_hide_rol.png" alt=""/>
+            </span>
+                                </a>
+                            </div>
+                            <!-- hide button start -->
+
+                        </div>
+
+                    </div>
+                    <div class="col-xs-12 col-md-9 hotornot-item-grid">
+                        <!-- 3 column mosaic grid start -->
+                        {{> mosaic_hotornot_grid_2_6 }}
+                        <!-- 3 column mosaic grid end -->
+                    </div>
+
+                </div>
+
+                <!-- hide button start -->
+                <div class="hotornot-item-btn-bottom-position hotornot-hide-btn">
+                    <a href="#" class="btn-bubble">
+            <span class="btn-bubble-button">
+                  <img class="btn-bubble-std" src="imgs/icons/hot_or_not_hide2_std.png" alt=""/>
+                  <img class="btn-bubble-active" src="imgs/icons/hot_or_not_hide2_rol.png" alt=""/>
+            </span>
+                    </a>
+                </div>
+                <!-- hide button start -->
+
+            </div>
+            <!-- hot or not item end -->
+
+            <!-- hot or not item start -->
+            <div class="hotornot-item">
+                <div class="row l-center-1200 l-row-collapse">
+                    <div class="hotornot-item-tile col-xs-12 col-md-3">
+
+                        <div class="hotornot-item-padding theme-islands">
+
+                            <!-- background image spacer start -->
+                            <img src='imgs/base/spacer_hot_or_not_row.png' alt='' class="hotornot-spacer-fill">
+                            <!-- background image spacer end -->
+
+                            <!-- line and diamond start -->
+                            <div class="hotornot-diamond theme-islands-border">
+                                <!-- icons, aboriginal_australia, adventure, art_culture, beaches,
+                                food_wine, island, nature_wildlife, outback, sports -->
+                                <span class="hotornot-diamond-img-container">
+                                    <span class="hotornot-diamond-img-bg theme-islands"></span>
+                                    <img class="hotornot-diamond-img" src="imgs/icons/island_stroke.png" alt="">
+                                </span>
+                            </div>
+                            <!-- line and diamond end -->
+
+                            <!-- close btn start -->
+                            <a href="#" class="btn-bubble hotornot-close-btn">
+            <span class="btn-bubble-button">
+                  <img class="btn-bubble-std" src="imgs/icons/close_button_black_std.png" alt="">
+                  <img class="btn-bubble-active" src="imgs/icons/close_button_black_rol.png" alt="">
+            </span>
+                            </a>
+                            <!-- close btn end -->
+
+                            <!-- category title text start -->
+                            <div class="hotornot-item-category">
+                                {{#parseJSON '{"title": "Islands"}'}}
+                                    <h2 class="hotornot-item-h2-responsive">
+                                        {{#if title}}
+                                            {{{title}}}
+                                        {{else}}
+                                            Arts, Music & Culture
+                                        {{/if}}
+                                    </h2>
+                                {{/parseJSON}}
+                            </div>
+                            <!-- category title text end -->
+
+                            <!-- show button start -->
+                            <div class="hotornot-item-btn-position hotornot-show-btn">
+                                <a href="#" class="btn-bubble">
+            <span class="btn-bubble-button">
+                  <img class="btn-bubble-std" src="imgs/icons/hot_or_not_show_std.png" alt=""/>
+                  <img class="btn-bubble-active" src="imgs/icons/hot_or_not_show_rol.png" alt=""/>
+            </span>
+                                </a>
+                            </div>
+                            <!-- show button start -->
+
+                            <!-- hide button start -->
+                            <div class="hotornot-item-btn-position hotornot-hide-btn">
+                                <a href="#" class="btn-bubble">
+            <span class="btn-bubble-button">
+                  <img class="btn-bubble-std" src="imgs/icons/hot_or_not_hide_std.png" alt=""/>
+                  <img class="btn-bubble-active" src="imgs/icons/hot_or_not_hide_rol.png" alt=""/>
+            </span>
+                                </a>
+                            </div>
+                            <!-- hide button start -->
+
+                        </div>
+
+                    </div>
+                    <div class="col-xs-12 col-md-9 hotornot-item-grid">
+                        <!-- 3 column mosaic grid start -->
+                        {{> mosaic_hotornot_grid_2_6 }}
+                        <!-- 3 column mosaic grid end -->
+                    </div>
+
+                </div>
+
+                <!-- hide button start -->
+                <div class="hotornot-item-btn-bottom-position hotornot-hide-btn">
+                    <a href="#" class="btn-bubble">
+            <span class="btn-bubble-button">
+                  <img class="btn-bubble-std" src="imgs/icons/hot_or_not_hide2_std.png" alt=""/>
+                  <img class="btn-bubble-active" src="imgs/icons/hot_or_not_hide2_rol.png" alt=""/>
+            </span>
+                    </a>
+                </div>
+                <!-- hide button start -->
+
+            </div>
+            <!-- hot or not item end -->
+
+
+            <!-- hot or not item start -->
+            <div class="hotornot-item">
+                <div class="row l-center-1200 l-row-collapse">
+                    <div class="hotornot-item-tile col-xs-12 col-md-3">
+
+                        <div class="hotornot-item-padding theme-beaches">
+
+                            <!-- background image spacer start -->
+                            <img src='imgs/base/spacer_hot_or_not_row.png' alt='' class="hotornot-spacer-fill">
+                            <!-- background image spacer end -->
+
+                            <!-- line and diamond start -->
+                            <div class="hotornot-diamond theme-beaches-border">
+                                <!-- icons, aboriginal_australia, adventure, art_culture, beaches,
+                                food_wine, island, nature_wildlife, outback, sports -->
+                                <span class="hotornot-diamond-img-container">
+                                    <span class="hotornot-diamond-img-bg theme-beaches"></span>
+                                    <img class="hotornot-diamond-img" src="imgs/icons/beaches_stroke.png" alt="">
+                                </span>
+                            </div>
+                            <!-- line and diamond end -->
+
+                            <!-- close btn start -->
+                            <a href="#" class="btn-bubble hotornot-close-btn">
+            <span class="btn-bubble-button">
+                  <img class="btn-bubble-std" src="imgs/icons/close_button_black_std.png" alt="">
+                  <img class="btn-bubble-active" src="imgs/icons/close_button_black_rol.png" alt="">
+            </span>
+                            </a>
+                            <!-- close btn end -->
+
+                            <!-- category title text start -->
+                            <div class="hotornot-item-category">
+                                {{#parseJSON '{"title": "Beaches"}'}}
+                                    <h2 class="hotornot-item-h2-responsive">
+                                        {{#if title}}
+                                            {{{title}}}
+                                        {{else}}
+                                            Arts, Music & Culture
+                                        {{/if}}
+                                    </h2>
+                                {{/parseJSON}}
+                            </div>
+                            <!-- category title text end -->
+
+                            <!-- show button start -->
+                            <div class="hotornot-item-btn-position hotornot-show-btn">
+                                <a href="#" class="btn-bubble">
+            <span class="btn-bubble-button">
+                  <img class="btn-bubble-std" src="imgs/icons/hot_or_not_show_std.png" alt=""/>
+                  <img class="btn-bubble-active" src="imgs/icons/hot_or_not_show_rol.png" alt=""/>
+            </span>
+                                </a>
+                            </div>
+                            <!-- show button start -->
+
+                            <!-- hide button start -->
+                            <div class="hotornot-item-btn-position hotornot-hide-btn">
+                                <a href="#" class="btn-bubble">
+            <span class="btn-bubble-button">
+                  <img class="btn-bubble-std" src="imgs/icons/hot_or_not_hide_std.png" alt=""/>
+                  <img class="btn-bubble-active" src="imgs/icons/hot_or_not_hide_rol.png" alt=""/>
+            </span>
+                                </a>
+                            </div>
+                            <!-- hide button start -->
+
+                        </div>
+
+                    </div>
+                    <div class="col-xs-12 col-md-9 hotornot-item-grid">
+                        <!-- 3 column mosaic grid start -->
+                        {{> mosaic_hotornot_grid_2_6 }}
+                        <!-- 3 column mosaic grid end -->
+                    </div>
+
+                </div>
+
+                <!-- hide button start -->
+                <div class="hotornot-item-btn-bottom-position hotornot-hide-btn">
+                    <a href="#" class="btn-bubble">
+            <span class="btn-bubble-button">
+                  <img class="btn-bubble-std" src="imgs/icons/hot_or_not_hide2_std.png" alt=""/>
+                  <img class="btn-bubble-active" src="imgs/icons/hot_or_not_hide2_rol.png" alt=""/>
+            </span>
+                    </a>
+                </div>
+                <!-- hide button start -->
+
+            </div>
+            <!-- hot or not item end -->
+
+            <!-- hot or not item start -->
+            <div class="hotornot-item">
+                <div class="row l-center-1200 l-row-collapse">
+                    <div class="hotornot-item-tile col-xs-12 col-md-3">
+
+                        <div class="hotornot-item-padding theme-sports">
+
+                            <!-- background image spacer start -->
+                            <img src='imgs/base/spacer_hot_or_not_row.png' alt='' class="hotornot-spacer-fill">
+                            <!-- background image spacer end -->
+
+                            <!-- line and diamond start -->
+                            <div class="hotornot-diamond theme-beaches-border">
+                                <!-- icons, aboriginal_australia, adventure, art_culture, beaches,
+                                food_wine, island, nature_wildlife, outback, sports -->
+                                <span class="hotornot-diamond-img-container">
+                                    <span class="hotornot-diamond-img-bg theme-sports"></span>
+                                    <img class="hotornot-diamond-img" src="imgs/icons/sports_stroke.png" alt="">
+                                </span>
+                            </div>
+                            <!-- line and diamond end -->
+
+                            <!-- close btn start -->
+                            <a href="#" class="btn-bubble hotornot-close-btn">
+            <span class="btn-bubble-button">
+                  <img class="btn-bubble-std" src="imgs/icons/close_button_black_std.png" alt="">
+                  <img class="btn-bubble-active" src="imgs/icons/close_button_black_rol.png" alt="">
+            </span>
+                            </a>
+                            <!-- close btn end -->
+
+                            <!-- category title text start -->
+                            <div class="hotornot-item-category">
+                                {{#parseJSON '{"title": "Sports"}'}}
+                                    <h2 class="hotornot-item-h2-responsive">
+                                        {{#if title}}
+                                            {{{title}}}
+                                        {{else}}
+                                            Arts, Music & Culture
+                                        {{/if}}
+                                    </h2>
+                                {{/parseJSON}}
+                            </div>
+                            <!-- category title text end -->
+
+                            <!-- show button start -->
+                            <div class="hotornot-item-btn-position hotornot-show-btn">
+                                <a href="#" class="btn-bubble">
+            <span class="btn-bubble-button">
+                  <img class="btn-bubble-std" src="imgs/icons/hot_or_not_show_std.png" alt=""/>
+                  <img class="btn-bubble-active" src="imgs/icons/hot_or_not_show_rol.png" alt=""/>
+            </span>
+                                </a>
+                            </div>
+                            <!-- show button start -->
+
+                            <!-- hide button start -->
+                            <div class="hotornot-item-btn-position hotornot-hide-btn">
+                                <a href="#" class="btn-bubble">
+            <span class="btn-bubble-button">
+                  <img class="btn-bubble-std" src="imgs/icons/hot_or_not_hide_std.png" alt=""/>
+                  <img class="btn-bubble-active" src="imgs/icons/hot_or_not_hide_rol.png" alt=""/>
+            </span>
+                                </a>
+                            </div>
+                            <!-- hide button start -->
+
+                        </div>
+
+                    </div>
+                    <div class="col-xs-12 col-md-9 hotornot-item-grid">
+                        <!-- 3 column mosaic grid start -->
+                        {{> mosaic_hotornot_grid_2_6 }}
+                        <!-- 3 column mosaic grid end -->
+                    </div>
+
+                </div>
+
+                <!-- hide button start -->
+                <div class="hotornot-item-btn-bottom-position hotornot-hide-btn">
+                    <a href="#" class="btn-bubble">
+            <span class="btn-bubble-button">
+                  <img class="btn-bubble-std" src="imgs/icons/hot_or_not_hide2_std.png" alt=""/>
+                  <img class="btn-bubble-active" src="imgs/icons/hot_or_not_hide2_rol.png" alt=""/>
+            </span>
+                    </a>
+                </div>
+                <!-- hide button start -->
+
+            </div>
+            <!-- hot or not item end -->
+
+
+            <!-- hot or not item start -->
+            <div class="hotornot-item">
+                <div class="row l-center-1200 l-row-collapse">
+                    <div class="hotornot-item-tile col-xs-12 col-md-3">
+
+                        <div class="hotornot-item-padding theme-adventure">
+
+                            <!-- background image spacer start -->
+                            <img src='imgs/base/spacer_hot_or_not_row.png' alt='' class="hotornot-spacer-fill">
+                            <!-- background image spacer end -->
+
+                            <!-- line and diamond start -->
+                            <div class="hotornot-diamond theme-adventure-border">
+                                <!-- icons, aboriginal_australia, adventure, art_culture, beaches,
+                                food_wine, island, nature_wildlife, outback, sports -->
+                                <span class="hotornot-diamond-img-container">
+                                    <span class="hotornot-diamond-img-bg theme-adventure"></span>
+                                    <img class="hotornot-diamond-img" src="imgs/icons/adventure_stroke.png" alt="">
+                                </span>
+                            </div>
+                            <!-- line and diamond end -->
+
+                            <!-- close btn start -->
+                            <a href="#" class="btn-bubble hotornot-close-btn">
+            <span class="btn-bubble-button">
+                  <img class="btn-bubble-std" src="imgs/icons/close_button_black_std.png" alt="">
+                  <img class="btn-bubble-active" src="imgs/icons/close_button_black_rol.png" alt="">
+            </span>
+                            </a>
+                            <!-- close btn end -->
+
+                            <!-- category title text start -->
+                            <div class="hotornot-item-category">
+                                {{#parseJSON '{"title": "Adventure"}'}}
+                                    <h2 class="hotornot-item-h2-responsive">
+                                        {{#if title}}
+                                            {{{title}}}
+                                        {{else}}
+                                            Arts, Music & Culture
+                                        {{/if}}
+                                    </h2>
+                                {{/parseJSON}}
+                            </div>
+                            <!-- category title text end -->
+
+                            <!-- show button start -->
+                            <div class="hotornot-item-btn-position hotornot-show-btn">
+                                <a href="#" class="btn-bubble">
+            <span class="btn-bubble-button">
+                  <img class="btn-bubble-std" src="imgs/icons/hot_or_not_show_std.png" alt=""/>
+                  <img class="btn-bubble-active" src="imgs/icons/hot_or_not_show_rol.png" alt=""/>
+            </span>
+                                </a>
+                            </div>
+                            <!-- show button start -->
+
+                            <!-- hide button start -->
+                            <div class="hotornot-item-btn-position hotornot-hide-btn">
+                                <a href="#" class="btn-bubble">
+            <span class="btn-bubble-button">
+                  <img class="btn-bubble-std" src="imgs/icons/hot_or_not_hide_std.png" alt=""/>
+                  <img class="btn-bubble-active" src="imgs/icons/hot_or_not_hide_rol.png" alt=""/>
+            </span>
+                                </a>
+                            </div>
+                            <!-- hide button start -->
+
+                        </div>
+
+                    </div>
+                    <div class="col-xs-12 col-md-9 hotornot-item-grid">
+                        <!-- 3 column mosaic grid start -->
+                        {{> mosaic_hotornot_grid_2_6 }}
+                        <!-- 3 column mosaic grid end -->
+                    </div>
+
+                </div>
+
+                <!-- hide button start -->
+                <div class="hotornot-item-btn-bottom-position hotornot-hide-btn">
+                    <a href="#" class="btn-bubble">
+            <span class="btn-bubble-button">
+                  <img class="btn-bubble-std" src="imgs/icons/hot_or_not_hide2_std.png" alt=""/>
+                  <img class="btn-bubble-active" src="imgs/icons/hot_or_not_hide2_rol.png" alt=""/>
+            </span>
+                    </a>
+                </div>
+                <!-- hide button start -->
+
+            </div>
+            <!-- hot or not item end -->
+        </div>
+
+        <!-- HOT OR NOT SAMPLE ITEMS END -->
+        <!-- ######################################################## -->
+
+    </div>
+
+
+
+
+    {{#parseJSON '{"title": "#Australia", "copy": "See what other Australian holidaymakers have been up to lately."}'}}
+        {{> socialtiles }}
     {{/parseJSON}}
-</div>
 
-{{> image_with_date }}
+    {{#parseJSON '{
+        "promo_theme" : "special-offer-food-wine",
+        "promo_image" : "restaurant_australia_image1",
+        "promo_title" : "",
+        "promo_copy_image" : "restaurant_australia_image2",
+        "promo_text" : "",
+        "promo_link_text" : "Visit Restaurant Australia"
+    }'}}
+        {{> specialoffer_foodwine }}
+    {{/parseJSON}}
 
-{{> image_with_button }}
-
-<div class="l-padding-between-item-fill-white">
-    {{> mapimagewithlinks }}
-</div>
-
-<div class="l-padding-between-item-fill-white">
-    {{> explore }}
 </div>

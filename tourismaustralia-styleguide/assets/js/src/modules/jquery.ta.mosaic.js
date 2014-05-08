@@ -78,6 +78,12 @@
 
         var $mosaic_detail_close_btn = $(scope.element).find(scope.options.mosaic_detail_close_btn);
 
+        /*
+        if (this.interactiveType != "video"){
+
+        }
+        */
+
         $mosaic_container.click(function(e){
 
             // check if outbound link tile
@@ -145,7 +151,9 @@
         $mosaic_item.addClass('is-trigger-content');
         //$(scope.element).find(scope.options.mosaic_content).slideDown({duration: 600, easing: 'swing'});
         $mosaic_content.addClass("active");
-        $mosaic_grid2_content.addClass("active");
+        if ($mosaic_item.attr("data-interactive-type") != "video"){
+            $mosaic_grid2_content.addClass("active");
+        }
     };
     Plugin.prototype.removeClass = function($mosaic_item, $mosaic_content, $mosaic_grid2_content) {
         $mosaic_item.removeClass('is-trigger-content');

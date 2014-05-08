@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="11965" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Laman Utama]]></headline>
+            <href><![CDATA[/my/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Perihalan]]></headline>
+            <href><![CDATA[/my/about.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/about-hub.jpg]]></img_background>
+    <hdl_Title><![CDATA[Perihalan]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/about-hub-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/about-hub-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[0]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[1]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[Di sini anda akan menemui segala maklumat yang anda perlu tahu untuk menjadikan lawatan anda ke Australia suatu pengalaman yang paling bermakna.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[Fakta Mengenai Australia]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[y]]></stf_IsMobile>
+    <stf_keywords><![CDATA[Fakta mengenai Australia;  Fakta penting;  Budaya dan sejarah;  Muka bumi Australia]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Learn More]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[Fakta Mengenai Australia]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[Perihalan]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Perihalan - Fakta Mengenai Australia]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[
+        <h2>Fakta mengenai Australia</h2>
+        <p>Di sini anda akan menemui segala maklumat yang anda perlu tahu untuk menjadikan lawatan anda ke Australia suatu pengalaman yang paling bermakna. Ketahui sejarah, budaya, wain dan makanan yang lazat, serta seni dan pemandangan semula jadi kami yang menakjubkan.</p>
+        <p>Daripada sejarah orang asli yang kaya sejak lebih daripada 50,000 tahun dahulu kepada wira dan peneroka lagenda kami yang memacu perkembangan dan kepada bintang filem antarabangsa kami, anda akan ketahui dengan mendalam ciri-ciri yang menjadikan Australia sebuah negara yang bersemangat, moden dan berbilang budaya pada hari ini.</p>
+    ]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        Di sini anda akan menemui segala maklumat yang anda perlu tahu untuk menjadikan lawatan anda ke Australia suatu pengalaman yang paling bermakna.
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <HubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_Video>
+        <Video isTemplate="1">
+    <headline>Video Example</headline>
+    <anc_Link><![CDATA[]]></anc_Link>
+    <opt_isEmbeded><![CDATA[true]]></opt_isEmbeded>
+    <opt_videoOption><![CDATA[thirdParty]]></opt_videoOption>
+    <stf_CaptionTitle><![CDATA[]]></stf_CaptionTitle>
+    <stf_LinkText><![CDATA[]]></stf_LinkText>
+    <stf_MediaID><![CDATA[27a0704a-b277-46a9-826c-ebf4960463c8]]></stf_MediaID>
+    <stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+    <stf_ViocorpHeight><![CDATA[]]></stf_ViocorpHeight>
+    <stf_ViocorpWidth><![CDATA[]]></stf_ViocorpWidth>
+    <txt_embedCode><![CDATA[]]></txt_embedCode>
+    <txt_VideoDescription><![CDATA[<!--CTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dt-->
+        <h2>Sydney Harbour Experience</h2>
+        <p>There's nothing like a 4WD trip to Chambers pillar to see the terrain the early explorers had to traverse and conquer to open the outback Australia</p>
+        <a  class="more" href="#">Find out more...</a>
+        <p> </p>]]></txt_VideoDescription>
+</Video> 
+    </con_Video>
+</HubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+        <lst_Subpage><![CDATA[<a href="/my/about/11970.ignore">Fakta penting</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/my/about/11971.ignore">Budaya dan sejarah</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/my/about/11972.ignore">Muka bumi Australia</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/my/about/11986.ignore">Campaigns</a>]]></lst_Subpage>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

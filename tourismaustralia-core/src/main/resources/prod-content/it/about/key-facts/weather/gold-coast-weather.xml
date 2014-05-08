@@ -1,0 +1,463 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="15598" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Pagina iniziale]]></headline>
+            <href><![CDATA[/it/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Informazioni]]></headline>
+            <href><![CDATA[/it/about.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Meteo]]></headline>
+            <href><![CDATA[/it/about/key-facts/weather.xml]]></href>
+        </element>
+<element level="5">
+            <headline><![CDATA[Il tempo a Gold Coast]]></headline>
+            <href><![CDATA[/it/about/key-facts/weather/gold-coast-weather.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/about-weather-gold-coast.jpg]]></img_background>
+    <hdl_Title><![CDATA[Il tempo a Gold Coast]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/about-key-facts-weather-gold-coast-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/about-key-facts-weather-gold-coast-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[no]]></opt_PartnerLead>
+    <stf_description><![CDATA[Informati su meteo e temperature per pianificare al meglio la tua vacanza a Gold Coast. Scopri maggiori informazioni sul clima nelle varie stagioni e sull'offerta di attivit&agrave; all'aperto.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[Gold Coast, QLD. &copy; Tourism Australia]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[y]]></stf_IsMobile>
+    <stf_keywords><![CDATA[meteo gold coast, temperature gold coast, clima gold coast]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Maggiori informazioni]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Meteo, clima e temperature di Gold Coast – Tourism Australia]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+      Consulta le informazioni sulle temperature, le precipitazioni e le attivit&agrave; in ogni stagione per pianificare al meglio la tua vacanza a Gold Coast.
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <Listing isTemplate="1">
+<anc_List1><![CDATA[/it/explore/cities/gold-coast.xml]]></anc_List1>
+<anc_MoreLink><![CDATA[]]></anc_MoreLink>
+<hdl_Title><![CDATA[Altre idee australiane]]></hdl_Title>
+<img_Thumbnail><![CDATA[]]></img_Thumbnail>
+<med_File><![CDATA[]]></med_File>
+<opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+<stf_externalLink><![CDATA[]]></stf_externalLink>
+<stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+<stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+<stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+<txt_Teaser><![CDATA[]]></txt_Teaser>
+<opt_national_landscapes_id><![CDATA[]]></opt_national_landscapes_id>
+<stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+<stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+<con_Banner></con_Banner>
+<con_Body></con_Body>
+<con_RHSModules></con_RHSModules>
+<con_Category></con_Category>
+<lst_Subpages></lst_Subpages>
+</Listing><PlanYourVisit isTemplate="1">
+<anc_AccommodationSearch><![CDATA[/it/AccommodationSearch.aspx]]></anc_AccommodationSearch>
+<anc_ASPSearch><![CDATA[/it/plan/plan-your-trip/find-travel-agent.xml]]></anc_ASPSearch>
+<anc_Attraction><![CDATA[/it/AttractionSearchResults.aspx]]></anc_Attraction>
+<anc_Destinfo><![CDATA[/it/DestinfoSearchResults.aspx]]></anc_Destinfo>
+<anc_EventsSearch><![CDATA[/it/EventsSearch.aspx]]></anc_EventsSearch>
+<anc_GeneralSearch><![CDATA[/it/GeneralSearch.ignore]]></anc_GeneralSearch>
+<anc_Hire><![CDATA[/it/Hire.aspx]]></anc_Hire>
+<anc_Info><![CDATA[/it/InfoSearchResults.aspx]]></anc_Info>
+<anc_More><![CDATA[]]></anc_More>
+<anc_RestaurantSearch><![CDATA[/it/RestaurantSearch.ignore]]></anc_RestaurantSearch>
+<anc_Tour><![CDATA[/it/TourSearchResults.aspx]]></anc_Tour>
+<anc_Transport><![CDATA[/it/Transport.ignore]]></anc_Transport>
+<hdl_Title><![CDATA[Organizza la tua visita]]></hdl_Title>
+<language><![CDATA[ITA]]></language>
+<stf_Accomodation><![CDATA[]]></stf_Accomodation>
+<stf_AreaFilter><![CDATA[Gold Coast]]></stf_AreaFilter>
+<stf_Attractions><![CDATA[]]></stf_Attractions>
+<stf_AussieSpecialist><![CDATA[]]></stf_AussieSpecialist>
+<stf_Destinationinfo><![CDATA[]]></stf_Destinationinfo>
+<stf_DomesticRegion><![CDATA[]]></stf_DomesticRegion>
+<stf_Events><![CDATA[]]></stf_Events>
+<stf_Hire><![CDATA[]]></stf_Hire>
+<stf_Informationservices><![CDATA[]]></stf_Informationservices>
+<stf_PlanYourVisitTitle><![CDATA[Plan Your Visit]]></stf_PlanYourVisitTitle>
+<stf_StateFilter><![CDATA[Queensland]]></stf_StateFilter>
+<stf_Tours><![CDATA[]]></stf_Tours>
+<stf_Transport><![CDATA[]]></stf_Transport>
+</PlanYourVisit>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[Il tempo a Gold Coast]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[
+        Gold Coast, nel Queensland, ha un piacevole clima subtropicale, perfetto per divertirsi all'aperto durante tutto l'anno. Le medie annuali di Gold Coast sono 245 giorni di sole e bel tempo e circa 1.400 mm di pioggia, che cade principalmente nel periodo estivo (dicembre–febbraio). Le temperature diurne sulla costa si aggirano intorno ai 20 &deg;C. L'entroterra &egrave; leggermente pi&ugrave; fresco con temperature massime invernali intorno a 16 &deg;C. In inverno, cieli chiari e aria secca portano notti fresche. Qui troverai informazioni sulle temperature, le precipitazioni e le attivit&agrave; in ogni stagione per pianificare al meglio la tua vacanza a Gold Coast. 
+        <p>In estate (dicembre–febbraio) la temperatura media a <a href="/it/explore/cities/gold-coast.xml" target="_self">Gold Coast</a> varia piacevolmente tra 20 e 28 &deg;C, sebbene il periodo da gennaio a marzo sia quello con le precipitazioni pi&ugrave; abbondanti. Le giornate calde sono spesso seguite da temporali tropicali. L'umidit&agrave; raggiunge il massimo, ma &egrave; mitigata dalla brezza marina. &Egrave; uno dei momenti migliori dell'anno per visitare le fantastiche spiagge di <a href="/it/explore/cities/gold-coast/qld-surfing.xml" target="_self">Gold Coast</a>. Il fresco delle foreste pluviali e dei torrenti di montagna nell'entroterra offre un ottimo rifugio nelle calde giornate estive. Gennaio &egrave; il mese ideale per rinfrescarsi con i delfini al Sea World o per praticare attivit&agrave; acquatiche nel parco a tema Wet 'n' Wild. Inoltre, a gennaio si tiene la gara ippica Magic Millions. A febbraio, il clima di Gold Coast &egrave; ancora caldo e umido ed &egrave; il momento perfetto per stare in spiaggia, tra le onde o in piscina. Puoi vedere le leggende australiane affrontarsi nelle manifestazioni o nelle gare surfistiche come la Quiksilver Pro. Nell'<a href="/it/explore/itineraries/qld-goldcoast-hinterland.xml" target="_self">entroterra di Gold Coast</a> la lussureggiante foresta pluviale si anima con affascinanti piante e animali e la temperatura &egrave; pi&ugrave; fresca e meno umida rispetto alla costa. Altre attivit&agrave; gettonate in questo periodo dell'anno sono la pesca d'altura e dalla scogliera o il birdwatching nella foresta pluviale. </p>
+        <p>In autunno (marzo–maggio) le giornate di sole sono seguite da notti calde, ideali per attivit&agrave; acquatiche all'aperto come la pesca e la vela. Il Gold Coast Triathlon e gli <a href="/it/explore/australian-events/beaches-events.xml" target="_self">Australian Surf Life Saving Championships</a> si tengono a marzo e aprile. </p>
+        <p>L'inverno (giugno–agosto) a Gold Coast &egrave; in genere soleggiato e secco. Giugno segna l'inizio della stagione per l'avvistamento delle balene. Dai primi di giugno alla fine di ottobre prendono il via le escursioni in barca per <a href="/it/explore/things-to-do/australian-adventure/nat-whalewatching.xml" target="_self">trovare le balene</a>. In questo periodo dell'anno, molti australiani fuggono dal clima pi&ugrave; freddo degli stati meridionali e vengono in vacanza nel Queensland. L'umidit&agrave; &egrave; minore e piove meno, ma le temperature sono ancora calde. Il Surfers Paradise Festival si tiene da met&agrave; giugno a met&agrave; luglio. </p>
+        <p>La primavera (settembre–novembre) offre un clima simile all'autunno, con giornate di sole seguite da miti serate tropicali. Settembre pu&ograve; essere ventoso, quindi l'ideale per praticare sport come kitesurf, kiteboard, windsurf e vela. Al festival Springtime on the Mountain del monte Tamborine puoi vedere i variopinti fiori e giardini primaverili.<br />
+        A ottobre, guarda i famosi Ironmen e Ironwomen in competizione nella Coolangatta Gold. La primavera &egrave; anche un periodo piacevole per visitare i mercatini locali o i mercatini notturni a Surfers Paradise o a Broadbeach. </p>
+        <br />
+        <p><strong>Grafico del clima</strong></p>
+        <table style="border: #ccc 1px solid;" cellspacing="0" cellpadding="0" width="100%">
+            <tbody>
+                <tr style="background-color: #cccccc;">
+                    <td style="width: 15%;" valign="top">
+                    <p><strong>Temperatura</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Gen</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Feb</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Mar</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Apr</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Mag</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Giu</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Lug</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Ago</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Set</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Ott</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Nov</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Dic</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Annuale</strong></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border-bottom: #ccc 1px solid; width: 15%; border-right: #ccc 1px solid;" valign="middle">
+                    <p>Temperatura massima media (&deg;C) </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">28.6 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">28.5 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">27.7 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">25.7 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">23.4 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">21.3 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">21.1 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">21.8 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">23.8 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">25.2 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">26.6 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">27.7 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%;" valign="middle">
+                    <p style="text-align: center;">25.1 </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 15%; border-right: #ccc 1px solid;" valign="middle">
+                    <p>Temperatura minima media (&deg;C) </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">21.8 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">21.8 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">20.7 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">18.3 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">15.3 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">13.1 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">12 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">12.4 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">14.8 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">169 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">18.9 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">20.4 </p>
+                    </td>
+                    <td style="width: 6.5%;" valign="middle">
+                    <p style="text-align: center;">17.2 </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p style="text-align: right;"><em><span style="font-size: 10px;">Fonte: Bureau of Meteorology, 2013</span></em></p>
+        <p><strong>Grafico delle precipitazioni</strong></p>
+        <table style="border: #ccc 1px solid;" cellspacing="0" cellpadding="0" width="100%">
+            <tbody>
+                <tr style="background-color: #cccccc;">
+                    <td style="width: 15%;" valign="top">
+                    <p><strong>Precipitazioni</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Gen</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Feb</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Mar</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Apr</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Mag</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Giu</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Lug</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Ago</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Set</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Ott</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Nov</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Dic</strong></p>
+                    </td>
+                    <td style="width: 6.5%;" valign="top">
+                    <p style="text-align: center;"><strong>Annuale</strong></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 15%; border-right: #ccc 1px solid;" valign="middle">
+                    <p>Precipitazioni medie (mm) </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">.131 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">177 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">103.7 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">123.3 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">117.2 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">115.9 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">46.6 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">60 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">43.8 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">1003 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">125 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">142.6 </p>
+                    </td>
+                    <td style="width: 6.5%;" valign="middle">
+                    <p style="text-align: center;">1285 </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border-bottom: #ccc 1px solid; width: 15%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle">
+                    <p>Precipitazioni (mm) 5&deg; percentile (medie) </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">111.8 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">1476 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">103.8 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">89 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">78.7 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">75.4 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">35 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">31.8 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">24 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">102.6 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">85.4 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">1262 </p>
+                    </td>
+                    <td style="border-bottom: #ccc 1px solid; width: 6.5%; border-top: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">1267 </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 15%; border-right: #ccc 1px solid;" valign="middle">
+                    <p>Numero medio di giorni di pioggia ≥ 1 (mm) </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">9.1  </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">10.3 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">11.1 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">9.2 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">8.7 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">7.1 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">4.8 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">4.5 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">5.3 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">6.7 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;"> 8.8 </p>
+                    </td>
+                    <td style="width: 6.5%; border-right: #ccc 1px solid;" valign="middle">
+                    <p style="text-align: center;">9.3 </p>
+                    </td>
+                    <td style="width: 6.5%;" valign="middle">
+                    <p style="text-align: center;">94.9 </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p style="text-align: right;"><em><span style="font-size: 10px;">Fonte: Bureau of Meteorology, 2013</span></em></p>
+    ]]></txt_Information>
+            
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

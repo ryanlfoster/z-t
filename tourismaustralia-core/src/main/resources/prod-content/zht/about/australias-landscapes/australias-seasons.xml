@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="9756" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[首頁]]></headline>
+            <href><![CDATA[/zht/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[關於]]></headline>
+            <href><![CDATA[/zht/about.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[澳洲的四季]]></headline>
+            <href><![CDATA[/zht/about/australias-landscapes/australias-seasons.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/about-landscapes-seasonal-australia.jpg]]></img_background>
+    <hdl_Title><![CDATA[澳洲的四季]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/about-landscapes-seasonal-australia-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/about-landscapes-seasonal-australia-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[探索澳洲為何四季皆宜。全年任何時候，您隨時都可做自己喜歡的事。瞭解澳洲四季詳情。]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[澳洲的夏天，秋葉，澳洲的春天，澳洲的冬天，澳洲的白雪，冬季陽光假日，冬季滑雪假期]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[更多]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[澳洲的四季]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[探索澳洲的四季風光！]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <PlanYourHolidayBox isTemplate="1">
+    <anc_MoreLink><![CDATA[/zht/plan.xml]]></anc_MoreLink>
+    <hdl_Headline><![CDATA[計劃您的假期]]></hdl_Headline>
+    <language><![CDATA[CHT]]></language>
+    <opt_IsOnHomepage><![CDATA[]]></opt_IsOnHomepage>
+    <stf_MenuIconClass><![CDATA[]]></stf_MenuIconClass>
+    <stf_More><![CDATA[More]]></stf_More>
+    <stf_PlanYourHolidayTitle><![CDATA[Plan your holiday]]></stf_PlanYourHolidayTitle>
+    <lst_PageLinks>
+        <lst_PageLink>
+            <url><![CDATA[/zht/plan/plan-your-trip/find-travel-agent.xml]]></url>
+            <hdl_Title><![CDATA[尋找你附近的旅行代理]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/zht/plan/plan-your-trip/getting-there.xml]]></url>
+            <hdl_Title><![CDATA[從外國去澳洲]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/zht/plan/plan-your-trip/accommodation.xml]]></url>
+            <hdl_Title><![CDATA[食宿]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/zht/plan/plan-your-trip/tours.xml]]></url>
+            <hdl_Title><![CDATA[尋找旅行團]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/zht/plan/plan-your-trip/specialoffers.xml]]></url>
+            <hdl_Title><![CDATA[推廣優惠*]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+    </lst_PageLinks>
+</PlanYourHolidayBox>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <TopCategoryHighlights isTemplate="1">
+            <stf_Heading><![CDATA[澳洲的四季]]></stf_Heading>
+            <stf_InformationTitle><![CDATA[]]></stf_InformationTitle>
+            <txt_Information><![CDATA[澳洲是一個四季皆宜的國家。您幾乎可在一年中的任何時間在這裡做任何事。澳洲大部分地區一年分為四季，而在熱帶北部則分為雨季和旱季。
+<P>澳洲的夏天，從十二月到二月，是戶外活動的最佳時間。在悉尼的海邊遊泳，或是徒步塔斯曼尼亞的陸上路徑（Overland Track）。三月到五月是澳洲的秋天，坎培拉秋葉似火，而墨爾本則將舉行一級方程式賽車。澳洲的冬天是從六月到八月，可以在澳洲山嶺滑雪。您也可以在這裡度過一個冬季陽光假日。在氣候溫和的大堡礁潛水，或是駕駛四驅越野車穿過南澳的辛普森沙漠。澳洲的春天，從九月到十一月，是觀賞鯨魚和野花的時節，您可以探索西澳瑪格麗特河區域的葡萄酒產區。</P>
+<P>在澳洲熱帶，五月到十月的旱季有著透明的藍天和陽光燦爛的日子。這正是體驗達爾文豐富多彩的露天市場、電影和節慶活動的好時候。十二月到三月是雨季，每天都有暴風雨，空氣炎熱而潮濕。觀賞瀑布，隆隆的水聲響徹整個李治菲特（Litchfield）和卡卡杜國家公園（Kakadu National Park），在水位最高時飛越壯觀的凱薩琳峽谷（Katherine Gorge）上空。</P>]]></txt_Information>
+            <con_CenterContent>
+                <CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[探索澳洲的夏季]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/about-australias-landscapes-australias-seasons-summer-hl.jpg" alt="探索澳洲的夏季">]]></img_MainImage>
+                    <stf_Caption><![CDATA[探索澳洲的夏季]]></stf_Caption>
+                    <anc_link><![CDATA[/zht/about/australias-landscapes/australias-seasons/summer.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        <a href="/zht/about/australias-landscapes/australias-seasons/summer.xml" target="_self">澳洲的夏季在</a>向您招手！ 從十二月到翌年二月，感受澳洲美妙的夏季。沿著壯觀的海岸懸崖，從<a href="/zht/explore/cities/sydney/nsw-bondi-bronte.xml" target="_self">悉尼的邦代海灘（Bondi Beach）步行前往布朗特（Bronte）</a>。從<a href="/zht/explore/cities/melbourne.xml" target="_self">墨爾本</a>出發，前往<a href="/zht/explore/cities/melbourne/mornington-peninsula.xml" target="_self">摩寧頓半島（Mornington Peninsula）</a>一日遊，尋訪那裡的葡萄園、海灘、國家公園、高爾夫球場和日間水療中心。在歷史悠久的<a href="/zht/explore/cities/hobart.xml" target="_self">荷伯特</a>海濱品嚐塔斯曼尼亞的美酒佳餚，或是在<a href="/zht/explore/cities/perth.xml" target="_self">柏斯</a>附近的天鵝谷（Swan Valley）探索那裡的美食、美酒和歷史。在南澳<a href="/zht/explore/states/sa/sa-eyre-peninsula.xml" target="_self">艾爾半島（Eyre Peninsula）</a>的原生態海岸線附近品嚐美味海鮮，或是在昆士蘭<a href="/zht/explore/icons/great-barrier-reef.xml" target="_self">大堡礁</a>觀賞珊瑚大規模產卵。在熱帶最北部（Top End）體驗令人目眩的閃電雷暴並觀賞盛開的植被。或是在<a href="/zht/explore/cities/canberra.xml" target="_self">坎培</a>拉附近<a href="/zht/explore/states/act/act-nature-reserve.xml" target="_self">的鐵賓比拉自然保護區（Tidbinbilla Nature Reserve）</a>近距離觀察澳洲本土動物，探索古老的原住民歷史。澳洲的夏季還有世界一流的板球賽、<a href="/zht/explore/events/australian-open.xml" target="_self">大滿貫網球賽</a>、喧鬧<a href="/zht/explore/australian-events/music-festivals-events.xml" target="_self">的音樂節</a>、<a href="/zht/explore/events/nat-new-years-fireworks.xml" target="_self">除夕慶祝活動</a>和各種戶外<a href="/zht/explore/australian-events/culture-events.xml" target="_self">文化活動</a>。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[到澳洲賞秋]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/about-australias-landscapes-australias-seasons-autumn-hl.jpg" alt="到澳洲賞秋">]]></img_MainImage>
+                    <stf_Caption><![CDATA[到澳洲賞秋]]></stf_Caption>
+                    <anc_link><![CDATA[/zht/about/australias-landscapes/australias-seasons/autumn.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        從三月到五月，前往澳洲發現<a href="/zht/about/australias-landscapes/australias-seasons/autumn.xml" target="_self">秋天</a>的神奇魅力。欣賞奧蘭芝（Orange）金紅色的樹林，那裏是<a href="/zht/explore/cities/sydney.xml" target="_self">悉尼</a>以西美食美酒的鄉村大本營。在維多利亞的<a href="/zht/about/australias-landscapes/wine-regions/yarra-valley.xml" target="_self">亞拉河谷（Yarra Valley）</a>探索葡萄酒莊、村莊和迷霧縈繞的森林。<a href="/zht/explore/cities/brisbane/qld-adventure-on-brisbane-river.xml" target="_self">沿著風景優美的布里斯本河（Brisbane River）</a>開始一場探險。在南澳歷史悠久的<a href="/zht/explore/events/sa-outback-cattle-drive.xml" target="_self">烏德納達塔路徑（Oodnadatta Track）</a>的趕牛之旅上體驗牧牛人的生活。前往北領地蒼翠茂盛的<a href="/zht/explore/states/nt/nt-litchfield-nat-park.xml" target="_self">李治菲特國家公園（Litchfield National Park）</a>，或在西澳的<a href="/zht/explore/states/wa/wa-kununurra.xml" target="_self">庫努納拉（Kununurra）</a>參加規模盛大的<a href="/zht/explore/events/wa-ord-valley-muster.xml" target="_self">奧德河谷節（Ord Valley Muster）</a>。在塔斯馬尼亞荒涼的西海岸激流漂流，沿著坎培拉附近的<a href="/zht/explore/states/act/act-murrumbidgee-corridor.xml" target="_self">慕任比基河走廊（Murrumbidgee River Corridor）</a>露營。秋季還有各種豐富多彩的活動，從<a href="/zht/explore/australian-events/food-wine-events.xml" target="_self">美食美酒節</a>到時裝週，還有<a href="/zht/explore/events/vic-australian-grand-prix.xml" target="_self">墨爾本格蘭披治大賽（Melbourne’s Grand Prix）</a>。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[探索冬季的澳大利亞]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/about-australias-landscapes-australias-seasons-winter-hl.jpg" alt="探索冬季的澳大利亞">]]></img_MainImage>
+                    <stf_Caption><![CDATA[探索冬季的澳大利亞]]></stf_Caption>
+                    <anc_link><![CDATA[/zht/about/australias-landscapes/australias-seasons/winter.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        對於澳洲國內大部分的地區而言，<a href="/zht/about/australias-landscapes/australias-seasons/winter.xml" target="_self">冬季</a>從6月持續到8月；至於在熱帶氣候的北部地區，這幾個月是較乾旱的季節。在<a href="/zht/explore/states/vic/vic-snow-play.xml" target="_self">維多利亞州鋪滿粉雪的山坡</a>上進行雪橇或雪板滑雪，或是到昆士蘭州大堡礁溫和的水域中浮潛或潛水。駕駛四驅車探索南澳州的辛普森沙漠（Simpson Desert），或是去<a href="/zht/explore/icons/blue-mountains.xml" target="_self">藍山</a>參加各式各樣的聖誕慶祝活動。觀賞<a href="/zht/explore/states/wa/wa-wildflowers.xml" target="_self">西澳州野花</a>路徑上的美景，或是體驗北領地獨特的節日文化。<a href="/zht/explore/cities/canberra/act-fireside-festival.xml" target="_self">在坎培拉爐邊節上</a>蜷伏在熊熊爐火邊鬆弛身心，或是在荷伯特鋪滿鵝卵石的街道上慶祝冬至的到來。冬天還是探索我們的海岸線的大好時節，您可以在那裡<a href="/zht/explore/things-to-do/australian-adventure/nat-whalewatching.xml" target="_self">觀察遷徙的鯨魚</a>，並<a href="/zht/explore/things-to-do/australian-adventure/nat-diving.xml" target="_self">潛水</a>進入多姿多彩的海洋世界。
+    ]]>
+                    </txt_Information>
+                </CenterContent><CenterContent isTemplate="1">
+                    <hdl_Title><![CDATA[探索澳洲的春天]]></hdl_Title>
+                    <img_MainImage><![CDATA[<img src="/contentimages/about-australias-landscapes-australias-season-spring-hl.jpg" alt="探索澳洲的春天">]]></img_MainImage>
+                    <stf_Caption><![CDATA[探索澳洲的春天]]></stf_Caption>
+                    <anc_link><![CDATA[/zht/about/australias-landscapes/australias-seasons/spring.xml]]></anc_link>
+                    <txt_Information>
+                        <![CDATA[
+        對於澳洲大部分地方，<a href="/zht/about/australias-landscapes/australias-seasons/spring.xml" target="_self">春天</a>是從九月份到十一月份。在我們的熱帶北部，這是一個“積聚期”或季風季節之前的時期。
+        <p>全國觸目的墨爾本杯就在這段期間舉行，來看墨爾本為此盛裝打扮。在悉尼附近<a href="/zht/explore/states/nsw/hunter-valley.xml" target="_self">獵人谷（Hunter Valley）</a>的葡萄酒莊裡欣賞歌劇、爵士、藍調和雕塑。在西澳的<a href="/zht/explore/states/wa/margaret-river.xml" target="_self">瑪格麗特河（Margaret River）</a>享受美食、美酒、潛水和滑浪。在昆士蘭列為世界遺產的原始<a href="/zht/explore/states/qld/qld-spring-daintree-forest.xml" target="_self">丹翠雨林（Daintree Rainforest）</a>中徒步穿過神奇的樹頂。體驗南澳洲<a href="/zht/explore/icons/kangaroo-island.xml" target="_self">袋鼠島 （Kangaroo Island）</a>的野生動物和野花，或在北領地的“積聚期”內抓一條盲曹作為戰利品。<a href="/zht/explore/events/floriade.xml" target="_self">在坎培拉的花卉節（Floriade）</a>上，看無數鮮花綻放，或沿著塔斯曼尼亞（Tasmania）鮮花盛開的花園去探索自然和歷史名勝。在澳洲，春天也是非常適合滑浪、划海上皮艇和獨木舟的季節。 </p>
+    ]]>
+                    </txt_Information>
+                </CenterContent>
+            </con_CenterContent>
+        </TopCategoryHighlights>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+        <lst_Subpage><![CDATA[<a href="/zht/about/australias-landscapes/australias-seasons/spring.xml">探索澳洲的春天</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/zht/about/australias-landscapes/australias-seasons/summer.xml">探索澳洲的夏季</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/zht/about/australias-landscapes/australias-seasons/winter.xml">探索冬季的澳大利亞</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/zht/about/australias-landscapes/australias-seasons/autumn.xml">到澳洲賞秋</a>]]></lst_Subpage>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

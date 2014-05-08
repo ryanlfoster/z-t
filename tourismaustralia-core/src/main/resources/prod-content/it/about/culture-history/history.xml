@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="200" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Pagina iniziale]]></headline>
+            <href><![CDATA[/it/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Informazioni]]></headline>
+            <href><![CDATA[/it/about.xml]]></href>
+        </element>
+<element level="4">
+            <headline><![CDATA[Storia ]]></headline>
+            <href><![CDATA[/it/about/culture-history/history.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/about-culture-history-history.jpg]]></img_background>
+    <hdl_Title><![CDATA[Storia ]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/about-culture-history-history-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/about-culture-history-history-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[0]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[no]]></opt_PartnerLead>
+    <stf_description><![CDATA[Impara la storia dell'ultimo continente ad essere scoperto: dalla civilt&agrave; aborigena, alla colonizzazione europea, fino al moderno stato multiculturale.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[n]]></stf_IsMobile>
+    <stf_keywords><![CDATA[Storia d’Australia]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Ulteriori Informazioni]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Storia dell'Australia]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[]]>
+    </txt_Teaser>
+    <con_Body>
+        <SubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_RHSModules>
+        <PlanYourHolidayBox isTemplate="1">
+    <anc_MoreLink><![CDATA[]]></anc_MoreLink>
+    <hdl_Headline><![CDATA[Pianifica la tua vacanza]]></hdl_Headline>
+    <language><![CDATA[ITA]]></language>
+    <opt_IsOnHomepage><![CDATA[]]></opt_IsOnHomepage>
+    <stf_MenuIconClass><![CDATA[]]></stf_MenuIconClass>
+    <stf_More><![CDATA[More]]></stf_More>
+    <stf_PlanYourHolidayTitle><![CDATA[Plan your holiday]]></stf_PlanYourHolidayTitle>
+    <lst_PageLinks>
+        <lst_PageLink>
+            <url><![CDATA[/it/plan/plan-your-trip/find-travel-agent.xml]]></url>
+            <hdl_Title><![CDATA[Trova un agente di viaggio]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/it/plan/plan-your-trip/getting-there.xml]]></url>
+            <hdl_Title><![CDATA[Come arrivare in Australia]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/it/plan/plan-your-trip/accommodation.xml]]></url>
+            <hdl_Title><![CDATA[Alloggi]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/it/plan/plan-your-trip/tours.xml]]></url>
+            <hdl_Title><![CDATA[Trova il tuo tour]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+        <lst_PageLink>
+            <url><![CDATA[/it/plan/plan-your-trip/specialoffers.xml]]></url>
+            <hdl_Title><![CDATA[Offerte speciali*]]></hdl_Title>
+            <opt_MenuIconClass><![CDATA[]]></opt_MenuIconClass>
+        </lst_PageLink>
+    </lst_PageLinks>
+</PlanYourHolidayBox>
+    </con_RHSModules>
+    <con_Video>
+        
+    </con_Video>
+    <con_Body>
+        <FeatureContent isTemplate="1">
+    <hdl_Title><![CDATA[Storia d’Australia]]></hdl_Title> 
+    <stf_MoreLinkTitle><![CDATA[]]></stf_MoreLinkTitle>
+    <txt_MainContent><![CDATA[
+        <strong>Gli aborigeni sognano un continente senza tempo.</strong> <br />
+        Le popolazioni aborigene australiane sono vissute e prosperate nel difficile ambiente naturale australiano, un luogo senza uguali, per oltre 50.000 anni. Si pensa che gli aborigeni australiani siano arrivati qui via mare dal sud est dell’Asia durante l’ultima era glaciale. Al tempo dell’invasione europea, fino a un milione di aborigeni vivevano nel continente in 300 stati o clan, e parlavano 250 lingue e 700 dialetti. A quel tempo gli aborigeni erano cacciatori e agricoltori e viaggiavano molto per commerciare, trovare acqua e prodotti stagionali e per adunanze rituali e totemiche. Allora, come oggi, ogni clan aveva una connessione spirituale con una zona particolare della terra.   
+        <p>Nonostante la diversit&agrave; dei loro territori - dai deserti dell’Outback alle foreste pluviali tropicali, fino a montagne innevate - i popoli aborigeni condividono tutti la credenza in un perenne e magico regno del Dreamtime. Secondo le leggende aborigene, antenati spirituali totemici hanno dato origine a tutti gli aspetti della vita. Questi spiriti-antenati continuano a collegare la terra, i fenomeni naturali, il territorio tribale nonch&eacute; il passato, il presente e il futuro in tutti gli aspetti della <a href="/it/explore/things-to-do/aboriginal-australia.xml" target="_self">cultura aborigena</a>.  </p>
+        <p><strong>Invasione della Gran Bretagna e arrivo dei detenuti</strong> <br />
+        La "Terra Australis" &egrave; stata l’ultima terra emersa a essere scoperta dagli esploratori europei. La storia di questa mistica terra e delle ricchezze che offriva ha ispirato gli esploratori a navigare verso l’ignoto. Il grande continente australe &egrave; stato ufficialmente reclamato dagli europei solo dopo l’arrivo del Capitano James Cook a Botany Bay nel 1770.  </p>
+        <p>Come soluzione alle prigioni sovraffollate in Inghilterra e al disordine causato dalla Rivoluzione Americana, l’esploratore e botanico Joseph Banks, indic&ograve; il Nuovo Galles del Sud (New South Wales) come il luogo ideale per una nuova colonia penale. Il 26 gennaio 1788 arriv&ograve; nella baia di Sydney la prima flotta di 11 navi, cariche di 1500 persone, met&agrave; delle quali erano detenuti. Fino alla conclusione della deportazione nel 1868, giunsero in Australia 160.000 detenuti, tra cui uomini e donne.  </p>
+        <p>A partire dai primi anni Novanta del 1700 cominciarono ad arrivare i primi coloni liberi, ma la vita per i detenuti deportati era molto dura. Le donne vivevano con la minaccia di essere sessualmente sfruttate e gli uomini impiccati per delitti minori, quali il furto. Per gli aborigeni, l’espropriazione della terra, le malattie e la morte causata dalle nuove patologie portate dai coloni, distrussero gli usi e i costumi tradizionali.   </p>
+        <p><strong>L’espropriazione del continente</strong> <br />
+        Negli anni Venti del 1800 molti soldati, ufficiali e detenuti emancipati avevano gi&agrave; trasformato le terre ricevute dal governo in fiorenti fattorie. I racconti sull'Australia, dove la terra costava poco e abbondava il lavoro, portarono un flusso crescente di navi cariche di avventurosi emigrati giunti dalla Gran Bretagna. I coloni, chiamati anche squatter, occupanti abusivi, iniziarono a spingersi sempre pi&ugrave; nei territori aborigeni, spesso armati, alla ricerca di pascoli e acqua per le loro mandrie.  </p>
+        <p>Nel 1825 un gruppo di soldati e detenuti si insedi&ograve; nel territorio del popolo Yuggera, vicino alla odierna <a href="/it/explore/cities/brisbane.xml" target="_self">Brisbane</a>. <a href="/it/explore/cities/perth.xml" target="_self">Perth</a> fu fondata da un inglese nel 1829 e nel 1835 uno squatter navig&ograve; fino a Port Philip Bay e scelse il sito su cui poi sorse <a href="/it/explore/cities/melbourne.xml" target="_self">Melbourne</a>. Nello stesso periodo una compagnia Britannica privata, che andava fiera di non aver alcun legame coi deportati, fond&ograve; <a href="/it/explore/cities/adelaide.xml" target="_self">Adelaide</a>, in Australia Meridionale.  </p>
+        <p><strong>La febbre dell’oro porta ricchezza, immigrati e ribellioni</strong> <br />
+        L’oro fu scoperto nel <a href="/it/explore/states/nsw.xml" target="_self">Nuovo Galles del Sud</a> e nella zona centrale del <a href="/it/explore/states/vic.xml" target="_self">Victoria</a> nel 1851, attirando migliaia di giovani uomini e alcune avventurose giovani donne dalle colonie. A loro si unirono ondate di cercatori d'oro giunti via mare dalla Cina e un eclettico gruppo di intrattenitori, gestori di pub, prostitute e ciarlatani provenienti da tutto il mondo. Nel Victoria i tentativi del governatore britannico di imporre l’ordine – con una tassa mensile e soldati dalla mano pesante – sfociarono nella sanguinosa rivolta antiautoritarismo di Eureka nel 1854. Nonostante la violenza nei <a href="/it/explore/states/vic/vic-bendigo.xml" target="_self">giacimenti d’oro</a>, la ricchezza generata da questo metallo e dalla lana portarono investimenti ingenti a Melbourne e <a href="/it/explore/cities/sydney.xml" target="_self">Sydney</a>, che negli anni Ottanta del 1800 erano eleganti citt&agrave; moderne.  </p>
+        <p><strong>L’Australia diventa una nazione</strong><br />
+        L’Australia &egrave; diventata una nazione federata dopo l’unione delle sei colonie il 1 gennaio 1901. Oggi l’Australia &egrave; formata da sei stati e due territori, ciascuno con il proprio parlamento, la propria bandiera e il proprio emblema floreale. Alle donne &egrave; stato dato il diritto di voto nel 1902 e il salario minimo &egrave; stato stabilito nel 1907.  </p>
+        <p><strong>L’Australia entra in guerra</strong> <br />
+        La prima guerra mondiale ebbe effetti devastanti per l’Australia. Nel 1914 il paese contava meno di 3 milioni di uomini, eppure quasi 400.000 si offrirono volontari per combattere. Si stima che ne morirono 60.000, mentre i feriti furono decine di migliaia. Gli anni Venti del 1900 videro il paese reagire al dolore, con un turbinio di nuove automobili e nuovi cinema, di jazz e film americani e il fervore per l’Impero Britannico. Quando nel 1929 arriv&ograve; la Grande Depressione, le divisioni sociali ed economiche si fecero pi&ugrave; profonde e molte istituzioni finanziarie australiane fallirono. Lo sport era la distrazione nazionale e gli eroi sportivi, quali il cavallo da corsa Pharlap e il giocatore di cricket Donald Bradman, furono elevati a uno stato che sfiorava il mito.  </p>
+        <p>Durante la seconda guerra mondiale le forze australiane diedero un contributo significativo alla vittoria alleata in Europa, Asia e nel Pacifico. La generazione che combatt&eacute; nella guerra e sopravvisse acquis&igrave; un forte orgoglio per le capacit&agrave; dell’Australia.  </p>
+        <p>L’arrivo di nuovi australiani durante il boom del dopoguerra <br />
+        Dopo la fine della guerra nel 1945, centinaia di migliaia di immigrati provenienti da tutta Europa e dal Medio Oriente giunsero in Australia; molti trovarono impiego nel settore manifatturiero, in pieno boom. Molte delle donne che avevano iniziato a lavorare in fabbrica quando gli uomini erano in guerra, continuarono le loro mansioni anche in tempo di pace. </p>
+        <p>L’economia australiana crebbe durante l'intero decennio degli anni Cinquanta del 1900, con importanti progetti nazionali, come la centrale idroelettrica delle Snowy Mountains, nelle montagne vicino a <a href="/it/explore/cities/canberra.xml" target="_self">Canberra</a>. Crebbe la domanda internazionale delle principali esportazioni australiane: metalli, lana, carne e frumento. Anche l’Australia suburbana prosperava. Il tasso di case di propriet&agrave; sub&igrave; un’impennata, passando dal 40 percento nel 1947 a oltre il 70 percento negli anni Sessanta del XX secolo. </p>
+        <p><strong>L’Australia apre la mente</strong> <br />
+        Come molti altri paesi, l’Australia fu travolta dall’atmosfera rivoluzionaria degli anni Sessanta. La nuova diversit&agrave; etnica del paese, la crescente autonomia dalla Gran Bretagna e l'opposizione popolare alla guerra del Vietnam furono fattori che contribuirono a creare un'atmosfera di cambiamento politico, economico e sociale. Nel 1967 la stragrande maggioranza degli australiani vot&ograve; "S&igrave;" al referendum nazionale per consentire al governo federale di emanare leggi per conto degli aborigeni australiani e di includerli nei futuri censimenti. Questo risultato era il frutto di una forte campagna riformista condotta dagli aborigeni e dai bianchi.  </p>
+        <p>Nel 1972 il Partito laburista, guidato dall'avvocato idealista Gough Whitlam, subentr&ograve; al governo, ponendo fine al dominio detenuto dalla coalizione del Partito liberale e del Partito nazionale durante il dopoguerra. Nel triennio successivo il nuovo governo abol&igrave; la leva obbligatoria e le tasse universitarie e cre&ograve; un sistema sanitario gratuito per tutti. Fu abbandonata la White Australia Policy a favore del multiculturalismo; furono introdotti il divorzio basato sulla rottura irreparabile del matrimonio, senza attribuire colpa a uno dei coniugi, e la pari retribuzione per le donne.  Tuttavia, nel 1975 l’inflazione e gli scandali spinsero il Governatore generale a sciogliere il governo. Nelle successive elezioni politiche, il Partito laburista fu pesantemente sconfitto e la coalizione del Partito liberale e nazionale govern&ograve; fino al 1983.  </p>
+        <p><strong>Dagli anni Settanta</strong> <br />
+        Tra il 1983 e il 1996 i governi laburisti Hawke-Keating introdussero numerose riforme economiche, per esempio la deregulation del sistema bancario e la fluttuazione del dollaro australiano. Nel 1996 un governo di coalizione guidato da John Howard vinse le elezioni politiche e fu rieletto nel 1998, nel 2001 e nel 2004. La coalizione liberal-nazionale var&ograve; diverse riforme, comprese modifiche del sistema fiscale e del sistema che regolamenta i rapporti tra le parti sociali. Nel 2007 il Partito laburista guidato da Kevin Rudd &egrave; stato eletto con un programma di riforma delle relazioni industriali, delle politiche per il cambiamento climatico e dei settori della sanit&agrave; e dell'istruzione. </p>
+        <p>&nbsp;</p>
+    ]]></txt_MainContent> 
+    <con_ImageItem>
+        <ImageItems isTemplate="1">
+    <anc_link><![CDATA[]]></anc_link>
+    <img_MainImage><![CDATA[<img src="/contentimages/About_history_magical.jpg">]]></img_MainImage>
+    <stf_Caption><![CDATA[]]></stf_Caption>
+</ImageItems><ImageItems isTemplate="1">
+    <anc_link><![CDATA[]]></anc_link>
+    <img_MainImage><![CDATA[<img src="/contentimages/About_history_indigenous_art.jpg">]]></img_MainImage>
+    <stf_Caption><![CDATA[]]></stf_Caption>
+</ImageItems><ImageItems isTemplate="1">
+    <anc_link><![CDATA[]]></anc_link>
+    <img_MainImage><![CDATA[<img src="/contentimages/About_history_outback.jpg">]]></img_MainImage>
+    <stf_Caption><![CDATA[]]></stf_Caption>
+</ImageItems>
+    </con_ImageItem>
+</FeatureContent>
+    </con_Body>
+</SubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

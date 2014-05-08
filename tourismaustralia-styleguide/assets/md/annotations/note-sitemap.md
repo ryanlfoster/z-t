@@ -1,0 +1,1 @@
+### There is a 3 column layout with rows and a single item will need to be placed in this layout, see the sitemap page.

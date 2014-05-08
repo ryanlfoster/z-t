@@ -1,0 +1,939 @@
+﻿<?xml version="1.0" ?>
+<ConsumerHomepageFoundation pageID="" isTemplate="1">
+    <TA_Title><![CDATA[Urlaub und Reisen in Australien -  Tourism Australia]]></TA_Title>
+    <hdl_Title><![CDATA[Startseite]]></hdl_Title>
+    <inf_PageId><![CDATA[]]></inf_PageId>
+    <stf_description><![CDATA[Praktische Reiseinformationen f&uuml;r Ihren Urlaub in Australien finden Sie  auf der offiziellen Webseite von Tourism Australia. Mehr erfahren Sie hier.]]></stf_description>
+    <stf_keywords><![CDATA[Australien, Urlaub Australien ]]></stf_keywords>
+    <img_SearchThumbnail><![CDATA[/thumbnails/homepage-search.jpg]]></img_SearchThumbnail>
+    <img_Background><![CDATA[]]></img_Background>
+    <stf_ImageLocation><![CDATA[]]></stf_ImageLocation>
+    <con_CookiePolicyMessage>
+        
+    </con_CookiePolicyMessage>
+    <con_GlobalHeader>
+        <GlobalHeaderControlInclude isTemplate="1">
+    <!-- no user content -->
+</GlobalHeaderControlInclude>
+    </con_GlobalHeader>
+    <con_HomepageIntro>
+        <IntroductionMessageHolder isTemplate="1">
+    <anc_ManagementPage><![CDATA[/de/12014.xml]]></anc_ManagementPage>
+    <con_HomepageIntros>
+        <IntroductionMessage isTemplate="1">
+    <stf_MainHeading><![CDATA[Willkommen]]></stf_MainHeading>
+    <stf_SubHeading><![CDATA[auf der offiziellen australischen Tourismus-Webseite.]]></stf_SubHeading>
+    <stf_Tagline><![CDATA[Hier erfahren Sie, warum Australien einfach unvergleichlich ist.]]></stf_Tagline>
+    <stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry> 
+</IntroductionMessage>
+    </con_HomepageIntros> 
+</IntroductionMessageHolder>
+    </con_HomepageIntro>
+    <con_Map>
+        <NLAMap isTemplate="1">
+    <stf_Title><![CDATA[Reiseberichte]]></stf_Title>
+    <stf_TitleTagLine><![CDATA[Seite besuchen]]></stf_TitleTagLine>
+    <stf_MapLink><![CDATA[http://www.nothinglikeaustralia.com/de]]></stf_MapLink>
+    <anc_Overlay><![CDATA[/de/nla-map-overlay.xml]]></anc_Overlay>
+    <con_Description>
+        <NLAMapDescription isTemplate="1">
+    <stf_Title><![CDATA[Erkunden Sie diese 14 Ziele]]></stf_Title>
+    <stf_TitleTagLine><![CDATA[Visit us]]></stf_TitleTagLine>
+    <stf_MapLink><![CDATA[http://www.australia.com/campaigns/nothinglike/de-ch/index.html?ev=tnla2-homepage-map-landing]]></stf_MapLink>
+</NLAMapDescription><NLAMapDescription isTemplate="1">
+    <stf_Title><![CDATA[Erkunden Sie diese 14 Ziele]]></stf_Title>
+    <stf_TitleTagLine><![CDATA[Visit us]]></stf_TitleTagLine>
+    <stf_MapLink><![CDATA[http://www.australia.com/campaigns/nothinglike/de/index.html?ev=tnla2-homepage-map-landing]]></stf_MapLink>
+</NLAMapDescription>
+    </con_Description>
+</NLAMap>
+    </con_Map>
+    <con_News>
+        <HomepageNewsHolder isTemplate="1">
+    <anc_ManagementPage><![CDATA[/de/12010.xml]]></anc_ManagementPage>
+    <anc_VideoManagementPage><![CDATA[/de/12015.xml]]></anc_VideoManagementPage>
+    <con_NewsItems>
+        <HomepageNews isTemplate="1">
+    <img_NewsBackgroundImg><![CDATA[/contentimages/news-australias-food-wine-trends-2014.jpg]]></img_NewsBackgroundImg>
+    <opt_isVideo><![CDATA[no]]></opt_isVideo>
+    <stf_NewsHeading><![CDATA[News-Update]]></stf_NewsHeading>
+    <stf_NewsVideoTrackingTitle><![CDATA[]]></stf_NewsVideoTrackingTitle>
+    <stf_TargetedCountry><![CDATA[CH]]></stf_TargetedCountry>
+    <stf_VideoBackgroundAlt><![CDATA[Australiens Gourmet- und Wein-Trends 2014]]></stf_VideoBackgroundAlt>
+    <txt_NewsText><![CDATA[
+        <p style="font-size: 13px;"><strong>Australiens Gourmet- <br />
+        und Wein-Trends 2014</strong></p>
+        <p style="font-size: 11px;">Australien befindet sich zwar<br />
+        "Down Under", ist aber in<br />
+        Bezug auf kulinarische Trends<br />
+        2014 ganz vorne dabei.</p>
+        <p><strong><a href="/de/australias-food-wine-trends-2014.xml" onclick="ntptEventTag('ev=newstext-foodwinetrendsdech');" target="_self"><span style="text-decoration: underline;">Lesen sie mehr</span></a></strong></p>
+    ]]></txt_NewsText> 
+</HomepageNews><HomepageNews isTemplate="1">
+    <img_NewsBackgroundImg><![CDATA[/contentimages/news-australias-food-wine-trends-2014.jpg]]></img_NewsBackgroundImg>
+    <opt_isVideo><![CDATA[no]]></opt_isVideo>
+    <stf_NewsHeading><![CDATA[News-Update]]></stf_NewsHeading>
+    <stf_NewsVideoTrackingTitle><![CDATA[]]></stf_NewsVideoTrackingTitle>
+    <stf_TargetedCountry><![CDATA[DE]]></stf_TargetedCountry>
+    <stf_VideoBackgroundAlt><![CDATA[Australiens Gourmet- und Wein-Trends 2014]]></stf_VideoBackgroundAlt>
+    <txt_NewsText><![CDATA[
+        <p style="font-size: 13px;"><strong>Australiens Gourmet- <br />
+        und Wein-Trends 2014</strong></p>
+        <p style="font-size: 11px;">Australien befindet sich zwar<br />
+        "Down Under", ist aber in<br />
+        Bezug auf kulinarische Trends<br />
+        2014 ganz vorne dabei.</p>
+        <p><strong><a href="/de/australias-food-wine-trends-2014.xml" onclick="ntptEventTag('ev=newstext-foodwinetrendsde');" target="_self"><span style="text-decoration: underline;">Lesen sie mehr</span></a></strong></p>
+    ]]></txt_NewsText> 
+</HomepageNews>
+    </con_NewsItems> 
+</HomepageNewsHolder>
+    </con_News>
+    <con_SpecialOffers>
+        <SpecialOffersBox isTemplate="1">
+        <anc_Accommodation><![CDATA[/de/plan/plan-your-trip/accommodation.xml]]></anc_Accommodation>
+        <anc_TravelAgentPage><![CDATA[/de/plan/plan-your-trip/find-travel-agent.xml]]></anc_TravelAgentPage>
+        <con_SpecialOffersCountry>
+            <SpecialOffersCountry isTemplate="1">
+    <hdl_Title><![CDATA[Germany]]></hdl_Title>
+    <con_Category>
+        <SpecialOffersItem isTemplate="1">
+    <hdl_Title><![CDATA[Entdecken Sie Australien mit Etihad Airways und airberlin]]></hdl_Title>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <img_Thumbnail><![CDATA[/contentimages/Campaigns/Special-Offers-airberlin-etihad2.jpg]]></img_Thumbnail>
+    <stf_ThumnailTeaserOnPageCaption><![CDATA[Entdecken Sie Australien mit Etihad Airways und airberlin]]></stf_ThumnailTeaserOnPageCaption>
+    <img_ThumbnailTeaserOnPage><![CDATA[/contentimages/Campaigns/Special-Offers-airberlin-etihad-hl.jpg]]></img_ThumbnailTeaserOnPage>
+    <anc_ListItems>
+        <anc_ListItem>
+            <url><![CDATA[/de/etihad-airberlin-de.xml]]></url>
+            <hdl_Title><![CDATA[Entdecken Sie Australien mit Etihad Airways und airberlin]]></hdl_Title>
+            <txt_Teaser><![CDATA[
+        Jetzt schon ab EUR 999* schnell und komfortabel nach Australien fliegen.
+    ]]></txt_Teaser>
+            <stf_IsExternalSiteArticle><![CDATA[no]]></stf_IsExternalSiteArticle>
+            <stf_TrackingTitle><![CDATA[etihadairberlinde]]></stf_TrackingTitle>
+            <stf_LinkLearnMore><![CDATA[Jetzt entdecken]]></stf_LinkLearnMore>
+            <stf_externalLink><![CDATA[]]></stf_externalLink>
+            <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+            <stf_TrackingEvent><![CDATA[specialoffers]]></stf_TrackingEvent>
+            <stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+            <med_File><![CDATA[]]></med_File>
+        </anc_ListItem>
+    </anc_ListItems>
+</SpecialOffersItem><SpecialOffersItem isTemplate="1">
+    <hdl_Title><![CDATA[Reiseangebote nach Australien]]></hdl_Title>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <img_Thumbnail><![CDATA[/contentimages/special-offers-reiseangebote.jpg]]></img_Thumbnail>
+    <stf_ThumnailTeaserOnPageCaption><![CDATA[Reiseangebote nach Australien]]></stf_ThumnailTeaserOnPageCaption>
+    <img_ThumbnailTeaserOnPage><![CDATA[/contentimages/special-offers-reiseangebote-hl.jpg]]></img_ThumbnailTeaserOnPage>
+    <anc_ListItems>
+        <anc_ListItem>
+            <url><![CDATA[/de/tour-operators-de.xml]]></url>
+            <hdl_Title><![CDATA[Reiseangebote nach Australien]]></hdl_Title>
+            <txt_Teaser><![CDATA[St&ouml;bern Sie durch Reiseangebote von deutschen Veranstaltern f&uuml;r Ihren Traumurlaub in Australien!]]></txt_Teaser>
+            <stf_IsExternalSiteArticle><![CDATA[no]]></stf_IsExternalSiteArticle>
+            <stf_TrackingTitle><![CDATA[touroperatorsde]]></stf_TrackingTitle>
+            <stf_LinkLearnMore><![CDATA[Mehr]]></stf_LinkLearnMore>
+            <stf_externalLink><![CDATA[]]></stf_externalLink>
+            <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+            <stf_TrackingEvent><![CDATA[specialoffers]]></stf_TrackingEvent>
+            <stf_ExternalLinkTitle><![CDATA[]]></stf_ExternalLinkTitle>
+            <med_File><![CDATA[]]></med_File>
+        </anc_ListItem>
+    </anc_ListItems>
+</SpecialOffersItem><SpecialOffersItem isTemplate="1">
+    <hdl_Title><![CDATA[Was macht Australien unvergleichlich?]]></hdl_Title>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <img_Thumbnail><![CDATA[/contentimages/special-offers-de-advocacy-videos.jpg]]></img_Thumbnail>
+    <stf_ThumnailTeaserOnPageCaption><![CDATA[Was macht Australien unvergleichlich?]]></stf_ThumnailTeaserOnPageCaption>
+    <img_ThumbnailTeaserOnPage><![CDATA[/contentimages/special-offers-de-advocacy-videos-hl.jpg]]></img_ThumbnailTeaserOnPage>
+    <anc_ListItems>
+        <anc_ListItem>
+            <url><![CDATA[/de/advocacy-videos-de.xml]]></url>
+            <hdl_Title><![CDATA[Einheimische treffen, die Sie mit Insider-Tipps versorgen!]]></hdl_Title>
+            <txt_Teaser><![CDATA[
+        Vielgereiste Australienkenner verraten Ihnen ihre Geheimtipps in Videoclips.
+    ]]></txt_Teaser>
+            <stf_IsExternalSiteArticle><![CDATA[no]]></stf_IsExternalSiteArticle>
+            <stf_TrackingTitle><![CDATA[advocacyvideosde]]></stf_TrackingTitle>
+            <stf_LinkLearnMore><![CDATA[Mehr]]></stf_LinkLearnMore>
+            <stf_externalLink><![CDATA[http://www.australia.com/campaigns/nothinglikeaustralia/DE/advocacyvideos/]]></stf_externalLink>
+            <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+            <stf_TrackingEvent><![CDATA[specialoffers]]></stf_TrackingEvent>
+            <stf_ExternalLinkTitle><![CDATA[Mehr]]></stf_ExternalLinkTitle>
+            <med_File><![CDATA[]]></med_File>
+        </anc_ListItem>
+    </anc_ListItems>
+</SpecialOffersItem><SpecialOffersItem isTemplate="1">
+    <hdl_Title><![CDATA[The Best Jobs in the World]]></hdl_Title>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <img_Thumbnail><![CDATA[/contentimages/Campaigns/Special-Offers-youthhub.jpg]]></img_Thumbnail>
+    <stf_ThumnailTeaserOnPageCaption><![CDATA[The Best Jobs in the World]]></stf_ThumnailTeaserOnPageCaption>
+    <img_ThumbnailTeaserOnPage><![CDATA[/contentimages/Campaigns/Special-Offers-youthhub-hl.jpg]]></img_ThumbnailTeaserOnPage>
+    <anc_ListItems>
+        <anc_ListItem>
+            <url><![CDATA[/de/24480.xml]]></url>
+            <hdl_Title><![CDATA[The Best Jobs in the World]]></hdl_Title>
+            <txt_Teaser><![CDATA[
+        Begleiten Sie die Gewinner der Aktion „The Best Jobs in the World“, wenn diese ihre Traumjobs antreten.
+    ]]></txt_Teaser>
+            <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+            <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+            <stf_LinkLearnMore><![CDATA[]]></stf_LinkLearnMore>
+            <stf_externalLink><![CDATA[http://bestjobs.australia.com/de]]></stf_externalLink>
+            <opt_isNewWindow><![CDATA[]]></opt_isNewWindow>
+            <stf_TrackingEvent><![CDATA[youthhubde]]></stf_TrackingEvent>
+            <stf_ExternalLinkTitle><![CDATA[Mehr]]></stf_ExternalLinkTitle>
+            <med_File><![CDATA[]]></med_File>
+        </anc_ListItem>
+    </anc_ListItems>
+</SpecialOffersItem>
+    </con_Category> 
+</SpecialOffersCountry><SpecialOffersCountry isTemplate="1">
+    <hdl_Title><![CDATA[Switzerland]]></hdl_Title>
+    <con_Category>
+        
+    </con_Category> 
+</SpecialOffersCountry>
+        </con_SpecialOffersCountry>
+        <hdl_Headline><![CDATA[Angebote]]></hdl_Headline>
+        <img_Accommodation><![CDATA[/contentimages/accommodation-homepage.jpg]]></img_Accommodation>
+        <img_TravelAgentImage><![CDATA[/contentimages/find-a-travel-agent-homepage.jpg]]></img_TravelAgentImage>
+        <stf_AccommodationHeading><![CDATA[Unterkunft]]></stf_AccommodationHeading>
+        <stf_AccommodationLinkText><![CDATA[Mehr]]></stf_AccommodationLinkText>
+        <stf_AccommodationTrackingTitle><![CDATA[accommodations]]></stf_AccommodationTrackingTitle>
+        <stf_TravelAgentHeading><![CDATA[Reiseb&uuml;ro suchen]]></stf_TravelAgentHeading>
+        <stf_TravelAgentLinkText><![CDATA[Mehr]]></stf_TravelAgentLinkText>
+        <stf_TravelAgentTrackingTitle><![CDATA[agents]]></stf_TravelAgentTrackingTitle>
+        <txt_Accommodation><![CDATA[
+        Bei Ihrer Unterkunft in Australien haben Sie die Qual der Wahl.
+    ]]></txt_Accommodation>
+        <txt_TravelAgentText><![CDATA[
+        Ein Reiseb&uuml;romitarbeiter mit Premier Aussie Specialist Qualifikation ist ein Spezialist in Sachen Australien.
+    ]]></txt_TravelAgentText> 
+</SpecialOffersBox>
+    </con_SpecialOffers>
+    <con_FeatureBox>
+        <FeatureBoxHolder isTemplate="1">
+    <hdl_Features><![CDATA[Erleben Sie selbst, warum Australien einfach unvergleichlich ist]]></hdl_Features>
+    <anc_ManagementPage><![CDATA[/de/12011.xml]]></anc_ManagementPage>
+    <con_FeatureBoxCountries>
+        <FeatureBoxCountryHolder isTemplate="1">
+    <hdl_Title><![CDATA[DE (NLA2)]]></hdl_Title>
+    <con_FeatureBoxItems>
+        <FeatureBoxItems isTemplate="1">
+    <anc_InternalLink><![CDATA[]]></anc_InternalLink>
+    <img_BackgroundImg><![CDATA[/contentimages/feature-box-de.jpg]]></img_BackgroundImg>
+    <img_Map><![CDATA[]]></img_Map>
+    <opt_isExternalLink><![CDATA[yes]]></opt_isExternalLink>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_externalLink><![CDATA[http://www.australia.com/campaigns/nothinglike/de/]]></stf_externalLink>
+    <stf_FeatureTrackingTitle><![CDATA[featureboxnlade]]></stf_FeatureTrackingTitle>
+    <stf_LinkText><![CDATA[Weitere Informationen]]></stf_LinkText>
+    <stf_MapAltTag><![CDATA[]]></stf_MapAltTag>
+    <stf_Title><![CDATA[]]></stf_Title>
+    <stf_TrackingEvent><![CDATA[feature]]></stf_TrackingEvent>
+    <txt_Text><![CDATA[Mit uns erlebst du einen einzigartigen Traumurlaub!]]></txt_Text> 
+</FeatureBoxItems>
+    </con_FeatureBoxItems>
+</FeatureBoxCountryHolder><FeatureBoxCountryHolder isTemplate="1">
+    <hdl_Title><![CDATA[CH (NLA2)]]></hdl_Title>
+    <con_FeatureBoxItems>
+        <FeatureBoxItems isTemplate="1">
+    <anc_InternalLink><![CDATA[]]></anc_InternalLink>
+    <img_BackgroundImg><![CDATA[/contentimages/feature-box-de.jpg]]></img_BackgroundImg>
+    <img_Map><![CDATA[]]></img_Map>
+    <opt_isExternalLink><![CDATA[yes]]></opt_isExternalLink>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_externalLink><![CDATA[http://www.australia.com/campaigns/nothinglike/de-ch]]></stf_externalLink>
+    <stf_FeatureTrackingTitle><![CDATA[featureboxnladech]]></stf_FeatureTrackingTitle>
+    <stf_LinkText><![CDATA[Weitere Informationen]]></stf_LinkText>
+    <stf_MapAltTag><![CDATA[]]></stf_MapAltTag>
+    <stf_Title><![CDATA[]]></stf_Title>
+    <stf_TrackingEvent><![CDATA[feature]]></stf_TrackingEvent>
+    <txt_Text><![CDATA[&Uuml;berall in unserem riesigen Land warten einzigartige Erlebnisse, die Urlaubstr&auml;ume wahr werden lassen.]]></txt_Text> 
+</FeatureBoxItems>
+    </con_FeatureBoxItems>
+</FeatureBoxCountryHolder><FeatureBoxCountryHolder isTemplate="1">
+    <hdl_Title><![CDATA[DE &amp; CH]]></hdl_Title>
+    <con_FeatureBoxItems>
+        <FeatureBoxItems isTemplate="1">
+    <anc_InternalLink><![CDATA[/de/explore/icons/alps.xml]]></anc_InternalLink>
+    <img_BackgroundImg><![CDATA[/contentimages/features-alpine.jpg]]></img_BackgroundImg>
+    <img_Map><![CDATA[/contentimages/australian-alps-fb-map.png]]></img_Map>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[yes]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_FeatureTrackingTitle><![CDATA[iconsaustralianalps]]></stf_FeatureTrackingTitle>
+    <stf_LinkText><![CDATA[Mehr]]></stf_LinkText>
+    <stf_MapAltTag><![CDATA[]]></stf_MapAltTag>
+    <stf_Title><![CDATA[Die Australischen Alpen]]></stf_Title>
+    <stf_TrackingEvent><![CDATA[feature]]></stf_TrackingEvent>
+    <txt_Text><![CDATA[Ganzj&auml;hriges Outdoor-Abenteuer in 16 Nationalparks und Naturschutzgebieten.]]></txt_Text> 
+</FeatureBoxItems><FeatureBoxItems isTemplate="1">
+    <anc_InternalLink><![CDATA[/de/explore/icons/namadgi.xml]]></anc_InternalLink>
+    <img_BackgroundImg><![CDATA[/contentimages/Namadgi-feature-box.jpg]]></img_BackgroundImg>
+    <img_Map><![CDATA[/contentimages/namadgi-fb-map.png]]></img_Map>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[yes]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_FeatureTrackingTitle><![CDATA[iconsnamadgi]]></stf_FeatureTrackingTitle>
+    <stf_LinkText><![CDATA[Mehr]]></stf_LinkText>
+    <stf_MapAltTag><![CDATA[]]></stf_MapAltTag>
+    <stf_Title><![CDATA[Namadgi National Park]]></stf_Title>
+    <stf_TrackingEvent><![CDATA[feature]]></stf_TrackingEvent>
+    <txt_Text><![CDATA[Malerisches Buschland und die reichhaltige Geschichte der Aborigines.]]></txt_Text> 
+</FeatureBoxItems><FeatureBoxItems isTemplate="1">
+    <anc_InternalLink><![CDATA[/de/explore/icons/blue-mountains.xml]]></anc_InternalLink>
+    <img_BackgroundImg><![CDATA[/contentimages/blue-mountains-feature-box.jpg]]></img_BackgroundImg>
+    <img_Map><![CDATA[/contentimages/blue-mountains-fb-map.png]]></img_Map>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[yes]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_FeatureTrackingTitle><![CDATA[iconsbluemountains]]></stf_FeatureTrackingTitle>
+    <stf_LinkText><![CDATA[Mehr]]></stf_LinkText>
+    <stf_MapAltTag><![CDATA[]]></stf_MapAltTag>
+    <stf_Title><![CDATA[Blue Mountains]]></stf_Title>
+    <stf_TrackingEvent><![CDATA[feature]]></stf_TrackingEvent>
+    <txt_Text><![CDATA[Blauschimmernde Berge, weitreichende Eukalyptusw&auml;lder, H&ouml;hlen, Klippen und Wasserf&auml;lle.]]></txt_Text> 
+</FeatureBoxItems><FeatureBoxItems isTemplate="1">
+    <anc_InternalLink><![CDATA[/de/explore/icons/byron-bay.xml]]></anc_InternalLink>
+    <img_BackgroundImg><![CDATA[/contentimages/byron-bay-feature-box.jpg]]></img_BackgroundImg>
+    <img_Map><![CDATA[/contentimages/byron-bay-fb-map.png]]></img_Map>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[yes]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_FeatureTrackingTitle><![CDATA[iconsbyronbay]]></stf_FeatureTrackingTitle>
+    <stf_LinkText><![CDATA[Mehr]]></stf_LinkText>
+    <stf_MapAltTag><![CDATA[]]></stf_MapAltTag>
+    <stf_Title><![CDATA[Byron Bay]]></stf_Title>
+    <stf_TrackingEvent><![CDATA[feature]]></stf_TrackingEvent>
+    <txt_Text><![CDATA[Herrliche Str&auml;nde und Surfspots, tropische Regenw&auml;lder und Wellnessgenuss.]]></txt_Text> 
+</FeatureBoxItems><FeatureBoxItems isTemplate="1">
+    <anc_InternalLink><![CDATA[/de/explore/icons/kakadu.xml]]></anc_InternalLink>
+    <img_BackgroundImg><![CDATA[/contentimages/kakadu-feature-box.jpg]]></img_BackgroundImg>
+    <img_Map><![CDATA[/contentimages/kakadu-fb-map.png]]></img_Map>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[yes]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_FeatureTrackingTitle><![CDATA[iconskakdu]]></stf_FeatureTrackingTitle>
+    <stf_LinkText><![CDATA[Mehr]]></stf_LinkText>
+    <stf_MapAltTag><![CDATA[]]></stf_MapAltTag>
+    <stf_Title><![CDATA[Kakadu]]></stf_Title>
+    <stf_TrackingEvent><![CDATA[feature]]></stf_TrackingEvent>
+    <txt_Text><![CDATA[Faszinierende Mischung aus Moorlandschaften, Tierwelt und Felszeichnungen der Aborigines.]]></txt_Text> 
+</FeatureBoxItems><FeatureBoxItems isTemplate="1">
+    <anc_InternalLink><![CDATA[/de/explore/icons/red-centre.xml]]></anc_InternalLink>
+    <img_BackgroundImg><![CDATA[/contentimages/red-centre-feature-box.jpg]]></img_BackgroundImg>
+    <img_Map><![CDATA[/contentimages/red-centre-fb-map.png]]></img_Map>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[yes]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_FeatureTrackingTitle><![CDATA[iconsredcentre]]></stf_FeatureTrackingTitle>
+    <stf_LinkText><![CDATA[Mehr]]></stf_LinkText>
+    <stf_MapAltTag><![CDATA[]]></stf_MapAltTag>
+    <stf_Title><![CDATA[Red Centre]]></stf_Title>
+    <stf_TrackingEvent><![CDATA[feature]]></stf_TrackingEvent>
+    <txt_Text><![CDATA[Kultureller Reichtum der Aborigines und schroffe Outback-Welten.]]></txt_Text> 
+</FeatureBoxItems><FeatureBoxItems isTemplate="1">
+    <anc_InternalLink><![CDATA[/de/explore/icons/fraser-island.xml]]></anc_InternalLink>
+    <img_BackgroundImg><![CDATA[/contentimages/fraser-island-feature-box.jpg]]></img_BackgroundImg>
+    <img_Map><![CDATA[/contentimages/fraser-island-fb-map.png]]></img_Map>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[yes]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_FeatureTrackingTitle><![CDATA[iconsfraserisland]]></stf_FeatureTrackingTitle>
+    <stf_LinkText><![CDATA[Mehr]]></stf_LinkText>
+    <stf_MapAltTag><![CDATA[]]></stf_MapAltTag>
+    <stf_Title><![CDATA[Fraser Island]]></stf_Title>
+    <stf_TrackingEvent><![CDATA[feature]]></stf_TrackingEvent>
+    <txt_Text><![CDATA[Allradtouren entlang herrlicher Str&auml;nde, reizvoller Binnenseen und durch wilde Regenw&auml;lder.]]></txt_Text> 
+</FeatureBoxItems><FeatureBoxItems isTemplate="1">
+    <anc_InternalLink><![CDATA[/de/explore/icons/great-barrier-reef.xml]]></anc_InternalLink>
+    <img_BackgroundImg><![CDATA[/contentimages/great-barrier-reef-feature-box.jpg]]></img_BackgroundImg>
+    <img_Map><![CDATA[/contentimages/gbr-fb-map.png]]></img_Map>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[yes]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_FeatureTrackingTitle><![CDATA[iconsgreatbarrierreef]]></stf_FeatureTrackingTitle>
+    <stf_LinkText><![CDATA[Mehr]]></stf_LinkText>
+    <stf_MapAltTag><![CDATA[]]></stf_MapAltTag>
+    <stf_Title><![CDATA[Great Barrier Reef]]></stf_Title>
+    <stf_TrackingEvent><![CDATA[feature]]></stf_TrackingEvent>
+    <txt_Text><![CDATA[Ein &ouml;kologisches Wunder, das keine W&uuml;nsche offen l&auml;sst: Schwimmen, Tauchen, Segeln, Inselh&uuml;pfen.]]></txt_Text> 
+</FeatureBoxItems><FeatureBoxItems isTemplate="1">
+    <anc_InternalLink><![CDATA[/de/explore/icons/flinders.xml]]></anc_InternalLink>
+    <img_BackgroundImg><![CDATA[/contentimages/features-flinders-ranges.jpg]]></img_BackgroundImg>
+    <img_Map><![CDATA[/contentimages/flinders-ranges-fb-map.png]]></img_Map>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[yes]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_FeatureTrackingTitle><![CDATA[iconsflindersranges]]></stf_FeatureTrackingTitle>
+    <stf_LinkText><![CDATA[Mehr]]></stf_LinkText>
+    <stf_MapAltTag><![CDATA[]]></stf_MapAltTag>
+    <stf_Title><![CDATA[Flinders Ranges]]></stf_Title>
+    <stf_TrackingEvent><![CDATA[feature]]></stf_TrackingEvent>
+    <txt_Text><![CDATA[Allradtouren entlang herrlicher Str&auml;nde, reizvoller Binnenseen und durch wilde Regenw&auml;lder.]]></txt_Text> 
+</FeatureBoxItems><FeatureBoxItems isTemplate="1">
+    <anc_InternalLink><![CDATA[/de/explore/icons/kangaroo-island.xml]]></anc_InternalLink>
+    <img_BackgroundImg><![CDATA[/contentimages/kangaroo-island-feature-box.jpg]]></img_BackgroundImg>
+    <img_Map><![CDATA[/contentimages/kangaroo-island-fb-map.png]]></img_Map>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[yes]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_FeatureTrackingTitle><![CDATA[iconskangarooisland]]></stf_FeatureTrackingTitle>
+    <stf_LinkText><![CDATA[Mehr]]></stf_LinkText>
+    <stf_MapAltTag><![CDATA[]]></stf_MapAltTag>
+    <stf_Title><![CDATA[Kangaroo Island]]></stf_Title>
+    <stf_TrackingEvent><![CDATA[feature]]></stf_TrackingEvent>
+    <txt_Text><![CDATA[Erleben Sie Australiens Tierwelt in ihrem unber&uuml;hrten, nat&uuml;rlichen Lebensraum.]]></txt_Text> 
+</FeatureBoxItems><FeatureBoxItems isTemplate="1">
+    <anc_InternalLink><![CDATA[/de/explore/icons/freycinet.xml]]></anc_InternalLink>
+    <img_BackgroundImg><![CDATA[/contentimages/freycinet-feature-box.jpg]]></img_BackgroundImg>
+    <img_Map><![CDATA[/contentimages/freycinet-fb-map.png]]></img_Map>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[yes]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_FeatureTrackingTitle><![CDATA[iconsfreycinet]]></stf_FeatureTrackingTitle>
+    <stf_LinkText><![CDATA[Mehr]]></stf_LinkText>
+    <stf_MapAltTag><![CDATA[]]></stf_MapAltTag>
+    <stf_Title><![CDATA[Freycinet]]></stf_Title>
+    <stf_TrackingEvent><![CDATA[feature]]></stf_TrackingEvent>
+    <txt_Text><![CDATA[Farbig leuchtende Granitfelsen, unber&uuml;hrte Str&auml;nde und t&uuml;rkisfarbenes Meer.]]></txt_Text> 
+</FeatureBoxItems><FeatureBoxItems isTemplate="1">
+    <anc_InternalLink><![CDATA[/de/explore/icons/tas-wilderness.xml]]></anc_InternalLink>
+    <img_BackgroundImg><![CDATA[/contentimages/tasmanian-wilderness-feature-box.jpg]]></img_BackgroundImg>
+    <img_Map><![CDATA[/contentimages/tas-wilderness-fb-map.png]]></img_Map>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[yes]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_FeatureTrackingTitle><![CDATA[iconstaswilderness]]></stf_FeatureTrackingTitle>
+    <stf_LinkText><![CDATA[Mehr]]></stf_LinkText>
+    <stf_MapAltTag><![CDATA[]]></stf_MapAltTag>
+    <stf_Title><![CDATA[Tasmanische Wildnis]]></stf_Title>
+    <stf_TrackingEvent><![CDATA[feature]]></stf_TrackingEvent>
+    <txt_Text><![CDATA[Erleben Sie die atemberaubende Sch&ouml;nheit der Nationalparks Tasmaniens.]]></txt_Text> 
+</FeatureBoxItems><FeatureBoxItems isTemplate="1">
+    <anc_InternalLink><![CDATA[/de/explore/icons/gippsland.xml]]></anc_InternalLink>
+    <img_BackgroundImg><![CDATA[/contentimages/gippsland-feature-box.jpg]]></img_BackgroundImg>
+    <img_Map><![CDATA[/contentimages/gippsland-fb-map.png]]></img_Map>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[yes]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_FeatureTrackingTitle><![CDATA[iconsgippsland]]></stf_FeatureTrackingTitle>
+    <stf_LinkText><![CDATA[Mehr]]></stf_LinkText>
+    <stf_MapAltTag><![CDATA[]]></stf_MapAltTag>
+    <stf_Title><![CDATA[Gippsland]]></stf_Title>
+    <stf_TrackingEvent><![CDATA[feature]]></stf_TrackingEvent>
+    <txt_Text><![CDATA[Wo gro&szlig;e W&auml;lder, Seen und die Wildnis der K&uuml;ste aufeinandertreffen.]]></txt_Text> 
+</FeatureBoxItems><FeatureBoxItems isTemplate="1">
+    <anc_InternalLink><![CDATA[/de/explore/icons/great-ocean-road.xml]]></anc_InternalLink>
+    <img_BackgroundImg><![CDATA[/contentimages/great-ocean-road-feature-box.jpg]]></img_BackgroundImg>
+    <img_Map><![CDATA[/contentimages/gor-fb-map.png]]></img_Map>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[yes]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_FeatureTrackingTitle><![CDATA[iconsgreatoceanroad]]></stf_FeatureTrackingTitle>
+    <stf_LinkText><![CDATA[Mehr]]></stf_LinkText>
+    <stf_MapAltTag><![CDATA[]]></stf_MapAltTag>
+    <stf_Title><![CDATA[Great Ocean Road]]></stf_Title>
+    <stf_TrackingEvent><![CDATA[feature]]></stf_TrackingEvent>
+    <txt_Text><![CDATA[Entdecken Sie faszinierende Naturschauspiele auf der ganzen Strecke.]]></txt_Text> 
+</FeatureBoxItems><FeatureBoxItems isTemplate="1">
+    <anc_InternalLink><![CDATA[/de/explore/icons/kimberley.xml]]></anc_InternalLink>
+    <img_BackgroundImg><![CDATA[/contentimages/kimberley-feature-box.jpg]]></img_BackgroundImg>
+    <img_Map><![CDATA[/contentimages/kimberley-fb-map.png]]></img_Map>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[yes]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_FeatureTrackingTitle><![CDATA[iconskimberley]]></stf_FeatureTrackingTitle>
+    <stf_LinkText><![CDATA[Mehr]]></stf_LinkText>
+    <stf_MapAltTag><![CDATA[]]></stf_MapAltTag>
+    <stf_Title><![CDATA[Kimberley]]></stf_Title>
+    <stf_TrackingEvent><![CDATA[feature]]></stf_TrackingEvent>
+    <txt_Text><![CDATA[Endlose Horizonte, azurblaues Meer, tiefe Schluchten und spannende Naturwunder.]]></txt_Text> 
+</FeatureBoxItems><FeatureBoxItems isTemplate="1">
+    <anc_InternalLink><![CDATA[/de/explore/icons/ningaloo.xml]]></anc_InternalLink>
+    <img_BackgroundImg><![CDATA[/contentimages/whaleshark-ningaloo.jpg]]></img_BackgroundImg>
+    <img_Map><![CDATA[/contentimages/ningaloo-fb-map.png]]></img_Map>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[yes]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_FeatureTrackingTitle><![CDATA[iconsningaloo]]></stf_FeatureTrackingTitle>
+    <stf_LinkText><![CDATA[Mehr]]></stf_LinkText>
+    <stf_MapAltTag><![CDATA[]]></stf_MapAltTag>
+    <stf_Title><![CDATA[Ningaloo]]></stf_Title>
+    <stf_TrackingEvent><![CDATA[feature]]></stf_TrackingEvent>
+    <txt_Text><![CDATA[Australiens gr&ouml;&szlig;tes k&uuml;stennahes Riff und seine atemberaubende Unterwasserwelt.]]></txt_Text> 
+</FeatureBoxItems>
+    </con_FeatureBoxItems>
+</FeatureBoxCountryHolder>
+    </con_FeatureBoxCountries>
+</FeatureBoxHolder>
+    </con_FeatureBox>            
+    <con_Carousel>
+        <CarouselHolder isTemplate="1">
+    <anc_ManagementPage><![CDATA[/de/12013.xml]]></anc_ManagementPage>
+    <hdl_CarouselTitle><![CDATA[Sehensw&uuml;rdigkeiten und Freizeitm&ouml;glichkeiten in Australien]]></hdl_CarouselTitle>
+    <con_CarouselCountries>
+        <CarouselCountryHolder isTemplate="1">
+    <con_CarouselItems>
+        <CarouselItems isTemplate="1">
+    <img_Image><![CDATA[/contentimages/carousel_foodandwine.jpg]]></img_Image>
+    <med_CarouselPDF><![CDATA[]]></med_CarouselPDF>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_CarouselTrackingObject><![CDATA[foodandwinedech]]></stf_CarouselTrackingObject>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_Text><![CDATA[]]></stf_Text>
+    <stf_TrackingEvent><![CDATA[carousel]]></stf_TrackingEvent>
+    <anc_InternalLink><![CDATA[/de/explore/things-to-do/food-and-wine.xml]]></anc_InternalLink>
+    <hdl_ItemTitle><![CDATA[Erleben Sie Gastronomie und Weinkultur]]></hdl_ItemTitle> 
+</CarouselItems><CarouselItems isTemplate="1">
+    <img_Image><![CDATA[/contentimages/carousel-outback.jpg]]></img_Image>
+    <med_CarouselPDF><![CDATA[]]></med_CarouselPDF>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_CarouselTrackingObject><![CDATA[outback]]></stf_CarouselTrackingObject>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_Text><![CDATA[]]></stf_Text>
+    <stf_TrackingEvent><![CDATA[carousel]]></stf_TrackingEvent>
+    <anc_InternalLink><![CDATA[/de/about/australias-landscapes/outback-australia.xml]]></anc_InternalLink>
+    <hdl_ItemTitle><![CDATA[Outback Australien]]></hdl_ItemTitle> 
+</CarouselItems><CarouselItems isTemplate="1">
+    <img_Image><![CDATA[/contentimages/Campaigns/campaigns-nla2-apps-lizard-island-carousel.jpg]]></img_Image>
+    <med_CarouselPDF><![CDATA[]]></med_CarouselPDF>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <stf_AltTag><![CDATA[„Australien – einfach unvergleichlich“ als App]]></stf_AltTag>
+    <stf_CarouselTrackingObject><![CDATA[nla2appch]]></stf_CarouselTrackingObject>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_Text><![CDATA[]]></stf_Text>
+    <stf_TrackingEvent><![CDATA[carousel]]></stf_TrackingEvent>
+    <anc_InternalLink><![CDATA[/de/apps.xml]]></anc_InternalLink>
+    <hdl_ItemTitle><![CDATA[„Australien – einfach unvergleichlich“ als App]]></hdl_ItemTitle> 
+</CarouselItems><CarouselItems isTemplate="1">
+    <img_Image><![CDATA[/contentimages/carousel-aboriginal-australia.jpg]]></img_Image>
+    <med_CarouselPDF><![CDATA[]]></med_CarouselPDF>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_CarouselTrackingObject><![CDATA[aboriginalaustralia]]></stf_CarouselTrackingObject>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_Text><![CDATA[]]></stf_Text>
+    <stf_TrackingEvent><![CDATA[carousel]]></stf_TrackingEvent>
+    <anc_InternalLink><![CDATA[/de/explore/things-to-do/aboriginal-australia.xml]]></anc_InternalLink>
+    <hdl_ItemTitle><![CDATA[Das Australien der Aborigines]]></hdl_ItemTitle> 
+</CarouselItems><CarouselItems isTemplate="1">
+    <img_Image><![CDATA[/contentimages/carousel-explore.jpg]]></img_Image>
+    <med_CarouselPDF><![CDATA[]]></med_CarouselPDF>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_CarouselTrackingObject><![CDATA[explore]]></stf_CarouselTrackingObject>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_Text><![CDATA[]]></stf_Text>
+    <stf_TrackingEvent><![CDATA[carousel]]></stf_TrackingEvent>
+    <anc_InternalLink><![CDATA[/de/explore.xml]]></anc_InternalLink>
+    <hdl_ItemTitle><![CDATA[Reiserouten]]></hdl_ItemTitle> 
+</CarouselItems><CarouselItems isTemplate="1">
+    <img_Image><![CDATA[/contentimages/carousel-australian-holiday-stories.jpg]]></img_Image>
+    <med_CarouselPDF><![CDATA[]]></med_CarouselPDF>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_CarouselTrackingObject><![CDATA[australianholidaystoriesdech]]></stf_CarouselTrackingObject>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_Text><![CDATA[]]></stf_Text>
+    <stf_TrackingEvent><![CDATA[carousel]]></stf_TrackingEvent>
+    <anc_InternalLink><![CDATA[/de/explore/things-to-do/australian-holiday-stories.xml]]></anc_InternalLink>
+    <hdl_ItemTitle><![CDATA[Urlaubsgeschichten aus Australien]]></hdl_ItemTitle> 
+</CarouselItems><CarouselItems isTemplate="1">
+    <img_Image><![CDATA[/contentimages/walkabout-planner-carousel.jpg]]></img_Image>
+    <med_CarouselPDF><![CDATA[]]></med_CarouselPDF>
+    <opt_isExternalLink><![CDATA[yes]]></opt_isExternalLink>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_CarouselTrackingObject><![CDATA[walkaboutplannerdech]]></stf_CarouselTrackingObject>
+    <stf_externalLink><![CDATA[http://walkaboutplanner.australia.com/#/?lang=de]]></stf_externalLink>
+    <stf_Text><![CDATA[]]></stf_Text>
+    <stf_TrackingEvent><![CDATA[carousel]]></stf_TrackingEvent>
+    <anc_InternalLink><![CDATA[]]></anc_InternalLink>
+    <hdl_ItemTitle><![CDATA[Come Walkabout - Outdoor Abenteuer in Australien]]></hdl_ItemTitle> 
+</CarouselItems><CarouselItems isTemplate="1">
+    <img_Image><![CDATA[/contentimages/youthful_icons.jpg]]></img_Image>
+    <med_CarouselPDF><![CDATA[]]></med_CarouselPDF>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_CarouselTrackingObject><![CDATA[youthtravellers]]></stf_CarouselTrackingObject>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_Text><![CDATA[]]></stf_Text>
+    <stf_TrackingEvent><![CDATA[carousel]]></stf_TrackingEvent>
+    <anc_InternalLink><![CDATA[/de/explore/things-to-do/youthful-travellers.xml]]></anc_InternalLink>
+    <hdl_ItemTitle><![CDATA[Australien f&uuml;r junge und jung gebliebene Leute]]></hdl_ItemTitle> 
+</CarouselItems><CarouselItems isTemplate="1">
+    <img_Image><![CDATA[/contentimages/australias-cities-carousel.jpg]]></img_Image>
+    <med_CarouselPDF><![CDATA[]]></med_CarouselPDF>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_CarouselTrackingObject><![CDATA[australiascitiesdech]]></stf_CarouselTrackingObject>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_Text><![CDATA[]]></stf_Text>
+    <stf_TrackingEvent><![CDATA[carousel]]></stf_TrackingEvent>
+    <anc_InternalLink><![CDATA[/de/explore/cities/cities.xml]]></anc_InternalLink>
+    <hdl_ItemTitle><![CDATA[Australiens St&auml;dte]]></hdl_ItemTitle> 
+</CarouselItems><CarouselItems isTemplate="1">
+    <img_Image><![CDATA[/contentimages/making-tracks-carousel.jpg]]></img_Image>
+    <med_CarouselPDF><![CDATA[]]></med_CarouselPDF>
+    <opt_isExternalLink><![CDATA[yes]]></opt_isExternalLink>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_CarouselTrackingObject><![CDATA[makingtracks]]></stf_CarouselTrackingObject>
+    <stf_externalLink><![CDATA[http://www.australia.com/campaigns/makingtracks-int/de/]]></stf_externalLink>
+    <stf_Text><![CDATA[]]></stf_Text>
+    <stf_TrackingEvent><![CDATA[carousel]]></stf_TrackingEvent>
+    <anc_InternalLink><![CDATA[]]></anc_InternalLink>
+    <hdl_ItemTitle><![CDATA[Making Tracks]]></hdl_ItemTitle> 
+</CarouselItems><CarouselItems isTemplate="1">
+    <img_Image><![CDATA[/contentimages/carousel-national-landscapes.jpg]]></img_Image>
+    <med_CarouselPDF><![CDATA[]]></med_CarouselPDF>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_CarouselTrackingObject><![CDATA[nationallandscapes]]></stf_CarouselTrackingObject>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_Text><![CDATA[]]></stf_Text>
+    <stf_TrackingEvent><![CDATA[carousel]]></stf_TrackingEvent>
+    <anc_InternalLink><![CDATA[/de/nationallandscapes.xml]]></anc_InternalLink>
+    <hdl_ItemTitle><![CDATA[Nationale Landschaften in Australien]]></hdl_ItemTitle> 
+</CarouselItems><CarouselItems isTemplate="1">
+    <img_Image><![CDATA[/contentimages/carousel-info-brochure.jpg]]></img_Image>
+    <med_CarouselPDF><![CDATA[]]></med_CarouselPDF>
+    <opt_isExternalLink><![CDATA[yes]]></opt_isExternalLink>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_CarouselTrackingObject><![CDATA[infobrochure]]></stf_CarouselTrackingObject>
+    <stf_externalLink><![CDATA[http://www.australia.com/campaigns/flipbooks/consumer-brochure-DE/]]></stf_externalLink>
+    <stf_Text><![CDATA[]]></stf_Text>
+    <stf_TrackingEvent><![CDATA[carousel]]></stf_TrackingEvent>
+    <anc_InternalLink><![CDATA[]]></anc_InternalLink>
+    <hdl_ItemTitle><![CDATA[Info Brosch&uuml;re]]></hdl_ItemTitle> 
+</CarouselItems><CarouselItems isTemplate="1">
+    <img_Image><![CDATA[/contentimages/carousel-unique-australia.jpg]]></img_Image>
+    <med_CarouselPDF><![CDATA[]]></med_CarouselPDF>
+    <opt_isExternalLink><![CDATA[yes]]></opt_isExternalLink>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_CarouselTrackingObject><![CDATA[uniqueaustralia]]></stf_CarouselTrackingObject>
+    <stf_externalLink><![CDATA[http://www.australia.com/campaigns/55Things_DE/index.html?ta_cid=redirect:de:einzigartigaustralisch]]></stf_externalLink>
+    <stf_Text><![CDATA[]]></stf_Text>
+    <stf_TrackingEvent><![CDATA[carousel]]></stf_TrackingEvent>
+    <anc_InternalLink><![CDATA[]]></anc_InternalLink>
+    <hdl_ItemTitle><![CDATA[Einzigartig Australisch]]></hdl_ItemTitle> 
+</CarouselItems><CarouselItems isTemplate="1">
+    <img_Image><![CDATA[/contentimages/carousel-de-trip-advisor.jpg]]></img_Image>
+    <med_CarouselPDF><![CDATA[]]></med_CarouselPDF>
+    <opt_isExternalLink><![CDATA[yes]]></opt_isExternalLink>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <stf_AltTag><![CDATA[Auf zum interaktiven Reiseplaner auf TripAdvisor]]></stf_AltTag>
+    <stf_CarouselTrackingObject><![CDATA[tripadvisorde]]></stf_CarouselTrackingObject>
+    <stf_externalLink><![CDATA[http://www.tripadvisor.de/AustralienEntdecken?channel=online-media&amp;campaign=de-local-fy2012-tripadvisor&amp;message=coop&amp;publisher=tripadvisorhomepage&amp;website=australia&amp;placement=homepage&amp;adunit=239x106]]></stf_externalLink>
+    <stf_Text><![CDATA[]]></stf_Text>
+    <stf_TrackingEvent><![CDATA[carousel]]></stf_TrackingEvent>
+    <anc_InternalLink><![CDATA[]]></anc_InternalLink>
+    <hdl_ItemTitle><![CDATA[Auf zum interaktiven Reiseplaner auf TripAdvisor]]></hdl_ItemTitle> 
+</CarouselItems>
+    </con_CarouselItems>
+</CarouselCountryHolder><CarouselCountryHolder isTemplate="1">
+    <con_CarouselItems>
+        <CarouselItems isTemplate="1">
+    <img_Image><![CDATA[/contentimages/carousel_foodandwine.jpg]]></img_Image>
+    <med_CarouselPDF><![CDATA[]]></med_CarouselPDF>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_CarouselTrackingObject><![CDATA[foodandwinede]]></stf_CarouselTrackingObject>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_Text><![CDATA[]]></stf_Text>
+    <stf_TrackingEvent><![CDATA[carousel]]></stf_TrackingEvent>
+    <anc_InternalLink><![CDATA[/de/explore/things-to-do/food-and-wine.xml]]></anc_InternalLink>
+    <hdl_ItemTitle><![CDATA[Erleben Sie Gastronomie und Weinkultur]]></hdl_ItemTitle> 
+</CarouselItems><CarouselItems isTemplate="1">
+    <img_Image><![CDATA[/contentimages/Campaigns/carousel-events-calendar.jpg]]></img_Image>
+    <med_CarouselPDF><![CDATA[]]></med_CarouselPDF>
+    <opt_isExternalLink><![CDATA[yes]]></opt_isExternalLink>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_CarouselTrackingObject><![CDATA[eventcalendar]]></stf_CarouselTrackingObject>
+    <stf_externalLink><![CDATA[http://www.australia.com/campaigns/eventscalendar/de]]></stf_externalLink>
+    <stf_Text><![CDATA[]]></stf_Text>
+    <stf_TrackingEvent><![CDATA[carousel]]></stf_TrackingEvent>
+    <anc_InternalLink><![CDATA[]]></anc_InternalLink>
+    <hdl_ItemTitle><![CDATA[Suchen Sie Events im Veranstaltungskalender]]></hdl_ItemTitle> 
+</CarouselItems><CarouselItems isTemplate="1">
+    <img_Image><![CDATA[/contentimages/Campaigns/campaigns-nla2-apps-lizard-island-carousel.jpg]]></img_Image>
+    <med_CarouselPDF><![CDATA[]]></med_CarouselPDF>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <stf_AltTag><![CDATA[„Australien – einfach unvergleichlich“ als App]]></stf_AltTag>
+    <stf_CarouselTrackingObject><![CDATA[nla2appde]]></stf_CarouselTrackingObject>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_Text><![CDATA[]]></stf_Text>
+    <stf_TrackingEvent><![CDATA[carousel]]></stf_TrackingEvent>
+    <anc_InternalLink><![CDATA[/de/apps.xml]]></anc_InternalLink>
+    <hdl_ItemTitle><![CDATA[„Australien – einfach unvergleichlich“ als App]]></hdl_ItemTitle> 
+</CarouselItems><CarouselItems isTemplate="1">
+    <img_Image><![CDATA[/contentimages/carousel-best-of-australia-luxury-lodges.jpg]]></img_Image>
+    <med_CarouselPDF><![CDATA[]]></med_CarouselPDF>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_CarouselTrackingObject><![CDATA[bestofluxuyrylodgesde]]></stf_CarouselTrackingObject>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_Text><![CDATA[]]></stf_Text>
+    <stf_TrackingEvent><![CDATA[carousel]]></stf_TrackingEvent>
+    <anc_InternalLink><![CDATA[/de/explore/things-to-do/great-luxury-lodges.xml]]></anc_InternalLink>
+    <hdl_ItemTitle><![CDATA[Luxury Lodges of Australia]]></hdl_ItemTitle> 
+</CarouselItems><CarouselItems isTemplate="1">
+    <img_Image><![CDATA[/contentimages/carousel-work-around-australia.jpg]]></img_Image>
+    <med_CarouselPDF><![CDATA[]]></med_CarouselPDF>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_CarouselTrackingObject><![CDATA[workinaustralia]]></stf_CarouselTrackingObject>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_Text><![CDATA[]]></stf_Text>
+    <stf_TrackingEvent><![CDATA[carousel]]></stf_TrackingEvent>
+    <anc_InternalLink><![CDATA[/de/promotions/jobbenundreisen.xml]]></anc_InternalLink>
+    <hdl_ItemTitle><![CDATA[Jobben und Reisen in Australien]]></hdl_ItemTitle> 
+</CarouselItems><CarouselItems isTemplate="1">
+    <img_Image><![CDATA[/contentimages/carousel-outback.jpg]]></img_Image>
+    <med_CarouselPDF><![CDATA[]]></med_CarouselPDF>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_CarouselTrackingObject><![CDATA[outback]]></stf_CarouselTrackingObject>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_Text><![CDATA[]]></stf_Text>
+    <stf_TrackingEvent><![CDATA[carousel]]></stf_TrackingEvent>
+    <anc_InternalLink><![CDATA[/de/about/australias-landscapes/outback-australia.xml]]></anc_InternalLink>
+    <hdl_ItemTitle><![CDATA[Outback Australien]]></hdl_ItemTitle> 
+</CarouselItems><CarouselItems isTemplate="1">
+    <img_Image><![CDATA[/contentimages/carousel-aboriginal-australia.jpg]]></img_Image>
+    <med_CarouselPDF><![CDATA[]]></med_CarouselPDF>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_CarouselTrackingObject><![CDATA[aboriginalaustralia]]></stf_CarouselTrackingObject>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_Text><![CDATA[]]></stf_Text>
+    <stf_TrackingEvent><![CDATA[carousel]]></stf_TrackingEvent>
+    <anc_InternalLink><![CDATA[/de/explore/things-to-do/aboriginal-australia.xml]]></anc_InternalLink>
+    <hdl_ItemTitle><![CDATA[Das Australien der Aborigines]]></hdl_ItemTitle> 
+</CarouselItems><CarouselItems isTemplate="1">
+    <img_Image><![CDATA[/contentimages/carousel-explore.jpg]]></img_Image>
+    <med_CarouselPDF><![CDATA[]]></med_CarouselPDF>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_CarouselTrackingObject><![CDATA[explore]]></stf_CarouselTrackingObject>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_Text><![CDATA[]]></stf_Text>
+    <stf_TrackingEvent><![CDATA[carousel]]></stf_TrackingEvent>
+    <anc_InternalLink><![CDATA[/de/explore.xml]]></anc_InternalLink>
+    <hdl_ItemTitle><![CDATA[Reiserouten]]></hdl_ItemTitle> 
+</CarouselItems><CarouselItems isTemplate="1">
+    <img_Image><![CDATA[/contentimages/carousel-australian-holiday-stories.jpg]]></img_Image>
+    <med_CarouselPDF><![CDATA[]]></med_CarouselPDF>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_CarouselTrackingObject><![CDATA[australianholidaystoriesde]]></stf_CarouselTrackingObject>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_Text><![CDATA[]]></stf_Text>
+    <stf_TrackingEvent><![CDATA[carousel]]></stf_TrackingEvent>
+    <anc_InternalLink><![CDATA[/de/explore/things-to-do/australian-holiday-stories.xml]]></anc_InternalLink>
+    <hdl_ItemTitle><![CDATA[Urlaubsgeschichten aus Australien]]></hdl_ItemTitle> 
+</CarouselItems><CarouselItems isTemplate="1">
+    <img_Image><![CDATA[/contentimages/youthful_icons.jpg]]></img_Image>
+    <med_CarouselPDF><![CDATA[]]></med_CarouselPDF>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_CarouselTrackingObject><![CDATA[youthtravellers]]></stf_CarouselTrackingObject>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_Text><![CDATA[]]></stf_Text>
+    <stf_TrackingEvent><![CDATA[carousel]]></stf_TrackingEvent>
+    <anc_InternalLink><![CDATA[/de/explore/things-to-do/youthful-travellers.xml]]></anc_InternalLink>
+    <hdl_ItemTitle><![CDATA[Australien f&uuml;r junge und jung gebliebene Leute]]></hdl_ItemTitle> 
+</CarouselItems><CarouselItems isTemplate="1">
+    <img_Image><![CDATA[/contentimages/australias-cities-carousel.jpg]]></img_Image>
+    <med_CarouselPDF><![CDATA[]]></med_CarouselPDF>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_CarouselTrackingObject><![CDATA[australiascitiesde]]></stf_CarouselTrackingObject>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_Text><![CDATA[]]></stf_Text>
+    <stf_TrackingEvent><![CDATA[carousel]]></stf_TrackingEvent>
+    <anc_InternalLink><![CDATA[/de/explore/cities/cities.xml]]></anc_InternalLink>
+    <hdl_ItemTitle><![CDATA[Australiens St&auml;dte]]></hdl_ItemTitle> 
+</CarouselItems><CarouselItems isTemplate="1">
+    <img_Image><![CDATA[/contentimages/making-tracks-carousel.jpg]]></img_Image>
+    <med_CarouselPDF><![CDATA[]]></med_CarouselPDF>
+    <opt_isExternalLink><![CDATA[yes]]></opt_isExternalLink>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_CarouselTrackingObject><![CDATA[makingtracks]]></stf_CarouselTrackingObject>
+    <stf_externalLink><![CDATA[http://www.australia.com/campaigns/makingtracks-int/de/]]></stf_externalLink>
+    <stf_Text><![CDATA[]]></stf_Text>
+    <stf_TrackingEvent><![CDATA[carousel]]></stf_TrackingEvent>
+    <anc_InternalLink><![CDATA[]]></anc_InternalLink>
+    <hdl_ItemTitle><![CDATA[Making Tracks]]></hdl_ItemTitle> 
+</CarouselItems><CarouselItems isTemplate="1">
+    <img_Image><![CDATA[/contentimages/carousel-national-landscapes.jpg]]></img_Image>
+    <med_CarouselPDF><![CDATA[]]></med_CarouselPDF>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_CarouselTrackingObject><![CDATA[nationallandscapes]]></stf_CarouselTrackingObject>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_Text><![CDATA[]]></stf_Text>
+    <stf_TrackingEvent><![CDATA[carousel]]></stf_TrackingEvent>
+    <anc_InternalLink><![CDATA[/de/nationallandscapes.xml]]></anc_InternalLink>
+    <hdl_ItemTitle><![CDATA[Nationale Landschaften in Australien]]></hdl_ItemTitle> 
+</CarouselItems><CarouselItems isTemplate="1">
+    <img_Image><![CDATA[/contentimages/carousel-info-brochure.jpg]]></img_Image>
+    <med_CarouselPDF><![CDATA[/docs/UK-Consumer-Brochure.pdf]]></med_CarouselPDF>
+    <opt_isExternalLink><![CDATA[yes]]></opt_isExternalLink>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_CarouselTrackingObject><![CDATA[infobrochure]]></stf_CarouselTrackingObject>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_Text><![CDATA[]]></stf_Text>
+    <stf_TrackingEvent><![CDATA[carousel]]></stf_TrackingEvent>
+    <anc_InternalLink><![CDATA[]]></anc_InternalLink>
+    <hdl_ItemTitle><![CDATA[Info Brosch&uuml;re]]></hdl_ItemTitle> 
+</CarouselItems><CarouselItems isTemplate="1">
+    <img_Image><![CDATA[/contentimages/carousel-unique-australia.jpg]]></img_Image>
+    <med_CarouselPDF><![CDATA[]]></med_CarouselPDF>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_CarouselTrackingObject><![CDATA[uniqueaustraliade]]></stf_CarouselTrackingObject>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_Text><![CDATA[]]></stf_Text>
+    <stf_TrackingEvent><![CDATA[carousel]]></stf_TrackingEvent>
+    <anc_InternalLink><![CDATA[/de/globetrotter.xml]]></anc_InternalLink>
+    <hdl_ItemTitle><![CDATA[Erleben Sie einzigartige australische aktivit&auml;ten]]></hdl_ItemTitle> 
+</CarouselItems><CarouselItems isTemplate="1">
+    <img_Image><![CDATA[/contentimages/carousel-de-trip-advisor.jpg]]></img_Image>
+    <med_CarouselPDF><![CDATA[]]></med_CarouselPDF>
+    <opt_isExternalLink><![CDATA[yes]]></opt_isExternalLink>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <stf_AltTag><![CDATA[Auf zum interaktiven Reiseplaner auf TripAdvisor]]></stf_AltTag>
+    <stf_CarouselTrackingObject><![CDATA[tripadvisorde]]></stf_CarouselTrackingObject>
+    <stf_externalLink><![CDATA[http://www.tripadvisor.de/AustralienEntdecken?channel=online-media&amp;campaign=de-local-fy2012-tripadvisor&amp;message=coop&amp;publisher=tripadvisorhomepage&amp;website=australia&amp;placement=homepage&amp;adunit=239x106]]></stf_externalLink>
+    <stf_Text><![CDATA[]]></stf_Text>
+    <stf_TrackingEvent><![CDATA[carousel]]></stf_TrackingEvent>
+    <anc_InternalLink><![CDATA[]]></anc_InternalLink>
+    <hdl_ItemTitle><![CDATA[Auf zum interaktiven Reiseplaner auf TripAdvisor]]></hdl_ItemTitle> 
+</CarouselItems><CarouselItems isTemplate="1">
+    <img_Image><![CDATA[/contentimages/walkabout-planner-carousel.jpg]]></img_Image>
+    <med_CarouselPDF><![CDATA[]]></med_CarouselPDF>
+    <opt_isExternalLink><![CDATA[yes]]></opt_isExternalLink>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_CarouselTrackingObject><![CDATA[walkaboutplannerde]]></stf_CarouselTrackingObject>
+    <stf_externalLink><![CDATA[http://walkaboutplanner.australia.com/#/?lang=de]]></stf_externalLink>
+    <stf_Text><![CDATA[]]></stf_Text>
+    <stf_TrackingEvent><![CDATA[carousel]]></stf_TrackingEvent>
+    <anc_InternalLink><![CDATA[]]></anc_InternalLink>
+    <hdl_ItemTitle><![CDATA[Come Walkabout - Outdoor Abenteuer in Australien]]></hdl_ItemTitle> 
+</CarouselItems><CarouselItems isTemplate="1">
+    <img_Image><![CDATA[/contentimages/carousel-best-of-australia-great-walks.jpg]]></img_Image>
+    <med_CarouselPDF><![CDATA[]]></med_CarouselPDF>
+    <opt_isExternalLink><![CDATA[no]]></opt_isExternalLink>
+    <opt_Random><![CDATA[]]></opt_Random>
+    <stf_AltTag><![CDATA[]]></stf_AltTag>
+    <stf_CarouselTrackingObject><![CDATA[bestofwalksde]]></stf_CarouselTrackingObject>
+    <stf_externalLink><![CDATA[]]></stf_externalLink>
+    <stf_Text><![CDATA[]]></stf_Text>
+    <stf_TrackingEvent><![CDATA[carousel]]></stf_TrackingEvent>
+    <anc_InternalLink><![CDATA[/de/explore/things-to-do/great-walks.xml]]></anc_InternalLink>
+    <hdl_ItemTitle><![CDATA[Great Walks of Australia]]></hdl_ItemTitle> 
+</CarouselItems>
+    </con_CarouselItems>
+</CarouselCountryHolder>
+    </con_CarouselCountries>
+</CarouselHolder>
+    </con_Carousel>
+    <con_Video>
+        
+    </con_Video>
+    <con_Footer>
+        <GlobalFooterControlInclude isTemplate="1">
+    <!-- no user code -->
+</GlobalFooterControlInclude>
+    </con_Footer>
+    <con_Banner>
+        <HomepageBannerHolder isTemplate="1">
+    <hdl_Title><![CDATA[Homepage Banner Holder]]></hdl_Title>
+    <con_Banner>
+        <HomepageBannerCountryHolder isTemplate="1">
+    <hdl_Title><![CDATA[DE]]></hdl_Title>
+    <lst_Subpages>
+        <url><a href="/de/12047.ignore">QLD</a></url>
+        <img_Banner><![CDATA[]]></img_Banner> 
+        <stf_Caption><![CDATA[]]></stf_Caption> 
+    </lst_Subpages>
+    <stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry> 
+</HomepageBannerCountryHolder> 
+    </con_Banner>
+</HomepageBannerHolder>
+    </con_Banner>        
+    <con_FooterScript>
+        <GlobalFooterJSReference isTemplate="1">
+    <!-- no user content -->
+</GlobalFooterJSReference>
+    </con_FooterScript>
+    <lst_Promotions>
+        <lst_Promotion><![CDATA[<a href="/de/promotions/whv_bewerben_de.xml">Visum beantragen</a>]]></lst_Promotion>
+        <lst_Promotion><![CDATA[<a href="/de/promotions/whv_getting_here_de.xml">Hinkommen</a>]]></lst_Promotion>
+        <lst_Promotion><![CDATA[<a href="/de/promotions/whv_getting_around_de.xml">Herumkommen Australien</a>]]></lst_Promotion>
+        <lst_Promotion><![CDATA[<a href="/de/promotions/whv_accommodation_de.xml">Unterkünfte</a>]]></lst_Promotion>
+        <lst_Promotion><![CDATA[<a href="/de/promotions/whv_working_de.xml">Jobben in Australien</a>]]></lst_Promotion>
+        <lst_Promotion><![CDATA[<a href="/de/promotions/whv_study_de.xml">Studieren in Australien</a>]]></lst_Promotion>
+        <lst_Promotion><![CDATA[<a href="/de/promotions/whv_festival_de.xml">Was geht ab?</a>]]></lst_Promotion>
+        <lst_Promotion><![CDATA[<a href="/de/promotions/whv_second_de.xml">Zweites Working Holiday Visum</a>]]></lst_Promotion>
+        <lst_Promotion><![CDATA[<a href="/de/promotions/jobbenundreisen.xml">Jobben und Reisen in Australien</a>]]></lst_Promotion>
+    </lst_Promotions>
+    <lst_Subpages>
+        <lst_Subpage><![CDATA[<a href="/de/tools-campaigns.xml">Tools and Campaigns </a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/de/about.xml">Über</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/de/explore.xml">Erkunden</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/de/plan.xml">Planen</a>]]></lst_Subpage>
+    </lst_Subpages>
+</ConsumerHomepageFoundation>

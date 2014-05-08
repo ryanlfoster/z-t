@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" ?>
+<ConsumerBaseFoundation pageID="11965" isTemplate="1">
+    <breadcrumb>
+        <element level="1">
+            <headline><![CDATA[Inicio]]></headline>
+            <href><![CDATA[/es-la/index.xml]]></href>
+        </element>
+<element level="2">
+            <headline><![CDATA[Acerca de]]></headline>
+            <href><![CDATA[/es-la/about.xml]]></href>
+        </element>
+
+    </breadcrumb>
+    <img_background><![CDATA[/contentimages/about-hub.jpg]]></img_background>
+    <hdl_Title><![CDATA[Acerca de]]></hdl_Title>
+    <img_Banner><![CDATA[]]></img_Banner>
+    <img_SearchThumbnail><![CDATA[/thumbnails/about-hub-search.jpg]]></img_SearchThumbnail>
+    <img_Thumbnail><![CDATA[/contentimages/about-hub-th.jpg]]></img_Thumbnail>
+    <opt_HideInBreadcrumbs><![CDATA[Show]]></opt_HideInBreadcrumbs>
+    <opt_HidePage><![CDATA[no]]></opt_HidePage>
+    <opt_hideTitle><![CDATA[]]></opt_hideTitle>
+    <opt_hide_in_sitemap><![CDATA[no]]></opt_hide_in_sitemap>
+    <opt_IncludeVideo><![CDATA[0]]></opt_IncludeVideo>
+    <opt_isHubPage><![CDATA[1]]></opt_isHubPage>
+    <opt_isNewWindow><![CDATA[_self]]></opt_isNewWindow>
+    <opt_PageLayout><![CDATA[]]></opt_PageLayout>
+    <opt_PartnerLead><![CDATA[]]></opt_PartnerLead>
+    <stf_description><![CDATA[Aqu&iacute; encontrar&aacute; todo lo que necesita saber para aprovechar al m&aacute;ximo su visita a Australia.]]></stf_description>
+    <stf_ExcludedCountries><![CDATA[]]></stf_ExcludedCountries>
+    <stf_hideInXmlSitemap><![CDATA[]]></stf_hideInXmlSitemap>
+    <stf_ImageLocation><![CDATA[Hobart from Mt Wellington, Tasmania. Copyright Tourism Tasmania and Garry Moore]]></stf_ImageLocation>
+    <stf_intro_title><![CDATA[Australia hechos]]></stf_intro_title>
+    <stf_IsExternalSiteArticle><![CDATA[]]></stf_IsExternalSiteArticle>
+    <stf_IsMobile><![CDATA[y]]></stf_IsMobile>
+    <stf_keywords><![CDATA[Australia hechos; Datos clave; Cultura e historia; Paisajes de Australia]]></stf_keywords>
+    <stf_LinkLearnMore><![CDATA[Mayor informaci&oacute;n]]></stf_LinkLearnMore>
+    <stf_NavigationTagLine><![CDATA[Australia hechos]]></stf_NavigationTagLine>
+    <stf_PageHeading><![CDATA[Acerca de]]></stf_PageHeading>
+    <stf_TargetedCountries><![CDATA[]]></stf_TargetedCountries>
+    <stf_TrackingTitle><![CDATA[]]></stf_TrackingTitle>
+    <TA_Title><![CDATA[Acerca de - Australia hechos]]></TA_Title>
+    <txt_Intro>
+        <![CDATA[
+        <h2>Informaci&oacute;n sobre Australia</h2>
+        <p>Aqu&iacute; encontrar&aacute; todo lo que necesita saber para aprovechar al m&aacute;ximo su visita a Australia. Conozca nuestra historia y nuestra cultura y aprenda sobre nuestra gastronom&iacute;a y vinos, arte y espectaculares paisajes naturales.</p>
+        <p>Desde nuestra abundante historia ind&iacute;gena que data de hace m&aacute;s de cincuenta mil a&ntilde;os, hasta los legendarios h&eacute;roes y pioneros que forjaron el camino, hasta nuestras estrellas de cine internacionales, podr&aacute; hacerse una idea de lo que ha convertido a Australia en la naci&oacute;n multicultural, moderna y emocionante que es hoy.</p>
+    ]]>
+    </txt_Intro>
+    <txt_MobileContentOnly>
+        <![CDATA[]]>
+    </txt_MobileContentOnly>
+    <txt_SpotlightTag>
+        <![CDATA[]]>
+    </txt_SpotlightTag>
+    <txt_Teaser>
+        <![CDATA[
+        Aqu&iacute; encontrar&aacute; todo lo que necesita saber para aprovechar al m&aacute;ximo su visita a Australia.
+    ]]>
+    </txt_Teaser>
+    <con_Body>
+        <HubPageLayout isTemplate="1">
+    <con_Banner>
+        
+    </con_Banner>
+    <con_Video>
+        <Video isTemplate="1">
+    <headline>Video Example</headline>
+    <anc_Link><![CDATA[]]></anc_Link>
+    <opt_isEmbeded><![CDATA[true]]></opt_isEmbeded>
+    <opt_videoOption><![CDATA[thirdParty]]></opt_videoOption>
+    <stf_CaptionTitle><![CDATA[]]></stf_CaptionTitle>
+    <stf_LinkText><![CDATA[]]></stf_LinkText>
+    <stf_MediaID><![CDATA[27a0704a-b277-46a9-826c-ebf4960463c8]]></stf_MediaID>
+    <stf_TargetedCountry><![CDATA[]]></stf_TargetedCountry>
+    <stf_ViocorpHeight><![CDATA[]]></stf_ViocorpHeight>
+    <stf_ViocorpWidth><![CDATA[]]></stf_ViocorpWidth>
+    <txt_embedCode><![CDATA[]]></txt_embedCode>
+    <txt_VideoDescription><![CDATA[<!--CTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dt-->
+        <h2>Sydney Harbour Experience</h2>
+        <p>There's nothing like a 4WD trip to Chambers pillar to see the terrain the early explorers had to traverse and conquer to open the outback Australia</p>
+        <a  class="more" href="#">Find out more...</a>
+        <p> </p>]]></txt_VideoDescription>
+</Video> 
+    </con_Video>
+</HubPageLayout>
+    </con_Body>
+    <lst_Subpages>
+        <lst_Subpage><![CDATA[<a href="/es-la/about/11970.ignore">Información básica</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/es-la/about/11971.ignore">Cultura e historia</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/es-la/about/11972.ignore">Paisajes de Australia</a>]]></lst_Subpage>
+        <lst_Subpage><![CDATA[<a href="/es-la/about/11986.ignore">Campaigns</a>]]></lst_Subpage>
+    </lst_Subpages>
+</ConsumerBaseFoundation>

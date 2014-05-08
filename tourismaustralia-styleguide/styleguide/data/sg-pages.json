@@ -565,42 +565,6 @@
             
         
             
-                "text2columnvideo" : {
-                     "data" : {
-                        "title" : "text2columnvideo",
-                        "layout" : "styleguide-preview.hbs"
-                    },
-                    "content" : "{{section 'text2columnvideo'}}"
-                }
-                
-                    ,
-                
-            
-                "videoitem" : {
-                     "data" : {
-                        "title" : "videoitem",
-                        "layout" : "styleguide-preview.hbs"
-                    },
-                    "content" : "{{section 'videoitem'}}"
-                }
-                
-                    ,
-                
-            
-                "textlargevideo" : {
-                     "data" : {
-                        "title" : "textlargevideo",
-                        "layout" : "styleguide-preview.hbs"
-                    },
-                    "content" : "{{section 'textlargevideo'}}"
-                }
-                
-            
-            
-                ,
-            
-        
-            
                 "mosaic_highlights" : {
                      "data" : {
                         "title" : "mosaic_highlights",
@@ -1684,6 +1648,64 @@
                         "layout" : "styleguide-preview.hbs"
                     },
                     "content" : "{{section 'bylinewithshareitem'}}"
+                }
+                
+            
+            
+                ,
+            
+        
+            
+                "fullsizevideo" : {
+                     "data" : {
+                        "title" : "fullsizevideo",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'fullsizevideo'}}"
+                }
+                
+                    ,
+                
+            
+                "2columnvideo" : {
+                     "data" : {
+                        "title" : "2columnvideo",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section '2columnvideo'}}"
+                }
+                
+                    ,
+                
+            
+                "videoitem" : {
+                     "data" : {
+                        "title" : "videoitem",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'videoitem'}}"
+                }
+                
+                    ,
+                
+            
+                "relatedvideos" : {
+                     "data" : {
+                        "title" : "relatedvideos",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'relatedvideos'}}"
+                }
+                
+                    ,
+                
+            
+                "mosaicitemvideo" : {
+                     "data" : {
+                        "title" : "mosaicitemvideo",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'mosaicitemvideo'}}"
                 }
                 
             

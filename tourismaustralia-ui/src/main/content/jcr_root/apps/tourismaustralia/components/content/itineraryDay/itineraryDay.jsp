@@ -13,7 +13,7 @@
 <c:set var="day" value="<%=new ItineraryDay(slingRequest) %>"/>
 
 
-<div class="l-padding-b itinerary-day navScroller-section" data-section-name="${day.anchorId}">
+<div class="l-padding-b itinerary-day navScroller-section" data-section-name="${day.anchorId}" id="${day.anchorId}">
     <div class="largeparallax l-padding-b">
 
         <div class="img-holder">
@@ -41,7 +41,7 @@
             <div class="largeparallax-text-container">
                 <div class="inside">
 
-                    <h3>${day.heroTitle}</h3>
+                    <h3>${day.heroTitle}: ${day.distance}kms</h3>
                 </div>
             </div>
         </div>

@@ -34,7 +34,8 @@ final class Constants {
     public static final String NAME_IMAGE_4_ALT_TEXT = "image4AltText";
     public static final String NAME_MAP_IMAGE = "mapImage";
     public static final String NAME_TEXT_TITLE = "textTitle";
-    public static final String NAME_TEXT = "text";
+	public static final String NAME_TEXT = "text";
+	public static final String NAME_DISTANCE = "distance";
 
 	public static final int IMAGE_WIDGET_HEIGHT = 400;
 

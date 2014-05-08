@@ -2,6 +2,7 @@ package com.australia.www.components.content.itineraryday;
 
 import com.citytechinc.cq.component.annotations.*;
 import com.citytechinc.cq.component.annotations.widgets.Html5SmartImage;
+import com.citytechinc.cq.component.annotations.widgets.NumberField;
 import com.citytechinc.cq.component.annotations.widgets.RichTextEditor;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.Resource;
@@ -73,6 +74,10 @@ public final class ItineraryDay {
     @RichTextEditor
     private final String text;
 
+	@DialogField(fieldLabel = "Distance (km)", tab = Constants.TAB_TEXT_INDEX)
+	@NumberField(allowNegative = false, allowDecimals = false)
+	private final Integer distance;
+
     @DialogField(fieldLabel = "Hero Image", tab = Constants.TAB_HERO_INDEX, required = true)
     @Html5SmartImage(tab = false, name = Constants.NAME_HERO_IMAGE, height = Constants.IMAGE_WIDGET_HEIGHT,
 		fileReferenceParameter = Constants.FILE_REF_NAME)
@@ -126,11 +131,11 @@ public final class ItineraryDay {
 		fileReferenceParameter = Constants.FILE_REF_NAME)
     private final String image4;
 
-    @DialogField(fieldLabel = "Image 4 Alt Text", tab = Constants.TAB_IMAGE_4_INDEX, xtype = "textarea",
-            additionalProperties = {@FieldProperty(name = "grow", value = "true")
-			}
+	@DialogField(fieldLabel = "Image 4 Alt Text", tab = Constants.TAB_IMAGE_4_INDEX, xtype = "textarea",
+		additionalProperties = {@FieldProperty(name = "grow", value = "true")
+		}
 	)
-    private final String image4AltText;
+	private final String image4AltText;
 
     @DialogField(fieldLabel = "Map Image", tab = Constants.TAB_MAP_INDEX)
     @Html5SmartImage(tab = false, name = Constants.NAME_MAP_IMAGE, height = Constants.IMAGE_WIDGET_HEIGHT,
@@ -148,6 +153,8 @@ public final class ItineraryDay {
 
         textTitle = properties.get(Constants.NAME_TEXT_TITLE, "");
         text = properties.get(Constants.NAME_TEXT, "");
+
+		distance = properties.get(Constants.NAME_DISTANCE, 0);
 
         heroImage = properties.get(Constants.NAME_HERO_IMAGE + "/" + Constants.FILE_REF_NAME, String.class);
         heroImageAltText = properties.get(Constants.NAME_HERO_IMAGE_ALT_TEXT, "");
@@ -185,7 +192,11 @@ public final class ItineraryDay {
         return text;
     }
 
-    public String getHeroImage() {
+	public Integer getDistance() {
+		return distance;
+	}
+
+	public String getHeroImage() {
         return heroImage;
     }
 

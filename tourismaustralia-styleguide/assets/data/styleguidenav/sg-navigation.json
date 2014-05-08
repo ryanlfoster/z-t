@@ -173,7 +173,6 @@
                         { "text": "footer" },
                         { "text": "breadcrumbs"},
                         { "text": "bylinewithshare" },
-                        { "text": "share_icons" },
                         { "text": "categorylinks" },
                         { "text": "explore" },
                         { "text": "explore-more" },
@@ -231,6 +230,28 @@
                         { "text": "twoimages" },
                         { "text": "whatyoucansee_city" },
                         { "text": "whatyoucansee_state" }
+
+                    ]
+                },
+                {
+                    "text" : "Favorite",
+                    "item": [
+                        { "text": "favourite" },
+                        { "text": "favouritewithlines" },
+                        { "text": "favouriteandshare" },
+                        { "text": "video_add_tags_share" },
+                        { "text": "hero" }
+                    ]
+                },
+                {
+                    "text" : "Share",
+                    "item": [
+                        { "text": "shareicons"},
+                        { "text": "shareiconswithline" },
+                        { "text": "favouriteandshare" },
+                        { "text": "video_add_tags_share" },
+                        { "text": "bylinewithshare" },
+                        { "text": "bylinewithshareitem" }
 
                     ]
                 }

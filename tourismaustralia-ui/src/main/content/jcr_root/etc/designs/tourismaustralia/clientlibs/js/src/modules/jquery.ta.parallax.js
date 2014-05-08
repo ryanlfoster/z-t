@@ -44,7 +44,6 @@
 
     // add events to items
     Plugin.prototype.setupParallax = function(scope) {
-
         // Set stuff up
         scope.setHeightOfWindow(scope); 
         scope.options.containerOffset = $(scope.element).offset().top;
@@ -138,7 +137,7 @@
 
             window.addEventListener('orientationchange', function() {
                 scope.setupParallax(scope);
-                scope.heightOfWindow(scope);
+                scope.setHeightOfWindow(scope);
             }, false);
         };
 
@@ -146,8 +145,7 @@
 
     // set height of window
     Plugin.prototype.setHeightOfWindow = function(scope){
-
-        // get height of window   
+        // get height of window
         scope.options.heightOfWindow = $(window).height();
 
     };

@@ -1,0 +1,9 @@
+.category-results-grid {
+  padding-bottom: pxtoem($bottom-spacing);
+}
+.category-results-mosaic {
+  margin: 0 pxtoem(-15px);
+  @include breakpoint(sm) {
+    margin: inherit;
+  }
+}

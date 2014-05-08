@@ -1,0 +1,15 @@
+---
+title: Events - results
+---
+
+
+<div class="eventsresults">
+	<div class="row l-center-1200">
+
+        {{#parseJSON '{"captions": true}'}}
+            {{> mosaic_results_list }}
+        {{/parseJSON}}
+
+    </div>
+
+</div>

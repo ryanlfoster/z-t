@@ -51,6 +51,7 @@ a.map-pin-btn {
 
 .map-with-links-container {
   text-align: center;
+  padding-bottom: pxtoem(60px);
 }
 
 .map-with-links-intro {
@@ -174,7 +175,6 @@ a.map-pin-btn {
 .map-btn-container {
   display: inline-block;
   max-width: 200px;
-  min-width: 100px;
   text-align: left;
   margin: 0px 40px;
   position: relative;
@@ -210,12 +210,11 @@ a.map-pin-btn {
   .map-btn-container {
     display: block;
     margin: 0 auto;
-    width: 100%;
 
 
     @include breakpoint(md){
       display: inline-block;
-      margin: 0 pxtoem(20px);
+      margin: 0 pxtoem(30px);
       max-width: 150px;
     }
 

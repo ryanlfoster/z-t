@@ -1,0 +1,78 @@
+---
+layout: layout-base.hbs
+title: Events Article
+---
+
+{{#parseJSON '{
+    "hero_image" : "hero_event_article",
+    "hero_title" : "Vivid Sydney",
+    "hero_subtitle" : "23 May - 9 June"
+}'}}
+    {{> hero }}
+{{/parseJSON}}
+
+{{#parseJSON '{
+"page_title" : "New South Wales",
+"map_summary" : [
+    {"para" : "Each year the city of Sydney is transformed into a spectacular canvas of light, music and ideas when Vivid Sydney takes over the city after dark."}
+],
+"map_text" : [
+    {"para" : "Colouring the city with creativity and inspiration, Vivid Sydney highlights include the hugely popular illumination of the Sydney Opera House sails; performances from local and international musicians at Sydney Opera House and the Vivid Ideas Exchange, featuring public talks and debates from leading global creative thinkers. For 18 days, creative types, corporate professionals, families and people of all generations take advantage of Sydney\'s mild winter weather and immerse themselves in the truly spectacular show."}
+],
+"map_image" : "intro-map-australia-nsw",
+"map_main_title" : "Capital of New South Wales",
+"map_pin_button" : "Sydney"
+}'}}
+    {{> explore_summary_map }}
+{{/parseJSON}}
+
+<div class="paragraph-article">
+
+    {{> 2column_imagecaption }}
+
+    {{#parseJSON '{"copy": "Vivid is a festival of light, music and ideas that transforms the city of Sydney into a spectacular canvas after dark each night in June."}'}}
+        {{> paragraph_dynamic}}
+    {{/parseJSON}}
+
+    {{#parseJSON '{"copy": "Vivid is all about night light, which in Sydney in winter is crisp and clear. The city’s iconic attractions and buildings are illuminated in a dazzling spectacle of coloured lights. The eclectic program also includes musical performances and collaborations, creative ideas, discussion and debate."}'}}
+        {{> paragraph_dynamic}}
+    {{/parseJSON}}
+
+    {{#parseJSON '{
+            "promo_image" : "promo",
+            "promo_title" : "Novotel Sydney On Darling Harbour",
+            "promo_text" : [
+                {"para" : "In the heart of the Darling Harbour precinct. The hotel rooms present panoramic views of Darling Harbour."}
+            ],
+            "promo_value" : "299",
+            "promo_per" : "/night"
+        }'}}
+        {{> specialoffer }}
+    {{/parseJSON}}
+
+    {{#parseJSON '{"copy": "In 2009 the inaugural Vivid Sydney festival attracted 200,000 people to The Rocks and Circular Quay. Images of the now hugely popular lighting up of the roof of the Sydney Opera House were broadcast to millions of people around the world."}'}}
+        {{> paragraph_dynamic}}
+    {{/parseJSON}}
+
+    {{#parseJSON '{"copy": "The Sydney Opera House remains the focal point of the festival. Displays also happen in Macquarie Street, Hyde Park and Darling Harbour."}'}}
+        {{> paragraph_dynamic}}
+    {{/parseJSON}}
+
+    {{#parseJSON '{"copy": "Vivid LIVE is a music festival with a difference, and is usually directed by an artist of international renown. Past creative directors have included avant-garde performers such as Laurie Anderson and Lou Reed."}'}}
+        {{> paragraph_dynamic}}
+    {{/parseJSON}}
+
+    {{#parseJSON '{
+        "copy": "See what other Australian holiday makers have been up to lately.",
+        "single_row": true
+        }'}}
+        {{> socialtiles}}
+    {{/parseJSON}}
+
+    {{> favouriteandshare }}
+
+    {{#parseJSON '{"captions": true}'}}
+        {{> whatyoucansee_state}}
+    {{/parseJSON}}
+
+</div>

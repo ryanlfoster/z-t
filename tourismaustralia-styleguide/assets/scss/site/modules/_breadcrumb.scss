@@ -14,7 +14,7 @@ $breadcrumbAnchorColour: #00535e !default;
     */
 
     color: $breadcrumbColour;
-    font-family: "ProximaNova Regular Italic";
+    font-family: "ProximaNova Semi Bold Italic";
 
     @include breakpoint(sm) {
         text-align: center;

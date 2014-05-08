@@ -61,6 +61,16 @@
 	//init all carousel objects on page automatically -> TBR
 	$(window).load(function() {
 		$("#carousel").carousel();
+        $("#carousel-wide").carousel({
+            items: 1,
+            itemsDesktop : [1000,1], //5 items between 1000px and 901px
+            itemsDesktopSmall : [900,1], // betweem 900px and 801px
+            itemsTablet: [800,1], //2 items between 451 and 800
+            itemsMobile : [450,1], //1 items between 450 and 0
+            navigation: true,
+            navigationText: ["", ""],
+            theme: "ta-theme"
+        });
 	});
 
 })(jQuery, window, document);

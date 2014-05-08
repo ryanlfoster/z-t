@@ -6,29 +6,50 @@ title: Mosaic Item - Highlights
     <div class="mosaic-front-back-container flip-container">
         <div class="flipper">
 
+            <!-- front face start -->
             <div class="mosaic-column-front flip-front">
+
+                <!-- image start -->
                 <div class="mosaic-media mosaic-primary">
-                    <img src="imgs/mosaic/img3.jpg" alt=""/>
+                {{#if mosaic_image}}<img src="imgs/placeholders/{{{mosaic_image}}}.jpg" alt=""/>{{else}}<img src="imgs/mosaic/img3.jpg" alt=""/>{{/if}}
                 </div>
+                <!-- image end -->
+
+                <!-- label start -->
                 <div class="mosaic-overlay">
                     <div class="vertical-container">
                         <div class="vertical-content text-center">
-                            <span class="label-destination type-destination theme-beaches">Manly Beach</span>
+                           <span class="label-destination type-destination {{#if mosaic_theme}}theme-{{{mosaic_theme}}}{{else}}theme-beaches{{/if}}">{{#if destination}}{{destination}}{{else}}Manly Beach{{/if}}</span>
                         </div>
                     </div>
                 </div>
-            </div>
+                <!-- label end -->
 
-            <div class="mosaic-column-back mosaic-content flip-back mosaic-back theme-arts">
+                <!-- date start -->
+                <div class="mosaic-overlay">
+                    <div class="vertical-container">
+                        <div class="vertical-content text-center type-date-mosaic">
+                            <span class="month">{{#if date}}{{date}}{{/if}}</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- date end -->
+
+            </div>
+            <!-- front face end -->
+
+            <!-- back face start -->
+            <div class="mosaic-column-back mosaic-content flip-back mosaic-back {{#if mosaic_theme}}theme-{{{mosaic_theme}}}{{else}}theme-beaches{{/if}}">
                 <div class="vertical-container">
                     <div class="vertical-content text-center">
                         {{#parseJSON '{"src": "imgs/icons/beaches_white_outline.png"}'}}
                             {{> icon_generic }}
                         {{/parseJSON}}
-                        <p class="type-destination line-through-line-wrapper">Manly Beach</p>
+                        <p class="type-destination line-through-line-wrapper">{{#if destination}}{{destination}}{{else}}Manly Beach{{/if}}</p>
                     </div>
                 </div>
             </div>
+            <!-- back face end -->
 
         </div>
     </div>

@@ -3,6 +3,7 @@
 .carousel-center-container {
   max-width: 1200px;
   margin: 0 auto;
+  overflow: hidden;
 }
 .carousel-owl-mobile-fill {
   margin: 0 -30px;
@@ -21,4 +22,123 @@
 
 .carousel-center-container {
   margin-top: 0.25em;
+}
+
+.carousel-item-container {
+  position: relative;
+}
+
+#carousel-wide {
+  margin-bottom: 4em;
+  @include breakpoint(md) {
+    margin-bottom: 2.5em;
+  }
+}
+
+#carousel-wide .owl-controls {
+  margin-top: 1.5em !important;
+}
+
+#carousel-wide .owl-pagination {
+  position: absolute;
+  bottom: -30px;
+  @include breakpoint(md) {
+    bottom: 20px;
+  }
+  width: 100%;
+}
+
+#carousel-wide .owl-buttons div {
+  margin: 0;
+
+}
+
+#carousel-wide .owl-prev,
+#carousel-wide .owl-next {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  width: 120px;
+  background: none;
+}
+
+#carousel-wide .owl-next {
+  left: auto;
+  right: 0;
+}
+
+#carousel-wide .owl-prev:after,
+#carousel-wide .owl-next:after {
+  display: none;
+  @include breakpoint(md) {
+    content: '';
+    display: block;
+    width: 39px;
+    height: 73px;
+    background: url("../imgs/icons/carousel_arrows.png");
+    position: absolute;
+    top: 50%;
+    margin-top: -36px;
+  }
+}
+
+#carousel-wide .owl-next:after {
+  background-position: 0 -73px;
+  right: 5px;
+}
+
+#carousel-wide .owl-page span,
+#carousel-wide .owl-page.active span {
+  border-color: #00535e !important;
+  @include breakpoint(md) {
+    border-color: #fff !important;
+  }
+}
+
+#carousel-wide .owl-page.active span {
+  background-color: #00535e !important;
+  @include breakpoint(md) {
+    background-color: #fff !important;
+  }
+}
+
+.carousel-item-overlay {
+  padding-top: pxtoem(50px);
+  text-align: center;
+  background-position: 50% 50%;
+  background-size: cover;
+  height: pxtoem(290px);
+  @include breakpoint(md) {
+    height: pxtoem(350px);
+  }
+  @include breakpoint(lg) {
+    height: pxtoem(440px);
+  }
+}
+
+.carousel-item-overlay .line-through-hr {
+  border-color: #fff;
+}
+
+.carousel-item-overlay *,
+.carousel-item-overlay a:hover{
+  color: #fff !important;
+}
+
+.carousel-item-overlay p a:hover{
+  border-bottom: 1px solid #fff;
+  box-shadow: 0 1px 0 #fff;
+  -webkit-box-shadow: 0 1px 0 #fff;
+  -moz-box-shadow: 0 1px 0 #fff;
+}
+
+.carousel-item-overlay .line-through-container,
+.carousel-item-overlay .line-through-container-biline {
+  font-size: 20px; // needs to be in px for IE8
+  @include breakpoint(lg) {
+    font-size: 60px; // needs to be in px for IE8
+  }
+  color: #fff !important;
+
 }

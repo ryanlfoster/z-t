@@ -1,0 +1,18 @@
+---
+title: Search Tags Close
+---
+
+<div class="search-tags">
+
+    {{#parseJSON '{"data" : [{"tag_has_link": "true", "tag_title": "Eco adventure"}, {"tag_has_link": "true", "tag_title": "Sailing"}, {"tag_has_link": "true", "tag_title": "Shopping"}]}'}}
+        {{> tagcloudnotitle }}
+    {{/parseJSON}}
+
+    <a href="#" class="btn-bubble search-close">
+        <span class="btn-bubble-button">
+              <img class="btn-bubble-std" src="imgs/icons/close_button_std.png" alt=""/>
+              <img class="btn-bubble-active" src="imgs/icons/close_button_rol.png" alt=""/>
+        </span>
+    </a>
+
+</div>

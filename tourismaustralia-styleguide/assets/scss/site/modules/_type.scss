@@ -62,6 +62,41 @@
   margin-bottom: 0;
 }
 
+
+.type-h4-alternative {
+  @include type_TAheadline();
+  font-size: pxtoem($h3-size);
+  font-weight: normal;
+  color: $type-heading-colour;
+  margin-top: 0;
+  margin-bottom: pxtoem(15px);
+}
+
+.type-h2-as-h4 {
+  font-family: $font-family-base-b;
+  font-size: pxtoem($h4-size);
+  font-weight: normal;
+  color: $type-heading-colour;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.type-h3-as-h4 {
+  font-family: $font-family-base-b;
+  font-size: pxtoem($h4-size);
+  font-weight: normal;
+  color: $type-heading-colour;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.type-h2-secondary-h3 {
+  font-family: "TAheadline", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  color: #040000;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 1.75em;
+}
+
 .type-main-heading-colour {
   color: $type-main-heading-colour;
 }
@@ -74,6 +109,11 @@
   padding: 0 pxtoem(8px);
   display: inline-block;
   padding-bottom: .8em;
+}
+
+.type-visuallyhidden {
+  position: absolute;
+  left: -9999em;
 }
 
 //**********************
@@ -255,12 +295,29 @@
   font-weight: normal;
   font-family: "ProximaNova Regular", Helvetica, Arial, sans-serif;
   span { display: block; }
-  .month { font-size: pxtoem(30px);}
+  .month { font-size: pxtoem(20px);}
   .day {
-    font-size: pxtoem(114px);
+    font-size: pxtoem(70px);
     letter-spacing: -4px;
     line-height: 0.9em;
   }
+}
+
+.type-date-highlights {
+  font-family: "ProximaNova Bold", Helvetica, Arial, sans-serif;
+  font-size: pxtoem(18px);
+  font-weight: bold;
+}
+
+.type-ellipsis {
+  text-align: left;
+  display: block;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  -ms-text-overflow: ellipsis;
+  width: 100%;
+  overflow: hidden;
 }
 
 //**********************

@@ -106,3 +106,14 @@
     border-color: #00535e;
   }
 }
+
+//In iPhone5 Portrait mode, image was not rendered properly on page load. Because Menu bar shows on page load and height of image was rendered till Menu Bar top
+.large-image-hero-with-button-bg img{
+  @include iphone5portrait(){
+    width:568px!important;
+    height:568px!important;
+    margin-top: 0!important;
+    margin-left: -124px!important;
+  }
+}
+

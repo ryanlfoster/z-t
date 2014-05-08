@@ -56,7 +56,9 @@
             .html('')
             .hide();
 
-        var event = ( (document.ontouchstart !== null) ? 'click' : 'touchstart' );
+        // touchstart is to twitchy, touchend is useless and touch is unpredictable... click works best!
+        //var event = ( (document.ontouchstart !== null) ? 'click' : 'touchend' );
+        var event = 'click';
 
         $(window).resize(function () {
             scope.initStickyNavBars(scope);
@@ -257,8 +259,17 @@
         } else {
             $(scope.element).addClass('is-open');
         }
-        // force no scroll while the nav is open
+        // force no scroll while the nav is open... this doesn't work on mobile...
         $('html, body').css({'overflow': 'hidden'});
+    };
+
+    /// Force Redraw...
+    Plugin.prototype.forceRedraw = function(scope) {
+        var redraw = function () {
+            $('body').css('position', 'static');
+            $('body').css('position', 'relative');
+        };
+        setTimeout(redraw, 100);
     };
 
     // Close Main Nav Mobile
@@ -270,7 +281,7 @@
 
     // Close All Panels
     Plugin.prototype.closeNavPanels = function(scope, elm) {
-        if ( elm.closest('.has-children').length < 1 ) {
+        if ( elm.closest('.main-nav-panel').length < 1 ) {
             $(scope.element).find('.is-open').removeClass('is-open');
         }
     };
@@ -283,6 +294,7 @@
             $(scope.element).find('.has-children').removeClass('is-open');
             elm.closest('.has-children').addClass('is-open');
         }
+        scope.forceRedraw(scope);
     };
 
     // A really lightweight plugin wrapper around the constructor,

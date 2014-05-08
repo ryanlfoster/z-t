@@ -117,7 +117,6 @@ public class AtdwHighlights {
 	private String term;
 
 	public AtdwHighlights(SlingHttpServletRequest request) {
-		LOG.info("inside AtdwHighlights constructor line 116 ");
 		SlingBindings bindings = (SlingBindings) request.getAttribute(SlingBindings.class.getName());
 		SlingScriptHelper slingScriptHelper = bindings.getSling();
 		productService = slingScriptHelper.getService(ATDWProductService.class);
@@ -148,9 +147,7 @@ public class AtdwHighlights {
 
 		PageManager pageManager = resource.getResourceResolver().adaptTo(PageManager.class);
 		Resource pageResource = pageManager.getContainingPage(resource).getContentResource();
-		LOG.info("inside AtdwHighlights constructor line 147 ");
 		baseBuilder = getBaseBuilder(type, typeArgument, pageResource);
-		LOG.info("inside AtdwHighlights constructor line 149 ");
 	}
 
 	public String getTitle() {
@@ -244,13 +241,8 @@ public class AtdwHighlights {
 
 		public Category(ATDWCategory category) {
 			this.category = category;
-
 			ATDWProductSearchParameters params = baseBuilder.setCategory(category).build();
-			LOG.info("inside AtdwHighlights Category line 245 ");
-
 			List<ATDWProduct> out = productService.search(params).getResults();
-			LOG.info("inside AtdwHighlights Category line 248 ");
-
 			products = out == null ? new ArrayList<ATDWProduct>() : out;
 		}
 

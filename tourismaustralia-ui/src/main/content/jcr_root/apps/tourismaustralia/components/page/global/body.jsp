@@ -53,7 +53,7 @@
                             </a>
 
                             <a class="logo-masthead" href="#" tabindex="-1">
-                                <img src="imgs/logo/logo_australia_com.png" alt=""/>
+                                <img src="/etc/designs/tourismaustralia/clientlibs/imgs/logo/logo_australia_com.png" alt=""/>
                             </a>
                         </div>
 

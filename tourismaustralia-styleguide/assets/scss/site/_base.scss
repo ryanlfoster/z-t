@@ -17,6 +17,10 @@ html, body {
   height:auto!important;
 }
 
+.show-on-ie8, .show-on-ie9{
+  display: none;
+}
+
 body {
   font-family: $font-family-base;
   color:$body-colour;

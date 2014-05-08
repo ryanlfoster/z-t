@@ -5,6 +5,10 @@ body{
     margin-right: auto;
 }
 
+.show-on-ie8{
+  display: block;
+}
+
 // mosaic flip to reveal on rollover
 .mosaic {
 
@@ -174,3 +178,4 @@ body{
 .video-container {
   //text-align: right;
 }
+

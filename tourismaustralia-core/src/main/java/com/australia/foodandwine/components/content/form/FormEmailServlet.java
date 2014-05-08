@@ -73,7 +73,7 @@ public class FormEmailServlet extends SlingAllMethodsServlet {
 			String checkBoxData=request.getParameter("additionalcheckbox");
 
 			Page userGeneratedPage = pageManager.create(PathUtils.FOOD_AND_WINE_USER_GENERATED, null, null,
-				"experience-" + UUID.randomUUID().toString(), true);
+				"experience-" + UUID.randomUUID().toString(), false);
 
 			Resource userGeneratedPageContentResource = userGeneratedPage.getContentResource();
 			ModifiableValueMap contentProperties = userGeneratedPageContentResource.adaptTo(ModifiableValueMap.class);

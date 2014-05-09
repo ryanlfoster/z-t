@@ -5,7 +5,7 @@
 <c:set var="imageButton" value="<%=new ImageWithButton(slingRequest) %>" />
 
 <div class="image-ugc-container">
-	<div class="image-ugc image-with-button make-white">
+    <div class="image-ugc image-with-button make-white">
         <div class="image-bg fullwidth-bg" data-image-vertical-alignment="bottom" data--200-top="-webkit-transform: translate(0,10%);" data-200-bottom="-webkit-transform: translate(0,-10%);">
             <div class="responsive-image" data-picture="" data-alt="${imageButton.mainImageAlt}" >
                 <div data-src="${imageButton.mainImageSrc}.adapt.480.low.jpg" data-media="(min-width: 1px)"></div>
@@ -30,12 +30,12 @@
 				<a href="${imageButton.imageButtonPath}" class="image-btn" ${imageButton.buttonPathExternal?'target="_blank"':''}>${imageButton.imageButtonText}</a>
 			</div>
 		</div>
-	</div>
-	<div class="image-ugc-copyright">
+    </div>
+	<div class="large-image-social-mention make-white">
 		<div class="social-mention l-padding-b">
 			<div class="social-mention-container">
 				<div class="social-mention-image">
-					<img src="${imageButton.refIconImageSrc}" alt="${imageButton.refIconImageAlt}" />
+					<img src="${imageButton.refIconImageSrc}" alt="${imageButton.refIconImageAlt}"/>
 				</div>
 				<div class="social-mention-details">
 					<p><strong>${imageButton.refBoldText} </strong>${imageButton.refRegularText}</p>

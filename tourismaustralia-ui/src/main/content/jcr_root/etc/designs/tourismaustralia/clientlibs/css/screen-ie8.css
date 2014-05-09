@@ -74,70 +74,79 @@ body {
 .mosaic .mosaic-item.is-opacity:hover .flip-back {
   z-index: -1;
 }
-/* line 88, ../../assets/scss/site/_ie8-overrides.scss */
+/* line 85, ../../assets/scss/site/_ie8-overrides.scss */
+.mosaic .mosaic-item-detail-container.active {
+  max-height: 999px;
+}
+/* line 92, ../../assets/scss/site/_ie8-overrides.scss */
 .mosaic .mosaic-3column-item-option.is-fade .flip-back-fade {
   z-index: 3;
   filter: alpha(opacity=100);
 }
-/* line 95, ../../assets/scss/site/_ie8-overrides.scss */
+/* line 99, ../../assets/scss/site/_ie8-overrides.scss */
 .mosaic .mosaic-3column-item-option[data-interactive-type="fade"]:hover .flip-back-fade {
   z-index: 3;
   filter: alpha(opacity=100);
 }
-/* line 102, ../../assets/scss/site/_ie8-overrides.scss */
+/* line 106, ../../assets/scss/site/_ie8-overrides.scss */
 .mosaic .mosaic-3column-item-option.is-trigger-content1[data-interactive-type="fade"]:hover .flip-back-fade {
   z-index: -1;
 }
-/* line 108, ../../assets/scss/site/_ie8-overrides.scss */
+/* line 112, ../../assets/scss/site/_ie8-overrides.scss */
 .mosaic .mosaic-3column-item-option.is-trigger-content .flip-back-fade {
   display: none;
 }
-/* line 114, ../../assets/scss/site/_ie8-overrides.scss */
+/* line 118, ../../assets/scss/site/_ie8-overrides.scss */
 .mosaic .mosaic-3column-item-option.is-opacity .mosaic-media {
   filter: alpha(opacity=50) !important;
 }
-/* line 117, ../../assets/scss/site/_ie8-overrides.scss */
+/* line 121, ../../assets/scss/site/_ie8-overrides.scss */
 .mosaic .mosaic-3column-item-option.is-opacity .flip-front-fade {
   filter: alpha(opacity=50) !important;
 }
-/* line 120, ../../assets/scss/site/_ie8-overrides.scss */
+/* line 124, ../../assets/scss/site/_ie8-overrides.scss */
 .mosaic .mosaic-3column-item-option.is-opacity .flip-back-fade {
   z-index: -1;
 }
-/* line 126, ../../assets/scss/site/_ie8-overrides.scss */
+/* line 130, ../../assets/scss/site/_ie8-overrides.scss */
 .mosaic .mosaic-3column-item-option.is-opacity:hover .mosaic-media {
   filter: alpha(opacity=100) !important;
 }
-/* line 129, ../../assets/scss/site/_ie8-overrides.scss */
+/* line 133, ../../assets/scss/site/_ie8-overrides.scss */
 .mosaic .mosaic-3column-item-option.is-opacity:hover .flip-front-fade {
   filter: alpha(opacity=100) !important;
 }
-/* line 132, ../../assets/scss/site/_ie8-overrides.scss */
+/* line 136, ../../assets/scss/site/_ie8-overrides.scss */
 .mosaic .mosaic-3column-item-option.is-opacity:hover .flip-back-fade {
   z-index: -1;
 }
-/* line 138, ../../assets/scss/site/_ie8-overrides.scss */
+/* line 142, ../../assets/scss/site/_ie8-overrides.scss */
 .mosaic .mosaic-3column-item-option.is-fade.is-opacity .flip-back-fade {
   z-index: 3;
   filter: alpha(opacity=100);
 }
 
-/* line 148, ../../assets/scss/site/_ie8-overrides.scss */
+/* line 151, ../../assets/scss/site/_ie8-overrides.scss */
+#carousel .carousel-item {
+  margin: 0;
+}
+
+/* line 157, ../../assets/scss/site/_ie8-overrides.scss */
 .footer-col {
   width: 100% !important;
-  text-align: center !important;
+  text-align: left !important;
 }
-/* line 151, ../../assets/scss/site/_ie8-overrides.scss */
+/* line 160, ../../assets/scss/site/_ie8-overrides.scss */
 .footer-col li {
-  display: inline-block !important;
+  display: block !important;
   margin-right: 1em !important;
 }
-/* line 155, ../../assets/scss/site/_ie8-overrides.scss */
+/* line 164, ../../assets/scss/site/_ie8-overrides.scss */
 .footer-col .dropdown-select-countrylanguage {
   margin: 0 auto !important;
 }
-/* line 158, ../../assets/scss/site/_ie8-overrides.scss */
+/* line 167, ../../assets/scss/site/_ie8-overrides.scss */
 .footer-col .footer-copyright {
   width: 100% !important;
-  text-align: center !important;
+  text-align: left !important;
 }

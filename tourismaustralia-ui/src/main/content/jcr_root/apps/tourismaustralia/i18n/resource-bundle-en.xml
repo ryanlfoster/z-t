@@ -9,6 +9,36 @@
     <addToYourDreamTrip jcr:primaryType="sling:MessageEntry" sling:key="add to your dream trip" sling:message= "Add to your dream trip"/>
 	<showMap jcr:primaryType="sling:MessageEntry" sling:key="View map" sling:message="View map"/>
 	<backToOverview jcr:primaryType="sling:MessageEntry" sling:key="Back to overview" sling:message="Back to overview"/>
-	<viewMoreInformation jcr:primaryType="sling:MessageEntry" sling:key="View more information" sling:message="View more information"/>
-
+    <viewMoreInformation jcr:primaryType="sling:MessageEntry" sling:key="View more information" sling:message="View more information"/>
+    <viewTermsAndConditions jcr:primaryType="sling:MessageEntry" sling:key="View terms and conditions" sling:message="View terms and conditions"/>
+    <makeYourTripHappen jcr:primaryType="sling:MessageEntry" sling:key="MAKE YOUR TRIP HAPPEN" sling:message="MAKE YOUR TRIP HAPPEN"/>
+    <accommodation jcr:primaryType="sling:MessageEntry" sling:key="Accommodation" sling:message="Accommodation"/>
+    <attractions jcr:primaryType="sling:MessageEntry" sling:key="Attractions" sling:message="Attractions"/>
+    <restaurants jcr:primaryType="sling:MessageEntry" sling:key="Restaurants" sling:message="Restaurants"/>
+    <tours jcr:primaryType="sling:MessageEntry" sling:key="Tours" sling:message="Tours"/>
+    <hire jcr:primaryType="sling:MessageEntry" sling:key="Hire" sling:message="Hire"/>
+    <events jcr:primaryType="sling:MessageEntry" sling:key="Events" sling:message="Events"/>
+    <transport jcr:primaryType="sling:MessageEntry" sling:key="Transport" sling:message="Transport"/>
+    <typeTextToSearch jcr:primaryType="sling:MessageEntry" sling:key="Type text to search" sling:message="Type text to search"/>
+    <allStates jcr:primaryType="sling:MessageEntry" sling:key="All States" sling:message="All States"/>
+    <allRegions jcr:primaryType="sling:MessageEntry" sling:key="All Regions" sling:message="All Regions"/>
+    <allCities jcr:primaryType="sling:MessageEntry" sling:key="All Cities" sling:message="All Cities"/>
+    <refreshResults jcr:primaryType="sling:MessageEntry" sling:key="Refresh Results" sling:message="Refresh Results"/>
+    <showingXResults jcr:primaryType="sling:MessageEntry" sling:key="Showing {0} results" sling:message="Showing {0} results"/>
+    <yourResults jcr:primaryType="sling:MessageEntry" sling:key="Your Results" sling:message="Your Results"/>
+    <viewMore jcr:primaryType="sling:MessageEntry" sling:key="View More" sling:message="View More"/>
+    <searchMore jcr:primaryType="sling:MessageEntry" sling:key="Search More" sling:message="Search More"/>
+    <readyToGetSerious jcr:primaryType="sling:MessageEntry" sling:key="Ready to get serious about {0}? We can help you sort out all the details with the options below." sling:message="Ready to get serious about {0}? We can help you sort out all the details with the options below."/>
+    <viewAllX jcr:primaryType="sling:MessageEntry" sling:key="View All {0}" sling:message="View All {0}"/>
+    <siteUsesCookies jcr:primaryType="sling:MessageEntry" sling:key="The site uses cookies." sling:message="The site uses cookies."/>
+    <officialSite jcr:primaryType="sling:MessageEntry" sling:key="The official Australian tourism website." sling:message="The official Australian tourism website."/>
+    <findOutMore jcr:primaryType="sling:MessageEntry" sling:key="Find out more" sling:message="Find out more"/>
+    <openNavigation jcr:primaryType="sling:MessageEntry" sling:key="Open Navigation" sling:message="Open Navigation"/>
+    <home jcr:primaryType="sling:MessageEntry" sling:key="Home" sling:message="Home"/>
+    <search jcr:primaryType="sling:MessageEntry" sling:key="Search" sling:message="Search"/>
+    <map jcr:primaryType="sling:MessageEntry" sling:key="Map" sling:message="Map"/>
+    <myTrip jcr:primaryType="sling:MessageEntry" sling:key="My Trip" sling:message="My Trip"/>
+    <skipToContent jcr:primaryType="sling:MessageEntry" sling:key="Skip to content" sling:message="Skip to content"/>
+    <skipToContent jcr:primaryType="sling:MessageEntry" sling:key="Skip to" sling:message="Skip to"/>
+    <closeNavigation jcr:primaryType="sling:MessageEntry" sling:key="Close Navigation" sling:message="Close Navigation)"/>
 </jcr:root>

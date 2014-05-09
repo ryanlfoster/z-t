@@ -157,7 +157,8 @@ module.exports = function( grunt ) {
             },
             dist: {
                 src: [
-               		'<%= STYLEGUIDE %>/js/vendor/responsive-images/**/*.js',
+                    '<%= STYLEGUIDE %>/js/vendor/ie-placeholder/**/*.js',
+                    '<%= STYLEGUIDE %>/js/vendor/responsive-images/**/*.js',
                     '<%= STYLEGUIDE %>/js/vendor/owl-carousel/**/*.js',
                     '<%= STYLEGUIDE %>/js/vendor/**/*.js',
                     '<%= STYLEGUIDE %>/js/src/**/*.js',
@@ -204,7 +205,7 @@ module.exports = function( grunt ) {
             prod: {
                 files: [
                     { cwd: '<%= ASSETS %>/fonts/', src: ['**/*'], dest: '<%= PROD %>/fonts/' },
-                    { cwd: '<%= ASSETS %>/js/', src: ['src/*','src/modules/*','src/helper/*','vendor/*', 'vendor/owl-carousel/*', 'vendor/responsive-images/*'], dest: '<%= PROD %>/js/' },
+                    { cwd: '<%= ASSETS %>/js/', src: ['src/*','src/modules/*','src/helper/*','vendor/*', 'vendor/owl-carousel/*', 'vendor/responsive-images/*', 'vendor/ie-placeholder/*'], dest: '<%= PROD %>/js/' },
                     { cwd: '<%= ASSETS %>/imgs/', src: ['**/*'], dest: '<%= PROD %>/imgs/' },
                     { cwd: '<%= ASSETS %>/json/', src: ['**/*'], dest: '<%= PROD %>/json/' }
                 ]

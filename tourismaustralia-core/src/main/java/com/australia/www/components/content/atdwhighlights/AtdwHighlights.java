@@ -8,6 +8,8 @@ import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ValueMap;
 import org.apache.sling.api.scripting.SlingBindings;
 import org.apache.sling.api.scripting.SlingScriptHelper;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import com.australia.atdw.domain.ATDWCategory;
 import com.australia.atdw.domain.ATDWProduct;
@@ -36,6 +38,7 @@ import com.day.cq.wcm.foundation.forms.MergedValueMap;
 	@Tab(title = Constants.TAB_CATEGORIES) }, listeners = { @Listener(name = "afteredit", value = "REFRESH_PAGE"),
 	@Listener(name = "afterinsert", value = "REFRESH_PAGE") })
 public class AtdwHighlights {
+	private static final Logger LOG = LoggerFactory.getLogger(AtdwHighlights.class);
 
 	private static Tag selectPageTagForSearch(TagManager tagManager, Resource resource) {
 		Tag[] tags = tagManager.getTags(resource);
@@ -114,7 +117,6 @@ public class AtdwHighlights {
 	private String term;
 
 	public AtdwHighlights(SlingHttpServletRequest request) {
-
 		SlingBindings bindings = (SlingBindings) request.getAttribute(SlingBindings.class.getName());
 		SlingScriptHelper slingScriptHelper = bindings.getSling();
 		productService = slingScriptHelper.getService(ATDWProductService.class);
@@ -239,9 +241,8 @@ public class AtdwHighlights {
 
 		public Category(ATDWCategory category) {
 			this.category = category;
-
 			ATDWProductSearchParameters params = baseBuilder.setCategory(category).build();
-			List<ATDWProduct> out = productService.search(params);
+			List<ATDWProduct> out = productService.search(params).getResults();
 			products = out == null ? new ArrayList<ATDWProduct>() : out;
 		}
 
@@ -262,7 +263,7 @@ public class AtdwHighlights {
 		}
 
 		public String getAllProductsPath() {
-			return PathUtils.getAllAtdwProductsForCategoryPath(localeResource, category.toString(), state, city, term);
+			return PathUtils.getAtdwSearchPath(localeResource, category.toString(), state, null, city, term, 1);
 		}
 
 		public List<ATDWProduct> getProducts() {

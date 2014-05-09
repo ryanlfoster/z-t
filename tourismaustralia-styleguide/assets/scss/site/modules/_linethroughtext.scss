@@ -65,3 +65,12 @@
   border-bottom: 1px solid $type-main-heading-colour;;
   z-index: 1;
 }
+
+.line-through-main-heading-theme {
+  .line-through-container-biline {
+    color: $type-main-heading-colour;
+  }
+  .line-through-hr {
+    border-top: 1px solid $type-main-heading-colour;
+  }
+}

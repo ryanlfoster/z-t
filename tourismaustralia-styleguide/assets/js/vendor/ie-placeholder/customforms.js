@@ -854,7 +854,7 @@
     };
 
 }(this));
-
+/***** Commenting the code for Select/DropDown, as it creates problem in IE8-9 for custom designed Select/Dropdown
 (function(global) {
 
     "use strict";
@@ -869,7 +869,8 @@
          * @default
          * @access private
          * @memberof customformsjs.module.Select
-         */
+
+
         DEFAULTS = {
             active: true,
             ready: function() {},
@@ -950,7 +951,7 @@
      * customformsjs.module.Select(DEFAULTS);
      *
      * @returns {Object} Returns an Instance of module Select.
-     */
+
     module.Select = function(obj) {
 
         var instance = false;
@@ -991,7 +992,7 @@
              *
              * @function
              * @memberof customformsjs.module.Select
-             */
+
             SETTINGS.init = function() {
                 // hide element
                 $el.css(DEFAULTS.hideCss);
@@ -1042,7 +1043,7 @@
              *
              * @function
              * @memberof customformsjs.module.Select
-             */
+
             instance.bind('validate', function() {
                 var _selectedText = $el.find('option:selected').text();
 
@@ -1065,12 +1066,13 @@
      *
      * @property {Object} blueprint used to see if element meet module requirements.
      * @memberof customformsjs.module.Select
-     */
+
     module.Select.blueprint = {
         tagName: 'select'
     };
 
 }(this));
+*/
 
 (function(global) {
 

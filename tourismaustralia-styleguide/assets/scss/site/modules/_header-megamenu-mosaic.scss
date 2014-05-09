@@ -3,17 +3,19 @@
 // * ---------------------------------------------------------------------------------------------------------------- */
 .megamenu-mosaic {
 
-
-
     // Mobile Only...
     @media (max-width: $screen-xs-max) {
-
     }
 
     // Tablet...
     @media (min-width: $screen-sm-min) {
         min-height: 280px;
         padding: 20px;
+
+        .mosaic-item .mosaic-back {
+            padding: 0 2em;
+        }
+
     }
 
     // Desktop...
@@ -22,6 +24,7 @@
 }
 
 .megamenu-mosaic-title {
+    display:block;
     font-family: $font-family-base;
     font-size: pxtoem(22px);
     color: $type-navigation;
@@ -53,6 +56,10 @@
 .megamenu-mosaic-item {
     float: left;
     width: 235px;
+
+    .mosaic-column-back .type-destination {
+        font-size: pxtoem(15px);
+    }
 
     @include breakpoint(lg) {
         width: 220px;

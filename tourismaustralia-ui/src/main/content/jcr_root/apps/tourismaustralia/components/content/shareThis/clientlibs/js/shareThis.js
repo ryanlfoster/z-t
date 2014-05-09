@@ -25,13 +25,15 @@ CQ_Analytics.ClientContextMgr.addListener("storesinitialize", function (e) {
 		var socnet_json = $.parseJSON(sharethis_json);
 		var country_found = false;
 		// try to find a country specific list of social networks
-		$.each(socnet_json.shareThis, function(idx, obj) {
-			if(obj.country == country)  {
-				country_found = true;
-				addShareThisButtons(obj, share_url, page_title, page_desc);
-				return false;
-			}
-		});
+		if(socnet_json && socnet_json.shareThis) {
+            $.each(socnet_json.shareThis, function (idx, obj) {
+                if (obj.country == country) {
+                    country_found = true;
+                    addShareThisButtons(obj, share_url, page_title, page_desc);
+                    return false;
+                }
+            });
+        }
 		// use the default set if country specific is not found
 		if (!country_found) {
 			addShareThisButtons(socnet_json.defaultConfig, share_url, page_title, page_desc);

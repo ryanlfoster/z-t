@@ -41,9 +41,6 @@ public class DefaultFAWSearchRepository implements FAWSearchRepository {
 
 	private static final Logger LOG = LoggerFactory.getLogger(DefaultATDWProductRepository.class);
 	private static final String JCR_PREFIX = "@" + NameConstants.NN_CONTENT + "/";
-	private String[] searchResultsResourceTypes = { "foodandwine/components/page/articlepage",
-		"foodandwine/components/page/instagrampage", "foodandwine/components/page/facebookpage",
-		"foodandwine/components/page/twitterpage" };
 
 	@Reference
 	private ResourceResolverFactory resourceResolverFactory;
@@ -57,63 +54,71 @@ public class DefaultFAWSearchRepository implements FAWSearchRepository {
 		SearchResult result = null;
 		List<FAWSearch> fawSearchesList = new ArrayList<FAWSearch>();
 		try {
-			for (String resourceTypeValues : searchResultsResourceTypes) {
-				resourceResolver = resourceResolverFactory.getAdministrativeResourceResolver(null);
-				TagManager tagManager = resourceResolver.adaptTo(TagManager.class);
-				int propertyCount = 1;
-				PageManager pageManager = resourceResolver.adaptTo(PageManager.class);
-				Session session = resourceResolver.adaptTo(Session.class);
-				Map<String, String> queryMap = new TreeMap<String, String>();
-				queryMap.put(QueryUtils.TYPE, NameConstants.NT_PAGE);
-				// TODO: add in facebook, twitter, and instagram resource types
-				QueryUtils.addProperty(queryMap, propertyCount, JCR_PREFIX
-					+ JcrResourceConstants.SLING_RESOURCE_TYPE_PROPERTY, resourceTypeValues);
+			resourceResolver = resourceResolverFactory.getAdministrativeResourceResolver(null);
+			TagManager tagManager = resourceResolver.adaptTo(TagManager.class);
+			int propertyCount = 1;
+			PageManager pageManager = resourceResolver.adaptTo(PageManager.class);
+			Session session = resourceResolver.adaptTo(Session.class);
+			Map<String, String> queryMap = new TreeMap<String, String>();
+			queryMap.put(QueryUtils.TYPE, NameConstants.NT_PAGE);
+
+			queryMap.put("1_property", JCR_PREFIX + JcrResourceConstants.SLING_RESOURCE_TYPE_PROPERTY);
+			queryMap.put("1_property.1_value", "foodandwine/components/page/articlepage");
+			queryMap.put("1_property.2_value", "foodandwine/components/page/instagrampage");
+			queryMap.put("1_property.3_value", "foodandwine/components/page/facebookpage");
+			queryMap.put("1_property.4_value", "foodandwine/components/page/twitterpage");
+			propertyCount++;
+			queryMap.put("2_property", JCR_PREFIX + "excludeFromSearch");
+			queryMap.put("2_property.value", "false");
+			queryMap.put("2_property.operation", "exists");
+			propertyCount++;
+
+			String path = PathUtils.FOOD_AND_WINE_ROOT_PATH;
+			queryMap.put(propertyCount + QueryUtils.SEPERATOR + QueryUtils.PATH, path);
+			propertyCount++;
+			if (StringUtils.isNotEmpty(parameters.getText())) {
+				QueryUtils.addFullText(queryMap, propertyCount, parameters.getText());
 				propertyCount++;
-				String path = PathUtils.FOOD_AND_WINE_ROOT_PATH;
-				queryMap.put(propertyCount + QueryUtils.SEPERATOR + QueryUtils.PATH, path);
-				propertyCount++;
-				if (StringUtils.isNotEmpty(parameters.getText())) {
-					QueryUtils.addFullText(queryMap, propertyCount, parameters.getText());
-					propertyCount++;
+			}
+			if (parameters.getTags() != null && parameters.getTags().size() > 0) {
+				List<Tag> tags = new ArrayList<Tag>();
+				for (String s : parameters.getTags()) {
+					Tag t = tagManager.resolve(s);
+					if (t != null) {
+						tags.add(t);
+					}
 				}
-				if (parameters.getTags() != null && parameters.getTags().size() > 0) {
-					List<Tag> tags = new ArrayList<Tag>();
-					for (String s : parameters.getTags()) {
-						Tag t = tagManager.resolve(s);
-						if (t != null) {
-							tags.add(t);
+				QueryUtils.addQueryForTags(queryMap, tags, propertyCount);
+				propertyCount++;
+			}
+
+			if (StringUtils.isNotEmpty(parameters.getPlace())) {
+				QueryUtils.addProperty(queryMap, propertyCount, JCR_PREFIX + "cq:tags", parameters.getPlace() + "%");
+				QueryUtils.setPropertyAsLike(queryMap, JCR_PREFIX + "cq:tags", propertyCount);
+				propertyCount++;
+			}
+
+			queryMap.put(QueryUtils.ORDER_BY, JCR_PREFIX + "jcr:title");
+			queryMap.put(QueryUtils.ORDER_BY_SORT, QueryUtils.ASC);
+
+			queryMap.put(QueryUtils.OFFSET, Long.toString((parameters.getPage() - 1) * parameters.getCount()));
+			queryMap.put(QueryUtils.LIMIT, Long.toString(parameters.getPage() * parameters.getCount()));
+			Query query = builder.createQuery(PredicateGroup.create(queryMap), session);
+			result = query.getResult();
+			long totalMatches = result.getTotalMatches();
+			for (Hit hit : result.getHits()) {
+				try {
+					if (hit.getPath() != null) {
+						Page page = pageManager.getPage(hit.getPath());
+						if (page != null) {
+							fawSearchesList.add(new FAWSearch(totalMatches, page, tagManager, resourceResolver));
 						}
 					}
-					QueryUtils.addQueryForTags(queryMap, tags, propertyCount);
-					propertyCount++;
-				}
-				queryMap.put(QueryUtils.ORDER_BY, JCR_PREFIX + "jcr:title");
-				if (parameters.getSort() != null && QueryUtils.ASC.equals(parameters.getSort().getSort())) {
-					queryMap.put(QueryUtils.ORDER_BY_SORT, QueryUtils.ASC);
-				} else {
-					queryMap.put(QueryUtils.ORDER_BY_SORT, QueryUtils.DESC);
-				}
-				queryMap.put(QueryUtils.OFFSET, Long.toString((parameters.getPage() - 1) * parameters.getCount()));
-				queryMap.put(QueryUtils.LIMIT, Long.toString(parameters.getCount()));
-				Query query = builder.createQuery(PredicateGroup.create(queryMap), session);
-				result = query.getResult();
-				for (Hit hit : result.getHits()) {
-					try {
-						if (hit.getPath() != null) {
-							Page page = pageManager.getPage(hit.getPath());
-							if (page != null) {
-								// TODO: Build experience, facebook, twitter, or
-								// instagram objects based on
-								// template type
-								fawSearchesList.add(new FAWSearch(page, tagManager));
-							}
-						}
-					} catch (RepositoryException e) {
-						LOG.error("Error creating story", e);
-					}
+				} catch (RepositoryException e) {
+					LOG.error("Error creating story", e);
 				}
 			}
-			return new FAWSearchResult(fawSearchesList, result.getTotalMatches(), parameters.getPage());
+			return new FAWSearchResult(fawSearchesList, totalMatches, parameters.getPage());
 
 		} catch (Exception e) {
 			LOG.error("Error searching for ATDW Products", e);

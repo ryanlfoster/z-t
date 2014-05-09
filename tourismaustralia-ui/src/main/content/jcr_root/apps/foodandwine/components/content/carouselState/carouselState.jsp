@@ -71,9 +71,8 @@
 						<hr
 							class="icon-logo-withlines-hr icon-logo-withlines-hr-small experiences-head-divider-hr">
 						<div class="head-divider-title">
-							<!-- icon images for Canberra and Tasmania are mistakenly swapped around!  -->
 							<span
-								class="icon-map icon-map-small icon-map-black icon-map-tasmania"></span>
+								class="icon-map icon-map-small icon-map-black icon-map-capital"></span>
 						</div>
 						<hr
 							class="icon-logo-withlines-hr icon-logo-withlines-hr-small experiences-head-divider-hr">

@@ -6,14 +6,16 @@ import com.australia.content.domain.ContentSearchResult;
 import com.australia.content.domain.ContentType;
 import com.australia.content.service.ContentSearchException;
 import com.australia.content.service.ContentSearchService;
+import com.australia.mosaic.FourToOneGridMosaic;
+import com.australia.utils.MosaicUtils;
 import com.australia.utils.PathUtils;
 import com.australia.utils.TagUtils;
 import com.citytechinc.cq.component.annotations.Component;
 import com.citytechinc.cq.component.annotations.DialogField;
-import com.citytechinc.cq.component.annotations.FieldProperty;
 import com.citytechinc.cq.component.annotations.Listener;
 import com.citytechinc.cq.component.annotations.Option;
 import com.citytechinc.cq.component.annotations.Tab;
+import com.citytechinc.cq.component.annotations.widgets.PathField;
 import com.citytechinc.cq.component.annotations.widgets.Selection;
 import com.citytechinc.cq.component.annotations.widgets.TagInputField;
 import com.day.cq.tagging.Tag;
@@ -30,6 +32,8 @@ import org.apache.sling.api.scripting.SlingScriptHelper;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Locale;
+import java.util.ResourceBundle;
 
 @Component(value = "What You Can See",
 		tabs = {
@@ -43,8 +47,6 @@ import java.util.List;
 		}
 )
 public final class WhatYouCanSee {
-
-	private static final int ROW_SIZE = 5;
 
 	@DialogField(fieldLabel = "Tag", tab = 1)
 	@TagInputField
@@ -68,18 +70,8 @@ public final class WhatYouCanSee {
 	@DialogField(fieldLabel = "Things To Do Tab Size", defaultValue = Constants.TAB_SIZE_10, tab = 2)
 	private final String thingsToDoTabSize;
 
-	@DialogField(fieldLabel = "Events", fieldDescription = "When checked, 'Events' will be displayed",
-		defaultValue = "true", tab = 2)
-	@Selection(type = Selection.CHECKBOX, options = @Option(value = "true"))
-	private boolean showEvents;
-
-	@Selection(options = {@Option(value = "5", text = "5 Items"), @Option(value = "10", text = "10 Items") },
-		type = Selection.SELECT
-	)
-	@DialogField(fieldLabel = "Events Tab Size", defaultValue = Constants.TAB_SIZE_10, tab = 2)
-	private final String eventsTabSize;
-
-	@DialogField(fieldLabel = "Optional Tab", fieldDescription = "When checked, an authorable 3rd tab will be displayed",
+	@DialogField(fieldLabel = "Optional Tab", fieldDescription = "When checked, an additional authorable tab will be " +
+		"displayed",
 		tab = 3, listeners = {
 			@Listener(name = "selectionchanged", value = Constants.OPTIONAL_SHOW_LISTENER),
 			@Listener(name = "afterlayout", value = Constants.OPTIONAL_SHOW_LISTENER)
@@ -101,104 +93,44 @@ public final class WhatYouCanSee {
 	)
 	private final String optionalTabSize;
 
-	@DialogField(fieldLabel = "Optional Tab Paths", tab = 3, required = true, xtype = "searchfield",
-		additionalProperties = {
-			@FieldProperty(name = "url", value = PathUtils.OZCOM_ROOT_PATH + ".search.json"),
-			@FieldProperty(name = "forceSelection", value = "{Boolean}true"),
-			@FieldProperty(name = "triggerAction", value = "all"),
-			@FieldProperty(name = "selectOnFocus", value = "{Boolean}true")
-		},
-		listeners = @Listener(name = "select", value = Constants.PATH_SELECT_LISTENER))
+	@PathField(rootPath = PathUtils.OZCOM_ROOT_PATH)
+	@DialogField(fieldLabel = "Optional Tab Paths", tab = 3, required = true)
 	private final String optionalTabPath0;
 
-	@DialogField(fieldLabel = "&nbsp;", tab = 3, required = true, xtype = "searchfield",
-		additionalProperties = {
-			@FieldProperty(name = "url", value = PathUtils.OZCOM_ROOT_PATH + ".search.json"),
-			@FieldProperty(name = "forceSelection", value = "{Boolean}true"),
-			@FieldProperty(name = "triggerAction", value = "all"),
-			@FieldProperty(name = "selectOnFocus", value = "{Boolean}true")
-		},
-		listeners = @Listener(name = "select", value = Constants.PATH_SELECT_LISTENER))
+	@PathField(rootPath = PathUtils.OZCOM_ROOT_PATH)
+	@DialogField(fieldLabel = "&nbsp;", tab = 3, required = true)
 	private final String optionalTabPath1;
 
-	@DialogField(fieldLabel = "&nbsp;", tab = 3, required = true, xtype = "searchfield",
-		additionalProperties = {
-			@FieldProperty(name = "url", value = PathUtils.OZCOM_ROOT_PATH + ".search.json"),
-			@FieldProperty(name = "forceSelection", value = "{Boolean}true"),
-			@FieldProperty(name = "triggerAction", value = "all"),
-			@FieldProperty(name = "selectOnFocus", value = "{Boolean}true")
-		},
-		listeners = @Listener(name = "select", value = Constants.PATH_SELECT_LISTENER))
+	@PathField(rootPath = PathUtils.OZCOM_ROOT_PATH)
+	@DialogField(fieldLabel = "&nbsp;", tab = 3, required = true)
 	private final String optionalTabPath2;
 
-	@DialogField(fieldLabel = "&nbsp;", tab = 3, required = true, xtype = "searchfield",
-		additionalProperties = {
-			@FieldProperty(name = "url", value = PathUtils.OZCOM_ROOT_PATH + ".search.json"),
-			@FieldProperty(name = "forceSelection", value = "{Boolean}true"),
-			@FieldProperty(name = "triggerAction", value = "all"),
-			@FieldProperty(name = "selectOnFocus", value = "{Boolean}true")
-		},
-		listeners = @Listener(name = "select", value = Constants.PATH_SELECT_LISTENER))
+	@PathField(rootPath = PathUtils.OZCOM_ROOT_PATH)
+	@DialogField(fieldLabel = "&nbsp;", tab = 3, required = true)
 	private final String optionalTabPath3;
 
-	@DialogField(fieldLabel = "&nbsp;", tab = 3, required = true, xtype = "searchfield",
-		additionalProperties = {
-			@FieldProperty(name = "url", value = PathUtils.OZCOM_ROOT_PATH + ".search.json"),
-			@FieldProperty(name = "forceSelection", value = "{Boolean}true"),
-			@FieldProperty(name = "triggerAction", value = "all"),
-			@FieldProperty(name = "selectOnFocus", value = "{Boolean}true")
-		},
-		listeners = @Listener(name = "select", value = Constants.PATH_SELECT_LISTENER))
+	@PathField(rootPath = PathUtils.OZCOM_ROOT_PATH)
+	@DialogField(fieldLabel = "&nbsp;", tab = 3, required = true)
 	private final String optionalTabPath4;
 
-	@DialogField(fieldLabel = "&nbsp;", tab = 3, required = true, xtype = "searchfield",
-		additionalProperties = {
-			@FieldProperty(name = "url", value = PathUtils.OZCOM_ROOT_PATH + ".search.json"),
-			@FieldProperty(name = "forceSelection", value = "{Boolean}true"),
-			@FieldProperty(name = "triggerAction", value = "all"),
-			@FieldProperty(name = "selectOnFocus", value = "{Boolean}true")
-		},
-		listeners = @Listener(name = "select", value = Constants.PATH_SELECT_LISTENER))
+	@PathField(rootPath = PathUtils.OZCOM_ROOT_PATH)
+	@DialogField(fieldLabel = "&nbsp;", tab = 3, required = true)
 	private final String optionalTabPath5;
 
-	@DialogField(fieldLabel = "&nbsp;", tab = 3, required = true, xtype = "searchfield",
-		additionalProperties = {
-			@FieldProperty(name = "url", value = PathUtils.OZCOM_ROOT_PATH + ".search.json"),
-			@FieldProperty(name = "forceSelection", value = "{Boolean}true"),
-			@FieldProperty(name = "triggerAction", value = "all"),
-			@FieldProperty(name = "selectOnFocus", value = "{Boolean}true")
-		},
-		listeners = @Listener(name = "select", value = Constants.PATH_SELECT_LISTENER))
+	@PathField(rootPath = PathUtils.OZCOM_ROOT_PATH)
+	@DialogField(fieldLabel = "&nbsp;", tab = 3, required = true)
 	private final String optionalTabPath6;
 
-	@DialogField(fieldLabel = "&nbsp;", tab = 3, required = true, xtype = "searchfield",
-		additionalProperties = {
-			@FieldProperty(name = "url", value = PathUtils.OZCOM_ROOT_PATH + ".search.json"),
-			@FieldProperty(name = "forceSelection", value = "{Boolean}true"),
-			@FieldProperty(name = "triggerAction", value = "all"),
-			@FieldProperty(name = "selectOnFocus", value = "{Boolean}true")
-		},
-		listeners = @Listener(name = "select", value = Constants.PATH_SELECT_LISTENER))
+	@PathField(rootPath = PathUtils.OZCOM_ROOT_PATH)
+	@DialogField(fieldLabel = "&nbsp;", tab = 3, required = true)
 	private final String optionalTabPath7;
 
-	@DialogField(fieldLabel = "&nbsp;", tab = 3, required = true, xtype = "searchfield",
-		additionalProperties = {
-			@FieldProperty(name = "url", value = PathUtils.OZCOM_ROOT_PATH + ".search.json"),
-			@FieldProperty(name = "forceSelection", value = "{Boolean}true"),
-			@FieldProperty(name = "triggerAction", value = "all"),
-			@FieldProperty(name = "selectOnFocus", value = "{Boolean}true")
-		},
-		listeners = @Listener(name = "select", value = Constants.PATH_SELECT_LISTENER))
+	@PathField(rootPath = PathUtils.OZCOM_ROOT_PATH)
+	@DialogField(fieldLabel = "&nbsp;", tab = 3, required = true)
 	private final String optionalTabPath8;
 
-	@DialogField(fieldLabel = "&nbsp;", tab = 3, required = true, xtype = "searchfield",
-		additionalProperties = {
-			@FieldProperty(name = "url", value = PathUtils.OZCOM_ROOT_PATH + ".search.json"),
-			@FieldProperty(name = "forceSelection", value = "{Boolean}true"),
-			@FieldProperty(name = "triggerAction", value = "all"),
-			@FieldProperty(name = "selectOnFocus", value = "{Boolean}true")
-		},
-		listeners = @Listener(name = "select", value = Constants.PATH_SELECT_LISTENER))
+	@PathField(rootPath = PathUtils.OZCOM_ROOT_PATH)
+	@DialogField(fieldLabel = "&nbsp;", tab = 3, required = true)
 	private final String optionalTabPath9;
 
 
@@ -215,8 +147,11 @@ public final class WhatYouCanSee {
 		final ValueMap properties = resource.adaptTo(ValueMap.class);
 		final ResourceResolver resourceResolver = resource.getResourceResolver();
 		final TagManager tagManager = resourceResolver.adaptTo(TagManager.class);
+		final Locale locale = request.getLocale();
+		final ResourceBundle bundle = request.getResourceBundle(locale);
+		final Resource localeResource = PathUtils.getLanguageResource(resource);
 
-		tagId = properties.get("tagId", String.class);
+		tagId = properties.get(Constants.NAME_TAGID, String.class);
 		tag = tagId == null ? null : tagManager.resolve(tagId);
 
 		// When no tag is selected, attempt to find a city or state tag, in that order
@@ -236,15 +171,12 @@ public final class WhatYouCanSee {
 		text = properties.get(Constants.NAME_TEXT, "");
 		showThingsToDo = properties.get(Constants.NAME_SHOW_THINGS_TO_DO, false);
 		thingsToDoTabSize = properties.get(Constants.NAME_THINGS_TO_DO_TAB_SIZE, Constants.TAB_SIZE_10);
-		showEvents = properties.get(Constants.NAME_SHOW_EVENTS, false);
-		eventsTabSize = properties.get(Constants.NAME_EVENTS_TAB_SIZE, Constants.TAB_SIZE_10);
 		showOptionalTab = properties.get(Constants.NAME_SHOW_OPTIONAL_TAB, false);
 		optionalTabTitle = properties.get(Constants.NAME_TAB_3_TITLE, Constants.BLANK);
 		optionalTabSize = properties.get(Constants.NAME_OPTIONAL_TAB_SIZE, Constants.TAB_SIZE_5);
 
-		if (!showThingsToDo && !showEvents && !showOptionalTab) {
+		if (!showThingsToDo && !showOptionalTab) {
 			showThingsToDo = true;
-			showEvents = true;
 		}
 
 		optionalTabPath0 = properties.get(Constants.NAME_OPTIONAL_TAB_PATH_0, String.class);
@@ -281,22 +213,13 @@ public final class WhatYouCanSee {
 			baseBuilder.setCount(Constants.TAB_SIZE_5.equals(thingsToDoTabSize) ? 5 : 10);
 			final ContentSearchResult content = contentSearchService.search(baseBuilder.build());
 
+			final String translatedThingsToDoTitle = bundle.getString(Constants.TTD_TAB_TITLE);
+			final String viewMorePath =
+				PathUtils.getSearchResultsPage(localeResource, null, tag == null ? null : tag.getTagID());
 			final Tab thingsToDo =
-				new Tab(Constants.TTD_TAB_TITLE, "ttd", Constants.TTD_TAB_VIEW_MORE, content.getContent(),
-					Constants.TTD_IMAGE_PATH, Constants.TTD_OUTLINE_IMAGE_PATH);
+				new Tab(translatedThingsToDoTitle, "ttd", Constants.TTD_TAB_VIEW_MORE,  content.getContent(),
+					Constants.TTD_IMAGE_PATH, Constants.TTD_OUTLINE_IMAGE_PATH, viewMorePath);
 			tabs.add(thingsToDo);
-		}
-
-		if (showEvents) {
-
-			baseBuilder.setContentType(ContentType.EVENT);
-			baseBuilder.setCount(Constants.TAB_SIZE_5.equals(eventsTabSize) ? 5 : 10);
-			final ContentSearchResult content = contentSearchService.search(baseBuilder.build());
-
-			final Tab events =
-				new Tab(Constants.EVENTS_TAB_TITLE, "events", Constants.EVENTS_TAB_VIEW_MORE, content.getContent(),
-					Constants.EVENTS_IMAGE_PATH, Constants.EVENTS_OUTLINE_IMAGE_PATH);
-			tabs.add(events);
 		}
 
 		if (showOptionalTab) {
@@ -314,7 +237,7 @@ public final class WhatYouCanSee {
 				content.add(Content.fromResource(optionalTabResource9));
 			}
 			final Tab optionalTab = new Tab(optionalTabTitle, "optional", null, content,
-				Constants.OPTIONAL_IMAGE_PATH, Constants.OPTIONAL_OUTLINE_IMAGE_PATH);
+				Constants.OPTIONAL_IMAGE_PATH, Constants.OPTIONAL_OUTLINE_IMAGE_PATH, null);
 			tabs.add(optionalTab);
 		}
 
@@ -347,18 +270,18 @@ public final class WhatYouCanSee {
 		private final String viewMoreText;
 		private final String selectedImagePath;
 		private final String unselectedImagePath;
-		private final List<ContentRow> contentRows = new ArrayList<ContentRow>();
+		private final String viewMorePath;
+		private final List<FourToOneGridMosaic<Content>> contentRows = new ArrayList<FourToOneGridMosaic<Content>>();
 
 		public Tab(final String displayName, final String id, final String viewMoreText, final List<Content> content,
-			String selectedImagePath, String unselectedImagePath) {
+			String selectedImagePath, String unselectedImagePath, String viewMorePath) {
 			this.displayName = displayName;
 			this.id = id;
 			this.viewMoreText = viewMoreText;
 			this.selectedImagePath = selectedImagePath;
 			this.unselectedImagePath = unselectedImagePath;
-			while (!content.isEmpty()) {
-				contentRows.add(ContentRow.removeFromContent(content));
-			}
+			this.viewMorePath = viewMorePath;
+			contentRows.addAll(MosaicUtils.convertToMosaic(content));
 		}
 
 		public final String getDisplayName() {
@@ -369,7 +292,7 @@ public final class WhatYouCanSee {
 			return id;
 		}
 
-		public final List<ContentRow> getContentRows() {
+		public final List<FourToOneGridMosaic<Content>> getContentRows() {
 			return contentRows;
 		}
 
@@ -384,48 +307,10 @@ public final class WhatYouCanSee {
 		public String getUnselectedImagePath() {
 			return unselectedImagePath;
 		}
-	}
 
-	public static class ContentRow {
-
-		private static final int REMAINDER_MAX = ROW_SIZE - 1;
-
-		private final Content hero;
-		private final List<Content> remainder;
-
-		public ContentRow(final Content hero, final List<Content> remainder) {
-			this.hero = hero;
-			this.remainder = remainder;
+		public String getViewMorePath() {
+			return viewMorePath;
 		}
-
-		public final Content getSingle() {
-			return hero;
-		}
-
-		public final List<Content> getRemainder() {
-			return remainder;
-		}
-
-		/**
-		 * Creates a content row with a non-null hero and up to 4 remainder contents by pulling from
-		 * the provided content list.  Used content objects will be removed.  If the provided list is
-		 * empty, an exception will be thrown.
-		 *
-		 * @param content
-		 * @return
-		 */
-		public static ContentRow removeFromContent(final List<Content> content) {
-			if (content.isEmpty()) {
-				throw new IllegalStateException();
-			}
-			final Content hero = content.remove(0);
-			final int remainderSize = content.size() > REMAINDER_MAX ? REMAINDER_MAX : content.size();
-			final List<Content> remainder = content.subList(0, remainderSize);
-			final List<Content> remainderCopy = new ArrayList<Content>(remainder);
-			remainder.clear();
-			return new ContentRow(hero, remainderCopy);
-		}
-
 	}
 
 }

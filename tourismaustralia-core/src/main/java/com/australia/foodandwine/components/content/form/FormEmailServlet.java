@@ -13,6 +13,7 @@ import javax.jcr.Session;
 import javax.jcr.ValueFactory;
 import javax.servlet.ServletException;
 
+import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.mail.Email;
 import org.apache.commons.mail.HtmlEmail;
 import org.apache.felix.scr.annotations.Reference;
@@ -64,7 +65,6 @@ public class FormEmailServlet extends SlingAllMethodsServlet {
 
 			String businessWebsite = request.getParameter("businessWebsite");
 			String businessDescription = request.getParameter("businessDescription");
-			String photoDescription = request.getParameter("photoDescription");
 			String primaryCategory = request.getParameter("category-primary");
 			String secondaryCategory = request.getParameter("category-secondary");
 			String videoUrl = request.getParameter("videoUrl");
@@ -72,7 +72,7 @@ public class FormEmailServlet extends SlingAllMethodsServlet {
 			String contact = request.getParameter("contact");
 
 			Page userGeneratedPage = pageManager.create(PathUtils.FOOD_AND_WINE_USER_GENERATED, null, null,
-				"experience-" + UUID.randomUUID().toString(), true);
+				"experience-" + UUID.randomUUID().toString(), false);
 
 			Resource userGeneratedPageContentResource = userGeneratedPage.getContentResource();
 			ModifiableValueMap contentProperties = userGeneratedPageContentResource.adaptTo(ModifiableValueMap.class);
@@ -83,7 +83,6 @@ public class FormEmailServlet extends SlingAllMethodsServlet {
 			contentProperties.put("mail", mail);
 			contentProperties.put("businessWebsite", businessWebsite);
 			contentProperties.put("businessDescription", businessDescription);
-			contentProperties.put("photoDescription", photoDescription);
 			contentProperties.put("primaryCategory", primaryCategory);
 			contentProperties.put("secondaryCategory", secondaryCategory);
 			contentProperties.put("cq:distribute", true);
@@ -97,7 +96,6 @@ public class FormEmailServlet extends SlingAllMethodsServlet {
 			properties.put("Contact", contact);
 			properties.put("Business Website ", businessWebsite);
 			properties.put("Business Description ", businessDescription);
-			properties.put("Photo Description ", photoDescription);
 			properties.put("Primary Category", primaryCategory);
 			properties.put("Secondary Category", secondaryCategory);
 			properties.put("Video Url", videoUrl);
@@ -132,25 +130,31 @@ public class FormEmailServlet extends SlingAllMethodsServlet {
 
 	private void imageUpload(SlingHttpServletRequest request, Resource contentResource, Session session)
 		throws IOException {
-
+		ModifiableValueMap contentMap = contentResource.adaptTo(ModifiableValueMap.class);
 		Map<String, RequestParameter[]> params = request.getRequestParameterMap();
+		int imageCount = 0;
 		for (Map.Entry<String, RequestParameter[]> pairs : params.entrySet()) {
 			String key = pairs.getKey();
 			RequestParameter[] pArr = pairs.getValue();
 			RequestParameter param = pArr[0];
 			Node formArticleNode = contentResource.adaptTo(Node.class);
-			if (key.equalsIgnoreCase("imageupload") && param.getSize() > 0) {
+			if (key.startsWith("imageupload") && param.getSize() > 0) {
 				try {
+					String count = key.substring(11);
 					InputStream stream = param.getInputStream();
 					String contentType = getServletContext().getMimeType(param.getFileName());
 					ValueFactory valueFactory = session.getValueFactory();
 					Binary contentValue = valueFactory.createBinary(stream);
-					Node fileNode = formArticleNode.addNode("file", "nt:file");
+					Node fileNode = formArticleNode.addNode("image" + imageCount, "nt:file");
 					fileNode.addMixin("mix:referenceable");
 					Node resourceNode = fileNode.addNode("jcr:content", "nt:resource");
 					resourceNode.setProperty("jcr:mimeType", contentType);
 					resourceNode.setProperty("jcr:data", contentValue);
-					resourceNode.setProperty("cq:distribute", true);
+					String description = request.getParameter("photoDescription" + count);
+					if (StringUtils.isNotEmpty(description)) {
+						contentMap.put("photoDescription" + count, description);
+					}
+					imageCount++;
 				} catch (Exception e) {
 					LOG.error(e.getMessage());
 				}

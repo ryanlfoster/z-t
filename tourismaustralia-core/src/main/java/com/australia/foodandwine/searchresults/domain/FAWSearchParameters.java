@@ -4,14 +4,14 @@ import com.australia.search.domain.AbstractSearchParameters;
 import com.google.common.base.Objects;
 
 public class FAWSearchParameters extends AbstractSearchParameters {
-	private SortOrderType sort;
+	private String place;
 
-	public SortOrderType getSort() {
-		return sort;
+	public String getPlace() {
+		return place;
 	}
 
-	public void setSort(SortOrderType sort) {
-		this.sort = sort;
+	public void setPlace(String place) {
+		this.place = place;
 	}
 
 	@Override
@@ -25,11 +25,12 @@ public class FAWSearchParameters extends AbstractSearchParameters {
 		FAWSearchParameters other = (FAWSearchParameters) obj;
 		return Objects.equal(this.getCount(), other.getCount()) && Objects.equal(this.getPage(), other.getPage())
 			&& Objects.equal(this.getText(), other.getText()) && Objects.equal(this.getTags(), other.getTags())
-			&& Objects.equal(sort, other.sort);
+			&& Objects.equal(place, other.place);
 	}
 
 	@Override
 	public int hashCode() {
-		return Objects.hashCode(this.getCount(), this.getText(), this.getPage(), this.getTags(), sort);
+		return Objects.hashCode(this.getCount(), this.getText(), this.getPage(), this.getTags(), place);
 	}
+
 }

@@ -91,6 +91,8 @@
                         { "text": "sectionintro" },
                         { "text": "paragraph_standard" },
                         { "text": "paragraph_dynamic" },
+                        { "text": "paragraph_heading_h3" },
+                        { "text": "paragraph_heading_h4" },
                         { "text": "socialimage" },
                         { "text": "byline" },
                         { "text": "bylinewithshareitem" }
@@ -99,19 +101,12 @@
                     ]
                 },
                 {
-                    "text" : "Video",
-                    "item": [
-                        { "text": "text2columnvideo" },
-                        { "text": "videoitem" },
-                        { "text": "textlargevideo" }
-                    ]
-                },
-                {
                     "text" : "Mosaic",
                     "item": [
                         { "text": "mosaic_highlights" },
                         { "text": "mosaicitemhighlights" },
                         { "text": "mosaic_highlights_grid_1" },
+                        { "text": "mosaic_highlights_grid_2" },
                         { "text": "mosaic_highlights_grid_4" },
                         { "text": "mosaic_highlights_grid_4_1" },
                         { "text": "mosaic_whatscomingup" },
@@ -135,14 +130,22 @@
                 {
                     "text" : "Carousel",
                     "item": [
-                        { "text": "carousel_mobile" },
-                        { "text": "carousel_standard" }
+                        { "text": "carousel" }
                     ]
                 },
                 {
                     "text" : "Itinerary Day",
                     "item": [
                         { "text": "largeparallax" },
+                        { "text": "largeparallax_images" },
+                        { "text": "largeparallax_text" },
+                        { "text": "itinerary_subnav" }
+                    ]
+                },
+                {
+                    "text" : "Agent Block",
+                    "item": [
+                        { "text": "agentimage" },
                         { "text": "largeparallax_images" },
                         { "text": "largeparallax_text" },
                         { "text": "itinerary_subnav" }
@@ -170,38 +173,88 @@
                         { "text": "featuredproducts" },
                         { "text": "fullsizevideo" },
                         { "text": "hero" },
+                        { "text": "hero_text" },
                         { "text": "iframe" },
+                        { "text": "iframe_inline" },
                         { "text": "imagemapcitylink" },
                         { "text": "image_with_button" },
                         { "text": "image_with_date" },
                         { "text": "image_with_quote" },
                         { "text": "image_with_button_social" },
+
+                        { "text": "itineraryday" },
+                        { "text": "itineraryday_secondary" },
+                        { "text": "itinerarydaysample" },
+                        { "text": "largeimageherowithbutton" },
+
                         { "text": "largeimagetext" },
                         { "text": "largeimagenotext" },
                         { "text": "largeimageoverlay" },
                         { "text": "largeimagesocial" },
                         { "text": "largetitle" },
                         { "text": "parallaximage_fullwidth" },
+                        { "text": "parallaximage_fullwidth_blank" },
                         { "text": "mapimagewithbuttons" },
                         { "text": "mapimagewithlegend" },
                         { "text": "mapimagewithlinks" },
+
+                        { "text": "dreamtrip_grid" },
+
                         { "text": "quote" },
+
+                        { "text": "relatedvideos" },
+
                         { "text": "seperator" },
                         { "text": "shareicons"},
+
+                        { "text": "sitemap_singleitem"},
+                        { "text": "slimheader"},
+
                         { "text": "smallimagetext" },
+                        { "text": "xsmallimagetext" },
                         { "text": "socialtiles" },
                         { "text": "specialoffer" },
                         { "text": "specialoffer_from" },
+                        { "text": "specialoffer_foodwine" },
                         { "text": "summary" },
                         { "text": "tagcloud" },
                         { "text": "text" },
                         { "text": "twoimages" },
                         { "text": "whatyoucansee_city" },
-                        { "text": "whatyoucansee_state" },
-                        { "text": "itineraryday" },
-                        { "text": "itineraryday_secondary" },
-                        { "text": "header" },
-                        { "text": "sitemap_content" }
+                        { "text": "whatyoucansee_state" }
+
+                    ]
+                },
+                {
+                    "text" : "Favorite",
+                    "item": [
+                        { "text": "favourite" },
+                        { "text": "favouritewithlines" },
+                        { "text": "favouriteandshare" },
+                        { "text": "video_add_tags_share" },
+                        { "text": "hero" }
+                    ]
+                },
+                {
+                    "text" : "Share",
+                    "item": [
+                        { "text": "shareicons"},
+                        { "text": "shareiconswithline" },
+                        { "text": "favouriteandshare" },
+                        { "text": "video_add_tags_share" },
+                        { "text": "bylinewithshare" },
+                        { "text": "bylinewithshareitem" }
+
+                    ]
+                },
+                {
+                    "text" : "Video",
+                    "item": [
+                        { "text": "fullsizevideo" },
+                        { "text" : "2columnvideo"},
+                        { "text": "videoitem" },
+                        { "text": "relatedvideos" },
+                        { "text": "mosaicitemvideo" }
 
                     ]
                 }

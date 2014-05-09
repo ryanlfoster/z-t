@@ -5,27 +5,35 @@
             "item": [
                 {
                     "text": "home",
-                    "name": "Home "
-                },
-                {
-                    "text": "video",
-                    "name": "Video"
-                },
-                {
-                    "text": "generictemplate",
-                    "name": "Generic Template"
+                    "name": "Home"
                 },
                 {
                     "text": "article",
-                    "name": "Article "
+                    "name": "Article"
                 },
                 {
-                    "text": "icon",
-                    "name": "Icon "
+                    "text": "category",
+                    "name": "Category"
+                },
+                {
+                    "text": "campaign",
+                    "name": "Campaign"
+                },
+                {
+                    "text": "contactus",
+                    "name": "Contact Us"
+                },
+                {
+                    "text": "dreamtrip",
+                    "name": "Dream Trip"
                 },
                 {
                     "text": "city_sydney",
                     "name": "City Page - Sydney"
+                },
+                {
+                    "text": "icon",
+                    "name": "Iconic"
                 },
                 {
                     "text": "state_victoria",
@@ -36,12 +44,12 @@
                     "name": "Itinerary"
                 },
                 {
-                    "text": "atdw_search",
-                    "name": "ATDW Search"
-                },
-                {
                     "text": "privacy_policy",
                     "name": "Privacy Policy"
+                },
+                {
+                    "text": "asp_search",
+                    "name": "Travel Agent Search"
                 },
                 {
                     "text": "sitemap",
@@ -56,12 +64,28 @@
                     "name": "Search Results"
                 },
                 {
+                    "text": "events",
+                    "name": "Events"
+                },
+                {
+                    "text": "event_article",
+                    "name": "Event Article"
+                },
+                {
+                    "text": "atdw_search",
+                    "name": "ATDW Search"
+                },
+                {
+                    "text": "video",
+                    "name": "Video"
+                },
+                {
                     "text": "404",
                     "name": "404"
                 },
                 {
-                    "text": "test_page",
-                    "name": "Test Page"
+                    "text": "generictemplate",
+                    "name": "Generic Template"
                 }
             ]
         },
@@ -69,14 +93,25 @@
             "text": "General Content",
             "item": [
                 {
-                    "text": "home",
-                    "name": "Home Page"
+                    "text": "test_page",
+                    "name": "Test Page"
                 },
                 {
                     "text": "hero",
                     "name": "Hero"
                 }
             ]
+        },
+        {
+            "text": "Staging",
+            "item": [
+                {
+                    "text": "staging_links",
+                    "name": "Staging Links"
+                }
+            ]
         }
+
+
     ]
 }

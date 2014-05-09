@@ -21,7 +21,7 @@
   border: 1px solid #00535e;
   background: #FFF;
   text-decoration: none;
-  &:visited, &:link, &:visited, &:active, &:focus  {
+  &:visited, &:link, &:visited, &:active  {
     color: #00535e;
     border: 1px solid #00535e;
     background: #FFF;
@@ -31,6 +31,11 @@
     color: #00535e;
     color: #FFF;
     background: #00535e;
+    text-decoration: none;
+  }
+  &.active {
+    color: #FFF!important;
+    background: #00535e!important;
     text-decoration: none;
   }
 }
@@ -84,6 +89,9 @@ a.btn-tag-item {
     border: 1px solid #efc032;
     text-decoration: none;
   }
+}
+a.btn-tag-item:visited {
+  color: #231f20;
 }
 
 .btn-round-video {
@@ -194,9 +202,34 @@ a.btn-tag-item {
 .btn-bubble {
   display: inline-block;
   width: auto;
-  margin: 0 auto;
   text-decoration: none;
   text-align: center;
+
+  .btn-bubble-std {
+    display: inline-block;
+  }
+  .btn-bubble-active {
+    display: none;
+  }
+  &:hover, &:focus {
+    .btn-bubble-std {
+      display: inline-block;
+    }
+    .btn-bubble-active {
+      display: none;
+    }
+  }
+  .btn-bubble-tooltip {
+    display: none;
+  }
+}
+
+.no-touch .btn-bubble {
+  display: inline-block;
+  width: auto;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid transparent; /* NOTE: Required to fix a bug in Chrome */
 
   img{ margin:0 auto;}
 
@@ -315,3 +348,30 @@ a.btn-tag-item {
 }
 
 ///////////////////////
+// HOT OR NOT LIKE BUTTON
+///////////////////////
+.btn-bubble-fullarea {
+  position: absolute !important;
+  top: 0;
+  width: 100% !important;
+  height: 100%;
+  z-index: 2;
+}
+
+.btn-icon-center-like {
+  top: 18%;
+  position: absolute;
+  left: 0;
+  right: 0;
+
+  @include breakpoint(sm) {
+    top: 30%;
+  }
+  @include breakpoint(md) {
+    top: 35%;
+  }
+  @include breakpoint(lg) {
+    top: 35%;
+  }
+
+}

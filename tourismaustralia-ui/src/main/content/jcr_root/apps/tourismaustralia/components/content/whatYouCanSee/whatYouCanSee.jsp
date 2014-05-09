@@ -69,7 +69,7 @@
                 <c:forEach items="${tab.contentRows}" var="row">
                     <c:set scope="request" var="row" value="${row}" />
                     <div class="row">
-                        <cq:include script="whatYouCanSee_mainRow.jsp"/>
+                        <cq:include script="/apps/tourismaustralia/components/content/fourToOneGrid/fourToOneGrid_mainRow.jsp"/>
                     </div>
                     <c:set var="alt" value="${!alt}" scope="request"/>
                 </c:forEach>
@@ -81,7 +81,7 @@
     <div class="l-h-center">
         <c:forEach items="${wycs.tabs}" var="tab">
             <c:if test="${not empty tab.viewMoreText}">
-                <a href="#" class="btn-primary" data-aus-show-tab="${tab.id}">
+                <a href="${tab.viewMorePath}" class="btn-primary" data-aus-show-tab="${tab.id}">
                     <fmt:message key="${tab.viewMoreText}" />
                 </a>
             </c:if>

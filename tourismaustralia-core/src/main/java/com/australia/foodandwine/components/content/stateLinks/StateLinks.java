@@ -35,14 +35,14 @@ public class StateLinks {
 			topText = "";
 			bottomText = "";
 		}
-		capital = PathUtils.FOOD_AND_WINE_EXPLORE_AUSTRALIAN_CAPITAL_TERRITORY;
-		nsw = PathUtils.FOOD_AND_WINE_EXPLORE_NEW_SOUTH_WALES;
-		northern = PathUtils.FOOD_AND_WINE_EXPLORE_NORTHERN_TERRITORY;
-		queensland = PathUtils.FOOD_AND_WINE_EXPLORE_QUEENSLAND;
-		south = PathUtils.FOOD_AND_WINE_EXPLORE_SOUTH_AUSTRALIA;
-		tasmania = PathUtils.FOOD_AND_WINE_EXPLORE_TASMANIA;
-		victoria = PathUtils.FOOD_AND_WINE_EXPLORE_VICTORIA;
-		western = PathUtils.FOOD_AND_WINE_EXPLORE_WESTERN_AUSTRALIA;
+		capital = request.getResourceResolver().map(PathUtils.FOOD_AND_WINE_EXPLORE_AUSTRALIAN_CAPITAL_TERRITORY);
+		nsw = request.getResourceResolver().map(PathUtils.FOOD_AND_WINE_EXPLORE_NEW_SOUTH_WALES);
+		northern = request.getResourceResolver().map(PathUtils.FOOD_AND_WINE_EXPLORE_NORTHERN_TERRITORY);
+		queensland = request.getResourceResolver().map(PathUtils.FOOD_AND_WINE_EXPLORE_QUEENSLAND);
+		south = request.getResourceResolver().map(PathUtils.FOOD_AND_WINE_EXPLORE_SOUTH_AUSTRALIA);
+		tasmania = request.getResourceResolver().map(PathUtils.FOOD_AND_WINE_EXPLORE_TASMANIA);
+		victoria = request.getResourceResolver().map(PathUtils.FOOD_AND_WINE_EXPLORE_VICTORIA);
+		western = request.getResourceResolver().map(PathUtils.FOOD_AND_WINE_EXPLORE_WESTERN_AUSTRALIA);
 	}
 
 	public String getCapital() {

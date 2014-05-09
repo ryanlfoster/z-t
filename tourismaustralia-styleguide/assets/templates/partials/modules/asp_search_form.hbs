@@ -1,0 +1,44 @@
+---
+title: Agent Search Form
+---
+
+
+<div class="asp-search-form">
+    <div class="row l-center-1200">
+        <div class="col-xs-12">
+            <form method="" action="#">
+                <div class="asp-search-form-wrapper">
+                    <div class="asp-search-form-item">
+                        <label class="asp-search-form-label">Country</label>
+                        {{#parseJSON '{"data" : [{"option": "Australia"}, {"option": "United Kingdom"}]}'}}
+                            {{> dropdown_white_background }}
+                        {{/parseJSON}}
+                    </div>
+                    <div class="asp-search-form-item">
+                        <label class="asp-search-form-label">Postcode</label>
+                        {{#parseJSON '{
+                            "type" : "postcode"
+                        }'}}
+                            {{> input_white_background }}
+                        {{/parseJSON}}
+                    </div>
+                    <div class="asp-search-form-item">
+                        <label class="asp-search-form-label">State/County</label>
+                        {{#parseJSON '{"data" : [{"option": "New South Wales"}, {"option": "Victroria"}]}'}}
+                            {{> dropdown_white_background }}
+                        {{/parseJSON}}
+                    </div>
+                    <div class="asp-search-form-item">
+                        <label class="asp-search-form-label">City</label>
+                        {{#parseJSON '{"data" : [{"option": "All cities"}, {"option": "Sydney"}]}'}}
+                            {{> dropdown_white_background }}
+                        {{/parseJSON}}
+                    </div>
+                    <div class="asp-search-form-item">
+                        <a href="#" class="btn-primary transparent">Go</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

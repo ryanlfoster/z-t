@@ -52,6 +52,10 @@
   border-bottom: 1px solid #fff;
 }
 
+////////////////////////
+// CATEGORY THEMES
+// used for mosaic tiles
+////////////////////////
 .theme-nature      { 
   background: $category-colour-nature; 
   color: $type-category-colour-secondary;
@@ -91,4 +95,49 @@
 .theme-discover   { 
   background: $category-colour-discover;
   color: $type-category-colour-secondary; 
+}
+
+
+////////////////////////
+// CATEGORY BORDER THEMES
+// used for hot or not diamond
+////////////////////////
+.theme-nature-border      {
+  border-bottom: pxtoem(2px) solid $type-category-colour-secondary;
+  // nature_wildlife
+}
+.theme-outback-border       {
+  // outback
+  border-bottom: pxtoem(2px) solid $type-category-colour-primary;
+}
+.theme-aboriginal-border    {
+  // aboriginal_australia
+  border-bottom: pxtoem(2px) solid $type-category-colour-secondary;
+}
+.theme-food-border        {
+  // food_wine
+  border-bottom: pxtoem(2px) solid $type-category-colour-secondary;
+}
+.theme-arts-border          {
+  // art_culture
+  border-bottom: pxtoem(2px) solid $type-category-colour-secondary;
+}
+.theme-islands-border       {
+  // island
+  border-bottom: pxtoem(2px) solid $type-category-colour-primary;
+}
+.theme-beaches-border       {
+  //beaches
+  border-bottom: pxtoem(2px) solid $type-category-colour-primary;
+}
+.theme-sports-border        {
+  // sports
+  border-bottom: pxtoem(2px) solid $type-category-colour-primary;
+}
+.theme-adventure-border     {
+  // adventure
+  border-bottom: pxtoem(2px) solid $type-category-colour-primary;
+}
+.theme-discover-border     {
+  border-bottom: pxtoem(2px) solid $type-category-colour-secondary;
 }

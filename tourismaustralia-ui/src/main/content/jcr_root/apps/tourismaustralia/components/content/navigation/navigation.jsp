@@ -281,7 +281,7 @@
                             <c:if test="${not empty navigation.megamenu2LhsCategoryTitle1 && not empty navigation.megamenu2LhsCategoryTitle1Links}">
                                 <li class="megamenu-map-filters is-active">
                                     <div class="megamenu-components">
-                                        <a class="megamenu-map-filter" href="#iconic">${navigation.megamenu2LhsCategoryTitle1}</a>
+                                        <a class="megamenu-map-filter filter-1" href="#iconic">${navigation.megamenu2LhsCategoryTitle1}</a>
                                         <ul class="megamenu-map-markers">
                                             <c:forEach items="${navigation.megamenu2LhsCategoryTitle1Links}" var="link">
                                                 <%-- START // marker --%>
@@ -297,7 +297,7 @@
                             <c:if test="${not empty navigation.megamenu2LhsCategoryTitle2 && not empty navigation.megamenu2LhsCategoryTitle2Links}">
                                 <li class="megamenu-map-filters">
                                     <div class="megamenu-components">
-                                        <a class="megamenu-map-filter is-active" href="#cities">${navigation.megamenu2LhsCategoryTitle2}</a>
+                                        <a class="megamenu-map-filter filter-2" href="#cities">${navigation.megamenu2LhsCategoryTitle2}</a>
                                         <ul class="megamenu-map-markers">
                                             <c:forEach items="${navigation.megamenu2LhsCategoryTitle2Links}" var="link">
                                                 <%-- START // marker --%>
@@ -313,7 +313,7 @@
                             <c:if test="${not empty navigation.megamenu2LhsCategoryTitle3 && not empty navigation.megamenu2LhsCategoryTitle3Links}">
                                 <li class="megamenu-map-filters">
                                     <div class="megamenu-components">
-                                        <a class="megamenu-map-filter is-active" href="#states">${navigation.megamenu2LhsCategoryTitle3}</a>
+                                        <a class="megamenu-map-filter filter-3" href="#states">${navigation.megamenu2LhsCategoryTitle3}</a>
                                         <ul class="megamenu-map-markers">
                                             <c:forEach items="${navigation.megamenu2LhsCategoryTitle3Links}" var="link">
                                                 <%-- START // marker --%>

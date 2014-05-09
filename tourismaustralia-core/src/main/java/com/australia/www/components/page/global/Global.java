@@ -60,6 +60,7 @@ public class Global {
 	private final String socialNetworks;
 	private final Boolean isHomePage;
 	private final boolean prodPublish;
+    private final Boolean isAuHomePage;
 
 	public Global(SlingHttpServletRequest request) {
 		SlingScriptHelper sling = ((SlingBindings) request.getAttribute(SlingBindings.class.getName())).getSling();
@@ -83,6 +84,7 @@ public class Global {
 		lastModified = StringUtils.left(xssAPI.encodeForHTMLAttr(properties.get("cq:lastModified", "")), 10);
 		socialNetworks = this.getSocialNetworks(request, currentPage.getAbsoluteParent(OZCOM_CONTENT_ROOT));
 		isHomePage = currentPage.equals(currentPage.getAbsoluteParent(1));
+        isAuHomePage = currentPage.equals(currentPage.getAbsoluteParent(2));
 
 		Resource imageResource = currentPage.getContentResource();
 		Image image = new Image(imageResource, "image");
@@ -178,10 +180,13 @@ public class Global {
 	}
 
 	public Boolean getIsHomePage() {
-		return isHomePage;
-	}
+        return isHomePage;
+    }
 	public boolean isProdPublish() {
 		return prodPublish;
 	}
 
+    public Boolean getIsAuHomePage() {
+        return isAuHomePage;
+    }
 }

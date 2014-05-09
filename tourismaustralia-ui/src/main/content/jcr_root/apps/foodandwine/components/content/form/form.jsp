@@ -401,13 +401,13 @@
 				</div>
 			</div>
 			
-			<div class="field-container terms-conditions">
+			<%-- <div class="field-container terms-conditions">
 				<div class="input-field input-field-checkbox form-agree-container"
 					data-type="checkbox">
 
 					<fieldset class="options">
 						<input id="additionalcheckbox" class="checkbox" type="checkbox" name="additionalcheckbox"> <label
-							for="additionalcheckbox" name="demo_lbl_2" class="checkbox-label">Select <sup>*</sup>
+							for="additionalcheckbox" name="demo_lbl_2" class="checkbox-label">${form.checkboxTitle } <sup></sup>
 						</label>
 						<!-- Checkbox powered by CssCheckbox.com -->
 						<p class="checkbox-description">
@@ -418,12 +418,12 @@
 					<span class="input-field-validation-icon "></span>
 					<div class="col-xs-12">
 				    	<p class="input-field-validation-alert">
-                           Please accept the terms and conditions
+                           Pleas select the check
                        	</p>					
 					</div>
 				</div>
 			</div>
-
+ --%>
 			<!--  -->
 			<hr class="form-clear">
 			<p class="form-submit-button">

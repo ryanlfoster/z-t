@@ -75,6 +75,9 @@ public class Form {
 	@DialogField(fieldLabel = "Seafood Description", tab = 2)
 	private final String seafoodDescription;
 	
+	@DialogField(fieldLabel="Title", tab=3)
+	private String checkboxTitle;
+	
 	@DialogField(fieldLabel="Description", tab=3)
 	@RichTextEditor(lists = @Lists(indent = false, ordered = false, outdent = false, unordered = false), justify = @Justify(justifycenter = false, justifyleft = false, justifyright = false), styles = @Styles(styles = @Style(cssName = "checkbox-description", text = "checkbos description")), format = @Format(bold = true, underline = true, italic = false))
 	private  String checkboxDescription;
@@ -105,9 +108,14 @@ public class Form {
 		experiencesDescription = properties.get("experiencesDescription", "Experiences");
 		seafoodDescription = properties.get("seafoodDescription", "Seafood");
 		
+		checkboxTitle=properties.get("checkboxTitle",StringUtils.EMPTY);
 		checkboxDescription=properties.get("checkboxDescription",StringUtils.EMPTY);
-		//checkboxDescription=checkboxDescription.replaceAll("<p>", "");
-		//checkboxDescription=checkboxDescription.replaceAll("</p>", "");
+		checkboxDescription=checkboxDescription.replaceAll("<p>", "");
+		checkboxDescription=checkboxDescription.replaceAll("</p>", "");
+	}
+
+	public String getCheckboxTitle() {
+		return checkboxTitle;
 	}
 
 	public String getRestaurantDescription() {

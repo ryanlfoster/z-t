@@ -1,10 +1,10 @@
 package com.australia.utils;
 
-import com.day.cq.tagging.Tag;
-import com.day.cq.wcm.api.NameConstants;
-
 import java.util.List;
 import java.util.Map;
+
+import com.day.cq.tagging.Tag;
+import com.day.cq.wcm.api.NameConstants;
 
 public class QueryUtils {
 	private QueryUtils() {
@@ -27,6 +27,9 @@ public class QueryUtils {
 	public static final String RELPATH = ".relPath";
 	public static final String AND = ".and";
 	public static final String ASC = "asc";
+	public static final String OPERATION = ".operation";
+	public static final String LIKE = "like";
+	public static final String UNEQUALS = "unequals";
 
 	public static void addProperty(Map<String, String> queryMap, int propertyNumber, String property, String value) {
 		queryMap.put(propertyNumber + SEPERATOR + PROPERTY, property);
@@ -48,15 +51,27 @@ public class QueryUtils {
 		}
 	}
 
-	public static void addProperty(final Map<String, String> queryMap, final int propertyNumber,
-		final String property, final List<String> values) {
+	public static void addProperty(final Map<String, String> queryMap, final int propertyNumber, final String property,
+		final List<String> values) {
 		final String prefix = propertyNumber + SEPERATOR + PROPERTY;
 		queryMap.put(prefix, property);
 		int valueNumber = 1;
-		for (final String value: values) {
+		for (final String value : values) {
 			final String valueIndicator = prefix + "." + valueNumber + SEPERATOR + VALUE;
 			queryMap.put(valueIndicator, value);
 			valueNumber++;
 		}
+	}
+
+	public static final void setPropertyAsLike(Map<String, String> queryMap, String property, int propertyNumber) {
+		String propertyPrefix = propertyNumber + SEPERATOR + PROPERTY;
+		queryMap.put(propertyPrefix, property);
+		queryMap.put(propertyPrefix + OPERATION, LIKE);
+	}
+
+	public static void setPropertyAsNot(Map<String, String> queryMap, String property, int propertyNumber) {
+		String propertyPrefix = propertyNumber + SEPERATOR + PROPERTY;
+		queryMap.put(propertyPrefix, property);
+		queryMap.put(propertyPrefix + OPERATION, UNEQUALS);
 	}
 }

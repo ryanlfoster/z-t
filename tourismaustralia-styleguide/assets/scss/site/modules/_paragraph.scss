@@ -67,7 +67,6 @@
     padding-left: pxtoem(15px);
     padding-right: pxtoem(15px);
     margin: 0;
-    padding-bottom: pxtoem($bottom-spacing);
   }
 
   @include breakpoint(md) {
@@ -103,7 +102,6 @@
     padding-left: pxtoem(15px);
     padding-right: pxtoem(15px);
     margin: 0;
-    padding-bottom: pxtoem($bottom-spacing);
   }
 
   @include breakpoint(md) {
@@ -133,7 +131,6 @@
     padding-left: pxtoem(15px);
     padding-right: pxtoem(15px);
     margin: 0;
-    padding-bottom: pxtoem($bottom-spacing);
   }
 
   @include breakpoint(md) {
@@ -170,7 +167,6 @@
     padding-left: pxtoem(15px);
     padding-right: pxtoem(15px);
     margin: 0 auto;
-    padding-bottom: pxtoem($bottom-spacing);
   }
 
   

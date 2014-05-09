@@ -1,0 +1,162 @@
+
+
+
+
+//****----- IMPORTANT ---******
+
+//Mixin is called on the bottom of this page
+
+//****----- IMPORTANT ---******
+
+
+//Variables use for Paragraph spacing in "Content Of Page's"  first level: e.g. p
+$paragraph-spacing-xs : 15px!important;
+$paragraph-spacing-sm : 20px!important;
+$paragraph-spacing-md : 25px!important;
+$paragraph-spacing-lg : 30px!important;
+
+//Variables use for Modules spacing in "Content Of Page's"  first level: e.g. div
+$module-spacing-xs : 60px!important;
+$module-spacing-sm : 70px!important;
+$module-spacing-md : 80px!important;
+$module-spacing-lg : 90px!important;
+
+
+//Mixin for spacing defination
+@mixin spacing-page-modules($page-class-name){
+
+  //All the normal Paragraphs in "Content Of Page's"  first level:
+  .styleguide #{$page-class-name} > p{
+    margin-top: $paragraph-spacing-sm;
+    margin-bottom: $paragraph-spacing-sm;
+
+    @include breakpoint(xs) {
+      margin-top: $paragraph-spacing-xs;
+      margin-bottom: $paragraph-spacing-xs;
+    }
+    @include breakpoint(md) {
+      margin-top: $paragraph-spacing-md;
+      margin-bottom: $paragraph-spacing-md;
+    }
+    @include breakpoint(lg) {
+      margin-top: $paragraph-spacing-lg;
+      margin-bottom: $paragraph-spacing-lg;
+    }
+  }
+
+  //First Paragraph next to any element in "Content Of Page's"  first level:
+  .styleguide #{$page-class-name} > *:not(p) + p{
+    margin-top: $module-spacing-sm;
+    margin-bottom: $paragraph-spacing-sm;
+
+    @include breakpoint(xs) {
+      margin-top: $module-spacing-xs;
+      margin-bottom: $paragraph-spacing-xs;
+    }
+    @include breakpoint(md) {
+      margin-top: $module-spacing-md;
+      margin-bottom: $paragraph-spacing-md;
+    }
+    @include breakpoint(lg) {
+      margin-top: $module-spacing-lg;
+      margin-bottom: $paragraph-spacing-lg;
+    }
+  }
+
+  //Element Next to last paragraph in "Content Of Page's"  first level:
+  .styleguide #{$page-class-name} > p + *:not(p){
+    margin-top: $module-spacing-sm;
+    margin-bottom: $module-spacing-sm;
+
+    @include breakpoint(xs) {
+      margin-top: $module-spacing-xs;
+      margin-bottom: $module-spacing-xs;
+    }
+    @include breakpoint(md) {
+      margin-top: $module-spacing-md;
+      margin-bottom: $module-spacing-md;
+    }
+    @include breakpoint(lg) {
+      margin-top: $module-spacing-lg;
+      margin-bottom: $module-spacing-lg;
+    }
+  }
+
+  //Element That are not p tag in "Content Of Page's" in first level:
+  .styleguide #{$page-class-name} > *:not(p){
+    margin-top: $module-spacing-sm;
+    margin-bottom: $module-spacing-sm;
+
+    @include breakpoint(xs) {
+      margin-top: $module-spacing-xs;
+      margin-bottom: $module-spacing-xs;
+    }
+    @include breakpoint(md) {
+      margin-top: $module-spacing-md;
+      margin-bottom: $module-spacing-md;
+    }
+    @include breakpoint(lg) {
+      margin-top: $module-spacing-lg;
+      margin-bottom: $module-spacing-lg;
+    }
+  }
+
+  //IE-8 hack Element (for div) That are not p tag in "Content Of Page's" in first level:
+  .lt-ie9 .styleguide #{$page-class-name} > div{
+    margin-top: $module-spacing-sm;
+    margin-bottom: $module-spacing-sm;
+
+    @include breakpoint(xs) {
+      margin-top: $module-spacing-xs;
+      margin-bottom: $module-spacing-xs;
+    }
+    @include breakpoint(md) {
+      margin-top: $module-spacing-md;
+      margin-bottom: $module-spacing-md;
+    }
+    @include breakpoint(lg) {
+      margin-top: $module-spacing-lg;
+      margin-bottom: $module-spacing-lg;
+    }
+  }
+
+  //First Element of "Content Of Page's" in first level:
+  .styleguide #{$page-class-name} > *:first-child{
+    margin-top: 0!important;
+  }
+
+  //First Element of "Content Of Page's" in first level:
+  .styleguide #{$page-class-name} > *:last-child{
+    margin-bottom: 0!important;
+  }
+
+  //IE8 Hack First Element of "Content Of Page's" in first level:
+  .lt-ie9 .styleguide #{$page-class-name} > div:first-child{
+    margin-top: 0!important;
+  }
+
+  //IE8 Hack [Does not work, see next class]  Last Element of "Content Of Page's" in first level:
+  .lt-ie9 .styleguide #{$page-class-name} > div:last-child(1){
+    margin-bottom: 0!important;
+  }
+  //IE8 Hack,Above last-child will not work in IE8,so instead footer is moved negative to top
+  .lt-ie9 #main-footer{
+    margin-top: -$module-spacing-sm;
+
+    @include breakpoint(xs) {
+      margin-top: -$module-spacing-xs;
+    }
+    @include breakpoint(md) {
+      margin-top: -$module-spacing-md;
+    }
+    @include breakpoint(lg) {
+      margin-top: -$module-spacing-lg;
+    }
+  }
+}
+
+
+//Call Mixin for pages
+@include spacing-page-modules('.paragraph-article');
+@include spacing-page-modules('.paragraph-home');
+@include spacing-page-modules('.paragraph-state');

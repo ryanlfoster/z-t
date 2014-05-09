@@ -633,6 +633,8 @@ $footerBackgroundColour: #0a334c;
   padding-top: 30px;
 }
 
+//Commented for Standard Spacing
+/*
 .l-padding-b {
   padding-bottom: pxtoem($bottom-spacing);
 
@@ -640,6 +642,8 @@ $footerBackgroundColour: #0a334c;
     padding-bottom: pxtoem($bottom-spacing-double);
   }
 }
+*/
+
 .l-padding-b-standard {
   padding-bottom: pxtoem($bottom-spacing);
 }

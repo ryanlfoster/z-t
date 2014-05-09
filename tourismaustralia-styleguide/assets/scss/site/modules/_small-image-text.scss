@@ -1,7 +1,5 @@
 .small-image-text {
 	position: relative;
-	padding-bottom: pxtoem($bottom-spacing);
-
 	@extend .clearfix;
 }
 

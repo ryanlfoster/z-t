@@ -81,6 +81,9 @@ public class Form {
 	@DialogField(fieldLabel="Description", tab=3)
 	@RichTextEditor(lists = @Lists(indent = false, ordered = false, outdent = false, unordered = false), justify = @Justify(justifycenter = false, justifyleft = false, justifyright = false), styles = @Styles(styles = @Style(cssName = "checkbox-description", text = "checkbos description")), format = @Format(bold = true, underline = true, italic = false))
 	private  String checkboxDescription;
+	
+	@DialogField(fieldLabel="Validation Message",tab=3)
+	private String validationMessage;
 
 	private final String formPath;
 
@@ -112,6 +115,11 @@ public class Form {
 		checkboxDescription=properties.get("checkboxDescription",StringUtils.EMPTY);
 		checkboxDescription=checkboxDescription.replaceAll("<p>", "");
 		checkboxDescription=checkboxDescription.replaceAll("</p>", "");
+		validationMessage=properties.get("validationMessage",StringUtils.EMPTY);
+	}
+
+	public String getValidationMessage() {
+		return validationMessage;
 	}
 
 	public String getCheckboxTitle() {

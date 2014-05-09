@@ -418,7 +418,7 @@
 					<span class="input-field-validation-icon "></span>
 					<div class="col-xs-12">
 				    	<p class="input-field-validation-alert">
-                           Pleas select the check
+                           ${form.validationMessage} 
                        	</p>					
 					</div>
 				</div>

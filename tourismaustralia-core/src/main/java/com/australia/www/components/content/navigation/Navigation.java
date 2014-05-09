@@ -352,7 +352,7 @@ public class Navigation {
 
     public String getMegamenu2LhsCategoryTitle2() { return megamenu2LhsCategoryTitle2; }
 
-    public List<TextLinkWithState> getMegamenu2LhsCategoryTitle2Links() { return megamenu2LhsCategoryTitle3Links; }
+    public List<TextLinkWithState> getMegamenu2LhsCategoryTitle2Links() { return megamenu2LhsCategoryTitle2Links; }
 
     public String getMegamenu2LhsCategoryTitle3() { return megamenu2LhsCategoryTitle3; }
 

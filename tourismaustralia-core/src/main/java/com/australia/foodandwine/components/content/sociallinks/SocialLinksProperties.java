@@ -6,25 +6,34 @@ import com.citytechinc.cq.component.annotations.widgets.PathField;
 
 public class SocialLinksProperties {
 
-	@DialogField(fieldLabel = "Social Links Logo")
+	@DialogField(fieldLabel = "Link Image",required=true,fieldDescription="This image/logo appears on page load")
 	@PathField(rootPath = "/content/dam")
 	private final String socialLinksLogoPath;
 
-	@DialogField(fieldLabel = "Social Links Title", additionalProperties = @FieldProperty(name = "maxLength", value = "30"))
+	@DialogField(fieldLabel = "Link Hover Image",required=true,fieldDescription="This image/logo appears on hover of Link Image")
+	@PathField(rootPath = "/content/dam")
+	private final String linkLogoHoverPath;
+
+	@DialogField(fieldLabel = "Link Title", additionalProperties = @FieldProperty(name = "maxLength", value = "30"))
 	private final String socialLinksTitle;
 
-	@DialogField(fieldLabel = "Social Links Path",fieldDescription = "Please use prefix http:// or https:// (eg. http://www.google.com)")
+	@DialogField(fieldLabel = "Link Path", fieldDescription = "Please use prefix http:// or https:// (eg. http://www.google.com)")
 	private final String socialLinks;
 
-	public SocialLinksProperties(String socialLinksLogoPath, String socialLinksAltTag, String socialLinksTitle,
-		String socialLinks) {
+	public SocialLinksProperties(String socialLinksLogoPath, String linkLogoHoverPath, String socialLinksAltTag,
+		String socialLinksTitle, String socialLinks) {
 		this.socialLinks = socialLinks;
 		this.socialLinksLogoPath = socialLinksLogoPath;
+		this.linkLogoHoverPath = linkLogoHoverPath;
 		this.socialLinksTitle = socialLinksTitle;
 	}
 
 	public String getSocialLinksLogoPath() {
 		return socialLinksLogoPath;
+	}
+
+	public String getLinkLogoHoverPath() {
+		return linkLogoHoverPath;
 	}
 
 	public String getSocialLinksTitle() {

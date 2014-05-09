@@ -16,18 +16,18 @@ import com.citytechinc.cq.component.annotations.widgets.NumberField;
 	@Listener(name = "aftercopy", value = "REFRESH_PAGE"), @Listener(name = "afterdelete", value = "REFRESH_PAGE"),
 	@Listener(name = "afteredit", value = "REFRESH_PAGE"), @Listener(name = "afterinsert", value = "REFRESH_PAGE") })
 public class Diamond {
-	private String numberFormat;
+	private final String numberFormat;
 	NumberFormat numberFormatter;
 
-	@DialogField(fieldLabel="Number",fieldDescription="(Maximum 9 Digits)",required=true,additionalProperties=@FieldProperty(name="maxLength",value="9"))
-	@NumberField(allowDecimals=false,allowNegative=false)
-	private long number;
+	@DialogField(fieldLabel = "Number", fieldDescription = "Maximum 7 digit limit", required = true, additionalProperties = @FieldProperty(name = "maxLength", value = "7"))
+	@NumberField(allowDecimals = false, allowNegative = false)
+	private final long number;
 
-	@DialogField(fieldLabel = "Center Text", fieldDescription = "(Maximum 20 characters)", additionalProperties = @FieldProperty(name = "maxLength", value = "20"))
-	private String centerText;
+	@DialogField(fieldLabel = "Center Text", fieldDescription = "Maximum 20 character limit", additionalProperties = @FieldProperty(name = "maxLength", value = "20"))
+	private final String centerText;
 
-	@DialogField(fieldLabel="Bottom Text",fieldDescription="(Maximum 15 characters)",additionalProperties=@FieldProperty(name="maxLength",value="15"))
-	private String bottomText;
+	@DialogField(fieldLabel = "Bottom Text", fieldDescription = "Maximum 20 character limit", additionalProperties = @FieldProperty(name = "maxLength", value = "20"))
+	private final String bottomText;
 
 	public Diamond(SlingHttpServletRequest request) {
 		ValueMap properties = request.getResource().adaptTo(ValueMap.class);

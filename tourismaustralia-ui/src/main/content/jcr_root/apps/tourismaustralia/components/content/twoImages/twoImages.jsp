@@ -1,6 +1,5 @@
 <%@include file="/apps/tourismaustralia/components/global.jsp"%>
 <%@ page import="com.australia.www.components.content.twoimages.TwoImages" %>
-<%@ page import="com.day.cq.wcm.api.WCMMode" %>
 
 <c:set var="twoImages" value="<%=new TwoImages(slingRequest) %>"/>
 

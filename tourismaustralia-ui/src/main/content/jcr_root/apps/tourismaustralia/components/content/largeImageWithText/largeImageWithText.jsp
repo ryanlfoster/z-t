@@ -1,6 +1,5 @@
 <%@include file="/apps/tourismaustralia/components/global.jsp"%>
 <%@ page import="com.australia.www.components.content.largeimagewithtext.LargeImageWithText" %>
-<%@ page import="com.day.cq.wcm.api.WCMMode" %>
 
 <c:set var="liwt" value="<%=new LargeImageWithText(slingRequest) %>"/>
 

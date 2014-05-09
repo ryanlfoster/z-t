@@ -451,6 +451,13 @@ $footerBackgroundColour: #0a334c;
   }
 }
 
+.l-xs-to-md-text-align-center {
+  text-align: center;
+  @include breakpoint(md) {
+    text-align: left;
+  }
+}
+
 
 
 .l-right-xs--1 {

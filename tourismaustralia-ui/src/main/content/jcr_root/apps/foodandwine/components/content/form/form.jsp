@@ -401,7 +401,7 @@
 				</div>
 			</div>
 			
-			<%-- <div class="field-container terms-conditions">
+			<div class="field-container terms-conditions">
 				<div class="input-field input-field-checkbox form-agree-container"
 					data-type="checkbox">
 
@@ -423,7 +423,7 @@
 					</div>
 				</div>
 			</div>
- --%>
+
 			<!--  -->
 			<hr class="form-clear">
 			<p class="form-submit-button">

@@ -25,7 +25,7 @@ import java.util.List;
 /**
  * Created by wma on 28/04/2014.
  */
-@Component(value = "Navigation",  dialogWidth = 500, disableTargeting = true, group = ".hidden", tabs = { @Tab(title = "Arrival Bar"), @Tab(title = "Navigation Bar"), @Tab(title = "Megamenu 1"), @Tab(title = "Megamenu 2"), @Tab(title = "Megamenu 3") }, listeners = {
+@Component(value = "Navigation", dialogWidth = 600, disableTargeting = true, group = ".hidden", tabs = { @Tab(title = "Arrival Bar"), @Tab(title = "Navigation Bar"), @Tab(title = "Megamenu 1"), @Tab(title = "Megamenu 2"), @Tab(title = "Megamenu 3") }, listeners = {
         @Listener(name = "aftercopy", value = "REFRESH_PAGE"), @Listener(name = "afterdelete", value = "REFRESH_PAGE"),
         @Listener(name = "afteredit", value = "REFRESH_PAGE"), @Listener(name = "afterinsert", value = "REFRESH_PAGE") })
 public class Navigation {
@@ -352,7 +352,7 @@ public class Navigation {
 
     public String getMegamenu2LhsCategoryTitle2() { return megamenu2LhsCategoryTitle2; }
 
-    public List<TextLinkWithState> getMegamenu2LhsCategoryTitle2Links() { return megamenu2LhsCategoryTitle3Links; }
+    public List<TextLinkWithState> getMegamenu2LhsCategoryTitle2Links() { return megamenu2LhsCategoryTitle2Links; }
 
     public String getMegamenu2LhsCategoryTitle3() { return megamenu2LhsCategoryTitle3; }
 

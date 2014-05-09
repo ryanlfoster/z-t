@@ -1,23 +1,52 @@
 ---
 title: Mosaic Standard - Whats Coming Up
 ---
-<div class="mosaic">
+
+{{#if captions}}
+    <div class="mosaic mosaic-with-captions">
+{{else}}
+    <div class="mosaic">
+{{/if}}
 
     <div class="row l-row-collapse">
 
         <div class="row">
 
-            {{> mosaic_whatscomingup_grid_1 }}
+            {{#if captions}}
+                {{#parseJSON '{"captions": true}'}}
+                    {{> mosaic_whatscomingup_grid_1 }}
+                {{/parseJSON}}
+            {{else}}
+                {{> mosaic_whatscomingup_grid_1 }}
+            {{/if}}
 
-            {{> mosaic_whatscomingup_grid_4 }}
+            {{#if captions}}
+                {{#parseJSON '{"captions": true}'}}
+                    {{> mosaic_whatscomingup_grid_4 }}
+                {{/parseJSON}}
+            {{else}}
+                {{> mosaic_whatscomingup_grid_4 }}
+            {{/if}}
 
         </div>
 
         <div class="row">
 
-            {{> mosaic_whatscomingup_grid_4 }}
+            {{#if captions}}
+                {{#parseJSON '{"captions": true}'}}
+                    {{> mosaic_whatscomingup_grid_4 }}
+                {{/parseJSON}}
+            {{else}}
+                {{> mosaic_whatscomingup_grid_4 }}
+            {{/if}}
 
-            {{> mosaic_whatscomingup_grid_1 }}
+            {{#if captions}}
+                {{#parseJSON '{"captions": true}'}}
+                    {{> mosaic_whatscomingup_grid_1 }}
+                {{/parseJSON}}
+            {{else}}
+                {{> mosaic_whatscomingup_grid_1 }}
+            {{/if}}
 
         </div>
 

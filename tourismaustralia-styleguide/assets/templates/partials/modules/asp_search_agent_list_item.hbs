@@ -1,0 +1,152 @@
+---
+title: ASP Seach Agent List Item
+---
+
+
+    <div class="asp-search-agent-list-item">
+        <div class="row">
+            <div class="col-xs-12 col-sm-2">
+
+                <div class="asp-search-agent-list-item-agent-image">
+                    <img src="{{#if image_url}}{{image_url}}{{else}}imgs/placeholders/image_social_image.jpg{{/if}}" alt="" />
+                </div>
+
+                <div class="asp-search-agent-list-item-logo">
+                    <img src="imgs/placeholders/agent-logo.jpg" alt="" />
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-7">
+                <h3 class="type-h4 asp-search-agent-list-item-name l-margin-0">Anna Bashford</h3>
+                <p class="asp-search-agent-list-item-company l-margin-0">Beaver Travel</p>
+                <p class="asp-search-agent-list-item-link l-margin-0"><a href="#">www.beavertravel.com</a></p>
+
+                <div class="asp-search-agent-list-item-contact-wrapper">
+                    <p class="asp-search-agent-list-item-phone l-margin-0"><strong>Phone:</strong> 019 2385 4986</p>
+                    <p class="asp-search-agent-list-item-address l-margin-0"><strong>Address:</strong> 301 Watling Street, Radlett, Hetfordshire, United Kingdom, WD7 7LA <a href="#">View Map</a></p>
+                </div>
+
+                <p class="asp-search-agent-list-item-description">Anne Bashford has spent most of her working life in the travel industry and has... <a href="#">More</a></p>
+            </div>
+            <div class="col-xs-12 col-sm-3">
+                <div class="asp-search-agent-list-item-right">
+
+                    <div class="asp-search-agent-list-item-accreditation-image">
+                        <img src="{{#if image_url}}{{image_url}}{{else}}imgs/placeholders/image_social_image.jpg{{/if}}" alt="" />
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="asp-search-agent-list-item-btn">
+                <a href="#" class="btn-primary transparent">Email Agent</a>
+            </div>
+
+        </div>
+
+        <div class="asp-search-agent-list-item-form">
+
+            <a class="asp-search-agent-list-item-form-close-btn" href="#"><img src="imgs/icons/close_button_std.png" alt=""/></a>
+
+            <p><strong>To: e.smith@bevertravel.com.au</strong></p>
+
+            <form method="" action="#">
+
+                <div class="row">
+
+                    <div class="col-xs-12 col-sm-4">
+
+                        <div class="input-field" data-type="text">
+                            <div class="inputFocus-wrapper">
+                                <label class="name-input-label" for="yourname">Your name*</label>
+                                <input class="input-field-input" name="yourname" type="text" placeholder="Your name*">
+                                <span class="input-field-validation-icon"></span>
+                            </div>
+                            <div class="col-xs-12">
+                                <p class="input-field-validation-alert">
+                                    Please enter a valid name
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="input-field" data-type="mail">
+                            <div class="inputFocus-wrapper">
+                                <label class="email-input-label" for="youremail">Your email*</label>
+                                <input class="input-field-input" name="youremail" type="text" placeholder="Your email*">
+                                <span class="input-field-validation-icon"></span>
+                            </div>
+                            <div class="col-xs-12">
+                                <p class="input-field-validation-alert">
+                                    Please enter a valid email address
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="input-field" data-type="number">
+                            <div class="inputFocus-wrapper">
+                                <label class="name-input-label" for="yourphone">Your phone*</label>
+                                <input class="input-field-input" name="yourphone" type="text" placeholder="Your phone*">
+                                <span class="input-field-validation-icon"></span>
+                            </div>
+                            <div class="col-xs-12">
+                                <p class="input-field-validation-alert">
+                                    Please enter a valid phone number
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-8">
+                        <div class="inputFocus-wrapper">
+                            <label class="message-input-label" for="message">Hi, I'm planning a trip to Australia around [ time ].  I'm interested in [ seeing/doing ]. Please contact me to make it happen!</label>
+
+                            <textarea class="message-input" name="message" >Hi, I'm planning a trip to Australia around [ time ].  I'm interested in [ seeing/doing ]. Please contact me to make it happen!</textarea>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-9">
+                        <div class="inputFocus-wrapper no-focus">
+                            <input class="checkbox-input" name="include-dream-trip" type="checkbox" />
+                            <label class="checkbox-input-label checkbox-label" for="include-dream-trip">Include my dream trip details</label>
+                        </div>
+
+
+                        <div class="input-field input-field-checkbox form-agree-container" data-type="checkbox">
+                            <div class="inputFocus-wrapper no-focus">
+                                <input class="checkbox-input" name="privacy" type="checkbox">
+                                <label for="privacy" class="checkbox-input-label checkbox-label">I agree with the privacy, terms and conditions</label>
+                            </div>
+
+                            <span class="input-field-validation-icon"></span>
+                            <div class="col-xs-12">
+                                <p class="input-field-validation-alert">
+                                    Please accept the terms and conditions
+                                </p>
+                            </div>
+                        </div>
+
+                        <p><small>This email will be copied to the local office of Tourism Australia for record and quality control purposes only. Tourism Australia is bound by its Privacy policy and this record will not be used for any marketing or contact purpose and will be destroyed after 6 months.</small></p>
+                        <div class="inputFocus-wrapper no-focus">
+                            <input class="checkbox-input" name="receive-email-copy" type="checkbox" />
+                            <label class="checkbox-input-label checkbox-label" for="receive-email-copy">If you do not wish Tourism Australia to receive a copy of this email then please tick this box.</label>
+                        </div>
+
+
+
+
+                    </div>
+                    <div class="col-xs-12 col-sm-3">
+                        <div class="asp-search-agent-list-item-form-btn">
+                            <input onclick="return validateForm(this);" type="submit" value="Send Email" class="btn-primary transparent">
+                        </div>
+                    </div>
+                </div>
+
+            </form>
+
+        </div>
+
+
+
+    </div>
+

@@ -1,5 +1,6 @@
 <%@include file="/apps/tourismaustralia/components/global.jsp" %>
 <%@ page import="com.australia.www.components.page.global.Global" %>
+<%@ page import="com.day.cq.wcm.api.WCMMode" %>
 
 <c:set var="global" value="<%=new Global(slingRequest) %>"/>
 
@@ -23,10 +24,11 @@
  	<meta name="DC.Description" content="${global.description}"/>
   	<meta name="DC.Date" content="${global.lastModified}"/> 
  	<meta name="DC.Type" content="text"/>
- 
+
     <cq:include script="headlibs.jsp"/>
     <cq:include script="/libs/wcm/core/components/init/init.jsp"/>
     <cq:include script="stats.jsp"/>
+
     <c:if test="${not empty global.favIcon}">
         <link rel="icon" type="image/vnd.microsoft.icon" href="${global.favIcon}"/>
         <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="${global.favIcon}"/>

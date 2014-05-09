@@ -101,6 +101,9 @@ public class DefaultContentSearchService implements ContentSearchService {
 			predicateMap.put(groupProp2Prefix + ".operation", "exists");
 			predicateMap.put(groupProp2Prefix + ".value", "false");
 
+			predicateMap.put("orderby", "@jcr:content/cq:lastModified");
+			predicateMap.put("orderby.sort", "desc");
+
 			predicateMap.put(QueryUtils.OFFSET, Long.toString((parameters.getPage() - 1) * parameters.getCount()));
 			predicateMap.put(QueryUtils.LIMIT, Long.toString(parameters.getCount()));
 

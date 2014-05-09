@@ -1,0 +1,33 @@
+---
+title: Dream Trip
+layout: layout-base.hbs
+---
+
+{{#parseJSON '{
+    "hero_image" : "hero-dreamtrip",
+    "hero_title" : "My Dream Trip"
+}'}}
+    {{> slimheader }}
+{{/parseJSON}}
+
+<div class="paragraph-dreamtrip">
+
+    {{#parseJSON '{
+    "page_title" : "Dream Trip"
+}'}}
+        {{> breadcrumbsdynamic }}
+    {{/parseJSON}}
+
+    <div class="dreamtrip-shared">
+        {{> shareicons_left_container }}
+    </div>
+
+    {{> dreamtrip_grid }}
+
+    {{> dreamtrip_grid }}
+
+    {{> dreamtrip_grid }}
+
+    {{> categorylinks_city_sydney }}
+
+</div>

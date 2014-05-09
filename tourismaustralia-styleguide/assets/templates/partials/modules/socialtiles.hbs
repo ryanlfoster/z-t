@@ -10,7 +10,24 @@ title: Social Tiles
             {{> sectionintro }}
         {{/parseJSON}}
 
-        {{> mosaic_socialtiles }}
+        {{#if copy}}
+            <div class="l-center-640 type-center">
+                <p class="type-intro">
+                    {{{copy}}}
+                </p>
+            </div>
+        {{/if}}
+
+        {{#if single_row}}
+            {{#parseJSON '{"single_row": true}'}}
+                {{> mosaic_socialtiles }}
+            {{/parseJSON}}
+        {{else}}
+            {{#parseJSON '{"single_row": false}'}}
+                {{> mosaic_socialtiles }}
+            {{/parseJSON}}
+        {{/if}}
+
 
         <div class="socialtiles-linethrough">
             {{#parseJSON '{"copy": "Want to join the conversation?"}'}}

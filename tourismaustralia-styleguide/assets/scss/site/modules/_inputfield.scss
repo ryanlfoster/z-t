@@ -1,0 +1,79 @@
+$color-light-grey: #e0e0e0;
+$color-grey: #f5f5f5;
+$color-black: #000000;
+
+/* Input field */
+
+.input-field{
+    margin-bottom: 1.4em;
+    position: relative;
+}
+
+.input-field-checkbox{
+    border: none;
+    height: auto;
+}
+.input-field .input-field-input{
+  padding-right: 2.5em!important;
+}
+
+.input-field-validation-icon{
+    background: none;
+    background-repeat: no-repeat;
+    width: pxtoem(33px);
+    height: pxtoem(33px);
+    position: absolute;
+    right: 0.4em;
+    top: 0.4em;
+}
+
+
+.input-field-validation-icon-true{
+   background: url('../imgs/base/input-isvalid-icon.png'); 
+}
+.input-field-validation-icon-false{
+   background: url('../imgs/base/input-isnotvalid-icon.png'); 
+}
+
+.input-field-validation-alert{
+    text-align: right!important;
+    color: #c13f2d!important;
+    margin: 0;
+    padding: 0;
+    font-size: 0.8em;
+    display: none;
+    white-space: nowrap;
+}
+
+.input-field-checkbox{
+    .input-field-validation-icon
+    {
+        margin-top: -1em;
+    }
+
+    .input-field-validation-alert{
+        margin-top: 0;
+
+    }
+}
+
+.input-field-validation-show{
+    display: block;
+}
+.input-field-validation-hide{
+    display: none;
+}
+
+
+.form-conatiner{
+  .input-field-select{
+    .input-field-validation-icon{right:pxtoem(50px);}
+  }
+}
+//validation Icon appears above the Dropdown arrow, results the arrow cursor as normal
+.input-field-select{
+  .input-field-validation-icon{z-index: -1;}
+  .input-field-validation-icon-false{z-index: 1;}
+  .input-field-validation-icon-true{z-index: 1;}
+}
+

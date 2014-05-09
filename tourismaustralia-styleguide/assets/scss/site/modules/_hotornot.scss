@@ -1,0 +1,332 @@
+.hotornot-selector {
+  position: relative;
+  /*padding: 0;
+  @include breakpoint(sm) {
+    padding: 0 pxtoem(15px);
+  }*/
+  padding-bottom: pxtoem($bottom-spacing);
+}
+
+.hotornot-images {
+  position: relative;
+}
+.hotornot-refresh {
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: 53px;
+  z-index: 3;
+  bottom: -1.5em;
+  @include breakpoint(md){
+    bottom: 1em;
+  }
+  @include breakpoint(lg){
+    bottom: 2em;
+  }
+}
+
+.hotornot-h2-responsive {
+  color: #fff;
+  font-size: pxtoem(30px);
+  //margin-bottom: 1em;
+  line-height: .9em;
+  @include breakpoint(sm){
+    font-size: pxtoem(40px);
+  }
+  @include breakpoint(md){
+    font-size: pxtoem(60px);
+    margin-bottom: .2em;
+  }
+  @include breakpoint(lg){
+    font-size: pxtoem(80px);
+    margin-bottom: .2em;
+  }
+}
+.hotornot-category {
+  text-align: center;
+  padding: 0 1em 1em;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  @include breakpoint(md) {
+    padding: 0 2em;
+  }
+}
+
+.hotornot-like {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 35%;
+  text-align: center;
+}
+
+.hotornot-spacer-fill {
+  width: 100%;
+  height: pxtoem(280px);
+  @include breakpoint(md){
+    height: pxtoem(170px);
+  }
+  @include breakpoint(lg){
+    height: 100%;
+  }
+}
+.hotornot-background-image {
+
+  left: 0;
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+
+  height: pxtoem(244px);
+
+  -webkit-transition: 0.6s;
+  -moz-transition: 0.6s;
+  -o-transition: 0.6s;
+  -ms-transition: 0.6s;
+  transition: 0.6s;
+
+  @include breakpoint(sm){
+    height: pxtoem(306px);
+  }
+  @include breakpoint(md){
+    height: pxtoem(368px);
+  }
+  @include breakpoint(lg){
+    height: pxtoem(430px);
+  }
+}
+
+.hotornot-category-item-fixed {
+  width: pxtoem(320px);
+  position: relative;
+  display: table-cell;
+  vertical-align: top;
+}
+.hototnot-mosaic {
+  display: table-cell;
+}
+
+//////////////////
+// HOT OR NOT ITEM
+//////////////////
+.hotornot-item {
+  padding: 0;
+  @include breakpoint(sm) {
+    //padding: 0 pxtoem(15px);
+  }
+  padding-bottom: pxtoem($bottom-spacing);
+}
+
+.hotornot-category-image {
+  width: 100%;
+  opacity: 0;
+  @include breakpoint(lg) {
+    max-height: pxtoem(430px);
+    opacity: 1;
+  }
+}
+
+.hotornot-item-background-image {
+
+  left: 0;
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+
+  height: pxtoem(280px);
+  @include breakpoint(md){
+    height: pxtoem(170px);
+  }
+  @include breakpoint(lg){
+    height: 100%;
+    img {
+      margin-top: 0px !important;
+    }
+  }
+}
+
+.hotornot-item-tile {
+  padding: 0;
+  position: relative;
+}
+
+.hotornot-item-padding {
+  @include breakpoint(lg){
+    margin: 0.1875em 0.1875em 0 0;
+  }
+  position: relative;
+}
+
+.hotornot-item-category {
+  text-align: center;
+  padding: 0 1em;
+  position: absolute;
+  bottom: 70px;
+  width: 100%;
+  height: pxtoem(100px);
+  display: table;
+  @include breakpoint(sm) {
+    //padding-bottom: 1.7em;
+  }
+  @include breakpoint(md) {
+    bottom: 0;
+    padding-bottom: 0em;
+    height: pxtoem(100px);
+  }
+  @include breakpoint(lg) {
+    padding-bottom: 1em;
+    height: pxtoem(170px);
+  }
+}
+.hotornot-item-h2-responsive {
+  //color: #fff;
+  color: inherit;
+  font-size: pxtoem(48px);
+  line-height: .9em;
+  vertical-align: middle;
+  display: table-cell;
+  @include breakpoint(sm){
+    font-size: pxtoem(48px);
+  }
+  @include breakpoint(md){
+    font-size: pxtoem(60px);
+  }
+  @include breakpoint(lg){
+    font-size: pxtoem(56px);
+  }
+}
+
+.hotornot-diamond {
+  position: absolute;
+  top: 1em;
+  width: 100%;
+  //border-bottom: 2px solid #000;
+  text-align: center;
+  @include breakpoint(sm){
+    top: pxtoem(20px);
+  }
+  @include breakpoint(md){
+    top: 0.2em;
+  }
+  @include breakpoint(lg){
+    top: pxtoem(44px);
+  }
+}
+
+.hotornot-close-btn {
+  position: absolute;
+  top: .2em;
+  right: .2em;
+}
+.hotornot-item-btn-position {
+  position: absolute;
+  bottom: 1em;
+  text-align: center;
+  z-index: 3;
+  width: 100%;
+  @include breakpoint(md){
+    display: none;
+  }
+}
+.hotornot-item-btn-bottom-position {
+  text-align: center;
+  margin: 0 0 1em;
+}
+
+.hotornot-diamond-img-container {
+  position: relative;
+}
+.hotornot-diamond-img {
+  top: pxtoem(27px);
+  position: relative;
+}
+.hotornot-diamond-img-bg {
+  //background: #ffc20e;
+  left: 0;
+  position: absolute;
+  top: 1.6875em;
+  bottom: -2em;
+  right: 0;
+  margin: 0 2px;
+}
+
+
+///////////////////
+// STATES for hotornot-item
+//////////////////
+// if is-hotornot-hide-mobile, we hide the mosaic elements, show the +
+// and hide the -
+.hotornot-item {
+
+  -webkit-transition: max-height 1.5s cubic-bezier(0.94, 0.95, 0.05, 0.95);
+  -moz-transition: max-height 1.5s cubic-bezier(0.94, 0.95, 0.05, 0.95);
+  -o-transition: max-height 1.5s cubic-bezier(0.94, 0.95, 0.05, 0.95);
+  -ms-transition: max-height 1.5s cubic-bezier(0.94, 0.95, 0.05, 0.95);
+  transition: max-height 1.5s cubic-bezier(0.94, 0.95, 0.05, 0.95);
+  max-height: 9999px;
+
+  &.is-hidden {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0;
+
+    -webkit-transition: max-height 0.5s cubic-bezier(0.05, 0.95, 0.05, 0.95);
+    -moz-transition: max-height 0.5s cubic-bezier(0.05, 0.95, 0.05, 0.95);
+    -o-transition: max-height 0.5s cubic-bezier(0.05, 0.95, 0.05, 0.95);
+    -ms-transition: max-height 0.5s cubic-bezier(0.05, 0.95, 0.05, 0.95);
+    transition: max-height 0.5s cubic-bezier(0.05, 0.95, 0.05, 0.95);
+  }
+
+  .hotornot-show-btn {
+    @include breakpoint(md){
+      display: none;
+    }
+  }
+  .hotornot-hide-btn {
+    display: none;
+  }
+  .hotornot-item-grid {
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+    -ms-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+    max-height: 0;
+    overflow: hidden;
+    @include breakpoint(md){
+      display: inherit;
+      -webkit-transition: inherit;
+      -moz-transition: inherit;
+      -o-transition: inherit;
+      -ms-transition: inherit;
+      transition: inherit;
+      max-height: pxtoem(9999px);
+    }
+  }
+}
+// plus has been clicked so we reveal the mosaic grid, swap the + for a -
+.hotornot-item.is-expanded {
+  .hotornot-show-btn {
+    display: none;
+  }
+  .hotornot-hide-btn {
+    display: block;
+  }
+  .hotornot-item-grid {
+    -webkit-transition: max-height 0.5s cubic-bezier(0.94, 0.06, 0.94, 0.06);
+    -moz-transition: max-height 0.5s cubic-bezier(0.94, 0.06, 0.94, 0.06);
+    -o-transition: max-height 0.5s cubic-bezier(0.94, 0.06, 0.94, 0.06);
+    -ms-transition: max-height 0.5s cubic-bezier(0.94, 0.06, 0.94, 0.06);
+    transition: max-height 0.5s cubic-bezier(0.94, 0.06, 0.94, 0.06);
+    max-height: 9999px;
+  }
+  @include breakpoint(md){
+    .hotornot-hide-btn {
+      display: none;
+    }
+  }
+}

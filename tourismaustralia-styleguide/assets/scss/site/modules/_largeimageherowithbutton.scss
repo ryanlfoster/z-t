@@ -1,5 +1,4 @@
-.hero-404 {
-  margin-bottom: pxtoem(43px);
+.large-image-hero-with-button {
   position: relative;
   width:  auto;
   height: 750px;
@@ -10,17 +9,21 @@
   //@include transition (height, 1s, cubic-bezier(0.455, 0.030, 0.515, 0.955), .1s);
 
   @include breakpoint(sm) {
-    height: 678px;
+    height: 598px;
+  }
+
+  @include breakpoint(lg) {
+    margin-bottom: pxtoem(43px);
   }
 }
-.hero-404.make-white {
+.large-image-hero-with-button.make-white {
   color: #FFF;
 }
-.hero-404.make-black {
+.large-image-hero-with-button.make-black {
   color: #040000;
 }
 
-.hero-404-bg {
+.large-image-hero-with-button-bg {
   width: 100%;
   height: 100%;
   position: fixed;
@@ -41,15 +44,14 @@
   }
 }
 
-
-.hero-404-text-table-container {
+.large-image-hero-with-button-text-table-container {
   vertical-align: middle;
   display: table;
   height: 100%;
   width: 100%;
   position: relative;
 }
-.hero-404-text-table-cell {
+.large-image-hero-with-button-text-table-cell {
 
   font-size: 16px; // return to base
 
@@ -60,10 +62,11 @@
   padding-right:15px ;
   text-align: center;
   @include breakpoint(sm) {
-    padding-bottom: 70px;
+    padding-top: 14px;
+    padding-bottom: 0;
   }
 }
-.hero-404-title{
+.large-image-hero-with-button-title{
 
   color: #fff;
   margin-bottom: 0;
@@ -82,18 +85,35 @@
     margin: 0 auto;
   }
 }
-.hero-404-text{
+.large-image-hero-with-button-text{
   padding:12px 0 37px 0;
 }
-.hero-404-text p{
+.large-image-hero-with-button-text p{
   color: #fff;
   font-size: pxtoem(18px);
   line-height:1.5em;
   margin: 0;
 }
-.hero-404-text-table-cell .image-btn
+.large-image-hero-with-button-text-table-cell .image-btn
 {
-  color: #FFF;
+  color: #00535e;
+  background: #fff;
   border: 1px solid #e6e8e2;
   margin: 0 10px 20px 10px;
+  &:hover {
+    color: #fff;
+    background: #00535e;
+    border-color: #00535e;
+  }
 }
+
+//In iPhone5 Portrait mode, image was not rendered properly on page load. Because Menu bar shows on page load and height of image was rendered till Menu Bar top
+.large-image-hero-with-button-bg img{
+  @include iphone5portrait(){
+    width:568px!important;
+    height:568px!important;
+    margin-top: 0!important;
+    margin-left: -124px!important;
+  }
+}
+

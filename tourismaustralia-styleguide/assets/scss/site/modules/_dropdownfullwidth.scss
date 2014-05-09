@@ -1,0 +1,35 @@
+
+
+.dropdown-full-width{
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid $search-text-color;
+}
+
+.dropdown-full-width-style {
+  margin: 0 auto;
+  //width: $dropdownCountryLanguageWidth;
+  height: 44px;
+  overflow: hidden;
+  font-family: $font-family-base;
+  background: #fff url("../imgs/ui/select_full_width.png") no-repeat center right;  /*Adds background-image*/
+  text-shadow:0 0 1px #eee;
+}
+
+.dropdown-full-width select {
+  padding: 13px 54px 17px 10px;
+  width: 130%;
+  height: 50px;
+  line-height: 1em;
+  border: 0 !important;  /*Removes border*/
+  box-shadow: none;
+  background: transparent;
+  font-size: pxtoem(14px);
+  background-image: none;
+  -webkit-appearance: none;  /*Removes default chrome and safari style*/
+  -moz-appearance: none; /* Removes Default Firefox style*/
+  text-indent: 0.01px; /* Removes default arrow from firefox*/
+  text-overflow: "";  /*Removes default arrow from firefox*/
+  color: $search-text-color;
+}
+

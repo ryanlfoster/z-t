@@ -1,0 +1,18 @@
+---
+layout: layout-base.hbs
+---
+
+<div class="paragraph-contact-us">
+    <div class="contactus">
+        {{#parseJSON '{"page_title" : "Contact Us"}'}}
+            {{> breadcrumbsdynamic }}
+        {{/parseJSON}}
+
+        {{#parseJSON '{"title": "FAQS","copy": "View our most popular questions and guides."}'}}
+            {{> sectiontitle}}
+        {{/parseJSON}}
+
+        {{> contactus_content}}
+        {{> contactus_form}}
+    </div>
+</div>

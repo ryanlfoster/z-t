@@ -1,5 +1,6 @@
 package com.australia.content.domain;
 
+import com.australia.pagecategories.PageCategory;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ValueMap;
 
@@ -16,6 +17,7 @@ public class Content {
 	private final String title;
 	private final String text;
 	private final String imagePath;
+	private final PageCategory pageCategory;
 
 	/**
 	 * Builds a Content object with no date information
@@ -25,11 +27,13 @@ public class Content {
 	 * @param text
 	 * @param imagePath
 	 */
-	public Content(final String path, final String title, final String text, final String imagePath) {
+	public Content(final String path, final String title, final String text, final String imagePath,
+		final PageCategory pageCategory) {
 		this.path = path + ".html";
 		this.title = title;
 		this.text = text;
 		this.imagePath = imagePath;
+		this.pageCategory = pageCategory != null ? pageCategory : PageCategory.ABORIGINAL_AUSTRALIA;
 	}
 
 	public String getPath() {
@@ -48,6 +52,10 @@ public class Content {
 		return imagePath;
 	}
 
+	public PageCategory getPageCategory() {
+		return pageCategory;
+	}
+
 	public static Content fromResource(final Resource resource) {
 		final ValueMap properties = resource.adaptTo(ValueMap.class);
 		final String templateType = properties.get("jcr:content/cq:template", String.class);
@@ -64,9 +72,10 @@ public class Content {
 		final String path = resource.getPath();
 		final ValueMap properties = resource.adaptTo(ValueMap.class);
 		final String title = properties.get("jcr:content/jcr:title", String.class);
-		final String text = properties.get("jcr:content/summary/text", String.class);
+		final String text = properties.get("jcr:content/jcr:description", String.class);
 		final String imagePath = properties.get("jcr:content/image/fileReference", String.class);
-		return new Content(path, title, text, imagePath);
+		final String pageCategoryString = properties.get("jcr:content/ausPageCategory", String.class);
+		return new Content(path, title, text, imagePath, PageCategory.fromDisplayString(pageCategoryString));
 	}
 
 	private static Content fromProductResource(final Resource resource) {
@@ -75,6 +84,6 @@ public class Content {
 		final String title = properties.get("jcr:content/jcr:title", String.class);
 		final String text = properties.get("jcr:content/jcr:description", String.class);
 		final String imagePath = properties.get("jcr:content/atdwImage", String.class);
-		return new Content(path, title, text, imagePath);
+		return new Content(path, title, text, imagePath, null);
 	}
 }

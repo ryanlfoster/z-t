@@ -33,6 +33,7 @@
                 font-size: pxtoem(18px);
             }
 
+            /*
             &:nth-child(1) .megamenu-map-filter {
                 top: pxtoem(60px);
             }
@@ -42,6 +43,20 @@
             }
 
             &:nth-child(3) .megamenu-map-filter {
+                top: pxtoem(120px);
+            }
+            */
+
+            // this is difficult to manage...
+            .megamenu-map-filter.filter-1 {
+                top: pxtoem(60px);
+            }
+
+            .megamenu-map-filter.filter-2 {
+                top: pxtoem(90px);
+            }
+
+            .megamenu-map-filter.filter-3 {
                 top: pxtoem(120px);
             }
 

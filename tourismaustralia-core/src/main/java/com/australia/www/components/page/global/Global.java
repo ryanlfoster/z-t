@@ -1,16 +1,7 @@
 package com.australia.www.components.page.global;
 
-import org.apache.commons.lang.StringUtils;
-import org.apache.sling.api.SlingHttpServletRequest;
-import org.apache.sling.api.resource.Resource;
-import org.apache.sling.api.resource.ValueMap;
-import org.apache.sling.api.scripting.SlingBindings;
-import org.apache.sling.api.scripting.SlingScriptHelper;
-import org.apache.sling.settings.SlingSettingsService;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import com.adobe.granite.xss.XSSAPI;
+import com.australia.pagecategories.PageCategory;
 import com.australia.server.ServerNameService;
 import com.australia.utils.ServerUtils;
 import com.australia.www.components.page.sharethis.ShareThis;
@@ -27,6 +18,15 @@ import com.day.cq.wcm.commons.WCMUtils;
 import com.day.cq.wcm.foundation.Image;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.apache.commons.lang.StringUtils;
+import org.apache.sling.api.SlingHttpServletRequest;
+import org.apache.sling.api.resource.Resource;
+import org.apache.sling.api.resource.ValueMap;
+import org.apache.sling.api.scripting.SlingBindings;
+import org.apache.sling.api.scripting.SlingScriptHelper;
+import org.apache.sling.settings.SlingSettingsService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 @Component(value = "Global", path = "page", group = ".hidden", editConfig = false, fileName = "extra_dialog")
 public class Global {
@@ -47,6 +47,9 @@ public class Global {
 	@NumberField(decimalPrecision = 4)
 	private final Double longitude;
 
+	@DialogField(fieldLabel = "Page Category", xtype = "categoryselect")
+	private final String ausPageCategory;
+
 	private final String title;
 	private final String description;
 	private final String keywords;
@@ -57,6 +60,7 @@ public class Global {
 	private final String socialNetworks;
 	private final Boolean isHomePage;
 	private final boolean prodPublish;
+    private final Boolean isAuHomePage;
 
 	public Global(SlingHttpServletRequest request) {
 		SlingScriptHelper sling = ((SlingBindings) request.getAttribute(SlingBindings.class.getName())).getSling();
@@ -71,6 +75,7 @@ public class Global {
 		removeFromSearch = properties.get("removeFromSearch", false);
 		latitude = properties.get("latitude", Double.class);
 		longitude = properties.get("longitude", Double.class);
+		ausPageCategory = properties.get("ausPageCategory", String.class);
 
 		title = currentPage.getTitle() == null ? xssAPI.encodeForHTML(currentPage.getName()) : xssAPI
 			.encodeForHTML(currentPage.getTitle());
@@ -79,6 +84,7 @@ public class Global {
 		lastModified = StringUtils.left(xssAPI.encodeForHTMLAttr(properties.get("cq:lastModified", "")), 10);
 		socialNetworks = this.getSocialNetworks(request, currentPage.getAbsoluteParent(OZCOM_CONTENT_ROOT));
 		isHomePage = currentPage.equals(currentPage.getAbsoluteParent(1));
+        isAuHomePage = currentPage.equals(currentPage.getAbsoluteParent(2));
 
 		Resource imageResource = currentPage.getContentResource();
 		Image image = new Image(imageResource, "image");
@@ -137,6 +143,10 @@ public class Global {
 		return longitude;
 	}
 
+	public PageCategory getPageCategory() {
+		return PageCategory.fromDisplayString(ausPageCategory);
+	}
+
 	public String getTitle() {
 		return title;
 	}
@@ -170,10 +180,13 @@ public class Global {
 	}
 
 	public Boolean getIsHomePage() {
-		return isHomePage;
-	}
+        return isHomePage;
+    }
 	public boolean isProdPublish() {
 		return prodPublish;
 	}
 
+    public Boolean getIsAuHomePage() {
+        return isAuHomePage;
+    }
 }

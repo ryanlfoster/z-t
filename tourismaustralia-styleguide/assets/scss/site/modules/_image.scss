@@ -6,6 +6,10 @@
   padding-bottom: pxtoem($bottom-spacing);
 }
 
+.image-ugc-container .large-image-social-mention .social-mention {
+  margin-top: 0.5em;
+}
+
 .image-ugc {
 
   position: inherit;
@@ -243,6 +247,27 @@
 .fullwidth-bg{
    overflow: hidden;
  }
+
+///////////////////////////
+// 2 COLUMN IMAGE + CAPTION
+//////////////////////////
+.image-caption {
+  position: relative;
+  padding-bottom: 2.5em;
+
+  .image img {
+    max-width: 100%;
+  }
+
+  .image-copy {
+    @include breakpoint(md) {
+      position: absolute;
+      left: 59%;
+      bottom: 1.4em;
+      width: 180px;
+    }
+  }
+}
 
 
 

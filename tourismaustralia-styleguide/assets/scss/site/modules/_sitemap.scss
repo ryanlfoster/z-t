@@ -2,10 +2,3 @@
 .sitemap{
   padding-bottom: pxtoem(100px);
 }
-.sitemap .section-intro{
-  margin-top: pxtoem(30px);
-  margin-bottom: pxtoem(40px);
-  @include breakpoint(sm){
-    margin-top: pxtoem(78px);
-  }
-}

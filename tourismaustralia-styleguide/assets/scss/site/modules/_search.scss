@@ -31,7 +31,15 @@
   }
 }
 
+.search-results-mosaic {
+  margin: 0 pxtoem(-15px);
+  @include breakpoint(sm) {
+    margin: inherit;
+  }
+}
+
 .search-results-container {
+  position: relative;
   min-height: pxtoem(166px);
 }
 .search-results-copy p {
@@ -55,7 +63,8 @@
   }
   text-decoration: none;
 }
-.search-results-title:hover {
+.search-results-title:hover,
+.search-results-title:visited {
   color: $search-results-title-colour;
   text-decoration: none;
 }
@@ -78,11 +87,49 @@
   }
 }
 
-.search-results-list {
-  margin: 0 pxtoem(-15px);
-  @include breakpoint(sm){
-    margin: 0;
+.search-tags {
+  display: block;
+  text-align: center;
+  padding: 0em 2em 2em;
+
+  @include breakpoint(md){
+    vertical-align: bottom;
+    padding: 0 pxtoem(20px) pxtoem(20px);
   }
+
+  @include breakpoint(lg){
+    display: table-cell;
+    width: 210px;
+    vertical-align: bottom;
+    text-align: right;
+    padding: 0 pxtoem(20px) pxtoem(20px) 0;
+  }
+}
+
+.search-tags .tagcloud {
+  text-align: center;
+  @include breakpoint(md){
+    text-align: left;
+    padding-left: 6em;
+    //padding: 2em 2.5em 0 0 !important;
+  }
+  @include breakpoint(lg){
+    text-align: right;
+    padding-left: 0;
+  }
+}
+
+.search-close {
+  position: absolute;
+  top: pxtoem(20px);
+  right: pxtoem(20px);
+}
+
+.search-results-list {
+  //margin: 0 pxtoem(-15px);
+  //@include breakpoint(sm){
+    margin: 0;
+  //}
 }
 .search-results-list .video-play-icon {
   //width: 30%;
@@ -134,7 +181,7 @@
 .search-result-category-link {
   position: relative;
   display: block;
-  background: #000;
+  //background: #000;
   // IE Required
   @include breakpoint(md){
     width: pxtoem(294px);

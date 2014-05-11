@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -13,11 +12,13 @@ import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for con_FooterType complex type.
+ * <p>
+ * Java class for con_FooterType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="con_FooterType">
@@ -34,36 +35,30 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "con_FooterType", propOrder = {
-    "globalFooterControlInclude"
-})
+@XmlType(name = "con_FooterType", propOrder = { "globalFooterControlInclude" })
 public class ConFooterType {
 
-    @XmlElement(name = "GlobalFooterControlInclude", required = true)
-    protected GlobalFooterControlIncludeType globalFooterControlInclude;
+	@XmlElement(name = "GlobalFooterControlInclude", required = true)
+	protected GlobalFooterControlIncludeType globalFooterControlInclude;
 
-    /**
-     * Gets the value of the globalFooterControlInclude property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link GlobalFooterControlIncludeType }
-     *     
-     */
-    public GlobalFooterControlIncludeType getGlobalFooterControlInclude() {
-        return globalFooterControlInclude;
-    }
+	/**
+	 * Gets the value of the globalFooterControlInclude property.
+	 * 
+	 * @return possible object is {@link GlobalFooterControlIncludeType }
+	 * 
+	 */
+	public GlobalFooterControlIncludeType getGlobalFooterControlInclude() {
+		return globalFooterControlInclude;
+	}
 
-    /**
-     * Sets the value of the globalFooterControlInclude property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link GlobalFooterControlIncludeType }
-     *     
-     */
-    public void setGlobalFooterControlInclude(GlobalFooterControlIncludeType value) {
-        this.globalFooterControlInclude = value;
-    }
+	/**
+	 * Sets the value of the globalFooterControlInclude property.
+	 * 
+	 * @param value allowed object is {@link GlobalFooterControlIncludeType }
+	 * 
+	 */
+	public void setGlobalFooterControlInclude(GlobalFooterControlIncludeType value) {
+		this.globalFooterControlInclude = value;
+	}
 
 }

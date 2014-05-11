@@ -1,13 +1,12 @@
 package com.australia.www.components.page.atdwsearch;
 
-import com.australia.atdw.domain.ATDWCategory;
-
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-public class Constants {
+import com.australia.atdw.domain.ATDWCategory;
 
+public class Constants {
 
 	public static final List<ATDWCategory> CATEGORY_ORDERING = Collections.unmodifiableList(Arrays.asList(
 		ATDWCategory.ACCOMEDATIONS, ATDWCategory.ATTRACTION, ATDWCategory.RESTAURANT, ATDWCategory.TOUR,

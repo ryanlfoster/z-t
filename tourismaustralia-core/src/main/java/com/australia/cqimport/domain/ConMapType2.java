@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -13,11 +12,13 @@ import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for con_mapType complex type.
+ * <p>
+ * Java class for con_mapType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="con_mapType">
@@ -34,36 +35,30 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "con_mapType", propOrder = {
-    "mapControlBodyContent"
-})
+@XmlType(name = "con_mapType", propOrder = { "mapControlBodyContent" })
 public class ConMapType2 {
 
-    @XmlElement(name = "MapControlBodyContent", required = true)
-    protected MapControlBodyContentType mapControlBodyContent;
+	@XmlElement(name = "MapControlBodyContent", required = true)
+	protected MapControlBodyContentType mapControlBodyContent;
 
-    /**
-     * Gets the value of the mapControlBodyContent property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link MapControlBodyContentType }
-     *     
-     */
-    public MapControlBodyContentType getMapControlBodyContent() {
-        return mapControlBodyContent;
-    }
+	/**
+	 * Gets the value of the mapControlBodyContent property.
+	 * 
+	 * @return possible object is {@link MapControlBodyContentType }
+	 * 
+	 */
+	public MapControlBodyContentType getMapControlBodyContent() {
+		return mapControlBodyContent;
+	}
 
-    /**
-     * Sets the value of the mapControlBodyContent property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link MapControlBodyContentType }
-     *     
-     */
-    public void setMapControlBodyContent(MapControlBodyContentType value) {
-        this.mapControlBodyContent = value;
-    }
+	/**
+	 * Sets the value of the mapControlBodyContent property.
+	 * 
+	 * @param value allowed object is {@link MapControlBodyContentType }
+	 * 
+	 */
+	public void setMapControlBodyContent(MapControlBodyContentType value) {
+		this.mapControlBodyContent = value;
+	}
 
 }

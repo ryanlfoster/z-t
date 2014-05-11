@@ -5,21 +5,23 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import java.util.ArrayList;
 import java.util.List;
+
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for con_CarouselItemsType complex type.
+ * <p>
+ * Java class for con_CarouselItemsType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="con_CarouselItemsType">
@@ -36,41 +38,40 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "con_CarouselItemsType", propOrder = {
-    "carouselItems"
-})
+@XmlType(name = "con_CarouselItemsType", propOrder = { "carouselItems" })
 public class ConCarouselItemsType {
 
-    @XmlElement(name = "CarouselItems")
-    protected List<CarouselItemsType> carouselItems;
+	@XmlElement(name = "CarouselItems")
+	protected List<CarouselItemsType> carouselItems;
 
-    /**
-     * Gets the value of the carouselItems property.
-     * 
-     * <p>
-     * This accessor method returns a reference to the live list,
-     * not a snapshot. Therefore any modification you make to the
-     * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the carouselItems property.
-     * 
-     * <p>
-     * For example, to add a new item, do as follows:
-     * <pre>
-     *    getCarouselItems().add(newItem);
-     * </pre>
-     * 
-     * 
-     * <p>
-     * Objects of the following type(s) are allowed in the list
-     * {@link CarouselItemsType }
-     * 
-     * 
-     */
-    public List<CarouselItemsType> getCarouselItems() {
-        if (carouselItems == null) {
-            carouselItems = new ArrayList<CarouselItemsType>();
-        }
-        return this.carouselItems;
-    }
+	/**
+	 * Gets the value of the carouselItems property.
+	 * 
+	 * <p>
+	 * This accessor method returns a reference to the live list, not a
+	 * snapshot. Therefore any modification you make to the returned list will
+	 * be present inside the JAXB object. This is why there is not a
+	 * <CODE>set</CODE> method for the carouselItems property.
+	 * 
+	 * <p>
+	 * For example, to add a new item, do as follows:
+	 * 
+	 * <pre>
+	 * getCarouselItems().add(newItem);
+	 * </pre>
+	 * 
+	 * 
+	 * <p>
+	 * Objects of the following type(s) are allowed in the list
+	 * {@link CarouselItemsType }
+	 * 
+	 * 
+	 */
+	public List<CarouselItemsType> getCarouselItems() {
+		if (carouselItems == null) {
+			carouselItems = new ArrayList<CarouselItemsType>();
+		}
+		return this.carouselItems;
+	}
 
 }

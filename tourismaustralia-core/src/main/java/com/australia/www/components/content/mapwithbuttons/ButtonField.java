@@ -4,7 +4,6 @@ import org.apache.commons.lang3.StringUtils;
 
 import com.citytechinc.cq.component.annotations.DialogField;
 import com.citytechinc.cq.component.annotations.widgets.Html5SmartImage;
-import com.citytechinc.cq.component.annotations.widgets.PathField;
 
 public class ButtonField {
 

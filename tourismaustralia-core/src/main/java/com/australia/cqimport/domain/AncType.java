@@ -5,11 +5,11 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import java.util.ArrayList;
 import java.util.List;
+
 import javax.xml.bind.JAXBElement;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -17,11 +17,13 @@ import javax.xml.bind.annotation.XmlElementRef;
 import javax.xml.bind.annotation.XmlElementRefs;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for ancType complex type.
+ * <p>
+ * Java class for ancType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="ancType">
@@ -47,61 +49,58 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "ancType", propOrder = {
-    "ancList1OrStfIsExternalSiteArticleOrStfExternalLink"
-})
+@XmlType(name = "ancType", propOrder = { "ancList1OrStfIsExternalSiteArticleOrStfExternalLink" })
 public class AncType {
 
-    @XmlElementRefs({
-        @XmlElementRef(name = "anc_List1", type = JAXBElement.class, required = false),
-        @XmlElementRef(name = "img_Thumbnail", type = JAXBElement.class, required = false),
-        @XmlElementRef(name = "txt_Teaser", type = JAXBElement.class, required = false),
-        @XmlElementRef(name = "stf_LinkLearnMore", type = JAXBElement.class, required = false),
-        @XmlElementRef(name = "med_File", type = JAXBElement.class, required = false),
-        @XmlElementRef(name = "stf_SubHeading", type = JAXBElement.class, required = false),
-        @XmlElementRef(name = "url", type = JAXBElement.class, required = false),
-        @XmlElementRef(name = "hdl_Title", type = JAXBElement.class, required = false),
-        @XmlElementRef(name = "stf_IsExternalSiteArticle", type = JAXBElement.class, required = false),
-        @XmlElementRef(name = "stf_externalLink", type = JAXBElement.class, required = false)
-    })
-    protected List<JAXBElement<String>> ancList1OrStfIsExternalSiteArticleOrStfExternalLink;
+	@XmlElementRefs({ @XmlElementRef(name = "anc_List1", type = JAXBElement.class, required = false),
+		@XmlElementRef(name = "img_Thumbnail", type = JAXBElement.class, required = false),
+		@XmlElementRef(name = "txt_Teaser", type = JAXBElement.class, required = false),
+		@XmlElementRef(name = "stf_LinkLearnMore", type = JAXBElement.class, required = false),
+		@XmlElementRef(name = "med_File", type = JAXBElement.class, required = false),
+		@XmlElementRef(name = "stf_SubHeading", type = JAXBElement.class, required = false),
+		@XmlElementRef(name = "url", type = JAXBElement.class, required = false),
+		@XmlElementRef(name = "hdl_Title", type = JAXBElement.class, required = false),
+		@XmlElementRef(name = "stf_IsExternalSiteArticle", type = JAXBElement.class, required = false),
+		@XmlElementRef(name = "stf_externalLink", type = JAXBElement.class, required = false) })
+	protected List<JAXBElement<String>> ancList1OrStfIsExternalSiteArticleOrStfExternalLink;
 
-    /**
-     * Gets the value of the ancList1OrStfIsExternalSiteArticleOrStfExternalLink property.
-     * 
-     * <p>
-     * This accessor method returns a reference to the live list,
-     * not a snapshot. Therefore any modification you make to the
-     * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the ancList1OrStfIsExternalSiteArticleOrStfExternalLink property.
-     * 
-     * <p>
-     * For example, to add a new item, do as follows:
-     * <pre>
-     *    getAncList1OrStfIsExternalSiteArticleOrStfExternalLink().add(newItem);
-     * </pre>
-     * 
-     * 
-     * <p>
-     * Objects of the following type(s) are allowed in the list
-     * {@link JAXBElement }{@code <}{@link String }{@code >}
-     * {@link JAXBElement }{@code <}{@link String }{@code >}
-     * {@link JAXBElement }{@code <}{@link String }{@code >}
-     * {@link JAXBElement }{@code <}{@link String }{@code >}
-     * {@link JAXBElement }{@code <}{@link String }{@code >}
-     * {@link JAXBElement }{@code <}{@link String }{@code >}
-     * {@link JAXBElement }{@code <}{@link String }{@code >}
-     * {@link JAXBElement }{@code <}{@link String }{@code >}
-     * {@link JAXBElement }{@code <}{@link String }{@code >}
-     * {@link JAXBElement }{@code <}{@link String }{@code >}
-     * 
-     * 
-     */
-    public List<JAXBElement<String>> getAncList1OrStfIsExternalSiteArticleOrStfExternalLink() {
-        if (ancList1OrStfIsExternalSiteArticleOrStfExternalLink == null) {
-            ancList1OrStfIsExternalSiteArticleOrStfExternalLink = new ArrayList<JAXBElement<String>>();
-        }
-        return this.ancList1OrStfIsExternalSiteArticleOrStfExternalLink;
-    }
+	/**
+	 * Gets the value of the ancList1OrStfIsExternalSiteArticleOrStfExternalLink
+	 * property.
+	 * 
+	 * <p>
+	 * This accessor method returns a reference to the live list, not a
+	 * snapshot. Therefore any modification you make to the returned list will
+	 * be present inside the JAXB object. This is why there is not a
+	 * <CODE>set</CODE> method for the
+	 * ancList1OrStfIsExternalSiteArticleOrStfExternalLink property.
+	 * 
+	 * <p>
+	 * For example, to add a new item, do as follows:
+	 * 
+	 * <pre>
+	 * getAncList1OrStfIsExternalSiteArticleOrStfExternalLink().add(newItem);
+	 * </pre>
+	 * 
+	 * 
+	 * <p>
+	 * Objects of the following type(s) are allowed in the list
+	 * {@link JAXBElement }{@code <}{@link String }{@code >} {@link JAXBElement }
+	 * {@code <}{@link String }{@code >} {@link JAXBElement }{@code <}
+	 * {@link String }{@code >} {@link JAXBElement }{@code <}{@link String }
+	 * {@code >} {@link JAXBElement }{@code <}{@link String }{@code >}
+	 * {@link JAXBElement }{@code <}{@link String }{@code >} {@link JAXBElement }
+	 * {@code <}{@link String }{@code >} {@link JAXBElement }{@code <}
+	 * {@link String }{@code >} {@link JAXBElement }{@code <}{@link String }
+	 * {@code >} {@link JAXBElement }{@code <}{@link String }{@code >}
+	 * 
+	 * 
+	 */
+	public List<JAXBElement<String>> getAncList1OrStfIsExternalSiteArticleOrStfExternalLink() {
+		if (ancList1OrStfIsExternalSiteArticleOrStfExternalLink == null) {
+			ancList1OrStfIsExternalSiteArticleOrStfExternalLink = new ArrayList<JAXBElement<String>>();
+		}
+		return this.ancList1OrStfIsExternalSiteArticleOrStfExternalLink;
+	}
 
 }

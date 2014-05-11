@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -14,11 +13,13 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for BEWhereToGoMapV2Type complex type.
+ * <p>
+ * Java class for BEWhereToGoMapV2Type complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="BEWhereToGoMapV2Type">
@@ -36,62 +37,52 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "BEWhereToGoMapV2Type", propOrder = {
-    "conMapItems"
-})
+@XmlType(name = "BEWhereToGoMapV2Type", propOrder = { "conMapItems" })
 public class BEWhereToGoMapV2Type {
 
-    @XmlElement(name = "con_MapItems", required = true)
-    protected ConMapItemsType conMapItems;
-    @XmlAttribute(name = "isTemplate")
-    protected Byte isTemplate;
+	@XmlElement(name = "con_MapItems", required = true)
+	protected ConMapItemsType conMapItems;
+	@XmlAttribute(name = "isTemplate")
+	protected Byte isTemplate;
 
-    /**
-     * Gets the value of the conMapItems property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link ConMapItemsType }
-     *     
-     */
-    public ConMapItemsType getConMapItems() {
-        return conMapItems;
-    }
+	/**
+	 * Gets the value of the conMapItems property.
+	 * 
+	 * @return possible object is {@link ConMapItemsType }
+	 * 
+	 */
+	public ConMapItemsType getConMapItems() {
+		return conMapItems;
+	}
 
-    /**
-     * Sets the value of the conMapItems property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link ConMapItemsType }
-     *     
-     */
-    public void setConMapItems(ConMapItemsType value) {
-        this.conMapItems = value;
-    }
+	/**
+	 * Sets the value of the conMapItems property.
+	 * 
+	 * @param value allowed object is {@link ConMapItemsType }
+	 * 
+	 */
+	public void setConMapItems(ConMapItemsType value) {
+		this.conMapItems = value;
+	}
 
-    /**
-     * Gets the value of the isTemplate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Byte }
-     *     
-     */
-    public Byte getIsTemplate() {
-        return isTemplate;
-    }
+	/**
+	 * Gets the value of the isTemplate property.
+	 * 
+	 * @return possible object is {@link Byte }
+	 * 
+	 */
+	public Byte getIsTemplate() {
+		return isTemplate;
+	}
 
-    /**
-     * Sets the value of the isTemplate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Byte }
-     *     
-     */
-    public void setIsTemplate(Byte value) {
-        this.isTemplate = value;
-    }
+	/**
+	 * Sets the value of the isTemplate property.
+	 * 
+	 * @param value allowed object is {@link Byte }
+	 * 
+	 */
+	public void setIsTemplate(Byte value) {
+		this.isTemplate = value;
+	}
 
 }

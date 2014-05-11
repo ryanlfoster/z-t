@@ -32,8 +32,7 @@ public class Experience {
 
 	public Experience(Page page, TagManager tagManager) {
 		ValueMap properties = page.getProperties();
-		Resource jcrResource = page.adaptTo(Resource.class).getChild(
-				JcrConstants.JCR_CONTENT);
+		Resource jcrResource = page.adaptTo(Resource.class).getChild(JcrConstants.JCR_CONTENT);
 		Image image = new Image(jcrResource, "image");
 		if (image != null && image.hasContent()) {
 			imagePath = image.getPath() + ".img.jpg";
@@ -58,16 +57,13 @@ public class Experience {
 		// city
 		Tag cityTag = TagUtils.getCityTag(tagManager, cattags);
 		city = (cityTag != null ? cityTag.getTitle() : StringUtils.EMPTY);
-		Tag primaryCategoryTag = TagUtils.getFoodAndWinePrimaryCategory(
-				tagManager, cattags);
-		primaryCategory = (primaryCategoryTag != null ? primaryCategoryTag
-				.getTitle() : StringUtils.EMPTY);
+		Tag primaryCategoryTag = TagUtils.getFoodAndWinePrimaryCategory(tagManager, cattags);
+		primaryCategory = (primaryCategoryTag != null ? primaryCategoryTag.getTitle() : StringUtils.EMPTY);
 		Node node = (Node) page.adaptTo(Node.class);
 		try {
 			Node jcrNode = node.getNode(JcrConstants.JCR_CONTENT);
-			if(jcrNode.getNode("map").hasProperty("website"))
-			website ="http://" +jcrNode.getNode("map").getProperty("website").getValue()
-					.getString();
+			if (jcrNode.getNode("map").hasProperty("website"))
+				website = "http://" + jcrNode.getNode("map").getProperty("website").getValue().getString();
 
 		} catch (PathNotFoundException e) {
 			e.printStackTrace();

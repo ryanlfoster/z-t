@@ -1,5 +1,29 @@
 package com.australia.atdw.repository;
 
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+import java.util.TreeMap;
+import java.util.TreeSet;
+import java.util.concurrent.TimeUnit;
+
+import javax.jcr.Node;
+import javax.jcr.RepositoryException;
+import javax.jcr.Session;
+
+import org.apache.commons.lang3.StringUtils;
+import org.apache.felix.scr.annotations.Component;
+import org.apache.felix.scr.annotations.Reference;
+import org.apache.felix.scr.annotations.Service;
+import org.apache.sling.api.resource.LoginException;
+import org.apache.sling.api.resource.ResourceResolver;
+import org.apache.sling.api.resource.ResourceResolverFactory;
+import org.apache.sling.jcr.resource.JcrResourceConstants;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import com.australia.atdw.domain.ATDWProduct;
 import com.australia.atdw.domain.ATDWProductSearchParameters;
 import com.australia.atdw.domain.ATDWSearchResult;
@@ -16,22 +40,6 @@ import com.day.cq.wcm.api.NameConstants;
 import com.day.cq.wcm.api.Page;
 import com.day.cq.wcm.api.PageManager;
 import com.google.common.base.Stopwatch;
-import org.apache.commons.lang3.StringUtils;
-import org.apache.felix.scr.annotations.Component;
-import org.apache.felix.scr.annotations.Reference;
-import org.apache.felix.scr.annotations.Service;
-import org.apache.sling.api.resource.LoginException;
-import org.apache.sling.api.resource.ResourceResolver;
-import org.apache.sling.api.resource.ResourceResolverFactory;
-import org.apache.sling.jcr.resource.JcrResourceConstants;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
-import javax.jcr.Node;
-import javax.jcr.RepositoryException;
-import javax.jcr.Session;
-import java.util.*;
-import java.util.concurrent.TimeUnit;
 
 @Component(label = "ATDW Product Repository", description = "ATDW Product Repository", immediate = true)
 @Service
@@ -168,7 +176,8 @@ public class DefaultATDWProductRepository implements ATDWProductRepository {
 		LOG.info("ATDW record cleanup completed in {} milliseconds", stopwatch.stop().elapsed(TimeUnit.MILLISECONDS));
 	}
 
-	@Override public Map<String, Map<String, Set<String>>> getLocationMap() {
+	@Override
+	public Map<String, Map<String, Set<String>>> getLocationMap() {
 
 		Map<String, Map<String, Set<String>>> stateMap = new TreeMap<String, Map<String, Set<String>>>();
 
@@ -176,7 +185,7 @@ public class DefaultATDWProductRepository implements ATDWProductRepository {
 		parameters.setCount(0);
 		ATDWSearchResult result = search(parameters);
 
-		for (ATDWProduct product: result.getResults()) {
+		for (ATDWProduct product : result.getResults()) {
 
 			String state = product.getState();
 			state = state != null ? state : "";
@@ -195,7 +204,7 @@ public class DefaultATDWProductRepository implements ATDWProductRepository {
 			}
 
 			String city = product.getCity();
-			if(city != null && !city.isEmpty()) {
+			if (city != null && !city.isEmpty()) {
 				citySet.add(city);
 			}
 

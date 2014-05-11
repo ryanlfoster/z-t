@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -14,11 +13,13 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for BENavPanelNewsletterSignupType complex type.
+ * <p>
+ * Java class for BENavPanelNewsletterSignupType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="BENavPanelNewsletterSignupType">
@@ -39,143 +40,118 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "BENavPanelNewsletterSignupType", propOrder = {
-    "hdlHeadline",
-    "stfTitle",
-    "stfContentBody",
-    "ancLink"
-})
+@XmlType(name = "BENavPanelNewsletterSignupType", propOrder = { "hdlHeadline", "stfTitle", "stfContentBody", "ancLink" })
 public class BENavPanelNewsletterSignupType {
 
-    @XmlElement(name = "hdl_Headline", required = true)
-    protected String hdlHeadline;
-    @XmlElement(name = "stf_Title", required = true)
-    protected String stfTitle;
-    @XmlElement(name = "stf_ContentBody", required = true)
-    protected String stfContentBody;
-    @XmlElement(name = "anc_Link", required = true)
-    protected String ancLink;
-    @XmlAttribute(name = "isTemplate")
-    protected Byte isTemplate;
+	@XmlElement(name = "hdl_Headline", required = true)
+	protected String hdlHeadline;
+	@XmlElement(name = "stf_Title", required = true)
+	protected String stfTitle;
+	@XmlElement(name = "stf_ContentBody", required = true)
+	protected String stfContentBody;
+	@XmlElement(name = "anc_Link", required = true)
+	protected String ancLink;
+	@XmlAttribute(name = "isTemplate")
+	protected Byte isTemplate;
 
-    /**
-     * Gets the value of the hdlHeadline property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getHdlHeadline() {
-        return hdlHeadline;
-    }
+	/**
+	 * Gets the value of the hdlHeadline property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getHdlHeadline() {
+		return hdlHeadline;
+	}
 
-    /**
-     * Sets the value of the hdlHeadline property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setHdlHeadline(String value) {
-        this.hdlHeadline = value;
-    }
+	/**
+	 * Sets the value of the hdlHeadline property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setHdlHeadline(String value) {
+		this.hdlHeadline = value;
+	}
 
-    /**
-     * Gets the value of the stfTitle property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfTitle() {
-        return stfTitle;
-    }
+	/**
+	 * Gets the value of the stfTitle property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfTitle() {
+		return stfTitle;
+	}
 
-    /**
-     * Sets the value of the stfTitle property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfTitle(String value) {
-        this.stfTitle = value;
-    }
+	/**
+	 * Sets the value of the stfTitle property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfTitle(String value) {
+		this.stfTitle = value;
+	}
 
-    /**
-     * Gets the value of the stfContentBody property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfContentBody() {
-        return stfContentBody;
-    }
+	/**
+	 * Gets the value of the stfContentBody property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfContentBody() {
+		return stfContentBody;
+	}
 
-    /**
-     * Sets the value of the stfContentBody property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfContentBody(String value) {
-        this.stfContentBody = value;
-    }
+	/**
+	 * Sets the value of the stfContentBody property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfContentBody(String value) {
+		this.stfContentBody = value;
+	}
 
-    /**
-     * Gets the value of the ancLink property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getAncLink() {
-        return ancLink;
-    }
+	/**
+	 * Gets the value of the ancLink property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getAncLink() {
+		return ancLink;
+	}
 
-    /**
-     * Sets the value of the ancLink property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setAncLink(String value) {
-        this.ancLink = value;
-    }
+	/**
+	 * Sets the value of the ancLink property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setAncLink(String value) {
+		this.ancLink = value;
+	}
 
-    /**
-     * Gets the value of the isTemplate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Byte }
-     *     
-     */
-    public Byte getIsTemplate() {
-        return isTemplate;
-    }
+	/**
+	 * Gets the value of the isTemplate property.
+	 * 
+	 * @return possible object is {@link Byte }
+	 * 
+	 */
+	public Byte getIsTemplate() {
+		return isTemplate;
+	}
 
-    /**
-     * Sets the value of the isTemplate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Byte }
-     *     
-     */
-    public void setIsTemplate(Byte value) {
-        this.isTemplate = value;
-    }
+	/**
+	 * Sets the value of the isTemplate property.
+	 * 
+	 * @param value allowed object is {@link Byte }
+	 * 
+	 */
+	public void setIsTemplate(Byte value) {
+		this.isTemplate = value;
+	}
 
 }

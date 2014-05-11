@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -14,11 +13,13 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for BET8BrightcoveVideoPageType complex type.
+ * <p>
+ * Java class for BET8BrightcoveVideoPageType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="BET8BrightcoveVideoPageType">
@@ -40,162 +41,137 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "BET8BrightcoveVideoPageType", propOrder = {
-    "hdlPage",
-    "stfDate",
-    "stfLocation",
-    "stfMediaID",
-    "stfTitle"
-})
+@XmlType(name = "BET8BrightcoveVideoPageType", propOrder = { "hdlPage", "stfDate", "stfLocation", "stfMediaID",
+	"stfTitle" })
 public class BET8BrightcoveVideoPageType {
 
-    @XmlElement(name = "hdl_Page", required = true)
-    protected String hdlPage;
-    @XmlElement(name = "stf_Date", required = true)
-    protected String stfDate;
-    @XmlElement(name = "stf_location", required = true)
-    protected String stfLocation;
-    @XmlElement(name = "stf_MediaID")
-    protected long stfMediaID;
-    @XmlElement(name = "stf_title", required = true)
-    protected String stfTitle;
-    @XmlAttribute(name = "isTemplate")
-    protected Byte isTemplate;
+	@XmlElement(name = "hdl_Page", required = true)
+	protected String hdlPage;
+	@XmlElement(name = "stf_Date", required = true)
+	protected String stfDate;
+	@XmlElement(name = "stf_location", required = true)
+	protected String stfLocation;
+	@XmlElement(name = "stf_MediaID")
+	protected long stfMediaID;
+	@XmlElement(name = "stf_title", required = true)
+	protected String stfTitle;
+	@XmlAttribute(name = "isTemplate")
+	protected Byte isTemplate;
 
-    /**
-     * Gets the value of the hdlPage property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getHdlPage() {
-        return hdlPage;
-    }
+	/**
+	 * Gets the value of the hdlPage property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getHdlPage() {
+		return hdlPage;
+	}
 
-    /**
-     * Sets the value of the hdlPage property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setHdlPage(String value) {
-        this.hdlPage = value;
-    }
+	/**
+	 * Sets the value of the hdlPage property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setHdlPage(String value) {
+		this.hdlPage = value;
+	}
 
-    /**
-     * Gets the value of the stfDate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfDate() {
-        return stfDate;
-    }
+	/**
+	 * Gets the value of the stfDate property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfDate() {
+		return stfDate;
+	}
 
-    /**
-     * Sets the value of the stfDate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfDate(String value) {
-        this.stfDate = value;
-    }
+	/**
+	 * Sets the value of the stfDate property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfDate(String value) {
+		this.stfDate = value;
+	}
 
-    /**
-     * Gets the value of the stfLocation property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfLocation() {
-        return stfLocation;
-    }
+	/**
+	 * Gets the value of the stfLocation property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfLocation() {
+		return stfLocation;
+	}
 
-    /**
-     * Sets the value of the stfLocation property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfLocation(String value) {
-        this.stfLocation = value;
-    }
+	/**
+	 * Sets the value of the stfLocation property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfLocation(String value) {
+		this.stfLocation = value;
+	}
 
-    /**
-     * Gets the value of the stfMediaID property.
-     * 
-     */
-    public long getStfMediaID() {
-        return stfMediaID;
-    }
+	/**
+	 * Gets the value of the stfMediaID property.
+	 * 
+	 */
+	public long getStfMediaID() {
+		return stfMediaID;
+	}
 
-    /**
-     * Sets the value of the stfMediaID property.
-     * 
-     */
-    public void setStfMediaID(long value) {
-        this.stfMediaID = value;
-    }
+	/**
+	 * Sets the value of the stfMediaID property.
+	 * 
+	 */
+	public void setStfMediaID(long value) {
+		this.stfMediaID = value;
+	}
 
-    /**
-     * Gets the value of the stfTitle property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfTitle() {
-        return stfTitle;
-    }
+	/**
+	 * Gets the value of the stfTitle property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfTitle() {
+		return stfTitle;
+	}
 
-    /**
-     * Sets the value of the stfTitle property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfTitle(String value) {
-        this.stfTitle = value;
-    }
+	/**
+	 * Sets the value of the stfTitle property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfTitle(String value) {
+		this.stfTitle = value;
+	}
 
-    /**
-     * Gets the value of the isTemplate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Byte }
-     *     
-     */
-    public Byte getIsTemplate() {
-        return isTemplate;
-    }
+	/**
+	 * Gets the value of the isTemplate property.
+	 * 
+	 * @return possible object is {@link Byte }
+	 * 
+	 */
+	public Byte getIsTemplate() {
+		return isTemplate;
+	}
 
-    /**
-     * Sets the value of the isTemplate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Byte }
-     *     
-     */
-    public void setIsTemplate(Byte value) {
-        this.isTemplate = value;
-    }
+	/**
+	 * Sets the value of the isTemplate property.
+	 * 
+	 * @param value allowed object is {@link Byte }
+	 * 
+	 */
+	public void setIsTemplate(Byte value) {
+		this.isTemplate = value;
+	}
 
 }

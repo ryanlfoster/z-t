@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -15,11 +14,13 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlSchemaType;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for ExploreMapFullLandingPageFoundationType complex type.
+ * <p>
+ * Java class for ExploreMapFullLandingPageFoundationType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="ExploreMapFullLandingPageFoundationType">
@@ -54,521 +55,430 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "ExploreMapFullLandingPageFoundationType", propOrder = {
-    "taTitle",
-    "hdlTitle",
-    "stfDescription",
-    "stfKeywords",
-    "imgSearchThumbnail",
-    "imgBackground",
-    "stfPageHeading",
-    "ancHolidayAus",
-    "ancBusinessEvent",
-    "ancMediaIndustry",
-    "txtSpotlightTag",
-    "conCookiePolicyMessage",
-    "conGlobalHeader",
-    "conCssJs",
-    "conMap",
-    "conFooter",
-    "conFooterScript"
-})
+@XmlType(name = "ExploreMapFullLandingPageFoundationType", propOrder = { "taTitle", "hdlTitle", "stfDescription",
+	"stfKeywords", "imgSearchThumbnail", "imgBackground", "stfPageHeading", "ancHolidayAus", "ancBusinessEvent",
+	"ancMediaIndustry", "txtSpotlightTag", "conCookiePolicyMessage", "conGlobalHeader", "conCssJs", "conMap",
+	"conFooter", "conFooterScript" })
 public class ExploreMapFullLandingPageFoundationType {
 
-    @XmlElement(name = "TA_Title", required = true)
-    protected String taTitle;
-    @XmlElement(name = "hdl_Title", required = true)
-    protected String hdlTitle;
-    @XmlElement(name = "stf_description", required = true)
-    protected String stfDescription;
-    @XmlElement(name = "stf_keywords", required = true)
-    protected String stfKeywords;
-    @XmlElement(name = "img_SearchThumbnail", required = true)
-    protected String imgSearchThumbnail;
-    @XmlElement(name = "img_background", required = true)
-    protected String imgBackground;
-    @XmlElement(name = "stf_PageHeading", required = true)
-    protected String stfPageHeading;
-    @XmlElement(name = "anc_holiday_aus", required = true)
-    protected String ancHolidayAus;
-    @XmlElement(name = "anc_business_event", required = true)
-    protected String ancBusinessEvent;
-    @XmlElement(name = "anc_media_industry", required = true)
-    @XmlSchemaType(name = "anyURI")
-    protected String ancMediaIndustry;
-    @XmlElement(name = "txt_SpotlightTag", required = true)
-    protected String txtSpotlightTag;
-    @XmlElement(name = "con_CookiePolicyMessage", required = true)
-    protected ConCookiePolicyMessageType conCookiePolicyMessage;
-    @XmlElement(name = "con_GlobalHeader", required = true)
-    protected ConGlobalHeaderType conGlobalHeader;
-    @XmlElement(name = "con_css_js", required = true)
-    protected ConCssJsType conCssJs;
-    @XmlElement(name = "con_map", required = true)
-    protected ConMapType2 conMap;
-    @XmlElement(name = "con_Footer", required = true)
-    protected ConFooterType conFooter;
-    @XmlElement(name = "con_FooterScript", required = true)
-    protected ConFooterScriptType conFooterScript;
-    @XmlAttribute(name = "pageID")
-    protected Short pageID;
-    @XmlAttribute(name = "isTemplate")
-    protected Byte isTemplate;
+	@XmlElement(name = "TA_Title", required = true)
+	protected String taTitle;
+	@XmlElement(name = "hdl_Title", required = true)
+	protected String hdlTitle;
+	@XmlElement(name = "stf_description", required = true)
+	protected String stfDescription;
+	@XmlElement(name = "stf_keywords", required = true)
+	protected String stfKeywords;
+	@XmlElement(name = "img_SearchThumbnail", required = true)
+	protected String imgSearchThumbnail;
+	@XmlElement(name = "img_background", required = true)
+	protected String imgBackground;
+	@XmlElement(name = "stf_PageHeading", required = true)
+	protected String stfPageHeading;
+	@XmlElement(name = "anc_holiday_aus", required = true)
+	protected String ancHolidayAus;
+	@XmlElement(name = "anc_business_event", required = true)
+	protected String ancBusinessEvent;
+	@XmlElement(name = "anc_media_industry", required = true)
+	@XmlSchemaType(name = "anyURI")
+	protected String ancMediaIndustry;
+	@XmlElement(name = "txt_SpotlightTag", required = true)
+	protected String txtSpotlightTag;
+	@XmlElement(name = "con_CookiePolicyMessage", required = true)
+	protected ConCookiePolicyMessageType conCookiePolicyMessage;
+	@XmlElement(name = "con_GlobalHeader", required = true)
+	protected ConGlobalHeaderType conGlobalHeader;
+	@XmlElement(name = "con_css_js", required = true)
+	protected ConCssJsType conCssJs;
+	@XmlElement(name = "con_map", required = true)
+	protected ConMapType2 conMap;
+	@XmlElement(name = "con_Footer", required = true)
+	protected ConFooterType conFooter;
+	@XmlElement(name = "con_FooterScript", required = true)
+	protected ConFooterScriptType conFooterScript;
+	@XmlAttribute(name = "pageID")
+	protected Short pageID;
+	@XmlAttribute(name = "isTemplate")
+	protected Byte isTemplate;
 
-    /**
-     * Gets the value of the taTitle property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getTATitle() {
-        return taTitle;
-    }
+	/**
+	 * Gets the value of the taTitle property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getTATitle() {
+		return taTitle;
+	}
 
-    /**
-     * Sets the value of the taTitle property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setTATitle(String value) {
-        this.taTitle = value;
-    }
+	/**
+	 * Sets the value of the taTitle property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setTATitle(String value) {
+		this.taTitle = value;
+	}
 
-    /**
-     * Gets the value of the hdlTitle property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getHdlTitle() {
-        return hdlTitle;
-    }
+	/**
+	 * Gets the value of the hdlTitle property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getHdlTitle() {
+		return hdlTitle;
+	}
 
-    /**
-     * Sets the value of the hdlTitle property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setHdlTitle(String value) {
-        this.hdlTitle = value;
-    }
+	/**
+	 * Sets the value of the hdlTitle property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setHdlTitle(String value) {
+		this.hdlTitle = value;
+	}
 
-    /**
-     * Gets the value of the stfDescription property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfDescription() {
-        return stfDescription;
-    }
+	/**
+	 * Gets the value of the stfDescription property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfDescription() {
+		return stfDescription;
+	}
 
-    /**
-     * Sets the value of the stfDescription property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfDescription(String value) {
-        this.stfDescription = value;
-    }
+	/**
+	 * Sets the value of the stfDescription property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfDescription(String value) {
+		this.stfDescription = value;
+	}
 
-    /**
-     * Gets the value of the stfKeywords property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfKeywords() {
-        return stfKeywords;
-    }
+	/**
+	 * Gets the value of the stfKeywords property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfKeywords() {
+		return stfKeywords;
+	}
 
-    /**
-     * Sets the value of the stfKeywords property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfKeywords(String value) {
-        this.stfKeywords = value;
-    }
+	/**
+	 * Sets the value of the stfKeywords property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfKeywords(String value) {
+		this.stfKeywords = value;
+	}
 
-    /**
-     * Gets the value of the imgSearchThumbnail property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getImgSearchThumbnail() {
-        return imgSearchThumbnail;
-    }
+	/**
+	 * Gets the value of the imgSearchThumbnail property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getImgSearchThumbnail() {
+		return imgSearchThumbnail;
+	}
 
-    /**
-     * Sets the value of the imgSearchThumbnail property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setImgSearchThumbnail(String value) {
-        this.imgSearchThumbnail = value;
-    }
+	/**
+	 * Sets the value of the imgSearchThumbnail property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setImgSearchThumbnail(String value) {
+		this.imgSearchThumbnail = value;
+	}
 
-    /**
-     * Gets the value of the imgBackground property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getImgBackground() {
-        return imgBackground;
-    }
+	/**
+	 * Gets the value of the imgBackground property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getImgBackground() {
+		return imgBackground;
+	}
 
-    /**
-     * Sets the value of the imgBackground property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setImgBackground(String value) {
-        this.imgBackground = value;
-    }
+	/**
+	 * Sets the value of the imgBackground property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setImgBackground(String value) {
+		this.imgBackground = value;
+	}
 
-    /**
-     * Gets the value of the stfPageHeading property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfPageHeading() {
-        return stfPageHeading;
-    }
+	/**
+	 * Gets the value of the stfPageHeading property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfPageHeading() {
+		return stfPageHeading;
+	}
 
-    /**
-     * Sets the value of the stfPageHeading property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfPageHeading(String value) {
-        this.stfPageHeading = value;
-    }
+	/**
+	 * Sets the value of the stfPageHeading property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfPageHeading(String value) {
+		this.stfPageHeading = value;
+	}
 
-    /**
-     * Gets the value of the ancHolidayAus property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getAncHolidayAus() {
-        return ancHolidayAus;
-    }
+	/**
+	 * Gets the value of the ancHolidayAus property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getAncHolidayAus() {
+		return ancHolidayAus;
+	}
 
-    /**
-     * Sets the value of the ancHolidayAus property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setAncHolidayAus(String value) {
-        this.ancHolidayAus = value;
-    }
+	/**
+	 * Sets the value of the ancHolidayAus property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setAncHolidayAus(String value) {
+		this.ancHolidayAus = value;
+	}
 
-    /**
-     * Gets the value of the ancBusinessEvent property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getAncBusinessEvent() {
-        return ancBusinessEvent;
-    }
+	/**
+	 * Gets the value of the ancBusinessEvent property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getAncBusinessEvent() {
+		return ancBusinessEvent;
+	}
 
-    /**
-     * Sets the value of the ancBusinessEvent property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setAncBusinessEvent(String value) {
-        this.ancBusinessEvent = value;
-    }
+	/**
+	 * Sets the value of the ancBusinessEvent property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setAncBusinessEvent(String value) {
+		this.ancBusinessEvent = value;
+	}
 
-    /**
-     * Gets the value of the ancMediaIndustry property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getAncMediaIndustry() {
-        return ancMediaIndustry;
-    }
+	/**
+	 * Gets the value of the ancMediaIndustry property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getAncMediaIndustry() {
+		return ancMediaIndustry;
+	}
 
-    /**
-     * Sets the value of the ancMediaIndustry property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setAncMediaIndustry(String value) {
-        this.ancMediaIndustry = value;
-    }
+	/**
+	 * Sets the value of the ancMediaIndustry property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setAncMediaIndustry(String value) {
+		this.ancMediaIndustry = value;
+	}
 
-    /**
-     * Gets the value of the txtSpotlightTag property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getTxtSpotlightTag() {
-        return txtSpotlightTag;
-    }
+	/**
+	 * Gets the value of the txtSpotlightTag property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getTxtSpotlightTag() {
+		return txtSpotlightTag;
+	}
 
-    /**
-     * Sets the value of the txtSpotlightTag property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setTxtSpotlightTag(String value) {
-        this.txtSpotlightTag = value;
-    }
+	/**
+	 * Sets the value of the txtSpotlightTag property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setTxtSpotlightTag(String value) {
+		this.txtSpotlightTag = value;
+	}
 
-    /**
-     * Gets the value of the conCookiePolicyMessage property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link ConCookiePolicyMessageType }
-     *     
-     */
-    public ConCookiePolicyMessageType getConCookiePolicyMessage() {
-        return conCookiePolicyMessage;
-    }
+	/**
+	 * Gets the value of the conCookiePolicyMessage property.
+	 * 
+	 * @return possible object is {@link ConCookiePolicyMessageType }
+	 * 
+	 */
+	public ConCookiePolicyMessageType getConCookiePolicyMessage() {
+		return conCookiePolicyMessage;
+	}
 
-    /**
-     * Sets the value of the conCookiePolicyMessage property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link ConCookiePolicyMessageType }
-     *     
-     */
-    public void setConCookiePolicyMessage(ConCookiePolicyMessageType value) {
-        this.conCookiePolicyMessage = value;
-    }
+	/**
+	 * Sets the value of the conCookiePolicyMessage property.
+	 * 
+	 * @param value allowed object is {@link ConCookiePolicyMessageType }
+	 * 
+	 */
+	public void setConCookiePolicyMessage(ConCookiePolicyMessageType value) {
+		this.conCookiePolicyMessage = value;
+	}
 
-    /**
-     * Gets the value of the conGlobalHeader property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link ConGlobalHeaderType }
-     *     
-     */
-    public ConGlobalHeaderType getConGlobalHeader() {
-        return conGlobalHeader;
-    }
+	/**
+	 * Gets the value of the conGlobalHeader property.
+	 * 
+	 * @return possible object is {@link ConGlobalHeaderType }
+	 * 
+	 */
+	public ConGlobalHeaderType getConGlobalHeader() {
+		return conGlobalHeader;
+	}
 
-    /**
-     * Sets the value of the conGlobalHeader property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link ConGlobalHeaderType }
-     *     
-     */
-    public void setConGlobalHeader(ConGlobalHeaderType value) {
-        this.conGlobalHeader = value;
-    }
+	/**
+	 * Sets the value of the conGlobalHeader property.
+	 * 
+	 * @param value allowed object is {@link ConGlobalHeaderType }
+	 * 
+	 */
+	public void setConGlobalHeader(ConGlobalHeaderType value) {
+		this.conGlobalHeader = value;
+	}
 
-    /**
-     * Gets the value of the conCssJs property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link ConCssJsType }
-     *     
-     */
-    public ConCssJsType getConCssJs() {
-        return conCssJs;
-    }
+	/**
+	 * Gets the value of the conCssJs property.
+	 * 
+	 * @return possible object is {@link ConCssJsType }
+	 * 
+	 */
+	public ConCssJsType getConCssJs() {
+		return conCssJs;
+	}
 
-    /**
-     * Sets the value of the conCssJs property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link ConCssJsType }
-     *     
-     */
-    public void setConCssJs(ConCssJsType value) {
-        this.conCssJs = value;
-    }
+	/**
+	 * Sets the value of the conCssJs property.
+	 * 
+	 * @param value allowed object is {@link ConCssJsType }
+	 * 
+	 */
+	public void setConCssJs(ConCssJsType value) {
+		this.conCssJs = value;
+	}
 
-    /**
-     * Gets the value of the conMap property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link ConMapType2 }
-     *     
-     */
-    public ConMapType2 getConMap() {
-        return conMap;
-    }
+	/**
+	 * Gets the value of the conMap property.
+	 * 
+	 * @return possible object is {@link ConMapType2 }
+	 * 
+	 */
+	public ConMapType2 getConMap() {
+		return conMap;
+	}
 
-    /**
-     * Sets the value of the conMap property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link ConMapType2 }
-     *     
-     */
-    public void setConMap(ConMapType2 value) {
-        this.conMap = value;
-    }
+	/**
+	 * Sets the value of the conMap property.
+	 * 
+	 * @param value allowed object is {@link ConMapType2 }
+	 * 
+	 */
+	public void setConMap(ConMapType2 value) {
+		this.conMap = value;
+	}
 
-    /**
-     * Gets the value of the conFooter property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link ConFooterType }
-     *     
-     */
-    public ConFooterType getConFooter() {
-        return conFooter;
-    }
+	/**
+	 * Gets the value of the conFooter property.
+	 * 
+	 * @return possible object is {@link ConFooterType }
+	 * 
+	 */
+	public ConFooterType getConFooter() {
+		return conFooter;
+	}
 
-    /**
-     * Sets the value of the conFooter property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link ConFooterType }
-     *     
-     */
-    public void setConFooter(ConFooterType value) {
-        this.conFooter = value;
-    }
+	/**
+	 * Sets the value of the conFooter property.
+	 * 
+	 * @param value allowed object is {@link ConFooterType }
+	 * 
+	 */
+	public void setConFooter(ConFooterType value) {
+		this.conFooter = value;
+	}
 
-    /**
-     * Gets the value of the conFooterScript property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link ConFooterScriptType }
-     *     
-     */
-    public ConFooterScriptType getConFooterScript() {
-        return conFooterScript;
-    }
+	/**
+	 * Gets the value of the conFooterScript property.
+	 * 
+	 * @return possible object is {@link ConFooterScriptType }
+	 * 
+	 */
+	public ConFooterScriptType getConFooterScript() {
+		return conFooterScript;
+	}
 
-    /**
-     * Sets the value of the conFooterScript property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link ConFooterScriptType }
-     *     
-     */
-    public void setConFooterScript(ConFooterScriptType value) {
-        this.conFooterScript = value;
-    }
+	/**
+	 * Sets the value of the conFooterScript property.
+	 * 
+	 * @param value allowed object is {@link ConFooterScriptType }
+	 * 
+	 */
+	public void setConFooterScript(ConFooterScriptType value) {
+		this.conFooterScript = value;
+	}
 
-    /**
-     * Gets the value of the pageID property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Short }
-     *     
-     */
-    public Short getPageID() {
-        return pageID;
-    }
+	/**
+	 * Gets the value of the pageID property.
+	 * 
+	 * @return possible object is {@link Short }
+	 * 
+	 */
+	public Short getPageID() {
+		return pageID;
+	}
 
-    /**
-     * Sets the value of the pageID property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Short }
-     *     
-     */
-    public void setPageID(Short value) {
-        this.pageID = value;
-    }
+	/**
+	 * Sets the value of the pageID property.
+	 * 
+	 * @param value allowed object is {@link Short }
+	 * 
+	 */
+	public void setPageID(Short value) {
+		this.pageID = value;
+	}
 
-    /**
-     * Gets the value of the isTemplate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Byte }
-     *     
-     */
-    public Byte getIsTemplate() {
-        return isTemplate;
-    }
+	/**
+	 * Gets the value of the isTemplate property.
+	 * 
+	 * @return possible object is {@link Byte }
+	 * 
+	 */
+	public Byte getIsTemplate() {
+		return isTemplate;
+	}
 
-    /**
-     * Sets the value of the isTemplate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Byte }
-     *     
-     */
-    public void setIsTemplate(Byte value) {
-        this.isTemplate = value;
-    }
+	/**
+	 * Sets the value of the isTemplate property.
+	 * 
+	 * @param value allowed object is {@link Byte }
+	 * 
+	 */
+	public void setIsTemplate(Byte value) {
+		this.isTemplate = value;
+	}
 
 }

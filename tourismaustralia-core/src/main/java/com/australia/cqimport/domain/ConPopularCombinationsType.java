@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -13,11 +12,13 @@ import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for con_PopularCombinationsType complex type.
+ * <p>
+ * Java class for con_PopularCombinationsType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="con_PopularCombinationsType">
@@ -34,36 +35,31 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "con_PopularCombinationsType", propOrder = {
-    "beWhereToGoPopularDestinationV2"
-})
+@XmlType(name = "con_PopularCombinationsType", propOrder = { "beWhereToGoPopularDestinationV2" })
 public class ConPopularCombinationsType {
 
-    @XmlElement(name = "BEWhereToGoPopularDestinationV2", required = true)
-    protected BEWhereToGoPopularDestinationV2Type beWhereToGoPopularDestinationV2;
+	@XmlElement(name = "BEWhereToGoPopularDestinationV2", required = true)
+	protected BEWhereToGoPopularDestinationV2Type beWhereToGoPopularDestinationV2;
 
-    /**
-     * Gets the value of the beWhereToGoPopularDestinationV2 property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link BEWhereToGoPopularDestinationV2Type }
-     *     
-     */
-    public BEWhereToGoPopularDestinationV2Type getBEWhereToGoPopularDestinationV2() {
-        return beWhereToGoPopularDestinationV2;
-    }
+	/**
+	 * Gets the value of the beWhereToGoPopularDestinationV2 property.
+	 * 
+	 * @return possible object is {@link BEWhereToGoPopularDestinationV2Type }
+	 * 
+	 */
+	public BEWhereToGoPopularDestinationV2Type getBEWhereToGoPopularDestinationV2() {
+		return beWhereToGoPopularDestinationV2;
+	}
 
-    /**
-     * Sets the value of the beWhereToGoPopularDestinationV2 property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link BEWhereToGoPopularDestinationV2Type }
-     *     
-     */
-    public void setBEWhereToGoPopularDestinationV2(BEWhereToGoPopularDestinationV2Type value) {
-        this.beWhereToGoPopularDestinationV2 = value;
-    }
+	/**
+	 * Sets the value of the beWhereToGoPopularDestinationV2 property.
+	 * 
+	 * @param value allowed object is
+	 *            {@link BEWhereToGoPopularDestinationV2Type }
+	 * 
+	 */
+	public void setBEWhereToGoPopularDestinationV2(BEWhereToGoPopularDestinationV2Type value) {
+		this.beWhereToGoPopularDestinationV2 = value;
+	}
 
 }

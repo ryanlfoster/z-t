@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -14,11 +13,13 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for TopCategoryHighlightsType complex type.
+ * <p>
+ * Java class for TopCategoryHighlightsType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="TopCategoryHighlightsType">
@@ -39,143 +40,119 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "TopCategoryHighlightsType", propOrder = {
-    "stfHeading",
-    "stfInformationTitle",
-    "txtInformation",
-    "conCenterContent"
-})
+@XmlType(name = "TopCategoryHighlightsType", propOrder = { "stfHeading", "stfInformationTitle", "txtInformation",
+	"conCenterContent" })
 public class TopCategoryHighlightsType {
 
-    @XmlElement(name = "stf_Heading", required = true)
-    protected String stfHeading;
-    @XmlElement(name = "stf_InformationTitle", required = true)
-    protected String stfInformationTitle;
-    @XmlElement(name = "txt_Information", required = true)
-    protected String txtInformation;
-    @XmlElement(name = "con_CenterContent")
-    protected ConCenterContentType conCenterContent;
-    @XmlAttribute(name = "isTemplate")
-    protected Byte isTemplate;
+	@XmlElement(name = "stf_Heading", required = true)
+	protected String stfHeading;
+	@XmlElement(name = "stf_InformationTitle", required = true)
+	protected String stfInformationTitle;
+	@XmlElement(name = "txt_Information", required = true)
+	protected String txtInformation;
+	@XmlElement(name = "con_CenterContent")
+	protected ConCenterContentType conCenterContent;
+	@XmlAttribute(name = "isTemplate")
+	protected Byte isTemplate;
 
-    /**
-     * Gets the value of the stfHeading property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfHeading() {
-        return stfHeading;
-    }
+	/**
+	 * Gets the value of the stfHeading property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfHeading() {
+		return stfHeading;
+	}
 
-    /**
-     * Sets the value of the stfHeading property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfHeading(String value) {
-        this.stfHeading = value;
-    }
+	/**
+	 * Sets the value of the stfHeading property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfHeading(String value) {
+		this.stfHeading = value;
+	}
 
-    /**
-     * Gets the value of the stfInformationTitle property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfInformationTitle() {
-        return stfInformationTitle;
-    }
+	/**
+	 * Gets the value of the stfInformationTitle property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfInformationTitle() {
+		return stfInformationTitle;
+	}
 
-    /**
-     * Sets the value of the stfInformationTitle property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfInformationTitle(String value) {
-        this.stfInformationTitle = value;
-    }
+	/**
+	 * Sets the value of the stfInformationTitle property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfInformationTitle(String value) {
+		this.stfInformationTitle = value;
+	}
 
-    /**
-     * Gets the value of the txtInformation property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getTxtInformation() {
-        return txtInformation;
-    }
+	/**
+	 * Gets the value of the txtInformation property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getTxtInformation() {
+		return txtInformation;
+	}
 
-    /**
-     * Sets the value of the txtInformation property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setTxtInformation(String value) {
-        this.txtInformation = value;
-    }
+	/**
+	 * Sets the value of the txtInformation property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setTxtInformation(String value) {
+		this.txtInformation = value;
+	}
 
-    /**
-     * Gets the value of the conCenterContent property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link ConCenterContentType }
-     *     
-     */
-    public ConCenterContentType getConCenterContent() {
-        return conCenterContent;
-    }
+	/**
+	 * Gets the value of the conCenterContent property.
+	 * 
+	 * @return possible object is {@link ConCenterContentType }
+	 * 
+	 */
+	public ConCenterContentType getConCenterContent() {
+		return conCenterContent;
+	}
 
-    /**
-     * Sets the value of the conCenterContent property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link ConCenterContentType }
-     *     
-     */
-    public void setConCenterContent(ConCenterContentType value) {
-        this.conCenterContent = value;
-    }
+	/**
+	 * Sets the value of the conCenterContent property.
+	 * 
+	 * @param value allowed object is {@link ConCenterContentType }
+	 * 
+	 */
+	public void setConCenterContent(ConCenterContentType value) {
+		this.conCenterContent = value;
+	}
 
-    /**
-     * Gets the value of the isTemplate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Byte }
-     *     
-     */
-    public Byte getIsTemplate() {
-        return isTemplate;
-    }
+	/**
+	 * Gets the value of the isTemplate property.
+	 * 
+	 * @return possible object is {@link Byte }
+	 * 
+	 */
+	public Byte getIsTemplate() {
+		return isTemplate;
+	}
 
-    /**
-     * Sets the value of the isTemplate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Byte }
-     *     
-     */
-    public void setIsTemplate(Byte value) {
-        this.isTemplate = value;
-    }
+	/**
+	 * Sets the value of the isTemplate property.
+	 * 
+	 * @param value allowed object is {@link Byte }
+	 * 
+	 */
+	public void setIsTemplate(Byte value) {
+		this.isTemplate = value;
+	}
 
 }

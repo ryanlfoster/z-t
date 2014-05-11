@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -13,11 +12,13 @@ import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for con_GlobalHeaderType complex type.
+ * <p>
+ * Java class for con_GlobalHeaderType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="con_GlobalHeaderType">
@@ -34,36 +35,30 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "con_GlobalHeaderType", propOrder = {
-    "globalHeaderControlInclude"
-})
+@XmlType(name = "con_GlobalHeaderType", propOrder = { "globalHeaderControlInclude" })
 public class ConGlobalHeaderType {
 
-    @XmlElement(name = "GlobalHeaderControlInclude", required = true)
-    protected GlobalHeaderControlIncludeType globalHeaderControlInclude;
+	@XmlElement(name = "GlobalHeaderControlInclude", required = true)
+	protected GlobalHeaderControlIncludeType globalHeaderControlInclude;
 
-    /**
-     * Gets the value of the globalHeaderControlInclude property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link GlobalHeaderControlIncludeType }
-     *     
-     */
-    public GlobalHeaderControlIncludeType getGlobalHeaderControlInclude() {
-        return globalHeaderControlInclude;
-    }
+	/**
+	 * Gets the value of the globalHeaderControlInclude property.
+	 * 
+	 * @return possible object is {@link GlobalHeaderControlIncludeType }
+	 * 
+	 */
+	public GlobalHeaderControlIncludeType getGlobalHeaderControlInclude() {
+		return globalHeaderControlInclude;
+	}
 
-    /**
-     * Sets the value of the globalHeaderControlInclude property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link GlobalHeaderControlIncludeType }
-     *     
-     */
-    public void setGlobalHeaderControlInclude(GlobalHeaderControlIncludeType value) {
-        this.globalHeaderControlInclude = value;
-    }
+	/**
+	 * Sets the value of the globalHeaderControlInclude property.
+	 * 
+	 * @param value allowed object is {@link GlobalHeaderControlIncludeType }
+	 * 
+	 */
+	public void setGlobalHeaderControlInclude(GlobalHeaderControlIncludeType value) {
+		this.globalHeaderControlInclude = value;
+	}
 
 }

@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -14,11 +13,13 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for VideoType complex type.
+ * <p>
+ * Java class for VideoType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="VideoType">
@@ -50,439 +51,361 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "VideoType", propOrder = {
-    "headline",
-    "ancLink",
-    "optBrightCovePlayerType",
-    "optIsEmbeded",
-    "optVideoOption",
-    "stfBrightcoveHeight",
-    "stfBrightCoveWidth",
-    "stfCaptionTitle",
-    "stfLinkText",
-    "stfMediaID",
-    "stfTargetedCountry",
-    "stfViocorpHeight",
-    "stfViocorpWidth",
-    "txtEmbedCode",
-    "txtVideoDescription"
-})
+@XmlType(name = "VideoType", propOrder = { "headline", "ancLink", "optBrightCovePlayerType", "optIsEmbeded",
+	"optVideoOption", "stfBrightcoveHeight", "stfBrightCoveWidth", "stfCaptionTitle", "stfLinkText", "stfMediaID",
+	"stfTargetedCountry", "stfViocorpHeight", "stfViocorpWidth", "txtEmbedCode", "txtVideoDescription" })
 public class VideoType {
 
-    protected String headline;
-    @XmlElement(name = "anc_Link", required = true)
-    protected String ancLink;
-    @XmlElement(name = "opt_BrightCovePlayerType")
-    protected Long optBrightCovePlayerType;
-    @XmlElement(name = "opt_isEmbeded", required = true)
-    protected String optIsEmbeded;
-    @XmlElement(name = "opt_videoOption", required = true)
-    protected String optVideoOption;
-    @XmlElement(name = "stf_BrightcoveHeight")
-    protected Short stfBrightcoveHeight;
-    @XmlElement(name = "stf_BrightCoveWidth")
-    protected Short stfBrightCoveWidth;
-    @XmlElement(name = "stf_CaptionTitle", required = true)
-    protected String stfCaptionTitle;
-    @XmlElement(name = "stf_LinkText", required = true)
-    protected String stfLinkText;
-    @XmlElement(name = "stf_MediaID", required = true)
-    protected String stfMediaID;
-    @XmlElement(name = "stf_TargetedCountry", required = true)
-    protected String stfTargetedCountry;
-    @XmlElement(name = "stf_ViocorpHeight")
-    protected String stfViocorpHeight;
-    @XmlElement(name = "stf_ViocorpWidth")
-    protected String stfViocorpWidth;
-    @XmlElement(name = "txt_embedCode", required = true)
-    protected String txtEmbedCode;
-    @XmlElement(name = "txt_VideoDescription", required = true)
-    protected String txtVideoDescription;
-    @XmlAttribute(name = "isTemplate")
-    protected Byte isTemplate;
+	protected String headline;
+	@XmlElement(name = "anc_Link", required = true)
+	protected String ancLink;
+	@XmlElement(name = "opt_BrightCovePlayerType")
+	protected Long optBrightCovePlayerType;
+	@XmlElement(name = "opt_isEmbeded", required = true)
+	protected String optIsEmbeded;
+	@XmlElement(name = "opt_videoOption", required = true)
+	protected String optVideoOption;
+	@XmlElement(name = "stf_BrightcoveHeight")
+	protected Short stfBrightcoveHeight;
+	@XmlElement(name = "stf_BrightCoveWidth")
+	protected Short stfBrightCoveWidth;
+	@XmlElement(name = "stf_CaptionTitle", required = true)
+	protected String stfCaptionTitle;
+	@XmlElement(name = "stf_LinkText", required = true)
+	protected String stfLinkText;
+	@XmlElement(name = "stf_MediaID", required = true)
+	protected String stfMediaID;
+	@XmlElement(name = "stf_TargetedCountry", required = true)
+	protected String stfTargetedCountry;
+	@XmlElement(name = "stf_ViocorpHeight")
+	protected String stfViocorpHeight;
+	@XmlElement(name = "stf_ViocorpWidth")
+	protected String stfViocorpWidth;
+	@XmlElement(name = "txt_embedCode", required = true)
+	protected String txtEmbedCode;
+	@XmlElement(name = "txt_VideoDescription", required = true)
+	protected String txtVideoDescription;
+	@XmlAttribute(name = "isTemplate")
+	protected Byte isTemplate;
 
-    /**
-     * Gets the value of the headline property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getHeadline() {
-        return headline;
-    }
+	/**
+	 * Gets the value of the headline property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getHeadline() {
+		return headline;
+	}
 
-    /**
-     * Sets the value of the headline property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setHeadline(String value) {
-        this.headline = value;
-    }
+	/**
+	 * Sets the value of the headline property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setHeadline(String value) {
+		this.headline = value;
+	}
 
-    /**
-     * Gets the value of the ancLink property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getAncLink() {
-        return ancLink;
-    }
+	/**
+	 * Gets the value of the ancLink property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getAncLink() {
+		return ancLink;
+	}
 
-    /**
-     * Sets the value of the ancLink property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setAncLink(String value) {
-        this.ancLink = value;
-    }
+	/**
+	 * Sets the value of the ancLink property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setAncLink(String value) {
+		this.ancLink = value;
+	}
 
-    /**
-     * Gets the value of the optBrightCovePlayerType property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Long }
-     *     
-     */
-    public Long getOptBrightCovePlayerType() {
-        return optBrightCovePlayerType;
-    }
+	/**
+	 * Gets the value of the optBrightCovePlayerType property.
+	 * 
+	 * @return possible object is {@link Long }
+	 * 
+	 */
+	public Long getOptBrightCovePlayerType() {
+		return optBrightCovePlayerType;
+	}
 
-    /**
-     * Sets the value of the optBrightCovePlayerType property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Long }
-     *     
-     */
-    public void setOptBrightCovePlayerType(Long value) {
-        this.optBrightCovePlayerType = value;
-    }
+	/**
+	 * Sets the value of the optBrightCovePlayerType property.
+	 * 
+	 * @param value allowed object is {@link Long }
+	 * 
+	 */
+	public void setOptBrightCovePlayerType(Long value) {
+		this.optBrightCovePlayerType = value;
+	}
 
-    /**
-     * Gets the value of the optIsEmbeded property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getOptIsEmbeded() {
-        return optIsEmbeded;
-    }
+	/**
+	 * Gets the value of the optIsEmbeded property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getOptIsEmbeded() {
+		return optIsEmbeded;
+	}
 
-    /**
-     * Sets the value of the optIsEmbeded property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setOptIsEmbeded(String value) {
-        this.optIsEmbeded = value;
-    }
+	/**
+	 * Sets the value of the optIsEmbeded property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setOptIsEmbeded(String value) {
+		this.optIsEmbeded = value;
+	}
 
-    /**
-     * Gets the value of the optVideoOption property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getOptVideoOption() {
-        return optVideoOption;
-    }
+	/**
+	 * Gets the value of the optVideoOption property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getOptVideoOption() {
+		return optVideoOption;
+	}
 
-    /**
-     * Sets the value of the optVideoOption property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setOptVideoOption(String value) {
-        this.optVideoOption = value;
-    }
+	/**
+	 * Sets the value of the optVideoOption property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setOptVideoOption(String value) {
+		this.optVideoOption = value;
+	}
 
-    /**
-     * Gets the value of the stfBrightcoveHeight property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Short }
-     *     
-     */
-    public Short getStfBrightcoveHeight() {
-        return stfBrightcoveHeight;
-    }
+	/**
+	 * Gets the value of the stfBrightcoveHeight property.
+	 * 
+	 * @return possible object is {@link Short }
+	 * 
+	 */
+	public Short getStfBrightcoveHeight() {
+		return stfBrightcoveHeight;
+	}
 
-    /**
-     * Sets the value of the stfBrightcoveHeight property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Short }
-     *     
-     */
-    public void setStfBrightcoveHeight(Short value) {
-        this.stfBrightcoveHeight = value;
-    }
+	/**
+	 * Sets the value of the stfBrightcoveHeight property.
+	 * 
+	 * @param value allowed object is {@link Short }
+	 * 
+	 */
+	public void setStfBrightcoveHeight(Short value) {
+		this.stfBrightcoveHeight = value;
+	}
 
-    /**
-     * Gets the value of the stfBrightCoveWidth property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Short }
-     *     
-     */
-    public Short getStfBrightCoveWidth() {
-        return stfBrightCoveWidth;
-    }
+	/**
+	 * Gets the value of the stfBrightCoveWidth property.
+	 * 
+	 * @return possible object is {@link Short }
+	 * 
+	 */
+	public Short getStfBrightCoveWidth() {
+		return stfBrightCoveWidth;
+	}
 
-    /**
-     * Sets the value of the stfBrightCoveWidth property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Short }
-     *     
-     */
-    public void setStfBrightCoveWidth(Short value) {
-        this.stfBrightCoveWidth = value;
-    }
+	/**
+	 * Sets the value of the stfBrightCoveWidth property.
+	 * 
+	 * @param value allowed object is {@link Short }
+	 * 
+	 */
+	public void setStfBrightCoveWidth(Short value) {
+		this.stfBrightCoveWidth = value;
+	}
 
-    /**
-     * Gets the value of the stfCaptionTitle property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfCaptionTitle() {
-        return stfCaptionTitle;
-    }
+	/**
+	 * Gets the value of the stfCaptionTitle property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfCaptionTitle() {
+		return stfCaptionTitle;
+	}
 
-    /**
-     * Sets the value of the stfCaptionTitle property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfCaptionTitle(String value) {
-        this.stfCaptionTitle = value;
-    }
+	/**
+	 * Sets the value of the stfCaptionTitle property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfCaptionTitle(String value) {
+		this.stfCaptionTitle = value;
+	}
 
-    /**
-     * Gets the value of the stfLinkText property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfLinkText() {
-        return stfLinkText;
-    }
+	/**
+	 * Gets the value of the stfLinkText property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfLinkText() {
+		return stfLinkText;
+	}
 
-    /**
-     * Sets the value of the stfLinkText property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfLinkText(String value) {
-        this.stfLinkText = value;
-    }
+	/**
+	 * Sets the value of the stfLinkText property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfLinkText(String value) {
+		this.stfLinkText = value;
+	}
 
-    /**
-     * Gets the value of the stfMediaID property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfMediaID() {
-        return stfMediaID;
-    }
+	/**
+	 * Gets the value of the stfMediaID property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfMediaID() {
+		return stfMediaID;
+	}
 
-    /**
-     * Sets the value of the stfMediaID property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfMediaID(String value) {
-        this.stfMediaID = value;
-    }
+	/**
+	 * Sets the value of the stfMediaID property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfMediaID(String value) {
+		this.stfMediaID = value;
+	}
 
-    /**
-     * Gets the value of the stfTargetedCountry property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfTargetedCountry() {
-        return stfTargetedCountry;
-    }
+	/**
+	 * Gets the value of the stfTargetedCountry property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfTargetedCountry() {
+		return stfTargetedCountry;
+	}
 
-    /**
-     * Sets the value of the stfTargetedCountry property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfTargetedCountry(String value) {
-        this.stfTargetedCountry = value;
-    }
+	/**
+	 * Sets the value of the stfTargetedCountry property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfTargetedCountry(String value) {
+		this.stfTargetedCountry = value;
+	}
 
-    /**
-     * Gets the value of the stfViocorpHeight property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfViocorpHeight() {
-        return stfViocorpHeight;
-    }
+	/**
+	 * Gets the value of the stfViocorpHeight property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfViocorpHeight() {
+		return stfViocorpHeight;
+	}
 
-    /**
-     * Sets the value of the stfViocorpHeight property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfViocorpHeight(String value) {
-        this.stfViocorpHeight = value;
-    }
+	/**
+	 * Sets the value of the stfViocorpHeight property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfViocorpHeight(String value) {
+		this.stfViocorpHeight = value;
+	}
 
-    /**
-     * Gets the value of the stfViocorpWidth property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfViocorpWidth() {
-        return stfViocorpWidth;
-    }
+	/**
+	 * Gets the value of the stfViocorpWidth property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfViocorpWidth() {
+		return stfViocorpWidth;
+	}
 
-    /**
-     * Sets the value of the stfViocorpWidth property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfViocorpWidth(String value) {
-        this.stfViocorpWidth = value;
-    }
+	/**
+	 * Sets the value of the stfViocorpWidth property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfViocorpWidth(String value) {
+		this.stfViocorpWidth = value;
+	}
 
-    /**
-     * Gets the value of the txtEmbedCode property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getTxtEmbedCode() {
-        return txtEmbedCode;
-    }
+	/**
+	 * Gets the value of the txtEmbedCode property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getTxtEmbedCode() {
+		return txtEmbedCode;
+	}
 
-    /**
-     * Sets the value of the txtEmbedCode property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setTxtEmbedCode(String value) {
-        this.txtEmbedCode = value;
-    }
+	/**
+	 * Sets the value of the txtEmbedCode property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setTxtEmbedCode(String value) {
+		this.txtEmbedCode = value;
+	}
 
-    /**
-     * Gets the value of the txtVideoDescription property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getTxtVideoDescription() {
-        return txtVideoDescription;
-    }
+	/**
+	 * Gets the value of the txtVideoDescription property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getTxtVideoDescription() {
+		return txtVideoDescription;
+	}
 
-    /**
-     * Sets the value of the txtVideoDescription property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setTxtVideoDescription(String value) {
-        this.txtVideoDescription = value;
-    }
+	/**
+	 * Sets the value of the txtVideoDescription property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setTxtVideoDescription(String value) {
+		this.txtVideoDescription = value;
+	}
 
-    /**
-     * Gets the value of the isTemplate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Byte }
-     *     
-     */
-    public Byte getIsTemplate() {
-        return isTemplate;
-    }
+	/**
+	 * Gets the value of the isTemplate property.
+	 * 
+	 * @return possible object is {@link Byte }
+	 * 
+	 */
+	public Byte getIsTemplate() {
+		return isTemplate;
+	}
 
-    /**
-     * Sets the value of the isTemplate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Byte }
-     *     
-     */
-    public void setIsTemplate(Byte value) {
-        this.isTemplate = value;
-    }
+	/**
+	 * Sets the value of the isTemplate property.
+	 * 
+	 * @param value allowed object is {@link Byte }
+	 * 
+	 */
+	public void setIsTemplate(Byte value) {
+		this.isTemplate = value;
+	}
 
 }

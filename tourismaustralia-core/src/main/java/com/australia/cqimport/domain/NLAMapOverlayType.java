@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -14,11 +13,13 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for NLAMapOverlayType complex type.
+ * <p>
+ * Java class for NLAMapOverlayType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="NLAMapOverlayType">
@@ -43,251 +44,207 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "NLAMapOverlayType", propOrder = {
-    "conDescription",
-    "imgNothingLikeAustralia",
-    "stfBackToHomepage",
-    "stfExperience",
-    "stfNext",
-    "stfOverlayTitle",
-    "stfPrevious",
-    "txtDescription"
-})
+@XmlType(name = "NLAMapOverlayType", propOrder = { "conDescription", "imgNothingLikeAustralia", "stfBackToHomepage",
+	"stfExperience", "stfNext", "stfOverlayTitle", "stfPrevious", "txtDescription" })
 public class NLAMapOverlayType {
 
-    @XmlElement(name = "con_Description", required = true)
-    protected ConDescriptionType conDescription;
-    @XmlElement(name = "img_NothingLikeAustralia", required = true)
-    protected String imgNothingLikeAustralia;
-    @XmlElement(name = "stf_BackToHomepage", required = true)
-    protected String stfBackToHomepage;
-    @XmlElement(name = "stf_Experience", required = true)
-    protected String stfExperience;
-    @XmlElement(name = "stf_Next", required = true)
-    protected String stfNext;
-    @XmlElement(name = "stf_OverlayTitle", required = true)
-    protected String stfOverlayTitle;
-    @XmlElement(name = "stf_Previous", required = true)
-    protected String stfPrevious;
-    @XmlElement(name = "txt_Description", required = true)
-    protected String txtDescription;
-    @XmlAttribute(name = "isTemplate")
-    protected Byte isTemplate;
+	@XmlElement(name = "con_Description", required = true)
+	protected ConDescriptionType conDescription;
+	@XmlElement(name = "img_NothingLikeAustralia", required = true)
+	protected String imgNothingLikeAustralia;
+	@XmlElement(name = "stf_BackToHomepage", required = true)
+	protected String stfBackToHomepage;
+	@XmlElement(name = "stf_Experience", required = true)
+	protected String stfExperience;
+	@XmlElement(name = "stf_Next", required = true)
+	protected String stfNext;
+	@XmlElement(name = "stf_OverlayTitle", required = true)
+	protected String stfOverlayTitle;
+	@XmlElement(name = "stf_Previous", required = true)
+	protected String stfPrevious;
+	@XmlElement(name = "txt_Description", required = true)
+	protected String txtDescription;
+	@XmlAttribute(name = "isTemplate")
+	protected Byte isTemplate;
 
-    /**
-     * Gets the value of the conDescription property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link ConDescriptionType }
-     *     
-     */
-    public ConDescriptionType getConDescription() {
-        return conDescription;
-    }
+	/**
+	 * Gets the value of the conDescription property.
+	 * 
+	 * @return possible object is {@link ConDescriptionType }
+	 * 
+	 */
+	public ConDescriptionType getConDescription() {
+		return conDescription;
+	}
 
-    /**
-     * Sets the value of the conDescription property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link ConDescriptionType }
-     *     
-     */
-    public void setConDescription(ConDescriptionType value) {
-        this.conDescription = value;
-    }
+	/**
+	 * Sets the value of the conDescription property.
+	 * 
+	 * @param value allowed object is {@link ConDescriptionType }
+	 * 
+	 */
+	public void setConDescription(ConDescriptionType value) {
+		this.conDescription = value;
+	}
 
-    /**
-     * Gets the value of the imgNothingLikeAustralia property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getImgNothingLikeAustralia() {
-        return imgNothingLikeAustralia;
-    }
+	/**
+	 * Gets the value of the imgNothingLikeAustralia property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getImgNothingLikeAustralia() {
+		return imgNothingLikeAustralia;
+	}
 
-    /**
-     * Sets the value of the imgNothingLikeAustralia property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setImgNothingLikeAustralia(String value) {
-        this.imgNothingLikeAustralia = value;
-    }
+	/**
+	 * Sets the value of the imgNothingLikeAustralia property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setImgNothingLikeAustralia(String value) {
+		this.imgNothingLikeAustralia = value;
+	}
 
-    /**
-     * Gets the value of the stfBackToHomepage property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfBackToHomepage() {
-        return stfBackToHomepage;
-    }
+	/**
+	 * Gets the value of the stfBackToHomepage property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfBackToHomepage() {
+		return stfBackToHomepage;
+	}
 
-    /**
-     * Sets the value of the stfBackToHomepage property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfBackToHomepage(String value) {
-        this.stfBackToHomepage = value;
-    }
+	/**
+	 * Sets the value of the stfBackToHomepage property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfBackToHomepage(String value) {
+		this.stfBackToHomepage = value;
+	}
 
-    /**
-     * Gets the value of the stfExperience property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfExperience() {
-        return stfExperience;
-    }
+	/**
+	 * Gets the value of the stfExperience property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfExperience() {
+		return stfExperience;
+	}
 
-    /**
-     * Sets the value of the stfExperience property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfExperience(String value) {
-        this.stfExperience = value;
-    }
+	/**
+	 * Sets the value of the stfExperience property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfExperience(String value) {
+		this.stfExperience = value;
+	}
 
-    /**
-     * Gets the value of the stfNext property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfNext() {
-        return stfNext;
-    }
+	/**
+	 * Gets the value of the stfNext property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfNext() {
+		return stfNext;
+	}
 
-    /**
-     * Sets the value of the stfNext property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfNext(String value) {
-        this.stfNext = value;
-    }
+	/**
+	 * Sets the value of the stfNext property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfNext(String value) {
+		this.stfNext = value;
+	}
 
-    /**
-     * Gets the value of the stfOverlayTitle property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfOverlayTitle() {
-        return stfOverlayTitle;
-    }
+	/**
+	 * Gets the value of the stfOverlayTitle property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfOverlayTitle() {
+		return stfOverlayTitle;
+	}
 
-    /**
-     * Sets the value of the stfOverlayTitle property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfOverlayTitle(String value) {
-        this.stfOverlayTitle = value;
-    }
+	/**
+	 * Sets the value of the stfOverlayTitle property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfOverlayTitle(String value) {
+		this.stfOverlayTitle = value;
+	}
 
-    /**
-     * Gets the value of the stfPrevious property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfPrevious() {
-        return stfPrevious;
-    }
+	/**
+	 * Gets the value of the stfPrevious property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfPrevious() {
+		return stfPrevious;
+	}
 
-    /**
-     * Sets the value of the stfPrevious property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfPrevious(String value) {
-        this.stfPrevious = value;
-    }
+	/**
+	 * Sets the value of the stfPrevious property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfPrevious(String value) {
+		this.stfPrevious = value;
+	}
 
-    /**
-     * Gets the value of the txtDescription property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getTxtDescription() {
-        return txtDescription;
-    }
+	/**
+	 * Gets the value of the txtDescription property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getTxtDescription() {
+		return txtDescription;
+	}
 
-    /**
-     * Sets the value of the txtDescription property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setTxtDescription(String value) {
-        this.txtDescription = value;
-    }
+	/**
+	 * Sets the value of the txtDescription property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setTxtDescription(String value) {
+		this.txtDescription = value;
+	}
 
-    /**
-     * Gets the value of the isTemplate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Byte }
-     *     
-     */
-    public Byte getIsTemplate() {
-        return isTemplate;
-    }
+	/**
+	 * Gets the value of the isTemplate property.
+	 * 
+	 * @return possible object is {@link Byte }
+	 * 
+	 */
+	public Byte getIsTemplate() {
+		return isTemplate;
+	}
 
-    /**
-     * Sets the value of the isTemplate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Byte }
-     *     
-     */
-    public void setIsTemplate(Byte value) {
-        this.isTemplate = value;
-    }
+	/**
+	 * Sets the value of the isTemplate property.
+	 * 
+	 * @param value allowed object is {@link Byte }
+	 * 
+	 */
+	public void setIsTemplate(Byte value) {
+		this.isTemplate = value;
+	}
 
 }

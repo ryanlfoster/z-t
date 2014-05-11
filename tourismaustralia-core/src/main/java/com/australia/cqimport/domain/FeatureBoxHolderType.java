@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -14,11 +13,13 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for FeatureBoxHolderType complex type.
+ * <p>
+ * Java class for FeatureBoxHolderType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="FeatureBoxHolderType">
@@ -38,116 +39,96 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "FeatureBoxHolderType", propOrder = {
-    "hdlFeatures",
-    "ancManagementPage",
-    "conFeatureBoxCountries"
-})
+@XmlType(name = "FeatureBoxHolderType", propOrder = { "hdlFeatures", "ancManagementPage", "conFeatureBoxCountries" })
 public class FeatureBoxHolderType {
 
-    @XmlElement(name = "hdl_Features", required = true)
-    protected String hdlFeatures;
-    @XmlElement(name = "anc_ManagementPage", required = true)
-    protected String ancManagementPage;
-    @XmlElement(name = "con_FeatureBoxCountries", required = true)
-    protected ConFeatureBoxCountriesType conFeatureBoxCountries;
-    @XmlAttribute(name = "isTemplate")
-    protected Byte isTemplate;
+	@XmlElement(name = "hdl_Features", required = true)
+	protected String hdlFeatures;
+	@XmlElement(name = "anc_ManagementPage", required = true)
+	protected String ancManagementPage;
+	@XmlElement(name = "con_FeatureBoxCountries", required = true)
+	protected ConFeatureBoxCountriesType conFeatureBoxCountries;
+	@XmlAttribute(name = "isTemplate")
+	protected Byte isTemplate;
 
-    /**
-     * Gets the value of the hdlFeatures property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getHdlFeatures() {
-        return hdlFeatures;
-    }
+	/**
+	 * Gets the value of the hdlFeatures property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getHdlFeatures() {
+		return hdlFeatures;
+	}
 
-    /**
-     * Sets the value of the hdlFeatures property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setHdlFeatures(String value) {
-        this.hdlFeatures = value;
-    }
+	/**
+	 * Sets the value of the hdlFeatures property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setHdlFeatures(String value) {
+		this.hdlFeatures = value;
+	}
 
-    /**
-     * Gets the value of the ancManagementPage property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getAncManagementPage() {
-        return ancManagementPage;
-    }
+	/**
+	 * Gets the value of the ancManagementPage property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getAncManagementPage() {
+		return ancManagementPage;
+	}
 
-    /**
-     * Sets the value of the ancManagementPage property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setAncManagementPage(String value) {
-        this.ancManagementPage = value;
-    }
+	/**
+	 * Sets the value of the ancManagementPage property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setAncManagementPage(String value) {
+		this.ancManagementPage = value;
+	}
 
-    /**
-     * Gets the value of the conFeatureBoxCountries property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link ConFeatureBoxCountriesType }
-     *     
-     */
-    public ConFeatureBoxCountriesType getConFeatureBoxCountries() {
-        return conFeatureBoxCountries;
-    }
+	/**
+	 * Gets the value of the conFeatureBoxCountries property.
+	 * 
+	 * @return possible object is {@link ConFeatureBoxCountriesType }
+	 * 
+	 */
+	public ConFeatureBoxCountriesType getConFeatureBoxCountries() {
+		return conFeatureBoxCountries;
+	}
 
-    /**
-     * Sets the value of the conFeatureBoxCountries property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link ConFeatureBoxCountriesType }
-     *     
-     */
-    public void setConFeatureBoxCountries(ConFeatureBoxCountriesType value) {
-        this.conFeatureBoxCountries = value;
-    }
+	/**
+	 * Sets the value of the conFeatureBoxCountries property.
+	 * 
+	 * @param value allowed object is {@link ConFeatureBoxCountriesType }
+	 * 
+	 */
+	public void setConFeatureBoxCountries(ConFeatureBoxCountriesType value) {
+		this.conFeatureBoxCountries = value;
+	}
 
-    /**
-     * Gets the value of the isTemplate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Byte }
-     *     
-     */
-    public Byte getIsTemplate() {
-        return isTemplate;
-    }
+	/**
+	 * Gets the value of the isTemplate property.
+	 * 
+	 * @return possible object is {@link Byte }
+	 * 
+	 */
+	public Byte getIsTemplate() {
+		return isTemplate;
+	}
 
-    /**
-     * Sets the value of the isTemplate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Byte }
-     *     
-     */
-    public void setIsTemplate(Byte value) {
-        this.isTemplate = value;
-    }
+	/**
+	 * Sets the value of the isTemplate property.
+	 * 
+	 * @param value allowed object is {@link Byte }
+	 * 
+	 */
+	public void setIsTemplate(Byte value) {
+		this.isTemplate = value;
+	}
 
 }

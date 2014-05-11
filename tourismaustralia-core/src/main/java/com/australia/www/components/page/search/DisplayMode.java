@@ -10,7 +10,7 @@ public enum DisplayMode {
 
 	private static final Map<String, DisplayMode> MAP = new HashMap<String, DisplayMode>();
 	static {
-		for(DisplayMode mode: DisplayMode.values()) {
+		for (DisplayMode mode : DisplayMode.values()) {
 			MAP.put(mode.name(), mode);
 		}
 	}

@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -14,11 +13,13 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for BEHomeFeaturedOverlayTextType complex type.
+ * <p>
+ * Java class for BEHomeFeaturedOverlayTextType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="BEHomeFeaturedOverlayTextType">
@@ -46,332 +47,274 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "BEHomeFeaturedOverlayTextType", propOrder = {
-    "ancFullstory",
-    "hdlHeadline",
-    "imgBackground",
-    "imgOverlayIcon1",
-    "imgOverlayIcon2",
-    "stfOverlayText1",
-    "stfOverlayText2",
-    "stfOverlayText3",
-    "stfSubheader",
-    "stfTitle",
-    "stfViewFullStory"
-})
+@XmlType(name = "BEHomeFeaturedOverlayTextType", propOrder = { "ancFullstory", "hdlHeadline", "imgBackground",
+	"imgOverlayIcon1", "imgOverlayIcon2", "stfOverlayText1", "stfOverlayText2", "stfOverlayText3", "stfSubheader",
+	"stfTitle", "stfViewFullStory" })
 public class BEHomeFeaturedOverlayTextType {
 
-    @XmlElement(name = "anc_fullstory", required = true)
-    protected String ancFullstory;
-    @XmlElement(name = "hdl_headline", required = true)
-    protected String hdlHeadline;
-    @XmlElement(name = "img_background", required = true)
-    protected String imgBackground;
-    @XmlElement(name = "img_overlayIcon1", required = true)
-    protected String imgOverlayIcon1;
-    @XmlElement(name = "img_overlayIcon2", required = true)
-    protected String imgOverlayIcon2;
-    @XmlElement(name = "stf_overlayText1", required = true)
-    protected String stfOverlayText1;
-    @XmlElement(name = "stf_overlayText2", required = true)
-    protected String stfOverlayText2;
-    @XmlElement(name = "stf_overlayText3", required = true)
-    protected String stfOverlayText3;
-    @XmlElement(name = "stf_subheader", required = true)
-    protected String stfSubheader;
-    @XmlElement(name = "stf_Title", required = true)
-    protected String stfTitle;
-    @XmlElement(name = "stf_ViewFullStory", required = true)
-    protected String stfViewFullStory;
-    @XmlAttribute(name = "isTemplate")
-    protected Byte isTemplate;
+	@XmlElement(name = "anc_fullstory", required = true)
+	protected String ancFullstory;
+	@XmlElement(name = "hdl_headline", required = true)
+	protected String hdlHeadline;
+	@XmlElement(name = "img_background", required = true)
+	protected String imgBackground;
+	@XmlElement(name = "img_overlayIcon1", required = true)
+	protected String imgOverlayIcon1;
+	@XmlElement(name = "img_overlayIcon2", required = true)
+	protected String imgOverlayIcon2;
+	@XmlElement(name = "stf_overlayText1", required = true)
+	protected String stfOverlayText1;
+	@XmlElement(name = "stf_overlayText2", required = true)
+	protected String stfOverlayText2;
+	@XmlElement(name = "stf_overlayText3", required = true)
+	protected String stfOverlayText3;
+	@XmlElement(name = "stf_subheader", required = true)
+	protected String stfSubheader;
+	@XmlElement(name = "stf_Title", required = true)
+	protected String stfTitle;
+	@XmlElement(name = "stf_ViewFullStory", required = true)
+	protected String stfViewFullStory;
+	@XmlAttribute(name = "isTemplate")
+	protected Byte isTemplate;
 
-    /**
-     * Gets the value of the ancFullstory property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getAncFullstory() {
-        return ancFullstory;
-    }
+	/**
+	 * Gets the value of the ancFullstory property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getAncFullstory() {
+		return ancFullstory;
+	}
 
-    /**
-     * Sets the value of the ancFullstory property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setAncFullstory(String value) {
-        this.ancFullstory = value;
-    }
+	/**
+	 * Sets the value of the ancFullstory property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setAncFullstory(String value) {
+		this.ancFullstory = value;
+	}
 
-    /**
-     * Gets the value of the hdlHeadline property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getHdlHeadline() {
-        return hdlHeadline;
-    }
+	/**
+	 * Gets the value of the hdlHeadline property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getHdlHeadline() {
+		return hdlHeadline;
+	}
 
-    /**
-     * Sets the value of the hdlHeadline property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setHdlHeadline(String value) {
-        this.hdlHeadline = value;
-    }
+	/**
+	 * Sets the value of the hdlHeadline property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setHdlHeadline(String value) {
+		this.hdlHeadline = value;
+	}
 
-    /**
-     * Gets the value of the imgBackground property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getImgBackground() {
-        return imgBackground;
-    }
+	/**
+	 * Gets the value of the imgBackground property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getImgBackground() {
+		return imgBackground;
+	}
 
-    /**
-     * Sets the value of the imgBackground property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setImgBackground(String value) {
-        this.imgBackground = value;
-    }
+	/**
+	 * Sets the value of the imgBackground property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setImgBackground(String value) {
+		this.imgBackground = value;
+	}
 
-    /**
-     * Gets the value of the imgOverlayIcon1 property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getImgOverlayIcon1() {
-        return imgOverlayIcon1;
-    }
+	/**
+	 * Gets the value of the imgOverlayIcon1 property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getImgOverlayIcon1() {
+		return imgOverlayIcon1;
+	}
 
-    /**
-     * Sets the value of the imgOverlayIcon1 property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setImgOverlayIcon1(String value) {
-        this.imgOverlayIcon1 = value;
-    }
+	/**
+	 * Sets the value of the imgOverlayIcon1 property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setImgOverlayIcon1(String value) {
+		this.imgOverlayIcon1 = value;
+	}
 
-    /**
-     * Gets the value of the imgOverlayIcon2 property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getImgOverlayIcon2() {
-        return imgOverlayIcon2;
-    }
+	/**
+	 * Gets the value of the imgOverlayIcon2 property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getImgOverlayIcon2() {
+		return imgOverlayIcon2;
+	}
 
-    /**
-     * Sets the value of the imgOverlayIcon2 property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setImgOverlayIcon2(String value) {
-        this.imgOverlayIcon2 = value;
-    }
+	/**
+	 * Sets the value of the imgOverlayIcon2 property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setImgOverlayIcon2(String value) {
+		this.imgOverlayIcon2 = value;
+	}
 
-    /**
-     * Gets the value of the stfOverlayText1 property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfOverlayText1() {
-        return stfOverlayText1;
-    }
+	/**
+	 * Gets the value of the stfOverlayText1 property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfOverlayText1() {
+		return stfOverlayText1;
+	}
 
-    /**
-     * Sets the value of the stfOverlayText1 property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfOverlayText1(String value) {
-        this.stfOverlayText1 = value;
-    }
+	/**
+	 * Sets the value of the stfOverlayText1 property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfOverlayText1(String value) {
+		this.stfOverlayText1 = value;
+	}
 
-    /**
-     * Gets the value of the stfOverlayText2 property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfOverlayText2() {
-        return stfOverlayText2;
-    }
+	/**
+	 * Gets the value of the stfOverlayText2 property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfOverlayText2() {
+		return stfOverlayText2;
+	}
 
-    /**
-     * Sets the value of the stfOverlayText2 property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfOverlayText2(String value) {
-        this.stfOverlayText2 = value;
-    }
+	/**
+	 * Sets the value of the stfOverlayText2 property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfOverlayText2(String value) {
+		this.stfOverlayText2 = value;
+	}
 
-    /**
-     * Gets the value of the stfOverlayText3 property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfOverlayText3() {
-        return stfOverlayText3;
-    }
+	/**
+	 * Gets the value of the stfOverlayText3 property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfOverlayText3() {
+		return stfOverlayText3;
+	}
 
-    /**
-     * Sets the value of the stfOverlayText3 property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfOverlayText3(String value) {
-        this.stfOverlayText3 = value;
-    }
+	/**
+	 * Sets the value of the stfOverlayText3 property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfOverlayText3(String value) {
+		this.stfOverlayText3 = value;
+	}
 
-    /**
-     * Gets the value of the stfSubheader property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfSubheader() {
-        return stfSubheader;
-    }
+	/**
+	 * Gets the value of the stfSubheader property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfSubheader() {
+		return stfSubheader;
+	}
 
-    /**
-     * Sets the value of the stfSubheader property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfSubheader(String value) {
-        this.stfSubheader = value;
-    }
+	/**
+	 * Sets the value of the stfSubheader property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfSubheader(String value) {
+		this.stfSubheader = value;
+	}
 
-    /**
-     * Gets the value of the stfTitle property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfTitle() {
-        return stfTitle;
-    }
+	/**
+	 * Gets the value of the stfTitle property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfTitle() {
+		return stfTitle;
+	}
 
-    /**
-     * Sets the value of the stfTitle property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfTitle(String value) {
-        this.stfTitle = value;
-    }
+	/**
+	 * Sets the value of the stfTitle property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfTitle(String value) {
+		this.stfTitle = value;
+	}
 
-    /**
-     * Gets the value of the stfViewFullStory property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfViewFullStory() {
-        return stfViewFullStory;
-    }
+	/**
+	 * Gets the value of the stfViewFullStory property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfViewFullStory() {
+		return stfViewFullStory;
+	}
 
-    /**
-     * Sets the value of the stfViewFullStory property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfViewFullStory(String value) {
-        this.stfViewFullStory = value;
-    }
+	/**
+	 * Sets the value of the stfViewFullStory property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfViewFullStory(String value) {
+		this.stfViewFullStory = value;
+	}
 
-    /**
-     * Gets the value of the isTemplate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Byte }
-     *     
-     */
-    public Byte getIsTemplate() {
-        return isTemplate;
-    }
+	/**
+	 * Gets the value of the isTemplate property.
+	 * 
+	 * @return possible object is {@link Byte }
+	 * 
+	 */
+	public Byte getIsTemplate() {
+		return isTemplate;
+	}
 
-    /**
-     * Sets the value of the isTemplate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Byte }
-     *     
-     */
-    public void setIsTemplate(Byte value) {
-        this.isTemplate = value;
-    }
+	/**
+	 * Sets the value of the isTemplate property.
+	 * 
+	 * @param value allowed object is {@link Byte }
+	 * 
+	 */
+	public void setIsTemplate(Byte value) {
+		this.isTemplate = value;
+	}
 
 }

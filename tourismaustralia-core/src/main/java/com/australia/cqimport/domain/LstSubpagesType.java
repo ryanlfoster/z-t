@@ -5,12 +5,12 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
+
 import javax.xml.bind.JAXBElement;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -19,11 +19,13 @@ import javax.xml.bind.annotation.XmlElementRef;
 import javax.xml.bind.annotation.XmlMixed;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for lst_SubpagesType complex type.
+ * <p>
+ * Java class for lst_SubpagesType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="lst_SubpagesType">
@@ -53,183 +55,167 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "lst_SubpagesType", propOrder = {
-    "lstSubpage",
-    "url",
-    "imgBanner",
-    "stfCaption"
-})
+@XmlType(name = "lst_SubpagesType", propOrder = { "lstSubpage", "url", "imgBanner", "stfCaption" })
 public class LstSubpagesType {
 
-    @XmlElement(name = "lst_Subpage")
-    protected List<LstSubpagesType.LstSubpage> lstSubpage;
-    protected UrlType url;
-    @XmlElement(name = "img_Banner")
-    protected String imgBanner;
-    @XmlElement(name = "stf_Caption")
-    protected String stfCaption;
+	@XmlElement(name = "lst_Subpage")
+	protected List<LstSubpagesType.LstSubpage> lstSubpage;
+	protected UrlType url;
+	@XmlElement(name = "img_Banner")
+	protected String imgBanner;
+	@XmlElement(name = "stf_Caption")
+	protected String stfCaption;
 
-    /**
-     * Gets the value of the lstSubpage property.
-     * 
-     * <p>
-     * This accessor method returns a reference to the live list,
-     * not a snapshot. Therefore any modification you make to the
-     * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the lstSubpage property.
-     * 
-     * <p>
-     * For example, to add a new item, do as follows:
-     * <pre>
-     *    getLstSubpage().add(newItem);
-     * </pre>
-     * 
-     * 
-     * <p>
-     * Objects of the following type(s) are allowed in the list
-     * {@link LstSubpagesType.LstSubpage }
-     * 
-     * 
-     */
-    public List<LstSubpagesType.LstSubpage> getLstSubpage() {
-        if (lstSubpage == null) {
-            lstSubpage = new ArrayList<LstSubpagesType.LstSubpage>();
-        }
-        return this.lstSubpage;
-    }
+	/**
+	 * Gets the value of the lstSubpage property.
+	 * 
+	 * <p>
+	 * This accessor method returns a reference to the live list, not a
+	 * snapshot. Therefore any modification you make to the returned list will
+	 * be present inside the JAXB object. This is why there is not a
+	 * <CODE>set</CODE> method for the lstSubpage property.
+	 * 
+	 * <p>
+	 * For example, to add a new item, do as follows:
+	 * 
+	 * <pre>
+	 * getLstSubpage().add(newItem);
+	 * </pre>
+	 * 
+	 * 
+	 * <p>
+	 * Objects of the following type(s) are allowed in the list
+	 * {@link LstSubpagesType.LstSubpage }
+	 * 
+	 * 
+	 */
+	public List<LstSubpagesType.LstSubpage> getLstSubpage() {
+		if (lstSubpage == null) {
+			lstSubpage = new ArrayList<LstSubpagesType.LstSubpage>();
+		}
+		return this.lstSubpage;
+	}
 
-    /**
-     * Gets the value of the url property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link UrlType }
-     *     
-     */
-    public UrlType getUrl() {
-        return url;
-    }
+	/**
+	 * Gets the value of the url property.
+	 * 
+	 * @return possible object is {@link UrlType }
+	 * 
+	 */
+	public UrlType getUrl() {
+		return url;
+	}
 
-    /**
-     * Sets the value of the url property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link UrlType }
-     *     
-     */
-    public void setUrl(UrlType value) {
-        this.url = value;
-    }
+	/**
+	 * Sets the value of the url property.
+	 * 
+	 * @param value allowed object is {@link UrlType }
+	 * 
+	 */
+	public void setUrl(UrlType value) {
+		this.url = value;
+	}
 
-    /**
-     * Gets the value of the imgBanner property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getImgBanner() {
-        return imgBanner;
-    }
+	/**
+	 * Gets the value of the imgBanner property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getImgBanner() {
+		return imgBanner;
+	}
 
-    /**
-     * Sets the value of the imgBanner property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setImgBanner(String value) {
-        this.imgBanner = value;
-    }
+	/**
+	 * Sets the value of the imgBanner property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setImgBanner(String value) {
+		this.imgBanner = value;
+	}
 
-    /**
-     * Gets the value of the stfCaption property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfCaption() {
-        return stfCaption;
-    }
+	/**
+	 * Gets the value of the stfCaption property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfCaption() {
+		return stfCaption;
+	}
 
-    /**
-     * Sets the value of the stfCaption property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfCaption(String value) {
-        this.stfCaption = value;
-    }
+	/**
+	 * Sets the value of the stfCaption property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfCaption(String value) {
+		this.stfCaption = value;
+	}
 
+	/**
+	 * <p>
+	 * Java class for anonymous complex type.
+	 * 
+	 * <p>
+	 * The following schema fragment specifies the expected content contained
+	 * within this class.
+	 * 
+	 * <pre>
+	 * &lt;complexType>
+	 *   &lt;complexContent>
+	 *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
+	 *       &lt;sequence>
+	 *         &lt;element name="a" type="{}aType" minOccurs="0"/>
+	 *       &lt;/sequence>
+	 *     &lt;/restriction>
+	 *   &lt;/complexContent>
+	 * &lt;/complexType>
+	 * </pre>
+	 * 
+	 * 
+	 */
+	@XmlAccessorType(XmlAccessType.FIELD)
+	@XmlType(name = "", propOrder = { "content" })
+	public static class LstSubpage {
 
-    /**
-     * <p>Java class for anonymous complex type.
-     * 
-     * <p>The following schema fragment specifies the expected content contained within this class.
-     * 
-     * <pre>
-     * &lt;complexType>
-     *   &lt;complexContent>
-     *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
-     *       &lt;sequence>
-     *         &lt;element name="a" type="{}aType" minOccurs="0"/>
-     *       &lt;/sequence>
-     *     &lt;/restriction>
-     *   &lt;/complexContent>
-     * &lt;/complexType>
-     * </pre>
-     * 
-     * 
-     */
-    @XmlAccessorType(XmlAccessType.FIELD)
-    @XmlType(name = "", propOrder = {
-        "content"
-    })
-    public static class LstSubpage {
+		@XmlElementRef(name = "a", type = JAXBElement.class, required = false)
+		@XmlMixed
+		protected List<Serializable> content;
 
-        @XmlElementRef(name = "a", type = JAXBElement.class, required = false)
-        @XmlMixed
-        protected List<Serializable> content;
+		/**
+		 * Gets the value of the content property.
+		 * 
+		 * <p>
+		 * This accessor method returns a reference to the live list, not a
+		 * snapshot. Therefore any modification you make to the returned list
+		 * will be present inside the JAXB object. This is why there is not a
+		 * <CODE>set</CODE> method for the content property.
+		 * 
+		 * <p>
+		 * For example, to add a new item, do as follows:
+		 * 
+		 * <pre>
+		 * getContent().add(newItem);
+		 * </pre>
+		 * 
+		 * 
+		 * <p>
+		 * Objects of the following type(s) are allowed in the list
+		 * {@link String } {@link JAXBElement }{@code <}{@link AType }{@code >}
+		 * 
+		 * 
+		 */
+		public List<Serializable> getContent() {
+			if (content == null) {
+				content = new ArrayList<Serializable>();
+			}
+			return this.content;
+		}
 
-        /**
-         * Gets the value of the content property.
-         * 
-         * <p>
-         * This accessor method returns a reference to the live list,
-         * not a snapshot. Therefore any modification you make to the
-         * returned list will be present inside the JAXB object.
-         * This is why there is not a <CODE>set</CODE> method for the content property.
-         * 
-         * <p>
-         * For example, to add a new item, do as follows:
-         * <pre>
-         *    getContent().add(newItem);
-         * </pre>
-         * 
-         * 
-         * <p>
-         * Objects of the following type(s) are allowed in the list
-         * {@link String }
-         * {@link JAXBElement }{@code <}{@link AType }{@code >}
-         * 
-         * 
-         */
-        public List<Serializable> getContent() {
-            if (content == null) {
-                content = new ArrayList<Serializable>();
-            }
-            return this.content;
-        }
-
-    }
+	}
 
 }

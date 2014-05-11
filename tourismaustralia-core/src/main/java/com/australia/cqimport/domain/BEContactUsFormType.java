@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -14,11 +13,13 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for BEContactUsFormType complex type.
+ * <p>
+ * Java class for BEContactUsFormType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="BEContactUsFormType">
@@ -54,548 +55,454 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "BEContactUsFormType", propOrder = {
-    "stfCountryFirstOptionText",
-    "stfCountryLabelText",
-    "stfCountryRequiredValidationText",
-    "stfEmailAddressInvalidValidationText",
-    "stfEmailAddressLabelText",
-    "stfEmailAddressPlaceholderText",
-    "stfEmailAddressRequiredValidationText",
-    "stfFirstNameLabelText",
-    "stfFirstNamePlaceholderText",
-    "stfFirstNameRequiredValidationText",
-    "stfLastNameLabelText",
-    "stfLastNamePlaceholderText",
-    "stfLastNameRequiredValidationText",
-    "stfMessageLabelText",
-    "stfMessageRequiredValidationText",
-    "stfOrganisationLabelText",
-    "stfOrganisationPlaceholderText",
-    "stfOrganisationRequiredValidationText",
-    "stfSubmitButtonText"
-})
+@XmlType(name = "BEContactUsFormType", propOrder = { "stfCountryFirstOptionText", "stfCountryLabelText",
+	"stfCountryRequiredValidationText", "stfEmailAddressInvalidValidationText", "stfEmailAddressLabelText",
+	"stfEmailAddressPlaceholderText", "stfEmailAddressRequiredValidationText", "stfFirstNameLabelText",
+	"stfFirstNamePlaceholderText", "stfFirstNameRequiredValidationText", "stfLastNameLabelText",
+	"stfLastNamePlaceholderText", "stfLastNameRequiredValidationText", "stfMessageLabelText",
+	"stfMessageRequiredValidationText", "stfOrganisationLabelText", "stfOrganisationPlaceholderText",
+	"stfOrganisationRequiredValidationText", "stfSubmitButtonText" })
 public class BEContactUsFormType {
 
-    @XmlElement(name = "stf_CountryFirstOptionText", required = true)
-    protected String stfCountryFirstOptionText;
-    @XmlElement(name = "stf_CountryLabelText", required = true)
-    protected String stfCountryLabelText;
-    @XmlElement(name = "stf_CountryRequiredValidationText", required = true)
-    protected String stfCountryRequiredValidationText;
-    @XmlElement(name = "stf_EmailAddressInvalidValidationText", required = true)
-    protected String stfEmailAddressInvalidValidationText;
-    @XmlElement(name = "stf_EmailAddressLabelText", required = true)
-    protected String stfEmailAddressLabelText;
-    @XmlElement(name = "stf_EmailAddressPlaceholderText", required = true)
-    protected String stfEmailAddressPlaceholderText;
-    @XmlElement(name = "stf_EmailAddressRequiredValidationText", required = true)
-    protected String stfEmailAddressRequiredValidationText;
-    @XmlElement(name = "stf_FirstNameLabelText", required = true)
-    protected String stfFirstNameLabelText;
-    @XmlElement(name = "stf_FirstNamePlaceholderText", required = true)
-    protected String stfFirstNamePlaceholderText;
-    @XmlElement(name = "stf_FirstNameRequiredValidationText", required = true)
-    protected String stfFirstNameRequiredValidationText;
-    @XmlElement(name = "stf_LastNameLabelText", required = true)
-    protected String stfLastNameLabelText;
-    @XmlElement(name = "stf_LastNamePlaceholderText", required = true)
-    protected String stfLastNamePlaceholderText;
-    @XmlElement(name = "stf_LastNameRequiredValidationText", required = true)
-    protected String stfLastNameRequiredValidationText;
-    @XmlElement(name = "stf_MessageLabelText", required = true)
-    protected String stfMessageLabelText;
-    @XmlElement(name = "stf_MessageRequiredValidationText", required = true)
-    protected String stfMessageRequiredValidationText;
-    @XmlElement(name = "stf_OrganisationLabelText", required = true)
-    protected String stfOrganisationLabelText;
-    @XmlElement(name = "stf_OrganisationPlaceholderText", required = true)
-    protected String stfOrganisationPlaceholderText;
-    @XmlElement(name = "stf_OrganisationRequiredValidationText", required = true)
-    protected String stfOrganisationRequiredValidationText;
-    @XmlElement(name = "stf_SubmitButtonText", required = true)
-    protected String stfSubmitButtonText;
-    @XmlAttribute(name = "isTemplate")
-    protected Byte isTemplate;
+	@XmlElement(name = "stf_CountryFirstOptionText", required = true)
+	protected String stfCountryFirstOptionText;
+	@XmlElement(name = "stf_CountryLabelText", required = true)
+	protected String stfCountryLabelText;
+	@XmlElement(name = "stf_CountryRequiredValidationText", required = true)
+	protected String stfCountryRequiredValidationText;
+	@XmlElement(name = "stf_EmailAddressInvalidValidationText", required = true)
+	protected String stfEmailAddressInvalidValidationText;
+	@XmlElement(name = "stf_EmailAddressLabelText", required = true)
+	protected String stfEmailAddressLabelText;
+	@XmlElement(name = "stf_EmailAddressPlaceholderText", required = true)
+	protected String stfEmailAddressPlaceholderText;
+	@XmlElement(name = "stf_EmailAddressRequiredValidationText", required = true)
+	protected String stfEmailAddressRequiredValidationText;
+	@XmlElement(name = "stf_FirstNameLabelText", required = true)
+	protected String stfFirstNameLabelText;
+	@XmlElement(name = "stf_FirstNamePlaceholderText", required = true)
+	protected String stfFirstNamePlaceholderText;
+	@XmlElement(name = "stf_FirstNameRequiredValidationText", required = true)
+	protected String stfFirstNameRequiredValidationText;
+	@XmlElement(name = "stf_LastNameLabelText", required = true)
+	protected String stfLastNameLabelText;
+	@XmlElement(name = "stf_LastNamePlaceholderText", required = true)
+	protected String stfLastNamePlaceholderText;
+	@XmlElement(name = "stf_LastNameRequiredValidationText", required = true)
+	protected String stfLastNameRequiredValidationText;
+	@XmlElement(name = "stf_MessageLabelText", required = true)
+	protected String stfMessageLabelText;
+	@XmlElement(name = "stf_MessageRequiredValidationText", required = true)
+	protected String stfMessageRequiredValidationText;
+	@XmlElement(name = "stf_OrganisationLabelText", required = true)
+	protected String stfOrganisationLabelText;
+	@XmlElement(name = "stf_OrganisationPlaceholderText", required = true)
+	protected String stfOrganisationPlaceholderText;
+	@XmlElement(name = "stf_OrganisationRequiredValidationText", required = true)
+	protected String stfOrganisationRequiredValidationText;
+	@XmlElement(name = "stf_SubmitButtonText", required = true)
+	protected String stfSubmitButtonText;
+	@XmlAttribute(name = "isTemplate")
+	protected Byte isTemplate;
 
-    /**
-     * Gets the value of the stfCountryFirstOptionText property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfCountryFirstOptionText() {
-        return stfCountryFirstOptionText;
-    }
+	/**
+	 * Gets the value of the stfCountryFirstOptionText property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfCountryFirstOptionText() {
+		return stfCountryFirstOptionText;
+	}
 
-    /**
-     * Sets the value of the stfCountryFirstOptionText property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfCountryFirstOptionText(String value) {
-        this.stfCountryFirstOptionText = value;
-    }
+	/**
+	 * Sets the value of the stfCountryFirstOptionText property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfCountryFirstOptionText(String value) {
+		this.stfCountryFirstOptionText = value;
+	}
 
-    /**
-     * Gets the value of the stfCountryLabelText property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfCountryLabelText() {
-        return stfCountryLabelText;
-    }
+	/**
+	 * Gets the value of the stfCountryLabelText property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfCountryLabelText() {
+		return stfCountryLabelText;
+	}
 
-    /**
-     * Sets the value of the stfCountryLabelText property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfCountryLabelText(String value) {
-        this.stfCountryLabelText = value;
-    }
+	/**
+	 * Sets the value of the stfCountryLabelText property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfCountryLabelText(String value) {
+		this.stfCountryLabelText = value;
+	}
 
-    /**
-     * Gets the value of the stfCountryRequiredValidationText property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfCountryRequiredValidationText() {
-        return stfCountryRequiredValidationText;
-    }
+	/**
+	 * Gets the value of the stfCountryRequiredValidationText property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfCountryRequiredValidationText() {
+		return stfCountryRequiredValidationText;
+	}
 
-    /**
-     * Sets the value of the stfCountryRequiredValidationText property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfCountryRequiredValidationText(String value) {
-        this.stfCountryRequiredValidationText = value;
-    }
+	/**
+	 * Sets the value of the stfCountryRequiredValidationText property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfCountryRequiredValidationText(String value) {
+		this.stfCountryRequiredValidationText = value;
+	}
 
-    /**
-     * Gets the value of the stfEmailAddressInvalidValidationText property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfEmailAddressInvalidValidationText() {
-        return stfEmailAddressInvalidValidationText;
-    }
+	/**
+	 * Gets the value of the stfEmailAddressInvalidValidationText property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfEmailAddressInvalidValidationText() {
+		return stfEmailAddressInvalidValidationText;
+	}
 
-    /**
-     * Sets the value of the stfEmailAddressInvalidValidationText property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfEmailAddressInvalidValidationText(String value) {
-        this.stfEmailAddressInvalidValidationText = value;
-    }
+	/**
+	 * Sets the value of the stfEmailAddressInvalidValidationText property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfEmailAddressInvalidValidationText(String value) {
+		this.stfEmailAddressInvalidValidationText = value;
+	}
 
-    /**
-     * Gets the value of the stfEmailAddressLabelText property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfEmailAddressLabelText() {
-        return stfEmailAddressLabelText;
-    }
+	/**
+	 * Gets the value of the stfEmailAddressLabelText property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfEmailAddressLabelText() {
+		return stfEmailAddressLabelText;
+	}
 
-    /**
-     * Sets the value of the stfEmailAddressLabelText property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfEmailAddressLabelText(String value) {
-        this.stfEmailAddressLabelText = value;
-    }
+	/**
+	 * Sets the value of the stfEmailAddressLabelText property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfEmailAddressLabelText(String value) {
+		this.stfEmailAddressLabelText = value;
+	}
 
-    /**
-     * Gets the value of the stfEmailAddressPlaceholderText property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfEmailAddressPlaceholderText() {
-        return stfEmailAddressPlaceholderText;
-    }
+	/**
+	 * Gets the value of the stfEmailAddressPlaceholderText property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfEmailAddressPlaceholderText() {
+		return stfEmailAddressPlaceholderText;
+	}
 
-    /**
-     * Sets the value of the stfEmailAddressPlaceholderText property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfEmailAddressPlaceholderText(String value) {
-        this.stfEmailAddressPlaceholderText = value;
-    }
+	/**
+	 * Sets the value of the stfEmailAddressPlaceholderText property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfEmailAddressPlaceholderText(String value) {
+		this.stfEmailAddressPlaceholderText = value;
+	}
 
-    /**
-     * Gets the value of the stfEmailAddressRequiredValidationText property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfEmailAddressRequiredValidationText() {
-        return stfEmailAddressRequiredValidationText;
-    }
+	/**
+	 * Gets the value of the stfEmailAddressRequiredValidationText property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfEmailAddressRequiredValidationText() {
+		return stfEmailAddressRequiredValidationText;
+	}
 
-    /**
-     * Sets the value of the stfEmailAddressRequiredValidationText property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfEmailAddressRequiredValidationText(String value) {
-        this.stfEmailAddressRequiredValidationText = value;
-    }
+	/**
+	 * Sets the value of the stfEmailAddressRequiredValidationText property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfEmailAddressRequiredValidationText(String value) {
+		this.stfEmailAddressRequiredValidationText = value;
+	}
 
-    /**
-     * Gets the value of the stfFirstNameLabelText property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfFirstNameLabelText() {
-        return stfFirstNameLabelText;
-    }
+	/**
+	 * Gets the value of the stfFirstNameLabelText property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfFirstNameLabelText() {
+		return stfFirstNameLabelText;
+	}
 
-    /**
-     * Sets the value of the stfFirstNameLabelText property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfFirstNameLabelText(String value) {
-        this.stfFirstNameLabelText = value;
-    }
+	/**
+	 * Sets the value of the stfFirstNameLabelText property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfFirstNameLabelText(String value) {
+		this.stfFirstNameLabelText = value;
+	}
 
-    /**
-     * Gets the value of the stfFirstNamePlaceholderText property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfFirstNamePlaceholderText() {
-        return stfFirstNamePlaceholderText;
-    }
+	/**
+	 * Gets the value of the stfFirstNamePlaceholderText property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfFirstNamePlaceholderText() {
+		return stfFirstNamePlaceholderText;
+	}
 
-    /**
-     * Sets the value of the stfFirstNamePlaceholderText property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfFirstNamePlaceholderText(String value) {
-        this.stfFirstNamePlaceholderText = value;
-    }
+	/**
+	 * Sets the value of the stfFirstNamePlaceholderText property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfFirstNamePlaceholderText(String value) {
+		this.stfFirstNamePlaceholderText = value;
+	}
 
-    /**
-     * Gets the value of the stfFirstNameRequiredValidationText property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfFirstNameRequiredValidationText() {
-        return stfFirstNameRequiredValidationText;
-    }
+	/**
+	 * Gets the value of the stfFirstNameRequiredValidationText property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfFirstNameRequiredValidationText() {
+		return stfFirstNameRequiredValidationText;
+	}
 
-    /**
-     * Sets the value of the stfFirstNameRequiredValidationText property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfFirstNameRequiredValidationText(String value) {
-        this.stfFirstNameRequiredValidationText = value;
-    }
+	/**
+	 * Sets the value of the stfFirstNameRequiredValidationText property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfFirstNameRequiredValidationText(String value) {
+		this.stfFirstNameRequiredValidationText = value;
+	}
 
-    /**
-     * Gets the value of the stfLastNameLabelText property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfLastNameLabelText() {
-        return stfLastNameLabelText;
-    }
+	/**
+	 * Gets the value of the stfLastNameLabelText property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfLastNameLabelText() {
+		return stfLastNameLabelText;
+	}
 
-    /**
-     * Sets the value of the stfLastNameLabelText property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfLastNameLabelText(String value) {
-        this.stfLastNameLabelText = value;
-    }
+	/**
+	 * Sets the value of the stfLastNameLabelText property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfLastNameLabelText(String value) {
+		this.stfLastNameLabelText = value;
+	}
 
-    /**
-     * Gets the value of the stfLastNamePlaceholderText property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfLastNamePlaceholderText() {
-        return stfLastNamePlaceholderText;
-    }
+	/**
+	 * Gets the value of the stfLastNamePlaceholderText property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfLastNamePlaceholderText() {
+		return stfLastNamePlaceholderText;
+	}
 
-    /**
-     * Sets the value of the stfLastNamePlaceholderText property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfLastNamePlaceholderText(String value) {
-        this.stfLastNamePlaceholderText = value;
-    }
+	/**
+	 * Sets the value of the stfLastNamePlaceholderText property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfLastNamePlaceholderText(String value) {
+		this.stfLastNamePlaceholderText = value;
+	}
 
-    /**
-     * Gets the value of the stfLastNameRequiredValidationText property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfLastNameRequiredValidationText() {
-        return stfLastNameRequiredValidationText;
-    }
+	/**
+	 * Gets the value of the stfLastNameRequiredValidationText property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfLastNameRequiredValidationText() {
+		return stfLastNameRequiredValidationText;
+	}
 
-    /**
-     * Sets the value of the stfLastNameRequiredValidationText property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfLastNameRequiredValidationText(String value) {
-        this.stfLastNameRequiredValidationText = value;
-    }
+	/**
+	 * Sets the value of the stfLastNameRequiredValidationText property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfLastNameRequiredValidationText(String value) {
+		this.stfLastNameRequiredValidationText = value;
+	}
 
-    /**
-     * Gets the value of the stfMessageLabelText property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfMessageLabelText() {
-        return stfMessageLabelText;
-    }
+	/**
+	 * Gets the value of the stfMessageLabelText property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfMessageLabelText() {
+		return stfMessageLabelText;
+	}
 
-    /**
-     * Sets the value of the stfMessageLabelText property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfMessageLabelText(String value) {
-        this.stfMessageLabelText = value;
-    }
+	/**
+	 * Sets the value of the stfMessageLabelText property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfMessageLabelText(String value) {
+		this.stfMessageLabelText = value;
+	}
 
-    /**
-     * Gets the value of the stfMessageRequiredValidationText property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfMessageRequiredValidationText() {
-        return stfMessageRequiredValidationText;
-    }
+	/**
+	 * Gets the value of the stfMessageRequiredValidationText property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfMessageRequiredValidationText() {
+		return stfMessageRequiredValidationText;
+	}
 
-    /**
-     * Sets the value of the stfMessageRequiredValidationText property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfMessageRequiredValidationText(String value) {
-        this.stfMessageRequiredValidationText = value;
-    }
+	/**
+	 * Sets the value of the stfMessageRequiredValidationText property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfMessageRequiredValidationText(String value) {
+		this.stfMessageRequiredValidationText = value;
+	}
 
-    /**
-     * Gets the value of the stfOrganisationLabelText property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfOrganisationLabelText() {
-        return stfOrganisationLabelText;
-    }
+	/**
+	 * Gets the value of the stfOrganisationLabelText property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfOrganisationLabelText() {
+		return stfOrganisationLabelText;
+	}
 
-    /**
-     * Sets the value of the stfOrganisationLabelText property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfOrganisationLabelText(String value) {
-        this.stfOrganisationLabelText = value;
-    }
+	/**
+	 * Sets the value of the stfOrganisationLabelText property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfOrganisationLabelText(String value) {
+		this.stfOrganisationLabelText = value;
+	}
 
-    /**
-     * Gets the value of the stfOrganisationPlaceholderText property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfOrganisationPlaceholderText() {
-        return stfOrganisationPlaceholderText;
-    }
+	/**
+	 * Gets the value of the stfOrganisationPlaceholderText property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfOrganisationPlaceholderText() {
+		return stfOrganisationPlaceholderText;
+	}
 
-    /**
-     * Sets the value of the stfOrganisationPlaceholderText property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfOrganisationPlaceholderText(String value) {
-        this.stfOrganisationPlaceholderText = value;
-    }
+	/**
+	 * Sets the value of the stfOrganisationPlaceholderText property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfOrganisationPlaceholderText(String value) {
+		this.stfOrganisationPlaceholderText = value;
+	}
 
-    /**
-     * Gets the value of the stfOrganisationRequiredValidationText property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfOrganisationRequiredValidationText() {
-        return stfOrganisationRequiredValidationText;
-    }
+	/**
+	 * Gets the value of the stfOrganisationRequiredValidationText property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfOrganisationRequiredValidationText() {
+		return stfOrganisationRequiredValidationText;
+	}
 
-    /**
-     * Sets the value of the stfOrganisationRequiredValidationText property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfOrganisationRequiredValidationText(String value) {
-        this.stfOrganisationRequiredValidationText = value;
-    }
+	/**
+	 * Sets the value of the stfOrganisationRequiredValidationText property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfOrganisationRequiredValidationText(String value) {
+		this.stfOrganisationRequiredValidationText = value;
+	}
 
-    /**
-     * Gets the value of the stfSubmitButtonText property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfSubmitButtonText() {
-        return stfSubmitButtonText;
-    }
+	/**
+	 * Gets the value of the stfSubmitButtonText property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfSubmitButtonText() {
+		return stfSubmitButtonText;
+	}
 
-    /**
-     * Sets the value of the stfSubmitButtonText property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfSubmitButtonText(String value) {
-        this.stfSubmitButtonText = value;
-    }
+	/**
+	 * Sets the value of the stfSubmitButtonText property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfSubmitButtonText(String value) {
+		this.stfSubmitButtonText = value;
+	}
 
-    /**
-     * Gets the value of the isTemplate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Byte }
-     *     
-     */
-    public Byte getIsTemplate() {
-        return isTemplate;
-    }
+	/**
+	 * Gets the value of the isTemplate property.
+	 * 
+	 * @return possible object is {@link Byte }
+	 * 
+	 */
+	public Byte getIsTemplate() {
+		return isTemplate;
+	}
 
-    /**
-     * Sets the value of the isTemplate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Byte }
-     *     
-     */
-    public void setIsTemplate(Byte value) {
-        this.isTemplate = value;
-    }
+	/**
+	 * Sets the value of the isTemplate property.
+	 * 
+	 * @param value allowed object is {@link Byte }
+	 * 
+	 */
+	public void setIsTemplate(Byte value) {
+		this.isTemplate = value;
+	}
 
 }

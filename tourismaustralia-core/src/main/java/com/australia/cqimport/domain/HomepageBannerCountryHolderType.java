@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -14,11 +13,13 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for HomepageBannerCountryHolderType complex type.
+ * <p>
+ * Java class for HomepageBannerCountryHolderType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="HomepageBannerCountryHolderType">
@@ -38,116 +39,96 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "HomepageBannerCountryHolderType", propOrder = {
-    "hdlTitle",
-    "lstSubpages",
-    "stfTargetedCountry"
-})
+@XmlType(name = "HomepageBannerCountryHolderType", propOrder = { "hdlTitle", "lstSubpages", "stfTargetedCountry" })
 public class HomepageBannerCountryHolderType {
 
-    @XmlElement(name = "hdl_Title", required = true)
-    protected String hdlTitle;
-    @XmlElement(name = "lst_Subpages", required = true)
-    protected LstSubpagesType lstSubpages;
-    @XmlElement(name = "stf_TargetedCountry", required = true)
-    protected String stfTargetedCountry;
-    @XmlAttribute(name = "isTemplate")
-    protected Byte isTemplate;
+	@XmlElement(name = "hdl_Title", required = true)
+	protected String hdlTitle;
+	@XmlElement(name = "lst_Subpages", required = true)
+	protected LstSubpagesType lstSubpages;
+	@XmlElement(name = "stf_TargetedCountry", required = true)
+	protected String stfTargetedCountry;
+	@XmlAttribute(name = "isTemplate")
+	protected Byte isTemplate;
 
-    /**
-     * Gets the value of the hdlTitle property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getHdlTitle() {
-        return hdlTitle;
-    }
+	/**
+	 * Gets the value of the hdlTitle property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getHdlTitle() {
+		return hdlTitle;
+	}
 
-    /**
-     * Sets the value of the hdlTitle property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setHdlTitle(String value) {
-        this.hdlTitle = value;
-    }
+	/**
+	 * Sets the value of the hdlTitle property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setHdlTitle(String value) {
+		this.hdlTitle = value;
+	}
 
-    /**
-     * Gets the value of the lstSubpages property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link LstSubpagesType }
-     *     
-     */
-    public LstSubpagesType getLstSubpages() {
-        return lstSubpages;
-    }
+	/**
+	 * Gets the value of the lstSubpages property.
+	 * 
+	 * @return possible object is {@link LstSubpagesType }
+	 * 
+	 */
+	public LstSubpagesType getLstSubpages() {
+		return lstSubpages;
+	}
 
-    /**
-     * Sets the value of the lstSubpages property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link LstSubpagesType }
-     *     
-     */
-    public void setLstSubpages(LstSubpagesType value) {
-        this.lstSubpages = value;
-    }
+	/**
+	 * Sets the value of the lstSubpages property.
+	 * 
+	 * @param value allowed object is {@link LstSubpagesType }
+	 * 
+	 */
+	public void setLstSubpages(LstSubpagesType value) {
+		this.lstSubpages = value;
+	}
 
-    /**
-     * Gets the value of the stfTargetedCountry property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfTargetedCountry() {
-        return stfTargetedCountry;
-    }
+	/**
+	 * Gets the value of the stfTargetedCountry property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfTargetedCountry() {
+		return stfTargetedCountry;
+	}
 
-    /**
-     * Sets the value of the stfTargetedCountry property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfTargetedCountry(String value) {
-        this.stfTargetedCountry = value;
-    }
+	/**
+	 * Sets the value of the stfTargetedCountry property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfTargetedCountry(String value) {
+		this.stfTargetedCountry = value;
+	}
 
-    /**
-     * Gets the value of the isTemplate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Byte }
-     *     
-     */
-    public Byte getIsTemplate() {
-        return isTemplate;
-    }
+	/**
+	 * Gets the value of the isTemplate property.
+	 * 
+	 * @return possible object is {@link Byte }
+	 * 
+	 */
+	public Byte getIsTemplate() {
+		return isTemplate;
+	}
 
-    /**
-     * Sets the value of the isTemplate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Byte }
-     *     
-     */
-    public void setIsTemplate(Byte value) {
-        this.isTemplate = value;
-    }
+	/**
+	 * Sets the value of the isTemplate property.
+	 * 
+	 * @param value allowed object is {@link Byte }
+	 * 
+	 */
+	public void setIsTemplate(Byte value) {
+		this.isTemplate = value;
+	}
 
 }

@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -15,11 +14,13 @@ import javax.xml.bind.annotation.XmlSchemaType;
 import javax.xml.bind.annotation.XmlType;
 import javax.xml.bind.annotation.XmlValue;
 
-
 /**
- * <p>Java class for iframeType complex type.
+ * <p>
+ * Java class for iframeType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="iframeType">
@@ -42,271 +43,229 @@ import javax.xml.bind.annotation.XmlValue;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "iframeType", propOrder = {
-    "value"
-})
+@XmlType(name = "iframeType", propOrder = { "value" })
 public class IframeType {
 
-    @XmlValue
-    protected String value;
-    @XmlAttribute(name = "src")
-    @XmlSchemaType(name = "anyURI")
-    protected String src;
-    @XmlAttribute(name = "title")
-    protected String title;
-    @XmlAttribute(name = "width")
-    protected Short width;
-    @XmlAttribute(name = "height")
-    protected Short height;
-    @XmlAttribute(name = "scrolling")
-    protected String scrolling;
-    @XmlAttribute(name = "frameborder")
-    protected Byte frameborder;
-    @XmlAttribute(name = "style")
-    protected String style;
-    @XmlAttribute(name = "allowtransparency")
-    protected String allowtransparency;
-    @XmlAttribute(name = "id")
-    protected String id;
+	@XmlValue
+	protected String value;
+	@XmlAttribute(name = "src")
+	@XmlSchemaType(name = "anyURI")
+	protected String src;
+	@XmlAttribute(name = "title")
+	protected String title;
+	@XmlAttribute(name = "width")
+	protected Short width;
+	@XmlAttribute(name = "height")
+	protected Short height;
+	@XmlAttribute(name = "scrolling")
+	protected String scrolling;
+	@XmlAttribute(name = "frameborder")
+	protected Byte frameborder;
+	@XmlAttribute(name = "style")
+	protected String style;
+	@XmlAttribute(name = "allowtransparency")
+	protected String allowtransparency;
+	@XmlAttribute(name = "id")
+	protected String id;
 
-    /**
-     * Gets the value of the value property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getValue() {
-        return value;
-    }
+	/**
+	 * Gets the value of the value property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getValue() {
+		return value;
+	}
 
-    /**
-     * Sets the value of the value property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setValue(String value) {
-        this.value = value;
-    }
+	/**
+	 * Sets the value of the value property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setValue(String value) {
+		this.value = value;
+	}
 
-    /**
-     * Gets the value of the src property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getSrc() {
-        return src;
-    }
+	/**
+	 * Gets the value of the src property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getSrc() {
+		return src;
+	}
 
-    /**
-     * Sets the value of the src property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setSrc(String value) {
-        this.src = value;
-    }
+	/**
+	 * Sets the value of the src property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setSrc(String value) {
+		this.src = value;
+	}
 
-    /**
-     * Gets the value of the title property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getTitle() {
-        return title;
-    }
+	/**
+	 * Gets the value of the title property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getTitle() {
+		return title;
+	}
 
-    /**
-     * Sets the value of the title property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setTitle(String value) {
-        this.title = value;
-    }
+	/**
+	 * Sets the value of the title property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setTitle(String value) {
+		this.title = value;
+	}
 
-    /**
-     * Gets the value of the width property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Short }
-     *     
-     */
-    public Short getWidth() {
-        return width;
-    }
+	/**
+	 * Gets the value of the width property.
+	 * 
+	 * @return possible object is {@link Short }
+	 * 
+	 */
+	public Short getWidth() {
+		return width;
+	}
 
-    /**
-     * Sets the value of the width property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Short }
-     *     
-     */
-    public void setWidth(Short value) {
-        this.width = value;
-    }
+	/**
+	 * Sets the value of the width property.
+	 * 
+	 * @param value allowed object is {@link Short }
+	 * 
+	 */
+	public void setWidth(Short value) {
+		this.width = value;
+	}
 
-    /**
-     * Gets the value of the height property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Short }
-     *     
-     */
-    public Short getHeight() {
-        return height;
-    }
+	/**
+	 * Gets the value of the height property.
+	 * 
+	 * @return possible object is {@link Short }
+	 * 
+	 */
+	public Short getHeight() {
+		return height;
+	}
 
-    /**
-     * Sets the value of the height property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Short }
-     *     
-     */
-    public void setHeight(Short value) {
-        this.height = value;
-    }
+	/**
+	 * Sets the value of the height property.
+	 * 
+	 * @param value allowed object is {@link Short }
+	 * 
+	 */
+	public void setHeight(Short value) {
+		this.height = value;
+	}
 
-    /**
-     * Gets the value of the scrolling property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getScrolling() {
-        return scrolling;
-    }
+	/**
+	 * Gets the value of the scrolling property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getScrolling() {
+		return scrolling;
+	}
 
-    /**
-     * Sets the value of the scrolling property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setScrolling(String value) {
-        this.scrolling = value;
-    }
+	/**
+	 * Sets the value of the scrolling property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setScrolling(String value) {
+		this.scrolling = value;
+	}
 
-    /**
-     * Gets the value of the frameborder property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Byte }
-     *     
-     */
-    public Byte getFrameborder() {
-        return frameborder;
-    }
+	/**
+	 * Gets the value of the frameborder property.
+	 * 
+	 * @return possible object is {@link Byte }
+	 * 
+	 */
+	public Byte getFrameborder() {
+		return frameborder;
+	}
 
-    /**
-     * Sets the value of the frameborder property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Byte }
-     *     
-     */
-    public void setFrameborder(Byte value) {
-        this.frameborder = value;
-    }
+	/**
+	 * Sets the value of the frameborder property.
+	 * 
+	 * @param value allowed object is {@link Byte }
+	 * 
+	 */
+	public void setFrameborder(Byte value) {
+		this.frameborder = value;
+	}
 
-    /**
-     * Gets the value of the style property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStyle() {
-        return style;
-    }
+	/**
+	 * Gets the value of the style property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStyle() {
+		return style;
+	}
 
-    /**
-     * Sets the value of the style property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStyle(String value) {
-        this.style = value;
-    }
+	/**
+	 * Sets the value of the style property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStyle(String value) {
+		this.style = value;
+	}
 
-    /**
-     * Gets the value of the allowtransparency property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getAllowtransparency() {
-        return allowtransparency;
-    }
+	/**
+	 * Gets the value of the allowtransparency property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getAllowtransparency() {
+		return allowtransparency;
+	}
 
-    /**
-     * Sets the value of the allowtransparency property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setAllowtransparency(String value) {
-        this.allowtransparency = value;
-    }
+	/**
+	 * Sets the value of the allowtransparency property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setAllowtransparency(String value) {
+		this.allowtransparency = value;
+	}
 
-    /**
-     * Gets the value of the id property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getId() {
-        return id;
-    }
+	/**
+	 * Gets the value of the id property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getId() {
+		return id;
+	}
 
-    /**
-     * Sets the value of the id property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setId(String value) {
-        this.id = value;
-    }
+	/**
+	 * Sets the value of the id property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setId(String value) {
+		this.id = value;
+	}
 
 }

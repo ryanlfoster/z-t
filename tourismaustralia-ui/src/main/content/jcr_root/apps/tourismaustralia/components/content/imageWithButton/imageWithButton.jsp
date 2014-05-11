@@ -22,6 +22,9 @@
         </div>
 		<div class="image-content-container">
 			<div class="image-content">
+				<div class="image-social-image">
+				    <img src="${imageButton.overlayIconImageSrc}" alt="${imageButton.overlayIconImageAlt}" />
+				</div>			
 				<hr>
 				<div class="blockquote-quote-pull">
 					<p>&#8220;${imageButton.quoteText}&#8221;</p>

@@ -18,9 +18,8 @@ import com.citytechinc.cq.component.annotations.widgets.DialogFieldSet;
 import com.day.cq.wcm.foundation.Image;
 
 @Component(value = "Image Map With Buttons", disableTargeting = true, dialogHeight = 500, tabs = {
-		@Tab(title = "Image"), @Tab(title = "Extra Information"),
-		@Tab(title = "Button 1"), @Tab(title = "Button 2"),
-		@Tab(title = "Button 3"), @Tab(title = "Button 4") }, dialogWidth = 700)
+	@Tab(title = "Image"), @Tab(title = "Extra Information"), @Tab(title = "Button 1"), @Tab(title = "Button 2"),
+	@Tab(title = "Button 3"), @Tab(title = "Button 4") }, dialogWidth = 700)
 public class MapWithButtons extends MapWithParsys {
 
 	@DialogFieldSet(border = false, namePrefix = "tab1/")
@@ -47,8 +46,7 @@ public class MapWithButtons extends MapWithParsys {
 
 		Resource thisResource = request.getResource();
 		ResourceResolver resolver = request.getResourceResolver();
-		if (ResourceUtil.isNonExistingResource(thisResource)
-				|| ResourceUtil.isSyntheticResource(thisResource)) {
+		if (ResourceUtil.isNonExistingResource(thisResource) || ResourceUtil.isSyntheticResource(thisResource)) {
 			return;
 		}
 
@@ -58,18 +56,15 @@ public class MapWithButtons extends MapWithParsys {
 
 		for (int tabNum = 1; tabNum <= 4; tabNum++) {
 			ButtonField tab = new ButtonField();
-			Resource imageRes = resolver.getResource(thisResource, "tab"
-					+ tabNum + "/");
+			Resource imageRes = resolver.getResource(thisResource, "tab" + tabNum + "/");
 			if (imageRes != null) {
 				Image imageObj = new Image(imageRes, "image");
 				if (imageObj != null && imageObj.hasContent()) {
 					tab.setImagePath(imageObj.getFileReference());
 				}
 			}
-			tab.setTitle(properties.get("tab" + tabNum + "/title",
-					StringUtils.EMPTY));
-			tab.setText(properties.get("tab" + tabNum + "/text",
-					StringUtils.EMPTY));
+			tab.setTitle(properties.get("tab" + tabNum + "/title", StringUtils.EMPTY));
+			tab.setText(properties.get("tab" + tabNum + "/text", StringUtils.EMPTY));
 			buttonsList.add(tab);
 		}
 

@@ -22,6 +22,7 @@ class Constants {
 	public static final int IMAGE_WIDGET_HEIGHT = 400;
 
 	// Disallow instantiation
-	private Constants() { }
+	private Constants() {
+	}
 
 }

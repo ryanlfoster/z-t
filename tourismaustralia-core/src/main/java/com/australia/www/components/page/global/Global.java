@@ -1,5 +1,15 @@
 package com.australia.www.components.page.global;
 
+import org.apache.commons.lang.StringUtils;
+import org.apache.sling.api.SlingHttpServletRequest;
+import org.apache.sling.api.resource.Resource;
+import org.apache.sling.api.resource.ValueMap;
+import org.apache.sling.api.scripting.SlingBindings;
+import org.apache.sling.api.scripting.SlingScriptHelper;
+import org.apache.sling.settings.SlingSettingsService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import com.adobe.granite.xss.XSSAPI;
 import com.australia.pagecategories.PageCategory;
 import com.australia.server.ServerNameService;
@@ -13,20 +23,10 @@ import com.citytechinc.cq.component.annotations.widgets.NumberField;
 import com.citytechinc.cq.component.annotations.widgets.Selection;
 import com.day.cq.wcm.api.Page;
 import com.day.cq.wcm.api.PageManager;
-import com.day.cq.wcm.api.designer.Design;
 import com.day.cq.wcm.commons.WCMUtils;
 import com.day.cq.wcm.foundation.Image;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.apache.commons.lang.StringUtils;
-import org.apache.sling.api.SlingHttpServletRequest;
-import org.apache.sling.api.resource.Resource;
-import org.apache.sling.api.resource.ValueMap;
-import org.apache.sling.api.scripting.SlingBindings;
-import org.apache.sling.api.scripting.SlingScriptHelper;
-import org.apache.sling.settings.SlingSettingsService;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 @Component(value = "Global", path = "page", group = ".hidden", editConfig = false, fileName = "extra_dialog")
 public class Global {
@@ -60,7 +60,7 @@ public class Global {
 	private final String socialNetworks;
 	private final Boolean isHomePage;
 	private final boolean prodPublish;
-    private final Boolean isAuHomePage;
+	private final Boolean isAuHomePage;
 
 	public Global(SlingHttpServletRequest request) {
 		SlingScriptHelper sling = ((SlingBindings) request.getAttribute(SlingBindings.class.getName())).getSling();
@@ -84,7 +84,7 @@ public class Global {
 		lastModified = StringUtils.left(xssAPI.encodeForHTMLAttr(properties.get("cq:lastModified", "")), 10);
 		socialNetworks = this.getSocialNetworks(request, currentPage.getAbsoluteParent(OZCOM_CONTENT_ROOT));
 		isHomePage = currentPage.equals(currentPage.getAbsoluteParent(1));
-        isAuHomePage = currentPage.equals(currentPage.getAbsoluteParent(2));
+		isAuHomePage = currentPage.equals(currentPage.getAbsoluteParent(2));
 
 		Resource imageResource = currentPage.getContentResource();
 		Image image = new Image(imageResource, "image");
@@ -101,7 +101,7 @@ public class Global {
 		}
 
 		url = serverName + currentPage.getPath() + ".html";
-		
+
 		String tempFavIcon = properties.get("cq:designPath", StringUtils.EMPTY) + "/favicon.ico";
 		if (request.getResourceResolver().getResource(tempFavIcon) == null) {
 			favIcon = null;
@@ -180,13 +180,14 @@ public class Global {
 	}
 
 	public Boolean getIsHomePage() {
-        return isHomePage;
-    }
+		return isHomePage;
+	}
+
 	public boolean isProdPublish() {
 		return prodPublish;
 	}
 
-    public Boolean getIsAuHomePage() {
-        return isAuHomePage;
-    }
+	public Boolean getIsAuHomePage() {
+		return isAuHomePage;
+	}
 }

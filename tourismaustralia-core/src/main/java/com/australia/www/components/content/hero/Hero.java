@@ -15,7 +15,6 @@ import com.day.cq.wcm.foundation.Image;
 @Component(value = "Hero Banner", disableTargeting = true, tabs = { @Tab(title = "Settings"), @Tab(title = "Image") }, listeners = {
 	@Listener(name = "aftercopy", value = "REFRESH_PAGE"), @Listener(name = "afterdelete", value = "REFRESH_PAGE"),
 	@Listener(name = "afteredit", value = "REFRESH_PAGE"), @Listener(name = "afterinsert", value = "REFRESH_PAGE") })
-
 public class Hero {
 
 	@DialogField(fieldLabel = "Title", required = true, tab = 1)

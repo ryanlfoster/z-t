@@ -24,13 +24,13 @@ public class StateMosaic {
 
 	@DialogField(fieldLabel = "Bottom text", name = "./bottomText")
 	private String bottomText;
-	
-	@DialogField(fieldLabel="Message",name="./messageText",fieldDescription="Message to be displayed when no article present")
+
+	@DialogField(fieldLabel = "Message", name = "./messageText", fieldDescription = "Message to be displayed when no article present")
 	@TextArea
 	private String messageText;
 
 	private String template;
-	private static final String DEFAULT_MESSAGE="There are no article(s) present for selected tag(s)";
+	private static final String DEFAULT_MESSAGE = "There are no article(s) present for selected tag(s)";
 
 	/**
 	 * Constructor
@@ -50,7 +50,7 @@ public class StateMosaic {
 			topText = properties.get("topText", StringUtils.EMPTY);
 			centerText = properties.get("centerText", StringUtils.EMPTY);
 			bottomText = properties.get("bottomText", StringUtils.EMPTY);
-			messageText=properties.get("messageText",DEFAULT_MESSAGE);
+			messageText = properties.get("messageText", DEFAULT_MESSAGE);
 		}
 	}
 

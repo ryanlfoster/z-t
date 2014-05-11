@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -13,11 +12,13 @@ import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for con_bottomContainerType complex type.
+ * <p>
+ * Java class for con_bottomContainerType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="con_bottomContainerType">
@@ -34,36 +35,30 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "con_bottomContainerType", propOrder = {
-    "beHomeNewsSectionContainer"
-})
+@XmlType(name = "con_bottomContainerType", propOrder = { "beHomeNewsSectionContainer" })
 public class ConBottomContainerType {
 
-    @XmlElement(name = "BEHomeNewsSectionContainer", required = true)
-    protected BEHomeNewsSectionContainerType beHomeNewsSectionContainer;
+	@XmlElement(name = "BEHomeNewsSectionContainer", required = true)
+	protected BEHomeNewsSectionContainerType beHomeNewsSectionContainer;
 
-    /**
-     * Gets the value of the beHomeNewsSectionContainer property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link BEHomeNewsSectionContainerType }
-     *     
-     */
-    public BEHomeNewsSectionContainerType getBEHomeNewsSectionContainer() {
-        return beHomeNewsSectionContainer;
-    }
+	/**
+	 * Gets the value of the beHomeNewsSectionContainer property.
+	 * 
+	 * @return possible object is {@link BEHomeNewsSectionContainerType }
+	 * 
+	 */
+	public BEHomeNewsSectionContainerType getBEHomeNewsSectionContainer() {
+		return beHomeNewsSectionContainer;
+	}
 
-    /**
-     * Sets the value of the beHomeNewsSectionContainer property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link BEHomeNewsSectionContainerType }
-     *     
-     */
-    public void setBEHomeNewsSectionContainer(BEHomeNewsSectionContainerType value) {
-        this.beHomeNewsSectionContainer = value;
-    }
+	/**
+	 * Sets the value of the beHomeNewsSectionContainer property.
+	 * 
+	 * @param value allowed object is {@link BEHomeNewsSectionContainerType }
+	 * 
+	 */
+	public void setBEHomeNewsSectionContainer(BEHomeNewsSectionContainerType value) {
+		this.beHomeNewsSectionContainer = value;
+	}
 
 }

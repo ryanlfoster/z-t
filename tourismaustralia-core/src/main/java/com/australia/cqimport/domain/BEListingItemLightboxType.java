@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -14,11 +13,13 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for BEListingItemLightboxType complex type.
+ * <p>
+ * Java class for BEListingItemLightboxType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="BEListingItemLightboxType">
@@ -48,386 +49,319 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "BEListingItemLightboxType", propOrder = {
-    "stfItemTeaserText",
-    "ancReadMoreLink",
-    "imgItemImage",
-    "imgLightboxImage",
-    "medListingItemPDF",
-    "stfItemReadMoreLinkText",
-    "stfItemTitle",
-    "stfLightboxEmailAddress",
-    "stfLightboxEmailLabel",
-    "stfLightboxPartnerId",
-    "stfLightboxWebsiteLabel",
-    "stfLightboxWebsiteURL",
-    "txtLightboxContentBody"
-})
+@XmlType(name = "BEListingItemLightboxType", propOrder = { "stfItemTeaserText", "ancReadMoreLink", "imgItemImage",
+	"imgLightboxImage", "medListingItemPDF", "stfItemReadMoreLinkText", "stfItemTitle", "stfLightboxEmailAddress",
+	"stfLightboxEmailLabel", "stfLightboxPartnerId", "stfLightboxWebsiteLabel", "stfLightboxWebsiteURL",
+	"txtLightboxContentBody" })
 public class BEListingItemLightboxType {
 
-    @XmlElement(name = "stf_ItemTeaserText", required = true)
-    protected String stfItemTeaserText;
-    @XmlElement(name = "anc_ReadMoreLink", required = true)
-    protected String ancReadMoreLink;
-    @XmlElement(name = "img_ItemImage", required = true)
-    protected String imgItemImage;
-    @XmlElement(name = "img_LightboxImage", required = true)
-    protected String imgLightboxImage;
-    @XmlElement(name = "med_Listing_Item_PDF")
-    protected String medListingItemPDF;
-    @XmlElement(name = "stf_ItemReadMoreLinkText", required = true)
-    protected String stfItemReadMoreLinkText;
-    @XmlElement(name = "stf_ItemTitle", required = true)
-    protected String stfItemTitle;
-    @XmlElement(name = "stf_LightboxEmailAddress", required = true)
-    protected String stfLightboxEmailAddress;
-    @XmlElement(name = "stf_LightboxEmailLabel", required = true)
-    protected String stfLightboxEmailLabel;
-    @XmlElement(name = "stf_LightboxPartnerId", required = true)
-    protected String stfLightboxPartnerId;
-    @XmlElement(name = "stf_LightboxWebsiteLabel", required = true)
-    protected String stfLightboxWebsiteLabel;
-    @XmlElement(name = "stf_LightboxWebsiteURL", required = true)
-    protected String stfLightboxWebsiteURL;
-    @XmlElement(name = "txt_LightboxContentBody", required = true)
-    protected String txtLightboxContentBody;
-    @XmlAttribute(name = "isTemplate")
-    protected Byte isTemplate;
+	@XmlElement(name = "stf_ItemTeaserText", required = true)
+	protected String stfItemTeaserText;
+	@XmlElement(name = "anc_ReadMoreLink", required = true)
+	protected String ancReadMoreLink;
+	@XmlElement(name = "img_ItemImage", required = true)
+	protected String imgItemImage;
+	@XmlElement(name = "img_LightboxImage", required = true)
+	protected String imgLightboxImage;
+	@XmlElement(name = "med_Listing_Item_PDF")
+	protected String medListingItemPDF;
+	@XmlElement(name = "stf_ItemReadMoreLinkText", required = true)
+	protected String stfItemReadMoreLinkText;
+	@XmlElement(name = "stf_ItemTitle", required = true)
+	protected String stfItemTitle;
+	@XmlElement(name = "stf_LightboxEmailAddress", required = true)
+	protected String stfLightboxEmailAddress;
+	@XmlElement(name = "stf_LightboxEmailLabel", required = true)
+	protected String stfLightboxEmailLabel;
+	@XmlElement(name = "stf_LightboxPartnerId", required = true)
+	protected String stfLightboxPartnerId;
+	@XmlElement(name = "stf_LightboxWebsiteLabel", required = true)
+	protected String stfLightboxWebsiteLabel;
+	@XmlElement(name = "stf_LightboxWebsiteURL", required = true)
+	protected String stfLightboxWebsiteURL;
+	@XmlElement(name = "txt_LightboxContentBody", required = true)
+	protected String txtLightboxContentBody;
+	@XmlAttribute(name = "isTemplate")
+	protected Byte isTemplate;
 
-    /**
-     * Gets the value of the stfItemTeaserText property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfItemTeaserText() {
-        return stfItemTeaserText;
-    }
+	/**
+	 * Gets the value of the stfItemTeaserText property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfItemTeaserText() {
+		return stfItemTeaserText;
+	}
 
-    /**
-     * Sets the value of the stfItemTeaserText property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfItemTeaserText(String value) {
-        this.stfItemTeaserText = value;
-    }
+	/**
+	 * Sets the value of the stfItemTeaserText property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfItemTeaserText(String value) {
+		this.stfItemTeaserText = value;
+	}
 
-    /**
-     * Gets the value of the ancReadMoreLink property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getAncReadMoreLink() {
-        return ancReadMoreLink;
-    }
+	/**
+	 * Gets the value of the ancReadMoreLink property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getAncReadMoreLink() {
+		return ancReadMoreLink;
+	}
 
-    /**
-     * Sets the value of the ancReadMoreLink property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setAncReadMoreLink(String value) {
-        this.ancReadMoreLink = value;
-    }
+	/**
+	 * Sets the value of the ancReadMoreLink property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setAncReadMoreLink(String value) {
+		this.ancReadMoreLink = value;
+	}
 
-    /**
-     * Gets the value of the imgItemImage property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getImgItemImage() {
-        return imgItemImage;
-    }
+	/**
+	 * Gets the value of the imgItemImage property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getImgItemImage() {
+		return imgItemImage;
+	}
 
-    /**
-     * Sets the value of the imgItemImage property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setImgItemImage(String value) {
-        this.imgItemImage = value;
-    }
+	/**
+	 * Sets the value of the imgItemImage property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setImgItemImage(String value) {
+		this.imgItemImage = value;
+	}
 
-    /**
-     * Gets the value of the imgLightboxImage property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getImgLightboxImage() {
-        return imgLightboxImage;
-    }
+	/**
+	 * Gets the value of the imgLightboxImage property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getImgLightboxImage() {
+		return imgLightboxImage;
+	}
 
-    /**
-     * Sets the value of the imgLightboxImage property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setImgLightboxImage(String value) {
-        this.imgLightboxImage = value;
-    }
+	/**
+	 * Sets the value of the imgLightboxImage property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setImgLightboxImage(String value) {
+		this.imgLightboxImage = value;
+	}
 
-    /**
-     * Gets the value of the medListingItemPDF property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getMedListingItemPDF() {
-        return medListingItemPDF;
-    }
+	/**
+	 * Gets the value of the medListingItemPDF property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getMedListingItemPDF() {
+		return medListingItemPDF;
+	}
 
-    /**
-     * Sets the value of the medListingItemPDF property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setMedListingItemPDF(String value) {
-        this.medListingItemPDF = value;
-    }
+	/**
+	 * Sets the value of the medListingItemPDF property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setMedListingItemPDF(String value) {
+		this.medListingItemPDF = value;
+	}
 
-    /**
-     * Gets the value of the stfItemReadMoreLinkText property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfItemReadMoreLinkText() {
-        return stfItemReadMoreLinkText;
-    }
+	/**
+	 * Gets the value of the stfItemReadMoreLinkText property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfItemReadMoreLinkText() {
+		return stfItemReadMoreLinkText;
+	}
 
-    /**
-     * Sets the value of the stfItemReadMoreLinkText property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfItemReadMoreLinkText(String value) {
-        this.stfItemReadMoreLinkText = value;
-    }
+	/**
+	 * Sets the value of the stfItemReadMoreLinkText property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfItemReadMoreLinkText(String value) {
+		this.stfItemReadMoreLinkText = value;
+	}
 
-    /**
-     * Gets the value of the stfItemTitle property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfItemTitle() {
-        return stfItemTitle;
-    }
+	/**
+	 * Gets the value of the stfItemTitle property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfItemTitle() {
+		return stfItemTitle;
+	}
 
-    /**
-     * Sets the value of the stfItemTitle property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfItemTitle(String value) {
-        this.stfItemTitle = value;
-    }
+	/**
+	 * Sets the value of the stfItemTitle property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfItemTitle(String value) {
+		this.stfItemTitle = value;
+	}
 
-    /**
-     * Gets the value of the stfLightboxEmailAddress property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfLightboxEmailAddress() {
-        return stfLightboxEmailAddress;
-    }
+	/**
+	 * Gets the value of the stfLightboxEmailAddress property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfLightboxEmailAddress() {
+		return stfLightboxEmailAddress;
+	}
 
-    /**
-     * Sets the value of the stfLightboxEmailAddress property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfLightboxEmailAddress(String value) {
-        this.stfLightboxEmailAddress = value;
-    }
+	/**
+	 * Sets the value of the stfLightboxEmailAddress property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfLightboxEmailAddress(String value) {
+		this.stfLightboxEmailAddress = value;
+	}
 
-    /**
-     * Gets the value of the stfLightboxEmailLabel property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfLightboxEmailLabel() {
-        return stfLightboxEmailLabel;
-    }
+	/**
+	 * Gets the value of the stfLightboxEmailLabel property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfLightboxEmailLabel() {
+		return stfLightboxEmailLabel;
+	}
 
-    /**
-     * Sets the value of the stfLightboxEmailLabel property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfLightboxEmailLabel(String value) {
-        this.stfLightboxEmailLabel = value;
-    }
+	/**
+	 * Sets the value of the stfLightboxEmailLabel property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfLightboxEmailLabel(String value) {
+		this.stfLightboxEmailLabel = value;
+	}
 
-    /**
-     * Gets the value of the stfLightboxPartnerId property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfLightboxPartnerId() {
-        return stfLightboxPartnerId;
-    }
+	/**
+	 * Gets the value of the stfLightboxPartnerId property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfLightboxPartnerId() {
+		return stfLightboxPartnerId;
+	}
 
-    /**
-     * Sets the value of the stfLightboxPartnerId property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfLightboxPartnerId(String value) {
-        this.stfLightboxPartnerId = value;
-    }
+	/**
+	 * Sets the value of the stfLightboxPartnerId property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfLightboxPartnerId(String value) {
+		this.stfLightboxPartnerId = value;
+	}
 
-    /**
-     * Gets the value of the stfLightboxWebsiteLabel property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfLightboxWebsiteLabel() {
-        return stfLightboxWebsiteLabel;
-    }
+	/**
+	 * Gets the value of the stfLightboxWebsiteLabel property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfLightboxWebsiteLabel() {
+		return stfLightboxWebsiteLabel;
+	}
 
-    /**
-     * Sets the value of the stfLightboxWebsiteLabel property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfLightboxWebsiteLabel(String value) {
-        this.stfLightboxWebsiteLabel = value;
-    }
+	/**
+	 * Sets the value of the stfLightboxWebsiteLabel property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfLightboxWebsiteLabel(String value) {
+		this.stfLightboxWebsiteLabel = value;
+	}
 
-    /**
-     * Gets the value of the stfLightboxWebsiteURL property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfLightboxWebsiteURL() {
-        return stfLightboxWebsiteURL;
-    }
+	/**
+	 * Gets the value of the stfLightboxWebsiteURL property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfLightboxWebsiteURL() {
+		return stfLightboxWebsiteURL;
+	}
 
-    /**
-     * Sets the value of the stfLightboxWebsiteURL property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfLightboxWebsiteURL(String value) {
-        this.stfLightboxWebsiteURL = value;
-    }
+	/**
+	 * Sets the value of the stfLightboxWebsiteURL property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfLightboxWebsiteURL(String value) {
+		this.stfLightboxWebsiteURL = value;
+	}
 
-    /**
-     * Gets the value of the txtLightboxContentBody property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getTxtLightboxContentBody() {
-        return txtLightboxContentBody;
-    }
+	/**
+	 * Gets the value of the txtLightboxContentBody property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getTxtLightboxContentBody() {
+		return txtLightboxContentBody;
+	}
 
-    /**
-     * Sets the value of the txtLightboxContentBody property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setTxtLightboxContentBody(String value) {
-        this.txtLightboxContentBody = value;
-    }
+	/**
+	 * Sets the value of the txtLightboxContentBody property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setTxtLightboxContentBody(String value) {
+		this.txtLightboxContentBody = value;
+	}
 
-    /**
-     * Gets the value of the isTemplate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Byte }
-     *     
-     */
-    public Byte getIsTemplate() {
-        return isTemplate;
-    }
+	/**
+	 * Gets the value of the isTemplate property.
+	 * 
+	 * @return possible object is {@link Byte }
+	 * 
+	 */
+	public Byte getIsTemplate() {
+		return isTemplate;
+	}
 
-    /**
-     * Sets the value of the isTemplate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Byte }
-     *     
-     */
-    public void setIsTemplate(Byte value) {
-        this.isTemplate = value;
-    }
+	/**
+	 * Sets the value of the isTemplate property.
+	 * 
+	 * @param value allowed object is {@link Byte }
+	 * 
+	 */
+	public void setIsTemplate(Byte value) {
+		this.isTemplate = value;
+	}
 
 }

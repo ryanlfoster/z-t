@@ -2,17 +2,16 @@ package com.australia.www.components.content.socialTiles;
 
 import org.apache.commons.lang3.StringUtils;
 
-import com.citytechinc.cq.component.annotations.widgets.Html5SmartImage;
 import com.citytechinc.cq.component.annotations.DialogField;
+import com.citytechinc.cq.component.annotations.widgets.Html5SmartImage;
 import com.citytechinc.cq.component.annotations.widgets.PathField;
 import com.citytechinc.cq.component.annotations.widgets.RichTextEditor;
-import com.day.cq.wcm.foundation.Image;
 
 public class TileField {
 
 	@DialogField(fieldLabel = "Title")
 	private String title;
-	
+
 	@RichTextEditor
 	@DialogField(fieldLabel = "Text", fieldDescription = "Required")
 	private String text;

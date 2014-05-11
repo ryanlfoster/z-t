@@ -1,5 +1,14 @@
 package com.australia.www.components.page.search;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+import org.apache.sling.api.SlingHttpServletRequest;
+import org.apache.sling.api.resource.Resource;
+import org.apache.sling.api.scripting.SlingBindings;
+import org.apache.sling.api.scripting.SlingScriptHelper;
+
 import com.australia.atdw.domain.ATDWCategory;
 import com.australia.atdw.domain.ATDWProduct;
 import com.australia.atdw.domain.ATDWProductSearchParameters;
@@ -16,14 +25,6 @@ import com.australia.mosaic.FourToOneGridMosaic;
 import com.australia.utils.MosaicUtils;
 import com.australia.utils.PathUtils;
 import com.citytechinc.cq.component.annotations.Component;
-import org.apache.sling.api.SlingHttpServletRequest;
-import org.apache.sling.api.resource.Resource;
-import org.apache.sling.api.scripting.SlingBindings;
-import org.apache.sling.api.scripting.SlingScriptHelper;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
 @Component(value = "Search", path = "page", group = ".hidden", editConfig = false)
 public final class SearchPage {
@@ -73,14 +74,10 @@ public final class SearchPage {
 		displayMode = DisplayMode.fromName(mode) != null ? DisplayMode.fromName(mode) : DisplayMode.GRID;
 
 		final ContentSearchParametersBuilder builder = new ContentSearchParametersBuilder();
-		final ContentSearchParameters params = builder
-			.setContentType(type)
-			.setLanguagePath(PathUtils.getLanguageResource(resource).getPath())
-			.setCount(COUNT)
-			.setPage(1)
+		final ContentSearchParameters params = builder.setContentType(type)
+			.setLanguagePath(PathUtils.getLanguageResource(resource).getPath()).setCount(COUNT).setPage(1)
 			.setText(query == null || query.trim().isEmpty() ? null : query)
-			.setTags(tagId == null || tagId.isEmpty() ? null : Arrays.asList(tagId))
-			.build();
+			.setTags(tagId == null || tagId.isEmpty() ? null : Arrays.asList(tagId)).build();
 
 		try {
 			final ContentSearchResult result = searchService.search(params);
@@ -91,24 +88,16 @@ public final class SearchPage {
 		}
 
 		final ATDWProductSearchParametersBuilder productBuilder = new ATDWProductSearchParametersBuilder();
-		final ATDWProductSearchParameters productParams = productBuilder
-			.setCount(6)
-			.setPage(1)
+		final ATDWProductSearchParameters productParams = productBuilder.setCount(6).setPage(1)
 			.setText(query == null || query.trim().isEmpty() ? null : query)
-			.setTags(tagId == null || tagId.isEmpty() ? null : Arrays.asList(tagId))
-			.build();
+			.setTags(tagId == null || tagId.isEmpty() ? null : Arrays.asList(tagId)).build();
 		productResults.addAll(productService.search(productParams).getResults());
 
 		path = resource.getParent().getPath();
 
 		Resource languageResource = PathUtils.getLanguageResource(resource);
-		atdwSearchUrl = PathUtils.getAtdwSearchPath(languageResource,
-			ATDWCategory.ACCOMEDATIONS.toString(),
-			null,
-			null,
-			null,
-			query,
-			1);
+		atdwSearchUrl = PathUtils.getAtdwSearchPath(languageResource, ATDWCategory.ACCOMEDATIONS.toString(), null,
+			null, null, query, 1);
 	}
 
 	public ContentType getType() {
@@ -158,10 +147,10 @@ public final class SearchPage {
 	public String getListHref() {
 		StringBuilder sb = new StringBuilder();
 		sb.append(path).append(".html?mode=LIST");
-		if(query != null) {
+		if (query != null) {
 			sb.append("&").append(PARAM_Q).append("=").append(query);
 		}
-		if(tagId != null) {
+		if (tagId != null) {
 			sb.append("&").append(PARAM_TAGID).append("=").append(tagId);
 		}
 		return sb.toString();
@@ -170,10 +159,10 @@ public final class SearchPage {
 	public String getGridHref() {
 		StringBuilder sb = new StringBuilder();
 		sb.append(path).append(".html?mode=GRID");
-		if(query != null) {
+		if (query != null) {
 			sb.append("&").append(PARAM_Q).append("=").append(query);
 		}
-		if(tagId != null) {
+		if (tagId != null) {
 			sb.append("&").append(PARAM_TAGID).append("=").append(tagId);
 		}
 		return sb.toString();

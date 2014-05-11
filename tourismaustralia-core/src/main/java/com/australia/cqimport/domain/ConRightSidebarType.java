@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -13,11 +12,13 @@ import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for con_right_sidebarType complex type.
+ * <p>
+ * Java class for con_right_sidebarType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="con_right_sidebarType">
@@ -38,144 +39,119 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "con_right_sidebarType", propOrder = {
-    "beNavPanelMediaDownloads",
-    "beNavPanelSnapshot",
-    "beDestinationsSnapshot",
-    "beNavPanelPageLinks",
-    "beNavPanelPageWhatsOn"
-})
+@XmlType(name = "con_right_sidebarType", propOrder = { "beNavPanelMediaDownloads", "beNavPanelSnapshot",
+	"beDestinationsSnapshot", "beNavPanelPageLinks", "beNavPanelPageWhatsOn" })
 public class ConRightSidebarType {
 
-    @XmlElement(name = "BENavPanelMediaDownloads", required = true)
-    protected BENavPanelMediaDownloadsType beNavPanelMediaDownloads;
-    @XmlElement(name = "BENavPanelSnapshot")
-    protected BENavPanelSnapshotType beNavPanelSnapshot;
-    @XmlElement(name = "BEDestinationsSnapshot")
-    protected BEDestinationsSnapshotType beDestinationsSnapshot;
-    @XmlElement(name = "BENavPanelPageLinks", required = true)
-    protected BENavPanelPageLinksType beNavPanelPageLinks;
-    @XmlElement(name = "BENavPanelPageWhatsOn", required = true)
-    protected BENavPanelPageWhatsOnType beNavPanelPageWhatsOn;
+	@XmlElement(name = "BENavPanelMediaDownloads", required = true)
+	protected BENavPanelMediaDownloadsType beNavPanelMediaDownloads;
+	@XmlElement(name = "BENavPanelSnapshot")
+	protected BENavPanelSnapshotType beNavPanelSnapshot;
+	@XmlElement(name = "BEDestinationsSnapshot")
+	protected BEDestinationsSnapshotType beDestinationsSnapshot;
+	@XmlElement(name = "BENavPanelPageLinks", required = true)
+	protected BENavPanelPageLinksType beNavPanelPageLinks;
+	@XmlElement(name = "BENavPanelPageWhatsOn", required = true)
+	protected BENavPanelPageWhatsOnType beNavPanelPageWhatsOn;
 
-    /**
-     * Gets the value of the beNavPanelMediaDownloads property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link BENavPanelMediaDownloadsType }
-     *     
-     */
-    public BENavPanelMediaDownloadsType getBENavPanelMediaDownloads() {
-        return beNavPanelMediaDownloads;
-    }
+	/**
+	 * Gets the value of the beNavPanelMediaDownloads property.
+	 * 
+	 * @return possible object is {@link BENavPanelMediaDownloadsType }
+	 * 
+	 */
+	public BENavPanelMediaDownloadsType getBENavPanelMediaDownloads() {
+		return beNavPanelMediaDownloads;
+	}
 
-    /**
-     * Sets the value of the beNavPanelMediaDownloads property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link BENavPanelMediaDownloadsType }
-     *     
-     */
-    public void setBENavPanelMediaDownloads(BENavPanelMediaDownloadsType value) {
-        this.beNavPanelMediaDownloads = value;
-    }
+	/**
+	 * Sets the value of the beNavPanelMediaDownloads property.
+	 * 
+	 * @param value allowed object is {@link BENavPanelMediaDownloadsType }
+	 * 
+	 */
+	public void setBENavPanelMediaDownloads(BENavPanelMediaDownloadsType value) {
+		this.beNavPanelMediaDownloads = value;
+	}
 
-    /**
-     * Gets the value of the beNavPanelSnapshot property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link BENavPanelSnapshotType }
-     *     
-     */
-    public BENavPanelSnapshotType getBENavPanelSnapshot() {
-        return beNavPanelSnapshot;
-    }
+	/**
+	 * Gets the value of the beNavPanelSnapshot property.
+	 * 
+	 * @return possible object is {@link BENavPanelSnapshotType }
+	 * 
+	 */
+	public BENavPanelSnapshotType getBENavPanelSnapshot() {
+		return beNavPanelSnapshot;
+	}
 
-    /**
-     * Sets the value of the beNavPanelSnapshot property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link BENavPanelSnapshotType }
-     *     
-     */
-    public void setBENavPanelSnapshot(BENavPanelSnapshotType value) {
-        this.beNavPanelSnapshot = value;
-    }
+	/**
+	 * Sets the value of the beNavPanelSnapshot property.
+	 * 
+	 * @param value allowed object is {@link BENavPanelSnapshotType }
+	 * 
+	 */
+	public void setBENavPanelSnapshot(BENavPanelSnapshotType value) {
+		this.beNavPanelSnapshot = value;
+	}
 
-    /**
-     * Gets the value of the beDestinationsSnapshot property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link BEDestinationsSnapshotType }
-     *     
-     */
-    public BEDestinationsSnapshotType getBEDestinationsSnapshot() {
-        return beDestinationsSnapshot;
-    }
+	/**
+	 * Gets the value of the beDestinationsSnapshot property.
+	 * 
+	 * @return possible object is {@link BEDestinationsSnapshotType }
+	 * 
+	 */
+	public BEDestinationsSnapshotType getBEDestinationsSnapshot() {
+		return beDestinationsSnapshot;
+	}
 
-    /**
-     * Sets the value of the beDestinationsSnapshot property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link BEDestinationsSnapshotType }
-     *     
-     */
-    public void setBEDestinationsSnapshot(BEDestinationsSnapshotType value) {
-        this.beDestinationsSnapshot = value;
-    }
+	/**
+	 * Sets the value of the beDestinationsSnapshot property.
+	 * 
+	 * @param value allowed object is {@link BEDestinationsSnapshotType }
+	 * 
+	 */
+	public void setBEDestinationsSnapshot(BEDestinationsSnapshotType value) {
+		this.beDestinationsSnapshot = value;
+	}
 
-    /**
-     * Gets the value of the beNavPanelPageLinks property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link BENavPanelPageLinksType }
-     *     
-     */
-    public BENavPanelPageLinksType getBENavPanelPageLinks() {
-        return beNavPanelPageLinks;
-    }
+	/**
+	 * Gets the value of the beNavPanelPageLinks property.
+	 * 
+	 * @return possible object is {@link BENavPanelPageLinksType }
+	 * 
+	 */
+	public BENavPanelPageLinksType getBENavPanelPageLinks() {
+		return beNavPanelPageLinks;
+	}
 
-    /**
-     * Sets the value of the beNavPanelPageLinks property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link BENavPanelPageLinksType }
-     *     
-     */
-    public void setBENavPanelPageLinks(BENavPanelPageLinksType value) {
-        this.beNavPanelPageLinks = value;
-    }
+	/**
+	 * Sets the value of the beNavPanelPageLinks property.
+	 * 
+	 * @param value allowed object is {@link BENavPanelPageLinksType }
+	 * 
+	 */
+	public void setBENavPanelPageLinks(BENavPanelPageLinksType value) {
+		this.beNavPanelPageLinks = value;
+	}
 
-    /**
-     * Gets the value of the beNavPanelPageWhatsOn property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link BENavPanelPageWhatsOnType }
-     *     
-     */
-    public BENavPanelPageWhatsOnType getBENavPanelPageWhatsOn() {
-        return beNavPanelPageWhatsOn;
-    }
+	/**
+	 * Gets the value of the beNavPanelPageWhatsOn property.
+	 * 
+	 * @return possible object is {@link BENavPanelPageWhatsOnType }
+	 * 
+	 */
+	public BENavPanelPageWhatsOnType getBENavPanelPageWhatsOn() {
+		return beNavPanelPageWhatsOn;
+	}
 
-    /**
-     * Sets the value of the beNavPanelPageWhatsOn property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link BENavPanelPageWhatsOnType }
-     *     
-     */
-    public void setBENavPanelPageWhatsOn(BENavPanelPageWhatsOnType value) {
-        this.beNavPanelPageWhatsOn = value;
-    }
+	/**
+	 * Sets the value of the beNavPanelPageWhatsOn property.
+	 * 
+	 * @param value allowed object is {@link BENavPanelPageWhatsOnType }
+	 * 
+	 */
+	public void setBENavPanelPageWhatsOn(BENavPanelPageWhatsOnType value) {
+		this.beNavPanelPageWhatsOn = value;
+	}
 
 }

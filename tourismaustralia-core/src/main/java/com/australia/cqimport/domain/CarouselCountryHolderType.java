@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -14,11 +13,13 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for CarouselCountryHolderType complex type.
+ * <p>
+ * Java class for CarouselCountryHolderType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="CarouselCountryHolderType">
@@ -36,62 +37,52 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "CarouselCountryHolderType", propOrder = {
-    "conCarouselItems"
-})
+@XmlType(name = "CarouselCountryHolderType", propOrder = { "conCarouselItems" })
 public class CarouselCountryHolderType {
 
-    @XmlElement(name = "con_CarouselItems", required = true)
-    protected ConCarouselItemsType conCarouselItems;
-    @XmlAttribute(name = "isTemplate")
-    protected Byte isTemplate;
+	@XmlElement(name = "con_CarouselItems", required = true)
+	protected ConCarouselItemsType conCarouselItems;
+	@XmlAttribute(name = "isTemplate")
+	protected Byte isTemplate;
 
-    /**
-     * Gets the value of the conCarouselItems property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link ConCarouselItemsType }
-     *     
-     */
-    public ConCarouselItemsType getConCarouselItems() {
-        return conCarouselItems;
-    }
+	/**
+	 * Gets the value of the conCarouselItems property.
+	 * 
+	 * @return possible object is {@link ConCarouselItemsType }
+	 * 
+	 */
+	public ConCarouselItemsType getConCarouselItems() {
+		return conCarouselItems;
+	}
 
-    /**
-     * Sets the value of the conCarouselItems property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link ConCarouselItemsType }
-     *     
-     */
-    public void setConCarouselItems(ConCarouselItemsType value) {
-        this.conCarouselItems = value;
-    }
+	/**
+	 * Sets the value of the conCarouselItems property.
+	 * 
+	 * @param value allowed object is {@link ConCarouselItemsType }
+	 * 
+	 */
+	public void setConCarouselItems(ConCarouselItemsType value) {
+		this.conCarouselItems = value;
+	}
 
-    /**
-     * Gets the value of the isTemplate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Byte }
-     *     
-     */
-    public Byte getIsTemplate() {
-        return isTemplate;
-    }
+	/**
+	 * Gets the value of the isTemplate property.
+	 * 
+	 * @return possible object is {@link Byte }
+	 * 
+	 */
+	public Byte getIsTemplate() {
+		return isTemplate;
+	}
 
-    /**
-     * Sets the value of the isTemplate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Byte }
-     *     
-     */
-    public void setIsTemplate(Byte value) {
-        this.isTemplate = value;
-    }
+	/**
+	 * Sets the value of the isTemplate property.
+	 * 
+	 * @param value allowed object is {@link Byte }
+	 * 
+	 */
+	public void setIsTemplate(Byte value) {
+		this.isTemplate = value;
+	}
 
 }

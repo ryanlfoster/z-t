@@ -23,7 +23,7 @@ public enum PageCategory {
 
 	private static final Map<String, PageCategory> DISPLAY_MAP = new HashMap<String, PageCategory>();
 	static {
-		for (PageCategory pc: PageCategory.values()) {
+		for (PageCategory pc : PageCategory.values()) {
 			DISPLAY_MAP.put(pc.toDisplayString(), pc);
 		}
 	}
@@ -50,16 +50,26 @@ public enum PageCategory {
 
 	public String getCssClass() {
 		switch (this) {
-		case ABORIGINAL_AUSTRALIA: return "aboriginal";
-		case ADVENTURE: return "adventure";
-		case ART_CULTURE: return "arts";
-		case BEACHES: return "beaches";
-		case FOOD_WINE: return "food";
-		case ISLAND: return "islands";
-		case NATURE_WILDLIFE: return "nature";
-		case OUTBACK: return "outback";
-		case SPORTS: return "sports";
-		default: return "";
+		case ABORIGINAL_AUSTRALIA:
+			return "aboriginal";
+		case ADVENTURE:
+			return "adventure";
+		case ART_CULTURE:
+			return "arts";
+		case BEACHES:
+			return "beaches";
+		case FOOD_WINE:
+			return "food";
+		case ISLAND:
+			return "islands";
+		case NATURE_WILDLIFE:
+			return "nature";
+		case OUTBACK:
+			return "outback";
+		case SPORTS:
+			return "sports";
+		default:
+			return "";
 		}
 	}
 

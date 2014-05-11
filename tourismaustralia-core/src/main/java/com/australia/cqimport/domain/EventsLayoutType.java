@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -14,11 +13,13 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for EventsLayoutType complex type.
+ * <p>
+ * Java class for EventsLayoutType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="EventsLayoutType">
@@ -37,89 +38,74 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "EventsLayoutType", propOrder = {
-    "conBody",
-    "conRHSModules"
-})
+@XmlType(name = "EventsLayoutType", propOrder = { "conBody", "conRHSModules" })
 public class EventsLayoutType {
 
-    @XmlElement(name = "con_Body", required = true)
-    protected ConBodyType conBody;
-    @XmlElement(name = "con_RHSModules", required = true)
-    protected ConRHSModulesType conRHSModules;
-    @XmlAttribute(name = "isTemplate")
-    protected Byte isTemplate;
+	@XmlElement(name = "con_Body", required = true)
+	protected ConBodyType conBody;
+	@XmlElement(name = "con_RHSModules", required = true)
+	protected ConRHSModulesType conRHSModules;
+	@XmlAttribute(name = "isTemplate")
+	protected Byte isTemplate;
 
-    /**
-     * Gets the value of the conBody property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link ConBodyType }
-     *     
-     */
-    public ConBodyType getConBody() {
-        return conBody;
-    }
+	/**
+	 * Gets the value of the conBody property.
+	 * 
+	 * @return possible object is {@link ConBodyType }
+	 * 
+	 */
+	public ConBodyType getConBody() {
+		return conBody;
+	}
 
-    /**
-     * Sets the value of the conBody property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link ConBodyType }
-     *     
-     */
-    public void setConBody(ConBodyType value) {
-        this.conBody = value;
-    }
+	/**
+	 * Sets the value of the conBody property.
+	 * 
+	 * @param value allowed object is {@link ConBodyType }
+	 * 
+	 */
+	public void setConBody(ConBodyType value) {
+		this.conBody = value;
+	}
 
-    /**
-     * Gets the value of the conRHSModules property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link ConRHSModulesType }
-     *     
-     */
-    public ConRHSModulesType getConRHSModules() {
-        return conRHSModules;
-    }
+	/**
+	 * Gets the value of the conRHSModules property.
+	 * 
+	 * @return possible object is {@link ConRHSModulesType }
+	 * 
+	 */
+	public ConRHSModulesType getConRHSModules() {
+		return conRHSModules;
+	}
 
-    /**
-     * Sets the value of the conRHSModules property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link ConRHSModulesType }
-     *     
-     */
-    public void setConRHSModules(ConRHSModulesType value) {
-        this.conRHSModules = value;
-    }
+	/**
+	 * Sets the value of the conRHSModules property.
+	 * 
+	 * @param value allowed object is {@link ConRHSModulesType }
+	 * 
+	 */
+	public void setConRHSModules(ConRHSModulesType value) {
+		this.conRHSModules = value;
+	}
 
-    /**
-     * Gets the value of the isTemplate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Byte }
-     *     
-     */
-    public Byte getIsTemplate() {
-        return isTemplate;
-    }
+	/**
+	 * Gets the value of the isTemplate property.
+	 * 
+	 * @return possible object is {@link Byte }
+	 * 
+	 */
+	public Byte getIsTemplate() {
+		return isTemplate;
+	}
 
-    /**
-     * Sets the value of the isTemplate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Byte }
-     *     
-     */
-    public void setIsTemplate(Byte value) {
-        this.isTemplate = value;
-    }
+	/**
+	 * Sets the value of the isTemplate property.
+	 * 
+	 * @param value allowed object is {@link Byte }
+	 * 
+	 */
+	public void setIsTemplate(Byte value) {
+		this.isTemplate = value;
+	}
 
 }

@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -14,11 +13,13 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for elementType complex type.
+ * <p>
+ * Java class for elementType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="elementType">
@@ -37,89 +38,74 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "elementType", propOrder = {
-    "headline",
-    "href"
-})
+@XmlType(name = "elementType", propOrder = { "headline", "href" })
 public class ElementType {
 
-    @XmlElement(required = true)
-    protected String headline;
-    @XmlElement(required = true)
-    protected String href;
-    @XmlAttribute(name = "level")
-    protected Byte level;
+	@XmlElement(required = true)
+	protected String headline;
+	@XmlElement(required = true)
+	protected String href;
+	@XmlAttribute(name = "level")
+	protected Byte level;
 
-    /**
-     * Gets the value of the headline property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getHeadline() {
-        return headline;
-    }
+	/**
+	 * Gets the value of the headline property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getHeadline() {
+		return headline;
+	}
 
-    /**
-     * Sets the value of the headline property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setHeadline(String value) {
-        this.headline = value;
-    }
+	/**
+	 * Sets the value of the headline property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setHeadline(String value) {
+		this.headline = value;
+	}
 
-    /**
-     * Gets the value of the href property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getHref() {
-        return href;
-    }
+	/**
+	 * Gets the value of the href property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getHref() {
+		return href;
+	}
 
-    /**
-     * Sets the value of the href property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setHref(String value) {
-        this.href = value;
-    }
+	/**
+	 * Sets the value of the href property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setHref(String value) {
+		this.href = value;
+	}
 
-    /**
-     * Gets the value of the level property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Byte }
-     *     
-     */
-    public Byte getLevel() {
-        return level;
-    }
+	/**
+	 * Gets the value of the level property.
+	 * 
+	 * @return possible object is {@link Byte }
+	 * 
+	 */
+	public Byte getLevel() {
+		return level;
+	}
 
-    /**
-     * Sets the value of the level property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Byte }
-     *     
-     */
-    public void setLevel(Byte value) {
-        this.level = value;
-    }
+	/**
+	 * Sets the value of the level property.
+	 * 
+	 * @param value allowed object is {@link Byte }
+	 * 
+	 */
+	public void setLevel(Byte value) {
+		this.level = value;
+	}
 
 }

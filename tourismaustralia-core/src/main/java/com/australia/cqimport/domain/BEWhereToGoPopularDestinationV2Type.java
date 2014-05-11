@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -14,11 +13,13 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for BEWhereToGoPopularDestinationV2Type complex type.
+ * <p>
+ * Java class for BEWhereToGoPopularDestinationV2Type complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="BEWhereToGoPopularDestinationV2Type">
@@ -43,251 +44,207 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "BEWhereToGoPopularDestinationV2Type", propOrder = {
-    "ancItem1Link",
-    "ancItem2Link",
-    "ancMoreLinkText",
-    "stfHeader",
-    "stfItem1Text",
-    "stfItem2Text",
-    "stfMoreLinkText",
-    "lstPopComboItems"
-})
+@XmlType(name = "BEWhereToGoPopularDestinationV2Type", propOrder = { "ancItem1Link", "ancItem2Link", "ancMoreLinkText",
+	"stfHeader", "stfItem1Text", "stfItem2Text", "stfMoreLinkText", "lstPopComboItems" })
 public class BEWhereToGoPopularDestinationV2Type {
 
-    @XmlElement(name = "anc_Item1Link", required = true)
-    protected String ancItem1Link;
-    @XmlElement(name = "anc_Item2Link", required = true)
-    protected String ancItem2Link;
-    @XmlElement(name = "anc_MoreLinkText", required = true)
-    protected String ancMoreLinkText;
-    @XmlElement(name = "stf_Header", required = true)
-    protected String stfHeader;
-    @XmlElement(name = "stf_Item1Text", required = true)
-    protected String stfItem1Text;
-    @XmlElement(name = "stf_Item2Text", required = true)
-    protected String stfItem2Text;
-    @XmlElement(name = "stf_MoreLinkText", required = true)
-    protected String stfMoreLinkText;
-    @XmlElement(name = "lst_PopComboItems", required = true)
-    protected LstPopComboItemsType lstPopComboItems;
-    @XmlAttribute(name = "isTemplate")
-    protected Byte isTemplate;
+	@XmlElement(name = "anc_Item1Link", required = true)
+	protected String ancItem1Link;
+	@XmlElement(name = "anc_Item2Link", required = true)
+	protected String ancItem2Link;
+	@XmlElement(name = "anc_MoreLinkText", required = true)
+	protected String ancMoreLinkText;
+	@XmlElement(name = "stf_Header", required = true)
+	protected String stfHeader;
+	@XmlElement(name = "stf_Item1Text", required = true)
+	protected String stfItem1Text;
+	@XmlElement(name = "stf_Item2Text", required = true)
+	protected String stfItem2Text;
+	@XmlElement(name = "stf_MoreLinkText", required = true)
+	protected String stfMoreLinkText;
+	@XmlElement(name = "lst_PopComboItems", required = true)
+	protected LstPopComboItemsType lstPopComboItems;
+	@XmlAttribute(name = "isTemplate")
+	protected Byte isTemplate;
 
-    /**
-     * Gets the value of the ancItem1Link property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getAncItem1Link() {
-        return ancItem1Link;
-    }
+	/**
+	 * Gets the value of the ancItem1Link property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getAncItem1Link() {
+		return ancItem1Link;
+	}
 
-    /**
-     * Sets the value of the ancItem1Link property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setAncItem1Link(String value) {
-        this.ancItem1Link = value;
-    }
+	/**
+	 * Sets the value of the ancItem1Link property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setAncItem1Link(String value) {
+		this.ancItem1Link = value;
+	}
 
-    /**
-     * Gets the value of the ancItem2Link property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getAncItem2Link() {
-        return ancItem2Link;
-    }
+	/**
+	 * Gets the value of the ancItem2Link property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getAncItem2Link() {
+		return ancItem2Link;
+	}
 
-    /**
-     * Sets the value of the ancItem2Link property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setAncItem2Link(String value) {
-        this.ancItem2Link = value;
-    }
+	/**
+	 * Sets the value of the ancItem2Link property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setAncItem2Link(String value) {
+		this.ancItem2Link = value;
+	}
 
-    /**
-     * Gets the value of the ancMoreLinkText property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getAncMoreLinkText() {
-        return ancMoreLinkText;
-    }
+	/**
+	 * Gets the value of the ancMoreLinkText property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getAncMoreLinkText() {
+		return ancMoreLinkText;
+	}
 
-    /**
-     * Sets the value of the ancMoreLinkText property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setAncMoreLinkText(String value) {
-        this.ancMoreLinkText = value;
-    }
+	/**
+	 * Sets the value of the ancMoreLinkText property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setAncMoreLinkText(String value) {
+		this.ancMoreLinkText = value;
+	}
 
-    /**
-     * Gets the value of the stfHeader property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfHeader() {
-        return stfHeader;
-    }
+	/**
+	 * Gets the value of the stfHeader property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfHeader() {
+		return stfHeader;
+	}
 
-    /**
-     * Sets the value of the stfHeader property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfHeader(String value) {
-        this.stfHeader = value;
-    }
+	/**
+	 * Sets the value of the stfHeader property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfHeader(String value) {
+		this.stfHeader = value;
+	}
 
-    /**
-     * Gets the value of the stfItem1Text property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfItem1Text() {
-        return stfItem1Text;
-    }
+	/**
+	 * Gets the value of the stfItem1Text property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfItem1Text() {
+		return stfItem1Text;
+	}
 
-    /**
-     * Sets the value of the stfItem1Text property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfItem1Text(String value) {
-        this.stfItem1Text = value;
-    }
+	/**
+	 * Sets the value of the stfItem1Text property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfItem1Text(String value) {
+		this.stfItem1Text = value;
+	}
 
-    /**
-     * Gets the value of the stfItem2Text property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfItem2Text() {
-        return stfItem2Text;
-    }
+	/**
+	 * Gets the value of the stfItem2Text property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfItem2Text() {
+		return stfItem2Text;
+	}
 
-    /**
-     * Sets the value of the stfItem2Text property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfItem2Text(String value) {
-        this.stfItem2Text = value;
-    }
+	/**
+	 * Sets the value of the stfItem2Text property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfItem2Text(String value) {
+		this.stfItem2Text = value;
+	}
 
-    /**
-     * Gets the value of the stfMoreLinkText property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfMoreLinkText() {
-        return stfMoreLinkText;
-    }
+	/**
+	 * Gets the value of the stfMoreLinkText property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfMoreLinkText() {
+		return stfMoreLinkText;
+	}
 
-    /**
-     * Sets the value of the stfMoreLinkText property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfMoreLinkText(String value) {
-        this.stfMoreLinkText = value;
-    }
+	/**
+	 * Sets the value of the stfMoreLinkText property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfMoreLinkText(String value) {
+		this.stfMoreLinkText = value;
+	}
 
-    /**
-     * Gets the value of the lstPopComboItems property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link LstPopComboItemsType }
-     *     
-     */
-    public LstPopComboItemsType getLstPopComboItems() {
-        return lstPopComboItems;
-    }
+	/**
+	 * Gets the value of the lstPopComboItems property.
+	 * 
+	 * @return possible object is {@link LstPopComboItemsType }
+	 * 
+	 */
+	public LstPopComboItemsType getLstPopComboItems() {
+		return lstPopComboItems;
+	}
 
-    /**
-     * Sets the value of the lstPopComboItems property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link LstPopComboItemsType }
-     *     
-     */
-    public void setLstPopComboItems(LstPopComboItemsType value) {
-        this.lstPopComboItems = value;
-    }
+	/**
+	 * Sets the value of the lstPopComboItems property.
+	 * 
+	 * @param value allowed object is {@link LstPopComboItemsType }
+	 * 
+	 */
+	public void setLstPopComboItems(LstPopComboItemsType value) {
+		this.lstPopComboItems = value;
+	}
 
-    /**
-     * Gets the value of the isTemplate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Byte }
-     *     
-     */
-    public Byte getIsTemplate() {
-        return isTemplate;
-    }
+	/**
+	 * Gets the value of the isTemplate property.
+	 * 
+	 * @return possible object is {@link Byte }
+	 * 
+	 */
+	public Byte getIsTemplate() {
+		return isTemplate;
+	}
 
-    /**
-     * Sets the value of the isTemplate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Byte }
-     *     
-     */
-    public void setIsTemplate(Byte value) {
-        this.isTemplate = value;
-    }
+	/**
+	 * Sets the value of the isTemplate property.
+	 * 
+	 * @param value allowed object is {@link Byte }
+	 * 
+	 */
+	public void setIsTemplate(Byte value) {
+		this.isTemplate = value;
+	}
 
 }

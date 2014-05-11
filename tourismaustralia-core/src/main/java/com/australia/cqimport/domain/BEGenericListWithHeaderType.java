@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -14,11 +13,13 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for BEGenericListWithHeaderType complex type.
+ * <p>
+ * Java class for BEGenericListWithHeaderType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="BEGenericListWithHeaderType">
@@ -37,89 +38,74 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "BEGenericListWithHeaderType", propOrder = {
-    "txtContent",
-    "conItems"
-})
+@XmlType(name = "BEGenericListWithHeaderType", propOrder = { "txtContent", "conItems" })
 public class BEGenericListWithHeaderType {
 
-    @XmlElement(name = "txt_content", required = true)
-    protected String txtContent;
-    @XmlElement(name = "con_items", required = true)
-    protected ConItemsType conItems;
-    @XmlAttribute(name = "isTemplate")
-    protected Byte isTemplate;
+	@XmlElement(name = "txt_content", required = true)
+	protected String txtContent;
+	@XmlElement(name = "con_items", required = true)
+	protected ConItemsType conItems;
+	@XmlAttribute(name = "isTemplate")
+	protected Byte isTemplate;
 
-    /**
-     * Gets the value of the txtContent property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getTxtContent() {
-        return txtContent;
-    }
+	/**
+	 * Gets the value of the txtContent property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getTxtContent() {
+		return txtContent;
+	}
 
-    /**
-     * Sets the value of the txtContent property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setTxtContent(String value) {
-        this.txtContent = value;
-    }
+	/**
+	 * Sets the value of the txtContent property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setTxtContent(String value) {
+		this.txtContent = value;
+	}
 
-    /**
-     * Gets the value of the conItems property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link ConItemsType }
-     *     
-     */
-    public ConItemsType getConItems() {
-        return conItems;
-    }
+	/**
+	 * Gets the value of the conItems property.
+	 * 
+	 * @return possible object is {@link ConItemsType }
+	 * 
+	 */
+	public ConItemsType getConItems() {
+		return conItems;
+	}
 
-    /**
-     * Sets the value of the conItems property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link ConItemsType }
-     *     
-     */
-    public void setConItems(ConItemsType value) {
-        this.conItems = value;
-    }
+	/**
+	 * Sets the value of the conItems property.
+	 * 
+	 * @param value allowed object is {@link ConItemsType }
+	 * 
+	 */
+	public void setConItems(ConItemsType value) {
+		this.conItems = value;
+	}
 
-    /**
-     * Gets the value of the isTemplate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Byte }
-     *     
-     */
-    public Byte getIsTemplate() {
-        return isTemplate;
-    }
+	/**
+	 * Gets the value of the isTemplate property.
+	 * 
+	 * @return possible object is {@link Byte }
+	 * 
+	 */
+	public Byte getIsTemplate() {
+		return isTemplate;
+	}
 
-    /**
-     * Sets the value of the isTemplate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Byte }
-     *     
-     */
-    public void setIsTemplate(Byte value) {
-        this.isTemplate = value;
-    }
+	/**
+	 * Sets the value of the isTemplate property.
+	 * 
+	 * @param value allowed object is {@link Byte }
+	 * 
+	 */
+	public void setIsTemplate(Byte value) {
+		this.isTemplate = value;
+	}
 
 }

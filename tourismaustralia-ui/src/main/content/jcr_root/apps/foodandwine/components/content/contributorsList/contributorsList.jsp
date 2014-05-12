@@ -46,8 +46,14 @@
 						<ul class="row l-row-collapse">
 							<li class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
 								<p>
-								<c:if test="${not empty list.link}">
-								<a href="${list.link}" style="text-decoration:none"></c:if>${list.title }</a>
+								<c:choose>
+								<c:when test="${not empty list.link}">
+								<a href="${list.link}" style="text-decoration:none">${list.title }</a>
+								</c:when>
+								<c:otherwise>
+									${list.title }
+								</c:otherwise>
+								</c:choose>
 								</p>
 							</li>
 							<li class="col-xs-6 col-sm-4 col-md-3 l-display-none-sm">

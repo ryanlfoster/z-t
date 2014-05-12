@@ -82,7 +82,11 @@ public class Global {
 			imagePath = null;
 		}
 
-		url = serverName + currentPage.getPath() + ".html";
+		if (slingSettings.getRunModes().contains(ServerUtils.PUBLISH)) {
+			url = request.getResourceResolver().map(currentPage.getPath() + ".html");
+		} else {
+			url = serverName + currentPage.getPath() + ".html";
+		}
 
 		String tempFavIcon = properties.get("cq:designPath", StringUtils.EMPTY) + "/favicon.ico";
 		if (request.getResourceResolver().getResource(tempFavIcon) == null) {

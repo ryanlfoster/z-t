@@ -36,14 +36,12 @@ h1, h2, h3, h4, h5  {
   font-family: $font-family-secondary;
   font-weight: normal;
   color: $type-heading-colour;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: $standard-spacing auto;
 }
 
 h1 {
   font-size: pxtoem($h1-size);
   color: #8d896f;
-  margin-bottom: .1em;
 }
 
 h2 {
@@ -61,6 +59,7 @@ h4 {
 
 p {
   line-height: pxtolineheightem(16px, 26px);
+  margin: $standard-spacing auto;
   font-family: $font-family-base;
   strong, b{
     font-family: $font-family-base-b;

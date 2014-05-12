@@ -122,7 +122,7 @@ $module-spacing-lg : 90px!important;
 
   //First Element of "Content Of Page's" in first level:
   .styleguide #{$page-class-name} > *:first-child{
-    //margin-top: 0!important;
+    margin-top: 0!important;
   }
 
   //First Element of "Content Of Page's" in first level:
@@ -132,7 +132,7 @@ $module-spacing-lg : 90px!important;
 
   //IE8 Hack First Element of "Content Of Page's" in first level:
   .lt-ie9 .styleguide #{$page-class-name} > div:first-child{
-    //margin-top: 0!important;
+    margin-top: 0!important;
   }
 
   //IE8 Hack [Does not work, see next class]  Last Element of "Content Of Page's" in first level:

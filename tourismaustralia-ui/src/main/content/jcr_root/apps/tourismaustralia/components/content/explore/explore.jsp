@@ -7,12 +7,12 @@
 	<div class="section-intro">
 		<div class="l-center-900">
 			<h3 class="type-h1-responsive">
-				<c:out value="${explore.title}"/>
+				<fmt:message key="EXPLORE BEYOND THE CITY LIMITS"/>
 			</h3>
 		</div>
 		<div class="l-center-640 type-center">
 			<p class="type-intro">
-				<c:out value="${explore.description}"/>
+				Make Sydney where your adventure begins. World-heritage natural wonders, world-class wine regions, and the world’s most stunning beaches are just over the horizon.
 			</p>
 		</div>
 	</div>
@@ -54,7 +54,6 @@
 	<div class="carousel-center-container">
 	<div class="carousel-owl-mobile-fill">
 	<div id="carousel" class="owl-carousel owl-theme">
-<<<<<<< HEAD
 
 <%-- Tab 1 Carousel --%>
 	<%-- Card 1 --%>

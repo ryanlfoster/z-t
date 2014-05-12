@@ -65,4 +65,13 @@ public class Category {
 			cards.add(card3);
 		}
 	}
+
+	public boolean isValid() {
+		for (TabProperties card: cards) {
+			if (!card.isValid()) {
+				return false;
+			}
+		}
+		return !cards.isEmpty();
+	}
 }

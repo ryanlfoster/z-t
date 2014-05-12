@@ -4,6 +4,7 @@ import org.apache.commons.lang3.StringUtils;
 
 import com.citytechinc.cq.component.annotations.DialogField;
 import com.citytechinc.cq.component.annotations.widgets.Html5SmartImage;
+import com.citytechinc.cq.component.annotations.widgets.RichTextEditor;
 
 public class ButtonField {
 
@@ -14,6 +15,7 @@ public class ButtonField {
 	@DialogField(fieldLabel = "Title")
 	private String title;
 
+	@RichTextEditor
 	@DialogField(fieldLabel = "Text", xtype = "textarea")
 	private String text;
 

@@ -6,39 +6,46 @@
 		<div class="flipper">
 			<div class="explore-card-front flip-front theme-mosaic-3column-front ieAntialias">
 				<!-- include category type "nature" to class to use that colour base -->
-				<div class="explore-image-container nature type-spacing-40">
+				<div class="explore-image-container ${card.pageCategory.cssClass} type-spacing-40">
 					<img class="l-image-full explore-image" src="<c:url value='${card.pageImagePath}'/>" alt="" />
 					<div class="explore-item-diamond">
 						<!-- icons, aboriginal_australia, adventure, art_culture, beaches,
 						food_wine, island, nature_wildlife, outback, sports -->
-						<img src="/etc/designs/tourismaustralia/clientlibs/imgs/icons/nature_wildlife.png" alt="" />
+						<img src="${card.pageCategory.standardIcon}" alt="" />
 					</div>
 				</div>
 				<div class="line-through-container">
 					<div class="line-through"><span class="line-through-hr"></span></div>
-						<div class="line-through-container-biline">
-							<c:out value="${card.pageTitle}"/>
-						</div>
+					<div class="line-through-container-biline">
+						<c:out value="${card.pageTitle}"/>
+					</div>
 					<div class="line-through"><span class="line-through-hr"></span></div>
 				</div>
 				<div class="l-h-center l-padding-tb-30-lr-15">
 					<a id="explore-flip-btn" href="" class="btn-bubble">
-						<span class="btn-bubble-tooltip">
+							<span class="btn-bubble-tooltip">
 							<span class="btn-bubble-tooltip-container">
-								<fmt:message key="View map"/>
+							<fmt:message key="Show map"/>
 							</span>
-						</span>
-						<span class="btn-bubble-button">
+							</span>
+							<span class="btn-bubble-button">
 							<img class="btn-bubble-std" src="/etc/designs/tourismaustralia/clientlibs/imgs/icons/mappin_outline.png" alt=""/>
 							<img class="btn-bubble-active" src="/etc/designs/tourismaustralia/clientlibs/imgs/icons/mappin.png" alt=""/>
-						</span>
+							</span>
 					</a>
 					<p><c:out value="${card.pageDescription}"/></p>
 					<p><a href="<c:url value='${card.pagePath}'/>"><fmt:message key="View more information"/></a></p>
-
-					<c:set var="pagepath" value="${card.pagePath}" scope="request"/>
-					<cq:include script="favouriteSmallBtn.jsp" />
-
+					<a href="#" class="btn-bubble bubble-colour-favourite" data-pagepath="<c:url value='${card.pagePath}'/>">
+							<span class="btn-bubble-tooltip">
+								<span class="btn-bubble-tooltip-container">
+									<fmt:message key="Add to your dream trip"/>
+								</span>
+							</span>
+							<span class="btn-bubble-button">
+								<img class="btn-bubble-std" src="/etc/designs/tourismaustralia/clientlibs/imgs/icons/favourite_outline.png" alt=""/>
+								<img class="btn-bubble-active" src="/etc/designs/tourismaustralia/clientlibs/imgs/icons/favourite.png" alt=""/>
+							</span>
+					</a>
 				</div>
 			</div>
 			<div class="explore-card-back flip-back ieAntialias">

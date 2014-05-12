@@ -1,14 +1,13 @@
 package com.australia.www.components.content.explore;
 
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.apache.sling.api.resource.Resource;
 
+import com.australia.content.domain.Content;
+import com.australia.pagecategories.PageCategory;
 import com.australia.utils.LinkUtils;
 import com.citytechinc.cq.component.annotations.DialogField;
 import com.citytechinc.cq.component.annotations.widgets.PathField;
-import com.day.cq.wcm.api.Page;
-import com.day.cq.wcm.api.PageManager;
-import com.day.cq.wcm.foundation.Image;
 
 public class TabProperties {
 	@DialogField(fieldDescription = "Back alt text")
@@ -22,9 +21,7 @@ public class TabProperties {
 	@PathField
 	private String imageBack;
 
-	private String pageDescription;
-	private String pageTitle;
-	private String pageImagePath;
+	private Content content;
 
 	public String getAltTextBack() {
 		return altTextBack;
@@ -35,15 +32,19 @@ public class TabProperties {
 	}
 
 	public String getPageTitle() {
-		return pageTitle;
+		return content != null ? content.getTitle() : "";
 	}
 
 	public String getPageImagePath() {
-		return pageImagePath;
+		return content != null ? content.getImagePath() : "";
 	}
 
 	public String getPageDescription() {
-		return pageDescription;
+		return content != null ? content.getText() : "";
+	}
+
+	public PageCategory getPageCategory() {
+		return content != null ? content.getPageCategory() : PageCategory.ABORIGINAL_AUSTRALIA;
 	}
 
 	public String getPagePath() {
@@ -59,22 +60,17 @@ public class TabProperties {
 	}
 
 	public void setPage(String path, Resource resource) {
-		if (StringUtils.isNotBlank(path)) {
-			PageManager pageManager = resource.getResourceResolver().adaptTo(PageManager.class);
-			pagePath = LinkUtils.getHrefFromPath(path);
-			Page page = pageManager.getContainingPage(path);
-			pageDescription = page.getDescription();
-			pageTitle = page.getTitle();
-			Resource imageRes = page.getContentResource("image");
-			if (imageRes != null) {
-				Image imageObj = new Image(imageRes);
-				pageImagePath = imageObj.getFileReference();
-			}
+		pagePath = path;
+		if (resource != null && StringUtils.isNotBlank(path)) {
+			Resource pageResource = resource.getResourceResolver().resolve(path);
+			content = Content.fromResource(pageResource);
 		} else {
-			pageDescription = "";
-			pageTitle = "";
-			pageImagePath = "";
-			pagePath = "";
+			content = null;
 		}
 	}
+
+	public boolean isValid() {
+		return pagePath != null && !pagePath.trim().isEmpty();
+	}
+
 }

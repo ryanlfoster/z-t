@@ -31,7 +31,7 @@ public class TabProperties {
 	public String getPageTitle(){ return pageTitle; }
 	public String getPageImagePath(){ return pageImagePath; }
 	public String getPageDescription(){ return pageDescription; }
-	public String getPagePath(){ return LinkUtils.getHrefFromPath(pagePath); }
+	public String getPagePath(){ return pagePath; }
 
 	public void setImageBack(final String path) {
 		imageBack = path;
@@ -42,7 +42,7 @@ public class TabProperties {
 	public void setPage(String path, Resource resource){
 		if(StringUtils.isNotBlank(path)){
 			PageManager pageManager = resource.getResourceResolver().adaptTo(PageManager.class);
-			pagePath = path;
+			pagePath = LinkUtils.getHrefFromPath(path);
 			Page page = pageManager.getContainingPage(path);
 			pageDescription = page.getDescription();
 			pageTitle = page.getTitle();

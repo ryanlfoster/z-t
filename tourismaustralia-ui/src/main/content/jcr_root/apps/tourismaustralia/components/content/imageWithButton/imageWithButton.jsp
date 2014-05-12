@@ -30,16 +30,12 @@
 				    <img src="${imageButton.overlayIconImageSrc}" alt="${imageButton.overlayIconImageAlt}" />
 				</div>
                 </c:if>
-                <c:if test="${not empty imageButton.overlayIconImageSrc && not empty imageButton.quoteText}">
-                <hr>
-                </c:if>
                 <c:if test="${not empty imageButton.quoteText}">
+                <hr>
                 <div class="blockquote-quote-pull">
 					<p>&#8220;${imageButton.quoteText}&#8221;</p>
 				</div>
-                </c:if>
-                <c:if test="${(not empty imageButton.overlayIconImageSrc || not empty imageButton.quoteText) && (not empty imageButton.imageButtonPath && not empty imageButton.imageButtonText)}">
-				<hr>
+                <hr>
                 </c:if>
                 <c:if test="${not empty imageButton.imageButtonPath && not empty imageButton.imageButtonText}">
 				<a href="${imageButton.imageButtonPath}" class="image-btn" ${imageButton.buttonPathExternal?'target="_blank"':''}>${imageButton.imageButtonText}</a>

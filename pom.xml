@@ -11,7 +11,7 @@
 	<groupId>com.australia</groupId>
 	<artifactId>tourismaustralia</artifactId>
 	<packaging>pom</packaging>
-	<version>1.1.2</version>
+	<version>1.1.3</version>
 	<name>Tourism Australia CQ5 Website</name>
 
 	<modules>
@@ -121,6 +121,23 @@
 				<osgi.bundle.status.skip>false</osgi.bundle.status.skip>
 				<cq.protocol>http</cq.protocol>
 				<cq.host>54.206.27.50</cq.host>
+				<cq.port>4502</cq.port>
+				<cq.username>admin</cq.username>
+				<cq.password>1xrQ3,_I'(</cq.password>
+			</properties>
+		</profile>
+		<profile>
+			<id>test2</id>
+			<activation>
+				<property>
+					<name>test2</name>
+				</property>
+			</activation>
+			<properties>
+				<crx.skip>false</crx.skip>
+				<osgi.bundle.status.skip>false</osgi.bundle.status.skip>
+				<cq.protocol>http</cq.protocol>
+				<cq.host>54.79.1.119</cq.host>
 				<cq.port>4502</cq.port>
 				<cq.username>admin</cq.username>
 				<cq.password>1xrQ3,_I'(</cq.password>

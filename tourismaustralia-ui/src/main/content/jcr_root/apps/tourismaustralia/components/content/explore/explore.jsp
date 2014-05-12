@@ -3,7 +3,7 @@
 <%@ page import="com.australia.www.components.content.explore.Explore" %>
 <c:set var="explore" value="<%=new Explore(slingRequest) %>"/>
 
-<div class="explore-container">
+<div class="explore-container" data-aus-tab-container>
 	<div class="section-intro">
 		<div class="l-center-900">
 			<h3 class="type-h1-responsive">
@@ -22,10 +22,10 @@
 			<div class="dropdown-select">
 				<hr>
 					<div class="dropdown-select-style">
-						<select>
+						<select data-aus-select>
 							<c:forEach items="${explore.tabs}" var="tab">
 								<c:if test="${tab.hasTitle}">
-									<option><c:out value="${tab.title}"/> </option>
+									<option value="${tab.title}">${tab.title}"</option>
 								</c:if>
 							</c:forEach>
 						</select>
@@ -37,7 +37,7 @@
 		<div class="section-buttons-desktop">
 			<c:forEach items="${explore.tabs}" var="tab">
 				<c:if test="${tab.hasTitle}">
-					<a href="#" class="btn-bubble btn-bubble-min-width is-active btn-category-extra-space">
+					<a class="btn-bubble btn-bubble-min-width btn-category-extra-space" data-aus-tab="${tab.title}">
 						<span class="btn-bubble-button">
 							<img class="btn-bubble-std" src="<c:url value='${tab.iconImagePath}'/>" alt=""/>
 							<img class="btn-bubble-active" src="<c:url value='${tab.selectedImagePath}'/>" alt=""/>
@@ -50,11 +50,12 @@
 		</div>
 	</div>
 
-	<div class="carousel-center-container">
+    <c:forEach items="${explore.tabs}" var="tab">
+	<div class="carousel-center-container" data-aus-show-tab="${tab.title}">
 	<div class="carousel-owl-mobile-fill">
 	<div id="carousel" class="owl-carousel owl-theme">
     <%-- Tab 1 Carousel --%>
-	<c:forEach items="${explore.tabs[0].cards}" var="card">
+	<c:forEach items="${tab.cards}" var="card">
 	<div class="carousel-item">
 		<div class="explore-item-container flip-container">
 			<div class="flipper">
@@ -128,5 +129,5 @@
 	</div>
 	</div>
 	</div>
-
+    </c:forEach>
 </div>

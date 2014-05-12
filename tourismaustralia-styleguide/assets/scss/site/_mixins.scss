@@ -117,6 +117,14 @@
     transform: translateZ(0);
 }
 
+/*! Solve Background Issue - without GPU Render */
+@mixin fast-render() {
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
+  backface-visibility: hidden;
+  perspective: 1000;
+}
+
 /*! Transition
     Example usage:
     @include transition(width height, 4s, linear, 1s)

@@ -1,13 +1,15 @@
 
 .explore-container {
 
-  overflow: hidden;
+  //Commented by Sapan - for spacing
+  /*overflow: hidden;
   padding-bottom: pxtoem($bottom-spacing);
 
   @include breakpoint(lg) {
     //padding-top: pxtoem(55px);
     padding: pxtoem(15px) 0 pxtoem($bottom-spacing);
   }
+  */
 
   /*
   .col-xs-4 {

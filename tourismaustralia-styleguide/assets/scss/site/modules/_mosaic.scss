@@ -6,7 +6,8 @@
   position: relative;
   width: 100%;
   max-width: pxtoem(1180px);
-  margin: 0 auto;
+  margin: 0 auto; 
+  @include vertical-spacing-responsive('standard','standard');
 }
 
 /**********************************************/

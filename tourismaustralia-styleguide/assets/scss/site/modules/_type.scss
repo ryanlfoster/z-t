@@ -19,13 +19,16 @@
   color: $type-main-heading-colour;
 
   font-size: pxtoem(30px);
-  margin-bottom: 1em;
+  @include vertical-spacing-responsive('large','zero', 0px, 5px);
+
   @include breakpoint(sm){
     font-size: pxtoem(50px);
+    @include vertical-spacing-responsive('large','zero', 0px, 10px);
   }
   @include breakpoint(md){
     font-size: pxtoem(80px);
     margin-bottom: .1em;
+    @include vertical-spacing-responsive('large','zero', 0px, 17px);
   }
 }
 
@@ -270,6 +273,10 @@
     p:last-of-type {
         margin-bottom: 0.5em;
     }
+}
+
+div.row > .type-body{
+  margin-bottom: -5px;// To make the same effect '$adjust-line-height-bottom-spacing' do in mixin 'vertical-spacing-responsive'
 }
 
 .type-body p:last-of-type {

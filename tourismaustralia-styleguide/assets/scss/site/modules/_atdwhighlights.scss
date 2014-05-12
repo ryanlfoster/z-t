@@ -2,9 +2,5 @@
 .atdwhighlights {
   background: #FFF;
   margin: 0 auto;
-  padding-bottom: pxtoem($bottom-spacing);
-  
-    @include breakpoint(lg) {
-        padding-top: pxtoem(60px);
-    }
+  @include vertical-spacing-responsive('large','large');
 }

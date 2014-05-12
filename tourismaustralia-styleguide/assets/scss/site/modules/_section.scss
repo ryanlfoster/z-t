@@ -1,11 +1,6 @@
 .section-intro,
 .section-title {
-
     padding: 0 pxtoem(15px) 0;
-
-    p {
-        margin: 2em 0;
-    }
 }
 
 .section-title {
@@ -24,13 +19,16 @@
 .section-buttons {
 
     padding: 0;
+    @include vertical-spacing-responsive('standard','standard');
 
     .section-buttons-desktop {
         display: none;
-        margin-bottom: -1em;
+        //Commented by Sapan - for spacing
+        //margin-bottom: -1em;
 
         .btn-bubble {
-            margin-bottom: 1em;
+            //Commented by Sapan - for spacing
+            //margin-bottom: 1em;
         }
     }
 
@@ -42,7 +40,7 @@
 
     // custom break to allow 2 buttons
     @media (min-width: 560px) {
-        padding: 0.25em 0 1.5em;
+
         .section-buttons-mobile {
             display: none;
         }

@@ -2,8 +2,7 @@
   position: relative;
   background: #FFF;
   margin: 0 -15px;
-  padding-top: pxtoem($top-spacing);
-  padding-bottom: pxtoem($bottom-spacing);
+  @include vertical-spacing-responsive('large','large');
 }
 
 .image-ugc {

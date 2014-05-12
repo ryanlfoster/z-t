@@ -3,7 +3,9 @@
 .carousel-center-container {
   max-width: 1200px;
   margin: 0 auto;
-  overflow: hidden;
+  @include vertical-spacing-responsive('standard','large');
+  //Commented by Sapan - for spacing
+  //overflow: hidden;
 }
 .carousel-owl-mobile-fill {
   margin: 0 -30px;
@@ -18,10 +20,6 @@
   //padding: 2px;
   margin: 0 .3em;
   text-align: center;
-}
-
-.carousel-center-container {
-  margin-top: 0.25em;
 }
 
 .carousel-item-container {

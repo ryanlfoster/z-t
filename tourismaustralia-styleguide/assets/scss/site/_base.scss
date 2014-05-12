@@ -48,6 +48,7 @@ h1 {
 
 h2 {
   font-size: pxtoem($h2-size);
+  @include vertical-spacing-responsive('large','standard');
 }
 
 h3 {
@@ -63,7 +64,7 @@ p {
   line-height: pxtolineheightem(16px, 26px);
   margin-left: auto;
   margin-right: auto;
-  @include vertical-spacing-responsive('standard','standard');
+  @include vertical-spacing-responsive('standard','standard',5px,5px);
 
   font-family: $font-family-base;
   strong, b{

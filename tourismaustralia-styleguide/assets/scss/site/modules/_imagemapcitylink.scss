@@ -51,26 +51,28 @@ a.map-pin-btn {
 
 .map-with-links-container {
   text-align: center;
-  padding-bottom: pxtoem(60px);
+  @include vertical-spacing-responsive('large','zero',0px,8px);
 }
 
 .map-with-links-intro {
   display: block;
-  margin-bottom: pxtoem(30px);
+  @include vertical-spacing-responsive('standard','medium',5px,5px);
+  //Commented by Sapan - for spacing
+  /*margin-bottom: pxtoem(30px);
   @include breakpoint(sm){
     margin-bottom: pxtoem(53px); // pxtoem is not accurate, this should be 60px...
-  }
+  }*/
 }
 
 .map-image-view-btn-container {
     position: relative;
-    top: -(pxtoem(50px));
-    margin-bottom: -(pxtoem(30px));
+    top: -78px;
+    margin-bottom: -55px;
 }
 
 .map-highlights-image {
   max-width: 100%;
-  margin-bottom: pxtoem(30px);
+  @include vertical-spacing-responsive('zero','standard');
 }
 
 // MODERNIZER DETECTION FOR CSSCOLUMNS

@@ -19,7 +19,7 @@
                                 <a href="<c:out value="${predecessorPage.path}"/>.html">
                                     <c:choose>
                                         <c:when test = "${predecessorPage.depth == 2}">
-                                            <c:out value="Home"/>
+                                            <fmt:message key="Home"/>
                                         </c:when>
                                         <c:otherwise>
                                             <c:choose>
@@ -47,7 +47,7 @@
                                 <a href="<c:out value="${predecessorPage.path}"/>.html">
                                     <c:choose>
                                         <c:when test = "${predecessorPage.depth == 3}">
-                                            <c:out value="Home"/>
+                                            <fmt:message key="Home"/>
                                         </c:when>
                                         <c:otherwise>
                                             <c:choose>

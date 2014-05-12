@@ -10,11 +10,11 @@ import com.citytechinc.cq.component.annotations.widgets.PathField;
 
 public class Category {
 	@DialogField(fieldLabel = "Icon Image Path")
-	@PathField
+	@PathField(rootPath = "/content/dam")
 	private String iconImagePath;
 
 	@DialogField(fieldLabel = "Selected Icon Image Path")
-	@PathField
+	@PathField(rootPath = "/content/dam")
 	private String selectedImagePath;
 
 	@DialogField(fieldLabel = "Tab Title")

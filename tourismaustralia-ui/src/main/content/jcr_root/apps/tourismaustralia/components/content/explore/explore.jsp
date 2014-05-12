@@ -53,7 +53,7 @@
 	<div class="carousel-center-container">
 	<div class="carousel-owl-mobile-fill">
 	<div id="carousel" class="owl-carousel owl-theme">
-<%-- Tab 1 Carousel --%>
+    <%-- Tab 1 Carousel --%>
 	<c:forEach items="${explore.tabs[0].cards}" var="card">
 	<div class="carousel-item">
 		<div class="explore-item-container flip-container">
@@ -89,7 +89,7 @@
 						</a>
 						<p><c:out value="${card.pageDescription}"/></p>
 						<p><a href="<c:url value='${card.pagePath}'/>"><fmt:message key="View more information"/></a></p>
-						<a href="#" class="btn-bubble bubble-colour-favourite">
+						<a href="#" class="btn-bubble bubble-colour-favourite" data-pagepath="<c:url value='${card.pagePath}'/>">
 							<span class="btn-bubble-tooltip">
 								<span class="btn-bubble-tooltip-container">
 									<fmt:message key="Add to your dream trip"/>

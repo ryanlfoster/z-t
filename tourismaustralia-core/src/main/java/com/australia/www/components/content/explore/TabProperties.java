@@ -18,7 +18,7 @@ public class TabProperties {
 	private String pagePath;
 
 	@DialogField(fieldDescription = "Image on the back of card")
-	@PathField
+	@PathField(rootPath = "/content/dam")
 	private String imageBack;
 
 	private Content content;

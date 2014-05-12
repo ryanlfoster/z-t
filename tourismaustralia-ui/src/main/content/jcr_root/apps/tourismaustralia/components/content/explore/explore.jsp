@@ -57,7 +57,6 @@
 	<div class="carousel-owl-mobile-fill">
 	<div id="carousel" class="owl-carousel owl-theme">
 
-    <%-- Tab 1 Carousel --%>
 	<c:forEach items="${tab.cards}" var="card">
 	<div class="carousel-item">
 		<div class="explore-item-container flip-container">

@@ -30,11 +30,11 @@ public class MosaicThemeLink {
 	private String iconImage;
 
 	@DialogField(fieldLabel = "Theme", required = true)
-	@Selection(type = Selection.SELECT, options = { @Option(value = "nature", text = "Nature"),
-		@Option(value = "outback", text = "Outback"), @Option(value = "aboriginal", text = "Aboriginal"),
-		@Option(value = "food", text = "Food"), @Option(value = "arts", text = "Arts"),
-		@Option(value = "islands", text = "Islands"), @Option(value = "beaches", text = "Beaches"),
-		@Option(value = "sports", text = "Sports"), @Option(value = "adventure", text = "Adventure") })
+	@Selection(type = Selection.SELECT, options = { @Option(value = "nature", text = "Dark Green"),
+		@Option(value = "outback", text = "Dark Yellow"), @Option(value = "aboriginal", text = "Brown"),
+		@Option(value = "food", text = "Red"), @Option(value = "arts", text = "Dark Blue"),
+		@Option(value = "islands", text = "Light Blue"), @Option(value = "beaches", text = "Yellow"),
+		@Option(value = "sports", text = "Light Green"), @Option(value = "adventure", text = "Light Yellow") })
 	private String theme;
 
 	private boolean isExternal;

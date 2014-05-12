@@ -1075,6 +1075,17 @@
                     ,
                 
             
+                "herovideo" : {
+                     "data" : {
+                        "title" : "herovideo",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'herovideo'}}"
+                }
+                
+                    ,
+                
+            
                 "hero_text" : {
                      "data" : {
                         "title" : "hero_text",
@@ -1579,6 +1590,31 @@
                         "layout" : "styleguide-preview.hbs"
                     },
                     "content" : "{{section 'hero'}}"
+                }
+                
+            
+            
+                ,
+            
+        
+            
+                "linethroughtext" : {
+                     "data" : {
+                        "title" : "linethroughtext",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'linethroughtext'}}"
+                }
+                
+                    ,
+                
+            
+                "linethroughtextfullhr" : {
+                     "data" : {
+                        "title" : "linethroughtextfullhr",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'linethroughtextfullhr'}}"
                 }
                 
             

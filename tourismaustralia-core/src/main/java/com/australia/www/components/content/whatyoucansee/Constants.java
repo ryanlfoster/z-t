@@ -52,6 +52,9 @@ final class Constants {
 		+ "    if(sibling.isVisible()) {" + "      sibling.setDisabled(disable);" + "    }"
 		+ "    sibling = sibling.nextSibling();" + "  }" + "}";
 
+	public static final String TAG_ADD_LISTENER = "function(field, tag){" + "var tags = field.getTags();"
+		+ "if(tags && tags.length > 1) { field.removeTag(tag); } }";
+
 	// Disallow instantiation of utility class
 	private Constants() {
 	}

@@ -41,7 +41,8 @@ import com.day.cq.wcm.api.PageManager;
 	@Listener(name = "afteredit", value = "REFRESH_PAGE"), @Listener(name = "afterinsert", value = "REFRESH_PAGE") })
 public final class WhatYouCanSee {
 
-	@DialogField(fieldLabel = "Tag", tab = 1)
+	@DialogField(fieldLabel = "Tag", tab = 1,
+		listeners = @Listener(name = "addtag", value = Constants.TAG_ADD_LISTENER))
 	@TagInputField
 	private final String tagId;
 	private Tag tag;
@@ -52,11 +53,13 @@ public final class WhatYouCanSee {
 	@DialogField(fieldLabel = "Text", tab = 1)
 	private final String text;
 
-	@DialogField(fieldLabel = "Things To Do", fieldDescription = "When checked, 'Things To Do' will be displayed", defaultValue = "true", tab = 2)
+	@DialogField(fieldLabel = "Things To Do", fieldDescription = "When checked, 'Things To Do' will be displayed",
+		defaultValue = "true", tab = 2)
 	@Selection(type = Selection.CHECKBOX, options = @Option(value = "true"))
 	private boolean showThingsToDo;
 
-	@Selection(options = { @Option(value = "5", text = "5 Items"), @Option(value = "10", text = "10 Items") }, type = Selection.SELECT)
+	@Selection(options = { @Option(value = "5", text = "5 Items"), @Option(value = "10", text = "10 Items") },
+		type = Selection.SELECT)
 	@DialogField(fieldLabel = "Things To Do Tab Size", defaultValue = Constants.TAB_SIZE_10, tab = 2)
 	private final String thingsToDoTabSize;
 
@@ -70,7 +73,8 @@ public final class WhatYouCanSee {
 	@DialogField(fieldLabel = "Optional Tab Title", tab = 3)
 	private final String optionalTabTitle;
 
-	@Selection(options = { @Option(value = "5", text = "5 Items"), @Option(value = "10", text = "10 Items") }, type = Selection.SELECT)
+	@Selection(options = { @Option(value = "5", text = "5 Items"), @Option(value = "10", text = "10 Items") },
+		type = Selection.SELECT)
 	@DialogField(fieldLabel = "Optional Tab Size", defaultValue = Constants.TAB_SIZE_10, tab = 3, listeners = {
 		@Listener(name = "selectionchanged", value = Constants.SIZE_CHANGE_LISTENER),
 		@Listener(name = "afterlayout", value = Constants.SIZE_CHANGE_LISTENER) })

@@ -11,8 +11,10 @@ import com.citytechinc.cq.component.annotations.DialogField;
 import com.citytechinc.cq.component.annotations.Tab;
 import com.citytechinc.cq.component.annotations.widgets.DialogFieldSet;
 
+
 @Component(value = "Explore", disableTargeting = true, dialogHeight = 500, tabs = { @Tab(title = "Tab 1"),
 	@Tab(title = "Tab 2"), @Tab(title = "Tab 3"), @Tab(title = "Tab 4"), @Tab(title = "Tab 5") })
+
 public class Explore {
 
 	private static final String TABx = "tab%d/";
@@ -97,6 +99,7 @@ public class Explore {
 	private final List<Category> tabs;
 
 	public Explore(SlingHttpServletRequest request) {
+
 		tabs = new ArrayList<Category>();
 		tab1 = initTab(1, request);
 		tab1card1 = initCard(1, 1, request);

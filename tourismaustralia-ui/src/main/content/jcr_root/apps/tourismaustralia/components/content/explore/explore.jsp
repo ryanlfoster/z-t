@@ -12,7 +12,7 @@
 		</div>
 		<div class="l-center-640 type-center">
 			<p class="type-intro">
-				Make Sydney where your adventure begins. World-heritage natural wonders, world-class wine regions, and the world’s most stunning beaches are just over the horizon.
+				Make Sydney where your adventure begins. World-heritage natural wonders, world-class wine regions, and the world's most stunning beaches are just over the horizon.
 			</p>
 		</div>
 	</div>
@@ -37,12 +37,14 @@
 		<div class="section-buttons-desktop">
 			<c:forEach items="${explore.tabs}" var="tab">
 				<c:if test="${tab.hasTitle}">
+
 					<a class="btn-bubble btn-bubble-min-width btn-category-extra-space" data-aus-tab="${tab.title}">
 						<span class="btn-bubble-button">
 							<img class="btn-bubble-std" src="<c:url value='${tab.iconImagePath}'/>" alt=""/>
 							<img class="btn-bubble-active" src="<c:url value='${tab.selectedImagePath}'/>" alt=""/>
 						</span>
-							<span class="type-below-btn"><c:out value="${tab.title}"/>
+						<span class="type-below-btn">
+							<c:out value="${tab.title}"/>
 						</span>
 					</a>
 				</c:if>
@@ -54,6 +56,7 @@
 	<div class="carousel-center-container" data-aus-show-tab="${tab.title}">
 	<div class="carousel-owl-mobile-fill">
 	<div id="carousel" class="owl-carousel owl-theme">
+
     <%-- Tab 1 Carousel --%>
 	<c:forEach items="${tab.cards}" var="card">
 	<div class="carousel-item">

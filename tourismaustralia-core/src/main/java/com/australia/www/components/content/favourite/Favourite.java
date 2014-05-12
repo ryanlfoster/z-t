@@ -21,5 +21,4 @@ public class Favourite {
 	public String getPagePath() {
 		return pagePath;
 	}
-
 }

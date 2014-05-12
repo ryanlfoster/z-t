@@ -44,7 +44,7 @@ $module-spacing-lg : 90px!important;
     }
   }
 
-  //First Paragraph next to any element in "Content Of Page's"  first level:
+  /*First Paragraph next to any element in "Content Of Page's"  first level:
   .styleguide #{$page-class-name} > *:not(p) + p{
     margin-top: $module-spacing-sm;
     margin-bottom: $paragraph-spacing-sm;
@@ -62,8 +62,8 @@ $module-spacing-lg : 90px!important;
       margin-bottom: $paragraph-spacing-lg;
     }
   }
-
-  //Element Next to last paragraph in "Content Of Page's"  first level:
+*/
+  /*Element Next to last paragraph in "Content Of Page's"  first level:
   .styleguide #{$page-class-name} > p + *:not(p){
     margin-top: $module-spacing-sm;
     margin-bottom: $module-spacing-sm;
@@ -80,7 +80,7 @@ $module-spacing-lg : 90px!important;
       margin-top: $module-spacing-lg;
       margin-bottom: $module-spacing-lg;
     }
-  }
+  }*/
 
   //Element That are not p tag in "Content Of Page's" in first level:
   .styleguide #{$page-class-name} > *:not(p){
@@ -122,7 +122,7 @@ $module-spacing-lg : 90px!important;
 
   //First Element of "Content Of Page's" in first level:
   .styleguide #{$page-class-name} > *:first-child{
-    margin-top: 0!important;
+    //margin-top: 0!important;
   }
 
   //First Element of "Content Of Page's" in first level:
@@ -132,7 +132,7 @@ $module-spacing-lg : 90px!important;
 
   //IE8 Hack First Element of "Content Of Page's" in first level:
   .lt-ie9 .styleguide #{$page-class-name} > div:first-child{
-    margin-top: 0!important;
+    //margin-top: 0!important;
   }
 
   //IE8 Hack [Does not work, see next class]  Last Element of "Content Of Page's" in first level:
@@ -160,3 +160,5 @@ $module-spacing-lg : 90px!important;
 @include spacing-page-modules('.paragraph-article');
 @include spacing-page-modules('.paragraph-home');
 @include spacing-page-modules('.paragraph-state');
+
+

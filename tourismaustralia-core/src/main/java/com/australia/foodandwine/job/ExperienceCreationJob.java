@@ -148,8 +148,6 @@ public class ExperienceCreationJob implements Runnable {
 			formProperties.get("businessName", String.class), true);
 		Resource contentResource = experiencePage.getContentResource();
 		ModifiableValueMap contentResourceProperties = contentResource.adaptTo(ModifiableValueMap.class);
-		contentResourceProperties.put(JcrConstants.JCR_DESCRIPTION,
-			formProperties.get("businessDescription", String.class));
 		contentResourceProperties.put("articleDescription",formProperties.get("businessDescription", String.class));
 		resourceResolver.commit();
 

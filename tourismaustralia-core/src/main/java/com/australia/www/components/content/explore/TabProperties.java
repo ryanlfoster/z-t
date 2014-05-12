@@ -60,13 +60,17 @@ public class TabProperties {
 	}
 
 	public void setPage(String path, Resource resource) {
+		pagePath = path;
 		if (resource != null && StringUtils.isNotBlank(path)) {
-			pagePath = path;
-
 			Resource pageResource = resource.getResourceResolver().resolve(path);
 			content = Content.fromResource(pageResource);
 		} else {
 			content = null;
 		}
 	}
+
+	public boolean isValid() {
+		return pagePath != null && !pagePath.trim().isEmpty();
+	}
+
 }

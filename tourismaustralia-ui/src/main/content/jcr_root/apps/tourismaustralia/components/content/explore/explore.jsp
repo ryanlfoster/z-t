@@ -12,7 +12,7 @@
 		</div>
 		<div class="l-center-640 type-center">
 			<p class="type-intro">
-				Make Sydney where your adventure begins. World-heritage natural wonders, world-class wine regions, and the world’s most stunning beaches are just over the horizon.
+				Make Sydney where your adventure begins. World-heritage natural wonders, world-class wine regions, and the world's most stunning beaches are just over the horizon.
 			</p>
 		</div>
 	</div>

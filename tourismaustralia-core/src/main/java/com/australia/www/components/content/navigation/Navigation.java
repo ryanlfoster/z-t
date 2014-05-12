@@ -1,7 +1,14 @@
 package com.australia.www.components.content.navigation;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import org.apache.commons.lang.StringUtils;
+import org.apache.sling.api.SlingHttpServletRequest;
+import org.apache.sling.api.resource.Resource;
+import org.apache.sling.api.resource.ValueMap;
+
 import com.australia.utils.LinkUtils;
-import com.australia.utils.PathUtils;
 import com.australia.widgets.multicomposite.MultiCompositeField;
 import com.australia.www.link.MosaicLink;
 import com.australia.www.link.MosaicThemeLink;
@@ -11,30 +18,20 @@ import com.citytechinc.cq.component.annotations.DialogField;
 import com.citytechinc.cq.component.annotations.Listener;
 import com.citytechinc.cq.component.annotations.Tab;
 import com.citytechinc.cq.component.annotations.widgets.PathField;
-
 import com.day.cq.wcm.api.Page;
 import com.day.cq.wcm.api.PageManager;
-import org.apache.commons.lang.StringUtils;
-import org.apache.sling.api.SlingHttpServletRequest;
-import org.apache.sling.api.resource.ValueMap;
-import org.apache.sling.api.resource.Resource;
-
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Created by wma on 28/04/2014.
  */
-@Component(value = "Navigation", dialogWidth = 600, disableTargeting = true, group = ".hidden",
-	tabs = { @Tab(title = "Arrival Bar"), @Tab(title = "Navigation Bar"), @Tab(title = "Megamenu 1"),
-		@Tab(title = "Megamenu 2"), @Tab(title = "Megamenu 3") }, listeners = {
+@Component(value = "Navigation", dialogWidth = 600, disableTargeting = true, group = ".hidden", tabs = {
+	@Tab(title = "Arrival Bar"), @Tab(title = "Navigation Bar"), @Tab(title = "Megamenu 1"),
+	@Tab(title = "Megamenu 2"), @Tab(title = "Megamenu 3") }, listeners = {
 	@Listener(name = "aftercopy", value = "REFRESH_PAGE"), @Listener(name = "afterdelete", value = "REFRESH_PAGE"),
 	@Listener(name = "afteredit", value = "REFRESH_PAGE"), @Listener(name = "afterinsert", value = "REFRESH_PAGE") })
 public class Navigation {
 
-	@DialogField(fieldLabel = "Find Out More Link",
-		fieldDescription = "For external links please use prefix http:// or https:// (eg. http://www.google.com)",
-		required = false, tab = 1)
+	@DialogField(fieldLabel = "Find Out More Link", fieldDescription = "For external links please use prefix http:// or https:// (eg. http://www.google.com)", required = false, tab = 1)
 	@PathField(rootPath = "/content")
 	private String findOutMoreLink;
 
@@ -44,9 +41,7 @@ public class Navigation {
 	@DialogField(fieldLabel = "Arrival Bar Link 1 Mobile Text", required = false, tab = 1)
 	private String arrivalBarLink1MobileText;
 
-	@DialogField(fieldLabel = "Arrival Bar Link 1",
-		fieldDescription = "For external links please use prefix http:// or https:// (eg. http://www.google.com)",
-		required = false, tab = 1)
+	@DialogField(fieldLabel = "Arrival Bar Link 1", fieldDescription = "For external links please use prefix http:// or https:// (eg. http://www.google.com)", required = false, tab = 1)
 	@PathField(rootPath = "/content")
 	private String arrivalBarLink1;
 
@@ -56,46 +51,32 @@ public class Navigation {
 	@DialogField(fieldLabel = "Arrival Bar Link 2 Mobile Text", required = false, tab = 1)
 	private String arrivalBarLink2MobileText;
 
-	@DialogField(fieldLabel = "Arrival Bar Link 2",
-		fieldDescription = "For external links please use prefix http:// or https:// (eg. http://www.google.com)",
-		required = false, tab = 1)
+	@DialogField(fieldLabel = "Arrival Bar Link 2", fieldDescription = "For external links please use prefix http:// or https:// (eg. http://www.google.com)", required = false, tab = 1)
 	@PathField(rootPath = "/content")
 	private String arrivalBarLink2;
 
-	@DialogField(fieldLabel = "Search Page Path", fieldDescription = "Location of search page", required = true,
-		tab = 2)
+	@DialogField(fieldLabel = "Search Page Path", fieldDescription = "Location of search page", required = true, tab = 2)
 	@PathField(rootPath = "/content")
 	private String searchPagePath;
 
-	@DialogField(fieldLabel = "Search Placeholder Text", fieldDescription = "Placeholder text for search",
-		required = true, tab = 2)
+	@DialogField(fieldLabel = "Search Placeholder Text", fieldDescription = "Placeholder text for search", required = true, tab = 2)
 	private String searchPlaceholderText;
 
-	@DialogField(fieldLabel = "Map Link",
-		fieldDescription = "For external links please use prefix http:// or https:// (eg. http://www.google.com)",
-		required = false, tab = 2)
+	@DialogField(fieldLabel = "Map Link", fieldDescription = "For external links please use prefix http:// or https:// (eg. http://www.google.com)", required = false, tab = 2)
 	@PathField(rootPath = "/content")
 	private String mapLink;
 
-	@DialogField(fieldLabel = "My Trip Link",
-		fieldDescription = "For external links please use prefix http:// or https:// (eg. http://www.google.com)",
-		required = false, tab = 2)
+	@DialogField(fieldLabel = "My Trip Link", fieldDescription = "For external links please use prefix http:// or https:// (eg. http://www.google.com)", required = false, tab = 2)
 	@PathField(rootPath = "/content")
 	private String myTripLink;
 
-	@DialogField(fieldLabel = "Megamenu 1 Title",
-		fieldDescription = "Required to activate panel, if there's no title, the panel will not be hidden",
-		required = false, tab = 2)
+	@DialogField(fieldLabel = "Megamenu 1 Title", fieldDescription = "Required to activate panel, if there's no title, the panel will not be hidden", required = false, tab = 2)
 	private String megamenu1Title;
 
-	@DialogField(fieldLabel = "Megamenu 2 Title",
-		fieldDescription = "Required to activate panel, if there's no title, the panel will not be hidden",
-		required = false, tab = 2)
+	@DialogField(fieldLabel = "Megamenu 2 Title", fieldDescription = "Required to activate panel, if there's no title, the panel will not be hidden", required = false, tab = 2)
 	private String megamenu2Title;
 
-	@DialogField(fieldLabel = "Megamenu 3 Title",
-		fieldDescription = "Required to activate panel, if there's no title, the panel will not be hidden",
-		required = false, tab = 2)
+	@DialogField(fieldLabel = "Megamenu 3 Title", fieldDescription = "Required to activate panel, if there's no title, the panel will not be hidden", required = false, tab = 2)
 	private String megamenu3Title;
 
 	@DialogField(fieldLabel = "LHS Category Title", required = false, tab = 3)
@@ -108,8 +89,7 @@ public class Navigation {
 	@DialogField(fieldLabel = "RHS Category Title", required = false, tab = 3)
 	private String megamenu1RhsCategoryTitle;
 
-	@DialogField(fieldLabel = "RHS Mosaic Links",
-		fieldDescription = "For each row of LHS tiles, a row of RHS tiles will be displayed", tab = 3)
+	@DialogField(fieldLabel = "RHS Mosaic Links", fieldDescription = "For each row of LHS tiles, a row of RHS tiles will be displayed", tab = 3)
 	@MultiCompositeField
 	private List<MosaicLink> megamenu1RhsMosaicLinks;
 
@@ -144,8 +124,7 @@ public class Navigation {
 	@DialogField(fieldLabel = "RHS Category Title", required = false, tab = 5)
 	private String megamenu3RhsCategoryTitle;
 
-	@DialogField(fieldLabel = "RHS Mosaic Links",
-		fieldDescription = "For each row of LHS tiles, a row of RHS tiles will be displayed", tab = 5)
+	@DialogField(fieldLabel = "RHS Mosaic Links", fieldDescription = "For each row of LHS tiles, a row of RHS tiles will be displayed", tab = 5)
 	@MultiCompositeField
 	private List<MosaicLink> megamenu3RhsMosaicLinks;
 

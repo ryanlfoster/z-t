@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -13,11 +12,13 @@ import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for con_NewsType complex type.
+ * <p>
+ * Java class for con_NewsType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="con_NewsType">
@@ -34,36 +35,30 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "con_NewsType", propOrder = {
-    "homepageNewsHolder"
-})
+@XmlType(name = "con_NewsType", propOrder = { "homepageNewsHolder" })
 public class ConNewsType {
 
-    @XmlElement(name = "HomepageNewsHolder", required = true)
-    protected HomepageNewsHolderType homepageNewsHolder;
+	@XmlElement(name = "HomepageNewsHolder", required = true)
+	protected HomepageNewsHolderType homepageNewsHolder;
 
-    /**
-     * Gets the value of the homepageNewsHolder property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link HomepageNewsHolderType }
-     *     
-     */
-    public HomepageNewsHolderType getHomepageNewsHolder() {
-        return homepageNewsHolder;
-    }
+	/**
+	 * Gets the value of the homepageNewsHolder property.
+	 * 
+	 * @return possible object is {@link HomepageNewsHolderType }
+	 * 
+	 */
+	public HomepageNewsHolderType getHomepageNewsHolder() {
+		return homepageNewsHolder;
+	}
 
-    /**
-     * Sets the value of the homepageNewsHolder property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link HomepageNewsHolderType }
-     *     
-     */
-    public void setHomepageNewsHolder(HomepageNewsHolderType value) {
-        this.homepageNewsHolder = value;
-    }
+	/**
+	 * Sets the value of the homepageNewsHolder property.
+	 * 
+	 * @param value allowed object is {@link HomepageNewsHolderType }
+	 * 
+	 */
+	public void setHomepageNewsHolder(HomepageNewsHolderType value) {
+		this.homepageNewsHolder = value;
+	}
 
 }

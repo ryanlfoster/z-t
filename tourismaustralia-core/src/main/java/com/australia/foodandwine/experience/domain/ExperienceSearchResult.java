@@ -5,16 +5,17 @@ import java.util.Map;
 
 public class ExperienceSearchResult {
 	private final List<Experience> experiences;
-	private final Map<String,List<Experience> > articleMap;
+	private final Map<String, List<Experience>> articleMap;
 	private final long totalCount;
 	private final int page;
 
-	public ExperienceSearchResult(List<Experience> experiences,Map<String,List<Experience> > articleMap, long totalCount, int page) {
+	public ExperienceSearchResult(List<Experience> experiences, Map<String, List<Experience>> articleMap,
+		long totalCount, int page) {
 		this.experiences = experiences;
 		this.totalCount = totalCount;
 		this.page = page;
-		this.articleMap=articleMap;
-		
+		this.articleMap = articleMap;
+
 	}
 
 	public Map<String, List<Experience>> getArticleMap() {

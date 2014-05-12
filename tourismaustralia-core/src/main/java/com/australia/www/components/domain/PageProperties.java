@@ -26,8 +26,7 @@ public class PageProperties {
 		}
 
 		Resource imageRes = page.getContentResource("image");
-		if (imageRes != null)
-		{
+		if (imageRes != null) {
 			Image pageImage = new Image(imageRes);
 			pageImagePath = pageImage.getFileReference();
 		}

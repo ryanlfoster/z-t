@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -14,11 +13,13 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for HomepageNewsHolderType complex type.
+ * <p>
+ * Java class for HomepageNewsHolderType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="HomepageNewsHolderType">
@@ -38,116 +39,96 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "HomepageNewsHolderType", propOrder = {
-    "ancManagementPage",
-    "ancVideoManagementPage",
-    "conNewsItems"
-})
+@XmlType(name = "HomepageNewsHolderType", propOrder = { "ancManagementPage", "ancVideoManagementPage", "conNewsItems" })
 public class HomepageNewsHolderType {
 
-    @XmlElement(name = "anc_ManagementPage", required = true)
-    protected String ancManagementPage;
-    @XmlElement(name = "anc_VideoManagementPage", required = true)
-    protected String ancVideoManagementPage;
-    @XmlElement(name = "con_NewsItems", required = true)
-    protected ConNewsItemsType conNewsItems;
-    @XmlAttribute(name = "isTemplate")
-    protected Byte isTemplate;
+	@XmlElement(name = "anc_ManagementPage", required = true)
+	protected String ancManagementPage;
+	@XmlElement(name = "anc_VideoManagementPage", required = true)
+	protected String ancVideoManagementPage;
+	@XmlElement(name = "con_NewsItems", required = true)
+	protected ConNewsItemsType conNewsItems;
+	@XmlAttribute(name = "isTemplate")
+	protected Byte isTemplate;
 
-    /**
-     * Gets the value of the ancManagementPage property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getAncManagementPage() {
-        return ancManagementPage;
-    }
+	/**
+	 * Gets the value of the ancManagementPage property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getAncManagementPage() {
+		return ancManagementPage;
+	}
 
-    /**
-     * Sets the value of the ancManagementPage property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setAncManagementPage(String value) {
-        this.ancManagementPage = value;
-    }
+	/**
+	 * Sets the value of the ancManagementPage property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setAncManagementPage(String value) {
+		this.ancManagementPage = value;
+	}
 
-    /**
-     * Gets the value of the ancVideoManagementPage property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getAncVideoManagementPage() {
-        return ancVideoManagementPage;
-    }
+	/**
+	 * Gets the value of the ancVideoManagementPage property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getAncVideoManagementPage() {
+		return ancVideoManagementPage;
+	}
 
-    /**
-     * Sets the value of the ancVideoManagementPage property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setAncVideoManagementPage(String value) {
-        this.ancVideoManagementPage = value;
-    }
+	/**
+	 * Sets the value of the ancVideoManagementPage property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setAncVideoManagementPage(String value) {
+		this.ancVideoManagementPage = value;
+	}
 
-    /**
-     * Gets the value of the conNewsItems property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link ConNewsItemsType }
-     *     
-     */
-    public ConNewsItemsType getConNewsItems() {
-        return conNewsItems;
-    }
+	/**
+	 * Gets the value of the conNewsItems property.
+	 * 
+	 * @return possible object is {@link ConNewsItemsType }
+	 * 
+	 */
+	public ConNewsItemsType getConNewsItems() {
+		return conNewsItems;
+	}
 
-    /**
-     * Sets the value of the conNewsItems property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link ConNewsItemsType }
-     *     
-     */
-    public void setConNewsItems(ConNewsItemsType value) {
-        this.conNewsItems = value;
-    }
+	/**
+	 * Sets the value of the conNewsItems property.
+	 * 
+	 * @param value allowed object is {@link ConNewsItemsType }
+	 * 
+	 */
+	public void setConNewsItems(ConNewsItemsType value) {
+		this.conNewsItems = value;
+	}
 
-    /**
-     * Gets the value of the isTemplate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Byte }
-     *     
-     */
-    public Byte getIsTemplate() {
-        return isTemplate;
-    }
+	/**
+	 * Gets the value of the isTemplate property.
+	 * 
+	 * @return possible object is {@link Byte }
+	 * 
+	 */
+	public Byte getIsTemplate() {
+		return isTemplate;
+	}
 
-    /**
-     * Sets the value of the isTemplate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Byte }
-     *     
-     */
-    public void setIsTemplate(Byte value) {
-        this.isTemplate = value;
-    }
+	/**
+	 * Sets the value of the isTemplate property.
+	 * 
+	 * @param value allowed object is {@link Byte }
+	 * 
+	 */
+	public void setIsTemplate(Byte value) {
+		this.isTemplate = value;
+	}
 
 }

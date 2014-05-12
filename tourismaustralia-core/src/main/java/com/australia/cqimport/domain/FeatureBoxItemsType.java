@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -14,11 +13,13 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for FeatureBoxItemsType complex type.
+ * <p>
+ * Java class for FeatureBoxItemsType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="FeatureBoxItemsType">
@@ -48,386 +49,318 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "FeatureBoxItemsType", propOrder = {
-    "ancInternalLink",
-    "imgBackgroundImg",
-    "imgMap",
-    "optIsExternalLink",
-    "optRandom",
-    "stfAltTag",
-    "stfExternalLink",
-    "stfFeatureTrackingTitle",
-    "stfLinkText",
-    "stfMapAltTag",
-    "stfTitle",
-    "stfTrackingEvent",
-    "txtText"
-})
+@XmlType(name = "FeatureBoxItemsType", propOrder = { "ancInternalLink", "imgBackgroundImg", "imgMap",
+	"optIsExternalLink", "optRandom", "stfAltTag", "stfExternalLink", "stfFeatureTrackingTitle", "stfLinkText",
+	"stfMapAltTag", "stfTitle", "stfTrackingEvent", "txtText" })
 public class FeatureBoxItemsType {
 
-    @XmlElement(name = "anc_InternalLink", required = true)
-    protected String ancInternalLink;
-    @XmlElement(name = "img_BackgroundImg", required = true)
-    protected String imgBackgroundImg;
-    @XmlElement(name = "img_Map", required = true)
-    protected String imgMap;
-    @XmlElement(name = "opt_isExternalLink", required = true)
-    protected String optIsExternalLink;
-    @XmlElement(name = "opt_Random", required = true)
-    protected String optRandom;
-    @XmlElement(name = "stf_AltTag", required = true)
-    protected String stfAltTag;
-    @XmlElement(name = "stf_externalLink", required = true)
-    protected String stfExternalLink;
-    @XmlElement(name = "stf_FeatureTrackingTitle", required = true)
-    protected String stfFeatureTrackingTitle;
-    @XmlElement(name = "stf_LinkText", required = true)
-    protected String stfLinkText;
-    @XmlElement(name = "stf_MapAltTag", required = true)
-    protected String stfMapAltTag;
-    @XmlElement(name = "stf_Title", required = true)
-    protected String stfTitle;
-    @XmlElement(name = "stf_TrackingEvent", required = true)
-    protected String stfTrackingEvent;
-    @XmlElement(name = "txt_Text", required = true)
-    protected String txtText;
-    @XmlAttribute(name = "isTemplate")
-    protected Byte isTemplate;
+	@XmlElement(name = "anc_InternalLink", required = true)
+	protected String ancInternalLink;
+	@XmlElement(name = "img_BackgroundImg", required = true)
+	protected String imgBackgroundImg;
+	@XmlElement(name = "img_Map", required = true)
+	protected String imgMap;
+	@XmlElement(name = "opt_isExternalLink", required = true)
+	protected String optIsExternalLink;
+	@XmlElement(name = "opt_Random", required = true)
+	protected String optRandom;
+	@XmlElement(name = "stf_AltTag", required = true)
+	protected String stfAltTag;
+	@XmlElement(name = "stf_externalLink", required = true)
+	protected String stfExternalLink;
+	@XmlElement(name = "stf_FeatureTrackingTitle", required = true)
+	protected String stfFeatureTrackingTitle;
+	@XmlElement(name = "stf_LinkText", required = true)
+	protected String stfLinkText;
+	@XmlElement(name = "stf_MapAltTag", required = true)
+	protected String stfMapAltTag;
+	@XmlElement(name = "stf_Title", required = true)
+	protected String stfTitle;
+	@XmlElement(name = "stf_TrackingEvent", required = true)
+	protected String stfTrackingEvent;
+	@XmlElement(name = "txt_Text", required = true)
+	protected String txtText;
+	@XmlAttribute(name = "isTemplate")
+	protected Byte isTemplate;
 
-    /**
-     * Gets the value of the ancInternalLink property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getAncInternalLink() {
-        return ancInternalLink;
-    }
+	/**
+	 * Gets the value of the ancInternalLink property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getAncInternalLink() {
+		return ancInternalLink;
+	}
 
-    /**
-     * Sets the value of the ancInternalLink property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setAncInternalLink(String value) {
-        this.ancInternalLink = value;
-    }
+	/**
+	 * Sets the value of the ancInternalLink property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setAncInternalLink(String value) {
+		this.ancInternalLink = value;
+	}
 
-    /**
-     * Gets the value of the imgBackgroundImg property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getImgBackgroundImg() {
-        return imgBackgroundImg;
-    }
+	/**
+	 * Gets the value of the imgBackgroundImg property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getImgBackgroundImg() {
+		return imgBackgroundImg;
+	}
 
-    /**
-     * Sets the value of the imgBackgroundImg property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setImgBackgroundImg(String value) {
-        this.imgBackgroundImg = value;
-    }
+	/**
+	 * Sets the value of the imgBackgroundImg property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setImgBackgroundImg(String value) {
+		this.imgBackgroundImg = value;
+	}
 
-    /**
-     * Gets the value of the imgMap property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getImgMap() {
-        return imgMap;
-    }
+	/**
+	 * Gets the value of the imgMap property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getImgMap() {
+		return imgMap;
+	}
 
-    /**
-     * Sets the value of the imgMap property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setImgMap(String value) {
-        this.imgMap = value;
-    }
+	/**
+	 * Sets the value of the imgMap property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setImgMap(String value) {
+		this.imgMap = value;
+	}
 
-    /**
-     * Gets the value of the optIsExternalLink property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getOptIsExternalLink() {
-        return optIsExternalLink;
-    }
+	/**
+	 * Gets the value of the optIsExternalLink property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getOptIsExternalLink() {
+		return optIsExternalLink;
+	}
 
-    /**
-     * Sets the value of the optIsExternalLink property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setOptIsExternalLink(String value) {
-        this.optIsExternalLink = value;
-    }
+	/**
+	 * Sets the value of the optIsExternalLink property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setOptIsExternalLink(String value) {
+		this.optIsExternalLink = value;
+	}
 
-    /**
-     * Gets the value of the optRandom property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getOptRandom() {
-        return optRandom;
-    }
+	/**
+	 * Gets the value of the optRandom property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getOptRandom() {
+		return optRandom;
+	}
 
-    /**
-     * Sets the value of the optRandom property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setOptRandom(String value) {
-        this.optRandom = value;
-    }
+	/**
+	 * Sets the value of the optRandom property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setOptRandom(String value) {
+		this.optRandom = value;
+	}
 
-    /**
-     * Gets the value of the stfAltTag property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfAltTag() {
-        return stfAltTag;
-    }
+	/**
+	 * Gets the value of the stfAltTag property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfAltTag() {
+		return stfAltTag;
+	}
 
-    /**
-     * Sets the value of the stfAltTag property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfAltTag(String value) {
-        this.stfAltTag = value;
-    }
+	/**
+	 * Sets the value of the stfAltTag property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfAltTag(String value) {
+		this.stfAltTag = value;
+	}
 
-    /**
-     * Gets the value of the stfExternalLink property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfExternalLink() {
-        return stfExternalLink;
-    }
+	/**
+	 * Gets the value of the stfExternalLink property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfExternalLink() {
+		return stfExternalLink;
+	}
 
-    /**
-     * Sets the value of the stfExternalLink property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfExternalLink(String value) {
-        this.stfExternalLink = value;
-    }
+	/**
+	 * Sets the value of the stfExternalLink property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfExternalLink(String value) {
+		this.stfExternalLink = value;
+	}
 
-    /**
-     * Gets the value of the stfFeatureTrackingTitle property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfFeatureTrackingTitle() {
-        return stfFeatureTrackingTitle;
-    }
+	/**
+	 * Gets the value of the stfFeatureTrackingTitle property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfFeatureTrackingTitle() {
+		return stfFeatureTrackingTitle;
+	}
 
-    /**
-     * Sets the value of the stfFeatureTrackingTitle property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfFeatureTrackingTitle(String value) {
-        this.stfFeatureTrackingTitle = value;
-    }
+	/**
+	 * Sets the value of the stfFeatureTrackingTitle property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfFeatureTrackingTitle(String value) {
+		this.stfFeatureTrackingTitle = value;
+	}
 
-    /**
-     * Gets the value of the stfLinkText property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfLinkText() {
-        return stfLinkText;
-    }
+	/**
+	 * Gets the value of the stfLinkText property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfLinkText() {
+		return stfLinkText;
+	}
 
-    /**
-     * Sets the value of the stfLinkText property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfLinkText(String value) {
-        this.stfLinkText = value;
-    }
+	/**
+	 * Sets the value of the stfLinkText property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfLinkText(String value) {
+		this.stfLinkText = value;
+	}
 
-    /**
-     * Gets the value of the stfMapAltTag property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfMapAltTag() {
-        return stfMapAltTag;
-    }
+	/**
+	 * Gets the value of the stfMapAltTag property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfMapAltTag() {
+		return stfMapAltTag;
+	}
 
-    /**
-     * Sets the value of the stfMapAltTag property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfMapAltTag(String value) {
-        this.stfMapAltTag = value;
-    }
+	/**
+	 * Sets the value of the stfMapAltTag property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfMapAltTag(String value) {
+		this.stfMapAltTag = value;
+	}
 
-    /**
-     * Gets the value of the stfTitle property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfTitle() {
-        return stfTitle;
-    }
+	/**
+	 * Gets the value of the stfTitle property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfTitle() {
+		return stfTitle;
+	}
 
-    /**
-     * Sets the value of the stfTitle property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfTitle(String value) {
-        this.stfTitle = value;
-    }
+	/**
+	 * Sets the value of the stfTitle property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfTitle(String value) {
+		this.stfTitle = value;
+	}
 
-    /**
-     * Gets the value of the stfTrackingEvent property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfTrackingEvent() {
-        return stfTrackingEvent;
-    }
+	/**
+	 * Gets the value of the stfTrackingEvent property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfTrackingEvent() {
+		return stfTrackingEvent;
+	}
 
-    /**
-     * Sets the value of the stfTrackingEvent property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfTrackingEvent(String value) {
-        this.stfTrackingEvent = value;
-    }
+	/**
+	 * Sets the value of the stfTrackingEvent property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfTrackingEvent(String value) {
+		this.stfTrackingEvent = value;
+	}
 
-    /**
-     * Gets the value of the txtText property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getTxtText() {
-        return txtText;
-    }
+	/**
+	 * Gets the value of the txtText property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getTxtText() {
+		return txtText;
+	}
 
-    /**
-     * Sets the value of the txtText property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setTxtText(String value) {
-        this.txtText = value;
-    }
+	/**
+	 * Sets the value of the txtText property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setTxtText(String value) {
+		this.txtText = value;
+	}
 
-    /**
-     * Gets the value of the isTemplate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Byte }
-     *     
-     */
-    public Byte getIsTemplate() {
-        return isTemplate;
-    }
+	/**
+	 * Gets the value of the isTemplate property.
+	 * 
+	 * @return possible object is {@link Byte }
+	 * 
+	 */
+	public Byte getIsTemplate() {
+		return isTemplate;
+	}
 
-    /**
-     * Sets the value of the isTemplate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Byte }
-     *     
-     */
-    public void setIsTemplate(Byte value) {
-        this.isTemplate = value;
-    }
+	/**
+	 * Sets the value of the isTemplate property.
+	 * 
+	 * @param value allowed object is {@link Byte }
+	 * 
+	 */
+	public void setIsTemplate(Byte value) {
+		this.isTemplate = value;
+	}
 
 }

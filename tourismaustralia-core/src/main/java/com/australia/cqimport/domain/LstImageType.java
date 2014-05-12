@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -13,11 +12,13 @@ import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for lst_imageType complex type.
+ * <p>
+ * Java class for lst_imageType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="lst_imageType">
@@ -39,171 +40,141 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "lst_imageType", propOrder = {
-    "url",
-    "imgPhoto",
-    "stfTitle",
-    "imgThumbnail",
-    "imgNewTab",
-    "imgNewTabRight"
-})
+@XmlType(name = "lst_imageType", propOrder = { "url", "imgPhoto", "stfTitle", "imgThumbnail", "imgNewTab",
+	"imgNewTabRight" })
 public class LstImageType {
 
-    @XmlElement(required = true)
-    protected String url;
-    @XmlElement(name = "img_photo", required = true)
-    protected String imgPhoto;
-    @XmlElement(name = "stf_title", required = true)
-    protected String stfTitle;
-    @XmlElement(name = "img_thumbnail", required = true)
-    protected String imgThumbnail;
-    @XmlElement(name = "img_NewTab", required = true)
-    protected String imgNewTab;
-    @XmlElement(name = "img_NewTabRight", required = true)
-    protected String imgNewTabRight;
+	@XmlElement(required = true)
+	protected String url;
+	@XmlElement(name = "img_photo", required = true)
+	protected String imgPhoto;
+	@XmlElement(name = "stf_title", required = true)
+	protected String stfTitle;
+	@XmlElement(name = "img_thumbnail", required = true)
+	protected String imgThumbnail;
+	@XmlElement(name = "img_NewTab", required = true)
+	protected String imgNewTab;
+	@XmlElement(name = "img_NewTabRight", required = true)
+	protected String imgNewTabRight;
 
-    /**
-     * Gets the value of the url property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getUrl() {
-        return url;
-    }
+	/**
+	 * Gets the value of the url property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getUrl() {
+		return url;
+	}
 
-    /**
-     * Sets the value of the url property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setUrl(String value) {
-        this.url = value;
-    }
+	/**
+	 * Sets the value of the url property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setUrl(String value) {
+		this.url = value;
+	}
 
-    /**
-     * Gets the value of the imgPhoto property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getImgPhoto() {
-        return imgPhoto;
-    }
+	/**
+	 * Gets the value of the imgPhoto property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getImgPhoto() {
+		return imgPhoto;
+	}
 
-    /**
-     * Sets the value of the imgPhoto property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setImgPhoto(String value) {
-        this.imgPhoto = value;
-    }
+	/**
+	 * Sets the value of the imgPhoto property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setImgPhoto(String value) {
+		this.imgPhoto = value;
+	}
 
-    /**
-     * Gets the value of the stfTitle property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfTitle() {
-        return stfTitle;
-    }
+	/**
+	 * Gets the value of the stfTitle property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfTitle() {
+		return stfTitle;
+	}
 
-    /**
-     * Sets the value of the stfTitle property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfTitle(String value) {
-        this.stfTitle = value;
-    }
+	/**
+	 * Sets the value of the stfTitle property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfTitle(String value) {
+		this.stfTitle = value;
+	}
 
-    /**
-     * Gets the value of the imgThumbnail property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getImgThumbnail() {
-        return imgThumbnail;
-    }
+	/**
+	 * Gets the value of the imgThumbnail property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getImgThumbnail() {
+		return imgThumbnail;
+	}
 
-    /**
-     * Sets the value of the imgThumbnail property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setImgThumbnail(String value) {
-        this.imgThumbnail = value;
-    }
+	/**
+	 * Sets the value of the imgThumbnail property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setImgThumbnail(String value) {
+		this.imgThumbnail = value;
+	}
 
-    /**
-     * Gets the value of the imgNewTab property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getImgNewTab() {
-        return imgNewTab;
-    }
+	/**
+	 * Gets the value of the imgNewTab property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getImgNewTab() {
+		return imgNewTab;
+	}
 
-    /**
-     * Sets the value of the imgNewTab property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setImgNewTab(String value) {
-        this.imgNewTab = value;
-    }
+	/**
+	 * Sets the value of the imgNewTab property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setImgNewTab(String value) {
+		this.imgNewTab = value;
+	}
 
-    /**
-     * Gets the value of the imgNewTabRight property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getImgNewTabRight() {
-        return imgNewTabRight;
-    }
+	/**
+	 * Gets the value of the imgNewTabRight property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getImgNewTabRight() {
+		return imgNewTabRight;
+	}
 
-    /**
-     * Sets the value of the imgNewTabRight property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setImgNewTabRight(String value) {
-        this.imgNewTabRight = value;
-    }
+	/**
+	 * Sets the value of the imgNewTabRight property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setImgNewTabRight(String value) {
+		this.imgNewTabRight = value;
+	}
 
 }

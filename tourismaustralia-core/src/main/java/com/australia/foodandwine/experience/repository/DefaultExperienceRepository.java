@@ -117,9 +117,9 @@ public class DefaultExperienceRepository implements ExperienceRepository {
 							&& page.getTemplate().getPath().equals("/apps/foodandwine/templates/articlepage")) {
 							String alphabet = StringUtils.EMPTY;
 							String articleTitle = StringUtils.EMPTY;
-								articleTitle = page.getTitle();
-								alphabet = page.getTitle();
-								alphabet =Character.toString(alphabet.charAt(0)).toUpperCase();
+							articleTitle = page.getTitle();
+							alphabet = page.getTitle();
+							alphabet = Character.toString(alphabet.charAt(0)).toUpperCase();
 							char charAt = articleTitle.charAt(0);
 							String charecter = Character.toString(charAt).toUpperCase();
 							if (alphabet.equalsIgnoreCase(charecter)) {

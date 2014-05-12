@@ -5,21 +5,23 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import java.util.ArrayList;
 import java.util.List;
+
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for con_FeatureBoxCountriesType complex type.
+ * <p>
+ * Java class for con_FeatureBoxCountriesType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="con_FeatureBoxCountriesType">
@@ -36,41 +38,40 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "con_FeatureBoxCountriesType", propOrder = {
-    "featureBoxCountryHolder"
-})
+@XmlType(name = "con_FeatureBoxCountriesType", propOrder = { "featureBoxCountryHolder" })
 public class ConFeatureBoxCountriesType {
 
-    @XmlElement(name = "FeatureBoxCountryHolder")
-    protected List<FeatureBoxCountryHolderType> featureBoxCountryHolder;
+	@XmlElement(name = "FeatureBoxCountryHolder")
+	protected List<FeatureBoxCountryHolderType> featureBoxCountryHolder;
 
-    /**
-     * Gets the value of the featureBoxCountryHolder property.
-     * 
-     * <p>
-     * This accessor method returns a reference to the live list,
-     * not a snapshot. Therefore any modification you make to the
-     * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the featureBoxCountryHolder property.
-     * 
-     * <p>
-     * For example, to add a new item, do as follows:
-     * <pre>
-     *    getFeatureBoxCountryHolder().add(newItem);
-     * </pre>
-     * 
-     * 
-     * <p>
-     * Objects of the following type(s) are allowed in the list
-     * {@link FeatureBoxCountryHolderType }
-     * 
-     * 
-     */
-    public List<FeatureBoxCountryHolderType> getFeatureBoxCountryHolder() {
-        if (featureBoxCountryHolder == null) {
-            featureBoxCountryHolder = new ArrayList<FeatureBoxCountryHolderType>();
-        }
-        return this.featureBoxCountryHolder;
-    }
+	/**
+	 * Gets the value of the featureBoxCountryHolder property.
+	 * 
+	 * <p>
+	 * This accessor method returns a reference to the live list, not a
+	 * snapshot. Therefore any modification you make to the returned list will
+	 * be present inside the JAXB object. This is why there is not a
+	 * <CODE>set</CODE> method for the featureBoxCountryHolder property.
+	 * 
+	 * <p>
+	 * For example, to add a new item, do as follows:
+	 * 
+	 * <pre>
+	 * getFeatureBoxCountryHolder().add(newItem);
+	 * </pre>
+	 * 
+	 * 
+	 * <p>
+	 * Objects of the following type(s) are allowed in the list
+	 * {@link FeatureBoxCountryHolderType }
+	 * 
+	 * 
+	 */
+	public List<FeatureBoxCountryHolderType> getFeatureBoxCountryHolder() {
+		if (featureBoxCountryHolder == null) {
+			featureBoxCountryHolder = new ArrayList<FeatureBoxCountryHolderType>();
+		}
+		return this.featureBoxCountryHolder;
+	}
 
 }

@@ -5,20 +5,22 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import java.util.ArrayList;
 import java.util.List;
+
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for breadcrumbType complex type.
+ * <p>
+ * Java class for breadcrumbType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="breadcrumbType">
@@ -35,40 +37,39 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "breadcrumbType", propOrder = {
-    "element"
-})
+@XmlType(name = "breadcrumbType", propOrder = { "element" })
 public class BreadcrumbType {
 
-    protected List<ElementType> element;
+	protected List<ElementType> element;
 
-    /**
-     * Gets the value of the element property.
-     * 
-     * <p>
-     * This accessor method returns a reference to the live list,
-     * not a snapshot. Therefore any modification you make to the
-     * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the element property.
-     * 
-     * <p>
-     * For example, to add a new item, do as follows:
-     * <pre>
-     *    getElement().add(newItem);
-     * </pre>
-     * 
-     * 
-     * <p>
-     * Objects of the following type(s) are allowed in the list
-     * {@link ElementType }
-     * 
-     * 
-     */
-    public List<ElementType> getElement() {
-        if (element == null) {
-            element = new ArrayList<ElementType>();
-        }
-        return this.element;
-    }
+	/**
+	 * Gets the value of the element property.
+	 * 
+	 * <p>
+	 * This accessor method returns a reference to the live list, not a
+	 * snapshot. Therefore any modification you make to the returned list will
+	 * be present inside the JAXB object. This is why there is not a
+	 * <CODE>set</CODE> method for the element property.
+	 * 
+	 * <p>
+	 * For example, to add a new item, do as follows:
+	 * 
+	 * <pre>
+	 * getElement().add(newItem);
+	 * </pre>
+	 * 
+	 * 
+	 * <p>
+	 * Objects of the following type(s) are allowed in the list
+	 * {@link ElementType }
+	 * 
+	 * 
+	 */
+	public List<ElementType> getElement() {
+		if (element == null) {
+			element = new ArrayList<ElementType>();
+		}
+		return this.element;
+	}
 
 }

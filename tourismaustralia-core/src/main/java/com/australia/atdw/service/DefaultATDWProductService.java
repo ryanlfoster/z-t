@@ -1,15 +1,16 @@
 package com.australia.atdw.service;
 
-import com.australia.atdw.domain.ATDWProductSearchParameters;
-import com.australia.atdw.domain.ATDWSearchResult;
-import com.australia.atdw.repository.ATDWProductRepository;
+import java.util.Date;
+import java.util.Map;
+import java.util.Set;
+
 import org.apache.felix.scr.annotations.Component;
 import org.apache.felix.scr.annotations.Reference;
 import org.apache.felix.scr.annotations.Service;
 
-import java.util.Date;
-import java.util.Map;
-import java.util.Set;
+import com.australia.atdw.domain.ATDWProductSearchParameters;
+import com.australia.atdw.domain.ATDWSearchResult;
+import com.australia.atdw.repository.ATDWProductRepository;
 
 @Component(label = "ATDW Product Service", description = "ATDW Product Service", immediate = true)
 @Service
@@ -27,7 +28,8 @@ public class DefaultATDWProductService implements ATDWProductService {
 		atdwRepo.deleteOldProducts(updatedBefore);
 	}
 
-	@Override public Map<String, Map<String, Set<String>>> getLocationMap() {
+	@Override
+	public Map<String, Map<String, Set<String>>> getLocationMap() {
 		return atdwRepo.getLocationMap();
 	}
 

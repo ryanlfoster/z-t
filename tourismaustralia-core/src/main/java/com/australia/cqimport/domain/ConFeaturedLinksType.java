@@ -5,21 +5,23 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import java.util.ArrayList;
 import java.util.List;
+
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for con_FeaturedLinksType complex type.
+ * <p>
+ * Java class for con_FeaturedLinksType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="con_FeaturedLinksType">
@@ -39,132 +41,127 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "con_FeaturedLinksType", propOrder = {
-    "beFeaturedOverlayTextGeneral",
-    "beListingItemLightbox",
-    "beDestinationListingItem",
-    "beListingItemNoLightbox"
-})
+@XmlType(name = "con_FeaturedLinksType", propOrder = { "beFeaturedOverlayTextGeneral", "beListingItemLightbox",
+	"beDestinationListingItem", "beListingItemNoLightbox" })
 public class ConFeaturedLinksType {
 
-    @XmlElement(name = "BEFeaturedOverlayTextGeneral")
-    protected List<BEFeaturedOverlayTextGeneralType> beFeaturedOverlayTextGeneral;
-    @XmlElement(name = "BEListingItemLightbox")
-    protected List<BEListingItemLightboxType> beListingItemLightbox;
-    @XmlElement(name = "BEDestinationListingItem")
-    protected List<BEDestinationListingItemType> beDestinationListingItem;
-    @XmlElement(name = "BEListingItemNoLightbox")
-    protected BEListingItemNoLightboxType beListingItemNoLightbox;
+	@XmlElement(name = "BEFeaturedOverlayTextGeneral")
+	protected List<BEFeaturedOverlayTextGeneralType> beFeaturedOverlayTextGeneral;
+	@XmlElement(name = "BEListingItemLightbox")
+	protected List<BEListingItemLightboxType> beListingItemLightbox;
+	@XmlElement(name = "BEDestinationListingItem")
+	protected List<BEDestinationListingItemType> beDestinationListingItem;
+	@XmlElement(name = "BEListingItemNoLightbox")
+	protected BEListingItemNoLightboxType beListingItemNoLightbox;
 
-    /**
-     * Gets the value of the beFeaturedOverlayTextGeneral property.
-     * 
-     * <p>
-     * This accessor method returns a reference to the live list,
-     * not a snapshot. Therefore any modification you make to the
-     * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the beFeaturedOverlayTextGeneral property.
-     * 
-     * <p>
-     * For example, to add a new item, do as follows:
-     * <pre>
-     *    getBEFeaturedOverlayTextGeneral().add(newItem);
-     * </pre>
-     * 
-     * 
-     * <p>
-     * Objects of the following type(s) are allowed in the list
-     * {@link BEFeaturedOverlayTextGeneralType }
-     * 
-     * 
-     */
-    public List<BEFeaturedOverlayTextGeneralType> getBEFeaturedOverlayTextGeneral() {
-        if (beFeaturedOverlayTextGeneral == null) {
-            beFeaturedOverlayTextGeneral = new ArrayList<BEFeaturedOverlayTextGeneralType>();
-        }
-        return this.beFeaturedOverlayTextGeneral;
-    }
+	/**
+	 * Gets the value of the beFeaturedOverlayTextGeneral property.
+	 * 
+	 * <p>
+	 * This accessor method returns a reference to the live list, not a
+	 * snapshot. Therefore any modification you make to the returned list will
+	 * be present inside the JAXB object. This is why there is not a
+	 * <CODE>set</CODE> method for the beFeaturedOverlayTextGeneral property.
+	 * 
+	 * <p>
+	 * For example, to add a new item, do as follows:
+	 * 
+	 * <pre>
+	 * getBEFeaturedOverlayTextGeneral().add(newItem);
+	 * </pre>
+	 * 
+	 * 
+	 * <p>
+	 * Objects of the following type(s) are allowed in the list
+	 * {@link BEFeaturedOverlayTextGeneralType }
+	 * 
+	 * 
+	 */
+	public List<BEFeaturedOverlayTextGeneralType> getBEFeaturedOverlayTextGeneral() {
+		if (beFeaturedOverlayTextGeneral == null) {
+			beFeaturedOverlayTextGeneral = new ArrayList<BEFeaturedOverlayTextGeneralType>();
+		}
+		return this.beFeaturedOverlayTextGeneral;
+	}
 
-    /**
-     * Gets the value of the beListingItemLightbox property.
-     * 
-     * <p>
-     * This accessor method returns a reference to the live list,
-     * not a snapshot. Therefore any modification you make to the
-     * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the beListingItemLightbox property.
-     * 
-     * <p>
-     * For example, to add a new item, do as follows:
-     * <pre>
-     *    getBEListingItemLightbox().add(newItem);
-     * </pre>
-     * 
-     * 
-     * <p>
-     * Objects of the following type(s) are allowed in the list
-     * {@link BEListingItemLightboxType }
-     * 
-     * 
-     */
-    public List<BEListingItemLightboxType> getBEListingItemLightbox() {
-        if (beListingItemLightbox == null) {
-            beListingItemLightbox = new ArrayList<BEListingItemLightboxType>();
-        }
-        return this.beListingItemLightbox;
-    }
+	/**
+	 * Gets the value of the beListingItemLightbox property.
+	 * 
+	 * <p>
+	 * This accessor method returns a reference to the live list, not a
+	 * snapshot. Therefore any modification you make to the returned list will
+	 * be present inside the JAXB object. This is why there is not a
+	 * <CODE>set</CODE> method for the beListingItemLightbox property.
+	 * 
+	 * <p>
+	 * For example, to add a new item, do as follows:
+	 * 
+	 * <pre>
+	 * getBEListingItemLightbox().add(newItem);
+	 * </pre>
+	 * 
+	 * 
+	 * <p>
+	 * Objects of the following type(s) are allowed in the list
+	 * {@link BEListingItemLightboxType }
+	 * 
+	 * 
+	 */
+	public List<BEListingItemLightboxType> getBEListingItemLightbox() {
+		if (beListingItemLightbox == null) {
+			beListingItemLightbox = new ArrayList<BEListingItemLightboxType>();
+		}
+		return this.beListingItemLightbox;
+	}
 
-    /**
-     * Gets the value of the beDestinationListingItem property.
-     * 
-     * <p>
-     * This accessor method returns a reference to the live list,
-     * not a snapshot. Therefore any modification you make to the
-     * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the beDestinationListingItem property.
-     * 
-     * <p>
-     * For example, to add a new item, do as follows:
-     * <pre>
-     *    getBEDestinationListingItem().add(newItem);
-     * </pre>
-     * 
-     * 
-     * <p>
-     * Objects of the following type(s) are allowed in the list
-     * {@link BEDestinationListingItemType }
-     * 
-     * 
-     */
-    public List<BEDestinationListingItemType> getBEDestinationListingItem() {
-        if (beDestinationListingItem == null) {
-            beDestinationListingItem = new ArrayList<BEDestinationListingItemType>();
-        }
-        return this.beDestinationListingItem;
-    }
+	/**
+	 * Gets the value of the beDestinationListingItem property.
+	 * 
+	 * <p>
+	 * This accessor method returns a reference to the live list, not a
+	 * snapshot. Therefore any modification you make to the returned list will
+	 * be present inside the JAXB object. This is why there is not a
+	 * <CODE>set</CODE> method for the beDestinationListingItem property.
+	 * 
+	 * <p>
+	 * For example, to add a new item, do as follows:
+	 * 
+	 * <pre>
+	 * getBEDestinationListingItem().add(newItem);
+	 * </pre>
+	 * 
+	 * 
+	 * <p>
+	 * Objects of the following type(s) are allowed in the list
+	 * {@link BEDestinationListingItemType }
+	 * 
+	 * 
+	 */
+	public List<BEDestinationListingItemType> getBEDestinationListingItem() {
+		if (beDestinationListingItem == null) {
+			beDestinationListingItem = new ArrayList<BEDestinationListingItemType>();
+		}
+		return this.beDestinationListingItem;
+	}
 
-    /**
-     * Gets the value of the beListingItemNoLightbox property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link BEListingItemNoLightboxType }
-     *     
-     */
-    public BEListingItemNoLightboxType getBEListingItemNoLightbox() {
-        return beListingItemNoLightbox;
-    }
+	/**
+	 * Gets the value of the beListingItemNoLightbox property.
+	 * 
+	 * @return possible object is {@link BEListingItemNoLightboxType }
+	 * 
+	 */
+	public BEListingItemNoLightboxType getBEListingItemNoLightbox() {
+		return beListingItemNoLightbox;
+	}
 
-    /**
-     * Sets the value of the beListingItemNoLightbox property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link BEListingItemNoLightboxType }
-     *     
-     */
-    public void setBEListingItemNoLightbox(BEListingItemNoLightboxType value) {
-        this.beListingItemNoLightbox = value;
-    }
+	/**
+	 * Sets the value of the beListingItemNoLightbox property.
+	 * 
+	 * @param value allowed object is {@link BEListingItemNoLightboxType }
+	 * 
+	 */
+	public void setBEListingItemNoLightbox(BEListingItemNoLightboxType value) {
+		this.beListingItemNoLightbox = value;
+	}
 
 }

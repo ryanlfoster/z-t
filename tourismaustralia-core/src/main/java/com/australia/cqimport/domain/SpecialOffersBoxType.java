@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -14,11 +13,13 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for SpecialOffersBoxType complex type.
+ * <p>
+ * Java class for SpecialOffersBoxType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="SpecialOffersBoxType">
@@ -49,413 +50,341 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "SpecialOffersBoxType", propOrder = {
-    "ancAccommodation",
-    "ancTravelAgentPage",
-    "conSpecialOffersCountry",
-    "hdlHeadline",
-    "imgAccommodation",
-    "imgTravelAgentImage",
-    "stfAccommodationHeading",
-    "stfAccommodationLinkText",
-    "stfAccommodationTrackingTitle",
-    "stfTravelAgentHeading",
-    "stfTravelAgentLinkText",
-    "stfTravelAgentTrackingTitle",
-    "txtAccommodation",
-    "txtTravelAgentText"
-})
+@XmlType(name = "SpecialOffersBoxType", propOrder = { "ancAccommodation", "ancTravelAgentPage",
+	"conSpecialOffersCountry", "hdlHeadline", "imgAccommodation", "imgTravelAgentImage", "stfAccommodationHeading",
+	"stfAccommodationLinkText", "stfAccommodationTrackingTitle", "stfTravelAgentHeading", "stfTravelAgentLinkText",
+	"stfTravelAgentTrackingTitle", "txtAccommodation", "txtTravelAgentText" })
 public class SpecialOffersBoxType {
 
-    @XmlElement(name = "anc_Accommodation", required = true)
-    protected String ancAccommodation;
-    @XmlElement(name = "anc_TravelAgentPage", required = true)
-    protected String ancTravelAgentPage;
-    @XmlElement(name = "con_SpecialOffersCountry", required = true)
-    protected ConSpecialOffersCountryType conSpecialOffersCountry;
-    @XmlElement(name = "hdl_Headline", required = true)
-    protected String hdlHeadline;
-    @XmlElement(name = "img_Accommodation", required = true)
-    protected String imgAccommodation;
-    @XmlElement(name = "img_TravelAgentImage", required = true)
-    protected String imgTravelAgentImage;
-    @XmlElement(name = "stf_AccommodationHeading", required = true)
-    protected String stfAccommodationHeading;
-    @XmlElement(name = "stf_AccommodationLinkText", required = true)
-    protected String stfAccommodationLinkText;
-    @XmlElement(name = "stf_AccommodationTrackingTitle", required = true)
-    protected String stfAccommodationTrackingTitle;
-    @XmlElement(name = "stf_TravelAgentHeading", required = true)
-    protected String stfTravelAgentHeading;
-    @XmlElement(name = "stf_TravelAgentLinkText", required = true)
-    protected String stfTravelAgentLinkText;
-    @XmlElement(name = "stf_TravelAgentTrackingTitle", required = true)
-    protected String stfTravelAgentTrackingTitle;
-    @XmlElement(name = "txt_Accommodation", required = true)
-    protected String txtAccommodation;
-    @XmlElement(name = "txt_TravelAgentText", required = true)
-    protected String txtTravelAgentText;
-    @XmlAttribute(name = "isTemplate")
-    protected Byte isTemplate;
+	@XmlElement(name = "anc_Accommodation", required = true)
+	protected String ancAccommodation;
+	@XmlElement(name = "anc_TravelAgentPage", required = true)
+	protected String ancTravelAgentPage;
+	@XmlElement(name = "con_SpecialOffersCountry", required = true)
+	protected ConSpecialOffersCountryType conSpecialOffersCountry;
+	@XmlElement(name = "hdl_Headline", required = true)
+	protected String hdlHeadline;
+	@XmlElement(name = "img_Accommodation", required = true)
+	protected String imgAccommodation;
+	@XmlElement(name = "img_TravelAgentImage", required = true)
+	protected String imgTravelAgentImage;
+	@XmlElement(name = "stf_AccommodationHeading", required = true)
+	protected String stfAccommodationHeading;
+	@XmlElement(name = "stf_AccommodationLinkText", required = true)
+	protected String stfAccommodationLinkText;
+	@XmlElement(name = "stf_AccommodationTrackingTitle", required = true)
+	protected String stfAccommodationTrackingTitle;
+	@XmlElement(name = "stf_TravelAgentHeading", required = true)
+	protected String stfTravelAgentHeading;
+	@XmlElement(name = "stf_TravelAgentLinkText", required = true)
+	protected String stfTravelAgentLinkText;
+	@XmlElement(name = "stf_TravelAgentTrackingTitle", required = true)
+	protected String stfTravelAgentTrackingTitle;
+	@XmlElement(name = "txt_Accommodation", required = true)
+	protected String txtAccommodation;
+	@XmlElement(name = "txt_TravelAgentText", required = true)
+	protected String txtTravelAgentText;
+	@XmlAttribute(name = "isTemplate")
+	protected Byte isTemplate;
 
-    /**
-     * Gets the value of the ancAccommodation property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getAncAccommodation() {
-        return ancAccommodation;
-    }
+	/**
+	 * Gets the value of the ancAccommodation property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getAncAccommodation() {
+		return ancAccommodation;
+	}
 
-    /**
-     * Sets the value of the ancAccommodation property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setAncAccommodation(String value) {
-        this.ancAccommodation = value;
-    }
+	/**
+	 * Sets the value of the ancAccommodation property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setAncAccommodation(String value) {
+		this.ancAccommodation = value;
+	}
 
-    /**
-     * Gets the value of the ancTravelAgentPage property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getAncTravelAgentPage() {
-        return ancTravelAgentPage;
-    }
+	/**
+	 * Gets the value of the ancTravelAgentPage property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getAncTravelAgentPage() {
+		return ancTravelAgentPage;
+	}
 
-    /**
-     * Sets the value of the ancTravelAgentPage property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setAncTravelAgentPage(String value) {
-        this.ancTravelAgentPage = value;
-    }
+	/**
+	 * Sets the value of the ancTravelAgentPage property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setAncTravelAgentPage(String value) {
+		this.ancTravelAgentPage = value;
+	}
 
-    /**
-     * Gets the value of the conSpecialOffersCountry property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link ConSpecialOffersCountryType }
-     *     
-     */
-    public ConSpecialOffersCountryType getConSpecialOffersCountry() {
-        return conSpecialOffersCountry;
-    }
+	/**
+	 * Gets the value of the conSpecialOffersCountry property.
+	 * 
+	 * @return possible object is {@link ConSpecialOffersCountryType }
+	 * 
+	 */
+	public ConSpecialOffersCountryType getConSpecialOffersCountry() {
+		return conSpecialOffersCountry;
+	}
 
-    /**
-     * Sets the value of the conSpecialOffersCountry property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link ConSpecialOffersCountryType }
-     *     
-     */
-    public void setConSpecialOffersCountry(ConSpecialOffersCountryType value) {
-        this.conSpecialOffersCountry = value;
-    }
+	/**
+	 * Sets the value of the conSpecialOffersCountry property.
+	 * 
+	 * @param value allowed object is {@link ConSpecialOffersCountryType }
+	 * 
+	 */
+	public void setConSpecialOffersCountry(ConSpecialOffersCountryType value) {
+		this.conSpecialOffersCountry = value;
+	}
 
-    /**
-     * Gets the value of the hdlHeadline property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getHdlHeadline() {
-        return hdlHeadline;
-    }
+	/**
+	 * Gets the value of the hdlHeadline property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getHdlHeadline() {
+		return hdlHeadline;
+	}
 
-    /**
-     * Sets the value of the hdlHeadline property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setHdlHeadline(String value) {
-        this.hdlHeadline = value;
-    }
+	/**
+	 * Sets the value of the hdlHeadline property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setHdlHeadline(String value) {
+		this.hdlHeadline = value;
+	}
 
-    /**
-     * Gets the value of the imgAccommodation property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getImgAccommodation() {
-        return imgAccommodation;
-    }
+	/**
+	 * Gets the value of the imgAccommodation property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getImgAccommodation() {
+		return imgAccommodation;
+	}
 
-    /**
-     * Sets the value of the imgAccommodation property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setImgAccommodation(String value) {
-        this.imgAccommodation = value;
-    }
+	/**
+	 * Sets the value of the imgAccommodation property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setImgAccommodation(String value) {
+		this.imgAccommodation = value;
+	}
 
-    /**
-     * Gets the value of the imgTravelAgentImage property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getImgTravelAgentImage() {
-        return imgTravelAgentImage;
-    }
+	/**
+	 * Gets the value of the imgTravelAgentImage property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getImgTravelAgentImage() {
+		return imgTravelAgentImage;
+	}
 
-    /**
-     * Sets the value of the imgTravelAgentImage property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setImgTravelAgentImage(String value) {
-        this.imgTravelAgentImage = value;
-    }
+	/**
+	 * Sets the value of the imgTravelAgentImage property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setImgTravelAgentImage(String value) {
+		this.imgTravelAgentImage = value;
+	}
 
-    /**
-     * Gets the value of the stfAccommodationHeading property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfAccommodationHeading() {
-        return stfAccommodationHeading;
-    }
+	/**
+	 * Gets the value of the stfAccommodationHeading property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfAccommodationHeading() {
+		return stfAccommodationHeading;
+	}
 
-    /**
-     * Sets the value of the stfAccommodationHeading property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfAccommodationHeading(String value) {
-        this.stfAccommodationHeading = value;
-    }
+	/**
+	 * Sets the value of the stfAccommodationHeading property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfAccommodationHeading(String value) {
+		this.stfAccommodationHeading = value;
+	}
 
-    /**
-     * Gets the value of the stfAccommodationLinkText property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfAccommodationLinkText() {
-        return stfAccommodationLinkText;
-    }
+	/**
+	 * Gets the value of the stfAccommodationLinkText property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfAccommodationLinkText() {
+		return stfAccommodationLinkText;
+	}
 
-    /**
-     * Sets the value of the stfAccommodationLinkText property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfAccommodationLinkText(String value) {
-        this.stfAccommodationLinkText = value;
-    }
+	/**
+	 * Sets the value of the stfAccommodationLinkText property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfAccommodationLinkText(String value) {
+		this.stfAccommodationLinkText = value;
+	}
 
-    /**
-     * Gets the value of the stfAccommodationTrackingTitle property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfAccommodationTrackingTitle() {
-        return stfAccommodationTrackingTitle;
-    }
+	/**
+	 * Gets the value of the stfAccommodationTrackingTitle property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfAccommodationTrackingTitle() {
+		return stfAccommodationTrackingTitle;
+	}
 
-    /**
-     * Sets the value of the stfAccommodationTrackingTitle property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfAccommodationTrackingTitle(String value) {
-        this.stfAccommodationTrackingTitle = value;
-    }
+	/**
+	 * Sets the value of the stfAccommodationTrackingTitle property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfAccommodationTrackingTitle(String value) {
+		this.stfAccommodationTrackingTitle = value;
+	}
 
-    /**
-     * Gets the value of the stfTravelAgentHeading property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfTravelAgentHeading() {
-        return stfTravelAgentHeading;
-    }
+	/**
+	 * Gets the value of the stfTravelAgentHeading property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfTravelAgentHeading() {
+		return stfTravelAgentHeading;
+	}
 
-    /**
-     * Sets the value of the stfTravelAgentHeading property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfTravelAgentHeading(String value) {
-        this.stfTravelAgentHeading = value;
-    }
+	/**
+	 * Sets the value of the stfTravelAgentHeading property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfTravelAgentHeading(String value) {
+		this.stfTravelAgentHeading = value;
+	}
 
-    /**
-     * Gets the value of the stfTravelAgentLinkText property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfTravelAgentLinkText() {
-        return stfTravelAgentLinkText;
-    }
+	/**
+	 * Gets the value of the stfTravelAgentLinkText property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfTravelAgentLinkText() {
+		return stfTravelAgentLinkText;
+	}
 
-    /**
-     * Sets the value of the stfTravelAgentLinkText property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfTravelAgentLinkText(String value) {
-        this.stfTravelAgentLinkText = value;
-    }
+	/**
+	 * Sets the value of the stfTravelAgentLinkText property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfTravelAgentLinkText(String value) {
+		this.stfTravelAgentLinkText = value;
+	}
 
-    /**
-     * Gets the value of the stfTravelAgentTrackingTitle property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfTravelAgentTrackingTitle() {
-        return stfTravelAgentTrackingTitle;
-    }
+	/**
+	 * Gets the value of the stfTravelAgentTrackingTitle property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfTravelAgentTrackingTitle() {
+		return stfTravelAgentTrackingTitle;
+	}
 
-    /**
-     * Sets the value of the stfTravelAgentTrackingTitle property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfTravelAgentTrackingTitle(String value) {
-        this.stfTravelAgentTrackingTitle = value;
-    }
+	/**
+	 * Sets the value of the stfTravelAgentTrackingTitle property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfTravelAgentTrackingTitle(String value) {
+		this.stfTravelAgentTrackingTitle = value;
+	}
 
-    /**
-     * Gets the value of the txtAccommodation property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getTxtAccommodation() {
-        return txtAccommodation;
-    }
+	/**
+	 * Gets the value of the txtAccommodation property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getTxtAccommodation() {
+		return txtAccommodation;
+	}
 
-    /**
-     * Sets the value of the txtAccommodation property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setTxtAccommodation(String value) {
-        this.txtAccommodation = value;
-    }
+	/**
+	 * Sets the value of the txtAccommodation property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setTxtAccommodation(String value) {
+		this.txtAccommodation = value;
+	}
 
-    /**
-     * Gets the value of the txtTravelAgentText property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getTxtTravelAgentText() {
-        return txtTravelAgentText;
-    }
+	/**
+	 * Gets the value of the txtTravelAgentText property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getTxtTravelAgentText() {
+		return txtTravelAgentText;
+	}
 
-    /**
-     * Sets the value of the txtTravelAgentText property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setTxtTravelAgentText(String value) {
-        this.txtTravelAgentText = value;
-    }
+	/**
+	 * Sets the value of the txtTravelAgentText property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setTxtTravelAgentText(String value) {
+		this.txtTravelAgentText = value;
+	}
 
-    /**
-     * Gets the value of the isTemplate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Byte }
-     *     
-     */
-    public Byte getIsTemplate() {
-        return isTemplate;
-    }
+	/**
+	 * Gets the value of the isTemplate property.
+	 * 
+	 * @return possible object is {@link Byte }
+	 * 
+	 */
+	public Byte getIsTemplate() {
+		return isTemplate;
+	}
 
-    /**
-     * Sets the value of the isTemplate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Byte }
-     *     
-     */
-    public void setIsTemplate(Byte value) {
-        this.isTemplate = value;
-    }
+	/**
+	 * Sets the value of the isTemplate property.
+	 * 
+	 * @param value allowed object is {@link Byte }
+	 * 
+	 */
+	public void setIsTemplate(Byte value) {
+		this.isTemplate = value;
+	}
 
 }

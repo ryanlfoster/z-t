@@ -5,18 +5,19 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for lst_SubpageType complex type.
+ * <p>
+ * Java class for lst_SubpageType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="lst_SubpageType">
@@ -33,35 +34,29 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "lst_SubpageType", propOrder = {
-    "a"
-})
+@XmlType(name = "lst_SubpageType", propOrder = { "a" })
 public class LstSubpageType {
 
-    protected AType a;
+	protected AType a;
 
-    /**
-     * Gets the value of the a property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link AType }
-     *     
-     */
-    public AType getA() {
-        return a;
-    }
+	/**
+	 * Gets the value of the a property.
+	 * 
+	 * @return possible object is {@link AType }
+	 * 
+	 */
+	public AType getA() {
+		return a;
+	}
 
-    /**
-     * Sets the value of the a property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link AType }
-     *     
-     */
-    public void setA(AType value) {
-        this.a = value;
-    }
+	/**
+	 * Sets the value of the a property.
+	 * 
+	 * @param value allowed object is {@link AType }
+	 * 
+	 */
+	public void setA(AType value) {
+		this.a = value;
+	}
 
 }

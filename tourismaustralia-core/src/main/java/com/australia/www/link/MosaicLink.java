@@ -1,32 +1,25 @@
 package com.australia.www.link;
 
-import com.australia.utils.LinkUtils;
 import com.citytechinc.cq.component.annotations.DialogField;
 import com.citytechinc.cq.component.annotations.FieldProperty;
-import com.citytechinc.cq.component.annotations.Option;
 import com.citytechinc.cq.component.annotations.widgets.PathField;
-import com.citytechinc.cq.component.annotations.widgets.Selection;
 
 /**
  * Created by wma on 30/04/2014.
  */
 public class MosaicLink {
-	@DialogField(fieldLabel = "Link Text", required = true,
-		additionalProperties = @FieldProperty(name = "anchor", value = "100%"))
+	@DialogField(fieldLabel = "Link Text", required = true, additionalProperties = @FieldProperty(name = "anchor", value = "100%"))
 	private String linkText;
 
-	@DialogField(fieldLabel = "Link Path", required = true,
-		additionalProperties = @FieldProperty(name = "anchor", value = "100%"))
+	@DialogField(fieldLabel = "Link Path", required = true, additionalProperties = @FieldProperty(name = "anchor", value = "100%"))
 	@PathField(rootPath = "/content")
 	private String pagePath;
 
-	@DialogField(fieldLabel = "Image", fieldDescription = "Dimensions: 594px x 336px", required = true,
-		additionalProperties = @FieldProperty(name = "anchor", value = "100%"))
+	@DialogField(fieldLabel = "Image", fieldDescription = "Dimensions: 594px x 336px", required = true, additionalProperties = @FieldProperty(name = "anchor", value = "100%"))
 	@PathField(rootPath = "/content/dam")
 	private String image;
 
-	@DialogField(fieldLabel = "Icon Image", fieldDescription = "Dimensions: 51px x 51px", required = true,
-		additionalProperties = @FieldProperty(name = "anchor", value = "100%"))
+	@DialogField(fieldLabel = "Icon Image", fieldDescription = "Dimensions: 51px x 51px", required = true, additionalProperties = @FieldProperty(name = "anchor", value = "100%"))
 	@PathField(rootPath = "/content/dam")
 	private String iconImage;
 

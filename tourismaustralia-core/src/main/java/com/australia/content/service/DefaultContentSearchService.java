@@ -1,5 +1,22 @@
 package com.australia.content.service;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import javax.jcr.RepositoryException;
+import javax.jcr.Session;
+
+import org.apache.commons.lang3.StringUtils;
+import org.apache.felix.scr.annotations.Component;
+import org.apache.felix.scr.annotations.Reference;
+import org.apache.felix.scr.annotations.Service;
+import org.apache.sling.api.resource.LoginException;
+import org.apache.sling.api.resource.ResourceResolver;
+import org.apache.sling.api.resource.ResourceResolverFactory;
+import org.apache.sling.jcr.api.SlingRepository;
+
 import com.australia.content.domain.Content;
 import com.australia.content.domain.ContentSearchParameters;
 import com.australia.content.domain.ContentSearchResult;
@@ -12,21 +29,6 @@ import com.day.cq.search.result.Hit;
 import com.day.cq.search.result.SearchResult;
 import com.day.cq.tagging.Tag;
 import com.day.cq.tagging.TagManager;
-import org.apache.commons.lang3.StringUtils;
-import org.apache.felix.scr.annotations.Component;
-import org.apache.felix.scr.annotations.Reference;
-import org.apache.felix.scr.annotations.Service;
-import org.apache.sling.api.resource.LoginException;
-import org.apache.sling.api.resource.ResourceResolver;
-import org.apache.sling.api.resource.ResourceResolverFactory;
-import org.apache.sling.jcr.api.SlingRepository;
-
-import javax.jcr.RepositoryException;
-import javax.jcr.Session;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
 
 @Component(label = "Content Search Service", immediate = true, metatype = true)
 @Service(value = ContentSearchService.class)
@@ -42,8 +44,7 @@ public class DefaultContentSearchService implements ContentSearchService {
 	private ResourceResolverFactory resourceResolverFactory;
 
 	@Override
-	public final ContentSearchResult search(ContentSearchParameters parameters)
-		throws ContentSearchException {
+	public final ContentSearchResult search(ContentSearchParameters parameters) throws ContentSearchException {
 
 		final List<Content> out = new ArrayList<Content>();
 		long totalResultCount = 0;
@@ -88,7 +89,8 @@ public class DefaultContentSearchService implements ContentSearchService {
 					ContentType.allTemplates());
 			}
 
-			// Either removeFromSearch property doesn't exist, or it exists but is not equal to true
+			// Either removeFromSearch property doesn't exist, or it exists but
+			// is not equal to true
 			String groupPrefix = propertyCount + "_group.";
 			String groupProp1Prefix = groupPrefix + "1_property";
 			String groupProp2Prefix = groupPrefix + "2_property";
@@ -113,7 +115,7 @@ public class DefaultContentSearchService implements ContentSearchService {
 			final SearchResult searchResult = query.getResult();
 			totalResultCount = searchResult.getTotalMatches();
 			final List<Hit> hits = searchResult.getHits();
-			for (final Hit hit: hits) {
+			for (final Hit hit : hits) {
 				out.add(Content.fromResource(hit.getResource()));
 			}
 

@@ -1,11 +1,3 @@
-<%--
-  Created by: Marjia Yeasmin
-  Date: 26/03/2014
-
-  This page facilitates in rendering the breadcrumb info for the current page
-  by using the Breadcrumb Component.
---%>
-
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <%@include file="/apps/tourismaustralia/components/global.jsp" %>
@@ -14,7 +6,7 @@
 <c:set var="breadcrumb" value="<%=new Breadcrumb(slingRequest) %>"/>
 
 <c:choose>
-    <c:when test="${breadcrumb.homePage4Aus == true}">
+    <c:when test="${breadcrumb.homePage4Aus}">
         <c:out value=""/>
     </c:when>
     <c:otherwise>

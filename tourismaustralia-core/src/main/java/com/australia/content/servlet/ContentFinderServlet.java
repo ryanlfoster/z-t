@@ -1,5 +1,17 @@
 package com.australia.content.servlet;
 
+import java.io.IOException;
+import java.util.Arrays;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServletResponse;
+
+import org.apache.felix.scr.annotations.Reference;
+import org.apache.felix.scr.annotations.sling.SlingServlet;
+import org.apache.sling.api.SlingHttpServletRequest;
+import org.apache.sling.api.SlingHttpServletResponse;
+import org.apache.sling.api.servlets.SlingAllMethodsServlet;
+
 import com.australia.content.domain.ContentSearchParameters;
 import com.australia.content.domain.ContentSearchParametersBuilder;
 import com.australia.content.domain.ContentSearchResult;
@@ -7,22 +19,8 @@ import com.australia.content.domain.ContentType;
 import com.australia.content.service.ContentSearchException;
 import com.australia.content.service.ContentSearchService;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.apache.felix.scr.annotations.Reference;
-import org.apache.felix.scr.annotations.sling.SlingServlet;
-import org.apache.sling.api.SlingHttpServletRequest;
-import org.apache.sling.api.SlingHttpServletResponse;
-import org.apache.sling.api.servlets.SlingAllMethodsServlet;
 
-import javax.servlet.ServletException;
-import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
-import java.util.Arrays;
-
-@SlingServlet(label = "Content Finder Servlet",
-	methods = { "GET" },
-	metatype = false,
-	name = "com.australia.content.servlet.ContentFinderServlet",
-	paths = "/bin/australia/contentFinder")
+@SlingServlet(label = "Content Finder Servlet", methods = { "GET" }, metatype = false, name = "com.australia.content.servlet.ContentFinderServlet", paths = "/bin/australia/contentFinder")
 public class ContentFinderServlet extends SlingAllMethodsServlet {
 
 	private final ObjectMapper mapper = new ObjectMapper();
@@ -30,7 +28,8 @@ public class ContentFinderServlet extends SlingAllMethodsServlet {
 	@Reference
 	private ContentSearchService service;
 
-	@Override protected void doGet(final SlingHttpServletRequest request, final SlingHttpServletResponse response)
+	@Override
+	protected void doGet(final SlingHttpServletRequest request, final SlingHttpServletResponse response)
 		throws ServletException, IOException {
 
 		final String path = request.getParameter("path");
@@ -46,10 +45,7 @@ public class ContentFinderServlet extends SlingAllMethodsServlet {
 
 		ContentSearchParametersBuilder builder = new ContentSearchParametersBuilder();
 		ContentSearchParameters params = builder.setContentType(ContentType.fromName(contentType))
-			.setLanguagePath(path)
-			.setCount(limit)
-			.setTags(Arrays.asList(tagId))
-			.build();
+			.setLanguagePath(path).setCount(limit).setTags(Arrays.asList(tagId)).build();
 
 		try {
 

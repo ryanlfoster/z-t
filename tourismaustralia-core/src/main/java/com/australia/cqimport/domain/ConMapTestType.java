@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -13,11 +12,13 @@ import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for con_MapTestType complex type.
+ * <p>
+ * Java class for con_MapTestType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="con_MapTestType">
@@ -34,36 +35,30 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "con_MapTestType", propOrder = {
-    "beWhereToGoMapV2"
-})
+@XmlType(name = "con_MapTestType", propOrder = { "beWhereToGoMapV2" })
 public class ConMapTestType {
 
-    @XmlElement(name = "BEWhereToGoMapV2", required = true)
-    protected BEWhereToGoMapV2Type beWhereToGoMapV2;
+	@XmlElement(name = "BEWhereToGoMapV2", required = true)
+	protected BEWhereToGoMapV2Type beWhereToGoMapV2;
 
-    /**
-     * Gets the value of the beWhereToGoMapV2 property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link BEWhereToGoMapV2Type }
-     *     
-     */
-    public BEWhereToGoMapV2Type getBEWhereToGoMapV2() {
-        return beWhereToGoMapV2;
-    }
+	/**
+	 * Gets the value of the beWhereToGoMapV2 property.
+	 * 
+	 * @return possible object is {@link BEWhereToGoMapV2Type }
+	 * 
+	 */
+	public BEWhereToGoMapV2Type getBEWhereToGoMapV2() {
+		return beWhereToGoMapV2;
+	}
 
-    /**
-     * Sets the value of the beWhereToGoMapV2 property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link BEWhereToGoMapV2Type }
-     *     
-     */
-    public void setBEWhereToGoMapV2(BEWhereToGoMapV2Type value) {
-        this.beWhereToGoMapV2 = value;
-    }
+	/**
+	 * Sets the value of the beWhereToGoMapV2 property.
+	 * 
+	 * @param value allowed object is {@link BEWhereToGoMapV2Type }
+	 * 
+	 */
+	public void setBEWhereToGoMapV2(BEWhereToGoMapV2Type value) {
+		this.beWhereToGoMapV2 = value;
+	}
 
 }

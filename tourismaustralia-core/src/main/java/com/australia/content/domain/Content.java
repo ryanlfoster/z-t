@@ -1,12 +1,13 @@
 package com.australia.content.domain;
 
-import com.australia.pagecategories.PageCategory;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ValueMap;
 
+import com.australia.pagecategories.PageCategory;
+
 /**
- * A View Model that models various types of content as a tile representation (As used by What You Can See) with a
- * title, image, text, and link
+ * A View Model that models various types of content as a tile representation
+ * (As used by What You Can See) with a title, image, text, and link
  */
 public class Content {
 
@@ -21,7 +22,7 @@ public class Content {
 
 	/**
 	 * Builds a Content object with no date information
-	 *
+	 * 
 	 * @param path
 	 * @param title
 	 * @param text
@@ -61,7 +62,7 @@ public class Content {
 		final String templateType = properties.get("jcr:content/cq:template", String.class);
 		Content out;
 		if (PRODUCT_RESOURCE_TEMPLATE.equals(templateType)) {
-			out =  fromProductResource(resource);
+			out = fromProductResource(resource);
 		} else {
 			out = fromArticleResource(resource);
 		}

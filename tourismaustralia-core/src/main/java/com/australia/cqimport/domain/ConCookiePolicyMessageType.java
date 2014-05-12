@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -13,11 +12,13 @@ import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for con_CookiePolicyMessageType complex type.
+ * <p>
+ * Java class for con_CookiePolicyMessageType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="con_CookiePolicyMessageType">
@@ -34,36 +35,30 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "con_CookiePolicyMessageType", propOrder = {
-    "euCookieConsentHeader"
-})
+@XmlType(name = "con_CookiePolicyMessageType", propOrder = { "euCookieConsentHeader" })
 public class ConCookiePolicyMessageType {
 
-    @XmlElement(name = "EUCookieConsentHeader", required = true)
-    protected EUCookieConsentHeaderType euCookieConsentHeader;
+	@XmlElement(name = "EUCookieConsentHeader", required = true)
+	protected EUCookieConsentHeaderType euCookieConsentHeader;
 
-    /**
-     * Gets the value of the euCookieConsentHeader property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link EUCookieConsentHeaderType }
-     *     
-     */
-    public EUCookieConsentHeaderType getEUCookieConsentHeader() {
-        return euCookieConsentHeader;
-    }
+	/**
+	 * Gets the value of the euCookieConsentHeader property.
+	 * 
+	 * @return possible object is {@link EUCookieConsentHeaderType }
+	 * 
+	 */
+	public EUCookieConsentHeaderType getEUCookieConsentHeader() {
+		return euCookieConsentHeader;
+	}
 
-    /**
-     * Sets the value of the euCookieConsentHeader property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link EUCookieConsentHeaderType }
-     *     
-     */
-    public void setEUCookieConsentHeader(EUCookieConsentHeaderType value) {
-        this.euCookieConsentHeader = value;
-    }
+	/**
+	 * Sets the value of the euCookieConsentHeader property.
+	 * 
+	 * @param value allowed object is {@link EUCookieConsentHeaderType }
+	 * 
+	 */
+	public void setEUCookieConsentHeader(EUCookieConsentHeaderType value) {
+		this.euCookieConsentHeader = value;
+	}
 
 }

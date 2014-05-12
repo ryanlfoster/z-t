@@ -19,7 +19,7 @@ import com.day.cq.wcm.foundation.Image;
 	@Listener(name = "aftercopy", value = "REFRESH_PAGE"), @Listener(name = "afterdelete", value = "REFRESH_PAGE"),
 	@Listener(name = "afteredit", value = "REFRESH_PAGE"), @Listener(name = "afterinsert", value = "REFRESH_PAGE") })
 public class MapWithParsys {
-	
+
 	@DialogField(fieldLabel = "Image", required = true, hideLabel = true, tab = 1)
 	@Html5SmartImage(name = "image", disableZoom = true, allowUpload = false, tab = true, height = 400)
 	private String image;
@@ -32,7 +32,7 @@ public class MapWithParsys {
 
 	@DialogField(fieldLabel = "Text", required = false, tab = 2)
 	private String text;
-	
+
 	private String href;
 
 	public MapWithParsys(SlingHttpServletRequest request) {
@@ -62,9 +62,9 @@ public class MapWithParsys {
 	public String getText() {
 		return text;
 	}
-	
+
 	public String getHref() {
-			return href;
+		return href;
 	}
 
 }

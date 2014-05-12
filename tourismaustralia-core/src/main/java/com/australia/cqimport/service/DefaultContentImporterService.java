@@ -50,7 +50,7 @@ public class DefaultContentImporterService implements ContentImporterService {
 		ResourceResolver resourceResolver = null;
 		try {
 			resourceResolver = resourceResolverFactory.getAdministrativeResourceResolver(null);
-            new TagHelper().getTags(resourceResolver,lang);
+			new TagHelper().getTags(resourceResolver, lang);
 		} catch (LoginException e) {
 			LOG.error(e.getMessage(), e);
 		}
@@ -59,8 +59,6 @@ public class DefaultContentImporterService implements ContentImporterService {
 		PageBuilder pageBuilder;
 
 		ArrayList<MappingVO> mappingVO = getMappings(lang);
-
-
 
 		Collections.sort(mappingVO, new Comparator<MappingVO>() {
 			@Override

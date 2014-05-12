@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -14,11 +13,13 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for BEGenericGalleryBrightcoveType complex type.
+ * <p>
+ * Java class for BEGenericGalleryBrightcoveType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="BEGenericGalleryBrightcoveType">
@@ -37,89 +38,74 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "BEGenericGalleryBrightcoveType", propOrder = {
-    "stfTitle",
-    "lstVideoItems"
-})
+@XmlType(name = "BEGenericGalleryBrightcoveType", propOrder = { "stfTitle", "lstVideoItems" })
 public class BEGenericGalleryBrightcoveType {
 
-    @XmlElement(name = "stf_title", required = true)
-    protected String stfTitle;
-    @XmlElement(name = "lst_videoItems", required = true)
-    protected LstVideoItemsType lstVideoItems;
-    @XmlAttribute(name = "isTemplate")
-    protected Byte isTemplate;
+	@XmlElement(name = "stf_title", required = true)
+	protected String stfTitle;
+	@XmlElement(name = "lst_videoItems", required = true)
+	protected LstVideoItemsType lstVideoItems;
+	@XmlAttribute(name = "isTemplate")
+	protected Byte isTemplate;
 
-    /**
-     * Gets the value of the stfTitle property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfTitle() {
-        return stfTitle;
-    }
+	/**
+	 * Gets the value of the stfTitle property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfTitle() {
+		return stfTitle;
+	}
 
-    /**
-     * Sets the value of the stfTitle property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfTitle(String value) {
-        this.stfTitle = value;
-    }
+	/**
+	 * Sets the value of the stfTitle property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfTitle(String value) {
+		this.stfTitle = value;
+	}
 
-    /**
-     * Gets the value of the lstVideoItems property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link LstVideoItemsType }
-     *     
-     */
-    public LstVideoItemsType getLstVideoItems() {
-        return lstVideoItems;
-    }
+	/**
+	 * Gets the value of the lstVideoItems property.
+	 * 
+	 * @return possible object is {@link LstVideoItemsType }
+	 * 
+	 */
+	public LstVideoItemsType getLstVideoItems() {
+		return lstVideoItems;
+	}
 
-    /**
-     * Sets the value of the lstVideoItems property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link LstVideoItemsType }
-     *     
-     */
-    public void setLstVideoItems(LstVideoItemsType value) {
-        this.lstVideoItems = value;
-    }
+	/**
+	 * Sets the value of the lstVideoItems property.
+	 * 
+	 * @param value allowed object is {@link LstVideoItemsType }
+	 * 
+	 */
+	public void setLstVideoItems(LstVideoItemsType value) {
+		this.lstVideoItems = value;
+	}
 
-    /**
-     * Gets the value of the isTemplate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Byte }
-     *     
-     */
-    public Byte getIsTemplate() {
-        return isTemplate;
-    }
+	/**
+	 * Gets the value of the isTemplate property.
+	 * 
+	 * @return possible object is {@link Byte }
+	 * 
+	 */
+	public Byte getIsTemplate() {
+		return isTemplate;
+	}
 
-    /**
-     * Sets the value of the isTemplate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Byte }
-     *     
-     */
-    public void setIsTemplate(Byte value) {
-        this.isTemplate = value;
-    }
+	/**
+	 * Sets the value of the isTemplate property.
+	 * 
+	 * @param value allowed object is {@link Byte }
+	 * 
+	 */
+	public void setIsTemplate(Byte value) {
+		this.isTemplate = value;
+	}
 
 }

@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -14,11 +13,13 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for SpecialOffersItemType complex type.
+ * <p>
+ * Java class for SpecialOffersItemType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="SpecialOffersItemType">
@@ -41,197 +42,163 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "SpecialOffersItemType", propOrder = {
-    "hdlTitle",
-    "optRandom",
-    "imgThumbnail",
-    "stfThumnailTeaserOnPageCaption",
-    "imgThumbnailTeaserOnPage",
-    "ancListItems"
-})
+@XmlType(name = "SpecialOffersItemType", propOrder = { "hdlTitle", "optRandom", "imgThumbnail",
+	"stfThumnailTeaserOnPageCaption", "imgThumbnailTeaserOnPage", "ancListItems" })
 public class SpecialOffersItemType {
 
-    @XmlElement(name = "hdl_Title", required = true)
-    protected String hdlTitle;
-    @XmlElement(name = "opt_Random", required = true)
-    protected String optRandom;
-    @XmlElement(name = "img_Thumbnail", required = true)
-    protected String imgThumbnail;
-    @XmlElement(name = "stf_ThumnailTeaserOnPageCaption", required = true)
-    protected String stfThumnailTeaserOnPageCaption;
-    @XmlElement(name = "img_ThumbnailTeaserOnPage", required = true)
-    protected String imgThumbnailTeaserOnPage;
-    @XmlElement(name = "anc_ListItems", required = true)
-    protected AncListItemsType ancListItems;
-    @XmlAttribute(name = "isTemplate")
-    protected Byte isTemplate;
+	@XmlElement(name = "hdl_Title", required = true)
+	protected String hdlTitle;
+	@XmlElement(name = "opt_Random", required = true)
+	protected String optRandom;
+	@XmlElement(name = "img_Thumbnail", required = true)
+	protected String imgThumbnail;
+	@XmlElement(name = "stf_ThumnailTeaserOnPageCaption", required = true)
+	protected String stfThumnailTeaserOnPageCaption;
+	@XmlElement(name = "img_ThumbnailTeaserOnPage", required = true)
+	protected String imgThumbnailTeaserOnPage;
+	@XmlElement(name = "anc_ListItems", required = true)
+	protected AncListItemsType ancListItems;
+	@XmlAttribute(name = "isTemplate")
+	protected Byte isTemplate;
 
-    /**
-     * Gets the value of the hdlTitle property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getHdlTitle() {
-        return hdlTitle;
-    }
+	/**
+	 * Gets the value of the hdlTitle property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getHdlTitle() {
+		return hdlTitle;
+	}
 
-    /**
-     * Sets the value of the hdlTitle property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setHdlTitle(String value) {
-        this.hdlTitle = value;
-    }
+	/**
+	 * Sets the value of the hdlTitle property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setHdlTitle(String value) {
+		this.hdlTitle = value;
+	}
 
-    /**
-     * Gets the value of the optRandom property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getOptRandom() {
-        return optRandom;
-    }
+	/**
+	 * Gets the value of the optRandom property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getOptRandom() {
+		return optRandom;
+	}
 
-    /**
-     * Sets the value of the optRandom property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setOptRandom(String value) {
-        this.optRandom = value;
-    }
+	/**
+	 * Sets the value of the optRandom property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setOptRandom(String value) {
+		this.optRandom = value;
+	}
 
-    /**
-     * Gets the value of the imgThumbnail property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getImgThumbnail() {
-        return imgThumbnail;
-    }
+	/**
+	 * Gets the value of the imgThumbnail property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getImgThumbnail() {
+		return imgThumbnail;
+	}
 
-    /**
-     * Sets the value of the imgThumbnail property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setImgThumbnail(String value) {
-        this.imgThumbnail = value;
-    }
+	/**
+	 * Sets the value of the imgThumbnail property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setImgThumbnail(String value) {
+		this.imgThumbnail = value;
+	}
 
-    /**
-     * Gets the value of the stfThumnailTeaserOnPageCaption property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfThumnailTeaserOnPageCaption() {
-        return stfThumnailTeaserOnPageCaption;
-    }
+	/**
+	 * Gets the value of the stfThumnailTeaserOnPageCaption property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfThumnailTeaserOnPageCaption() {
+		return stfThumnailTeaserOnPageCaption;
+	}
 
-    /**
-     * Sets the value of the stfThumnailTeaserOnPageCaption property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfThumnailTeaserOnPageCaption(String value) {
-        this.stfThumnailTeaserOnPageCaption = value;
-    }
+	/**
+	 * Sets the value of the stfThumnailTeaserOnPageCaption property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfThumnailTeaserOnPageCaption(String value) {
+		this.stfThumnailTeaserOnPageCaption = value;
+	}
 
-    /**
-     * Gets the value of the imgThumbnailTeaserOnPage property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getImgThumbnailTeaserOnPage() {
-        return imgThumbnailTeaserOnPage;
-    }
+	/**
+	 * Gets the value of the imgThumbnailTeaserOnPage property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getImgThumbnailTeaserOnPage() {
+		return imgThumbnailTeaserOnPage;
+	}
 
-    /**
-     * Sets the value of the imgThumbnailTeaserOnPage property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setImgThumbnailTeaserOnPage(String value) {
-        this.imgThumbnailTeaserOnPage = value;
-    }
+	/**
+	 * Sets the value of the imgThumbnailTeaserOnPage property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setImgThumbnailTeaserOnPage(String value) {
+		this.imgThumbnailTeaserOnPage = value;
+	}
 
-    /**
-     * Gets the value of the ancListItems property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link AncListItemsType }
-     *     
-     */
-    public AncListItemsType getAncListItems() {
-        return ancListItems;
-    }
+	/**
+	 * Gets the value of the ancListItems property.
+	 * 
+	 * @return possible object is {@link AncListItemsType }
+	 * 
+	 */
+	public AncListItemsType getAncListItems() {
+		return ancListItems;
+	}
 
-    /**
-     * Sets the value of the ancListItems property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link AncListItemsType }
-     *     
-     */
-    public void setAncListItems(AncListItemsType value) {
-        this.ancListItems = value;
-    }
+	/**
+	 * Sets the value of the ancListItems property.
+	 * 
+	 * @param value allowed object is {@link AncListItemsType }
+	 * 
+	 */
+	public void setAncListItems(AncListItemsType value) {
+		this.ancListItems = value;
+	}
 
-    /**
-     * Gets the value of the isTemplate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Byte }
-     *     
-     */
-    public Byte getIsTemplate() {
-        return isTemplate;
-    }
+	/**
+	 * Gets the value of the isTemplate property.
+	 * 
+	 * @return possible object is {@link Byte }
+	 * 
+	 */
+	public Byte getIsTemplate() {
+		return isTemplate;
+	}
 
-    /**
-     * Sets the value of the isTemplate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Byte }
-     *     
-     */
-    public void setIsTemplate(Byte value) {
-        this.isTemplate = value;
-    }
+	/**
+	 * Sets the value of the isTemplate property.
+	 * 
+	 * @param value allowed object is {@link Byte }
+	 * 
+	 */
+	public void setIsTemplate(Byte value) {
+		this.isTemplate = value;
+	}
 
 }

@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -14,11 +13,13 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for StarRatingModuleType complex type.
+ * <p>
+ * Java class for StarRatingModuleType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="StarRatingModuleType">
@@ -38,116 +39,96 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "StarRatingModuleType", propOrder = {
-    "hdlTitle",
-    "conStarRating",
-    "ancMoreLink"
-})
+@XmlType(name = "StarRatingModuleType", propOrder = { "hdlTitle", "conStarRating", "ancMoreLink" })
 public class StarRatingModuleType {
 
-    @XmlElement(name = "hdl_Title", required = true)
-    protected String hdlTitle;
-    @XmlElement(name = "con_StarRating", required = true)
-    protected ConStarRatingType conStarRating;
-    @XmlElement(name = "anc_MoreLink", required = true)
-    protected String ancMoreLink;
-    @XmlAttribute(name = "isTemplate")
-    protected Byte isTemplate;
+	@XmlElement(name = "hdl_Title", required = true)
+	protected String hdlTitle;
+	@XmlElement(name = "con_StarRating", required = true)
+	protected ConStarRatingType conStarRating;
+	@XmlElement(name = "anc_MoreLink", required = true)
+	protected String ancMoreLink;
+	@XmlAttribute(name = "isTemplate")
+	protected Byte isTemplate;
 
-    /**
-     * Gets the value of the hdlTitle property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getHdlTitle() {
-        return hdlTitle;
-    }
+	/**
+	 * Gets the value of the hdlTitle property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getHdlTitle() {
+		return hdlTitle;
+	}
 
-    /**
-     * Sets the value of the hdlTitle property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setHdlTitle(String value) {
-        this.hdlTitle = value;
-    }
+	/**
+	 * Sets the value of the hdlTitle property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setHdlTitle(String value) {
+		this.hdlTitle = value;
+	}
 
-    /**
-     * Gets the value of the conStarRating property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link ConStarRatingType }
-     *     
-     */
-    public ConStarRatingType getConStarRating() {
-        return conStarRating;
-    }
+	/**
+	 * Gets the value of the conStarRating property.
+	 * 
+	 * @return possible object is {@link ConStarRatingType }
+	 * 
+	 */
+	public ConStarRatingType getConStarRating() {
+		return conStarRating;
+	}
 
-    /**
-     * Sets the value of the conStarRating property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link ConStarRatingType }
-     *     
-     */
-    public void setConStarRating(ConStarRatingType value) {
-        this.conStarRating = value;
-    }
+	/**
+	 * Sets the value of the conStarRating property.
+	 * 
+	 * @param value allowed object is {@link ConStarRatingType }
+	 * 
+	 */
+	public void setConStarRating(ConStarRatingType value) {
+		this.conStarRating = value;
+	}
 
-    /**
-     * Gets the value of the ancMoreLink property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getAncMoreLink() {
-        return ancMoreLink;
-    }
+	/**
+	 * Gets the value of the ancMoreLink property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getAncMoreLink() {
+		return ancMoreLink;
+	}
 
-    /**
-     * Sets the value of the ancMoreLink property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setAncMoreLink(String value) {
-        this.ancMoreLink = value;
-    }
+	/**
+	 * Sets the value of the ancMoreLink property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setAncMoreLink(String value) {
+		this.ancMoreLink = value;
+	}
 
-    /**
-     * Gets the value of the isTemplate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Byte }
-     *     
-     */
-    public Byte getIsTemplate() {
-        return isTemplate;
-    }
+	/**
+	 * Gets the value of the isTemplate property.
+	 * 
+	 * @return possible object is {@link Byte }
+	 * 
+	 */
+	public Byte getIsTemplate() {
+		return isTemplate;
+	}
 
-    /**
-     * Sets the value of the isTemplate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Byte }
-     *     
-     */
-    public void setIsTemplate(Byte value) {
-        this.isTemplate = value;
-    }
+	/**
+	 * Sets the value of the isTemplate property.
+	 * 
+	 * @param value allowed object is {@link Byte }
+	 * 
+	 */
+	public void setIsTemplate(Byte value) {
+		this.isTemplate = value;
+	}
 
 }

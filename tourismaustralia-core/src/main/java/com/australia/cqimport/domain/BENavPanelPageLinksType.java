@@ -5,12 +5,12 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
+
 import javax.xml.bind.JAXBElement;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -20,11 +20,13 @@ import javax.xml.bind.annotation.XmlElementRef;
 import javax.xml.bind.annotation.XmlMixed;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for BENavPanelPageLinksType complex type.
+ * <p>
+ * Java class for BENavPanelPageLinksType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="BENavPanelPageLinksType">
@@ -52,124 +54,115 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "BENavPanelPageLinksType", propOrder = {
-    "ancLinks"
-})
+@XmlType(name = "BENavPanelPageLinksType", propOrder = { "ancLinks" })
 public class BENavPanelPageLinksType {
 
-    @XmlElement(name = "anc_links", required = true)
-    protected BENavPanelPageLinksType.AncLinks ancLinks;
-    @XmlAttribute(name = "isTemplate")
-    protected Byte isTemplate;
+	@XmlElement(name = "anc_links", required = true)
+	protected BENavPanelPageLinksType.AncLinks ancLinks;
+	@XmlAttribute(name = "isTemplate")
+	protected Byte isTemplate;
 
-    /**
-     * Gets the value of the ancLinks property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link BENavPanelPageLinksType.AncLinks }
-     *     
-     */
-    public BENavPanelPageLinksType.AncLinks getAncLinks() {
-        return ancLinks;
-    }
+	/**
+	 * Gets the value of the ancLinks property.
+	 * 
+	 * @return possible object is {@link BENavPanelPageLinksType.AncLinks }
+	 * 
+	 */
+	public BENavPanelPageLinksType.AncLinks getAncLinks() {
+		return ancLinks;
+	}
 
-    /**
-     * Sets the value of the ancLinks property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link BENavPanelPageLinksType.AncLinks }
-     *     
-     */
-    public void setAncLinks(BENavPanelPageLinksType.AncLinks value) {
-        this.ancLinks = value;
-    }
+	/**
+	 * Sets the value of the ancLinks property.
+	 * 
+	 * @param value allowed object is {@link BENavPanelPageLinksType.AncLinks }
+	 * 
+	 */
+	public void setAncLinks(BENavPanelPageLinksType.AncLinks value) {
+		this.ancLinks = value;
+	}
 
-    /**
-     * Gets the value of the isTemplate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Byte }
-     *     
-     */
-    public Byte getIsTemplate() {
-        return isTemplate;
-    }
+	/**
+	 * Gets the value of the isTemplate property.
+	 * 
+	 * @return possible object is {@link Byte }
+	 * 
+	 */
+	public Byte getIsTemplate() {
+		return isTemplate;
+	}
 
-    /**
-     * Sets the value of the isTemplate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Byte }
-     *     
-     */
-    public void setIsTemplate(Byte value) {
-        this.isTemplate = value;
-    }
+	/**
+	 * Sets the value of the isTemplate property.
+	 * 
+	 * @param value allowed object is {@link Byte }
+	 * 
+	 */
+	public void setIsTemplate(Byte value) {
+		this.isTemplate = value;
+	}
 
+	/**
+	 * <p>
+	 * Java class for anonymous complex type.
+	 * 
+	 * <p>
+	 * The following schema fragment specifies the expected content contained
+	 * within this class.
+	 * 
+	 * <pre>
+	 * &lt;complexType>
+	 *   &lt;complexContent>
+	 *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
+	 *       &lt;sequence>
+	 *         &lt;element name="anc_link" type="{}anc_linkType" maxOccurs="unbounded" minOccurs="0"/>
+	 *       &lt;/sequence>
+	 *     &lt;/restriction>
+	 *   &lt;/complexContent>
+	 * &lt;/complexType>
+	 * </pre>
+	 * 
+	 * 
+	 */
+	@XmlAccessorType(XmlAccessType.FIELD)
+	@XmlType(name = "", propOrder = { "content" })
+	public static class AncLinks {
 
-    /**
-     * <p>Java class for anonymous complex type.
-     * 
-     * <p>The following schema fragment specifies the expected content contained within this class.
-     * 
-     * <pre>
-     * &lt;complexType>
-     *   &lt;complexContent>
-     *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
-     *       &lt;sequence>
-     *         &lt;element name="anc_link" type="{}anc_linkType" maxOccurs="unbounded" minOccurs="0"/>
-     *       &lt;/sequence>
-     *     &lt;/restriction>
-     *   &lt;/complexContent>
-     * &lt;/complexType>
-     * </pre>
-     * 
-     * 
-     */
-    @XmlAccessorType(XmlAccessType.FIELD)
-    @XmlType(name = "", propOrder = {
-        "content"
-    })
-    public static class AncLinks {
+		@XmlElementRef(name = "anc_link", type = JAXBElement.class, required = false)
+		@XmlMixed
+		protected List<Serializable> content;
 
-        @XmlElementRef(name = "anc_link", type = JAXBElement.class, required = false)
-        @XmlMixed
-        protected List<Serializable> content;
+		/**
+		 * Gets the value of the content property.
+		 * 
+		 * <p>
+		 * This accessor method returns a reference to the live list, not a
+		 * snapshot. Therefore any modification you make to the returned list
+		 * will be present inside the JAXB object. This is why there is not a
+		 * <CODE>set</CODE> method for the content property.
+		 * 
+		 * <p>
+		 * For example, to add a new item, do as follows:
+		 * 
+		 * <pre>
+		 * getContent().add(newItem);
+		 * </pre>
+		 * 
+		 * 
+		 * <p>
+		 * Objects of the following type(s) are allowed in the list
+		 * {@link String } {@link JAXBElement }{@code <}{@link AncLinkType }
+		 * {@code >}
+		 * 
+		 * 
+		 */
+		public List<Serializable> getContent() {
+			if (content == null) {
+				content = new ArrayList<Serializable>();
+			}
+			return this.content;
+		}
 
-        /**
-         * Gets the value of the content property.
-         * 
-         * <p>
-         * This accessor method returns a reference to the live list,
-         * not a snapshot. Therefore any modification you make to the
-         * returned list will be present inside the JAXB object.
-         * This is why there is not a <CODE>set</CODE> method for the content property.
-         * 
-         * <p>
-         * For example, to add a new item, do as follows:
-         * <pre>
-         *    getContent().add(newItem);
-         * </pre>
-         * 
-         * 
-         * <p>
-         * Objects of the following type(s) are allowed in the list
-         * {@link String }
-         * {@link JAXBElement }{@code <}{@link AncLinkType }{@code >}
-         * 
-         * 
-         */
-        public List<Serializable> getContent() {
-            if (content == null) {
-                content = new ArrayList<Serializable>();
-            }
-            return this.content;
-        }
-
-    }
+	}
 
 }

@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -14,11 +13,13 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for BEDestinationsFeaturedLinksContainerType complex type.
+ * <p>
+ * Java class for BEDestinationsFeaturedLinksContainerType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="BEDestinationsFeaturedLinksContainerType">
@@ -38,116 +39,97 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "BEDestinationsFeaturedLinksContainerType", propOrder = {
-    "txtHeader",
-    "conFeaturedLinks",
-    "ancTitleLink"
-})
+@XmlType(name = "BEDestinationsFeaturedLinksContainerType", propOrder = { "txtHeader", "conFeaturedLinks",
+	"ancTitleLink" })
 public class BEDestinationsFeaturedLinksContainerType {
 
-    @XmlElement(name = "txt_Header", required = true)
-    protected String txtHeader;
-    @XmlElement(name = "con_FeaturedLinks", required = true)
-    protected ConFeaturedLinksType conFeaturedLinks;
-    @XmlElement(name = "anc_TitleLink", required = true)
-    protected String ancTitleLink;
-    @XmlAttribute(name = "isTemplate")
-    protected Byte isTemplate;
+	@XmlElement(name = "txt_Header", required = true)
+	protected String txtHeader;
+	@XmlElement(name = "con_FeaturedLinks", required = true)
+	protected ConFeaturedLinksType conFeaturedLinks;
+	@XmlElement(name = "anc_TitleLink", required = true)
+	protected String ancTitleLink;
+	@XmlAttribute(name = "isTemplate")
+	protected Byte isTemplate;
 
-    /**
-     * Gets the value of the txtHeader property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getTxtHeader() {
-        return txtHeader;
-    }
+	/**
+	 * Gets the value of the txtHeader property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getTxtHeader() {
+		return txtHeader;
+	}
 
-    /**
-     * Sets the value of the txtHeader property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setTxtHeader(String value) {
-        this.txtHeader = value;
-    }
+	/**
+	 * Sets the value of the txtHeader property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setTxtHeader(String value) {
+		this.txtHeader = value;
+	}
 
-    /**
-     * Gets the value of the conFeaturedLinks property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link ConFeaturedLinksType }
-     *     
-     */
-    public ConFeaturedLinksType getConFeaturedLinks() {
-        return conFeaturedLinks;
-    }
+	/**
+	 * Gets the value of the conFeaturedLinks property.
+	 * 
+	 * @return possible object is {@link ConFeaturedLinksType }
+	 * 
+	 */
+	public ConFeaturedLinksType getConFeaturedLinks() {
+		return conFeaturedLinks;
+	}
 
-    /**
-     * Sets the value of the conFeaturedLinks property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link ConFeaturedLinksType }
-     *     
-     */
-    public void setConFeaturedLinks(ConFeaturedLinksType value) {
-        this.conFeaturedLinks = value;
-    }
+	/**
+	 * Sets the value of the conFeaturedLinks property.
+	 * 
+	 * @param value allowed object is {@link ConFeaturedLinksType }
+	 * 
+	 */
+	public void setConFeaturedLinks(ConFeaturedLinksType value) {
+		this.conFeaturedLinks = value;
+	}
 
-    /**
-     * Gets the value of the ancTitleLink property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getAncTitleLink() {
-        return ancTitleLink;
-    }
+	/**
+	 * Gets the value of the ancTitleLink property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getAncTitleLink() {
+		return ancTitleLink;
+	}
 
-    /**
-     * Sets the value of the ancTitleLink property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setAncTitleLink(String value) {
-        this.ancTitleLink = value;
-    }
+	/**
+	 * Sets the value of the ancTitleLink property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setAncTitleLink(String value) {
+		this.ancTitleLink = value;
+	}
 
-    /**
-     * Gets the value of the isTemplate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Byte }
-     *     
-     */
-    public Byte getIsTemplate() {
-        return isTemplate;
-    }
+	/**
+	 * Gets the value of the isTemplate property.
+	 * 
+	 * @return possible object is {@link Byte }
+	 * 
+	 */
+	public Byte getIsTemplate() {
+		return isTemplate;
+	}
 
-    /**
-     * Sets the value of the isTemplate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Byte }
-     *     
-     */
-    public void setIsTemplate(Byte value) {
-        this.isTemplate = value;
-    }
+	/**
+	 * Sets the value of the isTemplate property.
+	 * 
+	 * @param value allowed object is {@link Byte }
+	 * 
+	 */
+	public void setIsTemplate(Byte value) {
+		this.isTemplate = value;
+	}
 
 }

@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -14,11 +13,13 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for BEGenericHeaderAndConentBodyType complex type.
+ * <p>
+ * Java class for BEGenericHeaderAndConentBodyType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="BEGenericHeaderAndConentBodyType">
@@ -50,440 +51,362 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "BEGenericHeaderAndConentBodyType", propOrder = {
-    "hdlHeadline",
-    "imgDateIcon",
-    "imgDestinationIcon",
-    "imgEventTypeIcon",
-    "imgDurationIcon",
-    "optCaseStudy",
-    "stfAuthor",
-    "stfDateText",
-    "stfDelegatesText",
-    "stfDestinationText",
-    "stfEventTypeText",
-    "stfHeader",
-    "stfQuote",
-    "stfTitle",
-    "txtHTML"
-})
+@XmlType(name = "BEGenericHeaderAndConentBodyType", propOrder = { "hdlHeadline", "imgDateIcon", "imgDestinationIcon",
+	"imgEventTypeIcon", "imgDurationIcon", "optCaseStudy", "stfAuthor", "stfDateText", "stfDelegatesText",
+	"stfDestinationText", "stfEventTypeText", "stfHeader", "stfQuote", "stfTitle", "txtHTML" })
 public class BEGenericHeaderAndConentBodyType {
 
-    @XmlElement(name = "hdl_headline")
-    protected String hdlHeadline;
-    @XmlElement(name = "img_DateIcon")
-    protected String imgDateIcon;
-    @XmlElement(name = "img_DestinationIcon")
-    protected String imgDestinationIcon;
-    @XmlElement(name = "img_EventTypeIcon")
-    protected String imgEventTypeIcon;
-    @XmlElement(name = "img_DurationIcon")
-    protected String imgDurationIcon;
-    @XmlElement(name = "opt_CaseStudy")
-    protected Byte optCaseStudy;
-    @XmlElement(name = "stf_author")
-    protected String stfAuthor;
-    @XmlElement(name = "stf_DateText")
-    protected String stfDateText;
-    @XmlElement(name = "stf_DelegatesText")
-    protected String stfDelegatesText;
-    @XmlElement(name = "stf_DestinationText")
-    protected String stfDestinationText;
-    @XmlElement(name = "stf_EventTypeText")
-    protected String stfEventTypeText;
-    @XmlElement(name = "stf_Header")
-    protected String stfHeader;
-    @XmlElement(name = "stf_quote")
-    protected String stfQuote;
-    @XmlElement(name = "stf_Title")
-    protected String stfTitle;
-    @XmlElement(name = "txt_HTML")
-    protected String txtHTML;
-    @XmlAttribute(name = "isTemplate")
-    protected Byte isTemplate;
+	@XmlElement(name = "hdl_headline")
+	protected String hdlHeadline;
+	@XmlElement(name = "img_DateIcon")
+	protected String imgDateIcon;
+	@XmlElement(name = "img_DestinationIcon")
+	protected String imgDestinationIcon;
+	@XmlElement(name = "img_EventTypeIcon")
+	protected String imgEventTypeIcon;
+	@XmlElement(name = "img_DurationIcon")
+	protected String imgDurationIcon;
+	@XmlElement(name = "opt_CaseStudy")
+	protected Byte optCaseStudy;
+	@XmlElement(name = "stf_author")
+	protected String stfAuthor;
+	@XmlElement(name = "stf_DateText")
+	protected String stfDateText;
+	@XmlElement(name = "stf_DelegatesText")
+	protected String stfDelegatesText;
+	@XmlElement(name = "stf_DestinationText")
+	protected String stfDestinationText;
+	@XmlElement(name = "stf_EventTypeText")
+	protected String stfEventTypeText;
+	@XmlElement(name = "stf_Header")
+	protected String stfHeader;
+	@XmlElement(name = "stf_quote")
+	protected String stfQuote;
+	@XmlElement(name = "stf_Title")
+	protected String stfTitle;
+	@XmlElement(name = "txt_HTML")
+	protected String txtHTML;
+	@XmlAttribute(name = "isTemplate")
+	protected Byte isTemplate;
 
-    /**
-     * Gets the value of the hdlHeadline property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getHdlHeadline() {
-        return hdlHeadline;
-    }
+	/**
+	 * Gets the value of the hdlHeadline property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getHdlHeadline() {
+		return hdlHeadline;
+	}
 
-    /**
-     * Sets the value of the hdlHeadline property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setHdlHeadline(String value) {
-        this.hdlHeadline = value;
-    }
+	/**
+	 * Sets the value of the hdlHeadline property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setHdlHeadline(String value) {
+		this.hdlHeadline = value;
+	}
 
-    /**
-     * Gets the value of the imgDateIcon property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getImgDateIcon() {
-        return imgDateIcon;
-    }
+	/**
+	 * Gets the value of the imgDateIcon property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getImgDateIcon() {
+		return imgDateIcon;
+	}
 
-    /**
-     * Sets the value of the imgDateIcon property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setImgDateIcon(String value) {
-        this.imgDateIcon = value;
-    }
+	/**
+	 * Sets the value of the imgDateIcon property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setImgDateIcon(String value) {
+		this.imgDateIcon = value;
+	}
 
-    /**
-     * Gets the value of the imgDestinationIcon property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getImgDestinationIcon() {
-        return imgDestinationIcon;
-    }
+	/**
+	 * Gets the value of the imgDestinationIcon property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getImgDestinationIcon() {
+		return imgDestinationIcon;
+	}
 
-    /**
-     * Sets the value of the imgDestinationIcon property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setImgDestinationIcon(String value) {
-        this.imgDestinationIcon = value;
-    }
+	/**
+	 * Sets the value of the imgDestinationIcon property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setImgDestinationIcon(String value) {
+		this.imgDestinationIcon = value;
+	}
 
-    /**
-     * Gets the value of the imgEventTypeIcon property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getImgEventTypeIcon() {
-        return imgEventTypeIcon;
-    }
+	/**
+	 * Gets the value of the imgEventTypeIcon property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getImgEventTypeIcon() {
+		return imgEventTypeIcon;
+	}
 
-    /**
-     * Sets the value of the imgEventTypeIcon property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setImgEventTypeIcon(String value) {
-        this.imgEventTypeIcon = value;
-    }
+	/**
+	 * Sets the value of the imgEventTypeIcon property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setImgEventTypeIcon(String value) {
+		this.imgEventTypeIcon = value;
+	}
 
-    /**
-     * Gets the value of the imgDurationIcon property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getImgDurationIcon() {
-        return imgDurationIcon;
-    }
+	/**
+	 * Gets the value of the imgDurationIcon property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getImgDurationIcon() {
+		return imgDurationIcon;
+	}
 
-    /**
-     * Sets the value of the imgDurationIcon property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setImgDurationIcon(String value) {
-        this.imgDurationIcon = value;
-    }
+	/**
+	 * Sets the value of the imgDurationIcon property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setImgDurationIcon(String value) {
+		this.imgDurationIcon = value;
+	}
 
-    /**
-     * Gets the value of the optCaseStudy property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Byte }
-     *     
-     */
-    public Byte getOptCaseStudy() {
-        return optCaseStudy;
-    }
+	/**
+	 * Gets the value of the optCaseStudy property.
+	 * 
+	 * @return possible object is {@link Byte }
+	 * 
+	 */
+	public Byte getOptCaseStudy() {
+		return optCaseStudy;
+	}
 
-    /**
-     * Sets the value of the optCaseStudy property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Byte }
-     *     
-     */
-    public void setOptCaseStudy(Byte value) {
-        this.optCaseStudy = value;
-    }
+	/**
+	 * Sets the value of the optCaseStudy property.
+	 * 
+	 * @param value allowed object is {@link Byte }
+	 * 
+	 */
+	public void setOptCaseStudy(Byte value) {
+		this.optCaseStudy = value;
+	}
 
-    /**
-     * Gets the value of the stfAuthor property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfAuthor() {
-        return stfAuthor;
-    }
+	/**
+	 * Gets the value of the stfAuthor property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfAuthor() {
+		return stfAuthor;
+	}
 
-    /**
-     * Sets the value of the stfAuthor property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfAuthor(String value) {
-        this.stfAuthor = value;
-    }
+	/**
+	 * Sets the value of the stfAuthor property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfAuthor(String value) {
+		this.stfAuthor = value;
+	}
 
-    /**
-     * Gets the value of the stfDateText property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfDateText() {
-        return stfDateText;
-    }
+	/**
+	 * Gets the value of the stfDateText property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfDateText() {
+		return stfDateText;
+	}
 
-    /**
-     * Sets the value of the stfDateText property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfDateText(String value) {
-        this.stfDateText = value;
-    }
+	/**
+	 * Sets the value of the stfDateText property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfDateText(String value) {
+		this.stfDateText = value;
+	}
 
-    /**
-     * Gets the value of the stfDelegatesText property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfDelegatesText() {
-        return stfDelegatesText;
-    }
+	/**
+	 * Gets the value of the stfDelegatesText property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfDelegatesText() {
+		return stfDelegatesText;
+	}
 
-    /**
-     * Sets the value of the stfDelegatesText property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfDelegatesText(String value) {
-        this.stfDelegatesText = value;
-    }
+	/**
+	 * Sets the value of the stfDelegatesText property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfDelegatesText(String value) {
+		this.stfDelegatesText = value;
+	}
 
-    /**
-     * Gets the value of the stfDestinationText property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfDestinationText() {
-        return stfDestinationText;
-    }
+	/**
+	 * Gets the value of the stfDestinationText property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfDestinationText() {
+		return stfDestinationText;
+	}
 
-    /**
-     * Sets the value of the stfDestinationText property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfDestinationText(String value) {
-        this.stfDestinationText = value;
-    }
+	/**
+	 * Sets the value of the stfDestinationText property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfDestinationText(String value) {
+		this.stfDestinationText = value;
+	}
 
-    /**
-     * Gets the value of the stfEventTypeText property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfEventTypeText() {
-        return stfEventTypeText;
-    }
+	/**
+	 * Gets the value of the stfEventTypeText property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfEventTypeText() {
+		return stfEventTypeText;
+	}
 
-    /**
-     * Sets the value of the stfEventTypeText property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfEventTypeText(String value) {
-        this.stfEventTypeText = value;
-    }
+	/**
+	 * Sets the value of the stfEventTypeText property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfEventTypeText(String value) {
+		this.stfEventTypeText = value;
+	}
 
-    /**
-     * Gets the value of the stfHeader property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfHeader() {
-        return stfHeader;
-    }
+	/**
+	 * Gets the value of the stfHeader property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfHeader() {
+		return stfHeader;
+	}
 
-    /**
-     * Sets the value of the stfHeader property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfHeader(String value) {
-        this.stfHeader = value;
-    }
+	/**
+	 * Sets the value of the stfHeader property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfHeader(String value) {
+		this.stfHeader = value;
+	}
 
-    /**
-     * Gets the value of the stfQuote property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfQuote() {
-        return stfQuote;
-    }
+	/**
+	 * Gets the value of the stfQuote property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfQuote() {
+		return stfQuote;
+	}
 
-    /**
-     * Sets the value of the stfQuote property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfQuote(String value) {
-        this.stfQuote = value;
-    }
+	/**
+	 * Sets the value of the stfQuote property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfQuote(String value) {
+		this.stfQuote = value;
+	}
 
-    /**
-     * Gets the value of the stfTitle property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfTitle() {
-        return stfTitle;
-    }
+	/**
+	 * Gets the value of the stfTitle property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfTitle() {
+		return stfTitle;
+	}
 
-    /**
-     * Sets the value of the stfTitle property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfTitle(String value) {
-        this.stfTitle = value;
-    }
+	/**
+	 * Sets the value of the stfTitle property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfTitle(String value) {
+		this.stfTitle = value;
+	}
 
-    /**
-     * Gets the value of the txtHTML property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getTxtHTML() {
-        return txtHTML;
-    }
+	/**
+	 * Gets the value of the txtHTML property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getTxtHTML() {
+		return txtHTML;
+	}
 
-    /**
-     * Sets the value of the txtHTML property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setTxtHTML(String value) {
-        this.txtHTML = value;
-    }
+	/**
+	 * Sets the value of the txtHTML property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setTxtHTML(String value) {
+		this.txtHTML = value;
+	}
 
-    /**
-     * Gets the value of the isTemplate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Byte }
-     *     
-     */
-    public Byte getIsTemplate() {
-        return isTemplate;
-    }
+	/**
+	 * Gets the value of the isTemplate property.
+	 * 
+	 * @return possible object is {@link Byte }
+	 * 
+	 */
+	public Byte getIsTemplate() {
+		return isTemplate;
+	}
 
-    /**
-     * Sets the value of the isTemplate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Byte }
-     *     
-     */
-    public void setIsTemplate(Byte value) {
-        this.isTemplate = value;
-    }
+	/**
+	 * Sets the value of the isTemplate property.
+	 * 
+	 * @param value allowed object is {@link Byte }
+	 * 
+	 */
+	public void setIsTemplate(Byte value) {
+		this.isTemplate = value;
+	}
 
 }

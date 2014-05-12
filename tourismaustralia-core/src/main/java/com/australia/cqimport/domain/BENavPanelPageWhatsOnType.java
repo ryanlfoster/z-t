@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -14,11 +13,13 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for BENavPanelPageWhatsOnType complex type.
+ * <p>
+ * Java class for BENavPanelPageWhatsOnType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="BENavPanelPageWhatsOnType">
@@ -40,170 +41,141 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "BENavPanelPageWhatsOnType", propOrder = {
-    "hdlHeadline",
-    "stfLinkText",
-    "stfText",
-    "stfTitle",
-    "ancLink"
-})
+@XmlType(name = "BENavPanelPageWhatsOnType", propOrder = { "hdlHeadline", "stfLinkText", "stfText", "stfTitle",
+	"ancLink" })
 public class BENavPanelPageWhatsOnType {
 
-    @XmlElement(name = "hdl_headline", required = true)
-    protected String hdlHeadline;
-    @XmlElement(name = "stf_LinkText", required = true)
-    protected String stfLinkText;
-    @XmlElement(name = "stf_text", required = true)
-    protected String stfText;
-    @XmlElement(name = "stf_Title", required = true)
-    protected String stfTitle;
-    @XmlElement(name = "anc_link", required = true)
-    protected String ancLink;
-    @XmlAttribute(name = "isTemplate")
-    protected Byte isTemplate;
+	@XmlElement(name = "hdl_headline", required = true)
+	protected String hdlHeadline;
+	@XmlElement(name = "stf_LinkText", required = true)
+	protected String stfLinkText;
+	@XmlElement(name = "stf_text", required = true)
+	protected String stfText;
+	@XmlElement(name = "stf_Title", required = true)
+	protected String stfTitle;
+	@XmlElement(name = "anc_link", required = true)
+	protected String ancLink;
+	@XmlAttribute(name = "isTemplate")
+	protected Byte isTemplate;
 
-    /**
-     * Gets the value of the hdlHeadline property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getHdlHeadline() {
-        return hdlHeadline;
-    }
+	/**
+	 * Gets the value of the hdlHeadline property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getHdlHeadline() {
+		return hdlHeadline;
+	}
 
-    /**
-     * Sets the value of the hdlHeadline property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setHdlHeadline(String value) {
-        this.hdlHeadline = value;
-    }
+	/**
+	 * Sets the value of the hdlHeadline property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setHdlHeadline(String value) {
+		this.hdlHeadline = value;
+	}
 
-    /**
-     * Gets the value of the stfLinkText property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfLinkText() {
-        return stfLinkText;
-    }
+	/**
+	 * Gets the value of the stfLinkText property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfLinkText() {
+		return stfLinkText;
+	}
 
-    /**
-     * Sets the value of the stfLinkText property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfLinkText(String value) {
-        this.stfLinkText = value;
-    }
+	/**
+	 * Sets the value of the stfLinkText property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfLinkText(String value) {
+		this.stfLinkText = value;
+	}
 
-    /**
-     * Gets the value of the stfText property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfText() {
-        return stfText;
-    }
+	/**
+	 * Gets the value of the stfText property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfText() {
+		return stfText;
+	}
 
-    /**
-     * Sets the value of the stfText property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfText(String value) {
-        this.stfText = value;
-    }
+	/**
+	 * Sets the value of the stfText property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfText(String value) {
+		this.stfText = value;
+	}
 
-    /**
-     * Gets the value of the stfTitle property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfTitle() {
-        return stfTitle;
-    }
+	/**
+	 * Gets the value of the stfTitle property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfTitle() {
+		return stfTitle;
+	}
 
-    /**
-     * Sets the value of the stfTitle property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfTitle(String value) {
-        this.stfTitle = value;
-    }
+	/**
+	 * Sets the value of the stfTitle property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfTitle(String value) {
+		this.stfTitle = value;
+	}
 
-    /**
-     * Gets the value of the ancLink property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getAncLink() {
-        return ancLink;
-    }
+	/**
+	 * Gets the value of the ancLink property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getAncLink() {
+		return ancLink;
+	}
 
-    /**
-     * Sets the value of the ancLink property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setAncLink(String value) {
-        this.ancLink = value;
-    }
+	/**
+	 * Sets the value of the ancLink property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setAncLink(String value) {
+		this.ancLink = value;
+	}
 
-    /**
-     * Gets the value of the isTemplate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Byte }
-     *     
-     */
-    public Byte getIsTemplate() {
-        return isTemplate;
-    }
+	/**
+	 * Gets the value of the isTemplate property.
+	 * 
+	 * @return possible object is {@link Byte }
+	 * 
+	 */
+	public Byte getIsTemplate() {
+		return isTemplate;
+	}
 
-    /**
-     * Sets the value of the isTemplate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Byte }
-     *     
-     */
-    public void setIsTemplate(Byte value) {
-        this.isTemplate = value;
-    }
+	/**
+	 * Sets the value of the isTemplate property.
+	 * 
+	 * @param value allowed object is {@link Byte }
+	 * 
+	 */
+	public void setIsTemplate(Byte value) {
+		this.isTemplate = value;
+	}
 
 }

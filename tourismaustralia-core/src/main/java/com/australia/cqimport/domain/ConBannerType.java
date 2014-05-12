@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -13,11 +12,13 @@ import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for con_BannerType complex type.
+ * <p>
+ * Java class for con_BannerType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="con_BannerType">
@@ -39,171 +40,141 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "con_BannerType", propOrder = {
-    "imageBanner",
-    "mapControlBodyContent",
-    "homepageBannerCountryHolder",
-    "homepageBannerHolder",
-    "richTextModule",
-    "genericHTML"
-})
+@XmlType(name = "con_BannerType", propOrder = { "imageBanner", "mapControlBodyContent", "homepageBannerCountryHolder",
+	"homepageBannerHolder", "richTextModule", "genericHTML" })
 public class ConBannerType {
 
-    @XmlElement(name = "ImageBanner")
-    protected ImageBannerType imageBanner;
-    @XmlElement(name = "MapControlBodyContent")
-    protected MapControlBodyContentType mapControlBodyContent;
-    @XmlElement(name = "HomepageBannerCountryHolder")
-    protected HomepageBannerCountryHolderType homepageBannerCountryHolder;
-    @XmlElement(name = "HomepageBannerHolder")
-    protected HomepageBannerHolderType homepageBannerHolder;
-    @XmlElement(name = "RichTextModule")
-    protected RichTextModuleType richTextModule;
-    @XmlElement(name = "GenericHTML")
-    protected GenericHTMLType genericHTML;
+	@XmlElement(name = "ImageBanner")
+	protected ImageBannerType imageBanner;
+	@XmlElement(name = "MapControlBodyContent")
+	protected MapControlBodyContentType mapControlBodyContent;
+	@XmlElement(name = "HomepageBannerCountryHolder")
+	protected HomepageBannerCountryHolderType homepageBannerCountryHolder;
+	@XmlElement(name = "HomepageBannerHolder")
+	protected HomepageBannerHolderType homepageBannerHolder;
+	@XmlElement(name = "RichTextModule")
+	protected RichTextModuleType richTextModule;
+	@XmlElement(name = "GenericHTML")
+	protected GenericHTMLType genericHTML;
 
-    /**
-     * Gets the value of the imageBanner property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link ImageBannerType }
-     *     
-     */
-    public ImageBannerType getImageBanner() {
-        return imageBanner;
-    }
+	/**
+	 * Gets the value of the imageBanner property.
+	 * 
+	 * @return possible object is {@link ImageBannerType }
+	 * 
+	 */
+	public ImageBannerType getImageBanner() {
+		return imageBanner;
+	}
 
-    /**
-     * Sets the value of the imageBanner property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link ImageBannerType }
-     *     
-     */
-    public void setImageBanner(ImageBannerType value) {
-        this.imageBanner = value;
-    }
+	/**
+	 * Sets the value of the imageBanner property.
+	 * 
+	 * @param value allowed object is {@link ImageBannerType }
+	 * 
+	 */
+	public void setImageBanner(ImageBannerType value) {
+		this.imageBanner = value;
+	}
 
-    /**
-     * Gets the value of the mapControlBodyContent property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link MapControlBodyContentType }
-     *     
-     */
-    public MapControlBodyContentType getMapControlBodyContent() {
-        return mapControlBodyContent;
-    }
+	/**
+	 * Gets the value of the mapControlBodyContent property.
+	 * 
+	 * @return possible object is {@link MapControlBodyContentType }
+	 * 
+	 */
+	public MapControlBodyContentType getMapControlBodyContent() {
+		return mapControlBodyContent;
+	}
 
-    /**
-     * Sets the value of the mapControlBodyContent property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link MapControlBodyContentType }
-     *     
-     */
-    public void setMapControlBodyContent(MapControlBodyContentType value) {
-        this.mapControlBodyContent = value;
-    }
+	/**
+	 * Sets the value of the mapControlBodyContent property.
+	 * 
+	 * @param value allowed object is {@link MapControlBodyContentType }
+	 * 
+	 */
+	public void setMapControlBodyContent(MapControlBodyContentType value) {
+		this.mapControlBodyContent = value;
+	}
 
-    /**
-     * Gets the value of the homepageBannerCountryHolder property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link HomepageBannerCountryHolderType }
-     *     
-     */
-    public HomepageBannerCountryHolderType getHomepageBannerCountryHolder() {
-        return homepageBannerCountryHolder;
-    }
+	/**
+	 * Gets the value of the homepageBannerCountryHolder property.
+	 * 
+	 * @return possible object is {@link HomepageBannerCountryHolderType }
+	 * 
+	 */
+	public HomepageBannerCountryHolderType getHomepageBannerCountryHolder() {
+		return homepageBannerCountryHolder;
+	}
 
-    /**
-     * Sets the value of the homepageBannerCountryHolder property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link HomepageBannerCountryHolderType }
-     *     
-     */
-    public void setHomepageBannerCountryHolder(HomepageBannerCountryHolderType value) {
-        this.homepageBannerCountryHolder = value;
-    }
+	/**
+	 * Sets the value of the homepageBannerCountryHolder property.
+	 * 
+	 * @param value allowed object is {@link HomepageBannerCountryHolderType }
+	 * 
+	 */
+	public void setHomepageBannerCountryHolder(HomepageBannerCountryHolderType value) {
+		this.homepageBannerCountryHolder = value;
+	}
 
-    /**
-     * Gets the value of the homepageBannerHolder property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link HomepageBannerHolderType }
-     *     
-     */
-    public HomepageBannerHolderType getHomepageBannerHolder() {
-        return homepageBannerHolder;
-    }
+	/**
+	 * Gets the value of the homepageBannerHolder property.
+	 * 
+	 * @return possible object is {@link HomepageBannerHolderType }
+	 * 
+	 */
+	public HomepageBannerHolderType getHomepageBannerHolder() {
+		return homepageBannerHolder;
+	}
 
-    /**
-     * Sets the value of the homepageBannerHolder property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link HomepageBannerHolderType }
-     *     
-     */
-    public void setHomepageBannerHolder(HomepageBannerHolderType value) {
-        this.homepageBannerHolder = value;
-    }
+	/**
+	 * Sets the value of the homepageBannerHolder property.
+	 * 
+	 * @param value allowed object is {@link HomepageBannerHolderType }
+	 * 
+	 */
+	public void setHomepageBannerHolder(HomepageBannerHolderType value) {
+		this.homepageBannerHolder = value;
+	}
 
-    /**
-     * Gets the value of the richTextModule property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link RichTextModuleType }
-     *     
-     */
-    public RichTextModuleType getRichTextModule() {
-        return richTextModule;
-    }
+	/**
+	 * Gets the value of the richTextModule property.
+	 * 
+	 * @return possible object is {@link RichTextModuleType }
+	 * 
+	 */
+	public RichTextModuleType getRichTextModule() {
+		return richTextModule;
+	}
 
-    /**
-     * Sets the value of the richTextModule property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link RichTextModuleType }
-     *     
-     */
-    public void setRichTextModule(RichTextModuleType value) {
-        this.richTextModule = value;
-    }
+	/**
+	 * Sets the value of the richTextModule property.
+	 * 
+	 * @param value allowed object is {@link RichTextModuleType }
+	 * 
+	 */
+	public void setRichTextModule(RichTextModuleType value) {
+		this.richTextModule = value;
+	}
 
-    /**
-     * Gets the value of the genericHTML property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link GenericHTMLType }
-     *     
-     */
-    public GenericHTMLType getGenericHTML() {
-        return genericHTML;
-    }
+	/**
+	 * Gets the value of the genericHTML property.
+	 * 
+	 * @return possible object is {@link GenericHTMLType }
+	 * 
+	 */
+	public GenericHTMLType getGenericHTML() {
+		return genericHTML;
+	}
 
-    /**
-     * Sets the value of the genericHTML property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link GenericHTMLType }
-     *     
-     */
-    public void setGenericHTML(GenericHTMLType value) {
-        this.genericHTML = value;
-    }
+	/**
+	 * Sets the value of the genericHTML property.
+	 * 
+	 * @param value allowed object is {@link GenericHTMLType }
+	 * 
+	 */
+	public void setGenericHTML(GenericHTMLType value) {
+		this.genericHTML = value;
+	}
 
 }

@@ -1,6 +1,9 @@
 package com.australia.content.domain;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public enum ContentType {
 
@@ -9,7 +12,7 @@ public enum ContentType {
 
 	private static final Map<String, ContentType> MAP = new HashMap<String, ContentType>();
 	static {
-		for(ContentType type: ContentType.values()) {
+		for (ContentType type : ContentType.values()) {
 			MAP.put(type.name(), type);
 		}
 	}

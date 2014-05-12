@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -14,11 +13,13 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for HomepageNewsType complex type.
+ * <p>
+ * Java class for HomepageNewsType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="HomepageNewsType">
@@ -42,224 +43,185 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "HomepageNewsType", propOrder = {
-    "imgNewsBackgroundImg",
-    "optIsVideo",
-    "stfNewsHeading",
-    "stfNewsVideoTrackingTitle",
-    "stfTargetedCountry",
-    "stfVideoBackgroundAlt",
-    "txtNewsText"
-})
+@XmlType(name = "HomepageNewsType", propOrder = { "imgNewsBackgroundImg", "optIsVideo", "stfNewsHeading",
+	"stfNewsVideoTrackingTitle", "stfTargetedCountry", "stfVideoBackgroundAlt", "txtNewsText" })
 public class HomepageNewsType {
 
-    @XmlElement(name = "img_NewsBackgroundImg", required = true)
-    protected String imgNewsBackgroundImg;
-    @XmlElement(name = "opt_isVideo", required = true)
-    protected String optIsVideo;
-    @XmlElement(name = "stf_NewsHeading", required = true)
-    protected String stfNewsHeading;
-    @XmlElement(name = "stf_NewsVideoTrackingTitle", required = true)
-    protected String stfNewsVideoTrackingTitle;
-    @XmlElement(name = "stf_TargetedCountry", required = true)
-    protected String stfTargetedCountry;
-    @XmlElement(name = "stf_VideoBackgroundAlt", required = true)
-    protected String stfVideoBackgroundAlt;
-    @XmlElement(name = "txt_NewsText", required = true)
-    protected String txtNewsText;
-    @XmlAttribute(name = "isTemplate")
-    protected Byte isTemplate;
+	@XmlElement(name = "img_NewsBackgroundImg", required = true)
+	protected String imgNewsBackgroundImg;
+	@XmlElement(name = "opt_isVideo", required = true)
+	protected String optIsVideo;
+	@XmlElement(name = "stf_NewsHeading", required = true)
+	protected String stfNewsHeading;
+	@XmlElement(name = "stf_NewsVideoTrackingTitle", required = true)
+	protected String stfNewsVideoTrackingTitle;
+	@XmlElement(name = "stf_TargetedCountry", required = true)
+	protected String stfTargetedCountry;
+	@XmlElement(name = "stf_VideoBackgroundAlt", required = true)
+	protected String stfVideoBackgroundAlt;
+	@XmlElement(name = "txt_NewsText", required = true)
+	protected String txtNewsText;
+	@XmlAttribute(name = "isTemplate")
+	protected Byte isTemplate;
 
-    /**
-     * Gets the value of the imgNewsBackgroundImg property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getImgNewsBackgroundImg() {
-        return imgNewsBackgroundImg;
-    }
+	/**
+	 * Gets the value of the imgNewsBackgroundImg property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getImgNewsBackgroundImg() {
+		return imgNewsBackgroundImg;
+	}
 
-    /**
-     * Sets the value of the imgNewsBackgroundImg property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setImgNewsBackgroundImg(String value) {
-        this.imgNewsBackgroundImg = value;
-    }
+	/**
+	 * Sets the value of the imgNewsBackgroundImg property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setImgNewsBackgroundImg(String value) {
+		this.imgNewsBackgroundImg = value;
+	}
 
-    /**
-     * Gets the value of the optIsVideo property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getOptIsVideo() {
-        return optIsVideo;
-    }
+	/**
+	 * Gets the value of the optIsVideo property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getOptIsVideo() {
+		return optIsVideo;
+	}
 
-    /**
-     * Sets the value of the optIsVideo property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setOptIsVideo(String value) {
-        this.optIsVideo = value;
-    }
+	/**
+	 * Sets the value of the optIsVideo property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setOptIsVideo(String value) {
+		this.optIsVideo = value;
+	}
 
-    /**
-     * Gets the value of the stfNewsHeading property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfNewsHeading() {
-        return stfNewsHeading;
-    }
+	/**
+	 * Gets the value of the stfNewsHeading property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfNewsHeading() {
+		return stfNewsHeading;
+	}
 
-    /**
-     * Sets the value of the stfNewsHeading property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfNewsHeading(String value) {
-        this.stfNewsHeading = value;
-    }
+	/**
+	 * Sets the value of the stfNewsHeading property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfNewsHeading(String value) {
+		this.stfNewsHeading = value;
+	}
 
-    /**
-     * Gets the value of the stfNewsVideoTrackingTitle property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfNewsVideoTrackingTitle() {
-        return stfNewsVideoTrackingTitle;
-    }
+	/**
+	 * Gets the value of the stfNewsVideoTrackingTitle property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfNewsVideoTrackingTitle() {
+		return stfNewsVideoTrackingTitle;
+	}
 
-    /**
-     * Sets the value of the stfNewsVideoTrackingTitle property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfNewsVideoTrackingTitle(String value) {
-        this.stfNewsVideoTrackingTitle = value;
-    }
+	/**
+	 * Sets the value of the stfNewsVideoTrackingTitle property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfNewsVideoTrackingTitle(String value) {
+		this.stfNewsVideoTrackingTitle = value;
+	}
 
-    /**
-     * Gets the value of the stfTargetedCountry property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfTargetedCountry() {
-        return stfTargetedCountry;
-    }
+	/**
+	 * Gets the value of the stfTargetedCountry property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfTargetedCountry() {
+		return stfTargetedCountry;
+	}
 
-    /**
-     * Sets the value of the stfTargetedCountry property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfTargetedCountry(String value) {
-        this.stfTargetedCountry = value;
-    }
+	/**
+	 * Sets the value of the stfTargetedCountry property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfTargetedCountry(String value) {
+		this.stfTargetedCountry = value;
+	}
 
-    /**
-     * Gets the value of the stfVideoBackgroundAlt property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfVideoBackgroundAlt() {
-        return stfVideoBackgroundAlt;
-    }
+	/**
+	 * Gets the value of the stfVideoBackgroundAlt property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfVideoBackgroundAlt() {
+		return stfVideoBackgroundAlt;
+	}
 
-    /**
-     * Sets the value of the stfVideoBackgroundAlt property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfVideoBackgroundAlt(String value) {
-        this.stfVideoBackgroundAlt = value;
-    }
+	/**
+	 * Sets the value of the stfVideoBackgroundAlt property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfVideoBackgroundAlt(String value) {
+		this.stfVideoBackgroundAlt = value;
+	}
 
-    /**
-     * Gets the value of the txtNewsText property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getTxtNewsText() {
-        return txtNewsText;
-    }
+	/**
+	 * Gets the value of the txtNewsText property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getTxtNewsText() {
+		return txtNewsText;
+	}
 
-    /**
-     * Sets the value of the txtNewsText property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setTxtNewsText(String value) {
-        this.txtNewsText = value;
-    }
+	/**
+	 * Sets the value of the txtNewsText property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setTxtNewsText(String value) {
+		this.txtNewsText = value;
+	}
 
-    /**
-     * Gets the value of the isTemplate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Byte }
-     *     
-     */
-    public Byte getIsTemplate() {
-        return isTemplate;
-    }
+	/**
+	 * Gets the value of the isTemplate property.
+	 * 
+	 * @return possible object is {@link Byte }
+	 * 
+	 */
+	public Byte getIsTemplate() {
+		return isTemplate;
+	}
 
-    /**
-     * Sets the value of the isTemplate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Byte }
-     *     
-     */
-    public void setIsTemplate(Byte value) {
-        this.isTemplate = value;
-    }
+	/**
+	 * Sets the value of the isTemplate property.
+	 * 
+	 * @param value allowed object is {@link Byte }
+	 * 
+	 */
+	public void setIsTemplate(Byte value) {
+		this.isTemplate = value;
+	}
 
 }

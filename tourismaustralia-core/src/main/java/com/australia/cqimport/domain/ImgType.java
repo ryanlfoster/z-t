@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -14,11 +13,13 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlType;
 import javax.xml.bind.annotation.XmlValue;
 
-
 /**
- * <p>Java class for imgType complex type.
+ * <p>
+ * Java class for imgType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="imgType">
@@ -36,140 +37,118 @@ import javax.xml.bind.annotation.XmlValue;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "imgType", propOrder = {
-    "value"
-})
+@XmlType(name = "imgType", propOrder = { "value" })
 public class ImgType {
 
-    @XmlValue
-    protected String value;
-    @XmlAttribute(name = "src")
-    protected String src;
-    @XmlAttribute(name = "width")
-    protected Short width;
-    @XmlAttribute(name = "height")
-    protected Byte height;
-    @XmlAttribute(name = "alt")
-    protected String alt;
+	@XmlValue
+	protected String value;
+	@XmlAttribute(name = "src")
+	protected String src;
+	@XmlAttribute(name = "width")
+	protected Short width;
+	@XmlAttribute(name = "height")
+	protected Byte height;
+	@XmlAttribute(name = "alt")
+	protected String alt;
 
-    /**
-     * Gets the value of the value property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getValue() {
-        return value;
-    }
+	/**
+	 * Gets the value of the value property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getValue() {
+		return value;
+	}
 
-    /**
-     * Sets the value of the value property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setValue(String value) {
-        this.value = value;
-    }
+	/**
+	 * Sets the value of the value property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setValue(String value) {
+		this.value = value;
+	}
 
-    /**
-     * Gets the value of the src property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getSrc() {
-        return src;
-    }
+	/**
+	 * Gets the value of the src property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getSrc() {
+		return src;
+	}
 
-    /**
-     * Sets the value of the src property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setSrc(String value) {
-        this.src = value;
-    }
+	/**
+	 * Sets the value of the src property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setSrc(String value) {
+		this.src = value;
+	}
 
-    /**
-     * Gets the value of the width property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Short }
-     *     
-     */
-    public Short getWidth() {
-        return width;
-    }
+	/**
+	 * Gets the value of the width property.
+	 * 
+	 * @return possible object is {@link Short }
+	 * 
+	 */
+	public Short getWidth() {
+		return width;
+	}
 
-    /**
-     * Sets the value of the width property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Short }
-     *     
-     */
-    public void setWidth(Short value) {
-        this.width = value;
-    }
+	/**
+	 * Sets the value of the width property.
+	 * 
+	 * @param value allowed object is {@link Short }
+	 * 
+	 */
+	public void setWidth(Short value) {
+		this.width = value;
+	}
 
-    /**
-     * Gets the value of the height property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Byte }
-     *     
-     */
-    public Byte getHeight() {
-        return height;
-    }
+	/**
+	 * Gets the value of the height property.
+	 * 
+	 * @return possible object is {@link Byte }
+	 * 
+	 */
+	public Byte getHeight() {
+		return height;
+	}
 
-    /**
-     * Sets the value of the height property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Byte }
-     *     
-     */
-    public void setHeight(Byte value) {
-        this.height = value;
-    }
+	/**
+	 * Sets the value of the height property.
+	 * 
+	 * @param value allowed object is {@link Byte }
+	 * 
+	 */
+	public void setHeight(Byte value) {
+		this.height = value;
+	}
 
-    /**
-     * Gets the value of the alt property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getAlt() {
-        return alt;
-    }
+	/**
+	 * Gets the value of the alt property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getAlt() {
+		return alt;
+	}
 
-    /**
-     * Sets the value of the alt property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setAlt(String value) {
-        this.alt = value;
-    }
+	/**
+	 * Sets the value of the alt property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setAlt(String value) {
+		this.alt = value;
+	}
 
 }

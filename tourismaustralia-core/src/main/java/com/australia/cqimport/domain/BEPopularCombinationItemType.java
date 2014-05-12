@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -14,11 +13,13 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for BEPopularCombinationItemType complex type.
+ * <p>
+ * Java class for BEPopularCombinationItemType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="BEPopularCombinationItemType">
@@ -40,170 +41,141 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "BEPopularCombinationItemType", propOrder = {
-    "link",
-    "ancItem1Link",
-    "stfItem1Text",
-    "ancItem2Link",
-    "stfItem2Text"
-})
+@XmlType(name = "BEPopularCombinationItemType", propOrder = { "link", "ancItem1Link", "stfItem1Text", "ancItem2Link",
+	"stfItem2Text" })
 public class BEPopularCombinationItemType {
 
-    @XmlElement(required = true)
-    protected String link;
-    @XmlElement(name = "anc_Item1Link", required = true)
-    protected String ancItem1Link;
-    @XmlElement(name = "stf_Item1Text", required = true)
-    protected String stfItem1Text;
-    @XmlElement(name = "anc_Item2Link", required = true)
-    protected String ancItem2Link;
-    @XmlElement(name = "stf_Item2Text", required = true)
-    protected String stfItem2Text;
-    @XmlAttribute(name = "isTemplate")
-    protected Byte isTemplate;
+	@XmlElement(required = true)
+	protected String link;
+	@XmlElement(name = "anc_Item1Link", required = true)
+	protected String ancItem1Link;
+	@XmlElement(name = "stf_Item1Text", required = true)
+	protected String stfItem1Text;
+	@XmlElement(name = "anc_Item2Link", required = true)
+	protected String ancItem2Link;
+	@XmlElement(name = "stf_Item2Text", required = true)
+	protected String stfItem2Text;
+	@XmlAttribute(name = "isTemplate")
+	protected Byte isTemplate;
 
-    /**
-     * Gets the value of the link property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getLink() {
-        return link;
-    }
+	/**
+	 * Gets the value of the link property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getLink() {
+		return link;
+	}
 
-    /**
-     * Sets the value of the link property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setLink(String value) {
-        this.link = value;
-    }
+	/**
+	 * Sets the value of the link property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setLink(String value) {
+		this.link = value;
+	}
 
-    /**
-     * Gets the value of the ancItem1Link property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getAncItem1Link() {
-        return ancItem1Link;
-    }
+	/**
+	 * Gets the value of the ancItem1Link property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getAncItem1Link() {
+		return ancItem1Link;
+	}
 
-    /**
-     * Sets the value of the ancItem1Link property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setAncItem1Link(String value) {
-        this.ancItem1Link = value;
-    }
+	/**
+	 * Sets the value of the ancItem1Link property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setAncItem1Link(String value) {
+		this.ancItem1Link = value;
+	}
 
-    /**
-     * Gets the value of the stfItem1Text property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfItem1Text() {
-        return stfItem1Text;
-    }
+	/**
+	 * Gets the value of the stfItem1Text property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfItem1Text() {
+		return stfItem1Text;
+	}
 
-    /**
-     * Sets the value of the stfItem1Text property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfItem1Text(String value) {
-        this.stfItem1Text = value;
-    }
+	/**
+	 * Sets the value of the stfItem1Text property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfItem1Text(String value) {
+		this.stfItem1Text = value;
+	}
 
-    /**
-     * Gets the value of the ancItem2Link property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getAncItem2Link() {
-        return ancItem2Link;
-    }
+	/**
+	 * Gets the value of the ancItem2Link property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getAncItem2Link() {
+		return ancItem2Link;
+	}
 
-    /**
-     * Sets the value of the ancItem2Link property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setAncItem2Link(String value) {
-        this.ancItem2Link = value;
-    }
+	/**
+	 * Sets the value of the ancItem2Link property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setAncItem2Link(String value) {
+		this.ancItem2Link = value;
+	}
 
-    /**
-     * Gets the value of the stfItem2Text property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfItem2Text() {
-        return stfItem2Text;
-    }
+	/**
+	 * Gets the value of the stfItem2Text property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfItem2Text() {
+		return stfItem2Text;
+	}
 
-    /**
-     * Sets the value of the stfItem2Text property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfItem2Text(String value) {
-        this.stfItem2Text = value;
-    }
+	/**
+	 * Sets the value of the stfItem2Text property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfItem2Text(String value) {
+		this.stfItem2Text = value;
+	}
 
-    /**
-     * Gets the value of the isTemplate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Byte }
-     *     
-     */
-    public Byte getIsTemplate() {
-        return isTemplate;
-    }
+	/**
+	 * Gets the value of the isTemplate property.
+	 * 
+	 * @return possible object is {@link Byte }
+	 * 
+	 */
+	public Byte getIsTemplate() {
+		return isTemplate;
+	}
 
-    /**
-     * Sets the value of the isTemplate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Byte }
-     *     
-     */
-    public void setIsTemplate(Byte value) {
-        this.isTemplate = value;
-    }
+	/**
+	 * Sets the value of the isTemplate property.
+	 * 
+	 * @param value allowed object is {@link Byte }
+	 * 
+	 */
+	public void setIsTemplate(Byte value) {
+		this.isTemplate = value;
+	}
 
 }

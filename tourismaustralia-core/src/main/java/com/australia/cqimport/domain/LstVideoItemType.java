@@ -5,11 +5,11 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import java.util.ArrayList;
 import java.util.List;
+
 import javax.xml.bind.JAXBElement;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -17,11 +17,13 @@ import javax.xml.bind.annotation.XmlElementRef;
 import javax.xml.bind.annotation.XmlElementRefs;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for lst_videoItemType complex type.
+ * <p>
+ * Java class for lst_videoItemType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="lst_videoItemType">
@@ -43,53 +45,49 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "lst_videoItemType", propOrder = {
-    "urlOrStfTitleOrImgOverlay"
-})
+@XmlType(name = "lst_videoItemType", propOrder = { "urlOrStfTitleOrImgOverlay" })
 public class LstVideoItemType {
 
-    @XmlElementRefs({
-        @XmlElementRef(name = "stf_videoTitle", type = JAXBElement.class, required = false),
-        @XmlElementRef(name = "stf_title", type = JAXBElement.class, required = false),
-        @XmlElementRef(name = "img_overlay", type = JAXBElement.class, required = false),
-        @XmlElementRef(name = "stf_mediaId", type = JAXBElement.class, required = false),
-        @XmlElementRef(name = "img_thumbnail", type = JAXBElement.class, required = false),
-        @XmlElementRef(name = "url", type = JAXBElement.class, required = false)
-    })
-    protected List<JAXBElement<String>> urlOrStfTitleOrImgOverlay;
+	@XmlElementRefs({ @XmlElementRef(name = "stf_videoTitle", type = JAXBElement.class, required = false),
+		@XmlElementRef(name = "stf_title", type = JAXBElement.class, required = false),
+		@XmlElementRef(name = "img_overlay", type = JAXBElement.class, required = false),
+		@XmlElementRef(name = "stf_mediaId", type = JAXBElement.class, required = false),
+		@XmlElementRef(name = "img_thumbnail", type = JAXBElement.class, required = false),
+		@XmlElementRef(name = "url", type = JAXBElement.class, required = false) })
+	protected List<JAXBElement<String>> urlOrStfTitleOrImgOverlay;
 
-    /**
-     * Gets the value of the urlOrStfTitleOrImgOverlay property.
-     * 
-     * <p>
-     * This accessor method returns a reference to the live list,
-     * not a snapshot. Therefore any modification you make to the
-     * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the urlOrStfTitleOrImgOverlay property.
-     * 
-     * <p>
-     * For example, to add a new item, do as follows:
-     * <pre>
-     *    getUrlOrStfTitleOrImgOverlay().add(newItem);
-     * </pre>
-     * 
-     * 
-     * <p>
-     * Objects of the following type(s) are allowed in the list
-     * {@link JAXBElement }{@code <}{@link String }{@code >}
-     * {@link JAXBElement }{@code <}{@link String }{@code >}
-     * {@link JAXBElement }{@code <}{@link String }{@code >}
-     * {@link JAXBElement }{@code <}{@link String }{@code >}
-     * {@link JAXBElement }{@code <}{@link String }{@code >}
-     * {@link JAXBElement }{@code <}{@link String }{@code >}
-     * 
-     * 
-     */
-    public List<JAXBElement<String>> getUrlOrStfTitleOrImgOverlay() {
-        if (urlOrStfTitleOrImgOverlay == null) {
-            urlOrStfTitleOrImgOverlay = new ArrayList<JAXBElement<String>>();
-        }
-        return this.urlOrStfTitleOrImgOverlay;
-    }
+	/**
+	 * Gets the value of the urlOrStfTitleOrImgOverlay property.
+	 * 
+	 * <p>
+	 * This accessor method returns a reference to the live list, not a
+	 * snapshot. Therefore any modification you make to the returned list will
+	 * be present inside the JAXB object. This is why there is not a
+	 * <CODE>set</CODE> method for the urlOrStfTitleOrImgOverlay property.
+	 * 
+	 * <p>
+	 * For example, to add a new item, do as follows:
+	 * 
+	 * <pre>
+	 * getUrlOrStfTitleOrImgOverlay().add(newItem);
+	 * </pre>
+	 * 
+	 * 
+	 * <p>
+	 * Objects of the following type(s) are allowed in the list
+	 * {@link JAXBElement }{@code <}{@link String }{@code >} {@link JAXBElement }
+	 * {@code <}{@link String }{@code >} {@link JAXBElement }{@code <}
+	 * {@link String }{@code >} {@link JAXBElement }{@code <}{@link String }
+	 * {@code >} {@link JAXBElement }{@code <}{@link String }{@code >}
+	 * {@link JAXBElement }{@code <}{@link String }{@code >}
+	 * 
+	 * 
+	 */
+	public List<JAXBElement<String>> getUrlOrStfTitleOrImgOverlay() {
+		if (urlOrStfTitleOrImgOverlay == null) {
+			urlOrStfTitleOrImgOverlay = new ArrayList<JAXBElement<String>>();
+		}
+		return this.urlOrStfTitleOrImgOverlay;
+	}
 
 }

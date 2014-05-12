@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -13,11 +12,13 @@ import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for anc_ListItemsType complex type.
+ * <p>
+ * Java class for anc_ListItemsType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="anc_ListItemsType">
@@ -34,36 +35,30 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "anc_ListItemsType", propOrder = {
-    "ancListItem"
-})
+@XmlType(name = "anc_ListItemsType", propOrder = { "ancListItem" })
 public class AncListItemsType {
 
-    @XmlElement(name = "anc_ListItem", required = true)
-    protected AncListItemType ancListItem;
+	@XmlElement(name = "anc_ListItem", required = true)
+	protected AncListItemType ancListItem;
 
-    /**
-     * Gets the value of the ancListItem property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link AncListItemType }
-     *     
-     */
-    public AncListItemType getAncListItem() {
-        return ancListItem;
-    }
+	/**
+	 * Gets the value of the ancListItem property.
+	 * 
+	 * @return possible object is {@link AncListItemType }
+	 * 
+	 */
+	public AncListItemType getAncListItem() {
+		return ancListItem;
+	}
 
-    /**
-     * Sets the value of the ancListItem property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link AncListItemType }
-     *     
-     */
-    public void setAncListItem(AncListItemType value) {
-        this.ancListItem = value;
-    }
+	/**
+	 * Sets the value of the ancListItem property.
+	 * 
+	 * @param value allowed object is {@link AncListItemType }
+	 * 
+	 */
+	public void setAncListItem(AncListItemType value) {
+		this.ancListItem = value;
+	}
 
 }

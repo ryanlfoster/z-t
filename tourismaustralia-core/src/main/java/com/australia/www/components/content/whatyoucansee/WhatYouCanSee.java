@@ -1,5 +1,18 @@
 package com.australia.www.components.content.whatyoucansee;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Locale;
+import java.util.ResourceBundle;
+
+import org.apache.sling.api.SlingHttpServletRequest;
+import org.apache.sling.api.resource.Resource;
+import org.apache.sling.api.resource.ResourceResolver;
+import org.apache.sling.api.resource.ValueMap;
+import org.apache.sling.api.scripting.SlingBindings;
+import org.apache.sling.api.scripting.SlingScriptHelper;
+
 import com.australia.content.domain.Content;
 import com.australia.content.domain.ContentSearchParametersBuilder;
 import com.australia.content.domain.ContentSearchResult;
@@ -22,30 +35,10 @@ import com.day.cq.tagging.Tag;
 import com.day.cq.tagging.TagManager;
 import com.day.cq.wcm.api.Page;
 import com.day.cq.wcm.api.PageManager;
-import org.apache.sling.api.SlingHttpServletRequest;
-import org.apache.sling.api.resource.Resource;
-import org.apache.sling.api.resource.ResourceResolver;
-import org.apache.sling.api.resource.ValueMap;
-import org.apache.sling.api.scripting.SlingBindings;
-import org.apache.sling.api.scripting.SlingScriptHelper;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Locale;
-import java.util.ResourceBundle;
-
-@Component(value = "What You Can See",
-		tabs = {
-			@Tab(title = Constants.TAB_GENERAL),
-			@Tab(title = Constants.TAB_CATEGORIES),
-			@Tab(title = Constants.TAB_TAB_3)
-		},
-		listeners = {
-			@Listener(name = "afteredit", value = "REFRESH_PAGE"),
-			@Listener(name = "afterinsert", value = "REFRESH_PAGE")
-		}
-)
+@Component(value = "What You Can See", tabs = { @Tab(title = Constants.TAB_GENERAL),
+	@Tab(title = Constants.TAB_CATEGORIES), @Tab(title = Constants.TAB_TAB_3) }, listeners = {
+	@Listener(name = "afteredit", value = "REFRESH_PAGE"), @Listener(name = "afterinsert", value = "REFRESH_PAGE") })
 public final class WhatYouCanSee {
 
 	@DialogField(fieldLabel = "Tag", tab = 1)
@@ -59,38 +52,28 @@ public final class WhatYouCanSee {
 	@DialogField(fieldLabel = "Text", tab = 1)
 	private final String text;
 
-	@DialogField(fieldLabel = "Things To Do", fieldDescription = "When checked, 'Things To Do' will be displayed",
-		defaultValue = "true", tab = 2)
+	@DialogField(fieldLabel = "Things To Do", fieldDescription = "When checked, 'Things To Do' will be displayed", defaultValue = "true", tab = 2)
 	@Selection(type = Selection.CHECKBOX, options = @Option(value = "true"))
 	private boolean showThingsToDo;
 
-	@Selection(options = {@Option(value = "5", text = "5 Items"), @Option(value = "10", text = "10 Items") },
-		type = Selection.SELECT
-	)
+	@Selection(options = { @Option(value = "5", text = "5 Items"), @Option(value = "10", text = "10 Items") }, type = Selection.SELECT)
 	@DialogField(fieldLabel = "Things To Do Tab Size", defaultValue = Constants.TAB_SIZE_10, tab = 2)
 	private final String thingsToDoTabSize;
 
-	@DialogField(fieldLabel = "Optional Tab", fieldDescription = "When checked, an additional authorable tab will be " +
-		"displayed",
-		tab = 3, listeners = {
-			@Listener(name = "selectionchanged", value = Constants.OPTIONAL_SHOW_LISTENER),
-			@Listener(name = "afterlayout", value = Constants.OPTIONAL_SHOW_LISTENER)
-		})
+	@DialogField(fieldLabel = "Optional Tab", fieldDescription = "When checked, an additional authorable tab will be "
+		+ "displayed", tab = 3, listeners = {
+		@Listener(name = "selectionchanged", value = Constants.OPTIONAL_SHOW_LISTENER),
+		@Listener(name = "afterlayout", value = Constants.OPTIONAL_SHOW_LISTENER) })
 	@Selection(type = Selection.CHECKBOX, options = @Option(value = "true"))
 	private final boolean showOptionalTab;
 
 	@DialogField(fieldLabel = "Optional Tab Title", tab = 3)
 	private final String optionalTabTitle;
 
-	@Selection(options = {@Option(value = "5", text = "5 Items"), @Option(value = "10", text = "10 Items") },
-		type = Selection.SELECT
-	)
-	@DialogField(fieldLabel = "Optional Tab Size", defaultValue = Constants.TAB_SIZE_10, tab = 3,
-		listeners = {
-			@Listener(name = "selectionchanged", value = Constants.SIZE_CHANGE_LISTENER),
-			@Listener(name = "afterlayout", value = Constants.SIZE_CHANGE_LISTENER)
-		}
-	)
+	@Selection(options = { @Option(value = "5", text = "5 Items"), @Option(value = "10", text = "10 Items") }, type = Selection.SELECT)
+	@DialogField(fieldLabel = "Optional Tab Size", defaultValue = Constants.TAB_SIZE_10, tab = 3, listeners = {
+		@Listener(name = "selectionchanged", value = Constants.SIZE_CHANGE_LISTENER),
+		@Listener(name = "afterlayout", value = Constants.SIZE_CHANGE_LISTENER) })
 	private final String optionalTabSize;
 
 	@PathField(rootPath = PathUtils.OZCOM_ROOT_PATH)
@@ -133,8 +116,6 @@ public final class WhatYouCanSee {
 	@DialogField(fieldLabel = "&nbsp;", tab = 3, required = true)
 	private final String optionalTabPath9;
 
-
-
 	private final List<Tab> tabs = new ArrayList<Tab>();
 
 	public WhatYouCanSee(final SlingHttpServletRequest request) throws ContentSearchException {
@@ -154,8 +135,9 @@ public final class WhatYouCanSee {
 		tagId = properties.get(Constants.NAME_TAGID, String.class);
 		tag = tagId == null ? null : tagManager.resolve(tagId);
 
-		// When no tag is selected, attempt to find a city or state tag, in that order
-		if(tag == null) {
+		// When no tag is selected, attempt to find a city or state tag, in that
+		// order
+		if (tag == null) {
 			final PageManager pageManager = resourceResolver.adaptTo(PageManager.class);
 			final Page page = pageManager.getContainingPage(resource);
 			final Resource contentResource = page.getContentResource();
@@ -203,7 +185,7 @@ public final class WhatYouCanSee {
 		final ContentSearchParametersBuilder baseBuilder = new ContentSearchParametersBuilder();
 		baseBuilder.setPage(1);
 		baseBuilder.setLanguagePath(PathUtils.getLanguageResource(resource).getPath());
-		if(tag != null) {
+		if (tag != null) {
 			baseBuilder.setTags(Arrays.asList(tag.getTagID()));
 		}
 
@@ -214,11 +196,10 @@ public final class WhatYouCanSee {
 			final ContentSearchResult content = contentSearchService.search(baseBuilder.build());
 
 			final String translatedThingsToDoTitle = bundle.getString(Constants.TTD_TAB_TITLE);
-			final String viewMorePath =
-				PathUtils.getSearchResultsPage(localeResource, null, tag == null ? null : tag.getTagID());
-			final Tab thingsToDo =
-				new Tab(translatedThingsToDoTitle, "ttd", Constants.TTD_TAB_VIEW_MORE,  content.getContent(),
-					Constants.TTD_IMAGE_PATH, Constants.TTD_OUTLINE_IMAGE_PATH, viewMorePath);
+			final String viewMorePath = PathUtils.getSearchResultsPage(localeResource, null,
+				tag == null ? null : tag.getTagID());
+			final Tab thingsToDo = new Tab(translatedThingsToDoTitle, "ttd", Constants.TTD_TAB_VIEW_MORE,
+				content.getContent(), Constants.TTD_IMAGE_PATH, Constants.TTD_OUTLINE_IMAGE_PATH, viewMorePath);
 			tabs.add(thingsToDo);
 		}
 
@@ -236,8 +217,8 @@ public final class WhatYouCanSee {
 				content.add(Content.fromResource(optionalTabResource8));
 				content.add(Content.fromResource(optionalTabResource9));
 			}
-			final Tab optionalTab = new Tab(optionalTabTitle, "optional", null, content,
-				Constants.OPTIONAL_IMAGE_PATH, Constants.OPTIONAL_OUTLINE_IMAGE_PATH, null);
+			final Tab optionalTab = new Tab(optionalTabTitle, "optional", null, content, Constants.OPTIONAL_IMAGE_PATH,
+				Constants.OPTIONAL_OUTLINE_IMAGE_PATH, null);
 			tabs.add(optionalTab);
 		}
 

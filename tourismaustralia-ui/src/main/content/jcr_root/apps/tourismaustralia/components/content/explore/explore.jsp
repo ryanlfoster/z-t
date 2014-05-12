@@ -54,19 +54,20 @@
 	<div class="carousel-center-container">
 	<div class="carousel-owl-mobile-fill">
 	<div id="carousel" class="owl-carousel owl-theme">
+<<<<<<< HEAD
 
 <%-- Tab 1 Carousel --%>
-		<%-- Card 1 --%>
-		<c:set var="card" value="${explore.tabs[0].cards[0]}" scope="request"/>
-		<cq:include script="explorecard.jsp" />
+	<%-- Card 1 --%>
+	<c:set var="card" value="${explore.tabs[0].cards[0]}" scope="request"/>
+	<cq:include script="explorecard.jsp" />
 
-		<%-- Card 2 --%>
-		<c:set var="card" value="${explore.tabs[0].cards[1]}" scope="request"/>
-		<cq:include script="explorecard.jsp" />
+	<%-- Card 2 --%>
+	<c:set var="card" value="${explore.tabs[0].cards[1]}" scope="request"/>
+	<cq:include script="explorecard.jsp" />
 
-		<%-- Card 3 --%>
-		<c:set var="card" value="${explore.tabs[0].cards[2]}" scope="request"/>
-		<cq:include script="explorecard.jsp" />
+	<%-- Card 3 --%>
+	<c:set var="card" value="${explore.tabs[0].cards[2]}" scope="request"/>
+	<cq:include script="explorecard.jsp" />
 
 <%-- Tab 2 Carousel --%>
 	<%-- Card 1 --%>

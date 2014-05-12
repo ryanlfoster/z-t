@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -14,11 +13,13 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for BEGenericListWithHeaderItemType complex type.
+ * <p>
+ * Java class for BEGenericListWithHeaderItemType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="BEGenericListWithHeaderItemType">
@@ -38,116 +39,96 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "BEGenericListWithHeaderItemType", propOrder = {
-    "ancArticle",
-    "medArticle",
-    "stfTitle"
-})
+@XmlType(name = "BEGenericListWithHeaderItemType", propOrder = { "ancArticle", "medArticle", "stfTitle" })
 public class BEGenericListWithHeaderItemType {
 
-    @XmlElement(name = "anc_article", required = true)
-    protected String ancArticle;
-    @XmlElement(name = "med_article", required = true)
-    protected String medArticle;
-    @XmlElement(name = "stf_title", required = true)
-    protected String stfTitle;
-    @XmlAttribute(name = "isTemplate")
-    protected Byte isTemplate;
+	@XmlElement(name = "anc_article", required = true)
+	protected String ancArticle;
+	@XmlElement(name = "med_article", required = true)
+	protected String medArticle;
+	@XmlElement(name = "stf_title", required = true)
+	protected String stfTitle;
+	@XmlAttribute(name = "isTemplate")
+	protected Byte isTemplate;
 
-    /**
-     * Gets the value of the ancArticle property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getAncArticle() {
-        return ancArticle;
-    }
+	/**
+	 * Gets the value of the ancArticle property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getAncArticle() {
+		return ancArticle;
+	}
 
-    /**
-     * Sets the value of the ancArticle property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setAncArticle(String value) {
-        this.ancArticle = value;
-    }
+	/**
+	 * Sets the value of the ancArticle property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setAncArticle(String value) {
+		this.ancArticle = value;
+	}
 
-    /**
-     * Gets the value of the medArticle property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getMedArticle() {
-        return medArticle;
-    }
+	/**
+	 * Gets the value of the medArticle property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getMedArticle() {
+		return medArticle;
+	}
 
-    /**
-     * Sets the value of the medArticle property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setMedArticle(String value) {
-        this.medArticle = value;
-    }
+	/**
+	 * Sets the value of the medArticle property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setMedArticle(String value) {
+		this.medArticle = value;
+	}
 
-    /**
-     * Gets the value of the stfTitle property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfTitle() {
-        return stfTitle;
-    }
+	/**
+	 * Gets the value of the stfTitle property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfTitle() {
+		return stfTitle;
+	}
 
-    /**
-     * Sets the value of the stfTitle property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfTitle(String value) {
-        this.stfTitle = value;
-    }
+	/**
+	 * Sets the value of the stfTitle property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfTitle(String value) {
+		this.stfTitle = value;
+	}
 
-    /**
-     * Gets the value of the isTemplate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Byte }
-     *     
-     */
-    public Byte getIsTemplate() {
-        return isTemplate;
-    }
+	/**
+	 * Gets the value of the isTemplate property.
+	 * 
+	 * @return possible object is {@link Byte }
+	 * 
+	 */
+	public Byte getIsTemplate() {
+		return isTemplate;
+	}
 
-    /**
-     * Sets the value of the isTemplate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Byte }
-     *     
-     */
-    public void setIsTemplate(Byte value) {
-        this.isTemplate = value;
-    }
+	/**
+	 * Sets the value of the isTemplate property.
+	 * 
+	 * @param value allowed object is {@link Byte }
+	 * 
+	 */
+	public void setIsTemplate(Byte value) {
+		this.isTemplate = value;
+	}
 
 }

@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -14,11 +13,13 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for BELayoutT2Type complex type.
+ * <p>
+ * Java class for BELayoutT2Type complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="BELayoutT2Type">
@@ -39,143 +40,118 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "BELayoutT2Type", propOrder = {
-    "stfHeader",
-    "conContent",
-    "conMapTest",
-    "conPopularCombinations"
-})
+@XmlType(name = "BELayoutT2Type", propOrder = { "stfHeader", "conContent", "conMapTest", "conPopularCombinations" })
 public class BELayoutT2Type {
 
-    @XmlElement(name = "stf_header", required = true)
-    protected String stfHeader;
-    @XmlElement(name = "con_Content", required = true)
-    protected ConContentType2 conContent;
-    @XmlElement(name = "con_MapTest", required = true)
-    protected ConMapTestType conMapTest;
-    @XmlElement(name = "con_PopularCombinations", required = true)
-    protected ConPopularCombinationsType conPopularCombinations;
-    @XmlAttribute(name = "isTemplate")
-    protected Byte isTemplate;
+	@XmlElement(name = "stf_header", required = true)
+	protected String stfHeader;
+	@XmlElement(name = "con_Content", required = true)
+	protected ConContentType2 conContent;
+	@XmlElement(name = "con_MapTest", required = true)
+	protected ConMapTestType conMapTest;
+	@XmlElement(name = "con_PopularCombinations", required = true)
+	protected ConPopularCombinationsType conPopularCombinations;
+	@XmlAttribute(name = "isTemplate")
+	protected Byte isTemplate;
 
-    /**
-     * Gets the value of the stfHeader property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfHeader() {
-        return stfHeader;
-    }
+	/**
+	 * Gets the value of the stfHeader property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfHeader() {
+		return stfHeader;
+	}
 
-    /**
-     * Sets the value of the stfHeader property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfHeader(String value) {
-        this.stfHeader = value;
-    }
+	/**
+	 * Sets the value of the stfHeader property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfHeader(String value) {
+		this.stfHeader = value;
+	}
 
-    /**
-     * Gets the value of the conContent property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link ConContentType2 }
-     *     
-     */
-    public ConContentType2 getConContent() {
-        return conContent;
-    }
+	/**
+	 * Gets the value of the conContent property.
+	 * 
+	 * @return possible object is {@link ConContentType2 }
+	 * 
+	 */
+	public ConContentType2 getConContent() {
+		return conContent;
+	}
 
-    /**
-     * Sets the value of the conContent property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link ConContentType2 }
-     *     
-     */
-    public void setConContent(ConContentType2 value) {
-        this.conContent = value;
-    }
+	/**
+	 * Sets the value of the conContent property.
+	 * 
+	 * @param value allowed object is {@link ConContentType2 }
+	 * 
+	 */
+	public void setConContent(ConContentType2 value) {
+		this.conContent = value;
+	}
 
-    /**
-     * Gets the value of the conMapTest property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link ConMapTestType }
-     *     
-     */
-    public ConMapTestType getConMapTest() {
-        return conMapTest;
-    }
+	/**
+	 * Gets the value of the conMapTest property.
+	 * 
+	 * @return possible object is {@link ConMapTestType }
+	 * 
+	 */
+	public ConMapTestType getConMapTest() {
+		return conMapTest;
+	}
 
-    /**
-     * Sets the value of the conMapTest property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link ConMapTestType }
-     *     
-     */
-    public void setConMapTest(ConMapTestType value) {
-        this.conMapTest = value;
-    }
+	/**
+	 * Sets the value of the conMapTest property.
+	 * 
+	 * @param value allowed object is {@link ConMapTestType }
+	 * 
+	 */
+	public void setConMapTest(ConMapTestType value) {
+		this.conMapTest = value;
+	}
 
-    /**
-     * Gets the value of the conPopularCombinations property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link ConPopularCombinationsType }
-     *     
-     */
-    public ConPopularCombinationsType getConPopularCombinations() {
-        return conPopularCombinations;
-    }
+	/**
+	 * Gets the value of the conPopularCombinations property.
+	 * 
+	 * @return possible object is {@link ConPopularCombinationsType }
+	 * 
+	 */
+	public ConPopularCombinationsType getConPopularCombinations() {
+		return conPopularCombinations;
+	}
 
-    /**
-     * Sets the value of the conPopularCombinations property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link ConPopularCombinationsType }
-     *     
-     */
-    public void setConPopularCombinations(ConPopularCombinationsType value) {
-        this.conPopularCombinations = value;
-    }
+	/**
+	 * Sets the value of the conPopularCombinations property.
+	 * 
+	 * @param value allowed object is {@link ConPopularCombinationsType }
+	 * 
+	 */
+	public void setConPopularCombinations(ConPopularCombinationsType value) {
+		this.conPopularCombinations = value;
+	}
 
-    /**
-     * Gets the value of the isTemplate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Byte }
-     *     
-     */
-    public Byte getIsTemplate() {
-        return isTemplate;
-    }
+	/**
+	 * Gets the value of the isTemplate property.
+	 * 
+	 * @return possible object is {@link Byte }
+	 * 
+	 */
+	public Byte getIsTemplate() {
+		return isTemplate;
+	}
 
-    /**
-     * Sets the value of the isTemplate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Byte }
-     *     
-     */
-    public void setIsTemplate(Byte value) {
-        this.isTemplate = value;
-    }
+	/**
+	 * Sets the value of the isTemplate property.
+	 * 
+	 * @param value allowed object is {@link Byte }
+	 * 
+	 */
+	public void setIsTemplate(Byte value) {
+		this.isTemplate = value;
+	}
 
 }

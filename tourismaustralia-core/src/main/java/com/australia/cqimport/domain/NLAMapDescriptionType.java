@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -15,11 +14,13 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlSchemaType;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for NLAMapDescriptionType complex type.
+ * <p>
+ * Java class for NLAMapDescriptionType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="NLAMapDescriptionType">
@@ -39,117 +40,97 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "NLAMapDescriptionType", propOrder = {
-    "stfTitle",
-    "stfTitleTagLine",
-    "stfMapLink"
-})
+@XmlType(name = "NLAMapDescriptionType", propOrder = { "stfTitle", "stfTitleTagLine", "stfMapLink" })
 public class NLAMapDescriptionType {
 
-    @XmlElement(name = "stf_Title", required = true)
-    protected String stfTitle;
-    @XmlElement(name = "stf_TitleTagLine", required = true)
-    protected String stfTitleTagLine;
-    @XmlElement(name = "stf_MapLink", required = true)
-    @XmlSchemaType(name = "anyURI")
-    protected String stfMapLink;
-    @XmlAttribute(name = "isTemplate")
-    protected Byte isTemplate;
+	@XmlElement(name = "stf_Title", required = true)
+	protected String stfTitle;
+	@XmlElement(name = "stf_TitleTagLine", required = true)
+	protected String stfTitleTagLine;
+	@XmlElement(name = "stf_MapLink", required = true)
+	@XmlSchemaType(name = "anyURI")
+	protected String stfMapLink;
+	@XmlAttribute(name = "isTemplate")
+	protected Byte isTemplate;
 
-    /**
-     * Gets the value of the stfTitle property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfTitle() {
-        return stfTitle;
-    }
+	/**
+	 * Gets the value of the stfTitle property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfTitle() {
+		return stfTitle;
+	}
 
-    /**
-     * Sets the value of the stfTitle property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfTitle(String value) {
-        this.stfTitle = value;
-    }
+	/**
+	 * Sets the value of the stfTitle property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfTitle(String value) {
+		this.stfTitle = value;
+	}
 
-    /**
-     * Gets the value of the stfTitleTagLine property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfTitleTagLine() {
-        return stfTitleTagLine;
-    }
+	/**
+	 * Gets the value of the stfTitleTagLine property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfTitleTagLine() {
+		return stfTitleTagLine;
+	}
 
-    /**
-     * Sets the value of the stfTitleTagLine property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfTitleTagLine(String value) {
-        this.stfTitleTagLine = value;
-    }
+	/**
+	 * Sets the value of the stfTitleTagLine property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfTitleTagLine(String value) {
+		this.stfTitleTagLine = value;
+	}
 
-    /**
-     * Gets the value of the stfMapLink property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfMapLink() {
-        return stfMapLink;
-    }
+	/**
+	 * Gets the value of the stfMapLink property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfMapLink() {
+		return stfMapLink;
+	}
 
-    /**
-     * Sets the value of the stfMapLink property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfMapLink(String value) {
-        this.stfMapLink = value;
-    }
+	/**
+	 * Sets the value of the stfMapLink property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfMapLink(String value) {
+		this.stfMapLink = value;
+	}
 
-    /**
-     * Gets the value of the isTemplate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Byte }
-     *     
-     */
-    public Byte getIsTemplate() {
-        return isTemplate;
-    }
+	/**
+	 * Gets the value of the isTemplate property.
+	 * 
+	 * @return possible object is {@link Byte }
+	 * 
+	 */
+	public Byte getIsTemplate() {
+		return isTemplate;
+	}
 
-    /**
-     * Sets the value of the isTemplate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Byte }
-     *     
-     */
-    public void setIsTemplate(Byte value) {
-        this.isTemplate = value;
-    }
+	/**
+	 * Sets the value of the isTemplate property.
+	 * 
+	 * @param value allowed object is {@link Byte }
+	 * 
+	 */
+	public void setIsTemplate(Byte value) {
+		this.isTemplate = value;
+	}
 
 }

@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -14,11 +13,13 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for BEDestinationsKeyFactsType complex type.
+ * <p>
+ * Java class for BEDestinationsKeyFactsType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="BEDestinationsKeyFactsType">
@@ -46,332 +47,274 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "BEDestinationsKeyFactsType", propOrder = {
-    "stfTitle",
-    "ancLink",
-    "lstVideoItems",
-    "stfHeader",
-    "stfImageAltText",
-    "stfVideoTitle",
-    "txtVideoDesc",
-    "stfOtherTitle",
-    "txtFirstColumn",
-    "txtSecondColumn",
-    "txtThirdColumn"
-})
+@XmlType(name = "BEDestinationsKeyFactsType", propOrder = { "stfTitle", "ancLink", "lstVideoItems", "stfHeader",
+	"stfImageAltText", "stfVideoTitle", "txtVideoDesc", "stfOtherTitle", "txtFirstColumn", "txtSecondColumn",
+	"txtThirdColumn" })
 public class BEDestinationsKeyFactsType {
 
-    @XmlElement(name = "stf_title")
-    protected String stfTitle;
-    @XmlElement(name = "anc_link")
-    protected String ancLink;
-    @XmlElement(name = "lst_videoItems")
-    protected LstVideoItemsType lstVideoItems;
-    @XmlElement(name = "stf_header")
-    protected String stfHeader;
-    @XmlElement(name = "stf_ImageAltText")
-    protected String stfImageAltText;
-    @XmlElement(name = "stf_videoTitle")
-    protected String stfVideoTitle;
-    @XmlElement(name = "txt_videoDesc")
-    protected String txtVideoDesc;
-    @XmlElement(name = "stf_Title")
-    protected String stfOtherTitle;
-    @XmlElement(name = "txt_FirstColumn")
-    protected String txtFirstColumn;
-    @XmlElement(name = "txt_SecondColumn")
-    protected String txtSecondColumn;
-    @XmlElement(name = "txt_ThirdColumn")
-    protected String txtThirdColumn;
-    @XmlAttribute(name = "isTemplate")
-    protected Byte isTemplate;
+	@XmlElement(name = "stf_title")
+	protected String stfTitle;
+	@XmlElement(name = "anc_link")
+	protected String ancLink;
+	@XmlElement(name = "lst_videoItems")
+	protected LstVideoItemsType lstVideoItems;
+	@XmlElement(name = "stf_header")
+	protected String stfHeader;
+	@XmlElement(name = "stf_ImageAltText")
+	protected String stfImageAltText;
+	@XmlElement(name = "stf_videoTitle")
+	protected String stfVideoTitle;
+	@XmlElement(name = "txt_videoDesc")
+	protected String txtVideoDesc;
+	@XmlElement(name = "stf_Title")
+	protected String stfOtherTitle;
+	@XmlElement(name = "txt_FirstColumn")
+	protected String txtFirstColumn;
+	@XmlElement(name = "txt_SecondColumn")
+	protected String txtSecondColumn;
+	@XmlElement(name = "txt_ThirdColumn")
+	protected String txtThirdColumn;
+	@XmlAttribute(name = "isTemplate")
+	protected Byte isTemplate;
 
-    /**
-     * Gets the value of the stfTitle property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfTitle() {
-        return stfTitle;
-    }
+	/**
+	 * Gets the value of the stfTitle property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfTitle() {
+		return stfTitle;
+	}
 
-    /**
-     * Sets the value of the stfTitle property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfTitle(String value) {
-        this.stfTitle = value;
-    }
+	/**
+	 * Sets the value of the stfTitle property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfTitle(String value) {
+		this.stfTitle = value;
+	}
 
-    /**
-     * Gets the value of the ancLink property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getAncLink() {
-        return ancLink;
-    }
+	/**
+	 * Gets the value of the ancLink property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getAncLink() {
+		return ancLink;
+	}
 
-    /**
-     * Sets the value of the ancLink property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setAncLink(String value) {
-        this.ancLink = value;
-    }
+	/**
+	 * Sets the value of the ancLink property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setAncLink(String value) {
+		this.ancLink = value;
+	}
 
-    /**
-     * Gets the value of the lstVideoItems property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link LstVideoItemsType }
-     *     
-     */
-    public LstVideoItemsType getLstVideoItems() {
-        return lstVideoItems;
-    }
+	/**
+	 * Gets the value of the lstVideoItems property.
+	 * 
+	 * @return possible object is {@link LstVideoItemsType }
+	 * 
+	 */
+	public LstVideoItemsType getLstVideoItems() {
+		return lstVideoItems;
+	}
 
-    /**
-     * Sets the value of the lstVideoItems property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link LstVideoItemsType }
-     *     
-     */
-    public void setLstVideoItems(LstVideoItemsType value) {
-        this.lstVideoItems = value;
-    }
+	/**
+	 * Sets the value of the lstVideoItems property.
+	 * 
+	 * @param value allowed object is {@link LstVideoItemsType }
+	 * 
+	 */
+	public void setLstVideoItems(LstVideoItemsType value) {
+		this.lstVideoItems = value;
+	}
 
-    /**
-     * Gets the value of the stfHeader property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfHeader() {
-        return stfHeader;
-    }
+	/**
+	 * Gets the value of the stfHeader property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfHeader() {
+		return stfHeader;
+	}
 
-    /**
-     * Sets the value of the stfHeader property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfHeader(String value) {
-        this.stfHeader = value;
-    }
+	/**
+	 * Sets the value of the stfHeader property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfHeader(String value) {
+		this.stfHeader = value;
+	}
 
-    /**
-     * Gets the value of the stfImageAltText property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfImageAltText() {
-        return stfImageAltText;
-    }
+	/**
+	 * Gets the value of the stfImageAltText property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfImageAltText() {
+		return stfImageAltText;
+	}
 
-    /**
-     * Sets the value of the stfImageAltText property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfImageAltText(String value) {
-        this.stfImageAltText = value;
-    }
+	/**
+	 * Sets the value of the stfImageAltText property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfImageAltText(String value) {
+		this.stfImageAltText = value;
+	}
 
-    /**
-     * Gets the value of the stfVideoTitle property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfVideoTitle() {
-        return stfVideoTitle;
-    }
+	/**
+	 * Gets the value of the stfVideoTitle property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfVideoTitle() {
+		return stfVideoTitle;
+	}
 
-    /**
-     * Sets the value of the stfVideoTitle property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfVideoTitle(String value) {
-        this.stfVideoTitle = value;
-    }
+	/**
+	 * Sets the value of the stfVideoTitle property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfVideoTitle(String value) {
+		this.stfVideoTitle = value;
+	}
 
-    /**
-     * Gets the value of the txtVideoDesc property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getTxtVideoDesc() {
-        return txtVideoDesc;
-    }
+	/**
+	 * Gets the value of the txtVideoDesc property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getTxtVideoDesc() {
+		return txtVideoDesc;
+	}
 
-    /**
-     * Sets the value of the txtVideoDesc property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setTxtVideoDesc(String value) {
-        this.txtVideoDesc = value;
-    }
+	/**
+	 * Sets the value of the txtVideoDesc property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setTxtVideoDesc(String value) {
+		this.txtVideoDesc = value;
+	}
 
-    /**
-     * Gets the value of the stfOtherTitle property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfOtherTitle() {
-        return stfOtherTitle;
-    }
+	/**
+	 * Gets the value of the stfOtherTitle property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfOtherTitle() {
+		return stfOtherTitle;
+	}
 
-    /**
-     * Sets the value of the stfOtherTitle property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfOtherTitle(String value) {
-        this.stfOtherTitle = value;
-    }
+	/**
+	 * Sets the value of the stfOtherTitle property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfOtherTitle(String value) {
+		this.stfOtherTitle = value;
+	}
 
-    /**
-     * Gets the value of the txtFirstColumn property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getTxtFirstColumn() {
-        return txtFirstColumn;
-    }
+	/**
+	 * Gets the value of the txtFirstColumn property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getTxtFirstColumn() {
+		return txtFirstColumn;
+	}
 
-    /**
-     * Sets the value of the txtFirstColumn property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setTxtFirstColumn(String value) {
-        this.txtFirstColumn = value;
-    }
+	/**
+	 * Sets the value of the txtFirstColumn property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setTxtFirstColumn(String value) {
+		this.txtFirstColumn = value;
+	}
 
-    /**
-     * Gets the value of the txtSecondColumn property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getTxtSecondColumn() {
-        return txtSecondColumn;
-    }
+	/**
+	 * Gets the value of the txtSecondColumn property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getTxtSecondColumn() {
+		return txtSecondColumn;
+	}
 
-    /**
-     * Sets the value of the txtSecondColumn property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setTxtSecondColumn(String value) {
-        this.txtSecondColumn = value;
-    }
+	/**
+	 * Sets the value of the txtSecondColumn property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setTxtSecondColumn(String value) {
+		this.txtSecondColumn = value;
+	}
 
-    /**
-     * Gets the value of the txtThirdColumn property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getTxtThirdColumn() {
-        return txtThirdColumn;
-    }
+	/**
+	 * Gets the value of the txtThirdColumn property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getTxtThirdColumn() {
+		return txtThirdColumn;
+	}
 
-    /**
-     * Sets the value of the txtThirdColumn property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setTxtThirdColumn(String value) {
-        this.txtThirdColumn = value;
-    }
+	/**
+	 * Sets the value of the txtThirdColumn property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setTxtThirdColumn(String value) {
+		this.txtThirdColumn = value;
+	}
 
-    /**
-     * Gets the value of the isTemplate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Byte }
-     *     
-     */
-    public Byte getIsTemplate() {
-        return isTemplate;
-    }
+	/**
+	 * Gets the value of the isTemplate property.
+	 * 
+	 * @return possible object is {@link Byte }
+	 * 
+	 */
+	public Byte getIsTemplate() {
+		return isTemplate;
+	}
 
-    /**
-     * Sets the value of the isTemplate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Byte }
-     *     
-     */
-    public void setIsTemplate(Byte value) {
-        this.isTemplate = value;
-    }
+	/**
+	 * Sets the value of the isTemplate property.
+	 * 
+	 * @param value allowed object is {@link Byte }
+	 * 
+	 */
+	public void setIsTemplate(Byte value) {
+		this.isTemplate = value;
+	}
 
 }

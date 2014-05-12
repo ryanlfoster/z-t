@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -14,11 +13,13 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for BEHomeCarouselType complex type.
+ * <p>
+ * Java class for BEHomeCarouselType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="BEHomeCarouselType">
@@ -39,143 +40,119 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "BEHomeCarouselType", propOrder = {
-    "imgCarouselItem",
-    "stfCarouselItemLinkText",
-    "stfScrollerLabel",
-    "ancCarouselItemLink"
-})
+@XmlType(name = "BEHomeCarouselType", propOrder = { "imgCarouselItem", "stfCarouselItemLinkText", "stfScrollerLabel",
+	"ancCarouselItemLink" })
 public class BEHomeCarouselType {
 
-    @XmlElement(name = "img_CarouselItem", required = true)
-    protected String imgCarouselItem;
-    @XmlElement(name = "stf_CarouselItemLinkText", required = true)
-    protected String stfCarouselItemLinkText;
-    @XmlElement(name = "stf_ScrollerLabel", required = true)
-    protected String stfScrollerLabel;
-    @XmlElement(name = "anc_CarouselItemLink", required = true)
-    protected String ancCarouselItemLink;
-    @XmlAttribute(name = "isTemplate")
-    protected Byte isTemplate;
+	@XmlElement(name = "img_CarouselItem", required = true)
+	protected String imgCarouselItem;
+	@XmlElement(name = "stf_CarouselItemLinkText", required = true)
+	protected String stfCarouselItemLinkText;
+	@XmlElement(name = "stf_ScrollerLabel", required = true)
+	protected String stfScrollerLabel;
+	@XmlElement(name = "anc_CarouselItemLink", required = true)
+	protected String ancCarouselItemLink;
+	@XmlAttribute(name = "isTemplate")
+	protected Byte isTemplate;
 
-    /**
-     * Gets the value of the imgCarouselItem property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getImgCarouselItem() {
-        return imgCarouselItem;
-    }
+	/**
+	 * Gets the value of the imgCarouselItem property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getImgCarouselItem() {
+		return imgCarouselItem;
+	}
 
-    /**
-     * Sets the value of the imgCarouselItem property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setImgCarouselItem(String value) {
-        this.imgCarouselItem = value;
-    }
+	/**
+	 * Sets the value of the imgCarouselItem property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setImgCarouselItem(String value) {
+		this.imgCarouselItem = value;
+	}
 
-    /**
-     * Gets the value of the stfCarouselItemLinkText property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfCarouselItemLinkText() {
-        return stfCarouselItemLinkText;
-    }
+	/**
+	 * Gets the value of the stfCarouselItemLinkText property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfCarouselItemLinkText() {
+		return stfCarouselItemLinkText;
+	}
 
-    /**
-     * Sets the value of the stfCarouselItemLinkText property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfCarouselItemLinkText(String value) {
-        this.stfCarouselItemLinkText = value;
-    }
+	/**
+	 * Sets the value of the stfCarouselItemLinkText property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfCarouselItemLinkText(String value) {
+		this.stfCarouselItemLinkText = value;
+	}
 
-    /**
-     * Gets the value of the stfScrollerLabel property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfScrollerLabel() {
-        return stfScrollerLabel;
-    }
+	/**
+	 * Gets the value of the stfScrollerLabel property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfScrollerLabel() {
+		return stfScrollerLabel;
+	}
 
-    /**
-     * Sets the value of the stfScrollerLabel property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfScrollerLabel(String value) {
-        this.stfScrollerLabel = value;
-    }
+	/**
+	 * Sets the value of the stfScrollerLabel property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfScrollerLabel(String value) {
+		this.stfScrollerLabel = value;
+	}
 
-    /**
-     * Gets the value of the ancCarouselItemLink property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getAncCarouselItemLink() {
-        return ancCarouselItemLink;
-    }
+	/**
+	 * Gets the value of the ancCarouselItemLink property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getAncCarouselItemLink() {
+		return ancCarouselItemLink;
+	}
 
-    /**
-     * Sets the value of the ancCarouselItemLink property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setAncCarouselItemLink(String value) {
-        this.ancCarouselItemLink = value;
-    }
+	/**
+	 * Sets the value of the ancCarouselItemLink property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setAncCarouselItemLink(String value) {
+		this.ancCarouselItemLink = value;
+	}
 
-    /**
-     * Gets the value of the isTemplate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Byte }
-     *     
-     */
-    public Byte getIsTemplate() {
-        return isTemplate;
-    }
+	/**
+	 * Gets the value of the isTemplate property.
+	 * 
+	 * @return possible object is {@link Byte }
+	 * 
+	 */
+	public Byte getIsTemplate() {
+		return isTemplate;
+	}
 
-    /**
-     * Sets the value of the isTemplate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Byte }
-     *     
-     */
-    public void setIsTemplate(Byte value) {
-        this.isTemplate = value;
-    }
+	/**
+	 * Sets the value of the isTemplate property.
+	 * 
+	 * @param value allowed object is {@link Byte }
+	 * 
+	 */
+	public void setIsTemplate(Byte value) {
+		this.isTemplate = value;
+	}
 
 }

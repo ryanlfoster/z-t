@@ -6,11 +6,11 @@ import com.citytechinc.cq.component.annotations.widgets.PathField;
 
 public class SocialLinksProperties {
 
-	@DialogField(fieldLabel = "Link Image",required=true,fieldDescription="This image/logo appears on page load")
+	@DialogField(fieldLabel = "Link Image", required = true, fieldDescription = "This image/logo appears on page load")
 	@PathField(rootPath = "/content/dam")
 	private final String socialLinksLogoPath;
 
-	@DialogField(fieldLabel = "Link Hover Image",required=true,fieldDescription="This image/logo appears on hover of Link Image")
+	@DialogField(fieldLabel = "Link Hover Image", required = true, fieldDescription = "This image/logo appears on hover of Link Image")
 	@PathField(rootPath = "/content/dam")
 	private final String linkLogoHoverPath;
 

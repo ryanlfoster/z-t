@@ -5,21 +5,23 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import java.util.ArrayList;
 import java.util.List;
+
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for anc_linksType complex type.
+ * <p>
+ * Java class for anc_linksType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="anc_linksType">
@@ -36,41 +38,40 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "anc_linksType", propOrder = {
-    "ancLink"
-})
+@XmlType(name = "anc_linksType", propOrder = { "ancLink" })
 public class AncLinksType {
 
-    @XmlElement(name = "anc_link")
-    protected List<AncLinkType> ancLink;
+	@XmlElement(name = "anc_link")
+	protected List<AncLinkType> ancLink;
 
-    /**
-     * Gets the value of the ancLink property.
-     * 
-     * <p>
-     * This accessor method returns a reference to the live list,
-     * not a snapshot. Therefore any modification you make to the
-     * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the ancLink property.
-     * 
-     * <p>
-     * For example, to add a new item, do as follows:
-     * <pre>
-     *    getAncLink().add(newItem);
-     * </pre>
-     * 
-     * 
-     * <p>
-     * Objects of the following type(s) are allowed in the list
-     * {@link AncLinkType }
-     * 
-     * 
-     */
-    public List<AncLinkType> getAncLink() {
-        if (ancLink == null) {
-            ancLink = new ArrayList<AncLinkType>();
-        }
-        return this.ancLink;
-    }
+	/**
+	 * Gets the value of the ancLink property.
+	 * 
+	 * <p>
+	 * This accessor method returns a reference to the live list, not a
+	 * snapshot. Therefore any modification you make to the returned list will
+	 * be present inside the JAXB object. This is why there is not a
+	 * <CODE>set</CODE> method for the ancLink property.
+	 * 
+	 * <p>
+	 * For example, to add a new item, do as follows:
+	 * 
+	 * <pre>
+	 * getAncLink().add(newItem);
+	 * </pre>
+	 * 
+	 * 
+	 * <p>
+	 * Objects of the following type(s) are allowed in the list
+	 * {@link AncLinkType }
+	 * 
+	 * 
+	 */
+	public List<AncLinkType> getAncLink() {
+		if (ancLink == null) {
+			ancLink = new ArrayList<AncLinkType>();
+		}
+		return this.ancLink;
+	}
 
 }

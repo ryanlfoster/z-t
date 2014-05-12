@@ -53,7 +53,7 @@
         var currentPagePath = $(scope.element).data('pagepath');
         $.ajax({
             type: "GET",
-            url: "/bin/favorites/add.json?page="+currentPagePath,
+            url: "/bin/favorites/list.json?page="+currentPagePath,
             success: function(data) {
                 var favouriteCount = data.length;
                 if(favouriteCount > 0) {
@@ -97,11 +97,6 @@
                 }
             });
         }
-    };
-
-    // increment favourite
-    Plugin.prototype.incrementTotal = function (scope, e){
-        console.log($(scope.element.widget_heart_this).find('.my-trip-count').val());
     };
 
     // A really lightweight plugin wrapper around the constructor,

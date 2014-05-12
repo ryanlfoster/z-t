@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -13,11 +12,13 @@ import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for lst_LinkType complex type.
+ * <p>
+ * Java class for lst_LinkType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="lst_LinkType">
@@ -36,90 +37,74 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "lst_LinkType", propOrder = {
-    "url",
-    "imgEvent",
-    "ancLink"
-})
+@XmlType(name = "lst_LinkType", propOrder = { "url", "imgEvent", "ancLink" })
 public class LstLinkType {
 
-    @XmlElement(required = true)
-    protected String url;
-    @XmlElement(name = "img_Event", required = true)
-    protected String imgEvent;
-    @XmlElement(name = "anc_Link", required = true)
-    protected String ancLink;
+	@XmlElement(required = true)
+	protected String url;
+	@XmlElement(name = "img_Event", required = true)
+	protected String imgEvent;
+	@XmlElement(name = "anc_Link", required = true)
+	protected String ancLink;
 
-    /**
-     * Gets the value of the url property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getUrl() {
-        return url;
-    }
+	/**
+	 * Gets the value of the url property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getUrl() {
+		return url;
+	}
 
-    /**
-     * Sets the value of the url property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setUrl(String value) {
-        this.url = value;
-    }
+	/**
+	 * Sets the value of the url property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setUrl(String value) {
+		this.url = value;
+	}
 
-    /**
-     * Gets the value of the imgEvent property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getImgEvent() {
-        return imgEvent;
-    }
+	/**
+	 * Gets the value of the imgEvent property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getImgEvent() {
+		return imgEvent;
+	}
 
-    /**
-     * Sets the value of the imgEvent property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setImgEvent(String value) {
-        this.imgEvent = value;
-    }
+	/**
+	 * Sets the value of the imgEvent property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setImgEvent(String value) {
+		this.imgEvent = value;
+	}
 
-    /**
-     * Gets the value of the ancLink property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getAncLink() {
-        return ancLink;
-    }
+	/**
+	 * Gets the value of the ancLink property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getAncLink() {
+		return ancLink;
+	}
 
-    /**
-     * Sets the value of the ancLink property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setAncLink(String value) {
-        this.ancLink = value;
-    }
+	/**
+	 * Sets the value of the ancLink property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setAncLink(String value) {
+		this.ancLink = value;
+	}
 
 }

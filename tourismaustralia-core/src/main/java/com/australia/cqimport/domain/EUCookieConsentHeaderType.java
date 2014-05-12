@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -14,11 +13,13 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for EUCookieConsentHeaderType complex type.
+ * <p>
+ * Java class for EUCookieConsentHeaderType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="EUCookieConsentHeaderType">
@@ -39,143 +40,119 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "EUCookieConsentHeaderType", propOrder = {
-    "stfCookieMessage",
-    "stfCookiePolicyTargetedCountries",
-    "stfLinkText",
-    "ancPolicyLink"
-})
+@XmlType(name = "EUCookieConsentHeaderType", propOrder = { "stfCookieMessage", "stfCookiePolicyTargetedCountries",
+	"stfLinkText", "ancPolicyLink" })
 public class EUCookieConsentHeaderType {
 
-    @XmlElement(name = "stf_CookieMessage", required = true)
-    protected String stfCookieMessage;
-    @XmlElement(name = "stf_CookiePolicyTargetedCountries", required = true)
-    protected String stfCookiePolicyTargetedCountries;
-    @XmlElement(name = "stf_LinkText", required = true)
-    protected String stfLinkText;
-    @XmlElement(name = "anc_PolicyLink", required = true)
-    protected String ancPolicyLink;
-    @XmlAttribute(name = "isTemplate")
-    protected Byte isTemplate;
+	@XmlElement(name = "stf_CookieMessage", required = true)
+	protected String stfCookieMessage;
+	@XmlElement(name = "stf_CookiePolicyTargetedCountries", required = true)
+	protected String stfCookiePolicyTargetedCountries;
+	@XmlElement(name = "stf_LinkText", required = true)
+	protected String stfLinkText;
+	@XmlElement(name = "anc_PolicyLink", required = true)
+	protected String ancPolicyLink;
+	@XmlAttribute(name = "isTemplate")
+	protected Byte isTemplate;
 
-    /**
-     * Gets the value of the stfCookieMessage property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfCookieMessage() {
-        return stfCookieMessage;
-    }
+	/**
+	 * Gets the value of the stfCookieMessage property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfCookieMessage() {
+		return stfCookieMessage;
+	}
 
-    /**
-     * Sets the value of the stfCookieMessage property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfCookieMessage(String value) {
-        this.stfCookieMessage = value;
-    }
+	/**
+	 * Sets the value of the stfCookieMessage property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfCookieMessage(String value) {
+		this.stfCookieMessage = value;
+	}
 
-    /**
-     * Gets the value of the stfCookiePolicyTargetedCountries property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfCookiePolicyTargetedCountries() {
-        return stfCookiePolicyTargetedCountries;
-    }
+	/**
+	 * Gets the value of the stfCookiePolicyTargetedCountries property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfCookiePolicyTargetedCountries() {
+		return stfCookiePolicyTargetedCountries;
+	}
 
-    /**
-     * Sets the value of the stfCookiePolicyTargetedCountries property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfCookiePolicyTargetedCountries(String value) {
-        this.stfCookiePolicyTargetedCountries = value;
-    }
+	/**
+	 * Sets the value of the stfCookiePolicyTargetedCountries property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfCookiePolicyTargetedCountries(String value) {
+		this.stfCookiePolicyTargetedCountries = value;
+	}
 
-    /**
-     * Gets the value of the stfLinkText property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfLinkText() {
-        return stfLinkText;
-    }
+	/**
+	 * Gets the value of the stfLinkText property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfLinkText() {
+		return stfLinkText;
+	}
 
-    /**
-     * Sets the value of the stfLinkText property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfLinkText(String value) {
-        this.stfLinkText = value;
-    }
+	/**
+	 * Sets the value of the stfLinkText property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfLinkText(String value) {
+		this.stfLinkText = value;
+	}
 
-    /**
-     * Gets the value of the ancPolicyLink property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getAncPolicyLink() {
-        return ancPolicyLink;
-    }
+	/**
+	 * Gets the value of the ancPolicyLink property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getAncPolicyLink() {
+		return ancPolicyLink;
+	}
 
-    /**
-     * Sets the value of the ancPolicyLink property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setAncPolicyLink(String value) {
-        this.ancPolicyLink = value;
-    }
+	/**
+	 * Sets the value of the ancPolicyLink property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setAncPolicyLink(String value) {
+		this.ancPolicyLink = value;
+	}
 
-    /**
-     * Gets the value of the isTemplate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Byte }
-     *     
-     */
-    public Byte getIsTemplate() {
-        return isTemplate;
-    }
+	/**
+	 * Gets the value of the isTemplate property.
+	 * 
+	 * @return possible object is {@link Byte }
+	 * 
+	 */
+	public Byte getIsTemplate() {
+		return isTemplate;
+	}
 
-    /**
-     * Sets the value of the isTemplate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Byte }
-     *     
-     */
-    public void setIsTemplate(Byte value) {
-        this.isTemplate = value;
-    }
+	/**
+	 * Sets the value of the isTemplate property.
+	 * 
+	 * @param value allowed object is {@link Byte }
+	 * 
+	 */
+	public void setIsTemplate(Byte value) {
+		this.isTemplate = value;
+	}
 
 }

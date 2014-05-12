@@ -8671,11 +8671,18 @@ input.btn-secondary {
 .icon-map-wrapper {
   background: none;
   text-align: center;
-  padding: 0.5em;
+  padding: 0.5em 0;
   max-width: 100%;
+  margin-bottom: 0;
 }
 
-/* line 255, ../../assets/scss/site/modules/_icon.scss */
+/* line 256, ../../assets/scss/site/modules/_icon.scss */
+.icon-map-wrapper-gradient {
+  height: 14.95em;
+  background: url(../imgs/pages/home/bg_gradient_carousel.png) repeat-x;
+}
+
+/* line 262, ../../assets/scss/site/modules/_icon.scss */
 .icon-map {
   width: 111px;
   height: 111px;
@@ -8692,7 +8699,7 @@ input.btn-secondary {
   margin-bottom: 2em;
   margin-top: 2em;
 }
-/* line 271, ../../assets/scss/site/modules/_icon.scss */
+/* line 278, ../../assets/scss/site/modules/_icon.scss */
 .icon-map span {
   position: absolute;
   top: 120px;
@@ -8703,64 +8710,74 @@ input.btn-secondary {
   left: -5px;
 }
 
-/* line 282, ../../assets/scss/site/modules/_icon.scss */
+/* line 289, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-small {
-  width: 61px;
-  height: 61px;
   background: url("../imgs/map-icons/map-icons-sprite-small.png");
+  width: 80px;
+  height: 80px;
+  margin-left: 0.3em;
+  margin-right: 0.3em;
+}
+/* line 296, ../../assets/scss/site/modules/_icon.scss */
+.icon-map-small span {
+  position: absolute;
+  top: 95px;
+  width: 80px;
+  left: 0;
+  font-size: 0.75em;
 }
 
-/* line 288, ../../assets/scss/site/modules/_icon.scss */
+/* line 305, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-white {
   border: 1px white solid;
 }
-/* line 291, ../../assets/scss/site/modules/_icon.scss */
+/* line 308, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-white:hover {
-  background-color: #393939;
-  border: 1px #393939 solid;
+  background-color: #cfcfcf;
+  background-color: rgba(255, 255, 255, 0.4);
 }
-/* line 296, ../../assets/scss/site/modules/_icon.scss */
+/* line 313, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-white span {
   color: white;
 }
-/* line 300, ../../assets/scss/site/modules/_icon.scss */
+/* line 317, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-white.icon-map-small {
   background-position: -478px -20px;
 }
 
-/* line 305, ../../assets/scss/site/modules/_icon.scss */
+/* line 322, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-white-active {
   background-position: 0px -113px;
   background-color: white;
 }
-/* line 308, ../../assets/scss/site/modules/_icon.scss */
+/* line 325, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-white-active span {
   font-family: "ProximaNova Bold", Helvetica, Arial, sans-serif;
 }
 
-/* line 313, ../../assets/scss/site/modules/_icon.scss */
+/* line 330, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-black {
   background-position: 0px -113px;
   border: 1px #393939 solid;
 }
-/* line 317, ../../assets/scss/site/modules/_icon.scss */
+/* line 334, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-black:hover {
   background-color: #393939;
 }
-/* line 321, ../../assets/scss/site/modules/_icon.scss */
+/* line 338, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-black span {
   color: #393939;
 }
-/* line 325, ../../assets/scss/site/modules/_icon.scss */
+/* line 342, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-black.icon-map-small {
   background-position: -478px -111px;
 }
 
-/* line 330, ../../assets/scss/site/modules/_icon.scss */
+/* line 347, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-black-active {
   background-color: #393939;
 }
-/* line 332, ../../assets/scss/site/modules/_icon.scss */
+/* line 349, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-black-active span {
   font-family: "ProximaNova Bold", Helvetica, Arial, sans-serif;
 }
@@ -8769,253 +8786,285 @@ input.btn-secondary {
     Example usage:
     @include itemstate(bgXpos, bgYpos)
  */
-/* line 372, ../../assets/scss/site/modules/_icon.scss */
+/* line 389, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-capital {
   background-position: 0px -113px;
 }
-/* line 358, ../../assets/scss/site/modules/_icon.scss */
+/* line 375, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-capital:hover {
   background-position: 0px 0px;
 }
-/* line 362, ../../assets/scss/site/modules/_icon.scss */
+/* line 379, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-capital.icon-map-black-active {
   background-position: 0px 0px;
 }
 
-/* line 375, ../../assets/scss/site/modules/_icon.scss */
+/* line 392, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-nsw {
   background-position: -111px -113px;
 }
-/* line 358, ../../assets/scss/site/modules/_icon.scss */
+/* line 375, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-nsw:hover {
   background-position: -111px 0px;
 }
-/* line 362, ../../assets/scss/site/modules/_icon.scss */
+/* line 379, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-nsw.icon-map-black-active {
   background-position: -111px 0px;
 }
 
-/* line 378, ../../assets/scss/site/modules/_icon.scss */
+/* line 395, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-northern {
   background-position: -222px -113px;
 }
-/* line 358, ../../assets/scss/site/modules/_icon.scss */
+/* line 375, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-northern:hover {
   background-position: -222px 0px;
 }
-/* line 362, ../../assets/scss/site/modules/_icon.scss */
+/* line 379, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-northern.icon-map-black-active {
   background-position: -222px 0px;
 }
 
-/* line 381, ../../assets/scss/site/modules/_icon.scss */
+/* line 398, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-queensland {
   background-position: -333px -113px;
 }
-/* line 358, ../../assets/scss/site/modules/_icon.scss */
+/* line 375, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-queensland:hover {
   background-position: -333px 0px;
 }
-/* line 362, ../../assets/scss/site/modules/_icon.scss */
+/* line 379, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-queensland.icon-map-black-active {
   background-position: -333px 0px;
 }
 
-/* line 384, ../../assets/scss/site/modules/_icon.scss */
+/* line 401, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-south {
   background-position: -444px -113px;
 }
-/* line 358, ../../assets/scss/site/modules/_icon.scss */
+/* line 375, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-south:hover {
   background-position: -444px 0px;
 }
-/* line 362, ../../assets/scss/site/modules/_icon.scss */
+/* line 379, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-south.icon-map-black-active {
   background-position: -444px 0px;
 }
 
-/* line 387, ../../assets/scss/site/modules/_icon.scss */
+/* line 404, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-tasmania {
   background-position: -555px -113px;
 }
-/* line 358, ../../assets/scss/site/modules/_icon.scss */
+/* line 375, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-tasmania:hover {
   background-position: -555px 0px;
 }
-/* line 362, ../../assets/scss/site/modules/_icon.scss */
+/* line 379, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-tasmania.icon-map-black-active {
   background-position: -555px 0px;
 }
 
-/* line 390, ../../assets/scss/site/modules/_icon.scss */
+/* line 407, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-victoria {
   background-position: -666px -113px;
 }
-/* line 358, ../../assets/scss/site/modules/_icon.scss */
+/* line 375, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-victoria:hover {
   background-position: -666px 0px;
 }
-/* line 362, ../../assets/scss/site/modules/_icon.scss */
+/* line 379, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-victoria.icon-map-black-active {
   background-position: -666px 0px;
 }
 
-/* line 393, ../../assets/scss/site/modules/_icon.scss */
+/* line 410, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-western {
   background-position: -777px -113px;
 }
-/* line 358, ../../assets/scss/site/modules/_icon.scss */
+/* line 375, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-western:hover {
   background-position: -777px 0px;
 }
-/* line 362, ../../assets/scss/site/modules/_icon.scss */
+/* line 379, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-western.icon-map-black-active {
   background-position: -777px 0px;
 }
 
-/* line 411, ../../assets/scss/site/modules/_icon.scss */
+/* line 439, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-small.icon-map-white.icon-map-capital {
-  background-position: -766px -20px;
-}
-/* line 405, ../../assets/scss/site/modules/_icon.scss */
-.icon-map-small.icon-map-white.icon-map-capital:hover {
-  background-position: -766px -20px;
-}
-/* line 414, ../../assets/scss/site/modules/_icon.scss */
-.icon-map-small.icon-map-white.icon-map-nsw {
-  background-position: -119px -20px;
-}
-/* line 405, ../../assets/scss/site/modules/_icon.scss */
-.icon-map-small.icon-map-white.icon-map-nsw:hover {
-  background-position: -119px -20px;
-}
-/* line 417, ../../assets/scss/site/modules/_icon.scss */
-.icon-map-small.icon-map-white.icon-map-northern {
-  background-position: -209px -20px;
-}
-/* line 405, ../../assets/scss/site/modules/_icon.scss */
-.icon-map-small.icon-map-white.icon-map-northern:hover {
-  background-position: -209px -20px;
-}
-/* line 420, ../../assets/scss/site/modules/_icon.scss */
-.icon-map-small.icon-map-white.icon-map-queensland {
-  background-position: -299px -20px;
-}
-/* line 405, ../../assets/scss/site/modules/_icon.scss */
-.icon-map-small.icon-map-white.icon-map-queensland:hover {
-  background-position: -299px -20px;
+  background-position: -758px -10px;
 }
 /* line 423, ../../assets/scss/site/modules/_icon.scss */
+.icon-map-small.icon-map-white.icon-map-capital:hover {
+  background-position: -758px -10px;
+}
+/* line 442, ../../assets/scss/site/modules/_icon.scss */
+.icon-map-small.icon-map-white.icon-map-nsw {
+  background-position: -111px -10px;
+}
+/* line 423, ../../assets/scss/site/modules/_icon.scss */
+.icon-map-small.icon-map-white.icon-map-nsw:hover {
+  background-position: -111px -10px;
+}
+/* line 445, ../../assets/scss/site/modules/_icon.scss */
+.icon-map-small.icon-map-white.icon-map-northern {
+  background-position: -201px -10px;
+}
+/* line 423, ../../assets/scss/site/modules/_icon.scss */
+.icon-map-small.icon-map-white.icon-map-northern:hover {
+  background-position: -201px -10px;
+}
+/* line 448, ../../assets/scss/site/modules/_icon.scss */
+.icon-map-small.icon-map-white.icon-map-queensland {
+  background-position: -291px -10px;
+}
+/* line 423, ../../assets/scss/site/modules/_icon.scss */
+.icon-map-small.icon-map-white.icon-map-queensland:hover {
+  background-position: -291px -10px;
+}
+/* line 451, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-small.icon-map-white.icon-map-south {
-  background-position: -388px -20px;
+  background-position: -380px -10px;
 }
-/* line 405, ../../assets/scss/site/modules/_icon.scss */
+/* line 423, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-small.icon-map-white.icon-map-south:hover {
-  background-position: -388px -20px;
+  background-position: -380px -10px;
 }
-/* line 426, ../../assets/scss/site/modules/_icon.scss */
+/* line 454, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-small.icon-map-white.icon-map-tasmania {
-  background-position: -478px -20px;
+  background-position: -18px -10px;
 }
-/* line 405, ../../assets/scss/site/modules/_icon.scss */
+/* line 423, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-small.icon-map-white.icon-map-tasmania:hover {
-  background-position: -478px -20px;
+  background-position: -18px -10px;
 }
-/* line 429, ../../assets/scss/site/modules/_icon.scss */
+/* line 457, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-small.icon-map-white.icon-map-victoria {
-  background-position: -568px -20px;
+  background-position: -560px -10px;
 }
-/* line 405, ../../assets/scss/site/modules/_icon.scss */
+/* line 423, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-small.icon-map-white.icon-map-victoria:hover {
-  background-position: -568px -20px;
+  background-position: -560px -10px;
 }
-/* line 432, ../../assets/scss/site/modules/_icon.scss */
+/* line 460, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-small.icon-map-white.icon-map-western {
-  background-position: -657px -20px;
+  background-position: -649px -10px;
 }
-/* line 405, ../../assets/scss/site/modules/_icon.scss */
+/* line 423, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-small.icon-map-white.icon-map-western:hover {
-  background-position: -657px -20px;
+  background-position: -649px -10px;
 }
 
-/* line 438, ../../assets/scss/site/modules/_icon.scss */
+/* line 466, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-small.icon-map-black.icon-map-capital {
-  background-position: -766px -111px;
+  background-position: -758px -101px;
 }
-/* line 405, ../../assets/scss/site/modules/_icon.scss */
+/* line 430, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-small.icon-map-black.icon-map-capital:hover {
-  background-position: -766px -111px;
+  background-position: -758px -10px;
 }
-/* line 441, ../../assets/scss/site/modules/_icon.scss */
+/* line 433, ../../assets/scss/site/modules/_icon.scss */
+.icon-map-small.icon-map-black.icon-map-capital.icon-map-black-active {
+  background-position: -758px -10px;
+}
+/* line 469, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-small.icon-map-black.icon-map-nsw {
-  background-position: -119px -111px;
+  background-position: -111px -101px;
 }
-/* line 405, ../../assets/scss/site/modules/_icon.scss */
+/* line 430, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-small.icon-map-black.icon-map-nsw:hover {
-  background-position: -119px -111px;
+  background-position: -111px -10px;
 }
-/* line 444, ../../assets/scss/site/modules/_icon.scss */
+/* line 433, ../../assets/scss/site/modules/_icon.scss */
+.icon-map-small.icon-map-black.icon-map-nsw.icon-map-black-active {
+  background-position: -111px -10px;
+}
+/* line 472, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-small.icon-map-black.icon-map-northern {
-  background-position: -209px -111px;
+  background-position: -201px -101px;
 }
-/* line 405, ../../assets/scss/site/modules/_icon.scss */
+/* line 430, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-small.icon-map-black.icon-map-northern:hover {
-  background-position: -209px -111px;
+  background-position: -201px -10px;
 }
-/* line 447, ../../assets/scss/site/modules/_icon.scss */
+/* line 433, ../../assets/scss/site/modules/_icon.scss */
+.icon-map-small.icon-map-black.icon-map-northern.icon-map-black-active {
+  background-position: -201px -10px;
+}
+/* line 475, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-small.icon-map-black.icon-map-queensland {
-  background-position: -299px -111px;
+  background-position: -291px -101px;
 }
-/* line 405, ../../assets/scss/site/modules/_icon.scss */
+/* line 430, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-small.icon-map-black.icon-map-queensland:hover {
-  background-position: -299px -111px;
+  background-position: -291px -10px;
 }
-/* line 450, ../../assets/scss/site/modules/_icon.scss */
+/* line 433, ../../assets/scss/site/modules/_icon.scss */
+.icon-map-small.icon-map-black.icon-map-queensland.icon-map-black-active {
+  background-position: -291px -10px;
+}
+/* line 478, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-small.icon-map-black.icon-map-south {
-  background-position: -388px -111px;
+  background-position: -380px -101px;
 }
-/* line 405, ../../assets/scss/site/modules/_icon.scss */
+/* line 430, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-small.icon-map-black.icon-map-south:hover {
-  background-position: -388px -111px;
+  background-position: -380px -10px;
 }
-/* line 453, ../../assets/scss/site/modules/_icon.scss */
+/* line 433, ../../assets/scss/site/modules/_icon.scss */
+.icon-map-small.icon-map-black.icon-map-south.icon-map-black-active {
+  background-position: -380px -10px;
+}
+/* line 481, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-small.icon-map-black.icon-map-tasmania {
-  background-position: -478px -111px;
+  background-position: -18px -101px;
 }
-/* line 405, ../../assets/scss/site/modules/_icon.scss */
+/* line 430, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-small.icon-map-black.icon-map-tasmania:hover {
-  background-position: -478px -111px;
+  background-position: -18px -10px;
 }
-/* line 456, ../../assets/scss/site/modules/_icon.scss */
+/* line 433, ../../assets/scss/site/modules/_icon.scss */
+.icon-map-small.icon-map-black.icon-map-tasmania.icon-map-black-active {
+  background-position: -18px -10px;
+}
+/* line 484, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-small.icon-map-black.icon-map-victoria {
-  background-position: -568px -111px;
+  background-position: -560px -101px;
 }
-/* line 405, ../../assets/scss/site/modules/_icon.scss */
+/* line 430, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-small.icon-map-black.icon-map-victoria:hover {
-  background-position: -568px -111px;
+  background-position: -560px -10px;
 }
-/* line 459, ../../assets/scss/site/modules/_icon.scss */
+/* line 433, ../../assets/scss/site/modules/_icon.scss */
+.icon-map-small.icon-map-black.icon-map-victoria.icon-map-black-active {
+  background-position: -560px -10px;
+}
+/* line 487, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-small.icon-map-black.icon-map-western {
-  background-position: -657px -111px;
+  background-position: -649px -101px;
 }
-/* line 405, ../../assets/scss/site/modules/_icon.scss */
+/* line 430, ../../assets/scss/site/modules/_icon.scss */
 .icon-map-small.icon-map-black.icon-map-western:hover {
-  background-position: -657px -111px;
+  background-position: -649px -10px;
+}
+/* line 433, ../../assets/scss/site/modules/_icon.scss */
+.icon-map-small.icon-map-black.icon-map-western.icon-map-black-active {
+  background-position: -649px -10px;
 }
 
-/* line 464, ../../assets/scss/site/modules/_icon.scss */
+/* line 492, ../../assets/scss/site/modules/_icon.scss */
 .owl-replaced-pagination {
   z-index: 9\9;
 }
 
-/* line 468, ../../assets/scss/site/modules/_icon.scss */
+/* line 496, ../../assets/scss/site/modules/_icon.scss */
 .owl-replaced-pagination .icon-map-small {
   width: 80px;
   height: 80px;
   margin-left: 0.5em;
   margin-right: 0.5em;
 }
-/* line 474, ../../assets/scss/site/modules/_icon.scss */
+/* line 502, ../../assets/scss/site/modules/_icon.scss */
 .owl-replaced-pagination .icon-map-small span {
   position: absolute;
   top: 95px;
@@ -9023,183 +9072,183 @@ input.btn-secondary {
   left: 0;
   font-size: 0.75em;
 }
-/* line 482, ../../assets/scss/site/modules/_icon.scss */
+/* line 510, ../../assets/scss/site/modules/_icon.scss */
 .owl-replaced-pagination .icon-map-small.icon-map-capital {
   background-position: -758px -10px;
 }
-/* line 405, ../../assets/scss/site/modules/_icon.scss */
+/* line 423, ../../assets/scss/site/modules/_icon.scss */
 .owl-replaced-pagination .icon-map-small.icon-map-capital:hover {
   background-position: -758px -10px;
 }
-/* line 485, ../../assets/scss/site/modules/_icon.scss */
+/* line 513, ../../assets/scss/site/modules/_icon.scss */
 .owl-replaced-pagination .icon-map-small.icon-map-nsw {
   background-position: -111px -10px;
 }
-/* line 405, ../../assets/scss/site/modules/_icon.scss */
+/* line 423, ../../assets/scss/site/modules/_icon.scss */
 .owl-replaced-pagination .icon-map-small.icon-map-nsw:hover {
   background-position: -111px -10px;
 }
-/* line 488, ../../assets/scss/site/modules/_icon.scss */
+/* line 516, ../../assets/scss/site/modules/_icon.scss */
 .owl-replaced-pagination .icon-map-small.icon-map-northern {
   background-position: -201px -10px;
 }
-/* line 405, ../../assets/scss/site/modules/_icon.scss */
+/* line 423, ../../assets/scss/site/modules/_icon.scss */
 .owl-replaced-pagination .icon-map-small.icon-map-northern:hover {
   background-position: -201px -10px;
 }
-/* line 491, ../../assets/scss/site/modules/_icon.scss */
+/* line 519, ../../assets/scss/site/modules/_icon.scss */
 .owl-replaced-pagination .icon-map-small.icon-map-queensland {
   background-position: -291px -10px;
 }
-/* line 405, ../../assets/scss/site/modules/_icon.scss */
+/* line 423, ../../assets/scss/site/modules/_icon.scss */
 .owl-replaced-pagination .icon-map-small.icon-map-queensland:hover {
   background-position: -291px -10px;
 }
-/* line 494, ../../assets/scss/site/modules/_icon.scss */
+/* line 522, ../../assets/scss/site/modules/_icon.scss */
 .owl-replaced-pagination .icon-map-small.icon-map-south {
   background-position: -380px -10px;
 }
-/* line 405, ../../assets/scss/site/modules/_icon.scss */
+/* line 423, ../../assets/scss/site/modules/_icon.scss */
 .owl-replaced-pagination .icon-map-small.icon-map-south:hover {
   background-position: -380px -10px;
 }
-/* line 497, ../../assets/scss/site/modules/_icon.scss */
+/* line 525, ../../assets/scss/site/modules/_icon.scss */
 .owl-replaced-pagination .icon-map-small.icon-map-tasmania {
   background-position: -18px -10px;
 }
-/* line 405, ../../assets/scss/site/modules/_icon.scss */
+/* line 423, ../../assets/scss/site/modules/_icon.scss */
 .owl-replaced-pagination .icon-map-small.icon-map-tasmania:hover {
   background-position: -18px -10px;
 }
-/* line 500, ../../assets/scss/site/modules/_icon.scss */
+/* line 528, ../../assets/scss/site/modules/_icon.scss */
 .owl-replaced-pagination .icon-map-small.icon-map-victoria {
   background-position: -560px -10px;
 }
-/* line 405, ../../assets/scss/site/modules/_icon.scss */
+/* line 423, ../../assets/scss/site/modules/_icon.scss */
 .owl-replaced-pagination .icon-map-small.icon-map-victoria:hover {
   background-position: -560px -10px;
 }
-/* line 503, ../../assets/scss/site/modules/_icon.scss */
+/* line 531, ../../assets/scss/site/modules/_icon.scss */
 .owl-replaced-pagination .icon-map-small.icon-map-western {
   background-position: -649px -10px;
 }
-/* line 405, ../../assets/scss/site/modules/_icon.scss */
+/* line 423, ../../assets/scss/site/modules/_icon.scss */
 .owl-replaced-pagination .icon-map-small.icon-map-western:hover {
   background-position: -649px -10px;
 }
 
-/* line 510, ../../assets/scss/site/modules/_icon.scss */
+/* line 538, ../../assets/scss/site/modules/_icon.scss */
 .faw-bg-full-container .icon-map-capital {
   background-position: 0px 0px;
 }
-/* line 343, ../../assets/scss/site/modules/_icon.scss */
+/* line 360, ../../assets/scss/site/modules/_icon.scss */
 .faw-bg-full-container .icon-map-capital:hover {
   background-position: 0px 0px;
 }
-/* line 347, ../../assets/scss/site/modules/_icon.scss */
+/* line 364, ../../assets/scss/site/modules/_icon.scss */
 .faw-bg-full-container .icon-map-capital.icon-map-black-active {
   background-position: 0px 0px;
 }
 
-/* line 513, ../../assets/scss/site/modules/_icon.scss */
+/* line 541, ../../assets/scss/site/modules/_icon.scss */
 .faw-bg-full-container .icon-map-nsw {
   background-position: -111px 0px;
 }
-/* line 343, ../../assets/scss/site/modules/_icon.scss */
+/* line 360, ../../assets/scss/site/modules/_icon.scss */
 .faw-bg-full-container .icon-map-nsw:hover {
   background-position: -111px 0px;
 }
-/* line 347, ../../assets/scss/site/modules/_icon.scss */
+/* line 364, ../../assets/scss/site/modules/_icon.scss */
 .faw-bg-full-container .icon-map-nsw.icon-map-black-active {
   background-position: -111px 0px;
 }
 
-/* line 516, ../../assets/scss/site/modules/_icon.scss */
+/* line 544, ../../assets/scss/site/modules/_icon.scss */
 .faw-bg-full-container .icon-map-northern {
   background-position: -222px 0px;
 }
-/* line 343, ../../assets/scss/site/modules/_icon.scss */
+/* line 360, ../../assets/scss/site/modules/_icon.scss */
 .faw-bg-full-container .icon-map-northern:hover {
   background-position: -222px 0px;
 }
-/* line 347, ../../assets/scss/site/modules/_icon.scss */
+/* line 364, ../../assets/scss/site/modules/_icon.scss */
 .faw-bg-full-container .icon-map-northern.icon-map-black-active {
   background-position: -222px 0px;
 }
 
-/* line 519, ../../assets/scss/site/modules/_icon.scss */
+/* line 547, ../../assets/scss/site/modules/_icon.scss */
 .faw-bg-full-container .icon-map-queensland {
   background-position: -333px 0px;
 }
-/* line 343, ../../assets/scss/site/modules/_icon.scss */
+/* line 360, ../../assets/scss/site/modules/_icon.scss */
 .faw-bg-full-container .icon-map-queensland:hover {
   background-position: -333px 0px;
 }
-/* line 347, ../../assets/scss/site/modules/_icon.scss */
+/* line 364, ../../assets/scss/site/modules/_icon.scss */
 .faw-bg-full-container .icon-map-queensland.icon-map-black-active {
   background-position: -333px 0px;
 }
 
-/* line 522, ../../assets/scss/site/modules/_icon.scss */
+/* line 550, ../../assets/scss/site/modules/_icon.scss */
 .faw-bg-full-container .icon-map-south {
   background-position: -444px 0px;
 }
-/* line 343, ../../assets/scss/site/modules/_icon.scss */
+/* line 360, ../../assets/scss/site/modules/_icon.scss */
 .faw-bg-full-container .icon-map-south:hover {
   background-position: -444px 0px;
 }
-/* line 347, ../../assets/scss/site/modules/_icon.scss */
+/* line 364, ../../assets/scss/site/modules/_icon.scss */
 .faw-bg-full-container .icon-map-south.icon-map-black-active {
   background-position: -444px 0px;
 }
 
-/* line 525, ../../assets/scss/site/modules/_icon.scss */
+/* line 553, ../../assets/scss/site/modules/_icon.scss */
 .faw-bg-full-container .icon-map-tasmania {
   background-position: -555px 0px;
 }
-/* line 343, ../../assets/scss/site/modules/_icon.scss */
+/* line 360, ../../assets/scss/site/modules/_icon.scss */
 .faw-bg-full-container .icon-map-tasmania:hover {
   background-position: -555px 0px;
 }
-/* line 347, ../../assets/scss/site/modules/_icon.scss */
+/* line 364, ../../assets/scss/site/modules/_icon.scss */
 .faw-bg-full-container .icon-map-tasmania.icon-map-black-active {
   background-position: -555px 0px;
 }
 
-/* line 528, ../../assets/scss/site/modules/_icon.scss */
+/* line 556, ../../assets/scss/site/modules/_icon.scss */
 .faw-bg-full-container .icon-map-victoria {
   background-position: -666px 0px;
 }
-/* line 343, ../../assets/scss/site/modules/_icon.scss */
+/* line 360, ../../assets/scss/site/modules/_icon.scss */
 .faw-bg-full-container .icon-map-victoria:hover {
   background-position: -666px 0px;
 }
-/* line 347, ../../assets/scss/site/modules/_icon.scss */
+/* line 364, ../../assets/scss/site/modules/_icon.scss */
 .faw-bg-full-container .icon-map-victoria.icon-map-black-active {
   background-position: -666px 0px;
 }
 
-/* line 531, ../../assets/scss/site/modules/_icon.scss */
+/* line 559, ../../assets/scss/site/modules/_icon.scss */
 .faw-bg-full-container .icon-map-western {
   background-position: -777px 0px;
 }
-/* line 343, ../../assets/scss/site/modules/_icon.scss */
+/* line 360, ../../assets/scss/site/modules/_icon.scss */
 .faw-bg-full-container .icon-map-western:hover {
   background-position: -777px 0px;
 }
-/* line 347, ../../assets/scss/site/modules/_icon.scss */
+/* line 364, ../../assets/scss/site/modules/_icon.scss */
 .faw-bg-full-container .icon-map-western.icon-map-black-active {
   background-position: -777px 0px;
 }
 
-/* line 536, ../../assets/scss/site/modules/_icon.scss */
+/* line 564, ../../assets/scss/site/modules/_icon.scss */
 .icon-google-color {
   background-repeat: no-repeat;
   display: inline-block;
   margin-top: -3px;
 }
 
-/* line 542, ../../assets/scss/site/modules/_icon.scss */
+/* line 570, ../../assets/scss/site/modules/_icon.scss */
 .icon-atdw-color {
   background-repeat: no-repeat;
   display: inline-block;
@@ -11618,16 +11667,15 @@ input[type=checkbox].checkbox + label.checkbox-label {
 
 /* line 65, ../../assets/scss/site/modules/_sortedlist.scss */
 .sorted-list-item {
-  cursor: pointer;
   padding: 0.5em;
   padding-left: 0.5em;
   margin-left: 0em;
 }
-/* line 71, ../../assets/scss/site/modules/_sortedlist.scss */
+/* line 70, ../../assets/scss/site/modules/_sortedlist.scss */
 .sorted-list-item:hover {
   background-color: #ebebeb;
 }
-/* line 75, ../../assets/scss/site/modules/_sortedlist.scss */
+/* line 74, ../../assets/scss/site/modules/_sortedlist.scss */
 .sorted-list-item p {
   margin: 0em;
   line-height: 1.3em;
@@ -11643,7 +11691,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
   }
 }
 
-/* line 90, ../../assets/scss/site/modules/_sortedlist.scss */
+/* line 89, ../../assets/scss/site/modules/_sortedlist.scss */
 .sorted-list-item li a {
   font-size: 1.1em;
   font-family: "ProximaNova Bold", Helvetica, Arial, sans-serif;
@@ -11651,7 +11699,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
   text-decoration: underline;
 }
 
-/* line 97, ../../assets/scss/site/modules/_sortedlist.scss */
+/* line 96, ../../assets/scss/site/modules/_sortedlist.scss */
 .sorted-list-pagination {
   position: relative;
   text-align: center;
@@ -11661,7 +11709,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
   padding-right: 0;
 }
 
-/* line 106, ../../assets/scss/site/modules/_sortedlist.scss */
+/* line 105, ../../assets/scss/site/modules/_sortedlist.scss */
 .sorted-list-results-label {
   font-size: 0.9em;
   position: relative;
@@ -11669,7 +11717,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
   top: 0;
 }
 @media (min-width: 1200px) {
-  /* line 106, ../../assets/scss/site/modules/_sortedlist.scss */
+  /* line 105, ../../assets/scss/site/modules/_sortedlist.scss */
   .sorted-list-results-label {
     position: absolute;
     left: 0;
@@ -11677,7 +11725,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
   }
 }
 
-/* line 120, ../../assets/scss/site/modules/_sortedlist.scss */
+/* line 119, ../../assets/scss/site/modules/_sortedlist.scss */
 .sorted-list-pagination-buttons .btn-square {
   width: 40px;
   height: 40px;
@@ -11685,7 +11733,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
   font-size: 1.2em;
 }
 @media (min-width: 1200px) {
-  /* line 120, ../../assets/scss/site/modules/_sortedlist.scss */
+  /* line 119, ../../assets/scss/site/modules/_sortedlist.scss */
   .sorted-list-pagination-buttons .btn-square {
     width: 60px;
     height: 60px;
@@ -11694,7 +11742,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
   }
 }
 
-/* line 135, ../../assets/scss/site/modules/_sortedlist.scss */
+/* line 134, ../../assets/scss/site/modules/_sortedlist.scss */
 .sorted-list-head-mobile {
   border-top: 1px #bbbbbb solid;
   margin-top: 2em;
@@ -12890,49 +12938,62 @@ input[type=checkbox].checkbox + label.checkbox-label {
   position: absolute;
   bottom: 10px;
   left: 0;
+  background: none;
 }
 @media (min-width: 817px) {
   /* line 191, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
   .faw-places-theme .owl-replaced-pagination {
-    bottom: 60px;
+    bottom: 0px;
+    padding-top: 0em;
+    height: 12.375em;
+    background: url(../imgs/pages/home/bg_gradient_carousel.png) repeat-x;
   }
 }
-/* line 204, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
+@media (min-width: 1200px) {
+  /* line 191, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
+  .faw-places-theme .owl-replaced-pagination {
+    bottom: 0px;
+    padding-top: 3.75em;
+    height: 18.625em;
+    background: url(../imgs/pages/home/bg_gradient_carousel.png) repeat-x;
+  }
+}
+/* line 215, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
 .faw-places-theme .owl-replaced-pagination .icon-map-white:hover {
   background-color: #cfcfcf;
   background-color: rgba(255, 255, 255, 0.4);
   border-color: #fff;
 }
-/* line 211, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
+/* line 222, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
 .faw-places-theme .owl-replaced-page {
   display: inline-block;
   cursor: pointer;
 }
-/* line 215, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
+/* line 226, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
 .faw-places-theme .owl-replaced-page.active {
   cursor: default;
 }
-/* line 217, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
+/* line 228, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
 .faw-places-theme .owl-replaced-page.active .icon-map {
   background-color: #cfcfcf;
   background-color: rgba(255, 255, 255, 0.4);
 }
-/* line 223, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
+/* line 234, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
 .faw-places-theme .owl-replaced-page .icon-hidden {
   display: none;
 }
-/* line 230, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
+/* line 241, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
 .faw-places-theme .icon-map-hidden .icon-map {
   width: 10px;
   height: 10px;
   background-image: none;
   box-shadow: 0 0 2px 0 #000;
 }
-/* line 236, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
+/* line 247, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
 .faw-places-theme .icon-map-hidden .icon-map span {
   display: none;
 }
-/* line 241, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
+/* line 252, ../../assets/scss/site/modules/_foodandwineplacescarousel.scss */
 .faw-places-theme .icon-map-hidden.active .icon-map {
   background-color: rgba(0, 0, 0, 0.1);
 }
@@ -12958,6 +13019,8 @@ input[type=checkbox].checkbox + label.checkbox-label {
   padding-left: 1em;
   padding-right: 1em;
   font-family: "TAheadline", Helvetica, Arial, sans-serif;
+  margin-top: -11px;
+  margin-bottom: 11px;
 }
 @media (min-width: 768px) {
   /* line 11, ../../assets/scss/site/modules/_foodandwineherohome.scss */
@@ -12972,25 +13035,25 @@ input[type=checkbox].checkbox + label.checkbox-label {
   }
 }
 
-/* line 30, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 32, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .faw-hero-home-container .btn-auto-size {
   margin-left: 0em;
   margin-right: 0em;
 }
 
-/* line 36, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 38, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .faw-hero-home-headline {
   font-family: "TAheadline", Helvetica, Arial, sans-serif;
   padding-bottom: 0.5em;
 }
 
-/* line 41, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 43, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .fullwidth-bg {
   width: 100%;
   height: 100%;
 }
 
-/* line 47, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 49, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .faw-hero-home-container {
   position: relative;
   text-align: center;
@@ -13001,13 +13064,13 @@ input[type=checkbox].checkbox + label.checkbox-label {
   margin: 0;
 }
 @media (min-width: 768px) {
-  /* line 47, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+  /* line 49, ../../assets/scss/site/modules/_foodandwineherohome.scss */
   .faw-hero-home-container {
     padding-top: 5em;
   }
 }
 
-/* line 60, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 62, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .faw-hero-home-bg {
   width: 100%;
   height: 100%;
@@ -13019,17 +13082,17 @@ input[type=checkbox].checkbox + label.checkbox-label {
   /* IE 10 fix */
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  /* line 60, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+  /* line 62, ../../assets/scss/site/modules/_foodandwineherohome.scss */
   .faw-hero-home-bg {
     z-index: 0;
   }
 }
-/* line 75, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 77, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .faw-hero-home-bg img {
   width: 100%;
 }
 
-/* line 81, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 83, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .faw-hero-home-bg .responsive-image img {
   max-width: none;
 }
@@ -13038,45 +13101,45 @@ input[type=checkbox].checkbox + label.checkbox-label {
  Fix for when displaying within styleguide
  Image sits over all other elements due to position being fixed
 */
-/* line 90, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 92, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .sg-pattern .faw-hero-home-bg {
   position: absolute;
 }
 
-/* line 98, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 100, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .skrollr-desktop .faw-hero-home-bg {
   z-index: inherit;
 }
 
-/* line 104, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 106, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .faw-hero-home-container .icon-logo-withlines-container {
   margin: 0;
   height: 140px;
   overflow: hidden;
 }
 
-/* line 111, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 113, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .faw-hero-home.make-black .faw-hero-home-container .icon-logo-withlines-logo {
   color: #040000;
 }
-/* line 114, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 116, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .faw-hero-home.make-black hr {
   border-top: 1px solid #040000;
 }
-/* line 117, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 119, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .faw-hero-home.make-black h1 {
   color: #040000;
 }
 
-/* line 123, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 125, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .faw-hero-home.make-white .faw-hero-home-container .icon-logo-withlines-logo {
   color: #FFF;
 }
-/* line 126, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 128, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .faw-hero-home.make-white hr {
   border-top: 1px solid #FFF;
 }
-/* line 129, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 131, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .faw-hero-home.make-white h1 {
   color: #FFF;
 }
@@ -13096,42 +13159,42 @@ input[type=checkbox].checkbox + label.checkbox-label {
   }
 }
 */
-/* line 148, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 150, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .faw-hero-home-hr {
   margin: 0 auto;
   width: 230px;
 }
 @media (min-width: 768px) {
-  /* line 148, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+  /* line 150, ../../assets/scss/site/modules/_foodandwineherohome.scss */
   .faw-hero-home-hr {
     width: 230px;
   }
 }
 
-/* line 156, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 158, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .form-hero {
   padding-left: 1em;
   padding-right: 1em;
   position: relative;
   z-index: 1;
 }
-/* line 162, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 164, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .form-hero .btn-auto-size {
   width: 100%;
 }
 @media (min-width: 768px) {
-  /* line 162, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+  /* line 164, ../../assets/scss/site/modules/_foodandwineherohome.scss */
   .form-hero .btn-auto-size {
     width: auto;
   }
 }
 
-/* line 170, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 172, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .form-hero.is-active {
   z-index: 100;
 }
 
-/* line 175, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+/* line 177, ../../assets/scss/site/modules/_foodandwineherohome.scss */
 .form-hero-register {
   color: #040000;
   font-size: 0.875em;
@@ -13139,7 +13202,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
   max-width: 480px;
 }
 @media (min-width: 480px) {
-  /* line 175, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+  /* line 177, ../../assets/scss/site/modules/_foodandwineherohome.scss */
   .form-hero-register {
     font-size: 1.125em;
     padding: 0 1.4em;
@@ -13147,7 +13210,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
   }
 }
 @media (min-width: 768px) {
-  /* line 175, ../../assets/scss/site/modules/_foodandwineherohome.scss */
+  /* line 177, ../../assets/scss/site/modules/_foodandwineherohome.scss */
   .form-hero-register {
     max-width: 520px;
   }
@@ -13486,7 +13549,9 @@ input[type=checkbox].checkbox + label.checkbox-label {
 /* line 1, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
 .faw-register-teaser {
   text-align: center;
-  background: url(../imgs/pages/home/bg_register_teaser.png) repeat-x;
+  background: none;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.8);
   position: relative;
   left: 0;
   bottom: 0;
@@ -13494,11 +13559,17 @@ input[type=checkbox].checkbox + label.checkbox-label {
   padding: 1em;
   padding-top: 1.5em;
 }
-/* line 11, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
+@media (min-width: 768px) {
+  /* line 1, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
+  .faw-register-teaser {
+    background: url(../imgs/pages/home/bg_register_teaser.png) repeat-x;
+  }
+}
+/* line 16, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
 .faw-register-teaser .is-desktop {
   display: none;
 }
-/* line 15, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
+/* line 20, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
 .faw-register-teaser h5 {
   font-family: "ProximaNova Regular", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
@@ -13509,28 +13580,28 @@ input[type=checkbox].checkbox + label.checkbox-label {
   .faw-register-teaser {
     position: absolute;
   }
-  /* line 22, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
+  /* line 27, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
   .faw-register-teaser h5 {
     font-family: "TAheadline", Helvetica, Arial, sans-serif;
     letter-spacing: .015em;
     font-size: 1.5em;
   }
-  /* line 29, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
+  /* line 34, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
   .faw-register-teaser .is-mobile {
     display: none;
   }
-  /* line 32, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
+  /* line 37, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
   .faw-register-teaser .is-desktop {
     display: inline-block;
   }
 }
-/* line 37, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
+/* line 42, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
 .faw-register-teaser .headerlockup-type-sml1 {
   padding: 0;
   margin: 0;
   color: white;
 }
-/* line 43, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
+/* line 48, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
 .faw-register-teaser .headerlockup-hr {
   display: none;
   border-top: 1px solid white !important;
@@ -13538,12 +13609,12 @@ input[type=checkbox].checkbox + label.checkbox-label {
   margin-bottom: 1.9em;
 }
 @media (min-width: 768px) {
-  /* line 43, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
+  /* line 48, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
   .faw-register-teaser .headerlockup-hr {
     display: block;
   }
 }
-/* line 53, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
+/* line 58, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
 .faw-register-teaser .headerlockup-hr-mobile {
   border-top: 1px solid white !important;
   margin-top: 1.5em;
@@ -13551,13 +13622,13 @@ input[type=checkbox].checkbox + label.checkbox-label {
   display: block;
 }
 @media (min-width: 768px) {
-  /* line 53, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
+  /* line 58, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
   .faw-register-teaser .headerlockup-hr-mobile {
     display: none;
   }
 }
 
-/* line 64, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
+/* line 69, ../../assets/scss/site/modules/_foodandwineregisterteaser.scss */
 .faw-register-teaser-subline {
   color: white;
 }
@@ -13577,7 +13648,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
 /* line 13, ../../assets/scss/site/modules/_foodandwineplaces.scss */
 .faw-places-inner {
   position: relative;
-  padding-bottom: 3em;
+  padding-bottom: 0;
 }
 @media (min-width: 768px) {
   /* line 13, ../../assets/scss/site/modules/_foodandwineplaces.scss */
@@ -13602,14 +13673,14 @@ input[type=checkbox].checkbox + label.checkbox-label {
   position: relative;
   z-index: 4;
   padding: 33px 0 8px 0;
-  margin-bottom: -241px;
+  margin-bottom: -246px;
 }
 
 /* line 9, ../../assets/scss/site/modules/_socialcounter.scss */
 .socialcounter-inner {
   position: relative;
-  width: 185px;
-  height: 185px;
+  width: 195px;
+  height: 195px;
   text-align: center;
   padding: 10px;
   margin: 0 auto;
@@ -13620,8 +13691,8 @@ input[type=checkbox].checkbox + label.checkbox-label {
   position: absolute;
   top: 0;
   left: 20px;
-  width: 160px;
-  height: 160px;
+  width: 170px;
+  height: 170px;
   background-color: #007491;
   transform: rotate(45deg);
   -ms-transform: rotate(45deg);
@@ -13633,7 +13704,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
 
 /* line 32, ../../assets/scss/site/modules/_socialcounter.scss */
 .socialcounter-content {
-  width: 180px;
+  width: 190px;
   text-align: center;
   position: relative;
   z-index: 2;
@@ -13663,7 +13734,6 @@ input[type=checkbox].checkbox + label.checkbox-label {
 /* line 61, ../../assets/scss/site/modules/_socialcounter.scss */
 .socialcounter-link strong {
   font-weight: normal;
-  font-size: .7em;
   font-family: "ProximaNova Regular", Helvetica, Arial, sans-serif;
 }
 
@@ -13769,13 +13839,13 @@ input[type=checkbox].checkbox + label.checkbox-label {
 /* line 17, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-description {
   position: absolute;
-  bottom: 0;
+  bottom: 7px;
   left: 0;
   right: 0;
   margin: 9px 10px 3px 10px;
-  padding: 1em 0.5em !important;
+  padding: 1em 0.5em 0.4em 0.5em !important;
   text-align: left;
-  background: url("../imgs/base/black-gradient.png") repeat-x;
+  background: url("../imgs/base/black-gradient.png") repeat-x bottom;
 }
 
 /* line 29, ../../assets/scss/site/modules/_mosaic-item.scss */
@@ -13820,7 +13890,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
   position: absolute;
   right: 0.1em;
   right: 3px\0;
-  bottom: 0.4em;
+  bottom: 0.2em;
   color: white;
   width: 35px;
   height: 35px;
@@ -14125,8 +14195,9 @@ input[type=checkbox].checkbox + label.checkbox-label {
   z-index: 2;
   font-size: 1.125em;
   margin: 9px 9px 2px 8px;
+  min-height: 60px;
 }
-/* line 382, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 383, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-location .mosaic-item-location-icon {
   position: absolute;
   left: 1em;
@@ -14138,18 +14209,18 @@ input[type=checkbox].checkbox + label.checkbox-label {
 /*
  List view
 */
-/* line 399, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 400, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list {
   /*
   List view hide overlay
 */
 }
-/* line 405, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 406, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list:hover .mosaic-item-overlay, .mosaic-item-list:focus .mosaic-item-overlay {
   display: none;
 }
 
-/* line 414, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 415, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list {
   text-align: left;
   border-bottom: 1px #ebebeb solid;
@@ -14158,11 +14229,11 @@ input[type=checkbox].checkbox + label.checkbox-label {
   padding-top: 1.875em;
   overflow: visible;
 }
-/* line 423, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 424, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list:hover, .mosaic-item-list:focus {
   text-decoration: none;
 }
-/* line 427, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 428, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list .mosaic-item-description {
   top: 0;
   bottom: 0;
@@ -14174,17 +14245,17 @@ input[type=checkbox].checkbox + label.checkbox-label {
   display: block;
   background: none;
 }
-/* line 441, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 442, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list .mosaic-item-description-sub {
   color: #393939;
 }
-/* line 445, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 446, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list .mosaic-item-description-head {
   font-size: 2em;
   line-height: 1em;
   color: #393939;
 }
-/* line 451, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 452, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list .mosaic-item-description-copy {
   display: none !important;
   text-align: left;
@@ -14192,17 +14263,17 @@ input[type=checkbox].checkbox + label.checkbox-label {
   margin-top: 1em;
 }
 @media (min-width: 768px) {
-  /* line 451, ../../assets/scss/site/modules/_mosaic-item.scss */
+  /* line 452, ../../assets/scss/site/modules/_mosaic-item.scss */
   .mosaic-item-list .mosaic-item-description-copy {
     display: block !important;
   }
 }
-/* line 462, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 463, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list p {
   color: #393939;
   margin-left: 100px;
 }
-/* line 467, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 468, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list .mosaic-item-image {
   width: 100px;
   /* For Safari 3.1 to 6.0 */
@@ -14216,39 +14287,39 @@ input[type=checkbox].checkbox + label.checkbox-label {
   transition-timing-function: ease-out;
   transition-delay: 0s;
 }
-/* line 472, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 473, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list:hover {
   background-color: #ebebeb;
 }
-/* line 476, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 477, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list .mosaic-item-description-share {
   color: #393939;
   right: 0em;
   top: 0em;
 }
-/* line 482, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 483, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list .mosaic-item-description-share-dark {
   display: none;
 }
 @media (min-width: 768px) {
-  /* line 482, ../../assets/scss/site/modules/_mosaic-item.scss */
+  /* line 483, ../../assets/scss/site/modules/_mosaic-item.scss */
   .mosaic-item-list .mosaic-item-description-share-dark {
     display: block;
   }
 }
-/* line 490, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 491, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list .mosaic-item-description-share-white {
   display: none;
 }
 
-/* line 494, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 495, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid {
   text-align: center;
   border-bottom: 0px #ebebeb solid;
   margin-left: 0;
   margin-right: 0;
 }
-/* line 501, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 502, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid .mosaic-item-description {
   /*top: none;
   bottom: 0;
@@ -14259,11 +14330,11 @@ input[type=checkbox].checkbox + label.checkbox-label {
   padding-top: 22px !important;
   padding-bottom: 14px !important;
 }
-/* line 512, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 513, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid .mosaic-item-description-copy {
   display: none !important;
 }
-/* line 516, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 517, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid .mosaic-item-image {
   width: 100%;
   /* For Safari 3.1 to 6.0 */
@@ -14277,25 +14348,25 @@ input[type=checkbox].checkbox + label.checkbox-label {
   transition-timing-function: ease-out;
   transition-delay: 0s;
 }
-/* line 521, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 522, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid .mosaic-item-description-head {
   /*font-size: 1.5em;
   line-height: 1em;*/
 }
-/* line 526, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 527, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid p {
   color: white;
   margin-left: 0;
 }
-/* line 531, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 532, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid .mosaic-item-overlay {
   display: block;
 }
-/* line 535, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 536, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid:hover {
   background-color: white;
 }
-/* line 539, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 540, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid .mosaic-item-description-share {
   color: white;
   top: none;
@@ -14303,37 +14374,37 @@ input[type=checkbox].checkbox + label.checkbox-label {
   right: 3px\0;
   bottom: 0.4em;
 }
-/* line 547, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 548, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid .mosaic-item-description-share-dark {
   display: none;
 }
-/* line 551, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 552, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid .mosaic-item-description-share-white {
   display: block;
 }
 
-/* line 561, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 562, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item.mosaic-item-grid .mosaic-item-overlay {
   display: none\0 !important;
 }
 
-/* line 566, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 567, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item:hover .mosaic-item-overlay {
   display: block;
 }
 
-/* line 573, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 574, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item.mosaic-item-grid:hover .mosaic-item-overlay {
   display: block !important;
 }
 
-/* line 579, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 580, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item.mosaic-item-list:hover .mosaic-item-overlay, .mosaic-item.mosaic-item-list:focus .mosaic-item-overlay {
   display: none !important;
   opacity: 0 !important;
 }
 
-/* line 586, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 587, ../../assets/scss/site/modules/_mosaic-item.scss */
 .touch.opacity .mosaic-item-overlay {
   display: none;
 }
@@ -14398,42 +14469,42 @@ input[type=checkbox].checkbox + label.checkbox-label {
 }
 
 /* line 3, ../../assets/scss/site/modules/_explore.scss */
-.explore-hero .explore-h3 {
-  max-width: 780px;
-  font-size: 1.5em;
-  display: inline-block;
-  line-height: 1.1em;
-}
-@media (min-width: 768px) {
-  /* line 3, ../../assets/scss/site/modules/_explore.scss */
-  .explore-hero .explore-h3 {
-    font-size: 1.9em;
-  }
-}
-/* line 14, ../../assets/scss/site/modules/_explore.scss */
 .explore-hero p {
   max-width: inherit;
 }
 
-/* line 19, ../../assets/scss/site/modules/_explore.scss */
+/* line 8, ../../assets/scss/site/modules/_explore.scss */
+.explore-h3 {
+  max-width: 780px;
+  font-size: 1.5em;
+  line-height: 1.1em;
+}
+@media (min-width: 768px) {
+  /* line 8, ../../assets/scss/site/modules/_explore.scss */
+  .explore-h3 {
+    font-size: 1.9em;
+  }
+}
+
+/* line 18, ../../assets/scss/site/modules/_explore.scss */
 .faw-explore-teaser {
   text-align: center;
   position: relative;
   overflow: hidden;
 }
 
-/* line 27, ../../assets/scss/site/modules/_explore.scss */
+/* line 26, ../../assets/scss/site/modules/_explore.scss */
 .faw-explore-teaser-inner {
   position: relative;
 }
 
-/* line 31, ../../assets/scss/site/modules/_explore.scss */
+/* line 30, ../../assets/scss/site/modules/_explore.scss */
 .fawexploremosaic {
   margin-top: 4em;
   margin-bottom: 2em;
   text-align: center;
 }
-/* line 36, ../../assets/scss/site/modules/_explore.scss */
+/* line 35, ../../assets/scss/site/modules/_explore.scss */
 .fawexploremosaic .fawexploremosaictext {
   font-size: 1.2em;
   text-align: center;
@@ -14442,7 +14513,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
   display: inline-block;
 }
 
-/* line 45, ../../assets/scss/site/modules/_explore.scss */
+/* line 44, ../../assets/scss/site/modules/_explore.scss */
 .faw-explore-teaser .responsive-image img {
   max-width: none;
 }

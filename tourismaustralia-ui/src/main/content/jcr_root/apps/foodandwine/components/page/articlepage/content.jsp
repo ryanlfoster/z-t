@@ -4,11 +4,11 @@
 <% if (WCMMode.fromRequest(slingRequest) == WCMMode.EDIT) {%>
 		<script>
 		   Sidekick_CUSTOM = {
-		           "text": "Add to Shortlist",
+		           "text": "Experience Properties",
 		           "handler": function () {
 		               var contentWindow = CQ.utils.WCM.getContentWindow();
 		               var sidekick = CQ.wcm.Sidekick.findSidekick(this);
-		               var dialogPath = '/apps/foodandwine/components/page/shortlist/shortlist_dialog';
+		               var dialogPath = '/apps/foodandwine/components/page/articlepage/experience_dialog';
 		               var propsDialogConfig = contentWindow.CQ.WCM.getDialogConfig(dialogPath);
 		               propsDialogConfig.success = function (form, action) {
 		                   CQ.Util.reload(CQ.WCM.getContentWindow());

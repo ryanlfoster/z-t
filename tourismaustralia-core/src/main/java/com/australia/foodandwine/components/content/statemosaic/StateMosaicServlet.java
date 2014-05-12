@@ -109,7 +109,7 @@ public class StateMosaicServlet extends SlingAllMethodsServlet {
 				}
 			}
 			queryString += " and ([cq:template]  LIKE '%/apps/foodandwine/templates/articlepage%' or [cq:template]  LIKE '%/apps/foodandwine/templates/facebookpage%' "
-				+ "or [cq:template]  LIKE '%/apps/foodandwine/templates/twitterpage%' or [cq:template]  LIKE '%/apps/foodandwine/templates/instagrampage%') order by [addToShortlist] DESC";
+				+ "or [cq:template]  LIKE '%/apps/foodandwine/templates/twitterpage%' or [cq:template]  LIKE '%/apps/foodandwine/templates/instagrampage%') and not excludeFromMosaic = true order by [addToShortlist] DESC";
 			Query query = queryManager.createQuery(queryString, Query.JCR_SQL2);
 			QueryResult result1 = query.execute();
 			long totalResults = result1.getRows().getSize();
@@ -186,6 +186,8 @@ public class StateMosaicServlet extends SlingAllMethodsServlet {
 				Image pageImage = new Image(jcrResource, "image");
 				if (pageImage != null && pageImage.hasContent()) {
 					image = pageImage.getPath() + ".img.jpg";
+				} else {
+					image = "/etc/designs/foodandwine/clientlibs/imgs/blank1x1.png";
 				}
 				StateMosaiacProperties bean = new StateMosaiacProperties(title, description, image, pagePth,
 					stateTitle, categoryTagName, cityTagName, categoryLogo, templateName);

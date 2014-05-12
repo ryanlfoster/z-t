@@ -30,19 +30,13 @@
 		           "context": CQ.wcm.Sidekick.PAGE
 		       };    
 		   
-		   if (CQ.WCM.getTopWindow()) {
-		       CQ.WCM.getTopWindow().CQ.wcm.Sidekick.DEFAULT_ACTIONS.splice(CQ.wcm.Sidekick.DEFAULT_ACTIONS.length, CQ.WCM.getTopWindow().CQ.wcm.Sidekick.DEFAULT_ACTIONS.length - CQ.wcm.Sidekick.DEFAULT_ACTIONS.length);
-		       CQ.WCM.getTopWindow().CQ.wcm.Sidekick.DEFAULT_ACTIONS.push(Sidekick_FACEBOOK);
-		   } else {
-		       CQ.wcm.Sidekick.DEFAULT_ACTIONS.push(Sidekick_FACEBOOK);
-		   }
-
+		   
 		   Sidekick_CUSTOM = {
-		           "text": "Add to Shortlist",
+		           "text": "Facebook Properties",
 		           "handler": function () {
 		               var contentWindow = CQ.utils.WCM.getContentWindow();
 		               var sidekick = CQ.wcm.Sidekick.findSidekick(this);
-		               var dialogPath = '/apps/foodandwine/components/page/shortlist/shortlist_dialog';
+		               var dialogPath = '/apps/foodandwine/components/page/articlepage/experience_dialog';
 		               var propsDialogConfig = contentWindow.CQ.WCM.getDialogConfig(dialogPath);
 		               propsDialogConfig.success = function (form, action) {
 		                   CQ.Util.reload(CQ.WCM.getContentWindow());
@@ -62,8 +56,10 @@
 		   
 		   if (CQ.WCM.getTopWindow()) {
 		       CQ.WCM.getTopWindow().CQ.wcm.Sidekick.DEFAULT_ACTIONS.splice(CQ.wcm.Sidekick.DEFAULT_ACTIONS.length, CQ.WCM.getTopWindow().CQ.wcm.Sidekick.DEFAULT_ACTIONS.length - CQ.wcm.Sidekick.DEFAULT_ACTIONS.length);
+		       CQ.WCM.getTopWindow().CQ.wcm.Sidekick.DEFAULT_ACTIONS.push(Sidekick_FACEBOOK);
 		       CQ.WCM.getTopWindow().CQ.wcm.Sidekick.DEFAULT_ACTIONS.push(Sidekick_CUSTOM);
 		   } else {
+		       CQ.wcm.Sidekick.DEFAULT_ACTIONS.push(Sidekick_FACEBOOK);
 		       CQ.wcm.Sidekick.DEFAULT_ACTIONS.push(Sidekick_CUSTOM);
 		   }
 		</script>

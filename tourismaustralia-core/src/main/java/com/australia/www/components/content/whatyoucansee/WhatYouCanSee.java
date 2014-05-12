@@ -41,7 +41,8 @@ import com.day.cq.wcm.api.PageManager;
 	@Listener(name = "afteredit", value = "REFRESH_PAGE"), @Listener(name = "afterinsert", value = "REFRESH_PAGE") })
 public final class WhatYouCanSee {
 
-	@DialogField(fieldLabel = "Tag", tab = 1)
+	@DialogField(fieldLabel = "Tag", tab = 1,
+		listeners = @Listener(name = "addtag", value = Constants.TAG_ADD_LISTENER))
 	@TagInputField
 	private final String tagId;
 	private Tag tag;

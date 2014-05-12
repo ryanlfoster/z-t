@@ -28,6 +28,7 @@ public class QueryUtils {
 	public static final String OPERATION = ".operation";
 	public static final String LIKE = "like";
 	public static final String ASC = "asc";
+	public static final String UNEQUALS = "unequals";
 
 	public static final void addProperty(Map<String, String> queryMap, int propertyNumber, String property, String value) {
 		queryMap.put(propertyNumber + SEPERATOR + PROPERTY, property);
@@ -50,9 +51,15 @@ public class QueryUtils {
 		}
 	}
 
-	public static final void setPropertyAsLike(Map<String, String> queryMap, int propertyNumber) {
+	public static final void setPropertyAsLike(Map<String, String> queryMap, String property, int propertyNumber) {
 		String propertyPrefix = propertyNumber + SEPERATOR + PROPERTY;
-		queryMap.put(propertyPrefix, TAG_LOCATION);
+		queryMap.put(propertyPrefix, property);
 		queryMap.put(propertyPrefix + OPERATION, LIKE);
+	}
+
+	public static void setPropertyAsNot(Map<String, String> queryMap, String property, int propertyNumber) {
+		String propertyPrefix = propertyNumber + SEPERATOR + PROPERTY;
+		queryMap.put(propertyPrefix, property);
+		queryMap.put(propertyPrefix + OPERATION, UNEQUALS);
 	}
 }

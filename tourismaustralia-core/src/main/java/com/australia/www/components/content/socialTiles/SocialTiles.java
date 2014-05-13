@@ -114,7 +114,6 @@ public class SocialTiles {
 
 				tile.setTitle(properties.get("tab" + tabNum + "/title", StringUtils.EMPTY));
 				tile.setText(properties.get("tab" + tabNum + "/text", StringUtils.EMPTY));
-				tile.setLink(properties.get("tab" + tabNum + "/link", StringUtils.EMPTY));
 				if (tile.getIsValid()) {
 					tilesList.add(tile);
 				}

@@ -41,7 +41,7 @@
 								<p class="type-destination">
 									<strong>${tile.title}</strong><br> <br>
 								</p>
-								<a href="${tile.link}"><fmt:message key="See More" /></a>
+								<fmt:message key="See More" />
 								<!-- back content end -->
 
 							</div>

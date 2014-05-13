@@ -1,27 +1,35 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <%@include file="/apps/tourismaustralia/components/global.jsp" %>
 <%@ page import="com.australia.www.components.page.breadcrumb.Breadcrumb" %>
 
 <c:set var="breadcrumb" value="<%=new Breadcrumb(slingRequest) %>"/>
 
 <ul class="breadcrumb">
-    <c:forEach items="${breadcrumb.predecessorPages}" var="predecessorPage">
+    <c:forEach items="${breadcrumb.predecessorPages}" var="predecessorPage" varStatus="status">
     	<c:if test = "${!predecessorPage.hideInNav}">
-		     <li>
-	            <a href="${predecessorPage.path}.html">
-	            	<c:choose>
-                    	<c:when test="${predecessorPage.depth == 3}">
+           	<c:choose>
+                <c:when test="${status.first and status.last}">
+				     <li><fmt:message key="Home"/></li>
+           		</c:when>
+                  	<c:when test="${status.first}">
+				     <li>
+			            <a href="${predecessorPage.path}.html">
                     		<fmt:message key="Home"/>
-	            		</c:when>
-	            		<c:otherwise>
+			            </a>
+				     </li>
+           		</c:when>
+                <c:when test="${status.last}">
+				     <li>${predecessorPage.title}</li>
+           		</c:when>
+           		<c:otherwise>
+				     <li>
+			            <a href="${predecessorPage.path}.html">
 	            			${predecessorPage.title}
-	            		</c:otherwise>
-	            	</c:choose>		
-	            </a>
-		     </li>
-	     </c:if>
+   			            </a>
+				     </li>
+           		</c:otherwise>
+           	</c:choose>		
+	    </c:if>      	
     </c:forEach>
-	<li>${currentPage.title}</li>
 </ul>
 

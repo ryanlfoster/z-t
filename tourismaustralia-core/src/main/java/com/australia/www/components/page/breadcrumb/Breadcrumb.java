@@ -1,6 +1,7 @@
 package com.australia.www.components.page.breadcrumb;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 
@@ -12,25 +13,18 @@ import com.day.cq.wcm.api.PageManager;
 
 @Component(value = "Breadcrumb", actions = { "text:Breadcrumb", "-", "copymove", "delete", "-", "insert" })
 public class Breadcrumb {
-
 	private final Iterator<Page> predecessorPages;
 
-	private final Page currentPage;
-
 	public Breadcrumb(SlingHttpServletRequest slingRequest) {
-		currentPage = slingRequest.getResourceResolver().adaptTo(PageManager.class)
+		Page currentPage = slingRequest.getResourceResolver().adaptTo(PageManager.class)
 			.getContainingPage(slingRequest.getResource());
-		predecessorPages = buildPagesList();
-	}
 
-	private Iterator<Page> buildPagesList() {
-		int localLevel = 3;
-		List<Page> resultlist = new ArrayList<Page>();
-		while ((currentPage.getDepth() > localLevel) && (localLevel <= (currentPage.getParent().getDepth()))) {
-			resultlist.add(currentPage.getAbsoluteParent(localLevel - 1));
-			localLevel++;
+		List<Page> pagelist = new ArrayList<Page>();
+		for (int i = currentPage.getDepth() - 1; i > 1; i--) {
+			pagelist.add(currentPage.getAbsoluteParent(i));
 		}
-		return resultlist.listIterator();
+		Collections.reverse(pagelist);
+		predecessorPages = pagelist.listIterator();
 	}
 
 	public Iterator<Page> getPredecessorPages() {

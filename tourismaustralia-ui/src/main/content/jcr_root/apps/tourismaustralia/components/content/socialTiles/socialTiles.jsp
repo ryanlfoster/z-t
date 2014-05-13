@@ -152,7 +152,7 @@
 
     <c:if test="${not empty socialTiles.link.path && not empty socialTiles.link.title}">
 	<div class="l-h-center">
-		<a href="${socialTiles.link.path}" class="btn-primary">${socialTiles.link.title}</a>
+		<a href="${socialTiles.link.path}" target="_blank" class="btn-primary">${socialTiles.link.title}</a>
 	</div>
     </c:if>
 

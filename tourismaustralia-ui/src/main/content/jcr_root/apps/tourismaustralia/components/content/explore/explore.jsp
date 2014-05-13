@@ -106,19 +106,9 @@
 					</div>
 				</div>
 				<div class="explore-card-back flip-back ieAntialias">
-					<img class="l-image-full explore-image-back" src="<c:url value='${card.imageBack}'/>" alt="" />
+					<img class="l-image-full explore-image-back" src="<c:url value='${card.imageBack}'/>" alt="${card.altTextBack}" />
 					<div class="l-h-center l-padding-tb-30-lr-15">
-						<ul class="explore-trip">
-							<li>
-								<span class="explore-trip-icon icon-font-Transport_Icon"></span>
-								<span class="explore-trip-time">3 hours</span>
-							</li>
-							<li>
-								<span class="explore-trip-icon icon-font-Hire_Icon"></span>
-								<span class="explore-trip-time">2 hours</span>
-							</li>
-						</ul>
-						<p>Travel time to Blue Mountains from Sydney</p>
+						<p><c:out value="${card.textBack}"/> </p>
 						<hr>
 						<p><a id="explore-flip-back-btn" href="#"><fmt:message key="Back to overview"/></a></p>
 					</div>

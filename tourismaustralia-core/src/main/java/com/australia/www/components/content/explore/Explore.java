@@ -179,6 +179,7 @@ public class Explore {
 		if (properties != null) {
 			String pathPrefix = String.format(TABx + CARDx, tabNum, cardNum);
 			returnProp.setAltTextBack(properties.get(pathPrefix + "altTextBack", ""));
+			returnProp.setTextBack(properties.get(pathPrefix + "textBack", ""));
 			returnProp.setImageBack(properties.get(pathPrefix + "imageBack", ""));
 			returnProp.setPage(properties.get(pathPrefix + "pagePath", ""), request.getResource());
 		}

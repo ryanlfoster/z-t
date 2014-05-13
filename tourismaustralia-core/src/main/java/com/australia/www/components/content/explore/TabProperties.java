@@ -32,6 +32,10 @@ public class TabProperties {
 		return altTextBack;
 	}
 
+	public String getTextBack(){
+		return textBack;
+	}
+
 	public String getImageBack() {
 		return imageBack;
 	}
@@ -53,11 +57,21 @@ public class TabProperties {
 	}
 
 	public String getPagePath() {
-		return pagePath;
+		if(isValid()){
+			return LinkUtils.getHrefFromPath(pagePath);
+		} else {
+			return "";
+		}
 	}
+
+
 
 	public void setImageBack(final String path) {
 		imageBack = path;
+	}
+
+	public void setTextBack(final String text) {
+		textBack = text;
 	}
 
 	public void setAltTextBack(final String text) {
@@ -66,7 +80,7 @@ public class TabProperties {
 
 	public void setPage(String path, Resource resource) {
 		if (resource != null && StringUtils.isNotBlank(path)) {
-			LinkUtils.getHrefFromPath(pagePath);
+			pagePath = path;
 			Resource pageResource = resource.getResourceResolver().resolve(path);
 			content = Content.fromResource(pageResource);
 		} else {

@@ -4,6 +4,7 @@
 	import="com.australia.www.components.content.socialTiles.SocialTiles"%>
 <c:set var="socialTiles" value="<%=new SocialTiles(slingRequest)%>" />
 
+<c:set var="iconPath" value="/etc/designs/tourismaustralia/clientlibs/imgs/"/>
 
 <div class="socialtiles">
 
@@ -61,6 +62,13 @@
 								<div class="row mosaic-grid-2-content">
 									<div class="col-xs-12">
 										<div class="mosaic-item-detail-container">
+                                            <%--Close button // start --%>
+                                            <span class="mosaic-close-icon">
+                                                <a class="mosaic-detail-close-btn" href="#">
+                                                    <img src="${iconPath}icons/close_outline.png" alt="">
+                                                </a>
+                                            </span>
+                                            <%--Close button // end --%>
 											<!-- content start -->
 											<div class="l-h-center theme-mosaic-social-detail">
 												<p>NON-VISIBLE DATA</p>
@@ -90,7 +98,14 @@
 								<div class="row mosaic-grid-2-content">
 									<div class="col-xs-12">
 										<div class="mosaic-item-detail-container">
-											<div class="l-h-center theme-mosaic-social-detail">
+                                            <%--Close button // start --%>
+                                            <span class="mosaic-close-icon">
+                                                <a class="mosaic-detail-close-btn" href="#">
+                                                    <img src="${iconPath}icons/close_outline.png" alt="">
+                                                </a>
+                                            </span>
+                                            <%--Close button // end --%>
+                                            <div class="l-h-center theme-mosaic-social-detail">
 												<p>NON-VISIBLE DATA</p>
 												<p>
 													Uploaded by: <a href="#">notsupposedto</a>

@@ -13,11 +13,12 @@
 
 .dreamtrip-title {
   padding-bottom: 0;
+  margin-bottom: pxtoem(-5px);
   @include breakpoint(sm) {
-    margin-bottom: -1.5em;
+    margin-bottom: -1.75em;
   }
   @include breakpoint(md) {
-    padding-bottom: pxtoem($bottom-spacing/2);
+    padding-bottom: pxtoem(9px);
     margin-bottom: 0;
   }
 }
@@ -38,4 +39,10 @@
     text-align: left;
     //max-width: 300px;
   }
+}
+
+//Margin right is increased, and it is crashing on ipad. At this stage can not change html so target the base class
+.dreamtrip-shared .col-sm-3{
+  padding-right: pxtoem(7px);
+  min-width: 250px;
 }

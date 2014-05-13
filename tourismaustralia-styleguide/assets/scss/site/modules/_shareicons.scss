@@ -7,9 +7,13 @@
     margin: 0;
   }
   li {
-    margin-right: .3em;
-    margin-bottom: .2em;
+    margin-right: pxtoem(12px);
+    margin-bottom: pxtoem(11px);
     display: inline-block;
+    span{
+      max-width: 52px;
+      max-height: 52px;
+    }
   }
 
     li.social-fblike {

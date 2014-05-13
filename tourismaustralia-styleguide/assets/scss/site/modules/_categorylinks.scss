@@ -17,6 +17,10 @@ $type-categorylinks-colour: $category-colour-islands;
     .categorylink-title {
         font-size: pxtoem(28px);
         color: $type-categorylinks-colour;
+        margin-top: 39px;
+        @include breakpoint(md){
+          margin-top: $standard-spacing;
+        }
     }
 
     .categorylink-body {

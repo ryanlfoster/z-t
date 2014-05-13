@@ -68,13 +68,36 @@
   background-image: url(../imgs/icons/search_go.png);
   background-repeat: no-repeat;
   background-position: 0 0;
+
 }
 
+.search-box-focus input[type="text"]{
+  &::-webkit-input-placeholder {
+    color: transparent;
+  }
+
+  &:-moz-placeholder { /* Firefox 18- */
+    color: transparent;
+  }
+
+  &::-moz-placeholder {  /* Firefox 19+ */
+    color: transparent;
+  }
+
+  &:-ms-input-placeholder {
+    color: transparent;
+  }
+}
+
+.search-box-focus form input.search-input-go
+{
+  background-position: 0px -60px;
+}
 .search-box-focus form input[type="text"]{
-  border-color:#000;
+  border-color:#00535e;
 }
 .search-box-focus .search-box-wrapper {
-  border-color:#000;
+  border-color:#00535e;
   border-left-width:7px;
   margin-left: -6px;
 }

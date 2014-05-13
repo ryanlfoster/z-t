@@ -6,7 +6,7 @@
 
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@include file="/apps/tourismaustralia/components/global.jsp" %>
-<%@ page import="com.australia.www.components.content.mapImageWithIcons.MapImageWithIcons" %>
+<%@ page import="com.australia.www.components.content.mapimagewithicons.MapImageWithIcons" %>
 
 <c:set var="map" value="<%=new MapImageWithIcons(slingRequest) %>"/>
 <c:set var="iconPath" value="/etc/designs/tourismaustralia/clientlibs/imgs/placeholders/"/>

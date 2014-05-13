@@ -82,7 +82,7 @@
 						<a id="explore-flip-btn" href="" class="btn-bubble">
 							<span class="btn-bubble-tooltip">
 							<span class="btn-bubble-tooltip-container">
-							<fmt:message key="Show map"/>
+							<fmt:message key="View map"/>
 							</span>
 							</span>
 							<span class="btn-bubble-button">

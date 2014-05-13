@@ -1,4 +1,4 @@
-package com.australia.www.components.content.mapImageWithIcons;
+package com.australia.www.components.content.mapimagewithicons;
 
 class Constants {
 

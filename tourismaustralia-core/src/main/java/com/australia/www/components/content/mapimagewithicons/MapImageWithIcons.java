@@ -1,10 +1,14 @@
-package com.australia.www.components.content.mapImageWithIcons;
+package com.australia.www.components.content.mapimagewithicons;
 
-import com.citytechinc.cq.component.annotations.*;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ValueMap;
 
+import com.citytechinc.cq.component.annotations.Component;
+import com.citytechinc.cq.component.annotations.DialogField;
+import com.citytechinc.cq.component.annotations.FieldProperty;
+import com.citytechinc.cq.component.annotations.Listener;
+import com.citytechinc.cq.component.annotations.Tab;
 import com.citytechinc.cq.component.annotations.widgets.Html5SmartImage;
 import com.citytechinc.cq.component.annotations.widgets.RichTextEditor;
 import com.citytechinc.cq.component.annotations.widgets.TextArea;
@@ -21,8 +25,7 @@ public final class MapImageWithIcons {
 	@DialogField(fieldLabel = "Title", tab = Constants.TAB_INDEX_GENERAL)
 	private final String title;
 
-	@DialogField(fieldLabel = "Text", tab = Constants.TAB_INDEX_GENERAL,
-		additionalProperties = @FieldProperty(name = "grow", value = "true"))
+	@DialogField(fieldLabel = "Text", tab = Constants.TAB_INDEX_GENERAL, additionalProperties = @FieldProperty(name = "grow", value = "true"))
 	@TextArea
 	private final String text;
 

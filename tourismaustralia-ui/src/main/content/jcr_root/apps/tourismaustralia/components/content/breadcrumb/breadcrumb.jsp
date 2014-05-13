@@ -11,7 +11,7 @@
                 <c:when test="${status.first and status.last}">
 				     <li><fmt:message key="Home"/></li>
            		</c:when>
-                  	<c:when test="${status.first}">
+                <c:when test="${status.first}">
 				     <li>
 			            <a href="${predecessorPage.path}.html">
                     		<fmt:message key="Home"/>

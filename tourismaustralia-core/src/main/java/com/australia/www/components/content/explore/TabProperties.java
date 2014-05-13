@@ -1,5 +1,6 @@
 package com.australia.www.components.content.explore;
 
+import com.citytechinc.cq.component.annotations.widgets.RichTextEditor;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.sling.api.resource.Resource;
 
@@ -20,6 +21,10 @@ public class TabProperties {
 	@DialogField(fieldDescription = "Image on the back of card")
 	@PathField(rootPath = "/content/dam")
 	private String imageBack;
+
+	@DialogField(fieldDescription = "Text on back of card")
+	@RichTextEditor()
+	private String textBack;
 
 	private Content content;
 
@@ -48,7 +53,7 @@ public class TabProperties {
 	}
 
 	public String getPagePath() {
-		return LinkUtils.getHrefFromPath(pagePath);
+		return pagePath;
 	}
 
 	public void setImageBack(final String path) {
@@ -60,11 +65,12 @@ public class TabProperties {
 	}
 
 	public void setPage(String path, Resource resource) {
-		pagePath = path;
 		if (resource != null && StringUtils.isNotBlank(path)) {
+			LinkUtils.getHrefFromPath(pagePath);
 			Resource pageResource = resource.getResourceResolver().resolve(path);
 			content = Content.fromResource(pageResource);
 		} else {
+			pagePath = "";
 			content = null;
 		}
 	}

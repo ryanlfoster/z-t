@@ -6,20 +6,23 @@
   padding-bottom: pxtoem($bottom-spacing);
 }
 
-.image-ugc-container .large-image-social-mention .social-mention {
-  margin-top: 0.5em;
-}
-
 .image-ugc {
 
   position: inherit;
   width: 100%;
+  height: 180px;
   background: #FFF;
   overflow: hidden;
 
   @include breakpoint(sm) {
     position: relative;
-    height: 698px;
+    height: 354px;
+  }
+  @include breakpoint(md) {
+    height: 528px;
+  }
+  @include breakpoint(lg) {
+    height: 700px;
   }
 
   position: relative;
@@ -81,7 +84,13 @@
   z-index: 1;
   height: 180px;
   @include breakpoint(sm) {
-    height: 698px;
+    height: 354px;
+  }
+  @include breakpoint(md) {
+    height: 528px;
+  }
+  @include breakpoint(lg) {
+    height: 700px;
   }
 }
 .image-content-container {
@@ -147,10 +156,15 @@
     line-height: 1.7em;
     background: rgba(84,150,174, 1);
     @include box-shadow(0.4em 0 0 rgba(84,150,174, 1),-0.4em 0 0 rgba(84,150,174, 1));
+    font-size: inherit;
 
     @include breakpoint(sm) {
       background: rgba(0,84,93, .6);
       @include box-shadow(0.4em 0 0 rgba(0,84,93, .6),-0.4em 0 0 rgba(0,84,93, .6));
+      font-size: 20px;
+    }
+    @include breakpoint(md) {
+      font-size: inherit;
     }
   }
 }

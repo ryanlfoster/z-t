@@ -113,8 +113,6 @@ public class Form {
 		
 		checkboxTitle=properties.get("checkboxTitle",StringUtils.EMPTY);
 		checkboxDescription=properties.get("checkboxDescription",StringUtils.EMPTY);
-		checkboxDescription=checkboxDescription.replaceAll("<p>", "");
-		checkboxDescription=checkboxDescription.replaceAll("</p>", "");
 		validationMessage=properties.get("validationMessage",StringUtils.EMPTY);
 	}
 

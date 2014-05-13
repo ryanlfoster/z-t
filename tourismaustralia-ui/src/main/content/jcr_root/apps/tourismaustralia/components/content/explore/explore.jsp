@@ -7,13 +7,13 @@
 	<div class="section-intro">
 		<div class="l-center-900">
 			<h3 class="type-h1-responsive">
-				<fmt:message key="EXPLORE BEYOND THE CITY LIMITS"/>
+                ${explore.title}
 			</h3>
 		</div>
 		<div class="l-center-640 type-center">
 			<p class="type-intro">
-				Make Sydney where your adventure begins. World-heritage natural wonders, world-class wine regions, and the world's most stunning beaches are just over the horizon.
-			</p>
+                ${explore.description}
+            </p>
 		</div>
 	</div>
 	<div class="l-h-center section-buttons">

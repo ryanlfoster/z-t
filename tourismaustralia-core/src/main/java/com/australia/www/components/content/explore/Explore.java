@@ -11,8 +11,10 @@ import com.citytechinc.cq.component.annotations.DialogField;
 import com.citytechinc.cq.component.annotations.Tab;
 import com.citytechinc.cq.component.annotations.widgets.DialogFieldSet;
 
+
 @Component(value = "Explore", disableTargeting = true, dialogHeight = 500, tabs = { @Tab(title = "Tab 1"),
 	@Tab(title = "Tab 2"), @Tab(title = "Tab 3"), @Tab(title = "Tab 4"), @Tab(title = "Tab 5") })
+
 public class Explore {
 
 	private static final String TABx = "tab%d/";
@@ -97,42 +99,52 @@ public class Explore {
 	private final List<Category> tabs;
 
 	public Explore(SlingHttpServletRequest request) {
+
 		tabs = new ArrayList<Category>();
 		tab1 = initTab(1, request);
 		tab1card1 = initCard(1, 1, request);
 		tab1card2 = initCard(1, 2, request);
 		tab1card3 = initCard(1, 3, request);
 		tab1.setCards(tab1card1, tab1card2, tab1card3);
+		if (tab1.isValid()) {
+			tabs.add(tab1);
+		}
 
 		tab2 = initTab(2, request);
 		tab2card1 = initCard(2, 1, request);
 		tab2card2 = initCard(2, 2, request);
 		tab2card3 = initCard(2, 3, request);
 		tab2.setCards(tab2card1, tab2card2, tab2card3);
+		if (tab2.isValid()) {
+			tabs.add(tab2);
+		}
 
 		tab3 = initTab(3, request);
 		tab3card1 = initCard(3, 1, request);
 		tab3card2 = initCard(3, 2, request);
 		tab3card3 = initCard(3, 3, request);
 		tab3.setCards(tab3card1, tab3card2, tab3card3);
+		if (tab3.isValid()) {
+			tabs.add(tab3);
+		}
 
 		tab4 = initTab(4, request);
 		tab4card1 = initCard(4, 1, request);
 		tab4card2 = initCard(4, 2, request);
 		tab4card3 = initCard(4, 3, request);
 		tab4.setCards(tab4card1, tab4card2, tab4card3);
+		if (tab4.isValid()) {
+			tabs.add(tab4);
+		}
 
 		tab5 = initTab(5, request);
 		tab5card1 = initCard(5, 1, request);
 		tab5card2 = initCard(5, 2, request);
 		tab5card3 = initCard(5, 3, request);
 		tab5.setCards(tab5card1, tab5card2, tab5card3);
-
-		tabs.add(tab1);
-		tabs.add(tab2);
-		tabs.add(tab3);
-		tabs.add(tab4);
-		tabs.add(tab5);
+		if (tab5.isValid()) {
+			tabs.add(tab5);
+		}
 	}
 
 	private Category initTab(final int tabNum, SlingHttpServletRequest request) {

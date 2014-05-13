@@ -3,6 +3,7 @@ package com.australia.www.components.content.explore;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.citytechinc.cq.component.annotations.widgets.TextArea;
 import org.apache.commons.lang.StringUtils;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.ValueMap;
@@ -35,6 +36,7 @@ public class Explore {
 	@DialogField(fieldLabel = "Title", tab = 1)
 	private String title;
 	@DialogField(fieldLabel = "Description", tab = 1)
+	@TextArea
 	private String description;
 
 	@DialogField(tab = 2)

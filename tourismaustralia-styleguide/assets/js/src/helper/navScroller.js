@@ -69,19 +69,19 @@ navScroller._updateActive = function(){
 
                 if ( $window.scrollTop() >= distance1 && $window.scrollTop() < distance2 )
                 {
-                    ResetNavScroller();
+                    //Reset current active state
+                    $('ul.navScroller li.active').removeClass('active');
 
                     //Set active to link in 'navScroller' according to current section
                     $(navScroller.sectionLinks[index]).parent().addClass('active');
                 }
             }
             else{
-                console.log($window.scrollTop());
-                console.log(distance1);
-                console.log('----------------');
+
                 if ( $window.scrollTop() >= distance1)
                 {
-                    ResetNavScroller();
+                    //Reset Current active state
+                    $('ul.navScroller li.active').removeClass('active');
 
                     //Set active to link in 'navScroller' according to current section
                     $(navScroller.sectionLinks[index]).parent().addClass('active');
@@ -91,13 +91,6 @@ navScroller._updateActive = function(){
     });
 };
 
-//Reset all links of 'navScroller'
-function ResetNavScroller()
-{
-    $('ul.navScroller li').each(function() {
-        $(this).removeClass('active');
-    });
-}
 
 $(function() {
 	navScroller.init();	

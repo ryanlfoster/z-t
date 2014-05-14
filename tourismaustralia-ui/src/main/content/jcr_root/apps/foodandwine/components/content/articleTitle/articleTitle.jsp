@@ -14,7 +14,14 @@
 	<div class="form-biline-container type-spacing-60">
 		<hr>
 		<div class="form-elements-biline">
-			${articleTitle.byline}
+			<c:choose>
+				<c:when test="${articleTitle.link eq true}">
+					<a  href="${articleTitle.bylineLink}" target="_BLANK" style="text-decoration: none;">${articleTitle.byline}</a>
+				</c:when>
+				<c:otherwise>
+					${articleTitle.byline}
+				</c:otherwise>	
+			</c:choose>	
 		</div>
 	</div>
 </c:if>

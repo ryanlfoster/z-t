@@ -27,7 +27,7 @@ public class Experience {
 	private final String[] tags;
 	private final String icon;
 	private final String primaryCategory;
-	private final String link;
+	private String link;
 	private String website;
 
 	public Experience(Page page, TagManager tagManager) {
@@ -40,8 +40,12 @@ public class Experience {
 		} else {
 			imagePath = "";
 		}
-		link = LinkUtils.getHrefFromPath(page.getPath());
+		//link = LinkUtils.getHrefFromPath(page.getPath());
 		// icon
+		String linkFromContributorsList = properties.get("linkFromContributorsList", String.class);
+		if(linkFromContributorsList!=null &&linkFromContributorsList.equals("true") ){
+		link =LinkUtils.getHrefFromPath(page.getPath());
+		}
 		icon = properties.get("categoryLogoPath", String.class);
 		// title
 		title = page.getTitle();

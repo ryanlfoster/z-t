@@ -165,6 +165,7 @@ $btn-submit-border-color:       #00535e;
 $padding-base-vertical:          13px;
 $padding-base-horizontal:        25px;
 
+<<<<<<< HEAD
 $standard-spacing:               30px;
 $medium-spacing:                 60px;
 
@@ -172,3 +173,21 @@ $large-spacing-xs:               60px;
 $large-spacing-sm:               70px;
 $large-spacing-md:               80px;
 $large-spacing-lg:               90px;
+=======
+
+//*** Spacing value for all modules/elements
+$standard-spacing-xs:               30px;
+$standard-spacing-sm:               30px;
+$standard-spacing-md:               30px;
+$standard-spacing-lg:               30px;
+
+$medium-spacing-xs:                 60px;
+$medium-spacing-sm:                 60px;
+$medium-spacing-md:                 60px;
+$medium-spacing-lg:                 60px;
+
+$large-spacing-xs:                  60px;
+$large-spacing-sm:                  70px;
+$large-spacing-md:                  80px;
+$large-spacing-lg:                  90px;
+>>>>>>> 673531d... mixin 'vertical-spacing-responsive' is added with variables

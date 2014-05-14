@@ -19,7 +19,7 @@ public class Quote {
 	@DialogField(fieldLabel = "Byline", required = true)
 	private String byline;
 
-	@DialogField(fieldLabel = "Quote Date", required = true)
+	@DialogField(fieldLabel = "Quote Date")
 	@DateField(format = "M Y")
 	private String quoteDate;
 

@@ -33,8 +33,8 @@ final class Constants {
 	public static final String TAB_CATEGORIES = "Categories";
 	public static final String TAB_TAB_3 = "Additional Tab";
 
-	public static final String TTD_TAB_TITLE = "Things To Do";
-	public static final String TTD_TAB_VIEW_MORE = "View All Highlights";
+	public static final String TTD_TAB_TITLE = "things to do";
+	public static final String TTD_TAB_VIEW_MORE = "highlights";
 
 	public static final String BLANK = "&nbsp;";
 

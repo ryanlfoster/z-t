@@ -7,7 +7,16 @@ navScroller.init = function(){
 
 	// store distances from top for each section.
 	$('.navScroller-section').each(function(index, value) {
-		navScroller.sectionDistances[index] = $(this).offset().top;
+
+        if( $("html").hasClass("lt-ie9") ) {
+            var offset   = getPosition($(this)[0]).top;
+            navScroller.sectionDistances[index] = offset;
+        }
+        else
+        {
+            navScroller.sectionDistances[index] = $(this).offset().top;
+        }
+
 
         var hashLink = $(this).attr('data-section-name');
         navScroller.sectionLinks.push($('ul.navScroller a[href="#'+ hashLink +'"]'));
@@ -17,6 +26,19 @@ navScroller.init = function(){
 	navScroller._updateActive();
 
 };
+
+//hack for IE-8 not working properly
+function getPosition(element) {
+    var xPosition = 0;
+    var yPosition = 0;
+
+    while(element) {
+        xPosition += (element.offsetLeft - element.scrollLeft + element.clientLeft);
+        yPosition += (element.offsetTop - element.scrollTop + element.clientTop);
+        element = element.offsetParent;
+    }
+    return { x: xPosition, y: yPosition };
+}
 
 // populate nav with click events based on this distance
 navScroller._bindEvents = function(){

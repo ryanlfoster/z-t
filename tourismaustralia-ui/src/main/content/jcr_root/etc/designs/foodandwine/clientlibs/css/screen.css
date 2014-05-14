@@ -10198,7 +10198,7 @@ input.btn-secondary {
   font-size: .9em;
 }
 /* line 210, ../../assets/scss/site/modules/_form.scss */
-.form-agree-container .checkbox-description {
+.form-agree-container .input-field-checkbox p {
   margin-bottom: 2em;
 }
 /* line 214, ../../assets/scss/site/modules/_form.scss */
@@ -10220,7 +10220,7 @@ input.btn-secondary {
     font-size: inherit;
   }
   /* line 229, ../../assets/scss/site/modules/_form.scss */
-  .form-agree-container .checkbox-description {
+  .form-agree-container .input-field-checkbox p {
     margin-bottom: inherit;
   }
   /* line 232, ../../assets/scss/site/modules/_form.scss */
@@ -11103,7 +11103,7 @@ input.btn-secondary {
 }
 
 /* line 214, ../../assets/scss/site/modules/_inputfield.scss */
-.checkbox-description {
+.input-field-checkbox p {
   text-align: left;
 }
 
@@ -11195,7 +11195,7 @@ input.btn-secondary {
   }
 
   /* line 280, ../../assets/scss/site/modules/_inputfield.scss */
-  .terms-conditions .checkbox-description {
+  .terms-conditions .input-field-checkbox p {
     padding-top: 1em;
   }
   /* line 284, ../../assets/scss/site/modules/_inputfield.scss */
@@ -11401,7 +11401,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
 }
 
 /* line 69, ../../assets/scss/site/modules/_checkbox.scss */
-.checkbox-description {
+.input-field-checkbox p {
   font-size: 0.9em;
   margin-left: 3.7em;
   margin-top: 0em;
@@ -11409,7 +11409,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
   margin-bottom: 2.5em;
 }
 /* line 76, ../../assets/scss/site/modules/_checkbox.scss */
-.checkbox-description a {
+.input-field-checkbox p a {
   color: #000;
   font-weight: bold;
   font-family: "ProximaNova Bold";
@@ -11417,7 +11417,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
 }
 @media (min-width: 480px) {
   /* line 69, ../../assets/scss/site/modules/_checkbox.scss */
-  .checkbox-description {
+  .input-field-checkbox p {
     margin-bottom: 4.5em;
   }
 }

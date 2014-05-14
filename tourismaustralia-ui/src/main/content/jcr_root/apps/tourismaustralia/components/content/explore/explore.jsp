@@ -55,7 +55,7 @@
     <c:forEach items="${explore.tabs}" var="tab">
 	<div class="carousel-center-container" data-aus-show-tab="${tab.title}">
 	<div class="carousel-owl-mobile-fill">
-	<div id="carousel" class="owl-carousel owl-theme">
+	<div class="carousel owl-carousel owl-theme">
 
 	<c:forEach items="${tab.cards}" var="card">
 	<div class="carousel-item">

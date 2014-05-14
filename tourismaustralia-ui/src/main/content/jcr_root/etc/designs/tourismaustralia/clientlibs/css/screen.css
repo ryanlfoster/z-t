@@ -10450,7 +10450,7 @@ blockquote-webkit {
 }
 
 /* line 16, ../../assets/scss/site/modules/_carousel.scss */
-#carousel .carousel-item {
+.carousel .carousel-item {
   margin: 0 .3em;
   text-align: center;
 }

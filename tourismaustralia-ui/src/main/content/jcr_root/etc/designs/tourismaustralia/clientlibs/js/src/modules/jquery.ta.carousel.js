@@ -60,7 +60,7 @@
 
 	//init all carousel objects on page automatically -> TBR
 	$(window).load(function() {
-		$(".owl-carousel.owl-theme").carousel();
+		$(".carousel").carousel();
         $("#carousel-wide").carousel({
             items: 1,
             itemsDesktop : [1000,1], //5 items between 1000px and 901px

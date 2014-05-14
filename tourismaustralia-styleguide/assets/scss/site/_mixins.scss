@@ -211,6 +211,12 @@
   }
 }
 
+/*! Smooth fonts on IE8 */
+@mixin ie8fontsmoothing() {
+  // IE8 Better Text
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=hIEfix.png,sizingMethod=crop);
+  zoom: 1 \9;
+}
 
 //******* Start - Mixin for spacing defination, Margin is used for overlapping, not the Padding, strictly prohibted. *****
 // To change values on responsive modes, please change values in _variables.scss

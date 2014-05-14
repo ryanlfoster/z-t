@@ -11,7 +11,7 @@ html, body {
   // font smooting for webkit, introduced because of IE8.1 Select List issue
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
+  height: auto !important;
 }
 .lt-ie9 body{
   height:auto!important;
@@ -25,11 +25,12 @@ body {
   font-family: $font-family-base;
   color:$body-colour;
   line-height: 1;
+}
 
-  // IE8 Better Text
-  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=hIEfix.png,sizingMethod=crop);
-  zoom: 1;
-  height: auto !important;
+//p, a, li, b, strong, em, i, h1, h2, h3, h4, h5 {
+body {
+  // IE8 Better Text in footer
+  @include ie8fontsmoothing();
 }
 
 h1, h2, h3, h4, h5  {
@@ -62,6 +63,7 @@ h4 {
 p {
   line-height: pxtolineheightem(16px, 26px);
   font-family: $font-family-base;
+
   strong, b{
     font-family: $font-family-base-b;
     i, em{

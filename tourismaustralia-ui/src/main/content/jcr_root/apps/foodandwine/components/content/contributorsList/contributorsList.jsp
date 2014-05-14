@@ -7,7 +7,7 @@
 
 <div class='form-hero'>
 <div class='faw-hero-home-container' data-searchurl="${cl.searchPath}">
-        <h3 class="form-h3 l-padding-top-xs-2 l-padding-bottom-xs-0-5">Search our ${cl.totalExperiencesCount} contributers: ${cl.searchParameter}</h3>
+        <h3 class="form-h3 l-padding-top-xs-2 l-padding-bottom-xs-0-5">Search our ${cl.totalExperiencesCount} contributors: ${cl.searchParameter}</h3>
         <input class='input-field-blank input-field-big input-field-normal-left-border' placeholder="E.g. Cafe Sydney"/>
         <a href="#" class="btn-secondary btn-auto-size">Search</a>
     </div>

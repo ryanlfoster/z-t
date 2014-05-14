@@ -142,6 +142,10 @@ public class SocialTiles {
 	public boolean getHasNine() {
 		return (tilesList.size() == 9);
 	}
+	// Boolean used to switch from blank or 3 tile format
+	public boolean getHasThree() {
+		return (tilesList.size() >= 3);
+	}
 
 	public boolean getHasSubTitle() {
 		return StringUtils.isNotBlank(subTitle);

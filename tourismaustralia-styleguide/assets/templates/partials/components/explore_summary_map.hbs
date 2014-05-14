@@ -3,19 +3,9 @@ title: Intro Section (includes breadcrumb, explore, share, summary, text, map)
 ---
 
 <div class="home-explore-summary-map l-padding-b">
-{{#if page_title}}
 
-    <div class="row l-center-1200">
-        <div class="col-xs-12">
-            <div class="breadcrumbs">
-                <ul class="breadcrumb">
-                    <li><a href="#">...</a>
-                    <li><a href="#">{{page_title}}</a>
-                </ul>
-            </div>
-        </div>
-    </div>
-{{/if}}
+    <!-- variable data "page_title" will be sent where 'explore_summary_map' module is called-->
+    {{> breadcrumbsdynamic}}
 
     <div class="row l-center-1200">
         <div class="col-xs-12 col-sm-3">

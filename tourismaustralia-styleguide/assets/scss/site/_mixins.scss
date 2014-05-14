@@ -215,6 +215,7 @@
 //******* Start - Mixin for spacing defination, Margin is used for overlapping, not the Padding, strictly prohibted. *****
 // To change values on responsive modes, please change values in _variables.scss
 // parameters for mixin could be : 'zero' , 'standard' , 'medium' , 'large'
+// e.g. @include vertical-spacing-responsive('standard','large');
 
 @mixin vertical-spacing-responsive($top-mode, $bottom-mode){
 

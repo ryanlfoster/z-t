@@ -3,6 +3,7 @@ package com.australia.www.components.content.explore;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.citytechinc.cq.component.annotations.Listener;
 import com.citytechinc.cq.component.annotations.widgets.TextArea;
 import org.apache.commons.lang.StringUtils;
 import org.apache.sling.api.SlingHttpServletRequest;
@@ -15,7 +16,9 @@ import com.citytechinc.cq.component.annotations.widgets.DialogFieldSet;
 
 @Component(value = "Explore", disableTargeting = true, dialogHeight = 500,
 	tabs = { @Tab(title = "Explore Summary"), @Tab(title = "Tab 1"),
-		@Tab(title = "Tab 2"), @Tab(title = "Tab 3"), @Tab(title = "Tab 4"), @Tab(title = "Tab 5") })
+		@Tab(title = "Tab 2"), @Tab(title = "Tab 3"), @Tab(title = "Tab 4"), @Tab(title = "Tab 5") }, listeners = {
+	@Listener(name = "aftercopy", value = "REFRESH_PAGE"), @Listener(name = "afterdelete", value = "REFRESH_PAGE"),
+	@Listener(name = "afteredit", value = "REFRESH_PAGE"), @Listener(name = "afterinsert", value = "REFRESH_PAGE") })
 
 public class Explore {
 

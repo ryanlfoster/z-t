@@ -13700,51 +13700,62 @@ select {
   padding-bottom: 2.5em;
 }
 
-/* line 9, ../../assets/scss/site/modules/_quote.scss */
+/* line 10, ../../assets/scss/site/modules/_quote.scss */
 .quote-social-image {
   position: relative;
   text-align: center;
 }
 @media (min-width: 768px) {
-  /* line 9, ../../assets/scss/site/modules/_quote.scss */
+  /* line 10, ../../assets/scss/site/modules/_quote.scss */
   .quote-social-image {
     display: table-cell;
-    top: 1em;
+    top: 1.5em;
     padding-left: .5em;
   }
 }
 
-/* line 19, ../../assets/scss/site/modules/_quote.scss */
+/* line 20, ../../assets/scss/site/modules/_quote.scss */
 .quote-content {
   padding: 0 1em;
 }
 @media (min-width: 768px) {
-  /* line 19, ../../assets/scss/site/modules/_quote.scss */
+  /* line 20, ../../assets/scss/site/modules/_quote.scss */
   .quote-content {
     display: table-cell;
-    padding: 0 2em;
-    max-width: 430px;
+    padding: 0 2em 0 3.7em;
+    max-width: 27.5em;
   }
 }
 
-/* line 27, ../../assets/scss/site/modules/_quote.scss */
+/* line 28, ../../assets/scss/site/modules/_quote.scss */
 .quote-text {
   color: #297c9a;
   font-family: "ProximaNova Regular Italic", Helvetica, Arial, sans-serif;
   font-size: 1.5em;
-  line-height: 1.4em;
+  line-height: 1.46em;
   padding: 0;
-  margin: 0 0 .3em 0;
+  margin: .9em 0 0.3em 0;
 }
 
-/* line 35, ../../assets/scss/site/modules/_quote.scss */
+/* line 36, ../../assets/scss/site/modules/_quote.scss */
 .quote-byline {
   font-size: 0.875em;
 }
 
-/* line 38, ../../assets/scss/site/modules/_quote.scss */
+/* line 39, ../../assets/scss/site/modules/_quote.scss */
 .quote-hr {
-  margin: 1em;
+  margin: 1.2em .2em;
+}
+@media (min-width: 768px) {
+  /* line 39, ../../assets/scss/site/modules/_quote.scss */
+  .quote-hr {
+    margin: 0 1.8em;
+  }
+}
+
+/* line 45, ../../assets/scss/site/modules/_quote.scss */
+.quote-hr:last-child {
+  margin-top: 1.7em;
 }
 
 /* line 47, ../../assets/scss/site/modules/_header.scss */

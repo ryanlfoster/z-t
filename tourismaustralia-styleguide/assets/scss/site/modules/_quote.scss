@@ -4,6 +4,7 @@
 
 .quote {
   padding-bottom: pxtoem($bottom-spacing);
+  //@include vertical-spacing-responsive("zero", "standard");
 }
 
 .quote-social-image {
@@ -12,7 +13,7 @@
 
   @include breakpoint(md) {
     display: table-cell;
-    top: 1em;
+    top: 1.5em;
     padding-left: .5em;
   }
 }
@@ -20,21 +21,27 @@
   padding: 0 1em;
   @include breakpoint(md) {
     display: table-cell;
-    padding: 0 2em;
-    max-width: 430px;
+    padding: 0 2em 0 3.7em;
+    max-width: pxtoem(440px);
   }
 }
 .quote-text {
   color: #297c9a;
   font-family: $font-family-base-i;
   font-size: 1.5em;
-  line-height: 1.4em;
+  line-height: 1.46em;
   padding: 0;
-  margin: 0 0 .3em 0;
+  margin: .9em 0 0.3em 0;
 }
 .quote-byline {
   font-size: pxtoem(14px);
 }
 .quote-hr {
-  margin: 1em;
+  margin: 1.2em .2em;
+  @include breakpoint(md) {
+    margin: 0 1.8em;
+  }
+}
+.quote-hr:last-child {
+  margin-top: 1.7em;
 }

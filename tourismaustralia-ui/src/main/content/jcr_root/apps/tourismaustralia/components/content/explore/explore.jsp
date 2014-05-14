@@ -108,7 +108,7 @@
 				<div class="explore-card-back flip-back ieAntialias">
 					<img class="l-image-full explore-image-back" src="<c:url value='${card.imageBack}'/>" alt="${card.altTextBack}" />
 					<div class="l-h-center l-padding-tb-30-lr-15">
-						<p><c:out value="${card.textBack}"/> </p>
+						<p>${card.textBack} </p>
 						<hr>
 						<p><a id="explore-flip-back-btn" href="#"><fmt:message key="Back to overview"/></a></p>
 					</div>

@@ -29,6 +29,7 @@
 <div class="faw-category-mosaci-items l-display-none-md">
 
     <!-- FOOD MOSAIC CATEGORY ITEM -->
+    <c:if test="${stateMosaic.wine}">
     <input id="category-wine" type="checkbox" class="category-input" value="wine">
     <label for="category-wine">
         <div class="category-item">
@@ -42,9 +43,11 @@
             </span>
         </div>
     </label>
+    </c:if>
     <!-- END: FOOD MOSAIC CATEGORY ITEM -->
 
     <!-- FOOD MOSAIC CATEGORY ITEM -->
+   <c:if test="${stateMosaic.people}">
     <input id="category-people" type="checkbox" class="category-input" value="people">
     <label for="category-people">
         <div class="category-item">
@@ -58,9 +61,11 @@
             </span>
         </div>
     </label>
+    </c:if>
     <!-- END: FOOD MOSAIC CATEGORY ITEM -->
 
     <!-- FOOD MOSAIC CATEGORY ITEM -->
+    <c:if test="${stateMosaic.seafood}">
     <input id="category-seafood" type="checkbox" class="category-input" value="seafood">
     <label for="category-seafood">
         <div class="category-item">
@@ -74,9 +79,11 @@
             </span>
         </div>
     </label>
+    </c:if>
     <!-- END: FOOD MOSAIC CATEGORY ITEM -->
 
     <!-- FOOD MOSAIC CATEGORY ITEM -->
+    <c:if test="${stateMosaic.produce}">
     <input id="category-produce" type="checkbox" class="category-input" value="produce">
     <label for="category-produce">
         <div class="category-item">
@@ -90,9 +97,11 @@
             </span>
         </div>
     </label>
+    </c:if>
     <!-- END: FOOD MOSAIC CATEGORY ITEM -->
 
     <!-- FOOD MOSAIC CATEGORY ITEM -->
+    <c:if test="${stateMosaic.restaurant}">
     <input id="category-restaurants" type="checkbox" class="category-input" value="restaurant">
     <label for="category-restaurants">
     	<div class="category-item" id="category-restaurants">
@@ -106,9 +115,11 @@
             </span>
         </div>
     </label>
+    </c:if>
     <!-- END: FOOD MOSAIC CATEGORY ITEM -->
 
     <!-- FOOD MOSAIC CATEGORY ITEM -->
+     <c:if test="${stateMosaic.experiences}">
     <input id="category-experiences" type="checkbox" class="category-input" value="experiences">
     <label for="category-experiences">
         <div class="category-item" >
@@ -121,9 +132,11 @@
             </span>
         </div>
     </label>
+    </c:if>
     <!-- END: FOOD MOSAIC CATEGORY ITEM -->
 
     <!-- FOOD MOSAIC CATEGORY ITEM -->
+    <c:if test="${stateMosaic.events}">
     <input id="category-events" type="checkbox" class="category-input" value="events">
     <label for="category-events">
     	<div class="category-item">
@@ -137,6 +150,7 @@
             </span>
         </div>
     </label>
+    </c:if>
     <!-- END: FOOD MOSAIC CATEGORY ITEM -->
 
 </div>

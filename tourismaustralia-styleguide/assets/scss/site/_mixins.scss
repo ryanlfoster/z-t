@@ -210,3 +210,110 @@
     @content
   }
 }
+
+
+//******* Start - Mixin for spacing defination, Margin is used for overlapping, not the Padding, strictly prohibted. *****
+// To change values on responsive modes, please change values in _variables.scss
+// parameters for mixin could be : 'zero' , 'standard' , 'medium' , 'large'
+
+@mixin vertical-spacing-responsive($top-mode, $bottom-mode){
+
+  //zero Margins
+  @if $top-mode == 'zero' {
+    margin-top: 0;
+  }
+
+  @if $bottom-mode == 'zero' {
+    margin-bottom: 0;
+  }
+
+  //Standard Margins
+  @if $top-mode == 'standard' {
+    margin-top: $standard-spacing-xs;
+
+    @include breakpoint(sm) {
+      margin-top: $standard-spacing-sm;
+    }
+    @include breakpoint(md) {
+      margin-top: $standard-spacing-md;
+    }
+    @include breakpoint(lg) {
+      margin-top: $standard-spacing-lg;
+    }
+  }
+
+  @if $bottom-mode == 'standard' {
+    margin-bottom: $standard-spacing-xs;
+
+    @include breakpoint(sm) {
+      margin-bottom: $standard-spacing-sm;
+    }
+    @include breakpoint(md) {
+      margin-bottom: $standard-spacing-md;
+    }
+    @include breakpoint(lg) {
+      margin-bottom: $standard-spacing-lg;
+    }
+  }
+
+  //Medium Margins
+  @if $top-mode == 'medium' {
+    margin-top: $medium-spacing-xs;
+
+    @include breakpoint(sm) {
+      margin-top: $medium-spacing-sm;
+    }
+    @include breakpoint(md) {
+      margin-top: $medium-spacing-md;
+    }
+    @include breakpoint(lg) {
+      margin-top: $medium-spacing-lg;
+    }
+  }
+
+  @if $bottom-mode == 'medium' {
+    margin-bottom: $medium-spacing-xs;
+
+    @include breakpoint(sm) {
+      margin-bottom: $medium-spacing-sm;
+    }
+    @include breakpoint(md) {
+      margin-bottom: $medium-spacing-md;
+    }
+    @include breakpoint(lg) {
+      margin-bottom: $medium-spacing-lg;
+    }
+  }
+ 
+  //Large Margins
+  @if $top-mode == 'large' {
+    margin-top: $large-spacing-xs;
+
+    @include breakpoint(sm) {
+      margin-top: $large-spacing-sm;
+    }
+    @include breakpoint(md) {
+      margin-top: $large-spacing-md;
+    }
+    @include breakpoint(lg) {
+      margin-top: $large-spacing-lg;
+    }
+  }
+
+  @if $bottom-mode == 'large' {
+    margin-bottom: $large-spacing-xs;
+
+    @include breakpoint(sm) {
+      margin-bottom: $large-spacing-sm;
+    }
+    @include breakpoint(md) {
+      margin-bottom: $large-spacing-md;
+    }
+    @include breakpoint(lg) {
+      margin-bottom: $large-spacing-lg;
+    }
+  }
+
+}
+
+//******* End - Mixin for spacing defination, Margin is used for overlapping, not the Padding, strictly prohibted. *****

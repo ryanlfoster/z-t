@@ -378,12 +378,12 @@
 					data-type="checkbox">
 
 					<fieldset class="options">
-						<input id="checkbox" class="checkbox" type="checkbox"> <label
-							for="checkbox" name="demo_lbl_1" class="checkbox-label">I
+						<input id="legals" class="checkbox" name="legals" type="checkbox"> <label
+							for="legals" name="demo_lbl_1" class="checkbox-label">I
 							agree to Tourism Australia's terms &amp; conditions<sup>*</sup>
 						</label>
 						<!-- Checkbox powered by CssCheckbox.com -->
-						<p class="checkbox-description">
+						<p>
 							Tourism Australia may need to contact you to complete or edit
 							your listing. By ticking you accept the <a
 								href="${form.privacyPolicyLink}" target="_blank">Privacy

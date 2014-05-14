@@ -7,13 +7,13 @@
 	<div class="section-intro">
 		<div class="l-center-900">
 			<h3 class="type-h1-responsive">
-				<fmt:message key="EXPLORE BEYOND THE CITY LIMITS"/>
+                ${explore.title}
 			</h3>
 		</div>
 		<div class="l-center-640 type-center">
 			<p class="type-intro">
-				Make Sydney where your adventure begins. World-heritage natural wonders, world-class wine regions, and the world’s most stunning beaches are just over the horizon.
-			</p>
+                ${explore.description}
+            </p>
 		</div>
 	</div>
 	<div class="l-h-center section-buttons">
@@ -25,7 +25,7 @@
 						<select data-aus-select>
 							<c:forEach items="${explore.tabs}" var="tab">
 								<c:if test="${tab.hasTitle}">
-									<option value="${tab.title}">${tab.title}"</option>
+									<option value="${tab.title}"><c:out value="${tab.title}"/></option>
 								</c:if>
 							</c:forEach>
 						</select>
@@ -37,12 +37,14 @@
 		<div class="section-buttons-desktop">
 			<c:forEach items="${explore.tabs}" var="tab">
 				<c:if test="${tab.hasTitle}">
+
 					<a class="btn-bubble btn-bubble-min-width btn-category-extra-space" data-aus-tab="${tab.title}">
 						<span class="btn-bubble-button">
 							<img class="btn-bubble-std" src="<c:url value='${tab.iconImagePath}'/>" alt=""/>
 							<img class="btn-bubble-active" src="<c:url value='${tab.selectedImagePath}'/>" alt=""/>
 						</span>
-							<span class="type-below-btn"><c:out value="${tab.title}"/>
+						<span class="type-below-btn">
+							<c:out value="${tab.title}"/>
 						</span>
 					</a>
 				</c:if>
@@ -53,8 +55,8 @@
     <c:forEach items="${explore.tabs}" var="tab">
 	<div class="carousel-center-container" data-aus-show-tab="${tab.title}">
 	<div class="carousel-owl-mobile-fill">
-	<div id="carousel" class="owl-carousel owl-theme">
-    <%-- Tab 1 Carousel --%>
+	<div class="carousel owl-carousel owl-theme">
+
 	<c:forEach items="${tab.cards}" var="card">
 	<div class="carousel-item">
 		<div class="explore-item-container flip-container">
@@ -80,7 +82,7 @@
 						<a id="explore-flip-btn" href="" class="btn-bubble">
 							<span class="btn-bubble-tooltip">
 							<span class="btn-bubble-tooltip-container">
-							<fmt:message key="Show map"/>
+							<fmt:message key="View map"/>
 							</span>
 							</span>
 							<span class="btn-bubble-button">
@@ -90,10 +92,10 @@
 						</a>
 						<p><c:out value="${card.pageDescription}"/></p>
 						<p><a href="<c:url value='${card.pagePath}'/>"><fmt:message key="View more information"/></a></p>
-						<a href="#" class="btn-bubble bubble-colour-favourite" data-pagepath="<c:url value='${card.pagePath}'/>">
+						<a class="btn-bubble bubble-colour-favourite" data-pagepath="${card.pagePath}">
 							<span class="btn-bubble-tooltip">
 								<span class="btn-bubble-tooltip-container">
-                                    <fmt:message key="add to your dream trip"/>
+									<fmt:message key="add to your dream trip"/>
 								</span>
 							</span>
 							<span class="btn-bubble-button">
@@ -104,19 +106,9 @@
 					</div>
 				</div>
 				<div class="explore-card-back flip-back ieAntialias">
-					<img class="l-image-full explore-image-back" src="<c:url value='${card.imageBack}'/>" alt="" />
+					<img class="l-image-full explore-image-back" src="<c:url value='${card.imageBack}'/>" alt="${card.altTextBack}" />
 					<div class="l-h-center l-padding-tb-30-lr-15">
-						<ul class="explore-trip">
-							<li>
-								<span class="explore-trip-icon icon-font-Transport_Icon"></span>
-								<span class="explore-trip-time">3 hours</span>
-							</li>
-							<li>
-								<span class="explore-trip-icon icon-font-Hire_Icon"></span>
-								<span class="explore-trip-time">2 hours</span>
-							</li>
-						</ul>
-						<p>Travel time to Blue Mountains from Sydney</p>
+						<p>${card.textBack} </p>
 						<hr>
 						<p><a id="explore-flip-back-btn" href="#"><fmt:message key="Back to overview"/></a></p>
 					</div>

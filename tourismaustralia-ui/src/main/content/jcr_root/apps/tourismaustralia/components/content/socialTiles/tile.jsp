@@ -1,5 +1,7 @@
 <%@include file="/apps/tourismaustralia/components/global.jsp"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<c:set var="iconPath" value="/etc/designs/tourismaustralia/clientlibs/imgs/"/>
+
 <div class="mosaic-item">
 	<c:choose>
 		<c:when test="${tile.hasImage}">
@@ -39,7 +41,7 @@
 								<p class="type-destination">
 									<strong>${tile.title}</strong><br> <br>
 								</p>
-								<a href="${tile.link}"><fmt:message key="See More" /></a>
+								<fmt:message key="See More" />
 								<!-- back content end -->
 
 							</div>
@@ -55,7 +57,13 @@
 			</div>
 
 			<div class="mosaic-item-detail-container">
-
+                <%--Close button // start --%>
+                <span class="mosaic-close-icon">
+                    <a class="mosaic-detail-close-btn" href="#">
+                        <img src="${iconPath}icons/close_outline.png" alt="">
+                    </a>
+                </span>
+                <%--Close button // end --%>
 				<!-- content start -->
 				<div class="l-h-center theme-mosaic-social-detail">
 

@@ -114,7 +114,6 @@ public class SocialTiles {
 
 				tile.setTitle(properties.get("tab" + tabNum + "/title", StringUtils.EMPTY));
 				tile.setText(properties.get("tab" + tabNum + "/text", StringUtils.EMPTY));
-				tile.setLink(properties.get("tab" + tabNum + "/link", StringUtils.EMPTY));
 				if (tile.getIsValid()) {
 					tilesList.add(tile);
 				}
@@ -142,6 +141,10 @@ public class SocialTiles {
 	// Boolean used to switch from 3 tile or 9 tile format
 	public boolean getHasNine() {
 		return (tilesList.size() == 9);
+	}
+	// Boolean used to switch from blank or 3 tile format
+	public boolean getHasThree() {
+		return (tilesList.size() >= 3);
 	}
 
 	public boolean getHasSubTitle() {

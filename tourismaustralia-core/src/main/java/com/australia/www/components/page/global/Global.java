@@ -31,7 +31,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 @Component(value = "Global", path = "page", group = ".hidden", editConfig = false, fileName = "extra_dialog")
 public class Global {
 	private static final Logger LOG = LoggerFactory.getLogger(Global.class);
-	private final int OZCOM_CONTENT_ROOT = 1;
 
 	@DialogField(fieldLabel = "Hide from Search", fieldDescription = "Removes the page from the site search")
 	@Selection(type = Selection.CHECKBOX, options = @Option(value = "true"))
@@ -82,9 +81,14 @@ public class Global {
 		description = xssAPI.encodeForHTMLAttr(properties.get("jcr:description", ""));
 		keywords = xssAPI.encodeForHTMLAttr(WCMUtils.getKeywords(currentPage, false));
 		lastModified = StringUtils.left(xssAPI.encodeForHTMLAttr(properties.get("cq:lastModified", "")), 10);
-		socialNetworks = this.getSocialNetworks(request, currentPage.getAbsoluteParent(OZCOM_CONTENT_ROOT));
 		isHomePage = currentPage.equals(currentPage.getAbsoluteParent(1));
 		isAuHomePage = currentPage.equals(currentPage.getAbsoluteParent(2));
+
+		if (currentPage.getDepth() > 2) {
+			socialNetworks = this.getSocialNetworks(request, currentPage.getAbsoluteParent(2));
+		} else {
+			socialNetworks = "";
+		}
 
 		Resource imageResource = currentPage.getContentResource();
 		Image image = new Image(imageResource, "image");

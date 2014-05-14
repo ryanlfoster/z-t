@@ -288,7 +288,7 @@
 
     // Toggle Nav Panel
     Plugin.prototype.toggleNavPanel = function (scope, elm) {
-        if (elm.closest('.has-children').is('.is-open')) {
+         if (elm.closest('.has-children').is('.is-open')) {
             elm.closest('.has-children').removeClass('is-open');
         } else {
             $(scope.element).find('.has-children').removeClass('is-open');

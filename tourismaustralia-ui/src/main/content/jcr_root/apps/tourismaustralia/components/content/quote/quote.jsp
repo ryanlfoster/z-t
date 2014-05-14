@@ -9,13 +9,13 @@
 	<div class="row l-center-1200">
 		<div class="quote-social-image">
 			<div class="image-social-image">
-				<img src="/etc/designs/tourismaustralia/clientlibs/imgs/placeholders/image_social_image.jpg" alt="" />
+				<img src="${quote.imageSrc}" alt="" />
 			</div>
 		</div>
 		<div class="quote-content">
 			<hr class="quote-hr" />
 			<p class="quote-text">&#8220;${quote.quoteText}&#8221;</p>
-			<div class="quote-byline">${quote.byline} ${quote.quoteDate}</div>
+			<div class="quote-byline">${quote.byline}</div>
 			<hr class="quote-hr" />
 		</div>
 	</div>

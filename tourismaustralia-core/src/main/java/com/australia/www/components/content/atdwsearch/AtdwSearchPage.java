@@ -1,4 +1,4 @@
-package com.australia.www.components.page.atdwsearch;
+package com.australia.www.components.content.atdwsearch;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.australia.www.components.page.contactus;
+package com.australia.www.components.content.contactus;
 
 import java.io.IOException;
 import java.util.Arrays;

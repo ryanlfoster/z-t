@@ -4,7 +4,7 @@
           jcr:primaryType="cq:Template" jcr:title="Food and Wine Homepage Template"
           jcr:description="Food and Wine Homepage Template" 
           allowedPaths="[/content(/.*)?]"
-          ranking="1">
+          ranking="7">
 
     <jcr:content jcr:primaryType="cq:PageContent" 
                  sling:resourceType="foodandwine/components/page/homepage"

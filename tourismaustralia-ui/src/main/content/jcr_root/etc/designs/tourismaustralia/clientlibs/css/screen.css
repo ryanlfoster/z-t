@@ -10450,7 +10450,7 @@ blockquote-webkit {
 }
 
 /* line 16, ../../assets/scss/site/modules/_carousel.scss */
-#carousel .carousel-item {
+.carousel .carousel-item {
   margin: 0 .3em;
   text-align: center;
 }
@@ -11964,24 +11964,23 @@ a.map-pin-btn {
 
 /* line 110, ../../assets/scss/site/modules/_explore.scss */
 .explore-trip-icon {
-  display: block;
-  font-size: 2.4em;
-  color: #91ae35;
+  text-align: center;
+  padding-bottom: 0.1875em;
 }
 
-/* line 116, ../../assets/scss/site/modules/_explore.scss */
+/* line 115, ../../assets/scss/site/modules/_explore.scss */
 .explore-card-front {
   position: relative;
   padding: 0 0.9375em;
 }
 @media (min-width: 360px) {
-  /* line 116, ../../assets/scss/site/modules/_explore.scss */
+  /* line 115, ../../assets/scss/site/modules/_explore.scss */
   .explore-card-front {
     padding: initial;
   }
 }
 
-/* line 124, ../../assets/scss/site/modules/_explore.scss */
+/* line 123, ../../assets/scss/site/modules/_explore.scss */
 .explore-card-back {
   position: absolute;
   width: 100%;
@@ -11992,7 +11991,7 @@ a.map-pin-btn {
   padding: 0 0.9375em;
 }
 @media (min-width: 360px) {
-  /* line 124, ../../assets/scss/site/modules/_explore.scss */
+  /* line 123, ../../assets/scss/site/modules/_explore.scss */
   .explore-card-back {
     padding: initial;
   }
@@ -12001,7 +12000,7 @@ a.map-pin-btn {
 /****************************
 ** FLIP
 /****************************/
-/* line 141, ../../assets/scss/site/modules/_explore.scss */
+/* line 140, ../../assets/scss/site/modules/_explore.scss */
 .explore-item-container .flip-front, .explore-item-container .flip-back {
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
@@ -12019,7 +12018,7 @@ a.map-pin-btn {
   transform-style: preserve-3d;
 }
 
-/* line 163, ../../assets/scss/site/modules/_explore.scss */
+/* line 162, ../../assets/scss/site/modules/_explore.scss */
 .explore-item-container .flip-front {
   -webkit-transform: rotateY(0deg);
   -moz-transform: rotateY(0deg);
@@ -12029,7 +12028,7 @@ a.map-pin-btn {
   z-index: 2;
 }
 
-/* line 172, ../../assets/scss/site/modules/_explore.scss */
+/* line 171, ../../assets/scss/site/modules/_explore.scss */
 .explore-item-container .flip-back {
   -webkit-transform: rotateY(-180deg);
   -moz-transform: rotateY(-180deg);
@@ -12038,19 +12037,19 @@ a.map-pin-btn {
   transform: rotateY(-180deg);
 }
 
-/* line 183, ../../assets/scss/site/modules/_explore.scss */
+/* line 182, ../../assets/scss/site/modules/_explore.scss */
 .no-csstransforms3d .explore-item-container.is-flip:not(.is-trigger-content) .flip-front {
   z-index: 1;
 }
 
-/* line 191, ../../assets/scss/site/modules/_explore.scss */
+/* line 190, ../../assets/scss/site/modules/_explore.scss */
 .csstransforms3d .explore-item-container.is-flip:not(.is-trigger-content) .flip-front {
   -webkit-transform: rotateY(180deg);
   -moz-transform: rotateY(180deg);
   -o-transform: rotateY(180deg);
   transform: rotateY(180deg);
 }
-/* line 197, ../../assets/scss/site/modules/_explore.scss */
+/* line 196, ../../assets/scss/site/modules/_explore.scss */
 .csstransforms3d .explore-item-container.is-flip:not(.is-trigger-content) .flip-back {
   -webkit-transform: rotateY(0deg);
   -moz-transform: rotateY(0deg);

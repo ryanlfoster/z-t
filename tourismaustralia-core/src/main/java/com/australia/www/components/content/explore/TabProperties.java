@@ -1,5 +1,6 @@
 package com.australia.www.components.content.explore;
 
+import com.citytechinc.cq.component.annotations.widgets.RichTextEditor;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.sling.api.resource.Resource;
 
@@ -17,14 +18,22 @@ public class TabProperties {
 	@PathField
 	private String pagePath;
 
-	@DialogField(fieldDescription = "Back image of page")
-	@PathField
+	@DialogField(fieldDescription = "Image on the back of card")
+	@PathField(rootPath = "/content/dam")
 	private String imageBack;
+
+	@DialogField(fieldDescription = "Text on back of card")
+	@RichTextEditor()
+	private String textBack;
 
 	private Content content;
 
 	public String getAltTextBack() {
 		return altTextBack;
+	}
+
+	public String getTextBack(){
+		return textBack;
 	}
 
 	public String getImageBack() {
@@ -40,7 +49,7 @@ public class TabProperties {
 	}
 
 	public String getPageDescription() {
-		return content != null ? content.getText() : "";
+		return content != null ? StringUtils.abbreviate(content.getText(),200) : "";
 	}
 
 	public PageCategory getPageCategory() {
@@ -48,11 +57,21 @@ public class TabProperties {
 	}
 
 	public String getPagePath() {
-		return LinkUtils.getHrefFromPath(pagePath);
+		if(isValid()){
+			return LinkUtils.getHrefFromPath(pagePath);
+		} else {
+			return "";
+		}
 	}
+
+
 
 	public void setImageBack(final String path) {
 		imageBack = path;
+	}
+
+	public void setTextBack(final String text) {
+		textBack = text;
 	}
 
 	public void setAltTextBack(final String text) {
@@ -60,11 +79,12 @@ public class TabProperties {
 	}
 
 	public void setPage(String path, Resource resource) {
-		pagePath = path;
 		if (resource != null && StringUtils.isNotBlank(path)) {
+			pagePath = path;
 			Resource pageResource = resource.getResourceResolver().resolve(path);
 			content = Content.fromResource(pageResource);
 		} else {
+			pagePath = "";
 			content = null;
 		}
 	}

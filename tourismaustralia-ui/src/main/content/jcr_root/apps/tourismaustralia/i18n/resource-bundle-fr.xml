@@ -7,7 +7,7 @@
 	<exploreBeyond jcr:primaryType="sling:MessageEntry" sling:key="EXPLORE BEYOND THE CITY LIMITS" sling:message="Explore beyond city limits (french)"/>
     <viewMoreVideos jcr:primaryType="sling:MessageEntry" sling:key="View more videos" sling:message="Voir plus de vidéos"/>
     <addToYourDreamTrip jcr:primaryType="sling:MessageEntry" sling:key="add to your dream trip" sling:message="ajouter à votre voyage de rêve"/>
-	<showMap jcr:primaryType="sling:MessageEntry" sling:key="Show map" sling:message="Show map(FR)"/>
+	<viewMap jcr:primaryType="sling:MessageEntry" sling:key="View map" sling:message="View map(FR)"/>
 	<backToOverview jcr:primaryType="sling:MessageEntry" sling:key="Back to overview" sling:message="Back to overview(FR)"/>
 	<viewMoreInformation jcr:primaryType="sling:MessageEntry" sling:key="View more information" sling:message="View more information(FR)"/>
     <viewTermsAndConditions jcr:primaryType="sling:MessageEntry" sling:key="View terms and conditions" sling:message="View terms and conditions(FR)"/>
@@ -41,4 +41,9 @@
     <skipToContent jcr:primaryType="sling:MessageEntry" sling:key="Skip to content" sling:message="Skip to content(FR)"/>
     <skipToContent jcr:primaryType="sling:MessageEntry" sling:key="Skip to" sling:message="Skip to(FR)"/>
     <closeNavigation jcr:primaryType="sling:MessageEntry" sling:key="Close Navigation" sling:message="Close Navigation)(FR)"/>
+    <bestTimeTogo jcr:primaryType="sling:MessageEntry" sling:key="Best time to go" sling:message="Best time to go (FR)" />
+    <duration jcr:primaryType="sling:MessageEntry" sling:key="Duration" sling:message="Duration (FR)" />
+    <totalDistance jcr:primaryType="sling:MessageEntry" sling:key="Total distance" sling:message="Total distance (FR)" />
+    <modeOfTransport jcr:primaryType="sling:MessageEntry" sling:key="Mode of transport" sling:message="Mode of transport (FR)" />
+    <moreInformation jcr:primaryType="sling:MessageEntry" sling:key="More information" sling:message="More information (FR)" />
 </jcr:root>

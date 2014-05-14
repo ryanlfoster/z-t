@@ -14,6 +14,8 @@ import javax.jcr.query.RowIterator;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.ValueMap;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import com.australia.utils.PathUtils;
 import com.australia.utils.TagUtils;
@@ -54,6 +56,7 @@ public class StateMosaic {
 	private boolean seafood;
 	private String template;
 	private static final String DEFAULT_MESSAGE = "There are no article(s) present for selected tag(s)";
+	private static final Logger LOG = LoggerFactory.getLogger(StateMosaic.class);
 	private String queryString;
 	ImmutableMap<String, String> pathToLocationTag = ImmutableMap.<String, String> builder()
 		.put(PathUtils.FOOD_AND_WINE_EXPLORE_AUSTRALIAN_CAPITAL_TERRITORY, TagUtils.AUSTRALIA_CAPITAL_TERRITORY_TAG)
@@ -71,7 +74,6 @@ public class StateMosaic {
 	 * @param request
 	 */
 	public StateMosaic(SlingHttpServletRequest request) {
-		// TODO: Load first set server side so it can be indexed by google
 		try {
 			PageManager pageManager = request.getResourceResolver().adaptTo(PageManager.class);
 			TagManager tagManager = request.getResourceResolver().adaptTo(TagManager.class);
@@ -96,7 +98,7 @@ public class StateMosaic {
 			Query query = queryManager.createQuery(queryString, Query.JCR_SQL2);
 			filterCategoryTags(query, pageManager, tagManager);
 		} catch (RepositoryException e) {
-
+			LOG.error("Exception in StateMosaic " + e.getMessage());
 		}
 	}
 

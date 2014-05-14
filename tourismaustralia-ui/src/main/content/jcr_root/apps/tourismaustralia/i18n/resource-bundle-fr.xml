@@ -41,4 +41,9 @@
     <skipToContent jcr:primaryType="sling:MessageEntry" sling:key="Skip to content" sling:message="Skip to content(FR)"/>
     <skipToContent jcr:primaryType="sling:MessageEntry" sling:key="Skip to" sling:message="Skip to(FR)"/>
     <closeNavigation jcr:primaryType="sling:MessageEntry" sling:key="Close Navigation" sling:message="Close Navigation)(FR)"/>
+    <bestTimeTogo jcr:primaryType="sling:MessageEntry" sling:key="Best time to go" sling:message="Best time to go (FR)" />
+    <duration jcr:primaryType="sling:MessageEntry" sling:key="Duration" sling:message="Duration (FR)" />
+    <totalDistance jcr:primaryType="sling:MessageEntry" sling:key="Total distance" sling:message="Total distance (FR)" />
+    <modeOfTransport jcr:primaryType="sling:MessageEntry" sling:key="Mode of transport" sling:message="Mode of transport (FR)" />
+    <moreInformation jcr:primaryType="sling:MessageEntry" sling:key="More information" sling:message="More information (FR)" />
 </jcr:root>

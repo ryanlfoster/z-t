@@ -1,4 +1,4 @@
-package com.australia.www.components.page.breadcrumb;
+package com.australia.www.components.content.breadcrumb;
 
 import java.util.ArrayList;
 import java.util.Collections;

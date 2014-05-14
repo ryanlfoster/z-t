@@ -38,7 +38,6 @@ import com.australia.utils.PathUtils;
 import com.australia.utils.ServerUtils;
 import com.australia.utils.TagUtils;
 import com.day.cq.commons.date.DateUtil;
-import com.day.cq.commons.jcr.JcrConstants;
 import com.day.cq.commons.jcr.JcrUtil;
 import com.day.cq.dam.api.Asset;
 import com.day.cq.dam.api.AssetManager;
@@ -148,7 +147,8 @@ public class ExperienceCreationJob implements Runnable {
 			formProperties.get("businessName", String.class), true);
 		Resource contentResource = experiencePage.getContentResource();
 		ModifiableValueMap contentResourceProperties = contentResource.adaptTo(ModifiableValueMap.class);
-		contentResourceProperties.put("articleDescription",formProperties.get("businessDescription", String.class));
+		contentResourceProperties.put("articleDescription", formProperties.get("businessDescription", String.class));
+		contentResourceProperties.put("businessListing", "true");
 		resourceResolver.commit();
 
 		Map<String, Object> mapProperties = new HashMap<String, Object>();

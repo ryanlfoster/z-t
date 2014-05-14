@@ -10,4 +10,8 @@ public class ExperienceShortlist extends Shortlist {
 	@DialogField(fieldLabel = "Link From Contributors List")
 	@Selection(type = Selection.CHECKBOX, options = @Option(value = "true"))
 	private boolean linkFromContributorsList;
+
+	@DialogField(fieldLabel = "Business Listing")
+	@Selection(type = Selection.CHECKBOX, options = @Option(value = "true"))
+	private boolean businessListing;
 }

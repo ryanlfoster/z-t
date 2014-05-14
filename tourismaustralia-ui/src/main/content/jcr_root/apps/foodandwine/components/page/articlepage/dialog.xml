@@ -15,7 +15,10 @@
 							<items jcr:primaryType="cq:WidgetCollection">
 								<categoryLogoPath jcr:primaryType="nt:unstructured"
 									fieldLabel="Category Logo Path" fieldDescription="Select The Article Category Logo Path for other experiences(overlay)"
-									name="./categoryLogoPath" xtype="pathfield" rootPath="/content/dam"/>									
+									name="./categoryLogoPath" xtype="pathfield" rootPath="/content/dam"/>	
+								<articleDescription jcr:primaryType="nt:unstructured"
+									fieldLabel="Article Description" fieldDescription="Article Description"
+									name="./articleDescription" xtype="textarea" />								
 							</items>
 						</basic>
 					</items>

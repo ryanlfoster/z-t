@@ -1,10 +1,11 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@include file="/apps/tourismaustralia/components/global.jsp"%>
 
 <body>
 	<cq:include path="clientcontext"
 		resourceType="cq/personalization/components/clientcontext" />
 	<cq:include script="customProperties.jsp" />
-
+	
 	<div class="site-wrapper l-overflow-x-hidden">
         <cq:include script="header.jsp" />
 

@@ -74,7 +74,7 @@
 								<a data-pagepath="${product.productPath}" class="btn-bubble bubble-colour-favourite">
                                     <span class="btn-bubble-tooltip">
                                         <span class="btn-bubble-tooltip-container">
-                                            <fmt:message key="Add to your dream trip" />
+                                            <fmt:message key="add to your dream trip"/>
 									    </span>
 								    </span>
                                     <span class="btn-bubble-button">

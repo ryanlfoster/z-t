@@ -34,7 +34,7 @@ public class Content {
 		this.title = title;
 		this.text = text;
 		this.imagePath = imagePath;
-		this.pageCategory = pageCategory != null ? pageCategory : PageCategory.ABORIGINAL_AUSTRALIA;
+		this.pageCategory = pageCategory;
 	}
 
 	public String getPath() {

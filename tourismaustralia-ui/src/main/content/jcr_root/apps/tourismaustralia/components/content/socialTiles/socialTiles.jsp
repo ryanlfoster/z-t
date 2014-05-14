@@ -5,7 +5,7 @@
 <c:set var="socialTiles" value="<%=new SocialTiles(slingRequest)%>" />
 
 <c:set var="iconPath" value="/etc/designs/tourismaustralia/clientlibs/imgs/"/>
-
+<c:if test="${socialTiles.hasThree}">
 <div class="socialtiles">
 
 	<div class="row l-center-1200">
@@ -157,3 +157,4 @@
     </c:if>
 
 </div>
+</c:if>

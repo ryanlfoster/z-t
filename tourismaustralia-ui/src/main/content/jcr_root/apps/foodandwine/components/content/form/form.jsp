@@ -410,9 +410,7 @@
 							for="additionalcheckbox" name="demo_lbl_2" class="checkbox-label">${form.checkboxTitle } <sup></sup>
 						</label>
 						<!-- Checkbox powered by CssCheckbox.com -->
-						<p class="checkbox-description">
 							${form.checkboxDescription } 
-						</p>
 					</fieldset>
 
 					<span class="input-field-validation-icon "></span>

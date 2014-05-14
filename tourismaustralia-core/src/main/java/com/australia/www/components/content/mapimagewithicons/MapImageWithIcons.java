@@ -7,6 +7,7 @@ import org.apache.sling.api.resource.ValueMap;
 import com.citytechinc.cq.component.annotations.Component;
 import com.citytechinc.cq.component.annotations.DialogField;
 import com.citytechinc.cq.component.annotations.FieldProperty;
+import com.citytechinc.cq.component.annotations.Listener;
 import com.citytechinc.cq.component.annotations.Tab;
 import com.citytechinc.cq.component.annotations.widgets.Html5SmartImage;
 import com.citytechinc.cq.component.annotations.widgets.RichTextEditor;
@@ -16,7 +17,8 @@ import com.citytechinc.cq.component.annotations.widgets.TextArea;
  * Backing bean for the Itinerary component
  */
 @Component(value = "Map Image With Icons", tabs = { @Tab(title = Constants.TAB_GENERAL),
-	@Tab(title = Constants.TAB_MAP_IMAGE), @Tab(title = Constants.TAB_BUTTONS) })
+	@Tab(title = Constants.TAB_MAP_IMAGE), @Tab(title = Constants.TAB_BUTTONS) }, listeners = {
+	@Listener(name = "afteredit", value = "REFRESH_PAGE"), @Listener(name = "afterinsert", value = "REFRESH_PAGE") })
 public final class MapImageWithIcons {
 
 	@DialogField(fieldLabel = "Title", tab = Constants.TAB_INDEX_GENERAL)

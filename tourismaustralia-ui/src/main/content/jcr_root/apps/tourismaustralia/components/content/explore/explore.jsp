@@ -25,7 +25,7 @@
 						<select data-aus-select>
 							<c:forEach items="${explore.tabs}" var="tab">
 								<c:if test="${tab.hasTitle}">
-									<option value="${tab.title}">${tab.title}"</option>
+									<option value="${tab.title}"><c:out value="${tab.title}"/></option>
 								</c:if>
 							</c:forEach>
 						</select>

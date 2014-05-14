@@ -173,6 +173,7 @@
                         { "text": "featuredproducts" },
                         { "text": "fullsizevideo" },
                         { "text": "hero" },
+                        { "text": "herovideo" },
                         { "text": "hero_text" },
                         { "text": "iframe" },
                         { "text": "iframe_inline" },
@@ -233,6 +234,13 @@
                         { "text": "favouriteandshare" },
                         { "text": "video_add_tags_share" },
                         { "text": "hero" }
+                    ]
+                },
+                {
+                    "text" : "Line Through Text",
+                    "item": [
+                        { "text": "linethroughtext" },
+                        { "text": "linethroughtextfullhr" }
                     ]
                 },
                 {

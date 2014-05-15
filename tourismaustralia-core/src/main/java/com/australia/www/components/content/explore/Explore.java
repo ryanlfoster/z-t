@@ -43,7 +43,7 @@ public class Explore {
 
 	@DialogField(xtype = "static", tab = 1, additionalProperties = {
 		@FieldProperty(name = "text", value = "This component will display between 1 to 5 "
-			+ "tabs depending on the number of valid tabs filled out."
+			+ "tabs depending on the number of valid tabs filled out. Each tab must have 3 valid cards."
 			+ "Invalid tabs will not display. Fields are marked as required for this purpose." + "\n"),
 		@FieldProperty(name = "bold", value = "true") })
 	private String notice;

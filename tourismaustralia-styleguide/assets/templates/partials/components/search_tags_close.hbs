@@ -4,7 +4,7 @@ title: Search Tags Close
 
 <div class="search-tags">
 
-    {{#parseJSON '{"data" : [{"tag_has_link": "true", "tag_title": "Eco adventure"}, {"tag_has_link": "true", "tag_title": "Sailing"}, {"tag_has_link": "true", "tag_title": "Shopping"}]}'}}
+    {{#parseJSON '{"data" : [{"tag_has_link": false, "tag_title": "Eco adventure"}, {"tag_has_link": false, "tag_title": "Sailing"}, {"tag_has_link": false, "tag_title": "Shopping"}]}'}}
         {{> tagcloudnotitle }}
     {{/parseJSON}}
 

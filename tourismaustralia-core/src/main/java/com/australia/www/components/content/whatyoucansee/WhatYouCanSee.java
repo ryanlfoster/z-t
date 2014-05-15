@@ -68,7 +68,7 @@ public final class WhatYouCanSee {
 		@Listener(name = "selectionchanged", value = Constants.OPTIONAL_SHOW_LISTENER),
 		@Listener(name = "afterlayout", value = Constants.OPTIONAL_SHOW_LISTENER) })
 	@Selection(type = Selection.CHECKBOX, options = @Option(value = "true"))
-	private final boolean showOptionalTab;
+	private boolean showOptionalTab;
 
 	@DialogField(fieldLabel = "Optional Tab Title", tab = 3)
 	private final String optionalTabTitle;
@@ -163,6 +163,7 @@ public final class WhatYouCanSee {
 
 		if (!showThingsToDo && !showOptionalTab) {
 			showThingsToDo = true;
+			showOptionalTab = true;
 		}
 
 		optionalTabPath0 = properties.get(Constants.NAME_OPTIONAL_TAB_PATH_0, String.class);
@@ -209,17 +210,37 @@ public final class WhatYouCanSee {
 
 		if (showOptionalTab) {
 			final List<Content> content = new ArrayList<Content>();
-			content.add(Content.fromResource(optionalTabResource0));
-			content.add(Content.fromResource(optionalTabResource1));
-			content.add(Content.fromResource(optionalTabResource2));
-			content.add(Content.fromResource(optionalTabResource3));
-			content.add(Content.fromResource(optionalTabResource4));
+			if(optionalTabResource0 != null) {
+				content.add(Content.fromResource(optionalTabResource0));
+			}
+			if(optionalTabResource1 != null) {
+				content.add(Content.fromResource(optionalTabResource1));
+			}
+			if(optionalTabResource2 != null) {
+				content.add(Content.fromResource(optionalTabResource2));
+			}
+			if(optionalTabResource3 != null) {
+				content.add(Content.fromResource(optionalTabResource3));
+			}
+			if(optionalTabResource4 != null) {
+				content.add(Content.fromResource(optionalTabResource4));
+			}
 			if (Constants.TAB_SIZE_10.equals(optionalTabSize)) {
-				content.add(Content.fromResource(optionalTabResource5));
-				content.add(Content.fromResource(optionalTabResource6));
-				content.add(Content.fromResource(optionalTabResource7));
-				content.add(Content.fromResource(optionalTabResource8));
-				content.add(Content.fromResource(optionalTabResource9));
+				if(optionalTabResource5 != null) {
+					content.add(Content.fromResource(optionalTabResource5));
+				}
+				if(optionalTabResource6 != null) {
+					content.add(Content.fromResource(optionalTabResource6));
+				}
+				if(optionalTabResource7 != null) {
+					content.add(Content.fromResource(optionalTabResource7));
+				}
+				if(optionalTabResource8 != null) {
+					content.add(Content.fromResource(optionalTabResource8));
+				}
+				if(optionalTabResource9 != null) {
+					content.add(Content.fromResource(optionalTabResource9));
+				}
 			}
 			final Tab optionalTab = new Tab(optionalTabTitle, "optional", null, content, Constants.OPTIONAL_IMAGE_PATH,
 				Constants.OPTIONAL_OUTLINE_IMAGE_PATH, null);

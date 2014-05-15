@@ -53,6 +53,9 @@ a.map-pin-btn {
   text-align: center;
   @include vertical-spacing-responsive('large','zero',0px,8px);
 }
+.paragraph-city .map-with-links-container {
+  @include vertical-spacing-responsive('large','zero',0px,24px);
+}
 
 .map-with-links-intro {
   display: block;
@@ -178,16 +181,12 @@ a.map-pin-btn {
   display: inline-block;
   max-width: 200px;
   text-align: left;
-  margin: 0px 40px;
+  @include vertical-spacing-responsive('standard','standard',22px,14px);
   position: relative;
   vertical-align: top;
 }
 .map-btn-content {
   text-align: left;
-    margin-bottom: pxtoem(16px);
-    @include breakpoint(lg) {
-        margin-bottom: 0;
-    }
   font-family: "ProximaNova Regular", Helvetica, Arial, sans-serif;
   font-size: 0.875em;
   line-height: 1.5em;

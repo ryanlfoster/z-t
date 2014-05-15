@@ -12,6 +12,7 @@ class Constants {
 
 	public static final String NAME_TITLE = "title";
 	public static final String NAME_TEXT = "text";
+	public static final String NAME_MAP_ALT_TEXT = "mapAltText";
 	public static final String NAME_MAP_IMAGE = "mapImage";
 	public static final String NAME_BEST_TIME = "bestTime";
 	public static final String NAME_TOTAL_DISTANCE = "totalDistance";

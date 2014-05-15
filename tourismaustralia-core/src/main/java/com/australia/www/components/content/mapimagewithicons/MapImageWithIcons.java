@@ -28,7 +28,10 @@ public final class MapImageWithIcons {
 	@TextArea
 	private final String text;
 
-	@DialogField(fieldLabel = "Map Image", tab = Constants.TAB_INDEX_MAP_IMAGE)
+	@DialogField(fieldLabel = "Map alt text", required = true, tab = Constants.TAB_INDEX_GENERAL)
+	private final String mapAltText;
+
+	@DialogField(fieldLabel = "Map Image", required = true, tab = Constants.TAB_INDEX_MAP_IMAGE)
 	@Html5SmartImage(tab = false, name = Constants.NAME_MAP_IMAGE, height = Constants.IMAGE_WIDGET_HEIGHT)
 	private final String mapImage;
 
@@ -59,6 +62,7 @@ public final class MapImageWithIcons {
 
 		title = properties.get(Constants.NAME_TITLE, "");
 		text = properties.get(Constants.NAME_TEXT, "");
+		mapAltText = properties.get(Constants.NAME_MAP_ALT_TEXT, "");
 
 		mapImage = properties.get(Constants.NAME_MAP_IMAGE + "/fileReference", "");
 
@@ -76,6 +80,10 @@ public final class MapImageWithIcons {
 
 	public String getText() {
 		return text;
+	}
+
+	public String getMapAltText() {
+		return mapAltText;
 	}
 
 	public String getMapImage() {

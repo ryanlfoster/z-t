@@ -58,13 +58,19 @@ public class TabProperties {
 
 	public String getPagePath() {
 		if(isValid()){
-			return LinkUtils.getHrefFromPath(pagePath);
+			return pagePath;
 		} else {
 			return "";
 		}
 	}
 
-
+	public String getPageLink() {
+		if(isValid()){
+			return LinkUtils.getHrefFromPath(pagePath);
+		} else {
+			return "";
+		}
+	}
 
 	public void setImageBack(final String path) {
 		imageBack = path;

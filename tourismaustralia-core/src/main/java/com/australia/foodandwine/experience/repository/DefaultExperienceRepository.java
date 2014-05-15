@@ -69,7 +69,6 @@ public class DefaultExperienceRepository implements ExperienceRepository {
 	public ExperienceSearchResult search(ExperienceSearchParameters parameters) {
 		ResourceResolver resourceResolver = null;
 		articleMap = new LinkedHashMap<String, List<Experience>>();
-		// experiences.clear();
 		try {
 			resourceResolver = resourceResolverFactory.getAdministrativeResourceResolver(null);
 			TagManager tagManager = resourceResolver.adaptTo(TagManager.class);
@@ -80,6 +79,10 @@ public class DefaultExperienceRepository implements ExperienceRepository {
 			queryMap.put(QueryUtils.TYPE, NameConstants.NT_PAGE);
 			QueryUtils.addProperty(queryMap, propertyCount, JCR_PREFIX
 				+ JcrResourceConstants.SLING_RESOURCE_TYPE_PROPERTY, EXPERIENCE_RESOURCE_TYPE);
+			propertyCount++;
+			queryMap.put(propertyCount+"_property", JCR_PREFIX + "businessListing");
+			queryMap.put(propertyCount+"_property.value", "true");
+			queryMap.put(propertyCount+"_property.operation", "exists");
 			propertyCount++;
 			String path = PathUtils.FOOD_AND_WINE_ROOT_PATH;
 			queryMap.put(propertyCount + QueryUtils.SEPERATOR + QueryUtils.PATH, path);

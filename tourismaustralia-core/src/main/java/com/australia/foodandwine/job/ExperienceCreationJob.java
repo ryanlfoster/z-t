@@ -38,7 +38,6 @@ import com.australia.utils.PathUtils;
 import com.australia.utils.ServerUtils;
 import com.australia.utils.TagUtils;
 import com.day.cq.commons.date.DateUtil;
-import com.day.cq.commons.jcr.JcrConstants;
 import com.day.cq.commons.jcr.JcrUtil;
 import com.day.cq.dam.api.Asset;
 import com.day.cq.dam.api.AssetManager;
@@ -148,8 +147,8 @@ public class ExperienceCreationJob implements Runnable {
 			formProperties.get("businessName", String.class), true);
 		Resource contentResource = experiencePage.getContentResource();
 		ModifiableValueMap contentResourceProperties = contentResource.adaptTo(ModifiableValueMap.class);
-		contentResourceProperties.put(JcrConstants.JCR_DESCRIPTION,
-			formProperties.get("businessDescription", String.class));
+		contentResourceProperties.put("articleDescription", formProperties.get("businessDescription", String.class));
+		contentResourceProperties.put("businessListing", "true");
 		resourceResolver.commit();
 
 		Map<String, Object> mapProperties = new HashMap<String, Object>();
@@ -158,6 +157,7 @@ public class ExperienceCreationJob implements Runnable {
 		mapProperties.put("suburb", formProperties.get("location", String.class));
 		mapProperties.put("state", formProperties.get("selectTerritory", String.class));
 		mapProperties.put("website", formProperties.get("businessWebsite", String.class));
+		mapProperties.put("checkbox", formProperties.get("checkBoxData",String.class));
 		resourceResolver.create(contentResource, "map", mapProperties);
 		resourceResolver.commit();
 
@@ -184,10 +184,10 @@ public class ExperienceCreationJob implements Runnable {
 			Tag primaryTag = null;
 			Tag secondaryTag = null;
 			for (Tag tag : getCategoryTags(resourceResolver.adaptTo(TagManager.class))) {
-				if (String.format(CATEGORY_PREFIX, tag.getTitle()).toLowerCase().equals(primaryCategory)) {
+				if (String.format(CATEGORY_PREFIX, tag.getName()).toLowerCase().equals(primaryCategory)) {
 					primaryTag = tag;
 				}
-				if (String.format(CATEGORY_PREFIX, tag.getTitle()).toLowerCase().equals(secondayCategory)) {
+				if (String.format(CATEGORY_PREFIX, tag.getName()).toLowerCase().equals(secondayCategory)) {
 					secondaryTag = tag;
 				}
 			}
@@ -196,7 +196,7 @@ public class ExperienceCreationJob implements Runnable {
 				int count = 1;
 				if (primaryTag != null) {
 					String imagePath = "/content/dam/food-and-wine/icons/categories/category-icon-"
-						+ primaryTag.getTitle().toLowerCase() + "-white.png";
+						+ primaryTag.getName().toLowerCase() + "-white.png";
 					categoryProperties.put("caption" + count, primaryTag.getTitle());
 					categoryProperties.put("imagePath" + count, imagePath);
 					count++;
@@ -204,7 +204,7 @@ public class ExperienceCreationJob implements Runnable {
 				}
 				if (secondaryTag != null) {
 					String imagePath = "/content/dam/food-and-wine/icons/categories/category-icon-"
-						+ secondaryTag.getTitle().toLowerCase() + "-white.png";
+						+ secondaryTag.getName().toLowerCase() + "-white.png";
 					categoryProperties.put("caption" + count, secondaryTag.getTitle());
 					categoryProperties.put("imagePath" + count, imagePath);
 					tagIds.add(secondaryTag.getTagID());

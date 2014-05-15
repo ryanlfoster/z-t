@@ -33,6 +33,9 @@ public class Explore {
 	private static final String CARD_LABEL2 = "Card 2";
 	private static final String CARD_LABEL3 = "Card 3";
 	private static final String REQUIRED_FIELD = "Field required for this tab to display";
+	private static final String USAGE_GUIDELINES = "This component will display between 1 to 5 "
+			+ "tabs depending on the number of valid tabs filled out. Each tab must have 3 valid cards. "
+			+ "Invalid tabs will not display. Fields are marked as required for this purpose.";
 
 
 	@DialogField(fieldLabel = "Title", tab = 1)
@@ -42,15 +45,14 @@ public class Explore {
 	private String description;
 
 	@DialogField(xtype = "static", tab = 1, additionalProperties = {
-		@FieldProperty(name = "text", value = "This component will display between 1 to 5 "
-			+ "tabs depending on the number of valid tabs filled out. Each tab must have 3 valid cards."
-			+ "Invalid tabs will not display. Fields are marked as required for this purpose." + "\n"),
+		@FieldProperty(name = "text", value = USAGE_GUIDELINES+"\n"),
 		@FieldProperty(name = "bold", value = "true") })
 	private String notice;
 
 	@DialogField(tab = 2)
 	@DialogFieldSet(border = false, namePrefix = TAB1)
 	private final Category tab1;
+
 	@DialogField(fieldLabel = CARD_LABEL1, fieldDescription = REQUIRED_FIELD, tab = 2)
 	@DialogFieldSet(namePrefix = TAB1 + CARD1, collapsible = true, collapsed = true)
 	private final TabProperties tab1card1;

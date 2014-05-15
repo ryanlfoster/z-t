@@ -9,6 +9,7 @@ import com.australia.pagecategories.PageCategory;
 import com.australia.utils.LinkUtils;
 import com.citytechinc.cq.component.annotations.DialogField;
 import com.citytechinc.cq.component.annotations.widgets.PathField;
+import org.apache.sling.api.resource.ResourceUtil;
 
 public class TabProperties {
 	@DialogField(fieldDescription = "Back alt text. Required", hideLabel = true)
@@ -88,7 +89,11 @@ public class TabProperties {
 		if (resource != null && StringUtils.isNotBlank(path)) {
 			pagePath = path;
 			Resource pageResource = resource.getResourceResolver().resolve(path);
-			content = Content.fromResource(pageResource);
+			if (!ResourceUtil.isNonExistingResource(pageResource) && !ResourceUtil.isSyntheticResource(pageResource)) {
+				content = Content.fromResource(pageResource);
+			} else {
+				content = null;
+			}
 		} else {
 			pagePath = "";
 			content = null;
@@ -96,7 +101,9 @@ public class TabProperties {
 	}
 
 	public boolean isValid() {
-		return pagePath != null && !pagePath.trim().isEmpty();
+		return pagePath != null && !pagePath.trim().isEmpty()
+			&& StringUtils.isNotBlank(imageBack)
+			&& StringUtils.isNotBlank(altTextBack);
 	}
 
 }

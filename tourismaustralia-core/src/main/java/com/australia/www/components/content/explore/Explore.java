@@ -46,7 +46,7 @@ public class Explore {
 
 	@DialogField(xtype = "static", tab = 1, additionalProperties = {
 		@FieldProperty(name = "text", value = USAGE_GUIDELINES+"\n"),
-		@FieldProperty(name = "bold", value = "true") })
+		@FieldProperty(name = "italic", value = "true") })
 	private String notice;
 
 	@DialogField(tab = 2)

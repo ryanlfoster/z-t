@@ -96,6 +96,7 @@ public class TabProperties {
 			if (!ResourceUtil.isNonExistingResource(pageResource) && !ResourceUtil.isSyntheticResource(pageResource)) {
 				content = Content.fromResource(pageResource);
 			} else {
+				pagePath = "";
 				content = null;
 			}
 		} else {

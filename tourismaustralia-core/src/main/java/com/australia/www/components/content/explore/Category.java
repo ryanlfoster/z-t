@@ -45,10 +45,6 @@ public class Category {
 		return new ArrayList<TabProperties>(cards);
 	}
 
-	public boolean getHasTitle() {
-		return StringUtils.isNotBlank(title);
-	}
-
 	public void setIconImagePath(String path) {
 		this.iconImagePath = path;
 	}
@@ -70,6 +66,9 @@ public class Category {
 	}
 
 	public boolean isValid() {
+		if (StringUtils.isBlank(iconImagePath) || StringUtils.isBlank(selectedImagePath) || StringUtils.isBlank(title)){
+			return false;
+		}
 		for (TabProperties card: cards) {
 			if (!card.isValid()) {
 				return false;

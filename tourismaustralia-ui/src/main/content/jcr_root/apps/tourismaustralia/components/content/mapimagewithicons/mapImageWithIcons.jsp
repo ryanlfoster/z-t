@@ -21,7 +21,7 @@
     <div class="l-center-640">
         <p class="map-with-links-intro">${map.text}</p>
 
-        <img src="${map.mapImage}" class="map-highlights-image" alt="">
+        <img src="${map.mapImage}" class="map-highlights-image" alt="${map.mapAltText}">
 
     </div>
     </c:if>

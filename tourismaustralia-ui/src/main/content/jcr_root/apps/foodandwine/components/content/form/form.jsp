@@ -300,7 +300,7 @@
 										alt="" /> <img class='category-image-dark'
 										src="/etc/designs/foodandwine/clientlibs/imgs/base/categories/category-icon-events-dark.png"
 										alt="" />
-									</span> <span class="category-title"> Events </span> <span
+									</span> <span class="category-title"> Festivals </span> <span
 										class="category-description"> ${form.eventsDescription }</span>
 								</div>
 							</label>
@@ -378,12 +378,12 @@
 					data-type="checkbox">
 
 					<fieldset class="options">
-						<input id="checkbox" class="checkbox" type="checkbox"> <label
-							for="checkbox" name="demo_lbl_1" class="checkbox-label">I
+						<input id="legals" class="checkbox" name="legals" type="checkbox"> <label
+							for="legals" name="demo_lbl_1" class="checkbox-label">I
 							agree to Tourism Australia's terms &amp; conditions<sup>*</sup>
 						</label>
 						<!-- Checkbox powered by CssCheckbox.com -->
-						<p class="checkbox-description">
+						<p>
 							Tourism Australia may need to contact you to complete or edit
 							your listing. By ticking you accept the <a
 								href="${form.privacyPolicyLink}" target="_blank">Privacy
@@ -396,6 +396,27 @@
 					<div class="col-xs-12">
 				    	<p class="input-field-validation-alert">
                            Please accept the terms and conditions
+                       	</p>					
+					</div>
+				</div>
+			</div>
+			
+			<div class="field-container terms-conditions">
+				<div class="input-field input-field-checkbox form-agree-container"
+					data-type="checkbox">
+
+					<fieldset class="options">
+						<input id="additionalcheckbox" class="checkbox" type="checkbox" name="additionalcheckbox"> <label
+							for="additionalcheckbox" name="demo_lbl_2" class="checkbox-label">${form.checkboxTitle } <sup></sup>
+						</label>
+						<!-- Checkbox powered by CssCheckbox.com -->
+							${form.checkboxDescription } 
+					</fieldset>
+
+					<span class="input-field-validation-icon "></span>
+					<div class="col-xs-12">
+				    	<p class="input-field-validation-alert">
+                           ${form.validationMessage} 
                        	</p>					
 					</div>
 				</div>

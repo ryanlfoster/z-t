@@ -3,15 +3,12 @@ package com.australia.www.components.content.explore;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.citytechinc.cq.component.annotations.Listener;
+import com.citytechinc.cq.component.annotations.*;
 import com.citytechinc.cq.component.annotations.widgets.TextArea;
 import org.apache.commons.lang.StringUtils;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.ValueMap;
 
-import com.citytechinc.cq.component.annotations.Component;
-import com.citytechinc.cq.component.annotations.DialogField;
-import com.citytechinc.cq.component.annotations.Tab;
 import com.citytechinc.cq.component.annotations.widgets.DialogFieldSet;
 
 @Component(value = "Explore", disableTargeting = true, dialogHeight = 500, dialogWidth = 600,
@@ -43,6 +40,13 @@ public class Explore {
 	@DialogField(fieldLabel = "Description", tab = 1)
 	@TextArea
 	private String description;
+
+	@DialogField(xtype = "static", tab = 1, additionalProperties = {
+		@FieldProperty(name = "text", value = "This component will display between 1 to 5 "
+			+ "tabs depending on the number of valid tabs filled out."
+			+ "Invalid tabs will not display. Fields are marked as required for this purpose." + "\n"),
+		@FieldProperty(name = "bold", value = "true") })
+	private String notice;
 
 	@DialogField(tab = 2)
 	@DialogFieldSet(border = false, namePrefix = TAB1)

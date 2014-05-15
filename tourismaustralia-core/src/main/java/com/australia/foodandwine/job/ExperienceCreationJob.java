@@ -184,10 +184,10 @@ public class ExperienceCreationJob implements Runnable {
 			Tag primaryTag = null;
 			Tag secondaryTag = null;
 			for (Tag tag : getCategoryTags(resourceResolver.adaptTo(TagManager.class))) {
-				if (String.format(CATEGORY_PREFIX, tag.getTitle()).toLowerCase().equals(primaryCategory)) {
+				if (String.format(CATEGORY_PREFIX, tag.getName()).toLowerCase().equals(primaryCategory)) {
 					primaryTag = tag;
 				}
-				if (String.format(CATEGORY_PREFIX, tag.getTitle()).toLowerCase().equals(secondayCategory)) {
+				if (String.format(CATEGORY_PREFIX, tag.getName()).toLowerCase().equals(secondayCategory)) {
 					secondaryTag = tag;
 				}
 			}
@@ -196,7 +196,7 @@ public class ExperienceCreationJob implements Runnable {
 				int count = 1;
 				if (primaryTag != null) {
 					String imagePath = "/content/dam/food-and-wine/icons/categories/category-icon-"
-						+ primaryTag.getTitle().toLowerCase() + "-white.png";
+						+ primaryTag.getName().toLowerCase() + "-white.png";
 					categoryProperties.put("caption" + count, primaryTag.getTitle());
 					categoryProperties.put("imagePath" + count, imagePath);
 					count++;
@@ -204,7 +204,7 @@ public class ExperienceCreationJob implements Runnable {
 				}
 				if (secondaryTag != null) {
 					String imagePath = "/content/dam/food-and-wine/icons/categories/category-icon-"
-						+ secondaryTag.getTitle().toLowerCase() + "-white.png";
+						+ secondaryTag.getName().toLowerCase() + "-white.png";
 					categoryProperties.put("caption" + count, secondaryTag.getTitle());
 					categoryProperties.put("imagePath" + count, imagePath);
 					tagIds.add(secondaryTag.getTagID());

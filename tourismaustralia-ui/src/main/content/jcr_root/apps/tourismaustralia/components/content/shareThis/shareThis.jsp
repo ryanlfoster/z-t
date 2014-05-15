@@ -36,10 +36,12 @@
 			            <img class="btn-bubble-active" src="/etc/designs/tourismaustralia/clientlibs/imgs/icons/sharethis.png" alt="ShareThis icon">
 					</span>
 				</li>
+
 		    	<!-- Facebok Like always shows -->
 				<li class="social-fblike">
 					<span class="st_fblike_large" displayText="Facebook Like" st_url="${sharethis.shareUrl}"></span>
 				</li>
+				
 			</ul>		    
 		</div>
 </div>

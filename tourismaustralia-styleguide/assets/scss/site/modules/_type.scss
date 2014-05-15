@@ -257,10 +257,12 @@
 }
 
 .type-summary {
-  font-family: "ProximaNova Regular Italic", Helvetica, Arial, sans-serif;
+  //font-family: "ProximaNova Regular Italic", Helvetica, Arial, sans-serif;
   font-size: pxtoem(22px);
   color: #231f20;
-
+  p {
+    font-family: "ProximaNova Regular Italic", Helvetica, Arial, sans-serif;
+  }
     @include breakpoint(lg) {
         p:first-of-type {
             margin-top: 0;

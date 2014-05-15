@@ -46,4 +46,7 @@
     <totalDistance jcr:primaryType="sling:MessageEntry" sling:key="Total distance" sling:message="Total distance" />
     <modeOfTransport jcr:primaryType="sling:MessageEntry" sling:key="Mode of transport" sling:message="Mode of transport" />
     <moreInformation jcr:primaryType="sling:MessageEntry" sling:key="More information" sling:message="More information" />
+    <articleBy jcr:primaryType="sling:MessageEntry" sling:key="Article by" sling:message="Article by"/>
+    <thingsToDo jcr:primaryType="sling:MessageEntry" sling:key="things to do" sling:message="things to do" />
+    <highlights jcr:primaryType="sling:MessageEntry" sling:key="highlights" sling:message="highlights" />
 </jcr:root>

@@ -63,7 +63,7 @@
                         <ul class="navbar-items navbar-subitems">
                             <li>
                                 <a href="${Header.capital}.html" target="_self">
-                                    <p>Australia Capital Territory</p>
+                                    <p>Australian Capital Territory</p>
                                 </a>
                             </li>
                             <li>

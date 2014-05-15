@@ -63,12 +63,18 @@
 			<div class="flipper">
 				<div class="explore-card-front flip-front theme-mosaic-3column-front ieAntialias">
 					<!-- include category type "nature" to class to use that colour base -->
-					<div class="explore-image-container ${card.pageCategory.cssClass} type-spacing-40">
+                    <c:set var="categoryClass" value=""/>
+                    <c:if test="${not empty card.pageCategory}">
+                        <c:set var="categoryClass" value="${card.pageCategory.cssClass}"/>
+                    </c:if>
+					<div class="explore-image-container ${categoryClass} type-spacing-40">
 						<img class="l-image-full explore-image" src="<c:url value='${card.pageImagePath}'/>" alt="" />
 						<div class="explore-item-diamond">
 							<!-- icons, aboriginal_australia, adventure, art_culture, beaches,
 							food_wine, island, nature_wildlife, outback, sports -->
-							<img src="${card.pageCategory.standardIcon}" alt="" />
+                            <c:if test="${not empty card.pageCategory}">
+                                <img src="${card.pageCategory.standardIcon}" alt="" />
+                            </c:if>
 						</div>
 					</div>
 					<div class="line-through-container">

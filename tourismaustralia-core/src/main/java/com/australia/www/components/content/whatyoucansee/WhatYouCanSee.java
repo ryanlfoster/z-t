@@ -41,7 +41,8 @@ import com.day.cq.wcm.api.PageManager;
 	@Listener(name = "afteredit", value = "REFRESH_PAGE"), @Listener(name = "afterinsert", value = "REFRESH_PAGE") })
 public final class WhatYouCanSee {
 
-	@DialogField(fieldLabel = "Tag", tab = 1,
+	@DialogField(fieldLabel = "Tag", tab = 1, fieldDescription = "Select up to one tag to use for populating content"
+		+ " in the Things To Do tab. If no tag is selected, the containing page's location tag will be used.",
 		listeners = @Listener(name = "addtag", value = Constants.TAG_ADD_LISTENER))
 	@TagInputField
 	private final String tagId;
@@ -58,17 +59,12 @@ public final class WhatYouCanSee {
 	@Selection(type = Selection.CHECKBOX, options = @Option(value = "true"))
 	private boolean showThingsToDo;
 
-	@Selection(options = { @Option(value = "5", text = "5 Items"), @Option(value = "10", text = "10 Items") },
-		type = Selection.SELECT)
-	@DialogField(fieldLabel = "Things To Do Tab Size", defaultValue = Constants.TAB_SIZE_10, tab = 2)
-	private final String thingsToDoTabSize;
-
 	@DialogField(fieldLabel = "Optional Tab", fieldDescription = "When checked, an additional authorable tab will be "
 		+ "displayed", tab = 3, listeners = {
 		@Listener(name = "selectionchanged", value = Constants.OPTIONAL_SHOW_LISTENER),
 		@Listener(name = "afterlayout", value = Constants.OPTIONAL_SHOW_LISTENER) })
 	@Selection(type = Selection.CHECKBOX, options = @Option(value = "true"))
-	private final boolean showOptionalTab;
+	private boolean showOptionalTab;
 
 	@DialogField(fieldLabel = "Optional Tab Title", tab = 3)
 	private final String optionalTabTitle;
@@ -156,13 +152,13 @@ public final class WhatYouCanSee {
 		title = properties.get(Constants.NAME_TITLE, "");
 		text = properties.get(Constants.NAME_TEXT, "");
 		showThingsToDo = properties.get(Constants.NAME_SHOW_THINGS_TO_DO, false);
-		thingsToDoTabSize = properties.get(Constants.NAME_THINGS_TO_DO_TAB_SIZE, Constants.TAB_SIZE_10);
 		showOptionalTab = properties.get(Constants.NAME_SHOW_OPTIONAL_TAB, false);
 		optionalTabTitle = properties.get(Constants.NAME_TAB_3_TITLE, Constants.BLANK);
 		optionalTabSize = properties.get(Constants.NAME_OPTIONAL_TAB_SIZE, Constants.TAB_SIZE_5);
 
 		if (!showThingsToDo && !showOptionalTab) {
 			showThingsToDo = true;
+			showOptionalTab = true;
 		}
 
 		optionalTabPath0 = properties.get(Constants.NAME_OPTIONAL_TAB_PATH_0, String.class);
@@ -196,7 +192,7 @@ public final class WhatYouCanSee {
 		if (showThingsToDo) {
 
 			baseBuilder.setContentType(ContentType.ARTICLE);
-			baseBuilder.setCount(Constants.TAB_SIZE_5.equals(thingsToDoTabSize) ? 5 : 10);
+			baseBuilder.setCount(10);
 			final ContentSearchResult content = contentSearchService.search(baseBuilder.build());
 
 			final String translatedThingsToDoTitle = bundle.getString(Constants.TTD_TAB_TITLE);
@@ -209,17 +205,37 @@ public final class WhatYouCanSee {
 
 		if (showOptionalTab) {
 			final List<Content> content = new ArrayList<Content>();
-			content.add(Content.fromResource(optionalTabResource0));
-			content.add(Content.fromResource(optionalTabResource1));
-			content.add(Content.fromResource(optionalTabResource2));
-			content.add(Content.fromResource(optionalTabResource3));
-			content.add(Content.fromResource(optionalTabResource4));
+			if(optionalTabResource0 != null) {
+				content.add(Content.fromResource(optionalTabResource0));
+			}
+			if(optionalTabResource1 != null) {
+				content.add(Content.fromResource(optionalTabResource1));
+			}
+			if(optionalTabResource2 != null) {
+				content.add(Content.fromResource(optionalTabResource2));
+			}
+			if(optionalTabResource3 != null) {
+				content.add(Content.fromResource(optionalTabResource3));
+			}
+			if(optionalTabResource4 != null) {
+				content.add(Content.fromResource(optionalTabResource4));
+			}
 			if (Constants.TAB_SIZE_10.equals(optionalTabSize)) {
-				content.add(Content.fromResource(optionalTabResource5));
-				content.add(Content.fromResource(optionalTabResource6));
-				content.add(Content.fromResource(optionalTabResource7));
-				content.add(Content.fromResource(optionalTabResource8));
-				content.add(Content.fromResource(optionalTabResource9));
+				if(optionalTabResource5 != null) {
+					content.add(Content.fromResource(optionalTabResource5));
+				}
+				if(optionalTabResource6 != null) {
+					content.add(Content.fromResource(optionalTabResource6));
+				}
+				if(optionalTabResource7 != null) {
+					content.add(Content.fromResource(optionalTabResource7));
+				}
+				if(optionalTabResource8 != null) {
+					content.add(Content.fromResource(optionalTabResource8));
+				}
+				if(optionalTabResource9 != null) {
+					content.add(Content.fromResource(optionalTabResource9));
+				}
 			}
 			final Tab optionalTab = new Tab(optionalTabTitle, "optional", null, content, Constants.OPTIONAL_IMAGE_PATH,
 				Constants.OPTIONAL_OUTLINE_IMAGE_PATH, null);

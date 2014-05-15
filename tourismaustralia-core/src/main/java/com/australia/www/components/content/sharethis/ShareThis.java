@@ -1,5 +1,6 @@
 package com.australia.www.components.content.sharethis;
 
+import org.apache.commons.lang.StringUtils;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.ValueMap;
 import org.apache.sling.api.scripting.SlingBindings;
@@ -43,15 +44,16 @@ public class ShareThis {
 			shareType = properties.get("shareType", "current");
 		}
 		if ("share".equals(shareType)) {
-			shareUrl = PathUtils.SHARE_ID_URL;
+			shareUrl = request.getResourceResolver().map(PathUtils.SHARE_ID_URL);
 		} else if ("custom".equals(shareType)) {
-			shareUrl = properties.get("customUrl", "");
+			shareUrl = properties.get("customUrl", StringUtils.EMPTY);
 		} else {
 			// share type is current
 			Page currentPage = request.getResourceResolver().adaptTo(PageManager.class)
 				.getContainingPage(request.getResource());
 
 			shareUrl = currentPage.getPath() + ".html";
+			shareUrl = request.getResourceResolver().map(shareUrl);
 		}
 	}
 

@@ -5,13 +5,15 @@ import java.util.List;
 
 import com.citytechinc.cq.component.annotations.*;
 import com.citytechinc.cq.component.annotations.widgets.TextArea;
+import com.day.cq.wcm.foundation.Image;
 import org.apache.commons.lang.StringUtils;
 import org.apache.sling.api.SlingHttpServletRequest;
+import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ValueMap;
 
 import com.citytechinc.cq.component.annotations.widgets.DialogFieldSet;
 
-@Component(value = "Explore", disableTargeting = true, dialogHeight = 500, dialogWidth = 600, tabs = {
+@Component(value = "Explore", disableTargeting = true, dialogHeight = 700, dialogWidth = 600, tabs = {
 	@Tab(title = "Explore Summary"), @Tab(title = "Tab 1"), @Tab(title = "Tab 2"), @Tab(title = "Tab 3"),
 	@Tab(title = "Tab 4"), @Tab(title = "Tab 5") }, listeners = {
 	@Listener(name = "aftercopy", value = "REFRESH_PAGE"), @Listener(name = "afterdelete", value = "REFRESH_PAGE"),
@@ -236,6 +238,19 @@ public class Explore {
 			returnCat.setIconImagePath(properties.get(pathPrefix + "iconImagePath", ""));
 			returnCat.setSelectedImagePath(properties.get(pathPrefix + "selectedImagePath", ""));
 			returnCat.setTitle(properties.get(pathPrefix + "title", ""));
+			Resource imageRes = request.getResource().getChild("tab"+tabNum);
+			if (imageRes != null) {
+				Image imageObj = new Image(imageRes, "iconImage");
+				if (imageObj != null && imageObj.hasContent()) {
+					returnCat.setIconImagePath(imageObj.getFileReference());
+				}
+			}
+			if (imageRes != null) {
+				Image imageObj = new Image(imageRes, "selectImage");
+				if (imageObj != null && imageObj.hasContent()) {
+					returnCat.setSelectedImagePath(imageObj.getFileReference());
+				}
+			}
 		}
 		return returnCat;
 	}
@@ -247,8 +262,15 @@ public class Explore {
 			String pathPrefix = String.format(TABx + CARDx, tabNum, cardNum);
 			returnProp.setAltTextBack(properties.get(pathPrefix + "altTextBack", ""));
 			returnProp.setTextBack(properties.get(pathPrefix + "textBack", ""));
-			returnProp.setImageBack(properties.get(pathPrefix + "imageBack", ""));
 			returnProp.setPage(properties.get(pathPrefix + "pagePath", ""), request.getResource());
+			Resource imageRes = request.getResource().getChild("tab"+tabNum);
+			if (imageRes != null) {
+				String cardPrefix = String.format(CARDx, cardNum);
+				Image imageObj = new Image(imageRes, cardPrefix+"image");
+				if (imageObj != null && imageObj.hasContent()) {
+					returnProp.setImageBack(imageObj.getFileReference());
+				}
+			}
 		}
 		return returnProp;
 	}

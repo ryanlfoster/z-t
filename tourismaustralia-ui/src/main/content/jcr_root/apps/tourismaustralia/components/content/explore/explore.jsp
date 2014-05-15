@@ -97,7 +97,7 @@
 							</span>
 						</a>
 						<p><c:out value="${card.pageDescription}"/></p>
-						<p><a href="<c:url value='${card.pagePath}'/>"><fmt:message key="View more information"/></a></p>
+						<p><a href="<c:url value='${card.pageLink}'/>"><fmt:message key="View more information"/></a></p>
 						<a class="btn-bubble bubble-colour-favourite" data-pagepath="<c:url value='${card.pagePath}'/>">
 							<span class="btn-bubble-tooltip">
 								<span class="btn-bubble-tooltip-container">

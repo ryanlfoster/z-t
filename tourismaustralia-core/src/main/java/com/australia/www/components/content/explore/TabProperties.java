@@ -1,6 +1,7 @@
 package com.australia.www.components.content.explore;
 
 import com.citytechinc.cq.component.annotations.FieldProperty;
+import com.citytechinc.cq.component.annotations.widgets.Html5SmartImage;
 import com.citytechinc.cq.component.annotations.widgets.RichTextEditor;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.sling.api.resource.Resource;
@@ -17,11 +18,11 @@ public class TabProperties {
 	private String altTextBack;
 
 	@DialogField(fieldDescription = "Required", fieldLabel = "Path to page")
-	@PathField
+	@PathField(rootPath = "/content")
 	private String pagePath;
 
 	@DialogField(fieldDescription = "Required", fieldLabel = "Image on back of card")
-	@PathField(rootPath = "/content/dam")
+	@Html5SmartImage(tab = false, height = 150, allowUpload = false, name = "image")
 	private String imageBack;
 
 	@DialogField(xtype = "static", tab = 2, additionalProperties = {

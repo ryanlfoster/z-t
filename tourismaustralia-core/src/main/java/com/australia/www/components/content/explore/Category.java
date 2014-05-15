@@ -3,6 +3,7 @@ package com.australia.www.components.content.explore;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.citytechinc.cq.component.annotations.widgets.Html5SmartImage;
 import org.apache.commons.lang.StringUtils;
 
 import com.citytechinc.cq.component.annotations.DialogField;
@@ -13,11 +14,11 @@ public class Category {
 	private static final String REQUIRED_FIELD_NOTE = "Field required for this tab to display";
 
 	@DialogField(fieldLabel = "Icon Image Path", fieldDescription = REQUIRED_FIELD_NOTE)
-	@PathField(rootPath = "/content/dam")
+	@Html5SmartImage(tab = false, height = 100, allowUpload = false, name = "iconImage")
 	private String iconImagePath;
 
 	@DialogField(fieldLabel = "Selected Icon Image Path", fieldDescription = REQUIRED_FIELD_NOTE)
-	@PathField(rootPath = "/content/dam")
+	@Html5SmartImage(tab = false, height = 100, allowUpload = false, name = "selectImage")
 	private String selectedImagePath;
 
 	@DialogField(fieldLabel = "Tab Title", fieldDescription = REQUIRED_FIELD_NOTE)

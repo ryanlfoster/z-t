@@ -51,7 +51,7 @@
 		</plugins>
 	</build>
 
-	<version xmlns="">1.1.4</version><dependencies>
+	<dependencies>
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>servlet-api</artifactId>

@@ -16,7 +16,7 @@
 		<maven.test.skip>true</maven.test.skip>
 	</properties>
 
-	<version xmlns="">1.1.4</version><profiles>
+	<profiles>
 		<profile>
 			<id>install</id>
 			<activation>

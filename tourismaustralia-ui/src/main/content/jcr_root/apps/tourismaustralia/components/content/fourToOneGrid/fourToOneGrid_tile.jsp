@@ -72,7 +72,7 @@
             <div class="l-h-center l-padding-tb-30-lr-15">
                 <p>${contentItem.text}</p>
                 <p><a href="${contentItem.path}"><fmt:message key="View more information" /></a></p>
-                <a href="${contentItem.path}" class="btn-bubble bubble-colour-favourite">
+                <a class="btn-bubble bubble-colour-favourite">
                 <span class="btn-bubble-tooltip">
                     <span class="btn-bubble-tooltip-container">
                         <fmt:message key="add to your dream trip" />

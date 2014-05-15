@@ -11,18 +11,18 @@ import com.citytechinc.cq.component.annotations.DialogField;
 import com.citytechinc.cq.component.annotations.widgets.PathField;
 
 public class TabProperties {
-	@DialogField(fieldDescription = "Back alt text")
+	@DialogField(fieldDescription = "Back alt text. Required", hideLabel = true)
 	private String altTextBack;
 
-	@DialogField(fieldDescription = "Path to page")
+	@DialogField(fieldDescription = "Path to page. Required", hideLabel = true)
 	@PathField
 	private String pagePath;
 
-	@DialogField(fieldDescription = "Image on the back of card")
+	@DialogField(fieldDescription = "Image on back of card. Required", hideLabel = true)
 	@PathField(rootPath = "/content/dam")
 	private String imageBack;
 
-	@DialogField(fieldDescription = "Text on back of card")
+	@DialogField(fieldDescription = "Text on back of card.", hideLabel = true)
 	@RichTextEditor()
 	private String textBack;
 

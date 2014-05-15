@@ -8006,74 +8006,77 @@ input[type="submit"]:focus {
 
 /* line 259, ../../assets/scss/site/modules/_type.scss */
 .type-summary {
-  font-family: "ProximaNova Regular Italic", Helvetica, Arial, sans-serif;
   font-size: 1.375em;
   color: #231f20;
 }
+/* line 263, ../../assets/scss/site/modules/_type.scss */
+.type-summary p {
+  font-family: "ProximaNova Regular Italic", Helvetica, Arial, sans-serif;
+}
 @media (min-width: 992px) {
-  /* line 265, ../../assets/scss/site/modules/_type.scss */
+  /* line 267, ../../assets/scss/site/modules/_type.scss */
   .type-summary p:first-of-type {
     margin-top: 0;
   }
 }
-/* line 270, ../../assets/scss/site/modules/_type.scss */
+/* line 272, ../../assets/scss/site/modules/_type.scss */
 .type-summary p:last-of-type {
   margin-bottom: 0.5em;
 }
 
-/* line 275, ../../assets/scss/site/modules/_type.scss */
+/* line 277, ../../assets/scss/site/modules/_type.scss */
 .type-body p:last-of-type {
   margin-bottom: 0;
 }
 @media (max-width: 360px) {
-  /* line 275, ../../assets/scss/site/modules/_type.scss */
+  /* line 277, ../../assets/scss/site/modules/_type.scss */
   .type-body p:last-of-type {
     margin-bottom: -0.625em;
   }
 }
 
-/* line 283, ../../assets/scss/site/modules/_type.scss */
+/* line 285, ../../assets/scss/site/modules/_type.scss */
 .type-center {
   text-align: center;
 }
 
-/* line 287, ../../assets/scss/site/modules/_type.scss */
+/* line 289, ../../assets/scss/site/modules/_type.scss */
 .type-date {
   font-family: "ProximaNova Bold", Helvetica, Arial, sans-serif;
   font-size: 1.125em;
   font-weight: bold;
 }
 
-/* line 292, ../../assets/scss/site/modules/_type.scss */
+/* line 294, ../../assets/scss/site/modules/_type.scss */
 .type-date-mosaic {
   font-size: 1em;
   color: #fff;
   font-weight: normal;
   font-family: "ProximaNova Regular", Helvetica, Arial, sans-serif;
 }
-/* line 297, ../../assets/scss/site/modules/_type.scss */
+/* line 299, ../../assets/scss/site/modules/_type.scss */
 .type-date-mosaic span {
   display: block;
 }
-/* line 298, ../../assets/scss/site/modules/_type.scss */
+/* line 300, ../../assets/scss/site/modules/_type.scss */
 .type-date-mosaic .month {
   font-size: 1.25em;
 }
-/* line 299, ../../assets/scss/site/modules/_type.scss */
+/* line 301, ../../assets/scss/site/modules/_type.scss */
 .type-date-mosaic .day {
   font-size: 4.375em;
   letter-spacing: -4px;
   line-height: 0.9em;
 }
 
-/* line 306, ../../assets/scss/site/modules/_type.scss */
+/* line 308, ../../assets/scss/site/modules/_type.scss */
 .type-date-highlights {
   font-family: "ProximaNova Bold", Helvetica, Arial, sans-serif;
   font-size: 1.125em;
   font-weight: bold;
 }
 
-/* line 312, ../../assets/scss/site/modules/_type.scss */
+/* line 314, ../../assets/scss/site/modules/_type.scss */
 .type-ellipsis {
   text-align: left;
   display: block;
@@ -8085,12 +8088,12 @@ input[type="submit"]:focus {
   overflow: hidden;
 }
 
-/* line 326, ../../assets/scss/site/modules/_type.scss */
+/* line 328, ../../assets/scss/site/modules/_type.scss */
 .type-destination {
   font-size: 1.125em;
 }
 
-/* line 334, ../../assets/scss/site/modules/_type.scss */
+/* line 336, ../../assets/scss/site/modules/_type.scss */
 .type-links-bottom-border a {
   text-decoration: none;
   border-bottom: 1px solid transparent;
@@ -8099,7 +8102,7 @@ input[type="submit"]:focus {
   -moz-box-shadow: 0 1px 0 #d4dcde;
 }
 
-/* line 342, ../../assets/scss/site/modules/_type.scss */
+/* line 344, ../../assets/scss/site/modules/_type.scss */
 .type-links-bottom-border a:hover {
   text-decoration: none;
   border-bottom: 1px solid #00535e;
@@ -8108,7 +8111,7 @@ input[type="submit"]:focus {
   -moz-box-shadow: 0 1px 0 #00535e;
 }
 
-/* line 350, ../../assets/scss/site/modules/_type.scss */
+/* line 352, ../../assets/scss/site/modules/_type.scss */
 .type-links-bottom-border a.is-active {
   text-decoration: none;
   border-bottom: 2px solid #00535e;

@@ -11,12 +11,11 @@ import org.apache.sling.api.resource.ValueMap;
 
 import com.citytechinc.cq.component.annotations.widgets.DialogFieldSet;
 
-@Component(value = "Explore", disableTargeting = true, dialogHeight = 500, dialogWidth = 600,
-	tabs = { @Tab(title = "Explore Summary"), @Tab(title = "Tab 1"),
-		@Tab(title = "Tab 2"), @Tab(title = "Tab 3"), @Tab(title = "Tab 4"), @Tab(title = "Tab 5") }, listeners = {
+@Component(value = "Explore", disableTargeting = true, dialogHeight = 500, dialogWidth = 600, tabs = {
+	@Tab(title = "Explore Summary"), @Tab(title = "Tab 1"), @Tab(title = "Tab 2"), @Tab(title = "Tab 3"),
+	@Tab(title = "Tab 4"), @Tab(title = "Tab 5") }, listeners = {
 	@Listener(name = "aftercopy", value = "REFRESH_PAGE"), @Listener(name = "afterdelete", value = "REFRESH_PAGE"),
 	@Listener(name = "afteredit", value = "REFRESH_PAGE"), @Listener(name = "afterinsert", value = "REFRESH_PAGE") })
-
 public class Explore {
 
 	private static final String TABx = "tab%d/";
@@ -34,20 +33,18 @@ public class Explore {
 	private static final String CARD_LABEL3 = "Card 3";
 	private static final String REQUIRED_FIELD = "Field required for this tab to display";
 	private static final String USAGE_GUIDELINES = "This component will display between 1 to 5 "
-			+ "tabs depending on the number of valid tabs filled out. Each tab must have 3 valid cards. "
-			+ "Invalid tabs will not display. Fields are marked as required for this purpose.";
+		+ "tabs depending on the number of valid tabs filled out. Each tab must have 3 valid cards. "
+		+ "Invalid tabs will not display. Fields are marked as required for this purpose.";
 
+	@DialogField(xtype = "static", tab = 1, additionalProperties = {
+		@FieldProperty(name = "text", value = USAGE_GUIDELINES + "\n"), @FieldProperty(name = "italic", value = "true") })
+	private String notice;
 
 	@DialogField(fieldLabel = "Title", tab = 1)
 	private String title;
 	@DialogField(fieldLabel = "Description", tab = 1)
 	@TextArea
 	private String description;
-
-	@DialogField(xtype = "static", tab = 1, additionalProperties = {
-		@FieldProperty(name = "text", value = USAGE_GUIDELINES+"\n"),
-		@FieldProperty(name = "italic", value = "true") })
-	private String notice;
 
 	@DialogField(tab = 2)
 	@DialogFieldSet(border = false, namePrefix = TAB1)

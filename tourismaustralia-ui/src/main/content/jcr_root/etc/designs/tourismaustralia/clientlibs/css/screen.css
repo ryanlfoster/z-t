@@ -9288,25 +9288,12 @@ a.btn-tag-item:visited {
 /* line 28, ../../assets/scss/site/modules/_breadcrumb.scss */
 .breadcrumb a {
   color: #00535e;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 /* line 33, ../../assets/scss/site/modules/_breadcrumb.scss */
 .breadcrumb > li {
-  padding-left: 0.25em;
-}
-
-/* line 37, ../../assets/scss/site/modules/_breadcrumb.scss */
-.breadcrumb > li:after {
-  content: "/";
-  margin-left: 0.25em;
-}
-
-/* line 43, ../../assets/scss/site/modules/_breadcrumb.scss */
-.breadcrumb > li:first-child:after,
-.breadcrumb > li:last-child:after {
-  content: "";
-  margin-left: 0em;
+  padding-right: .5em;
 }
 
 /**

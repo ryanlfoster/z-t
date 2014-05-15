@@ -17,6 +17,41 @@
   position: relative;
 }
 
+//** START - solve Background issue: where hero image is shown when Margin top is given to any Paragraph element
+// Working in Chrome, Safari, Firefox/Mozilla, IE8, IE9, IE10, IE11, iPhone3Gs, iPhone5, iPad ,Android default browser(stock)
+
+.paragraph-home:before,
+.paragraph-icon:before,
+.paragraph-city:before,
+.paragraph-state:before,
+.paragraph-article:before,
+.paragraph-video:before,
+.paragraph-search:before,
+.paragraph-category:before,
+.paragraph-dreamtrip:before{
+  content: '';
+  width: 100%;
+  border-top: $large-spacing-lg solid white;
+  top: -$large-spacing-lg;
+  position: absolute;
+}
+.paragraph-home:after,
+.paragraph-icon:after,
+.paragraph-city:after,
+.paragraph-state:after,
+.paragraph-article:after,
+.paragraph-video:after,
+.paragraph-search:after,
+.paragraph-category:after,
+.paragraph-dreamtrip:after{
+  content: '';
+  width: 100%;
+  border-bottom: $large-spacing-lg solid #fff;
+  bottom: -$large-spacing-lg;
+  position: absolute;
+}
+//** END - solve Background issue: where hero image is shown when Margin top is given to any Paragraph element
+
 .paragraph-privacy-policy{
   padding-bottom: pxtoem(100px);
 }

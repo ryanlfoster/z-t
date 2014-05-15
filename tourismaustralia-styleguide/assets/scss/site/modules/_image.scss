@@ -35,6 +35,15 @@
   .image-content hr {
     border-top: 1px solid #e2e5de;
   }
+  .image-btn {
+    color: #00535e;
+    background: #FFF;
+    border: 1px solid #00535e;
+  }
+  .image-btn:hover {
+    color: #FFF;
+    background: #00535e;
+  }
 
   @include breakpoint(sm) {
     .image-content-container {

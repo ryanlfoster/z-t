@@ -29,7 +29,7 @@
     <viewMore jcr:primaryType="sling:MessageEntry" sling:key="View More" sling:message="View More"/>
     <searchMore jcr:primaryType="sling:MessageEntry" sling:key="Search More" sling:message="Search More"/>
     <readyToGetSerious jcr:primaryType="sling:MessageEntry" sling:key="Ready to get serious about {0}? We can help you sort out all the details with the options below." sling:message="Ready to get serious about {0}? We can help you sort out all the details with the options below."/>
-    <viewAllX jcr:primaryType="sling:MessageEntry" sling:key="View All {0}" sling:message="View All {0}"/>
+    <viewAllX jcr:primaryType="sling:MessageEntry" sling:key="View All {0}" sling:message="Afficher tous {0}"/>
     <siteUsesCookies jcr:primaryType="sling:MessageEntry" sling:key="The site uses cookies." sling:message="The site uses cookies.(FR)"/>
     <officialSite jcr:primaryType="sling:MessageEntry" sling:key="The official Australian tourism website." sling:message="The official Australian tourism website.(FR)"/>
     <findOutMore jcr:primaryType="sling:MessageEntry" sling:key="Find out more" sling:message="Find out more(FR)"/>
@@ -46,5 +46,10 @@
     <totalDistance jcr:primaryType="sling:MessageEntry" sling:key="Total distance" sling:message="Total distance (FR)" />
     <modeOfTransport jcr:primaryType="sling:MessageEntry" sling:key="Mode of transport" sling:message="Mode of transport (FR)" />
     <moreInformation jcr:primaryType="sling:MessageEntry" sling:key="More information" sling:message="More information (FR)" />
+<<<<<<< HEAD
     <articleBy jcr:primaryType="sling:MessageEntry" sling:key="Article by" sling:message="Article by (FR)" />
+=======
+    <thingsToDo jcr:primaryType="sling:MessageEntry" sling:key="things to do" sling:message="choses à faire" />
+    <highlights jcr:primaryType="sling:MessageEntry" sling:key="highlights" sling:message="points forts" />
+>>>>>>> 9ba7c837c9d7118e586a97fccbee0fbc608cd67b
 </jcr:root>

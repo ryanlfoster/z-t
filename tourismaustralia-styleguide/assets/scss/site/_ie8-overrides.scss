@@ -5,6 +5,10 @@ body{
     margin-right: auto;
 }
 
+.show-on-ie8{
+  display: block;
+}
+
 // mosaic flip to reveal on rollover
 .mosaic {
 
@@ -148,7 +152,7 @@ body{
 }
 
 // carousel alignment issues
-#carousel .carousel-item{
+.carousel .carousel-item{
   margin: 0;
 }
 
@@ -174,3 +178,4 @@ body{
 .video-container {
   //text-align: right;
 }
+

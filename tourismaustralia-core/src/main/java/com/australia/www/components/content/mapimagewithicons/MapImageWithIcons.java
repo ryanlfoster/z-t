@@ -18,7 +18,6 @@ import com.citytechinc.cq.component.annotations.widgets.TextArea;
  */
 @Component(value = "Map Image With Icons", tabs = { @Tab(title = Constants.TAB_GENERAL),
 	@Tab(title = Constants.TAB_MAP_IMAGE), @Tab(title = Constants.TAB_BUTTONS) }, listeners = {
-	@Listener(name = "aftercopy", value = "REFRESH_PAGE"), @Listener(name = "afterdelete", value = "REFRESH_PAGE"),
 	@Listener(name = "afteredit", value = "REFRESH_PAGE"), @Listener(name = "afterinsert", value = "REFRESH_PAGE") })
 public final class MapImageWithIcons {
 

@@ -49,7 +49,7 @@ public class TabProperties {
 	}
 
 	public String getPageDescription() {
-		return content != null ? content.getText() : "";
+		return content != null ? StringUtils.abbreviate(content.getText(),200) : "";
 	}
 
 	public PageCategory getPageCategory() {

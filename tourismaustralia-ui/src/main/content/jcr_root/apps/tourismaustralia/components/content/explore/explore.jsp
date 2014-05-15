@@ -25,7 +25,7 @@
 						<select data-aus-select>
 							<c:forEach items="${explore.tabs}" var="tab">
 								<c:if test="${tab.hasTitle}">
-									<option value="${tab.title}">${tab.title}"</option>
+									<option value="${tab.title}"><c:out value="${tab.title}"/></option>
 								</c:if>
 							</c:forEach>
 						</select>
@@ -55,7 +55,7 @@
     <c:forEach items="${explore.tabs}" var="tab">
 	<div class="carousel-center-container" data-aus-show-tab="${tab.title}">
 	<div class="carousel-owl-mobile-fill">
-	<div id="carousel" class="owl-carousel owl-theme">
+	<div class="carousel owl-carousel owl-theme">
 
 	<c:forEach items="${tab.cards}" var="card">
 	<div class="carousel-item">
@@ -63,12 +63,18 @@
 			<div class="flipper">
 				<div class="explore-card-front flip-front theme-mosaic-3column-front ieAntialias">
 					<!-- include category type "nature" to class to use that colour base -->
-					<div class="explore-image-container ${card.pageCategory.cssClass} type-spacing-40">
+                    <c:set var="categoryClass" value=""/>
+                    <c:if test="${not empty card.pageCategory}">
+                        <c:set var="categoryClass" value="${card.pageCategory.cssClass}"/>
+                    </c:if>
+					<div class="explore-image-container ${categoryClass} type-spacing-40">
 						<img class="l-image-full explore-image" src="<c:url value='${card.pageImagePath}'/>" alt="" />
 						<div class="explore-item-diamond">
 							<!-- icons, aboriginal_australia, adventure, art_culture, beaches,
 							food_wine, island, nature_wildlife, outback, sports -->
-							<img src="${card.pageCategory.standardIcon}" alt="" />
+                            <c:if test="${not empty card.pageCategory}">
+                                <img src="${card.pageCategory.standardIcon}" alt="" />
+                            </c:if>
 						</div>
 					</div>
 					<div class="line-through-container">
@@ -92,7 +98,7 @@
 						</a>
 						<p><c:out value="${card.pageDescription}"/></p>
 						<p><a href="<c:url value='${card.pagePath}'/>"><fmt:message key="View more information"/></a></p>
-						<a href="#" class="btn-bubble bubble-colour-favourite" data-pagepath="<c:url value='${card.pagePath}'/>">
+						<a class="btn-bubble bubble-colour-favourite" data-pagepath="${card.pagePath}">
 							<span class="btn-bubble-tooltip">
 								<span class="btn-bubble-tooltip-container">
 									<fmt:message key="add to your dream trip"/>
@@ -108,7 +114,7 @@
 				<div class="explore-card-back flip-back ieAntialias">
 					<img class="l-image-full explore-image-back" src="<c:url value='${card.imageBack}'/>" alt="${card.altTextBack}" />
 					<div class="l-h-center l-padding-tb-30-lr-15">
-						<p><c:out value="${card.textBack}"/> </p>
+						<p>${card.textBack} </p>
 						<hr>
 						<p><a id="explore-flip-back-btn" href="#"><fmt:message key="Back to overview"/></a></p>
 					</div>

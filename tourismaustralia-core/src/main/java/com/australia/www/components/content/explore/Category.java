@@ -9,15 +9,18 @@ import com.citytechinc.cq.component.annotations.DialogField;
 import com.citytechinc.cq.component.annotations.widgets.PathField;
 
 public class Category {
-	@DialogField(fieldLabel = "Icon Image Path")
+
+	private static final String REQUIRED_FIELD_NOTE = "Field required for this tab to display";
+
+	@DialogField(fieldLabel = "Icon Image Path", fieldDescription = REQUIRED_FIELD_NOTE)
 	@PathField(rootPath = "/content/dam")
 	private String iconImagePath;
 
-	@DialogField(fieldLabel = "Selected Icon Image Path")
+	@DialogField(fieldLabel = "Selected Icon Image Path", fieldDescription = REQUIRED_FIELD_NOTE)
 	@PathField(rootPath = "/content/dam")
 	private String selectedImagePath;
 
-	@DialogField(fieldLabel = "Tab Title")
+	@DialogField(fieldLabel = "Tab Title", fieldDescription = REQUIRED_FIELD_NOTE)
 	private String title;
 
 	private final List<TabProperties> cards;

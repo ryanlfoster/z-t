@@ -41,7 +41,7 @@ public class SocialTiles {
 	private String subTitle;
 
 	@DialogFieldSet(namePrefix = "link/")
-	@DialogField(fieldLabel = "Link")
+	@DialogField(hideLabel = true)
 	private Link link;
 
 	@DialogFieldSet(border = false, namePrefix = "tab2/")

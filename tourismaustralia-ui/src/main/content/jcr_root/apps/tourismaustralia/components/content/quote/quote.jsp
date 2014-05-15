@@ -14,7 +14,11 @@
 		</div>
 		<div class="quote-content">
 			<hr class="quote-hr" />
-			<p class="quote-text">&#8220;${quote.quoteText}&#8221;</p>
+			<p class="quote-text">
+			    <c:if test="${not empty quote.quoteText}">
+					&#8220;${quote.quoteText}&#8221;
+				</c:if>	
+			</p>
 			<div class="quote-byline">${quote.byline}</div>
 			<hr class="quote-hr" />
 		</div>

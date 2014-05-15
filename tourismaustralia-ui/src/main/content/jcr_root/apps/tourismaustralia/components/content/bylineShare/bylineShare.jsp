@@ -17,7 +17,7 @@
 						</div>
 					</div>
 					<div class="byline-details">
-						<div class="byline-by">Article by</div>
+						<div class="byline-by"><fmt:message key="Article by"/></div>
 						<div class="byline-author">${byline.authorName}</div>
 						<a href="${byline.link}" target="${byline.external?'_blank':'_self'}" class="byline-link">${byline.linkText}</a>
 					</div>

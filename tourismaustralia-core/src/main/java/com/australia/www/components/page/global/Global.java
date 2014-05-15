@@ -83,12 +83,7 @@ public class Global {
 		lastModified = StringUtils.left(xssAPI.encodeForHTMLAttr(properties.get("cq:lastModified", "")), 10);
 		isHomePage = currentPage.equals(currentPage.getAbsoluteParent(1));
 		isAuHomePage = currentPage.equals(currentPage.getAbsoluteParent(2));
-
-		if (currentPage.getDepth() > 2) {
-			socialNetworks = this.getSocialNetworks(request, currentPage.getAbsoluteParent(2));
-		} else {
-			socialNetworks = "";
-		}
+		socialNetworks = this.getSocialNetworks(request, currentPage);
 
 		Resource imageResource = currentPage.getContentResource();
 		Image image = new Image(imageResource, "image");
@@ -125,16 +120,26 @@ public class Global {
 		}
 	}
 
-	private String getSocialNetworks(SlingHttpServletRequest request, Page parent) {
-		String stPageURL = parent.getPath() + "/jcr:content/shareThis";
-		Resource sharethisPage = request.getResourceResolver().getResource(stPageURL);
-		ShareThis shareobj = new ShareThis(parent, sharethisPage);
+	/**
+	 * Gets the list of social networks (note: for aus.com ONLY)
+	 * 
+	 * @param request - sling request object to get the share properties
+	 * @param page - the current page used to get the home page
+	 * @return json string of social networks for the respective language site
+	 */
+	private String getSocialNetworks(SlingHttpServletRequest request, Page page) {
+		Page parent = page.getAbsoluteParent(2);
 		String json = "";
-		try {
-			ObjectMapper mapper = new ObjectMapper();
-			json = mapper.writeValueAsString(shareobj);
-		} catch (JsonProcessingException e) {
-			LOG.error("There was an error generating the json for SocialNetworks", e);
+		if (parent != null) {
+			String stPageURL = parent.getPath() + "/jcr:content/shareThis";
+			Resource sharethisPage = request.getResourceResolver().getResource(stPageURL);
+			ShareThis shareobj = new ShareThis(parent, sharethisPage);
+			try {
+				ObjectMapper mapper = new ObjectMapper();
+				json = mapper.writeValueAsString(shareobj);
+			} catch (JsonProcessingException e) {
+				LOG.error("There was an error generating the json for SocialNetworks", e);
+			}
 		}
 		return json;
 	}

@@ -30,7 +30,6 @@ public class SocialTiles {
 		@FieldProperty(name = "text", value = "This component will display 3 or 9 "
 			+ "tiles depending on the amount filled out. Anything less than 9 " + "will default to 3." + "\n"),
 		@FieldProperty(name = "bold", value = "true") })
-	@SuppressWarnings("unused")
 	private String tab1;
 
 	@DialogField(fieldLabel = "Title")
@@ -86,7 +85,6 @@ public class SocialTiles {
 		Resource thisResource = request.getResource();
 		ResourceResolver resolver = request.getResourceResolver();
 		ValueMap properties = thisResource.adaptTo(ValueMap.class);
-
 		tilesList = new ArrayList<TileField>();
 
 		if (properties != null) {
@@ -119,7 +117,6 @@ public class SocialTiles {
 				}
 			}
 		}
-
 	}
 
 	public List<TileField> getTilesList() {
@@ -142,6 +139,7 @@ public class SocialTiles {
 	public boolean getHasNine() {
 		return (tilesList.size() == 9);
 	}
+
 	// Boolean used to switch from blank or 3 tile format
 	public boolean getHasThree() {
 		return (tilesList.size() >= 3);

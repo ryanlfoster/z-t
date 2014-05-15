@@ -6813,6 +6813,48 @@ p a:hover {
 }
 
 /* line 114, ../../assets/scss/site/_base.scss */
+hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+@media (min-width: 360px) {
+  /* line 114, ../../assets/scss/site/_base.scss */
+  hr {
+    margin-top: 30px;
+  }
+}
+@media (min-width: 768px) {
+  /* line 114, ../../assets/scss/site/_base.scss */
+  hr {
+    margin-top: 30px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 114, ../../assets/scss/site/_base.scss */
+  hr {
+    margin-top: 30px;
+  }
+}
+@media (min-width: 360px) {
+  /* line 114, ../../assets/scss/site/_base.scss */
+  hr {
+    margin-bottom: 30px;
+  }
+}
+@media (min-width: 768px) {
+  /* line 114, ../../assets/scss/site/_base.scss */
+  hr {
+    margin-bottom: 30px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 114, ../../assets/scss/site/_base.scss */
+  hr {
+    margin-bottom: 30px;
+  }
+}
+
+/* line 118, ../../assets/scss/site/_base.scss */
 hr.full {
   margin: 0 -15px;
 }
@@ -6825,7 +6867,7 @@ em{
   font-style: italic;
 }
 */
-/* line 126, ../../assets/scss/site/_base.scss */
+/* line 130, ../../assets/scss/site/_base.scss */
 select {
   font-family: "ProximaNova Regular Select", Helvetica, Arial, sans-serif;
 }
@@ -6833,7 +6875,7 @@ select {
 /**
  Quick hack to remove styling in chrome on buttons
 **/
-/* line 139, ../../assets/scss/site/_base.scss */
+/* line 143, ../../assets/scss/site/_base.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -6843,7 +6885,7 @@ input[type="submit"] {
   background: transparent;
   cursor: pointer;
 }
-/* line 145, ../../assets/scss/site/_base.scss */
+/* line 149, ../../assets/scss/site/_base.scss */
 button:focus,
 html input[type="button"]:focus,
 input[type="reset"]:focus,
@@ -11557,32 +11599,77 @@ a.map-pin-btn {
   }
   /* line 46, ../../assets/scss/site/modules/_image.scss */
   .image-ugc.make-white .image-btn {
-    color: #FFF;
+    color: #00535e;
+    background: #fff;
     border: 1px solid #e6e8e2;
+  }
+  /* line 51, ../../assets/scss/site/modules/_image.scss */
+  .image-ugc.make-white .image-btn:hover {
+    color: #fff;
+    background: #00535e;
+    border-color: #00535e;
   }
 }
 
-/* line 54, ../../assets/scss/site/modules/_image.scss */
+/* line 60, ../../assets/scss/site/modules/_image.scss */
 .image-ugc.make-black .image-content-container {
   color: #040000;
 }
-/* line 57, ../../assets/scss/site/modules/_image.scss */
+/* line 63, ../../assets/scss/site/modules/_image.scss */
 .image-ugc.make-black .image-content hr {
   border-top: 1px solid #e2e5de;
 }
 @media (min-width: 360px) {
-  /* line 62, ../../assets/scss/site/modules/_image.scss */
+  /* line 68, ../../assets/scss/site/modules/_image.scss */
   .image-ugc.make-black .image-content hr {
     border-top: 1px solid #000;
   }
-  /* line 65, ../../assets/scss/site/modules/_image.scss */
+  /* line 71, ../../assets/scss/site/modules/_image.scss */
   .image-ugc.make-black .image-btn {
     color: #040000;
     border: 1px solid #040000;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+@media (min-width: 360px) and (min-width: 360px) {
+  /* line 71, ../../assets/scss/site/modules/_image.scss */
+  .image-ugc.make-black .image-btn {
+    margin-top: 30px;
+  }
+}
+@media (min-width: 360px) and (min-width: 768px) {
+  /* line 71, ../../assets/scss/site/modules/_image.scss */
+  .image-ugc.make-black .image-btn {
+    margin-top: 30px;
+  }
+}
+@media (min-width: 360px) and (min-width: 992px) {
+  /* line 71, ../../assets/scss/site/modules/_image.scss */
+  .image-ugc.make-black .image-btn {
+    margin-top: 30px;
+  }
+}
+@media (min-width: 360px) and (min-width: 360px) {
+  /* line 71, ../../assets/scss/site/modules/_image.scss */
+  .image-ugc.make-black .image-btn {
+    margin-bottom: 30px;
+  }
+}
+@media (min-width: 360px) and (min-width: 768px) {
+  /* line 71, ../../assets/scss/site/modules/_image.scss */
+  .image-ugc.make-black .image-btn {
+    margin-bottom: 30px;
+  }
+}
+@media (min-width: 360px) and (min-width: 992px) {
+  /* line 71, ../../assets/scss/site/modules/_image.scss */
+  .image-ugc.make-black .image-btn {
+    margin-bottom: 30px;
   }
 }
 
-/* line 72, ../../assets/scss/site/modules/_image.scss */
+/* line 80, ../../assets/scss/site/modules/_image.scss */
 .image-bg {
   background-size: cover;
   background-position: bottom center;
@@ -11596,13 +11683,13 @@ a.map-pin-btn {
   height: 180px;
 }
 @media (min-width: 360px) {
-  /* line 72, ../../assets/scss/site/modules/_image.scss */
+  /* line 80, ../../assets/scss/site/modules/_image.scss */
   .image-bg {
     height: 698px;
   }
 }
 
-/* line 87, ../../assets/scss/site/modules/_image.scss */
+/* line 95, ../../assets/scss/site/modules/_image.scss */
 .image-content-container {
   position: initial;
   margin-top: 220px;
@@ -11611,7 +11698,7 @@ a.map-pin-btn {
   padding: 15px;
 }
 @media (min-width: 360px) {
-  /* line 87, ../../assets/scss/site/modules/_image.scss */
+  /* line 95, ../../assets/scss/site/modules/_image.scss */
   .image-content-container {
     vertical-align: middle;
     display: table-cell;
@@ -11622,7 +11709,7 @@ a.map-pin-btn {
   }
 }
 
-/* line 104, ../../assets/scss/site/modules/_image.scss */
+/* line 112, ../../assets/scss/site/modules/_image.scss */
 .image-btn {
   padding: 0.4375em 1.25em;
   font-family: "TAheadline", Helvetica, Arial, sans-serif;
@@ -11634,44 +11721,83 @@ a.map-pin-btn {
   border: 1px solid #4792a4;
   background: none;
 }
-/* line 113, ../../assets/scss/site/modules/_image.scss */
+/* line 121, ../../assets/scss/site/modules/_image.scss */
 .image-btn:link {
   color: #4792a4;
   text-decoration: none;
   background: none;
 }
-/* line 118, ../../assets/scss/site/modules/_image.scss */
+/* line 126, ../../assets/scss/site/modules/_image.scss */
 .image-btn:visited {
   color: #4792a4;
   text-decoration: none;
   background: none;
 }
-/* line 123, ../../assets/scss/site/modules/_image.scss */
+/* line 131, ../../assets/scss/site/modules/_image.scss */
 .image-btn:hover {
   background: #efc032;
   text-decoration: none;
 }
-/* line 128, ../../assets/scss/site/modules/_image.scss */
+/* line 136, ../../assets/scss/site/modules/_image.scss */
 .image-btn:active {
   color: #4792a4;
   text-decoration: none;
   background: none;
 }
 
-/* line 135, ../../assets/scss/site/modules/_image.scss */
+/* line 143, ../../assets/scss/site/modules/_image.scss */
 .image-content-container .blockquote-quote-pull {
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
   max-width: 900px;
   padding: 0 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 @media (min-width: 360px) {
-  /* line 135, ../../assets/scss/site/modules/_image.scss */
+  /* line 143, ../../assets/scss/site/modules/_image.scss */
+  .image-content-container .blockquote-quote-pull {
+    margin-top: 30px;
+  }
+}
+@media (min-width: 768px) {
+  /* line 143, ../../assets/scss/site/modules/_image.scss */
+  .image-content-container .blockquote-quote-pull {
+    margin-top: 30px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 143, ../../assets/scss/site/modules/_image.scss */
+  .image-content-container .blockquote-quote-pull {
+    margin-top: 30px;
+  }
+}
+@media (min-width: 360px) {
+  /* line 143, ../../assets/scss/site/modules/_image.scss */
+  .image-content-container .blockquote-quote-pull {
+    margin-bottom: 30px;
+  }
+}
+@media (min-width: 768px) {
+  /* line 143, ../../assets/scss/site/modules/_image.scss */
+  .image-content-container .blockquote-quote-pull {
+    margin-bottom: 30px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 143, ../../assets/scss/site/modules/_image.scss */
+  .image-content-container .blockquote-quote-pull {
+    margin-bottom: 30px;
+  }
+}
+@media (min-width: 360px) {
+  /* line 143, ../../assets/scss/site/modules/_image.scss */
   .image-content-container .blockquote-quote-pull {
     padding: 0 50px;
   }
 }
-/* line 145, ../../assets/scss/site/modules/_image.scss */
+/* line 156, ../../assets/scss/site/modules/_image.scss */
 .image-content-container .blockquote-quote-pull p {
   line-height: 1.7em;
   background: #5496ae;
@@ -11680,7 +11806,7 @@ a.map-pin-btn {
   box-shadow: 0.4em 0 0 #5496ae, -0.4em 0 0 #5496ae;
 }
 @media (min-width: 360px) {
-  /* line 145, ../../assets/scss/site/modules/_image.scss */
+  /* line 156, ../../assets/scss/site/modules/_image.scss */
   .image-content-container .blockquote-quote-pull p {
     background: rgba(0, 84, 93, 0.6);
     -webkit-box-shadow: 0.4em 0 0 rgba(0, 84, 93, 0.6), -0.4em 0 0 rgba(0, 84, 93, 0.6);
@@ -11689,38 +11815,38 @@ a.map-pin-btn {
   }
 }
 
-/* line 158, ../../assets/scss/site/modules/_image.scss */
+/* line 169, ../../assets/scss/site/modules/_image.scss */
 .image-content-container hr {
   max-width: 282px;
 }
 
-/* line 161, ../../assets/scss/site/modules/_image.scss */
+/* line 172, ../../assets/scss/site/modules/_image.scss */
 .image-quote {
   display: block;
   margin: 2em 0 2em;
   line-height: 1.2em;
 }
 @media (min-width: 360px) {
-  /* line 161, ../../assets/scss/site/modules/_image.scss */
+  /* line 172, ../../assets/scss/site/modules/_image.scss */
   .image-quote {
     margin: 2em 0 2.5em;
   }
 }
 
-/* line 169, ../../assets/scss/site/modules/_image.scss */
+/* line 180, ../../assets/scss/site/modules/_image.scss */
 .image-quote-title {
   display: block;
   font-family: "ProximaNova Bold", Helvetica, Arial, sans-serif;
   font-size: 0.875em;
 }
 
-/* line 175, ../../assets/scss/site/modules/_image.scss */
+/* line 186, ../../assets/scss/site/modules/_image.scss */
 .image-quote-description {
   font-family: "ProximaNova Regular", Helvetica, Arial, sans-serif;
   font-size: 0.875em;
 }
 
-/* line 179, ../../assets/scss/site/modules/_image.scss */
+/* line 190, ../../assets/scss/site/modules/_image.scss */
 .image-quote-date {
   display: block;
   font-family: "TAheadline", Helvetica, Arial, sans-serif;
@@ -11728,7 +11854,7 @@ a.map-pin-btn {
   font-size: 1.125em;
 }
 
-/* line 184, ../../assets/scss/site/modules/_image.scss */
+/* line 195, ../../assets/scss/site/modules/_image.scss */
 .image-quote-source {
   font-family: "ProximaNova Regular Italic", Helvetica, Arial, sans-serif;
   font-size: 0.875em;
@@ -11736,46 +11862,83 @@ a.map-pin-btn {
   display: block;
 }
 
-/* line 192, ../../assets/scss/site/modules/_image.scss */
+/* line 203, ../../assets/scss/site/modules/_image.scss */
 .image-with-date .image-content-container .image-quote {
   text-align: left;
   padding-left: 10px;
 }
-/* line 196, ../../assets/scss/site/modules/_image.scss */
+/* line 207, ../../assets/scss/site/modules/_image.scss */
 .image-with-date .image-content-container hr {
   visibility: hidden;
 }
-/* line 199, ../../assets/scss/site/modules/_image.scss */
+/* line 210, ../../assets/scss/site/modules/_image.scss */
 .image-with-date .image-content-container .image-content {
   left: 0%;
 }
 @media (min-width: 360px) {
-  /* line 210, ../../assets/scss/site/modules/_image.scss */
+  /* line 221, ../../assets/scss/site/modules/_image.scss */
   .image-with-date .image-content-container hr {
     visibility: inherit;
   }
-  /* line 213, ../../assets/scss/site/modules/_image.scss */
+  /* line 224, ../../assets/scss/site/modules/_image.scss */
   .image-with-date .image-content-container .image-content {
     position: relative;
     left: 0%;
   }
-  /* line 217, ../../assets/scss/site/modules/_image.scss */
+  /* line 228, ../../assets/scss/site/modules/_image.scss */
   .image-with-date .image-content-container .image-quote {
     text-align: center;
   }
 }
 @media (min-width: 768px) {
-  /* line 224, ../../assets/scss/site/modules/_image.scss */
+  /* line 235, ../../assets/scss/site/modules/_image.scss */
   .image-with-date .image-content-container .image-content {
     left: 26%;
   }
 }
 
-/* line 230, ../../assets/scss/site/modules/_image.scss */
+/* line 241, ../../assets/scss/site/modules/_image.scss */
 .image-social-image {
-  padding-top: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
-/* line 232, ../../assets/scss/site/modules/_image.scss */
+@media (min-width: 360px) {
+  /* line 241, ../../assets/scss/site/modules/_image.scss */
+  .image-social-image {
+    margin-top: 30px;
+  }
+}
+@media (min-width: 768px) {
+  /* line 241, ../../assets/scss/site/modules/_image.scss */
+  .image-social-image {
+    margin-top: 30px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 241, ../../assets/scss/site/modules/_image.scss */
+  .image-social-image {
+    margin-top: 30px;
+  }
+}
+@media (min-width: 360px) {
+  /* line 241, ../../assets/scss/site/modules/_image.scss */
+  .image-social-image {
+    margin-bottom: 30px;
+  }
+}
+@media (min-width: 768px) {
+  /* line 241, ../../assets/scss/site/modules/_image.scss */
+  .image-social-image {
+    margin-bottom: 30px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 241, ../../assets/scss/site/modules/_image.scss */
+  .image-social-image {
+    margin-bottom: 30px;
+  }
+}
+/* line 245, ../../assets/scss/site/modules/_image.scss */
 .image-social-image img {
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
@@ -11785,34 +11948,28 @@ a.map-pin-btn {
   border: 1px solid #FFF;
   max-width: 82px;
 }
-@media (min-width: 360px) {
-  /* line 230, ../../assets/scss/site/modules/_image.scss */
-  .image-social-image {
-    padding-top: inherit;
-  }
-}
 
-/* line 242, ../../assets/scss/site/modules/_image.scss */
+/* line 253, ../../assets/scss/site/modules/_image.scss */
 .image-ugc.make-black .image-social-image img {
   border: 1px solid #000;
 }
 
-/* line 247, ../../assets/scss/site/modules/_image.scss */
+/* line 258, ../../assets/scss/site/modules/_image.scss */
 .fullwidth-bg {
   overflow: hidden;
 }
 
-/* line 254, ../../assets/scss/site/modules/_image.scss */
+/* line 265, ../../assets/scss/site/modules/_image.scss */
 .image-caption {
   position: relative;
   padding-bottom: 2.5em;
 }
-/* line 258, ../../assets/scss/site/modules/_image.scss */
+/* line 269, ../../assets/scss/site/modules/_image.scss */
 .image-caption .image img {
   max-width: 100%;
 }
 @media (min-width: 768px) {
-  /* line 262, ../../assets/scss/site/modules/_image.scss */
+  /* line 273, ../../assets/scss/site/modules/_image.scss */
   .image-caption .image-copy {
     position: absolute;
     left: 59%;

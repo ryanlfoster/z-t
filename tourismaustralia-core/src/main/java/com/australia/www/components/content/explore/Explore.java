@@ -46,12 +46,12 @@ public class Explore {
 	@TextArea
 	private String description;
 
-	@DialogField(xtype = "static", tab = 2, additionalProperties = {
-		@FieldProperty(name = "text", value = DISPLAY_NOTICE + "\n"), @FieldProperty(name = "italic", value = "true") })
-	private String displaynotice1;
 	@DialogField(tab = 2)
 	@DialogFieldSet(border = false, namePrefix = TAB1)
 	private final Category tab1;
+	@DialogField(xtype = "static", tab = 2, additionalProperties = {
+			@FieldProperty(name = "text", value = DISPLAY_NOTICE + "\n"), @FieldProperty(name = "italic", value = "true") })
+	private String displaynotice1;
 	@DialogField(xtype = "static", tab = 2, additionalProperties = {
 		@FieldProperty(name = "text", value = CARD_LABEL1 + "\n"), @FieldProperty(name = "bold", value = "true") })
 	private String label1c1;
@@ -71,12 +71,12 @@ public class Explore {
 	@DialogFieldSet(namePrefix = TAB1 + CARD3, collapsible = true, collapsed = true)
 	private final TabProperties tab1card3;
 
-	@DialogField(xtype = "static", tab = 3, additionalProperties = {
-		@FieldProperty(name = "text", value = DISPLAY_NOTICE + "\n"), @FieldProperty(name = "italic", value = "true") })
-	private String displaynotice2;
 	@DialogField(tab = 3)
 	@DialogFieldSet(border = false, namePrefix = TAB2)
 	private final Category tab2;
+	@DialogField(xtype = "static", tab = 3, additionalProperties = {
+			@FieldProperty(name = "text", value = DISPLAY_NOTICE + "\n"), @FieldProperty(name = "italic", value = "true") })
+	private String displaynotice2;
 	@DialogField(xtype = "static", tab = 3, additionalProperties = {
 		@FieldProperty(name = "text", value = CARD_LABEL1 + "\n"), @FieldProperty(name = "bold", value = "true") })
 	private String label2c1;
@@ -96,12 +96,12 @@ public class Explore {
 	@DialogFieldSet(namePrefix = TAB2 + CARD3, collapsible = true, collapsed = true)
 	private final TabProperties tab2card3;
 
-	@DialogField(xtype = "static", tab = 4, additionalProperties = {
-		@FieldProperty(name = "text", value = DISPLAY_NOTICE + "\n"), @FieldProperty(name = "italic", value = "true") })
-	private String displaynotice3;
 	@DialogField(tab = 4)
 	@DialogFieldSet(border = false, namePrefix = TAB3)
 	private final Category tab3;
+	@DialogField(xtype = "static", tab = 4, additionalProperties = {
+			@FieldProperty(name = "text", value = DISPLAY_NOTICE + "\n"), @FieldProperty(name = "italic", value = "true") })
+	private String displaynotice3;
 	@DialogField(xtype = "static", tab = 4, additionalProperties = {
 		@FieldProperty(name = "text", value = CARD_LABEL1 + "\n"), @FieldProperty(name = "bold", value = "true") })
 	private String label3c1;
@@ -121,12 +121,12 @@ public class Explore {
 	@DialogFieldSet(namePrefix = TAB3 + CARD3, collapsible = true, collapsed = true)
 	private final TabProperties tab3card3;
 
-	@DialogField(xtype = "static", tab = 5, additionalProperties = {
-		@FieldProperty(name = "text", value = DISPLAY_NOTICE + "\n"), @FieldProperty(name = "italic", value = "true") })
-	private String displaynotice4;
 	@DialogField(tab = 5)
 	@DialogFieldSet(border = false, namePrefix = TAB4)
 	private final Category tab4;
+	@DialogField(xtype = "static", tab = 5, additionalProperties = {
+			@FieldProperty(name = "text", value = DISPLAY_NOTICE + "\n"), @FieldProperty(name = "italic", value = "true") })
+	private String displaynotice4;
 	@DialogField(xtype = "static", tab = 5, additionalProperties = {
 		@FieldProperty(name = "text", value = CARD_LABEL1 + "\n"), @FieldProperty(name = "bold", value = "true") })
 	private String label4c1;

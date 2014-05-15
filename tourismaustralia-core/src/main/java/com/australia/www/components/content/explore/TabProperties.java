@@ -1,5 +1,6 @@
 package com.australia.www.components.content.explore;
 
+import com.citytechinc.cq.component.annotations.FieldProperty;
 import com.citytechinc.cq.component.annotations.widgets.RichTextEditor;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.sling.api.resource.Resource;
@@ -12,18 +13,21 @@ import com.citytechinc.cq.component.annotations.widgets.PathField;
 import org.apache.sling.api.resource.ResourceUtil;
 
 public class TabProperties {
-	@DialogField(fieldDescription = "Back alt text. Required", hideLabel = true)
+	@DialogField(fieldDescription = "Required", fieldLabel = "Back alt text")
 	private String altTextBack;
 
-	@DialogField(fieldDescription = "Path to page. Required", hideLabel = true)
+	@DialogField(fieldDescription = "Required", fieldLabel = "Path to page")
 	@PathField
 	private String pagePath;
 
-	@DialogField(fieldDescription = "Image on back of card. Required", hideLabel = true)
+	@DialogField(fieldDescription = "Required", fieldLabel = "Image on back of card")
 	@PathField(rootPath = "/content/dam")
 	private String imageBack;
 
-	@DialogField(fieldDescription = "Text on back of card.", hideLabel = true)
+	@DialogField(xtype = "static", tab = 2, additionalProperties = {
+			@FieldProperty(name = "text", value = "Text on back of card" + "\n"), @FieldProperty(name = "bold", value = "true") })
+	private String label1c3;
+	@DialogField(hideLabel = true)
 	@RichTextEditor()
 	private String textBack;
 

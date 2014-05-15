@@ -35,80 +35,139 @@ public class Explore {
 	private static final String USAGE_GUIDELINES = "This component will display between 1 to 5 "
 		+ "tabs depending on the number of valid tabs filled out. Each tab must have 3 valid cards. "
 		+ "Invalid tabs will not display. Fields are marked as required for this purpose.";
+	private static final String DISPLAY_NOTICE = "Required fields in all 3 cards must also be filled out for the tab to display";
 
 	@DialogField(xtype = "static", tab = 1, additionalProperties = {
 		@FieldProperty(name = "text", value = USAGE_GUIDELINES + "\n"), @FieldProperty(name = "italic", value = "true") })
 	private String notice;
-
 	@DialogField(fieldLabel = "Title", tab = 1)
 	private String title;
 	@DialogField(fieldLabel = "Description", tab = 1)
 	@TextArea
 	private String description;
 
+	@DialogField(xtype = "static", tab = 2, additionalProperties = {
+		@FieldProperty(name = "text", value = DISPLAY_NOTICE + "\n"), @FieldProperty(name = "italic", value = "true") })
+	private String displaynotice1;
 	@DialogField(tab = 2)
 	@DialogFieldSet(border = false, namePrefix = TAB1)
 	private final Category tab1;
-
-	@DialogField(fieldLabel = CARD_LABEL1, fieldDescription = REQUIRED_FIELD, tab = 2)
+	@DialogField(xtype = "static", tab = 2, additionalProperties = {
+		@FieldProperty(name = "text", value = CARD_LABEL1 + "\n"), @FieldProperty(name = "bold", value = "true") })
+	private String label1c1;
+	@DialogField(hideLabel = true, fieldDescription = REQUIRED_FIELD, tab = 2)
 	@DialogFieldSet(namePrefix = TAB1 + CARD1, collapsible = true, collapsed = true)
 	private final TabProperties tab1card1;
-	@DialogField(fieldLabel = CARD_LABEL2, fieldDescription = REQUIRED_FIELD, tab = 2)
+	@DialogField(xtype = "static", tab = 2, additionalProperties = {
+		@FieldProperty(name = "text", value = CARD_LABEL2 + "\n"), @FieldProperty(name = "bold", value = "true") })
+	private String label1c2;
+	@DialogField(hideLabel = true, fieldDescription = REQUIRED_FIELD, tab = 2)
 	@DialogFieldSet(namePrefix = TAB1 + CARD2, collapsible = true, collapsed = true)
 	private final TabProperties tab1card2;
-	@DialogField(fieldLabel = CARD_LABEL3, fieldDescription = REQUIRED_FIELD, tab = 2)
+	@DialogField(xtype = "static", tab = 2, additionalProperties = {
+		@FieldProperty(name = "text", value = CARD_LABEL3 + "\n"), @FieldProperty(name = "bold", value = "true") })
+	private String label1c3;
+	@DialogField(hideLabel = true, fieldDescription = REQUIRED_FIELD, tab = 2)
 	@DialogFieldSet(namePrefix = TAB1 + CARD3, collapsible = true, collapsed = true)
 	private final TabProperties tab1card3;
 
+	@DialogField(xtype = "static", tab = 3, additionalProperties = {
+		@FieldProperty(name = "text", value = DISPLAY_NOTICE + "\n"), @FieldProperty(name = "italic", value = "true") })
+	private String displaynotice2;
 	@DialogField(tab = 3)
 	@DialogFieldSet(border = false, namePrefix = TAB2)
 	private final Category tab2;
-	@DialogField(fieldLabel = CARD_LABEL1, fieldDescription = REQUIRED_FIELD, tab = 3)
+	@DialogField(xtype = "static", tab = 3, additionalProperties = {
+		@FieldProperty(name = "text", value = CARD_LABEL1 + "\n"), @FieldProperty(name = "bold", value = "true") })
+	private String label2c1;
+	@DialogField(hideLabel = true, fieldDescription = REQUIRED_FIELD, tab = 3)
 	@DialogFieldSet(namePrefix = TAB2 + CARD1, collapsible = true, collapsed = true)
 	private final TabProperties tab2card1;
-	@DialogField(fieldLabel = CARD_LABEL2, fieldDescription = REQUIRED_FIELD, tab = 3)
+	@DialogField(xtype = "static", tab = 3, additionalProperties = {
+		@FieldProperty(name = "text", value = CARD_LABEL2 + "\n"), @FieldProperty(name = "bold", value = "true") })
+	private String label2c2;
+	@DialogField(hideLabel = true, fieldDescription = REQUIRED_FIELD, tab = 3)
 	@DialogFieldSet(namePrefix = TAB2 + CARD2, collapsible = true, collapsed = true)
 	private final TabProperties tab2card2;
-	@DialogField(fieldLabel = CARD_LABEL3, fieldDescription = REQUIRED_FIELD, tab = 3)
+	@DialogField(xtype = "static", tab = 3, additionalProperties = {
+		@FieldProperty(name = "text", value = CARD_LABEL3 + "\n"), @FieldProperty(name = "bold", value = "true") })
+	private String label2c3;
+	@DialogField(hideLabel = true, fieldDescription = REQUIRED_FIELD, tab = 3)
 	@DialogFieldSet(namePrefix = TAB2 + CARD3, collapsible = true, collapsed = true)
 	private final TabProperties tab2card3;
 
+	@DialogField(xtype = "static", tab = 4, additionalProperties = {
+		@FieldProperty(name = "text", value = DISPLAY_NOTICE + "\n"), @FieldProperty(name = "italic", value = "true") })
+	private String displaynotice3;
 	@DialogField(tab = 4)
 	@DialogFieldSet(border = false, namePrefix = TAB3)
 	private final Category tab3;
-	@DialogField(fieldLabel = CARD_LABEL1, fieldDescription = REQUIRED_FIELD, tab = 4)
+	@DialogField(xtype = "static", tab = 4, additionalProperties = {
+		@FieldProperty(name = "text", value = CARD_LABEL1 + "\n"), @FieldProperty(name = "bold", value = "true") })
+	private String label3c1;
+	@DialogField(hideLabel = true, fieldDescription = REQUIRED_FIELD, tab = 4)
 	@DialogFieldSet(namePrefix = TAB3 + CARD1, collapsible = true, collapsed = true)
 	private final TabProperties tab3card1;
-	@DialogField(fieldLabel = CARD_LABEL2, fieldDescription = REQUIRED_FIELD, tab = 4)
+	@DialogField(xtype = "static", tab = 4, additionalProperties = {
+		@FieldProperty(name = "text", value = CARD_LABEL2 + "\n"), @FieldProperty(name = "bold", value = "true") })
+	private String label3c2;
+	@DialogField(hideLabel = true, fieldDescription = REQUIRED_FIELD, tab = 4)
 	@DialogFieldSet(namePrefix = TAB3 + CARD2, collapsible = true, collapsed = true)
 	private final TabProperties tab3card2;
-	@DialogField(fieldLabel = CARD_LABEL3, fieldDescription = REQUIRED_FIELD, tab = 4)
+	@DialogField(xtype = "static", tab = 4, additionalProperties = {
+		@FieldProperty(name = "text", value = CARD_LABEL3 + "\n"), @FieldProperty(name = "bold", value = "true") })
+	private String label3c3;
+	@DialogField(hideLabel = true, fieldDescription = REQUIRED_FIELD, tab = 4)
 	@DialogFieldSet(namePrefix = TAB3 + CARD3, collapsible = true, collapsed = true)
 	private final TabProperties tab3card3;
 
+	@DialogField(xtype = "static", tab = 5, additionalProperties = {
+		@FieldProperty(name = "text", value = DISPLAY_NOTICE + "\n"), @FieldProperty(name = "italic", value = "true") })
+	private String displaynotice4;
 	@DialogField(tab = 5)
 	@DialogFieldSet(border = false, namePrefix = TAB4)
 	private final Category tab4;
-	@DialogField(fieldLabel = CARD_LABEL1, fieldDescription = REQUIRED_FIELD, tab = 5)
+	@DialogField(xtype = "static", tab = 5, additionalProperties = {
+		@FieldProperty(name = "text", value = CARD_LABEL1 + "\n"), @FieldProperty(name = "bold", value = "true") })
+	private String label4c1;
+	@DialogField(hideLabel = true, fieldDescription = REQUIRED_FIELD, tab = 5)
 	@DialogFieldSet(namePrefix = TAB4 + CARD1, collapsible = true, collapsed = true)
 	private final TabProperties tab4card1;
-	@DialogField(fieldLabel = CARD_LABEL2, fieldDescription = REQUIRED_FIELD, tab = 5)
+	@DialogField(xtype = "static", tab = 5, additionalProperties = {
+		@FieldProperty(name = "text", value = CARD_LABEL2 + "\n"), @FieldProperty(name = "bold", value = "true") })
+	private String label4c2;
+	@DialogField(hideLabel = true, fieldDescription = REQUIRED_FIELD, tab = 5)
 	@DialogFieldSet(namePrefix = TAB4 + CARD2, collapsible = true, collapsed = true)
 	private final TabProperties tab4card2;
-	@DialogField(fieldLabel = CARD_LABEL3, fieldDescription = REQUIRED_FIELD, tab = 5)
+	@DialogField(xtype = "static", tab = 5, additionalProperties = {
+		@FieldProperty(name = "text", value = CARD_LABEL3 + "\n"), @FieldProperty(name = "bold", value = "true") })
+	private String label4c3;
+	@DialogField(hideLabel = true, fieldDescription = REQUIRED_FIELD, tab = 5)
 	@DialogFieldSet(namePrefix = TAB4 + CARD3, collapsible = true, collapsed = true)
 	private final TabProperties tab4card3;
 
 	@DialogField(tab = 6)
 	@DialogFieldSet(border = false, namePrefix = TAB5)
 	private final Category tab5;
-	@DialogField(fieldLabel = CARD_LABEL1, fieldDescription = REQUIRED_FIELD, tab = 6)
+	@DialogField(xtype = "static", tab = 6, additionalProperties = {
+		@FieldProperty(name = "text", value = DISPLAY_NOTICE + "\n"), @FieldProperty(name = "italic", value = "true") })
+	private String displaynotice5;
+	@DialogField(xtype = "static", tab = 6, additionalProperties = {
+		@FieldProperty(name = "text", value = CARD_LABEL1 + "\n"), @FieldProperty(name = "bold", value = "true") })
+	private String label5c1;
+	@DialogField(hideLabel = true, fieldDescription = REQUIRED_FIELD, tab = 6)
 	@DialogFieldSet(namePrefix = TAB5 + CARD1, collapsible = true, collapsed = true)
 	private final TabProperties tab5card1;
-	@DialogField(fieldLabel = CARD_LABEL2, fieldDescription = REQUIRED_FIELD, tab = 6)
+	@DialogField(xtype = "static", tab = 6, additionalProperties = {
+		@FieldProperty(name = "text", value = CARD_LABEL2 + "\n"), @FieldProperty(name = "bold", value = "true") })
+	private String label5c2;
+	@DialogField(hideLabel = true, fieldDescription = REQUIRED_FIELD, tab = 6)
 	@DialogFieldSet(namePrefix = TAB5 + CARD2, collapsible = true, collapsed = true)
 	private final TabProperties tab5card2;
-	@DialogField(fieldLabel = CARD_LABEL3, fieldDescription = REQUIRED_FIELD, tab = 6)
+	@DialogField(xtype = "static", tab = 6, additionalProperties = {
+		@FieldProperty(name = "text", value = CARD_LABEL3 + "\n"), @FieldProperty(name = "bold", value = "true") })
+	private String label5c3;
+	@DialogField(hideLabel = true, fieldDescription = REQUIRED_FIELD, tab = 6)
 	@DialogFieldSet(namePrefix = TAB5 + CARD3, collapsible = true, collapsed = true)
 	private final TabProperties tab5card3;
 

@@ -58,11 +58,6 @@ public final class WhatYouCanSee {
 	@Selection(type = Selection.CHECKBOX, options = @Option(value = "true"))
 	private boolean showThingsToDo;
 
-	@Selection(options = { @Option(value = "5", text = "5 Items"), @Option(value = "10", text = "10 Items") },
-		type = Selection.SELECT)
-	@DialogField(fieldLabel = "Things To Do Tab Size", defaultValue = Constants.TAB_SIZE_10, tab = 2)
-	private final String thingsToDoTabSize;
-
 	@DialogField(fieldLabel = "Optional Tab", fieldDescription = "When checked, an additional authorable tab will be "
 		+ "displayed", tab = 3, listeners = {
 		@Listener(name = "selectionchanged", value = Constants.OPTIONAL_SHOW_LISTENER),
@@ -156,7 +151,6 @@ public final class WhatYouCanSee {
 		title = properties.get(Constants.NAME_TITLE, "");
 		text = properties.get(Constants.NAME_TEXT, "");
 		showThingsToDo = properties.get(Constants.NAME_SHOW_THINGS_TO_DO, false);
-		thingsToDoTabSize = properties.get(Constants.NAME_THINGS_TO_DO_TAB_SIZE, Constants.TAB_SIZE_10);
 		showOptionalTab = properties.get(Constants.NAME_SHOW_OPTIONAL_TAB, false);
 		optionalTabTitle = properties.get(Constants.NAME_TAB_3_TITLE, Constants.BLANK);
 		optionalTabSize = properties.get(Constants.NAME_OPTIONAL_TAB_SIZE, Constants.TAB_SIZE_5);
@@ -197,7 +191,7 @@ public final class WhatYouCanSee {
 		if (showThingsToDo) {
 
 			baseBuilder.setContentType(ContentType.ARTICLE);
-			baseBuilder.setCount(Constants.TAB_SIZE_5.equals(thingsToDoTabSize) ? 5 : 10);
+			baseBuilder.setCount(10);
 			final ContentSearchResult content = contentSearchService.search(baseBuilder.build());
 
 			final String translatedThingsToDoTitle = bundle.getString(Constants.TTD_TAB_TITLE);

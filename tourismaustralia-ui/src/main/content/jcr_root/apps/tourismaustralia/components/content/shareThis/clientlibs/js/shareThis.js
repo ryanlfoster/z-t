@@ -18,8 +18,9 @@ CQ_Analytics.ClientContextMgr.addListener("storesinitialize", function (e) {
 		
 		if (share_type=='share') {
 		    $.getJSON("/bin/favorites/share/guid", function (data) {
-		     	$this.attr('data-shareUrl', share_url.replace("{lang}", country).replace("{id}", data.shareId));
+		     	$this.attr('data-shareUrl', share_url.replace("{id}", data.shareId));
 		    });
+		    share_url.replace("{lang}", country);
 		}
 		
 		var socnet_json = $.parseJSON(sharethis_json);
@@ -45,12 +46,12 @@ CQ_Analytics.ClientContextMgr.addListener("storesinitialize", function (e) {
 		var socnet2 = obj.socialNetwork2.toString().toLowerCase();
 		
 		$(".shareicons ul .email-bubble").after("<li class='btn-bubble'>" + 
-				"<span class='st_" + socnet1 + "_large' displayText='" 
+				"<span class='btn-bubble-button st_" + socnet1 + "_large' displayText='" 
 				+ socnet1 + "' st_url='" + url + "' st_title='" + title + "' st_summary='" + desc + "'>" +
 		"</span></li>");
 
 		$(".shareicons ul .sharethis-bubble").before("<li class='btn-bubble'>" + 
-				"<span class='st_" + socnet2 + "_large' displayText='" 
+				"<span class='btn-bubble-button st_" + socnet2 + "_large' displayText='" 
 				+ socnet2 + "' st_url='" + url + "' st_title='" + title + "' st_summary='" + desc + "'>" +
 		"</span></li>");
 		

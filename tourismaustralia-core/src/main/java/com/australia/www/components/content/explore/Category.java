@@ -13,11 +13,11 @@ public class Category {
 
 	private static final String REQUIRED_FIELD_NOTE = "Field required for this tab to display";
 
-	@DialogField(fieldLabel = "Icon Image Path", fieldDescription = REQUIRED_FIELD_NOTE)
+	@DialogField(fieldLabel = "Icon Image", fieldDescription = REQUIRED_FIELD_NOTE)
 	@Html5SmartImage(tab = false, height = 100, allowUpload = false, name = "iconImage")
 	private String iconImagePath;
 
-	@DialogField(fieldLabel = "Selected Icon Image Path", fieldDescription = REQUIRED_FIELD_NOTE)
+	@DialogField(fieldLabel = "Selected Icon Image", fieldDescription = REQUIRED_FIELD_NOTE)
 	@Html5SmartImage(tab = false, height = 100, allowUpload = false, name = "selectImage")
 	private String selectedImagePath;
 

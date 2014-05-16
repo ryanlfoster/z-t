@@ -14,11 +14,6 @@ class Constants {
 	public static final String NAME_TEXT = "text";
 	public static final String NAME_MAP_ALT_TEXT = "mapAltText";
 	public static final String NAME_MAP_IMAGE = "mapImage";
-	public static final String NAME_BEST_TIME = "bestTime";
-	public static final String NAME_TOTAL_DISTANCE = "totalDistance";
-	public static final String NAME_DURATION = "duration";
-	public static final String NAME_MODE_OF_TRANSPORT = "modeOfTransport";
-	public static final String NAME_MORE_INFO = "moreInfo";
 
 	public static final int IMAGE_WIDGET_HEIGHT = 400;
 

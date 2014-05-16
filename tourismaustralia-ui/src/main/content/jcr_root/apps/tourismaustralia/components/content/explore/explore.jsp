@@ -18,21 +18,23 @@
 	</div>
 	<div class="l-h-center section-buttons">
 		<!-- Select List For Mobile -->
-		<div class="section-buttons-mobile">
-			<div class="dropdown-select">
-				<hr>
-					<div class="dropdown-select-style">
-						<select data-aus-select>
-							<c:forEach items="${explore.tabs}" var="tab">
-								<c:if test="${tab.valid}">
-									<option value="${tab.title}"><c:out value="${tab.title}"/></option>
-								</c:if>
-							</c:forEach>
-						</select>
-					</div>
-				<hr>
+		<c:if test = "${not empty explore.tabs}">
+			<div class="section-buttons-mobile">
+				<div class="dropdown-select">
+					<hr>
+						<div class="dropdown-select-style">
+							<select data-aus-select>
+								<c:forEach items="${explore.tabs}" var="tab">
+									<c:if test="${tab.valid}">
+										<option value="${tab.title}"><c:out value="${tab.title}"/></option>
+									</c:if>
+								</c:forEach>
+							</select>
+						</div>
+					<hr>
+				</div>
 			</div>
-		</div>
+		</c:if>
 			<!-- Buttons -->
 		<div class="section-buttons-desktop">
 			<c:forEach items="${explore.tabs}" var="tab">
@@ -98,7 +100,7 @@
 						</a>
 						<p><c:out value="${card.pageDescription}"/></p>
 						<p><a href="<c:url value='${card.pageLink}'/>"><fmt:message key="View more information"/></a></p>
-						<a class="btn-bubble bubble-colour-favourite" data-pagepath="<c:url value='${card.pagePath}'/>">
+						<a class="btn-bubble bubble-colour-favourite" data-pagepath="${card.pagePath}">
 							<span class="btn-bubble-tooltip">
 								<span class="btn-bubble-tooltip-container">
 									<fmt:message key="add to your dream trip"/>

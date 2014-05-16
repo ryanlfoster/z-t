@@ -1,12 +1,7 @@
 
 .search-box{
   position: relative;
-  margin:pxtoem(10px) auto pxtoem($bottom-spacing);
-
-  @include breakpoint(md) {
-    padding:0px;
-    margin-bottom:pxtoem(115px);
-  }
+  @include vertical-spacing-responsive('standard','large',15px,0px);
 }
 
 .search-box-wrapper{

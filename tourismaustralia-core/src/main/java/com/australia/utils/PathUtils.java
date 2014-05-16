@@ -31,7 +31,7 @@ public final class PathUtils {
 
 	public static final String FOOD_AND_WINE_USER_GENERATED = "/content/usergenerated/food-and-wine";
 
-	public static final String DETAILED_MAP_PAGE_NAME = "detailedMap";
+	public static final String DETAILED_MAP_PAGE_NAME = "/explore";
 
 	public static final String ATDW_SEARCH_LOCALE_REL_PATH = "/atdwsearch.html";
 	public static final String CATEGORY_PARAM = "category";

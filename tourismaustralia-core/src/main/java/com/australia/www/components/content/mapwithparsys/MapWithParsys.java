@@ -4,6 +4,7 @@ import org.apache.commons.lang.StringUtils;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.ValueMap;
 
+import com.australia.utils.LinkUtils;
 import com.australia.utils.PathUtils;
 import com.citytechinc.cq.component.annotations.Component;
 import com.citytechinc.cq.component.annotations.DialogField;
@@ -40,7 +41,8 @@ public class MapWithParsys {
 		altText = properties.get("altText", StringUtils.EMPTY);
 		title = properties.get("title", StringUtils.EMPTY);
 		text = properties.get("text", StringUtils.EMPTY);
-		href = PathUtils.getLanguageResource(request.getResource()) + PathUtils.DETAILED_MAP_PAGE_NAME;
+		href = (PathUtils.getLanguageResource(request.getResource())).getPath() + PathUtils.DETAILED_MAP_PAGE_NAME;
+		href = LinkUtils.getHrefFromPath(href);
 		Image imageObj = new Image(request.getResource(), "image");
 		if (imageObj != null && imageObj.hasContent()) {
 			image = imageObj.getPath();

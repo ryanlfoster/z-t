@@ -1,6 +1,7 @@
 package com.australia.www.components.content.mapimagewithicons;
 
 import com.australia.widgets.multicomposite.MultiCompositeField;
+
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ValueMap;
@@ -44,7 +45,7 @@ public final class MapImageWithIcons {
 	@Html5SmartImage(tab = false, name = Constants.NAME_MAP_IMAGE, height = Constants.IMAGE_WIDGET_HEIGHT)
 	private final String mapImage;
 
-	@DialogField(fieldLabel = "Information", fieldDescription = "Maximum of 5 items allowed. Only 5 items will be shown.", tab = Constants.TAB_INDEX_BUTTONS)
+	@DialogField(fieldLabel = "Information", fieldDescription = "Maximum of 5 items allowed. Only 5 items will be shown.", tab = Constants.TAB_INDEX_BUTTONS, listeners = @Listener(name = "beforeadd", value = "function(multicomposite, component, index){return CQ.TA.Utils.multicomponsitelimit(5, multicomposite, component, index)}"))
 	@MultiCompositeField
 	private List<MapIconTitleDescription> mapIconTitleDescriptionItems;
 

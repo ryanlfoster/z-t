@@ -4,7 +4,6 @@
 
 <c:set var="mapWithButtons" value="<%=new MapWithButtons(slingRequest) %>"/>
 
-<div class="l-padding-between-item-fill-white">
 <div class="map-with-links-container">
 
     <c:if test="${not empty mapWithButtons.title }">
@@ -45,5 +44,4 @@
 		</c:if>
 	</c:forEach>
 
-</div>
 </div>

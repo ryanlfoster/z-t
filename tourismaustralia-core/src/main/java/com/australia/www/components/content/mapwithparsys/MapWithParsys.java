@@ -40,7 +40,7 @@ public class MapWithParsys {
 		altText = properties.get("altText", StringUtils.EMPTY);
 		title = properties.get("title", StringUtils.EMPTY);
 		text = properties.get("text", StringUtils.EMPTY);
-		href = PathUtils.getLanguageResource(request.getResource()) + PathUtils.DETAILED_MAP_PAGE_NAME;
+		href = (PathUtils.getLanguageResource(request.getResource())).getPath() + PathUtils.DETAILED_MAP_PAGE_NAME;
 		Image imageObj = new Image(request.getResource(), "image");
 		if (imageObj != null && imageObj.hasContent()) {
 			image = imageObj.getPath();

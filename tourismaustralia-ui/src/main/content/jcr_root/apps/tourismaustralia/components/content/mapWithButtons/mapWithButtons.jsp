@@ -4,7 +4,6 @@
 
 <c:set var="mapWithButtons" value="<%=new MapWithButtons(slingRequest) %>"/>
 
-<div class="l-padding-between-item-fill-white">
 <div class="map-with-links-container">
 
     <c:if test="${not empty mapWithButtons.title }">
@@ -23,7 +22,7 @@
             <img class="map-highlights-image" src="${mapWithButtons.image}.img.png" alt="${mapWithButtons.altText}" />
        
             <div class="map-image-view-btn-container">
-                <a href="#" class="btn-primary"><fmt:message key="view detailed map"/></a>
+                <a href="${mapWithButtons.href}" class="btn-primary"><fmt:message key="view detailed map"/></a>
             </div>
         </c:if>
 
@@ -45,5 +44,4 @@
 		</c:if>
 	</c:forEach>
 
-</div>
 </div>

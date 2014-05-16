@@ -23,7 +23,6 @@ import com.day.cq.wcm.api.PageManager;
 public class ContributorsList {
 	private static final int RESULTS_PER_PAGE = 25;
 	private final ExperienceSearchResult searchResult;
-	private final long totalExperiencesCount;
 	private final String searchParameter;
 	private final String searchPath;
 	private final long pages;
@@ -48,10 +47,6 @@ public class ContributorsList {
 		searchResult = experienceService.search(experienceSearchParameterBuilder.build());
 		pages = (long) Math.ceil(searchResult.getTotalCount() / (double) RESULTS_PER_PAGE);
 
-		ExperienceSearchParametersBuilder totalExperiences = new ExperienceSearchParametersBuilder();
-		totalExperiences.setCount(1);
-		totalExperiencesCount = experienceService.search(totalExperiences.build()).getTotalCount();
-
 		PageManager pageManager = request.getResourceResolver().adaptTo(PageManager.class);
 		Page searchPage = pageManager.getContainingPage(request.getResource());
 		searchPath = request.getResourceResolver().map(searchPage.getPath()) + ".html";
@@ -64,10 +59,6 @@ public class ContributorsList {
 
 	public ExperienceSearchResult getSearchResult() {
 		return searchResult;
-	}
-
-	public long getTotalExperiencesCount() {
-		return totalExperiencesCount;
 	}
 
 	public int getResultsPerPage() {

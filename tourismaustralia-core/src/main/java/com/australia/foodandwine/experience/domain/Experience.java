@@ -27,25 +27,21 @@ public class Experience {
 	private final String[] tags;
 	private final String icon;
 	private final String primaryCategory;
-	private String link;
+	private final String link;
 	private String website;
+	private final boolean linkFromContributorsList;
 
 	public Experience(Page page, TagManager tagManager) {
 		ValueMap properties = page.getProperties();
-		Resource jcrResource = page.adaptTo(Resource.class).getChild(
-				JcrConstants.JCR_CONTENT);
+		Resource jcrResource = page.adaptTo(Resource.class).getChild(JcrConstants.JCR_CONTENT);
 		Image image = new Image(jcrResource, "image");
 		if (image != null && image.hasContent()) {
 			imagePath = image.getPath() + ".img.jpg";
 		} else {
 			imagePath = "";
 		}
-		//link = LinkUtils.getHrefFromPath(page.getPath());
-		// icon
-		String linkFromContributorsList = properties.get("linkFromContributorsList", String.class);
-		if(linkFromContributorsList!=null &&linkFromContributorsList.equals("true") ){
-		link =LinkUtils.getHrefFromPath(page.getPath());
-		}
+		linkFromContributorsList = properties.get("linkFromContributorsList", false);
+		link = LinkUtils.getHrefFromPath(page.getPath());
 		icon = properties.get("categoryLogoPath", String.class);
 		// title
 		title = page.getTitle();
@@ -62,16 +58,13 @@ public class Experience {
 		// city
 		Tag cityTag = TagUtils.getCityTag(tagManager, cattags);
 		city = (cityTag != null ? cityTag.getTitle() : StringUtils.EMPTY);
-		Tag primaryCategoryTag = TagUtils.getFoodAndWinePrimaryCategory(
-				tagManager, cattags);
-		primaryCategory = (primaryCategoryTag != null ? primaryCategoryTag
-				.getTitle() : StringUtils.EMPTY);
-		Node node = (Node) page.adaptTo(Node.class);
+		Tag primaryCategoryTag = TagUtils.getFoodAndWinePrimaryCategory(tagManager, cattags);
+		primaryCategory = (primaryCategoryTag != null ? primaryCategoryTag.getTitle() : StringUtils.EMPTY);
+		Node node = page.adaptTo(Node.class);
 		try {
 			Node jcrNode = node.getNode(JcrConstants.JCR_CONTENT);
-			if(jcrNode.getNode("map").hasProperty("website"))
-			website ="http://" +jcrNode.getNode("map").getProperty("website").getValue()
-					.getString();
+			if (jcrNode.getNode("map").hasProperty("website"))
+				website = "http://" + jcrNode.getNode("map").getProperty("website").getValue().getString();
 
 		} catch (PathNotFoundException e) {
 			e.printStackTrace();
@@ -115,6 +108,10 @@ public class Experience {
 
 	public String getWebsite() {
 		return website;
+	}
+
+	public boolean isLinkFromContributorsList() {
+		return linkFromContributorsList;
 	}
 
 }

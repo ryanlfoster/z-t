@@ -30,20 +30,22 @@
 
     <c:if test="${not empty map.mapIconTitleDescriptionItems}">
         <%-- START // item --%>
-        <c:forEach items="${map.mapIconTitleDescriptionItems}" var="item">
-        <div class="map-btn-container">
-            <div class="map-btn-content">
-                <c:if test="${not empty item.icon}">
-                <div class="map-image-icon"><img src="${item.icon}" alt="" /></div>
-                </c:if>
-                <c:if test="${not empty item.title || not empty item.description}">
-                    <div>
-                        <span class="map-btn-heading">${item.title}</span>
-                        ${item.description}
-                    </div>
-                </c:if>
+        <c:forEach items="${map.mapIconTitleDescriptionItems}" var="item" varStatus="itemCount">
+            <c:if test="${itemCount.count <= 5}">
+            <div class="map-btn-container">
+                <div class="map-btn-content">
+                    <c:if test="${not empty item.icon}">
+                    <div class="map-image-icon"><img src="${item.icon}" alt="" /></div>
+                    </c:if>
+                    <c:if test="${not empty item.title || not empty item.description}">
+                        <div>
+                            <span class="map-btn-heading">${item.title}</span>
+                            ${item.description}
+                        </div>
+                    </c:if>
+                </div>
             </div>
-        </div>
+            </c:if>
         </c:forEach>
         <%-- END // item --%>
     </c:if>

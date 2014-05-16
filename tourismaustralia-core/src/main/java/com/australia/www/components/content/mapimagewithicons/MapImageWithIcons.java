@@ -44,7 +44,7 @@ public final class MapImageWithIcons {
 	@Html5SmartImage(tab = false, name = Constants.NAME_MAP_IMAGE, height = Constants.IMAGE_WIDGET_HEIGHT)
 	private final String mapImage;
 
-	@DialogField(fieldLabel = "Information", fieldDescription = "Maximum of 5 icons", tab = Constants.TAB_INDEX_BUTTONS)
+	@DialogField(fieldLabel = "Information", fieldDescription = "Maximum of 5 items allowed. Only 5 items will be shown.", tab = Constants.TAB_INDEX_BUTTONS)
 	@MultiCompositeField
 	private List<MapIconTitleDescription> mapIconTitleDescriptionItems;
 

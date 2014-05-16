@@ -63,8 +63,11 @@
 
     Plugin.prototype.init = function () {
         var scope = this;
-        //init events
-        scope.setupEvents(scope);
+        //init events except of megamenu items
+        var $megamenu_mosaic_item = $(scope.element).parents(".megamenu-mosaic-item");
+        if ($megamenu_mosaic_item.length == 0){
+            scope.setupEvents(scope);
+        }
     };
 
     // add events to items

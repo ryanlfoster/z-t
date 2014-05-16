@@ -19,7 +19,9 @@ import com.australia.favorite.domain.UserFavorites;
 import com.australia.favorite.service.FavoriteService;
 import com.australia.utils.ServletUtils;
 
-@SlingServlet(paths = "/bin/favorites/remove", label = "Remove Favorite Servlet", methods = "POST", description = "Servlet to Remove Favorite", extensions = "json")
+@SlingServlet(paths = "/bin/favorites/remove", label = "Remove Favorite Servlet", methods = "POST",
+	description = "Servlet to Remove Favorite", extensions = "json",
+	name = "com.australia.favorite.servlet.RemoveFavoriteServlet")
 public class RemoveFavoriteServlet extends SlingAllMethodsServlet {
 	private static final Logger LOG = LoggerFactory.getLogger(RemoveFavoriteServlet.class);
 

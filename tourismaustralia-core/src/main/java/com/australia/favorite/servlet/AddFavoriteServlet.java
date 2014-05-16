@@ -20,7 +20,9 @@ import com.australia.favorite.domain.UserFavorites;
 import com.australia.favorite.service.FavoriteService;
 import com.australia.utils.ServletUtils;
 
-@SlingServlet(paths = "/bin/favorites/add", label = "Add Favorites Servlet", methods = "POST", description = "Servlet to Add Favorite", extensions = "json")
+@SlingServlet(paths = "/bin/favorites/add", label = "Add Favorites Servlet", methods = "POST",
+	description = "Servlet to Add Favorite", extensions = "json",
+	name = "com.australia.favorite.servlet.AddFavoriteServlet")
 public class AddFavoriteServlet extends SlingAllMethodsServlet {
 	private static final Logger LOG = LoggerFactory.getLogger(AddFavoriteServlet.class);
 

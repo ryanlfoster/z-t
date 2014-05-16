@@ -7,8 +7,9 @@
     margin: 0;
   }
   li {
-    margin-right: .3em;
-    margin-bottom: .2em;
+    float: left;
+    margin-right: pxtoem(10px);
+    margin-bottom: pxtoem(8px);
     display: inline-block;
   }
 
@@ -21,6 +22,7 @@
       top: 12px;
       padding-top: 0;
       margin-right: 0.6em;
+      width: 54px;
     }
 
   margin-top: 1em;

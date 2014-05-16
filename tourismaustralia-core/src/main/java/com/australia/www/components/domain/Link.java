@@ -11,7 +11,7 @@ public class Link {
 	private String path;
 	public static final String PROP_PATH = "path";
 
-	@DialogField(fieldLabel = "Title", additionalProperties = @FieldProperty(name = "width", value = "300"))
+	@DialogField(fieldLabel = "Link Title", additionalProperties = @FieldProperty(name = "width", value = "300"))
 	private String title;
 	public static final String PROP_TITLE = "title";
 

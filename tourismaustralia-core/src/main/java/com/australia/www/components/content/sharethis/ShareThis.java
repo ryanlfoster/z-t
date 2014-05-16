@@ -7,6 +7,7 @@ import org.apache.sling.api.scripting.SlingBindings;
 import org.apache.sling.api.scripting.SlingScriptHelper;
 
 import com.australia.sharethis.service.ShareThisService;
+import com.australia.utils.LinkUtils;
 import com.australia.utils.PathUtils;
 import com.citytechinc.cq.component.annotations.Component;
 import com.citytechinc.cq.component.annotations.DialogField;
@@ -37,14 +38,13 @@ public class ShareThis {
 	public ShareThis(SlingHttpServletRequest request) {
 		SlingScriptHelper sling = ((SlingBindings) request.getAttribute(SlingBindings.class.getName())).getSling();
 		ShareThisService shareThisService = sling.getService(ShareThisService.class);
-		accountId = shareThisService.getAccountId();
-		shareType = "current"; // default
 		ValueMap properties = request.getResource().adaptTo(ValueMap.class);
+		accountId = shareThisService.getAccountId();
 		if (properties != null) {
 			shareType = properties.get("shareType", "current");
 		}
 		if ("share".equals(shareType)) {
-			shareUrl = request.getResourceResolver().map(PathUtils.SHARE_ID_URL);
+			shareUrl = PathUtils.SHARE_ID_URL;
 		} else if ("custom".equals(shareType)) {
 			shareUrl = properties.get("customUrl", StringUtils.EMPTY);
 		} else {
@@ -52,7 +52,10 @@ public class ShareThis {
 			Page currentPage = request.getResourceResolver().adaptTo(PageManager.class)
 				.getContainingPage(request.getResource());
 
-			shareUrl = currentPage.getPath() + ".html";
+			shareUrl = currentPage.getPath();
+		}
+		shareUrl = LinkUtils.getHrefFromPath(shareUrl);
+		if (!LinkUtils.isExternal(shareUrl)) {
 			shareUrl = request.getResourceResolver().map(shareUrl);
 		}
 	}

@@ -36,7 +36,7 @@ public class OtherExperiences {
 	private static final Logger LOG = LoggerFactory.getLogger(OtherExperiences.class);
 	private static final String QUERY_STRING = "SELECT * FROM [cq:Page] AS page INNER JOIN [nt:unstructured] AS pageContent ON ISCHILDNODE(pageContent,page) WHERE ISDESCENDANTNODE(page,["
 		+ PathUtils.FOOD_AND_WINE_ROOT_PATH
-		+ "]) and pageContent.[cq:tags] like '%s%%' and not issamenode(page,'%s') order by pageContent.[jcr:created] DESC";
+		+ "]) and pageContent.[cq:tags] like '%s%%' and not (issamenode(page,'%s') or pageContent.excludeFromMosaic = true) and pageContent.[cq:template] = '/apps/foodandwine/templates/articlepage' order by pageContent.[jcr:created] DESC";
 
 	private final List<OtherExperiencesArticleListProperties> articlesList = new ArrayList<OtherExperiencesArticleListProperties>();
 	private String stateTitle;

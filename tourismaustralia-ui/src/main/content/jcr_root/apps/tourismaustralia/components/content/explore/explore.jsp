@@ -24,7 +24,7 @@
 					<div class="dropdown-select-style">
 						<select data-aus-select>
 							<c:forEach items="${explore.tabs}" var="tab">
-								<c:if test="${tab.hasTitle}">
+								<c:if test="${tab.valid}">
 									<option value="${tab.title}"><c:out value="${tab.title}"/></option>
 								</c:if>
 							</c:forEach>
@@ -36,7 +36,7 @@
 			<!-- Buttons -->
 		<div class="section-buttons-desktop">
 			<c:forEach items="${explore.tabs}" var="tab">
-				<c:if test="${tab.hasTitle}">
+				<c:if test="${tab.valid}">
 
 					<a class="btn-bubble btn-bubble-min-width btn-category-extra-space" data-aus-tab="${tab.title}">
 						<span class="btn-bubble-button">
@@ -97,8 +97,8 @@
 							</span>
 						</a>
 						<p><c:out value="${card.pageDescription}"/></p>
-						<p><a href="<c:url value='${card.pagePath}'/>"><fmt:message key="View more information"/></a></p>
-						<a class="btn-bubble bubble-colour-favourite" data-pagepath="${card.pagePath}">
+						<p><a href="<c:url value='${card.pageLink}'/>"><fmt:message key="View more information"/></a></p>
+						<a class="btn-bubble bubble-colour-favourite" data-pagepath="<c:url value='${card.pagePath}'/>">
 							<span class="btn-bubble-tooltip">
 								<span class="btn-bubble-tooltip-container">
 									<fmt:message key="add to your dream trip"/>

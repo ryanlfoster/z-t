@@ -2,17 +2,15 @@
 // * Social Tiles:
 // * ---------------------------------------------------------------------------------------------------------------- */
 .socialtiles {
-	padding: pxtoem(15px) 0 pxtoem($bottom-spacing);
+  @include vertical-spacing-responsive('large','large');
+}
 
-    @include breakpoint(lg) {
-      //padding-top: pxtoem(45px);
-      //padding-bottom: pxtoem(55px);
-      padding: pxtoem($bottom-spacing) 0 pxtoem($bottom-spacing);
-    }
+.socialtiles h2{
+  @include vertical-spacing-responsive('zero','medium');
 }
 
 .socialtiles-linethrough {
-  margin: 1em 0;
+  @include vertical-spacing-responsive('standard','standard');
 }
 
 .socialtiles-linethrough .line-through-container-biline {

@@ -1,6 +1,9 @@
 /////////////////
 // 2 COLUMN VIDEO
 /////////////////
+.two-column-video{
+  @include vertical-spacing-responsive('large','large');
+}
 .video-container {
   text-align: center;
   position: inherit;
@@ -57,7 +60,7 @@
 // LARGE VIDEO
 ///////////////
 .video-large-container {
-  padding-bottom: pxtoem($bottom-spacing);
+  @include vertical-spacing-responsive('large','large');
 }
 .video-title-large-video {
   font-family: $font-family-secondary;

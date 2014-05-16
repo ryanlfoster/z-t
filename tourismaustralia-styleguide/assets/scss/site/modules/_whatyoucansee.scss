@@ -3,4 +3,13 @@
 // * ---------------------------------------------------------------------------------------------------------------- */
 .whatyoucansee {
     padding: 0;
+  @include vertical-spacing-responsive('large','large');
+}
+.whatyoucansee h2{
+
+  @include vertical-spacing-responsive('zero','zero',0px, 17px);
+}
+
+.whatyoucansee .what-you-can-see-view-all-highlights{
+  @include vertical-spacing-responsive('standard','standard');
 }

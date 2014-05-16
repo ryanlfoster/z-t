@@ -17,6 +17,17 @@
   position: relative;
 }
 
+.paragraph-home > ,
+.paragraph-icon,
+.paragraph-city,
+.paragraph-state,
+.paragraph-article,
+.paragraph-video,
+.paragraph-search,
+.paragraph-category,
+.paragraph-dreamtrip{
+
+}
 //** START - solve Background issue: where hero image is shown when Margin top is given to any Paragraph element
 // Working in Chrome, Safari, Firefox/Mozilla, IE8, IE9, IE10, IE11, iPhone3Gs, iPhone5, iPad ,Android default browser(stock)
 
@@ -101,7 +112,6 @@
   & >  p {
     padding-left: pxtoem(15px);
     padding-right: pxtoem(15px);
-    margin: 0;
   }
 
   @include breakpoint(md) {
@@ -122,7 +132,8 @@
       padding-right: 28em;
       padding-left: 19.7em;
       max-width: pxtoem(1200px);
-      margin: 0 auto;
+      margin-left: auto;
+      margin-right: auto;
     }
 
   }

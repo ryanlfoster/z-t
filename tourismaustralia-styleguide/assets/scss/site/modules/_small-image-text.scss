@@ -1,5 +1,6 @@
 .small-image-text {
 	position: relative;
+  @include vertical-spacing-responsive('large','large');
 	@extend .clearfix;
 }
 

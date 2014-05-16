@@ -1,3 +1,6 @@
+.byline-share {
+  @include vertical-spacing-responsive('large','large');
+}
 
 .byline-share-container {
   width: 100%;

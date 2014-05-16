@@ -6,6 +6,7 @@
 .largeimage {
     position: relative;
 	-webkit-perspective: 600;
+    @include vertical-spacing-responsive('large','large');
 }
 
 .largeimage-container {

@@ -120,6 +120,10 @@ p a:hover {
   -moz-box-shadow: 0 1px 0 #00535e;
 }
 
+hr{
+  @include vertical-spacing-responsive('standard','standard');
+}
+
 hr.full {
   margin: 0 -15px;
 }

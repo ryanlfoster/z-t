@@ -1,5 +1,5 @@
 .two-images {
-
+  @include vertical-spacing-responsive('large','large');
 }
 
 .two-images-column {

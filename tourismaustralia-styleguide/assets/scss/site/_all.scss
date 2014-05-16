@@ -86,6 +86,7 @@
 @import "modules/_imagecaption";
 @import "modules/_inputfield";
 @import "modules/_eventsresults";
+@import "modules/_article";
 
 
 /*
@@ -97,5 +98,4 @@
 */
 
 //It should be on last to overwrite all the classes
-@import "spacing";
 @import "rendering";

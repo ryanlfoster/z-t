@@ -5,6 +5,10 @@
   @include vertical-spacing-responsive('large','large');
 }
 
+.image-ugc-container .largeimage{
+  @include vertical-spacing-responsive('zero','zero');
+}
+
 .image-ugc {
 
   position: inherit;

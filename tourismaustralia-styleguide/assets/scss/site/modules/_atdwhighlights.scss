@@ -4,3 +4,7 @@
   margin: 0 auto;
   @include vertical-spacing-responsive('large','large');
 }
+
+.atdw-highlights-all-accommodation{
+  @include vertical-spacing-responsive('standard','standard');
+}

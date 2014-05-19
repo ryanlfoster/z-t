@@ -5,21 +5,23 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import java.util.ArrayList;
 import java.util.List;
+
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for con_MapItemsType complex type.
+ * <p>
+ * Java class for con_MapItemsType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="con_MapItemsType">
@@ -36,41 +38,40 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "con_MapItemsType", propOrder = {
-    "beWhereToGoMapItem"
-})
+@XmlType(name = "con_MapItemsType", propOrder = { "beWhereToGoMapItem" })
 public class ConMapItemsType {
 
-    @XmlElement(name = "BEWhereToGoMapItem")
-    protected List<BEWhereToGoMapItemType> beWhereToGoMapItem;
+	@XmlElement(name = "BEWhereToGoMapItem")
+	protected List<BEWhereToGoMapItemType> beWhereToGoMapItem;
 
-    /**
-     * Gets the value of the beWhereToGoMapItem property.
-     * 
-     * <p>
-     * This accessor method returns a reference to the live list,
-     * not a snapshot. Therefore any modification you make to the
-     * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the beWhereToGoMapItem property.
-     * 
-     * <p>
-     * For example, to add a new item, do as follows:
-     * <pre>
-     *    getBEWhereToGoMapItem().add(newItem);
-     * </pre>
-     * 
-     * 
-     * <p>
-     * Objects of the following type(s) are allowed in the list
-     * {@link BEWhereToGoMapItemType }
-     * 
-     * 
-     */
-    public List<BEWhereToGoMapItemType> getBEWhereToGoMapItem() {
-        if (beWhereToGoMapItem == null) {
-            beWhereToGoMapItem = new ArrayList<BEWhereToGoMapItemType>();
-        }
-        return this.beWhereToGoMapItem;
-    }
+	/**
+	 * Gets the value of the beWhereToGoMapItem property.
+	 * 
+	 * <p>
+	 * This accessor method returns a reference to the live list, not a
+	 * snapshot. Therefore any modification you make to the returned list will
+	 * be present inside the JAXB object. This is why there is not a
+	 * <CODE>set</CODE> method for the beWhereToGoMapItem property.
+	 * 
+	 * <p>
+	 * For example, to add a new item, do as follows:
+	 * 
+	 * <pre>
+	 * getBEWhereToGoMapItem().add(newItem);
+	 * </pre>
+	 * 
+	 * 
+	 * <p>
+	 * Objects of the following type(s) are allowed in the list
+	 * {@link BEWhereToGoMapItemType }
+	 * 
+	 * 
+	 */
+	public List<BEWhereToGoMapItemType> getBEWhereToGoMapItem() {
+		if (beWhereToGoMapItem == null) {
+			beWhereToGoMapItem = new ArrayList<BEWhereToGoMapItemType>();
+		}
+		return this.beWhereToGoMapItem;
+	}
 
 }

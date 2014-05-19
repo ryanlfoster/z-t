@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -14,11 +13,13 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for IntroductionMessageType complex type.
+ * <p>
+ * Java class for IntroductionMessageType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="IntroductionMessageType">
@@ -39,143 +40,119 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "IntroductionMessageType", propOrder = {
-    "stfMainHeading",
-    "stfSubHeading",
-    "stfTagline",
-    "stfTargetedCountry"
-})
+@XmlType(name = "IntroductionMessageType", propOrder = { "stfMainHeading", "stfSubHeading", "stfTagline",
+	"stfTargetedCountry" })
 public class IntroductionMessageType {
 
-    @XmlElement(name = "stf_MainHeading", required = true)
-    protected String stfMainHeading;
-    @XmlElement(name = "stf_SubHeading", required = true)
-    protected String stfSubHeading;
-    @XmlElement(name = "stf_Tagline", required = true)
-    protected String stfTagline;
-    @XmlElement(name = "stf_TargetedCountry", required = true)
-    protected String stfTargetedCountry;
-    @XmlAttribute(name = "isTemplate")
-    protected Byte isTemplate;
+	@XmlElement(name = "stf_MainHeading", required = true)
+	protected String stfMainHeading;
+	@XmlElement(name = "stf_SubHeading", required = true)
+	protected String stfSubHeading;
+	@XmlElement(name = "stf_Tagline", required = true)
+	protected String stfTagline;
+	@XmlElement(name = "stf_TargetedCountry", required = true)
+	protected String stfTargetedCountry;
+	@XmlAttribute(name = "isTemplate")
+	protected Byte isTemplate;
 
-    /**
-     * Gets the value of the stfMainHeading property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfMainHeading() {
-        return stfMainHeading;
-    }
+	/**
+	 * Gets the value of the stfMainHeading property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfMainHeading() {
+		return stfMainHeading;
+	}
 
-    /**
-     * Sets the value of the stfMainHeading property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfMainHeading(String value) {
-        this.stfMainHeading = value;
-    }
+	/**
+	 * Sets the value of the stfMainHeading property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfMainHeading(String value) {
+		this.stfMainHeading = value;
+	}
 
-    /**
-     * Gets the value of the stfSubHeading property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfSubHeading() {
-        return stfSubHeading;
-    }
+	/**
+	 * Gets the value of the stfSubHeading property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfSubHeading() {
+		return stfSubHeading;
+	}
 
-    /**
-     * Sets the value of the stfSubHeading property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfSubHeading(String value) {
-        this.stfSubHeading = value;
-    }
+	/**
+	 * Sets the value of the stfSubHeading property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfSubHeading(String value) {
+		this.stfSubHeading = value;
+	}
 
-    /**
-     * Gets the value of the stfTagline property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfTagline() {
-        return stfTagline;
-    }
+	/**
+	 * Gets the value of the stfTagline property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfTagline() {
+		return stfTagline;
+	}
 
-    /**
-     * Sets the value of the stfTagline property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfTagline(String value) {
-        this.stfTagline = value;
-    }
+	/**
+	 * Sets the value of the stfTagline property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfTagline(String value) {
+		this.stfTagline = value;
+	}
 
-    /**
-     * Gets the value of the stfTargetedCountry property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfTargetedCountry() {
-        return stfTargetedCountry;
-    }
+	/**
+	 * Gets the value of the stfTargetedCountry property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfTargetedCountry() {
+		return stfTargetedCountry;
+	}
 
-    /**
-     * Sets the value of the stfTargetedCountry property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfTargetedCountry(String value) {
-        this.stfTargetedCountry = value;
-    }
+	/**
+	 * Sets the value of the stfTargetedCountry property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfTargetedCountry(String value) {
+		this.stfTargetedCountry = value;
+	}
 
-    /**
-     * Gets the value of the isTemplate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Byte }
-     *     
-     */
-    public Byte getIsTemplate() {
-        return isTemplate;
-    }
+	/**
+	 * Gets the value of the isTemplate property.
+	 * 
+	 * @return possible object is {@link Byte }
+	 * 
+	 */
+	public Byte getIsTemplate() {
+		return isTemplate;
+	}
 
-    /**
-     * Sets the value of the isTemplate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Byte }
-     *     
-     */
-    public void setIsTemplate(Byte value) {
-        this.isTemplate = value;
-    }
+	/**
+	 * Sets the value of the isTemplate property.
+	 * 
+	 * @param value allowed object is {@link Byte }
+	 * 
+	 */
+	public void setIsTemplate(Byte value) {
+		this.isTemplate = value;
+	}
 
 }

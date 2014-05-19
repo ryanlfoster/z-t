@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -14,11 +13,13 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for BELayoutT1Type complex type.
+ * <p>
+ * Java class for BELayoutT1Type complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="BELayoutT1Type">
@@ -41,197 +42,163 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "BELayoutT1Type", propOrder = {
-    "imgHeroTaglineImage",
-    "stfBodyHeader",
-    "stfSubbodyheader",
-    "conFeatureContent",
-    "conCarousel",
-    "conBottomContainer"
-})
+@XmlType(name = "BELayoutT1Type", propOrder = { "imgHeroTaglineImage", "stfBodyHeader", "stfSubbodyheader",
+	"conFeatureContent", "conCarousel", "conBottomContainer" })
 public class BELayoutT1Type {
 
-    @XmlElement(name = "img_HeroTaglineImage", required = true)
-    protected String imgHeroTaglineImage;
-    @XmlElement(name = "stf_bodyHeader", required = true)
-    protected String stfBodyHeader;
-    @XmlElement(name = "stf_subbodyheader", required = true)
-    protected String stfSubbodyheader;
-    @XmlElement(name = "con_featureContent", required = true)
-    protected ConFeatureContentType conFeatureContent;
-    @XmlElement(name = "con_carousel", required = true)
-    protected ConCarouselType2 conCarousel;
-    @XmlElement(name = "con_bottomContainer")
-    protected ConBottomContainerType conBottomContainer;
-    @XmlAttribute(name = "isTemplate")
-    protected Byte isTemplate;
+	@XmlElement(name = "img_HeroTaglineImage", required = true)
+	protected String imgHeroTaglineImage;
+	@XmlElement(name = "stf_bodyHeader", required = true)
+	protected String stfBodyHeader;
+	@XmlElement(name = "stf_subbodyheader", required = true)
+	protected String stfSubbodyheader;
+	@XmlElement(name = "con_featureContent", required = true)
+	protected ConFeatureContentType conFeatureContent;
+	@XmlElement(name = "con_carousel", required = true)
+	protected ConCarouselType2 conCarousel;
+	@XmlElement(name = "con_bottomContainer")
+	protected ConBottomContainerType conBottomContainer;
+	@XmlAttribute(name = "isTemplate")
+	protected Byte isTemplate;
 
-    /**
-     * Gets the value of the imgHeroTaglineImage property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getImgHeroTaglineImage() {
-        return imgHeroTaglineImage;
-    }
+	/**
+	 * Gets the value of the imgHeroTaglineImage property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getImgHeroTaglineImage() {
+		return imgHeroTaglineImage;
+	}
 
-    /**
-     * Sets the value of the imgHeroTaglineImage property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setImgHeroTaglineImage(String value) {
-        this.imgHeroTaglineImage = value;
-    }
+	/**
+	 * Sets the value of the imgHeroTaglineImage property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setImgHeroTaglineImage(String value) {
+		this.imgHeroTaglineImage = value;
+	}
 
-    /**
-     * Gets the value of the stfBodyHeader property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfBodyHeader() {
-        return stfBodyHeader;
-    }
+	/**
+	 * Gets the value of the stfBodyHeader property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfBodyHeader() {
+		return stfBodyHeader;
+	}
 
-    /**
-     * Sets the value of the stfBodyHeader property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfBodyHeader(String value) {
-        this.stfBodyHeader = value;
-    }
+	/**
+	 * Sets the value of the stfBodyHeader property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfBodyHeader(String value) {
+		this.stfBodyHeader = value;
+	}
 
-    /**
-     * Gets the value of the stfSubbodyheader property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfSubbodyheader() {
-        return stfSubbodyheader;
-    }
+	/**
+	 * Gets the value of the stfSubbodyheader property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfSubbodyheader() {
+		return stfSubbodyheader;
+	}
 
-    /**
-     * Sets the value of the stfSubbodyheader property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfSubbodyheader(String value) {
-        this.stfSubbodyheader = value;
-    }
+	/**
+	 * Sets the value of the stfSubbodyheader property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfSubbodyheader(String value) {
+		this.stfSubbodyheader = value;
+	}
 
-    /**
-     * Gets the value of the conFeatureContent property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link ConFeatureContentType }
-     *     
-     */
-    public ConFeatureContentType getConFeatureContent() {
-        return conFeatureContent;
-    }
+	/**
+	 * Gets the value of the conFeatureContent property.
+	 * 
+	 * @return possible object is {@link ConFeatureContentType }
+	 * 
+	 */
+	public ConFeatureContentType getConFeatureContent() {
+		return conFeatureContent;
+	}
 
-    /**
-     * Sets the value of the conFeatureContent property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link ConFeatureContentType }
-     *     
-     */
-    public void setConFeatureContent(ConFeatureContentType value) {
-        this.conFeatureContent = value;
-    }
+	/**
+	 * Sets the value of the conFeatureContent property.
+	 * 
+	 * @param value allowed object is {@link ConFeatureContentType }
+	 * 
+	 */
+	public void setConFeatureContent(ConFeatureContentType value) {
+		this.conFeatureContent = value;
+	}
 
-    /**
-     * Gets the value of the conCarousel property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link ConCarouselType2 }
-     *     
-     */
-    public ConCarouselType2 getConCarousel() {
-        return conCarousel;
-    }
+	/**
+	 * Gets the value of the conCarousel property.
+	 * 
+	 * @return possible object is {@link ConCarouselType2 }
+	 * 
+	 */
+	public ConCarouselType2 getConCarousel() {
+		return conCarousel;
+	}
 
-    /**
-     * Sets the value of the conCarousel property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link ConCarouselType2 }
-     *     
-     */
-    public void setConCarousel(ConCarouselType2 value) {
-        this.conCarousel = value;
-    }
+	/**
+	 * Sets the value of the conCarousel property.
+	 * 
+	 * @param value allowed object is {@link ConCarouselType2 }
+	 * 
+	 */
+	public void setConCarousel(ConCarouselType2 value) {
+		this.conCarousel = value;
+	}
 
-    /**
-     * Gets the value of the conBottomContainer property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link ConBottomContainerType }
-     *     
-     */
-    public ConBottomContainerType getConBottomContainer() {
-        return conBottomContainer;
-    }
+	/**
+	 * Gets the value of the conBottomContainer property.
+	 * 
+	 * @return possible object is {@link ConBottomContainerType }
+	 * 
+	 */
+	public ConBottomContainerType getConBottomContainer() {
+		return conBottomContainer;
+	}
 
-    /**
-     * Sets the value of the conBottomContainer property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link ConBottomContainerType }
-     *     
-     */
-    public void setConBottomContainer(ConBottomContainerType value) {
-        this.conBottomContainer = value;
-    }
+	/**
+	 * Sets the value of the conBottomContainer property.
+	 * 
+	 * @param value allowed object is {@link ConBottomContainerType }
+	 * 
+	 */
+	public void setConBottomContainer(ConBottomContainerType value) {
+		this.conBottomContainer = value;
+	}
 
-    /**
-     * Gets the value of the isTemplate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Byte }
-     *     
-     */
-    public Byte getIsTemplate() {
-        return isTemplate;
-    }
+	/**
+	 * Gets the value of the isTemplate property.
+	 * 
+	 * @return possible object is {@link Byte }
+	 * 
+	 */
+	public Byte getIsTemplate() {
+		return isTemplate;
+	}
 
-    /**
-     * Sets the value of the isTemplate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Byte }
-     *     
-     */
-    public void setIsTemplate(Byte value) {
-        this.isTemplate = value;
-    }
+	/**
+	 * Sets the value of the isTemplate property.
+	 * 
+	 * @param value allowed object is {@link Byte }
+	 * 
+	 */
+	public void setIsTemplate(Byte value) {
+		this.isTemplate = value;
+	}
 
 }

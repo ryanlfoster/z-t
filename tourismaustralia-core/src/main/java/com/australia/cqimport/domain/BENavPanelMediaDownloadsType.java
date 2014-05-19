@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -14,11 +13,13 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for BENavPanelMediaDownloadsType complex type.
+ * <p>
+ * Java class for BENavPanelMediaDownloadsType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="BENavPanelMediaDownloadsType">
@@ -36,62 +37,52 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "BENavPanelMediaDownloadsType", propOrder = {
-    "lstItems"
-})
+@XmlType(name = "BENavPanelMediaDownloadsType", propOrder = { "lstItems" })
 public class BENavPanelMediaDownloadsType {
 
-    @XmlElement(name = "lst_Items", required = true)
-    protected LstItemsType lstItems;
-    @XmlAttribute(name = "isTemplate")
-    protected Byte isTemplate;
+	@XmlElement(name = "lst_Items", required = true)
+	protected LstItemsType lstItems;
+	@XmlAttribute(name = "isTemplate")
+	protected Byte isTemplate;
 
-    /**
-     * Gets the value of the lstItems property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link LstItemsType }
-     *     
-     */
-    public LstItemsType getLstItems() {
-        return lstItems;
-    }
+	/**
+	 * Gets the value of the lstItems property.
+	 * 
+	 * @return possible object is {@link LstItemsType }
+	 * 
+	 */
+	public LstItemsType getLstItems() {
+		return lstItems;
+	}
 
-    /**
-     * Sets the value of the lstItems property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link LstItemsType }
-     *     
-     */
-    public void setLstItems(LstItemsType value) {
-        this.lstItems = value;
-    }
+	/**
+	 * Sets the value of the lstItems property.
+	 * 
+	 * @param value allowed object is {@link LstItemsType }
+	 * 
+	 */
+	public void setLstItems(LstItemsType value) {
+		this.lstItems = value;
+	}
 
-    /**
-     * Gets the value of the isTemplate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Byte }
-     *     
-     */
-    public Byte getIsTemplate() {
-        return isTemplate;
-    }
+	/**
+	 * Gets the value of the isTemplate property.
+	 * 
+	 * @return possible object is {@link Byte }
+	 * 
+	 */
+	public Byte getIsTemplate() {
+		return isTemplate;
+	}
 
-    /**
-     * Sets the value of the isTemplate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Byte }
-     *     
-     */
-    public void setIsTemplate(Byte value) {
-        this.isTemplate = value;
-    }
+	/**
+	 * Sets the value of the isTemplate property.
+	 * 
+	 * @param value allowed object is {@link Byte }
+	 * 
+	 */
+	public void setIsTemplate(Byte value) {
+		this.isTemplate = value;
+	}
 
 }

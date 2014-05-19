@@ -18,20 +18,23 @@ CQ_Analytics.ClientContextMgr.addListener("storesinitialize", function (e) {
 		
 		if (share_type=='share') {
 		    $.getJSON("/bin/favorites/share/guid", function (data) {
-		     	$this.attr('data-shareUrl', share_url.replace("{lang}", country).replace("{id}", data.shareId));
+		     	$this.attr('data-shareUrl', share_url.replace("{id}", data.shareId));
 		    });
+		    share_url.replace("{lang}", country);
 		}
 		
 		var socnet_json = $.parseJSON(sharethis_json);
 		var country_found = false;
 		// try to find a country specific list of social networks
-		$.each(socnet_json.shareThis, function(idx, obj) {
-			if(obj.country == country)  {
-				country_found = true;
-				addShareThisButtons(obj, share_url, page_title, page_desc);
-				return false;
-			}
-		});
+		if(socnet_json && socnet_json.shareThis) {
+            $.each(socnet_json.shareThis, function (idx, obj) {
+                if (obj.country == country) {
+                    country_found = true;
+                    addShareThisButtons(obj, share_url, page_title, page_desc);
+                    return false;
+                }
+            });
+        }
 		// use the default set if country specific is not found
 		if (!country_found) {
 			addShareThisButtons(socnet_json.defaultConfig, share_url, page_title, page_desc);
@@ -45,15 +48,11 @@ CQ_Analytics.ClientContextMgr.addListener("storesinitialize", function (e) {
 		$(".shareicons ul .email-bubble").after("<li class='btn-bubble'>" + 
 				"<span class='btn-bubble-button st_" + socnet1 + "_large' displayText='" 
 				+ socnet1 + "' st_url='" + url + "' st_title='" + title + "' st_summary='" + desc + "'>" +
-				"<img class='btn-bubble-std' src='/etc/designs/tourismaustralia/clientlibs/imgs/icons/" + socnet1 + "_outline.png' alt=" + obj.socialNetwork1 + ">" +
-				"<img class='btn-bubble-active' src='/etc/designs/tourismaustralia/clientlibs/imgs/icons/" + socnet1 + ".png' alt=" + obj.socialNetwork1 + ">" +
 		"</span></li>");
 
 		$(".shareicons ul .sharethis-bubble").before("<li class='btn-bubble'>" + 
 				"<span class='btn-bubble-button st_" + socnet2 + "_large' displayText='" 
 				+ socnet2 + "' st_url='" + url + "' st_title='" + title + "' st_summary='" + desc + "'>" +
-				"<img class='btn-bubble-std' src='/etc/designs/tourismaustralia/clientlibs/imgs/icons/" + socnet2 + "_outline.png' alt=" + obj.socialNetwork2 + ">" +
-				"<img class='btn-bubble-active' src='/etc/designs/tourismaustralia/clientlibs/imgs/icons/" + socnet2 + ".png' alt=" + obj.socialNetwork2 + ">" +
 		"</span></li>");
 		
 		if (socnet1 == 'twitter' || socnet2 == 'twitter') {

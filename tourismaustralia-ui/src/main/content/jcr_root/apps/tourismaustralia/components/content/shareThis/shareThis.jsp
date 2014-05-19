@@ -21,25 +21,23 @@
 		    <ul> 
 		    	<!-- Email icon always shows -->
 			    <li class="btn-bubble email-bubble">
-					<span class="btn-bubble-button st_email_large" displayText="Email" st_url="${sharethis.shareUrl}" st_title="${global.title}" st_summary="${global.description}">
-			            <img class="btn-bubble-std" src="/etc/designs/tourismaustralia/clientlibs/imgs/icons/email_outline.png" alt="Email icon">
-			            <img class="btn-bubble-active" src="/etc/designs/tourismaustralia/clientlibs/imgs/icons/email.png" alt="Email icon">
-					</span>
+					<span class="btn-bubble-button st_email_large" displayText="Email" 
+						st_url="${sharethis.shareUrl}" st_title="${global.title}" st_summary="${global.description}"></span>
 				</li>
 		    
 		    	<!-- ShareThis icons inserted here via javascript (see shareThis.js) --> 
 
 		    	<!-- ShareThis icon always shows -->
 			    <li class="btn-bubble sharethis-bubble">
-					<span class="btn-bubble-button st_sharethis_large" displayText="ShareThis" st_url="${sharethis.shareUrl}" st_title="${global.title}" st_summary="${global.description}">
-			            <img class="btn-bubble-std" src="/etc/designs/tourismaustralia/clientlibs/imgs/icons/sharethis_outline.png" alt="ShareThis icon">
-			            <img class="btn-bubble-active" src="/etc/designs/tourismaustralia/clientlibs/imgs/icons/sharethis.png" alt="ShareThis icon">
-					</span>
+					<span class="btn-bubble-button st_sharethis_large" displayText="ShareThis" 
+						st_url="${sharethis.shareUrl}" st_title="${global.title}" st_summary="${global.description}"></span>
 				</li>
-		    	<!-- Facebok Like always shows -->
+
+		    	<!-- Facebook Like always shows -->
 				<li class="social-fblike">
 					<span class="st_fblike_large" displayText="Facebook Like" st_url="${sharethis.shareUrl}"></span>
 				</li>
+				
 			</ul>		    
 		</div>
 </div>

@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -14,11 +13,13 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for IntroductionMessageHolderType complex type.
+ * <p>
+ * Java class for IntroductionMessageHolderType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="IntroductionMessageHolderType">
@@ -37,89 +38,74 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "IntroductionMessageHolderType", propOrder = {
-    "ancManagementPage",
-    "conHomepageIntros"
-})
+@XmlType(name = "IntroductionMessageHolderType", propOrder = { "ancManagementPage", "conHomepageIntros" })
 public class IntroductionMessageHolderType {
 
-    @XmlElement(name = "anc_ManagementPage", required = true)
-    protected String ancManagementPage;
-    @XmlElement(name = "con_HomepageIntros", required = true)
-    protected ConHomepageIntrosType conHomepageIntros;
-    @XmlAttribute(name = "isTemplate")
-    protected Byte isTemplate;
+	@XmlElement(name = "anc_ManagementPage", required = true)
+	protected String ancManagementPage;
+	@XmlElement(name = "con_HomepageIntros", required = true)
+	protected ConHomepageIntrosType conHomepageIntros;
+	@XmlAttribute(name = "isTemplate")
+	protected Byte isTemplate;
 
-    /**
-     * Gets the value of the ancManagementPage property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getAncManagementPage() {
-        return ancManagementPage;
-    }
+	/**
+	 * Gets the value of the ancManagementPage property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getAncManagementPage() {
+		return ancManagementPage;
+	}
 
-    /**
-     * Sets the value of the ancManagementPage property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setAncManagementPage(String value) {
-        this.ancManagementPage = value;
-    }
+	/**
+	 * Sets the value of the ancManagementPage property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setAncManagementPage(String value) {
+		this.ancManagementPage = value;
+	}
 
-    /**
-     * Gets the value of the conHomepageIntros property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link ConHomepageIntrosType }
-     *     
-     */
-    public ConHomepageIntrosType getConHomepageIntros() {
-        return conHomepageIntros;
-    }
+	/**
+	 * Gets the value of the conHomepageIntros property.
+	 * 
+	 * @return possible object is {@link ConHomepageIntrosType }
+	 * 
+	 */
+	public ConHomepageIntrosType getConHomepageIntros() {
+		return conHomepageIntros;
+	}
 
-    /**
-     * Sets the value of the conHomepageIntros property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link ConHomepageIntrosType }
-     *     
-     */
-    public void setConHomepageIntros(ConHomepageIntrosType value) {
-        this.conHomepageIntros = value;
-    }
+	/**
+	 * Sets the value of the conHomepageIntros property.
+	 * 
+	 * @param value allowed object is {@link ConHomepageIntrosType }
+	 * 
+	 */
+	public void setConHomepageIntros(ConHomepageIntrosType value) {
+		this.conHomepageIntros = value;
+	}
 
-    /**
-     * Gets the value of the isTemplate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Byte }
-     *     
-     */
-    public Byte getIsTemplate() {
-        return isTemplate;
-    }
+	/**
+	 * Gets the value of the isTemplate property.
+	 * 
+	 * @return possible object is {@link Byte }
+	 * 
+	 */
+	public Byte getIsTemplate() {
+		return isTemplate;
+	}
 
-    /**
-     * Sets the value of the isTemplate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Byte }
-     *     
-     */
-    public void setIsTemplate(Byte value) {
-        this.isTemplate = value;
-    }
+	/**
+	 * Sets the value of the isTemplate property.
+	 * 
+	 * @param value allowed object is {@link Byte }
+	 * 
+	 */
+	public void setIsTemplate(Byte value) {
+		this.isTemplate = value;
+	}
 
 }

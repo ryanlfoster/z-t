@@ -14,10 +14,16 @@ import com.citytechinc.cq.component.annotations.Listener;
 import com.citytechinc.cq.component.annotations.Tab;
 import com.citytechinc.cq.component.annotations.widgets.MultiField;
 import com.citytechinc.cq.component.annotations.widgets.PathField;
+import com.citytechinc.cq.component.annotations.widgets.RichTextEditor;
 import com.citytechinc.cq.component.annotations.widgets.TextArea;
+import com.citytechinc.cq.component.annotations.widgets.rte.Format;
+import com.citytechinc.cq.component.annotations.widgets.rte.Justify;
+import com.citytechinc.cq.component.annotations.widgets.rte.Lists;
+import com.citytechinc.cq.component.annotations.widgets.rte.Style;
+import com.citytechinc.cq.component.annotations.widgets.rte.Styles;
 
 @Component(disableTargeting = true, group = "Food and Wine", basePath = "jcr_root/apps/foodandwine/components", value = "Form", tabs = {
-	@Tab(title = "Email configuration"), @Tab(title = "Category Description") }, listeners = {
+	@Tab(title = "Email configuration"), @Tab(title = "Category Description") ,@Tab(title="Checkbox Description")}, listeners = {
 	@Listener(name = "aftercopy", value = "REFRESH_PAGE"), @Listener(name = "afterdelete", value = "REFRESH_PAGE"),
 	@Listener(name = "afteredit", value = "REFRESH_PAGE"), @Listener(name = "afterinsert", value = "REFRESH_PAGE") })
 public class Form {
@@ -68,6 +74,16 @@ public class Form {
 
 	@DialogField(fieldLabel = "Seafood Description", tab = 2)
 	private final String seafoodDescription;
+	
+	@DialogField(fieldLabel="Title", tab=3)
+	private String checkboxTitle;
+	
+	@DialogField(fieldLabel="Description", tab=3)
+	@RichTextEditor(lists = @Lists(indent = false, ordered = false, outdent = false, unordered = false), justify = @Justify(justifycenter = false, justifyleft = false, justifyright = false), styles = @Styles(styles = @Style(cssName = "checkbox-description", text = "checkbos description")), format = @Format(bold = true, underline = true, italic = false))
+	private  String checkboxDescription;
+	
+	@DialogField(fieldLabel="Validation Message",tab=3)
+	private String validationMessage;
 
 	private final String formPath;
 
@@ -94,6 +110,18 @@ public class Form {
 		peopleDescription = properties.get("peopleDescription", "People");
 		experiencesDescription = properties.get("experiencesDescription", "Experiences");
 		seafoodDescription = properties.get("seafoodDescription", "Seafood");
+		
+		checkboxTitle=properties.get("checkboxTitle",StringUtils.EMPTY);
+		checkboxDescription=properties.get("checkboxDescription",StringUtils.EMPTY);
+		validationMessage=properties.get("validationMessage",StringUtils.EMPTY);
+	}
+
+	public String getValidationMessage() {
+		return validationMessage;
+	}
+
+	public String getCheckboxTitle() {
+		return checkboxTitle;
 	}
 
 	public String getRestaurantDescription() {
@@ -155,5 +183,10 @@ public class Form {
 	public String getTermsLink() {
 		return termsLink;
 	}
+	
+	public String getCheckboxDescription() {
+		return checkboxDescription;
+	}
+
 
 }

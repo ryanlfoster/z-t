@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -14,11 +13,13 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for GenericHTMLType complex type.
+ * <p>
+ * Java class for GenericHTMLType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="GenericHTMLType">
@@ -37,89 +38,74 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "GenericHTMLType", propOrder = {
-    "txtCustomStyling",
-    "txtMain"
-})
+@XmlType(name = "GenericHTMLType", propOrder = { "txtCustomStyling", "txtMain" })
 public class GenericHTMLType {
 
-    @XmlElement(name = "txt_custom_styling", required = true)
-    protected String txtCustomStyling;
-    @XmlElement(name = "txt_main", required = true)
-    protected String txtMain;
-    @XmlAttribute(name = "isTemplate")
-    protected Byte isTemplate;
+	@XmlElement(name = "txt_custom_styling", required = true)
+	protected String txtCustomStyling;
+	@XmlElement(name = "txt_main", required = true)
+	protected String txtMain;
+	@XmlAttribute(name = "isTemplate")
+	protected Byte isTemplate;
 
-    /**
-     * Gets the value of the txtCustomStyling property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getTxtCustomStyling() {
-        return txtCustomStyling;
-    }
+	/**
+	 * Gets the value of the txtCustomStyling property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getTxtCustomStyling() {
+		return txtCustomStyling;
+	}
 
-    /**
-     * Sets the value of the txtCustomStyling property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setTxtCustomStyling(String value) {
-        this.txtCustomStyling = value;
-    }
+	/**
+	 * Sets the value of the txtCustomStyling property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setTxtCustomStyling(String value) {
+		this.txtCustomStyling = value;
+	}
 
-    /**
-     * Gets the value of the txtMain property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getTxtMain() {
-        return txtMain;
-    }
+	/**
+	 * Gets the value of the txtMain property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getTxtMain() {
+		return txtMain;
+	}
 
-    /**
-     * Sets the value of the txtMain property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setTxtMain(String value) {
-        this.txtMain = value;
-    }
+	/**
+	 * Sets the value of the txtMain property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setTxtMain(String value) {
+		this.txtMain = value;
+	}
 
-    /**
-     * Gets the value of the isTemplate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Byte }
-     *     
-     */
-    public Byte getIsTemplate() {
-        return isTemplate;
-    }
+	/**
+	 * Gets the value of the isTemplate property.
+	 * 
+	 * @return possible object is {@link Byte }
+	 * 
+	 */
+	public Byte getIsTemplate() {
+		return isTemplate;
+	}
 
-    /**
-     * Sets the value of the isTemplate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Byte }
-     *     
-     */
-    public void setIsTemplate(Byte value) {
-        this.isTemplate = value;
-    }
+	/**
+	 * Sets the value of the isTemplate property.
+	 * 
+	 * @param value allowed object is {@link Byte }
+	 * 
+	 */
+	public void setIsTemplate(Byte value) {
+		this.isTemplate = value;
+	}
 
 }

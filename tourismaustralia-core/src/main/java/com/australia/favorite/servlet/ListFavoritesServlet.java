@@ -21,7 +21,9 @@ import com.fasterxml.jackson.core.JsonFactory;
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-@SlingServlet(paths = "/bin/favorites/list", label = "List Favorites Servlet", methods = "GET", description = "Servlet to List Favorites", extensions = "json")
+@SlingServlet(paths = "/bin/favorites/list", label = "List Favorites Servlet", methods = "GET",
+	description = "Servlet to List Favorites", extensions = "json",
+	name = "com.australia.favorite.servlet.ListFavoritesServlet")
 public class ListFavoritesServlet extends SlingAllMethodsServlet {
 	private static final Logger LOG = LoggerFactory.getLogger(ListFavoritesServlet.class);
 	private static final JsonFactory FACTORY = new JsonFactory();

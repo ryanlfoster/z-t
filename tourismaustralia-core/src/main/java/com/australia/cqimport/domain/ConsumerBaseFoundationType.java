@@ -5,12 +5,12 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
+
 import javax.xml.bind.JAXBElement;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -21,11 +21,13 @@ import javax.xml.bind.annotation.XmlElementRefs;
 import javax.xml.bind.annotation.XmlMixed;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for ConsumerBaseFoundationType complex type.
+ * <p>
+ * Java class for ConsumerBaseFoundationType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="ConsumerBaseFoundationType">
@@ -101,1126 +103,960 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "ConsumerBaseFoundationType", propOrder = {
-    "breadcrumb",
-    "imgBackground",
-    "hdlTitle",
-    "imgBanner",
-    "imgSearchThumbnail",
-    "imgThumbnail",
-    "optHideInBreadcrumbs",
-    "optHidePage",
-    "optHideTitle",
-    "optHideInSitemap",
-    "optIncludeVideo",
-    "optIsHubPage",
-    "optIsNewWindow",
-    "optPageLayout",
-    "optPartnerLead",
-    "stfDescription",
-    "stfExcludedCountries",
-    "stfHideInXmlSitemap",
-    "stfImageLocation",
-    "stfIntroTitle",
-    "stfIsExternalSiteArticle",
-    "stfIsMobile",
-    "stfKeywords",
-    "stfLinkLearnMore",
-    "stfNavigationTagLine",
-    "stfPageHeading",
-    "stfTargetedCountries",
-    "stfTrackingTitle",
-    "taTitle",
-    "txtIntro",
-    "txtMobileContentOnly",
-    "txtSpotlightTag",
-    "txtTeaser",
-    "conBody",
-    "lstSubpages"
-})
+@XmlType(name = "ConsumerBaseFoundationType", propOrder = { "breadcrumb", "imgBackground", "hdlTitle", "imgBanner",
+	"imgSearchThumbnail", "imgThumbnail", "optHideInBreadcrumbs", "optHidePage", "optHideTitle", "optHideInSitemap",
+	"optIncludeVideo", "optIsHubPage", "optIsNewWindow", "optPageLayout", "optPartnerLead", "stfDescription",
+	"stfExcludedCountries", "stfHideInXmlSitemap", "stfImageLocation", "stfIntroTitle", "stfIsExternalSiteArticle",
+	"stfIsMobile", "stfKeywords", "stfLinkLearnMore", "stfNavigationTagLine", "stfPageHeading", "stfTargetedCountries",
+	"stfTrackingTitle", "taTitle", "txtIntro", "txtMobileContentOnly", "txtSpotlightTag", "txtTeaser", "conBody",
+	"lstSubpages" })
 public class ConsumerBaseFoundationType {
 
-    protected BreadcrumbType breadcrumb;
-    @XmlElement(name = "img_background", required = true)
-    protected String imgBackground;
-    @XmlElement(name = "hdl_Title", required = true)
-    protected String hdlTitle;
-    @XmlElement(name = "img_Banner", required = true)
-    protected String imgBanner;
-    @XmlElement(name = "img_SearchThumbnail", required = true)
-    protected String imgSearchThumbnail;
-    @XmlElement(name = "img_Thumbnail", required = true)
-    protected String imgThumbnail;
-    @XmlElement(name = "opt_HideInBreadcrumbs", required = true)
-    protected String optHideInBreadcrumbs;
-    @XmlElement(name = "opt_HidePage", required = true)
-    protected String optHidePage;
-    @XmlElement(name = "opt_hideTitle")
-    protected byte optHideTitle;
-    @XmlElement(name = "opt_hide_in_sitemap", required = true)
-    protected String optHideInSitemap;
-    @XmlElement(name = "opt_IncludeVideo")
-    protected byte optIncludeVideo;
-    @XmlElement(name = "opt_isHubPage")
-    protected byte optIsHubPage;
-    @XmlElement(name = "opt_isNewWindow", required = true)
-    protected String optIsNewWindow;
-    @XmlElement(name = "opt_PageLayout", required = true)
-    protected String optPageLayout;
-    @XmlElement(name = "opt_PartnerLead", required = true)
-    protected String optPartnerLead;
-    @XmlElement(name = "stf_description", required = true)
-    protected String stfDescription;
-    @XmlElement(name = "stf_ExcludedCountries", required = true)
-    protected String stfExcludedCountries;
-    @XmlElement(name = "stf_hideInXmlSitemap", required = true)
-    protected String stfHideInXmlSitemap;
-    @XmlElement(name = "stf_ImageLocation", required = true)
-    protected String stfImageLocation;
-    @XmlElement(name = "stf_intro_title", required = true)
-    protected String stfIntroTitle;
-    @XmlElement(name = "stf_IsExternalSiteArticle", required = true)
-    protected String stfIsExternalSiteArticle;
-    @XmlElement(name = "stf_IsMobile", required = true)
-    protected String stfIsMobile;
-    @XmlElement(name = "stf_keywords", required = true)
-    protected String stfKeywords;
-    @XmlElement(name = "stf_LinkLearnMore", required = true)
-    protected String stfLinkLearnMore;
-    @XmlElement(name = "stf_NavigationTagLine", required = true)
-    protected String stfNavigationTagLine;
-    @XmlElement(name = "stf_PageHeading", required = true)
-    protected String stfPageHeading;
-    @XmlElement(name = "stf_TargetedCountries", required = true)
-    protected String stfTargetedCountries;
-    @XmlElement(name = "stf_TrackingTitle", required = true)
-    protected String stfTrackingTitle;
-    @XmlElement(name = "TA_Title", required = true)
-    protected String taTitle;
-    @XmlElement(name = "txt_Intro", required = true)
-    protected String txtIntro;
-    @XmlElement(name = "txt_MobileContentOnly", required = true)
-    protected String txtMobileContentOnly;
-    @XmlElement(name = "txt_SpotlightTag", required = true)
-    protected String txtSpotlightTag;
-    @XmlElement(name = "txt_Teaser", required = true)
-    protected String txtTeaser;
-    @XmlElement(name = "con_Body", required = true)
-    protected ConBodyType conBody;
-    @XmlElement(name = "lst_Subpages", required = true)
-    protected ConsumerBaseFoundationType.LstSubpages lstSubpages;
-    @XmlAttribute(name = "pageID")
-    protected Short pageID;
-    @XmlAttribute(name = "isTemplate")
-    protected Byte isTemplate;
-
-    /**
-     * Gets the value of the breadcrumb property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link BreadcrumbType }
-     *     
-     */
-    public BreadcrumbType getBreadcrumb() {
-        return breadcrumb;
-    }
-
-    /**
-     * Sets the value of the breadcrumb property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link BreadcrumbType }
-     *     
-     */
-    public void setBreadcrumb(BreadcrumbType value) {
-        this.breadcrumb = value;
-    }
-
-    /**
-     * Gets the value of the imgBackground property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getImgBackground() {
-        return imgBackground;
-    }
-
-    /**
-     * Sets the value of the imgBackground property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setImgBackground(String value) {
-        this.imgBackground = value;
-    }
-
-    /**
-     * Gets the value of the hdlTitle property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getHdlTitle() {
-        return hdlTitle;
-    }
-
-    /**
-     * Sets the value of the hdlTitle property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setHdlTitle(String value) {
-        this.hdlTitle = value;
-    }
-
-    /**
-     * Gets the value of the imgBanner property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getImgBanner() {
-        return imgBanner;
-    }
-
-    /**
-     * Sets the value of the imgBanner property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setImgBanner(String value) {
-        this.imgBanner = value;
-    }
-
-    /**
-     * Gets the value of the imgSearchThumbnail property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getImgSearchThumbnail() {
-        return imgSearchThumbnail;
-    }
-
-    /**
-     * Sets the value of the imgSearchThumbnail property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setImgSearchThumbnail(String value) {
-        this.imgSearchThumbnail = value;
-    }
-
-    /**
-     * Gets the value of the imgThumbnail property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getImgThumbnail() {
-        return imgThumbnail;
-    }
-
-    /**
-     * Sets the value of the imgThumbnail property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setImgThumbnail(String value) {
-        this.imgThumbnail = value;
-    }
-
-    /**
-     * Gets the value of the optHideInBreadcrumbs property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getOptHideInBreadcrumbs() {
-        return optHideInBreadcrumbs;
-    }
-
-    /**
-     * Sets the value of the optHideInBreadcrumbs property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setOptHideInBreadcrumbs(String value) {
-        this.optHideInBreadcrumbs = value;
-    }
-
-    /**
-     * Gets the value of the optHidePage property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getOptHidePage() {
-        return optHidePage;
-    }
-
-    /**
-     * Sets the value of the optHidePage property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setOptHidePage(String value) {
-        this.optHidePage = value;
-    }
-
-    /**
-     * Gets the value of the optHideTitle property.
-     * 
-     */
-    public byte getOptHideTitle() {
-        return optHideTitle;
-    }
-
-    /**
-     * Sets the value of the optHideTitle property.
-     * 
-     */
-    public void setOptHideTitle(byte value) {
-        this.optHideTitle = value;
-    }
-
-    /**
-     * Gets the value of the optHideInSitemap property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getOptHideInSitemap() {
-        return optHideInSitemap;
-    }
-
-    /**
-     * Sets the value of the optHideInSitemap property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setOptHideInSitemap(String value) {
-        this.optHideInSitemap = value;
-    }
-
-    /**
-     * Gets the value of the optIncludeVideo property.
-     * 
-     */
-    public byte getOptIncludeVideo() {
-        return optIncludeVideo;
-    }
-
-    /**
-     * Sets the value of the optIncludeVideo property.
-     * 
-     */
-    public void setOptIncludeVideo(byte value) {
-        this.optIncludeVideo = value;
-    }
-
-    /**
-     * Gets the value of the optIsHubPage property.
-     * 
-     */
-    public byte getOptIsHubPage() {
-        return optIsHubPage;
-    }
-
-    /**
-     * Sets the value of the optIsHubPage property.
-     * 
-     */
-    public void setOptIsHubPage(byte value) {
-        this.optIsHubPage = value;
-    }
-
-    /**
-     * Gets the value of the optIsNewWindow property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getOptIsNewWindow() {
-        return optIsNewWindow;
-    }
-
-    /**
-     * Sets the value of the optIsNewWindow property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setOptIsNewWindow(String value) {
-        this.optIsNewWindow = value;
-    }
-
-    /**
-     * Gets the value of the optPageLayout property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getOptPageLayout() {
-        return optPageLayout;
-    }
-
-    /**
-     * Sets the value of the optPageLayout property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setOptPageLayout(String value) {
-        this.optPageLayout = value;
-    }
-
-    /**
-     * Gets the value of the optPartnerLead property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getOptPartnerLead() {
-        return optPartnerLead;
-    }
-
-    /**
-     * Sets the value of the optPartnerLead property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setOptPartnerLead(String value) {
-        this.optPartnerLead = value;
-    }
-
-    /**
-     * Gets the value of the stfDescription property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfDescription() {
-        return stfDescription;
-    }
-
-    /**
-     * Sets the value of the stfDescription property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfDescription(String value) {
-        this.stfDescription = value;
-    }
-
-    /**
-     * Gets the value of the stfExcludedCountries property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfExcludedCountries() {
-        return stfExcludedCountries;
-    }
-
-    /**
-     * Sets the value of the stfExcludedCountries property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfExcludedCountries(String value) {
-        this.stfExcludedCountries = value;
-    }
-
-    /**
-     * Gets the value of the stfHideInXmlSitemap property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfHideInXmlSitemap() {
-        return stfHideInXmlSitemap;
-    }
-
-    /**
-     * Sets the value of the stfHideInXmlSitemap property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfHideInXmlSitemap(String value) {
-        this.stfHideInXmlSitemap = value;
-    }
-
-    /**
-     * Gets the value of the stfImageLocation property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfImageLocation() {
-        return stfImageLocation;
-    }
-
-    /**
-     * Sets the value of the stfImageLocation property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfImageLocation(String value) {
-        this.stfImageLocation = value;
-    }
-
-    /**
-     * Gets the value of the stfIntroTitle property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfIntroTitle() {
-        return stfIntroTitle;
-    }
-
-    /**
-     * Sets the value of the stfIntroTitle property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfIntroTitle(String value) {
-        this.stfIntroTitle = value;
-    }
-
-    /**
-     * Gets the value of the stfIsExternalSiteArticle property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfIsExternalSiteArticle() {
-        return stfIsExternalSiteArticle;
-    }
-
-    /**
-     * Sets the value of the stfIsExternalSiteArticle property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfIsExternalSiteArticle(String value) {
-        this.stfIsExternalSiteArticle = value;
-    }
-
-    /**
-     * Gets the value of the stfIsMobile property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfIsMobile() {
-        return stfIsMobile;
-    }
-
-    /**
-     * Sets the value of the stfIsMobile property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfIsMobile(String value) {
-        this.stfIsMobile = value;
-    }
-
-    /**
-     * Gets the value of the stfKeywords property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfKeywords() {
-        return stfKeywords;
-    }
-
-    /**
-     * Sets the value of the stfKeywords property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfKeywords(String value) {
-        this.stfKeywords = value;
-    }
-
-    /**
-     * Gets the value of the stfLinkLearnMore property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfLinkLearnMore() {
-        return stfLinkLearnMore;
-    }
-
-    /**
-     * Sets the value of the stfLinkLearnMore property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfLinkLearnMore(String value) {
-        this.stfLinkLearnMore = value;
-    }
-
-    /**
-     * Gets the value of the stfNavigationTagLine property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfNavigationTagLine() {
-        return stfNavigationTagLine;
-    }
-
-    /**
-     * Sets the value of the stfNavigationTagLine property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfNavigationTagLine(String value) {
-        this.stfNavigationTagLine = value;
-    }
-
-    /**
-     * Gets the value of the stfPageHeading property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfPageHeading() {
-        return stfPageHeading;
-    }
-
-    /**
-     * Sets the value of the stfPageHeading property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfPageHeading(String value) {
-        this.stfPageHeading = value;
-    }
-
-    /**
-     * Gets the value of the stfTargetedCountries property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfTargetedCountries() {
-        return stfTargetedCountries;
-    }
-
-    /**
-     * Sets the value of the stfTargetedCountries property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfTargetedCountries(String value) {
-        this.stfTargetedCountries = value;
-    }
-
-    /**
-     * Gets the value of the stfTrackingTitle property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfTrackingTitle() {
-        return stfTrackingTitle;
-    }
-
-    /**
-     * Sets the value of the stfTrackingTitle property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfTrackingTitle(String value) {
-        this.stfTrackingTitle = value;
-    }
-
-    /**
-     * Gets the value of the taTitle property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getTATitle() {
-        return taTitle;
-    }
-
-    /**
-     * Sets the value of the taTitle property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setTATitle(String value) {
-        this.taTitle = value;
-    }
-
-    /**
-     * Gets the value of the txtIntro property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getTxtIntro() {
-        return txtIntro;
-    }
-
-    /**
-     * Sets the value of the txtIntro property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setTxtIntro(String value) {
-        this.txtIntro = value;
-    }
-
-    /**
-     * Gets the value of the txtMobileContentOnly property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getTxtMobileContentOnly() {
-        return txtMobileContentOnly;
-    }
-
-    /**
-     * Sets the value of the txtMobileContentOnly property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setTxtMobileContentOnly(String value) {
-        this.txtMobileContentOnly = value;
-    }
-
-    /**
-     * Gets the value of the txtSpotlightTag property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getTxtSpotlightTag() {
-        return txtSpotlightTag;
-    }
-
-    /**
-     * Sets the value of the txtSpotlightTag property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setTxtSpotlightTag(String value) {
-        this.txtSpotlightTag = value;
-    }
-
-    /**
-     * Gets the value of the txtTeaser property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getTxtTeaser() {
-        return txtTeaser;
-    }
-
-    /**
-     * Sets the value of the txtTeaser property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setTxtTeaser(String value) {
-        this.txtTeaser = value;
-    }
-
-    /**
-     * Gets the value of the conBody property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link ConBodyType }
-     *     
-     */
-    public ConBodyType getConBody() {
-        return conBody;
-    }
-
-    /**
-     * Sets the value of the conBody property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link ConBodyType }
-     *     
-     */
-    public void setConBody(ConBodyType value) {
-        this.conBody = value;
-    }
-
-    /**
-     * Gets the value of the lstSubpages property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link ConsumerBaseFoundationType.LstSubpages }
-     *     
-     */
-    public ConsumerBaseFoundationType.LstSubpages getLstSubpages() {
-        return lstSubpages;
-    }
-
-    /**
-     * Sets the value of the lstSubpages property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link ConsumerBaseFoundationType.LstSubpages }
-     *     
-     */
-    public void setLstSubpages(ConsumerBaseFoundationType.LstSubpages value) {
-        this.lstSubpages = value;
-    }
-
-    /**
-     * Gets the value of the pageID property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Short }
-     *     
-     */
-    public Short getPageID() {
-        return pageID;
-    }
-
-    /**
-     * Sets the value of the pageID property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Short }
-     *     
-     */
-    public void setPageID(Short value) {
-        this.pageID = value;
-    }
-
-    /**
-     * Gets the value of the isTemplate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Byte }
-     *     
-     */
-    public Byte getIsTemplate() {
-        return isTemplate;
-    }
-
-    /**
-     * Sets the value of the isTemplate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Byte }
-     *     
-     */
-    public void setIsTemplate(Byte value) {
-        this.isTemplate = value;
-    }
-
-
-    /**
-     * <p>Java class for anonymous complex type.
-     * 
-     * <p>The following schema fragment specifies the expected content contained within this class.
-     * 
-     * <pre>
-     * &lt;complexType>
-     *   &lt;complexContent>
-     *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
-     *       &lt;sequence>
-     *         &lt;element name="lst_Subpage" maxOccurs="unbounded" minOccurs="0">
-     *           &lt;complexType>
-     *             &lt;complexContent>
-     *               &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
-     *                 &lt;sequence>
-     *                   &lt;element name="a" type="{}aType" minOccurs="0"/>
-     *                 &lt;/sequence>
-     *               &lt;/restriction>
-     *             &lt;/complexContent>
-     *           &lt;/complexType>
-     *         &lt;/element>
-     *         &lt;element name="url" type="{}urlType" minOccurs="0"/>
-     *         &lt;element name="img_Banner" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
-     *         &lt;element name="stf_Caption" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
-     *       &lt;/sequence>
-     *     &lt;/restriction>
-     *   &lt;/complexContent>
-     * &lt;/complexType>
-     * </pre>
-     * 
-     * 
-     */
-    @XmlAccessorType(XmlAccessType.FIELD)
-    @XmlType(name = "", propOrder = {
-        "content"
-    })
-    public static class LstSubpages {
-
-        @XmlElementRefs({
-            @XmlElementRef(name = "img_Banner", type = JAXBElement.class, required = false),
-            @XmlElementRef(name = "lst_Subpage", type = JAXBElement.class, required = false),
-            @XmlElementRef(name = "url", type = JAXBElement.class, required = false),
-            @XmlElementRef(name = "stf_Caption", type = JAXBElement.class, required = false)
-        })
-        @XmlMixed
-        protected List<Serializable> content;
-
-        /**
-         * Gets the value of the content property.
-         * 
-         * <p>
-         * This accessor method returns a reference to the live list,
-         * not a snapshot. Therefore any modification you make to the
-         * returned list will be present inside the JAXB object.
-         * This is why there is not a <CODE>set</CODE> method for the content property.
-         * 
-         * <p>
-         * For example, to add a new item, do as follows:
-         * <pre>
-         *    getContent().add(newItem);
-         * </pre>
-         * 
-         * 
-         * <p>
-         * Objects of the following type(s) are allowed in the list
-         * {@link String }
-         * {@link JAXBElement }{@code <}{@link String }{@code >}
-         * {@link JAXBElement }{@code <}{@link ConsumerBaseFoundationType.LstSubpages.LstSubpage }{@code >}
-         * {@link JAXBElement }{@code <}{@link UrlType }{@code >}
-         * {@link JAXBElement }{@code <}{@link String }{@code >}
-         * 
-         * 
-         */
-        public List<Serializable> getContent() {
-            if (content == null) {
-                content = new ArrayList<Serializable>();
-            }
-            return this.content;
-        }
-
-
-        /**
-         * <p>Java class for anonymous complex type.
-         * 
-         * <p>The following schema fragment specifies the expected content contained within this class.
-         * 
-         * <pre>
-         * &lt;complexType>
-         *   &lt;complexContent>
-         *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
-         *       &lt;sequence>
-         *         &lt;element name="a" type="{}aType" minOccurs="0"/>
-         *       &lt;/sequence>
-         *     &lt;/restriction>
-         *   &lt;/complexContent>
-         * &lt;/complexType>
-         * </pre>
-         * 
-         * 
-         */
-        @XmlAccessorType(XmlAccessType.FIELD)
-        @XmlType(name = "", propOrder = {
-            "content"
-        })
-        public static class LstSubpage {
-
-            @XmlElementRef(name = "a", type = JAXBElement.class, required = false)
-            @XmlMixed
-            protected List<Serializable> content;
-
-            /**
-             * Gets the value of the content property.
-             * 
-             * <p>
-             * This accessor method returns a reference to the live list,
-             * not a snapshot. Therefore any modification you make to the
-             * returned list will be present inside the JAXB object.
-             * This is why there is not a <CODE>set</CODE> method for the content property.
-             * 
-             * <p>
-             * For example, to add a new item, do as follows:
-             * <pre>
-             *    getContent().add(newItem);
-             * </pre>
-             * 
-             * 
-             * <p>
-             * Objects of the following type(s) are allowed in the list
-             * {@link String }
-             * {@link JAXBElement }{@code <}{@link AType }{@code >}
-             * 
-             * 
-             */
-            public List<Serializable> getContent() {
-                if (content == null) {
-                    content = new ArrayList<Serializable>();
-                }
-                return this.content;
-            }
-
-        }
-
-    }
+	protected BreadcrumbType breadcrumb;
+	@XmlElement(name = "img_background", required = true)
+	protected String imgBackground;
+	@XmlElement(name = "hdl_Title", required = true)
+	protected String hdlTitle;
+	@XmlElement(name = "img_Banner", required = true)
+	protected String imgBanner;
+	@XmlElement(name = "img_SearchThumbnail", required = true)
+	protected String imgSearchThumbnail;
+	@XmlElement(name = "img_Thumbnail", required = true)
+	protected String imgThumbnail;
+	@XmlElement(name = "opt_HideInBreadcrumbs", required = true)
+	protected String optHideInBreadcrumbs;
+	@XmlElement(name = "opt_HidePage", required = true)
+	protected String optHidePage;
+	@XmlElement(name = "opt_hideTitle")
+	protected byte optHideTitle;
+	@XmlElement(name = "opt_hide_in_sitemap", required = true)
+	protected String optHideInSitemap;
+	@XmlElement(name = "opt_IncludeVideo")
+	protected byte optIncludeVideo;
+	@XmlElement(name = "opt_isHubPage")
+	protected byte optIsHubPage;
+	@XmlElement(name = "opt_isNewWindow", required = true)
+	protected String optIsNewWindow;
+	@XmlElement(name = "opt_PageLayout", required = true)
+	protected String optPageLayout;
+	@XmlElement(name = "opt_PartnerLead", required = true)
+	protected String optPartnerLead;
+	@XmlElement(name = "stf_description", required = true)
+	protected String stfDescription;
+	@XmlElement(name = "stf_ExcludedCountries", required = true)
+	protected String stfExcludedCountries;
+	@XmlElement(name = "stf_hideInXmlSitemap", required = true)
+	protected String stfHideInXmlSitemap;
+	@XmlElement(name = "stf_ImageLocation", required = true)
+	protected String stfImageLocation;
+	@XmlElement(name = "stf_intro_title", required = true)
+	protected String stfIntroTitle;
+	@XmlElement(name = "stf_IsExternalSiteArticle", required = true)
+	protected String stfIsExternalSiteArticle;
+	@XmlElement(name = "stf_IsMobile", required = true)
+	protected String stfIsMobile;
+	@XmlElement(name = "stf_keywords", required = true)
+	protected String stfKeywords;
+	@XmlElement(name = "stf_LinkLearnMore", required = true)
+	protected String stfLinkLearnMore;
+	@XmlElement(name = "stf_NavigationTagLine", required = true)
+	protected String stfNavigationTagLine;
+	@XmlElement(name = "stf_PageHeading", required = true)
+	protected String stfPageHeading;
+	@XmlElement(name = "stf_TargetedCountries", required = true)
+	protected String stfTargetedCountries;
+	@XmlElement(name = "stf_TrackingTitle", required = true)
+	protected String stfTrackingTitle;
+	@XmlElement(name = "TA_Title", required = true)
+	protected String taTitle;
+	@XmlElement(name = "txt_Intro", required = true)
+	protected String txtIntro;
+	@XmlElement(name = "txt_MobileContentOnly", required = true)
+	protected String txtMobileContentOnly;
+	@XmlElement(name = "txt_SpotlightTag", required = true)
+	protected String txtSpotlightTag;
+	@XmlElement(name = "txt_Teaser", required = true)
+	protected String txtTeaser;
+	@XmlElement(name = "con_Body", required = true)
+	protected ConBodyType conBody;
+	@XmlElement(name = "lst_Subpages", required = true)
+	protected ConsumerBaseFoundationType.LstSubpages lstSubpages;
+	@XmlAttribute(name = "pageID")
+	protected Short pageID;
+	@XmlAttribute(name = "isTemplate")
+	protected Byte isTemplate;
+
+	/**
+	 * Gets the value of the breadcrumb property.
+	 * 
+	 * @return possible object is {@link BreadcrumbType }
+	 * 
+	 */
+	public BreadcrumbType getBreadcrumb() {
+		return breadcrumb;
+	}
+
+	/**
+	 * Sets the value of the breadcrumb property.
+	 * 
+	 * @param value allowed object is {@link BreadcrumbType }
+	 * 
+	 */
+	public void setBreadcrumb(BreadcrumbType value) {
+		this.breadcrumb = value;
+	}
+
+	/**
+	 * Gets the value of the imgBackground property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getImgBackground() {
+		return imgBackground;
+	}
+
+	/**
+	 * Sets the value of the imgBackground property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setImgBackground(String value) {
+		this.imgBackground = value;
+	}
+
+	/**
+	 * Gets the value of the hdlTitle property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getHdlTitle() {
+		return hdlTitle;
+	}
+
+	/**
+	 * Sets the value of the hdlTitle property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setHdlTitle(String value) {
+		this.hdlTitle = value;
+	}
+
+	/**
+	 * Gets the value of the imgBanner property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getImgBanner() {
+		return imgBanner;
+	}
+
+	/**
+	 * Sets the value of the imgBanner property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setImgBanner(String value) {
+		this.imgBanner = value;
+	}
+
+	/**
+	 * Gets the value of the imgSearchThumbnail property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getImgSearchThumbnail() {
+		return imgSearchThumbnail;
+	}
+
+	/**
+	 * Sets the value of the imgSearchThumbnail property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setImgSearchThumbnail(String value) {
+		this.imgSearchThumbnail = value;
+	}
+
+	/**
+	 * Gets the value of the imgThumbnail property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getImgThumbnail() {
+		return imgThumbnail;
+	}
+
+	/**
+	 * Sets the value of the imgThumbnail property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setImgThumbnail(String value) {
+		this.imgThumbnail = value;
+	}
+
+	/**
+	 * Gets the value of the optHideInBreadcrumbs property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getOptHideInBreadcrumbs() {
+		return optHideInBreadcrumbs;
+	}
+
+	/**
+	 * Sets the value of the optHideInBreadcrumbs property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setOptHideInBreadcrumbs(String value) {
+		this.optHideInBreadcrumbs = value;
+	}
+
+	/**
+	 * Gets the value of the optHidePage property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getOptHidePage() {
+		return optHidePage;
+	}
+
+	/**
+	 * Sets the value of the optHidePage property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setOptHidePage(String value) {
+		this.optHidePage = value;
+	}
+
+	/**
+	 * Gets the value of the optHideTitle property.
+	 * 
+	 */
+	public byte getOptHideTitle() {
+		return optHideTitle;
+	}
+
+	/**
+	 * Sets the value of the optHideTitle property.
+	 * 
+	 */
+	public void setOptHideTitle(byte value) {
+		this.optHideTitle = value;
+	}
+
+	/**
+	 * Gets the value of the optHideInSitemap property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getOptHideInSitemap() {
+		return optHideInSitemap;
+	}
+
+	/**
+	 * Sets the value of the optHideInSitemap property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setOptHideInSitemap(String value) {
+		this.optHideInSitemap = value;
+	}
+
+	/**
+	 * Gets the value of the optIncludeVideo property.
+	 * 
+	 */
+	public byte getOptIncludeVideo() {
+		return optIncludeVideo;
+	}
+
+	/**
+	 * Sets the value of the optIncludeVideo property.
+	 * 
+	 */
+	public void setOptIncludeVideo(byte value) {
+		this.optIncludeVideo = value;
+	}
+
+	/**
+	 * Gets the value of the optIsHubPage property.
+	 * 
+	 */
+	public byte getOptIsHubPage() {
+		return optIsHubPage;
+	}
+
+	/**
+	 * Sets the value of the optIsHubPage property.
+	 * 
+	 */
+	public void setOptIsHubPage(byte value) {
+		this.optIsHubPage = value;
+	}
+
+	/**
+	 * Gets the value of the optIsNewWindow property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getOptIsNewWindow() {
+		return optIsNewWindow;
+	}
+
+	/**
+	 * Sets the value of the optIsNewWindow property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setOptIsNewWindow(String value) {
+		this.optIsNewWindow = value;
+	}
+
+	/**
+	 * Gets the value of the optPageLayout property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getOptPageLayout() {
+		return optPageLayout;
+	}
+
+	/**
+	 * Sets the value of the optPageLayout property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setOptPageLayout(String value) {
+		this.optPageLayout = value;
+	}
+
+	/**
+	 * Gets the value of the optPartnerLead property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getOptPartnerLead() {
+		return optPartnerLead;
+	}
+
+	/**
+	 * Sets the value of the optPartnerLead property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setOptPartnerLead(String value) {
+		this.optPartnerLead = value;
+	}
+
+	/**
+	 * Gets the value of the stfDescription property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfDescription() {
+		return stfDescription;
+	}
+
+	/**
+	 * Sets the value of the stfDescription property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfDescription(String value) {
+		this.stfDescription = value;
+	}
+
+	/**
+	 * Gets the value of the stfExcludedCountries property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfExcludedCountries() {
+		return stfExcludedCountries;
+	}
+
+	/**
+	 * Sets the value of the stfExcludedCountries property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfExcludedCountries(String value) {
+		this.stfExcludedCountries = value;
+	}
+
+	/**
+	 * Gets the value of the stfHideInXmlSitemap property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfHideInXmlSitemap() {
+		return stfHideInXmlSitemap;
+	}
+
+	/**
+	 * Sets the value of the stfHideInXmlSitemap property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfHideInXmlSitemap(String value) {
+		this.stfHideInXmlSitemap = value;
+	}
+
+	/**
+	 * Gets the value of the stfImageLocation property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfImageLocation() {
+		return stfImageLocation;
+	}
+
+	/**
+	 * Sets the value of the stfImageLocation property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfImageLocation(String value) {
+		this.stfImageLocation = value;
+	}
+
+	/**
+	 * Gets the value of the stfIntroTitle property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfIntroTitle() {
+		return stfIntroTitle;
+	}
+
+	/**
+	 * Sets the value of the stfIntroTitle property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfIntroTitle(String value) {
+		this.stfIntroTitle = value;
+	}
+
+	/**
+	 * Gets the value of the stfIsExternalSiteArticle property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfIsExternalSiteArticle() {
+		return stfIsExternalSiteArticle;
+	}
+
+	/**
+	 * Sets the value of the stfIsExternalSiteArticle property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfIsExternalSiteArticle(String value) {
+		this.stfIsExternalSiteArticle = value;
+	}
+
+	/**
+	 * Gets the value of the stfIsMobile property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfIsMobile() {
+		return stfIsMobile;
+	}
+
+	/**
+	 * Sets the value of the stfIsMobile property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfIsMobile(String value) {
+		this.stfIsMobile = value;
+	}
+
+	/**
+	 * Gets the value of the stfKeywords property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfKeywords() {
+		return stfKeywords;
+	}
+
+	/**
+	 * Sets the value of the stfKeywords property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfKeywords(String value) {
+		this.stfKeywords = value;
+	}
+
+	/**
+	 * Gets the value of the stfLinkLearnMore property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfLinkLearnMore() {
+		return stfLinkLearnMore;
+	}
+
+	/**
+	 * Sets the value of the stfLinkLearnMore property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfLinkLearnMore(String value) {
+		this.stfLinkLearnMore = value;
+	}
+
+	/**
+	 * Gets the value of the stfNavigationTagLine property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfNavigationTagLine() {
+		return stfNavigationTagLine;
+	}
+
+	/**
+	 * Sets the value of the stfNavigationTagLine property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfNavigationTagLine(String value) {
+		this.stfNavigationTagLine = value;
+	}
+
+	/**
+	 * Gets the value of the stfPageHeading property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfPageHeading() {
+		return stfPageHeading;
+	}
+
+	/**
+	 * Sets the value of the stfPageHeading property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfPageHeading(String value) {
+		this.stfPageHeading = value;
+	}
+
+	/**
+	 * Gets the value of the stfTargetedCountries property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfTargetedCountries() {
+		return stfTargetedCountries;
+	}
+
+	/**
+	 * Sets the value of the stfTargetedCountries property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfTargetedCountries(String value) {
+		this.stfTargetedCountries = value;
+	}
+
+	/**
+	 * Gets the value of the stfTrackingTitle property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfTrackingTitle() {
+		return stfTrackingTitle;
+	}
+
+	/**
+	 * Sets the value of the stfTrackingTitle property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfTrackingTitle(String value) {
+		this.stfTrackingTitle = value;
+	}
+
+	/**
+	 * Gets the value of the taTitle property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getTATitle() {
+		return taTitle;
+	}
+
+	/**
+	 * Sets the value of the taTitle property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setTATitle(String value) {
+		this.taTitle = value;
+	}
+
+	/**
+	 * Gets the value of the txtIntro property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getTxtIntro() {
+		return txtIntro;
+	}
+
+	/**
+	 * Sets the value of the txtIntro property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setTxtIntro(String value) {
+		this.txtIntro = value;
+	}
+
+	/**
+	 * Gets the value of the txtMobileContentOnly property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getTxtMobileContentOnly() {
+		return txtMobileContentOnly;
+	}
+
+	/**
+	 * Sets the value of the txtMobileContentOnly property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setTxtMobileContentOnly(String value) {
+		this.txtMobileContentOnly = value;
+	}
+
+	/**
+	 * Gets the value of the txtSpotlightTag property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getTxtSpotlightTag() {
+		return txtSpotlightTag;
+	}
+
+	/**
+	 * Sets the value of the txtSpotlightTag property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setTxtSpotlightTag(String value) {
+		this.txtSpotlightTag = value;
+	}
+
+	/**
+	 * Gets the value of the txtTeaser property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getTxtTeaser() {
+		return txtTeaser;
+	}
+
+	/**
+	 * Sets the value of the txtTeaser property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setTxtTeaser(String value) {
+		this.txtTeaser = value;
+	}
+
+	/**
+	 * Gets the value of the conBody property.
+	 * 
+	 * @return possible object is {@link ConBodyType }
+	 * 
+	 */
+	public ConBodyType getConBody() {
+		return conBody;
+	}
+
+	/**
+	 * Sets the value of the conBody property.
+	 * 
+	 * @param value allowed object is {@link ConBodyType }
+	 * 
+	 */
+	public void setConBody(ConBodyType value) {
+		this.conBody = value;
+	}
+
+	/**
+	 * Gets the value of the lstSubpages property.
+	 * 
+	 * @return possible object is {@link ConsumerBaseFoundationType.LstSubpages }
+	 * 
+	 */
+	public ConsumerBaseFoundationType.LstSubpages getLstSubpages() {
+		return lstSubpages;
+	}
+
+	/**
+	 * Sets the value of the lstSubpages property.
+	 * 
+	 * @param value allowed object is
+	 *            {@link ConsumerBaseFoundationType.LstSubpages }
+	 * 
+	 */
+	public void setLstSubpages(ConsumerBaseFoundationType.LstSubpages value) {
+		this.lstSubpages = value;
+	}
+
+	/**
+	 * Gets the value of the pageID property.
+	 * 
+	 * @return possible object is {@link Short }
+	 * 
+	 */
+	public Short getPageID() {
+		return pageID;
+	}
+
+	/**
+	 * Sets the value of the pageID property.
+	 * 
+	 * @param value allowed object is {@link Short }
+	 * 
+	 */
+	public void setPageID(Short value) {
+		this.pageID = value;
+	}
+
+	/**
+	 * Gets the value of the isTemplate property.
+	 * 
+	 * @return possible object is {@link Byte }
+	 * 
+	 */
+	public Byte getIsTemplate() {
+		return isTemplate;
+	}
+
+	/**
+	 * Sets the value of the isTemplate property.
+	 * 
+	 * @param value allowed object is {@link Byte }
+	 * 
+	 */
+	public void setIsTemplate(Byte value) {
+		this.isTemplate = value;
+	}
+
+	/**
+	 * <p>
+	 * Java class for anonymous complex type.
+	 * 
+	 * <p>
+	 * The following schema fragment specifies the expected content contained
+	 * within this class.
+	 * 
+	 * <pre>
+	 * &lt;complexType>
+	 *   &lt;complexContent>
+	 *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
+	 *       &lt;sequence>
+	 *         &lt;element name="lst_Subpage" maxOccurs="unbounded" minOccurs="0">
+	 *           &lt;complexType>
+	 *             &lt;complexContent>
+	 *               &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
+	 *                 &lt;sequence>
+	 *                   &lt;element name="a" type="{}aType" minOccurs="0"/>
+	 *                 &lt;/sequence>
+	 *               &lt;/restriction>
+	 *             &lt;/complexContent>
+	 *           &lt;/complexType>
+	 *         &lt;/element>
+	 *         &lt;element name="url" type="{}urlType" minOccurs="0"/>
+	 *         &lt;element name="img_Banner" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
+	 *         &lt;element name="stf_Caption" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
+	 *       &lt;/sequence>
+	 *     &lt;/restriction>
+	 *   &lt;/complexContent>
+	 * &lt;/complexType>
+	 * </pre>
+	 * 
+	 * 
+	 */
+	@XmlAccessorType(XmlAccessType.FIELD)
+	@XmlType(name = "", propOrder = { "content" })
+	public static class LstSubpages {
+
+		@XmlElementRefs({ @XmlElementRef(name = "img_Banner", type = JAXBElement.class, required = false),
+			@XmlElementRef(name = "lst_Subpage", type = JAXBElement.class, required = false),
+			@XmlElementRef(name = "url", type = JAXBElement.class, required = false),
+			@XmlElementRef(name = "stf_Caption", type = JAXBElement.class, required = false) })
+		@XmlMixed
+		protected List<Serializable> content;
+
+		/**
+		 * Gets the value of the content property.
+		 * 
+		 * <p>
+		 * This accessor method returns a reference to the live list, not a
+		 * snapshot. Therefore any modification you make to the returned list
+		 * will be present inside the JAXB object. This is why there is not a
+		 * <CODE>set</CODE> method for the content property.
+		 * 
+		 * <p>
+		 * For example, to add a new item, do as follows:
+		 * 
+		 * <pre>
+		 * getContent().add(newItem);
+		 * </pre>
+		 * 
+		 * 
+		 * <p>
+		 * Objects of the following type(s) are allowed in the list
+		 * {@link String } {@link JAXBElement }{@code <}{@link String }{@code >}
+		 * {@link JAXBElement }{@code <}
+		 * {@link ConsumerBaseFoundationType.LstSubpages.LstSubpage }{@code >}
+		 * {@link JAXBElement }{@code <}{@link UrlType }{@code >}
+		 * {@link JAXBElement }{@code <}{@link String }{@code >}
+		 * 
+		 * 
+		 */
+		public List<Serializable> getContent() {
+			if (content == null) {
+				content = new ArrayList<Serializable>();
+			}
+			return this.content;
+		}
+
+		/**
+		 * <p>
+		 * Java class for anonymous complex type.
+		 * 
+		 * <p>
+		 * The following schema fragment specifies the expected content
+		 * contained within this class.
+		 * 
+		 * <pre>
+		 * &lt;complexType>
+		 *   &lt;complexContent>
+		 *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
+		 *       &lt;sequence>
+		 *         &lt;element name="a" type="{}aType" minOccurs="0"/>
+		 *       &lt;/sequence>
+		 *     &lt;/restriction>
+		 *   &lt;/complexContent>
+		 * &lt;/complexType>
+		 * </pre>
+		 * 
+		 * 
+		 */
+		@XmlAccessorType(XmlAccessType.FIELD)
+		@XmlType(name = "", propOrder = { "content" })
+		public static class LstSubpage {
+
+			@XmlElementRef(name = "a", type = JAXBElement.class, required = false)
+			@XmlMixed
+			protected List<Serializable> content;
+
+			/**
+			 * Gets the value of the content property.
+			 * 
+			 * <p>
+			 * This accessor method returns a reference to the live list, not a
+			 * snapshot. Therefore any modification you make to the returned
+			 * list will be present inside the JAXB object. This is why there is
+			 * not a <CODE>set</CODE> method for the content property.
+			 * 
+			 * <p>
+			 * For example, to add a new item, do as follows:
+			 * 
+			 * <pre>
+			 * getContent().add(newItem);
+			 * </pre>
+			 * 
+			 * 
+			 * <p>
+			 * Objects of the following type(s) are allowed in the list
+			 * {@link String } {@link JAXBElement }{@code <}{@link AType }{@code >}
+			 * 
+			 * 
+			 */
+			public List<Serializable> getContent() {
+				if (content == null) {
+					content = new ArrayList<Serializable>();
+				}
+				return this.content;
+			}
+
+		}
+
+	}
 
 }

@@ -2,7 +2,6 @@ package com.australia.content.domain;
 
 import java.util.List;
 
-
 public class ContentSearchResult {
 
 	private final long totalResultCount;

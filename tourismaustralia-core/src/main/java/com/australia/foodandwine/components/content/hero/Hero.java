@@ -24,7 +24,7 @@ import com.day.cq.wcm.foundation.Image;
 	@Listener(name = "afterdelete", value = "REFRESH_PAGE"), @Listener(name = "afteredit", value = "REFRESH_PAGE"),
 	@Listener(name = "afterinsert", value = "REFRESH_PAGE") })
 public class Hero {
-	@DialogField(fieldLabel = "Image Path", tab = 1,required=true)
+	@DialogField(fieldLabel = "Image Path", tab = 1, required = true)
 	@Html5SmartImage(allowUpload = false, name = "backgroundImage")
 	private String imagePath;
 
@@ -42,11 +42,11 @@ public class Hero {
 
 	@DialogField(fieldLabel = "Text above Button", tab = 3)
 	private final String aboveButtonText;
-	
-	@DialogField(fieldLabel = "Button Text ", tab = 3, required=true)
+
+	@DialogField(fieldLabel = "Button Text ", tab = 3, required = true)
 	private final String buttonText;
 
-	@DialogField(fieldLabel = "Button Link ", tab = 3,required=true)
+	@DialogField(fieldLabel = "Button Link ", tab = 3, required = true)
 	@PathField
 	private final String buttonLink;
 
@@ -62,6 +62,12 @@ public class Hero {
 	@DialogField(required = true, tab = 4, xtype = "BrightcoveCombo", fieldLabel = "Video", name = "./video", additionalProperties = @FieldProperty(name = "hiddenName", value = "./videoPlayer"))
 	private final String videoPlayer;
 	private final String videoRandomId;
+
+	private boolean isExternal;
+
+	public boolean isExternal() {
+		return isExternal;
+	}
 
 	private static final String TITLE = "title";
 	private static final String SMALL_TEXT = "smallText";
@@ -90,6 +96,7 @@ public class Hero {
 		aboveButtonText = properties.get(ABOVE_BUTTON_TEXT, StringUtils.EMPTY);
 		buttonText = properties.get(BUTTON_TEXT, StringUtils.EMPTY);
 		buttonLink = LinkUtils.getHrefFromPath(properties.get(BUTTON_LINK, StringUtils.EMPTY));
+		isExternal = LinkUtils.isExternal(buttonLink);
 		belowButtonText = properties.get(BELOW_BUTTON_TEXT, StringUtils.EMPTY);
 
 		BrcService brcService = BrcUtils.getSlingSettingService();

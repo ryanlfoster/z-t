@@ -1,4 +1,13 @@
-package com.australia.www.components.page.atdwsearch;
+package com.australia.www.components.content.atdwsearch;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.apache.sling.api.SlingHttpServletRequest;
+import org.apache.sling.api.resource.Resource;
+import org.apache.sling.api.resource.ValueMap;
+import org.apache.sling.api.scripting.SlingBindings;
+import org.apache.sling.api.scripting.SlingScriptHelper;
 
 import com.australia.atdw.domain.ATDWCategory;
 import com.australia.atdw.domain.ATDWProductSearchParameters;
@@ -9,14 +18,6 @@ import com.australia.utils.PathUtils;
 import com.citytechinc.cq.component.annotations.Component;
 import com.citytechinc.cq.component.annotations.DialogField;
 import com.citytechinc.cq.component.annotations.widgets.NumberField;
-import org.apache.sling.api.SlingHttpServletRequest;
-import org.apache.sling.api.resource.Resource;
-import org.apache.sling.api.resource.ValueMap;
-import org.apache.sling.api.scripting.SlingBindings;
-import org.apache.sling.api.scripting.SlingScriptHelper;
-
-import java.util.ArrayList;
-import java.util.List;
 
 @Component(value = "AtdwSearch", path = "page", group = ".hidden", editConfig = false)
 public final class AtdwSearchPage {
@@ -25,9 +26,8 @@ public final class AtdwSearchPage {
 	private static final Integer DEFAULT_RESULTS_PER_PAGE = 12;
 	private static final Integer INITIAL_PAGE = 1;
 
-	@DialogField(fieldLabel = "Results Per Page",
-		fieldDescription = "Controls the number of search results listed per page. Multiples of 3 are recommended. "
-			+ "(Default 12)")
+	@DialogField(fieldLabel = "Results Per Page", fieldDescription = "Controls the number of search results listed per page. Multiples of 3 are recommended. "
+		+ "(Default 12)")
 	@NumberField(allowDecimals = false, allowNegative = false)
 	private final Integer count;
 
@@ -64,32 +64,31 @@ public final class AtdwSearchPage {
 		count = properties.get("./count", DEFAULT_RESULTS_PER_PAGE);
 
 		final String categoryId = request.getParameter(PathUtils.CATEGORY_PARAM);
-		if(ATDWCategory.get(categoryId) != null) {
+		if (ATDWCategory.get(categoryId) != null) {
 			category = ATDWCategory.get(categoryId);
 		} else {
 			category = DEFAULT_CATEGORY;
 		}
 
 		term = request.getParameter(PathUtils.TERM_PARAM);
-		if(term == null || term.trim().isEmpty()) {
+		if (term == null || term.trim().isEmpty()) {
 			term = null;
 		}
 
 		state = request.getParameter(PathUtils.STATE_PARAM);
-		if(state == null || state.trim().isEmpty() || state.equals(".")) {
+		if (state == null || state.trim().isEmpty() || state.equals(".")) {
 			state = null;
 		}
 
 		region = request.getParameter(PathUtils.REGION_PARAM);
-		if(region == null || region.trim().isEmpty() || region.equals(".")) {
+		if (region == null || region.trim().isEmpty() || region.equals(".")) {
 			region = null;
 		}
 
 		city = request.getParameter(PathUtils.CITY_PARAM);
-		if(city == null || city.trim().isEmpty() || city.equals(".")) {
+		if (city == null || city.trim().isEmpty() || city.equals(".")) {
 			city = null;
 		}
-
 
 		final String pageString = request.getParameter(PathUtils.PAGE_PARAM);
 		int p;
@@ -102,26 +101,20 @@ public final class AtdwSearchPage {
 
 		// Build parameters
 		final ATDWProductSearchParametersBuilder builder = new ATDWProductSearchParametersBuilder();
-		final ATDWProductSearchParameters params = builder.setText(term)
-			.setCategory(category)
-			.setState(state)
-			.setRegion(region)
-			.setCity(city)
-			.setPage(page)
-			.setCount(count)
-			.build();
+		final ATDWProductSearchParameters params = builder.setText(term).setCategory(category).setState(state)
+			.setRegion(region).setCity(city).setPage(page).setCount(count).build();
 
 		// Perform search
 		results = productService.search(params);
 
 		localeResource = PathUtils.getLanguageResource(resource);
 
-		for (ATDWCategory cat: Constants.CATEGORY_ORDERING) {
+		for (ATDWCategory cat : Constants.CATEGORY_ORDERING) {
 			categories.add(new Category(cat));
 		}
 
 		lastPage = (int) Math.ceil(((double) results.getTotalResultCount()) / (double) count);
-		for(int i = 1; i <= lastPage; i++) {
+		for (int i = 1; i <= lastPage; i++) {
 			pages.add(new Page(i));
 		}
 
@@ -177,8 +170,8 @@ public final class AtdwSearchPage {
 
 		public Page(int pageNumber) {
 			this.pageNumber = pageNumber;
-			this.path = PathUtils.getAtdwSearchPath(localeResource, category.toString(), state, region,
-				city, term, pageNumber);
+			this.path = PathUtils.getAtdwSearchPath(localeResource, category.toString(), state, region, city, term,
+				pageNumber);
 			this.selected = pageNumber == page;
 		}
 
@@ -224,8 +217,7 @@ public final class AtdwSearchPage {
 		}
 
 		public String getSearchPath() {
-			return PathUtils.getAtdwSearchPath(localeResource, category.toString(), state, region, city,
-				term, 1);
+			return PathUtils.getAtdwSearchPath(localeResource, category.toString(), state, region, city, term, 1);
 		}
 
 	}

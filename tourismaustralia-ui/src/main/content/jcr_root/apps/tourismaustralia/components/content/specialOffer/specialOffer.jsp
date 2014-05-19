@@ -38,10 +38,10 @@
                     <c:if test="${not empty specialOffer.viewMoreInformationLink || not empty specialOffer.viewTermsAndConditionLink}">
                     <div class="specialoffer-links">
                         <c:if test="${not empty specialOffer.viewMoreInformationLink}">
-                        <a href="${specialOffer.viewMoreInformationLink}" ${specialOffer.viewMoreInformationLinkIsExternal == true ? 'target="_blank"': ''}>View More Information</a>
+                        <a href="${specialOffer.viewMoreInformationLink}" ${specialOffer.viewMoreInformationLinkIsExternal == true ? 'target="_blank"': ''}><fmt:message key="View more information"/></a>
                         </c:if>
                         <c:if test="${not empty specialOffer.viewTermsAndConditionLink}">
-                        <a href="${specialOffer.viewTermsAndConditionLink}" ${specialOffer.viewTermsAndConditionLinkIsExternal == true ? 'target="_blank"': ''}>View Terms and condition</a>
+                        <a href="${specialOffer.viewTermsAndConditionLink}" ${specialOffer.viewTermsAndConditionLinkIsExternal == true ? 'target="_blank"': ''}><fmt:message key="View terms and conditions"/></a>
                         </c:if>
                     </div>
                     </c:if>

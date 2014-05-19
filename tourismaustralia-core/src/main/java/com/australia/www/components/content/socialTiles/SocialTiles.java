@@ -19,20 +19,18 @@ import com.citytechinc.cq.component.annotations.Tab;
 import com.citytechinc.cq.component.annotations.widgets.DialogFieldSet;
 import com.day.cq.wcm.foundation.Image;
 
-@Component(value = "Social Tiles", disableTargeting = true, dialogHeight = 800, tabs = {
-		@Tab(title = "Description"), @Tab(title = "Tile 1"),
-		@Tab(title = "Tile 2"), @Tab(title = "Tile 3"), @Tab(title = "Tile 4"),
-		@Tab(title = "Tile 5"), @Tab(title = "Tile 6"), @Tab(title = "Tile 7"),
-		@Tab(title = "Tile 8"), @Tab(title = "Tile 9") }, listeners = {
-		@Listener(name = "afteredit", value = "REFRESH_PAGE"),
-		@Listener(name = "afterinsert", value = "REFRESH_PAGE") })
+@Component(value = "Social Tiles", disableTargeting = true, dialogHeight = 800, tabs = { @Tab(title = "Description"),
+	@Tab(title = "Tile 1"), @Tab(title = "Tile 2"), @Tab(title = "Tile 3"), @Tab(title = "Tile 4"),
+	@Tab(title = "Tile 5"), @Tab(title = "Tile 6"), @Tab(title = "Tile 7"), @Tab(title = "Tile 8"),
+	@Tab(title = "Tile 9") }, listeners = { @Listener(name = "afteredit", value = "REFRESH_PAGE"),
+	@Listener(name = "afterinsert", value = "REFRESH_PAGE") })
 public class SocialTiles {
 
 	@DialogField(xtype = "static", additionalProperties = {
-			@FieldProperty(name = "text", value = "This component will display 3 or 9 "
-					+ "tiles depending on the amount filled out. Anything less than 9 "
-					+ "will default to 3." + "\n"),
-			@FieldProperty(name = "bold", value = "true") })
+		@FieldProperty(name = "text", value = "This component will display 3 or 9 "
+			+ "tiles depending on the amount filled out. Filling out less than 9 will default to 3, "
+			+ "and filling out less than 3 will disable the component." + "\n"),
+		@FieldProperty(name = "italic", value = "true") })
 	@SuppressWarnings("unused")
 	private String tab1;
 
@@ -43,7 +41,7 @@ public class SocialTiles {
 	private String subTitle;
 
 	@DialogFieldSet(namePrefix = "link/")
-	@DialogField(fieldLabel = "link")
+	@DialogField(hideLabel = true)
 	private Link link;
 
 	@DialogFieldSet(border = false, namePrefix = "tab2/")
@@ -89,15 +87,13 @@ public class SocialTiles {
 		Resource thisResource = request.getResource();
 		ResourceResolver resolver = request.getResourceResolver();
 		ValueMap properties = thisResource.adaptTo(ValueMap.class);
-
 		tilesList = new ArrayList<TileField>();
 
 		if (properties != null) {
 			title = properties.get("title", StringUtils.EMPTY);
 			subTitle = properties.get("subTitle", StringUtils.EMPTY);
-			link = new Link(LinkUtils.getHrefFromPath(properties.get("link/"
-					+ Link.PROP_PATH, StringUtils.EMPTY)), properties.get(
-					"link/" + Link.PROP_TITLE, StringUtils.EMPTY));
+			link = new Link(LinkUtils.getHrefFromPath(properties.get("link/" + Link.PROP_PATH, StringUtils.EMPTY)),
+				properties.get("link/" + Link.PROP_TITLE, StringUtils.EMPTY));
 
 			for (int tabNum = 2; tabNum <= 10; tabNum++) {
 				tile = new TileField();
@@ -115,19 +111,14 @@ public class SocialTiles {
 						tile.setIconPath(imageObj.getFileReference());
 					}
 				}
-				
-				tile.setTitle(properties.get("tab" + tabNum + "/title",
-						StringUtils.EMPTY));
-				tile.setText(properties.get("tab" + tabNum + "/text",
-						StringUtils.EMPTY));
-				tile.setLink(properties.get("tab" + tabNum + "/link",
-						StringUtils.EMPTY));
+
+				tile.setTitle(properties.get("tab" + tabNum + "/title", StringUtils.EMPTY));
+				tile.setText(properties.get("tab" + tabNum + "/text", StringUtils.EMPTY));
 				if (tile.getIsValid()) {
 					tilesList.add(tile);
 				}
 			}
 		}
-
 	}
 
 	public List<TileField> getTilesList() {
@@ -149,6 +140,11 @@ public class SocialTiles {
 	// Boolean used to switch from 3 tile or 9 tile format
 	public boolean getHasNine() {
 		return (tilesList.size() == 9);
+	}
+
+	// Boolean used to switch from blank or 3 tile format
+	public boolean getHasThree() {
+		return (tilesList.size() >= 3);
 	}
 
 	public boolean getHasSubTitle() {

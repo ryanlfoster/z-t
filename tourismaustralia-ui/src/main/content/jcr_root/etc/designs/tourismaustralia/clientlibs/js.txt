@@ -2,6 +2,7 @@
 
 vendor/modernizr-2.7.1.js
 vendor/respond.js
+vendor/jquery.cookie.js
 
 vendor/owl-carousel/owl.carousel.js
 src/ta.main.js
@@ -24,6 +25,12 @@ src/modules/jquery.ta.aspsearch.js
 src/modules/jquery.ta.inputfield.js
 src/modules/jquery.ta.hotornot.js
 src/modules/jquery.ta.favourite.js
+
+src/modules/atdw_locations.js
+src/modules/aus_search_results.js
+src/modules/aus_tab_container.js
+src/modules/purl.js
+
 
 
 

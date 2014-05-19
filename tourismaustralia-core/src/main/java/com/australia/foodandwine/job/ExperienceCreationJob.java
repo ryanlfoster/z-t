@@ -1,8 +1,11 @@
 package com.australia.foodandwine.job;
 
 import java.io.InputStream;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
+import java.util.Iterator;
+import java.util.List;
 import java.util.Map;
 
 import javax.jcr.Session;
@@ -33,11 +36,13 @@ import org.slf4j.LoggerFactory;
 
 import com.australia.utils.PathUtils;
 import com.australia.utils.ServerUtils;
+import com.australia.utils.TagUtils;
 import com.day.cq.commons.date.DateUtil;
-import com.day.cq.commons.jcr.JcrConstants;
 import com.day.cq.commons.jcr.JcrUtil;
 import com.day.cq.dam.api.Asset;
 import com.day.cq.dam.api.AssetManager;
+import com.day.cq.tagging.Tag;
+import com.day.cq.tagging.TagManager;
 import com.day.cq.wcm.api.Page;
 import com.day.cq.wcm.api.PageManager;
 import com.day.cq.wcm.api.WCMException;
@@ -50,6 +55,7 @@ public class ExperienceCreationJob implements Runnable {
 	private static final Logger LOG = LoggerFactory.getLogger(ExperienceCreationJob.class);
 	private static final String QUERY_STRING = "SELECT * FROM [cq:Page] AS s WHERE ISDESCENDANTNODE(["
 		+ PathUtils.FOOD_AND_WINE_USER_GENERATED + "]) AND [jcr:created] > '%s'";
+	private static final String CATEGORY_PREFIX = "category-%s";
 
 	private ResourceResolver resourceResolver;
 	private Detector detector;
@@ -141,8 +147,8 @@ public class ExperienceCreationJob implements Runnable {
 			formProperties.get("businessName", String.class), true);
 		Resource contentResource = experiencePage.getContentResource();
 		ModifiableValueMap contentResourceProperties = contentResource.adaptTo(ModifiableValueMap.class);
-		contentResourceProperties.put(JcrConstants.JCR_DESCRIPTION,
-			formProperties.get("businessDescription", String.class));
+		contentResourceProperties.put("articleDescription", formProperties.get("businessDescription", String.class));
+		contentResourceProperties.put("businessListing", "true");
 		resourceResolver.commit();
 
 		Map<String, Object> mapProperties = new HashMap<String, Object>();
@@ -151,6 +157,7 @@ public class ExperienceCreationJob implements Runnable {
 		mapProperties.put("suburb", formProperties.get("location", String.class));
 		mapProperties.put("state", formProperties.get("selectTerritory", String.class));
 		mapProperties.put("website", formProperties.get("businessWebsite", String.class));
+		mapProperties.put("checkbox", formProperties.get("checkBoxData",String.class));
 		resourceResolver.create(contentResource, "map", mapProperties);
 		resourceResolver.commit();
 
@@ -166,34 +173,87 @@ public class ExperienceCreationJob implements Runnable {
 		Resource mainparsysResource = resourceResolver.create(contentResource, "mainparsys", mainparsysProperties);
 		resourceResolver.commit();
 
-		Resource fileResource = res.getChild("file");
-		try {
-			if (fileResource != null) {
-				AssetManager assetManager = resourceResolver.adaptTo(AssetManager.class);
-				InputStream imageInputStream = fileResource.adaptTo(InputStream.class);
-				String mimeType = fileResource.getChild("jcr:content").adaptTo(ValueMap.class)
-					.get("jcr:mimeType", String.class);
-				if (mimeType == null) {
-					Tika tika = new Tika(detector);
-					mimeType = tika.detect(fileResource.adaptTo(InputStream.class));
+		String primaryCategory = formProperties.get("primaryCategory", String.class);
+		String secondayCategory = formProperties.get("secondaryCategory", String.class);
+		List<String> tagIds = new ArrayList<String>();
+		tagIds.add(TagUtils.TA_PLACE_TAG
+			+ "/"
+			+ JcrUtil.createValidName(formProperties.get("selectTerritory", StringUtils.EMPTY),
+				JcrUtil.HYPHEN_LABEL_CHAR_MAPPING, "_"));
+		if (StringUtils.isNotEmpty(primaryCategory) || StringUtils.isNotEmpty(secondayCategory)) {
+			Tag primaryTag = null;
+			Tag secondaryTag = null;
+			for (Tag tag : getCategoryTags(resourceResolver.adaptTo(TagManager.class))) {
+				if (String.format(CATEGORY_PREFIX, tag.getName()).toLowerCase().equals(primaryCategory)) {
+					primaryTag = tag;
 				}
-				String fileExtension = MimeTypes.getDefaultMimeTypes().forName(mimeType).getExtension();
-				Asset imageAsset = assetManager.createAsset("/content/dam/food-and-wine/" + experiencePage.getName()
-					+ fileExtension, imageInputStream, mimeType, true);
-
-				Map<String, Object> imageProperties = new HashMap<String, Object>();
-				imageProperties.put("sling:resourceType", "foodandwine/components/content/articleImage");
-				imageProperties.put("imageCaption", formProperties.get("photoDescription", String.class));
-				Resource imageResource = resourceResolver.create(mainparsysResource, "articleImage", imageProperties);
-				resourceResolver.commit();
-
-				Map<String, Object> backgroundImageProperties = new HashMap<String, Object>();
-				backgroundImageProperties.put("fileReference", imageAsset.getPath());
-				resourceResolver.create(imageResource, "backgroundImage", backgroundImageProperties);
+				if (String.format(CATEGORY_PREFIX, tag.getName()).toLowerCase().equals(secondayCategory)) {
+					secondaryTag = tag;
+				}
+			}
+			if (primaryTag != null || secondaryTag != null) {
+				Map<String, Object> categoryProperties = new HashMap<String, Object>();
+				int count = 1;
+				if (primaryTag != null) {
+					String imagePath = "/content/dam/food-and-wine/icons/categories/category-icon-"
+						+ primaryTag.getName().toLowerCase() + "-white.png";
+					categoryProperties.put("caption" + count, primaryTag.getTitle());
+					categoryProperties.put("imagePath" + count, imagePath);
+					count++;
+					tagIds.add(primaryTag.getTagID());
+				}
+				if (secondaryTag != null) {
+					String imagePath = "/content/dam/food-and-wine/icons/categories/category-icon-"
+						+ secondaryTag.getName().toLowerCase() + "-white.png";
+					categoryProperties.put("caption" + count, secondaryTag.getTitle());
+					categoryProperties.put("imagePath" + count, imagePath);
+					tagIds.add(secondaryTag.getTagID());
+				}
+				resourceResolver.create(contentResource, "category", categoryProperties);
 				resourceResolver.commit();
 			}
-		} catch (Exception e) {
-			LOG.error("Error creating asset for image", e);
+		}
+		contentResourceProperties.put("cq:tags", tagIds.toArray(new String[tagIds.size()]));
+		resourceResolver.commit();
+
+		int imagecount = 0;
+		for (Resource imageResource : res.getChildren()) {
+			try {
+				if (imageResource != null && imageResource.getName().startsWith("image")) {
+					String count = imageResource.getName().substring(5);
+					AssetManager assetManager = resourceResolver.adaptTo(AssetManager.class);
+					InputStream imageInputStream = imageResource.adaptTo(InputStream.class);
+					String mimeType = imageResource.getChild("jcr:content").adaptTo(ValueMap.class)
+						.get("jcr:mimeType", String.class);
+					if (mimeType == null) {
+						Tika tika = new Tika(detector);
+						mimeType = tika.detect(imageResource.adaptTo(InputStream.class));
+					}
+					String fileExtension = MimeTypes.getDefaultMimeTypes().forName(mimeType).getExtension();
+					Asset imageAsset = assetManager.createAsset(
+						"/content/dam/food-and-wine/" + experiencePage.getName() + imagecount + fileExtension,
+						imageInputStream, mimeType, true);
+
+					Map<String, Object> imageProperties = new HashMap<String, Object>();
+					imageProperties.put("sling:resourceType", "foodandwine/components/content/articleImage");
+					String description = formProperties.get("photoDescription" + count, String.class);
+					if (StringUtils.isNotEmpty(description)) {
+						imageProperties.put("imageCaption",
+							formProperties.get("photoDescription" + count, String.class));
+					}
+					Resource newImageResource = resourceResolver.create(mainparsysResource,
+						"articleImage" + imagecount, imageProperties);
+					resourceResolver.commit();
+
+					Map<String, Object> backgroundImageProperties = new HashMap<String, Object>();
+					backgroundImageProperties.put("fileReference", imageAsset.getPath());
+					resourceResolver.create(newImageResource, "backgroundImage", backgroundImageProperties);
+					resourceResolver.commit();
+					imagecount++;
+				}
+			} catch (Exception e) {
+				LOG.error("Error creating asset for image", e);
+			}
 		}
 	}
 
@@ -205,6 +265,18 @@ public class ExperienceCreationJob implements Runnable {
 		}
 		String pageName = pagePath.substring(pagePath.lastIndexOf("/") + 1);
 		pageManager.create(parentPath, pageName, null, null, true);
+	}
+
+	private List<Tag> getCategoryTags(TagManager tagManager) {
+		List<Tag> categoryTags = new ArrayList<Tag>();
+		Tag categoryTag = tagManager.resolve(TagUtils.FOOD_AND_WINE_CATEGORY);
+		if (categoryTag != null) {
+			Iterator<Tag> childTags = categoryTag.listChildren();
+			while (childTags.hasNext()) {
+				categoryTags.add(childTags.next());
+			}
+		}
+		return categoryTags;
 	}
 
 }

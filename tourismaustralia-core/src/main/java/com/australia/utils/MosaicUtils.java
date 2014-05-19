@@ -1,9 +1,9 @@
 package com.australia.utils;
 
-import com.australia.mosaic.FourToOneGridMosaic;
-
 import java.util.ArrayList;
 import java.util.List;
+
+import com.australia.mosaic.FourToOneGridMosaic;
 
 public final class MosaicUtils {
 
@@ -12,7 +12,7 @@ public final class MosaicUtils {
 
 		final int size = items.size();
 		int index = 0;
-		while(size > index) {
+		while (size > index) {
 			final T singleItem = items.get(index);
 			index++;
 			final int mosaicSize = Math.min(4, size - index);
@@ -24,7 +24,6 @@ public final class MosaicUtils {
 		return out;
 	}
 
-
-
-	private MosaicUtils() { }
+	private MosaicUtils() {
+	}
 }

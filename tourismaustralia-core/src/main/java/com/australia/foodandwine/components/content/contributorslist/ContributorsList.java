@@ -17,13 +17,12 @@ import com.citytechinc.cq.component.annotations.Listener;
 import com.day.cq.wcm.api.Page;
 import com.day.cq.wcm.api.PageManager;
 
-@Component(disableTargeting = true, group = "Food and Wine", basePath = "jcr_root/apps/foodandwine/components", name = "contributorsList", value = "Contributers List", listeners = {
+@Component(disableTargeting = true, actions = { "text:Contributers List", "-", "delete", "copymove", "-", "insert" }, group = "Food and Wine", basePath = "jcr_root/apps/foodandwine/components", name = "contributorsList", value = "Contributers List", listeners = {
 	@Listener(name = "aftercopy", value = "REFRESH_PAGE"), @Listener(name = "afterdelete", value = "REFRESH_PAGE"),
 	@Listener(name = "afteredit", value = "REFRESH_PAGE"), @Listener(name = "afterinsert", value = "REFRESH_PAGE") })
 public class ContributorsList {
 	private static final int RESULTS_PER_PAGE = 25;
 	private final ExperienceSearchResult searchResult;
-	private final long totalExperiencesCount;
 	private final String searchParameter;
 	private final String searchPath;
 	private final long pages;
@@ -48,10 +47,6 @@ public class ContributorsList {
 		searchResult = experienceService.search(experienceSearchParameterBuilder.build());
 		pages = (long) Math.ceil(searchResult.getTotalCount() / (double) RESULTS_PER_PAGE);
 
-		ExperienceSearchParametersBuilder totalExperiences = new ExperienceSearchParametersBuilder();
-		totalExperiences.setCount(1);
-		totalExperiencesCount = experienceService.search(totalExperiences.build()).getTotalCount();
-
 		PageManager pageManager = request.getResourceResolver().adaptTo(PageManager.class);
 		Page searchPage = pageManager.getContainingPage(request.getResource());
 		searchPath = request.getResourceResolver().map(searchPage.getPath()) + ".html";
@@ -64,10 +59,6 @@ public class ContributorsList {
 
 	public ExperienceSearchResult getSearchResult() {
 		return searchResult;
-	}
-
-	public long getTotalExperiencesCount() {
-		return totalExperiencesCount;
 	}
 
 	public int getResultsPerPage() {

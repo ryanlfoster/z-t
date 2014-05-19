@@ -2,17 +2,23 @@ package com.australia.www.components.content.socialTiles;
 
 import org.apache.commons.lang3.StringUtils;
 
-import com.citytechinc.cq.component.annotations.widgets.Html5SmartImage;
 import com.citytechinc.cq.component.annotations.DialogField;
+import com.citytechinc.cq.component.annotations.FieldProperty;
+import com.citytechinc.cq.component.annotations.widgets.Html5SmartImage;
 import com.citytechinc.cq.component.annotations.widgets.PathField;
 import com.citytechinc.cq.component.annotations.widgets.RichTextEditor;
-import com.day.cq.wcm.foundation.Image;
 
 public class TileField {
 
+	@DialogField(xtype = "static", additionalProperties = { @FieldProperty(name = "text", value = "To render a tile, "
+		+ "both Text and Social Icon are required." + "\n"),
+		@FieldProperty(name = "italic", value = "true")  })
+	@SuppressWarnings("unused")
+	private String notice;
+	
 	@DialogField(fieldLabel = "Title")
 	private String title;
-	
+
 	@RichTextEditor
 	@DialogField(fieldLabel = "Text", fieldDescription = "Required")
 	private String text;
@@ -25,10 +31,6 @@ public class TileField {
 	@Html5SmartImage(tab = false, height = 150, allowUpload = false, name = "image")
 	private String imagePath;
 
-	@DialogField(fieldLabel = "See more link")
-	@PathField(rootPath = "/content")
-	private String link;
-
 	public void setImagePath(String imagePath) {
 		this.imagePath = imagePath;
 	}
@@ -39,10 +41,6 @@ public class TileField {
 
 	public void setTitle(String title) {
 		this.title = title;
-	}
-
-	public void setLink(String link) {
-		this.link = link;
 	}
 
 	public void setIconPath(String iconPath) {
@@ -59,10 +57,6 @@ public class TileField {
 
 	public String getTitle() {
 		return title;
-	}
-
-	public String getLink() {
-		return link;
 	}
 
 	public String getIconPath() {

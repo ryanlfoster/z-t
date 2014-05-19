@@ -8,4 +8,5 @@ import com.citytechinc.cq.component.annotations.Component;
 
 @Component(value = "Seperator", disableTargeting = true)
 public class Seperator {
+
 }

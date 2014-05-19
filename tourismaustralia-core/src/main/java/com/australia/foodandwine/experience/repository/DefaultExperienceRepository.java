@@ -1,6 +1,7 @@
 package com.australia.foodandwine.experience.repository;
 
 import java.util.ArrayList;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
@@ -42,17 +43,32 @@ public class DefaultExperienceRepository implements ExperienceRepository {
 	private static final Logger LOG = LoggerFactory.getLogger(DefaultATDWProductRepository.class);
 	private static final String JCR_PREFIX = "@" + NameConstants.NN_CONTENT + "/";
 	private static final String EXPERIENCE_RESOURCE_TYPE = "foodandwine/components/page/articlepage";
-
+	private Map<String, List<Experience>> articleMap;
+	private List<Experience> experiences;
 	@Reference
 	private ResourceResolverFactory resourceResolverFactory;
-
+	private SearchResult result;
 	@Reference
 	private QueryBuilder builder;
 
-	@Override
+	private void addToMap(String alphabet, Page page, TagManager tagManager) {
+		Experience experience = new Experience(page, tagManager);
+
+		if (articleMap.containsKey(alphabet)) {
+			articleMap.get(alphabet).add(experience);
+
+		} else {
+			experiences = new ArrayList<Experience>();
+			experiences.add(new Experience(page, tagManager));
+			articleMap.put(alphabet, experiences);
+
+		}
+
+	}
+
 	public ExperienceSearchResult search(ExperienceSearchParameters parameters) {
 		ResourceResolver resourceResolver = null;
-		List<Experience> experiences = new ArrayList<Experience>();
+		articleMap = new LinkedHashMap<String, List<Experience>>();
 		try {
 			resourceResolver = resourceResolverFactory.getAdministrativeResourceResolver(null);
 			TagManager tagManager = resourceResolver.adaptTo(TagManager.class);
@@ -63,6 +79,10 @@ public class DefaultExperienceRepository implements ExperienceRepository {
 			queryMap.put(QueryUtils.TYPE, NameConstants.NT_PAGE);
 			QueryUtils.addProperty(queryMap, propertyCount, JCR_PREFIX
 				+ JcrResourceConstants.SLING_RESOURCE_TYPE_PROPERTY, EXPERIENCE_RESOURCE_TYPE);
+			propertyCount++;
+			queryMap.put(propertyCount+"_property", JCR_PREFIX + "businessListing");
+			queryMap.put(propertyCount+"_property.value", "true");
+			queryMap.put(propertyCount+"_property.operation", "exists");
 			propertyCount++;
 			String path = PathUtils.FOOD_AND_WINE_ROOT_PATH;
 			queryMap.put(propertyCount + QueryUtils.SEPERATOR + QueryUtils.PATH, path);
@@ -91,21 +111,31 @@ public class DefaultExperienceRepository implements ExperienceRepository {
 			queryMap.put(QueryUtils.OFFSET, Long.toString((parameters.getPage() - 1) * parameters.getCount()));
 			queryMap.put(QueryUtils.LIMIT, Long.toString(parameters.getCount()));
 			Query query = builder.createQuery(PredicateGroup.create(queryMap), session);
-			SearchResult result = query.getResult();
+			result = query.getResult();
 			for (Hit hit : result.getHits()) {
 				try {
 					if (hit.getPath() != null) {
 						Page page = pageManager.getPage(hit.getPath());
 						if (page != null
 							&& page.getTemplate().getPath().equals("/apps/foodandwine/templates/articlepage")) {
-							experiences.add(new Experience(page, tagManager));
+							String alphabet = StringUtils.EMPTY;
+							String articleTitle = StringUtils.EMPTY;
+							articleTitle = page.getTitle();
+							alphabet = page.getTitle();
+							alphabet = Character.toString(alphabet.charAt(0)).toUpperCase();
+							char charAt = articleTitle.charAt(0);
+							String charecter = Character.toString(charAt).toUpperCase();
+							if (alphabet.equalsIgnoreCase(charecter)) {
+								addToMap(alphabet, page, tagManager);
+							}
+
 						}
 					}
 				} catch (RepositoryException e) {
 					LOG.error("Error creating story", e);
 				}
 			}
-			return new ExperienceSearchResult(experiences, result.getTotalMatches(), parameters.getPage());
+
 		} catch (Exception e) {
 			LOG.error("Error searching for ATDW Products", e);
 		} finally {
@@ -113,7 +143,6 @@ public class DefaultExperienceRepository implements ExperienceRepository {
 				resourceResolver.close();
 			}
 		}
-		return null;
+		return new ExperienceSearchResult(experiences, articleMap, result.getTotalMatches(), parameters.getPage());
 	}
-
 }

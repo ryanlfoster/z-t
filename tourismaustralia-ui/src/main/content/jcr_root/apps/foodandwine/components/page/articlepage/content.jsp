@@ -4,11 +4,11 @@
 <% if (WCMMode.fromRequest(slingRequest) == WCMMode.EDIT) {%>
 		<script>
 		   Sidekick_CUSTOM = {
-		           "text": "Add to Shortlist",
+		           "text": "Experience Properties",
 		           "handler": function () {
 		               var contentWindow = CQ.utils.WCM.getContentWindow();
 		               var sidekick = CQ.wcm.Sidekick.findSidekick(this);
-		               var dialogPath = '/apps/foodandwine/components/page/shortlist/shortlist_dialog';
+		               var dialogPath = '/apps/foodandwine/components/page/articlepage/experience_dialog';
 		               var propsDialogConfig = contentWindow.CQ.WCM.getDialogConfig(dialogPath);
 		               propsDialogConfig.success = function (form, action) {
 		                   CQ.Util.reload(CQ.WCM.getContentWindow());
@@ -34,14 +34,15 @@
 		   }
 		</script>
 <% } %>
-
+<c:set var="articleDescription"
+value="<%=currentPage.getProperties().get("articleDescription", "")%>" />
 <div class="faw-article">
 		<!-- test background for testing, whow the transparent menu respons -->
 	<div class='form-hero'>
 		<div class="faw-hero-home-container">
 			<cq:include path="articleTitle" resourceType="foodandwine/components/content/articleTitle" />
 			<cq:include path="category" resourceType="foodandwine/components/content/category" />
-			<h3 class="faw-article-healdine">${currentPage.description}</h3>
+			<h3 class="faw-article-healdine">${articleDescription}</h3>
 		</div>
 	</div>
 

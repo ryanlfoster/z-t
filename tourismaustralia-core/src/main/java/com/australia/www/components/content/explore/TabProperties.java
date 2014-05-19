@@ -1,63 +1,115 @@
 package com.australia.www.components.content.explore;
 
-import com.australia.utils.LinkUtils;
-import org.apache.commons.lang.StringUtils;
+import com.citytechinc.cq.component.annotations.FieldProperty;
+import com.citytechinc.cq.component.annotations.widgets.Html5SmartImage;
+import com.citytechinc.cq.component.annotations.widgets.RichTextEditor;
+import org.apache.commons.lang3.StringUtils;
 import org.apache.sling.api.resource.Resource;
 
+import com.australia.content.domain.Content;
+import com.australia.pagecategories.PageCategory;
+import com.australia.utils.LinkUtils;
 import com.citytechinc.cq.component.annotations.DialogField;
 import com.citytechinc.cq.component.annotations.widgets.PathField;
-import com.day.cq.wcm.foundation.Image;
-import com.day.cq.wcm.api.Page;
-import com.day.cq.wcm.api.PageManager;
+import org.apache.sling.api.resource.ResourceUtil;
 
 public class TabProperties {
-	@DialogField(fieldDescription = "Back alt text")
+	@DialogField(fieldDescription = "Required", fieldLabel = "Back alt text")
 	private String altTextBack;
 
-	@DialogField(fieldDescription = "Path to page")
-	@PathField
+	@DialogField(fieldDescription = "Required", fieldLabel = "Path to page")
+	@PathField(rootPath = "/content")
 	private String pagePath;
 
-	@DialogField(fieldDescription = "Back image of page")
-	@PathField
+	@DialogField(fieldDescription = "Required", fieldLabel = "Image on back of card")
+	@Html5SmartImage(tab = false, height = 150, allowUpload = false, name = "image")
 	private String imageBack;
 
-	private String pageDescription;
-	private String pageTitle;
-	private String pageImagePath;
+	@DialogField(xtype = "static", tab = 2, additionalProperties = {
+			@FieldProperty(name = "text", value = "Text on back of card" + "\n"), @FieldProperty(name = "bold", value = "true") })
+	private String label1c3;
+	@DialogField(hideLabel = true)
+	@RichTextEditor()
+	private String textBack;
 
-	public String getAltTextBack() { return altTextBack; }
-	public String getImageBack(){ return imageBack; }
-	public String getPageTitle(){ return pageTitle; }
-	public String getPageImagePath(){ return pageImagePath; }
-	public String getPageDescription(){ return pageDescription; }
-	public String getPagePath(){ return LinkUtils.getHrefFromPath(pagePath); }
+	private Content content;
+
+	public String getAltTextBack() {
+		return altTextBack;
+	}
+
+	public String getTextBack(){
+		return textBack;
+	}
+
+	public String getImageBack() {
+		return imageBack;
+	}
+
+	public String getPageTitle() {
+		return content != null ? content.getTitle() : "";
+	}
+
+	public String getPageImagePath() {
+		return content != null ? content.getImagePath() : "";
+	}
+
+	public String getPageDescription() {
+		return content != null ? StringUtils.abbreviate(content.getText(),200) : "";
+	}
+
+	public PageCategory getPageCategory() {
+		return content != null ? content.getPageCategory() : PageCategory.ABORIGINAL_AUSTRALIA;
+	}
+
+	public String getPagePath() {
+		if(isValid()){
+			return pagePath;
+		} else {
+			return "";
+		}
+	}
+
+	public String getPageLink() {
+		if(isValid()){
+			return LinkUtils.getHrefFromPath(pagePath);
+		} else {
+			return "";
+		}
+	}
 
 	public void setImageBack(final String path) {
 		imageBack = path;
 	}
+
+	public void setTextBack(final String text) {
+		textBack = text;
+	}
+
 	public void setAltTextBack(final String text) {
 		altTextBack = text;
 	}
-	public void setPage(String path, Resource resource){
-		if(StringUtils.isNotBlank(path)){
-			PageManager pageManager = resource.getResourceResolver().adaptTo(PageManager.class);
+
+	public void setPage(String path, Resource resource) {
+		if (resource != null && StringUtils.isNotBlank(path)) {
 			pagePath = path;
-			Page page = pageManager.getContainingPage(path);
-			pageDescription = page.getDescription();
-			pageTitle = page.getTitle();
-			Resource imageRes = page.getContentResource("image");
-			if(imageRes!=null){
-				Image imageObj = new Image(imageRes);
-				pageImagePath = imageObj.getFileReference();
+			Resource pageResource = resource.getResourceResolver().resolve(path);
+			if (!ResourceUtil.isNonExistingResource(pageResource) && !ResourceUtil.isSyntheticResource(pageResource)) {
+				content = Content.fromResource(pageResource);
+			} else {
+				pagePath = "";
+				content = null;
 			}
-		}else{
-			pageDescription = "";
-			pageTitle = "";
-			pageImagePath = "";
+		} else {
 			pagePath = "";
+			content = null;
 		}
 	}
+
+	public boolean isValid() {
+		return pagePath != null && !pagePath.trim().isEmpty()
+			&& StringUtils.isNotBlank(imageBack)
+			&& StringUtils.isNotBlank(altTextBack);
+	}
+
 }
-
-

@@ -3,6 +3,10 @@ package com.australia.foodandwine.experience.domain;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.jcr.Node;
+import javax.jcr.PathNotFoundException;
+import javax.jcr.RepositoryException;
+
 import org.apache.commons.lang.StringUtils;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ValueMap;
@@ -24,6 +28,8 @@ public class Experience {
 	private final String icon;
 	private final String primaryCategory;
 	private final String link;
+	private String website;
+	private final boolean linkFromContributorsList;
 
 	public Experience(Page page, TagManager tagManager) {
 		ValueMap properties = page.getProperties();
@@ -34,8 +40,8 @@ public class Experience {
 		} else {
 			imagePath = "";
 		}
+		linkFromContributorsList = properties.get("linkFromContributorsList", false);
 		link = LinkUtils.getHrefFromPath(page.getPath());
-		// icon
 		icon = properties.get("categoryLogoPath", String.class);
 		// title
 		title = page.getTitle();
@@ -54,6 +60,18 @@ public class Experience {
 		city = (cityTag != null ? cityTag.getTitle() : StringUtils.EMPTY);
 		Tag primaryCategoryTag = TagUtils.getFoodAndWinePrimaryCategory(tagManager, cattags);
 		primaryCategory = (primaryCategoryTag != null ? primaryCategoryTag.getTitle() : StringUtils.EMPTY);
+		Node node = page.adaptTo(Node.class);
+		try {
+			Node jcrNode = node.getNode(JcrConstants.JCR_CONTENT);
+			if (jcrNode.getNode("map").hasProperty("website"))
+				website = "http://" + jcrNode.getNode("map").getProperty("website").getValue().getString();
+
+		} catch (PathNotFoundException e) {
+			e.printStackTrace();
+		} catch (RepositoryException e) {
+			e.printStackTrace();
+		}
+
 	}
 
 	public String getImagePath() {
@@ -86,6 +104,14 @@ public class Experience {
 
 	public String getLink() {
 		return link;
+	}
+
+	public String getWebsite() {
+		return website;
+	}
+
+	public boolean isLinkFromContributorsList() {
+		return linkFromContributorsList;
 	}
 
 }

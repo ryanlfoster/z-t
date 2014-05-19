@@ -3,7 +3,9 @@ package com.australia.mosaic;
 import java.util.List;
 
 /**
- * Represents a grid mosaic with one large single item balanced by a grid of 4 smaller items
+ * Represents a grid mosaic with one large single item balanced by a grid of 4
+ * smaller items
+ * 
  * @param <T>
  */
 public class FourToOneGridMosaic<T> {

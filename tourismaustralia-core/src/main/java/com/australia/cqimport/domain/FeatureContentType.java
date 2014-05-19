@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -14,11 +13,13 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for FeatureContentType complex type.
+ * <p>
+ * Java class for FeatureContentType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="FeatureContentType">
@@ -39,143 +40,118 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "FeatureContentType", propOrder = {
-    "hdlTitle",
-    "stfMoreLinkTitle",
-    "txtMainContent",
-    "conImageItem"
-})
+@XmlType(name = "FeatureContentType", propOrder = { "hdlTitle", "stfMoreLinkTitle", "txtMainContent", "conImageItem" })
 public class FeatureContentType {
 
-    @XmlElement(name = "hdl_Title", required = true)
-    protected String hdlTitle;
-    @XmlElement(name = "stf_MoreLinkTitle", required = true)
-    protected String stfMoreLinkTitle;
-    @XmlElement(name = "txt_MainContent", required = true)
-    protected String txtMainContent;
-    @XmlElement(name = "con_ImageItem", required = true)
-    protected ConImageItemType conImageItem;
-    @XmlAttribute(name = "isTemplate")
-    protected Byte isTemplate;
+	@XmlElement(name = "hdl_Title", required = true)
+	protected String hdlTitle;
+	@XmlElement(name = "stf_MoreLinkTitle", required = true)
+	protected String stfMoreLinkTitle;
+	@XmlElement(name = "txt_MainContent", required = true)
+	protected String txtMainContent;
+	@XmlElement(name = "con_ImageItem", required = true)
+	protected ConImageItemType conImageItem;
+	@XmlAttribute(name = "isTemplate")
+	protected Byte isTemplate;
 
-    /**
-     * Gets the value of the hdlTitle property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getHdlTitle() {
-        return hdlTitle;
-    }
+	/**
+	 * Gets the value of the hdlTitle property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getHdlTitle() {
+		return hdlTitle;
+	}
 
-    /**
-     * Sets the value of the hdlTitle property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setHdlTitle(String value) {
-        this.hdlTitle = value;
-    }
+	/**
+	 * Sets the value of the hdlTitle property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setHdlTitle(String value) {
+		this.hdlTitle = value;
+	}
 
-    /**
-     * Gets the value of the stfMoreLinkTitle property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfMoreLinkTitle() {
-        return stfMoreLinkTitle;
-    }
+	/**
+	 * Gets the value of the stfMoreLinkTitle property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfMoreLinkTitle() {
+		return stfMoreLinkTitle;
+	}
 
-    /**
-     * Sets the value of the stfMoreLinkTitle property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfMoreLinkTitle(String value) {
-        this.stfMoreLinkTitle = value;
-    }
+	/**
+	 * Sets the value of the stfMoreLinkTitle property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfMoreLinkTitle(String value) {
+		this.stfMoreLinkTitle = value;
+	}
 
-    /**
-     * Gets the value of the txtMainContent property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getTxtMainContent() {
-        return txtMainContent;
-    }
+	/**
+	 * Gets the value of the txtMainContent property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getTxtMainContent() {
+		return txtMainContent;
+	}
 
-    /**
-     * Sets the value of the txtMainContent property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setTxtMainContent(String value) {
-        this.txtMainContent = value;
-    }
+	/**
+	 * Sets the value of the txtMainContent property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setTxtMainContent(String value) {
+		this.txtMainContent = value;
+	}
 
-    /**
-     * Gets the value of the conImageItem property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link ConImageItemType }
-     *     
-     */
-    public ConImageItemType getConImageItem() {
-        return conImageItem;
-    }
+	/**
+	 * Gets the value of the conImageItem property.
+	 * 
+	 * @return possible object is {@link ConImageItemType }
+	 * 
+	 */
+	public ConImageItemType getConImageItem() {
+		return conImageItem;
+	}
 
-    /**
-     * Sets the value of the conImageItem property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link ConImageItemType }
-     *     
-     */
-    public void setConImageItem(ConImageItemType value) {
-        this.conImageItem = value;
-    }
+	/**
+	 * Sets the value of the conImageItem property.
+	 * 
+	 * @param value allowed object is {@link ConImageItemType }
+	 * 
+	 */
+	public void setConImageItem(ConImageItemType value) {
+		this.conImageItem = value;
+	}
 
-    /**
-     * Gets the value of the isTemplate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Byte }
-     *     
-     */
-    public Byte getIsTemplate() {
-        return isTemplate;
-    }
+	/**
+	 * Gets the value of the isTemplate property.
+	 * 
+	 * @return possible object is {@link Byte }
+	 * 
+	 */
+	public Byte getIsTemplate() {
+		return isTemplate;
+	}
 
-    /**
-     * Sets the value of the isTemplate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Byte }
-     *     
-     */
-    public void setIsTemplate(Byte value) {
-        this.isTemplate = value;
-    }
+	/**
+	 * Sets the value of the isTemplate property.
+	 * 
+	 * @param value allowed object is {@link Byte }
+	 * 
+	 */
+	public void setIsTemplate(Byte value) {
+		this.isTemplate = value;
+	}
 
 }

@@ -1,9 +1,12 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@include file="/apps/tourismaustralia/components/global.jsp" %>
 
 <div class="mosaic-item">
     <div class="mosaic-front-back-container flip-container">
         <div class="flipper">
+
+            <c:set var="category" value="${contentItem.pageCategory}"/>
 
             <div class="mosaic-column-front flip-front">
                 <!-- image start -->
@@ -15,7 +18,11 @@
                 <div class="mosaic-overlay">
                     <div class="vertical-container">
                         <div class="vertical-content text-center">
-                            <span class="label-destination type-destination theme-beaches">${contentItem.title}</span>
+                            <c:set var="categoryThemeClass" value=""/>
+                            <c:if test="${not empty category}">
+                                <c:set var="categoryThemeClass" value="${category.themeCssClass}"/>
+                            </c:if>
+                            <span class="label-destination type-destination ${categoryThemeClass}">${contentItem.title}</span>
                         </div>
                     </div>
                 </div>
@@ -31,10 +38,12 @@
                 <!-- date end -->
             </div>
 
-            <div class="mosaic-column-back mosaic-content flip-back mosaic-back theme-beaches">
+            <div class="mosaic-column-back mosaic-content flip-back mosaic-back ${categoryThemeClass}">
                 <div class="vertical-container">
                     <div class="vertical-content text-center">
-                        <img class="icon-generic" src="/etc/designs/tourismaustralia/clientlibs/imgs/icons/beaches_white_outline.png" alt="">
+                        <c:if test="${not empty category}">
+                            <img class="icon-generic" src="${category.whiteOutlineIcon}" alt="">
+                        </c:if>
                         <p class="type-destination line-through-line-wrapper">${contentItem.title}</p>
                     </div>
                 </div>
@@ -49,7 +58,9 @@
         <!-- close button end -->
         <div class="mosaic-item-container type-ieAntialias">
             <div class="l-h-center type-spacing-20">
-                <img src="/etc/designs/tourismaustralia/clientlibs/imgs/icons/art_culture.png" alt="">
+                <c:if test="${not empty category}">
+                    <img src="${category.standardIcon}" alt="">
+                </c:if>
             </div>
             <div class="line-through-container">
                 <div class="line-through"><span class="line-through-hr"></span></div>
@@ -61,10 +72,10 @@
             <div class="l-h-center l-padding-tb-30-lr-15">
                 <p>${contentItem.text}</p>
                 <p><a href="${contentItem.path}"><fmt:message key="View more information" /></a></p>
-                <a href="${contentItem.path}" class="btn-bubble bubble-colour-favourite">
+                <a data-pagepath="${contentItem.path}" class="btn-bubble bubble-colour-favourite">
                 <span class="btn-bubble-tooltip">
                     <span class="btn-bubble-tooltip-container">
-                        <fmt:message key="Add to your dream trip" />
+                        <fmt:message key="add to your dream trip" />
                     </span>
                 </span>
                 <span class="btn-bubble-button">

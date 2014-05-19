@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -14,11 +13,13 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for ExternalSiteArticleContentType complex type.
+ * <p>
+ * Java class for ExternalSiteArticleContentType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="ExternalSiteArticleContentType">
@@ -48,386 +49,318 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "ExternalSiteArticleContentType", propOrder = {
-    "hdlTitle",
-    "imgThumbnail",
-    "medFile",
-    "optIsExternalLink",
-    "optIsNewWindow",
-    "optPartnerLead",
-    "stfExternalLink",
-    "stfExternalLinkTitle",
-    "stfIsExternalSiteArticle",
-    "stfSubHeading",
-    "stfThumbnailAltTag",
-    "stfTrackingTitle",
-    "txtTeaser"
-})
+@XmlType(name = "ExternalSiteArticleContentType", propOrder = { "hdlTitle", "imgThumbnail", "medFile",
+	"optIsExternalLink", "optIsNewWindow", "optPartnerLead", "stfExternalLink", "stfExternalLinkTitle",
+	"stfIsExternalSiteArticle", "stfSubHeading", "stfThumbnailAltTag", "stfTrackingTitle", "txtTeaser" })
 public class ExternalSiteArticleContentType {
 
-    @XmlElement(name = "hdl_Title", required = true)
-    protected String hdlTitle;
-    @XmlElement(name = "img_Thumbnail", required = true)
-    protected String imgThumbnail;
-    @XmlElement(name = "med_File", required = true)
-    protected String medFile;
-    @XmlElement(name = "opt_IsExternalLink", required = true)
-    protected String optIsExternalLink;
-    @XmlElement(name = "opt_isNewWindow", required = true)
-    protected String optIsNewWindow;
-    @XmlElement(name = "opt_PartnerLead", required = true)
-    protected String optPartnerLead;
-    @XmlElement(name = "stf_externalLink", required = true)
-    protected String stfExternalLink;
-    @XmlElement(name = "stf_ExternalLinkTitle", required = true)
-    protected String stfExternalLinkTitle;
-    @XmlElement(name = "stf_IsExternalSiteArticle", required = true)
-    protected String stfIsExternalSiteArticle;
-    @XmlElement(name = "stf_SubHeading", required = true)
-    protected String stfSubHeading;
-    @XmlElement(name = "stf_ThumbnailAltTag", required = true)
-    protected String stfThumbnailAltTag;
-    @XmlElement(name = "stf_TrackingTitle", required = true)
-    protected String stfTrackingTitle;
-    @XmlElement(name = "txt_Teaser", required = true)
-    protected String txtTeaser;
-    @XmlAttribute(name = "isTemplate")
-    protected Byte isTemplate;
+	@XmlElement(name = "hdl_Title", required = true)
+	protected String hdlTitle;
+	@XmlElement(name = "img_Thumbnail", required = true)
+	protected String imgThumbnail;
+	@XmlElement(name = "med_File", required = true)
+	protected String medFile;
+	@XmlElement(name = "opt_IsExternalLink", required = true)
+	protected String optIsExternalLink;
+	@XmlElement(name = "opt_isNewWindow", required = true)
+	protected String optIsNewWindow;
+	@XmlElement(name = "opt_PartnerLead", required = true)
+	protected String optPartnerLead;
+	@XmlElement(name = "stf_externalLink", required = true)
+	protected String stfExternalLink;
+	@XmlElement(name = "stf_ExternalLinkTitle", required = true)
+	protected String stfExternalLinkTitle;
+	@XmlElement(name = "stf_IsExternalSiteArticle", required = true)
+	protected String stfIsExternalSiteArticle;
+	@XmlElement(name = "stf_SubHeading", required = true)
+	protected String stfSubHeading;
+	@XmlElement(name = "stf_ThumbnailAltTag", required = true)
+	protected String stfThumbnailAltTag;
+	@XmlElement(name = "stf_TrackingTitle", required = true)
+	protected String stfTrackingTitle;
+	@XmlElement(name = "txt_Teaser", required = true)
+	protected String txtTeaser;
+	@XmlAttribute(name = "isTemplate")
+	protected Byte isTemplate;
 
-    /**
-     * Gets the value of the hdlTitle property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getHdlTitle() {
-        return hdlTitle;
-    }
+	/**
+	 * Gets the value of the hdlTitle property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getHdlTitle() {
+		return hdlTitle;
+	}
 
-    /**
-     * Sets the value of the hdlTitle property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setHdlTitle(String value) {
-        this.hdlTitle = value;
-    }
+	/**
+	 * Sets the value of the hdlTitle property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setHdlTitle(String value) {
+		this.hdlTitle = value;
+	}
 
-    /**
-     * Gets the value of the imgThumbnail property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getImgThumbnail() {
-        return imgThumbnail;
-    }
+	/**
+	 * Gets the value of the imgThumbnail property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getImgThumbnail() {
+		return imgThumbnail;
+	}
 
-    /**
-     * Sets the value of the imgThumbnail property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setImgThumbnail(String value) {
-        this.imgThumbnail = value;
-    }
+	/**
+	 * Sets the value of the imgThumbnail property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setImgThumbnail(String value) {
+		this.imgThumbnail = value;
+	}
 
-    /**
-     * Gets the value of the medFile property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getMedFile() {
-        return medFile;
-    }
+	/**
+	 * Gets the value of the medFile property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getMedFile() {
+		return medFile;
+	}
 
-    /**
-     * Sets the value of the medFile property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setMedFile(String value) {
-        this.medFile = value;
-    }
+	/**
+	 * Sets the value of the medFile property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setMedFile(String value) {
+		this.medFile = value;
+	}
 
-    /**
-     * Gets the value of the optIsExternalLink property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getOptIsExternalLink() {
-        return optIsExternalLink;
-    }
+	/**
+	 * Gets the value of the optIsExternalLink property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getOptIsExternalLink() {
+		return optIsExternalLink;
+	}
 
-    /**
-     * Sets the value of the optIsExternalLink property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setOptIsExternalLink(String value) {
-        this.optIsExternalLink = value;
-    }
+	/**
+	 * Sets the value of the optIsExternalLink property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setOptIsExternalLink(String value) {
+		this.optIsExternalLink = value;
+	}
 
-    /**
-     * Gets the value of the optIsNewWindow property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getOptIsNewWindow() {
-        return optIsNewWindow;
-    }
+	/**
+	 * Gets the value of the optIsNewWindow property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getOptIsNewWindow() {
+		return optIsNewWindow;
+	}
 
-    /**
-     * Sets the value of the optIsNewWindow property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setOptIsNewWindow(String value) {
-        this.optIsNewWindow = value;
-    }
+	/**
+	 * Sets the value of the optIsNewWindow property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setOptIsNewWindow(String value) {
+		this.optIsNewWindow = value;
+	}
 
-    /**
-     * Gets the value of the optPartnerLead property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getOptPartnerLead() {
-        return optPartnerLead;
-    }
+	/**
+	 * Gets the value of the optPartnerLead property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getOptPartnerLead() {
+		return optPartnerLead;
+	}
 
-    /**
-     * Sets the value of the optPartnerLead property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setOptPartnerLead(String value) {
-        this.optPartnerLead = value;
-    }
+	/**
+	 * Sets the value of the optPartnerLead property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setOptPartnerLead(String value) {
+		this.optPartnerLead = value;
+	}
 
-    /**
-     * Gets the value of the stfExternalLink property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfExternalLink() {
-        return stfExternalLink;
-    }
+	/**
+	 * Gets the value of the stfExternalLink property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfExternalLink() {
+		return stfExternalLink;
+	}
 
-    /**
-     * Sets the value of the stfExternalLink property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfExternalLink(String value) {
-        this.stfExternalLink = value;
-    }
+	/**
+	 * Sets the value of the stfExternalLink property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfExternalLink(String value) {
+		this.stfExternalLink = value;
+	}
 
-    /**
-     * Gets the value of the stfExternalLinkTitle property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfExternalLinkTitle() {
-        return stfExternalLinkTitle;
-    }
+	/**
+	 * Gets the value of the stfExternalLinkTitle property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfExternalLinkTitle() {
+		return stfExternalLinkTitle;
+	}
 
-    /**
-     * Sets the value of the stfExternalLinkTitle property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfExternalLinkTitle(String value) {
-        this.stfExternalLinkTitle = value;
-    }
+	/**
+	 * Sets the value of the stfExternalLinkTitle property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfExternalLinkTitle(String value) {
+		this.stfExternalLinkTitle = value;
+	}
 
-    /**
-     * Gets the value of the stfIsExternalSiteArticle property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfIsExternalSiteArticle() {
-        return stfIsExternalSiteArticle;
-    }
+	/**
+	 * Gets the value of the stfIsExternalSiteArticle property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfIsExternalSiteArticle() {
+		return stfIsExternalSiteArticle;
+	}
 
-    /**
-     * Sets the value of the stfIsExternalSiteArticle property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfIsExternalSiteArticle(String value) {
-        this.stfIsExternalSiteArticle = value;
-    }
+	/**
+	 * Sets the value of the stfIsExternalSiteArticle property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfIsExternalSiteArticle(String value) {
+		this.stfIsExternalSiteArticle = value;
+	}
 
-    /**
-     * Gets the value of the stfSubHeading property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfSubHeading() {
-        return stfSubHeading;
-    }
+	/**
+	 * Gets the value of the stfSubHeading property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfSubHeading() {
+		return stfSubHeading;
+	}
 
-    /**
-     * Sets the value of the stfSubHeading property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfSubHeading(String value) {
-        this.stfSubHeading = value;
-    }
+	/**
+	 * Sets the value of the stfSubHeading property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfSubHeading(String value) {
+		this.stfSubHeading = value;
+	}
 
-    /**
-     * Gets the value of the stfThumbnailAltTag property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfThumbnailAltTag() {
-        return stfThumbnailAltTag;
-    }
+	/**
+	 * Gets the value of the stfThumbnailAltTag property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfThumbnailAltTag() {
+		return stfThumbnailAltTag;
+	}
 
-    /**
-     * Sets the value of the stfThumbnailAltTag property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfThumbnailAltTag(String value) {
-        this.stfThumbnailAltTag = value;
-    }
+	/**
+	 * Sets the value of the stfThumbnailAltTag property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfThumbnailAltTag(String value) {
+		this.stfThumbnailAltTag = value;
+	}
 
-    /**
-     * Gets the value of the stfTrackingTitle property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfTrackingTitle() {
-        return stfTrackingTitle;
-    }
+	/**
+	 * Gets the value of the stfTrackingTitle property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfTrackingTitle() {
+		return stfTrackingTitle;
+	}
 
-    /**
-     * Sets the value of the stfTrackingTitle property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfTrackingTitle(String value) {
-        this.stfTrackingTitle = value;
-    }
+	/**
+	 * Sets the value of the stfTrackingTitle property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfTrackingTitle(String value) {
+		this.stfTrackingTitle = value;
+	}
 
-    /**
-     * Gets the value of the txtTeaser property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getTxtTeaser() {
-        return txtTeaser;
-    }
+	/**
+	 * Gets the value of the txtTeaser property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getTxtTeaser() {
+		return txtTeaser;
+	}
 
-    /**
-     * Sets the value of the txtTeaser property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setTxtTeaser(String value) {
-        this.txtTeaser = value;
-    }
+	/**
+	 * Sets the value of the txtTeaser property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setTxtTeaser(String value) {
+		this.txtTeaser = value;
+	}
 
-    /**
-     * Gets the value of the isTemplate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Byte }
-     *     
-     */
-    public Byte getIsTemplate() {
-        return isTemplate;
-    }
+	/**
+	 * Gets the value of the isTemplate property.
+	 * 
+	 * @return possible object is {@link Byte }
+	 * 
+	 */
+	public Byte getIsTemplate() {
+		return isTemplate;
+	}
 
-    /**
-     * Sets the value of the isTemplate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Byte }
-     *     
-     */
-    public void setIsTemplate(Byte value) {
-        this.isTemplate = value;
-    }
+	/**
+	 * Sets the value of the isTemplate property.
+	 * 
+	 * @param value allowed object is {@link Byte }
+	 * 
+	 */
+	public void setIsTemplate(Byte value) {
+		this.isTemplate = value;
+	}
 
 }

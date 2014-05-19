@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -14,11 +13,13 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for BELayoutT4Type complex type.
+ * <p>
+ * Java class for BELayoutT4Type complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="BELayoutT4Type">
@@ -39,143 +40,118 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "BELayoutT4Type", propOrder = {
-    "stfHeader",
-    "stfSubHeader",
-    "conRightcontent",
-    "conSidebar"
-})
+@XmlType(name = "BELayoutT4Type", propOrder = { "stfHeader", "stfSubHeader", "conRightcontent", "conSidebar" })
 public class BELayoutT4Type {
 
-    @XmlElement(name = "stf_Header", required = true)
-    protected String stfHeader;
-    @XmlElement(name = "stf_SubHeader", required = true)
-    protected String stfSubHeader;
-    @XmlElement(name = "con_rightcontent", required = true)
-    protected ConRightcontentType conRightcontent;
-    @XmlElement(name = "con_sidebar", required = true)
-    protected ConSidebarType conSidebar;
-    @XmlAttribute(name = "isTemplate")
-    protected Byte isTemplate;
+	@XmlElement(name = "stf_Header", required = true)
+	protected String stfHeader;
+	@XmlElement(name = "stf_SubHeader", required = true)
+	protected String stfSubHeader;
+	@XmlElement(name = "con_rightcontent", required = true)
+	protected ConRightcontentType conRightcontent;
+	@XmlElement(name = "con_sidebar", required = true)
+	protected ConSidebarType conSidebar;
+	@XmlAttribute(name = "isTemplate")
+	protected Byte isTemplate;
 
-    /**
-     * Gets the value of the stfHeader property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfHeader() {
-        return stfHeader;
-    }
+	/**
+	 * Gets the value of the stfHeader property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfHeader() {
+		return stfHeader;
+	}
 
-    /**
-     * Sets the value of the stfHeader property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfHeader(String value) {
-        this.stfHeader = value;
-    }
+	/**
+	 * Sets the value of the stfHeader property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfHeader(String value) {
+		this.stfHeader = value;
+	}
 
-    /**
-     * Gets the value of the stfSubHeader property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfSubHeader() {
-        return stfSubHeader;
-    }
+	/**
+	 * Gets the value of the stfSubHeader property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfSubHeader() {
+		return stfSubHeader;
+	}
 
-    /**
-     * Sets the value of the stfSubHeader property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfSubHeader(String value) {
-        this.stfSubHeader = value;
-    }
+	/**
+	 * Sets the value of the stfSubHeader property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfSubHeader(String value) {
+		this.stfSubHeader = value;
+	}
 
-    /**
-     * Gets the value of the conRightcontent property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link ConRightcontentType }
-     *     
-     */
-    public ConRightcontentType getConRightcontent() {
-        return conRightcontent;
-    }
+	/**
+	 * Gets the value of the conRightcontent property.
+	 * 
+	 * @return possible object is {@link ConRightcontentType }
+	 * 
+	 */
+	public ConRightcontentType getConRightcontent() {
+		return conRightcontent;
+	}
 
-    /**
-     * Sets the value of the conRightcontent property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link ConRightcontentType }
-     *     
-     */
-    public void setConRightcontent(ConRightcontentType value) {
-        this.conRightcontent = value;
-    }
+	/**
+	 * Sets the value of the conRightcontent property.
+	 * 
+	 * @param value allowed object is {@link ConRightcontentType }
+	 * 
+	 */
+	public void setConRightcontent(ConRightcontentType value) {
+		this.conRightcontent = value;
+	}
 
-    /**
-     * Gets the value of the conSidebar property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link ConSidebarType }
-     *     
-     */
-    public ConSidebarType getConSidebar() {
-        return conSidebar;
-    }
+	/**
+	 * Gets the value of the conSidebar property.
+	 * 
+	 * @return possible object is {@link ConSidebarType }
+	 * 
+	 */
+	public ConSidebarType getConSidebar() {
+		return conSidebar;
+	}
 
-    /**
-     * Sets the value of the conSidebar property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link ConSidebarType }
-     *     
-     */
-    public void setConSidebar(ConSidebarType value) {
-        this.conSidebar = value;
-    }
+	/**
+	 * Sets the value of the conSidebar property.
+	 * 
+	 * @param value allowed object is {@link ConSidebarType }
+	 * 
+	 */
+	public void setConSidebar(ConSidebarType value) {
+		this.conSidebar = value;
+	}
 
-    /**
-     * Gets the value of the isTemplate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Byte }
-     *     
-     */
-    public Byte getIsTemplate() {
-        return isTemplate;
-    }
+	/**
+	 * Gets the value of the isTemplate property.
+	 * 
+	 * @return possible object is {@link Byte }
+	 * 
+	 */
+	public Byte getIsTemplate() {
+		return isTemplate;
+	}
 
-    /**
-     * Sets the value of the isTemplate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Byte }
-     *     
-     */
-    public void setIsTemplate(Byte value) {
-        this.isTemplate = value;
-    }
+	/**
+	 * Sets the value of the isTemplate property.
+	 * 
+	 * @param value allowed object is {@link Byte }
+	 * 
+	 */
+	public void setIsTemplate(Byte value) {
+		this.isTemplate = value;
+	}
 
 }

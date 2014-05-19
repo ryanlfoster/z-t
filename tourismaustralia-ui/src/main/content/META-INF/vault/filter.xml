@@ -5,6 +5,7 @@
     <filter root="/apps/tourismaustralia/install/${core.name}-${project.parent.version}.jar"/>
     <filter root="/apps/cq/personalization/components/contextstores"/>
     <filter root="/apps/sling/servlet/errorhandler"/>
+    <filter root="/apps/wcm/core/resources/languages"/>
     <filter root="/etc/clientcontext/tourismaustralia"/>
     <filter root="/etc/designs/tourismaustralia">
         <exclude pattern="/etc/designs/tourismaustralia/jcr:content(/.*)?"/>
@@ -17,5 +18,8 @@
     </filter>
     <filter root="/etc/workflow/launcher/config/food-and-wine-experience-launcher"/>
     <filter root="/etc/designs/tourismaustralia/jcr:content/global/clientcontext"/>
+    <filter root="/etc/tags/">
+    	 <exclude pattern="/etc/tags/(.*)"/>
+   	</filter>
     <filter root="/etc/packages/brightcove/brightcove_allinone-${brightcove-version}.zip"/>
 </workspaceFilter>

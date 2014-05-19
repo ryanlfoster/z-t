@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -13,11 +12,13 @@ import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for con_featureContentType complex type.
+ * <p>
+ * Java class for con_featureContentType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="con_featureContentType">
@@ -34,36 +35,30 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "con_featureContentType", propOrder = {
-    "beHomeStoriesContainer"
-})
+@XmlType(name = "con_featureContentType", propOrder = { "beHomeStoriesContainer" })
 public class ConFeatureContentType {
 
-    @XmlElement(name = "BEHomeStoriesContainer", required = true)
-    protected BEHomeStoriesContainerType beHomeStoriesContainer;
+	@XmlElement(name = "BEHomeStoriesContainer", required = true)
+	protected BEHomeStoriesContainerType beHomeStoriesContainer;
 
-    /**
-     * Gets the value of the beHomeStoriesContainer property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link BEHomeStoriesContainerType }
-     *     
-     */
-    public BEHomeStoriesContainerType getBEHomeStoriesContainer() {
-        return beHomeStoriesContainer;
-    }
+	/**
+	 * Gets the value of the beHomeStoriesContainer property.
+	 * 
+	 * @return possible object is {@link BEHomeStoriesContainerType }
+	 * 
+	 */
+	public BEHomeStoriesContainerType getBEHomeStoriesContainer() {
+		return beHomeStoriesContainer;
+	}
 
-    /**
-     * Sets the value of the beHomeStoriesContainer property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link BEHomeStoriesContainerType }
-     *     
-     */
-    public void setBEHomeStoriesContainer(BEHomeStoriesContainerType value) {
-        this.beHomeStoriesContainer = value;
-    }
+	/**
+	 * Sets the value of the beHomeStoriesContainer property.
+	 * 
+	 * @param value allowed object is {@link BEHomeStoriesContainerType }
+	 * 
+	 */
+	public void setBEHomeStoriesContainer(BEHomeStoriesContainerType value) {
+		this.beHomeStoriesContainer = value;
+	}
 
 }

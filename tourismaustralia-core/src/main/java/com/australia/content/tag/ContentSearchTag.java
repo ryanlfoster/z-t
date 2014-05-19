@@ -1,5 +1,16 @@
 package com.australia.content.tag;
 
+import java.io.IOException;
+import java.util.Arrays;
+
+import javax.servlet.jsp.JspException;
+import javax.servlet.jsp.PageContext;
+import javax.servlet.jsp.tagext.SimpleTagSupport;
+
+import org.apache.sling.api.SlingHttpServletRequest;
+import org.apache.sling.api.resource.Resource;
+import org.apache.sling.api.scripting.SlingScriptHelper;
+
 import com.australia.content.domain.ContentSearchParameters;
 import com.australia.content.domain.ContentSearchResult;
 import com.australia.content.service.ContentSearchException;
@@ -7,15 +18,6 @@ import com.australia.content.service.ContentSearchService;
 import com.australia.utils.MosaicUtils;
 import com.australia.utils.PathUtils;
 import com.australia.www.components.page.search.DisplayMode;
-import org.apache.sling.api.SlingHttpServletRequest;
-import org.apache.sling.api.resource.Resource;
-import org.apache.sling.api.scripting.SlingScriptHelper;
-
-import javax.servlet.jsp.JspException;
-import javax.servlet.jsp.PageContext;
-import javax.servlet.jsp.tagext.SimpleTagSupport;
-import java.io.IOException;
-import java.util.Arrays;
 
 public class ContentSearchTag extends SimpleTagSupport {
 
@@ -26,7 +28,8 @@ public class ContentSearchTag extends SimpleTagSupport {
 	private String mode;
 	private String var;
 
-	@Override public void doTag() throws JspException, IOException {
+	@Override
+	public void doTag() throws JspException, IOException {
 
 		final PageContext pageContext = (PageContext) getJspContext();
 		final SlingScriptHelper sling = (SlingScriptHelper) pageContext.getAttribute("sling");
@@ -46,7 +49,7 @@ public class ContentSearchTag extends SimpleTagSupport {
 		try {
 
 			ContentSearchResult result = service.search(params);
-			if(mode == null || DisplayMode.fromName(mode) == DisplayMode.GRID) {
+			if (mode == null || DisplayMode.fromName(mode) == DisplayMode.GRID) {
 				pageContext.setAttribute(var, MosaicUtils.convertToMosaic(result.getContent()),
 					PageContext.REQUEST_SCOPE);
 			} else {

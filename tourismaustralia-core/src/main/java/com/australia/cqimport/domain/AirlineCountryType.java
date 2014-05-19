@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -14,11 +13,13 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for AirlineCountryType complex type.
+ * <p>
+ * Java class for AirlineCountryType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="AirlineCountryType">
@@ -39,143 +40,118 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "AirlineCountryType", propOrder = {
-    "hdlTitle",
-    "stfHeading",
-    "stfTargetedCountry",
-    "ancFlights"
-})
+@XmlType(name = "AirlineCountryType", propOrder = { "hdlTitle", "stfHeading", "stfTargetedCountry", "ancFlights" })
 public class AirlineCountryType {
 
-    @XmlElement(name = "hdl_Title", required = true)
-    protected String hdlTitle;
-    @XmlElement(name = "stf_Heading", required = true)
-    protected String stfHeading;
-    @XmlElement(name = "stf_TargetedCountry", required = true)
-    protected String stfTargetedCountry;
-    @XmlElement(name = "anc_Flights", required = true)
-    protected AncFlightsType ancFlights;
-    @XmlAttribute(name = "isTemplate")
-    protected Byte isTemplate;
+	@XmlElement(name = "hdl_Title", required = true)
+	protected String hdlTitle;
+	@XmlElement(name = "stf_Heading", required = true)
+	protected String stfHeading;
+	@XmlElement(name = "stf_TargetedCountry", required = true)
+	protected String stfTargetedCountry;
+	@XmlElement(name = "anc_Flights", required = true)
+	protected AncFlightsType ancFlights;
+	@XmlAttribute(name = "isTemplate")
+	protected Byte isTemplate;
 
-    /**
-     * Gets the value of the hdlTitle property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getHdlTitle() {
-        return hdlTitle;
-    }
+	/**
+	 * Gets the value of the hdlTitle property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getHdlTitle() {
+		return hdlTitle;
+	}
 
-    /**
-     * Sets the value of the hdlTitle property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setHdlTitle(String value) {
-        this.hdlTitle = value;
-    }
+	/**
+	 * Sets the value of the hdlTitle property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setHdlTitle(String value) {
+		this.hdlTitle = value;
+	}
 
-    /**
-     * Gets the value of the stfHeading property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfHeading() {
-        return stfHeading;
-    }
+	/**
+	 * Gets the value of the stfHeading property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfHeading() {
+		return stfHeading;
+	}
 
-    /**
-     * Sets the value of the stfHeading property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfHeading(String value) {
-        this.stfHeading = value;
-    }
+	/**
+	 * Sets the value of the stfHeading property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfHeading(String value) {
+		this.stfHeading = value;
+	}
 
-    /**
-     * Gets the value of the stfTargetedCountry property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfTargetedCountry() {
-        return stfTargetedCountry;
-    }
+	/**
+	 * Gets the value of the stfTargetedCountry property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfTargetedCountry() {
+		return stfTargetedCountry;
+	}
 
-    /**
-     * Sets the value of the stfTargetedCountry property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfTargetedCountry(String value) {
-        this.stfTargetedCountry = value;
-    }
+	/**
+	 * Sets the value of the stfTargetedCountry property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfTargetedCountry(String value) {
+		this.stfTargetedCountry = value;
+	}
 
-    /**
-     * Gets the value of the ancFlights property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link AncFlightsType }
-     *     
-     */
-    public AncFlightsType getAncFlights() {
-        return ancFlights;
-    }
+	/**
+	 * Gets the value of the ancFlights property.
+	 * 
+	 * @return possible object is {@link AncFlightsType }
+	 * 
+	 */
+	public AncFlightsType getAncFlights() {
+		return ancFlights;
+	}
 
-    /**
-     * Sets the value of the ancFlights property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link AncFlightsType }
-     *     
-     */
-    public void setAncFlights(AncFlightsType value) {
-        this.ancFlights = value;
-    }
+	/**
+	 * Sets the value of the ancFlights property.
+	 * 
+	 * @param value allowed object is {@link AncFlightsType }
+	 * 
+	 */
+	public void setAncFlights(AncFlightsType value) {
+		this.ancFlights = value;
+	}
 
-    /**
-     * Gets the value of the isTemplate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Byte }
-     *     
-     */
-    public Byte getIsTemplate() {
-        return isTemplate;
-    }
+	/**
+	 * Gets the value of the isTemplate property.
+	 * 
+	 * @return possible object is {@link Byte }
+	 * 
+	 */
+	public Byte getIsTemplate() {
+		return isTemplate;
+	}
 
-    /**
-     * Sets the value of the isTemplate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Byte }
-     *     
-     */
-    public void setIsTemplate(Byte value) {
-        this.isTemplate = value;
-    }
+	/**
+	 * Sets the value of the isTemplate property.
+	 * 
+	 * @param value allowed object is {@link Byte }
+	 * 
+	 */
+	public void setIsTemplate(Byte value) {
+		this.isTemplate = value;
+	}
 
 }

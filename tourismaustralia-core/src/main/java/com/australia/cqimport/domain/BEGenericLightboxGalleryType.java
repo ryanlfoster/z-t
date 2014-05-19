@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -14,11 +13,13 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for BEGenericLightboxGalleryType complex type.
+ * <p>
+ * Java class for BEGenericLightboxGalleryType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="BEGenericLightboxGalleryType">
@@ -36,62 +37,52 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "BEGenericLightboxGalleryType", propOrder = {
-    "conGalleryItems"
-})
+@XmlType(name = "BEGenericLightboxGalleryType", propOrder = { "conGalleryItems" })
 public class BEGenericLightboxGalleryType {
 
-    @XmlElement(name = "con_gallery_items", required = true)
-    protected ConGalleryItemsType conGalleryItems;
-    @XmlAttribute(name = "isTemplate")
-    protected Byte isTemplate;
+	@XmlElement(name = "con_gallery_items", required = true)
+	protected ConGalleryItemsType conGalleryItems;
+	@XmlAttribute(name = "isTemplate")
+	protected Byte isTemplate;
 
-    /**
-     * Gets the value of the conGalleryItems property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link ConGalleryItemsType }
-     *     
-     */
-    public ConGalleryItemsType getConGalleryItems() {
-        return conGalleryItems;
-    }
+	/**
+	 * Gets the value of the conGalleryItems property.
+	 * 
+	 * @return possible object is {@link ConGalleryItemsType }
+	 * 
+	 */
+	public ConGalleryItemsType getConGalleryItems() {
+		return conGalleryItems;
+	}
 
-    /**
-     * Sets the value of the conGalleryItems property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link ConGalleryItemsType }
-     *     
-     */
-    public void setConGalleryItems(ConGalleryItemsType value) {
-        this.conGalleryItems = value;
-    }
+	/**
+	 * Sets the value of the conGalleryItems property.
+	 * 
+	 * @param value allowed object is {@link ConGalleryItemsType }
+	 * 
+	 */
+	public void setConGalleryItems(ConGalleryItemsType value) {
+		this.conGalleryItems = value;
+	}
 
-    /**
-     * Gets the value of the isTemplate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Byte }
-     *     
-     */
-    public Byte getIsTemplate() {
-        return isTemplate;
-    }
+	/**
+	 * Gets the value of the isTemplate property.
+	 * 
+	 * @return possible object is {@link Byte }
+	 * 
+	 */
+	public Byte getIsTemplate() {
+		return isTemplate;
+	}
 
-    /**
-     * Sets the value of the isTemplate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Byte }
-     *     
-     */
-    public void setIsTemplate(Byte value) {
-        this.isTemplate = value;
-    }
+	/**
+	 * Sets the value of the isTemplate property.
+	 * 
+	 * @param value allowed object is {@link Byte }
+	 * 
+	 */
+	public void setIsTemplate(Byte value) {
+		this.isTemplate = value;
+	}
 
 }

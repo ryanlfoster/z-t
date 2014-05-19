@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -13,11 +12,13 @@ import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for con_CarouselType complex type.
+ * <p>
+ * Java class for con_CarouselType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="con_CarouselType">
@@ -34,36 +35,30 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "con_CarouselType", propOrder = {
-    "carouselHolder"
-})
+@XmlType(name = "con_CarouselType", propOrder = { "carouselHolder" })
 public class ConCarouselType {
 
-    @XmlElement(name = "CarouselHolder", required = true)
-    protected CarouselHolderType carouselHolder;
+	@XmlElement(name = "CarouselHolder", required = true)
+	protected CarouselHolderType carouselHolder;
 
-    /**
-     * Gets the value of the carouselHolder property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link CarouselHolderType }
-     *     
-     */
-    public CarouselHolderType getCarouselHolder() {
-        return carouselHolder;
-    }
+	/**
+	 * Gets the value of the carouselHolder property.
+	 * 
+	 * @return possible object is {@link CarouselHolderType }
+	 * 
+	 */
+	public CarouselHolderType getCarouselHolder() {
+		return carouselHolder;
+	}
 
-    /**
-     * Sets the value of the carouselHolder property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link CarouselHolderType }
-     *     
-     */
-    public void setCarouselHolder(CarouselHolderType value) {
-        this.carouselHolder = value;
-    }
+	/**
+	 * Sets the value of the carouselHolder property.
+	 * 
+	 * @param value allowed object is {@link CarouselHolderType }
+	 * 
+	 */
+	public void setCarouselHolder(CarouselHolderType value) {
+		this.carouselHolder = value;
+	}
 
 }

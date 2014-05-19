@@ -35,7 +35,7 @@ public class TagCloud {
 		tagList = new ArrayList<String>();
 		// For each tag, generate a link
 		for (Tag tag : tags) {
-			String title = tag.getTitle(request.getLocale());
+			String title = tag.getTitle(page.getLanguage(false));
 			tagList.add(title);
 		}
 		if (properties != null) {

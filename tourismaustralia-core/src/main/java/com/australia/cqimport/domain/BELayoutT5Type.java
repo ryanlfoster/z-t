@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -14,11 +13,13 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for BELayoutT5Type complex type.
+ * <p>
+ * Java class for BELayoutT5Type complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="BELayoutT5Type">
@@ -46,332 +47,273 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "BELayoutT5Type", propOrder = {
-    "imgEvent",
-    "stfEventDetails",
-    "stfEventHeader",
-    "stfGalleryheader",
-    "stfHeader",
-    "stfHighlight",
-    "stfSubheader",
-    "txtHighLight",
-    "txtSummary",
-    "conMaincontent",
-    "conSidebar"
-})
+@XmlType(name = "BELayoutT5Type", propOrder = { "imgEvent", "stfEventDetails", "stfEventHeader", "stfGalleryheader",
+	"stfHeader", "stfHighlight", "stfSubheader", "txtHighLight", "txtSummary", "conMaincontent", "conSidebar" })
 public class BELayoutT5Type {
 
-    @XmlElement(name = "img_Event", required = true)
-    protected String imgEvent;
-    @XmlElement(name = "stf_EventDetails", required = true)
-    protected String stfEventDetails;
-    @XmlElement(name = "stf_EventHeader", required = true)
-    protected String stfEventHeader;
-    @XmlElement(name = "stf_galleryheader", required = true)
-    protected String stfGalleryheader;
-    @XmlElement(name = "stf_header", required = true)
-    protected String stfHeader;
-    @XmlElement(name = "stf_highlight", required = true)
-    protected String stfHighlight;
-    @XmlElement(name = "stf_subheader", required = true)
-    protected String stfSubheader;
-    @XmlElement(name = "txt_HighLight", required = true)
-    protected String txtHighLight;
-    @XmlElement(name = "txt_Summary", required = true)
-    protected String txtSummary;
-    @XmlElement(name = "con_Maincontent", required = true)
-    protected ConMaincontentType conMaincontent;
-    @XmlElement(name = "con_sidebar", required = true)
-    protected ConSidebarType conSidebar;
-    @XmlAttribute(name = "isTemplate")
-    protected Byte isTemplate;
+	@XmlElement(name = "img_Event", required = true)
+	protected String imgEvent;
+	@XmlElement(name = "stf_EventDetails", required = true)
+	protected String stfEventDetails;
+	@XmlElement(name = "stf_EventHeader", required = true)
+	protected String stfEventHeader;
+	@XmlElement(name = "stf_galleryheader", required = true)
+	protected String stfGalleryheader;
+	@XmlElement(name = "stf_header", required = true)
+	protected String stfHeader;
+	@XmlElement(name = "stf_highlight", required = true)
+	protected String stfHighlight;
+	@XmlElement(name = "stf_subheader", required = true)
+	protected String stfSubheader;
+	@XmlElement(name = "txt_HighLight", required = true)
+	protected String txtHighLight;
+	@XmlElement(name = "txt_Summary", required = true)
+	protected String txtSummary;
+	@XmlElement(name = "con_Maincontent", required = true)
+	protected ConMaincontentType conMaincontent;
+	@XmlElement(name = "con_sidebar", required = true)
+	protected ConSidebarType conSidebar;
+	@XmlAttribute(name = "isTemplate")
+	protected Byte isTemplate;
 
-    /**
-     * Gets the value of the imgEvent property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getImgEvent() {
-        return imgEvent;
-    }
+	/**
+	 * Gets the value of the imgEvent property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getImgEvent() {
+		return imgEvent;
+	}
 
-    /**
-     * Sets the value of the imgEvent property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setImgEvent(String value) {
-        this.imgEvent = value;
-    }
+	/**
+	 * Sets the value of the imgEvent property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setImgEvent(String value) {
+		this.imgEvent = value;
+	}
 
-    /**
-     * Gets the value of the stfEventDetails property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfEventDetails() {
-        return stfEventDetails;
-    }
+	/**
+	 * Gets the value of the stfEventDetails property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfEventDetails() {
+		return stfEventDetails;
+	}
 
-    /**
-     * Sets the value of the stfEventDetails property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfEventDetails(String value) {
-        this.stfEventDetails = value;
-    }
+	/**
+	 * Sets the value of the stfEventDetails property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfEventDetails(String value) {
+		this.stfEventDetails = value;
+	}
 
-    /**
-     * Gets the value of the stfEventHeader property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfEventHeader() {
-        return stfEventHeader;
-    }
+	/**
+	 * Gets the value of the stfEventHeader property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfEventHeader() {
+		return stfEventHeader;
+	}
 
-    /**
-     * Sets the value of the stfEventHeader property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfEventHeader(String value) {
-        this.stfEventHeader = value;
-    }
+	/**
+	 * Sets the value of the stfEventHeader property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfEventHeader(String value) {
+		this.stfEventHeader = value;
+	}
 
-    /**
-     * Gets the value of the stfGalleryheader property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfGalleryheader() {
-        return stfGalleryheader;
-    }
+	/**
+	 * Gets the value of the stfGalleryheader property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfGalleryheader() {
+		return stfGalleryheader;
+	}
 
-    /**
-     * Sets the value of the stfGalleryheader property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfGalleryheader(String value) {
-        this.stfGalleryheader = value;
-    }
+	/**
+	 * Sets the value of the stfGalleryheader property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfGalleryheader(String value) {
+		this.stfGalleryheader = value;
+	}
 
-    /**
-     * Gets the value of the stfHeader property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfHeader() {
-        return stfHeader;
-    }
+	/**
+	 * Gets the value of the stfHeader property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfHeader() {
+		return stfHeader;
+	}
 
-    /**
-     * Sets the value of the stfHeader property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfHeader(String value) {
-        this.stfHeader = value;
-    }
+	/**
+	 * Sets the value of the stfHeader property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfHeader(String value) {
+		this.stfHeader = value;
+	}
 
-    /**
-     * Gets the value of the stfHighlight property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfHighlight() {
-        return stfHighlight;
-    }
+	/**
+	 * Gets the value of the stfHighlight property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfHighlight() {
+		return stfHighlight;
+	}
 
-    /**
-     * Sets the value of the stfHighlight property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfHighlight(String value) {
-        this.stfHighlight = value;
-    }
+	/**
+	 * Sets the value of the stfHighlight property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfHighlight(String value) {
+		this.stfHighlight = value;
+	}
 
-    /**
-     * Gets the value of the stfSubheader property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfSubheader() {
-        return stfSubheader;
-    }
+	/**
+	 * Gets the value of the stfSubheader property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfSubheader() {
+		return stfSubheader;
+	}
 
-    /**
-     * Sets the value of the stfSubheader property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfSubheader(String value) {
-        this.stfSubheader = value;
-    }
+	/**
+	 * Sets the value of the stfSubheader property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfSubheader(String value) {
+		this.stfSubheader = value;
+	}
 
-    /**
-     * Gets the value of the txtHighLight property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getTxtHighLight() {
-        return txtHighLight;
-    }
+	/**
+	 * Gets the value of the txtHighLight property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getTxtHighLight() {
+		return txtHighLight;
+	}
 
-    /**
-     * Sets the value of the txtHighLight property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setTxtHighLight(String value) {
-        this.txtHighLight = value;
-    }
+	/**
+	 * Sets the value of the txtHighLight property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setTxtHighLight(String value) {
+		this.txtHighLight = value;
+	}
 
-    /**
-     * Gets the value of the txtSummary property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getTxtSummary() {
-        return txtSummary;
-    }
+	/**
+	 * Gets the value of the txtSummary property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getTxtSummary() {
+		return txtSummary;
+	}
 
-    /**
-     * Sets the value of the txtSummary property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setTxtSummary(String value) {
-        this.txtSummary = value;
-    }
+	/**
+	 * Sets the value of the txtSummary property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setTxtSummary(String value) {
+		this.txtSummary = value;
+	}
 
-    /**
-     * Gets the value of the conMaincontent property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link ConMaincontentType }
-     *     
-     */
-    public ConMaincontentType getConMaincontent() {
-        return conMaincontent;
-    }
+	/**
+	 * Gets the value of the conMaincontent property.
+	 * 
+	 * @return possible object is {@link ConMaincontentType }
+	 * 
+	 */
+	public ConMaincontentType getConMaincontent() {
+		return conMaincontent;
+	}
 
-    /**
-     * Sets the value of the conMaincontent property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link ConMaincontentType }
-     *     
-     */
-    public void setConMaincontent(ConMaincontentType value) {
-        this.conMaincontent = value;
-    }
+	/**
+	 * Sets the value of the conMaincontent property.
+	 * 
+	 * @param value allowed object is {@link ConMaincontentType }
+	 * 
+	 */
+	public void setConMaincontent(ConMaincontentType value) {
+		this.conMaincontent = value;
+	}
 
-    /**
-     * Gets the value of the conSidebar property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link ConSidebarType }
-     *     
-     */
-    public ConSidebarType getConSidebar() {
-        return conSidebar;
-    }
+	/**
+	 * Gets the value of the conSidebar property.
+	 * 
+	 * @return possible object is {@link ConSidebarType }
+	 * 
+	 */
+	public ConSidebarType getConSidebar() {
+		return conSidebar;
+	}
 
-    /**
-     * Sets the value of the conSidebar property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link ConSidebarType }
-     *     
-     */
-    public void setConSidebar(ConSidebarType value) {
-        this.conSidebar = value;
-    }
+	/**
+	 * Sets the value of the conSidebar property.
+	 * 
+	 * @param value allowed object is {@link ConSidebarType }
+	 * 
+	 */
+	public void setConSidebar(ConSidebarType value) {
+		this.conSidebar = value;
+	}
 
-    /**
-     * Gets the value of the isTemplate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Byte }
-     *     
-     */
-    public Byte getIsTemplate() {
-        return isTemplate;
-    }
+	/**
+	 * Gets the value of the isTemplate property.
+	 * 
+	 * @return possible object is {@link Byte }
+	 * 
+	 */
+	public Byte getIsTemplate() {
+		return isTemplate;
+	}
 
-    /**
-     * Sets the value of the isTemplate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Byte }
-     *     
-     */
-    public void setIsTemplate(Byte value) {
-        this.isTemplate = value;
-    }
+	/**
+	 * Sets the value of the isTemplate property.
+	 * 
+	 * @param value allowed object is {@link Byte }
+	 * 
+	 */
+	public void setIsTemplate(Byte value) {
+		this.isTemplate = value;
+	}
 
 }

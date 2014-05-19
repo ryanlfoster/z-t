@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -14,11 +13,13 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for BELayoutT6Type complex type.
+ * <p>
+ * Java class for BELayoutT6Type complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="BELayoutT6Type">
@@ -38,116 +39,96 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "BELayoutT6Type", propOrder = {
-    "stfHeader",
-    "conSidebar",
-    "conGallery"
-})
+@XmlType(name = "BELayoutT6Type", propOrder = { "stfHeader", "conSidebar", "conGallery" })
 public class BELayoutT6Type {
 
-    @XmlElement(name = "stf_Header", required = true)
-    protected String stfHeader;
-    @XmlElement(name = "con_sidebar", required = true)
-    protected ConSidebarType conSidebar;
-    @XmlElement(name = "con_gallery", required = true)
-    protected ConGalleryType conGallery;
-    @XmlAttribute(name = "isTemplate")
-    protected Byte isTemplate;
+	@XmlElement(name = "stf_Header", required = true)
+	protected String stfHeader;
+	@XmlElement(name = "con_sidebar", required = true)
+	protected ConSidebarType conSidebar;
+	@XmlElement(name = "con_gallery", required = true)
+	protected ConGalleryType conGallery;
+	@XmlAttribute(name = "isTemplate")
+	protected Byte isTemplate;
 
-    /**
-     * Gets the value of the stfHeader property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfHeader() {
-        return stfHeader;
-    }
+	/**
+	 * Gets the value of the stfHeader property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfHeader() {
+		return stfHeader;
+	}
 
-    /**
-     * Sets the value of the stfHeader property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfHeader(String value) {
-        this.stfHeader = value;
-    }
+	/**
+	 * Sets the value of the stfHeader property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfHeader(String value) {
+		this.stfHeader = value;
+	}
 
-    /**
-     * Gets the value of the conSidebar property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link ConSidebarType }
-     *     
-     */
-    public ConSidebarType getConSidebar() {
-        return conSidebar;
-    }
+	/**
+	 * Gets the value of the conSidebar property.
+	 * 
+	 * @return possible object is {@link ConSidebarType }
+	 * 
+	 */
+	public ConSidebarType getConSidebar() {
+		return conSidebar;
+	}
 
-    /**
-     * Sets the value of the conSidebar property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link ConSidebarType }
-     *     
-     */
-    public void setConSidebar(ConSidebarType value) {
-        this.conSidebar = value;
-    }
+	/**
+	 * Sets the value of the conSidebar property.
+	 * 
+	 * @param value allowed object is {@link ConSidebarType }
+	 * 
+	 */
+	public void setConSidebar(ConSidebarType value) {
+		this.conSidebar = value;
+	}
 
-    /**
-     * Gets the value of the conGallery property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link ConGalleryType }
-     *     
-     */
-    public ConGalleryType getConGallery() {
-        return conGallery;
-    }
+	/**
+	 * Gets the value of the conGallery property.
+	 * 
+	 * @return possible object is {@link ConGalleryType }
+	 * 
+	 */
+	public ConGalleryType getConGallery() {
+		return conGallery;
+	}
 
-    /**
-     * Sets the value of the conGallery property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link ConGalleryType }
-     *     
-     */
-    public void setConGallery(ConGalleryType value) {
-        this.conGallery = value;
-    }
+	/**
+	 * Sets the value of the conGallery property.
+	 * 
+	 * @param value allowed object is {@link ConGalleryType }
+	 * 
+	 */
+	public void setConGallery(ConGalleryType value) {
+		this.conGallery = value;
+	}
 
-    /**
-     * Gets the value of the isTemplate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Byte }
-     *     
-     */
-    public Byte getIsTemplate() {
-        return isTemplate;
-    }
+	/**
+	 * Gets the value of the isTemplate property.
+	 * 
+	 * @return possible object is {@link Byte }
+	 * 
+	 */
+	public Byte getIsTemplate() {
+		return isTemplate;
+	}
 
-    /**
-     * Sets the value of the isTemplate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Byte }
-     *     
-     */
-    public void setIsTemplate(Byte value) {
-        this.isTemplate = value;
-    }
+	/**
+	 * Sets the value of the isTemplate property.
+	 * 
+	 * @param value allowed object is {@link Byte }
+	 * 
+	 */
+	public void setIsTemplate(Byte value) {
+		this.isTemplate = value;
+	}
 
 }

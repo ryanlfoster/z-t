@@ -5,43 +5,46 @@ package com.australia.cqimport.vo;
  */
 public class TagVO {
 
-    private String name;
-    private String value;
+	private String name;
+	private String value;
 
-    public String getName() {
-        return name;
-    }
+	public String getName() {
+		return name;
+	}
 
-    public void setName(String name) {
-        this.name = name;
-    }
+	public void setName(String name) {
+		this.name = name;
+	}
 
-    public String getValue() {
-        return value;
-    }
+	public String getValue() {
+		return value;
+	}
 
-    public void setValue(String value) {
-        this.value = value;
-    }
+	public void setValue(String value) {
+		this.value = value;
+	}
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
+	@Override
+	public boolean equals(Object o) {
+		if (this == o)
+			return true;
+		if (o == null || getClass() != o.getClass())
+			return false;
 
-        TagVO tagVO = (TagVO) o;
+		TagVO tagVO = (TagVO) o;
 
-        //if (!name.equals(tagVO.name)) return false;
-        if (!value.equals(tagVO.value)) return false;
+		// if (!name.equals(tagVO.name)) return false;
+		if (!value.equals(tagVO.value))
+			return false;
 
-        return true;
-    }
+		return true;
+	}
 
-    @Override
-    public int hashCode() {
-        int result = name.hashCode();
-        result = 31 * result + value.hashCode();
-        return result;
-    }
+	@Override
+	public int hashCode() {
+		int result = name.hashCode();
+		result = 31 * result + value.hashCode();
+		return result;
+	}
 
 }

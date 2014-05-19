@@ -7,9 +7,10 @@
 	<exploreBeyond jcr:primaryType="sling:MessageEntry" sling:key="EXPLORE BEYOND THE CITY LIMITS" sling:message="Explore beyond city limits (french)"/>
     <viewMoreVideos jcr:primaryType="sling:MessageEntry" sling:key="View more videos" sling:message="Voir plus de vidéos"/>
     <addToYourDreamTrip jcr:primaryType="sling:MessageEntry" sling:key="add to your dream trip" sling:message="ajouter à votre voyage de rêve"/>
-	<showMap jcr:primaryType="sling:MessageEntry" sling:key="Show map" sling:message="Show map(FR)"/>
+	<viewMap jcr:primaryType="sling:MessageEntry" sling:key="View map" sling:message="View map(FR)"/>
 	<backToOverview jcr:primaryType="sling:MessageEntry" sling:key="Back to overview" sling:message="Back to overview(FR)"/>
 	<viewMoreInformation jcr:primaryType="sling:MessageEntry" sling:key="View more information" sling:message="View more information(FR)"/>
+    <viewTermsAndConditions jcr:primaryType="sling:MessageEntry" sling:key="View terms and conditions" sling:message="View terms and conditions(FR)"/>
     <makeYourTripHappen jcr:primaryType="sling:MessageEntry" sling:key="MAKE YOUR TRIP HAPPEN" sling:message="MAKE YOUR TRIP HAPPEN"/>
     <accommodation jcr:primaryType="sling:MessageEntry" sling:key="Accommodation" sling:message="Accommodation"/>
     <attractions jcr:primaryType="sling:MessageEntry" sling:key="Attractions" sling:message="Attractions"/>
@@ -28,6 +29,24 @@
     <viewMore jcr:primaryType="sling:MessageEntry" sling:key="View More" sling:message="View More"/>
     <searchMore jcr:primaryType="sling:MessageEntry" sling:key="Search More" sling:message="Search More"/>
     <readyToGetSerious jcr:primaryType="sling:MessageEntry" sling:key="Ready to get serious about {0}? We can help you sort out all the details with the options below." sling:message="Ready to get serious about {0}? We can help you sort out all the details with the options below."/>
-    <viewAllX jcr:primaryType="sling:MessageEntry" sling:key="View All {0}" sling:message="View All {0}"/>
-
+    <viewAllX jcr:primaryType="sling:MessageEntry" sling:key="View All {0}" sling:message="Afficher tous {0}"/>
+    <siteUsesCookies jcr:primaryType="sling:MessageEntry" sling:key="The site uses cookies." sling:message="The site uses cookies.(FR)"/>
+    <officialSite jcr:primaryType="sling:MessageEntry" sling:key="The official Australian tourism website." sling:message="The official Australian tourism website.(FR)"/>
+    <findOutMore jcr:primaryType="sling:MessageEntry" sling:key="Find out more" sling:message="Find out more(FR)"/>
+    <openNavigation jcr:primaryType="sling:MessageEntry" sling:key="Open Navigation" sling:message="Open Navigation(FR)"/>
+    <home jcr:primaryType="sling:MessageEntry" sling:key="Home" sling:message="Home(FR)"/>
+    <search jcr:primaryType="sling:MessageEntry" sling:key="Search" sling:message="Search(FR)"/>
+    <map jcr:primaryType="sling:MessageEntry" sling:key="Map" sling:message="Map(FR)"/>
+    <myTrip jcr:primaryType="sling:MessageEntry" sling:key="My Trip" sling:message="My Trip(FR)"/>
+    <skipToContent jcr:primaryType="sling:MessageEntry" sling:key="Skip to content" sling:message="Skip to content(FR)"/>
+    <skipToContent jcr:primaryType="sling:MessageEntry" sling:key="Skip to" sling:message="Skip to(FR)"/>
+    <closeNavigation jcr:primaryType="sling:MessageEntry" sling:key="Close Navigation" sling:message="Close Navigation)(FR)"/>
+    <bestTimeTogo jcr:primaryType="sling:MessageEntry" sling:key="Best time to go" sling:message="Best time to go (FR)" />
+    <duration jcr:primaryType="sling:MessageEntry" sling:key="Duration" sling:message="Duration (FR)" />
+    <totalDistance jcr:primaryType="sling:MessageEntry" sling:key="Total distance" sling:message="Total distance (FR)" />
+    <modeOfTransport jcr:primaryType="sling:MessageEntry" sling:key="Mode of transport" sling:message="Mode of transport (FR)" />
+    <moreInformation jcr:primaryType="sling:MessageEntry" sling:key="More information" sling:message="More information (FR)" />
+    <articleBy jcr:primaryType="sling:MessageEntry" sling:key="Article by" sling:message="Article by (FR)" />
+    <thingsToDo jcr:primaryType="sling:MessageEntry" sling:key="things to do" sling:message="choses à faire" />
+    <highlights jcr:primaryType="sling:MessageEntry" sling:key="highlights" sling:message="points forts" />
 </jcr:root>

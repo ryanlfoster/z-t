@@ -11,6 +11,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.adobe.granite.xss.XSSAPI;
+import com.australia.pagecategories.PageCategory;
 import com.australia.server.ServerNameService;
 import com.australia.utils.ServerUtils;
 import com.australia.www.components.page.sharethis.ShareThis;
@@ -22,7 +23,6 @@ import com.citytechinc.cq.component.annotations.widgets.NumberField;
 import com.citytechinc.cq.component.annotations.widgets.Selection;
 import com.day.cq.wcm.api.Page;
 import com.day.cq.wcm.api.PageManager;
-import com.day.cq.wcm.api.designer.Design;
 import com.day.cq.wcm.commons.WCMUtils;
 import com.day.cq.wcm.foundation.Image;
 import com.fasterxml.jackson.core.JsonProcessingException;
@@ -31,7 +31,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 @Component(value = "Global", path = "page", group = ".hidden", editConfig = false, fileName = "extra_dialog")
 public class Global {
 	private static final Logger LOG = LoggerFactory.getLogger(Global.class);
-	private final int OZCOM_CONTENT_ROOT = 1;
 
 	@DialogField(fieldLabel = "Hide from Search", fieldDescription = "Removes the page from the site search")
 	@Selection(type = Selection.CHECKBOX, options = @Option(value = "true"))
@@ -47,6 +46,9 @@ public class Global {
 	@NumberField(decimalPrecision = 4)
 	private final Double longitude;
 
+	@DialogField(fieldLabel = "Page Category", xtype = "categoryselect")
+	private final String ausPageCategory;
+
 	private final String title;
 	private final String description;
 	private final String keywords;
@@ -57,6 +59,7 @@ public class Global {
 	private final String socialNetworks;
 	private final Boolean isHomePage;
 	private final boolean prodPublish;
+	private final Boolean isAuHomePage;
 
 	public Global(SlingHttpServletRequest request) {
 		SlingScriptHelper sling = ((SlingBindings) request.getAttribute(SlingBindings.class.getName())).getSling();
@@ -71,14 +74,16 @@ public class Global {
 		removeFromSearch = properties.get("removeFromSearch", false);
 		latitude = properties.get("latitude", Double.class);
 		longitude = properties.get("longitude", Double.class);
+		ausPageCategory = properties.get("ausPageCategory", String.class);
 
 		title = currentPage.getTitle() == null ? xssAPI.encodeForHTML(currentPage.getName()) : xssAPI
 			.encodeForHTML(currentPage.getTitle());
 		description = xssAPI.encodeForHTMLAttr(properties.get("jcr:description", ""));
 		keywords = xssAPI.encodeForHTMLAttr(WCMUtils.getKeywords(currentPage, false));
 		lastModified = StringUtils.left(xssAPI.encodeForHTMLAttr(properties.get("cq:lastModified", "")), 10);
-		socialNetworks = this.getSocialNetworks(request, currentPage.getAbsoluteParent(OZCOM_CONTENT_ROOT));
 		isHomePage = currentPage.equals(currentPage.getAbsoluteParent(1));
+		isAuHomePage = currentPage.equals(currentPage.getAbsoluteParent(2));
+		socialNetworks = this.getSocialNetworks(request, currentPage);
 
 		Resource imageResource = currentPage.getContentResource();
 		Image image = new Image(imageResource, "image");
@@ -94,8 +99,12 @@ public class Global {
 			imagePath = null;
 		}
 
-		url = serverName + currentPage.getPath() + ".html";
-		
+		if (slingSettings.getRunModes().contains(ServerUtils.PUBLISH)) {
+			url = request.getResourceResolver().map(currentPage.getPath() + ".html");
+		} else {
+			url = serverName + currentPage.getPath() + ".html";
+		}
+
 		String tempFavIcon = properties.get("cq:designPath", StringUtils.EMPTY) + "/favicon.ico";
 		if (request.getResourceResolver().getResource(tempFavIcon) == null) {
 			favIcon = null;
@@ -111,16 +120,26 @@ public class Global {
 		}
 	}
 
-	private String getSocialNetworks(SlingHttpServletRequest request, Page parent) {
-		String stPageURL = parent.getPath() + "/jcr:content/shareThis";
-		Resource sharethisPage = request.getResourceResolver().getResource(stPageURL);
-		ShareThis shareobj = new ShareThis(parent, sharethisPage);
+	/**
+	 * Gets the list of social networks (note: for aus.com ONLY)
+	 * 
+	 * @param request - sling request object to get the share properties
+	 * @param page - the current page used to get the home page
+	 * @return json string of social networks for the respective language site
+	 */
+	private String getSocialNetworks(SlingHttpServletRequest request, Page page) {
+		Page parent = page.getAbsoluteParent(2);
 		String json = "";
-		try {
-			ObjectMapper mapper = new ObjectMapper();
-			json = mapper.writeValueAsString(shareobj);
-		} catch (JsonProcessingException e) {
-			LOG.error("There was an error generating the json for SocialNetworks", e);
+		if (parent != null) {
+			String stPageURL = parent.getPath() + "/jcr:content/shareThis";
+			Resource sharethisPage = request.getResourceResolver().getResource(stPageURL);
+			ShareThis shareobj = new ShareThis(parent, sharethisPage);
+			try {
+				ObjectMapper mapper = new ObjectMapper();
+				json = mapper.writeValueAsString(shareobj);
+			} catch (JsonProcessingException e) {
+				LOG.error("There was an error generating the json for SocialNetworks", e);
+			}
 		}
 		return json;
 	}
@@ -135,6 +154,10 @@ public class Global {
 
 	public Double getLongitude() {
 		return longitude;
+	}
+
+	public PageCategory getPageCategory() {
+		return PageCategory.fromDisplayString(ausPageCategory);
 	}
 
 	public String getTitle() {
@@ -172,8 +195,12 @@ public class Global {
 	public Boolean getIsHomePage() {
 		return isHomePage;
 	}
+
 	public boolean isProdPublish() {
 		return prodPublish;
 	}
 
+	public Boolean getIsAuHomePage() {
+		return isAuHomePage;
+	}
 }

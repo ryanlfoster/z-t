@@ -3,31 +3,29 @@
 	import="com.australia.foodandwine.components.content.search.Search"%>
 
 <c:set var="search" value="<%=new Search(slingRequest) %>" />
-
 <cq:includeClientLib js="faw-search" />
 
+<script id="searchMosaic" type="text/x-handlebars-template">
+<cq:include script="template.jsp" />
+</script>
 
+<div class="faw-hero-home-container">
 
-<div class="faw-hero-home-container"
-	data-searchurl="${search.searchPath}">
-	<c:if test="${search.totalSearchResultsCount > 0}">
-	<h3 class="form-h3 l-padding-top-xs-2 l-padding-bottom-xs-0-5">${search.totalSearchResultsCount}
-		Search results for: <strong></strong>
-	</h3>
-	</c:if>
+	<h3 class="form-h3 l-padding-top-xs-2 l-padding-bottom-xs-0-5"></h3>
+
 	<input
 		class="input-field-blank input-field-big input-field-normal-left-border"
 		placeholder="E.g. Cafe Sydney"> <a href="#"
 		class="btn-secondary btn-auto-size">Search</a>
 </div>
+
+
 <div class="faw-search-tag-cloud">
-	<p class="faw-search-tag-cloud-headline">Other people were
-		intrested in searching for:</p>
+	<p class="faw-search-tag-cloud-headline">${search.headLine}</p>
 	<ul>
-		<li><a href="" target="_self">Alpine</a></li>
-		<li><a href="" target="_self">Roasted</a></li>
-		<li><a href="" target="_self">Outdoors</a></li>
-		<li><a href="" target="_self">Produce</a></li>
+		<c:forEach items="${search.interestedSearchList}" var="item">
+			<li><a href="#" onclick="interestedSearch('${item}')">${item}</a></li>
+		</c:forEach>
 	</ul>
 </div>
 
@@ -41,33 +39,35 @@
 
 			<!-- CATEGORY DROP DOWN -->
 			<div class="faw-category-mosaic-drop-down">
-				<select class="input-select input-select-small">
-					<option value="" selected="selected" disabled="">Filter by
-						category</option>
-					<option value="restaurants">Restaurants</option>
-					<option value="wine">Wine</option>
-					<option value="produce">Produce</option>
-					<option value="events">Events</option>
-					<option value="people">People</option>
-					<option value="experiences">Experiences</option>
-					<option value="seafood">Seafood</option>
+				<select
+					class="input-select input-select-small input-select-bottom-border input-select-mosaic-filter"
+					id="categoryDropdown">
+					<option value="" selected="selected">Filter by category</option>
+					<option value="ta:food-and-wine/category/restaurant">Restaurants</option>
+					<option value="ta:food-and-wine/category/wine">Wine</option>
+					<option value="ta:food-and-wine/category/produce">Produce</option>
+					<option value="ta:food-and-wine/category/events">Festivals</option>
+					<option value="ta:food-and-wine/category/people">People</option>
+					<option value="ta:food-and-wine/category/experiences">Experiences</option>
+					<option value="ta:food-and-wine/category/seafood">Seafood</option>
 				</select>
 			</div>
 			<!-- END: CATEGORY DROP DOWN -->
 
 			<!-- STATE DROP DOWN -->
 			<div class="faw-category-mosaic-drop-down">
-				<select class="input-select input-select-small">
-					<option value="" selected="selected" disabled="">Filter by
-						location</option>
-					<option value="southernaustralia">Capital</option>
-					<option value="victoria">NSW</option>
-					<option value="northern">Northern</option>
-					<option value="queensland">Queensland</option>
-					<option value="south">South</option>
-					<option value="tasmania">Tasmania</option>
-					<option value="victoria">Victoria</option>
-					<option value="western">Western</option>
+				<select
+					class="input-select input-select-small input-select-bottom-border input-select-mosaic-filter"
+					id="stateDropdown">
+					<option value="" selected="selected">Filter by location</option>
+					<option value="ta:place/australia-capital-territory">ACT</option>
+					<option value="ta:place/new-south-wales">NSW</option>
+					<option value="ta:place/northern-territory">NT</option>
+					<option value="ta:place/queensland">QLD</option>
+					<option value="ta:place/south-australia">SA</option>
+					<option value="ta:place/tasmania">TAS</option>
+					<option value="ta:place/victoria">VIC</option>
+					<option value="ta:place/western-australia">WA</option>
 				</select>
 			</div>
 			<!-- END: STATE DROP DOWN -->
@@ -84,49 +84,11 @@
 		</div>
 		<!-- END: GRID CHANGER BUTTONS -->
 	</div>
-	<div class="mosaic">
-		<div class="row l-row-collapse">
-			<div class="col-xs-12 col-md-6">
-				<c:forEach var="exp" items="${search.searchResult.experiences}">
-					<a href="${exp.link}" title="${exp.title }"
-						class="mosaic-item mosaic-item-grid"> <img
-						class="mosaic-item-image" src="${exp.imagePath}" alt=""
-						width="100%"> <!-- Parent view --> <span
-						class="mosaic-item-description"> <span
-							class="mosaic-item-description-head type-font-feature">${exp.city}
-								&amp; ${exp.primaryCategory}</span> <span
-							class="mosaic-item-description-sub">${exp.state}</span> <span
-							class="mosaic-item-description-copy">
-								${exp.pageDescription} <br>
-							<br> <span class="mosaic-item-description-copy-link"><strong>Read
-										more</strong></span>
-						</span> <span
-							class="mosaic-item-description-share mosaic-item-description-share-dark">
-								<img src="imgs/base/share/share-instagram-black.png" alt="">
-						</span> <span
-							class="mosaic-item-description-share mosaic-item-description-share-white">
-								<img src="imgs/base/share/share-instagram-white.png" alt="">
-						</span>
-					</span> <!-- End Parent view --> <!-- Overlay --> <span
-						class="mosaic-item-overlay mosaic-item-overlay-share"> <span
-							class="mosaic-item-overlay-share-container"> <span
-								class="mosaic-item-overlay-share-copy">
-									${exp.pageDescription} 
-								<br> <strong></strong>
-							</span>
-						</span>
-					</span> <!-- End Overlay -->
-					</a>
-				</c:forEach>
+	<div class="mosaic"></div>
 
+	<p class="type-spacing-120">
+		<a class="btn-secondary btn-auto-size">Show more Results</a>
+	</p>
 
-			</div>
-			<div class="col-xs-12 col-md-6">
+</div>
 
-				<div class="row">
-					<div class="col-xs-12 col-sm-6"></div>
-				</div>
-
-			</div>
-		</div>
-	</div>

@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -13,11 +12,13 @@ import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for con_MapType complex type.
+ * <p>
+ * Java class for con_MapType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="con_MapType">
@@ -34,36 +35,30 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "con_MapType", propOrder = {
-    "nlaMap"
-})
+@XmlType(name = "con_MapType", propOrder = { "nlaMap" })
 public class ConMapType {
 
-    @XmlElement(name = "NLAMap", required = true)
-    protected NLAMapType nlaMap;
+	@XmlElement(name = "NLAMap", required = true)
+	protected NLAMapType nlaMap;
 
-    /**
-     * Gets the value of the nlaMap property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link NLAMapType }
-     *     
-     */
-    public NLAMapType getNLAMap() {
-        return nlaMap;
-    }
+	/**
+	 * Gets the value of the nlaMap property.
+	 * 
+	 * @return possible object is {@link NLAMapType }
+	 * 
+	 */
+	public NLAMapType getNLAMap() {
+		return nlaMap;
+	}
 
-    /**
-     * Sets the value of the nlaMap property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link NLAMapType }
-     *     
-     */
-    public void setNLAMap(NLAMapType value) {
-        this.nlaMap = value;
-    }
+	/**
+	 * Sets the value of the nlaMap property.
+	 * 
+	 * @param value allowed object is {@link NLAMapType }
+	 * 
+	 */
+	public void setNLAMap(NLAMapType value) {
+		this.nlaMap = value;
+	}
 
 }

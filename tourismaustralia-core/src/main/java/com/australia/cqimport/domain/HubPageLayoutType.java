@@ -5,12 +5,12 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
+
 import javax.xml.bind.JAXBElement;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -21,11 +21,13 @@ import javax.xml.bind.annotation.XmlElementRefs;
 import javax.xml.bind.annotation.XmlMixed;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for HubPageLayoutType complex type.
+ * <p>
+ * Java class for HubPageLayoutType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="HubPageLayoutType">
@@ -55,156 +57,140 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "HubPageLayoutType", propOrder = {
-    "conBanner",
-    "conVideo"
-})
+@XmlType(name = "HubPageLayoutType", propOrder = { "conBanner", "conVideo" })
 public class HubPageLayoutType {
 
-    @XmlElement(name = "con_Banner", required = true)
-    protected HubPageLayoutType.ConBanner conBanner;
-    @XmlElement(name = "con_Video", required = true)
-    protected ConVideoType conVideo;
-    @XmlAttribute(name = "isTemplate")
-    protected Byte isTemplate;
+	@XmlElement(name = "con_Banner", required = true)
+	protected HubPageLayoutType.ConBanner conBanner;
+	@XmlElement(name = "con_Video", required = true)
+	protected ConVideoType conVideo;
+	@XmlAttribute(name = "isTemplate")
+	protected Byte isTemplate;
 
-    /**
-     * Gets the value of the conBanner property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link HubPageLayoutType.ConBanner }
-     *     
-     */
-    public HubPageLayoutType.ConBanner getConBanner() {
-        return conBanner;
-    }
+	/**
+	 * Gets the value of the conBanner property.
+	 * 
+	 * @return possible object is {@link HubPageLayoutType.ConBanner }
+	 * 
+	 */
+	public HubPageLayoutType.ConBanner getConBanner() {
+		return conBanner;
+	}
 
-    /**
-     * Sets the value of the conBanner property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link HubPageLayoutType.ConBanner }
-     *     
-     */
-    public void setConBanner(HubPageLayoutType.ConBanner value) {
-        this.conBanner = value;
-    }
+	/**
+	 * Sets the value of the conBanner property.
+	 * 
+	 * @param value allowed object is {@link HubPageLayoutType.ConBanner }
+	 * 
+	 */
+	public void setConBanner(HubPageLayoutType.ConBanner value) {
+		this.conBanner = value;
+	}
 
-    /**
-     * Gets the value of the conVideo property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link ConVideoType }
-     *     
-     */
-    public ConVideoType getConVideo() {
-        return conVideo;
-    }
+	/**
+	 * Gets the value of the conVideo property.
+	 * 
+	 * @return possible object is {@link ConVideoType }
+	 * 
+	 */
+	public ConVideoType getConVideo() {
+		return conVideo;
+	}
 
-    /**
-     * Sets the value of the conVideo property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link ConVideoType }
-     *     
-     */
-    public void setConVideo(ConVideoType value) {
-        this.conVideo = value;
-    }
+	/**
+	 * Sets the value of the conVideo property.
+	 * 
+	 * @param value allowed object is {@link ConVideoType }
+	 * 
+	 */
+	public void setConVideo(ConVideoType value) {
+		this.conVideo = value;
+	}
 
-    /**
-     * Gets the value of the isTemplate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Byte }
-     *     
-     */
-    public Byte getIsTemplate() {
-        return isTemplate;
-    }
+	/**
+	 * Gets the value of the isTemplate property.
+	 * 
+	 * @return possible object is {@link Byte }
+	 * 
+	 */
+	public Byte getIsTemplate() {
+		return isTemplate;
+	}
 
-    /**
-     * Sets the value of the isTemplate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Byte }
-     *     
-     */
-    public void setIsTemplate(Byte value) {
-        this.isTemplate = value;
-    }
+	/**
+	 * Sets the value of the isTemplate property.
+	 * 
+	 * @param value allowed object is {@link Byte }
+	 * 
+	 */
+	public void setIsTemplate(Byte value) {
+		this.isTemplate = value;
+	}
 
+	/**
+	 * <p>
+	 * Java class for anonymous complex type.
+	 * 
+	 * <p>
+	 * The following schema fragment specifies the expected content contained
+	 * within this class.
+	 * 
+	 * <pre>
+	 * &lt;complexType>
+	 *   &lt;complexContent>
+	 *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
+	 *       &lt;sequence>
+	 *         &lt;element name="ImageBanner" type="{}ImageBannerType" minOccurs="0"/>
+	 *         &lt;element name="MapControlBodyContent" type="{}MapControlBodyContentType" minOccurs="0"/>
+	 *       &lt;/sequence>
+	 *     &lt;/restriction>
+	 *   &lt;/complexContent>
+	 * &lt;/complexType>
+	 * </pre>
+	 * 
+	 * 
+	 */
+	@XmlAccessorType(XmlAccessType.FIELD)
+	@XmlType(name = "", propOrder = { "content" })
+	public static class ConBanner {
 
-    /**
-     * <p>Java class for anonymous complex type.
-     * 
-     * <p>The following schema fragment specifies the expected content contained within this class.
-     * 
-     * <pre>
-     * &lt;complexType>
-     *   &lt;complexContent>
-     *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
-     *       &lt;sequence>
-     *         &lt;element name="ImageBanner" type="{}ImageBannerType" minOccurs="0"/>
-     *         &lt;element name="MapControlBodyContent" type="{}MapControlBodyContentType" minOccurs="0"/>
-     *       &lt;/sequence>
-     *     &lt;/restriction>
-     *   &lt;/complexContent>
-     * &lt;/complexType>
-     * </pre>
-     * 
-     * 
-     */
-    @XmlAccessorType(XmlAccessType.FIELD)
-    @XmlType(name = "", propOrder = {
-        "content"
-    })
-    public static class ConBanner {
+		@XmlElementRefs({ @XmlElementRef(name = "MapControlBodyContent", type = JAXBElement.class, required = false),
+			@XmlElementRef(name = "ImageBanner", type = JAXBElement.class, required = false) })
+		@XmlMixed
+		protected List<Serializable> content;
 
-        @XmlElementRefs({
-            @XmlElementRef(name = "MapControlBodyContent", type = JAXBElement.class, required = false),
-            @XmlElementRef(name = "ImageBanner", type = JAXBElement.class, required = false)
-        })
-        @XmlMixed
-        protected List<Serializable> content;
+		/**
+		 * Gets the value of the content property.
+		 * 
+		 * <p>
+		 * This accessor method returns a reference to the live list, not a
+		 * snapshot. Therefore any modification you make to the returned list
+		 * will be present inside the JAXB object. This is why there is not a
+		 * <CODE>set</CODE> method for the content property.
+		 * 
+		 * <p>
+		 * For example, to add a new item, do as follows:
+		 * 
+		 * <pre>
+		 * getContent().add(newItem);
+		 * </pre>
+		 * 
+		 * 
+		 * <p>
+		 * Objects of the following type(s) are allowed in the list
+		 * {@link String } {@link JAXBElement }{@code <}
+		 * {@link MapControlBodyContentType }{@code >} {@link JAXBElement }
+		 * {@code <}{@link ImageBannerType }{@code >}
+		 * 
+		 * 
+		 */
+		public List<Serializable> getContent() {
+			if (content == null) {
+				content = new ArrayList<Serializable>();
+			}
+			return this.content;
+		}
 
-        /**
-         * Gets the value of the content property.
-         * 
-         * <p>
-         * This accessor method returns a reference to the live list,
-         * not a snapshot. Therefore any modification you make to the
-         * returned list will be present inside the JAXB object.
-         * This is why there is not a <CODE>set</CODE> method for the content property.
-         * 
-         * <p>
-         * For example, to add a new item, do as follows:
-         * <pre>
-         *    getContent().add(newItem);
-         * </pre>
-         * 
-         * 
-         * <p>
-         * Objects of the following type(s) are allowed in the list
-         * {@link String }
-         * {@link JAXBElement }{@code <}{@link MapControlBodyContentType }{@code >}
-         * {@link JAXBElement }{@code <}{@link ImageBannerType }{@code >}
-         * 
-         * 
-         */
-        public List<Serializable> getContent() {
-            if (content == null) {
-                content = new ArrayList<Serializable>();
-            }
-            return this.content;
-        }
-
-    }
+	}
 
 }

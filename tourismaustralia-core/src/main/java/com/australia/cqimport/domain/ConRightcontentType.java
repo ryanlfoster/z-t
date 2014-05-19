@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -13,11 +12,13 @@ import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for con_rightcontentType complex type.
+ * <p>
+ * Java class for con_rightcontentType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="con_rightcontentType">
@@ -36,90 +37,75 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "con_rightcontentType", propOrder = {
-    "beGenericHeaderAndConentBody",
-    "beAccommodationSearchResults",
-    "beWhatsOnSearchResults"
-})
+@XmlType(name = "con_rightcontentType", propOrder = { "beGenericHeaderAndConentBody", "beAccommodationSearchResults",
+	"beWhatsOnSearchResults" })
 public class ConRightcontentType {
 
-    @XmlElement(name = "BEGenericHeaderAndConentBody", required = true)
-    protected BEGenericHeaderAndConentBodyType beGenericHeaderAndConentBody;
-    @XmlElement(name = "BEAccommodationSearchResults")
-    protected BEAccommodationSearchResultsType beAccommodationSearchResults;
-    @XmlElement(name = "BEWhatsOnSearchResults")
-    protected BEWhatsOnSearchResultsType beWhatsOnSearchResults;
+	@XmlElement(name = "BEGenericHeaderAndConentBody", required = true)
+	protected BEGenericHeaderAndConentBodyType beGenericHeaderAndConentBody;
+	@XmlElement(name = "BEAccommodationSearchResults")
+	protected BEAccommodationSearchResultsType beAccommodationSearchResults;
+	@XmlElement(name = "BEWhatsOnSearchResults")
+	protected BEWhatsOnSearchResultsType beWhatsOnSearchResults;
 
-    /**
-     * Gets the value of the beGenericHeaderAndConentBody property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link BEGenericHeaderAndConentBodyType }
-     *     
-     */
-    public BEGenericHeaderAndConentBodyType getBEGenericHeaderAndConentBody() {
-        return beGenericHeaderAndConentBody;
-    }
+	/**
+	 * Gets the value of the beGenericHeaderAndConentBody property.
+	 * 
+	 * @return possible object is {@link BEGenericHeaderAndConentBodyType }
+	 * 
+	 */
+	public BEGenericHeaderAndConentBodyType getBEGenericHeaderAndConentBody() {
+		return beGenericHeaderAndConentBody;
+	}
 
-    /**
-     * Sets the value of the beGenericHeaderAndConentBody property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link BEGenericHeaderAndConentBodyType }
-     *     
-     */
-    public void setBEGenericHeaderAndConentBody(BEGenericHeaderAndConentBodyType value) {
-        this.beGenericHeaderAndConentBody = value;
-    }
+	/**
+	 * Sets the value of the beGenericHeaderAndConentBody property.
+	 * 
+	 * @param value allowed object is {@link BEGenericHeaderAndConentBodyType }
+	 * 
+	 */
+	public void setBEGenericHeaderAndConentBody(BEGenericHeaderAndConentBodyType value) {
+		this.beGenericHeaderAndConentBody = value;
+	}
 
-    /**
-     * Gets the value of the beAccommodationSearchResults property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link BEAccommodationSearchResultsType }
-     *     
-     */
-    public BEAccommodationSearchResultsType getBEAccommodationSearchResults() {
-        return beAccommodationSearchResults;
-    }
+	/**
+	 * Gets the value of the beAccommodationSearchResults property.
+	 * 
+	 * @return possible object is {@link BEAccommodationSearchResultsType }
+	 * 
+	 */
+	public BEAccommodationSearchResultsType getBEAccommodationSearchResults() {
+		return beAccommodationSearchResults;
+	}
 
-    /**
-     * Sets the value of the beAccommodationSearchResults property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link BEAccommodationSearchResultsType }
-     *     
-     */
-    public void setBEAccommodationSearchResults(BEAccommodationSearchResultsType value) {
-        this.beAccommodationSearchResults = value;
-    }
+	/**
+	 * Sets the value of the beAccommodationSearchResults property.
+	 * 
+	 * @param value allowed object is {@link BEAccommodationSearchResultsType }
+	 * 
+	 */
+	public void setBEAccommodationSearchResults(BEAccommodationSearchResultsType value) {
+		this.beAccommodationSearchResults = value;
+	}
 
-    /**
-     * Gets the value of the beWhatsOnSearchResults property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link BEWhatsOnSearchResultsType }
-     *     
-     */
-    public BEWhatsOnSearchResultsType getBEWhatsOnSearchResults() {
-        return beWhatsOnSearchResults;
-    }
+	/**
+	 * Gets the value of the beWhatsOnSearchResults property.
+	 * 
+	 * @return possible object is {@link BEWhatsOnSearchResultsType }
+	 * 
+	 */
+	public BEWhatsOnSearchResultsType getBEWhatsOnSearchResults() {
+		return beWhatsOnSearchResults;
+	}
 
-    /**
-     * Sets the value of the beWhatsOnSearchResults property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link BEWhatsOnSearchResultsType }
-     *     
-     */
-    public void setBEWhatsOnSearchResults(BEWhatsOnSearchResultsType value) {
-        this.beWhatsOnSearchResults = value;
-    }
+	/**
+	 * Sets the value of the beWhatsOnSearchResults property.
+	 * 
+	 * @param value allowed object is {@link BEWhatsOnSearchResultsType }
+	 * 
+	 */
+	public void setBEWhatsOnSearchResults(BEWhatsOnSearchResultsType value) {
+		this.beWhatsOnSearchResults = value;
+	}
 
 }

@@ -19,7 +19,7 @@
             <img src='${exploreBy.imagePath}.adapt.1663.high.jpg' alt='${exploreBy.imageAltTag}'>
         <![endif]-->
 	</div>
-		<div class='faw-places-inner'>
+	<div class='faw-places-inner'>
 			<div class="faw-territories-copy">
 				<hr class="divider-small">
 				<h5>${exploreBy.topText}</h5>
@@ -58,3 +58,6 @@
 		</div>
 	</div>
 </div>
+
+<cq:includeClientLib js="faw-territories"/>
+

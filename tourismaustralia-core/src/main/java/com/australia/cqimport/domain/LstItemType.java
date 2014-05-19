@@ -5,7 +5,6 @@
 // Generated on: 2014.03.17 at 01:40:13 PM EST 
 //
 
-
 package com.australia.cqimport.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -13,11 +12,13 @@ import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for lst_ItemType complex type.
+ * <p>
+ * Java class for lst_ItemType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="lst_ItemType">
@@ -37,117 +38,96 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "lst_ItemType", propOrder = {
-    "url",
-    "mdaItemDownload",
-    "stfItemTitle",
-    "stfItemContentBody"
-})
+@XmlType(name = "lst_ItemType", propOrder = { "url", "mdaItemDownload", "stfItemTitle", "stfItemContentBody" })
 public class LstItemType {
 
-    @XmlElement(required = true)
-    protected String url;
-    @XmlElement(name = "mda_ItemDownload", required = true)
-    protected String mdaItemDownload;
-    @XmlElement(name = "stf_ItemTitle", required = true)
-    protected String stfItemTitle;
-    @XmlElement(name = "stf_ItemContentBody")
-    protected String stfItemContentBody;
+	@XmlElement(required = true)
+	protected String url;
+	@XmlElement(name = "mda_ItemDownload", required = true)
+	protected String mdaItemDownload;
+	@XmlElement(name = "stf_ItemTitle", required = true)
+	protected String stfItemTitle;
+	@XmlElement(name = "stf_ItemContentBody")
+	protected String stfItemContentBody;
 
-    /**
-     * Gets the value of the url property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getUrl() {
-        return url;
-    }
+	/**
+	 * Gets the value of the url property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getUrl() {
+		return url;
+	}
 
-    /**
-     * Sets the value of the url property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setUrl(String value) {
-        this.url = value;
-    }
+	/**
+	 * Sets the value of the url property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setUrl(String value) {
+		this.url = value;
+	}
 
-    /**
-     * Gets the value of the mdaItemDownload property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getMdaItemDownload() {
-        return mdaItemDownload;
-    }
+	/**
+	 * Gets the value of the mdaItemDownload property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getMdaItemDownload() {
+		return mdaItemDownload;
+	}
 
-    /**
-     * Sets the value of the mdaItemDownload property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setMdaItemDownload(String value) {
-        this.mdaItemDownload = value;
-    }
+	/**
+	 * Sets the value of the mdaItemDownload property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setMdaItemDownload(String value) {
+		this.mdaItemDownload = value;
+	}
 
-    /**
-     * Gets the value of the stfItemTitle property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfItemTitle() {
-        return stfItemTitle;
-    }
+	/**
+	 * Gets the value of the stfItemTitle property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfItemTitle() {
+		return stfItemTitle;
+	}
 
-    /**
-     * Sets the value of the stfItemTitle property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfItemTitle(String value) {
-        this.stfItemTitle = value;
-    }
+	/**
+	 * Sets the value of the stfItemTitle property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfItemTitle(String value) {
+		this.stfItemTitle = value;
+	}
 
-    /**
-     * Gets the value of the stfItemContentBody property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStfItemContentBody() {
-        return stfItemContentBody;
-    }
+	/**
+	 * Gets the value of the stfItemContentBody property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStfItemContentBody() {
+		return stfItemContentBody;
+	}
 
-    /**
-     * Sets the value of the stfItemContentBody property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStfItemContentBody(String value) {
-        this.stfItemContentBody = value;
-    }
+	/**
+	 * Sets the value of the stfItemContentBody property.
+	 * 
+	 * @param value allowed object is {@link String }
+	 * 
+	 */
+	public void setStfItemContentBody(String value) {
+		this.stfItemContentBody = value;
+	}
 
 }

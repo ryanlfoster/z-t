@@ -1,10 +1,10 @@
 package com.australia.utils;
 
-import org.apache.commons.lang.StringUtils;
-import org.apache.sling.api.resource.Resource;
-
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
+
+import org.apache.commons.lang.StringUtils;
+import org.apache.sling.api.resource.Resource;
 
 public final class PathUtils {
 
@@ -30,9 +30,8 @@ public final class PathUtils {
 	public static final String FOOD_AND_WINE_EXPERIENCES = FOOD_AND_WINE_ROOT_PATH + "/experiences";
 
 	public static final String FOOD_AND_WINE_USER_GENERATED = "/content/usergenerated/food-and-wine";
-	
-	public static final String DETAILED_MAP_PAGE_NAME = "detailedMap";
 
+	public static final String DETAILED_MAP_PAGE_NAME = "/explore";
 
 	public static final String ATDW_SEARCH_LOCALE_REL_PATH = "/atdwsearch.html";
 	public static final String CATEGORY_PARAM = "category";
@@ -81,8 +80,8 @@ public final class PathUtils {
 		return null;
 	}
 
-	public static String getAtdwSearchPath(Resource locale, String category, String state,
-		String region, String city, String term, int page) {
+	public static String getAtdwSearchPath(Resource locale, String category, String state, String region, String city,
+		String term, int page) {
 		StringBuilder sb = new StringBuilder();
 		sb.append(locale.getPath());
 		sb.append(ATDW_SEARCH_LOCALE_REL_PATH).append("?");
@@ -121,8 +120,7 @@ public final class PathUtils {
 				needAmp = true;
 			}
 			if (tagId != null) {
-				path.append(needAmp ? "&" : "").append(TAGID_PARAM).append("=")
-					.append(URLEncoder.encode(tagId, UTF8));
+				path.append(needAmp ? "&" : "").append(TAGID_PARAM).append("=").append(URLEncoder.encode(tagId, UTF8));
 			}
 		} catch (UnsupportedEncodingException e) {
 			throw new IllegalStateException(e);

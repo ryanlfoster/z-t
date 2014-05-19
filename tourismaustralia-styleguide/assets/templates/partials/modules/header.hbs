@@ -54,7 +54,8 @@ title: Header (Holiday)
                             <li class="is-current"><a href="#">Holiday</a></li>
                             <li><a href="#">Business</a></li>
                             <li class="nav-bar-toggle">
-                                <a class="nav-toggle-close" href="#nav-bar-top"><span class="icon icon-close icon-32" aria-hidden="true"></span>
+                                <a class="nav-toggle-close" href="#nav-bar-top">
+                                    <span class="icon-32 icon-close icon-font-cross" aria-hidden="true"></span>
                                     <span class="sr-only">Close Navigation</span></a></li>
                         </ul>
                     </div>
@@ -63,11 +64,12 @@ title: Header (Holiday)
                     {{! BEGIN: SUPLIMENTRY NAV }}
                     <ul class="nav-bar-nav nav-bar-right">
                         <li class="toggle-home vis-hidden-sm">
-                            <a href="#" tabindex="-1"><span class="icon icon-32 icon-home" aria-hidden="true"></span><span> Home</span></a>
+                            <a href="#" tabindex="-1"><span class="icon-32 icon-home icon-font-home" aria-hidden="true"></span><span> Home</span>
+                            </a>
                         </li>
 
                         <li id="nav-main-panel-search" class="toggle-search has-children">
-                            <a class="nav-toggle-panel" href="#nav-main-panel-search"><span class="icon icon-32 icon-search" aria-hidden="true"></span><span class="vis-hidden-sm"> Search</span></a>
+                            <a class="nav-toggle-panel" href="#nav-main-panel-search"><span class="icon-32 icon-search icon-font-Search_Icon" aria-hidden="true"></span><span class="vis-hidden-sm"> Search</span></a>
                             <ul class="nav-bar-panel">
                                 <li class="nav-bar-panel-container">
                                     <div class="nav-bar-panel-content">
@@ -76,19 +78,19 @@ title: Header (Holiday)
                                                 <label class="nav-search-label" for="nav-search-field">What would you like to explore in Australia?</label>
                                                 <input class="nav-search-text" id="nav-search-field" type="text" name="" value="" placeholder="What would you like to explore in Australia?"/>
                                                 <button class="biutton nav-search-button" type="submit" name="submit" value="submit">
-                                                    <span class="icon icon-32 icon-search" aria-hidden="true"></span><span class="vis-hidden"> Search</span>
+                                                    <span class="icon-32 icon-search icon-font-Search_Icon" aria-hidden="true"></span><span class="vis-hidden"> Search</span>
                                                 </button>
                                             </fieldset>
                                         </form>
 
-                                        <a tabindex="-1" class="nav-bar-panel-close" href="#nav-bar-top"><span class="icon icon-16 icon-close" aria-hidden="true"></span></a>
+                                        <a tabindex="-1" class="nav-bar-panel-close" href="#nav-bar-top"><span class="icon-16 icon-close icon-font-cross" aria-hidden="true"></span></a>
                                     </div>
                                 </li>
                             </ul>
                         </li>
 
                         <li class="link-map">
-                            <a class="nav-toggle-none" href="/mega_map_thing"><span class="icon icon-32 icon-map" aria-hidden="true"></span><span class="vis-hidden-sm"> Map</span></a>
+                            <a class="nav-toggle-none" href="/mega_map_thing"><span class="icon-32 icon-map icon-font-Australia_Icon" aria-hidden="true"></span><span class="vis-hidden-sm"> Map</span></a>
                         </li>
 
                         {{#parseJSON '{"data": "26"}'}}
@@ -102,7 +104,7 @@ title: Header (Holiday)
                     <ul class="nav-bar-nav nav-bar-left">
                         <li id="nav-main-panel-1" class="has-children">
                             <a class="nav-toggle-panel" href="#nav-main-panel-1">Things to do
-                                <span class="icon icon-16 icon-arrow-down" aria-hidden="true"></span></a>
+                                <span class="icon-16 icon-arrow-down icon-font-arrow_down" aria-hidden="true"></span></a>
                             <ul class="nav-bar-panel">
                                 <li class="nav-bar-panel-container">
                                     <a class="sr-only vis-focusable" href="#nav-main-panel-2">Skip to "Where to go"</a>
@@ -111,14 +113,14 @@ title: Header (Holiday)
 
                                         {{> header_megamenu_mosaic}}
 
-                                        <a tabindex="-1" class="nav-bar-panel-close" href="#nav-bar-top"><span class="icon icon-16 icon-close" aria-hidden="true"></span></a>
+                                        <a tabindex="-1" class="nav-bar-panel-close" href="#nav-bar-top"><span class="icon-16 icon-close icon-font-cross" aria-hidden="true"></span></a>
                                     </div>
                                 </li>
                             </ul>
                         </li>
                         <li id="nav-main-panel-2" class="has-children">
                             <a class="nav-toggle-panel" href="#nav-main-panel-2">Where to go
-                                <span class="icon icon-16 icon-arrow-down" aria-hidden="true"></span></a>
+                                <span class="icon-16 icon-arrow-down icon-font-arrow_down" aria-hidden="true"></span></a>
                             <ul class="nav-bar-panel">
                                 <li class="nav-bar-panel-container">
                                     <a class="sr-only vis-focusable" href="#nav-main-panel-3">Skip to "Plan your trip"</a>
@@ -128,14 +130,14 @@ title: Header (Holiday)
                                         {{> header_megamenu_map}}
 
 
-                                        <a tabindex="-1" class="nav-bar-panel-close" href="#nav-bar-top"><span class="icon icon-16 icon-close" aria-hidden="true"></span></a>
+                                        <a tabindex="-1" class="nav-bar-panel-close" href="#nav-bar-top"><span class="icon-16 icon-close icon-font-cross" aria-hidden="true"></span></a>
                                     </div>
                                 </li>
                             </ul>
                         </li>
                         <li id="nav-main-panel-3" class="has-children">
                             <a class="nav-toggle-panel" href="#nav-main-panel-3">Plan your trip
-                                <span class="icon icon-16 icon-arrow-down" aria-hidden="true"></span></a>
+                                <span class="icon-16 icon-arrow-down icon-font-arrow_down" aria-hidden="true"></span></a>
                             <ul class="nav-bar-panel">
                                 <li class="nav-bar-panel-container">
                                     <a class="sr-only vis-focusable" href="#main-content">Skip to content</a>
@@ -144,7 +146,7 @@ title: Header (Holiday)
 
                                         {{> header_megamenu_mosaic_secondary }}
 
-                                        <a tabindex="-1" class="nav-bar-panel-close" href="#nav-bar-top"><span class="icon icon-16 icon-close" aria-hidden="true"></span></a>
+                                        <a tabindex="-1" class="nav-bar-panel-close" href="#nav-bar-top"><span class="icon-16 icon-close icon-font-cross" aria-hidden="true"></span></a>
                                     </div>
                                 </li>
                             </ul>

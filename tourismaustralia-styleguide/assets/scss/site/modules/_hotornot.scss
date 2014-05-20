@@ -219,9 +219,23 @@
 
 .hotornot-close-btn {
   position: absolute;
-  top: .2em;
-  right: .2em;
+  top: pxtoem(5px);
+  right: pxtoem(5px);
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
 }
+.hotornot-close-btn .icon-close {
+  font-size: 0.9em;
+  text-decoration: none;
+  padding: 1.1em;
+  width: pxtoem(50px);
+  height: pxtoem(50px);
+  display: block;
+  text-align: right;
+}
+
 .hotornot-item-btn-position {
   position: absolute;
   bottom: 1em;

@@ -133,9 +133,29 @@
   }
 }
 .asp-search-agent-list-item-form-close-btn {
-	position: absolute;
-	top: 15px;
-	right: 20px;
+  position: absolute;
+  top: pxtoem(20px);
+  right: pxtoem(10px);
+  text-decoration: none;
+  @include breakpoint(lg){
+    right: pxtoem(30px);
+  }
+  &:hover {
+    .icon-close{
+      color: $btn-close-rol-color;
+    }
+    text-decoration: none;
+  }
+}
+.asp-search-agent-list-item-form-close-btn .icon-close {
+  color: $btn-close-std-color;
+  font-size: 0.9em;
+  text-decoration: none;
+  padding: 1.1em;
+  width: pxtoem(50px);
+  height: pxtoem(50px);
+  display: block;
+  text-align: right;
 }
 
 .asp-search-agent-list-item-form-btn {

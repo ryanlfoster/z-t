@@ -124,7 +124,7 @@
 }
 .theme-islands-border       {
   // island
-  border-bottom: pxtoem(2px) solid $type-category-colour-primary;
+  border-bottom: pxtoem(2px) solid $type-category-colour-secondary;
 }
 .theme-beaches-border       {
   //beaches
@@ -140,4 +140,108 @@
 }
 .theme-discover-border     {
   border-bottom: pxtoem(2px) solid $type-category-colour-secondary;
+}
+////////////////////////
+// CATEGORY BUTTON THEMES
+// used for hot or not diamond
+////////////////////////
+.theme-nature-button      {
+  .icon-close{
+    color: #FFF;
+  }
+  &:hover {
+    .icon-close{
+      color: #000;
+    }
+  }
+}
+.theme-outback-button       {
+  .icon-close{
+    color: #000;
+  }
+  &:hover {
+    .icon-close{
+      color: #FFF;
+    }
+  }
+}
+.theme-aboriginal-button    {
+  .icon-close{
+    color: #FFF;
+  }
+  &:hover {
+    .icon-close{
+      color: #000;
+    }
+  }
+}
+.theme-food-button        {
+  .icon-close{
+    color: #FFF;
+  }
+  &:hover {
+    .icon-close{
+      color: #000;
+    }
+  }
+}
+.theme-arts-button          {
+  .icon-close{
+    color: #FFF;
+  }
+  &:hover {
+    .icon-close{
+      color: #000;
+    }
+  }
+}
+.theme-islands-button       {
+  .icon-close{
+    color: #FFF;
+  }
+  &:hover {
+    .icon-close{
+      color: #000;
+    }
+  }
+}
+.theme-beaches-button       {
+  .icon-close{
+    color: #000;
+  }
+  &:hover {
+    .icon-close{
+      color: #FFF;
+    }
+  }
+}
+.theme-sports-button        {
+  .icon-close{
+    color: #000;
+  }
+  &:hover {
+    .icon-close{
+      color: #FFF;
+    }
+  }
+}
+.theme-adventure-button     {
+  .icon-close{
+    color: #000;
+  }
+  &:hover {
+    .icon-close{
+      color: #FFF;
+    }
+  }
+}
+.theme-discover-button     {
+  .icon-close{
+    color: #FFF;
+  }
+  &:hover {
+    .icon-close{
+      color: #000;
+    }
+  }
 }

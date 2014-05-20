@@ -252,14 +252,31 @@
   -o-transition: max-height 0.6s ease;
   -webkit-transition: max-height 0.6s ease;
   transition: max-height 0.6s ease;
-
-  .mosaic-detail-close-btn {
-    position: absolute;
-    right: 1em;
-    top: 1em;
-    z-index: 2;
+}
+.mosaic-detail-close-btn {
+  position: absolute;
+  right: 1em;
+  top: 1em;
+  z-index: 2;
+  text-decoration: none;
+  &:hover {
+    .icon-close{
+      color: $btn-close-rol-color;
+    }
+    text-decoration: none;
   }
 }
+.mosaic-detail-close-btn .icon-close {
+  color: $btn-close-std-color;
+  font-size: 0.9em;
+  text-decoration: none;
+  padding: 1.1em;
+  width: pxtoem(50px);
+  height: pxtoem(50px);
+  display: block;
+  text-align: right;
+}
+
 .is-trigger-content:not(.is-opacity) .mosaic-item-detail-container,
 .mosaic-grid-2-content .mosaic-item-detail-container.active {
   max-height:999px;

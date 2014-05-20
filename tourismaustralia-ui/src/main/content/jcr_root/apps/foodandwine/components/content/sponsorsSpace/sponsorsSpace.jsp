@@ -43,11 +43,15 @@
 								<div class="row sponsors-row-3">
 									<c:choose>
 										<c:when test="${sponsorsSpace.sponsor1.external }">
+											<c:if test="${not empty sponsorsSpace.sponsor1.linkTextPath }">
 											<a href="${sponsorsSpace.sponsor1.linkTextPath }" target="_BLANK"
 												class="sponsors-link">${sponsorsSpace.sponsor1.linkText }</a>
+												</c:if>
 										</c:when>
 										<c:otherwise>
+											<c:if test="${not empty sponsorsSpace.sponsor1.linkTextPath }">
 											<a href="${sponsorsSpace.sponsor1.linkTextPath }" class="sponsors-link">${sponsorsSpace.sponsor1.linkText }</a>
+										</c:if>
 										</c:otherwise>
 									</c:choose>
 								</div>
@@ -87,11 +91,15 @@
 								<div class="row sponsors-row-3">
 									<c:choose>
 										<c:when test="${sponsorsSpace.sponsor2.external }">
+											<c:if test="${not empty sponsorsSpace.sponsor2.linkTextPath }">
 											<a href="${sponsorsSpace.sponsor2.linkTextPath }" target="_BLANK"
 												class="sponsors-link">${sponsorsSpace.sponsor2.linkText }</a>
+												</c:if>
 										</c:when>
 										<c:otherwise>
+											<c:if test="${not empty sponsorsSpace.sponsor2.linkTextPath }">
 											<a href="${sponsorsSpace.sponsor2.linkTextPath }" class="sponsors-link">${sponsorsSpace.sponsor2.linkText }</a>
+										</c:if>
 										</c:otherwise>
 									</c:choose>
 								</div>
@@ -131,11 +139,15 @@
 								<div class="row sponsors-row-3">
 									<c:choose>
 										<c:when test="${sponsorsSpace.sponsor3.external }">
+											<c:if test="${not empty sponsorsSpace.sponsor3.linkTextPath }">
 											<a href="${sponsorsSpace.sponsor3.linkTextPath }" target="_BLANK"
 												class="sponsors-link">${sponsorsSpace.sponsor3.linkText }</a>
+												</c:if>
 										</c:when>
 										<c:otherwise>
+											<c:if test="${not empty sponsorsSpace.sponsor3.linkTextPath }">
 											<a href="${sponsorsSpace.sponsor3.linkTextPath }" class="sponsors-link">${sponsorsSpace.sponsor3.linkText }</a>
+										</c:if>
 										</c:otherwise>
 									</c:choose>
 								</div>

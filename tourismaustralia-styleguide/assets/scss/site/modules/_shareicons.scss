@@ -7,7 +7,10 @@
     margin: 0;
   }
   li {
-    float: left;
+    float: inherit;
+    @include breakpoint(md){
+      float: left;
+    }
     margin-right: pxtoem(10px);
     margin-bottom: pxtoem(8px);
     display: inline-block;
@@ -17,12 +20,18 @@
       //display:block;
       //padding-top: 0.5em;
 
+      top: pxtoem(-12px);
+      right: pxtoem(-2px);
+      padding-top: 22px;
+
+      @include breakpoint(md){
+        top: pxtoem(14px);
+        padding-top: 0;
+      }
       display: inline-block;
       position: relative;
-      top: 12px;
-      padding-top: 0;
       margin-right: 0.6em;
-      width: 54px;
+      width: pxtoem(80px);
     }
 
   margin-top: 1em;

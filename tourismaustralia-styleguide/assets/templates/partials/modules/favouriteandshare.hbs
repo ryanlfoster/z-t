@@ -2,18 +2,20 @@
 title: Favorite With Lines And Share
 ---
 
-
-<div class="row l-center-1200 l-padding-b favourite-with-share">
+<div class="favourite-share row l-center-1200">
     <div class="col-sm-7 col-sm-offset-3">
-        <div class="clearfix">
-            {{> seperator }}
-            <div class="favourite-container">
-                {{> favourite }}
+        {{> seperator }}
+
+        <div class="favourite-share-container">
+            <div class="favourite-share-details">
+                {{>favourite }}
             </div>
-            <div class="shareicons-container right-component">
+
+            <div class="favourite-share-icons">
                 {{>shareicons}}
             </div>
-            {{> seperator }}
         </div>
+
+        {{> seperator }}
     </div>
 </div>

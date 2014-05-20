@@ -24,8 +24,12 @@
   }
 }
 
-.iframe_notsupported h1{
-  margin-top: .25em;
+.iframe_notsupported .iframe_largetitle{
+  font-size: 5em;
+  color: #8d896f;
+  font-family: TAheadline, Helvetica, Arial, sans-serif;
+  display: block;
+  @include vertical-spacing-responsive('standard','standard');
 }
 
 .generictemplate_shown_ontablet{

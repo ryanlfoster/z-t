@@ -17,17 +17,6 @@
   position: relative;
 }
 
-.paragraph-home > ,
-.paragraph-icon,
-.paragraph-city,
-.paragraph-state,
-.paragraph-article,
-.paragraph-video,
-.paragraph-search,
-.paragraph-category,
-.paragraph-dreamtrip{
-
-}
 //** START - solve Background issue: where hero image is shown when Margin top is given to any Paragraph element
 // Working in Chrome, Safari, Firefox/Mozilla, IE8, IE9, IE10, IE11, iPhone3Gs, iPhone5, iPad ,Android default browser(stock)
 
@@ -37,9 +26,7 @@
 .paragraph-state:before,
 .paragraph-article:before,
 .paragraph-video:before,
-.paragraph-search:before,
-.paragraph-category:before,
-.paragraph-dreamtrip:before{
+.paragraph-search:before{
   content: '';
   width: 100%;
   border-top: $large-spacing-lg solid white;
@@ -64,7 +51,6 @@
 //** END - solve Background issue: where hero image is shown when Margin top is given to any Paragraph element
 
 .paragraph-privacy-policy{
-  padding-bottom: pxtoem(100px);
 }
 .paragraph-privacy-policy .section-intro{
   margin-top: pxtoem(78px);
@@ -147,7 +133,6 @@
   & >  p {
     padding-left: pxtoem(15px);
     padding-right: pxtoem(15px);
-    margin: 0;
   }
 
   @include breakpoint(md) {
@@ -163,7 +148,6 @@
       padding-right: 13em;
       padding-left: 13em;
       max-width: pxtoem(1200px);
-      margin: 0 auto;
     }
 
   }
@@ -176,7 +160,6 @@
   & >  p {
     padding-left: pxtoem(15px);
     padding-right: pxtoem(15px);
-    margin: 0;
   }
 
   @include breakpoint(md) {
@@ -197,7 +180,6 @@
       padding-right: pxtoem(130px);
       padding-left: 19.7em;
       max-width: pxtoem(1200px);
-      margin: 0 auto;
     }
 
   }
@@ -212,7 +194,6 @@
     text-align: center;
     padding-left: pxtoem(15px);
     padding-right: pxtoem(15px);
-    margin: 0 auto;
   }
 
   

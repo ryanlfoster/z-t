@@ -71,8 +71,7 @@
   font-size: pxtoem($h3-size);
   font-weight: normal;
   color: $type-heading-colour;
-  margin-top: 0;
-  margin-bottom: pxtoem(15px);
+  @include vertical-spacing-responsive('zero','zero');
 }
 
 .type-h2-as-h4 {

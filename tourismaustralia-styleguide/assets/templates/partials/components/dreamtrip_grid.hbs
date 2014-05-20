@@ -6,8 +6,10 @@ title: My Dream Trip
     <div class="row l-center-1200">
         <div class="col-xs-12">
 
-            {{#parseJSON '{"title": "Sydney"}'}}
-                {{> sectionintroextrapadding }}
+            {{#parseJSON '{
+                    "title": "Sydney"
+                    }'}}
+                {{> sectionintro }}
             {{/parseJSON}}
 
             <div class="search-results-list">

@@ -11,3 +11,7 @@
   color:#fff;
   margin:.4em auto;
 }
+
+.largetitlewithsubdescription h1{
+  @include vertical-spacing-responsive('zero','zero',0px, 17px);
+}

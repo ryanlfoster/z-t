@@ -1,3 +1,6 @@
+.sitemap-content{
+  @include vertical-spacing-responsive('zero','medium');
+}
 .sitemap-content .col-xs-12{
  text-align: left;
   @include breakpoint(sm) {
@@ -7,14 +10,15 @@
     text-align: left;
   }
 }
+.sitemap-content h2{
+  @include vertical-spacing-responsive('standard','zero');
+}
 
 .sitemap-content ul{
   padding:0;
-  margin:0 0 pxtoem(52px) 0;
+  margin-right:pxtoem(52px);
   list-style: none;
-  @include breakpoint(md) {
-    margin:0 pxtoem(52px) pxtoem(52px) 0;
-  }
+  @include vertical-spacing-responsive('zero','standard',0px, 3px);
 }
 
 .sitemap-content ul li{

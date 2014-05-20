@@ -6,7 +6,17 @@
 }
 
 .socialtiles h2{
-  @include vertical-spacing-responsive('zero','medium');
+  @include vertical-spacing-responsive('zero','zero', 0px, 17px);
+}
+.socialtiles + .favourite-with-share hr{
+  @include vertical-spacing-responsive('standard','zero');
+}
+.socialtiles + .favourite-with-share hr:first-child{
+  @include vertical-spacing-responsive('zero','standard');
+}
+
+.socialtiles .section-intro + .mosaic{
+  @include vertical-spacing-responsive('standard','zero');
 }
 
 .socialtiles-linethrough {

@@ -4,6 +4,7 @@
 .two-column-video{
   @include vertical-spacing-responsive('large','large');
 }
+.two-column-video h3{@include vertical-spacing-responsive('zero','standard');}
 .video-container {
   text-align: center;
   position: inherit;
@@ -84,7 +85,7 @@
 // VIDEO DESKTOP
 ///////////////
 .video-desktop-title-fullvideo-fav-tags-share{
-  padding: pxtoem($bottom-spacing-double) 0;
+  @include vertical-spacing-responsive('large','large',15px, 0px);
 }
 .videoitemwithtitle {
   background-color: $video_relatedvideos_bg;

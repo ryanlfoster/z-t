@@ -4,18 +4,19 @@
 }
 
 .section-title {
-  padding-top: pxtoem(60px);
-  padding-bottom: pxtoem(40px);
+  @include vertical-spacing-responsive('large','zero', 13px, 0px);
 
   h1 {
     font-size: pxtoem(80px);
-    margin-bottom: 0;
+    @include vertical-spacing-responsive('zero','zero',0px, 17px);
     @include breakpoint(md) {
       font-size: pxtoem(120px);
     }
   }
 }
-
+.section-title + .double-mosaic{
+  @include vertical-spacing-responsive('large','');
+}
 .section-buttons {
 
     padding: 0;

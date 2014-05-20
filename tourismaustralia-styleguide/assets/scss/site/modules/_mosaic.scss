@@ -639,3 +639,7 @@
   -webkit-transition: opacity .15s linear;
   @include opacity(1);
 }
+
+.mosaic-results-list-btn .btn-primary{
+  @include vertical-spacing-responsive('standard','zero');
+}

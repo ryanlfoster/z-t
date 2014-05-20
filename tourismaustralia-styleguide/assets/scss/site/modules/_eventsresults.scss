@@ -1,6 +1,7 @@
 .eventsresults {
-  padding-bottom: pxtoem(120px);
-  .mosaic-grid-1 {
-    padding-bottom: pxtoem(20px);
-  }
+  @include vertical-spacing-responsive('standard','large');
+}
+
+.eventsresults-btn{
+  @include vertical-spacing-responsive('standard','standard');
 }

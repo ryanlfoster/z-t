@@ -54,7 +54,9 @@
 		text-align: center;
 	}
 
-	h3 {
+	h2 {
+      @include vertical-spacing-responsive('zero','zero');
+
 		color: #fff;
 		font-size: pxtoem(40px);
 		

@@ -139,10 +139,7 @@
 }
 
 .search-results-list {
-  //margin: 0 pxtoem(-15px);
-  //@include breakpoint(sm){
-    margin: 0;
-  //}
+  @include vertical-spacing-responsive('standard','standard');
 }
 .search-results-list .video-play-icon {
   //width: 30%;

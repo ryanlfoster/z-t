@@ -7,13 +7,13 @@
     char="&lt;anonymous&gt;"
     evidence="&lt;anonymous&gt; is too complicated"
     reason="Cyclomatic: 4,
-    Halstead: 10.059
-    | Effort: 12782
-    | Volume: 1270.7
-    | Vocabulary: 80" />
+    Halstead: 10.087
+    | Effort: 13046
+    | Volume: 1293.3
+    | Vocabulary: 81" />
   
   <issue
-    line="51"
+    line="52"
     char="injectElementWithStyles"
     evidence="injectElementWithStyles is too complicated"
     reason="Cyclomatic: 7,
@@ -23,7 +23,7 @@
     | Vocabulary: 50" />
   
   <issue
-    line="98"
+    line="99"
     char="testProps"
     evidence="testProps is too complicated"
     reason="Cyclomatic: 3,
@@ -33,7 +33,7 @@
     | Vocabulary: 23" />
   
   <issue
-    line="108"
+    line="109"
     char="testDOMProps"
     evidence="testDOMProps is too complicated"
     reason="Cyclomatic: 4,
@@ -43,7 +43,7 @@
     | Vocabulary: 20" />
   
   <issue
-    line="125"
+    line="126"
     char="testPropsAll"
     evidence="testPropsAll is too complicated"
     reason="Cyclomatic: 2,
@@ -53,27 +53,27 @@
     | Vocabulary: 29" />
   
   <issue
-    line="185"
+    line="186"
     char="init"
     evidence="init is too complicated"
     reason="Cyclomatic: 8,
-    Halstead: 21.000
-    | Effort: 57796
-    | Volume: 2752.2
-    | Vocabulary: 89" />
+    Halstead: 21.364
+    | Effort: 61729
+    | Volume: 2889.5
+    | Vocabulary: 91" />
   
   <issue
-    line="261"
+    line="263"
     char="_adjustImgHolderHeights"
     evidence="_adjustImgHolderHeights is too complicated"
     reason="Cyclomatic: 3,
-    Halstead: 28.683
-    | Effort: 43332
-    | Volume: 1510.7
-    | Vocabulary: 57" />
+    Halstead: 28.364
+    | Effort: 46074
+    | Volume: 1624.4
+    | Vocabulary: 60" />
   
   <issue
-    line="347"
+    line="356"
     char="_updatePositions"
     evidence="_updatePositions is too complicated"
     reason="Cyclomatic: 2,
@@ -144,10 +144,10 @@
 <file name="assets/js/src/modules/jquery.ta.aspsearch.js">
   
 </file>
-<file name="assets/js/src/ta.main.js">
+<file name="assets/js/src/modules/jquery.ta.hotornot.js">
   
 </file>
-<file name="assets/js/src/modules/jquery.ta.hotornot.js">
+<file name="assets/js/src/ta.main.js">
   
 </file>
 <file name="assets/js/src/modules/jquery.ta.searchinput.js">

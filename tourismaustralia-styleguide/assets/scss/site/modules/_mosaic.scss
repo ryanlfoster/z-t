@@ -391,6 +391,63 @@
 ///////////////////
 // mosaic 3 column
 ///////////////////
+.mosaic-3column-item-option {
+  .mosaic-3column-logo-front {
+    display: inline-block;
+  }
+  .mosaic-3column-logo-back {
+    display: none;
+  }
+}
+.mosaic-3column-item-option.is-fade {
+  .mosaic-3column-logo-front {
+    display: none;
+  }
+  .mosaic-3column-logo-back {
+    display: inline-block;
+  }
+  .mosaic-3column-media {
+    background-color: $mosaic-colour-back-3column;
+    color: #FFF;
+  }
+}
+.mosaic-3column-front {
+  img {
+    width: 50%;
+  }
+  p {
+    line-height: 13px;
+    font-size: 13px;
+  }
+  @include breakpoint(sm) {
+    img {
+      width: initial;
+    }
+    p {
+      line-height: 15px;
+      font-size: 15px;
+    }
+  }
+  @include breakpoint(md) {
+    img {
+      width: initial;
+    }
+    p {
+      line-height: 12px;
+      font-size: 12px;
+    }
+  }
+  // needs custom break points to change font size
+  @include breakpoint(lg) {
+    img {
+      width: initial;
+    }
+    p {
+      line-height: 15px;
+      font-size: 14px;
+    }
+  }
+}
 .mosaic-3column-item-option{
   //padding: .2em;
   margin-bottom: pxtoem($mosaic-row-bottom-margin);

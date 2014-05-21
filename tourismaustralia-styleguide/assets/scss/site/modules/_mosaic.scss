@@ -229,11 +229,26 @@
   padding-top: pxtoem(40px);
   max-width: 100%;
   background-color: #f3f2eb;
-  font-size: .95em;
+  font-size: .9em;
   position: relative;
   margin: 0 auto;
 }
 
+/* ATDW CONTENT */
+.mosaic-3column-item-container .mosaic-item-container {
+  padding: .7em 3em 2em;
+}
+.mosaic-item-container-address {
+  margin-bottom: 20px;
+  padding: 0 1em;
+}
+.mosaic-item-container-view-more {
+  margin-top: -5px;
+  margin-bottom: 20px;
+}
+.mosaic-item-container-favourite-btn {
+  margin-top: 10px;
+}
 /* Hide / show mosaic details */
 /*
 .trigger-hide-show-mosaic:hover {

@@ -33,7 +33,8 @@
             mediaHeight: 900,
             parallax: true,
             touch: false,
-            dataIdForParallax: 0
+            dataIdForParallax: 0,
+            dataParallaxHeight:200
         },
         ImageScrollModernizr = {},
         docElement = document.documentElement,
@@ -197,6 +198,7 @@
 
                 //changed for the event [from data() to attr()], when this plugin is called on resize event of page.
                 this.extraHeight = parseFloat(this.$imageHolder.attr('data-extra-height')) || this.settings.extraHeight;
+                this.dataParallaxHeight = parseFloat(this.$imageHolder.attr('data-parallax-height')) || this.settings.dataParallaxHeight;
                 this.dataIdForParallax = this.$imageHolder.attr('data-id-for-parallax') || this.settings.dataIdForParallax;
                 this.ticking = false;
 
@@ -274,8 +276,15 @@
                     imageDiff,
                     adjustedYDiff,
                     holderToWinDiff;
+                var localExtraHeight =0;
 
                 imgHolderHeight = (this.settings.holderMinHeight < imgHolderHeight ? Math.floor(imgHolderHeight) : this.settings.holderMinHeight) + this.extraHeight;
+
+                //Start - Modified Code to fix the height to Defined px
+                localExtraHeight = this.dataParallaxHeight - imgHolderHeight;
+                imgHolderHeight = imgHolderHeight + localExtraHeight;
+                //End - Modified Code to fix the height to Defined px
+
                 fakedImgHeight = Math.floor(winHeight - (winHeight - imgHolderHeight) * this.settings.speed);
                 imgWidth = Math.round(this.mediaWidth * (fakedImgHeight / this.mediaHeight));
 

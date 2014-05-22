@@ -13,7 +13,6 @@
         if(csstransforms3d === true){
             $('.img-holder').imageScroll({
                 holderClass: 'parallaxHolder',
-                extraHeight: parseInt($(this).attr("data-extra-height")),
                 coverRatio: 0.50,
                 container: $('#main-content'),
                 parallax: csstransforms3d,

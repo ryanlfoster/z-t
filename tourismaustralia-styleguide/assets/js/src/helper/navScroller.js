@@ -5,43 +5,66 @@ navScroller.sectionLinks = new Array();
 
 navScroller.init = function(){
 
-	// store distances from top for each section.
-	$('.navScroller-section').each(function(index, value) {
-		navScroller.sectionDistances[index] = $(this).offset().top;
+    // store distances from top for each section.
+    $('.navScroller-section').each(function(index, value) {
+
+        if( $("html").hasClass("lt-ie9") ) {
+            //Disabled for IE8 only
+            //var offset   = getPosition($(this)[0]).top;
+            //navScroller.sectionDistances[index] = offset;
+        }
+        else
+        {
+            navScroller.sectionDistances[index] = $(this).offset().top;
+        }
+
 
         var hashLink = $(this).attr('data-section-name');
         navScroller.sectionLinks.push($('ul.navScroller a[href="#'+ hashLink +'"]'));
-	});
+    });
 
-	navScroller._bindEvents();
-	navScroller._updateActive();
+    navScroller._bindEvents();
+    navScroller._updateActive();
 
 };
+
+//hack for IE-8 not working properly
+function getPosition(element) {
+    var xPosition = 0;
+    var yPosition = 0;
+
+    while(element) {
+        xPosition += (element.offsetLeft - element.scrollLeft + element.clientLeft);
+        yPosition += (element.offsetTop - element.scrollTop + element.clientTop);
+        element = element.offsetParent;
+    }
+    return { x: xPosition, y: yPosition };
+}
 
 // populate nav with click events based on this distance
 navScroller._bindEvents = function(){
 
-	$('a[href*=#]:not([href=#])', '.navScroller').click(function() {
-		if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-			
-			var target = $(this.hash);
-			target = target.length ? target : $('[data-section-name=' + this.hash.slice(1) +']');
+    $('a[href*=#]:not([href=#])', '.navScroller').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
 
-			if (target.length) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[data-section-name=' + this.hash.slice(1) +']');
 
-				$('html,body').animate({
-				  scrollTop: target.offset().top - ($('.main-nav-panel').height() - 1) // offset to accommodate navbar
-				}, 1000);
+            if (target.length) {
 
-				$('.active', '.navScroller').removeClass('active');
-				if(this.hash.slice(1) != 'top'){
-					$('a[href=#' + this.hash.slice(1) +']', '.navScroller').parent().addClass('active');
-				}
+                $('html,body').animate({
+                    scrollTop: target.offset().top - ($('.main-nav-panel').height() - 1) // offset to accommodate navbar
+                }, 1000);
 
-				return false;
-			}
-		}
-	});
+                $('.active', '.navScroller').removeClass('active');
+                if(this.hash.slice(1) != 'top'){
+                    $('a[href=#' + this.hash.slice(1) +']', '.navScroller').parent().addClass('active');
+                }
+
+                return false;
+            }
+        }
+    });
 
 
 
@@ -93,7 +116,5 @@ navScroller._updateActive = function(){
 
 
 $(function() {
-	navScroller.init();	
+    navScroller.init();
 });
-
-

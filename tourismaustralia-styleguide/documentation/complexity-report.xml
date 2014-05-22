@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <jslint>
+<file name="assets/js/src/main.js">
+  
+</file>
+<file name="assets/js/src/modules/jquery.ta.aspsearch.js">
+  
+</file>
+<file name="assets/js/src/modules/jquery.ta.carousel.js">
+  
+</file>
+<file name="assets/js/src/modules/jquery.ta.flipcard.js">
+  
+</file>
+<file name="assets/js/src/modules/jquery.ta.fullwidthbg.js">
+  
+</file>
+<file name="assets/js/src/modules/jquery.ta.hotornot.js">
+  
+</file>
 <file name="assets/js/src/modules/jquery.ta.imageScroll.js">
   
   <issue
@@ -7,13 +25,13 @@
     char="&lt;anonymous&gt;"
     evidence="&lt;anonymous&gt; is too complicated"
     reason="Cyclomatic: 4,
-    Halstead: 10.030
-    | Effort: 12519
-    | Volume: 1248.1
-    | Vocabulary: 79" />
+    Halstead: 10.087
+    | Effort: 13046
+    | Volume: 1293.3
+    | Vocabulary: 81" />
   
   <issue
-    line="50"
+    line="52"
     char="injectElementWithStyles"
     evidence="injectElementWithStyles is too complicated"
     reason="Cyclomatic: 7,
@@ -23,7 +41,7 @@
     | Vocabulary: 50" />
   
   <issue
-    line="97"
+    line="99"
     char="testProps"
     evidence="testProps is too complicated"
     reason="Cyclomatic: 3,
@@ -33,7 +51,7 @@
     | Vocabulary: 23" />
   
   <issue
-    line="107"
+    line="109"
     char="testDOMProps"
     evidence="testDOMProps is too complicated"
     reason="Cyclomatic: 4,
@@ -43,7 +61,7 @@
     | Vocabulary: 20" />
   
   <issue
-    line="124"
+    line="126"
     char="testPropsAll"
     evidence="testPropsAll is too complicated"
     reason="Cyclomatic: 2,
@@ -53,27 +71,27 @@
     | Vocabulary: 29" />
   
   <issue
-    line="184"
+    line="186"
     char="init"
     evidence="init is too complicated"
-    reason="Cyclomatic: 6,
-    Halstead: 14.882
-    | Effort: 32460
-    | Volume: 2181.1
-    | Vocabulary: 79" />
+    reason="Cyclomatic: 8,
+    Halstead: 21.364
+    | Effort: 61729
+    | Volume: 2889.5
+    | Vocabulary: 91" />
   
   <issue
-    line="236"
+    line="263"
     char="_adjustImgHolderHeights"
     evidence="_adjustImgHolderHeights is too complicated"
     reason="Cyclomatic: 3,
-    Halstead: 28.683
-    | Effort: 43332
-    | Volume: 1510.7
-    | Vocabulary: 57" />
+    Halstead: 28.364
+    | Effort: 46074
+    | Volume: 1624.4
+    | Vocabulary: 60" />
   
   <issue
-    line="322"
+    line="356"
     char="_updatePositions"
     evidence="_updatePositions is too complicated"
     reason="Cyclomatic: 2,
@@ -81,6 +99,38 @@
     | Effort: 19847
     | Volume: 894.29
     | Vocabulary: 47" />
+  
+</file>
+<file name="assets/js/src/modules/jquery.ta.inputfield.js">
+  
+  <issue
+    line="205"
+    char="validateForm"
+    evidence="validateForm is too complicated"
+    reason="Cyclomatic: 2,
+    Halstead: 11.050
+    | Effort: 3790.4
+    | Volume: 343.02
+    | Vocabulary: 33" />
+  
+</file>
+<file name="assets/js/src/modules/jquery.ta.inputfocus.js">
+  
+</file>
+<file name="assets/js/src/modules/jquery.ta.megamenu.js">
+  
+</file>
+<file name="assets/js/src/modules/jquery.ta.mosaic.js">
+  
+  <issue
+    line="90"
+    char="&lt;anonymous&gt;"
+    evidence="&lt;anonymous&gt; is too complicated"
+    reason="Cyclomatic: 3,
+    Halstead: 8.4808
+    | Effort: 4791.4
+    | Volume: 564.97
+    | Vocabulary: 33" />
   
 </file>
 <file name="assets/js/src/modules/jquery.ta.parallax.js">
@@ -106,60 +156,10 @@
     | Vocabulary: 48" />
   
 </file>
-<file name="assets/js/src/ta.main.js">
-  
-</file>
-<file name="assets/js/src/modules/jquery.ta.carousel.js">
-  
-</file>
-<file name="assets/js/src/modules/jquery.ta.mosaic.js">
-  
-  <issue
-    line="87"
-    char="&lt;anonymous&gt;"
-    evidence="&lt;anonymous&gt; is too complicated"
-    reason="Cyclomatic: 3,
-    Halstead: 8.4808
-    | Effort: 4791.4
-    | Volume: 564.97
-    | Vocabulary: 33" />
-  
-</file>
-<file name="assets/js/src/modules/jquery.ta.inputfield.js">
-  
-  <issue
-    line="201"
-    char="validateForm"
-    evidence="validateForm is too complicated"
-    reason="Cyclomatic: 2,
-    Halstead: 11.050
-    | Effort: 3790.4
-    | Volume: 343.02
-    | Vocabulary: 33" />
-  
-</file>
-<file name="assets/js/src/modules/jquery.ta.fullwidthbg.js">
-  
-</file>
-<file name="assets/js/src/modules/jquery.ta.megamenu.js">
-  
-</file>
-<file name="assets/js/src/modules/jquery.ta.hotornot.js">
-  
-</file>
-<file name="assets/js/src/modules/jquery.ta.aspsearch.js">
-  
-</file>
 <file name="assets/js/src/modules/jquery.ta.searchinput.js">
   
 </file>
-<file name="assets/js/src/modules/jquery.ta.flipcard.js">
-  
-</file>
-<file name="assets/js/src/modules/jquery.ta.inputfocus.js">
-  
-</file>
-<file name="assets/js/src/main.js">
+<file name="assets/js/src/ta.main.js">
   
 </file>
 </jslint>

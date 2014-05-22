@@ -32,7 +32,12 @@ layout: layout-base.hbs
 
     {{> whatyoucansee_city}}
 
-    {{> image_with_date }}
+    <!--Large Image With Optional Overlay - Date-->
+    {{#parseJSON '{
+            "parallax_image" : "image_with_date"
+        }'}}
+        {{> large_image_with_optional_overlays }}
+    {{/parseJSON}}
 
     {{> mapimagewithbuttons }}
 

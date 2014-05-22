@@ -218,106 +218,108 @@
   zoom: 1 \9;
 }
 
-//******* Start - Mixin for spacing defination, Margin is used for overlapping, not the Padding, strictly prohibted. *****
+//******* Start - Mixin for spacing defination, Margin is used for overlapping, not the Padding which is strictly prohibted. *****
 // To change values on responsive modes, please change values in _variables.scss
 // parameters for mixin could be : 'zero' , 'standard' , 'medium' , 'large'
 // e.g. @include vertical-spacing-responsive('standard','large');
+// e.g. @include vertical-spacing-responsive('standard','large', 0px, 20px);
+// '$adjust-line-height-spacing' is used for text like h1, h2 or p , where lineheight creates extra space from font-text and the font-element
 
-@mixin vertical-spacing-responsive($top-mode, $bottom-mode){
+@mixin vertical-spacing-responsive($top-mode, $bottom-mode, $adjust-line-height-top-spacing:0px, $adjust-line-height-bottom-spacing:0px){
 
   //zero Margins
   @if $top-mode == 'zero' {
-    margin-top: 0;
+    margin-top: 0px - $adjust-line-height-top-spacing;
   }
 
   @if $bottom-mode == 'zero' {
-    margin-bottom: 0;
+    margin-bottom: 0px - $adjust-line-height-bottom-spacing;
   }
 
   //Standard Margins
   @if $top-mode == 'standard' {
-    margin-top: $standard-spacing-xs;
+    margin-top: $standard-spacing-xs - $adjust-line-height-top-spacing;
 
     @include breakpoint(sm) {
-      margin-top: $standard-spacing-sm;
+      margin-top: $standard-spacing-sm - $adjust-line-height-top-spacing;
     }
     @include breakpoint(md) {
-      margin-top: $standard-spacing-md;
+      margin-top: $standard-spacing-md - $adjust-line-height-top-spacing;
     }
     @include breakpoint(lg) {
-      margin-top: $standard-spacing-lg;
+      margin-top: $standard-spacing-lg - $adjust-line-height-top-spacing;
     }
   }
 
   @if $bottom-mode == 'standard' {
-    margin-bottom: $standard-spacing-xs;
+    margin-bottom: $standard-spacing-xs - $adjust-line-height-bottom-spacing;
 
     @include breakpoint(sm) {
-      margin-bottom: $standard-spacing-sm;
+      margin-bottom: $standard-spacing-sm - $adjust-line-height-bottom-spacing;
     }
     @include breakpoint(md) {
-      margin-bottom: $standard-spacing-md;
+      margin-bottom: $standard-spacing-md - $adjust-line-height-bottom-spacing;
     }
     @include breakpoint(lg) {
-      margin-bottom: $standard-spacing-lg;
+      margin-bottom: $standard-spacing-lg - $adjust-line-height-bottom-spacing;
     }
   }
 
   //Medium Margins
   @if $top-mode == 'medium' {
-    margin-top: $medium-spacing-xs;
+    margin-top: $medium-spacing-xs - $adjust-line-height-top-spacing;
 
     @include breakpoint(sm) {
-      margin-top: $medium-spacing-sm;
+      margin-top: $medium-spacing-sm - $adjust-line-height-top-spacing;
     }
     @include breakpoint(md) {
-      margin-top: $medium-spacing-md;
+      margin-top: $medium-spacing-md - $adjust-line-height-top-spacing;
     }
     @include breakpoint(lg) {
-      margin-top: $medium-spacing-lg;
+      margin-top: $medium-spacing-lg - $adjust-line-height-top-spacing;
     }
   }
 
   @if $bottom-mode == 'medium' {
-    margin-bottom: $medium-spacing-xs;
+    margin-bottom: $medium-spacing-xs - $adjust-line-height-bottom-spacing;
 
     @include breakpoint(sm) {
-      margin-bottom: $medium-spacing-sm;
+      margin-bottom: $medium-spacing-sm - $adjust-line-height-bottom-spacing;
     }
     @include breakpoint(md) {
-      margin-bottom: $medium-spacing-md;
+      margin-bottom: $medium-spacing-md - $adjust-line-height-bottom-spacing;
     }
     @include breakpoint(lg) {
-      margin-bottom: $medium-spacing-lg;
+      margin-bottom: $medium-spacing-lg - $adjust-line-height-bottom-spacing;
     }
   }
- 
+
   //Large Margins
   @if $top-mode == 'large' {
-    margin-top: $large-spacing-xs;
+    margin-top: $large-spacing-xs - $adjust-line-height-top-spacing;
 
     @include breakpoint(sm) {
-      margin-top: $large-spacing-sm;
+      margin-top: $large-spacing-sm - $adjust-line-height-top-spacing;
     }
     @include breakpoint(md) {
-      margin-top: $large-spacing-md;
+      margin-top: $large-spacing-md - $adjust-line-height-top-spacing;
     }
     @include breakpoint(lg) {
-      margin-top: $large-spacing-lg;
+      margin-top: $large-spacing-lg - $adjust-line-height-top-spacing;
     }
   }
 
   @if $bottom-mode == 'large' {
-    margin-bottom: $large-spacing-xs;
+    margin-bottom: $large-spacing-xs - $adjust-line-height-bottom-spacing;
 
     @include breakpoint(sm) {
-      margin-bottom: $large-spacing-sm;
+      margin-bottom: $large-spacing-sm - $adjust-line-height-bottom-spacing;
     }
     @include breakpoint(md) {
-      margin-bottom: $large-spacing-md;
+      margin-bottom: $large-spacing-md - $adjust-line-height-bottom-spacing;
     }
     @include breakpoint(lg) {
-      margin-bottom: $large-spacing-lg;
+      margin-bottom: $large-spacing-lg - $adjust-line-height-bottom-spacing;
     }
   }
 

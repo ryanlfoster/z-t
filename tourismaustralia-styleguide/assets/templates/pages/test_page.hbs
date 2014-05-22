@@ -33,7 +33,12 @@ layout: layout-base.hbs
 <div class="paragraph-icon">
 
     <div class="l-padding-between-item-fill-white">
-        {{> image_with_date }}
+        <!--Large Image With Optional Overlay - Date-->
+        {{#parseJSON '{
+            "parallax_image" : "image_with_date"
+        }'}}
+            {{> large_image_with_optional_overlays }}
+        {{/parseJSON}}
     </div>
 
 </div>

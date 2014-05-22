@@ -32,7 +32,9 @@
             mediaWidth: 1600,
             mediaHeight: 900,
             parallax: true,
-            touch: false
+            touch: false,
+            dataIdForParallax: 0,
+            dataParallaxHeight:200
         },
         ImageScrollModernizr = {},
         docElement = document.documentElement,
@@ -185,7 +187,7 @@
                 //this.imageHolder = imageHolder;
                 this.$imageHolder = $(imageHolder);
                 this.settings = $.extend({}, defaults, options);
-                
+
                 // this.image = this.$imageHolder.data(this.settings.imageAttribute) || this.settings.image;
                 // Added this to work with media images
                 this.image = this.$imageHolder.next('.img-src').find('img').last().attr('src') || this.settings.image;
@@ -193,34 +195,59 @@
                 this.mediaWidth = this.$imageHolder.data('width') || this.settings.mediaWidth;
                 this.mediaHeight = this.$imageHolder.data('height') || this.settings.mediaHeight;
                 this.coverRatio = this.$imageHolder.data('cover-ratio') || this.settings.coverRatio;
-                this.extraHeight = this.$imageHolder.data('extra-height') || this.settings.extraHeight;
+
+                //changed for the event [from data() to attr()], when this plugin is called on resize event of page.
+                this.extraHeight = parseFloat(this.$imageHolder.attr('data-extra-height')) || this.settings.extraHeight;
+                this.dataParallaxHeight = parseFloat(this.$imageHolder.attr('data-parallax-height')) || this.settings.dataParallaxHeight;
+                this.dataIdForParallax = this.$imageHolder.attr('data-id-for-parallax') || this.settings.dataIdForParallax;
                 this.ticking = false;
-                if (this.image) {
-                    this.$scrollingElement = $('<img/>', {
-                        src: this.image
-                    });
-                } else {
-                    throw new Error('You need to provide either a data-img attr or an image option');
+
+                //This condition is to avoid creating img, when this plugin is called on resize event of page. it will find the img in element e.g. 'parallax_elementID_1'
+                //If img in element e.g. 'parallax_elementID_1', exists it will point that, otherwise new img will be created
+                if($('#'+  this.dataIdForParallax).length<=0)
+                {
+                    if (this.image) {
+                        this.$scrollingElement = $('<img/>', {
+                            src: this.image
+                        });
+                    } else {
+                        throw new Error('You need to provide either a data-img attr or an image option');
+                    }
+                }
+                else{
+                    this.$scrollingElement = $('#'+  this.dataIdForParallax +" img")
                 }
 
                 if(this.settings.touch === true) {
                     this.$scrollingElement.css({maxWidth:'100%'}).prependTo(this.$imageHolder);
                 } else if(this.settings.parallax === true) {
-                    this.$scrollerHolder = $('<div/>', {
-                        html: this.$imageHolder.html()
-                    }).css(this._getCSSObject({
-                            transform: transformProperty,
-                            top: 0,
-                            left: 0,
-                            x: 0,
-                            y: 0,
-                            visibility: 'hidden',
-                            position: 'fixed',
-                            overflow: 'hidden'
-                        })).addClass(this.settings.holderClass).prependTo(this.settings.container);
 
+                    //This condition is to avoid creating a div 'parallaxHolder' , when this plugin is called on resize event of page. it will find the element e.g. 'parallax_elementID_1'
+                    //If element e.g. 'parallax_elementID_1', exists it will point that, otherwise new div 'parallaxHolder' will be created
+                    if($('#'+  this.dataIdForParallax).length>0)
+                    {
+                        this.$scrollerHolder = $('#'+  this.dataIdForParallax);
+                    }
+                    else{
+                        this.$scrollerHolder = $('<div/>', {
+                            html: this.$imageHolder.html()
+                        }).css(this._getCSSObject({
+                                transform: transformProperty,
+                                top: 0,
+                                left: 0,
+                                x: 0,
+                                y: 0,
+                                visibility: 'hidden',
+                                position: 'fixed',
+                                overflow: 'hidden'
+                            })).addClass(this.settings.holderClass).prependTo(this.settings.container);
+                    }
+
+
+                    this.$scrollerHolder.attr('id',this.dataIdForParallax);
                     this.$imageHolder.css('visibility', 'hidden').empty();
                     this.$scrollingElement.css({position: 'absolute', visibility: 'hidden', maxWidth: 'none'}).prependTo(this.$scrollerHolder);
+
                 } else {
                     this.$scrollerHolder = this.$imageHolder.css({overflow: 'hidden'});
                     this.$scrollingElement.css({position: 'relative', overflow: 'hidden'}).prependTo(this.$imageHolder);
@@ -249,8 +276,15 @@
                     imageDiff,
                     adjustedYDiff,
                     holderToWinDiff;
+                var localExtraHeight =0;
 
                 imgHolderHeight = (this.settings.holderMinHeight < imgHolderHeight ? Math.floor(imgHolderHeight) : this.settings.holderMinHeight) + this.extraHeight;
+
+                //Start - Modified Code to fix the height to Defined px
+                localExtraHeight = this.dataParallaxHeight - imgHolderHeight;
+                imgHolderHeight = imgHolderHeight + localExtraHeight;
+                //End - Modified Code to fix the height to Defined px
+
                 fakedImgHeight = Math.floor(winHeight - (winHeight - imgHolderHeight) * this.settings.speed);
                 imgWidth = Math.round(this.mediaWidth * (fakedImgHeight / this.mediaHeight));
 

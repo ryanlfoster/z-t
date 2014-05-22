@@ -136,3 +136,11 @@
 		width: 100%;
 	}
 }
+
+.legacy-img.show-on-ie8,
+.legacy-img.show-on-ie9{
+  & > img {
+    position: relative;
+    top: -400px;
+  }
+}

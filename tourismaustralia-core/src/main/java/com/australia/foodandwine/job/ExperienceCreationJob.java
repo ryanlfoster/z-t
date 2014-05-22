@@ -165,6 +165,7 @@ public class ExperienceCreationJob implements Runnable {
 		titleProperties.put("sling:resourceType", "foodandwine/components/content/articleTitle");
 		titleProperties.put("name", formProperties.get("businessName"));
 		titleProperties.put("byline", formProperties.get("businessWebsite", String.class));
+		titleProperties.put("link", "true");
 		resourceResolver.create(contentResource, "articleTitle", titleProperties);
 		resourceResolver.commit();
 

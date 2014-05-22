@@ -36,19 +36,19 @@ import com.day.cq.wcm.foundation.Image;
 	@Listener(name = "aftercopy", value = "REFRESH_PAGE"), @Listener(name = "afterdelete", value = "REFRESH_PAGE"),
 	@Listener(name = "afteredit", value = "REFRESH_PAGE"), @Listener(name = "afterinsert", value = "REFRESH_PAGE") })
 public class OtherExperiences {
-	@DialogField(fieldLabel = "Other Experiences Path1", required = true, name = "./otherExperiencesPagePath1")
+	@DialogField(fieldLabel = "Other Experiences Path1", name = "./otherExperiencesPagePath1")
 	@PathField
 	private String otherExperiencesPagePath1;
 
-	@DialogField(fieldLabel = "Other Experiences Path2", required = true, name = "./otherExperiencesPagePath2")
+	@DialogField(fieldLabel = "Other Experiences Path2", name = "./otherExperiencesPagePath2")
 	@PathField
 	private String otherExperiencesPagePath2;
 
-	@DialogField(fieldLabel = "Other Experiences Path3", required = true, name = "./otherExperiencesPagePath3")
+	@DialogField(fieldLabel = "Other Experiences Path3", name = "./otherExperiencesPagePath3")
 	@PathField
 	private String otherExperiencesPagePath3;
 
-	@DialogField(fieldLabel = "Other Experiences Path4", required = true, name = "./otherExperiencesPagePath4")
+	@DialogField(fieldLabel = "Other Experiences Path4", name = "./otherExperiencesPagePath4")
 	@PathField
 	private String otherExperiencesPagePath4;
 

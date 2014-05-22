@@ -9,9 +9,8 @@ navScroller.init = function(){
 	$('.navScroller-section').each(function(index, value) {
 
         if( $("html").hasClass("lt-ie9") ) {
-            //Disabled for IE8 only
-            //var offset   = getPosition($(this)[0]).top;
-            //navScroller.sectionDistances[index] = offset;
+            var offset   = getPosition($(this)[0]).top;
+            navScroller.sectionDistances[index] = offset;
         }
         else
         {

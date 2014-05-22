@@ -61,7 +61,13 @@ layout: layout-base.hbs
         {{> paragraph_dynamic}}
     {{/parseJSON}}
 
-    {{> largeimagenotext }}
+    <!--Large Image With Optional Overlay - No Text & Social Mention-->
+    {{#parseJSON '{
+            "parallax_image" : "image_with_date",
+            "socialmentionhide" : true
+        }'}}
+        {{> large_image_with_optional_overlays }}
+    {{/parseJSON}}
 
     {{#parseJSON '{"copy": "Beyond the trees, the Daintree also offers pristine beaches with shallow, warm, tropical seas.  You’ll find them clustered in the north near Cape Tribulation, where the rainforest meets the Great Barrier Reef. It’s the only place in the world where two World Heritage sites meet. Chill out on Coconut Beach, bike ride to Donovans Beach or camp near the sand on Noahs Beach. For a truly rugged adventure, four wheel drive the Bloomfield Track to or from Cape Tribulation."}'}}
         {{> paragraph_dynamic}}

@@ -38,3 +38,11 @@ title: Large Image With Optional Overlay - Parallax Enabled. Examples
         {{> large_image_with_optional_overlays }}
     {{/parseJSON}}
 
+    <!--Large Image With Optional Overlay - No Text & Social Mention-->
+    {{#parseJSON '{
+                "parallax_image" : "image_with_date",
+                "socialmentionhide" : true
+            }'}}
+        {{> large_image_with_optional_overlays }}
+    {{/parseJSON}}
+

@@ -306,7 +306,7 @@ $navigation-bar-height: pxtoem(90px);
 // * ---------------------------------------------------------------------------------------------------------------- */
 
 // Sets up the main nav bar bg, because we can't use a fixed height for this bar, we use an image instead...
-$nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAABbCAMAAAB9PuTdAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo0M0JBMTRENkI5RjMxMUUzOEVENkQ4QTM5MzAwRUE2NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo0M0JBMTREN0I5RjMxMUUzOEVENkQ4QTM5MzAwRUE2NyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjQzQkExNEQ0QjlGMzExRTM4RUQ2RDhBMzkzMDBFQTY3IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjQzQkExNEQ1QjlGMzExRTM4RUQ2RDhBMzkzMDBFQTY3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+sMqgOAAAAAZQTFRFAKCvAAAAwEgvCgAAABNJREFUeNpiYBgFo2AUDHsAEGAAA+kAAR4aTUIAAAAASUVORK5CYII=);
+$nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAABkCAIAAAAwrjbAAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozOUNEQjZFQUUyMDAxMUUzQTA5RUE3NkZBQzk0MEU3RCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozOUNEQjZFQkUyMDAxMUUzQTA5RUE3NkZBQzk0MEU3RCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjM5Q0RCNkU4RTIwMDExRTNBMDlFQTc2RkFDOTQwRTdEIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjM5Q0RCNkU5RTIwMDExRTNBMDlFQTc2RkFDOTQwRTdEIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+lHg6AgAAACxJREFUeNrsyUEVACAIBbCP/UPYwIokkAC87brKffk7GWmttdZaa623dAswAJ2PAhflJjpOAAAAAElFTkSuQmCC);
 
 .mobile-open-bar {
 
@@ -366,18 +366,11 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
 // * ---------------------------------------------------------------------------------------------------------------- */
 .navigation-bar {
 
-    &.bar-fixed-scroll {
-        // not the clone
-        box-shadow: 0 3px 0 0 rgba(0, 0, 0, 0.2);
-    }
-
     // Mobile & Defaults...
     background-color: transparent;
     background-image: $nav-tool-bar-bg-image;
     background-repeat: repeat-x;
     background-position: 0 -33px;
-
-    //min-width: 300px;
 
     &.is-bar-cloned {
         // leave the clone invisible
@@ -421,7 +414,7 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
 
     // Left Nav...
     .nav-bar-left > li > a {
-        padding: pxtoem(35px) pxtoem(14px);
+        padding: pxtoem(41px) pxtoem(14px);
         font-size: pxtoem(16px);
     }
 
@@ -490,7 +483,7 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
         }
 
         .nav-bar-nav > li > a {
-            height: 91px;
+            height: 100px;
             border-bottom: 5px solid transparent;
         }
 
@@ -503,16 +496,13 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
         }
 
         .nav-bar-right > li > a {
-            padding: pxtoem(25px) pxtoem(10px);
+            padding: pxtoem(31px) pxtoem(10px);
             line-height: pxtoem(34px);
         }
 
         // adjust heart border for bigger screen
         .items-added {
             .icon-heart {
-                //background-position: -97px -48px;
-                //width: 48px;
-                //height: 48px;
                 padding: 13px 12px 11px;
                 top: 2px;
                 position: relative;
@@ -527,7 +517,7 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
     @media (min-width: $screen-md-min) {
 
         .nav-bar-left > li > a {
-            padding: pxtoem(25.5px) pxtoem(30px);
+            padding: pxtoem(31px) pxtoem(30px);
             font-size: pxtoem(20px);
         }
 
@@ -907,10 +897,6 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
     .has-children.is-open .nav-bar-panel-container {
         max-height: 1000px;
         @include transition(max-height, 0.25s, ease-in, 0);
-
-        @media (min-width: $screen-sm-min) {
-            box-shadow: 0 3px 0 0 rgba(0, 0, 0, 0.3);
-        }
     }
 }
 
@@ -1219,7 +1205,7 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
 
         .logo-masthead {
             width: 150px;
-            margin: pxtoem(16px) 0;
+            margin: pxtoem(21px) 0;
             background: transparent url("../imgs/logo/logo-tourism-australia.png") no-repeat 0 50%;
         }
     }

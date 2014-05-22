@@ -16,7 +16,7 @@
 		<div class="form-elements-biline">
 			<c:choose>
 				<c:when test="${articleTitle.link eq true}">
-					<a  href="${articleTitle.bylineLink}" target="_BLANK" style="text-decoration: none;">${articleTitle.byline}</a>
+					<a  href="${articleTitle.bylineLink}" target="_blank" style="text-decoration: none;">${articleTitle.byline}</a>
 				</c:when>
 				<c:otherwise>
 					${articleTitle.byline}

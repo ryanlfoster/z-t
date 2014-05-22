@@ -200,6 +200,9 @@
                 <div class="description-box description-box-outer">
                     <h4 class="description-box-headline"><strong>Upload image(s)</strong></h4>
                     <p class="description-box-copy">
+                    	<em>Please upload the best photos of your business' food and wine experience. You can upload up to 5 photos simply by clicking the "Upload More" link.</em>                        
+                    </p>
+                    <p class="description-box-copy">                    	
                         <em>Jpeg, Gif or PNG - 5mb file limit. Your image should be at least 600 x 600px</em>
                     </p>
 

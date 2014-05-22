@@ -245,7 +245,8 @@
 }
 
 .image-social-image {
-  padding-top: 20px;
+  @include vertical-spacing-responsive('standard','standard');
+
   img {
     @include border-radius(100%);
     border: 1px solid #FFF;

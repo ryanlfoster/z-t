@@ -1163,6 +1163,17 @@
                     ,
                 
             
+                "large_image_with_optional_overlays_examples" : {
+                     "data" : {
+                        "title" : "large_image_with_optional_overlays_examples",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'large_image_with_optional_overlays_examples'}}"
+                }
+                
+                    ,
+                
+            
                 "itineraryday" : {
                      "data" : {
                         "title" : "itineraryday",

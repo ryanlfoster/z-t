@@ -16,6 +16,14 @@
 /* Main module definition */
 .largeparallax {
     position: relative;
+    @include vertical-spacing-responsive('large','large');
+}
+
+.parallaximage_fullwidth--social .largeparallax {
+  @include vertical-spacing-responsive('large','standard',0,20);
+}
+.largeparallax.largeparallax--withtext{
+  @include vertical-spacing-responsive('large','medium');
 }
 
 /* Different states for module */
@@ -69,7 +77,8 @@
 
 /* Styling for small images below main image */
 .largeparallax-images {
-	margin-top: pxtoem(-70px);
+    @include vertical-spacing-responsive('zero','medium');
+	margin-top: pxtoem(-70px);//Important to overlap for parallax image
 	position: relative;
 	z-index: 2;
 

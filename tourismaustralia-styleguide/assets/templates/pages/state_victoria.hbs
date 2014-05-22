@@ -31,7 +31,16 @@ layout: layout-base.hbs
 
     {{> whatyoucansee_state}}
 
-    {{> image_with_button_social }}
+    <!--Large Image With Optional Overlay - Button, Social-->
+    {{#parseJSON '{
+            "parallax_image" : "image_with_buttons",
+            "social_image_url" : "imgs/placeholders/image_social_image.jpg",
+            "quote_copy": "“It was amazing that a running two year old could stop to stare at the great vastness of Australia, and it gave me this beautiful photo.”",
+            "button_copy":"View This Trip"
+        }'}}
+        {{> large_image_with_optional_overlays }}
+    {{/parseJSON}}
+
 
     {{> mapimagewithlinks }}
 

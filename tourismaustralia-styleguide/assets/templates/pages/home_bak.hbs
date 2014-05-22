@@ -29,9 +29,21 @@ layout: layout-base.hbs
     {{/parseJSON}}
 </div>
 
-{{> image_with_date }}
+<!--Large Image With Optional Overlay - Date-->
+{{#parseJSON '{
+            "parallax_image" : "image_with_date"
+        }'}}
+    {{> large_image_with_optional_overlays }}
+{{/parseJSON}}
 
-{{> image_with_button }}
+<!--Large Image With Optional Overlay - Button, Quote-->
+{{#parseJSON '{
+            "parallax_image" : "image_with_buttons",
+            "quote_copy": "“It was amazing that a running two year old could stop to stare at the great vastness of Australia, and it gave me this beautiful photo.”",
+            "button_copy":"View This Trip"
+        }'}}
+    {{> large_image_with_optional_overlays }}
+{{/parseJSON}}
 
 <div class="l-padding-between-item-fill-white">
     {{> mapimagewithlinks }}

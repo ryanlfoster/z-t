@@ -45,7 +45,7 @@
     // add events to items
     Plugin.prototype.setupParallax = function(scope) {
         // Set stuff up
-        scope.setHeightOfWindow(scope); 
+        scope.setHeightOfWindow(scope);
         scope.options.containerOffset = $(scope.element).offset().top;
         scope.options.parallaxPosition = 0;
         scope.options._parallaxSpeed = parseFloat(scope.options.parallaxSpeed * scope.options.parallaxSpeedMultiplier);
@@ -53,7 +53,7 @@
 
         if(scope.options.parallaxOffset >= 150){
             scope.options.parallaxSpeedMultiplier = 8;
-        } else {            
+        } else {
             scope.options.parallaxSpeedMultiplier = 1;
         }
 
@@ -85,9 +85,9 @@
                 } else {
                     if(scope.options.containerOffset - (scope.options.heightOfWindow / 2) <= scope.options.windowPositionTop){
                         // start parallax only in the top half of screen
-                        scope.options.parallaxInView = true; 
+                        scope.options.parallaxInView = true;
                     } else {
-                        scope.options.parallaxInView = false; 
+                        scope.options.parallaxInView = false;
                     }
                 }
 

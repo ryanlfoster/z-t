@@ -1,0 +1,77 @@
+
+.large-image-with-optional-overlays {
+
+
+  hr {
+    border-top: 1px solid #e2e5de;
+  }
+
+  @include breakpoint(sm) {
+
+    hr {
+      border-top: 1px solid #FFF;
+    }
+    .image-btn {
+      color: #FFF;
+      border: 1px solid #e6e8e2;
+    }
+  }
+
+}
+
+.large-image-with-optional-overlays .blockquote-quote-pull {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 900px;
+  padding: 0 10px;
+
+  @include breakpoint(sm) {
+    padding: 0 50px;
+  }
+
+  p {
+
+    line-height: 1.7em;
+    background: rgba(84,150,174, 1);
+    @include box-shadow(0.4em 0 0 rgba(84,150,174, 1),-0.4em 0 0 rgba(84,150,174, 1));
+    font-size: inherit;
+
+    @include breakpoint(sm) {
+      background: rgba(0,84,93, .6);
+      @include box-shadow(0.4em 0 0 rgba(0,84,93, .6),-0.4em 0 0 rgba(0,84,93, .6));
+      font-size: 20px;
+    }
+    @include breakpoint(md) {
+      font-size: inherit;
+    }
+  }
+}
+
+.large-image-with-optional-overlays .inside hr {
+  max-width: 282px;
+}
+.large-image-with-optional-overlays .inside {
+  color: #231f20;
+  position: initial;
+  display: inline-block;
+  margin-top: 41px;
+  text-align: center;
+  color: #231f20;
+  padding: 15px;
+
+  @include breakpoint(sm) {
+    color: #FFF;
+    vertical-align: middle;
+    display: table-cell;
+    padding-bottom: 20px;
+    position: relative;
+    z-index: 2;
+    padding: 0px;
+  }
+}
+.large-image-with-optional-overlays .largeparallax-text {
+  position: relative;
+  @include breakpoint(sm) {
+    position: absolute;
+  }
+}

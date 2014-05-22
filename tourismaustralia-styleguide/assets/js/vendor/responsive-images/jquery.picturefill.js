@@ -13,6 +13,8 @@
 
     w.picturefill = function (context) {
         var undefined;
+        var parallaxImagesCounterID =0;
+
         if (context === undefined) {
             context = $("body");
         }
@@ -34,7 +36,19 @@
                     var $currentPicture = $(currentPicture);
                     $picImg = $("<img />").attr("alt", $currentPicture.attr("data-alt")).appendTo($currentPicture);
                 }
-                $picImg.attr("src", matches.pop().getAttribute("data-src"));
+                var $matchElement = matches.pop();
+                $picImg.attr("src", $matchElement.getAttribute("data-src"));
+
+                // Start - Code for setting the data-extra-height according to new Parallax code
+                var data_extra_height = $matchElement.getAttribute("data-height");
+                if(data_extra_height!=null)
+                {
+                    parallaxImagesCounterID = parallaxImagesCounterID + 1;
+                    data_extra_height = parseFloat(data_extra_height) - 436;//436 is default height of parallax plugin
+                    $picImg.closest('.largeparallax').find('.img-holder').attr("data-extra-height", data_extra_height).attr('data-id-for-parallax', 'parallax_elementID_' + parallaxImagesCounterID);
+                }
+                // End - Code for setting the data-extra-height according to new Parallax code
+
             } else {
                 $picImg.remove();
             }
@@ -43,6 +57,7 @@
 
     // Run on debounced resize and domready
     $(function () {
+
         w.picturefill();
     });
 

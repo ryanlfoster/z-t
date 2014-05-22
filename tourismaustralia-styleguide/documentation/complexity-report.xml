@@ -7,13 +7,13 @@
     char="&lt;anonymous&gt;"
     evidence="&lt;anonymous&gt; is too complicated"
     reason="Cyclomatic: 4,
-    Halstead: 10.030
-    | Effort: 12519
-    | Volume: 1248.1
-    | Vocabulary: 79" />
+    Halstead: 10.059
+    | Effort: 12782
+    | Volume: 1270.7
+    | Vocabulary: 80" />
   
   <issue
-    line="50"
+    line="51"
     char="injectElementWithStyles"
     evidence="injectElementWithStyles is too complicated"
     reason="Cyclomatic: 7,
@@ -23,7 +23,7 @@
     | Vocabulary: 50" />
   
   <issue
-    line="97"
+    line="98"
     char="testProps"
     evidence="testProps is too complicated"
     reason="Cyclomatic: 3,
@@ -33,7 +33,7 @@
     | Vocabulary: 23" />
   
   <issue
-    line="107"
+    line="108"
     char="testDOMProps"
     evidence="testDOMProps is too complicated"
     reason="Cyclomatic: 4,
@@ -43,7 +43,7 @@
     | Vocabulary: 20" />
   
   <issue
-    line="124"
+    line="125"
     char="testPropsAll"
     evidence="testPropsAll is too complicated"
     reason="Cyclomatic: 2,
@@ -53,17 +53,17 @@
     | Vocabulary: 29" />
   
   <issue
-    line="184"
+    line="185"
     char="init"
     evidence="init is too complicated"
-    reason="Cyclomatic: 6,
-    Halstead: 14.882
-    | Effort: 32460
-    | Volume: 2181.1
-    | Vocabulary: 79" />
+    reason="Cyclomatic: 8,
+    Halstead: 21.000
+    | Effort: 57796
+    | Volume: 2752.2
+    | Vocabulary: 89" />
   
   <issue
-    line="236"
+    line="261"
     char="_adjustImgHolderHeights"
     evidence="_adjustImgHolderHeights is too complicated"
     reason="Cyclomatic: 3,
@@ -73,7 +73,7 @@
     | Vocabulary: 57" />
   
   <issue
-    line="322"
+    line="347"
     char="_updatePositions"
     evidence="_updatePositions is too complicated"
     reason="Cyclomatic: 2,
@@ -106,9 +106,6 @@
     | Vocabulary: 48" />
   
 </file>
-<file name="assets/js/src/ta.main.js">
-  
-</file>
 <file name="assets/js/src/modules/jquery.ta.carousel.js">
   
 </file>
@@ -128,7 +125,7 @@
 <file name="assets/js/src/modules/jquery.ta.inputfield.js">
   
   <issue
-    line="201"
+    line="205"
     char="validateForm"
     evidence="validateForm is too complicated"
     reason="Cyclomatic: 2,
@@ -144,10 +141,13 @@
 <file name="assets/js/src/modules/jquery.ta.megamenu.js">
   
 </file>
-<file name="assets/js/src/modules/jquery.ta.hotornot.js">
+<file name="assets/js/src/modules/jquery.ta.aspsearch.js">
   
 </file>
-<file name="assets/js/src/modules/jquery.ta.aspsearch.js">
+<file name="assets/js/src/ta.main.js">
+  
+</file>
+<file name="assets/js/src/modules/jquery.ta.hotornot.js">
   
 </file>
 <file name="assets/js/src/modules/jquery.ta.searchinput.js">

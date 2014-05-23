@@ -346,6 +346,10 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
             padding: 0;
             float: right;
         }
+
+        .nav-toggle-close {
+            height: 58px;
+        }
     }
 
     // Tablet & Larger...
@@ -370,7 +374,7 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
     background-color: transparent;
     background-image: $nav-tool-bar-bg-image;
     background-repeat: repeat-x;
-    background-position: 0 -33px;
+    background-position: 0 -42px;
 
     &.is-bar-cloned {
         // leave the clone invisible
@@ -540,12 +544,17 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
                 text-align: right;
 
                 .nav-toggle-panel {
+                    height: 58px;
+                    padding: pxtoem(19.5px) pxtoem(16px);
                     margin-right: 58px;
                     width: 58px;
                     display: inline-block;
-                    padding: pxtoem(19.5px) pxtoem(16px);
                     background-color: transparent !important;
                     border-bottom: 3px solid transparent;
+
+                    .icon-search {
+                        line-height: .7em;
+                    }
 
                     .vis-hidden-sm {
                         @include vis-hidden();
@@ -590,7 +599,6 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
             .link-my-trip.items-added .icon-heart {
                 //background-position: -101px -53px;
             }
-
         }
 
         .header.is-open .navigation-bar {

@@ -26,26 +26,12 @@
         .megamenu-map-filters {
 
             .megamenu-map-filter {
-                width: 200px;
+                width: 210px;
                 padding: 10px 20px;
                 display: block;
                 position: absolute;
                 font-size: pxtoem(18px);
             }
-
-            /*
-            &:nth-child(1) .megamenu-map-filter {
-                top: pxtoem(60px);
-            }
-
-            &:nth-child(2) .megamenu-map-filter {
-                top: pxtoem(90px);
-            }
-
-            &:nth-child(3) .megamenu-map-filter {
-                top: pxtoem(120px);
-            }
-            */
 
             // this is difficult to manage...
             .megamenu-map-filter.filter-1 {
@@ -70,7 +56,7 @@
             .megamenu-map-marker {
 
                 width: 33%;
-                min-width: 200px;
+                min-width: 210px;
                 display: inline-block;
                 margin: -5px -0.03em 5px -0.03em;
 
@@ -94,10 +80,9 @@
                 display: none;
                 top: 0;
                 left: 40px;
-                width: 200px;
-                height: 200px;
+                width: 210px;
+                height: 210px;
                 position: absolute;
-                background: transparent url(../imgs/megamenu/australia-map-sprite.png) no-repeat 0 0;
             }
 
             a:hover .map-segment {
@@ -108,38 +93,6 @@
 
         .megamenu-map-markers .megamenu-map-marker:first-child {
             margin-top: 0;
-        }
-
-        .map-marker-act .map-segment {
-            background-position: -200px 0;
-        }
-
-        .map-marker-nsw .map-segment {
-            background-position: -400px 0;
-        }
-
-        .map-marker-nt .map-segment {
-            background-position: -600px 0;
-        }
-
-        .map-marker-qld .map-segment {
-            background-position: -800px 0;
-        }
-
-        .map-marker-sa .map-segment {
-            background-position: -1000px 0;
-        }
-
-        .map-marker-tas .map-segment {
-            background-position: -1200px 0;
-        }
-
-        .map-marker-vic .map-segment {
-            background-position: -1400px 0;
-        }
-
-        .map-marker-wa .map-segment {
-            background-position: -1600px 0;
         }
     }
 

@@ -905,6 +905,10 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
 // * ---------------------------------------------------------------------------------------------------------------- */
 .lt-ie9 .navigation-bar {
 
+    .nav-bar-nav > li:hover > a {
+        border-bottom-color: $arrival-bar-active-link-bdr;
+    }
+
     .has-children > .nav-bar-panel {
         position: absolute;
         background-color: $navigation-bar-dropdown-bg-solid;

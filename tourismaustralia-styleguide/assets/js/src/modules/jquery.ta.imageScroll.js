@@ -219,7 +219,11 @@
                 }
 
                 if(this.settings.touch === true) {
-                    this.$scrollingElement.css({maxWidth:'100%'}).prependTo(this.$imageHolder);
+                    if($("div[data-id-for-parallax="+ this.dataIdForParallax +"] img").length<=0)
+                    {
+                        this.$scrollingElement.css({maxWidth:'100%'}).prependTo(this.$imageHolder);
+                    }
+
                 } else if(this.settings.parallax === true) {
 
                     //This condition is to avoid creating a div 'parallaxHolder' , when this plugin is called on resize event of page. it will find the element e.g. 'parallax_elementID_1'

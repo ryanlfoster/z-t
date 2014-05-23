@@ -8,54 +8,151 @@ title: Header MM Map
             <div class="megamenu-components">
                 <a class="megamenu-map-filter filter-1" href="/iconic">Iconic destinations</a>
                 <ul class="megamenu-map-markers">
-                    <li class="megamenu-map-marker map-marker-qld">{{! tmp to assign bg}}
-                        <a href="#"><span class="map-segment"></span>Great Barrier Reef</a>
-                    </li>
-                    <li class="megamenu-map-marker map-marker-sa">
-                        <a href="#"><span class="map-segment"></span>Red Centre</a>
-                    </li>
-                    <li class="megamenu-map-marker map-marker-vic">
-                        <a href="#"><span class="map-segment"></span>Great Ocean Road</a>
-                    </li>
-                    <li class="megamenu-map-marker map-marker-nt">
-                        <a href="#"><span class="map-segment"></span>Kakadu</a>
-                    </li>
-                    <li class="megamenu-map-marker map-marker-wa">
-                        <a href="#"><span class="map-segment"></span>The Kimberley</a>
-                    </li>
-                    <li class="megamenu-map-marker map-marker-sa">
-                        <a href="#"><span class="map-segment"></span>Kangaroo Island</a>
-                    </li>
-                    <li class="megamenu-map-marker map-marker-nsw">
-                        <a href="#"><span class="map-segment"></span>Byron Bay</a>
-                    </li>
-                    <li class="megamenu-map-marker map-marker-tas">
-                        <a href="#"><span class="map-segment"></span>Tasmanian Wilderness</a>
-                    </li>
-                    <li class="megamenu-map-marker map-marker-nsw">
-                        <a href="#"><span class="map-segment"></span>Australian Alps</a>
-                    </li>
-                    <li class="megamenu-map-marker map-marker-wa">
-                        <a href="#"><span class="map-segment"></span>Ningaloo</a>
-                    </li>
-                    <li class="megamenu-map-marker map-marker-nt">
-                        <a href="#"><span class="map-segment"></span>Flinders Ranges</a>
-                    </li>
-                    <li class="megamenu-map-marker map-marker-qld">
-                        <a href="#"><span class="map-segment"></span>Fraser Island</a>
-                    </li>
-                    <li class="megamenu-map-marker map-marker-tas">
-                        <a href="#"><span class="map-segment"></span>Freycinet</a>
-                    </li>
-                    <li class="megamenu-map-marker map-marker-vic">
-                        <a href="#"><span class="map-segment"></span>Gippsland</a>
-                    </li>
-                    <li class="megamenu-map-marker map-marker-nsw">
-                        <a href="#"><span class="map-segment"></span>Blue Mountains</a>
-                    </li>
-                    <li class="megamenu-map-marker map-marker-nsw">
-                        <a href="#"><span class="map-segment"></span>Namadgi National Park</a>
-                    </li>
+
+                    {{#parseJSON '{
+                        "class": "australianalps",
+                        "link": "#",
+                        "name": "Australian Alps",
+                        "image_src": "/imgs/placeholders/megamenu/iconic/map_australianalps.png"
+                    }'}}
+                        {{> header_megamenu_map_marker}}
+                    {{/parseJSON}}
+
+                    {{#parseJSON '{
+                        "class": "bluemountains",
+                        "link": "#",
+                        "name": "Blue Mountains",
+                        "image_src": "/imgs/placeholders/megamenu/iconic/map_bluemountains.png"
+                    }'}}
+                        {{> header_megamenu_map_marker}}
+                    {{/parseJSON}}
+
+                    {{#parseJSON '{
+                        "class": "byronbay",
+                        "link": "#",
+                        "name": "Byron Bay",
+                        "image_src": "/imgs/placeholders/megamenu/iconic/map_byronbay.png"
+                    }'}}
+                        {{> header_megamenu_map_marker}}
+                    {{/parseJSON}}
+
+                    {{#parseJSON '{
+                        "class": "flinders",
+                        "link": "#",
+                        "name": "Flinders Ranges",
+                        "image_src": "/imgs/placeholders/megamenu/iconic/map_flinders.png"
+                    }'}}
+                        {{> header_megamenu_map_marker}}
+                    {{/parseJSON}}
+
+                    {{#parseJSON '{
+                        "class": "fraserisland",
+                        "link": "#",
+                        "name": "Fraser Island",
+                        "image_src": "/imgs/placeholders/megamenu/iconic/map_fraserisland.png"
+                    }'}}
+                        {{> header_megamenu_map_marker}}
+                    {{/parseJSON}}
+
+                    {{#parseJSON '{
+                        "class": "freycinet",
+                        "link": "#",
+                        "name": "Freycinet",
+                        "image_src": "/imgs/placeholders/megamenu/iconic/map_freycinet.png"
+                    }'}}
+                        {{> header_megamenu_map_marker}}
+                    {{/parseJSON}}
+
+                    {{#parseJSON '{
+                        "class": "gippsland",
+                        "link": "#",
+                        "name": "Gippsland",
+                        "image_src": "/imgs/placeholders/megamenu/iconic/map_gippsland.png"
+                    }'}}
+                        {{> header_megamenu_map_marker}}
+                    {{/parseJSON}}
+
+                    {{#parseJSON '{
+                        "class": "greatbarrierreef",
+                        "link": "#",
+                        "name": "Great Barrier Reef",
+                        "image_src": "/imgs/placeholders/megamenu/iconic/map_greatbarrierreef.png"
+                    }'}}
+                        {{> header_megamenu_map_marker}}
+                    {{/parseJSON}}
+
+                    {{#parseJSON '{
+                        "class": "greatoceanroad",
+                        "link": "#",
+                        "name": "Great Ocean Road",
+                        "image_src": "/imgs/placeholders/megamenu/iconic/map_greatoceanroad.png"
+                    }'}}
+                        {{> header_megamenu_map_marker}}
+                    {{/parseJSON}}
+
+                    {{#parseJSON '{
+                        "class": "kakadu",
+                        "link": "#",
+                        "name": "Kakadu",
+                        "image_src": "/imgs/placeholders/megamenu/iconic/map_kakadu.png"
+                    }'}}
+                        {{> header_megamenu_map_marker}}
+                    {{/parseJSON}}
+
+                    {{#parseJSON '{
+                        "class": "kangarooisland",
+                        "link": "#",
+                        "name": "Kangaroo Island",
+                        "image_src": "/imgs/placeholders/megamenu/iconic/map_kangarooisland.png"
+                    }'}}
+                        {{> header_megamenu_map_marker}}
+                    {{/parseJSON}}
+
+                    {{#parseJSON '{
+                        "class": "kimberley",
+                        "link": "#",
+                        "name": "The Kimberley",
+                        "image_src": "/imgs/placeholders/megamenu/iconic/map_kimberley.png"
+                    }'}}
+                        {{> header_megamenu_map_marker}}
+                    {{/parseJSON}}
+
+                    {{#parseJSON '{
+                        "class": "namadgi",
+                        "link": "#",
+                        "name": "Namadgi National Park",
+                        "image_src": "/imgs/placeholders/megamenu/iconic/map_namadgi.png"
+                    }'}}
+                        {{> header_megamenu_map_marker}}
+                    {{/parseJSON}}
+
+                    {{#parseJSON '{
+                        "class": "ningaloo",
+                        "link": "#",
+                        "name": "Ningaloo",
+                        "image_src": "/imgs/placeholders/megamenu/iconic/map_ningaloo.png"
+                    }'}}
+                        {{> header_megamenu_map_marker}}
+                    {{/parseJSON}}
+
+                    {{#parseJSON '{
+                        "class": "redcentre",
+                        "link": "#",
+                        "name": "Red Centre",
+                        "image_src": "/imgs/placeholders/megamenu/iconic/map_redcentre.png"
+                    }'}}
+                        {{> header_megamenu_map_marker}}
+                    {{/parseJSON}}
+
+                    {{#parseJSON '{
+                        "class": "tasmanianwilderness",
+                        "link": "#",
+                        "name": "Tasmanian Wilderness",
+                        "image_src": "/imgs/placeholders/megamenu/iconic/map_tasmanianwilderness.png"
+                    }'}}
+                        {{> header_megamenu_map_marker}}
+                    {{/parseJSON}}
+
                 </ul>
 
             </div>
@@ -64,15 +161,106 @@ title: Header MM Map
             <div class="megamenu-components">
                 <a class="megamenu-map-filter filter-2" href="/cities">Cities</a>
                 <ul class="megamenu-map-markers">
-                    <li class="megamenu-map-marker map-marker-act">
-                        <a href="#"><span class="map-segment"></span>Canberra</a>
-                    </li>
-                    <li class="megamenu-map-marker map-marker-nsw">
-                        <a href="#"><span class="map-segment"></span>Sydney</a>
-                    </li>
-                    <li class="megamenu-map-marker map-marker-vic">
-                        <a href="#"><span class="map-segment"></span>Melbourne</a>
-                    </li>
+
+                    {{#parseJSON '{
+                        "class": "adelaide",
+                        "link": "#",
+                        "name": "Adelaide",
+                        "image_src": "/imgs/placeholders/megamenu/cities/map_adelaide.png"
+                    }'}}
+                        {{> header_megamenu_map_marker}}
+                    {{/parseJSON}}
+
+                    {{#parseJSON '{
+                        "class": "alicespring",
+                        "link": "#",
+                        "name": "Alice Springs",
+                        "image_src": "/imgs/placeholders/megamenu/cities/map_alicespring.png"
+                    }'}}
+                        {{> header_megamenu_map_marker}}
+                    {{/parseJSON}}
+
+                    {{#parseJSON '{
+                        "class": "brisbane",
+                        "link": "#",
+                        "name": "Brisbane",
+                        "image_src": "/imgs/placeholders/megamenu/cities/map_brisbane.png"
+                    }'}}
+                        {{> header_megamenu_map_marker}}
+                    {{/parseJSON}}
+
+                    {{#parseJSON '{
+                        "class": "broome",
+                        "link": "#",
+                        "name": "Broome",
+                        "image_src": "/imgs/placeholders/megamenu/cities/map_broome.png"
+                    }'}}
+                        {{> header_megamenu_map_marker}}
+                    {{/parseJSON}}
+
+                    {{#parseJSON '{
+                        "class": "cairns",
+                        "link": "#",
+                        "name": "Cairns",
+                        "image_src": "/imgs/placeholders/megamenu/cities/map_cairns.png"
+                    }'}}
+                        {{> header_megamenu_map_marker}}
+                    {{/parseJSON}}
+
+                    {{#parseJSON '{
+                        "class": "canberra",
+                        "link": "#",
+                        "name": "Canberra",
+                        "image_src": "/imgs/placeholders/megamenu/cities/map_canberra.png"
+                    }'}}
+                        {{> header_megamenu_map_marker}}
+                    {{/parseJSON}}
+
+                    {{#parseJSON '{
+                        "class": "darwin",
+                        "link": "#",
+                        "name": "Darwin",
+                        "image_src": "/imgs/placeholders/megamenu/cities/map_darwin.png"
+                    }'}}
+                        {{> header_megamenu_map_marker}}
+                    {{/parseJSON}}
+
+                    {{#parseJSON '{
+                        "class": "goldcoast",
+                        "link": "#",
+                        "name": "The Gold Coast",
+                        "image_src": "/imgs/placeholders/megamenu/cities/map_goldcoast.png"
+                    }'}}
+                        {{> header_megamenu_map_marker}}
+                    {{/parseJSON}}
+
+                    {{#parseJSON '{
+                        "class": "hobart",
+                        "link": "#",
+                        "name": "Hobart",
+                        "image_src": "/imgs/placeholders/megamenu/cities/map_hobart.png"
+                    }'}}
+                        {{> header_megamenu_map_marker}}
+                    {{/parseJSON}}
+
+                    {{#parseJSON '{
+                        "class": "melbourne",
+                        "link": "#",
+                        "name": "Melbourne",
+                        "image_src": "/imgs/placeholders/megamenu/cities/map_melbourne.png"
+                    }'}}
+                        {{> header_megamenu_map_marker}}
+                    {{/parseJSON}}
+
+                    {{#parseJSON '{
+                        "class": "sydney",
+                        "link": "#",
+                        "name": "Sydney",
+                        "image_src": "/imgs/placeholders/megamenu/cities/map_sydney.png"
+                    }'}}
+                        {{> header_megamenu_map_marker}}
+                    {{/parseJSON}}
+
                 </ul>
             </div>
         </li>
@@ -80,15 +268,79 @@ title: Header MM Map
             <div class="megamenu-components">
                 <a class="megamenu-map-filter filter-3" href="/states">States &amp; Territories</a>
                 <ul class="megamenu-map-markers">
-                    <li class="megamenu-map-marker map-marker-act">
-                        <a href="#"><span class="map-segment"></span>Australian Capital Territory</a>
-                    </li>
-                    <li class="megamenu-map-marker map-marker-nsw">
-                        <a href="#"><span class="map-segment"></span>New South Wales</a>
-                    </li>
-                    <li class="megamenu-map-marker map-marker-nt">
-                        <a href="#"><span class="map-segment"></span>Northan Territory</a>
-                    </li>
+
+                    {{#parseJSON '{
+                        "class": "act",
+                        "link": "#",
+                        "name": "Australian Capital Territory",
+                        "image_src": "/imgs/placeholders/megamenu/states/map_act.png"
+                    }'}}
+                        {{> header_megamenu_map_marker}}
+                    {{/parseJSON}}
+
+                    {{#parseJSON '{
+                        "class": "nsw",
+                        "link": "#",
+                        "name": "New South Wales",
+                        "image_src": "/imgs/placeholders/megamenu/states/map_nsw.png"
+                    }'}}
+                        {{> header_megamenu_map_marker}}
+                    {{/parseJSON}}
+
+                    {{#parseJSON '{
+                        "class": "nt",
+                        "link": "#",
+                        "name": "Northan Territory",
+                        "image_src": "/imgs/placeholders/megamenu/states/map_nt.png"
+                    }'}}
+                        {{> header_megamenu_map_marker}}
+                    {{/parseJSON}}
+
+                    {{#parseJSON '{
+                        "class": "qld",
+                        "link": "#",
+                        "name": "Queensland",
+                        "image_src": "/imgs/placeholders/megamenu/states/map_qld.png"
+                    }'}}
+                        {{> header_megamenu_map_marker}}
+                    {{/parseJSON}}
+
+                    {{#parseJSON '{
+                        "class": "sa",
+                        "link": "#",
+                        "name": "South Australia",
+                        "image_src": "/imgs/placeholders/megamenu/states/map_sa.png"
+                    }'}}
+                        {{> header_megamenu_map_marker}}
+                    {{/parseJSON}}
+
+                    {{#parseJSON '{
+                        "class": "tas",
+                        "link": "#",
+                        "name": "Tasmainia",
+                        "image_src": "/imgs/placeholders/megamenu/states/map_tas.png"
+                    }'}}
+                        {{> header_megamenu_map_marker}}
+                    {{/parseJSON}}
+
+                    {{#parseJSON '{
+                        "class": "vic",
+                        "link": "#",
+                        "name": "Victoria",
+                        "image_src": "/imgs/placeholders/megamenu/states/map_vic.png"
+                    }'}}
+                        {{> header_megamenu_map_marker}}
+                    {{/parseJSON}}
+
+                    {{#parseJSON '{
+                        "class": "wa",
+                        "link": "#",
+                        "name": "Western Australia",
+                        "image_src": "/imgs/placeholders/megamenu/states/map_wa.png"
+                    }'}}
+                        {{> header_megamenu_map_marker}}
+                    {{/parseJSON}}
+
                 </ul>
             </div>
         </li>

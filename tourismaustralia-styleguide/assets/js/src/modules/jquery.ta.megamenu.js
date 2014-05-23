@@ -206,7 +206,11 @@
 
         if ($(window).width() > scope.options.mm_mobile_breakpoint) {
             $(scope.element).find(scope.options.mm_map_panel_filters).on(event, function (e) {
-                e.preventDefault();
+
+                if ( $(e.target).is('.megamenu-map-filter') ) {
+                    e.preventDefault();
+                }
+
                 var $el = $(e.currentTarget);
                 $el.closest('.megamenu-panel').find('.is-active').removeClass('is-active');
                 $el.addClass('is-active');

@@ -62,6 +62,8 @@ blockquote-webkit {
   padding: 0.2em 0;
   background:$quote-pull-bg-colour;
   color:#fff;
+  font-style: italic;
+  font-family: "ProximaNova Italic", Helvetica, Arial, sans-serif !important;
 
   @include box-shadow(0.4em 0 0 $quote-pull-bg-colour,-0.4em 0 0 $quote-pull-bg-colour);
 

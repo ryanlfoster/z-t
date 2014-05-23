@@ -1,6 +1,17 @@
 
 .large-image-with-optional-overlays {
 
+  .image-btn {
+    color: #00535e;
+    background: #fff;
+    border: 1px solid #00535e;
+    margin: 0 10px 20px 10px;
+    &:hover {
+      color: #fff;
+      background: #00535e;
+      border-color: #00535e;
+    }
+  }
 
   hr {
     border-top: 1px solid #e2e5de;
@@ -12,8 +23,15 @@
       border-top: 1px solid #FFF;
     }
     .image-btn {
-      color: #FFF;
+      color: #00535e;
+      background: #fff;
       border: 1px solid #e6e8e2;
+      margin: 0 10px 20px 10px;
+      &:hover {
+        color: #fff;
+        background: #00535e;
+        border-color: #00535e;
+      }
     }
   }
 

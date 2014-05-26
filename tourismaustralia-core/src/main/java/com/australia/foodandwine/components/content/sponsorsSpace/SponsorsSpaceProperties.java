@@ -25,7 +25,7 @@ public class SponsorsSpaceProperties {
 	@DialogField(fieldLabel = "Link Text", additionalProperties = @FieldProperty(name = "maxLength", value = "50"))
 	private final String linkText;
 
-	@DialogField(fieldLabel = "Link Text Path",  fieldDescription = "For external links please use prefix http:// or https:// (eg. http://www.google.com)")
+	@DialogField(fieldLabel = "Link Text Path", fieldDescription = "For external links please use prefix http:// or https:// (eg. http://www.google.com)")
 	@PathField
 	private final String linkTextPath;
 

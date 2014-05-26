@@ -55,7 +55,7 @@ public class OtherExperiences {
 	private static final Logger LOG = LoggerFactory.getLogger(OtherExperiences.class);
 
 	private final List<OtherExperiencesArticleListProperties> articlesList = new ArrayList<OtherExperiencesArticleListProperties>();
-	private List<String> experienceList;
+	private final List<String> experienceList;
 	private static final String QUERY_STRING = "SELECT * FROM [cq:Page] AS page INNER JOIN [nt:unstructured] AS pageContent ON ISCHILDNODE(pageContent,page) WHERE ISDESCENDANTNODE(page,["
 		+ PathUtils.FOOD_AND_WINE_ROOT_PATH
 		+ "]) and pageContent.[cq:tags] like '%s%%' and not (issamenode(page,'%s') or pageContent.excludeFromMosaic = true) and pageContent.[cq:template] = '/apps/foodandwine/templates/articlepage' order by pageContent.[jcr:created] DESC";
@@ -68,7 +68,7 @@ public class OtherExperiences {
 		PageManager pageManager = request.getResourceResolver().adaptTo(PageManager.class);
 		Page currentPage = pageManager.getContainingPage(request.getResource());
 		TagManager tagManager = request.getResourceResolver().adaptTo(TagManager.class);
-		try {
+		if (linkProps != null) {
 			String otherExperiencesPagePath1 = linkProps.get("otherExperiencesPagePath1", String.class);
 			String otherExperiencesPagePath2 = linkProps.get("otherExperiencesPagePath2", String.class);
 			String otherExperiencesPagePath3 = linkProps.get("otherExperiencesPagePath3", String.class);
@@ -85,11 +85,10 @@ public class OtherExperiences {
 					}
 					generateExperiences(request, experiencePath, pageManager, currentPage, tagManager);
 				}
-			} else {
-				queryBasedExperienceDisplay(request, pageManager, currentPage, tagManager);
 			}
-		} catch (Exception e) {
-			LOG.error(e.getMessage());
+		}
+		if (experienceList.size() == 0) {
+			queryBasedExperienceDisplay(request, pageManager, currentPage, tagManager);
 		}
 	}
 

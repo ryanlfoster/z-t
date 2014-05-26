@@ -13,76 +13,94 @@
 
 ;(function($, window, document, undefined) {
 
-	// Create the defaults once
-	var pluginName = 'fullwidthbg', defaults = {
+    // Create the defaults once
+    var pluginName = 'fullwidthbg', defaults = {
         largeScreenCenter : 1200 // for bottom alignment adjust for screens over 1200 width
-	};
+    };
 
-	// The actual plugin constructor
-	function Plugin(element, options) {
-		this.element = element;
-		this.options = $.extend({}, defaults, options);
-		this._defaults = defaults;
-		this._name = pluginName;
+    // The actual plugin constructor
+    function Plugin(element, options) {
+        this.element = element;
+        this.options = $.extend({}, defaults, options);
+        this._defaults = defaults;
+        this._name = pluginName;
+        this.data_media_type = $(this.element).attr('data-media-type')?$(this.element).attr('data-media-type'):"img";
+        this.init();
+    }
 
-		this.init();
-	}
 
+    Plugin.prototype.init = function() {
+        var scope = this;
 
-	Plugin.prototype.init = function() {
-		var scope = this;
-		var imageWidth = $(scope.element).find('img').width();
-		var imageHeight = $(scope.element).find('img').height();
+        var imageWidth = $(scope.element).find('img').width();
+        var imageHeight = $(scope.element).find('img').height();
 
-		scope.imageFactor = imageWidth / imageHeight;
-		scope.imageObject = $(scope.element).find('img');
+        scope.imageFactor = imageWidth / imageHeight;
+        scope.imageObject = $(scope.element).find('img');
 
-		//check alignment of image by data-tag
-		scope.alignment = $(scope.element).attr('data-image-vertical-alignment');
+        //check alignment of image by data-tag
+        scope.alignment = $(scope.element).attr('data-image-vertical-alignment');
 
-		$(window).resize(function() {
-			scope.checkBgImages(scope);
-		});
+        //check if video sizing required based off image size by data-tag
+        scope.data_video = $(scope.element).attr('data-video');
+        if (scope.data_video != ""){
+            scope.data_videoObject = $(scope.data_video);
+        }
 
-		scope.checkBgImages(scope);
-	};
+        $(window).resize(function() {
+            scope.checkBgImages(scope);
+        });
 
-	Plugin.prototype.checkBgImages = function(scope) {
-		scope.containerWidth = $(scope.element).width();
-		scope.containerHeight = $(scope.element).height();
+        scope.checkBgImages(scope);
+    };
 
-		//set width of image to 100%
-		scope.imageObject.width(scope.containerWidth);
-		scope.imageHeight = scope.imageObject.height();
+    Plugin.prototype.checkBgImages = function(scope) {
+        scope.containerWidth = $(scope.element).width();
+        scope.containerHeight = $(scope.element).height();
 
-		scope.checkImageAttributes(scope);
-	};
+        //set width of image to 100%
+        scope.imageObject.width(scope.containerWidth);
+        scope.imageHeight = scope.imageObject.height();
 
-	Plugin.prototype.checkImageAttributes = function(scope) {
-		//check if image covers the whole container
-		if (scope.imageHeight < scope.containerHeight) {
-			scope.resizeBgImageHeight(scope);
-		} else {
+        scope.checkImageAttributes(scope);
+
+        if (scope.data_videoObject.length){
+            var w = scope.imageObject.width();
+            var h = scope.imageObject.height();
+            var ml = scope.imageObject.css('margin-left');
+            var mt = scope.imageObject.css('margin-top');
+            scope.data_videoObject.width(w);
+            //$('.hero-video-media-video').height(h);
+            scope.data_videoObject.css('margin-left', ml);
+            scope.data_videoObject.css('margin-top', mt);
+        }
+    };
+
+    Plugin.prototype.checkImageAttributes = function(scope) {
+        //check if image covers the whole container
+        if (scope.imageHeight < scope.containerHeight) {
+            scope.resizeBgImageHeight(scope);
+        } else {
             if (scope.alignment === 'bottom') {
                 scope.setImageAlignmentBottom(scope);
             }else{
                 scope.setImageAlignment(scope);
             }
             scope.imageObject.css('margin-left', '0px');
-		}
-	};
+        }
+    };
 
-	Plugin.prototype.resizeBgImageHeight = function(scope) {
-		var imageHeight = $(scope.element).height();
-		var imageWidth = imageHeight * scope.imageFactor;
-		scope.imageObject.width(imageWidth);
-		
-		//set image to align horizontal in center
-		var marginRight = Math.abs(scope.containerWidth - imageWidth)/2;
-		scope.imageObject.css('margin-left', -marginRight + 'px');
+    Plugin.prototype.resizeBgImageHeight = function(scope) {
+        var imageHeight = $(scope.element).height();
+        var imageWidth = imageHeight * scope.imageFactor;
+        scope.imageObject.width(imageWidth);
+
+        //set image to align horizontal in center
+        var marginRight = Math.abs(scope.containerWidth - imageWidth)/2;
+        scope.imageObject.css('margin-left', -marginRight + 'px');
 
         scope.imageObject.css('margin-top', '0px');
-	};
+    };
 
     Plugin.prototype.setImageAlignmentBottom = function(scope) {
         //var marginTop = 0;
@@ -95,26 +113,26 @@
         scope.imageObject.css('margin-top', - Math.abs(marginTop) + 'px');
     };
 
-	Plugin.prototype.setImageAlignment = function(scope) {
+    Plugin.prototype.setImageAlignment = function(scope) {
         var marginTop = 0;
         scope.imageObject.css('margin-top', marginTop + 'px');
-	};
+    };
 
-	// A really lightweight plugin wrapper around the constructor,
-	// preventing against multiple instantiations
-	$.fn[pluginName] = function(options) {
-		return this.each(function() {
-			if (!$.data(this, 'plugin_' + pluginName)) {
-				$.data(this, 'plugin_' + pluginName, new Plugin(this, options));
-			}
-		});
-	};
+    // A really lightweight plugin wrapper around the constructor,
+    // preventing against multiple instantiations
+    $.fn[pluginName] = function(options) {
+        return this.each(function() {
+            if (!$.data(this, 'plugin_' + pluginName)) {
+                $.data(this, 'plugin_' + pluginName, new Plugin(this, options));
+            }
+        });
+    };
 
-	//init all fullwidth objects on page automatically
-	$(window).load(function() {
-		$(".fullwidth-bg").each(function(index, element) {
-			$(this).fullwidthbg();
-		});
-	});
+    //init all fullwidth objects on page automatically
+    $(window).load(function() {
+        $(".fullwidth-bg").each(function(index, element) {
+            $(this).fullwidthbg();
+        });
+    });
 
 })(jQuery, window, document);

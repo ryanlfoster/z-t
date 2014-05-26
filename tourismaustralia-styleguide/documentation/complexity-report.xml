@@ -14,6 +14,26 @@
 </file>
 <file name="assets/js/src/modules/jquery.ta.fullwidthbg.js">
   
+  <issue
+    line="32"
+    char="&lt;anonymous&gt;.init"
+    evidence="&lt;anonymous&gt;.init is too complicated"
+    reason="Cyclomatic: 2,
+    Halstead: 9.7391
+    | Effort: 5211.0
+    | Volume: 535.05
+    | Vocabulary: 31" />
+  
+  <issue
+    line="57"
+    char="&lt;anonymous&gt;.checkBgImages"
+    evidence="&lt;anonymous&gt;.checkBgImages is too complicated"
+    reason="Cyclomatic: 2,
+    Halstead: 8.0263
+    | Effort: 4268.8
+    | Volume: 531.86
+    | Vocabulary: 24" />
+  
 </file>
 <file name="assets/js/src/modules/jquery.ta.hotornot.js">
   
@@ -74,14 +94,14 @@
     line="186"
     char="init"
     evidence="init is too complicated"
-    reason="Cyclomatic: 8,
-    Halstead: 21.364
-    | Effort: 61729
-    | Volume: 2889.5
-    | Vocabulary: 91" />
+    reason="Cyclomatic: 9,
+    Halstead: 21.443
+    | Effort: 64220
+    | Volume: 2994.9
+    | Vocabulary: 93" />
   
   <issue
-    line="263"
+    line="267"
     char="_adjustImgHolderHeights"
     evidence="_adjustImgHolderHeights is too complicated"
     reason="Cyclomatic: 3,
@@ -91,7 +111,7 @@
     | Vocabulary: 60" />
   
   <issue
-    line="356"
+    line="360"
     char="_updatePositions"
     evidence="_updatePositions is too complicated"
     reason="Cyclomatic: 2,

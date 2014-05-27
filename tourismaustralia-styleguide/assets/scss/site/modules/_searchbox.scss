@@ -60,10 +60,21 @@
   right:0;
   width:pxtoem(28px);
   height:pxtoem(50px);
-  background-image: url(../imgs/icons/search_go.png);
-  background-repeat: no-repeat;
-  background-position: 0 0;
+
 }
+.search-input-go-icon
+{
+  position: absolute;
+  top: 10px;
+  right: 0;
+  color: #8d896f;
+}
+.search-box.search-box-focus {
+  .search-input-go-icon {
+    color: #00535e;
+  }
+}
+
 
 .search-box-focus form input[type="text"]{
   border-color:#000;

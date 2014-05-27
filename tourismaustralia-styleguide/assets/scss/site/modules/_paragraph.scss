@@ -16,6 +16,10 @@
   background: #fff;
   position: relative;
 }
+.paragraph-generic-no-style{
+  background:none;
+  position: static;
+}
 
 //** START - solve Background issue: where hero image is shown when Margin top is given to any Paragraph element
 // Working in Chrome, Safari, Firefox/Mozilla, IE8, IE9, IE10, IE11, iPhone3Gs, iPhone5, iPad ,Android default browser(stock)
@@ -120,22 +124,29 @@
 }
 
 // same styles applied for testing with styleguide
+
+.styleguide .paragraph-generic.padded-900 > *:last-child{
+  @include vertical-spacing-responsive('','large');
+}
 .styleguide .paragraph-generic.padded-900 {
 
   //CMS implementation
   & >  p,
   & >  ol,
   & >  ul,
-  & >  h2 {
+  & >  h2,
+  & >  h3{
     padding-left: pxtoem(15px);
     padding-right: pxtoem(15px);
+    display: block;
   }
 
   @include breakpoint(md) {
     & >  p,
     & >  ol,
     & >  ul,
-    & >  h2 {
+    & >  h2,
+    & >  h3{
       padding-right: 13%;
       padding-left: 13%;
     }
@@ -146,10 +157,11 @@
     & >  p,
     & >  ol,
     & >  ul,
-    & >  h2 {
-      padding-right: 13em;
-      padding-left: 13em;
-      max-width: pxtoem(1200px);
+    & >  h2,
+    & >  h3{
+      padding-right: 208px;
+      padding-left: 208px;
+      max-width: 1200px;
       margin-left:auto;
       margin-right:auto;
     }

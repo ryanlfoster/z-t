@@ -954,6 +954,17 @@
                     ,
                 
             
+                "3_column_links_list" : {
+                     "data" : {
+                        "title" : "3_column_links_list",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section '3_column_links_list'}}"
+                }
+                
+                    ,
+                
+            
                 "atdwhighlights" : {
                      "data" : {
                         "title" : "atdwhighlights",

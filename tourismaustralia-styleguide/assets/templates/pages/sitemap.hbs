@@ -3,7 +3,7 @@ title: Site Map
 layout: layout-base.hbs
 ---
 
-<div class="paragraph-generic">
+<div class="paragraph-generic padded-900">
 
     {{#parseJSON '{"page_title" : "Site Map"}'}}
         {{> breadcrumbsdynamic }}
@@ -13,6 +13,14 @@ layout: layout-base.hbs
         {{> sectiontitle }}
     {{/parseJSON}}
 
-    {{> sitemap_content }}
+    {{> 3_column_links_list }}
+
+    {{> 3_column_links_list }}
+
+    {{> 3_column_links_list }}
+
+    {{> 3_column_links_list }}
+
+    {{> 3_column_links_list }}
 
 </div>

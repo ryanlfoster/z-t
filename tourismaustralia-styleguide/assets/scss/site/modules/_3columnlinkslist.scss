@@ -1,0 +1,37 @@
+.three-column-links-list {
+  @include vertical-spacing-responsive('zero','zero');
+}
+
+.three-column-links-list .col-xs-12{
+ text-align: left;
+  @include breakpoint(sm) {
+    text-align: center;
+  }
+  @include breakpoint(md) {
+    text-align: left;
+  }
+}
+
+.three-column-links-list h2{
+  @include vertical-spacing-responsive('medium','zero');
+}
+
+.three-column-links-list ul{
+  padding:0;
+  margin-right:0;
+  list-style: none;
+  @include vertical-spacing-responsive('zero','zero');
+
+  @include breakpoint(md) {
+    margin-right:pxtoem(52px);
+  }
+}
+
+.three-column-links-list ul li{
+  padding: .13em 0;
+  line-height: 1em;
+}
+
+.three-column-links-list ul li a{
+  line-height: pxtoem(30px);
+}

@@ -2,8 +2,7 @@
 layout: layout-base.hbs
 ---
 
-<div class="paragraph-contact-us">
-    <div class="contactus">
+<div class="paragraph-generic padded-900">
         {{#parseJSON '{"page_title" : "Contact Us"}'}}
             {{> breadcrumbsdynamic }}
         {{/parseJSON}}
@@ -12,7 +11,12 @@ layout: layout-base.hbs
             {{> sectiontitle}}
         {{/parseJSON}}
 
+        {{#parseJSON '{"title": "POPULAR QUESTIONS"}'}}
+            {{> sectionintro_h2 }}
+        {{/parseJSON}}
+
+        {{> 3_column_links_list }}
+
         {{> contactus_content}}
         {{> contactus_form}}
-    </div>
 </div>

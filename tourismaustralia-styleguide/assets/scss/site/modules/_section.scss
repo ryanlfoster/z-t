@@ -2,13 +2,22 @@
 .section-title {
     padding: 0 pxtoem(15px) 0;
 }
+.section-intro,.section-title {
+  & + p,
+  & + ol,
+  & + ul,
+  & + h2,
+  & + h3{
+    @include vertical-spacing-responsive('medium','');
+  }
+}
 
 .section-title {
   @include vertical-spacing-responsive('large','zero', 13px, 0px);
 
   h1 {
     font-size: pxtoem(80px);
-    @include vertical-spacing-responsive('zero','zero',0px, 17px);
+    @include vertical-spacing-responsive('zero','zero',0px, 30px);
     @include breakpoint(md) {
       font-size: pxtoem(120px);
     }

@@ -1,3 +1,7 @@
+.atdw-refresh-results{
+  @include vertical-spacing-responsive('zero','standard');
+}
+
 .atdw-refresh-results .col-xs-12{
   padding:  0;
   @include breakpoint(md) {

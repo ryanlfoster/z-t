@@ -2,17 +2,25 @@
 // * Social Tiles:
 // * ---------------------------------------------------------------------------------------------------------------- */
 .socialtiles {
-	padding: pxtoem(15px) 0 pxtoem($bottom-spacing);
+  @include vertical-spacing-responsive('large','large');
+}
 
-    @include breakpoint(lg) {
-      //padding-top: pxtoem(45px);
-      //padding-bottom: pxtoem(55px);
-      padding: pxtoem($bottom-spacing) 0 pxtoem($bottom-spacing);
-    }
+.socialtiles h2{
+  @include vertical-spacing-responsive('zero','zero', 0px, 17px);
+}
+.socialtiles + .favourite-with-share hr{
+  @include vertical-spacing-responsive('standard','zero');
+}
+.socialtiles + .favourite-with-share hr:first-child{
+  @include vertical-spacing-responsive('zero','standard');
+}
+
+.socialtiles .section-intro + .mosaic{
+  @include vertical-spacing-responsive('standard','zero');
 }
 
 .socialtiles-linethrough {
-  margin: 1em 0;
+  @include vertical-spacing-responsive('standard','standard');
 }
 
 .socialtiles-linethrough .line-through-container-biline {

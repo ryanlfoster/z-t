@@ -2,12 +2,15 @@
   position: relative;
   background: #FFF;
   margin: 0 -15px;
-  padding-top: pxtoem($top-spacing);
-  padding-bottom: pxtoem($bottom-spacing);
+  @include vertical-spacing-responsive('large','large');
 }
 
 .image-ugc-container .large-image-social-mention .social-mention {
   margin-top: 0.5em;
+}
+
+.image-ugc-container .largeimage{
+  @include vertical-spacing-responsive('zero','zero');
 }
 
 .image-ugc {

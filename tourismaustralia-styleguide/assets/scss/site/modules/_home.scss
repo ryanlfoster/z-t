@@ -46,6 +46,9 @@
     padding-bottom: 0px !important;
   }
 }
+.home-thin-strip + .paragraph-generic:before{
+  border-top:0;
+}
 
 // HOME BG
 .home-bg {

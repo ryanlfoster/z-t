@@ -1,10 +1,9 @@
 .hotornot-selector {
   position: relative;
-  /*padding: 0;
-  @include breakpoint(sm) {
-    padding: 0 pxtoem(15px);
-  }*/
-  padding-bottom: pxtoem($bottom-spacing);
+  @include vertical-spacing-responsive('zero','zero');
+}
+.hotornot-selector .line-through-container{
+  @include vertical-spacing-responsive('standard','standard', -10px, -20px);
 }
 
 .hotornot-images {
@@ -114,10 +113,10 @@
 //////////////////
 .hotornot-item {
   padding: 0;
-  @include breakpoint(sm) {
-    //padding: 0 pxtoem(15px);
-  }
-  padding-bottom: pxtoem($bottom-spacing);
+  @include vertical-spacing-responsive('large','large');
+}
+.hotornot-item.is-hidden{
+  @include vertical-spacing-responsive('zero','zero');
 }
 
 .hotornot-category-image {

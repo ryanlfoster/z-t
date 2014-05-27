@@ -1,10 +1,7 @@
 .contactus-form{
   background-color: #f3f2eb;
   padding: pxtoem(50px) 3.29%;
-  margin-bottom: pxtoem(60px);
-  @include breakpoint(md) {
-    margin-bottom: pxtoem(120px);
-  }
+  @include vertical-spacing-responsive('large','large');
 }
 
 .contactus-form p{
@@ -32,6 +29,10 @@
 
 .contactus-form form .inputFocus-wrapper,.contactus-form .dropdown-full-width {
   margin-bottom: 0;
+}
+
+.contactus-formhead .type-secondary{
+  @include vertical-spacing-responsive('zero','zero');
 }
 
 .contactus-form .dropdown-white-background{

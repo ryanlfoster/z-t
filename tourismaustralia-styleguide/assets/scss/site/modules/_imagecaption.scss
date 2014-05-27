@@ -3,7 +3,7 @@
 //////////////////////////
 .imagecaption {
   position: relative;
-  padding-bottom: 2.5em;
+  @include vertical-spacing-responsive('large','large');
 
   .col-sm-7 {
     padding: 0;

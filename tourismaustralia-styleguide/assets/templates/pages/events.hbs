@@ -5,6 +5,10 @@ title: Events
 
 <div class="paragraph-article">
 
+    {{#parseJSON '{"page_title" : "Events"}'}}
+        {{> breadcrumbsdynamic }}
+    {{/parseJSON}}
+
     {{#parseJSON '{"title": "Upcoming Australian events","copy": "Nisi amet ultrices odio? Aliquam pellentesque, tristique lacus nec? Ultricies? Proin est magnis, sit platea platea magnis integer nunc montes. Duis ultricies ac magnis cursus dapibus et."}'}}
         {{> sectiontitle}}
     {{/parseJSON}}

@@ -1,14 +1,13 @@
 .dreamtrip-grid {
-  padding-bottom: pxtoem($bottom-spacing);
-
-  @include breakpoint(md) {
-    padding-bottom: pxtoem($bottom-spacing-double);
-  }
+  @include vertical-spacing-responsive('large','large');
 }
 
 .dreamtrip-grid .btn-primary {
-  margin-bottom: 1em;
   min-width: 186px;
+}
+
+.dreamtrip-grid h2.type-h1-responsive{
+  @include vertical-spacing-responsive('zero','zero',0px,10px);
 }
 
 .dreamtrip-title {

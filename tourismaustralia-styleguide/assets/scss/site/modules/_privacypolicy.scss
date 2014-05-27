@@ -1,11 +1,13 @@
 
 .privacy-policy{
   text-align: left;
+  @include vertical-spacing-responsive('medium','zero');
 }
 
 .privacy-policy ol{
   padding-left: pxtoem(15px);
   margin-left: 0;
+  @include vertical-spacing-responsive('zero','large');
   @include breakpoint(lg){
     padding-left: 0;
   }

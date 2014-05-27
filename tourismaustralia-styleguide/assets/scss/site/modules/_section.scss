@@ -1,37 +1,31 @@
 .section-intro,
 .section-title {
-
     padding: 0 pxtoem(15px) 0;
-
-    p {
-        margin: 2em 0;
-    }
 }
 
 .section-title {
-  padding-top: pxtoem(60px);
-  padding-bottom: pxtoem(40px);
+  @include vertical-spacing-responsive('large','zero', 13px, 0px);
 
   h1 {
     font-size: pxtoem(80px);
-    margin-bottom: 0;
+    @include vertical-spacing-responsive('zero','zero',0px, 17px);
     @include breakpoint(md) {
       font-size: pxtoem(120px);
     }
   }
 }
 
+.section-title + .double-mosaic{
+  @include vertical-spacing-responsive('large','');
+}
+
 .section-buttons {
 
     padding: 0;
+    @include vertical-spacing-responsive('standard','standard');
 
-    .section-buttons-desktop {
+  .section-buttons-desktop {
         display: none;
-        margin-bottom: -1em;
-
-        .btn-bubble {
-            margin-bottom: 1em;
-        }
     }
 
     .section-buttons-mobile {
@@ -42,7 +36,7 @@
 
     // custom break to allow 2 buttons
     @media (min-width: 560px) {
-        padding: 0.25em 0 1.5em;
+        //padding: 0.25em 0 1.5em;
         .section-buttons-mobile {
             display: none;
         }

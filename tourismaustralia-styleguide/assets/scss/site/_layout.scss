@@ -634,19 +634,19 @@ $footerBackgroundColour: #0a334c;
 }
 
 .l-padding-b {
-  padding-bottom: pxtoem($bottom-spacing);
+  //padding-bottom: pxtoem($bottom-spacing);
 
   @include breakpoint(md) {
-    padding-bottom: pxtoem($bottom-spacing-double);
+    //padding-bottom: pxtoem($bottom-spacing-double);
   }
 }
 .l-padding-b-standard {
-  padding-bottom: pxtoem($bottom-spacing);
+  //padding-bottom: pxtoem($bottom-spacing);
 }
 .l-padding-b-standard-responsive {
-  padding-bottom: pxtoem($bottom-spacing/2);
+  //padding-bottom: pxtoem($bottom-spacing/2);
   @include breakpoint(sm) {
-    padding-bottom: pxtoem($bottom-spacing);
+    //padding-bottom: pxtoem($bottom-spacing);
   }
 }
 
@@ -866,3 +866,38 @@ $footerBackgroundColour: #0a334c;
   width: 100%;
 }
 //////////////////////////////////////////
+
+//////////////////////////////////////////
+
+/*** Spacing Classes according to mixin 'vertical-spacing-responsive' **/
+.l-vertical-spacing-responsive-top-zero{
+  @include vertical-spacing-responsive('zero','');
+}
+
+.l-vertical-spacing-responsive-bottom-zero{
+  @include vertical-spacing-responsive('','zero');
+}
+
+.l-vertical-spacing-responsive-top-standard{
+  @include vertical-spacing-responsive('standard','');
+}
+
+.l-vertical-spacing-responsive-button-standard{
+  @include vertical-spacing-responsive('','standard');
+}
+
+.l-vertical-spacing-responsive-top-medium{
+  @include vertical-spacing-responsive('medium','');
+}
+
+.l-vertical-spacing-responsive-button-medium{
+  @include vertical-spacing-responsive('','medium');
+}
+
+.l-vertical-spacing-responsive-top-large{
+  @include vertical-spacing-responsive('large','');
+}
+
+.l-vertical-spacing-responsive-button-large{
+  @include vertical-spacing-responsive('','large');
+}

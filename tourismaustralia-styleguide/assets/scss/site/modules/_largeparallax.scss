@@ -26,18 +26,6 @@
   @include vertical-spacing-responsive('large','medium');
 }
 
-/* Different states for module */
-.parallaximage_fullwidth--images { }
-.parallaximage_fullwidth--text { }
-.parallaximage_fullwidth--label { }
-.parallaximage_fullwidth--blank { }
-.parallaximage_fullwidth--social { 
-	.largeparallax {
-		padding-bottom: pxtoem(25px);
-	}
-
-}
-
 /* Styling for text overlay on main image */
 .largeparallax-text {
 	position: absolute;
@@ -60,8 +48,10 @@
 		text-align: center;
 	}
 
-	h3 {
-		color: #fff;
+  h2 {
+        @include vertical-spacing-responsive('zero','zero');
+
+        color: #fff;
 		font-size: pxtoem(40px);
 		
 		@include breakpoint(sm) {

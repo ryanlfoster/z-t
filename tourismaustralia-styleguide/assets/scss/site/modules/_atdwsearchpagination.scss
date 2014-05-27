@@ -1,6 +1,5 @@
 .atdw-search-pagination{
-  margin-top: pxtoem(3px);
-  margin-bottom: pxtoem(120px);
+  @include vertical-spacing-responsive('standard','large',3px, 7px);
 }
 .atdw-search-pagination-wrapper{
   display: table;

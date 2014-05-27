@@ -46,7 +46,7 @@
 // Category Links Colour for biline
 .line-through-container.line-categorylink-theme {
   position: relative;
-  margin-bottom: 2em;
+  margin: 0;
 }
 .line-categorylink-theme .line-through-container-biline {
   color: $type-main-heading-colour;
@@ -55,6 +55,7 @@
   z-index: 2;
   position: relative;
   display: inline-block;
+  margin: 0;
 }
 .line-through-categorylink-theme {
   position: absolute;

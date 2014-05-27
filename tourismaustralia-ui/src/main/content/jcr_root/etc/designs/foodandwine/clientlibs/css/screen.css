@@ -10180,50 +10180,56 @@ input.btn-secondary {
   z-index: 100;
   position: relative;
 }
+/* line 192, ../../assets/scss/site/modules/_form.scss */
+.form-elements-biline a {
+  font-family: "TAheadline", Helvetica, Arial, sans-serif;
+  letter-spacing: .015em;
+  font-size: 1em;
+}
 
-/* line 194, ../../assets/scss/site/modules/_form.scss */
+/* line 198, ../../assets/scss/site/modules/_form.scss */
 .form-agree-container {
   font-size: .9em;
   margin-bottom: 1.75em !important;
 }
-/* line 199, ../../assets/scss/site/modules/_form.scss */
+/* line 203, ../../assets/scss/site/modules/_form.scss */
 .form-agree-container input[type=checkbox].checkbox + label.checkbox-label {
   line-height: 1.1em;
   display: table-cell;
   height: 36px;
   padding-top: 2px;
 }
-/* line 206, ../../assets/scss/site/modules/_form.scss */
+/* line 210, ../../assets/scss/site/modules/_form.scss */
 .form-agree-container .input-field-checkbox {
   font-size: .9em;
 }
-/* line 210, ../../assets/scss/site/modules/_form.scss */
-.form-agree-container .input-field-checkbox p {
+/* line 214, ../../assets/scss/site/modules/_form.scss */
+.form-agree-container .checkbox-description {
   margin-bottom: 2em;
 }
-/* line 214, ../../assets/scss/site/modules/_form.scss */
+/* line 218, ../../assets/scss/site/modules/_form.scss */
 .form-agree-container .input-field-validation-icon {
   margin-top: 0 !important;
 }
 @media (min-width: 480px) {
-  /* line 194, ../../assets/scss/site/modules/_form.scss */
+  /* line 198, ../../assets/scss/site/modules/_form.scss */
   .form-agree-container {
     font-size: inherit;
     padding-top: 1em;
   }
-  /* line 221, ../../assets/scss/site/modules/_form.scss */
+  /* line 225, ../../assets/scss/site/modules/_form.scss */
   .form-agree-container input[type=checkbox].checkbox + label.checkbox-label {
     line-height: inherit;
   }
-  /* line 225, ../../assets/scss/site/modules/_form.scss */
+  /* line 229, ../../assets/scss/site/modules/_form.scss */
   .form-agree-container .input-field-checkbox {
     font-size: inherit;
   }
-  /* line 229, ../../assets/scss/site/modules/_form.scss */
-  .form-agree-container .input-field-checkbox p {
+  /* line 233, ../../assets/scss/site/modules/_form.scss */
+  .form-agree-container .checkbox-description {
     margin-bottom: inherit;
   }
-  /* line 232, ../../assets/scss/site/modules/_form.scss */
+  /* line 236, ../../assets/scss/site/modules/_form.scss */
   .form-agree-container .col-xs-12 {
     float: none;
     bottom: 0em;
@@ -10232,75 +10238,75 @@ input.btn-secondary {
     text-align: left;
   }
 }
-/* line 242, ../../assets/scss/site/modules/_form.scss */
+/* line 246, ../../assets/scss/site/modules/_form.scss */
 .form-agree-container fieldset.options {
   display: block;
   padding-bottom: 0;
 }
 
-/* line 254, ../../assets/scss/site/modules/_form.scss */
+/* line 258, ../../assets/scss/site/modules/_form.scss */
 .field-container.terms-conditions {
   height: 25%;
 }
-/* line 257, ../../assets/scss/site/modules/_form.scss */
+/* line 261, ../../assets/scss/site/modules/_form.scss */
 .field-container.terms-conditions .input-field-validation-alert.input-field-validation-show {
   margin: 0;
 }
 
-/* line 263, ../../assets/scss/site/modules/_form.scss */
+/* line 267, ../../assets/scss/site/modules/_form.scss */
 .form-clear {
   clear: both;
   display: none;
 }
 @media (min-width: 480px) {
-  /* line 263, ../../assets/scss/site/modules/_form.scss */
+  /* line 267, ../../assets/scss/site/modules/_form.scss */
   .form-clear {
     display: block;
   }
 }
 
-/* line 273, ../../assets/scss/site/modules/_form.scss */
+/* line 277, ../../assets/scss/site/modules/_form.scss */
 .form-hero-thankyou .faw-hero-home-container .icon-logo-withlines-container {
   margin: 3.125em 0 .7em;
 }
 
-/* line 278, ../../assets/scss/site/modules/_form.scss */
+/* line 282, ../../assets/scss/site/modules/_form.scss */
 .form-thankyou-h1 {
   font-size: 3em;
   line-height: .93em;
   margin-bottom: .55em;
 }
 @media (min-width: 768px) {
-  /* line 278, ../../assets/scss/site/modules/_form.scss */
+  /* line 282, ../../assets/scss/site/modules/_form.scss */
   .form-thankyou-h1 {
     font-size: 4.625em;
   }
 }
 
-/* line 288, ../../assets/scss/site/modules/_form.scss */
+/* line 292, ../../assets/scss/site/modules/_form.scss */
 .form-thank-you p {
   font-size: 1em;
   line-height: 1.2em;
   padding: 0 1em;
 }
-/* line 293, ../../assets/scss/site/modules/_form.scss */
+/* line 297, ../../assets/scss/site/modules/_form.scss */
 .form-thank-you p strong a {
   text-decoration: none;
   border-bottom: 1px solid #bbbbbb;
 }
 @media (min-width: 768px) {
-  /* line 288, ../../assets/scss/site/modules/_form.scss */
+  /* line 292, ../../assets/scss/site/modules/_form.scss */
   .form-thank-you p {
     font-size: 1.125em;
   }
 }
-/* line 302, ../../assets/scss/site/modules/_form.scss */
+/* line 306, ../../assets/scss/site/modules/_form.scss */
 .form-thank-you .form-biline-container hr {
   width: 225px;
   top: 0.5em;
 }
 
-/* line 308, ../../assets/scss/site/modules/_form.scss */
+/* line 312, ../../assets/scss/site/modules/_form.scss */
 .form-number-container {
   height: 100%;
   text-align: center;
@@ -10308,7 +10314,7 @@ input.btn-secondary {
   line-height: .8em;
 }
 
-/* line 314, ../../assets/scss/site/modules/_form.scss */
+/* line 318, ../../assets/scss/site/modules/_form.scss */
 .form-number-container hr {
   border-top: 1px solid #bbbbbb;
   width: 280px;
@@ -10318,13 +10324,13 @@ input.btn-secondary {
   position: relative;
 }
 @media (min-width: 768px) {
-  /* line 314, ../../assets/scss/site/modules/_form.scss */
+  /* line 318, ../../assets/scss/site/modules/_form.scss */
   .form-number-container hr {
     width: 300px;
   }
 }
 
-/* line 325, ../../assets/scss/site/modules/_form.scss */
+/* line 329, ../../assets/scss/site/modules/_form.scss */
 .form-number-container .form-number {
   font-family: "GearedSlab-Bold", Helvetica, Arial, sans-serif;
   font-size: 1.5em;
@@ -10353,12 +10359,12 @@ input.btn-secondary {
   text-decoration: none;
   color: #606060;
 }
-/* line 340, ../../assets/scss/site/modules/_form.scss */
+/* line 344, ../../assets/scss/site/modules/_form.scss */
 .form-number-container .form-number:hover, .form-number-container .form-number:focus {
   color: #040000;
 }
 
-/* line 344, ../../assets/scss/site/modules/_form.scss */
+/* line 348, ../../assets/scss/site/modules/_form.scss */
 .form-number-text {
   display: block;
   margin-top: 0.1875em;
@@ -10367,7 +10373,7 @@ input.btn-secondary {
   margin-bottom: 0\0;
 }
 
-/* line 353, ../../assets/scss/site/modules/_form.scss */
+/* line 357, ../../assets/scss/site/modules/_form.scss */
 .form-number-square-box {
   background: #FFF;
   padding: .3em .3em 0;
@@ -10375,35 +10381,35 @@ input.btn-secondary {
   position: relative;
 }
 
-/* line 359, ../../assets/scss/site/modules/_form.scss */
+/* line 363, ../../assets/scss/site/modules/_form.scss */
 .form-thanks-google-logo {
   font-size: 3.4em;
 }
 
-/* line 363, ../../assets/scss/site/modules/_form.scss */
+/* line 367, ../../assets/scss/site/modules/_form.scss */
 .form-social-list {
   font-size: 1.6em;
 }
-/* line 368, ../../assets/scss/site/modules/_form.scss */
+/* line 372, ../../assets/scss/site/modules/_form.scss */
 .form-social-list > li:nth-child(odd) {
   width: 95px;
 }
-/* line 371, ../../assets/scss/site/modules/_form.scss */
+/* line 375, ../../assets/scss/site/modules/_form.scss */
 .form-social-list li:last-child {
   font-size: .9em;
   bottom: 2px;
   position: relative;
 }
-/* line 376, ../../assets/scss/site/modules/_form.scss */
+/* line 380, ../../assets/scss/site/modules/_form.scss */
 .form-social-list a, .form-social-list a:hover, .form-social-list a:focus {
   color: #3b5997;
 }
 
-/* line 381, ../../assets/scss/site/modules/_form.scss */
+/* line 385, ../../assets/scss/site/modules/_form.scss */
 .form-thank-you-states {
   margin-bottom: 60px;
 }
-/* line 386, ../../assets/scss/site/modules/_form.scss */
+/* line 390, ../../assets/scss/site/modules/_form.scss */
 .form-thank-you-states > li {
   padding-bottom: 28px;
   display: block;
@@ -10416,45 +10422,45 @@ input.btn-secondary {
  else just center align for all screen sizes
 **/
 @media (min-width: 768px) {
-  /* line 399, ../../assets/scss/site/modules/_form.scss */
+  /* line 403, ../../assets/scss/site/modules/_form.scss */
   .rgba .form-thank-you-states {
     margin-bottom: 94px;
     text-align: left;
   }
-  /* line 408, ../../assets/scss/site/modules/_form.scss */
+  /* line 412, ../../assets/scss/site/modules/_form.scss */
   .rgba .form-thank-you-states > li {
     display: inline-block;
     text-align: left;
   }
-  /* line 414, ../../assets/scss/site/modules/_form.scss */
+  /* line 418, ../../assets/scss/site/modules/_form.scss */
   .rgba .form-thank-you-states > li:nth-child(odd) {
     width: 238px;
     margin-left: 100px;
   }
 }
 
-/* line 425, ../../assets/scss/site/modules/_form.scss */
+/* line 429, ../../assets/scss/site/modules/_form.scss */
 .form-thank-you-contact-icon-size {
   font-size: 1.8em;
 }
 
-/* line 428, ../../assets/scss/site/modules/_form.scss */
+/* line 432, ../../assets/scss/site/modules/_form.scss */
 .form-thank-you-small-print {
   font-size: .8em;
   line-height: 0em;
 }
 
-/* line 434, ../../assets/scss/site/modules/_form.scss */
+/* line 438, ../../assets/scss/site/modules/_form.scss */
 .form-contact-icon img {
   margin-bottom: 0.5em;
 }
 
-/* line 439, ../../assets/scss/site/modules/_form.scss */
+/* line 443, ../../assets/scss/site/modules/_form.scss */
 .form-agree-container fieldset.options {
   padding-bottom: 0;
 }
 @media (min-width: 480px) {
-  /* line 439, ../../assets/scss/site/modules/_form.scss */
+  /* line 443, ../../assets/scss/site/modules/_form.scss */
   .form-agree-container fieldset.options {
     padding-bottom: 1.5625em;
   }
@@ -11103,7 +11109,7 @@ input.btn-secondary {
 }
 
 /* line 214, ../../assets/scss/site/modules/_inputfield.scss */
-.input-field-checkbox p {
+.checkbox-description {
   text-align: left;
 }
 
@@ -11195,7 +11201,7 @@ input.btn-secondary {
   }
 
   /* line 280, ../../assets/scss/site/modules/_inputfield.scss */
-  .terms-conditions .input-field-checkbox p {
+  .terms-conditions .checkbox-description {
     padding-top: 1em;
   }
   /* line 284, ../../assets/scss/site/modules/_inputfield.scss */
@@ -11401,7 +11407,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
 }
 
 /* line 69, ../../assets/scss/site/modules/_checkbox.scss */
-.input-field-checkbox p {
+.checkbox-description {
   font-size: 0.9em;
   margin-left: 3.7em;
   margin-top: 0em;
@@ -11409,7 +11415,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
   margin-bottom: 2.5em;
 }
 /* line 76, ../../assets/scss/site/modules/_checkbox.scss */
-.input-field-checkbox p a {
+.checkbox-description a {
   color: #000;
   font-weight: bold;
   font-family: "ProximaNova Bold";
@@ -11417,7 +11423,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
 }
 @media (min-width: 480px) {
   /* line 69, ../../assets/scss/site/modules/_checkbox.scss */
-  .input-field-checkbox p {
+  .checkbox-description {
     margin-bottom: 4.5em;
   }
 }
@@ -13880,13 +13886,12 @@ input[type=checkbox].checkbox + label.checkbox-label {
   padding: 0 !important;
   text-align: left;
   margin: 0;
-  margin-bottom: 7px;
   padding-right: 1.5em !important;
   line-height: 1em;
   width: 83%;
 }
 
-/* line 68, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 67, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-description-share {
   font-size: 2em;
   position: absolute;
@@ -13897,18 +13902,18 @@ input[type=checkbox].checkbox + label.checkbox-label {
   width: 35px;
   height: 35px;
 }
-/* line 78, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 77, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-description-share img {
   width: 35px;
   height: 35px;
 }
 
-/* line 84, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 83, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-description-share-dark {
   display: none;
 }
 
-/* line 96, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 95, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-overlay {
   position: absolute;
   top: 0;
@@ -13929,7 +13934,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
  Hover / focus state
  only on non-touch devices
 */
-/* line 119, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 118, ../../assets/scss/site/modules/_mosaic-item.scss */
 .no-touch .mosaic-item:hover, .no-touch .mosaic-item:focus {
   /*
     Show overlay
@@ -13938,11 +13943,11 @@ input[type=checkbox].checkbox + label.checkbox-label {
    Show underline under cta
   */
 }
-/* line 124, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 123, ../../assets/scss/site/modules/_mosaic-item.scss */
 .no-touch .mosaic-item:hover .mosaic-item-overlay, .no-touch .mosaic-item:focus .mosaic-item-overlay {
   display: block;
 }
-/* line 131, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 130, ../../assets/scss/site/modules/_mosaic-item.scss */
 .no-touch .mosaic-item:hover .mosaic-item-description-copy-link, .no-touch .mosaic-item:focus .mosaic-item-description-copy-link {
   text-decoration: underline;
 }
@@ -13950,13 +13955,13 @@ input[type=checkbox].checkbox + label.checkbox-label {
 /**
  Provide transition based on feature being available.
 **/
-/* line 144, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 143, ../../assets/scss/site/modules/_mosaic-item.scss */
 .no-touch.opacity {
   /*
    Only on non touch devices
   */
 }
-/* line 146, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 145, ../../assets/scss/site/modules/_mosaic-item.scss */
 .no-touch.opacity .mosaic-item-overlay {
   -webkit-transform: translateZ(0);
   display: block;
@@ -13966,7 +13971,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
   -webkit-transition: opacity .5s ease-out;
   -o-transition: opacity .5s ease-out;
 }
-/* line 161, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 160, ../../assets/scss/site/modules/_mosaic-item.scss */
 .no-touch.opacity .mosaic-item:hover, .no-touch.opacity .mosaic-item:focus {
   /**
    Transition overlay
@@ -13975,7 +13980,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
  Show underline under cta
 */
 }
-/* line 166, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 165, ../../assets/scss/site/modules/_mosaic-item.scss */
 .no-touch.opacity .mosaic-item:hover .mosaic-item-overlay, .no-touch.opacity .mosaic-item:focus .mosaic-item-overlay {
   opacity: 1;
   transition: opacity .2s ease-out;
@@ -13983,7 +13988,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
   -webkit-transition: opacity .2s ease-out;
   -o-transition: opacity .2s ease-out;
 }
-/* line 177, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 176, ../../assets/scss/site/modules/_mosaic-item.scss */
 .no-touch.opacity .mosaic-item:hover .mosaic-item-description-copy-link, .no-touch.opacity .mosaic-item:focus .mosaic-item-description-copy-link {
   text-decoration: underline;
 }
@@ -13991,7 +13996,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
 /**
  Brand heading
 **/
-/* line 189, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 188, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-overlay-info-head {
   position: relative;
   font-size: 1.2em;
@@ -14008,7 +14013,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
 /**
  Category icon
 **/
-/* line 206, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 205, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-overlay-info-icon-item {
   position: relative;
   display: block;
@@ -14019,7 +14024,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
 /**
   Locations
 **/
-/* line 217, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 216, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-overlay-info-desciption {
   position: relative;
   display: block;
@@ -14033,7 +14038,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
 /**
  Other categories
 **/
-/* line 233, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 232, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-overlay-info-categories {
   width: 100%;
   position: absolute;
@@ -14046,30 +14051,26 @@ input[type=checkbox].checkbox + label.checkbox-label {
   display: block;
 }
 @media (min-width: 768px) {
-  /* line 233, ../../assets/scss/site/modules/_mosaic-item.scss */
+  /* line 232, ../../assets/scss/site/modules/_mosaic-item.scss */
   .mosaic-item-overlay-info-categories {
     padding: 0 1.4em 0 1.4em;
   }
 }
 @media (min-width: 1200px) {
-  /* line 233, ../../assets/scss/site/modules/_mosaic-item.scss */
+  /* line 232, ../../assets/scss/site/modules/_mosaic-item.scss */
   .mosaic-item-overlay-info-categories {
     padding: 1.4em 1.4em 3% 1.4em;
   }
 }
-/* line 250, ../../assets/scss/site/modules/_mosaic-item.scss */
-.mosaic-item-overlay-info-categories strong {
-  white-space: nowrap;
-}
 
-/* line 260, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 255, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-overlay-share {
   background-color: #036c86;
   font-size: 0.9em;
   line-height: 1.5em;
 }
 
-/* line 266, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 261, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-overlay-share-container {
   position: absolute;
   display: block;
@@ -14080,7 +14081,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
   width: 80%;
 }
 
-/* line 277, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 272, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-overlay-share-copy {
   text-align: center;
   display: block;
@@ -14092,42 +14093,42 @@ input[type=checkbox].checkbox + label.checkbox-label {
   font-family: "ProximaNova Bold", Helvetica, Arial, sans-serif;
 }
 @media (min-width: 768px) {
-  /* line 277, ../../assets/scss/site/modules/_mosaic-item.scss */
+  /* line 272, ../../assets/scss/site/modules/_mosaic-item.scss */
   .mosaic-item-overlay-share-copy {
     line-height: 1.2em;
     font-family: "ProximaNova Regular", Helvetica, Arial, sans-serif;
   }
 }
 @media (min-width: 1200px) {
-  /* line 277, ../../assets/scss/site/modules/_mosaic-item.scss */
+  /* line 272, ../../assets/scss/site/modules/_mosaic-item.scss */
   .mosaic-item-overlay-share-copy {
     line-height: 1.5em;
     font-family: "ProximaNova Bold", Helvetica, Arial, sans-serif;
   }
 }
 @media (min-width: 768px) {
-  /* line 295, ../../assets/scss/site/modules/_mosaic-item.scss */
+  /* line 290, ../../assets/scss/site/modules/_mosaic-item.scss */
   .mosaic-item-overlay-share-copy strong {
     line-height: 1.2em;
     font-family: "ProximaNova Regular", Helvetica, Arial, sans-serif;
   }
 }
 @media (min-width: 1200px) {
-  /* line 295, ../../assets/scss/site/modules/_mosaic-item.scss */
+  /* line 290, ../../assets/scss/site/modules/_mosaic-item.scss */
   .mosaic-item-overlay-share-copy strong {
     line-height: 1.5em;
     font-family: "ProximaNova Bold", Helvetica, Arial, sans-serif;
   }
 }
 
-/* line 310, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 305, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-overlay-info {
   background-color: #181818;
   text-align: center;
   opacity: 0;
 }
 
-/* line 316, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 311, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-overlay-info-icon {
   width: 175px;
   height: 117px;
@@ -14142,22 +14143,22 @@ input[type=checkbox].checkbox + label.checkbox-label {
   margin-left: -87px;
 }
 
-/* line 334, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 329, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-register {
   width: 100%;
   height: 100%;
   background-color: white;
 }
-/* line 339, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 334, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-register img {
   opacity: 0;
 }
-/* line 343, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 338, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-register .mosaic-item-register-inner {
   border: 1px #bbbbbb solid;
 }
 
-/* line 347, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 342, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-register-content {
   position: absolute;
   top: 50%;
@@ -14170,17 +14171,17 @@ input[type=checkbox].checkbox + label.checkbox-label {
   margin-top: -7.5em;
   text-align: center;
 }
-/* line 359, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 354, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-register-content .faw-register-teaser-subline {
   color: black;
   font-size: 0.8em;
 }
-/* line 364, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 359, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-register-content p {
   margin-top: 0.5em;
 }
 
-/* line 369, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 364, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-description-categories {
   position: absolute;
   top: 0;
@@ -14189,20 +14190,20 @@ input[type=checkbox].checkbox + label.checkbox-label {
   font-size: 15px;
 }
 @media (min-width: 768px) {
-  /* line 369, ../../assets/scss/site/modules/_mosaic-item.scss */
+  /* line 364, ../../assets/scss/site/modules/_mosaic-item.scss */
   .mosaic-item-description-categories {
     display: block;
   }
 }
 
-/* line 381, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 376, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-location .mosaic-item-description {
   padding-left: 1.5em !important;
   z-index: 2;
   font-size: 1.125em;
   margin: 9px 9px 2px 8px;
 }
-/* line 389, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 384, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-location .mosaic-item-location-icon {
   position: absolute;
   left: 1em;
@@ -14210,41 +14211,22 @@ input[type=checkbox].checkbox + label.checkbox-label {
   z-index: 9;
 }
 
-/* line 398, ../../assets/scss/site/modules/_mosaic-item.scss */
-.mosaic-item-location .mosaic-item-description {
-  background: none;
-}
-
 /*-----------------------grid changer-------------------------*/
 /*
  List view
 */
-/* line 408, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 401, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list {
   /*
   List view hide overlay
 */
 }
-/* line 414, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 407, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list:hover .mosaic-item-overlay, .mosaic-item-list:focus .mosaic-item-overlay {
   display: none;
 }
 
-/*
- List view
-*/
-/* line 427, ../../assets/scss/site/modules/_mosaic-item.scss */
-.mosaic-item-list {
-  /*
-  List view hide overlay
-*/
-}
-/* line 433, ../../assets/scss/site/modules/_mosaic-item.scss */
-.mosaic-item-list:hover .mosaic-item-overlay, .mosaic-item-list:focus .mosaic-item-overlay {
-  display: none;
-}
-
-/* line 442, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 416, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list {
   text-align: left;
   border-bottom: 1px #ebebeb solid;
@@ -14253,11 +14235,11 @@ input[type=checkbox].checkbox + label.checkbox-label {
   padding-top: 1.875em;
   overflow: visible;
 }
-/* line 451, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 425, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list:hover, .mosaic-item-list:focus {
   text-decoration: none;
 }
-/* line 455, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 429, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list .mosaic-item-description {
   top: 0;
   bottom: 0;
@@ -14269,17 +14251,17 @@ input[type=checkbox].checkbox + label.checkbox-label {
   display: block;
   background: none;
 }
-/* line 469, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 443, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list .mosaic-item-description-sub {
   color: #393939;
 }
-/* line 473, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 447, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list .mosaic-item-description-head {
   font-size: 2em;
   line-height: 1em;
   color: #393939;
 }
-/* line 479, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 453, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list .mosaic-item-description-copy {
   display: none !important;
   text-align: left;
@@ -14287,17 +14269,17 @@ input[type=checkbox].checkbox + label.checkbox-label {
   margin-top: 1em;
 }
 @media (min-width: 768px) {
-  /* line 479, ../../assets/scss/site/modules/_mosaic-item.scss */
+  /* line 453, ../../assets/scss/site/modules/_mosaic-item.scss */
   .mosaic-item-list .mosaic-item-description-copy {
     display: block !important;
   }
 }
-/* line 490, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 464, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list p {
   color: #393939;
   margin-left: 100px;
 }
-/* line 495, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 469, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list .mosaic-item-image {
   width: 100px;
   /* For Safari 3.1 to 6.0 */
@@ -14311,54 +14293,54 @@ input[type=checkbox].checkbox + label.checkbox-label {
   transition-timing-function: ease-out;
   transition-delay: 0s;
 }
-/* line 500, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 474, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list:hover {
   background-color: #ebebeb;
 }
-/* line 504, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 478, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list .mosaic-item-description-share {
   color: #393939;
   right: 0em;
   top: 0em;
 }
-/* line 510, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 484, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list .mosaic-item-description-share-dark {
   display: none;
 }
 @media (min-width: 768px) {
-  /* line 510, ../../assets/scss/site/modules/_mosaic-item.scss */
+  /* line 484, ../../assets/scss/site/modules/_mosaic-item.scss */
   .mosaic-item-list .mosaic-item-description-share-dark {
     display: block;
   }
 }
-/* line 518, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 492, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-list .mosaic-item-description-share-white {
   display: none;
 }
 
-/* line 522, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 496, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid {
   text-align: center;
   border-bottom: 0px #ebebeb solid;
   margin-left: 0;
   margin-right: 0;
 }
-/* line 529, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 503, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid .mosaic-item-description {
   /*top: none;
   bottom: 0;
   position: absolute;
   margin-top: 0;
   margin-bottom: 1em;
-  padding-bottom: 1em;
-  padding-top: 22px!important;
-  padding-bottom: 14px!important;*/
+  padding-bottom: 1em;*/
+  padding-top: 22px !important;
+  padding-bottom: 14px !important;
 }
-/* line 540, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 514, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid .mosaic-item-description-copy {
   display: none !important;
 }
-/* line 544, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 518, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid .mosaic-item-image {
   width: 100%;
   /* For Safari 3.1 to 6.0 */
@@ -14372,63 +14354,63 @@ input[type=checkbox].checkbox + label.checkbox-label {
   transition-timing-function: ease-out;
   transition-delay: 0s;
 }
-/* line 549, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 523, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid .mosaic-item-description-head {
   /*font-size: 1.5em;
   line-height: 1em;*/
 }
-/* line 554, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 528, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid p {
   color: white;
   margin-left: 0;
 }
-/* line 559, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 533, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid .mosaic-item-overlay {
   display: block;
 }
-/* line 563, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 537, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid:hover {
   background-color: white;
 }
-/* line 567, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 541, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid .mosaic-item-description-share {
   color: white;
   top: none;
   right: 0.1em;
   right: 3px\0;
-  bottom: 0.2em;
+  bottom: 0.4em;
 }
-/* line 575, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 549, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid .mosaic-item-description-share-dark {
   display: none;
 }
-/* line 579, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 553, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item-grid .mosaic-item-description-share-white {
   display: block;
 }
 
-/* line 589, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 563, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item.mosaic-item-grid .mosaic-item-overlay {
   display: none\0 !important;
 }
 
-/* line 594, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 568, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item:hover .mosaic-item-overlay {
   display: block;
 }
 
-/* line 601, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 575, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item.mosaic-item-grid:hover .mosaic-item-overlay {
   display: block !important;
 }
 
-/* line 607, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 581, ../../assets/scss/site/modules/_mosaic-item.scss */
 .mosaic-item.mosaic-item-list:hover .mosaic-item-overlay, .mosaic-item.mosaic-item-list:focus .mosaic-item-overlay {
   display: none !important;
   opacity: 0 !important;
 }
 
-/* line 614, ../../assets/scss/site/modules/_mosaic-item.scss */
+/* line 588, ../../assets/scss/site/modules/_mosaic-item.scss */
 .touch.opacity .mosaic-item-overlay {
   display: none;
 }
@@ -14764,9 +14746,4 @@ input[type=checkbox].checkbox + label.checkbox-label {
   .select-state-label-explore {
     font-size: 1.9em;
   }
-}
-
-/* line 1, ../../assets/scss/site/modules/_avatar.scss */
-.avatar {
-  text-align: center;
 }

@@ -97,20 +97,11 @@
   	text-align: center;
 }
 
-/*
 .hero-video-media-video {
   position: fixed;
-  top: 0;
-  min-width: 1631px;
-  overflow: hidden;
+  top: 57px;//Top navigation is always on top
   width: 100%;
-  max-height: 920px;
-}*/
-.hero-video-media-video {
-  position: fixed;
-  top: 0;
-  /* min-width: 1631px; */
-  /* overflow: hidden; */
-  width: 100%;
-  /* max-height: 920px; */
+  @include breakpoint(md) {
+    top: 98px;//Top navigation is always on top
+  }
 }

@@ -123,13 +123,19 @@
 .styleguide .paragraph-generic.padded-900 {
 
   //CMS implementation
-  & >  p {
+  & >  p,
+  & >  ol,
+  & >  ul,
+  & >  h2 {
     padding-left: pxtoem(15px);
     padding-right: pxtoem(15px);
   }
 
   @include breakpoint(md) {
-    & >  p {
+    & >  p,
+    & >  ol,
+    & >  ul,
+    & >  h2 {
       padding-right: 13%;
       padding-left: 13%;
     }
@@ -137,7 +143,10 @@
 
   @include breakpoint(mx) {
 
-    & >  p {
+    & >  p,
+    & >  ol,
+    & >  ul,
+    & >  h2 {
       padding-right: 13em;
       padding-left: 13em;
       max-width: pxtoem(1200px);
@@ -148,6 +157,7 @@
   }
 
 }
+
 // same styles applied for testing with styleguide
 .styleguide .paragraph-campaign  {
 

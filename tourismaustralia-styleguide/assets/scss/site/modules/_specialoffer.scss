@@ -2,6 +2,7 @@ $type-specialoffer-colour: #00535e;
 
 .specialoffer {
     text-align: center;
+    @include vertical-spacing-responsive('large','large');
 
     .row {
         max-width: pxtoem(1180px);

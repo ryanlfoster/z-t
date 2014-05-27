@@ -1,6 +1,6 @@
 .large-image-text { 
 	position: relative;
-	padding-bottom: pxtoem($bottom-spacing);
+    @include vertical-spacing-responsive('large','large');
 
 	@extend .clearfix;
 

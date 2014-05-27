@@ -452,6 +452,17 @@
                     ,
                 
             
+                "linethrough_h2" : {
+                     "data" : {
+                        "title" : "linethrough_h2",
+                        "layout" : "styleguide-preview.hbs"
+                    },
+                    "content" : "{{section 'linethrough_h2'}}"
+                }
+                
+                    ,
+                
+            
                 "linethroughtextfullhr" : {
                      "data" : {
                         "title" : "linethroughtextfullhr",

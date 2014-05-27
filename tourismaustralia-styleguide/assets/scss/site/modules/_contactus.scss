@@ -8,8 +8,16 @@
 
 .contactus .section-intro
 {
-  margin-bottom: pxtoem(30px);
+  @include vertical-spacing-responsive('zero','standard',0px , -6px);
+  @include breakpoint(md) {
+    @include vertical-spacing-responsive('zero','medium',0px , -6px);
+  }
+
 }
+.contactus .section-title h1{
+  @include vertical-spacing-responsive('zero','zero',0px, -5px);
+}
+
 
 .contactus .col-xs-12.col-sm-4{
   text-align: left;
@@ -23,7 +31,7 @@
 
 .contactus ul{
   padding:0;
-  /*margin:0 0 pxtoem(52px) 0;*/
+  @include vertical-spacing-responsive('zero','zero');
   list-style: none;
 }
 
@@ -38,9 +46,18 @@
 
 .contactus_leftcontent{
   text-align: left;
-  margin-bottom: pxtoem(112px);
+  @include vertical-spacing-responsive('zero','zero',0px, 30px);
 }
 
 .contactus .type-links-bottom-border {
-  padding-bottom: pxtoem(40px);
+  @include vertical-spacing-responsive('zero','zero');
+}
+.contactus .breadcrumbs .type-links-bottom-border {
+  padding-bottom: 0;
+}
+.contactus .type-h2-secondary-h3{
+  @include vertical-spacing-responsive('standard','zero');
+  @include breakpoint(md) {
+    @include vertical-spacing-responsive('zero','zero');
+  }
 }

@@ -2,14 +2,14 @@
 // * Project Mixins:
 // * ---------------------------------------------------------------------------------------------------------------- */
 @mixin vis-focusable() {
-    position: static;
-    clip: auto;
-    width: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    display: block;
-    text-align: center;
+  position: static;
+  clip: auto;
+  width: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  display: block;
+  text-align: center;
 }
 
 /*! Circle */
@@ -110,11 +110,19 @@
 
 /*! Force GPU to render transformations... */
 @mixin gpu-render() {
-    -webkit-transform: translateZ(0);
-    -moz-transform: translateZ(0);
-    -ms-transform: translateZ(0);
-    -o-transform: translateZ(0);
-    transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+/*! Solve Background Issue - without GPU Render */
+@mixin fast-render() {
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
+  backface-visibility: hidden;
+  perspective: 1000;
 }
 
 /*! Transition
@@ -222,6 +230,7 @@
 // To change values on responsive modes, please change values in _variables.scss
 // parameters for mixin could be : 'zero' , 'standard' , 'medium' , 'large'
 // e.g. @include vertical-spacing-responsive('standard','large');
+//varibles : zero, standard, medium, large
 // e.g. @include vertical-spacing-responsive('standard','large', 0px, 20px);
 // '$adjust-line-height-spacing' is used for text like h1, h2 or p , where lineheight creates extra space from font-text and the font-element
 

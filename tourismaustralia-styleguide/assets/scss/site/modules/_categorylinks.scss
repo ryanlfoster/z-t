@@ -1,8 +1,8 @@
 $type-categorylinks-colour: $category-colour-islands;
 
 .categorylinks {
-    padding-bottom: pxtoem($bottom-spacing);
-    text-align: center;
+  @include vertical-spacing-responsive('large','large');
+  text-align: center;
 
     hr {
         margin: 0 15px 60px;
@@ -10,7 +10,9 @@ $type-categorylinks-colour: $category-colour-islands;
 
     .categorylinks-item {
         max-width: 310px;
-        margin: 0 auto 20px;
+        margin-left:auto;
+        margin-right:auto;
+        @include vertical-spacing-responsive('standard','zero');
         padding: 0 15px;
     }
 

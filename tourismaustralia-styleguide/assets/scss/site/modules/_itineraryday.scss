@@ -6,8 +6,9 @@
 */
 
 .itinerary-day {
-	
-	.itinerary-day-content { 
+  @include vertical-spacing-responsive('large','large');
+
+  .itinerary-day-content {
 		& > .row {
 			position: relative;
 		}

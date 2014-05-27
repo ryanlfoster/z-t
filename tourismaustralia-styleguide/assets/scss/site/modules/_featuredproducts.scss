@@ -1,10 +1,7 @@
 
 .featuredproducts {
-  padding-bottom: pxtoem($bottom-spacing-double);
+  @include vertical-spacing-responsive('large','large');
 }
 .featuredproducts-mosaic {
-  margin: 0 pxtoem(-15px);
-  @include breakpoint(sm){
-    margin: 0em;
-  }
+  @include vertical-spacing-responsive('zero','standard', 0px ,2px);
 }

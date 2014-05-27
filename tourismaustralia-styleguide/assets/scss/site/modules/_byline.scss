@@ -1,12 +1,19 @@
-
+.byline-share {
+  @include vertical-spacing-responsive('zero','zero',30px, 10px);
+}
+p + .byline-share {
+  @include vertical-spacing-responsive('medium','zero',0px, 10px);
+}
+.byline-share + .favorite-with-lines{
+  @include vertical-spacing-responsive('standard','large');
+}
 .byline-share-container {
   width: 100%;
   display: table;
   text-align: center;
   max-width: 684px;
   position: relative;  
-  padding-bottom: pxtoem($bottom-spacing);
-  
+
   .byline-container {
     min-width: inherit;
   }

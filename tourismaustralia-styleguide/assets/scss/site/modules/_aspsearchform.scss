@@ -1,6 +1,6 @@
 
 .asp-search-form {
-  padding-bottom: pxtoem($bottom-spacing);
+  @include vertical-spacing-responsive('zero','standard');
 
   .col-xs-12 {
     padding: 0;

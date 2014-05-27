@@ -1,6 +1,12 @@
 /////////////////
 // 2 COLUMN VIDEO
 /////////////////
+.two-column-video{
+  @include vertical-spacing-responsive('large','large');
+}
+
+.two-column-video h3{@include vertical-spacing-responsive('zero','standard');}
+
 .video-container {
   text-align: center;
   position: inherit;
@@ -45,7 +51,6 @@
 }
 
 .video-2column-container {
-  padding-bottom: pxtoem($bottom-spacing);
 
   @include breakpoint(md) {
     padding-right: 240px;
@@ -59,7 +64,7 @@
 // LARGE VIDEO
 ///////////////
 .video-large-container {
-  padding-bottom: pxtoem($bottom-spacing);
+  @include vertical-spacing-responsive('large','large');
 }
 .video-title-large-video {
   font-family: $font-family-secondary;
@@ -83,8 +88,9 @@
 // VIDEO DESKTOP
 ///////////////
 .video-desktop-title-fullvideo-fav-tags-share{
-  padding: pxtoem($bottom-spacing-double) 0;
+  @include vertical-spacing-responsive('large','large',15px, 0px);
 }
+
 .videoitemwithtitle {
   background-color: $video_relatedvideos_bg;
   text-align: left;

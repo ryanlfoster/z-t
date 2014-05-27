@@ -1,5 +1,5 @@
 .category-results-grid {
-  padding-bottom: pxtoem($bottom-spacing);
+  @include vertical-spacing-responsive('zero','large');
 }
 .category-results-mosaic {
   margin: 0 pxtoem(-15px);

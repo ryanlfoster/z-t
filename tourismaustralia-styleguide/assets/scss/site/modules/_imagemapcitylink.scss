@@ -51,26 +51,27 @@ a.map-pin-btn {
 
 .map-with-links-container {
   text-align: center;
-  padding-bottom: pxtoem(60px);
+  @include vertical-spacing-responsive('large','zero',0px,8px);
+}
+
+.paragraph-city .map-with-links-container {
+  @include vertical-spacing-responsive('large','zero',0px,50px);
 }
 
 .map-with-links-intro {
   display: block;
-  margin-bottom: pxtoem(30px);
-  @include breakpoint(sm){
-    margin-bottom: pxtoem(53px); // pxtoem is not accurate, this should be 60px...
-  }
+  @include vertical-spacing-responsive('standard','medium',5px,5px);
 }
 
 .map-image-view-btn-container {
     position: relative;
-    top: -(pxtoem(50px));
-    margin-bottom: -(pxtoem(30px));
+    top: -78px;
+    margin-bottom: -55px;
 }
 
 .map-highlights-image {
   max-width: 100%;
-  margin-bottom: pxtoem(30px);
+  @include vertical-spacing-responsive('zero','standard');
 }
 
 // MODERNIZER DETECTION FOR CSSCOLUMNS
@@ -177,20 +178,19 @@ a.map-pin-btn {
   max-width: 200px;
   text-align: left;
   margin: 0px 40px;
+  @include vertical-spacing-responsive('standard','standard',22px,14px);
   position: relative;
   vertical-align: top;
 }
 .map-btn-content {
   text-align: left;
-    margin-bottom: pxtoem(16px);
-    @include breakpoint(lg) {
-        margin-bottom: 0;
-    }
   font-family: "ProximaNova Regular", Helvetica, Arial, sans-serif;
   font-size: 0.875em;
   line-height: 1.5em;
 }
-
+.map-btn-content p{
+  @include vertical-spacing-responsive('zero','standard');
+}
 .map-image-icon {
   left: -30px;
   position: absolute;

@@ -1,3 +1,14 @@
+.favorite-with-lines{
+  @include vertical-spacing-responsive('large','large');
+}
+.favorite-with-lines hr{
+  @include vertical-spacing-responsive('standard','zero');
+
+  &:first-child{
+    @include vertical-spacing-responsive('zero','standard');
+  }
+}
+
 .favourite-with-share {
   .favourite-container {
     text-align: center;
@@ -45,6 +56,7 @@
 .favourite-btn {
   text-decoration: none;
   position: relative;
+
   &:hover, &:focus {
     .icon-font-favourite-heart-outline {
         background: #FFF;
@@ -71,7 +83,15 @@
 // Favourite Share
 ///////////////////////
 .favourite-share {
-  padding-bottom: pxtoem($bottom-spacing);
+  @include vertical-spacing-responsive('large','large');
+}
+
+.favourite-share hr{
+  @include vertical-spacing-responsive('standard','zero', 9px, 0px);
+
+  &:first-child{
+    @include vertical-spacing-responsive('zero','standard');
+  }
 }
 
 .favourite-share-container {

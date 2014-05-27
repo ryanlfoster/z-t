@@ -3,8 +3,7 @@
 // * ---------------------------------------------------------------------------------------------------------------- */
 
 .quote {
-  padding-bottom: pxtoem($bottom-spacing);
-  //@include vertical-spacing-responsive("zero", "standard");
+  @include vertical-spacing-responsive('large','large');
 }
 
 .quote-social-image {
@@ -21,6 +20,7 @@
   padding: 0 1em;
   @include breakpoint(md) {
     display: table-cell;
+    vertical-align: top;
     padding: 0 2em 0 3.7em;
     max-width: pxtoem(440px);
   }

@@ -11,5 +11,5 @@
 
 .asp-search-agent-list-view-more {
 	text-align: center;
-	margin-top: pxtoem(30px);
+  @include vertical-spacing-responsive('standard','large');
 }

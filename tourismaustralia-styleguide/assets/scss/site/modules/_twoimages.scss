@@ -1,5 +1,5 @@
 .two-images {
-	padding-bottom: pxtoem($bottom-spacing);
+  @include vertical-spacing-responsive('large','large');
 }
 
 .two-images-column {

@@ -4,21 +4,25 @@
 //Unable to apply class directly to paragraph this needs to be targeted specifically without impacting other modules
 //Todo - May need to target the AEM "CQ" div that gets wrapped around the p target to ensure there is minimal implact.
 
+/* Templates/Page Components
+- Article Template
+- City/State Template
+- Event Template
+- Generic Template
+- Iconic Places Template
+- Itinerary Page
+- Video
+*/
+
 .paragraph-home,
 .paragraph-icon,
 .paragraph-city,
 .paragraph-state,
 .paragraph-article,
-.paragraph-video,
-.paragraph-dreamtrip,
-.paragraph-generic
+.paragraph-video
 {
   background: #fff;
   position: relative;
-}
-.paragraph-generic-no-style{
-  background:none;
-  position: static;
 }
 
 //** START - solve Background issue: where hero image is shown when Margin top is given to any Paragraph element
@@ -29,8 +33,7 @@
 .paragraph-city:before,
 .paragraph-state:before,
 .paragraph-article:before,
-.paragraph-video:before,
-.paragraph-generic:before{
+.paragraph-video:before{
   content: '';
   width: 100%;
   border-top: $large-spacing-lg solid white;
@@ -43,15 +46,37 @@
 .paragraph-state:after,
 .paragraph-article:after,
 .paragraph-video:after,
-.paragraph-generic:after,
-.paragraph-category:after,
-.paragraph-dreamtrip:after{
+.paragraph-generic:after{
   content: '';
   width: 100%;
   border-bottom: $large-spacing-lg solid #fff;
   bottom: -$large-spacing-lg;
   position: absolute;
 }
+
+// Patch to support Slim Header within paragraph-generic pages //
+// Second paragraph-generic element will have a background //
+.paragraph-generic ~ .paragraph-generic {
+  background: #fff;
+  position: relative;
+}
+/*
+// This turns off the white background for the paragraph and applies a background to home-hero //
+.paragraph-generic .home-hero:after {
+  content: '';
+  width: 100%;
+  border-bottom: 60000px solid #fff;
+  bottom: -60000px;
+  position: absolute;
+  z-index:-1;
+  @include gpu-render();
+}
+*/
+.paragraph-generic-no-style{
+  background:none;
+  position: static;
+}
+
 //** END - solve Background issue: where hero image is shown when Margin top is given to any Paragraph element
 
 .paragraph-article {

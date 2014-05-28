@@ -3,15 +3,17 @@ title: Dream Trip
 layout: layout-base.hbs
 ---
 
-{{#parseJSON '{
+<div class="paragraph-generic">
+
+    {{#parseJSON '{
     "hero_image" : "hero-dreamtrip",
     "hero_title" : "My Dream Trip"
 }'}}
-    {{> slimheader }}
-{{/parseJSON}}
+        {{> slimheader }}
+    {{/parseJSON}}
+</div>
 
-<div class="paragraph-generic">
-
+<div class="paragraph-generic padded-900">
     {{#parseJSON '{
     "page_title" : "Dream Trip"
 }'}}

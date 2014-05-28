@@ -2,12 +2,14 @@
 layout: layout-base.hbs
 ---
 
-{{#parseJSON '{
+<div class="paragraph-generic">
+    {{#parseJSON '{
     "hero_image" : "hero-category",
     "hero_title" : "Nature & Wildlife"
 }'}}
-    {{> slimheader }}
-{{/parseJSON}}
+        {{> slimheader }}
+    {{/parseJSON}}
+</div>
 
 <div class="paragraph-generic padded-900">
 
@@ -19,5 +21,5 @@ layout: layout-base.hbs
     <p>More than 80 per cent of our plants, mammals, reptiles and frogs are unique to Australia and are fo;und no-where else. Some of our best-known animals are the kangaroo, koala, echidna, dingo, platypus, wallaby and wombat.</p>
 
     {{> category_results }}
-1
+
 </div>

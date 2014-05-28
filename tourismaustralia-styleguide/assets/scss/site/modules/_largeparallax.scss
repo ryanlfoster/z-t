@@ -18,7 +18,9 @@
     position: relative;
     @include vertical-spacing-responsive('large','large');
 }
-
+.largeparallax .img-holder{
+  margin-bottom: 10px;
+}
 .parallaximage_fullwidth--social .largeparallax {
   @include vertical-spacing-responsive('large','standard',0,20);
 }
@@ -135,6 +137,7 @@
 
 .legacy-img.show-on-ie8,
 .legacy-img.show-on-ie9{
+  margin-bottom: 10px;
   & > img {
     position: relative;
     top: -400px;

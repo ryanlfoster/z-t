@@ -6,6 +6,10 @@
   min-width: 186px;
 }
 
+.dreamtrip-grid .btn-primary + .btn-primary {
+  @include vertical-spacing-responsive('standard','');
+}
+
 .dreamtrip-grid h2.type-h1-responsive{
   @include vertical-spacing-responsive('zero','zero',0px,10px);
 }

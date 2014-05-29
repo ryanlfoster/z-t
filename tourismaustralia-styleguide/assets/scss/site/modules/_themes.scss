@@ -56,43 +56,63 @@
 // CATEGORY THEMES
 // used for mosaic tiles
 ////////////////////////
-.theme-nature      { 
+// theme-nature
+.theme-1      { 
   background: $category-colour-nature; 
   color: $type-category-colour-secondary;
 }
-.theme-outback     { 
+// theme-outback
+.theme-2     { 
   background: $category-colour-outback; 
   color: $type-category-colour-primary;
 }
-.theme-aboriginal  { 
+// theme-aboriginal
+.theme-3  { 
   background: $category-colour-aboriginal;
   color: $type-category-colour-secondary;
 }
-.theme-food      { 
+// theme-food
+.theme-4      { 
   background: $category-colour-food; 
   color: $type-category-colour-secondary;
 }
-.theme-arts        { 
+// theme-arts
+.theme-5        { 
   background: $category-colour-arts; 
   color: $type-category-colour-secondary;
 }
-.theme-islands     { 
+// theme-islands
+.theme-6     { 
   background: $category-colour-islands;
   color: $type-category-colour-secondary;
 }
-.theme-beaches     { 
+// theme-beaches
+.theme-7     { 
   background: $category-colour-beaches; 
   color: $type-category-colour-primary;
 }
-.theme-sports      { 
+// theme-sports
+.theme-8      { 
   background: $category-colour-sports; 
   color: $type-category-colour-primary;
 }
-.theme-adventure   { 
+// theme-adventure
+.theme-9   { 
   background: $category-colour-adventure;
   color: $type-category-colour-primary; 
 }
-.theme-discover   { 
+// theme-discover
+.theme-10   { 
+  background: $category-colour-discover;
+  color: $type-category-colour-primary;
+}
+// extra
+.theme-11   {
+  background: $category-colour-adventure;
+  color: $type-category-colour-primary;
+}
+// extra
+.theme-12   {
   background: $category-colour-discover;
   color: $type-category-colour-primary;
 }
@@ -102,50 +122,59 @@
 // CATEGORY BORDER THEMES
 // used for hot or not diamond
 ////////////////////////
-.theme-nature-border      {
+.theme-1-border      {
   border-bottom: pxtoem(2px) solid $type-category-colour-secondary;
   // nature_wildlife
 }
-.theme-outback-border       {
+.theme-2-border       {
   // outback
   border-bottom: pxtoem(2px) solid $type-category-colour-primary;
 }
-.theme-aboriginal-border    {
+.theme-3-border    {
   // aboriginal_australia
   border-bottom: pxtoem(2px) solid $type-category-colour-secondary;
 }
-.theme-food-border        {
+.theme-4-border        {
   // food_wine
   border-bottom: pxtoem(2px) solid $type-category-colour-secondary;
 }
-.theme-arts-border          {
+.theme-5-border          {
   // art_culture
   border-bottom: pxtoem(2px) solid $type-category-colour-secondary;
 }
-.theme-islands-border       {
+.theme-6-border       {
   // island
   border-bottom: pxtoem(2px) solid $type-category-colour-secondary;
 }
-.theme-beaches-border       {
+.theme-7-border       {
   //beaches
   border-bottom: pxtoem(2px) solid $type-category-colour-primary;
 }
-.theme-sports-border        {
+.theme-8-border        {
   // sports
   border-bottom: pxtoem(2px) solid $type-category-colour-primary;
 }
-.theme-adventure-border     {
+.theme-9-border     {
   // adventure
   border-bottom: pxtoem(2px) solid $type-category-colour-primary;
 }
-.theme-discover-border     {
+.theme-10-border     {
+  // discover
+  border-bottom: pxtoem(2px) solid $type-category-colour-secondary;
+}
+.theme-11-border     {
+  // discover
+  border-bottom: pxtoem(2px) solid $type-category-colour-secondary;
+}
+.theme-12-border     {
+  // discover
   border-bottom: pxtoem(2px) solid $type-category-colour-secondary;
 }
 ////////////////////////
 // CATEGORY BUTTON THEMES
 // used for hot or not diamond
 ////////////////////////
-.theme-nature-button      {
+.theme-1-button      {
   .icon-close{
     color: #FFF;
   }
@@ -155,17 +184,7 @@
     }
   }
 }
-.theme-outback-button       {
-  .icon-close{
-    color: #000;
-  }
-  &:hover {
-    .icon-close{
-      color: #FFF;
-    }
-  }
-}
-.theme-aboriginal-button    {
+.theme-2-button       {
   .icon-close{
     color: #FFF;
   }
@@ -175,7 +194,7 @@
     }
   }
 }
-.theme-food-button        {
+.theme-3-button    {
   .icon-close{
     color: #FFF;
   }
@@ -185,7 +204,7 @@
     }
   }
 }
-.theme-arts-button          {
+.theme-4-button        {
   .icon-close{
     color: #FFF;
   }
@@ -195,7 +214,7 @@
     }
   }
 }
-.theme-islands-button       {
+.theme-5-button          {
   .icon-close{
     color: #FFF;
   }
@@ -205,37 +224,7 @@
     }
   }
 }
-.theme-beaches-button       {
-  .icon-close{
-    color: #000;
-  }
-  &:hover {
-    .icon-close{
-      color: #FFF;
-    }
-  }
-}
-.theme-sports-button        {
-  .icon-close{
-    color: #000;
-  }
-  &:hover {
-    .icon-close{
-      color: #FFF;
-    }
-  }
-}
-.theme-adventure-button     {
-  .icon-close{
-    color: #000;
-  }
-  &:hover {
-    .icon-close{
-      color: #FFF;
-    }
-  }
-}
-.theme-discover-button     {
+.theme-6-button       {
   .icon-close{
     color: #FFF;
   }
@@ -245,3 +234,65 @@
     }
   }
 }
+.theme-7-button       {
+  .icon-close{
+    color: #FFF;
+  }
+  &:hover {
+    .icon-close{
+      color: #000;
+    }
+  }
+}
+.theme-8-button        {
+  .icon-close{
+    color: #FFF;
+  }
+  &:hover {
+    .icon-close{
+      color: #000;
+    }
+  }
+}
+.theme-9-button     {
+  .icon-close{
+    color: #FFF;
+  }
+  &:hover {
+    .icon-close{
+      color: #000;
+    }
+  }
+}
+.theme-10-button     {
+  .icon-close{
+    color: #FFF;
+  }
+  &:hover {
+    .icon-close{
+      color: #000;
+    }
+  }
+}
+.theme-11-button     {
+  .icon-close{
+    color: #FFF;
+  }
+  &:hover {
+    .icon-close{
+      color: #000;
+    }
+  }
+}
+.theme-12-button     {
+  .icon-close{
+    color: #FFF;
+  }
+  &:hover {
+    .icon-close{
+      color: #000;
+    }
+  }
+}
+
+

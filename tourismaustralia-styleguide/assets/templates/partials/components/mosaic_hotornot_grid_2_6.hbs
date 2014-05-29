@@ -9,7 +9,9 @@ title: Mosaic Standard Search Grid 1x4, 4x1
         <div class="row">
 
             <!-- grid 1 x 4 start -->
-            {{> mosaic_highlights_date_grid_6_3column }}
+            {{#parseJSONDeepLink '{}'}}
+                {{> mosaic_highlights_date_grid_6_3column }}
+            {{/parseJSONDeepLink}}
             <!-- grid 1 x 4 end -->
 
         </div>

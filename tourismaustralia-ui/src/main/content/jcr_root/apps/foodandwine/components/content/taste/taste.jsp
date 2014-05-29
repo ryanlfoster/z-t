@@ -49,7 +49,7 @@
 										class="mosaic-item-description-copy-link"><strong>Find
 												out more</strong></span>
 								</span>
-							</span> <span class="mosaic-item-overlay-info-categories"><strong>Restaurants</strong></span>
+							</span> <span class="mosaic-item-overlay-info-categories"><strong>${fn:join(taste.upperLeftExperience.tags,',')}...</strong></span>
 						</span>
 						</a>
 
@@ -71,7 +71,7 @@
 										class="mosaic-item-description-copy-link"><strong>Find
 												out more</strong></span>
 								</span>
-							</span> <span class="mosaic-item-overlay-info-categories"><strong></strong></span>
+							</span> <span class="mosaic-item-overlay-info-categories"><strong>${fn:join(taste.upperRightExperience.tags,',')}...</strong></span>
 						</span>
 						</a>
 
@@ -93,7 +93,7 @@
 										class="mosaic-item-description-copy-link"><strong>Find
 												out more</strong></span>
 								</span>
-							</span> <span class="mosaic-item-overlay-info-categories"><strong></strong></span>
+							</span> <span class="mosaic-item-overlay-info-categories"><strong>${fn:join(taste.lowerLeftExperience.tags,',')}...</strong></span>
 						</span>
 						</a>
 
@@ -115,7 +115,7 @@
 										class="mosaic-item-description-copy-link"><strong>Find
 												out more</strong></span>
 								</span>
-							</span> <span class="mosaic-item-overlay-info-categories"><strong></strong></span>
+							</span> <span class="mosaic-item-overlay-info-categories"><strong>${fn:join(taste.lowerRightExperience.tags,',')}...</strong></span>
 						</span>
 						</a>
 					</div>

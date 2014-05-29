@@ -43,7 +43,7 @@
 						</span> <span class="mosaic-item-overlay mosaic-item-overlay-info">
 								<span class="mosaic-item-overlay-info-icon"> <span
 									class="mosaic-item-overlay-info-head type-font-feature">${taste.upperLeftExperience.title} </span> <span
-									class="mosaic-item-overlay-info-icon-item"></span>
+									class="mosaic-item-overlay-info-icon-item"><img src="${taste.upperLeftExperience.icon}" alt="${taste.upperLeftExperience.primaryCategory}"></span>
 									<span class="mosaic-item-overlay-info-desciption">${taste.upperLeftExperience.state}
 										<br> <br> <span
 										class="mosaic-item-description-copy-link"><strong>Find
@@ -65,7 +65,7 @@
 						</span> <span class="mosaic-item-overlay mosaic-item-overlay-info">
 								<span class="mosaic-item-overlay-info-icon"> <span
 									class="mosaic-item-overlay-info-head type-font-feature">${taste.upperRightExperience.title}</span> <span
-									class="mosaic-item-overlay-info-icon-item"></span>
+									class="mosaic-item-overlay-info-icon-item"><img src="${taste.upperRightExperience.icon}" alt="${taste.upperRightExperience.primaryCategory}"></span>
 									<span class="mosaic-item-overlay-info-desciption">${taste.upperRightExperience.state}
 										<br> <br> <span
 										class="mosaic-item-description-copy-link"><strong>Find
@@ -87,7 +87,7 @@
 						</span> <span class="mosaic-item-overlay mosaic-item-overlay-info">
 								<span class="mosaic-item-overlay-info-icon"> <span
 									class="mosaic-item-overlay-info-head type-font-feature">${taste.lowerLeftExperience.title} </span> <span
-									class="mosaic-item-overlay-info-icon-item"></span>
+									class="mosaic-item-overlay-info-icon-item"><img src="${taste.lowerLeftExperience.icon}" alt="${taste.lowerLeftExperience.primaryCategory}"></span>
 									<span class="mosaic-item-overlay-info-desciption">${taste.lowerLeftExperience.state}
 										<br> <br> <span
 										class="mosaic-item-description-copy-link"><strong>Find
@@ -109,7 +109,7 @@
 						</span> <span class="mosaic-item-overlay mosaic-item-overlay-info">
 								<span class="mosaic-item-overlay-info-icon"> <span
 									class="mosaic-item-overlay-info-head type-font-feature">${taste.lowerRightExperience.title} </span> <span
-									class="mosaic-item-overlay-info-icon-item"></span>
+									class="mosaic-item-overlay-info-icon-item"><img src="${taste.lowerRightExperience.icon}" alt="${taste.lowerRightExperience.primaryCategory}"></span>
 									<span class="mosaic-item-overlay-info-desciption">${taste.lowerRightExperience.state}
 										<br> <br> <span
 										class="mosaic-item-description-copy-link"><strong>Find

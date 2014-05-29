@@ -94,7 +94,7 @@ public class StateMosaic {
 				messageText = properties.get("messageText", DEFAULT_MESSAGE);
 			}
 			queryString = "SELECT * FROM [nt:base] AS s WHERE ISDESCENDANTNODE([/content/food-and-wine]) and [cq:tags] like '%"
-				+ StringUtils.trimToEmpty(stateTags) + "%'";
+				+ StringUtils.trimToEmpty(stateTags) + "%' and not excludeFromMosaic = true";
 			Query query = queryManager.createQuery(queryString, Query.JCR_SQL2);
 			filterCategoryTags(query, pageManager, tagManager);
 		} catch (RepositoryException e) {

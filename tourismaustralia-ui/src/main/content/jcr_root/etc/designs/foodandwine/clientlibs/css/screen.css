@@ -10205,7 +10205,7 @@ input.btn-secondary {
 }
 /* line 212, ../../assets/scss/site/modules/_form.scss */
 .form-agree-container .input-field-checkbox p {
-  margin-bottom: 2em;
+  margin-bottom: 0em;
 }
 /* line 217, ../../assets/scss/site/modules/_form.scss */
 .form-agree-container .input-field-validation-icon {
@@ -10244,69 +10244,65 @@ input.btn-secondary {
   padding-bottom: 0;
 }
 
-/* line 257, ../../assets/scss/site/modules/_form.scss */
-.field-container.terms-conditions {
-  height: 25%;
-}
-/* line 260, ../../assets/scss/site/modules/_form.scss */
+/* line 258, ../../assets/scss/site/modules/_form.scss */
 .field-container.terms-conditions .input-field-validation-alert.input-field-validation-show {
   margin: 0;
 }
 
-/* line 266, ../../assets/scss/site/modules/_form.scss */
+/* line 264, ../../assets/scss/site/modules/_form.scss */
 .form-clear {
   clear: both;
   display: none;
 }
 @media (min-width: 480px) {
-  /* line 266, ../../assets/scss/site/modules/_form.scss */
+  /* line 264, ../../assets/scss/site/modules/_form.scss */
   .form-clear {
     display: block;
   }
 }
 
-/* line 276, ../../assets/scss/site/modules/_form.scss */
+/* line 274, ../../assets/scss/site/modules/_form.scss */
 .form-hero-thankyou .faw-hero-home-container .icon-logo-withlines-container {
   margin: 3.125em 0 .7em;
 }
 
-/* line 281, ../../assets/scss/site/modules/_form.scss */
+/* line 279, ../../assets/scss/site/modules/_form.scss */
 .form-thankyou-h1 {
   font-size: 3em;
   line-height: .93em;
   margin-bottom: .55em;
 }
 @media (min-width: 768px) {
-  /* line 281, ../../assets/scss/site/modules/_form.scss */
+  /* line 279, ../../assets/scss/site/modules/_form.scss */
   .form-thankyou-h1 {
     font-size: 4.625em;
   }
 }
 
-/* line 291, ../../assets/scss/site/modules/_form.scss */
+/* line 289, ../../assets/scss/site/modules/_form.scss */
 .form-thank-you p {
   font-size: 1em;
   line-height: 1.2em;
   padding: 0 1em;
 }
-/* line 296, ../../assets/scss/site/modules/_form.scss */
+/* line 294, ../../assets/scss/site/modules/_form.scss */
 .form-thank-you p strong a {
   text-decoration: none;
   border-bottom: 1px solid #bbbbbb;
 }
 @media (min-width: 768px) {
-  /* line 291, ../../assets/scss/site/modules/_form.scss */
+  /* line 289, ../../assets/scss/site/modules/_form.scss */
   .form-thank-you p {
     font-size: 1.125em;
   }
 }
-/* line 305, ../../assets/scss/site/modules/_form.scss */
+/* line 303, ../../assets/scss/site/modules/_form.scss */
 .form-thank-you .form-biline-container hr {
   width: 225px;
   top: 0.5em;
 }
 
-/* line 311, ../../assets/scss/site/modules/_form.scss */
+/* line 309, ../../assets/scss/site/modules/_form.scss */
 .form-number-container {
   height: 100%;
   text-align: center;
@@ -10314,7 +10310,7 @@ input.btn-secondary {
   line-height: .8em;
 }
 
-/* line 317, ../../assets/scss/site/modules/_form.scss */
+/* line 315, ../../assets/scss/site/modules/_form.scss */
 .form-number-container hr {
   border-top: 1px solid #bbbbbb;
   width: 280px;
@@ -10324,13 +10320,13 @@ input.btn-secondary {
   position: relative;
 }
 @media (min-width: 768px) {
-  /* line 317, ../../assets/scss/site/modules/_form.scss */
+  /* line 315, ../../assets/scss/site/modules/_form.scss */
   .form-number-container hr {
     width: 300px;
   }
 }
 
-/* line 328, ../../assets/scss/site/modules/_form.scss */
+/* line 326, ../../assets/scss/site/modules/_form.scss */
 .form-number-container .form-number {
   font-family: "GearedSlab-Bold", Helvetica, Arial, sans-serif;
   font-size: 1.5em;
@@ -10359,12 +10355,12 @@ input.btn-secondary {
   text-decoration: none;
   color: #606060;
 }
-/* line 343, ../../assets/scss/site/modules/_form.scss */
+/* line 341, ../../assets/scss/site/modules/_form.scss */
 .form-number-container .form-number:hover, .form-number-container .form-number:focus {
   color: #040000;
 }
 
-/* line 347, ../../assets/scss/site/modules/_form.scss */
+/* line 345, ../../assets/scss/site/modules/_form.scss */
 .form-number-text {
   display: block;
   margin-top: 0.1875em;
@@ -10373,7 +10369,7 @@ input.btn-secondary {
   margin-bottom: 0\0;
 }
 
-/* line 356, ../../assets/scss/site/modules/_form.scss */
+/* line 354, ../../assets/scss/site/modules/_form.scss */
 .form-number-square-box {
   background: #FFF;
   padding: .3em .3em 0;
@@ -10381,35 +10377,35 @@ input.btn-secondary {
   position: relative;
 }
 
-/* line 362, ../../assets/scss/site/modules/_form.scss */
+/* line 360, ../../assets/scss/site/modules/_form.scss */
 .form-thanks-google-logo {
   font-size: 3.4em;
 }
 
-/* line 366, ../../assets/scss/site/modules/_form.scss */
+/* line 364, ../../assets/scss/site/modules/_form.scss */
 .form-social-list {
   font-size: 1.6em;
 }
-/* line 371, ../../assets/scss/site/modules/_form.scss */
+/* line 369, ../../assets/scss/site/modules/_form.scss */
 .form-social-list > li:nth-child(odd) {
   width: 95px;
 }
-/* line 374, ../../assets/scss/site/modules/_form.scss */
+/* line 372, ../../assets/scss/site/modules/_form.scss */
 .form-social-list li:last-child {
   font-size: .9em;
   bottom: 2px;
   position: relative;
 }
-/* line 379, ../../assets/scss/site/modules/_form.scss */
+/* line 377, ../../assets/scss/site/modules/_form.scss */
 .form-social-list a, .form-social-list a:hover, .form-social-list a:focus {
   color: #3b5997;
 }
 
-/* line 384, ../../assets/scss/site/modules/_form.scss */
+/* line 382, ../../assets/scss/site/modules/_form.scss */
 .form-thank-you-states {
   margin-bottom: 60px;
 }
-/* line 389, ../../assets/scss/site/modules/_form.scss */
+/* line 387, ../../assets/scss/site/modules/_form.scss */
 .form-thank-you-states > li {
   padding-bottom: 28px;
   display: block;
@@ -10422,47 +10418,47 @@ input.btn-secondary {
  else just center align for all screen sizes
 **/
 @media (min-width: 768px) {
-  /* line 402, ../../assets/scss/site/modules/_form.scss */
+  /* line 400, ../../assets/scss/site/modules/_form.scss */
   .rgba .form-thank-you-states {
     margin-bottom: 94px;
     text-align: left;
   }
-  /* line 411, ../../assets/scss/site/modules/_form.scss */
+  /* line 409, ../../assets/scss/site/modules/_form.scss */
   .rgba .form-thank-you-states > li {
     display: inline-block;
     text-align: left;
   }
-  /* line 417, ../../assets/scss/site/modules/_form.scss */
+  /* line 415, ../../assets/scss/site/modules/_form.scss */
   .rgba .form-thank-you-states > li:nth-child(odd) {
     width: 238px;
     margin-left: 100px;
   }
 }
 
-/* line 428, ../../assets/scss/site/modules/_form.scss */
+/* line 426, ../../assets/scss/site/modules/_form.scss */
 .form-thank-you-contact-icon-size {
   font-size: 1.8em;
 }
 
-/* line 431, ../../assets/scss/site/modules/_form.scss */
+/* line 429, ../../assets/scss/site/modules/_form.scss */
 .form-thank-you-small-print {
   font-size: .8em;
   line-height: 0em;
 }
 
-/* line 437, ../../assets/scss/site/modules/_form.scss */
+/* line 435, ../../assets/scss/site/modules/_form.scss */
 .form-contact-icon img {
   margin-bottom: 0.5em;
 }
 
-/* line 442, ../../assets/scss/site/modules/_form.scss */
+/* line 440, ../../assets/scss/site/modules/_form.scss */
 .form-agree-container fieldset.options {
   padding-bottom: 0;
 }
 @media (min-width: 480px) {
-  /* line 442, ../../assets/scss/site/modules/_form.scss */
+  /* line 440, ../../assets/scss/site/modules/_form.scss */
   .form-agree-container fieldset.options {
-    padding-bottom: 1.5625em;
+    padding-bottom: 0;
   }
 }
 
@@ -10985,26 +10981,27 @@ input.btn-secondary {
 /* line 102, ../../assets/scss/site/modules/_inputfield.scss */
 .input-field-checkbox .input-field-validation-alert {
   margin-top: -4em;
+  text-align: right;
 }
 
-/* line 107, ../../assets/scss/site/modules/_inputfield.scss */
+/* line 108, ../../assets/scss/site/modules/_inputfield.scss */
 .input-field-focus {
   border: 1px black solid;
   border-left: 7px black solid;
   margin-left: -6px;
 }
 
-/* line 113, ../../assets/scss/site/modules/_inputfield.scss */
+/* line 114, ../../assets/scss/site/modules/_inputfield.scss */
 .input-field-validation-show {
   display: block;
 }
 
-/* line 116, ../../assets/scss/site/modules/_inputfield.scss */
+/* line 117, ../../assets/scss/site/modules/_inputfield.scss */
 .input-field-validation-hide {
   display: none;
 }
 
-/* line 120, ../../assets/scss/site/modules/_inputfield.scss */
+/* line 121, ../../assets/scss/site/modules/_inputfield.scss */
 .input-field-label p {
   display: table-cell;
   line-height: 1.2em;
@@ -11014,17 +11011,17 @@ input.btn-secondary {
 }
 
 /* Description box */
-/* line 129, ../../assets/scss/site/modules/_inputfield.scss */
+/* line 130, ../../assets/scss/site/modules/_inputfield.scss */
 .description-box {
   border: 1px #e0e0e0 solid;
   padding: 1em;
 }
-/* line 133, ../../assets/scss/site/modules/_inputfield.scss */
+/* line 134, ../../assets/scss/site/modules/_inputfield.scss */
 .description-box.description-box-outer.input-field-focus {
   margin-left: 0px;
 }
 
-/* line 138, ../../assets/scss/site/modules/_inputfield.scss */
+/* line 139, ../../assets/scss/site/modules/_inputfield.scss */
 .description-box-headline {
   font-size: 1.1em;
   font-weight: bold;
@@ -11032,50 +11029,50 @@ input.btn-secondary {
   padding: 0;
 }
 
-/* line 144, ../../assets/scss/site/modules/_inputfield.scss */
+/* line 145, ../../assets/scss/site/modules/_inputfield.scss */
 .description-box-copy {
   font-size: 0.9em;
   margin: 0;
   padding: 0;
   text-align: left;
 }
-/* line 149, ../../assets/scss/site/modules/_inputfield.scss */
+/* line 150, ../../assets/scss/site/modules/_inputfield.scss */
 .description-box-copy a {
   font-family: "ProximaNova Regular Italic", Helvetica, Arial, sans-serif;
   font-size: 1.0em;
 }
 
-/* line 154, ../../assets/scss/site/modules/_inputfield.scss */
+/* line 155, ../../assets/scss/site/modules/_inputfield.scss */
 .description-box-input-field {
   border: 0;
   resize: none;
   width: 100%;
 }
-/* line 158, ../../assets/scss/site/modules/_inputfield.scss */
+/* line 159, ../../assets/scss/site/modules/_inputfield.scss */
 .description-box-input-field:focus {
   outline: none;
 }
 
-/* line 166, ../../assets/scss/site/modules/_inputfield.scss */
+/* line 167, ../../assets/scss/site/modules/_inputfield.scss */
 .form-conatiner .input-field-select .input-field-validation-icon {
   right: 50px;
 }
 
-/* line 171, ../../assets/scss/site/modules/_inputfield.scss */
+/* line 172, ../../assets/scss/site/modules/_inputfield.scss */
 .input-field-select .input-field-validation-icon {
   z-index: -1;
 }
-/* line 172, ../../assets/scss/site/modules/_inputfield.scss */
+/* line 173, ../../assets/scss/site/modules/_inputfield.scss */
 .input-field-select .input-field-validation-icon-false {
   z-index: 1;
 }
-/* line 173, ../../assets/scss/site/modules/_inputfield.scss */
+/* line 174, ../../assets/scss/site/modules/_inputfield.scss */
 .input-field-select .input-field-validation-icon-true {
   z-index: 1;
 }
 
 /* Categories box */
-/* line 177, ../../assets/scss/site/modules/_inputfield.scss */
+/* line 178, ../../assets/scss/site/modules/_inputfield.scss */
 .categories-box {
   border: 1px #e0e0e0 solid;
   padding: 1em;
@@ -11106,7 +11103,7 @@ input.btn-secondary {
   }
 }
 */
-/* line 210, ../../assets/scss/site/modules/_inputfield.scss */
+/* line 211, ../../assets/scss/site/modules/_inputfield.scss */
 .categories-box-headline {
   font-size: 1.1em;
   font-weight: bold;
@@ -11114,7 +11111,7 @@ input.btn-secondary {
   padding: 0;
 }
 
-/* line 216, ../../assets/scss/site/modules/_inputfield.scss */
+/* line 217, ../../assets/scss/site/modules/_inputfield.scss */
 .categories-box-copy {
   font-size: 0.9em;
   margin: 0;
@@ -11122,17 +11119,17 @@ input.btn-secondary {
   text-align: left;
 }
 
-/* line 223, ../../assets/scss/site/modules/_inputfield.scss */
+/* line 224, ../../assets/scss/site/modules/_inputfield.scss */
 .input-field-checkbox p {
   text-align: left;
 }
 
 /* Input submit button */
-/* line 228, ../../assets/scss/site/modules/_inputfield.scss */
+/* line 229, ../../assets/scss/site/modules/_inputfield.scss */
 .form-submit-button {
   text-align: center;
 }
-/* line 231, ../../assets/scss/site/modules/_inputfield.scss */
+/* line 232, ../../assets/scss/site/modules/_inputfield.scss */
 .form-submit-button input {
   width: 60%;
   height: 60px;
@@ -11141,93 +11138,93 @@ input.btn-secondary {
   margin: 0.5em;
   cursor: pointer;
 }
-/* line 239, ../../assets/scss/site/modules/_inputfield.scss */
+/* line 240, ../../assets/scss/site/modules/_inputfield.scss */
 .form-submit-button input:hover {
   color: #fff;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
-  /* line 247, ../../assets/scss/site/modules/_inputfield.scss */
+  /* line 248, ../../assets/scss/site/modules/_inputfield.scss */
   .field-container.terms-conditions {
     height: 14%;
   }
 
-  /* line 248, ../../assets/scss/site/modules/_inputfield.scss */
+  /* line 249, ../../assets/scss/site/modules/_inputfield.scss */
   .input-field-input {
     font-size: 0.875em;
     height: auto;
   }
 
-  /* line 249, ../../assets/scss/site/modules/_inputfield.scss */
+  /* line 250, ../../assets/scss/site/modules/_inputfield.scss */
   .input-field-label p {
     height: auto;
     padding-top: 1.0em;
   }
 
-  /* line 250, ../../assets/scss/site/modules/_inputfield.scss */
+  /* line 251, ../../assets/scss/site/modules/_inputfield.scss */
   .input-field {
     height: auto;
   }
-  /* line 252, ../../assets/scss/site/modules/_inputfield.scss */
+  /* line 253, ../../assets/scss/site/modules/_inputfield.scss */
   .input-field .col-xs-4, .input-field .col-xs-8, .input-field .col-xs-12 {
     float: none;
     display: block;
   }
-  /* line 253, ../../assets/scss/site/modules/_inputfield.scss */
+  /* line 254, ../../assets/scss/site/modules/_inputfield.scss */
   .input-field .col-xs-4 {
     width: 100%;
     padding-right: 0;
   }
-  /* line 254, ../../assets/scss/site/modules/_inputfield.scss */
+  /* line 255, ../../assets/scss/site/modules/_inputfield.scss */
   .input-field .col-xs-8 {
     width: 100%;
     padding-bottom: 0.5em;
   }
-  /* line 255, ../../assets/scss/site/modules/_inputfield.scss */
+  /* line 256, ../../assets/scss/site/modules/_inputfield.scss */
   .input-field .col-xs-12 {
     position: "";
     width: 100%;
   }
 
-  /* line 257, ../../assets/scss/site/modules/_inputfield.scss */
+  /* line 258, ../../assets/scss/site/modules/_inputfield.scss */
   .input-field-validation-alert {
     text-align: left;
   }
 
-  /* line 264, ../../assets/scss/site/modules/_inputfield.scss */
+  /* line 265, ../../assets/scss/site/modules/_inputfield.scss */
   .form-conatiner .input-field-select .input-field-validation-icon {
     right: 42px;
     top: 0.7em;
   }
-  /* line 270, ../../assets/scss/site/modules/_inputfield.scss */
+  /* line 271, ../../assets/scss/site/modules/_inputfield.scss */
   .form-conatiner .input-field-validation-icon {
     top: -0.8em;
   }
 
-  /* line 275, ../../assets/scss/site/modules/_inputfield.scss */
+  /* line 276, ../../assets/scss/site/modules/_inputfield.scss */
   .field-container .input-select {
     font-size: 0.875em;
   }
 
-  /* line 282, ../../assets/scss/site/modules/_inputfield.scss */
+  /* line 283, ../../assets/scss/site/modules/_inputfield.scss */
   .form-submit-button input {
     font-size: 0.875em;
   }
 
-  /* line 289, ../../assets/scss/site/modules/_inputfield.scss */
+  /* line 290, ../../assets/scss/site/modules/_inputfield.scss */
   .terms-conditions .input-field-checkbox p {
-    padding-top: 1em;
+    padding-top: 1.5em;
   }
-  /* line 293, ../../assets/scss/site/modules/_inputfield.scss */
+  /* line 294, ../../assets/scss/site/modules/_inputfield.scss */
   .terms-conditions .input-field-validation-icon {
     top: 0.6em;
   }
-  /* line 297, ../../assets/scss/site/modules/_inputfield.scss */
+  /* line 298, ../../assets/scss/site/modules/_inputfield.scss */
   .terms-conditions .checkbox-label {
     padding-right: 2.5em;
   }
 
-  /* line 304, ../../assets/scss/site/modules/_inputfield.scss */
+  /* line 305, ../../assets/scss/site/modules/_inputfield.scss */
   label.input-field-label p {
     font-size: 0.875em;
   }
@@ -11426,7 +11423,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
   margin-left: 3.7em;
   margin-top: 0em;
   color: #737373;
-  margin-bottom: 2.5em;
+  margin-bottom: 1.5em;
 }
 /* line 76, ../../assets/scss/site/modules/_checkbox.scss */
 .input-field-checkbox p a {
@@ -11438,7 +11435,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
 @media (min-width: 480px) {
   /* line 69, ../../assets/scss/site/modules/_checkbox.scss */
   .input-field-checkbox p {
-    margin-bottom: 4.5em;
+    margin-bottom: 1.5em;
   }
 }
 

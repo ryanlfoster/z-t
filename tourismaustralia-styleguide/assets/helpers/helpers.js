@@ -29,7 +29,6 @@ module.exports.register = function(Handlebars, options, params) {
             }else{
                 data1Parse = JSON.parse(data);
             }
-            console.log("inheritData", inheritData);
 
             var newData = merge(data1Parse, inheritData);
             return options.fn(newData);

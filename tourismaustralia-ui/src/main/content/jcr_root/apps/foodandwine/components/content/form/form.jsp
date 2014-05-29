@@ -233,20 +233,23 @@
 		</div>
 
             <div class="field-container">
-                <p class="description-box-copy">
-                    <em>If there's a YouTube video you'd like to include for your business experience, then please copy and paste the YouTube video URL.</em>
-                </p>
-                <div class="input-field" data-type="optional">
-                    <div class="col-xs-4">
-                        <label class="input-field-label" for="text">
-                            <p>
-                                <strong>Video URL</strong>
-                            </p>
-                        </label>
-                    </div>
-                    <div class="col-xs-8">
-                        <input class="input-field-input" type="text" name="videoUrl"
-                               id="videoUrl" placeholder="E.g. www.youtube.com/myvideo">
+                <div class="description-box description-box-outer">
+                    <h4 class="description-box-headline"><strong>Video</strong></h4>
+                    <p class="description-box-copy">
+                        <em>If there's a YouTube video you'd like to include for your business experience, then please copy and paste the YouTube video URL.</em>
+                    </p>
+                    <div class="input-field" data-type="optional">
+                        <div class="col-xs-4">
+                            <label class="input-field-label" for="text">
+                                <p>
+                                    <strong>Video URL</strong>
+                                </p>
+                            </label>
+                        </div>
+                        <div class="col-xs-8">
+                            <input class="input-field-input" type="text" name="videoUrl"
+                                   id="videoUrl" placeholder="E.g. www.youtube.com/myvideo">
+                        </div>
                     </div>
                 </div>
             </div>

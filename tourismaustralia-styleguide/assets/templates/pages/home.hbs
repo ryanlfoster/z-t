@@ -135,29 +135,29 @@ note: note-home
 
 
         <!-- hot or not item start -->
-        <div class="hotornot-item is-hidden">
+        <div class="hotornot-item">
             <div class="row l-center-1200 l-row-collapse">
                 <div class="hotornot-item-tile col-xs-12 col-md-3">
 
-                    <div class="hotornot-item-padding theme-aboriginal">
+                    <div class="hotornot-item-padding theme-3">
 
                         <!-- background image spacer start -->
                         <img src='imgs/base/spacer_hot_or_not_row.png' alt='' class="hotornot-spacer-fill">
                         <!-- background image spacer end -->
 
                         <!-- line and diamond start -->
-                        <div class="hotornot-diamond theme-aboriginal-border">
+                        <div class="hotornot-diamond theme-3-border">
                             <!-- icons, aboriginal_australia, adventure, art_culture, beaches,
                             food_wine, island, nature_wildlife, outback, sports -->
                             <span class="hotornot-diamond-img-container">
-                                <span class="hotornot-diamond-img-bg theme-aboriginal"></span>
+                                <span class="hotornot-diamond-img-bg theme-3"></span>
                                 <img class="hotornot-diamond-img" src="imgs/icons/aboriginal_australia_stroke.png" alt="">
                             </span>
                         </div>
                         <!-- line and diamond end -->
 
                         <!-- close btn start -->
-                        <a href="#" class="btn-bubble hotornot-close-btn theme-aboriginal-button">
+                        <a href="#" class="btn-bubble hotornot-close-btn theme-3-button">
                             <span class="icon-close icon-font-cross"></span>
                         </a>
                         <!-- close btn end -->
@@ -203,7 +203,9 @@ note: note-home
                 </div>
                 <div class="col-xs-12 col-md-9 hotornot-item-grid">
                     <!-- 3 column mosaic grid start -->
-                    {{> mosaic_hotornot_grid_2_6 }}
+                    {{#parseJSONDeepLink '{"mosaic_theme": "theme-3"}'}}
+                        {{> mosaic_hotornot_grid_2_6 }}
+                    {{/parseJSONDeepLink}}
                     <!-- 3 column mosaic grid end -->
                 </div>
 
@@ -229,25 +231,25 @@ note: note-home
             <div class="row l-center-1200 l-row-collapse">
                 <div class="hotornot-item-tile col-xs-12 col-md-3">
 
-                    <div class="hotornot-item-padding theme-arts">
+                    <div class="hotornot-item-padding theme-5">
 
                         <!-- background image spacer start -->
                         <img src='imgs/base/spacer_hot_or_not_row.png' alt='' class="hotornot-spacer-fill">
                         <!-- background image spacer end -->
 
                         <!-- line and diamond start -->
-                        <div class="hotornot-diamond theme-arts-border">
+                        <div class="hotornot-diamond theme-5-border">
                             <!-- icons, aboriginal_australia, adventure, art_culture, beaches,
                             food_wine, island, nature_wildlife, outback, sports -->
                             <span class="hotornot-diamond-img-container">
-                                <span class="hotornot-diamond-img-bg theme-arts"></span>
+                                <span class="hotornot-diamond-img-bg theme-5"></span>
                                 <img class="hotornot-diamond-img" src="imgs/icons/art_culture_stroke.png" alt="">
                             </span>
                         </div>
                         <!-- line and diamond end -->
 
                         <!-- close btn start -->
-                        <a href="#" class="btn-bubble hotornot-close-btn theme-arts-button">
+                        <a href="#" class="btn-bubble hotornot-close-btn theme-5-button">
                             <span class="icon-close icon-font-cross"></span>
                         </a>
                         <!-- close btn end -->
@@ -293,7 +295,9 @@ note: note-home
                 </div>
                 <div class="col-xs-12 col-md-9 hotornot-item-grid">
                     <!-- 3 column mosaic grid start -->
-                    {{> mosaic_hotornot_grid_2_6 }}
+                    {{#parseJSONDeepLink '{"mosaic_theme": "theme-5"}'}}
+                        {{> mosaic_hotornot_grid_2_6 }}
+                    {{/parseJSONDeepLink}}
                     <!-- 3 column mosaic grid end -->
                 </div>
 
@@ -322,25 +326,25 @@ note: note-home
                 <div class="row l-center-1200 l-row-collapse">
                     <div class="hotornot-item-tile col-xs-12 col-md-3">
 
-                        <div class="hotornot-item-padding theme-nature">
+                        <div class="hotornot-item-padding theme-1">
 
                             <!-- background image spacer start -->
                             <img src='imgs/base/spacer_hot_or_not_row.png' alt='' class="hotornot-spacer-fill">
                             <!-- background image spacer end -->
 
                             <!-- line and diamond start -->
-                            <div class="hotornot-diamond theme-nature-border">
+                            <div class="hotornot-diamond theme-1-border">
                                 <!-- icons, aboriginal_australia, adventure, art_culture, beaches,
                                 food_wine, island, nature_wildlife, outback, sports -->
                                 <span class="hotornot-diamond-img-container">
-                                    <span class="hotornot-diamond-img-bg theme-nature"></span>
+                                    <span class="hotornot-diamond-img-bg theme-1"></span>
                                     <img class="hotornot-diamond-img" src="imgs/icons/nature_wildlife_stroke.png" alt="">
                                 </span>
                             </div>
                             <!-- line and diamond end -->
 
                             <!-- close btn start -->
-                            <a href="#" class="btn-bubble hotornot-close-btn theme-nature-button">
+                            <a href="#" class="btn-bubble hotornot-close-btn theme-1-button">
                                 <span class="icon-close icon-font-cross"></span>
                             </a>
                             <!-- close btn end -->
@@ -386,7 +390,9 @@ note: note-home
                     </div>
                     <div class="col-xs-12 col-md-9 hotornot-item-grid">
                         <!-- 3 column mosaic grid start -->
-                        {{> mosaic_hotornot_grid_2_6 }}
+                        {{#parseJSONDeepLink '{"mosaic_theme": "theme-1"}'}}
+                            {{> mosaic_hotornot_grid_2_6 }}
+                        {{/parseJSONDeepLink}}
                         <!-- 3 column mosaic grid end -->
                     </div>
 
@@ -412,25 +418,25 @@ note: note-home
                 <div class="row l-center-1200 l-row-collapse">
                     <div class="hotornot-item-tile col-xs-12 col-md-3">
 
-                        <div class="hotornot-item-padding theme-outback">
+                        <div class="hotornot-item-padding theme-2">
 
                             <!-- background image spacer start -->
                             <img src='imgs/base/spacer_hot_or_not_row.png' alt='' class="hotornot-spacer-fill">
                             <!-- background image spacer end -->
 
                             <!-- line and diamond start -->
-                            <div class="hotornot-diamond theme-outback-border">
+                            <div class="hotornot-diamond theme-2-border">
                                 <!-- icons, aboriginal_australia, adventure, art_culture, beaches,
                                 food_wine, island, nature_wildlife, outback, sports -->
                                 <span class="hotornot-diamond-img-container">
-                                    <span class="hotornot-diamond-img-bg theme-outback"></span>
-                                    <img class="hotornot-diamond-img" src="imgs/icons/outback_stroke.png" alt="">
+                                    <span class="hotornot-diamond-img-bg theme-2"></span>
+                                    <img class="hotornot-diamond-img" src="imgs/icons/outback_white_outline.png" alt="">
                                 </span>
                             </div>
                             <!-- line and diamond end -->
 
                             <!-- close btn start -->
-                            <a href="#" class="btn-bubble hotornot-close-btn theme-outback-button">
+                            <a href="#" class="btn-bubble hotornot-close-btn theme-2-button">
                                 <span class="icon-close icon-font-cross"></span>
                             </a>
                             <!-- close btn end -->
@@ -476,7 +482,9 @@ note: note-home
                     </div>
                     <div class="col-xs-12 col-md-9 hotornot-item-grid">
                         <!-- 3 column mosaic grid start -->
-                        {{> mosaic_hotornot_grid_2_6 }}
+                        {{#parseJSONDeepLink '{"mosaic_theme": "theme-2"}'}}
+                            {{> mosaic_hotornot_grid_2_6 }}
+                        {{/parseJSONDeepLink}}
                         <!-- 3 column mosaic grid end -->
                     </div>
 
@@ -502,25 +510,25 @@ note: note-home
                 <div class="row l-center-1200 l-row-collapse">
                     <div class="hotornot-item-tile col-xs-12 col-md-3">
 
-                        <div class="hotornot-item-padding theme-food">
+                        <div class="hotornot-item-padding theme-4">
 
                             <!-- background image spacer start -->
                             <img src='imgs/base/spacer_hot_or_not_row.png' alt='' class="hotornot-spacer-fill">
                             <!-- background image spacer end -->
 
                             <!-- line and diamond start -->
-                            <div class="hotornot-diamond theme-food-border">
+                            <div class="hotornot-diamond theme-4-border">
                                 <!-- icons, aboriginal_australia, adventure, art_culture, beaches,
                                 food_wine, island, nature_wildlife, outback, sports -->
                                 <span class="hotornot-diamond-img-container">
-                                    <span class="hotornot-diamond-img-bg theme-food"></span>
+                                    <span class="hotornot-diamond-img-bg theme-4"></span>
                                     <img class="hotornot-diamond-img" src="imgs/icons/food_wine_stroke.png" alt="">
                                 </span>
                             </div>
                             <!-- line and diamond end -->
 
                             <!-- close btn start -->
-                            <a href="#" class="btn-bubble hotornot-close-btn theme-food-button">
+                            <a href="#" class="btn-bubble hotornot-close-btn theme-4-button">
                                 <span class="icon-close icon-font-cross"></span>
                             </a>
                             <!-- close btn end -->
@@ -566,7 +574,9 @@ note: note-home
                     </div>
                     <div class="col-xs-12 col-md-9 hotornot-item-grid">
                         <!-- 3 column mosaic grid start -->
-                        {{> mosaic_hotornot_grid_2_6 }}
+                        {{#parseJSONDeepLink '{"mosaic_theme": "theme-4"}'}}
+                            {{> mosaic_hotornot_grid_2_6 }}
+                        {{/parseJSONDeepLink}}
                         <!-- 3 column mosaic grid end -->
                     </div>
 
@@ -591,25 +601,25 @@ note: note-home
                 <div class="row l-center-1200 l-row-collapse">
                     <div class="hotornot-item-tile col-xs-12 col-md-3">
 
-                        <div class="hotornot-item-padding theme-islands">
+                        <div class="hotornot-item-padding theme-6">
 
                             <!-- background image spacer start -->
                             <img src='imgs/base/spacer_hot_or_not_row.png' alt='' class="hotornot-spacer-fill">
                             <!-- background image spacer end -->
 
                             <!-- line and diamond start -->
-                            <div class="hotornot-diamond theme-islands-border">
+                            <div class="hotornot-diamond theme-6-border">
                                 <!-- icons, aboriginal_australia, adventure, art_culture, beaches,
                                 food_wine, island, nature_wildlife, outback, sports -->
                                 <span class="hotornot-diamond-img-container">
-                                    <span class="hotornot-diamond-img-bg theme-islands"></span>
-                                    <img class="hotornot-diamond-img" src="imgs/icons/island_stroke.png" alt="">
+                                    <span class="hotornot-diamond-img-bg theme-6"></span>
+                                    <img class="hotornot-diamond-img" src="imgs/icons/island_white_outline.png" alt="">
                                 </span>
                             </div>
                             <!-- line and diamond end -->
 
                             <!-- close btn start -->
-                            <a href="#" class="btn-bubble hotornot-close-btn theme-islands-button">
+                            <a href="#" class="btn-bubble hotornot-close-btn theme-6-button">
                                 <span class="icon-close icon-font-cross"></span>
                             </a>
                             <!-- close btn end -->
@@ -655,7 +665,9 @@ note: note-home
                     </div>
                     <div class="col-xs-12 col-md-9 hotornot-item-grid">
                         <!-- 3 column mosaic grid start -->
-                        {{> mosaic_hotornot_grid_2_6 }}
+                        {{#parseJSONDeepLink '{"mosaic_theme": "theme-6"}'}}
+                            {{> mosaic_hotornot_grid_2_6 }}
+                        {{/parseJSONDeepLink}}
                         <!-- 3 column mosaic grid end -->
                     </div>
 
@@ -681,25 +693,25 @@ note: note-home
                 <div class="row l-center-1200 l-row-collapse">
                     <div class="hotornot-item-tile col-xs-12 col-md-3">
 
-                        <div class="hotornot-item-padding theme-beaches">
+                        <div class="hotornot-item-padding theme-7">
 
                             <!-- background image spacer start -->
                             <img src='imgs/base/spacer_hot_or_not_row.png' alt='' class="hotornot-spacer-fill">
                             <!-- background image spacer end -->
 
                             <!-- line and diamond start -->
-                            <div class="hotornot-diamond theme-beaches-border">
+                            <div class="hotornot-diamond theme-7-border">
                                 <!-- icons, aboriginal_australia, adventure, art_culture, beaches,
                                 food_wine, island, nature_wildlife, outback, sports -->
                                 <span class="hotornot-diamond-img-container">
-                                    <span class="hotornot-diamond-img-bg theme-beaches"></span>
-                                    <img class="hotornot-diamond-img" src="imgs/icons/beaches_stroke.png" alt="">
+                                    <span class="hotornot-diamond-img-bg theme-7"></span>
+                                    <img class="hotornot-diamond-img" src="imgs/icons/beaches_white_outline.png" alt="">
                                 </span>
                             </div>
                             <!-- line and diamond end -->
 
                             <!-- close btn start -->
-                            <a href="#" class="btn-bubble hotornot-close-btn theme-beaches-button">
+                            <a href="#" class="btn-bubble hotornot-close-btn theme-7-button">
                                 <span class="icon-close icon-font-cross"></span>
                             </a>
                             <!-- close btn end -->
@@ -745,7 +757,9 @@ note: note-home
                     </div>
                     <div class="col-xs-12 col-md-9 hotornot-item-grid">
                         <!-- 3 column mosaic grid start -->
-                        {{> mosaic_hotornot_grid_2_6 }}
+                        {{#parseJSONDeepLink '{"mosaic_theme": "theme-7"}'}}
+                            {{> mosaic_hotornot_grid_2_6 }}
+                        {{/parseJSONDeepLink}}
                         <!-- 3 column mosaic grid end -->
                     </div>
 
@@ -770,25 +784,25 @@ note: note-home
                 <div class="row l-center-1200 l-row-collapse">
                     <div class="hotornot-item-tile col-xs-12 col-md-3">
 
-                        <div class="hotornot-item-padding theme-sports">
+                        <div class="hotornot-item-padding theme-8">
 
                             <!-- background image spacer start -->
                             <img src='imgs/base/spacer_hot_or_not_row.png' alt='' class="hotornot-spacer-fill">
                             <!-- background image spacer end -->
 
                             <!-- line and diamond start -->
-                            <div class="hotornot-diamond theme-beaches-border">
+                            <div class="hotornot-diamond theme-8-border">
                                 <!-- icons, aboriginal_australia, adventure, art_culture, beaches,
                                 food_wine, island, nature_wildlife, outback, sports -->
                                 <span class="hotornot-diamond-img-container">
-                                    <span class="hotornot-diamond-img-bg theme-sports"></span>
-                                    <img class="hotornot-diamond-img" src="imgs/icons/sports_stroke.png" alt="">
+                                    <span class="hotornot-diamond-img-bg theme-8"></span>
+                                    <img class="hotornot-diamond-img" src="imgs/icons/sports_white_outline.png" alt="">
                                 </span>
                             </div>
                             <!-- line and diamond end -->
 
                             <!-- close btn start -->
-                            <a href="#" class="btn-bubble hotornot-close-btn theme-sports-button">
+                            <a href="#" class="btn-bubble hotornot-close-btn theme-8-button">
                                 <span class="icon-close icon-font-cross"></span>
                             </a>
                             <!-- close btn end -->
@@ -834,7 +848,9 @@ note: note-home
                     </div>
                     <div class="col-xs-12 col-md-9 hotornot-item-grid">
                         <!-- 3 column mosaic grid start -->
-                        {{> mosaic_hotornot_grid_2_6 }}
+                        {{#parseJSONDeepLink '{"mosaic_theme": "theme-8"}'}}
+                            {{> mosaic_hotornot_grid_2_6 }}
+                        {{/parseJSONDeepLink}}
                         <!-- 3 column mosaic grid end -->
                     </div>
 
@@ -860,25 +876,25 @@ note: note-home
                 <div class="row l-center-1200 l-row-collapse">
                     <div class="hotornot-item-tile col-xs-12 col-md-3">
 
-                        <div class="hotornot-item-padding theme-adventure">
+                        <div class="hotornot-item-padding theme-9">
 
                             <!-- background image spacer start -->
                             <img src='imgs/base/spacer_hot_or_not_row.png' alt='' class="hotornot-spacer-fill">
                             <!-- background image spacer end -->
 
                             <!-- line and diamond start -->
-                            <div class="hotornot-diamond theme-adventure-border">
+                            <div class="hotornot-diamond theme-9-border">
                                 <!-- icons, aboriginal_australia, adventure, art_culture, beaches,
                                 food_wine, island, nature_wildlife, outback, sports -->
                                 <span class="hotornot-diamond-img-container">
-                                    <span class="hotornot-diamond-img-bg theme-adventure"></span>
-                                    <img class="hotornot-diamond-img" src="imgs/icons/adventure_stroke.png" alt="">
+                                    <span class="hotornot-diamond-img-bg theme-9"></span>
+                                    <img class="hotornot-diamond-img" src="imgs/icons/adventure_white_outline.png" alt="">
                                 </span>
                             </div>
                             <!-- line and diamond end -->
 
                             <!-- close btn start -->
-                            <a href="#" class="btn-bubble hotornot-close-btn theme-adventure-button">
+                            <a href="#" class="btn-bubble hotornot-close-btn theme-9-button">
                                 <span class="icon-close icon-font-cross"></span>
                             </a>
                             <!-- close btn end -->
@@ -924,7 +940,9 @@ note: note-home
                     </div>
                     <div class="col-xs-12 col-md-9 hotornot-item-grid">
                         <!-- 3 column mosaic grid start -->
-                        {{> mosaic_hotornot_grid_2_6 }}
+                        {{#parseJSONDeepLink '{"mosaic_theme": "theme-9"}'}}
+                            {{> mosaic_hotornot_grid_2_6 }}
+                        {{/parseJSONDeepLink}}
                         <!-- 3 column mosaic grid end -->
                     </div>
 

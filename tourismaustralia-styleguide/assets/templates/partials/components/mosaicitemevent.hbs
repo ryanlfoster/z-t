@@ -17,14 +17,14 @@ title: Mosaic Item - Events
                                 <span class="month">January</span> <span class="day">30</span>
                             </div>
                             <!-- item label start -->
-                            <span class="label-destination type-destination theme-discover">Whitsunday Island, Queensland</span>
+                            <span class="label-destination type-destination {{#if mosaic_theme}}{{{mosaic_theme}}}{{else}}theme-10{{/if}}">Whitsunday Island, Queensland</span>
                             <!-- item label start -->
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="mosaic-column-back mosaic-content flip-back mosaic-back theme-discover">
+            <div class="mosaic-column-back mosaic-content flip-back mosaic-back {{#if mosaic_theme}}{{{mosaic_theme}}}{{else}}theme-10{{/if}}">
                 <div class="vertical-container">
                     <div class="vertical-content text-center">
                         {{#parseJSON '{"src": "imgs/icons/art_culture_white_outline.png"}'}}

@@ -22,7 +22,9 @@ title: Mosaic Grid Highlights Date 6 Items, 3 Column Mobile
 
             <!-- mosaic start item -->
             <div class="col-xs-12 col-sm-4">
-                {{> mosaicitemhighlights }}
+                {{#parseJSONDeepLink '{"destination": "19 World heritage sites in Australia", "date": "September - April"}'}}
+                    {{> mosaicitemhighlights }}
+                {{/parseJSONDeepLink}}
             </div>
             <!-- mosaic end item -->
 
@@ -43,25 +45,25 @@ title: Mosaic Grid Highlights Date 6 Items, 3 Column Mobile
 
             <!-- mosaic start item -->
             <div class="col-xs-12 col-sm-4">
-                {{#parseJSON '{"destination": "19 World heritage sites in Australia", "date": "September - April"}'}}
+                {{#parseJSONDeepLink '{"destination": "19 World heritage sites in Australia", "date": "September - April"}'}}
                     {{> mosaicitemhighlights }}
-                {{/parseJSON}}
+                {{/parseJSONDeepLink}}
             </div>
             <!-- mosaic end item -->
 
             <!-- mosaic start item -->
             <div class="col-xs-12 col-sm-4">
-                {{#parseJSON '{"date": "March - May"}'}}
+                {{#parseJSONDeepLink '{"date": "March - May"}'}}
                     {{> mosaicitemhighlights }}
-                {{/parseJSON}}
+                {{/parseJSONDeepLink}}
             </div>
             <!-- mosaic end item -->
 
             <!-- mosaic start item -->
             <div class="col-xs-12 col-sm-4">
-                {{#parseJSON '{"destination": "19 World heritage sites in Australia", "date": "September - April"}'}}
+                {{#parseJSONDeepLink '{"destination": "19 World heritage sites in Australia", "date": "September - April"}'}}
                     {{> mosaicitemhighlights }}
-                {{/parseJSON}}
+                {{/parseJSONDeepLink}}
             </div>
             <!-- mosaic end item -->
 

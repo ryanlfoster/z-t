@@ -30,8 +30,8 @@
         (window).trigger("scroll");
     });
 
-    $(w).load(function () {console.log('window loaded');
-        (window).trigger("scroll");
+    $(w).load(function () {
+        $(window).trigger("scroll");
     });
 }($, this));
 

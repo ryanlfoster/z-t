@@ -29,6 +29,13 @@
     right: pxtoem(25px);
   }
 }
+
+.asp-search-agent-list-item-btn .btn-primary:focus{
+  background:none;
+  color: #00535E;
+}
+
+
 .asp-search-agent-list-item-agent-image {
 	text-align: center;
 	margin-bottom: pxtoem(15px);

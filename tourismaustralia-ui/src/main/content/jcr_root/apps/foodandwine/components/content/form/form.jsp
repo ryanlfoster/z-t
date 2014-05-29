@@ -186,7 +186,7 @@
 			</div>
 			<div class="field-container">
 				<div class="description-box">
-					<h4 class="description-box-headline">Description</h4>
+					<h4 class="description-box-headline"><strong>Description</strong></h4>
 					<p class="description-box-copy">
 						<em>Please tell us in 100 - 300 words, about the best food and wine experience that your business has to offer. <a href="/content/dam/food-and-wine/pdf/TAIM8585-RA-Website-how-to-guide-A4.pdf" target="_blank">Click here to see a great example.</a><br/>Please write your business description directly in this box. If you have used Microsoft Word to write your business description, please copy and paste into Notepad before inserting the text in to this box.</em>
 					</p>
@@ -256,7 +256,7 @@
 
 			<div class="field-container">
 				<div class="categories-box">
-					<h4 class="categories-box-headline">Categories*</h4>
+					<h4 class="categories-box-headline"><strong>Categories*</strong></h4>
 					<p class="categories-box-copy">
 						<em>Select <strong>one</strong> or <strong>two</strong>
 							categories that best reflect your business:

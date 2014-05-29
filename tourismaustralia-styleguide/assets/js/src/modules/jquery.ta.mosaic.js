@@ -61,6 +61,24 @@
         this.init();
     }
 
+    var numOfCalls_parallaxscroll = 0;
+    var int_parallaxscroll;
+
+    Plugin.prototype.scrollfor_parallaxscroll = function () {
+        $(window).scrollTop($(window).scrollTop()+1);
+    };
+
+    Plugin.prototype.clock_parallaxscroll = function () {
+        //window.parallaxscroll();
+        $(window).trigger("scroll");
+        numOfCalls_parallaxscroll++;
+        if(numOfCalls_parallaxscroll == 50){
+            numOfCalls_parallaxscroll=0;
+            window.clearInterval(int_parallaxscroll);
+        }
+    };
+
+
     Plugin.prototype.init = function () {
         var scope = this;
         //init events except of megamenu items
@@ -87,7 +105,11 @@
         }
         */
 
+
+
         $mosaic_container.click(function(e){
+
+
 
             // check if outbound link tile
             if(!$(this).hasClass('outbound-link')){
@@ -111,9 +133,14 @@
                 //$mosaic_item.removeClass('is-flip');
                 scope.removeTransition($mosaic_item);
 
+                int_parallaxscroll=self.setInterval(scope.clock_parallaxscroll,10);
+
                 e.preventDefault();
             }
         });
+
+
+
         $mosaic_container.mouseenter(function(e){
             //$mosaic_item.addClass("is-flip");
             scope.addTransition($mosaic_item);

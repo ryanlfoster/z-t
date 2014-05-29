@@ -27,7 +27,11 @@
     });
 
     $(w).on("debouncedresize", function () {
-       w.parallaxscroll();
+        (window).trigger("scroll");
     });
 
+    $(w).load(function () {console.log('window loaded');
+        (window).trigger("scroll");
+    });
 }($, this));
+

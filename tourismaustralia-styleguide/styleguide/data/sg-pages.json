@@ -1339,12 +1339,12 @@
                     ,
                 
             
-                "mapimagewithlegend" : {
+                "mapimagewithicons" : {
                      "data" : {
-                        "title" : "mapimagewithlegend",
+                        "title" : "mapimagewithicons",
                         "layout" : "styleguide-preview.hbs"
                     },
-                    "content" : "{{section 'mapimagewithlegend'}}"
+                    "content" : "{{section 'mapimagewithicons'}}"
                 }
                 
                     ,

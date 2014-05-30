@@ -28,9 +28,16 @@
 											<div class="video-link-container">
 										</c:if>
 										<c:if test="${not empty sponsorsSpace.sponsor1.imagePath}">
-											<a href="${sponsorsSpace.sponsor1.linkTextPath}" target="${sponsorsSpace.sponsor1.external? '_blank':'self'}">
+										<c:choose>	
+											<c:when test="${not empty sponsorsSpace.sponsor1.linkTextPath}">
+											<a href="${sponsorsSpace.sponsor1.linkTextPath}" target="${sponsorsSpace.sponsor1.external? '_blank':'_self'}">
 											<img src="${sponsorsSpace.sponsor1.imagePath }" class="sponsors-image ${empty sponsorsSpace.sponsor1.imageTitle ? 'type-spacing-15' : '' }" alt="${sponsorsSpace.sponsor1.imageAltTag}">
 											</a>
+											</c:when>
+											<c:otherwise>
+											<img src="${sponsorsSpace.sponsor1.imagePath }" class="sponsors-image ${empty sponsorsSpace.sponsor1.imageTitle ? 'type-spacing-15' : '' }" alt="${sponsorsSpace.sponsor1.imageAltTag}">
+											</c:otherwise>
+										</c:choose>
 										</c:if>
 										<c:if test="${not empty sponsorsSpace.sponsor1.imageTitle }">
 											<p>${sponsorsSpace.sponsor1.imageTitle }</p>
@@ -43,11 +50,15 @@
 								<div class="row sponsors-row-3">
 									<c:choose>
 										<c:when test="${sponsorsSpace.sponsor1.external }">
+											<c:if test="${not empty sponsorsSpace.sponsor1.linkTextPath }">
 											<a href="${sponsorsSpace.sponsor1.linkTextPath }" target="_BLANK"
 												class="sponsors-link">${sponsorsSpace.sponsor1.linkText }</a>
+												</c:if>
 										</c:when>
 										<c:otherwise>
+											<c:if test="${not empty sponsorsSpace.sponsor1.linkTextPath }">
 											<a href="${sponsorsSpace.sponsor1.linkTextPath }" class="sponsors-link">${sponsorsSpace.sponsor1.linkText }</a>
+										</c:if>
 										</c:otherwise>
 									</c:choose>
 								</div>
@@ -72,9 +83,16 @@
 											<div class="video-link-container">
 										</c:if>
 										<c:if test="${not empty sponsorsSpace.sponsor2.imagePath}">
-											<a href="${sponsorsSpace.sponsor2.linkTextPath}" target="${sponsorsSpace.sponsor2.external? '_blank':'self'}">
-												<img src="${sponsorsSpace.sponsor2.imagePath }" class="sponsors-image ${empty sponsorsSpace.sponsor2.imageTitle ? 'type-spacing-15' : '' }" alt="${sponsorsSpace.sponsor2.imageAltTag}">
+											<c:choose>	
+											<c:when test="${not empty sponsorsSpace.sponsor2.linkTextPath}">
+											<a href="${sponsorsSpace.sponsor2.linkTextPath}" target="${sponsorsSpace.sponsor2.external? '_blank':'_self'}">
+											<img src="${sponsorsSpace.sponsor2.imagePath }" class="sponsors-image ${empty sponsorsSpace.sponsor2.imageTitle ? 'type-spacing-15' : '' }" alt="${sponsorsSpace.sponsor2.imageAltTag}">
 											</a>
+											</c:when>
+											<c:otherwise>
+											<img src="${sponsorsSpace.sponsor2.imagePath }" class="sponsors-image ${empty sponsorsSpace.sponsor2.imageTitle ? 'type-spacing-15' : '' }" alt="${sponsorsSpace.sponsor2.imageAltTag}">
+											</c:otherwise>
+										</c:choose>
 										</c:if>
 										<c:if test="${not empty sponsorsSpace.sponsor2.imageTitle }">
 											<p>${sponsorsSpace.sponsor2.imageTitle }</p>
@@ -87,11 +105,15 @@
 								<div class="row sponsors-row-3">
 									<c:choose>
 										<c:when test="${sponsorsSpace.sponsor2.external }">
+											<c:if test="${not empty sponsorsSpace.sponsor2.linkTextPath }">
 											<a href="${sponsorsSpace.sponsor2.linkTextPath }" target="_BLANK"
 												class="sponsors-link">${sponsorsSpace.sponsor2.linkText }</a>
+												</c:if>
 										</c:when>
 										<c:otherwise>
+											<c:if test="${not empty sponsorsSpace.sponsor2.linkTextPath }">
 											<a href="${sponsorsSpace.sponsor2.linkTextPath }" class="sponsors-link">${sponsorsSpace.sponsor2.linkText }</a>
+										</c:if>
 										</c:otherwise>
 									</c:choose>
 								</div>
@@ -116,9 +138,16 @@
 											<div class="video-link-container">
 										</c:if>
 										<c:if test="${not empty sponsorsSpace.sponsor3.imagePath}">
-											<a href="${sponsorsSpace.sponsor3.linkTextPath}" target="${sponsorsSpace.sponsor3.external? '_blank':'self'}">
-												<img src="${sponsorsSpace.sponsor3.imagePath }" class="sponsors-image ${empty sponsorsSpace.sponsor3.imageTitle ? 'type-spacing-15' : '' }" alt="${sponsorsSpace.sponsor3.imageAltTag}">
+											<c:choose>	
+											<c:when test="${not empty sponsorsSpace.sponsor3.linkTextPath}">
+											<a href="${sponsorsSpace.sponsor3.linkTextPath}" target="${sponsorsSpace.sponsor3.external? '_blank':'_self'}">
+											<img src="${sponsorsSpace.sponsor3.imagePath }" class="sponsors-image ${empty sponsorsSpace.sponsor3.imageTitle ? 'type-spacing-15' : '' }" alt="${sponsorsSpace.sponsor3.imageAltTag}">
 											</a>
+											</c:when>
+											<c:otherwise>
+											<img src="${sponsorsSpace.sponsor3.imagePath }" class="sponsors-image ${empty sponsorsSpace.sponsor3.imageTitle ? 'type-spacing-15' : '' }" alt="${sponsorsSpace.sponsor3.imageAltTag}">
+											</c:otherwise>
+										</c:choose>
 										</c:if>
 										<c:if test="${not empty sponsorsSpace.sponsor3.imageTitle }">
 											<p>${sponsorsSpace.sponsor3.imageTitle }</p>
@@ -131,11 +160,15 @@
 								<div class="row sponsors-row-3">
 									<c:choose>
 										<c:when test="${sponsorsSpace.sponsor3.external }">
+											<c:if test="${not empty sponsorsSpace.sponsor3.linkTextPath }">
 											<a href="${sponsorsSpace.sponsor3.linkTextPath }" target="_BLANK"
 												class="sponsors-link">${sponsorsSpace.sponsor3.linkText }</a>
+												</c:if>
 										</c:when>
 										<c:otherwise>
+											<c:if test="${not empty sponsorsSpace.sponsor3.linkTextPath }">
 											<a href="${sponsorsSpace.sponsor3.linkTextPath }" class="sponsors-link">${sponsorsSpace.sponsor3.linkText }</a>
+										</c:if>
 										</c:otherwise>
 									</c:choose>
 								</div>

@@ -53,19 +53,27 @@
 
         $image_uploader_add_more_button.click(function(e) {
         	e.preventDefault();
-            var $latest_image_uploader_item = $image_uploader_item.clone().insertBefore($image_uploader_add_more);//This will clone the original Upload control and add before the Upload More link
-            $latest_image_uploader_item.find(scope.options.image_uploader_filename).text('No File');//after cloning, it might copy the File Name if selected for first Upload
-            $latest_image_uploader_item.find(scope.options.image_uploader_control).val('');
-            $latest_image_uploader_item.find(scope.options.image_uploader_control).attr("name","imageupload"+uploads);
-            $latest_image_uploader_item.find(scope.options.image_uploader_control).attr("name","imageupload"+uploads);
-            $latest_image_uploader_item.find(scope.options.image_uploader_description_control).attr("name","photoDescription"+uploads);
-            uploads++;
+        	if($el.find('.image-uploader-item').length<5){
+	            var $latest_image_uploader_item = $image_uploader_item.clone().insertBefore($image_uploader_add_more);//This will clone the original Upload control and add before the Upload More link
+	            $latest_image_uploader_item.find(scope.options.image_uploader_filename).text('No File');//after cloning, it might copy the File Name if selected for first Upload
+	            $latest_image_uploader_item.find(scope.options.image_uploader_control).val('');
+	            $latest_image_uploader_item.find(scope.options.image_uploader_control).attr("name","imageupload"+uploads);
+	            $latest_image_uploader_item.find(scope.options.image_uploader_control).attr("name","imageupload"+uploads);
+	            $latest_image_uploader_item.find(scope.options.image_uploader_description_control).attr("name","photoDescription"+uploads);
+	            uploads++;
+	            if($el.find('.image-uploader-item').length==5){
+	            	$(this).hide();
+	            }
+        	}
         });
 
         //Remove Whole Image Uploader item
         $el.on('click', scope.options.image_uploader_remove_button , function(e){
         	e.preventDefault();
             $(this).parent().parent().remove();
+            if($el.find('.image-uploader-item').length<5){
+            	$image_uploader_add_more_button.show();
+            }
         });
 
         //When File is selected in upload control, it will update the span label under it.

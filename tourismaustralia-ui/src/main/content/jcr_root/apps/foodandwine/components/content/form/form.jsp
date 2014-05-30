@@ -186,24 +186,27 @@
 			</div>
 			<div class="field-container">
 				<div class="description-box">
-					<h4 class="description-box-headline">Description</h4>
+					<h4 class="description-box-headline"><strong>Description</strong></h4>
 					<p class="description-box-copy">
-						<em>Write a short description of what your business does best</em>
+						<em>Please tell us in 100 - 300 words, about the best food and wine experience that your business has to offer. <a href="/content/dam/food-and-wine/pdf/TAIM8585-RA-Website-how-to-guide-A4.pdf" target="_blank">Click here to see a great example.</a><br/>Please write your business description directly in this box. If you have used Microsoft Word to write your business description, please copy and paste into Notepad before inserting the text in to this box.</em>
 					</p>
 					<textarea class="description-box-input-field"
 						name="businessDescription" id="businessDescription" rows="4"
 						placeholder="..."></textarea>
 				</div>
 			</div>
-			
+
 			<div class="field-container">
                 <div class="description-box description-box-outer">
                     <h4 class="description-box-headline"><strong>Upload image(s)</strong></h4>
                     <p class="description-box-copy">
+                    	<em>Please upload the best photos of your business' food and wine experience. You can upload up to 5 photos simply by clicking the "Upload More" link.</em>
+                    </p>
+                    <p class="description-box-copy">
                         <em>Jpeg, Gif or PNG - 5mb file limit. Your image should be at least 600 x 600px</em>
                     </p>
 
-                    
+
 					<div class="image-uploader">
     					<div class="image-uploader-item">
         					<label class="image-uploader-label" for="imageupload">Upload Image</label>
@@ -216,7 +219,7 @@
         					<div class="description-box">
             					<h4 class="description-box-headline"><strong>Image caption</strong></h4>
             					<p class="description-box-copy">
-                					<em>Write a short description about your photo</em>
+                					<em>Please write a short description telling us what your photos are showing.</em>
             					</p>
             					<textarea class="description-box-input-field" name="photoDescription0" rows="4" placeholder="..."></textarea>
         					</div>
@@ -228,10 +231,32 @@
 				</div>
 			</div>
 		</div>
-			
+
+            <div class="field-container">
+                <div class="description-box description-box-outer">
+                    <h4 class="description-box-headline"><strong>Video</strong></h4>
+                    <p class="description-box-copy">
+                        <em>If there's a YouTube video you'd like to include for your business experience, then please copy and paste the YouTube video URL.</em>
+                    </p>
+                    <div class="input-field" data-type="optional">
+                        <div class="col-xs-4">
+                            <label class="input-field-label" for="text">
+                                <p>
+                                    <strong>Video URL</strong>
+                                </p>
+                            </label>
+                        </div>
+                        <div class="col-xs-8">
+                            <input class="input-field-input" type="text" name="videoUrl"
+                                   id="videoUrl" placeholder="E.g. www.youtube.com/myvideo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
 			<div class="field-container">
 				<div class="categories-box">
-					<h4 class="categories-box-headline">Categories*</h4>
+					<h4 class="categories-box-headline"><strong>Categories*</strong></h4>
 					<p class="categories-box-copy">
 						<em>Select <strong>one</strong> or <strong>two</strong>
 							categories that best reflect your business:
@@ -252,7 +277,7 @@
 						<div class="col-xs-12">
 						<div class="category-item-container">
 							<input id="category-restaurants" type="checkbox"
-								class="category-input"> 
+								class="category-input">
 							<label for="category-restaurants">
 								<div class="category-item">
 									<span class="icon-round"> <img
@@ -261,8 +286,8 @@
 										alt="" /> <img class='category-image-dark'
 										src="/etc/designs/foodandwine/clientlibs/imgs/base/categories/category-icon-restaurants-dark.png"
 										alt="" />
-									</span> 
-									<span class="category-title"> Restaurants </span> 
+									</span>
+									<span class="category-title"> Restaurants </span>
 									<span class="category-description">${form.restaurantDescription } </span>
 								</div>
 							</label>
@@ -277,7 +302,7 @@
 									</span> <span class="category-title"> Wine </span> <span
 										class="category-description"> ${form.wineStoryDescription } </span>
 								</div>
-							</label> 
+							</label>
 							<input id="category-produce" type="checkbox"
 								class="category-input"> <label for="category-produce">
 								<div class="category-item">
@@ -290,7 +315,7 @@
 									</span> <span class="category-title"> Produce </span> <span
 										class="category-description"> ${form.produceDescription } </span>
 								</div>
-							</label> 
+							</label>
 							<input id="category-events" type="checkbox"
 								class="category-input"> <label for="category-events">
 								<div class="category-item">
@@ -316,7 +341,7 @@
 									</span> <span class="category-title"> People </span> <span
 										class="category-description"> ${form.peopleDescription } </span>
 								</div>
-							</label> 
+							</label>
 							<input id="category-experiences" type="checkbox"
 								class="category-input"> <label
 								for="category-experiences">
@@ -331,8 +356,8 @@
 										class="category-description"> ${form.experiencesDescription } </span>
 								</div>
 							</label>
-							
-							
+
+
 							 <input id="category-seafood" type="checkbox"
 								class="category-input"> <label for="category-seafood">
 								<div class="category-item">
@@ -357,21 +382,6 @@
 				</div>
 			</div>
 
-			<div class="field-container">
-				<div class="input-field" data-type="optional">
-					<div class="col-xs-4">
-						<label class="input-field-label" for="text">
-							<p>
-								<strong>Video URL</strong>
-							</p>
-						</label>
-					</div>
-					<div class="col-xs-8">
-						<input class="input-field-input" type="text" name="videoUrl"
-							id="videoUrl" placeholder="E.g. www.youtube.com/myvideo">
-					</div>
-				</div>
-			</div>
 			<!--checkbox -->
 			<div class="field-container terms-conditions">
 				<div class="input-field input-field-checkbox form-agree-container"
@@ -396,11 +406,11 @@
 					<div class="col-xs-12">
 				    	<p class="input-field-validation-alert">
                            Please accept the terms and conditions
-                       	</p>					
+                       	</p>
 					</div>
 				</div>
 			</div>
-			
+
 			<div class="field-container terms-conditions">
 				<div class="input-field input-field-checkbox form-agree-container"
 					data-type="checkbox">
@@ -410,14 +420,14 @@
 							for="additionalcheckbox" name="demo_lbl_2" class="checkbox-label">${form.checkboxTitle } <sup></sup>
 						</label>
 						<!-- Checkbox powered by CssCheckbox.com -->
-							${form.checkboxDescription } 
+							${form.checkboxDescription }
 					</fieldset>
 
 					<span class="input-field-validation-icon "></span>
 					<div class="col-xs-12">
 				    	<p class="input-field-validation-alert">
-                           ${form.validationMessage} 
-                       	</p>					
+                           ${form.validationMessage}
+                       	</p>
 					</div>
 				</div>
 			</div>

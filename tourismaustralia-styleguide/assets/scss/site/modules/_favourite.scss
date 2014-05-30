@@ -41,7 +41,7 @@
     position: relative;
     margin-left: 64px;
     display: inline-block;
-    margin-right: 0;
+  margin-right: .8em;
 }
 
 .favourite-icon {
@@ -109,7 +109,7 @@
   margin-bottom: 1.5em;
   @include breakpoint(lg) {
     float: left;
-    width: 50%;
+    width: 53%;
     margin-bottom: 0;
     text-align: left;
   }
@@ -122,7 +122,7 @@
   }
   @include breakpoint(lg) {
     float: right;
-    max-width: 50%;
+    max-width: 47%;
     position: relative;
     text-align: right;
     //padding-top: pxtoem(51px);

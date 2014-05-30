@@ -27,7 +27,7 @@
     });
 
     $(w).on("debouncedresize", function () {
-        (window).trigger("scroll");
+        $(window).trigger("scroll");
     });
 
     $(w).load(function () {

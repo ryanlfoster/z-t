@@ -43,3 +43,17 @@
         border: 0;
     }
 }
+
+.vis-visible-xs {
+  display: block;
+  @include breakpoint(sm) {
+    display: none;
+  }
+}
+
+.vis-hidden-xs {
+  display: none;
+  @include breakpoint(sm) {
+    display: block;
+  }
+}

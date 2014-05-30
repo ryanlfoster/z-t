@@ -1,3 +1,17 @@
 .iframe-livestream{
   @include vertical-spacing-responsive('large','large');
 }
+
+.iframe-livestream-xs{
+  width: 100%;
+  max-width: 290px;
+  margin:0 auto;
+  height: 400px;
+}
+
+.iframe-livestream-sm{
+  width: 100%;
+  max-width: 450px;
+  margin:0 auto;
+  height: 400px;
+} 

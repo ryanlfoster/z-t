@@ -12,7 +12,6 @@
   @include vertical-spacing-responsive('standard','zero');
 }
 
-
 .search-result-count{
   text-align: center;
   @include vertical-spacing-responsive('standard','standard',17px,0);
@@ -93,6 +92,22 @@
     padding: 1em 2em;
   }
 }
+
+.search-results-category-icon .icon-generic {
+  
+  @include breakpoint(md){
+    margin: 0 6px 0 6px;
+  }
+}
+
+.search-results-category-icon .logo-generic {
+  
+  @include breakpoint(md){
+    margin: pxtoem(16px) 0 0 0;
+    width: pxtoem(65px);
+  }
+}
+
 .search-favourite {
   display: block;
   text-align: center;
@@ -131,6 +146,34 @@
   }
   @include breakpoint(lg){
     text-align: right;
+    padding-left: 0;
+  }
+}
+
+.search-contact-details {
+  display: block;
+  text-align: center;
+  padding: 0em 2em 2em;
+
+  @include breakpoint(md){
+    vertical-align: top;
+    padding: 0 pxtoem(20px) pxtoem(20px);
+  }
+
+  @include breakpoint(lg){
+    display: table-cell;
+    width: 210px;
+    vertical-align: top;
+    padding: pxtoem(48px) pxtoem(20px) pxtoem(20px) 0;
+  }
+}
+
+.search-contact-details p {
+  @include breakpoint(md){
+    text-align: left;
+    padding-left: pxtoem(108px);
+  }
+  @include breakpoint(lg){
     padding-left: 0;
   }
 }
@@ -174,6 +217,7 @@
   cursor: pointer;
 }
 .search-results-list {
+  padding-bottom:  1em;
 }
 
 .search-results-copy-container {
@@ -234,6 +278,19 @@
   @include breakpoint(md){
     font-size: .8em;
     top: pxtoem(-10px);
+  }
+}
+
+.search-result-atdw-link {
+  text-align: center;
+}
+
+.search-result-atdw-link .mosaic-media img {
+  width: 50%;
+  margin: 0 auto;
+
+  @include breakpoint(md){
+    width: 100%;
   }
 }
 

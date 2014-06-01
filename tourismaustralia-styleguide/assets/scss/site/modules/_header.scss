@@ -206,6 +206,11 @@ $navigation-bar-height: pxtoem(90px);
     // Mobile & Defaults...
     background-color: $arrival-bar-bg;
 
+    .suplimentary-masthead {
+        padding-top:10px;
+        margin-left: -5px;
+    }
+
     .nav-bar-left li {
 
         display: inline-block;
@@ -233,7 +238,7 @@ $navigation-bar-height: pxtoem(90px);
 
     .header-byline {
         margin: pxtoem(12px) 0;
-        text-align: center;
+        text-align: left;
         font-size: pxtoem(14px);
 
         .l-nowrap {
@@ -259,6 +264,10 @@ $navigation-bar-height: pxtoem(90px);
 
     // Tablet...
     @media (min-width: $screen-sm-min) {
+
+        .suplimentary-masthead {
+            display:none;
+        }
 
         .header-byline br {
             display: none;

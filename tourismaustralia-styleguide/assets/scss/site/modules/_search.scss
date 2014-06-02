@@ -50,6 +50,10 @@
 .search-results-container {
   position: relative;
   min-height: pxtoem(166px);
+  @include breakpoint(md){
+    display: table;
+    width: 100%;
+  }
 }
 .search-results-copy p {
   margin: .35em 0;
@@ -91,6 +95,9 @@
     display: table-cell;
     padding: 1em 2em;
   }
+  @include breakpoint(lg){
+    min-width: 127px;
+  }
 }
 
 .search-results-category-icon .icon-generic {
@@ -131,6 +138,7 @@
   @include breakpoint(lg){
     display: table-cell;
     width: 210px;
+    min-width: 210px;
     vertical-align: bottom;
     text-align: right;
     padding: 0 pxtoem(20px) pxtoem(20px) 0;
@@ -163,6 +171,7 @@
   @include breakpoint(lg){
     display: table-cell;
     width: 210px;
+    min-width: 210px;
     vertical-align: top;
     padding: pxtoem(48px) pxtoem(20px) pxtoem(20px) 0;
   }
@@ -221,11 +230,13 @@
 }
 
 .search-results-copy-container {
-  display: table-cell;
+  display: block;
   padding: 1em !important;
   @include breakpoint(md){
+    display: table-cell;
     vertical-align: top;
     padding-top: 2em !important;
+    width: 100%;
   }
 }
 

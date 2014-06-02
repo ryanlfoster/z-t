@@ -34,7 +34,11 @@
     padding-right: 1em !important;
   }
 }
-
+.dreamtrip-grid .search-results-container {
+  @include breakpoint(md){
+    display: block !important;
+  }
+}
 .dreamtrip-shared  {
   text-align: center;
   @include breakpoint(md) {

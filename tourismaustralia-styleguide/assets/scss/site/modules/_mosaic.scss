@@ -412,12 +412,16 @@
   }
 }
 .mosaic-3column-front {
+
   img {
     width: 50%;
   }
   p {
     line-height: 13px;
-    font-size: 13px;
+    font-size: pxtoem(13px);
+    margin-top: 12px;
+    margin-left: 5px;
+    margin-right: 5px;
   }
   @include breakpoint(sm) {
     img {
@@ -425,16 +429,16 @@
     }
     p {
       line-height: 15px;
-      font-size: 15px;
+      font-size: pxtoem(15px);
     }
   }
   @include breakpoint(md) {
     img {
-      width: initial;
+      width: 50%;
     }
     p {
       line-height: 12px;
-      font-size: 12px;
+      font-size: pxtoem(12px);
     }
   }
   // needs custom break points to change font size
@@ -444,7 +448,8 @@
     }
     p {
       line-height: 15px;
-      font-size: 14px;
+      font-size: pxtoem(14px);
+      margin-top: 20px;
     }
   }
 }

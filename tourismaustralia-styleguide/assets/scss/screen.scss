@@ -1,10 +1,9 @@
 /*breakpoint disabler for IE8*/
 $breakpoint-no-queries: false;
 
-@import "compass/css3/font-face";
-
 @import "variables";
 
+// using font-face, border-radius, box-shadow
+@import "compass/css3/";
+
 @import "site/all";
-
-

@@ -7,14 +7,8 @@ $breadcrumbAnchorColour: #00535e !default;
     padding: 0;
     text-align: left;
 
-    /*
-    @include breakpoint(sm){
-      text-align: inherit;
-    }
-    */
-
     color: $breadcrumbColour;
-    font-family: "ProximaNova Semi Bold Italic";
+    font-family: $font-family-breadcrumb;
 
     @include breakpoint(sm) {
         text-align: center;
@@ -32,15 +26,4 @@ $breadcrumbAnchorColour: #00535e !default;
 
 .breadcrumb > li {
     padding-right: .5em;
-}
-
-.breadcrumb > li:after {
-    //content: "/";
-    //margin-left: 0.25em;
-}
-
-.breadcrumb > li:first-child:after,
-.breadcrumb > li:last-child:after {
-    //content: "";
-    //margin-left: 0em;
 }

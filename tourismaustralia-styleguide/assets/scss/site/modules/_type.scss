@@ -198,15 +198,6 @@
     font-style: italic;
   }
 }
-.type-font-feature {
-  font-family: $font-family-feature;
-  strong{
-    font-weight: bold;
-  }
-  em{
-    font-style: italic;
-  }
-}
 
 //**********************
 // Type styles:
@@ -227,15 +218,11 @@
   margin-bottom: pxtoem(3px);
 }
 .type-category {
-   line-height: pxtolineheightem(18px, 24px);
-   color: $type-category-colour;
-   margin-bottom: pxtoem(2px);
- }
-
-.type-hero-image {
-  @extend .type-font-feature;
-  letter-spacing: pxtoletterspacingem(-10);
+  line-height: pxtolineheightem(18px, 24px);
+  color: $type-category-colour;
+  margin-bottom: pxtoem(2px);
 }
+
 .type-intro-copy{
   font-family: $font-family-base-i;
   font-size: pxtoem(22px);

@@ -78,7 +78,7 @@
 }
 .footer-heading{
   margin: 0 0 pxtoem(15px) 0;
-  font-family: "TheSanB5Pla", Helvetica, Arial, sans-serif;
+  font-family: $font-family-footer-heading;
   font-size: pxtoem(16px);
   padding: 0;
   color: #FFF;
@@ -106,7 +106,7 @@
   background: #000;
 }
 .footer-social-heading {
-  font-family: "TheSanB5Pla", Helvetica, Arial, sans-serif;
+  font-family: $font-family-footer-heading;
   font-size: pxtoem(16px);
   padding: 0;
   color: #FFF;

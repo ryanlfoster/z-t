@@ -264,7 +264,7 @@
             $(scope.element).addClass('is-open');
         }
         // force no scroll while the nav is open... this doesn't work on mobile...
-        $('html, body').css({'overflow': 'hidden'});
+        //$('html, body').css({'overflow': 'hidden'});
     };
 
     /// Force Redraw...
@@ -292,10 +292,15 @@
 
     // Toggle Nav Panel
     Plugin.prototype.toggleNavPanel = function (scope, elm) {
-         if (elm.closest('.has-children').is('.is-open')) {
-            elm.closest('.has-children').removeClass('is-open');
+        var $navPanel = $(elm.closest('.nav-bar-panel-nav'));
+        if (elm.closest('.has-children').is('.is-open')) {
+            elm.closest('.has-children').removeClass('is-open').find('.has-children').removeClass('is-open');
         } else {
-            $(scope.element).find('.has-children').removeClass('is-open');
+            if ( $navPanel.find('.has-children').length ) {
+                $navPanel.find('.has-children').removeClass('is-open');
+            } else {
+                $(scope.element).find('.has-children').removeClass('is-open');
+            }
             elm.closest('.has-children').addClass('is-open');
         }
         scope.forceRedraw(scope);

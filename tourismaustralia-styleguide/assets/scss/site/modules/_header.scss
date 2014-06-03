@@ -824,6 +824,7 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
         .has-children.is-open > a {
             background-color: $nav-mobile-bot-links-bg;
         }
+
         .has-children.is-open > a {
           .icon-arrow-down:before {
             // icon-arrow-up
@@ -831,15 +832,6 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
           }
         }
 
-        .nav-bar-nav {
-            .has-children.is-open > .nav-bar-panel,
-            .has-children a:focus + .nav-bar-panel,
-            .has-children:hover > .nav-bar-panel {
-                background-color: $nav-mobile-bot-links-dd-bg;
-            }
-        }
-
-        // search panel
         .nav-bar-nav {
             .has-children.is-open > .nav-bar-panel,
             .has-children a:focus + .nav-bar-panel,
@@ -911,7 +903,7 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
       content: "\e62c";
     }
 
-    .has-children.is-open .nav-bar-panel-container {
+    .has-children.is-open > .nav-bar-panel > .nav-bar-panel-container {
         max-height: 1000px;
         @include transition(max-height, 0.25s, ease-in, 0);
     }
@@ -1181,6 +1173,9 @@ $nav-tool-bar-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAA
         text-decoration: none;
         display: block;
         font-size: 15px;
+        @media (max-width: $screen-xs-max) {
+            background-color: $nav-mobile-bot-links-dd-bg;
+        }
     }
 }
 

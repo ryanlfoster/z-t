@@ -122,7 +122,7 @@ public class StateMosaic {
 				if (tagName.equalsIgnoreCase("people")) {
 					people = true;
 				}
-				if (tagName.equalsIgnoreCase("restaurant")) {
+				if (tagName.equalsIgnoreCase("restaurants")) {
 					restaurant = true;
 				}
 				if (tagName.equalsIgnoreCase("experiences")) {

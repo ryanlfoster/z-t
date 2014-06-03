@@ -4,10 +4,10 @@ title: Header MM Map
 
 <div class="megamenu-panel megamenu-map">
     <ul class="nav-bar-panel-nav">
-        <li class="megamenu-map-filters is-active">
-            <div class="megamenu-components">
-                <a class="megamenu-map-filter filter-1" href="/iconic">Iconic destinations</a>
-                <ul class="megamenu-map-markers">
+        <li class="megamenu-map-filters is-active has-children">
+            <div class="megamenu-components nav-bar-panel">
+                <a class="megamenu-map-filter filter-1 nav-toggle-panel" href="/iconic">Iconic destinations <span class="icon-16 icon-arrow-down icon-font-arrow_down" aria-hidden="true"></span></a>
+                <ul class="megamenu-map-markers nav-bar-panel-container">
 
                     {{#parseJSON '{
                         "class": "australianalps",
@@ -157,10 +157,10 @@ title: Header MM Map
 
             </div>
         </li>
-        <li class="megamenu-map-filters">
-            <div class="megamenu-components">
-                <a class="megamenu-map-filter filter-2" href="/cities">Cities</a>
-                <ul class="megamenu-map-markers">
+        <li class="megamenu-map-filters has-children">
+            <div class="megamenu-components nav-bar-panel">
+                <a class="megamenu-map-filter filter-2 nav-toggle-panel" href="/cities">Cities <span class="icon-16 icon-arrow-down icon-font-arrow_down" aria-hidden="true"></span></a>
+                <ul class="megamenu-map-markers nav-bar-panel-container">
 
                     {{#parseJSON '{
                         "class": "adelaide",
@@ -264,10 +264,10 @@ title: Header MM Map
                 </ul>
             </div>
         </li>
-        <li class="megamenu-map-filters">
-            <div class="megamenu-components">
-                <a class="megamenu-map-filter filter-3" href="/states">States &amp; Territories</a>
-                <ul class="megamenu-map-markers">
+        <li class="megamenu-map-filters has-children">
+            <div class="megamenu-components nav-bar-panel">
+                <a class="megamenu-map-filter filter-3 nav-toggle-panel" href="/states">States &amp; Territories <span class="icon-16 icon-arrow-down icon-font-arrow_down" aria-hidden="true"></span></a>
+                <ul class="megamenu-map-markers nav-bar-panel-container">
 
                     {{#parseJSON '{
                         "class": "act",

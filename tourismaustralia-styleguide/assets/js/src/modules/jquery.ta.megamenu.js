@@ -264,7 +264,7 @@
             $(scope.element).addClass('is-open');
         }
         // force no scroll while the nav is open... this doesn't work on mobile...
-        //$('html, body').css({'overflow': 'hidden'});
+        $('html, body').css({'overflow': 'hidden'});
     };
 
     /// Force Redraw...

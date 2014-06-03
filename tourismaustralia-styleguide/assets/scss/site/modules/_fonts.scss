@@ -2,27 +2,17 @@
 // Included fonts:
 //**********************
 
-@include font-face("ProximaNova Light", font-files("ProximaNova-Light.svg", "ProximaNova-Light.woff", "ProximaNova-Light.otf"), "ProximaNova-Light.eot");
-
-@include font-face("ProximaNova Regular Italic", font-files("ProximaNova-RegularIt.svg", "ProximaNova-RegularIt.woff", "ProximaNova-RegularIt.otf"), "ProximaNova-RegularIt.eot");
-
 @include font-face("ProximaNova Regular", font-files("ProximaNova-Regular.svg", "ProximaNova-Regular.woff", "ProximaNova-Regular.otf"), "ProximaNova-Regular.eot");
 
 //in Win 8.1 select text with svg font 'ProximaNova Regular' is not rendered properly for select element
 @include font-face("ProximaNova Regular Select", font-files("ProximaNova-Regular.svg#ProximaNova Regular", "ProximaNova-Regular.woff", "ProximaNova-Regular.otf"), "ProximaNova-Regular.eot");
 
+@include font-face("ProximaNova Regular Italic", font-files("ProximaNova-RegularIt.svg", "ProximaNova-RegularIt.woff", "ProximaNova-RegularIt.otf"), "ProximaNova-RegularIt.eot");
+
 @include font-face("ProximaNova Bold", font-files("ProximaNova-Bold.svg", "ProximaNova-Bold.woff", "ProximaNova-Bold.otf"), "ProximaNova-SemiboldIt.eot");
 
-//@include font-face("ProximaNova Bold Italic", font-files("ProximaNova-BoldIt.svg", "ProximaNova-BoldIt.woff", "ProximaNova-BoldIt.otf"), "ProximaNova-BoldIt.eot");
-
-@include font-face("ProximaNova Semi Bold Italic", font-files("ProximaNova-SemiboldIt.svg", "ProximaNova-SemiboldIt.woff", "ProximaNova-SemiboldIt.otf"), "ProximaNova-SemiboldIt.eot");
-
-@include font-face("TheSanB5Pla", font-files("TheSanB5Pla.svg", "TheSanB5Pla.woff", "TheSanB5Pla.otf"), "TheSanB5Pla.eot");
-
-@include font-face("Mission Gothic Light Italic", font-files("Mission Gothic Light Italic.svg", "Mission Gothic Light Italic.woff", "Mission Gothic Light Italic.otf"), "Mission Gothic Light Italic.eot");
+@include font-face("ProximaNova Bold Italic", font-files("ProximaNova-BoldIt.svg", "ProximaNova-BoldIt.woff", "ProximaNova-BoldIt.otf"), "ProximaNova-BoldIt.eot");
 
 @include font-face("TAheadline", font-files("TAheadline.svg", "TAheadline.woff", "TAheadline.otf"), "TAheadline.eot");
-
-@include font-face("GearedSlab-Light", font-files("GearedSlab-Light.svg", "GearedSlab-Light.woff", "GearedSlab-Light.otf"), "GearedSlab-Light.eot");
 
 @include font-face("TAIcons", font-files("TAIcons.svg", "TAIcons.woff", "TAIcons.otf"), "TAIcons.eot");

@@ -13,6 +13,26 @@ module.exports.register = function(Handlebars, options, params) {
         return options.fn(JSON.parse(data));
     });
 
+    // Render a partial and pass in some data, also inherits data from ancestor parsers
+    // Example Usage:
+    //      {{#parseJSONDeepLink '{"colors": {"primary": "#ffffff", "secondary": "#000000"}}'}}
+    //
+    //          <div style="color:{{colors.primary}}">
+    //              I can use my color object right here in this page...
+    //          </div>
+    //
+    //          {{#parseJSONDeepLink '{"title": "Hello World", "description": "I will inherit the colors object from the previous parseJSONDeepLink..."}'}}
+    //              {{> partial}}
+    //          {{/parseJSONDeepLink}}
+    //
+    //      {{/parseJSONDeepLink}}
+    //
+    //  partial.hbs:
+    //      <div style="color:{{colors.primary}}; background-color:{{colors.secondary}}">
+    //          <h4>{{title}}</h4>
+    //          <p>{{description}}</p>
+    //      </div>
+    //
     Handlebars.registerHelper('parseJSONDeepLink', function (data, options)  {
         //console.log(this, data);
 
@@ -52,7 +72,7 @@ module.exports.register = function(Handlebars, options, params) {
                 var sourceProperty = source[ property ];
 
                 if ( typeof sourceProperty === 'object' ) {
-                    target[ property ] = util.merge( target[ property ], sourceProperty );
+                    target[ property ] = merge( target[ property ], sourceProperty );
                     continue;
                 }
 

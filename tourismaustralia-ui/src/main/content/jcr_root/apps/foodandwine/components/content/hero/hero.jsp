@@ -9,16 +9,17 @@
 	<div class="faw-hero-home-bg fullwidth-bg">
 		<div class="responsive-image" data-picture=""
 			data-alt="${hero.imageAltTag}">
-			<div data-src="${hero.imagePath}.adapt.1663.low.jpg" data-media="(min-width: 1px)"></div>
-			<div data-src="${hero.imagePath}.adapt.1663.medium.jpg" data-media="(min-width: 481px)"></div>
-			<div data-src="${hero.imagePath}.adapt.1663.high.jpg" data-media="(min-width: 769px)"></div>
+			<div data-src="${hero.imagePath}.adapt.480.low.jpg" data-media="(min-width: 1px)"></div>
+			<div data-src="${hero.imagePath}.adapt.720.medium.jpg" data-media="(min-width: 481px)"></div>
+			<div data-src="${hero.imagePath}.adapt.720.high.jpg" data-media="(min-width: 769px)"></div>
 			<div data-src="${hero.imagePath}.adapt.1663.high.jpg" data-media="(min-width: 993px)"></div>
 			<noscript>
 				<img src='${hero.imagePath}.adapt.1663.high.jpg' alt='${hero.imageAltTag}'>
 			</noscript>
 		</div>
-		<!--Will show in IE8 -->
+        <!--[if lte IE 8]>
 		<img src='${hero.imagePath}.adapt.1663.high.jpg' alt='${hero.imageAltTag}' class="base-show-in-ie8">
+        <![endif]-->
 	</div>
 	<div class="faw-hero-home-container">
 		<div class="icon-logo-withlines-container">

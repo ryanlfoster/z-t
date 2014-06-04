@@ -79,7 +79,7 @@ public class Form {
 	private String checkboxTitle;
 	
 	@DialogField(fieldLabel="Description", tab=3)
-	@RichTextEditor(lists = @Lists(indent = false, ordered = false, outdent = false, unordered = false), justify = @Justify(justifycenter = false, justifyleft = false, justifyright = false), styles = @Styles(styles = @Style(cssName = "checkbox-description", text = "checkbos description")), format = @Format(bold = true, underline = true, italic = false))
+	@RichTextEditor(lists = @Lists(indent = false, ordered = false, outdent = false, unordered = false), justify = @Justify(justifycenter = false, justifyleft = false, justifyright = false), styles = @Styles(styles = @Style(cssName = "checkbox-description", text = "checkbox description")), format = @Format(bold = true, underline = true, italic = false))
 	private  String checkboxDescription;
 	
 	@DialogField(fieldLabel="Validation Message",tab=3)

@@ -9,8 +9,8 @@
 		<div class="responsive-image" data-picture="" data-alt="${exploreBy.imageAltTag}" >
 			<div data-src="${exploreBy.imagePath}.adapt.480.low.jpg" data-media="(min-width: 1px)"></div>
 			<div data-src="${exploreBy.imagePath}.adapt.720.medium.jpg" data-media="(min-width: 481px)"></div>
-			<div data-src="${exploreBy.imagePath}.adapt.683.high.jpg" data-media="(min-width: 769px)"></div>
-			<div data-src="${exploreBy.imagePath}.adapt.683.high.jpg" data-media="(min-width: 993px)"></div>
+			<div data-src="${exploreBy.imagePath}.adapt.720.high.jpg" data-media="(min-width: 769px)"></div>
+			<div data-src="${exploreBy.imagePath}.adapt.1663.high.jpg" data-media="(min-width: 993px)"></div>
 			<noscript>
 				<img src='${exploreBy.imagePath}.adapt.1663.high.jpg'>
 			</noscript>

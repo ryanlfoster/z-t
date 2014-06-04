@@ -7,9 +7,9 @@
 <div class='faw-places faw-bg-full-container'>
     <div class="l-display-none-md l-position-absolute fullwidth-bg" data-image-vertical-alignment="bottom" data--500-top="-webkit-transform: translate(0,15%);" data-500-bottom="-webkit-transform: translate(0,-15%);">
         <div class="responsive-image" data-picture="" data-alt="" >
-            <div data-src="${stateHero.imagePath}.adapt.1663.low.jpg" data-media="(min-width: 1px)"></div>
-            <div data-src="${stateHero.imagePath}.adapt.1663.medium.jpg" data-media="(min-width: 481px)"></div>
-            <div data-src="${stateHero.imagePath}.adapt.1663.high.jpg" data-media="(min-width: 769px)"></div>
+            <div data-src="${stateHero.imagePath}.adapt.480.low.jpg" data-media="(min-width: 1px)"></div>
+            <div data-src="${stateHero.imagePath}.adapt.720.medium.jpg" data-media="(min-width: 481px)"></div>
+            <div data-src="${stateHero.imagePath}.adapt.720.high.jpg" data-media="(min-width: 769px)"></div>
             <div data-src="${stateHero.imagePath}.adapt.1663.high.jpg" data-media="(min-width: 993px)"></div>
             <noscript>
                 <img src='${stateHero.imagePath}.adapt.1663.high.jpg' alt=''>

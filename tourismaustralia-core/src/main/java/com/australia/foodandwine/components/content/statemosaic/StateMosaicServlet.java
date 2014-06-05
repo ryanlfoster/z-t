@@ -161,6 +161,9 @@ public class StateMosaicServlet extends SlingAllMethodsServlet {
 
 				String templateName = articlePage.getProperties().get("cq:template", "");
 				templateName = templateName.substring(templateName.lastIndexOf("/") + 1);
+				String image = null;
+				Boolean hasDefaultImage = true;
+
 				if (!templateName.equals("facebookpage") && (!templateName.equals("instagrampage"))
 					&& (!templateName.equals("twitterpage"))) {
 					templateName = null;
@@ -171,6 +174,8 @@ public class StateMosaicServlet extends SlingAllMethodsServlet {
 						messageText = pageProperties.get("postText", StringUtils.EMPTY);
 					}
 					if (templateName.equals("twitterpage")) {
+						//Twitter was designed to be a blue square
+						image = "/etc/designs/foodandwine/clientlibs/imgs/blue1x1.png";
 						messageText = pageProperties.get("tweet", StringUtils.EMPTY);
 					}
 					if (templateName.equals("instagrampage")) {
@@ -181,12 +186,12 @@ public class StateMosaicServlet extends SlingAllMethodsServlet {
 				String title = articlePage.getTitle();
 				String description = articlePage.getDescription();
 				String pagePth = request.getResourceResolver().map(articlePage.getPath()) + ".html";
-				String image = null;
 				Resource jcrResource = articlePage.adaptTo(Resource.class).getChild(JcrConstants.JCR_CONTENT);
 				Image pageImage = new Image(jcrResource, "image");
 				if (pageImage != null && pageImage.hasContent()) {
 					image = pageImage.getPath() + ".img.jpg";
-				} else {
+					hasDefaultImage = false;
+				} else if(image == null) {
 					image = "/etc/designs/foodandwine/clientlibs/imgs/blank1x1.png";
 				}
 				StateMosaiacProperties bean = new StateMosaiacProperties(title, description, image, pagePth,
@@ -194,6 +199,8 @@ public class StateMosaicServlet extends SlingAllMethodsServlet {
 				bean.setMessageText(messageText);
 				bean.setPostLink(postLink);
 				bean.setUserName(userName);
+				bean.setHasDefaultImageFlag(hasDefaultImage);
+
 				if (StringUtils.endsWith(postLink, ".html")) {
 					bean.setLinkChecker("true");
 				}

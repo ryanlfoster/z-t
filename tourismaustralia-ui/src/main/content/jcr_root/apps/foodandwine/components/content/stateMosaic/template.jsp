@@ -6,7 +6,7 @@
 			href="{{postLink}}" title="" class="mosaic-item mosaic-item-{{../../../../type}}"
 			target="_blank"> {{/if}} <img class='mosaic-item-image'
 				src="{{image}}" alt="" width="100%" /> <span
-				class="mosaic-item-description"> <span
+				class="mosaic-item-description {{#if hasDefaultImageFlag}}{{templateName}}{{/if}}"> <span
 					class="mosaic-item-description-head type-font-feature">{{title}}</span>
 					<span class="mosaic-item-description-sub">{{stateTag}}</span> <span
 					class="mosaic-item-description-copy"> {{description}} <br>
@@ -32,7 +32,7 @@
 	<div class="col-xs-12 {{#if ../../../isGrid}}col-md-6{{else}}col-reset-md-6{{/if}} 2">
 		<a href="{{pagePath}}" class="mosaic-item mosaic-item-{{../../../type}}"
 			title=""> <img class='mosaic-item-image' src="{{image}}" alt=""
-			width="100%" /> <span class="mosaic-item-description"> <span
+			width="100%" /> <span class="mosaic-item-description {{#if hasDefaultImageFlag}}{{templateName}}{{/if}}"> <span
 				class="mosaic-item-description-head type-font-feature">
 					{{title}} </span> <span class="mosaic-item-description-sub">
 					{{stateTag}} </span> <span class="mosaic-item-description-copy">
@@ -67,7 +67,7 @@
 					href="{{postLink}}" title=""
 					class="mosaic-item mosaic-item-{{../../../../type}}" target="_blank">
 						{{/if}} <img class='mosaic-item-image' src="{{image}}" alt=""
-						width="100%" /> <span class="mosaic-item-description"> <span
+						width="100%" /> <span class="mosaic-item-description {{#if hasDefaultImageFlag}}{{templateName}}{{/if}}"> <span
 							class="mosaic-item-description-head type-font-feature">{{title}}</span>
 							<span class="mosaic-item-description-sub">{{stateTag}}</span> <span
 							class="mosaic-item-description-copy"> {{description}} <br>
@@ -93,7 +93,7 @@
 			<div class="col-xs-12 {{#if ../../../isGrid}}col-sm-6{{else}}col-reset-sm-6{{/if}}">
 				<a href="{{pagePath}}" class="mosaic-item mosaic-item-{{../../../type}}"
 					title=""> <img class='mosaic-item-image' src="{{image}}" alt=""
-					width="100%" /> <span class="mosaic-item-description"> <span
+					width="100%" /> <span class="mosaic-item-description {{#if hasDefaultImageFlag}}{{templateName}}{{/if}}"> <span
 						class="mosaic-item-description-head type-font-feature">
 							{{title}} </span> <span class="mosaic-item-description-sub">
 							{{stateTag}} </span> <span class="mosaic-item-description-copy">
@@ -125,7 +125,7 @@
 					href="{{postLink}}" title=""
 					class="mosaic-item mosaic-item-{{../../../../type}}" target="_blank">
 						{{/if}} <img class='mosaic-item-image' src="{{image}}" alt=""
-						width="100%" /> <span class="mosaic-item-description"> <span
+						width="100%" /> <span class="mosaic-item-description {{#if hasDefaultImageFlag}}{{templateName}}{{/if}}"> <span
 							class="mosaic-item-description-head type-font-feature">{{title}}</span>
 							<span class="mosaic-item-description-sub">{{stateTag}}</span> <span
 							class="mosaic-item-description-copy"> {{description}} <br>
@@ -151,7 +151,7 @@
 			<div class="col-xs-12 {{#if ../../../isGrid}}col-sm-6{{else}}col-reset-sm-6{{/if}}">
 				<a href="{{pagePath}}" class="mosaic-item mosaic-item-{{../../../type}}"
 					title=""> <img class='mosaic-item-image' src="{{image}}" alt=""
-					width="100%" /> <span class="mosaic-item-description"> <span
+					width="100%" /> <span class="mosaic-item-description {{#if hasDefaultImageFlag}}{{templateName}}{{/if}}"> <span
 						class="mosaic-item-description-head type-font-feature">
 							{{title}} </span> <span class="mosaic-item-description-sub">
 							{{stateTag}} </span> <span class="mosaic-item-description-copy">
@@ -183,7 +183,7 @@
 					href="{{postLink}}" title=""
 					class="mosaic-item mosaic-item-{{../../../../type}}" target="_blank">
 						{{/if}} <img class='mosaic-item-image' src="{{image}}" alt=""
-						width="100%" /> <span class="mosaic-item-description"> <span
+						width="100%" /> <span class="mosaic-item-description {{#if hasDefaultImageFlag}}{{templateName}}{{/if}}"> <span
 							class="mosaic-item-description-head type-font-feature">{{title}}</span>
 							<span class="mosaic-item-description-sub">{{stateTag}}</span> <span
 							class="mosaic-item-description-copy"> {{description}} <br>
@@ -210,7 +210,7 @@
 			<div class="col-xs-12 {{#if ../../../isGrid}}col-sm-6{{else}}col-reset-sm-6{{/if}}">
 				<a href="{{pagePath}}" class="mosaic-item mosaic-item-{{../../../type}}"
 					title=""> <img class='mosaic-item-image' src="{{image}}" alt=""
-					width="100%" /> <span class="mosaic-item-description"> <span
+					width="100%" /> <span class="mosaic-item-description {{#if hasDefaultImageFlag}}{{templateName}}{{/if}}"> <span
 						class="mosaic-item-description-head type-font-feature">
 							{{title}} </span> <span class="mosaic-item-description-sub">
 							{{stateTag}} </span> <span class="mosaic-item-description-copy">
@@ -242,7 +242,7 @@
 					href="{{postLink}}" title=""
 					class="mosaic-item mosaic-item-{{../../../../type}}" target="_blank">
 						{{/if}} <img class='mosaic-item-image' src="{{image}}" alt=""
-						width="100%" /> <span class="mosaic-item-description"> <span
+						width="100%" /> <span class="mosaic-item-description {{#if hasDefaultImageFlag}}{{templateName}}{{/if}}"> <span
 							class="mosaic-item-description-head type-font-feature">{{title}}</span>
 							<span class="mosaic-item-description-sub">{{stateTag}}</span> <span
 							class="mosaic-item-description-copy"> {{description}} <br>
@@ -269,7 +269,7 @@
 			<div class="col-xs-12 {{#if ../../../isGrid}}col-sm-6{{else}}col-reset-sm-6{{/if}}">
 				<a href="{{pagePath}}" class="mosaic-item mosaic-item-{{../../../type}}"
 					title=""> <img class='mosaic-item-image' src="{{image}}" alt=""
-					width="100%" /> <span class="mosaic-item-description"> <span
+					width="100%" /> <span class="mosaic-item-description {{#if hasDefaultImageFlag}}{{templateName}}{{/if}}"> <span
 						class="mosaic-item-description-head type-font-feature">
 							{{title}} </span> <span class="mosaic-item-description-sub">
 							{{stateTag}} </span> <span class="mosaic-item-description-copy">
@@ -309,7 +309,7 @@
 					href="{{postLink}}" title=""
 					class="mosaic-item mosaic-item-{{../../../../type}}" target="_blank">
 						{{/if}} <img class='mosaic-item-image' src="{{image}}" alt=""
-						width="100%" /> <span class="mosaic-item-description"> <span
+						width="100%" /> <span class="mosaic-item-description {{#if hasDefaultImageFlag}}{{templateName}}{{/if}}"> <span
 							class="mosaic-item-description-head type-font-feature">{{title}}</span>
 							<span class="mosaic-item-description-sub">{{stateTag}}</span> <span
 							class="mosaic-item-description-copy"> {{description}} <br>
@@ -336,7 +336,7 @@
 			<div class="col-xs-12 {{#if ../../../isGrid}}col-sm-6{{else}}col-reset-sm-6{{/if}} col-md-12 mosaic-ie-100">
 				<a href="{{pagePath}}" class="mosaic-item mosaic-item-{{../../../type}}"
 					title=""> <img class='mosaic-item-image' src="{{image}}"
-					alt="" width="100%" /> <span class="mosaic-item-description">
+					alt="" width="100%" /> <span class="mosaic-item-description {{#if hasDefaultImageFlag}}{{templateName}}{{/if}}">
 						<span class="mosaic-item-description-head type-font-feature">
 							{{title}} </span> <span class="mosaic-item-description-sub">
 							{{stateTag}} </span> <span class="mosaic-item-description-copy">
@@ -369,7 +369,7 @@
 					href="{{postLink}}" title=""
 					class="mosaic-item mosaic-item-{{../../../../type}}" target="_blank">
 						{{/if}} <img class='mosaic-item-image' src="{{image}}" alt=""
-						width="100%" /> <span class="mosaic-item-description"> <span
+						width="100%" /> <span class="mosaic-item-description {{#if hasDefaultImageFlag}}{{templateName}}{{/if}}"> <span
 							class="mosaic-item-description-head type-font-feature">{{title}}</span>
 							<span class="mosaic-item-description-sub">{{stateTag}}</span> <span
 							class="mosaic-item-description-copy"> {{description}} <br>
@@ -396,7 +396,7 @@
 			<div class="col-xs-12 {{#if ../../../isGrid}}col-sm-6{{else}}col-reset-sm-6{{/if}} col-md-12 mosaic-ie-100">
 				<a href="{{pagePath}}" class="mosaic-item mosaic-item-{{../../../type}}"
 					title=""> <img class='mosaic-item-image' src="{{image}}" alt=""
-					width="100%" /> <span class="mosaic-item-description"> <span
+					width="100%" /> <span class="mosaic-item-description {{#if hasDefaultImageFlag}}{{templateName}}{{/if}}"> <span
 						class="mosaic-item-description-head type-font-feature">
 							{{title}} </span> <span class="mosaic-item-description-sub">
 							{{stateTag}} </span> <span class="mosaic-item-description-copy">
@@ -433,7 +433,7 @@
 			href="{{postLink}}" title="" class="mosaic-item mosaic-item-{{../../../../type}}"
 			target="_blank"> {{/if}} <img class='mosaic-item-image'
 				src="{{image}}" alt="" width="100%" /> <span
-				class="mosaic-item-description"> <span
+				class="mosaic-item-description{{#if hasDefaultImageFlag}}{{templateName}}{{/if}}"> <span
 					class="mosaic-item-description-head type-font-feature">{{title}}</span>
 					<span class="mosaic-item-description-sub">{{stateTag}}</span> <span
 					class="mosaic-item-description-copy"> {{description}} <br>
@@ -462,7 +462,7 @@
 	<div class="col-xs-12 {{#if ../../../isGrid}}col-md-6{{else}}col-reset-md-6{{/if}} 11">
 		<a href="{{pagePath}}" class="mosaic-item mosaic-item-{{../../../type}}"
 			title=""> <img class='mosaic-item-image' src="{{image}}" alt=""
-			width="100%" /> <span class="mosaic-item-description"> <span
+			width="100%" /> <span class="mosaic-item-description {{#if hasDefaultImageFlag}}{{templateName}}{{/if}}"> <span
 				class="mosaic-item-description-head type-font-feature">
 					{{title}} </span> <span class="mosaic-item-description-sub">
 					{{stateTag}} </span> <span class="mosaic-item-description-copy">
@@ -502,7 +502,7 @@
 					href="{{postLink}}" title=""
 					class="mosaic-item mosaic-item-{{../../../../type}}" target="_blank">
 						{{/if}} <img class='mosaic-item-image' src="{{image}}" alt=""
-						width="100%" /> <span class="mosaic-item-description"> <span
+						width="100%" /> <span class="mosaic-item-description {{#if hasDefaultImageFlag}}{{templateName}}{{/if}}"> <span
 							class="mosaic-item-description-head type-font-feature">{{title}}</span>
 							<span class="mosaic-item-description-sub">{{stateTag}}</span> <span
 							class="mosaic-item-description-copy"> {{description}} <br>
@@ -530,7 +530,7 @@
 			<div class="col-xs-12 {{#if ../../../isGrid}}col-sm-6{{else}}col-reset-sm-6{{/if}} col-md-12 mosaic-ie-100">
 				<a href="{{pagePath}}" class="mosaic-item mosaic-item-{{../../../type}}"
 					title=""> <img class='mosaic-item-image' src="{{image}}" alt=""
-					width="100%" /> <span class="mosaic-item-description"> <span
+					width="100%" /> <span class="mosaic-item-description {{#if hasDefaultImageFlag}}{{templateName}}{{/if}}"> <span
 						class="mosaic-item-description-head type-font-feature">
 							{{title}} </span> <span class="mosaic-item-description-sub">
 							{{stateTag}} </span> <span class="mosaic-item-description-copy">
@@ -565,7 +565,7 @@
 					href="{{postLink}}" title=""
 					class="mosaic-item mosaic-item-{{../../../../type}}" target="_blank">
 						{{/if}} <img class='mosaic-item-image' src="{{image}}" alt=""
-						width="100%" /> <span class="mosaic-item-description"> <span
+						width="100%" /> <span class="mosaic-item-description {{#if hasDefaultImageFlag}}{{templateName}}{{/if}}"> <span
 							class="mosaic-item-description-head type-font-feature">{{title}}</span>
 							<span class="mosaic-item-description-sub">{{stateTag}}</span> <span
 							class="mosaic-item-description-copy"> {{description}} <br>
@@ -594,7 +594,7 @@
 			<div class="col-xs-12 {{#if ../../../../isGrid}}col-sm-6{{else}}col-reset-sm-6{{/if}} col-md-12 mosaic-ie-100">
 				<a href="{{pagePath}}" class="mosaic-item mosaic-item-{{../../../type}}"
 					title=""> <img class='mosaic-item-image' src="{{image}}" alt=""
-					width="100%" /> <span class="mosaic-item-description"> <span
+					width="100%" /> <span class="mosaic-item-description {{#if hasDefaultImageFlag}}{{templateName}}{{/if}}"> <span
 						class="mosaic-item-description-head type-font-feature">
 							{{title}} </span> <span class="mosaic-item-description-sub">
 							{{stateTag}} </span> <span class="mosaic-item-description-copy">

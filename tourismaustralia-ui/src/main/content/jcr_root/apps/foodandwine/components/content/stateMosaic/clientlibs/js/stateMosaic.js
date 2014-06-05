@@ -12,8 +12,8 @@ $(document).ready(function() {
 		var resourcePath = "/bin/fw/statemosaic.json";
 		var pageTemplate = $this.find(".page").attr('name');
 		if(pageTemplate!="homepage") {
-            stateTag=$this.find('input[name="currentPage"]').val();
-        }
+			stateTag=$this.find('input[name="currentPage"]').val();
+		}
 		var messageText=$this.find(".message").val();
 		var type="grid";
 		$(this).find('.mosaicgridchanger-grid-button').click(function() {
@@ -98,6 +98,7 @@ $(document).ready(function() {
 								return typeof l == r;
 							}
 						}
+
 						if (!operators[operator]) {
 							throw new Error("Handlerbars Helper 'compare' doesn't know the operator " + operator);
 						}
@@ -108,6 +109,11 @@ $(document).ready(function() {
 							return options.inverse(this);
 						}
 					});
+
+					Handlebars.registerHelper('showOverlay', function(templateName, hasDefaultImage, options) {
+						return !(templateName == "twitter" && hasDefaultImage) ? options.fn(this) : options.inverse(this);
+					});
+
 					var template = Handlebars.compile(source);
 					$this.find(".mosaic").append(template(obj));
 				},
@@ -212,6 +218,9 @@ $(document).ready(function() {
 							return options.inverse(this);
 						}
 					});
+					Handlebars.registerHelper('showOverlay', function(templateName, hasDefaultImage, options) {
+						return !(templateName == "twitter" && hasDefaultImage) ? options.fn(this) : options.inverse(this);
+					});
 					var template = Handlebars.compile(source);
 					$this.find(".mosaic").append(template(obj));
 				},
@@ -301,6 +310,9 @@ $(document).ready(function() {
 					} else {
 						return options.inverse(this);
 					}
+				});
+				Handlebars.registerHelper('showOverlay', function(templateName, hasDefaultImage, options) {
+					return !(templateName == "twitter" && hasDefaultImage) ? options.fn(this) : options.inverse(this);
 				});
 				var template = Handlebars.compile(source);
 				$this.find(".mosaic").append(template(obj));

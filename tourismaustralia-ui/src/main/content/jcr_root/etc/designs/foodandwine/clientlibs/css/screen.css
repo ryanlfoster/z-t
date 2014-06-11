@@ -11432,11 +11432,6 @@ input[type=checkbox].checkbox + label.checkbox-label {
 	font-family: "ProximaNova Bold";
 	font-size: 0.875em;
 }
-/* line 83, ../../assets/scss/site/modules/_checkbox.scss */
-.input-field-checkbox p .checkbox-description {
-	font-family: "ProximaNova Regular", Helvetica, Arial, sans-serif;
-	font-size: 0.875em;
-}
 @media (min-width: 480px) {
 	/* line 69, ../../assets/scss/site/modules/_checkbox.scss */
 	.input-field-checkbox p {

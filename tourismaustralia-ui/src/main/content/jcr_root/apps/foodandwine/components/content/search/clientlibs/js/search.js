@@ -84,10 +84,14 @@ $(function() {
 				var template = Handlebars.compile(source);
 				$(".mosaic").empty();
 				$(".mosaic").append(template(obj));
+
 				if (articleCount === undefined) {
 					articleCount = 0;
 				}
-				$(".faw-hero-home-container .form-h3").html("" + articleCount + " Search results for: <strong>" + searchParameter + "</strong>");
+
+				toggleNoResultsMessage(articleCount);
+
+				$(".faw-hero-home-container .form-h3").html("" + articleCount + " search results for: <strong>" + searchParameter + "</strong>");
 
 				if (articleCount <= 10) {
 					$(".type-spacing-120 .btn-secondary").hide();
@@ -150,6 +154,9 @@ $(function() {
 				if (articleCount === undefined) {
 					articleCount = 0;
 				}
+
+				toggleNoResultsMessage(articleCount);
+
 				if (articleCount <= 10) {
 					$(".type-spacing-120 .btn-secondary").hide();
 				} else {
@@ -203,6 +210,9 @@ $(function() {
 				if (articleCount === undefined) {
 					articleCount = 0;
 				}
+
+				toggleNoResultsMessage(articleCount);
+
 				if (articleCount <= 10) {
 					$(".type-spacing-120 .btn-secondary").hide();
 				} else {
@@ -225,6 +235,15 @@ function getParameterByName(name) {
 	name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
 	var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"), results = regex.exec(location.search);
 	return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+}
+
+function toggleNoResultsMessage(articleCount){
+	if(articleCount == 0) {
+		$(".faw-hero-home-container .no-results-message p").addClass("show");
+	}
+	else {
+		$(".faw-hero-home-container .no-results-message p").removeClass("show");
+	}
 }
 
 function interestedSearch(listItem) {

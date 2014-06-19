@@ -17,6 +17,8 @@
 		class="input-field-blank input-field-big input-field-normal-left-border"
 		placeholder="E.g. Cafe Sydney"> <a href="#"
 		class="btn-secondary btn-auto-size">Search</a>
+
+    <span class="no-results-message">${search.noResultsMessage}</span>
 </div>
 
 

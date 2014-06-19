@@ -145,7 +145,7 @@ public class StateMosaiacProperties {
         this.imageOverlay = imageOverlay;
     }
 
-    public Boolean getImageOverlay() {
+    public String getImageOverlay() {
         return imageOverlay;
     }
 }

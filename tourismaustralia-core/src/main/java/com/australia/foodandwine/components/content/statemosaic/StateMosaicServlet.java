@@ -176,7 +176,7 @@ public class StateMosaicServlet extends SlingAllMethodsServlet {
 					}
 					if (templateName.equals("twitterpage")) {
 						//Twitter was designed to be a blue square
-						image = "/etc/designs/foodandwine/clientlibs/imgs/grey1x1.png";
+                        image = "/etc/designs/foodandwine/clientlibs/imgs/grey1x1.png";
                         imageOverlay = "/etc/designs/foodandwine/clientlibs/imgs/blue1x1.png";
 						messageText = pageProperties.get("tweet", StringUtils.EMPTY);
 					}

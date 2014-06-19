@@ -113,7 +113,12 @@ $(document).ready(function() {
 					Handlebars.registerHelper('showOverlay', function(templateName, hasDefaultImage, options) {
 						return !(templateName == "twitter" && hasDefaultImage) ? options.fn(this) : options.inverse(this);
 					});
-
+                    Handlebars.registerHelper('between', function(value, bottom, top, options) {
+                        return (value >= bottom && value <= top) ? options.fn(this) : options.inverse(this);
+                    });
+                    Handlebars.registerHelper('betweenTwoRanges', function(value, bottom1, top1, bottom2, top2, options) {
+                        return ((value >= bottom1 && value <= top1) || (value >= bottom2 && value <= top2)) ? options.fn(this) : options.inverse(this);
+                    });
 					var template = Handlebars.compile(source);
 					$this.find(".mosaic").append(template(obj));
 				},
@@ -221,6 +226,12 @@ $(document).ready(function() {
 					Handlebars.registerHelper('showOverlay', function(templateName, hasDefaultImage, options) {
 						return !(templateName == "twitter" && hasDefaultImage) ? options.fn(this) : options.inverse(this);
 					});
+                    Handlebars.registerHelper('between', function(value, bottom, top, options) {
+                        return (value >= bottom && value <= top) ? options.fn(this) : options.inverse(this);
+                    });
+                    Handlebars.registerHelper('betweenTwoRanges', function(value, bottom1, top1, bottom2, top2, options) {
+                        return ((value >= bottom1 && value <= top1) || (value >= bottom2 && value <= top2)) ? options.fn(this) : options.inverse(this);
+                    });
 					var template = Handlebars.compile(source);
 					$this.find(".mosaic").append(template(obj));
 				},
@@ -314,6 +325,12 @@ $(document).ready(function() {
 				Handlebars.registerHelper('showOverlay', function(templateName, hasDefaultImage, options) {
 					return !(templateName == "twitter" && hasDefaultImage) ? options.fn(this) : options.inverse(this);
 				});
+                Handlebars.registerHelper('between', function(value, bottom, top, options) {
+                    return (value >= bottom && value <= top) ? options.fn(this) : options.inverse(this);
+                });
+                Handlebars.registerHelper('betweenTwoRanges', function(value, bottom1, top1, bottom2, top2, options) {
+                    return ((value >= bottom1 && value <= top1) || (value >= bottom2 && value <= top2)) ? options.fn(this) : options.inverse(this);
+                });
 				var template = Handlebars.compile(source);
 				$this.find(".mosaic").append(template(obj));
 			},

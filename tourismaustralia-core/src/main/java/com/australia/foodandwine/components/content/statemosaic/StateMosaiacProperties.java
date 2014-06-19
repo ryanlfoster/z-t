@@ -10,15 +10,18 @@ public class StateMosaiacProperties {
 	private final String cityTagName;
 	private final String categoryLogo;
 	private final String templateName;
+
 	private String userName, messageText, postLink;
 	private String linkChecker;
 	private String pageTemplate;
 	private String socialIconsWhite;
 	private String socialIconsBlack;
 	private long totalResults;
+	private Boolean hasDefaultImageFlag;
+    private String imageOverlay;
 
 	public StateMosaiacProperties(String title, String description, String image, String pagePath, String stateTag,
-		String categoryTagName, String cityTagName, String categoryLogo, String templateName) {
+								  String categoryTagName, String cityTagName, String categoryLogo, String templateName) {
 		this.title = title;
 		this.description = description;
 		this.image = image;
@@ -130,4 +133,19 @@ public class StateMosaiacProperties {
 		return pagePath;
 	}
 
+	public void setHasDefaultImageFlag(Boolean hasDefaultImageFlag) {
+        this.hasDefaultImageFlag = hasDefaultImageFlag;
+    }
+
+	public Boolean getHasDefaultImageFlag() {
+		return hasDefaultImageFlag;
+	}
+
+    public void setImageOverlay(String imageOverlay) {
+        this.imageOverlay = imageOverlay;
+    }
+
+    public Boolean getImageOverlay() {
+        return imageOverlay;
+    }
 }

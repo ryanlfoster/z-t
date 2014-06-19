@@ -45,14 +45,14 @@ public class StateMosaicServlet extends SlingAllMethodsServlet {
 	private static final long LIMIT = 10;
 
 	ImmutableMap<String, String> pathToLocationTag = ImmutableMap.<String, String> builder()
-		.put(PathUtils.FOOD_AND_WINE_EXPLORE_AUSTRALIAN_CAPITAL_TERRITORY, TagUtils.AUSTRALIA_CAPITAL_TERRITORY_TAG)
-		.put(PathUtils.FOOD_AND_WINE_EXPLORE_NEW_SOUTH_WALES, TagUtils.NEW_SOUTH_WALES_TAG)
-		.put(PathUtils.FOOD_AND_WINE_EXPLORE_NORTHERN_TERRITORY, TagUtils.NORTHERN_TERRITORY_TAG)
-		.put(PathUtils.FOOD_AND_WINE_EXPLORE_QUEENSLAND, TagUtils.QUEENSLAND_TAG)
-		.put(PathUtils.FOOD_AND_WINE_EXPLORE_SOUTH_AUSTRALIA, TagUtils.SOUTH_AUSTRALIA_TAG)
-		.put(PathUtils.FOOD_AND_WINE_EXPLORE_TASMANIA, TagUtils.TASMANIA_TAG)
-		.put(PathUtils.FOOD_AND_WINE_EXPLORE_VICTORIA, TagUtils.VICTORIA_TAG)
-		.put(PathUtils.FOOD_AND_WINE_EXPLORE_WESTERN_AUSTRALIA, TagUtils.WESTERN_AUSTRALIA_TAG).build();
+			.put(PathUtils.FOOD_AND_WINE_EXPLORE_AUSTRALIAN_CAPITAL_TERRITORY, TagUtils.AUSTRALIA_CAPITAL_TERRITORY_TAG)
+			.put(PathUtils.FOOD_AND_WINE_EXPLORE_NEW_SOUTH_WALES, TagUtils.NEW_SOUTH_WALES_TAG)
+			.put(PathUtils.FOOD_AND_WINE_EXPLORE_NORTHERN_TERRITORY, TagUtils.NORTHERN_TERRITORY_TAG)
+			.put(PathUtils.FOOD_AND_WINE_EXPLORE_QUEENSLAND, TagUtils.QUEENSLAND_TAG)
+			.put(PathUtils.FOOD_AND_WINE_EXPLORE_SOUTH_AUSTRALIA, TagUtils.SOUTH_AUSTRALIA_TAG)
+			.put(PathUtils.FOOD_AND_WINE_EXPLORE_TASMANIA, TagUtils.TASMANIA_TAG)
+			.put(PathUtils.FOOD_AND_WINE_EXPLORE_VICTORIA, TagUtils.VICTORIA_TAG)
+			.put(PathUtils.FOOD_AND_WINE_EXPLORE_WESTERN_AUSTRALIA, TagUtils.WESTERN_AUSTRALIA_TAG).build();
 
 	@Override
 	protected void doGet(SlingHttpServletRequest request, SlingHttpServletResponse response) {
@@ -62,7 +62,7 @@ public class StateMosaicServlet extends SlingAllMethodsServlet {
 	/**
 	 * Process method to get 10 set of pages based on tags each time servlet
 	 * called.
-	 * 
+	 *
 	 * @param request
 	 * @param response
 	 */
@@ -84,19 +84,19 @@ public class StateMosaicServlet extends SlingAllMethodsServlet {
 		if (categoryTags != null && categoryTags.length > 0) {
 			if (categoryTags.length == 1) {
 				queryString = "SELECT * FROM [nt:base] AS s WHERE ISDESCENDANTNODE([/content/food-and-wine]) and [cq:tags] like '%"
-					+ StringUtils.trimToEmpty(stateTags)
-					+ "%' and ( [cq:tags] like '%/"
-					+ categoryTags[0].trim()
-					+ "%') "
-					+ " and ([cq:template]  LIKE '%/apps/foodandwine/templates/articlepage%' or [cq:template]  LIKE '%/apps/foodandwine/templates/facebookpage%' "
-					+ "or [cq:template]  LIKE '%/apps/foodandwine/templates/twitterpage%' or [cq:template]  LIKE '%/apps/foodandwine/templates/instagrampage%') ";
+						+ StringUtils.trimToEmpty(stateTags)
+						+ "%' and ( [cq:tags] like '%/"
+						+ categoryTags[0].trim()
+						+ "%') "
+						+ " and ([cq:template]  LIKE '%/apps/foodandwine/templates/articlepage%' or [cq:template]  LIKE '%/apps/foodandwine/templates/facebookpage%' "
+						+ "or [cq:template]  LIKE '%/apps/foodandwine/templates/twitterpage%' or [cq:template]  LIKE '%/apps/foodandwine/templates/instagrampage%') ";
 			} else {
 				queryString = "SELECT * FROM [nt:base] AS s WHERE ISDESCENDANTNODE([/content/food-and-wine]) and [cq:tags] like '%"
-					+ StringUtils.trimToEmpty(stateTags) + "%' and( [cq:tags] like '%/" + categoryTags[0].trim() + "%'";
+						+ StringUtils.trimToEmpty(stateTags) + "%' and( [cq:tags] like '%/" + categoryTags[0].trim() + "%'";
 			}
 		} else {
 			queryString = "SELECT * FROM [nt:base] AS s WHERE ISDESCENDANTNODE([/content/food-and-wine]) and [cq:tags] like '%"
-				+ StringUtils.trimToEmpty(stateTags) + "%'";
+					+ StringUtils.trimToEmpty(stateTags) + "%'";
 		}
 		try {
 			QueryManager queryManager = session.getWorkspace().getQueryManager();
@@ -109,7 +109,7 @@ public class StateMosaicServlet extends SlingAllMethodsServlet {
 				}
 			}
 			queryString += " and ([cq:template]  LIKE '%/apps/foodandwine/templates/articlepage%' or [cq:template]  LIKE '%/apps/foodandwine/templates/facebookpage%' "
-				+ "or [cq:template]  LIKE '%/apps/foodandwine/templates/twitterpage%' or [cq:template]  LIKE '%/apps/foodandwine/templates/instagrampage%') and not excludeFromMosaic = true order by [addToShortlist] DESC, [jcr:created] DESC";
+					+ "or [cq:template]  LIKE '%/apps/foodandwine/templates/twitterpage%' or [cq:template]  LIKE '%/apps/foodandwine/templates/instagrampage%') and not excludeFromMosaic = true order by [addToShortlist] DESC, [jcr:created] DESC";
 			Query query = queryManager.createQuery(queryString, Query.JCR_SQL2);
 			QueryResult result1 = query.execute();
 			long totalResults = result1.getRows().getSize();
@@ -161,8 +161,12 @@ public class StateMosaicServlet extends SlingAllMethodsServlet {
 
 				String templateName = articlePage.getProperties().get("cq:template", "");
 				templateName = templateName.substring(templateName.lastIndexOf("/") + 1);
+				String image = null;
+                String imageOverlay = null;
+				Boolean hasDefaultImage = true;
+
 				if (!templateName.equals("facebookpage") && (!templateName.equals("instagrampage"))
-					&& (!templateName.equals("twitterpage"))) {
+						&& (!templateName.equals("twitterpage"))) {
 					templateName = null;
 				} else {
 					postLink = pageProperties.get("postLink", StringUtils.EMPTY);
@@ -171,6 +175,9 @@ public class StateMosaicServlet extends SlingAllMethodsServlet {
 						messageText = pageProperties.get("postText", StringUtils.EMPTY);
 					}
 					if (templateName.equals("twitterpage")) {
+						//Twitter was designed to be a blue square
+						image = "/etc/designs/foodandwine/clientlibs/imgs/grey1x1.png";
+                        imageOverlay = "/etc/designs/foodandwine/clientlibs/imgs/blue1x1.png";
 						messageText = pageProperties.get("tweet", StringUtils.EMPTY);
 					}
 					if (templateName.equals("instagrampage")) {
@@ -181,19 +188,22 @@ public class StateMosaicServlet extends SlingAllMethodsServlet {
 				String title = articlePage.getTitle();
 				String description = articlePage.getDescription();
 				String pagePth = request.getResourceResolver().map(articlePage.getPath()) + ".html";
-				String image = null;
 				Resource jcrResource = articlePage.adaptTo(Resource.class).getChild(JcrConstants.JCR_CONTENT);
 				Image pageImage = new Image(jcrResource, "image");
 				if (pageImage != null && pageImage.hasContent()) {
 					image = pageImage.getPath() + ".img.jpg";
-				} else {
+					hasDefaultImage = false;
+				} else if(image == null) {
 					image = "/etc/designs/foodandwine/clientlibs/imgs/blank1x1.png";
 				}
 				StateMosaiacProperties bean = new StateMosaiacProperties(title, description, image, pagePth,
-					stateTitle, categoryTagName, cityTagName, categoryLogo, templateName);
+						stateTitle, categoryTagName, cityTagName, categoryLogo, templateName);
 				bean.setMessageText(messageText);
 				bean.setPostLink(postLink);
 				bean.setUserName(userName);
+				bean.setHasDefaultImageFlag(hasDefaultImage);
+                bean.setImageOverlay(imageOverlay);
+
 				if (StringUtils.endsWith(postLink, ".html")) {
 					bean.setLinkChecker("true");
 				}
@@ -224,7 +234,7 @@ public class StateMosaicServlet extends SlingAllMethodsServlet {
 	private String resolveSocialIconPath(String type, String color) {
 		String soctype = StringUtils.replace(type, "facebook", "fb");
 		return "/etc/designs/foodandwine/clientlibs/imgs/base/share/share-".concat(soctype).concat("-").concat(color)
-			.concat(".png");
+				.concat(".png");
 	}
 
 }

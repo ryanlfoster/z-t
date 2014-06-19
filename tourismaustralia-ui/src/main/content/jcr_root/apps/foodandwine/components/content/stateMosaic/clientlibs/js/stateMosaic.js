@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	
+
 	$('.stateMosaic').each(function() {
 		var currentXhr;
 		var count=0;
@@ -22,7 +22,7 @@ $(document).ready(function() {
 		$(this).find('.mosaicgridchanger-list-button').click(function() {
 			type="list";
 		});
-		
+
 		$('.category-input-small').on('change', function(e) {
 			count=0;
 			$this.find(".mosaic").empty();
@@ -122,7 +122,7 @@ $(document).ready(function() {
 				}
 			});
 		});
-		
+
 		$(document).on("click", '.category-input ', function() {
 			count=0;
 			$this.find(".mosaic").empty();
@@ -253,16 +253,16 @@ $(document).ready(function() {
 					$this.find(".mosaic").append("<h3 class='faw-article-healdine'>"+messageText+"</h3>");
 					$(".mosaicgridchanger").hide();
 				}
-				
+
 				if(msg.length!=0){
 					if (msg[0].totalResults > count){
 						$this.find(".btn-secondary").show();
-						
+
 					}
 					else{
 						$this.find(".btn-secondary").hide();
 					}
-				}	
+				}
 				var data = JSON.stringify(msg);
 				data = data.replace("[", "");
 				data = data.replace("]", "");
